@@ -31,6 +31,19 @@ It is an independent working edition. Nallino's edition is in the public domain.
 
 The project rules and the 16 session prompts are in [S01/controls/](S01/controls/). The intermediate QA proof images for S01 (178 files, 83 MB) are not in this repository; they stay in the archived S01 package.
 
+## Earlier work (June 2026)
+
+Earlier work was released on Zenodo as [10.5281/zenodo.20539593](https://doi.org/10.5281/zenodo.20539593) under CC0. It includes:
+- a 251-page Arabic–English–Chinese text working edition
+- a fixed-star catalogue (485 stars)
+- a geographical gazetteer (269 places)
+- a partial chronology
+- the v083 TeX data
+
+Its files are in [prior/zenodo-20584850/](prior/zenodo-20584850/), except the large packages, which stay on Zenodo. They predate the S01–S16 workflow, so they have to be replayed against the scans before reuse.
+
+This repository is the maintained home of the edition from now on.
+
 ## Credits
 
 - al-Battānī: author of the Arabic text and tables.
