@@ -1,0 +1,13 @@
+{
+  "session": "S01",
+  "canonical_Nallino_checkpoint": "AB01-NALLINO-S01-v002",
+  "canonical_Nallino_sha256": "93fdc19b0917d87ec1e42a27296150c857b47f63984312793b4cc677c0c2531e",
+  "digest_algorithm": "sha256 over lexicographically sorted page basenames + NUL + exact JSON bytes",
+  "canonical_Arabic_checkpoint": null,
+  "canonical_Arabic_sha256": null,
+  "Arabic_checkpoint_disposition": "NOT_USED: no Arabic authorial Zij unit is owned by S01. Arabic quotations belong to Nallino apparatus.",
+  "accepted_Arabic_corrections": 0,
+  "target_languages_requested_in_current_instruction": [],
+  "translation_artifacts": "none; no target-language translation silently inferred",
+  "language_sync": "No translations are promoted from unverified Arabic working-state material."
+}

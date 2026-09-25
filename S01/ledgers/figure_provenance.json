@@ -1,0 +1,424 @@
+[
+  {
+    "object_id": "AB01-PDF0002-F01",
+    "page": 2,
+    "role": "NALLINO_APPARATUS",
+    "description": "Astronomical frontispiece: surviving raster panel",
+    "source_xref": 22,
+    "raw_path": "source/raw/AB01-PDF0002-F01-original.jpx",
+    "decoded_path": "source/raw/AB01-PDF0002-F01-decoded.png",
+    "presentation_path": "source/presentation/AB01-PDF0002-F01.png",
+    "source_image_pixels": [
+      2491,
+      3702
+    ],
+    "crop_box_pixels": [
+      0,
+      312,
+      2491,
+      2766
+    ],
+    "pdf_rect_pt": [
+      0,
+      74.88,
+      597.84,
+      663.84
+    ],
+    "presentation_pixels": [
+      2491,
+      2454
+    ],
+    "operations": [
+      "Decode original JPX without modifying RGB samples",
+      "Crop native pixel rectangle [0,312,2491,2766); no resampling, deskew, levels or inpainting"
+    ],
+    "source_dpi": [
+      300,
+      300
+    ],
+    "raw_sha256": "3f9529b6854a61d90e2caea7d07724cbbd7ca8fd1cc2e0518271c8d867d0af1a",
+    "decoded_sha256": "b362803d6e5df4df4a8ea314acef19bc0f23190d050e4bf3a9637331b5c4555e",
+    "presentation_sha256": "5bd4b05c06958fac964c5235bb93b754caf1b3fafb339e9ecaf52a58ac8ba214",
+    "pixel_equivalence_verified": true,
+    "insertion_status": "included",
+    "limitation": "The source itself clips the diagram at panel and side edges. Missing content is not reconstructed. Only solid provider title/UI bands are removed."
+  },
+  {
+    "object_id": "AB01-PDF0020-G01",
+    "page": 20,
+    "role": "NALLINO_APPARATUS",
+    "description": "Native-pixel evidence for resolved Arabic reading والعداوة",
+    "source_xref": 155,
+    "raw_path": "source/raw/AB01-PDF0020-G01-raw.png",
+    "presentation_path": "source/presentation/AB01-PDF0020-G01.png",
+    "source_image_pixels": [
+      5140,
+      7414
+    ],
+    "crop_box_pixels": [
+      1033,
+      2225,
+      1284,
+      2359
+    ],
+    "pdf_rect_pt": [
+      124,
+      267,
+      154,
+      283
+    ],
+    "presentation_pixels": [
+      251,
+      134
+    ],
+    "operations": [
+      "Crop decoded highest-resolution page image on integer pixel bounds",
+      "Presentation copy identical to raw crop; no retouching or interpolation"
+    ],
+    "source_dpi": [
+      600.0,
+      600.0
+    ],
+    "raw_sha256": "25d3578fbf60a6d8e76e805c8d53e62643379c13b63e567173bb6107cd6ae424",
+    "presentation_sha256": "25d3578fbf60a6d8e76e805c8d53e62643379c13b63e567173bb6107cd6ae424",
+    "pixel_equivalence_verified": true,
+    "insertion_status": "evidence only; encoding resolved after native-pixel replay",
+    "limitation": "No image placeholder remains in the final reader for this word."
+  },
+  {
+    "object_id": "AB01-PDF0041-G01",
+    "page": 41,
+    "role": "NALLINO_APPARATUS",
+    "description": "Native-pixel evidence for resolved Arabic consonantal reading ثبت",
+    "source_xref": 303,
+    "raw_path": "source/raw/AB01-PDF0041-G01-raw.png",
+    "presentation_path": "source/presentation/AB01-PDF0041-G01.png",
+    "source_image_pixels": [
+      5140,
+      7404
+    ],
+    "crop_box_pixels": [
+      4258,
+      4941,
+      4392,
+      5042
+    ],
+    "pdf_rect_pt": [
+      511,
+      593,
+      527,
+      605
+    ],
+    "presentation_pixels": [
+      134,
+      101
+    ],
+    "operations": [
+      "Crop decoded highest-resolution page image on integer pixel bounds",
+      "Presentation copy identical to raw crop; no retouching or interpolation"
+    ],
+    "source_dpi": [
+      600.0,
+      600.0
+    ],
+    "raw_sha256": "634f426a2b231485d6aa07abafeeb5889df5939cf2a0641ec5bc17f4372f774a",
+    "presentation_sha256": "634f426a2b231485d6aa07abafeeb5889df5939cf2a0641ec5bc17f4372f774a",
+    "pixel_equivalence_verified": true,
+    "insertion_status": "evidence only; encoding resolved after native-pixel replay",
+    "limitation": "No image placeholder remains in the final reader for this word."
+  },
+  {
+    "object_id": "AB01-PDF0070-G01",
+    "page": 70,
+    "role": "NALLINO_APPARATUS",
+    "description": "Orthographic sign: exact-source glyph fallback, probable alif with waslah",
+    "source_xref": 510,
+    "raw_path": "source/raw/AB01-PDF0070-G01-raw.png",
+    "presentation_path": "source/presentation/AB01-PDF0070-G01.png",
+    "source_image_pixels": [
+      5140,
+      7388
+    ],
+    "crop_box_pixels": [
+      2341,
+      3191,
+      2426,
+      3351
+    ],
+    "pdf_rect_pt": [
+      281,
+      383,
+      291,
+      402
+    ],
+    "presentation_pixels": [
+      85,
+      160
+    ],
+    "operations": [
+      "Crop decoded highest-resolution page image on integer pixel bounds",
+      "Presentation copy identical to raw crop; no retouching or interpolation"
+    ],
+    "source_dpi": [
+      600.0,
+      600.0
+    ],
+    "raw_sha256": "bb895a2f490ba8709a130232554fcea9572d859b26bae55c65f388597a00b794",
+    "presentation_sha256": "bb895a2f490ba8709a130232554fcea9572d859b26bae55c65f388597a00b794",
+    "pixel_equivalence_verified": true,
+    "insertion_status": "included",
+    "limitation": "Unresolved encoding is not supplied conjecturally."
+  },
+  {
+    "object_id": "AB01-PDF0016-F01",
+    "page": 16,
+    "role": "NALLINO_APPARATUS",
+    "description": "Preface head ornament",
+    "source_xref": 126,
+    "raw_path": "source/raw/AB01-PDF0016-F01-raw.png",
+    "presentation_path": "source/presentation/AB01-PDF0016-F01.png",
+    "source_image_pixels": [
+      5140,
+      7398
+    ],
+    "crop_box_pixels": [
+      700,
+      991,
+      4267,
+      1217
+    ],
+    "pdf_rect_pt": [
+      84,
+      119,
+      512,
+      146
+    ],
+    "presentation_pixels": [
+      3567,
+      226
+    ],
+    "operations": [
+      "Crop decoded highest-resolution page image on integer pixel bounds",
+      "Presentation copy identical to raw crop; no retouching or interpolation"
+    ],
+    "source_dpi": [
+      600.0,
+      600.0
+    ],
+    "raw_sha256": "1ecb23fd0ea9149185d300690dd87b45f6297531aca3a5bd8afd3c4a110ce80c",
+    "presentation_sha256": "1ecb23fd0ea9149185d300690dd87b45f6297531aca3a5bd8afd3c4a110ce80c",
+    "pixel_equivalence_verified": true,
+    "insertion_status": "included",
+    "limitation": ""
+  },
+  {
+    "object_id": "AB01-PDF0022-G01",
+    "page": 22,
+    "role": "NALLINO_APPARATUS",
+    "description": "Syriac toponym: exact glyph fallback; Unicode reading unresolved",
+    "source_xref": 169,
+    "raw_path": "source/raw/AB01-PDF0022-G01-raw.png",
+    "presentation_path": "source/presentation/AB01-PDF0022-G01.png",
+    "source_image_pixels": [
+      5140,
+      7390
+    ],
+    "crop_box_pixels": [
+      1458,
+      4100,
+      1701,
+      4251
+    ],
+    "pdf_rect_pt": [
+      175,
+      492,
+      204,
+      510
+    ],
+    "presentation_pixels": [
+      243,
+      151
+    ],
+    "operations": [
+      "Crop decoded highest-resolution page image on integer pixel bounds",
+      "Presentation copy identical to raw crop; no retouching or interpolation"
+    ],
+    "source_dpi": [
+      600.0,
+      600.0
+    ],
+    "raw_sha256": "76fc3c3d1ef1c4bd7dc6474cdbb750a81a9135c911a48edb60466b572ad46c8d",
+    "presentation_sha256": "76fc3c3d1ef1c4bd7dc6474cdbb750a81a9135c911a48edb60466b572ad46c8d",
+    "pixel_equivalence_verified": true,
+    "insertion_status": "included",
+    "limitation": "Unresolved encoding is not supplied conjecturally."
+  },
+  {
+    "object_id": "AB01-PDF0078-F01",
+    "page": 78,
+    "role": "NALLINO_APPARATUS",
+    "description": "Bibliography terminal ornament",
+    "source_xref": 566,
+    "raw_path": "source/raw/AB01-PDF0078-F01-raw.png",
+    "presentation_path": "source/presentation/AB01-PDF0078-F01.png",
+    "source_image_pixels": [
+      2570,
+      3700
+    ],
+    "crop_box_pixels": [
+      970,
+      1883,
+      1576,
+      1930
+    ],
+    "pdf_rect_pt": [
+      233,
+      452,
+      378,
+      463
+    ],
+    "presentation_pixels": [
+      606,
+      47
+    ],
+    "operations": [
+      "Crop decoded highest-resolution page image on integer pixel bounds",
+      "Presentation copy identical to raw crop; no retouching or interpolation"
+    ],
+    "source_dpi": [
+      300.0,
+      300.0
+    ],
+    "raw_sha256": "92060f5b13b2af3fd4fcc3dfb734adac8fd2de1c988c5a7afd6a687dc9a48ddd",
+    "presentation_sha256": "92060f5b13b2af3fd4fcc3dfb734adac8fd2de1c988c5a7afd6a687dc9a48ddd",
+    "pixel_equivalence_verified": true,
+    "insertion_status": "included",
+    "limitation": ""
+  },
+  {
+    "object_id": "AB01-PDF0082-G01",
+    "page": 82,
+    "role": "NALLINO_APPARATUS",
+    "description": "Corrigendum 175 note 9: original Arabic lemma",
+    "source_xref": 595,
+    "raw_path": "source/raw/AB01-PDF0082-G01-raw.png",
+    "presentation_path": "source/presentation/AB01-PDF0082-G01.png",
+    "source_image_pixels": [
+      5140,
+      7386
+    ],
+    "crop_box_pixels": [
+      1275,
+      1399,
+      1501,
+      1525
+    ],
+    "pdf_rect_pt": [
+      153,
+      168,
+      180,
+      183
+    ],
+    "presentation_pixels": [
+      226,
+      126
+    ],
+    "operations": [
+      "Crop decoded highest-resolution page image on integer pixel bounds",
+      "Presentation copy identical to raw crop; no retouching or interpolation"
+    ],
+    "source_dpi": [
+      600.0,
+      600.0
+    ],
+    "raw_sha256": "2f32201596c243c157e83fb66567801803882e2e1bacb4d0376cef5c13767691",
+    "presentation_sha256": "2f32201596c243c157e83fb66567801803882e2e1bacb4d0376cef5c13767691",
+    "pixel_equivalence_verified": true,
+    "insertion_status": "included",
+    "limitation": "Unresolved encoding is not supplied conjecturally."
+  },
+  {
+    "object_id": "AB01-PDF0082-G02",
+    "page": 82,
+    "role": "NALLINO_APPARATUS",
+    "description": "Corrigendum 175 note 9: corrected Arabic lemma",
+    "source_xref": 595,
+    "raw_path": "source/raw/AB01-PDF0082-G02-raw.png",
+    "presentation_path": "source/presentation/AB01-PDF0082-G02.png",
+    "source_image_pixels": [
+      5140,
+      7386
+    ],
+    "crop_box_pixels": [
+      1608,
+      1399,
+      1826,
+      1525
+    ],
+    "pdf_rect_pt": [
+      193,
+      168,
+      219,
+      183
+    ],
+    "presentation_pixels": [
+      218,
+      126
+    ],
+    "operations": [
+      "Crop decoded highest-resolution page image on integer pixel bounds",
+      "Presentation copy identical to raw crop; no retouching or interpolation"
+    ],
+    "source_dpi": [
+      600.0,
+      600.0
+    ],
+    "raw_sha256": "bf256eb44aa2ffea252cfd62a7849ac06056a49bce659dd5fccde12b7d065a98",
+    "presentation_sha256": "bf256eb44aa2ffea252cfd62a7849ac06056a49bce659dd5fccde12b7d065a98",
+    "pixel_equivalence_verified": true,
+    "insertion_status": "included",
+    "limitation": "Unresolved encoding is not supplied conjecturally."
+  },
+  {
+    "object_id": "AB01-PDF0089-F01",
+    "page": 89,
+    "role": "NALLINO_APPARATUS",
+    "description": "Addenda terminal ornament",
+    "source_xref": 646,
+    "raw_path": "source/raw/AB01-PDF0089-F01-raw.png",
+    "presentation_path": "source/presentation/AB01-PDF0089-F01.png",
+    "source_image_pixels": [
+      5012,
+      7426
+    ],
+    "crop_box_pixels": [
+      2041,
+      4458,
+      3292,
+      4534
+    ],
+    "pdf_rect_pt": [
+      245,
+      535,
+      395,
+      544
+    ],
+    "presentation_pixels": [
+      1251,
+      76
+    ],
+    "operations": [
+      "Crop decoded highest-resolution page image on integer pixel bounds",
+      "Presentation copy identical to raw crop; no retouching or interpolation"
+    ],
+    "source_dpi": [
+      600.0,
+      600.0
+    ],
+    "raw_sha256": "aacaba385dfb9c1379ba44f102b3a4b6ddb50a44d057c7ba612078af48aa2725",
+    "presentation_sha256": "aacaba385dfb9c1379ba44f102b3a4b6ddb50a44d057c7ba612078af48aa2725",
+    "pixel_equivalence_verified": true,
+    "insertion_status": "included",
+    "limitation": ""
+  }
+]

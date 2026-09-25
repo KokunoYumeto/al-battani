@@ -1,0 +1,17 @@
+session_id	work_id	source_id	owned_source_units	approx_units	production_role	first_source_unit	last_source_unit	continuity_note
+S01	AB01	SRC01	master PDF2; PDF10; PDF12-89	80	Nallino Part I frontispiece/front matter/preface	PDF2	PDF89	first complete-edition unit; disposition PDF1-89
+S02	AB01	SRC01	master PDF90-198 / Part I printed pp.1-109	109	Latin translation and notes	PDF90	PDF198	start printed p1
+S03	AB01	SRC01	master PDF199-307 / Part I printed pp.110-218	109	Latin translation and notes	PDF199	PDF307	continue exact printed sequence
+S04	AB01	SRC01	master PDF308-416 / Part I printed pp.219-327	109	Latin translation and notes	PDF308	PDF416	close Part I; disposition through PDF419
+S05	AB01	SRC01	master PDF418; PDF420-448	30	Part II half-title/front matter/preface/corrigenda	PDF418	PDF448	disposition PDF417-449
+S06	AB01	SRC01;SRC03	master PDF450-549 / Part II printed pp.1-100	100	tables and notes	PDF450	PDF549	replay prior T01 at PDF450-455; first untouched old-lane unit PDF456
+S07	AB01	SRC01	master PDF550-649 / Part II printed pp.101-200	100	tables and notes	PDF550	PDF649	continue table blocks
+S08	AB01	SRC01	master PDF650-749 / Part II printed pp.201-300	100	tables and notes	PDF650	PDF749	continue table blocks
+S09	AB01	SRC01	master PDF750-862 / Part II printed pp.301-413	113	tables, notes, indices	PDF750	PDF862	close Part II; disposition PDF863-869
+S10	AB01	SRC01;SRC02;SRC05	master PDF868; 870-872; 1153; 1151-1147; 1146-1073 descending	84	Part III titles/corrigenda/TOC and Arabic main text block 1	PDF868	PDF1073 logical end	Arabic reading order, not PDF order
+S11	AB01	SRC01;SRC02;SRC05	master PDF1072-999 descending	74	Arabic main text block 2	PDF1072	PDF999 logical end	Arabic reading order
+S12	AB01	SRC01;SRC02;SRC05	master PDF998-926 descending	73	Arabic main text block 3	PDF998	PDF926 logical end	Arabic reading order
+S13	AB01	SRC01;SRC02;SRC05	master PDF925-873 descending	53	Arabic tables/editorial note	PDF925	PDF873 logical end	close Arabic body; disposition PDF1152 and 1154-1162 separately
+S14	AB03	SRC07	Escorial 20r-80v XML page sides	122	Arabic Tetrabiblos commentary, 40 chapters	20r	80v	CC BY transcription; preserve PAL editorial signs
+S15	AB02	SRC06	publication physical PDF1-136 / printed pp.13-148	136	astrological-history work and labelled modern editorial layers	PDF1	PDF136	separate AB_SMALL_WORK from edition/translation/commentary
+S16	AB01-AB06	all	all completed session artifacts	NA	integration, monolingual assembly, correction routing, cold audit	all	all	no new source transcription; do not hide gaps AB04 or duplicate AB05/AB06

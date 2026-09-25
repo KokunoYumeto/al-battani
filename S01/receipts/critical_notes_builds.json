@@ -1,0 +1,31 @@
+{
+  "artifact": "pdf/S01_CRITICAL_NOTES_v002.pdf",
+  "role": "MODERN_EDITORIAL",
+  "language": "English critical apparatus with cited source readings; not a target-language translation",
+  "builds": [
+    {
+      "build": "A",
+      "clean_directory": true,
+      "passes": 2,
+      "pages": 3,
+      "bytes": 59981,
+      "pdf_sha256": "36967e3c8e289cfade4ce5110625f63ef4ff6c6be09189693587a6a19db6aee1",
+      "missing_characters": 0,
+      "overfull_boxes": 0,
+      "font_warnings": 0
+    },
+    {
+      "build": "B",
+      "clean_directory": true,
+      "passes": 2,
+      "pages": 3,
+      "bytes": 59981,
+      "pdf_sha256": "36967e3c8e289cfade4ce5110625f63ef4ff6c6be09189693587a6a19db6aee1",
+      "missing_characters": 0,
+      "overfull_boxes": 0,
+      "font_warnings": 0
+    }
+  ],
+  "byte_identical": true,
+  "source_date_epoch": 1790294400
+}

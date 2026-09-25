@@ -1,0 +1,27 @@
+{
+  "independent_cold_auditor": "NOT_PERFORMED; a technical inventory is not an independent scholarly source audit",
+  "reason": "Unverified extraction is not a completed scholarly edition; draft TeX includes unresolved source readings and multilingual-glyph/RTL hazards.",
+  "render_receipt": {
+    "rendered": [
+      "AB01-PDF0002 full source at 216 dpi"
+    ],
+    "sample_inspection_status": "PENDING",
+    "visually_inspected_in_this_resumption": false
+  },
+  "scholarly_tex_builds": "NOT_RUN",
+  "source_excerpt_builds": [
+    {
+      "bytes": 7349676,
+      "operation": "SOURCE_EVIDENCE_EXCERPT_REBUILD_ONLY",
+      "run": 1,
+      "sha256": "fb6303171352b979038cd9ab54718604e3932065b9ff4d04526f288f18bdcce6"
+    },
+    {
+      "bytes": 7349676,
+      "operation": "SOURCE_EVIDENCE_EXCERPT_REBUILD_ONLY",
+      "run": 2,
+      "sha256": "fb6303171352b979038cd9ab54718604e3932065b9ff4d04526f288f18bdcce6"
+    }
+  ],
+  "source_excerpt_byte_determinism": true
+}

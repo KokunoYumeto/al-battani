@@ -1,0 +1,242 @@
+{
+  "status": "PASS_TECHNICAL_SCOPE_ONLY",
+  "audit_mode": "read-only separate executable process",
+  "independent_philological_audit": false,
+  "auditor_identity_limit": "Script authored in the production session. Separate execution does not make it an independent textual reviewer.",
+  "textual_fidelity_certified": false,
+  "flagged_source_entries": 12,
+  "open_reading_entries": 11,
+  "documented_source_loss_entries": 1,
+  "checks": [
+    {
+      "test": "controlling master exact identity",
+      "status": "PASS",
+      "detail": "Expected 80,946,704 bytes and pinned SHA-256."
+    },
+    {
+      "test": "physical master page count",
+      "status": "PASS",
+      "detail": {
+        "actual": 1162,
+        "retrieval_index_count_not_used": 1161
+      }
+    },
+    {
+      "test": "evidence excerpt page count",
+      "status": "PASS",
+      "detail": 89
+    },
+    {
+      "test": "all excerpt pages visually equivalent to master at 36 dpi",
+      "status": "PASS",
+      "detail": {
+        "pages_tested": 89,
+        "mismatch_pages": [],
+        "limit": "render equivalence, not a word-reading test"
+      }
+    },
+    {
+      "test": "all physical units disposed exactly once",
+      "status": "PASS",
+      "detail": {
+        "rows": 89,
+        "scope": "PDF1-89"
+      }
+    },
+    {
+      "test": "bounded ownership exact",
+      "status": "PASS",
+      "detail": {
+        "owned": 80,
+        "sessions_after_S01_started": false
+      }
+    },
+    {
+      "test": "page-record coverage",
+      "status": "PASS",
+      "detail": {
+        "records": 79,
+        "frontispiece_separately_preserved": true
+      }
+    },
+    {
+      "test": "unique source-line anchors",
+      "status": "PASS",
+      "detail": {
+        "total": 3996,
+        "unique": 3996
+      }
+    },
+    {
+      "test": "all line anchors occur in generated TeX",
+      "status": "PASS",
+      "detail": {
+        "missing": []
+      }
+    },
+    {
+      "test": "alignment ledger complete and qualified",
+      "status": "PASS",
+      "detail": {
+        "rows": 3996,
+        "rectangles": "OCR-derived locator candidates, not certified reading boxes"
+      }
+    },
+    {
+      "test": "markup nesting and encoding controls",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "test": "bounded inline image fallbacks",
+      "status": "PASS",
+      "detail": [
+        "AB01-PDF0022-G01",
+        "AB01-PDF0070-G01",
+        "AB01-PDF0082-G01",
+        "AB01-PDF0082-G02"
+      ]
+    },
+    {
+      "test": "all figure crops equal native source pixels",
+      "status": "PASS",
+      "detail": {
+        "objects": 10,
+        "failures": [],
+        "operations": "integer crop only; frontispiece JPX also byte-exact"
+      }
+    },
+    {
+      "test": "fallbacks all linked to assets",
+      "status": "PASS",
+      "detail": [
+        "AB01-PDF0022-G01",
+        "AB01-PDF0070-G01",
+        "AB01-PDF0082-G01",
+        "AB01-PDF0082-G02"
+      ]
+    },
+    {
+      "test": "formula ledger coverage",
+      "status": "PASS",
+      "detail": {
+        "objects": 47,
+        "source_math_spans": 47,
+        "recomputation": "none"
+      }
+    },
+    {
+      "test": "printed transliteration key coverage",
+      "status": "PASS",
+      "detail": {
+        "entries": 11,
+        "no_invented_reader_column_headers": true
+      }
+    },
+    {
+      "test": "printed corrigenda routes valid",
+      "status": "PASS",
+      "detail": {
+        "entries": 86,
+        "bad_routes": [],
+        "critical_limit": "routes recorded; Nallino corrections not silently applied"
+      }
+    },
+    {
+      "test": "canonical Nallino checkpoint digest",
+      "status": "PASS",
+      "detail": "93fdc19b0917d87ec1e42a27296150c857b47f63984312793b4cc677c0c2531e"
+    },
+    {
+      "test": "Arabic canon untouched",
+      "status": "PASS",
+      "detail": {
+        "Arabic_checkpoint": null,
+        "translation_languages": []
+      }
+    },
+    {
+      "test": "two clean two-pass builds",
+      "status": "PASS",
+      "detail": {
+        "builds": 2,
+        "passes_each": 2
+      }
+    },
+    {
+      "test": "final PDF equals both builds",
+      "status": "PASS",
+      "detail": "ea44955e9074edacb1a076626facb7f818e5cfb9795591eb5307661214f475bd"
+    },
+    {
+      "test": "all 80 page rasters reproducible",
+      "status": "PASS",
+      "detail": "36 dpi; A and B"
+    },
+    {
+      "test": "clean compile diagnostics",
+      "status": "PASS",
+      "detail": {
+        "A": {
+          "missing_characters": 0,
+          "overfull_boxes": 0,
+          "source_line_overflows": 0,
+          "font_warnings": 0
+        },
+        "B": {
+          "missing_characters": 0,
+          "overfull_boxes": 0,
+          "source_line_overflows": 0,
+          "font_warnings": 0
+        }
+      }
+    },
+    {
+      "test": "reader page sequence and anchors",
+      "status": "PASS",
+      "detail": {
+        "pages": 80,
+        "missing_anchors": [],
+        "modern_editor_notice_pages": 1,
+        "historical_pages": 79
+      }
+    },
+    {
+      "test": "text blocks inside page bounds",
+      "status": "PASS",
+      "detail": {
+        "out_of_bounds_pages": [],
+        "limit": "does not detect every possible internal overlap"
+      }
+    },
+    {
+      "test": "provider text absent from reader",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "test": "separate critical apparatus coverage and clean builds",
+      "status": "PASS",
+      "detail": {
+        "pages": 3,
+        "apparatus_notes": 12,
+        "role": "MODERN_EDITORIAL",
+        "byte_identical": true,
+        "pdf_sha256": "36967e3c8e289cfade4ce5110625f63ef4ff6c6be09189693587a6a19db6aee1"
+      }
+    },
+    {
+      "test": "no font files distributed",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "test": "production outputs not patched by audit",
+      "status": "PASS",
+      "detail": {
+        "payload_files_frozen": 139
+      }
+    }
+  ],
+  "remaining_release_gate": "Independent cold source/reading audit and disposition of open reading issues; no human-only certification requirement."
+}

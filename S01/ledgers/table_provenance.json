@@ -1,0 +1,22 @@
+[
+  {
+    "table_id": "S01-T01",
+    "source_units": "AB01-PDF0072;AB01-PDF0073",
+    "kind": "printed transliteration list, structured as a key",
+    "rows": 11,
+    "machine_readable": "ledgers/transliteration_key.tsv",
+    "latex": "tex/S01_TRANSLITERATION_KEY.tex",
+    "source_faithful_main_representation": "same original list in S01_NALLINO_SOURCE_v002.tex",
+    "unwitnessed_grid_headers": "none in the reader; TSV column names are editorial metadata"
+  },
+  {
+    "table_id": "S01-F01",
+    "source_units": "AB01-PDF0002",
+    "kind": "composite numerical astronomical diagram, not a rectangular grid",
+    "rows": "not applicable",
+    "machine_readable": "figure_provenance.json identifies exact pixels; numerical cells not conjecturally extracted",
+    "latex": "figure insertion in S01_NALLINO_SOURCE_v002.tex",
+    "source_faithful_main_representation": "exact raster panel",
+    "unwitnessed_grid_headers": "none"
+  }
+]

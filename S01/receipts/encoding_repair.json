@@ -1,0 +1,86 @@
+{
+  "issue": "Python escape sequences in raw mathematical notation caused tabs/form-feed line splitting; repaired encoding only, no source emendation.",
+  "affected_pages": [
+    25,
+    36,
+    42,
+    43
+  ],
+  "scripts": [
+    {
+      "script": "batch_013.py",
+      "prior_sha256": "0a8f29a927cf4f15030670af7985233f5bb2673a43fef0080a4ee59aca3f0294",
+      "new_sha256": "cdaac69d532cb6115c775ed78a053ad2bfbad285731b4d4ba205c5cd56648174"
+    },
+    {
+      "script": "batch_001.py",
+      "prior_sha256": "286f91545dd1fbc656eae3102e9d31f97fb70ce4bc064b2cd9e94c45cf5cea33",
+      "new_sha256": "ebb95fd6f2a7c7dd84f9af7301f3efb2897f6f636a0133ce82d15c76e3fb3463"
+    },
+    {
+      "script": "batch_005.py",
+      "prior_sha256": "f1d6d2eb88a8a63d1ddb91d71fb532a9456c34d2ac216995e8f8532e1190add1",
+      "new_sha256": "a57f6aec88eb395b218713fb26209238809fbe56cec74d32b0d93fba609176a8"
+    },
+    {
+      "script": "batch_010.py",
+      "prior_sha256": "3a80d6aa478a312648b28819649f2499a770edeb2a2ae1a023b3ad1353ce2fc5",
+      "new_sha256": "a8baa5d5939605ad5c770436b1c47c306f1dbcdcc7d39c3daf8c93dc7fd01605"
+    },
+    {
+      "script": "batch_011.py",
+      "prior_sha256": "b07be44b466357b8c9c5804f09df7ef0b3d96ffdfc7a28191b1d5788d4b00216",
+      "new_sha256": "47902aa440c6faab8f1d53c506f98c6b534fd51da3bde0b19db2a06953c604c1"
+    },
+    {
+      "script": "batch_009.py",
+      "prior_sha256": "79c3866abb27248b09f8bc1932d5a654875e7b1cfd02daf41e94490f0c2183c7",
+      "new_sha256": "8f87c846d134fb610e35f8dfaabdd051e69dadfa57c74afda1f786dd5aa2cebd"
+    },
+    {
+      "script": "batch_004.py",
+      "prior_sha256": "7e1f44097193e071ae8e74eef241b4b18b340a2576617aab860fe0ad466aff9f",
+      "new_sha256": "90f294fd75545dea8b4db9b879699fff83e5e6e69ce037cd146e87251f1c05b0"
+    },
+    {
+      "script": "batch_007.py",
+      "prior_sha256": "47753f1749f6e642391a1c3c1090a71e5f10fd10fcb74be31fbac7a753ad942b",
+      "new_sha256": "304c1cd8d7930dbf6408c9fe42ab5e3a6f28eb725ae26b33a6ea88e59041fc38"
+    },
+    {
+      "script": "batch_012.py",
+      "prior_sha256": "64e6e5ee8cd30518834d1b91da9200302396ae470a7022190e2d667314b22b7c",
+      "new_sha256": "3f1464f0e04157cba5849adcd1c089813f11a0533722fe95f7448ce0607132e5"
+    },
+    {
+      "script": "batch_015.py",
+      "prior_sha256": "6a017e235220cd5d25e831db557d808690befe2d9f89791cedf4867a188980d2",
+      "new_sha256": "518b7ba4bb88b1b836df13c63f6de1ff392c3eb0da698d407e43422986ca8f67"
+    },
+    {
+      "script": "batch_003.py",
+      "prior_sha256": "1ae2bc9c907ab940f3eb691e6b066b10b75678c6ef37955b4195b3c1e3b0bfe3",
+      "new_sha256": "853ae5b7d2d1e0868707d4570c4f829b6f6ad60414009397910771dbb0370d02"
+    },
+    {
+      "script": "batch_014.py",
+      "prior_sha256": "bbb0256ee7e9aad7c955e77aca1b55288371dd08427b51d3ab08d8a741b298e2",
+      "new_sha256": "6761303062471da502dc427ef2bf3f6027211589ba0d84ab5849afe66bbf350e"
+    },
+    {
+      "script": "batch_002.py",
+      "prior_sha256": "9cde9bf964ac2f432a5e5cef4305da2ce12fd7144ed9c8171a62a3ad8b307936",
+      "new_sha256": "26d8b9a43edecba42be3f59fc8567b3603db25c8d0a0a314527e15a9421ece31"
+    },
+    {
+      "script": "batch_008.py",
+      "prior_sha256": "a3b8d3511b6e546a45ecd980f4e16bc78337161020b0595bd34ed97d832bff7b",
+      "new_sha256": "b962b99c4f96282085cc1a0b29bb079957ec929979985378cfa81ae2f8942a0c"
+    },
+    {
+      "script": "batch_006.py",
+      "prior_sha256": "1c337e7461e2184fa447bbc327aa01366b187d2d1d9bf13a995857187309bb3b",
+      "new_sha256": "bfaf747164caa6645a0739011a87fdcda60a9666aedd83caa1beb8c3ef69c059"
+    }
+  ]
+}

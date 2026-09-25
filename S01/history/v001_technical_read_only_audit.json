@@ -1,0 +1,14 @@
+{
+  "audit_type": "TECHNICAL_READ_ONLY_NOT_INDEPENDENT_SCHOLARLY",
+  "checks": {
+    "16_unique_session_prompts": true,
+    "80_owned_units": true,
+    "89_disposition_rows": true,
+    "no_declared_verified_page": true,
+    "raw_frontispiece_exists": true,
+    "source_identity_matches_expected": true,
+    "unique_complete_physical_coverage": true
+  },
+  "scholarly_completion": "NOT_ASSESSED_AND_NOT_COMPLETE",
+  "scope": "Generated checkpoint structure and declared source extraction"
+}

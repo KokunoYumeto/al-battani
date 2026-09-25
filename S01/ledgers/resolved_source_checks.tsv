@@ -1,0 +1,15 @@
+check_id	page	line_id	finding	evidence	authority	result
+S01-C001	20	AB01-PDF0020-body-L011	Native pixels resolve the Arabic consonants; original tentative encoding corrected without using the Latin gloss as authority.	source/raw/AB01-PDF0020-G01-raw.png	SRC01 source pixels	REPLAYED_BY_PRODUCING_ASSISTANT_NOT_INDEPENDENT_AUDIT
+S01-C002	41	AB01-PDF0041-notes_right-L010	Native pixels resolve the printed consonantal pointing; no vocalization is added.	source/raw/AB01-PDF0041-G01-raw.png	SRC01 source pixels	REPLAYED_BY_PRODUCING_ASSISTANT_NOT_INDEPENDENT_AUDIT
+S01-C003	10	AB01-PDF0010-body-L001	Macrons confirmed on the half-title.	qa/proof_10_name.png	SRC01 source pixels	REPLAYED_BY_PRODUCING_ASSISTANT_NOT_INDEPENDENT_AUDIT
+S01-C004	13	AB01-PDF0013-body-L001	Imprint wording and terminal punctuation confirmed.	qa/proof_13_imprint.png	SRC01 source pixels	REPLAYED_BY_PRODUCING_ASSISTANT_NOT_INDEPENDENT_AUDIT
+S01-C005	22	AB01-PDF0022-body-L027	Greek proper names rechecked; one iota/kappa transcription error corrected in repair ledger.	qa/late_proof_contact.png	SRC01 source pixels	REPLAYED_BY_PRODUCING_ASSISTANT_NOT_INDEPENDENT_AUDIT
+S01-C006	30	AB01-PDF0030-notes_left-L015	Missing closing parenthesis retained as witnessed; no silent punctuation repair.	qa/30_L.png	SRC01 source pixels	REPLAYED_BY_PRODUCING_ASSISTANT_NOT_INDEPENDENT_AUDIT
+S01-C007	30	AB01-PDF0030-notes_right-L009	Greek quotation rechecked, including iota-subscript and printed λαμπήνη without tau.	qa/30_R.png	SRC01 source pixels	REPLAYED_BY_PRODUCING_ASSISTANT_NOT_INDEPENDENT_AUDIT
+S01-C008	46	AB01-PDF0046-notes_right-L021	Greek note accentuation replayed; no additional correction promoted.	qa/46_Greek_note.png	SRC01 source pixels	REPLAYED_BY_PRODUCING_ASSISTANT_NOT_INDEPENDENT_AUDIT
+S01-C009	49	AB01-PDF0049	Seconds and thirds retained; not silently converted to minutes and seconds.	qa/page_0049.png	SRC01 source pixels	REPLAYED_BY_PRODUCING_ASSISTANT_NOT_INDEPENDENT_AUDIT
+S01-C010	53	AB01-PDF0053-body-L012	Greek name and bracketed ending confirmed.	qa/53_Greek_name.png	SRC01 source pixels	REPLAYED_BY_PRODUCING_ASSISTANT_NOT_INDEPENDENT_AUDIT
+S01-C011	57	AB01-PDF0057-body-L013	Displayed superscripts and ± sign compared with source; repeated multiplication sign at wrap retained.	qa/page_0057.png	SRC01 source pixels	REPLAYED_BY_PRODUCING_ASSISTANT_NOT_INDEPENDENT_AUDIT
+S01-C012	72	AB01-PDF0072-notes_left-L002	Transliteration comparison key replayed; final Suter character corrected to ṯ.	qa/72_suter_key.png	SRC01 source pixels	REPLAYED_BY_PRODUCING_ASSISTANT_NOT_INDEPENDENT_AUDIT
+S01-C013	85	AB01-PDF0085-body-L002	Fractions enlarged; Venus denominator corrected to 87, other small denominators retained.	qa/proof_85_fractions.png	SRC01 source pixels	REPLAYED_BY_PRODUCING_ASSISTANT_NOT_INDEPENDENT_AUDIT
+S01-C014	87	AB01-PDF0087-body-L018	Printed Arabic transmission-chain spellings retained without historical identification or normalization.	qa/87_chain.png	SRC01 source pixels	REPLAYED_BY_PRODUCING_ASSISTANT_NOT_INDEPENDENT_AUDIT

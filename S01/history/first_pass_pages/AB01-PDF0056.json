@@ -1,0 +1,213 @@
+{
+  "anchor": "AB01-PDF0056",
+  "master_pdf_page": 56,
+  "role": "NALLINO_APPARATUS",
+  "header": "PRAEFATIO | XLVII",
+  "kind": "text",
+  "source_status": "SOURCE_REPLAYED_FIRST_PASS",
+  "method": "Direct visual reading of authoritative SRC01 pixels; embedded text is recovery evidence only.",
+  "source_sha256": "544c16b6355c9b74e281aded657d657224bff738366d5260e1a610d31b0d6297",
+  "sections": [
+    {
+      "role": "body",
+      "lines": [
+        {
+          "id": "AB01-PDF0056-body-L001",
+          "text": "Functiones trigonometricae quibus al-Battānī utitur sunt <i>sinus, sinus complementi</i> seu"
+        },
+        {
+          "id": "AB01-PDF0056-body-L002",
+          "text": "<i>cosinus, sinus versus</i> (1); Graeco more ad radium 60 partium, quem littera <m>R</m> indicabo, re-"
+        },
+        {
+          "id": "AB01-PDF0056-body-L003",
+          "text": "feruntur. In his omnibus al-Battānī secutum esse Arabes vetustiores, qui Graecas et Indicas"
+        },
+        {
+          "id": "AB01-PDF0056-body-L004",
+          "text": "notiones in unum conflaverant, ostendi p. 154–56. Ut ipse p. 10, l. 33 sqq. fatetur, tabulam"
+        },
+        {
+          "id": "AB01-PDF0056-body-L005",
+          "text": "sinuum (t. II, p. 55–56) condidit chordas Ptolemaicas duplorum arcuum dimidiando."
+        },
+        {
+          "id": "AB01-PDF0056-body-L006",
+          "text": "<i>Tangentes</i> et <i>cotangentes</i> in usum dumtaxat gnomonicae adhibet, non tanquam veras"
+        },
+        {
+          "id": "AB01-PDF0056-body-L007",
+          "text": "functiones trigonometricas; qua re eas ad semidiametrum seu gnomonem 12 partium, Indico"
+        },
+        {
+          "id": "AB01-PDF0056-body-L008",
+          "text": "more, refert. Auctoris formulas (p. 22) collegi in adnot. p. 180–82; tabula umbrarum, seu"
+        },
+        {
+          "id": "AB01-PDF0056-body-L009",
+          "text": "cotangentium pro <m>R=12^{p}</m>, est t. II, p. 60."
+        },
+        {
+          "id": "AB01-PDF0056-body-L010",
+          "text": "Formulae Ptolemaicae a quibus sinuum proprietates illico deducuntur atque sinus summae"
+        },
+        {
+          "id": "AB01-PDF0056-body-L011",
+          "text": "aut differentiae duorum arcuum deprehendi possunt, p. 9–10 (adnot. 153–54) exposita sunt;"
+        },
+        {
+          "id": "AB01-PDF0056-body-L012",
+          "text": "formula ad supputandum sinum dimidii arcus etiam p. 10 (adnot. 157). Praeter has regulas"
+        },
+        {
+          "id": "AB01-PDF0056-body-L013",
+          "text": "auctor p. 11, l. 32–34 (cfr. ipsam tabulam sinuum et p. 78, adnot. p. 255) docet:"
+        },
+        {
+          "id": "AB01-PDF0056-body-L014",
+          "text": "<m>\\sin(180^{\\circ}-a)=\\sin a,</m>"
+        },
+        {
+          "id": "AB01-PDF0056-body-L015",
+          "text": "et, p. 11 (adn. p. 156):"
+        },
+        {
+          "id": "AB01-PDF0056-body-L016",
+          "text": "<m>\\cos a=\\sqrt{R^2-\\sin^2 a}.</m>"
+        },
+        {
+          "id": "AB01-PDF0056-body-L017",
+          "text": "Theorema: « in quolibet <i>triangulo rectilineo</i> latera inter se eandem rationem habere"
+        },
+        {
+          "id": "AB01-PDF0056-body-L018",
+          "text": "« quam sinus angulorum ipsis oppositorum », nescio an noster cognoverit. Ambabus tamen"
+        },
+        {
+          "id": "AB01-PDF0056-body-L019",
+          "text": "formulis p. 85 (adnot. p. 265) continetur; nam altera est (2)"
+        },
+        {
+          "id": "AB01-PDF0056-body-L020",
+          "text": "<m>c=a\\frac{\\sin(180^{\\circ}-C)}{\\sin A}=a\\frac{\\sin C}{\\sin A}\\qquad\\text{i. e.}\\qquad c:a=\\sin C:\\sin A;</m>"
+        },
+        {
+          "id": "AB01-PDF0056-body-L021",
+          "text": "altera similiter"
+        },
+        {
+          "id": "AB01-PDF0056-body-L022",
+          "text": "<m>b=a\\frac{\\sin B}{\\sin A}\\qquad\\text{i. e.}\\qquad b:a=\\sin B:\\sin A.</m>"
+        },
+        {
+          "id": "AB01-PDF0056-body-L023",
+          "text": "Idemque deducitur a regula p. 22 (adnot. 180,<gr>α</gr>), quae ad triangulum rectangulum spectat."
+        },
+        {
+          "id": "AB01-PDF0056-body-L024",
+          "text": "Pro quolibet autem triangulo rectilineo formulam"
+        },
+        {
+          "id": "AB01-PDF0056-body-L025",
+          "text": "<m>a=\\frac{b\\cos C}{R}+\\sqrt{c^2-\\frac{b^2\\sin^2 C}{R^2}}</m>"
+        },
+        {
+          "id": "AB01-PDF0056-body-L026",
+          "text": "al-Battānī p. 78–79 (adnot. 255–56) a constructionibus geometricis Ptolemaei facile deduxit."
+        },
+        {
+          "id": "AB01-PDF0056-body-L027",
+          "text": "Pro <i>triangulis sphaericis rectangulis</i>, ab ipsis taediosis Almagesti praeceptis, loco chor-"
+        },
+        {
+          "id": "AB01-PDF0056-body-L028",
+          "text": "darum positis sinibus, derivavit:"
+        },
+        {
+          "id": "AB01-PDF0056-body-L029",
+          "text": "<m>\\cos b=\\frac{\\cos a\\cos c}{R}\\ (3)\\qquad\\qquad\\sin b=R\\frac{\\sin c}{\\sin C}\\ (4)</m>"
+        },
+        {
+          "id": "AB01-PDF0056-body-L030",
+          "text": "<m>\\sin a=R\\frac{\\sin c}{\\cos c}\\times\\frac{\\cos C}{\\sin C}\\ (5)\\qquad\\qquad\\cos A=R\\frac{\\sin c}{\\cos c}\\times\\frac{\\cos b}{\\sin b}\\ (6).</m>"
+        }
+      ]
+    },
+    {
+      "role": "notes_left",
+      "lines": [
+        {
+          "id": "AB01-PDF0056-notes_left-L001",
+          "text": "(1) Indicae originis; p. 11 (adnot. p. 156) defi-"
+        },
+        {
+          "id": "AB01-PDF0056-notes_left-L002",
+          "text": "nitur: <m>\\sin\\operatorname{vers}a=R-\\cos a.</m>"
+        },
+        {
+          "id": "AB01-PDF0056-notes_left-L003",
+          "text": "(2) Maiusculis litteris angulos, minusculis la-"
+        },
+        {
+          "id": "AB01-PDF0056-notes_left-L004",
+          "text": "tera illis opposita indico. In triangulis rectangulis"
+        },
+        {
+          "id": "AB01-PDF0056-notes_left-L005",
+          "text": "est <m>b</m> hypothenusa, <m>B</m> angulus rectus."
+        },
+        {
+          "id": "AB01-PDF0056-notes_left-L006",
+          "text": "(3) P. 20 (adn. 177–78), 21 (adn. 179,<gr>α</gr>)."
+        },
+        {
+          "id": "AB01-PDF0056-notes_left-L007",
+          "text": "(4) P. 21 (adn. 178); et, absque Ptolemaei exem-"
+        }
+      ]
+    },
+    {
+      "role": "notes_right",
+      "lines": [
+        {
+          "id": "AB01-PDF0056-notes_right-L001",
+          "text": "plo, p. 35 (adn. 196), 37 (adn. 199), 81 (adn. 258), 82"
+        },
+        {
+          "id": "AB01-PDF0056-notes_right-L002",
+          "text": "(adn. 259,<gr>α</gr>). Similiter <m>\\sin a=\\frac{\\sin b\\sin A}{R}</m>, p. 12"
+        },
+        {
+          "id": "AB01-PDF0056-notes_right-L003",
+          "text": "(adn. 162), 76 (adn. 251)."
+        },
+        {
+          "id": "AB01-PDF0056-notes_right-L004",
+          "text": "(5) P. 13–14 (adn. 163), 21–22 (adn. 180), 27 (adn."
+        },
+        {
+          "id": "AB01-PDF0056-notes_right-L005",
+          "text": "188–89,<gr>β</gr>), 32 (adn. 195)."
+        },
+        {
+          "id": "AB01-PDF0056-notes_right-L006",
+          "text": "(6) P. 21 (adn. 179,<gr>β</gr>), 79–80 (adn. 257), 81–82"
+        },
+        {
+          "id": "AB01-PDF0056-notes_right-L007",
+          "text": "(adn. 258–59)."
+        }
+      ]
+    }
+  ],
+  "details": {
+    "formula_page": true,
+    "formulae": [
+      "All displayed relations and inline R/sexagesimal radius preserve source convention R=60; not normalized to unit radius.",
+      "Footnote2 b hypothenusa, B rectus is source notation."
+    ],
+    "uncertainties": [
+      "The first i.e. after c formula has damaged first letter; i. e. encoded provisionally."
+    ]
+  }
+}
