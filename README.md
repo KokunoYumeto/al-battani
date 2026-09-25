@@ -29,6 +29,8 @@ It is an independent working edition. Nallino's edition is in the public domain.
 - [TeX source](S01/tex/S01_NALLINO_SOURCE_v002.tex)
 - [What is still open](S01/STATUS.md)
 
+Releases are archived on Zenodo under concept DOI [10.5281/zenodo.20539593](https://doi.org/10.5281/zenodo.20539593). The latest version, [10.5281/zenodo.22951891](https://doi.org/10.5281/zenodo.22951891), includes S01 v002.
+
 The project rules and the 16 session prompts are in [S01/controls/](S01/controls/). The intermediate QA proof images for S01 (178 files, 83 MB) are not in this repository; they stay in the archived S01 package.
 
 ## Earlier work (June 2026)
