@@ -69,7 +69,7 @@
         },
         {
           "id": "AB01-PDF0018-body-L015",
-          "text": "« magnam eius excellentiam vastamque doctrinam indicant. Obiit anno 317, a Baġdād rediens,"
+          "text": "« magnam eius excellentiam vastamque doctrinam indicant. Obiit anno 317, a Baghdād rediens,"
         },
         {
           "id": "AB01-PDF0018-body-L016",
@@ -126,7 +126,7 @@
         },
         {
           "id": "AB01-PDF0018-notes_left-L007",
-          "text": "coniicerent respuenda sunt, ut in § 2, nr. II, os-"
+          "text": "coniecerunt respuenda sunt, ut in § 2, nr. II, os-"
         },
         {
           "id": "AB01-PDF0018-notes_left-L008",
@@ -311,12 +311,19 @@
   "details": {
     "printed_page": "IX",
     "signature": "2*",
-    "open_reading_notes": [
-      "S01-U002"
-    ],
     "proof_repairs": [
       "S01-R001"
     ],
-    "verification_limit": "Direct source replay by the producing assistant; independent textual audit not performed."
+    "verification_limit": "Inherited v002 first-pass source replay, followed by v003 targeted reread. No independent cold philological audit has been performed.",
+    "reading_note_dispositions": [
+      {
+        "id": "S01-U002",
+        "status": "RESOLVED_RETAINED"
+      }
+    ],
+    "v003_change_ids": [
+      "S01-R3-003",
+      "S01-R3-011"
+    ]
   }
 }

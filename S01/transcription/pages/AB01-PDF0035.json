@@ -162,7 +162,7 @@
         },
         {
           "id": "AB01-PDF0035-notes_left-L005",
-          "text": "(2) <n>Ed. Browne</n>, <i>A handlist of the muham-</i>"
+          "text": "(2) <n>Ed. Browne</n>, <i>A hundlist of the muham-</i>"
         },
         {
           "id": "AB01-PDF0035-notes_left-L006",
@@ -243,8 +243,11 @@
   "details": {
     "continuation_from": "AB01-PDF0034 bibliographic citation",
     "continuation_to": "AB01-PDF0036: description of the six books",
-    "open_reading_notes": [],
     "proof_repairs": [],
-    "verification_limit": "Direct source replay by the producing assistant; independent textual audit not performed."
+    "verification_limit": "Inherited v002 first-pass source replay, followed by v003 targeted reread. No independent cold philological audit has been performed.",
+    "reading_note_dispositions": [],
+    "v003_change_ids": [
+      "S01-R3-018"
+    ]
   }
 }

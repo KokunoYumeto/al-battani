@@ -25,7 +25,7 @@
         },
         {
           "id": "AB01-PDF0070-body-L004",
-          "text": "giani</i> [sic] <i>Almaruff Bilabeti</i>; ubi Algiorgiani seu al-Ǵorǵānī videtur corruptum ex al-"
+          "text": "giami</i> [sic] <i>Almaruff Bilaabeti</i>; ubi Algiorgiami seu al-Ǵorǵānī videtur corruptum ex al-"
         },
         {
           "id": "AB01-PDF0070-body-L005",
@@ -33,7 +33,7 @@
         },
         {
           "id": "AB01-PDF0070-body-L006",
-          "text": "tuenda <i>al-ma‘rūf bi ’l-Battānī</i> « [nomine] al-Battānī notus ». Alter: <i>Effermeridi et il modo"
+          "text": "tuenda <i>al-ma‘rūf bi ’l-Battānī</i> « [nomine] al-Battānī notus ». Alter: <i>Effemeridi et il modo"
         },
         {
           "id": "AB01-PDF0070-body-L007",
@@ -93,7 +93,7 @@
         },
         {
           "id": "AB01-PDF0070-body-L021",
-          "text": "accusativo <ar>جزوأً</ar>), <ar>ابطأ</ar> semper <ar>ابطى</ar>, sicut, radicali hamzah omissa, <ar>بدت</ar> et <ar>تهى</ar> loco <ar>بدأت</ar> et <ar>تَهَيَّأَ</ar> con-"
+          "text": "accusativo <glyph>AB01-PDF0070-G02</glyph>), <ar>ابطأ</ar> semper <ar>ابطى</ar>, sicut, radicali hamzah omissa, <ar>بدت</ar> et <ar>تهى</ar> loco <ar>بدأت</ar> et <glyph>AB01-PDF0070-G03</glyph> con-"
         },
         {
           "id": "AB01-PDF0070-body-L022",
@@ -109,11 +109,11 @@
         },
         {
           "id": "AB01-PDF0070-body-L025",
-          "text": "<ar>ابدى</ar> pro <ar>ابدأ</ar>, et <ar>سوى</ar> pro <ar>سواء</ar>. Ita <ar>تلقا</ar> pro <ar>تَلَقَّى</ar> et <ar>تِلْقَاء</ar> reperitur. Saepe, in verbis ultimae <ar>ي</ar>,"
+          "text": "<ar>ابدى</ar> pro <ar>ابدأ</ar>, et <ar>سوى</ar> pro <ar>سواء</ar>. Ita <ar>تلقا</ar> pro <glyph>AB01-PDF0070-G06</glyph> et <glyph>AB01-PDF0070-G04</glyph> reperitur. Saepe, in verbis ultimae <ar>ي</ar>,"
         },
         {
           "id": "AB01-PDF0070-body-L026",
-          "text": "vocalis brevis finalis indicatur littera <i>yā’</i>, ut <ar>سمى</ar> pro <ar>سَمِّ</ar>, <ar>تليه</ar> pro <ar>تَلِهِ</ar>; item semper <ar>ثواني</ar> pro"
+          "text": "vocalis brevis finalis indicatur littera <i>yā’</i>, ut <ar>سمى</ar> pro <glyph>AB01-PDF0070-G07</glyph>, <ar>تليه</ar> pro <glyph>AB01-PDF0070-G05</glyph>; item semper <ar>ثواني</ar> pro"
         },
         {
           "id": "AB01-PDF0070-body-L027",
@@ -234,15 +234,33 @@
   ],
   "details": {
     "orthography_region": "qa/70_orthography_new.png",
-    "open_reading_notes": [
-      "S01-U007",
-      "S01-U008"
-    ],
     "proof_repairs": [
       "S01-R022",
       "S01-R023",
       "S01-R024"
     ],
-    "verification_limit": "Direct source replay by the producing assistant; independent textual audit not performed."
+    "verification_limit": "Inherited v002 first-pass source replay, followed by v003 targeted reread. No independent cold philological audit has been performed.",
+    "reading_note_dispositions": [
+      {
+        "id": "S01-U007",
+        "status": "DISPOSED_IMAGE_FALLBACK"
+      },
+      {
+        "id": "S01-U008",
+        "status": "DISPOSED_IMAGE_FALLBACK"
+      }
+    ],
+    "v003_change_ids": [
+      "S01-R3-056",
+      "S01-R3-057",
+      "S01-R3-058",
+      "S01-R3-071",
+      "S01-R3-074",
+      "S01-R3-075",
+      "S01-R3-076",
+      "S01-R3-077",
+      "S01-R3-078",
+      "S01-R3-079"
+    ]
   }
 }

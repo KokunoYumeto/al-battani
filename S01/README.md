@@ -1,80 +1,76 @@
-# S01 v002 — Nallino Part I front matter and apparatus
+# al-Battānī / Nallino — S01 v003
 
-**Current state: complete first-pass source coverage; technically checked candidate; S01 not finally closed.**
+**Historical Nallino layer: revised transcription candidate. S01 is not yet closed.**
 
-This release advances the first prompt only. It is a new, page-by-page transcription from the authoritative scans, not a relabelling of the earlier embedded-text extraction. No S02–S16 production was executed.
+This package continues the first session only. It preserves Nallino’s Part I frontispiece, half-title, title, imprint, dedication, preface, bibliography, and addenda/corrigenda. No new target-language translation is included. Arabic, Greek, Syriac, Italian, and other quotations occurring within Nallino’s historical apparatus remain intrinsic quotations, not newly generated parallel editions. The Arabic authorial Zīj canon has not been changed.
 
-## Read the edition
+## Open these files
 
-The principal reader is [S01_NALLINO_SOURCE_v002.pdf](pdf/S01_NALLINO_SOURCE_v002.pdf). It contains 80 pages: one explicitly modern Latin editorial notice, followed by 79 historical pages (78 text-bearing source leaves and the astronomical frontispiece). The owned blank at physical PDF15 is recorded rather than typeset as a spurious text page.
+`pdf/S01_NALLINO_SOURCE_v003.pdf` is the 80-page historical reader: one explicitly modern production notice, the preserved frontispiece, and 78 text-bearing historical source pages. `pdf/S01_CRITICAL_NOTES_v003.pdf` is a separate four-page apparatus explaining readings, image substitutions, and source limitations. Nallino’s own addenda are part of the historical reader; the modern critical notes do not replace them.
 
-Editable sources are [the complete TeX](tex/S01_NALLINO_SOURCE_v002.tex), [the page-anchored UTF-8 text](transcription/S01_NALLINO_SOURCE_v002.txt), and the structured records in `transcription/pages/`. The plain-text file retains raw LaTeX for mathematical expressions and named image references where exact glyph crops replace uncertain encodings. JSON preserves the formatting and language tags used to generate the reader.
+The editable reader is `tex/S01_NALLINO_SOURCE_v003.tex`. Its structured source is the 79 page records under `transcription/pages/`, including the owned blank at PDF15. `transcription/S01_NALLINO_SOURCE_v003.txt` provides the same line-anchored text with explicit markup. Image fallbacks use stable `<glyph>...</glyph>` identifiers: these are intentional references to exact source assets, not missing-file placeholders. Their paths and source rectangles are in `ledgers/figure_provenance.json` and `.tsv`.
 
-[The separate three-page critical apparatus PDF](pdf/S01_CRITICAL_NOTES_v002.pdf), [its editable TeX](tex/S01_CRITICAL_NOTES_v002.tex), [expanded critical notes](CRITICAL_NOTES.md) and [the cumulative checkpoint](receipts/cumulative_checkpoint.json) state the unresolved issues and the precise continuation boundary. They are part of the delivery, not optional qualifications to a supposedly finished edition.
+## Scope and source identity
 
-## Coverage and attribution
+S01 owns physical master PDF2, PDF10, and PDF12–89, a total of 80 units. Every physical page PDF1–89 has a disposition. The text-bearing units are PDF10, PDF12–14, and PDF16–89; PDF15 is an owned blank, and PDF2 is the astronomical frontispiece. Provider service matter, library ownership marks, and binding/blank matter are not transcribed into the historical reader.
 
-The session owns physical master PDF2, PDF10 and PDF12–89: 80 units. Every physical page PDF1–89 has a disposition. The text-bearing pages are PDF10, PDF12–14 and PDF16–89, totaling 78. PDF16–73 carry the preface (printed VII–LXIV), PDF74–78 the bibliography (LXV–LXIX), and PDF79–89 the addenda/corrigenda (LXX–LXXX).
+The controlling source is `30_NALLINO_PARS_I_II_III_MASTER_1162P.pdf`: 1,162 physical pages, 80,946,704 bytes, SHA-256 `544c16b6355c9b74e281aded657d657224bff738366d5260e1a610d31b0d6297`. The bundle contains its S01 evidence excerpt, `source/SRC01_PDF0001-0089_EVIDENCE.pdf`. That excerpt preserves source evidence, including extrinsic marks; it is not the cleaned reader. The Files retrieval service has reported 1,161 pages for the full master, but the physical PDF and controlling manifest report 1,162. Anchors follow the physical PDF without shifting page numbers.
 
-All of these historical editorial materials are tagged `NALLINO_APPARATUS`, not al-Battānī’s authorial Arabic prose. Nallino’s intrinsic Arabic, Greek, Syriac and other quotations remain part of his apparatus. They are not a new parallel translation. The new first-page notice is tagged `MODERN_EDITORIAL`. No target translation language was requested for this S01 continuation, and no Arabic Zīj canonical checkpoint was used or altered.
+All historical content here is credited as `NALLINO_APPARATUS`, not presented as al-Battānī’s authorial prose. See `controls/01_PROJECT_CONTRACT.md` and the S01 prompt for the layer and scope rules.
 
-The controlling file is `30_NALLINO_PARS_I_II_III_MASTER_1162P.pdf`: 80,946,704 bytes, 1,162 physical PDF pages, SHA-256 `544c16b6355c9b74e281aded657d657224bff738366d5260e1a610d31b0d6297`. The retrieval service’s 1,161-page label conflicts with the actual PDF structure and the packet manifest. All anchors here use the physical 1,162-page file, without shifting the page numbers.
+## What changed from v002
 
-The included [untouched source excerpt](source/SRC01_PDF0001-0089_EVIDENCE.pdf) preserves physical pages 1–89. Its 89 rendered pages match the corresponding master pages at the audit’s 36-dpi comparison resolution. The complete master remains a separately supplied project source, not an implied missing part of this S01 bundle.
+The recovered v002 ZIP was intact: all 535 manifest-listed files matched their recorded hashes. Its archive SHA-256 is `46152dbd96c89b587083a32472e3d05d2b6833a748489c462b140983c52adf08`. The interrupted continuation also left 157 proof-image files, totaling 49,226,935 bytes. Those were recovered byte-exactly, but no revised text or accepted-correction ledger accompanied them. They are preserved as evidence under `history/interrupted_reread/`; their existence is not itself proof that a correction was accepted.
 
-## What changed from the preceding checkpoint
+The v003 reread has **85 recorded decisions affecting 79 distinct source lines on 50 source pages**: 71 text repairs and 14 new exact-image substitutions. Each decision records the predecessor reading, successor reading, affected anchor, evidence, confidence, and reason. The complete sequence is in `ledgers/v003_changes.json` and `.tsv`. The technical checker replays it from the immutable v002 text and tests that the resulting line map exactly equals v003. Earlier v002 decisions remain separately preserved; `transcription_repairs.json` is the cumulative 113-decision register.
 
-The previous checkpoint recorded preservation and unverified extraction, with no fully transcribed source unit. This candidate provides 3,996 source-line anchors across the complete S01 text range, 47 editable mathematical objects, the 11-entry printed transliteration key, and 86 routed historical addenda/corrigenda entries. The raw frontispiece and a conservative presentation crop are now included in the reader.
+Examples of text repairs include restoring a printed digraph instead of a dotted character, repairing dropped words, distinguishing bibliographical numerals, and preserving historical spelling even where it appears erroneous. These are repairs to the digital transcription, not silent emendations of Nallino’s historical text. Image substitutions preserve uncertain numerals, unusual character clusters, the distinct printed forms in correction lemmas, and two Arabic verse lines. No source damage has been conjecturally completed.
 
-There are 28 tracked proof-repair/encoding decisions affecting 25 distinct source lines relative to the preserved first-pass snapshot. The full before/after comparison is [first_pass_text_changes.tsv](ledgers/first_pass_text_changes.tsv); the reasons and evidence are in [transcription_repairs.tsv](ledgers/transcription_repairs.tsv). Encoding-only repairs to four early construction files are recorded separately. No historical printed erratum is silently applied to an earlier source page.
+The source-line identifiers remain unchanged at **3,996 anchors**. The **47 mathematical objects** remain as witnessed notation, without mathematical emendation or recomputation. The **11-entry transliteration key** remains both a source-faithful printed list and a machine-readable register. The **86 historical addenda/corrigenda entries** are linked to their targets and marked `REGISTERED_NOT_APPLIED`; the earlier diplomatic text has not been rewritten according to them.
 
-The old checkpoint receipts and the pre-repair source records are retained under `history/`. Older proof images are evidence of the process, not the final edition. Only `pdf/S01_NALLINO_SOURCE_v002.pdf` and `qa/final/` represent the current reader.
+## Reading dispositions and images
 
-## Images and difficult readings
+The separate apparatus has 14 entries: three readings were confirmed and retained; ten have exact-image dispositions while character interpretation remains unresolved; one records the frontispiece’s already-truncated source edges. An image disposition preserves visible evidence. It is not a claim that every damaged character has been deciphered.
 
-The frontispiece is preserved from its native 300-dpi JPX image. The presentation derivative crops the provider UI bands on integer pixel bounds `[0, 312, 2491, 2766)`; it does not redraw, deskew, sharpen or fill the diagram. The source itself already truncates labels and outer material at its edges. The derivative cannot recover that loss and does not pretend to do so.
+The visual-object ledger contains 24 records. Of these, 22 objects are included in the reader: four figures/ornaments and 18 glyph or text-region images. Two older crops remain evidence-only after earlier encoding resolution. Fourteen image objects are new in v003. Their raw and presentation PNGs are byte-identical integer crops from the authoritative native image. The frontispiece retains an untouched original JPX and decoded evidence image, as well as its conservative presentation crop. No inpainting, generative restoration, resampling of source crops, altered geometry, added labels, or strengthened strokes has been used.
 
-Native-pixel crops also preserve the preface and terminal ornaments, the Syriac word on PDF22, an orthographic sign on PDF70, and two Arabic corrigendum lemmas on PDF82. These four inline glyph images remain in the reader rather than being replaced by unsupported Unicode guesses. Two additional Arabic crops from PDFs20 and 41 remain evidence only: their consonantal readings were resolved and typed into the final source layer.
-
-Eleven reading entries remain unresolved, principally small diacritics, unusual glyphs and a printed old/new lemma distinction. One additional flagged entry records the frontispiece’s pre-existing source loss. See [critical_findings.tsv](ledgers/critical_findings.tsv) and [unresolved_readings.tsv](ledgers/unresolved_readings.tsv). A bounded uncertainty is not permission to invent a reading.
-
-## Ledgers and provenance
-
-The ledgers provide page dispositions, line alignment, figures, mathematical notation, the transliteration key, literal numeric strings, historical corrigendum routes, recorded witness variants, source identities, repairs and open findings. JSON and TSV versions are supplied. The numeric-literal index is a search aid, not a recomputation or a claim that every numeral has received an independent second check.
-
-Source line identifiers refer to the page, section and ordinal within that section. Where a PDF rectangle was estimated using the embedded-text layer, the ledger explicitly labels it an unverified locator candidate. These rectangles are not presented as 3,996 independently measured word/line boxes. Exact native image crop rectangles are separately recorded in `figure_provenance.json`.
-
-Nallino’s descriptions of other manuscripts and authors remain historical testimony in his voice. They do not constitute a new collation of missing manuscripts, a modern factual endorsement, or a correction based on outside research.
+For all images, consult `figure_provenance.json` for raw/presentation paths, native pixel rectangles, PDF coordinates, operations, dimensions, and hashes. For text-line rectangles, consult `line_alignment.json` with its explicit qualification: those locator coordinates were inherited from the v002 similarity-based locator and are **not independently verified word-level coordinates**. Current line text is synchronized to v003; exact image rectangles are recorded separately.
 
 ## Builds and checks
 
-Two clean build directories were used, with two XeLaTeX passes in each. Both outputs are byte-identical, and all 80 page rasters match between builds at 36 dpi. There are zero missing-character reports, overfull boxes, source-line width overflows or font warnings in either final log. Reader SHA-256: `ea44955e9074edacb1a076626facb7f818e5cfb9795591eb5307661214f475bd`.
+The reader and critical apparatus each passed two clean, two-pass XeLaTeX builds with byte-identical outputs. Both pairs also have identical all-page 36-dpi raster hashes. Their final logs report zero missing characters, overfull boxes, or font warnings; the reader also reports zero source-line width overflows. Receipts and logs are under `receipts/`.
 
-The read-only [technical audit](receipts/technical_audit.json) passes 29 checks covering identities, page and line coverage, markup, native crop equality, formula/key/corrigendum linkage, canonical digests, deterministic builds, reader anchors and page bounds. It confirms that it did not patch production outputs. It does **not** certify the historical readings: a separate executable is not an independent philological reviewer.
+All 80 reader pages were inspected in contact sheets for layout. Detailed final reader inspections covered pages 1, 2, 28, 31, 47, 48, 61, 70, 71, 73, 75, 77, and 80; all four critical-apparatus pages were inspected in detail. Other generated detailed renders are not falsely marked as individually inspected. The selected source reread covered 562 general proof candidates and 164 targeted candidates in 92 recovered contact sheets, with further native crops and formula samples. Those candidate sets can overlap; these are not unique-line counts or a new full line-by-line cold audit.
 
-All seven final contact sheets were inspected, covering all 80 reader pages. Detailed proofs include the frontispiece, dense notes, mathematical pages, orthographic examples, glyph fallbacks and last page. The final page was also rendered and inspected using Poppler. Scope and limitations are recorded in [visual_qa.json](receipts/visual_qa.json).
+`receipts/technical_audit_v003.json` reports the standalone read-only program’s actual results, including change-chain replay, source crop pixels, embedded image pixels, build identities, anchors, and evidence-file hashes. The program was written by the producing assistant. It is **not an independent philological auditor**. A technically clean build or archive does not establish the correctness of every historical reading.
+
+## Exact completion status
+
+S01 remains a **source-revised candidate with the independent cold source/reading audit outstanding**. No independent auditor’s sign-off is claimed. No human certification gate has been introduced. The project’s required separate cold replay remains a distinct unfinished step; any resulting repair must become a successor version rather than an unrecorded patch to this candidate.
+
+The last fully transcribed source unit is `AB01-PDF0089`, qualified by the image and uncertainty dispositions. `last_fully_verified_source_unit` remains null because full verification includes the independent audit. No S01 source page remains wholly untouched. Physical PDF90 is the beginning of S02, not work completed here. S02–S16 have not been started in this continuation.
+
+The current Nallino JSON checkpoint is `AB01-NALLINO-S01-v003-CANDIDATE`, SHA-256 `8dd145df64a5cb9b64c56f914779b53470671798a01de69ae809db2f51bdeb4f`. This digest covers sorted page basenames, a NUL byte after each basename, and each exact page-JSON payload. It is not the PDF or ZIP hash. The canonical Arabic checkpoint is null because S01 does not own an Arabic authorial Zīj unit.
 
 ## Rebuilding and auditing
 
-From the extracted package directory, run:
+Use Python with PyMuPDF and Pillow, and a XeLaTeX installation providing the packages and system fonts named in `receipts/deterministic_builds.json`. Fonts are dependencies, not distributed files. The known build uses Linux Libertine O, FreeSerif, Amiri, and Noto Sans Syriac. The delivered PDFs embed the required font subsets.
+
+From the unpacked package root:
 
 ```sh
 python scripts/rebuild.py
-python scripts/audit_readonly.py --master /path/to/30_NALLINO_PARS_I_II_III_MASTER_1162P.pdf
+python scripts/audit_v003_readonly.py > /path/outside/package/technical-audit-replay.json
 ```
 
-The build needs Python with PyMuPDF, XeLaTeX and the listed TeX packages, plus system fonts Linux Libertine O, FreeSerif, Amiri and Noto Sans Syriac. Pillow is needed for native-crop auditing; Poppler is needed to regenerate the second-renderer proof. Font files are not distributed. The pinned build epoch is 2026-09-25 00:00 UTC; exact byte reproduction additionally depends on the recorded TeX/font environment. Font identities and the engine are documented in receipts, without bundling font binaries.
+The rebuild generates the reader and separate apparatus from the committed JSON layer, using a fixed source epoch. It does not OCR or infer text. The audit writes JSON to standard output only. With the full master next to the package, it rechecks that master’s identity; without it, it uses the bundled 89-page excerpt for native-pixel crop replay and explicitly reports that the external master’s hash was not retested.
 
-The `batch_*.py` files and proof-repair scripts are production history, not the rebuild entry point. Rerunning those scripts can recreate superseded first-pass states. Build the current edition from the final page JSON records with `rebuild.py` instead.
+Do not run historical first-pass mutation scripts in `history/v002/scripts/` as current production commands. The v003 mutation helpers also describe one-time editing operations, not steps needed to rebuild an already committed edition. The current build entry point is `scripts/rebuild.py`.
 
-## Continuation boundary
+`MANIFEST_SHA256.tsv` lists every packaged file except itself. The ZIP validation receipt and the ZIP’s own SHA-256 are supplied beside the archive because an archive cannot contain its own final digest. Preservation history is explicitly historical; its older PASS statements and open-reading counts are not current v003 receipts.
 
-`last_fully_transcribed_source_unit` is `AB01-PDF0089`, qualified as complete first-pass coverage with disclosed uncertainties and image dispositions. There is no wholly untouched page remaining **within S01**. `last_fully_verified_source_unit` remains null because the independent cold source/reading audit has not been performed.
+## Bibliographical source
 
-S01 therefore remains open for the bounded reading decisions and independent cold audit, not for another round of bulk extraction. The documented source loss may be accepted as a source limitation; it need not be conjecturally repaired. Any accepted correction after this candidate must create a successor checkpoint and preserve this one. No human-only approval gate is imposed. S02 has not begun.
+Nallino, C. A. (Ed. & Trans.). (1903). *Al-Battānī sive Albatenii opus astronomicum: Pars prima, versio capitum cum animadversionibus*. Ulrichus Hoepli. (Pubblicazioni del Reale Osservatorio di Brera in Milano, N. XL, Parte I.)
 
-## Source citation
-
-Nallino, C. A. (1903). [Front matter, preface, bibliography, and addenda]. In *Al-Battānī sive Albatenii opus astronomicum* (Pars prima: *Versio capitum cum animadversionibus*, pp. VII–LXXX). Ulrich Hoepli. Controlling digital witness: SRC01, physical PDF2, PDF10 and PDF12–89.
-
-Historical editorial authorship: Carlo Alfonso Nallino. Digital transcription, markup, proofs and technical checks: AI-assisted production in this conversation, 2026. Source-provider and holding-copy matter are retained only in the source evidence and provenance, not silently included as scholarly text.
+This citation identifies the historical Part I edition being transcribed. The supplied Google/Princeton scan is the source witness, not the author. The project’s access and provenance instructions are preserved in `controls/`.

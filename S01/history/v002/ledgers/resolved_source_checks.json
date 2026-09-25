@@ -1,0 +1,128 @@
+[
+  {
+    "check_id": "S01-C001",
+    "page": 20,
+    "line_id": "AB01-PDF0020-body-L011",
+    "finding": "Native pixels resolve the Arabic consonants; original tentative encoding corrected without using the Latin gloss as authority.",
+    "evidence": "source/raw/AB01-PDF0020-G01-raw.png",
+    "authority": "SRC01 source pixels",
+    "result": "REPLAYED_BY_PRODUCING_ASSISTANT_NOT_INDEPENDENT_AUDIT"
+  },
+  {
+    "check_id": "S01-C002",
+    "page": 41,
+    "line_id": "AB01-PDF0041-notes_right-L010",
+    "finding": "Native pixels resolve the printed consonantal pointing; no vocalization is added.",
+    "evidence": "source/raw/AB01-PDF0041-G01-raw.png",
+    "authority": "SRC01 source pixels",
+    "result": "REPLAYED_BY_PRODUCING_ASSISTANT_NOT_INDEPENDENT_AUDIT"
+  },
+  {
+    "check_id": "S01-C003",
+    "page": 10,
+    "line_id": "AB01-PDF0010-body-L001",
+    "finding": "Macrons confirmed on the half-title.",
+    "evidence": "qa/proof_10_name.png",
+    "authority": "SRC01 source pixels",
+    "result": "REPLAYED_BY_PRODUCING_ASSISTANT_NOT_INDEPENDENT_AUDIT"
+  },
+  {
+    "check_id": "S01-C004",
+    "page": 13,
+    "line_id": "AB01-PDF0013-body-L001",
+    "finding": "Imprint wording and terminal punctuation confirmed.",
+    "evidence": "qa/proof_13_imprint.png",
+    "authority": "SRC01 source pixels",
+    "result": "REPLAYED_BY_PRODUCING_ASSISTANT_NOT_INDEPENDENT_AUDIT"
+  },
+  {
+    "check_id": "S01-C005",
+    "page": 22,
+    "line_id": "AB01-PDF0022-body-L027",
+    "finding": "Greek proper names rechecked; one iota/kappa transcription error corrected in repair ledger.",
+    "evidence": "qa/late_proof_contact.png",
+    "authority": "SRC01 source pixels",
+    "result": "REPLAYED_BY_PRODUCING_ASSISTANT_NOT_INDEPENDENT_AUDIT"
+  },
+  {
+    "check_id": "S01-C006",
+    "page": 30,
+    "line_id": "AB01-PDF0030-notes_left-L015",
+    "finding": "Missing closing parenthesis retained as witnessed; no silent punctuation repair.",
+    "evidence": "qa/30_L.png",
+    "authority": "SRC01 source pixels",
+    "result": "REPLAYED_BY_PRODUCING_ASSISTANT_NOT_INDEPENDENT_AUDIT"
+  },
+  {
+    "check_id": "S01-C007",
+    "page": 30,
+    "line_id": "AB01-PDF0030-notes_right-L009",
+    "finding": "Greek quotation rechecked, including iota-subscript and printed λαμπήνη without tau.",
+    "evidence": "qa/30_R.png",
+    "authority": "SRC01 source pixels",
+    "result": "REPLAYED_BY_PRODUCING_ASSISTANT_NOT_INDEPENDENT_AUDIT"
+  },
+  {
+    "check_id": "S01-C008",
+    "page": 46,
+    "line_id": "AB01-PDF0046-notes_right-L021",
+    "finding": "Greek note accentuation replayed; no additional correction promoted.",
+    "evidence": "qa/46_Greek_note.png",
+    "authority": "SRC01 source pixels",
+    "result": "REPLAYED_BY_PRODUCING_ASSISTANT_NOT_INDEPENDENT_AUDIT"
+  },
+  {
+    "check_id": "S01-C009",
+    "page": 49,
+    "line_id": "AB01-PDF0049",
+    "finding": "Seconds and thirds retained; not silently converted to minutes and seconds.",
+    "evidence": "qa/page_0049.png",
+    "authority": "SRC01 source pixels",
+    "result": "REPLAYED_BY_PRODUCING_ASSISTANT_NOT_INDEPENDENT_AUDIT"
+  },
+  {
+    "check_id": "S01-C010",
+    "page": 53,
+    "line_id": "AB01-PDF0053-body-L012",
+    "finding": "Greek name and bracketed ending confirmed.",
+    "evidence": "qa/53_Greek_name.png",
+    "authority": "SRC01 source pixels",
+    "result": "REPLAYED_BY_PRODUCING_ASSISTANT_NOT_INDEPENDENT_AUDIT"
+  },
+  {
+    "check_id": "S01-C011",
+    "page": 57,
+    "line_id": "AB01-PDF0057-body-L013",
+    "finding": "Displayed superscripts and ± sign compared with source; repeated multiplication sign at wrap retained.",
+    "evidence": "qa/page_0057.png",
+    "authority": "SRC01 source pixels",
+    "result": "REPLAYED_BY_PRODUCING_ASSISTANT_NOT_INDEPENDENT_AUDIT"
+  },
+  {
+    "check_id": "S01-C012",
+    "page": 72,
+    "line_id": "AB01-PDF0072-notes_left-L002",
+    "finding": "Transliteration comparison key replayed; final Suter character corrected to ṯ.",
+    "evidence": "qa/72_suter_key.png",
+    "authority": "SRC01 source pixels",
+    "result": "REPLAYED_BY_PRODUCING_ASSISTANT_NOT_INDEPENDENT_AUDIT"
+  },
+  {
+    "check_id": "S01-C013",
+    "page": 85,
+    "line_id": "AB01-PDF0085-body-L002",
+    "finding": "Fractions enlarged; Venus denominator corrected to 87, other small denominators retained.",
+    "evidence": "qa/proof_85_fractions.png",
+    "authority": "SRC01 source pixels",
+    "result": "REPLAYED_BY_PRODUCING_ASSISTANT_NOT_INDEPENDENT_AUDIT"
+  },
+  {
+    "check_id": "S01-C014",
+    "page": 87,
+    "line_id": "AB01-PDF0087-body-L018",
+    "finding": "Printed Arabic transmission-chain spellings retained without historical identification or normalization.",
+    "evidence": "qa/87_chain.png",
+    "authority": "SRC01 source pixels",
+    "result": "REPLAYED_BY_PRODUCING_ASSISTANT_NOT_INDEPENDENT_AUDIT"
+  }
+]

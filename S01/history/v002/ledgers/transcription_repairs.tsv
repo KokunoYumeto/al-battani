@@ -1,0 +1,29 @@
+repair_id	page	line_id	before	after	reason	evidence	class	confidence	canonical_Arabic_change	historical_erratum_applied
+S01-R001	18	AB01-PDF0018-body-L017	Muslimun	Muslimum	Final m in accusative adjective; direct scan replay.	qa/page_0018.png	transcription_error	high	none	no
+S01-R002	19	AB01-PDF0019-body-L011	Muslimun	Muslimum	Final m in accusative adjective; direct scan replay.	qa/page_0019.png	transcription_error	high	none	no
+S01-R003	19	AB01-PDF0019-body-L021	eius erga excellentiam	eius excellentiam	Remove an unwitnessed extra word introduced in first-pass transcription.	qa/page_0019.png	transcription_error	high	none	no
+S01-R004	17	AB01-PDF0017-notes_right-L028	p. ccxlii	p. cccxlii	Reference has three initial C characters.	qa/proof_17_reference.png	transcription_error	high	none	no
+S01-R005	24	AB01-PDF0024-notes_left-L032	1901, p. 409-06	1901, p. 400-06	Bibliographical page reference: third digit is zero.	qa/page_0024.png	transcription_error	high	none	no
+S01-R006	39	AB01-PDF0039-body-L004	Alchaīsi	Alcharsi	Printed transliteration reads Alcharsi.	qa/proof_39_names.png	transcription_error	high	none	no
+S01-R007	40	AB01-PDF0040-notes_left-L021	filamenla	filamenta	Printed t, not l.	qa/proof_40_terms.png	transcription_error	high	none	no
+S01-R008	43	AB01-PDF0043-body-L002	Tacile	Tacite	Printed t, not l.	qa/proof_43_tacite.png	transcription_error	high	none	no
+S01-R009	43	AB01-PDF0043-body-L017	ba‘al hsh-kěnāphim	ba‘al hak-kěnāphīm	Resolve first-pass transliteration against enlarged type.	qa/proof_43_transliteration.png	transcription_error	high	none	no
+S01-R010	50	AB01-PDF0050-notes_right-L004	(cladens igitur	(lactans igitur	Printed word is lactans.	qa/proof_50_notes.png	transcription_error	high	none	no
+S01-R011	51	AB01-PDF0051-body-L015	thalīs	thalis	No macron in this portion of zenithalis.	qa/proof_51_body.png	transcription_error	high	none	no
+S01-R012	59	AB01-PDF0059-body-L015	[leg. Cinenī]	[leg. Cineni]	No macron over final i.	qa/proof_59_quote.png	transcription_error	high	none	no
+S01-R013	59	AB01-PDF0059-body-L016	experimēnti	experimenti	No macron in the printed reading.	qa/proof_59_experimenti.png	transcription_error	high	none	no
+S01-R014	62	AB01-PDF0062-body-L029	partiāris	partiaris	No macron in the printed reading.	qa/proof_62_quote.png	transcription_error	high	none	no
+S01-R015	62	AB01-PDF0062-body-L033	qne	que	Printed u, not n.	qa/proof_62_que.png	transcription_error	high	none	no
+S01-R016	85	AB01-PDF0085-body-L002	<m>{}^1\!/_{37}</m>	<m>{}^1\!/_{87}</m>	Venus fraction denominator is 87, not 37; no historical value normalized.	qa/proof_85_fractions.png	transcription_error	high	none	no
+S01-R017	74	AB01-PDF0074-body-L004	texle arabe	texte arabe	Printed French title reads texte.	qa/page_0074.png	transcription_error	high	none	no
+S01-R018	82	AB01-PDF0082-body-L005	<ar>واللول</ar> l. <ar>واللولوا</ar>.	<glyph>AB01-PDF0082-G01</glyph> l. <glyph>AB01-PDF0082-G02</glyph>.	Withdraw unreliable first-pass Arabic encodings; retain both exact source glyphs rather than supply a conjectural correction.	qa/82_corrected_pair.png	unresolved_encoding_image_fallback	encoding unresolved; image exact	none	no
+S01-R019	22	AB01-PDF0022-body-L029	<gr>Βκτάνῃ</gr>	<gr>Βιτάνῃ</gr>	Printed second letter is iota, not kappa.	qa/22_Greek_b.png	transcription_error	high	none	no
+S01-R020	42	AB01-PDF0042-body-L020	Ahābā	Ahăbā	Breve over the first a, macron over the last a.	qa/42_Ahaba.png	transcription_error	high	none	no
+S01-R021	72	AB01-PDF0072-notes_left-L002	ḏ, ǧ, ġ, ch, š, ḳ	ḏ, ǧ, ġ, ch, š, ṯ	Last Suter character is t with line below, not k with dot below.	qa/72_suter_key.png	transcription_error	high	none	no
+S01-R022	70	AB01-PDF0070-body-L021	<ar>نهى</ar>	<ar>تهى</ar>	Initial letter has two dots: ta, not nun.	qa/70_prepared.png	transcription_error	high	none	no
+S01-R023	70	AB01-PDF0070-body-L022	<ar>اختفاوه</ar>	<ar>اختفاؤه</ar>	The printed regular form carries hamza on waw; preserve the distinction being discussed.	qa/70_orthography_new.png	transcription_error	high	none	no
+S01-R024	70	AB01-PDF0070-body-L019	<ar>اٙ</ar>	<glyph>AB01-PDF0070-G01</glyph>	Withdraw an unsupported special-mark encoding; display exact sign instead.	qa/70_special.png	unresolved_encoding_image_fallback	encoding unresolved; image exact	none	no
+S01-R025	20	AB01-PDF0020-body-L011	الدَّيْن والمداوة والمرض	الدَّيْن <glyph>AB01-PDF0020-G01</glyph> والمرض	Do not settle the initial consonant from the Latin gloss; preserve exact source word.	qa/20_clause_final.png	unresolved_encoding_image_fallback	encoding unresolved; image exact	none	no
+S01-R026	41	AB01-PDF0041-notes_right-L010	وانما ثبت اماكن	وانما <glyph>AB01-PDF0041-G01</glyph> اماكن	Preserve the small ambiguous verb as exact source pixels.	qa/41_arabic_full.png	unresolved_encoding_image_fallback	encoding unresolved; image exact	none	no
+S01-R027	20	AB01-PDF0020-body-L011	<glyph>AB01-PDF0020-G01</glyph>	والعداوة	Native-pixel enlargement resolves the initial connected ayn; replace the image placeholder with the witnessed word, not the Latin gloss.	source/raw/AB01-PDF0020-G01-raw.png	resolved_encoding_after_native_pixel_replay	high	none	no
+S01-R028	41	AB01-PDF0041-notes_right-L010	<glyph>AB01-PDF0041-G01</glyph>	ثبت	Native-pixel enlargement resolves three points of tha, the point of ba, and final ta; no vowel is supplied.	source/raw/AB01-PDF0041-G01-raw.png	resolved_encoding_after_native_pixel_replay	high	none	no

@@ -41,7 +41,7 @@
         },
         {
           "id": "AB01-PDF0059-body-L008",
-          "text": "<i>menta astronomica</i> <n>Alfragani</n>. <i>Item</i> <n>Albategnius</n> <i>astronomus peritissimus de motu</i>"
+          "text": "<i>menta astronomica</i> <n>Alfragrani</n>. <i>Item</i> <n>Albategnius</n> <i>astronomus peritissimus de motu</i>"
         },
         {
           "id": "AB01-PDF0059-body-L009",
@@ -231,7 +231,7 @@
         },
         {
           "id": "AB01-PDF0059-notes_right-L009",
-          "text": "scimus (aequationes ubique terrarum immutatae ex-"
+          "text": "scimus (aequationes ubique terrarum immutata ex-"
         },
         {
           "id": "AB01-PDF0059-notes_right-L010",
@@ -255,11 +255,15 @@
     "source_peculiarities": [
       "Crueni, Tinen and Acharrani preserved as quotations, not normalized to Arabic names."
     ],
-    "open_reading_notes": [],
     "proof_repairs": [
       "S01-R012",
       "S01-R013"
     ],
-    "verification_limit": "Direct source replay by the producing assistant; independent textual audit not performed."
+    "verification_limit": "Inherited v002 first-pass source replay, followed by v003 targeted reread. No independent cold philological audit has been performed.",
+    "reading_note_dispositions": [],
+    "v003_change_ids": [
+      "S01-R3-041",
+      "S01-R3-042"
+    ]
   }
 }

@@ -1,0 +1,11 @@
+{
+  "first_pass_snapshot": "history/first_pass_pages",
+  "changed_source_lines": 25,
+  "tracked_repair_steps": 28,
+  "all_text_changes_have_repair_ids": true,
+  "new_reading_layer": "AB01-NALLINO-S01-v002",
+  "new_reading_sha256": "93fdc19b0917d87ec1e42a27296150c857b47f63984312793b4cc677c0c2531e",
+  "old_unverified_checkpoint": "history/v001_cumulative_checkpoint.json",
+  "old_checkpoint_sha256": "b7be77d4dba2680751f7ef8518a3ef19885493f20fcf9c81526f2f3afcd9bbfc",
+  "reason": "A new source-replayed transcription candidate replaces the unverified extraction as the current S01 working layer; earlier evidence is retained, not overwritten."
+}

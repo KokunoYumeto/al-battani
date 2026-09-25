@@ -73,7 +73,7 @@
         },
         {
           "id": "AB01-PDF0066-body-L016",
-          "text": "tur (7). Incipit: « <i>Aquì se comienza el libro de los canones de Albateni que mandò escreuir"
+          "text": "tur (7). Incipit: « <i>Aquì se comienza el libro de los canones de Albateni que mandò escrevir"
         },
         {
           "id": "AB01-PDF0066-body-L017",
@@ -113,7 +113,7 @@
         },
         {
           "id": "AB01-PDF0066-body-L026",
-          "text": "versio Platonis et textus Arabicus: « Et otrosí si ovieres mester de tomar con ellas su altura"
+          "text": "versio Platonis et textus Arabicus: « Et otrosí si ovieres mester de tommar con ellas su altura"
         },
         {
           "id": "AB01-PDF0066-body-L027",
@@ -142,7 +142,7 @@
       "lines": [
         {
           "id": "AB01-PDF0066-notes_left-L001",
-          "text": "(1) <i>Yusuf ben Ibrahim und Ahmed ben Yusuf</i>,"
+          "text": "(1) <i>Jusuf ben Ibrahim und Ahmed ben Jusuf</i>,"
         },
         {
           "id": "AB01-PDF0066-notes_left-L002",
@@ -182,7 +182,7 @@
         },
         {
           "id": "AB01-PDF0066-notes_left-L011",
-          "text": "(5) <i>Bibliotheca Hispana vetus auctore</i> D. <n>Ni-"
+          "text": "(5) <i>Bibliotheca Hispana vetus autore</i> D. <n>Ni-"
         },
         {
           "id": "AB01-PDF0066-notes_left-L012",
@@ -254,8 +254,14 @@
   ],
   "details": {
     "signature": "8*",
-    "open_reading_notes": [],
     "proof_repairs": [],
-    "verification_limit": "Direct source replay by the producing assistant; independent textual audit not performed."
+    "verification_limit": "Inherited v002 first-pass source replay, followed by v003 targeted reread. No independent cold philological audit has been performed.",
+    "reading_note_dispositions": [],
+    "v003_change_ids": [
+      "S01-R3-048",
+      "S01-R3-049",
+      "S01-R3-050",
+      "S01-R3-051"
+    ]
   }
 }

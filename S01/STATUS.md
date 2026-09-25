@@ -1,13 +1,13 @@
-# S01 v002 — execution status
+# S01 v003 — current state
 
-Full first-pass transcription coverage of S01 has been achieved. The final reader is 80 pages, including one modern editorial notice. All 89 physical source pages have dispositions. The controlling master hash is verified.
+**Revised transcription candidate. Not a closed S01 release.**
 
-Two clean two-pass builds are byte-identical. The 29-test read-only technical audit passes. The final reader has no missing-character, overfull-box or font-warning reports.
+The package contains the 80-page historical Nallino reader, separate four-page critical apparatus, editable TeX and page JSON, source evidence, 85 new recorded decisions, and preservation history. Physical dispositions cover PDF1–89; owned units are PDF2, PDF10, and PDF12–89.
 
-Eleven reading entries remain open. One additional entry records pre-existing loss at the frontispiece edges. Four exact-source glyph crops remain in place of uncertain Unicode encodings. No independent cold textual audit has been performed. This is not a final session-completion receipt.
+There are 71 text repairs and 14 new exact-image substitutions, affecting 79 source lines on 50 pages. All 3,996 line anchors remain stable. Three prior reading entries are confirmed and retained; ten preserve unresolved character interpretation through exact images; one documents source loss.
 
-Last source-replayed / first-pass-transcribed unit: **AB01-PDF0089**. First wholly untouched S01 unit: **none**. Last independently fully verified unit: **none**. S02–S16 executed: **no**.
+Both artifacts have two clean byte-identical builds. Consult `receipts/technical_audit_v003.json` for the actual read-only technical result. Technical verification is not independent philological verification.
 
-Next work remains S01: bounded reading adjudication and independent cold source/reading audit; any correction produces v003, followed by rebuild and repeated checks. No human-only certification is required.
+The independent cold source/reading audit is **not performed**. `last_fully_verified_source_unit` remains null. S01 is not closed, S02 has not started, and no Arabic canonical correction or new target-language translation has been produced.
 
-See `receipts/cumulative_checkpoint.json`, `CRITICAL_NOTES.md` and `README.md` for the exact qualifications and evidence.
+The machine-readable continuation state is `receipts/cumulative_checkpoint.json`. The predecessor remains under `history/v002/`; recovered interrupted-turn evidence is under `history/interrupted_reread/`. Nothing continues running after this delivery.

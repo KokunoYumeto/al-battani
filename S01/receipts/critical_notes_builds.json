@@ -1,31 +1,44 @@
 {
-  "artifact": "pdf/S01_CRITICAL_NOTES_v002.pdf",
-  "role": "MODERN_EDITORIAL",
-  "language": "English critical apparatus with cited source readings; not a target-language translation",
+  "artifact": "S01_CRITICAL_NOTES_v003",
   "builds": [
     {
       "build": "A",
-      "clean_directory": true,
       "passes": 2,
-      "pages": 3,
-      "bytes": 59981,
-      "pdf_sha256": "36967e3c8e289cfade4ce5110625f63ef4ff6c6be09189693587a6a19db6aee1",
+      "clean_directory": true,
+      "pdf_sha256": "2a655b06ed3cff147090642605bc866ccbbea64a55ec8cfd14d6f1a2a0e73676",
+      "bytes": 81257,
+      "pages": 4,
       "missing_characters": 0,
       "overfull_boxes": 0,
-      "font_warnings": 0
+      "font_warnings": 0,
+      "raster_hashes_36dpi": {
+        "1": "6f9fc899cbeaf24fa491c1025f633da1e654682cfe947bd88a5b6a8b6083d5f9",
+        "2": "93e6e09a6321fb3afb62a466aa586d323b511bd15ec8ce41c02cfc18d43acf04",
+        "3": "64520467f21c1c61927041a36e31bd62a30ef0acf6cbb93a7e07684d183eb3a1",
+        "4": "b35bc0c54b001a014ed06a94a0d0510bf40c4076450ee58817207ebad2c123f1"
+      }
     },
     {
       "build": "B",
-      "clean_directory": true,
       "passes": 2,
-      "pages": 3,
-      "bytes": 59981,
-      "pdf_sha256": "36967e3c8e289cfade4ce5110625f63ef4ff6c6be09189693587a6a19db6aee1",
+      "clean_directory": true,
+      "pdf_sha256": "2a655b06ed3cff147090642605bc866ccbbea64a55ec8cfd14d6f1a2a0e73676",
+      "bytes": 81257,
+      "pages": 4,
       "missing_characters": 0,
       "overfull_boxes": 0,
-      "font_warnings": 0
+      "font_warnings": 0,
+      "raster_hashes_36dpi": {
+        "1": "6f9fc899cbeaf24fa491c1025f633da1e654682cfe947bd88a5b6a8b6083d5f9",
+        "2": "93e6e09a6321fb3afb62a466aa586d323b511bd15ec8ce41c02cfc18d43acf04",
+        "3": "64520467f21c1c61927041a36e31bd62a30ef0acf6cbb93a7e07684d183eb3a1",
+        "4": "b35bc0c54b001a014ed06a94a0d0510bf40c4076450ee58817207ebad2c123f1"
+      }
     }
   ],
   "byte_identical": true,
-  "source_date_epoch": 1790294400
+  "all_page_rasters_identical": true,
+  "source_date_epoch": 1790294400,
+  "font_files_distributed": false,
+  "independent_philological_audit": false
 }

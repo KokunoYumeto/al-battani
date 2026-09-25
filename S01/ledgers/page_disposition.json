@@ -22,7 +22,8 @@
       888.719970703125
     ],
     "provider_marks_in_reader": false,
-    "open_notes": []
+    "reading_note_dispositions": [],
+    "v003_change_count": 0
   },
   {
     "master_pdf_page": 2,
@@ -47,9 +48,13 @@
       888.47998046875
     ],
     "provider_marks_in_reader": false,
-    "open_notes": [
-      "S01-U001"
-    ]
+    "reading_note_dispositions": [
+      {
+        "id": "S01-U001",
+        "status": "DOCUMENTED_SOURCE_LOSS"
+      }
+    ],
+    "v003_change_count": 0
   },
   {
     "master_pdf_page": 3,
@@ -74,7 +79,8 @@
       883.6799926757812
     ],
     "provider_marks_in_reader": false,
-    "open_notes": []
+    "reading_note_dispositions": [],
+    "v003_change_count": 0
   },
   {
     "master_pdf_page": 4,
@@ -99,7 +105,8 @@
       874.5599975585938
     ],
     "provider_marks_in_reader": false,
-    "open_notes": []
+    "reading_note_dispositions": [],
+    "v003_change_count": 0
   },
   {
     "master_pdf_page": 5,
@@ -124,7 +131,8 @@
       889.9199829101562
     ],
     "provider_marks_in_reader": false,
-    "open_notes": []
+    "reading_note_dispositions": [],
+    "v003_change_count": 0
   },
   {
     "master_pdf_page": 6,
@@ -149,7 +157,8 @@
       892.5599975585938
     ],
     "provider_marks_in_reader": false,
-    "open_notes": []
+    "reading_note_dispositions": [],
+    "v003_change_count": 0
   },
   {
     "master_pdf_page": 7,
@@ -174,7 +183,8 @@
       888.719970703125
     ],
     "provider_marks_in_reader": false,
-    "open_notes": []
+    "reading_note_dispositions": [],
+    "v003_change_count": 0
   },
   {
     "master_pdf_page": 8,
@@ -199,7 +209,8 @@
       889.2000122070312
     ],
     "provider_marks_in_reader": false,
-    "open_notes": []
+    "reading_note_dispositions": [],
+    "v003_change_count": 0
   },
   {
     "master_pdf_page": 9,
@@ -224,7 +235,8 @@
       888.2400512695312
     ],
     "provider_marks_in_reader": false,
-    "open_notes": []
+    "reading_note_dispositions": [],
+    "v003_change_count": 0
   },
   {
     "master_pdf_page": 10,
@@ -232,7 +244,7 @@
     "owned": true,
     "kind": "half_title",
     "role": "NALLINO_APPARATUS",
-    "disposition": "Source-replayed first-pass transcription included; open readings remain explicitly registered",
+    "disposition": "First-pass transcription inherited from v002; v003 targeted source repairs and exact-image dispositions incorporated. Independent cold source audit outstanding.",
     "source_sha256": "544c16b6355c9b74e281aded657d657224bff738366d5260e1a610d31b0d6297",
     "physical_page_available": true,
     "visual_review": "Direct first-pass visual inspection; not independent audit",
@@ -249,7 +261,8 @@
       889.6799926757812
     ],
     "provider_marks_in_reader": false,
-    "open_notes": []
+    "reading_note_dispositions": [],
+    "v003_change_count": 0
   },
   {
     "master_pdf_page": 11,
@@ -274,7 +287,8 @@
       887.0399780273438
     ],
     "provider_marks_in_reader": false,
-    "open_notes": []
+    "reading_note_dispositions": [],
+    "v003_change_count": 0
   },
   {
     "master_pdf_page": 12,
@@ -282,7 +296,7 @@
     "owned": true,
     "kind": "title",
     "role": "NALLINO_APPARATUS",
-    "disposition": "Source-replayed first-pass transcription included; open readings remain explicitly registered",
+    "disposition": "First-pass transcription inherited from v002; v003 targeted source repairs and exact-image dispositions incorporated. Independent cold source audit outstanding.",
     "source_sha256": "544c16b6355c9b74e281aded657d657224bff738366d5260e1a610d31b0d6297",
     "physical_page_available": true,
     "visual_review": "Direct first-pass visual inspection; not independent audit",
@@ -299,7 +313,8 @@
       889.6799926757812
     ],
     "provider_marks_in_reader": false,
-    "open_notes": []
+    "reading_note_dispositions": [],
+    "v003_change_count": 0
   },
   {
     "master_pdf_page": 13,
@@ -307,7 +322,7 @@
     "owned": true,
     "kind": "imprint",
     "role": "NALLINO_APPARATUS",
-    "disposition": "Source-replayed first-pass transcription included; open readings remain explicitly registered",
+    "disposition": "First-pass transcription inherited from v002; v003 targeted source repairs and exact-image dispositions incorporated. Independent cold source audit outstanding.",
     "source_sha256": "544c16b6355c9b74e281aded657d657224bff738366d5260e1a610d31b0d6297",
     "physical_page_available": true,
     "visual_review": "Direct first-pass visual inspection; not independent audit",
@@ -324,7 +339,8 @@
       888.2400512695312
     ],
     "provider_marks_in_reader": false,
-    "open_notes": []
+    "reading_note_dispositions": [],
+    "v003_change_count": 0
   },
   {
     "master_pdf_page": 14,
@@ -332,7 +348,7 @@
     "owned": true,
     "kind": "dedication",
     "role": "NALLINO_APPARATUS",
-    "disposition": "Source-replayed first-pass transcription included; open readings remain explicitly registered",
+    "disposition": "First-pass transcription inherited from v002; v003 targeted source repairs and exact-image dispositions incorporated. Independent cold source audit outstanding.",
     "source_sha256": "544c16b6355c9b74e281aded657d657224bff738366d5260e1a610d31b0d6297",
     "physical_page_available": true,
     "visual_review": "Direct first-pass visual inspection; not independent audit",
@@ -349,7 +365,8 @@
       890.8800048828125
     ],
     "provider_marks_in_reader": false,
-    "open_notes": []
+    "reading_note_dispositions": [],
+    "v003_change_count": 0
   },
   {
     "master_pdf_page": 15,
@@ -374,7 +391,8 @@
       888.719970703125
     ],
     "provider_marks_in_reader": false,
-    "open_notes": []
+    "reading_note_dispositions": [],
+    "v003_change_count": 0
   },
   {
     "master_pdf_page": 16,
@@ -382,7 +400,7 @@
     "owned": true,
     "kind": "text",
     "role": "NALLINO_APPARATUS",
-    "disposition": "Source-replayed first-pass transcription included; open readings remain explicitly registered",
+    "disposition": "First-pass transcription inherited from v002; v003 targeted source repairs and exact-image dispositions incorporated. Independent cold source audit outstanding.",
     "source_sha256": "544c16b6355c9b74e281aded657d657224bff738366d5260e1a610d31b0d6297",
     "physical_page_available": true,
     "visual_review": "Direct first-pass visual inspection; not independent audit",
@@ -399,7 +417,8 @@
       887.760009765625
     ],
     "provider_marks_in_reader": false,
-    "open_notes": []
+    "reading_note_dispositions": [],
+    "v003_change_count": 0
   },
   {
     "master_pdf_page": 17,
@@ -407,7 +426,7 @@
     "owned": true,
     "kind": "text",
     "role": "NALLINO_APPARATUS",
-    "disposition": "Source-replayed first-pass transcription included; open readings remain explicitly registered",
+    "disposition": "First-pass transcription inherited from v002; v003 targeted source repairs and exact-image dispositions incorporated. Independent cold source audit outstanding.",
     "source_sha256": "544c16b6355c9b74e281aded657d657224bff738366d5260e1a610d31b0d6297",
     "physical_page_available": true,
     "visual_review": "Direct first-pass visual inspection; not independent audit",
@@ -424,7 +443,8 @@
       892.7999877929688
     ],
     "provider_marks_in_reader": false,
-    "open_notes": []
+    "reading_note_dispositions": [],
+    "v003_change_count": 2
   },
   {
     "master_pdf_page": 18,
@@ -432,7 +452,7 @@
     "owned": true,
     "kind": "text",
     "role": "NALLINO_APPARATUS",
-    "disposition": "Source-replayed first-pass transcription included; open readings remain explicitly registered",
+    "disposition": "First-pass transcription inherited from v002; v003 targeted source repairs and exact-image dispositions incorporated. Independent cold source audit outstanding.",
     "source_sha256": "544c16b6355c9b74e281aded657d657224bff738366d5260e1a610d31b0d6297",
     "physical_page_available": true,
     "visual_review": "Direct first-pass visual inspection; not independent audit",
@@ -449,9 +469,13 @@
       887.280029296875
     ],
     "provider_marks_in_reader": false,
-    "open_notes": [
-      "S01-U002"
-    ]
+    "reading_note_dispositions": [
+      {
+        "id": "S01-U002",
+        "status": "RESOLVED_RETAINED"
+      }
+    ],
+    "v003_change_count": 2
   },
   {
     "master_pdf_page": 19,
@@ -459,7 +483,7 @@
     "owned": true,
     "kind": "text",
     "role": "NALLINO_APPARATUS",
-    "disposition": "Source-replayed first-pass transcription included; open readings remain explicitly registered",
+    "disposition": "First-pass transcription inherited from v002; v003 targeted source repairs and exact-image dispositions incorporated. Independent cold source audit outstanding.",
     "source_sha256": "544c16b6355c9b74e281aded657d657224bff738366d5260e1a610d31b0d6297",
     "physical_page_available": true,
     "visual_review": "Direct first-pass visual inspection; not independent audit",
@@ -476,7 +500,8 @@
       887.52001953125
     ],
     "provider_marks_in_reader": false,
-    "open_notes": []
+    "reading_note_dispositions": [],
+    "v003_change_count": 2
   },
   {
     "master_pdf_page": 20,
@@ -484,7 +509,7 @@
     "owned": true,
     "kind": "text",
     "role": "NALLINO_APPARATUS",
-    "disposition": "Source-replayed first-pass transcription included; open readings remain explicitly registered",
+    "disposition": "First-pass transcription inherited from v002; v003 targeted source repairs and exact-image dispositions incorporated. Independent cold source audit outstanding.",
     "source_sha256": "544c16b6355c9b74e281aded657d657224bff738366d5260e1a610d31b0d6297",
     "physical_page_available": true,
     "visual_review": "Direct first-pass visual inspection; not independent audit",
@@ -501,7 +526,8 @@
       889.6799926757812
     ],
     "provider_marks_in_reader": false,
-    "open_notes": []
+    "reading_note_dispositions": [],
+    "v003_change_count": 0
   },
   {
     "master_pdf_page": 21,
@@ -509,7 +535,7 @@
     "owned": true,
     "kind": "text",
     "role": "NALLINO_APPARATUS",
-    "disposition": "Source-replayed first-pass transcription included; open readings remain explicitly registered",
+    "disposition": "First-pass transcription inherited from v002; v003 targeted source repairs and exact-image dispositions incorporated. Independent cold source audit outstanding.",
     "source_sha256": "544c16b6355c9b74e281aded657d657224bff738366d5260e1a610d31b0d6297",
     "physical_page_available": true,
     "visual_review": "Direct first-pass visual inspection; not independent audit",
@@ -526,7 +552,8 @@
       891.8399658203125
     ],
     "provider_marks_in_reader": false,
-    "open_notes": []
+    "reading_note_dispositions": [],
+    "v003_change_count": 1
   },
   {
     "master_pdf_page": 22,
@@ -534,7 +561,7 @@
     "owned": true,
     "kind": "text",
     "role": "NALLINO_APPARATUS",
-    "disposition": "Source-replayed first-pass transcription included; open readings remain explicitly registered",
+    "disposition": "First-pass transcription inherited from v002; v003 targeted source repairs and exact-image dispositions incorporated. Independent cold source audit outstanding.",
     "source_sha256": "544c16b6355c9b74e281aded657d657224bff738366d5260e1a610d31b0d6297",
     "physical_page_available": true,
     "visual_review": "Direct first-pass visual inspection; not independent audit",
@@ -551,9 +578,13 @@
       886.7999877929688
     ],
     "provider_marks_in_reader": false,
-    "open_notes": [
-      "S01-U003"
-    ]
+    "reading_note_dispositions": [
+      {
+        "id": "S01-U003",
+        "status": "DISPOSED_IMAGE_FALLBACK"
+      }
+    ],
+    "v003_change_count": 1
   },
   {
     "master_pdf_page": 23,
@@ -561,7 +592,7 @@
     "owned": true,
     "kind": "text",
     "role": "NALLINO_APPARATUS",
-    "disposition": "Source-replayed first-pass transcription included; open readings remain explicitly registered",
+    "disposition": "First-pass transcription inherited from v002; v003 targeted source repairs and exact-image dispositions incorporated. Independent cold source audit outstanding.",
     "source_sha256": "544c16b6355c9b74e281aded657d657224bff738366d5260e1a610d31b0d6297",
     "physical_page_available": true,
     "visual_review": "Direct first-pass visual inspection; not independent audit",
@@ -578,7 +609,8 @@
       885.6000366210938
     ],
     "provider_marks_in_reader": false,
-    "open_notes": []
+    "reading_note_dispositions": [],
+    "v003_change_count": 0
   },
   {
     "master_pdf_page": 24,
@@ -586,7 +618,7 @@
     "owned": true,
     "kind": "text",
     "role": "NALLINO_APPARATUS",
-    "disposition": "Source-replayed first-pass transcription included; open readings remain explicitly registered",
+    "disposition": "First-pass transcription inherited from v002; v003 targeted source repairs and exact-image dispositions incorporated. Independent cold source audit outstanding.",
     "source_sha256": "544c16b6355c9b74e281aded657d657224bff738366d5260e1a610d31b0d6297",
     "physical_page_available": true,
     "visual_review": "Direct first-pass visual inspection; not independent audit",
@@ -603,7 +635,8 @@
       891.5999755859375
     ],
     "provider_marks_in_reader": false,
-    "open_notes": []
+    "reading_note_dispositions": [],
+    "v003_change_count": 0
   },
   {
     "master_pdf_page": 25,
@@ -611,7 +644,7 @@
     "owned": true,
     "kind": "text",
     "role": "NALLINO_APPARATUS",
-    "disposition": "Source-replayed first-pass transcription included; open readings remain explicitly registered",
+    "disposition": "First-pass transcription inherited from v002; v003 targeted source repairs and exact-image dispositions incorporated. Independent cold source audit outstanding.",
     "source_sha256": "544c16b6355c9b74e281aded657d657224bff738366d5260e1a610d31b0d6297",
     "physical_page_available": true,
     "visual_review": "Direct first-pass visual inspection; not independent audit",
@@ -628,7 +661,8 @@
       887.280029296875
     ],
     "provider_marks_in_reader": false,
-    "open_notes": []
+    "reading_note_dispositions": [],
+    "v003_change_count": 0
   },
   {
     "master_pdf_page": 26,
@@ -636,7 +670,7 @@
     "owned": true,
     "kind": "text",
     "role": "NALLINO_APPARATUS",
-    "disposition": "Source-replayed first-pass transcription included; open readings remain explicitly registered",
+    "disposition": "First-pass transcription inherited from v002; v003 targeted source repairs and exact-image dispositions incorporated. Independent cold source audit outstanding.",
     "source_sha256": "544c16b6355c9b74e281aded657d657224bff738366d5260e1a610d31b0d6297",
     "physical_page_available": true,
     "visual_review": "Direct first-pass visual inspection; not independent audit",
@@ -653,7 +687,8 @@
       888.2400512695312
     ],
     "provider_marks_in_reader": false,
-    "open_notes": []
+    "reading_note_dispositions": [],
+    "v003_change_count": 2
   },
   {
     "master_pdf_page": 27,
@@ -661,7 +696,7 @@
     "owned": true,
     "kind": "text",
     "role": "NALLINO_APPARATUS",
-    "disposition": "Source-replayed first-pass transcription included; open readings remain explicitly registered",
+    "disposition": "First-pass transcription inherited from v002; v003 targeted source repairs and exact-image dispositions incorporated. Independent cold source audit outstanding.",
     "source_sha256": "544c16b6355c9b74e281aded657d657224bff738366d5260e1a610d31b0d6297",
     "physical_page_available": true,
     "visual_review": "Direct first-pass visual inspection; not independent audit",
@@ -678,7 +713,8 @@
       887.52001953125
     ],
     "provider_marks_in_reader": false,
-    "open_notes": []
+    "reading_note_dispositions": [],
+    "v003_change_count": 2
   },
   {
     "master_pdf_page": 28,
@@ -686,7 +722,7 @@
     "owned": true,
     "kind": "text",
     "role": "NALLINO_APPARATUS",
-    "disposition": "Source-replayed first-pass transcription included; open readings remain explicitly registered",
+    "disposition": "First-pass transcription inherited from v002; v003 targeted source repairs and exact-image dispositions incorporated. Independent cold source audit outstanding.",
     "source_sha256": "544c16b6355c9b74e281aded657d657224bff738366d5260e1a610d31b0d6297",
     "physical_page_available": true,
     "visual_review": "Direct first-pass visual inspection; not independent audit",
@@ -703,7 +739,8 @@
       889.9199829101562
     ],
     "provider_marks_in_reader": false,
-    "open_notes": []
+    "reading_note_dispositions": [],
+    "v003_change_count": 1
   },
   {
     "master_pdf_page": 29,
@@ -711,7 +748,7 @@
     "owned": true,
     "kind": "text",
     "role": "NALLINO_APPARATUS",
-    "disposition": "Source-replayed first-pass transcription included; open readings remain explicitly registered",
+    "disposition": "First-pass transcription inherited from v002; v003 targeted source repairs and exact-image dispositions incorporated. Independent cold source audit outstanding.",
     "source_sha256": "544c16b6355c9b74e281aded657d657224bff738366d5260e1a610d31b0d6297",
     "physical_page_available": true,
     "visual_review": "Direct first-pass visual inspection; not independent audit",
@@ -728,7 +765,8 @@
       888.9599609375
     ],
     "provider_marks_in_reader": false,
-    "open_notes": []
+    "reading_note_dispositions": [],
+    "v003_change_count": 0
   },
   {
     "master_pdf_page": 30,
@@ -736,7 +774,7 @@
     "owned": true,
     "kind": "text",
     "role": "NALLINO_APPARATUS",
-    "disposition": "Source-replayed first-pass transcription included; open readings remain explicitly registered",
+    "disposition": "First-pass transcription inherited from v002; v003 targeted source repairs and exact-image dispositions incorporated. Independent cold source audit outstanding.",
     "source_sha256": "544c16b6355c9b74e281aded657d657224bff738366d5260e1a610d31b0d6297",
     "physical_page_available": true,
     "visual_review": "Direct first-pass visual inspection; not independent audit",
@@ -753,7 +791,8 @@
       892.7999877929688
     ],
     "provider_marks_in_reader": false,
-    "open_notes": []
+    "reading_note_dispositions": [],
+    "v003_change_count": 0
   },
   {
     "master_pdf_page": 31,
@@ -761,7 +800,7 @@
     "owned": true,
     "kind": "text",
     "role": "NALLINO_APPARATUS",
-    "disposition": "Source-replayed first-pass transcription included; open readings remain explicitly registered",
+    "disposition": "First-pass transcription inherited from v002; v003 targeted source repairs and exact-image dispositions incorporated. Independent cold source audit outstanding.",
     "source_sha256": "544c16b6355c9b74e281aded657d657224bff738366d5260e1a610d31b0d6297",
     "physical_page_available": true,
     "visual_review": "Direct first-pass visual inspection; not independent audit",
@@ -778,7 +817,8 @@
       888.47998046875
     ],
     "provider_marks_in_reader": false,
-    "open_notes": []
+    "reading_note_dispositions": [],
+    "v003_change_count": 0
   },
   {
     "master_pdf_page": 32,
@@ -786,7 +826,7 @@
     "owned": true,
     "kind": "text",
     "role": "NALLINO_APPARATUS",
-    "disposition": "Source-replayed first-pass transcription included; open readings remain explicitly registered",
+    "disposition": "First-pass transcription inherited from v002; v003 targeted source repairs and exact-image dispositions incorporated. Independent cold source audit outstanding.",
     "source_sha256": "544c16b6355c9b74e281aded657d657224bff738366d5260e1a610d31b0d6297",
     "physical_page_available": true,
     "visual_review": "Direct first-pass visual inspection; not independent audit",
@@ -803,7 +843,8 @@
       889.2000122070312
     ],
     "provider_marks_in_reader": false,
-    "open_notes": []
+    "reading_note_dispositions": [],
+    "v003_change_count": 1
   },
   {
     "master_pdf_page": 33,
@@ -811,7 +852,7 @@
     "owned": true,
     "kind": "text",
     "role": "NALLINO_APPARATUS",
-    "disposition": "Source-replayed first-pass transcription included; open readings remain explicitly registered",
+    "disposition": "First-pass transcription inherited from v002; v003 targeted source repairs and exact-image dispositions incorporated. Independent cold source audit outstanding.",
     "source_sha256": "544c16b6355c9b74e281aded657d657224bff738366d5260e1a610d31b0d6297",
     "physical_page_available": true,
     "visual_review": "Direct first-pass visual inspection; not independent audit",
@@ -828,7 +869,8 @@
       889.2000122070312
     ],
     "provider_marks_in_reader": false,
-    "open_notes": []
+    "reading_note_dispositions": [],
+    "v003_change_count": 1
   },
   {
     "master_pdf_page": 34,
@@ -836,7 +878,7 @@
     "owned": true,
     "kind": "text",
     "role": "NALLINO_APPARATUS",
-    "disposition": "Source-replayed first-pass transcription included; open readings remain explicitly registered",
+    "disposition": "First-pass transcription inherited from v002; v003 targeted source repairs and exact-image dispositions incorporated. Independent cold source audit outstanding.",
     "source_sha256": "544c16b6355c9b74e281aded657d657224bff738366d5260e1a610d31b0d6297",
     "physical_page_available": true,
     "visual_review": "Direct first-pass visual inspection; not independent audit",
@@ -853,7 +895,8 @@
       888.2400512695312
     ],
     "provider_marks_in_reader": false,
-    "open_notes": []
+    "reading_note_dispositions": [],
+    "v003_change_count": 1
   },
   {
     "master_pdf_page": 35,
@@ -861,7 +904,7 @@
     "owned": true,
     "kind": "text",
     "role": "NALLINO_APPARATUS",
-    "disposition": "Source-replayed first-pass transcription included; open readings remain explicitly registered",
+    "disposition": "First-pass transcription inherited from v002; v003 targeted source repairs and exact-image dispositions incorporated. Independent cold source audit outstanding.",
     "source_sha256": "544c16b6355c9b74e281aded657d657224bff738366d5260e1a610d31b0d6297",
     "physical_page_available": true,
     "visual_review": "Direct first-pass visual inspection; not independent audit",
@@ -878,7 +921,8 @@
       894.719970703125
     ],
     "provider_marks_in_reader": false,
-    "open_notes": []
+    "reading_note_dispositions": [],
+    "v003_change_count": 1
   },
   {
     "master_pdf_page": 36,
@@ -886,7 +930,7 @@
     "owned": true,
     "kind": "text",
     "role": "NALLINO_APPARATUS",
-    "disposition": "Source-replayed first-pass transcription included; open readings remain explicitly registered",
+    "disposition": "First-pass transcription inherited from v002; v003 targeted source repairs and exact-image dispositions incorporated. Independent cold source audit outstanding.",
     "source_sha256": "544c16b6355c9b74e281aded657d657224bff738366d5260e1a610d31b0d6297",
     "physical_page_available": true,
     "visual_review": "Direct first-pass visual inspection; not independent audit",
@@ -903,7 +947,8 @@
       886.0799560546875
     ],
     "provider_marks_in_reader": false,
-    "open_notes": []
+    "reading_note_dispositions": [],
+    "v003_change_count": 0
   },
   {
     "master_pdf_page": 37,
@@ -911,7 +956,7 @@
     "owned": true,
     "kind": "text",
     "role": "NALLINO_APPARATUS",
-    "disposition": "Source-replayed first-pass transcription included; open readings remain explicitly registered",
+    "disposition": "First-pass transcription inherited from v002; v003 targeted source repairs and exact-image dispositions incorporated. Independent cold source audit outstanding.",
     "source_sha256": "544c16b6355c9b74e281aded657d657224bff738366d5260e1a610d31b0d6297",
     "physical_page_available": true,
     "visual_review": "Direct first-pass visual inspection; not independent audit",
@@ -928,7 +973,13 @@
       886.0799560546875
     ],
     "provider_marks_in_reader": false,
-    "open_notes": []
+    "reading_note_dispositions": [
+      {
+        "id": "S01-U013",
+        "status": "DISPOSED_IMAGE_FALLBACK"
+      }
+    ],
+    "v003_change_count": 1
   },
   {
     "master_pdf_page": 38,
@@ -936,7 +987,7 @@
     "owned": true,
     "kind": "text",
     "role": "NALLINO_APPARATUS",
-    "disposition": "Source-replayed first-pass transcription included; open readings remain explicitly registered",
+    "disposition": "First-pass transcription inherited from v002; v003 targeted source repairs and exact-image dispositions incorporated. Independent cold source audit outstanding.",
     "source_sha256": "544c16b6355c9b74e281aded657d657224bff738366d5260e1a610d31b0d6297",
     "physical_page_available": true,
     "visual_review": "Direct first-pass visual inspection; not independent audit",
@@ -953,7 +1004,8 @@
       886.5599975585938
     ],
     "provider_marks_in_reader": false,
-    "open_notes": []
+    "reading_note_dispositions": [],
+    "v003_change_count": 0
   },
   {
     "master_pdf_page": 39,
@@ -961,7 +1013,7 @@
     "owned": true,
     "kind": "text",
     "role": "NALLINO_APPARATUS",
-    "disposition": "Source-replayed first-pass transcription included; open readings remain explicitly registered",
+    "disposition": "First-pass transcription inherited from v002; v003 targeted source repairs and exact-image dispositions incorporated. Independent cold source audit outstanding.",
     "source_sha256": "544c16b6355c9b74e281aded657d657224bff738366d5260e1a610d31b0d6297",
     "physical_page_available": true,
     "visual_review": "Direct first-pass visual inspection; not independent audit",
@@ -978,7 +1030,8 @@
       889.2000122070312
     ],
     "provider_marks_in_reader": false,
-    "open_notes": []
+    "reading_note_dispositions": [],
+    "v003_change_count": 8
   },
   {
     "master_pdf_page": 40,
@@ -986,7 +1039,7 @@
     "owned": true,
     "kind": "text",
     "role": "NALLINO_APPARATUS",
-    "disposition": "Source-replayed first-pass transcription included; open readings remain explicitly registered",
+    "disposition": "First-pass transcription inherited from v002; v003 targeted source repairs and exact-image dispositions incorporated. Independent cold source audit outstanding.",
     "source_sha256": "544c16b6355c9b74e281aded657d657224bff738366d5260e1a610d31b0d6297",
     "physical_page_available": true,
     "visual_review": "Direct first-pass visual inspection; not independent audit",
@@ -1003,10 +1056,17 @@
       889.6799926757812
     ],
     "provider_marks_in_reader": false,
-    "open_notes": [
-      "S01-U004",
-      "S01-U005"
-    ]
+    "reading_note_dispositions": [
+      {
+        "id": "S01-U004",
+        "status": "DISPOSED_IMAGE_FALLBACK"
+      },
+      {
+        "id": "S01-U005",
+        "status": "RESOLVED_RETAINED"
+      }
+    ],
+    "v003_change_count": 1
   },
   {
     "master_pdf_page": 41,
@@ -1014,7 +1074,7 @@
     "owned": true,
     "kind": "text",
     "role": "NALLINO_APPARATUS",
-    "disposition": "Source-replayed first-pass transcription included; open readings remain explicitly registered",
+    "disposition": "First-pass transcription inherited from v002; v003 targeted source repairs and exact-image dispositions incorporated. Independent cold source audit outstanding.",
     "source_sha256": "544c16b6355c9b74e281aded657d657224bff738366d5260e1a610d31b0d6297",
     "physical_page_available": true,
     "visual_review": "Direct first-pass visual inspection; not independent audit",
@@ -1031,7 +1091,8 @@
       888.47998046875
     ],
     "provider_marks_in_reader": false,
-    "open_notes": []
+    "reading_note_dispositions": [],
+    "v003_change_count": 1
   },
   {
     "master_pdf_page": 42,
@@ -1039,7 +1100,7 @@
     "owned": true,
     "kind": "text",
     "role": "NALLINO_APPARATUS",
-    "disposition": "Source-replayed first-pass transcription included; open readings remain explicitly registered",
+    "disposition": "First-pass transcription inherited from v002; v003 targeted source repairs and exact-image dispositions incorporated. Independent cold source audit outstanding.",
     "source_sha256": "544c16b6355c9b74e281aded657d657224bff738366d5260e1a610d31b0d6297",
     "physical_page_available": true,
     "visual_review": "Direct first-pass visual inspection; not independent audit",
@@ -1056,7 +1117,8 @@
       888.2400512695312
     ],
     "provider_marks_in_reader": false,
-    "open_notes": []
+    "reading_note_dispositions": [],
+    "v003_change_count": 1
   },
   {
     "master_pdf_page": 43,
@@ -1064,7 +1126,7 @@
     "owned": true,
     "kind": "text",
     "role": "NALLINO_APPARATUS",
-    "disposition": "Source-replayed first-pass transcription included; open readings remain explicitly registered",
+    "disposition": "First-pass transcription inherited from v002; v003 targeted source repairs and exact-image dispositions incorporated. Independent cold source audit outstanding.",
     "source_sha256": "544c16b6355c9b74e281aded657d657224bff738366d5260e1a610d31b0d6297",
     "physical_page_available": true,
     "visual_review": "Direct first-pass visual inspection; not independent audit",
@@ -1081,7 +1143,8 @@
       884.8800048828125
     ],
     "provider_marks_in_reader": false,
-    "open_notes": []
+    "reading_note_dispositions": [],
+    "v003_change_count": 2
   },
   {
     "master_pdf_page": 44,
@@ -1089,7 +1152,7 @@
     "owned": true,
     "kind": "text",
     "role": "NALLINO_APPARATUS",
-    "disposition": "Source-replayed first-pass transcription included; open readings remain explicitly registered",
+    "disposition": "First-pass transcription inherited from v002; v003 targeted source repairs and exact-image dispositions incorporated. Independent cold source audit outstanding.",
     "source_sha256": "544c16b6355c9b74e281aded657d657224bff738366d5260e1a610d31b0d6297",
     "physical_page_available": true,
     "visual_review": "Direct first-pass visual inspection; not independent audit",
@@ -1106,7 +1169,8 @@
       887.0399780273438
     ],
     "provider_marks_in_reader": false,
-    "open_notes": []
+    "reading_note_dispositions": [],
+    "v003_change_count": 2
   },
   {
     "master_pdf_page": 45,
@@ -1114,7 +1178,7 @@
     "owned": true,
     "kind": "text",
     "role": "NALLINO_APPARATUS",
-    "disposition": "Source-replayed first-pass transcription included; open readings remain explicitly registered",
+    "disposition": "First-pass transcription inherited from v002; v003 targeted source repairs and exact-image dispositions incorporated. Independent cold source audit outstanding.",
     "source_sha256": "544c16b6355c9b74e281aded657d657224bff738366d5260e1a610d31b0d6297",
     "physical_page_available": true,
     "visual_review": "Direct first-pass visual inspection; not independent audit",
@@ -1131,7 +1195,8 @@
       888.2400512695312
     ],
     "provider_marks_in_reader": false,
-    "open_notes": []
+    "reading_note_dispositions": [],
+    "v003_change_count": 0
   },
   {
     "master_pdf_page": 46,
@@ -1139,7 +1204,7 @@
     "owned": true,
     "kind": "text",
     "role": "NALLINO_APPARATUS",
-    "disposition": "Source-replayed first-pass transcription included; open readings remain explicitly registered",
+    "disposition": "First-pass transcription inherited from v002; v003 targeted source repairs and exact-image dispositions incorporated. Independent cold source audit outstanding.",
     "source_sha256": "544c16b6355c9b74e281aded657d657224bff738366d5260e1a610d31b0d6297",
     "physical_page_available": true,
     "visual_review": "Direct first-pass visual inspection; not independent audit",
@@ -1156,7 +1221,8 @@
       888.2400512695312
     ],
     "provider_marks_in_reader": false,
-    "open_notes": []
+    "reading_note_dispositions": [],
+    "v003_change_count": 0
   },
   {
     "master_pdf_page": 47,
@@ -1164,7 +1230,7 @@
     "owned": true,
     "kind": "text",
     "role": "NALLINO_APPARATUS",
-    "disposition": "Source-replayed first-pass transcription included; open readings remain explicitly registered",
+    "disposition": "First-pass transcription inherited from v002; v003 targeted source repairs and exact-image dispositions incorporated. Independent cold source audit outstanding.",
     "source_sha256": "544c16b6355c9b74e281aded657d657224bff738366d5260e1a610d31b0d6297",
     "physical_page_available": true,
     "visual_review": "Direct first-pass visual inspection; not independent audit",
@@ -1181,7 +1247,8 @@
       887.0399780273438
     ],
     "provider_marks_in_reader": false,
-    "open_notes": []
+    "reading_note_dispositions": [],
+    "v003_change_count": 1
   },
   {
     "master_pdf_page": 48,
@@ -1189,7 +1256,7 @@
     "owned": true,
     "kind": "text",
     "role": "NALLINO_APPARATUS",
-    "disposition": "Source-replayed first-pass transcription included; open readings remain explicitly registered",
+    "disposition": "First-pass transcription inherited from v002; v003 targeted source repairs and exact-image dispositions incorporated. Independent cold source audit outstanding.",
     "source_sha256": "544c16b6355c9b74e281aded657d657224bff738366d5260e1a610d31b0d6297",
     "physical_page_available": true,
     "visual_review": "Direct first-pass visual inspection; not independent audit",
@@ -1206,7 +1273,8 @@
       887.280029296875
     ],
     "provider_marks_in_reader": false,
-    "open_notes": []
+    "reading_note_dispositions": [],
+    "v003_change_count": 1
   },
   {
     "master_pdf_page": 49,
@@ -1214,7 +1282,7 @@
     "owned": true,
     "kind": "text",
     "role": "NALLINO_APPARATUS",
-    "disposition": "Source-replayed first-pass transcription included; open readings remain explicitly registered",
+    "disposition": "First-pass transcription inherited from v002; v003 targeted source repairs and exact-image dispositions incorporated. Independent cold source audit outstanding.",
     "source_sha256": "544c16b6355c9b74e281aded657d657224bff738366d5260e1a610d31b0d6297",
     "physical_page_available": true,
     "visual_review": "Direct first-pass visual inspection; not independent audit",
@@ -1231,7 +1299,8 @@
       887.52001953125
     ],
     "provider_marks_in_reader": false,
-    "open_notes": []
+    "reading_note_dispositions": [],
+    "v003_change_count": 1
   },
   {
     "master_pdf_page": 50,
@@ -1239,7 +1308,7 @@
     "owned": true,
     "kind": "text",
     "role": "NALLINO_APPARATUS",
-    "disposition": "Source-replayed first-pass transcription included; open readings remain explicitly registered",
+    "disposition": "First-pass transcription inherited from v002; v003 targeted source repairs and exact-image dispositions incorporated. Independent cold source audit outstanding.",
     "source_sha256": "544c16b6355c9b74e281aded657d657224bff738366d5260e1a610d31b0d6297",
     "physical_page_available": true,
     "visual_review": "Direct first-pass visual inspection; not independent audit",
@@ -1256,7 +1325,8 @@
       886.3200073242188
     ],
     "provider_marks_in_reader": false,
-    "open_notes": []
+    "reading_note_dispositions": [],
+    "v003_change_count": 1
   },
   {
     "master_pdf_page": 51,
@@ -1264,7 +1334,7 @@
     "owned": true,
     "kind": "text",
     "role": "NALLINO_APPARATUS",
-    "disposition": "Source-replayed first-pass transcription included; open readings remain explicitly registered",
+    "disposition": "First-pass transcription inherited from v002; v003 targeted source repairs and exact-image dispositions incorporated. Independent cold source audit outstanding.",
     "source_sha256": "544c16b6355c9b74e281aded657d657224bff738366d5260e1a610d31b0d6297",
     "physical_page_available": true,
     "visual_review": "Direct first-pass visual inspection; not independent audit",
@@ -1281,7 +1351,8 @@
       891.3599853515625
     ],
     "provider_marks_in_reader": false,
-    "open_notes": []
+    "reading_note_dispositions": [],
+    "v003_change_count": 1
   },
   {
     "master_pdf_page": 52,
@@ -1289,7 +1360,7 @@
     "owned": true,
     "kind": "text",
     "role": "NALLINO_APPARATUS",
-    "disposition": "Source-replayed first-pass transcription included; open readings remain explicitly registered",
+    "disposition": "First-pass transcription inherited from v002; v003 targeted source repairs and exact-image dispositions incorporated. Independent cold source audit outstanding.",
     "source_sha256": "544c16b6355c9b74e281aded657d657224bff738366d5260e1a610d31b0d6297",
     "physical_page_available": true,
     "visual_review": "Direct first-pass visual inspection; not independent audit",
@@ -1306,7 +1377,8 @@
       890.4000244140625
     ],
     "provider_marks_in_reader": false,
-    "open_notes": []
+    "reading_note_dispositions": [],
+    "v003_change_count": 2
   },
   {
     "master_pdf_page": 53,
@@ -1314,7 +1386,7 @@
     "owned": true,
     "kind": "text",
     "role": "NALLINO_APPARATUS",
-    "disposition": "Source-replayed first-pass transcription included; open readings remain explicitly registered",
+    "disposition": "First-pass transcription inherited from v002; v003 targeted source repairs and exact-image dispositions incorporated. Independent cold source audit outstanding.",
     "source_sha256": "544c16b6355c9b74e281aded657d657224bff738366d5260e1a610d31b0d6297",
     "physical_page_available": true,
     "visual_review": "Direct first-pass visual inspection; not independent audit",
@@ -1331,7 +1403,8 @@
       887.280029296875
     ],
     "provider_marks_in_reader": false,
-    "open_notes": []
+    "reading_note_dispositions": [],
+    "v003_change_count": 0
   },
   {
     "master_pdf_page": 54,
@@ -1339,7 +1412,7 @@
     "owned": true,
     "kind": "text",
     "role": "NALLINO_APPARATUS",
-    "disposition": "Source-replayed first-pass transcription included; open readings remain explicitly registered",
+    "disposition": "First-pass transcription inherited from v002; v003 targeted source repairs and exact-image dispositions incorporated. Independent cold source audit outstanding.",
     "source_sha256": "544c16b6355c9b74e281aded657d657224bff738366d5260e1a610d31b0d6297",
     "physical_page_available": true,
     "visual_review": "Direct first-pass visual inspection; not independent audit",
@@ -1356,7 +1429,8 @@
       889.6799926757812
     ],
     "provider_marks_in_reader": false,
-    "open_notes": []
+    "reading_note_dispositions": [],
+    "v003_change_count": 0
   },
   {
     "master_pdf_page": 55,
@@ -1364,7 +1438,7 @@
     "owned": true,
     "kind": "text",
     "role": "NALLINO_APPARATUS",
-    "disposition": "Source-replayed first-pass transcription included; open readings remain explicitly registered",
+    "disposition": "First-pass transcription inherited from v002; v003 targeted source repairs and exact-image dispositions incorporated. Independent cold source audit outstanding.",
     "source_sha256": "544c16b6355c9b74e281aded657d657224bff738366d5260e1a610d31b0d6297",
     "physical_page_available": true,
     "visual_review": "Direct first-pass visual inspection; not independent audit",
@@ -1381,7 +1455,8 @@
       885.6000366210938
     ],
     "provider_marks_in_reader": false,
-    "open_notes": []
+    "reading_note_dispositions": [],
+    "v003_change_count": 0
   },
   {
     "master_pdf_page": 56,
@@ -1389,7 +1464,7 @@
     "owned": true,
     "kind": "text",
     "role": "NALLINO_APPARATUS",
-    "disposition": "Source-replayed first-pass transcription included; open readings remain explicitly registered",
+    "disposition": "First-pass transcription inherited from v002; v003 targeted source repairs and exact-image dispositions incorporated. Independent cold source audit outstanding.",
     "source_sha256": "544c16b6355c9b74e281aded657d657224bff738366d5260e1a610d31b0d6297",
     "physical_page_available": true,
     "visual_review": "Direct first-pass visual inspection; not independent audit",
@@ -1406,9 +1481,13 @@
       886.3200073242188
     ],
     "provider_marks_in_reader": false,
-    "open_notes": [
-      "S01-U006"
-    ]
+    "reading_note_dispositions": [
+      {
+        "id": "S01-U006",
+        "status": "RESOLVED_RETAINED"
+      }
+    ],
+    "v003_change_count": 1
   },
   {
     "master_pdf_page": 57,
@@ -1416,7 +1495,7 @@
     "owned": true,
     "kind": "text",
     "role": "NALLINO_APPARATUS",
-    "disposition": "Source-replayed first-pass transcription included; open readings remain explicitly registered",
+    "disposition": "First-pass transcription inherited from v002; v003 targeted source repairs and exact-image dispositions incorporated. Independent cold source audit outstanding.",
     "source_sha256": "544c16b6355c9b74e281aded657d657224bff738366d5260e1a610d31b0d6297",
     "physical_page_available": true,
     "visual_review": "Direct first-pass visual inspection; not independent audit",
@@ -1433,7 +1512,8 @@
       886.5599975585938
     ],
     "provider_marks_in_reader": false,
-    "open_notes": []
+    "reading_note_dispositions": [],
+    "v003_change_count": 0
   },
   {
     "master_pdf_page": 58,
@@ -1441,7 +1521,7 @@
     "owned": true,
     "kind": "text",
     "role": "NALLINO_APPARATUS",
-    "disposition": "Source-replayed first-pass transcription included; open readings remain explicitly registered",
+    "disposition": "First-pass transcription inherited from v002; v003 targeted source repairs and exact-image dispositions incorporated. Independent cold source audit outstanding.",
     "source_sha256": "544c16b6355c9b74e281aded657d657224bff738366d5260e1a610d31b0d6297",
     "physical_page_available": true,
     "visual_review": "Direct first-pass visual inspection; not independent audit",
@@ -1458,7 +1538,8 @@
       888.2400512695312
     ],
     "provider_marks_in_reader": false,
-    "open_notes": []
+    "reading_note_dispositions": [],
+    "v003_change_count": 1
   },
   {
     "master_pdf_page": 59,
@@ -1466,7 +1547,7 @@
     "owned": true,
     "kind": "text",
     "role": "NALLINO_APPARATUS",
-    "disposition": "Source-replayed first-pass transcription included; open readings remain explicitly registered",
+    "disposition": "First-pass transcription inherited from v002; v003 targeted source repairs and exact-image dispositions incorporated. Independent cold source audit outstanding.",
     "source_sha256": "544c16b6355c9b74e281aded657d657224bff738366d5260e1a610d31b0d6297",
     "physical_page_available": true,
     "visual_review": "Direct first-pass visual inspection; not independent audit",
@@ -1483,7 +1564,8 @@
       885.3600463867188
     ],
     "provider_marks_in_reader": false,
-    "open_notes": []
+    "reading_note_dispositions": [],
+    "v003_change_count": 2
   },
   {
     "master_pdf_page": 60,
@@ -1491,7 +1573,7 @@
     "owned": true,
     "kind": "text",
     "role": "NALLINO_APPARATUS",
-    "disposition": "Source-replayed first-pass transcription included; open readings remain explicitly registered",
+    "disposition": "First-pass transcription inherited from v002; v003 targeted source repairs and exact-image dispositions incorporated. Independent cold source audit outstanding.",
     "source_sha256": "544c16b6355c9b74e281aded657d657224bff738366d5260e1a610d31b0d6297",
     "physical_page_available": true,
     "visual_review": "Direct first-pass visual inspection; not independent audit",
@@ -1508,7 +1590,8 @@
       886.5599975585938
     ],
     "provider_marks_in_reader": false,
-    "open_notes": []
+    "reading_note_dispositions": [],
+    "v003_change_count": 1
   },
   {
     "master_pdf_page": 61,
@@ -1516,7 +1599,7 @@
     "owned": true,
     "kind": "text",
     "role": "NALLINO_APPARATUS",
-    "disposition": "Source-replayed first-pass transcription included; open readings remain explicitly registered",
+    "disposition": "First-pass transcription inherited from v002; v003 targeted source repairs and exact-image dispositions incorporated. Independent cold source audit outstanding.",
     "source_sha256": "544c16b6355c9b74e281aded657d657224bff738366d5260e1a610d31b0d6297",
     "physical_page_available": true,
     "visual_review": "Direct first-pass visual inspection; not independent audit",
@@ -1533,7 +1616,8 @@
       885.1199951171875
     ],
     "provider_marks_in_reader": false,
-    "open_notes": []
+    "reading_note_dispositions": [],
+    "v003_change_count": 1
   },
   {
     "master_pdf_page": 62,
@@ -1541,7 +1625,7 @@
     "owned": true,
     "kind": "text",
     "role": "NALLINO_APPARATUS",
-    "disposition": "Source-replayed first-pass transcription included; open readings remain explicitly registered",
+    "disposition": "First-pass transcription inherited from v002; v003 targeted source repairs and exact-image dispositions incorporated. Independent cold source audit outstanding.",
     "source_sha256": "544c16b6355c9b74e281aded657d657224bff738366d5260e1a610d31b0d6297",
     "physical_page_available": true,
     "visual_review": "Direct first-pass visual inspection; not independent audit",
@@ -1558,7 +1642,8 @@
       887.280029296875
     ],
     "provider_marks_in_reader": false,
-    "open_notes": []
+    "reading_note_dispositions": [],
+    "v003_change_count": 1
   },
   {
     "master_pdf_page": 63,
@@ -1566,7 +1651,7 @@
     "owned": true,
     "kind": "text",
     "role": "NALLINO_APPARATUS",
-    "disposition": "Source-replayed first-pass transcription included; open readings remain explicitly registered",
+    "disposition": "First-pass transcription inherited from v002; v003 targeted source repairs and exact-image dispositions incorporated. Independent cold source audit outstanding.",
     "source_sha256": "544c16b6355c9b74e281aded657d657224bff738366d5260e1a610d31b0d6297",
     "physical_page_available": true,
     "visual_review": "Direct first-pass visual inspection; not independent audit",
@@ -1583,7 +1668,8 @@
       894.9600219726562
     ],
     "provider_marks_in_reader": false,
-    "open_notes": []
+    "reading_note_dispositions": [],
+    "v003_change_count": 1
   },
   {
     "master_pdf_page": 64,
@@ -1591,7 +1677,7 @@
     "owned": true,
     "kind": "text",
     "role": "NALLINO_APPARATUS",
-    "disposition": "Source-replayed first-pass transcription included; open readings remain explicitly registered",
+    "disposition": "First-pass transcription inherited from v002; v003 targeted source repairs and exact-image dispositions incorporated. Independent cold source audit outstanding.",
     "source_sha256": "544c16b6355c9b74e281aded657d657224bff738366d5260e1a610d31b0d6297",
     "physical_page_available": true,
     "visual_review": "Direct first-pass visual inspection; not independent audit",
@@ -1608,7 +1694,8 @@
       886.0799560546875
     ],
     "provider_marks_in_reader": false,
-    "open_notes": []
+    "reading_note_dispositions": [],
+    "v003_change_count": 0
   },
   {
     "master_pdf_page": 65,
@@ -1616,7 +1703,7 @@
     "owned": true,
     "kind": "text",
     "role": "NALLINO_APPARATUS",
-    "disposition": "Source-replayed first-pass transcription included; open readings remain explicitly registered",
+    "disposition": "First-pass transcription inherited from v002; v003 targeted source repairs and exact-image dispositions incorporated. Independent cold source audit outstanding.",
     "source_sha256": "544c16b6355c9b74e281aded657d657224bff738366d5260e1a610d31b0d6297",
     "physical_page_available": true,
     "visual_review": "Direct first-pass visual inspection; not independent audit",
@@ -1633,7 +1720,8 @@
       895.2000122070312
     ],
     "provider_marks_in_reader": false,
-    "open_notes": []
+    "reading_note_dispositions": [],
+    "v003_change_count": 1
   },
   {
     "master_pdf_page": 66,
@@ -1641,7 +1729,7 @@
     "owned": true,
     "kind": "text",
     "role": "NALLINO_APPARATUS",
-    "disposition": "Source-replayed first-pass transcription included; open readings remain explicitly registered",
+    "disposition": "First-pass transcription inherited from v002; v003 targeted source repairs and exact-image dispositions incorporated. Independent cold source audit outstanding.",
     "source_sha256": "544c16b6355c9b74e281aded657d657224bff738366d5260e1a610d31b0d6297",
     "physical_page_available": true,
     "visual_review": "Direct first-pass visual inspection; not independent audit",
@@ -1658,7 +1746,8 @@
       886.5599975585938
     ],
     "provider_marks_in_reader": false,
-    "open_notes": []
+    "reading_note_dispositions": [],
+    "v003_change_count": 4
   },
   {
     "master_pdf_page": 67,
@@ -1666,7 +1755,7 @@
     "owned": true,
     "kind": "text",
     "role": "NALLINO_APPARATUS",
-    "disposition": "Source-replayed first-pass transcription included; open readings remain explicitly registered",
+    "disposition": "First-pass transcription inherited from v002; v003 targeted source repairs and exact-image dispositions incorporated. Independent cold source audit outstanding.",
     "source_sha256": "544c16b6355c9b74e281aded657d657224bff738366d5260e1a610d31b0d6297",
     "physical_page_available": true,
     "visual_review": "Direct first-pass visual inspection; not independent audit",
@@ -1683,7 +1772,8 @@
       894.9600219726562
     ],
     "provider_marks_in_reader": false,
-    "open_notes": []
+    "reading_note_dispositions": [],
+    "v003_change_count": 1
   },
   {
     "master_pdf_page": 68,
@@ -1691,7 +1781,7 @@
     "owned": true,
     "kind": "text",
     "role": "NALLINO_APPARATUS",
-    "disposition": "Source-replayed first-pass transcription included; open readings remain explicitly registered",
+    "disposition": "First-pass transcription inherited from v002; v003 targeted source repairs and exact-image dispositions incorporated. Independent cold source audit outstanding.",
     "source_sha256": "544c16b6355c9b74e281aded657d657224bff738366d5260e1a610d31b0d6297",
     "physical_page_available": true,
     "visual_review": "Direct first-pass visual inspection; not independent audit",
@@ -1708,7 +1798,8 @@
       886.0799560546875
     ],
     "provider_marks_in_reader": false,
-    "open_notes": []
+    "reading_note_dispositions": [],
+    "v003_change_count": 2
   },
   {
     "master_pdf_page": 69,
@@ -1716,7 +1807,7 @@
     "owned": true,
     "kind": "text",
     "role": "NALLINO_APPARATUS",
-    "disposition": "Source-replayed first-pass transcription included; open readings remain explicitly registered",
+    "disposition": "First-pass transcription inherited from v002; v003 targeted source repairs and exact-image dispositions incorporated. Independent cold source audit outstanding.",
     "source_sha256": "544c16b6355c9b74e281aded657d657224bff738366d5260e1a610d31b0d6297",
     "physical_page_available": true,
     "visual_review": "Direct first-pass visual inspection; not independent audit",
@@ -1733,7 +1824,8 @@
       895.2000122070312
     ],
     "provider_marks_in_reader": false,
-    "open_notes": []
+    "reading_note_dispositions": [],
+    "v003_change_count": 1
   },
   {
     "master_pdf_page": 70,
@@ -1741,7 +1833,7 @@
     "owned": true,
     "kind": "text",
     "role": "NALLINO_APPARATUS",
-    "disposition": "Source-replayed first-pass transcription included; open readings remain explicitly registered",
+    "disposition": "First-pass transcription inherited from v002; v003 targeted source repairs and exact-image dispositions incorporated. Independent cold source audit outstanding.",
     "source_sha256": "544c16b6355c9b74e281aded657d657224bff738366d5260e1a610d31b0d6297",
     "physical_page_available": true,
     "visual_review": "Direct first-pass visual inspection; not independent audit",
@@ -1758,10 +1850,17 @@
       886.5599975585938
     ],
     "provider_marks_in_reader": false,
-    "open_notes": [
-      "S01-U007",
-      "S01-U008"
-    ]
+    "reading_note_dispositions": [
+      {
+        "id": "S01-U007",
+        "status": "DISPOSED_IMAGE_FALLBACK"
+      },
+      {
+        "id": "S01-U008",
+        "status": "DISPOSED_IMAGE_FALLBACK"
+      }
+    ],
+    "v003_change_count": 10
   },
   {
     "master_pdf_page": 71,
@@ -1769,7 +1868,7 @@
     "owned": true,
     "kind": "text",
     "role": "NALLINO_APPARATUS",
-    "disposition": "Source-replayed first-pass transcription included; open readings remain explicitly registered",
+    "disposition": "First-pass transcription inherited from v002; v003 targeted source repairs and exact-image dispositions incorporated. Independent cold source audit outstanding.",
     "source_sha256": "544c16b6355c9b74e281aded657d657224bff738366d5260e1a610d31b0d6297",
     "physical_page_available": true,
     "visual_review": "Direct first-pass visual inspection; not independent audit",
@@ -1786,7 +1885,8 @@
       894.239990234375
     ],
     "provider_marks_in_reader": false,
-    "open_notes": []
+    "reading_note_dispositions": [],
+    "v003_change_count": 1
   },
   {
     "master_pdf_page": 72,
@@ -1794,7 +1894,7 @@
     "owned": true,
     "kind": "text",
     "role": "NALLINO_APPARATUS",
-    "disposition": "Source-replayed first-pass transcription included; open readings remain explicitly registered",
+    "disposition": "First-pass transcription inherited from v002; v003 targeted source repairs and exact-image dispositions incorporated. Independent cold source audit outstanding.",
     "source_sha256": "544c16b6355c9b74e281aded657d657224bff738366d5260e1a610d31b0d6297",
     "physical_page_available": true,
     "visual_review": "Direct first-pass visual inspection; not independent audit",
@@ -1811,7 +1911,8 @@
       888.719970703125
     ],
     "provider_marks_in_reader": false,
-    "open_notes": []
+    "reading_note_dispositions": [],
+    "v003_change_count": 1
   },
   {
     "master_pdf_page": 73,
@@ -1819,7 +1920,7 @@
     "owned": true,
     "kind": "text",
     "role": "NALLINO_APPARATUS",
-    "disposition": "Source-replayed first-pass transcription included; open readings remain explicitly registered",
+    "disposition": "First-pass transcription inherited from v002; v003 targeted source repairs and exact-image dispositions incorporated. Independent cold source audit outstanding.",
     "source_sha256": "544c16b6355c9b74e281aded657d657224bff738366d5260e1a610d31b0d6297",
     "physical_page_available": true,
     "visual_review": "Direct first-pass visual inspection; not independent audit",
@@ -1836,7 +1937,8 @@
       894.9600219726562
     ],
     "provider_marks_in_reader": false,
-    "open_notes": []
+    "reading_note_dispositions": [],
+    "v003_change_count": 0
   },
   {
     "master_pdf_page": 74,
@@ -1844,7 +1946,7 @@
     "owned": true,
     "kind": "text",
     "role": "NALLINO_APPARATUS",
-    "disposition": "Source-replayed first-pass transcription included; open readings remain explicitly registered",
+    "disposition": "First-pass transcription inherited from v002; v003 targeted source repairs and exact-image dispositions incorporated. Independent cold source audit outstanding.",
     "source_sha256": "544c16b6355c9b74e281aded657d657224bff738366d5260e1a610d31b0d6297",
     "physical_page_available": true,
     "visual_review": "Direct first-pass visual inspection; not independent audit",
@@ -1861,7 +1963,8 @@
       885.8399658203125
     ],
     "provider_marks_in_reader": false,
-    "open_notes": []
+    "reading_note_dispositions": [],
+    "v003_change_count": 0
   },
   {
     "master_pdf_page": 75,
@@ -1869,7 +1972,7 @@
     "owned": true,
     "kind": "text",
     "role": "NALLINO_APPARATUS",
-    "disposition": "Source-replayed first-pass transcription included; open readings remain explicitly registered",
+    "disposition": "First-pass transcription inherited from v002; v003 targeted source repairs and exact-image dispositions incorporated. Independent cold source audit outstanding.",
     "source_sha256": "544c16b6355c9b74e281aded657d657224bff738366d5260e1a610d31b0d6297",
     "physical_page_available": true,
     "visual_review": "Direct first-pass visual inspection; not independent audit",
@@ -1886,7 +1989,8 @@
       895.4400024414062
     ],
     "provider_marks_in_reader": false,
-    "open_notes": []
+    "reading_note_dispositions": [],
+    "v003_change_count": 2
   },
   {
     "master_pdf_page": 76,
@@ -1894,7 +1998,7 @@
     "owned": true,
     "kind": "text",
     "role": "NALLINO_APPARATUS",
-    "disposition": "Source-replayed first-pass transcription included; open readings remain explicitly registered",
+    "disposition": "First-pass transcription inherited from v002; v003 targeted source repairs and exact-image dispositions incorporated. Independent cold source audit outstanding.",
     "source_sha256": "544c16b6355c9b74e281aded657d657224bff738366d5260e1a610d31b0d6297",
     "physical_page_available": true,
     "visual_review": "Direct first-pass visual inspection; not independent audit",
@@ -1911,7 +2015,8 @@
       886.0799560546875
     ],
     "provider_marks_in_reader": false,
-    "open_notes": []
+    "reading_note_dispositions": [],
+    "v003_change_count": 0
   },
   {
     "master_pdf_page": 77,
@@ -1919,7 +2024,7 @@
     "owned": true,
     "kind": "text",
     "role": "NALLINO_APPARATUS",
-    "disposition": "Source-replayed first-pass transcription included; open readings remain explicitly registered",
+    "disposition": "First-pass transcription inherited from v002; v003 targeted source repairs and exact-image dispositions incorporated. Independent cold source audit outstanding.",
     "source_sha256": "544c16b6355c9b74e281aded657d657224bff738366d5260e1a610d31b0d6297",
     "physical_page_available": true,
     "visual_review": "Direct first-pass visual inspection; not independent audit",
@@ -1936,7 +2041,8 @@
       895.2000122070312
     ],
     "provider_marks_in_reader": false,
-    "open_notes": []
+    "reading_note_dispositions": [],
+    "v003_change_count": 0
   },
   {
     "master_pdf_page": 78,
@@ -1944,7 +2050,7 @@
     "owned": true,
     "kind": "text",
     "role": "NALLINO_APPARATUS",
-    "disposition": "Source-replayed first-pass transcription included; open readings remain explicitly registered",
+    "disposition": "First-pass transcription inherited from v002; v003 targeted source repairs and exact-image dispositions incorporated. Independent cold source audit outstanding.",
     "source_sha256": "544c16b6355c9b74e281aded657d657224bff738366d5260e1a610d31b0d6297",
     "physical_page_available": true,
     "visual_review": "Direct first-pass visual inspection; not independent audit",
@@ -1961,7 +2067,8 @@
       888.0
     ],
     "provider_marks_in_reader": false,
-    "open_notes": []
+    "reading_note_dispositions": [],
+    "v003_change_count": 1
   },
   {
     "master_pdf_page": 79,
@@ -1969,7 +2076,7 @@
     "owned": true,
     "kind": "text",
     "role": "NALLINO_APPARATUS",
-    "disposition": "Source-replayed first-pass transcription included; open readings remain explicitly registered",
+    "disposition": "First-pass transcription inherited from v002; v003 targeted source repairs and exact-image dispositions incorporated. Independent cold source audit outstanding.",
     "source_sha256": "544c16b6355c9b74e281aded657d657224bff738366d5260e1a610d31b0d6297",
     "physical_page_available": true,
     "visual_review": "Direct first-pass visual inspection; not independent audit",
@@ -1986,9 +2093,13 @@
       891.1199951171875
     ],
     "provider_marks_in_reader": false,
-    "open_notes": [
-      "S01-U009"
-    ]
+    "reading_note_dispositions": [
+      {
+        "id": "S01-U009",
+        "status": "DISPOSED_IMAGE_FALLBACK"
+      }
+    ],
+    "v003_change_count": 3
   },
   {
     "master_pdf_page": 80,
@@ -1996,7 +2107,7 @@
     "owned": true,
     "kind": "text",
     "role": "NALLINO_APPARATUS",
-    "disposition": "Source-replayed first-pass transcription included; open readings remain explicitly registered",
+    "disposition": "First-pass transcription inherited from v002; v003 targeted source repairs and exact-image dispositions incorporated. Independent cold source audit outstanding.",
     "source_sha256": "544c16b6355c9b74e281aded657d657224bff738366d5260e1a610d31b0d6297",
     "physical_page_available": true,
     "visual_review": "Direct first-pass visual inspection; not independent audit",
@@ -2013,9 +2124,13 @@
       886.3200073242188
     ],
     "provider_marks_in_reader": false,
-    "open_notes": [
-      "S01-U010"
-    ]
+    "reading_note_dispositions": [
+      {
+        "id": "S01-U010",
+        "status": "DISPOSED_IMAGE_FALLBACK"
+      }
+    ],
+    "v003_change_count": 2
   },
   {
     "master_pdf_page": 81,
@@ -2023,7 +2138,7 @@
     "owned": true,
     "kind": "text",
     "role": "NALLINO_APPARATUS",
-    "disposition": "Source-replayed first-pass transcription included; open readings remain explicitly registered",
+    "disposition": "First-pass transcription inherited from v002; v003 targeted source repairs and exact-image dispositions incorporated. Independent cold source audit outstanding.",
     "source_sha256": "544c16b6355c9b74e281aded657d657224bff738366d5260e1a610d31b0d6297",
     "physical_page_available": true,
     "visual_review": "Direct first-pass visual inspection; not independent audit",
@@ -2040,7 +2155,8 @@
       891.1199951171875
     ],
     "provider_marks_in_reader": false,
-    "open_notes": []
+    "reading_note_dispositions": [],
+    "v003_change_count": 1
   },
   {
     "master_pdf_page": 82,
@@ -2048,7 +2164,7 @@
     "owned": true,
     "kind": "text",
     "role": "NALLINO_APPARATUS",
-    "disposition": "Source-replayed first-pass transcription included; open readings remain explicitly registered",
+    "disposition": "First-pass transcription inherited from v002; v003 targeted source repairs and exact-image dispositions incorporated. Independent cold source audit outstanding.",
     "source_sha256": "544c16b6355c9b74e281aded657d657224bff738366d5260e1a610d31b0d6297",
     "physical_page_available": true,
     "visual_review": "Direct first-pass visual inspection; not independent audit",
@@ -2065,9 +2181,13 @@
       886.3200073242188
     ],
     "provider_marks_in_reader": false,
-    "open_notes": [
-      "S01-U011"
-    ]
+    "reading_note_dispositions": [
+      {
+        "id": "S01-U011",
+        "status": "DISPOSED_IMAGE_FALLBACK"
+      }
+    ],
+    "v003_change_count": 1
   },
   {
     "master_pdf_page": 83,
@@ -2075,7 +2195,7 @@
     "owned": true,
     "kind": "text",
     "role": "NALLINO_APPARATUS",
-    "disposition": "Source-replayed first-pass transcription included; open readings remain explicitly registered",
+    "disposition": "First-pass transcription inherited from v002; v003 targeted source repairs and exact-image dispositions incorporated. Independent cold source audit outstanding.",
     "source_sha256": "544c16b6355c9b74e281aded657d657224bff738366d5260e1a610d31b0d6297",
     "physical_page_available": true,
     "visual_review": "Direct first-pass visual inspection; not independent audit",
@@ -2092,7 +2212,8 @@
       891.1199951171875
     ],
     "provider_marks_in_reader": false,
-    "open_notes": []
+    "reading_note_dispositions": [],
+    "v003_change_count": 2
   },
   {
     "master_pdf_page": 84,
@@ -2100,7 +2221,7 @@
     "owned": true,
     "kind": "text",
     "role": "NALLINO_APPARATUS",
-    "disposition": "Source-replayed first-pass transcription included; open readings remain explicitly registered",
+    "disposition": "First-pass transcription inherited from v002; v003 targeted source repairs and exact-image dispositions incorporated. Independent cold source audit outstanding.",
     "source_sha256": "544c16b6355c9b74e281aded657d657224bff738366d5260e1a610d31b0d6297",
     "physical_page_available": true,
     "visual_review": "Direct first-pass visual inspection; not independent audit",
@@ -2117,9 +2238,13 @@
       886.5599975585938
     ],
     "provider_marks_in_reader": false,
-    "open_notes": [
-      "S01-U012"
-    ]
+    "reading_note_dispositions": [
+      {
+        "id": "S01-U012",
+        "status": "DISPOSED_IMAGE_FALLBACK"
+      }
+    ],
+    "v003_change_count": 2
   },
   {
     "master_pdf_page": 85,
@@ -2127,7 +2252,7 @@
     "owned": true,
     "kind": "text",
     "role": "NALLINO_APPARATUS",
-    "disposition": "Source-replayed first-pass transcription included; open readings remain explicitly registered",
+    "disposition": "First-pass transcription inherited from v002; v003 targeted source repairs and exact-image dispositions incorporated. Independent cold source audit outstanding.",
     "source_sha256": "544c16b6355c9b74e281aded657d657224bff738366d5260e1a610d31b0d6297",
     "physical_page_available": true,
     "visual_review": "Direct first-pass visual inspection; not independent audit",
@@ -2144,7 +2269,8 @@
       891.1199951171875
     ],
     "provider_marks_in_reader": false,
-    "open_notes": []
+    "reading_note_dispositions": [],
+    "v003_change_count": 0
   },
   {
     "master_pdf_page": 86,
@@ -2152,7 +2278,7 @@
     "owned": true,
     "kind": "text",
     "role": "NALLINO_APPARATUS",
-    "disposition": "Source-replayed first-pass transcription included; open readings remain explicitly registered",
+    "disposition": "First-pass transcription inherited from v002; v003 targeted source repairs and exact-image dispositions incorporated. Independent cold source audit outstanding.",
     "source_sha256": "544c16b6355c9b74e281aded657d657224bff738366d5260e1a610d31b0d6297",
     "physical_page_available": true,
     "visual_review": "Direct first-pass visual inspection; not independent audit",
@@ -2169,7 +2295,13 @@
       886.5599975585938
     ],
     "provider_marks_in_reader": false,
-    "open_notes": []
+    "reading_note_dispositions": [
+      {
+        "id": "S01-U014",
+        "status": "DISPOSED_IMAGE_FALLBACK"
+      }
+    ],
+    "v003_change_count": 1
   },
   {
     "master_pdf_page": 87,
@@ -2177,7 +2309,7 @@
     "owned": true,
     "kind": "text",
     "role": "NALLINO_APPARATUS",
-    "disposition": "Source-replayed first-pass transcription included; open readings remain explicitly registered",
+    "disposition": "First-pass transcription inherited from v002; v003 targeted source repairs and exact-image dispositions incorporated. Independent cold source audit outstanding.",
     "source_sha256": "544c16b6355c9b74e281aded657d657224bff738366d5260e1a610d31b0d6297",
     "physical_page_available": true,
     "visual_review": "Direct first-pass visual inspection; not independent audit",
@@ -2194,7 +2326,8 @@
       890.6400146484375
     ],
     "provider_marks_in_reader": false,
-    "open_notes": []
+    "reading_note_dispositions": [],
+    "v003_change_count": 1
   },
   {
     "master_pdf_page": 88,
@@ -2202,7 +2335,7 @@
     "owned": true,
     "kind": "text",
     "role": "NALLINO_APPARATUS",
-    "disposition": "Source-replayed first-pass transcription included; open readings remain explicitly registered",
+    "disposition": "First-pass transcription inherited from v002; v003 targeted source repairs and exact-image dispositions incorporated. Independent cold source audit outstanding.",
     "source_sha256": "544c16b6355c9b74e281aded657d657224bff738366d5260e1a610d31b0d6297",
     "physical_page_available": true,
     "visual_review": "Direct first-pass visual inspection; not independent audit",
@@ -2219,7 +2352,8 @@
       886.5599975585938
     ],
     "provider_marks_in_reader": false,
-    "open_notes": []
+    "reading_note_dispositions": [],
+    "v003_change_count": 0
   },
   {
     "master_pdf_page": 89,
@@ -2227,7 +2361,7 @@
     "owned": true,
     "kind": "text",
     "role": "NALLINO_APPARATUS",
-    "disposition": "Source-replayed first-pass transcription included; open readings remain explicitly registered",
+    "disposition": "First-pass transcription inherited from v002; v003 targeted source repairs and exact-image dispositions incorporated. Independent cold source audit outstanding.",
     "source_sha256": "544c16b6355c9b74e281aded657d657224bff738366d5260e1a610d31b0d6297",
     "physical_page_available": true,
     "visual_review": "Direct first-pass visual inspection; not independent audit",
@@ -2244,6 +2378,7 @@
       891.1199951171875
     ],
     "provider_marks_in_reader": false,
-    "open_notes": []
+    "reading_note_dispositions": [],
+    "v003_change_count": 0
   }
 ]

@@ -125,7 +125,7 @@
         },
         {
           "id": "AB01-PDF0082-body-L029",
-          "text": "« peritissimo et docto, qui in suo commento supra tabulas Toletanas per <n>Arzachelem</n>"
+          "text": "« peritissimo et docto, qui in suo comento supra tabulas Toletanas per <n>Arzachelem</n>"
         },
         {
           "id": "AB01-PDF0082-body-L030",
@@ -189,12 +189,18 @@
   ],
   "details": {
     "signature": "10*",
-    "open_reading_notes": [
-      "S01-U011"
-    ],
     "proof_repairs": [
       "S01-R018"
     ],
-    "verification_limit": "Direct source replay by the producing assistant; independent textual audit not performed."
+    "verification_limit": "Inherited v002 first-pass source replay, followed by v003 targeted reread. No independent cold philological audit has been performed.",
+    "reading_note_dispositions": [
+      {
+        "id": "S01-U011",
+        "status": "DISPOSED_IMAGE_FALLBACK"
+      }
+    ],
+    "v003_change_ids": [
+      "S01-R3-067"
+    ]
   }
 }

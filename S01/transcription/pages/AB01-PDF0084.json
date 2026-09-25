@@ -121,11 +121,11 @@
         },
         {
           "id": "AB01-PDF0084-body-L028",
-          "text": "<ar>خُذِ المرآةَ واختبِرْ نُجُومًا</ar>     <ar>تُمِرُّ بِمَطْعَمِ الأَرْيِ المَشُورِ</ar>"
+          "text": "<glyph>AB01-PDF0084-G01</glyph>"
         },
         {
           "id": "AB01-PDF0084-body-L029",
-          "text": "<ar>تَدُلُّ على الحِمام بلا ارتيابِ</ar>     <ar>ولكن لا تَدُلَّ على النُّشُورِ</ar>"
+          "text": "<glyph>AB01-PDF0084-G02</glyph>"
         },
         {
           "id": "AB01-PDF0084-body-L030",
@@ -219,10 +219,17 @@
   "details": {
     "verse_layout": "Two Arabic hemistich columns. Logical reading first right then left; first typed segment must be on right.",
     "verse_comparator": "qa/84_verse.png",
-    "open_reading_notes": [
-      "S01-U012"
-    ],
     "proof_repairs": [],
-    "verification_limit": "Direct source replay by the producing assistant; independent textual audit not performed."
+    "verification_limit": "Inherited v002 first-pass source replay, followed by v003 targeted reread. No independent cold philological audit has been performed.",
+    "reading_note_dispositions": [
+      {
+        "id": "S01-U012",
+        "status": "DISPOSED_IMAGE_FALLBACK"
+      }
+    ],
+    "v003_change_ids": [
+      "S01-R3-083",
+      "S01-R3-084"
+    ]
   }
 }

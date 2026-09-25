@@ -41,6 +41,9 @@ def sec_tex(sec,n):
         if n==84 and len(re.findall(r'<ar>.*?</ar>',t))==2 and re.fullmatch(r'<ar>.*?</ar>\s+<ar>.*?</ar>',t):
             a,b=re.findall(r'<ar>(.*?)</ar>',t)
             content=r'\hbox to \linewidth{\hfil\textarabic{'+esc(b)+r'}\hfil\textarabic{'+esc(a)+r'}\hfil}'
+        if n==84 and re.fullmatch(r'<glyph>.*</glyph>',t):
+            gid=re.search(r'<glyph>(.*?)</glyph>',t).group(1)
+            content=r'\hbox to \linewidth{\hfil\includegraphics[width=.54\linewidth]{'+gid+r'.png}\hfil}'
         if re.fullmatch(r'<m>.*</m>[.,;]?',t):
             content=r'\hbox to \linewidth{\hfil '+content+r'\hfil}'
         if sec['role']=='body' and ((n==74 and line_index<3) or (n==79 and line_index==0)):
@@ -69,7 +72,7 @@ preamble=r'''\documentclass[11pt]{article}
 \newfontfamily\arabicfont{Amiri}[Script=Arabic,Scale=1.0]
 \newfontfamily\syriacfont{Noto Sans Syriac}[Script=Syriac,Scale=0.9]
 \graphicspath{{../source/presentation/}}
-\hypersetup{pdftitle={Nallino: Praefatio, conspectus, addenda et emendanda. S01 v002},pdfauthor={Carlo Alfonso Nallino},pdfsubject={Historical Nallino layer. Source-first transcription candidate; unresolved readings documented separately.}}
+\hypersetup{pdftitle={Nallino: Praefatio, conspectus, addenda et emendanda. S01 v003},pdfauthor={Carlo Alfonso Nallino},pdfsubject={Historical Nallino layer. Source-first transcription candidate; unresolved readings documented separately.}}
 \pagestyle{fancy}\fancyhf{}
 \newcommand{\leftfolio}{}\newcommand{\rightfolio}{}
 \fancyhead[L]{\fontsize{8}{10}\selectfont\leftfolio}
@@ -95,8 +98,8 @@ preamble=r'''\documentclass[11pt]{article}
 '''
 out=[preamble]
 out.append(r"""
-\markboth{ADMONITIO EDITIONIS DIGITALIS}{S01-v002 — MODERN\_EDITORIAL}
-\hypertarget{S01-v002-EDITORIAL-NOTICE}{}
+\markboth{ADMONITIO EDITIONIS DIGITALIS}{S01-v003 — MODERN\_EDITORIAL}
+\hypertarget{S01-v003-EDITORIAL-NOTICE}{}
 \pdfbookmark[0]{Admonitio editionis digitalis}{editorial-notice}
 \vspace*{25mm}
 \begin{center}
@@ -106,13 +109,15 @@ out.append(r"""
 \vspace{10mm}
 {\fontsize{12}{17}\selectfont\itshape Pars prima, 1903\par}
 \vspace{18mm}
-{\fontsize{10}{14}\selectfont S01 · v002\par}
+{\fontsize{10}{14}\selectfont S01 · v003\par}
 \end{center}
 \vspace{12mm}
 \fontsize{11}{16}\selectfont
 Haec materia ad Nallini apparatum pertinet, non ad textum Arabicum auctoris.
 Loci aliis linguis ab ipso Nallino relati in sua forma servati sunt.\par\medskip
-Transcriptio per totum ambitum fontis prima vice recognita est.
+Transcriptio per totum ambitum fontis prima vice recognita est; in hac
+versione loci selecti iterum ad imagines fontis collati et errores transcriptionis
+emendati sunt, lectionibus prioribus in tabulis servatis.
 Lectiones incertae in indice separato recensentur; signa nondum certo expressa
 imaginibus fontis servantur. Addenda Nallini describuntur, non tacite locis prioribus inseruntur.\par\medskip
 Figura astronomica in ipso fonte mutila est. Quae desunt non sunt restituta;
@@ -124,7 +129,7 @@ Fons: exemplar digitale SRC01, paginae 2, 10, 12–89.
 Dispositiones omnium paginarum 1–89 in indice continentur.
 """)
 out += [r'\BeginSource{AB01-PDF0002}{FIGURA ASTRONOMICA}',r'\vspace*{25mm}',r'\begin{center}\includegraphics[width=\textwidth]{AB01-PDF0002-F01.png}\end{center}']
-plain=['NALLINO_APPARATUS — S01 v002','Source-faithful transcription candidate, not independently certified.','AB01-PDF0002: astronomical diagram preserved in source/presentation/AB01-PDF0002-F01.png.']
+plain=['NALLINO_APPARATUS — S01 v003','Source-faithful transcription candidate, not independently certified.','AB01-PDF0002: astronomical diagram preserved in source/presentation/AB01-PDF0002-F01.png.']
 for p in PAGES:
     d=json.loads(p.read_text());n=d['master_pdf_page'];anchor=d['anchor'];kind=d['kind']
     plain+=['\n'+'='*64,anchor+' | '+d['header']+' | '+kind]
@@ -187,8 +192,8 @@ for p in PAGES:
         if n in (78,89):out.append(r'\par\vspace{42mm}\begin{center}\includegraphics[width=49mm]{AB01-PDF'+f'{n:04d}'+r'-F01.png}\end{center}')
         if d['details'].get('signature') or d['details'].get('printing_signature'):out.append(r'\par\vspace{6pt}\hfill{\fontsize{8}{10}\selectfont '+esc(d['details'].get('signature',d['details'].get('printing_signature')))+'}')
 out.append(r'\end{document}')
-(R/'tex/S01_NALLINO_SOURCE_v002.tex').write_text('\n'.join(out)+'\n')
-(R/'transcription/S01_NALLINO_SOURCE_v002.txt').write_text('\n'.join(plain)+'\n')
+(R/'tex/S01_NALLINO_SOURCE_v003.tex').write_text('\n'.join(out)+'\n')
+(R/'transcription/S01_NALLINO_SOURCE_v003.txt').write_text('\n'.join(plain)+'\n')
 print('Generated TeX',len('\n'.join(out)),'characters; line-anchored text written.')
 
 key=[]

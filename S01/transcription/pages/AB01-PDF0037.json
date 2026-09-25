@@ -77,7 +77,7 @@
         },
         {
           "id": "AB01-PDF0037-body-L017",
-          "text": "rores servant; opuscula sunt p. 89–93 (Centiloquium) et 100–102 (perperam in edd. 110–112!)."
+          "text": "rores servant; opuscula sunt p. 89–93 (Centiloquium) et <glyph>AB01-PDF0037-G01</glyph> (perperam in edd. 110–112!)."
         },
         {
           "id": "AB01-PDF0037-body-L018",
@@ -253,8 +253,16 @@
     "source_peculiarities": [
       "Historical printed astrological assertions are quoted source text, not modern advice."
     ],
-    "open_reading_notes": [],
     "proof_repairs": [],
-    "verification_limit": "Direct source replay by the producing assistant; independent textual audit not performed."
+    "verification_limit": "Inherited v002 first-pass source replay, followed by v003 targeted reread. No independent cold philological audit has been performed.",
+    "reading_note_dispositions": [
+      {
+        "id": "S01-U013",
+        "status": "DISPOSED_IMAGE_FALLBACK"
+      }
+    ],
+    "v003_change_ids": [
+      "S01-R3-072"
+    ]
   }
 }

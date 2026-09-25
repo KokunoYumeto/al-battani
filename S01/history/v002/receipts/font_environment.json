@@ -1,0 +1,54 @@
+{
+  "system_font_identities": [
+    {
+      "requested": "Linux Libertine O",
+      "resolved_family": "Linux Libertine O",
+      "resolved_style": "Regular",
+      "file_basename": "LinLibertine_R.otf",
+      "sha256": "057bbfa1ac76133c8ae596eff0baf1fd662b2b60e830e6d45cfec5d21489eda3",
+      "font_binary_distributed": false
+    },
+    {
+      "requested": "Linux Libertine O:style=Italic",
+      "resolved_family": "Linux Libertine O",
+      "resolved_style": "Italic",
+      "file_basename": "LinLibertine_RI.otf",
+      "sha256": "f0632ade6a312b8cc30c348837e9f72a0768a42fe1c1e1509651a0a1d03ba4ee",
+      "font_binary_distributed": false
+    },
+    {
+      "requested": "Linux Libertine O:style=Bold",
+      "resolved_family": "Linux Libertine O",
+      "resolved_style": "Bold",
+      "file_basename": "LinLibertine_RB.otf",
+      "sha256": "56acd1e11373900e5420b9216f591a08050a9017284ac60ea56ddbaa53a58e02",
+      "font_binary_distributed": false
+    },
+    {
+      "requested": "FreeSerif",
+      "resolved_family": "FreeSerif",
+      "resolved_style": "Regular,\u043d\u043e\u0440\u043c\u0430\u043b\u0435\u043d,normal,oby\u010dejn\u00e9,Mittel,\u00b5\u03b5\u03c3\u03b1\u03af\u03b1,Normaali,Norm\u00e1l,Normale,Gemiddeld,odmiana zwyk\u0142a,\u041e\u0431\u044b\u0447\u043d\u044b\u0439,Norm\u00e1lne,\u0e1b\u0e01\u0e15\u0e34,menengah,\u043f\u0440\u044f\u043c\u0456\u0439,Navadno,vid\u0113js,normalusis,\u0639\u0627\u062f\u06cc,v\u1eeba,Arrunta,\u0938\u093e\u092e\u093e\u0928\u094d\u092f,\u09b8\u09be\u09a7\u09be\u09b0\u09a3,\u0b38\u0b3e\u0b2e\u0b3e\u0b28\u0b4d\u0b2f,\u0d38\u0d3e\u0d27\u0d3e\u0d30\u0d23,\u0782\u07aa\u0788\u07a6\u078c\u07a6 \u0789\u07ac\u078b\u07aa,\u0a38\u0a3e\u0a27\u0a3e\u0a30\u0a28,\u0938\u093e\u0927\u093e\u0930\u0923",
+      "file_basename": "FreeSerif.otf",
+      "sha256": "0fab7a1110419d98a28e4de5f79e1f807487632562fc39d54fd49d7495d2f240",
+      "font_binary_distributed": false
+    },
+    {
+      "requested": "Amiri",
+      "resolved_family": "Amiri",
+      "resolved_style": "Regular",
+      "file_basename": "Amiri-Regular.ttf",
+      "sha256": "30ea8514fb4d7cc867e799a05bd501cf123ba358745557a46c10737549b5e9c9",
+      "font_binary_distributed": false
+    },
+    {
+      "requested": "Noto Sans Syriac",
+      "resolved_family": "Noto Sans Syriac",
+      "resolved_style": "Regular",
+      "file_basename": "NotoSansSyriac-Regular.ttf",
+      "sha256": "49917b4472e91dfb37291ef4f4821957f4225edaddb6100b1d8736df3910b237",
+      "font_binary_distributed": false
+    }
+  ],
+  "font_files_distributed": false,
+  "purpose": "Reproducibility evidence only; fonts remain system dependencies."
+}

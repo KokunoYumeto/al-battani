@@ -81,7 +81,7 @@
         },
         {
           "id": "AB01-PDF0080-body-L018",
-          "text": "masius</n>, <i>De annis climactericis et antiqua astrologia diatribe</i>, Lugduni Batavorum"
+          "text": "masius</n>, <i>De annis climactericis et antiqua astrologia diatribae</i>, Lugduni Batavorum"
         },
         {
           "id": "AB01-PDF0080-body-L019",
@@ -113,7 +113,7 @@
         },
         {
           "id": "AB01-PDF0080-body-L026",
-          "text": "29,36, pro <i>terrestrium</i> l. <i>terrestrium</i>."
+          "text": "29,36, pro <glyph>AB01-PDF0080-G01</glyph> l. <i>terrestrium</i>."
         },
         {
           "id": "AB01-PDF0080-body-L027",
@@ -221,10 +221,17 @@
     }
   ],
   "details": {
-    "open_reading_notes": [
-      "S01-U010"
-    ],
     "proof_repairs": [],
-    "verification_limit": "Direct source replay by the producing assistant; independent textual audit not performed."
+    "verification_limit": "Inherited v002 first-pass source replay, followed by v003 targeted reread. No independent cold philological audit has been performed.",
+    "reading_note_dispositions": [
+      {
+        "id": "S01-U010",
+        "status": "DISPOSED_IMAGE_FALLBACK"
+      }
+    ],
+    "v003_change_ids": [
+      "S01-R3-065",
+      "S01-R3-082"
+    ]
   }
 }

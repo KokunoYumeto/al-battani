@@ -182,7 +182,7 @@
         },
         {
           "id": "AB01-PDF0047-notes_left-L019",
-          "text": "« aliis locis excentrici Solis [i. e. extra apogeum] cum"
+          "text": "« aliis locis ecentrici Solis [i. e. extra apogeum] cum"
         },
         {
           "id": "AB01-PDF0047-notes_left-L020",
@@ -295,8 +295,11 @@
   "details": {
     "continuation_from": "AB01-PDF0046",
     "continuation_to": "AB01-PDF0048 body and note8",
-    "open_reading_notes": [],
     "proof_repairs": [],
-    "verification_limit": "Direct source replay by the producing assistant; independent textual audit not performed."
+    "verification_limit": "Inherited v002 first-pass source replay, followed by v003 targeted reread. No independent cold philological audit has been performed.",
+    "reading_note_dispositions": [],
+    "v003_change_ids": [
+      "S01-R3-034"
+    ]
   }
 }

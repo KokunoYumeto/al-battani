@@ -21,7 +21,7 @@
         },
         {
           "id": "AB01-PDF0087-body-L003",
-          "text": "gruere; qua re non impossibile est initium codicum Laurentiani et Parisiensis, quo vox"
+          "text": "gruere; qua re non impossibile est initium codicun Laurentiani et Parisiensis, quo vox"
         },
         {
           "id": "AB01-PDF0087-body-L004",
@@ -200,8 +200,11 @@
     }
   ],
   "details": {
-    "open_reading_notes": [],
     "proof_repairs": [],
-    "verification_limit": "Direct source replay by the producing assistant; independent textual audit not performed."
+    "verification_limit": "Inherited v002 first-pass source replay, followed by v003 targeted reread. No independent cold philological audit has been performed.",
+    "reading_note_dispositions": [],
+    "v003_change_ids": [
+      "S01-R3-070"
+    ]
   }
 }

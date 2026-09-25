@@ -29,7 +29,7 @@
         },
         {
           "id": "AB01-PDF0017-body-L005",
-          "text": "« <i>in scientia geometriae ac astronomiae, in cognitione stellarum, in arte astrologica. Est</i>"
+          "text": "« <i>in scientia geometriae ac astronomiae, in cognitione stellarum, in arte astrologica Est</i>"
         },
         {
           "id": "AB01-PDF0017-body-L006",
@@ -73,7 +73,7 @@
         },
         {
           "id": "AB01-PDF0017-body-L016",
-          "text": "« in opere astronomico suo ad annum 299 (11) posuit. Venit Baġdād cum [gente vocata] Banū"
+          "text": "« in opere astronomico suo ad annum 299 (11) posuit. Venit Baghdād cum [gente vocata] Banū"
         },
         {
           "id": "AB01-PDF0017-body-L017",
@@ -331,10 +331,14 @@
   "details": {
     "printed_page": "VIII",
     "critical_typography": "Italics delimit material unique to Ibn al-Qifti, per Nallino note (3). Angle and square brackets kept distinct.",
-    "open_reading_notes": [],
     "proof_repairs": [
       "S01-R004"
     ],
-    "verification_limit": "Direct source replay by the producing assistant; independent textual audit not performed."
+    "verification_limit": "Inherited v002 first-pass source replay, followed by v003 targeted reread. No independent cold philological audit has been performed.",
+    "reading_note_dispositions": [],
+    "v003_change_ids": [
+      "S01-R3-001",
+      "S01-R3-002"
+    ]
   }
 }

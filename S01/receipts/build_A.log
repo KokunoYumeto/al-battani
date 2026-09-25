@@ -2,8 +2,8 @@ This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2025/dev/Debian) (prel
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**S01_NALLINO_SOURCE_v002.tex
-(./S01_NALLINO_SOURCE_v002.tex
+**S01_NALLINO_SOURCE_v003.tex
+(./S01_NALLINO_SOURCE_v003.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -699,8 +699,8 @@ Package fontspec Info:
 
 \sourcelinebox=\box56
 
-(./S01_NALLINO_SOURCE_v002.aux)
-\openout1 = `S01_NALLINO_SOURCE_v002.aux'.
+(./S01_NALLINO_SOURCE_v003.aux)
+\openout1 = `S01_NALLINO_SOURCE_v003.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
 LaTeX Font Info:    ... okay on input line 38.
@@ -822,9 +822,9 @@ LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 38.
 Package hyperref Info: Link coloring OFF on input line 38.
-(./S01_NALLINO_SOURCE_v002.out) (./S01_NALLINO_SOURCE_v002.out)
+(./S01_NALLINO_SOURCE_v003.out) (./S01_NALLINO_SOURCE_v003.out)
 \@outlinefile=\write3
-\openout3 = `S01_NALLINO_SOURCE_v002.out'.
+\openout3 = `S01_NALLINO_SOURCE_v003.out'.
 
 
 Package polyglossia Info: Activating Latin language variant "modern" on line
@@ -964,7 +964,7 @@ mapping=tex-text;"
 
 ]
 LaTeX Font Info:    Font shape `TU/Amiri(0)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 282.
+(Font)              scaled to size 10.0pt on input line 284.
 
 
 [8
@@ -975,7 +975,7 @@ LaTeX Font Info:    Font shape `TU/Amiri(0)/m/n' will be
 
 ]
 LaTeX Font Info:    Font shape `TU/Amiri(0)/m/n' will be
-(Font)              scaled to size 12.0pt on input line 515.
+(Font)              scaled to size 12.0pt on input line 517.
 
 
 [10
@@ -997,14 +997,14 @@ File: ../source/presentation/AB01-PDF0022-G01.png Graphic file (type bmp)
 
 ]
 LaTeX Font Info:    Font shape `TU/NotoSansSyriac(0)/m/n' will be
-(Font)              scaled to size 10.79993pt on input line 1027.
+(Font)              scaled to size 10.79993pt on input line 1029.
 LaTeX Font Info:    Trying to load font information for U+msa on input line 117
-4.
+6.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 117
-4.
+6.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -1065,6 +1065,9 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 [27
 
 ]
+File: ../source/presentation/AB01-PDF0037-G01.png Graphic file (type bmp)
+<../source/presentation/AB01-PDF0037-G01.png>
+
 
 [28
 
@@ -1077,6 +1080,9 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 [30
 
 ]
+File: ../source/presentation/AB01-PDF0040-G01.png Graphic file (type bmp)
+<../source/presentation/AB01-PDF0040-G01.png>
+
 
 [31
 
@@ -1199,6 +1205,18 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ]
 File: ../source/presentation/AB01-PDF0070-G01.png Graphic file (type bmp)
 <../source/presentation/AB01-PDF0070-G01.png>
+File: ../source/presentation/AB01-PDF0070-G02.png Graphic file (type bmp)
+<../source/presentation/AB01-PDF0070-G02.png>
+File: ../source/presentation/AB01-PDF0070-G03.png Graphic file (type bmp)
+<../source/presentation/AB01-PDF0070-G03.png>
+File: ../source/presentation/AB01-PDF0070-G06.png Graphic file (type bmp)
+<../source/presentation/AB01-PDF0070-G06.png>
+File: ../source/presentation/AB01-PDF0070-G04.png Graphic file (type bmp)
+<../source/presentation/AB01-PDF0070-G04.png>
+File: ../source/presentation/AB01-PDF0070-G07.png Graphic file (type bmp)
+<../source/presentation/AB01-PDF0070-G07.png>
+File: ../source/presentation/AB01-PDF0070-G05.png Graphic file (type bmp)
+<../source/presentation/AB01-PDF0070-G05.png>
 
 
 [61
@@ -1239,10 +1257,18 @@ File: ../source/presentation/AB01-PDF0078-F01.png Graphic file (type bmp)
 [69
 
 ]
+File: ../source/presentation/AB01-PDF0079-G01.png Graphic file (type bmp)
+<../source/presentation/AB01-PDF0079-G01.png>
+File: ../source/presentation/AB01-PDF0079-G02.png Graphic file (type bmp)
+<../source/presentation/AB01-PDF0079-G02.png>
+
 
 [70
 
 ]
+File: ../source/presentation/AB01-PDF0080-G01.png Graphic file (type bmp)
+<../source/presentation/AB01-PDF0080-G01.png>
+
 
 [71
 
@@ -1264,6 +1290,11 @@ File: ../source/presentation/AB01-PDF0082-G02.png Graphic file (type bmp)
 [74
 
 ]
+File: ../source/presentation/AB01-PDF0084-G01.png Graphic file (type bmp)
+<../source/presentation/AB01-PDF0084-G01.png>
+File: ../source/presentation/AB01-PDF0084-G02.png Graphic file (type bmp)
+<../source/presentation/AB01-PDF0084-G02.png>
+
 
 [75
 
@@ -1272,6 +1303,9 @@ File: ../source/presentation/AB01-PDF0082-G02.png Graphic file (type bmp)
 [76
 
 ]
+File: ../source/presentation/AB01-PDF0086-G01.png Graphic file (type bmp)
+<../source/presentation/AB01-PDF0086-G01.png>
+
 
 [77
 
@@ -1290,22 +1324,22 @@ File: ../source/presentation/AB01-PDF0089-F01.png Graphic file (type bmp)
 
 [80
 
-] (./S01_NALLINO_SOURCE_v002.aux)
+] (./S01_NALLINO_SOURCE_v003.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
-Package rerunfilecheck Info: File `S01_NALLINO_SOURCE_v002.out' has not changed
+Package rerunfilecheck Info: File `S01_NALLINO_SOURCE_v003.out' has not changed
 .
 (rerunfilecheck)             Checksum: DFE28238CCE981294CC4EC17E7D6951A;9201.
  ) 
 Here is how much of TeX's memory you used:
- 16485 strings out of 473835
- 352880 string characters out of 5731947
+ 16639 strings out of 473835
+ 359376 string characters out of 5731947
  793084 words of memory out of 5000000
- 39218 multiletter control sequences out of 15000+600000
+ 39358 multiletter control sequences out of 15000+600000
  568525 words of font info for 151 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  85i,12n,93p,1213b,385s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on S01_NALLINO_SOURCE_v002.pdf (80 pages).
+Output written on S01_NALLINO_SOURCE_v003.pdf (80 pages).

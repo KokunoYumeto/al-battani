@@ -93,7 +93,7 @@
         },
         {
           "id": "AB01-PDF0079-body-L021",
-          "text": "XV, adn. 3: in nonnullis exemplaribus <i>Subbī</i> et <ar>الصَّباء</ar> pro <i>Ṣubbī</i> et <ar>الصُّبَّاء</ar> impressum est."
+          "text": "XV, adn. 3: in nonnullis exemplaribus <i>Subbī</i> et <glyph>AB01-PDF0079-G01</glyph> pro <i>Ṣubbī</i> et <glyph>AB01-PDF0079-G02</glyph> impressum est."
         },
         {
           "id": "AB01-PDF0079-body-L022",
@@ -117,7 +117,7 @@
         },
         {
           "id": "AB01-PDF0079-body-L027",
-          "text": "6,11, pro <i>his causis antiqui diviserunt: quia.....</i> l. <i>antiqui diviserunt, pluribus impellentes"
+          "text": "6,11, pro <i>his causis antiqui diviserunt: quia.....</i> l. <i>antiqui diviserunt, pluribus innitentes"
         },
         {
           "id": "AB01-PDF0079-body-L028",
@@ -167,10 +167,18 @@
     }
   ],
   "details": {
-    "open_reading_notes": [
-      "S01-U009"
-    ],
     "proof_repairs": [],
-    "verification_limit": "Direct source replay by the producing assistant; independent textual audit not performed."
+    "verification_limit": "Inherited v002 first-pass source replay, followed by v003 targeted reread. No independent cold philological audit has been performed.",
+    "reading_note_dispositions": [
+      {
+        "id": "S01-U009",
+        "status": "DISPOSED_IMAGE_FALLBACK"
+      }
+    ],
+    "v003_change_ids": [
+      "S01-R3-064",
+      "S01-R3-080",
+      "S01-R3-081"
+    ]
   }
 }

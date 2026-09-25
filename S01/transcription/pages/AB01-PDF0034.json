@@ -215,7 +215,7 @@
         },
         {
           "id": "AB01-PDF0034-notes_right-L005",
-          "text": "« getur et in Commentario Geber iam prolixe dictum"
+          "text": "« getur et in Commentario Geber tam prolixe dictum"
         },
         {
           "id": "AB01-PDF0034-notes_right-L006",
@@ -252,8 +252,11 @@
     "printing_signature": "4*",
     "continuation_from": "AB01-PDF0033: Pto-lemaicas",
     "continuation_to": "AB01-PDF0035: bibliographic citation",
-    "open_reading_notes": [],
     "proof_repairs": [],
-    "verification_limit": "Direct source replay by the producing assistant; independent textual audit not performed."
+    "verification_limit": "Inherited v002 first-pass source replay, followed by v003 targeted reread. No independent cold philological audit has been performed.",
+    "reading_note_dispositions": [],
+    "v003_change_ids": [
+      "S01-R3-017"
+    ]
   }
 }

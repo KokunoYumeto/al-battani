@@ -1,11 +1,10 @@
 {
-  "first_pass_snapshot": "history/first_pass_pages",
-  "changed_source_lines": 25,
-  "tracked_repair_steps": 28,
-  "all_text_changes_have_repair_ids": true,
-  "new_reading_layer": "AB01-NALLINO-S01-v002",
-  "new_reading_sha256": "93fdc19b0917d87ec1e42a27296150c857b47f63984312793b4cc677c0c2531e",
-  "old_unverified_checkpoint": "history/v001_cumulative_checkpoint.json",
-  "old_checkpoint_sha256": "b7be77d4dba2680751f7ef8518a3ef19885493f20fcf9c81526f2f3afcd9bbfc",
-  "reason": "A new source-replayed transcription candidate replaces the unverified extraction as the current S01 working layer; earlier evidence is retained, not overwritten."
+  "current": "AB01-NALLINO-S01-v003-CANDIDATE",
+  "current_digest": "8dd145df64a5cb9b64c56f914779b53470671798a01de69ae809db2f51bdeb4f",
+  "predecessor": "AB01-NALLINO-S01-v002",
+  "predecessor_digest": "93fdc19b0917d87ec1e42a27296150c857b47f63984312793b4cc677c0c2531e",
+  "predecessor_preserved": "history/v002",
+  "reason": "Selected source reread, 71 text repairs and 14 exact-image substitutions; prior candidate remains immutable.",
+  "interrupted_reread_recovery": "history/interrupted_reread/RECOVERY_INVENTORY.json",
+  "independent_audit": false
 }

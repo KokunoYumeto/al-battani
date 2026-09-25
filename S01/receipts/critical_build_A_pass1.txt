@@ -1,7 +1,7 @@
 This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2025/dev/Debian) (preloaded format=xelatex)
  restricted \write18 enabled.
 entering extended mode
-(./S01_CRITICAL_NOTES_v002.tex
+(./S01_CRITICAL_NOTES_v003.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -111,7 +111,7 @@ Package bidi Warning: Oops! patching `\f@nch@hfbox@fit' failed.
 (/usr/share/texlive/texmf-dist/tex/latex/base/atveryend-ltx.sty)
 (/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty)))
 (/usr/share/texlive/texmf-dist/tex/xelatex/bidi/hyperref-xetex-bidi.def)
-No file S01_CRITICAL_NOTES_v002.aux.
+No file S01_CRITICAL_NOTES_v003.aux.
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
 
@@ -120,13 +120,25 @@ Package hyperref Warning: Rerun to get /PageLabels entry.
 
 [1]
 [2]
-[3] (./S01_CRITICAL_NOTES_v002.aux)
+Underfull \hbox (badness 10000) in paragraph at lines 145--147
+[][]\TU/LinuxLibertineO(0)/b/n/10.95 Interpretive limit. \TU/LinuxLibertineO(0)
+/m/n/10.95 100–102 / 106–102; the terminal digit is damaged. \TU/LinuxLibertine
+O(0)/b/n/10.95 Location.[]
 
-Package rerunfilecheck Warning: File `S01_CRITICAL_NOTES_v002.out' has changed.
+Underfull \hbox (badness 6396) in paragraph at lines 154--156
+[][]\TU/LinuxLibertineO(0)/b/n/10.95 Interpretive limit. \TU/LinuxLibertineO(0)
+/m/n/10.95 precipua / previpua; the medial printed letter is unclear. \TU/Linux
+LibertineO(0)/b/n/10.95 Location.[]
+
+[3]
+[4] (./S01_CRITICAL_NOTES_v003.aux)
+
+Package rerunfilecheck Warning: File `S01_CRITICAL_NOTES_v003.out' has changed.
 
 (rerunfilecheck)                Rerun to get outlines right
 (rerunfilecheck)                or use package `bookmark'.
 
  )
-Output written on S01_CRITICAL_NOTES_v002.pdf (3 pages).
-Transcript written on S01_CRITICAL_NOTES_v002.log.
+(see the transcript file for additional information)
+Output written on S01_CRITICAL_NOTES_v003.pdf (4 pages).
+Transcript written on S01_CRITICAL_NOTES_v003.log.

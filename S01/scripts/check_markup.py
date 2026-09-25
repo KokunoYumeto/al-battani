@@ -1,6 +1,6 @@
 from pathlib import Path
 import json,re,collections
-root=Path('/mnt/data/AB01_S01_v002')
+root=Path(__file__).resolve().parents[1]
 counts=collections.Counter(); errs=[]; weird=[]; text=''
 for p in sorted((root/'transcription/pages').glob('*.json')):
  d=json.loads(p.read_text());

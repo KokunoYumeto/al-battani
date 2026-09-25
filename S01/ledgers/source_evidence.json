@@ -99,5 +99,19 @@
     "owned_units": "recovery only",
     "index_discrepancy": "not applicable",
     "authority": "Prior unverified extraction; not source authority"
+  },
+  {
+    "source_id": "V002_RELEASE",
+    "file": "AB01_S01_v002.zip",
+    "bytes": 121220563,
+    "sha256": "46152dbd96c89b587083a32472e3d05d2b6833a748489c462b140983c52adf08",
+    "authority": "Frozen prior digital candidate, not source authority",
+    "verification": "ZIP CRC and all 535 manifest entries verified at recovery; full receipt workspace_recovery.json"
+  },
+  {
+    "source_id": "INTERRUPTED_REREAD",
+    "file": "history/interrupted_reread/RECOVERY_INVENTORY.json",
+    "authority": "157 recovered proof images only; no revised text or correction ledger found. Captions not reading authority.",
+    "verification": "Recovery byte hashes and inventory retained."
   }
 ]

@@ -33,7 +33,7 @@
         },
         {
           "id": "AB01-PDF0056-body-L006",
-          "text": "<i>Tangentes</i> et <i>cotangentes</i> in usum dumtaxat gnomonicae adhibet, non tanquam veras"
+          "text": "<i>Tangentes</i> et <i>cotangentes</i> in usum dumtaxat gnomonicae adhibet, non tamquam veras"
         },
         {
           "id": "AB01-PDF0056-body-L007",
@@ -206,10 +206,16 @@
       "All displayed relations and inline R/sexagesimal radius preserve source convention R=60; not normalized to unit radius.",
       "Footnote2 b hypothenusa, B rectus is source notation."
     ],
-    "open_reading_notes": [
-      "S01-U006"
-    ],
     "proof_repairs": [],
-    "verification_limit": "Direct source replay by the producing assistant; independent textual audit not performed."
+    "verification_limit": "Inherited v002 first-pass source replay, followed by v003 targeted reread. No independent cold philological audit has been performed.",
+    "reading_note_dispositions": [
+      {
+        "id": "S01-U006",
+        "status": "RESOLVED_RETAINED"
+      }
+    ],
+    "v003_change_ids": [
+      "S01-R3-039"
+    ]
   }
 }

@@ -174,7 +174,7 @@
         },
         {
           "id": "AB01-PDF0040-notes_left-L020",
-          "text": "(3) E Pehlvico <i>zīk</i>, Neo-persico <ar>زِگ</ar> <i>zīg</i>, i."
+          "text": "(3) E Pehlvico <i>zīk</i>, Neo-persico <glyph>AB01-PDF0040-G01</glyph> <i>zīg</i>, i."
         },
         {
           "id": "AB01-PDF0040-notes_left-L021",
@@ -302,13 +302,22 @@
     "source_peculiarities": [
       "1545 date in Bullialdus citation retained as source, not corrected bibliographically."
     ],
-    "open_reading_notes": [
-      "S01-U004",
-      "S01-U005"
-    ],
     "proof_repairs": [
       "S01-R007"
     ],
-    "verification_limit": "Direct source replay by the producing assistant; independent textual audit not performed."
+    "verification_limit": "Inherited v002 first-pass source replay, followed by v003 targeted reread. No independent cold philological audit has been performed.",
+    "reading_note_dispositions": [
+      {
+        "id": "S01-U004",
+        "status": "DISPOSED_IMAGE_FALLBACK"
+      },
+      {
+        "id": "S01-U005",
+        "status": "RESOLVED_RETAINED"
+      }
+    ],
+    "v003_change_ids": [
+      "S01-R3-073"
+    ]
   }
 }

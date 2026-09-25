@@ -1,0 +1,318 @@
+{
+  "schema_version": 1,
+  "artifact": "AB01-NALLINO-S01-v003-CANDIDATE",
+  "status": "FAIL",
+  "auditor": "Standalone read-only Python process; program written by the producing assistant",
+  "independent_philological_audit": false,
+  "source_reading_completion_certified": false,
+  "qualification": "These tests verify package consistency, change replay, image pixels and reported builds. They do not independently adjudicate historical readings or close S01.",
+  "check_count": 48,
+  "passed": 46,
+  "failed": 2,
+  "checks": [
+    {
+      "check": "controlling_master_bytes_hash_pages",
+      "pass": true,
+      "detail": {
+        "pages": 1162,
+        "sha256": "544c16b6355c9b74e281aded657d657224bff738366d5260e1a610d31b0d6297"
+      }
+    },
+    {
+      "check": "bundled_source_excerpt_89_physical_pages",
+      "pass": true,
+      "detail": {
+        "sha256": "e5ee0f970044ab6f6343c538da067b4e5a4bee58ab81d9683684f19669ef9892",
+        "pages": 89
+      }
+    },
+    {
+      "check": "exact_physical_dispositions",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "exact_owned_source_units",
+      "pass": true,
+      "detail": {
+        "owned_count": 80
+      }
+    },
+    {
+      "check": "page_record_coverage",
+      "pass": true,
+      "detail": 79
+    },
+    {
+      "check": "line_anchors_unique_unchanged",
+      "pass": true,
+      "detail": 3996
+    },
+    {
+      "check": "text_bearing_pages_and_owned_blank",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "authorship_and_source_hash",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "all_changes_replay_from_immutable_v002",
+      "pass": true,
+      "detail": {
+        "decisions": 85,
+        "changed_lines": 79,
+        "changed_pages": 50,
+        "chain_errors": []
+      }
+    },
+    {
+      "check": "85_tracked_decisions_unique_ids",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "source_evidence_exists_for_every_change",
+      "pass": false,
+      "detail": null
+    },
+    {
+      "check": "current_text_alignment_exact",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "locator_uncertainty_not_concealed",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "section_markup_balanced",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "47_math_objects_preserved_not_recomputed",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "formula_source_review_evidence_present",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "11_entry_transliteration_key_anchored",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "86_historical_corrigenda_registered_not_applied",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "corrigenda_source_lines_current",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "14_apparatus_entries_explicit_dispositions",
+      "pass": true,
+      "detail": {
+        "DOCUMENTED_SOURCE_LOSS": 1,
+        "RESOLVED_RETAINED": 3,
+        "DISPOSED_IMAGE_FALLBACK": 10
+      }
+    },
+    {
+      "check": "apparatus_ledgers_synchronized",
+      "pass": false,
+      "detail": null
+    },
+    {
+      "check": "24_unique_visual_objects_14_new",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "18_referenced_glyphs_have_provenance",
+      "pass": true,
+      "detail": [
+        "AB01-PDF0022-G01",
+        "AB01-PDF0037-G01",
+        "AB01-PDF0040-G01",
+        "AB01-PDF0070-G01",
+        "AB01-PDF0070-G02",
+        "AB01-PDF0070-G03",
+        "AB01-PDF0070-G06",
+        "AB01-PDF0070-G04",
+        "AB01-PDF0070-G07",
+        "AB01-PDF0070-G05",
+        "AB01-PDF0079-G01",
+        "AB01-PDF0079-G02",
+        "AB01-PDF0080-G01",
+        "AB01-PDF0082-G01",
+        "AB01-PDF0082-G02",
+        "AB01-PDF0084-G01",
+        "AB01-PDF0084-G02",
+        "AB01-PDF0086-G01"
+      ]
+    },
+    {
+      "check": "all_raw_and_presentation_file_hashes",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "all_24_presentation_crops_replay_exact_native_pixels",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "14_new_raw_and_presentation_byte_identical",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "source_excerpt_matches_master_at_every_asset_page",
+      "pass": true,
+      "detail": {
+        "pages": [
+          2,
+          16,
+          20,
+          22,
+          37,
+          40,
+          41,
+          70,
+          78,
+          79,
+          80,
+          82,
+          84,
+          86,
+          89
+        ],
+        "mismatches": []
+      }
+    },
+    {
+      "check": "22_visual_objects_embedded_with_exact_pixels",
+      "pass": true,
+      "detail": {
+        "active_objects": 22,
+        "unmatched": []
+      }
+    },
+    {
+      "check": "reader_two_clean_two_pass_builds",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reader_byte_identical_to_both_build_receipts",
+      "pass": true,
+      "detail": {
+        "sha256": "1b3caa88d267e423198c7e478b90ae08c1a1967842cea77353e67c8e8a044d14",
+        "pages": 80
+      }
+    },
+    {
+      "check": "reader_clean_final_logs",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reader_all_page_rasters_replayed_36dpi",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "critical_two_clean_two_pass_builds",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "critical_byte_identical_to_both_build_receipts",
+      "pass": true,
+      "detail": {
+        "sha256": "2a655b06ed3cff147090642605bc866ccbbea64a55ec8cfd14d6f1a2a0e73676",
+        "pages": 4
+      }
+    },
+    {
+      "check": "critical_clean_final_logs",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "critical_all_page_rasters_replayed_36dpi",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "every_line_has_TeX_anchor",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "canonical_JSON_digest_matches_sync",
+      "pass": true,
+      "detail": "8dd145df64a5cb9b64c56f914779b53470671798a01de69ae809db2f51bdeb4f"
+    },
+    {
+      "check": "no_new_translations_or_Arabic_canonical_patch",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "checkpoint_explicitly_open_S01_only",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "all_157_recovered_proof_files_hash_verified",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "92_reviewed_contact_sheets_present_and_pinned",
+      "pass": true,
+      "detail": 92
+    },
+    {
+      "check": "54_detail_render_files_present_and_pinned",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "visual_review_pins_current_PDFs",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "no_font_binaries_distributed",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "no_executed_S02_artifacts",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "current_PDFs_only_v003",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "preserved_v002_history_byte_unchanged",
+      "pass": true,
+      "detail": []
+    }
+  ]
+}

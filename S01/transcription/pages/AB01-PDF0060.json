@@ -137,7 +137,7 @@
         },
         {
           "id": "AB01-PDF0060-body-L032",
-          "text": "differt. Postea appendix inscripta « <i>De opere isto quod ad caeli similitudinem formatur</i> »,"
+          "text": "differt. Postea adpendix inscripta « <i>De opere isto quod ad caeli similitudinem formatur</i> »,"
         },
         {
           "id": "AB01-PDF0060-body-L033",
@@ -208,8 +208,11 @@
     "continuation_from": "AB01-PDF0059",
     "continuation_to": "AB01-PDF0061 quotation",
     "authorship_subrole": "Schiaparelli description of the Ambrosian manuscript expressly credited in body",
-    "open_reading_notes": [],
     "proof_repairs": [],
-    "verification_limit": "Direct source replay by the producing assistant; independent textual audit not performed."
+    "verification_limit": "Inherited v002 first-pass source replay, followed by v003 targeted reread. No independent cold philological audit has been performed.",
+    "reading_note_dispositions": [],
+    "v003_change_ids": [
+      "S01-R3-043"
+    ]
   }
 }

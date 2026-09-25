@@ -15,7 +15,7 @@ It is an independent working edition. Nallino's edition is in the public domain.
 
 | Session | Scope | Status |
 |---|---|---|
-| S01 | Nallino, Part I: frontispiece, front matter, preface, bibliography, addenda/corrigenda (PDF 1–89, printed VII–LXXX) | **v002 candidate:** full first-pass transcription and an 80-page reader. 11 readings are still open, and the independent cold audit has not been done yet |
+| S01 | Nallino, Part I: frontispiece, front matter, preface, bibliography, addenda/corrigenda (PDF 1–89, printed VII–LXXX) | **v003 candidate:** revised transcription with 85 recorded, source-checked decisions (71 text repairs, 14 exact-image substitutions) on 50 pages; 80-page reader and 4-page critical apparatus. Ten hard-to-read spots are kept as exact source images. The independent cold audit has not been done yet |
 | S02–S04 | Part I: Nallino's Latin translation and notes (printed pp. 1–327) | not started |
 | S05–S09 | Part II: tables and notes | not started |
 | S10–S13 | Part III: Arabic text and tables | not started |
@@ -24,14 +24,15 @@ It is an independent working edition. Nallino's edition is in the public domain.
 | S16 | Integration and cold audit | not started |
 
 **Read S01:**
-- [Reader, 80 pp.](S01/pdf/S01_NALLINO_SOURCE_v002.pdf)
-- [Critical notes](S01/pdf/S01_CRITICAL_NOTES_v002.pdf)
-- [TeX source](S01/tex/S01_NALLINO_SOURCE_v002.tex)
+- [Reader, 80 pp.](S01/pdf/S01_NALLINO_SOURCE_v003.pdf)
+- [Critical apparatus, 4 pp.](S01/pdf/S01_CRITICAL_NOTES_v003.pdf)
+- [TeX source](S01/tex/S01_NALLINO_SOURCE_v003.tex)
 - [What is still open](S01/STATUS.md)
+- [What changed from v002](S01/ledgers/v003_changes.tsv)
 
-Releases are archived on Zenodo under concept DOI [10.5281/zenodo.20539593](https://doi.org/10.5281/zenodo.20539593). The latest version, [10.5281/zenodo.22951891](https://doi.org/10.5281/zenodo.22951891), includes S01 v002.
+Releases are archived on Zenodo under concept DOI [10.5281/zenodo.20539593](https://doi.org/10.5281/zenodo.20539593). The latest version, [10.5281/zenodo.22953314](https://doi.org/10.5281/zenodo.22953314), includes S01 v003. v002 is in version [10.5281/zenodo.22951891](https://doi.org/10.5281/zenodo.22951891) and in `S01/history/v002/`.
 
-The project rules and the 16 session prompts are in [S01/controls/](S01/controls/). The intermediate QA proof images for S01 (178 files, 83 MB) are not in this repository; they stay in the archived S01 package.
+The project rules and the 16 session prompts are in [S01/controls/](S01/controls/). Two things are not in this repository: the intermediate QA proof images and the recovered interrupted-reread evidence (452 files, about 153 MB). They stay in the archived S01 package, which is Zenodo file 53.
 
 ## Earlier work (June 2026)
 

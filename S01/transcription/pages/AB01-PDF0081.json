@@ -145,7 +145,7 @@
         },
         {
           "id": "AB01-PDF0081-body-L034",
-          "text": "bent. Unum problematum libri <i>de sphaea</i>, cuius auctor <n>az-Zarqālī</n>, est: longitudinem"
+          "text": "bent. Unum problematum libri <i>de saphaea</i>, cuius auctor <n>az-Zarqālī</n>, est: longitudinem"
         },
         {
           "id": "AB01-PDF0081-body-L035",
@@ -199,8 +199,11 @@
     }
   ],
   "details": {
-    "open_reading_notes": [],
     "proof_repairs": [],
-    "verification_limit": "Direct source replay by the producing assistant; independent textual audit not performed."
+    "verification_limit": "Inherited v002 first-pass source replay, followed by v003 targeted reread. No independent cold philological audit has been performed.",
+    "reading_note_dispositions": [],
+    "v003_change_ids": [
+      "S01-R3-066"
+    ]
   }
 }

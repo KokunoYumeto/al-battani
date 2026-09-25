@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "regenerated_artifacts_byte_identical": true,
+  "sha256": {
+    "tex/S01_NALLINO_SOURCE_v003.tex": "ef72168f7ebedc6c41e30bc5104d81a3e5584d1cb546b4f36e1f765939626b27",
+    "transcription/S01_NALLINO_SOURCE_v003.txt": "1629af6cdf7803d96440d43427235251ddf89435280075119e217c1ec1024263",
+    "tex/S01_TRANSLITERATION_KEY.tex": "c5affd6070f4a3412ad6c432c1d8486748df479622bf9660313550a4423d05ef"
+  },
+  "historical_JSON_changed": false,
+  "qualification": "Confirms that current JSON regenerates the exact TeX/TXT/key used in the successful reader build."
+}

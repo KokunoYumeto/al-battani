@@ -61,7 +61,7 @@
         },
         {
           "id": "AB01-PDF0086-body-L013",
-          "text": "bitur: <i>Incipiunt precipua iudicia et sunt 50.</i>"
+          "text": "bitur: <i>Incipiunt <glyph>AB01-PDF0086-G01</glyph> iudicia et sunt 50.</i>"
         },
         {
           "id": "AB01-PDF0086-body-L014",
@@ -237,8 +237,16 @@
     }
   ],
   "details": {
-    "open_reading_notes": [],
     "proof_repairs": [],
-    "verification_limit": "Direct source replay by the producing assistant; independent textual audit not performed."
+    "verification_limit": "Inherited v002 first-pass source replay, followed by v003 targeted reread. No independent cold philological audit has been performed.",
+    "reading_note_dispositions": [
+      {
+        "id": "S01-U014",
+        "status": "DISPOSED_IMAGE_FALLBACK"
+      }
+    ],
+    "v003_change_ids": [
+      "S01-R3-085"
+    ]
   }
 }

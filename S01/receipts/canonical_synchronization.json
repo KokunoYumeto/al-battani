@@ -1,13 +1,16 @@
 {
   "session": "S01",
-  "canonical_Nallino_checkpoint": "AB01-NALLINO-S01-v002",
-  "canonical_Nallino_sha256": "93fdc19b0917d87ec1e42a27296150c857b47f63984312793b4cc677c0c2531e",
-  "digest_algorithm": "sha256 over lexicographically sorted page basenames + NUL + exact JSON bytes",
+  "canonical_Nallino_checkpoint": "AB01-NALLINO-S01-v003-CANDIDATE",
+  "canonical_Nallino_sha256": "8dd145df64a5cb9b64c56f914779b53470671798a01de69ae809db2f51bdeb4f",
+  "digest_algorithm": "sha256 over sorted page basenames + NUL + exact JSON bytes",
   "canonical_Arabic_checkpoint": null,
   "canonical_Arabic_sha256": null,
-  "Arabic_checkpoint_disposition": "NOT_USED: no Arabic authorial Zij unit is owned by S01. Arabic quotations belong to Nallino apparatus.",
+  "Arabic_checkpoint_disposition": "NOT_USED: S01 owns Nallino apparatus, not an Arabic authorial Zij unit. Intrinsic quotations do not constitute a new Arabic canonical edition.",
   "accepted_Arabic_corrections": 0,
   "target_languages_requested_in_current_instruction": [],
-  "translation_artifacts": "none; no target-language translation silently inferred",
-  "language_sync": "No translations are promoted from unverified Arabic working-state material."
+  "translation_artifacts": [],
+  "language_sync": "No new target-language translation generated; no Arabic canonical corrections applied.",
+  "predecessor": "AB01-NALLINO-S01-v002",
+  "predecessor_pages_sha256": "93fdc19b0917d87ec1e42a27296150c857b47f63984312793b4cc677c0c2531e",
+  "release_gate": "INDEPENDENT_COLD_SOURCE_AUDIT_OUTSTANDING"
 }

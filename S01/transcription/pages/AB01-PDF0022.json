@@ -231,7 +231,7 @@
         },
         {
           "id": "AB01-PDF0022-notes_right-L009",
-          "text": "(7) <i>Geographi Graeci minores ed. Müller</i>, Pa-"
+          "text": "(7) <i>Geographi Graeci minores ed. Miller</i>, Pa-"
         },
         {
           "id": "AB01-PDF0022-notes_right-L010",
@@ -258,12 +258,18 @@
   ],
   "details": {
     "printed_page": "XIII",
-    "open_reading_notes": [
-      "S01-U003"
-    ],
     "proof_repairs": [
       "S01-R019"
     ],
-    "verification_limit": "Direct source replay by the producing assistant; independent textual audit not performed."
+    "verification_limit": "Inherited v002 first-pass source replay, followed by v003 targeted reread. No independent cold philological audit has been performed.",
+    "reading_note_dispositions": [
+      {
+        "id": "S01-U003",
+        "status": "DISPOSED_IMAGE_FALLBACK"
+      }
+    ],
+    "v003_change_ids": [
+      "S01-R3-013"
+    ]
   }
 }
