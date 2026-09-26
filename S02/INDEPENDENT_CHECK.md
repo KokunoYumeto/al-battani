@@ -79,3 +79,18 @@ Pp. 1–35 are byte-identical to v002 plus the pp. 31–35 extension. Pp. 36–4
   - Typography is aligned with pp. 1–40.
   - Every change is listed in `ledgers/checked_changes.tsv`.
 - **Still paragraph-level.** Marginal locators (pp. 62–66 of the Arabic), line numbers and line-initial guillemets need the line-anchored form of pp. 1–40.
+
+## Candidate, printed pp. 44–48 (2026-09-26)
+
+`candidate_print044-048/` holds ChatGPT's candidate for master PDF 133–137, unchanged, next to a checked copy. The three diagrams are cropped at build time from the master PDF. The full record is in
+[`S02_P044_048_CHECK.md`](candidate_print044-048/S02_P044_048_CHECK.md).
+
+- **Build.** As delivered, the file does not compile: its crop macro passes unexpanded length registers to graphicx's `trim`. With the lengths expanded, LuaLaTeX ×2 builds 5 pages cleanly.
+- **Completeness.** Word-trigram overlap with the OCR layer is 83–96% in both directions. The unmatched runs are hyphenation and OCR noise.
+- **Fidelity.** All five pages were read line by line against the scan.
+  - The six register items are resolved:
+    - *al-burūǵ*, the Greek, and the Arabic ى/ن are right as read
+    - 1ᵖ 33′ against the note's "secundarum", and 58ᵖ 12′ 34″ against 58ᵖ 12′ 32″, are kept as printed
+    - the crops enclose each diagram; the p. 47 box is extended by 4 pt so that it no longer shaves the circles' lowest arcs
+  - Three readings are corrected: al-Battānī and al-Farghānī (the final macron was lost), and 1ᵖ (not 1°) in p. 46 n. 14.
+  - Apparatus letters and letter-spaced names are aligned with pp. 1–40.

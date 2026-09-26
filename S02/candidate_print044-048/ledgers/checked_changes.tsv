@@ -1,0 +1,20 @@
+id	page	change	old	new
+H1	-	header	% TRANSCRIPTION CANDIDATE — compilation and final visual QA not certified.⏎	% TRANSCRIPTION CANDIDATE — compilation and final visual QA not certified.⏎% Checked against the scan (master PDF 133-137) on 2026-09-26: builds with LuaLaTeX,⏎% C01-C06 resolved, three readings corrected; see S02_P044_048_CHECK.md.⏎
+B1	-	build: graphicx needs four space-separated trim values; the measured lengths are now expanded first (the delivered file stops with 'Paragraph ended before \Gread@parse@vp was complete')	  \includegraphics[⏎    page=#1,⏎    trim={#2bp \SourceBottomTrim \SourceRightTrim #3bp},⏎    clip,⏎    width=#6⏎  ]{\MasterPDF}%	  % graphicx needs four space-separated trim values, so the two⏎  % measured lengths are expanded before it parses them.⏎  \edef\SourceCropOptions{page=#1,⏎    trim={#2bp \the\SourceBottomTrim\space\the\SourceRightTrim\space #3bp},⏎    clip}%⏎  \expandafter\includegraphics\expandafter[\SourceCropOptions,width=#6]{\MasterPDF}%
+B2	47	crop: the lowest arcs of both circles reach 0.3 pt below y1 = 645; box extended to 649 (next text line is clear)	  % Source region: x0=65, y0=480, x1=298, y1=645.⏎  \SourceCrop{136}{65}{480}{298}{645}{\linewidth}	  % Source region: x0=65, y0=480, x1=298, y1=649.⏎  \SourceCrop{136}{65}{480}{298}{649}{\linewidth}
+T1	44	italic apparatus letter as in pp. 1-40	manifesta \textit{(b)}.	manifesta ({\itshape b}).
+T2	44	italic apparatus letter	observavimus⏎  \textit{(c)}.	observavimus⏎  ({\itshape c}).
+R1	44 n.3	macron (print: al-Battānī)	« al-Battāni aequationem	« al-Battānī aequationem
+T3	44 n.3	letter-spaced names as printed	Plato male $1^\circ58'$; Ibn Yūnus⏎(apud Caussin,	Plato male $1^\circ58'$; {\addfontfeatures{LetterSpace=0.5} Ibn Yūnus}⏎(apud {\addfontfeatures{LetterSpace=0.5} Caussin},
+T4	44 n.3	letter-spaced names as printed	Halley p. 917, et Delambre,	{\addfontfeatures{LetterSpace=0.5} Halley} p. 917, et {\addfontfeatures{LetterSpace=0.5} Delambre},
+C01	45 n.3	flag resolved: al-burūǵ as read (ū, ǵ)	al-burūǵ}\U{C01}	al-burūǵ}
+C02	45 n.3	flag resolved: Greek as read (τῷ, κόσμῳ with iota subscript; ζωδίων without, as printed)	κύκλος}\U{C02}	κύκλος}
+T5	45 n.3	letter-spaced names as printed	Syriaca Barhebraei vertenda, Nau eum	Syriaca Barhebraei vertenda, {\addfontfeatures{LetterSpace=0.5} Nau} eum
+T6	45 n.3	letter-spaced names as printed; macron (print: al-Farghānī)	appellat; Golius,⏎in versione al-Farghāni, et Sédillot,	appellat; {\addfontfeatures{LetterSpace=0.5} Golius},⏎in versione al-Farghānī, et {\addfontfeatures{LetterSpace=0.5} Sédillot},
+T7	46	italic apparatus letter	circiter esse \textit{(d)}.	circiter esse ({\itshape d}).
+T8	46	italic apparatus letter	continebit \textit{(e)}.	continebit ({\itshape e}).
+C03	46 n.15	flag resolved: ى and ن as printed	\AR{ن} N)\U{C03};	\AR{ن} N);
+R2	46 n.14	print has 1ᵖ (partes), not 1°	\NN{14}{Plato $1^\circ4'54''$.}	\NN{14}{Plato $1^{p}4'54''$.}
+T9	48	italic apparatus letter	stellae \textit{(f)}.	stellae ({\itshape f}).
+T10	48	italic apparatus letter	mediae \textit{(g)}.	mediae ({\itshape g}).
+T11	48	italic apparatus letter	noctis\NM{8} \textit{(a)}.	noctis\NM{8} ({\itshape a}).

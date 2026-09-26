@@ -1,0 +1,676 @@
+% S02 continuation: printed pages 44–48, physical PDF133–137.
+% Historical source: Nallino, Pars I.
+% TRANSCRIPTION CANDIDATE — compilation and final visual QA not certified.
+% Checked against the scan (master PDF 133-137) on 2026-09-26: builds with LuaLaTeX,
+% C01-C06 resolved, three readings corrected; see S02_P044_048_CHECK.md.
+%
+% Body responsibility: NALLINO_TRANSLATION
+% Historical notes: NALLINO_APPARATUS
+% Editorial checking register: MODERN_EDITORIAL
+%
+% Controlling source SHA-256:
+% 544c16b6355c9b74e281aded657d657224bff738366d5260e1a610d31b0d6297
+%
+% Requires the original master PDF in the same directory.
+% Compile with LuaLaTeX.
+%
+% Source paragraph, note, and figure anchors are supplied.
+% No new target-language translation is included.
+
+\documentclass[10pt]{article}
+\usepackage[
+  paperwidth=220mm,
+  paperheight=320mm,
+  left=17mm,
+  right=17mm,
+  top=19mm,
+  bottom=19mm
+]{geometry}
+
+\usepackage{fontspec}
+\usepackage{polyglossia}
+\setdefaultlanguage{latin}
+\setotherlanguages{arabic,greek}
+
+\IfFontExistsTF{Libertinus Serif}
+  {\setmainfont{Libertinus Serif}}
+  {\IfFontExistsTF{FreeSerif}
+    {\setmainfont{FreeSerif}}
+    {\setmainfont{DejaVu Serif}}}
+
+\IfFontExistsTF{Amiri}
+  {\newfontfamily\arabicfont[Script=Arabic]{Amiri}}
+  {\newfontfamily\arabicfont[Script=Arabic]{DejaVu Sans}}
+
+\IfFontExistsTF{FreeSerif}
+  {\newfontfamily\greekfont{FreeSerif}}
+  {\newfontfamily\greekfont{DejaVu Serif}}
+
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{multicol}
+\usepackage{hyperref}
+\hypersetup{hidelinks}
+
+\setlength{\parindent}{1em}
+\setlength{\parskip}{3pt}
+\setlength{\columnsep}{6mm}
+\emergencystretch=1em
+
+\newcommand{\MasterPDF}
+  {30_NALLINO_PARS_I_II_III_MASTER_1162P.pdf}
+
+\newcommand{\A}[1]{\hypertarget{#1}{}}
+\newcommand{\NM}[1]{\textsuperscript{(#1)}}
+\newcommand{\NN}[2]{\par\noindent\textup{(#1)}\ #2}
+\newcommand{\AR}[1]{\textarabic{#1}}
+\newcommand{\GR}[1]{\textgreek{#1}}
+\newcommand{\U}[1]{\textsuperscript{\texttt{[#1]}}}
+
+\newcommand{\SP}[3]{%
+  \clearpage
+  \A{AB01-PDF#1}%
+  \begin{center}\textbf{#2\quad #3}\end{center}%
+}
+
+% Crop a source region without redrawing it.
+%
+% Arguments:
+% #1 = physical PDF page, one-indexed
+% #2 = x0, points from left
+% #3 = y0, points from top
+% #4 = x1, points from left
+% #5 = y1, points from top
+% #6 = desired display width
+%
+% Native PDF page dimensions are measured rather than assumed.
+% The source PDF itself remains the untouched raw witness.
+
+\newsavebox{\SourcePageBox}
+\newlength{\SourceBottomTrim}
+\newlength{\SourceRightTrim}
+
+\newcommand{\SourceCrop}[6]{%
+  \begingroup
+  \sbox{\SourcePageBox}{%
+    \includegraphics[page=#1]{\MasterPDF}%
+  }%
+  \setlength{\SourceBottomTrim}{%
+    \dimexpr\ht\SourcePageBox+\dp\SourcePageBox-#5bp\relax
+  }%
+  \setlength{\SourceRightTrim}{%
+    \dimexpr\wd\SourcePageBox-#4bp\relax
+  }%
+  % graphicx needs four space-separated trim values, so the two
+  % measured lengths are expanded before it parses them.
+  \edef\SourceCropOptions{page=#1,
+    trim={#2bp \the\SourceBottomTrim\space\the\SourceRightTrim\space #3bp},
+    clip}%
+  \expandafter\includegraphics\expandafter[\SourceCropOptions,width=#6]{\MasterPDF}%
+  \endgroup
+}
+
+\begin{document}
+
+% ================================================================
+% PHYSICAL PDF133 — PRINTED PAGE 44
+% ================================================================
+
+\SP{0133}{44}{C. A. NALLINO}
+
+\A{AB01-PDF0133-P01}
+partem quam Sol medio suo itinere ab initio Arietis ad initium
+Librae percurrit, scilicet, ut supra vidimus,
+$183^\circ56'12''$. Arcus KLRM, semicircumferentia excentrici,
+$180^\circ$ continet; quisque igitur arcuum PK, YM est dimidia
+pars eorum $3^\circ56'12''$, quibus Sol medio suo itinere
+$180^\circ$ superat, idest $1^\circ58'6''$. — Manifestum etiam
+est arcum PKLR\NM{1} excentrici id esse quod Sol, medio suo
+itinere, ab initio Arietis ad initium Cancri percurrit; igitur
+$92^\circ14'10''$ erit; et quia arcus PKL, ob ea quae nuper
+diximus, $91^\circ58'6''$ complectitur, arcus LR $0^\circ16'4''$
+continebit. Item manifestum est perpendicularem PQ sinum esse
+arcus PK, et perpendicularem RG sinum arcus LR; igitur PQ fere
+$2^{p}3'39''$, et RG fere $0^{p}16'45''$ erit. Quoniam linea KM
+parallela est lineae AC, erit linea ES aequalis PQ; et similiter,
+quia LN parallela est lineae BD, erit FS aequalis RG. Est itaque
+etiam latus EF trianguli rectanguli ESF notum; quadratum lateris
+ES est fere $4^{p}14'48''$, quadratum lateris FS fere
+$0^{p}4'41''$, summa igitur $4^{p}19'29''$\NM{2} efficit quadratum
+lateris EF, cuius radix $2^{p}4'\,3/4$ est quantitas lineae EF
+ambo centra coniungentis. Ea ratione autem, qua quadrans circuli
+triangulum rectangulum ESF circumdantis $90^\circ$ complectitur,
+et semidiametrus $60^{p}$, erit arcus EF circiter
+$1^\circ59'$\NM{3}; et haec est maxima anomalia motus Solis per
+has observationes manifesta ({\itshape b}).
+
+\A{AB01-PDF0133-P02}
+Nunc in quantitatem arcus BH eclipticae inquiramus; qua cognita,
+etiam arcus HA reliquus notus erit. Punctum T est locus apogei in
+circulo Solis excentrico; nam, si lineam EF, ambo centra
+coniungentem, usque ad eclipticam producimus, ipsa circulum KLMN
+in T, et circulum eclipticae in H secat. Necesse est ut rationem
+lineae EF ad semidiametrum EH cognoscamus, nec non quantitatem
+arcus BH eclipticae. Iam vidimus lineam EF $2^{p}4'\,3/4$
+complecti ea ratione qua semidiametrus $60^{p}$ continet; eadem
+ratione igitur linea EH, quae, ut EB, semidiametrus est, lineam
+EF 28 vicibus et $5/6$ fere continebit. Quoniam linea FS, ut
+diximus, [$0^{p}16'45''$] est, si linea EF $60^{p}$ ponatur,
+erit iuxta hanc rationem linea FS circiter $8^{p}4'$;
+
+\par\noindent
+\begin{minipage}[t]{.43\textwidth}
+  \vspace{0pt}
+  \centering
+  \A{AB01-PDF0133-F01}
+  % Raw source region, top-origin PDF coordinates:
+  % x0=108, y0=436, x1=313, y1=633.
+  \SourceCrop{133}{108}{436}{313}{633}{\linewidth}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{.54\textwidth}
+  \vspace{0pt}
+  hoc enim invenitur si $28\,5/6$ vicibus [$0^{p}16'45''$]
+  multiplicantur. — Aut, si mavis, lineam FS in semidiametrum
+  EH multiplica; invenies $16^{p}45'$, quae, per lineam EF
+  scilicet per $2^{p}4'\,3/4$ divisa, dabunt $8^{p}4'$, quod
+  est [sinus] anguli BEH; arcus igitur BH $7^\circ43'$ circiter
+  continet. Itaque manifestum est punctum T apogei in
+  excentrico, a puncto solstitii aestivi versus partem
+  anteriorem signorum $7^\circ43'$ distare, scilicet
+  $82^\circ17'$ ab initio Arietis esse. Hoc invenire volebamus.
+  Observatio iuxta quam hunc calculum fecimus, anno 1194 aerae
+  Dhū ’l-qarnayn\NM{4} fuit, quo iter Solis ab initio Arietis
+  ad initium Cancri et ad initium Librae observavimus
+  ({\itshape c}).
+\end{minipage}
+
+\A{AB01-PDF0133-P03}
+Restat nunc nobis ut hanc anomaliam ad gradus eclipticae
+distribuamus, et portiones eius quae ad singulos gradus
+pertinent in tabulis
+
+\begin{multicols}{2}
+\footnotesize
+
+\A{AB01-PDF0133-N01}
+\NN{1}{Male codex PKL.}
+
+\A{AB01-PDF0133-N02}
+\NN{2}{Male secundae apud Platonem $59''$.}
+
+\A{AB01-PDF0133-N03}
+\NN{3}{Plato male $1^\circ58'$; {\addfontfeatures{LetterSpace=0.5} Ibn Yūnus}
+(apud {\addfontfeatures{LetterSpace=0.5} Caussin}, \textit{Le livre de la grande table Hakémite},
+in Notices et extraits des mss. de la Bibl. Nation., t. VII,
+Paris 1804, p. 155) scribit: « al-Battānī aequationem totam
+Solis calculavit, invenitque $1^\circ59'10''$ esse ».
+{\addfontfeatures{LetterSpace=0.5} Halley} p. 917, et {\addfontfeatures{LetterSpace=0.5} Delambre}, \textit{Astr. moyen âge}, p. 36,
+qui hodiernis tabulis trigonometricis usi sunt, invenere
+quoque $1^\circ59'10''$. Codicis lectio igitur bona est; in
+tabulis aequationis Solis (fol. 191,r.) re vera maxima
+aequatio est $1^\circ59'10''$.}
+
+\A{AB01-PDF0133-N04}
+\NN{4}{Incipit, iuxta usum auctoris nostri, die 1 Septembris
+882 post Chr. n.}
+
+\end{multicols}
+
+% ================================================================
+% PHYSICAL PDF134 — PRINTED PAGE 45
+% ================================================================
+
+\SP{0134}{45}{AL-BATTANI OPUS ASTRONOMICUM}
+
+\A{AB01-PDF0134-P01}
+describamus, ut facile possit aequatio motus Solis inveniri.
+Ostendit Ptolemaeus\NM{1} motus varios duobus modis effingi
+posse; quorum alter est ut ponatur planetam habere circulum
+eclipticae concentricum, super quem alius circulus sit, cuius
+centrum circumferentiam primi percurrat. Hic secundus circulus
+est circulus minor, Terram non ambiens, cuius centrum circulus
+maior rotare facit versus partem successionis signorum iuxta
+quantitatem motus longitudinalis planetae versus partem in
+quam signa succedunt. Sidus ipsum in epicyclo, qui est circulus
+minor, versus praecedentem aut versus subsequentem partem
+movetur; aut circulus minor planetam versus alterutram partem
+rotare facit. Hic est motus anomaliae quae ad planetam pertinet.
+— Alter explicandi modus est ut ponatur sidus habere circulum
+concentricum eclipticae, et alterum excentricum sed illi
+aequalem, qui eum duobus locis secet Planeta est in excentrico,
+sive hic eum movet, sive ipse in excentrico movetur.
+— Utraque ratio anomaliam pariter explicat; nos a prima
+incipiemus.
+
+% No punctuation has been supplied between "secet" and "Planeta".
+
+\A{AB01-PDF0134-P02}
+Circulum ABCD eclipticae circa centrum E describamus; sit A,
+initio, centrum epicycli HF\NM{2}. Diametrum AC usque ad H
+producamus, quod est punctum apogei in epicyclo; sit F locus
+Solis in epicyclo, et ab eo perpendicularem supra lineam AH
+usque ad punctum M ducamus; denique lineam AF signemus,
+lineae AH aequalem, nam ambae sunt semidiametri epicycli.
+Ob ea quae in hoc ipso capite iam diximus, patet eam
+$2^{p}4'\,3/4$ complecti, ut semidiametrum EF epicycli in
+figura praecedenti. Quo cognito, motum Solis in epicyclo versus
+partem contrariam successioni signorum observa, vel quantitatem
+qua epicyclus motu medio diurno Solem versus illam partem
+movet, iuxta rationem qua circumferentia epicycli in
+$360^\circ$ dividitur. Motus medius Solis, qui observationibus
+invenitur, est motus centri epicycli versus partem successionis
+signorum; et hic motus quoque ea ratione ponitur qua circulus
+ABCD $360^\circ$ complectitur.
+
+\A{AB01-PDF0134-P03}
+Arcus HF, qui est arcus epicycli inter locum Solis et punctum
+apogei, $30^\circ$ contineat e gradibus quorum epicyclus 360
+continet. Lineam EF in hac figura ducamus; et in arcum lineae
+FM, qui est variatio motus Solis eo loco, inquiramus.
+Linea EA, semidiametrus circuli concentrici eclipticae, 60
+partes habet ex iis quarum diametrus AC 120 continet; linea
+igitur EH, quae centrum circuli parecliptici\NM{3} cum apogeo
+epicycli coniungit, $62^{p}4'45''$ erit. Et quia triangulum FMA
+est rectangulum, quadratum lineae AF erit ut summa quadratorum
+AM, FM; angulus autem MAF\NM{4} notus est, ergo etiam linea
+FM est nota, a qua deinde co-
+
+\begin{multicols}{2}
+\footnotesize
+
+\A{AB01-PDF0134-N01}
+\NN{1}{\textit{Almag.} III, 3, 4 et 5
+(ed. Halma, t. I, p. 170–183, 183–190, 190–199);
+quoad Solem tamen hypothesim excentrici commodiorem censet.}
+
+\A{AB01-PDF0134-N02}
+\NN{2}{Cod. et Plato HFT; in eorum figura enim punctum T
+ponitur loco intersectionis epicycli et circuli magni,
+inter A et D. Sed ex iis quae sequuntur patet T esse punctum
+circuli magni indicans directionem apogei.}
+
+\A{AB01-PDF0134-N03}
+\NN{3}{Scilicet paralleli seu concentrici eclipticae.
+Cum nullum habeat nomen apud scriptores nostrates, ita verto
+Arabicum \textit{al-mumaththal bi falak al-burūǵ}
+« similem factum eclipticae » seu \textit{al-mumaththal}
+tantum, qui apud Ptolemaeum interdum
+\GR{ὁ ὁμόκεντρος τῷ κόσμῳ κύκλος}
+« circulus mundo concentricus » vel
+\GR{ὁ ὁμόκεντρος τῷ διὰ μέσων τῶν ζωδίων κύκλος}
+« circulus concentricus circulo per medium signorum
+transeunti » (i. e. eclipticae) vocatur. In astronomia
+Syriaca Barhebraei vertenda, {\addfontfeatures{LetterSpace=0.5} Nau} eum
+\textit{intersphère de la similitude} appellat; {\addfontfeatures{LetterSpace=0.5} Golius},
+in versione al-Farghānī, et {\addfontfeatures{LetterSpace=0.5} Sédillot}, in versione Ulugh Beg,
+\textit{sphaeram} vel \textit{circulum homocentricum}.
+— Est circulus concentricus eclipticae in cuius plano iacet;
+descriptus est in superficie sphaerae Solis vel planetarum,
+\textit{al-mumaththal} quoque vocata, quae est corpus solidum,
+concentricum eclipticae, duabus superficiebus parallelis
+contentum, quarum exterior superficiem exteriorem sphaerae
+circuli excentrici (deferentis) in puncto apogeo excentrici
+tangit; interior superficiem interiorem sphaerae excentrici
+in perigeo. — Movetur ut signa zodiaci ob praecessionem
+moventur, ab ortu ad occasum.}
+
+\A{AB01-PDF0134-N04}
+\NN{4}{Cod. HEF.}
+
+\end{multicols}
+
+% ================================================================
+% PHYSICAL PDF135 — PRINTED PAGE 46
+% ================================================================
+
+\SP{0135}{46}{C. A. NALLINO}
+
+\A{AB01-PDF0135-P01}
+gnoscitur reliquum latus AM trianguli, quod est [cosinus]
+arcus FH et anguli FAH\NM{1}. Igitur est etiam linea EM nota.
+Cum triangulum FME rectangulum sit, eius hypotenusa EF
+cognoscitur, ex qua linea FM deprehenditur; arcus autem super
+FM est arcus anomaliae.
+
+\A{AB01-PDF0135-P02}
+Si, ut posuimus, arcus FH $30^\circ$ complectitur, eius sinus
+erit 30 partium, e partibus quarum semidiametrus AF 60
+continet; sed ea ratione qua linea AF $2^{p}4'45''$
+complectitur, erit linea FM $1^{p}2'22''\,1/2$\NM{2}, reliqua
+igitur AM $1^{p}48'2''$, et linea EM\NM{3}
+$61^{p}48'2''$\NM{4}; unde patet [lineam EF] $61^{p}48'35''$
+circiter esse ({\itshape d}). Sed ex partibus quarum linea EF
+60 tantum habet, linea FM $1^{p}0'33''$\NM{5} continebit,
+et arcus super eam positus $0^\circ57'49''$ circiter; et haec
+est quantitas anomaliae motus Solis, scilicet arcus HF.
+Est igitur arcus TA eclipticae $29^\circ2'11''$, qui antea
+$30^\circ$ erat; nam epicycli centrum a T ad A motum est
+ut Sol in epicyclo a H ad F.
+
+\A{AB01-PDF0135-P03}
+Nunc epicyclum GQP consideremus, cuius centrum est B; locum
+Solis G ponamus, sitque arcus QG\NM{6}, quem Sol a puncto Q
+apogei percurrit, $150^\circ$\NM{7}; remanent igitur
+$30^\circ$ arcui PG, qui a loco Solis ad punctum perigei
+porrigitur. Lineam EG et perpendicularem GK ducamus; patet
+triangula BKG et GKE rectangula esse, et latera BG, BE haud
+ignota; nam BG est semidiametrus epicycli\NM{8}, et BE
+semidiametrus circuli eclipticae. Angulus et arcus GP dati
+sunt; perpendicularis GK et reliqua linea BK notae;
+[ergo etiam lineae KE et EG cognoscuntur]\NM{9}.
+
+\par\noindent
+\begin{minipage}[t]{.44\textwidth}
+  \vspace{0pt}
+  \centering
+  \A{AB01-PDF0135-F01}
+  % Source region: x0=120, y0=350, x1=329, y1=568.
+  \SourceCrop{135}{120}{350}{329}{568}{\linewidth}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{.53\textwidth}
+  \vspace{0pt}
+  Cum arcus GP, ut posuimus, $30^\circ$ contineat, eius sinus
+  quoque $30^{p}$ erit; arcus autem complementaris, qui super
+  KB est, sinum habebit $51^{p}57'41''$\NM{10}.
+  — At ex partibus quarum linea BG $2^{p}4'\,3/4$ habet,
+  perpendicularis KG $1^{p}2'22''\,1/2$\NM{11} continebit;
+  remanet linea KB $1^{p}48'2''$, qua re EK fere
+  $58^{p}11'58''$, et EG fere $58^{p}12'34''$\NM{12}
+  continebit ({\itshape e}). Sed ex partibus quarum EG 60
+  habet, cathetus KG $1^{p}4'17''$\NM{13} complectetur,
+  et arcus super eam positus $1^\circ1'24''$\NM{14},
+  iuxta rationem qua circulus triangulum rectangulum BKG
+  circumdans in $360^\circ$ dividitur. Et hic est arcus
+  anomaliae, scilicet arcus PG. Qua re arcus NB\NM{15}
+  eclipticae, quem cognoscere volebamus,
+  $31^\circ1'24''$\NM{16} complectetur.
+\end{minipage}
+
+\begin{multicols}{2}
+\footnotesize
+
+\A{AB01-PDF0135-N01}
+\NN{1}{Cod.: « quod est quod angulo FAH et arcui FH deest
+ad quadrantem perficiendum ».}
+
+\A{AB01-PDF0135-N02}
+\NN{2}{Pro $22''$ Plato habet $55''$. Persaepe in Platonis
+editione pro 2 legitur 5, qui error codicibus Latinis vel
+editoris incuriae tribuendus est.}
+
+\A{AB01-PDF0135-N03}
+\NN{3}{Codex EF.}
+
+\A{AB01-PDF0135-N04}
+\NN{4}{Plato verba seqq. omittit et pro $2''$ habet $35''$.}
+
+\A{AB01-PDF0135-N05}
+\NN{5}{Plato $1^\circ33'$.}
+
+\A{AB01-PDF0135-N06}
+\NN{6}{Cod. QM.}
+
+\A{AB01-PDF0135-N07}
+\NN{7}{Male Plato 120.}
+
+\A{AB01-PDF0135-N08}
+\NN{8}{Cod.: eclipticae.}
+
+\A{AB01-PDF0135-N09}
+\NN{9}{Addidi, Platonem sequens; sed additio non est necessaria.}
+
+\A{AB01-PDF0135-N10}
+\NN{10}{Partes apud Plat. $59^{p}$.}
+
+\A{AB01-PDF0135-N11}
+\NN{11}{Deest $1/2$ in cod.; Plato pro $22''$ habet $55''$
+(cfr. adnot. 2).}
+
+\A{AB01-PDF0135-N12}
+\NN{12}{Plato $58^{p}7'34''$.}
+
+\A{AB01-PDF0135-N13}
+\NN{13}{Secundae apud Platonem $13''$.}
+
+\A{AB01-PDF0135-N14}
+\NN{14}{Plato $1^{p}4'54''$.}
+
+\A{AB01-PDF0135-N15}
+\NN{15}{Cod. IB (\AR{ى} I pro \AR{ن} N); Plato GB.
+In figura codicis et Platonis punctum N lineaque NT desunt;
+punctum T vero, ut supra notavi, perperam prope locum
+intersectionis epicycli HF et eclipticae collocatum.}
+
+\A{AB01-PDF0135-N16}
+\NN{16}{Minuta in cod. $4'$; Plat. $1^\circ4'54''$.}
+
+\end{multicols}
+
+% ================================================================
+% PHYSICAL PDF136 — PRINTED PAGE 47
+% ================================================================
+
+\SP{0136}{47}{AL-BATTANI OPUS ASTRONOMICUM}
+
+\A{AB01-PDF0136-P01}
+Dicit [auctor]: Nunc aliter haec explicabimus. Circa centrum E
+et diametrum AC, sit circulus eclipticae ABC; circa centrum H,
+excentricus FMG; et diametrus AC per ambo centra transeat.
+Erit F punctum apogei in circulo parecliptico, G perigei.
+Initio locum Solis in excentrico in M esse ponamus, et arcum FM
+excentrici, quem Sol iam percurrit, $30^\circ$ complecti;
+angulus FHM erit quoque $30^\circ$. Lineam EH, ambo centra
+coniungentem, iam vidimus $2^{p}4'\,3/4$ esse.
+Semidiametrum HM excentrici et lineam EM ducamus, HM usque
+ad punctum L quo cum perpendiculari LE convenit protrahentes.
+Triangulum HLE rectangulum est; eius angulus LHE aequat
+angulum datum FHM; arcus super EL, ex circulo triangulum
+HLE circumdanti, si circumferentia $360^\circ$ continet,
+$30^\circ$ complectetur, eiusque sinus $30^{p}$ quoque ex
+partibus quarum linea HE inter ambo centra 60 habet.
+Remanebit linea LH, quadrantem perficiens, $51^{p}57'41''$,
+nam arcus complementaris LH $60^\circ$ continet.
+Sed ea ratione qua linea HE inter ambo centra $2^{p}4'\,3/4$
+complectitur, linea EL $1^{p}2'22''\,1/2$\NM{1} erit, et linea
+LH, quadrantem perficiens, $1^{p}48'2''$; itaque linea tota
+LM $61^{p}48'2''$. Triangulum MLE rectangulum est;
+eius hypotenusam EM $61^{p}48'35''$ esse vidimus.
+Sed ratione qua lineae EM $60^{p}$ tribuuntur, EL est
+$1^{p}33'$\NM{2}, et arcus super eam $0^\circ57'49''$,
+cum circulus triangulum HLE circumdans $360^\circ$ sit.
+Arcus igitur AB eclipticae $29^\circ2'11''$ fere remanebit.
+
+\A{AB01-PDF0136-P02}
+Item Solem in puncto D excentrici esse ponamus, arcumque
+FD\NM{3} $150^\circ$ complecti; reliquus arcus DG, inter
+locum Solis et perigeum, $30^\circ$ erit. Lineas EK et HD,
+quarum utraque est sui circuli semidiametrus, ducamus;
+item perpendicularem ES. Triangulum HSE rectangulum est;
+latus EH, ambo centra coniungens, latus ES, angulus
+DHG\NM{4} nota sunt; erunt ergo nota latus HS et angulus
+HES\NM{5}. Cognoscuntur igitur quoque linea DG et hypotenusa
+ED trianguli rectanguli ESD. Cum vero datus arcus DG et
+datus angulus GHD $30^\circ$ sint ut diximus, eorumque sinus
+$30^{p}$ pariter, arcus quoque ES circuli triangulum
+rectangulum ESH circumdantis complectetur $30^\circ$ ex
+partibus quarum totus ille circulus $360^\circ$ habet,
+et eius sinus, nempe cathetus ES, $30^{p}$ quoque e
+partibus quarum linea EH, semidiametrus huius circuli,
+$60^{p}$ complectitur. Sed ratione qua lineae EH
+$2^{p}4'\,3/4$ tribuuntur, cathetus ES erit
+$1^{p}2'22''\,1/2$\NM{6}; qua re latus SH $1^{p}48'2''$
+remanebit.
+
+\par\noindent
+\begin{minipage}[t]{.51\textwidth}
+  \vspace{0pt}
+  \centering
+  \A{AB01-PDF0136-F01}
+  % Source region: x0=65, y0=480, x1=298, y1=649.
+  \SourceCrop{136}{65}{480}{298}{649}{\linewidth}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{.46\textwidth}
+  \vspace{0pt}
+  Semidiametrus HD excentrici $60^{p}$ continet, de quibus
+  si SH dematur, remanent lineae SD $58^{p}11'58''$;
+  igitur hypotenusa ED trianguli rectanguli ESD erit
+  circiter $58^{p}12'32''$\NM{7}. Sed ex partibus quarum
+  linea ED 60 habet, cathetus ES $1^{p}4'17''$ complectetur,
+  et arcus super eam, qui est quantitas anomaliae,
+  $1^\circ1'24''$\NM{8}: arcus igitur KC eclipticae,
+  $31^\circ1'24''$\NM{9} circiter erit.
+  Haec de anomalia sufficiunt, quam explicare volebamus.
+\end{minipage}
+
+\A{AB01-PDF0136-P03}
+Dicit [auctor]: Hunc motum ita ad singulos gradus in tabulis
+a puncto apogei posuimus; similiter reperiuntur aequatio simplex
+
+\begin{multicols}{2}
+\footnotesize
+
+\A{AB01-PDF0136-N01}
+\NN{1}{Secundae apud Platonem $55''$.}
+
+\A{AB01-PDF0136-N02}
+\NN{2}{Cod. « unius partis et trium ac triginta secundarum ».}
+
+\A{AB01-PDF0136-N03}
+\NN{3}{Cod. AD. Postea Plato 120.}
+
+\A{AB01-PDF0136-N04}
+\NN{4}{Cod. HDG.}
+
+\A{AB01-PDF0136-N05}
+\NN{5}{Cod. HS.}
+
+\A{AB01-PDF0136-N06}
+\NN{6}{Secundae apud Platonem $55''$.}
+
+\A{AB01-PDF0136-N07}
+\NN{7}{Plato $58^{p}15'34''$.
+Cfr. adnot. \textit{e} huius capitis.}
+
+\A{AB01-PDF0136-N08}
+\NN{8}{Cod. $1^\circ4'24''$; Plato $1^\circ4'54''$.}
+
+\A{AB01-PDF0136-N09}
+\NN{9}{Cod. $1^\circ1'24''$; Plato $31^\circ4'54''$.}
+
+\end{multicols}
+
+% ================================================================
+% PHYSICAL PDF137 — PRINTED PAGE 48
+% ================================================================
+
+\SP{0137}{48}{C. A. NALLINO}
+
+\A{AB01-PDF0137-P01}
+Lunae et aequatio media quinque planetarum, quae est
+semidiametrus eorum epicycli, cum eius sinus sumatur et eo
+modo dividatur.
+
+\A{AB01-PDF0137-P02}
+Si id calculo reperire vis, gradus epicycli quos ab apogeo
+Sol, vel Luna, vel planeta percurrerit, scilicet anomaliam,
+observa; si gradus minus quam $180^\circ$ sunt, iis utere,
+sed si $180^\circ$ superant, eos de $360^\circ$ deme et
+residuum adhibe. Graduum alterutra via repertorum, si minus
+quam $90^\circ$ sunt, sinum atque cosinum multiplica in
+semidiametrum epicycli sideris qui est totius aequationis
+sinus; ambo producta per semidiametrum divide, et quod ex
+divisione cosinus provenerit adde $60^{p}$ scilicet
+semidiametro. Quadratum huius summae adde quadrato eius
+quod e divisione sinus exierit; huius summae radicem inveni.
+Deinde quod e divisione sinus provenerat, in semidiametrum
+multiplica, et productum per inventam radicem divide.
+— Si contra gradus adhibendi superant $90^\circ$, de iis
+$90^\circ$ deme; sinum et cosinum residui in semidiametrum
+epicycli multiplica et per semidiametrum divide; quod e
+sinu provenerit de $60^{p}$ deme; quadratum residui adde
+quadrato eius quod e cosinu exierit, et huius summae
+radicem inveni. Postea quod e divisione cosinus provenerat
+in semidiametrum multiplica, et productum per radicem
+inventam divide. — Quod ex alterutra operatione tibi
+provenerit, in arcum converte; arcus erit portio graduum
+ad anomaliam qua usus es pertinens, scilicet aequatio
+stellae ({\itshape f}).
+
+\A{AB01-PDF0137-P03}
+Semidiametrus epicycli Solis est $2^{p}4'45''$\NM{1};
+semidiametrus epicycli Lunae $5^{p}15'$\NM{2};
+Saturni $6^{p}29'50''$\NM{3}; Iovis $11^{p}30'0''$\NM{4};
+Martis $39^{p}27'22''$\NM{5}; Veneris $43^{p}9'0''$\NM{6};
+Mercurii $22^{p}30'30''$\NM{7}.
+Hoc ex observationibus patuit et cum calculis congruit;
+idque, volente Deo, est sinus aequationis mediae ({\itshape g}).
+
+\A{AB01-PDF0137-H01}
+\begin{center}
+\textbf{CAPUT XXIX.}\par
+De inaequalitate nychthemerōn et de aliorum in alia conversione.
+\end{center}
+
+\A{AB01-PDF0137-P04}
+Dicit [auctor]: Plurimi homines et vulgus nychthemera
+existimant aequalia esse, et eorum quodque 24 horas amplecti;
+sed hoc haud verum est, nam nychthemerum medium est ortus
+omnium 360 temporum aequatoris ab horizonte vel a circulo
+meridiano, eo addito quod ex aequatoris temporibus ascendit
+cum 59 minutis quae Sol, motu suo medio, in nychthemero
+percurrit. Nychthemerum autem inaequale est ortus 360
+temporum aequatoris, addito motu inaequali Solis in
+nychthemero, qui necessarie minor aut maior est quam $59'$.
+
+\A{AB01-PDF0137-P05}
+Quoniam omni loco initium a circulo horizontis variat prout
+in illo variant ascensiones signorum, initium autem ab hora
+meridiana immobile est neque mutatur, ob aequalitatem
+ascensionum signorum in circulo meridiano quolibet loco,
+in calculo stellarum earumque locorum initium diei non
+ponitur ab ortu vel occasu Solis, sed a tempore meridiei
+aut mediae noctis\NM{8} ({\itshape a}).
+
+\A{AB01-PDF0137-P06}
+Item quoniam omnes motus stellarum in tabulis nonnisi ad
+aequales dies supputantur, differentia inter nychthemera
+inaequalia et nychthemera media negligitur. In motu Solis
+et reliquarum stellarum differentia tanta non est ut
+errorem sensibilem gignat; sed error mani-
+
+% Sentence continues on PDF138 / printed page 49.
+% The missing continuation is not supplied here.
+
+\begin{multicols}{2}
+\footnotesize
+
+\A{AB01-PDF0137-N01}
+\NN{1}{Cod. $5'$ pro $4'$.}
+
+\A{AB01-PDF0137-N02}
+\NN{2}{Gradus in cod. $6^\circ$.}
+
+\A{AB01-PDF0137-N03}
+\NN{3}{Secundae apud Plat. $7''$.}
+
+\A{AB01-PDF0137-N04}
+\NN{4}{Secundae apud Plat. $5''$.}
+
+\A{AB01-PDF0137-N05}
+\NN{5}{Cod. $19^\circ25'22''$; minuta apud Plat. $55'$.}
+
+\A{AB01-PDF0137-N06}
+\NN{6}{Plat. $44^\circ9'5''$.}
+
+\A{AB01-PDF0137-N07}
+\NN{7}{Gradus in cod. $29^\circ$.}
+
+\A{AB01-PDF0137-N08}
+\NN{8}{\textit{Almag.} III, 8 (ed. Halma, t. I, p. 208).}
+
+\end{multicols}
+
+\end{document}
