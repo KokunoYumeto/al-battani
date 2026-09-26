@@ -39,7 +39,7 @@ It is an independent working edition. Nallino's edition is in the public domain.
 - [TeX source](S02/tex/S02_NALLINO_SOURCE_v002.tex) and [line-anchored text](S02/transcription/S02_NALLINO_SOURCE_v002.txt)
 - [About this batch](S02/README.md)
 
-Releases are archived on Zenodo under concept DOI [10.5281/zenodo.20539593](https://doi.org/10.5281/zenodo.20539593). The latest version, [10.5281/zenodo.22970148](https://doi.org/10.5281/zenodo.22970148), adds S02 v002 (files 60–63) and keeps S01 v003 (files 50–53, first published in [10.5281/zenodo.22953314](https://doi.org/10.5281/zenodo.22953314)). v002 is in version [10.5281/zenodo.22951891](https://doi.org/10.5281/zenodo.22951891) and in `S01/history/v002/`.
+Releases are archived on Zenodo under concept DOI [10.5281/zenodo.20539593](https://doi.org/10.5281/zenodo.20539593). The latest version, [10.5281/zenodo.22983296](https://doi.org/10.5281/zenodo.22983296), adds the S02 v009 candidate, printed pp. 1–53 (files 70–73). It keeps S02 v002 (files 60–63, first published in [10.5281/zenodo.22970148](https://doi.org/10.5281/zenodo.22970148)) and S01 v003 (files 50–53, first published in [10.5281/zenodo.22953314](https://doi.org/10.5281/zenodo.22953314)). v002 is in version [10.5281/zenodo.22951891](https://doi.org/10.5281/zenodo.22951891) and in `S01/history/v002/`.
 
 The project rules and the 16 session prompts are in [S01/controls/](S01/controls/). Two things are not in this repository: the intermediate QA proof images and the recovered interrupted-reread evidence (452 files, about 153 MB). They stay in the archived S01 package, which is Zenodo file 53. Likewise, S02's reading renders of the source pages (`qa/source/`, 28 files) are only in the archived S02 package.
 
