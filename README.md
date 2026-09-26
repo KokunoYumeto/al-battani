@@ -1,6 +1,6 @@
 # al-Battānī — source edition (work in progress)
 
-This is a source-faithful digital edition of the works of Abū ʿAbd Allāh Muḥammad ibn Jābir al-Battānī (d. 929). It starts with his astronomical handbook *al-Zīj al-Ṣābiʾ* as edited by C. A. Nallino in *Al-Battānī sive Albatenii opus astronomicum* (Milan, 1899–1907; three parts, 1,162 scanned pages).
+This is a source-faithful digital edition of the works of Abū ʿAbd Allāh Muḥammad ibn Jābir al-Battānī (d. 929). It starts with the astronomical handbook *al-Zīj al-Ṣābiʾ* as edited by C. A. Nallino in *Al-Battānī sive Albatenii opus astronomicum* (Milan, 1899–1907; three parts, 1,162 scanned pages).
 
 It is an independent working edition. Nallino's edition is in the public domain. The transcriptions, markup and checks here are AI-assisted and still in progress.
 
