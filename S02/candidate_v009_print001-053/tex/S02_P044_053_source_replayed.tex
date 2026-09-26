@@ -1,0 +1,796 @@
+\documentclass[11pt]{article}
+\usepackage[paperwidth=220mm,paperheight=320mm,left=16mm,right=16mm,top=18mm,bottom=18mm,headheight=16pt,headsep=10pt,footskip=14pt]{geometry}
+\usepackage{fix-cm}
+\usepackage{fontspec,amsmath,amssymb,graphicx,array}
+\usepackage[unicode,hidelinks]{hyperref}
+\usepackage{polyglossia}
+\setmainlanguage{latin}
+\setotherlanguages{arabic,greek}
+\setmainfont{Linux Libertine O}[Ligatures=TeX]
+\newfontfamily\greekfont{FreeSerif}[Script=Greek]
+\newfontfamily\arabicfont{Amiri}[Script=Arabic]
+\graphicspath{{../source/presentation/}}
+\hypersetup{pdftitle={Al-Battani, Opus astronomicum. Nallino Latin source. S02 v009},pdfauthor={Al-Battani; Carlo Alfonso Nallino (Latin translation and notes)}}
+\makeatletter
+\def\ps@sourceedition{%
+\def\@oddhead{\vbox{\hbox to\textwidth{\fontsize{8}{10}\selectfont C. A. NALLINO — VERSIO ET ADNOTATIONES\hfil\leftmark}\vskip3pt\hrule height.25pt}}%
+\let\@evenhead\@oddhead
+\def\@oddfoot{\hbox to\textwidth{\fontsize{7}{9}\selectfont\rightmark\hfil\thepage}}%
+\let\@evenfoot\@oddfoot}
+\makeatother
+\pagestyle{sourceedition}
+\setlength{\parindent}{0pt}\setlength{\parskip}{0pt}
+\newcommand{\sourceglyph}[1]{\raisebox{-.17em}{\includegraphics[height=1.23em]{#1.png}}}
+\newsavebox{\sourcelinebox}
+\newcommand{\SourceLine}[2]{\sbox{\sourcelinebox}{\strut #2}%
+\ifdim\wd\sourcelinebox>\linewidth\typeout{SOURCEWIDTH|#1|\the\wd\sourcelinebox|\the\linewidth}\fi%
+\noindent\hypertarget{#1}{}#2\strut\par}
+\newcommand{\BeginSource}[2]{\clearpage\markboth{PAG. #2}{#1}\hypertarget{#1}{}\pdfbookmark[0]{#1 — p. #2}{bk-#1}\fontsize{11.1}{13.8}\selectfont}
+\tracinglostchars=2
+
+\newcommand{\qfrac}[2]{{}^{#1}\!/_{{#2}}}
+\newcommand{\Name}[1]{{\addfontfeatures{LetterSpace=4.0}#1}}
+\newcommand{\Indent}{\hspace*{1.6em}}
+\newcommand{\CenterLine}[1]{\makebox[\linewidth][c]{{\fontsize{12}{15}\selectfont #1}}}
+\newlength{\FullSourceWidth}\newlength{\GutterOffset}\newif\ifNumbersLeft
+\newcommand{\DSource}[2]{\BeginSource{AB01-PDF#1}{#2}%
+ \setlength{\FullSourceWidth}{\textwidth}\setlength{\GutterOffset}{0pt}%
+ \ifodd#2\relax\NumbersLefttrue\else\NumbersLeftfalse\fi}
+\newsavebox{\DLBox}
+\newcommand{\DLine}[4]{%
+ \par\noindent\hypertarget{#1}{}%
+ \ifx\relax#2\relax\else
+   \ifNumbersLeft
+    \rlap{\kern-\GutterOffset\llap{\fontsize{7}{8}\selectfont #2\hspace{3mm}}}%
+   \else
+    \rlap{\kern\dimexpr\FullSourceWidth-\GutterOffset\relax\hspace{3mm}{\fontsize{7}{8}\selectfont #2}}%
+   \fi
+ \fi
+ \ifx\relax#3\relax\else
+   \ifNumbersLeft
+    \rlap{\kern\dimexpr\FullSourceWidth-\GutterOffset\relax\hspace{3mm}{\fontsize{7}{8}\selectfont #3}}%
+   \else
+    \rlap{\kern-\GutterOffset\llap{\fontsize{7}{8}\selectfont #3\hspace{3mm}}}%
+   \fi
+ \fi
+ \sbox{\DLBox}{\strut #4}%
+ \ifdim\wd\DLBox>\linewidth\typeout{DIPLOMATICWIDTH|#1|\the\wd\DLBox|\the\linewidth}\fi
+ \usebox{\DLBox}\strut\par}
+
+\begin{document}
+\setcounter{page}{44}
+\DSource{0133}{44}
+\hypertarget{AB01-PDF0133-P01}{}
+\DLine{AB01-PDF0133-body-L001}{}{}{partem quam Sol medio suo itinere ab initio Arietis ad initium Librae percurrit, scilicet, ut}
+\DLine{AB01-PDF0133-body-L002}{}{}{supra vidimus, $183^\circ56'12''$. Arcus KLRM, semicircumferentia excentrici, $180^\circ$ continet; quis-}
+\DLine{AB01-PDF0133-body-L003}{}{}{que igitur arcuum PK, YM est dimidia pars eorum $3^\circ56'12''$, quibus Sol medio suo itinere}
+\DLine{AB01-PDF0133-body-L004}{}{}{$180^\circ$ superat, idest $1^\circ58'6''$. --- Manifestum etiam est arcum PKLR (1) excentrici id esse quod}
+\DLine{AB01-PDF0133-body-L005}{5}{}{Sol, medio suo itinere, ab initio Arietis ad initium Cancri percurrit; igitur $92^\circ14'10''$ erit;}
+\DLine{AB01-PDF0133-body-L006}{}{}{et quia arcus PKL, ob ea quae nuper diximus, $91^\circ58'6''$ complectitur, arcus LR $0^\circ16'4''$}
+\DLine{AB01-PDF0133-body-L007}{}{}{continebit. Item manifestum est perpendicularem PQ sinum esse arcus PK, et perpendicula-}
+\DLine{AB01-PDF0133-body-L008}{}{}{rem RG sinum arcus LR; igitur PQ fere $2^p3'39''$, et RG fere $0^p16'45''$ erit. Quoniam}
+\DLine{AB01-PDF0133-body-L009}{}{}{linea KM parallela est lineae AC, erit linea ES aequalis PQ; et similiter, quia LN parallela}
+\DLine{AB01-PDF0133-body-L010}{10}{}{est lineae BD, erit FS aequalis RG. Est itaque etiam latus EF trianguli rectanguli ESF no-}
+\DLine{AB01-PDF0133-body-L011}{}{}{tum; quadratum lateris ES est fere $4^p14'48''$, quadratum lateris FS fere $0^p4'41''$, summa}
+\DLine{AB01-PDF0133-body-L012}{}{}{igitur $4^p19'29''$ (2) efficit quadratum lateris EF, cuius radix $2^p4'\,\qfrac{3}{4}$ est quantitas lineae EF}
+\DLine{AB01-PDF0133-body-L013}{}{}{ambo centra coniungentis. Ea ratione autem, qua quadrans circuli triangulum rectangulum}
+\DLine{AB01-PDF0133-body-L014}{}{}{ESF circumdantis $90^\circ$ complectitur, et semidiametrus $60^p$, erit arcus EF circiter $1^\circ59'$ (3); et}
+\DLine{AB01-PDF0133-body-L015}{15}{}{haec est maxima anomalia motus Solis per has observationes manifesta ({\itshape b}).}
+\hypertarget{AB01-PDF0133-P02}{}
+\DLine{AB01-PDF0133-body-L016}{}{}{\Indent Nunc in quantitatem arcus BH eclipticae inquiramus; qua cognita, etiam arcus HA reli-}
+\DLine{AB01-PDF0133-body-L017}{}{p. 67.}{quus notus erit. Punctum T est locus apogei in circulo Solis excentrico; nam, si lineam EF,}
+\DLine{AB01-PDF0133-body-L018}{}{}{ambo centra coniungentem, usque ad eclipticam producimus, ipsa circulum KLMN in T, et}
+\DLine{AB01-PDF0133-body-L019}{}{}{circulum eclipticae in H secat. Necesse est ut rationem lineae EF ad semidiametrum EH co-}
+\DLine{AB01-PDF0133-body-L020}{20}{}{gnoscamus, nec non quantitatem arcus BH eclipticae. Iam vidimus lineam EF $2^p4'\,\qfrac{3}{4}$ com-}
+\DLine{AB01-PDF0133-body-L021}{}{}{plecti ea ratione qua semidiametrus $60^p$ continet; eadem ratione igitur linea EH, quae, ut EB,}
+\DLine{AB01-PDF0133-body-L022}{}{}{semidiametrus est, lineam EF 28 vicibus et $\qfrac{5}{6}$ fere continebit. Quoniam linea FS, ut dixi-}
+\DLine{AB01-PDF0133-body-L023}{}{}{mus, [$0^p16'45''$] est, si linea EF $60^p$ ponatur, erit iuxta hanc rationem linea FS circiter $8^p4'$;}
+\par\noindent\begin{minipage}[t]{0.46\FullSourceWidth}\vspace{0pt}\centering\hypertarget{AB01-PDF0133-F01}{}\includegraphics[width=\linewidth]{AB01-PDF0133-F01.png}\end{minipage}\hfill\begin{minipage}[t]{0.5\FullSourceWidth}\vspace{0pt}\setlength{\GutterOffset}{0.5\FullSourceWidth}
+\DLine{AB01-PDF0133-body-L024}{}{}{hoc enim invenitur si $28\,\qfrac{5}{6}$ vicibus [$0^p16'45''$]}
+\DLine{AB01-PDF0133-body-L025}{25}{}{multiplicantur. --- Aut, si mavis, lineam FS in}
+\DLine{AB01-PDF0133-body-L026}{}{}{semidiametrum EH multiplica; invenies $16^p45'$,}
+\DLine{AB01-PDF0133-body-L027}{}{}{quae, per lineam EF scilicet per $2^p4'\,\qfrac{3}{4}$ divisa,}
+\DLine{AB01-PDF0133-body-L028}{}{}{dabunt $8^p4'$, quod est [sinus] anguli BEH; ar-}
+\DLine{AB01-PDF0133-body-L029}{}{}{cus igitur BH $7^\circ43'$ circiter continet. Itaque}
+\DLine{AB01-PDF0133-body-L030}{30}{}{manifestum est punctum T apogei in excentrico,}
+\DLine{AB01-PDF0133-body-L031}{}{}{a puncto solstitii aestivi versus partem anterio-}
+\DLine{AB01-PDF0133-body-L032}{}{}{rem signorum $7^\circ43'$ distare, scilicet $82^\circ17'$ ab}
+\DLine{AB01-PDF0133-body-L033}{}{}{initio Arietis esse. Hoc invenire volebamus. Ob-}
+\DLine{AB01-PDF0133-body-L034}{}{}{servatio iuxta quam hunc calculum fecimus,}
+\DLine{AB01-PDF0133-body-L035}{35}{}{anno 1194 aerae Dhū ’l-qarnayn (4) fuit, quo}
+\DLine{AB01-PDF0133-body-L036}{}{}{iter Solis ab initio Arietis ad initium Cancri et}
+\DLine{AB01-PDF0133-body-L037}{}{}{ad initium Librae observavimus ({\itshape c}).}
+\hypertarget{AB01-PDF0133-P03}{}
+\DLine{AB01-PDF0133-body-L038}{}{}{\Indent Restat nunc nobis ut hanc anomaliam ad}\end{minipage}\par
+\DLine{AB01-PDF0133-body-L039}{}{}{gradus eclipticae distribuamus, et portiones eius quae ad singulos gradus pertinent in tabulis}
+\par\vspace{6pt}\hrule height.25pt\vspace{5pt}
+\noindent\begin{minipage}[t]{.48\textwidth}\vspace{0pt}\fontsize{9}{11.5}\selectfont\setlength{\GutterOffset}{0pt}
+\hypertarget{AB01-PDF0133-N01}{}
+\DLine{AB01-PDF0133-notes_left-L001}{}{}{\Indent (1) Male codex PKL.}
+\hypertarget{AB01-PDF0133-N02}{}
+\DLine{AB01-PDF0133-notes_left-L002}{}{}{\Indent (2) Male secundae apud Platonem $59''$.}
+\hypertarget{AB01-PDF0133-N03}{}
+\DLine{AB01-PDF0133-notes_left-L003}{}{}{\Indent (3) Plato male $1^\circ58'$; \Name{Ibn Yūnus} (apud \Name{Caus-}}
+\DLine{AB01-PDF0133-notes_left-L004}{}{}{\Name{sin}, {\itshape Le livre de la grande table Hakémite}, in}
+\DLine{AB01-PDF0133-notes_left-L005}{}{}{Notices et extraits des mss. de la Bibl. Nation., t. VII,}
+\DLine{AB01-PDF0133-notes_left-L006}{}{}{Paris 1804, p. 155) scribit: « al-Battānī aequationem}
+\DLine{AB01-PDF0133-notes_left-L007}{}{}{« totam Solis calculavit, invenitque $1^\circ59'10''$ esse ».}
+\end{minipage}
+\hfill\begin{minipage}[t]{.48\textwidth}\vspace{0pt}\fontsize{9}{11.5}\selectfont\setlength{\GutterOffset}{0pt}
+\DLine{AB01-PDF0133-notes_right-L001}{}{}{\Name{Halley} p. 917, et \Name{Delambre}, {\itshape Astr. moyen âge},}
+\DLine{AB01-PDF0133-notes_right-L002}{}{}{p. 36, qui hodiernis tabulis trigonometricis usi sunt,}
+\DLine{AB01-PDF0133-notes_right-L003}{}{}{invenere quoque $1^\circ59'10''$. Codicis lectio igitur bona}
+\DLine{AB01-PDF0133-notes_right-L004}{}{}{est; in tabulis aequationis Solis (fol. 191,r.) re vera}
+\DLine{AB01-PDF0133-notes_right-L005}{}{}{maxima aequatio est $1^\circ59'10''$.}
+\hypertarget{AB01-PDF0133-N04}{}
+\DLine{AB01-PDF0133-notes_right-L006}{}{}{\Indent (4) Incipit, iuxta usum auctoris nostri, die 1 Se-}
+\DLine{AB01-PDF0133-notes_right-L007}{}{}{ptembris 882 post Chr. n.}
+\end{minipage}
+
+\DSource{0134}{45}
+\hypertarget{AB01-PDF0134-P01}{}
+\DLine{AB01-PDF0134-body-L001}{}{}{describamus, ut facile possit aequatio motus Solis inveniri. Ostendit Ptolemaeus (1) motus va-}
+\DLine{AB01-PDF0134-body-L002}{}{p. 68.}{rios duobus modis effingi posse; quorum alter est ut ponatur planetam habere circulum eclip-}
+\DLine{AB01-PDF0134-body-L003}{}{}{ticae concentricum, super quem alius circulus sit, cuius centrum circumferentiam primi per-}
+\DLine{AB01-PDF0134-body-L004}{}{}{currat. Hic secundus circulus est circulus minor, Terram non ambiens, cuius centrum circulus}
+\DLine{AB01-PDF0134-body-L005}{5}{}{maior rotare facit versus partem successionis signorum iuxta quantitatem motus longitudinalis}
+\DLine{AB01-PDF0134-body-L006}{}{}{planetae versus partem in quam signa succedunt. Sidus ipsum in epicyclo, qui est circulus}
+\DLine{AB01-PDF0134-body-L007}{}{}{minor, versus praecedentem aut versus subsequentem partem movetur; aut circulus minor}
+\DLine{AB01-PDF0134-body-L008}{}{}{planetam versus alterutram partem rotare facit. Hic est motus anomaliae quae ad planetam}
+\DLine{AB01-PDF0134-body-L009}{}{}{pertinet. --- Alter explicandi modus est ut ponatur sidus habere circulum concentricum ecli-}
+\DLine{AB01-PDF0134-body-L010}{10}{}{pticae, et alterum excentricum sed illi aequalem, qui eum duobus locis secet Planeta est in}
+\DLine{AB01-PDF0134-body-L011}{}{}{excentrico, sive hic eum movet, sive ipse in excentrico movetur. --- Utraque ratio anomaliam}
+\DLine{AB01-PDF0134-body-L012}{}{}{pariter explicat; nos a prima incipiemus.}
+\hypertarget{AB01-PDF0134-P02}{}
+\DLine{AB01-PDF0134-body-L013}{}{}{\Indent Circulum ABCD eclipticae circa centrum E describamus; sit A, initio, centrum epicycli}
+\DLine{AB01-PDF0134-body-L014}{}{}{HF (2). Diametrum AC usque ad H producamus, quod est punctum apogei in epicyclo; sit F}
+\DLine{AB01-PDF0134-body-L015}{15}{}{locus Solis in epicyclo, et ab eo perpendicularem supra lineam AH usque ad punctum M du-}
+\DLine{AB01-PDF0134-body-L016}{}{}{camus; denique lineam AF signemus, lineae AH aequalem, nam ambae sunt semidiametri}
+\DLine{AB01-PDF0134-body-L017}{}{}{epicycli. Ob ea quae in hoc ipso capite iam diximus, patet eam $2^p4'\,\qfrac{3}{4}$ complecti, ut semi-}
+\DLine{AB01-PDF0134-body-L018}{}{}{diametrum EF epicycli in figura praecedenti. Quo cognito, motum Solis in epicyclo versus}
+\DLine{AB01-PDF0134-body-L019}{}{}{partem contrariam successioni signorum observa, vel quantitatem qua epicyclus motu medio}
+\DLine{AB01-PDF0134-body-L020}{20}{}{diurno Solem versus illam partem movet, iuxta rationem qua circumferentia epicycli in $360^\circ$}
+\DLine{AB01-PDF0134-body-L021}{}{}{dividitur. Motus medius Solis, qui observationibus invenitur, est motus centri epicycli versus}
+\DLine{AB01-PDF0134-body-L022}{}{p. 69.}{partem successionis signorum; et hic motus quoque ea ratione ponitur qua circulus ABCD}
+\DLine{AB01-PDF0134-body-L023}{}{}{$360^\circ$ complectitur.}
+\hypertarget{AB01-PDF0134-P03}{}
+\DLine{AB01-PDF0134-body-L024}{}{}{\Indent Arcus HF, qui est arcus epicycli inter locum Solis et punctum apogei, $30^\circ$ contineat e}
+\DLine{AB01-PDF0134-body-L025}{25}{}{gradibus quorum epicyclus 360 continet. Lineam EF in hac figura ducamus; et in arcum}
+\DLine{AB01-PDF0134-body-L026}{}{}{lineae FM, qui est variatio motus Solis eo loco, inquiramus. Linea EA, semidiametrus circuli}
+\DLine{AB01-PDF0134-body-L027}{}{}{concentrici eclipticae, 60 partes habet ex iis quarum diametrus AC 120 continet; linea igitur}
+\DLine{AB01-PDF0134-body-L028}{}{}{EH, quae centrum circuli parecliptici (3) cum apogeo epicycli coniungit, $62^p4'45''$ erit. Et}
+\DLine{AB01-PDF0134-body-L029}{}{}{quia triangulum FMA est rectangulum, quadratum lineae AF erit ut summa quadratorum}
+\DLine{AB01-PDF0134-body-L030}{30}{}{AM, FM; angulus autem MAF (4) notus est, ergo etiam linea FM est nota, a qua deinde co-}
+\par\vspace{6pt}\hrule height.25pt\vspace{5pt}
+\noindent\begin{minipage}[t]{.48\textwidth}\vspace{0pt}\fontsize{9}{11.5}\selectfont\setlength{\GutterOffset}{0pt}
+\hypertarget{AB01-PDF0134-N01}{}
+\DLine{AB01-PDF0134-notes_left-L001}{}{}{\Indent (1) {\itshape Almag.} III, 3, 4 et 5 (ed. Halma, t. I, p. 170-}
+\DLine{AB01-PDF0134-notes_left-L002}{}{}{-183, 183--190, 190--199); quoad Solem tamen hypo-}
+\DLine{AB01-PDF0134-notes_left-L003}{}{}{thesim excentrici commodiorem censet.}
+\hypertarget{AB01-PDF0134-N02}{}
+\DLine{AB01-PDF0134-notes_left-L004}{}{}{\Indent (2) Cod. et Plato HFT; in eorum figura enim}
+\DLine{AB01-PDF0134-notes_left-L005}{}{}{punctum T ponitur loco intersectionis epicycli et}
+\DLine{AB01-PDF0134-notes_left-L006}{}{}{circuli magni, inter A et D. Sed ex iis quae sequun-}
+\DLine{AB01-PDF0134-notes_left-L007}{}{}{tur patet T esse punctum circuli magni indicans di-}
+\DLine{AB01-PDF0134-notes_left-L008}{}{}{rectionem apogei.}
+\hypertarget{AB01-PDF0134-N03}{}
+\DLine{AB01-PDF0134-notes_left-L009}{}{}{\Indent (3) Scilicet paralleli seu concentrici eclipticae.}
+\DLine{AB01-PDF0134-notes_left-L010}{}{}{Cum nullum habeat nomen apud scriptores nostra-}
+\DLine{AB01-PDF0134-notes_left-L011}{}{}{tes, ita verto Arabicum {\itshape al-mumaththal bi falak}}
+\DLine{AB01-PDF0134-notes_left-L012}{}{}{{\itshape al-burūǵ} « similem factum eclipticae » seu {\itshape al-mu-}}
+\DLine{AB01-PDF0134-notes_left-L013}{}{}{{\itshape maththal} tantum, qui apud Ptolemaeum interdum}
+\DLine{AB01-PDF0134-notes_left-L014}{}{}{\textgreek{ὁ ὁμόκεντρος τῷ κόσμῳ κύκλος} « circulus mundo con-}
+\DLine{AB01-PDF0134-notes_left-L015}{}{}{« centricus » vel \textgreek{ὁ ὁμόκεντρος τῷ διὰ μέσων τῶν ζω-}}
+\DLine{AB01-PDF0134-notes_left-L016}{}{}{\textgreek{δίων κύκλος} « circulus concentricus circulo per me-}
+\end{minipage}
+\hfill\begin{minipage}[t]{.48\textwidth}\vspace{0pt}\fontsize{9}{11.5}\selectfont\setlength{\GutterOffset}{0pt}
+\DLine{AB01-PDF0134-notes_right-L001}{}{}{dium signorum transeunti » (i. e. eclipticae) vocatur.}
+\DLine{AB01-PDF0134-notes_right-L002}{}{}{In astronomia Syriaca Barhebraei vertenda, \Name{Nau}}
+\DLine{AB01-PDF0134-notes_right-L003}{}{}{eum {\itshape intersphère de la similitude} appellat; \Name{Golius},}
+\DLine{AB01-PDF0134-notes_right-L004}{}{}{in versione al-Farghānī, et \Name{Sédillot}, in versione}
+\DLine{AB01-PDF0134-notes_right-L005}{}{}{Ulugh Beg, {\itshape sphaeram} vel {\itshape circulum homocentri-}}
+\DLine{AB01-PDF0134-notes_right-L006}{}{}{{\itshape cum}. --- Est circulus concentricus eclipticae in cuius}
+\DLine{AB01-PDF0134-notes_right-L007}{}{}{plano iacet; descriptus est in superficie sphaerae}
+\DLine{AB01-PDF0134-notes_right-L008}{}{}{Solis vel planetarum, {\itshape al-mumaththal} quoque vo-}
+\DLine{AB01-PDF0134-notes_right-L009}{}{}{cata, quae est corpus solidum, concentricum eclip-}
+\DLine{AB01-PDF0134-notes_right-L010}{}{}{ticae, duabus superficiebus parallelis contentum, qua-}
+\DLine{AB01-PDF0134-notes_right-L011}{}{}{rum exterior superficiem exteriorem sphaerae circuli}
+\DLine{AB01-PDF0134-notes_right-L012}{}{}{excentrici (deferentis) in puncto apogeo excentrici}
+\DLine{AB01-PDF0134-notes_right-L013}{}{}{tangit; interior superficiem interiorem sphaerae ex-}
+\DLine{AB01-PDF0134-notes_right-L014}{}{}{centrici in perigeo. --- Movetur ut signa zodiaci ob}
+\DLine{AB01-PDF0134-notes_right-L015}{}{}{praecessionem moventur, ab ortu ad occasum.}
+\hypertarget{AB01-PDF0134-N04}{}
+\DLine{AB01-PDF0134-notes_right-L016}{}{}{\Indent (4) Cod. HEF.}
+\end{minipage}
+
+\DSource{0135}{46}
+\hypertarget{AB01-PDF0135-P01}{}
+\DLine{AB01-PDF0135-body-L001}{}{}{gnoscitur reliquum latus AM trianguli, quod est [cosinus] arcus FH et anguli FAH (1). Igi-}
+\DLine{AB01-PDF0135-body-L002}{}{}{tur est etiam linea EM nota. Cum triangulum FME rectangulum sit, eius hypotenusa EF}
+\DLine{AB01-PDF0135-body-L003}{}{}{cognoscitur, ex qua linea FM deprehenditur; arcus autem super FM est arcus anomaliae.}
+\hypertarget{AB01-PDF0135-P02}{}
+\DLine{AB01-PDF0135-body-L004}{}{}{\Indent Si, ut posuimus, arcus FH $30^\circ$ complectitur, eius sinus erit 30 partium, e partibus qua-}
+\DLine{AB01-PDF0135-body-L005}{5}{}{rum semidiametrus AF 60 continet; sed ea ratione qua linea AF $2^p4'45''$ complectitur, erit}
+\DLine{AB01-PDF0135-body-L006}{}{}{linea FM $1^p2'22''\,\qfrac{1}{2}$ (2), reliqua igitur AM $1^p48'2''$, et linea EM (3) $61^p48'2''$ (4); unde}
+\DLine{AB01-PDF0135-body-L007}{}{}{patet [lineam EF] $61^p48'35''$ circiter esse ({\itshape d}). Sed ex partibus quarum linea EF 60 tantum}
+\DLine{AB01-PDF0135-body-L008}{}{}{habet, linea FM $1^p0'33''$ (5) continebit, et arcus super eam positus $0^\circ57'49''$ circiter; et}
+\DLine{AB01-PDF0135-body-L009}{}{}{haec est quantitas anomaliae motus Solis, scilicet arcus HF. Est igitur arcus TA eclipticae}
+\DLine{AB01-PDF0135-body-L010}{10}{}{$29^\circ2'11''$, qui antea $30^\circ$ erat; nam epicycli centrum a T ad A motum est ut Sol in epicyclo}
+\DLine{AB01-PDF0135-body-L011}{}{}{a H ad F.}
+\hypertarget{AB01-PDF0135-P03}{}
+\DLine{AB01-PDF0135-body-L012}{}{}{\Indent Nunc epicyclum GQP consideremus, cuius centrum est B; locum Solis G ponamus, sit-}
+\DLine{AB01-PDF0135-body-L013}{}{p. 70.}{que arcus QG (6), quem Sol a puncto Q apogei percurrit, $150^\circ$ (7); remanent igitur $30^\circ$ arcui}
+\DLine{AB01-PDF0135-body-L014}{}{}{PG, qui a loco Solis ad punctum perigei porrigitur. Lineam EG et perpendicularem GK du-}
+\DLine{AB01-PDF0135-body-L015}{15}{}{camus; patet triangula BKG et GKE rectangula esse, et latera BG, BE haud ignota; nam}
+\DLine{AB01-PDF0135-body-L016}{}{}{BG est semidiametrus epicycli (8), et BE semidiametrus circuli eclipticae. Angulus et arcus}
+\DLine{AB01-PDF0135-body-L017}{}{}{GP dati sunt; perpendicularis GK et reliqua linea BK notae; [ergo etiam lineae KE et EG}
+\par\noindent\begin{minipage}[t]{0.49\FullSourceWidth}\vspace{0pt}\centering\hypertarget{AB01-PDF0135-F01}{}\includegraphics[width=\linewidth]{AB01-PDF0135-F01.png}\end{minipage}\hfill\begin{minipage}[t]{0.465\FullSourceWidth}\vspace{0pt}\setlength{\GutterOffset}{0.5349999999999999\FullSourceWidth}
+\DLine{AB01-PDF0135-body-L018}{}{}{cognoscuntur] (9). Cum arcus GP, ut posui-}
+\DLine{AB01-PDF0135-body-L019}{}{}{mus, $30^\circ$ contineat, eius sinus quoque $30^p$}
+\DLine{AB01-PDF0135-body-L020}{20}{}{erit; arcus autem complementaris, qui su-}
+\DLine{AB01-PDF0135-body-L021}{}{}{per KB est, sinum habebit $51^p57'41''$ (10).}
+\DLine{AB01-PDF0135-body-L022}{}{}{--- At ex partibus quarum linea BG $2^p4'\,\qfrac{3}{4}$}
+\DLine{AB01-PDF0135-body-L023}{}{}{habet, perpendicularis KG $1^p2'22''\,\qfrac{1}{2}$ (11)}
+\DLine{AB01-PDF0135-body-L024}{}{}{continebit; remanet linea KB $1^p48'2''$, qua}
+\DLine{AB01-PDF0135-body-L025}{25}{}{re EK fere $58^p11'58''$, et EG fere $58^p12'$}
+\DLine{AB01-PDF0135-body-L026}{}{}{$34''$ (12) continebit ({\itshape e}). Sed ex partibus qua-}
+\DLine{AB01-PDF0135-body-L027}{}{}{rum EG 60 habet, cathetus KG $1^p4'17''$ (13)}
+\DLine{AB01-PDF0135-body-L028}{}{}{complectetur, et arcus super eam positus}
+\DLine{AB01-PDF0135-body-L029}{}{}{$1^\circ1'24''$ (14), iuxta rationem qua circulus}
+\DLine{AB01-PDF0135-body-L030}{30}{}{triangulum rectangulum BKG circumdans}
+\DLine{AB01-PDF0135-body-L031}{}{}{in $360^\circ$ dividitur. Et hic est arcus anoma-}
+\DLine{AB01-PDF0135-body-L032}{}{}{liae, scilicet arcus PG. Qua re arcus NB (15)}
+\DLine{AB01-PDF0135-body-L033}{}{}{eclipticae, quem cognoscere volebamus, $31^\circ$}\end{minipage}\par
+\DLine{AB01-PDF0135-body-L034}{}{}{$1'24''$ (16) complectetur.}
+\par\vspace{6pt}\hrule height.25pt\vspace{5pt}
+\noindent\begin{minipage}[t]{.48\textwidth}\vspace{0pt}\fontsize{9}{11.5}\selectfont\setlength{\GutterOffset}{0pt}
+\hypertarget{AB01-PDF0135-N01}{}
+\DLine{AB01-PDF0135-notes_left-L001}{}{}{\Indent (1) Cod.: « quod est quod angulo FAH et arcui}
+\DLine{AB01-PDF0135-notes_left-L002}{}{}{« FH deest ad quadrantem perficiendum ».}
+\hypertarget{AB01-PDF0135-N02}{}
+\DLine{AB01-PDF0135-notes_left-L003}{}{}{\Indent (2) Pro $22''$ Plato habet $55''$. Persaepe in Pla-}
+\DLine{AB01-PDF0135-notes_left-L004}{}{}{tonis editione pro 2 legitur 5, qui error codicibus}
+\DLine{AB01-PDF0135-notes_left-L005}{}{}{Latinis vel editoris incuriae tribuendus est.}
+\hypertarget{AB01-PDF0135-N03}{}
+\DLine{AB01-PDF0135-notes_left-L006}{}{}{\Indent (3) Codex EF.}
+\hypertarget{AB01-PDF0135-N04}{}
+\DLine{AB01-PDF0135-notes_left-L007}{}{}{\Indent (4) Plato verba seqq. omittit et pro $2''$ habet $35''$.}
+\hypertarget{AB01-PDF0135-N05}{}
+\DLine{AB01-PDF0135-notes_left-L008}{}{}{\Indent (5) Plato $1^\circ33'$.}
+\hypertarget{AB01-PDF0135-N06}{}
+\DLine{AB01-PDF0135-notes_left-L009}{}{}{\Indent (6) Cod. QM.}
+\hypertarget{AB01-PDF0135-N07}{}
+\DLine{AB01-PDF0135-notes_left-L010}{}{}{\Indent (7) Male Plato 120.}
+\hypertarget{AB01-PDF0135-N08}{}
+\DLine{AB01-PDF0135-notes_left-L011}{}{}{\Indent (8) Cod.: eclipticae.}
+\hypertarget{AB01-PDF0135-N09}{}
+\DLine{AB01-PDF0135-notes_left-L012}{}{}{\Indent (9) Addidi, Platonem sequens; sed additio non}
+\DLine{AB01-PDF0135-notes_left-L013}{}{}{est necessaria.}
+\end{minipage}
+\hfill\begin{minipage}[t]{.48\textwidth}\vspace{0pt}\fontsize{9}{11.5}\selectfont\setlength{\GutterOffset}{0pt}
+\hypertarget{AB01-PDF0135-N10}{}
+\DLine{AB01-PDF0135-notes_right-L001}{}{}{\Indent (10) Partes apud Plat. $59^p$.}
+\hypertarget{AB01-PDF0135-N11}{}
+\DLine{AB01-PDF0135-notes_right-L002}{}{}{\Indent (11) Deest $\qfrac{1}{2}$ in cod.; Plato pro $22''$ habet $55''$}
+\DLine{AB01-PDF0135-notes_right-L003}{}{}{(cfr. adnot. 2).}
+\hypertarget{AB01-PDF0135-N12}{}
+\DLine{AB01-PDF0135-notes_right-L004}{}{}{\Indent (12) Plato $58^p7'34''$.}
+\hypertarget{AB01-PDF0135-N13}{}
+\DLine{AB01-PDF0135-notes_right-L005}{}{}{\Indent (13) Secundae apud Platonem $13''$.}
+\hypertarget{AB01-PDF0135-N14}{}
+\DLine{AB01-PDF0135-notes_right-L006}{}{}{\Indent (14) Plato $1^p4'54''$.}
+\hypertarget{AB01-PDF0135-N15}{}
+\DLine{AB01-PDF0135-notes_right-L007}{}{}{\Indent (15) Cod. IB (\textarabic{ى} I pro \textarabic{ن} N); Plato GB. In figura}
+\DLine{AB01-PDF0135-notes_right-L008}{}{}{codicis et Platonis punctum N lineaque NT desunt;}
+\DLine{AB01-PDF0135-notes_right-L009}{}{}{punctum T vero, ut supra notavi, perperam prope}
+\DLine{AB01-PDF0135-notes_right-L010}{}{}{locum intersectionis epicycli HF et eclipticae collo-}
+\DLine{AB01-PDF0135-notes_right-L011}{}{}{catum.}
+\hypertarget{AB01-PDF0135-N16}{}
+\DLine{AB01-PDF0135-notes_right-L012}{}{}{\Indent (16) Minuta in cod. $4'$; Plat. $1^\circ4'54''$.}
+\end{minipage}
+
+\DSource{0136}{47}
+\hypertarget{AB01-PDF0136-P01}{}
+\DLine{AB01-PDF0136-body-L001}{}{}{\Indent Dicit [auctor]: Nunc aliter haec explicabimus. Circa centrum E et diametrum AC, sit}
+\DLine{AB01-PDF0136-body-L002}{}{}{circulus eclipticae ABC; circa centrum H, excentricus FMG; et diametrus AC per ambo}
+\DLine{AB01-PDF0136-body-L003}{}{p. 71.}{centra transeat. Erit F punctum apogei in circulo parecliptico, G perigei. Initio locum Solis}
+\DLine{AB01-PDF0136-body-L004}{}{}{in excentrico in M esse ponamus, et arcum FM excentrici, quem Sol iam percurrit, $30^\circ$ com-}
+\DLine{AB01-PDF0136-body-L005}{5}{}{plecti; angulus FHM erit quoque $30^\circ$. Lineam EH, ambo centra coniungentem, iam vidimus}
+\DLine{AB01-PDF0136-body-L006}{}{}{$2^p4'\,\qfrac{3}{4}$ esse. Semidiametrum HM excentrici et lineam EM ducamus, HM usque ad punctum}
+\DLine{AB01-PDF0136-body-L007}{}{}{L quo cum perpendiculari LE convenit protrahentes. Triangulum HLE rectangulum est; eius}
+\DLine{AB01-PDF0136-body-L008}{}{}{angulus LHE aequat angulum datum FHM; arcus super EL, ex circulo triangulum HLE}
+\DLine{AB01-PDF0136-body-L009}{}{}{circumdanti, si circumferentia $360^\circ$ continet, $30^\circ$ complectetur, eiusque sinus $30^p$ quoque ex}
+\DLine{AB01-PDF0136-body-L010}{10}{}{partibus quarum linea HE inter ambo centra 60 habet. Remanebit linea LH, quadrantem per-}
+\DLine{AB01-PDF0136-body-L011}{}{}{ficiens, $51^p57'41''$, nam arcus complementaris LH $60^\circ$ continet. Sed ea ratione qua linea HE}
+\DLine{AB01-PDF0136-body-L012}{}{}{inter ambo centra $2^p4'\,\qfrac{3}{4}$ complectitur, linea EL $1^p2'22''\,\qfrac{1}{2}$ (1) erit, et linea LH, quadran-}
+\DLine{AB01-PDF0136-body-L013}{}{}{tem perficiens, $1^p48'2''$; itaque linea tota LM $61^p48'2''$. Triangulum MLE rectangulum est;}
+\DLine{AB01-PDF0136-body-L014}{}{}{eius hypotenusam EM $61^p48'35''$ esse vidimus. Sed ratione qua lineae EM $60^p$ tribuuntur,}
+\DLine{AB01-PDF0136-body-L015}{15}{}{EL est $1^p33'$ (2), et arcus super eam $0^\circ57'49''$, cum circulus triangulum HLE circumdans}
+\DLine{AB01-PDF0136-body-L016}{}{}{$360^\circ$ sit. Arcus igitur AB eclipticae $29^\circ2'11''$ fere remanebit.}
+\hypertarget{AB01-PDF0136-P02}{}
+\DLine{AB01-PDF0136-body-L017}{}{}{\Indent Item Solem in puncto D excentrici esse ponamus, arcumque FD (3) $150^\circ$ complecti; reli-}
+\DLine{AB01-PDF0136-body-L018}{}{}{quus arcus DG, inter locum Solis et perigeum, $30^\circ$ erit. Lineas EK et HD, quarum utraque}
+\DLine{AB01-PDF0136-body-L019}{}{}{est sui circuli semidiametrus, ducamus; item perpendicularem ES. Triangulum HSE rectan-}
+\DLine{AB01-PDF0136-body-L020}{20}{}{gulum est; latus EH, ambo centra coniungens, latus ES, angulus DHG (4) nota sunt; erunt}
+\DLine{AB01-PDF0136-body-L021}{}{}{ergo nota latus HS et angulus HES (5). Cognoscuntur igitur quoque linea DG et hypotenusa}
+\DLine{AB01-PDF0136-body-L022}{}{}{ED trianguli rectanguli ESD. Cum vero datus arcus DG et datus angulus GHD $30^\circ$ sint ut}
+\DLine{AB01-PDF0136-body-L023}{}{}{diximus, eorumque sinus $30^p$ pariter, arcus quoque ES circuli triangulum rectangulum ESH}
+\DLine{AB01-PDF0136-body-L024}{}{}{circumdantis complectetur $30^\circ$ ex partibus quarum totus ille circulus $360^\circ$ habet, et eius sinus,}
+\DLine{AB01-PDF0136-body-L025}{25}{p. 72.}{nempe cathetus ES, $30^p$ quoque e partibus quarum linea EH, semidiametrus huius circuli, $60^p$}
+\DLine{AB01-PDF0136-body-L026}{}{}{complectitur. Sed ratione qua lineae EH $2^p4'\,\qfrac{3}{4}$ tribuuntur, cathetus ES erit $1^p2'22''\,\qfrac{1}{2}$ (6);}
+\par\noindent\begin{minipage}[t]{0.54\FullSourceWidth}\vspace{0pt}\centering\hypertarget{AB01-PDF0136-F01}{}\includegraphics[width=\linewidth]{AB01-PDF0136-F01.png}\end{minipage}\hfill\begin{minipage}[t]{0.43\FullSourceWidth}\vspace{0pt}\setlength{\GutterOffset}{0.5700000000000001\FullSourceWidth}
+\DLine{AB01-PDF0136-body-L027}{}{}{qua re latus SH $1^p48'2''$ remanebit.}
+\DLine{AB01-PDF0136-body-L028}{}{}{Semidiametrus HD excentrici $60^p$ conti-}
+\DLine{AB01-PDF0136-body-L029}{}{}{net, de quibus si SH dematur, remanent}
+\DLine{AB01-PDF0136-body-L030}{30}{}{lineae SD $58^p11'58''$; igitur hypote-}
+\DLine{AB01-PDF0136-body-L031}{}{}{nusa ED trianguli rectanguli ESD erit}
+\DLine{AB01-PDF0136-body-L032}{}{}{circiter $58^p12'32''$ (7). Sed ex partibus}
+\DLine{AB01-PDF0136-body-L033}{}{}{quarum linea ED 60 habet, cathetus ES}
+\DLine{AB01-PDF0136-body-L034}{}{}{$1^p4'17''$ complectetur, et arcus super}
+\DLine{AB01-PDF0136-body-L035}{35}{}{eam, qui est quantitas anomaliae, $1^\circ1'$}
+\DLine{AB01-PDF0136-body-L036}{}{}{$24''$ (8): arcus igitur KC eclipticae, $31^\circ$}
+\DLine{AB01-PDF0136-body-L037}{}{}{$1'24''$ (9) circiter erit. Haec de anomalia}
+\DLine{AB01-PDF0136-body-L038}{}{}{sufficiunt, quam explicare volebamus.}
+\hypertarget{AB01-PDF0136-P03}{}
+\DLine{AB01-PDF0136-body-L039}{}{}{\Indent Dicit [auctor]: Hunc motum ita ad}\end{minipage}\par
+\DLine{AB01-PDF0136-body-L040}{40}{}{singulos gradus in tabulis a puncto apogei posuimus; similiter reperiuntur aequatio simplex}
+\par\vspace{6pt}\hrule height.25pt\vspace{5pt}
+\noindent\begin{minipage}[t]{.48\textwidth}\vspace{0pt}\fontsize{9}{11.5}\selectfont\setlength{\GutterOffset}{0pt}
+\hypertarget{AB01-PDF0136-N01}{}
+\DLine{AB01-PDF0136-notes_left-L001}{}{}{\Indent (1) Secundae apud Platonem $55''$.}
+\hypertarget{AB01-PDF0136-N02}{}
+\DLine{AB01-PDF0136-notes_left-L002}{}{}{\Indent (2) Cod. « unius partis et trium ac triginta se-}
+\DLine{AB01-PDF0136-notes_left-L003}{}{}{« cundarum ».}
+\hypertarget{AB01-PDF0136-N03}{}
+\DLine{AB01-PDF0136-notes_left-L004}{}{}{\Indent (3) Cod. AD. Postea Plato 120.}
+\hypertarget{AB01-PDF0136-N04}{}
+\DLine{AB01-PDF0136-notes_left-L005}{}{}{\Indent (4) Cod. HDG.}
+\end{minipage}
+\hfill\begin{minipage}[t]{.48\textwidth}\vspace{0pt}\fontsize{9}{11.5}\selectfont\setlength{\GutterOffset}{0pt}
+\hypertarget{AB01-PDF0136-N05}{}
+\DLine{AB01-PDF0136-notes_right-L001}{}{}{\Indent (5) Cod. HS.}
+\hypertarget{AB01-PDF0136-N06}{}
+\DLine{AB01-PDF0136-notes_right-L002}{}{}{\Indent (6) Secundae apud Platonem $55''$.}
+\hypertarget{AB01-PDF0136-N07}{}
+\DLine{AB01-PDF0136-notes_right-L003}{}{}{\Indent (7) Plato $58^p15'34''$. Cfr. adnot. {\itshape e} huius capitis.}
+\hypertarget{AB01-PDF0136-N08}{}
+\DLine{AB01-PDF0136-notes_right-L004}{}{}{\Indent (8) Cod. $1^\circ4'24''$; Plato $1^\circ4'54''$.}
+\hypertarget{AB01-PDF0136-N09}{}
+\DLine{AB01-PDF0136-notes_right-L005}{}{}{\Indent (9) Cod. $1^\circ1'24''$; Plato $31^\circ4'54''$.}
+\end{minipage}
+
+\DSource{0137}{48}
+\hypertarget{AB01-PDF0137-P01}{}
+\DLine{AB01-PDF0137-body-L001}{}{}{Lunae et aequatio media quinque planetarum, quae est semidiametrus eorum epicycli, cum}
+\DLine{AB01-PDF0137-body-L002}{}{}{eius sinus sumatur et eo modo dividatur.}
+\hypertarget{AB01-PDF0137-P02}{}
+\DLine{AB01-PDF0137-body-L003}{}{}{\Indent Si id calculo reperire vis, gradus epicycli quos ab apogeo Sol, vel Luna, vel planeta}
+\DLine{AB01-PDF0137-body-L004}{}{}{percurrerit, scilicet anomaliam, observa; si gradus minus quam $180^\circ$ sunt, iis utere, sed si}
+\DLine{AB01-PDF0137-body-L005}{}{}{$180^\circ$ superant, eos de $360^\circ$ deme et residuum adhibe. Graduum alterutra via repertorum, si}
+\DLine{AB01-PDF0137-body-L006}{5}{}{minus quam $90^\circ$ sunt, sinum atque cosinum multiplica in semidiametrum epicycli sideris qui}
+\DLine{AB01-PDF0137-body-L007}{}{}{est totius aequationis sinus; ambo producta per semidiametrum divide, et quod ex divisione}
+\DLine{AB01-PDF0137-body-L008}{}{p. 73.}{cosinus provenerit adde $60^p$ scilicet semidiametro. Quadratum huius summae adde quadrato}
+\DLine{AB01-PDF0137-body-L009}{}{}{eius quod e divisione sinus exierit; huius summae radicem inveni. Deinde quod e divisione}
+\DLine{AB01-PDF0137-body-L010}{}{}{sinus provenerat, in semidiametrum multiplica, et productum per inventam radicem divide. ---}
+\DLine{AB01-PDF0137-body-L011}{10}{}{Si contra gradus adhibendi superant $90^\circ$, de iis $90^\circ$ deme; sinum et cosinum residui in semi-}
+\DLine{AB01-PDF0137-body-L012}{}{}{diametrum epicycli multiplica et per semidiametrum divide; quod e sinu provenerit de $60^p$}
+\DLine{AB01-PDF0137-body-L013}{}{}{deme; quadratum residui adde quadrato eius quod e cosinu exierit, et huius summae radi-}
+\DLine{AB01-PDF0137-body-L014}{}{}{cem inveni. Postea quod e divisione cosinus provenerat in semidiametrum multiplica, et pro-}
+\DLine{AB01-PDF0137-body-L015}{}{}{ductum per radicem inventam divide. --- Quod ex alterutra operatione tibi provenerit, in}
+\DLine{AB01-PDF0137-body-L016}{15}{}{arcum converte; arcus erit portio graduum ad anomaliam qua usus es pertinens, scilicet ae-}
+\DLine{AB01-PDF0137-body-L017}{}{}{quatio stellae ({\itshape f}).}
+\hypertarget{AB01-PDF0137-P03}{}
+\DLine{AB01-PDF0137-body-L018}{}{}{\Indent Semidiametrus epicycli Solis est $2^p4'45''$ (1); semidiametrus epicycli Lunae $5^p15'$ (2);}
+\DLine{AB01-PDF0137-body-L019}{}{}{Saturni $6^p29'50''$ (3); Iovis $11^p30'0''$ (4); Martis $39^p27'22''$ (5); Veneris $43^p9'0''$ (6); Mer-}
+\DLine{AB01-PDF0137-body-L020}{}{}{curii $22^p30'30''$ (7). Hoc ex observationibus patuit et cum calculis congruit; idque, volente}
+\DLine{AB01-PDF0137-body-L021}{20}{}{Deo, est sinus aequationis mediae ({\itshape g}).}
+\vspace{27.6pt}
+\hypertarget{AB01-PDF0137-H01}{}
+\DLine{AB01-PDF0137-body-L022}{}{}{\CenterLine{CAPUT XXIX.}}
+\vspace{13.8pt}
+\DLine{AB01-PDF0137-body-L023}{25}{}{\CenterLine{De inaequalitate nychthemerōn et de aliorum in alia conversione.}}
+\vspace{13.8pt}
+\hypertarget{AB01-PDF0137-P04}{}
+\DLine{AB01-PDF0137-body-L024}{}{}{\Indent Dicit [auctor]: Plurimi homines et vulgus nychthemera existimant aequalia esse, et eo-}
+\DLine{AB01-PDF0137-body-L025}{}{}{rum quodque 24 horas amplecti; sed hoc haud verum est, nam nychthemerum medium est}
+\DLine{AB01-PDF0137-body-L026}{}{p. 74.}{ortus omnium 360 temporum aequatoris ab horizonte vel a circulo meridiano, eo addito quod}
+\DLine{AB01-PDF0137-body-L027}{30}{}{ex aequatoris temporibus ascendit cum 59 minutis quae Sol, motu suo medio, in nychthemero}
+\DLine{AB01-PDF0137-body-L028}{}{}{percurrit. Nychthemerum autem inaequale est ortus 360 temporum aequatoris, addito motu}
+\DLine{AB01-PDF0137-body-L029}{}{}{inaequali Solis in nychthemero, qui necessarie minor aut maior est quam $59'$.}
+\hypertarget{AB01-PDF0137-P05}{}
+\DLine{AB01-PDF0137-body-L030}{}{}{\Indent Quoniam omni loco initium a circulo horizontis variat prout in illo variant ascensiones}
+\DLine{AB01-PDF0137-body-L031}{}{}{signorum, initium autem ab hora meridiana immobile est neque mutatur, ob aequalitatem}
+\DLine{AB01-PDF0137-body-L032}{35}{}{ascensionum signorum in circulo meridiano quolibet loco, in calculo stellarum earumque lo-}
+\DLine{AB01-PDF0137-body-L033}{}{}{corum initium diei non ponitur ab ortu vel occasu Solis, sed a tempore meridiei aut mediae}
+\DLine{AB01-PDF0137-body-L034}{}{}{noctis (8) ({\itshape a}).}
+\hypertarget{AB01-PDF0137-P06}{}
+\DLine{AB01-PDF0137-body-L035}{}{}{\Indent Item quoniam omnes motus stellarum in tabulis nonnisi ad aequales dies supputantur,}
+\DLine{AB01-PDF0137-body-L036}{}{}{differentia inter nychthemera inaequalia et nychthemera media negligitur. In motu Solis et}
+\DLine{AB01-PDF0137-body-L037}{40}{}{reliquarum stellarum differentia tanta non est ut errorem sensibilem gignat; sed error mani-}
+\par\vspace{6pt}\hrule height.25pt\vspace{5pt}
+\noindent\begin{minipage}[t]{.48\textwidth}\vspace{0pt}\fontsize{9}{11.5}\selectfont\setlength{\GutterOffset}{0pt}
+\hypertarget{AB01-PDF0137-N01}{}
+\DLine{AB01-PDF0137-notes_left-L001}{}{}{\Indent (1) Cod. $5'$ pro $4'$.}
+\hypertarget{AB01-PDF0137-N02}{}
+\DLine{AB01-PDF0137-notes_left-L002}{}{}{\Indent (2) Gradus in cod. $6^\circ$.}
+\hypertarget{AB01-PDF0137-N03}{}
+\DLine{AB01-PDF0137-notes_left-L003}{}{}{\Indent (3) Secundae apud Plat. $7''$.}
+\hypertarget{AB01-PDF0137-N04}{}
+\DLine{AB01-PDF0137-notes_left-L004}{}{}{\Indent (4) Secundae apud Plat. $5''$.}
+\end{minipage}
+\hfill\begin{minipage}[t]{.48\textwidth}\vspace{0pt}\fontsize{9}{11.5}\selectfont\setlength{\GutterOffset}{0pt}
+\hypertarget{AB01-PDF0137-N05}{}
+\DLine{AB01-PDF0137-notes_right-L001}{}{}{\Indent (5) Cod. $19^\circ25'22''$; minuta apud Plat. $55'$.}
+\hypertarget{AB01-PDF0137-N06}{}
+\DLine{AB01-PDF0137-notes_right-L002}{}{}{\Indent (6) Plat. $44^\circ9'5''$.}
+\hypertarget{AB01-PDF0137-N07}{}
+\DLine{AB01-PDF0137-notes_right-L003}{}{}{\Indent (7) Gradus in cod. $29^\circ$.}
+\hypertarget{AB01-PDF0137-N08}{}
+\DLine{AB01-PDF0137-notes_right-L004}{}{}{\Indent (8) {\itshape Almag.} III, 8 (ed. Halma, t. I, p. 208).}
+\end{minipage}
+
+\DSource{0138}{49}
+\hypertarget{AB01-PDF0138-P01}{}
+\DLine{AB01-PDF0138-body-L001}{}{}{festus est in Luna, ob eius festinum cursum, ita ut fere dimidiae horae sit; nam interdum}
+\DLine{AB01-PDF0138-body-L002}{}{}{Lunae motus eo temporis spatio 18 minuta complectitur, cuius duplum est differentia inter}
+\DLine{AB01-PDF0138-body-L003}{}{}{maxima et minima nychthemera.}
+\hypertarget{AB01-PDF0138-P02}{}
+\DLine{AB01-PDF0138-body-L004}{}{}{\Indent Haec differentia e duobus elementis constat, quorum alterum est inaequalitas motus Solis,}
+\DLine{AB01-PDF0138-body-L005}{5}{}{sive aequatio, alterum differentia transitus signorum per medium Caelum, quia non omnia illic}
+\DLine{AB01-PDF0138-body-L006}{}{}{eadem quantitate ascendunt. Quod maximi ex anomalia motus Solis provenit est fere $3^\circ\qfrac{1}{4}+$}
+\DLine{AB01-PDF0138-body-L007}{}{}{$\qfrac{1}{10}$ (1) [$=3^\circ21'$], quod e culminatione signorum $4^\circ\qfrac{1}{4}+\qfrac{1}{5}$ (2) [$=4^\circ27'$] circiter; summa}
+\DLine{AB01-PDF0138-body-L008}{}{}{igitur est $7^\circ48'$ (3), quae $\qfrac{1}{2}+\qfrac{1}{50}$ horae aequinoctialis [$=0^h\,31^m\,12^s$] circiter efficiunt. Locus}
+\DLine{AB01-PDF0138-body-L009}{}{}{deminutionis fere a $\qfrac{2}{3}$ (4) Aquarii ad initium circiter Scorpionis porrigitur; locus augmenti}
+\DLine{AB01-PDF0138-body-L010}{10}{}{ab initio Scorpionis ad $\qfrac{2}{3}$ (5) fere Aquarii. --- In tabulis huius nostri libri nos motus medios}
+\DLine{AB01-PDF0138-body-L011}{}{}{descripsimus, ponentes locum Solis, iuxta eius motum medium, in $18^\circ19'$ [Aquarii], at secun-}
+\DLine{AB01-PDF0138-body-L012}{}{}{dum veracem motum apparentem in $20^\circ$ Aquarii. Et iuxta hoc nychthemerum reliqua nych-}
+\DLine{AB01-PDF0138-body-L013}{}{p. 75.}{themera anni in hoc libro supputa ({\itshape b}).}
+\hypertarget{AB01-PDF0138-P03}{}
+\DLine{AB01-PDF0138-body-L014}{}{}{\Indent Dicit [auctor]: Si vis dies inaequales convertere in dies medios, ad quos in tabulis sunt}
+\DLine{AB01-PDF0138-body-L015}{15}{}{motus medii descripti, sume gradus inter medium locum Solis datum et locum alterum ad}
+\DLine{AB01-PDF0138-body-L016}{}{}{quem Sol motu medio pervenerit ({\itshape c}); item, per tempora ascensionum rectarum signorum,}
+\DLine{AB01-PDF0138-body-L017}{}{}{gradus inter primum locum verum et locum ad quem Sol motu vero pervenerit. Si numerus}
+\DLine{AB01-PDF0138-body-L018}{}{}{horum temporum numerum graduum motus medii superat, quanta pars unius horae aequino-}
+\DLine{AB01-PDF0138-body-L019}{}{}{ctialis differentia sit, vide, et eam partem diebus inaequalibus datis adde. Si contra numerus}
+\DLine{AB01-PDF0138-body-L020}{20}{}{temporum minor est, eam partem de iis diebus deme. Exibunt dies medii, in quos dies inaequa-}
+\DLine{AB01-PDF0138-body-L021}{}{}{les dati convertendi erant, sive a meridie sive a media nocte calculus diei inchoatus est. ---}
+\DLine{AB01-PDF0138-body-L022}{}{}{Rem contrariam fac, si dies medios tabularum in dies inaequales convertere vis; idest partem}
+\DLine{AB01-PDF0138-body-L023}{}{}{illam diebus mediis adde vel de iis deme, prout numerus temporum minor vel maior fuerit.}
+\DLine{AB01-PDF0138-body-L024}{}{}{Invenies dies inaequales quaesitos.}
+\hypertarget{AB01-PDF0138-P04}{}
+\DLine{AB01-PDF0138-body-L025}{25}{}{\Indent Iuxta hoc principium, in hoc nostro libro constitutum, numerus temporum semper minor}
+\DLine{AB01-PDF0138-body-L026}{}{}{erit a loco Solis dato usque ad terminum longi spatii temporis, in quo variatio apogei Solis,}
+\DLine{AB01-PDF0138-body-L027}{}{}{quod in ecliptica invenimus, crescet; qua re mutabitur quod ex inaequalitate motus Solis pro-}
+\DLine{AB01-PDF0138-body-L028}{}{}{venit. Et cum res ita sint ut diximus, loco medio Lunae in initio calculi 18 (6) minuta addidi-}
+\DLine{AB01-PDF0138-body-L029}{}{}{mus; portionem autem variationis nychthemerōn, quae ad singulos gradus signorum pertinet,}
+\DLine{AB01-PDF0138-body-L030}{30}{}{in tabulis ascensionum rectarum (7) descripsimus in columna quae ascensiones singulorum gra-}
+\DLine{AB01-PDF0138-body-L031}{}{}{duum sequitur. Si igitur quod vero gradui Solis respondet sumpserimus, et partem propor-}
+\DLine{AB01-PDF0138-body-L032}{}{}{tionalem unius horae aequinoctialis de diebus inaequalibus detraxerimus, remanebunt dies}
+\DLine{AB01-PDF0138-body-L033}{}{}{medii, ad quos in tabulis motus reperiuntur; si vero eam diebus mediis addiderimus, exibunt}
+\DLine{AB01-PDF0138-body-L034}{}{}{dies inaequales qui calculo deducuntur ({\itshape d}).}
+\par\vspace{6pt}\hrule height.25pt\vspace{5pt}
+\noindent\begin{minipage}[t]{.48\textwidth}\vspace{0pt}\fontsize{9}{11.5}\selectfont\setlength{\GutterOffset}{0pt}
+\hypertarget{AB01-PDF0138-N01}{}
+\DLine{AB01-PDF0138-notes_left-L001}{}{}{\Indent (1) Male Plato $3^\circ\qfrac{1}{5}+\qfrac{1}{10}$, quod $3^\circ18'$ effice-}
+\DLine{AB01-PDF0138-notes_left-L002}{}{}{ret. --- In {\itshape Almag.} III, 8 (ed. Halma t. I, 209) est $3^\circ\qfrac{2}{3}$;}
+\DLine{AB01-PDF0138-notes_left-L003}{}{}{ibi enim excentricitas orbis solaris maior est quam}
+\DLine{AB01-PDF0138-notes_left-L004}{}{}{apud al-Battānī.}
+\hypertarget{AB01-PDF0138-N02}{}
+\DLine{AB01-PDF0138-notes_left-L005}{}{}{\Indent (2) {\itshape Almag.} $4^\circ\qfrac{2}{3}$; differentia e diversa eclipti-}
+\DLine{AB01-PDF0138-notes_left-L006}{}{}{cae obliquitate provenit.}
+\end{minipage}
+\hfill\begin{minipage}[t]{.48\textwidth}\vspace{0pt}\fontsize{9}{11.5}\selectfont\setlength{\GutterOffset}{0pt}
+\hypertarget{AB01-PDF0138-N03}{}
+\DLine{AB01-PDF0138-notes_right-L001}{}{}{\Indent (3) {\itshape Almag.} $8^\circ\qfrac{1}{3}$ scilicet $\qfrac{1}{2}+\qfrac{1}{18}$ horae.}
+\hypertarget{AB01-PDF0138-N04}{}
+\DLine{AB01-PDF0138-notes_right-L002}{}{}{\Indent (4) {\itshape Almag.} $\qfrac{1}{2}$.}
+\hypertarget{AB01-PDF0138-N05}{}
+\DLine{AB01-PDF0138-notes_right-L003}{}{}{\Indent (5) {\itshape Almag.} $\qfrac{1}{2}$.}
+\hypertarget{AB01-PDF0138-N06}{}
+\DLine{AB01-PDF0138-notes_right-L004}{}{}{\Indent (6) Plato 58. --- Cur id fecerit explicatur in}
+\DLine{AB01-PDF0138-notes_right-L005}{}{}{adnot. {\itshape b} ad hoc caput.}
+\hypertarget{AB01-PDF0138-N07}{}
+\DLine{AB01-PDF0138-notes_right-L006}{}{}{\Indent (7) Fol. 179,r.--181,v.}
+\end{minipage}
+\par\vspace{5mm}\hfill{\fontsize{8}{10}\selectfont 7}\hspace{10mm}
+
+\DSource{0139}{50}
+\hypertarget{AB01-PDF0139-H01}{}
+\DLine{AB01-PDF0139-body-L001}{}{p. 76.}{\CenterLine{CAPUT XXX.}}
+\vspace{13.8pt}
+\DLine{AB01-PDF0139-body-L002}{5}{}{\CenterLine{De sphaeris Lunae, de inaequalitate eius motus, de accretione et demi-}}
+\DLine{AB01-PDF0139-body-L003}{}{}{\CenterLine{nutione eius luminis, de causis eclipsium, atque de distantiis geo-}}
+\DLine{AB01-PDF0139-body-L004}{}{}{\CenterLine{centricis, diametris et magnitudinibus amborum luminarium cum}}
+\DLine{AB01-PDF0139-body-L005}{}{}{\CenterLine{Terra comparatorum.}}
+\vspace{13.8pt}
+\hypertarget{AB01-PDF0139-P01}{}
+\DLine{AB01-PDF0139-body-L006}{10}{}{\Indent Dicit [auctor]: In motibus Lunae duae inaequalitates repertae sunt. Altera, per se simplex,}
+\DLine{AB01-PDF0139-body-L007}{}{}{temporibus syzygiarum, quae ob medium Solis et Lunae iter iuxta locum Lunae in epicyclo}
+\DLine{AB01-PDF0139-body-L008}{}{}{fiunt, apparet. Altera per elongationes Lunae a Sole deprehenditur, et primae inaequalitati ita}
+\DLine{AB01-PDF0139-body-L009}{}{}{adiungitur ut simul unam rem efficiant, sicut demonstrationibus geometricis cognoscitur.}
+\hypertarget{AB01-PDF0139-P02}{}
+\DLine{AB01-PDF0139-body-L010}{}{}{\Indent Luna quatuor sphaeras [seu circulos] habere cogitetur; quorum primus concentricus et}
+\DLine{AB01-PDF0139-body-L011}{15}{}{similis sit eclipticae, eodemque motu sub ea absque ulla deviatione moveatur (1) --- Secundus ab}
+\DLine{AB01-PDF0139-body-L012}{}{}{eo in septentriones et meridiem versus deflectat, sed eandem magnitudinem idemque centrum}
+\DLine{AB01-PDF0139-body-L013}{}{}{ac ille habeat; maxima eius declinatio in utramque plagam versus sit fere $5^\circ$, quae est maxima}
+\DLine{AB01-PDF0139-body-L014}{}{}{distantia latitudinalis Lunae ab ecliptica. Motus huius circuli deflectentis [i. e. obliqui] quotidie}
+\DLine{AB01-PDF0139-body-L015}{}{}{sit 3 minutorum fere in partem contrariam successioni signorum; et hic est motus duorum}
+\DLine{AB01-PDF0139-body-L016}{20}{}{nodorum, quorum alter, a quo Luna in latitudine ad septentriones transit, {\itshape Caput} vocatur, alter}
+\DLine{AB01-PDF0139-body-L017}{}{}{vero, a quo Luna ad meridiem transit, {\itshape Cauda}. Hi nodi sunt loca ubi circulus deflectens cir-}
+\DLine{AB01-PDF0139-body-L018}{}{}{culum pareclipticum secat. --- Intra circulum deflectentem [seu obliquum] tertius reperiatur,}
+\DLine{AB01-PDF0139-body-L019}{}{}{qui excentricus sit, a deflectente pendat, eumque in puncto omnium altissimo, {\itshape apogeo} appel-}
+\DLine{AB01-PDF0139-body-L020}{}{}{lato, contingat; ipse quotidie intra circulum deflectentem versus partem contrariam successioni}
+\DLine{AB01-PDF0139-body-L021}{25}{}{signorum $11^\circ12'$ circiter (2) moveatur. --- Quartus circulus sit epicyclus Lunae, cuius cen-}
+\DLine{AB01-PDF0139-body-L022}{}{}{trum in circumferentia excentrici quotidie $24^\circ23'$ fere (3) ad successionem signorum mo-}
+\DLine{AB01-PDF0139-body-L023}{}{p. 77.}{veatur, ut sit initium motus a puncto apogei excentrici dato cum loco medio Solis. Centrum}
+\DLine{AB01-PDF0139-body-L024}{}{}{igitur epicycli bis in mense lunari in punctum apogei incidit; altera vice tempore mediae}
+\DLine{AB01-PDF0139-body-L025}{}{}{coniunctionis, altera tempore oppositionis; Luna autem quotidie in circumferentia epicycli}
+\DLine{AB01-PDF0139-body-L026}{30}{}{fere $13^\circ4'$ (4) versus partem contrariam successioni signorum movetur, incipiens a puncto}
+\DLine{AB01-PDF0139-body-L027}{}{}{apogei quod respectu centri excentrici consideratur. Et cum centrum epicycli super circum-}
+\DLine{AB01-PDF0139-body-L028}{}{}{ferentiam circuli deflectentis duobus memoratis temporibus incidat, nihil obstat quin epicycli}
+\DLine{AB01-PDF0139-body-L029}{}{}{centrum quotidie super circumferentiam deflectentis $13^\circ14'$ fere moveatur; et hic est motus}
+\DLine{AB01-PDF0139-body-L030}{}{}{Lunae in latitudine. Sed nodus eum versus partem contrariam successioni signorum minuit}
+\DLine{AB01-PDF0139-body-L031}{35}{}{tribus minutis memoratis, quae sunt motus circuli deflectentis; qua re motus Lunae in lon-}
+\DLine{AB01-PDF0139-body-L032}{}{}{gitudine ad successionem signorum remanet $13^\circ11'$ fere in die. Motus in epicyclo est primus}
+\DLine{AB01-PDF0139-body-L033}{}{}{quem memoravimus.}
+\hypertarget{AB01-PDF0139-P03}{}
+\DLine{AB01-PDF0139-body-L034}{}{}{\Indent Ex iis quae diximus patet motui Lunae nullam variationem ob excentricum his duobus tem-}
+\DLine{AB01-PDF0139-body-L035}{}{}{poribus contingere, nam in iis Luna a loco Solis medio vel huic opposito non recedit, et inae-}
+\DLine{AB01-PDF0139-body-L036}{40}{}{qualitas simplex cum altera non commiscetur eo usque quo Luna a Sole non recesserit; et}
+\par\vspace{6pt}\hrule height.25pt\vspace{5pt}
+\noindent\begin{minipage}[t]{.48\textwidth}\vspace{0pt}\fontsize{9}{11.5}\selectfont\setlength{\GutterOffset}{0pt}
+\hypertarget{AB01-PDF0139-N01}{}
+\DLine{AB01-PDF0139-notes_left-L001}{}{}{\Indent (1) Eum infra {\itshape pareclipticum} voco; cfr. p. 45,}
+\DLine{AB01-PDF0139-notes_left-L002}{}{}{adn. 3.}
+\hypertarget{AB01-PDF0139-N02}{}
+\DLine{AB01-PDF0139-notes_left-L003}{}{}{\Indent (2) Nam motus apogei = duplus motus syno-}
+\DLine{AB01-PDF0139-notes_left-L004}{}{}{dicus $-$ motus in latit. $+$ motus nodorum $=24^\circ$}
+\DLine{AB01-PDF0139-notes_left-L005}{}{}{$23'-13^\circ14'+0^\circ3'=11^\circ12'$.}
+\end{minipage}
+\hfill\begin{minipage}[t]{.48\textwidth}\vspace{0pt}\fontsize{9}{11.5}\selectfont\setlength{\GutterOffset}{0pt}
+\hypertarget{AB01-PDF0139-N03}{}
+\DLine{AB01-PDF0139-notes_right-L001}{}{}{\Indent (3) Est duplus motus synodicus (vel relativus}
+\DLine{AB01-PDF0139-notes_right-L002}{}{}{sive dupla elongatio.}
+\hypertarget{AB01-PDF0139-N04}{}
+\DLine{AB01-PDF0139-notes_right-L003}{}{}{\Indent (4) Est motus diurnus anomaliae, quem \Name{Pto-}}
+\DLine{AB01-PDF0139-notes_right-L004}{}{}{\Name{lemaeus} IV, 3 (ed. Halma t. I, p. 223) invenit esse}
+\DLine{AB01-PDF0139-notes_right-L005}{}{}{$13^\circ3'53''56'''29^{\mathrm{IV}}38^{\mathrm{V}}38^{\mathrm{VI}}$.}
+\end{minipage}
+
+\DSource{0140}{51}
+\hypertarget{AB01-PDF0140-P01}{}
+\DLine{AB01-PDF0140-body-L001}{}{}{\raisebox{-0.15pt}{\includegraphics[height=6.1pt]{AB01-PDF0140-G01.png}} his distantiis ei altera tantum inaequalitas additur, quae ab excentrico iuxta Lunae a Sole}
+\DLine{AB01-PDF0140-body-L002}{}{}{elongationem oritur.}
+\hypertarget{AB01-PDF0140-P02}{}
+\DLine{AB01-PDF0140-body-L003}{}{}{\Indent Haec est imago quatuor sphaerarum Lunae, ad demonstrationem geometricam inserviens.}
+\par\noindent\begin{minipage}[t]{0.48\FullSourceWidth}\vspace{0pt}\centering\hypertarget{AB01-PDF0140-F01}{}\includegraphics[width=\linewidth]{AB01-PDF0140-F01.png}\end{minipage}\hfill\begin{minipage}[t]{0.48\FullSourceWidth}\vspace{0pt}\setlength{\GutterOffset}{0.52\FullSourceWidth}
+\hypertarget{AB01-PDF0140-P03}{}
+\DLine{AB01-PDF0140-body-L004}{}{}{\Indent Dicit [auctor]: Circa centrum E sit}
+\DLine{AB01-PDF0140-body-L005}{5}{}{circulus pareclipticus (1) ABCD, qui eodem}
+\DLine{AB01-PDF0140-body-L006}{}{}{tempore sit etiam circulus deflectens [i. e.}
+\DLine{AB01-PDF0140-body-L007}{}{}{obliquus]; similiter sphaerae continget quae}
+\DLine{AB01-PDF0140-body-L008}{}{}{circa eius polos revolvitur. Diametrum AS}
+\DLine{AB01-PDF0140-body-L009}{}{}{ducamus, in cuius puncto F sit centrum ex-}
+\DLine{AB01-PDF0140-body-L010}{10}{}{centrici AMP, radio FA descripti. Arcus AM}
+\DLine{AB01-PDF0140-body-L011}{}{p. 78.}{sit motus epicycli a puncto A, apogeo et}
+\DLine{AB01-PDF0140-body-L012}{}{}{loco Solis, usque ad M, quod centrum epi-}
+\DLine{AB01-PDF0140-body-L013}{}{}{cycli GHRK ponamus. [Punctum F′ in dia-}
+\DLine{AB01-PDF0140-body-L014}{}{}{metro ita signetur ut sit EF′ = EF]. Li-}
+\DLine{AB01-PDF0140-body-L015}{15}{}{neas EMG, F′MH (2) ducamus; erit G (3)}
+\DLine{AB01-PDF0140-body-L016}{}{}{locus apogei in epicyclo, ut centro E Ter-}
+\DLine{AB01-PDF0140-body-L017}{}{}{rae et eclipticae apparet; H (4) locus veri}
+\DLine{AB01-PDF0140-body-L018}{}{}{apogei qui ex puncto F′ (5) conspicitur. Pa-}
+\DLine{AB01-PDF0140-body-L019}{}{}{tet arcum HG esse differentiam [i. e. ae-}
+\DLine{AB01-PDF0140-body-L020}{20}{}{quationem] motus anomalistici Lunae in}\end{minipage}\par
+\DLine{AB01-PDF0140-body-L021}{}{}{in epicyclo, quae in tertia columna tabularum aequationis Lunae (6) describitur. In epicyclo}
+\DLine{AB01-PDF0140-body-L022}{}{}{Luna a G ad H, postea ad R moveatur, denique ad K perveniat. Lineam [E]KN, epicyclum}
+\DLine{AB01-PDF0140-body-L023}{}{}{tangentem, ducamus; item MK [perpendicularem], quae erit semidiametrus epicycli [a Sole]}
+\DLine{AB01-PDF0140-body-L024}{}{}{declivis quantitate qua centrum epicycli a puncto A excentrici deflectit. Quoniam Luna est}
+\DLine{AB01-PDF0140-body-L025}{25}{}{in linea epicyclum tangente, haec semidiametrus epicycli [vel angulus MEK ab eadem sub-}
+\DLine{AB01-PDF0140-body-L026}{}{}{tensus] est summa inaequalitatis simplicis et alterius inaequalitatis, quae iuxta elongationem}
+\DLine{AB01-PDF0140-body-L027}{}{}{Lunae a puncto A Solis determinatur ({\itshape a}). --- Ut ex hac figura patet, Luna stante in prima}
+\DLine{AB01-PDF0140-body-L028}{}{}{medietate GHR epicycli, locus verus Lunae in ecliptica, qui a centro E videtur, minor est}
+\DLine{AB01-PDF0140-body-L029}{}{}{loco medio eius in longitudine, qui est centrum epicycli; aequatio igitur de medio motu}
+\DLine{AB01-PDF0140-body-L030}{30}{}{Lunae demitur, si anomalia minor quam $180^\circ$ est. Cum autem Luna in altera medietate RKG}
+\DLine{AB01-PDF0140-body-L031}{}{}{sit, eius locus verus locum medium in ecliptica superat; qua re, anomalia $180^\circ$ excedente,}
+\DLine{AB01-PDF0140-body-L032}{}{}{aequatio, si Deus vult, motui medio Lunae est addenda.}
+\hypertarget{AB01-PDF0140-P04}{}
+\DLine{AB01-PDF0140-body-L033}{}{}{\Indent Aequatio simplex, quae temporibus syzygiarum apparet et in hoc nostro libro in secunda}
+\DLine{AB01-PDF0140-body-L034}{}{}{columna tabularum aequationis (7) describitur, iam diximus quo modo numeris supputetur,}
+\DLine{AB01-PDF0140-body-L035}{35}{}{eadem via quam secuti sumus in calculanda et in tabulis describenda aequatione Solis (8).}
+\DLine{AB01-PDF0140-body-L036}{}{}{Maxima quantitas, quam haec simplex inaequalitas Lunae attingere potest, est $5^\circ1'$ (9), cuius}
+\DLine{AB01-PDF0140-body-L037}{}{}{sinus, qui tunc erit semidiametrus epicycli, $5^p\qfrac{1}{4}$ fere complectitur; talis enim est ratio 60 par-}
+\DLine{AB01-PDF0140-body-L038}{}{}{tium semidiametrum efficientium ad $5^p\qfrac{1}{4}$. Id Ptolemaeus (10) declaravit et probavit eclipsibus}
+\par\vspace{6pt}\hrule height.25pt\vspace{5pt}
+\noindent\begin{minipage}[t]{.48\textwidth}\vspace{0pt}\fontsize{9}{11.5}\selectfont\setlength{\GutterOffset}{0pt}
+\hypertarget{AB01-PDF0140-N01}{}
+\DLine{AB01-PDF0140-notes_left-L001}{}{}{\Indent (1) Vide supra pag. 50, adn. 1.}
+\hypertarget{AB01-PDF0140-N02}{}
+\DLine{AB01-PDF0140-notes_left-L002}{}{}{\Indent (2) Cod. et Plato: EMH, FMG.}
+\hypertarget{AB01-PDF0140-N03}{}
+\DLine{AB01-PDF0140-notes_left-L003}{}{}{\Indent (3) Cod. et Plato H.}
+\hypertarget{AB01-PDF0140-N04}{}
+\DLine{AB01-PDF0140-notes_left-L004}{}{}{\Indent (4) Cod. et Plato G.}
+\hypertarget{AB01-PDF0140-N05}{}
+\DLine{AB01-PDF0140-notes_left-L005}{}{}{\Indent (5) Cod. et Plato: « ex centro F scilicet ex cen-}
+\DLine{AB01-PDF0140-notes_left-L006}{}{}{tro excentrici ». Punctum F′ apud eos deest.}
+\hypertarget{AB01-PDF0140-N06}{}
+\DLine{AB01-PDF0140-notes_left-L007}{}{}{\Indent (6) Fol. 189,v. et sqq; sed est tertia columna}
+\DLine{AB01-PDF0140-notes_left-L008}{}{}{tantum si columna aequationis Solis non computetur.}
+\end{minipage}
+\hfill\begin{minipage}[t]{.48\textwidth}\vspace{0pt}\fontsize{9}{11.5}\selectfont\setlength{\GutterOffset}{0pt}
+\hypertarget{AB01-PDF0140-N07}{}
+\DLine{AB01-PDF0140-notes_right-L001}{}{}{\Indent (7) Fol. 189,v. et seqq.; sed est secunda colu-}
+\DLine{AB01-PDF0140-notes_right-L002}{}{}{mna tantum si columna aequationis Solis vel colu-}
+\DLine{AB01-PDF0140-notes_right-L003}{}{}{mna numerorum non computetur.}
+\hypertarget{AB01-PDF0140-N08}{}
+\DLine{AB01-PDF0140-notes_right-L004}{}{}{\Indent (8) Cap. XXVIII.}
+\hypertarget{AB01-PDF0140-N09}{}
+\DLine{AB01-PDF0140-notes_right-L005}{}{}{\Indent (9) Sunt numeri Ptolemaei.}
+\hypertarget{AB01-PDF0140-N10}{}
+\DLine{AB01-PDF0140-notes_right-L006}{}{}{\Indent (10) {\itshape Almag.} IV, 5 (ed. Halma, t. I, pag. 244-}
+\DLine{AB01-PDF0140-notes_right-L007}{}{}{-260).}
+\end{minipage}
+
+\DSource{0141}{52}
+\hypertarget{AB01-PDF0141-P01}{}
+\DLine{AB01-PDF0141-body-L001}{}{}{lunaribus, in quibus necessarie locus verus Lunae loco vero Solis in ecliptica opponitur; qua}
+\DLine{AB01-PDF0141-body-L002}{}{p. 79.}{re elongatio inter locum Lunae iuxta eius motum medium, et gradum gradui vero Solis oppo-}
+\DLine{AB01-PDF0141-body-L003}{}{}{situm, erit inaequalitas simplex motus Lunae iuxta eius locum in epicyclo. --- Nos quoque}
+\DLine{AB01-PDF0141-body-L004}{}{}{multas eclipses lunares observavimus, earum tempora et medium diligentissime investigavimus,}
+\DLine{AB01-PDF0141-body-L005}{5}{}{et quantitatem huius simplicis inaequalitatis ut diximus reperimus ({\itshape b}).}
+\hypertarget{AB01-PDF0141-P02}{}
+\DLine{AB01-PDF0141-body-L006}{}{}{\Indent Maximam quantitatem alterius inaequalitatis, contingentis ob elongationem Lunae a Sole,}
+\DLine{AB01-PDF0141-body-L007}{}{}{fere $2^\circ\qfrac{2}{3}$ attingere invenerunt (1), quibus si $5^\circ1'$ simplicis inaequalitatis addantur, $7^\circ40'$ cir-}
+\DLine{AB01-PDF0141-body-L008}{}{}{citer proveniunt. Hoc evenit cum epicycli centrum sit in P, quod ab A quantitate [dimidii]}
+\DLine{AB01-PDF0141-body-L009}{}{}{excentrici distat (2); tunc semidiametrus epicycli [a loco Solis] declivis, erit fere $8^p$, quae}
+\DLine{AB01-PDF0141-body-L010}{10}{}{sunt sinus iis $7^\circ\qfrac{2}{3}$ respondens.}
+\hypertarget{AB01-PDF0141-P03}{}
+\DLine{AB01-PDF0141-body-L011}{}{}{\Indent Ex iis quae diximus consequitur lineam EF, ambo centra coniungentem, $10^p19'$ (3) esse;}
+\DLine{AB01-PDF0141-body-L012}{}{}{idque hoc modo demonstratur. Circa centrum A, apogeum excentrici, epicyclum HG descri-}
+\DLine{AB01-PDF0141-body-L013}{}{}{bamus; lineam tangentem EH, et lineam AH ducamus. Quoniam Luna in linea tangente est,}
+\DLine{AB01-PDF0141-body-L014}{}{}{inaequalitas simplex tota perficitur, quam $5^\circ1'$ esse vidimus e partibus quarum quatuor an-}
+\DLine{AB01-PDF0141-body-L015}{15}{}{guli recti 360 continent; eius sinus igitur $5^p15'$ (4) iuxta rationem qua semidiametrus in 60}
+\DLine{AB01-PDF0141-body-L016}{}{}{partes dividitur, ut semidiametrus circuli qui in hac figura excentricum repraesentat. --- Circa}
+\DLine{AB01-PDF0141-body-L017}{}{}{centrum P, perigeum excentrici, epicyclum HG describamus, et lineam tangentem EH atque}
+\DLine{AB01-PDF0141-body-L018}{}{}{lineam PH ducamus. Quoniam Luna in puncto H, scilicet in linea tangente, est, ambae inae-}
+\DLine{AB01-PDF0141-body-L019}{}{}{qualitates perficiuntur, quarum summa $7^\circ40'$ complectitur, et sinus summae $8^p$ fere continebit,}
+\DLine{AB01-PDF0141-body-L020}{20}{}{iuxta rationem qua quatuor anguli recti $360^\circ$ efficiunt, et semidiametrus, idest EA, in 60 par-}
+\DLine{AB01-PDF0141-body-L021}{}{}{tes dividitur. --- Linea PH aequalis est lineae AH, quam $5^p\qfrac{1}{4}$ esse vidimus, si $60^p$ semidia-}
+\DLine{AB01-PDF0141-body-L022}{}{}{metro EA tribuantur; sed quia centrum epicycli in locum venit quo, ob proximitatem puncti E,}
+\DLine{AB01-PDF0141-body-L023}{}{}{--- quod est centrum Terrae et locus veri aspectus, --- dimensio mutari debet, id quod ex}
+\DLine{AB01-PDF0141-body-L024}{}{}{observatione apparet fiet $8^p$ circiter secundum rationem qua EA $60^p$ complectitur; sed iuxta}
+\DLine{AB01-PDF0141-body-L025}{25}{p. 80.}{rationem qua $8^p$ in $60^p$ convertuntur, $5^p\qfrac{1}{4}$ fient $39^p22'$. Et haec est quantitas lineae EP,}
+\DLine{AB01-PDF0141-body-L026}{}{}{centrum Terrae cum perigeo excentrici coniungentis. Similiter ut $8^p$ in $5^p\qfrac{1}{4}$ convertuntur,}
+\DLine{AB01-PDF0141-body-L027}{}{}{$60^p$ fiunt $39^p22'$. Si linea EP, quam $39^p22'$ esse vidimus, lineae EA, $60^p$ complectenti, addatur,}
+\DLine{AB01-PDF0141-body-L028}{}{}{summa $99^p22'$ erit diametrus tota excentrici, cuius dimidia pars $49^p41'$ attinget. [Qua re}
+\DLine{AB01-PDF0141-body-L029}{}{}{excentricitas $10^p19'$ complectitur ex partibus quarum AE $60^p$ continet] (5).}
+\hypertarget{AB01-PDF0141-P04}{}
+\DLine{AB01-PDF0141-body-L030}{30}{}{\Indent Cognita semidiametro epicycli iuxta eius declivitatem (6) respectu Solis, et cognita etiam}
+\DLine{AB01-PDF0141-body-L031}{}{}{excentricitate atque semidiametro excentrici, restat nobis ut arcum HG, in tertia (7) columna}
+\DLine{AB01-PDF0141-body-L032}{}{}{descriptum, supputemus et exponamus quanta fiat summa aequationis simplicis et alterius in}
+\DLine{AB01-PDF0141-body-L033}{}{}{locis inter duas longinquitates, eo modo qui in tabulis descriptus est in quarta et quinta (8)}
+\DLine{AB01-PDF0141-body-L034}{}{}{columna; et, quod ad quartam columnam attinet, cum hi $2^\circ40'$ fient $60'$ quae in quinta co-}
+\DLine{AB01-PDF0141-body-L035}{35}{}{lumna notantur, videamus quantum ex iis coadunetur, et quae sit eius ratio ad 60 (9). Haec}
+\DLine{AB01-PDF0141-body-L036}{}{}{omnia, ut nunc docebimus, cognoscuntur.}
+\par\vspace{6pt}\hrule height.25pt\vspace{5pt}
+\noindent\begin{minipage}[t]{.48\textwidth}\vspace{0pt}\fontsize{9}{11.5}\selectfont\setlength{\GutterOffset}{0pt}
+\hypertarget{AB01-PDF0141-N01}{}
+\DLine{AB01-PDF0141-notes_left-L001}{}{}{\Indent (1) Ita {\itshape Almag.} V, 3 (ed. Halma t. I, p. 293--206).}
+\hypertarget{AB01-PDF0141-N02}{}
+\DLine{AB01-PDF0141-notes_left-L002}{}{}{\Indent (2) Plato: « punctum P, quod est egressi circuli}
+\DLine{AB01-PDF0141-notes_left-L003}{}{}{longitudinis propior », i. e. perigeum excentrici. Sen-}
+\DLine{AB01-PDF0141-notes_left-L004}{}{}{sus cum verbis codicis optime convenit.}
+\hypertarget{AB01-PDF0141-N03}{}
+\DLine{AB01-PDF0141-notes_left-L005}{}{}{\Indent (3) Plato $10^\circ18'$; demonstratio et numeri se-}
+\DLine{AB01-PDF0141-notes_left-L006}{}{}{quentes reperiuntur in {\itshape Almag.} V, 4 (ed. Halma, t. I,}
+\DLine{AB01-PDF0141-notes_left-L007}{}{}{p. 296--297).}
+\hypertarget{AB01-PDF0141-N04}{}
+\DLine{AB01-PDF0141-notes_left-L008}{}{}{\Indent (4) Minuta in cod. $25'$.}
+\hypertarget{AB01-PDF0141-N05}{}
+\DLine{AB01-PDF0141-notes_left-L009}{}{}{\Indent (5) Addidi, Platonem et Ptolemaeum sequens.}
+\end{minipage}
+\hfill\begin{minipage}[t]{.48\textwidth}\vspace{0pt}\fontsize{9}{11.5}\selectfont\setlength{\GutterOffset}{0pt}
+\hypertarget{AB01-PDF0141-N06}{}
+\DLine{AB01-PDF0141-notes_right-L001}{}{}{\Indent (6) I. e. iuxta elongationem centri epicycli a}
+\DLine{AB01-PDF0141-notes_right-L002}{}{}{Solis loco.}
+\hypertarget{AB01-PDF0141-N07}{}
+\DLine{AB01-PDF0141-notes_right-L003}{}{}{\Indent (7) Si columna numerorum singulorum, vel co-}
+\DLine{AB01-PDF0141-notes_right-L004}{}{}{lumna Solis non computetur.}
+\hypertarget{AB01-PDF0141-N08}{}
+\DLine{AB01-PDF0141-notes_right-L005}{}{}{\Indent (8) Quinta et sexta.}
+\hypertarget{AB01-PDF0141-N09}{}
+\DLine{AB01-PDF0141-notes_right-L006}{}{}{\Indent (9) \Name{Schiaparelli} duce, interpretandum vi-}
+\DLine{AB01-PDF0141-notes_right-L007}{}{}{detur: « et quoad quartam columnam, exhibetur in}
+\DLine{AB01-PDF0141-notes_right-L008}{}{}{« ea pars proportionalis ad 60 sumenda de numeris}
+\DLine{AB01-PDF0141-notes_right-L009}{}{}{« qui in quinta columna notantur ».}
+\end{minipage}
+
+\DSource{0142}{53}
+\hypertarget{AB01-PDF0142-P01}{}
+\DLine{AB01-PDF0142-body-L001}{}{}{\Indent Lineam ME (1) usque ad L producamus, et L cum F coniungamus (2); in triangulo MLF}
+\DLine{AB01-PDF0142-body-L002}{}{}{latera proportionalia (3), anguli noti sunt. Arcum AM, ut Ptolemaeus statuit, $120^\circ$ ponamus (4),}
+\DLine{AB01-PDF0142-body-L003}{}{}{quae est dupla elongatio Lunae a Sole. Quoniam rationem sinuum ad semidiametrum (5) re-}
+\DLine{AB01-PDF0142-body-L004}{}{}{ferimus, angulus EFL (6) $30^\circ$, eiusque complementum FEL $60^\circ$ continebit, iuxta rationem qua}
+\DLine{AB01-PDF0142-body-L005}{5}{}{circulus triangulum FEL circumdans $360^\circ$ complectitur. Sinus anguli EFL (7) $30^p$ quoque erit,}
+\DLine{AB01-PDF0142-body-L006}{}{}{et sinus anguli FEL circiter $51^p58'$ (8) ex partibus quarum linea EF 60 continet; sed si huic}
+\DLine{AB01-PDF0142-body-L007}{}{}{lineae $10^p19'$ tantum (9) tribuantur, linea EL $5^p10'$, linea FL $9^p16'$ (10) circiter fiet. Cum}
+\DLine{AB01-PDF0142-body-L008}{}{}{in figura linea EKN epicyclum tetigerit, et locus Lunae in epicyclo fuerit punctum K, erit}
+\DLine{AB01-PDF0142-body-L009}{}{}{id maximum quod attingit summa primae inaequalitatis et secundae. Cum autem semidiame-}
+\DLine{AB01-PDF0142-body-L010}{10}{}{trus MK epicycli et semidiametrus FM excentrici notae sint, ex ratione FM et FL ratio li-}
+\DLine{AB01-PDF0142-body-L011}{}{}{neae ML deprehendetur, eritque tota ML $48^p53'$; de qua, linea EL scilicet $5^p10'$ demptis,}
+\DLine{AB01-PDF0142-body-L012}{}{p. 81.}{remanet linea EM a centro [Terrae sive zodiaci] progrediens $43^p43'$. Semidiametrum MK}
+\DLine{AB01-PDF0142-body-L013}{}{}{epicycli vidimus $5^p15'$ esse: sed si lineae EM a centro [Terrae vel zodiaci] progredienti $60^p$}
+\DLine{AB01-PDF0142-body-L014}{}{}{tribuantur, semidiametrus MK epicycli declivis [ab apogeo excentrici] $7^p12'$ circiter fiet,}
+\DLine{AB01-PDF0142-body-L015}{15}{}{et arcus MK super eam insistens $6^\circ54'$ (11) fere continebit. De quo, si tota simplex inaequali-}
+\DLine{AB01-PDF0142-body-L016}{}{}{tas, idest $5^\circ1'$, dematur, altera inaequalitas ei adiecta remanebit $1^\circ53'$; et si illi $2^\circ\qfrac{2}{3}$ (12) fiant}
+\DLine{AB01-PDF0142-body-L017}{}{}{$60'$, hi $1^\circ53'$ in partes sexagesimas $0^\circ42'38''$ (13) convertentur, quae sub numero 120 in}
+\DLine{AB01-PDF0142-body-L018}{}{}{quarta (14) columna reperiuntur. {\itshape Hoc secundum rationem minutorum ad gradum, quae}}
+\DLine{AB01-PDF0142-body-L019}{}{}{{\itshape est ratio $0^\circ42'38''$ ad $60'$. Si haec $0^\circ42'38''$ usque ad $60'$ crescunt, ea $1^\circ53'$ fiunt}}
+\DLine{AB01-PDF0142-body-L020}{20}{}{{\itshape $2^\circ39'$, quae in quinta} (15) {\itshape columna sub numero 120} (16) {\itshape leguntur} ({\itshape c}).}
+\par\noindent\begin{minipage}[t]{0.43\FullSourceWidth}\vspace{0pt}\centering\hypertarget{AB01-PDF0142-F01}{}\includegraphics[width=\linewidth]{AB01-PDF0142-F01.png}\end{minipage}\hfill\begin{minipage}[t]{0.55\FullSourceWidth}\vspace{0pt}\setlength{\GutterOffset}{0.44999999999999996\FullSourceWidth}
+\hypertarget{AB01-PDF0142-P02}{}
+\DLine{AB01-PDF0142-body-L021}{}{}{\Indent Nunc differentiam inter apogeum verum et apo-}
+\DLine{AB01-PDF0142-body-L022}{}{}{geum medium (17), idest arcum HG, cognoscamus.}
+\DLine{AB01-PDF0142-body-L023}{}{}{Elongatio Lunae a Sole, iuxta motum medium du-}
+\DLine{AB01-PDF0142-body-L024}{}{}{plicatum, sit $90^\circ30'$, ut Ptolemaeus (18) in figura}
+\DLine{AB01-PDF0142-body-L025}{25}{}{ex qua id deprehenditur posuit; et motus Lunae in}
+\DLine{AB01-PDF0142-body-L026}{}{}{epicyclo a puncto A sit $333^\circ12'$. Ad haec explicanda}
+\DLine{AB01-PDF0142-body-L027}{}{}{hunc circulum ponamus.}
+\hypertarget{AB01-PDF0142-P03}{}
+\DLine{AB01-PDF0142-body-L028}{}{}{\Indent Dicit [auctor]: Circa centrum D diametrumque}
+\DLine{AB01-PDF0142-body-L029}{}{}{AC sit excentricus ABC; E ponamus centrum ecli-}
+\DLine{AB01-PDF0142-body-L030}{30}{}{pticae, B centrum epicycli MGH. Lineas BM, EBG}
+\DLine{AB01-PDF0142-body-L031}{}{}{ducamus, BE usque ad K protrahentes, et K cum}
+\DLine{AB01-PDF0142-body-L032}{}{}{D coniungamus, ita ut angulus KDE sit dimidius}
+\DLine{AB01-PDF0142-body-L033}{}{}{gradus qui $90^\circ$ excedit; et arcus EK dimidium gra-}\end{minipage}\par
+\par\vspace{6pt}\hrule height.25pt\vspace{5pt}
+\noindent\begin{minipage}[t]{.48\textwidth}\vspace{0pt}\fontsize{9}{11.5}\selectfont\setlength{\GutterOffset}{0pt}
+\hypertarget{AB01-PDF0142-N01}{}
+\DLine{AB01-PDF0142-notes_left-L001}{}{}{\Indent (1) Vide figuram pag. 51. --- Iisdem numeris}
+\DLine{AB01-PDF0142-notes_left-L002}{}{}{demonstratio legitur in {\itshape Almag.} V, 7 (= ed. Halma,}
+\DLine{AB01-PDF0142-notes_left-L003}{}{}{t. I, p. 313--314).}
+\hypertarget{AB01-PDF0142-N02}{}
+\DLine{AB01-PDF0142-notes_left-L004}{}{}{\Indent (2) FL est perpendicularis ad KL.}
+\hypertarget{AB01-PDF0142-N03}{}
+\DLine{AB01-PDF0142-notes_left-L005}{}{}{\Indent (3) Interpretandum videtur: « proportiones la-}
+\DLine{AB01-PDF0142-notes_left-L006}{}{}{terum sunt notae ».}
+\hypertarget{AB01-PDF0142-N04}{}
+\DLine{AB01-PDF0142-notes_left-L007}{}{}{\Indent (4) Non arcum AM, sed angulum AEM Ptole-}
+\DLine{AB01-PDF0142-notes_left-L008}{}{}{maeus $120^\circ$ complecti statuit; arcus AM subtendit}
+\DLine{AB01-PDF0142-notes_left-L009}{}{}{angulum AFM maiorem quam AEM (\Name{Schiapa-}}
+\DLine{AB01-PDF0142-notes_left-L010}{}{}{\Name{relli}).}
+\hypertarget{AB01-PDF0142-N05}{}
+\DLine{AB01-PDF0142-notes_left-L011}{}{}{\Indent (5) Plato addit: « et ad quadrantem circuli ».}
+\hypertarget{AB01-PDF0142-N06}{}
+\DLine{AB01-PDF0142-notes_left-L012}{}{}{\Indent (6) Cod. et Plato, ut parum infra, AEM.}
+\hypertarget{AB01-PDF0142-N07}{}
+\DLine{AB01-PDF0142-notes_left-L013}{}{}{\Indent (7) Cod. et Plato, ut supra, AEM.}
+\end{minipage}
+\hfill\begin{minipage}[t]{.48\textwidth}\vspace{0pt}\fontsize{9}{11.5}\selectfont\setlength{\GutterOffset}{0pt}
+\hypertarget{AB01-PDF0142-N08}{}
+\DLine{AB01-PDF0142-notes_right-L001}{}{}{\Indent (8) Codex $11^p18'$.}
+\hypertarget{AB01-PDF0142-N09}{}
+\DLine{AB01-PDF0142-notes_right-L002}{}{}{\Indent (9) Est excentricitas paulo antea reperta.}
+\hypertarget{AB01-PDF0142-N10}{}
+\DLine{AB01-PDF0142-notes_right-L003}{}{}{\Indent (10) Plato $18^p56'$.}
+\hypertarget{AB01-PDF0142-N11}{}
+\DLine{AB01-PDF0142-notes_right-L004}{}{}{\Indent (11) Gradus in cod. $5^\circ$.}
+\hypertarget{AB01-PDF0142-N12}{}
+\DLine{AB01-PDF0142-notes_right-L005}{}{}{\Indent (12) Maximae secundae inaequalitatis, cf. su-}
+\DLine{AB01-PDF0142-notes_right-L006}{}{}{pra p. 52.}
+\hypertarget{AB01-PDF0142-N13}{}
+\DLine{AB01-PDF0142-notes_right-L007}{}{}{\Indent (13) Pro $42'$ Plato semper 45.}
+\hypertarget{AB01-PDF0142-N14}{}
+\DLine{AB01-PDF0142-notes_right-L008}{}{}{\Indent (14) Vel potius quinta, cfr. supra p. 51, adn. 6}
+\DLine{AB01-PDF0142-notes_right-L009}{}{}{et 7; p. 52, adn. 7 et 8.}
+\hypertarget{AB01-PDF0142-N15}{}
+\DLine{AB01-PDF0142-notes_right-L010}{}{}{\Indent (15) Vel potius sexta.}
+\hypertarget{AB01-PDF0142-N16}{}
+\DLine{AB01-PDF0142-notes_right-L011}{}{}{\Indent (16) Sed in tabulis sub numero 110 reperiuntur.}
+\hypertarget{AB01-PDF0142-N17}{}
+\DLine{AB01-PDF0142-notes_right-L012}{}{}{\Indent (17) In tabulis {\itshape aequatio anomaliae} appellatur.}
+\hypertarget{AB01-PDF0142-N18}{}
+\DLine{AB01-PDF0142-notes_right-L013}{}{}{\Indent (18) {\itshape Almag.} V, 6 (ed. Halma t. I, p. 308--311).}
+\end{minipage}
+\end{document}

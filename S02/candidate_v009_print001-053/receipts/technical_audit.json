@@ -1,0 +1,30 @@
+{
+  "auditor": "Producing assistant-run read-only technical checks; not an independent human or philological reviewer",
+  "checks": {
+    "all_nine_flags_accepted": true,
+    "285_not_287": true,
+    "fraction_chain_complete": true,
+    "Pachon_macron": true,
+    "efficiunt_not_efficiant": true,
+    "dies_not_degree": true,
+    "U07_orders": true,
+    "164_verso": true,
+    "second_dash": true,
+    "source_parentheses_omissions": true,
+    "quote_continuation_signs": true,
+    "all_five_reviewed_margin_locators": true,
+    "no_lowercase_order_signs": true,
+    "source_excerpts_pixel_match": true,
+    "inherited40_byte_identical": true,
+    "source_page_range_contiguous": true,
+    "no_new_translation": true,
+    "two_clean_builds_each": true,
+    "byte_identical_each": false,
+    "no_missing_characters": true
+  },
+  "passed": 19,
+  "total": 20,
+  "status": "FAIL",
+  "candidate_patched_by_auditor": false,
+  "full_visual_reading_audit": false
+}

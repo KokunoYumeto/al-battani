@@ -94,3 +94,16 @@ Pp. 1–35 are byte-identical to v002 plus the pp. 31–35 extension. Pp. 36–4
     - the crops enclose each diagram; the p. 47 box is extended by 4 pt so that it no longer shaves the circles' lowest arcs
   - Three readings are corrected: al-Battānī and al-Farghānī (the final macron was lost), and 1ᵖ (not 1°) in p. 46 n. 14.
   - Apparatus letters and letter-spaced names are aligned with pp. 1–40.
+
+## Cumulative candidate v009, printed pp. 1–53 (2026-09-26)
+
+`candidate_v009_print001-053/` is ChatGPT's cumulative package in line-anchored form (printed line numbers and margin locators on every line), with six corrections applied. It leaves out `qa/` and `history/`. The full record is in [`INDEPENDENT_CHECK_v009.md`](candidate_v009_print001-053/INDEPENDENT_CHECK_v009.md).
+
+- **Manifest and builds.** The manifest verifies 344/344. The reader (54 pp.) and both partial documents build cleanly with XeLaTeX.
+- **Pp. 1–40.** Byte-identical to the v006 candidate.
+- **Pp. 41–48.** They contain every reading corrected in the two checks above. The 13 new margin locators match the scan.
+- **Pp. 49–53** (new). Read line by line against the scan, notes, line numbers and locators included. P. 49 matches completely. Six slips were corrected here, four of them silent "grammatical" normalisations:
+  - *successioni* signorum on p. 50, three times
+  - *determinatur* (p. 51)
+  - a comma after AH (p. 52)
+  - *semidiame-*/trus (p. 53)

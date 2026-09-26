@@ -1,0 +1,32 @@
+id	source_anchor	before	after	disposition	responsibility	comment
+U01	AB01-PDF0130-body-L019	287	285	ACCEPTED	User scan-check; assistant integration	Damaged 5; embedded-text misreading, not a historical emendation.
+U02	AB01-PDF0130-body-L019	fraction unresolved	1/20	ACCEPTED	User scan-check; assistant integration	Confirmed by user from scan.
+U03	AB01-PDF0130-body-L025	Greek accent unresolved	[ἄρχων]	ACCEPTED	User scan-check; assistant integration	Brackets and accent retained.
+U04	AB01-PDF0130-N04	untranscribed formula	\dfrac{1+1/5}{360}=\dfrac{6/5}{360}=\dfrac{6}{1800}=\dfrac{1}{300}.	ACCEPTED	User scan-check; assistant integration	Exact four-member printed chain; no inferred arrangement.
+U05	AB01-PDF0131-body-L011;0131-body-L013	fraction unresolved	2/5 in both occurrences	ACCEPTED	User scan-check; assistant integration	Confirmed independently of arithmetic.
+U06	AB01-PDF0131-P03;0131-N06;0131-N09;0131-N10	lowercase iv/v/vi	upright uppercase IV/V/VI superscripts	ACCEPTED	User scan-check; assistant integration	Seven numerical strings retained; order signs corrected.
+U07	AB01-PDF0131-N09	30 and42 with unknown orders	Codex male 30^{IV} et 42^{VI}	ACCEPTED	User scan-check; assistant integration	Exact orders accepted.
+U08	AB01-PDF0132-P05	PKLRMY uncertain	PKLRMY	ACCEPTED	User scan-check; assistant integration	Literal printed sequence preserved; semantic P05 anchor is stable.
+U09	AB01-PDF0132-N02	unclosed citation flagged	no closing parenthesis	ACCEPTED	User scan-check; assistant integration	Printed omission retained, not silently repaired.
+E01	AB01-PDF0130-body-L020	superantis, ad	superantis, --- ad	ACCEPTED	User scan-check; assistant integration	Second dash restored.
+E02	AB01-PDF0130-N02;0131-N02;0131-N03	al-Battāni	al-Battānī	ACCEPTED	User scan-check; assistant integration	Final macron restored; source initial capital retained in p41n2.
+E03	AB01-PDF0131-body-L008	Pachon	Pachōn	ACCEPTED	User scan-check; assistant integration	Printed macron restored.
+E04	AB01-PDF0131-body-L020	efficiant	efficiunt	ACCEPTED	User scan-check; assistant integration	OCR misreading corrected.
+E05	AB01-PDF0131-body-L017;0131-N05	365 degrees	365^d14′26″;365^d14′48″	ACCEPTED	User scan-check; assistant integration	Day superscripts, not degrees.
+E06	AB01-PDF0131-N02	XXXII. Hunc	XXXII. --- Hunc	ACCEPTED	User scan-check; assistant integration	Dash restored.
+E07	AB01-PDF0131-N05	24s. Ptolemaeus	24s. --- Ptolemaeus	ACCEPTED	User scan-check; assistant integration	Dash restored.
+E08	AB01-PDF0131-N06	p.916.)	p.916.	ACCEPTED	User scan-check; assistant integration	Printed absence of closing parenthesis retained.
+E09	AB01-PDF0131-N07	164 recto	fol.164,v.--166,v., et186,v.--189,r.	ACCEPTED	User scan-check; assistant integration	Verso locator; line break retained in source form.
+T01	AB01-PDF0130-0132	roman Almag.	italic Almag.	ACCEPTED	User scan-check; assistant integration	All abbreviation occurrences in reviewed range.
+T02	AB01-PDF0130-0132	roman or whole italic parentheses	italic a-d letters inside roman parentheses	ACCEPTED	User scan-check; assistant integration	Historical apparatus calls, not new notes.
+T03	AB01-PDF0131-body-L024	roman medium Solis	italic medium Solis	ACCEPTED	User scan-check; assistant integration	Defined term.
+T04	AB01-PDF0132-N04	quotation type incomplete	source italic phrase and repeated line-initial «	ACCEPTED	User scan-check; assistant integration	The quoted quae...nant phrase, not the entire first line, is italic.
+T05	AB01-PDF0131-N04;0131-N05;0131-N08	upright d h m s	italic d h m s	ACCEPTED	User scan-check; assistant integration	Mathematical time units retain italic letters.
+T06	AB01-PDF0131-N02;0131-N05;0131-N06;0131-N09;0131-N10;0132-N03	ordinary spacing	letter-spaced proper names	ACCEPTED	User scan-check; assistant integration	Ibn Yūnus, Caussin, Halley, specified Ptolemaeus occurrences, Schiaparelli.
+L01	AB01-PDF0130-body-L006	missing locator	p.62 right at printed l6	ACCEPTED	User scan-check; assistant integration	Line-form integration; user supplied position.
+L02	AB01-PDF0130-body-L030	missing locator	p.63 right at printed l30	ACCEPTED	User scan-check; assistant integration	Line-form integration; user supplied position.
+L03	AB01-PDF0131-body-L017	missing locator	p.64 left at printed l17	ACCEPTED	User scan-check; assistant integration	Line-form integration; user supplied position.
+L04	AB01-PDF0132-P02	missing locator	p.65 right at printed l15	ACCEPTED	User scan-check; assistant integration	Source-line number, not sequential L anchor.
+L05	AB01-PDF0132-P05	missing locator	p.66 right at printed last line39	ACCEPTED	User scan-check; assistant integration	Seam locator retained.
+L06	AB01-PDF0130-0132	line numbers absent	visible 5-line source numbering	ACCEPTED	User scan-check; assistant integration	Heading/blank positions are included in printed-source line-number sequence.
+S01	AB01-PDF0132-P05;0133-P01	seam at p43/44	denique arcum PKLRMY excentrici eam excentrici / partem quam Sol medio suo itinere	ACCEPTED	User scan-check; assistant integration	No supplied word, punctuation or new paragraph substituted at source seam.

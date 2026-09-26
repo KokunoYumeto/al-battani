@@ -1,0 +1,62 @@
+{
+  "schema_version": 2,
+  "session": "S02",
+  "version": "v009",
+  "status": "USER_CORRECTIONS_INTEGRATED_CONTINUATION_CANDIDATE",
+  "assigned_master_pages": [
+    90,
+    198
+  ],
+  "assigned_printed_pages": [
+    1,
+    109
+  ],
+  "cumulative_candidate_master_pages": [
+    90,
+    142
+  ],
+  "cumulative_candidate_printed_pages": [
+    1,
+    53
+  ],
+  "candidate_pages": 53,
+  "remaining_pages": 56,
+  "last_saved_transcription_candidate": "AB01-PDF0142",
+  "last_fully_transcribed_source_unit": "AB01-PDF0142",
+  "transcription_boundary_definition": "Saved editable candidate coverage; not an assertion of exhaustive source or final render verification.",
+  "first_untouched_source_unit": "AB01-PDF0143",
+  "last_fully_verified_source_unit": null,
+  "verified_ranges": [
+    {
+      "master_pages": [
+        130,
+        132
+      ],
+      "printed_pages": [
+        41,
+        43
+      ],
+      "scope": "Readings and specified typography",
+      "responsibility": "User scan-check; assistant integration"
+    }
+  ],
+  "line_form_integrated_ranges": [
+    [
+      130,
+      142
+    ]
+  ],
+  "new_line_anchors": 687,
+  "new_math_spans": 312,
+  "new_margin_locators": 20,
+  "resolved_U01_U09": true,
+  "source_review_vs_current_output": "User verified41–43. Later lines are candidates reconstructed from prior source-linked work. Current rendered output is generated but final visual inspection is not asserted.",
+  "all_builds_pass": true,
+  "all_builds_byte_identical": false,
+  "S01_modified": false,
+  "S03_started": false,
+  "canonical_arabic_modified": false,
+  "new_target_language_translations": [],
+  "human_review_required_to_continue": false,
+  "next_action": "Continue at master PDF143, printed p.54; check the current candidate against source/render without reopening the nine resolved user readings."
+}

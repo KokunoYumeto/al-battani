@@ -1,0 +1,677 @@
+Al-Battani: complete supporting documents and session requests
+
+Each section preserves one original UTF-8 text file. Byte counts and hashes identify the exact payload between its markers.
+
+===== BEGIN FILE: 00_READ_FIRST_AL_BATTANI_AUTHOR_PROJECT.md =====
+Bytes: 3746
+SHA256: 1e1c06a3d95bfc7771e4f6e5696274db4b969a967221f07c225f344914f599a0
+===== CONTENT =====
+# Al-Battani — one-author source Project
+
+This is an additive, source-gated Project for the securely attributed and reader-relevant corpus of Abū ʿAbd Allāh Muḥammad ibn Jābir al-Battānī. It supersedes no source, packet, edition, or output. It performs no transcription by being uploaded.
+
+## Start here
+
+1. Read files `00` through `11` before choosing a session.
+2. Paste exactly one dormant `12_SESSION_*.txt` through `27_SESSION_*.txt` prompt. Do not run every session at once.
+3. Work only on the ranges and roles assigned to that session. Return a cumulative checkpoint and the required evidence ledgers.
+4. Never produce a bilingual or facing-page reader. Produce a separate Arabic source edition, a separate historical Latin/Nallino edition where that layer is being preserved, and one separate monolingual edition for each target language.
+
+## Corpus boundary
+
+Tier A is the complete extant *al-Zīj al-Ṣābiʾ*: 57 chapters and tables. The controlling local witness is Nallino’s three-part 1,162-page edition. It contains distinct authorship layers: al-Battānī’s Arabic text and tables; Nallino’s Latin translation, notes, prefaces, indices, and edition apparatus; and copy-specific scan matter. Never collapse these roles.
+
+Tier B maps five smaller works reported by the primary bibliography. Two have complete usable payloads here: the astrological-history work in a 136-page Arabic/English critical publication, and the 40-chapter commentary on Ptolemy’s *Tetrabiblos* as a 122-page-side CC BY transcription. The trigonometric *Tajrīd* remains source-unacquired and attribution-questioned. Two other titles are probably the material already present as Zīj chapters 54 and 55; do not create duplicate works without evidence.
+
+## Controlling sources
+
+- `30_NALLINO_PARS_I_II_III_MASTER_1162P.pdf`: complete 600/604-ppi master; SHA-256 and topology are in `03_SOURCE_WITNESS_GATE.tsv`.
+- `31_NALLINO_PARS_III_RGB_COMPARATOR_292P.pdf`: 400-ppi RGB Part III comparator.
+- `35_KENNEDY_ET_AL_ASTROLOGICAL_HISTORY_136P.pdf`: full article, Arabic edition, English translation, diagrams, recomputation, and commentary. Its CC BY-NC-ND license permits use as a source/reference but does not authorize a derivative republication of the editors’ article.
+- `36_PAL_TETRABIBLOS_COMMENTARY_CC_BY_XML.zip`: exact-commit CC BY 4.0 transcription, Escorial árabe 969 fols.20r–80v.
+- `32`, `33`, and `34`: prior component, working state, and page-map evidence. They are continuity/recovery material, never authority over the scans.
+
+## Non-negotiable production rules
+
+- Immutable diplomatic/source-language layer, separate faithful translation, separate restrained critical apparatus.
+- Direct source replay; OCR and prior TeX are witnesses only.
+- Never silently modernize, correct, complete, or reattribute.
+- Every formula, table cell, diagram, title, corrigendum, blank, and excluded page receives a disposition.
+- If a figure or table cannot be faithfully reconstructed in editable form, use a highest-resolution authoritative crop plus a separate conservative presentation derivative and record hashes and operations.
+- Remove “Digitized by Google,” library plates, barcodes, call numbers, bindings, and provider UI from the scholarly body, but preserve them in provenance/topology.
+- No human review gate. Build, render, inspect, hash, disclose unresolved items, and use independent cold audit.
+
+The first old component, T01, is already owned at master PDF450–455 / Part II printed pp.1–6. It must be replayed before reuse; the first untouched Tier-A source unit is Part I frontispiece/master PDF2 for complete-edition production, and Part II printed p.7/master PDF456 for continuation of the old table lane.
+
+===== END FILE: 00_READ_FIRST_AL_BATTANI_AUTHOR_PROJECT.md =====
+
+===== BEGIN FILE: 01_PROJECT_CONTRACT.md =====
+Bytes: 2908
+SHA256: 8b26713e0fe2f59c949471042b7ba8417f991b02699b209faa3ee1aed4cc8352
+===== CONTENT =====
+# Project contract
+
+## Objective
+
+Create a source-faithful, author-aware, independently auditable corpus from the attached witnesses. The Project is reader-complete at Tier A when all 57 chapters and all tables of the extant *Zīj* have complete dispositions and separate monolingual editions. Tier B is complete only to the exact payload/access states in the maps; never infer missing manuscript pixels.
+
+## Authorship and edition layers
+
+Use stable role tags:
+
+- `AB_TEXT`: al-Battānī’s Arabic prose.
+- `AB_TABLE`: al-Battānī’s tabular or diagrammatic content.
+- `AB_SMALL_WORK`: securely attributed smaller work.
+- `NALLINO_TRANSLATION`: Nallino’s Latin translation.
+- `NALLINO_APPARATUS`: Nallino’s prefaces, notes, corrections, indices, and editorial matter.
+- `MODERN_EDITORIAL`: later edition, translation, recomputation, or commentary.
+- `COPY_PROVENANCE`: holding-copy marks, presentation statements, bindings, labels.
+- `SCAN_EXTRINSIC`: digitizer/provider UI, service cards, watermarks, barcodes.
+- `UNCERTAIN`: unresolved boundary, reading, or attribution.
+
+Never present Nallino or modern editorial material as al-Battānī’s authorship. Never strip their credit when preserving those layers.
+
+## Edition architecture
+
+Return separate artifacts:
+
+1. Arabic diplomatic/source edition keyed to source anchors.
+2. Historical Latin/Nallino edition only for the Nallino layer assigned in S01–S09.
+3. One faithful monolingual target-language edition per language.
+4. One restrained critical apparatus keyed to stable IDs, not colored chat boxes.
+5. Machine-readable page/table/figure/evidence/unresolved ledgers.
+
+No bilingual artifact is permitted. Translation begins from a named canonical Arabic checkpoint and rechecks the authoritative pixels. Translation findings are correction proposals, never silent patches.
+
+## Source priority
+
+1. Exact source pixels or exact committed transcription for the owned unit.
+2. Alternate high-resolution witness for damaged/ambiguous regions.
+3. Edition apparatus and published translations as labelled comparators.
+4. OCR, prior working TeX, and prior outputs as untrusted recovery evidence.
+
+## Fidelity and presentation
+
+Preserve mathematical content before elegance. Editable LaTeX/TikZ/SVG is preferred only when every visible relation is reproduced. Otherwise preserve a raw crop and make a conservative crop/deskew/grayscale/levels derivative without inpainting, label changes, geometry changes, or conjectural completion. Increase contrast only when faint source content remains demonstrably intact.
+
+## Completion
+
+A session closes only after every owned unit is transcribed or explicitly disposed; outputs build; representative and boundary pages are rendered and inspected; hashes and evidence are returned; and a separate cold auditor replays without patching. Human certification may arrive later but is never required for release.
+
+===== END FILE: 01_PROJECT_CONTRACT.md =====
+
+===== BEGIN FILE: 02_AUTHOR_BIBLIOGRAPHY_AND_TIER_MAP.tsv =====
+Bytes: 2213
+SHA256: 6b3627280d488b04c26deed3013e233efa74245c52116d9fd19cb3efb7da6030
+===== CONTENT =====
+work_id	tier	canonical_title	attribution	known_extent_or_identity	payload_state	reader_priority	disposition
+AB01	A	al-Zij al-Sabi (Sabi' Zij)	secure al-Battani; Nallino edition distinguishes author/editor layers	complete extant 57 chapters plus tables in Escorial arabe 908	complete local 1162-page standard edition; separate 292-page Part III comparator	immediate	produce complete Arabic source edition, separate monolingual translations, and separately credited Nallino historical layer
+AB02	B	Kitab fi dala'il al-qiranat wa-l-kusufat	secure al-Battani	unique Ankara Ismail Saib 199/2 fols.27v-42v; astrological history with 21 horoscopes	complete 136-physical-page published Arabic edition, English translation, recomputation, and commentary	immediate after Tier A	use as full source/reference payload; separate AB_TEXT from modern editorial layers; respect publication license
+AB03	B	Sharh Kitab al-arba'a li-Batlamiyus	secure al-Battani	40-chapter commentary; Escorial arabe 969/2 fols.20r-80v; Berlin Sprenger 1840 comparator	complete exact-commit CC BY transcription: 122 manuscript page-side XML files plus work XML	immediate after Tier A	produce Arabic source edition from committed transcription; preserve PAL editorial conventions and credit
+AB04	B	Tajrid usul tarkib al-juyub	questioned attribution	small trigonometry work; Istanbul Carullah 1499/3	bibliographic identity only; no local pixels or transcription	hold	do not fabricate or merge into canon; acquire manuscript/edition and reassess attribution
+AB05	A-linked	Kitab tahqiq aqdar al-ittisalat [bi-hasab urud al-kawakib]	listed by Ibn al-Nadim; probably Zij chapter 54	projection of rays with planetary latitudes	present within complete Zij source; independent-work identity unproved	immediate through AB01	map to chapter 54 and do not duplicate unless independent witness proves a separate work
+AB06	A-linked	Kitab Matali' al-buruj fi ma bayna arba' al-falak	listed by Ibn al-Nadim; probably Zij chapter 55	ascensions between cardinal points / tasyir methods	present within complete Zij source; independent-work identity unproved	immediate through AB01	map to chapter 55 and do not duplicate unless independent witness proves a separate work
+
+===== END FILE: 02_AUTHOR_BIBLIOGRAPHY_AND_TIER_MAP.tsv =====
+
+===== BEGIN FILE: 03_SOURCE_WITNESS_GATE.tsv =====
+Bytes: 2876
+SHA256: fa087cb5a0b3a916ea2f0cc655fcc809fb68419e842f566d4ad6367ede0d0d28
+===== CONTENT =====
+source_id	filename_or_route	work_ids	role	physical_units	quality_and_topology	rights_or_access	sha256	status
+SRC01	30_NALLINO_PARS_I_II_III_MASTER_1162P.pdf	AB01;AB05;AB06	controlling complete standard edition	1162 PDF pages	main pages 600/604 ppi; service/color pages 300 ppi; Parts I-II-III in one master; Part III Arabic scans in reverse logical order	public-domain historical edition/scan; provider overlays excluded from body	544C16B6355C9B74E281ADED657D657224BFF738366D5260E1A610D31B0D6297	PASS
+SRC02	31_NALLINO_PARS_III_RGB_COMPARATOR_292P.pdf	AB01;AB05;AB06	alternate Part III color/grayscale comparator	292 PDF pages	400 ppi RGB with masks; exact local structural map; separate page = master page minus 865	public-domain historical edition/scan	F60D9C2D3A0FAA6D7841CEC0197A2B3F4FAABC5BBB32DFDC19DB9ECC3CC3DD67	PASS
+SRC03	32_PRIOR_T01_PACKET_BYTE_EXACT.zip	AB01	owned prior six-page component and complete-master continuity	15 prior files	master PDF450-455 / Part II printed pp.1-6; must be replayed before reuse	local continuity evidence	computed in packet manifest	UNTRUSTED_RECOVERY
+SRC04	33_ROUND83_WORKING_STATE_UNTRUSTED.zip	AB01	prior multilingual working state	40 files	partial tables and mixed-language architecture; never completion evidence	local continuity evidence	computed in packet manifest	UNTRUSTED_RECOVERY
+SRC05	34_PART_III_PAGE_MAPS_AND_QA.zip	AB01	structural/logical-order evidence	18 files	maps all 292 Part III pages; logical Arabic order and page classes; replay against SRC01/SRC02	local analysis evidence	computed in packet manifest	PASS_WITH_REPLAY_REQUIRED
+SRC06	35_KENNEDY_ET_AL_ASTROLOGICAL_HISTORY_136P.pdf	AB02	complete published edition/translation/commentary	136 PDF pages	Suhayl 9 (2009-2010), printed pp.13-148; complete Arabic edition, English translation, 21 horoscopes, recomputation	CC BY-NC-ND 3.0 ES at repository; source/reference use, no derivative republication of editorial article	3BC5B525639261CCCF1A6E78176F66C5AC2C4299DD2D0A051072CDAB149B7BEF	PASS_REFERENCE
+SRC07	36_PAL_TETRABIBLOS_COMMENTARY_CC_BY_XML.zip	AB03	complete Arabic transcription	123 XML files total: 1 work + 122 page sides	Escorial 20r-80v; Berlin folio correspondences; 40 chapters; exact Git commit 762614d992ac588389f10309cb180e0a34b3459c	CC BY 4.0 except unrelated excluded Quadripartitum edition	FDD456FFB64C20ED2DB46A16862E1180379D10D619F5F46AF7B71871972049F2	PASS
+SRC08	37_BIBLIOGRAPHY_LICENSE_AND_PROVIDER_EVIDENCE.zip	AB01-AB06	identity/license/provider evidence	bounded evidence archive	BEA bibliography, PAL work/license pages and exact commit metadata, UB metadata	mixed; evidence only	computed in packet manifest	PASS
+SRC09	Istanbul Carullah 1499/3	AB04	known manuscript route	unknown local page count	bibliographically attested; attribution questioned because terminology differs from Zij	no local payload	NOT_COMPUTED	HOLD_MISSING_SOURCE
+
+===== END FILE: 03_SOURCE_WITNESS_GATE.tsv =====
+
+===== BEGIN FILE: 04_MASTER_TOPOLOGY_AND_DISPOSITION_MAP.tsv =====
+Bytes: 2927
+SHA256: f20f6cac3b9483378af53c34ad8ead01a4c1bd7a0f8ac0ca125c93da35d9e2dd
+===== CONTENT =====
+master_pdf_start	master_pdf_end	part_or_role	logical_order	owned_units	required_disposition
+1	1	Google service card	physical	1	exclude from scholarly body; provenance only
+2	2	Part I substantive astronomical frontispiece	physical	1	preserve diagram; remove/crop only provider UI from presentation derivative; raw crop retained
+3	3	Princeton holding-library plate	physical	1	copy provenance only
+4	9	front blanks/binding matter	physical	6	record blank/binding dispositions; exclude body
+10	10	Part I half-title	physical	1	intrinsic edition front matter
+11	11	blank	physical	1	record blank
+12	89	Part I title, dedication, preface, Nallino apparatus	physical	78	preserve as NALLINO_APPARATUS; never al-Battani authorship
+90	416	Part I Latin translation with notes; printed pp.1-327	physical	327	preserve AB_TEXT content through NALLINO_TRANSLATION/NALLINO_APPARATUS role separation
+417	417	blank	physical	1	record blank
+418	418	Part II half-title	physical	1	intrinsic edition front matter
+419	419	blank	physical	1	record blank
+420	448	Part II title, preface, bibliography, addenda/corrigenda	physical	29	preserve NALLINO_APPARATUS
+449	449	blank	physical	1	record blank
+450	862	Part II tables, notes, indices; printed pp.1-413	physical	413	preserve AB_TABLE and NALLINO_APPARATUS separately; master 450-455 is prior T01
+863	863	blank	physical	1	record blank
+864	864	presentation statement plus Part II half-title	physical	1	separate COPY_PROVENANCE presentation statement from intrinsic repeated half-title
+865	867	binding/blank/color scan matter	physical	3	provenance/topology only
+868	868	Part III half-title	physical	1	intrinsic edition front matter
+869	869	blank	physical	1	record blank
+870	870	Part III Latin title	physical	1	intrinsic edition front matter
+871	871	Part III imprint	physical	1	intrinsic edition front matter
+872	872	Part III corrigenda	physical	1	preserve and link to affected anchors
+873	925	Part III Arabic end tables; separate PDF pp.8-60	logical descending master 925 to 873	53	transcribe after Arabic main text; table-first workflow
+926	1146	Part III Arabic main text; separate PDF pp.61-281	logical descending master 1146 to 926	221	transcribe right-to-left in descending master page order
+1147	1151	Arabic chapter list; separate PDF pp.282-286	logical descending master 1151 to 1147	5	place after Arabic title and before main text
+1152	1152	near-blank; separate PDF p.287	physical	1	record blank/stray mark
+1153	1153	Arabic title; separate PDF p.288	logical first Arabic reader page	1	preserve intrinsic title
+1154	1154	blank; separate PDF p.289	physical	1	record blank
+1155	1155	Arabic half-title; separate PDF p.290	physical	1	intrinsic repeated title; provenance position recorded
+1156	1160	blank/binding/service matter	physical	5	provenance/topology only
+1161	1161	Princeton barcode/library label	physical	1	copy provenance only; exclude body
+1162	1162	back cover	physical	1	binding provenance only
+
+===== END FILE: 04_MASTER_TOPOLOGY_AND_DISPOSITION_MAP.tsv =====
+
+===== BEGIN FILE: 05_SESSION_MAP.tsv =====
+Bytes: 2585
+SHA256: e651d8c966ebe519ab4f007255f1bfb393145ed5ba0255b05d4342bd92462a11
+===== CONTENT =====
+session_id	work_id	source_id	owned_source_units	approx_units	production_role	first_source_unit	last_source_unit	continuity_note
+S01	AB01	SRC01	master PDF2; PDF10; PDF12-89	80	Nallino Part I frontispiece/front matter/preface	PDF2	PDF89	first complete-edition unit; disposition PDF1-89
+S02	AB01	SRC01	master PDF90-198 / Part I printed pp.1-109	109	Latin translation and notes	PDF90	PDF198	start printed p1
+S03	AB01	SRC01	master PDF199-307 / Part I printed pp.110-218	109	Latin translation and notes	PDF199	PDF307	continue exact printed sequence
+S04	AB01	SRC01	master PDF308-416 / Part I printed pp.219-327	109	Latin translation and notes	PDF308	PDF416	close Part I; disposition through PDF419
+S05	AB01	SRC01	master PDF418; PDF420-448	30	Part II half-title/front matter/preface/corrigenda	PDF418	PDF448	disposition PDF417-449
+S06	AB01	SRC01;SRC03	master PDF450-549 / Part II printed pp.1-100	100	tables and notes	PDF450	PDF549	replay prior T01 at PDF450-455; first untouched old-lane unit PDF456
+S07	AB01	SRC01	master PDF550-649 / Part II printed pp.101-200	100	tables and notes	PDF550	PDF649	continue table blocks
+S08	AB01	SRC01	master PDF650-749 / Part II printed pp.201-300	100	tables and notes	PDF650	PDF749	continue table blocks
+S09	AB01	SRC01	master PDF750-862 / Part II printed pp.301-413	113	tables, notes, indices	PDF750	PDF862	close Part II; disposition PDF863-869
+S10	AB01	SRC01;SRC02;SRC05	master PDF868; 870-872; 1153; 1151-1147; 1146-1073 descending	84	Part III titles/corrigenda/TOC and Arabic main text block 1	PDF868	PDF1073 logical end	Arabic reading order, not PDF order
+S11	AB01	SRC01;SRC02;SRC05	master PDF1072-999 descending	74	Arabic main text block 2	PDF1072	PDF999 logical end	Arabic reading order
+S12	AB01	SRC01;SRC02;SRC05	master PDF998-926 descending	73	Arabic main text block 3	PDF998	PDF926 logical end	Arabic reading order
+S13	AB01	SRC01;SRC02;SRC05	master PDF925-873 descending	53	Arabic tables/editorial note	PDF925	PDF873 logical end	close Arabic body; disposition PDF1152 and 1154-1162 separately
+S14	AB03	SRC07	Escorial 20r-80v XML page sides	122	Arabic Tetrabiblos commentary, 40 chapters	20r	80v	CC BY transcription; preserve PAL editorial signs
+S15	AB02	SRC06	publication physical PDF1-136 / printed pp.13-148	136	astrological-history work and labelled modern editorial layers	PDF1	PDF136	separate AB_SMALL_WORK from edition/translation/commentary
+S16	AB01-AB06	all	all completed session artifacts	NA	integration, monolingual assembly, correction routing, cold audit	all	all	no new source transcription; do not hide gaps AB04 or duplicate AB05/AB06
+
+===== END FILE: 05_SESSION_MAP.tsv =====
+
+===== BEGIN FILE: 06_COMMON_SESSION_PROTOCOL.md =====
+Bytes: 2460
+SHA256: dc8a422ec71223f254f673acd254a41f2a76ef285d3ad79f0c8d0f1e49734492
+===== CONTENT =====
+# Common session protocol
+
+Every production prompt inherits this file and `08_UNIVERSAL_GALOIS_DERIVED_PRODUCTION_STANDARD.txt`.
+
+## Before work
+
+- Read the maps and verify the attached source byte/hash/page identity.
+- Name the canonical Arabic checkpoint/hash being used.
+- Inventory every owned source unit. If a listed unit is absent or unreadable, record the exact failure and continue with every unaffected unit; do not invent content.
+- Establish `last_fully_transcribed_source_unit`, `last_fully_verified_source_unit`, and `first_untouched_source_unit`.
+
+## Production
+
+- Maintain stable anchors: `AB01-PDF####`, `AB02-PDF####`, or `AB03-F###r/v` plus line/table/region IDs.
+- Preserve formulas, numbers, sexagesimal notation, table coordinates, diagrams, marginalia, and correction marks exactly before interpretation.
+- Tag authorship/edition roles from `01_PROJECT_CONTRACT.md`.
+- Table workflow: return a visual-faithful LaTeX table and a machine-readable CSV/TSV. Every row/column/header/spanner must trace to a source region. Never normalize a number silently.
+- Figure workflow: editable reconstruction only if complete; otherwise return raw crop plus conservative presentation derivative, SHA-256, source rectangle, and operations.
+- Do not include provider/digitizer/library matter in the scholarly body. Record it in page disposition/provenance.
+
+## Required return
+
+1. Arabic diplomatic/source TeX for owned AB content.
+2. Separately credited historical Latin/Nallino TeX where the session owns that layer.
+3. One separate faithful monolingual target-language TeX per requested language; never bilingual.
+4. Restrained critical apparatus with stable note IDs and categories (`reading`, `formula`, `table`, `attribution`, `historical`, `modern clarification`).
+5. Page/source disposition ledger.
+6. Formula/table/figure provenance ledgers.
+7. Unresolved-reading ledger with bounded alternatives and confidence.
+8. Proposed canonical-correction ledger; no silent patches.
+9. Canonical synchronization receipt naming the source checkpoint.
+10. Deterministic file manifest and build/render receipts.
+11. Cumulative checkpoint fields.
+
+## Verification
+
+Build twice. Render and inspect first, last, dense-table, formula, figure, and damaged/ambiguous samples. A separate cold auditor must replay source coverage, hashes, builds, and visual samples without editing the production outputs. Human review is welcome later but never a completion gate.
+
+===== END FILE: 06_COMMON_SESSION_PROTOCOL.md =====
+
+===== BEGIN FILE: 07_PRIOR_OUTPUT_CONTINUITY_AND_GAPS.tsv =====
+Bytes: 1387
+SHA256: ddd74859c664ab00b2f67491f8f898cdbe4bdd3e210cdcbf83186cf222dcdaf8
+===== CONTENT =====
+item_id	artifact	role	verified_boundary	reuse_rule	first_untouched_or_gap
+OLD01	32_PRIOR_T01_PACKET_BYTE_EXACT.zip	owned prior table component	Part II master PDF450-455 / printed pp.1-6	unpack and replay every reading/cell against SRC01 before reuse	master PDF456 / printed p7
+OLD02	33_ROUND83_WORKING_STATE_UNTRUSTED.zip	current working/recovery state	40 files; mixed/trilingual; self-reports partial tables	recovery/comparison only; never completion or authority	all unreplayed content remains untouched
+OLD03	34_PART_III_PAGE_MAPS_AND_QA.zip	structural analysis	all 292 separate Part III PDF pages classified and logical order mapped	replay mapping against SRC01/SRC02; preserve corrected reverse order	no source gap; production not implied
+GAP01	Istanbul Carullah 1499/3	Tajrid source route	bibliographic identity only	do not produce or claim secure attribution without source	complete work payload and attribution reassessment
+GAP02	Escorial arabe 908 original manuscript	Zij manuscript authority	complete manuscript bibliographically established	Nallino is current production authority; record original-manuscript collation as later Tier B	full manuscript-pixel collation
+GAP03	Berlin Sprenger 1840 images	Tetrabiblos comparator	folio correspondence embedded in PAL transcription	PAL XML is complete text payload; record missing comparator pixels	complete manuscript image payload
+
+===== END FILE: 07_PRIOR_OUTPUT_CONTINUITY_AND_GAPS.tsv =====
+
+===== BEGIN FILE: 08_UNIVERSAL_GALOIS_DERIVED_PRODUCTION_STANDARD.txt =====
+Bytes: 6576
+SHA256: 504069b411632f330e6dfe43970e28b7fd6ee7decc50288a846d920caa7dc18b
+===== CONTENT =====
+UNIVERSAL GALOIS-DERIVED PRODUCTION STANDARD
+=============================================
+
+Recorded: 2026-08-16
+
+This is the controlling production architecture for every applicable transcription packet prepared by this task. It supersedes any older instruction that would blend languages, silently repair a source transcription, omit difficult figures, or treat a clean build as proof of source fidelity.
+
+1. Bounded ownership
+--------------------
+Do only the work/range named by the active session prompt. A packet label proves only its stated witness/work/range boundary; it does not prove a complete author corpus. Use the declared highest-resolution primary pixels, page topology, source map, and witness roles. OCR, prior TeX, translations, and navigation PDFs are comparison witnesses unless explicitly promoted by a source gate.
+
+2. Separate monolingual editions
+--------------------------------
+Never request or produce a bilingual, facing-page, or mixed-language edition. Produce one standalone monolingual source-language edition. Produce one independent standalone monolingual edition for each target language. N target languages require N target-language editions. Cross-language comparison belongs in evidence ledgers and canonical correction records, not in a combined reader.
+
+3. Three editorial layers
+-------------------------
+Layer 1 is an immutable diplomatic/source-faithful transcription keyed to stable source anchors. Preserve witnessed wording, spelling, notation, formulas, errors, uncertainties, page/line structure, figures, and intrinsic publication matter. Never silently normalize or emend it.
+
+Layer 2 is a faithful direct translation of a recorded Layer-1 checkpoint. It preserves meaning, logical force, notation, uncertainty, and source anchors. It never silently corrects, strengthens, modernizes, or adds hypotheses.
+
+Layer 3 is a separately labelled critical edition/apparatus. Corrections, qualifications, reconstructions, later mathematical knowledge, proof repairs, counterexamples, and explanatory modernization belong only here. Layer 3 never rewrites Layers 1 or 2.
+
+4. Critical apparatus and style
+-------------------------------
+Give every finding a stable apparatus ID and exact source coordinates. Record: issue class; diplomatic reading; faithful translation; proposed critical reading; required hypotheses; proof, counterexample, or witness evidence; confidence; propagation impact; prior-notice result; and citations. Distinguish a proved repair from a conjectural reconstruction and from an unresolved reading. Never back-project later mathematics into the historical author's voice.
+
+Use restrained scholarly typography: unobtrusive note markers, footnotes/endnotes, and a numbered Critical Notes appendix. Do not use repeated colored boxes, chat cards, warning panels, or decorative callouts as the apparatus language.
+
+5. Figures and diagrams
+-----------------------
+A figure never disappears because editable reconstruction is difficult. Use LaTeX/TikZ/SVG only when every visible line, curve, label, glyph, datum, orientation, and spatial relation can be reproduced faithfully. Otherwise retain an untouched crop from the highest-resolution authority and create a separate presentation derivative for inclusion with \\includegraphics. Permitted operations are content-preserving crop, deskew, rotation, grayscale, background/level adjustment, and bilevel conversion only when no information is removed. Never erase faint strokes, add or strengthen lines, close gaps, alter glyphs/labels/geometry, inpaint, or conjecturally complete damage. Return raw and derivative files, source coordinates/crop box, dimensions, every operation and parameter, SHA-256 hashes, insertion status, and render comparison.
+
+6. Extrinsic scan matter
+------------------------
+Exclude non-publication digitizer/platform/holding-library matter from the scholarly body unless it is intrinsic to the historical witness or publication. Examples include “Digitized by Google,” “Original from the University of Michigan,” scanner or repository notices, platform watermarks, barcodes, call slips, ownership stamps, scale bars, color targets, service cards, and copy-specific bindings. Record relevant copy evidence only in witness provenance/topology or a labelled apparatus note.
+
+7. Mandatory return evidence
+----------------------------
+Return named monolingual TeX/PDF artifacts; a disposition for every owned physical source unit; source/line/page alignment; evidence ledger; unresolved-reading ledger; witness-variant ledger where applicable; critical-findings ledger; figure-provenance ledger; correction-routing and language-synchronization receipts; deterministic build/render receipt; and a self-excluding SHA-256 manifest. Checkpoints must name last_fully_transcribed_source_unit, last_fully_verified_source_unit, and first_untouched_source_unit. Preserve superseded checkpoints with reasons and hashes.
+
+Every translation independently replays its owned source pixels. Suspected canon errors return as evidence-backed proposals; they are never silent patches. Accepted corrections create a new canonical checkpoint and propagate to affected language editions while preserving earlier releases.
+
+8. Integration and cold audit
+-----------------------------
+Integration must prove exact coverage with no gap/overlap, replay every seam, inspect every figure/flagged formula/blank/colophon/trailing leaf, compile cleanly, and visually inspect the render. An independent cold auditor replays the candidate without patching it. A failure freezes that candidate; repair produces a successor and reruns the complete audit. Human review may be welcomed later but is never a release gate. Build success alone is not source verification.
+
+Scholarly-editing basis
+-----------------------
+- MLA Committee on Scholarly Editions: reliability requires accuracy, adequacy, appropriateness, consistency, and explicitness; alterations and variants require documented apparatus. https://tei-c.org/Vault/ETE/Preview/guidelines.html
+- TEI P5 Critical Apparatus: stable apparatus entries, base readings/lemmas, variant readings, witness attribution, responsibility, and certainty. https://www.tei-c.org/release/doc/tei-p5-doc/en/html/TC.html
+- Association for Documentary Editing minimum standards: consistent transcription conventions and disclosure of image editing, with an unedited version retained when extensive clarity edits are made. https://documentaryediting.org/resources/about-documentary-editing/minimum-standards-for-electronic-editions/
+
+
+===== END FILE: 08_UNIVERSAL_GALOIS_DERIVED_PRODUCTION_STANDARD.txt =====
+
+===== BEGIN FILE: 09_MULTILINGUAL_QA_FEEDBACK_LOOP.txt =====
+Bytes: 2785
+SHA256: e4a915568034e13a90cf7f7bab16620da400815210054a126e34683a3685ad52
+===== CONTENT =====
+MULTILINGUAL QA FEEDBACK LOOP - DIRECT USER SCOPE
+==================================================
+
+Recorded: 2026-08-16
+
+Controlling current instruction
+-------------------------------
+The user reaffirmed: "And get the full author corpora."
+
+The user also specified that multilingual translation is part of the quality-assurance architecture:
+
+"first do a pass that's reasonably accurate. Then you translate it, ask the translating ... AI agent, to do a source check against the scans ... and then ping the one that maintains the canon corpus with any errors it finds. And then the canon corpus corrects the errors, we have a translation. Translation watches the canon corpus in a every few days checking in kind of way. New translation starts, based on the new canon corpus, pings it again with any errors it finds, and maintains watch on the canon corpus in case it changes, and then adapts in case a new translation finds new errors."
+
+Operational interpretation
+--------------------------
+1. The corpus boundary is the full reasonably discoverable author corpus, with exact inaccessible/lost/unverified gaps; it is not the current local packet, a single work, or the currently translated subset.
+2. The canonical source-language edition remains the shared correction target and must stay traceable to source pixels.
+3. Every translation begins from a recorded canonical version/hash and independently rechecks its owned range against the authoritative scans rather than translating unverified prose alone.
+4. A translation never silently patches the canon. It returns evidence-backed proposed corrections with source coordinates, affected canonical anchors, reasoning, confidence, and propagation impact.
+5. Accepted canonical corrections create a new canonical checkpoint/version. Every language edition records which canonical checkpoint it tracks, periodically checks for later canonical changes, and integrates applicable corrections without erasing its earlier release history.
+6. A later language translation is another independent semantic/source reading and may discover errors missed by earlier passes. Its findings route back to the same canon and then outward to every affected language.
+7. Multilingual feedback is additive QA, not a substitute for initial source replay, formula/diagram inspection, deterministic build/render validation, unresolved-reading disclosure, or independent audit.
+8. Packet prompts and return protocols must expose this loop explicitly through a canonical-version field, source-check findings ledger, correction-routing ledger, and translation synchronization receipt.
+
+This is a packet/methodology instruction. It does not authorize contacting user-owned tasks from this task. It governs the artifacts and dormant prompts prepared here.
+
+===== END FILE: 09_MULTILINGUAL_QA_FEEDBACK_LOOP.txt =====
+
+===== BEGIN FILE: 10_LICENSE_ACCESS_AND_PROVENANCE.md =====
+Bytes: 1427
+SHA256: 0986b706c97d5545bafacac6a0b21add66393863bf5530e7258e22834bf6e28f
+===== CONTENT =====
+# License, access, and provenance
+
+- Nallino’s 1899–1907 edition is a historical public-domain source. The Google/Princeton scan is evidence, not authorship. “Digitized by Google,” the Princeton plate/barcode, UI cards, and binding matter must never enter the scholarly body.
+- The PAL al-Battānī commentary transcription was acquired from exact Git commit `762614d992ac588389f10309cb180e0a34b3459c`. PAL’s exact license file states CC BY 4.0 applies to all transcriptions except one unrelated Quadripartitum edition. That excluded edition is not in the attached subtree.
+- The 2009–2010 *Astrological History* publication is supplied by the Universitat de Barcelona repository under CC BY-NC-ND 3.0 ES. It is a complete source/reference witness. Do not republish or adapt the editors’ article under an incompatible license. Any new transcription of al-Battānī’s underlying public-domain text must be independently grounded, clearly attributed, and kept distinct from their translation/commentary.
+- The BEA PDF and provider pages in the evidence archive establish identity, extent, and access claims; they are not production copy.
+- Unknown or restricted manuscript access is recorded as a gap, not bypassed.
+
+Attribution must name al-Battānī for his works and must separately credit Nallino, Kennedy and colleagues, Nadine Löhr/PAL, manuscript repositories, and source providers in their actual roles.
+
+===== END FILE: 10_LICENSE_ACCESS_AND_PROVENANCE.md =====
+
+===== BEGIN FILE: 11_PACKET_VALIDATION_STATUS.md =====
+Bytes: 2089
+SHA256: 0e09b153a2fc84288efeaa9b257b5fd8de8a6a95e20f068c8138133024b76861
+===== CONTENT =====
+# Packet validation status — PASS
+
+Current source-gate facts:
+
+- Complete Nallino master: 1,162 pages, 80,946,704 bytes, SHA-256 `544C16B6355C9B74E281ADED657D657224BFF738366D5260E1A610D31B0D6297`.
+- Part III comparator: 292 pages, 25,151,980 bytes, SHA-256 `F60D9C2D3A0FAA6D7841CEC0197A2B3F4FAABC5BBB32DFDC19DB9ECC3CC3DD67`.
+- Astrological-history publication: 136 pages, 9,743,194 bytes, SHA-256 `3BC5B525639261CCCF1A6E78176F66C5AC2C4299DD2D0A051072CDAB149B7BEF`.
+- PAL subtree: exact commit archive with 123 XML files and no unsafe paths, SHA-256 `FDD456FFB64C20ED2DB46A16862E1180379D10D619F5F46AF7B71871972049F2`.
+- Representative and transition pages from all PDFs were rendered and visually inspected during source gating, including the substantive master PDF2 frontispiece and all three part boundaries.
+
+Cold source replay passed before promotion:
+
+- Flat upload tree: 38 files including the self-excluding manifest; zero empty files; zero files at or above 500,000,000 bytes; fewer than 40 files.
+- Master topology: 32 rows cover PDF1–1162 exactly once; zero gaps and zero overlaps.
+- Session map: 16 unique sessions and 16 matching paste-ready prompt files.
+- Prior T01 archive: 15/15 source files byte/hash-equal to archive members.
+- Round 83 archive: 40/40 source files byte/hash-equal to archive members.
+- Part III page-map archive: 18/18 source files byte/hash-equal to archive members.
+- PAL archive: 129 entries, 123 XML files, zero unsafe paths, zero UTF-8 errors, zero XML parse errors.
+- Evidence archive: 8/8 files fully readable, zero unsafe paths.
+- All three production PDFs independently report 1,162 / 292 / 136 pages through pypdf and mutool; every page content stream was read with zero failures.
+- Visual QA passed for source beginnings, ends, all three part transitions, dense tables, Arabic main text, Arabic title/corrigenda, the UB edition/translation/diagram/table samples, and BEA bibliography pages.
+
+Canonical/Desktop equality and the final global state receipt are recorded in the durable seal receipt after promotion. Human review is not a gate.
+
+===== END FILE: 11_PACKET_VALIDATION_STATUS.md =====
+
+===== BEGIN FILE: 12_SESSION_S01_PART_I_FRONTMATTER_PDF002_089.txt =====
+Bytes: 883
+SHA256: bc25fb62b49e4a13558b11bd66110974259419b9a6c3148c83ad45b17a9e2aeb
+===== CONTENT =====
+Read `00_READ_FIRST_AL_BATTANI_AUTHOR_PROJECT.md` through `11_PACKET_VALIDATION_STATUS.md`. Execute **S01 only**. Own master PDF2, PDF10, and PDF12–89; make exact dispositions for every PDF1–89 unit. PDF2 is a substantive astronomical frontispiece and must not disappear because it is difficult: preserve an untouched raw crop and either reconstruct it completely or make a conservative presentation derivative with the Google UI removed and all hashes/operations recorded. Treat PDF3 and provider/library matter as provenance, not scholarly content. Preserve Nallino’s Part I title, dedication, preface, bibliography, and apparatus under `NALLINO_APPARATUS`, never as al-Battānī authorship. Follow the common protocol and universal standard. Return separate monolingual artifacts only, all ledgers, deterministic builds/renders, and a cumulative checkpoint. Stop after S01.
+
+===== END FILE: 12_SESSION_S01_PART_I_FRONTMATTER_PDF002_089.txt =====
+
+===== BEGIN FILE: 13_SESSION_S02_PART_I_PRINT001_109.txt =====
+Bytes: 729
+SHA256: e0abba8481d17f18d3baba044ddc37d8a70026730d3d63e775725648b7f53ab0
+===== CONTENT =====
+Read files `00`–`11`. Execute **S02 only**: master PDF90–198, Part I printed pp.1–109. Replay every page against SRC01. Preserve al-Battānī’s content as `AB_TEXT`, Nallino’s Latin as `NALLINO_TRANSLATION`, and his notes as `NALLINO_APPARATUS`; do not merge their authorship. Preserve all formulas, chapter headings, diagrams, variants, and references. Return an Arabic-source-linked diplomatic structure, separately credited historical Latin/Nallino TeX, separate monolingual target-language TeX, restrained apparatus, all evidence/disposition/formula/figure/unresolved/correction/synchronization ledgers, deterministic builds/renders, and the cumulative checkpoint. Never produce a bilingual reader. Stop after S02.
+
+===== END FILE: 13_SESSION_S02_PART_I_PRINT001_109.txt =====
+
+===== BEGIN FILE: 14_SESSION_S03_PART_I_PRINT110_218.txt =====
+Bytes: 646
+SHA256: b8a284038de59229642cd245394a1907a57988c6bf677591f50718493bc9ebb3
+===== CONTENT =====
+Read files `00`–`11`. Execute **S03 only**: master PDF199–307, Part I printed pp.110–218. Continue the exact anchors and role tags from S02, but verify every owned page directly rather than inheriting prior prose. Preserve formulas, sexagesimal numbers, diagrams, chapter boundaries, notes, and variants. If a faithful vector figure is impossible, return raw and conservative presentation crops with hashes and operations. Return separately credited historical Latin/Nallino TeX and separate monolingual target-language artifacts—never bilingual—plus all protocol ledgers, builds/renders, and the cumulative checkpoint. Stop after S03.
+
+===== END FILE: 14_SESSION_S03_PART_I_PRINT110_218.txt =====
+
+===== BEGIN FILE: 15_SESSION_S04_PART_I_PRINT219_327.txt =====
+Bytes: 589
+SHA256: 9cf82dbdadefdddb2602e6655c4c8f90733fc766261af0aed63446ac3822285e
+===== CONTENT =====
+Read files `00`–`11`. Execute **S04 only**: master PDF308–416, Part I printed pp.219–327, then dispose master PDF417–419 as blank/half-title/blank topology without importing provider marks. Preserve `AB_TEXT`, `NALLINO_TRANSLATION`, and `NALLINO_APPARATUS` separately. Close every Part I page/formula/figure/note anchor and reconcile cross-references to earlier sessions without silently patching them. Return separate monolingual artifacts, restrained apparatus, full evidence and correction ledgers, deterministic builds/renders, and a Part-I closure checkpoint. Stop after S04.
+
+===== END FILE: 15_SESSION_S04_PART_I_PRINT219_327.txt =====
+
+===== BEGIN FILE: 16_SESSION_S05_PART_II_FRONTMATTER_PDF418_448.txt =====
+Bytes: 674
+SHA256: 97f92ab1483071063d5ab95ef14e18dfcc4632fc97110590d80354bec49fc626
+===== CONTENT =====
+Read files `00`–`11`. Execute **S05 only**: master PDF418 and PDF420–448; dispose PDF417–449 completely. Preserve the Part II half-title, title, preface, bibliography, table-order discussion, addenda, and corrigenda as `NALLINO_APPARATUS`. Link every corrigendum to the affected source anchor without silently applying it to the immutable layer. Keep copy-specific marks and scan overlays out of the scholarly body. Return separately credited historical Latin/Nallino TeX, separate monolingual target-language artifacts where translation is requested, all protocol ledgers, deterministic builds/renders, and the cumulative checkpoint. Never bilingual. Stop after S05.
+
+===== END FILE: 16_SESSION_S05_PART_II_FRONTMATTER_PDF418_448.txt =====
+
+===== BEGIN FILE: 17_SESSION_S06_PART_II_PRINT001_100.txt =====
+Bytes: 623
+SHA256: ad090c7dcaeb7f11b175d4e05f2ad45d2358885c281f4c22e578dfc42df847df
+===== CONTENT =====
+Read files `00`–`11`. Execute **S06 only**: master PDF450–549 / Part II printed pp.1–100. Unpack `32_PRIOR_T01_PACKET_BYTE_EXACT.zip` only as recovery evidence. Replay PDF450–455 / printed pp.1–6 cell by cell before accepting any prior reading; master PDF456 / printed p.7 is the first untouched unit of the old table lane. For every table return source-faithful LaTeX plus machine-readable CSV/TSV with row/column/region provenance. Preserve `AB_TABLE` separately from Nallino notes. Return separate monolingual editions only, all protocol ledgers, builds/renders, and the cumulative checkpoint. Stop after S06.
+
+===== END FILE: 17_SESSION_S06_PART_II_PRINT001_100.txt =====
+
+===== BEGIN FILE: 18_SESSION_S07_PART_II_PRINT101_200.txt =====
+Bytes: 559
+SHA256: 2ed7a47b6d5dd93b79d5074d26321330052e385eb83bb70fdf129ebf6ad7e38d
+===== CONTENT =====
+Read files `00`–`11`. Execute **S07 only**: master PDF550–649 / Part II printed pp.101–200. Use a table-first workflow: every numeral, sexagesimal place, header, spanner, footnote, diagram, and table continuation must trace to a source region. Do not silently normalize errors or interpolate missing cells. Keep al-Battānī tables and Nallino apparatus separately attributed. Return source-faithful LaTeX and CSV/TSV tables, separate monolingual editions only, full ledgers, deterministic builds/renders, and the cumulative checkpoint. Stop after S07.
+
+===== END FILE: 18_SESSION_S07_PART_II_PRINT101_200.txt =====
+
+===== BEGIN FILE: 19_SESSION_S08_PART_II_PRINT201_300.txt =====
+Bytes: 565
+SHA256: 6e165237d81d1d373092353a8eba83e447d6fd0df0a0ab49f726c96cc6e3b1df
+===== CONTENT =====
+Read files `00`–`11`. Execute **S08 only**: master PDF650–749 / Part II printed pp.201–300. Replay all table cells and mathematical notes directly. Maintain stable table IDs and continuation relationships across session boundaries. When layout cannot be reproduced without information loss, include a source-faithful image object plus raw/presentation crop hashes and operations; do not omit it. Return separate monolingual editions only, source-faithful LaTeX and CSV/TSV, all required ledgers, builds/renders, and the cumulative checkpoint. Stop after S08.
+
+===== END FILE: 19_SESSION_S08_PART_II_PRINT201_300.txt =====
+
+===== BEGIN FILE: 20_SESSION_S09_PART_II_PRINT301_413.txt =====
+Bytes: 611
+SHA256: f3874792a92155ddaca8aa6dcfe1957e347453ddbf6da84549842cd2dc531f46
+===== CONTENT =====
+Read files `00`–`11`. Execute **S09 only**: master PDF750–862 / Part II printed pp.301–413, then dispose PDF863–869. Preserve late tables, geographic and historical indices, cross-references, and Nallino editorial material with correct role tags. PDF864 combines a copy-specific presentation statement with a repeated intrinsic half-title; separate those roles. Close every Part II table/page/note anchor and reconcile prior session proposals without silent patches. Return separate monolingual editions only, all ledgers, deterministic builds/renders, and a Part-II closure checkpoint. Stop after S09.
+
+===== END FILE: 20_SESSION_S09_PART_II_PRINT301_413.txt =====
+
+===== BEGIN FILE: 21_SESSION_S10_PART_III_ARABIC_BLOCK1.txt =====
+Bytes: 621
+SHA256: 0c27de7085943b8e08747c08266dcff189238b19c2c6b3539fe28671b5ff45f4
+===== CONTENT =====
+Read files `00`–`11`. Execute **S10 only** using SRC01, SRC02, and SRC05. Own master PDF868, PDF870–872, Arabic title PDF1153, chapter list PDF1151→1147, and Arabic main text PDF1146→1073 in that **descending logical order**. Never typeset the Arabic text in scan order. Dispose intervening front/tail units exactly. Preserve title/imprint/corrigenda roles and link corrections without altering the diplomatic layer silently. Return Arabic diplomatic TeX, separate monolingual target-language TeX, restrained apparatus, all ledgers, builds/renders, and the cumulative checkpoint. Never bilingual. Stop after S10.
+
+===== END FILE: 21_SESSION_S10_PART_III_ARABIC_BLOCK1.txt =====
+
+===== BEGIN FILE: 22_SESSION_S11_PART_III_ARABIC_BLOCK2.txt =====
+Bytes: 595
+SHA256: f536f58abd819a4e06d1852c201aee8a494975269d106c8ca66572828e8a0c31
+===== CONTENT =====
+Read files `00`–`11`. Execute **S11 only**: Arabic main text master PDF1072→999, descending logical order, cross-checked against the 400-ppi RGB Part III comparator. Preserve line order, chapter headings, formulas, sexagesimal notation, diagrams, marginal evidence, and uncertainties. Use the source-faithful image fallback where necessary. Return Arabic diplomatic TeX, separate monolingual target-language artifacts, restrained apparatus, all source/formula/figure/unresolved/correction/synchronization ledgers, deterministic builds/renders, and the cumulative checkpoint. Stop after S11.
+
+===== END FILE: 22_SESSION_S11_PART_III_ARABIC_BLOCK2.txt =====
+
+===== BEGIN FILE: 23_SESSION_S12_PART_III_ARABIC_BLOCK3.txt =====
+Bytes: 512
+SHA256: 25ea54faf07bda5347c97bfe46a245c6b3d58ca1c73f2b9593978e966a2bd314
+===== CONTENT =====
+Read files `00`–`11`. Execute **S12 only**: Arabic main text master PDF998→926, descending logical order, using both Part III witnesses. Verify every formula and diagram directly; never accept OCR reversal or prior working text as authority. Maintain stable anchors and cross-session chapter continuity. Return Arabic diplomatic TeX, separate monolingual target-language artifacts only, restrained apparatus, all required ledgers, deterministic builds/renders, and the cumulative checkpoint. Stop after S12.
+
+===== END FILE: 23_SESSION_S12_PART_III_ARABIC_BLOCK3.txt =====
+
+===== BEGIN FILE: 24_SESSION_S13_PART_III_ARABIC_TABLES.txt =====
+Bytes: 663
+SHA256: fe0effae30ce44115fdf561bb76c2a3753a42f582fd04a5f65ba1f653aa93789
+===== CONTENT =====
+Read files `00`–`11`. Execute **S13 only**: master PDF925→873 in descending logical order, corresponding to separate Part III PDF60→8. This is the Arabic end-table and editorial-note block. Return source-faithful Arabic LaTeX plus machine-readable CSV/TSV for every table, with complete row/column/region provenance. Preserve the Arabic note/corrections and all diagrams. Dispose PDF1152 and PDF1154–1162 separately, keeping Arabic half-title PDF1155 intrinsic while excluding Google/Princeton/barcode/binding matter from the body. Return separate monolingual editions only, all ledgers, builds/renders, and a Part-III closure checkpoint. Stop after S13.
+
+===== END FILE: 24_SESSION_S13_PART_III_ARABIC_TABLES.txt =====
+
+===== BEGIN FILE: 25_SESSION_S14_TETRABIBLOS_COMMENTARY.txt =====
+Bytes: 717
+SHA256: f5f4efe2d691a7013ba9e932c0365cf7c6aed57608bf8eb009baa44cc68f2440
+===== CONTENT =====
+Read files `00`–`11`. Execute **S14 only** on `36_PAL_TETRABIBLOS_COMMENTARY_CC_BY_XML.zip`: work XML plus Escorial 20r–80v, 122 page-side XML files, 40 chapters, exact commit `762614d992ac588389f10309cb180e0a34b3459c`. Preserve PAL’s editorial symbols, folio anchors, Berlin correspondences, normalization disclosure, and Nadine Löhr/PAL credit. The committed transcription is CC BY 4.0, but still distinguish manuscript text from editor additions and uncertain readings. Return a separate Arabic source edition and separate monolingual target-language edition(s), never bilingual, plus restrained apparatus, all protocol ledgers, deterministic builds/renders, and a complete AB03 checkpoint. Stop after S14.
+
+===== END FILE: 25_SESSION_S14_TETRABIBLOS_COMMENTARY.txt =====
+
+===== BEGIN FILE: 26_SESSION_S15_ASTROLOGICAL_HISTORY.txt =====
+Bytes: 766
+SHA256: 57186fc06f5bc72581bbf68dca0da38688281a38b2bf838e874e8bd365373d1f
+===== CONTENT =====
+Read files `00`–`11`. Execute **S15 only** on `35_KENNEDY_ET_AL_ASTROLOGICAL_HISTORY_136P.pdf`, all 136 physical pages / printed pp.13–148. Separate al-Battānī’s `AB_SMALL_WORK` Arabic text from the modern editors’ introduction, English translation, diagrams, recomputation, and commentary. The attached publication is CC BY-NC-ND 3.0 ES: use it as a complete source/reference witness and do not issue a derivative republication of the editors’ article. Produce any new al-Battānī source transcription only from visibly anchored underlying text and with full provenance; treat editor translation/commentary as labelled comparator. Return separate monolingual artifacts only, all ledgers, builds/renders, and a complete AB02 checkpoint. Stop after S15.
+
+===== END FILE: 26_SESSION_S15_ASTROLOGICAL_HISTORY.txt =====
+
+===== BEGIN FILE: 27_SESSION_S16_INTEGRATION_AND_COLD_AUDIT.txt =====
+Bytes: 801
+SHA256: 3945def3dff2d402154ac5348d70c8644efd7db667afe7addffa8985475af615
+===== CONTENT =====
+Read files `00`–`11` and every completed session checkpoint. Execute **S16 only**. Do not transcribe a new source unit. Reconcile stable anchors, roles, table/figure/formula ledgers, proposed corrections, and canonical-version receipts across AB01–AB03. Assemble separate Arabic, historical Latin/Nallino, and per-target-language monolingual artifacts; never make a bilingual reader. Keep AB04 explicitly source-unacquired and attribution-questioned. Map AB05/AB06 to Zīj chapters 54/55 without duplicating them as works. Build twice; render and inspect all boundaries and dense mathematical samples; hash everything; then run an independent cold audit that may report failures but may not patch production. Close with exact coverage/gap/status receipts and no human-review gate. Stop after S16.
+
+===== END FILE: 27_SESSION_S16_INTEGRATION_AND_COLD_AUDIT.txt =====
+
+===== BEGIN FILE: 38_SOURCE_GATE_VALIDATION_20260816.json =====
+Bytes: 3239
+SHA256: 52d81633106b8597323a2614231616171307b9f050909ac32a70c019a27a301b
+===== CONTENT =====
+{
+  "schema_version": 1,
+  "validated_utc": "2026-08-16T18:41:56.2011539Z",
+  "status": "PASS",
+  "packet_constraints_before_manifest": {
+    "files": 37,
+    "bytes": 208227945,
+    "zero_byte_files": 0,
+    "files_at_or_over_500000000_bytes": 0,
+    "flat_tree": true
+  },
+  "maps": {
+    "bibliography_rows": 6,
+    "source_gate_rows": 9,
+    "topology_rows": 32,
+    "topology_units": 1162,
+    "topology_unique_units": 1162,
+    "topology_gaps": 0,
+    "topology_overlaps": 0,
+    "session_rows": 16,
+    "session_prompt_files": 16
+  },
+  "pdfs": [
+    {
+      "file": "30_NALLINO_PARS_I_II_III_MASTER_1162P.pdf",
+      "bytes": 80946704,
+      "pages": 1162,
+      "content_stream_bytes_read": 36045643,
+      "page_read_failures": 0,
+      "sha256": "544C16B6355C9B74E281ADED657D657224BFF738366D5260E1A610D31B0D6297"
+    },
+    {
+      "file": "31_NALLINO_PARS_III_RGB_COMPARATOR_292P.pdf",
+      "bytes": 25151980,
+      "pages": 292,
+      "content_stream_bytes_read": 6969338,
+      "page_read_failures": 0,
+      "sha256": "F60D9C2D3A0FAA6D7841CEC0197A2B3F4FAABC5BBB32DFDC19DB9ECC3CC3DD67"
+    },
+    {
+      "file": "35_KENNEDY_ET_AL_ASTROLOGICAL_HISTORY_136P.pdf",
+      "bytes": 9743194,
+      "pages": 136,
+      "content_stream_bytes_read": 8287066,
+      "page_read_failures": 0,
+      "sha256": "3BC5B525639261CCCF1A6E78176F66C5AC2C4299DD2D0A051072CDAB149B7BEF"
+    }
+  ],
+  "archives": [
+    {
+      "file": "32_PRIOR_T01_PACKET_BYTE_EXACT.zip",
+      "entries": 15,
+      "files": 15,
+      "source_hash_mismatches": 0,
+      "unsafe_paths": 0,
+      "sha256": "17332E08756284C7CDB4A6CED36D5824CD9E33F33BF548D97610DF97F70BBD2C"
+    },
+    {
+      "file": "33_ROUND83_WORKING_STATE_UNTRUSTED.zip",
+      "entries": 40,
+      "files": 40,
+      "source_hash_mismatches": 0,
+      "unsafe_paths": 0,
+      "sha256": "D65D1B3455321307D0A12F84B7866D860F5AA5043D6EC2EEF1A7470C87D0AC73"
+    },
+    {
+      "file": "34_PART_III_PAGE_MAPS_AND_QA.zip",
+      "entries": 18,
+      "files": 18,
+      "source_hash_mismatches": 0,
+      "unsafe_paths": 0,
+      "sha256": "A0CAB6257B9E3A784835D5837E899C1F78A317A2E2769DFB4756B81D94E43EEE"
+    },
+    {
+      "file": "36_PAL_TETRABIBLOS_COMMENTARY_CC_BY_XML.zip",
+      "entries": 129,
+      "files": 123,
+      "xml_files": 123,
+      "xml_parse_errors": 0,
+      "utf8_errors": 0,
+      "unsafe_paths": 0,
+      "sha256": "FDD456FFB64C20ED2DB46A16862E1180379D10D619F5F46AF7B71871972049F2"
+    },
+    {
+      "file": "37_BIBLIOGRAPHY_LICENSE_AND_PROVIDER_EVIDENCE.zip",
+      "entries": 8,
+      "files": 8,
+      "unsafe_paths": 0,
+      "sha256": "0EC218B671D7EB654B8A1B5CC13BA6725B02CC1CB45E3A7D2C39AD183A9F07E6"
+    }
+  ],
+  "visual_qa": {
+    "status": "PASS",
+    "master_boundaries_inspected": [1, 2, 10, 12, 416, 418, 420, 448, 450, 455, 456, 862, 864, 868, 870, 872, 873, 925, 926, 1146, 1153, 1155, 1161, 1162],
+    "part_iii_comparator_samples_inspected": [5, 60, 281, 288],
+    "astrological_history_samples_inspected": [1, 13, 50, 100, 126],
+    "bea_samples_inspected": [1, 2, 3]
+  },
+  "validator": {
+    "path": "work/tmp/al_battani_author_20260816/validate_packet_readonly.py",
+    "sha256": "29AF4E6B626D52EA3B864EE471949BE011B1693BB1687AC61B2200078B38EB3A"
+  }
+}
+
+===== END FILE: 38_SOURCE_GATE_VALIDATION_20260816.json =====
+
+===== BEGIN FILE: 99_PACKET_MANIFEST_SHA256.txt =====
+Bytes: 4118
+SHA256: b61b475c4c9f087104bafc224b06bf5cbae993f5d0c441dcffd27e3e29c91e2d
+===== CONTENT =====
+# SHA-256	bytes	filename
+# Self-excluding manifest.
+1E1C06A3D95BFC7771E4F6E5696274DB4B969A967221F07C225F344914F599A0	3746	00_READ_FIRST_AL_BATTANI_AUTHOR_PROJECT.md
+8B26713E0FE2F59C949471042B7BA8417F991B02699B209FAA3EE1AED4CC8352	2908	01_PROJECT_CONTRACT.md
+6B3627280D488B04C26DEED3013E233EFA74245C52116D9FD19CB3EFB7DA6030	2213	02_AUTHOR_BIBLIOGRAPHY_AND_TIER_MAP.tsv
+FA087CB5A0B3A916EA2F0CC655FCC809FB68419E842F566D4AD6367EDE0D0D28	2876	03_SOURCE_WITNESS_GATE.tsv
+F20F6CAC3B9483378AF53C34AD8EAD01A4C1BD7A0F8AC0CA125C93DA35D9E2DD	2927	04_MASTER_TOPOLOGY_AND_DISPOSITION_MAP.tsv
+E651D8C966EBE519AB4F007255F1BFB393145ED5BA0255B05D4342BD92462A11	2585	05_SESSION_MAP.tsv
+DC8A422EC71223F254F673ACD254A41F2A76EF285D3AD79F0C8D0F1E49734492	2460	06_COMMON_SESSION_PROTOCOL.md
+DDD74859C664AB00B2F67491F8F898CDBE4BDD3E210CDCBF83186CF222DCDAF8	1387	07_PRIOR_OUTPUT_CONTINUITY_AND_GAPS.tsv
+504069B411632F330E6DFE43970E28B7FD6EE7DECC50288A846D920CAA7DC18B	6576	08_UNIVERSAL_GALOIS_DERIVED_PRODUCTION_STANDARD.txt
+E4A915568034E13A90CF7F7BAB16620DA400815210054A126E34683A3685AD52	2785	09_MULTILINGUAL_QA_FEEDBACK_LOOP.txt
+0986B706C97D5545BAFACAC6A0B21ADD66393863BF5530E7258E22834BF6E28F	1427	10_LICENSE_ACCESS_AND_PROVENANCE.md
+0E09B153A2FC84288EFEAA9B257B5FD8DE8A6A95E20F068C8138133024B76861	2089	11_PACKET_VALIDATION_STATUS.md
+BC25FB62B49E4A13558B11BD66110974259419B9A6C3148C83AD45B17A9E2AEB	883	12_SESSION_S01_PART_I_FRONTMATTER_PDF002_089.txt
+E0ABBA8481D17F18D3BABA044DDC37D8A70026730D3D63E775725648B7F53AB0	729	13_SESSION_S02_PART_I_PRINT001_109.txt
+B8A284038DE59229642CD245394A1907A57988C6BF677591F50718493BC9EBB3	646	14_SESSION_S03_PART_I_PRINT110_218.txt
+9CF82DBDADEFDDDB2602E6655C4C8F90733FC766261AF0AED63446AC3822285E	589	15_SESSION_S04_PART_I_PRINT219_327.txt
+97F92AB1483071063D5AB95EF14E18DFCC4632FC97110590D80354BEC49FC626	674	16_SESSION_S05_PART_II_FRONTMATTER_PDF418_448.txt
+AD090C7DCAEB7F11B175D4E05F2AD45D2358885C281F4C22E578DFC42DF847DF	623	17_SESSION_S06_PART_II_PRINT001_100.txt
+2ED7A47B6D5DD93B79D5074D26321330052E385EB83BB70FDF129EBF6AD7E38D	559	18_SESSION_S07_PART_II_PRINT101_200.txt
+6E165237D81D1D373092353A8EBA83E447D6FD0DF0A0AB49F726C96CC6E3B1DF	565	19_SESSION_S08_PART_II_PRINT201_300.txt
+F3874792A92155DDACA8AA6DCFE1957E347453DDBF6DA84549842CD2DC531F46	611	20_SESSION_S09_PART_II_PRINT301_413.txt
+0C27DE7085943B8E08747C08266DCFF189238B19C2C6B3539FE28671B5FF45F4	621	21_SESSION_S10_PART_III_ARABIC_BLOCK1.txt
+F536F58ABD819A4E06D1852C201AEE8A494975269D106C8CA66572828E8A0C31	595	22_SESSION_S11_PART_III_ARABIC_BLOCK2.txt
+25EA54FAF07BDA5347C97BFE46A245C6B3D58CA1C73F2B9593978E966A2BD314	512	23_SESSION_S12_PART_III_ARABIC_BLOCK3.txt
+FE0EFFAE30CE44115FDF561BB76C2A3753A42F582FD04A5F65BA1F653AA93789	663	24_SESSION_S13_PART_III_ARABIC_TABLES.txt
+F5F4EFE2D691A7013BA9E932C0365CF7C6AED57608BF8EB009BAA44CC68F2440	717	25_SESSION_S14_TETRABIBLOS_COMMENTARY.txt
+57186FC06F5BC72581BBF68DCA0DA38688281A38B2BF838E874E8BD365373D1F	766	26_SESSION_S15_ASTROLOGICAL_HISTORY.txt
+3945DEF3DFF2D402154AC5348D70C8644EFD7DB667AFE7ADDFFA8985475AF615	801	27_SESSION_S16_INTEGRATION_AND_COLD_AUDIT.txt
+544C16B6355C9B74E281ADED657D657224BFF738366D5260E1A610D31B0D6297	80946704	30_NALLINO_PARS_I_II_III_MASTER_1162P.pdf
+F60D9C2D3A0FAA6D7841CEC0197A2B3F4FAABC5BBB32DFDC19DB9ECC3CC3DD67	25151980	31_NALLINO_PARS_III_RGB_COMPARATOR_292P.pdf
+17332E08756284C7CDB4A6CED36D5824CD9E33F33BF548D97610DF97F70BBD2C	81210146	32_PRIOR_T01_PACKET_BYTE_EXACT.zip
+D65D1B3455321307D0A12F84B7866D860F5AA5043D6EC2EEF1A7470C87D0AC73	10413525	33_ROUND83_WORKING_STATE_UNTRUSTED.zip
+A0CAB6257B9E3A784835D5837E899C1F78A317A2E2769DFB4756B81D94E43EEE	197312	34_PART_III_PAGE_MAPS_AND_QA.zip
+3BC5B525639261CCCF1A6E78176F66C5AC2C4299DD2D0A051072CDAB149B7BEF	9743194	35_KENNEDY_ET_AL_ASTROLOGICAL_HISTORY_136P.pdf
+FDD456FFB64C20ED2DB46A16862E1180379D10D619F5F46AF7B71871972049F2	318627	36_PAL_TETRABIBLOS_COMMENTARY_CC_BY_XML.zip
+0EC218B671D7EB654B8A1B5CC13BA6725B02CC1CB45E3A7D2C39AD183A9F07E6	198685	37_BIBLIOGRAPHY_LICENSE_AND_PROVIDER_EVIDENCE.zip
+52D81633106B8597323A2614231616171307B9F050909AC32A70C019A27A301B	3239	38_SOURCE_GATE_VALIDATION_20260816.json
+
+===== END FILE: 99_PACKET_MANIFEST_SHA256.txt =====

@@ -16,7 +16,7 @@ It is an independent working edition. Nallino's edition is in the public domain.
 | Session | Scope | Status |
 |---|---|---|
 | S01 | Nallino, Part I: frontispiece, front matter, preface, bibliography, addenda/corrigenda (PDF 1–89, printed VII–LXXX) | **v003 candidate:** revised transcription with 85 recorded, source-checked decisions (71 text repairs, 14 exact-image substitutions) on 50 pages; 80-page reader and 4-page critical apparatus. Ten hard-to-read spots are kept as exact source images. The independent cold audit has not been done yet |
-| S02 | Part I: Nallino's Latin translation and notes, printed pp. 1–109 (PDF 90–198) | **Candidate v006:** printed pp. 1–40 (PDF 90–129) in [S02/candidate_v006_print001-040/](S02/candidate_v006_print001-040/), with a 41-page reader built here (the checkpoint's own build lacked two table files). **Pp. 41–43** (PDF 130–132) and **pp. 44–48** (PDF 133–137, with the three diagrams cropped from the master scan): checked paragraph-level candidates in [S02/candidate_print041-043/](S02/candidate_print041-043/) and [S02/candidate_print044-048/](S02/candidate_print044-048/), with all flagged readings resolved against the scan. v002 (pp. 1–30, with its 2-page critical apparatus) and the pp. 31–35 extension are kept. 61 pages remain; the next is printed p. 49. Checked independently, see [S02/INDEPENDENT_CHECK.md](S02/INDEPENDENT_CHECK.md) |
+| S02 | Part I: Nallino's Latin translation and notes, printed pp. 1–109 (PDF 90–198) | **Candidate v009:** printed pp. 1–53 (PDF 90–142) in [S02/candidate_v009_print001-053/](S02/candidate_v009_print001-053/), line-anchored with the printed line numbers and marginal locators, and a 54-page reader. Pp. 41–53 were read line by line against the scan and the corrected readings are integrated. The earlier candidates (v006, pp. 41–43, pp. 44–48), v002 (pp. 1–30, with its 2-page critical apparatus) and the pp. 31–35 extension are kept as records. 56 pages remain; the next is printed p. 54. Checked independently, see [S02/INDEPENDENT_CHECK.md](S02/INDEPENDENT_CHECK.md) |
 | S03–S04 | Part I: Nallino's Latin translation and notes, printed pp. 110–327 | not started |
 | S05–S09 | Part II: tables and notes | not started |
 | S10–S13 | Part III: Arabic text and tables | not started |
@@ -32,9 +32,8 @@ It is an independent working edition. Nallino's edition is in the public domain.
 - [What changed from v002](S01/ledgers/v003_changes.tsv)
 
 **Read S02 (partial):**
-- [Candidate reader, 41 pp.](S02/candidate_v006_print001-040/pdf/S02_NALLINO_SOURCE_CANDIDATE_pp001-040.pdf), printed pp. 1–40
-- [Checked candidate, 3 pp.](S02/candidate_print041-043/pdf/S02_P041_043_checked.pdf), printed pp. 41–43 ([what was checked](S02/candidate_print041-043/S02_P041_043_CHECK.md))
-- [Checked candidate, 5 pp.](S02/candidate_print044-048/pdf/S02_P044_048_checked.pdf), printed pp. 44–48 ([what was checked](S02/candidate_print044-048/S02_P044_048_CHECK.md))
+- [Candidate reader v009, 54 pp.](S02/candidate_v009_print001-053/pdf/S02_NALLINO_SOURCE_v009.pdf), printed pp. 1–53 ([what was checked](S02/candidate_v009_print001-053/INDEPENDENT_CHECK_v009.md))
+- Earlier records: [v006 reader](S02/candidate_v006_print001-040/pdf/S02_NALLINO_SOURCE_CANDIDATE_pp001-040.pdf) (pp. 1–40), [checked pp. 41–43](S02/candidate_print041-043/S02_P041_043_CHECK.md), [checked pp. 44–48](S02/candidate_print044-048/S02_P044_048_CHECK.md)
 - [v002 reader, 31 pp.](S02/pdf/S02_NALLINO_SOURCE_v002.pdf), printed pp. 1–30
 - [Critical apparatus, 2 pp.](S02/pdf/S02_CRITICAL_NOTES_v002.pdf)
 - [TeX source](S02/tex/S02_NALLINO_SOURCE_v002.tex) and [line-anchored text](S02/transcription/S02_NALLINO_SOURCE_v002.txt)

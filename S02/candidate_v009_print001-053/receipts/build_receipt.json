@@ -1,0 +1,109 @@
+{
+  "engine": "XeLaTeX",
+  "shell_escape": false,
+  "clean_builds_per_document": 2,
+  "passes_per_build": 2,
+  "source_date_epoch": 1790467200,
+  "documents": [
+    {
+      "document": "S02_NALLINO_SOURCE_v009.tex",
+      "runs": [
+        {
+          "run": "A",
+          "returncodes": [
+            0,
+            0
+          ],
+          "success": true,
+          "pdf_sha256": "ea620591081b4d6d60226d5e8c2b049bd94b8873779218590c75b436e0b94179",
+          "pages": 54,
+          "missing_character_lines": [],
+          "overfull_lines": [],
+          "diplomatic_width_lines": []
+        },
+        {
+          "run": "B",
+          "returncodes": [
+            0,
+            0
+          ],
+          "success": true,
+          "pdf_sha256": "bd7c3d405c31174a57392a7bdcea69ac53b85491fa1aa0291beee0b1dc920674",
+          "pages": 54,
+          "missing_character_lines": [],
+          "overfull_lines": [],
+          "diplomatic_width_lines": []
+        }
+      ],
+      "two_clean_builds_pass": true,
+      "byte_identical": false
+    },
+    {
+      "document": "S02_P041_043_checked.tex",
+      "runs": [
+        {
+          "run": "A",
+          "returncodes": [
+            0,
+            0
+          ],
+          "success": true,
+          "pdf_sha256": "caf53c70cac7e062850d97a5b1c08af9d8546614f68d5fb330cc414740395b23",
+          "pages": 3,
+          "missing_character_lines": [],
+          "overfull_lines": [],
+          "diplomatic_width_lines": []
+        },
+        {
+          "run": "B",
+          "returncodes": [
+            0,
+            0
+          ],
+          "success": true,
+          "pdf_sha256": "2bb958fe1d11b379247e1b626a95d7bd134eb902ca157ece4eea53f743adab96",
+          "pages": 3,
+          "missing_character_lines": [],
+          "overfull_lines": [],
+          "diplomatic_width_lines": []
+        }
+      ],
+      "two_clean_builds_pass": true,
+      "byte_identical": false
+    },
+    {
+      "document": "S02_P044_053_source_replayed.tex",
+      "runs": [
+        {
+          "run": "A",
+          "returncodes": [
+            0,
+            0
+          ],
+          "success": true,
+          "pdf_sha256": "2488ba0d795cf8acb6f23d71512827fbeed315a461d2c15b547455d67bd5ff5a",
+          "pages": 10,
+          "missing_character_lines": [],
+          "overfull_lines": [],
+          "diplomatic_width_lines": []
+        },
+        {
+          "run": "B",
+          "returncodes": [
+            0,
+            0
+          ],
+          "success": true,
+          "pdf_sha256": "1222742e1582cdcb8ef94218a638f91495fbb9b6b364ee1710d7543cc4c086ce",
+          "pages": 10,
+          "missing_character_lines": [],
+          "overfull_lines": [],
+          "diplomatic_width_lines": []
+        }
+      ],
+      "two_clean_builds_pass": true,
+      "byte_identical": false
+    }
+  ],
+  "visual_inspection_is_separate": true
+}

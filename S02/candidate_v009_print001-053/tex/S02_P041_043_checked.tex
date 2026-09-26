@@ -1,0 +1,280 @@
+\documentclass[11pt]{article}
+\usepackage[paperwidth=220mm,paperheight=320mm,left=16mm,right=16mm,top=18mm,bottom=18mm,headheight=16pt,headsep=10pt,footskip=14pt]{geometry}
+\usepackage{fix-cm}
+\usepackage{fontspec,amsmath,amssymb,graphicx,array}
+\usepackage[unicode,hidelinks]{hyperref}
+\usepackage{polyglossia}
+\setmainlanguage{latin}
+\setotherlanguages{arabic,greek}
+\setmainfont{Linux Libertine O}[Ligatures=TeX]
+\newfontfamily\greekfont{FreeSerif}[Script=Greek]
+\newfontfamily\arabicfont{Amiri}[Script=Arabic]
+\graphicspath{{../source/presentation/}}
+\hypersetup{pdftitle={Al-Battani, Opus astronomicum. Nallino Latin source. S02 v009},pdfauthor={Al-Battani; Carlo Alfonso Nallino (Latin translation and notes)}}
+\makeatletter
+\def\ps@sourceedition{%
+\def\@oddhead{\vbox{\hbox to\textwidth{\fontsize{8}{10}\selectfont C. A. NALLINO — VERSIO ET ADNOTATIONES\hfil\leftmark}\vskip3pt\hrule height.25pt}}%
+\let\@evenhead\@oddhead
+\def\@oddfoot{\hbox to\textwidth{\fontsize{7}{9}\selectfont\rightmark\hfil\thepage}}%
+\let\@evenfoot\@oddfoot}
+\makeatother
+\pagestyle{sourceedition}
+\setlength{\parindent}{0pt}\setlength{\parskip}{0pt}
+\newcommand{\sourceglyph}[1]{\raisebox{-.17em}{\includegraphics[height=1.23em]{#1.png}}}
+\newsavebox{\sourcelinebox}
+\newcommand{\SourceLine}[2]{\sbox{\sourcelinebox}{\strut #2}%
+\ifdim\wd\sourcelinebox>\linewidth\typeout{SOURCEWIDTH|#1|\the\wd\sourcelinebox|\the\linewidth}\fi%
+\noindent\hypertarget{#1}{}#2\strut\par}
+\newcommand{\BeginSource}[2]{\clearpage\markboth{PAG. #2}{#1}\hypertarget{#1}{}\pdfbookmark[0]{#1 — p. #2}{bk-#1}\fontsize{11.1}{13.8}\selectfont}
+\tracinglostchars=2
+
+\newcommand{\qfrac}[2]{{}^{#1}\!/_{{#2}}}
+\newcommand{\Name}[1]{{\addfontfeatures{LetterSpace=4.0}#1}}
+\newcommand{\Indent}{\hspace*{1.6em}}
+\newcommand{\CenterLine}[1]{\makebox[\linewidth][c]{{\fontsize{12}{15}\selectfont #1}}}
+\newlength{\FullSourceWidth}\newlength{\GutterOffset}\newif\ifNumbersLeft
+\newcommand{\DSource}[2]{\BeginSource{AB01-PDF#1}{#2}%
+ \setlength{\FullSourceWidth}{\textwidth}\setlength{\GutterOffset}{0pt}%
+ \ifodd#2\relax\NumbersLefttrue\else\NumbersLeftfalse\fi}
+\newsavebox{\DLBox}
+\newcommand{\DLine}[4]{%
+ \par\noindent\hypertarget{#1}{}%
+ \ifx\relax#2\relax\else
+   \ifNumbersLeft
+    \rlap{\kern-\GutterOffset\llap{\fontsize{7}{8}\selectfont #2\hspace{3mm}}}%
+   \else
+    \rlap{\kern\dimexpr\FullSourceWidth-\GutterOffset\relax\hspace{3mm}{\fontsize{7}{8}\selectfont #2}}%
+   \fi
+ \fi
+ \ifx\relax#3\relax\else
+   \ifNumbersLeft
+    \rlap{\kern\dimexpr\FullSourceWidth-\GutterOffset\relax\hspace{3mm}{\fontsize{7}{8}\selectfont #3}}%
+   \else
+    \rlap{\kern-\GutterOffset\llap{\fontsize{7}{8}\selectfont #3\hspace{3mm}}}%
+   \fi
+ \fi
+ \sbox{\DLBox}{\strut #4}%
+ \ifdim\wd\DLBox>\linewidth\typeout{DIPLOMATICWIDTH|#1|\the\wd\DLBox|\the\linewidth}\fi
+ \usebox{\DLBox}\strut\par}
+
+\begin{document}
+\setcounter{page}{41}
+\DSource{0130}{41}
+\hypertarget{AB01-PDF0130-P01}{}
+\DLine{AB01-PDF0130-body-L001}{}{}{diei quae 365 diebus addebatur. Qua re de motu Solis non dubitavit, ita ut Solem aliam}
+\DLine{AB01-PDF0130-body-L002}{}{}{sphaeram habere cuius centrum a centris duarum sphaerarum differret, supponeret ({\itshape b}).}
+\hypertarget{AB01-PDF0130-P02}{}
+\DLine{AB01-PDF0130-body-L003}{}{}{\Indent Veteres plerumque haec ex observationibus aestivis, quae fiunt cum Sol per punctum}
+\DLine{AB01-PDF0130-body-L004}{}{}{solstitiale aestivum transit, deprehenderunt; sed non ita verae videntur ut observationes factae}
+\DLine{AB01-PDF0130-body-L005}{5}{}{cum Sol per alterutrum punctum aequinoctiale transit, et praesertim per punctum aequinoctii}
+\DLine{AB01-PDF0130-body-L006}{}{p. 62.}{autumni; hoc enim tempore aer clarior et purior est quam tempore aequinoctii vernalis. Et}
+\DLine{AB01-PDF0130-body-L007}{}{}{quia Solis motus in declinatione, quando per punctum solstitiale transit, tardus est, at quando}
+\DLine{AB01-PDF0130-body-L008}{}{}{per puncta aequinoctialia iter facit, velocissimus, Ptolemaeus nonnisi observationibus autumnis}
+\DLine{AB01-PDF0130-body-L009}{}{}{confisus est, et iuxta eas calculos instituit. Una ex observationibus Hipparchi qua usus est et}
+\DLine{AB01-PDF0130-body-L010}{10}{}{de cuius veritate non dubitavit, ea est, qua, ut narrat (1), Solem per punctum aequinoctii}
+\DLine{AB01-PDF0130-body-L011}{}{}{autumni transiisse comperit anno 178 ab Alexandro mortuo, die tertia ex quinque diebus epa-}
+\DLine{AB01-PDF0130-body-L012}{}{}{gomenis, hora mediae noctis cuius crastinum fuit quarta epagomenorum dies, Alexandria in}
+\DLine{AB01-PDF0130-body-L013}{}{}{urbe (2). Post hoc Ptolemaeus, 285 annis Aegyptiis transactis, iterum observavit, quam obser-}
+\DLine{AB01-PDF0130-body-L014}{}{}{vationem ipse in libro suo accuratissimam fuisse dicit; et Solis transitum per punctum aequi-}
+\DLine{AB01-PDF0130-body-L015}{15}{}{noctii autumni comperit anno tertio Antonini regis, id est anno 463 (3) ab Alexandro mor-}
+\DLine{AB01-PDF0130-body-L016}{}{}{tuo, die nona mensis Coptici Athyr, una hora circiter post Solis ortum, Alexandria in urbe.}
+\DLine{AB01-PDF0130-body-L017}{}{}{Intervallum inter duas observationes illas invenit esse veraciter 285 annorum Aegyptiorum,}
+\DLine{AB01-PDF0130-body-L018}{}{}{70 dierum, et $\qfrac{1}{4}+\qfrac{1}{20}$ [$=\qfrac{3}{10}$] diei, pro 71 diebus $\qfrac{1}{4}$, qui ex quartis partibus integris in iis}
+\DLine{AB01-PDF0130-body-L019}{}{}{285 annis colligi debebant. Ratio igitur huius unius diei minus $\qfrac{1}{20}$ diei, --- quo tempus ob-}
+\DLine{AB01-PDF0130-body-L020}{20}{}{servationis praecessit tempus quartae partis diei 365 dies superantis, --- ad 285 annos inter}
+\DLine{AB01-PDF0130-body-L021}{}{}{duas illas observationes transactos, est ut ratio unius diei ad 300 annos; qua re tempus unius}
+\DLine{AB01-PDF0130-body-L022}{}{}{anni per has duas observationes inventum, complectitur 365 dies $\qfrac{1}{4}$, detracto $\qfrac{1}{300}$ diei, quod}
+\DLine{AB01-PDF0130-body-L023}{}{}{est una pars et quinta e 360 partibus (4).}
+\hypertarget{AB01-PDF0130-P03}{}
+\DLine{AB01-PDF0130-body-L024}{}{}{\Indent Narrat etiam Ptolemaeus, se observationes antiquas aestivas, quae factae sint ante Hip-}
+\DLine{AB01-PDF0130-body-L025}{25}{}{parchum, accepisse, e quibus observationem esse tempore Apseudis, regis [\textgreek{ἄρχων}] Athenarum,}
+\DLine{AB01-PDF0130-body-L026}{}{}{factam, cum Sol per punctum solstitiale aestivum transivisset anno 108 (5) ante Alexandrum}
+\DLine{AB01-PDF0130-body-L027}{}{}{mortuum, matutino XXI diei mensis Coptici Pharmouthi (6); deinde seipsum Solis transitum per}
+\DLine{AB01-PDF0130-body-L028}{}{}{punctum solstitii aestivi observasse anno 463 (7) post Alexandrum mortuum, XI die mensis}
+\DLine{AB01-PDF0130-body-L029}{}{}{Coptici Mesori, duabus horis circiter post mediam noctem cuius crastinum dies XII fuit (8).}
+\DLine{AB01-PDF0130-body-L030}{30}{p. 63.}{Inter has duas observationes intercesserunt fere 571 anni Aegyptii, 140 dies et $\qfrac{1}{2}+\qfrac{1}{3}$}
+\DLine{AB01-PDF0130-body-L031}{}{}{[$=\qfrac{5}{6}$] diei, pro 142 diebus $\qfrac{1}{2}+\qfrac{1}{4}$ [$=\qfrac{3}{4}$], qui ex quartis partibus in iis annis collecti}
+\DLine{AB01-PDF0130-body-L032}{}{}{essent si in annis quartae partes integrae fuissent. Invenit igitur tempus solstitii aestivi tempus}
+\DLine{AB01-PDF0130-body-L033}{}{}{quartae integrae partis diei uno die et $\qfrac{2}{3}+\qfrac{1}{4}$ [$=\qfrac{11}{12}$] praecessisse, quorum ratio ad 571}
+\DLine{AB01-PDF0130-body-L034}{}{}{annos memoratos est ut ratio duorum integrorum dierum ad 600 (9) annos; idque cum eo}
+\DLine{AB01-PDF0130-body-L035}{35}{}{iuxta quod calculos fecit convenit, scilicet singulis 300 annis tempus observationis tempus}
+\DLine{AB01-PDF0130-body-L036}{}{}{quartae partis integrae diei uno die praecedere, licet ob causam memoratam hae observationes}
+\DLine{AB01-PDF0130-body-L037}{}{}{aestivae non adeo sint bonae ut autumnae. Manifestum est inter primam illam observationem}
+\par\vspace{6pt}\hrule height.25pt\vspace{5pt}
+\noindent\begin{minipage}[t]{.48\textwidth}\vspace{0pt}\fontsize{9}{11.5}\selectfont\setlength{\GutterOffset}{0pt}
+\hypertarget{AB01-PDF0130-N01}{}
+\DLine{AB01-PDF0130-notes_left-L001}{}{}{\Indent (1) {\itshape Almag.} III, 2 (ed. Halma, t. I, p. 161).}
+\hypertarget{AB01-PDF0130-N02}{}
+\DLine{AB01-PDF0130-notes_left-L002}{}{}{\Indent (2) Al-Battānī coniectura; minime Ptolemaeus}
+\DLine{AB01-PDF0130-notes_left-L003}{}{}{dicit Hipparchum id Alexandriae observasse. Et re}
+\DLine{AB01-PDF0130-notes_left-L004}{}{}{vera nunc certum habetur Hipparchum Rhodi tan-}
+\DLine{AB01-PDF0130-notes_left-L005}{}{}{tum observationes suas perfecisse, quam perperam}
+\DLine{AB01-PDF0130-notes_left-L006}{}{}{sub eodem meridiano quo Alexandria iacere putabat.}
+\hypertarget{AB01-PDF0130-N03}{}
+\DLine{AB01-PDF0130-notes_left-L007}{}{}{\Indent (3) Codex perperam 563.}
+\hypertarget{AB01-PDF0130-N04}{}
+\DLine{AB01-PDF0130-notes_left-L008}{}{}{\Indent (4) $\dfrac{1+1/5}{360}=\dfrac{6/5}{360}=\dfrac{6}{1800}=\dfrac{1}{300}$.}
+\end{minipage}
+\hfill\begin{minipage}[t]{.48\textwidth}\vspace{0pt}\fontsize{9}{11.5}\selectfont\setlength{\GutterOffset}{0pt}
+\hypertarget{AB01-PDF0130-N05}{}
+\DLine{AB01-PDF0130-notes_right-L001}{}{}{\Indent (5) Codex perperam 168.}
+\hypertarget{AB01-PDF0130-N06}{}
+\DLine{AB01-PDF0130-notes_right-L002}{}{}{\Indent (6) Est observatio Metonis et Euctemonis (27}
+\DLine{AB01-PDF0130-notes_right-L003}{}{}{Iun. 432 ante Chr. n.); {\itshape Almag.} III, 2 (ed. Halma,}
+\DLine{AB01-PDF0130-notes_right-L004}{}{}{t. I, p. 162).}
+\hypertarget{AB01-PDF0130-N07}{}
+\DLine{AB01-PDF0130-notes_right-L005}{}{}{\Indent (7) Male Plato 36.}
+\hypertarget{AB01-PDF0130-N08}{}
+\DLine{AB01-PDF0130-notes_right-L006}{}{}{\Indent (8) {\itshape Almag.} l. l.}
+\hypertarget{AB01-PDF0130-N09}{}
+\DLine{AB01-PDF0130-notes_right-L007}{}{}{\Indent (9) Plato perperam 60.}
+\end{minipage}
+\par\vspace{5mm}\hfill{\fontsize{8}{10}\selectfont 6}\hspace{10mm}
+
+\DSource{0131}{42}
+\hypertarget{AB01-PDF0131-P01}{}
+\DLine{AB01-PDF0131-body-L001}{}{}{et observationem Hipparchi idem fere tempus intercessisse quod inter Hipparchi et Ptolemaei;}
+\DLine{AB01-PDF0131-body-L002}{}{}{fuit enim observatio 286 (1) annis ante Hipparchum.}
+\hypertarget{AB01-PDF0131-P02}{}
+\DLine{AB01-PDF0131-body-L003}{}{}{\Indent Nos ipsi in urbe ar-Raqqah observavimus; et una nostrarum observationum autumna-}
+\DLine{AB01-PDF0131-body-L004}{}{}{rum, qua confidimus et de cuius veritate, ut ex instrumentis apparuit, haud dubitamus, est}
+\DLine{AB01-PDF0131-body-L005}{5}{}{observatio quae 743 annis fuit post observationem autumnam Ptolemaei iam memoratam. Ea}
+\DLine{AB01-PDF0131-body-L006}{}{}{invenimus Solem per punctum aequinoctii autumni transivisse, anno 1194 aerae Dhū ’l-qar-}
+\DLine{AB01-PDF0131-body-L007}{}{}{nayn, idest 1206 post Alexandrum mortuum, ante Solis ortum diei XIX mensis Romani Aylūl (2),}
+\DLine{AB01-PDF0131-body-L008}{}{}{scilicet VIII diei mensis Coptici Pachōn, quatuor circiter horis et $\qfrac{1}{2}+\qfrac{1}{4}$ ({\itshape c}). Et quia circulus}
+\DLine{AB01-PDF0131-body-L009}{}{}{meridianus Alexandriae circulum meridianum urbis ar-Raqqah $\qfrac{2}{3}$ horae aequinoctialis circiter}
+\DLine{AB01-PDF0131-body-L010}{10}{}{praecedit (3), inter observationem nostram et observationem autumnam Ptolemaei 743 anni}
+\DLine{AB01-PDF0131-body-L011}{}{}{Aegyptii, 178 dies, et $\qfrac{1}{2}+\qfrac{1}{4}$ diei, detractis $\qfrac{2}{5}$ horae circiter (4), intercesserunt, loco 185}
+\DLine{AB01-PDF0131-body-L012}{}{}{dierum $\qfrac{1}{2}+\qfrac{1}{4}$ qui debuissent in his annis colligi si quartae partes diei integrae fuissent. Si}
+\DLine{AB01-PDF0131-body-L013}{}{}{hos 7 dies et $\qfrac{2}{5}$ horae, quibus tempus observationis tempus quartae partis diei 365 dies supe-}
+\DLine{AB01-PDF0131-body-L014}{}{}{rantis praecessit, per 743 annos qui inter duas observationes illas fuerunt dividimus, invenimus}
+\DLine{AB01-PDF0131-body-L015}{15}{}{portionem unius anni esse $3^\circ24'$ ex iis $360^\circ$ qui revolutionem diei et noctis perficiunt. Quam}
+\DLine{AB01-PDF0131-body-L016}{}{}{portionem si de tempore quartae partis diei, scilicet de $90^\circ$ detrahimus, quantitas augmenti}
+\DLine{AB01-PDF0131-body-L017}{}{p. 64.}{super 365 dies integros remanet $86^\circ36'$; est igitur verum anni tempus $365^d14'26''$ (5) fere.}
+\hypertarget{AB01-PDF0131-P03}{}
+\DLine{AB01-PDF0131-body-L018}{}{}{\Indent Si $360^\circ$ circumferentiae caelestis sphaerae per tempus anni nuper inventum dividimus,}
+\DLine{AB01-PDF0131-body-L019}{}{}{motum medium Solis in nychthemero reperimus $0^\circ59'8''20'''46^{\mathrm{IV}}56^{\mathrm{V}}14^{\mathrm{VI}}$ esse, motum au-}
+\DLine{AB01-PDF0131-body-L020}{20}{}{tem in 30 diebus, qui mensem Aegyptium efficiunt, $29^\circ34'10''23'''28^{\mathrm{IV}}6^{\mathrm{V}}47^{\mathrm{VI}}$, et in 365}
+\DLine{AB01-PDF0131-body-L021}{}{}{diebus anni Aegyptii $359^\circ45'46''25'''32^{\mathrm{IV}}2^{\mathrm{V}}31^{\mathrm{VI}}$ (6) circiter ({\itshape d}). Hos motus multiplicavimus}
+\DLine{AB01-PDF0131-body-L022}{}{}{et in tabulis ad annos collectos et singulos, et ad menses, dies, horas, iuxta aeram Arabum}
+\DLine{AB01-PDF0131-body-L023}{}{}{aeramque Romanorum descripsimus (7), ut facile quocumque harum aerarum tempore locus}
+\DLine{AB01-PDF0131-body-L024}{}{}{Solis, secundum eius motum medium qui {\itshape medium Solis} appellatur, inveniri possit. Tempus}
+\DLine{AB01-PDF0131-body-L025}{25}{}{anni a nobis inventum patet $2^\circ\qfrac{1}{5}$ minus esse quam tempus a Ptolemaeo memorato (8); qua}
+\DLine{AB01-PDF0131-body-L026}{}{}{re motus Solis, iuxta calculum nostrum, motum a Ptolemaeo inventum in die $0^\circ0'0''3'''$}
+\DLine{AB01-PDF0131-body-L027}{}{}{$33^{\mathrm{IV}}43^{\mathrm{V}}43^{\mathrm{VI}}$ (9) superat, et in anno Aegyptio, Deo volente, $0^\circ0'21''40'''10^{\mathrm{IV}}53^{\mathrm{V}}56^{\mathrm{VI}}$ fere (10).}
+\par\vspace{6pt}\hrule height.25pt\vspace{5pt}
+\noindent\begin{minipage}[t]{.48\textwidth}\vspace{0pt}\fontsize{9}{11.5}\selectfont\setlength{\GutterOffset}{0pt}
+\hypertarget{AB01-PDF0131-N01}{}
+\DLine{AB01-PDF0131-notes_left-L001}{}{}{\Indent (1) Codex 280, Plato 186.}
+\hypertarget{AB01-PDF0131-N02}{}
+\DLine{AB01-PDF0131-notes_left-L002}{}{}{\Indent (2) I. e. ante Solis ortum diei 19 Sept. 882;}
+\DLine{AB01-PDF0131-notes_left-L003}{}{}{nam al-Battānī prima die mensis Septembris annos}
+\DLine{AB01-PDF0131-notes_left-L004}{}{}{huius aerae incipere vult, cfr. cap. XXXII. --- Hunc}
+\DLine{AB01-PDF0131-notes_left-L005}{}{}{locum laudat \Name{Ibn Yūnus} apud \Name{Caussin}, {\itshape Le li-}}
+\DLine{AB01-PDF0131-notes_left-L006}{}{}{{\itshape vre de la grande table Hakémite} (Notices et ex-}
+\DLine{AB01-PDF0131-notes_left-L007}{}{}{traits des mss. de la Bibl. Nation., t. VII, Paris 1804,}
+\DLine{AB01-PDF0131-notes_left-L008}{}{}{p. 149).}
+\hypertarget{AB01-PDF0131-N03}{}
+\DLine{AB01-PDF0131-notes_left-L009}{}{}{\Indent (3) In suis tabulis geographicis, e communi}
+\DLine{AB01-PDF0131-notes_left-L010}{}{}{Arabica traditione depromptis, al-Battānī urbi ar-}
+\DLine{AB01-PDF0131-notes_left-L011}{}{}{-Raqqah $73^\circ15'$ long. tribuit, Alexandriae, Ptole-}
+\DLine{AB01-PDF0131-notes_left-L012}{}{}{maeum sequens, $60^\circ30'$. Hinc differentia longitudi-}
+\DLine{AB01-PDF0131-notes_left-L013}{}{}{nalis $12^\circ45'$ sequeretur, non $10^\circ$.}
+\hypertarget{AB01-PDF0131-N04}{}
+\DLine{AB01-PDF0131-notes_left-L014}{}{}{\Indent (4) I. e. 743 anni, $178^d\,17^h\,36^m$.}
+\hypertarget{AB01-PDF0131-N05}{}
+\DLine{AB01-PDF0131-notes_left-L015}{}{}{\Indent (5) I. e. $365^d\,5^h\,46^m\,24^s$. --- \Name{Ptolemaeus}, {\itshape Al-}}
+\DLine{AB01-PDF0131-notes_left-L016}{}{}{{\itshape mag.} III, 2 (Halma t. I, p. 165), seu potius Hippar-}
+\end{minipage}
+\hfill\begin{minipage}[t]{.48\textwidth}\vspace{0pt}\fontsize{9}{11.5}\selectfont\setlength{\GutterOffset}{0pt}
+\DLine{AB01-PDF0131-notes_right-L001}{}{}{chus, invenerat $365^d14'48''=365^d\,5^h\,55^m\,12^s$; astro-}
+\DLine{AB01-PDF0131-notes_right-L002}{}{}{nomi nostri temporis $365^d\,5^h\,48^m\,47^s{,}33$ ponunt.}
+\hypertarget{AB01-PDF0131-N06}{}
+\DLine{AB01-PDF0131-notes_right-L003}{}{}{\Indent (6) Male quartae in cod. et Plat. $31^{\mathrm{IV}}$. Iam cor-}
+\DLine{AB01-PDF0131-notes_right-L004}{}{}{rexit Ed. \Name{Halley}, {\itshape Emendationes ac notae in ve-}}
+\DLine{AB01-PDF0131-notes_right-L005}{}{}{{\itshape tustas Albatênii observationes} (Philosophical Tran-}
+\DLine{AB01-PDF0131-notes_right-L006}{}{}{sactions of the Royal Society, 1693, vol. XVII, nr. 204,}
+\DLine{AB01-PDF0131-notes_right-L007}{}{}{p. 916.}
+\hypertarget{AB01-PDF0131-N07}{}
+\DLine{AB01-PDF0131-notes_right-L008}{}{}{\Indent (7) Vide tabulas in fol. 164,v.--166,v., et 186,v.-}
+\DLine{AB01-PDF0131-notes_right-L009}{}{}{-189,r.}
+\hypertarget{AB01-PDF0131-N08}{}
+\DLine{AB01-PDF0131-notes_right-L010}{}{}{\Indent (8) Nam $8^m\,48^s\times15=528^s\times15=7920''=$}
+\DLine{AB01-PDF0131-notes_right-L011}{}{}{$2^\circ12'=2^\circ\qfrac{1}{5}$.}
+\hypertarget{AB01-PDF0131-N09}{}
+\DLine{AB01-PDF0131-notes_right-L012}{}{}{\Indent (9) Codex male $30^{\mathrm{IV}}$ et $42^{\mathrm{VI}}$; \Name{Ptolemaeus} III,}
+\DLine{AB01-PDF0131-notes_right-L013}{}{}{2 (ed. Halma, t. I, p. 166) enim habet $0^\circ59'8''17'''$}
+\DLine{AB01-PDF0131-notes_right-L014}{}{}{$13^{\mathrm{IV}}12^{\mathrm{V}}31^{\mathrm{VI}}$.}
+\hypertarget{AB01-PDF0131-N10}{}
+\DLine{AB01-PDF0131-notes_right-L015}{}{}{\Indent (10) Male quintae apud Platonem $55^{\mathrm{V}}$ et in co-}
+\DLine{AB01-PDF0131-notes_right-L016}{}{}{dice $50^{\mathrm{V}}$; \Name{Ptolemaeus} $359^\circ45'24''45'''21^{\mathrm{IV}}8^{\mathrm{V}}35^{\mathrm{VI}}$.}
+\end{minipage}
+
+\DSource{0132}{43}
+\hypertarget{AB01-PDF0132-H01}{}
+\DLine{AB01-PDF0132-body-L001}{}{}{\CenterLine{CAPUT XXVIII.}}
+\vspace{13.8pt}
+\DLine{AB01-PDF0132-body-L002}{5}{}{\CenterLine{De inaequalitate motus [sive anomalia] Solis et de eo quod}}
+\DLine{AB01-PDF0132-body-L003}{}{}{\CenterLine{ab eius apogei loco cum illa apparet (1).}}
+\vspace{13.8pt}
+\hypertarget{AB01-PDF0132-P01}{}
+\DLine{AB01-PDF0132-body-L004}{}{}{\Indent Dicit [auctor]: Dissertatione de tempore anni et de motu medio Solis absoluta, ad expli-}
+\DLine{AB01-PDF0132-body-L005}{}{}{candum pergamus quae et quanta sit inaequalitas in motu Solis, et qualis appareat [cum Sol}
+\DLine{AB01-PDF0132-body-L006}{10}{}{motu suo medio recesserit] a loco sui apogei in ecliptica.}
+\hypertarget{AB01-PDF0132-P02}{}
+\DLine{AB01-PDF0132-body-L007}{}{}{\Indent Rationem qua Ptolemaeus in libro suo (2) usus est sequentes, nos quo modo Sol quadran-}
+\DLine{AB01-PDF0132-body-L008}{}{}{tes eclipticae percurrat, per plurimas diligentissimas observationes multis subsequentibus annis}
+\DLine{AB01-PDF0132-body-L009}{}{}{factas studuimus, invenimusque Solem eclipticam a puncto aequinoctii autumni ad aequinoctii}
+\DLine{AB01-PDF0132-body-L010}{}{}{vernalis 178 diebus, 14 horis $\qfrac{1}{2}$ circiter percurrere; a puncto autem aequinoctii vernalis ad}
+\DLine{AB01-PDF0132-body-L011}{15}{p. 65.}{aequinoctii autumni tempus eo longius occupare, quod ex nostris diligentissimis observationibus}
+\DLine{AB01-PDF0132-body-L012}{}{}{patuit 186 dierum, 14 horarum aequinoctialium et $\qfrac{1}{4}+\qfrac{1}{2}$ horae circiter esse. Et ex iis}
+\DLine{AB01-PDF0132-body-L013}{}{}{quae memoravimus (3) apparuit eius apogeum in hac dimidia parte haberi.}
+\hypertarget{AB01-PDF0132-P03}{}
+\DLine{AB01-PDF0132-body-L014}{}{}{\Indent Deinde observavimus et invenimus Solem spatium ab initio Arietis ad initium Cancri,}
+\DLine{AB01-PDF0132-body-L015}{}{}{idest inter punctum aequinoctii vernalis et punctum solstitii aestivi, 93 diebus et 14 fere horis}
+\DLine{AB01-PDF0132-body-L016}{20}{}{aequinoctialibus percurrere ({\itshape a}), quae parum ad deminutionem inclinant; unde manifestum est}
+\DLine{AB01-PDF0132-body-L017}{}{}{cursui Solis a puncto aequinoctii vernalis ad solstitii aestivi tempus longius necessarium esse}
+\DLine{AB01-PDF0132-body-L018}{}{}{quam a puncto solstitii aestivi ad aequinoctii autumni. Scimus igitur punctum apogei et cen-}
+\DLine{AB01-PDF0132-body-L019}{}{}{trum excentrici, super quem punctum apogei simul ac super eclipticam incidit, ea quarta parte}
+\DLine{AB01-PDF0132-body-L020}{}{}{contineri, quae tardioris temporis est quam reliquus quadrans. Motum medium Solis in iis}
+\DLine{AB01-PDF0132-body-L021}{25}{}{186 diebus, 14 horis et $\qfrac{1}{2}+\qfrac{1}{4}$ horae invenimus $183^\circ56'12''$ esse, et in iis 93 diebus et}
+\DLine{AB01-PDF0132-body-L022}{}{}{14 horis $92^\circ14'10''$ fere (4).}
+\hypertarget{AB01-PDF0132-P04}{}
+\DLine{AB01-PDF0132-body-L023}{}{}{\Indent Quae cum ita sint, circulum eclipticae ABCD circa centrum E describamus. Duae dia-}
+\DLine{AB01-PDF0132-body-L024}{}{}{metri AC, BD se invicem ad angulos rectos abscindant, sitque A punctum aequinoctii vernalis;}
+\DLine{AB01-PDF0132-body-L025}{}{}{erit B punctum solstitii aestivi, C aequinoctii autumni, D solstitii hiemalis. In quadrante AB,}
+\DLine{AB01-PDF0132-body-L026}{30}{}{ob ea quae supra diximus, punctum F centrum ponamus, et, intra primum circulum, circu-}
+\DLine{AB01-PDF0132-body-L027}{}{}{lum KLMN sphaerae excentricae Solis describamus, cuius diametri KM, LN se invicem in}
+\DLine{AB01-PDF0132-body-L028}{}{}{centro F ad angulos rectos abscindant. Punctum lineis BD, KM commune littera S signemus;}
+\DLine{AB01-PDF0132-body-L029}{}{}{punctum quo diametrus AC circulum KLMN versus A secat, littera P; punctum quo diame-}
+\DLine{AB01-PDF0132-body-L030}{}{}{trus BD circulum KLMN versus B abscindit, littera R. In arcu PK, perpendicularem a P ad}
+\DLine{AB01-PDF0132-body-L031}{35}{}{punctum Q diametri KM ducamus; item perpendicularem RG, et lineam EF quae per duo}
+\DLine{AB01-PDF0132-body-L032}{}{}{centra transit, eamque usque ad punctum H eclipticae ABCD protrahamus, littera T signantes}
+\DLine{AB01-PDF0132-body-L033}{}{}{locum quo ea circulum KLMN secat.}
+\hypertarget{AB01-PDF0132-P05}{}
+\DLine{AB01-PDF0132-body-L034}{}{}{\Indent Manifestum est arcum AB esse $90^\circ$, ut arcum KL excentrici; punctum P excentrici esse}
+\DLine{AB01-PDF0132-body-L035}{}{p. 66.}{initium Arietis; R locum initii Cancri; denique arcum PKLRMY excentrici eam excentrici}
+\par\vspace{6pt}\hrule height.25pt\vspace{5pt}
+\noindent\begin{minipage}[t]{.48\textwidth}\vspace{0pt}\fontsize{9}{11.5}\selectfont\setlength{\GutterOffset}{0pt}
+\hypertarget{AB01-PDF0132-N01}{}
+\DLine{AB01-PDF0132-notes_left-L001}{}{}{\Indent (1) I. e. de supputanda anomalia ad singulos}
+\DLine{AB01-PDF0132-notes_left-L002}{}{}{gradus medii motus Solis ab apogeo.}
+\hypertarget{AB01-PDF0132-N02}{}
+\DLine{AB01-PDF0132-notes_left-L003}{}{}{\Indent (2) {\itshape Almag.} III, 4 (ed. Halma t. I, p. 184--185.}
+\hypertarget{AB01-PDF0132-N03}{}
+\DLine{AB01-PDF0132-notes_left-L004}{}{}{\Indent (3) Sed antea, ut me \Name{Schiaparelli} monet,}
+\DLine{AB01-PDF0132-notes_left-L005}{}{}{nihil de his rebus dixit. Forte aliquid excidit ubi}
+\DLine{AB01-PDF0132-notes_left-L006}{}{}{demonstrabatur apogeum reperiendum esse in parte}
+\DLine{AB01-PDF0132-notes_left-L007}{}{}{cui maius temporis intervallum respondet.}
+\end{minipage}
+\hfill\begin{minipage}[t]{.48\textwidth}\vspace{0pt}\fontsize{9}{11.5}\selectfont\setlength{\GutterOffset}{0pt}
+\hypertarget{AB01-PDF0132-N04}{}
+\DLine{AB01-PDF0132-notes_right-L001}{}{}{\Indent (4) Ita etiam in calculis infra, qua re corri-}
+\DLine{AB01-PDF0132-notes_right-L002}{}{}{gere non audeo; e tabulis $92^\circ14'26''$ deducuntur.}
+\DLine{AB01-PDF0132-notes_right-L003}{}{}{Sed antea dixerat « 93 diebus et 14 horis aequino-}
+\DLine{AB01-PDF0132-notes_right-L004}{}{}{« ctialibus, {\itshape quae parum ad deminutionem incli-}}
+\DLine{AB01-PDF0132-notes_right-L005}{}{}{« {\itshape nant} »; forte huic « parum minus » respondent}
+\DLine{AB01-PDF0132-notes_right-L006}{}{}{hae 16 secundae, quae in auctoris calculo deficere}
+\DLine{AB01-PDF0132-notes_right-L007}{}{}{videntur.}
+\end{minipage}
+\end{document}
