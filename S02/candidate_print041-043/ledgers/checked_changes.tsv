@@ -1,0 +1,40 @@
+id	page	change	old	new
+U06	42	flag resolved: all seven sexagesimal strings read as printed (order signs: see M1)	\U{U06}{\SX{…}} ×7	\SX{…} ×7
+H1	-	header	% TEXT-LEVEL CANDIDATE — NOT A PIXEL-VERIFIED RELEASE.⏎	% TEXT-LEVEL CANDIDATE — NOT A PIXEL-VERIFIED RELEASE.⏎% Checked against the scan (SRC01_PHYSICAL_0090-0198.pdf, PDF 130-133) on 2026-09-26:⏎% U01-U09 resolved and further readings corrected; see S02_P041_043_CHECK.md.⏎
+M1	-	macro: order signs are printed as small capitals	#5^{\mathrm{iv}}\,#6^{\mathrm{v}}\,#7^{\mathrm{vi}}%	#5^{\mathrm{IV}}\,#6^{\mathrm{V}}\,#7^{\mathrm{VI}}%
+M2	-	macro comment	% The component readings and their printed order signs remain under U06.	% Component readings and order signs (small capitals IV, V, VI) checked against the scan.
+U01	41	flag resolved: 285 (damaged 5, OCR reads 287)	\U{U01}{287}	285
+U02	41	flag resolved: 1/20 as read	\U{U02}{$1/20$}	$1/20$
+C01	41	dash omitted	dies superantis, ad 285 annos	dies superantis, --- ad 285 annos
+U03	41	flag resolved: [ἄρχων] as read	regis [\U{U03}{ἄρχων}]	regis [ἄρχων]
+C02	41	italic apparatus letter	supponeret (b).	supponeret ({\itshape b}).
+C03	41 n.1	italic Almag.	\NN{1}{Almag. III, 2	\NN{1}{{\itshape Almag.} III, 2
+C04	41 n.2	macron	\NN{2}{Al-Battāni coniectura	\NN{2}{Al-Battānī coniectura
+U04	41 n.4	flag resolved: formula transcribed	\NN{4}{\texttt{[U04: AB01-PDF0130-N04-M01]}}	\NN{4}{$\dfrac{1+1/5}{360}=\dfrac{6/5}{360}=\dfrac{6}{1800}=\dfrac{1}{300}$.}
+C05	41 n.6	italic Almag.	ante Chr. n.); Almag. III, 2	ante Chr. n.); {\itshape Almag.} III, 2
+C06	41 n.8	italic Almag.	\NN{8}{Almag. l. l.}	\NN{8}{{\itshape Almag.} l. l.}
+C07	42	macron	Pachon, quatuor	Pachōn, quatuor
+C08	42	italic apparatus letter	$1/2+1/4$ (c).	$1/2+1/4$ ({\itshape c}).
+U05	42	flag resolved: 2/5 as read (twice)	\U{U05}{$2/5$}	$2/5$
+C09	42	unit is dies, not degrees	$365^\circ14'26''$	$365^{d}\,14'\,26''$
+C10	42	OCR error: efficiant	qui mensem Aegyptium efficiant,	qui mensem Aegyptium efficiunt,
+C11	42	italic apparatus letter	circiter⏎(d). Hos	circiter⏎({\itshape d}). Hos
+C12	42	italics	qui⏎medium Solis appellatur	qui⏎{\itshape medium Solis} appellatur
+C13	42 n.2	macron	nam al-Battāni⏎prima	nam al-Battānī⏎prima
+C14	42 n.2	dash omitted; letter-spaced names	cfr. cap. XXXII. Hunc locum laudat Ibn Yūnus apud Caussin,	cfr. cap. XXXII. --- Hunc locum laudat {\addfontfeatures{LetterSpace=0.5} Ibn Yūnus} apud {\addfontfeatures{LetterSpace=0.5} Caussin},
+C15	42 n.3	macron	depromptis, al-Battāni urbi	depromptis, al-Battānī urbi
+C16	42 n.4	italic units as printed	$178^{\mathrm d}\,17^{\mathrm h}\,36^{\mathrm m}$	$178^{d}\,17^{h}\,36^{m}$
+C17	42 n.5	italic units; dash omitted; letter-spaced name; italic Almag.	$365^{\mathrm d}\,5^{\mathrm h}\,46^{\mathrm m}\,24^{\mathrm s}$.⏎Ptolemaeus, Almag. III, 2	$365^{d}\,5^{h}\,46^{m}\,24^{s}$. ---⏎{\addfontfeatures{LetterSpace=0.5} Ptolemaeus}, {\itshape Almag.} III, 2
+C18	42 n.5	unit is dies, not degrees; italic units	$365^\circ14'48''=⏎365^{\mathrm d}\,5^{\mathrm h}\,55^{\mathrm m}\,12^{\mathrm s}$	$365^{d}\,14'\,48''=⏎365^{d}\,5^{h}\,55^{m}\,12^{s}$
+C19	42 n.5	italic units	$365^{\mathrm d}\,5^{\mathrm h}\,48^{\mathrm m}\,47^{\mathrm s}{,}33$	$365^{d}\,5^{h}\,48^{m}\,47^{s}{,}33$
+C20	42 n.6	order sign; letter-spaced name	$31^{\mathrm{iv}}$.⏎Iam correxit Ed. Halley,	$31^{\mathrm{IV}}$.⏎Iam correxit Ed. {\addfontfeatures{LetterSpace=0.5} Halley},
+C21	42 n.6	no closing parenthesis in print (kept as printed)	nr. 204, p. 916).}	nr. 204, p. 916.}
+C22	42 n.7	folio 164 verso, not recto	164, r.--166, v.,⏎et 186, v.--189, r.}	164,v.--166,v.,⏎et 186,v.--189,r.}
+C23	42 n.8	italic units	$8^{\mathrm m}48^{\mathrm s}\times15⏎=528^{\mathrm s}\times15	$8^{m}\,48^{s}\times15⏎=528^{s}\times15
+U07	42 n.9	flag resolved: 30^IV and 42^VI; letter-spaced name	Codex male \U{U07}{$30^{[?]}$ et $42^{[?]}$};⏎Ptolemaeus III, 2	Codex male $30^{\mathrm{IV}}$ et $42^{\mathrm{VI}}$;⏎{\addfontfeatures{LetterSpace=0.5} Ptolemaeus} III, 2
+C24	42 n.10	order signs; letter-spaced name	$55^{\mathrm v}$ et in codice⏎$50^{\mathrm v}$; Ptolemaeus⏎	$55^{\mathrm{V}}$ et in codice⏎$50^{\mathrm{V}}$; {\addfontfeatures{LetterSpace=0.5} Ptolemaeus}⏎
+C25	43	italic apparatus letter	percurrere (a), quae	percurrere ({\itshape a}), quae
+U08	43	flag resolved: PKLRMY as printed (confirmed by p. 44)	\U{U08}{PKLRMY}	PKLRMY
+U09	43 n.2	flag resolved: no closing parenthesis in print (kept); italic Almag.	\NN{2}{Almag. III, 4 (ed. Halma t. I, p. 184--185.%⏎\textsuperscript{\texttt{[U09]}}}	\NN{2}{{\itshape Almag.} III, 4 (ed. Halma t. I, p. 184--185.}
+C26	43 n.3	letter-spaced name	ut me Schiaparelli monet	ut me {\addfontfeatures{LetterSpace=0.5} Schiaparelli} monet
+C27	43 n.4	italics and spacing inside guillemets as printed	«93 diebus et 14 horis aequinoctialibus, quae parum ad⏎deminutionem inclinant»; forte huic «parum minus» respondent	«~93 diebus et 14 horis aequinoctialibus, {\itshape quae parum ad⏎deminutionem inclinant}~»; forte huic «~parum minus~» respondent

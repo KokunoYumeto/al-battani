@@ -53,3 +53,29 @@ Pp. 1–35 are byte-identical to v002 plus the pp. 31–35 extension. Pp. 36–4
   - Both diagrams are exact crops.
 - **Not included here.** `unverified/` (embedded-text extraction for PDF 130–198, which the checkpoint itself says is not transcription) and
   `qa/build_A`, `qa/build_B` (the two 7-page failed builds). Both are in the original ZIP.
+
+## Candidate, printed pp. 41–43 (2026-09-26)
+
+`candidate_print041-043/` holds ChatGPT's text-level LuaLaTeX candidate for master PDF 130–132, unchanged, next to a checked copy. The full record is in
+[`S02_P041_043_CHECK.md`](candidate_print041-043/S02_P041_043_CHECK.md).
+
+- **Build.** LuaLaTeX ×2 builds 3 pages with no errors, no missing characters and no overfull boxes. This holds for both files.
+- **Completeness.** Word-trigram overlap with the OCR layer is 82–94% in both directions. The unmatched runs are hyphenation and OCR noise.
+- **Fidelity.** All three pages were read line by line against the scan.
+  - All nine flagged readings are resolved:
+    - 285, not the OCR's 287
+    - 1/20, [ἄρχων], 2/5 and PKLRMY as read
+    - the note-4 formula transcribed
+    - the order signs are small capitals (IV, V, VI)
+    - note 9 reads 30^IV and 42^VI
+    - two missing ")" kept as printed
+  - Ten further readings are corrected:
+    - two copied from the OCR layer: *efficiant*, *Pachon*
+    - 365° for 365ᵈ, twice
+    - "164, r." for "164,v."
+    - the macron in al-Battānī (three places)
+    - three dashes restored
+    - an added parenthesis removed
+  - Typography is aligned with pp. 1–40.
+  - Every change is listed in `ledgers/checked_changes.tsv`.
+- **Still paragraph-level.** Marginal locators (pp. 62–66 of the Arabic), line numbers and line-initial guillemets need the line-anchored form of pp. 1–40.
