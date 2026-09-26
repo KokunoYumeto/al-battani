@@ -25,3 +25,14 @@ by a second model, not a human proofread and not a full collation.
 Not included in this repository: `qa/source/` (28 reading renders of source pages, 19 MB), which are
 intermediate. They remain in the archived package (`AB01_S02_v002.zip`) on Zenodo, so the package
 manifest lists them.
+
+## Extension, printed pp. 31–35 (2026-09-26)
+
+`extension_print031-035/` holds five page records (master PDF 120–124), delivered separately from v002. It extends the
+v002 records and does not replace them. It has no reader PDF or TeX yet.
+
+- **Manifest:** 7/7 files verified.
+- **Completeness:** word-trigram overlap with the scan's OCR text layer is 85–95% in both directions on each page (PDF 120–124),
+  with near-equal word counts (2,206 transcribed against 2,260 OCR words).
+- **Fidelity (printed p. 32, against the scan):** body, chapter heading, both note columns and the margin locators ("p. 48.", "p. 49.")
+  match line for line, including the Arabic *mayl* (ميل) and "(i. e. cos δ)".
