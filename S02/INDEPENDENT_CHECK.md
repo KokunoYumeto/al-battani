@@ -36,3 +36,20 @@ v002 records and does not replace them. It has no reader PDF or TeX yet.
   with near-equal word counts (2,206 transcribed against 2,260 OCR words).
 - **Fidelity (printed p. 32, against the scan):** body, chapter heading, both note columns and the margin locators ("p. 48.", "p. 49.")
   match line for line, including the Arabic *mayl* (ميل) and "(i. e. cos δ)".
+
+## Candidate "bounded_v006", printed pp. 1–40 (2026-09-26)
+
+`candidate_v006_print001-040/` is ChatGPT's cumulative checkpoint (`S02_PRINT001_040_CHECKPOINT.zip`, 183 files, manifest 183/183).
+Pp. 1–35 are byte-identical to v002 plus the pp. 31–35 extension. Pp. 36–40 (master PDF 125–129) are new.
+
+- **Build.** The checkpoint records "BUILD_FAILURE_RECORDED". Its TeX includes `tex/tables/AB01-PDF0096-T01.tex` and `…0097-T01.tex`,
+  which were not in the package, so XeLaTeX stopped after 7 pages. With those two files copied from v002 (the tables are unchanged),
+  XeLaTeX ×2 builds cleanly here: 41 pages, no errors, no missing characters, no overfull boxes. That build is `pdf/S02_NALLINO_SOURCE_CANDIDATE_pp001-040.pdf`.
+  There is no critical-apparatus PDF in this checkpoint; v002's covers pp. 1–30.
+- **Completeness, pp. 36–40.** Word-trigram overlap with the scan's OCR layer is 78–94% in both directions on each page, with near-equal word counts.
+- **Fidelity.** Printed pp. 38 and 39 were read against the scan in full.
+  - They match: body, italicised geometric assertions, bracketed insertions, all ten notes of p. 38 (with the fraction GM = BC×FG/FB = BC×FM/FC),
+    the numbers (1558ᵖ 51′, 25ᵖ 58′ 51″, 25° 39′ ½, 4082ᵖ 19′, 63ᵖ 54′, …), and the margin locators.
+  - Both diagrams are exact crops.
+- **Not included here.** `unverified/` (embedded-text extraction for PDF 130–198, which the checkpoint itself says is not transcription) and
+  `qa/build_A`, `qa/build_B` (the two 7-page failed builds). Both are in the original ZIP.

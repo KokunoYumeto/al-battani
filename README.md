@@ -16,7 +16,7 @@ It is an independent working edition. Nallino's edition is in the public domain.
 | Session | Scope | Status |
 |---|---|---|
 | S01 | Nallino, Part I: frontispiece, front matter, preface, bibliography, addenda/corrigenda (PDF 1–89, printed VII–LXXX) | **v003 candidate:** revised transcription with 85 recorded, source-checked decisions (71 text repairs, 14 exact-image substitutions) on 50 pages; 80-page reader and 4-page critical apparatus. Ten hard-to-read spots are kept as exact source images. The independent cold audit has not been done yet |
-| S02 | Part I: Nallino's Latin translation and notes, printed pp. 1–109 (PDF 90–198) | **v002, partial:** printed pp. 1–30 transcribed (PDF 90–119), with a 31-page reader and a 2-page critical apparatus. **Extension:** pp. 31–35 as page records in [S02/extension_print031-035/](S02/extension_print031-035/), not yet in the reader. 74 pages remain; the next is printed p. 36. Spot-checked independently, see [S02/INDEPENDENT_CHECK.md](S02/INDEPENDENT_CHECK.md) |
+| S02 | Part I: Nallino's Latin translation and notes, printed pp. 1–109 (PDF 90–198) | **Candidate v006:** printed pp. 1–40 (PDF 90–129) in [S02/candidate_v006_print001-040/](S02/candidate_v006_print001-040/), with a 41-page reader built here (the checkpoint's own build lacked two table files). v002 (pp. 1–30, with its 2-page critical apparatus) and the pp. 31–35 extension are kept. 69 pages remain; the next is printed p. 41. Spot-checked independently, see [S02/INDEPENDENT_CHECK.md](S02/INDEPENDENT_CHECK.md) |
 | S03–S04 | Part I: Nallino's Latin translation and notes, printed pp. 110–327 | not started |
 | S05–S09 | Part II: tables and notes | not started |
 | S10–S13 | Part III: Arabic text and tables | not started |
@@ -32,7 +32,8 @@ It is an independent working edition. Nallino's edition is in the public domain.
 - [What changed from v002](S01/ledgers/v003_changes.tsv)
 
 **Read S02 (partial):**
-- [Reader, 31 pp.](S02/pdf/S02_NALLINO_SOURCE_v002.pdf), printed pp. 1–30
+- [Candidate reader, 41 pp.](S02/candidate_v006_print001-040/pdf/S02_NALLINO_SOURCE_CANDIDATE_pp001-040.pdf), printed pp. 1–40
+- [v002 reader, 31 pp.](S02/pdf/S02_NALLINO_SOURCE_v002.pdf), printed pp. 1–30
 - [Critical apparatus, 2 pp.](S02/pdf/S02_CRITICAL_NOTES_v002.pdf)
 - [TeX source](S02/tex/S02_NALLINO_SOURCE_v002.tex) and [line-anchored text](S02/transcription/S02_NALLINO_SOURCE_v002.txt)
 - [About this batch](S02/README.md)
