@@ -1,0 +1,609 @@
+{
+  "method": "pypdf add_page for owned 30 pages, pixel comparison using PyMuPDF 72 dpi on every page",
+  "page_count": 30,
+  "all_pixels_equal": true,
+  "sha256": "4b0750f5cd64a8577c419a566cd75db69878dea170a867f0a4e6f14ad67a53e3",
+  "bytes": 2129153,
+  "pages": [
+    {
+      "master_pdf_page": 90,
+      "excerpt_page": 1,
+      "master_rect": [
+        0.0,
+        0.0,
+        601.4400024414062,
+        884.1599731445312
+      ],
+      "excerpt_rect": [
+        0.0,
+        0.0,
+        601.4400024414062,
+        884.1599731445312
+      ],
+      "master_pixel_sha256": "684be50bf0dfd69ac0b62b2b28ad6c51293ae65bc1fb05a08b766069c3931268",
+      "excerpt_pixel_sha256": "684be50bf0dfd69ac0b62b2b28ad6c51293ae65bc1fb05a08b766069c3931268",
+      "size_equal": true,
+      "pixels_equal": true
+    },
+    {
+      "master_pdf_page": 91,
+      "excerpt_page": 2,
+      "master_rect": [
+        0.0,
+        0.0,
+        601.4400024414062,
+        890.1600341796875
+      ],
+      "excerpt_rect": [
+        0.0,
+        0.0,
+        601.4400024414062,
+        890.1600341796875
+      ],
+      "master_pixel_sha256": "4090eb652e5855ca9c53cd3e0e6cc6f56ccaeed6fa3657ddb844ef14e212cdb9",
+      "excerpt_pixel_sha256": "4090eb652e5855ca9c53cd3e0e6cc6f56ccaeed6fa3657ddb844ef14e212cdb9",
+      "size_equal": true,
+      "pixels_equal": true
+    },
+    {
+      "master_pdf_page": 92,
+      "excerpt_page": 3,
+      "master_rect": [
+        0.0,
+        0.0,
+        601.4400024414062,
+        884.4000244140625
+      ],
+      "excerpt_rect": [
+        0.0,
+        0.0,
+        601.4400024414062,
+        884.4000244140625
+      ],
+      "master_pixel_sha256": "9ae085c4d9187f3b59a67ffafd5c941f566abfd46f30d861373358fbbe2980b1",
+      "excerpt_pixel_sha256": "9ae085c4d9187f3b59a67ffafd5c941f566abfd46f30d861373358fbbe2980b1",
+      "size_equal": true,
+      "pixels_equal": true
+    },
+    {
+      "master_pdf_page": 93,
+      "excerpt_page": 4,
+      "master_rect": [
+        0.0,
+        0.0,
+        601.4400024414062,
+        891.5999755859375
+      ],
+      "excerpt_rect": [
+        0.0,
+        0.0,
+        601.4400024414062,
+        891.5999755859375
+      ],
+      "master_pixel_sha256": "5ec3b773691bc6975fafb88313d58ba24ac4e25f49ac41dd0358673fb010d455",
+      "excerpt_pixel_sha256": "5ec3b773691bc6975fafb88313d58ba24ac4e25f49ac41dd0358673fb010d455",
+      "size_equal": true,
+      "pixels_equal": true
+    },
+    {
+      "master_pdf_page": 94,
+      "excerpt_page": 5,
+      "master_rect": [
+        0.0,
+        0.0,
+        601.4400024414062,
+        884.6400146484375
+      ],
+      "excerpt_rect": [
+        0.0,
+        0.0,
+        601.4400024414062,
+        884.6400146484375
+      ],
+      "master_pixel_sha256": "780507d1d3419b6ba96c497f3f413291b763eecd437b1fe4d2eae73874e1d5a8",
+      "excerpt_pixel_sha256": "780507d1d3419b6ba96c497f3f413291b763eecd437b1fe4d2eae73874e1d5a8",
+      "size_equal": true,
+      "pixels_equal": true
+    },
+    {
+      "master_pdf_page": 95,
+      "excerpt_page": 6,
+      "master_rect": [
+        0.0,
+        0.0,
+        601.4400024414062,
+        890.1600341796875
+      ],
+      "excerpt_rect": [
+        0.0,
+        0.0,
+        601.4400024414062,
+        890.1600341796875
+      ],
+      "master_pixel_sha256": "73090cff2c13aae0402317c06cfb1e7be222250ee72d8e9e474a78fe39d4f4e5",
+      "excerpt_pixel_sha256": "73090cff2c13aae0402317c06cfb1e7be222250ee72d8e9e474a78fe39d4f4e5",
+      "size_equal": true,
+      "pixels_equal": true
+    },
+    {
+      "master_pdf_page": 96,
+      "excerpt_page": 7,
+      "master_rect": [
+        0.0,
+        0.0,
+        601.4400024414062,
+        888.2400512695312
+      ],
+      "excerpt_rect": [
+        0.0,
+        0.0,
+        601.4400024414062,
+        888.2400512695312
+      ],
+      "master_pixel_sha256": "2642b1b0a469610c50bd309b252f361cabffe9d9e32cc3b7be21a539dd98785d",
+      "excerpt_pixel_sha256": "2642b1b0a469610c50bd309b252f361cabffe9d9e32cc3b7be21a539dd98785d",
+      "size_equal": true,
+      "pixels_equal": true
+    },
+    {
+      "master_pdf_page": 97,
+      "excerpt_page": 8,
+      "master_rect": [
+        0.0,
+        0.0,
+        601.4400024414062,
+        889.2000122070312
+      ],
+      "excerpt_rect": [
+        0.0,
+        0.0,
+        601.4400024414062,
+        889.2000122070312
+      ],
+      "master_pixel_sha256": "8e4671bae10e211f89ca09e27257a0c8fc76ebe204b52a19a3c3f99717898a91",
+      "excerpt_pixel_sha256": "8e4671bae10e211f89ca09e27257a0c8fc76ebe204b52a19a3c3f99717898a91",
+      "size_equal": true,
+      "pixels_equal": true
+    },
+    {
+      "master_pdf_page": 98,
+      "excerpt_page": 9,
+      "master_rect": [
+        0.0,
+        0.0,
+        601.4400024414062,
+        886.0799560546875
+      ],
+      "excerpt_rect": [
+        0.0,
+        0.0,
+        601.4400024414062,
+        886.0799560546875
+      ],
+      "master_pixel_sha256": "277b4771fcb616b3aef03ea8efc4882513d40ff7533bf783e21bd8e22233a9c8",
+      "excerpt_pixel_sha256": "277b4771fcb616b3aef03ea8efc4882513d40ff7533bf783e21bd8e22233a9c8",
+      "size_equal": true,
+      "pixels_equal": true
+    },
+    {
+      "master_pdf_page": 99,
+      "excerpt_page": 10,
+      "master_rect": [
+        0.0,
+        0.0,
+        601.4400024414062,
+        887.0399780273438
+      ],
+      "excerpt_rect": [
+        0.0,
+        0.0,
+        601.4400024414062,
+        887.0399780273438
+      ],
+      "master_pixel_sha256": "91462fb2c9da246421a962fe808f493eeae131a6fa60878d8ce36901ab282ea4",
+      "excerpt_pixel_sha256": "91462fb2c9da246421a962fe808f493eeae131a6fa60878d8ce36901ab282ea4",
+      "size_equal": true,
+      "pixels_equal": true
+    },
+    {
+      "master_pdf_page": 100,
+      "excerpt_page": 11,
+      "master_rect": [
+        0.0,
+        0.0,
+        601.4400024414062,
+        887.760009765625
+      ],
+      "excerpt_rect": [
+        0.0,
+        0.0,
+        601.4400024414062,
+        887.760009765625
+      ],
+      "master_pixel_sha256": "531fad8ff9aa49fb9f3d9e22a7fc168f13c4658fe6812e2680cc971b1ae96a50",
+      "excerpt_pixel_sha256": "531fad8ff9aa49fb9f3d9e22a7fc168f13c4658fe6812e2680cc971b1ae96a50",
+      "size_equal": true,
+      "pixels_equal": true
+    },
+    {
+      "master_pdf_page": 101,
+      "excerpt_page": 12,
+      "master_rect": [
+        0.0,
+        0.0,
+        601.4400024414062,
+        887.0399780273438
+      ],
+      "excerpt_rect": [
+        0.0,
+        0.0,
+        601.4400024414062,
+        887.0399780273438
+      ],
+      "master_pixel_sha256": "8d6ceb4dc3a1113fa24f5e0a70841b91806daf2c419257aa5063d68c11ec0431",
+      "excerpt_pixel_sha256": "8d6ceb4dc3a1113fa24f5e0a70841b91806daf2c419257aa5063d68c11ec0431",
+      "size_equal": true,
+      "pixels_equal": true
+    },
+    {
+      "master_pdf_page": 102,
+      "excerpt_page": 13,
+      "master_rect": [
+        0.0,
+        0.0,
+        601.4400024414062,
+        886.5599975585938
+      ],
+      "excerpt_rect": [
+        0.0,
+        0.0,
+        601.4400024414062,
+        886.5599975585938
+      ],
+      "master_pixel_sha256": "af804774cadb5362194b281c9d6185f1b5708c2ccc5aa51f0cc8d9245d86b305",
+      "excerpt_pixel_sha256": "af804774cadb5362194b281c9d6185f1b5708c2ccc5aa51f0cc8d9245d86b305",
+      "size_equal": true,
+      "pixels_equal": true
+    },
+    {
+      "master_pdf_page": 103,
+      "excerpt_page": 14,
+      "master_rect": [
+        0.0,
+        0.0,
+        601.4400024414062,
+        885.6000366210938
+      ],
+      "excerpt_rect": [
+        0.0,
+        0.0,
+        601.4400024414062,
+        885.6000366210938
+      ],
+      "master_pixel_sha256": "2f8e042ce390c0b62cd82f04880f2fabd158f16dc57b8c7df968a7e57b1210b3",
+      "excerpt_pixel_sha256": "2f8e042ce390c0b62cd82f04880f2fabd158f16dc57b8c7df968a7e57b1210b3",
+      "size_equal": true,
+      "pixels_equal": true
+    },
+    {
+      "master_pdf_page": 104,
+      "excerpt_page": 15,
+      "master_rect": [
+        0.0,
+        0.0,
+        601.4400024414062,
+        884.4000244140625
+      ],
+      "excerpt_rect": [
+        0.0,
+        0.0,
+        601.4400024414062,
+        884.4000244140625
+      ],
+      "master_pixel_sha256": "4047e335539c901b7e5e602ed208de8481c1fd97526ea036c19091885e2d1ad3",
+      "excerpt_pixel_sha256": "4047e335539c901b7e5e602ed208de8481c1fd97526ea036c19091885e2d1ad3",
+      "size_equal": true,
+      "pixels_equal": true
+    },
+    {
+      "master_pdf_page": 105,
+      "excerpt_page": 16,
+      "master_rect": [
+        0.0,
+        0.0,
+        601.4400024414062,
+        887.280029296875
+      ],
+      "excerpt_rect": [
+        0.0,
+        0.0,
+        601.4400024414062,
+        887.280029296875
+      ],
+      "master_pixel_sha256": "d60f982270afa8fdafd8cb7b3e22819674a921bc55b61b33df7eda793fc25339",
+      "excerpt_pixel_sha256": "d60f982270afa8fdafd8cb7b3e22819674a921bc55b61b33df7eda793fc25339",
+      "size_equal": true,
+      "pixels_equal": true
+    },
+    {
+      "master_pdf_page": 106,
+      "excerpt_page": 17,
+      "master_rect": [
+        0.0,
+        0.0,
+        601.4400024414062,
+        886.7999877929688
+      ],
+      "excerpt_rect": [
+        0.0,
+        0.0,
+        601.4400024414062,
+        886.7999877929688
+      ],
+      "master_pixel_sha256": "495e9e76033cb46372e2a7c8542c82cb0ca4de3750b5cbd232671e9e57ec7541",
+      "excerpt_pixel_sha256": "495e9e76033cb46372e2a7c8542c82cb0ca4de3750b5cbd232671e9e57ec7541",
+      "size_equal": true,
+      "pixels_equal": true
+    },
+    {
+      "master_pdf_page": 107,
+      "excerpt_page": 18,
+      "master_rect": [
+        0.0,
+        0.0,
+        601.4400024414062,
+        890.6400146484375
+      ],
+      "excerpt_rect": [
+        0.0,
+        0.0,
+        601.4400024414062,
+        890.6400146484375
+      ],
+      "master_pixel_sha256": "4a754776157690050723c80a17567009b30f75b1a9334ed3ca8beee6f2de45ab",
+      "excerpt_pixel_sha256": "4a754776157690050723c80a17567009b30f75b1a9334ed3ca8beee6f2de45ab",
+      "size_equal": true,
+      "pixels_equal": true
+    },
+    {
+      "master_pdf_page": 108,
+      "excerpt_page": 19,
+      "master_rect": [
+        0.0,
+        0.0,
+        601.4400024414062,
+        888.47998046875
+      ],
+      "excerpt_rect": [
+        0.0,
+        0.0,
+        601.4400024414062,
+        888.47998046875
+      ],
+      "master_pixel_sha256": "26756190d15a5a9e2b4b131cfb243e6a0a0b1eaecdceb42418edd0e9508d841e",
+      "excerpt_pixel_sha256": "26756190d15a5a9e2b4b131cfb243e6a0a0b1eaecdceb42418edd0e9508d841e",
+      "size_equal": true,
+      "pixels_equal": true
+    },
+    {
+      "master_pdf_page": 109,
+      "excerpt_page": 20,
+      "master_rect": [
+        0.0,
+        0.0,
+        601.4400024414062,
+        884.8800048828125
+      ],
+      "excerpt_rect": [
+        0.0,
+        0.0,
+        601.4400024414062,
+        884.8800048828125
+      ],
+      "master_pixel_sha256": "0791bb8a764d59578646e23e51098eefdfbf5de5c48e998f835ece7deeaf0652",
+      "excerpt_pixel_sha256": "0791bb8a764d59578646e23e51098eefdfbf5de5c48e998f835ece7deeaf0652",
+      "size_equal": true,
+      "pixels_equal": true
+    },
+    {
+      "master_pdf_page": 110,
+      "excerpt_page": 21,
+      "master_rect": [
+        0.0,
+        0.0,
+        601.4400024414062,
+        884.1599731445312
+      ],
+      "excerpt_rect": [
+        0.0,
+        0.0,
+        601.4400024414062,
+        884.1599731445312
+      ],
+      "master_pixel_sha256": "7b3e807237e012e9ae33e30220118bda2d30a06775bb556a76e89dfc5a94f0cb",
+      "excerpt_pixel_sha256": "7b3e807237e012e9ae33e30220118bda2d30a06775bb556a76e89dfc5a94f0cb",
+      "size_equal": true,
+      "pixels_equal": true
+    },
+    {
+      "master_pdf_page": 111,
+      "excerpt_page": 22,
+      "master_rect": [
+        0.0,
+        0.0,
+        601.4400024414062,
+        886.3200073242188
+      ],
+      "excerpt_rect": [
+        0.0,
+        0.0,
+        601.4400024414062,
+        886.3200073242188
+      ],
+      "master_pixel_sha256": "85b6ecf1a2128067bdb8722b4d4fe5dda2e1244ad488ba2692a43d2cb1efb988",
+      "excerpt_pixel_sha256": "85b6ecf1a2128067bdb8722b4d4fe5dda2e1244ad488ba2692a43d2cb1efb988",
+      "size_equal": true,
+      "pixels_equal": true
+    },
+    {
+      "master_pdf_page": 112,
+      "excerpt_page": 23,
+      "master_rect": [
+        0.0,
+        0.0,
+        601.4400024414062,
+        887.760009765625
+      ],
+      "excerpt_rect": [
+        0.0,
+        0.0,
+        601.4400024414062,
+        887.760009765625
+      ],
+      "master_pixel_sha256": "b357713c774d81e63df7c3fae3ef050a429d5ef27a54b7811a189a45466b1db4",
+      "excerpt_pixel_sha256": "b357713c774d81e63df7c3fae3ef050a429d5ef27a54b7811a189a45466b1db4",
+      "size_equal": true,
+      "pixels_equal": true
+    },
+    {
+      "master_pdf_page": 113,
+      "excerpt_page": 24,
+      "master_rect": [
+        0.0,
+        0.0,
+        601.4400024414062,
+        885.1199951171875
+      ],
+      "excerpt_rect": [
+        0.0,
+        0.0,
+        601.4400024414062,
+        885.1199951171875
+      ],
+      "master_pixel_sha256": "6f77859528293ecad621b87193463cf8dd23510576f2b4c333b6736295780523",
+      "excerpt_pixel_sha256": "6f77859528293ecad621b87193463cf8dd23510576f2b4c333b6736295780523",
+      "size_equal": true,
+      "pixels_equal": true
+    },
+    {
+      "master_pdf_page": 114,
+      "excerpt_page": 25,
+      "master_rect": [
+        0.0,
+        0.0,
+        601.4400024414062,
+        892.3200073242188
+      ],
+      "excerpt_rect": [
+        0.0,
+        0.0,
+        601.4400024414062,
+        892.3200073242188
+      ],
+      "master_pixel_sha256": "2e593fa403a5775e39a8bade1a438b28ed493a4b2744cbe94329d5de0d0a55fc",
+      "excerpt_pixel_sha256": "2e593fa403a5775e39a8bade1a438b28ed493a4b2744cbe94329d5de0d0a55fc",
+      "size_equal": true,
+      "pixels_equal": true
+    },
+    {
+      "master_pdf_page": 115,
+      "excerpt_page": 26,
+      "master_rect": [
+        0.0,
+        0.0,
+        601.4400024414062,
+        894.0
+      ],
+      "excerpt_rect": [
+        0.0,
+        0.0,
+        601.4400024414062,
+        894.0
+      ],
+      "master_pixel_sha256": "d543da76f883e30195f67fb12ed1c35a240c8073eecd31b5846bd918b3122f30",
+      "excerpt_pixel_sha256": "d543da76f883e30195f67fb12ed1c35a240c8073eecd31b5846bd918b3122f30",
+      "size_equal": true,
+      "pixels_equal": true
+    },
+    {
+      "master_pdf_page": 116,
+      "excerpt_page": 27,
+      "master_rect": [
+        0.0,
+        0.0,
+        601.4400024414062,
+        884.6400146484375
+      ],
+      "excerpt_rect": [
+        0.0,
+        0.0,
+        601.4400024414062,
+        884.6400146484375
+      ],
+      "master_pixel_sha256": "466d9f5406d3ea957bc1e4eab95bcb7c3633263b02b314e0a648f5920528927e",
+      "excerpt_pixel_sha256": "466d9f5406d3ea957bc1e4eab95bcb7c3633263b02b314e0a648f5920528927e",
+      "size_equal": true,
+      "pixels_equal": true
+    },
+    {
+      "master_pdf_page": 117,
+      "excerpt_page": 28,
+      "master_rect": [
+        0.0,
+        0.0,
+        601.4400024414062,
+        885.6000366210938
+      ],
+      "excerpt_rect": [
+        0.0,
+        0.0,
+        601.4400024414062,
+        885.6000366210938
+      ],
+      "master_pixel_sha256": "64938e6bb8e2762f104f118dfdf5416f3ee699b6713f6bbb2ef6f8820ec10bbc",
+      "excerpt_pixel_sha256": "64938e6bb8e2762f104f118dfdf5416f3ee699b6713f6bbb2ef6f8820ec10bbc",
+      "size_equal": true,
+      "pixels_equal": true
+    },
+    {
+      "master_pdf_page": 118,
+      "excerpt_page": 29,
+      "master_rect": [
+        0.0,
+        0.0,
+        601.4400024414062,
+        886.0799560546875
+      ],
+      "excerpt_rect": [
+        0.0,
+        0.0,
+        601.4400024414062,
+        886.0799560546875
+      ],
+      "master_pixel_sha256": "618c050f7c088bedfb14bb67ea62db990abc7db6c697082714a665033135b5e9",
+      "excerpt_pixel_sha256": "618c050f7c088bedfb14bb67ea62db990abc7db6c697082714a665033135b5e9",
+      "size_equal": true,
+      "pixels_equal": true
+    },
+    {
+      "master_pdf_page": 119,
+      "excerpt_page": 30,
+      "master_rect": [
+        0.0,
+        0.0,
+        601.4400024414062,
+        887.52001953125
+      ],
+      "excerpt_rect": [
+        0.0,
+        0.0,
+        601.4400024414062,
+        887.52001953125
+      ],
+      "master_pixel_sha256": "737ea3307e45926b261a7af655637583fc8e4a1c36c384206a8eeb56510a6650",
+      "excerpt_pixel_sha256": "737ea3307e45926b261a7af655637583fc8e4a1c36c384206a8eeb56510a6650",
+      "size_equal": true,
+      "pixels_equal": true
+    }
+  ]
+}

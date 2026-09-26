@@ -1,0 +1,39 @@
+{
+  "input_export_sha256": "657fac81fe5d7820d7068ac23ee398f79cc2c7d1dac205e9e78375b27484449f",
+  "input_export_status": {
+    "session": "S02",
+    "scope_master_pdf": [
+      90,
+      198
+    ],
+    "scope_printed_pages": [
+      1,
+      109
+    ],
+    "export_created_utc": "2026-09-25T10:27:57.575463+00:00",
+    "purpose": "Preserve existing S02 work and supply complete, explicitly unverified source-replay materials.",
+    "new_translations": false,
+    "canonical_arabic_modified": false,
+    "source_reading_certification_by_exporter": false,
+    "errors": [
+      {
+        "stage": "source_replay_materials",
+        "error": "Excerpt rendering differs at AB01-PDF0090",
+        "traceback": "Traceback (most recent call last):\n  File \"/mnt/data/S02_CONTINUATION_EXPORT/export_continuation.py\", line 137, in <module>\n    assert (a.width,a.height,ph)==(b.width,b.height,eh), f'Excerpt rendering differs at {anchor}'\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: Excerpt rendering differs at AB01-PDF0090\n"
+      }
+    ],
+    "recovered_s02_roots": [],
+    "recovered_s02_files": 0,
+    "s01_closure_or_audit_receipts": [],
+    "source_identity": {
+      "path": "/mnt/data/30_NALLINO_PARS_I_II_III_MASTER_1162P.pdf",
+      "bytes": 80946704,
+      "sha256": "544c16b6355c9b74e281aded657d657224bff738366d5260e1a610d31b0d6297",
+      "pages": 1162,
+      "matches_control": true
+    }
+  },
+  "recovered_editable_S02_transcription": false,
+  "available_prior_evidence": "source-page PNGs PDF90\u2013118 and partial reader proof PNGs; no editable S02 source/checkpoint found",
+  "S01_status": "Previous conversational closure accepted for sequence continuity. Closure receipt absent from supplied archives; not independently re-attested by this S02 run. S01 text unchanged."
+}

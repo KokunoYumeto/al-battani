@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "session": "S02",
+  "version": "v002",
+  "status": "PARTIAL_SOURCE_READ_AND_BUILT",
+  "date": "2026-09-26",
+  "work_id": "AB01",
+  "controlling_source_id": "SRC01",
+  "controlling_source_sha256": "544c16b6355c9b74e281aded657d657224bff738366d5260e1a610d31b0d6297",
+  "assigned_master_pages": [
+    90,
+    198
+  ],
+  "assigned_printed_pages": [
+    1,
+    109
+  ],
+  "transcribed_master_pages": [
+    90,
+    119
+  ],
+  "transcribed_printed_pages": [
+    1,
+    30
+  ],
+  "owned_session_pages": 109,
+  "transcribed_pages": 30,
+  "remaining_pages": 79,
+  "text_line_anchors": 1379,
+  "source_object_insertion_anchors": 4,
+  "marginal_register_records": 80,
+  "explicit_math_spans": 101,
+  "literal_table_cells": 242,
+  "tables": 2,
+  "native_diagrams": 2,
+  "unencoded_image_glyphs": 3,
+  "chapter_headings": 16,
+  "arabic_margin_locator_records": 46,
+  "last_fully_transcribed_source_unit": "AB01-PDF0119",
+  "last_source_replayed_source_unit": "AB01-PDF0119",
+  "last_fully_verified_source_unit": null,
+  "verification_field_definition": "A full, independently exhaustive philological verification boundary is not asserted. All 30 pages have direct-source first-pass reading; technical and bounded read-only visual checks are recorded separately.",
+  "last_technical_coverage_checked_source_unit": "AB01-PDF0119",
+  "first_untouched_source_unit": "AB01-PDF0120",
+  "first_untouched_definition": "First unit with no production transcription; prior previews are not transcription.",
+  "remaining_master_pages": [
+    120,
+    198
+  ],
+  "remaining_printed_pages": [
+    31,
+    109
+  ],
+  "reader_pages": 31,
+  "critical_apparatus_pages": 2,
+  "reader_sha256": "fe54c19a99ad721c2b54aeb8414ff8cfe8e16557caf0305e1ecb695559385bcf",
+  "critical_pdf_sha256": "77e16d9e0742779d0e37d4cd928bb1b9ca3604f345772308a53a35adc673d5ae",
+  "reader_status": "First-pass source-read partial candidate, not S02 completion",
+  "source_excerpt_sha256": "4b0750f5cd64a8577c419a566cd75db69878dea170a867f0a4e6f14ad67a53e3",
+  "source_excerpt_all_30_page_renders_match": true,
+  "technical_audit": "PASS: 39/39 checks; producing-assistant-run separate read-only program",
+  "source_reading_reviewer": "Producing assistant; no separate model or human reviewer claimed",
+  "human_review_required_to_continue": false,
+  "canonical_arabic_checkpoint": null,
+  "canonical_arabic_modified": false,
+  "target_language_translations_generated": [],
+  "S01": "Earlier conversational closure carried forward; S01 not edited. Recovered archival receipt limitations remain in input_continuity.json.",
+  "S03_started": false,
+  "next_action": "Continue the historical Latin source transcription and Nallino apparatus at master PDF120 / printed p.31; retain exact source errors and update the bounded checkpoint."
+}

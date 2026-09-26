@@ -1,0 +1,926 @@
+[
+  {
+    "id": "AB01-PDF0096-T01",
+    "master_pdf_page": 96,
+    "printed_page": 7,
+    "role": "NALLINO_TRANSLATION",
+    "kind": "table",
+    "description": "Multiplication lookup grid, including exterior A/B/B labels",
+    "source_xref": 696,
+    "source_image_size": [
+      5012,
+      7402
+    ],
+    "source_image_pdf_bbox": [
+      0.0,
+      0.0,
+      601.4400024414062,
+      888.2400512695312
+    ],
+    "requested_pdf_rect": [
+      130.0,
+      451.0,
+      465.0,
+      766.0
+    ],
+    "native_pixel_rect": [
+      1083,
+      3758,
+      3875,
+      6384
+    ],
+    "dimensions": [
+      2792,
+      2626
+    ],
+    "operations": [
+      "decode authoritative native image",
+      "integer-bounded lossless crop",
+      "presentation copy byte-identical to raw crop"
+    ],
+    "raw_path": "source/raw/AB01-PDF0096-T01-raw.png",
+    "presentation_path": "source/presentation/AB01-PDF0096-T01.png",
+    "raw_sha256": "00016087c1e545897d9d0425388f14476b99f4c21fbb41fa0fe74c79b8a170dc",
+    "presentation_sha256": "00016087c1e545897d9d0425388f14476b99f4c21fbb41fa0fe74c79b8a170dc",
+    "in_reader": false,
+    "in_reader_as_editable_table": true
+  },
+  {
+    "id": "AB01-PDF0097-T01",
+    "master_pdf_page": 97,
+    "printed_page": 8,
+    "role": "NALLINO_TRANSLATION",
+    "kind": "table",
+    "description": "Division lookup grid, including exterior A/B/D labels",
+    "source_xref": 703,
+    "source_image_size": [
+      5012,
+      7410
+    ],
+    "source_image_pdf_bbox": [
+      0.0,
+      0.0,
+      601.4400024414062,
+      889.2000122070312
+    ],
+    "requested_pdf_rect": [
+      150.0,
+      401.0,
+      487.0,
+      713.0
+    ],
+    "native_pixel_rect": [
+      1249,
+      3341,
+      4059,
+      5942
+    ],
+    "dimensions": [
+      2810,
+      2601
+    ],
+    "operations": [
+      "decode authoritative native image",
+      "integer-bounded lossless crop",
+      "presentation copy byte-identical to raw crop"
+    ],
+    "raw_path": "source/raw/AB01-PDF0097-T01-raw.png",
+    "presentation_path": "source/presentation/AB01-PDF0097-T01.png",
+    "raw_sha256": "293035ef5a06f9e22a33ed6f087d8144b5e32e66ee4fb33e15d4628aed015516",
+    "presentation_sha256": "293035ef5a06f9e22a33ed6f087d8144b5e32e66ee4fb33e15d4628aed015516",
+    "in_reader": false,
+    "in_reader_as_editable_table": true
+  },
+  {
+    "id": "AB01-PDF0096-T01-R04-C10",
+    "master_pdf_page": 96,
+    "printed_page": 7,
+    "role": "NALLINO_TRANSLATION",
+    "kind": "table_cell_glyph",
+    "description": "Damaged second digit in the cell at row 4 column 10; do not supply the mathematically expected value",
+    "source_xref": 696,
+    "source_image_size": [
+      5012,
+      7402
+    ],
+    "source_image_pdf_bbox": [
+      0.0,
+      0.0,
+      601.4400024414062,
+      888.2400512695312
+    ],
+    "requested_pdf_rect": [
+      401.0,
+      550.0,
+      416.0,
+      562.0
+    ],
+    "native_pixel_rect": [
+      3341,
+      4583,
+      3467,
+      4684
+    ],
+    "dimensions": [
+      126,
+      101
+    ],
+    "operations": [
+      "decode authoritative native image",
+      "integer-bounded lossless crop",
+      "presentation copy byte-identical to raw crop"
+    ],
+    "raw_path": "source/raw/AB01-PDF0096-T01-R04-C10-raw.png",
+    "presentation_path": "source/presentation/AB01-PDF0096-T01-R04-C10.png",
+    "raw_sha256": "48bc596339b8cee45e2e1350e21004bceb7316fad1f6e077071b0d9c87a76a63",
+    "presentation_sha256": "48bc596339b8cee45e2e1350e21004bceb7316fad1f6e077071b0d9c87a76a63",
+    "in_reader": true,
+    "in_reader_as_editable_table": false
+  },
+  {
+    "id": "AB01-PDF0101-N04-proof",
+    "master_pdf_page": 101,
+    "printed_page": 12,
+    "role": "NALLINO_APPARATUS",
+    "kind": "proof_only",
+    "description": "Native proof of Nallino latitude formula; no reader insertion",
+    "source_xref": 731,
+    "source_image_size": [
+      5012,
+      7392
+    ],
+    "source_image_pdf_bbox": [
+      0.0,
+      0.0,
+      601.4400024414062,
+      887.0399780273438
+    ],
+    "requested_pdf_rect": [
+      337.0,
+      675.0,
+      486.0,
+      706.0
+    ],
+    "native_pixel_rect": [
+      2808,
+      5625,
+      4050,
+      5884
+    ],
+    "dimensions": [
+      1242,
+      259
+    ],
+    "operations": [
+      "decode authoritative native image",
+      "integer-bounded lossless crop",
+      "presentation copy byte-identical to raw crop"
+    ],
+    "raw_path": "source/raw/AB01-PDF0101-N04-proof-raw.png",
+    "presentation_path": "source/presentation/AB01-PDF0101-N04-proof.png",
+    "raw_sha256": "113cce04cefab09e4807b9f4629c8ffe2775d06e42d5fd4696d07d7a674c619a",
+    "presentation_sha256": "113cce04cefab09e4807b9f4629c8ffe2775d06e42d5fd4696d07d7a674c619a",
+    "in_reader": false,
+    "in_reader_as_editable_table": false
+  },
+  {
+    "id": "AB01-PDF0105-values-proof",
+    "master_pdf_page": 105,
+    "printed_page": 16,
+    "role": "NALLINO_TRANSLATION",
+    "kind": "proof_only",
+    "description": "Two printed latitude occurrences to check their last minute digit",
+    "source_xref": 759,
+    "source_image_size": [
+      5012,
+      7394
+    ],
+    "source_image_pdf_bbox": [
+      0.0,
+      0.0,
+      601.4400024414062,
+      887.280029296875
+    ],
+    "requested_pdf_rect": [
+      423.0,
+      583.0,
+      535.0,
+      643.0
+    ],
+    "native_pixel_rect": [
+      3524,
+      4858,
+      4459,
+      5359
+    ],
+    "dimensions": [
+      935,
+      501
+    ],
+    "operations": [
+      "decode authoritative native image",
+      "integer-bounded lossless crop",
+      "presentation copy byte-identical to raw crop"
+    ],
+    "raw_path": "source/raw/AB01-PDF0105-values-proof-raw.png",
+    "presentation_path": "source/presentation/AB01-PDF0105-values-proof.png",
+    "raw_sha256": "dd4d2d6b6097213c7fd551f7188d94cbc149410fa3f8ffe3ec7cb4bed53501b4",
+    "presentation_sha256": "dd4d2d6b6097213c7fd551f7188d94cbc149410fa3f8ffe3ec7cb4bed53501b4",
+    "in_reader": false,
+    "in_reader_as_editable_table": false
+  },
+  {
+    "id": "AB01-PDF0107-N01-proof",
+    "master_pdf_page": 107,
+    "printed_page": 18,
+    "role": "NALLINO_APPARATUS",
+    "kind": "proof",
+    "description": "Historical Arabic lemma in note 1",
+    "source_xref": 773,
+    "source_image_size": [
+      5012,
+      7422
+    ],
+    "source_image_pdf_bbox": [
+      0.0,
+      0.0,
+      601.4400024414062,
+      890.6400146484375
+    ],
+    "requested_pdf_rect": [
+      115.0,
+      495.0,
+      325.0,
+      544.0
+    ],
+    "native_pixel_rect": [
+      958,
+      4124,
+      2709,
+      4534
+    ],
+    "dimensions": [
+      1751,
+      410
+    ],
+    "operations": [
+      "decode authoritative native image",
+      "integer-bounded lossless crop",
+      "presentation copy byte-identical to raw crop"
+    ],
+    "raw_path": "source/raw/AB01-PDF0107-N01-proof-raw.png",
+    "presentation_path": "source/presentation/AB01-PDF0107-N01-proof.png",
+    "raw_sha256": "e6776d5dd774035bc1af35d723950f042b90bb2d52272111ae6f37a092ea67f4",
+    "presentation_sha256": "e6776d5dd774035bc1af35d723950f042b90bb2d52272111ae6f37a092ea67f4",
+    "in_reader": false,
+    "in_reader_as_editable_table": false
+  },
+  {
+    "id": "AB01-PDF0107-N02-proof",
+    "master_pdf_page": 107,
+    "printed_page": 18,
+    "role": "NALLINO_APPARATUS",
+    "kind": "proof",
+    "description": "Greek quotation in note 2",
+    "source_xref": 773,
+    "source_image_size": [
+      5012,
+      7422
+    ],
+    "source_image_pdf_bbox": [
+      0.0,
+      0.0,
+      601.4400024414062,
+      890.6400146484375
+    ],
+    "requested_pdf_rect": [
+      115.0,
+      545.0,
+      325.0,
+      608.0
+    ],
+    "native_pixel_rect": [
+      958,
+      4541,
+      2709,
+      5067
+    ],
+    "dimensions": [
+      1751,
+      526
+    ],
+    "operations": [
+      "decode authoritative native image",
+      "integer-bounded lossless crop",
+      "presentation copy byte-identical to raw crop"
+    ],
+    "raw_path": "source/raw/AB01-PDF0107-N02-proof-raw.png",
+    "presentation_path": "source/presentation/AB01-PDF0107-N02-proof.png",
+    "raw_sha256": "1dc5babce5a604e7ac5ced5758657fbd0862c439153c2036039aeaf04343df0d",
+    "presentation_sha256": "1dc5babce5a604e7ac5ced5758657fbd0862c439153c2036039aeaf04343df0d",
+    "in_reader": false,
+    "in_reader_as_editable_table": false
+  },
+  {
+    "id": "AB01-PDF0107-N05-proof",
+    "master_pdf_page": 107,
+    "printed_page": 18,
+    "role": "NALLINO_APPARATUS",
+    "kind": "proof",
+    "description": "Arabic numerals in note 5",
+    "source_xref": 773,
+    "source_image_size": [
+      5012,
+      7422
+    ],
+    "source_image_pdf_bbox": [
+      0.0,
+      0.0,
+      601.4400024414062,
+      890.6400146484375
+    ],
+    "requested_pdf_rect": [
+      115.0,
+      662.0,
+      325.0,
+      738.0
+    ],
+    "native_pixel_rect": [
+      958,
+      5516,
+      2709,
+      6150
+    ],
+    "dimensions": [
+      1751,
+      634
+    ],
+    "operations": [
+      "decode authoritative native image",
+      "integer-bounded lossless crop",
+      "presentation copy byte-identical to raw crop"
+    ],
+    "raw_path": "source/raw/AB01-PDF0107-N05-proof-raw.png",
+    "presentation_path": "source/presentation/AB01-PDF0107-N05-proof.png",
+    "raw_sha256": "c85ad99994b4697b976df196123e44c010e41bd5160c61689cd4c4d5aebbb850",
+    "presentation_sha256": "c85ad99994b4697b976df196123e44c010e41bd5160c61689cd4c4d5aebbb850",
+    "in_reader": false,
+    "in_reader_as_editable_table": false
+  },
+  {
+    "id": "AB01-PDF0107-N11-proof",
+    "master_pdf_page": 107,
+    "printed_page": 18,
+    "role": "NALLINO_APPARATUS",
+    "kind": "proof",
+    "description": "Arabic toponym in note 11",
+    "source_xref": 773,
+    "source_image_size": [
+      5012,
+      7422
+    ],
+    "source_image_pdf_bbox": [
+      0.0,
+      0.0,
+      601.4400024414062,
+      890.6400146484375
+    ],
+    "requested_pdf_rect": [
+      330.0,
+      592.0,
+      543.0,
+      700.0
+    ],
+    "native_pixel_rect": [
+      2749,
+      4933,
+      4525,
+      5834
+    ],
+    "dimensions": [
+      1776,
+      901
+    ],
+    "operations": [
+      "decode authoritative native image",
+      "integer-bounded lossless crop",
+      "presentation copy byte-identical to raw crop"
+    ],
+    "raw_path": "source/raw/AB01-PDF0107-N11-proof-raw.png",
+    "presentation_path": "source/presentation/AB01-PDF0107-N11-proof.png",
+    "raw_sha256": "d08af14f1d485bec36bb5ce1865a9419098e509131724e2af3c0f697b5f35cd8",
+    "presentation_sha256": "d08af14f1d485bec36bb5ce1865a9419098e509131724e2af3c0f697b5f35cd8",
+    "in_reader": false,
+    "in_reader_as_editable_table": false
+  },
+  {
+    "id": "AB01-PDF0113-F01",
+    "master_pdf_page": 113,
+    "printed_page": 24,
+    "role": "NALLINO_TRANSLATION",
+    "kind": "figure",
+    "description": "Meridian construction: complete circle, gnomon, shadow lines, points A–H and directional labels; untouched native crop.",
+    "source_xref": 816,
+    "source_image_size": [
+      5012,
+      7376
+    ],
+    "source_image_pdf_bbox": [
+      0.0,
+      0.0,
+      601.4400024414062,
+      885.1199951171875
+    ],
+    "requested_pdf_rect": [
+      121.0,
+      556.0,
+      350.0,
+      735.0
+    ],
+    "native_pixel_rect": [
+      1008,
+      4633,
+      2917,
+      6126
+    ],
+    "dimensions": [
+      1909,
+      1493
+    ],
+    "operations": [
+      "decode authoritative native image",
+      "integer-bounded lossless crop",
+      "presentation copy byte-identical to raw crop"
+    ],
+    "raw_path": "source/raw/AB01-PDF0113-F01-raw.png",
+    "presentation_path": "source/presentation/AB01-PDF0113-F01.png",
+    "raw_sha256": "4065d7f3f175410eee6d01dfad4ba640d30a309f391685e7250f2f47778fe181",
+    "presentation_sha256": "4065d7f3f175410eee6d01dfad4ba640d30a309f391685e7250f2f47778fe181",
+    "underlying_content_role": "AB_TABLE",
+    "arabic_drawing_collation": "not performed",
+    "in_reader": true,
+    "in_reader_as_editable_table": false
+  },
+  {
+    "id": "AB01-PDF0117-NAME-proof",
+    "master_pdf_page": 117,
+    "printed_page": 28,
+    "role": "NALLINO_APPARATUS",
+    "kind": "proof",
+    "description": "Printed transliteration al-Ġaghmīnī proof crop",
+    "source_xref": 844,
+    "source_image_size": [
+      5012,
+      7380
+    ],
+    "source_image_pdf_bbox": [
+      0.0,
+      0.0,
+      601.4400024414062,
+      885.6000366210938
+    ],
+    "requested_pdf_rect": [
+      349.0,
+      691.0,
+      423.0,
+      708.0
+    ],
+    "native_pixel_rect": [
+      2908,
+      5758,
+      3525,
+      5900
+    ],
+    "dimensions": [
+      617,
+      142
+    ],
+    "operations": [
+      "decode authoritative native image",
+      "integer-bounded lossless crop",
+      "presentation copy byte-identical to raw crop"
+    ],
+    "raw_path": "source/raw/AB01-PDF0117-NAME-proof-raw.png",
+    "presentation_path": "source/presentation/AB01-PDF0117-NAME-proof.png",
+    "raw_sha256": "c4710a6fa98d97676e0231f554b440411da9311f273a6c59ec163a38966a066a",
+    "presentation_sha256": "c4710a6fa98d97676e0231f554b440411da9311f273a6c59ec163a38966a066a",
+    "in_reader": false,
+    "in_reader_as_editable_table": false
+  },
+  {
+    "id": "AB01-PDF0103-NAME-proof",
+    "master_pdf_page": 103,
+    "printed_page": 14,
+    "role": "NALLINO_APPARATUS",
+    "kind": "proof",
+    "description": "Printed al-Ġaghmīnī transliteration proof",
+    "source_xref": 745,
+    "source_image_size": [
+      5012,
+      7380
+    ],
+    "source_image_pdf_bbox": [
+      0.0,
+      0.0,
+      601.4400024414062,
+      885.6000366210938
+    ],
+    "requested_pdf_rect": [
+      156.49998474121094,
+      654.1910400390625,
+      228.39999389648438,
+      671.4224243164062
+    ],
+    "native_pixel_rect": [
+      1304,
+      5451,
+      1904,
+      5596
+    ],
+    "dimensions": [
+      600,
+      145
+    ],
+    "operations": [
+      "decode authoritative native image",
+      "integer-bounded lossless crop",
+      "presentation copy byte-identical to raw crop"
+    ],
+    "raw_path": "source/raw/AB01-PDF0103-NAME-proof-raw.png",
+    "presentation_path": "source/presentation/AB01-PDF0103-NAME-proof.png",
+    "raw_sha256": "933f08df740e9b5b4427b288803853d23fa888ed862d70d3e79c82f6dbde7979",
+    "presentation_sha256": "933f08df740e9b5b4427b288803853d23fa888ed862d70d3e79c82f6dbde7979",
+    "in_reader": false,
+    "in_reader_as_editable_table": false
+  },
+  {
+    "id": "AB01-PDF0105-NAME-proof",
+    "master_pdf_page": 105,
+    "printed_page": 16,
+    "role": "NALLINO_APPARATUS",
+    "kind": "proof",
+    "description": "Printed al-Ġaghmīnī transliteration proof",
+    "source_xref": 759,
+    "source_image_size": [
+      5012,
+      7394
+    ],
+    "source_image_pdf_bbox": [
+      0.0,
+      0.0,
+      601.4400024414062,
+      887.280029296875
+    ],
+    "requested_pdf_rect": [
+      243.5998992919922,
+      724.5213012695312,
+      316.2198791503906,
+      743.1051635742188
+    ],
+    "native_pixel_rect": [
+      2029,
+      6037,
+      2636,
+      6193
+    ],
+    "dimensions": [
+      607,
+      156
+    ],
+    "operations": [
+      "decode authoritative native image",
+      "integer-bounded lossless crop",
+      "presentation copy byte-identical to raw crop"
+    ],
+    "raw_path": "source/raw/AB01-PDF0105-NAME-proof-raw.png",
+    "presentation_path": "source/presentation/AB01-PDF0105-NAME-proof.png",
+    "raw_sha256": "350fdfcaabbe68eb7cddc9150b24bc86b0f8d4d32074c351e224490571313352",
+    "presentation_sha256": "350fdfcaabbe68eb7cddc9150b24bc86b0f8d4d32074c351e224490571313352",
+    "in_reader": false,
+    "in_reader_as_editable_table": false
+  },
+  {
+    "id": "AB01-PDF0105-WORD-habeant",
+    "master_pdf_page": 105,
+    "printed_page": 16,
+    "role": "NALLINO_APPARATUS",
+    "kind": "proof",
+    "description": "Reading habeant in first paragraph",
+    "source_xref": 759,
+    "source_image_size": [
+      5012,
+      7394
+    ],
+    "source_image_pdf_bbox": [
+      0.0,
+      0.0,
+      601.4400024414062,
+      887.280029296875
+    ],
+    "requested_pdf_rect": [
+      308.0,
+      415.0,
+      358.0,
+      433.0
+    ],
+    "native_pixel_rect": [
+      2566,
+      3458,
+      2984,
+      3609
+    ],
+    "dimensions": [
+      418,
+      151
+    ],
+    "operations": [
+      "decode authoritative native image",
+      "integer-bounded lossless crop",
+      "presentation copy byte-identical to raw crop"
+    ],
+    "raw_path": "source/raw/AB01-PDF0105-WORD-habeant-raw.png",
+    "presentation_path": "source/presentation/AB01-PDF0105-WORD-habeant.png",
+    "raw_sha256": "dbb84c9e5acb024a88422c37d843dc5fde9aec254fee0302c2d4810b3a851165",
+    "presentation_sha256": "dbb84c9e5acb024a88422c37d843dc5fde9aec254fee0302c2d4810b3a851165",
+    "in_reader": false,
+    "in_reader_as_editable_table": false
+  },
+  {
+    "id": "AB01-PDF0105-SEAM-proof",
+    "master_pdf_page": 105,
+    "printed_page": 16,
+    "role": "NALLINO_APPARATUS",
+    "kind": "proof",
+    "description": "Printed page-ending umbrae",
+    "source_xref": 759,
+    "source_image_size": [
+      5012,
+      7394
+    ],
+    "source_image_pdf_bbox": [
+      0.0,
+      0.0,
+      601.4400024414062,
+      887.280029296875
+    ],
+    "requested_pdf_rect": [
+      489.0,
+      650.0,
+      534.0,
+      669.0
+    ],
+    "native_pixel_rect": [
+      4074,
+      5416,
+      4450,
+      5575
+    ],
+    "dimensions": [
+      376,
+      159
+    ],
+    "operations": [
+      "decode authoritative native image",
+      "integer-bounded lossless crop",
+      "presentation copy byte-identical to raw crop"
+    ],
+    "raw_path": "source/raw/AB01-PDF0105-SEAM-proof-raw.png",
+    "presentation_path": "source/presentation/AB01-PDF0105-SEAM-proof.png",
+    "raw_sha256": "1194729eeed3e9a5f658a886aafcf1b75ae6c684095a2d4be6c7dd8c2a6af9e5",
+    "presentation_sha256": "1194729eeed3e9a5f658a886aafcf1b75ae6c684095a2d4be6c7dd8c2a6af9e5",
+    "in_reader": false,
+    "in_reader_as_editable_table": false
+  },
+  {
+    "id": "AB01-PDF0101-FORMULA-proof",
+    "master_pdf_page": 101,
+    "printed_page": 12,
+    "role": "NALLINO_APPARATUS",
+    "kind": "proof",
+    "description": "Complete numerical expression in note4, enlarged for reading",
+    "source_xref": 731,
+    "source_image_size": [
+      5012,
+      7392
+    ],
+    "source_image_pdf_bbox": [
+      0.0,
+      0.0,
+      601.4400024414062,
+      887.0399780273438
+    ],
+    "requested_pdf_rect": [
+      323.0,
+      665.0,
+      500.0,
+      706.0
+    ],
+    "native_pixel_rect": [
+      2691,
+      5541,
+      4167,
+      5884
+    ],
+    "dimensions": [
+      1476,
+      343
+    ],
+    "operations": [
+      "decode authoritative native image",
+      "integer-bounded lossless crop",
+      "presentation copy byte-identical to raw crop"
+    ],
+    "raw_path": "source/raw/AB01-PDF0101-FORMULA-proof-raw.png",
+    "presentation_path": "source/presentation/AB01-PDF0101-FORMULA-proof.png",
+    "raw_sha256": "2a18221a2ba09e74a0f5bf08ba061df2ff75510f349926334392a27da94848e7",
+    "presentation_sha256": "2a18221a2ba09e74a0f5bf08ba061df2ff75510f349926334392a27da94848e7",
+    "in_reader": false,
+    "in_reader_as_editable_table": false
+  },
+  {
+    "id": "AB01-PDF0103-NAME-Severus",
+    "master_pdf_page": 103,
+    "printed_page": 14,
+    "role": "NALLINO_APPARATUS",
+    "kind": "proof",
+    "description": "Severus bar Shakakō name in source",
+    "source_xref": 745,
+    "source_image_size": [
+      5012,
+      7380
+    ],
+    "source_image_pdf_bbox": [
+      0.0,
+      0.0,
+      601.4400024414062,
+      885.6000366210938
+    ],
+    "requested_pdf_rect": [
+      162.0,
+      711.0,
+      256.0,
+      731.0
+    ],
+    "native_pixel_rect": [
+      1349,
+      5924,
+      2134,
+      6092
+    ],
+    "dimensions": [
+      785,
+      168
+    ],
+    "operations": [
+      "decode authoritative native image",
+      "integer-bounded lossless crop",
+      "presentation copy byte-identical to raw crop"
+    ],
+    "raw_path": "source/raw/AB01-PDF0103-NAME-Severus-raw.png",
+    "presentation_path": "source/presentation/AB01-PDF0103-NAME-Severus.png",
+    "raw_sha256": "d34d81ef1768bd5723605779666b0b82c5f7ecc26ef9ad105464000912190b9a",
+    "presentation_sha256": "d34d81ef1768bd5723605779666b0b82c5f7ecc26ef9ad105464000912190b9a",
+    "in_reader": false,
+    "in_reader_as_editable_table": false
+  },
+  {
+    "id": "AB01-PDF0107-G01",
+    "master_pdf_page": 107,
+    "printed_page": 18,
+    "role": "NALLINO_APPARATUS",
+    "kind": "glyph",
+    "description": "Damaged Arabic spelling at end of note11. Tight native crop excludes neighbouring Latin and the following full stop; no conjectural character encoding.",
+    "source_xref": 773,
+    "source_image_size": [
+      5012,
+      7422
+    ],
+    "source_image_pdf_bbox": [
+      0.0,
+      0.0,
+      601.4400024414062,
+      890.6400146484375
+    ],
+    "requested_pdf_rect": [
+      446.0,
+      685.0,
+      467.0,
+      698.0
+    ],
+    "native_pixel_rect": [
+      3716,
+      5708,
+      3892,
+      5817
+    ],
+    "dimensions": [
+      176,
+      109
+    ],
+    "operations": [
+      "decode authoritative native image",
+      "integer-bounded lossless crop",
+      "presentation copy byte-identical to raw crop"
+    ],
+    "raw_path": "source/raw/AB01-PDF0107-G01-raw.png",
+    "presentation_path": "source/presentation/AB01-PDF0107-G01.png",
+    "raw_sha256": "af42873c52651c9bbed1e288069d0fdc951f09d63b4ffd2df2c085faed05d957",
+    "presentation_sha256": "af42873c52651c9bbed1e288069d0fdc951f09d63b4ffd2df2c085faed05d957",
+    "in_reader": true,
+    "in_reader_as_editable_table": false
+  },
+  {
+    "id": "AB01-PDF0115-F01",
+    "master_pdf_page": 115,
+    "printed_page": 26,
+    "role": "NALLINO_TRANSLATION",
+    "kind": "figure",
+    "description": "Circle ABK and all construction labels. Native crop includes complete lower circumference and a white margin; no geometry changed.",
+    "source_xref": 830,
+    "source_image_size": [
+      5012,
+      7450
+    ],
+    "source_image_pdf_bbox": [
+      0.0,
+      0.0,
+      601.4400024414062,
+      894.0
+    ],
+    "requested_pdf_rect": [
+      116.0,
+      300.0,
+      310.0,
+      491.0
+    ],
+    "native_pixel_rect": [
+      966,
+      2500,
+      2584,
+      4092
+    ],
+    "dimensions": [
+      1618,
+      1592
+    ],
+    "operations": [
+      "decode authoritative native image",
+      "integer-bounded lossless crop",
+      "presentation copy byte-identical to raw crop"
+    ],
+    "raw_path": "source/raw/AB01-PDF0115-F01-raw.png",
+    "presentation_path": "source/presentation/AB01-PDF0115-F01.png",
+    "raw_sha256": "090f93dd5af8d49ff28b8cd204511728cc11d7598c689f6639ad442884f5de43",
+    "presentation_sha256": "090f93dd5af8d49ff28b8cd204511728cc11d7598c689f6639ad442884f5de43",
+    "underlying_content_role": "AB_TABLE",
+    "arabic_drawing_collation": "not performed",
+    "in_reader": true,
+    "in_reader_as_editable_table": false
+  },
+  {
+    "id": "AB01-PDF0101-G01",
+    "master_pdf_page": 101,
+    "printed_page": 12,
+    "role": "NALLINO_APPARATUS",
+    "kind": "glyph",
+    "description": "Numerator addend 59°3[damaged digit]′ in note4. Tight native crop retains glyphs and excludes the fraction rule; no digit supplied.",
+    "source_xref": 731,
+    "source_image_size": [
+      5012,
+      7392
+    ],
+    "source_image_pdf_bbox": [
+      0.0,
+      0.0,
+      601.4400024414062,
+      887.0399780273438
+    ],
+    "requested_pdf_rect": [
+      390.5,
+      677.0,
+      420.5,
+      689.0
+    ],
+    "native_pixel_rect": [
+      3254,
+      5641,
+      3505,
+      5742
+    ],
+    "dimensions": [
+      251,
+      101
+    ],
+    "operations": [
+      "decode authoritative native image",
+      "integer-bounded lossless crop",
+      "presentation copy byte-identical to raw crop"
+    ],
+    "raw_path": "source/raw/AB01-PDF0101-G01-raw.png",
+    "presentation_path": "source/presentation/AB01-PDF0101-G01.png",
+    "raw_sha256": "b6863ac4454c66257fb1dd98fb75c7903bda4ea35eb23bc69c56f8858e7041e2",
+    "presentation_sha256": "b6863ac4454c66257fb1dd98fb75c7903bda4ea35eb23bc69c56f8858e7041e2",
+    "in_reader": true,
+    "in_reader_as_editable_table": false
+  }
+]

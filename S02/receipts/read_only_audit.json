@@ -1,0 +1,626 @@
+{
+  "status": "PASS",
+  "scope": "S02 partial candidate; physical PDF90–119 only",
+  "auditor": "Separate read-only checking program, executed by the producing assistant; not an independent human/model reading audit",
+  "checks_passed": 39,
+  "checks_total": 39,
+  "checks": [
+    {
+      "check": "controlling_source_hash",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "controlling_source_page_count",
+      "pass": true,
+      "detail": 1162
+    },
+    {
+      "check": "transcribed_range_exact",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "physical_to_printed_map",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "all_line_ids_unique",
+      "pass": true,
+      "detail": 1465
+    },
+    {
+      "check": "line_id_page_and_zone",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "no_control_characters_in_production_text",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "historical_roles_separated",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "math_markup_paired",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "all_math_braces_balanced",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "multiplication_symbol_repair_present",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "all_109_owned_pages_disposed",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "only_30_pages_claim_transcription",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "79_remaining_pages_not_claimed",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "source_excerpt_30_pages",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "every_source_excerpt_page_pixel_identical",
+      "pass": true,
+      "detail": [
+        {
+          "source_page": 90,
+          "equal": true
+        },
+        {
+          "source_page": 91,
+          "equal": true
+        },
+        {
+          "source_page": 92,
+          "equal": true
+        },
+        {
+          "source_page": 93,
+          "equal": true
+        },
+        {
+          "source_page": 94,
+          "equal": true
+        },
+        {
+          "source_page": 95,
+          "equal": true
+        },
+        {
+          "source_page": 96,
+          "equal": true
+        },
+        {
+          "source_page": 97,
+          "equal": true
+        },
+        {
+          "source_page": 98,
+          "equal": true
+        },
+        {
+          "source_page": 99,
+          "equal": true
+        },
+        {
+          "source_page": 100,
+          "equal": true
+        },
+        {
+          "source_page": 101,
+          "equal": true
+        },
+        {
+          "source_page": 102,
+          "equal": true
+        },
+        {
+          "source_page": 103,
+          "equal": true
+        },
+        {
+          "source_page": 104,
+          "equal": true
+        },
+        {
+          "source_page": 105,
+          "equal": true
+        },
+        {
+          "source_page": 106,
+          "equal": true
+        },
+        {
+          "source_page": 107,
+          "equal": true
+        },
+        {
+          "source_page": 108,
+          "equal": true
+        },
+        {
+          "source_page": 109,
+          "equal": true
+        },
+        {
+          "source_page": 110,
+          "equal": true
+        },
+        {
+          "source_page": 111,
+          "equal": true
+        },
+        {
+          "source_page": 112,
+          "equal": true
+        },
+        {
+          "source_page": 113,
+          "equal": true
+        },
+        {
+          "source_page": 114,
+          "equal": true
+        },
+        {
+          "source_page": 115,
+          "equal": true
+        },
+        {
+          "source_page": 116,
+          "equal": true
+        },
+        {
+          "source_page": 117,
+          "equal": true
+        },
+        {
+          "source_page": 118,
+          "equal": true
+        },
+        {
+          "source_page": 119,
+          "equal": true
+        }
+      ]
+    },
+    {
+      "check": "source_excerpt_hash_matches_receipt",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "all_native_crops_replay_exactly",
+      "pass": true,
+      "detail": [
+        {
+          "id": "AB01-PDF0096-T01",
+          "in_source_bounds": true,
+          "native_pixels_equal": true,
+          "raw_hash_equal": true,
+          "presentation_hash_equal": true,
+          "presentation_equals_raw": true
+        },
+        {
+          "id": "AB01-PDF0097-T01",
+          "in_source_bounds": true,
+          "native_pixels_equal": true,
+          "raw_hash_equal": true,
+          "presentation_hash_equal": true,
+          "presentation_equals_raw": true
+        },
+        {
+          "id": "AB01-PDF0096-T01-R04-C10",
+          "in_source_bounds": true,
+          "native_pixels_equal": true,
+          "raw_hash_equal": true,
+          "presentation_hash_equal": true,
+          "presentation_equals_raw": true
+        },
+        {
+          "id": "AB01-PDF0101-N04-proof",
+          "in_source_bounds": true,
+          "native_pixels_equal": true,
+          "raw_hash_equal": true,
+          "presentation_hash_equal": true,
+          "presentation_equals_raw": true
+        },
+        {
+          "id": "AB01-PDF0105-values-proof",
+          "in_source_bounds": true,
+          "native_pixels_equal": true,
+          "raw_hash_equal": true,
+          "presentation_hash_equal": true,
+          "presentation_equals_raw": true
+        },
+        {
+          "id": "AB01-PDF0107-N01-proof",
+          "in_source_bounds": true,
+          "native_pixels_equal": true,
+          "raw_hash_equal": true,
+          "presentation_hash_equal": true,
+          "presentation_equals_raw": true
+        },
+        {
+          "id": "AB01-PDF0107-N02-proof",
+          "in_source_bounds": true,
+          "native_pixels_equal": true,
+          "raw_hash_equal": true,
+          "presentation_hash_equal": true,
+          "presentation_equals_raw": true
+        },
+        {
+          "id": "AB01-PDF0107-N05-proof",
+          "in_source_bounds": true,
+          "native_pixels_equal": true,
+          "raw_hash_equal": true,
+          "presentation_hash_equal": true,
+          "presentation_equals_raw": true
+        },
+        {
+          "id": "AB01-PDF0107-N11-proof",
+          "in_source_bounds": true,
+          "native_pixels_equal": true,
+          "raw_hash_equal": true,
+          "presentation_hash_equal": true,
+          "presentation_equals_raw": true
+        },
+        {
+          "id": "AB01-PDF0113-F01",
+          "in_source_bounds": true,
+          "native_pixels_equal": true,
+          "raw_hash_equal": true,
+          "presentation_hash_equal": true,
+          "presentation_equals_raw": true
+        },
+        {
+          "id": "AB01-PDF0117-NAME-proof",
+          "in_source_bounds": true,
+          "native_pixels_equal": true,
+          "raw_hash_equal": true,
+          "presentation_hash_equal": true,
+          "presentation_equals_raw": true
+        },
+        {
+          "id": "AB01-PDF0103-NAME-proof",
+          "in_source_bounds": true,
+          "native_pixels_equal": true,
+          "raw_hash_equal": true,
+          "presentation_hash_equal": true,
+          "presentation_equals_raw": true
+        },
+        {
+          "id": "AB01-PDF0105-NAME-proof",
+          "in_source_bounds": true,
+          "native_pixels_equal": true,
+          "raw_hash_equal": true,
+          "presentation_hash_equal": true,
+          "presentation_equals_raw": true
+        },
+        {
+          "id": "AB01-PDF0105-WORD-habeant",
+          "in_source_bounds": true,
+          "native_pixels_equal": true,
+          "raw_hash_equal": true,
+          "presentation_hash_equal": true,
+          "presentation_equals_raw": true
+        },
+        {
+          "id": "AB01-PDF0105-SEAM-proof",
+          "in_source_bounds": true,
+          "native_pixels_equal": true,
+          "raw_hash_equal": true,
+          "presentation_hash_equal": true,
+          "presentation_equals_raw": true
+        },
+        {
+          "id": "AB01-PDF0101-FORMULA-proof",
+          "in_source_bounds": true,
+          "native_pixels_equal": true,
+          "raw_hash_equal": true,
+          "presentation_hash_equal": true,
+          "presentation_equals_raw": true
+        },
+        {
+          "id": "AB01-PDF0103-NAME-Severus",
+          "in_source_bounds": true,
+          "native_pixels_equal": true,
+          "raw_hash_equal": true,
+          "presentation_hash_equal": true,
+          "presentation_equals_raw": true
+        },
+        {
+          "id": "AB01-PDF0107-G01",
+          "in_source_bounds": true,
+          "native_pixels_equal": true,
+          "raw_hash_equal": true,
+          "presentation_hash_equal": true,
+          "presentation_equals_raw": true
+        },
+        {
+          "id": "AB01-PDF0115-F01",
+          "in_source_bounds": true,
+          "native_pixels_equal": true,
+          "raw_hash_equal": true,
+          "presentation_hash_equal": true,
+          "presentation_equals_raw": true
+        },
+        {
+          "id": "AB01-PDF0101-G01",
+          "in_source_bounds": true,
+          "native_pixels_equal": true,
+          "raw_hash_equal": true,
+          "presentation_hash_equal": true,
+          "presentation_equals_raw": true
+        }
+      ]
+    },
+    {
+      "check": "figure_crop_bottom_not_clipped",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "two_11_by_11_tables",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "242_table_cells",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "table_cell_ids_unique",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "one_unresolved_table_cell",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "table_exports_literal_match",
+      "pass": true,
+      "detail": [
+        {
+          "file": "AB01-PDF0096-T01.csv",
+          "literal_equal": true
+        },
+        {
+          "file": "AB01-PDF0096-T01.tsv",
+          "literal_equal": true
+        },
+        {
+          "file": "AB01-PDF0097-T01.csv",
+          "literal_equal": true
+        },
+        {
+          "file": "AB01-PDF0097-T01.tsv",
+          "literal_equal": true
+        }
+      ]
+    },
+    {
+      "check": "cell_locator_rectangles_valid",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "reader_has_notice_plus_30_source_pages",
+      "pass": true,
+      "detail": 31
+    },
+    {
+      "check": "critical_apparatus_is_separate",
+      "pass": true,
+      "detail": 2
+    },
+    {
+      "check": "each_reader_page_has_correct_source_anchor",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "no_provider_text_in_reader",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "five_expected_reader_image_objects",
+      "pass": true,
+      "detail": {
+        "expected": 5,
+        "embedded": 5
+      }
+    },
+    {
+      "check": "reader_embeds_exact_source_image_pixels",
+      "pass": true,
+      "detail": [
+        {
+          "id": "AB01-PDF0096-T01-R04-C10",
+          "matched": true
+        },
+        {
+          "id": "AB01-PDF0113-F01",
+          "matched": true
+        },
+        {
+          "id": "AB01-PDF0107-G01",
+          "matched": true
+        },
+        {
+          "id": "AB01-PDF0115-F01",
+          "matched": true
+        },
+        {
+          "id": "AB01-PDF0101-G01",
+          "matched": true
+        }
+      ]
+    },
+    {
+      "check": "S02_NALLINO_SOURCE_v002_two_clean_builds",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "S02_NALLINO_SOURCE_v002_byte_identical_builds",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "S02_CRITICAL_NOTES_v002_two_clean_builds",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "S02_CRITICAL_NOTES_v002_byte_identical_builds",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "seven_modern_findings_recorded",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "three_uncertain_objects_retained",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "no_arabic_canon_modification",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "audit_left_all_production_inputs_unchanged",
+      "pass": true,
+      "detail": null
+    }
+  ],
+  "frozen_production_files": {
+    "transcription/S02_NALLINO_SOURCE_v002.txt": "9640e05c380feb149d2d7d404b409bf1aea7d30b4f691bc630079c4ed5a25431",
+    "transcription/pages/AB01-PDF0090.json": "20623c5134a93fcaa12ee8a207dcdec49d53c7440d6e69922c82de7c3d193bc3",
+    "transcription/pages/AB01-PDF0091.json": "b3e721a24a9f9ab72398a079107ae76f994ea161189ddf9bdf2438a86058e8f2",
+    "transcription/pages/AB01-PDF0092.json": "15a5d3ace28a7b3944e861c360d5e06f9df6469a08e72d14275ff3595aa949d9",
+    "transcription/pages/AB01-PDF0093.json": "45015a0bac358fcf2bade7ad87ba01cf8740d342bf93ef8e3556cc0bcd0a7c6d",
+    "transcription/pages/AB01-PDF0094.json": "2d5e102cb5f73c317236246bd3952310fb512f364be75791b19b2f2f6b84adb3",
+    "transcription/pages/AB01-PDF0095.json": "020b6bd35ffe55603631fa74904189c69dc734eefbbb3710914bec372ef968cc",
+    "transcription/pages/AB01-PDF0096.json": "176ce12ca361859ef426687f4288aba5da4a2ff535ba80de35231c023fd50525",
+    "transcription/pages/AB01-PDF0097.json": "c671e70ac3985f459a497862754df2a1bcaac2430be7bebc7292525d7ac32d4f",
+    "transcription/pages/AB01-PDF0098.json": "afe730a03b6b07122be01a9242fa344378949eb3b637b41211c90c229a9f1d2e",
+    "transcription/pages/AB01-PDF0099.json": "1bd93f651566272f69b29c793f403a3585438aae45fd695ed660a05d2a517e8f",
+    "transcription/pages/AB01-PDF0100.json": "6be56dac07897955f77ad2b3887284bc81792ffcb82a753e1f1c8c521580e187",
+    "transcription/pages/AB01-PDF0101.json": "03930f219b96de0757d11fe6a9f84d8b5c0142da4b74854592c1b9981dbf2da6",
+    "transcription/pages/AB01-PDF0102.json": "39295afc2adbff4a927d379c7838b1d9e5537124c43813eabada0eaa93315440",
+    "transcription/pages/AB01-PDF0103.json": "ca91b18d07f73b1697a6218f8aefca68d1940b9a68d2df36fc8105f24e097332",
+    "transcription/pages/AB01-PDF0104.json": "c4073c5a16d944d0e0793d69e7b3d40eef2734f1d955c265084ee7faf01342b9",
+    "transcription/pages/AB01-PDF0105.json": "be193927ece4ce8f25b93b47399ed5539b0ca3445b37db935daf45080d260925",
+    "transcription/pages/AB01-PDF0106.json": "b145687a1064ee6127866069175137b77d77aed3202a7b0c6bfd750bd34b7199",
+    "transcription/pages/AB01-PDF0107.json": "c2c1f935b075f94516c5ba472283d6f0d948ec47dac53b6f8f4d38d57e023d78",
+    "transcription/pages/AB01-PDF0108.json": "205f630fc5b05407498859c0a8062ca534e1ce17f8646c0f9e803fce30f54307",
+    "transcription/pages/AB01-PDF0109.json": "0b1026bff8673d89a3f43c272096a05d48e07d33d29b0eaa79c47ac09d06880f",
+    "transcription/pages/AB01-PDF0110.json": "c0065f804f062a8c7841baeaae489854d2feebd60627be07b2a3282386e16901",
+    "transcription/pages/AB01-PDF0111.json": "239a81acf39e72b00d6f5917a23e15046af75c3932dcf644e55d5f22f4fa433a",
+    "transcription/pages/AB01-PDF0112.json": "d5f069cdb11d6c137a3b0f8c947b363736995bbcfc2e1e3bd1e059a53b84dc2e",
+    "transcription/pages/AB01-PDF0113.json": "2b146a85bca33e2755848287017327d381eb3e80f0550a9fddc27ce85ed1f53a",
+    "transcription/pages/AB01-PDF0114.json": "d050b965344c4bd700635d9e3fd111842013c021c4908577ab6eb6190b2729cb",
+    "transcription/pages/AB01-PDF0115.json": "955a4a57b02785db9d9dbca153fb0200d3a7f97b3ec0ea2fe78245f8a74c0c82",
+    "transcription/pages/AB01-PDF0116.json": "d012cd270bbfc8ed675c185de77ba2a3649cb6a1dd4d5956e2d0dd3bcf7f274b",
+    "transcription/pages/AB01-PDF0117.json": "0ba858d3c30782a9b10c5b4f13f5af06409551208c141773f1c10f124ed134fc",
+    "transcription/pages/AB01-PDF0118.json": "d334e5e317928f20e1294cb5a54fb01812aebae0229116e3df738f6d5babbfd4",
+    "transcription/pages/AB01-PDF0119.json": "22aac388a267a8ae332c83f22b33b47ab0600c9a4cbd61760ae83bd3aeba2eba",
+    "tex/S02_CRITICAL_NOTES_v002.tex": "c4eaf385632e1a60d627874476f7317ade4852139a040e79f8781473c67d5a19",
+    "tex/S02_NALLINO_SOURCE_v002.tex": "11db34328e7be0d1824e946fe626f55fe10e5817cffe820249190723f1a6f819",
+    "tex/tables/AB01-PDF0096-T01.tex": "59bd65d748390f47b8201364e4554327b34d9328f1cf2995fc1e977a71851c9c",
+    "tex/tables/AB01-PDF0097-T01.tex": "4df9b4dea47c39df9ee27fd4037d0ca9e2ce7d602bc5ad3096bbdb0b53e03faa",
+    "source/SRC01_PDF0090-0119_EVIDENCE.pdf": "4b0750f5cd64a8577c419a566cd75db69878dea170a867f0a4e6f14ad67a53e3",
+    "source/presentation/AB01-PDF0096-T01-R04-C10.png": "48bc596339b8cee45e2e1350e21004bceb7316fad1f6e077071b0d9c87a76a63",
+    "source/presentation/AB01-PDF0096-T01.png": "00016087c1e545897d9d0425388f14476b99f4c21fbb41fa0fe74c79b8a170dc",
+    "source/presentation/AB01-PDF0097-T01.png": "293035ef5a06f9e22a33ed6f087d8144b5e32e66ee4fb33e15d4628aed015516",
+    "source/presentation/AB01-PDF0101-FORMULA-proof.png": "2a18221a2ba09e74a0f5bf08ba061df2ff75510f349926334392a27da94848e7",
+    "source/presentation/AB01-PDF0101-G01.png": "b6863ac4454c66257fb1dd98fb75c7903bda4ea35eb23bc69c56f8858e7041e2",
+    "source/presentation/AB01-PDF0101-N04-proof.png": "113cce04cefab09e4807b9f4629c8ffe2775d06e42d5fd4696d07d7a674c619a",
+    "source/presentation/AB01-PDF0103-NAME-Severus.png": "d34d81ef1768bd5723605779666b0b82c5f7ecc26ef9ad105464000912190b9a",
+    "source/presentation/AB01-PDF0103-NAME-proof.png": "933f08df740e9b5b4427b288803853d23fa888ed862d70d3e79c82f6dbde7979",
+    "source/presentation/AB01-PDF0105-NAME-proof.png": "350fdfcaabbe68eb7cddc9150b24bc86b0f8d4d32074c351e224490571313352",
+    "source/presentation/AB01-PDF0105-SEAM-proof.png": "1194729eeed3e9a5f658a886aafcf1b75ae6c684095a2d4be6c7dd8c2a6af9e5",
+    "source/presentation/AB01-PDF0105-WORD-habeant.png": "dbb84c9e5acb024a88422c37d843dc5fde9aec254fee0302c2d4810b3a851165",
+    "source/presentation/AB01-PDF0105-values-proof.png": "dd4d2d6b6097213c7fd551f7188d94cbc149410fa3f8ffe3ec7cb4bed53501b4",
+    "source/presentation/AB01-PDF0107-G01.png": "af42873c52651c9bbed1e288069d0fdc951f09d63b4ffd2df2c085faed05d957",
+    "source/presentation/AB01-PDF0107-N01-proof.png": "e6776d5dd774035bc1af35d723950f042b90bb2d52272111ae6f37a092ea67f4",
+    "source/presentation/AB01-PDF0107-N02-proof.png": "1dc5babce5a604e7ac5ced5758657fbd0862c439153c2036039aeaf04343df0d",
+    "source/presentation/AB01-PDF0107-N05-proof.png": "c85ad99994b4697b976df196123e44c010e41bd5160c61689cd4c4d5aebbb850",
+    "source/presentation/AB01-PDF0107-N11-proof.png": "d08af14f1d485bec36bb5ce1865a9419098e509131724e2af3c0f697b5f35cd8",
+    "source/presentation/AB01-PDF0113-F01.png": "4065d7f3f175410eee6d01dfad4ba640d30a309f391685e7250f2f47778fe181",
+    "source/presentation/AB01-PDF0115-F01.png": "090f93dd5af8d49ff28b8cd204511728cc11d7598c689f6639ad442884f5de43",
+    "source/presentation/AB01-PDF0117-NAME-proof.png": "c4710a6fa98d97676e0231f554b440411da9311f273a6c59ec163a38966a066a",
+    "source/raw/AB01-PDF0096-T01-R04-C10-raw.png": "48bc596339b8cee45e2e1350e21004bceb7316fad1f6e077071b0d9c87a76a63",
+    "source/raw/AB01-PDF0096-T01-raw.png": "00016087c1e545897d9d0425388f14476b99f4c21fbb41fa0fe74c79b8a170dc",
+    "source/raw/AB01-PDF0097-T01-raw.png": "293035ef5a06f9e22a33ed6f087d8144b5e32e66ee4fb33e15d4628aed015516",
+    "source/raw/AB01-PDF0101-FORMULA-proof-raw.png": "2a18221a2ba09e74a0f5bf08ba061df2ff75510f349926334392a27da94848e7",
+    "source/raw/AB01-PDF0101-G01-raw.png": "b6863ac4454c66257fb1dd98fb75c7903bda4ea35eb23bc69c56f8858e7041e2",
+    "source/raw/AB01-PDF0101-N04-proof-raw.png": "113cce04cefab09e4807b9f4629c8ffe2775d06e42d5fd4696d07d7a674c619a",
+    "source/raw/AB01-PDF0103-NAME-Severus-raw.png": "d34d81ef1768bd5723605779666b0b82c5f7ecc26ef9ad105464000912190b9a",
+    "source/raw/AB01-PDF0103-NAME-proof-raw.png": "933f08df740e9b5b4427b288803853d23fa888ed862d70d3e79c82f6dbde7979",
+    "source/raw/AB01-PDF0105-NAME-proof-raw.png": "350fdfcaabbe68eb7cddc9150b24bc86b0f8d4d32074c351e224490571313352",
+    "source/raw/AB01-PDF0105-SEAM-proof-raw.png": "1194729eeed3e9a5f658a886aafcf1b75ae6c684095a2d4be6c7dd8c2a6af9e5",
+    "source/raw/AB01-PDF0105-WORD-habeant-raw.png": "dbb84c9e5acb024a88422c37d843dc5fde9aec254fee0302c2d4810b3a851165",
+    "source/raw/AB01-PDF0105-values-proof-raw.png": "dd4d2d6b6097213c7fd551f7188d94cbc149410fa3f8ffe3ec7cb4bed53501b4",
+    "source/raw/AB01-PDF0107-G01-raw.png": "af42873c52651c9bbed1e288069d0fdc951f09d63b4ffd2df2c085faed05d957",
+    "source/raw/AB01-PDF0107-N01-proof-raw.png": "e6776d5dd774035bc1af35d723950f042b90bb2d52272111ae6f37a092ea67f4",
+    "source/raw/AB01-PDF0107-N02-proof-raw.png": "1dc5babce5a604e7ac5ced5758657fbd0862c439153c2036039aeaf04343df0d",
+    "source/raw/AB01-PDF0107-N05-proof-raw.png": "c85ad99994b4697b976df196123e44c010e41bd5160c61689cd4c4d5aebbb850",
+    "source/raw/AB01-PDF0107-N11-proof-raw.png": "d08af14f1d485bec36bb5ce1865a9419098e509131724e2af3c0f697b5f35cd8",
+    "source/raw/AB01-PDF0113-F01-raw.png": "4065d7f3f175410eee6d01dfad4ba640d30a309f391685e7250f2f47778fe181",
+    "source/raw/AB01-PDF0115-F01-raw.png": "090f93dd5af8d49ff28b8cd204511728cc11d7598c689f6639ad442884f5de43",
+    "source/raw/AB01-PDF0117-NAME-proof-raw.png": "c4710a6fa98d97676e0231f554b440411da9311f273a6c59ec163a38966a066a",
+    "pdf/S02_CRITICAL_NOTES_v002.pdf": "77e16d9e0742779d0e37d4cd928bb1b9ca3604f345772308a53a35adc673d5ae",
+    "pdf/S02_NALLINO_SOURCE_v002.pdf": "fe54c19a99ad721c2b54aeb8414ff8cfe8e16557caf0305e1ecb695559385bcf",
+    "ledgers/arabic_source_links.tsv": "cff39d8d0f1296bed7e40e4ba69a06016ff347e1149c5d1773daa6f273dc59ac",
+    "ledgers/canonical_correction_proposals.tsv": "8debf01558bc241288e8516d3c1aa5193f96dcb65d8ec18582971a7d4206817e",
+    "ledgers/chapter_boundaries.tsv": "d2381bbba794c947b9f95e5ce4925995b4d5dbd8bbc048ee97cffaf3adac6630",
+    "ledgers/critical_findings.json": "4f005ccc519b1c85ed61dce59e375c641553b705e39f5b8eec6f02eb40586f72",
+    "ledgers/critical_findings.tsv": "736920789ad30fb7530f4cb632b74903b37d097b68bdde56d674bbe854b34156",
+    "ledgers/formula_provenance.json": "a4329b8ee76da2f88c37584416c0e10f06493fcb42dc733fa129f71d967bd328",
+    "ledgers/formula_provenance.tsv": "143c6634eeeea04e27de3a4af3c36ebc1da93e0f6581fc9f2d65d4e95a1f98e3",
+    "ledgers/line_alignment.tsv": "b297fd70e6fcbb317008c8fa67aee68b9433763f8ba2fa6f63640671bdc6a81a",
+    "ledgers/marginal_disposition.tsv": "beaaa7e9a94bdad3979b51e312d21c3cd45f13e171dc1238523e3e03d9fec81f",
+    "ledgers/numeric_token_register.tsv": "c9225cb879785164f74e63e217d755ef08873b15f2e7a70dbbe216164af736c7",
+    "ledgers/page_disposition.tsv": "dd5eeb5f853cf2f2e828559859dcf266a4e021faba61cdafc69cd4dfa9c303b7",
+    "ledgers/table_cell_provenance.json": "489d795e7532ad4b47227231b1906660a9c79d22177dbfae4002616f2d1688f7",
+    "ledgers/table_cell_provenance.tsv": "9e60430087de173995b1d55add9cab25f123f679e51a999a4b1be5a6eb7510c1",
+    "ledgers/tables.json": "0ed19258a8db1399bc518ac456130c8ce8e4a81b951235b7c106028f86185b68",
+    "ledgers/unresolved_readings.tsv": "a899e2add67c63675f2a1b2951e35593d8259d7f1b059d7ced36a9f56008b16a",
+    "ledgers/visual_objects.json": "a5fda90bd08b2500c7c4ad2e794a924ce88d3ec20f793a98ba0e7941fc6b5796",
+    "ledgers/witness_variants.tsv": "fd4ead8cff8d79428826f07927259eaf6e821da302f2462aace47a029d3d1f78",
+    "ledgers/working_repairs.json": "4a18abe37f7edf7400644d8497f62900001f47291ffeddb13dd13d8aba8a1517"
+  },
+  "source_fidelity_limit": "Automated checks prove declared identities, structure and crop preservation; they do not prove every philological reading. A same-assistant direct-source first pass and bounded visual recheck are recorded separately."
+}

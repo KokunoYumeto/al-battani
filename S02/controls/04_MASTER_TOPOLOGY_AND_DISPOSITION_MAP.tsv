@@ -1,0 +1,33 @@
+master_pdf_start	master_pdf_end	part_or_role	logical_order	owned_units	required_disposition
+1	1	Google service card	physical	1	exclude from scholarly body; provenance only
+2	2	Part I substantive astronomical frontispiece	physical	1	preserve diagram; remove/crop only provider UI from presentation derivative; raw crop retained
+3	3	Princeton holding-library plate	physical	1	copy provenance only
+4	9	front blanks/binding matter	physical	6	record blank/binding dispositions; exclude body
+10	10	Part I half-title	physical	1	intrinsic edition front matter
+11	11	blank	physical	1	record blank
+12	89	Part I title, dedication, preface, Nallino apparatus	physical	78	preserve as NALLINO_APPARATUS; never al-Battani authorship
+90	416	Part I Latin translation with notes; printed pp.1-327	physical	327	preserve AB_TEXT content through NALLINO_TRANSLATION/NALLINO_APPARATUS role separation
+417	417	blank	physical	1	record blank
+418	418	Part II half-title	physical	1	intrinsic edition front matter
+419	419	blank	physical	1	record blank
+420	448	Part II title, preface, bibliography, addenda/corrigenda	physical	29	preserve NALLINO_APPARATUS
+449	449	blank	physical	1	record blank
+450	862	Part II tables, notes, indices; printed pp.1-413	physical	413	preserve AB_TABLE and NALLINO_APPARATUS separately; master 450-455 is prior T01
+863	863	blank	physical	1	record blank
+864	864	presentation statement plus Part II half-title	physical	1	separate COPY_PROVENANCE presentation statement from intrinsic repeated half-title
+865	867	binding/blank/color scan matter	physical	3	provenance/topology only
+868	868	Part III half-title	physical	1	intrinsic edition front matter
+869	869	blank	physical	1	record blank
+870	870	Part III Latin title	physical	1	intrinsic edition front matter
+871	871	Part III imprint	physical	1	intrinsic edition front matter
+872	872	Part III corrigenda	physical	1	preserve and link to affected anchors
+873	925	Part III Arabic end tables; separate PDF pp.8-60	logical descending master 925 to 873	53	transcribe after Arabic main text; table-first workflow
+926	1146	Part III Arabic main text; separate PDF pp.61-281	logical descending master 1146 to 926	221	transcribe right-to-left in descending master page order
+1147	1151	Arabic chapter list; separate PDF pp.282-286	logical descending master 1151 to 1147	5	place after Arabic title and before main text
+1152	1152	near-blank; separate PDF p.287	physical	1	record blank/stray mark
+1153	1153	Arabic title; separate PDF p.288	logical first Arabic reader page	1	preserve intrinsic title
+1154	1154	blank; separate PDF p.289	physical	1	record blank
+1155	1155	Arabic half-title; separate PDF p.290	physical	1	intrinsic repeated title; provenance position recorded
+1156	1160	blank/binding/service matter	physical	5	provenance/topology only
+1161	1161	Princeton barcode/library label	physical	1	copy provenance only; exclude body
+1162	1162	back cover	physical	1	binding provenance only

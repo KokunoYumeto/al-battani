@@ -1,0 +1,1 @@
+These files preserve initial drafting and repair activity. They predate later source and encoding repairs. Do not rerun them as a rebuild. The release JSON in transcription/pages and current ledgers are the production inputs.

@@ -1,0 +1,25 @@
+MULTILINGUAL QA FEEDBACK LOOP - DIRECT USER SCOPE
+==================================================
+
+Recorded: 2026-08-16
+
+Controlling current instruction
+-------------------------------
+The user reaffirmed: "And get the full author corpora."
+
+The user also specified that multilingual translation is part of the quality-assurance architecture:
+
+"first do a pass that's reasonably accurate. Then you translate it, ask the translating ... AI agent, to do a source check against the scans ... and then ping the one that maintains the canon corpus with any errors it finds. And then the canon corpus corrects the errors, we have a translation. Translation watches the canon corpus in a every few days checking in kind of way. New translation starts, based on the new canon corpus, pings it again with any errors it finds, and maintains watch on the canon corpus in case it changes, and then adapts in case a new translation finds new errors."
+
+Operational interpretation
+--------------------------
+1. The corpus boundary is the full reasonably discoverable author corpus, with exact inaccessible/lost/unverified gaps; it is not the current local packet, a single work, or the currently translated subset.
+2. The canonical source-language edition remains the shared correction target and must stay traceable to source pixels.
+3. Every translation begins from a recorded canonical version/hash and independently rechecks its owned range against the authoritative scans rather than translating unverified prose alone.
+4. A translation never silently patches the canon. It returns evidence-backed proposed corrections with source coordinates, affected canonical anchors, reasoning, confidence, and propagation impact.
+5. Accepted canonical corrections create a new canonical checkpoint/version. Every language edition records which canonical checkpoint it tracks, periodically checks for later canonical changes, and integrates applicable corrections without erasing its earlier release history.
+6. A later language translation is another independent semantic/source reading and may discover errors missed by earlier passes. Its findings route back to the same canon and then outward to every affected language.
+7. Multilingual feedback is additive QA, not a substitute for initial source replay, formula/diagram inspection, deterministic build/render validation, unresolved-reading disclosure, or independent audit.
+8. Packet prompts and return protocols must expose this loop explicitly through a canonical-version field, source-check findings ledger, correction-routing ledger, and translation synchronization receipt.
+
+This is a packet/methodology instruction. It does not authorize contacting user-owned tasks from this task. It governs the artifacts and dormant prompts prepared here.

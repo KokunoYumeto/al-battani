@@ -1,0 +1,7 @@
+item_id	artifact	role	verified_boundary	reuse_rule	first_untouched_or_gap
+OLD01	32_PRIOR_T01_PACKET_BYTE_EXACT.zip	owned prior table component	Part II master PDF450-455 / printed pp.1-6	unpack and replay every reading/cell against SRC01 before reuse	master PDF456 / printed p7
+OLD02	33_ROUND83_WORKING_STATE_UNTRUSTED.zip	current working/recovery state	40 files; mixed/trilingual; self-reports partial tables	recovery/comparison only; never completion or authority	all unreplayed content remains untouched
+OLD03	34_PART_III_PAGE_MAPS_AND_QA.zip	structural analysis	all 292 separate Part III PDF pages classified and logical order mapped	replay mapping against SRC01/SRC02; preserve corrected reverse order	no source gap; production not implied
+GAP01	Istanbul Carullah 1499/3	Tajrid source route	bibliographic identity only	do not produce or claim secure attribution without source	complete work payload and attribution reassessment
+GAP02	Escorial arabe 908 original manuscript	Zij manuscript authority	complete manuscript bibliographically established	Nallino is current production authority; record original-manuscript collation as later Tier B	full manuscript-pixel collation
+GAP03	Berlin Sprenger 1840 images	Tetrabiblos comparator	folio correspondence embedded in PAL transcription	PAL XML is complete text payload; record missing comparator pixels	complete manuscript image payload

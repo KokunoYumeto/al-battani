@@ -16,7 +16,8 @@ It is an independent working edition. Nallino's edition is in the public domain.
 | Session | Scope | Status |
 |---|---|---|
 | S01 | Nallino, Part I: frontispiece, front matter, preface, bibliography, addenda/corrigenda (PDF 1–89, printed VII–LXXX) | **v003 candidate:** revised transcription with 85 recorded, source-checked decisions (71 text repairs, 14 exact-image substitutions) on 50 pages; 80-page reader and 4-page critical apparatus. Ten hard-to-read spots are kept as exact source images. The independent cold audit has not been done yet |
-| S02–S04 | Part I: Nallino's Latin translation and notes (printed pp. 1–327) | not started |
+| S02 | Part I: Nallino's Latin translation and notes, printed pp. 1–109 (PDF 90–198) | **v002, partial:** printed pp. 1–30 transcribed (PDF 90–119), with a 31-page reader and a 2-page critical apparatus. 79 pages remain; the next is printed p. 31. Spot-checked independently, see [S02/INDEPENDENT_CHECK.md](S02/INDEPENDENT_CHECK.md) |
+| S03–S04 | Part I: Nallino's Latin translation and notes, printed pp. 110–327 | not started |
 | S05–S09 | Part II: tables and notes | not started |
 | S10–S13 | Part III: Arabic text and tables | not started |
 | S14 | Commentary on Ptolemy's *Tetrabiblos* (Escorial ár. 969) | not started |
@@ -30,9 +31,15 @@ It is an independent working edition. Nallino's edition is in the public domain.
 - [What is still open](S01/STATUS.md)
 - [What changed from v002](S01/ledgers/v003_changes.tsv)
 
-Releases are archived on Zenodo under concept DOI [10.5281/zenodo.20539593](https://doi.org/10.5281/zenodo.20539593). The latest version, [10.5281/zenodo.22953314](https://doi.org/10.5281/zenodo.22953314), includes S01 v003. v002 is in version [10.5281/zenodo.22951891](https://doi.org/10.5281/zenodo.22951891) and in `S01/history/v002/`.
+**Read S02 (partial):**
+- [Reader, 31 pp.](S02/pdf/S02_NALLINO_SOURCE_v002.pdf), printed pp. 1–30
+- [Critical apparatus, 2 pp.](S02/pdf/S02_CRITICAL_NOTES_v002.pdf)
+- [TeX source](S02/tex/S02_NALLINO_SOURCE_v002.tex) and [line-anchored text](S02/transcription/S02_NALLINO_SOURCE_v002.txt)
+- [About this batch](S02/README.md)
 
-The project rules and the 16 session prompts are in [S01/controls/](S01/controls/). Two things are not in this repository: the intermediate QA proof images and the recovered interrupted-reread evidence (452 files, about 153 MB). They stay in the archived S01 package, which is Zenodo file 53.
+Releases are archived on Zenodo under concept DOI [10.5281/zenodo.20539593](https://doi.org/10.5281/zenodo.20539593). The latest version, [10.5281/zenodo.22970148](https://doi.org/10.5281/zenodo.22970148), adds S02 v002 (files 60–63) and keeps S01 v003 (files 50–53, first published in [10.5281/zenodo.22953314](https://doi.org/10.5281/zenodo.22953314)). v002 is in version [10.5281/zenodo.22951891](https://doi.org/10.5281/zenodo.22951891) and in `S01/history/v002/`.
+
+The project rules and the 16 session prompts are in [S01/controls/](S01/controls/). Two things are not in this repository: the intermediate QA proof images and the recovered interrupted-reread evidence (452 files, about 153 MB). They stay in the archived S01 package, which is Zenodo file 53. Likewise, S02's reading renders of the source pages (`qa/source/`, 28 files) are only in the archived S02 package.
 
 ## Earlier work (June 2026)
 

@@ -1,0 +1,40 @@
+[
+  {
+    "anchor": "AB01-PDF0103-notes_left-L002",
+    "before": "(2) Cfr. <n>al-Ġaġmīnī</n>, p. 262: « Es erscheint",
+    "after": "(2) Cfr. <n>al-Ġaghmīnī</n>, p. 262: « Es erscheint",
+    "evidence": "AB01-PDF0103-NAME-proof",
+    "reason": "The source visibly has gh, not a second ġ; restore the printed transliteration."
+  },
+  {
+    "anchor": "AB01-PDF0105-notes_left-L005",
+    "before": "bīh</i>, p. 10, et <i>Prairies</i> t. I, p. 191; <n>al-Ġaġmīnī</n>,",
+    "after": "bīh</i>, p. 10, et <i>Prairies</i> t. I, p. 191; <n>al-Ġaghmīnī</n>,",
+    "evidence": "AB01-PDF0105-NAME-proof",
+    "reason": "The source visibly has gh, not a second ġ; restore the printed transliteration."
+  },
+  {
+    "anchor": "AB01-PDF0105-body-L023",
+    "before": "lineam rotationes inter se differre, cum motum habant medium inter rotae aquariae et molae,",
+    "after": "lineam rotationes inter se differre, cum motum habeant medium inter rotae aquariae et molae,",
+    "reason": "Native source visibly has habeant; correction of working transcription, not an emendation of Nallino.",
+    "evidence": "AB01-PDF0105-WORD-habeant"
+  },
+  {
+    "anchor": "AB01-PDF0101-notes_right-L003",
+    "before": "<m>\\frac{12°\\,26′+59°\\,36′}{2}=\\frac{72°\\,2′}{2}=36°\\,1′.</m>",
+    "after": "<m>\\frac{12°\\,26′+\\text{\\sourceglyph{AB01-PDF0101-G01}}}{2}=\\frac{72°\\,2′}{2}=36°\\,1′.</m>",
+    "reason": "Native source damage: do not silently resolve the second minute digit from the correct sum. Image-preserving encoding.",
+    "evidence": "AB01-PDF0101-FORMULA-proof"
+  },
+  {
+    "id": "S02-W005",
+    "source_anchor": "AB01-PDF0115-notes_right-L002",
+    "before": "(5) <m>\\text{EM}=\\frac{30^p\times58^p31′}{43^p17′}=\\frac{1755^p30′}{43^p17′}=\\frac{105330′}{2597′}</m>",
+    "after": "(5) <m>\\text{EM}=\\frac{30^p\\times58^p31′}{43^p17′}=\\frac{1755^p30′}{43^p17′}=\\frac{105330′}{2597′}</m>",
+    "reason": "Render inspection caught a tab escape replacing the LaTeX multiplication command. The source visibly has a multiplication cross; restored \\times. This repairs the digital encoding, not historical mathematics.",
+    "evidence": "qa/source/reading_0115.png; source/SRC01_PDF0090-0119_EVIDENCE.pdf page 26",
+    "confidence": "high",
+    "historical_text_emended": false
+  }
+]
