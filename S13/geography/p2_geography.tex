@@ -1,0 +1,796 @@
+\documentclass[11pt]{article}
+\usepackage[paperwidth=210mm,paperheight=297mm,margin=16mm]{geometry}
+\usepackage{fontspec,amsmath,array,multirow,graphicx}
+\usepackage{polyglossia}
+\setmainlanguage{latin}\setotherlanguages{arabic,greek}
+\setmainfont{Linux Libertine O}[Ligatures=TeX]
+\newfontfamily\arabicfont{Amiri}[Script=Arabic]
+\newfontfamily\greekfont{FreeSerif}[Script=Greek]
+\newfontfamily\NallinoSigns{NallinoSigns.otf}[Path=./fonts/]
+\newcommand{\AbjadZero}{{\NallinoSigns\symbol{"E000}}}
+\newcommand{\AbjadOver}[1]{\leavevmode\vbox{\hrule height .45pt\kern1.2pt\hbox{#1}}}
+\newcommand{\Name}[1]{{\addfontfeatures{LetterSpace=12}#1}}
+\pagestyle{empty}\setlength{\parindent}{0pt}
+\renewcommand{\arraystretch}{1.18}
+
+\begin{document}
+\clearpage
+\noindent\makebox[\textwidth]{\textbf{}\hfill{\small AL-BATTANI OPUS ASTRONOMICUM}\hfill\textbf{33}}\par\vspace{-1mm}\noindent\rule{\textwidth}{.4pt}\par\vspace{2mm}
+\begin{center}{\small Fol. 172,v.-175,r. = Textus, t. III, p. 234-241.}\end{center}
+\begin{center}\fbox{\parbox{0.95\textwidth}{\centering\large\bfseries Tabula mediorum punctorum regionum, et sunt 94 regiones, iuxta quod\\in Libro Figurae Terrae invenitur.}}\end{center}
+\noindent\begin{minipage}[t]{0.5\textwidth}{\small \begin{tabular}{p{40mm}|r@{\hspace{1.4mm}}r|r@{\hspace{1.4mm}}r}
+\centering Regionum nomina. & \multicolumn{2}{c|}{Longit.} & \multicolumn{2}{c}{Latitudo.} \\ \hline
+\hangindent=4mm\hangafter=1 1. Insula *Yūberniyā\newline *Breḥṭānīqā. & \raisebox{-1\normalbaselineskip}[0pt][0pt]{13°} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{0′} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{58°} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{30′} \\
+\hangindent=4mm\hangafter=1 2. Insula *Alūyōn\newline *Brehṭānīqī. & \raisebox{-1\normalbaselineskip}[0pt][0pt]{20} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{0} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{54} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{0} \\
+\hangindent=4mm\hangafter=1 3. *Sfāniyā *Behṭiqā,\newline supra al–Andalus. & \raisebox{-1\normalbaselineskip}[0pt][0pt]{9} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{20} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{38} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{20} \\
+\hangindent=4mm\hangafter=1 4. *Sfāniyā *Lusiṭāniyā,\newline al–Andalus. & \raisebox{-1\normalbaselineskip}[0pt][0pt]{8} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{0} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{39} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{20} \\
+\hangindent=4mm\hangafter=1 5. *Sfāniyā *Ṭārāqūnī-\newline siyā, al–Andalus. & \raisebox{-1\normalbaselineskip}[0pt][0pt]{11} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{0} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{42} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{0} \\
+\hangindent=4mm\hangafter=1 6. *Ghāliyā *Aqwīṭā-\newline niyā. & \raisebox{-1\normalbaselineskip}[0pt][0pt]{18} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{0} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{45} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{30} \\
+\hangindent=4mm\hangafter=1 7. *Ghāliyā *Lūghdunī-\newline siyā. & \raisebox{-1\normalbaselineskip}[0pt][0pt]{20} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{40} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{48} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{2} \\
+\hangindent=4mm\hangafter=1 8. *Ghāliyā *Belghīqī. & 26 & 50 & 47 & 1 \\
+\hangindent=4mm\hangafter=1 9. *Ghāliyā *Narbūnī-\newline siyā. & \raisebox{-1\normalbaselineskip}[0pt][0pt]{22} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{0} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{44} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{30} \\
+\hangindent=4mm\hangafter=1 10. *Ǵehrmāniyā maior. & 34 & 2 & 52 & 0 \\
+\hangindent=4mm\hangafter=1 11. *Rāṭiyā *Windeli-\newline qiyā. & \raisebox{-1\normalbaselineskip}[0pt][0pt]{32} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{30} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{46} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{30} \\
+\hangindent=4mm\hangafter=1 12. *Nūrīqon. & 36 & 0 & 46 & 0 \\
+\hangindent=4mm\hangafter=1 13. *Bānūniyā superior. & 39 & 30 & 47 & 13 \\
+\end{tabular}}\end{minipage}\vrule\,\vrule\hfill\begin{minipage}[t]{0.48\textwidth}{\small \begin{tabular}{p{40mm}|r@{\hspace{1.4mm}}r|r@{\hspace{1.4mm}}r}
+\centering Regionum nomina. & \multicolumn{2}{c|}{Longit.} & \multicolumn{2}{c}{Latitudo.} \\ \hline
+\hangindent=4mm\hangafter=1 14. *Bānūniyā inferior. & 41° & 2′ & 45° & 4′ \\
+\hangindent=4mm\hangafter=1 15. *Īlūros *Libūrniyā. & 45 & 0 & 44 & 0 \\
+\hangindent=4mm\hangafter=1 16. *Dalmāṭiyā. & 46 & 0 & 42 & 0 \\
+\hangindent=4mm\hangafter=1 17. Paeninsula *Īṭāliyah. & 36 & 40 & 41 & 40 \\
+\hangindent=4mm\hangafter=1 18. Insula Qurnos. & 32 & 0 & 40 & 2 \\
+\hangindent=4mm\hangafter=1 19, Insula Sardāniyah. & 31 & 50 & 38 & 6 \\
+\hangindent=4mm\hangafter=1 20. Insula Siqilliyah. & 39 & 8 & 36 & 19 \\
+\hangindent=4mm\hangafter=1 21. *Sarmāṭiyah *Ew-\newline rōfī. & \raisebox{-1\normalbaselineskip}[0pt][0pt]{57} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{0} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{49} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{0} \\
+\hangindent=4mm\hangafter=1 22. *Ṭāwrīqī *Kersūnīsos\newline \textarabic{بارالاس} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{62} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{0} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{48} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{0} \\
+\hangindent=4mm\hangafter=1 23. *Yāzūghūs *Mehṭā-\newline nīsā. & \raisebox{-1\normalbaselineskip}[0pt][0pt]{43} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{0} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{48} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{0} \\
+\hangindent=4mm\hangafter=1 24. *Dāqiyā. & 50 & 0 & 46 & 0 \\
+\hangindent=4mm\hangafter=1 25. *Muwehsiyā supe-\newline rior. & \raisebox{-1\normalbaselineskip}[0pt][0pt]{46} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{0} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{43} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{0} \\
+\hangindent=4mm\hangafter=1 26. *Muwehsiyā inferior. & \raisebox{-1\normalbaselineskip}[0pt][0pt]{53} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{0} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{45} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{0} \\
+\hangindent=4mm\hangafter=1 27. \textarabic{ماقى} regio al–Qusṭan-\newline ṭīniyyah [Constanti-\newline nopolis]. & \raisebox{-2\normalbaselineskip}[0pt][0pt]{52} & \raisebox{-2\normalbaselineskip}[0pt][0pt]{0} & \raisebox{-2\normalbaselineskip}[0pt][0pt]{43} & \raisebox{-2\normalbaselineskip}[0pt][0pt]{0} \\
+\hangindent=4mm\hangafter=1 28. *Kersūnīsos \textarabic{اطربز}\newline \textarabic{ماليقه} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{54} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{0} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{41} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{0} \\
+\end{tabular}}\end{minipage}
+\par\vspace{3mm}{\small
+\par\hangindent=8mm\hangafter=1 Nr. 1 (1). In latitudine cod. \textarabic{يح} 18° pro \textarabic{نح} 58° (iam a \Name{Lelewel} correctum).
+\par\hangindent=8mm\hangafter=1 Nr. 3. Fortasse \textarabic{على} « supra » error pro \textarabic{من} « ex », aut \textarabic{وهي} « quae est » (cfr. nr. 4 et 5): \textit{al–Andalus} est nomen Arabicum Hispaniae.
+\par\hangindent=8mm\hangafter=1 Nr. 6. In longitudine cod. \textarabic{يج} 13° pro \textarabic{يح} 18° (corr. \Name{Lelewel}).
+\par\hangindent=8mm\hangafter=1 Nr 12. In long. cod. \textarabic{لد} 34° pro \textarabic{لو} 36°.
+\par\hangindent=8mm\hangafter=1 Nr. 15 et 16 Tabula \Name{Ptolemaica} provinciarum « Illyriam quae etiam appellatur Dalmatia » (Ἰλλυρὶς ἡ καὶ Δαλματία) distinguit a Λιβουρνία.
+\par\hangindent=8mm\hangafter=1 Nr. 21. Long. in cod. \textarabic{لز} 37° pro \textarabic{ٮز} = \textarabic{نز} 57°.
+\par\hangindent=8mm\hangafter=1 Nr. 22. Latit. in cod. \textarabic{لح} 38° pro \textarabic{مح} 48° (corr. \Name{Lelewel}). — Vocem \textarabic{بارالاس} explicare nequeo; fortasse \textit{bārālyās} = παραλία « regio maritima »; cfr. \Name{Ptolemaei} \textit{Geographiam} III, 6, 1: Ἡ Ταυρικὴ Χερσόνησος περιορίζεται ..... ταῖς τοῦ τε Πόντου καὶ τοῦ Κιμμερίου Βοσπόρου ..... παραλίοις.
+\par\hangindent=8mm\hangafter=1 Nr. 27. Pro \textarabic{ماقى} codicis lego \textarabic{ما في} « id quod est in »; sed fortasse est vocis \textarabic{ثراقي} \textit{Tharāqī} = Θρακία corruptio.
+\par\hangindent=8mm\hangafter=1 Nr. 28. Verba \textarabic{اطربز ماليقه}, procul dubio corrupta, restituere nequeo.
+\par}
+\par\vspace{2mm}\begin{center}\rule{40mm}{.4pt}\end{center}
+{\small (1) Legantur antea animadversiones generales ad has tabulas geographicas in fine tabularum omnium.}\par
+\par\vfill\hfill 5
+\clearpage
+\noindent\makebox[\textwidth]{\textbf{34}\hfill{\small C. A. NALLINO}\hfill\textbf{}}\par\vspace{-1mm}\noindent\rule{\textwidth}{.4pt}\par\vspace{2mm}
+\noindent\begin{minipage}[t]{0.5\textwidth}{\small \begin{tabular}{p{40mm}|r@{\hspace{1.4mm}}r|r@{\hspace{1.4mm}}r}
+\centering Regionum nomina. & \multicolumn{2}{c|}{Longit.} & \multicolumn{2}{c}{Latitudo.} \\ \hline
+\hangindent=4mm\hangafter=1 29. *Māqādhūniyā. & 50° & 0′ & 41° & 0′ \\
+\hangindent=4mm\hangafter=1 30. *Īfīrūs. & 46 & 0 & 39 & 0 \\
+\hangindent=4mm\hangafter=1 31. *Akhāyā. & 50 & 0 & 38 & 30 \\
+\hangindent=4mm\hangafter=1 32. Insula *Hawbuwā\newline [Euboea]. & \raisebox{-1\normalbaselineskip}[0pt][0pt]{52} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{0} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{37} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{0} \\
+\hangindent=4mm\hangafter=1 33. Paeninsula *Fūlūfū-\newline nīsūs [Peloponnesus]. & \raisebox{-1\normalbaselineskip}[0pt][0pt]{51} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{0} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{36} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{0} \\
+\hangindent=4mm\hangafter=1 34. Insula *Qrīṭī. & 54 & 0 & 35 & 0 \\
+\hangindent=4mm\hangafter=1 35. *Mawriṭāniyā *Ṭiǵi-\newline ṭāniyā, regio Ṭanǵah. & \raisebox{-1\normalbaselineskip}[0pt][0pt]{8} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{0} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{32} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{0} \\
+\hangindent=4mm\hangafter=1 36. *Mawriṭāniya *Qeh-\newline sarensiyā. & \raisebox{-1\normalbaselineskip}[0pt][0pt]{18} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{0} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{32} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{0} \\
+\hangindent=4mm\hangafter=1 37. Regio Ifrīqiyah [A-\newline frica]. & \raisebox{-1\normalbaselineskip}[0pt][0pt]{36} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{0} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{31} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{0} \\
+\hangindent=4mm\hangafter=1 38. *Nūmīdhiyah. & 30 & 30 & 30 & 0 \\
+\hangindent=4mm\hangafter=1 39. *Fenṭāfūlūs [Penta-\newline polis]. & \raisebox{-1\normalbaselineskip}[0pt][0pt]{50} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{0} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{29} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{0} \\
+\hangindent=4mm\hangafter=1 40. *Marmārīqī. & 52 & 0 & 28 & 0 \\
+\hangindent=4mm\hangafter=1 41. *Lībuwāy. & 57 & 0 & 29 & 0 \\
+\hangindent=4mm\hangafter=1 42. *Eghifṭos inferior, re-\newline gio Miṣr. & \raisebox{-1\normalbaselineskip}[0pt][0pt]{61} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{0} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{32} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{0} \\
+\hangindent=4mm\hangafter=1 43. *Thībāyis. & 62 & 0 & 24 & 0 \\
+\hangindent=4mm\hangafter=1 44. *Lībuwāy intra Ifrī-\newline qiyah. & \raisebox{-1\normalbaselineskip}[0pt][0pt]{38} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{0} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{22} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{0} \\
+\end{tabular}}\end{minipage}\vrule\,\vrule\hfill\begin{minipage}[t]{0.48\textwidth}{\small \begin{tabular}{p{40mm}|r@{\hspace{1.4mm}}r|r@{\hspace{1.4mm}}r}
+\centering Regionum nomina. & \multicolumn{2}{c|}{Longit.} & \multicolumn{2}{c}{Latitudo.} \\ \hline
+\hangindent=4mm\hangafter=1 45. Kūsh, quae supra\newline Miṣr. & \raisebox{-1\normalbaselineskip}[0pt][0pt]{62°} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{0′} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{16°} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{0′} \\
+\hangindent=4mm\hangafter=1 46. Kūsh interior, quae\newline ultra aequatorem. & \raisebox{-1\normalbaselineskip}[0pt][0pt]{50} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{0} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{12} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{{\scriptsize\bfseries austr.}} \\
+\hangindent=4mm\hangafter=1 47. *Bīthūniyā. & 58 & 0 & 42 & 0 \\
+\hangindent=4mm\hangafter=1 48. *Āsiyā. & 58 & 0 & 38 & 0 \\
+\hangindent=4mm\hangafter=1 49. *Frūǵiyā. & 63 & 0 & 38 & 0 \\
+\hangindent=4mm\hangafter=1 50. *Lūqiyā. & 60 & 0 & 37 & 0 \\
+\hangindent=4mm\hangafter=1 51. *Ghālāṭiyā *Qāriyā. & 62 & 0 & 41 & 0 \\
+\hangindent=4mm\hangafter=1 52. *Faflāghūniyā. & 63 & 0 & 44 & 0 \\
+\hangindent=4mm\hangafter=1 53. *Fānfūliyā. & 64 & 0 & 37 & 0 \\
+\hangindent=4mm\hangafter=1 54. *Qāfādhūqiyā & 67 & 0 & 41 & 0 \\
+\hangindent=4mm\hangafter=1 55. *Armīniyah minor. & 71 & 0 & 39 & 0 \\
+\hangindent=4mm\hangafter=1 56. *Qilīqiyah, regio Ṭa-\newline rasūs. & \raisebox{-1\normalbaselineskip}[0pt][0pt]{68} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{0} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{37} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{0} \\
+\hangindent=4mm\hangafter=1 57. *Sarmāṭiyā, quae in\newline *Āsiyā. & \raisebox{-1\normalbaselineskip}[0pt][0pt]{74} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{0} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{47} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{0} \\
+\hangindent=4mm\hangafter=1 58. *Qūlkhīs. & 73 & 0 & 45 & 0 \\
+\hangindent=4mm\hangafter=1 59. *Ībīriyā. & 75 & 0 & 45 & 0 \\
+\hangindent=4mm\hangafter=1 60. *Albāniyā, regio al–\newline –Bāb. & \raisebox{-1\normalbaselineskip}[0pt][0pt]{78} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{0} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{45} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{0} \\
+\hangindent=4mm\hangafter=1 61. Armīniyah maior. & 77 & 0 & 41 & 0 \\
+\hangindent=4mm\hangafter=1 62. Insula Qubrus [Cy-\newline prus]. & \raisebox{-1\normalbaselineskip}[0pt][0pt]{66} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{0} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{35} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{0} \\
+\end{tabular}}\end{minipage}
+\par\vspace{3mm}{\small
+\par\hangindent=8mm\hangafter=1 Nr. 34. Cod. \textarabic{طرنقى}, sed manifeste \textarabic{قريطى} legendum (\textit{Qirīṭī} = Κρήτη). Insula plerumque ab Arabibus \textit{Aqrīṭish} vocatur; ita quoque ab ipso \Name{al-Battānī} p. 27, l. 6 textus Arabici.
+\par\hangindent=8mm\hangafter=1 Nr. 35. Ṭanǵah est nomen Arabicum urbis quam nos \textit{Tangeri} vocamus.
+\par\hangindent=8mm\hangafter=1 Nr. 36. In long. cod. \textarabic{يج} 13° pro \textarabic{يح} 18°.
+\par\hangindent=8mm\hangafter=1 Nr. 42. Cod. \textarabic{ما} 41° pro \textarabic{صا} 61° (corr. \Name{Lelewel}). — \textit{Miṣr} est nomen Arabicum Aegypti.
+\par\hangindent=8mm\hangafter=1 Nr. 43. Cod. \textarabic{مو} 46° pro \textarabic{صب} 62°.
+\par\hangindent=8mm\hangafter=1 Nr. 44. Cod. \textarabic{يح} 18° pro \textarabic{لح} 38°.
+\par\hangindent=8mm\hangafter=1 Nr. 45. Nomen \textarabic{كوش} corruptum in cod. in \textarabic{كونين}; est Biblicum \textit{Kūsh} = Aethiopia. \Name{Ptolemaeus}: Αἰθιοπία ὑπὸ Αἴγυπτον. — In lat. cod. \textarabic{لو} 36° pro \textarabic{ٮو} = \textarabic{يو} 16° (corr. \Name{Lelewel}).
+\par\hangindent=8mm\hangafter=1 Nr. 46. Lat. in cod. sine punctis; lectio 12° \textarabic{يب} (et non \textarabic{نب} 52°) certissima est. \Name{Al-Khuwārizmī} quoque Kūsh al-wāghilah (i. e. interior) 50° 0′, 12° 0′.
+\par\hangindent=8mm\hangafter=1 Nr. 49 Long. in cod. \textarabic{صح} 68° pro \textarabic{صج} 63°. — Apud \Name{Ptolemaeum} Φρυγία non est provincia ab aliis seiuncta, sed est pars Asiae propriae (ἡ ἰδίως Ἀσία).
+\par\hangindent=8mm\hangafter=1 Nr. 51. Apud \Name{Ptolemaeum} Καρία est pars provinciae Asiae propriae.
+\par\hangindent=8mm\hangafter=1 Nr. 52. Apud \Name{Ptolemaeum} Παφλαγονία est pars Galatiae (Γαλατία).
+\par\hangindent=8mm\hangafter=1 Nr. 57. In lat. cod. \textarabic{لز} 37° pro \textarabic{مز} 47°.
+\par\hangindent=8mm\hangafter=1 Nr. 60. Al-Bāb « portam », vel Bāb al-Abwāb « portam portarum » appellabant Arabes Portas Albanias (Ἀλβάνιαι πύλαι), quae nunc angustiae \textit{Derbend} vocantur.
+\par}
+\clearpage
+\noindent\makebox[\textwidth]{\textbf{}\hfill{\small AL-BATTANI OPUS ASTRONOMICUM}\hfill\textbf{35}}\par\vspace{-1mm}\noindent\rule{\textwidth}{.4pt}\par\vspace{2mm}
+\noindent\begin{minipage}[t]{0.5\textwidth}{\small \begin{tabular}{p{40mm}|r@{\hspace{1.4mm}}r|r@{\hspace{1.4mm}}r}
+\centering Regionum nomina. & \multicolumn{2}{c|}{Longit.} & \multicolumn{2}{c}{Latitudo.} \\ \hline
+\hangindent=4mm\hangafter=1 63. Sūriyā profunda, re-\newline gio Ḥaleb [Aleppo] et\newline al–ʿAmq. & \raisebox{-2\normalbaselineskip}[0pt][0pt]{71°} & \raisebox{-2\normalbaselineskip}[0pt][0pt]{0′} & \raisebox{-2\normalbaselineskip}[0pt][0pt]{36°} & \raisebox{-2\normalbaselineskip}[0pt][0pt]{0′} \\
+\hangindent=4mm\hangafter=1 64. Sūriyā *Fūnīqī, re-\newline gio al–Ghawr et Di-\newline mashq [Damasci]. & \raisebox{-2\normalbaselineskip}[0pt][0pt]{71} & \raisebox{-2\normalbaselineskip}[0pt][0pt]{0} & \raisebox{-2\normalbaselineskip}[0pt][0pt]{33} & \raisebox{-2\normalbaselineskip}[0pt][0pt]{0} \\
+\hangindent=4mm\hangafter=1 65. Regio Iudaeorum, Fi-\newline lasṭīn. & \raisebox{-1\normalbaselineskip}[0pt][0pt]{67} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{0} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{31} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{0} \\
+\hangindent=4mm\hangafter=1 66. Regiones Arabum\newline scenitarum habitatae. & \raisebox{-1\normalbaselineskip}[0pt][0pt]{68} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{0} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{29} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{0} \\
+\hangindent=4mm\hangafter=1 67. *Babilūniyā, regio\newline Bābil. & \raisebox{-1\normalbaselineskip}[0pt][0pt]{78} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{0} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{32} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{0} \\
+\hangindent=4mm\hangafter=1 68. *Athūr, regio al-Maw-\newline ṣil [Mossul]. & \raisebox{-1\normalbaselineskip}[0pt][0pt]{80} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{0} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{37} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{0} \\
+\hangindent=4mm\hangafter=1 69. Ādharbayǵān. & 83 & 0 & 39 & 0 \\
+\end{tabular}}\end{minipage}\vrule\,\vrule\hfill\begin{minipage}[t]{0.48\textwidth}{\small \begin{tabular}{p{40mm}|r@{\hspace{1.4mm}}r|r@{\hspace{1.4mm}}r}
+\centering Regionum nomina. & \multicolumn{2}{c|}{Longit.} & \multicolumn{2}{c}{Latitudo.} \\ \hline
+\hangindent=4mm\hangafter=1 70. as–Sūs, regio al–Ah-\newline wāz. & \raisebox{-1\normalbaselineskip}[0pt][0pt]{83°} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{0′} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{34°} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{0′} \\
+\hangindent=4mm\hangafter=1 71. Regio Fāris. & 90 & 0 & 32 & 0 \\
+\hangindent=4mm\hangafter=1 72. Regio [urbis] Iṣfahān. & 96 & 0 & 37 & 0 \\
+\hangindent=4mm\hangafter=1 73. Kirmān deserta. & 96 & 0 & 32 & 0 \\
+\hangindent=4mm\hangafter=1 74. Kirmān habitata. & 99 & 0 & 25 & 0 \\
+\hangindent=4mm\hangafter=1 75. Regiones habitatae\newline Arabum scenitarum,\newline al-Yemen et al-Ḥiǵāz. & \raisebox{-2\normalbaselineskip}[0pt][0pt]{83} & \raisebox{-2\normalbaselineskip}[0pt][0pt]{0} & \raisebox{-2\normalbaselineskip}[0pt][0pt]{22} & \raisebox{-2\normalbaselineskip}[0pt][0pt]{0} \\
+\hangindent=4mm\hangafter=1 76. Regio Ǵorǵān. & 95 & 0 & 40 & 0 \\
+\hangindent=4mm\hangafter=1 77. Regio [urbis] Marw\newline ar–rūdh. & \raisebox{-1\normalbaselineskip}[0pt][0pt]{104} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{0} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{41} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{0} \\
+\hangindent=4mm\hangafter=1 78. Regio [urbis] Balkh. & 116 & 0 & 41 & 0 \\
+\hangindent=4mm\hangafter=1 79. Regio aṣ–Ṣoghd. & 114 & 0 & 45 & 0 \\
+\hangindent=4mm\hangafter=1 80. Regio ash–Shāsh. & 133 & 0 & 43 & 0 \\
+\end{tabular}}\end{minipage}
+\par\vspace{3mm}{\small
+\par\hangindent=8mm\hangafter=1 Nr. 63. Sūriyā profunda est versio Graeci nominis Συρία κοίλη (Coelesyria). — Ḥaleb est urbs quam nos \textit{Aleppo} vocamus. — Al-ʿAmq fertilissima planities, N-E ab urbe Antiochia, quam flumina Qarā-ṣū, ʿAfrīn et Nahr al-ʿĀṣ (Orontes) irrigant; itaque regio fere nāḥiyah \textit{ar-Rīḥāniyyah} hodie appellata. Assyriace, in annalibus regis Tiglath Pileser, \textit{unḳi}. Cfr. \Name{Ritter}, \textit{Erdkunde}, 2. Ausg., t. XVII (1855), p. 1609-1617; \Name{M. Hartmann}, \textit{Das liwa Haleb}, Berlin 1895, p. 73 sqq. (ex Zeitschrift der Gesellschaft der Erdkunde, t. XXIX); \Name{Yāqūt}, III, 725; \Name{Abū ’l-fidā’}, p. 41 et 50 (= t. II, p. 51 et 62 vers.); \textit{Tāǵ al-ʿarūs}, Kahirae 1307 heg., t. VII, p. 24 et 25.
+\par\hangindent=8mm\hangafter=1 Nr. 64. Fūnīqī = Φοινίκη. — Al-Ghawr (vel, ut hodie efferunt, al-Ghōr) est vallis Iordani.
+\par\hangindent=8mm\hangafter=1 Nr. 65. Παλαιστίνη Ἰουδαία.
+\par\hangindent=8mm\hangafter=1 Nr. 66. Vox « habitata » (al-ʿāmirah) confusio cum nr. 75 videtur; est Ἀραβία Πετραία.
+\par\hangindent=8mm\hangafter=1 Nr. 69. Μηδία \Name{Ptolemaei}.
+\par\hangindent=8mm\hangafter=1 Nr. 70. \Name{Ptolemaei} Σουσιανή. In inscriptionibus Palaeo-persicis cuneatis \textit{Uvža-}, unde \textit{Ahwāz} (plur. Arabicus e singul. \textit{hūz}) et hodiernum nomen \textit{Khūz-istān}; praecipua, Arabum aetate, urbs erat al-Ahwāz, hodie quoque ad sinistram fluminis Kārūn exstans. Nomen as-Sūs raro Arabes adhibebant.
+\par\hangindent=8mm\hangafter=1 Nr. 71–75. Sunt \Name{Ptolemaei} Περσίς, Παρθία, Καρμανία Ἔρημος, Καρμανία, Ἀραβία εὐδαίμων.
+\par\hangindent=8mm\hangafter=1 Nr. 76. \Name{Ptolemaei} Ὑρκανία; nomen Graecum et Arabicum ab eadem voce Zendica \textit{vĕhrka-} proveniunt.
+\par\hangindent=8mm\hangafter=1 Nr. 77. Μαργιανή; in inscriptionibus Palaeo-persicis cuneatis \textit{Margu-}; in Zendica (vel Avestica) lingua \textit{mōuru-}, unde Marw Persarum recentiorum et Arabum. — Marw ar-rūdh (Persice Marw-i-rōdh « Marw fluminis ») erat urbs ad ripam dexteram fluminis Murgh-āb, 30 circiter kilometra E-S-E urbis Pangdeh (i. e. « quinque vici »); hodie Turcico nomine \textit{Marw-čūq} \textarabic{مروچوق} « parva Marw » (in mappis Maruchak, Marutschak) appellata. Cum Marw ash-shāhiǵān « Marw regia » ne confundatur, cuius ruinae parum ab ortu urbis Merw exstant.
+\par\hangindent=8mm\hangafter=1 Nr. 78. Βακτριανή; in inscriptionibus Palaeo-persicis cuneatis \textit{Bākhtri-sh}, in Avesta \textit{Bākhdhi-}, Pehlevice \textit{Bākhr} vel \textit{Balkh}, unde nomen urbis hodiernae.
+\par\hangindent=8mm\hangafter=1 Nr. 79. Σογδιανή \Name{Ptolemaei}.
+\par\hangindent=8mm\hangafter=1 Nr. 80. Incertum in cod. utrum \textarabic{قلح} an \textarabic{قلج}; longitudo ergo potest \textarabic{قلح} 138°, \textarabic{قلج} 133°, \textarabic{قيح} 118°, \textarabic{قيج} 113°, \textarabic{قنح} 158°, \textarabic{قنج} 153° legi. Ash-Shāsh erat regio quam Σάκαι incolebant; urbs praecipua Binkat, \Name{Ptolemaei} Λίθινος πύργος « Turris lapidea » (\textit{Geogr.}, VI, 13, 2), hodie \textit{Tāshkend} \textarabic{تاشكند} (Turcice = « urbs lapidea »). Est igitur Σακῶν θέσις Ptolemaei, qua re lectionem 133° deligo, licet male cum longitudine Arabica urbis aṭ-Ṭurāraband (sub nr. 196) componatur. Rectius \Name{al-Khuwārizmī} Graecam longitudinem reiecerat, et provinciae « ash-Shāsh atque Ṭurāraband » 98° 0′ long., 42° 0′ lat. tribuerat.
+\par}
+\clearpage
+\noindent\makebox[\textwidth]{\textbf{36}\hfill{\small C. A. NALLINO}\hfill\textbf{}}\par\vspace{-1mm}\noindent\rule{\textwidth}{.4pt}\par\vspace{2mm}
+\noindent\begin{minipage}[t]{0.5\textwidth}{\small \begin{tabular}{p{40mm}|r@{\hspace{1.4mm}}r|r@{\hspace{1.4mm}}r}
+\centering Regionum nomina. & \multicolumn{2}{c|}{Longit.} & \multicolumn{2}{c}{Latitudo.} \\ \hline
+\hangindent=4mm\hangafter=1 81. Regio at–Turk citra\newline montem *Himāwus. & \raisebox{-1\normalbaselineskip}[0pt][0pt]{120°} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{0′} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{56°} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{0′} \\
+\hangindent=4mm\hangafter=1 82. Regio at–Turk trans\newline montem. & \raisebox{-1\normalbaselineskip}[0pt][0pt]{150} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{0} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{48} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{0} \\
+\hangindent=4mm\hangafter=1 83. Regio Ṭabaristān. & 165 & 0 & 45 & 0 \\
+\hangindent=4mm\hangafter=1 84. Regio Herāt. & 104 & 0 & 37 & 0 \\
+\hangindent=4mm\hangafter=1 85. Regio Farghānah. & 116 & 0 & 35 & 0 \\
+\hangindent=4mm\hangafter=1 86. Regio Siǵistān. & 108 & 0 & 29 & 0 \\
+\hangindent=4mm\hangafter=1 87. Regio ar–Rukhkhaǵ. & 115 & 0 & 29 & 0 \\
+\end{tabular}}\end{minipage}\vrule\,\vrule\hfill\begin{minipage}[t]{0.48\textwidth}{\small \begin{tabular}{p{40mm}|r@{\hspace{1.4mm}}r|r@{\hspace{1.4mm}}r}
+\centering Regionum nomina. & \multicolumn{2}{c|}{Longit.} & \multicolumn{2}{c}{Latitudo.} \\ \hline
+\hangindent=4mm\hangafter=1 88. Regio as-Sind. & 110° & 0′ & 23° & 0′ \\
+\hangindent=4mm\hangafter=1 89. Al–Hind, quae intra\newline flumen Ghanǵis. & \raisebox{-1\normalbaselineskip}[0pt][0pt]{132} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{0} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{27} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{0} \\
+\hangindent=4mm\hangafter=1 90. Al–Hind, quae extra\newline flumen. & \raisebox{-1\normalbaselineskip}[0pt][0pt]{150} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{0} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{22} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{0} \\
+\hangindent=4mm\hangafter=1 91. Insula Sarandīb. & 124 & 0 & 3 & 0 \\
+\hangindent=4mm\hangafter=1 92. Centrum regionum\newline Ḥimyar. & \raisebox{-1\normalbaselineskip}[0pt][0pt]{82} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{0} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{12} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{30} \\
+\hangindent=4mm\hangafter=1 93. Regio aṣ–Ṣīn. & 177 & 0 & 22 & 0 \\
+\end{tabular}}\end{minipage}
+\par\vspace{3mm}{\small
+\par\hangindent=8mm\hangafter=1 Nr. 81. \Name{Ptolemaei} Σκυθία ἡ ἐντὸς Ἰμάου ὄρους.
+\par\hangindent=8mm\hangafter=1 Nr. 82. Σκυθία ἡ ἐκτὸς Ἰμάου ὄρους.
+\par\hangindent=8mm\hangafter=1 Nr. 83. Ṭabaristān est regio Persica ad littus australe Caspii Maris, quam hodie \textit{Māzanderān} vocant; continebatur igitur provinciis Media et Hyrcania iam sub nr. 69 et 76 memoratis. Numeri et collatio catalogi Ptolemaici provinciarum sine dubio ostendunt Σηρικὴ intelligendam esse. Error ut sub nr. 85.
+\par\hangindent=8mm\hangafter=1 Nr. 84. Ἀρεία \Name{Ptolemaei}. Cfr. nr. 191 et 232.
+\par\hangindent=8mm\hangafter=1 Nr. 85. Farghānah (in mappis nostris Fergana) erat et est regio ad medium cursum fluminis Sīr–daryā; urbs caput olim Akhsīkat; aliae urbes magnae Khōqand, Andiǵān, Nāmanǵān, Marghīlān (vel Marghīnān). Igitur iam continebatur provincia Sacorum, nr. 80. Sed numeri et catalogus \Name{Ptolemaei} satis ostendunt hic de Παροπανισάδαι agi, i. e. de regione cuius caput nunc Kābul. Error ut sub nr. 83.
+\par\hangindent=8mm\hangafter=1 Nr. 86, 87, 88. Sunt Δραγγιανή, Ἀραχωσία, Γεδρωσία.
+\par\hangindent=8mm\hangafter=1 Nr. 90. Ἰνδικὴ ἡ ἐκτὸς Γάγγου ποταμοῦ. Long. in cod. \textarabic{قف} 180° pro \textarabic{قن} 150° (corr. \Name{Lelewel}).
+\par\hangindent=8mm\hangafter=1 Nr. 91. Iidem numeri apud \Name{al-Khuwārizmī}; Ταπροβάνη \Name{Ptolemaei} (hodie \textit{Ceylon}).
+\par\hangindent=8mm\hangafter=1 Nr. 92. Deest apud \Name{Ptolemaeum} tanquam provincia; nam Ὁμηριτῶν χώρα, regio Ḥimyaritarum (nimirum al-Yemen et Ḥaḍramūt), iam continetur provincia Arabiae Felicis (nr. 75). — In long. cod. \textarabic{قب} 102° pro \textarabic{فب} 82° (corr. \Name{Lelewel}).
+\par\hangindent=8mm\hangafter=1 Nr. 93. Σῖναι \Name{Ptolemaei}.
+\par}
+\clearpage
+\noindent\makebox[\textwidth]{\textbf{}\hfill{\small AL-BATTANI OPUS ASTRONOMICUM}\hfill\textbf{37}}\par\vspace{-1mm}\noindent\rule{\textwidth}{.4pt}\par\vspace{2mm}
+\begin{center}\fbox{\parbox{0.95\textwidth}{\centering\large\bfseries Tabula latitudinum et longitudinum urbium, iuxta quod reperitur\\in Libro Figurae [Terrae] et quod etiam probatum est.}}\end{center}
+\noindent\begin{minipage}[t]{0.5\textwidth}{\small \begin{tabular}{p{40mm}|r@{\hspace{1.4mm}}r|r@{\hspace{1.4mm}}r}
+\centering Nomina urbium. & \multicolumn{2}{c|}{Longit.} & \multicolumn{2}{c}{Latitudo.} \\ \hline
+\hangindent=4mm\hangafter=1 94. *[Ǵīrā] *mītrūfūlis. & 36° & 30′ & 18° & 0′ \\
+\hangindent=4mm\hangafter=1 95. *Niǵīrā. & 25 & 5 & 17 & 15 \\
+\hangindent=4mm\hangafter=1 96. \textarabic{سونا ثليا} & 80 & 0 & 16 & 30 \\
+\hangindent=4mm\hangafter=1 97. *Sāffārā. & 78 & 0 & 14 & 30 \\
+\hangindent=4mm\hangafter=1 98. Insula *Sarāfis. & 94 & 0 & 17 & 30 \\
+\end{tabular}}\end{minipage}\vrule\,\vrule\hfill\begin{minipage}[t]{0.48\textwidth}{\small \begin{tabular}{p{40mm}|r@{\hspace{1.4mm}}r|r@{\hspace{1.4mm}}r}
+\centering Nomina urbium. & \multicolumn{2}{c|}{Longit.} & \multicolumn{2}{c}{Latitudo.} \\ \hline
+\hangindent=4mm\hangafter=1 99. *Thīnā. & 180° & 0′ & 13° & 0′ \\
+\hangindent=4mm\hangafter=1 100. *Diyusfūlīs maxima. & 62 & 0 & 23 & 50 \\
+\hangindent=4mm\hangafter=1 101. *Uwasīs maior [sic!]. & 59 & 50 & 28 & 30 \\
+\hangindent=4mm\hangafter=1 102. \textarabic{بجلزا} [vel \textarabic{بجلنرا}?]. & 43 & 0 & 23 & 30 \\
+\hangindent=4mm\hangafter=1 103. Mekkah, custodita & & & & \\
+\end{tabular}}\end{minipage}
+\par\vspace{3mm}{\small
+\par\hangindent=8mm\hangafter=1 Nr. 94 Cod. \textarabic{جسروقولس} quod recte iam \Name{Lelewel} interpretatus est. — \Name{Ptol.} \textit{Geogr.}, IV, 6, 31: Γεῖρα μητρόπολις 36° 0′, 18° 0′.
+\par\hangindent=8mm\hangafter=1 Nr. 95. \Name{Ptol.} IV, 6, 27: Νίγειρα 25° 40′, 17° 40′. \Name{Al-Khuwārizmī} \textit{Nighīrā} scribit (ut \Name{Edrisi}, \textit{Description de l’Afrique et de l’Espagne} ed. Dozy et de Goeje, p. 30 textus; vers. Jaubert I, 107) cum numeris 25° 30′, 18° 20′.
+\par\hangindent=8mm\hangafter=1 Nr. 96. Corruptela vix emendabilis. Proposuerat \Name{Lelewel} Σάββαθα μητρόπολις (in Arabia Felici, \Name{Ptol.} VI, 7, 38: 87° 0′, 16° 30′); sed differentia in longitudinibus male explicari potest tanquam ex amanuensium erroribus orta. Probabilius est \textarabic{ف} 80° pro \textarabic{ى} 10° scriptum exstare. et urbem esse Ἰάρζειθα in Libya interiore (\Name{Ptol.} IV, 6, 6: 10° 0′, 15° 30′), cuius etiam in enumerandis provinciis \Name{Ptolemaeus} (VIII, 16, 4) separatim meminit. Urbem, cum iisdem Ptolemaei numeris, \Name{al-Khuwārizmī} quoque recepisse videtur; in cod. Strassburgensi nomen tineis erosum est, qua re tantum \textarabic{ا}.....\textarabic{ا}... supersunt, sed in numeris nulla dubitatio exstat. Qua re vera Albatenii lectio \textarabic{يارزثا} Yārzithā, non \textarabic{سباثا} Sabbāthā, videtur.
+\par\hangindent=8mm\hangafter=1 Nr. 97. Cum \Name{Lelewel} pro \textarabic{سافقاوا} codicis lego \textarabic{ساففارا} i. e. Σάπφαρα μητρόπολις (VI, 7, 41: 78° 0′, 14° 30′), qua re pro \textarabic{يز} 17° cod. in lat. \textarabic{يد} 14° restituo. Est Ẓafār regionis al-Yemen, praecipua Ḥimyaritarum urbs, et diversa a Ẓafār regionis Mahrah sub nr. 241 indicata. Ex \Name{al-Hamdānī}, \textit{Geographie der arabischen Halbinsel} hrsg. von D. H. Müller, Leiden 1884–91, p. 44, l. 18 sqq., scimus eam sub eodem fere meridiano quo urbem Ṣanʿā’ fuisse, ab austro huius urbis 1° latitudinis gradu; erat ergo prope hodiernam Yarīm; cfr. \Name{M. Hartmann}, \textit{Jamānijāt} in Zeitschrift für Assyriologie, X, 1895, p. 163–64. \Name{H. C. Kay} in adnotationibus ad \textit{Yaman, its early mediaeval history by} Najm ad-din \Name{ʿOmārah}, London 1892, p. 246, eam putat esse vicum \textit{Yaḥḍib al-ʿUlū} parum ab austro Yarīm. An Σαφαρ μητρόπολις \textit{Peripli Maris Erythraei} ipsa Σάπφαρα Ptolemaei sit, incertum est; affirmat \Name{Glaser}, \textit{Skizze der Geschichte und Geographie Arabiens}, Berlin 1890, t. II, p. 241; negat \Name{C. de Landberg}, \textit{Arabica}, Leide 1898, t. V, p. 56 adn., qui Σαφαρ Peripli in ruinis nunc \textit{Thafar} \textarabic{ثفر} dictis prope Naqb al-Hagar \textarabic{نقب الهجر} (in Ḥaḍramūt) ponit. — Long. et lat. Ptolemaicae sunt, qua re nullo modo cum long. et lat. Ṣanʿā’ (nr. 180) componuntur.
+\par\hangindent=8mm\hangafter=1 Nr. 98. Nomen in cod. corruptum \textarabic{سراقس}, et long. \textarabic{صد} 64° pro \textarabic{ضد} 94°; iam \Name{Lelewel} intellexit esse Σαραπίδος νῆσος ad littora sinus Σαχαλίτης in Arabia austro-orientali, nimirum insulam hodie \textit{al-Maṣīrah} dictam. \Name{Ptol.} VI, 7, 46 (et cfr. VIII, 22, 18): 94° 0′, 10° 30′ (sed versiones Latinae 17° 30′, ut al-Battānī, habent); \Name{Ritter}, \textit{Erdkunde}, t. XII (1846), p. 348–350 (ubi nomen Massera).
+\par\hangindent=8mm\hangafter=1 Nr. 99. Codicis \textarabic{بثبا} iam \Name{Lelewel} correxit; \Name{Ptol.} VII, 3, 6: μητρόπολις Θῖναι 180° 40′, 3° 0′ austr.
+\par\hangindent=8mm\hangafter=1 Nr. 100. \Name{Ptol.} IV, 5, 73: Διὸς πόλις μεγάλη 62° 0′, 25° 30′. Sunt Thebae Aegypti.
+\par\hangindent=8mm\hangafter=1 Nr 101. Manifestus error pro « parva » (cfr. nr. 108); in lat. pro \textarabic{كج} 23° codicis legendum \textarabic{كح} 28°. \Name{Ptol.} IV, 5, 37: Ὄασις μικρά 60° 15′, 28° 45′; hodie \textit{al-Wāḥ ad-Dākhil}.
+\par\hangindent=8mm\hangafter=1 Nr. 102. Quid sit nescio. \Name{Lelewel} proposuit promontorium Βάζιον ἄκρα (\Name{Ptol.} IV, 5, 15: 65° 0′, 23° 0′) ad littora maris Rubri, cui nomen hodie \textit{Rās an-Nāshif}; qua re long. \textarabic{مج} 43° emendavit \textarabic{صج} 63°. Sed res mihi vehementer dubia videtur.
+\par\hangindent=8mm\hangafter=1 Nr. 103. Numeri a \Name{Ptolemaei} differunt (VI, 7, 32: Μακοράβα 73° 20′, 22° 0′); \Name{al-Khuwārizmī} 67° 0′,
+\par}
+\clearpage
+\noindent\makebox[\textwidth]{\textbf{38}\hfill{\small C. A. NALLINO}\hfill\textbf{}}\par\vspace{-1mm}\noindent\rule{\textwidth}{.4pt}\par\vspace{2mm}
+\noindent\begin{minipage}[t]{0.5\textwidth}{\small \begin{tabular}{p{40mm}|r@{\hspace{1.4mm}}r|r@{\hspace{1.4mm}}r}
+\centering Nomina urbium. & \multicolumn{2}{c|}{Longit.} & \multicolumn{2}{c}{Latitudo.} \\ \hline
+\hangindent=4mm\hangafter=1 \phantom{103.} [a Deo], cuius long.\newline iuxta quod probatum\newline est 77° 53′. & \raisebox{-2\normalbaselineskip}[0pt][0pt]{71°} & \raisebox{-2\normalbaselineskip}[0pt][0pt]{0′} & \raisebox{-2\normalbaselineskip}[0pt][0pt]{21°} & \raisebox{-2\normalbaselineskip}[0pt][0pt]{40′} \\
+\hangindent=4mm\hangafter=1 104. Yathrib sancta [al–\newline Medīnah]. & \raisebox{-1\normalbaselineskip}[0pt][0pt]{75} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{0} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{25} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{0} \\
+\hangindent=4mm\hangafter=1 105. *Khalqīdhun [sic]\newline maxima. & \raisebox{-1\normalbaselineskip}[0pt][0pt]{34} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{10} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{32} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{40} \\
+\hangindent=4mm\hangafter=1 106. *Lehfṭis maior. & 41 & 0 & 31 & 0 \\
+\hangindent=4mm\hangafter=1 107. *Qāṭābāthmūs maior. & 54 & 30 & 31 & 10 \\
+\end{tabular}}\end{minipage}\vrule\,\vrule\hfill\begin{minipage}[t]{0.48\textwidth}{\small \begin{tabular}{p{40mm}|r@{\hspace{1.4mm}}r|r@{\hspace{1.4mm}}r}
+\centering Nomina urbium. & \multicolumn{2}{c|}{Longit.} & \multicolumn{2}{c}{Latitudo.} \\ \hline
+\hangindent=4mm\hangafter=1 108. *Uwasīs maior. & 59° & 5′ & 27° & 10′ \\
+\hangindent=4mm\hangafter=1 109. Al–Iskandariyyah\newline [Alexandria] in Ae-\newline gypto. & \raisebox{-2\normalbaselineskip}[0pt][0pt]{60} & \raisebox{-2\normalbaselineskip}[0pt][0pt]{30} & \raisebox{-2\normalbaselineskip}[0pt][0pt]{30} & \raisebox{-2\normalbaselineskip}[0pt][0pt]{18} \\
+\hangindent=4mm\hangafter=1 110. *Qaysāriyā *afūmi-\newline yūs. & \raisebox{-1\normalbaselineskip}[0pt][0pt]{67} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{25} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{33} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{20} \\
+\hangindent=4mm\hangafter=1 111. Filasṭīn. & 66 & 15 & 32 & 30 \\
+\hangindent=4mm\hangafter=1 112. \textarabic{سقراطاوس} & 67 & 30 & 33 & 40 \\
+\hangindent=4mm\hangafter=1 113. ʿAsqalān & 65 & 0 & 31 & 50 \\
+\end{tabular}}\end{minipage}
+\par\vspace{3mm}{\small
+\par\hangindent=8mm\hangafter=1 21° 0′. Latitudo Albateniana confirmatur tabula ascensionum obliquarum urbis, f. 182,v., et satis bene cum latitudine urbis aṭ-Ṭā’if componitur (nr. 193); at differentia longitudinum explicari nequit, cum, in mappis nostris, 40′ vel 1° sit. Similiter long. Medinae (nr. 104) nullo modo cum utroque numero Meccae convenit. Omnium harum urbium plerumque longitudines ita sunt apud Arabes: Mekkah 77° 0′, aṭ-Ṭā’if 77° 30′, al-Medīnah 75° 20′; sed omnes ab itinerariis potius quam a bonis observationibus astronomicis deductae esse videntur. — \Name{J. J. Hess}, \textit{Die geographische Lage Mekka’s und die Strasse von Gidda nach Mekka}, Freiburg i. S. 1900, e recentiorum itinerariorum comparatione (nam observatio astronomica anno 1807 a \Name{Badia y Leblich} i. e. \Name{Ali Bey el Abassi} suscepta parum bona fuit) deduxit pro templo Kaʿbah 39° 52′.5 long. E Gr. (possibilis error ± 3′.2), 21° 21′.7 (possibilis error ± 3′.8) lat. N.
+\par\hangindent=8mm\hangafter=1 Nr. 104. Numeri non Ptolemaici; \Name{Ptol.} VI, 7, 31: Ἰαθρίππα ed Nobbe Λαθρίππα) 71° 40′, 23° 20′. Est urbs post Mahometum \textit{al-Medīnah} dicta; \Name{al-Khuwārizmī} 65° 20′, 25° 0′, et cfr. nr. 103. — Coordinatae adhuc incertae, nam ab itinerariis deductae; \Name{G. Cora}, \textit{L’Hegiaz settentrionale} (in Cosmos di Guido Cora, t. VIII, Torino 1884–85, p. 347–48) ex itinere diligentissimo Ṣādiq Bey supputavit 39° 53′ E Gr., 24° 34′ lat. N; \Name{H. Kiepert}, anno 1864, 40° 3′ $\tfrac{1}{2}$, 24° 27′ $\tfrac{1}{2}$ delegerat, \Name{B. Hassenstein} (1881) 40° 2′, 24° 26′; \Name{C. M. Doughty} (1884) 39° 58′ $\tfrac{1}{4}$, 24° 30′; \Name{H. Habenicht} (1887) 40° 0′, 24° 26′ $\tfrac{1}{3}$.
+\par\hangindent=8mm\hangafter=1 Nr. 105. Carthaginis nomen Graecum Καρχηδὼν μέγα ἄστυ (\Name{Ptol.} IV, 3, 7: 34° 50′, 32° 40′), Arabibus iam ignotum, confudit cum notissima Χαλκηδών, Arabice Khalqīdhūn, Bithyniae urbe ad Bosphori littus. Fortasse \textarabic{ى} 10′ long. est facilis lapsus calami pro \textarabic{ن} 50′.
+\par\hangindent=8mm\hangafter=1 Nr. 106. \Name{Ptol.} IV, 3, 13: Λέπτις μεγάλη 42° 0′, 31° 40′. — Arabica nominis forma, ut iam apud \Name{al-Yaʿqūbī} ed. de Goeje, p. 346, occurrit et hodie quoque viget, \textit{Lebdah} est.
+\par\hangindent=8mm\hangafter=1 Nr. 107. \Name{Ptol.} IV, 5, 4: Καταβαθμὸς μέγας 54° 30′, 31° 15′; \Name{al-Khuwārizmī}: Qadabathmūs 46° 0′, 31° 30′. — Marmaricae urbs ad Mediterranei littus; versio Arabica Graeci nominis, \textit{al-ʿAqabah al-kabīrah} « magna (montis) declivitas », est hodiernum loci nomen.
+\par\hangindent=8mm\hangafter=1 Nr. 108. Cfr. ad nr. 101. — \Name{Ptol.} IV, 5, 37: Ὄασις μεγάλη 59° 50′, 26° 55′; hodie \textit{Wāḥ al-Khāriǵah}.
+\par\hangindent=8mm\hangafter=1 Nr. 109. Ptol. IV, 5, 9: Ἀλεξάνδρεια 60° 30′, 31° 0′; \Name{al-Khuwārizmī} 51° 20′, 31° 5′. — Cfr. animadversiones in fine huius tomi. — Pharus novus (in extremitate occidentali) 29° 51′ 39″ E Gr., 31° 11′ 43″ N.
+\par\hangindent=8mm\hangafter=1 Nr. 110. \Name{Ptol.} V, 15, 21: Καισάρεια πανιάς 67° 40′, 33° 0′; quam geographi Arabici omnes nomine hodierno \textit{Bāniyās} appellant. Est prope Iordani fontes, nec cum Bāniyās ad Syriae littus, 35° 11′ $\tfrac{1}{2}$ lat. N., confundenda. Cfr. \Name{M. Van Berchem}, \textit{Le château de Bânyâs et ses inscriptions}, in Journal Asiatique, ser. VIII, t. 12, 1888, p. 440-470.
+\par\hangindent=8mm\hangafter=1 Nr. 111. Apud Arabicos geographos est nomen regionis (Palaestinae); sed hic, ut iam \Name{Lelewel} agnovit, Καισάρεια στράτωνος (\Name{Ptol.} V, 16, 2: 66° 15′, 32° 30′), Romanorum tempore caput Palaestina, et ab Arabibus olim et hodie \textit{Qaysāriyyah} \textarabic{قيسارية} appellata. Ad maris littus, 32° 30′ 0″ lat.
+\par\hangindent=8mm\hangafter=1 Nr. 112. Nomen ignotum et procul dubio valde corruptum. Minime probanda coniectura \Name{Lelewel}: Καπαρκοτνεῖ (V, 16, 4) 67° 15′, 32° 35′.
+\par\hangindent=8mm\hangafter=1 Nr. 113. Ἀσκαλών (V, 16, 2) 65° 10′, 31° 40′; \Name{al-Khuw.} 55° 20′, 33° 0′; iuxta hodiernos 31° 39′ 40″ lat.
+\par}
+\clearpage
+\noindent\makebox[\textwidth]{\textbf{}\hfill{\small AL-BATTANI OPUS ASTRONOMICUM}\hfill\textbf{39}}\par\vspace{-1mm}\noindent\rule{\textwidth}{.4pt}\par\vspace{2mm}
+\noindent\begin{minipage}[t]{0.5\textwidth}{\small \begin{tabular}{p{40mm}|r@{\hspace{1.4mm}}r|r@{\hspace{1.4mm}}r}
+\centering Nomina urbium. & \multicolumn{2}{c|}{Longit.} & \multicolumn{2}{c}{Latitudo.} \\ \hline
+\hangindent=4mm\hangafter=1 114. Sabasṭiyah. & 66° & 30′ & \textit{31°} & \textit{50′} \\
+\hangindent=4mm\hangafter=1 115. ar–Ramleh. & 65 & 50 & \textit{31} & \textit{35} \\
+\hangindent=4mm\hangafter=1 116. *Lādhiqiyyā *Frūǵis. & 59 & 45 & 38 & 40 \\
+\hangindent=4mm\hangafter=1 117. Insula Rūdhis. & 58 & 40 & 36 & 0 \\
+\hangindent=4mm\hangafter=1 118. \textarabic{سلماوس} & 66 & 45 & 35 & 30 \\
+\hangindent=4mm\hangafter=1 119. Ṭarasūs. & 67 & 40 & 36 & 55 \\
+\hangindent=4mm\hangafter=1 120. Adhanah. & 68 & 15 & 36 & 50 \\
+\hangindent=4mm\hangafter=1 121. al–Maṣṣīṣah. & 68 & 50 & 36 & 45 \\
+\hangindent=4mm\hangafter=1 122. al–Lādhiqiyyah. & 68 & 30 & 35 & 5 \\
+\end{tabular}}\end{minipage}\vrule\,\vrule\hfill\begin{minipage}[t]{0.48\textwidth}{\small \begin{tabular}{p{40mm}|r@{\hspace{1.4mm}}r|r@{\hspace{1.4mm}}r}
+\centering Nomina urbium. & \multicolumn{2}{c|}{Longit.} & \multicolumn{2}{c}{Latitudo.} \\ \hline
+\hangindent=4mm\hangafter=1 123. Aṭrābulus [Tripo-\newline lis]. & \raisebox{-1\normalbaselineskip}[0pt][0pt]{67°} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{30′} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{34°} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{20′} \\
+\hangindent=4mm\hangafter=1 124. ʿIrqah [vel ʿArqah]. & 68 & 30 & 34 & 0 \\
+\hangindent=4mm\hangafter=1 125. Ṣūr [Tyrus]. & 67 & 0 & 33 & 20 \\
+\hangindent=4mm\hangafter=1 126. Ṣaydā’ [Sidon]. & 67 & 20 & 33 & 30 \\
+\hangindent=4mm\hangafter=1 127. ʿAkkā. & 66 & 50 & 33 & 0 \\
+\hangindent=4mm\hangafter=1 128. Ḥimṣ. & 69 & 5 & 34 & 0 \\
+\hangindent=4mm\hangafter=1 129. ar–Rastan. & 69 & 30 & 34 & 10 \\
+\hangindent=4mm\hangafter=1 130. Ḥamāh. & 69 & 30 & 34 & 20 \\
+\end{tabular}}\end{minipage}
+\par\vspace{3mm}{\small
+\par\hangindent=8mm\hangafter=1 Nr. 114. In long. pro \textarabic{صر} 67° cod. lego \textarabic{صو} 66°; Σεβαστὴ Ἰουδαίας (V, 16, 6): 66° 40′, 32° 20′. Hodie \textit{Sebasṭiyah}, Hebraeorum Samaria, N-W urbis Nābulus, 32° 16′ $\tfrac{1}{2}$ lat.; qua re latitudo Ptolemaica multo Albateniana melior. Sud suspicor in codice, ob calami lapsum, latitudinem urbis praecedentis repetitam esse.
+\par\hangindent=8mm\hangafter=1 Nr. 115. Ei nihil apud \Name{Ptolemaeum} respondet; \Name{al-Khuwār.} 55° 40′, 32° 40′. Notus vicus inter Yāfā (Giaffa) et Ierusalem, 31° 55′ $\tfrac{2}{3}$ lat. N; ergo lat. Albateniana nimis parva respectu ʿAsqalān (nr. 113) et Ierusalem (nr. 273). Exspectandus erat numerus inter 32° et 32° 10′.
+\par\hangindent=8mm\hangafter=1 Nr. 116. Λαοδίκεια ἐπὶ Λύκῳ (V, 2, 18) 59° 15′, 38° 40′; hodie \textit{Eskī Ḥiṣār}. Sed iuxta \Name{Ptolemaeum} ad Cariam, non ad Phrygiam pertinebat.
+\par\hangindent=8mm\hangafter=1 Nr. 117. Λίνδος Ῥόδου (V, 2, 34) 58° 40′, 36° 0′; \Name{al-Khuwār.} 50° 0′, 35° 30′. Vocales posui ut \Name{al-Bekrī} 431 et \Name{Yāqūt} II, 832 iubent.
+\par\hangindent=8mm\hangafter=1 Nr. 118. Nomen Arabibus ignotum; Σαλαμὶς Κύπρου (V, 14, 3) 66° 40′, 35° 30′; cfr. quoque nr. 62.
+\par\hangindent=8mm\hangafter=1 Nr. 119. Ταρσός (V, 8, 7) 67° 40′, 36° 50′; \Name{al-Khuwār.} 58° 0′, 36° 55′.
+\par\hangindent=8mm\hangafter=1 Nr. 120. Ἄδανα (V, 8, 7) 68° 15′, 36° 50′. Iussu imperiali dato 16 raǵab 1290 heg. (9 Sept. 1873) nomen Turcae scribunt \textarabic{اطنه}, licet \textit{Adana} efferant; v. \Name{Foy}, \textit{Der Purismus bei den Osmanen}, in Mittheilungen des Seminars für oriental. Sprachen, t. I, pars II, Berlin 1898, p. 38.
+\par\hangindent=8mm\hangafter=1 Nr. 121. In cod. long. \textarabic{صر} 67° manifestus error pro \textarabic{صح} 68°, urbs enim ab ortu, non ab occasu Adanah est. \Name{Ptol.} (V, 8, 7): Μοψουεστία 68° 50′, 36° 45′; \Name{al-Khuwār.} 59° 40′, 36° 0′ (vel 45′?). Forma Albateniana nominis est quae semper Arabici scriptores adhibebant; Turcae hodie \textit{Missīs} \textarabic{مسيس} scribunt. Ad ripam sinistram fluminis Pyrami (Ǵīḥān); \Name{Ritter}, \textit{Erdkunde}, t. XIX (1859), p. 97-111.
+\par\hangindent=8mm\hangafter=1 Nr. 122. Λαοδίκεια (V, 15, 3) 68° 30′, 35° 5′; \Name{al-Khuwār.} 61° 0′, 35° 0′. Hodierni lat. 35° 31′ statuerunt.
+\par\hangindent=8mm\hangafter=1 Nr. 123. Τρίπολις (V, 15, 4) 67° 30′, 34° 30′; \Name{al-Khuwār.} 60° 35′, 34° 0′.
+\par\hangindent=8mm\hangafter=1 Nr. 124. Ἄρκα (V, 15, 21) 68° 20′, 34° 0′; \Name{al-Khuwār.} 61° 15′, 34° 16′. Ab antiquis etiam Caesarea appellata; ruinae in \textit{Tell ʿArqah}; \Name{Ritter}, t. XVII (1855), p. 808-811.
+\par\hangindent=8mm\hangafter=1 Nr. 125. Τύρος (V, 15, 5 et 27) 67° 0′, 33° 20′; \Name{al-Khuwār.} 59° 15′, ..... (1).
+\par\hangindent=8mm\hangafter=1 Nr. 126. Σιδών (V, 15, 5) 67° 10′, 33° 40′; \Name{al-Khuwār.} 59° 20′, .....
+\par\hangindent=8mm\hangafter=1 Nr. 127. Πτολεμαΐς (V, 15, 5) 66° 50′, 33° 0′; \Name{al-Khuwār.} 58° 25′, .....
+\par\hangindent=8mm\hangafter=1 Nr. 128. Ἔμισσα (V, 15, 19) 69° 40′, 34° 0′; \Name{al-Khuwār.} 61° 10′, 34° 0′. Nomen hodie \textit{Ḥomṣ} efferunt; iuxta observationes astronomicas a \Name{Vignes} anno 1864 institutas, 36° 42′ 22″ E Gr., 34° 43′ 20″ lat. N.
+\par\hangindent=8mm\hangafter=1 Nr. 129. Deest apud \Name{Ptolemaeum} et \Name{al-Khuwār.} — \textit{Arethusa} veterum; ad ripam dexteram Orontis (Nahr al-ʿĀṣ) in via quae a Ḥimṣ ad Ḥamāh pergit, \Name{Ritter} XVII (1855), p. 1028-30; \Name{Ed. Sachau}, \textit{Reise in Syrien und Mesopotamien}, Leipzig 1883, p. 65-66 (qui male Restân scribit).
+\par\hangindent=8mm\hangafter=1 Nr. 130. Lat. in cod. \textarabic{له} 35° pro \textarabic{لد} 34° (corr. \Name{Lelewel}). Ἐπιφάνεια (V, 15, 16) 69° 35′, 34° 25′; \Name{al-Khuwār.} 62° 15′ (?), ..... Iuxta observationes astronomicas \Name{Vignes} anni 1864, 36° 43′ 39″ E Gr., 35° 8′ N.
+\par}
+\par\vspace{2mm}\begin{center}\rule{40mm}{.4pt}\end{center}
+{\small (1) Latitudines quarumdam Syriae urbium nimis sunt in al-Khuwārizmī codice corrupta ut nunc referri queant.}\par
+\clearpage
+\noindent\makebox[\textwidth]{\textbf{40}\hfill{\small C. A. NALLINO}\hfill\textbf{}}\par\vspace{-1mm}\noindent\rule{\textwidth}{.4pt}\par\vspace{2mm}
+\noindent\begin{minipage}[t]{0.5\textwidth}{\small \begin{tabular}{p{40mm}|r@{\hspace{1.4mm}}r|r@{\hspace{1.4mm}}r}
+\centering Nomina urbium. & \multicolumn{2}{c|}{Longit.} & \multicolumn{2}{c}{Latitudo.} \\ \hline
+\hangindent=4mm\hangafter=1 131. Salamiyyah. & 69° & 50′ & 34° & 50′ \\
+\hangindent=4mm\hangafter=1 132. Fāmiyah [Apamea]. & 70 & 0 & 34 & 45 \\
+\hangindent=4mm\hangafter=1 133. Dimashq [Damas-\newline cus]. & \raisebox{-1\normalbaselineskip}[0pt][0pt]{69} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{0} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{33} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{0} \\
+\hangindent=4mm\hangafter=1 134. Baʿlabakk [Baalbek]. & 68 & 20 & 33 & 15 \\
+\hangindent=4mm\hangafter=1 135. Tadmur. & 72 & 0 & 34 & 0 \\
+\hangindent=4mm\hangafter=1 136. Ḥaleb [Aleppo]. & 71 & 0 & 34 & 50 \\
+\hangindent=4mm\hangafter=1 137. Qinnasrīn. & 70 & 40 & 35 & 35 \\
+\end{tabular}}\end{minipage}\vrule\,\vrule\hfill\begin{minipage}[t]{0.48\textwidth}{\small \begin{tabular}{p{40mm}|r@{\hspace{1.4mm}}r|r@{\hspace{1.4mm}}r}
+\centering Nomina urbium. & \multicolumn{2}{c|}{Longit.} & \multicolumn{2}{c}{Latitudo.} \\ \hline
+\hangindent=4mm\hangafter=1 138. Maʿarrat an-Nuʿmān & 69° & 55′ & 34° & 0′ \\
+\hangindent=4mm\hangafter=1 139. Qūros. & 70 & 10 & 36 & 20 \\
+\hangindent=4mm\hangafter=1 140. Dolūk. & 70 & 40 & 37 & 0 \\
+\hangindent=4mm\hangafter=1 141. Raʿbān. & 71 & 0 & 37 & 15 \\
+\hangindent=4mm\hangafter=1 142. Anṭākiyah [Antio-\newline chia]. & \raisebox{-1\normalbaselineskip}[0pt][0pt]{69} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{0} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{35} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{30} \\
+\hangindent=4mm\hangafter=1 143. Malaṭyah. & 71 & 0 & 39 & 0 \\
+\hangindent=4mm\hangafter=1 144. Shimshāṭ. & 73 & 20 & 38 & 40 \\
+\end{tabular}}\end{minipage}
+\par\vspace{3mm}{\small
+\par\hangindent=8mm\hangafter=1 Nr. 131. Lat. in cod. \textarabic{لو ه} 36° 5′ pro \textarabic{لد ن} 34° 50′; cfr. nr. 129 et 130. \Name{Al-Khuwār.} 62° 45′, ..... — \textit{Salaminias} veterum; hodie \textit{Salamiyyah} vel \textit{Salamyah}, E-S-E urbis Ḥamāh, 37° 7′ E Gr., 35° 1′ N.
+\par\hangindent=8mm\hangafter=1 Nr. 132. Ἀπάμεια (V, 15, 19) 70° 0′, 34° 45′; \Name{al-Khuwār.} 62° 20′, 34° 20′. Hodie \textit{Qalʿat al-Maḍīq} ab ortu Orontis.
+\par\hangindent=8mm\hangafter=1 Nr. 133. Δαμασκός (V, 15, 22) 69° 0′, 33° 0′; \Name{al-Khuwār.} 60° 0′, 33° 0′. Anno 1860 longitudinem telegraphice \Name{Mansell} determinavit 36° 18′ 24″ E Gr., lat. 33° 30′ $\tfrac{1}{2}$ N.
+\par\hangindent=8mm\hangafter=1 Nr. 134. Ἡλίου πόλις (V, 15, 22) 68° 40′, 33° 40′.
+\par\hangindent=8mm\hangafter=1 Nr. 135. Πάλμυρα (V, 15, 24) 71° 30′, 34° 0′; \Name{al-Khuwār.} 66° 0′ (vel 67° ?), 35° 0′. Anno 1864 \Name{Vignes} astronomice 38° 14′ 44″ E Gr., 34° 32′ 30″ N invenit.
+\par\hangindent=8mm\hangafter=1 Nr. 136. Χαλυβών (V, 15, 17) 71° 20′, 35° 0′; \Name{al-Khuwār.} 63° 0′, ..... Arx urbis, iuxta \Name{Chesney} observationibus anni 1835, 37° 9′ E Gr., 36° 11′ 38″ N (\Name{Niebuhr} 36° 11′ 32″).
+\par\hangindent=8mm\hangafter=1 Nr. 137. Χαλκίς (V, 15, 18) 70° 30′, 35° 20′. Post X Chr. saec. pristinum splendorem amisit; eius ruinae \textit{Qinnasrīn} ab Arabibus, \textit{Eskī Ḥaleb} a Turcis dictae, sunt ubi flumen Quwayq in paludem al-Matkh influit, 37° E Gr., 36° N iuxta mappam \Name{R. Kiepert}, \textit{Syrien und Mesopotamien}, 1 : 850000 (ad librum \Name{M. von Oppenheim}, \textit{Vom Mittelmeer zum Persischen Golf}, Berlin 1899-1900, t. I). Cfr. \Name{G. Le Strange}, \textit{Palestine under the Moslems}, London 1890, p. 486 sq.; \Name{Ritter}, t. XVII (1855), p. 1592-99.
+\par\hangindent=8mm\hangafter=1 Nr. 138. Μαριάμη (V, 15, 16) 69° 20′, 34° 0′; \Name{al-Khuwār.} 62° 30′, 34° 50′; cfr. Tell Mannas nr. 207 Est \textit{Arra} Itinerarii Antonini; 31′ fere a septentrionibus urbis Ḥamāh.
+\par\hangindent=8mm\hangafter=1 Nr. 139. Long. in cod. \textarabic{ن} 50′ pro \textarabic{ى} 10′. \Name{Ptol.} V, 15, 13: Κύρος 70° 10′, 36° 10′. A geographis saepe memorata: \Name{Ibn Khurdādhbeh} 75, 97; \Name{Qudāmah} 253; \Name{al-Yaʿqūbī} 363; \Name{Ibn Rosteh} 107; \Name{al-Iṣṭakhrī} 65, 67; \Name{Ibn Ḥawqal} 125-127; \Name{Ibn al-Faqīh} 111; \Name{Yāqūt} IV, 199. A Byzantinis anno 293 heg. (906 Chr.) vastata; cfr. \Name{ʿArīb}, \textit{Tabari continuatus} ed. de Goeje, Lugduni Batavorum 1897, p. 13; \Name{aṭ-Ṭabarī}, \textit{Annales}, ser. III, t. 3, p. 2268. Eius ruinae, \textit{al-Qalʿah} dictae, 25 minutis sunt inter S et S-S-W a pago Marsowà in valle superiore fluminis ʿAfrīn, in parte boreali provinciae Aleppensis; \Name{M. Hartmann}, \textit{Das Liwa Haleb}, p. 56 et 57.
+\par\hangindent=8mm\hangafter=1 Nr. 140. Δολίχη (V, 15, 10) 70° 40′, 36° 50′. Hodie \textit{Tell Dolūk}, 2 horis ab ʿAyntāb; cfr. \Name{Puchstein}, \textit{Reise in Kurdistan}, Sitzsber. d. k. preuss. Ak. d. Wiss. zu Berlin, 11 Ian. 1883, p. 32-33; iuxta mappam \Name{R. Kiepert}, \textit{Syrien und Mesopotamien}, 7-8 km., linea recta, N-W ʿAyntāb.
+\par\hangindent=8mm\hangafter=1 Nr. 141. A Dolūk parum distabat; \Name{al-Yaʿqūbī} 363; \Name{Ibn Rosteh} 107; \Name{Ibn Khurdādhbeh} 75, 97; \Name{Qudāmah} 254; \Name{al-Bekrī} 418; \Name{Yāqūt} II, 791; \Name{ad-Dimashqī} vers. Mehren, 279.
+\par\hangindent=8mm\hangafter=1 Nr. 142. Ἀντιόχεια ἐπὶ τοῦ Ὀρόντου (V, 15, 16) 69° 0′, 35° 30′; \Name{al-Khuwār.} 61° 35′, ..... Iuxta cap. XXX (t. I, p. 56, l. 26 et adn. 12, p. 57, l. 23) astronomice invenit inter Antiochiam et ar-Raqqah (n. 150) differentiam longitudinalem maiorem 10ᵐ (= 2° $\tfrac{1}{2}$), minorem 15ᵐ (= 3° 45′); qua re long. Antiochiae intra limites 69° 30′ et 70° 45′ continetur. In mappa (1 : 220000) adiecta libro \Name{M. Hartmann}, \textit{Das Liwa Haleb}, locus urbis est 36° 8′ $\tfrac{2}{3}$ E Gr., 36° 11′ 52″ N.
+\par\hangindent=8mm\hangafter=1 Nr. 143. Μελιτηνή (V, 7, 5) 71° 0′, 39° 30′; \Name{al-Khuwār.} 61° 0′, 39° 0′. Nomen Turcae hodie \textarabic{ملاطية} \textit{Malāṭiyah} scribunt.
+\par\hangindent=8mm\hangafter=1 Nr. 144. Ἀρσαμόσατα (V, 13, 19) 73° 0′, 38° 20′; \Name{al-Khuwār.} 62° 40′, 38° 45′. Situs oppidi certissime non
+\par}
+\clearpage
+\noindent\makebox[\textwidth]{\textbf{}\hfill{\small AL-BATTANI OPUS ASTRONOMICUM}\hfill\textbf{41}}\par\vspace{-1mm}\noindent\rule{\textwidth}{.4pt}\par\vspace{2mm}
+\noindent\begin{minipage}[t]{0.5\textwidth}{\small \begin{tabular}{p{40mm}|r@{\hspace{1.4mm}}r|r@{\hspace{1.4mm}}r}
+\centering Nomina urbium. & \multicolumn{2}{c|}{Longit.} & \multicolumn{2}{c}{Latitudo.} \\ \hline
+\hangindent=4mm\hangafter=1 145. Mayyāfāriqīn. & 76° & 0′ & 38° & 0′ \\
+\hangindent=4mm\hangafter=1 146. Āmid. & 75 & 15 & 38 & 0 \\
+\hangindent=4mm\hangafter=1 147. Arzan. & 76 & 40 & 38 & 0 \\
+\hangindent=4mm\hangafter=1 148. Sumaysāṭ. & 72 & 0 & 37 & 50 \\
+\hangindent=4mm\hangafter=1 149. Bālis. & 71 & 40 & 35 & 50 \\
+\hangindent=4mm\hangafter=1 150. ar–Raqqah, probata. & 73 & 15 & 36 & 0 \\
+\end{tabular}}\end{minipage}\vrule\,\vrule\hfill\begin{minipage}[t]{0.48\textwidth}{\small \begin{tabular}{p{40mm}|r@{\hspace{1.4mm}}r|r@{\hspace{1.4mm}}r}
+\centering Nomina urbium. & \multicolumn{2}{c|}{Longit.} & \multicolumn{2}{c}{Latitudo.} \\ \hline
+\hangindent=4mm\hangafter=1 151. Qirqīsiyā’. & 74° & 40′ & 35° & 20′ \\
+\hangindent=4mm\hangafter=1 152. Ḥarrān. & 73 & 0 & 36 & 40 \\
+\hangindent=4mm\hangafter=1 153. ar–Rohā’ [Edessa]. & 72 & 50 & 37 & 0 \\
+\hangindent=4mm\hangafter=1 154. Manbiǵ. & 71 & 15 & 36 & 15 \\
+\hangindent=4mm\hangafter=1 155. Tell Mawzan. & 73 & 30 & 37 & 0 \\
+\hangindent=4mm\hangafter=1 156. Ra’s al–ʿayn. & 74 & 0 & 36 & 50 \\
+\end{tabular}}\end{minipage}
+\par\vspace{3mm}{\small
+\par\hangindent=8mm\hangafter=1 constat; sed erat in planitie parum a septentrionibus fluminis Murād-ṣū (Euphratis orientalis), inter Kharpūt (Ḥiṣn Ziyād vel Khartbirt geographorum Arabicorum) et Pālū; cfr. \Name{G. Le Strange} in \textit{Journal of the R. Asiatic Society}, 1895, p. 57.
+\par\hangindent=8mm\hangafter=1 Nr. 145. Δούρβητα (V, 18, 9) 76° 0′, 38° 0′; \Name{al-Khuwār.} 65° 40′, 37° 55′ (aut 15′). Ab urbe Diyārbekr 65–70 km. linea recta, versus E-N-E, distat.
+\par\hangindent=8mm\hangafter=1 Nr. 146. \Name{Al-Khuwār.} 65° 50′, 37° 52′.
+\par\hangindent=8mm\hangafter=1 Nr. 147. \Name{Al-Khuwār.} 66° 0′, 39° 15′. Cfr. Khilāṭ (nr. 164), unde patet non esse Arzan ar-Rūm = Qālīqalā = Erzerūm \textarabic{ارضروم} (v. \Name{Ritter}, t. X (1843), p. 723-24 et 757), sed Arzan cuius ruinae in liwā’ vel provincia Sʿört (Isʿird) exstant, 100 km. fere ab ortu Diyārbekr, ad sinistram fluvii Arzan-ṣū (Yezīdkhāneh-ṣū) qui in Tigrim influit. Iam aetate \Name{Yāqūt} (I, 205) fere diruta.
+\par\hangindent=8mm\hangafter=1 Nr. 148. Σαμόσατα (V, 15, 11) 71° 30′, 37° 45′; \Name{al-Khuwār.} 62° 35′, 36° 20′. Nomen hodie \textit{Samsāṭ}, quod Turcae \textit{Ṣamṣād} scribunt; iuxta mappam \Name{R. Kiepert}, \textit{Syrien und Mesopotamien}, 38° 33′ $\tfrac{2}{3}$ E Gr., 37° 30′ N, ad Euphratem.
+\par\hangindent=8mm\hangafter=1 Nr. 149. \Name{Ptol.} V, 15, 17: Βαρβαρισσός 71° 55′, 35° 45′; \Name{al-Khuwār.} 65° 15′ (aut 55′), 36° 0′; \Name{Ritter}, X (1843), p. 1000 et 1065 sqq. Vetus \textit{Barbalissus} est hodierna \textit{Qalʿat Bālis} ad Euphratis ripam dexteram; 7 km. W-N-W est Bālis nova, ad Euphratem, 36° 2′ lat. N.
+\par\hangindent=8mm\hangafter=1 Nr. 150. \Name{Ptol.} V, 18, 6: Νικηφόριον 73° 5′, 35° 20′; \Name{al-Khuwār.} 66° 0′, 36° 0′. Longitudinem iam indicaverat in cap. XXXIV et XLII (t. I, p. 72 et 95); latitudinem quod attinet cfr. t. I, p. 12, adn. 4. Urbs plures pagos complectebatur; anno 1835 \Name{Chesney}, pro angulo boreali occidentali ruinarum palatii a Hārūn ar-Rashīd exstructi, astronomice invenit 39° 3′ 57″ E Gr., 35° 55′ 35″ lat. N.
+\par\hangindent=8mm\hangafter=1 Nr. 151. Cod. in lat. \textarabic{لد} 34° pro \textarabic{له} 35°; \Name{al-Khuwār.} 66° 50′, 35° 20′; fortasse \Name{Ptolemaei} (V, 18, 6) Χαβώρα 74° 0′, 35° 10′. Ruinae exstant ad ripam sinistram fluminis Khābūr, 2 km. ab ortu vici Kalneh, ad quem Khābūr in Euphratem influit; visitatae sunt anno 1880 a \Name{Sachau}, 1887 a \Name{Moritz} et \Name{Koldewey}. Cfr. quoque \Name{Ritter}, t. XI (1844), p. 695 sqq.
+\par\hangindent=8mm\hangafter=1 Nr. 152. Κάῤῥαι (V, 18, 12) 73° 15′, 36° 10′; \Name{al-Khuwār.} 65° 0′ (vel 66° 0′?), 36° 40′. Latitudo confirmatur in tabula ascensionum obliquarum urbis, f. 182,v. In mappa \Name{R. Kiepert} 39° 8′ E Gr., 37° 53′ N; sed ex observationibus astronomicis non proveniunt.
+\par\hangindent=8mm\hangafter=1 Nr. 153. Ἔδεσσα (V, 18, 10) 72° 30′, 37° 30′; \Name{al-Khuwār.} 66° 0′ (?), 36° 40′. Hodie \textit{Ūrfah} \textarabic{اورفة}; iuxta mappam \Name{R. Kiepert} 38° 51′ E Gr., 37° 9′ N.
+\par\hangindent=8mm\hangafter=1 Nr. 154. Ἱεράπολις (V, 15, 13) 70° 15′, 36° 15′; \Name{al-Khuwār.} 63° 45′, 35° 30′ (scripturae error pro 36° 30′ ut e collatione cum Ǵisr Manbiǵ patet). Iuxta mappam \Name{R. Kiepert} 37° 54′ $\tfrac{1}{2}$ E Gr., 36° 32′ $\tfrac{1}{2}$ N; cfr. \Name{Ritter}, X (1843), p. 1041–1061.
+\par\hangindent=8mm\hangafter=1 Nr. 155. Urbem, Mawzan quoque appellata, nec \Name{Ptolemaeus}, nec \Name{al-Khuwār.} habent. Vetustissima erat, inter Ra’s al-ʿayn et Sarūǵ, in ditione Ḥarrānensi et Edessena. Praeter \Name{Yāqūt} consulantur \Name{Chwolson}, \textit{Die Ssabier und der Ssabismus}, St. Petersburg 1856, t. I, p. 480; \Name{al-Bekrī} (ubi male Mawzin) 72, 565; \Name{Ibn Khurdādhbeh} 73; \Name{Qudāmah} 246; \Name{Ibn al-Faqīh} 133; \Name{Ibn al-Athīr}, \textit{Annales}, s. a. 18 (ed. Kahirensis 1301 heg., t. II, p. 263); \textit{Tāǵ al-ʿarūs}, Kahirae 1307 heg., t. IX, p. 361, etc.
+\par\hangindent=8mm\hangafter=1 Nr. 156. Ῥέσαινα (V, 18, 13) 74° 40′, 35° 40′; \Name{al-Khuwār.} 68° 0′, 37° 0′; \textit{Theodosiopolis} Byzantinorum; \Name{Ritter} XI (1844), p. 375-379. Iuxta mappam \Name{R. Kiepert} 39° 59′ E Gr., 36° 50′ N.
+\par}
+\par\vfill\hfill 6
+\clearpage
+\noindent\makebox[\textwidth]{\textbf{42}\hfill{\small C. A. NALLINO}\hfill\textbf{}}\par\vspace{-1mm}\noindent\rule{\textwidth}{.4pt}\par\vspace{2mm}
+\noindent\begin{minipage}[t]{0.5\textwidth}{\small \begin{tabular}{p{40mm}|r@{\hspace{1.4mm}}r|r@{\hspace{1.4mm}}r}
+\centering Nomina urbium. & \multicolumn{2}{c|}{Longit.} & \multicolumn{2}{c}{Latitudo.} \\ \hline
+\hangindent=4mm\hangafter=1 157. Kafar Tūthā. & 74° & 35′ & 37° & 5′ \\
+\hangindent=4mm\hangafter=1 158. Naṣībīn. & 75 & 30 & 37 & 0 \\
+\hangindent=4mm\hangafter=1 159. Dārā. & 75 & 15 & 37 & 10 \\
+\hangindent=4mm\hangafter=1 160. Māridīn. & 75 & 0 & 37 & 15 \\
+\hangindent=4mm\hangafter=1 161. Balad. & 77 & 40 & 36 & 35 \\
+\hangindent=4mm\hangafter=1 162. al–Mawṣil [Mos-\newline sul]. & \raisebox{-1\normalbaselineskip}[0pt][0pt]{78} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{10} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{36} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{30} \\
+\hangindent=4mm\hangafter=1 163. Sinǵār. & 77 & 30 & 36 & 0 \\
+\end{tabular}}\end{minipage}\vrule\,\vrule\hfill\begin{minipage}[t]{0.48\textwidth}{\small \begin{tabular}{p{40mm}|r@{\hspace{1.4mm}}r|r@{\hspace{1.4mm}}r}
+\centering Nomina urbium. & \multicolumn{2}{c|}{Longit.} & \multicolumn{2}{c}{Latitudo.} \\ \hline
+\hangindent=4mm\hangafter=1 164. Khilāṭ. & 78° & 0′ & 39° & 20′ \\
+\hangindent=4mm\hangafter=1 165. Dabīl. & 79 & 40 & 42 & 0 \\
+\hangindent=4mm\hangafter=1 166. Taflīs [vel Tiflīs]. & 82 & 0 & 43 & 0 \\
+\hangindent=4mm\hangafter=1 167. Bardhaʿah. & 84 & 0 & 42 & 0 \\
+\hangindent=4mm\hangafter=1 168. Baghdād, urbs salu-\newline tis, probata. & \raisebox{-1\normalbaselineskip}[0pt][0pt]{80} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{0} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{33} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{9} \\
+\hangindent=4mm\hangafter=1 169. Surra man ra’à. & 79 & 10 & 34 & 0 \\
+\hangindent=4mm\hangafter=1 170. al–Kūfah. & 79 & 30 & 31 & 30 \\
+\end{tabular}}\end{minipage}
+\par\vspace{3mm}{\small
+\par\hangindent=8mm\hangafter=1 Nr. 157. Deest apud \Name{Ptol.} et \Name{al-Khuwār.}; hodie parvus vicus \textit{Kafr Tūt} ad flumen Zirqān–čāy, W–S–W urbis Mārdīn, iuxta mappam \Name{R. Kiepert} 40° 28′ E Gr., 37° 4′ N.
+\par\hangindent=8mm\hangafter=1 Nr. 158. Νίσιβις (V, 18, 11) 75° 10′, 37° 30′; \Name{al-Khuwār.} 67° 50′, 36° 0′ (l. 37° 0′?). Iuxta mappam \Name{R. Kiepert} 41° 15′ E Gr., 37° 2′ N; cfr. \Name{Ritter}, t. XI (1844), p. 413-438; \Name{von Oppenheim}, \textit{Vom Mittelmeer zum Persischen Golf}, Berlin 1899-1900, t. II, p. 29-36.
+\par\hangindent=8mm\hangafter=1 Nr. 159. Deest apud \Name{Ptol.} et \Name{al-Khuwār.}; τὸ Δάρας vel Ἀναστασιούπολις Byzantinorum; \Name{Ritter}, XI (1844), p. 398-413; in mappa \Name{R. Kiepert} 41° 0′ E Gr., 37° 14′ N.
+\par\hangindent=8mm\hangafter=1 Nr. 160. Deest apud \Name{Ptol.} et \Name{al-Khuwār}; notissima urbs de qua \Name{Ritter}, XI, 379-396.
+\par\hangindent=8mm\hangafter=1 Nr. 161. \Name{Al-Khuwār.} 68° 45′, 36° 20′. Ut iam XVIII saec. \Name{D’Anville} agnovit, hodierna \textit{Eskī Mōṣul}, ad Tigridis dexteram ripam, sub 36° 30′ lat. fere; \Name{Ritter}, XI (1844), 159-164; \Name{von Oppenheim}, t. II, p. 163-164 et 412.
+\par\hangindent=8mm\hangafter=1 Nr. 162. \Name{Al-Khuwār.} 69° 0′, 35° 30′; cfr. nr. 173. De urbe, ad Tigridis dexteram sub 36° 21′ N, \Name{von Oppenheim} II, 169-180.
+\par\hangindent=8mm\hangafter=1 Nr. 163. Σίγγαρα (V, 18, 9) 76° 0′, 37° 0′. Incolae hodie vicum plerumque \textit{Balad} appellant; \Name{E. Sachau}, \textit{Am Euphrat und Tigris}, Leipzig 1900, p. 129-130. In mappa \Name{R. Kiepert} 42° 1′ E Gr., 36° 20′ N.
+\par\hangindent=8mm\hangafter=1 Nr. 164. Vel Akhlāṭ, ad lacum Wān. \Name{Al-Khuwār.} 67° 50′ (?), 39° 50′.
+\par\hangindent=8mm\hangafter=1 Nr. 165. Erat urbs Armeniae, inter lacum Gokča (vel Sevanga) et Araxem, ad flumen Karhni–čur qui ex sinistra parte in Araxem influit. Arabice quoque Dawīn, Armeniace Tovin vel Tevin, apud Byzantinos Δούβιος vel Τιβίον; condita anno circiter 350 a Khosrov II rege Armeniae, qui eam caput regni pro veteribus Ἀρτάξατα, parum ab austro positis, fecit. Cfr. \Name{J. Saint-Martin}, \textit{Mémoires historiques et géographiques sur l’Arménie}, Paris 1818-19, t. I, p. 119-120; \Name{Ritter}, X, 399–400.
+\par\hangindent=8mm\hangafter=1 Nr. 166. Specula astronomica urbis 44° 47′ 49″ E Gr., 41° 43′ 8″.
+\par\hangindent=8mm\hangafter=1 Nr. 167. \Name{Al-Khuwār.} 73° 0′, 43° 0′. In mappis nostris \textit{Berda}, ad flumen Terter quod in Kurr influit, in regione Transcaucasica; E-S-E urbis Ielisavetpol (Gangah \textarabic{گنجه}). Apud Armenos \textit{Bardav, Parta, Perde}; \Name{Saint-Martin}, t. I, p. 87-88.
+\par\hangindent=8mm\hangafter=1 Nr. 168. Lat. confirmatur tabula ascensionum obliquarum urbis, f. 182,v.; \Name{al-Khuwār.} 70° 0′, 33° 9′. Long. respectu ar-Raqqah (nr. 150) fortasse nimis magna; latitudinem \Name{Ḥabash}, f. 109,r. sq., 112, r. sq., statuit 33° 25′, ut etiam \Name{Abū ’l-Wafā’} anno 987 (\Name{Delambre}, p. 156). Minaretum moscheae Sūq al-ghazl determinavit \Name{F. Jones}, anno 1853, esse 44° 25′ 0″ E Gr., 33° 20′ 0″ N. De urbe, khalifarum tempore, \Name{G. Le Strange}, \textit{Baghdad during the Abbasid Caliphate}, Oxford 1900; \Name{M. Streck}, \textit{Die alte Landschaft Babyloniens nach den arabischen Geographen}, Leiden 1900 sqq., t. I, p. 47-164; de urbe hodierna, multo quam vetere minore, \Name{von Oppenheim}, t. II, 236–281.
+\par\hangindent=8mm\hangafter=1 Nr. 169. Vel Sāmarrā; \Name{al-Khuwār.} 69° 45′, 34° 0′. Ad ripam sinistram Tigridis, 34° 11′ $\tfrac{1}{2}$ lat.; \Name{von Oppenheim} II, 221-227.
+\par\hangindent=8mm\hangafter=1 Nr. 170. In lat. minuta fortasse \textarabic{ن} 50′ pro \textarabic{ل} 30′ restituenda; cfr. nr. 176 et \Name{al-Khuwār.} 69° 30′, 31° 50′. Vicus al-Kūfah et veteris urbis ruinae sunt circiter sub 32° 3′ lat. N, 8-10 km. ab ortu Neǵef (vel Mash-had ʿAlī); vestigia magna invenit \Name{Niebuhr} saeculo XVIII, minora \Name{Loftus} (1853-54) et \Name{B. Meissner}, \textit{Von Babylon nach den Ruinen von Ḥira und Ḫuarnaq}, Leipzig 1901, p. 14-15 (= Sendschriften der deutschen Orient-Gesellschaft, Nr. 2). Cfr. quoque \Name{Ritter}, X (1843), p. 183–187.
+\par}
+\clearpage
+\noindent\makebox[\textwidth]{\textbf{}\hfill{\small AL-BATTANI OPUS ASTRONOMICUM}\hfill\textbf{43}}\par\vspace{-1mm}\noindent\rule{\textwidth}{.4pt}\par\vspace{2mm}
+\noindent\begin{minipage}[t]{0.5\textwidth}{\small \begin{tabular}{p{40mm}|r@{\hspace{1.4mm}}r|r@{\hspace{1.4mm}}r}
+\centering Nomina urbium. & \multicolumn{2}{c|}{Longit.} & \multicolumn{2}{c}{Latitudo.} \\ \hline
+\hangindent=4mm\hangafter=1 171. Bābil celeberrima. & 79° & 0′ & 35° & 0′ \\
+\hangindent=4mm\hangafter=1 172. ar–Rayy. & 86 & 0 & 36 & 30 \\
+\hangindent=4mm\hangafter=1 173. Nīnawà [Ninive]. & 78 & 0 & 36 & 40 \\
+\hangindent=4mm\hangafter=1 174. al–Baṣrah [Bas-\newline sora]. & \raisebox{-1\normalbaselineskip}[0pt][0pt]{84} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{0} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{31} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{0} \\
+\hangindent=4mm\hangafter=1 175. Sīrāf. & 89 & 30 & 29 & 29 \\
+\end{tabular}}\end{minipage}\vrule\,\vrule\hfill\begin{minipage}[t]{0.48\textwidth}{\small \begin{tabular}{p{40mm}|r@{\hspace{1.4mm}}r|r@{\hspace{1.4mm}}r}
+\centering Nomina urbium. & \multicolumn{2}{c|}{Longit.} & \multicolumn{2}{c}{Latitudo.} \\ \hline
+\hangindent=4mm\hangafter=1 176. Wāsiṭ. & 81° & 30′ & 32° & 30′ \\
+\hangindent=4mm\hangafter=1 177. Dimyāṭ [Damietta]. & 63 & 30 & 31 & 25 \\
+\hangindent=4mm\hangafter=1 178. al–Fusṭāṭ. & 63 & 0 & 30 & 0 \\
+\hangindent=4mm\hangafter=1 179. ʿAyn Zarbah. & 68 & 30 & 37 & 0 \\
+\hangindent=4mm\hangafter=1 180. al–Ǵisr, Ǵisr Anṭā-\newline kiyah. & \raisebox{-1\normalbaselineskip}[0pt][0pt]{69} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{\textit{4}} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{35} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{40} \\
+\end{tabular}}\end{minipage}
+\par\vspace{3mm}{\small
+\par\hangindent=8mm\hangafter=1 Nr. 171. Βαβυλών (V, 20, 6) 79° 0′, 35° 0′.
+\par\hangindent=8mm\hangafter=1 Nr. 172. Pro \textarabic{صو} 66° cod. lego \textarabic{ڡو} = \textarabic{فو} 86°; cfr. nr. 190 (Qazwīn), 197 (Qumm), 264 (Sāriyah). \Name{Al-Khuwār.} 74° 0′ (vel 75° 0′?), 35° 45′. Veterum Rhagae, Ῥάγα; deserta evasit cum, exeunte XVIII Chr. saec., Āqā Muḥammad Khān, primus dynastiae Qāǵārorum rex, regni sedem ab ea ad urbem Ṭeherān transtulit. Ruinae exstant prope vicum \textit{Shāh} (vel \textit{Shāhzādeh}) \textit{ʿAbd ul-ʿAẓīm}, 5 $\tfrac{1}{2}$ km, inter S et S-S-E, a Ṭeherān; 51° 27′ $\tfrac{1}{2}$ E Gr., 35° 37′ N iuxta mappas 1 : 840000 apud \Name{A. F. Stahl}, \textit{Zur Geologie von Persien}, Gotha 1897. Cfr. \Name{Ritter}, VIII (1838), 595-604.
+\par\hangindent=8mm\hangafter=1 Nr. 173. Νῖνος vel Νινευί (VI, 1, 3) 78° 0′, 36° 40′. Cfr. nr. 162.
+\par\hangindent=8mm\hangafter=1 Nr. 174. Pro \textarabic{قى} 110° cod. lego \textarabic{فد} 84°; \Name{al-Khuwār.} 74° 0′, 31° 0′. Urbs vetus erat 12-15 km. S-W hodiernae al-Baṣrah (cuius « dogana » 47° 51′ 23″ E Gr., 30° 32′ N), ubi nunc est vicus \textit{Zubeyr} (\textit{Zobēr}; cfr. \Name{Ritter}, XI (1844), p. 1032-1056, et quoque, de urbe hodierna XVII saec. condita, \Name{von Oppenheim}, \textit{Vom Mittelmeer zum Persischen Golf}, Berlin 1899–1900, t. II, p. 293-304.
+\par\hangindent=8mm\hangafter=1 Nr. 175. \Name{Al-Khuwār.} 79° 30′, 29° 30′. Celeber portus sinus Persici, ubi nunc est vicus \textit{Ṭāhireh}, 27° 38′ lat. N; cfr. \Name{A. W. Stiffe}, \textit{Ancient trading centres in the Persian Gulf: I. Sīrāf} (in Geographical Journal, t. VI, nr. 2, 1895, p. 166–173).
+\par\hangindent=8mm\hangafter=1 Nr. 176. In lat. pro \textarabic{ل ل} 30° 30′ cod. restitui, \Name{Lelewel} duce, \textarabic{لب ل} 32° 30′; \Name{al-Khuwār.} 71° 30′, 32° 30′. Condita anno 83 heg. (inc. 3 Febr. 702) ad ambas veteris Tigridis ripas; hodie, ut videtur, \textit{Wāsiṭ al-ḥayy} cuius situs incertus in medio magnae insulae duobus ramis Shaṭṭ al-ḥayy contentae, S-S-E urbis Kūt al-Amārah \textarabic{كوت الأمارة}. Cfr. \Name{Ritter}, X (1843), p. 188-193; \Name{G. Le Strange}, in \textit{Journal of the R. Asiatic Society}, 1895, p. 44–45. Sed in mappis nostris lat. 31° 45′ circiter apparet, paulo minor latitudine al-Kūfah (nr. 170).
+\par\hangindent=8mm\hangafter=1 Nr. 177. \Name{Al-Khuwār.} 53° 55′, 31° 25′. Domum Graecorum Catholicorum astronomice anno 1798 determinavit \Name{Nouet} (\textit{Description de l’Égypte}, 2ᵉ éd., Paris 1820–30, t. XI, p. 11-13) 31° 49′ 59″ E Gr., 31° 25′ 0″ lat. N.
+\par\hangindent=8mm\hangafter=1 Nr. 178. \Name{Lelewel} duce, pro 31° lat. lego 30°; \Name{al-Khuwār.}: « Castellum Kahirae » (Qaṣr Miṣr) 54° 55′, 30° 0′ (1). \Name{Ptol.} IV, 5, 54: Βαβυλὼν Αἰγύπτου 62° 15′, 30° 0′. Nomen e Graeco-byzantino φοσσᾶτον (= fossatum, castra) ortum; urbem condiderat ʿAmr ibn al-ʿĀṣī anno 20 heg. (inc. 20 Dec. 640), contiguam (e parte septentrionum) castello Romano Babyloni, cuius moenia adhuc exstant. Hodie \textit{al-Fusṭāṭ} vel frequentius \textit{Miṣr} (vulgo \textit{Maṣr}) \textit{al-ʿatīqah} « vetus Kahira », ad Nili dexteram, 1 $\tfrac{1}{4}$ km. ab austro novae Kahirae, anno 969 Chr. conditae; 30° 0′ 50″ lat. N.
+\par\hangindent=8mm\hangafter=1 Nr. 179. In lat. cod. \textarabic{ل} 30° pro \textarabic{لر} 37°, ut recte \Name{Lelewel} correxit. Καισάρεια πρὸς Ἀναζάρβῳ (V, 8, 7) 68° 30′, 37° 0′. Ruinae, \textit{Anāwarzā} vocatae, exstant ad rivum qui ex dextera parte in Pyramum (Ǵīḥān) influit, et fere E-N-E urbis Adanah; \Name{Ritter}, XIX (1859), p. 56-67.
+\par\hangindent=8mm\hangafter=1 Nr. 180. I. e. « Pons, pons Antiochiae ». Nomen apud Arabicos geographos non invenio; nisi fallor est hodierna \textit{Ǵisr al-ḥadīd} « Pons ferri », ad sinistram Orontis vel Nahr al-ʿĀṣ ripam, in via quae Antiochia ab urbe per Eylīǵah et Dānah ad urbem Aleppo (Ḥaleb) ducit. Qua re in long. pro \textarabic{د} 4′ cod.
+\par}
+\par\vspace{2mm}\begin{center}\rule{40mm}{.4pt}\end{center}
+{\small (1) Apud \Name{Abū ’l-fidā’} p. 118 text, al-Fusṭāṭ iuxta « rasm » (i. e. librum al-Khuwārizmī) ponitur 54° 40′, 29° 55′; sed hi sunt numeri quos codex al-Khuwār. urbi Memphi tribuit. Cfr. ipsum \Name{Abū ’l-fidā’} p. 116 text. et meum \textit{Al-Ḫuwārizmī e il suo rifacimento della Geogr. di Tolomeo}, p. 31.}\par
+\clearpage
+\noindent\makebox[\textwidth]{\textbf{44}\hfill{\small C. A. NALLINO}\hfill\textbf{}}\par\vspace{-1mm}\noindent\rule{\textwidth}{.4pt}\par\vspace{2mm}
+\noindent\begin{minipage}[t]{0.5\textwidth}{\small \begin{tabular}{p{40mm}|r@{\hspace{1.4mm}}r|r@{\hspace{1.4mm}}r}
+\centering Nomina urbium. & \multicolumn{2}{c|}{Longit.} & \multicolumn{2}{c}{Latitudo.} \\ \hline
+\hangindent=4mm\hangafter=1 181. Rūmiyah maxima\newline [Roma]. & \raisebox{-1\normalbaselineskip}[0pt][0pt]{36°} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{40′} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{41°} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{40′} \\
+\hangindent=4mm\hangafter=1 182. al–Qusṭanṭīniyyah\newline [Constantinopolis]. & \raisebox{-1\normalbaselineskip}[0pt][0pt]{56} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{40} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{43} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{10} \\
+\hangindent=4mm\hangafter=1 183. ʿAmmūriyah [Amo-\newline rium]. & \raisebox{-1\normalbaselineskip}[0pt][0pt]{\textit{38}} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{20} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{39} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{45} \\
+\hangindent=4mm\hangafter=1 184. Ṣanʿā’. & 73 & 0 & 14 & 30 \\
+\hangindent=4mm\hangafter=1 185. ʿAden. & 74 & 0 & 13 & 38 \\
+\end{tabular}}\end{minipage}\vrule\,\vrule\hfill\begin{minipage}[t]{0.48\textwidth}{\small \begin{tabular}{p{40mm}|r@{\hspace{1.4mm}}r|r@{\hspace{1.4mm}}r}
+\centering Nomina urbium. & \multicolumn{2}{c|}{Longit.} & \multicolumn{2}{c}{Latitudo.} \\ \hline
+\hangindent=4mm\hangafter=1 186. Tubbat. & 130° & 0′ & 38° & 0′ \\
+\hangindent=4mm\hangafter=1 187. Ǵorzān. & 81 & 0 & 44 & 0 \\
+\hangindent=4mm\hangafter=1 188. Suwān al–Ḥaba-\newline shah. & \raisebox{-1\normalbaselineskip}[0pt][0pt]{65} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{0} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{22} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{30} \\
+\hangindent=4mm\hangafter=1 189. ad–Daybul. & 100 & 0 & 25 & 20 \\
+\hangindent=4mm\hangafter=1 190. Qazwīn. & 84 & 0 & 37 & 0 \\
+\hangindent=4mm\hangafter=1 191. Herāt. & 95 & 0 & 37 & 0 \\
+\hangindent=4mm\hangafter=1 192. al–Yamāmah. & 76 & 0 & 21 & 30 \\
+\end{tabular}}\end{minipage}
+\par\vspace{3mm}{\small
+\par\hangindent=8mm\hangafter=1 fortasse est \textarabic{ر} 7′ vel \textarabic{ى} 10′ legendum; in lat. pro \textarabic{ل} 30° cod. posui \textarabic{له} 35°; cfr. Antiochiam, nr. 142. In mappa apud \Name{M. Hartmann}, \textit{Das Liwa Haleb}, est 36° 20′ 45″ E Gr., 36° 14′ 20″ N.
+\par\hangindent=8mm\hangafter=1 Nr. 181. Ῥώμη (III, 1, 61): 36° 40′, 41° 40′; \Name{al-Khuwār.} 35° 25′, 41° 50′.
+\par\hangindent=8mm\hangafter=1 Nr. 182. Pro 36° cod. lego, \Name{Lelewel} duce, \textarabic{نو} 56°. Βυζάντιον (III, 11, 5) 56° 0, 43° 5′; \Name{al-Khuwār.} 49° 50′, 45° 0′.
+\par\hangindent=8mm\hangafter=1 Nr. 183. Long. procul dubio mendosa; pro \textarabic{لح} 38° legendum \textarabic{نح} 58°, vel potius cum \Name{Lelewel} \textarabic{صج} 63° (cfr. nr. 143). In lat. pro \textarabic{مط} 49° cod. restituo cum Lelewel \textarabic{لط} 39°. Ἀμόριον (V, 2, 23) 60° 30′, 41° 15′; \Name{al-Khuwār.} 53° 0′, 38° 0′. Celeberrima IX Chr. saec. in bellis inter Arabes et Byzantinos; eius ruinae nunc \textit{Hergān Qalʿeh} vel \textit{Āsār-kiöy} (\textarabic{آثار كوي}) vocantur, 1 $\tfrac{1}{4}$ hora S-S-E vici Ḥamzah Ḥāǵī, 95 km. circiter E-N-E Afyūn Qarā Ḥiṣār, et 55 S-W Pessinuntis (Bālā Ḥiṣār); \Name{Ritter}, XVIII (1858), p. 580-86.
+\par\hangindent=8mm\hangafter=1 Nr. 184. In lat. pro \textarabic{لد} 34° cod., cum \Name{Lelew.} \textarabic{ىد} = \textarabic{يد} 14° legendum. \Name{Al-Khuwār.} 63° 30′, 14° 30′. \Name{Cruttenden}, anno 1836, astronomice invenerat 44° 31′ 4″ E Gr., 15° 22′ N; \Name{R. Manzoni}, annis 1877–78 et 1880, 44° 33′ 30″ E Gr., 15° 15′ N; demum \Name{Ed. Glaser}, anno 1883, latitudinem centri urbis statuit 15° 23′ 36″ (cfr. \Name{M. Hartmann}, \textit{Jamānijāt}, in Zeitschr. f. Assyriologie, t. X, 1895, p. 318–319).
+\par\hangindent=8mm\hangafter=1 Nr. 185. Cod. in lat. \textarabic{لج} 33° pro \textarabic{ىج} = \textarabic{يج} 13° (corr. \Name{Lelewel}). \Name{Al-Khuwār.} 64° 0′, 13° 0′ (var. 13° 40′). Statio telegraphica est 44° 59′ 7″ E Gr., 12° 46′ 40″ N; urbs Arabica paulo borealior.
+\par\hangindent=8mm\hangafter=1 Nr. 186. Pro \textarabic{فو} 86° cod. restitui \textarabic{قل} 130°; \Name{al-Khuwār.} 130° 0′, 38° 0′. Est regio Asiae interioris quam nos \textit{Thibet} vocamus.
+\par\hangindent=8mm\hangafter=1 Nr. 187. \Name{Al-Khuwār.} 71° 0′, 44° 0′. Interdum in libris Arabicis, ob parvam scripturae corruptelam, Kharzān \textarabic{خرزان} vel Khazrān \textarabic{خزران} pro Ǵorzān \textarabic{جرزان} vocatur; erat in Armeniae parte in qua flumen Kurr oritur.
+\par\hangindent=8mm\hangafter=1 Nr. 188. I. e. « Suwān Abessiniae ». Συήνη (IV, 5, 73) 62° 0′, 23° 50′; \Name{al-Khuwār.} 56° 0′, 22° 30′. Nominis forma frequentior Oswān \textarabic{اسوان}; hodie scribunt et efferunt \textit{Aṣwān} \textarabic{اصوان}; Coptice \textit{Souan}. Iuxta observationes astronomicas a \Name{Nouet} anno 1799 factas, 32° 55′ 3″ E Gr., 24° 5′ 23″ N (\textit{Description de l’Égypte}, 2ᵉ éd., Paris 1820-30, t. XI, p. 25-29).
+\par\hangindent=8mm\hangafter=1 Nr. 189. In lat. fortasse pro \textarabic{كه} 25° cod. est \textarabic{كد} 24° legendum; \Name{al-Khuwār.} 92° 0′, 24° 20′. Hodie \textit{Karāčī} (Kurrachee), notus Indiae portus haud longe ab Indi ostio occidentali (cuius pharus 66° 58′ E Gr., 24° 47′ 20″ N), ut ostendit \Name{H. M. Elliot}, \textit{The history of India as told by its own historians}, London 1867-77, t. I, p. 375.
+\par\hangindent=8mm\hangafter=1 Nr. 190. Pro codicis \textarabic{كد} 24° in long. lego \textarabic{ڡد} = \textarabic{فد} 84°; \Name{al-Khuwār.} 75° 0′, 37° 0′. Iuxta mappas 1 : 840000 apud \Name{A. F. Stahl}, \textit{Zur Geologie von Persien}, Gotha 1897 (Ergänzungsheft nr. 122 zu Petermann’s Mitteilungen), 50° E Gr., 36° 15′ lat. N.
+\par\hangindent=8mm\hangafter=1 Nr. 191. Pro codicis \textarabic{فه} 85° lego \textarabic{ضه} 95°, ut patet ex nr. 84, 232 et e \Name{Ptolemaeo}: Ἀρεία πόλις (VI, 17, 7) 95° 0′, 35′ 0°. Numeri ergo semper Graeci sunt et nullo modo cum reliquis Persiae urbibus componuntur. Latitudo ut in nr. 84.
+\par\hangindent=8mm\hangafter=1 Nr. 192. \Name{Al-Khuwār.} 71° 45′, 21° 30′. Caput provinciae eiusdem nominis (hodiernas regiones al-Yamāmah, al-ʿĀriḍ, al-Washm, al-Aflāǵ complectentis) in Arabia interiore; Ǵaww quoque appellabatur, et ab ortu urbis Manfūḥah exstabat. Interdum cum Ḥaǵr confunditur, quae iam X saec. praecipua
+\par}
+\clearpage
+\noindent\makebox[\textwidth]{\textbf{}\hfill{\small AL-BATTANI OPUS ASTRONOMICUM}\hfill\textbf{45}}\par\vspace{-1mm}\noindent\rule{\textwidth}{.4pt}\par\vspace{2mm}
+\noindent\begin{minipage}[t]{0.5\textwidth}{\small \begin{tabular}{p{40mm}|r@{\hspace{1.4mm}}r|r@{\hspace{1.4mm}}r}
+\centering Nomina urbium. & \multicolumn{2}{c|}{Longit.} & \multicolumn{2}{c}{Latitudo.} \\ \hline
+\hangindent=4mm\hangafter=1 193. aṭ–Ṭā’if. & 74° & 30′ & 21° & 20′ \\
+\hangindent=4mm\hangafter=1 194. Tinnīs. & 64 & 0 & 31 & 20 \\
+\hangindent=4mm\hangafter=1 195. al–Faramā. & 64 & 40 & 31 & 30 \\
+\hangindent=4mm\hangafter=1 196. aṭ–Ṭurāraband. & 106 & 0 & \textit{36} & 0 \\
+\hangindent=4mm\hangafter=1 197. Qumm. & 85 & 0 & 36 & 0 \\
+\end{tabular}}\end{minipage}\vrule\,\vrule\hfill\begin{minipage}[t]{0.48\textwidth}{\small \begin{tabular}{p{40mm}|r@{\hspace{1.4mm}}r|r@{\hspace{1.4mm}}r}
+\centering Nomina urbium. & \multicolumn{2}{c|}{Longit.} & \multicolumn{2}{c}{Latitudo.} \\ \hline
+\hangindent=4mm\hangafter=1 198. Ḥulwān. & 81° & 0′ & 35° & 0′ \\
+\hangindent=4mm\hangafter=1 199. *Qisṭifān [Ctesi-\newline phon], al–Madā’in. & \raisebox{-1\normalbaselineskip}[0pt][0pt]{80} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{0} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{35} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{55} \\
+\hangindent=4mm\hangafter=1 200. Madīnat al–Abwāb. & 80 & 0 & 47 & 0 \\
+\hangindent=4mm\hangafter=1 201. ar–Ruṣāfah. & 72 & 50 & 35 & 40 \\
+\end{tabular}}\end{minipage}
+\par\vspace{3mm}{\small
+\par\hangindent=8mm\hangafter=1 urbs erat, itinere diei et noctis ab al-Yamāmah distanti. Cfr. \Name{al-Hamdānī} p. 161; \Name{F. Wüstenfeld}, \textit{Bahrein und Jemâma nach arabischen Geographen}, in Abhandlungen der k. Gesellsch. d. Wissenschaften zu Göttingen, t. XIX, 1874, histor.-philolog. Classe, p. 198–199.
+\par\hangindent=8mm\hangafter=1 Nr. 193. \Name{Al-Khuwār.} 68° 20′, 21° 20′. Cfr. quae dixi ad nr. 103. De urbe \Name{Ritter} XIII (1847), p. 56–65; \Name{Ch. Didier}, \textit{Ein Aufenthalt bei dem Gross-Scherif von Mekka, übersetzt von H. Lobedan}, Leipzig 1862, p. 312–318.
+\par\hangindent=8mm\hangafter=1 Nr. 194. \Name{Al-Khuwār.} 54° 0′, 31° 40′. \textit{Thinnesus} apud \Name{Cassianum}, Θεννεσι Coptorum, in parva insula (hodie quoque \textit{Tinnīs} vel \textit{Shīsh wa Tinnīs} vocata) lacus vel paludis Menzaleh; moenia et aedificia diruta anno 624 heg. (1227) ab al-Malik al-Kāmil, qua re pauca tantum vestigia exstant. V. \Name{Quatremère}, \textit{Mémoires géographiques et historiques sur l’Égypte}, Paris 1811, t. I, p. 286-289 et 304-335; \Name{Andréossy}, \textit{Mémoire sur le lac Menzaleh}, in Description de l’Égypte, 2ᵉ éd., Paris 1820-30, t. XI, p. 547-548. Observationibus astronomicis anno 1798 \Name{Nouet} long. insulae 32° 12′ 29″, lat. 31° 12′ 0″ determinavit (cfr. \textit{Description de l’Égypte}, t. XI, p. 35). Ut iam \Name{D’Anville}, \textit{Mémoire sur l’Égypte ancienne et moderne}, Paris 1766, p. 94, recte intellexit, non debet cum Τάνις, hodie Ṣā el-ḥaǵar, confundi.
+\par\hangindent=8mm\hangafter=1 Nr. 195. \Name{Al-Khuwār.} 54° 40′, 31° 30′. Coptorum Περεμουν, Cruciatorum tempore celeberrima; inter al-ʿArīsh et Ṭīneh (Pelusium) ad littus maris, erat prima magna Aegypti urbs quae viatori a Syria provenienti occurreret.
+\par\hangindent=8mm\hangafter=1 Nr. 196. \Name{Al-Khuwār.} 96° 30′, 39° 35′; de variis nominis corruptelis (in cod. \textarabic{الطارنيد}) cfr. quae dixi in meo \textit{Al-Ḫuwârizmî e il suo rifacimento della Geografia di Tolomeo}, p. 36, adn. 3 (in Memorie della R. Accademia dei Lincei, Classe di scienze morali, ser. V, t. II, 1894–95), et addatur \Name{Yāqūt} II, 410, III, 524, IV, 334 \textarabic{طراربند} habere, sed I, 34, l. 4 et 23 corrupte \textarabic{طرابزندة}. Erat in Turkestān orientali; lat. cod. procul dubio error pro 39°.
+\par\hangindent=8mm\hangafter=1 Nr. 197. In long. pro \textarabic{فد} 84° cod. lego \textarabic{فه} 85°, cfr. nr. 172, 190, 210; \Name{al-Khuwār.} 74° 55′ (vel 15′), 35° 40′. In mappis \Name{A. F. Stahl} 50° 53′ 50″ E Gr., 34° 38′ $\tfrac{1}{2}$ N.
+\par\hangindent=8mm\hangafter=1 Nr. 198. In lat. pro \textarabic{لح} 38° cod. lego cum \Name{Lelewel} \textarabic{له} 35°; \Name{al-Khuwār.} 71° 45′, 34° 0′ (vel 35° 0′ ?). Urbis olim florentis ruinae sunt circa vicum \textit{Sar-i-pul}, ad dexteram fl. Ḥulwān (quod in Diyālā influit), ab austro Zōhāb, inter Qaṣr Shīrīn et Kirind; \Name{Ritter}, IX (1840), 470-478; \Name{J. de Morgan}, \textit{Mission scientifique en Perse}, Paris 1894–96, t. II, 106–110 (et mappa regionis IV, 169), qui minus bene nomen fluminis Hulwān \textarabic{هلوان} et Hūlwān \textarabic{هولوان} scribit.
+\par\hangindent=8mm\hangafter=1 Nr. 199. Long. et lat. Ptolemaicae, qua re nec cum Baghdād (nr. 168) nec cum Ḥulwān (nr. 198) componi possunt; Κτησιφῶν (VI, 1, 3) 80° 0′, 35° 30′; \Name{al-Khuwār.} 73° 0′, 33° 0′. — Nomen Qisṭifān, e Graeco corruptum, apud alios Arabicos scriptores non invenio, qui contra formam Persicam \textit{Ṭaysafūn} vel \textit{Ṭōsafūn} cognoscunt. Regias sedes, quarum praecipua Ctesiphon erat, ad ambas Tigridis ripas, uno nomine Arabes al-Madā’in « urbes » vocaverunt. Ruinae magni Sāsānidarum palatii, 1 km. ab ortu fluminis, 33° 6′ N, hodie \textit{Ṭāq-i-Kesrà} appellantur; \Name{von Oppenheim}, II, 285–87.
+\par\hangindent=8mm\hangafter=1 Nr. 200. Long. et lat. Ptolemaicae, qua re haud bene cum Taflīs (nr. 166) et Bardhaʿah (nr. 167) componuntur; Ἀλβάνιαι πύλαι (V, 9, 15) 80° 0′, 47° 0′. Hodierna \textit{Derbend}, ad littus Caspii maris.
+\par\hangindent=8mm\hangafter=1 Nr. 201. Cod. in long. \textarabic{عه} 75° pro \textarabic{عٮ} = \textarabic{عب} 72°; cfr. ar-Raqqah (nr. 150) et Ῥήσαφα (V, 15, 24) 72° 15′, 34° 45′. Saeculo VI et VII nominibus Σεργιούπολις et Ἀναστασιούπολις innotuit; Ῥατταφά apud Georgium Cyprium (cfr. \Name{M. Hartmann} in \textit{Zeitschrift für Assyriologie}, t. XIV, 1899-1900, p. 340–41). Urbs celebris Ommiadarum et ʿAbbāsidarum priorum tempore; ruinae hodiernae describuntur ab
+\par}
+\clearpage
+\noindent\makebox[\textwidth]{\textbf{46}\hfill{\small C. A. NALLINO}\hfill\textbf{}}\par\vspace{-1mm}\noindent\rule{\textwidth}{.4pt}\par\vspace{2mm}
+\noindent\begin{minipage}[t]{0.5\textwidth}{\small \begin{tabular}{p{40mm}|r@{\hspace{1.4mm}}r|r@{\hspace{1.4mm}}r}
+\centering Nomina urbium. & \multicolumn{2}{c|}{Longit.} & \multicolumn{2}{c}{Latitudo.} \\ \hline
+\hangindent=4mm\hangafter=1 202. Ǵubayl. & 67° & 30′ & 33° & 45′ \\
+\hangindent=4mm\hangafter=1 203. \textarabic{جزيل}, et sunt rui-\newline nae (?). & \raisebox{-1\normalbaselineskip}[0pt][0pt]{80} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{0} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{37} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{55} \\
+\end{tabular}}\end{minipage}\vrule\,\vrule\hfill\begin{minipage}[t]{0.48\textwidth}{\small \begin{tabular}{p{40mm}|r@{\hspace{1.4mm}}r|r@{\hspace{1.4mm}}r}
+\centering Nomina urbium. & \multicolumn{2}{c|}{Longit.} & \multicolumn{2}{c}{Latitudo.} \\ \hline
+\hangindent=4mm\hangafter=1 204. Ūrim. & 71° & 40′ & 37° & 20′ \\
+\hangindent=4mm\hangafter=1 205. *Zoghmah. & 71 & 40 & 37 & 9 \\
+\hangindent=4mm\hangafter=1 206. Shayzar. & 69 & 20 & 34 & 30 \\
+\end{tabular}}\end{minipage}
+\par\vspace{3mm}{\small
+\par\hangindent=8mm\hangafter=1 \Name{Oestrup}, \textit{Historisk-topografiske bidrag til kendskabet til den syriske Oerken}, p. 72-79 (= Det kgl. danske videnskabernes Selskabs Skrifter, 6. raekke, hist.-filos. Afd. IV, 2, Köbenhavn 1895). In mappa \Name{R. Kiepert}, \textit{Syrien und Mesopotamien}, 38° 46′ E Gr., 35° 39′ N.
+\par\hangindent=8mm\hangafter=1 Nr. 202. Γάβαλα Φοινίκης (V, 15, 21) 67° 15′, 33° 10′. Est Hebraica \textit{Gĕbal}, Assyriaca \textit{Gubal}, \textit{Byblus} Graecorum et Romanorum; hodie quoque \textit{Ǵubayl} (vulgo \textit{Ǵebēl}), ad maris littus 34° 8′ lat. N, a septentrionibus urbis Beyrūt (nr. 227). Latitudo Ptolemaica ergo omnino falsa est; Albateniana multo melior, sed 10′ fere nimis magna respectu Beyrūt.
+\par\hangindent=8mm\hangafter=1 Nr. 203. Nomen non intelligo. \Name{Lelewel} proposuit Ἄρβηλα (VI, 1, 5) 80° 0′, 37° 15′, quae Arabice \textarabic{اربل} \textit{Irbil} (male Turcae \textarabic{اربيل} \textit{Irbīl} scribunt) vocantur, ab ortu fere al-Mawṣil, 44° 2′ E Gr., 36° 11′ $\tfrac{1}{2}$ N; sed potest quoque Γαυγάμηλα (VI, 1, 5) 79° 30′, 37° 15′ esse, ab Arabibus aetatis mediae \textit{Ǵawmal} appellata (1). Si Arbela aut Gaugamela est, minuta latitudinis \textarabic{نه} 55′ sunt calami lapsus pro \textarabic{يه} 15′. Sed etiam verba sequentia « quae sunt ruinae » mihi non omnino certa videntur; cod. \textarabic{خرد} vel \textarabic{خرب}.
+\par\hangindent=8mm\hangafter=1 Nr. 204. Οὔριμα (V, 15, 14) 71° 45′, 37° 30′, ad Euphratem inter ostia fluminis Singae (hodie Gök-ṣū \textarabic{ڭوك صو}) et Zeugma. Nomen Castra Urima apparet etiam apud Syros IX Chr. saec. (\textit{Ūrīm Qasṭrā}), ergo temporis Albatenii; posterius, inde ab initio XII saec., nomine « Castello Romanorum » Qalʿat ar-Rūm innotuit, et hodie quoque \textit{Rūm Qalʿeh} ad Merzifān ṣū (Marsyas \Name{Plinii}), prope locum quo rivus in Euphratem influit; cfr. \Name{B. Moritz}, \textit{Syrische Inschriften aus Syrien und Mesopotamien}, in Mittheilungen des Seminars für orientalische Sprachen zu Berlin, t. I, 1898, Westasiatische Studien, p. 131. Quae \Name{Ritter}, X (1843), p. 931-940 et 1070 habet, nonnullis erroribus scatent; confundit quoque cum Urimis nostris Urmam Giganti itinerarii Antonini, quae est hodierna \textit{Killiz} \textarabic{كلز} (apud Turcas \textit{Kilīs} \textarabic{كليس}) a septentrionibus Aleppo (Ḥaleb). — \Name{Yāqūt}, I, 401-02, quatuor enumerat Ūrim, ad ditionem Aleppensem pertinentes: 1°. Ūrim al-kubrà, de qua \Name{Ritter}, XVII (1855), p. 1663. in mappa \Name{R. Kiepert}, \textit{Syrien und Mesopotamien}, W-S-W Aleppo, 36° 57′ E Gr., 36° 6′ $\tfrac{1}{2}$ N.; 2°. Ūrim aṣ-ṣughrà, de qua \Name{Ritter}, XVII, 1663, unius horae itinere a praecedenti distans; 3°. Ūrim al-ǵawz, cum ruinis Graecis, de qua \Name{Ritter}, l. c. p. 1057, 1063, 1100, in mappa \Name{R. Kiepert} 6 km. ab occasu (vel W-S-W) Riḥā, in via quae ad Orontem flumen ducit; 4°. Ūrim al-barāmikah, quam ab aliis memoratam non invenio, et cuius situm ignoro. Priores tres nullo modo possunt Urima \Name{Ptolemaei} et \Name{Albatenii} esse.
+\par\hangindent=8mm\hangafter=1 Nr. 205. Ζεῦγμα (V, 15, 14) 72° 0′, 37° 0′; cum ponte magno in Euphrate, ad fluminis sinistram, ex adverso Apameae (Bīreǵik \textarabic{بيره جك}). Ex Arabicis scriptoribus solus \Name{Yāqūt}, II, 935, urbem memorat: « \textarabic{زغموا} (Zoghmū?), vetustus vicus ad ripam occidentalem Euphratis, cui sunt vestigia castelli et magni aedificii, omnino deletorum. Inter eum et al-Bīrah [= Bīreǵik] milliarium [= 1973 m.] vel paulo amplius. Sunt quoque ruinae pontis in Euphrate, cuius capitis vestigia exstant. Haec narrat Kaynūk ». De variis Zeugmis, \Name{Ritter}, X, 959–1003.
+\par\hangindent=8mm\hangafter=1 Nr. 206. Λάρισσα Συρίης κοίλης (V, 15, 16) 69° 40′, 34° 55′; \Name{al-Khuwār.} 62° 10′, 34° 20′. Hodie \textit{Sayǵar} (vulgo \textit{Sēǵar}) vel \textit{Qalʿat Sayǵar} ad Orontem, N-W urbis Ḥamāh; \Name{Ed. Sachau}, \textit{Reise in Syrien und Mesopotamien}, Leipzig 1883, p. 68 sq.
+\par}
+\par\vspace{2mm}\begin{center}\rule{40mm}{.4pt}\end{center}
+{\small (1) Apud Syros \textit{Gōmal}; v. \Name{G. Hoffmann}, \textit{Auszüge aus syrischen Akten persischer Märtyrer übersetzt und erläutert}, Leipzig 1880, p. 194-95 (= Abhandlungen für die Kunde des Morgenlandes, t. VII, nr. 3) Hodie \textit{Tell Ǵawmal} (vulgo \textit{Tell Ǵōmal}), N-N-E al-Mawṣil (Mossul), ad rivum Ǵōmal qui in Ghāzir (non Khāzir ut in mappa \Name{R. Kiepert}) influit; eam visitavit mense Martio anni 1898 \Name{Ed. Sachau} (\textit{Am Euphrat und Tigris}, Leipzig 1900, pag. 117 et tab. IV). — De Arbelis cfr. eundem \Name{Sachau} p. 111-113.}\par
+\clearpage
+\noindent\makebox[\textwidth]{\textbf{}\hfill{\small AL-BATTANI OPUS ASTRONOMICUM}\hfill\textbf{47}}\par\vspace{-1mm}\noindent\rule{\textwidth}{.4pt}\par\vspace{2mm}
+\noindent\begin{minipage}[t]{0.5\textwidth}{\small \begin{tabular}{p{40mm}|r@{\hspace{1.4mm}}r|r@{\hspace{1.4mm}}r}
+\centering Nomina urbium. & \multicolumn{2}{c|}{Longit.} & \multicolumn{2}{c}{Latitudo.} \\ \hline
+\hangindent=4mm\hangafter=1 207. Tell Mannas. & 70° & 0′ & 35° & 0′ \\
+\hangindent=4mm\hangafter=1 208. Ḥuwwārīn. & 70 & 0 & 33 & 40 \\
+\hangindent=4mm\hangafter=1 209. al–ʿĀqūl. & 79 & 0 & 33 & 55 \\
+\hangindent=4mm\hangafter=1 210. Hamadhān. & 83 & 20 & 36 & 0 \\
+\hangindent=4mm\hangafter=1 211. ʿAmawās. & 66 & 10 & 31 & 45 \\
+\end{tabular}}\end{minipage}\vrule\,\vrule\hfill\begin{minipage}[t]{0.48\textwidth}{\small \begin{tabular}{p{40mm}|r@{\hspace{1.4mm}}r|r@{\hspace{1.4mm}}r}
+\centering Nomina urbium. & \multicolumn{2}{c|}{Longit.} & \multicolumn{2}{c}{Latitudo.} \\ \hline
+\hangindent=4mm\hangafter=1 212. *Rāfiyah. & 65° & 0′ & 31° & 30′ \\
+\hangindent=4mm\hangafter=1 213. Asdūd. & 65 & 15 & 31 & 55 \\
+\hangindent=4mm\hangafter=1 214. Zibaṭrah. & 70 & 0 & 38 & 44 \\
+\hangindent=4mm\hangafter=1 215. *Kusūmī, urbs re-\newline gis Kūsh [Aethiopiae]. & \raisebox{-1\normalbaselineskip}[0pt][0pt]{65} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{0} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{11} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{0} \\
+\end{tabular}}\end{minipage}
+\par\vspace{3mm}{\small
+\par\hangindent=8mm\hangafter=1 Nr. 207. Θελμενισσός (V, 15, 19) 69° 40′, 35° 0′. Hodie \textit{Tell Menis}, unius horae itinere ab ortu Maʿarrat an-Nuʿmān (nr. 138); cfr. \Name{Moritz}, \textit{Zur antiken Topographie der Palmyrene}, in Abhandlungen der kgl. preuss. Akad. der Wissenschaften, Berlin 1889, p. 32. Male \Name{Mordtmann}, in \textit{Zeitschr. der deutsch. morgenl. Gesellsch.}, t. XLI, 1887, p. 306, posuerat Tell Mannas et Θελμενισσός esse hodiernam \textit{Tell Loṭmān}, inter Maʿarrat an-Nuʿmān et Ḥamāh. — Longitudo optima respectu Maʿarrat an-Nuʿmān, nr. 138; latitudo cum Ḥamāh (nr. 130) convenit, a cuius septentrionibus 30′ circiter iuxta hodiernas mappas distat. Sed non deberet latitudo a Maʿarrah differre; fortasse in nr. 138 pro \textarabic{لد} 34° est \textarabic{له} 35° restituendum.
+\par\hangindent=8mm\hangafter=1 Nr. 208. Αὐερία vel Αὔειρα (V, 14, 24) 71° 30′, 33° 40′. \textit{Eumara} in \textit{Itinerario Antonini}; \textit{Euhara}, Εὐάριος, Εὐαρείας apud scriptores ecclesiasticos; tempore Iustiniani florentissima urbs Christiana. Arabum aetate parvus vicus, in quo khalifa Yazīd I obiit, anno 64 heg. (inc. 29 Aug. 683 Chr.); praeter historicos conferantur \Name{Yāqūt} II, 354–55; \Name{al-Masʿūdī}, \textit{Prairies}, V, 127–28; \Name{al-Masʿūdī}, \textit{at-Tanbīh}, p. 306; \Name{al-Balādhurī}, \textit{Liber expugnationis regionum}, ed. de Goeje, p. 112; \Name{al-Akhṭal}, \textit{Dīwān} ed. Ṣālḥānī, Beyrūt 1891–92, p. 289. Est haud longe a Qārā (nr. 226), in via a Damasco ad Emessam (nr. 128); hodie \textit{Ḥawwārīn}, cum magnis ruinis quas describunt \Name{E. Sachau}, \textit{Reise in Syrien und Mesopotamien}, Leipzig 1883, p. 52-55 (ubi male Khawwārīn scribitur), et \Name{Moritz}, \textit{Zur antiken Topographie der Palmyrene}, p. 17. In mappa \Name{R. Kiepert} 37° 3′ 50″ E Gr., 34° 17′ N.
+\par\hangindent=8mm\hangafter=1 Nr. 209. Plerumque Dayr al-ʿĀqūl vocabatur; ad sinistram Tigridis ripam, a Ctesiphonte paulo magis quam Ctesiphon a Baghdād aberat. Olim florentissima, sed iam aetate Yāqūt fere diruta et a flumine milliarium (1973 metra) distans.
+\par\hangindent=8mm\hangafter=1 Nr. 210. In long. cod. 60° 20′; correxi alias Persiae urbes comparans, ut nr. 190, 261-64, et \Name{al-Khuwār.} 73° 0′, 36° 0′.
+\par\hangindent=8mm\hangafter=1 Nr. 211. Cod in long. \textarabic{ض} 90° pro \textarabic{صز} 67° (ut \Name{Lelewel} emendavit) vel potius \textarabic{صو} 66°; cfr. nr. 273. Ἐμμαοῦς (V, 16, 7) 65° 45′, 31° 45′. Hodie \textit{ʿAmwās} inter Yāfā (Giaffa) et Ierusalem 34° 58′ 15″ E Gr., 31° 50′ 20″ N.
+\par\hangindent=8mm\hangafter=1 Nr. 212. Iam \Name{Lelewel} agnoverat pro \textarabic{ارقينه} esse \textarabic{رافيه} legendum. Ῥάφεια (V, 16, 6) 65° 0′, 31° 30′; cfr. al-Faramā nr. 195. Apud Arabicos geographos \textit{Rafaḥ}; hodie \textit{Tell Rifaḥ}, ubi est terminus Syriae in Aegyptum versus, 3 $\tfrac{1}{2}$ km. a maris littore, 31° 20′ $\tfrac{2}{3}$ lat. N.
+\par\hangindent=8mm\hangafter=1 Nr. 213. Ἄζωτος (V, 16, 2) 65° 15′, 31° 50′. Nomen in cod. \textarabic{اسدد}, i. e. cum \textit{s}, ut hodie quoque efferunt et in Hebraico \textit{Ashdūd}, Assyriaco \textit{Asdudu} apparet. Geographi Arabes \textit{Azdūd} habent (cfr. \Name{Ibn Khurdādhbeh} 80, \Name{Qudāmah} 219, \Name{al-Muqaddasī} 177 et 192, \Name{al-Masʿūdī}, \textit{at-Tanbīh}, 273) vel \textit{Yazdūd} (\Name{Ibn Ḥawqal} 94 et 95, \Name{al-Edrīsī} apud \Name{Brandel}, \textit{Om och ur den arabiske geographen Idrīsī}, Upsala 1894, p. 6 text. = 7 vers.). In via ab Ascalone (ʿAsqalān) ad Yāfā (Giaffa); fere 5 km. a littore maris, 31° 45′ $\tfrac{1}{2}$ lat. N.
+\par\hangindent=8mm\hangafter=1 Nr. 214. Σιζόατρα (V, 7, 10) 70° 0′, 38° 20′; \Name{al-Khuwār.} 59° 20′, 39° 0′. Cum Marʿash, Malaṭyah et Sumaysāṭ erat e praecipuis Muslimorum oppidis ad terminos Mesopotamiae boreales et occidentales, versus imperium Byzantinum; Σάπετρον apud Simeonem Logothetam, Σωζοπέτρας apud Theophanis continuatorem; ineunte XIV Chr. saec. iam fere diruta, ut \Name{Abū ’l-fidā’} p. 234 text. narrat. \Name{Le Strange} (\textit{Journal of the R. Asiatic Society}, 1895, p. 65-66) probabile putat eius ruinas esse quas nunc \textit{Wīrān-Shehr} « dirutam urbem » appellant (cfr. \Name{Ritter}, X, 850-51), inter Gözeneh \textarabic{گوزنه} et Sürgü \textarabic{سوركى} prope fontes fluviorum Sulṭān-ṣū et Gök-ṣū; ergo S-S-W a Malaṭyah.
+\par\hangindent=8mm\hangafter=1 Nr. 215. Αὐξούμη βασίλειον (IV, 7, 25) 65° 30′, 11° 0′. Nomen sacrae urbis Abessiniae ignotum Arabicis geo
+\par}
+\clearpage
+\noindent\makebox[\textwidth]{\textbf{48}\hfill{\small C. A. NALLINO}\hfill\textbf{}}\par\vspace{-1mm}\noindent\rule{\textwidth}{.4pt}\par\vspace{2mm}
+\noindent\begin{minipage}[t]{0.5\textwidth}{\small \begin{tabular}{p{40mm}|r@{\hspace{1.4mm}}r|r@{\hspace{1.4mm}}r}
+\centering Nomina urbium. & \multicolumn{2}{c|}{Longit.} & \multicolumn{2}{c}{Latitudo.} \\ \hline
+\hangindent=4mm\hangafter=1 216. \textarabic{داڡا} urbs Persa-\newline rum (?). & \raisebox{-1\normalbaselineskip}[0pt][0pt]{71°} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{0′} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{6°} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{0′} \\
+\hangindent=4mm\hangafter=1 217. *Athīnas, urbs sa-\newline pientum. & \raisebox{-1\normalbaselineskip}[0pt][0pt]{52} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{40} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{37} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{20} \\
+\hangindent=4mm\hangafter=1 218. *Ṭrāqiyah (?). & \textit{54} & 0 & 41 & 40 \\
+\end{tabular}}\end{minipage}\vrule\,\vrule\hfill\begin{minipage}[t]{0.48\textwidth}{\small \begin{tabular}{p{40mm}|r@{\hspace{1.4mm}}r|r@{\hspace{1.4mm}}r}
+\centering Nomina urbium. & \multicolumn{2}{c|}{Longit.} & \multicolumn{2}{c}{Latitudo.} \\ \hline
+\hangindent=4mm\hangafter=1 219. al–Iskandarūnah & 69° & 0′ & 36° & 10′ \\
+\hangindent=4mm\hangafter=1 220. Ǵindāros. & 70 & 0 & \textit{36} & 40 \\
+\hangindent=4mm\hangafter=1 221. Waǵh al–ḥaǵar. & 67 & 35 & 34 & 10 \\
+\hangindent=4mm\hangafter=1 222. *Orthūsiyah & 67 & 35 & 34 & 20 \\
+\hangindent=4mm\hangafter=1 223. Sanǵah. & 71 & 0 & 37 & 22 \\
+\end{tabular}}\end{minipage}
+\par\vspace{3mm}{\small
+\par\hangindent=8mm\hangafter=1 graphis; qui de historia anteislāmica scripserunt \textit{Aksūm} et \textit{Yaksūm} habent (cfr. \Name{Nöldeke}, \textit{Gesch. der Perser und der Araber unter den Sasaniden}, Leiden 1879, p. 198–99).
+\par\hangindent=8mm\hangafter=1 Nr. 216. Quid sit nescio; numeri, praesertim latitudinis, mendosi videntur. Pro « urbs Persarum » (\textit{al-furs}) verti potest « urbs equi » (\textit{al-faras}).
+\par\hangindent=8mm\hangafter=1 Nr. 217. Ἀθῆναι (III, 15, 22) 52° 45′, 37° 15′. Madīnat al-ḥukamā’ « urbs sapientum » apud Arabes Athenas indicat; v. \Name{Ibn Yūnus}, cap. IV (ap. Caussin p. 144); item « Athīniyyah urbs sapientum » in \textit{Tāǵ al-azyāǵ}, f. 67.r., et, saeculo XVI Chr., apud Persicum \Name{Abū ’l-faẓl ʿAllāmī}, \textit{Āyīn i Akbarī} edited by H. Blochmann, Calcutta 1867-77, t II, p. 39 (= translated by H. Blochmann and H. S. Jarrett, Calcutta 1873-74, t. III, p. 78).
+\par\hangindent=8mm\hangafter=1 Nr. 218. Nomen apud alios scriptores non invenio; urbs Thraciae videtur, cfr. nr. 27. In long., si hoc verum est, pro \textarabic{نز} 57° debemus, cum \Name{Lelewel}, \textarabic{ند} 54° legere; secus in mare incidimus. Nomen potest ex \textarabic{هراقليه} Hirāqliyyah corruptum esse; tunc numeri optime cum Ἡράκλεια (III, 11, 13) 54° 20′, 41° 50′ convenirent, urbe Thraciae ad Propontidem, ubi nunc \textit{Ereglī} \textarabic{اركلي}.
+\par\hangindent=8mm\hangafter=1 Nr. 219. Ἀλεξάνδρεια κατὰ Ἰσσόν (V, 15, 1) 69° 30′, 36° 15′. Hodie \textit{Iskanderūn}, \textit{Alessandretta} Italorum, ad mare 36° 35′ lat. N.
+\par\hangindent=8mm\hangafter=1 Nr. 220. Γίνδαρος (V, 15, 15) 70° 0′, 35° 40′. Lat. Albateniana nimis magna respectu Aleppo (nr. 136), nam iuxta mappas hodiernas differentia est 12′ vel 13′; gradus probabiliter sunt \textarabic{له} 35°, ut apud \Name{Ptolemaeum}, restituendi. Nomen etiam apud \Name{al-Masʿūdī}, \textit{at-Tanbīh} 59, et \Name{ad-Dimashqī}, vers. Mehren, p. 158 et 279 (ubi perperam Ǵindarās, littera \textarabic{ا} transposita). Hodie \textit{Ǵindarīs} vel \textit{Tell Ǵindarīs}, haud longe a dextera fluminis ʿAfrīn ripa, W-N-W Aleppo; \Name{M. Hartmann}, \textit{Das Liwa Haleb}, p. 97; \Name{E. Sachau}, \textit{Am Euphrat und Tigris}, Leipzig 1900, p. 148.
+\par\hangindent=8mm\hangafter=1 Nr. 221. Tripolim (nr. 123), Ǵubayl (nr. 202) et Orthosiam (nr. 222) comparans, pro \textarabic{له م} 35° 40′ cod. in lat. lego \textarabic{لد ى} 34° 10′. Waǵh al-ḥaǵar « saxorum vultus » dicitur a \Name{Yāqūt} IV, 907 et \Name{ad-Dimashqī} 189 esse montis aspera declivitas (\textit{ʿaqabah}) prope Ǵubayl; inter Beyrūt et Tripolim indicatur in V folio mappae nauticae maris Mediterranei, quam anno 958 heg. (inc. 8 Ian. 1551) delineavit \Name{ʿAlī ibn Aḥmad} ibn Muḥammad \Name{ash-Sharqī} aṣ-Ṣafāqusī (1); item Waǵh in globo caelesti quem \Name{Riḍwān Efendī} ibn ʿAbd Allāh mense ṣafar 1113 heg. (Iulio 1701) perfecit (2). Differre non videtur a vico Anf al-ḥaǵar « naso saxorum », quem \Name{al-Edrīsī} (apud \Name{Brandel}, p. 23 text., 28 vers.) ad littus maris collocat, 5 milliaribus a Batharūn, 8 a Tripoli; Anafah apud \Name{Yāqūt}, et hodie quoque \textit{al-Anfeh} (\textit{il Enfe} in mappa \Name{R. Kiepert}), fere 2′ $\tfrac{1}{2}$ a septentrionibus promontorii ash-Shaqʿah (3), quod veteres Θεοῦ πρόσωπον « Dei vultum » appellabant (\Name{Ptol.} V, 15, 4: 67° 20′, 34° 20′).
+\par\hangindent=8mm\hangafter=1 Nr. 222. Nomen hac forma ignotum Arabicis geographis; \Name{al-Edrīsī} ap. Brandel 24 text., 29 vers., Orṭūsiyyah scribit; hodie ruinae \textit{Arḍ Arṭūzī} appellatae, ad maris littus, 15 km. circiter E-N-E a Tripoli. \Name{Ptol.} V, 15, 4: Ὀρθωσία 67° 10′, 34° 50′; cum \Name{Lelewel} pro \textarabic{لج} 33° cod. in lat. correxi \textarabic{لد} 34°.
+\par\hangindent=8mm\hangafter=1 Nr. 223. Σίγγα (V, 15, 10) 71° 0′, 37° 40′; cum \Name{Lelewel} pro \textarabic{لو} 36° cod. restitui \textarabic{لز} 37° (cfr. Sumaysāṭ
+\par}
+\par\vspace{2mm}\begin{center}\rule{40mm}{.4pt}\end{center}
+{\small (1) Codex Arabicus Bibliothecae Nationalis Parisiensis, nr. 2278; cfr. \Name{Reinaud} in versione \Name{Abū ’l-fidā’}, t. I (Introduction générale), p. \textsc{clxx}.}\par
+{\small (2) Apud \Name{Dorn}, \textit{Drei ..... astronomische Instrumente mit arabischen Inschriften}, St. Petersburg 1865, p. 40, nr. 73 (in Mémoires de l’Académie Impériale des Sciences, t. IX, nr. 1).}\par
+{\small (3) \textarabic{الشقعة}, non ash-Shaqʿā ut in mappa \Name{R. Kiepert}; cfr. Arabicum \textit{al-Mashriq}, ann. III, Beyrūt 1900, p. 453, 573, 669 (paen. l.).}\par
+\clearpage
+\noindent\makebox[\textwidth]{\textbf{}\hfill{\small AL-BATTANI OPUS ASTRONOMICUM}\hfill\textbf{49}}\par\vspace{-1mm}\noindent\rule{\textwidth}{.4pt}\par\vspace{2mm}
+\noindent\begin{minipage}[t]{0.5\textwidth}{\small \begin{tabular}{p{40mm}|r@{\hspace{1.4mm}}r|r@{\hspace{1.4mm}}r}
+\centering Nomina urbium. & \multicolumn{2}{c|}{Longit.} & \multicolumn{2}{c}{Latitudo.} \\ \hline
+\hangindent=4mm\hangafter=1 224. Ǵabalah. & 68° & 22′ & 34° & 35′ \\
+\hangindent=4mm\hangafter=1 225. Rūsis. & 69 & 20 & 35 & 40 \\
+\hangindent=4mm\hangafter=1 226. Qārā. & 69 & 49 & 33 & 30 \\
+\hangindent=4mm\hangafter=1 227. Beyrūt. & \textit{69} & 30 & 33 & 20 \\
+\hangindent=4mm\hangafter=1 228. Beyt Ǵibrīn. & 66 & 0 & 31 & 0 \\
+\end{tabular}}\end{minipage}\vrule\,\vrule\hfill\begin{minipage}[t]{0.48\textwidth}{\small \begin{tabular}{p{40mm}|r@{\hspace{1.4mm}}r|r@{\hspace{1.4mm}}r}
+\centering Nomina urbium. & \multicolumn{2}{c|}{Longit.} & \multicolumn{2}{c}{Latitudo.} \\ \hline
+\hangindent=4mm\hangafter=1 229. Sūrā. & \textit{80°} & \textit{30′} & \textit{36°} & \textit{0′} \\
+\hangindent=4mm\hangafter=1 230. *Arām (?) urbs re-\newline gis. & \raisebox{-1\normalbaselineskip}[0pt][0pt]{69} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{20} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{32} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{0} \\
+\hangindent=4mm\hangafter=1 231. *Sīrās, regio Tur-\newline carum. & \raisebox{-1\normalbaselineskip}[0pt][0pt]{77} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{0} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{38} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{55} \\
+\end{tabular}}\end{minipage}
+\par\vspace{3mm}{\small
+\par\hangindent=8mm\hangafter=1 nr. 148). Ad flumen Σίγγας (hodie Gök-ṣū), parum longe a loco quo in Euphratem influit; \Name{Ritter}, t. X (1843), p. 942-43. Pons prope Sanǵah in Euphrate memoratur laudibusque extollitur a geographis Arabicis.
+\par\hangindent=8mm\hangafter=1 Nr. 224. Γάβαλα Συρίας κοίλης (V, 15, 3) 68° 20′, 34° 55′; hodie quoque \textit{Ǵabalah} (vulgo \textit{Ǵebleh}) ad maris littus sub 35° 25′ $\tfrac{1}{2}$ lat. N. — Fortasse minuta lat. pro \textarabic{له} 35′ debent \textarabic{نه} 55′ esse ut apud \Name{Ptolemaeum}.
+\par\hangindent=8mm\hangafter=1 Nr. 225. Ῥῶσος (V, 15, 2) 69° 20′, 35° 40′. Memoratur quoque ab \Name{al-Balādhurī}, \textit{Liber expugnationis regionum}, ed. de Goeje, Lugduni Batavorum 1866, p 161; minus bene \Name{al-Masʿūdī}, \textit{Prairies}, I, 264, et \Name{Yāqūt} II, 840, Rūsīs scribunt. Hodie \textit{Arsūz}, ad littus maris, parum a septentrionibus promontorii Rās al-khanzīr, S-W urbis Alessandretta (Iskanderūn); \Name{M. Hartmann}, \textit{Das Liwa Haleb}, p. 104.
+\par\hangindent=8mm\hangafter=1 Nr. 226. In via ab Emessa (Ḥimṣ) ad Damascum, fere 34° 10′ lat. N; cfr. quoque nr. 208.
+\par\hangindent=8mm\hangafter=1 Nr. 227. Error procul dubio in long.; \Name{Lelewel} correxit 67° 30′. — Βηρυτός (V, 15, 5) 67° 30′, 33° 45′; \Name{al-Khuwār.} 59° 30′, 34° 0′ (var. 33° 20′); iuxta observationes astronomicas hodiernas 35° 29′ 4″ E Gr., 33° 54′ 27″ N.
+\par\hangindent=8mm\hangafter=1 Nr. 228. \textit{Eleutheropolis} veterum, inter Ghazzah et Ierusalem. Hodie quoque \textit{Beyt Ǵibrīn}, ut plerumque apud geographos Arabicos; \Name{al-Edrīsī}, \Name{al-Muqaddasī}, \Name{ad-Dimashqī} scribunt Beyt Ǵibrīl, de quo cfr. \Name{Goldziher}, \textit{Muhammedanische Studien}, Halle 1889-90, II, 353.
+\par\hangindent=8mm\hangafter=1 Nr. 229. In numeris procul dubio error; Σοῦρα Συρίας κοίλης (V, 15, 25) 72° 40′, 35° 40′; Σοῦρα Ἀσσυρίας (VI, 1, 6) 83° 0′, 36° 40′. Sura priora erant oppidum Romanum contra Parthos exstructum, cuius ruinae, ad Euphratis dexteram, hodie \textit{Sūriyyah} aut \textit{al-Ḥammām} vocantur; insulam eis in flumine obiectam \Name{Chesney} astronomice determinavit 38° 46′ 40″ $\tfrac{1}{2}$ E Gr., 35° 54′ 34″ N; cfr. \Name{Ritter} X (1843), p. 1080-1086, et \Name{Moritz}, \textit{Zur antiken Topogr. der Palmyrene}, p. 29. Sed long. non potest pertinere ad locum ab occasu urbis ar-Raqqah (nr. 150), nec cum Ptolemaeo ipso concordat; praeterea nullus Arabum scriptor, ut videtur, haec Sura memorat (1). — Si long. bona est in cod., parum ab ortu Baghdād (nr. 168) incidit; et re vera in ʿIrāq duas urbes Sūrā Arabici scriptores cognoscunt: alteram prope locum quo canalis eiusdem nominis (hodie verus Euphrates) a sinistra Euphratis originem ducebat, 20-25 km. circiter a septentrionibus Babylonis; alteram, celeberrimae scholae Iudaicae sedem, in hodiernis mappis quoque ad Euphratis dexteram ripam indicatam, 31° 50′ lat. circiter, parum ab austro urbis Dīwāniyyeh. Si cod. latitudo \textarabic{لو} 36° error pro \textarabic{لٮ} = \textarabic{لب} 32° esset, collatis latitudinibus Albatenianis Baghdād 33° 9′ et al-Kūfah 31° 30′, probabile appareret eam esse Sūrā a septentrionibus Babylonis, licet long. nimis magna sit respectu al-Kūfah 79° 30′ et melius cum altera Sūrā ab austro Dīwāniyyeh componatur (2).
+\par\hangindent=8mm\hangafter=1 Nr. 230. Nomen ignotum. \Name{Lelewel} in lat. \textarabic{كب} 22° pro \textarabic{لب} 32° proposuit, comparans Ζαβρὰμ vel Ζααρὰμ μητρόπολις (VI, 7, 4) 69° 20′, 22° 0′.
+\par\hangindent=8mm\hangafter=1 Nr. 231. Nomen ignotum; fortasse cum \Name{Lelewel} pro \textarabic{عز} 77° cod. legendum \textarabic{قعز} 177°, et Σῆρα μητρόπολις (VI, 16, 8) 177° 0′, 38° 35′ interpretandum.
+\par}
+\par\vspace{2mm}\begin{center}\rule{40mm}{.4pt}\end{center}
+{\small (1) Alia \Name{Ptolemaei} Σοῦρα, in Assyria, quid sint ignoratur.}\par
+{\small (2) De duabus Arabicis Sūrā earumque canalibus disseruit \Name{De Goeje} in \textit{Zeitschr. der deutschen morgenländischen Gesellschaft}, t. XXXIX, 1885, p. 7–15; de canalibus \Name{M. Streck}, \textit{Die alte Landschaft Babylonien nach den arab. Geographen}, Leiden 1900 seqq., t. I, p. 28-32. Mappam regionis X Chr. saeculo praebuit \Name{G. Le Strange} in \textit{Journal of the R. Geographical Society}, 1895.}\par
+\par\vfill\hfill 7
+\clearpage
+\noindent\makebox[\textwidth]{\textbf{50}\hfill{\small C. A. NALLINO}\hfill\textbf{}}\par\vspace{-1mm}\noindent\rule{\textwidth}{.4pt}\par\vspace{2mm}
+\noindent\begin{minipage}[t]{0.5\textwidth}{\small \begin{tabular}{p{40mm}|r@{\hspace{1.4mm}}r|r@{\hspace{1.4mm}}r}
+\centering Nomina urbium. & \multicolumn{2}{c|}{Longit.} & \multicolumn{2}{c}{Latitudo.} \\ \hline
+\hangindent=4mm\hangafter=1 232. *Niṣībis, quae in Herāt. & 111° & 0′ & 35° & 20′ \\
+\hangindent=4mm\hangafter=1 233. \textarabic{بلد اور ملك الملك وبلد}\newline \textarabic{الترك} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{70} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{0} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{24} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{0} \\
+\hangindent=4mm\hangafter=1 234. Urbs *Alqis, ex al-\newline –Yemen. & \raisebox{-1\normalbaselineskip}[0pt][0pt]{73} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{0} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{12} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{15} \\
+\end{tabular}}\end{minipage}\vrule\,\vrule\hfill\begin{minipage}[t]{0.48\textwidth}{\small \begin{tabular}{p{40mm}|r@{\hspace{1.4mm}}r|r@{\hspace{1.4mm}}r}
+\centering Nomina urbium. & \multicolumn{2}{c|}{Longit.} & \multicolumn{2}{c}{Latitudo.} \\ \hline
+\hangindent=4mm\hangafter=1 235. *Mārā, ex al–Ye-\newline men. & \raisebox{-1\normalbaselineskip}[0pt][0pt]{73°} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{0′} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{15°} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{55′} \\
+\hangindent=4mm\hangafter=1 236. \textarabic{برهور} ex al–Yemen. & 79 & 0 & 13 & 0 \\
+\hangindent=4mm\hangafter=1 237. Ḥaḍramūt. & 81 & 0 & 14 & 30 \\
+\hangindent=4mm\hangafter=1 238. Madīnat aṭ–Ṭīb. & 81 & 0 & 5 & 30 \\
+\end{tabular}}\end{minipage}
+\par\vspace{3mm}{\small
+\par\hangindent=8mm\hangafter=1 Nr. 232. Νίσιβις Ἀρείας (VI, 17, 7) 111° 0′, 35° 20′; cfr. adnotationes generales in fine tabularum.
+\par\hangindent=8mm\hangafter=1 Nr. 233. I. e. « regio \textit{ʾwr}, dominium regis (vel: regis dominii), et regio Turcarum », nisi \textarabic{ملك الملك} error est pro \textarabic{ملك الملوك} « regis regum » (cfr. titulum regum Turcarum veterum khāqān et khāqān khāqānorum). Nomen ignotum, et numeri procul dubio mendosi, nam in Arabiam incidunt Avares indicari, ut \Name{Lelewel} proposuit, perdifficile; eos nec Ptolemaeus nec Arabes cognoverunt. Melior fortasse comparatio Leleweliana cum Ναύαρις (V, 9, 16) 70° 0′, 55° 0′, in Sarmatia Asiatica.
+\par\hangindent=8mm\hangafter=1 Nr. 234. Minuta latit. in cod. \textarabic{نه} 55′ pro \textarabic{يه} 15′; \Name{al-Khuwār.} 63° 0′, 12° 15′; \Name{Ibn Yūnus} 63° 0′, 12° 15′ (cod. Lugd.-Batav., p. 133). Nomen quoque apud \Name{al-Farghānī}, ed. Golii, p. 36 corruptum \textarabic{الڡين}; in eiusdem \Name{al-Farghānī} cod. Parisiensi nr. 2504, f. 125,v., l. 2, \textarabic{العين}, quam lectionem, XII Chr. saec., prae oculis habuit \Name{Iohannes Hispalensis} (\textit{Rudimenta astronomica Alfragrani}, Norimbergae 1537, cap. IX, f. 9,r.), vertens « et Alam et Fons » quod est editionis corruptela pro « et Alain idest Fons ». Item \Name{Albohazen}, p. 406, « Alcaz cuius lon. 63. lat. 12 » (cfr. meas adnotationes in fine tabularum Albatenii); \textit{Tāǵ al-azyāǵ}, f. 68,v.: « urbs \textarabic{القس} » 73° 0′, 12° 15′ (\textarabic{ىه}) in al-Yemen, primi climatis; demum « urbs \textarabic{القس} » in globo caelesti sub nr. 221 iam indicato, quod \Name{Dorn} « die Stadt Kuss » vertit. — Vocales apposui existimans esse corruptum ex Ὄκηλις ἐμπόριον (VI, 7, 7, et passim) 75° 0′, 12° 0′, ut me monuit \Name{M. Hartmann} epistula 7 Maii 1895; in Arabia Felici, ad Arabicum sinum prope fretum Bāb al-Mandeb, circa vicum Shēkh Saʿīd; \Name{Ritter} XII (1848), p. 243-44.
+\par\hangindent=8mm\hangafter=1 Nr. 235. Lat. in cod. \textarabic{نه} 55° pro \textarabic{يه} 15°, quod iam \Name{Lelewel} correxerat. — Item \textarabic{مارا} apud \Name{al-Khuwār.} 63° 0′, 15° 15′ (urbs maritima); \Name{Ibn Yūnus} (cod. Lugd.-Bat., p. 134) 63° 0′, 15° 15′ (\textarabic{ىه}); \Name{al-Farghānī}, cap. IX, p. 36 ed. Golii (in versione \Name{Iohannis Hispalensis}, l. c., « Mediae »); \Name{Albohazen}, p. 406, « Mery in terra de Hemen, cuius long. 63. lat. 15 »; \Name{Quṭb ad-dīn ash-Shīrāzī}, \textit{Nihāyat al-idrāk}, f. 112,r.; et in globo caelesti de quo ad nr. 221. Corrupte \textarabic{ما وراء} apud \Name{Ibn Rosteh} 96, l. 9 et in libro \textit{Mufīd al-ʿulūm} (1), Kahirae 1310 heg. p. 73; in ambobus pro \textarabic{وما وراء تالة} restituatur \textarabic{ومارا وتبالة} ut apud \Name{al-Farghānī}. — \Name{Ptolemaei} (VI, 7, 37) Μάρα μητρόπολις 76° 0′, 18° 20′, non est urbs maritima sed interior; iuxta \Name{Sprenger}, \textit{Alte Geographie Arabiens}, Bern 1875, p. 157, hodierna Ṣaʿdah, 200 km. a septentrionibus urbis Ṣanʿā’ (nr. 184). Geographi khalīfae al-Maʾmūn perperam Μάρα cum Μούζα ἐμπόριον (VI, 7, 7) 74° 30′, 14° 0′, ad maris littus, confudisse videntur; Μούζα est fortasse hodierna \textit{Mawzaʿ} vel \textit{Mūzaʿ}, quae tamen nunc a mare et ab urbe Makhā (Mokha) 32 km. circiter in orientem versus distat; \Name{Ritter} XII (1848), p. 769–70.
+\par\hangindent=8mm\hangafter=1 Nr. 236. Quid sit nescio. In lat. cod. \textarabic{نج} 53° pro \textarabic{يج} 13°; \Name{al-Khuwār.} « urbs \textarabic{مرهوذا} » (m.r.h.w.dhā) 69° 0′, 13° 0′, in primo climate.
+\par\hangindent=8mm\hangafter=1 Nr. 237. \Name{Al-Khuwār.} et \Name{Ibn Yūnus} 71° 0′, 12° 30′ (l. 14° 30′) in primo climate. Intelligitur \textit{Shibām}, olim praecipua regionis Ḥaḍramūt urbs; in mappa 1 : 800000 adiecta \Name{L. Hirsch}, \textit{Reise in Süd-Arabien, Mahra-Land und Ḥaḍramūt}, Leiden 1897, est 48° 25′ E Gr., 16° 37′ $\tfrac{1}{2}$ N.
+\par\hangindent=8mm\hangafter=1 Nr. 238. I. e. « Aromatum urbs » = Ἀρώματα ἐμπόριον (IV, 7, 10) 83° 0′, 6° 0′. In lat. pro \textarabic{د} 4° codicis legi \textarabic{ه} 5°, sequens certissimos numeros \Name{al-Khuwār.} 72° 0′, 5° 30′; cfr. meum \textit{Al-Ḫuwârizmî e il suo rifacimento etc.}, p. 28, adn. 4. \Name{Albohazen}, p. 406: « civitas Datyb, cuius lon. est 122 gra. et lat.
+\par}
+\par\vspace{2mm}\begin{center}\rule{40mm}{.4pt}\end{center}
+{\small (1) In edit. auctor perperam \Name{Abū Bakr al-Khuwārizmī} (qui anno 383 heg., 993 Chr. obiit) vocatur; nam ineunte VI saec. hegirae (XII Chr.) librum composuit \Name{Ǵalāl ad-dīn al-Qazwīnī}, cfr. \Name{I. Goldziher}, \textit{Die Sabbathinstitution im Islam}, 1901, pag. \textsc{xv–xvi}.}\par
+\clearpage
+\noindent\makebox[\textwidth]{\textbf{}\hfill{\small AL-BATTANI OPUS ASTRONOMICUM}\hfill\textbf{51}}\par\vspace{-1mm}\noindent\rule{\textwidth}{.4pt}\par\vspace{2mm}
+\noindent\begin{minipage}[t]{0.5\textwidth}{\small \begin{tabular}{p{40mm}|r@{\hspace{1.4mm}}r|r@{\hspace{1.4mm}}r}
+\centering Nomina urbium. & \multicolumn{2}{c|}{Longit.} & \multicolumn{2}{c}{Latitudo.} \\ \hline
+\hangindent=4mm\hangafter=1 239. Urbs al–Mayd. & 107° & 0′ & 9° & 0′ \\
+\hangindent=4mm\hangafter=1 240. Urbs \textarabic{المعلى} [vel \textarabic{المعلا}]. & 83 & 55 & 15 & 42 \\
+\hangindent=4mm\hangafter=1 241. Ẓafār. & 88 & 0 & 15 & 0 \\
+\end{tabular}}\end{minipage}\vrule\,\vrule\hfill\begin{minipage}[t]{0.48\textwidth}{\small \begin{tabular}{p{40mm}|r@{\hspace{1.4mm}}r|r@{\hspace{1.4mm}}r}
+\centering Nomina urbium. & \multicolumn{2}{c|}{Longit.} & \multicolumn{2}{c}{Latitudo.} \\ \hline
+\hangindent=4mm\hangafter=1 242. Saba’. & 74 & 0 & 17 & 0 \\
+\hangindent=4mm\hangafter=1 243. Ǵorash. & 75 & 0 & 17 & 0 \\
+\hangindent=4mm\hangafter=1 244. Mahrah. & 74 & 0 & 18 & 30 \\
+\end{tabular}}\end{minipage}
+\par\vspace{3mm}{\small
+\par\hangindent=8mm\hangafter=1 « 4 gra. ». Erat in littore orientali Africae quod nos \textit{Benādir} vocamus. Quidam lat. corruperunt 15° 30′, inter quos \Name{Ibn Yūnus}, l. c., 72° 0′, 15° 30′; seriores igitur astronomi urbem in provincia al-Yemen Arabiae ponunt: \textit{Tāǵ al-azyāǵ}, fol. 69,v., 82° 0′, 15° 30′ in al-Yemen; \Name{Quṭb ad-dīn ash-Shīrāzī}, \textit{Nihāyah}, f. 112,r., « I clima ... transit per Sinum Persicum et paeninsulam Arabicam, postea per extremitatem australem [provinciae] al-Ḥiǵāz et plurimas urbes [provinciae] al-Yemen, ut al-Mayd (cod. \textarabic{المد}), Medīnat aṭ-Ṭīb, M.ʿallā (\textarabic{معَلَّا}), Ḥaḍramūt, Ṣanʿā’ ... ». Demum, anno 1594 Chr., Persicus scriptor \Name{Abū ’l-faẓl ʿAllāmī}, \textit{Āyīn-i-Akbarī} edited by H. Blochmann, Calcutta 1867–1877, t. II, p. 31, urbem in al-Yemen quoque ponit, qua re translatores Anglici nihil intellexerunt (translated by H. Blochmann and H. S. Jarrett, Calcutta 1873–94, t. III, p. 54).
+\par\hangindent=8mm\hangafter=1 Nr. 239. Cod. \textarabic{المزد} pro \textarabic{المند} aut \textarabic{الميد}; adhuc incertum enim utrum al-Mand an al-Mayd vera lectio sit. \Name{Al-Khuwār.} magnam insulam al-Mayd (al-Mand) vel al-Kurk (1) cognoscit, fluvio rigatam, et tres urbes complectentem, quarum una 107° 0′, 9° 0′ obtinet (itemque \Name{Ibn Yūnus}, cfr. meum \textit{al-Ḫuwârizmî e il suo rifacimento etc.} p. 39); \textit{Tāǵ al-azyāǵ} fol. 70,v.: « urbs al-Mayd in India (al-Hind) 97° 0′ (sic), 9° 0′ »; cfr. \Name{Quṭb ad-dīn ash-Shīrāzī} in adn. ad nr. 238. Al-Mayd erant piratarum genus, quatuor dierum et dimidii itinere ab ortu ostiorum Indi incolens, cuius saepe Arabici scriptores IX et X saec. Chr. meminerunt; cfr. \Name{Elliot}, \textit{The history of India as told by its own historians}, London 1867-77, t. I, p. 508 sqq., 519–531; \Name{de Goeje}, \textit{Bijdrage tot de geschiedenis der Zigeuners}, in Verslagen en Mededeelingen der k. Ak. van Wetenschappen, Afdeel. Letterk., 2ᵉ reeks, V deel, Amsterdam 1876, p. 59-61, 68, 70.
+\par\hangindent=8mm\hangafter=1 Nr. 240. Sine articulo M.ʿlā (vel M.ʿllā) apud \Name{al-Khuwār.} 73° 0′, 12° 45′, \Name{Ibn Yūnus} 73° 15′ (vel 55′ \textarabic{ىه}), 14° 45′, \Name{Quṭb ad-dīn ash-Shīrāzī} f. 112,r. (ubi M.ʿallā, cfr. ad nr. 238), \Name{Qāḍī-zādeh} ad \textit{Tadhkirah}, tract. III, cap. I, f. 124,v., et \Name{Abū ’l-faẓl ʿAllāmī}, t. II, 31 (vers. III, 54, ubi translatores Muʿallā legunt et male putant esse urbem in al-Ḥiǵāz), qui omnes eam in I climate et in provincia al-Yemen collocant. Quid sit nescio.
+\par\hangindent=8mm\hangafter=1 Nr. 241. \Name{Al-Khuwār.} 78° 0′, 15° 0′; est Ẓafār provinciae Mahrah (diversa a nr. 97) cuius exstant ruinae prope vicos Reysūt et Khōr el-belid, ad littus Oceani, haud longe a Mirbāṭ; lat. fere 17° N. \Name{Ritter} XII (1847), p. 251-55; \Name{Ed. Glaser}, \textit{Skizze der Geschichte und Geographie Arabiens bis zum Propheten Muhammad}, Berlin 1890, t. II, p. 181.
+\par\hangindent=8mm\hangafter=1 Nr. 242. Codicis \textarabic{صد} 64° et \textarabic{نز} 57° correxi \textarabic{عد} 74° et \textarabic{يز} 17°, \Name{Lelewel} praeeunte; \Name{al-Khuwār.} 64° 0′, 17° 10′; Σάβη (VI, 7, 38) 73° 40′, 17° 10′. Est hodierna \textit{Mārib}, 100 km. circiter E-N-E a Ṣanʿā’ (nr. 184). Latitudo ergo parum diversa a Ṣanʿā’ esse debebat; discrepantia ex eo provenit quod al-Khuwārizmī et al-Battānī quoad Saba’ \Name{Ptolemaeum} sequuntur, quoad Ṣanʿā’ astronomos huius urbis. Hi enim, teste \Name{al-Hamdānī}, p. 44 (et cfr. 25-26 de Ptolemaeo) Ṣanʿā’ in 14° 30′ lat, Mārib in 14° 40′ ponebant.
+\par\hangindent=8mm\hangafter=1 Nr. 243. \Name{Al-Khuwār.} 65° 0′, 17° 0′. Territorium Arabiae in hodierna provincia ʿAsīr; urbs caput erat prope initium torrentis Wādī Bīsheh, et, iuxta al-Hamdānī p. 186, l. 22, sub eadem latitudine qua Kutneh, provinciae al-Ḥiǵāz initium, nempe 17° $\tfrac{1}{10}$ + $\tfrac{1}{6}$ + $\tfrac{1}{20}$ = 17° 19′. Cfr. ad nr. 245.
+\par\hangindent=8mm\hangafter=1 Nr. 244. Pro cod. \textarabic{نح} 58° in lat. \textarabic{يح} 18° cum \Name{Lelewel} restituo. \Name{Al-Khuwār.}: « Mahrah [provinciae] al-Yemen (2), in II climate, 64° 0′, 18° 30′ »; \Name{Ibn Yūnus} 65° 0′ (ubi \textarabic{سه} scripturae error pro \textarabic{سد} 64°),
+\par}
+\par\vspace{2mm}\begin{center}\rule{40mm}{.4pt}\end{center}
+{\small (1) Ita, de Goeje monente, corrigantur \textarabic{الكرل} apud \Name{al-Khuwār.} et \Name{al-Farghānī}, \textarabic{الكول} \Name{Ibn Rosteh} 96, al-Kark apud \Name{Yāqūt}, I, 29. \Name{Albohazen}, p. 406: « insula Calcul » i. e. D-alcul = \textarabic{الكول}.}\par
+{\small (2) Apud geographos Arabicos vetustiores al-Yemen interdum ipsam provinciam Ḥaḍramūt complectebatur, ut apud Graecos Ἀραβία Εὐδαίμων; cfr. \Name{al-Hamdānī}, p. 51 et 85.}\par
+\clearpage
+\noindent\makebox[\textwidth]{\textbf{52}\hfill{\small C. A. NALLINO}\hfill\textbf{}}\par\vspace{-1mm}\noindent\rule{\textwidth}{.4pt}\par\vspace{2mm}
+\noindent\begin{minipage}[t]{0.5\textwidth}{\small \begin{tabular}{p{40mm}|r@{\hspace{1.4mm}}r|r@{\hspace{1.4mm}}r}
+\centering Nomina urbium. & \multicolumn{2}{c|}{Longit.} & \multicolumn{2}{c}{Latitudo.} \\ \hline
+\hangindent=4mm\hangafter=1 245. Tabālah. & \textit{77°} & \textit{0′} & 19° & 0′ \\
+\hangindent=4mm\hangafter=1 246. al–Baḥrayn. & 84 & 20 & 25 & 45 \\
+\hangindent=4mm\hangafter=1 247. ʿOmān. & 94 & 30 & 19 & 45 \\
+\hangindent=4mm\hangafter=1 248. an–Nīrūn. & 104 & 20 & 23 & 30 \\
+\hangindent=4mm\hangafter=1 249. \textarabic{مصره} ex al–Yemen. & \textit{66} & \textit{0} & \textit{25} & \textit{25} \\
+\hangindent=4mm\hangafter=1 250. Akhmīm. & 66 & 30 & 25 & 30 \\
+\end{tabular}}\end{minipage}\vrule\,\vrule\hfill\begin{minipage}[t]{0.48\textwidth}{\small \begin{tabular}{p{40mm}|r@{\hspace{1.4mm}}r|r@{\hspace{1.4mm}}r}
+\centering Nomina urbium. & \multicolumn{2}{c|}{Longit.} & \multicolumn{2}{c}{Latitudo.} \\ \hline
+\hangindent=4mm\hangafter=1 251. Qūṣ. & 65° & 30′ & \textit{20°} & \textit{30′} \\
+\hangindent=4mm\hangafter=1 252. al–Qolzum. & 66 & 30 & 27 & 30 \\
+\hangindent=4mm\hangafter=1 253. al–Ǵār, littus [ur-\newline bis] Mekkah [sic!]. & \raisebox{-1\normalbaselineskip}[0pt][0pt]{69} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{30} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{\textit{30}} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{\textit{0}} \\
+\hangindent=4mm\hangafter=1 254. Haǵar. & 83 & 20 & 25 & 45 \\
+\hangindent=4mm\hangafter=1 255. Ǵīruft. & 98 & 0 & 31 & 15 \\
+\end{tabular}}\end{minipage}
+\par\vspace{3mm}{\small
+\par\hangindent=8mm\hangafter=1 18° 30′; \textit{Tāǵ al-azyāǵ} f. 69,r.: « Mahrah in al-Yemen, 74° 0′, 13° 30′ (\textarabic{يج} 13° pro \textarabic{يح} 18°) ». Longitudo non convenit notae regionis Mahrah inter Ḥaḍramūt et ʿOmān; aut error al-Khuwārizmī (aliorumque qui eum secuti sunt), aut locus mihi ignotus. \Name{Al-Farghānī}, cap. IX, p. 35 ed. Golii, et ex eo \Name{Ibn Rosteh} 96, urbem Mahrah in I climate ponunt, qua re patet eos in lat. 13° 30′ pro 18° 30′ legisse; in long. tamen numeros \Name{al-Khuwār.} habuerunt, nam Mahrah simul cum Ǵorash et Saba’ nominant. \Name{Lelewel} conferre voluit Μαράσδου (VI, 7, 36) 74° 30′, 18° 30′.
+\par\hangindent=8mm\hangafter=1 Nr. 245. \Name{Al-Khuwār.} 66° 0′, 19° 0′; long. cum al-Medīnah vel Yathrib (nr. 104) satis bene componitur, sed cum aṭ-Ṭā’if (nr. 193) melius si, cum \Name{al-Khuwārizmī}, pro \textarabic{عز} 77° legatur \textarabic{عو} 76°. Est in regione quam hodie ʿAsīr vocant, in via peregrinatorum a Ṣanʿā’ ad Mekkah, medio circiter itinere inter Sadwān et Raghdān; olim celeberrima ob ubertatem vallis. Iuxta \Name{al-Hamdānī}, p. 187, l. 5-6, latitudo 18° $\tfrac{1}{3}$ + $\tfrac{3}{10}$ = 18° 38′; a latit. Ǵorash (nr. 243) igitur nimis apud al-Khuwār. et al-Battānī differre videtur.
+\par\hangindent=8mm\hangafter=1 Nr. 246. \Name{Al-Khuwār.} 74° 20′, 25° 45′. Erat urbs praecipua insulae eiusdem nominis (vel Owāl, Awāl) in sinu Persico; cfr. \Name{Wüstenfeld}, \textit{Bahrein und Jemâma}, p. 183-84.
+\par\hangindent=8mm\hangafter=1 Nr. 247. Ὄμανον ἐμπόριον (VI, 7, 36) 87° 20′, 19° 15′; \Name{al-Khuwār.} 84° 30′, 19° 45′. Intelligitur \textit{Ṣoḥār}, olim praecipua provinciae ʿOmān urbs.
+\par\hangindent=8mm\hangafter=1 Nr. 248. Cum \Name{Lelewel} pro \textarabic{صد} 64° in long. \textarabic{ٯد} = \textarabic{قد} 104° restituo; sed vera lectio fortasse \textarabic{ٯٮ} = \textarabic{قب} 102°, nam \Name{al-Khuwār.} 92° 20′, 23° 30′ certissime habet. In littore Sind, ab ortu ad-Daybul (nr. 189); incertum utrum vera nominis forma an-Nīrūn \textarabic{النيرون} an al-Bīrūn \textarabic{البيرون} sit. Cfr. \Name{Elliot}, \textit{The history of India}, t. I, p. 396 sq.
+\par\hangindent=8mm\hangafter=1 Nr. 249. Nomen mihi ignotum; numeri ad Aegyptum non ad al-Yemen pertinent.
+\par\hangindent=8mm\hangafter=1 Nr. 250. In lat. cod. \textarabic{له} 35° pro \textarabic{كه} 25°; \Name{al-Khuwār.} 55° 30′, 26° 50′; Πανόπολις (IV, 5, 72) 62° 0′, 27° 20′. Ad Nili dexteram ripam.
+\par\hangindent=8mm\hangafter=1 Nr. 251. Lat. manifeste mendosa; \Name{al-Khuwār.} 60° 0′, 23° 0′; Ἀπόλλωνος πόλις μικρά (Apollinopolis parva, IV, 5, 73) 62° 30′, 25° 50′. Ad dexteram Nili ripam, a septentrionibus Thebarum.
+\par\hangindent=8mm\hangafter=1 Nr. 252. Κλύσμα (IV, 5, 14) 63° 20′, 28° 50′; \Name{al-Khuwār.} 56° 30′, 28° 20′. Eius ruinae 1 $\tfrac{1}{2}$ km. a septentrionibus \textit{Suez} (es-Suways, vulgo \textit{es-Suwēs}), cuius pharus Tewfik (Tawfīq), 3 km. S-W ab urbe, 32° 33′ 30″ E Gr., 29° 56′ 9″ N. Cfr. \Name{Quatremère}, \textit{Mémoires géographiques et historiques sur l’Égypte}, Paris 1811, t. I, p. 151-88 et 514, qui, contra sententiam \Name{Gosselin} et \Name{Langlès}, demonstravit unam tantum urbem Clysma et al-Qolzum exstitisse, non duas.
+\par\hangindent=8mm\hangafter=1 Nr. 253. Latitudo procul dubio falsa; cfr. al-Medīnah vel Yathrib (nr. 104), et \Name{al-Khuwār.} 64° 20′, 24° 0′. Erat portus urbis al-Medīnah, non Mekkah; eius ruinae 23° 40′ lat. N, ubi parvus sinus est \textit{Sherm Buraykah}, 12-15 km. a septentrionibus promontorii Rās al-Abyaḍ; \Name{Ritter}, XII (1847), p. 182–83.
+\par\hangindent=8mm\hangafter=1 Nr. 254. Pro \textarabic{مه} 45° cod. in lat., cum \Name{Lelewel} \textarabic{كه} 25° lego; \Name{al-Khuwār.} 73° 40′, 24° (vel 25° ut apud \Name{Ibn Yūnus}) 55′ (\textarabic{ىه} aut 15′); cfr. nr. 246. Haud longe a sinu Persico; usque ad finem VI saec. hegirae urbs caput provinciae al-Aḥsā’ (al-Baḥrayn); probabiliter quae hodie \textit{Wāb} vocatur.
+\par\hangindent=8mm\hangafter=1 Nr. 255. \Name{Al-Khuwār.} 88° 0′, 31° 45′. Magna olim urbs provinciae Kirmān; hodie nomen regiunculae inter 57°-58° E Gr., 28° $\tfrac{1}{2}$ N, 100 km. circiter S-W a Bamm. Veteris urbis ruinas \Name{R. Murdoch Smith} invenit in loco \textit{Shahr-i-Daqyānūs} appellato, ad ripas fluminis Khalīl-rūd, parum ab occasu vici Sarǵaz; cfr. \Name{G. Le Strange}, \textit{The cities of Kirmān}, in Journal of the R. Asiatic Society, 1901, p. 282.
+\par}
+\clearpage
+\noindent\makebox[\textwidth]{\textbf{}\hfill{\small AL-BATTANI OPUS ASTRONOMICUM}\hfill\textbf{53}}\par\vspace{-1mm}\noindent\rule{\textwidth}{.4pt}\par\vspace{2mm}
+\noindent\begin{minipage}[t]{0.5\textwidth}{\small \begin{tabular}{p{40mm}|r@{\hspace{1.4mm}}r|r@{\hspace{1.4mm}}r}
+\centering Nomina urbium. & \multicolumn{2}{c|}{Longit.} & \multicolumn{2}{c}{Latitudo.} \\ \hline
+\hangindent=4mm\hangafter=1 256. Kābul. & 110° & 0′ & 28° & 0′ \\
+\hangindent=4mm\hangafter=1 257. Donqolah, urbs an–\newline Nūbah [Nubiae]. & \raisebox{-1\normalbaselineskip}[0pt][0pt]{63} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{0} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{14} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{15} \\
+\hangindent=4mm\hangafter=1 258. ar–Rūyān. & 86 & 35 & 37 & 10 \\
+\hangindent=4mm\hangafter=1 259. al–Muḥammadiy-\newline yah. & \raisebox{-1\normalbaselineskip}[0pt][0pt]{100} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{0} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{31} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{45} \\
+\hangindent=4mm\hangafter=1 260. Qaṣr al-milḥ. & 91 & 0 & 32 & 0 \\
+\hangindent=4mm\hangafter=1 261. as-Sīraǵān. & 93 & 0 & 32 & 0 \\
+\end{tabular}}\end{minipage}\vrule\,\vrule\hfill\begin{minipage}[t]{0.48\textwidth}{\small \begin{tabular}{p{40mm}|r@{\hspace{1.4mm}}r|r@{\hspace{1.4mm}}r}
+\centering Nomina urbium. & \multicolumn{2}{c|}{Longit.} & \multicolumn{2}{c}{Latitudo.} \\ \hline
+\hangindent=4mm\hangafter=1 262. Donbāwend. & 86° & 30′ & 36° & 35′ \\
+\hangindent=4mm\hangafter=1 263. Āmul. & 87 & 20 & 37 & 45 \\
+\hangindent=4mm\hangafter=1 264. Sāriyah. & 87 & 30 & 38 & 0 \\
+\hangindent=4mm\hangafter=1 265. Aṭrābazundah. & 73 & 0 & 43 & 0 \\
+\hangindent=4mm\hangafter=1 266. Khuwayy. & 82 & 0 & 41 & 40 \\
+\hangindent=4mm\hangafter=1 267. Osrūshanah. & 101 & 10 & 36 & 40 \\
+\hangindent=4mm\hangafter=1 268. ʿAbbādān. & 84 & 55 & 31 & 0 \\
+\hangindent=4mm\hangafter=1 269. Ṭūs. & 92 & 0 & 37 & 0 \\
+\end{tabular}}\end{minipage}
+\par\vspace{3mm}{\small
+\par\hangindent=8mm\hangafter=1 Nr. 256. \Name{Al-Khuwār.} 100° 0′, 28° 0′.
+\par\hangindent=8mm\hangafter=1 Nr. 257. \Name{Al-Khuwār.} 53° 0′, ..... 30′.
+\par\hangindent=8mm\hangafter=1 Nr. 258. \Name{Al-Khuwār.} 76° 35′, 36° 15′ (\textarabic{ىه} vel 55′). Erat urbs et regio in montibus provinciae Ṭabaristān (hodie Māzanderān), haud longe a declivitate boreali montis Elburz.
+\par\hangindent=8mm\hangafter=1 Nr. 259. \Name{Al-Khuwār.} 90° 0′, 31° 45′. Erat ad littus maris in provincia Mokrān, prope confinia as-Sind (Indiae).
+\par\hangindent=8mm\hangafter=1 Nr. 260. \Name{Al-Khuwār.} 81° 0′, 32° 30′. Vetustissima urbs Persica provinciae Kirmān, cuius situm iam ipse \Name{Yāqūt} non cognoscebat.
+\par\hangindent=8mm\hangafter=1 Nr. 261. In lat. cod. \textarabic{ىد} quod \textarabic{لٮ} = \textarabic{لب} 32° lego; \Name{al-Khuwār.} 83° 0′, 32° 0′. Usque ad medietatem IV hegirae saec. (X Chr.) urbs caput provinciae Kirmān; post 1400 Chr. ignota. Hodie nomen tractus (Sīrǵān) inter 55° $\tfrac{1}{2}$-56° $\tfrac{1}{2}$ E Gr., 29°-30° N, ab austro montis Kūh-i-Pārīz, et ab occasu parvae regionis Bardsīr \textarabic{بردسير}; eius caput Saʿīd-ābād, 200 km. circiter ab ortu lacus Bakhtegān vel Nīrīz. \Name{A. Houtum-Schindler} (\textit{Journal of the R. Asiatic Society}, 1898) veterem urbem Sīraǵān esse hodiernam \textit{Saʿīd-ābād} putat; sed \Name{G. Le Strange}, \textit{The cities of Kirmān} (in Journ. R. Asiat. Soc. 1900, p. 282-83, 285-90) ex Arabum notitiis deducit eam fuisse ubi nunc \textit{Bahrām-ābād}, caput regionis Rafsinǵān, a septentrionibus montis Kūh-i-Pārīz et ab occasu urbis Kirmān, iuxta mappas \Name{A. Stahl} 55° 56′ $\tfrac{1}{2}$ E Gr., 30° 27′ $\tfrac{1}{2}$ N. Differentia igitur latitudinis nimis parva respectu Ǵīruft (nr. 255), differentia longitudinis nimis magna.
+\par\hangindent=8mm\hangafter=1 Nr. 262. In long. cod. \textarabic{فه ل} 85° 30′, sed cfr. nr. 172, 263, 264; in lat. pro \textarabic{نز} 57° lego \textarabic{لو} 36°; \Name{al-Khuwār.} 75° 30′, 36° 15′. Appellatur quoque \textit{Demāwend}, quod est nomen hodiernum; ab ortu Ṭeherān, iuxta mappas \Name{Stahl} 52° 2′ $\tfrac{1}{4}$ E Gr., 35° 33′ $\tfrac{1}{2}$ N.
+\par\hangindent=8mm\hangafter=1 Nr. 263. \Name{Al-Khuwār.} 77° 20′, 37° 45′. In hodierna provincia Māzanderān ad flumen Hārhāz vel Lār; in mappis \Name{A. F. Stahl} 52° 26′ $\tfrac{1}{2}$ E Gr., 36° 25′ N; urbs vetus parum erat ab occasu urbis hodiernae, ut narrat \Name{J. de Morgan}, \textit{Mission scientifique en Perse}, Paris 1894-96, t. I, p. 170-78.
+\par\hangindent=8mm\hangafter=1 Nr. 264. \Name{Al-Khuwār.} 77° 50′, 38° 0′. Hodie \textit{Sārī}; in mappis \Name{Stahl} 53° 2′ $\tfrac{1}{4}$ E Gr., 36° 33′ 20″ N; \Name{J. de Morgan}, t. I, p. 165-68.
+\par\hangindent=8mm\hangafter=1 Nr. 265. Cod. \textarabic{اطربزنده}, sed \Name{Yāqūt}, \Name{Ibn Ḥawqal}, \Name{al-Iṣṭakhrī}, \Name{al-Muqaddasī}, \Name{al-Masʿūdī}, semper \textarabic{اطرابزندة} vel \textarabic{طرابزندة}. Τραπεζοῦς (V, 6, 5) 70° 45′, 43° 5′. Hodie Italice \textit{Trebisonda}, Turcice \textit{Ṭrabizōn} \textarabic{طربزون}; 39° 46′ 24″ E Gr., 41° 1′ 0″ N.
+\par\hangindent=8mm\hangafter=1 Nr. 266. Cod. \textarabic{خونى} Notissima urbs provinciae Ādharbayǵān, N-N-W lacus Urmiyah; nomen hodie efferunt \textit{Khōy}.
+\par\hangindent=8mm\hangafter=1 Nr. 267. \Name{Al-Khuwār.} 91° 10′, 36° 40′. Erat inter Samarqand et flumen Sayḥūn (Sīr daryā, Iaxartem); in eius ditione urbes Zāmīn et Dīzak quae adhuc exstant (in mappis Saamin, Dshizak).
+\par\hangindent=8mm\hangafter=1 Nr. 268. \Name{Al-Khuwār.} 75° (vel 74° ?) 15′, 31° 0′. Ad ripam sinistram Shaṭṭ al-ʿArab, et, usque ad XIII saec., ad littus sinus Persici a quo nunc circiter 30 km. distat; N-N-W urbis Fāw. \Name{Ritter}, X (1843), p. 53-54, 182, 280.
+\par\hangindent=8mm\hangafter=1 Nr. 269. In lat. pro \textarabic{له} 35° lego cum \Name{Lelewel} \textarabic{لز} 37°; \Name{al-Khuwār.} 82° 50′, 37° 0′. Olim praecipua urbs provinciae Khorāsān; hodie parvus vicus N-N-W urbis Meshhed; \Name{Ritter}, VIII (1838), p. 287-92.
+\par}
+\clearpage
+\noindent\makebox[\textwidth]{\textbf{54}\hfill{\small C. A. NALLINO}\hfill\textbf{}}\par\vspace{-1mm}\noindent\rule{\textwidth}{.4pt}\par\vspace{2mm}
+\noindent\begin{minipage}[t]{0.5\textwidth}{\small \begin{tabular}{p{40mm}|r@{\hspace{1.4mm}}r|r@{\hspace{1.4mm}}r}
+\centering Nomina urbium. & \multicolumn{2}{c|}{Longit.} & \multicolumn{2}{c}{Latitudo.} \\ \hline
+\hangindent=4mm\hangafter=1 270. Sarakhs. & 94° & 0′ & 37° & 0′ \\
+\hangindent=4mm\hangafter=1 271. Hīt. & 78 & 30 & 33 & 35 \\
+\hangindent=4mm\hangafter=1 272. *Arādhūs. & 68 & 0 & 34 & 30 \\
+\end{tabular}}\end{minipage}\vrule\,\vrule\hfill\begin{minipage}[t]{0.48\textwidth}{\small \begin{tabular}{p{40mm}|r@{\hspace{1.4mm}}r|r@{\hspace{1.4mm}}r}
+\centering Nomina urbium. & \multicolumn{2}{c|}{Longit.} & \multicolumn{2}{c}{Latitudo.} \\ \hline
+\hangindent=4mm\hangafter=1 273. Bayt al-Maqdis [Ie-\newline rusalem]. & \raisebox{-1\normalbaselineskip}[0pt][0pt]{66°} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{30′} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{31°} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{50′} \\
+\end{tabular}}\end{minipage}
+\par\vspace{3mm}{\small
+\par\hangindent=8mm\hangafter=1 Nr. 270. Pro cod. \textarabic{ڧو} 106° (in scriptura maghrebina \textarabic{ڧ} = \textarabic{ق}) in long. cum \Name{Lelewel} \textarabic{ضد} 94° restituo; \Name{al-Khuwār.} 83° 20′, 38° 0′. In via a Nīshāpūr ad Merw, prope dexteram fluminis Herī-rūd; in opposita ripa est Sarakhs hodierna.
+\par\hangindent=8mm\hangafter=1 Nr. 271. \Name{Al-Khuwār.} 68° 30′, 33° 15′. Ad Euphratis dexteram ripam, iuxta observationes astronomicas \Name{Chesney} 42° 52′ 15″ E Gr., 33° 38′ 8″ N; \Name{Ritter}, XI (1844), p. 749–62.
+\par\hangindent=8mm\hangafter=1 Nr. 272. Pro cod. \textarabic{ضح} 98° in long. lego \textarabic{صح} 68°; Ἄραδος (V, 15, 27) 68° 0′, 34° 30′. Mirum al-Battānī Graecum nomen servavisse, cum Arabes semper dixerint Arwād (hodie \textit{Arwād} vel \textit{Ruwād}) ut Hebraice \textit{Arwād}, Assyriace \textit{Arwada} Parva insula et urbs littoris Syriae inter Tripolim (nr. 123) et Laodiceam (nr. 122).
+\par\hangindent=8mm\hangafter=1 Nr. 273. Ἱεροσόλυμα (V, 16, 8) 66° 0′, 31° 40′; \Name{al-Khuwār.} 56° 0′, 32° 5′. Ecclesia S. Sepulchri 35° 13′ 6″ E Gr., 31° 46′ 30″ N.
+\par}
+\clearpage
+\noindent\makebox[\textwidth]{\textbf{}\hfill{\small AL-BATTANI OPUS ASTRONOMICUM}\hfill\textbf{219}}\par\vspace{-1mm}\noindent\rule{\textwidth}{.4pt}\par\vspace{2mm}
+{\small\setlength{\tabcolsep}{3pt}\noindent\begin{tabular}{|p{38mm}|r@{\hspace{1.4mm}}r|r@{\hspace{1.4mm}}r|p{\dimexpr\textwidth-76mm\relax}|}\hline
+\centering\textsc{Urbes} & \multicolumn{2}{c|}{\shortstack{Longitu-\\dines}} & \multicolumn{2}{c|}{Latitudines} & \centering\textsc{Notae}\tabularnewline\hline
+Aṭrābulus Barqah & 41° & 40′ & 32° & 0′ & \raggedright \textit{Tripolis Africae.} — Al-Khuwārizmī 40° 40′, 32° 0′; Ibn Yūnus 40° 40′, 33° 0′; Abou. 48° 30′, 33° 15′.\tabularnewline
+Qarṭāǵannah Hispaniae & \textit{33} & \textit{45} & 52 & 0 & \raggedright \textit{Cartagena.} — Long. mendosa; lat. cum reliquis male conveniens. Ibn Yūnus 27° 0′, 52° 0′.\tabularnewline
+Qurṭubah & 27 & 0 & 38 & \textit{38} & \raggedright \textit{Córdoba.} — Minuta lat. 30′ restituantur; tunc omnia cum Abr. et Abou. congruent.\tabularnewline
+Ishbīliyah & 25 & 40 & 37 & 15 & \raggedright \textit{Sevilla.} — Ut Abr. et Abou.\tabularnewline
+Ṭulayṭilah & 28 & 0 & 40 & 0 & \raggedright \textit{Toledo.} — Ut Abou.; Abr. 28° 15′, 39° 52°.\tabularnewline
+Gharnāṭah & 27 & 30 & 37 & 30 & \raggedright \textit{Grenada.} — Ut Abr. et Abou.\tabularnewline
+Shantarīn & 23 & 40 & \textit{45} & 15 & \raggedright \textit{Santarem.} — Long. ut Abr. et Abou. Gradus lat. 40° emendandi; Abr. 40° 15′, Abou. 40° 0′.\tabularnewline
+Mālaqah (1) & 26 & 22 & 37 & 0 & \raggedright \textit{Málaga.} — Ut Abr.; Abou. 26° 20′, 37° 0′.\tabularnewline
+al-Mariyyah (2) & 28 & 0 & 36 & 30 & \raggedright \textit{Almeria.} — Ut Abr. et Abou.\tabularnewline
+Mursiyah & 29 & \textit{29} & 37 & \textit{37} & \raggedright \textit{Murcia.} — Minuta long. et lat. 30′ restituenda, ut Abr. et Abou. habent.\tabularnewline
+Balansiyah & 30 & 30 & 37 & \textit{37} & \raggedright \textit{Valencia.} — Abr. 30° 20′, 36° 25′; Abou. 30° 50′, 37° 30′.\tabularnewline
+Saraqusṭah & 29 & 55 & 41 & 30 & \raggedright \textit{Zaragoza.} — Ut Abou.\tabularnewline
+Ṭanǵah & 24 & 10 & 35 & \textit{55} & \raggedright \textit{Tanger.} — In lat. \textarabic{يه} 15′ pro \textarabic{نه} 55′ restituendum. Abou. 24° 10′, 35° 10′; latit. apud Arzachel (3) et Ibn Yūnus 35° 15′.\tabularnewline
+Fās & 25 & 0 & 33 & 0 & \raggedright \textit{Fez.} — Ut Abr.; Abou. 24° 0′, 33° 0′.\tabularnewline
+Sabtah & 25 & 40 & 35 & 20 & \raggedright \textit{Ceuta.} — Ut Abr. et Abou.\tabularnewline
+Biǵāyah & 36 & 0 & 36 & 30 & \raggedright \textit{Bougie.} — Abou. 36° 5′, 36° 0′.\tabularnewline
+al-Qalʿah & \textit{36} & \textit{17} & \textit{36} & \textit{37} & \raggedright Seu \textit{Qalʿat Banī Ḥammād.} — Numeri mendosi; Abou. 35° 40′, 34° 0′.\tabularnewline
+\hline\end{tabular}}
+\par\vspace{3mm}\textit{Altera urbium series}, in qua iterum Saraqusṭah ac Tudmīr (seu Mursiyah) occurrunt, e \textit{duobus diversis fontibus} manifeste est conflata; quorum alter longitudines praebebat iuxta eos qui (ut \Name{al-Khuwārizmī}, \Name{Ibn Yūnus}, \Name{Arzachel}, partimque \Name{Ibn Saʿīd}) in extrema Africa occidentali et Hispania Ptolemaeum potissimum imitabantur; alter longitudines cum prioris seriei concordantes.
+\par\vspace{2mm}\begin{center}\rule{40mm}{.4pt}\end{center}
+{\small (1) Nonnulli Arabum scriptores \textit{Māliqah} efferendum ducunt; at recte \textit{Tāǵ al-ʿarūs}, VII, 73: \textarabic{ومالقة بفتح اللام والعامة تكسرها، قال الصاغاني وهو غلط واكثر الاندلسيين يضبطونه بفتحها}.}\par
+{\small (2) \Name{Yāqūt} aliique \textit{al-Murriyyah} scribendum praecipiunt, quod in textum recepi; sed vera lectio \textit{al-Mariyyah} « specula ex qua hostes appropinquantes observantur », sicut \Name{Dozy} statuit (\Name{Edrisi}, \textit{Description de l’Afrique et de l’Espagne, texte arabe publié avec une traduction, des notes et un glossaire par R. Dozy et M J. de Goeje}, Leyde 1866, p. 243, adn.).}\par
+{\small (3) Ex \Name{Arzachelis} (az-Zarqālī) \textit{Canonibus super tabulas Toletanas}, Latine versis a Gherardo Cremonensi. Geographica, iuxta cod. Parisiensem 7421, edidit \Name{Lelewel}, Atlas p. 16 (cfr. t. II, Cartes de géographes, p. 78-80).}\par
+\clearpage
+\noindent\makebox[\textwidth]{\textbf{220}\hfill{\small C. A. NALLINO}\hfill\textbf{}}\par\vspace{-1mm}\noindent\rule{\textwidth}{.4pt}\par\vspace{2mm}
+{\small\setlength{\tabcolsep}{3pt}\noindent\begin{tabular}{|p{38mm}|r@{\hspace{1.4mm}}r|r@{\hspace{1.4mm}}r|p{\dimexpr\textwidth-76mm\relax}|}\hline
+\centering\textsc{Urbes} & \multicolumn{2}{c|}{\shortstack{Longitu-\\dines}} & \multicolumn{2}{c|}{Latitudines} & \centering\textsc{Notae}\tabularnewline\hline
+Salā’ & \textit{10°} & \textit{0′} & \textit{27°} & \textit{0′} & \raggedright \textit{Salé.} — Probabiliter omnia ita emendanda: 6° 0′, 34° 0′.\tabularnewline
+Aṣīlā’ & \textit{26} & 15 & 35 & 15 & \raggedright \textit{Arzila.} — Long. mendosa; fortasse 6° 15′.\tabularnewline
+Māridah & 8 & 0 & 41 & 55 & \raggedright \textit{Mérida.} — Ut Arzachel; cfr. Ptolemaei Αὐγούστα Ἠμεριτα 8° 0′, 39° 30′.\tabularnewline
+Madīnat Sālim & 9 & 30 & 40 & 15 & \raggedright \textit{Medinaceli.}\tabularnewline
+Ṭurṭūshah & 32 & 0 & \textit{37} & 15 & \raggedright \textit{Tortosa.} — In lat. fortasse \textarabic{م} 40° restituendum; Ptolemaeus (Δερτῶσα) et Ibn Saʿīd lat. 40° 0′.\tabularnewline
+Saraqusṭah & 8 & 30 & 41 & 30 & \raggedright \textit{Zaragoza.}\tabularnewline
+Tudmīr & 10 & 15 & 37 & 30 & \raggedright \textit{Murcia.}\tabularnewline
+Ghānah (1) & \textit{10} & \textit{0} & \textit{17} & \textit{0} & \raggedright Numeri mendosi videntur. Ibn Yūnus 15° 30′, 10° 45′; Abou. 18° 0′, 10° 0′; qua re fortasse long. et lat. inter se commutandae.\tabularnewline
+Ǵayyān & 28 & 0 & 38 & 0 & \raggedright \textit{Jaen.} — Sicut in \textit{Libro tabularum Jahen}, ignoti auctoris, a Gherardo Cremonensi Latine verso (2); Abou. 27° 30′, 38° 30′.\tabularnewline
+al-Ǵazīrah al-khaḍrā’ & 26 & 0 & 36 & 30 & \raggedright \textit{Algeciras.} — Abou. 25° 40′, 36° 0′.\tabularnewline
+Baṭalyūs & \textit{25} & 20 & 39 & 30 & \raggedright \textit{Badajoz.} — Abou. 24° 32′, 39° 30′; in long. pro \textarabic{كه} 25° fortasse \textarabic{كد} 24° emendandum.\tabularnewline
+Qalʿat Rabāḥ & 9 & 20 & 39 & 30 & \raggedright \textit{Calatrava.}\tabularnewline
+\hline\end{tabular}}
+\par\vspace{3mm}Quae ad fontem, ut ita dicam, \textit{Ptolemaicum} in longitudinibus pertinent sunt Salé, Arzila, Mérida, Medinaceli, Zaragoza, Murcia, Calatrava.
+\par\vspace{2mm}\begin{center}\rule{40mm}{.4pt}\end{center}
+{\small (1) Urbs et regio Sūdān occidentalis, apud Arabes olim celeberrima. Urbs aut hodierna \textit{Walātah} \textarabic{ولاتة} aut illi proxima; regnum, ab Atlantico ad Niger porrectum, et circa 300 Chr. conditum, anno 1203-1204 a gente Mandingo subactum est. Vide \Name{P. C. Meyer}, \textit{Erforschungsgeschichte und Staatenbildungen des Westsudan}, Gotha 1897, p. 59-61 (Ergänzungsheft nr. 121 zu Petermann’s Mitteilungen). — Aliqua nominis similitudine decepti, putaverunt nonnulli Ghānah eandem esse urbem ac \textit{Ǵennē} \textarabic{جنى}, eo loco quo Baulē in dexteram Niger ripam influit.}\par
+{\small (2) Apud \Name{Steinschneider}, \textit{Intorno ad alcuni matematici del medio evo ed alle opere da essi composte, lettere a D. B. Boncompagni}, Roma 1863-67, Lettera II: intorno al libro \textit{Saraceni cuiusdam de eris} ed al libro \textit{Tabule Jahen}, p. 10, adn. 3. — De incerto libri auctore v. \Name{Suter}, \textit{Nachträge und Berichtigungen} p. 170.}\par
+\end{document}
