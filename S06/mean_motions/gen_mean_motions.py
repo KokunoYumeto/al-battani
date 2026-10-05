@@ -10,16 +10,21 @@ from gen_stars import PREAMBLE, markup, read
 
 HERE = Path(__file__).resolve().parent
 SETS = [("mm_pages.tsv", "mm_p2.tsv", ["sun", "moon", "anom", "node"], 3),
-        ("mm5_pages.tsv", "mm5_p2.tsv", ["sat", "jup", "mars", "ven", "mer"], 2)]
+        ("mm5_pages.tsv", "mm5_p2.tsv", ["sat", "jup", "mars", "ven", "mer"], 2),
+        ("mmr_pages.tsv", "mmr_p2.tsv", ["sun", "moon", "anom", "node"], 3)]
 WIDTHS = r"\newlength{\Dw}\newlength{\Mw}\settowidth{\Dw}{000}\settowidth{\Mw}{00}"
 
 
 def nl(s):
-    return markup(s).replace(" / ", r"\\")
+    """line breaks at « / »; the places beyond the thirds ({iv}, {v}, {vi}) as small-capital superscripts"""
+    s = markup(s).replace(" / ", r"\\")
+    for p in ("vi", "iv", "v"):
+        s = s.replace("{" + p + "}", r"\textsuperscript{\textsc{" + p + "}}")
+    return s
 
 
 def ar(s):
-    return r"\textarabic{" + s + "}"
+    return r"\\".join(r"\textarabic{" + x + "}" for x in s.split(" / "))
 
 
 def page_tex(page, rows, groups, places):
@@ -29,7 +34,8 @@ def page_tex(page, rows, groups, places):
     out = [r"\clearpage", head, r"\par\vspace{-1mm}\noindent\rule{\textwidth}{.4pt}\par\vspace{1mm}",
            r"\begin{center}{\small " + page["fol"] + r"}\end{center}\vspace{-3mm}"]
     months = rows[0]["table"] == "months"
-    argw = "32mm" if months else "13mm"
+    upright = "‖" in page["heads"]                    # pp. 72-77: the first head stands upright in a narrow column
+    argw = ("38mm" if "[" in rows[0]["arg"] else "32mm") if months else ("17mm" if upright else "13mm")
     headw = "30mm" if places == 3 else "26mm"
     ncol = 1 + len(groups)
     spec = "|" + (r">{\raggedright\arraybackslash}p{" + argw + "}" if months else r">{\centering\arraybackslash}p{" + argw + "}") + \
@@ -38,16 +44,18 @@ def page_tex(page, rows, groups, places):
     title = r"{\large " + ar(page["title_ar"]) + "}" + "".join(r"\\\textbf{" + markup(x) + "}" for x in tl)
     out.append(r"\begin{center}\setlength{\tabcolsep}{4pt}\renewcommand{\arraystretch}{1.05}\begin{tabular}{" + spec + r"}\hline\hline")
     out.append(r"\multicolumn{" + str(ncol) + r"}{||c||}{\parbox{150mm}{\centering\vspace{1mm}" + title + r"\vspace{1mm}}} \\ \hline")
-    heads = [h.split("/", 1) for h in page["heads"].split("|")]
+    heads = [h.split("‖") if "‖" in h else h.split("/", 1) for h in page["heads"].split("|")]   # Arabic, Latin
     first = heads[0]
-    if months:
+    if months or upright:
         c0 = r"\parbox[c]{" + argw + r"}{\centering\scriptsize " + ar(first[0]) + r"\\" + nl(first[1].strip()) + r"\par\vspace{0.7mm}}"
     else:
         c0 = r"\rotatebox{90}{\scriptsize\begin{tabular}{@{}c@{}}" + ar(first[0]) + r"\\" + nl(first[1].strip()) + r"\end{tabular}}"
-    cells = [c0] + [r"\parbox[c]{" + headw + r"}{\centering\scriptsize " + ar(a) + r"\\" + nl(l.strip()) + r"\par\vspace{0.7mm}}"
-                    for a, l in heads[1:]]
+    cells = [c0] + [r"\parbox[c]{" + headw + r"}{\centering\scriptsize " + (ar(a) + r"\\" if a else "") + nl(l.strip()) +
+                    r"\par\vspace{0.7mm}}" for a, l in heads[1:]]
     out.append(" & ".join(cells) + r" \\ \hline\hline")
     tight_last = rows[-1]["arg"] == "bisext."          # p. 21: dhu 'l-hijjah comm. and bisext. are set close together
+    # rows stand in groups of five, of four in the tables of hours and on p. 72 (as printed)
+    group = 4 if rows[0]["table"] == "hours" or rows[0]["pdf"] == "521" else 5
     marks = [r"\rlap{°}", r"\rlap{′}", r"\rlap{″}"]
     for i, r in enumerate(rows):
         line = [nl(r["arg"])]
@@ -60,7 +68,7 @@ def page_tex(page, rows, groups, places):
         gap = ""
         if months:
             gap = r"[2.2mm]" if i < len(rows) - (2 if tight_last else 1) else ""
-        elif i % 5 == 4 and i < len(rows) - 1:
+        elif i % group == group - 1 and i < len(rows) - 1:
             gap = r"[1.2mm]"
         out.append(" & ".join(line) + r" \\" + gap)
     out.append(r"\hline\hline\end{tabular}\end{center}")

@@ -1,4 +1,4 @@
-"""Check of Nallino's Part II pp. 19-28 (mean motions in Arab collected years, single years, months, days and hours).
+"""Check of Nallino's Part II pp. 19-28 and 72-77 (mean motions in the Arab and in the Roman calendar).
 pp. 19-23 (mm_p2.tsv): the Sun, the Moon, the lunar anomaly and the node, in degrees, minutes and seconds;
 pp. 24-28 (mm5_p2.tsv): Saturn, Jupiter, Mars, and the anomalies of Venus and Mercury, in degrees and minutes.
 Each motion column is a linear function of time: value = a + b * t (mod 360 degrees), with t the number of days
@@ -22,7 +22,11 @@ SETS = [                                    # starting rates in degrees per day;
      "rate": {"sun": 0.9856518, "moon": 13.1763987, "anom": 13.0649829, "node": 0.0529509}},
     {"file": "mm5_p2.tsv", "places": 2, "groups": ["sat", "jup", "mars", "ven", "mer"],
      "rate": {"sat": 0.0334995, "jup": 0.0831342, "mars": 0.5240743, "ven": 0.6165256, "mer": 3.1067021}},
+    {"file": "mmr_p2.tsv", "places": 3, "groups": ["sun", "moon", "anom", "node"], "calendar": "roman",
+     "rate": {"sun": 0.9856518, "moon": 13.1763987, "anom": 13.0649829, "node": 0.0529509}},
 ]
+ROMAN_MONTHS = [31, 61, 92, 122, 153, 184, 214, 245, 275, 306, 337, 365, 366]
+INTERVALS = [20, 40, 60, 80, 100, 200, 300, 400, 500, 600]
 TOL = 3                                     # units of the last place
 # the cells Nallino emends in his notes to pp. 22-23 (Part II, p. 204): each needs a ledger entry of kind «noted»
 NOTED = ["p. 22 days 10 sun", "p. 22 days 21 node", "p. 23 hours 3 sun", "p. 23 hours 23 anom"]
@@ -48,7 +52,11 @@ def show_units(x, places):
     return f"{int(x // 60)}° {x % 60:.1f}′"
 
 
-def tdays(table, i):
+def tdays(table, i, cal="arab"):
+    if cal == "roman":                       # Julian years: 365 days, 366 in every fourth; 7305 days in 20 years
+        return {"collected": lambda: 7305 * i, "single": lambda: 365 * (i + 1) + (i + 1) // 4,
+                "months": lambda: ROMAN_MONTHS[i], "days": lambda: i + 1, "hours": lambda: (i + 1) / 24,
+                "intervals": lambda: 365.25 * INTERVALS[i]}[table]()
     if table == "collected":
         return 10631 * i
     if table == "single":
@@ -81,11 +89,14 @@ found, agree, worst, problems, cells = [], 0, {}, [], {}
 for S in SETS:
     rows = read(S["file"]); P = S["places"]; unit = "″" if P == 3 else "′"
     MOD = 360 * 60 ** (P - 1)
-    for table in ("collected", "single", "months", "days", "hours"):
+    cal = S.get("calendar", "arab")
+    for table in ("collected", "single", "months", "days", "hours") + (("intervals",) if cal == "roman" else ()):
         T = [r for r in rows if r["table"] == table]
-        t = np.array([tdays(table, i) for i in range(len(T))], float)
-        exp_args = {"collected": [str(1 + 30 * i) for i in range(len(T))], "single": [str(i + 1) for i in range(len(T))],
-                    "days": [str(i + 1) for i in range(len(T))], "hours": [str(i + 1) for i in range(len(T))]}.get(table)
+        t = np.array([tdays(table, i, cal) for i in range(len(T))], float)
+        first, step = (931, 20) if cal == "roman" else (1, 30)
+        exp_args = {"collected": [str(first + step * i) for i in range(len(T))], "single": [str(i + 1) for i in range(len(T))],
+                    "days": [str(i + 1) for i in range(len(T))], "hours": [str(i + 1) for i in range(len(T))],
+                    "intervals": [str(n) for n in INTERVALS]}.get(table)
         if exp_args and [r["arg"] for r in T] != exp_args:
             found.append((f"{S['file']} {table} arguments", "", ""))
         for g in S["groups"]:
@@ -106,12 +117,29 @@ for S in SETS:
     comm = [r for r in rows if r["table"] == "months"][11]
     day1 = [r for r in rows if r["table"] == "days"][0]
     h24 = [r for r in rows if r["table"] == "hours"][23]
+    month = "subat comm." if cal == "roman" else "dhu 'l-hijjah" + (" comm." if P == 3 else "")
     for g in S["groups"]:
         if units(one_year, g, P) != units(comm, g, P):
-            found.append((f"identity single year 1 = dhu 'l-hijjah{' comm.' if P == 3 else ''} ({g})",
+            found.append((f"identity single year 1 = {month} ({g})",
                           f"{show(comm, g, P)} (p. {comm['ppage']})", f"{show(one_year, g, P)} (p. {one_year['ppage']})"))
         if units(day1, g, P) != units(h24, g, P):
-            found.append((f"identity day 1 = hour 24 ({g})", show(h24, g, P), show(day1, g, P)))
+            found.append((f"identity day 1 = hour 24{' (Roman)' if cal == 'roman' else ''} ({g})", show(h24, g, P), show(day1, g, P)))
+    if cal == "roman":                       # 20 single years = the interval of 20 years
+        y20 = [r for r in rows if r["table"] == "single"][19]
+        i20 = [r for r in rows if r["table"] == "intervals"][0]
+        for g in S["groups"]:
+            if units(y20, g, P) != units(i20, g, P):
+                found.append((f"identity single year 20 = interval 20 ({g})", show(i20, g, P), show(y20, g, P)))
+
+# the days and hours of the Roman calendar (pp. 75-76) are the same motions as those of pp. 22-23
+arab = read("mm_p2.tsv"); roman = read("mmr_p2.tsv")
+for table in ("days", "hours"):
+    A = [r for r in arab if r["table"] == table]; R = [r for r in roman if r["table"] == table]
+    for ra_, rr in zip(A, R):
+        for g in ("sun", "moon", "anom", "node"):
+            if units(ra_, g, 3) != units(rr, g, 3):
+                found.append((f"identity p. {rr['ppage']} {table} {rr['arg']} {g} = p. {ra_['ppage']}", show(rr, g, 3),
+                              f"{show(ra_, g, 3)} on p. {ra_['ppage']}"))
 
 # the cells Nallino emends: the ledger entry must exist and give the value printed in the table
 noted = {r["where"]: r for r in ledger if r["kind"] == "noted"}

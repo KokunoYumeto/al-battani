@@ -56,6 +56,28 @@ for g, p26, p25, rate354, behind in IDENT:
               f"the motion in one common year of 354 days; the daily motion implied by the 30-year steps of p. 24 gives "
               f"{rate354}, which p. 25 rounds to the minute, while the months of p. 26 fall progressively below it and "
               f"end {behind} lower"))
+# pp. 72-77: the Roman calendar
+AL = "Nallino, Part II p. 204, names this difference between the two tables and takes it to come from al-Battānī himself"
+L += [
+    ("p. 72 collected 1171 node", "140° 34′ 37″", "149° 34′ 36.6″", "value",
+     "140 for 149: the node advances by 26° 48′ 23″ or 24″ every 20 years; the neighbouring rows are 122° 46′ 13″ (1151) "
+     "and 176° 23′ 0″ (1191)"),
+    ("identity p. 75 days 9 sun = p. 22", "8° 52′ 15″", "8° 52′ 16″ on p. 22", "identity", AL),
+    ("identity p. 75 days 10 sun = p. 22", "9° 51′ 23″", "9° 51′ 25″ on p. 22", "identity",
+     AL + "; on p. 22 Nallino corrects 25″ to 24″"),
+    ("identity p. 75 days 10 anom = p. 22", "130° 38′ 59″", "130° 39′ 0″ on p. 22", "identity", AL),
+    ("identity p. 75 days 21 node = p. 22", "1° 6′ 44″", "1° 6′ 45″ on p. 22", "identity",
+     "p. 75 has the 44″ to which Nallino corrects the 45″ of p. 22"),
+    ("identity p. 75 days 24 anom = p. 22", "313° 33′ 35″", "313° 33′ 34″ on p. 22", "identity",
+     "24 days of the anomaly are 313° 33′ 34.6″; p. 75 rounds, p. 22 has 1″ less"),
+    ("identity p. 76 hours 3 sun = p. 23", "0° 7′ 24″", "0° 7′ 25″ on p. 23", "identity",
+     "p. 76 has the 24″ to which Nallino corrects the 25″ of p. 23"),
+    ("identity p. 76 hours 10 anom = p. 23", "5° 26′ 37″", "5° 26′ 38″ on p. 23", "identity",
+     AL + " (exactly 5° 26′ 37″ 28‴ 17⁗)"),
+    ("identity p. 76 hours 14 moon = p. 23", "7° 41′ 11″", "7° 41′ 10″ on p. 23", "identity", AL),
+    ("identity p. 76 hours 23 anom = p. 23", "12° 31′ 14″", "12° 31′ 13″ on p. 23", "identity",
+     "p. 76 has the 14″ to which Nallino corrects the 13″ of p. 23"),
+]
 with open(OUT, "w", encoding="utf-8", newline="") as f:
     w = csv.writer(f, delimiter="\t", lineterminator="\n")
     w.writerow(["where", "printed", "computed", "kind", "note"])
