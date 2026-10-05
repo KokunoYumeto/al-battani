@@ -132,7 +132,7 @@ def fit(rows, tvals, gi, places=3, mod_deg=360, rate=None):
         cs = [cands(c) for c in r["groups"][gi]]
         best = None
         for combo in itertools.product(*[c or [None] for c in cs]):
-            if None in combo or any(v >= 60 for v in combo[1:]):
+            if None in combo or combo[0] >= mod_deg or any(v >= 60 for v in combo[1:]):
                 continue
             u = units(list(combo))
             e = abs(((u - pred + MOD / 2) % MOD) - MOD / 2)

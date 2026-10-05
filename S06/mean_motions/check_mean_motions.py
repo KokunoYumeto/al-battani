@@ -1,27 +1,51 @@
-"""Check of Nallino's Part II pp. 19-23 (mean motions in Arab years, months, days and hours).
+"""Check of Nallino's Part II pp. 19-28 (mean motions in Arab collected years, single years, months, days and hours).
+pp. 19-23 (mm_p2.tsv): the Sun, the Moon, the lunar anomaly and the node, in degrees, minutes and seconds;
+pp. 24-28 (mm5_p2.tsv): Saturn, Jupiter, Mars, and the anomalies of Venus and Mercury, in degrees and minutes.
 Each motion column is a linear function of time: value = a + b * t (mod 360 degrees), with t the number of days
 (collected years: 10631 days per 30 years; single years: 354 days, 355 in the leap years 2 5 7 10 13 16 18 21 24 26
-29 of the cycle; months: the cumulative 30- and 29-day months, dhu 'l-hijjah 354 or 355; days; hours / 24).
-The script fits each column by least squares on all its rows and lists every value that lies off its
-line by more than 3 seconds (accumulated rounding in the tables reaches about 2); each must be in mm_discrepancies.tsv. It also checks the arguments and two cross-table identities
-(dhu 'l-hijjah comm. = 1 single year; 24 hours = 1 day). Exit code 1 on anything open."""
+29 of the cycle; months: the cumulative 30- and 29-day months, dhu 'l-hijjah 354, or 355 in a leap year; days;
+hours / 24). The script fits each column by least squares on the rows near its line and lists every value that lies
+off its line by more than 3 units of the last place (the accumulated rounding of the tables reaches about 2); each
+must be in mm_discrepancies.tsv. It also checks the arguments, the cross-table identities (dhu 'l-hijjah = 1 single
+year; 24 hours = 1 day), and that every cell Nallino emends in his notes (Part II, p. 204) is printed as its ledger
+entry states. --list shows the ledgered differences too; --resid shows the largest deviation within the tolerance in
+each column. Exit code 1 on anything open."""
 import csv, sys
 from pathlib import Path
 import numpy as np
 
 HERE = Path(__file__).resolve().parent
 LEAP = {2, 5, 7, 10, 13, 16, 18, 21, 24, 26, 29}
-MOD = 360 * 3600
-GROUPS = ["sun", "moon", "anom", "node"]
-RATE = {"sun": 0.98564734, "moon": 13.1763964, "anom": 13.0649929, "node": 0.0529539}     # degrees per day
+MONTHS = [30, 59, 89, 118, 148, 177, 207, 236, 266, 295, 325, 354, 355]
+SETS = [                                    # starting rates in degrees per day; the fit refines them
+    {"file": "mm_p2.tsv", "places": 3, "groups": ["sun", "moon", "anom", "node"],
+     "rate": {"sun": 0.9856518, "moon": 13.1763987, "anom": 13.0649829, "node": 0.0529509}},
+    {"file": "mm5_p2.tsv", "places": 2, "groups": ["sat", "jup", "mars", "ven", "mer"],
+     "rate": {"sat": 0.0334995, "jup": 0.0831342, "mars": 0.5240743, "ven": 0.6165256, "mer": 3.1067021}},
+]
+TOL = 3                                     # units of the last place
+# the cells Nallino emends in his notes to pp. 22-23 (Part II, p. 204): each needs a ledger entry of kind «noted»
+NOTED = ["p. 22 days 10 sun", "p. 22 days 21 node", "p. 23 hours 3 sun", "p. 23 hours 23 anom"]
 
 
 def read(name):
     return list(csv.DictReader(open(HERE / name, encoding="utf-8"), delimiter="\t"))
 
 
-def secs(r, g):
-    return (int(r[g + "_d"]) * 60 + int(r[g + "_m"])) * 60 + int(r[g + "_s"])
+def units(r, g, places):
+    v = int(r[g + "_d"]) * 60 + int(r[g + "_m"])
+    return v * 60 + int(r[g + "_s"]) if places == 3 else v
+
+
+def show(r, g, places):
+    s = f"{r[g + '_d']}° {r[g + '_m']}′"
+    return s + f" {r[g + '_s']}″" if places == 3 else s
+
+
+def show_units(x, places):
+    if places == 3:
+        return f"{int(x // 3600)}° {int(x // 60 % 60)}′ {x % 60:.1f}″"
+    return f"{int(x // 60)}° {x % 60:.1f}′"
 
 
 def tdays(table, i):
@@ -30,59 +54,90 @@ def tdays(table, i):
     if table == "single":
         return sum(355 if n in LEAP else 354 for n in range(1, i + 2))
     if table == "months":
-        return [30, 59, 89, 118, 148, 177, 207, 236, 266, 295, 325, 354, 355][i]
+        return MONTHS[i]
     if table == "days":
         return i + 1
     if table == "hours":
         return (i + 1) / 24
 
 
-rows = read("mm_p2.tsv")
-ledger = {r["where"] for r in read("mm_discrepancies.tsv")}
-found, agree, worst = [], 0, 0.0
-for table in ("collected", "single", "months", "days", "hours"):
-    T = [r for r in rows if r["table"] == table]
-    t = np.array([tdays(table, i) for i in range(len(T))], float)
-    exp_args = {"collected": [str(1 + 30 * i) for i in range(len(T))], "single": [str(i + 1) for i in range(len(T))],
-                "days": [str(i + 1) for i in range(len(T))], "hours": [str(i + 1) for i in range(len(T))]}.get(table)
-    if exp_args and [r["arg"] for r in T] != exp_args:
-        found.append((f"{table} arguments", "", ""))
-    for g in GROUPS:
-        u = np.array([secs(r, g) for r in T], float)
-        b = RATE[g] * 3600
-        a = u[0] - b * t[0]
-        keep = np.ones(len(T), bool)
-        for _ in range(4):                       # unwrap about the current line, refit, drop points far from it
-            unwrapped = u + MOD * np.round(((a + b * t) - u) / MOD)
-            b, a = np.polyfit(t[keep], unwrapped[keep], 1)
-            res = unwrapped - (a + b * t)
-            keep = np.abs(res) < 30
+def fit(u, t, b, MOD):
+    """Line a + b t through the values u (mod MOD): start from the given rate and the median intercept, then refit
+    by least squares on the points within a band that narrows to the tolerance."""
+    unwrapped = u[0] + ((u - u[0] - b * (t - t[0]) + MOD / 2) % MOD - MOD / 2) + b * (t - t[0])
+    a = np.median(unwrapped - b * t)
+    for band in (MOD / 8, 600, 120, 30, 10, TOL, TOL, TOL):
         unwrapped = u + MOD * np.round(((a + b * t) - u) / MOD)
-        res = unwrapped - (a + b * t)
-        for i, r in enumerate(T):
-            if abs(res[i]) > 3:
-                found.append((f"p. {r['ppage']} {table} {r['arg']} {g}", f"{r[g + '_d']}° {r[g + '_m']}′ {r[g + '_s']}″",
-                              f"{res[i]:+.1f}″ from the line"))
-            else:
-                agree += 1
-                worst = max(worst, abs(res[i]))
-# cross-table identities
-one_year = [r for r in rows if r["table"] == "single"][0]
-comm = [r for r in rows if r["table"] == "months"][11]
-day1 = [r for r in rows if r["table"] == "days"][0]
-h24 = [r for r in rows if r["table"] == "hours"][23]
-for g in GROUPS:
-    if secs(one_year, g) != secs(comm, g):
-        found.append((f"identity single year 1 = dhu 'l-hijjah comm. ({g})", "", ""))
-    if secs(day1, g) != secs(h24, g):
-        found.append((f"identity day 1 = hour 24 ({g})", "", ""))
+        keep = np.abs(unwrapped - (a + b * t)) <= band
+        if keep.sum() >= 3:
+            b, a = np.polyfit(t[keep], unwrapped[keep], 1)
+    unwrapped = u + MOD * np.round(((a + b * t) - u) / MOD)
+    return a, b, unwrapped - (a + b * t)
 
-open_ = [f for f in found if f[0] not in ledger]
-print(f"values on their lines {agree} (largest deviation {worst:.1f}″), differ {len(found)} "
-      f"(ledgered {len(found) - len(open_)}, open {len(open_)})")
+
+ledger = read("mm_discrepancies.tsv")
+ledger_keys = {r["where"] for r in ledger if r["kind"] != "noted"}
+found, agree, worst, problems, cells = [], 0, {}, [], {}
+for S in SETS:
+    rows = read(S["file"]); P = S["places"]; unit = "″" if P == 3 else "′"
+    MOD = 360 * 60 ** (P - 1)
+    for table in ("collected", "single", "months", "days", "hours"):
+        T = [r for r in rows if r["table"] == table]
+        t = np.array([tdays(table, i) for i in range(len(T))], float)
+        exp_args = {"collected": [str(1 + 30 * i) for i in range(len(T))], "single": [str(i + 1) for i in range(len(T))],
+                    "days": [str(i + 1) for i in range(len(T))], "hours": [str(i + 1) for i in range(len(T))]}.get(table)
+        if exp_args and [r["arg"] for r in T] != exp_args:
+            found.append((f"{S['file']} {table} arguments", "", ""))
+        for g in S["groups"]:
+            u = np.array([units(r, g, P) for r in T], float)
+            a, b, res = fit(u, t, S["rate"][g] * 60 ** (P - 1), MOD)
+            ok = np.abs(res) <= TOL
+            worst[f"p. {T[0]['ppage']} {table} {g}"] = float(np.abs(res[ok]).max())
+            for i, r in enumerate(T):
+                where = f"p. {r['ppage']} {table} {r['arg']} {g}"
+                line = (a + b * t[i]) % MOD
+                cells[where] = (show(r, g, P), show_units(line, P))
+                if abs(res[i]) > TOL:
+                    found.append((where, show(r, g, P), f"{res[i]:+.1f}{unit} from the line ({show_units(line, P)})"))
+                else:
+                    agree += 1
+    # cross-table identities
+    one_year = [r for r in rows if r["table"] == "single"][0]
+    comm = [r for r in rows if r["table"] == "months"][11]
+    day1 = [r for r in rows if r["table"] == "days"][0]
+    h24 = [r for r in rows if r["table"] == "hours"][23]
+    for g in S["groups"]:
+        if units(one_year, g, P) != units(comm, g, P):
+            found.append((f"identity single year 1 = dhu 'l-hijjah{' comm.' if P == 3 else ''} ({g})",
+                          f"{show(comm, g, P)} (p. {comm['ppage']})", f"{show(one_year, g, P)} (p. {one_year['ppage']})"))
+        if units(day1, g, P) != units(h24, g, P):
+            found.append((f"identity day 1 = hour 24 ({g})", show(h24, g, P), show(day1, g, P)))
+
+# the cells Nallino emends: the ledger entry must exist and give the value printed in the table
+noted = {r["where"]: r for r in ledger if r["kind"] == "noted"}
+for w in NOTED:
+    if w not in noted:
+        problems.append(f"no ledger entry for the cell Nallino emends: {w} (printed {cells[w][0]}, line {cells[w][1]})")
+    elif noted[w]["printed"] != cells[w][0]:
+        problems.append(f"{w}: the ledger says printed {noted[w]['printed']}, the table has {cells[w][0]}")
+for w in noted:
+    if w not in NOTED:
+        problems.append(f"ledger entry of kind «noted» not among Nallino's emendations: {w}")
+
+open_ = [f for f in found if f[0] not in ledger_keys]
+print(f"values on their lines {agree}, differ {len(found)} (ledgered {len(found) - len(open_)}, open {len(open_)}); "
+      f"cells Nallino emends {len(NOTED)}, problems {len(problems)}")
 for where, p, e in (found if "--list" in sys.argv else open_):
-    print(f"  {where}: {p} {e}" + ("" if where in ledger else "   << not in the ledger"))
-stale = [w for w in ledger if w not in {f[0] for f in found}]
+    print(f"  {where}: {p} {e}" + ("" if where in ledger_keys else "   << not in the ledger"))
+if "--list" in sys.argv:
+    for w in NOTED:
+        print(f"  Nallino emends {w}: printed {cells[w][0]}, line {cells[w][1]}")
+for p in problems:
+    print("  " + p)
+if "--resid" in sys.argv:
+    for col, w in worst.items():
+        print(f"  largest deviation within the tolerance, {col}: {w:.2f}")
+stale = [w for w in ledger_keys if w not in {f[0] for f in found}]
 for w in stale:
     print("  ledger entry without a difference:", w)
-sys.exit(1 if open_ or stale else 0)
+sys.exit(1 if open_ or stale or problems else 0)
