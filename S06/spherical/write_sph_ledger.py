@@ -32,6 +32,67 @@ L = [
      "the printed values lie above the computation from 21° to 29° 30′, by more than 3′ from 24° to 28° 30′ "
      "(largest +6.9′ at 25° 30′); 30° agrees again"),
 ]
+# pp. 61-64: the equation of days, computed from al-Battani's elements with the table's zero point (median)
+APOGEE, ECC = 82 + 17 / 60, math.sin(math.radians(1 + 59 / 60 + 10 / 3600))
+
+
+def ra_deg(lam):
+    l = math.radians(lam)
+    return math.degrees(math.atan2(math.cos(EPS) * math.sin(l), math.cos(l))) % 360
+
+
+def mean_long(lam):
+    v = math.radians(lam - APOGEE); m = v
+    for _ in range(20):
+        m = v + math.atan2(ECC * math.sin(m), 1 + ECC * math.cos(m))
+    return (APOGEE + math.degrees(m)) % 360
+
+
+def eq_raw(lam):
+    return ((mean_long(lam) - ra_deg(lam)) + 180) % 360 - 180
+
+
+EQMIN = min(eq_raw(x / 10) for x in range(3600))
+raeq = list(csv.DictReader(open(D + "raeq_p2.tsv", encoding="utf-8"), delimiter="\t"))
+by = {(r["sign"], int(r["row"])): r for r in raeq}
+dev = sorted(int(r["eq_d"]) * 60 + int(r["eq_m"]) - (eq_raw(int(r["lam"])) - EQMIN) * 60 for r in raeq)
+ZERO = dev[len(dev) // 2]
+ORDER = ["Capricornus", "Aquarius", "Pisces", "Aries", "Taurus", "Gemini", "Cancer", "Leo", "Virgo", "Libra", "Scorpio",
+         "Sagittarius"]
+
+
+def eq_run(sign0, row0, sign1, row1):
+    seq, on = [], False
+    for s_ in ORDER:
+        for n in range(1, 31):
+            if (s_, n) == (sign0, row0):
+                on = True
+            if on:
+                seq.append(by[(s_, n)])
+            if (s_, n) == (sign1, row1):
+                on = False
+    printed = ", ".join(f"{r['eq_d']}° {r['eq_m']}′" for r in seq)
+    comp = []
+    for r in seq:
+        c = (eq_raw(int(r["lam"])) - EQMIN) * 60 + ZERO
+        comp.append(f"{int(c // 60)}° {c % 60:.1f}′")
+    return printed, ", ".join(comp)
+
+
+for key, a_, b_, note in (
+        ("p. 62 equation Gemini 4-7", ("Gemini", 4), ("Gemini", 7),
+         "the printed values fall from 5° 33′ to 5° 29′ and the computed values from 5° 30.0′ to 5° 25.8′; largest +4.7′ at Gemini 6"),
+        ("p. 63 equation Leo 20 - Virgo 10", ("Leo", 20), ("Virgo", 10),
+         "the printed values rise by 2′ a degree to Leo 22 and by 3′ a degree to Virgo 4 (3° 57′), while the computed rise "
+         "grows from 2′ to 4′; from Virgo 5 they rise by 4′ and 5′ and come back towards the computation; largest -7.3′ at "
+         "Virgo 4 (computed 4° 4.3′)"),
+        ("p. 64 equation Libra 16-25", ("Libra", 16), ("Libra", 25),
+         "largest +6.3′ at Libra 21 (printed 7° 34′)"),
+        ("p. 64 equation Scorpio 21-30", ("Scorpio", 21), ("Scorpio", 30),
+         "largest +4.1′ at Scorpio 24 (printed 7° 31′)")):
+    pr, cp = eq_run(a_[0], a_[1], b_[0], b_[1])
+    L.append((key, pr, cp, "run", note + f"; computed from al-Battānī's elements with the table's zero point ({ZERO:+.1f}′)"))
+
 with open(D + "spherical_discrepancies.tsv", "w", encoding="utf-8", newline="") as f:
     w = csv.writer(f, delimiter="\t", lineterminator="\n")
     w.writerow(["where", "printed", "computed", "kind", "note"])

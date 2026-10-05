@@ -107,14 +107,87 @@ for r in read("shadows60_p2.tsv"):
     if abs(dev) > TOL:
         found.append((f"p. 60 shadow {h}°", f"{r['dig']} dig. {r['min']}′", f"{dev:+.1f}′ from 12 cot h"))
 
+# pp. 61-64: right ascension from the beginning of Capricorn, and the equation of days with their nights, computed
+# from al-Battani's elements (solar apogee 82° 17′, greatest equation of the Sun 1° 59′ 10″): mean longitude minus
+# right ascension of the true longitude, less its least value in the year; the table's zero point is fitted (median)
+APOGEE, ECC = 82 + 17 / 60, math.sin(math.radians(1 + 59 / 60 + 10 / 3600))
+
+
+def ra_deg(lam):
+    l = math.radians(lam)
+    return math.degrees(math.atan2(math.cos(EPS) * math.sin(l), math.cos(l))) % 360
+
+
+def mean_long(lam):
+    v = math.radians(lam - APOGEE); m = v
+    for _ in range(20):
+        m = v + math.atan2(ECC * math.sin(m), 1 + ECC * math.cos(m))
+    return (APOGEE + math.degrees(m)) % 360
+
+
+def eq_raw(lam):
+    return ((mean_long(lam) - ra_deg(lam)) + 180) % 360 - 180
+
+
+EQMIN = min(eq_raw(x / 10) for x in range(3600))
+TOL_EQ = 4      # the reconstruction of the equation agrees with the table to 3′ for 310 of the 360 values;
+                # a stretch of values more than 3′ off is listed when one of them is more than 4′ off
+raeq = read("raeq_p2.tsv")
+dist["ascensions"] = Counter(); dist["equation"] = Counter()
+for r in raeq:
+    lam = int(r["lam"])
+    exp = ((ra_deg(lam) - 270) % 360) * 60
+    got = sec(r["asc_d"], r["asc_m"]) % 21600
+    dev = (got - exp + 10800) % 21600 - 10800
+    dist["ascensions"][round(abs(dev))] += 1
+    if abs(dev) > TOL:
+        found.append((f"p. {r['ppage']} ascension {r['sign']} {r['row']}", f"{r['asc_d']}° {r['asc_m']}′",
+                      f"{dev:+.1f}′ from the computation"))
+dev_eq = {int(r["lam"]): sec(r["eq_d"], r["eq_m"]) - (eq_raw(int(r["lam"])) - EQMIN) * 60 for r in raeq}
+ZERO = sorted(dev_eq.values())[len(dev_eq) // 2]          # the table's zero point against the computation
+by_lam = {int(r["lam"]): r for r in raeq}
+order = list(range(271, 361)) + list(range(1, 271))      # the year as the pages run, from Capricorn 1°
+run = []
+
+
+def close_eq_run():
+    """a stretch of consecutive values more than 3′ off, reported when its largest deviation exceeds 4′"""
+    if run and max(abs(x[1]) for x in run) <= TOL_EQ:
+        run.clear()
+    if run:
+        a, b = by_lam[run[0][0]], by_lam[run[-1][0]]
+        worst = max(run, key=lambda x: abs(x[1]))
+        w = by_lam[worst[0]]
+        pages_ = a["ppage"] + ("" if b["ppage"] == a["ppage"] else "-" + b["ppage"])
+        span = (f"{a['sign']} {a['row']}-{b['row']}" if b["sign"] == a["sign"] else f"{a['sign']} {a['row']} - {b['sign']} {b['row']}")
+        found.append((f"p. {pages_} equation {span}",
+                      ", ".join(f"{by_lam[l]['eq_d']}° {by_lam[l]['eq_m']}′" for l, _ in run),
+                      f"{len(run)} values {'above' if worst[1] > 0 else 'below'} the computation, the largest by "
+                      f"{worst[1]:+.1f}′ at {w['sign']} {w['row']}"))
+        run.clear()
+
+
+for lam in order:
+    d = dev_eq[lam] - ZERO
+    dist["equation"][round(abs(d))] += 1
+    if abs(d) > TOL and (not run or (d > 0) == (run[-1][1] > 0)):
+        run.append((lam, d))
+    elif abs(d) > TOL:
+        close_eq_run(); run.append((lam, d))
+    else:
+        close_eq_run()
+close_eq_run()
+
 open_ = [f for f in found if f[0] not in ledger]
 n = sum(sum(c.values()) for c in dist.values())
 print(f"values compared {n}, differ {len(found)} (ledgered {len(found) - len(open_)}, open {len(open_)})")
 for where, p, e in (found if "--list" in sys.argv else open_):
     print(f"  {where}: {p}; {e}" + ("" if where in ledger else "   << not in the ledger"))
 if "--dist" in sys.argv:
+    within = sum(abs(v - ZERO) <= 3 for v in dev_eq.values())
+    print(f"  equation: zero point {ZERO:+.2f}′; within 3′ of the computation {within} of {len(dev_eq)}")
     for t, c in dist.items():
-        u = "′" if t in ("longest day", "shadows") else "″"
+        u = "′" if t in ("longest day", "shadows", "ascensions", "equation") else "″"
         print(f"  {t}: " + ", ".join(f"{k}{u}: {v}" for k, v in sorted(c.items())))
 stale = [w for w in ledger if w not in {f[0] for f in found}]
 for w in stale:

@@ -217,6 +217,32 @@ def three_sections(p, rows, arg, val, argw, valw, group=5):
     return "\n".join(out)
 
 
+def raeq_page(p, rows):
+    """pp. 61-64: the common numbers 1-30, and for three signs the degrees of ascension and the equation of days"""
+    out = running(int(p["ppage"]), p["fol"])
+    col = r">{\centering\arraybackslash}p{27mm}|>{\centering\arraybackslash}p{25mm}"
+    out.append(r"\begin{center}\setlength{\tabcolsep}{3pt}\renewcommand{\arraystretch}{1.02}\begin{tabular}{||c|" +
+               "||".join([col] * 3) + r"||}\hline")
+    out.append(title(p, 7, "170mm"))
+    hs = p["heads"].split("|")
+    out.append(" & ".join([vhead(hs[0])] + [head(h, "27mm" if k % 2 == 0 else "25mm") for k, h in enumerate(hs[1:])]) +
+               r" \\ \hline\hline")
+    signs = []
+    for r in rows:
+        if r["sign"] not in signs:
+            signs.append(r["sign"])
+    by = {(r["sign"], int(r["row"])): r for r in rows}
+    for i in range(1, 31):
+        line = [str(i)]
+        for s in signs:
+            r = by[(s, i)]
+            m = ["°", "′"] if i == 1 else None
+            line += [num([r["asc_d"], r["asc_m"]], m, "2mm"), num([r["eq_d"], r["eq_m"]], m, "2mm")]
+        out.append(" & ".join(line) + r" \\" + (r"[1.2mm]" if i % 5 == 0 and i < 30 else ""))
+    out.append(r"\hline\end{tabular}\end{center}")
+    return "\n".join(out)
+
+
 def document():
     pages = read("sph_pages.tsv"); sines = read("sines_p2.tsv"); decl = read("decl_p2.tsv")
     ra10 = read("ra10_p2.tsv"); items = read("fig58.tsv")
@@ -235,6 +261,9 @@ def document():
                               lambda r, f: str(r["alt"]),
                               lambda r, f: num([r["dig"], r["min"]], [r"\textsuperscript{\,dig.}", "′"] if f else None, "7mm"),
                               "22mm", "30mm", 5))
+    raeq = read("raeq_p2.tsv")
+    for pp in ("61", "62", "63", "64"):
+        out.append(raeq_page(P[(pp, "raeq")], [r for r in raeq if r["ppage"] == pp]))
     out.append(r"\end{document}")
     return "\n".join(out) + "\n"
 

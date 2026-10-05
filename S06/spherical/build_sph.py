@@ -188,5 +188,59 @@ pages += [
                  "altitudo poli per hanc umbram extensam. / His tabulis altera ex altera deprehenditur.",
      "heads": "|".join(["قوس الارتفاع‖Arcus / altitudinis.", "اصابع الظل‖Digiti umbrae."] * 3)},
 ]
+
+# ---------------------------------------------------------------- pp. 61-64: right ascensions and equation of days
+# right ascensions resolved against the computation (ra_eq_pages.py); the equation of days by agreement of the two
+# readers (eq_resolve.py, EQ{pdf}.json); the cells below read by eye on contact sheets
+SIGNS = {510: ["Capricornus", "Aquarius", "Pisces"], 511: ["Aries", "Taurus", "Gemini"],
+         512: ["Cancer", "Leo", "Virgo"], 513: ["Libra", "Scorpio", "Sagittarius"]}
+FIRST = {510: (270, 300, 330), 511: (0, 30, 60), 512: (90, 120, 150), 513: (180, 210, 240)}
+EYE_ASC = {(510, 21, 2): ("81", "44"), (510, 22, 2): ("82", "40"), (511, 8, 1): ("125", "37"), (513, 26, 0): ("294", "5"),
+           (513, 30, 2): ("360", "0")}
+EYE_EQ = {(510, 3, 0): ("3", "25"), (511, 7, 1): ("5", "2"), (511, 8, 1): ("5", "5"), (511, 9, 1): ("5", "8"),
+          (511, 10, 1): ("5", "10"), (511, 11, 1): ("5", "13"), (511, 19, 2): ("4", "56"), (512, 1, 1): ("3", "4"),
+          (512, 21, 1): ("3", "19"), (513, 1, 0): ("6", "9"), (513, 7, 2): ("6", "27")}
+raeq = []
+for pdf in (510, 511, 512, 513):
+    d = json.load(open(wk.OUT + f"MP{pdf}.json", encoding="utf-8"))
+    eq = json.load(open(wk.OUT + f"EQ{pdf}.json", encoding="utf-8"))
+    assert len(d["rows"]) == 30
+    for i, r in enumerate(d["rows"]):
+        for k in range(3):
+            if (pdf, i + 1, k) in EYE_ASC:
+                a, ac = EYE_ASC[(pdf, i + 1, k)], "EE"
+            else:
+                a, ac = cells(r["groups"][2 * k])
+            vals, ec = eq[str(i + 1)][str(k)]
+            for j, cl in enumerate(ec):
+                if cl == "C":
+                    vals[j] = EYE_EQ[(pdf, i + 1, k)][j]
+            ec = ec.replace("C", "E")
+            assert None not in a and None not in vals, (pdf, i, k)
+            classes.update(ac + ec)
+            raeq.append({"pdf": pdf, "ppage": str(pdf - 449), "row": i + 1, "sign": SIGNS[pdf][k], "lam": FIRST[pdf][k] + i + 1,
+                         "asc_d": a[0], "asc_m": a[1], "eq_d": vals[0], "eq_m": vals[1], "check": ac + " " + ec})
+ORDER = ["Capricornus", "Aquarius", "Pisces", "Aries", "Taurus", "Gemini", "Cancer", "Leo", "Virgo", "Libra", "Scorpio",
+         "Sagittarius"]
+raeq.sort(key=lambda x: (ORDER.index(x["sign"]), x["row"]))
+write("raeq_p2.tsv", ["pdf", "ppage", "row", "sign", "lam", "asc_d", "asc_m", "eq_d", "eq_m", "check", "doubt"], raeq)
+
+AR_SIGN = {"Capricornus": "الجدي", "Aquarius": "الدلو", "Pisces": "الحوت", "Aries": "الحمل", "Taurus": "الثور",
+           "Gemini": "الجوزاء", "Cancer": "السرطان", "Leo": "الاسد", "Virgo": "السنبلة", "Libra": "الميزان",
+           "Scorpio": "العقرب", "Sagittarius": "القوس"}
+TITLE_AR = "من جداول مطالع البروج في الفلك المستقيم وتعديل الايام بلياليها"
+EQH = "‖Aequatio / nychthemerōn."
+for pdf, fol, tar, tla in ((510, "f. 179,v.", "ابتداء جداول مطالع البروج في الفلك المستقيم وتعَديل الايام بلياليها",
+                            "Initium tabularum ascensionum signorum in sphaera recta et aequationis / nychthemerōn."),
+                           (511, "f. 180,r.", TITLE_AR, "Ex tabulis ascensionum signorum in sphaera recta et aequationis / nychthemerōn."),
+                           (512, "f. 180,v.", TITLE_AR, "Ex tabulis ascensionum signorum in sphaera recta, et aequationis / nychthemerōn."),
+                           (513, "f. 181,r.", TITLE_AR, "Finis tabularum ascensionum signorum in sphaera recta, et aequationis / nychthemerōn.")):
+    first = "العدد المشترك‖Numeri [omnibus] / communes." if pdf == 510 else "‖Numeri [omnibus] / communes."
+    hs = [first]
+    for k, s in enumerate(SIGNS[pdf]):
+        hs.append(f"{AR_SIGN[s]} / درج المطالع‖{s}. / Gradus ascen- / sionum.")
+        hs.append("تعديل الايام بلياليها‖Aequatio / nychthemerōn." if (pdf == 510 and k == 0) else EQH)
+    pages.append({"pdf": pdf, "ppage": str(pdf - 449), "fol": fol, "table": "raeq", "title_ar": tar, "title_la": tla,
+                  "heads": "|".join(hs)})
 write("sph_pages.tsv", ["pdf", "ppage", "fol", "table", "title_ar", "title_la", "heads"], pages)
 print(len(sines), "sines;", len(decl), "declinations;", len(ra10), "right ascensions;", len(fig), "figure items;", classes)
