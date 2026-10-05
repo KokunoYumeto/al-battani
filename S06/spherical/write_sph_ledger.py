@@ -130,7 +130,7 @@ for key, pr, comp, note in (
         ("p. 67 Baghdad hours 320-330", "12° 20′, 12° 43′", fm(hr(320, 33 + 9 / 60)) + ", " + fm(hr(330, 33 + 9 / 60)),
          "12 for 13 in both: the hours of the neighbouring rows are 12° 59′ (310°) and 14° 8′ (340°)"),
         ("p. 67 Harran ascensions 90-100", "70° 59′, 82° 13′", fm(oa(90, H)) + ", " + fm(oa(100, H)),
-         "the ascensions and the seasonal hours of Ḥarrān both fit the latitude 36° 45′ (36° 44.5′ and 36° 44.8′), not "
+         "the ascensions and the seasonal hours of Ḥarrān both fit the latitude 36° 45′ (36° 44.5′ and 36° 44.1′), not "
          "the 36° 40′ of the head; these values, near the solstice, are the most sensitive to the latitude"),
         ("p. 67 Harran ascensions 260-270", "277° 47′, 289° 1′", fm(oa(260, H)) + ", " + fm(oa(270, H)),
          "see the entry for 90°-100°")):

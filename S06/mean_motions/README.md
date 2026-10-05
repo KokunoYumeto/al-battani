@@ -45,9 +45,9 @@ Every number was read by the glyph reader and by the OCR text layer. Each motion
 
 | Class | pp. 19–23 | pp. 24–28 | pp. 72–77 | How established |
 |---|---|---|---|---|
-| A | 1,400 | 1,152 | 1,449 | Both readers give the value on the line. |
-| B | 112 | 88 | 129 | One reader gives it; each cell checked by eye. |
-| E | 12 | 20 | 18 | The fit flagged the row, or a reader failed; the cell read by eye. |
+| A | 1,399 | 1,152 | 1,449 | Both readers give the value on the line. |
+| B | 110 | 88 | 129 | One reader gives it; each cell checked by eye. |
+| E | 15 | 20 | 18 | The fit flagged the row, or a reader failed; the cell read by eye. |
 
 `python check_mean_motions.py` refits every column from the data alone. 1,660 values lie within 3 units of the last place of their lines; the largest deviation among them is 1.8″ on pp. 19–23, 1.6′ on pp. 24–28 and 1.2″ on pp. 72–77, the accumulated rounding of the tables. Twenty-five differences are ledgered, and 0 are open:
 

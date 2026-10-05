@@ -17,6 +17,7 @@ MONTHS = ["al–muḥarram.", "ṣafar.", "rabī‘ prior.", "rabī‘ posterior
 GROUPS = ["sun", "moon", "anom", "node"]
 # cells the fit flagged, read by eye: (pdf, row, group) -> (d, m, s) as printed
 EYE = {(469, 1, "moon"): ("344", "26", "43"),
+       (469, 29, "sun"): ("49", "32", "35"),          # the readers gave 34 and 33; read by eye at 2400 dpi
        (469, 26, "node"): ("127", "53", "9"),
        (471, 26, "moon"): ("342", "35", "11"),
        (471, 29, "moon"): ("22", "6", "56")}

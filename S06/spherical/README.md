@@ -38,7 +38,7 @@ Tables of spherical astronomy (codex fol. 176,v.–186,r.):
 
 ## How the tables were read and checked
 
-Every number was read by the glyph reader and by the OCR text layer and matched against its computed value; on p. 59 every value was also read by eye, because the table departs from the computation, and on pp. 61–64 the equation of days was resolved by the agreement of the two readers and every disputed cell read by eye. 5,638 numbers are in class A (both readers give the value), 519 in class B (one reader gives it; each cell checked by eye), 95 in class E (read by eye). `python check_spherical.py` recomputes the tables:
+Every number was read by the glyph reader and by the OCR text layer and matched against its computed value; on p. 59 every value was also read by eye, because the table departs from the computation, and on pp. 61–64 the equation of days was resolved by the agreement of the two readers and every disputed cell read by eye. 5,637 numbers are in class A (both readers give the value), 518 in class B (one reader gives it; each cell checked by eye), 97 in class E (read by eye). `python check_spherical.py` recomputes the tables:
 
 - **sines**: 60 sin θ. Of the 180 sines, 148 agree to the second, 31 differ by 1″ and one by 2″. Every supplement is 180° − θ.
 - **declination**: sin δ = sin λ · sin 23° 35′, al-Battānī's obliquity. Of the 90 declinations, 59 agree to the second, 30 differ by 1″ and one by 2″. Every arc of equal declination is exact.
@@ -56,13 +56,13 @@ Every number was read by the glyph reader and by the OCR text layer and matched 
   - **Libra 16°–25°**: up to 6.3′ above (Libra 21°: printed 7° 34′).
   - **Scorpio 21°–30°**: up to 4.1′ above (Scorpio 24°: printed 7° 31′).
   The computation reconstructs the procedure from al-Battānī's elements; its agreement with the table to about 3′ is the measure of that reconstruction, and smaller differences are not listed.
-- **oblique ascensions** (pp. 65–67): the right ascension less arcsin(tan φ · tan δ), for the latitude φ printed in the head of each column, and on p. 67 the seasonal hours (180° + 2 arcsin(tan φ · tan δ)) / 12. Of the 576 ascensions 413 agree to the minute and 124 differ by 1′; of the 108 hours 90 agree and 15 differ by 1′. Every column but those of Ḥarrān fits the latitude of its head within 2.4′ (`python check_spherical.py --lat`). Ledgered:
+- **oblique ascensions** (pp. 65–67): the right ascension less arcsin(tan φ · tan δ), for the latitude φ printed in the head of each column, and on p. 67 the seasonal hours (180° + 2 arcsin(tan φ · tan δ)) / 12. Of the 576 ascensions 413 agree to the minute and 124 differ by 1′; of the 108 hours 90 agree and 16 differ by 1′. Every column but those of Ḥarrān fits the latitude of its head within 2.4′ (`python check_spherical.py --lat`). Ledgered:
   - **p. 65, 250°**: printed 267° 32′ for 260° 32′ (latitude 27° 28′) and 260° 16′ for 262° 16′ (30° 40′); across the row the values rise by 1° 44′ from column to column.
   - **p. 65, 210°, latitude 20° 28′**: printed 212° 21′, computed 212° 15.3′.
   - **p. 65, 50°, latitude 16° 39′**: printed 42° 3′, computed 41° 59.9′.
   - **p. 66, 80° and 280°, latitude 43° 25′**: printed 55° 14′ and 304° 46′, 3.2′ from the computation; the column fits 43° 23.4′.
   - **p. 67, the seasonal hours of Baghdād at 320° and 330°**: printed 12° 20′ and 12° 43′ for 13° 20′ and 13° 43′.
-  - **p. 67, Ḥarrān**: the ascensions and the seasonal hours both fit the latitude 36° 45′ (36° 44.5′ and 36° 44.8′) rather than the 36° 40′ of the head. The four values most sensitive to the latitude, at 90°–100° and 260°–270°, lie 3.4′ to 3.8′ from the computation for 36° 40′.
+  - **p. 67, Ḥarrān**: the ascensions and the seasonal hours both fit the latitude 36° 45′ (36° 44.5′ and 36° 44.1′) rather than the 36° 40′ of the head. The four values most sensitive to the latitude, at 90°–100° and 260°–270°, lie 3.4′ to 3.8′ from the computation for 36° 40′.
 - **ar-Raqqah** (pp. 68–71): the same computation for every degree at 36° 0′, which also fits the ascensions best (rms 1.0′). Of the 360 ascensions 104 agree to the minute, 205 differ by 1′ and 51 by 2′; of the 360 seasonal hours 304 agree, 55 differ by 1′ and one by 2′. No value is more than 2′ off. The one hour that Nallino corrects (p. 71, the last line: Aquarius 30°, printed 13° 33′, his 13° 34′) computes to 13° 34.7′.
 
 ## Nallino's notes on these pages (Part II, pp. 220–222)
