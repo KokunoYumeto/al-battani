@@ -1,0 +1,233 @@
+\documentclass[11pt]{article}
+\usepackage[paperwidth=210mm,paperheight=297mm,margin=16mm]{geometry}
+\usepackage{fontspec,amsmath,array,multirow,graphicx}
+\usepackage{polyglossia}
+\setmainlanguage{latin}\setotherlanguages{arabic,greek}
+\setmainfont{Linux Libertine O}[Ligatures=TeX]
+\newfontfamily\arabicfont{Amiri}[Script=Arabic]
+\newfontfamily\greekfont{FreeSerif}[Script=Greek]
+\newfontfamily\NallinoSigns{NallinoSigns.otf}[Path=./fonts/]
+\newcommand{\AbjadZero}{{\NallinoSigns\symbol{"E000}}}
+\newcommand{\AbjadOver}[1]{\leavevmode\vbox{\hrule height .45pt\kern1.2pt\hbox{#1}}}
+\newcommand{\Name}[1]{{\addfontfeatures{LetterSpace=12}#1}}
+\pagestyle{empty}\setlength{\parindent}{0pt}
+\renewcommand{\arraystretch}{1.18}
+
+\begin{document}
+\clearpage
+\begin{center}In nomine Dei clementis et misericordis.\end{center}
+\begin{center}Propitius est Deus aeternamque salutem praestat |domino nostro\\Muḥammad, suo nobili legato, et genti et sociis eius.\end{center}
+\begin{center}\small Fol. 154,r.-155,v. = Textus, t. III, p. 228-231.\end{center}
+\begin{center}\fbox{\parbox{0.95\textwidth}{\centering\bfseries \textarabic{جدول تاريخ الملوك اليونانيـة من لدن بختنصر الاول |ومنـه بتاريخ المجسطـي}\\Tabula regum Graecorum [sic] post Bukhtanaṣṣar primum,\\secundum chronologiam Almagesti.}}\end{center}
+\noindent\begin{minipage}[t]{0.5\textwidth}{\small \begin{tabular}{p{43mm}|r|r}
+\shortstack{\textarabic{اسماء الملوك}\\Nomina regum.} & \rotatebox{90}{\shortstack[l]{\textarabic{عدد ما ملكوا}\\Anni regni.}} & \rotatebox{90}{\shortstack[l]{\textarabic{مجموع السنين}\\Annor. summa.}} \\ \hline
+\hangindent=4mm\hangafter=1 Bukhtanaṣṣar [i. e. Nabonas-\newline sarus] primus. & \raisebox{-1\normalbaselineskip}[0pt][0pt]{14} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{14} \\
+\hangindent=4mm\hangafter=1 Nadius. & 2 & 16 \\
+\hangindent=4mm\hangafter=1 Chinzerus. & 5 & 21 \\
+\hangindent=4mm\hangafter=1 Ilulaeus. & 5 & 26 \\
+\hangindent=4mm\hangafter=1 Mardocempadus. & 12 & 38 \\
+\hangindent=4mm\hangafter=1 Arceanus. & 5 & 43 \\
+\hangindent=4mm\hangafter=1 Ἀβασίλευτος [i. e. interre-\newline gnum] primus. & \raisebox{-1\normalbaselineskip}[0pt][0pt]{2} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{45} \\
+\hangindent=4mm\hangafter=1 Bilibus. & 3 & 48 \\
+\hangindent=4mm\hangafter=1 Aparanadius. & 6 & 54 \\
+\hangindent=4mm\hangafter=1 Regebelus. & 1 & 55 \\
+\end{tabular}}\end{minipage}\vrule\,\vrule\hfill\begin{minipage}[t]{0.48\textwidth}{\small \begin{tabular}{p{43mm}|r|r}
+\shortstack{\textarabic{اسماء الملوك}\\Nomina regum.} & \rotatebox{90}{\shortstack[l]{\textarabic{عدد ما ملكوا}\\Anni regni.}} & \rotatebox{90}{\shortstack[l]{\textarabic{مجموع السنين}\\Annor. summa.}} \\ \hline
+\hangindent=4mm\hangafter=1 Ἀβασίλευτος [i. e. interre-\newline gnum] secundus. & \raisebox{-1\normalbaselineskip}[0pt][0pt]{4} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{59} \\
+\hangindent=4mm\hangafter=1 Mesesimordacus. & 8 & 67 \\
+\hangindent=4mm\hangafter=1 Asaridinus. & 13 & 80 \\
+\hangindent=4mm\hangafter=1 Saosduchinus. & 20 & 100 \\
+\hangindent=4mm\hangafter=1 Ciniladanus. & 22 & 122 \\
+\hangindent=4mm\hangafter=1 Bukhtanaṣṣar secundus [i. e.\newline Nabopolassarus]. & \raisebox{-1\normalbaselineskip}[0pt][0pt]{21} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{143} \\
+\hangindent=4mm\hangafter=1 Bukhtanaṣṣar tertius [i. e. Na-\newline bocolassarus], Hierosoly-\newline morum expugnator. & \raisebox{-2\normalbaselineskip}[0pt][0pt]{43} & \raisebox{-2\normalbaselineskip}[0pt][0pt]{186} \\
+\hangindent=4mm\hangafter=1 Illoarudamus. & 2 & 188 \\
+\end{tabular}}\end{minipage}\par\vspace{4mm}
+\par\vfill\hfill 1
+\clearpage
+\noindent\makebox[\textwidth]{\textbf{2}\hfill{\small C. A. NALLINO}\hfill\textbf{}}\par\vspace{-1mm}\noindent\rule{\textwidth}{.4pt}\par\vspace{2mm}
+\noindent\begin{minipage}[t]{0.5\textwidth}{\small \begin{tabular}{p{43mm}|r|r}
+\shortstack{Nomina regum.} & \rotatebox{90}{\shortstack[l]{Anni regni.}} & \rotatebox{90}{\shortstack[l]{Annor. summa.}} \\ \hline
+\hangindent=4mm\hangafter=1 Belshaṣṣar [i. e. Nericasolas-\newline sarus]. & \raisebox{-1\normalbaselineskip}[0pt][0pt]{4} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{192} \\
+\hangindent=4mm\hangafter=1 Darius Medus [i. e. Nabona-\newline dius]. & \raisebox{-1\normalbaselineskip}[0pt][0pt]{17} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{209} \\
+\hangindent=4mm\hangafter=1 Cyrus. & 9 & 218 \\
+\hangindent=4mm\hangafter=1 Cambyses. & 8 & 226 \\
+\hangindent=4mm\hangafter=1 Darius. & 36 & 262 \\
+\hangindent=4mm\hangafter=1 Akhashwīrus [i. e. Xerxes]. & 21 & 283 \\
+\hangindent=4mm\hangafter=1 Arṭakhshast [i. e. Artaxer-\newline xes] prior. & \raisebox{-1\normalbaselineskip}[0pt][0pt]{\textit{43}} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{\textit{326}} \\
+\hangindent=4mm\hangafter=1 Darius. & \textit{19} & \textit{345} \\
+\hangindent=4mm\hangafter=1 Arṭakhshast posterior. & \textit{46} & \textit{391} \\
+\hangindent=4mm\hangafter=1 Ochus. & \textit{21} & \textit{412} \\
+\hangindent=4mm\hangafter=1 Arogus. & \textit{10} & \textit{422} \\
+\hangindent=4mm\hangafter=1 Darius [filius] Arsakh. & \textit{6} & \textit{428} \\
+\hangindent=4mm\hangafter=1 Alexander Macedon. & \textit{6} & \textit{434} \\
+\hline\multicolumn{3}{c}{\shortstack{\textarabic{وبعد هذا ملوك اثور}\\Et post hunc reges Athūr [sic].}} \\ \hline
+\hangindent=4mm\hangafter=1 Philippus, pater Dhū ’l–qar-\newline nayn. & \raisebox{-1\normalbaselineskip}[0pt][0pt]{7} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{7} \\
+\hangindent=4mm\hangafter=1 Alexander conditor. & 12 & 19 \\
+\hangindent=4mm\hangafter=1 Ptolemaeus lepus [i. e. Λάγος] & 20 & 39 \\
+\hangindent=4mm\hangafter=1 Ptolemaeus Philadelphus. & 38 & 77 \\
+\hangindent=4mm\hangafter=1 Ptolemaeus Euergetes prior. & 25 & 102 \\
+\hangindent=4mm\hangafter=1 Ptolemaeus Philopator. & 17 & 119 \\
+\hangindent=4mm\hangafter=1 Ptolemaeus Epiphanes. & 24 & 143 \\
+\hangindent=4mm\hangafter=1 Ptolemaeus Philometor. & 35 & 178 \\
+\hangindent=4mm\hangafter=1 Ptolemaeus Euergetes poste-\newline rior. & \raisebox{-1\normalbaselineskip}[0pt][0pt]{29} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{207} \\
+\hangindent=4mm\hangafter=1 Ptolemaeus Soter. & 36 & 243 \\
+\hangindent=4mm\hangafter=1 Ptolemaeus Dionysius. & 29 & 272 \\
+\hangindent=4mm\hangafter=1 Ptolemaeus Cleopatra. & 22 & 294 \\
+\hline\multicolumn{3}{c}{\shortstack{\textarabic{وبعد هذا ملوك الروم}\\Et post hunc reges Romanorum.}} \\ \hline
+\hangindent=4mm\hangafter=1 Augustus. & 43 & 337 \\
+\hangindent=4mm\hangafter=1 Tiberius. & 22 & 359 \\
+\end{tabular}}\end{minipage}\vrule\,\vrule\hfill\begin{minipage}[t]{0.48\textwidth}{\small \begin{tabular}{p{43mm}|r|r}
+\shortstack{Nomina regum.} & \rotatebox{90}{\shortstack[l]{Anni regni.}} & \rotatebox{90}{\shortstack[l]{Annor. summa.}} \\ \hline
+\hangindent=4mm\hangafter=1 Gaius. & 4 & 363 \\
+\hangindent=4mm\hangafter=1 Claudius. & 14 & 377 \\
+\hangindent=4mm\hangafter=1 Nero. & 14 & 391 \\
+\hangindent=4mm\hangafter=1 Vespasianus. & 10 & 401 \\
+\hangindent=4mm\hangafter=1 Titus. & 3 & 404 \\
+\hangindent=4mm\hangafter=1 Domitianus. & 15 & 419 \\
+\hangindent=4mm\hangafter=1 Nerva. & 1 & 420 \\
+\hangindent=4mm\hangafter=1 Traianus. & 19 & 439 \\
+\hangindent=4mm\hangafter=1 Hadrianus. & 21 & 460 \\
+\hangindent=4mm\hangafter=1 Antoninus. & 23 & 483 \\
+\hangindent=4mm\hangafter=1 Commodus. & 32 & 515 \\
+\hangindent=4mm\hangafter=1 Severus. & 25 & 540 \\
+\hangindent=4mm\hangafter=1 Antoninus solus. & 4 & 544 \\
+\hangindent=4mm\hangafter=1 Alexander filius Mammaeae. & 13 & 557 \\
+\hangindent=4mm\hangafter=1 Maximinus. & 3 & 560 \\
+\hangindent=4mm\hangafter=1 Gordianus. & 6 & 566 \\
+\hangindent=4mm\hangafter=1 Philippus. & 6 & 572 \\
+\hangindent=4mm\hangafter=1 Decius. & 1 & 573 \\
+\hangindent=4mm\hangafter=1 Gallus. & 3 & 576 \\
+\hangindent=4mm\hangafter=1 Valerianus. & 15 & 591 \\
+\hangindent=4mm\hangafter=1 Claudius. & 1 & 592 \\
+\hangindent=4mm\hangafter=1 Aurelianus. & 6 & 598 \\
+\hangindent=4mm\hangafter=1 Probus. & 7 & 605 \\
+\hangindent=4mm\hangafter=1 Carus et Carinus & 2 & 607 \\
+\hangindent=4mm\hangafter=1 Diocletianus. & 21 & 628 \\
+\hline\multicolumn{3}{c}{\shortstack{\textarabic{وبعد هذا ملوك |النصرانية}\\Et post hunc reges Christianitatis.}} \\ \hline
+\hangindent=4mm\hangafter=1 Constantinus. & 32 & 660 \\
+\hangindent=4mm\hangafter=1 Constantinus. & 24 & 684 \\
+\hangindent=4mm\hangafter=1 Iulianus paganus. & 2 & 686 \\
+\hangindent=4mm\hangafter=1 Iovianus. & 1 & 687 \\
+\hangindent=4mm\hangafter=1 Theodosius [sic]. & 14 & 701 \\
+\hangindent=4mm\hangafter=1 Valens [sic]. & 17 & 718 \\
+\hangindent=4mm\hangafter=1 Arcadius. & 13 & 731 \\
+\hangindent=4mm\hangafter=1 Theodosius [minor]. & 42 & 773 \\
+\hangindent=4mm\hangafter=1 Marcianus. & 6 & 779 \\
+\hangindent=4mm\hangafter=1 Leo. & 18 & 797 \\
+\hangindent=4mm\hangafter=1 Zeno. & 17 & 814 \\
+\end{tabular}}\end{minipage}\par\vspace{4mm}
+\clearpage
+\noindent\makebox[\textwidth]{\textbf{}\hfill{\small AL–BATTANI OPUS ASTRONOMICUM}\hfill\textbf{3}}\par\vspace{-1mm}\noindent\rule{\textwidth}{.4pt}\par\vspace{2mm}
+\noindent\begin{minipage}[t]{0.5\textwidth}{\small \begin{tabular}{p{43mm}|r|r}
+\shortstack{Nomina regum.} & \rotatebox{90}{\shortstack[l]{Anni regni.}} & \rotatebox{90}{\shortstack[l]{Annor. summa.}} \\ \hline
+\hangindent=4mm\hangafter=1 Anastasius. & 27 & 841 \\
+\hangindent=4mm\hangafter=1 Iustinus prior. & 9 & 850 \\
+\hangindent=4mm\hangafter=1 Iustinianus. & 37 & 887 \\
+\hangindent=4mm\hangafter=1 Iustinus posterior. & 14 & 901 \\
+\hangindent=4mm\hangafter=1 Tiberius. & 4 & 905 \\
+\hangindent=4mm\hangafter=1 Mauricius. & 20 & 925 \\
+\hangindent=4mm\hangafter=1 Phocas. & 8 & 933 \\
+\hangindent=4mm\hangafter=1 Heraclius sapiens. & 31 & 964 \\
+\hangindent=4mm\hangafter=1 Constantinus. & 1 & 965 \\
+\end{tabular}}\end{minipage}\vrule\,\vrule\hfill\begin{minipage}[t]{0.48\textwidth}{\small \begin{tabular}{p{43mm}|r|r}
+\shortstack{Nomina regum.} & \rotatebox{90}{\shortstack[l]{Anni regni.}} & \rotatebox{90}{\shortstack[l]{Annor. summa.}} \\ \hline
+\hangindent=4mm\hangafter=1 Constantinus. & 27 & 992 \\
+\hangindent=4mm\hangafter=1 Leontius. & 16 & 1008 \\
+\hangindent=4mm\hangafter=1 Tiberius posterior. & 10 & 1018 \\
+\hangindent=4mm\hangafter=1 Iustinianus. & 3 & 1021 \\
+\hangindent=4mm\hangafter=1 Philippicus. & 7 & 1028 \\
+\hangindent=4mm\hangafter=1 Constantinus. & 6 & 1034 \\
+\hangindent=4mm\hangafter=1 Philippicus. & 3 & 1037 \\
+\hangindent=4mm\hangafter=1 Anastasius. & 2 & 1039 \\
+\hangindent=4mm\hangafter=1 Theodosius. & 1 & 1040 \\
+\end{tabular}}\end{minipage}\par\vspace{4mm}
+\begin{center}\fbox{\parbox{0.95\textwidth}{\centering\bfseries \textarabic{جدول ما بين التواريخ}\\Anni qui inter aeras intercesserunt.}}\end{center}
+\noindent\begin{tabular}{|p{\dimexpr\textwidth-24mm\relax}|r|}\hline
+\hangindent=4mm\hangafter=1 A rege Bukhtanaṣṣar primo usque ad Alexandri Macedonis mortem, anni Aegyptii. & 434 \\
+\hangindent=4mm\hangafter=1 Regnavit postea Philippus pater Dhū ’l–qarnayni, et ab eo rege usque ad Augu-\newline stum regem Romanum. & \raisebox{-1\normalbaselineskip}[0pt][0pt]{294} \\
+\hangindent=4mm\hangafter=1 Ab Augusto Romano rege usque ad Diocletianum, qui est ex regibus Christia-\newline norum. & \raisebox{-1\normalbaselineskip}[0pt][0pt]{313} \\
+\hangindent=4mm\hangafter=1 A Diocletiano rege usque ad Iulianum Paganum regem. & 77 \\
+\hangindent=4mm\hangafter=1 Deinde regnavit Iulianus, rediitque imperium Christianis rege Ioviano. & 2 \\
+\hangindent=4mm\hangafter=1 A Diocletiano rege usque ad regem Heraclium, sapientem. & 336 \\
+\hangindent=4mm\hangafter=1 Deinde regnaverunt Arabes, et a secessione (\textit{hiǵrah}) Prophetae usque ad Umay-\newline yadarum dynastiam. & \raisebox{-1\normalbaselineskip}[0pt][0pt]{39} \\
+\hangindent=4mm\hangafter=1 Et usque ad tempus quo pervenit imperium ad ‘Abbāsidas et apud eos remansit. & 127 \\
+\hline\end{tabular}
+\clearpage
+\noindent\makebox[\textwidth]{\textbf{4}\hfill{\small C. A. NALLINO}\hfill\textbf{}}\par\vspace{-1mm}\noindent\rule{\textwidth}{.4pt}\par\vspace{2mm}
+\begin{center}\small Fol. 156,r.-157,r. = Textus, t. III, p. 231-234.\end{center}
+\begin{center}\fbox{\parbox{0.95\textwidth}{\centering\bfseries \textarabic{جدول تاريخ الخلفاء من لدن هجرة النبي |صلّى الله عليه وسلّم}\\Chronologia khalifarum a secessione Prophetae, cui Deus propitius est\\et salutem praestat.}}\end{center}
+\setlength{\tabcolsep}{2.5pt}\noindent\begin{tabular}{|p{\dimexpr\textwidth-60mm\relax}|>{\raggedleft\arraybackslash}p{5.5mm}|>{\raggedleft\arraybackslash}p{5.5mm}|>{\raggedleft\arraybackslash}p{5.5mm}|>{\raggedleft\arraybackslash}p{5.5mm}|>{\raggedleft\arraybackslash}p{5.5mm}|>{\raggedleft\arraybackslash}p{5.5mm}|}\hline
+\parbox[b]{\dimexpr\textwidth-62mm\relax}{\centering\small\vspace{1mm}\textarabic{اسماء الخلفاء الراشدين من لدن الهجرة على ان اول يوم من المحرّم الجمعة}\\\textarabic{والذي يُعمَل عليه في التاريخ الخميس وهذا المحرّم لاوّل سنة الهجرة}\\Nomina khalifarum iustorum a secessione (\textit{hiǵrah}), cum dies Veneris ponatur primus dies mensis muḥarram. Sed in chronologia [astronomorum] a die Iovis incipitur. Pertinet hic muḥarram ad primum hegirae annum.\vspace{1mm}} & \multicolumn{3}{c|}{\parbox[b]{23mm}{\centering\small \textarabic{ما ملك كل واحد منهم}\\Quot quisque eorum regnaverit tempus.\vspace{1mm}}} & \multicolumn{3}{c|}{\parbox[b]{23mm}{\centering\small \textarabic{مجموعة السنين}\\Annorum summa.\vspace{1mm}}} \\ \cline{2-7}
+ & \rotatebox{90}{\scriptsize\shortstack[l]{\textarabic{سنون}\\Anni.}} & \rotatebox{90}{\scriptsize\shortstack[l]{\textarabic{شهور}\\Menses.}} & \rotatebox{90}{\scriptsize\shortstack[l]{\textarabic{ايام}\\Dies.}} & \rotatebox{90}{\scriptsize\shortstack[l]{\textarabic{سنون}\\Anni.}} & \rotatebox{90}{\scriptsize\shortstack[l]{\textarabic{شهور}\\Menses.}} & \rotatebox{90}{\scriptsize\shortstack[l]{\textarabic{ايام}\\Dies.}} \\ \hline
+\hangindent=4mm\hangafter=1 Fuit secessio Prophetae cui est aeterna salus, ab urbe\newline Mekkah ad al–Medīnah primo anno. & \raisebox{-1\normalbaselineskip}[0pt][0pt]{0} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{2} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{8} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{0} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{2} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{8} \\
+\hangindent=4mm\hangafter=1 Mansitque secedens al–Medīnah in urbe ad mortem\newline usque. & \raisebox{-1\normalbaselineskip}[0pt][0pt]{9} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{11} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{22} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{10} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{2} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{0} \\
+\hangindent=4mm\hangafter=1 Abū Bakr ibn Abī Quḥāfah e [tribu] Banū Taym. & 2 & 3 & 8 & 12 & 5 & 8 \\
+\hangindent=4mm\hangafter=1 ‘Omar ibn al–Khaṭṭāb e [tribu] Banū ‘Adī. & 10 & 6 & 17 & 22 & 11 & 25 \\
+\hangindent=4mm\hangafter=1 Et fuit deliberatio post ‘Omar ibn al–Khaṭṭāb. & 0 & 0 & 3 & 22 & 11 & 28 \\
+\hangindent=4mm\hangafter=1 ‘Othmān ibn ‘Affān ex Banū Umayyah. & 11 & 11 & 19 & 34 & 11 & 17 \\
+\hangindent=4mm\hangafter=1 ‘Alī ibn Abī Ṭālib et seditio. & 4 & 9 & 0 & 39 & 8 & 17 \\
+\hangindent=4mm\hangafter=1 Usque ad tempus quo Mu‘āwiyah ibn Abī Sufyān\newline khalifa salutatus est. & \raisebox{-1\normalbaselineskip}[0pt][0pt]{0} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{6} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{3} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{40} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{2} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{20} \\
+\hangindent=4mm\hangafter=1 Mu‘āwiyah ibn Abī Sufyān ibn Ḥarb ibn Umayyah. & 19 & 3 & 25 & 59 & 6 & 15 \\
+\hangindent=4mm\hangafter=1 Yazīd ibn Mu‘āwiyah ibn Abī Sufyān. & 3 & 8 & 0 & 63 & 2 & 15 \\
+\hangindent=4mm\hangafter=1 Mu‘āwiyah ibn Yazīd ibn Mu‘āwiyah. & 0 & 3 & 22 & 63 & 6 & 7 \\
+\hangindent=4mm\hangafter=1 ‘Abd Allāh ibn az–Zubayr et Marwān ibn al–Ḥakam. & 0 & 4 & 0 & 63 & 10 & 7 \\
+\hangindent=4mm\hangafter=1 ‘Abd Allāh ibn az–Zubayr e [tribu] Banū Asad. & 8 & 5 & 0 & 72 & 3 & 7 \\
+\hangindent=4mm\hangafter=1 ‘Abd al–Malik ibn Marwān usque ad Ibn az-Zubayr\newline interfectum. & \raisebox{-1\normalbaselineskip}[0pt][0pt]{1} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{2} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{3} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{73} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{5} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{10} \\
+\hangindent=4mm\hangafter=1 ‘Abd al–Malik ibn Marwān ibn al-Ḥakam. & 12 & 4 & 5 & 85 & 9 & 15 \\
+\hangindent=4mm\hangafter=1 al-Walīd ibn ‘Abd al–Malik ibn Marwān. & 9 & 7 & 29 & 95 & 5 & 14 \\
+\hangindent=4mm\hangafter=1 Sulaymān ibn ‘Abd al–Malik. & 2 & 7 & 29 & 98 & 1 & 13 \\
+\hangindent=4mm\hangafter=1 ‘Omar ibn ‘Abd al–‘Azīz ibn Marwān. & 2 & 5 & 13 & 100 & 6 & 26 \\
+\hangindent=4mm\hangafter=1 Yazīd ibn ‘Abd al–Malik ibn Marwān. & 4 & 0 & 1 & 104 & 6 & 27 \\
+\hangindent=4mm\hangafter=1 Hishām ibn ‘Abd al-Malik ibn Marwān. & 19 & 8 & 9 & 124 & 3 & 6 \\
+\hangindent=4mm\hangafter=1 al–Walīd ibn Yazīd ibn ‘Abd al-Malik ibn Marwān. & 1 & 2 & 21 & 125 & 5 & 27 \\
+\hangindent=4mm\hangafter=1 Et fuit seditio post al–Walīd interfectum. & 0 & 2 & 25 & 125 & 8 & 22 \\
+\hangindent=4mm\hangafter=1 Yazīd ibn al–Walīd ibn ‘Abd al–Malik. & 0 & 2 & 9 & 125 & 11 & 1 \\
+\hangindent=4mm\hangafter=1 Ibrāhīm ibn al–Walīd ibn ‘Abd al–Malik. & 0 & 2 & 11 & 126 & 1 & 12 \\
+\hangindent=4mm\hangafter=1 Marwān ibn Muḥammad ibn Marwān usque ad tem-\newline pus quo interfectus est. & \raisebox{-1\normalbaselineskip}[0pt][0pt]{5} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{2} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{0} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{131} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{3} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{12} \\
+\hline\end{tabular}
+\clearpage
+\noindent\makebox[\textwidth]{\textbf{}\hfill{\small AL–BATTANI OPUS ASTRONOMICUM}\hfill\textbf{5}}\par\vspace{-1mm}\noindent\rule{\textwidth}{.4pt}\par\vspace{2mm}
+\setlength{\tabcolsep}{2.5pt}\noindent\begin{tabular}{|p{\dimexpr\textwidth-60mm\relax}|>{\raggedleft\arraybackslash}p{5.5mm}|>{\raggedleft\arraybackslash}p{5.5mm}|>{\raggedleft\arraybackslash}p{5.5mm}|>{\raggedleft\arraybackslash}p{5.5mm}|>{\raggedleft\arraybackslash}p{5.5mm}|>{\raggedleft\arraybackslash}p{5.5mm}|}\hline
+\parbox[b]{\dimexpr\textwidth-62mm\relax}{\centering\small\vspace{1mm}Nomina khalifarum iustorum.\vspace{1mm}} & \multicolumn{3}{c|}{\parbox[b]{23mm}{\centering\small Quot quisque eorum regnaverit tempus.\vspace{1mm}}} & \multicolumn{3}{c|}{\parbox[b]{23mm}{\centering\small Summa annorum.\vspace{1mm}}} \\ \cline{2-7}
+ & \rotatebox{90}{\scriptsize\shortstack[l]{Anni.}} & \rotatebox{90}{\scriptsize\shortstack[l]{Menses.}} & \rotatebox{90}{\scriptsize\shortstack[l]{Dies.}} & \rotatebox{90}{\scriptsize\shortstack[l]{Anni.}} & \rotatebox{90}{\scriptsize\shortstack[l]{Menses.}} & \rotatebox{90}{\scriptsize\shortstack[l]{Dies.}} \\ \hline
+\hangindent=4mm\hangafter=1 Deinde pervenit imperium ad stirpem Banū Hāshim. &  &  &  &  &  &  \\
+\hangindent=4mm\hangafter=1 Abū ’l–‘Abbās ‘Abd Allāh ibn Muḥammad as–Saffāḥ. & 4 & 8 & 2 & 135 & 11 & 14 \\
+\hangindent=4mm\hangafter=1 Et usque ad tempus quo Abū Ǵa‘far khalifa salu-\newline tatus est. & \raisebox{-1\normalbaselineskip}[0pt][0pt]{0} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{0} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{14} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{135} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{11} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{28} \\
+\hangindent=4mm\hangafter=1 Abū Ǵa‘far al–Manṣūr ‘Abd Allāh ibn Muḥammad. & 21 & 11 & 8 & 157 & 11 & 6 \\
+\hangindent=4mm\hangafter=1 Et usque ad tempus quo pervenit nuntium ad al–\newline –Mahdī. & \raisebox{-1\normalbaselineskip}[0pt][0pt]{0} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{0} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{12} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{157} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{11} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{18} \\
+\hangindent=4mm\hangafter=1 al–Mahdī Muḥammad ibn Abī Ǵa‘far al–Manṣūr. & 10 & 1 & 5 & 168 & 0 & 23 \\
+\hangindent=4mm\hangafter=1 Et usque ad tempus quo nuntium pervenit ad Mūsà\newline ibn al–Mahdī. & \raisebox{-1\normalbaselineskip}[0pt][0pt]{0} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{0} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{8} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{168} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{1} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{1} \\
+\hangindent=4mm\hangafter=1 Aṣ–Ṣādiq Mūsà ibn Muḥammad al–Mahdī. & 1 & 1 & 15 & 169 & 2 & 16 \\
+\hangindent=4mm\hangafter=1 Ar–Rashīd Hārūn ibn Muḥammad al–Mahdī. & 23 & 2 & 17 & 192 & 5 & 3 \\
+\hangindent=4mm\hangafter=1 Et usque ad tempus quo nuntium pervenit ad Mu-\newline ḥammad ibn Hārūn. & \raisebox{-1\normalbaselineskip}[0pt][0pt]{0} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{0} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{12} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{192} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{5} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{15} \\
+\hangindent=4mm\hangafter=1 Al-Amīn Muḥammad ibn ar–Rashīd usque ad digni-\newline tatis spoliationem et captivitatem. & \raisebox{-1\normalbaselineskip}[0pt][0pt]{3} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{0} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{25} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{195} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{6} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{10} \\
+\hangindent=4mm\hangafter=1 Et mansit captivus. & 0 & 0 & 2 & 195 & 6 & 12 \\
+\hangindent=4mm\hangafter=1 Deinde, cum liberatus et khalifa iterum salutatus\newline esset, bellum fecit et obsessus est eo usque quo\newline est interfectus. & \raisebox{-2\normalbaselineskip}[0pt][0pt]{1} & \raisebox{-2\normalbaselineskip}[0pt][0pt]{6} & \raisebox{-2\normalbaselineskip}[0pt][0pt]{13} & \raisebox{-2\normalbaselineskip}[0pt][0pt]{197} & \raisebox{-2\normalbaselineskip}[0pt][0pt]{0} & \raisebox{-2\normalbaselineskip}[0pt][0pt]{25} \\
+\hangindent=4mm\hangafter=1 Al–Ma’mūn ‘Abd Allāh ibn Hārūn ar–Rashīd. & 20 & 5 & 22 & 217 & 6 & 17 \\
+\hangindent=4mm\hangafter=1 Al–Mu‘taṣim Muḥammad ibn Hārūn ar–Rashīd. & 8 & 8 & 2 & 226 & 2 & 19 \\
+\hangindent=4mm\hangafter=1 Al–Wāthiq bi–llāh Hārūn ibn Muḥammad al–Mu‘-\newline taṣim. & \raisebox{-1\normalbaselineskip}[0pt][0pt]{5} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{9} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{5} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{231} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{11} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{24} \\
+\hangindent=4mm\hangafter=1 Al–Mutawakkil ‘alà–llāh Ǵa‘far ibn Muḥammad al–\newline –Mu‘taṣim. & \raisebox{-1\normalbaselineskip}[0pt][0pt]{14} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{9} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{9} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{246} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{9} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{3} \\
+\hangindent=4mm\hangafter=1 Al–Muntaṣir bi–llāh Muḥammad ibn al–Mutawakkil. & 0 & 6 & 0 & 247 & 3 & 3 \\
+\hangindent=4mm\hangafter=1 Al–Musta‘īn bi–llāh usque ad tempus quo se Urbem\newline Salutis [i. e. Baghdād] contulit. & \raisebox{-1\normalbaselineskip}[0pt][0pt]{2} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{9} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{3} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{250} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{0} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{6} \\
+\hangindent=4mm\hangafter=1 Et usque eo quo al-Mu‘tazz bi–llāh khalifa saluta-\newline tus est. & \raisebox{-1\normalbaselineskip}[0pt][0pt]{0} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{0} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{8} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{250} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{0} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{14} \\
+\hangindent=4mm\hangafter=1 Et usque eo quo in Urbe Salutis preces publicae\newline pro al-Mu‘tazz bi–llāh factae sunt. & \raisebox{-1\normalbaselineskip}[0pt][0pt]{0} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{11} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{20} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{251} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{0} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{4} \\
+\hangindent=4mm\hangafter=1 Et usque eo quo al–Mu‘tazz dignitate spoliatus est. & 3 & 6 & 23 & 254 & 6 & 27 \\
+\hangindent=4mm\hangafter=1 Et usque eo quo salutatus est khalifa al–Muhtadī\newline bi–llāh. & \raisebox{-1\normalbaselineskip}[0pt][0pt]{0} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{0} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{2} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{254} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{6} & \raisebox{-1\normalbaselineskip}[0pt][0pt]{29} \\
+\hangindent=4mm\hangafter=1 Al–Muhtadī bi–llāh ibn al–Wāthiq bi–llāh. & 0 & 11 & 18 & 255 & 6 & 17 \\
+\hangindent=4mm\hangafter=1 Al–Mu‘tamid ‘alà–llāh Aḥmad ibn al–Mutawakkil. & 28 & 0 & 3 & 278 & 6 & 20 \\
+\hline\end{tabular}
+\clearpage
+\noindent\makebox[\textwidth]{\textbf{6}\hfill{\small C. A. NALLINO}\hfill\textbf{}}\par\vspace{-1mm}\noindent\rule{\textwidth}{.4pt}\par\vspace{2mm}
+\setlength{\tabcolsep}{2.5pt}\noindent\begin{tabular}{|p{\dimexpr\textwidth-60mm\relax}|>{\raggedleft\arraybackslash}p{5.5mm}|>{\raggedleft\arraybackslash}p{5.5mm}|>{\raggedleft\arraybackslash}p{5.5mm}|>{\raggedleft\arraybackslash}p{5.5mm}|>{\raggedleft\arraybackslash}p{5.5mm}|>{\raggedleft\arraybackslash}p{5.5mm}|}\hline
+\parbox[b]{\dimexpr\textwidth-62mm\relax}{\centering\small\vspace{1mm}Nomina khalifarum iustorum.\vspace{1mm}} & \multicolumn{3}{c|}{\parbox[b]{23mm}{\centering\small Quot quisque eorum regnaverit tempus.\vspace{1mm}}} & \multicolumn{3}{c|}{\parbox[b]{23mm}{\centering\small Summa annorum.\vspace{1mm}}} \\ \cline{2-7}
+ & \rotatebox{90}{\scriptsize\shortstack[l]{Anni.}} & \rotatebox{90}{\scriptsize\shortstack[l]{Menses.}} & \rotatebox{90}{\scriptsize\shortstack[l]{Dies.}} & \rotatebox{90}{\scriptsize\shortstack[l]{Anni.}} & \rotatebox{90}{\scriptsize\shortstack[l]{Menses.}} & \rotatebox{90}{\scriptsize\shortstack[l]{Dies.}} \\ \hline
+\hangindent=4mm\hangafter=1 Al–Mu‘taḍid bi–llāh Aḥmad ibn al–Muwaffaq. & 9 & 9 & 2 & 288 & 3 & 22 \\
+\hangindent=4mm\hangafter=1 Al–Muktafī bi–llāh ‘Alī ibn al–Mu‘taḍid. & 6 & 6 & 4 & 294 & 9 & 26 \\
+\hangindent=4mm\hangafter=1 \textit{Al–Muqtadir bi–llāh Ǵa‘far ibn Aḥmad.} & \textit{24} & \textit{11} & \textit{15} & \textit{319} & \textit{3} & \textit{18} \\
+\hangindent=4mm\hangafter=1 \textit{Al-Qāhir bi–llāh Muḥammad ibn Aḥmad.} & \textit{1} & \textit{6} & \textit{6} & \textit{320} & \textit{10} & \textit{24} \\
+\hangindent=4mm\hangafter=1 \textit{Ar–Rāḍī bi–llāh Muḥammad ibn Ǵa‘far.} & \textit{6} & \textit{10} & \textit{9} & \textit{327} & \textit{9} & \textit{3} \\
+\hangindent=4mm\hangafter=1 \textit{Al–Muttaqī li–llāh Ibrāhīm ibn Ǵa‘far.} & \textit{3} & \textit{11} & \textit{4} & \textit{331} & \textit{8} & \textit{7} \\
+\hangindent=4mm\hangafter=1 \textit{Al–Mustakfī bi–llāh ‘Abd Allāh ibn ‘Alī.} & \textit{1} & \textit{6} & \textit{15} & \textit{333} & \textit{2} & \textit{22} \\
+\hangindent=4mm\hangafter=1 \textit{Al–Muṭī‘ li–llāh al–Faḍl ibn Ǵa‘far.} &  &  &  &  &  &  \\
+\hline\end{tabular}
+\end{document}
