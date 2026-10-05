@@ -54,7 +54,7 @@ As in the star catalogue (see `../star_catalogue/README.md`). In addition:
 
 ## Not done yet
 
-- Part II pp. 214–218 (master PDF 663–667): Nallino's index of the places by region and his comparison with the Castilian version and the Escorial codex.
+- Part II pp. 209–218 (master PDF 658–667): Nallino's general notes on the geographical tables (*Ad pag. 33–54*), his index of the places by region, and his comparison with the Castilian version and the Escorial codex.
 - An independent second reading of the Arabic names and their harakat.
 
 ## Credits
