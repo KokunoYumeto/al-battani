@@ -18,8 +18,9 @@ It is an independent working edition. Nallino's edition is in the public domain.
 | S01 | Nallino, Part I: frontispiece, front matter, preface, bibliography, addenda/corrigenda (PDF 1–89, printed VII–LXXX) | **v003 candidate:** revised transcription with 85 recorded, source-checked decisions (71 text repairs, 14 exact-image substitutions) on 50 pages; 80-page reader and 4-page critical apparatus. Ten hard-to-read spots are kept as exact source images. The independent cold audit has not been done yet |
 | S02 | Part I: Nallino's Latin translation and notes, printed pp. 1–109 (PDF 90–198) | **Candidate v009:** printed pp. 1–53 (PDF 90–142) in [S02/candidate_v009_print001-053/](S02/candidate_v009_print001-053/), line-anchored with the printed line numbers and marginal locators, and a 54-page reader. Pp. 41–53 were read line by line against the scan and the corrected readings are integrated. The earlier candidates (v006, pp. 41–43, pp. 44–48), v002 (pp. 1–30, with its 2-page critical apparatus) and the pp. 31–35 extension are kept as records. 56 pages remain; the next is printed p. 54. Checked independently, see [S02/INDEPENDENT_CHECK.md](S02/INDEPENDENT_CHECK.md) |
 | S03–S04 | Part I: Nallino's Latin translation and notes, printed pp. 110–327 | not started |
-| S05–S09 | Part II: tables and notes | not started |
-| S10–S13 | Part III: Arabic text and tables | not started |
+| S05–S09 | Part II: tables and notes | The star table, printed pp. 144–177, is done with its Part III counterpart (see S13); the rest is not started |
+| S10–S12 | Part III: Arabic text | not started |
+| S13 | Part III: tables | **Star catalogue complete:** Part III pp. 245–274 and Part II pp. 144–177 in [S13/star_catalogue/](S13/star_catalogue/). Every Part III cell (abjad numerals, with the codex's zero sign set in its own font) is checked against Part II and Nallino's codex notes: 2,604 cells agree, 279 are explained by the notes, 45 differences are ledgered after checking two scan copies, 0 are open. The other Part III tables are not started |
 | S14 | Commentary on Ptolemy's *Tetrabiblos* (Escorial ár. 969) | not started |
 | S15 | The astrological-history work | not started |
 | S16 | Integration and cold audit | not started |
@@ -38,6 +39,10 @@ It is an independent working edition. Nallino's edition is in the public domain.
 - [Critical apparatus, 2 pp.](S02/pdf/S02_CRITICAL_NOTES_v002.pdf)
 - [TeX source](S02/tex/S02_NALLINO_SOURCE_v002.tex) and [line-anchored text](S02/transcription/S02_NALLINO_SOURCE_v002.txt)
 - [About this batch](S02/README.md)
+
+**Read the star catalogue (S13):**
+- [Part III, the Arabic tables, 30 pp.](S13/star_catalogue/p3_star_catalogue.pdf) and [Part II, the Latin tables with Nallino's notes, 34 pp.](S13/star_catalogue/p2_star_catalogue.pdf)
+- [Data, checks and conventions](S13/star_catalogue/README.md); [joined dataset](S13/star_catalogue/star_catalogue_joined.tsv); [discrepancy ledger](S13/star_catalogue/discrepancies.tsv)
 
 Releases are archived on Zenodo under concept DOI [10.5281/zenodo.20539593](https://doi.org/10.5281/zenodo.20539593). The latest version, [10.5281/zenodo.22983296](https://doi.org/10.5281/zenodo.22983296), adds the S02 v009 candidate, printed pp. 1–53 (files 70–73). It keeps S02 v002 (files 60–63, first published in [10.5281/zenodo.22970148](https://doi.org/10.5281/zenodo.22970148)) and S01 v003 (files 50–53, first published in [10.5281/zenodo.22953314](https://doi.org/10.5281/zenodo.22953314)). v002 is in version [10.5281/zenodo.22951891](https://doi.org/10.5281/zenodo.22951891) and in `S01/history/v002/`.
 
