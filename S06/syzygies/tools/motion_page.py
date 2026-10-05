@@ -15,12 +15,15 @@ import wide_kit as wk
 def run(pdf, y0, y1, rules, tvals, args=None, nsub=3, tag="", keep=None, rates=None, mods=None, fixed=None):
     rows = p2motion.read(pdf, y0, y1, rules, nsub)
     rows = [r for r in rows if keep is None or keep(r)]
-    if len(rows) != len(tvals):
-        print(f"warning: {len(rows)} rows read, {len(tvals)} expected")
+    n_exp = len(tvals[0]) if isinstance(tvals[0], (list, tuple)) else len(tvals)
+    if len(rows) != n_exp:
+        print(f"warning: {len(rows)} rows read, {n_exp} expected")
     out = {"pdf": pdf, "rules": rules, "rows": [], "lines": [], "flags": []}
     vals = []
     for gi in range(len(rules) - 2):
-        v, flags, ab = p2motion.fit(rows, tvals[:len(rows)], gi, nsub, mod_deg=(mods[gi] if mods else 360),
+        ns = nsub[gi] if isinstance(nsub, (list, tuple)) else nsub
+        tv = tvals[gi] if isinstance(tvals[0], (list, tuple)) else tvals        # per-column times (or expected values)
+        v, flags, ab = p2motion.fit(rows, tv[:len(rows)], gi, ns, mod_deg=(mods[gi] if mods else 360),
                                     rate=(rates[gi] if rates else None), fixed=(fixed[gi] if fixed else None))
         vals.append(v); out["flags"] += [list(map(str, f)) for f in flags]
         out["lines"].append(list(ab) if ab else None)

@@ -1,6 +1,6 @@
 """Read and check a mean-motion page of Part II: an argument column and motion columns, each motion column holding
 degrees, minutes, seconds (or more places) as separate numbers.
-read(pdf, y0, y1, rules, nsub=3) -> rows [{"y", "arg": cell, "groups": [[cell per place] per motion column]}]
+read(pdf, y0, y1, rules, nsub=3) -> rows (nsub: places per column, or a list per column) [{"y", "arg": cell, "groups": [[cell per place] per motion column]}]
   cell = {"text", "conf", "tl", "x0", "x1", "y"} or None
 fit(rows, tvals, gi, places, mod) -> (values, flags, (a, b)): for motion column gi, the reading of each row closest
   to the line a + b*t (mod `mod` in the smallest unit) among the candidates of the two readers; the line is fitted on
@@ -50,7 +50,8 @@ def read(pdf, y0, y1, rules, nsub=3, inset=1.5, merge=3.0, labels=None, vecs=Non
             groups[-1].append(y)
         else:
             groups.append([y])
-    rows = [{"y": float(np.mean(g)), "arg": None, "groups": [[None] * nsub for _ in cols[1:]]} for g in groups]
+    ns = [nsub[k] if isinstance(nsub, (list, tuple)) else nsub for k in range(len(cols) - 1)]   # places per column
+    rows = [{"y": float(np.mean(g)), "arg": None, "groups": [[None] * ns[k] for k in range(len(cols) - 1)]} for g in groups]
     # argument column: the joined tokens of a line
     for L in cols[0]:
         r = min(rows, key=lambda r: abs(r["y"] - L[0]["y"]))
@@ -61,10 +62,10 @@ def read(pdf, y0, y1, rules, nsub=3, inset=1.5, merge=3.0, labels=None, vecs=Non
         r["arg"] = attach_tl(c, tl)
     # motion columns: place centres from lines with exactly nsub tokens
     for gi, lines in enumerate(cols[1:]):
-        full = [sorted(L, key=lambda t: t["x0"]) for L in lines if len(L) == nsub]
+        full = [sorted(L, key=lambda t: t["x0"]) for L in lines if len(L) == ns[gi]]
         if not full:
             continue
-        centres = [float(np.median([(T[j]["x0"] + T[j]["x1"]) / 2 for T in full])) for j in range(nsub)]
+        centres = [float(np.median([(T[j]["x0"] + T[j]["x1"]) / 2 for T in full])) for j in range(ns[gi])]
         for L in lines:
             r = min(rows, key=lambda r: abs(r["y"] - L[0]["y"]))
             for t in sorted(L, key=lambda t: t["x0"]):

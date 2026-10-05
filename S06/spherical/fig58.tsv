@@ -1,0 +1,37 @@
+kind	position	text_ar	text_la	rot
+dir	top	الجنوب	Meridies	0
+dir	bottom	الشمال	Septentriones	0
+dir	left	المشرق	Oriens	90
+dir	right		[Occidens]	-90
+sign	top	الجدي	Capricornus	90
+sign	left	الميزان	Libra	0
+sign	right	الحمل	Aries	0
+sign	bottom	السرطان	Cancer	90
+order	upper-left	مراتب هبوط الجنوب	Ordines / descensus australis	45
+order	upper-right	مراتب صعود الجنوب	Ordines / ascensus australis	-45
+order	lower-left	مراتب هبوط الشمال	Ordines / descensus borealis	135
+order	lower-right	مراتب صعود الشمال	Ordines / ascensus borealis	225
+cell	upper-left 1		15°	
+cell	upper-left 2		30°	
+cell	upper-left 3		45°	
+cell	upper-left 4		60°	
+cell	upper-left 5		75°	
+cell	upper-right 1		75°	
+cell	upper-right 2		60°	
+cell	upper-right 3		45°	
+cell	upper-right 4		30°	
+cell	upper-right 5		15°	
+cell	lower-right 1		15°	
+cell	lower-right 2		30°	
+cell	lower-right 3		45°	
+cell	lower-right 4		60°	
+cell	lower-right 5		75°	
+cell	lower-left 1		75°	
+cell	lower-left 2		60°	
+cell	lower-left 3		45°	
+cell	lower-left 4		30°	
+cell	lower-left 5		15°	
+cell	corner left		0°	
+cell	corner top		90°	
+cell	corner right		0°	
+cell	corner bottom		90°	
