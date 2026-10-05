@@ -178,6 +178,80 @@ for lam in order:
         close_eq_run()
 close_eq_run()
 
+# pp. 65-67: oblique ascensions of the decades, OA = RA - arcsin(tan φ tan δ), for the latitude printed in each head;
+# on p. 67 also the seasonal hours (180° + 2 arcsin(tan φ tan δ)) / 12. Consecutive values more than 3′ off in the same
+# direction form one entry; --lat prints the latitude that fits each column best
+HEAD_LAT = {"Mekkah": 21 + 40 / 60, "Baghdad": 33 + 9 / 60, "Harran": 36 + 40 / 60}
+
+
+def asc_diff(lam, phi):
+    d = math.asin(math.sin(math.radians(lam)) * math.sin(EPS))
+    return math.degrees(math.asin(math.tan(math.radians(phi)) * math.tan(d)))
+
+
+def oblique_asc(lam, phi):
+    return 360.0 if lam == 360 else (ra_deg(lam) - asc_diff(lam, phi)) % 360
+
+
+def seasonal_hour(lam, phi):
+    return (180 + 2 * asc_diff(lam, phi)) / 12
+
+
+obl = read("oblique_p2.tsv")
+cols = read("oblique_columns.tsv")
+dist["oblique ascensions"] = Counter(); dist["seasonal hours"] = Counter()
+fits = []
+for c in cols:
+    pdf, k, label = int(c["pdf"]), int(c["col"]), c["label"]
+    rows_ = [r for r in obl if int(r["pdf"]) == pdf]
+    if pdf == 516:
+        city, kind = label.split()
+        phi = HEAD_LAT[city]
+        f = oblique_asc if kind == "asc" else seasonal_hour
+        name = f"{city} {'ascensions' if kind == 'asc' else 'hours'}"
+    else:
+        d_, m_ = label.replace("′", "").split("° ")
+        phi = int(d_) + int(m_) / 60
+        f, kind, name = oblique_asc, "asc", f"latitude {label}"
+    pts, run = [], []
+    for r in rows_:
+        lam = int(r["decade"])
+        got = sec(r[f"c{k}_d"], r[f"c{k}_m"])
+        dev = (got - f(lam, phi) * 60 + 10800) % 21600 - 10800
+        dist["oblique ascensions" if kind == "asc" else "seasonal hours"][round(abs(dev))] += 1
+        pts.append((lam, got))
+        if abs(dev) > TOL and (not run or (dev > 0) == (run[-1][2] > 0)):
+            run.append((lam, f"{r[f'c{k}_d']}° {r[f'c{k}_m']}′", dev))
+            continue
+        if run:
+            a, b = run[0][0], run[-1][0]
+            worst = max(run, key=lambda x: abs(x[2]))
+            found.append((f"p. {pdf - 449} {name} {a}" + (f"-{b}" if b != a else ""), ", ".join(x[1] for x in run),
+                          f"{len(run)} value{'s' if len(run) > 1 else ''} {'above' if worst[2] > 0 else 'below'} the computation, "
+                          f"the largest by {worst[2]:+.1f}′ at {worst[0]}°"))
+            run = []
+        if abs(dev) > TOL:
+            run.append((lam, f"{r[f'c{k}_d']}° {r[f'c{k}_m']}′", dev))
+    if run:
+        a, b = run[0][0], run[-1][0]
+        worst = max(run, key=lambda x: abs(x[2]))
+        found.append((f"p. {pdf - 449} {name} {a}" + (f"-{b}" if b != a else ""), ", ".join(x[1] for x in run),
+                      f"{len(run)} value{'s' if len(run) > 1 else ''} {'above' if worst[2] > 0 else 'below'} the computation, "
+                      f"the largest by {worst[2]:+.1f}′ at {worst[0]}°"))
+    # the latitude that fits the column best (values within 5′ of the head's computation; 180° and 360° excluded)
+    use = [(l, v) for l, v in pts if l % 180 and abs(v - f(l, phi) * 60) <= 5]
+    lo, hi = phi - 0.5, phi + 0.5
+    for _ in range(60):
+        c1, c2 = lo + (hi - lo) * 0.382, lo + (hi - lo) * 0.618
+        if sum((v - f(l, c1) * 60) ** 2 for l, v in use) < sum((v - f(l, c2) * 60) ** 2 for l, v in use):
+            hi = c2
+        else:
+            lo = c1
+    fits.append((pdf, name, phi, (lo + hi) / 2))
+if "--lat" in sys.argv:
+    for pdf, name, phi, fit_ in fits:
+        print(f"  p. {pdf - 449} {name}: head {int(phi)}° {phi % 1 * 60:.1f}′, best fit {int(fit_)}° {fit_ % 1 * 60:.1f}′")
+
 open_ = [f for f in found if f[0] not in ledger]
 n = sum(sum(c.values()) for c in dist.values())
 print(f"values compared {n}, differ {len(found)} (ledgered {len(found) - len(open_)}, open {len(open_)})")
@@ -187,7 +261,7 @@ if "--dist" in sys.argv:
     within = sum(abs(v - ZERO) <= 3 for v in dev_eq.values())
     print(f"  equation: zero point {ZERO:+.2f}′; within 3′ of the computation {within} of {len(dev_eq)}")
     for t, c in dist.items():
-        u = "′" if t in ("longest day", "shadows", "ascensions", "equation") else "″"
+        u = "′" if t in ("longest day", "shadows", "ascensions", "equation", "oblique ascensions", "seasonal hours") else "″"
         print(f"  {t}: " + ", ".join(f"{k}{u}: {v}" for k, v in sorted(c.items())))
 stale = [w for w in ledger if w not in {f[0] for f in found}]
 for w in stale:

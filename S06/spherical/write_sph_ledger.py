@@ -93,6 +93,49 @@ for key, a_, b_, note in (
     pr, cp = eq_run(a_[0], a_[1], b_[0], b_[1])
     L.append((key, pr, cp, "run", note + f"; computed from al-Battānī's elements with the table's zero point ({ZERO:+.1f}′)"))
 
+# pp. 65-67: oblique ascensions and seasonal hours, computed for the latitude of the head
+def asc_diff(lam, phi):
+    d = math.asin(math.sin(math.radians(lam)) * math.sin(EPS))
+    return math.degrees(math.asin(math.tan(math.radians(phi)) * math.tan(d)))
+
+
+def oa(lam, phi):
+    return (ra_deg(lam) - asc_diff(lam, phi)) % 360
+
+
+def hr(lam, phi):
+    return (180 + 2 * asc_diff(lam, phi)) / 12
+
+
+def fm(x):
+    return f"{int(x)}° {x % 1 * 60:.1f}′"
+
+
+H = 36 + 40 / 60
+for key, pr, comp, note in (
+        ("p. 65 latitude 16° 39′ 50", "42° 3′", fm(oa(50, 16 + 39 / 60)),
+         "3.1′ above the computation; at 130° the column gives 127° 0′, 3.0′ above"),
+        ("p. 65 latitude 20° 28′ 210", "212° 21′", fm(oa(210, 20 + 28 / 60)),
+         "5.7′ above the computation; the neighbouring columns of the row give 211° 23′ and 213° 7′"),
+        ("p. 65 latitude 27° 28′ 250", "267° 32′", fm(oa(250, 27 + 28 / 60)),
+         "267 for 260: across the row the values rise by 1° 44′ from column to column (255° 19′, 257° 3′, 258° 47′, "
+         "260° 32′, 262° 16′, 264° 0′)"),
+        ("p. 65 latitude 30° 40′ 250", "260° 16′", fm(oa(250, 30 + 40 / 60)),
+         "260 for 262 (see the entry for 27° 28′)"),
+        ("p. 66 latitude 43° 25′ 80", "55° 14′", fm(oa(80, 43 + 25 / 60)),
+         "3.2′ above; the column as a whole fits the latitude 43° 23.4′, and the values at 80° and 280° are symmetric "
+         "(55° 14′ + 304° 46′ = 360°)"),
+        ("p. 66 latitude 43° 25′ 280", "304° 46′", fm(oa(280, 43 + 25 / 60)),
+         "3.2′ below (see the entry for 80°)"),
+        ("p. 67 Baghdad hours 320-330", "12° 20′, 12° 43′", fm(hr(320, 33 + 9 / 60)) + ", " + fm(hr(330, 33 + 9 / 60)),
+         "12 for 13 in both: the hours of the neighbouring rows are 12° 59′ (310°) and 14° 8′ (340°)"),
+        ("p. 67 Harran ascensions 90-100", "70° 59′, 82° 13′", fm(oa(90, H)) + ", " + fm(oa(100, H)),
+         "the ascensions and the seasonal hours of Ḥarrān both fit the latitude 36° 45′ (36° 44.5′ and 36° 44.8′), not "
+         "the 36° 40′ of the head; these values, near the solstice, are the most sensitive to the latitude"),
+        ("p. 67 Harran ascensions 260-270", "277° 47′, 289° 1′", fm(oa(260, H)) + ", " + fm(oa(270, H)),
+         "see the entry for 90°-100°")):
+    L.append((key, pr, comp, "value" if "-" not in key.split()[-1] else "run", note))
+
 with open(D + "spherical_discrepancies.tsv", "w", encoding="utf-8", newline="") as f:
     w = csv.writer(f, delimiter="\t", lineterminator="\n")
     w.writerow(["where", "printed", "computed", "kind", "note"])

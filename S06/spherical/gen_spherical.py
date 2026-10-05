@@ -243,6 +243,33 @@ def raeq_page(p, rows):
     return "\n".join(out)
 
 
+def oblique_page(p, rows, ncols, colw):
+    """pp. 65-67: sign names (vertical, three rows each), the decades, and the columns of ascensions (and hours)"""
+    out = running(int(p["ppage"]), p["fol"])
+    out.append(r"\begin{center}\setlength{\tabcolsep}{2.5pt}\renewcommand{\arraystretch}{1.0}\begin{tabular}{||c|c|" +
+               "|".join([r">{\centering\arraybackslash}p{" + colw + "}"] * ncols) + r"||}\hline")
+    out.append(title(p, ncols + 2, "175mm"))
+    hs = p["heads"].split("|")
+    cells = [vhead(hs[0]), vhead(hs[1])]
+    for h in hs[2:]:
+        parts = h.split("‖")
+        if len(parts) == 4:                        # clime and latitude above, «Gradus ascensionum» below
+            _, upper, a, lower = parts
+            inner = nl(upper) + r"\\[-0.6ex]\rule{0.8\linewidth}{0.3pt}\\" + (ar(a) + r"\\" if a else "") + nl(lower)
+            cells.append(r"\parbox[c]{" + colw + r"}{\centering\scriptsize " + inner + r"\par\vspace{0.7mm}}")
+        else:
+            cells.append(head(h, colw))
+    out.append(" & ".join(cells) + r" \\ \hline\hline")
+    for i, r in enumerate(rows):
+        sign = (r"\multirow{3}{*}{\rotatebox{90}{\tiny " + r["sign"] + ".}}") if i % 3 == 0 else ""
+        line = [sign, r["decade"]]
+        for k in range(1, ncols + 1):
+            line.append(num([r[f"c{k}_d"], r[f"c{k}_m"]], ["°", "′"] if i == 0 else None, "2mm"))
+        out.append(" & ".join(line) + r" \\" + (r" \hline" if i % 3 == 2 and i < len(rows) - 1 else ""))
+    out.append(r"\hline\end{tabular}\end{center}")
+    return "\n".join(out)
+
+
 def document():
     pages = read("sph_pages.tsv"); sines = read("sines_p2.tsv"); decl = read("decl_p2.tsv")
     ra10 = read("ra10_p2.tsv"); items = read("fig58.tsv")
@@ -264,6 +291,10 @@ def document():
     raeq = read("raeq_p2.tsv")
     for pp in ("61", "62", "63", "64"):
         out.append(raeq_page(P[(pp, "raeq")], [r for r in raeq if r["ppage"] == pp]))
+    obl = read("oblique_p2.tsv")
+    out.append(oblique_page(P[("65", "oblique")], [r for r in obl if r["ppage"] == "65"], 6, "23mm"))
+    out.append(oblique_page(P[("66", "oblique")], [r for r in obl if r["ppage"] == "66"], 7, "20mm"))
+    out.append(oblique_page(P[("67", "cities")], [r for r in obl if r["ppage"] == "67"], 6, "23mm"))
     out.append(r"\end{document}")
     return "\n".join(out) + "\n"
 

@@ -1,6 +1,6 @@
-# S06 — Sines, declination, ascensions, the longest day, shadows and the equation of days (Part II pp. 55–64)
+# S06 — Sines, declination, ascensions, the longest day, shadows and the equation of days (Part II pp. 55–67)
 
-Tables of spherical astronomy (codex fol. 176,v.–181,r.):
+Tables of spherical astronomy (codex fol. 176,v.–182,v.):
 
 | Page | Table | Rows |
 |---|---|---|
@@ -11,10 +11,12 @@ Tables of spherical astronomy (codex fol. 176,v.–181,r.):
 | 59 | half the increase of the longest day over 12 hours, in degrees of the equator (15° to an hour), for the latitudes 0° 30′ … 60°; three sections | 120 |
 | 60 | the shadow of a gnomon of 12 digits for the altitudes 1° … 90°, in digits and minutes; three sections | 90 |
 | 61–64 | for every degree of each sign, from Capricorn to Sagittarius: the right ascension counted from the beginning of Capricorn, and the equation of days with their nights; three signs to a page | 360 |
+| 65–66 | the oblique ascensions of every tenth degree, counted from Aries, for the latitudes of the seven climes and the latitudes between them, whose longest days differ by a quarter of an hour (13ʰ to 16ʰ; latitudes 16° 39′ to 48° 53′) | 36 × 13 |
+| 67 | the oblique ascensions of every tenth degree and the seasonal hours (the length of an hour of the day in degrees of the equator) for Mekkah (21° 40′), Baghdād (33° 9′) and Ḥarrān (36° 40′) | 36 × 6 |
 
 ## Read
 
-- [Part II pp. 55–64, 10 pp.](p2_spherical.pdf).
+- [Part II pp. 55–67, 13 pp.](p2_spherical.pdf).
 
 ## Data
 
@@ -26,13 +28,15 @@ Tables of spherical astronomy (codex fol. 176,v.–181,r.):
 | `days59_p2.tsv` | Half the increase of the longest day: section, row, latitude, value (degrees, minutes), `check`. |
 | `shadows60_p2.tsv` | The shadows: section, row, altitude, shadow (digits, minutes), `check`. |
 | `raeq_p2.tsv` | Right ascensions and the equation of days: page, row, sign, longitude, ascension and equation (degrees, minutes), `check`. |
+| `oblique_p2.tsv` | The oblique ascensions (and on p. 67 the seasonal hours): page, row, tenth degree, sign, one pair of columns (degrees, minutes) for each latitude, `check`. |
+| `oblique_columns.tsv` | What each column of `oblique_p2.tsv` holds. |
 | `sph_pages.tsv` | Folio lines, Arabic and Latin titles and heads. |
 | `fig58.tsv` | The labels of the figure on p. 58: the four directions, the four signs, the four orders, the 24 cells of the band. |
-| `spherical_discrepancies.tsv` | The differences found: one value and six runs. |
+| `spherical_discrepancies.tsv` | The differences found on pp. 55–67. |
 
 ## How the tables were read and checked
 
-Every number was read by the glyph reader and by the OCR text layer and matched against its computed value; on p. 59 every value was also read by eye, because the table departs from the computation, and on pp. 61–64 the equation of days was resolved by the agreement of the two readers and every disputed cell read by eye. 3,152 numbers are in class A (both readers give the value), 247 in class B (one reader gives it; each cell checked by eye), 45 in class E (read by eye). `python check_spherical.py` recomputes the tables:
+Every number was read by the glyph reader and by the OCR text layer and matched against its computed value; on p. 59 every value was also read by eye, because the table departs from the computation, and on pp. 61–64 the equation of days was resolved by the agreement of the two readers and every disputed cell read by eye. 4,323 numbers are in class A (both readers give the value), 416 in class B (one reader gives it; each cell checked by eye), 73 in class E (read by eye). `python check_spherical.py` recomputes the tables:
 
 - **sines**: 60 sin θ. Of the 180 sines, 148 agree to the second, 31 differ by 1″ and one by 2″. Every supplement is 180° − θ.
 - **declination**: sin δ = sin λ · sin 23° 35′, al-Battānī's obliquity. Of the 90 declinations, 59 agree to the second, 30 differ by 1″ and one by 2″. Every arc of equal declination is exact.
@@ -50,6 +54,13 @@ Every number was read by the glyph reader and by the OCR text layer and matched 
   - **Libra 16°–25°**: up to 6.3′ above (Libra 21°: printed 7° 34′).
   - **Scorpio 21°–30°**: up to 4.1′ above (Scorpio 24°: printed 7° 31′).
   The computation reconstructs the procedure from al-Battānī's elements; its agreement with the table to about 3′ is the measure of that reconstruction, and smaller differences are not listed.
+- **oblique ascensions** (pp. 65–67): the right ascension less arcsin(tan φ · tan δ), for the latitude φ printed in the head of each column, and on p. 67 the seasonal hours (180° + 2 arcsin(tan φ · tan δ)) / 12. Of the 576 ascensions 413 agree to the minute and 124 differ by 1′; of the 108 hours 90 agree and 15 differ by 1′. Every column but those of Ḥarrān fits the latitude of its head within 2.4′ (`python check_spherical.py --lat`). Ledgered:
+  - **p. 65, 250°**: printed 267° 32′ for 260° 32′ (latitude 27° 28′) and 260° 16′ for 262° 16′ (30° 40′); across the row the values rise by 1° 44′ from column to column.
+  - **p. 65, 210°, latitude 20° 28′**: printed 212° 21′, computed 212° 15.3′.
+  - **p. 65, 50°, latitude 16° 39′**: printed 42° 3′, computed 41° 59.9′.
+  - **p. 66, 80° and 280°, latitude 43° 25′**: printed 55° 14′ and 304° 46′, 3.2′ from the computation; the column fits 43° 23.4′.
+  - **p. 67, the seasonal hours of Baghdād at 320° and 330°**: printed 12° 20′ and 12° 43′ for 13° 20′ and 13° 43′.
+  - **p. 67, Ḥarrān**: the ascensions and the seasonal hours both fit the latitude 36° 45′ (36° 44.5′ and 36° 44.8′) rather than the 36° 40′ of the head. The four values most sensitive to the latitude, at 90°–100° and 260°–270°, lie 3.4′ to 3.8′ from the computation for 36° 40′.
 
 ## Nallino's notes on these pages (Part II, pp. 220–222)
 
@@ -59,6 +70,8 @@ Every number was read by the glyph reader and by the OCR text layer and matched 
 - **p. 59**: Schiaparelli corrected the table. The increase of the days is given in degrees of the equator, 15° to an equinoctial hour.
 - **p. 60**: the shadows are cotangents for a radius of 12 parts, and Nallino corrected the errors of the codex with logarithms. The codex gives the first two shadows as 687ᵖ 26′ and 663ᵖ 39′ (the letters خصج for سمج, 343); the small differences in the minutes may come from al-Battānī himself, who could have found them by dividing sines computed only to the second.
 - **pp. 61–64**: the right ascensions are counted from the beginning of Capricorn; 90° must be subtracted to count them from Aries. Ptolemy gives right ascensions only for every tenth degree (see p. 58), and his tables have no equation of time. In al-Battānī the equation of days is always subtracted.
+- **pp. 65–66**: the oblique ascensions are counted from the beginning of Aries, not from Capricorn like the right ascensions. They differ from Ptolemy's (Almagest II 8), because the obliquity, and with it the latitudes of the climes, differ. The increase of the ascensions from one quarter hour of the longest day to the next follows a regular proportion, so the errors of the codex were easy to correct; where there was doubt, Nallino computed with al-Battānī's tables of declination and right ascension and the formula sin m = tan φ · tan δ.
+- **p. 67**: the «tempora horaria» (azmān as-sāʿāt, Ptolemy's ὡριαῖοι χρόνοι) are the lengths of the seasonal hours in degrees of the equator, 15° to an equinoctial hour. The next leaf of the codex, f. 183,r., is blank.
 - **p. 58, the right ascensions**: they are counted from the beginning of Aries, while those of pp. 61–64 are counted from the beginning of Capricorn. In the title of the third column the codex reads «ازمان … المنصّفة» («half times») for «اوتار … المنصّفة» («half chords», sines). Ptolemy (Almagest II 8) gives the right ascensions of the decades too, without their sines and for another obliquity.
 
 ## Conventions
@@ -67,7 +80,7 @@ Every number was read by the glyph reader and by the OCR text layer and matched 
 - The sines of the ascensions on p. 58 are printed in bold type, and so are they here.
 - In the heads of p. 55 the third «الاوتار المنصفة» is printed «لاوتار المنصفة», without its alif, and the c of «descriptorum» in the title is damaged. The heads of p. 56 and of the right half of p. 57 are in Latin only.
 - The first row of p. 60 marks the digits of the shadow «dig.», as printed.
-- On pp. 61–64 the last ascension of Sagittarius is printed «360 0». The Arabic title of p. 61 has a fatḥa on «وتعَديل»; the Arabic title of p. 64 begins «من جداول» like those of pp. 62–63, while its Latin title begins «Finis tabularum».
+- On pp. 61–64 the last ascension of Sagittarius is printed «360 0». On pp. 65–67 the names of the signs stand vertically beside their three tenth degrees, as printed; on p. 65 only the first column has the Arabic head «المطالع», and on p. 66 the head of the second column lacks its final period («Gradus ascension»). The Arabic title of p. 61 has a fatḥa on «وتعَديل»; the Arabic title of p. 64 begins «من جداول» like those of pp. 62–63, while its Latin title begins «Finis tabularum».
 - The figure is redrawn from the print: a circle with an inscribed square, whose band holds the degrees 0°, 15° … 90° of the four quarters; the signs inside; the orders of declination between the square and the circle, their tops toward the circle; the four directions outside, with south (Meridies) at the top and east (Oriens) at the left. The right edge of the printed figure falls outside the scanned page: the label there is supplied as «[Occidens]» from the scan's text layer, which reads «Weedens» at that place; its Arabic is not visible.
 
 ## Credits

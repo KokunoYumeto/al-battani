@@ -242,5 +242,67 @@ for pdf, fol, tar, tla in ((510, "f. 179,v.", "ابتداء جداول مطال�
         hs.append("تعديل الايام بلياليها‖Aequatio / nychthemerōn." if (pdf == 510 and k == 0) else EQH)
     pages.append({"pdf": pdf, "ppage": str(pdf - 449), "fol": fol, "table": "raeq", "title_ar": tar, "title_la": tla,
                   "heads": "|".join(hs)})
+
+# ---------------------------------------------------------------- pp. 65-67: oblique ascensions of the decades
+# resolved against the computation for the fitted latitude of each column (oblique_pages.py rerun_fitted); the cells
+# below read by eye
+SIGNS12 = ["Aries", "Taurus", "Gemini", "Cancer", "Leo", "Virgo", "Libra", "Scorpio", "Sagittarius", "Capricornus",
+           "Aquarius", "Pisces"]
+EYE_OB = {(514, 1, 3): ("7", "6"), (514, 5, 0): ("42", "3"), (514, 13, 0): ("127", "0"), (514, 21, 1): ("212", "21"),
+          (514, 25, 3): ("267", "32"), (514, 25, 4): ("260", "16"), (515, 20, 6): ("207", "36"), (515, 32, 2): ("335", "56"),
+          (515, 34, 1): ("347", "57"), (516, 11, 4): ("94", "2"), (516, 12, 2): ("108", "15"), (516, 25, 4): ("265", "58"),
+          (516, 32, 3): ("12", "20"), (516, 33, 3): ("12", "43")}
+COLS = {514: ["16° 39′", "20° 28′", "24° 5′", "27° 28′", "30° 40′", "33° 37′"],
+        515: ["36° 22′", "38° 54′", "41° 15′", "43° 25′", "45° 22′", "47° 12′", "48° 53′"],
+        516: ["Mekkah asc", "Mekkah hour", "Baghdad asc", "Baghdad hour", "Harran asc", "Harran hour"]}
+oblique = []
+for pdf in (514, 515, 516):
+    d = json.load(open(wk.OUT + f"MP{pdf}.json", encoding="utf-8"))
+    assert len(d["rows"]) == 36
+    for i, r in enumerate(d["rows"]):
+        rec = {"pdf": pdf, "ppage": str(pdf - 449), "row": i + 1, "decade": 10 * (i + 1), "sign": SIGNS12[i // 3]}
+        checks = []
+        for gi, col in enumerate(COLS[pdf]):
+            if (pdf, i + 1, gi) in EYE_OB:
+                v, cl = EYE_OB[(pdf, i + 1, gi)], "EE"
+            else:
+                v, cl = cells(r["groups"][gi])
+            assert None not in v, (pdf, i, gi)
+            classes.update(cl)
+            rec[f"c{gi + 1}_d"], rec[f"c{gi + 1}_m"] = v
+            checks.append(cl)
+        rec["check"] = " ".join(checks)
+        oblique.append(rec)
+write("oblique_p2.tsv", ["pdf", "ppage", "row", "decade", "sign"] + [f"c{k}_{p}" for k in range(1, 8) for p in "dm"] + ["check"],
+      oblique)
+write("oblique_columns.tsv", ["pdf", "col", "label"], [{"pdf": p, "col": k + 1, "label": c} for p, cs in COLS.items()
+                                                         for k, c in enumerate(cs)])
+
+OBT_AR = "جدول مطالع البروج في الاقاليم بتفاضل ربع ساعة وعشرة اجزاء في العدد"
+OBT_LA = "Tabulae ascensionum signorum, per decades graduum, in climatibus intervallo / quadrantis horae descriptis."
+pages.append({"pdf": 514, "ppage": "65", "fol": "f. 181,v.", "table": "oblique", "title_ar": OBT_AR, "title_la": OBT_LA,
+              "heads": "|".join(["اسماء البروج‖Nomina signorum.", "عدد الاجزاء‖Decades graduum.",
+                                 "‖I clima, / lat. 16° 39′. / Horae 13ʰ.‖المطالع‖Gradus / ascensionum.",
+                                 "‖Lat. 20° 28′. / Horae 13ʰ 15ᵐ.‖‖Gradus / ascensionum.",
+                                 "‖II clima, / lat. 24° 5′. / Horae 13ʰ 30ᵐ.‖‖Gradus / ascensionum.",
+                                 "‖Lat. 27° 28′. / Horae 13ʰ 45ᵐ.‖‖Gradus / ascensionum.",
+                                 "‖III clima, / lat. 30° 40′. / Horae 14ʰ.‖‖Gradus / ascensionum.",
+                                 "‖Lat. 33° 37′. / Horae 14ʰ 15ᵐ.‖‖Gradus / ascensionum."])})
+pages.append({"pdf": 515, "ppage": "66", "fol": "f. 182,r.", "table": "oblique", "title_ar": OBT_AR, "title_la": OBT_LA,
+              "heads": "|".join(["‖Nomina signorum.", "‖Decades graduum.",
+                                 "‖IV clima, / lat. 36° 22′. / Hor. 14ʰ 30ᵐ.‖‖Gradus / ascension.",
+                                 "‖Lat. 38° 54′. / Hor. 14ʰ 45ᵐ.‖‖Gradus / ascension",
+                                 "‖V clima, / lat. 41° 15′. / Horae 15ʰ.‖‖Gradus / ascension.",
+                                 "‖Lat. 43° 25′. / Hor. 15ʰ 15ᵐ.‖‖Gradus / ascension.",
+                                 "‖VI clima, / lat. 45° 22′. / Hor. 15ʰ 30ᵐ.‖‖Gradus / ascension.",
+                                 "‖Lat. 47° 12′. / Hor. 15ʰ 45ᵐ.‖‖Gradus / ascension.",
+                                 "‖VII clima, / lat. 48° 53′. / Horae 16ʰ.‖‖Gradus / ascension."])})
+pages.append({"pdf": 516, "ppage": "67", "fol": "f. 182,v.", "table": "cities",
+              "title_ar": "جدول مطالع البروج وازمان الساعات بمكة وبغداد وحران",
+              "title_la": "Ascensiones signorum et tempora horaria in urbibus Mekkah, Baghdād / et Ḥarrān.",
+              "heads": "|".join(["‖Nomina signorum.", "‖Decades graduum.",
+                                 "درج المطالع مكة‖Ascensiones / Mekkah, / lat. 21° 40′.", "ازمان الساعات‖Tempora / horaria / 13ʰ 20ᵐ.",
+                                 "درج المطالع بغداد‖Ascensiones / Baghdād, / lat. 33° 9′.", "ازمان الساعات‖Tempora / horaria / 14ʰ 12ᵐ 32ˢ.",
+                                 "درج المطالع حران‖Ascensiones / Ḥarrān, / lat. 36° 40′.", "ازمان الساعات‖Tempora / horaria / 14ʰ 32ᵐ."])})
 write("sph_pages.tsv", ["pdf", "ppage", "fol", "table", "title_ar", "title_la", "heads"], pages)
 print(len(sines), "sines;", len(decl), "declinations;", len(ra10), "right ascensions;", len(fig), "figure items;", classes)
