@@ -1,0 +1,93 @@
+\documentclass[11pt]{article}
+\usepackage[paperwidth=210mm,paperheight=297mm,margin=12mm]{geometry}
+\usepackage{fontspec,amsmath,array,multirow,graphicx}
+\usepackage{multirow}
+\usepackage{polyglossia}
+\setmainlanguage{latin}\setotherlanguages{arabic,greek}
+\setmainfont{Linux Libertine O}[Ligatures=TeX]
+\newfontfamily\arabicfont{Amiri}[Script=Arabic]
+\newfontfamily\greekfont{FreeSerif}[Script=Greek]
+\newfontfamily\NallinoSigns{NallinoSigns.otf}[Path=./fonts/]
+\newcommand{\AbjadZero}{{\NallinoSigns\symbol{"E000}}}
+\newcommand{\AbjadOver}[1]{\leavevmode\vbox{\hrule height .45pt\kern1.2pt\hbox{#1}}}
+\newcommand{\Name}[1]{{\addfontfeatures{LetterSpace=12}#1}}
+\pagestyle{empty}\setlength{\parindent}{0pt}
+\renewcommand{\arraystretch}{1.18}
+
+\begin{document}
+\clearpage\noindent\makebox[\textwidth]{\hfill{\scriptsize AL-BATTANI OPUS ASTRONOMICUM}\hfill\llap{7}}
+\par\vspace{-1mm}\noindent\rule{\textwidth}{.4pt}\par\vspace{1mm}
+\begin{center}{\small f. 157,v.}\end{center}\vspace{-3mm}
+\begin{center}\setlength{\tabcolsep}{3pt}\renewcommand{\arraystretch}{1.02}
+\begin{tabular}{|>{\centering\arraybackslash}p{27mm}|>{\centering\arraybackslash}p{6mm}||>{\centering\arraybackslash}p{7mm}|>{\centering\arraybackslash}p{6mm}||>{\centering\arraybackslash}p{13mm}||>{\centering\arraybackslash}p{27mm}|>{\centering\arraybackslash}p{6mm}||>{\centering\arraybackslash}p{7mm}|>{\centering\arraybackslash}p{6mm}|>{\centering\arraybackslash}p{6mm}|}\hline\hline
+\multicolumn{10}{||c||}{\parbox{150mm}{\centering\vspace{1mm}{\large \textarabic{جدول استخراج اوائل سني العرب وشهورهم بعلامات مختلفة ومعنى واحد}}\\\textbf{Tabula ad invenienda initia annorum et mensium Arabicorum}\\\textbf{per differentia signa, quae [tamen] unam eandemque rem indicant.}\vspace{1mm}}} \\ \hline
+\multicolumn{2}{c||}{\small\begin{tabular}{@{}c@{}}\textarabic{المجموعة}\\Anni collecti [ab aera].\end{tabular}} & \multicolumn{2}{c||}{\small\begin{tabular}{@{}c@{}}\textarabic{المبسوطة}\\Anni singuli.\end{tabular}} &  & \multicolumn{2}{c||}{\small\begin{tabular}{@{}c@{}}\textarabic{المجموعة}\\Anni collecti [ab aera].\end{tabular}} & \multicolumn{3}{c|}{\small\begin{tabular}{@{}c@{}}\textarabic{المبسوطة}\\Anni singuli.\end{tabular}} \\ \cline{1-4}\cline{6-10}
+\small\begin{tabular}{@{}c@{}}\textarabic{عدد السنين}\\Annorum numerus.\end{tabular} & \rotatebox{90}{\scriptsize\begin{tabular}{@{}c@{}}\textarabic{العلامات}\\Signa.\end{tabular}} & \rotatebox{90}{\scriptsize\begin{tabular}{@{}c@{}}\textarabic{عدد السنين}\\Annor. num.\end{tabular}} & \rotatebox{90}{\scriptsize\begin{tabular}{@{}c@{}}\textarabic{العلامات}\\Signa.\end{tabular}} &  & \small\begin{tabular}{@{}c@{}}\textarabic{عدد السنين}\\Annorum numerus.\end{tabular} & \rotatebox{90}{\scriptsize\begin{tabular}{@{}c@{}}\textarabic{العلامات}\\Signa.\end{tabular}} & \rotatebox{90}{\scriptsize\begin{tabular}{@{}c@{}}\textarabic{عدد السنين}\\Annor. num.\end{tabular}} & \rotatebox{90}{\scriptsize\begin{tabular}{@{}c@{}}\textarabic{العلامات}\\Signa.\end{tabular}} & \rotatebox{90}{\scriptsize\begin{tabular}{@{}c@{}}\textarabic{الكبائس}\\Bisextiles.\end{tabular}} \\ \hline\hline
+30 & 5 & 1 & 5 &  & 30 & 5 & 1 & 7 &  \\
+60 & 3 & 2 & 2 &  & 60 & 3 & 2 & 4 & B \\
+90 & 1 & 3 & 7 &  & 90 & 1 & 3 & 2 &  \\
+120 & 6 & 4 & 4 &  & 120 & 6 & 4 & 6 &  \\
+150 & 4 & 5 & 1 &  & 150 & 4 & 5 & 3 & B \\
+180 & 2 & 6 & 6 &  & 180 & 2 & 6 & 1 &  \\
+210 & 7 & 7 & 3 &  & 210 & 7 & 7 & 5 & B \\ \cline{1-2}\cline{6-7}
+ &  & 8 & 1 &  &  &  & 8 & 3 &  \\
+\multicolumn{2}{c||}{} & 9 & 5 &  & \multicolumn{2}{c||}{} & 9 & 7 &  \\
+\multicolumn{2}{c||}{} & 10 & 2 &  & \multicolumn{2}{c||}{} & 10 & 4 & B \\
+\multicolumn{2}{c||}{\small\begin{tabular}{@{}c@{}}\textarabic{الشهور العربية}\\Menses Arabum.\end{tabular}} & 11 & 7 &  & \multicolumn{2}{c||}{\small\begin{tabular}{@{}c@{}}\textarabic{الشهور العربية}\\Menses Arabum.\end{tabular}} & 11 & 2 &  \\
+\multicolumn{2}{c||}{} & 12 & 4 &  & \multicolumn{2}{c||}{} & 12 & 6 &  \\
+\multicolumn{2}{c||}{} & 13 & 1 &  & \multicolumn{2}{c||}{} & 13 & 3 & B \\ \cline{1-2}\cline{6-7}
+ &  & 14 & 6 &  &  &  & 14 & 1 &  \\
+ &  & 15 & 3 &  &  &  & 15 & 5 &  \\
+\small\begin{tabular}{@{}c@{}}\textarabic{اسماء الشهور}\\Nomina mensium.\end{tabular} & \multirow{-3}{*}{\rotatebox{90}{\scriptsize\begin{tabular}{@{}c@{}}\textarabic{علاماتها}\\Eorum signa.\end{tabular}}} & 16 & 7 &  & \small\begin{tabular}{@{}c@{}}\textarabic{اسماء الشهور}\\Nomina mensium.\end{tabular} & \multirow{-3}{*}{\rotatebox{90}{\scriptsize\begin{tabular}{@{}c@{}}\textarabic{علاماتها}\\Eorum signa.\end{tabular}}} & 16 & 2 & B \\
+ &  & 17 & 5 &  &  &  & 17 & 7 &  \\
+ &  & 18 & 2 & \multirow{-9}{*}{\rotatebox{90}{\scriptsize\begin{tabular}{@{}c@{}}\textarabic{عدد ايام الشهور}\\Numerus dierum mensis.\end{tabular}}} &  &  & 18 & 4 & B \\ \cline{1-2}\cline{6-7}
+\raggedright al–muḥarram & 0 & 19 & 7 & 30 & \raggedright al–muḥarram & 5 & 19 & 2 &  \\
+\raggedright ṣafar & 2 & 20 & 4 & 29 & \raggedright ṣafar & 7 & 20 & 6 &  \\
+\raggedright rabī‘ I & 3 & 21 & 1 & 30 & \raggedright rabī‘ I & 1 & 21 & 3 & B \\
+\raggedright rabī‘ II & 5 & 22 & 6 & 29 & \raggedright rabī‘ II & 3 & 22 & 1 &  \\
+\raggedright ǵumādà I & 6 & 23 & 3 & 30 & \raggedright ǵumādà I & 4 & 23 & 5 &  \\
+\raggedright ǵumādà II & 1 & 24 & 7 & 29 & \raggedright ǵumādà II & 6 & 24 & 2 & B \\
+\raggedright raǵab & 2 & 25 & 5 & 30 & \raggedright raǵab & 7 & 25 & 7 &  \\
+\raggedright sha‘bān & 4 & 26 & 2 & 29 & \raggedright sha‘bān & 2 & 26 & 4 & B \\
+\raggedright ramaḍān & 5 & 27 & 7 & 30 & \raggedright ramaḍān & 3 & 27 & 2 &  \\
+\raggedright shawwāl & 0 & 28 & 4 & 29 & \raggedright shawwāl & 5 & 28 & 6 &  \\
+\raggedright dhū ’l–qa‘dah & 1 & 29 & 1 & 30 & \raggedright dhū ’l–qa‘dah & 6 & 29 & 3 & B \\
+\raggedright dhū ’l–ḥiǵǵah & 3 & 30 & 6 & 29 & \raggedright dhū ’l–ḥiǵǵah & 1 & 30 & 1 &  \\
+\hline\hline\end{tabular}\end{center}
+\clearpage\noindent\makebox[\textwidth]{\rlap{8}\hfill{\scriptsize C. A. NALLINO}\hfill}
+\par\vspace{-1mm}\noindent\rule{\textwidth}{.4pt}\par\vspace{1mm}
+\begin{center}{\small f. 158,r.}\end{center}\vspace{-3mm}
+\begin{center}\setlength{\tabcolsep}{2pt}\renewcommand{\arraystretch}{1.05}
+\begin{tabular}{|>{\centering\arraybackslash}p{13mm}|>{\centering\arraybackslash}p{8.5mm}|>{\centering\arraybackslash}p{8.5mm}|>{\centering\arraybackslash}p{8.5mm}|>{\centering\arraybackslash}p{8.5mm}|>{\centering\arraybackslash}p{8.5mm}|>{\centering\arraybackslash}p{8.5mm}||>{\centering\arraybackslash}p{11mm}||>{\centering\arraybackslash}p{8.5mm}|>{\centering\arraybackslash}p{8.5mm}|>{\centering\arraybackslash}p{8.5mm}|>{\centering\arraybackslash}p{8.5mm}|>{\centering\arraybackslash}p{8.5mm}|>{\centering\arraybackslash}p{8.5mm}|}\hline\hline
+\multicolumn{14}{||c||}{\parbox{150mm}{\centering\vspace{1mm}{\large \textarabic{علامات شهور الروم بتاريخ ذي القرنين المقسوم على كح بزيادة سنة}}\\\textbf{Signa mensium Romanorum secundum aeram Dhū ’l-qarnayn,}\\\textbf{quae est per 28 dividenda et uno anno augenda.}\vspace{1mm}}} \\ \hline
+\rotatebox{90}{\scriptsize\begin{tabular}{@{}c@{}}\textarabic{سنو الروم المبسوطة}\\Singuli Romanorum anni.\end{tabular}} & \rotatebox{90}{\tiny\begin{tabular}{@{}c@{}}\textarabic{ستنبر}\\September.\\Aylūl.\\30 d.\end{tabular}} & \rotatebox{90}{\tiny\begin{tabular}{@{}c@{}}\textarabic{اكتوبر}\\October.\\Tishrīn I.\\31 d.\end{tabular}} & \rotatebox{90}{\tiny\begin{tabular}{@{}c@{}}\textarabic{نونبر}\\November.\\Tishrīn II.\\30 d.\end{tabular}} & \rotatebox{90}{\tiny\begin{tabular}{@{}c@{}}\textarabic{دجنبر}\\December.\\Kānūn I.\\31 d.\end{tabular}} & \rotatebox{90}{\tiny\begin{tabular}{@{}c@{}}\textarabic{ينير}\\Ianuarius.\\Kānūn II.\\30 d.\end{tabular}} & \rotatebox{90}{\tiny\begin{tabular}{@{}c@{}}\textarabic{فبرير}\\Februarius.\\Subāṭ.\\28 d.\end{tabular}} & \rotatebox{90}{\scriptsize\begin{tabular}{@{}c@{}}\textarabic{سطور الكبائس}\\Anni Bisextiles.\end{tabular}} & \rotatebox{90}{\tiny\begin{tabular}{@{}c@{}}\textarabic{مارس}\\Martius.\\Ādhār.\\31 d.\end{tabular}} & \rotatebox{90}{\tiny\begin{tabular}{@{}c@{}}\textarabic{ابريل}\\Aprilis.\\Nīsān.\\30 d.\end{tabular}} & \rotatebox{90}{\tiny\begin{tabular}{@{}c@{}}\textarabic{مايه}\\Maius.\\Ayyār.\\31 d.\end{tabular}} & \rotatebox{90}{\tiny\begin{tabular}{@{}c@{}}\textarabic{يونيه}\\Iunius.\\Ḥazīrān.\\30 d.\end{tabular}} & \rotatebox{90}{\tiny\begin{tabular}{@{}c@{}}\textarabic{يليه}\\Iulius.\\Tammūz.\\31 d.\end{tabular}} & \rotatebox{90}{\tiny\begin{tabular}{@{}c@{}}\textarabic{اغشت}\\Augustus.\\Āb.\\31 d.\end{tabular}} \\ \hline\hline
+1 & 6 & 1 & 4 & 6 & 2 & 5 & 15 & 5 & 1 & 3 & 6 & 1 & 4 \\
+2 & 7 & 2 & 5 & 7 & 3 & 6 & 30 & 6 & 2 & 4 & 7 & 2 & 5 \\
+3 & 1 & 3 & 6 & 1 & 4 & 7 & 45 & 7 & 3 & 5 & 1 & 3 & 6 \\
+4 & 2 & 4 & 7 & 2 & 5 & 1 & B & 2 & 5 & 7 & 3 & 5 & 1 \\
+5 & 4 & 6 & 2 & 4 & 7 & 3 & 15 & 3 & 6 & 1 & 4 & 6 & 2 \\
+6 & 5 & 7 & 3 & 5 & 1 & 4 & 30 & 4 & 7 & 2 & 5 & 7 & 3 \\
+7 & 6 & 1 & 4 & 6 & 2 & 5 & 45 & 5 & 1 & 3 & 6 & 1 & 4 \\
+8 & 7 & 2 & 5 & 7 & 3 & 6 & B & 7 & 3 & 5 & 1 & 3 & 6 \\
+9 & 2 & 4 & 7 & 2 & 5 & 1 & 15 & 1 & 4 & 6 & 2 & 4 & 7 \\
+10 & 3 & 5 & 1 & 3 & 6 & 2 & 30 & 2 & 5 & 7 & 3 & 5 & 1 \\
+11 & 4 & 6 & 2 & 4 & 7 & 3 & 45 & 3 & 6 & 1 & 4 & 6 & 2 \\
+12 & 5 & 7 & 3 & 5 & 1 & 4 & B & 5 & 1 & 3 & 6 & 1 & 4 \\
+13 & 7 & 2 & 5 & 7 & 3 & 6 & 15 & 6 & 2 & 4 & 7 & 2 & 5 \\
+14 & 1 & 3 & 6 & 1 & 4 & 7 & 30 & 7 & 3 & 5 & 1 & 3 & 6 \\
+15 & 2 & 4 & 7 & 2 & 5 & 1 & 45 & 1 & 4 & 6 & 2 & 4 & 7 \\
+16 & 3 & 5 & 1 & 3 & 6 & 2 & B & 3 & 6 & 1 & 4 & 6 & 2 \\
+17 & 5 & 7 & 3 & 5 & 1 & 4 & 15 & 4 & 7 & 2 & 5 & 7 & 3 \\
+18 & 6 & 1 & 4 & 6 & 2 & 5 & 30 & 5 & 1 & 3 & 6 & 1 & 4 \\
+19 & 7 & 2 & 5 & 7 & 3 & 6 & 45 & 6 & 2 & 4 & 7 & 2 & 5 \\
+20 & 1 & 3 & 6 & 1 & 4 & 7 & B & 1 & 4 & 6 & 2 & 4 & 7 \\
+21 & 3 & 5 & 1 & 3 & 6 & 2 & 15 & 2 & 5 & 7 & 3 & 5 & 1 \\
+22 & 4 & 6 & 2 & 4 & 7 & 3 & 30 & 3 & 6 & 1 & 4 & 6 & 2 \\
+23 & 5 & 7 & 3 & 5 & 1 & 4 & 45 & 4 & 7 & 2 & 5 & 7 & 3 \\
+24 & 6 & 1 & 4 & 6 & 2 & 5 & B & 6 & 2 & 4 & 7 & 2 & 5 \\
+25 & 1 & 3 & 6 & 1 & 4 & 7 & 15 & 7 & 3 & 5 & 1 & 3 & 6 \\
+26 & 2 & 4 & 7 & 2 & 5 & 1 & 30 & 1 & 4 & 6 & 2 & 4 & 7 \\
+27 & 3 & 5 & 1 & 3 & 6 & 2 & 45 & 2 & 5 & 7 & 3 & 5 & 1 \\
+28 & 4 & 6 & 2 & 4 & 7 & 3 & B & 4 & 7 & 2 & 5 & 7 & 3 \\
+\hline\hline\end{tabular}\end{center}
+\end{document}
