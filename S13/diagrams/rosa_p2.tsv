@@ -1,0 +1,165 @@
+kind	sign	idx	t	planet	value	text	doubt
+header		page					no page number is printed (a double rule heads the page); Nallino cites the figure as p. 299 (Part II p. 308)
+header		fol				Fol. 197,r.	
+title						Circulus hic complectitur dominos terminorum duodecim signorum, dominos eorum triplicitatum die et nocte (1), dominos facierum (2), dominos domiciliorum, et dominos exaltationum, si Deus vult.	
+closing						Primus circulus *terminis* [inservit]; qui eum sequitur *triplicitatibus*; qui ambos sequitur *faciebus*; qui tres illos sequitur *domiciliis* (3); qui omnes eos sequitur, ac intimus est, *exaltationibus* (4). Nec est [imago haec] ex archetypo.	
+footnote		1				Cod. « nocte et die ».	
+footnote		2				Cod. « signorum ».	
+footnote		3				Cod. « exaltationi ».	
+footnote		4				Cod. « domiciliis ». Emendationes figurae illatas in commentario recensebo.	
+sign			105			Aries	
+sign			135			Taurus	
+sign			165			Gemini	
+sign			195			Cancer	
+sign			225			Leo	
+sign			255			Virgo	
+sign			285			Libra	
+sign			315			Scorpius	
+sign			345			Sagittarius	
+sign			15			Capricornus	
+sign			45			Aquarius	
+sign			75			Pisces	
+term	Aries	1	94.5	Iupiter	6°		
+term	Aries	2	99.4	Venus	8°		
+term	Aries	3	104.5	Mercurius	7°		
+term	Aries	4	109.6	Mars	5°		
+term	Aries	5	114.8	Saturnus	4°		
+trip	Aries	1				☉ ♃ ♄	
+trip	Aries	2				♃ ☉ ♄	
+face	Aries	1	97.4	Mars			
+face	Aries	2	103.2	Sol			
+face	Aries	3	111.9	Venus			
+house	Aries			Mars			
+exalt	Aries			☉	19°		
+term	Taurus	1	124.5	Venus	8°		
+term	Taurus	2	129.4	Mercurius	7°		
+term	Taurus	3	134.2	Iupiter	7°		
+term	Taurus	4	139.1	Saturnus	4°		
+term	Taurus	5	144.3	Mars	4°		
+trip	Taurus	1				♀ ☽ ♂	
+trip	Taurus	2				☽ ♀ ♂	
+face	Taurus	1	126.2	Mercurius			
+face	Taurus	2	133.9	Luna			
+face	Taurus	3	141.7	Saturnus			the t and n of Saturnus are broken in print
+house	Taurus			Venus			
+exalt	Taurus			☽	3°		
+term	Gemini	1	154.2	Mercurius	7°		
+term	Gemini	2	160	Iupiter	7°		
+term	Gemini	3	164.4	Venus	7°		
+term	Gemini	4	169	Mars	5°		
+term	Gemini	5	174.2	Saturnus	4°		
+trip	Gemini	1				♄ ☿ ♃	
+trip	Gemini	2				☿ ♄ ♃	
+face	Gemini	1	157	Iupiter			
+face	Gemini	2	164.6	Mars			
+face	Gemini	3	172.2	Sol			
+house	Gemini			Mercurius			
+exalt	Gemini			☊	3°		
+term	Cancer	1	184.2	Mars	6°		
+term	Cancer	2	189.3	Iupiter	7°		
+term	Cancer	3	194.3	Venus	7°		
+term	Cancer	4	199.7	Mercurius	7°		
+term	Cancer	5	204.9	Saturnus	3°		
+trip	Cancer	1				♀ ♂ ☽	
+trip	Cancer	2				♂ ♀ ☽	
+face	Cancer	1	186.8	Venus			
+face	Cancer	2	194.2	Mercurius			
+face	Cancer	3	203.7	Luna			
+house	Cancer			Luna			
+exalt	Cancer			♃	15°		
+term	Leo	1	214.4	Mercurius	7°		
+term	Leo	2	219.7	Venus	6°		
+term	Leo	3	224.8	Iupiter	6°		
+term	Leo	4	229.7	Saturnus	6°		
+term	Leo	5	235.1	Mars	5°		
+trip	Leo	1				☉ ♃ ♄	
+trip	Leo	2				♃ ☉ ♄	
+face	Leo	1	217.7	Saturnus			
+face	Leo	2	225.6	Iupiter			
+face	Leo	3	232.6	Mars			
+house	Leo			Sol			
+exalt	Leo				0°		
+term	Virgo	1	244.4	Mercurius	7°		
+term	Virgo	2	249.7	Verus	6°		printed Verus (an r for the n)
+term	Virgo	3	254.8	Iupiter	5°		
+term	Virgo	4	259.3	Mars	6°		
+term	Virgo	5	264.7	Saturnus	6°		
+trip	Virgo	1				♀ ☽ ♂	
+trip	Virgo	2				☽ ♀ ♂	
+face	Virgo	1	248.1	Sol			
+face	Virgo	2	253.8	Venus			
+face	Virgo	3	262.7	Mercurius			
+house	Virgo			Mercurius			
+exalt	Virgo			☿	15°		
+term	Libra	1	274	Saturnus	6°		
+term	Libra	2	279.2	Venus	5°		
+term	Libra	3	284.9	Iupiter	8°		
+term	Libra	4	289.5	Mercurius	5°		
+term	Libra	5	294.4	Mars	6°		
+trip	Libra	1				♄ ☿ ♃	
+trip	Libra	2				☿ ♄ ♃	
+face	Libra	1	276.3	Luna			
+face	Libra	2	283	Saturnus			
+face	Libra	3	292.5	Iupiter			
+house	Libra			Venus			
+exalt	Libra			♄	21°		
+term	Scorpio	1	303.9	Mars	6°		
+term	Scorpio	2	309	Iupiter	8°		
+term	Scorpio	3	314.4	Venus	7°		
+term	Scorpio	4	319.4	Mercurius	6°		
+term	Scorpio	5	324.9	Saturnus	3°		
+trip	Scorpio	1				♀ ♂ ☽	
+trip	Scorpio	2				♂ ♀ ☽	
+face	Scorpio	1	306.7	Mars			
+face	Scorpio	2	314.6	Sol			
+face	Scorpio	3	321.2	Venus			
+house	Scorpio			Mars			
+exalt	Scorpio				0°		
+term	Sagittarius	1	333.7	Iupiter	8°		
+term	Sagittarius	2	339	Venus	6°		
+term	Sagittarius	3	344.2	Mercurius	5°		
+term	Sagittarius	4	349.1	Saturnus	6°		
+term	Sagittarius	5	354.6	Mars	5°		
+trip	Sagittarius	1				☉ ♃ ♄	
+trip	Sagittarius	2				♃ ☉ ♄	
+face	Sagittarius	1	335.9	Mercurius			
+face	Sagittarius	2	344.5	Luna			
+face	Sagittarius	3	350.2	Saturnus			
+house	Sagittarius			Iupiter			
+exalt	Sagittarius			☋	3°		
+term	Capricorn	1	4	Venus	6°		
+term	Capricorn	2	9.6	Mercurius	6°		the u of Mercurius is broken in print
+term	Capricorn	3	14.5	Iupiter	7°		
+term	Capricorn	4	19.4	Mars	6°		
+term	Capricorn	5	24.9	Saturnus	5°		
+trip	Capricorn	1				♀ ☽ ♂	
+trip	Capricorn	2				☽ ♀ ♂	
+face	Capricorn	1	6.8	Iupiter			
+face	Capricorn	2	14.6	Mars			
+face	Capricorn	3	22.2	Sol			
+house	Capricorn			Saturnus			
+exalt	Capricorn			♂	28°		the degree sign after 28 is not visible
+term	Aquarius	1	33.7	Saturnus	6°		
+term	Aquarius	2	39.1	Mercurius	6°		
+term	Aquarius	3	44.5	Venus	8°		
+term	Aquarius	4	49.5	Iupiter	5°		
+term	Aquarius	5	54.5	Mars	5°		
+trip	Aquarius	1				♄ ☿ ♃	
+trip	Aquarius	2				☿ ♄ ♃	
+face	Aquarius	1	35.9	Venus			
+face	Aquarius	2	43.7	Mercurius			
+face	Aquarius	3	52.5	Luna			
+house	Aquarius			Saturnus			
+exalt	Aquarius				0°		
+term	Pisces	1	63.9	Venns	8°		printed Venns (a turned n for the u)
+term	Pisces	2	69.4	Iupiter	6°		
+term	Pisces	3	74	Mercurius	6°		
+term	Pisces	4	78.9	Mars	6°		
+term	Pisces	5	84.5	Saturnus	4°		
+trip	Pisces	1				♀ ♂ ☽	
+trip	Pisces	2				♂ ♀ ☽	
+face	Pisces	1	66.8	Saturnus			
+face	Pisces	2	74.4	Iupiter			
+face	Pisces	3	82.5	Mars			
+house	Pisces			Iupiter			
+exalt	Pisces			♀	27°		

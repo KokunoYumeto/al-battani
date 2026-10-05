@@ -1,0 +1,262 @@
+\documentclass[11pt]{article}
+\usepackage[paperwidth=210mm,paperheight=297mm,margin=11mm]{geometry}
+\usepackage{fontspec,amsmath,array,multirow,graphicx}
+\usepackage{tikz}
+\usepackage{polyglossia}
+\setmainlanguage{latin}\setotherlanguages{arabic,greek}
+\setmainfont{Linux Libertine O}[Ligatures=TeX]
+\newfontfamily\arabicfont{Amiri}[Script=Arabic]
+\newfontfamily\greekfont{FreeSerif}[Script=Greek]
+\newfontfamily\NallinoSigns{NallinoSigns.otf}[Path=./fonts/]
+\newfontfamily\astrofont{DejaVu Sans}
+\newcommand{\AbjadZero}{{\NallinoSigns\symbol{"E000}}}
+\newcommand{\AbjadOver}[1]{\leavevmode\vbox{\hrule height .45pt\kern1.2pt\hbox{#1}}}
+\newcommand{\Name}[1]{{\addfontfeatures{LetterSpace=12}#1}}
+\pagestyle{empty}\setlength{\parindent}{0pt}
+\renewcommand{\arraystretch}{1.18}
+
+\begin{document}
+\noindent\rule{\textwidth}{1.2pt}\\[-2.6mm]\rule{\textwidth}{.4pt}\par\vspace{6mm}
+\begin{center}{\small Fol. 197,r.}\end{center}\vspace{-1mm}
+\noindent Circulus hic complectitur dominos terminorum duodecim signorum, dominos eorum triplicitatum die et nocte (1), dominos facierum (2), dominos domiciliorum, et dominos exaltationum, si Deus vult.\par\vspace{-1mm}
+\begin{center}\begin{tikzpicture}[x=1.12pt,y=1.12pt]
+\draw[line width=0.5pt] (0,0) circle (40.5);
+\draw[line width=0.5pt] (0,0) circle (56.0);
+\draw[line width=0.5pt] (0,0) circle (71.5);
+\draw[line width=0.5pt] (0,0) circle (109.0);
+\draw[line width=0.5pt] (0,0) circle (147.0);
+\draw[line width=0.5pt] (0,0) circle (193.5);
+\draw[line width=0.4pt,dash pattern=on 2pt off 1.5pt] (0,0) circle (128.0);
+\draw[line width=0.5pt] (0:40.5) -- (0:193.5);
+\draw[line width=0.5pt] (30:40.5) -- (30:193.5);
+\draw[line width=0.5pt] (60:40.5) -- (60:193.5);
+\draw[line width=0.5pt] (90:40.5) -- (90:193.5);
+\draw[line width=0.5pt] (120:40.5) -- (120:193.5);
+\draw[line width=0.5pt] (150:40.5) -- (150:193.5);
+\draw[line width=0.5pt] (180:40.5) -- (180:193.5);
+\draw[line width=0.5pt] (210:40.5) -- (210:193.5);
+\draw[line width=0.5pt] (240:40.5) -- (240:193.5);
+\draw[line width=0.5pt] (270:40.5) -- (270:193.5);
+\draw[line width=0.5pt] (300:40.5) -- (300:193.5);
+\draw[line width=0.5pt] (330:40.5) -- (330:193.5);
+\node[rotate=15.00,anchor=center,inner sep=0.6pt,font={\scriptsize\bfseries}] at (-51.63,192.70) {Aries};
+\node[rotate=45.00,anchor=center,inner sep=0.6pt,font={\scriptsize\bfseries}] at (-141.07,141.07) {Taurus};
+\node[rotate=75.00,anchor=center,inner sep=0.6pt,font={\scriptsize\bfseries}] at (-192.70,51.63) {Gemini};
+\node[rotate=105.00,anchor=center,inner sep=0.6pt,font={\scriptsize\bfseries}] at (-192.70,-51.63) {Cancer};
+\node[rotate=135.00,anchor=center,inner sep=0.6pt,font={\scriptsize\bfseries}] at (-141.07,-141.07) {Leo};
+\node[rotate=165.00,anchor=center,inner sep=0.6pt,font={\scriptsize\bfseries}] at (-51.63,-192.70) {Virgo};
+\node[rotate=195.00,anchor=center,inner sep=0.6pt,font={\scriptsize\bfseries}] at (51.63,-192.70) {Libra};
+\node[rotate=225.00,anchor=center,inner sep=0.6pt,font={\scriptsize\bfseries}] at (141.07,-141.07) {Scorpius};
+\node[rotate=255.00,anchor=center,inner sep=0.6pt,font={\scriptsize\bfseries}] at (192.70,-51.63) {Sagittarius};
+\node[rotate=-75.00,anchor=center,inner sep=0.6pt,font={\scriptsize\bfseries}] at (192.70,51.63) {Capricornus};
+\node[rotate=-45.00,anchor=center,inner sep=0.6pt,font={\scriptsize\bfseries}] at (141.07,141.07) {Aquarius};
+\node[rotate=-15.00,anchor=center,inner sep=0.6pt,font={\scriptsize\bfseries}] at (51.63,192.70) {Pisces};
+\node[rotate=274.50,anchor=west,inner sep=0.6pt,font={\scriptsize\bfseries}] at (-14.95,189.91) {Iupiter};
+\node[rotate=274.50,anchor=center,inner sep=0.6pt,font={\scriptsize\bfseries}] at (-12.00,152.53) {6°};
+\node[rotate=279.40,anchor=west,inner sep=0.6pt,font={\scriptsize\bfseries}] at (-31.11,187.94) {Venus};
+\node[rotate=279.40,anchor=center,inner sep=0.6pt,font={\scriptsize\bfseries}] at (-24.99,150.95) {8°};
+\node[rotate=284.50,anchor=west,inner sep=0.6pt,font={\scriptsize\bfseries}] at (-47.70,184.43) {Mercurius};
+\node[rotate=284.50,anchor=center,inner sep=0.6pt,font={\scriptsize\bfseries}] at (-38.31,148.13) {7°};
+\node[rotate=289.60,anchor=west,inner sep=0.6pt,font={\scriptsize\bfseries}] at (-63.90,179.46) {Mars};
+\node[rotate=289.60,anchor=center,inner sep=0.6pt,font={\scriptsize\bfseries}] at (-51.32,144.13) {5°};
+\node[rotate=294.80,anchor=west,inner sep=0.6pt,font={\scriptsize\bfseries}] at (-79.91,172.93) {Saturnus};
+\node[rotate=294.80,anchor=center,inner sep=0.6pt,font={\scriptsize\bfseries}] at (-64.18,138.89) {4°};
+\node[rotate=15.00,anchor=center,inner sep=0.6pt,font={\small}] at (-35.59,132.81) {{\astrofont ☉}\ \ {\astrofont ♃}\ \ {\astrofont ♄}};
+\node[rotate=15.00,anchor=center,inner sep=0.6pt,font={\small}] at (-30.67,114.46) {{\astrofont ♃}\ \ {\astrofont ☉}\ \ {\astrofont ♄}};
+\node[rotate=277.40,anchor=center,inner sep=0.6pt,font={\scriptsize\bfseries}] at (-11.62,89.50) {Mars};
+\node[rotate=283.20,anchor=center,inner sep=0.6pt,font={\scriptsize\bfseries}] at (-20.61,87.87) {Sol};
+\node[rotate=291.90,anchor=center,inner sep=0.6pt,font={\scriptsize\bfseries}] at (-33.66,83.74) {Venus};
+\node[rotate=15.00,anchor=center,inner sep=0.6pt,font={\tiny}] at (-16.50,61.58) {Mars};
+\node[rotate=15.00,anchor=center,inner sep=0.6pt,font={\scriptsize}] at (-12.49,46.61) {{\astrofont ☉} 19°};
+\node[rotate=304.50,anchor=west,inner sep=0.6pt,font={\scriptsize\bfseries}] at (-107.90,157.00) {Venus};
+\node[rotate=304.50,anchor=center,inner sep=0.6pt,font={\scriptsize\bfseries}] at (-86.66,126.09) {8°};
+\node[rotate=309.40,anchor=west,inner sep=0.6pt,font={\scriptsize\bfseries}] at (-120.92,147.21) {Mercurius};
+\node[rotate=309.40,anchor=center,inner sep=0.6pt,font={\scriptsize\bfseries}] at (-97.11,118.23) {7°};
+\node[rotate=314.20,anchor=west,inner sep=0.6pt,font={\scriptsize\bfseries}] at (-132.81,136.57) {Iupiter};
+\node[rotate=314.20,anchor=center,inner sep=0.6pt,font={\scriptsize\bfseries}] at (-106.67,109.69) {7°};
+\node[rotate=319.10,anchor=west,inner sep=0.6pt,font={\scriptsize\bfseries}] at (-143.99,124.73) {Saturnus};
+\node[rotate=319.10,anchor=center,inner sep=0.6pt,font={\scriptsize\bfseries}] at (-115.65,100.18) {4°};
+\node[rotate=324.30,anchor=west,inner sep=0.6pt,font={\scriptsize\bfseries}] at (-154.70,111.16) {Mars};
+\node[rotate=324.30,anchor=center,inner sep=0.6pt,font={\scriptsize\bfseries}] at (-124.25,89.28) {4°};
+\node[rotate=45.00,anchor=center,inner sep=0.6pt,font={\small}] at (-97.23,97.23) {{\astrofont ♀}\ \ {\astrofont ☽}\ \ {\astrofont ♂}};
+\node[rotate=45.00,anchor=center,inner sep=0.6pt,font={\small}] at (-83.79,83.79) {{\astrofont ☽}\ \ {\astrofont ♀}\ \ {\astrofont ♂}};
+\node[rotate=306.20,anchor=center,inner sep=0.6pt,font={\scriptsize\bfseries}] at (-53.30,72.83) {Mercurius};
+\node[rotate=313.90,anchor=center,inner sep=0.6pt,font={\scriptsize\bfseries}] at (-62.58,65.03) {Luna};
+\node[rotate=321.70,anchor=center,inner sep=0.6pt,font={\scriptsize\bfseries}] at (-70.83,55.94) {Saturnus};
+\node[rotate=45.00,anchor=center,inner sep=0.6pt,font={\tiny}] at (-45.08,45.08) {Venus};
+\node[rotate=45.00,anchor=center,inner sep=0.6pt,font={\scriptsize}] at (-34.12,34.12) {{\astrofont ☽} 3°};
+\node[rotate=334.20,anchor=west,inner sep=0.6pt,font={\scriptsize\bfseries}] at (-171.51,82.91) {Mercurius};
+\node[rotate=334.20,anchor=center,inner sep=0.6pt,font={\scriptsize\bfseries}] at (-137.75,66.59) {7°};
+\node[rotate=340.00,anchor=west,inner sep=0.6pt,font={\scriptsize\bfseries}] at (-179.01,65.15) {Iupiter};
+\node[rotate=340.00,anchor=center,inner sep=0.6pt,font={\scriptsize\bfseries}] at (-143.77,52.33) {7°};
+\node[rotate=344.40,anchor=west,inner sep=0.6pt,font={\scriptsize\bfseries}] at (-183.48,51.23) {Venus};
+\node[rotate=344.40,anchor=center,inner sep=0.6pt,font={\scriptsize\bfseries}] at (-147.36,41.14) {7°};
+\node[rotate=349.00,anchor=west,inner sep=0.6pt,font={\scriptsize\bfseries}] at (-187.00,36.35) {Mars};
+\node[rotate=349.00,anchor=center,inner sep=0.6pt,font={\scriptsize\bfseries}] at (-150.19,29.19) {5°};
+\node[rotate=354.20,anchor=west,inner sep=0.6pt,font={\scriptsize\bfseries}] at (-189.52,19.25) {Saturnus};
+\node[rotate=354.20,anchor=center,inner sep=0.6pt,font={\scriptsize\bfseries}] at (-152.22,15.46) {4°};
+\node[rotate=75.00,anchor=center,inner sep=0.6pt,font={\small}] at (-132.81,35.59) {{\astrofont ♄}\ \ {\astrofont ☿}\ \ {\astrofont ♃}};
+\node[rotate=75.00,anchor=center,inner sep=0.6pt,font={\small}] at (-114.46,30.67) {{\astrofont ☿}\ \ {\astrofont ♄}\ \ {\astrofont ♃}};
+\node[rotate=337.00,anchor=center,inner sep=0.6pt,font={\scriptsize\bfseries}] at (-83.08,35.26) {Iupiter};
+\node[rotate=344.60,anchor=center,inner sep=0.6pt,font={\scriptsize\bfseries}] at (-87.01,23.97) {Mars};
+\node[rotate=352.20,anchor=center,inner sep=0.6pt,font={\scriptsize\bfseries}] at (-89.41,12.25) {Sol};
+\node[rotate=75.00,anchor=center,inner sep=0.6pt,font={\tiny}] at (-61.58,16.50) {Mercurius};
+\node[rotate=75.00,anchor=center,inner sep=0.6pt,font={\scriptsize}] at (-46.61,12.49) {{\astrofont ☊} 3°};
+\node[rotate=364.20,anchor=west,inner sep=0.6pt,font={\scriptsize\bfseries}] at (-189.99,-13.95) {Mars};
+\node[rotate=364.20,anchor=center,inner sep=0.6pt,font={\scriptsize\bfseries}] at (-152.59,-11.21) {6°};
+\node[rotate=369.30,anchor=west,inner sep=0.6pt,font={\scriptsize\bfseries}] at (-188.00,-30.79) {Iupiter};
+\node[rotate=369.30,anchor=center,inner sep=0.6pt,font={\scriptsize\bfseries}] at (-150.99,-24.73) {7°};
+\node[rotate=374.30,anchor=west,inner sep=0.6pt,font={\scriptsize\bfseries}] at (-184.60,-47.05) {Venus};
+\node[rotate=374.30,anchor=center,inner sep=0.6pt,font={\scriptsize\bfseries}] at (-148.26,-37.79) {7°};
+\node[rotate=379.70,anchor=west,inner sep=0.6pt,font={\scriptsize\bfseries}] at (-179.35,-64.22) {Mercurius};
+\node[rotate=379.70,anchor=center,inner sep=0.6pt,font={\scriptsize\bfseries}] at (-144.04,-51.58) {7°};
+\node[rotate=384.90,anchor=west,inner sep=0.6pt,font={\scriptsize\bfseries}] at (-172.79,-80.21) {Saturnus};
+\node[rotate=384.90,anchor=center,inner sep=0.6pt,font={\scriptsize\bfseries}] at (-138.78,-64.42) {3°};
+\node[rotate=105.00,anchor=center,inner sep=0.6pt,font={\small}] at (-132.81,-35.59) {{\astrofont ♀}\ \ {\astrofont ♂}\ \ {\astrofont ☽}};
+\node[rotate=105.00,anchor=center,inner sep=0.6pt,font={\small}] at (-114.46,-30.67) {{\astrofont ♂}\ \ {\astrofont ♀}\ \ {\astrofont ☽}};
+\node[rotate=366.80,anchor=center,inner sep=0.6pt,font={\scriptsize\bfseries}] at (-89.62,-10.69) {Venus};
+\node[rotate=374.20,anchor=center,inner sep=0.6pt,font={\scriptsize\bfseries}] at (-87.49,-22.14) {Mercurius};
+\node[rotate=383.70,anchor=center,inner sep=0.6pt,font={\scriptsize\bfseries}] at (-82.64,-36.28) {Luna};
+\node[rotate=105.00,anchor=center,inner sep=0.6pt,font={\tiny}] at (-61.58,-16.50) {Luna};
+\node[rotate=105.00,anchor=center,inner sep=0.6pt,font={\scriptsize}] at (-46.61,-12.49) {{\astrofont ♃} 15°};
+\node[rotate=394.40,anchor=west,inner sep=0.6pt,font={\scriptsize\bfseries}] at (-157.18,-107.63) {Mercurius};
+\node[rotate=394.40,anchor=center,inner sep=0.6pt,font={\scriptsize\bfseries}] at (-126.24,-86.44) {7°};
+\node[rotate=399.70,anchor=west,inner sep=0.6pt,font={\scriptsize\bfseries}] at (-146.57,-121.69) {Venus};
+\node[rotate=399.70,anchor=center,inner sep=0.6pt,font={\scriptsize\bfseries}] at (-117.72,-97.73) {6°};
+\node[rotate=404.80,anchor=west,inner sep=0.6pt,font={\scriptsize\bfseries}] at (-135.17,-134.23) {Iupiter};
+\node[rotate=404.80,anchor=center,inner sep=0.6pt,font={\scriptsize\bfseries}] at (-108.56,-107.81) {6°};
+\node[rotate=409.70,anchor=west,inner sep=0.6pt,font={\scriptsize\bfseries}] at (-123.21,-145.29) {Saturnus};
+\node[rotate=409.70,anchor=center,inner sep=0.6pt,font={\scriptsize\bfseries}] at (-98.96,-116.69) {6°};
+\node[rotate=415.10,anchor=west,inner sep=0.6pt,font={\scriptsize\bfseries}] at (-108.99,-156.24) {Mars};
+\node[rotate=415.10,anchor=center,inner sep=0.6pt,font={\scriptsize\bfseries}] at (-87.54,-125.48) {5°};
+\node[rotate=135.00,anchor=center,inner sep=0.6pt,font={\small}] at (-97.23,-97.23) {{\astrofont ☉}\ \ {\astrofont ♃}\ \ {\astrofont ♄}};
+\node[rotate=135.00,anchor=center,inner sep=0.6pt,font={\small}] at (-83.79,-83.79) {{\astrofont ♃}\ \ {\astrofont ☉}\ \ {\astrofont ♄}};
+\node[rotate=397.70,anchor=center,inner sep=0.6pt,font={\scriptsize\bfseries}] at (-71.41,-55.19) {Saturnus};
+\node[rotate=405.60,anchor=center,inner sep=0.6pt,font={\scriptsize\bfseries}] at (-63.14,-64.48) {Iupiter};
+\node[rotate=412.60,anchor=center,inner sep=0.6pt,font={\scriptsize\bfseries}] at (-54.82,-71.70) {Mars};
+\node[rotate=135.00,anchor=center,inner sep=0.6pt,font={\tiny}] at (-45.08,-45.08) {Sol};
+\node[rotate=135.00,anchor=center,inner sep=0.6pt,font={\scriptsize}] at (-34.12,-34.12) {0°};
+\node[rotate=424.40,anchor=west,inner sep=0.6pt,font={\scriptsize\bfseries}] at (-82.31,-171.80) {Mercurius};
+\node[rotate=424.40,anchor=center,inner sep=0.6pt,font={\scriptsize\bfseries}] at (-66.11,-137.98) {7°};
+\node[rotate=429.70,anchor=west,inner sep=0.6pt,font={\scriptsize\bfseries}] at (-66.09,-178.67) {Verus};
+\node[rotate=429.70,anchor=center,inner sep=0.6pt,font={\scriptsize\bfseries}] at (-53.08,-143.50) {6°};
+\node[rotate=434.80,anchor=west,inner sep=0.6pt,font={\scriptsize\bfseries}] at (-49.95,-183.84) {Iupiter};
+\node[rotate=434.80,anchor=center,inner sep=0.6pt,font={\scriptsize\bfseries}] at (-40.11,-147.65) {5°};
+\node[rotate=439.30,anchor=west,inner sep=0.6pt,font={\scriptsize\bfseries}] at (-35.37,-187.19) {Mars};
+\node[rotate=439.30,anchor=center,inner sep=0.6pt,font={\scriptsize\bfseries}] at (-28.41,-150.34) {6°};
+\node[rotate=444.70,anchor=west,inner sep=0.6pt,font={\scriptsize\bfseries}] at (-17.60,-189.69) {Saturnus};
+\node[rotate=444.70,anchor=center,inner sep=0.6pt,font={\scriptsize\bfseries}] at (-14.13,-152.35) {6°};
+\node[rotate=165.00,anchor=center,inner sep=0.6pt,font={\small}] at (-35.59,-132.81) {{\astrofont ♀}\ \ {\astrofont ☽}\ \ {\astrofont ♂}};
+\node[rotate=165.00,anchor=center,inner sep=0.6pt,font={\small}] at (-30.67,-114.46) {{\astrofont ☽}\ \ {\astrofont ♀}\ \ {\astrofont ♂}};
+\node[rotate=428.10,anchor=center,inner sep=0.6pt,font={\scriptsize\bfseries}] at (-33.66,-83.74) {Sol};
+\node[rotate=433.80,anchor=center,inner sep=0.6pt,font={\scriptsize\bfseries}] at (-25.18,-86.67) {Venus};
+\node[rotate=442.70,anchor=center,inner sep=0.6pt,font={\scriptsize\bfseries}] at (-11.47,-89.52) {Mercurius};
+\node[rotate=165.00,anchor=center,inner sep=0.6pt,font={\tiny}] at (-16.50,-61.58) {Mercurius};
+\node[rotate=165.00,anchor=center,inner sep=0.6pt,font={\scriptsize}] at (-12.49,-46.61) {{\astrofont ☿} 15°};
+\node[rotate=454.00,anchor=west,inner sep=0.6pt,font={\scriptsize\bfseries}] at (13.29,-190.04) {Saturnus};
+\node[rotate=454.00,anchor=center,inner sep=0.6pt,font={\scriptsize\bfseries}] at (10.67,-152.63) {6°};
+\node[rotate=459.20,anchor=west,inner sep=0.6pt,font={\scriptsize\bfseries}] at (30.46,-188.05) {Venus};
+\node[rotate=459.20,anchor=center,inner sep=0.6pt,font={\scriptsize\bfseries}] at (24.46,-151.03) {5°};
+\node[rotate=464.90,anchor=west,inner sep=0.6pt,font={\scriptsize\bfseries}] at (48.98,-184.09) {Iupiter};
+\node[rotate=464.90,anchor=center,inner sep=0.6pt,font={\scriptsize\bfseries}] at (39.34,-147.86) {8°};
+\node[rotate=469.50,anchor=west,inner sep=0.6pt,font={\scriptsize\bfseries}] at (63.59,-179.57) {Mercurius};
+\node[rotate=469.50,anchor=center,inner sep=0.6pt,font={\scriptsize\bfseries}] at (51.07,-144.22) {5°};
+\node[rotate=474.40,anchor=west,inner sep=0.6pt,font={\scriptsize\bfseries}] at (78.70,-173.49) {Mars};
+\node[rotate=474.40,anchor=center,inner sep=0.6pt,font={\scriptsize\bfseries}] at (63.20,-139.33) {6°};
+\node[rotate=195.00,anchor=center,inner sep=0.6pt,font={\small}] at (35.59,-132.81) {{\astrofont ♄}\ \ {\astrofont ☿}\ \ {\astrofont ♃}};
+\node[rotate=195.00,anchor=center,inner sep=0.6pt,font={\small}] at (30.67,-114.46) {{\astrofont ☿}\ \ {\astrofont ♄}\ \ {\astrofont ♃}};
+\node[rotate=456.30,anchor=center,inner sep=0.6pt,font={\scriptsize\bfseries}] at (9.90,-89.70) {Luna};
+\node[rotate=463.00,anchor=center,inner sep=0.6pt,font={\scriptsize\bfseries}] at (20.30,-87.94) {Saturnus};
+\node[rotate=472.50,anchor=center,inner sep=0.6pt,font={\scriptsize\bfseries}] at (34.54,-83.38) {Iupiter};
+\node[rotate=195.00,anchor=center,inner sep=0.6pt,font={\tiny}] at (16.50,-61.58) {Venus};
+\node[rotate=195.00,anchor=center,inner sep=0.6pt,font={\scriptsize}] at (12.49,-46.61) {{\astrofont ♄} 21°};
+\node[rotate=483.90,anchor=west,inner sep=0.6pt,font={\scriptsize\bfseries}] at (106.25,-158.12) {Mars};
+\node[rotate=483.90,anchor=center,inner sep=0.6pt,font={\scriptsize\bfseries}] at (85.34,-126.99) {6°};
+\node[rotate=489.00,anchor=west,inner sep=0.6pt,font={\scriptsize\bfseries}] at (119.89,-148.05) {Iupiter};
+\node[rotate=489.00,anchor=center,inner sep=0.6pt,font={\scriptsize\bfseries}] at (96.29,-118.90) {8°};
+\node[rotate=494.40,anchor=west,inner sep=0.6pt,font={\scriptsize\bfseries}] at (133.29,-136.11) {Venus};
+\node[rotate=494.40,anchor=center,inner sep=0.6pt,font={\scriptsize\bfseries}] at (107.05,-109.31) {7°};
+\node[rotate=499.40,anchor=west,inner sep=0.6pt,font={\scriptsize\bfseries}] at (144.64,-123.97) {Mercurius};
+\node[rotate=499.40,anchor=center,inner sep=0.6pt,font={\scriptsize\bfseries}] at (116.17,-99.57) {6°};
+\node[rotate=504.90,anchor=west,inner sep=0.6pt,font={\scriptsize\bfseries}] at (155.86,-109.54) {Saturnus};
+\node[rotate=504.90,anchor=center,inner sep=0.6pt,font={\scriptsize\bfseries}] at (125.18,-87.98) {3°};
+\node[rotate=225.00,anchor=center,inner sep=0.6pt,font={\small}] at (97.23,-97.23) {{\astrofont ♀}\ \ {\astrofont ♂}\ \ {\astrofont ☽}};
+\node[rotate=225.00,anchor=center,inner sep=0.6pt,font={\small}] at (83.79,-83.79) {{\astrofont ♂}\ \ {\astrofont ♀}\ \ {\astrofont ☽}};
+\node[rotate=486.70,anchor=center,inner sep=0.6pt,font={\scriptsize\bfseries}] at (53.94,-72.36) {Mars};
+\node[rotate=494.60,anchor=center,inner sep=0.6pt,font={\scriptsize\bfseries}] at (63.37,-64.26) {Sol};
+\node[rotate=501.20,anchor=center,inner sep=0.6pt,font={\scriptsize\bfseries}] at (70.34,-56.55) {Venus};
+\node[rotate=225.00,anchor=center,inner sep=0.6pt,font={\tiny}] at (45.08,-45.08) {Mars};
+\node[rotate=225.00,anchor=center,inner sep=0.6pt,font={\scriptsize}] at (34.12,-34.12) {0°};
+\node[rotate=513.70,anchor=west,inner sep=0.6pt,font={\scriptsize\bfseries}] at (170.78,-84.41) {Iupiter};
+\node[rotate=513.70,anchor=center,inner sep=0.6pt,font={\scriptsize\bfseries}] at (137.16,-67.79) {8°};
+\node[rotate=519.00,anchor=west,inner sep=0.6pt,font={\scriptsize\bfseries}] at (177.85,-68.27) {Venus};
+\node[rotate=519.00,anchor=center,inner sep=0.6pt,font={\scriptsize\bfseries}] at (142.84,-54.83) {6°};
+\node[rotate=524.20,anchor=west,inner sep=0.6pt,font={\scriptsize\bfseries}] at (183.30,-51.87) {Mercurius};
+\node[rotate=524.20,anchor=center,inner sep=0.6pt,font={\scriptsize\bfseries}] at (147.22,-41.66) {5°};
+\node[rotate=529.10,anchor=west,inner sep=0.6pt,font={\scriptsize\bfseries}] at (187.06,-36.02) {Saturnus};
+\node[rotate=529.10,anchor=center,inner sep=0.6pt,font={\scriptsize\bfseries}] at (150.24,-28.93) {6°};
+\node[rotate=534.60,anchor=west,inner sep=0.6pt,font={\scriptsize\bfseries}] at (189.65,-17.93) {Mars};
+\node[rotate=534.60,anchor=center,inner sep=0.6pt,font={\scriptsize\bfseries}] at (152.32,-14.40) {5°};
+\node[rotate=255.00,anchor=center,inner sep=0.6pt,font={\small}] at (132.81,-35.59) {{\astrofont ☉}\ \ {\astrofont ♃}\ \ {\astrofont ♄}};
+\node[rotate=255.00,anchor=center,inner sep=0.6pt,font={\small}] at (114.46,-30.67) {{\astrofont ♃}\ \ {\astrofont ☉}\ \ {\astrofont ♄}};
+\node[rotate=515.90,anchor=center,inner sep=0.6pt,font={\scriptsize\bfseries}] at (82.38,-36.85) {Mercurius};
+\node[rotate=524.50,anchor=center,inner sep=0.6pt,font={\scriptsize\bfseries}] at (86.97,-24.12) {Luna};
+\node[rotate=530.20,anchor=center,inner sep=0.6pt,font={\scriptsize\bfseries}] at (88.93,-15.36) {Saturnus};
+\node[rotate=255.00,anchor=center,inner sep=0.6pt,font={\tiny}] at (61.58,-16.50) {Iupiter};
+\node[rotate=255.00,anchor=center,inner sep=0.6pt,font={\scriptsize}] at (46.61,-12.49) {{\astrofont ☋} 3°};
+\node[rotate=184.00,anchor=west,inner sep=0.6pt,font={\scriptsize\bfseries}] at (190.04,13.29) {Venus};
+\node[rotate=184.00,anchor=center,inner sep=0.6pt,font={\scriptsize\bfseries}] at (152.63,10.67) {6°};
+\node[rotate=189.60,anchor=west,inner sep=0.6pt,font={\scriptsize\bfseries}] at (187.83,31.77) {Mercurius};
+\node[rotate=189.60,anchor=center,inner sep=0.6pt,font={\scriptsize\bfseries}] at (150.86,25.52) {6°};
+\node[rotate=194.50,anchor=west,inner sep=0.6pt,font={\scriptsize\bfseries}] at (184.43,47.70) {Iupiter};
+\node[rotate=194.50,anchor=center,inner sep=0.6pt,font={\scriptsize\bfseries}] at (148.13,38.31) {7°};
+\node[rotate=199.40,anchor=west,inner sep=0.6pt,font={\scriptsize\bfseries}] at (179.68,63.28) {Mars};
+\node[rotate=199.40,anchor=center,inner sep=0.6pt,font={\scriptsize\bfseries}] at (144.31,50.82) {6°};
+\node[rotate=204.90,anchor=west,inner sep=0.6pt,font={\scriptsize\bfseries}] at (172.79,80.21) {Saturnus};
+\node[rotate=204.90,anchor=center,inner sep=0.6pt,font={\scriptsize\bfseries}] at (138.78,64.42) {5°};
+\node[rotate=-75.00,anchor=center,inner sep=0.6pt,font={\small}] at (132.81,35.59) {{\astrofont ♀}\ \ {\astrofont ☽}\ \ {\astrofont ♂}};
+\node[rotate=-75.00,anchor=center,inner sep=0.6pt,font={\small}] at (114.46,30.67) {{\astrofont ☽}\ \ {\astrofont ♀}\ \ {\astrofont ♂}};
+\node[rotate=186.80,anchor=center,inner sep=0.6pt,font={\scriptsize\bfseries}] at (89.62,10.69) {Iupiter};
+\node[rotate=194.60,anchor=center,inner sep=0.6pt,font={\scriptsize\bfseries}] at (87.34,22.75) {Mars};
+\node[rotate=202.20,anchor=center,inner sep=0.6pt,font={\scriptsize\bfseries}] at (83.56,34.10) {Sol};
+\node[rotate=-75.00,anchor=center,inner sep=0.6pt,font={\tiny}] at (61.58,16.50) {Saturnus};
+\node[rotate=-75.00,anchor=center,inner sep=0.6pt,font={\scriptsize}] at (46.61,12.49) {{\astrofont ♂} 28°};
+\node[rotate=213.70,anchor=west,inner sep=0.6pt,font={\scriptsize\bfseries}] at (158.49,105.70) {Saturnus};
+\node[rotate=213.70,anchor=center,inner sep=0.6pt,font={\scriptsize\bfseries}] at (127.29,84.89) {6°};
+\node[rotate=219.10,anchor=west,inner sep=0.6pt,font={\scriptsize\bfseries}] at (147.84,120.14) {Mercurius};
+\node[rotate=219.10,anchor=center,inner sep=0.6pt,font={\scriptsize\bfseries}] at (118.74,96.49) {6°};
+\node[rotate=224.50,anchor=west,inner sep=0.6pt,font={\scriptsize\bfseries}] at (135.87,133.52) {Venus};
+\node[rotate=224.50,anchor=center,inner sep=0.6pt,font={\scriptsize\bfseries}] at (109.13,107.24) {8°};
+\node[rotate=229.50,anchor=west,inner sep=0.6pt,font={\scriptsize\bfseries}] at (123.72,144.86) {Iupiter};
+\node[rotate=229.50,anchor=center,inner sep=0.6pt,font={\scriptsize\bfseries}] at (99.37,116.34) {5°};
+\node[rotate=234.50,anchor=west,inner sep=0.6pt,font={\scriptsize\bfseries}] at (110.62,155.09) {Mars};
+\node[rotate=234.50,anchor=center,inner sep=0.6pt,font={\scriptsize\bfseries}] at (88.85,124.56) {5°};
+\node[rotate=-45.00,anchor=center,inner sep=0.6pt,font={\small}] at (97.23,97.23) {{\astrofont ♄}\ \ {\astrofont ☿}\ \ {\astrofont ♃}};
+\node[rotate=-45.00,anchor=center,inner sep=0.6pt,font={\small}] at (83.79,83.79) {{\astrofont ☿}\ \ {\astrofont ♄}\ \ {\astrofont ♃}};
+\node[rotate=215.90,anchor=center,inner sep=0.6pt,font={\scriptsize\bfseries}] at (73.11,52.92) {Venus};
+\node[rotate=223.70,anchor=center,inner sep=0.6pt,font={\scriptsize\bfseries}] at (65.25,62.35) {Mercurius};
+\node[rotate=232.50,anchor=center,inner sep=0.6pt,font={\scriptsize\bfseries}] at (54.94,71.60) {Luna};
+\node[rotate=-45.00,anchor=center,inner sep=0.6pt,font={\tiny}] at (45.08,45.08) {Saturnus};
+\node[rotate=-45.00,anchor=center,inner sep=0.6pt,font={\scriptsize}] at (34.12,34.12) {0°};
+\node[rotate=243.90,anchor=west,inner sep=0.6pt,font={\scriptsize\bfseries}] at (83.81,171.07) {Venns};
+\node[rotate=243.90,anchor=center,inner sep=0.6pt,font={\scriptsize\bfseries}] at (67.31,137.40) {8°};
+\node[rotate=249.40,anchor=west,inner sep=0.6pt,font={\scriptsize\bfseries}] at (67.03,178.32) {Iupiter};
+\node[rotate=249.40,anchor=center,inner sep=0.6pt,font={\scriptsize\bfseries}] at (53.83,143.22) {6°};
+\node[rotate=254.00,anchor=west,inner sep=0.6pt,font={\scriptsize\bfseries}] at (52.51,183.12) {Mercurius};
+\node[rotate=254.00,anchor=center,inner sep=0.6pt,font={\scriptsize\bfseries}] at (42.17,147.07) {6°};
+\node[rotate=258.90,anchor=west,inner sep=0.6pt,font={\scriptsize\bfseries}] at (36.68,186.94) {Mars};
+\node[rotate=258.90,anchor=center,inner sep=0.6pt,font={\scriptsize\bfseries}] at (29.46,150.14) {6°};
+\node[rotate=264.50,anchor=west,inner sep=0.6pt,font={\scriptsize\bfseries}] at (18.26,189.62) {Saturnus};
+\node[rotate=264.50,anchor=center,inner sep=0.6pt,font={\scriptsize\bfseries}] at (14.66,152.30) {4°};
+\node[rotate=-15.00,anchor=center,inner sep=0.6pt,font={\small}] at (35.59,132.81) {{\astrofont ♀}\ \ {\astrofont ♂}\ \ {\astrofont ☽}};
+\node[rotate=-15.00,anchor=center,inner sep=0.6pt,font={\small}] at (30.67,114.46) {{\astrofont ♂}\ \ {\astrofont ♀}\ \ {\astrofont ☽}};
+\node[rotate=246.80,anchor=center,inner sep=0.6pt,font={\scriptsize\bfseries}] at (35.55,82.95) {Saturnus};
+\node[rotate=254.40,anchor=center,inner sep=0.6pt,font={\scriptsize\bfseries}] at (24.27,86.93) {Iupiter};
+\node[rotate=262.50,anchor=center,inner sep=0.6pt,font={\scriptsize\bfseries}] at (11.78,89.48) {Mars};
+\node[rotate=-15.00,anchor=center,inner sep=0.6pt,font={\tiny}] at (16.50,61.58) {Iupiter};
+\node[rotate=-15.00,anchor=center,inner sep=0.6pt,font={\scriptsize}] at (12.49,46.61) {{\astrofont ♀} 27°};
+\end{tikzpicture}\end{center}\vspace{-2mm}
+\noindent Primus circulus \textit{terminis} [inservit]; qui eum sequitur \textit{triplicitatibus}; qui ambos sequitur \textit{faciebus}; qui tres illos sequitur \textit{domiciliis} (3); qui omnes eos sequitur, ac intimus est, \textit{exaltationibus} (4). Nec est [imago haec] ex archetypo.\par\vspace{2mm}
+\begin{center}\rule{40mm}{.4pt}\end{center}\vspace{-2mm}
+{\small\noindent\begin{minipage}[t]{0.45\textwidth}(1) Cod. « nocte et die ».\\(2) Cod. « signorum ».\\(3) Cod. « exaltationi ».\end{minipage}\hfill\vrule\hfill\begin{minipage}[t]{0.5\textwidth}(4) Cod. « domiciliis ». Emendationes figurae illatas in commentario recensebo.\end{minipage}}
+\end{document}

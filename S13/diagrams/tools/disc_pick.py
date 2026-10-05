@@ -1,6 +1,6 @@
 """Radially written names in the inner disc of a circular diagram, both copies: for each angle, the page rotated about
 the centre so that the radius at that angle runs to the right (outer end on the right), master strip above the IA strip.
-Usage: python disc_pick.py PDF IAPAGE ANGLES [dpi] [half_pt] [tag] [r0_pt] [r1_pt|-] [flip]   ANGLES: comma list (degrees counterclockwise from east)
+Usage: python disc_pick.py PDF IAPAGE(0 = master only) ANGLES [dpi] [half_pt] [tag] [r0_pt] [r1_pt|-] [flip]   ANGLES: comma list (degrees counterclockwise from east)
 Geometries: p3_kit/PG{PDF}.json and p3_kit/PG{IAPAGE}.json. Output: p3_kit/DP{PDF}_{tag}.png"""
 import sys, json
 import numpy as np
@@ -18,8 +18,11 @@ tag = sys.argv[6] if len(sys.argv) > 6 else "x"
 R0 = float(sys.argv[7]) if len(sys.argv) > 7 else 3.0
 R1 = float(sys.argv[8]) if len(sys.argv) > 8 and sys.argv[8] != "-" else None   # outer radius (pt); default: just inside the innermost circle
 FLIP = len(sys.argv) > 9 and sys.argv[9] == "1"   # rotate every strip by 180 degrees (labels that start at the inner end)
-gm = json.load(open(wk.OUT + f"PG{n}.json")); gi = json.load(open(wk.OUT + f"PG{ian}.json"))
-copies = [(wk.doc[n - 1], gm, 1.0), (fitz.open(IA)[ian - 1], gi, gi["radii"][-1] / gm["radii"][-1])]
+gm = json.load(open(wk.OUT + f"PG{n}.json"))
+copies = [(wk.doc[n - 1], gm, 1.0)]
+if ian:                                                    # IAPAGE 0: the master only (Part II has one copy)
+    gi = json.load(open(wk.OUT + f"PG{ian}.json"))
+    copies.append((fitz.open(IA)[ian - 1], gi, gi["radii"][-1] / gm["radii"][-1]))
 
 
 def strip(page, g, scale, t):
@@ -44,13 +47,17 @@ def strip(page, g, scale, t):
 rows = []
 for t in angles:
     rows.append((t, [strip(p, g, sc, t) for p, g, sc in copies]))
-W = max(max(a.width, b.width) for _, (a, b) in rows) + 60
-H = sum(a.height + b.height + 14 for _, (a, b) in rows)
+W = max(max(im.width for im in ims) for _, ims in rows) + 60
+H = sum(sum(im.height + 4 for im in ims) + 10 for _, ims in rows)
 out = Image.new("L", (W, H), 255); dr = ImageDraw.Draw(out); y = 0
-for t, (a, b) in rows:
-    dr.text((2, y + 4), f"{t:g}", fill=0); out.paste(a, (60, y)); out.paste(b, (60, y + a.height + 4))
-    dr.line([(60, y + a.height + 2), (W, y + a.height + 2)], fill=128)
-    y += a.height + b.height + 14
+for t, ims in rows:
+    dr.text((2, y + 4), f"{t:g}", fill=0)
+    for k, im in enumerate(ims):
+        out.paste(im, (60, y))
+        y += im.height + 4
+        if k < len(ims) - 1:
+            dr.line([(60, y - 2), (W, y - 2)], fill=128)
+    y += 10
 if out.width > 2000:
     out = out.resize((2000, int(out.height * 2000 / out.width)))
 out.save(wk.OUT + f"DP{n}_{tag}.png"); print(out.size)

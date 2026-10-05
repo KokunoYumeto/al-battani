@@ -1,0 +1,35 @@
+\documentclass[11pt]{article}
+\usepackage[paperwidth=210mm,paperheight=297mm,margin=16mm]{geometry}
+\usepackage{fontspec,amsmath,array,multirow,graphicx}
+\usepackage{polyglossia}
+\setmainlanguage{latin}\setotherlanguages{arabic,greek}
+\setmainfont{Linux Libertine O}[Ligatures=TeX]
+\newfontfamily\arabicfont{Amiri}[Script=Arabic]
+\newfontfamily\greekfont{FreeSerif}[Script=Greek]
+\newfontfamily\NallinoSigns{NallinoSigns.otf}[Path=./fonts/]
+\newcommand{\AbjadZero}{{\NallinoSigns\symbol{"E000}}}
+\newcommand{\AbjadOver}[1]{\leavevmode\vbox{\hrule height .45pt\kern1.2pt\hbox{#1}}}
+\newcommand{\Name}[1]{{\addfontfeatures{LetterSpace=12}#1}}
+\pagestyle{empty}\setlength{\parindent}{0pt}
+\renewcommand{\arraystretch}{1.18}
+
+\begin{document}
+{\large \textarabic{٢٢٧}}\par\vspace{12mm}
+\begin{Arabic}\begin{center}
+{\large تنبيه}\\[8mm]
+قال كَرْلو نالّينو المعتني بضَبْط هذا الكتاب وتصحيحه قد تمّت الابواب\\
+كلّها فتليها في نسخة الأسْكوريال الجداول وامّا نحن فإنّما استخرجنا\\
+منها ما يتعلَّق بالتأْريخ والجغرافيا واسماء الكواكب الثابتة واجرَيْنا\\
+فيه الطبع بدون إصلاح ما وقع في حروف الجُمَّل من الخطأ\\
+والتصحيف فواللّٰهِ ما اكثرَ هذه الأغْلاطَ . ومن يُرِدْ\\
+تصحيحها فلْيُراجِع ترجَمتنا اللاتينيّة لهذا الكتاب\\
+التي طبَعْنا فيها ايضًا بقيّة الجداول المُشْتَمِلة\\
+على اعداد فقط\\[6mm]
+وممّا يجِب تنبيه القارئ اليه أنّ حروف الجُمَّل مَعْناها في الجداول\\
+كمعناها في النسخة الأسْكورياليّة يعني على مَذهب اهل\\
+المغرِب فلذلك \AbjadOver{ص} عبارة عن ستّين و \AbjadOver{ض} عن\\
+تسعين و \AbjadOver{س} عن ثلثمائة و \AbjadOver{ظ} عن ثمانمائة\\[6mm]
+تم تم\\[2mm]
+تم
+\end{center}\end{Arabic}
+\end{document}

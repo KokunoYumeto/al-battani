@@ -1,6 +1,6 @@
 """Chosen cells of a circular diagram in both copies, unwrapped and upright: master | IA copy.
 Usage: python polar_pick.py PDF IAPAGE SPEC [dpi] [tag]
-  SPEC: semicolon list of angle:ring[:label], e.g. "67.5:6;45:3:check ke/me"; the geometries come from p3_kit/PG{PDF}.json
+  SPEC: semicolon list of angle:ring[:label[:half-width in degrees]], e.g. "67.5:6;45:3:check ke/me;104:5::15"; the geometries come from p3_kit/PG{PDF}.json
   (master) and p3_kit/PG{IAPAGE}.json (IA copy, page number in the IA file, 1-based).
 Output: p3_kit/PP{PDF}_{tag}.png, one row per cell."""
 import sys, json
@@ -19,14 +19,14 @@ docs = {"m": (wk.doc[n - 1], json.load(open(wk.OUT + f"PG{n}.json"))),
         "i": (fitz.open(IA)[ian - 1], json.load(open(wk.OUT + f"PG{ian}.json")))}
 
 
-def cell(which, t, k):
+def cell(which, t, k, half_deg=None):
     page, g = docs[which]; radii = g["radii"]
     scale = radii[-1] / docs["m"][1]["radii"][-1]                # IA pt per master pt
     d = dpi / scale                                              # same pixel size for both copies
     s = 72.0 / d
     r_in, r_out = radii[k - 1] - 2 * scale, radii[k] + 2 * scale
     rm = (radii[k - 1] + radii[k]) / 2
-    half = min(26.0 * scale, 0.47 * np.radians(22.5) * rm)
+    half = min(26.0 * scale, 0.47 * np.radians(22.5) * rm) if half_deg is None else np.radians(half_deg) * rm
     R = r_out + 4
     clip = fitz.Rect(g["cx"] - R, g["cy"] - R, g["cx"] + R, g["cy"] + R)
     pix = page.get_pixmap(matrix=fitz.Matrix(d / 72.0, d / 72.0), clip=clip)
@@ -42,8 +42,9 @@ def cell(which, t, k):
 
 rows = []
 for item in spec:
-    t, k = float(item[0]), int(item[1]); lab = f"{t:g} r{k}" + (f" {item[2]}" if len(item) > 2 else "")
-    rows.append((lab, cell("m", t, k), cell("i", t, k)))
+    t, k = float(item[0]), int(item[1]); lab = f"{t:g} r{k}" + (f" {item[2]}" if len(item) > 2 and item[2] else "")
+    hd = float(item[3]) if len(item) > 3 else None          # optional half-width in degrees (whole sectors)
+    rows.append((lab, cell("m", t, k, hd), cell("i", t, k, hd)))
 W = max(a.width + b.width for _, a, b in rows) + 40
 H = sum(max(a.height, b.height) + 22 for _, a, b in rows)
 out = Image.new("L", (W, H), 255); dr = ImageDraw.Draw(out); y = 0
