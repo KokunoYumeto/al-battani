@@ -154,7 +154,8 @@ for k in range(3):
             cl += "A" if all(agree) else ("B" if any(agree) else "E")
         classes.update(cl)
         days59.append({"pdf": 508, "ppage": "59", "section": k + 1, "row": i + 1, "phi_d": int(phi), "phi_m": int(round(phi % 1 * 60)),
-                       "inc_d": v[0], "inc_m": v[1], "check": cl})
+                       "inc_d": v[0], "inc_m": v[1], "check": cl,
+                       "doubt": "the 1 of 21 is printed damaged, with a stray stroke" if (k, i) == (2, 0) else ""})
 write("days59_p2.tsv", ["pdf", "ppage", "section", "row", "phi_d", "phi_m", "inc_d", "inc_m", "check", "doubt"], days59)
 
 # ---------------------------------------------------------------- p. 60: shadows of a gnomon of 12 digits

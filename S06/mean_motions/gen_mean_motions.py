@@ -86,5 +86,5 @@ def document():
 
 
 if __name__ == "__main__":
-    (HERE / "p2_mean_motions.tex").write_text(document(), encoding="utf-8")
+    (HERE / "p2_mean_motions.tex").write_text(document(), encoding="utf-8", newline="\n")
     print("wrote p2_mean_motions.tex")
