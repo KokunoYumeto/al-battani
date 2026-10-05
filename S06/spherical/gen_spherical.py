@@ -194,6 +194,29 @@ def page58(pd, pr, pf, rows, ra_rows, items):
     return "\n".join(out)
 
 
+def three_sections(p, rows, arg, val, argw, valw, group=5):
+    """pp. 59-60: three sections side by side, each an argument column and a value column"""
+    out = running(int(p["ppage"]), p["fol"])
+    col = r">{\centering\arraybackslash}p{" + argw + r"}|>{\centering\arraybackslash}p{" + valw + "}"
+    out.append(r"\begin{center}\setlength{\tabcolsep}{3pt}\renewcommand{\arraystretch}{1.02}\begin{tabular}{||" + "||".join([col] * 3) +
+               r"||}\hline")
+    la = "".join(r"\\\textbf{" + markup(x) + "}" for x in p["title_la"].split(" / "))
+    out.append(r"\multicolumn{6}{||c||}{\parbox{170mm}{\centering\vspace{1mm}{\large " + ar(p["title_ar"]) + "}" + la +
+               r"\vspace{1mm}}} \\ \hline")
+    hs = p["heads"].split("|")
+    out.append(" & ".join(head(h, argw if k % 2 == 0 else valw) for k, h in enumerate(hs)) + r" \\ \hline\hline")
+    by = {(int(r["section"]), int(r["row"])): r for r in rows}
+    n = max(int(r["row"]) for r in rows)
+    for i in range(1, n + 1):
+        line = []
+        for k in (1, 2, 3):
+            r = by[(k, i)]
+            line += [arg(r, i == 1), val(r, i == 1)]
+        out.append(" & ".join(line) + r" \\" + (r"[1.2mm]" if i % group == 0 and i < n else ""))
+    out.append(r"\hline\end{tabular}\end{center}")
+    return "\n".join(out)
+
+
 def document():
     pages = read("sph_pages.tsv"); sines = read("sines_p2.tsv"); decl = read("decl_p2.tsv")
     ra10 = read("ra10_p2.tsv"); items = read("fig58.tsv")
@@ -205,6 +228,13 @@ def document():
     out.append(sines_page(P[("56", "sines")], [r for r in sines if r["ppage"] == "56"]))
     out.append(page57(P[("57", "decl")], [r for r in decl if r["ppage"] == "57"]))
     out.append(page58(P[("58", "decl")], P[("58", "ra10")], P[("58", "figure")], [r for r in decl if r["ppage"] == "58"], ra10, items))
+    out.append(three_sections(P[("59", "days")], read("days59_p2.tsv"),
+                              lambda r, f: num([str(r["phi_d"]), str(r["phi_m"])], ["°", "′"] if f else None, "1.6mm"),
+                              lambda r, f: num([r["inc_d"], r["inc_m"]], ["°", "′"] if f else None, "1.6mm"), "22mm", "30mm", 5))
+    out.append(three_sections(P[("60", "shadows")], read("shadows60_p2.tsv"),
+                              lambda r, f: str(r["alt"]),
+                              lambda r, f: num([r["dig"], r["min"]], [r"\textsuperscript{\,dig.}", "′"] if f else None, "7mm"),
+                              "22mm", "30mm", 5))
     out.append(r"\end{document}")
     return "\n".join(out) + "\n"
 

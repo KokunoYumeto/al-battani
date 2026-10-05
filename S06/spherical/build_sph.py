@@ -131,4 +131,62 @@ for side, seq in (("upper-left", [15, 30, 45, 60, 75]), ("upper-right", [75, 60,
 for corner, v in (("left", 0), ("top", 90), ("right", 0), ("bottom", 90)):
     fig.append({"kind": "cell", "position": f"corner {corner}", "text_ar": "", "text_la": f"{v}°", "rot": ""})
 write("fig58.tsv", ["kind", "position", "text_ar", "text_la", "rot"], fig)
+
+# ---------------------------------------------------------------- p. 59: half the increase of the longest day
+# every value read by eye on contact sheets (sheet59.py); the class says which readers agree with it
+EYE59 = ("0;13 0;26 0;39 0;52 1;6 1;19 1;32 1;45 1;58 2;12 2;26 2;40 2;54 3;8 3;22 3;36 3;49 4;1 4;14 4;26 "
+         "4;39 4;51 5;5 5;19 5;33 5;47 6;1 6;15 6;29 6;43 6;57 7;11 7;25 7;40 7;54 8;9 8;23 8;38 8;53 9;8 "
+         "9;23 9;39 9;55 10;11 10;27 10;43 10;59 11;16 11;33 11;51 12;8 12;24 12;41 12;57 13;14 13;30 13;47 14;3 14;20 14;36 "
+         "14;54 15;13 15;32 15;50 16;8 16;28 16;47 17;7 17;28 17;49 18;9 18;30 18;51 19;13 19;35 19;57 20;19 20;40 21;3 21;29 "
+         "21;53 22;18 22;43 23;9 23;35 24;2 24;29 24;56 25;24 25;53 26;22 26;52 27;23 27;55 28;27 29;0 29;32 30;6 30;43 31;22 "
+         "32;0 32;39 33;18 33;57 34;39 35;24 36;9 36;53 37;43 38;34 39;26 40;20 41;17 42;14 43;15 44;19 45;25 46;35 47;49 49;7").split()
+assert len(EYE59) == 120
+days59 = []
+for k in range(3):
+    d = json.load(open(wk.OUT + f"MP508s{k}.json", encoding="utf-8"))
+    assert len(d["rows"]) == 40
+    for i, r in enumerate(d["rows"]):
+        phi = 20 * k + 0.5 * (i + 1)
+        v = EYE59[40 * k + i].split(";")
+        cl = ""
+        for c, x in zip(r["groups"][0], v):
+            agree = [c is not None and c["read"] == x and c["conf"] >= 0.85, c is not None and c.get("tl") == x]
+            cl += "A" if all(agree) else ("B" if any(agree) else "E")
+        classes.update(cl)
+        days59.append({"pdf": 508, "ppage": "59", "section": k + 1, "row": i + 1, "phi_d": int(phi), "phi_m": int(round(phi % 1 * 60)),
+                       "inc_d": v[0], "inc_m": v[1], "check": cl})
+write("days59_p2.tsv", ["pdf", "ppage", "section", "row", "phi_d", "phi_m", "inc_d", "inc_m", "check", "doubt"], days59)
+
+# ---------------------------------------------------------------- p. 60: shadows of a gnomon of 12 digits
+EYE60 = {(0, 28): ("22", "34")}
+shadows = []
+for k in range(3):
+    d = json.load(open(wk.OUT + f"MP509s{k}.json", encoding="utf-8"))
+    assert len(d["rows"]) == 30
+    for i, r in enumerate(d["rows"]):
+        if (k, i + 1) in EYE60:
+            v, cl = EYE60[(k, i + 1)], "EE"
+        else:
+            v, cl = cells(r["groups"][0])
+        assert None not in v, (k, i)
+        classes.update(cl)
+        shadows.append({"pdf": 509, "ppage": "60", "section": k + 1, "row": i + 1, "alt": 30 * k + i + 1,
+                        "dig": v[0], "min": v[1], "check": cl})
+write("shadows60_p2.tsv", ["pdf", "ppage", "section", "row", "alt", "dig", "min", "check", "doubt"], shadows)
+
+pages += [
+    {"pdf": 508, "ppage": "59", "fol": "f. 178,v.", "table": "days",
+     "title_ar": "جدول لمعرفة نصف زيادة النهار الاطول من قبل ارتفاع القطب في كل بلد ومعرفة ارتفاع القطب / "
+                 "من قبل زيادة النهار الاطول ان شاء اللّٰه",
+     "title_la": "Tabula qua cognoscuntur dimidium incrementum diei longissimi quocumque / Terrae loco per altitudinem "
+                 "poli, et altitudo poli per incrementum diei lon- / gissimi, si Deus vult.",
+     "heads": "|".join(["ارتفاع القطب‖Altitudo poli.", "نصف زيادة النهار / الاطول‖Dimidium incremen- / tum diei longissimi."] * 3)},
+    {"pdf": 509, "ppage": "60", "fol": "f. 179,r.", "table": "shadows",
+     "title_ar": "جدول لمعرفة الظل من قبل الارتفاع بالمقدار الذي تكون به اجزاء المقياس يب جزء ومعرفة الارتفاع / "
+                 "من قبل هذا الظل المبسوط وبهذه الجداول وعرف احدهما من قبل الآخر",
+     "title_la": "Tabula qua cognoscitur umbra per altitudinem poli iuxta rationem qua gno- / mon in 12 partes dividitur, et "
+                 "altitudo poli per hanc umbram extensam. / His tabulis altera ex altera deprehenditur.",
+     "heads": "|".join(["قوس الارتفاع‖Arcus / altitudinis.", "اصابع الظل‖Digiti umbrae."] * 3)},
+]
+write("sph_pages.tsv", ["pdf", "ppage", "fol", "table", "title_ar", "title_la", "heads"], pages)
 print(len(sines), "sines;", len(decl), "declinations;", len(ra10), "right ascensions;", len(fig), "figure items;", classes)
