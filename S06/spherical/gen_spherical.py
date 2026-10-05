@@ -5,7 +5,17 @@ decades with their sines (printed in bold, as in the print). Output: p2_spherica
 import math
 from pathlib import Path
 
-from gen_stars import PREAMBLE, markup, read
+from gen_stars import PREAMBLE, read
+from gen_stars import markup as _markup
+
+
+def markup(s):
+    """the modifier letters of hours, minutes and seconds (13ʰ 15ᵐ 32ˢ) as superscripts, which every face has"""
+    out = _markup(s)
+    for ch, t in (("ʰ", "h"), ("ᵐ", "m"), ("ˢ", "s")):
+        out = out.replace(ch, r"\textsuperscript{" + t + "}")
+    return out
+
 
 HERE = Path(__file__).resolve().parent
 WIDTHS = r"\newlength{\Dw}\newlength{\Mw}\settowidth{\Dw}{000}\settowidth{\Mw}{00}"
@@ -217,7 +227,7 @@ def three_sections(p, rows, arg, val, argw, valw, group=5):
     return "\n".join(out)
 
 
-def raeq_page(p, rows):
+def raeq_page(p, rows, second=("eq_d", "eq_m")):
     """pp. 61-64: the common numbers 1-30, and for three signs the degrees of ascension and the equation of days"""
     out = running(int(p["ppage"]), p["fol"])
     col = r">{\centering\arraybackslash}p{27mm}|>{\centering\arraybackslash}p{25mm}"
@@ -237,7 +247,7 @@ def raeq_page(p, rows):
         for s in signs:
             r = by[(s, i)]
             m = ["°", "′"] if i == 1 else None
-            line += [num([r["asc_d"], r["asc_m"]], m, "2mm"), num([r["eq_d"], r["eq_m"]], m, "2mm")]
+            line += [num([r["asc_d"], r["asc_m"]], m, "2mm"), num([r[second[0]], r[second[1]]], m, "2mm")]
         out.append(" & ".join(line) + r" \\" + (r"[1.2mm]" if i % 5 == 0 and i < 30 else ""))
     out.append(r"\hline\end{tabular}\end{center}")
     return "\n".join(out)
@@ -291,10 +301,13 @@ def document():
     raeq = read("raeq_p2.tsv")
     for pp in ("61", "62", "63", "64"):
         out.append(raeq_page(P[(pp, "raeq")], [r for r in raeq if r["ppage"] == pp]))
+    raq = read("raqqah_p2.tsv")
     obl = read("oblique_p2.tsv")
     out.append(oblique_page(P[("65", "oblique")], [r for r in obl if r["ppage"] == "65"], 6, "23mm"))
     out.append(oblique_page(P[("66", "oblique")], [r for r in obl if r["ppage"] == "66"], 7, "20mm"))
     out.append(oblique_page(P[("67", "cities")], [r for r in obl if r["ppage"] == "67"], 6, "23mm"))
+    for pp in ("68", "69", "70", "71"):
+        out.append(raeq_page(P[(pp, "raqqah")], [r for r in raq if r["ppage"] == pp], ("hr_d", "hr_m")))
     out.append(r"\end{document}")
     return "\n".join(out) + "\n"
 

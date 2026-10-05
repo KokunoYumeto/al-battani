@@ -34,7 +34,9 @@ def dms(x):
     return f"{x // 3600}° {x // 60 % 60}′ {x % 60}″"
 
 
-ledger = {r["where"] for r in read("spherical_discrepancies.tsv")}
+ledger_rows = read("spherical_discrepancies.tsv")
+ledger = {r["where"] for r in ledger_rows if r["kind"] != "noted"}
+noted = {r["where"]: r for r in ledger_rows if r["kind"] == "noted"}
 found, dist = [], {"sines": Counter(), "declination": Counter(), "right ascension": Counter()}
 
 
@@ -252,18 +254,66 @@ if "--lat" in sys.argv:
     for pdf, name, phi, fit_ in fits:
         print(f"  p. {pdf - 449} {name}: head {int(phi)}° {phi % 1 * 60:.1f}′, best fit {int(fit_)}° {fit_ % 1 * 60:.1f}′")
 
+# pp. 68-71: ascensions and seasonal hours of ar-Raqqah, latitude 36° 0′, for every degree; consecutive values more
+# than 3′ off in the same direction form one entry. The cell that Nallino emends (p. 71, the last line: the seasonal
+# hour of Aquarius 30°) needs a ledger entry of kind «noted» that states the printed value
+dist["ar-Raqqah ascensions"] = Counter(); dist["ar-Raqqah hours"] = Counter()
+raq = sorted(read("raqqah_p2.tsv"), key=lambda r: int(r["lam"]))
+printed_cells = {}
+for kind, fcol, f in (("ascensions", ("asc_d", "asc_m"), oblique_asc), ("hours", ("hr_d", "hr_m"), seasonal_hour)):
+    run = []
+
+    def close_raq_run():
+        if run:
+            a, b = run[0][0], run[-1][0]
+            worst = max(run, key=lambda x: abs(x[2]))
+            ra_, rb_ = by_raq[a], by_raq[b]
+            span = f"{ra_['sign']} {ra_['row']}" + ("" if a == b else f"-{rb_['row']}" if ra_["sign"] == rb_["sign"]
+                                                    else f" - {rb_['sign']} {rb_['row']}")
+            found.append((f"p. {ra_['ppage']} ar-Raqqah {kind} {span}", ", ".join(x[1] for x in run),
+                          f"{len(run)} value{'s' if len(run) > 1 else ''} {'above' if worst[2] > 0 else 'below'} the "
+                          f"computation, the largest by {worst[2]:+.1f}′"))
+            run.clear()
+    by_raq = {int(r["lam"]): r for r in raq}
+    for r in raq:
+        lam = int(r["lam"])
+        got = sec(r[fcol[0]], r[fcol[1]])
+        dev = (got - f(lam, 36.0) * 60 + 10800) % 21600 - 10800
+        dist["ar-Raqqah " + kind][round(abs(dev))] += 1
+        printed_cells[f"p. {r['ppage']} {r['sign']} {r['row']} {kind}"] = f"{r[fcol[0]]}° {r[fcol[1]]}′"
+        if abs(dev) > TOL and (not run or (dev > 0) == (run[-1][2] > 0)):
+            run.append((lam, f"{r[fcol[0]]}° {r[fcol[1]]}′", dev))
+            continue
+        close_raq_run()
+        if abs(dev) > TOL:
+            run.append((lam, f"{r[fcol[0]]}° {r[fcol[1]]}′", dev))
+    close_raq_run()
+NOTED = ["p. 71 Aquarius 30 hours"]
+problems = []
+for w in NOTED:
+    if w not in noted:
+        problems.append(f"no ledger entry for the cell Nallino emends: {w} (printed {printed_cells.get(w)})")
+    elif noted[w]["printed"] != printed_cells.get(w):
+        problems.append(f"{w}: the ledger says printed {noted[w]['printed']}, the table has {printed_cells.get(w)}")
+for w in noted:
+    if w not in NOTED:
+        problems.append(f"ledger entry of kind «noted» not among Nallino's emendations: {w}")
+
 open_ = [f for f in found if f[0] not in ledger]
 n = sum(sum(c.values()) for c in dist.values())
-print(f"values compared {n}, differ {len(found)} (ledgered {len(found) - len(open_)}, open {len(open_)})")
+print(f"values compared {n}, differ {len(found)} (ledgered {len(found) - len(open_)}, open {len(open_)}); "
+      f"Nallino's emendations {len(NOTED)}, problems {len(problems)}")
 for where, p, e in (found if "--list" in sys.argv else open_):
     print(f"  {where}: {p}; {e}" + ("" if where in ledger else "   << not in the ledger"))
+for p in problems:
+    print("  " + p)
 if "--dist" in sys.argv:
     within = sum(abs(v - ZERO) <= 3 for v in dev_eq.values())
     print(f"  equation: zero point {ZERO:+.2f}′; within 3′ of the computation {within} of {len(dev_eq)}")
     for t, c in dist.items():
-        u = "′" if t in ("longest day", "shadows", "ascensions", "equation", "oblique ascensions", "seasonal hours") else "″"
+        u = "″" if t in ("sines", "declination", "right ascension") else "′"
         print(f"  {t}: " + ", ".join(f"{k}{u}: {v}" for k, v in sorted(c.items())))
 stale = [w for w in ledger if w not in {f[0] for f in found}]
 for w in stale:
     print("  ledger entry without a difference:", w)
-sys.exit(1 if open_ or stale else 0)
+sys.exit(1 if open_ or stale or problems else 0)

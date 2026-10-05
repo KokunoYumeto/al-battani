@@ -304,5 +304,46 @@ pages.append({"pdf": 516, "ppage": "67", "fol": "f. 182,v.", "table": "cities",
                                  "درج المطالع مكة‖Ascensiones / Mekkah, / lat. 21° 40′.", "ازمان الساعات‖Tempora / horaria / 13ʰ 20ᵐ.",
                                  "درج المطالع بغداد‖Ascensiones / Baghdād, / lat. 33° 9′.", "ازمان الساعات‖Tempora / horaria / 14ʰ 12ᵐ 32ˢ.",
                                  "درج المطالع حران‖Ascensiones / Ḥarrān, / lat. 36° 40′.", "ازمان الساعات‖Tempora / horaria / 14ʰ 32ᵐ."])})
+# ---------------------------------------------------------------- pp. 68-71: ascensions and seasonal hours of ar-Raqqah
+RSIGNS = {517: ["Aries", "Taurus", "Gemini"], 518: ["Cancer", "Leo", "Virgo"], 519: ["Libra", "Scorpio", "Sagittarius"],
+          520: ["Capricornus", "Aquarius", "Pisces"]}
+RFIRST = {517: (0, 30, 60), 518: (90, 120, 150), 519: (180, 210, 240), 520: (270, 300, 330)}
+EYE_R = {(517, 14, 4): ("55", "0"), (517, 15, 4): ("55", "58"), (519, 22, 4): ("279", "34"), (519, 23, 3): ("12", "38"),
+         (520, 2, 2): ("319", "29"), (520, 4, 2): ("321", "10"), (520, 6, 2): ("322", "49"), (520, 9, 2): ("325", "15"),
+         (520, 10, 2): ("326", "2"), (520, 25, 4): ("356", "52"), (520, 29, 4): ("359", "22")}
+raqqah = []
+for pdf in (517, 518, 519, 520):
+    d = json.load(open(wk.OUT + f"MP{pdf}.json", encoding="utf-8"))
+    assert len(d["rows"]) == 30
+    for i, r in enumerate(d["rows"]):
+        for k in range(3):
+            got = []
+            for gi in (2 * k, 2 * k + 1):
+                if (pdf, i + 1, gi) in EYE_R:
+                    got.append((EYE_R[(pdf, i + 1, gi)], "EE"))
+                else:
+                    got.append(cells(r["groups"][gi]))
+            (a, ac), (h, hc) = got
+            assert None not in a + h, (pdf, i, k)
+            classes.update(ac + hc)
+            raqqah.append({"pdf": pdf, "ppage": str(pdf - 449), "row": i + 1, "sign": RSIGNS[pdf][k], "lam": RFIRST[pdf][k] + i + 1,
+                           "asc_d": a[0], "asc_m": a[1], "hr_d": h[0], "hr_m": h[1], "check": ac + " " + hc,
+                           "doubt": "Nallino: 13° 34′ for 13° 33′" if (pdf, i + 1, k) == (520, 30, 1) else ""})
+raqqah.sort(key=lambda x: (x["lam"]))
+write("raqqah_p2.tsv", ["pdf", "ppage", "row", "sign", "lam", "asc_d", "asc_m", "hr_d", "hr_m", "check", "doubt"], raqqah)
+RLAT = {"Aries": "Arietis", "Taurus": "Tauri", "Gemini": "Geminorum", "Cancer": "Cancri", "Leo": "Leonis", "Virgo": "Virginis",
+        "Libra": "Librae", "Scorpio": "Scorpii", "Sagittarius": "Sagittarii", "Capricornus": "Capricorni", "Aquarius": "Aquarii",
+        "Pisces": "Piscium"}
+RT_LA_FULL = "{} tabularum ascensionum signorum in urbe ar-Raqqah, cuius latitudo / 36° 0′ et horae 14ʰ 28ᵐ."
+for pdf, fol, tar, tla in ((517, "f. 183,v.-184,r.", "اول جداول مطالع البروج بمدينة الرقة والعرض لو والساعات يد كح", RT_LA_FULL.format("Initium")),
+                           (518, "f. 184,r.-v.", "من جداول مطالع البروج بمدينة الرقة", "Ex tabulis ascensionum signorum in urbe ar-Raqqah."),
+                           (519, "f. 185,r.-v.", "من جداول مطالع البروج بمدينة الرقة", "Ex tabulis ascensionum signorum in urbe ar-Raqqah."),
+                           (520, "f. 185,v.-186,r.", "تمام جداول مطالع البروج بمدينة الرقة ولعرض لو وساعات يد كح", RT_LA_FULL.format("Finis"))):
+    hs = ["العدد المشترك‖Numeri communes." if pdf == 517 else "‖Numeri communes."]
+    for k, s in enumerate(RSIGNS[pdf]):
+        hs.append(f"{AR_SIGN[s]} — المطالع‖Ascensiones / {RLAT[s]}.")
+        hs.append("ازمان الساعات‖Tempora / horaria." if (pdf == 517 and k == 0) else "‖Tempora / horaria.")
+    pages.append({"pdf": pdf, "ppage": str(pdf - 449), "fol": fol, "table": "raqqah", "title_ar": tar, "title_la": tla,
+                  "heads": "|".join(hs)})
 write("sph_pages.tsv", ["pdf", "ppage", "fol", "table", "title_ar", "title_la", "heads"], pages)
 print(len(sines), "sines;", len(decl), "declinations;", len(ra10), "right ascensions;", len(fig), "figure items;", classes)

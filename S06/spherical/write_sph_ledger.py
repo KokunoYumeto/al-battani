@@ -136,6 +136,10 @@ for key, pr, comp, note in (
          "see the entry for 90°-100°")):
     L.append((key, pr, comp, "value" if "-" not in key.split()[-1] else "run", note))
 
+L.append(("p. 71 Aquarius 30 hours", "13° 33′", "13° 34′", "noted",
+          f"Nallino, Part II p. 222: 13° 34′ for the 13° 33′ of the codex and of the translation; computed for 36° 0′: "
+          f"{fm(hr(330, 36.0))}"))
+
 with open(D + "spherical_discrepancies.tsv", "w", encoding="utf-8", newline="") as f:
     w = csv.writer(f, delimiter="\t", lineterminator="\n")
     w.writerow(["where", "printed", "computed", "kind", "note"])
