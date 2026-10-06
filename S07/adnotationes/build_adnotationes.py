@@ -195,6 +195,7 @@ def markup(s):
     s = SYRIAC_RUN.sub(lambda m: r"\textsyriac{" + m.group(1) + "}", s)
     s = ETHIOPIC_RUN.sub(lambda m: r"\textethiopic{" + m.group(1) + "}", s)
     s = s.replace("⸿", r"{\CapFont ⸿}")  # the capitulum of the Spanish quotations
+    s = s.replace("ꝛ", r"{\CapFont ꝛ}")  # r rotunda of the Latin abbreviations (qꝛ = quia)
     s = s.replace("☾", r"\MoonSym{}").replace("⊙", r"\SunSym{}")
     s = s.replace("\uE001", r"\AbjadZero{}").replace("\uE002", "*")
     s = re.sub("\uE003(\\d+)\uE004", lambda m: keep[int(m.group(1))], s)
