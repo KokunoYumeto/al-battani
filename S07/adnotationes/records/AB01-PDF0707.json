@@ -1,0 +1,357 @@
+{
+ "anchor": "AB01-PDF0707",
+ "master_pdf_page": 707,
+ "printed_page": 258,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "observations": [
+  "body (table): the heads of the two lowest levels («apparit.», «occult.», «vespert.», «matut.») are printed in a heavier type than the names of the planets and of the phases; transcribed in bold.",
+  "body (table): the braces under the heads are printed as long thin braces with a short point upward.",
+  "body: the kappa of the Greek is printed in the curly form; transcribed κ."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0707-body-L001",
+     "source_line_no": 1,
+     "tex": "\\Indent Ad nostram igitur scribendi rationem aptata, haec est regula \\textit{Ptolemaica:}",
+     "transcription": "Ad nostram igitur scribendi rationem aptata, haec est regula *Ptolemaica:*",
+     "semantic_anchor": "AB01-PDF0707-P01",
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0707-body-L002",
+     "source_line_no": 2,
+     "tex": "\\mbox{}\\rlap{\\hspace*{22.50mm}elongatio a \\SunSym{} $=R\\,\\dfrac{\\text{arcus visionis}}{\\sin BED}\\mp\\dfrac{\\text{latit.\\ planetae}\\times\\text{cotg}\\,BED}{R}$\\,;}",
+     "transcription": "elongatio a ⊙ $=R\\,\\dfrac{\\text{arcus visionis}}{\\sin BED}\\mp\\dfrac{\\text{latit.\\ planetae}\\times\\text{cotg}\\,BED}{R}$\\,;",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0707-body-L003",
+     "source_line_no": 3,
+     "tex": "ubi angulus BED intelligitur ad planetae situm effectus, si planeta latitudine caruerit; ad",
+     "transcription": "ubi angulus BED intelligitur ad planetae situm effectus, si planeta latitudine caruerit; ad",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0707-body-L004",
+     "source_line_no": 4,
+     "tex": "punctum eclipticae simul cum planeta ascendens, si planeta latitudinem habuerit.",
+     "transcription": "punctum eclipticae simul cum planeta ascendens, si planeta latitudinem habuerit.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0707-body-L005",
+     "source_line_no": 5,
+     "tex": "\\Indent Hac ratione \\Name{Ptolemaeus} XIII, 9 (ed. Halma, t. II, p. 427–28) dicit tabulas construxisse,",
+     "transcription": "Hac ratione {sp:Ptolemaeus} XIII, 9 (ed. Halma, t. II, p. 427–28) dicit tabulas construxisse,",
+     "semantic_anchor": "AB01-PDF0707-P02",
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0707-body-L006",
+     "source_line_no": 6,
+     "tex": "quibus, longitudine [vera] planetarum in initiis signorum constituta, elongationes apparentes",
+     "transcription": "quibus, longitudine [vera] planetarum in initiis signorum constituta, elongationes apparentes",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0707-body-L007",
+     "source_line_no": 7,
+     "tex": "planetarum a Sole vero exhibentur necessariae ad apparitiones et occultationes (\\textgreek{τὰς φαινομένας}",
+     "transcription": "planetarum a Sole vero exhibentur necessariae ad apparitiones et occultationes (τὰς φαινομένας",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0707-body-L008",
+     "source_line_no": 8,
+     "tex": "\\textgreek{τῶν ἀνατολῶν καὶ κρύψεων ἀπὸ τοῦ ἀκριβοῦς ἡλίου διαστάσεις ὡς αὐτῶν τῶν ἀστέρων ἐν ταῖς ἀρχαῖς}",
+     "transcription": "τῶν ἀνατολῶν καὶ κρύψεων ἀπὸ τοῦ ἀκριβοῦς ἡλίου διαστάσεις ὡς αὐτῶν τῶν ἀστέρων ἐν ταῖς ἀρχαῖς",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0707-body-L009",
+     "source_line_no": 9,
+     "tex": "\\textgreek{τῶν δωδεκατημορίων ὑποκειμένων, ὑπετάξαμεν}, l. c., Halma, II, 428), seu arcus eclipticae inter ini-",
+     "transcription": "τῶν δωδεκατημορίων ὑποκειμένων, ὑπετάξαμεν, l. c., Halma, II, 428), seu arcus eclipticae inter ini-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0707-body-L010",
+     "source_line_no": 10,
+     "tex": "tium signi a planeta tunc apparenti aut occidenti occupatum et Solem verum. Si planeta extra",
+     "transcription": "tium signi a planeta tunc apparenti aut occidenti occupatum et Solem verum. Si planeta extra",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0707-body-L011",
+     "source_line_no": 11,
+     "tex": "signorum initia fuerit, tabulae interpolandae erunt, sicut etiam \\Name{al-Battānī} t. I, p. 118,",
+     "transcription": "signorum initia fuerit, tabulae interpolandae erunt, sicut etiam {sp:al-Battānī} t. I, p. 118,",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0707-body-L012",
+     "source_line_no": 12,
+     "tex": "l. 18–25, docet. — Tabula \\textit{Ptolemaica} (1) est ad Phoeniciae clima, seu ad latitudinem circiter",
+     "transcription": "l. 18–25, docet. — Tabula *Ptolemaica* (1) est ad Phoeniciae clima, seu ad latitudinem circiter",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0707-body-L013",
+     "source_line_no": 13,
+     "tex": "33° condita; ab \\textit{Albateniana} his causis discrepare debet: 1°) ob diversam eclipticae obliqui-",
+     "transcription": "33° condita; ab *Albateniana* his causis discrepare debet: 1°) ob diversam eclipticae obliqui-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0707-body-L014",
+     "source_line_no": 14,
+     "tex": "tatem, unde anguli BED diversi fiunt; — 2°) ob diversam latitudinem terrestrem ad quam",
+     "transcription": "tatem, unde anguli BED diversi fiunt; — 2°) ob diversam latitudinem terrestrem ad quam",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0707-body-L015",
+     "source_line_no": 15,
+     "tex": "tabulae referuntur; — 3°) ob longum temporis intervallum, quo longitudines nodorum plane-",
+     "transcription": "tabulae referuntur; — 3°) ob longum temporis intervallum, quo longitudines nodorum plane-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0707-body-L016",
+     "source_line_no": 16,
+     "tex": "tarum auctae sunt motu praecessionis, ita ut dato eclipticae loco latitudo planetae mutata sit.",
+     "transcription": "tarum auctae sunt motu praecessionis, ita ut dato eclipticae loco latitudo planetae mutata sit.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0707-body-L017",
+     "source_line_no": 17,
+     "tex": "\\Indent Quanam ratione latitudines planetarum in tabulis his conficiendis supputaverint, nec \\Name{Pto-}",
+     "transcription": "Quanam ratione latitudines planetarum in tabulis his conficiendis supputaverint, nec {sp:Pto-}",
+     "semantic_anchor": "AB01-PDF0707-P03",
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0707-body-L018",
+     "source_line_no": 18,
+     "tex": "\\Name{lemaeus} nec \\Name{al-Battānī} docent; frustra ego permultum temporis et laboris in tabularum",
+     "transcription": "{sp:lemaeus} nec {sp:al-Battānī} docent; frustra ego permultum temporis et laboris in tabularum",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0707-body-L019",
+     "source_line_no": 19,
+     "tex": "constructionem enucleandam impendi. Nec rem attentaverunt (aut fortasse attentatam dereli-",
+     "transcription": "constructionem enucleandam impendi. Nec rem attentaverunt (aut fortasse attentatam dereli-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0707-body-L020",
+     "source_line_no": 20,
+     "tex": "querunt) \\Name{Purbachius}, \\Name{Regiomontanus}, \\Name{Maginus}, \\Name{Riccioli} aliique ab XV ad XVII",
+     "transcription": "querunt) {sp:Purbachius}, {sp:Regiomontanus}, {sp:Maginus}, {sp:Riccioli} aliique ab XV ad XVII",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0707-body-L021",
+     "source_line_no": 21,
+     "tex": "saec. astronomi, et \\Name{Delambre} atque recentiores qui historiam astronomiae narraverunt. Im-",
+     "transcription": "saec. astronomi, et {sp:Delambre} atque recentiores qui historiam astronomiae narraverunt. Im-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0707-body-L022",
+     "source_line_no": 22,
+     "tex": "possibile igitur fuit numeros codicis certissime emendare.",
+     "transcription": "possibile igitur fuit numeros codicis certissime emendare.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0707-body-L023",
+     "source_line_no": 23,
+     "tex": "\\Indent Quae frustra expertus sum longius ac inutile hic est referre; nonnullas considerationes",
+     "transcription": "Quae frustra expertus sum longius ac inutile hic est referre; nonnullas considerationes",
+     "semantic_anchor": "AB01-PDF0707-P04",
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0707-body-L024",
+     "source_line_no": 24,
+     "tex": "tamen addere iuvat.",
+     "transcription": "tamen addere iuvat.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0707-body-L025",
+     "source_line_no": 25,
+     "tex": "\\Indent \\textit{Species apparitionis} aut \\textit{occultationis} colligitur ex anomalia aequata, i. e. ex arcu epicycli",
+     "transcription": "*Species apparitionis* aut *occultationis* colligitur ex anomalia aequata, i. e. ex arcu epicycli",
+     "semantic_anchor": "AB01-PDF0707-P05",
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0707-body-L026",
+     "source_line_no": 26,
+     "tex": "quem planeta ab apogeo vero epicycli peregit. Superiores enim planetae paulo post apogeum epi-",
+     "transcription": "quem planeta ab apogeo vero epicycli peregit. Superiores enim planetae paulo post apogeum epi-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0707-body-L027",
+     "source_line_no": 27,
+     "tex": "cycli prope sunt apparitionem matutinam, paulo ante prope occultationem vespertinam. Planetae",
+     "transcription": "cycli prope sunt apparitionem matutinam, paulo ante prope occultationem vespertinam. Planetae",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0707-body-L028",
+     "source_line_no": 28,
+     "tex": "inferiores paulo post apogeum epicycli appropinquant apparitioni vespertinae, paulo ante apogeum",
+     "transcription": "inferiores paulo post apogeum epicycli appropinquant apparitioni vespertinae, paulo ante apogeum",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0707-body-L029",
+     "source_line_no": 29,
+     "tex": "occultationi matutinae; paulo ante perigeum vespertinae occultationi, paulo post perigeum epicycli",
+     "transcription": "occultationi matutinae; paulo ante perigeum vespertinae occultationi, paulo post perigeum epicycli",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0707-body-L030",
+     "source_line_no": 30,
+     "tex": "matutinae apparitioni. Quantitates anomaliae proxime necessarias ad apparitiones et occultationes",
+     "transcription": "matutinae apparitioni. Quantitates anomaliae proxime necessarias ad apparitiones et occultationes",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0707-body-L031",
+     "source_line_no": 31,
+     "tex": "\\Name{Theon} ac \\Name{al-Battānī} (t. I, p. 117) paulo aliter quam \\Name{Ḥabash} (f. 67,v.—68,r.) constituunt:",
+     "transcription": "{sp:Theon} ac {sp:al-Battānī} (t. I, p. 117) paulo aliter quam {sp:Ḥabash} (f. 67,v.—68,r.) constituunt:",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0707-body-L032",
+     "source_line_no": 32,
+     "tex": "\\hspace*{5.6mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[19.93mm][c]{\\smash{}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[34.78mm][c]{\\smash{Saturno}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[35.31mm][c]{\\smash{Iovi}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[34.96mm][c]{\\smash{Marti}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}",
+     "transcription": "Saturno | Iovi | Marti",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0707-body-L033",
+     "source_line_no": 33,
+     "tex": "\\hspace*{5.6mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[19.93mm][l]{\\smash{}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[15.63mm][c]{\\smash{\\textbf{apparit.}}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[16.01mm][c]{\\smash{\\textbf{occult.}}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[16.01mm][c]{\\smash{\\textbf{apparit.}}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[16.16mm][c]{\\smash{\\textbf{occult.}}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[15.66mm][c]{\\smash{\\textbf{apparit.}}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[16.16mm][c]{\\smash{\\textbf{occult.}}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}",
+     "transcription": "| **apparit.** | **occult.** | **apparit.** | **occult.** | **apparit.** | **occult.**",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0707-body-L034",
+     "source_line_no": 34,
+     "tex": "\\hspace*{5.6mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[19.93mm][l]{\\smash{al-Battānī. .}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[15.63mm][c]{20\\rlap{°}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[16.01mm][c]{340\\rlap{°}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[16.01mm][c]{20\\rlap{°}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[16.16mm][c]{340\\rlap{°}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[15.66mm][c]{20\\rlap{°}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[16.16mm][c]{340\\rlap{°}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}",
+     "transcription": "al-Battānī. . | 20~° | 340~° | 20~° | 340~° | 20~° | 340~°",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0707-body-L035",
+     "source_line_no": 35,
+     "tex": "\\hspace*{5.6mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[19.93mm][l]{\\smash{Ḥabash . . .}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[15.63mm][c]{\\smash{20}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[16.01mm][c]{\\smash{340}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[16.01mm][c]{\\smash{14}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[16.16mm][c]{\\smash{346}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[15.66mm][c]{\\smash{28}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[16.16mm][c]{\\smash{332}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}",
+     "transcription": "Ḥabash . . . | 20 | 340 | 14 | 346 | 28 | 332",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0707-body-L036",
+     "source_line_no": 36,
+     "tex": "\\hspace*{5.6mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[19.93mm][c]{\\smash{}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[54.53mm][c]{\\smash{Veneri}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[54.21mm][c]{\\smash{Mercurio}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}",
+     "transcription": "Veneri | Mercurio",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0707-body-L037",
+     "source_line_no": 37,
+     "tex": "\\hspace*{5.6mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[19.93mm][c]{\\smash{}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[25.96mm][c]{\\smash{apparitioni}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[25.43mm][c]{\\smash{occultationi}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[25.15mm][c]{\\smash{apparitioni}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[25.92mm][c]{\\smash{occultationi}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}",
+     "transcription": "apparitioni | occultationi | apparitioni | occultationi",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0707-body-L038",
+     "source_line_no": 38,
+     "tex": "\\hspace*{5.6mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[19.93mm][l]{\\smash{}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[11.43mm][c]{\\smash{\\textbf{vespert.}}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[11.39mm][c]{\\smash{\\textbf{matut.}}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[11.04mm][c]{\\smash{\\textbf{vespert.}}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[11.25mm][c]{\\smash{\\textbf{matut.}}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[10.86mm][c]{\\smash{\\textbf{vespert.}}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[11.15mm][c]{\\smash{\\textbf{matut.}}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[11.46mm][c]{\\smash{\\textbf{vespert.}}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[11.32mm][c]{\\smash{\\textbf{matut.}}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}",
+     "transcription": "| **vespert.** | **matut.** | **vespert.** | **matut.** | **vespert.** | **matut.** | **vespert.** | **matut.**",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0707-body-L039",
+     "source_line_no": 39,
+     "tex": "\\hspace*{5.6mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[19.93mm][l]{\\smash{al-Battānī. .}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[11.43mm][c]{20\\rlap{°}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[11.39mm][c]{200\\rlap{°}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[11.04mm][c]{160\\rlap{°}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[11.25mm][c]{340\\rlap{°}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[10.86mm][c]{20\\rlap{°}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[11.15mm][c]{200\\rlap{°}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[11.46mm][c]{160\\rlap{°}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[11.32mm][c]{340\\rlap{°}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}",
+     "transcription": "al-Battānī. . | 20~° | 200~° | 160~° | 340~° | 20~° | 200~° | 160~° | 340~°",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0707-body-L040",
+     "source_line_no": 40,
+     "tex": "\\hspace*{5.6mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[19.93mm][l]{\\smash{Ḥabash . . .}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[11.43mm][c]{\\smash{24}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[11.39mm][c]{\\smash{184}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[11.04mm][c]{\\smash{176}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[11.25mm][c]{\\smash{336}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[10.86mm][c]{\\smash{51}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[11.15mm][c]{\\smash{204}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[11.46mm][c]{\\smash{156}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[11.32mm][c]{\\smash{309}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}",
+     "transcription": "Ḥabash . . . | 24 | 184 | 176 | 336 | 51 | 204 | 156 | 309",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    }
+   ]
+  },
+  {
+   "role": "notes",
+   "lines": [
+    {
+     "id": "AB01-PDF0707-notes-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (1) In edit. \\Name{Halma} aliquot mendis scatet; consulenda igitur editio a \\Name{Heiberg} curata.",
+     "transcription": "(1) In edit. {sp:Halma} aliquot mendis scatet; consulenda igitur editio a {sp:Heiberg} curata.",
+     "semantic_anchor": "AB01-PDF0707-N01",
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  }
+ ]
+}

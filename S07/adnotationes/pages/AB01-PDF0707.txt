@@ -1,0 +1,71 @@
+@page 707 258
+^ Ad nostram igitur scribendi rationem aptata, haec est regula *Ptolemaica:*
+@vspace 0.5
+@at 22.5:elongatio a ⊙ $=R\,\dfrac{\text{arcus visionis}}{\sin BED}\mp\dfrac{\text{latit.\ planetae}\times\text{cotg}\,BED}{R}$\,;
+@vspace 0.5
+ubi angulus BED intelligitur ad planetae situm effectus, si planeta latitudine caruerit; ad
+punctum eclipticae simul cum planeta ascendens, si planeta latitudinem habuerit.
+^ Hac ratione {sp:Ptolemaeus} XIII, 9 (ed. Halma, t. II, p. 427–28) dicit tabulas construxisse,
+quibus, longitudine [vera] planetarum in initiis signorum constituta, elongationes apparentes
+planetarum a Sole vero exhibentur necessariae ad apparitiones et occultationes (τὰς φαινομένας
+τῶν ἀνατολῶν καὶ κρύψεων ἀπὸ τοῦ ἀκριβοῦς ἡλίου διαστάσεις ὡς αὐτῶν τῶν ἀστέρων ἐν ταῖς ἀρχαῖς
+τῶν δωδεκατημορίων ὑποκειμένων, ὑπετάξαμεν, l. c., Halma, II, 428), seu arcus eclipticae inter ini-
+tium signi a planeta tunc apparenti aut occidenti occupatum et Solem verum. Si planeta extra
+signorum initia fuerit, tabulae interpolandae erunt, sicut etiam {sp:al-Battānī} t. I, p. 118,
+l. 18–25, docet. — Tabula *Ptolemaica* (1) est ad Phoeniciae clima, seu ad latitudinem circiter
+33° condita; ab *Albateniana* his causis discrepare debet: 1°) ob diversam eclipticae obliqui-
+tatem, unde anguli BED diversi fiunt; — 2°) ob diversam latitudinem terrestrem ad quam
+tabulae referuntur; — 3°) ob longum temporis intervallum, quo longitudines nodorum plane-
+tarum auctae sunt motu praecessionis, ita ut dato eclipticae loco latitudo planetae mutata sit.
+^ Quanam ratione latitudines planetarum in tabulis his conficiendis supputaverint, nec {sp:Pto-}
+{sp:lemaeus} nec {sp:al-Battānī} docent; frustra ego permultum temporis et laboris in tabularum
+constructionem enucleandam impendi. Nec rem attentaverunt (aut fortasse attentatam dereli-
+querunt) {sp:Purbachius}, {sp:Regiomontanus}, {sp:Maginus}, {sp:Riccioli} aliique ab XV ad XVII
+saec. astronomi, et {sp:Delambre} atque recentiores qui historiam astronomiae narraverunt. Im-
+possibile igitur fuit numeros codicis certissime emendare.
+^ Quae frustra expertus sum longius ac inutile hic est referre; nonnullas considerationes
+tamen addere iuvat.
+^ *Species apparitionis* aut *occultationis* colligitur ex anomalia aequata, i. e. ex arcu epicycli
+quem planeta ab apogeo vero epicycli peregit. Superiores enim planetae paulo post apogeum epi-
+cycli prope sunt apparitionem matutinam, paulo ante prope occultationem vespertinam. Planetae
+inferiores paulo post apogeum epicycli appropinquant apparitioni vespertinae, paulo ante apogeum
+occultationi matutinae; paulo ante perigeum vespertinae occultationi, paulo post perigeum epicycli
+matutinae apparitioni. Quantitates anomaliae proxime necessarias ad apparitiones et occultationes
+{sp:Theon} ac {sp:al-Battānī} (t. I, p. 117) paulo aliter quam {sp:Ḥabash} (f. 67,v.—68,r.) constituunt:
+% the boxed table: rules measured on the print (table from 136.9 pt, text from 121.1 pt); the planets and the kinds
+% of phase are spanning heads with braces under them; the two blocks have their own columns
+@vspace 4.5
+@colpad 1.5 1.5
+@cols 5.6 <|| 19.93l | 15.63c | 16.01c || 16.01c | 16.16c || 15.66c | 16.16c ||>
+@rule2 cols join
+@fontsize 9.5 11.5
+@hspan | Saturno:2 | Iovi:2 | Marti:2
+@spanbrace 2.2 | | br:2 | br:2 | br:2
+@row | **apparit.** | **occult.** | **apparit.** | **occult.** | **apparit.** | **occult.**
+@cellrule | - | - | - | - | - | -
+@normal
+@rowgap 1.2
+@row al-Battānī. . | 20~° | 340~° | 20~° | 340~° | 20~° | 340~°
+@row Ḥabash . . . | 20 | 340 | 14 | 346 | 28 | 332
+@rowgap 1.2
+@hrule cols 1.2
+@cols 5.6 <|| 19.93l | 11.43c | 11.39c | 11.04c | 11.25c || 10.86c | 11.15c | 11.46c | 11.32c ||>
+@spanbrace 0.6 | | :4 | :4
+@fontsize 9.5 11.5
+@hspan | Veneri:4 | Mercurio:4
+@spanbrace 2.2 | | br:4 | br:4
+@hspan | apparitioni:2 | occultationi:2 | apparitioni:2 | occultationi:2
+@spanbrace 2.2 | | br:2 | br:2 | br:2 | br:2
+@row | **vespert.** | **matut.** | **vespert.** | **matut.** | **vespert.** | **matut.** | **vespert.** | **matut.**
+@cellrule | - | - | - | - | - | - | - | -
+@normal
+@rowgap 1.2
+@row al-Battānī. . | 20~° | 200~° | 160~° | 340~° | 20~° | 200~° | 160~° | 340~°
+@row Ḥabash . . . | 24 | 184 | 176 | 336 | 51 | 204 | 156 | 309
+@rowgap 1.2
+@rule2 cols
+@obs body (table): the heads of the two lowest levels («apparit.», «occult.», «vespert.», «matut.») are printed in a heavier type than the names of the planets and of the phases; transcribed in bold.
+@obs body (table): the braces under the heads are printed as long thin braces with a short point upward.
+@obs body: the kappa of the Greek is printed in the curly form; transcribed κ.
+@notes1
+^ (1) In edit. {sp:Halma} aliquot mendis scatet; consulenda igitur editio a {sp:Heiberg} curata.

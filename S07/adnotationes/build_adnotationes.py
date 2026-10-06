@@ -28,6 +28,11 @@ Transcription format (UTF-8; one printed line per source line, as printed, with 
                          a horizontal brace across the columns A..B between two rows; @rowsep MM an extra
                          gap after every following @row (0 ends it); @colpad A B the space before and after
                          each rule (mm; default 3 2)
+  @hspan C1 | C2 ...     a row whose cells may span columns (TEXT:N spans N columns; the rules between them are
+                         left out); @spanbrace MM | C1 | ... a strip MM high under such a row, carrying the rules at
+                         the cell boundaries, with a brace under each cell written br:N; @cellrule - | | - ... a thin
+                         rule under the columns marked -, in a strip that carries all the rules of the table;
+                         @hrule cols PT a rule PT thick across the table
   @at X:T | X:T ...      a line whose pieces begin at X mm from the left edge and keep their height (formulas)
   @pos X:T | X>:T | ...  a line whose pieces stand at X mm from the left edge (> right-aligned, ^ centred, _ half a
                          line lower; ~ hangs a unit sign); @posrule X1 X2 [| X1 X2] rules between two lines;
@@ -241,7 +246,8 @@ def parse(path):
             elif cmd in ("@title", "@center", "@vspace", "@rule", "@rule2", "@verse", "@calc", "@calcrule",
                          "@calcset", "@cols", "@row", "@rowrule", "@mcols", "@mcnext", "@mcend", "@chead", "@skip",
                          "@small", "@normal", "@rowgap", "@hrule", "@wrap", "@wrapr", "@endwrap", "@brace", "@pos",
-                         "@posrule", "@posbrace", "@hrow", "@at", "@rowsep", "@colpad",
+                         "@posrule", "@posbrace", "@hrow", "@at", "@rowsep", "@colpad", "@hspan", "@spanbrace",
+                         "@cellrule",
                          "@fontsize"):
                 rec[part].append((cmd[1:], arg))
             else:
@@ -342,6 +348,95 @@ def hrow_tex(src):
         out.append(r"\raisebox{-1mm}{\parbox[b][" + f"{H:.2f}" + "mm][c]{" + str(w) + r"mm}{\centering"
                    r"\fontsize{7.5}{9}\selectfont " + markup(c) + "}}")
     return "".join(out)
+
+
+def span_cells(src):
+    """the cells of a @hspan or @spanbrace line: TEXT:N spans N columns of @cols (one column when :N is omitted)"""
+    cells = []
+    for c in src.split("|"):
+        c = c.strip()
+        m = re.match(r"^(.*?):(\d+)$", c)
+        cells.append((m.group(1).strip(), int(m.group(2))) if m else (c, 1))
+    n, widths = sum(k for _, k in cells), [c for c in COLS["cols"] if c not in SEPS]
+    if n != len(widths):
+        raise SystemExit(f"a spanning line covers {n} of {len(widths)} columns: {src}")
+    return cells
+
+
+def sep_width(col):
+    """the width in mm of a column separator, its spaces included (as rule_piece sets it)"""
+    pt = 25.4 / 72.27
+    a, b = COLS["pad"]
+    return {"|": a + b + 0.4 * pt, "||": a + b + 2.0 * pt, "<||": b + 2.0 * pt, "||>": a + 2.0 * pt}[col]
+
+
+def span_layout(cells):
+    """the separators at the cell boundaries, ("sep", col), and the cells, ("cell", text, width in mm), of a spanning
+    line in the current @cols; a separator inside a span adds its width to the cell"""
+    out, ci, rem, acc = [], 0, 0, 0.0
+    for col in COLS["cols"]:
+        if col in SEPS:
+            if rem:
+                acc += sep_width(col)
+            else:
+                out.append(("sep", col))
+            continue
+        if not rem:
+            rem, acc = cells[ci][1], 0.0
+        acc += col[0]
+        rem -= 1
+        if not rem:
+            out.append(("cell", cells[ci][0], acc))
+            ci += 1
+    return out
+
+
+def hspan_tex(src):
+    """@hspan C1 | C2 ...: a row of a small table whose cells may span several columns of @cols (TEXT:N), centred
+    in the span; the rules between the spanned columns are left out, the others have the height of the row"""
+    out = [r"\hspace*{" + str(COLS["indent"]) + "mm}"]
+    for item in span_layout(span_cells(src)):
+        if item[0] == "sep":
+            out.append(rule_piece(item[1], r"\rule[-\dp\strutbox]{.4pt}{\baselineskip}"))
+        else:
+            out.append(r"\makebox[" + f"{item[2]:.2f}" + r"mm][c]{\smash{" + markup(item[1]) + "}}")
+    return "".join(out)
+
+
+def spanbrace_tex(src):
+    """@spanbrace MM | C1 | C2 ...: a strip MM high under a @hspan row, carrying the rules at the boundaries of its
+    cells (TEXT:N as in @hspan); a cell written br:N has a brace across its span that points up to the head"""
+    mm, _, rest = src.partition("|")
+    mm = float(mm)
+    out = [r"\par\nointerlineskip\noindent\hspace*{" + str(COLS["indent"]) + "mm}"]
+    for item in span_layout(span_cells(rest)):
+        if item[0] == "sep":
+            out.append(rule_piece(item[1], r"\rule{.4pt}{" + f"{mm:.2f}" + "mm}"))
+        elif item[1] == "br":
+            out.append(r"\makebox[" + f"{item[2]:.2f}" + r"mm][c]{\smash{\raisebox{" + f"{mm / 2 - 1.2:.2f}"
+                       + r"mm}{$\overbrace{\hspace{" + f"{item[2] - 3:.2f}" + "mm}}$}}}")
+        else:
+            out.append(r"\hspace{" + f"{item[2]:.2f}" + "mm}")
+    return "".join(out) + r"\par\nointerlineskip"
+
+
+def cellrule_tex(src):
+    """@cellrule - | | - ...: a thin rule under each column marked -, in a strip 2.5 pt high that carries the rules
+    of all the separators; each rule stops short of the column edges"""
+    cells = [c.strip() for c in src.split("|")]
+    widths = [c for c in COLS["cols"] if c not in SEPS]
+    if len(cells) != len(widths):
+        raise SystemExit(f"@cellrule has {len(cells)} cells for {len(widths)} columns: {src}")
+    out, k = [r"\par\nointerlineskip\noindent\hspace*{" + str(COLS["indent"]) + "mm}"], 0
+    for col in COLS["cols"]:
+        if col in SEPS:
+            out.append(rule_piece(col, r"\rule{.4pt}{2.5pt}"))
+            continue
+        w = col[0]
+        out.append(r"\makebox[" + str(w) + r"mm][c]{" + (r"\rule[1pt]{" + f"{w + 1.0:.2f}" + "mm}{.3pt}"
+                                                       if cells[k] == "-" else "") + "}")
+        k += 1
+    return "".join(out) + r"\par\nointerlineskip"
 
 
 def rowrule_tex(src):
@@ -542,6 +637,12 @@ def section(items, prefix, role, numbered):
         if kind == "rowgap":
             out.append(rowgap_tex(text))
             continue
+        if kind == "spanbrace":
+            out.append(spanbrace_tex(text))
+            continue
+        if kind == "cellrule":
+            out.append(cellrule_tex(text))
+            continue
         if kind == "rowsep":  # @rowsep MM: an extra gap carrying the rules after every following @row (0: none)
             rowsep = text.strip()
             continue
@@ -584,7 +685,7 @@ def section(items, prefix, role, numbered):
                 continue
             out.append(r"\end{minipage}\par")
             continue
-        if kind in ("line", "center", "title", "verse", "calc", "row", "chead", "pos", "hrow", "at"):
+        if kind in ("line", "center", "title", "verse", "calc", "row", "chead", "pos", "hrow", "at", "hspan"):
             n += 1
             lid = f"{prefix}-{role}-L{n:03d}"
             src = (text[3:] if kind == "line" and text.startswith("^^ ") else
@@ -601,6 +702,9 @@ def section(items, prefix, role, numbered):
             elif kind == "hrow":
                 tex = hrow_tex(src)
                 src = " | ".join(c.strip() for c in src.split("|")[1:])
+            elif kind == "hspan":
+                tex = hspan_tex(src)
+                src = " | ".join(t for t, _ in span_cells(src) if t)
             elif kind == "at":
                 tex = at_tex(src)
                 src = " ".join(re.sub(r"^[\d.]+:", "", it.strip()) for it in src.split(" | "))
@@ -651,16 +755,19 @@ def section(items, prefix, role, numbered):
             out.append(r"\par\vspace{" + text + "mm}")
         elif kind == "rule":
             out.append(r"\par\noindent\makebox[\linewidth][c]{\rule[.5ex]{18mm}{.4pt}}\par")
-        elif kind == "rule2":  # the double rule across the text, or across a table (@rule2 MM, @rule2 cols)
-            ind = r"\hspace*{" + str(COLS["indent"]) + "mm}" if text.strip() == "cols" else ""
-            w = (f"{cols_width():.2f}mm" if text.strip() == "cols" else
-                 text.strip() + "mm" if text.strip() else r"\linewidth")
+        elif kind == "rule2":  # the double rule across the text, or across a table (@rule2 MM, @rule2 cols); with
+            toks = text.split()  # «join» the next row of the table follows without a gap, so that its rules meet it
+            ind = r"\hspace*{" + str(COLS["indent"]) + "mm}" if toks[:1] == ["cols"] else ""
+            w = (f"{cols_width():.2f}mm" if toks[:1] == ["cols"] else
+                 toks[0] + "mm" if toks else r"\linewidth")
             out.append(r"\par\noindent" + ind + r"\rule{" + w + r"}{1.2pt}\par\nointerlineskip\vspace{1pt}\noindent"
-                       + ind + r"\rule{" + w + r"}{.4pt}\par")
-        elif kind == "hrule":  # a thin rule across a table (@hrule cols) or MM wide, between its rows
-            ind = r"\hspace*{" + str(COLS["indent"]) + "mm}" if text.strip() == "cols" else ""
-            w = f"{cols_width():.2f}mm" if text.strip() == "cols" else text.strip() + "mm"
-            out.append(r"\par\nointerlineskip\noindent" + ind + r"\rule{" + w + r"}{.4pt}\par\nointerlineskip")
+                       + ind + r"\rule{" + w + r"}{.4pt}\par" + (r"\nointerlineskip" if "join" in toks else ""))
+        elif kind == "hrule":  # a thin rule across a table (@hrule cols) or MM wide, between its rows; @hrule cols PT
+            toks = text.split()  # a rule PT thick
+            ind = r"\hspace*{" + str(COLS["indent"]) + "mm}" if toks[0] == "cols" else ""
+            w = f"{cols_width():.2f}mm" if toks[0] == "cols" else toks[0] + "mm"
+            th = (toks[1] if len(toks) > 1 else ".4") + "pt"
+            out.append(r"\par\nointerlineskip\noindent" + ind + r"\rule{" + w + "}{" + th + r"}\par\nointerlineskip")
         elif kind == "raw":
             tab += 1
             tid = f"{prefix}-{role}-T{tab:02d}"
