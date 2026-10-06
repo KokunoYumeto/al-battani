@@ -22,7 +22,10 @@ Transcription format (UTF-8; one printed line per source line, as printed, with 
                          <|| and ||> the double rules of the edges of a boxed table; a cell beginning with >N is
                          indented N mm, one beginning with _ is set half a line lower; @rule2 cols and @hrule cols
                          are a double and a thin rule across the table;
-                         @rowgap MM an empty stretch of the table that carries its rules
+                         @rowgap MM an empty stretch of the table that carries its rules; @brace under|over A B
+                         a horizontal brace across the columns A..B between two rows
+  @pos X:T | X>:T | ...  a line whose pieces stand at X mm from the left edge (> right-aligned, ^ centred, _ half a
+                         line lower; ~ hangs a unit sign); @posrule X1 X2 a rule between two lines
   @small / @normal       the following lines in small type (9 on 12 pt) / in the type of the text
   > TEXT                 a continuation line of a hanging paragraph (indented 2.5 em)
   @mcols W1 W2 ...       columns of short lines side by side (widths as fractions of the text width); @mcnext
@@ -35,11 +38,11 @@ Transcription format (UTF-8; one printed line per source line, as printed, with 
   @notes                 the footnotes follow, left column; @col switches to the right column; @notes1 one column
   @sig TEXT              the signature at the foot of the page
   @obs TEXT              an observation on the print (a letter that did not print, a broken sign), kept in the record
-  ^ TEXT                 a line that begins a paragraph or a footnote (indented)
+  ^ TEXT                 a line that begins a paragraph or a footnote (indented); ^^ TEXT indented twice
   % TEXT                 a comment, not printed
 Inline markup: *italic*, **bold**, {gb:...} bold grotesque (the «Pag.» heads), {sp:Name} letter-spaced,
 {spsc:...} letter-spaced small capitals, {fs:...} the small type of table heads,
-{sc:...} small capitals, {sup:...} superscript,
+{sc:...} small capitals, {sup:...} superscript, {sub:...} subscript,
 {sfrac:a/b} a small fraction, {0} the zero sign of the tables, {ar:...} an Arabic phrase with its own brackets and
 punctuation, set as one right-to-left run, {rtl:...} a phrase of Arabic numerals and Latin words that the print sets
 right to left, given in reading order, \\* a literal asterisk; runs of Arabic, Greek, Hebrew
@@ -163,6 +166,7 @@ def markup(s):
     s = re.sub(r"\{fs:([^}]*)\}", r"{\\fontsize{7.5}{9}\\selectfont \1}", s)
     s = re.sub(r"\{gb:([^}]*)\}", r"\\textbf{\\textsf{\1}}", s)
     s = re.sub(r"\{sup:([^}]*)\}", r"\\textsuperscript{\1}", s)
+    s = re.sub(r"\{sub:([^}]*)\}", r"\\textsubscript{\1}", s)
     s = re.sub(r"\{sfrac:([^/}]+)/([^}]+)\}", r"$\\qfrac{\1}{\2}$", s)
     s = s.replace("{0}", "\uE001")
     s = re.sub(r"\*\*([^*]+)\*\*", r"\\textbf{\1}", s)
@@ -208,7 +212,8 @@ def parse(path):
                 rec["blank"] = True
             elif cmd in ("@title", "@center", "@vspace", "@rule", "@rule2", "@verse", "@calc", "@calcrule",
                          "@calcset", "@cols", "@row", "@rowrule", "@mcols", "@mcnext", "@mcend", "@chead", "@skip",
-                         "@small", "@normal", "@rowgap", "@hrule", "@wrap", "@endwrap"):
+                         "@small", "@normal", "@rowgap", "@hrule", "@wrap", "@endwrap", "@brace", "@pos",
+                         "@posrule"):
                 rec[part].append((cmd[1:], arg))
             else:
                 raise SystemExit(f"{path.name}: unknown directive {cmd}")
@@ -336,6 +341,57 @@ def rowgap_tex(mm):
     return "".join(out) + r"\par\nointerlineskip"
 
 
+def brace_tex(src):
+    """@brace under|over A B: a horizontal brace across the columns A..B of the current @cols, set between two rows
+    without opening the line spacing; «under» has its point downward, «over» upward"""
+    kind, _, spans = src.partition(" ")
+    widths = [c[0] for c in COLS["cols"] if c not in SEPS]
+    pieces = []
+    for span in spans.split("|"):  # several braces on one strip: under 1 6 | 8 13
+        a, b = (int(v) for v in span.split())
+        x = COLS["indent"] + sum(widths[:a - 1])
+        w = sum(widths[a - 1:b])
+        if kind == "under":  # a brace with its point downward, in a strip of 5 pt between the two rows
+            br = r"\raisebox{1.5pt}{$\underbrace{\hspace{" + f"{w:.2f}" + "mm}}$}"
+        else:
+            br = r"\raisebox{-5.5pt}{$\overbrace{\hspace{" + f"{w:.2f}" + "mm}}$}"
+        pieces.append(r"\rlap{\hspace*{" + f"{x:.2f}" + r"mm}\smash{" + br + "}}")
+    return (r"\par\nointerlineskip\vspace{1pt}\noindent" + "".join(pieces)
+            + r"\par\nointerlineskip\vspace{4pt}\prevdepth=\dp\strutbox")
+
+
+def pos_item(it):
+    """one item of a @pos line: X[flags]:TEXT, X in mm from the left edge of the text; flags > right-aligned at X,
+    ^ centred at X, _ lowered by half a line (a fraction set between two printed lines); in TEXT, ~ hangs the rest
+    to the right of the alignment point (17~° right-aligned on its digits)"""
+    m = re.match(r"^(\d+(?:\.\d+)?)([>^_]*):(.*)$", it)
+    if not m:
+        raise SystemExit(f"@pos item without a position: {it}")
+    x, flags, text = float(m.group(1)), m.group(2), m.group(3).strip()
+    main, _, hang = text.partition("~")
+    if ">" in flags:
+        box = r"\llap{" + markup(main) + "}" + (r"\rlap{" + markup(hang) + "}" if hang else "")
+    elif "^" in flags:
+        box = r"\makebox[0pt][c]{" + markup(text.replace("~", "")) + "}"
+    else:
+        box = r"\rlap{" + markup(text.replace("~", "")) + "}"
+    if "_" in flags:
+        box = r"\raisebox{-.55\baselineskip}{" + box + "}"
+    return r"\rlap{\hspace*{" + f"{x:.2f}" + r"mm}\smash{" + box + "}}"
+
+
+def pos_tex(src):
+    """@pos ITEM | ITEM ...: a line whose pieces are set at given positions (Nallino's worked computations)"""
+    return r"\mbox{}" + "".join(pos_item(it.strip()) for it in src.split(" | "))
+
+
+def posrule_tex(src):
+    """@posrule X1 X2: a rule from X1 to X2 mm between two lines"""
+    x1, x2 = (float(v) for v in src.split())
+    return (r"\par\nointerlineskip\vspace{1pt}\noindent\hspace*{" + f"{x1:.2f}" + r"mm}\rule{" + f"{x2 - x1:.2f}"
+            + r"mm}{.4pt}\par\nointerlineskip\vspace{2pt}")
+
+
 def mc_width(tok):
     """a column of @mcols: W or W/H, in mm when greater than 1, else a fraction of the text width; H is the width
     within which the heads of the column are centred"""
@@ -380,6 +436,12 @@ def section(items, prefix, role, numbered):
         if kind == "normal":
             out.append(r"\par\fontsize{11.1}{13.8}\selectfont")
             continue
+        if kind == "brace":
+            out.append(brace_tex(text))
+            continue
+        if kind == "posrule":
+            out.append(posrule_tex(text))
+            continue
         if kind == "rowgap":
             out.append(rowgap_tex(text))
             continue
@@ -403,10 +465,11 @@ def section(items, prefix, role, numbered):
         if kind == "endwrap":
             out.append(r"\end{minipage}\par")
             continue
-        if kind in ("line", "center", "title", "verse", "calc", "row", "chead"):
+        if kind in ("line", "center", "title", "verse", "calc", "row", "chead", "pos"):
             n += 1
             lid = f"{prefix}-{role}-L{n:03d}"
-            src = text[2:] if kind == "line" and text.startswith(("^ ", "> ")) else text
+            src = (text[3:] if kind == "line" and text.startswith("^^ ") else
+                   text[2:] if kind == "line" and text.startswith(("^ ", "> ")) else text)
             if kind == "verse":  # an Arabic verse: first hemistich | second hemistich, the first set on the right
                 h1, h2 = [h.strip() for h in src.split("|")]
                 tex = (r"\CenterLine{\makebox[56mm][c]{\textarabic{" + h2 + r"}}\hspace{8mm}\makebox[56mm][c]{"
@@ -416,13 +479,16 @@ def section(items, prefix, role, numbered):
                 src = " ".join(c.strip().lstrip(">") for c in src.split("|") if c.strip())
             elif kind == "row":
                 tex = row_tex(src)
+            elif kind == "pos":
+                tex = pos_tex(src)
+                src = " ".join(re.sub(r"^[\d.]+[>^_]*:", "", it.strip()).replace("~", "") for it in src.split(" | "))
             else:
                 tex = markup(src)
             sem = None
             if kind == "line" and text.startswith("> "):  # a continuation line of a hanging paragraph
                 tex = r"\hspace*{2.5em}" + tex
-            elif kind == "line" and text.startswith("^ "):
-                tex = r"\Indent " + tex
+            elif kind == "line" and text.startswith(("^ ", "^^ ")):
+                tex = (r"\Indent\Indent " if text.startswith("^^ ") else r"\Indent ") + tex
                 note = re.match(r"\((\d+)\)", src)
                 if note and role != "body":
                     sem = f"{prefix}-N{int(note.group(1)):02d}"

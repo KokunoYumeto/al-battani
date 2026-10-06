@@ -1,0 +1,360 @@
+{
+ "anchor": "AB01-PDF0674",
+ "master_pdf_page": 674,
+ "printed_page": 225,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": "29",
+ "observations": [
+  "body L3: the denominator of the first fraction is printed «ρ₁ + ε₁ cos 2 (☾ — ⊙)», with a Greek epsilon for e₁; transcribed as printed."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0674-body-L001",
+     "source_line_no": 1,
+     "tex": "vel, pro \\textit{e} sumpto $e_1$, $R$ = 1 facto, \\textgreek{ρ} in partibus decimalibus delecto ($\\rho_1$):",
+     "transcription": "vel, pro *e* sumpto $e_1$, $R$ = 1 facto, ρ in partibus decimalibus delecto ($\\rho_1$):",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0674-body-L002",
+     "source_line_no": 2,
+     "tex": "\\CenterLine{tg $p = \\dfrac{e_1 \\sin 2\\,(\\MoonSym{} - \\SunSym{})}{\\rho_1 + \\varepsilon_1 \\cos 2\\,(\\MoonSym{} - \\SunSym{})} = \\dfrac{\\left(\\dfrac{e_1}{\\rho_1}\\right) \\sin 2\\,(\\MoonSym{} - \\SunSym{})}{1 + \\left(\\dfrac{e_1}{\\rho_1}\\right) \\cos 2\\,(\\MoonSym{} - \\SunSym{})}$\\,.}",
+     "transcription": "tg $p = \\dfrac{e_1 \\sin 2\\,(☾ - ⊙)}{\\rho_1 + \\varepsilon_1 \\cos 2\\,(☾ - ⊙)} = \\dfrac{\\left(\\dfrac{e_1}{\\rho_1}\\right) \\sin 2\\,(☾ - ⊙)}{1 + \\left(\\dfrac{e_1}{\\rho_1}\\right) \\cos 2\\,(☾ - ⊙)}$\\,.",
+     "semantic_anchor": "AB01-PDF0674-H02",
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0674-body-L003",
+     "source_line_no": 3,
+     "tex": "Ergo prosneusis \\textit{p} est functio duplae elongationis. In IV columna, cuius argumentum du-",
+     "transcription": "Ergo prosneusis *p* est functio duplae elongationis. In IV columna, cuius argumentum du-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0674-body-L004",
+     "source_line_no": 4,
+     "tex": "pla elongatio media, reperitur et ab \\Name{al-Battānī} optime \\textit{aequatio anomaliae} vocatur (1).",
+     "transcription": "pla elongatio media, reperitur et ab {sp:al-Battānī} optime *aequatio anomaliae* vocatur (1).",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0674-body-L005",
+     "source_line_no": 5,
+     "tex": "\\Indent \\textit{Secunda inaequalitas} ab excentrico epicyclum deferenti provenit, ob accessum centri",
+     "transcription": "*Secunda inaequalitas* ab excentrico epicyclum deferenti provenit, ob accessum centri",
+     "semantic_anchor": "AB01-PDF0674-P01",
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0674-body-L006",
+     "source_line_no": 6,
+     "tex": "epicycli Lunae ad Terram, dum ab apogeo excentrici recedit duplo motu elongationis Lunae",
+     "transcription": "epicycli Lunae ad Terram, dum ab apogeo excentrici recedit duplo motu elongationis Lunae",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0674-body-L007",
+     "source_line_no": 7,
+     "tex": "a Sole; semper, ut dixi, primae inaequalitati additur extra syzygias i. e. quotiescumque",
+     "transcription": "a Sole; semper, ut dixi, primae inaequalitati additur extra syzygias i. e. quotiescumque",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0674-body-L008",
+     "source_line_no": 8,
+     "tex": "centrum epicycli (seu Luna) ab apogeo excentrici divellitur. Quando Luna est in quadraturis",
+     "transcription": "centrum epicycli (seu Luna) ab apogeo excentrici divellitur. Quando Luna est in quadraturis",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0674-body-L009",
+     "source_line_no": 9,
+     "tex": "(\\textgreek{διχοτομίαι}) mediis, scilicet perigeum excentrici occupat, distantia \\textgreek{ρ} non 60\\textsuperscript{\\textit{p}} sed 60\\textsuperscript{\\textit{p}} — 2\\textit{e} =",
+     "transcription": "(διχοτομίαι) mediis, scilicet perigeum excentrici occupat, distantia ρ non 60{sup:*p*} sed 60{sup:*p*} — 2*e* =",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0674-body-L010",
+     "source_line_no": 10,
+     "tex": "= 60\\textsuperscript{\\textit{p}} — 20\\textsuperscript{\\textit{p}} 38′ = 39\\textsuperscript{\\textit{p}} 22′ fit; qua re \\textit{r} formulae aequationis simplicis tunc ad radium 39\\textsuperscript{\\textit{p}} 22′",
+     "transcription": "= 60{sup:*p*} — 20{sup:*p*} 38′ = 39{sup:*p*} 22′ fit; qua re *r* formulae aequationis simplicis tunc ad radium 39{sup:*p*} 22′",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0674-body-L011",
+     "source_line_no": 11,
+     "tex": "refertur, et non $\\dfrac{5^{p}\\,15'}{60^{p}}$ sed $\\dfrac{5^{p}\\,15'}{39^{p}\\,22'}$ vel $\\dfrac{8^{p}}{60^{p}}$ est. Calculis ita ductis, aequatio perigea Lunae in-",
+     "transcription": "refertur, et non $\\dfrac{5^{p}\\,15'}{60^{p}}$ sed $\\dfrac{5^{p}\\,15'}{39^{p}\\,22'}$ vel $\\dfrac{8^{p}}{60^{p}}$ est. Calculis ita ductis, aequatio perigea Lunae in-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0674-body-L012",
+     "source_line_no": 12,
+     "tex": "venitur 7° 40′, hoc est excedere aequationem simplicem apogeam (5° 1′) quantitate 2° 39′. Haec",
+     "transcription": "venitur 7° 40′, hoc est excedere aequationem simplicem apogeam (5° 1′) quantitate 2° 39′. Haec",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0674-body-L013",
+     "source_line_no": 13,
+     "tex": "differentia « \\textit{secunda inaequalitas} » vocatur, cuius dimidiam partem hodie astronomi Euro-",
+     "transcription": "differentia « *secunda inaequalitas* » vocatur, cuius dimidiam partem hodie astronomi Euro-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0674-body-L014",
+     "source_line_no": 14,
+     "tex": "paei \\textit{evectionem} appellant; in VI columna tabulae exhibetur pro singulis anomaliae aequa-",
+     "transcription": "paei *evectionem* appellant; in VI columna tabulae exhibetur pro singulis anomaliae aequa-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0674-body-L015",
+     "source_line_no": 15,
+     "tex": "tae gradibus.",
+     "transcription": "tae gradibus.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0674-body-L016",
+     "source_line_no": 16,
+     "tex": "\\Indent Similiter in distantiis intermediis (cognita \\textgreek{ρ} ex dupla elongatione Lunae a Sole) suppu-",
+     "transcription": "Similiter in distantiis intermediis (cognita ρ ex dupla elongatione Lunae a Sole) suppu-",
+     "semantic_anchor": "AB01-PDF0674-P02",
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0674-body-L017",
+     "source_line_no": 17,
+     "tex": "tatur quanto debeat aequatio simplex (vel apogea) augeri. Portiones pro singulis distantiis in-",
+     "transcription": "tatur quanto debeat aequatio simplex (vel apogea) augeri. Portiones pro singulis distantiis in-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0674-body-L018",
+     "source_line_no": 18,
+     "tex": "termediis addendas \\Name{Ptolemaeus} V, 7 (ed. Halma, t. I, p. 313–15), ut simpliciorem tabu-",
+     "transcription": "termediis addendas {sp:Ptolemaeus} V, 7 (ed. Halma, t. I, p. 313–15), ut simpliciorem tabu-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0674-body-L019",
+     "source_line_no": 19,
+     "tex": "lam conderet, ad maximam differentiam 2° 39′ retulit; hoc est in tabula indicavit quota pars,",
+     "transcription": "lam conderet, ad maximam differentiam 2° 39′ retulit; hoc est in tabula indicavit quota pars,",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0674-body-L020",
+     "source_line_no": 20,
+     "tex": "pro distantiis respondentibus duplae elongationi datae, sumi debeat ex secunda inaequalitate,",
+     "transcription": "pro distantiis respondentibus duplae elongationi datae, sumi debeat ex secunda inaequalitate,",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0674-body-L021",
+     "source_line_no": 21,
+     "tex": "cum haec in unitatem (1° = 60′) conversa sit. Tales \\textit{sexagesimae partes proportionales} in",
+     "transcription": "cum haec in unitatem (1° = 60′) conversa sit. Tales *sexagesimae partes proportionales* in",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0674-body-L022",
+     "source_line_no": 22,
+     "tex": "V columna, cuius argumentum dupla elongatio media, indicantur.",
+     "transcription": "V columna, cuius argumentum dupla elongatio media, indicantur.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0674-body-L023",
+     "source_line_no": 23,
+     "tex": "\\Indent Ergo operationes ad supputandam \\textit{aequationem totam} seu \\textit{compositam} Lunae hae sunt:",
+     "transcription": "Ergo operationes ad supputandam *aequationem totam* seu *compositam* Lunae hae sunt:",
+     "semantic_anchor": "AB01-PDF0674-P03",
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0674-body-L024",
+     "source_line_no": 24,
+     "tex": "\\Indent\\Indent 1\\textsuperscript{o}. Ex tabulis mediorum motuum sumantur longitudo Lunae media, longitudo media",
+     "transcription": "1{sup:o}. Ex tabulis mediorum motuum sumantur longitudo Lunae media, longitudo media",
+     "semantic_anchor": "AB01-PDF0674-P04",
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0674-body-L025",
+     "source_line_no": 25,
+     "tex": "Solis, anomalia media Lunae; duplicata differentia longitudinum erit dupla elongatio media.",
+     "transcription": "Solis, anomalia media Lunae; duplicata differentia longitudinum erit dupla elongatio media.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0674-body-L026",
+     "source_line_no": 26,
+     "tex": "\\Indent\\Indent 2\\textsuperscript{o}. Cum dupla elongatione media in tabulam intrando, sumatur ex IV columna cor-",
+     "transcription": "2{sup:o}. Cum dupla elongatione media in tabulam intrando, sumatur ex IV columna cor-",
+     "semantic_anchor": "AB01-PDF0674-P05",
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0674-body-L027",
+     "source_line_no": 27,
+     "tex": "rectio anomaliae mediae, ex V fractio sexagesima; correctio addatur anomaliae in primo et",
+     "transcription": "rectio anomaliae mediae, ex V fractio sexagesima; correctio addatur anomaliae in primo et",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0674-body-L028",
+     "source_line_no": 28,
+     "tex": "quarto quadrante, subtrahatur in secundo et tertio.",
+     "transcription": "quarto quadrante, subtrahatur in secundo et tertio.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0674-body-L029",
+     "source_line_no": 29,
+     "tex": "\\Indent\\Indent 3\\textsuperscript{o}. Cum anomalia aequata seu correcta intrando, sumantur aequatio simplex vel apo-",
+     "transcription": "3{sup:o}. Cum anomalia aequata seu correcta intrando, sumantur aequatio simplex vel apo-",
+     "semantic_anchor": "AB01-PDF0674-P06",
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0674-body-L030",
+     "source_line_no": 30,
+     "tex": "gea ex III col., et « minima longinquitas » (sive correctio in perigeo afferenda aequationi apo-",
+     "transcription": "gea ex III col., et « minima longinquitas » (sive correctio in perigeo afferenda aequationi apo-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0674-body-L031",
+     "source_line_no": 31,
+     "tex": "geae) ex VI.",
+     "transcription": "geae) ex VI.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0674-body-L032",
+     "source_line_no": 32,
+     "tex": "\\Indent\\Indent 4\\textsuperscript{o}. Sit \\textit{c} correctio e VI col. sumpta, \\textit{f} fractio sexagesima ex V; correctio aequationis",
+     "transcription": "4{sup:o}. Sit *c* correctio e VI col. sumpta, *f* fractio sexagesima ex V; correctio aequationis",
+     "semantic_anchor": "AB01-PDF0674-P07",
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0674-body-L033",
+     "source_line_no": 33,
+     "tex": "simplicis in III col. repertae erit $\\dfrac{c \\times f}{60'}$. Hoc est de \\textit{c} pars proportionalis ad minuta \\textit{f} sumatur.",
+     "transcription": "simplicis in III col. repertae erit $\\dfrac{c \\times f}{60'}$. Hoc est de *c* pars proportionalis ad minuta *f* sumatur.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0674-body-L034",
+     "source_line_no": 34,
+     "tex": "\\Indent\\Indent 5\\textsuperscript{o}. Aequatio simplex + $\\dfrac{c \\times f}{60'}$ = aequatio centri correcta; quae longitudini mediae",
+     "transcription": "5{sup:o}. Aequatio simplex + $\\dfrac{c \\times f}{60'}$ = aequatio centri correcta; quae longitudini mediae",
+     "semantic_anchor": "AB01-PDF0674-P08",
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0674-body-L035",
+     "source_line_no": 35,
+     "tex": "subtrahitur vel additur, prout longitudo minor vel maior 180 gradibus est. Proveniet \\textit{longi-}",
+     "transcription": "subtrahitur vel additur, prout longitudo minor vel maior 180 gradibus est. Proveniet *longi-*",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0674-body-L036",
+     "source_line_no": 36,
+     "tex": "\\textit{tudo vera} Lunae quaesita.",
+     "transcription": "*tudo vera* Lunae quaesita.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    }
+   ]
+  },
+  {
+   "role": "notes_left",
+   "lines": [
+    {
+     "id": "AB01-PDF0674-notes_left-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (1) Haec prosneusis est dimidia fere pars ter-",
+     "transcription": "(1) Haec prosneusis est dimidia fere pars ter-",
+     "semantic_anchor": "AB01-PDF0674-N01",
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0674-notes_left-L002",
+     "source_line_no": null,
+     "tex": "tiae inaequalitatis lunaris a \\Name{Tychone Brahe} in-",
+     "transcription": "tiae inaequalitatis lunaris a {sp:Tychone Brahe} in-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0674-notes_left-L003",
+     "source_line_no": null,
+     "tex": "ventae et \\textit{variationis} nomine notae; praeter quae",
+     "transcription": "ventae et *variationis* nomine notae; praeter quae",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  },
+  {
+   "role": "notes_right",
+   "lines": [
+    {
+     "id": "AB01-PDF0674-notes_right-L001",
+     "source_line_no": null,
+     "tex": "t. I, p. 224 dixi, cfr. I. \\Name{Bullialdi}, \\textit{Astronomia}",
+     "transcription": "t. I, p. 224 dixi, cfr. I. {sp:Bullialdi}, *Astronomia*",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0674-notes_right-L002",
+     "source_line_no": null,
+     "tex": "\\textit{philolaica,} Parisiis 1645, p. 173.",
+     "transcription": "*philolaica,* Parisiis 1645, p. 173.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  }
+ ]
+}
