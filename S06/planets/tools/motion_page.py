@@ -2,7 +2,8 @@
 run(pdf, y0, y1, rules, tvals, args=None, nsub=3, tag="", keep=None, rates=None, mods=None) -> dict saved as
   p3_kit/MP{pdf}{tag}.json (mods: the modulus of each motion column in its first place, default 360):
   rows with the argument text and, per motion column, the resolved values (None where the fit flags the row),
-  per-cell classes A (both readers give the resolved value, glyph reader confident), B (one reader gives it),
+  per-cell classes A (both readers give the resolved value, glyph reader confident), B (one reader gives it, including
+  a confident glyph reading where the text layer has no token),
   C (unresolved: neither reader gives a value on the line), and the fitted line (a, b) of each column.
 sheet(pdf, tag) -> p3_kit/MS{pdf}{tag}_k.png contact sheets of the B and C cells (crop + resolved value)."""
 import json
@@ -42,7 +43,7 @@ def run(pdf, y0, y1, rules, tvals, args=None, nsub=3, tag="", keep=None, rates=N
                 rd = c["text"] if c else None; tl = c.get("tl", "") if c else ""; cf = c["conf"] if c else 0
                 if exp is None:
                     k = "C"
-                elif rd == exp and cf >= 0.85 and (not tl or tl == exp):
+                elif rd == exp and cf >= 0.85 and tl == exp:             # both readers: the glyph reader (confident) and the text layer
                     k = "A"
                 elif rd == exp or tl == exp:
                     k = "B"

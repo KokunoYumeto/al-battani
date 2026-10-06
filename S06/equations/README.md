@@ -25,7 +25,7 @@ The tables of the equations (codex fol. 189,v.–192,r.). Each row gives a degre
 
 ## How the tables were read and checked
 
-Every number was read by the glyph reader and by the OCR text layer. Each cell was resolved against a curve: the computation from al-Battānī's elements, corrected by the running median of the readings on which both readers agree. 2,550 numbers are in class A (both readers give the value). 127 are in class B (one reader gives it), each confirmed by Tesseract as a third reader or read by eye. 203 are in class E: the curve flagged the cell, and the whole group was read by eye.
+Every number was read by the glyph reader and by the OCR text layer. Each cell was resolved against a curve: the computation from al-Battānī's elements, corrected by the running median of the readings on which both readers agree. 2,517 numbers are in class A (both readers give the value). 160 are in class B (one reader gives it; for 33 of them only the glyph reader saw the number, the text layer having no token there), each confirmed by Tesseract as a third reader or read by eye. 203 are in class E: the curve flagged the cell, and the whole group was read by eye.
 
 `python check_equations.py` compares the table with the computation from al-Battānī's elements (Nallino, Part II pp. 223–227). These are: the solar eccentricity 2;4,45 and the lunar epicycle 5;15, in parts of which the radius has 60; the eccentricity of the lunar eccentre 10;19; and the greatest latitude 5°.
 

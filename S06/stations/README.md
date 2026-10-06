@@ -23,8 +23,8 @@ The tables of the stations (codex fol. 223,v.–224,r.): p. 138 for Saturn, Jupi
 
 Every number was read by eye from 200 dpi renders and compared with the glyph reader and the OCR text layer. There are 660 numbers: the 60 arguments 360 − n and the 600 degrees and minutes of the stations.
 
-- 467 are in class A: both machine readers give the eye's value.
-- 160 are in class B: one machine reader gives it. Tesseract re-read every B cell as a third reader. Where it gave another number (46 cells), the cell was read by eye at 900 dpi; every one confirmed the value.
+- 464 are in class A: both machine readers give the eye's value.
+- 163 are in class B: one machine reader gives it (for 3 of them only the glyph reader, the text layer having no token there). Tesseract re-read every B cell as a third reader. Where it gave another number (47 cells), the cell was read by eye at 900 dpi; every one confirmed the value.
 - 33 are in class E: neither machine reader gives the value, and the cell was read again by eye at 500 dpi.
 
 `python check_stations.py` makes these checks:

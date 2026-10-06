@@ -31,7 +31,7 @@ The columns give the year or the number of months; the day of the month thoth, i
 
 ### How the tables were read and checked
 
-Every number was read by the glyph reader and by the OCR text layer and resolved against the line of its column: 1,173 numbers in class A (both readers give the value on the line), 117 in class B (one reader gives it; each cell checked by eye), and 42 in class E (read by eye: the fit flagged the cell, or a reader failed on the marks of a first row).
+Every number was read by the glyph reader and by the OCR text layer and resolved against the line of its column: 1,164 numbers in class A (both readers give the value on the line), 126 in class B (one reader gives it; each cell checked by eye, or, for the 9 numbers that only the glyph reader saw, confirmed by Tesseract or read by eye), and 42 in class E (read by eye: the fit flagged the cell, or a reader failed on the marks of a first row).
 
 `python check_syzygies.py` checks the tables against one another and against the mean lunation of 29;31,50,8,20 days:
 
@@ -79,7 +79,7 @@ The columns give the day of ādhār on which the first mean conjunction or oppos
 
 ### How the tables were read and checked
 
-Every number was read by the glyph reader and by the OCR text layer and resolved against the line of its column: 1,197 numbers in class A, 96 in class B (one reader gives the value; each confirmed by Tesseract as a third reader or read by eye), and 39 in class E (read by eye). The sums of the days of the months (31, 61 … 365) agree with the calendar.
+Every number was read by the glyph reader and by the OCR text layer and resolved against the line of its column: 1,195 numbers in class A, 98 in class B (one reader gives the value, and for 2 of them only the glyph reader; each confirmed by Tesseract as a third reader or read by eye), and 39 in class E (read by eye). The sums of the days of the months (31, 61 … 365) agree with the calendar.
 
 `python check_roman_syzygies.py` checks the tables against one another and against the mean lunation of 29;31,50,8,20 days:
 

@@ -26,8 +26,8 @@ The tables of the latitudes of the planets (codex fol. 224,v.–225,r.). Each ro
 
 Every number was read by eye from 200 dpi renders and compared with the glyph reader and the OCR text layer. There are 720 numbers: the 60 arguments 360 − n and the 660 degrees and minutes of the latitudes.
 
-- 651 are in class A: both machine readers give the eye's value.
-- 63 are in class B: one machine reader gives it. Tesseract re-read every B cell as a third reader. Where it gave another number (24 cells), the cell was read by eye; every one confirmed the value.
+- 628 are in class A: both machine readers give the eye's value.
+- 86 are in class B: one machine reader gives it (for 23 of them only the glyph reader, the text layer having no token there). Tesseract re-read every B cell as a third reader. Where it gave another number (27 cells), the cell was read by eye; every one confirmed the value.
 - 6 are in class E: neither machine reader gives the value, and the cell was read again by eye at 500 dpi.
 
 `python check_latitudes.py` computes every column from Ptolemy's elements as Nallino gives them (Part II pp. 247–255), in parts of which the radius of the deferent has 60:

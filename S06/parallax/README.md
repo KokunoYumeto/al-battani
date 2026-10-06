@@ -33,7 +33,7 @@ Ptolemy's tables (Almagest V 18). The argument is the true zenith distance z, by
 
 ### How the tables were read and checked
 
-Every number was read by the glyph reader and by the OCR text layer and resolved against its computed curve, or, where a column departs from its computation by more than the reading tolerance (the third and fourth terms, the sixtieths), against the value on which both readers agree: 679 numbers in class A, 32 in class B (each confirmed by Tesseract as a third reader or read by eye), and 54 in class E (read by eye).
+Every number was read by the glyph reader and by the OCR text layer and resolved against its computed curve, or, where a column departs from its computation by more than the reading tolerance (the third and fourth terms, the sixtieths), against the value on which both readers agree: 678 numbers in class A, 33 in class B (one of them only the glyph reader saw; each confirmed by Tesseract as a third reader or read by eye), and 54 in class E (read by eye).
 
 `python check_parallax.py` checks the columns with the elements Nallino gives (Part II pp. 235–237):
 

@@ -24,7 +24,7 @@ The tables of the elongations of the planets from the true Sun at their appariti
 
 ## How the tables were read and checked
 
-Every number was read by eye from 200 dpi renders and compared with the glyph reader and the OCR text layer. Of the 336 numbers, 313 are in class A (both machine readers give the eye's value) and 23 in class B (one gives it). Tesseract re-read the B cells as a third reader; the 10 where it gave another number were read by eye at 900 dpi and all confirm the value.
+Every number was read by eye from 200 dpi renders and compared with the glyph reader and the OCR text layer. Of the 336 numbers, 312 are in class A (both machine readers give the eye's value) and 24 in class B (one gives it; one of them only the glyph reader saw, the text layer having no token there). Tesseract re-read the B cells as a third reader; the 11 where it gave another number were read by eye at 900 dpi and all confirm the value.
 
 **The printed numbers.** These are Schiaparelli's approximate restorations («quantitates proxime a Schiaparelli restitutae», Nallino p. 262). Nallino lists where the codex, the Spanish version, Ḥabash and the Alphonsine tables differ from them (pp. 262–265). After the pages were printed he compared two further sources (pp. 266–268):
 

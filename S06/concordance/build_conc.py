@@ -43,7 +43,7 @@ for k in range(10):
     for r in d["rows"]:
         for f, ek in (("ah", "ah"), ("wd", "wd"), ("sy", "sy"), ("dm", "day")):
             exp = str(r["expected"][ek]); rd = r["read"][f]; tl = r["alt"][f]; cf = r["conf"][f] or 0
-            c = "A" if (rd == exp and cf >= 0.85 and (not tl or tl == exp)) else "B" if (rd == exp or tl == exp) else "C"
+            c = "A" if (rd == exp and cf >= 0.85 and tl == exp) else "B" if (rd == exp or tl == exp) else "C"
             cls[(r["half"], r["row"], ek)] = c
     pages.append({"pdf": pdf, "ppage": ppage, "fol": d.get("fol", FOL[k]), "tabula": ROMAN[k],
                   "title_ar": f"الجدول {ORD[k]} من استخراج تاريخ العرب من تاريخ الروم وتاريخ الروم من تاريخ العرب",

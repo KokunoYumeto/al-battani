@@ -28,8 +28,8 @@ Every number was read twice, by a glyph reader trained on Part II's own digits a
 
 | Class | Numbers | How established |
 |---|---|---|
-| A | 2,071 | Both readers give the computed value (glyph reader with high confidence). |
-| B | 290 | One reader gives it; each cell checked by eye on contact sheets. |
+| A | 1,990 | Both readers give the computed value (glyph reader with high confidence). |
+| B | 371 | One reader gives it; each cell checked by eye on contact sheets. For 81 of them only the glyph reader saw the number (the text layer has no token there): Tesseract confirmed 55 and the other 26 were read by eye. |
 | C | 39 | Neither reader gives it; each cell read by eye in its row. |
 
 `python check_concordance.py` repeats the comparison: 2,392 numbers and month marks agree with the computed calendar, 8 differ and are ledgered, 0 are open. The month names and ditto marks agree everywhere.

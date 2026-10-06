@@ -38,7 +38,7 @@ Tables of spherical astronomy (codex fol. 176,v.–186,r.):
 
 ## How the tables were read and checked
 
-Every number was read by the glyph reader and by the OCR text layer and matched against its computed value; on p. 59 every value was also read by eye, because the table departs from the computation, and on pp. 61–64 the equation of days was resolved by the agreement of the two readers and every disputed cell read by eye. 5,637 numbers are in class A (both readers give the value), 518 in class B (one reader gives it; each cell checked by eye), 97 in class E (read by eye). `python check_spherical.py` recomputes the tables:
+Every number was read by the glyph reader and by the OCR text layer and matched against its computed value; on p. 59 every value was also read by eye, because the table departs from the computation, and on pp. 61–64 the equation of days was resolved by the agreement of the two readers and every disputed cell read by eye. 5,594 numbers are in class A (both readers give the value), 561 in class B (one reader gives it; each cell checked by eye, or, for the 43 numbers that only the glyph reader saw, confirmed by Tesseract as a third reader or read by eye), 97 in class E (read by eye). `python check_spherical.py` recomputes the tables:
 
 - **sines**: 60 sin θ. Of the 180 sines, 148 agree to the second, 31 differ by 1″ and one by 2″. Every supplement is 180° − θ.
 - **declination**: sin δ = sin λ · sin 23° 35′, al-Battānī's obliquity. Of the 90 declinations, 59 agree to the second, 30 differ by 1″ and one by 2″. Every arc of equal declination is exact.

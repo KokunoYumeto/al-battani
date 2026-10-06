@@ -29,7 +29,7 @@ Every data row records how each number was established (`check`) and notes (`dou
 
 ## How the tables were read and checked
 
-Every number was read by the glyph reader and by the OCR text layer and resolved against its computed curve: 826 numbers in class A (both readers give the value), 35 in class B (one reader gives it; each confirmed by Tesseract as a third reader or read by eye), and 38 in class E (read by eye: the marks of the first rows, the last rows of pp. 90–91, and the cells that depart from the computation). Where a column departs from its computation by more than the reading tolerance (the portions, the areas, the inclinations), the value on which both readers agree was taken as its curve.
+Every number was read by the glyph reader and by the OCR text layer and resolved against its computed curve: 815 numbers in class A (both readers give the value), 46 in class B (one reader gives it, and for 11 of them only the glyph reader saw the number; each confirmed by Tesseract as a third reader or read by eye), and 38 in class E (read by eye: the marks of the first rows, the last rows of pp. 90–91, and the cells that depart from the computation). Where a column departs from its computation by more than the reading tolerance (the portions, the areas, the inclinations), the value on which both readers agree was taken as its curve.
 
 `python check_eclipses.py` recomputes every column with the elements that the tables themselves use:
 

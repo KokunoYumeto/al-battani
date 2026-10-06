@@ -26,7 +26,7 @@ Above the first table of each planet a line in Arabic and Latin gives the apogee
 
 ## How the tables were read and checked
 
-Every number was read by the glyph reader and by the OCR text layer and resolved against its computed curve, then, in a second pass, against the computation corrected by the running median of the readings on which both readers agree. Of the 9,000 numbers, 7,481 are in class A (both readers give the value) and 1,327 in class B (one reader gives it). Tesseract re-read every B cell as a third reader; the 458 cells where it gave another number were read by eye, and six resolutions were corrected. 192 numbers are in class E: the curves flagged the cell and it was read by eye.
+Every number was read by the glyph reader and by the OCR text layer and resolved against its computed curve, then, in a second pass, against the computation corrected by the running median of the readings on which both readers agree. Of the 9,000 numbers, 7,229 are in class A (both readers give the value) and 1,579 in class B (one reader gives it; for 252 of them only the glyph reader, the text layer having no token there). Tesseract re-read every B cell as a third reader; the 542 cells where it gave another number were read by eye, and six resolutions were corrected. 192 numbers are in class E: the curves flagged the cell and it was read by eye.
 
 `python check_planets.py` compares the tables with the computation from the elements that Nallino gives (Part II pp. 239–244), in parts of which the radius of the deferent has 60:
 

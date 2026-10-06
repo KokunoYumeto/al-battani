@@ -55,8 +55,8 @@ Every number was read by the glyph reader and by the OCR text layer. Each motion
 
 | Class | pp. 19–23 | pp. 24–28 | pp. 72–77 | pp. 102–106 | How established |
 |---|---|---|---|---|---|
-| A | 1,399 | 1,152 | 1,449 | 1,129 | Both readers give the value on the line. |
-| B | 110 | 88 | 129 | 121 | One reader gives it; each cell checked by eye or by Tesseract as a third reader. |
+| A | 1,385 | 1,145 | 1,445 | 1,119 | Both readers give the value on the line. |
+| B | 124 | 95 | 133 | 131 | One reader gives it (for 35 numbers in all, only the glyph reader: the text layer has no token there); each cell checked by eye or by Tesseract as a third reader. |
 | E | 15 | 20 | 18 | 30 | The fit flagged the row, or a reader failed; the cell read by eye. |
 
 The numbers of p. 107 were read by eye at 260–450 dpi and compared row by row with the OCR text layer: 77 rows agree (class A); in 7 the text layer misreads a digit or misses the row, and the zoom confirms the reading (class E).
