@@ -1,4 +1,4 @@
-"""Generate the edition of Nallino's Part II pp. 93-94 (parallaxes of the Sun and the Moon in altitude) from
+"""Generate the edition of Nallino's Part II pp. 93-101 (parallaxes; pp. 95-101 by gen_climes.py) from
 parallax_p2.tsv and par_pages.tsv: one page per printed page, with the running head, the folio line and the framed table
 (title, two levels of heads, rows in groups of four; each column a centred group of fixed-width numbers; the first row
 carries the marks as printed). Output: p2_parallax.tex"""
@@ -75,6 +75,8 @@ def document():
     out = [PREAMBLE.replace("margin=16mm", "margin=12mm"), WIDTHS, r"\begin{document}"]
     for pg in pages:
         out.append(page(pg, [r for r in rows if r["ppage"] == pg["ppage"]]))
+    import gen_climes
+    out += gen_climes.pages_tex(running_head)
     out.append(r"\end{document}")
     return "\n".join(out) + "\n"
 
