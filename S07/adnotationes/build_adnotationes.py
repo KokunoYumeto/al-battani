@@ -18,7 +18,10 @@ Transcription format (UTF-8; one printed line per source line, as printed, with 
   @cols INDENT C ...     the columns of a small table (widths in mm with l, r or c; | a vertical rule);
   @row C1 | C2 | ...     one row of it (~ hangs a unit sign: 159~°; {brace2} a brace over two rows; a cell
                          beginning with > is the indented second line of a name);
-                         @rowrule - | | - ... a rule under the columns marked -; || in @cols is a double rule;
+                         @rowrule - | | - ... a rule under the columns marked -; || in @cols is a double rule,
+                         <|| and ||> the double rules of the edges of a boxed table; a cell beginning with >N is
+                         indented N mm, one beginning with _ is set half a line lower; @rule2 cols and @hrule cols
+                         are a double and a thin rule across the table;
                          @rowgap MM an empty stretch of the table that carries its rules
   @small / @normal       the following lines in small type (9 on 12 pt) / in the type of the text
   > TEXT                 a continuation line of a hanging paragraph (indented 2.5 em)
@@ -32,6 +35,7 @@ Transcription format (UTF-8; one printed line per source line, as printed, with 
   ^ TEXT                 a line that begins a paragraph or a footnote (indented)
   % TEXT                 a comment, not printed
 Inline markup: *italic*, **bold**, {gb:...} bold grotesque (the «Pag.» heads), {sp:Name} letter-spaced,
+{spsc:...} letter-spaced small capitals, {fs:...} the small type of table heads,
 {sc:...} small capitals, {sup:...} superscript,
 {sfrac:a/b} a small fraction, {0} the zero sign of the tables, {ar:...} an Arabic phrase with its own brackets and
 punctuation, set as one right-to-left run, {rtl:...} a phrase of Arabic numerals and Latin words that the print sets
@@ -149,6 +153,8 @@ def markup(s):
     s = s.replace("\\*", "\uE002").replace("&", r"\&").replace("%", r"\%").replace("#", r"\#")
     s = re.sub(r"\{sp:([^}]*)\}", r"\\Name{\1}", s)
     s = re.sub(r"\{sc:([^}]*)\}", r"\\textsc{\1}", s)
+    s = re.sub(r"\{spsc:([^}]*)\}", r"\\Name{\\textsc{\1}}", s)
+    s = re.sub(r"\{fs:([^}]*)\}", r"{\\fontsize{7.5}{9}\\selectfont \1}", s)
     s = re.sub(r"\{gb:([^}]*)\}", r"\\textbf{\\textsf{\1}}", s)
     s = re.sub(r"\{sup:([^}]*)\}", r"\\textsuperscript{\1}", s)
     s = re.sub(r"\{sfrac:([^/}]+)/([^}]+)\}", r"$\\qfrac{\1}{\2}$", s)
@@ -196,7 +202,7 @@ def parse(path):
                 rec["blank"] = True
             elif cmd in ("@title", "@center", "@vspace", "@rule", "@rule2", "@verse", "@calc", "@calcrule",
                          "@calcset", "@cols", "@row", "@rowrule", "@mcols", "@mcnext", "@mcend", "@chead", "@skip",
-                         "@small", "@normal", "@rowgap"):
+                         "@small", "@normal", "@rowgap", "@hrule"):
                 rec[part].append((cmd[1:], arg))
             else:
                 raise SystemExit(f"{path.name}: unknown directive {cmd}")
@@ -240,25 +246,30 @@ def set_cols(spec):
     (12r, 30l, 6c), and | is a vertical rule"""
     toks = spec.split()
     COLS["indent"] = float(toks[0])
-    COLS["cols"] = [t if t in ("|", "||") else (float(t[:-1]), t[-1]) for t in toks[1:]]
+    COLS["cols"] = [t if t in SEPS else (float(t[:-1]), t[-1]) for t in toks[1:]]
 
 
 def row_tex(src):
     """@row C1 | C2 | ...: one printed row of a small table, in the columns of @cols. In a cell, ~ separates the
     number from a unit sign that hangs to its right (159~°); {brace2} is a brace over this row and the next"""
     cells = [c.strip() for c in src.split("|")]
-    widths = [c for c in COLS["cols"] if c not in ("|", "||")]
+    widths = [c for c in COLS["cols"] if c not in SEPS]
     if len(cells) != len(widths):
         raise SystemExit(f"@row has {len(cells)} cells for {len(widths)} columns: {src}")
     out, k = [r"\hspace*{" + str(COLS["indent"]) + "mm}"], 0
     for col in COLS["cols"]:
-        if col in ("|", "||"):
+        if col in SEPS:
             out.append(rule_piece(col, r"\rule[-\dp\strutbox]{.4pt}{\baselineskip}"))
             continue
         (w, a), c = col, cells[k]
         k += 1
-        if c.startswith("> "):  # the second line of a name that runs over two printed lines, indented
-            c = r"\hspace*{6mm}" + c[2:]
+        ind = re.match(r"^>(\d+(?:\.\d+)?)? ", c)
+        if ind:  # a continuation line within the cell, indented (6 mm, or >N N mm)
+            c = r"\hspace*{" + (ind.group(1) or "6") + "mm}" + c[ind.end():]
+        if c.startswith("_ "):  # set half a line lower: a head beside a head of two lines
+            out.append(r"\makebox[" + str(w) + "mm][" + a + r"]{\smash{\raisebox{-.5\baselineskip}{" + markup(c[2:])
+                       + "}}}")
+            continue
         if c == "{brace2}":
             out.append(r"\makebox[" + str(w) + "mm][" + a + "]{" + BRACE2 + "}")
         elif "~" in c:
@@ -272,12 +283,12 @@ def row_tex(src):
 def rowrule_tex(src):
     """@rowrule - | - | | ...: a rule under each column of the @cols marked with -, between two rows"""
     cells = [c.strip() for c in src.split("|")]
-    widths = [c for c in COLS["cols"] if c not in ("|", "||")]
+    widths = [c for c in COLS["cols"] if c not in SEPS]
     if len(cells) != len(widths):
         raise SystemExit(f"@rowrule has {len(cells)} cells for {len(widths)} columns: {src}")
     out, k = [r"\par\nointerlineskip\vspace{1pt}\noindent\hspace*{" + str(COLS["indent"]) + "mm}"], 0
     for col in COLS["cols"]:
-        if col in ("|", "||"):
+        if col in SEPS:
             out.append(r"\phantom{" + rule_piece(col, r"\rule{.4pt}{1pt}") + "}")
             continue
         w = col[0]
@@ -286,18 +297,33 @@ def rowrule_tex(src):
     return "".join(out) + r"\par\nointerlineskip\vspace{2pt}"
 
 
+SEPS = ("|", "||", "<||", "||>")
+
+
 def rule_piece(col, rule):
-    """the space and rule(s) of a | or || column separator"""
+    """the space and rule(s) of a column separator: | a rule, || a double rule, <|| and ||> the double rules of
+    the left and the right edge of a boxed table"""
     if col == "|":
         return r"\hspace{3mm}" + rule + r"\hspace{2mm}"
+    if col == "<||":
+        return rule + r"\hspace{1.2pt}" + rule + r"\hspace{2mm}"
+    if col == "||>":
+        return r"\hspace{3mm}" + rule + r"\hspace{1.2pt}" + rule
     return r"\hspace{3mm}" + rule + r"\hspace{1.2pt}" + rule + r"\hspace{2mm}"
+
+
+def cols_width():
+    """the width in mm of a table in the current @cols, separators included"""
+    pt = 25.4 / 72.27
+    pad = {"|": 5 + 0.4 * pt, "||": 5 + 2.0 * pt, "<||": 2 + 2.0 * pt, "||>": 3 + 2.0 * pt}
+    return sum(pad[c] if c in SEPS else c[0] for c in COLS["cols"])
 
 
 def rowgap_tex(mm):
     """@rowgap MM: an empty stretch of the table, MM high, that carries its vertical rules (no anchor)"""
     out = [r"\par\nointerlineskip\noindent\hspace*{" + str(COLS["indent"]) + "mm}"]
     for col in COLS["cols"]:
-        if col in ("|", "||"):
+        if col in SEPS:
             out.append(rule_piece(col, r"\rule{.4pt}{" + mm + "mm}"))
         else:
             out.append(r"\hspace{" + str(col[0]) + "mm}")
@@ -409,10 +435,16 @@ def section(items, prefix, role, numbered):
             out.append(r"\par\vspace{" + text + "mm}")
         elif kind == "rule":
             out.append(r"\par\noindent\makebox[\linewidth][c]{\rule[.5ex]{18mm}{.4pt}}\par")
-        elif kind == "rule2":  # the double rule across the text, or across a table MM wide (@rule2 MM)
-            w = text.strip() + "mm" if text.strip() else r"\linewidth"
-            out.append(r"\par\noindent\rule{" + w + r"}{1.2pt}\par\nointerlineskip\vspace{1pt}\noindent\rule{" + w
-                       + r"}{.4pt}\par")
+        elif kind == "rule2":  # the double rule across the text, or across a table (@rule2 MM, @rule2 cols)
+            ind = r"\hspace*{" + str(COLS["indent"]) + "mm}" if text.strip() == "cols" else ""
+            w = (f"{cols_width():.2f}mm" if text.strip() == "cols" else
+                 text.strip() + "mm" if text.strip() else r"\linewidth")
+            out.append(r"\par\noindent" + ind + r"\rule{" + w + r"}{1.2pt}\par\nointerlineskip\vspace{1pt}\noindent"
+                       + ind + r"\rule{" + w + r"}{.4pt}\par")
+        elif kind == "hrule":  # a thin rule across a table (@hrule cols) or MM wide, between its rows
+            ind = r"\hspace*{" + str(COLS["indent"]) + "mm}" if text.strip() == "cols" else ""
+            w = f"{cols_width():.2f}mm" if text.strip() == "cols" else text.strip() + "mm"
+            out.append(r"\par\nointerlineskip\noindent" + ind + r"\rule{" + w + r"}{.4pt}\par\nointerlineskip")
         elif kind == "raw":
             tab += 1
             tid = f"{prefix}-{role}-T{tab:02d}"
