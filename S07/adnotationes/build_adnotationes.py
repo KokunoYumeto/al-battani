@@ -63,12 +63,12 @@ Transcription format (UTF-8; one printed line per source line, as printed, with 
 Inline markup: *italic*, **bold**, {gb:...} bold grotesque (the «Pag.» heads), {sp:Name} letter-spaced,
 {spsc:...} letter-spaced small capitals, {fs:...} the small type of table heads, {sm:...} a smaller type,
 {xs:...} the smallest type (the heads of narrow columns),
-{sc:...} small capitals, {sup:...} superscript, {sub:...} subscript,
-{sfrac:a/b} a small fraction, {0} the zero sign of the tables, {ar:...} an Arabic phrase with its own brackets and
-punctuation, set as one right-to-left run ({syr:...} the same for Syriac), {rtl:...} a phrase of Arabic numerals and Latin words that the print sets
-right to left, given in reading order, \\* a literal asterisk; runs of Arabic, Greek, Hebrew
-and Syriac letters are set in their fonts, the signs ☾ ⊙ ♈ in FreeSerif. & % # are escaped; $...$ is mathematics; every
-other character is literal."""
+{sc:...} small capitals, {sup:...} superscript, {sub:...} subscript, {sfrac:a/b} a small fraction, {0} the zero
+sign of the tables, {ar:...} an Arabic phrase with its own brackets and punctuation, set as one right-to-left run
+({syr:...} the same for Syriac), {rtl:...} a phrase of Arabic numerals and Latin words that the print sets right to
+left, given in reading order, \\* a literal asterisk; runs of Arabic, Greek, Hebrew and Syriac letters are set in
+their fonts, the signs ☾ ⊙ ♈ ♄ ♃ ♂ ♀ ☿ ☊ ☋ in FreeSerif. & % # are escaped; $...$ is mathematics; every other
+character is literal."""
 import csv, json, re
 from pathlib import Path
 
@@ -207,7 +207,9 @@ def markup(s):
     s = ETHIOPIC_RUN.sub(lambda m: r"\textethiopic{" + m.group(1) + "}", s)
     s = s.replace("⸿", r"{\CapFont ⸿}")  # the capitulum of the Spanish quotations
     s = s.replace("ꝛ", r"{\CapFont ꝛ}")  # r rotunda of the Latin abbreviations (qꝛ = quia)
-    s = s.replace("☾", r"\MoonSym{}").replace("⊙", r"\SunSym{}").replace("♈", r"{\MoonFont ♈}")
+    s = s.replace("☾", r"\MoonSym{}").replace("⊙", r"\SunSym{}")
+    for sign in "♈♄♃♂♀☿☊☋":  # the sign of Aries, the planets and the nodes
+        s = s.replace(sign, r"{\MoonFont " + sign + "}")
     s = s.replace("\uE001", r"\AbjadZero{}").replace("\uE002", "*")
     s = re.sub("\uE003(\\d+)\uE004", lambda m: keep[int(m.group(1))], s)
     return rotate_heads(s)
