@@ -45,7 +45,8 @@ Transcription format (UTF-8; one printed line per source line, as printed, with 
                          @posbrace under|over X1 X2 [| X1 X2] horizontal braces between two lines
   @small / @normal       the following lines in small type (9 on 12 pt) / in the type of the text;
                          @fontsize PT LEAD any other size
-  > TEXT                 a continuation line of a hanging paragraph (indented 2.5 em)
+  + TEXT                 the first line of an entry of the glossary, flush left (anchored -E01, -E02, ...)
+  > TEXT                 a continuation line of an entry, indented as printed (21.2 PDF points)
   @mcols W1 W2 ...       columns of short lines side by side (widths as fractions of the text width); @mcnext
                          starts the next column, @mcend closes the block; inside, @chead TEXT is the small bold
                          head of a group and @skip N leaves N lines (N may be 0.5)
@@ -685,11 +686,14 @@ def mc_begin(w):
 
 BP = 72.27 / 72  # TeX points per PDF point (the positions measured on the scan are PDF points)
 LEADING = {"body": 13.8, "notes": 11.5, "notes_left": 11.5, "notes_right": 11.5}  # the \baselineskip of each role
+# the hanging indent of the entries: on p. 322 the entries begin at 114.3-116.2 PDF points and their continuation
+# lines at 135.4-138.2
+HANG = f"{21.2 * BP:.2f}pt"
 
 
 def section(items, prefix, role, numbered):
     """the TeX of one section and its line records"""
-    out, recs, n, par, tab, fig = [], [], 0, 0, 0, 0
+    out, recs, n, par, ent, tab, fig = [], [], 0, 0, 0, 0, 0
     wrapr = None  # the figure of an open @wrapr block, set after its lines
     mc = None  # the column widths of an open @mcols block, and the column being set
     rowsep = "0"
@@ -833,7 +837,7 @@ def section(items, prefix, role, numbered):
             n += 1
             lid = f"{prefix}-{role}-L{n:03d}"
             src = (text[3:] if kind == "line" and text.startswith("^^ ") else
-                   text[2:] if kind == "line" and text.startswith(("^ ", "> ")) else text)
+                   text[2:] if kind == "line" and text.startswith(("^ ", "> ", "+ ")) else text)
             if kind == "verse":  # an Arabic verse: first hemistich | second hemistich, the first set on the right
                 h1, h2 = [h.strip() for h in src.split("|")]
                 tex = (r"\CenterLine{\makebox[56mm][c]{\textarabic{" + h2 + r"}}\hspace{8mm}\makebox[56mm][c]{"
@@ -861,8 +865,11 @@ def section(items, prefix, role, numbered):
             else:
                 tex = markup(src)
             sem = None
-            if kind == "line" and text.startswith("> "):  # a continuation line of a hanging paragraph
-                tex = r"\hspace*{2.5em}" + tex
+            if kind == "line" and text.startswith("> "):  # a continuation line of an entry, indented as printed
+                tex = r"\hspace*{" + HANG + "}" + tex
+            elif kind == "line" and text.startswith("+ "):  # the first line of an entry, flush left
+                ent += 1
+                sem = f"{prefix}-E{ent:02d}"
             elif kind == "line" and text.startswith(("^ ", "^^ ")):
                 tex = (r"\Indent\Indent " if text.startswith("^^ ") else r"\Indent ") + tex
                 note = re.match(r"\((\d+)\)", src)

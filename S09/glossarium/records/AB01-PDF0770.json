@@ -8,7 +8,7 @@
  "signature": "41",
  "observations": [
   "body L1, L9, L15, L27: «وقد» (L1) is printed with an elongated join (kashīda), not transcribed; «منهـا» (L9), «هـذا» (L15) and «وأردنـا» (L27) are printed with long joins, transcribed with a tatweel.",
-  "body L9: the line is one Arabic run, read from the right; a point is printed at its right end, before «يتهيّأ»; transcribed as printed.",
+  "body L9: the line is one Arabic run, read from the right, ending in the points «.....» at its left end; the point at its right end is the full stop of the Latin sentence, set after the run.",
   "body L13, L20, L23: «وَتَرُ» (L13) has fatha, fatha and damma; «وَتَر» (L20) is printed with two fathas and no vowel on the r.",
   "body L20, L24: «راجعا» (L20) is printed without the tanwīn that «راجعًا» has in L21-L24.",
   "body L28: «ص» is the abjad numeral 60 («excedens 60ᵖ»).",
@@ -88,8 +88,8 @@
     {
      "id": "AB01-PDF0770-body-L009",
      "source_line_no": 9,
-     "tex": "\\ArabicRun{.يتهيّأ أَنْ يكون اكثرَ منهـا إِلّا اذا كان.....}",
-     "transcription": "{ar:.يتهيّأ أَنْ يكون اكثرَ منهـا إِلّا اذا كان.....}",
+     "tex": "\\ArabicRun{يتهيّأ أَنْ يكون اكثرَ منهـا إِلّا اذا كان.....}.",
+     "transcription": "{ar:يتهيّأ أَنْ يكون اكثرَ منهـا إِلّا اذا كان.....}.",
      "semantic_anchor": null,
      "source_role": "NALLINO_GLOSSARIUM"
     },
