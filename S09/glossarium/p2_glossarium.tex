@@ -1,0 +1,118 @@
+\documentclass[11pt]{article}
+\usepackage[paperwidth=220mm,paperheight=320mm,left=16mm,right=16mm,top=18mm,bottom=18mm,headheight=16pt,headsep=10pt,footskip=14pt]{geometry}
+\usepackage{fix-cm}
+\usepackage{fontspec,amsmath,amssymb,graphicx,array,multirow,tikz}
+\usetikzlibrary{decorations.pathreplacing}
+\usepackage[unicode,hidelinks]{hyperref}
+\usepackage{polyglossia}
+\setmainlanguage{latin}
+\setotherlanguages{arabic,greek,hebrew,syriac}
+\setmainfont{Linux Libertine O}[Ligatures=TeX]
+\setsansfont{Linux Biolinum O}[Ligatures=TeX]
+\newfontfamily\greekfont{FreeSerif}[Script=Greek]
+\newfontfamily\arabicfont{Amiri}[Script=Arabic]
+\newfontfamily\hebrewfont{Frank Ruhl Hofshi}[Script=Hebrew]
+\newfontfamily\syriacfont{Segoe UI Historic}[Script=Syriac]
+\newfontfamily\CapFont{Noto Serif}
+\newfontfamily\MoonFont{FreeSerif}
+\newcommand{\MoonSym}{\text{\MoonFont ☾}}\newcommand{\SunSym}{\text{\MoonFont ⊙}}
+\newfontfamily\EthiopicFont{Ebrima}
+\newcommand{\textethiopic}[1]{{\EthiopicFont #1}}
+\newfontfamily\NallinoSigns{NallinoSigns.otf}[Path=./fonts/]
+\newcommand{\AbjadZero}{{\NallinoSigns\symbol{"E000}}}
+\hypersetup{pdftitle={Al-Battani, Opus astronomicum. Nallino, Glossarium (Pars II, pp. 319-358). S09},pdfauthor={Al-Battani; Carlo Alfonso Nallino (notes)}}
+\makeatletter
+\def\ps@sourceedition{%
+\def\@oddhead{\vbox{\hbox to\textwidth{\fontsize{8}{10}\selectfont C. A. NALLINO — GLOSSARIUM\hfil\leftmark}\vskip3pt\hrule height.25pt}}%
+\let\@evenhead\@oddhead
+\def\@oddfoot{\hbox to\textwidth{\fontsize{7}{9}\selectfont\rightmark\hfil\thepage}}%
+\let\@evenfoot\@oddfoot}
+\makeatother
+\pagestyle{sourceedition}
+\setlength{\parindent}{0pt}\setlength{\parskip}{0pt}
+\newcommand{\BeginSource}[2]{\clearpage\markboth{PAG. #2}{#1}\hypertarget{#1}{}\pdfbookmark[0]{#1 — p. #2}{bk-#1}\fontsize{11.1}{13.8}\selectfont}
+\tracinglostchars=2
+\newcommand{\Name}[1]{{\addfontfeatures{LetterSpace=4.0}#1}}
+\newcommand{\Indent}{\hspace*{1.6em}}
+% an Arabic run inside a Latin line: its descenders do not open the line (the printed lines are evenly spaced)
+\newcommand{\ArabicRun}[1]{\smash[b]{\textarabic{#1}}}
+\newcommand{\qfrac}[2]{{}^{#1}\!/_{{#2}}}
+\newcommand{\sa}{\textsuperscript{\textit{a}}}\newcommand{\sm}{\textsuperscript{\textit{m}}}\newcommand{\sd}{\textsuperscript{\textit{d}}}
+\newcommand{\RawBlock}[1]{\par\vspace{3pt}\noindent#1\par\vspace{3pt}}
+\newcommand{\CenterLine}[1]{\makebox[\linewidth][c]{#1}}
+\newlength{\FullSourceWidth}\newlength{\GutterOffset}\newif\ifNumbersLeft
+\newcommand{\DSource}[2]{\BeginSource{AB01-PDF#1}{#2}%
+ \setlength{\FullSourceWidth}{\textwidth}\setlength{\GutterOffset}{0pt}%
+ \ifodd#2\relax\NumbersLefttrue\else\NumbersLeftfalse\fi}
+\newsavebox{\DLBox}
+\newcommand{\DLine}[3]{%
+ \par\noindent\hypertarget{#1}{}%
+ \ifx\relax#2\relax\else
+   \ifNumbersLeft
+    \rlap{\kern-\GutterOffset\llap{\fontsize{7}{8}\selectfont #2\hspace{3mm}}}%
+   \else
+    \rlap{\kern\dimexpr\FullSourceWidth-\GutterOffset\relax\hspace{3mm}{\fontsize{7}{8}\selectfont #2}}%
+   \fi
+ \fi
+ \sbox{\DLBox}{\strut #3}%
+ \ifdim\wd\DLBox>\linewidth\typeout{DIPLOMATICWIDTH|#1|\the\wd\DLBox|\the\linewidth}\fi
+ \usebox{\DLBox}\strut\par}
+\begin{document}
+\thispagestyle{empty}
+\begin{center}\Large AL-BATTĀNĪ\par\vspace{4mm}\LARGE OPUS ASTRONOMICUM\par
+\vspace{5mm}\large Caroli Alphonsi Nallino glossarium (pars II)\par\vspace{8mm}
+\Large S09 --- editio diplomatica in progressu\par\vspace{4mm}\large Paginae impressae 319--319\end{center}
+\vspace{12mm}\noindent Singulae lineae paginarum impressarum singulis lineis huius editionis respondent, cum
+divisionibus vocabulorum, signis et generibus litterarum (rectis, inclinatis, distantibus). Textus ex imaginibus
+paginarum transcriptus est; litterae Graecae et Arabicae, numeri et signa in imaginibus amplificatis lecta sunt.
+Haec transcriptio a nullo homine recognita est.\par
+\DSource{0768}{319}
+\par\noindent\rule{\linewidth}{1.2pt}\par\nointerlineskip\vspace{1pt}\noindent\rule{\linewidth}{.4pt}\par
+\par\vspace{48.05mm}
+\DLine{AB01-PDF0768-body-L001}{}{\CenterLine{\fontsize{24}{28}\selectfont GLOSSARIUM}}
+\par\vspace{6.5mm}
+\par\noindent\makebox[\linewidth][c]{\rule[.5ex]{22.47mm}{.4pt}}\par
+\par\vspace{24.57mm}
+\hypertarget{AB01-PDF0768-P01}{}
+\DLine{AB01-PDF0768-body-L002}{}{\Indent De Albatenii sermone brevissime t. I, p. \textsc{xlv} egi; pauca notanda supersunt. Generis \textit{femi-}}
+\DLine{AB01-PDF0768-body-L003}{}{\textit{nini} sunt (praeter \ArabicRun{يد ، عين ، رجْل} in catalogo fixarum plus semel occurrentia, et \ArabicRun{اصبع} ac \ArabicRun{قوس}):}
+\par\vspace{3.79mm}
+\DLine{AB01-PDF0768-body-L004}{}{\mbox{}\rlap{\hspace*{11.61mm}\smash{\llap{\ArabicRun{أُذْن}}}}\rlap{\hspace*{15.38mm}\smash{\rlap{{\arabicfont ٢٥٦}, {\arabicfont ٢٧١} bis.}}}\rlap{\hspace*{86.75mm}\smash{\llap{\ArabicRun{فخذ}}}}\rlap{\hspace*{90.52mm}\smash{\rlap{{\arabicfont ٢٤٥}, {\arabicfont ٢٤٨} ter, {\arabicfont ٢٥٠}, {\arabicfont ٢٦٢}, {\arabicfont ٢٧٠}, {\arabicfont ٢٧٢} ter, {\arabicfont ٢٧٣}.}}}}
+\DLine{AB01-PDF0768-body-L005}{5}{\mbox{}\rlap{\hspace*{11.61mm}\smash{\llap{\ArabicRun{أرنب}}}}\rlap{\hspace*{15.38mm}\smash{\rlap{{\arabicfont ٢٦٩} pluries.}}}\rlap{\hspace*{86.75mm}\smash{\llap{\ArabicRun{قدم}}}}\rlap{\hspace*{90.52mm}\smash{\rlap{{\arabicfont ٢٥٠}, {\arabicfont ٢٥٩} bis, {\arabicfont ٢٧٢}.}}}}
+\DLine{AB01-PDF0768-body-L006}{}{\mbox{}\rlap{\hspace*{11.61mm}\smash{\llap{\ArabicRun{دراع}}}}\rlap{\hspace*{15.38mm}\smash{\rlap{{\arabicfont ٢٤٨} bis, {\arabicfont ٢٧٢}.}}}\rlap{\hspace*{86.75mm}\smash{\llap{\ArabicRun{كتف}}}}\rlap{\hspace*{90.52mm}\smash{\rlap{{\arabicfont ٢٤٧}, {\arabicfont ٢٤٨}, {\arabicfont ٢٥٠}, {\arabicfont ٢٥١} ter, {\arabicfont ٢٥٢}, {\arabicfont ٢٥٣}, {\arabicfont ٢٦٣} bis,}}}}
+\DLine{AB01-PDF0768-body-L007}{}{\mbox{}\rlap{\hspace*{11.61mm}\smash{\llap{\ArabicRun{ساق}}}}\rlap{\hspace*{15.38mm}\smash{\rlap{{\arabicfont ٢٥١}, {\arabicfont ٢٦٢}, {\arabicfont ٢٦٣} bis, {\arabicfont ٢٦٤}.}}}\rlap{\hspace*{93.87mm}\smash{\rlap{{\arabicfont ٢٦٧} ter, {\arabicfont ٢٧١} bis.}}}}
+\par\vspace{1.18mm}
+\DLine{AB01-PDF0768-body-L008}{}{\textit{Masculini} generis vero:}
+\par\vspace{1.36mm}
+\DLine{AB01-PDF0768-body-L009}{}{\mbox{}\rlap{\hspace*{11.61mm}\smash{\llap{\ArabicRun{جناح}}}}\rlap{\hspace*{15.38mm}\smash{\rlap{{\arabicfont ٢٤٩} ter, {\arabicfont ٢٥٩} bis, {\arabicfont ٢٧١} bis.}}}\rlap{\hspace*{86.75mm}\smash{\llap{\ArabicRun{قرن}}}}\rlap{\hspace*{90.52mm}\smash{\rlap{{\arabicfont ٢٥٦} quinquies (fem. {\arabicfont ٢٦٢}).}}}}
+\DLine{AB01-PDF0768-body-L010}{10}{\mbox{}\rlap{\hspace*{11.61mm}\smash{\llap{\ArabicRun{ساعد}}}}\rlap{\hspace*{15.38mm}\smash{\rlap{{\arabicfont ٢٤٧}, {\arabicfont ٢٤٨}, {\arabicfont ٢٧٢}.}}}\rlap{\hspace*{86.75mm}\smash{\llap{\ArabicRun{مرفق}}}}\rlap{\hspace*{90.52mm}\smash{\rlap{{\arabicfont ٢٤٧}, {\arabicfont ٢٤٨}, {\arabicfont ٢٦٧}.}}}}
+\par\vspace{0.72mm}
+\DLine{AB01-PDF0768-body-L011}{}{\mbox{}\rlap{\hspace*{11.61mm}\smash{\llap{\ArabicRun{ضِلْع}}}}\rlap{\hspace*{15.38mm}\smash{\rlap{{\arabicfont ٢٥٣} ter, {\arabicfont ٢٥٩}.}}}\rlap{\hspace*{86.75mm}\smash{\llap{\ArabicRun{منكب}}}}\rlap{\hspace*{90.52mm}\smash{\rlap{{\arabicfont ٢٥٣}.}}}}
+\par\vspace{0.75mm}
+\DLine{AB01-PDF0768-body-L012}{}{\mbox{}\rlap{\hspace*{11.61mm}\smash{\llap{\ArabicRun{عرقوب}}}}\rlap{\hspace*{15.38mm}\smash{\rlap{{\arabicfont ٢٥٠} paen., {\arabicfont ٢٥١} bis, {\arabicfont ٢٥٤} bis, {\arabicfont ٢٧٢}.}}}}
+\par\vspace{1.58mm}
+\hypertarget{AB01-PDF0768-P02}{}
+\DLine{AB01-PDF0768-body-L013}{}{\Indent Collectivum \ArabicRun{دَرَجٌ} (e quo n. un. \ArabicRun{دَرَجَةٌ} fit) ab al-Battānī reliquisque astronomis semper tam-}
+\DLine{AB01-PDF0768-body-L014}{}{quam fem. sing. construitur; cfr. \Name{Nöldeke}, \textit{Zur Grammatik des klassischen Arabisch},}
+\DLine{AB01-PDF0768-body-L015}{15}{Wien 1896, p. 84.}
+\hypertarget{AB01-PDF0768-P03}{}
+\DLine{AB01-PDF0768-body-L016}{}{\Indent Nominativum dualis in \ArabicRun{يْن}, pluralis in \ArabicRun{ين} exire semper in numeralibus, non raro in sub-}
+\DLine{AB01-PDF0768-body-L017}{}{stantivis et adiectivis, in cod. Escurialensi, monui t. I, p. \textsc{lxi}; quod cum potius amanuensi quam}
+\DLine{AB01-PDF0768-body-L018}{}{auctori tribuendum esset, in textu edendo emendavi (1). Sed nominativus \ArabicRun{سطري العدد} etc. persaepe}
+\DLine{AB01-PDF0768-body-L019}{}{et constanter in tabulis occurrens, procul dubio ita ab Albatenio ipso scriptus est; nam idem}
+\DLine{AB01-PDF0768-body-L020}{20}{usus apud ceteros astronomos et mathematicos viget. — Concordantiam numeralium cum ge-}
+\DLine{AB01-PDF0768-body-L021}{}{nere substantivorum mendosam, quae saepe in codice reperitur, nolui servare, cum vix ab}
+\DLine{AB01-PDF0768-body-L022}{}{Albatenio proveniat. — De \ArabicRun{اوّلة} v. Glossarium s. v. — Memoratu dignae fractiones sexagesimae}
+\DLine{AB01-PDF0768-body-L023}{}{inferiorum ordinum, p. {\arabicfont ١٠} in tabella contentae, ac potissimum \ArabicRun{عواشرين} « sexagesimae ordinis}
+\DLine{AB01-PDF0768-body-L024}{}{« vicesimi ».}
+\par\vspace{6pt}\hrule height.25pt\vspace{5pt}
+\noindent\begin{minipage}[t]{.48\textwidth}\vspace{0pt}\fontsize{9}{11.5}\selectfont\setlength{\GutterOffset}{0pt}\setlength{\FullSourceWidth}{\linewidth}
+\hypertarget{AB01-PDF0768-N01}{}
+\DLine{AB01-PDF0768-notes_left-L001}{}{\Indent (1) Cfr. de hac re A. \Name{Müller}, \textit{Ueber Text und}}
+\DLine{AB01-PDF0768-notes_left-L002}{}{\textit{Sprachgebrauch von Ibn Abī Uṣeibi‘a’s Gesch. der}}
+\end{minipage}
+\hfill\vrule width.3pt\hfill\begin{minipage}[t]{.48\textwidth}\vspace{0pt}\fontsize{9}{11.5}\selectfont\setlength{\GutterOffset}{0pt}\setlength{\FullSourceWidth}{\linewidth}
+\DLine{AB01-PDF0768-notes_right-L001}{}{\textit{Aerzte} (Sitzungsber. d. k. bayer. Akad. d. WW., phi-}
+\DLine{AB01-PDF0768-notes_right-L002}{}{losoph.-philol. Cl., 1884), p. 914–15.}
+\end{minipage}
+\end{document}

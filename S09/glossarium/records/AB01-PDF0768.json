@@ -1,0 +1,260 @@
+{
+ "anchor": "AB01-PDF0768",
+ "master_pdf_page": 768,
+ "printed_page": 319,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "observations": [
+  "body L3: the Arabic words are set as one phrase read from the right, with Arabic commas: «يد ، عين ، رجْل».",
+  "body L4: the t of the first «ter» is printed broken, like l; a speck is printed after the second «ter,»; not transcribed.",
+  "body L6: «دراع» is printed so, without the dot of dhāl (for «ذراع»).",
+  "body L11: the t of «ter» is printed broken, like l.",
+  "body L18: a speck is printed above the final dāl of «العدد»; not transcribed."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0768-body-L001",
+     "source_line_no": 1,
+     "tex": "\\CenterLine{\\fontsize{24}{28}\\selectfont GLOSSARIUM}",
+     "transcription": "GLOSSARIUM",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0768-body-L002",
+     "source_line_no": 2,
+     "tex": "\\Indent De Albatenii sermone brevissime t. I, p. \\textsc{xlv} egi; pauca notanda supersunt. Generis \\textit{femi-}",
+     "transcription": "De Albatenii sermone brevissime t. I, p. {sc:xlv} egi; pauca notanda supersunt. Generis *femi-*",
+     "semantic_anchor": "AB01-PDF0768-P01",
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0768-body-L003",
+     "source_line_no": 3,
+     "tex": "\\textit{nini} sunt (praeter \\ArabicRun{يد ، عين ، رجْل} in catalogo fixarum plus semel occurrentia, et \\ArabicRun{اصبع} ac \\ArabicRun{قوس}):",
+     "transcription": "*nini* sunt (praeter {ar:يد ، عين ، رجْل} in catalogo fixarum plus semel occurrentia, et {ar:اصبع} ac {ar:قوس}):",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0768-body-L004",
+     "source_line_no": 4,
+     "tex": "\\mbox{}\\rlap{\\hspace*{11.61mm}\\smash{\\llap{\\ArabicRun{أُذْن}}}}\\rlap{\\hspace*{15.38mm}\\smash{\\rlap{{\\arabicfont ٢٥٦}, {\\arabicfont ٢٧١} bis.}}}\\rlap{\\hspace*{86.75mm}\\smash{\\llap{\\ArabicRun{فخذ}}}}\\rlap{\\hspace*{90.52mm}\\smash{\\rlap{{\\arabicfont ٢٤٥}, {\\arabicfont ٢٤٨} ter, {\\arabicfont ٢٥٠}, {\\arabicfont ٢٦٢}, {\\arabicfont ٢٧٠}, {\\arabicfont ٢٧٢} ter, {\\arabicfont ٢٧٣}.}}}",
+     "transcription": "{ar:أُذْن} ٢٥٦, ٢٧١ bis. {ar:فخذ} ٢٤٥, ٢٤٨ ter, ٢٥٠, ٢٦٢, ٢٧٠, ٢٧٢ ter, ٢٧٣.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0768-body-L005",
+     "source_line_no": 5,
+     "tex": "\\mbox{}\\rlap{\\hspace*{11.61mm}\\smash{\\llap{\\ArabicRun{أرنب}}}}\\rlap{\\hspace*{15.38mm}\\smash{\\rlap{{\\arabicfont ٢٦٩} pluries.}}}\\rlap{\\hspace*{86.75mm}\\smash{\\llap{\\ArabicRun{قدم}}}}\\rlap{\\hspace*{90.52mm}\\smash{\\rlap{{\\arabicfont ٢٥٠}, {\\arabicfont ٢٥٩} bis, {\\arabicfont ٢٧٢}.}}}",
+     "transcription": "{ar:أرنب} ٢٦٩ pluries. {ar:قدم} ٢٥٠, ٢٥٩ bis, ٢٧٢.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0768-body-L006",
+     "source_line_no": 6,
+     "tex": "\\mbox{}\\rlap{\\hspace*{11.61mm}\\smash{\\llap{\\ArabicRun{دراع}}}}\\rlap{\\hspace*{15.38mm}\\smash{\\rlap{{\\arabicfont ٢٤٨} bis, {\\arabicfont ٢٧٢}.}}}\\rlap{\\hspace*{86.75mm}\\smash{\\llap{\\ArabicRun{كتف}}}}\\rlap{\\hspace*{90.52mm}\\smash{\\rlap{{\\arabicfont ٢٤٧}, {\\arabicfont ٢٤٨}, {\\arabicfont ٢٥٠}, {\\arabicfont ٢٥١} ter, {\\arabicfont ٢٥٢}, {\\arabicfont ٢٥٣}, {\\arabicfont ٢٦٣} bis,}}}",
+     "transcription": "{ar:دراع} ٢٤٨ bis, ٢٧٢. {ar:كتف} ٢٤٧, ٢٤٨, ٢٥٠, ٢٥١ ter, ٢٥٢, ٢٥٣, ٢٦٣ bis,",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0768-body-L007",
+     "source_line_no": 7,
+     "tex": "\\mbox{}\\rlap{\\hspace*{11.61mm}\\smash{\\llap{\\ArabicRun{ساق}}}}\\rlap{\\hspace*{15.38mm}\\smash{\\rlap{{\\arabicfont ٢٥١}, {\\arabicfont ٢٦٢}, {\\arabicfont ٢٦٣} bis, {\\arabicfont ٢٦٤}.}}}\\rlap{\\hspace*{93.87mm}\\smash{\\rlap{{\\arabicfont ٢٦٧} ter, {\\arabicfont ٢٧١} bis.}}}",
+     "transcription": "{ar:ساق} ٢٥١, ٢٦٢, ٢٦٣ bis, ٢٦٤. ٢٦٧ ter, ٢٧١ bis.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0768-body-L008",
+     "source_line_no": 8,
+     "tex": "\\textit{Masculini} generis vero:",
+     "transcription": "*Masculini* generis vero:",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0768-body-L009",
+     "source_line_no": 9,
+     "tex": "\\mbox{}\\rlap{\\hspace*{11.61mm}\\smash{\\llap{\\ArabicRun{جناح}}}}\\rlap{\\hspace*{15.38mm}\\smash{\\rlap{{\\arabicfont ٢٤٩} ter, {\\arabicfont ٢٥٩} bis, {\\arabicfont ٢٧١} bis.}}}\\rlap{\\hspace*{86.75mm}\\smash{\\llap{\\ArabicRun{قرن}}}}\\rlap{\\hspace*{90.52mm}\\smash{\\rlap{{\\arabicfont ٢٥٦} quinquies (fem. {\\arabicfont ٢٦٢}).}}}",
+     "transcription": "{ar:جناح} ٢٤٩ ter, ٢٥٩ bis, ٢٧١ bis. {ar:قرن} ٢٥٦ quinquies (fem. ٢٦٢).",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0768-body-L010",
+     "source_line_no": 10,
+     "tex": "\\mbox{}\\rlap{\\hspace*{11.61mm}\\smash{\\llap{\\ArabicRun{ساعد}}}}\\rlap{\\hspace*{15.38mm}\\smash{\\rlap{{\\arabicfont ٢٤٧}, {\\arabicfont ٢٤٨}, {\\arabicfont ٢٧٢}.}}}\\rlap{\\hspace*{86.75mm}\\smash{\\llap{\\ArabicRun{مرفق}}}}\\rlap{\\hspace*{90.52mm}\\smash{\\rlap{{\\arabicfont ٢٤٧}, {\\arabicfont ٢٤٨}, {\\arabicfont ٢٦٧}.}}}",
+     "transcription": "{ar:ساعد} ٢٤٧, ٢٤٨, ٢٧٢. {ar:مرفق} ٢٤٧, ٢٤٨, ٢٦٧.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0768-body-L011",
+     "source_line_no": 11,
+     "tex": "\\mbox{}\\rlap{\\hspace*{11.61mm}\\smash{\\llap{\\ArabicRun{ضِلْع}}}}\\rlap{\\hspace*{15.38mm}\\smash{\\rlap{{\\arabicfont ٢٥٣} ter, {\\arabicfont ٢٥٩}.}}}\\rlap{\\hspace*{86.75mm}\\smash{\\llap{\\ArabicRun{منكب}}}}\\rlap{\\hspace*{90.52mm}\\smash{\\rlap{{\\arabicfont ٢٥٣}.}}}",
+     "transcription": "{ar:ضِلْع} ٢٥٣ ter, ٢٥٩. {ar:منكب} ٢٥٣.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0768-body-L012",
+     "source_line_no": 12,
+     "tex": "\\mbox{}\\rlap{\\hspace*{11.61mm}\\smash{\\llap{\\ArabicRun{عرقوب}}}}\\rlap{\\hspace*{15.38mm}\\smash{\\rlap{{\\arabicfont ٢٥٠} paen., {\\arabicfont ٢٥١} bis, {\\arabicfont ٢٥٤} bis, {\\arabicfont ٢٧٢}.}}}",
+     "transcription": "{ar:عرقوب} ٢٥٠ paen., ٢٥١ bis, ٢٥٤ bis, ٢٧٢.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0768-body-L013",
+     "source_line_no": 13,
+     "tex": "\\Indent Collectivum \\ArabicRun{دَرَجٌ} (e quo n. un. \\ArabicRun{دَرَجَةٌ} fit) ab al-Battānī reliquisque astronomis semper tam-",
+     "transcription": "Collectivum {ar:دَرَجٌ} (e quo n. un. {ar:دَرَجَةٌ} fit) ab al-Battānī reliquisque astronomis semper tam-",
+     "semantic_anchor": "AB01-PDF0768-P02",
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0768-body-L014",
+     "source_line_no": 14,
+     "tex": "quam fem. sing. construitur; cfr. \\Name{Nöldeke}, \\textit{Zur Grammatik des klassischen Arabisch},",
+     "transcription": "quam fem. sing. construitur; cfr. {sp:Nöldeke}, *Zur Grammatik des klassischen Arabisch*,",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0768-body-L015",
+     "source_line_no": 15,
+     "tex": "Wien 1896, p. 84.",
+     "transcription": "Wien 1896, p. 84.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0768-body-L016",
+     "source_line_no": 16,
+     "tex": "\\Indent Nominativum dualis in \\ArabicRun{يْن}, pluralis in \\ArabicRun{ين} exire semper in numeralibus, non raro in sub-",
+     "transcription": "Nominativum dualis in {ar:يْن}, pluralis in {ar:ين} exire semper in numeralibus, non raro in sub-",
+     "semantic_anchor": "AB01-PDF0768-P03",
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0768-body-L017",
+     "source_line_no": 17,
+     "tex": "stantivis et adiectivis, in cod. Escurialensi, monui t. I, p. \\textsc{lxi}; quod cum potius amanuensi quam",
+     "transcription": "stantivis et adiectivis, in cod. Escurialensi, monui t. I, p. {sc:lxi}; quod cum potius amanuensi quam",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0768-body-L018",
+     "source_line_no": 18,
+     "tex": "auctori tribuendum esset, in textu edendo emendavi (1). Sed nominativus \\ArabicRun{سطري العدد} etc. persaepe",
+     "transcription": "auctori tribuendum esset, in textu edendo emendavi (1). Sed nominativus {ar:سطري العدد} etc. persaepe",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0768-body-L019",
+     "source_line_no": 19,
+     "tex": "et constanter in tabulis occurrens, procul dubio ita ab Albatenio ipso scriptus est; nam idem",
+     "transcription": "et constanter in tabulis occurrens, procul dubio ita ab Albatenio ipso scriptus est; nam idem",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0768-body-L020",
+     "source_line_no": 20,
+     "tex": "usus apud ceteros astronomos et mathematicos viget. — Concordantiam numeralium cum ge-",
+     "transcription": "usus apud ceteros astronomos et mathematicos viget. — Concordantiam numeralium cum ge-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0768-body-L021",
+     "source_line_no": 21,
+     "tex": "nere substantivorum mendosam, quae saepe in codice reperitur, nolui servare, cum vix ab",
+     "transcription": "nere substantivorum mendosam, quae saepe in codice reperitur, nolui servare, cum vix ab",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0768-body-L022",
+     "source_line_no": 22,
+     "tex": "Albatenio proveniat. — De \\ArabicRun{اوّلة} v. Glossarium s. v. — Memoratu dignae fractiones sexagesimae",
+     "transcription": "Albatenio proveniat. — De {ar:اوّلة} v. Glossarium s. v. — Memoratu dignae fractiones sexagesimae",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0768-body-L023",
+     "source_line_no": 23,
+     "tex": "inferiorum ordinum, p. {\\arabicfont ١٠} in tabella contentae, ac potissimum \\ArabicRun{عواشرين} « sexagesimae ordinis",
+     "transcription": "inferiorum ordinum, p. ١٠ in tabella contentae, ac potissimum {ar:عواشرين} « sexagesimae ordinis",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0768-body-L024",
+     "source_line_no": 24,
+     "tex": "« vicesimi ».",
+     "transcription": "« vicesimi ».",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    }
+   ]
+  },
+  {
+   "role": "notes_left",
+   "lines": [
+    {
+     "id": "AB01-PDF0768-notes_left-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (1) Cfr. de hac re A. \\Name{Müller}, \\textit{Ueber Text und}",
+     "transcription": "(1) Cfr. de hac re A. {sp:Müller}, *Ueber Text und*",
+     "semantic_anchor": "AB01-PDF0768-N01",
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0768-notes_left-L002",
+     "source_line_no": null,
+     "tex": "\\textit{Sprachgebrauch von Ibn Abī Uṣeibi‘a’s Gesch. der}",
+     "transcription": "*Sprachgebrauch von Ibn Abī Uṣeibi‘a’s Gesch. der*",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  },
+  {
+   "role": "notes_right",
+   "lines": [
+    {
+     "id": "AB01-PDF0768-notes_right-L001",
+     "source_line_no": null,
+     "tex": "\\textit{Aerzte} (Sitzungsber. d. k. bayer. Akad. d. WW., phi-",
+     "transcription": "*Aerzte* (Sitzungsber. d. k. bayer. Akad. d. WW., phi-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0768-notes_right-L002",
+     "source_line_no": null,
+     "tex": "losoph.-philol. Cl., 1884), p. 914–15.",
+     "transcription": "losoph.-philol. Cl., 1884), p. 914–15.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  }
+ ]
+}
