@@ -1,0 +1,46 @@
+@page 691 242
+% the displayed formulas begin where they begin on the print (mm from the left edge of the text, 114.5 pt; inside the
+% figure block, from the left edge of the lines beside the figure, 294.6 pt)
+sed EH = distantia geocentrica centri epicycli, antea reperta,
+@at 48.6:$Ht=\dfrac{TH\times\sin HTt}{R}=\dfrac{r\cos\psi}{R}$\,,
+@at 0:ergo | 27.7:$ET=\sqrt{\left(\text{dist.\ centri epicycli}+\dfrac{r\cos\psi}{R}\right)^2+\left(\dfrac{r\sin\psi}{R}\right)^2}$\,.
+@at 0:Demum | 30.7:sin aequat. anomaliae $=\dfrac{r\sin\psi}{\text{distantia geocentrica planetae}}$\,.
+^ Haec *aequatio anomaliae* (ἀνωμαλίας προσϑαφαίρεσις) est differentia inter verum locum
+centri epicycli et verum locum planetae in ecliptica, seu est arcus eclipticae contentus linea
+@wrap 0.322 AB01-PDF0691-F01
+veri loci centri epicycli et linea veri loci planetae. —
+Tangentibus adhibitis, formula fit:
+@at 6.2:tang aequat. anomaliae $=$ tang $XEY=R\,\dfrac{Tt}{Et}$
+@at 5.7:$Et=EH+Ht=$ dist. centri epicycli $+\,\dfrac{r\cos\psi}{R}$
+@at 0:tang aequat. anomaliae $=\dfrac{r\sin\psi}{\text{dist.\ centri epic.}+\dfrac{r\cos\psi}{R}}$\,,
+vel, R = 1 facto ut etiam radio deferentis, et *r* in par-
+tibus decimalibus radii deferentis sumpto:
+@at 0:tang aequat. anomaliae $=\dfrac{r_1\sin\psi}{\text{dist.\ centri epic.}+r_1\cos\psi}$\,.
+^ E constructionibus factis colligitur:
+@endwrap
+^ 1.° Aequationem centri nullam fieri, centro epicycli apogeum aut perigeum excentrici
+(deferentis) occupante; maximam in binis punctis mediis. Locis deferentis diametraliter oppositis
+aequalem esse, sicut et locis utrimque ab apogeo aut a perigeo deferentis aeque distantibus.
+^ 2.° Aequationem centri esse centro medio subducendam in priore semicirculo AYB
+(in quo longitudo X veri centri praecedit longitudinem Z centri medii), addendam in posteriore. —
+Contrario modo eandem aequationem centri esse anomaliae mediae addendam et subducendam.
+^ 3.° Aequationem anomaliae nullam esse cum, centro epicycli apogeum aut perigeum
+excentrici (deferentis) obtinente, planeta apogeum aut perigeum epicycli occupet; tunc enim
+epicycli apogeum et perigeum vera cum mediis coincidunt. Maximam quando centrum epicycli
+in perigeo excentrici sit, planeta autem in eo epicycli puncto quod designatur linea tangente
+ex centro mundi ad circumferentiam epicycli ducta.
+^ 4.° Aequationem anomaliae in priore semicirculo epicycli addendam esse longitudini veri
+centri, in posteriore demendam.
+^ Una columna sufficeret ad aequationem anomaliae exhibendam si centrum epicycli eandem
+semper distantiam a centro Terrae servaret. Quod cum non fiat, ad aequandos motus absque
+nimio tabularum numero oportebit variationes aequationibus contingentibus ob diversas distantias
+indicare per minuta proportionalia. Quoniam variatio a perigeo ad apogeum in his quinque
+planetis adeo est magna, ut minuta proportionalia, si simpliciter constituantur sicut in Luna
+factum est, errores sensibiles gignant, {sp:Ptolemaeus}, quem {sp:al-Battānī} sequitur, in VI co-
+lumna aequationem anomaliae pro media distantia centri epicycli a Terra posuit; in V quan-
+titatem a sexta demendam ut aequatio pro maxima epicycli distantia exeat; in VII excessum
+aequationis pro minima distantia super aequationem pro media; in VIII demum minuta pro-
+@obs body: the ordinals «1.°» to «4.°» are printed with a small raised o after the period.
+@obs body L5: the theta of the Greek is printed in the open form ϑ; transcribed ϑ.
+@obs body L16: the m of «perigeum» is printed broken.
+@obs body L30: a short stroke like a grave accent is printed above the v of «servaret»; not transcribed.

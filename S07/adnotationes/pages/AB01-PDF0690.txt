@@ -1,0 +1,49 @@
+@page 690 241
+% the displayed formulas begin where they begin on the print (mm from the left edge of the text, 62.0 pt)
+^ Hac aequatione tam discrepantia cognoscitur ex inaequali centri epicycli motu exoriens,
+quam differentia inter *anomaliam mediam* (seu arcum epicycli ab apogeo epicycli medio
+computatum) et *veram* ψ (arcum epicycli ab apogeo vero epicycli numeratum). — Talis aequatio
+in III columna {sp:Albatenii} exhibetur. — {sp:Ptolemaeus} vero hanc inaequalitatem in ecliptica
+exorientem ex centri epicycli motu in deferente (quam « *zodiacalem inaequalitatem* », ἡ ζω-
+διακὴ ἀνωμαλία, vocat) non solum in constructionibus geometricis, sed etiam in tabulis semper
+in duas partes distinguit; quarum altera (προσϑαφαίρεσις μήκους « prosthaphaeresis longitudinis »)
+est aequatio ita simpliciter (κατὰ τὸ ἁπλοῦν) supputata ac si centrum epicycli circumferentiam
+aequantis perambularet, non deferentis; qua re, $2e_1$ vocata excentricitate aequantis in par-
+tibus decimalibus radii aequantis, radioque ipso aequantis unius partis sumpto, III columnam
+{sp:Ptolemaei} nos supputare possumus formula
+@at 34.1:tang prosthaphaeresis longitudinis $=\dfrac{2e_1\sin m}{1+2e_1\cos m}$\,,
+sicut in hypothesi excentrici Lunae operandum diximus. Sed quoniam centrum epicycli in cir-
+cumferentia deferentis, non aequantis, veraciter movetur, distantia centri epicycli a centro ae-
+quantis bis tantum in tota circumferentia deferentis erit 1 (aut 60{sup:*p*} iuxta veterum usum);
+pro reliquis omnibus locis igitur prosthaphaeresis longitudinis corrigi debebit. Quaerit ergo {sp:Pto-}
+{sp:lemaeus} quanto crescat in perigeo, quanto decrescat in apogeo; has correctiones prostha-
+phaeresibus longitudinis afferendas in IV columna suarum tabularum (διάφορα προσϑέσεως aut
+διάφορα ἀφαιρέσεως) constituit. Res e sequenti diagrammate clarior apparebit. Prosthaphaeresim
+longitudinis, seu III columnam, {sp:Ptolemaeus} supputat ac si centrum epicycli in puncto *h*
+% the figure stands on the right of the next nine lines (on the print from 389.6 pt, 115.6 mm; here from 121.5 mm)
+@wrapr 121.5 AB01-PDF0690-F01
+aequantis esset, non in puncto H deferentis; loco igitur verae anomaliae
+zodiacalis (seu aequationis centri) EHE′ considerat angulum EhE′ (pro-
+sthaphaeresim longitudinis). Error inde proveniens est angulus hEH, modo
+prosthaphaeresi addendus, modo demendus; in IV columna {sp:Ptolemaei}
+exhibetur. — Summa algebrica columnarum III et IV aequationem centri
+conficit. Sed {sp:Ptolemaeus} ipse XI, 10 (ed. Halma t. II, p. 295) haec
+monet: « Hic vero, utpote in Syntaxi, oportebat talem distinctionem
+« inaequalitatis zodiacalis ante oculos facere, ideoque in duabus co-
+« lumnis collocare; sed in eius usu etiam una columna, ex summa al-
+@endwrap
+« gebrica illarum duarum collecta, sufficiet » (ἐνϑάδε μὲν οὖν, ὡς ἐν συντάξει, προσῆκον ἦν τὴν
+τοιαύτην διάκρισιν τῆς ζωδιακῆς ἀνωμαλίας ὑπ’ ὄψιν ποιήσασϑαι, καὶ διὰ τοῦτο ἐν δυσὶ σελιδίοις ἐκϑέσϑαι,
+ἐπὶ μέντοι τῆς χρείας αὐτῆς ἀπαρκέσει καὶ ἓν σελίδιον ἐκ τῆς ἀμφοτέρων τούτων προσϑαφαιρέσεως
+ἐπισυνηγμένον).
+^ Alteram correctionem nunc longitudini inferre oportet ob varium planetae situm in cir-
+cumferentia *epicycli.*
+^ Sit planeta in T; quaeritur arcus XY seu angulus XEY. Perpendiculari Tt ducta:
+@at 37.2:sin $XEY=R\,\dfrac{Tt}{ET}=R\,\dfrac{Tt}{\text{dist.\ geocentr.\ planetae}}$
+@at 48.4:$Tt=\dfrac{TH\times\sin XHT}{R}=\dfrac{r\sin\psi}{R}$\,,
+ubi *r* est radius epicycli notus, in partibus qualium 60 radium deferentis et aequantis conficiunt.
+^ Distantia autem planetae a centro Terrae est
+@at 51.4:$ET=\sqrt{(EH+Ht)^2+Tt^2}$\,;
+@obs body: the theta of the Greek is printed in the open form ϑ, kappa in the curly form; transcribed ϑ and κ.
+@obs body L41: the radical is printed with a broken vinculum over the whole expression.
+@sig 31
