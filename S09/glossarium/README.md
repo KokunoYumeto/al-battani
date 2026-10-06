@@ -2,7 +2,7 @@
 
 Nallino's *Glossarium* of al-Battānī's technical vocabulary: Arabic headwords, often vowelled, with their Latin, Greek and Arabic explanations and with references to the pages and lines of the Arabic text (Part III), printed in Arabic-Indic numerals. The edition is diplomatic and line-anchored, in the format of the S07 edition of the notes on the tables: every printed line is one line of the edition, with its hyphenation, its punctuation, its letter-spaced names and its italics, and every line has a stable anchor.
 
-The transcription is in progress. It begins at the title page of the glossary (p. 319) and runs page by page; pp. 319–323 are done (the introduction, pp. 319–321, and the entries from ابد to بسط).
+The transcription is in progress. It begins at the title page of the glossary (p. 319) and runs page by page; pp. 319–324 are done (the introduction, pp. 319–321, and the entries from ابد to بيت).
 
 ## Read
 
