@@ -1,0 +1,30 @@
+{
+ "anchor": "AB01-PDF0746",
+ "master_pdf_page": 746,
+ "printed_page": 297,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": "38",
+ "observations": [
+  "body: the short rule under the title is printed faint and broken."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0746-body-L001",
+     "source_line_no": 1,
+     "tex": "\\CenterLine{\\fontsize{24}{28}\\selectfont TABULAE SPURIAE}",
+     "transcription": "TABULAE SPURIAE",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    }
+   ]
+  }
+ ]
+}

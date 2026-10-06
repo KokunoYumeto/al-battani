@@ -626,7 +626,16 @@ def section(items, prefix, role, numbered):
     wrapr = None  # the figure of an open @wrapr block, set after its lines
     mc = None  # the column widths of an open @mcols block, and the column being set
     rowsep = "0"
+    top = role == "body"  # nothing set yet at the head of the page: a @vspace here must not be discarded by TeX
     for kind, text in items:
+        if kind == "vspace" and top:  # the first line of the page stands MM lower than the first line of a full page
+            # (\vspace* keeps the space at the head of the page; with \prevdepth 0 the next line is set a full
+            # \baselineskip below, which the space gives back)
+            out.append(r"\par\vspace*{\dimexpr " + text + r"mm-\baselineskip\relax}\prevdepth=0pt")
+            top = False
+            continue
+        if kind not in ("cols", "colpad", "calcset", "rowsep", "small", "normal", "fontsize"):
+            top = False
         if kind == "cols":
             set_cols(text)
             continue
