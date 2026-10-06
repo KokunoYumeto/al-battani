@@ -1,0 +1,67 @@
+@page 711 262
+« titates apparitionis.... », ut t. I. p. 118, l. 14 sqq.; usus promiscuus primae personae singularis
+et primae pluralis in verbo apud al-Battānī et Arabes res est haud rara. {sp:Plato} ita locum
+transtulit: « Quantitatem vero visus per gradus signorum omnibus planetis in unoquoque cli-
+« mate fore scriptam secundum eorum apparitionis in unoquoque climate considerationem ad-
+« discas, quod licet prorsus veritati non concordat, eo quod latitudinum diversitas ibi contigit,
+« in signorum tamen initiis scripsimus. Ideoque huius quantitates uni soli climati commen-
+« davimus ». — Priorem interpretationem (*constitutae sunt*) videbimus p. 266 veram esse,
+quia al-Battānī tabulam suam iam ab aliis supputatam acceperit.
+^ Certum est {sp:Albatenii} numeros, amanuensium mendis exceptis, ad amussim tabulae
+{sp:Ḥabash} pro IV climate seu φ = 36° institutae concordare; qui Ḥabash, f. 73,r.—76,v.,
+apparitiones et occultationes primo pro urbe Baghdād « usque ad latitudinem 34° 0′ » exhibet,
+postea pro singulis septem climatibus (1). — Auctores *Tabularum Alphonsinarum* eandem
+quam Albatenii tabulam receperunt, nec fontem memorantes, nec eam tantum ad datum clima
+datumque tempus inservire monentes. — Sequenti igitur conspectu exhibebo pro quantitatibus
+proxime a {sp:Schiaparelli} restitutis et p. 142–43 huius tomi impressis, varias lectiones co-
+dicis Escurialensis, versionis Hispanicae (f. 83,v.), operis Ḥabash, Tabularum Alphonsinarum (2).
+— {sp:Theone} postea et *Almagesto* Latino (ex Arabico) collatis, poterimus genuinas quantitates
+depromere.
+@vspace 2.5
+@center **{sp:Saturnus.}**
+@vspace 2
+% the table of the variant readings: rules measured on the print (table from 110.3 pt, the text edge); each source
+% has a column for the degrees and a wider one for the minutes, the number with its abjad numeral (set close to it)
+% centred in it, as on the print; — means agreement with the restored number
+@colpad 1.5 1.5
+@cols 0 <|| 17.6l | 5.59c 7.11c | 5.54c 7.04c | 5.59c 7.11c | 5.56c 7.07c ! 5.63c 7.16c | 5.59c 7.11c | 5.66c 7.2c | 5.67c 7.22c ||>
+@rule2 cols join
+@hrow 10.6 | ~\\ **{sc:Signa}** | **{sm:{spsc:Apparitiones}}**:8 | **{sm:{spsc:Occultationes}}**:8
+@spanbrace 0.1 | | hr:8 | hr:8
+@hrow 11.6 | **{spsc:zodiaci}**\\~ | **{xs:Codex\\Escurialensis}**:2 | **{xs:Versio\\Hispanica}**:2 | **{xs:Ḥabash}**:2 | **{xs:Tabulae\\Alphonsinae}**:2 | **{xs:Codex\\Escurialensis}**:2 | **{xs:Versio\\Hispanica}**:2 | **{xs:Ḥabash}**:2 | **{xs:Tabulae\\Alphonsinae}**:2
+@hrule cols 1.2
+@rowgap 2.4
+@fontsize 11.1 17.2
+@row Aries | — | — | — | — | — | — | — | — | — | — | — | — | — | 47′ | — | —
+@row Taurus | — | — | — | — | كد24° | — | كو26° | — | — | ل30′ | — | ز 7′ | — | ن50′ | — | ز 7′
+@row Gemini | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | —
+@row Cancer | — | لح38′ | — | — | — | — | — | — | — | — | — | — | — | — | — | —
+@row Leo | — | — | — | — | — | — | — | — | — | — | — | — | — | مج43′ | — | —
+@row Virgo | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | —
+@row Libra | — | — | يج13° | — | — | يد14′ | — | يه15′ | — | — | — | — | — | — | — | —
+@row Scorpius | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | —
+@row Sagittarius | — | — | — | — | — | يو16′ | 14° | مر47′ | — | — | — | يه15′ | — | يد14′ | — | —
+@row Capricornus | — | — | — | — | — | — | — | — | — | لو36′ | — | لو36′ | — | لر37′ | — | لو36′
+@row Aquarius | — | — | — | لو36′ | — | — | — | — | — | — | — | — | — | — | — | —
+@row Pisces | — | — | — | مر47′ | — | — | كه25° | — | — | — | — | — | — | — | — | —
+@normal
+@rowgap 1.2
+@rule2 cols
+@obs body L1: «t. I. p. 118» is printed so, with a period after I; the I is printed broken, like l.
+@obs body L2: the B of «al-Battānī» is printed broken, like R.
+@obs body L10: a stray dot is printed before «Ḥabash»; not transcribed.
+@obs body L12: a mark like an apostrophe is printed after the T of «Tabularum»; not transcribed.
+@obs body (table): the abjad numerals of 47 and 37 are printed «مر» and «لر», the zāy without its dot (the zāy of «ز 7′» has it); transcribed as printed. The numbers of the Occ. Ḥabash column for Aries («47′») and of the Tab. Alph. column for Sagittarius («14°») have no abjad numeral.
+@obs body (table): several dashes are printed broken (Cancer, Versio Hispanica; Scorpius, Versio Hispanica; Sagittarius, Ḥabash; Pisces, occult. Versio Hispanica); transcribed —.
+@obs body (table): the heads are printed in bold; the rule between the apparitions and the occultations is a heavy single rule.
+@notes
+^ (1) De ratione tabulas supputandi nihil dicit.
+^ (2) Hac editione utor: *Divi* {sp:Alphonsi} *Roma-*
+*norum et Hispaniarum Regis astronomicae tabu-*
+*lae in propriam integritatem restitutae.... Qua in*
+@col
+*re Paschasius Hamellius Mathematicus insignis*
+*idemque Regius professor, sedulam operam suam*
+*praestitit.* Parisiis 1545. — Tabulae sunt p. 86 Ve-
+neri, p. 87 Mercurio, p. 88-90 superioribus planetis.
+@obs notes_right L1: the c of «Mathematicus» is printed broken, like a colon.

@@ -32,7 +32,8 @@ Transcription format (UTF-8; one printed line per source line, as printed, with 
                          left out); @spanbrace MM | C1 | ... a strip MM high under such a row, carrying the rules at
                          the cell boundaries, with a brace under each cell written br:N; @cellrule - | | - ... a thin
                          rule under the columns marked -, in a strip that carries all the rules of the table;
-                         @hrule cols PT a rule PT thick across the table
+                         @hrule cols PT a rule PT thick across the table; in @spanbrace hr:N is a rule across
+                         the span; @hrow cells may span columns too; ! in @cols is a heavy rule
   @at X:T | X:T ...      a line whose pieces begin at X mm from the left edge and keep their height (formulas)
   @pos X:T | X>:T | ...  a line whose pieces stand at X mm from the left edge (> right-aligned, ^ centred, _ half a
                          line lower; ~ hangs a unit sign); @posrule X1 X2 [| X1 X2] rules between two lines;
@@ -55,6 +56,7 @@ Transcription format (UTF-8; one printed line per source line, as printed, with 
   % TEXT                 a comment, not printed
 Inline markup: *italic*, **bold**, {gb:...} bold grotesque (the «Pag.» heads), {sp:Name} letter-spaced,
 {spsc:...} letter-spaced small capitals, {fs:...} the small type of table heads, {sm:...} a smaller type,
+{xs:...} the smallest type (the heads of narrow columns),
 {sc:...} small capitals, {sup:...} superscript, {sub:...} subscript,
 {sfrac:a/b} a small fraction, {0} the zero sign of the tables, {ar:...} an Arabic phrase with its own brackets and
 punctuation, set as one right-to-left run, {rtl:...} a phrase of Arabic numerals and Latin words that the print sets
@@ -178,6 +180,7 @@ def markup(s):
     s = re.sub(r"\{spsc:([^}]*)\}", r"\\Name{\\textsc{\1}}", s)
     s = re.sub(r"\{fs:([^}]*)\}", r"{\\fontsize{7.5}{9}\\selectfont \1}", s)
     s = re.sub(r"\{sm:([^}]*)\}", r"{\\fontsize{9.5}{11}\\selectfont \1}", s)
+    s = re.sub(r"\{xs:([^}]*)\}", r"{\\fontsize{6.6}{8}\\selectfont \1}", s)
     s = re.sub(r"\{gb:([^}]*)\}", r"\\textbf{\\textsf{\1}}", s)
     s = re.sub(r"\{sup:([^}]*)\}", r"\\textsuperscript{\1}", s)
     s = re.sub(r"\{sub:([^}]*)\}", r"\\textsubscript{\1}", s)
@@ -333,20 +336,14 @@ def hrow_tex(src):
     cell is centred in its column, horizontally and vertically, and the rules run through the whole height"""
     h, _, rest = src.partition("|")
     H = float(h)
-    cells = [c.strip() for c in rest.split("|")]
-    widths = [c for c in COLS["cols"] if c not in SEPS]
-    if len(cells) != len(widths):
-        raise SystemExit(f"@hrow has {len(cells)} cells for {len(widths)} columns: {src}")
-    out, k = [r"\hspace*{" + str(COLS["indent"]) + "mm}"], 0
+    out = [r"\hspace*{" + str(COLS["indent"]) + "mm}"]
     rule = r"\rule[-1mm]{.4pt}{" + f"{H:.2f}" + "mm}"
-    for col in COLS["cols"]:
-        if col in SEPS:
-            out.append(rule_piece(col, rule))
+    for item in span_layout(span_cells(rest)):  # a cell TEXT:N spans N columns, as in @hspan
+        if item[0] == "sep":
+            out.append(rule_piece(item[1], rule))
             continue
-        w, c = col[0], cells[k]
-        k += 1
-        out.append(r"\raisebox{-1mm}{\parbox[b][" + f"{H:.2f}" + "mm][c]{" + str(w) + r"mm}{\centering"
-                   r"\fontsize{7.5}{9}\selectfont " + markup(c) + "}}")
+        out.append(r"\raisebox{-1mm}{\parbox[b][" + f"{H:.2f}" + "mm][c]{" + f"{item[2]:.2f}" + r"mm}{\centering"
+                   r"\fontsize{7.5}{9}\selectfont " + markup(item[1]) + "}}")
     return "".join(out)
 
 
@@ -367,7 +364,8 @@ def sep_width(col):
     """the width in mm of a column separator, its spaces included (as rule_piece sets it)"""
     pt = 25.4 / 72.27
     a, b = COLS["pad"]
-    return {"|": a + b + 0.4 * pt, "||": a + b + 2.0 * pt, "<||": b + 2.0 * pt, "||>": a + 2.0 * pt}[col]
+    return {"|": a + b + 0.4 * pt, "||": a + b + 2.0 * pt, "<||": b + 2.0 * pt, "||>": a + 2.0 * pt,
+            "!": a + b + 1.0 * pt}[col]
 
 
 def span_layout(cells):
@@ -412,6 +410,10 @@ def spanbrace_tex(src):
     for item in span_layout(span_cells(rest)):
         if item[0] == "sep":
             out.append(rule_piece(item[1], r"\rule{.4pt}{" + f"{mm:.2f}" + "mm}"))
+        elif item[1] == "hr":
+            a, b = COLS["pad"]
+            out.append(r"\makebox[" + f"{item[2]:.2f}" + r"mm][l]{\hspace*{-" + f"{b:.2f}" + r"mm}\rule["
+                       + f"{mm / 2:.2f}" + "mm]{" + f"{item[2] + a + b:.2f}" + "mm}{.4pt}}")
         elif item[1] == "br":
             out.append(r"\makebox[" + f"{item[2]:.2f}" + r"mm][c]{\smash{\raisebox{" + f"{mm / 2 - 1.2:.2f}"
                        + r"mm}{$\overbrace{\hspace{" + f"{item[2] - 3:.2f}" + "mm}}$}}}")
@@ -456,7 +458,7 @@ def rowrule_tex(src):
     return "".join(out) + r"\par\nointerlineskip\vspace{2pt}"
 
 
-SEPS = ("|", "||", "<||", "||>")
+SEPS = ("|", "||", "<||", "||>", "!")
 
 
 def rule_piece(col, rule):
@@ -465,6 +467,8 @@ def rule_piece(col, rule):
     a, b = (rf"\hspace{{{x}mm}}" for x in COLS["pad"])
     if col == "|":
         return a + rule + b
+    if col == "!":  # a heavy rule, 1 pt
+        return a + rule.replace("{.4pt}", "{1pt}", 1) + b
     if col == "<||":
         return rule + r"\hspace{1.2pt}" + rule + b
     if col == "||>":
@@ -476,7 +480,8 @@ def cols_width():
     """the width in mm of a table in the current @cols, separators included"""
     pt = 25.4 / 72.27
     a, b = COLS["pad"]
-    pad = {"|": a + b + 0.4 * pt, "||": a + b + 2.0 * pt, "<||": b + 2.0 * pt, "||>": a + 2.0 * pt}
+    pad = {"|": a + b + 0.4 * pt, "||": a + b + 2.0 * pt, "<||": b + 2.0 * pt, "||>": a + 2.0 * pt,
+           "!": a + b + 1.0 * pt}
     return sum(pad[c] if c in SEPS else c[0] for c in COLS["cols"])
 
 
@@ -699,9 +704,10 @@ def section(items, prefix, role, numbered):
                 src = " ".join(c.strip().lstrip(">") for c in src.split("|") if c.strip())
             elif kind == "row":
                 tex = row_tex(src)
+                src = src.replace("~", "")
             elif kind == "hrow":
                 tex = hrow_tex(src)
-                src = " | ".join(c.strip() for c in src.split("|")[1:])
+                src = " | ".join(t for t, _ in span_cells(src.partition("|")[2]))
             elif kind == "hspan":
                 tex = hspan_tex(src)
                 src = " | ".join(t for t, _ in span_cells(src) if t)
