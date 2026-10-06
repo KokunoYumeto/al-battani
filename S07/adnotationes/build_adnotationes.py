@@ -20,7 +20,7 @@ Transcription format (UTF-8; one printed line per source line, as printed, with 
                          (bold) set the lines A, B turned through 90 degrees
   @row C1 | C2 | ...     one row of it (~ hangs a unit sign: 159~°; {brace2} a brace over two rows; a cell
                          beginning with > is the indented second line of a name; {hr} a thin rule across the
-                         cell or its span, {hr MM} one MM long);
+                         cell or its span, {hr MM} one MM long; {dy:N} sets the cell N pt lower);
                          @rowrule - | | - ... a rule under the columns marked -; || in @cols is a double rule,
                          <|| and ||> the double rules of the edges of a boxed table; a cell beginning with >N is
                          indented N mm, one beginning with _ is set half a line lower; @rule2 cols and @hrule cols
@@ -52,6 +52,8 @@ Transcription format (UTF-8; one printed line per source line, as printed, with 
                          printed lines between the two directives set beside it
   @wrapr X FILE ... @endwrap   the same with the figure on the right, from X mm; the lines in a box on the left
   @figc FILE             a figure or an ornament redrawn in figures/FILE.tex, centred on a line of its own
+  @figl FILE | TEXT      a figure set at the left margin (a table head drawn to the columns of @cols); TEXT,
+                         the transcription of its printed text, is kept in the record
   @notes                 the footnotes follow, left column; @col switches to the right column (a thin rule is set
                          between the two columns, as printed); @notes1 one column
   @sig TEXT              the signature at the foot of the page
@@ -261,7 +263,7 @@ def parse(path):
                          "@calcset", "@cols", "@row", "@rowrule", "@mcols", "@mcnext", "@mcend", "@chead", "@skip",
                          "@small", "@normal", "@rowgap", "@hrule", "@wrap", "@wrapr", "@endwrap", "@brace", "@pos",
                          "@posrule", "@posbrace", "@hrow", "@at", "@rowsep", "@colpad", "@hspan", "@spanbrace",
-                         "@cellrule", "@figc",
+                         "@cellrule", "@figc", "@figl",
                          "@fontsize"):
                 rec[part].append((cmd[1:], arg))
             else:
@@ -303,10 +305,20 @@ BRACE2 = r"\smash{\raisebox{-6.9pt}{$\left\{\rule[-10pt]{0pt}{20pt}\right.$}}"  
 
 def set_cols(spec):
     """@cols INDENT COL ...: the columns of the following @row lines; a column is a width in mm and an alignment
-    (12r, 30l, 6c), and | is a vertical rule"""
+    (12r, 30l, 6c; 18r<6.9 right-aligned 6.9 mm before the right edge, 28l>2.2 left-aligned 2.2 mm after the left
+    edge), and | is a vertical rule"""
     toks = spec.split()
     COLS["indent"] = float(toks[0])
-    COLS["cols"] = [t if t in SEPS else (float(t[:-1]), t[-1]) for t in toks[1:]]
+    cols = []
+    for t in toks[1:]:
+        if t in SEPS:
+            cols.append(t)
+            continue
+        m = re.match(r"^(\d+(?:\.\d+)?)([lrc](?:[<>]\d+(?:\.\d+)?)?)$", t)
+        if not m:
+            raise SystemExit(f"@cols: bad column {t}")
+        cols.append((float(m.group(1)), m.group(2)))
+    COLS["cols"] = cols
 
 
 def row_tex(src):
@@ -319,11 +331,24 @@ def row_tex(src):
             out.append(rule_piece(item[1], r"\rule[-\dp\strutbox]{.4pt}{\baselineskip}"))
             continue
         c, w, a = item[1], f"{item[2]:.2f}", item[3]
+        pad = re.match(r"^([lrc])(?:([<>])(\d+(?:\.\d+)?))?$", a)
+        a, padl, padr = pad.group(1), "", ""
+        if pad.group(2) == ">":  # the column's left padding
+            padl = r"\hspace*{" + pad.group(3) + "mm}"
+        elif pad.group(2) == "<":  # its right padding
+            padr = r"\hspace*{" + pad.group(3) + "mm}"
+        dy = re.match(r"^\{dy:(-?\d+(?:\.\d+)?)\} ", c)
+        if dy:  # {dy:N} the cell set N pt lower (raised if N is negative), without opening the line
+            c = c[dy.end():]
         ind = re.match(r"^>(\d+(?:\.\d+)?)? ", c)
-        pre = ""
+        pre = padl
         if ind:  # a continuation line within the cell, indented (6 mm, or >N N mm); markup applies to the rest only
-            pre = r"\hspace*{" + (ind.group(1) or "6") + "mm}"
+            pre += r"\hspace*{" + (ind.group(1) or "6") + "mm}"
             c = c[ind.end():]
+        if dy:
+            body = r"\smash{\raisebox{" + f"{-float(dy.group(1)):g}" + "pt}{" + markup(c) + "}}"
+            out.append(r"\makebox[" + str(w) + "mm][" + a + "]{" + pre + body + padr + "}")
+            continue
         hr = re.match(r"^\{hr(?: (\d+(?:\.\d+)?))?\}$", c)
         if hr:  # a thin rule across the cell (or its span; {hr MM}: MM long), at the height of a dash
             out.append(r"\makebox[" + str(w) + r"mm][l]{\rule[2.6pt]{" + (hr.group(1) or str(w)) + "mm}{.4pt}}")
@@ -336,9 +361,10 @@ def row_tex(src):
             out.append(r"\makebox[" + str(w) + "mm][" + a + "]{" + BRACE2 + "}")
         elif "~" in c:
             main, hang = c.split("~", 1)
-            out.append(r"\makebox[" + str(w) + "mm][" + a + "]{" + pre + markup(main) + r"\rlap{" + markup(hang) + "}}")
+            out.append(r"\makebox[" + str(w) + "mm][" + a + "]{" + pre + markup(main) + r"\rlap{" + markup(hang) + "}"
+                       + padr + "}")
         else:  # smashed, so that a tall Arabic numeral does not open the line and break the vertical rules
-            out.append(r"\makebox[" + str(w) + "mm][" + a + r"]{\smash{" + pre + markup(c) + "}}")
+            out.append(r"\makebox[" + str(w) + "mm][" + a + r"]{\smash{" + pre + markup(c) + "}" + padr + "}")
     return "".join(out)
 
 
@@ -720,6 +746,16 @@ def section(items, prefix, role, numbered):
                          "transcription": f"[figure, redrawn: figures/{fname}.tex]", "semantic_anchor": None,
                          "source_role": "NALLINO_FIGURE"})
             continue
+        if kind == "figl":  # @figl FILE | TEXT: a figure set at the left margin (a table head drawn to the columns of
+            # @cols); TEXT, if given, is the transcription of its printed text, kept in the record
+            fname, _, txt = text.partition(" | ")
+            fig += 1
+            fid = f"{prefix}-{role}-F{fig:02d}"
+            out.append(r"\par\noindent\hypertarget{" + fid + r"}{}\input{figures/" + fname.strip() + r"}\par")
+            recs.append({"id": fid, "source_line_no": None, "tex": r"\input{figures/" + fname.strip() + "}",
+                         "transcription": txt.strip() or f"[figure, redrawn: figures/{fname.strip()}.tex]",
+                         "semantic_anchor": None, "source_role": "NALLINO_FIGURE"})
+            continue
         if kind == "figc":  # @figc FILE: a figure or an ornament redrawn in figures/FILE.tex, centred on its own line
             fig += 1
             fid = f"{prefix}-{role}-F{fig:02d}"
@@ -752,7 +788,7 @@ def section(items, prefix, role, numbered):
                 src = " ".join(c.strip().lstrip(">") for c in src.split("|") if c.strip())
             elif kind == "row":
                 tex = row_tex(src)
-                src = " | ".join(re.sub(r"^(?:>(?:\d+(?:\.\d+)?)? |_ )", "", t)
+                src = " | ".join(re.sub(r"^(?:>(?:\d+(?:\.\d+)?)? |_ )", "", re.sub(r"^\{dy:-?[\d.]+\} ", "", t))
                                  for t, _ in span_cells(src)).replace("~", "")
                 src = re.sub(r"\{hr(?: [\d.]+)?\}", "", src)
             elif kind == "hrow":
