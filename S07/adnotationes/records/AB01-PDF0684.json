@@ -1,0 +1,423 @@
+{
+ "anchor": "AB01-PDF0684",
+ "master_pdf_page": 684,
+ "printed_page": 235,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "observations": [
+  "body L1: the kappa of «κάρβας» is printed in the curly form; transcribed κ.",
+  "body L2: a short stroke like an accent is printed above the second A of «Schiaparelli»; not transcribed.",
+  "body L4: a dot is printed above the u of «Eugenium»; not transcribed.",
+  "body L5: a short stroke like an acute accent is printed above the e of «Albatenii»; not transcribed.",
+  "body L7: the d of «ad» is printed broken.",
+  "body L8-L9 (inscriptions of the Griffini codex): printed as in the codex, «ڡاطاعرڡا», «لوررڡطس» and «ارڡطوس» with the loop of fa or qaf without dots (ڡ); the dots of the ta of «الشتوية» in the left-hand item of the first row are printed displaced; «الصيفيــة» is printed stretched (tatweel).",
+  "body L31: «5{sup:*p*} 10» in the II terminum is printed without the minute sign.",
+  "notes_left L7: a stray dot is printed in the middle of the column after «Pseudoptolemaei.»; not transcribed."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0684-body-L001",
+     "source_line_no": 1,
+     "tex": "\\ArabicRun{قاطرغربا} praebet, cum quo nullum Graecum nomen ventorum componi potest; fortasse \\textgreek{κάρβας},",
+     "transcription": "قاطرغربا praebet, cum quo nullum Graecum nomen ventorum componi potest; fortasse κάρβας,",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0684-body-L002",
+     "source_line_no": 2,
+     "tex": "sed directio non quadrat. — \\textsc{Schiaparelli}.\\textbf{]}",
+     "transcription": "sed directio non quadrat. — {sc:Schiaparelli}.**]**",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0684-body-L003",
+     "source_line_no": 3,
+     "tex": "\\Indent In uno foliorum codicis Arabici miscellanei (1), quem cum aliis multis ex Arabia meri-",
+     "transcription": "In uno foliorum codicis Arabici miscellanei (1), quem cum aliis multis ex Arabia meri-",
+     "semantic_anchor": "AB01-PDF0684-P01",
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0684-body-L004",
+     "source_line_no": 4,
+     "tex": "dionali advectis apud Dr. \\Name{Eugenium Griffini} (cui maximas gratias ago) Mediolani Insu-",
+     "transcription": "dionali advectis apud Dr. {sp:Eugenium Griffini} (cui maximas gratias ago) Mediolani Insu-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0684-body-L005",
+     "source_line_no": 5,
+     "tex": "brum nuperrime inspexi, hanc ipsam ventorum figuram cum iisdem numeris Albatenii (hic",
+     "transcription": "brum nuperrime inspexi, hanc ipsam ventorum figuram cum iisdem numeris Albatenii (hic",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0684-body-L006",
+     "source_line_no": 6,
+     "tex": "illic calami lapsibus affectis) delineavit amanuensis, nomina intra minimum circulum omittens,",
+     "transcription": "illic calami lapsibus affectis) delineavit amanuensis, nomina intra minimum circulum omittens,",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0684-body-L007",
+     "source_line_no": 7,
+     "tex": "sed ad quatuor angulos folii inscriptiones Albatenianas servans:",
+     "transcription": "sed ad quatuor angulos folii inscriptiones Albatenianas servans:",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0684-body-L008",
+     "source_line_no": 8,
+     "tex": "\\mbox{}\\rlap{\\hspace*{110.30mm}\\smash{\\llap{\\ArabicRun{المغارب الشتوية ڡاطاعرڡا}}}}\\rlap{\\hspace*{71.30mm}\\smash{\\llap{\\ArabicRun{المشارق الشتوية لوررڡطس}}}}",
+     "transcription": "{ar:المغارب الشتوية ڡاطاعرڡا} {ar:المشارق الشتوية لوررڡطس}",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0684-body-L009",
+     "source_line_no": 9,
+     "tex": "\\mbox{}\\rlap{\\hspace*{110.30mm}\\smash{\\llap{\\ArabicRun{المغارب الصيفية ارڡطوس}}}}\\rlap{\\hspace*{71.30mm}\\smash{\\llap{\\ArabicRun{المشارق الصيفيــة ارقطيقس}}}}",
+     "transcription": "{ar:المغارب الصيفية ارڡطوس} {ar:المشارق الصيفيــة ارقطيقس}",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0684-body-L010",
+     "source_line_no": 10,
+     "tex": "Titulus figurae in hoc codice Griffini: \\ArabicRun{سمت مطالع اوائل البروج ومغاربها من دواير افاق الاقاليم السبعة} « azi-",
+     "transcription": "Titulus figurae in hoc codice Griffini: {ar:سمت مطالع اوائل البروج ومغاربها من دواير افاق الاقاليم السبعة} « azi-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0684-body-L011",
+     "source_line_no": 11,
+     "tex": "« muth ortuum occasuumque initiorum signorum in horizontibus septem climatum ».",
+     "transcription": "« muth ortuum occasuumque initiorum signorum in horizontibus septem climatum ».",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0684-body-L012",
+     "source_line_no": 12,
+     "tex": "\\Indent Sequens folium 197, r. tabulam astrologicam spuriam exhibet, quam vide prope finem",
+     "transcription": "Sequens folium 197, r. tabulam astrologicam spuriam exhibet, quam vide prope finem",
+     "semantic_anchor": "AB01-PDF0684-P02",
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0684-body-L013",
+     "source_line_no": 13,
+     "tex": "huius tomi.",
+     "transcription": "huius tomi.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0684-body-L014",
+     "source_line_no": 14,
+     "tex": "\\CenterLine{\\textit{Ad pag. 93-94.} — \\textbf{Parallaxes solares et lunares altitudinis.}}",
+     "transcription": "*Ad pag. 93-94.* — **Parallaxes solares et lunares altitudinis.**",
+     "semantic_anchor": "AB01-PDF0684-H14",
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0684-body-L015",
+     "source_line_no": 15,
+     "tex": "\\Indent De his tabulis cap. XXXIX, t. I, p. 79 et 80.",
+     "transcription": "De his tabulis cap. XXXIX, t. I, p. 79 et 80.",
+     "semantic_anchor": "AB01-PDF0684-P03",
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0684-body-L016",
+     "source_line_no": 16,
+     "tex": "\\Indent \\textit{Parallaxes Solis.} Ut ipse auctor monet, ex \\textit{Almagesto} V, 18 (ed. Halma t. I, p. 359)",
+     "transcription": "*Parallaxes Solis.* Ut ipse auctor monet, ex *Almagesto* V, 18 (ed. Halma t. I, p. 359)",
+     "semantic_anchor": "AB01-PDF0684-P04",
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0684-body-L017",
+     "source_line_no": 17,
+     "tex": "sumptae (2); sed, ob distantiam Solis aliter receptam, \\Name{al-Battānī} iubet numeris tabulae",
+     "transcription": "sumptae (2); sed, ob distantiam Solis aliter receptam, {sp:al-Battānī} iubet numeris tabulae",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0684-body-L018",
+     "source_line_no": 18,
+     "tex": "semper ipsorum decimamoctavam partem addere; cfr. t. I, p. 257–58, et p. \\textsc{xxxviii}, adn. 3.",
+     "transcription": "semper ipsorum decimamoctavam partem addere; cfr. t. I, p. 257–58, et p. {sc:xxxviii}, adn. 3.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0684-body-L019",
+     "source_line_no": 19,
+     "tex": "Argumentum est distantia zenithalis vera (seu geocentrica) \\textit{z}; parallaxes supputantur formula",
+     "transcription": "Argumentum est distantia zenithalis vera (seu geocentrica) *z*; parallaxes supputantur formula",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0684-body-L020",
+     "source_line_no": 20,
+     "tex": "tg parall. altitudinis $=\\dfrac{\\sin\\pi\\,\\sin z}{1-\\sin\\pi\\,\\cos z}$\\,,\\quad ubi\\quad $\\sin\\pi=\\dfrac{\\text{radius Terrae}}{\\text{distantia a Terra}}$\\,. \\Name{Ptolemaeus} cal-",
+     "transcription": "tg parall. altitudinis $=\\dfrac{\\sin\\pi\\,\\sin z}{1-\\sin\\pi\\,\\cos z}$\\,,\\quad ubi\\quad $\\sin\\pi=\\dfrac{\\text{radius Terrae}}{\\text{distantia a Terra}}$\\,. {sp:Ptolemaeus} cal-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0684-body-L021",
+     "source_line_no": 21,
+     "tex": "culos instituit quasi \\textit{sinus} parallaxis pro \\textit{tangente} colligeretur; quod in angulis tam parvis",
+     "transcription": "culos instituit quasi *sinus* parallaxis pro *tangente* colligeretur; quod in angulis tam parvis",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0684-body-L022",
+     "source_line_no": 22,
+     "tex": "errorem sensibilem non gignit. Praeterea variationes distantiae Solis negliguntur.",
+     "transcription": "errorem sensibilem non gignit. Praeterea variationes distantiae Solis negliguntur.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0684-body-L023",
+     "source_line_no": 23,
+     "tex": "\\Indent \\textit{Parallaxes Lunae.} Ex \\textit{Almagesto} l. c. sumptae; sed in tertio ac quarto termino \\Name{al-Battānī}",
+     "transcription": "*Parallaxes Lunae.* Ex *Almagesto* l. c. sumptae; sed in tertio ac quarto termino {sp:al-Battānī}",
+     "semantic_anchor": "AB01-PDF0684-P05",
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0684-body-L024",
+     "source_line_no": 24,
+     "tex": "rudiores numeros Ptolemaei aliquantum emendavit. Argumentum columnarum quatuor ter-",
+     "transcription": "rudiores numeros Ptolemaei aliquantum emendavit. Argumentum columnarum quatuor ter-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0684-body-L025",
+     "source_line_no": 25,
+     "tex": "minos praebentium est \\textit{distantia zenithalis vera Lunae.}",
+     "transcription": "minos praebentium est *distantia zenithalis vera Lunae.*",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0684-body-L026",
+     "source_line_no": 26,
+     "tex": "\\Indent Variationes distantiae a Terra, parvi momenti in Sole, nequeunt in Luna negligi ad pa-",
+     "transcription": "Variationes distantiae a Terra, parvi momenti in Sole, nequeunt in Luna negligi ad pa-",
+     "semantic_anchor": "AB01-PDF0684-P06",
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0684-body-L027",
+     "source_line_no": 27,
+     "tex": "rallaxim altitudinis supputandam. \\Name{Ptolemaeus} (3) quatuor praecipuas distantias seu quatuor",
+     "transcription": "rallaxim altitudinis supputandam. {sp:Ptolemaeus} (3) quatuor praecipuas distantias seu quatuor",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0684-body-L028",
+     "source_line_no": 28,
+     "tex": "terminos ita delegit: Statuit distantiam apogeam centri epicycli sive Lunae esse 59\\textsuperscript{\\textit{p}} si radius",
+     "transcription": "terminos ita delegit: Statuit distantiam apogeam centri epicycli sive Lunae esse 59{sup:*p*} si radius",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0684-body-L029",
+     "source_line_no": 29,
+     "tex": "Terrae 1 partis sumatur, perigeam 38\\textsuperscript{\\textit{p}} 43′; et quoniam hac ratione radius epicycli 5\\textsuperscript{\\textit{p}} 10′ cen-",
+     "transcription": "Terrae 1 partis sumatur, perigeam 38{sup:*p*} 43′; et quoniam hac ratione radius epicycli 5{sup:*p*} 10′ cen-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0684-body-L030",
+     "source_line_no": 30,
+     "tex": "setur, I terminum constituit 59\\textsuperscript{\\textit{p}} + 5\\textsuperscript{\\textit{p}} 10′ = 64\\textsuperscript{\\textit{p}} 10′ (i. e. Luna apogeum simul excentrici et",
+     "transcription": "setur, I terminum constituit 59{sup:*p*} + 5{sup:*p*} 10′ = 64{sup:*p*} 10′ (i. e. Luna apogeum simul excentrici et",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0684-body-L031",
+     "source_line_no": 31,
+     "tex": "epicycli occupante), II terminum 59\\textsuperscript{\\textit{p}} — 5\\textsuperscript{\\textit{p}} 10 = 53\\textsuperscript{\\textit{p}} 50′ (i. e. Luna apogeum excentrici at pe-",
+     "transcription": "epicycli occupante), II terminum 59{sup:*p*} — 5{sup:*p*} 10 = 53{sup:*p*} 50′ (i. e. Luna apogeum excentrici at pe-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0684-body-L032",
+     "source_line_no": 32,
+     "tex": "rigeum epicycli occupante), III terminum 38\\textsuperscript{\\textit{p}} 43′ + 5\\textsuperscript{\\textit{p}} 10′ = 43\\textsuperscript{\\textit{p}} 53′ (Luna in perigeo excen-",
+     "transcription": "rigeum epicycli occupante), III terminum 38{sup:*p*} 43′ + 5{sup:*p*} 10′ = 43{sup:*p*} 53′ (Luna in perigeo excen-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0684-body-L033",
+     "source_line_no": 33,
+     "tex": "trici at apogeo epicycli exstante), IV terminum 38\\textsuperscript{\\textit{p}} 43′ — 5\\textsuperscript{\\textit{p}} 10′ = 33\\textsuperscript{\\textit{p}} 33′ (Luna in perigeo",
+     "transcription": "trici at apogeo epicycli exstante), IV terminum 38{sup:*p*} 43′ — 5{sup:*p*} 10′ = 33{sup:*p*} 33′ (Luna in perigeo",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0684-body-L034",
+     "source_line_no": 34,
+     "tex": "simul excentrici et epicycli collocata). His quatuor distantiis a Terra parallaxes (pro 90° di-",
+     "transcription": "simul excentrici et epicycli collocata). His quatuor distantiis a Terra parallaxes (pro 90° di-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0684-body-L035",
+     "source_line_no": 35,
+     "tex": "stantiae verae zenithalis) erunt (4):",
+     "transcription": "stantiae verae zenithalis) erunt (4):",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    }
+   ]
+  },
+  {
+   "role": "notes_left",
+   "lines": [
+    {
+     "id": "AB01-PDF0684-notes_left-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (1) Nota « Jemen C nr. 86 » insignitus; praeter",
+     "transcription": "(1) Nota « Jemen C nr. 86 » insignitus; praeter",
+     "semantic_anchor": "AB01-PDF0684-N01",
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0684-notes_left-L002",
+     "source_line_no": null,
+     "tex": "fragmenta varia complectitur \\Name{Hermetis} librum",
+     "transcription": "fragmenta varia complectitur {sp:Hermetis} librum",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0684-notes_left-L003",
+     "source_line_no": null,
+     "tex": "\\textit{latitudinis clavis stellarum,} librum sapienti Persici",
+     "transcription": "*latitudinis clavis stellarum,* librum sapienti Persici",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0684-notes_left-L004",
+     "source_line_no": null,
+     "tex": "\\textit{Ǵāmāsp} (? cod. \\ArabicRun{حاماس}) Arabice a \\Name{Muḥammad}",
+     "transcription": "*Ǵāmāsp* (? cod. حاماس) Arabice a {sp:Muḥammad}",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0684-notes_left-L005",
+     "source_line_no": null,
+     "tex": "\\Name{ibn Abī Bakr} al-Fārisī conscripto, Commenta-",
+     "transcription": "{sp:ibn Abī Bakr} al-Fārisī conscripto, Commenta-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0684-notes_left-L006",
+     "source_line_no": null,
+     "tex": "rium Aḥmad ibn Yūsuf \\Name{Ibn ad-Dāyah} in \\textit{Cen-}",
+     "transcription": "rium Aḥmad ibn Yūsuf {sp:Ibn ad-Dāyah} in *Cen-*",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0684-notes_left-L007",
+     "source_line_no": null,
+     "tex": "\\textit{tiloquium} Pseudoptolemaei.",
+     "transcription": "*tiloquium* Pseudoptolemaei.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  },
+  {
+   "role": "notes_right",
+   "lines": [
+    {
+     "id": "AB01-PDF0684-notes_right-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (2) In edit. Halma perperam minuta, secundae,",
+     "transcription": "(2) In edit. Halma perperam minuta, secundae,",
+     "semantic_anchor": "AB01-PDF0684-N02",
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0684-notes_right-L002",
+     "source_line_no": null,
+     "tex": "tertiae pro gradibus, minutis, secundis.",
+     "transcription": "tertiae pro gradibus, minutis, secundis.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0684-notes_right-L003",
+     "source_line_no": null,
+     "tex": "\\Indent (3) \\textit{Almag.} V, 17 (ed. Halma, t. I, p. 348–57);",
+     "transcription": "(3) *Almag.* V, 17 (ed. Halma, t. I, p. 348–57);",
+     "semantic_anchor": "AB01-PDF0684-N03",
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0684-notes_right-L004",
+     "source_line_no": null,
+     "tex": "usus tabularum explicatur V, 19 (Halma I, p. 360-61).",
+     "transcription": "usus tabularum explicatur V, 19 (Halma I, p. 360-61).",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0684-notes_right-L005",
+     "source_line_no": null,
+     "tex": "\\Indent (4) In numeris apud \\Name{Delambre}, \\textit{Astron. an-}",
+     "transcription": "(4) In numeris apud {sp:Delambre}, *Astron. an-*",
+     "semantic_anchor": "AB01-PDF0684-N04",
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0684-notes_right-L006",
+     "source_line_no": null,
+     "tex": "\\textit{cienne,} II, p. 218, mendae typographicae non desunt.",
+     "transcription": "*cienne,* II, p. 218, mendae typographicae non desunt.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  }
+ ]
+}
