@@ -2854,7 +2854,7 @@ AB01-PDF0699-body-L020	250	body	cum centrum epicycli in apogeum aut perigeum def
 AB01-PDF0699-body-L021	250	body	ecliptica pariter in boream aut austrum declinantes apparent; praeterea cum epicycli inclinatio
 AB01-PDF0699-body-L022	250	body	maxima, nulla tunc obliquitas epicycli.
 AB01-PDF0699-body-L023	250	body	Tabularum constructio pro inferioribus planetis haec est. Maxima inclinatio diametri
-AB01-PDF0699-body-L024	250	body	apogei-perigei epicycli, quam vidimus fieri cum epicycli centrum alterutrum deferentis nodum
+AB01-PDF0699-body-L024	250	body	apogei–perigei epicycli, quam vidimus fieri cum epicycli centrum alterutrum deferentis nodum
 AB01-PDF0699-body-L025	250	body	teneat, observationibus (3) comperta est 2° {sfrac:1/2} Veneri (4), 6° {sfrac:1/4} Mercurio (5). Centro epicycli
 AB01-PDF0699-body-L026	250	body	semper in nodis constituto, quaeritur singulis aliis circumferentiae punctis quanta sit haec
 AB01-PDF0699-body-L027	250	body	maxima *inclinatio,* e centro Terrae visa.
@@ -2890,3 +2890,73 @@ AB01-PDF0699-notes_right-L008	250	notes_right	tendet oculo observatoris terrestr
 AB01-PDF0699-notes_right-L009	250	notes_right	1° 2′ in extremitate apogea, HEP 6° 22′ in perigea.
 AB01-PDF0699-notes_right-L010	250	notes_right	(5) Respectu *centri Terrae* 1° 46′ in extremi-
 AB01-PDF0699-notes_right-L011	250	notes_right	tate apogea, 4° 5′ in perigea.
+AB01-PDF0700-body-L001	251	body	Ducatur TK perpendicularis ad AH; item KL, TN perpendiculares ad planum eclipticae;
+AB01-PDF0700-body-L002	251	body	exoritur quadrilaterum TKLN rectangulum. Ductis EN, ET, erit TEN angulus supputandus
+AB01-PDF0700-body-L003	251	body	inclinationis puncti T epicycli. Demonstratio {sp:Ptolemaei} XIII, 4 (ed. Halma, t. II, p. 383–86)
+AB01-PDF0700-body-L004	251	body	geometrica ac numeralis ita ad amussim trigonometrice redditur: In triangulo rectangulo THK
+AB01-PDF0700-body-L005	251	body	$TK=\\dfrac{TH\\times\\sin THK}{R}=\\dfrac{r\\sin\\psi}{R}$\\,, $KH=\\dfrac{TH\\times\\cos THK}{R}=\\dfrac{r\\cos\\psi}{R}$\\,;
+AB01-PDF0700-body-L006	251	body	nota igitur LN = TK.
+AB01-PDF0700-body-F01	251	body	[figure, redrawn: figures/AB01-PDF0700-F01.tex]
+AB01-PDF0700-body-L007	251	body	In triangulo rectangulo KHL, angulus KHL notus, quia maxi-
+AB01-PDF0700-body-L008	251	body	ma inclinatio *i* diametri apogei-perigei ad deferentem; ergo
+AB01-PDF0700-body-L009	251	body	$KL=TN=\\dfrac{KH\\times\\sin KHL}{R}=\\dfrac{r\\cos\\psi\\sin i}{R^2}$
+AB01-PDF0700-body-L010	251	body	$LH=\\dfrac{KH\\times\\cos KHL}{R}=\\dfrac{r\\cos\\psi\\cos i}{R^2}$\\,;
+AB01-PDF0700-body-L011	251	body	itaque nota
+AB01-PDF0700-body-L012	251	body	$EL=HE\\mp LH=$ dist. epicycli $\\mp\\,\\dfrac{r\\cos\\psi\\cos i}{R^2}$
+AB01-PDF0700-body-L013	251	body	$EN=\\sqrt{\\overline{EL}^2+\\overline{LN}^2}=$
+AB01-PDF0700-body-L014	251	body	$=\\sqrt{\\left(\\text{dist.\\ epic.}\\mp\\dfrac{r\\cos\\psi\\cos i}{R^2}\\right)^2+\\left(\\dfrac{r\\sin\\psi}{R}\\right)^2}$\\,.
+AB01-PDF0700-body-L015	251	body	$ET=\\sqrt{\\overline{EN}^2+\\overline{TN}^2}=\\sqrt{\\left(\\text{dist.\\ epic.}\\mp\\dfrac{r\\cos\\psi\\cos i}{R^2}\\right)^2+\\left(\\dfrac{r\\sin\\psi}{R}\\right)^2+\\left(\\dfrac{r\\cos\\psi\\sin i}{R^2}\\right)^2}$\\,.
+AB01-PDF0700-body-L016	251	body	Notus igitur angulus inclinationis quaesitus:\\quad sin $TEN=R\\,\\dfrac{TN}{ET}$\\,. Ita, pro senis ac ternis ano-
+AB01-PDF0700-body-L017	251	body	maliae verae ψ gradibus, supputat {sp:Ptolemaeus} priorem columnam planetarum inferiorum, quae
+AB01-PDF0700-body-L018	251	body	maximam inclinationem diametri apogei–perigei epicycli (in nodis deferentis contingentem)
+AB01-PDF0700-body-L019	251	body	exhibet, qualis e Terrae centro cernitur.
+AB01-PDF0700-body-L020	251	body	Simplicior calculus si tangentibus utamur:
+AB01-PDF0700-body-L021	251	body	(1) tang\\enspace $LEN=R\\,\\dfrac{LN}{EL}=R\\,\\dfrac{TK}{EL}=\\dfrac{r\\sin\\psi}{\\text{dist.\\ epic.}\\mp\\dfrac{r\\cos\\psi\\cos i}{R^2}}$
+AB01-PDF0700-body-L022	251	body	$EN=R\\,\\dfrac{LN}{\\sin LEN}=\\dfrac{r\\sin\\psi}{\\sin LEN}$
+AB01-PDF0700-body-L023	251	body	tang\\enspace $TEN=R\\,\\dfrac{TN}{EN}=R\\,\\dfrac{KL}{EN}=R\\,\\dfrac{\\;\\dfrac{r\\cos\\psi\\sin i}{R^2}\\;}{\\dfrac{r\\sin\\psi}{\\sin LEN}}=R\\,\\dfrac{r\\cos\\psi\\sin i\\sin LEN}{R^2\\,r\\sin\\psi}$
+AB01-PDF0700-body-L024	251	body	et, quoniam\\quad $R\\,\\dfrac{\\cos\\psi}{\\sin\\psi}=$ cotg ψ,
+AB01-PDF0700-body-L025	251	body	(2) tang\\enspace $TEN=\\dfrac{\\text{cotg}\\,\\psi\\sin i\\sin LEN}{R^2}$\\,.
+AB01-PDF0700-body-L026	251	body	Duabus igitur formulis (1) et (2) supputatio logarithmica ducitur.
+AB01-PDF0701-body-L001	252	body	Nunc ad *maximas obliquitates* diametri mediarum distantiarum pergamus, contingentes
+AB01-PDF0701-body-L002	252	body	in apogeo et in perigeo deferentis. Observationibus et calculis comperit {sp:Ptolemaeus} (1)
+AB01-PDF0701-body-L003	252	body	maximam Veneris obliquitatem in apogeo deferentis 2° 27′, in perigeo 2° 34′; maximam Mer-
+AB01-PDF0701-body-L004	252	body	curii 2° 17′ in apogeo, 2° 46′ in perigeo (2). Unde colligitur in media distantia geocentrica epicycli
+AB01-PDF0701-body-L005	252	body	obliquitatem 2° {sfrac:1/2} proxime utrique planetae contingere; maximae enim discrepantiae ab hac
+AB01-PDF0701-body-L006	252	body	quantitate media sunt\\enspace — 3′ et + 4′ Veneri, — 13′ et + 16′ Mercurio. Tales variationes
+AB01-PDF0701-body-L007	252	body	Veneris, adeo parvae ut instrumentis capi nequeant, omnino negligi possunt; itaque tabula pro
+AB01-PDF0701-body-L008	252	body	media epicycli obliquitate 2° {sfrac:1/2} condita sufficiet ad omnes distantias geocentricas epicycli Ve-
+AB01-PDF0701-body-L009	252	body	neris. At variatio Mercurio contingens est {sfrac:1/4} gradus circiter, seu {sfrac:1/10} illorum 2° {sfrac:1/2}; qua re
+AB01-PDF0701-body-L010	252	body	tabula, pro media distantia geocentrica instituta, emendatione quadam egebit pro reliquis di-
+AB01-PDF0701-body-L011	252	body	stantiis epicycli Mercurii.
+AB01-PDF0701-body-L012	252	body	Demonstrat {sp:Ptolemaeus} XIII, 4 (ed. Halma, t. II, p. 401–03) in quacumque distantia
+AB01-PDF0701-body-L013	252	body	geocentrica centri epicycli maximam obliquitatem accidere binis punctis contactus, seu punctis
+AB01-PDF0701-body-L014	252	body	quibus circumferentia epicycli tangitur a lineis tangentibus e centro Terrae productis. An-
+AB01-PDF0701-body-L015	252	body	gulus in centro Terrae ab alterutra tangente et a recta per centra Terrae et epicycli ducta
+AB01-PDF0701-body-L016	252	body	contentus, est digressio vel elongatio maxima planetae a medio loco Solis, ἡ μεγίστη [τῆς τοῦ
+AB01-PDF0701-body-L017	252	body	ἡλίου μέσης παρόδου] ἀπόστασις seu διάστασις: 46° circiter Veneri, 22° circiter Mercurio. His po-
+AB01-PDF0701-body-L018	252	body	sitis, haud difficile esset pro singulis epicycli punctis obliquitatem exacte supputare sicut e
+AB01-PDF0701-body-L019	252	body	centro Terrae conspicitur, neglecta, utpote pro hoc instituto insensibili, inclinatione deferentis
+AB01-PDF0701-body-F01	252	body	[figure, redrawn: figures/AB01-PDF0701-F01.tex]
+AB01-PDF0701-body-L020	252	body	ad eclipticam. Constructionibus nempe ad similes casus alibi adhibitis,
+AB01-PDF0701-body-L021	252	body	ita *potuisset* {sp:Ptolemaeus} supputationem ducere:
+AB01-PDF0701-body-L022	252	body	Sit T situs planetae in epicyclo, Q epicycli apogeum verum; erit
+AB01-PDF0701-body-L023	252	body	arcus QH seu angulus QHT anomalia vera ψ, quae nota censetur.
+AB01-PDF0701-body-L024	252	body	Recta HT nota, quia semidiametrus *r* epicycli. Demittatur TN perpen-
+AB01-PDF0701-body-L025	252	body	dicularis ad QH; item TM perpendicularis ad planum deferentis seu
+AB01-PDF0701-body-L026	252	body	eclipticae et ad NM quae in hoc plano iacet. Notae erunt
+AB01-PDF0701-body-L027	252	body	$NT=\\dfrac{r\\sin\\psi}{R}$ $NH=\\dfrac{r\\cos\\psi}{R}$\\,,
+AB01-PDF0701-body-L028	252	body	nota igitur tota $NE=NH+$ distantia geocentrica centri epicycli.
+AB01-PDF0701-body-L029	252	body	$ET=\\sqrt{\\overline{NE}^2+\\overline{NT}^2}=\\sqrt{\\left(\\text{dist.\\ epic.}\\pm\\dfrac{r\\cos\\psi}{R}\\right)^2+\\left(\\dfrac{r\\sin\\psi}{R}\\right)^2}$\\,.
+AB01-PDF0701-body-L030	252	body	Angulus TNM notus, quia maxima obliquitas *o* plani epicycli ad de-
+AB01-PDF0701-body-L031	252	body	ferentis (3° {sfrac:1/2} Veneri, 7° Mercurio, ut adn. 2 huius pag. dixi), ergo
+AB01-PDF0701-body-L032	252	body	$MT=\\dfrac{NT\\sin TNM}{R}=\\dfrac{r\\sin\\psi\\sin o}{R^2}$\\,.
+AB01-PDF0701-body-L033	252	body	Quoniam MT est perpendicularis ad planum deferentis seu eclipticae,
+AB01-PDF0701-body-L034	252	body	necessario perpendicularis et ad EM erit, centrum E Terrae iungentem
+AB01-PDF0701-body-L035	252	body	puncto M plani deferentis; angulus igitur TME rectus, et
+AB01-PDF0701-body-L036	252	body	sin obliq. $=$ sin\\enspace $TEM=R\\,\\dfrac{MT}{ET}=\\dfrac{r\\sin\\psi\\sin o}{R\\sqrt{\\left(\\text{dist.\\ epic.}\\pm\\dfrac{r\\cos\\psi}{R}\\right)^2+\\left(\\dfrac{r\\sin\\psi}{R}\\right)^2}}$\\,.
+AB01-PDF0701-body-L037	252	body	Simplicior calculus per tangentes. Differentiam longitudinis inter centrum epicycli et planeta
+AB01-PDF0701-body-L038	252	body	consideremus, quae est angulus in plano *eclipticae* (vel deferentis) contentus recta EN et
+AB01-PDF0701-notes_left-L001	252	notes_left	(1) *Almag.* XIII, 3 (Halma, II, 376) ac potissi-
+AB01-PDF0701-notes_left-L002	252	notes_left	mum XIII, 4 (Halma II, 407-10).
+AB01-PDF0701-notes_right-L001	252	notes_right	(2) Sunt obliquitates e centro Terrae visae;
+AB01-PDF0701-notes_right-L002	252	notes_right	in centro epicycli 3° {sfrac:1/2} Veneri, 7° Mercurio.

@@ -1,0 +1,49 @@
+@page 700 251
+% the displayed formulas begin where they begin on the print (mm from the left edge of the text, 61.0 pt); the numbers
+% (1), (2) stand at the left edge
+^ Ducatur TK perpendicularis ad AH; item KL, TN perpendiculares ad planum eclipticae;
+exoritur quadrilaterum TKLN rectangulum. Ductis EN, ET, erit TEN angulus supputandus
+inclinationis puncti T epicycli. Demonstratio {sp:Ptolemaei} XIII, 4 (ed. Halma, t. II, p. 383–86)
+geometrica ac numeralis ita ad amussim trigonometrice redditur: In triangulo rectangulo THK
+@vspace 1.5
+@at 15.7:$TK=\dfrac{TH\times\sin THK}{R}=\dfrac{r\sin\psi}{R}$\,, | 81.3:$KH=\dfrac{TH\times\cos THK}{R}=\dfrac{r\cos\psi}{R}$\,;
+@vspace 1.5
+nota igitur LN = TK.
+% the figure stands on the right of the next eight lines (on the print from 359 pt, 105.1 mm; here from 105.5 mm)
+@wrapr 105.5 AB01-PDF0700-F01
+^ In triangulo rectangulo KHL, angulus KHL notus, quia maxi-
+ma inclinatio *i* diametri apogei-perigei ad deferentem; ergo
+@vspace 1
+@at 16.0:$KL=TN=\dfrac{KH\times\sin KHL}{R}=\dfrac{r\cos\psi\sin i}{R^2}$
+@vspace 1.6
+@at 20.9:$LH=\dfrac{KH\times\cos KHL}{R}=\dfrac{r\cos\psi\cos i}{R^2}$\,;
+@vspace 1
+itaque nota
+@vspace 1
+@at 15.6:$EL=HE\mp LH=$ dist. epicycli $\mp\,\dfrac{r\cos\psi\cos i}{R^2}$
+@vspace 1.6
+@at 31.8:$EN=\sqrt{\overline{EL}^2+\overline{LN}^2}=$
+@vspace 1.6
+@at 13.4:$=\sqrt{\left(\text{dist.\ epic.}\mp\dfrac{r\cos\psi\cos i}{R^2}\right)^2+\left(\dfrac{r\sin\psi}{R}\right)^2}$\,.
+@endwrap
+@vspace 1.6
+@at 1.6:$ET=\sqrt{\overline{EN}^2+\overline{TN}^2}=\sqrt{\left(\text{dist.\ epic.}\mp\dfrac{r\cos\psi\cos i}{R^2}\right)^2+\left(\dfrac{r\sin\psi}{R}\right)^2+\left(\dfrac{r\cos\psi\sin i}{R^2}\right)^2}$\,.
+@vspace 1.6
+Notus igitur angulus inclinationis quaesitus:\quad sin $TEN=R\,\dfrac{TN}{ET}$\,. Ita, pro senis ac ternis ano-
+maliae verae ψ gradibus, supputat {sp:Ptolemaeus} priorem columnam planetarum inferiorum, quae
+maximam inclinationem diametri apogei–perigei epicycli (in nodis deferentis contingentem)
+exhibet, qualis e Terrae centro cernitur.
+^ Simplicior calculus si tangentibus utamur:
+@vspace 1.5
+@at 0:(1) | 29.0:tang\enspace $LEN=R\,\dfrac{LN}{EL}=R\,\dfrac{TK}{EL}=\dfrac{r\sin\psi}{\text{dist.\ epic.}\mp\dfrac{r\cos\psi\cos i}{R^2}}$
+@vspace 1.6
+@at 50.8:$EN=R\,\dfrac{LN}{\sin LEN}=\dfrac{r\sin\psi}{\sin LEN}$
+@vspace 1.6
+@at 14.0:tang\enspace $TEN=R\,\dfrac{TN}{EN}=R\,\dfrac{KL}{EN}=R\,\dfrac{\;\dfrac{r\cos\psi\sin i}{R^2}\;}{\dfrac{r\sin\psi}{\sin LEN}}=R\,\dfrac{r\cos\psi\sin i\sin LEN}{R^2\,r\sin\psi}$
+@vspace 1.6
+et, quoniam\quad $R\,\dfrac{\cos\psi}{\sin\psi}=$ cotg ψ,
+@vspace 1
+@at 0:(2) | 43.4:tang\enspace $TEN=\dfrac{\text{cotg}\,\psi\sin i\sin LEN}{R^2}$\,.
+@vspace 2.5
+Duabus igitur formulis (1) et (2) supputatio logarithmica ducitur.
+@obs body: the hyphen of «apogei-perigei» is printed as a hyphen in the first occurrence (L10), as a dash in the second.

@@ -1,0 +1,238 @@
+{
+ "anchor": "AB01-PDF0700",
+ "master_pdf_page": 700,
+ "printed_page": 251,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "observations": [
+  "body: the hyphen of «apogei-perigei» is printed as a hyphen in the first occurrence (L10), as a dash in the second."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0700-body-L001",
+     "source_line_no": 1,
+     "tex": "\\Indent Ducatur TK perpendicularis ad AH; item KL, TN perpendiculares ad planum eclipticae;",
+     "transcription": "Ducatur TK perpendicularis ad AH; item KL, TN perpendiculares ad planum eclipticae;",
+     "semantic_anchor": "AB01-PDF0700-P01",
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0700-body-L002",
+     "source_line_no": 2,
+     "tex": "exoritur quadrilaterum TKLN rectangulum. Ductis EN, ET, erit TEN angulus supputandus",
+     "transcription": "exoritur quadrilaterum TKLN rectangulum. Ductis EN, ET, erit TEN angulus supputandus",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0700-body-L003",
+     "source_line_no": 3,
+     "tex": "inclinationis puncti T epicycli. Demonstratio \\Name{Ptolemaei} XIII, 4 (ed. Halma, t. II, p. 383–86)",
+     "transcription": "inclinationis puncti T epicycli. Demonstratio {sp:Ptolemaei} XIII, 4 (ed. Halma, t. II, p. 383–86)",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0700-body-L004",
+     "source_line_no": 4,
+     "tex": "geometrica ac numeralis ita ad amussim trigonometrice redditur: In triangulo rectangulo THK",
+     "transcription": "geometrica ac numeralis ita ad amussim trigonometrice redditur: In triangulo rectangulo THK",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0700-body-L005",
+     "source_line_no": 5,
+     "tex": "\\mbox{}\\rlap{\\hspace*{15.70mm}$TK=\\dfrac{TH\\times\\sin THK}{R}=\\dfrac{r\\sin\\psi}{R}$\\,,}\\rlap{\\hspace*{81.30mm}$KH=\\dfrac{TH\\times\\cos THK}{R}=\\dfrac{r\\cos\\psi}{R}$\\,;}",
+     "transcription": "$TK=\\dfrac{TH\\times\\sin THK}{R}=\\dfrac{r\\sin\\psi}{R}$\\,, $KH=\\dfrac{TH\\times\\cos THK}{R}=\\dfrac{r\\cos\\psi}{R}$\\,;",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0700-body-L006",
+     "source_line_no": 6,
+     "tex": "nota igitur LN = TK.",
+     "transcription": "nota igitur LN = TK.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0700-body-F01",
+     "source_line_no": null,
+     "tex": "\\input{figures/AB01-PDF0700-F01}",
+     "transcription": "[figure, redrawn: figures/AB01-PDF0700-F01.tex]",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_FIGURE"
+    },
+    {
+     "id": "AB01-PDF0700-body-L007",
+     "source_line_no": 7,
+     "tex": "\\Indent In triangulo rectangulo KHL, angulus KHL notus, quia maxi-",
+     "transcription": "In triangulo rectangulo KHL, angulus KHL notus, quia maxi-",
+     "semantic_anchor": "AB01-PDF0700-P02",
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0700-body-L008",
+     "source_line_no": 8,
+     "tex": "ma inclinatio \\textit{i} diametri apogei-perigei ad deferentem; ergo",
+     "transcription": "ma inclinatio *i* diametri apogei-perigei ad deferentem; ergo",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0700-body-L009",
+     "source_line_no": 9,
+     "tex": "\\mbox{}\\rlap{\\hspace*{16.00mm}$KL=TN=\\dfrac{KH\\times\\sin KHL}{R}=\\dfrac{r\\cos\\psi\\sin i}{R^2}$}",
+     "transcription": "$KL=TN=\\dfrac{KH\\times\\sin KHL}{R}=\\dfrac{r\\cos\\psi\\sin i}{R^2}$",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0700-body-L010",
+     "source_line_no": 10,
+     "tex": "\\mbox{}\\rlap{\\hspace*{20.90mm}$LH=\\dfrac{KH\\times\\cos KHL}{R}=\\dfrac{r\\cos\\psi\\cos i}{R^2}$\\,;}",
+     "transcription": "$LH=\\dfrac{KH\\times\\cos KHL}{R}=\\dfrac{r\\cos\\psi\\cos i}{R^2}$\\,;",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0700-body-L011",
+     "source_line_no": 11,
+     "tex": "itaque nota",
+     "transcription": "itaque nota",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0700-body-L012",
+     "source_line_no": 12,
+     "tex": "\\mbox{}\\rlap{\\hspace*{15.60mm}$EL=HE\\mp LH=$ dist. epicycli $\\mp\\,\\dfrac{r\\cos\\psi\\cos i}{R^2}$}",
+     "transcription": "$EL=HE\\mp LH=$ dist. epicycli $\\mp\\,\\dfrac{r\\cos\\psi\\cos i}{R^2}$",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0700-body-L013",
+     "source_line_no": 13,
+     "tex": "\\mbox{}\\rlap{\\hspace*{31.80mm}$EN=\\sqrt{\\overline{EL}^2+\\overline{LN}^2}=$}",
+     "transcription": "$EN=\\sqrt{\\overline{EL}^2+\\overline{LN}^2}=$",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0700-body-L014",
+     "source_line_no": 14,
+     "tex": "\\mbox{}\\rlap{\\hspace*{13.40mm}$=\\sqrt{\\left(\\text{dist.\\ epic.}\\mp\\dfrac{r\\cos\\psi\\cos i}{R^2}\\right)^2+\\left(\\dfrac{r\\sin\\psi}{R}\\right)^2}$\\,.}",
+     "transcription": "$=\\sqrt{\\left(\\text{dist.\\ epic.}\\mp\\dfrac{r\\cos\\psi\\cos i}{R^2}\\right)^2+\\left(\\dfrac{r\\sin\\psi}{R}\\right)^2}$\\,.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0700-body-L015",
+     "source_line_no": 15,
+     "tex": "\\mbox{}\\rlap{\\hspace*{1.60mm}$ET=\\sqrt{\\overline{EN}^2+\\overline{TN}^2}=\\sqrt{\\left(\\text{dist.\\ epic.}\\mp\\dfrac{r\\cos\\psi\\cos i}{R^2}\\right)^2+\\left(\\dfrac{r\\sin\\psi}{R}\\right)^2+\\left(\\dfrac{r\\cos\\psi\\sin i}{R^2}\\right)^2}$\\,.}",
+     "transcription": "$ET=\\sqrt{\\overline{EN}^2+\\overline{TN}^2}=\\sqrt{\\left(\\text{dist.\\ epic.}\\mp\\dfrac{r\\cos\\psi\\cos i}{R^2}\\right)^2+\\left(\\dfrac{r\\sin\\psi}{R}\\right)^2+\\left(\\dfrac{r\\cos\\psi\\sin i}{R^2}\\right)^2}$\\,.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0700-body-L016",
+     "source_line_no": 16,
+     "tex": "Notus igitur angulus inclinationis quaesitus:\\quad sin $TEN=R\\,\\dfrac{TN}{ET}$\\,. Ita, pro senis ac ternis ano-",
+     "transcription": "Notus igitur angulus inclinationis quaesitus:\\quad sin $TEN=R\\,\\dfrac{TN}{ET}$\\,. Ita, pro senis ac ternis ano-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0700-body-L017",
+     "source_line_no": 17,
+     "tex": "maliae verae \\textgreek{ψ} gradibus, supputat \\Name{Ptolemaeus} priorem columnam planetarum inferiorum, quae",
+     "transcription": "maliae verae ψ gradibus, supputat {sp:Ptolemaeus} priorem columnam planetarum inferiorum, quae",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0700-body-L018",
+     "source_line_no": 18,
+     "tex": "maximam inclinationem diametri apogei–perigei epicycli (in nodis deferentis contingentem)",
+     "transcription": "maximam inclinationem diametri apogei–perigei epicycli (in nodis deferentis contingentem)",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0700-body-L019",
+     "source_line_no": 19,
+     "tex": "exhibet, qualis e Terrae centro cernitur.",
+     "transcription": "exhibet, qualis e Terrae centro cernitur.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0700-body-L020",
+     "source_line_no": 20,
+     "tex": "\\Indent Simplicior calculus si tangentibus utamur:",
+     "transcription": "Simplicior calculus si tangentibus utamur:",
+     "semantic_anchor": "AB01-PDF0700-P03",
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0700-body-L021",
+     "source_line_no": 21,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.00mm}(1)}\\rlap{\\hspace*{29.00mm}tang\\enspace $LEN=R\\,\\dfrac{LN}{EL}=R\\,\\dfrac{TK}{EL}=\\dfrac{r\\sin\\psi}{\\text{dist.\\ epic.}\\mp\\dfrac{r\\cos\\psi\\cos i}{R^2}}$}",
+     "transcription": "(1) tang\\enspace $LEN=R\\,\\dfrac{LN}{EL}=R\\,\\dfrac{TK}{EL}=\\dfrac{r\\sin\\psi}{\\text{dist.\\ epic.}\\mp\\dfrac{r\\cos\\psi\\cos i}{R^2}}$",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0700-body-L022",
+     "source_line_no": 22,
+     "tex": "\\mbox{}\\rlap{\\hspace*{50.80mm}$EN=R\\,\\dfrac{LN}{\\sin LEN}=\\dfrac{r\\sin\\psi}{\\sin LEN}$}",
+     "transcription": "$EN=R\\,\\dfrac{LN}{\\sin LEN}=\\dfrac{r\\sin\\psi}{\\sin LEN}$",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0700-body-L023",
+     "source_line_no": 23,
+     "tex": "\\mbox{}\\rlap{\\hspace*{14.00mm}tang\\enspace $TEN=R\\,\\dfrac{TN}{EN}=R\\,\\dfrac{KL}{EN}=R\\,\\dfrac{\\;\\dfrac{r\\cos\\psi\\sin i}{R^2}\\;}{\\dfrac{r\\sin\\psi}{\\sin LEN}}=R\\,\\dfrac{r\\cos\\psi\\sin i\\sin LEN}{R^2\\,r\\sin\\psi}$}",
+     "transcription": "tang\\enspace $TEN=R\\,\\dfrac{TN}{EN}=R\\,\\dfrac{KL}{EN}=R\\,\\dfrac{\\;\\dfrac{r\\cos\\psi\\sin i}{R^2}\\;}{\\dfrac{r\\sin\\psi}{\\sin LEN}}=R\\,\\dfrac{r\\cos\\psi\\sin i\\sin LEN}{R^2\\,r\\sin\\psi}$",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0700-body-L024",
+     "source_line_no": 24,
+     "tex": "et, quoniam\\quad $R\\,\\dfrac{\\cos\\psi}{\\sin\\psi}=$ cotg \\textgreek{ψ},",
+     "transcription": "et, quoniam\\quad $R\\,\\dfrac{\\cos\\psi}{\\sin\\psi}=$ cotg ψ,",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0700-body-L025",
+     "source_line_no": 25,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.00mm}(2)}\\rlap{\\hspace*{43.40mm}tang\\enspace $TEN=\\dfrac{\\text{cotg}\\,\\psi\\sin i\\sin LEN}{R^2}$\\,.}",
+     "transcription": "(2) tang\\enspace $TEN=\\dfrac{\\text{cotg}\\,\\psi\\sin i\\sin LEN}{R^2}$\\,.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0700-body-L026",
+     "source_line_no": 26,
+     "tex": "Duabus igitur formulis (1) et (2) supputatio logarithmica ducitur.",
+     "transcription": "Duabus igitur formulis (1) et (2) supputatio logarithmica ducitur.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    }
+   ]
+  }
+ ]
+}

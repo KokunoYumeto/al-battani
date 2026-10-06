@@ -1,0 +1,60 @@
+@page 701 252
+% the displayed formulas begin where they begin on the print (mm from the left edge of the text, 123.3 pt; inside the
+% figure block, from the left edge of the lines beside the figure, 224.4 pt)
+^ Nunc ad *maximas obliquitates* diametri mediarum distantiarum pergamus, contingentes
+in apogeo et in perigeo deferentis. Observationibus et calculis comperit {sp:Ptolemaeus} (1)
+maximam Veneris obliquitatem in apogeo deferentis 2° 27′, in perigeo 2° 34′; maximam Mer-
+curii 2° 17′ in apogeo, 2° 46′ in perigeo (2). Unde colligitur in media distantia geocentrica epicycli
+obliquitatem 2° {sfrac:1/2} proxime utrique planetae contingere; maximae enim discrepantiae ab hac
+quantitate media sunt\enspace — 3′ et + 4′ Veneri, — 13′ et + 16′ Mercurio. Tales variationes
+Veneris, adeo parvae ut instrumentis capi nequeant, omnino negligi possunt; itaque tabula pro
+media epicycli obliquitate 2° {sfrac:1/2} condita sufficiet ad omnes distantias geocentricas epicycli Ve-
+neris. At variatio Mercurio contingens est {sfrac:1/4} gradus circiter, seu {sfrac:1/10} illorum 2° {sfrac:1/2}; qua re
+tabula, pro media distantia geocentrica instituta, emendatione quadam egebit pro reliquis di-
+stantiis epicycli Mercurii.
+^ Demonstrat {sp:Ptolemaeus} XIII, 4 (ed. Halma, t. II, p. 401–03) in quacumque distantia
+geocentrica centri epicycli maximam obliquitatem accidere binis punctis contactus, seu punctis
+quibus circumferentia epicycli tangitur a lineis tangentibus e centro Terrae productis. An-
+gulus in centro Terrae ab alterutra tangente et a recta per centra Terrae et epicycli ducta
+contentus, est digressio vel elongatio maxima planetae a medio loco Solis, ἡ μεγίστη [τῆς τοῦ
+ἡλίου μέσης παρόδου] ἀπόστασις seu διάστασις: 46° circiter Veneri, 22° circiter Mercurio. His po-
+sitis, haud difficile esset pro singulis epicycli punctis obliquitatem exacte supputare sicut e
+centro Terrae conspicitur, neglecta, utpote pro hoc instituto insensibili, inclinatione deferentis
+% the figure stands on the left of the next sixteen lines, which begin at 35.7 mm (224.4 pt)
+@wrap 0.17 AB01-PDF0701-F01 0.7
+ad eclipticam. Constructionibus nempe ad similes casus alibi adhibitis,
+ita *potuisset* {sp:Ptolemaeus} supputationem ducere:
+^ Sit T situs planetae in epicyclo, Q epicycli apogeum verum; erit
+arcus QH seu angulus QHT anomalia vera ψ, quae nota censetur.
+Recta HT nota, quia semidiametrus *r* epicycli. Demittatur TN perpen-
+dicularis ad QH; item TM perpendicularis ad planum deferentis seu
+eclipticae et ad NM quae in hoc plano iacet. Notae erunt
+@vspace 1
+@at 17.1:$NT=\dfrac{r\sin\psi}{R}$ | 70.4:$NH=\dfrac{r\cos\psi}{R}$\,,
+@vspace 1
+@at 0:nota igitur tota | 28.3:$NE=NH+$ distantia geocentrica centri epicycli.
+@vspace 0.5
+@at 2.3:$ET=\sqrt{\overline{NE}^2+\overline{NT}^2}=\sqrt{\left(\text{dist.\ epic.}\pm\dfrac{r\cos\psi}{R}\right)^2+\left(\dfrac{r\sin\psi}{R}\right)^2}$\,.
+@vspace 0.5
+Angulus TNM notus, quia maxima obliquitas *o* plani epicycli ad de-
+ferentis (3° {sfrac:1/2} Veneri, 7° Mercurio, ut adn. 2 huius pag. dixi), ergo
+@vspace 0.5
+@at 32.0:$MT=\dfrac{NT\sin TNM}{R}=\dfrac{r\sin\psi\sin o}{R^2}$\,.
+@vspace 1
+Quoniam MT est perpendicularis ad planum deferentis seu eclipticae,
+necessario perpendicularis et ad EM erit, centrum E Terrae iungentem
+puncto M plani deferentis; angulus igitur TME rectus, et
+@endwrap
+@vspace 0.5
+@at 8.6:sin obliq. $=$ sin\enspace $TEM=R\,\dfrac{MT}{ET}=\dfrac{r\sin\psi\sin o}{R\sqrt{\left(\text{dist.\ epic.}\pm\dfrac{r\cos\psi}{R}\right)^2+\left(\dfrac{r\sin\psi}{R}\right)^2}}$\,.
+@vspace 1
+Simplicior calculus per tangentes. Differentiam longitudinis inter centrum epicycli et planeta
+consideremus, quae est angulus in plano *eclipticae* (vel deferentis) contentus recta EN et
+@obs body L20: the two o of «Constructionibus» are printed broken, open at the top like u.
+@obs body (last formula): a speck is printed above the c of the «cos» in the denominator; not transcribed.
+@notes
+^ (1) *Almag.* XIII, 3 (Halma, II, 376) ac potissi-
+mum XIII, 4 (Halma II, 407-10).
+@col
+^ (2) Sunt obliquitates e centro Terrae visae;
+in centro epicycli 3° {sfrac:1/2} Veneri, 7° Mercurio.
