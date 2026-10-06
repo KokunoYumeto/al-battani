@@ -23,7 +23,7 @@ Transcription format (UTF-8; one printed line per source line, as printed, with 
                          @rowrule - | | - ... a rule under the columns marked -; || in @cols is a double rule,
                          <|| and ||> the double rules of the edges of a boxed table; a cell beginning with >N is
                          indented N mm, one beginning with _ is set half a line lower; @rule2 cols and @hrule cols
-                         are a double and a thin rule across the table;
+                         are a double and a thin rule across the table (@rule2 cols foot: the closing double rule);
                          @rowgap MM an empty stretch of the table that carries its rules; @brace under|over A B
                          a horizontal brace across the columns A..B between two rows; @rowsep MM an extra
                          gap after every following @row (0 ends it); @colpad A B the space before and after
@@ -389,11 +389,17 @@ def span_layout(cells):
 
 def hspan_tex(src):
     """@hspan C1 | C2 ...: a row of a small table whose cells may span several columns of @cols (TEXT:N), centred
-    in the span; the rules between the spanned columns are left out, the others have the height of the row"""
+    in the span (a cell beginning with >N is set from N mm after the start of its span instead); the rules between
+    the spanned columns are left out, the others have the height of the row"""
     out = [r"\hspace*{" + str(COLS["indent"]) + "mm}"]
     for item in span_layout(span_cells(src)):
         if item[0] == "sep":
             out.append(rule_piece(item[1], r"\rule[-\dp\strutbox]{.4pt}{\baselineskip}"))
+            continue
+        m = re.match(r"^>(\d+(?:\.\d+)?) (.*)$", item[1])
+        if m:
+            out.append(r"\makebox[" + f"{item[2]:.2f}" + r"mm][l]{\hspace*{" + m.group(1) + r"mm}\smash{"
+                       + markup(m.group(2)) + "}}")
         else:
             out.append(r"\makebox[" + f"{item[2]:.2f}" + r"mm][c]{\smash{" + markup(item[1]) + "}}")
     return "".join(out)
@@ -717,7 +723,7 @@ def section(items, prefix, role, numbered):
                 src = " | ".join(t for t, _ in span_cells(src.partition("|")[2]))
             elif kind == "hspan":
                 tex = hspan_tex(src)
-                src = " | ".join(t for t, _ in span_cells(src) if t)
+                src = " | ".join(re.sub(r"^>[\d.]+ ", "", t) for t, _ in span_cells(src) if t)
             elif kind == "at":
                 tex = at_tex(src)
                 src = " ".join(re.sub(r"^[\d.]+:", "", it.strip()) for it in src.split(" | "))
@@ -769,12 +775,16 @@ def section(items, prefix, role, numbered):
         elif kind == "rule":
             out.append(r"\par\noindent\makebox[\linewidth][c]{\rule[.5ex]{18mm}{.4pt}}\par")
         elif kind == "rule2":  # the double rule across the text, or across a table (@rule2 MM, @rule2 cols); with
-            toks = text.split()  # «join» the next row of the table follows without a gap, so that its rules meet it
+            toks = text.split()  # «join» the next row of the table follows without a gap, so that its rules meet it;
+            # with «foot» the rule closes a table: thin above, heavy below, meeting the rules of the strip above it
             ind = r"\hspace*{" + f"{frame_extent()[0]:.2f}" + "mm}" if toks[:1] == ["cols"] else ""
             w = (f"{cols_width():.2f}mm" if toks[:1] == ["cols"] else
                  toks[0] + "mm" if toks else r"\linewidth")
-            out.append(r"\par\noindent" + ind + r"\rule{" + w + r"}{1.2pt}\par\nointerlineskip\vspace{1pt}\noindent"
-                       + ind + r"\rule{" + w + r"}{.4pt}\par" + (r"\nointerlineskip" if "join" in toks else ""))
+            heavy, thin = r"\rule{" + w + r"}{1.2pt}", r"\rule{" + w + r"}{.4pt}"
+            first, second = (thin, heavy) if "foot" in toks else (heavy, thin)
+            out.append(r"\par" + (r"\nointerlineskip" if "foot" in toks else "") + r"\noindent" + ind + first
+                       + r"\par\nointerlineskip\vspace{1pt}\noindent" + ind + second + r"\par"
+                       + (r"\nointerlineskip" if "join" in toks else ""))
         elif kind == "hrule":  # a thin rule across a table (@hrule cols) or MM wide, between its rows; @hrule cols PT
             toks = text.split()  # a rule PT thick
             ind = r"\hspace*{" + f"{frame_extent()[0]:.2f}" + "mm}" if toks[0] == "cols" else ""

@@ -1,0 +1,68 @@
+@page 726 277
+% the end of the lacuna of the catalogue (Hydra 9-13, Crater 1-3), set like p. 274 with the same columns (text
+% edge 62.5 pt); the column rules stop above and below the line «Ex stellis quae sunt extra figuram», which runs
+% across the frame from 5.6 mm after the start of the descriptions; the frame is closed at the foot
+@vspace 4
+@colpad 1.5 1.5
+@cols 0 3.5r 1.47l <|| 56.88l | 7.2r 5.64r 1.89l | 5.2r 5.72r 1.85l | 6.63c | 13.83c ||> 2.4l 32l
+@rule2 cols join
+@hrow 13.9 | | | {\fontsize{8.8}{10}\selectfont Stellarum descriptio.} | {\fontsize{8.8}{10}\selectfont Longitudo.}:3 | {\fontsize{8.8}{10}\selectfont Latitudo.}:3 | Plaga\\Caeli. | {\fontsize{8.8}{10}\selectfont Magnitudo.} | |
+@hrule cols 1.2
+@rowgap 2.6
+@fontsize 10.4 13.9
+@row 9 | | Posterior trium stellarum quae sunt | | | | | | | | | |
+@row | | >3.8 in triangulo. | 177~° | 20~′ | | 31~° | 20~′ | | a | 3 | | β Hydrae
+@row 10 | | Stella quae est post Corvum prope | | | | | | | | | |
+@row | | >3.8 caudam Hydrae. | 191 | 10 | | 13 | 40 | | a | 4 [magna] | | γ
+@row 11 | | Stella quae est in (1) extremitate | | | | | | | | | |
+@row | | >3.8 caudae Hydrae. | 204 | 40 | | 17 | 40 | | a | 4 [magna] | | π
+@spanbrace 1.7 | | | :9 | |
+@hspan | | >5.6 Ex stellis quae sunt extra figuram::9 | |
+@spanbrace 1.5 | | | :9 | |
+@row 12 | | Stella quae est ab austro capitis Hy- | | | | | | | | | |
+@row | | >3.8 drae. | 113 | 40 | | 23 | 15 | | a | 3 | | Fl. 1 Crateris
+@row 13 | | Quae sequitur stellam in eius collo | | | | | | | | | |
+@row | | >3.8 positam, ab ea dissita. | 142 | 10 | | 16 | 0 | | a | 3 | |
+@rowgap 1.8
+@hrule cols
+@spanbrace 3.9 | | | :9 | |
+@hspan | | **Crater** (« el uaso »).:9 | |
+@spanbrace 3.9 | | | :9 | |
+@hrule cols
+@rowgap 3.2
+@row 1 | | Stella quae est in basi Crateris, con- | | | | | | | | | |
+@row | | >3.8 iuncta Hydrae. | 157 | 30 | | 23 | 0 | | a | 4 | | α
+@row 2 | | Australis duarum quae sunt in medio | | | | | | | | | |
+@row | | >3.8 Crateris. | 163 | 40 | | 19 | 30 | | a | 4 | | β
+@row 3 | | Australis quae est in circulo oris | | | | | | | | | |
+@row | | >3.8 Crateris. | 168 | 10 | | 18 | 30 | | a | 4 [magna] | | ζ (Fl. 27)
+@normal
+@rowgap 2.0
+@rule2 cols foot
+@vspace 3.5
+@small
+9. Long. gradus Vh. 174° قعد pro 177° قعر. — Lat. L. 31° 40′. — Magnitudo Vh. 4.
+10. Magnitudo ad fidem Hg. et Pts.; L. 4.
+11. Long. gradus Vh. 244° pro 204° reliquorum. — Magnitudo ad fidem Hg. et Pts.; L. 4. — {sp:Baily} p. 69:
+> « The description of this star would indicate it to be 49 *Hydrae* π, but the position dóes not accord
+> « either in longitude or latitude ».
+12. Long. gradus Vh. 153° قنج pro 113° قيج.
+13. Long. gradus Vh. 1052°! — Lat. gradus Vh. 56° نو pro 16° يو (B., H., S. 16° 0′; L. 26° 0′; Hg, ex unius
+> codicis auctoritate, 16° 20′). — {sp:Baily} p. 69: « This star cannot now be identified, as there is no star
+> « of any considerable magnitude that will accord with the description. The only one that approa-
+> « ches there to is 2 *Sextantis*, and if we supposed the latitude to be 10° 10′ instead of 16° 0′ (ιϛ̄ mista-
+> « ken for ιϛ̄′) this ordinate would nearly correspond: but the longitude would still be discordant
+> « nearly 13° ». {sp:Schjellerup}: Fl. 15 Sextantis.
+@at 7.5:**Crater:**
+3. Long. L. 191° 10′. Magnitudo ut Hg. et Pts.; L. 4. — Sequuntur stellae Crateris quae etiam in codice Escu
+> rialensi supersunt.
+@normal
+@obs body (table): the top of the frame is printed as a double rule (heavy and thin), the rule under the heads as a heavy rule; the rules above and below «Crater» are thin, the lower one printed in short pieces; the outer vertical rules are double (heavy outside); the foot of the frame is a double rule (thin and heavy).
+@obs body (table): a speck is printed under «descriptio» in the head; not transcribed. The final e of «prope» (Hydra 10), the r of the first «Hydrae» and the first t of «capitis» (Hydra 12) are printed broken.
+@obs body (notes): the two dots of qāf are printed merged into a short stroke in «قعد», «قعر», «قنج» and «قيج», those of yāʾ in «قيج» and «يو».
+@obs body (note 9): «قعر» (177) is printed with the zāy without its dot.
+@obs body (note 11): «dóes» is printed so, with an accented o.
+@obs body (note 13): «Hg» is printed without a period before the comma; in «ιϛ̄» and «ιϛ̄′» the sign after the iota is printed as a stigma with a stroke at its top right (transcribed ϛ̄, as on p. 272), the second followed by a prime; «there to» is printed in two words.
+@obs body (Crater, note 3): «Escu» is printed without a hyphen at the end of the line.
+@notes
+^ (1) V. pag. 275, adn. 1.
