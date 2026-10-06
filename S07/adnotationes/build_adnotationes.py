@@ -49,7 +49,8 @@ Transcription format (UTF-8; one printed line per source line, as printed, with 
                          left, with the
                          printed lines between the two directives set beside it
   @wrapr X FILE ... @endwrap   the same with the figure on the right, from X mm; the lines in a box on the left
-  @notes                 the footnotes follow, left column; @col switches to the right column; @notes1 one column
+  @notes                 the footnotes follow, left column; @col switches to the right column (a thin rule is set
+                         between the two columns, as printed); @notes1 one column
   @sig TEXT              the signature at the foot of the page
   @obs TEXT              an observation on the print (a letter that did not print, a broken sign), kept in the record
   ^ TEXT                 a line that begins a paragraph or a footnote (indented); ^^ TEXT indented twice
@@ -819,8 +820,10 @@ def page(rec):
         sections.append({"role": "notes", "lines": recs})
     elif rec["notes_left"] or rec["notes_right"]:
         out.append(r"\par\vspace{6pt}\hrule height.25pt\vspace{5pt}")
-        for k, role in enumerate(("notes_left", "notes_right")):
-            out.append((r"\hfill" if k else r"\noindent") + r"\begin{minipage}[t]{.48\textwidth}\vspace{0pt}"
+        for k, role in enumerate(("notes_left", "notes_right")):  # the print sets a thin rule between the columns,
+            # as deep as the longer column (an unsized \vrule takes the depth of the line, i.e. of the minipages)
+            out.append((r"\hfill\vrule width.3pt\hfill" if k else r"\noindent")
+                       + r"\begin{minipage}[t]{.48\textwidth}\vspace{0pt}"
                        r"\fontsize{9}{11.5}\selectfont\setlength{\GutterOffset}{0pt}\setlength{\FullSourceWidth}{\linewidth}")
             tex, recs = section(rec[role], prefix, role, False)
             out += tex + [r"\end{minipage}"]
