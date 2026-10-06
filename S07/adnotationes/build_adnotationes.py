@@ -65,7 +65,8 @@ Inline markup: *italic*, **bold**, {gb:...} bold grotesque (the «Pag.» heads),
 {xs:...} the smallest type (the heads of narrow columns),
 {sc:...} small capitals, {sup:...} superscript, {sub:...} subscript, {sfrac:a/b} a small fraction, {0} the zero
 sign of the tables, {lbrace3} and {rbrace3} a left and a right brace over three lines (written on the middle one),
-{rbrace2} a right brace over two lines (written on the first), {ar:...} an Arabic phrase with its own brackets and punctuation, set as one right-to-left run
+{rbrace2} a right brace over two lines (written on the first), {vrule2} a thin vertical rule over two lines (written
+on the first), {ar:...} an Arabic phrase with its own brackets and punctuation, set as one right-to-left run
 ({syr:...} the same for Syriac), {rtl:...} a phrase of Arabic numerals and Latin words that the print sets right to
 left, given in reading order, \\* a literal asterisk; runs of Arabic, Greek, Hebrew and Syriac letters are set in
 their fonts, the signs ☾ ⊙ ♈ ♄ ♃ ♂ ♀ ☿ ☊ ☋ in FreeSerif. & % # are escaped; $...$ is mathematics; every other
@@ -200,6 +201,7 @@ def markup(s):
     s = re.sub(r"\{sub:([^}]*)\}", r"\\textsubscript{\1}", s)
     s = re.sub(r"\{sfrac:([^/}]+)/([^}]+)\}", r"$\\qfrac{\1}{\2}$", s)
     s = s.replace("{lbrace3}", LBRACE3).replace("{rbrace3}", RBRACE3).replace("{rbrace2}", RBRACE2)
+    s = s.replace("{vrule2}", VRULE2)
     s = s.replace("{0}", "\uE001")
     s = re.sub(r"\*\*([^*]+)\*\*", r"\\textbf{\1}", s)
     s = re.sub(r"\*([^*]+)\*", r"\\textit{\1}", s)
@@ -315,6 +317,8 @@ RBRACE3 = (r"\smash{\raisebox{-16pt}{\tikz\draw[line width=.55pt,decorate,decora
 # a right brace written on the first of two lines and reaching over both (25.8 pt), drawn in the same way
 RBRACE2 = (r"\smash{\raisebox{-16.6pt}{\tikz\draw[line width=.55pt,decorate,decoration={brace,amplitude=2.3pt}]"
            r" (0,25.8pt) -- (0,0);}}")
+# a thin vertical rule written on the first of two lines and running over both (from 8.5 pt above its baseline)
+VRULE2 = r"\smash{\rule[-16.6pt]{.4pt}{25.1pt}}"
 
 
 def set_cols(spec):

@@ -1,0 +1,332 @@
+{
+ "anchor": "AB01-PDF0766",
+ "master_pdf_page": 766,
+ "printed_page": 317,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "observations": [
+  "body L3-L5, L21-L22: the computations are set at the positions of the print; the rule is printed under the subtrahend.",
+  "body L11: «⁸/₄» is printed so, with 8 for 3: 45′ (sixtieths of a day) are ³/₄ of a day.",
+  "body L14: the minus signs are printed as dashes; transcribed —.",
+  "body L21: the unit after «10» is printed like an italic l, not as the d of days (as in «13{sup:*d*}»); transcribed as printed.",
+  "body L35: «6°» is printed so; the columns IV (motus latitudinis) of the two tables, pp. 306 and 307, differ by 6 signs (6{sup:*s*}, 180°).",
+  "body L37: the a of «arcubus» is printed broken.",
+  "body: the ornamental rule that closes the notes is the one printed on p. 296 (figures/AB01-PDF0745-F02.tex)."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0766-body-L001",
+     "source_line_no": 1,
+     "tex": "\\Indent Titulus columnae ponit inter aeram Coptorum et aeram hegirae spatium 337 annorum",
+     "transcription": "Titulus columnae ponit inter aeram Coptorum et aeram hegirae spatium 337 annorum",
+     "semantic_anchor": "AB01-PDF0766-P01",
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0766-body-L002",
+     "source_line_no": 2,
+     "tex": "Iulianorum et 319 dierum. Ergo",
+     "transcription": "Iulianorum et 319 dierum. Ergo",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0766-body-L003",
+     "source_line_no": 3,
+     "tex": "\\mbox{}\\rlap{\\hspace*{20.91mm}\\smash{\\rlap{epocha hegirae}}}\\rlap{\\hspace*{51.70mm}\\smash{\\llap{621}}}\\rlap{\\hspace*{53.84mm}\\smash{\\rlap{annis absolutis}}}\\rlap{\\hspace*{80.60mm}\\smash{\\makebox[0pt][c]{+}}}\\rlap{\\hspace*{89.95mm}\\smash{\\llap{196}}}\\rlap{\\hspace*{92.00mm}\\smash{\\rlap{diebus post Chr. n.}}}",
+     "transcription": "epocha hegirae 621 annis absolutis + 196 diebus post Chr. n.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0766-body-L004",
+     "source_line_no": 4,
+     "tex": "\\mbox{}\\rlap{\\hspace*{20.91mm}\\smash{\\rlap{epocha aerae}}}\\rlap{\\hspace*{52.05mm}\\smash{\\llap{337}}}\\rlap{\\hspace*{54.05mm}\\smash{\\rlap{annis absolutis}}}\\rlap{\\hspace*{80.60mm}\\smash{\\makebox[0pt][c]{+}}}\\rlap{\\hspace*{89.95mm}\\smash{\\llap{319}}}\\rlap{\\hspace*{92.00mm}\\smash{\\rlap{diebus ante hegiram}}}",
+     "transcription": "epocha aerae 337 annis absolutis + 319 diebus ante hegiram",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0766-body-L005",
+     "source_line_no": 5,
+     "tex": "\\mbox{}\\rlap{\\hspace*{51.60mm}\\smash{\\llap{283}}}\\rlap{\\hspace*{53.50mm}\\smash{\\rlap{anni absoluti}}}\\rlap{\\hspace*{80.60mm}\\smash{\\makebox[0pt][c]{+}}}\\rlap{\\hspace*{89.95mm}\\smash{\\llap{242}}}\\rlap{\\hspace*{92.00mm}\\smash{\\rlap{dies post Chr. n.}}}",
+     "transcription": "283 anni absoluti + 242 dies post Chr. n.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0766-body-L006",
+     "source_line_no": 6,
+     "tex": "Epocha igitur aerae Coptae, cum annus 284 Chr. bisextilis sit, incidit in diem Veneris 29 Au-",
+     "transcription": "Epocha igitur aerae Coptae, cum annus 284 Chr. bisextilis sit, incidit in diem Veneris 29 Au-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0766-body-L007",
+     "source_line_no": 7,
+     "tex": "gusti 284 Chr., quae est epocha aerae \\textit{Martyrum} vel \\textit{Diocletiani}.",
+     "transcription": "gusti 284 Chr., quae est epocha aerae *Martyrum* vel *Diocletiani*.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0766-body-L008",
+     "source_line_no": 8,
+     "tex": "\\Indent Inter aeram hegirae et Persicam 9 annos \\textit{vagos,} 11 menses, 9 dies tabula constituit, seu",
+     "transcription": "Inter aeram hegirae et Persicam 9 annos *vagos,* 11 menses, 9 dies tabula constituit, seu",
+     "semantic_anchor": "AB01-PDF0766-P02",
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0766-body-L009",
+     "source_line_no": 9,
+     "tex": "3624 dies, qui sunt notum intervallum inter hegiram astronomorum Arabum et aeram \\textit{Iezde-}",
+     "transcription": "3624 dies, qui sunt notum intervallum inter hegiram astronomorum Arabum et aeram *Iezde-*",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0766-body-L010",
+     "source_line_no": 10,
+     "tex": "\\textit{gerdis} (cuius epocha dies Martis 16 Iunii 632 Chr.). Cfr. t. I, p. 69.",
+     "transcription": "*gerdis* (cuius epocha dies Martis 16 Iunii 632 Chr.). Cfr. t. I, p. 69.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0766-body-L011",
+     "source_line_no": 11,
+     "tex": "\\Indent \\textit{Fractiones} sunt sexagesimae partes diei; ergo 45′ = $\\qfrac{8}{4}$ diei.",
+     "transcription": "*Fractiones* sunt sexagesimae partes diei; ergo 45′ = {sfrac:8/4} diei.",
+     "semantic_anchor": "AB01-PDF0766-P03",
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0766-body-L012",
+     "source_line_no": 12,
+     "tex": "\\Indent \\textit{Menses} Romani, Copti, Persici hac tabula semper \\textit{tricenorum} dierum sumuntur. Annus",
+     "transcription": "*Menses* Romani, Copti, Persici hac tabula semper *tricenorum* dierum sumuntur. Annus",
+     "semantic_anchor": "AB01-PDF0766-P04",
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0766-body-L013",
+     "source_line_no": 13,
+     "tex": "Romanus et Copticus igitur 12 mensibus, 5 diebus et $\\qfrac{1}{4}$ (vel 15′) diei constat; annus Persicus",
+     "transcription": "Romanus et Copticus igitur 12 mensibus, 5 diebus et {sfrac:1/4} (vel 15′) diei constat; annus Persicus",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0766-body-L014",
+     "source_line_no": 14,
+     "tex": "mensibus 12 et diebus 5. Inde intelligitur discrepantia — 5 dierum aut — 5 $\\qfrac{1}{4}$ in intervallo",
+     "transcription": "mensibus 12 et diebus 5. Inde intelligitur discrepantia — 5 dierum aut — 5 {sfrac:1/4} in intervallo",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0766-body-L015",
+     "source_line_no": 15,
+     "tex": "duarum subsequentium linearum quotiescumque a numero mensium 11 aut 12 + dierum \\textit{x}",
+     "transcription": "duarum subsequentium linearum quotiescumque a numero mensium 11 aut 12 + dierum *x*",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0766-body-L016",
+     "source_line_no": 16,
+     "tex": "transitur ad menses 1 aut 0 cum incremento anni integri; et intelligitur quoque cur sub 60",
+     "transcription": "transitur ad menses 1 aut 0 cum incremento anni integri; et intelligitur quoque cur sub 60",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0766-body-L017",
+     "source_line_no": 17,
+     "tex": "in columna Romana sint (990\\textsuperscript{\\textit{a}}) 12\\textsuperscript{\\textit{m}} 4\\textsuperscript{\\textit{d}} 30′, et sub 600 in columna Coptica (919\\textsuperscript{\\textit{a}}) 12\\textsuperscript{\\textit{m}} 4\\textsuperscript{\\textit{d}} 15′.",
+     "transcription": "in columna Romana sint (990{sup:*a*}) 12{sup:*m*} 4{sup:*d*} 30′, et sub 600 in columna Coptica (919{sup:*a*}) 12{sup:*m*} 4{sup:*d*} 15′.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0766-body-L018",
+     "source_line_no": 18,
+     "tex": "— Tabula fortasse anno hegirae 600 absolvebatur. Ineptus \\textit{interpolator} eam protrahere voluit;",
+     "transcription": "— Tabula fortasse anno hegirae 600 absolvebatur. Ineptus *interpolator* eam protrahere voluit;",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0766-body-L019",
+     "source_line_no": 19,
+     "tex": "sed quae nuper exposui ignorans, in columnis Romana et Coptica operatus est quasi annus 12",
+     "transcription": "sed quae nuper exposui ignorans, in columnis Romana et Coptica operatus est quasi annus 12",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0766-body-L020",
+     "source_line_no": 20,
+     "tex": "mensibus tantum conficeretur, et pro numeris iustis a me receptis posuit:",
+     "transcription": "mensibus tantum conficeretur, et pro numeris iustis a me receptis posuit:",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0766-body-L021",
+     "source_line_no": 21,
+     "tex": "\\mbox{}\\rlap{\\hspace*{31.68mm}\\smash{\\llap{1544}\\rlap{\\textsuperscript{\\textit{a}}}}}\\rlap{\\hspace*{39.16mm}\\smash{\\llap{0}\\rlap{\\textsuperscript{\\textit{m}}}}}\\rlap{\\hspace*{49.53mm}\\smash{\\llap{10}\\rlap{\\textsuperscript{\\textit{l}}}}}\\rlap{\\hspace*{58.95mm}\\smash{\\llap{15}\\rlap{′}}}\\rlap{\\hspace*{74.26mm}\\smash{\\makebox[0pt][c]{\\smash{\\rule[-16.6pt]{.4pt}{25.1pt}}}}}\\rlap{\\hspace*{89.57mm}\\smash{\\llap{928}}}\\rlap{\\hspace*{91.50mm}\\smash{\\rlap{(sic)}}}\\rlap{\\hspace*{103.00mm}\\smash{\\llap{1}\\rlap{\\textsuperscript{\\textit{m}}}}}\\rlap{\\hspace*{113.17mm}\\smash{\\llap{13}\\rlap{\\textsuperscript{\\textit{d}}}}}\\rlap{\\hspace*{122.91mm}\\smash{\\llap{0}\\rlap{′}}}",
+     "transcription": "1544{sup:*a*} 0{sup:*m*} 10{sup:*l*} 15′ {vrule2} 928 (sic) 1{sup:*m*} 13{sup:*d*} 0′",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0766-body-L022",
+     "source_line_no": 22,
+     "tex": "\\mbox{}\\rlap{\\hspace*{31.68mm}\\smash{\\llap{1573}}}\\rlap{\\hspace*{39.16mm}\\smash{\\llap{1}}}\\rlap{\\hspace*{49.53mm}\\smash{\\llap{19}}}\\rlap{\\hspace*{58.95mm}\\smash{\\llap{0}}}\\rlap{\\hspace*{89.57mm}\\smash{\\llap{967}}}\\rlap{\\hspace*{91.50mm}\\smash{\\rlap{(sic)}}}\\rlap{\\hspace*{103.00mm}\\smash{\\llap{2}}}\\rlap{\\hspace*{113.17mm}\\smash{\\llap{21}}}\\rlap{\\hspace*{122.91mm}\\smash{\\llap{45}}}",
+     "transcription": "1573 1 19 0 967 (sic) 2 21 45",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0766-body-L023",
+     "source_line_no": 23,
+     "tex": "\\Indent Miro modo ambas has tabulas spurias etiam \\textit{Versio Hispanica} praebet, f. 36,r., irreptas",
+     "transcription": "Miro modo ambas has tabulas spurias etiam *Versio Hispanica* praebet, f. 36,r., irreptas",
+     "semantic_anchor": "AB01-PDF0766-P05",
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0766-body-L024",
+     "source_line_no": 24,
+     "tex": "post concordantiam annorum hegirae et Romanorum; sed anni hegirae collecti dumtaxat",
+     "transcription": "post concordantiam annorum hegirae et Romanorum; sed anni hegirae collecti dumtaxat",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0766-body-L025",
+     "source_line_no": 25,
+     "tex": "intervallum temporis a 330 ad 600 complectuntur. Columnarum tituli pro annis collectis hi sunt:",
+     "transcription": "intervallum temporis a 330 ad 600 complectuntur. Columnarum tituli pro annis collectis hi sunt:",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0766-body-L026",
+     "source_line_no": 26,
+     "tex": "\\mbox{}\\rlap{\\hspace*{10.85mm}1.\\textsuperscript{o} Annos de Alexandre el macedonio. que son bissiestos.}",
+     "transcription": "1.{sup:o} Annos de Alexandre el macedonio. que son bissiestos.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0766-body-L027",
+     "source_line_no": 27,
+     "tex": "\\mbox{}\\rlap{\\hspace*{10.85mm}2.\\textsuperscript{o} Annos de declacianos. et son bissiestos.}",
+     "transcription": "2.{sup:o} Annos de declacianos. et son bissiestos.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0766-body-L028",
+     "source_line_no": 28,
+     "tex": "\\mbox{}\\rlap{\\hspace*{10.85mm}3.\\textsuperscript{o} Annos de diezdeiart. et non son bissiestos.}",
+     "transcription": "3.{sup:o} Annos de diezdeiart. et non son bissiestos.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0766-body-L029",
+     "source_line_no": 29,
+     "tex": "Titulus columnae Syrorum pro annis singulis:",
+     "transcription": "Titulus columnae Syrorum pro annis singulis:",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0766-body-L030",
+     "source_line_no": 30,
+     "tex": "\\mbox{}\\rlap{\\hspace*{10.85mm}Todos los annos bissiestos. Romanos et egipcianos.}",
+     "transcription": "Todos los annos bissiestos. Romanos et egipcianos.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0766-body-L031",
+     "source_line_no": 31,
+     "tex": "Scriptor codicis quid fractiones essent non intelligens, eas vocavit \\textit{defflectiones}.",
+     "transcription": "Scriptor codicis quid fractiones essent non intelligens, eas vocavit *defflectiones*.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0766-body-L032",
+     "source_line_no": 32,
+     "tex": "\\CenterLine{\\textit{Ad pag. 306–307.} — \\textbf{Syzygiae in annis Arabicis.}}",
+     "transcription": "*Ad pag. 306–307.* — **Syzygiae in annis Arabicis.**",
+     "semantic_anchor": "AB01-PDF0766-H32",
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0766-body-L033",
+     "source_line_no": 33,
+     "tex": "\\Indent In tabula coniunctionum, ultimae decem lineae motus latitudinis in codice mendis et lacunis",
+     "transcription": "In tabula coniunctionum, ultimae decem lineae motus latitudinis in codice mendis et lacunis",
+     "semantic_anchor": "AB01-PDF0766-P06",
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0766-body-L034",
+     "source_line_no": 34,
+     "tex": "refertae; earum restitutio facilis et calculo et comparatione cum numeris oppositionum a quibus",
+     "transcription": "refertae; earum restitutio facilis et calculo et comparatione cum numeris oppositionum a quibus",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0766-body-L035",
+     "source_line_no": 35,
+     "tex": "6° exacte discrepare debent. — In tabula oppositionum haud paucis mendis affecti ultimi 12",
+     "transcription": "6° exacte discrepare debent. — In tabula oppositionum haud paucis mendis affecti ultimi 12",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0766-body-L036",
+     "source_line_no": 36,
+     "tex": "secundarum numeri col. II, et ultimi 11 minutorum columnae IV. — Quibus elementis con-",
+     "transcription": "secundarum numeri col. II, et ultimi 11 minutorum columnae IV. — Quibus elementis con-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0766-body-L037",
+     "source_line_no": 37,
+     "tex": "structae non liquet. — De arcubus eclipticae per \\textit{signa}, gradus etc. indicatis v. p. 308.",
+     "transcription": "structae non liquet. — De arcubus eclipticae per *signa*, gradus etc. indicatis v. p. 308.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0766-body-F01",
+     "source_line_no": null,
+     "tex": "\\input{figures/AB01-PDF0745-F02}",
+     "transcription": "[figure, redrawn: figures/AB01-PDF0745-F02.tex]",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_FIGURE"
+    }
+   ]
+  }
+ ]
+}
