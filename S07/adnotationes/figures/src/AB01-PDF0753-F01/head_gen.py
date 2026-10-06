@@ -144,7 +144,7 @@ def main():
         # set at the size of their printed last lines would not fit the justified lines)
         for text, a, b, base, just in lines:
             box = rf"\makebox[{(b - a) * BP:.3f}mm][s]{{{text}}}" if just else text
-            L.append(rf"\node[anchor=base west] at ({mm(a + SKEW):.3f},{ymm(base):.3f}) {{{font(9.1, True)}{box}}};")
+            L.append(rf"\node[anchor=base west] at ({mm(a + SKEW):.3f},{ymm(base):.3f}) {{{font(9.1, True)} {box}}};")
     for ar, (ax, ay), lat, lx in SUBHEADS:
         L.append(rf"\node[anchor=center] at ({mm(ax + SKEW):.3f},{ymm(ay):.3f}) {{{font(10.8)} \textarabic{{{ar}}}}};")
         L.append(rf"\node[anchor=base] at ({mm(lx + SKEW):.3f},{ymm(355.2):.3f}) {{{font(7.2, True)} {lat}}};")
