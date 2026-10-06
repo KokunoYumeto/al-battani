@@ -1,0 +1,474 @@
+{
+ "anchor": "AB01-PDF0762",
+ "master_pdf_page": 762,
+ "printed_page": 313,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": "40",
+ "observations": [
+  "body L7-L10: each pair of signs has a brace printed over its two lines, with its planet between the lines.",
+  "body L25-L27: the ditto marks «»» stand for «in».",
+  "body L29-L30: the hyphens of «Varāha-Mihira», «Al-Bal‘amī» and «aṭ-Ṭabarī» are printed longer, like en dashes; transcribed -."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0762-body-L001",
+     "source_line_no": 1,
+     "tex": "\\Indent \\textbf{\\textsf{Domicilia.}} — Graece \\textgreek{οἶκοι} et etiam \\textgreek{τόποι}, \\textit{domicilia} apud Latinos veteres, Arabice \\textit{bayt}",
+     "transcription": "{gb:Domicilia.} — Graece οἶκοι et etiam τόποι, *domicilia* apud Latinos veteres, Arabice *bayt*",
+     "semantic_anchor": "AB01-PDF0762-P01",
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0762-body-L002",
+     "source_line_no": 2,
+     "tex": "(pl. \\textit{buyūt}), \\textit{domus} et \\textit{domicilia} iuxta astrologos nostros aevi medii. Post \\Name{Ptolemaeum}",
+     "transcription": "(pl. *buyūt*), *domus* et *domicilia* iuxta astrologos nostros aevi medii. Post {sp:Ptolemaeum}",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0762-body-L003",
+     "source_line_no": 3,
+     "tex": "(\\textit{Tetrab.} I, 18 = I, 15 vers. Francof.) nulla est de domiciliis inter astrologos dissensio; duo-",
+     "transcription": "(*Tetrab.* I, 18 = I, 15 vers. Francof.) nulla est de domiciliis inter astrologos dissensio; duo-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0762-body-L004",
+     "source_line_no": 4,
+     "tex": "decim zodiaci signa ita septem planetis distributa sunt, ut Sol ac Luna singula, reliqui bina",
+     "transcription": "decim zodiaci signa ita septem planetis distributa sunt, ut Sol ac Luna singula, reliqui bina",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0762-body-L005",
+     "source_line_no": 5,
+     "tex": "sortiantur signa, quasi domus suas quibus libere gaudeant (\\textgreek{χαίρειν}). Est ergo planeta dominus",
+     "transcription": "sortiantur signa, quasi domus suas quibus libere gaudeant (χαίρειν). Est ergo planeta dominus",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0762-body-L006",
+     "source_line_no": 6,
+     "tex": "(\\textgreek{οἰκοδεσπότης}, \\textit{ṣāḥib, rabb}) domicilii sui. Ut ex ipsa figura elicitur, domicilia haec sunt:",
+     "transcription": "(οἰκοδεσπότης, *ṣāḥib, rabb*) domicilii sui. Ut ex ipsa figura elicitur, domicilia haec sunt:",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0762-body-L007",
+     "source_line_no": 7,
+     "tex": "\\mbox{}\\rlap{\\hspace*{13.67mm}\\smash{\\rlap{Leo — Soli}}}\\rlap{\\hspace*{58.14mm}\\smash{\\rlap{Sagittarius}}}\\rlap{\\hspace*{76.46mm}\\smash{\\makebox[0pt][c]{\\smash{\\raisebox{-16.6pt}{\\tikz\\draw[line width=.55pt,decorate,decoration={brace,amplitude=2.3pt}] (0,25.8pt) -- (0,0);}}}}}\\rlap{\\hspace*{78.85mm}\\smash{\\raisebox{-.55\\baselineskip}{\\rlap{Iovi}}}}\\rlap{\\hspace*{98.87mm}\\smash{\\rlap{Libra}}}\\rlap{\\hspace*{112.90mm}\\smash{\\makebox[0pt][c]{\\smash{\\raisebox{-16.6pt}{\\tikz\\draw[line width=.55pt,decorate,decoration={brace,amplitude=2.3pt}] (0,25.8pt) -- (0,0);}}}}}\\rlap{\\hspace*{115.91mm}\\smash{\\raisebox{-.55\\baselineskip}{\\rlap{Veneri}}}}",
+     "transcription": "Leo — Soli Sagittarius {rbrace2} Iovi Libra {rbrace2} Veneri",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0762-body-L008",
+     "source_line_no": 8,
+     "tex": "\\mbox{}\\rlap{\\hspace*{13.67mm}\\smash{\\rlap{Cancer — Lunae}}}\\rlap{\\hspace*{58.14mm}\\smash{\\rlap{Pisces}}}\\rlap{\\hspace*{98.87mm}\\smash{\\rlap{Taurus}}}",
+     "transcription": "Cancer — Lunae Pisces Taurus",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0762-body-L009",
+     "source_line_no": 9,
+     "tex": "\\mbox{}\\rlap{\\hspace*{13.67mm}\\smash{\\rlap{Capricornus}}}\\rlap{\\hspace*{34.21mm}\\smash{\\makebox[0pt][c]{\\smash{\\raisebox{-16.6pt}{\\tikz\\draw[line width=.55pt,decorate,decoration={brace,amplitude=2.3pt}] (0,25.8pt) -- (0,0);}}}}}\\rlap{\\hspace*{36.17mm}\\smash{\\raisebox{-.55\\baselineskip}{\\rlap{Saturno}}}}\\rlap{\\hspace*{58.14mm}\\smash{\\rlap{Scorpius}}}\\rlap{\\hspace*{76.59mm}\\smash{\\makebox[0pt][c]{\\smash{\\raisebox{-16.6pt}{\\tikz\\draw[line width=.55pt,decorate,decoration={brace,amplitude=2.3pt}] (0,25.8pt) -- (0,0);}}}}}\\rlap{\\hspace*{78.95mm}\\smash{\\raisebox{-.55\\baselineskip}{\\rlap{Marti}}}}\\rlap{\\hspace*{98.87mm}\\smash{\\rlap{Gemini}}}\\rlap{\\hspace*{112.84mm}\\smash{\\makebox[0pt][c]{\\smash{\\raisebox{-16.6pt}{\\tikz\\draw[line width=.55pt,decorate,decoration={brace,amplitude=2.3pt}] (0,25.8pt) -- (0,0);}}}}}\\rlap{\\hspace*{115.23mm}\\smash{\\raisebox{-.55\\baselineskip}{\\rlap{Mercurio}}}}",
+     "transcription": "Capricornus {rbrace2} Saturno Scorpius {rbrace2} Marti Gemini {rbrace2} Mercurio",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0762-body-L010",
+     "source_line_no": 10,
+     "tex": "\\mbox{}\\rlap{\\hspace*{13.67mm}\\smash{\\rlap{Aquarius}}}\\rlap{\\hspace*{58.14mm}\\smash{\\rlap{Aries}}}\\rlap{\\hspace*{98.87mm}\\smash{\\rlap{Virgo}}}",
+     "transcription": "Aquarius Aries Virgo",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0762-body-L011",
+     "source_line_no": 11,
+     "tex": "Cfr. \\Name{Bouché-Leclercq} p. 182–92; \\Name{Boll} p. 233–34; \\Name{Firmicus} II, 2; \\Name{Albumasar}",
+     "transcription": "Cfr. {sp:Bouché-Leclercq} p. 182–92; {sp:Boll} p. 233–34; {sp:Firmicus} II, 2; {sp:Albumasar}",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0762-body-L012",
+     "source_line_no": 12,
+     "tex": "V, 3; \\Name{Alchabitius} I, 2 (f. aa 3); \\textit{Propädeutik} p. 50; \\textit{Mafātīḥ al-‘ulūm} p. 225; \\Name{Muḥam-}",
+     "transcription": "V, 3; {sp:Alchabitius} I, 2 (f. aa 3); *Propädeutik* p. 50; *Mafātīḥ al-‘ulūm* p. 225; {sp:Muḥam-}",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0762-body-L013",
+     "source_line_no": 13,
+     "tex": "\\Name{mad as-Sūsī}, \\textit{al-Mumta‘}, fasc. IX, p. 4 et 8, etc.",
+     "transcription": "{sp:mad as-Sūsī}, *al-Mumta‘*, fasc. IX, p. 4 et 8, etc.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0762-body-L014",
+     "source_line_no": 14,
+     "tex": "\\Indent \\textbf{\\textsf{Exaltationes.}} — Graecorum \\textgreek{ὑψώματα}, \\textit{sublimitates} Plinii, \\textit{altitudines} Firmici, Arabum",
+     "transcription": "{gb:Exaltationes.} — Graecorum ὑψώματα, *sublimitates* Plinii, *altitudines* Firmici, Arabum",
+     "semantic_anchor": "AB01-PDF0762-P02",
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0762-body-L015",
+     "source_line_no": 15,
+     "tex": "\\textit{sharaf} (pl. \\textit{ashrāf}) « elatio, dignitas, gloria », unde apud astrologos aevi medii \\textit{exaltationes} (1).",
+     "transcription": "*sharaf* (pl. *ashrāf*) « elatio, dignitas, gloria », unde apud astrologos aevi medii *exaltationes* (1).",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0762-body-L016",
+     "source_line_no": 16,
+     "tex": "Exaltatio est zodiaci signum in quo planeta maximam suam potestatem obtinet (ita \\Name{Ptole-}",
+     "transcription": "Exaltatio est zodiaci signum in quo planeta maximam suam potestatem obtinet (ita {sp:Ptole-}",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0762-body-L017",
+     "source_line_no": 17,
+     "tex": "\\Name{maeus}, \\textit{Tetrab.} I, 20 = I, 17 vers. Francof.; \\textit{Propädeutik} p. 50–51; \\textit{Mafātīḥ al-‘ulūm}",
+     "transcription": "{sp:maeus}, *Tetrab.* I, 20 = I, 17 vers. Francof.; *Propädeutik* p. 50–51; *Mafātīḥ al-‘ulūm*",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0762-body-L018",
+     "source_line_no": 18,
+     "tex": "p. 225), vel peculiaris gradus illius signi (ut plerique astrologi sentiunt). De signibus omnes",
+     "transcription": "p. 225), vel peculiaris gradus illius signi (ut plerique astrologi sentiunt). De signibus omnes",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0762-body-L019",
+     "source_line_no": 19,
+     "tex": "concordant; de gradibus sola fortasse dissensio in exaltatione Saturni. Numeri qui colliguntur",
+     "transcription": "concordant; de gradibus sola fortasse dissensio in exaltatione Saturni. Numeri qui colliguntur",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0762-body-L020",
+     "source_line_no": 20,
+     "tex": "ex \\Name{Albumasar} V, 5 (« de stellarum principatu iuxta ceteros astrologos »), \\Name{Alchabitio}, I, 3",
+     "transcription": "ex {sp:Albumasar} V, 5 (« de stellarum principatu iuxta ceteros astrologos »), {sp:Alchabitio}, I, 3",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0762-body-L021",
+     "source_line_no": 21,
+     "tex": "(f. aa 3,v.), \\Name{al-Akhḍarī} p. 61–63, \\Name{Muḥammad as-Sūsī} l. c., Iudaeo \\Name{Ibn ‘Ezrā} (\\textit{Opera}",
+     "transcription": "(f. aa 3,v.), {sp:al-Akhḍarī} p. 61–63, {sp:Muḥammad as-Sūsī} l. c., Iudaeo {sp:Ibn ‘Ezrā} (*Opera*",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0762-body-L022",
+     "source_line_no": 22,
+     "tex": "\\textit{astrologica}, Venetiis 1507, p. \\textsc{iv} sq.), et hoc nostro codice Escurialensi (ubi in Cancro false",
+     "transcription": "*astrologica*, Venetiis 1507, p. {sc:iv} sq.), et hoc nostro codice Escurialensi (ubi in Cancro false",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0762-body-L023",
+     "source_line_no": 23,
+     "tex": "\\ArabicRun{يد} 14° pro \\ArabicRun{يه} 15°) omnino concordant quantitatibus in poemate \\Name{Dorothei Sidonii} expositis (2):",
+     "transcription": "{ar:يد} 14° pro {ar:يه} 15°) omnino concordant quantitatibus in poemate {sp:Dorothei Sidonii} expositis (2):",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0762-body-L024",
+     "source_line_no": 24,
+     "tex": "\\mbox{}\\rlap{\\hspace*{27.40mm}\\smash{\\rlap{Solis}}}\\rlap{\\hspace*{45.17mm}\\smash{\\llap{in}}}\\rlap{\\hspace*{52.55mm}\\smash{\\llap{19°}}}\\rlap{\\hspace*{54.60mm}\\smash{\\rlap{Arietis}}}\\rlap{\\hspace*{79.60mm}\\smash{\\rlap{Martis}}}\\rlap{\\hspace*{97.31mm}\\smash{\\llap{in}}}\\rlap{\\hspace*{104.73mm}\\smash{\\llap{28°}}}\\rlap{\\hspace*{106.88mm}\\smash{\\rlap{Capricorni}}}",
+     "transcription": "Solis in 19° Arietis Martis in 28° Capricorni",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0762-body-L025",
+     "source_line_no": 25,
+     "tex": "\\mbox{}\\rlap{\\hspace*{27.40mm}\\smash{\\rlap{Lunae}}}\\rlap{\\hspace*{45.17mm}\\smash{\\llap{»}}}\\rlap{\\hspace*{52.55mm}\\smash{\\llap{3°}}}\\rlap{\\hspace*{54.60mm}\\smash{\\rlap{Tauri}}}\\rlap{\\hspace*{79.60mm}\\smash{\\rlap{Veneris}}}\\rlap{\\hspace*{97.31mm}\\smash{\\llap{»}}}\\rlap{\\hspace*{104.73mm}\\smash{\\llap{27°}}}\\rlap{\\hspace*{106.88mm}\\smash{\\rlap{Piscium}}}",
+     "transcription": "Lunae » 3° Tauri Veneris » 27° Piscium",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0762-body-L026",
+     "source_line_no": 26,
+     "tex": "\\mbox{}\\rlap{\\hspace*{27.40mm}\\smash{\\rlap{Saturni}}}\\rlap{\\hspace*{45.17mm}\\smash{\\llap{»}}}\\rlap{\\hspace*{52.55mm}\\smash{\\llap{21°}}}\\rlap{\\hspace*{54.60mm}\\smash{\\rlap{Librae}}}\\rlap{\\hspace*{79.60mm}\\smash{\\rlap{Mercurii}}}\\rlap{\\hspace*{97.31mm}\\smash{\\llap{»}}}\\rlap{\\hspace*{104.73mm}\\smash{\\llap{15°}}}\\rlap{\\hspace*{106.88mm}\\smash{\\rlap{Virginis}}}",
+     "transcription": "Saturni » 21° Librae Mercurii » 15° Virginis",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0762-body-L027",
+     "source_line_no": 27,
+     "tex": "\\mbox{}\\rlap{\\hspace*{27.40mm}\\smash{\\rlap{Iovis}}}\\rlap{\\hspace*{45.17mm}\\smash{\\llap{»}}}\\rlap{\\hspace*{52.55mm}\\smash{\\llap{15°}}}\\rlap{\\hspace*{54.60mm}\\smash{\\rlap{Cancri}}}",
+     "transcription": "Iovis » 15° Cancri",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0762-body-L028",
+     "source_line_no": 28,
+     "tex": "Tamen Saturni exaltatio collocatur in 20° (pro 21°) Librae a \\Name{Plinio} (3), \\Name{Firmico} (II, 3) et",
+     "transcription": "Tamen Saturni exaltatio collocatur in 20° (pro 21°) Librae a {sp:Plinio} (3), {sp:Firmico} (II, 3) et",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0762-body-L029",
+     "source_line_no": 29,
+     "tex": "Indico \\Name{Varāha-Mihira} (4); quod igitur pervetustus error videtur.",
+     "transcription": "Indico {sp:Varāha-Mihira} (4); quod igitur pervetustus error videtur.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0762-body-L030",
+     "source_line_no": 30,
+     "tex": "\\Indent \\Name{Al-Bal‘amī}, qui anno 352 heg. (963 Chr.) annales aṭ-Ṭabarī Persice in epitomen re-",
+     "transcription": "{sp:Al-Bal‘amī}, qui anno 352 heg. (963 Chr.) annales aṭ-Ṭabarī Persice in epitomen re-",
+     "semantic_anchor": "AB01-PDF0762-P03",
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0762-body-L031",
+     "source_line_no": 31,
+     "tex": "degit, has exaltationes putat fuisse loca planetarum tempore quo mundus creatus est (5); eius",
+     "transcription": "degit, has exaltationes putat fuisse loca planetarum tempore quo mundus creatus est (5); eius",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0762-body-L032",
+     "source_line_no": 32,
+     "tex": "numeri nostris quadrant, praeter Solem in 29° Arietis collocatum.",
+     "transcription": "numeri nostris quadrant, praeter Solem in 29° Arietis collocatum.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0762-body-L033",
+     "source_line_no": 33,
+     "tex": "\\Indent \\Name{Albumasar} V, 5, \\Name{Alchabitius} l. c., codex Escurialensis, \\textit{Mafātīḥ al-‘ulūm} l. c.,",
+     "transcription": "{sp:Albumasar} V, 5, {sp:Alchabitius} l. c., codex Escurialensis, *Mafātīḥ al-‘ulūm* l. c.,",
+     "semantic_anchor": "AB01-PDF0762-P04",
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0762-body-L034",
+     "source_line_no": 34,
+     "tex": "etiam nodis Lunae exaltationem tribuunt, Capiti nempe in 3° Geminorum, Caudae in 3° Sagit-",
+     "transcription": "etiam nodis Lunae exaltationem tribuunt, Capiti nempe in 3° Geminorum, Caudae in 3° Sagit-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0762-body-L035",
+     "source_line_no": 35,
+     "tex": "tarii. Quod apud Graecos non reperi.",
+     "transcription": "tarii. Quod apud Graecos non reperi.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    }
+   ]
+  },
+  {
+   "role": "notes_left",
+   "lines": [
+    {
+     "id": "AB01-PDF0762-notes_left-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (1) \\Name{Albumasar} V, 5-7 eas \\textit{principatus} vocat;",
+     "transcription": "(1) {sp:Albumasar} V, 5-7 eas *principatus* vocat;",
+     "semantic_anchor": "AB01-PDF0762-N01",
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0762-notes_left-L002",
+     "source_line_no": null,
+     "tex": "ait etiam in initio 5\\textsuperscript{i} capitis: « deinceps eam stel-",
+     "transcription": "ait etiam in initio 5{sup:i} capitis: « deinceps eam stel-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0762-notes_left-L003",
+     "source_line_no": null,
+     "tex": "« larum dignitatem quam nos principatum vocamus",
+     "transcription": "« larum dignitatem quam nos principatum vocamus",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0762-notes_left-L004",
+     "source_line_no": null,
+     "tex": "« sive regnum alii sive potestatem seu quo alio no-",
+     "transcription": "« sive regnum alii sive potestatem seu quo alio no-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0762-notes_left-L005",
+     "source_line_no": null,
+     "tex": "« mine appellent persequi ordo postulat ».",
+     "transcription": "« mine appellent persequi ordo postulat ».",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0762-notes_left-L006",
+     "source_line_no": null,
+     "tex": "\\Indent (2) Vide \\Name{Bouché-Leclercq} p. 195 (p. 192-199",
+     "transcription": "(2) Vide {sp:Bouché-Leclercq} p. 195 (p. 192-199",
+     "semantic_anchor": "AB01-PDF0762-N02",
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0762-notes_left-L007",
+     "source_line_no": null,
+     "tex": "Graecam exaltationum doctrinam enarrat).",
+     "transcription": "Graecam exaltationum doctrinam enarrat).",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0762-notes_left-L008",
+     "source_line_no": null,
+     "tex": "\\Indent (3) \\textit{Hist. Nat.} II, 16, qui falso sublimitatem Solis",
+     "transcription": "(3) *Hist. Nat.* II, 16, qui falso sublimitatem Solis",
+     "semantic_anchor": "AB01-PDF0762-N03",
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0762-notes_left-L009",
+     "source_line_no": null,
+     "tex": "in XXIX (pro XIX) parte Arietis, Lunae in IV (pro III)",
+     "transcription": "in XXIX (pro XIX) parte Arietis, Lunae in IV (pro III)",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0762-notes_left-L010",
+     "source_line_no": null,
+     "tex": "Tauri, Veneris in XVII (pro XXVII) Piscium.",
+     "transcription": "Tauri, Veneris in XVII (pro XXVII) Piscium.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  },
+  {
+   "role": "notes_right",
+   "lines": [
+    {
+     "id": "AB01-PDF0762-notes_right-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (4) \\textit{Laghu-Jātaka}, apud A. \\Name{Weber}, \\textit{Zur Ge-}",
+     "transcription": "(4) *Laghu-Jātaka*, apud A. {sp:Weber}, *Zur Ge-*",
+     "semantic_anchor": "AB01-PDF0762-N04",
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0762-notes_right-L002",
+     "source_line_no": null,
+     "tex": "\\textit{schichte der indischen Astrologie} (Indische Studien,",
+     "transcription": "*schichte der indischen Astrologie* (Indische Studien,",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0762-notes_right-L003",
+     "source_line_no": null,
+     "tex": "t. II, 1853), p. 277 sq.; item apud \\Name{al-Bīrūnī}, \\textit{In-}",
+     "transcription": "t. II, 1853), p. 277 sq.; item apud {sp:al-Bīrūnī}, *In-*",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0762-notes_right-L004",
+     "source_line_no": null,
+     "tex": "\\textit{dia}, t. II, p. 217 vers. (\\SunSym{} in 10° Arietis). Indi exal-",
+     "transcription": "*dia*, t. II, p. 217 vers. (⊙ in 10° Arietis). Indi exal-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0762-notes_right-L005",
+     "source_line_no": null,
+     "tex": "tationis signum vocant \\textit{uccastha}, peculiarem exal-",
+     "transcription": "tationis signum vocant *uccastha*, peculiarem exal-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0762-notes_right-L006",
+     "source_line_no": null,
+     "tex": "tationis gradum \\textit{paramoccastha}.",
+     "transcription": "tationis gradum *paramoccastha*.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0762-notes_right-L007",
+     "source_line_no": null,
+     "tex": "\\Indent (5) \\textit{Chronique d’Abou Djafer Mohammed....}",
+     "transcription": "(5) *Chronique d’Abou Djafer Mohammed....*",
+     "semantic_anchor": "AB01-PDF0762-N05",
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0762-notes_right-L008",
+     "source_line_no": null,
+     "tex": "\\Name{Tabari}, \\textit{traduite sur la version persane d’Abou}",
+     "transcription": "{sp:Tabari}, *traduite sur la version persane d’Abou*",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0762-notes_right-L009",
+     "source_line_no": null,
+     "tex": "\\textit{’Ali Mohammed....} \\Name{Bel’ami} \\textit{par H. Zotenberg},",
+     "transcription": "*’Ali Mohammed....* {sp:Bel’ami} *par H. Zotenberg*,",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0762-notes_right-L010",
+     "source_line_no": null,
+     "tex": "Paris 1867-74, t. I, p. 3.",
+     "transcription": "Paris 1867-74, t. I, p. 3.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  }
+ ]
+}
