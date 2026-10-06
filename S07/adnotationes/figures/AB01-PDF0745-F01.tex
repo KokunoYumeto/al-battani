@@ -1,0 +1,27 @@
+% Nallino, Part II p. 296: the spherical triangle of the zenith Z, the pole P and the Sun S, redrawn from the print at
+% the size of the print. The coordinates are those of a 400 dpi render of the figure (crop from x 128 pt, y 214 pt of
+% the master page; y downward), traced along the printed lines. The arcs are q = ZS, c = ZP (drawn on beyond P) and
+% b = SP; the angles are mu at Z, nu at S and theta at P (marked by a dot). The Sun is drawn as a circle around the
+% vertex S, the arcs q and b running to its centre.
+\begin{tikzpicture}[x=0.0635mm,y=-0.0635mm,line width=0.6pt,line join=round,line cap=round,every node/.style={font=\bfseries\itshape\small,inner sep=1pt}]
+\path (-25,-30);
+\coordinate (Z) at (107,87);
+\coordinate (S) at (42,274);
+\coordinate (P) at (590,301);
+\draw plot[smooth] coordinates {(Z) (100,100) (90,120) (80,140) (72,160) (64,180) (58,200) (52,220) (47,240) (44,260) (S)};
+\draw plot[smooth] coordinates {(Z) (120,86) (160,84) (200,84) (240,88) (280,96) (320,106) (360,120) (400,138) (440,160)
+  (480,186) (520,220) (560,261) (P) (604,320) (616,340) (626,360) (637,388)};
+\draw plot[smooth] coordinates {(S) (60,272) (80,265) (100,260) (140,252) (180,244) (220,240) (260,238) (300,238) (340,240)
+  (380,244) (420,250) (460,258) (500,270) (540,282) (560,290) (P)};
+\draw[line width=0.9pt] (S) circle[radius=18.5];
+\fill (538,258) circle[radius=3];
+\node at (102,52) {Z};
+\node at (124,128) {\textgreek{μ}};
+\node at (26,158) {q};
+\node at (367,92) {c};
+\node at (77,236) {\textgreek{ν}};
+\node at (322,272) {b};
+\node at (505,246) {\textgreek{θ}};
+\node at (630,285) {P};
+\node at (22,323) {S};
+\end{tikzpicture}

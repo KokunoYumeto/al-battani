@@ -51,6 +51,7 @@ Transcription format (UTF-8; one printed line per source line, as printed, with 
                          left, with the
                          printed lines between the two directives set beside it
   @wrapr X FILE ... @endwrap   the same with the figure on the right, from X mm; the lines in a box on the left
+  @figc FILE             a figure or an ornament redrawn in figures/FILE.tex, centred on a line of its own
   @notes                 the footnotes follow, left column; @col switches to the right column (a thin rule is set
                          between the two columns, as printed); @notes1 one column
   @sig TEXT              the signature at the foot of the page
@@ -260,7 +261,7 @@ def parse(path):
                          "@calcset", "@cols", "@row", "@rowrule", "@mcols", "@mcnext", "@mcend", "@chead", "@skip",
                          "@small", "@normal", "@rowgap", "@hrule", "@wrap", "@wrapr", "@endwrap", "@brace", "@pos",
                          "@posrule", "@posbrace", "@hrow", "@at", "@rowsep", "@colpad", "@hspan", "@spanbrace",
-                         "@cellrule",
+                         "@cellrule", "@figc",
                          "@fontsize"):
                 rec[part].append((cmd[1:], arg))
             else:
@@ -708,6 +709,15 @@ def section(items, prefix, role, numbered):
                        + r"\setlength{\GutterOffset}{0pt}")
             recs.append({"id": fid, "source_line_no": None, "tex": r"\input{figures/" + fname + "}",
                          "transcription": f"[figure, redrawn: figures/{fname}.tex]", "semantic_anchor": None,
+                         "source_role": "NALLINO_FIGURE"})
+            continue
+        if kind == "figc":  # @figc FILE: a figure or an ornament redrawn in figures/FILE.tex, centred on its own line
+            fig += 1
+            fid = f"{prefix}-{role}-F{fig:02d}"
+            out.append(r"\par\noindent\hypertarget{" + fid + r"}{}\CenterLine{\input{figures/" + text.strip()
+                       + r"}}\par")
+            recs.append({"id": fid, "source_line_no": None, "tex": r"\input{figures/" + text.strip() + "}",
+                         "transcription": f"[figure, redrawn: figures/{text.strip()}.tex]", "semantic_anchor": None,
                          "source_role": "NALLINO_FIGURE"})
             continue
         if kind == "endwrap":

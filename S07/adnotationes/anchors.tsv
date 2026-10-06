@@ -4998,3 +4998,47 @@ AB01-PDF0744-body-L037	295	body	umbrae tunc temporis cum singulae horae *tempora
 AB01-PDF0744-body-L038	295	body	malis aut solstitii aestivi incipiunt. Primo igitur oportet pro utroque solstitio arcum semidiur-
 AB01-PDF0744-body-L039	295	body	num Solis, cuius sexta pars horam temporalem conficit, supputare, et angulos horarios respon-
 AB01-PDF0744-body-L040	295	body	dentes singulis horis (ab ortu ad occasum Solis) elicere.
+AB01-PDF0745-body-L001	296	body	**[**Quovis temporis momento longitudo umbrae aequatur longitudini gnomonis multiplicatae
+AB01-PDF0745-body-L002	296	body	in tangentem distantiae zenithalis Solis; azimuth vel directio umbrae, scilicet angulus hac um-
+AB01-PDF0745-body-L003	296	body	bra et meridiano interceptus, idem est quod azimuth Solis. Tabellae hae Albatenii exhibent
+AB01-PDF0745-body-L004	296	body	complementa distantiae zenithalis et azimuth Solis ad 90°, ergo *altitudinem* Solis et *ampli-*
+AB01-PDF0745-body-L005	296	body	*tudinem ortivam* vel *occiduam*. Problema hoc est: Datis angulo horario Solis (una, duobus,
+AB01-PDF0745-body-L006	296	body	tribus ..... horis temporalibus), distantia zenith a polo (54° 0′ pro ar-Raqqah), atque Solis di-
+AB01-PDF0745-body-F01	296	body	[figure, redrawn: figures/AB01-PDF0745-F01.tex]
+AB01-PDF0745-body-L007	296	body	stantia a polo in utroque solstitio (66° 25′ aestivo, 113° 35′ hie-
+AB01-PDF0745-body-L008	296	body	mali pro ar-Raqqah), *azimuth* et *distantiam zenithalem* Solis
+AB01-PDF0745-body-L009	296	body	reperire. Problema {sp:al-Battānī} t. I resolvit; sed formulae ad
+AB01-PDF0745-body-L010	296	body	logarithmicam supputationem aptiores deducuntur auxilio ana-
+AB01-PDF0745-body-L011	296	body	logiis Neperianis. Sit P polus, Z zenith, S Sol, θ angulus ho-
+AB01-PDF0745-body-L012	296	body	rarius ZPS, μ azimuth Solis (in Z), ν angulus parallacticus Solis
+AB01-PDF0745-body-L013	296	body	(in S). Tempore solstitii *aestivi* est *b* = 66° 25′, *c* = 54° 0′ pro ar-Raqqah; analogiae Nepe-
+AB01-PDF0745-body-L014	296	body	rianae praebent
+AB01-PDF0745-body-L015	296	body	tang {sfrac:1/2}(μ + ν) = cotg {sfrac:1/2} θ $\\dfrac{\\text{cos {sfrac:1/2}(66° 25′ — 54° 0′)}}{\\text{cos {sfrac:1/2}(66° 25′ + 54° 0′)}}$
+AB01-PDF0745-body-L016	296	body	tang {sfrac:1/2}(μ — ν) = cotg {sfrac:1/2} θ $\\dfrac{\\text{sin {sfrac:1/2}(66° 25′ — 54° 0′)}}{\\text{sin {sfrac:1/2}(66° 25′ + 54° 0′)}}$,
+AB01-PDF0745-body-L017	296	body	ubi factores fractionales pro omnibus angulis horariis aequales sunt. Statim inde colliguntur:
+AB01-PDF0745-body-L018	296	body	*x* = {sfrac:1/2}(μ + ν), *y* = {sfrac:1/2}(μ — ν), μ = *x* + *y*, ν = *x* — *y*.
+AB01-PDF0745-body-L019	296	body	Noto igitur *azimuth* μ, ex proportione $\\smash{\\dfrac{\\text{sin *q*}}{\\text{sin *b*}}=\\dfrac{\\text{sin θ}}{\\text{sin μ}}}$ facile elicitur *distantia zenithalis q*
+AB01-PDF0745-body-L020	296	body	quaesita. — Tempore solstitii hiemalis pro 90° — ε = 66° 25′ erit 90° + ε = 113° 35′ adhi-
+AB01-PDF0745-body-L021	296	body	bendum.
+AB01-PDF0745-body-L022	296	body	His cognitis, pro utroque solstitio poterunt in plano horizontali sciotherici puncta L et M
+AB01-PDF0745-body-L023	296	body	cuiusque horae temporalis signari, per azimuth μ et longitudinem umbrae (= long. gnomonis
+AB01-PDF0745-body-L024	296	body	× tang *q*). Lineā rectā coniunctis punctis L et M pertinentibus ad eandem horam, prodibit tota
+AB01-PDF0745-body-L025	296	body	linea horaria, quae *proxime* indicabit horam illam toto anni tempore. Vera linea horaria ho-
+AB01-PDF0745-body-L026	296	body	rarum temporalium non recta sed aliquantulum curva est, et nonnisi diebus aequinoctiorum
+AB01-PDF0745-body-L027	296	body	solstitiorumque coincidit cum recta nuper descripta. Error potest aliquot minuta attingere, quae
+AB01-PDF0745-body-L028	296	body	tamen veteres pauci fecisse videntur. Sola linea horaria meridiei etiam horis temporalibus
+AB01-PDF0745-body-L029	296	body	recta est. — {sc:Schiaparelli}.**]**
+AB01-PDF0745-body-L030	296	body	Hac ratione {sp:Schiaparelli} numeros codicis ad veram lectionem reduxit, qui in inferiore
+AB01-PDF0745-body-L031	296	body	tabella adeo a veritate abhorrebant ut ab aliena manu ex aliis elementis suppleti censendi
+AB01-PDF0745-body-L032	296	body	essent. Tabellam directionum seu amplitudinum ad Albatenii mentem condidit etiam {sp:Delam-}
+AB01-PDF0745-body-L033	296	body	{sp:bre}, *Histoire de l’astron. du moyen âge*, p. 60, cuius numeri ad amussim numeris Schia-
+AB01-PDF0745-body-L034	296	body	parelli quadrant. Codex et versio Hispanica (Vh.) has quantitates praebebant:
+AB01-PDF0745-body-L035	296	body	**Cancri** **Capricorni.**
+AB01-PDF0745-body-L036	296	body	19° 36′ 32″ 36° 35′ 24″ (Vh. 37°)
+AB01-PDF0745-body-L037	296	body	10 5 11 46 28 35
+AB01-PDF0745-body-L038	296	body	1 18 35 (Vh. 38′) 54 3 50
+AB01-PDF0745-body-L039	296	body	11 21 31 65 29 57
+AB01-PDF0745-body-L040	296	body	32 58 30 (Vh. 35″) 77 24 57
+AB01-PDF0745-body-L041	296	body	79 36 4 85 1 0
+AB01-PDF0745-body-L042	296	body	Nec codex nec Vh. plagas indicant harum directionum, quas, uncis inclusas, addendas putavimus.
+AB01-PDF0745-body-F02	296	body	[figure, redrawn: figures/AB01-PDF0745-F02.tex]

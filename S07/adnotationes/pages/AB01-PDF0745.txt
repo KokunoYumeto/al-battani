@@ -1,0 +1,65 @@
+@page 745 296
+% Schiaparelli's explanation of the two tables of p. 188 (opened by «[»); the figure (redrawn in
+% figures/AB01-PDF0745-F01.tex) stands on the left of six lines; positions are measured on the print (text edge
+% 123.4 pt): the displayed formulas centred at 74.9 mm, the four equations of L18 at 20.8, 53.0, 84.7 and 111.2 mm;
+% in the table of the directions the degrees end at 41.0 mm (right: 83.0 mm), the minutes at 46.7 mm (88.8 mm), the
+% seconds at 52.3 mm (94.4 mm), the heads are centred at 52.6 and 94.8 mm; the notes on the tables of Part II end
+% with an ornamental rule (figures/AB01-PDF0745-F02.tex)
+^ **[**Quovis temporis momento longitudo umbrae aequatur longitudini gnomonis multiplicatae
+in tangentem distantiae zenithalis Solis; azimuth vel directio umbrae, scilicet angulus hac um-
+bra et meridiano interceptus, idem est quod azimuth Solis. Tabellae hae Albatenii exhibent
+complementa distantiae zenithalis et azimuth Solis ad 90°, ergo *altitudinem* Solis et *ampli-*
+*tudinem ortivam* vel *occiduam*. Problema hoc est: Datis angulo horario Solis (una, duobus,
+tribus ..... horis temporalibus), distantia zenith a polo (54° 0′ pro ar-Raqqah), atque Solis di-
+@wrap 0.243 AB01-PDF0745-F01
+stantia a polo in utroque solstitio (66° 25′ aestivo, 113° 35′ hie-
+mali pro ar-Raqqah), *azimuth* et *distantiam zenithalem* Solis
+reperire. Problema {sp:al-Battānī} t. I resolvit; sed formulae ad
+logarithmicam supputationem aptiores deducuntur auxilio ana-
+logiis Neperianis. Sit P polus, Z zenith, S Sol, θ angulus ho-
+rarius ZPS, μ azimuth Solis (in Z), ν angulus parallacticus Solis
+@endwrap
+@vspace -0.25
+(in S). Tempore solstitii *aestivi* est *b* = 66° 25′, *c* = 54° 0′ pro ar-Raqqah; analogiae Nepe-
+rianae praebent
+@at 74.9^:tang {sfrac:1/2}(μ + ν) = cotg {sfrac:1/2} θ $\dfrac{\text{cos {sfrac:1/2}(66° 25′ — 54° 0′)}}{\text{cos {sfrac:1/2}(66° 25′ + 54° 0′)}}$
+@at 74.9^:tang {sfrac:1/2}(μ — ν) = cotg {sfrac:1/2} θ $\dfrac{\text{sin {sfrac:1/2}(66° 25′ — 54° 0′)}}{\text{sin {sfrac:1/2}(66° 25′ + 54° 0′)}}$,
+@vspace -1.34
+ubi factores fractionales pro omnibus angulis horariis aequales sunt. Statim inde colliguntur:
+@at 20.8:*x* = {sfrac:1/2}(μ + ν), | 53.0:*y* = {sfrac:1/2}(μ — ν), | 84.7:μ = *x* + *y*, | 111.2:ν = *x* — *y*.
+@vspace 2.43
+Noto igitur *azimuth* μ, ex proportione $\smash{\dfrac{\text{sin *q*}}{\text{sin *b*}}=\dfrac{\text{sin θ}}{\text{sin μ}}}$ facile elicitur *distantia zenithalis q*
+@vspace 2.22
+quaesita. — Tempore solstitii hiemalis pro 90° — ε = 66° 25′ erit 90° + ε = 113° 35′ adhi-
+bendum.
+^ His cognitis, pro utroque solstitio poterunt in plano horizontali sciotherici puncta L et M
+cuiusque horae temporalis signari, per azimuth μ et longitudinem umbrae (= long. gnomonis
+× tang *q*). Lineā rectā coniunctis punctis L et M pertinentibus ad eandem horam, prodibit tota
+linea horaria, quae *proxime* indicabit horam illam toto anni tempore. Vera linea horaria ho-
+rarum temporalium non recta sed aliquantulum curva est, et nonnisi diebus aequinoctiorum
+solstitiorumque coincidit cum recta nuper descripta. Error potest aliquot minuta attingere, quae
+tamen veteres pauci fecisse videntur. Sola linea horaria meridiei etiam horis temporalibus
+recta est. — {sc:Schiaparelli}.**]**
+^ Hac ratione {sp:Schiaparelli} numeros codicis ad veram lectionem reduxit, qui in inferiore
+tabella adeo a veritate abhorrebant ut ab aliena manu ex aliis elementis suppleti censendi
+essent. Tabellam directionum seu amplitudinum ad Albatenii mentem condidit etiam {sp:Delam-}
+{sp:bre}, *Histoire de l’astron. du moyen âge*, p. 60, cuius numeri ad amussim numeris Schia-
+parelli quadrant. Codex et versio Hispanica (Vh.) has quantitates praebebant:
+@vspace 1.55
+@pos 52.6^:**Cancri** | 94.8^:**Capricorni.**
+@pos 41.0>:19~° | 46.7>:36~′ | 52.3>:32~″ | 83.0>:36~° | 88.8>:35~′ | 94.4>:24~″ | 98.7:(Vh. 37°)
+@pos 41.0>:10 | 46.7>:5 | 52.3>:11 | 83.0>:46 | 88.8>:28 | 94.4>:35
+@pos 41.0>:1 | 46.7>:18 | 52.3>:35 | 54.2:(Vh. 38′) | 83.0>:54 | 88.8>:3 | 94.4>:50
+@pos 41.0>:11 | 46.7>:21 | 52.3>:31 | 83.0>:65 | 88.8>:29 | 94.4>:57
+@pos 41.0>:32 | 46.7>:58 | 52.3>:30 | 54.2:(Vh. 35″) | 83.0>:77 | 88.8>:24 | 94.4>:57
+@pos 41.0>:79 | 46.7>:36 | 52.3>:4 | 83.0>:85 | 88.8>:1 | 94.4>:0
+Nec codex nec Vh. plagas indicant harum directionum, quas, uncis inclusas, addendas putavimus.
+@vspace 1.7
+@figc AB01-PDF0745-F02
+@obs body L1, L29: the brackets of Schiaparelli's explanation are printed in a heavy type; «Schiaparelli» (L29) in small capitals.
+@obs body L9: a small mark is printed before «al-Battānī»; not transcribed.
+@obs body L12: a small mark is printed above the space after «(in Z),»; not transcribed.
+@obs body L15-L19, L21: the minus signs are printed as dashes; transcribed —; the halves as small fractions ¹/₂.
+@obs body L24: the o of «coniunctis» is printed broken.
+@obs body L29: the r of «recta» is printed raised.
+@obs body L33: a dot is printed above the e of «Histoire»; not transcribed.
