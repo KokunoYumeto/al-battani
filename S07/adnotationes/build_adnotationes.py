@@ -25,7 +25,8 @@ Transcription format (UTF-8; one printed line per source line, as printed, with 
                          @rowgap MM an empty stretch of the table that carries its rules; @brace under|over A B
                          a horizontal brace across the columns A..B between two rows
   @pos X:T | X>:T | ...  a line whose pieces stand at X mm from the left edge (> right-aligned, ^ centred, _ half a
-                         line lower; ~ hangs a unit sign); @posrule X1 X2 a rule between two lines
+                         line lower; ~ hangs a unit sign); @posrule X1 X2 [| X1 X2] rules between two lines;
+                         @posbrace under|over X1 X2 [| X1 X2] horizontal braces between two lines
   @small / @normal       the following lines in small type (9 on 12 pt) / in the type of the text
   > TEXT                 a continuation line of a hanging paragraph (indented 2.5 em)
   @mcols W1 W2 ...       columns of short lines side by side (widths as fractions of the text width); @mcnext
@@ -41,7 +42,7 @@ Transcription format (UTF-8; one printed line per source line, as printed, with 
   ^ TEXT                 a line that begins a paragraph or a footnote (indented); ^^ TEXT indented twice
   % TEXT                 a comment, not printed
 Inline markup: *italic*, **bold**, {gb:...} bold grotesque (the «Pag.» heads), {sp:Name} letter-spaced,
-{spsc:...} letter-spaced small capitals, {fs:...} the small type of table heads,
+{spsc:...} letter-spaced small capitals, {fs:...} the small type of table heads, {sm:...} a smaller type,
 {sc:...} small capitals, {sup:...} superscript, {sub:...} subscript,
 {sfrac:a/b} a small fraction, {0} the zero sign of the tables, {ar:...} an Arabic phrase with its own brackets and
 punctuation, set as one right-to-left run, {rtl:...} a phrase of Arabic numerals and Latin words that the print sets
@@ -164,6 +165,7 @@ def markup(s):
     s = re.sub(r"\{sc:([^}]*)\}", r"\\textsc{\1}", s)
     s = re.sub(r"\{spsc:([^}]*)\}", r"\\Name{\\textsc{\1}}", s)
     s = re.sub(r"\{fs:([^}]*)\}", r"{\\fontsize{7.5}{9}\\selectfont \1}", s)
+    s = re.sub(r"\{sm:([^}]*)\}", r"{\\fontsize{9.5}{11}\\selectfont \1}", s)
     s = re.sub(r"\{gb:([^}]*)\}", r"\\textbf{\\textsf{\1}}", s)
     s = re.sub(r"\{sup:([^}]*)\}", r"\\textsuperscript{\1}", s)
     s = re.sub(r"\{sub:([^}]*)\}", r"\\textsubscript{\1}", s)
@@ -213,7 +215,7 @@ def parse(path):
             elif cmd in ("@title", "@center", "@vspace", "@rule", "@rule2", "@verse", "@calc", "@calcrule",
                          "@calcset", "@cols", "@row", "@rowrule", "@mcols", "@mcnext", "@mcend", "@chead", "@skip",
                          "@small", "@normal", "@rowgap", "@hrule", "@wrap", "@endwrap", "@brace", "@pos",
-                         "@posrule"):
+                         "@posrule", "@posbrace"):
                 rec[part].append((cmd[1:], arg))
             else:
                 raise SystemExit(f"{path.name}: unknown directive {cmd}")
@@ -386,10 +388,28 @@ def pos_tex(src):
 
 
 def posrule_tex(src):
-    """@posrule X1 X2: a rule from X1 to X2 mm between two lines"""
-    x1, x2 = (float(v) for v in src.split())
-    return (r"\par\nointerlineskip\vspace{1pt}\noindent\hspace*{" + f"{x1:.2f}" + r"mm}\rule{" + f"{x2 - x1:.2f}"
-            + r"mm}{.4pt}\par\nointerlineskip\vspace{2pt}")
+    """@posrule X1 X2 [| X1 X2 ...]: rules from X1 to X2 mm between two lines"""
+    pieces = []
+    for span in src.split("|"):
+        x1, x2 = (float(v) for v in span.split())
+        pieces.append(r"\rlap{\hspace*{" + f"{x1:.2f}" + r"mm}\rule{" + f"{x2 - x1:.2f}" + r"mm}{.4pt}}")
+    return (r"\par\nointerlineskip\vspace{1pt}\noindent" + "".join(pieces)
+            + r"\par\nointerlineskip\vspace{2pt}")
+
+
+def posbrace_tex(src):
+    """@posbrace under|over X1 X2 [| X1 X2 ...]: horizontal braces from X1 to X2 mm between two lines"""
+    kind, _, spans = src.partition(" ")
+    pieces = []
+    for span in spans.split("|"):
+        x1, x2 = (float(v) for v in span.split())
+        if kind == "under":
+            br = r"\raisebox{1.5pt}{$\underbrace{\hspace{" + f"{x2 - x1:.2f}" + "mm}}$}"
+        else:
+            br = r"\raisebox{-5.5pt}{$\overbrace{\hspace{" + f"{x2 - x1:.2f}" + "mm}}$}"
+        pieces.append(r"\rlap{\hspace*{" + f"{x1:.2f}" + r"mm}\smash{" + br + "}}")
+    return (r"\par\nointerlineskip\vspace{1pt}\noindent" + "".join(pieces)
+            + r"\par\nointerlineskip\vspace{4pt}\prevdepth=\dp\strutbox")
 
 
 def mc_width(tok):
@@ -441,6 +461,9 @@ def section(items, prefix, role, numbered):
             continue
         if kind == "posrule":
             out.append(posrule_tex(text))
+            continue
+        if kind == "posbrace":
+            out.append(posbrace_tex(text))
             continue
         if kind == "rowgap":
             out.append(rowgap_tex(text))
