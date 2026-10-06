@@ -91,6 +91,10 @@ L += [
      "12 hours of Jupiter are 2′ 30″ (2′ 29.6″); p. 28 drops the half minute, p. 105 rounds it up"),
     ("identity p. 105 hours 18 sat = p. 28", "0° 2′", "0° 1′ on p. 28", "identity",
      "18 hours of Saturn are 1′ 30″ (1′ 30.4″); p. 105 rounds, p. 28 drops the half minute"),
+    # p. 107
+    ("p. 107 fixed stars single 20", "18′ 11″ 24‴", "18′ 10″ 55‴", "value",
+     "twenty years at one degree in 66 years give 18′ 10″ 54.5‴, and twenty times the motion of one year printed "
+     "above (0′ 54″ 33‴) 18′ 11″ 0‴; the collected years of the same page give 0° 18′ 11″ for 20 years"),
 ]
 with open(OUT, "w", encoding="utf-8", newline="") as f:
     w = csv.writer(f, delimiter="\t", lineterminator="\n")

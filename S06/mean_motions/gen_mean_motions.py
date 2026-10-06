@@ -100,12 +100,81 @@ def page_tex(page, rows, groups, places):
     return "\n".join(out)
 
 
+MARK = {"d": "°", "m": "′", "s": "″", "t": "‴"}
+
+
+def fs_value(r, marks):
+    places = [p for p in ("d", "m", "s", "t") if r[p] != ""]
+    return r"\hspace{2mm}".join(r"\makebox[\Mw][r]{" + r[p] + "}" + (r"\rlap{" + MARK[p] + "}" if marks else "")
+                                for p in places)
+
+
+def rot(ar_text, la):
+    return (r"\rotatebox{90}{\parbox{22mm}{\centering\scriptsize " + (r"\textarabic{" + ar_text + r"}\\{}" if ar_text else "")
+            + la + "}}")
+
+
+def headbox(ar_text, la, w):
+    return (r"\parbox[c][22mm][c]{" + w + r"}{\centering\scriptsize " + (r"\textarabic{" + ar_text + r"}\\{}" if ar_text else "")
+            + la.replace(" / ", r"\\{}") + "}")
+
+
+def page107():
+    """p. 107: the motion of the fixed stars; four tables in one frame (collected years, single years, months, days)"""
+    R = read("fs_p2.tsv")
+    T = {t: [r for r in R if r["table"] == t] for t in ("collected", "single", "months", "days")}
+    head = (r"\noindent\makebox[\textwidth]{\hfill{\scriptsize AL-BATTANI OPUS ASTRONOMICUM}\hfill\llap{107}}")
+    out = [r"\clearpage", head, r"\par\vspace{-1mm}\noindent\rule{\textwidth}{.4pt}\par\vspace{1mm}",
+           r"\begin{center}{\small f. 208,r.}\end{center}\vspace{-3mm}", r"\begin{center}\setlength{\tabcolsep}{3pt}"]
+    blocks = []
+    # collected years
+    b = [r"\begin{tabular}[t]{>{\centering\arraybackslash}p{9mm}|>{\centering\arraybackslash}p{22mm}}",
+         rot("سنو الروم المجموعة", r"Anni Romani / collecti.".replace(" / ", r"\\")) + " & "
+         + headbox("مسيرها المجموع", "Motus / in annis Romanis / collectis.", "21mm") + r" \\ \hline"]
+    for i, r in enumerate(T["collected"]):
+        b.append(r["arg"] + " & " + fs_value(r, i == 0) + r" \\[1.9mm]")
+    blocks.append("\n".join(b) + r"\end{tabular}")
+    # single years
+    b = [r"\begin{tabular}[t]{>{\centering\arraybackslash}p{7mm}|>{\centering\arraybackslash}p{24mm}}",
+         r"\multicolumn{2}{c}{\parbox[c][9mm][c]{30mm}{\centering\scriptsize [Motus\\in singulis annis\\Romanis.]}} \\ \hline",
+         rot("سنو الروم المبسوطة", "Anni singuli.") + " & " + headbox("مسيرها المبسوط", "Motus / in annis singulis.", "23mm")
+         + r" \\ \hline", r"\multicolumn{2}{c}{} \\[1.2mm]"]
+    for i, r in enumerate(T["single"]):
+        b.append(r["arg"] + " & " + fs_value(r, i in (0, 19)) + r" \\[1.9mm]")
+    blocks.append("\n".join(b) + r"\end{tabular}")
+    # months
+    b = [r"\begin{tabular}[t]{>{\raggedright\arraybackslash}p{24mm}|>{\centering\arraybackslash}p{15mm}}",
+         r"\multicolumn{2}{c}{\parbox[c][9mm][c]{38mm}{\centering\scriptsize [Motus\\in mensibus Romanis.]}} \\ \hline",
+         headbox("اسماء الشهور الرومية", "Nomina mensium.", "23mm") + " & " + headbox("مسيرها في الشهور", "Motus / in / mensibus.", "14mm")
+         + r" \\ \hline", r"\multicolumn{2}{c}{} \\[1.2mm]"]
+    for i, r in enumerate(T["months"]):
+        name, la = r["arg"].split(" [")
+        b.append(name + r" \\")
+        b.append(r"\hspace*{2mm}[" + la + " & " + fs_value(r, i == 0) + r" \\[2.6mm]")
+    blocks.append("\n".join(b) + r"\end{tabular}")
+    # days
+    b = [r"\begin{tabular}[t]{>{\centering\arraybackslash}p{8mm}|>{\centering\arraybackslash}p{19mm}}",
+         rot("ايام الشهور", "Dies mensis.") + " & " + headbox("في الايام", "[Motus] / in diebus.", "18mm") + r" \\ \hline"]
+    for i, r in enumerate(T["days"]):
+        gap = r"[1.6mm]" if i % 5 == 4 and i < 29 else ""
+        b.append(r["arg"] + " & " + fs_value(r, i in (0, 29)) + r" \\" + gap)
+    blocks.append("\n".join(b) + r"\end{tabular}")
+    out.append(r"\begin{tabular}{||c||c||c||c||}\hline\hline")
+    out.append(r"\multicolumn{4}{||c||}{\parbox{170mm}{\centering\vspace{1mm}{\large \textarabic{جداول حركات الكواكب الثابتة وهي حركة واحدة للجميع}}"
+               r"\\\textbf{Tabulae motus stellarum fixarum, qui omnibus est unus et idem.}\vspace{1mm}}} \\ \hline")
+    out.append(" & ".join(r"\begin{minipage}[t]{" + w + "}\n" + blk + r"\end{minipage}"
+                          for w, blk in zip(("33mm", "33mm", "41mm", "29mm"), blocks)) + r" \\ \hline\hline")
+    out.append(r"\end{tabular}\end{center}")
+    return "\n".join(out)
+
+
 def document():
     out = [PREAMBLE.replace("margin=16mm", "margin=14mm"), WIDTHS, r"\begin{document}"]
     for pages_file, rows_file, groups, places in SETS:
         rows = read(rows_file)
         for page in read(pages_file):
             out.append(page_tex(page, [r for r in rows if r["pdf"] == page["pdf"]], groups, places))
+    out.append(page107())
     out.append(r"\end{document}")
     return "\n".join(out) + "\n"
 

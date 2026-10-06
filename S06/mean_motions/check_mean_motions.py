@@ -1,4 +1,5 @@
-"""Check of Nallino's Part II pp. 19-28 and 72-77, 102-106 (mean motions in the Arab and in the Roman calendar).
+"""Check of Nallino's Part II pp. 19-28 and 72-77, 102-107 (mean motions in the Arab and in the Roman calendar; p. 107
+the motion of the fixed stars, fs_p2.tsv, against one degree in 66 Roman years).
 pp. 19-23 (mm_p2.tsv): the Sun, the Moon, the lunar anomaly and the node, in degrees, minutes and seconds;
 pp. 24-28 (mm5_p2.tsv): Saturn, Jupiter, Mars, and the anomalies of Venus and Mercury, in degrees and minutes.
 Each motion column is a linear function of time: value = a + b * t (mod 360 degrees), with t the number of days
@@ -178,6 +179,25 @@ for table in ("days", "hours"):
             if units(ra_, g, 2) != units(rr, g, 2):
                 found.append((f"identity p. {rr['ppage']} {table} {rr['arg']} {g} = p. {ra_['ppage']}", show(rr, g, 2),
                               f"{show(ra_, g, 2)} on p. {ra_['ppage']}"))
+
+# p. 107, the motion of the fixed stars: one degree in 66 years (al-Battani's precession; Nallino, Part II p. 293), the
+# Roman year of 365 1/4 days; each value within one unit of its last place (three for thirds)
+FS_RATE = 3600 / 66                                       # seconds of arc per Roman year
+for r in read("fs_p2.tsv"):
+    years = {"collected": lambda: int(r["arg"]), "single": lambda: int(r["arg"]),
+             "months": lambda: int(r["days"]) / 365.25, "days": lambda: int(r["arg"]) / 365.25}[r["table"]]()
+    exact = years * FS_RATE                               # seconds
+    places = [p for p in ("d", "m", "s", "t") if r[p] != ""]
+    scale = {"d": 3600, "m": 60, "s": 1, "t": 1 / 60}     # seconds per unit of each place
+    unit = scale[places[-1]]                              # the last printed place
+    dev = (sum(int(r[p]) * scale[p] for p in places) - exact) / unit
+    tol = 3 if places[-1] == "t" else 1
+    where = f"p. 107 fixed stars {r['table']} {r['arg'].split()[0]}"
+    if abs(dev) > tol:
+        shown = " ".join(r[p] + {"d": "°", "m": "′", "s": "″", "t": "‴"}[p] for p in places)
+        found.append((where, shown, f"{exact // 60:.0f}′ {exact % 60:.2f}″ at one degree in 66 years ({dev:+.1f} units)"))
+    else:
+        agree += 1
 
 # the cells Nallino emends: the ledger entry must exist and give the value printed in the table
 noted = {r["where"]: r for r in ledger if r["kind"] == "noted"}
