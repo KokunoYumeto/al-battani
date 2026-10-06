@@ -1,0 +1,363 @@
+{
+ "anchor": "AB01-PDF0741",
+ "master_pdf_page": 741,
+ "printed_page": 292,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "observations": [
+  "body L1, L20-L42: the minus signs are printed as dashes; transcribed —; the tenths of the minutes are printed after a point and a space («17. 2», «74′. 5»); transcribed «17.2», «74′.5».",
+  "body L8: the opening bracket of Schiaparelli's observations is printed in a heavy type, as high as a capital with a descender.",
+  "body L27: a short stroke is printed after the β of «β Orionis»; not transcribed.",
+  "body L28: the e of «Librae» (right) is printed broken, like c.",
+  "body L34: a dot is printed below «30.6»; not transcribed.",
+  "body L41: the rule under the right half is printed at the height of this line, from the number to the end of «18′.29»."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0741-body-L001",
+     "source_line_no": 1,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.00mm}unde}\\rlap{\\hspace*{19.30mm}\\textit{x} = $\\qfrac{1}{2}$(\\textit{B} + \\textit{c}),}\\rlap{\\hspace*{52.00mm}\\textit{y} = $\\qfrac{1}{2}$(\\textit{B} — \\textit{c}),}\\rlap{\\hspace*{85.40mm}\\textit{B} = \\textit{x} + \\textit{y},}\\rlap{\\hspace*{112.00mm}\\textit{c} = \\textit{x} — \\textit{y}.}",
+     "transcription": "unde *x* = {sfrac:1/2}(*B* + *c*), *y* = {sfrac:1/2}(*B* — *c*), *B* = *x* + *y*, *c* = *x* — *y*.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0741-body-L002",
+     "source_line_no": 2,
+     "tex": "Manifeste pro singulis stellis sola quantitas \\textgreek{ω} variat.",
+     "transcription": "Manifeste pro singulis stellis sola quantitas ω variat.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0741-body-L003",
+     "source_line_no": 3,
+     "tex": "\\Indent Si quaeritur \\textit{C}, seu punctum eclipticae cum quo stella \\textit{occidit,} fit \\textgreek{ω} = \\textgreek{α} + \\textit{m} pro stellis",
+     "transcription": "Si quaeritur *C*, seu punctum eclipticae cum quo stella *occidit,* fit ω = α + *m* pro stellis",
+     "semantic_anchor": "AB01-PDF0741-P01",
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0741-body-L004",
+     "source_line_no": 4,
+     "tex": "\\textit{borealem} declinationem habentibus et \\textgreek{ω} = \\textgreek{α} — \\textit{m} pro stellis \\textit{australis} declinationis; in for-",
+     "transcription": "*borealem* declinationem habentibus et ω = α — *m* pro stellis *australis* declinationis; in for-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0741-body-L005",
+     "source_line_no": 5,
+     "tex": "mulis autem factor fractionarius fit divisor illius tang $\\qfrac{1}{2}$ \\textgreek{ω}.",
+     "transcription": "mulis autem factor fractionarius fit divisor illius tang {sfrac:1/2} ω.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0741-body-L006",
+     "source_line_no": 6,
+     "tex": "\\Indent Improbum laborem mendas innumeras codicis quantum fieri poterat multis tentaminibus",
+     "transcription": "Improbum laborem mendas innumeras codicis quantum fieri poterat multis tentaminibus",
+     "semantic_anchor": "AB01-PDF0741-P02",
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0741-body-L007",
+     "source_line_no": 7,
+     "tex": "sanandi \\Name{Schiaparelli} suscepit, cuius observationes generales hic referre iuvat.",
+     "transcription": "sanandi {sp:Schiaparelli} suscepit, cuius observationes generales hic referre iuvat.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0741-body-L008",
+     "source_line_no": 8,
+     "tex": "\\Indent \\textbf{[}Miro modo persaepe \\textit{codex}, in tribus ultimis columnis potissimum, numeros minutorum",
+     "transcription": "**[**Miro modo persaepe *codex*, in tribus ultimis columnis potissimum, numeros minutorum",
+     "semantic_anchor": "AB01-PDF0741-P03",
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0741-body-L009",
+     "source_line_no": 9,
+     "tex": "in cyphrum (0) exeuntes praebet. Stellis nr. 15—75 consideratis, minuta earum trium colum-",
+     "transcription": "in cyphrum (0) exeuntes praebet. Stellis nr. 15—75 consideratis, minuta earum trium colum-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0741-body-L010",
+     "source_line_no": 10,
+     "tex": "narum in \\textit{codice} sexagies quinquies in 0, centies in reliquas novem figuras desinunt; minuta",
+     "transcription": "narum in *codice* sexagies quinquies in 0, centies in reliquas novem figuras desinunt; minuta",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0741-body-L011",
+     "source_line_no": 11,
+     "tex": "culminationis stellarum Ursarum (nr. 17–24) sexies in 0, bis in reliquas figuras. Quod ex ama-",
+     "transcription": "culminationis stellarum Ursarum (nr. 17–24) sexies in 0, bis in reliquas figuras. Quod ex ama-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0741-body-L012",
+     "source_line_no": 12,
+     "tex": "nuensium negligentia in unitatibus scribendis ortum videtur, cum nulla causa sit cur numeri",
+     "transcription": "nuensium negligentia in unitatibus scribendis ortum videtur, cum nulla causa sit cur numeri",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0741-body-L013",
+     "source_line_no": 13,
+     "tex": "trigonometrica supputatione ex aliis deducti tam saepe in 0 desinant.",
+     "transcription": "trigonometrica supputatione ex aliis deducti tam saepe in 0 desinant.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0741-body-L014",
+     "source_line_no": 14,
+     "tex": "\\Indent Alii multi, iique crassissimi errores occurrunt. Si nulla inesset huic tabulae menda, longitu-",
+     "transcription": "Alii multi, iique crassissimi errores occurrunt. Si nulla inesset huic tabulae menda, longitu-",
+     "semantic_anchor": "AB01-PDF0741-P04",
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0741-body-L015",
+     "source_line_no": 15,
+     "tex": "dines stellarum ex eius numeris erutae semper una eademque quantitate differrent a longitu-",
+     "transcription": "dines stellarum ex eius numeris erutae semper una eademque quantitate differrent a longitu-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0741-body-L016",
+     "source_line_no": 16,
+     "tex": "dinibus Catalogi pro 1191 Dhū ’l-qarnayn, scilicet quantitate praecessionis dato temporis",
+     "transcription": "dinibus Catalogi pro 1191 Dhū ’l-qarnayn, scilicet quantitate praecessionis dato temporis",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0741-body-L017",
+     "source_line_no": 17,
+     "tex": "intervallo. Sed quot incredibiles prorsus discrepantiae occurrant pauca exempla ostendent; de-",
+     "transcription": "intervallo. Sed quot incredibiles prorsus discrepantiae occurrant pauca exempla ostendent; de-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0741-body-L018",
+     "source_line_no": 18,
+     "tex": "ductis triginta stellarum longitudinibus ex numeris columnarum I (declinationis) et IV (culmi-",
+     "transcription": "ductis triginta stellarum longitudinibus ex numeris columnarum I (declinationis) et IV (culmi-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0741-body-L019",
+     "source_line_no": 19,
+     "tex": "nationis) quales in \\textit{codice} exstant, hae differentiae a longitudinibus Catalogi 1191 reperiuntur:",
+     "transcription": "nationis) quales in *codice* exstant, hae differentiae a longitudinibus Catalogi 1191 reperiuntur:",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0741-body-L020",
+     "source_line_no": 20,
+     "tex": "\\hspace*{0.0mm}\\makebox[14.00mm][r]{\\smash{nr. 1.}}\\makebox[41.00mm][l]{\\smash{\\hspace*{1.2mm}\\textgreek{α} Bootis}}\\makebox[6.00mm][c]{\\smash{+}}\\makebox[11.50mm][r]{\\smash{74′.5}}\\hspace{2.3mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{2.0mm}\\makebox[11.26mm][r]{\\smash{nr. 29.}}\\makebox[39.60mm][l]{\\smash{\\hspace*{1.2mm}Caput daemonis}}\\makebox[6.00mm][c]{\\smash{—}}\\makebox[11.50mm][r]{\\smash{23′.5}}",
+     "transcription": "nr. 1. | α Bootis | + | 74′.5 | nr. 29. | Caput daemonis | — | 23′.5",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0741-body-L021",
+     "source_line_no": 21,
+     "tex": "\\hspace*{0.0mm}\\makebox[14.00mm][r]{\\smash{2.}}\\makebox[41.00mm][l]{\\smash{\\hspace*{1.2mm}\\textgreek{α} Lyrae}}\\makebox[6.00mm][c]{\\smash{+}}\\makebox[11.50mm][r]{\\smash{17.2}}\\hspace{2.3mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{2.0mm}\\makebox[11.26mm][r]{\\smash{30.}}\\makebox[39.60mm][l]{\\smash{\\hspace*{1.2mm}Capulus ensis}}\\makebox[6.00mm][c]{\\smash{—}}\\makebox[11.50mm][r]{\\smash{60.3}}",
+     "transcription": "2. | α Lyrae | + | 17.2 | 30. | Capulus ensis | — | 60.3",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0741-body-L022",
+     "source_line_no": 22,
+     "tex": "\\hspace*{0.0mm}\\makebox[14.00mm][r]{\\smash{3.}}\\makebox[41.00mm][l]{\\smash{\\hspace*{1.2mm}\\textgreek{α} Aurigae}}\\makebox[6.00mm][c]{\\smash{+}}\\makebox[11.50mm][r]{\\smash{9.4}}\\hspace{2.3mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{2.0mm}\\makebox[11.26mm][r]{\\smash{32.}}\\makebox[39.60mm][l]{\\smash{\\hspace*{1.2mm}\\textgreek{α} Aquilae}}\\makebox[6.00mm][c]{\\smash{+}}\\makebox[11.50mm][r]{\\smash{16.5}}",
+     "transcription": "3. | α Aurigae | + | 9.4 | 32. | α Aquilae | + | 16.5",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0741-body-L023",
+     "source_line_no": 23,
+     "tex": "\\hspace*{0.0mm}\\makebox[14.00mm][r]{\\smash{4.}}\\makebox[41.00mm][l]{\\smash{\\hspace*{1.2mm}\\textgreek{α} Tauri}}\\makebox[6.00mm][c]{\\smash{+}}\\makebox[11.50mm][r]{\\smash{11.8}}\\hspace{2.3mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{2.0mm}\\makebox[11.26mm][r]{\\smash{34.}}\\makebox[39.60mm][l]{\\smash{\\hspace*{1.2mm}Ala Pegasi}}\\makebox[6.00mm][c]{\\smash{+}}\\makebox[11.50mm][r]{\\smash{32.6}}",
+     "transcription": "4. | α Tauri | + | 11.8 | 34. | Ala Pegasi | + | 32.6",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0741-body-L024",
+     "source_line_no": 24,
+     "tex": "\\hspace*{0.0mm}\\makebox[14.00mm][r]{\\smash{5.}}\\makebox[41.00mm][l]{\\smash{\\hspace*{1.2mm}\\textgreek{α} Leonis}}\\makebox[6.00mm][c]{\\smash{+}}\\makebox[11.50mm][r]{\\smash{17.2}}\\hspace{2.3mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{2.0mm}\\makebox[11.26mm][r]{\\smash{37.}}\\makebox[39.60mm][l]{\\smash{\\hspace*{1.2mm}Init. colli Serp.}}\\makebox[6.00mm][c]{\\smash{+}}\\makebox[11.50mm][r]{\\smash{34.0}}",
+     "transcription": "5. | α Leonis | + | 17.2 | 37. | Init. colli Serp. | + | 34.0",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0741-body-L025",
+     "source_line_no": 25,
+     "tex": "\\hspace*{0.0mm}\\makebox[14.00mm][r]{\\smash{7.}}\\makebox[41.00mm][l]{\\smash{\\hspace*{1.2mm}\\textgreek{α} Piscis austr.}}\\makebox[6.00mm][c]{\\smash{+}}\\makebox[11.50mm][r]{\\smash{97.2}}\\hspace{2.3mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{2.0mm}\\makebox[11.26mm][r]{\\smash{38.}}\\makebox[39.60mm][l]{\\smash{\\hspace*{1.2mm}Caput Gem. ant.}}\\makebox[6.00mm][c]{\\smash{+}}\\makebox[11.50mm][r]{\\smash{18.0}}",
+     "transcription": "7. | α Piscis austr. | + | 97.2 | 38. | Caput Gem. ant. | + | 18.0",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0741-body-L026",
+     "source_line_no": 26,
+     "tex": "\\hspace*{0.0mm}\\makebox[14.00mm][r]{\\smash{10.}}\\makebox[41.00mm][l]{\\smash{\\hspace*{1.2mm}\\textgreek{α} Orionis}}\\makebox[6.00mm][c]{\\smash{+}}\\makebox[11.50mm][r]{\\smash{86.8}}\\hspace{2.3mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{2.0mm}\\makebox[11.26mm][r]{\\smash{39.}}\\makebox[39.60mm][l]{\\smash{\\hspace*{1.2mm}Caput Gem. post.}}\\makebox[6.00mm][c]{\\smash{—}}\\makebox[11.50mm][r]{\\smash{58.3}}",
+     "transcription": "10. | α Orionis | + | 86.8 | 39. | Caput Gem. post. | — | 58.3",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0741-body-L027",
+     "source_line_no": 27,
+     "tex": "\\hspace*{0.0mm}\\makebox[14.00mm][r]{\\smash{11.}}\\makebox[41.00mm][l]{\\smash{\\hspace*{1.2mm}\\textgreek{β} Orionis}}\\makebox[6.00mm][c]{\\smash{+}}\\makebox[11.50mm][r]{\\smash{222.5}}\\hspace{2.3mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{2.0mm}\\makebox[11.26mm][r]{\\smash{41.}}\\makebox[39.60mm][l]{\\smash{\\hspace*{1.2mm}Nebulosa Cancri}}\\makebox[6.00mm][c]{\\smash{+}}\\makebox[11.50mm][r]{\\smash{20.4}}",
+     "transcription": "11. | β Orionis | + | 222.5 | 41. | Nebulosa Cancri | + | 20.4",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0741-body-L028",
+     "source_line_no": 28,
+     "tex": "\\hspace*{0.0mm}\\makebox[14.00mm][r]{\\smash{12.}}\\makebox[41.00mm][l]{\\smash{\\hspace*{1.2mm}\\textgreek{ϑ} Eridani}}\\makebox[6.00mm][c]{\\smash{+}}\\makebox[11.50mm][r]{\\smash{96.7}}\\hspace{2.3mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{2.0mm}\\makebox[11.26mm][r]{\\smash{45.}}\\makebox[39.60mm][l]{\\smash{\\hspace*{1.2mm}Librae lanx austr.}}\\makebox[6.00mm][c]{\\smash{+}}\\makebox[11.50mm][r]{\\smash{8.7}}",
+     "transcription": "12. | ϑ Eridani | + | 96.7 | 45. | Librae lanx austr. | + | 8.7",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0741-body-L029",
+     "source_line_no": 29,
+     "tex": "\\hspace*{0.0mm}\\makebox[14.00mm][r]{\\smash{13.}}\\makebox[41.00mm][l]{\\smash{\\hspace*{1.2mm}Sirius}}\\makebox[6.00mm][c]{\\smash{+}}\\makebox[11.50mm][r]{\\smash{26.0}}\\hspace{2.3mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{2.0mm}\\makebox[11.26mm][r]{\\smash{47.}}\\makebox[39.60mm][l]{\\smash{\\hspace*{1.2mm}Cor Scorpii}}\\makebox[6.00mm][c]{\\smash{—}}\\makebox[11.50mm][r]{\\smash{143.8}}",
+     "transcription": "13. | Sirius | + | 26.0 | 47. | Cor Scorpii | — | 143.8",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0741-body-L030",
+     "source_line_no": 30,
+     "tex": "\\hspace*{0.0mm}\\makebox[14.00mm][r]{\\smash{14.}}\\makebox[41.00mm][l]{\\smash{\\hspace*{1.2mm}Procyon}}\\makebox[6.00mm][c]{\\smash{+}}\\makebox[11.50mm][r]{\\smash{17.0}}\\hspace{2.3mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{2.0mm}\\makebox[11.26mm][r]{\\smash{51.}}\\makebox[39.60mm][l]{\\smash{\\hspace*{1.2mm}Cuspis Sagittae}}\\makebox[6.00mm][c]{\\smash{+}}\\makebox[11.50mm][r]{\\smash{46.3}}",
+     "transcription": "14. | Procyon | + | 17.0 | 51. | Cuspis Sagittae | + | 46.3",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0741-body-L031",
+     "source_line_no": 31,
+     "tex": "\\hspace*{0.0mm}\\makebox[14.00mm][r]{\\smash{22.}}\\makebox[41.00mm][l]{\\smash{\\hspace*{1.2mm}Ursa mai. 1\\textsuperscript{a} caud.}}\\makebox[6.00mm][c]{\\smash{+}}\\makebox[11.50mm][r]{\\smash{70.8}}\\hspace{2.3mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{2.0mm}\\makebox[11.26mm][r]{\\smash{55.}}\\makebox[39.60mm][l]{\\smash{\\hspace*{1.2mm}Hum. sin. Orion.}}\\makebox[6.00mm][c]{\\smash{+}}\\makebox[11.50mm][r]{\\smash{17.0}}",
+     "transcription": "22. | Ursa mai. 1{sup:a} caud. | + | 70.8 | 55. | Hum. sin. Orion. | + | 17.0",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0741-body-L032",
+     "source_line_no": 32,
+     "tex": "\\hspace*{0.0mm}\\makebox[14.00mm][r]{\\smash{23.}}\\makebox[41.00mm][l]{\\smash{\\hspace*{1.2mm}Ursa mai. 2\\textsuperscript{a} caud.}}\\makebox[6.00mm][c]{\\smash{+}}\\makebox[11.50mm][r]{\\smash{217.0}}\\hspace{2.3mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{2.0mm}\\makebox[11.26mm][r]{\\smash{56.}}\\makebox[39.60mm][l]{\\smash{\\hspace*{1.2mm}Zonae Orion. 1\\textsuperscript{a}}}\\makebox[6.00mm][c]{\\smash{+}}\\makebox[11.50mm][r]{\\smash{18.9}}",
+     "transcription": "23. | Ursa mai. 2{sup:a} caud. | + | 217.0 | 56. | Zonae Orion. 1{sup:a} | + | 18.9",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0741-body-L033",
+     "source_line_no": 33,
+     "tex": "\\hspace*{0.0mm}\\makebox[14.00mm][r]{\\smash{26.}}\\makebox[41.00mm][l]{\\smash{\\hspace*{1.2mm}Cauda Cygni}}\\makebox[6.00mm][c]{\\smash{—}}\\makebox[11.50mm][r]{\\smash{38.2}}\\hspace{2.3mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{2.0mm}\\makebox[11.26mm][r]{\\smash{57.}}\\makebox[39.60mm][l]{\\smash{\\hspace*{1.2mm}Zonae Orion. 2\\textsuperscript{a}}}\\makebox[6.00mm][c]{\\smash{+}}\\makebox[11.50mm][r]{\\smash{19.4}}",
+     "transcription": "26. | Cauda Cygni | — | 38.2 | 57. | Zonae Orion. 2{sup:a} | + | 19.4",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0741-body-L034",
+     "source_line_no": 34,
+     "tex": "\\hspace*{0.0mm}\\makebox[14.00mm][r]{\\smash{28.}}\\makebox[41.00mm][l]{\\smash{\\hspace*{1.2mm}Latus Persei}}\\makebox[6.00mm][c]{\\smash{—}}\\makebox[11.50mm][r]{\\smash{30.6}}\\hspace{2.3mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{2.0mm}\\makebox[11.26mm][r]{\\smash{58.}}\\makebox[39.60mm][l]{\\smash{\\hspace*{1.2mm}Zonae Orion. 3\\textsuperscript{a}}}\\makebox[6.00mm][c]{\\smash{+}}\\makebox[11.50mm][r]{\\smash{21.3}}",
+     "transcription": "28. | Latus Persei | — | 30.6 | 58. | Zonae Orion. 3{sup:a} | + | 21.3",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0741-body-L035",
+     "source_line_no": 35,
+     "tex": "\\Indent Tamen ex his ipsis triginta stellis, decem discrepantiam circiter + 18′ a Catalogo pro 1191",
+     "transcription": "Tamen ex his ipsis triginta stellis, decem discrepantiam circiter + 18′ a Catalogo pro 1191",
+     "semantic_anchor": "AB01-PDF0741-P05",
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0741-body-L036",
+     "source_line_no": 36,
+     "tex": "exhibent:",
+     "transcription": "exhibent:",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0741-body-L037",
+     "source_line_no": 37,
+     "tex": "\\hspace*{0.0mm}\\makebox[14.00mm][r]{\\smash{nr. 2.}}\\makebox[41.00mm][l]{\\smash{\\hspace*{1.2mm}\\textgreek{α} Lyrae}}\\makebox[6.00mm][c]{\\smash{+}}\\makebox[11.50mm][r]{\\smash{17′.2}}\\hspace{2.3mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{2.0mm}\\makebox[11.26mm][r]{\\smash{nr. 55.}}\\makebox[37.50mm][l]{\\smash{\\hspace*{1.2mm}Hum. sin. Orionis}}\\makebox[6.00mm][c]{\\smash{+}}\\makebox[11.50mm][r]{\\smash{17′.0}}",
+     "transcription": "nr. 2. | α Lyrae | + | 17′.2 | nr. 55. | Hum. sin. Orionis | + | 17′.0",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0741-body-L038",
+     "source_line_no": 38,
+     "tex": "\\hspace*{0.0mm}\\makebox[14.00mm][r]{\\smash{5.}}\\makebox[41.00mm][l]{\\smash{\\hspace*{1.2mm}\\textgreek{α} Leonis}}\\makebox[6.00mm][c]{\\smash{+}}\\makebox[11.50mm][r]{\\smash{17.2}}\\hspace{2.3mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{2.0mm}\\makebox[11.26mm][r]{\\smash{56.}}\\makebox[37.50mm][l]{\\smash{\\hspace*{1.2mm}Zonae Orion. 1\\textsuperscript{a}}}\\makebox[6.00mm][c]{\\smash{+}}\\makebox[11.50mm][r]{\\smash{18.9}}",
+     "transcription": "5. | α Leonis | + | 17.2 | 56. | Zonae Orion. 1{sup:a} | + | 18.9",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0741-body-L039",
+     "source_line_no": 39,
+     "tex": "\\hspace*{0.0mm}\\makebox[14.00mm][r]{\\smash{14.}}\\makebox[41.00mm][l]{\\smash{\\hspace*{1.2mm}Procyon}}\\makebox[6.00mm][c]{\\smash{+}}\\makebox[11.50mm][r]{\\smash{17.0}}\\hspace{2.3mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{2.0mm}\\makebox[11.26mm][r]{\\smash{57.}}\\makebox[37.50mm][l]{\\smash{\\hspace*{1.2mm}Zonae Orion. 2\\textsuperscript{a}}}\\makebox[6.00mm][c]{\\smash{+}}\\makebox[11.50mm][r]{\\smash{19.4}}",
+     "transcription": "14. | Procyon | + | 17.0 | 57. | Zonae Orion. 2{sup:a} | + | 19.4",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0741-body-L040",
+     "source_line_no": 40,
+     "tex": "\\hspace*{0.0mm}\\makebox[14.00mm][r]{\\smash{32.}}\\makebox[41.00mm][l]{\\smash{\\hspace*{1.2mm}\\textgreek{α} Aquilae}}\\makebox[6.00mm][c]{\\smash{+}}\\makebox[11.50mm][r]{\\smash{16.5}}\\hspace{2.3mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{2.0mm}\\makebox[11.26mm][r]{\\smash{58.}}\\makebox[37.50mm][l]{\\smash{\\hspace*{1.2mm}Zonae Orion. 3\\textsuperscript{a}}}\\makebox[6.00mm][c]{\\smash{+}}\\makebox[11.50mm][r]{\\smash{21.3}}",
+     "transcription": "32. | α Aquilae | + | 16.5 | 58. | Zonae Orion. 3{sup:a} | + | 21.3",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0741-body-L041",
+     "source_line_no": 41,
+     "tex": "\\hspace*{0.0mm}\\makebox[14.00mm][r]{\\smash{38.}}\\makebox[41.00mm][l]{\\smash{\\hspace*{1.2mm}Cap. Gem. ant.}}\\makebox[6.00mm][c]{\\smash{+}}\\makebox[11.50mm][r]{\\smash{18.0}}\\hspace{2.3mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{2.0mm}\\makebox[66.26mm][l]{\\rule[2.6pt]{68.1mm}{.4pt}}",
+     "transcription": "38. | Cap. Gem. ant. | + | 18.0 | ",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0741-body-L042",
+     "source_line_no": 42,
+     "tex": "\\hspace*{0.0mm}\\makebox[14.00mm][r]{\\smash{41.}}\\makebox[41.00mm][l]{\\smash{\\hspace*{1.2mm}Nebul. Cancri}}\\makebox[6.00mm][c]{\\smash{+}}\\makebox[11.50mm][r]{\\smash{20.4}}\\hspace{2.3mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{2.0mm}\\makebox[11.26mm][r]{\\smash{}}\\makebox[37.50mm][l]{\\smash{\\hspace*{23.1mm}Medium}}\\makebox[6.00mm][c]{\\smash{+}}\\makebox[11.50mm][r]{18′.2\\rlap{9}}",
+     "transcription": "41. | Nebul. Cancri | + | 20.4 |  | Medium | + | 18′.29",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    }
+   ]
+  }
+ ]
+}

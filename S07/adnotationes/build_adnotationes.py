@@ -19,7 +19,8 @@ Transcription format (UTF-8; one printed line per source line, as printed, with 
   @hrow H | C1 | ...     a head row H mm tall in the same columns, cells centred; {rot:A//B} and {rotb:A//B}
                          (bold) set the lines A, B turned through 90 degrees
   @row C1 | C2 | ...     one row of it (~ hangs a unit sign: 159~°; {brace2} a brace over two rows; a cell
-                         beginning with > is the indented second line of a name);
+                         beginning with > is the indented second line of a name; {hr} a thin rule across the
+                         cell or its span, {hr MM} one MM long);
                          @rowrule - | | - ... a rule under the columns marked -; || in @cols is a double rule,
                          <|| and ||> the double rules of the edges of a boxed table; a cell beginning with >N is
                          indented N mm, one beginning with _ is set half a line lower; @rule2 cols and @hrule cols
@@ -322,6 +323,10 @@ def row_tex(src):
         if ind:  # a continuation line within the cell, indented (6 mm, or >N N mm); markup applies to the rest only
             pre = r"\hspace*{" + (ind.group(1) or "6") + "mm}"
             c = c[ind.end():]
+        hr = re.match(r"^\{hr(?: (\d+(?:\.\d+)?))?\}$", c)
+        if hr:  # a thin rule across the cell (or its span; {hr MM}: MM long), at the height of a dash
+            out.append(r"\makebox[" + str(w) + r"mm][l]{\rule[2.6pt]{" + (hr.group(1) or str(w)) + "mm}{.4pt}}")
+            continue
         if c.startswith("_ "):  # set half a line lower: a head beside a head of two lines
             out.append(r"\makebox[" + str(w) + "mm][" + a + r"]{\smash{\raisebox{-.5\baselineskip}{" + markup(c[2:])
                        + "}}}")
@@ -730,6 +735,7 @@ def section(items, prefix, role, numbered):
                 tex = row_tex(src)
                 src = " | ".join(re.sub(r"^(?:>(?:\d+(?:\.\d+)?)? |_ )", "", t)
                                  for t, _ in span_cells(src)).replace("~", "")
+                src = re.sub(r"\{hr(?: [\d.]+)?\}", "", src)
             elif kind == "hrow":
                 tex = hrow_tex(src)
                 src = " | ".join(t for t, _ in span_cells(src.partition("|")[2]))

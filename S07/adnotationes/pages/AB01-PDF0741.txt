@@ -1,0 +1,60 @@
+@page 741 292
+% the formulas concluded; Schiaparelli's observations on the errors of the codex begin («[», closed on p. 293); the two
+% lists of differences in longitude are set in the columns of the print (text edge 118.0 pt): the numbers end at
+% 14.0 mm, the names start 1.2 mm after them, the signs are centred at 58.0 mm (right part: 130.8 mm, in the second
+% list 128.7 mm), the values end at 72.5 mm (145.3 mm, 143.2 mm); the vertical rule stands at 74.8 mm
+@at 0:unde | 19.3:*x* = {sfrac:1/2}(*B* + *c*), | 52.0:*y* = {sfrac:1/2}(*B* — *c*), | 85.4:*B* = *x* + *y*, | 112.0:*c* = *x* — *y*.
+@vspace 2.75
+Manifeste pro singulis stellis sola quantitas ω variat.
+^ Si quaeritur *C*, seu punctum eclipticae cum quo stella *occidit,* fit ω = α + *m* pro stellis
+*borealem* declinationem habentibus et ω = α — *m* pro stellis *australis* declinationis; in for-
+mulis autem factor fractionarius fit divisor illius tang {sfrac:1/2} ω.
+^ Improbum laborem mendas innumeras codicis quantum fieri poterat multis tentaminibus
+sanandi {sp:Schiaparelli} suscepit, cuius observationes generales hic referre iuvat.
+^ **[**Miro modo persaepe *codex*, in tribus ultimis columnis potissimum, numeros minutorum
+in cyphrum (0) exeuntes praebet. Stellis nr. 15—75 consideratis, minuta earum trium colum-
+narum in *codice* sexagies quinquies in 0, centies in reliquas novem figuras desinunt; minuta
+culminationis stellarum Ursarum (nr. 17–24) sexies in 0, bis in reliquas figuras. Quod ex ama-
+nuensium negligentia in unitatibus scribendis ortum videtur, cum nulla causa sit cur numeri
+trigonometrica supputatione ex aliis deducti tam saepe in 0 desinant.
+^ Alii multi, iique crassissimi errores occurrunt. Si nulla inesset huic tabulae menda, longitu-
+dines stellarum ex eius numeris erutae semper una eademque quantitate differrent a longitu-
+dinibus Catalogi pro 1191 Dhū ’l-qarnayn, scilicet quantitate praecessionis dato temporis
+intervallo. Sed quot incredibiles prorsus discrepantiae occurrant pauca exempla ostendent; de-
+ductis triginta stellarum longitudinibus ex numeris columnarum I (declinationis) et IV (culmi-
+nationis) quales in *codice* exstant, hae differentiae a longitudinibus Catalogi 1191 reperiuntur:
+@vspace 4.6
+@colpad 2.3 2.0
+@cols 0 14.0r 41.0l 6.0c 11.5r | 11.26r 39.6l 6.0c 11.5r
+@row nr. 1. | >1.2 α Bootis | + | 74′.5 | nr. 29. | >1.2 Caput daemonis | — | 23′.5
+@row 2. | >1.2 α Lyrae | + | 17.2 | 30. | >1.2 Capulus ensis | — | 60.3
+@row 3. | >1.2 α Aurigae | + | 9.4 | 32. | >1.2 α Aquilae | + | 16.5
+@row 4. | >1.2 α Tauri | + | 11.8 | 34. | >1.2 Ala Pegasi | + | 32.6
+@row 5. | >1.2 α Leonis | + | 17.2 | 37. | >1.2 Init. colli Serp. | + | 34.0
+@row 7. | >1.2 α Piscis austr. | + | 97.2 | 38. | >1.2 Caput Gem. ant. | + | 18.0
+@row 10. | >1.2 α Orionis | + | 86.8 | 39. | >1.2 Caput Gem. post. | — | 58.3
+@row 11. | >1.2 β Orionis | + | 222.5 | 41. | >1.2 Nebulosa Cancri | + | 20.4
+@row 12. | >1.2 ϑ Eridani | + | 96.7 | 45. | >1.2 Librae lanx austr. | + | 8.7
+@row 13. | >1.2 Sirius | + | 26.0 | 47. | >1.2 Cor Scorpii | — | 143.8
+@row 14. | >1.2 Procyon | + | 17.0 | 51. | >1.2 Cuspis Sagittae | + | 46.3
+@row 22. | >1.2 Ursa mai. 1{sup:a} caud. | + | 70.8 | 55. | >1.2 Hum. sin. Orion. | + | 17.0
+@row 23. | >1.2 Ursa mai. 2{sup:a} caud. | + | 217.0 | 56. | >1.2 Zonae Orion. 1{sup:a} | + | 18.9
+@row 26. | >1.2 Cauda Cygni | — | 38.2 | 57. | >1.2 Zonae Orion. 2{sup:a} | + | 19.4
+@row 28. | >1.2 Latus Persei | — | 30.6 | 58. | >1.2 Zonae Orion. 3{sup:a} | + | 21.3
+@vspace 6.1
+^ Tamen ex his ipsis triginta stellis, decem discrepantiam circiter + 18′ a Catalogo pro 1191
+exhibent:
+@vspace 5.0
+@cols 0 14.0r 41.0l 6.0c 11.5r | 11.26r 37.5l 6.0c 11.5r
+@row nr. 2. | >1.2 α Lyrae | + | 17′.2 | nr. 55. | >1.2 Hum. sin. Orionis | + | 17′.0
+@row 5. | >1.2 α Leonis | + | 17.2 | 56. | >1.2 Zonae Orion. 1{sup:a} | + | 18.9
+@row 14. | >1.2 Procyon | + | 17.0 | 57. | >1.2 Zonae Orion. 2{sup:a} | + | 19.4
+@row 32. | >1.2 α Aquilae | + | 16.5 | 58. | >1.2 Zonae Orion. 3{sup:a} | + | 21.3
+@row 38. | >1.2 Cap. Gem. ant. | + | 18.0 | {hr 68.1}:4
+@row 41. | >1.2 Nebul. Cancri | + | 20.4 | | >23.1 Medium | + | 18′.2~9
+@obs body L1, L20-L42: the minus signs are printed as dashes; transcribed —; the tenths of the minutes are printed after a point and a space («17. 2», «74′. 5»); transcribed «17.2», «74′.5».
+@obs body L8: the opening bracket of Schiaparelli's observations is printed in a heavy type, as high as a capital with a descender.
+@obs body L27: a short stroke is printed after the β of «β Orionis»; not transcribed.
+@obs body L28: the e of «Librae» (right) is printed broken, like c.
+@obs body L34: a dot is printed below «30.6»; not transcribed.
+@obs body L41: the rule under the right half is printed at the height of this line, from the number to the end of «18′.29».
