@@ -1,0 +1,287 @@
+{
+ "anchor": "AB01-PDF0716",
+ "master_pdf_page": 716,
+ "printed_page": 267,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "observations": [
+  "body (table): the numbers in parentheses are false readings, those in italic (with the Arabic numerals) uncertain, as note 1 says; the italic of «24°» and «16′» (Mercury, occultatio, ortus mat.) is transcribed.",
+  "body (lower block, Venus, occultatio, ortus mat., Leo): «45» is printed without the minute sign.",
+  "body (lower block): the head «ortus mat» of Mercury is printed without the period.",
+  "body (table): several dashes are printed broken or short (upper block: Mars, apparitio, Gemini; lower block: Venus, occultatio, occas. vesp., Gemini; Mercury, apparitio, ortus vesp., Cancer; Mercury, occultatio, occas. vesp., Taurus); several closing parentheses are printed broken. Transcribed as — and ).",
+  "body (lower block, Sagittarius): the dot of the yāʾ of «يو» is printed below the wāw."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0716-body-L001",
+     "source_line_no": 1,
+     "tex": "\\CenterLine{\\textbf{Variae lectiones \\textit{Almagesti} ed. \\Name{Liechtenstein}} (1).}",
+     "transcription": "\\textbf{Variae lectiones \\textit{Almagesti} ed. {sp:Liechtenstein}} (1).",
+     "semantic_anchor": "AB01-PDF0716-H01",
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0716-body-L002",
+     "source_line_no": 2,
+     "tex": "\\hspace*{0.0mm}\\rule[-1mm]{.4pt}{13.20mm}\\hspace{1.2pt}\\rule[-1mm]{.4pt}{13.20mm}\\hspace{1.5mm}\\raisebox{-1mm}{\\parbox[b][13.20mm][c]{17.71mm}{\\centering\\fontsize{7.5}{9}\\selectfont\\leavevmode ~\\\\ \\textbf{\\textsc{Signa}}}}\\hspace{1.5mm}\\rule[-1mm]{.4pt}{13.20mm}\\hspace{1.5mm}\\raisebox{-1mm}{\\parbox[b][13.20mm][c]{39.04mm}{\\centering\\fontsize{7.5}{9}\\selectfont\\leavevmode \\textbf{{\\fontsize{9.5}{11}\\selectfont \\Name{\\textsc{Saturnus}}}}}}\\hspace{1.5mm}\\rule[-1mm]{1pt}{13.20mm}\\hspace{1.5mm}\\raisebox{-1mm}{\\parbox[b][13.20mm][c]{38.98mm}{\\centering\\fontsize{7.5}{9}\\selectfont\\leavevmode \\textbf{{\\fontsize{9.5}{11}\\selectfont \\Name{\\textsc{Iupiter}}}}}}\\hspace{1.5mm}\\rule[-1mm]{1pt}{13.20mm}\\hspace{1.5mm}\\raisebox{-1mm}{\\parbox[b][13.20mm][c]{38.94mm}{\\centering\\fontsize{7.5}{9}\\selectfont\\leavevmode \\textbf{{\\fontsize{9.5}{11}\\selectfont \\Name{\\textsc{Mars}}}}}}\\hspace{1.5mm}\\rule[-1mm]{.4pt}{13.20mm}\\hspace{1.2pt}\\rule[-1mm]{.4pt}{13.20mm}",
+     "transcription": "~\\\\ **{sc:Signa}** | **{sm:{spsc:Saturnus}}** | **{sm:{spsc:Iupiter}}** | **{sm:{spsc:Mars}}**",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0716-body-L003",
+     "source_line_no": 3,
+     "tex": "\\hspace*{0.0mm}\\rule[-1mm]{.4pt}{9.70mm}\\hspace{1.2pt}\\rule[-1mm]{.4pt}{9.70mm}\\hspace{1.5mm}\\raisebox{-1mm}{\\parbox[b][9.70mm][c]{17.71mm}{\\centering\\fontsize{7.5}{9}\\selectfont\\leavevmode \\textbf{\\Name{\\textsc{zodiaci}}}\\\\~}}\\hspace{1.5mm}\\rule[-1mm]{.4pt}{9.70mm}\\hspace{1.5mm}\\raisebox{-1mm}{\\parbox[b][9.70mm][c]{17.95mm}{\\centering\\fontsize{7.5}{9}\\selectfont\\leavevmode \\textbf{{\\fontsize{6.6}{8}\\selectfont Apparitio}}}}\\hspace{1.5mm}\\rule[-1mm]{.4pt}{9.70mm}\\hspace{1.5mm}\\raisebox{-1mm}{\\parbox[b][9.70mm][c]{17.95mm}{\\centering\\fontsize{7.5}{9}\\selectfont\\leavevmode \\textbf{{\\fontsize{6.6}{8}\\selectfont Occultatio}}}}\\hspace{1.5mm}\\rule[-1mm]{1pt}{9.70mm}\\hspace{1.5mm}\\raisebox{-1mm}{\\parbox[b][9.70mm][c]{17.95mm}{\\centering\\fontsize{7.5}{9}\\selectfont\\leavevmode \\textbf{{\\fontsize{6.6}{8}\\selectfont Apparitio}}}}\\hspace{1.5mm}\\rule[-1mm]{.4pt}{9.70mm}\\hspace{1.5mm}\\raisebox{-1mm}{\\parbox[b][9.70mm][c]{17.89mm}{\\centering\\fontsize{7.5}{9}\\selectfont\\leavevmode \\textbf{{\\fontsize{6.6}{8}\\selectfont Occultatio}}}}\\hspace{1.5mm}\\rule[-1mm]{1pt}{9.70mm}\\hspace{1.5mm}\\raisebox{-1mm}{\\parbox[b][9.70mm][c]{17.99mm}{\\centering\\fontsize{7.5}{9}\\selectfont\\leavevmode \\textbf{{\\fontsize{6.6}{8}\\selectfont Apparitio}}}}\\hspace{1.5mm}\\rule[-1mm]{.4pt}{9.70mm}\\hspace{1.5mm}\\raisebox{-1mm}{\\parbox[b][9.70mm][c]{17.81mm}{\\centering\\fontsize{7.5}{9}\\selectfont\\leavevmode \\textbf{{\\fontsize{6.6}{8}\\selectfont Occultatio}}}}\\hspace{1.5mm}\\rule[-1mm]{.4pt}{9.70mm}\\hspace{1.2pt}\\rule[-1mm]{.4pt}{9.70mm}",
+     "transcription": "**{spsc:zodiaci}**\\\\~ | **{xs:Apparitio}** | **{xs:Occultatio}** | **{xs:Apparitio}** | **{xs:Occultatio}** | **{xs:Apparitio}** | **{xs:Occultatio}**",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0716-body-L004",
+     "source_line_no": 4,
+     "tex": "\\hspace*{0.0mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[17.71mm][l]{\\smash{Aries}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[7.90mm][c]{\\smash{—}}\\makebox[10.05mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[7.90mm][c]{\\smash{—}}\\makebox[10.05mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{1pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[7.90mm][c]{\\smash{—}}\\makebox[10.05mm][c]{\\smash{(33′)}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[7.87mm][c]{\\smash{—}}\\makebox[10.02mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{1pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[7.92mm][c]{\\smash{—}}\\makebox[10.07mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[7.83mm][c]{\\smash{—}}\\makebox[9.98mm][c]{\\smash{(12′)}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}",
+     "transcription": "Aries | — | — | — | — | — | (33′) | — | — | — | — | — | (12′)",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0716-body-L005",
+     "source_line_no": 5,
+     "tex": "\\hspace*{0.0mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[17.71mm][l]{\\smash{Taurus}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[7.90mm][c]{\\smash{—}}\\makebox[10.05mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[7.90mm][c]{\\smash{—}}\\makebox[10.05mm][c]{\\smash{(7′)}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{1pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[7.90mm][c]{\\smash{—}}\\makebox[10.05mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[7.87mm][c]{\\smash{—}}\\makebox[10.02mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{1pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[7.92mm][c]{\\smash{—}}\\makebox[10.07mm][c]{\\smash{11′}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[7.83mm][c]{\\smash{(16°)}}\\makebox[9.98mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}",
+     "transcription": "Taurus | — | — | — | (7′) | — | — | — | — | — | 11′ | (16°) | —",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0716-body-L006",
+     "source_line_no": 6,
+     "tex": "\\hspace*{0.0mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[17.71mm][l]{\\smash{Gemini}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[7.90mm][c]{\\smash{—}}\\makebox[10.05mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[7.90mm][c]{\\smash{—}}\\makebox[10.05mm][c]{\\smash{(8′)}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{1pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[7.90mm][c]{\\smash{—}}\\makebox[10.05mm][c]{\\smash{(14′)}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[7.87mm][c]{\\smash{—}}\\makebox[10.02mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{1pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[7.92mm][c]{\\smash{—}}\\makebox[10.07mm][c]{\\smash{(14′)}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[7.83mm][c]{\\smash{(17°)}}\\makebox[9.98mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}",
+     "transcription": "Gemini | — | — | — | (8′) | — | (14′) | — | — | — | (14′) | (17°) | —",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0716-body-L007",
+     "source_line_no": 7,
+     "tex": "\\hspace*{0.0mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[17.71mm][l]{\\smash{Cancer}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[7.90mm][c]{\\smash{—}}\\makebox[10.05mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[7.90mm][c]{\\smash{—}}\\makebox[10.05mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{1pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[7.90mm][c]{\\smash{—}}\\makebox[10.05mm][c]{\\smash{44′}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[7.87mm][c]{\\smash{—}}\\makebox[10.02mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{1pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[7.92mm][c]{\\smash{—}}\\makebox[10.07mm][c]{\\smash{(15′)}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[7.83mm][c]{\\smash{—}}\\makebox[9.98mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}",
+     "transcription": "Cancer | — | — | — | — | — | 44′ | — | — | — | (15′) | — | —",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0716-body-L008",
+     "source_line_no": 8,
+     "tex": "\\hspace*{0.0mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[17.71mm][l]{\\smash{Leo}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[7.90mm][c]{\\smash{—}}\\makebox[10.05mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[7.90mm][c]{\\smash{—}}\\makebox[10.05mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{1pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[7.90mm][c]{\\smash{—}}\\makebox[10.05mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[7.87mm][c]{\\smash{—}}\\makebox[10.02mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{1pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[7.92mm][c]{\\smash{—}}\\makebox[10.07mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[7.83mm][c]{\\smash{—}}\\makebox[9.98mm][c]{\\smash{(14′)}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}",
+     "transcription": "Leo | — | — | — | — | — | — | — | — | — | — | — | (14′)",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0716-body-L009",
+     "source_line_no": 9,
+     "tex": "\\hspace*{0.0mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[17.71mm][l]{\\smash{Virgo}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[7.90mm][c]{\\smash{—}}\\makebox[10.05mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[7.90mm][c]{\\smash{—}}\\makebox[10.05mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{1pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[7.90mm][c]{\\smash{—}}\\makebox[10.05mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[7.87mm][c]{\\smash{—}}\\makebox[10.02mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{1pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[7.92mm][c]{\\smash{—}}\\makebox[10.07mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[7.83mm][c]{\\smash{—}}\\makebox[9.98mm][c]{\\smash{11′}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}",
+     "transcription": "Virgo | — | — | — | — | — | — | — | — | — | — | — | 11′",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0716-body-L010",
+     "source_line_no": 10,
+     "tex": "\\hspace*{0.0mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[17.71mm][l]{\\smash{Libra}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[7.90mm][c]{\\smash{—}}\\makebox[10.05mm][c]{\\smash{(15′)}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[7.90mm][c]{\\smash{—}}\\makebox[10.05mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{1pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[7.90mm][c]{\\smash{—}}\\makebox[10.05mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[7.87mm][c]{\\smash{—}}\\makebox[10.02mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{1pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[7.92mm][c]{\\smash{—}}\\makebox[10.07mm][c]{\\smash{(12′)}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[7.83mm][c]{\\smash{—}}\\makebox[9.98mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}",
+     "transcription": "Libra | — | (15′) | — | — | — | — | — | — | — | (12′) | — | —",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0716-body-L011",
+     "source_line_no": 11,
+     "tex": "\\hspace*{0.0mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[17.71mm][l]{\\smash{Scorpius}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[7.90mm][c]{\\smash{—}}\\makebox[10.05mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[7.90mm][c]{\\smash{—}}\\makebox[10.05mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{1pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[7.90mm][c]{\\smash{—}}\\makebox[10.05mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[7.87mm][c]{\\smash{—}}\\makebox[10.02mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{1pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[7.92mm][c]{\\smash{—}}\\makebox[10.07mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[7.83mm][c]{\\smash{—}}\\makebox[9.98mm][c]{\\smash{11′}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}",
+     "transcription": "Scorpius | — | — | — | — | — | — | — | — | — | — | — | 11′",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0716-body-L012",
+     "source_line_no": 12,
+     "tex": "\\hspace*{0.0mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[17.71mm][l]{\\smash{Sagittarius}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[7.90mm][c]{\\smash{—}}\\makebox[10.05mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[7.90mm][c]{\\smash{—}}\\makebox[10.05mm][c]{\\smash{54′}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{1pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[7.90mm][c]{\\smash{—}}\\makebox[10.05mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[7.87mm][c]{\\smash{—}}\\makebox[10.02mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{1pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[7.92mm][c]{\\smash{—}}\\makebox[10.07mm][c]{\\smash{7′}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[7.83mm][c]{\\smash{—}}\\makebox[9.98mm][c]{\\smash{(14′)}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}",
+     "transcription": "Sagittarius | — | — | — | 54′ | — | — | — | — | — | 7′ | — | (14′)",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0716-body-L013",
+     "source_line_no": 13,
+     "tex": "\\hspace*{0.0mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[17.71mm][l]{\\smash{Capricornus}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[7.90mm][c]{\\smash{—}}\\makebox[10.05mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[7.90mm][c]{\\smash{—}}\\makebox[10.05mm][c]{\\smash{(36′)}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{1pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[7.90mm][c]{\\smash{—}}\\makebox[10.05mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[7.87mm][c]{\\smash{—}}\\makebox[10.02mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{1pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[7.92mm][c]{\\smash{—}}\\makebox[10.07mm][c]{\\smash{(15′)}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[7.83mm][c]{\\smash{—}}\\makebox[9.98mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}",
+     "transcription": "Capricornus | — | — | — | (36′) | — | — | — | — | — | (15′) | — | —",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0716-body-L014",
+     "source_line_no": 14,
+     "tex": "\\hspace*{0.0mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[17.71mm][l]{\\smash{Aquarius}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[7.90mm][c]{\\smash{—}}\\makebox[10.05mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[7.90mm][c]{\\smash{—}}\\makebox[10.05mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{1pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[7.90mm][c]{\\smash{—}}\\makebox[10.05mm][c]{\\smash{(14′)}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[7.87mm][c]{\\smash{—}}\\makebox[10.02mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{1pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[7.92mm][c]{\\smash{—}}\\makebox[10.07mm][c]{\\smash{(14′)}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[7.83mm][c]{\\smash{—}}\\makebox[9.98mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}",
+     "transcription": "Aquarius | — | — | — | — | — | (14′) | — | — | — | (14′) | — | —",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0716-body-L015",
+     "source_line_no": 15,
+     "tex": "\\hspace*{0.0mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[17.71mm][l]{\\smash{Pisces}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[7.90mm][c]{\\smash{—}}\\makebox[10.05mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[7.90mm][c]{\\smash{—}}\\makebox[10.05mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{1pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[7.90mm][c]{\\smash{—}}\\makebox[10.05mm][c]{\\smash{21′}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[7.87mm][c]{\\smash{—}}\\makebox[10.02mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{1pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[7.92mm][c]{\\smash{—}}\\makebox[10.07mm][c]{\\smash{11′}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[7.83mm][c]{\\smash{—}}\\makebox[9.98mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}",
+     "transcription": "Pisces | — | — | — | — | — | 21′ | — | — | — | 11′ | — | —",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0716-body-L016",
+     "source_line_no": 16,
+     "tex": "\\hspace*{0.0mm}\\rule[-1mm]{.4pt}{9.30mm}\\hspace{1.2pt}\\rule[-1mm]{.4pt}{9.30mm}\\hspace{1.5mm}\\raisebox{-1mm}{\\parbox[b][9.30mm][c]{17.78mm}{\\centering\\fontsize{7.5}{9}\\selectfont\\leavevmode ~\\\\ \\textbf{\\textsc{Signa}}}}\\hspace{1.5mm}\\rule[-1mm]{.4pt}{9.30mm}\\hspace{1.5mm}\\raisebox{-1mm}{\\parbox[b][9.30mm][c]{60.14mm}{\\centering\\fontsize{7.5}{9}\\selectfont\\leavevmode \\textbf{{\\fontsize{9.5}{11}\\selectfont \\Name{\\textsc{Venus}}}}}}\\hspace{1.5mm}\\rule[-1mm]{1pt}{9.30mm}\\hspace{1.5mm}\\raisebox{-1mm}{\\parbox[b][9.30mm][c]{60.09mm}{\\centering\\fontsize{7.5}{9}\\selectfont\\leavevmode \\textbf{{\\fontsize{9.5}{11}\\selectfont \\Name{\\textsc{Mercurius}}}}}}\\hspace{1.5mm}\\rule[-1mm]{.4pt}{9.30mm}\\hspace{1.2pt}\\rule[-1mm]{.4pt}{9.30mm}",
+     "transcription": "~\\\\ **{sc:Signa}** | **{sm:{spsc:Venus}}** | **{sm:{spsc:Mercurius}}**",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0716-body-L017",
+     "source_line_no": 17,
+     "tex": "\\hspace*{0.0mm}\\rule[-1mm]{.4pt}{6.30mm}\\hspace{1.2pt}\\rule[-1mm]{.4pt}{6.30mm}\\hspace{1.5mm}\\raisebox{-1mm}{\\parbox[b][6.30mm][c]{17.78mm}{\\centering\\fontsize{7.5}{9}\\selectfont\\leavevmode \\textbf{\\Name{\\textsc{zodiaci}}}}}\\hspace{1.5mm}\\rule[-1mm]{.4pt}{6.30mm}\\hspace{1.5mm}\\raisebox{-1mm}{\\parbox[b][6.30mm][c]{28.53mm}{\\centering\\fontsize{7.5}{9}\\selectfont\\leavevmode \\textbf{{\\fontsize{6.6}{8}\\selectfont Apparitio}}}}\\hspace{1.5mm}\\rule[-1mm]{.4pt}{6.30mm}\\hspace{1.5mm}\\raisebox{-1mm}{\\parbox[b][6.30mm][c]{28.47mm}{\\centering\\fontsize{7.5}{9}\\selectfont\\leavevmode \\textbf{{\\fontsize{6.6}{8}\\selectfont Occultatio}}}}\\hspace{1.5mm}\\rule[-1mm]{1pt}{6.30mm}\\hspace{1.5mm}\\raisebox{-1mm}{\\parbox[b][6.30mm][c]{28.39mm}{\\centering\\fontsize{7.5}{9}\\selectfont\\leavevmode \\textbf{{\\fontsize{6.6}{8}\\selectfont Apparitio}}}}\\hspace{1.5mm}\\rule[-1mm]{.4pt}{6.30mm}\\hspace{1.5mm}\\raisebox{-1mm}{\\parbox[b][6.30mm][c]{28.56mm}{\\centering\\fontsize{7.5}{9}\\selectfont\\leavevmode \\textbf{{\\fontsize{6.6}{8}\\selectfont Occultatio}}}}\\hspace{1.5mm}\\rule[-1mm]{.4pt}{6.30mm}\\hspace{1.2pt}\\rule[-1mm]{.4pt}{6.30mm}",
+     "transcription": "**{spsc:zodiaci}** | **{xs:Apparitio}** | **{xs:Occultatio}** | **{xs:Apparitio}** | **{xs:Occultatio}**",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0716-body-L018",
+     "source_line_no": 18,
+     "tex": "\\hspace*{0.0mm}\\rule[-1mm]{.4pt}{5.20mm}\\hspace{1.2pt}\\rule[-1mm]{.4pt}{5.20mm}\\hspace{1.5mm}\\raisebox{-1mm}{\\parbox[b][5.20mm][c]{17.78mm}{\\centering\\fontsize{7.5}{9}\\selectfont\\leavevmode }}\\hspace{1.5mm}\\rule[-1mm]{.4pt}{5.20mm}\\hspace{1.5mm}\\raisebox{-1mm}{\\parbox[b][5.20mm][c]{12.73mm}{\\centering\\fontsize{7.5}{9}\\selectfont\\leavevmode {\\fontsize{6.6}{8}\\selectfont ortus vesp.}}}\\hspace{1.5mm}\\rule[-1mm]{.4pt}{5.20mm}\\hspace{1.5mm}\\raisebox{-1mm}{\\parbox[b][5.20mm][c]{12.66mm}{\\centering\\fontsize{7.5}{9}\\selectfont\\leavevmode {\\fontsize{6.6}{8}\\selectfont occas. mat.}}}\\hspace{1.5mm}\\rule[-1mm]{.4pt}{5.20mm}\\hspace{1.5mm}\\raisebox{-1mm}{\\parbox[b][5.20mm][c]{12.70mm}{\\centering\\fontsize{7.5}{9}\\selectfont\\leavevmode {\\fontsize{6.6}{8}\\selectfont ortus mat.}}}\\hspace{1.5mm}\\rule[-1mm]{.4pt}{5.20mm}\\hspace{1.5mm}\\raisebox{-1mm}{\\parbox[b][5.20mm][c]{12.63mm}{\\centering\\fontsize{7.5}{9}\\selectfont\\leavevmode {\\fontsize{6.6}{8}\\selectfont occas. vesp.}}}\\hspace{1.5mm}\\rule[-1mm]{1pt}{5.20mm}\\hspace{1.5mm}\\raisebox{-1mm}{\\parbox[b][5.20mm][c]{12.52mm}{\\centering\\fontsize{7.5}{9}\\selectfont\\leavevmode {\\fontsize{6.6}{8}\\selectfont ortus vesp.}}}\\hspace{1.5mm}\\rule[-1mm]{.4pt}{5.20mm}\\hspace{1.5mm}\\raisebox{-1mm}{\\parbox[b][5.20mm][c]{12.73mm}{\\centering\\fontsize{7.5}{9}\\selectfont\\leavevmode {\\fontsize{6.6}{8}\\selectfont occas. mat.}}}\\hspace{1.5mm}\\rule[-1mm]{.4pt}{5.20mm}\\hspace{1.5mm}\\raisebox{-1mm}{\\parbox[b][5.20mm][c]{12.80mm}{\\centering\\fontsize{7.5}{9}\\selectfont\\leavevmode {\\fontsize{6.6}{8}\\selectfont ortus mat}}}\\hspace{1.5mm}\\rule[-1mm]{.4pt}{5.20mm}\\hspace{1.5mm}\\raisebox{-1mm}{\\parbox[b][5.20mm][c]{12.62mm}{\\centering\\fontsize{7.5}{9}\\selectfont\\leavevmode {\\fontsize{6.6}{8}\\selectfont occas. vesp.}}}\\hspace{1.5mm}\\rule[-1mm]{.4pt}{5.20mm}\\hspace{1.2pt}\\rule[-1mm]{.4pt}{5.20mm}",
+     "transcription": " | {xs:ortus vesp.} | {xs:occas. mat.} | {xs:ortus mat.} | {xs:occas. vesp.} | {xs:ortus vesp.} | {xs:occas. mat.} | {xs:ortus mat} | {xs:occas. vesp.}",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0716-body-L019",
+     "source_line_no": 19,
+     "tex": "\\hspace*{0.0mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[17.78mm][l]{\\smash{Aries}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.60mm][c]{\\smash{—}}\\makebox[7.13mm][c]{\\smash{(31′)}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.57mm][c]{\\smash{—}}\\makebox[7.09mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.59mm][c]{\\smash{—}}\\makebox[7.11mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.56mm][c]{\\smash{2°}}\\makebox[7.07mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{1pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.51mm][c]{\\smash{—}}\\makebox[7.01mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.60mm][c]{\\smash{—}}\\makebox[7.13mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.63mm][c]{\\smash{—}}\\makebox[7.17mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.55mm][c]{\\smash{12°}}\\makebox[7.07mm][c]{\\smash{9′}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}",
+     "transcription": "Aries | — | (31′) | — | — | — | — | 2° | — | — | — | — | — | — | — | 12° | 9′",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0716-body-L020",
+     "source_line_no": 20,
+     "tex": "\\hspace*{0.0mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[17.78mm][l]{\\smash{Taurus}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.60mm][c]{\\smash{—}}\\makebox[7.13mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.57mm][c]{\\smash{—}}\\makebox[7.09mm][c]{\\smash{(29′)}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.59mm][c]{\\smash{—}}\\makebox[7.11mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.56mm][c]{\\smash{3°}}\\makebox[7.07mm][c]{\\smash{30′}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{1pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.51mm][c]{\\smash{—}}\\makebox[7.01mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.60mm][c]{\\smash{—}}\\makebox[7.13mm][c]{\\smash{18′}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.63mm][c]{\\smash{\\hspace*{1.6mm}\\ArabicRun{كد} \\textit{24°}}}\\makebox[7.17mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.55mm][c]{\\smash{—}}\\makebox[7.07mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}",
+     "transcription": "Taurus | — | — | — | (29′) | — | — | 3° | 30′ | — | — | — | 18′ | كد *24°* | — | — | —",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0716-body-L021",
+     "source_line_no": 21,
+     "tex": "\\hspace*{0.0mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[17.78mm][l]{\\smash{Gemini}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.60mm][c]{\\smash{—}}\\makebox[7.13mm][c]{\\smash{39′}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.57mm][c]{\\smash{—}}\\makebox[7.09mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.59mm][c]{\\smash{—}}\\makebox[7.11mm][c]{\\smash{(4′)}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.56mm][c]{\\smash{—}}\\makebox[7.07mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{1pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.51mm][c]{\\smash{—}}\\makebox[7.01mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.60mm][c]{\\smash{—}}\\makebox[7.13mm][c]{\\smash{37′}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.63mm][c]{\\smash{—}}\\makebox[7.17mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.55mm][c]{\\smash{—}}\\makebox[7.07mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}",
+     "transcription": "Gemini | — | 39′ | — | — | — | (4′) | — | — | — | — | — | 37′ | — | — | — | —",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0716-body-L022",
+     "source_line_no": 22,
+     "tex": "\\hspace*{0.0mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[17.78mm][l]{\\smash{Cancer}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.60mm][c]{\\smash{—}}\\makebox[7.13mm][c]{\\smash{(38′)}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.57mm][c]{\\smash{—}}\\makebox[7.09mm][c]{\\smash{18′}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.59mm][c]{\\smash{—}}\\makebox[7.11mm][c]{\\smash{(12′)}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.56mm][c]{\\smash{—}}\\makebox[7.07mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{1pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.51mm][c]{\\smash{—}}\\makebox[7.01mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.60mm][c]{\\smash{—}}\\makebox[7.13mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.63mm][c]{\\smash{—}}\\makebox[7.17mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.55mm][c]{\\smash{—}}\\makebox[7.07mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}",
+     "transcription": "Cancer | — | (38′) | — | 18′ | — | (12′) | — | — | — | — | — | — | — | — | — | —",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0716-body-L023",
+     "source_line_no": 23,
+     "tex": "\\hspace*{0.0mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[17.78mm][l]{\\smash{Leo}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.60mm][c]{\\smash{—}}\\makebox[7.13mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.57mm][c]{\\smash{—}}\\makebox[7.09mm][c]{\\smash{19′}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.59mm][c]{\\smash{—}}\\makebox[7.11mm][c]{\\smash{45}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.56mm][c]{\\smash{(11°)}}\\makebox[7.07mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{1pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.51mm][c]{\\smash{—}}\\makebox[7.01mm][c]{\\smash{(53′)}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.60mm][c]{\\smash{—}}\\makebox[7.13mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.63mm][c]{\\smash{—}}\\makebox[7.17mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.55mm][c]{\\smash{—}}\\makebox[7.07mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}",
+     "transcription": "Leo | — | — | — | 19′ | — | 45 | (11°) | — | — | (53′) | — | — | — | — | — | —",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0716-body-L024",
+     "source_line_no": 24,
+     "tex": "\\hspace*{0.0mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[17.78mm][l]{\\smash{Virgo}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.60mm][c]{\\smash{—}}\\makebox[7.13mm][c]{\\smash{53′}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.57mm][c]{\\smash{—}}\\makebox[7.09mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.59mm][c]{\\smash{—}}\\makebox[7.11mm][c]{\\smash{(40′)}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.56mm][c]{\\smash{—}}\\makebox[7.07mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{1pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.51mm][c]{\\smash{—}}\\makebox[7.01mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.60mm][c]{\\smash{—}}\\makebox[7.13mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.63mm][c]{\\smash{—}}\\makebox[7.17mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.55mm][c]{\\smash{—}}\\makebox[7.07mm][c]{\\smash{(56′)}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}",
+     "transcription": "Virgo | — | 53′ | — | — | — | (40′) | — | — | — | — | — | — | — | — | — | (56′)",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0716-body-L025",
+     "source_line_no": 25,
+     "tex": "\\hspace*{0.0mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[17.78mm][l]{\\smash{Libra}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.60mm][c]{\\smash{—}}\\makebox[7.13mm][c]{\\smash{57′}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.57mm][c]{\\smash{—}}\\makebox[7.09mm][c]{\\smash{9′}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.59mm][c]{\\smash{—}}\\makebox[7.11mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.56mm][c]{\\smash{—}}\\makebox[7.07mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{1pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.51mm][c]{\\smash{—}}\\makebox[7.01mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.60mm][c]{\\smash{—}}\\makebox[7.13mm][c]{\\smash{50′}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.63mm][c]{\\smash{—}}\\makebox[7.17mm][c]{\\smash{29′}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.55mm][c]{\\smash{—}}\\makebox[7.07mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}",
+     "transcription": "Libra | — | 57′ | — | 9′ | — | — | — | — | — | — | — | 50′ | — | 29′ | — | —",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0716-body-L026",
+     "source_line_no": 26,
+     "tex": "\\hspace*{0.0mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[17.78mm][l]{\\smash{Scorpius}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.60mm][c]{\\smash{7°}}\\makebox[7.13mm][c]{\\smash{(51′)}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.57mm][c]{\\smash{—}}\\makebox[7.09mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.59mm][c]{\\smash{—}}\\makebox[7.11mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.56mm][c]{\\smash{—}}\\makebox[7.07mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{1pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.51mm][c]{\\smash{—}}\\makebox[7.01mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.60mm][c]{\\smash{—}}\\makebox[7.13mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.63mm][c]{\\smash{12°}}\\makebox[7.17mm][c]{\\smash{10′}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.55mm][c]{\\smash{—}}\\makebox[7.07mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}",
+     "transcription": "Scorpius | 7° | (51′) | — | — | — | — | — | — | — | — | — | — | 12° | 10′ | — | —",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0716-body-L027",
+     "source_line_no": 27,
+     "tex": "\\hspace*{0.0mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[17.78mm][l]{\\smash{Sagittarius}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.60mm][c]{\\smash{—}}\\makebox[7.13mm][c]{\\smash{56′}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.57mm][c]{\\smash{12°}}\\makebox[7.09mm][c]{\\smash{27′}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.59mm][c]{\\smash{7°}}\\makebox[7.11mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.56mm][c]{\\smash{5°}}\\makebox[7.07mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{1pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.51mm][c]{\\smash{—}}\\makebox[7.01mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.60mm][c]{\\smash{—}}\\makebox[7.13mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.63mm][c]{\\smash{—}}\\makebox[7.17mm][c]{\\smash{\\ArabicRun{يو} \\textit{16′}}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.55mm][c]{\\smash{17°}}\\makebox[7.07mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}",
+     "transcription": "Sagittarius | — | 56′ | 12° | 27′ | 7° | — | 5° | — | — | — | — | — | — | يو *16′* | 17° | —",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0716-body-L028",
+     "source_line_no": 28,
+     "tex": "\\hspace*{0.0mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[17.78mm][l]{\\smash{Capricornus}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.60mm][c]{\\smash{—}}\\makebox[7.13mm][c]{\\smash{58′}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.57mm][c]{\\smash{—}}\\makebox[7.09mm][c]{\\smash{(18′)}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.59mm][c]{\\smash{2°}}\\makebox[7.11mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.56mm][c]{\\smash{2°}}\\makebox[7.07mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{1pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.51mm][c]{\\smash{—}}\\makebox[7.01mm][c]{\\smash{(19′)}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.60mm][c]{\\smash{—}}\\makebox[7.13mm][c]{\\smash{(19′)}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.63mm][c]{\\smash{—}}\\makebox[7.17mm][c]{\\smash{(16′)}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.55mm][c]{\\smash{—}}\\makebox[7.07mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}",
+     "transcription": "Capricornus | — | 58′ | — | (18′) | 2° | — | 2° | — | — | (19′) | — | (19′) | — | (16′) | — | —",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0716-body-L029",
+     "source_line_no": 29,
+     "tex": "\\hspace*{0.0mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[17.78mm][l]{\\smash{Aquarius}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.60mm][c]{\\smash{—}}\\makebox[7.13mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.57mm][c]{\\smash{—}}\\makebox[7.09mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.59mm][c]{\\smash{1°}}\\makebox[7.11mm][c]{\\smash{36′}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.56mm][c]{\\smash{(3°)}}\\makebox[7.07mm][c]{\\smash{(24′)}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{1pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.51mm][c]{\\smash{20°}}\\makebox[7.01mm][c]{\\smash{(15′)}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.60mm][c]{\\smash{—}}\\makebox[7.13mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.63mm][c]{\\smash{—}}\\makebox[7.17mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.55mm][c]{\\smash{—}}\\makebox[7.07mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}",
+     "transcription": "Aquarius | — | — | — | — | 1° | 36′ | (3°) | (24′) | 20° | (15′) | — | — | — | — | — | —",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0716-body-L030",
+     "source_line_no": 30,
+     "tex": "\\hspace*{0.0mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[17.78mm][l]{\\smash{Pisces}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.60mm][c]{\\smash{15°}}\\makebox[7.13mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.57mm][c]{\\smash{—}}\\makebox[7.09mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.59mm][c]{\\smash{2°}}\\makebox[7.11mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.56mm][c]{\\smash{—}}\\makebox[7.07mm][c]{\\smash{31′}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{1pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.51mm][c]{\\smash{—}}\\makebox[7.01mm][c]{\\smash{(18′)}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.60mm][c]{\\smash{—}}\\makebox[7.13mm][c]{\\smash{(14′)}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.63mm][c]{\\smash{—}}\\makebox[7.17mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.55mm][c]{\\smash{—}}\\makebox[7.07mm][c]{\\smash{47′}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}",
+     "transcription": "Pisces | 15° | — | — | — | 2° | — | — | 31′ | — | (18′) | — | (14′) | — | — | — | 47′",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    }
+   ]
+  },
+  {
+   "role": "notes",
+   "lines": [
+    {
+     "id": "AB01-PDF0716-notes-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (1) Numeri intra parentheses falsi; qui Italicis sive inclinatis litteris (simul cum typis Arabicis) impressi",
+     "transcription": "(1) Numeri intra parentheses falsi; qui Italicis sive inclinatis litteris (simul cum typis Arabicis) impressi",
+     "semantic_anchor": "AB01-PDF0716-N01",
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0716-notes-L002",
+     "source_line_no": null,
+     "tex": "sunt, incerti; reliqui iusti.",
+     "transcription": "sunt, incerti; reliqui iusti.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  }
+ ]
+}

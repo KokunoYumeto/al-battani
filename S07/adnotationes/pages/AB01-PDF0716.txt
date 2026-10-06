@@ -1,0 +1,66 @@
+@page 716 267
+@vspace 2.5
+@center \textbf{Variae lectiones \textit{Almagesti} ed. {sp:Liechtenstein}} (1).
+@vspace 4
+% the readings of the Latin Almagest of 1515, in one frame of two blocks: rules measured on the print (table from
+% 63.4 pt, the text edge); the upper block has a column for each of the six phases of the superior planets, the lower
+% one for each of the eight phases of Venus and Mercury, each with a column for the degrees and one for the minutes;
+% — means agreement with the restored number
+@colpad 1.5 1.5
+@cols 0 <|| 17.71l | 7.9c 10.05c | 7.9c 10.05c ! 7.9c 10.05c | 7.87c 10.02c ! 7.92c 10.07c | 7.83c 9.98c ||>
+@rule2 cols join
+@hrow 13.2 | ~\\ **{sc:Signa}** | **{sm:{spsc:Saturnus}}**:4 | **{sm:{spsc:Iupiter}}**:4 | **{sm:{spsc:Mars}}**:4
+@spanbrace 0.1 | | hr:4 | hr:4 | hr:4
+@hrow 9.7 | **{spsc:zodiaci}**\\~ | **{xs:Apparitio}**:2 | **{xs:Occultatio}**:2 | **{xs:Apparitio}**:2 | **{xs:Occultatio}**:2 | **{xs:Apparitio}**:2 | **{xs:Occultatio}**:2
+@hrule cols 1.2
+@rowgap 3.9
+@fontsize 9.3 15
+@row Aries | — | — | — | — | — | (33′) | — | — | — | — | — | (12′)
+@row Taurus | — | — | — | (7′) | — | — | — | — | — | 11′ | (16°) | —
+@row Gemini | — | — | — | (8′) | — | (14′) | — | — | — | (14′) | (17°) | —
+@row Cancer | — | — | — | — | — | 44′ | — | — | — | (15′) | — | —
+@row Leo | — | — | — | — | — | — | — | — | — | — | — | (14′)
+@row Virgo | — | — | — | — | — | — | — | — | — | — | — | 11′
+@row Libra | — | (15′) | — | — | — | — | — | — | — | (12′) | — | —
+@row Scorpius | — | — | — | — | — | — | — | — | — | — | — | 11′
+@row Sagittarius | — | — | — | 54′ | — | — | — | — | — | 7′ | — | (14′)
+@row Capricornus | — | — | — | (36′) | — | — | — | — | — | (15′) | — | —
+@row Aquarius | — | — | — | — | — | (14′) | — | — | — | (14′) | — | —
+@row Pisces | — | — | — | — | — | 21′ | — | — | — | 11′ | — | —
+@normal
+@rowgap 4
+@hrule cols 1.3
+@spanbrace 9.2 | :13
+@cols 0 <|| 17.78l | 5.6c 7.13c | 5.57c 7.09c | 5.59c 7.11c | 5.56c 7.07c ! 5.51c 7.01c | 5.6c 7.13c | 5.63c 7.17c | 5.55c 7.07c ||>
+@rule2 cols join
+@hrow 9.3 | ~\\ **{sc:Signa}** | **{sm:{spsc:Venus}}**:8 | **{sm:{spsc:Mercurius}}**:8
+@spanbrace 0.4 | | HR:8 | HR:8
+@hrow 6.3 | **{spsc:zodiaci}** | **{xs:Apparitio}**:4 | **{xs:Occultatio}**:4 | **{xs:Apparitio}**:4 | **{xs:Occultatio}**:4
+@spanbrace 1.8 | | br:4 | br:4 | br:4 | br:4
+@hrow 5.2 | | {xs:ortus vesp.}:2 | {xs:occas. mat.}:2 | {xs:ortus mat.}:2 | {xs:occas. vesp.}:2 | {xs:ortus vesp.}:2 | {xs:occas. mat.}:2 | {xs:ortus mat}:2 | {xs:occas. vesp.}:2
+@hrule cols 1.2
+@rowgap 3.9
+@fontsize 9.3 15
+@row Aries | — | (31′) | — | — | — | — | 2° | — | — | — | — | — | — | — | 12° | 9′
+@row Taurus | — | — | — | (29′) | — | — | 3° | 30′ | — | — | — | 18′ | >1.6 كد *24°* | — | — | —
+@row Gemini | — | 39′ | — | — | — | (4′) | — | — | — | — | — | 37′ | — | — | — | —
+@row Cancer | — | (38′) | — | 18′ | — | (12′) | — | — | — | — | — | — | — | — | — | —
+@row Leo | — | — | — | 19′ | — | 45 | (11°) | — | — | (53′) | — | — | — | — | — | —
+@row Virgo | — | 53′ | — | — | — | (40′) | — | — | — | — | — | — | — | — | — | (56′)
+@row Libra | — | 57′ | — | 9′ | — | — | — | — | — | — | — | 50′ | — | 29′ | — | —
+@row Scorpius | 7° | (51′) | — | — | — | — | — | — | — | — | — | — | 12° | 10′ | — | —
+@row Sagittarius | — | 56′ | 12° | 27′ | 7° | — | 5° | — | — | — | — | — | — | يو *16′* | 17° | —
+@row Capricornus | — | 58′ | — | (18′) | 2° | — | 2° | — | — | (19′) | — | (19′) | — | (16′) | — | —
+@row Aquarius | — | — | — | — | 1° | 36′ | (3°) | (24′) | 20° | (15′) | — | — | — | — | — | —
+@row Pisces | 15° | — | — | — | 2° | — | — | 31′ | — | (18′) | — | (14′) | — | — | — | 47′
+@normal
+@rowgap 3.7
+@hrule cols 1.3
+@obs body (table): the numbers in parentheses are false readings, those in italic (with the Arabic numerals) uncertain, as note 1 says; the italic of «24°» and «16′» (Mercury, occultatio, ortus mat.) is transcribed.
+@obs body (lower block, Venus, occultatio, ortus mat., Leo): «45» is printed without the minute sign.
+@obs body (lower block): the head «ortus mat» of Mercury is printed without the period.
+@obs body (table): several dashes are printed broken or short (upper block: Mars, apparitio, Gemini; lower block: Venus, occultatio, occas. vesp., Gemini; Mercury, apparitio, ortus vesp., Cancer; Mercury, occultatio, occas. vesp., Taurus); several closing parentheses are printed broken. Transcribed as — and ).
+@obs body (lower block, Sagittarius): the dot of the yāʾ of «يو» is printed below the wāw.
+@notes1
+^ (1) Numeri intra parentheses falsi; qui Italicis sive inclinatis litteris (simul cum typis Arabicis) impressi
+sunt, incerti; reliqui iusti.

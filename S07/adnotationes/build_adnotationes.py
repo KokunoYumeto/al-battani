@@ -335,11 +335,12 @@ def hrow_tex(src):
     out = [r"\hspace*{" + str(COLS["indent"]) + "mm}"]
     rule = r"\rule[-1mm]{.4pt}{" + f"{H:.2f}" + "mm}"
     for item in span_layout(span_cells(rest)):  # a cell TEXT:N spans N columns, as in @hspan
+        # (\leavevmode: an empty cell still has the width of its column)
         if item[0] == "sep":
             out.append(rule_piece(item[1], rule))
             continue
         out.append(r"\raisebox{-1mm}{\parbox[b][" + f"{H:.2f}" + "mm][c]{" + f"{item[2]:.2f}" + r"mm}{\centering"
-                   r"\fontsize{7.5}{9}\selectfont " + markup(item[1]) + "}}")
+                   r"\fontsize{7.5}{9}\selectfont\leavevmode " + markup(item[1]) + "}}")
     return "".join(out)
 
 
