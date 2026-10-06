@@ -1,0 +1,64 @@
+@page 717 268
+@vspace 2
+@center \textbf{Variae lectiones {sp:Theonis}} (1).
+@vspace 4
+% the readings of Theon's tables of the phases (climate IV), in a frame like that of p. 267, measured on the print
+% (the scan of this page is grey and slightly turned; the columns are those of p. 267); — means agreement with the
+% restored number; the Greek numerals stand beside the uncertain numbers, which are printed in italic
+@colpad 1.5 1.5
+@cols 0 <|| 17.71l | 7.9c 10.05c | 7.9c 10.05c ! 7.9c 10.05c | 7.87c 10.02c ! 7.92c 10.07c | 7.83c 9.98c ||>
+@rule2 cols join
+@hrow 13.2 | ~\\ **{sc:Signa}** | **{sm:{spsc:Saturnus}}**:4 | **{sm:{spsc:Iupiter}}**:4 | **{sm:{spsc:Mars}}**:4
+@spanbrace 0.1 | | hr:4 | hr:4 | hr:4
+@hrow 9.7 | **{spsc:zodiaci}**\\~ | **{xs:Apparitio}**:2 | **{xs:Occultatio}**:2 | **{xs:Apparitio}**:2 | **{xs:Occultatio}**:2 | **{xs:Apparitio}**:2 | **{xs:Occultatio}**:2
+@hrule cols 1.2
+@rowgap 3.9
+@fontsize 9.3 15
+@row Aries | — | κα *21′* | — | — | (14°) | 53′ | — | — | — | — | — | 52′
+@row Taurus | — | — | — | 7′ | — | — | — | — | — | 11′ | — | —
+@row Gemini | — | — | — | ϑ *9′* | — | 54′ | — | — | — | — | — | —
+@row Cancer | — | — | — | — | — | 44′ | — | — | — | — | — | 55′
+@row Leo | — | — | — | — | — | — | — | — | — | — | (27°) | —
+@row Virgo | — | — | — | — | — | — | — | — | — | — | — | (20′)
+@row Libra | — | 54′ | — | — | — | — | — | — | — | 42′ | — | —
+@row Scorpius | — | — | — | — | — | — | — | — | — | — | — | (20′)
+@row Sagittarius | — | — | — | 54′ | — | — | — | — | — | 7′ | — | —
+@row Capricornus | — | — | — | 56′ | — | — | — | — | — | 55′ | — | 55′
+@row Aquarius | — | — | — | — | — | — | — | — | — | 54′ | — | —
+@row Pisces | — | — | — | — | — | 21′ | — | λα *31′* | — | 11′ | — | —
+@normal
+@rowgap 4
+@hrule cols 1.3
+@spanbrace 9.2 | :13
+@cols 0 <|| 17.78l | 5.6c 7.13c | 5.57c 7.09c | 5.59c 7.11c | 5.56c 7.07c ! 5.51c 7.01c | 5.6c 7.13c | 5.63c 7.17c | 5.55c 7.07c ||>
+@rule2 cols join
+@hrow 9.3 | ~\\ **{sc:Signa}** | **{sm:{spsc:Venus}}**:8 | **{sm:{spsc:Mercurius}}**:8
+@spanbrace 0.4 | | HR:8 | HR:8
+@hrow 6.3 | **{spsc:zodiaci}** | **{xs:Apparitio}**:4 | **{xs:Occultatio}**:4 | **{xs:Apparitio}**:4 | **{xs:Occultatio}**:4
+@spanbrace 1.8 | | br:4 | br:4 | br:4 | br:4
+@hrow 5.2 | | {xs:ortus vesp.}:2 | {xs:occas. mat.}:2 | {xs:ortus mat.}:2 | {xs:occas. vesp.}:2 | {xs:ortus vesp.}:2 | {xs:occas. mat.}:2 | {xs:ortus mat.}:2 | {xs:occas. vesp.}:2
+@hrule cols 1.2
+@rowgap 3.9
+@fontsize 9.3 15
+@row Aries | — | 41′ | — | — | — | — | 2° κ *20′*:2 | — | — | — | — | — | — | 12° | 9′
+@row Taurus | — | — | — | — | — | — | 3° | 30′ | — | — | — | 18′ | (21°) | — | — | 52′
+@row Gemini | — | 39′ | — | — | — | 54′ | — | — | — | — | — | 37′ | — | — | — | —
+@row Cancer | — | 18′ | — | 18′ | — | 44′ | — | — | — | — | — | — | — | — | — | —
+@row Leo | — | α *1′* | — | 19′ | — | 45′ | — | — | (32°) | — | — | 59′ | — | — | — | —
+@row Virgo | — | 53′ | — | — | (26°) ιε *15′*:2 | — | — | — | — | — | — | — | — | — | —
+@row Libra | — | 57′ | — | 9′ | — | — | — | — | — | 18′ | — | 50′ | — | 29′ | — | 18′
+@row Scorpius | 7° | 11′ | — | — | — | — | — | — | — | — | — | — | 12° | 10′ | — | —
+@row Sagittarius | — | 56′ | 12° | 27′ | 7° | — | 5° | — | — | — | — | — | — | ιϛ *16′* | 17° | —
+@row Capricornus | — | 58′ | — | 58′ | 2° | — | 2° | — | — | — | — | — | — | 56 | — | —
+@row Aquarius | — | νζ *57′* | — | (9′) | 1° | 36′ | 1° | 54′ | 20° | 55′ | — | — | — | — | — | —
+@row Pisces | (11°) | — | — | — | 2° | — | (4°) | 31′ | — | λε *35′* | — | — | — | — | — | 47′
+@normal
+@rowgap 3.7
+@hrule cols 1.3
+@obs body (table): the numbers in parentheses are false readings, those in italic (with the Greek numerals) uncertain, as note 1 says; transcribed as printed. The kappa of «κα» and «κ» is printed in the curly form; transcribed κ.
+@obs body (lower block, Mercury, occultatio, ortus mat., Capricornus): «56» is printed without the minute sign.
+@obs body (lower block, Mercury, occultatio, ortus mat., Sagittarius): the stigma of «ιϛ» is printed with its top stroke detached, like a short bar.
+@obs body (table): several dashes are printed broken or short (upper block: Iupiter, apparitio, Taurus; Mars, apparitio, Capricornus; lower block: Mercury, apparitio, ortus vesp., Taurus; Mercury, occultatio, ortus mat., Leo); transcribed —.
+@notes1
+^ (1) Numeri intra parentheses falsi; qui Italicis seu inclinatis litteris expressi sunt (simul cum Graecis
+typis) incerti; reliqui recipiendi.
