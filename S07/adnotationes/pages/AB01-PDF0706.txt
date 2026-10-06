@@ -1,0 +1,66 @@
+@page 706 257
+% the displayed formulas begin where they begin on the print (mm from the left edge of the text, 59.1 pt)
+borealis HK proxime); quantitas lineae vel arcus visionis BD pro quoque planeta invariabilis,
+ut diximus; arcus DE eclipticae erit elongatio (observationibus antea memoratis comperta) Sa-
+turni aut Iovis a Sole vero D, arcus DK elongatio nota Martis. Angulus BED horizontis et
+eclipticae (1) cognoscitur praeceptis II, 11 (ed. Halma, t. I, p. 120–22), quae pro puncto E ecli-
+pticae ita trigonometrice redduntur:
+@vspace 0.5
+@at 25.9:sin ang. $=R\,\dfrac{\text{sin altit.\ gradus culminantis}}{\text{sin arcus eclipticae inter }E\text{ et gradum culmin.}}$\,.
+@vspace 0.5
+Pro Phoeniciae climate et ad initium E Cancri, hunc angulum BED supputat « esse 103 talium
+« [partium], qualium *duo* anguli recti 360 sunt, rationem igitur rectarum circa angulos rectos
+« [consistentium] ut 94 ad 75 proxime, et hypotenusas 120° earundem [partium]; » (2) quibus
+@vspace 0.5
+@at 0:verbis vult | 20.2:$BED=\dfrac{103^\circ}{2}=51^\circ$ {sfrac:1/2},\quad unde, triangulis figurae pro rectilineis habitis,
+@vspace 0.5
+@at 32.6:$HK:KE=94:75$\,, | 81.3:$DE:DB=120:94$\,,
+sive, ut nostra utar trigonometria,
+@at 24.4:$\dfrac{KE}{HK}=\dfrac{\text{cotg}\,BED}{R}=\dfrac{75}{94}$\,, | 83.6:$\dfrac{DB}{DE}=\dfrac{\sin BED}{R}=\dfrac{94}{120}$\,.
+@vspace 0.5
+Tunc manifeste pro Saturno et Iove in initio E Cancri collocatis:
+@vspace 0.5
+@at 47.2:arcus visionis $=BD=DE\,\dfrac{94}{120}$\,,
+@vspace 0.5
+ubi DE notus (14° et 12° 45′) ex observationibus antea memoratis. Pro Marte in H consistenti
+eadem inservit formula; sed tunc DK, non DE, ex observationibus illis cognoscitur, qua re
+@vspace 0.5
+@at 20.9:$DE=DK+KE=DK+HK\,\dfrac{75}{94}=14^\circ\,30'+0^\circ\,12'\,\dfrac{75}{94}=14^\circ\,40'$\,.
+@vspace 0.5
+Similiter et in inferiores planetas operans, *arcum visionis* BD invenit 11° Saturno, 10° Iovi,
+11° {sfrac:1/2} Marti, 5° Veneri, 10° Mercurio; quae quantitates invariabiles sunt.
+^ Elongationes a Sole vero in apparitionibus et occultationibus facile nunc est supputare,
+quolibet eclipticae puncto in E constituto. *Angulus* BED elicitur formula antea memorata;
+*latitudo* HK vel TL planetae nota; arcus DE, cum {sp:Ptolemaeo} triangulis illis tanquam
+@vspace 0.5
+@at 0:proxime rectilineis habitis, erit | 56.7:$DE=R\,\dfrac{BD}{\sin BED}$\,. | 93.4:Postea
+@vspace 0.5
+@at 29.0:$KE=\dfrac{HK\,\text{cotg}\,BED}{R}$\,, | 69.1:vel | 81.2:$EL=\dfrac{TL\,\text{cotg}\,BED}{R}$\,,
+@vspace 0.5
+unde quantitates quaesitae
+@at 34.8:$DK=DE-KE$\,, | 72.0:vel | 84.0:$DL=DE+EL$\,.
+^ Verae regulae, quales e consideratione triangulorum sphaericorum eliciuntur, erant quidem:
+@vspace 0.5
+@at 24.3:sin $DE=R\,\dfrac{\sin BD}{\sin BED}$\,, | 69.5:sin $KE=\dfrac{\text{tang}\,HK\,\text{cotg}\,BED}{R}$\,,
+@vspace 0.5
+@at 48.0:sin $EL=\dfrac{\text{tang}\,TL\,\text{cotg}\,BED}{R}$\,;
+@vspace 0.5
+sed in parvis his triangulis differentia prorsus negligenda.
+@obs body (first formula): a dot is printed above the equals sign; not transcribed.
+@obs body L9: «sunt» is printed with a short stroke over the u; not transcribed.
+@obs body (formula DK = DE — KE): a small mark is printed before «vel»; not transcribed.
+@obs notes_right L4: the ε of «δὲ» is printed broken: only its accent and a dot at the foot remain.
+@obs notes_right: the numerals ργ, τξ, ϟδ, οε, ρκ are printed without the numeral sign.
+@notes
+^ (1) Est angulus contentus horizonte et portione
+eclipticae supra horizontem exstante; aequalis in
+puncto eclipticae orienti et in puncto eclipticae dia-
+metraliter opposito tunc occidenti. Haud opportune
+igitur saepe *angulus orientis* aut *orientalis* vocatur.
+@col
+^ (2) Τὴν ὑπὸ ΒΕΔ γωνίαν εὑρίσκομεν τοιούτων ργ,
+οἵων αἱ δύο ὀρθαὶ τξ, καὶ τὸν λόγον διὰ τούτου τῶν
+περὶ τὰς ὀρθὰς γωνίας τὸν τῶν ϟδ πρὸς τὰ οε ἔγγιστα,
+τοιούτων δὲ καὶ τὰς ὑποτεινούσας ρκ (ed. Halma, t. II,
+p. 419).
+@sig 33
