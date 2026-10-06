@@ -140,8 +140,9 @@ for k, pdf in enumerate(sorted(PP)):
         pages.append({"pdf": pdf, "ppage": PP[pdf], "half": half, "fol": FOL[pdf][0 if half == "top" else 1],
                       "title_ar": title_ar if half == "top" else "", "title_la": title_la if half == "top" else "",
                       "heads": "|".join(heads), "lines": len(GRID[(pdf, half)]),
-                      "space_before": " ".join(str(k) for k in GAPS[(pdf, half)])})
+                      "space_before": " ".join(str(k) for k in GAPS[(pdf, half)]),
+                      "signature": "13" if (pdf == 546 and half == "bot") else ""})
 with open(os.path.join(OUT, "clime_pages.tsv"), "w", encoding="utf-8", newline="") as f:
-    w = csv.DictWriter(f, fieldnames=["pdf", "ppage", "half", "fol", "title_ar", "title_la", "heads", "lines", "space_before"],
-                       delimiter="\t", lineterminator="\n")
+    w = csv.DictWriter(f, fieldnames=["pdf", "ppage", "half", "fol", "title_ar", "title_la", "heads", "lines", "space_before",
+                                      "signature"], delimiter="\t", lineterminator="\n")
     w.writeheader(); w.writerows(pages)

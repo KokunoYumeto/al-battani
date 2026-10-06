@@ -86,6 +86,8 @@ def page(pp, pages, rows, running_head):
     out.append(heads(bot))
     out += half_rows(bot, [r for r in R if r["sign"] in SIGNS["bot"]])
     out.append(r"\hline\hline\end{tabular}\end{center}")
+    if bot.get("signature"):
+        out.append(r"\vspace{-2mm}\noindent\hfill{\small " + bot["signature"] + r"}\hspace*{10mm}")
     return "\n".join(out)
 
 

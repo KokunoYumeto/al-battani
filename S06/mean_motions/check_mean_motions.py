@@ -1,4 +1,4 @@
-"""Check of Nallino's Part II pp. 19-28 and 72-77 (mean motions in the Arab and in the Roman calendar).
+"""Check of Nallino's Part II pp. 19-28 and 72-77, 102-106 (mean motions in the Arab and in the Roman calendar).
 pp. 19-23 (mm_p2.tsv): the Sun, the Moon, the lunar anomaly and the node, in degrees, minutes and seconds;
 pp. 24-28 (mm5_p2.tsv): Saturn, Jupiter, Mars, and the anomalies of Venus and Mercury, in degrees and minutes.
 Each motion column is a linear function of time: value = a + b * t (mod 360 degrees), with t the number of days
@@ -23,7 +23,11 @@ SETS = [                                    # starting rates in degrees per day;
     {"file": "mm5_p2.tsv", "places": 2, "groups": ["sat", "jup", "mars", "ven", "mer"],
      "rate": {"sat": 0.0334995, "jup": 0.0831342, "mars": 0.5240743, "ven": 0.6165256, "mer": 3.1067021}},
     {"file": "mmr_p2.tsv", "places": 3, "groups": ["sun", "moon", "anom", "node"], "calendar": "roman",
-     "rate": {"sun": 0.9856518, "moon": 13.1763987, "anom": 13.0649829, "node": 0.0529509}},
+     "rate": {"sun": 0.9856518, "moon": 13.1763987, "anom": 13.0649829, "node": 0.0529509},
+     "intervals": [20, 40, 60, 80, 100, 200, 300, 400, 500, 600]},
+    {"file": "mm5r_p2.tsv", "places": 2, "groups": ["sat", "jup", "mars", "ven", "mer"], "calendar": "roman",
+     "rate": {"sat": 0.0334995, "jup": 0.0831342, "mars": 0.5240743, "ven": 0.6165256, "mer": 3.1067021},
+     "intervals": [40, 60, 80, 100, 200, 400, 600]},
 ]
 ROMAN_MONTHS = [31, 61, 92, 122, 153, 184, 214, 245, 275, 306, 337, 365, 366]
 INTERVALS = [20, 40, 60, 80, 100, 200, 300, 400, 500, 600]
@@ -52,11 +56,11 @@ def show_units(x, places):
     return f"{int(x // 60)}° {x % 60:.1f}′"
 
 
-def tdays(table, i, cal="arab"):
+def tdays(table, i, cal="arab", intervals=INTERVALS):
     if cal == "roman":                       # Julian years: 365 days, 366 in every fourth; 7305 days in 20 years
         return {"collected": lambda: 7305 * i, "single": lambda: 365 * (i + 1) + (i + 1) // 4,
                 "months": lambda: ROMAN_MONTHS[i], "days": lambda: i + 1, "hours": lambda: (i + 1) / 24,
-                "intervals": lambda: 365.25 * INTERVALS[i]}[table]()
+                "intervals": lambda: 365.25 * intervals[i]}[table]()
     if table == "collected":
         return 10631 * i
     if table == "single":
@@ -92,11 +96,11 @@ for S in SETS:
     cal = S.get("calendar", "arab")
     for table in ("collected", "single", "months", "days", "hours") + (("intervals",) if cal == "roman" else ()):
         T = [r for r in rows if r["table"] == table]
-        t = np.array([tdays(table, i, cal) for i in range(len(T))], float)
+        t = np.array([tdays(table, i, cal, S.get("intervals", INTERVALS)) for i in range(len(T))], float)
         first, step = (931, 20) if cal == "roman" else (1, 30)
         exp_args = {"collected": [str(first + step * i) for i in range(len(T))], "single": [str(i + 1) for i in range(len(T))],
                     "days": [str(i + 1) for i in range(len(T))], "hours": [str(i + 1) for i in range(len(T))],
-                    "intervals": [str(n) for n in INTERVALS]}.get(table)
+                    "intervals": [str(n) for n in S.get("intervals", INTERVALS)]}.get(table)
         if exp_args and [r["arg"] for r in T] != exp_args:
             found.append((f"{S['file']} {table} arguments", "", ""))
         for g in S["groups"]:
@@ -124,7 +128,7 @@ for S in SETS:
                           f"{show(comm, g, P)} (p. {comm['ppage']})", f"{show(one_year, g, P)} (p. {one_year['ppage']})"))
         if units(day1, g, P) != units(h24, g, P):
             found.append((f"identity day 1 = hour 24{' (Roman)' if cal == 'roman' else ''} ({g})", show(h24, g, P), show(day1, g, P)))
-    if cal == "roman":                       # 20 single years = the interval of 20 years
+    if cal == "roman" and S["intervals"][0] == 20:            # 20 single years = the interval of 20 years
         y20 = [r for r in rows if r["table"] == "single"][19]
         i20 = [r for r in rows if r["table"] == "intervals"][0]
         for g in S["groups"]:
@@ -140,6 +144,40 @@ for table in ("days", "hours"):
             if units(ra_, g, 3) != units(rr, g, 3):
                 found.append((f"identity p. {rr['ppage']} {table} {rr['arg']} {g} = p. {ra_['ppage']}", show(rr, g, 3),
                               f"{show(ra_, g, 3)} on p. {ra_['ppage']}"))
+
+# p. 103: the motions in 20 years printed under the single years, to the thirds, against the single year 20 (rounded
+# to the minute) and against the step of the collected years of p. 102
+def sexa(v):
+    whole, frac = v.split(";")
+    x = float(whole)
+    for j, d in enumerate(frac.split(",")):
+        x += int(d) / 60 ** (j + 1)
+    return x
+
+
+line20 = {r["item"]: r for r in read("mm5r_extra.tsv")}["years20"]
+planets = read("mm5r_p2.tsv")
+y20 = [r for r in planets if r["table"] == "single"][19]
+coll = [r for r in planets if r["table"] == "collected"]
+for g in ("sat", "jup", "mars", "ven", "mer"):
+    v = sexa(line20[g]) * 60                               # minutes of arc
+    if round(v) % 21600 != units(y20, g, 2):
+        found.append((f"identity p. 103 line of 20 years = year 20 ({g})", show(y20, g, 2), f"{line20[g]} under the table"))
+    steps = [(units(b, g, 2) - units(a, g, 2)) % 21600 for a, b in zip(coll, coll[1:])]
+    near = sum(1 for st in steps if abs(((st - v + 10800) % 21600) - 10800) <= 1)
+    if near < len(steps) - 2:
+        found.append((f"identity p. 103 line of 20 years = step of p. 102 ({g})", line20[g],
+                       f"{near} of {len(steps)} steps of p. 102 within 1′"))
+
+# pp. 105-106 (hours, days in the Roman calendar) are the same motions as pp. 28-27
+arab5 = read("mm5_p2.tsv")
+for table in ("days", "hours"):
+    A = [r for r in arab5 if r["table"] == table]; R = [r for r in planets if r["table"] == table]
+    for ra_, rr in zip(A, R):
+        for g in ("sat", "jup", "mars", "ven", "mer"):
+            if units(ra_, g, 2) != units(rr, g, 2):
+                found.append((f"identity p. {rr['ppage']} {table} {rr['arg']} {g} = p. {ra_['ppage']}", show(rr, g, 2),
+                              f"{show(ra_, g, 2)} on p. {ra_['ppage']}"))
 
 # the cells Nallino emends: the ledger entry must exist and give the value printed in the table
 noted = {r["where"]: r for r in ledger if r["kind"] == "noted"}

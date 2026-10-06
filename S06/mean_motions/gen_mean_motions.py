@@ -11,7 +11,8 @@ from gen_stars import PREAMBLE, markup, read
 HERE = Path(__file__).resolve().parent
 SETS = [("mm_pages.tsv", "mm_p2.tsv", ["sun", "moon", "anom", "node"], 3),
         ("mm5_pages.tsv", "mm5_p2.tsv", ["sat", "jup", "mars", "ven", "mer"], 2),
-        ("mmr_pages.tsv", "mmr_p2.tsv", ["sun", "moon", "anom", "node"], 3)]
+        ("mmr_pages.tsv", "mmr_p2.tsv", ["sun", "moon", "anom", "node"], 3),
+        ("mm5r_pages.tsv", "mm5r_p2.tsv", ["sat", "jup", "mars", "ven", "mer"], 2)]
 WIDTHS = r"\newlength{\Dw}\newlength{\Mw}\settowidth{\Dw}{000}\settowidth{\Mw}{00}"
 
 
@@ -34,7 +35,7 @@ def page_tex(page, rows, groups, places):
     out = [r"\clearpage", head, r"\par\vspace{-1mm}\noindent\rule{\textwidth}{.4pt}\par\vspace{1mm}",
            r"\begin{center}{\small " + page["fol"] + r"}\end{center}\vspace{-3mm}"]
     months = rows[0]["table"] == "months"
-    upright = "‖" in page["heads"]                    # pp. 72-77: the first head stands upright in a narrow column
+    upright = 521 <= int(page["pdf"]) <= 526          # pp. 72-77: the first head stands upright in a narrow column
     argw = ("38mm" if "[" in rows[0]["arg"] else "32mm") if months else ("17mm" if upright else "13mm")
     headw = "30mm" if places == 3 else "26mm"
     ncol = 1 + len(groups)
@@ -50,28 +51,52 @@ def page_tex(page, rows, groups, places):
         c0 = r"\parbox[c]{" + argw + r"}{\centering\scriptsize " + ar(first[0]) + r"\\" + nl(first[1].strip()) + r"\par\vspace{0.7mm}}"
     else:
         c0 = r"\rotatebox{90}{\scriptsize\begin{tabular}{@{}c@{}}" + ar(first[0]) + r"\\" + nl(first[1].strip()) + r"\end{tabular}}"
-    cells = [c0] + [r"\parbox[c]{" + headw + r"}{\centering\scriptsize " + (ar(a) + r"\\" if a else "") + nl(l.strip()) +
+    cells = [c0] + [r"\parbox[c]{" + headw + r"}{\centering\scriptsize " + (ar(a) + r"\\{}" if a else "") + nl(l.strip()) +
                     r"\par\vspace{0.7mm}}" for a, l in heads[1:]]
     out.append(" & ".join(cells) + r" \\ \hline\hline")
     tight_last = rows[-1]["arg"] == "bisext."          # p. 21: dhu 'l-hijjah comm. and bisext. are set close together
     # rows stand in groups of five, of four in the tables of hours and on p. 72 (as printed)
     group = 4 if rows[0]["table"] == "hours" or rows[0]["pdf"] == "521" else 5
     marks = [r"\rlap{°}", r"\rlap{′}", r"\rlap{″}"]
-    for i, r in enumerate(rows):
-        line = [nl(r["arg"])]
+
+    def body(rows, italic=False):
+        lines = []
+        for i, r in enumerate(rows):
+            line = [r"\textit{" + nl(r["arg"]) + "}" if italic else nl(r["arg"])]
+            for g in groups:
+                vals = [r[g + "_d"], r[g + "_m"]] + ([r[g + "_s"]] if places == 3 else [])
+                if i == 0:
+                    vals = [v + marks[k] for k, v in enumerate(vals)]
+                line.append(r"\hspace{2.6mm}".join(r"\makebox[" + (r"\Dw" if k == 0 else r"\Mw") + "][r]{" + v + "}"
+                                                   for k, v in enumerate(vals)))
+            gap = ""
+            if months:
+                gap = r"[2.2mm]" if i < len(rows) - (2 if tight_last else 1) else ""
+            elif i % group == group - 1 and i < len(rows) - 1:
+                gap = r"[1.2mm]"
+            lines.append(" & ".join(line) + r" \\" + gap)
+        return lines
+
+    if page["pdf"] == "552":                            # p. 103: the single years, the line of 20 years, the sums
+        out += body([r for r in rows if r["table"] == "single"])
+        line20 = {r["item"]: r for r in read("mm5r_extra.tsv")}["years20"]
+        cells = []
         for g in groups:
-            vals = [r[g + "_d"], r[g + "_m"]] + ([r[g + "_s"]] if places == 3 else [])
-            if i == 0:
-                vals = [v + marks[k] for k, v in enumerate(vals)]
-            line.append(r"\hspace{2.6mm}".join(r"\makebox[" + (r"\Dw" if k == 0 else r"\Mw") + "][r]{" + v + "}"
-                                               for k, v in enumerate(vals)))
-        gap = ""
-        if months:
-            gap = r"[2.2mm]" if i < len(rows) - (2 if tight_last else 1) else ""
-        elif i % group == group - 1 and i < len(rows) - 1:
-            gap = r"[1.2mm]"
-        out.append(" & ".join(line) + r" \\" + gap)
+            whole, frac = line20[g].split(";")
+            parts = frac.split(",")
+            v = f"{whole}° {parts[0]}′ {parts[1]}″"
+            cells.append(r"\parbox[t]{" + headw + r"}{\centering " + v + (r"\\" + parts[2] + r"\textsuperscript{\textsc{iii}}"
+                                                                          if len(parts) > 2 else "") + "}")
+        out.append(r"\cline{2-" + str(ncol) + "}")
+        out.append(r"\multicolumn{1}{|c}{} & " + " & ".join(r"\multicolumn{1}{c" + ("|" if k == len(cells) - 1 else "") + "}{" + c + "}"
+                                                         for k, c in enumerate(cells)) + r" \\[1mm] \hline\hline")
+        out.append(r"\multicolumn{" + str(ncol) + r"}{||c||}{\rule{0pt}{6mm}" + markup(page["subtitle"]) + r"} \\[2mm] \hline\hline")
+        out += body([r for r in rows if r["table"] == "intervals"], italic=True)
+    else:
+        out += body(rows)
     out.append(r"\hline\hline\end{tabular}\end{center}")
+    if page.get("signature"):
+        out.append(r"\vspace{-2mm}\noindent\hfill{\small " + page["signature"] + r"}\hspace*{14mm}")
     return "\n".join(out)
 
 

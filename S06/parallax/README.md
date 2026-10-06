@@ -101,7 +101,7 @@ Each sign column was read by the glyph reader and by the OCR text layer. The gly
 - The rows stand on the lines of the print: in each half, the rows of the shorter columns leave blank the lines next to the culmination, and on p. 95 the wider spaces between groups of rows are kept.
 - The marks «bor.» and «austr.» stand over the first value of a column and wherever the direction of the latitude changes, as printed.
 - The first row of each column carries the marks of the units (ʰ for the hours, ′ for the minutes of the parallaxes). An integer half-day has ʰ only in the first row.
-- p. 95 has Arabic heads over the hours and over the first parallax; the other pages have Latin heads. The pages read «Hor. Geminorum.», p. 95 «Horae Geminorum.»; pp. 98–99 have «Tabula» for «Tabulae» in the title.
+- p. 95 has Arabic heads over the hours and over the first parallax; the other pages have Latin heads. p. 97 carries the signature 13 at the foot. The pages read «Hor. Geminorum.», p. 95 «Horae Geminorum.»; pp. 98–99 have «Tabula» for «Tabulae» in the title.
 
 ## Credits
 

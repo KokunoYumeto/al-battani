@@ -77,6 +77,20 @@ L += [
     ("identity p. 76 hours 14 moon = p. 23", "7° 41′ 11″", "7° 41′ 10″ on p. 23", "identity", AL),
     ("identity p. 76 hours 23 anom = p. 23", "12° 31′ 14″", "12° 31′ 13″ on p. 23", "identity",
      "p. 76 has the 14″ to which Nallino corrects the 13″ of p. 23"),
+    # pp. 102-106
+    ("p. 102 collected 1591 sat", "212° 45′", "242° 44.5′", "value",
+     "212 for 242: Saturn at 1571 (358° 2′) plus the motion in 20 years under p. 103 (244° 42′ 44″ 20‴) gives "
+     "242° 44′ 44″; every 20-year step of the column is 244° 42′ or 244° 43′"),
+    ("identity p. 106 days 11 mer = p. 27", "34° 11′", "34° 10′ on p. 27", "identity",
+     "11 days of Mercury's anomaly are 34° 10′ 25″ (3;6,24,7,… a day); p. 27 has the rounded value"),
+    ("identity p. 105 hours 5 mars = p. 28", "0° 7′", "0° 6′ on p. 28", "identity",
+     "5 hours of Mars are 6′ 33″; p. 105 rounds, p. 28 drops the seconds"),
+    ("identity p. 105 hours 7 sat = p. 28", "0° 0′", "0° 1′ on p. 28", "identity",
+     "7 hours of Saturn are 35″; p. 28 rounds, p. 105 drops the seconds"),
+    ("identity p. 105 hours 12 jup = p. 28", "0° 3′", "0° 2′ on p. 28", "identity",
+     "12 hours of Jupiter are 2′ 30″ (2′ 29.6″); p. 28 drops the half minute, p. 105 rounds it up"),
+    ("identity p. 105 hours 18 sat = p. 28", "0° 2′", "0° 1′ on p. 28", "identity",
+     "18 hours of Saturn are 1′ 30″ (1′ 30.4″); p. 105 rounds, p. 28 drops the half minute"),
 ]
 with open(OUT, "w", encoding="utf-8", newline="") as f:
     w = csv.writer(f, delimiter="\t", lineterminator="\n")
