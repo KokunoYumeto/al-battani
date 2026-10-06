@@ -1,0 +1,60 @@
+@page 710 261
+% the computations: positions measured on the print (mm from the left edge of the text, 62.6 pt); in the sine
+% columns the degrees are right-aligned on 91.3 mm and the minutes on 97.1 mm, their signs hanging; the logarithms
+% begin at 117 mm; δ is right-aligned like the degrees and minutes of its first line
+@pos 8.4:altitudo gradus culminantis = (90° — φ) ± δ = 54° ± δ
+@vspace 1
+@at 8.5:sin $BED=R\,\dfrac{\text{sin altit.\ gradus culm.}}{\text{sin arcus eclipt.\ inter }E\text{ et gradum culm.}}$\,.
+@vspace 1
+Ergo pro 0° longitudinis (initio Arietis):
+@pos 8.1:asc. obl. 0° = 0° | 61.4:grad. culm. = 270° | 111.3:δ = | 122.9>:23~° | 128.7>:35~′
+@pos 8.4:alt. gr. culm. = 54° — 23° 35′ = 30° 25′ | 79.6:sin | 91.3>:30~° | 97.1>:25~′ | 117.0:9.704 3947
+@pos 59.0:$BED$ = 30° 25′
+@vspace 2.5
+Pro 120° (initio Leonis):
+@pos 8.1:asc. obl. 120° = 106° 37′ | 61.3:grad. culm. = 18° 2′ | 111.3:δ = | 122.9>:7~° | 128.7>:7~′
+@pos 8.1:alt. gr. culm. = 54° + 7° 7′ = 61° 7′ | 79.4:sin | 91.3>:61~° | 97.1>:7~′ | 117.0:9.942 3083
+@pos 42.6:sin ($E$ — gr. culm.) = sin | 91.3>:101~° | 97.1>:58~′ | 117.0:9.990 4580
+@posrule 116.9 133.4
+@pos 51.8:$BED$ = 63° 30′ 57″ | 117.0:9.951 8503
+@vspace 2.5
+Pro 150° (initio Virginis):
+@pos 8.1:asc. obl. 150° = 143° 35′ | 61.3:grad. culm. = 55° 36′ | 111.3:δ = | 122.9>:19~° | 128.7>:21~′
+@pos 8.1:alt. gr. culm. = 54° + 19° 21′ = 73° 21′ | 79.5:sin | 91.3>:73~° | 97.1>:21~′ | 117.0:9.981 3986
+@pos 42.9:sin ($E$ — gr. culm.) = sin | 91.3>:94~° | 97.1>:4~′ | 117.0:9.998 9052
+@posrule 116.9 133.4
+@pos 52.1:$BED$ = 73° 50′ 26″ | 117.0:9.982 4934
+@vspace 2
+@at 8.1:Supputandi postea | 43.8:arcus appar. $=R\,\dfrac{\text{arcus visionis}}{\sin BED}$\,, | 101.5:ubi arcus visionis est 11° 30′ =
+= 41400″.
+@vspace 0.5
+@pos 51.0^:0° (Arietis) | 86.6^:120° (Leonis) | 122.4^:150° (Virginis)
+@pos 15.3:arc. visionis | 43.8:4.617 0003 | 79.5:4.617 0003 | 115.6:4.617 0003
+@pos 15.3:sin $BED$ | 43.8:9.704 3947 | 79.5:9.951 8503 | 115.5:9.982 4934
+@posrule 43.7 60.2 | 79.4 95.9 | 115.4 131.9
+@pos 43.8:4.912 6056 | 79.7:4.665 1500 | 115.5:4.634 5069
+@pos 34.1:81772″ = 22° 42′ 52″ | 71.4:46254″ = 12° 50′ 54″ | 108.7:43103″ = 11° 58′ 23″
+@vspace 2
+@pos 0.5:Ergo: | 31.6:Arieti | 73.8:Leoni | 113.4:Virgini
+@pos 0.3:al-Battānī | 35.7>:29~° | 41.7>:0~′ | 76.6>:16~° | 82.6>:7~′ | 117.4>:15~° | 123.4>:8~′
+@pos 0.4:mea supputatio | 35.7>:22 | 41.7>:43 | 76.6>:12 | 82.6>:51 | 117.4>:11 | 123.4>:58
+@posrule 31.3 42.8 | 72.4 83.7 | 113.2 124.5
+@pos 8.0:differentia | 35.7>:6~° | 41.7>:17~′ | 76.6>:3~° | 82.6>:16~′ | 117.4>:3~° | 123.4>:10~′
+@vspace 2.5
+^ Tantae sunt hae discrepantiae ut nullo modo eas explicare possim. Alias multas expe-
+rientias quas institueram hic referre inutile puto.
+^ Utrum {sp:al-Battānī} has tabulas (quibus *ne nimium confidatur monet*) ipse condiderit
+an ab aliis Arabicis astronomis iam supputatas acceperit, incertum erat. Cum codex Escuria-
+lensis vocalibus destitutus sit, locus t. III, p. 178, l. 4–7: {ar:وقد وضعت لها اقدار الرؤْية بدرج البروج في كل}
+{ar:اقليم على ما رصد من ظهورها في كل برج. ورسم ذلك في رؤس البروج وان كان ذلك ليس على الحقيقة من قبل ما يعرض من}
+{ar:اختلاف عروضها ولذلك اقتصرنا على اثبات هذه الاقدار في اقليم واحد .....}, duplicem interpretationem sortitur ob
+duplicem modum quo vox {ar:وضعت} signis vocalium instrui potest. Nam, si {ar:وُضِعَتْ} legatur, sensus fit:
+« iis (i. e. planetis) *constitutae sunt* quantitates apparitionis, in signorum gradibus, pro omni
+« climate, iuxta id apparitionum eorum quod observatum est in singulis signis; idque in initiis
+« signorum descriptum est, licet non sit ad veritatem ob variationem in eorum (planetarum)
+« latitudinibus exorientem. Qua re satis habuimus has quantitates ad unum tantum clima no-
+« tare .... ». Si {ar:وَضَعْتُ} legatur, ita erit vertendum: « iis *constitui* (vel: *constitueram*) quan-
+@obs body (computations): the sign of the Sun's declination is printed «δ», the latitude «φ».
+@obs body (comparison): «81772″» is printed with the seconds sign as two separate strokes.
+@obs body L37: in «وَضَعْتُ» the fatha over the ḍād is printed broken into two dots; a short stroke is printed under the ʿayn.
+@obs body L31: the hamza of «الرؤْية» is printed with a sukun.

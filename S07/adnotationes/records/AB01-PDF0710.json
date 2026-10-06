@@ -1,0 +1,345 @@
+{
+ "anchor": "AB01-PDF0710",
+ "master_pdf_page": 710,
+ "printed_page": 261,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "observations": [
+  "body (computations): the sign of the Sun's declination is printed «δ», the latitude «φ».",
+  "body (comparison): «81772″» is printed with the seconds sign as two separate strokes.",
+  "body L37: in «وَضَعْتُ» the fatha over the ḍād is printed broken into two dots; a short stroke is printed under the ʿayn.",
+  "body L31: the hamza of «الرؤْية» is printed with a sukun."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0710-body-L001",
+     "source_line_no": 1,
+     "tex": "\\mbox{}\\rlap{\\hspace*{8.40mm}\\smash{\\rlap{altitudo gradus culminantis = (90° — \\textgreek{φ}) ± \\textgreek{δ} = 54° ± \\textgreek{δ}}}}",
+     "transcription": "altitudo gradus culminantis = (90° — φ) ± δ = 54° ± δ",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0710-body-L002",
+     "source_line_no": 2,
+     "tex": "\\mbox{}\\rlap{\\hspace*{8.50mm}sin $BED=R\\,\\dfrac{\\text{sin altit.\\ gradus culm.}}{\\text{sin arcus eclipt.\\ inter }E\\text{ et gradum culm.}}$\\,.}",
+     "transcription": "sin $BED=R\\,\\dfrac{\\text{sin altit.\\ gradus culm.}}{\\text{sin arcus eclipt.\\ inter }E\\text{ et gradum culm.}}$\\,.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0710-body-L003",
+     "source_line_no": 3,
+     "tex": "Ergo pro 0° longitudinis (initio Arietis):",
+     "transcription": "Ergo pro 0° longitudinis (initio Arietis):",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0710-body-L004",
+     "source_line_no": 4,
+     "tex": "\\mbox{}\\rlap{\\hspace*{8.10mm}\\smash{\\rlap{asc. obl. 0° = 0°}}}\\rlap{\\hspace*{61.40mm}\\smash{\\rlap{grad. culm. = 270°}}}\\rlap{\\hspace*{111.30mm}\\smash{\\rlap{\\textgreek{δ} =}}}\\rlap{\\hspace*{122.90mm}\\smash{\\llap{23}\\rlap{°}}}\\rlap{\\hspace*{128.70mm}\\smash{\\llap{35}\\rlap{′}}}",
+     "transcription": "asc. obl. 0° = 0° grad. culm. = 270° δ = 23° 35′",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0710-body-L005",
+     "source_line_no": 5,
+     "tex": "\\mbox{}\\rlap{\\hspace*{8.40mm}\\smash{\\rlap{alt. gr. culm. = 54° — 23° 35′ = 30° 25′}}}\\rlap{\\hspace*{79.60mm}\\smash{\\rlap{sin}}}\\rlap{\\hspace*{91.30mm}\\smash{\\llap{30}\\rlap{°}}}\\rlap{\\hspace*{97.10mm}\\smash{\\llap{25}\\rlap{′}}}\\rlap{\\hspace*{117.00mm}\\smash{\\rlap{9.704 3947}}}",
+     "transcription": "alt. gr. culm. = 54° — 23° 35′ = 30° 25′ sin 30° 25′ 9.704 3947",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0710-body-L006",
+     "source_line_no": 6,
+     "tex": "\\mbox{}\\rlap{\\hspace*{59.00mm}\\smash{\\rlap{$BED$ = 30° 25′}}}",
+     "transcription": "$BED$ = 30° 25′",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0710-body-L007",
+     "source_line_no": 7,
+     "tex": "Pro 120° (initio Leonis):",
+     "transcription": "Pro 120° (initio Leonis):",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0710-body-L008",
+     "source_line_no": 8,
+     "tex": "\\mbox{}\\rlap{\\hspace*{8.10mm}\\smash{\\rlap{asc. obl. 120° = 106° 37′}}}\\rlap{\\hspace*{61.30mm}\\smash{\\rlap{grad. culm. = 18° 2′}}}\\rlap{\\hspace*{111.30mm}\\smash{\\rlap{\\textgreek{δ} =}}}\\rlap{\\hspace*{122.90mm}\\smash{\\llap{7}\\rlap{°}}}\\rlap{\\hspace*{128.70mm}\\smash{\\llap{7}\\rlap{′}}}",
+     "transcription": "asc. obl. 120° = 106° 37′ grad. culm. = 18° 2′ δ = 7° 7′",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0710-body-L009",
+     "source_line_no": 9,
+     "tex": "\\mbox{}\\rlap{\\hspace*{8.10mm}\\smash{\\rlap{alt. gr. culm. = 54° + 7° 7′ = 61° 7′}}}\\rlap{\\hspace*{79.40mm}\\smash{\\rlap{sin}}}\\rlap{\\hspace*{91.30mm}\\smash{\\llap{61}\\rlap{°}}}\\rlap{\\hspace*{97.10mm}\\smash{\\llap{7}\\rlap{′}}}\\rlap{\\hspace*{117.00mm}\\smash{\\rlap{9.942 3083}}}",
+     "transcription": "alt. gr. culm. = 54° + 7° 7′ = 61° 7′ sin 61° 7′ 9.942 3083",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0710-body-L010",
+     "source_line_no": 10,
+     "tex": "\\mbox{}\\rlap{\\hspace*{42.60mm}\\smash{\\rlap{sin ($E$ — gr. culm.) = sin}}}\\rlap{\\hspace*{91.30mm}\\smash{\\llap{101}\\rlap{°}}}\\rlap{\\hspace*{97.10mm}\\smash{\\llap{58}\\rlap{′}}}\\rlap{\\hspace*{117.00mm}\\smash{\\rlap{9.990 4580}}}",
+     "transcription": "sin ($E$ — gr. culm.) = sin 101° 58′ 9.990 4580",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0710-body-L011",
+     "source_line_no": 11,
+     "tex": "\\mbox{}\\rlap{\\hspace*{51.80mm}\\smash{\\rlap{$BED$ = 63° 30′ 57″}}}\\rlap{\\hspace*{117.00mm}\\smash{\\rlap{9.951 8503}}}",
+     "transcription": "$BED$ = 63° 30′ 57″ 9.951 8503",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0710-body-L012",
+     "source_line_no": 12,
+     "tex": "Pro 150° (initio Virginis):",
+     "transcription": "Pro 150° (initio Virginis):",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0710-body-L013",
+     "source_line_no": 13,
+     "tex": "\\mbox{}\\rlap{\\hspace*{8.10mm}\\smash{\\rlap{asc. obl. 150° = 143° 35′}}}\\rlap{\\hspace*{61.30mm}\\smash{\\rlap{grad. culm. = 55° 36′}}}\\rlap{\\hspace*{111.30mm}\\smash{\\rlap{\\textgreek{δ} =}}}\\rlap{\\hspace*{122.90mm}\\smash{\\llap{19}\\rlap{°}}}\\rlap{\\hspace*{128.70mm}\\smash{\\llap{21}\\rlap{′}}}",
+     "transcription": "asc. obl. 150° = 143° 35′ grad. culm. = 55° 36′ δ = 19° 21′",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0710-body-L014",
+     "source_line_no": 14,
+     "tex": "\\mbox{}\\rlap{\\hspace*{8.10mm}\\smash{\\rlap{alt. gr. culm. = 54° + 19° 21′ = 73° 21′}}}\\rlap{\\hspace*{79.50mm}\\smash{\\rlap{sin}}}\\rlap{\\hspace*{91.30mm}\\smash{\\llap{73}\\rlap{°}}}\\rlap{\\hspace*{97.10mm}\\smash{\\llap{21}\\rlap{′}}}\\rlap{\\hspace*{117.00mm}\\smash{\\rlap{9.981 3986}}}",
+     "transcription": "alt. gr. culm. = 54° + 19° 21′ = 73° 21′ sin 73° 21′ 9.981 3986",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0710-body-L015",
+     "source_line_no": 15,
+     "tex": "\\mbox{}\\rlap{\\hspace*{42.90mm}\\smash{\\rlap{sin ($E$ — gr. culm.) = sin}}}\\rlap{\\hspace*{91.30mm}\\smash{\\llap{94}\\rlap{°}}}\\rlap{\\hspace*{97.10mm}\\smash{\\llap{4}\\rlap{′}}}\\rlap{\\hspace*{117.00mm}\\smash{\\rlap{9.998 9052}}}",
+     "transcription": "sin ($E$ — gr. culm.) = sin 94° 4′ 9.998 9052",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0710-body-L016",
+     "source_line_no": 16,
+     "tex": "\\mbox{}\\rlap{\\hspace*{52.10mm}\\smash{\\rlap{$BED$ = 73° 50′ 26″}}}\\rlap{\\hspace*{117.00mm}\\smash{\\rlap{9.982 4934}}}",
+     "transcription": "$BED$ = 73° 50′ 26″ 9.982 4934",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0710-body-L017",
+     "source_line_no": 17,
+     "tex": "\\mbox{}\\rlap{\\hspace*{8.10mm}Supputandi postea}\\rlap{\\hspace*{43.80mm}arcus appar. $=R\\,\\dfrac{\\text{arcus visionis}}{\\sin BED}$\\,,}\\rlap{\\hspace*{101.50mm}ubi arcus visionis est 11° 30′ =}",
+     "transcription": "Supputandi postea arcus appar. $=R\\,\\dfrac{\\text{arcus visionis}}{\\sin BED}$\\,, ubi arcus visionis est 11° 30′ =",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0710-body-L018",
+     "source_line_no": 18,
+     "tex": "= 41400″.",
+     "transcription": "= 41400″.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0710-body-L019",
+     "source_line_no": 19,
+     "tex": "\\mbox{}\\rlap{\\hspace*{51.00mm}\\smash{\\makebox[0pt][c]{0° (Arietis)}}}\\rlap{\\hspace*{86.60mm}\\smash{\\makebox[0pt][c]{120° (Leonis)}}}\\rlap{\\hspace*{122.40mm}\\smash{\\makebox[0pt][c]{150° (Virginis)}}}",
+     "transcription": "0° (Arietis) 120° (Leonis) 150° (Virginis)",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0710-body-L020",
+     "source_line_no": 20,
+     "tex": "\\mbox{}\\rlap{\\hspace*{15.30mm}\\smash{\\rlap{arc. visionis}}}\\rlap{\\hspace*{43.80mm}\\smash{\\rlap{4.617 0003}}}\\rlap{\\hspace*{79.50mm}\\smash{\\rlap{4.617 0003}}}\\rlap{\\hspace*{115.60mm}\\smash{\\rlap{4.617 0003}}}",
+     "transcription": "arc. visionis 4.617 0003 4.617 0003 4.617 0003",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0710-body-L021",
+     "source_line_no": 21,
+     "tex": "\\mbox{}\\rlap{\\hspace*{15.30mm}\\smash{\\rlap{sin $BED$}}}\\rlap{\\hspace*{43.80mm}\\smash{\\rlap{9.704 3947}}}\\rlap{\\hspace*{79.50mm}\\smash{\\rlap{9.951 8503}}}\\rlap{\\hspace*{115.50mm}\\smash{\\rlap{9.982 4934}}}",
+     "transcription": "sin $BED$ 9.704 3947 9.951 8503 9.982 4934",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0710-body-L022",
+     "source_line_no": 22,
+     "tex": "\\mbox{}\\rlap{\\hspace*{43.80mm}\\smash{\\rlap{4.912 6056}}}\\rlap{\\hspace*{79.70mm}\\smash{\\rlap{4.665 1500}}}\\rlap{\\hspace*{115.50mm}\\smash{\\rlap{4.634 5069}}}",
+     "transcription": "4.912 6056 4.665 1500 4.634 5069",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0710-body-L023",
+     "source_line_no": 23,
+     "tex": "\\mbox{}\\rlap{\\hspace*{34.10mm}\\smash{\\rlap{81772″ = 22° 42′ 52″}}}\\rlap{\\hspace*{71.40mm}\\smash{\\rlap{46254″ = 12° 50′ 54″}}}\\rlap{\\hspace*{108.70mm}\\smash{\\rlap{43103″ = 11° 58′ 23″}}}",
+     "transcription": "81772″ = 22° 42′ 52″ 46254″ = 12° 50′ 54″ 43103″ = 11° 58′ 23″",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0710-body-L024",
+     "source_line_no": 24,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.50mm}\\smash{\\rlap{Ergo:}}}\\rlap{\\hspace*{31.60mm}\\smash{\\rlap{Arieti}}}\\rlap{\\hspace*{73.80mm}\\smash{\\rlap{Leoni}}}\\rlap{\\hspace*{113.40mm}\\smash{\\rlap{Virgini}}}",
+     "transcription": "Ergo: Arieti Leoni Virgini",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0710-body-L025",
+     "source_line_no": 25,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.30mm}\\smash{\\rlap{al-Battānī}}}\\rlap{\\hspace*{35.70mm}\\smash{\\llap{29}\\rlap{°}}}\\rlap{\\hspace*{41.70mm}\\smash{\\llap{0}\\rlap{′}}}\\rlap{\\hspace*{76.60mm}\\smash{\\llap{16}\\rlap{°}}}\\rlap{\\hspace*{82.60mm}\\smash{\\llap{7}\\rlap{′}}}\\rlap{\\hspace*{117.40mm}\\smash{\\llap{15}\\rlap{°}}}\\rlap{\\hspace*{123.40mm}\\smash{\\llap{8}\\rlap{′}}}",
+     "transcription": "al-Battānī 29° 0′ 16° 7′ 15° 8′",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0710-body-L026",
+     "source_line_no": 26,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.40mm}\\smash{\\rlap{mea supputatio}}}\\rlap{\\hspace*{35.70mm}\\smash{\\llap{22}}}\\rlap{\\hspace*{41.70mm}\\smash{\\llap{43}}}\\rlap{\\hspace*{76.60mm}\\smash{\\llap{12}}}\\rlap{\\hspace*{82.60mm}\\smash{\\llap{51}}}\\rlap{\\hspace*{117.40mm}\\smash{\\llap{11}}}\\rlap{\\hspace*{123.40mm}\\smash{\\llap{58}}}",
+     "transcription": "mea supputatio 22 43 12 51 11 58",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0710-body-L027",
+     "source_line_no": 27,
+     "tex": "\\mbox{}\\rlap{\\hspace*{8.00mm}\\smash{\\rlap{differentia}}}\\rlap{\\hspace*{35.70mm}\\smash{\\llap{6}\\rlap{°}}}\\rlap{\\hspace*{41.70mm}\\smash{\\llap{17}\\rlap{′}}}\\rlap{\\hspace*{76.60mm}\\smash{\\llap{3}\\rlap{°}}}\\rlap{\\hspace*{82.60mm}\\smash{\\llap{16}\\rlap{′}}}\\rlap{\\hspace*{117.40mm}\\smash{\\llap{3}\\rlap{°}}}\\rlap{\\hspace*{123.40mm}\\smash{\\llap{10}\\rlap{′}}}",
+     "transcription": "differentia 6° 17′ 3° 16′ 3° 10′",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0710-body-L028",
+     "source_line_no": 28,
+     "tex": "\\Indent Tantae sunt hae discrepantiae ut nullo modo eas explicare possim. Alias multas expe-",
+     "transcription": "Tantae sunt hae discrepantiae ut nullo modo eas explicare possim. Alias multas expe-",
+     "semantic_anchor": "AB01-PDF0710-P01",
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0710-body-L029",
+     "source_line_no": 29,
+     "tex": "rientias quas institueram hic referre inutile puto.",
+     "transcription": "rientias quas institueram hic referre inutile puto.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0710-body-L030",
+     "source_line_no": 30,
+     "tex": "\\Indent Utrum \\Name{al-Battānī} has tabulas (quibus \\textit{ne nimium confidatur monet}) ipse condiderit",
+     "transcription": "Utrum {sp:al-Battānī} has tabulas (quibus *ne nimium confidatur monet*) ipse condiderit",
+     "semantic_anchor": "AB01-PDF0710-P02",
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0710-body-L031",
+     "source_line_no": 31,
+     "tex": "an ab aliis Arabicis astronomis iam supputatas acceperit, incertum erat. Cum codex Escuria-",
+     "transcription": "an ab aliis Arabicis astronomis iam supputatas acceperit, incertum erat. Cum codex Escuria-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0710-body-L032",
+     "source_line_no": 32,
+     "tex": "lensis vocalibus destitutus sit, locus t. III, p. 178, l. 4–7: \\ArabicRun{وقد وضعت لها اقدار الرؤْية بدرج البروج في كل}",
+     "transcription": "lensis vocalibus destitutus sit, locus t. III, p. 178, l. 4–7: {ar:وقد وضعت لها اقدار الرؤْية بدرج البروج في كل}",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0710-body-L033",
+     "source_line_no": 33,
+     "tex": "\\ArabicRun{اقليم على ما رصد من ظهورها في كل برج. ورسم ذلك في رؤس البروج وان كان ذلك ليس على الحقيقة من قبل ما يعرض من}",
+     "transcription": "{ar:اقليم على ما رصد من ظهورها في كل برج. ورسم ذلك في رؤس البروج وان كان ذلك ليس على الحقيقة من قبل ما يعرض من}",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0710-body-L034",
+     "source_line_no": 34,
+     "tex": "\\ArabicRun{اختلاف عروضها ولذلك اقتصرنا على اثبات هذه الاقدار في اقليم واحد .....}, duplicem interpretationem sortitur ob",
+     "transcription": "{ar:اختلاف عروضها ولذلك اقتصرنا على اثبات هذه الاقدار في اقليم واحد .....}, duplicem interpretationem sortitur ob",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0710-body-L035",
+     "source_line_no": 35,
+     "tex": "duplicem modum quo vox \\ArabicRun{وضعت} signis vocalium instrui potest. Nam, si \\ArabicRun{وُضِعَتْ} legatur, sensus fit:",
+     "transcription": "duplicem modum quo vox {ar:وضعت} signis vocalium instrui potest. Nam, si {ar:وُضِعَتْ} legatur, sensus fit:",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0710-body-L036",
+     "source_line_no": 36,
+     "tex": "« iis (i. e. planetis) \\textit{constitutae sunt} quantitates apparitionis, in signorum gradibus, pro omni",
+     "transcription": "« iis (i. e. planetis) *constitutae sunt* quantitates apparitionis, in signorum gradibus, pro omni",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0710-body-L037",
+     "source_line_no": 37,
+     "tex": "« climate, iuxta id apparitionum eorum quod observatum est in singulis signis; idque in initiis",
+     "transcription": "« climate, iuxta id apparitionum eorum quod observatum est in singulis signis; idque in initiis",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0710-body-L038",
+     "source_line_no": 38,
+     "tex": "« signorum descriptum est, licet non sit ad veritatem ob variationem in eorum (planetarum)",
+     "transcription": "« signorum descriptum est, licet non sit ad veritatem ob variationem in eorum (planetarum)",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0710-body-L039",
+     "source_line_no": 39,
+     "tex": "« latitudinibus exorientem. Qua re satis habuimus has quantitates ad unum tantum clima no-",
+     "transcription": "« latitudinibus exorientem. Qua re satis habuimus has quantitates ad unum tantum clima no-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0710-body-L040",
+     "source_line_no": 40,
+     "tex": "« tare .... ». Si \\ArabicRun{وَضَعْتُ} legatur, ita erit vertendum: « iis \\textit{constitui} (vel: \\textit{constitueram}) quan-",
+     "transcription": "« tare .... ». Si {ar:وَضَعْتُ} legatur, ita erit vertendum: « iis *constitui* (vel: *constitueram*) quan-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    }
+   ]
+  }
+ ]
+}
