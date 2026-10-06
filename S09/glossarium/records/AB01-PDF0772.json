@@ -1,0 +1,398 @@
+{
+ "anchor": "AB01-PDF0772",
+ "master_pdf_page": 772,
+ "printed_page": 323,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "observations": [
+  "body L1: the example «الخمس عشرة درجة الاوّلة» runs over from the last line of p. 322 («الخمس») to the beginning of this line.",
+  "body L11: the line numbers are printed «15. 16, 17, 18», with a point after 15.",
+  "body L13, L14: in Woepcke's title «Fakhrì» and «Aboù» are printed with grave accents, «Alkarkhî» with a circumflex.",
+  "body L14, L27: a small mark before «Paris» (L14) and one over the e of «sphaerali» (L27) are not transcribed.",
+  "body L23: «ibn Aḥmad» is not letter-spaced, unlike «Muḥammad» and «ibn Ghāzī».",
+  "body L6, L25: the sign over the alif of «ألِفْ» and of «أدقّها» is the hamza alone (3.5 by 3.1 points, the shape of the hamza of «رأس» in L6), not a hamza with a damma; «رَدُّك» has no vowel on the k.",
+  "body L20, L28: «Caussin» is letter-spaced in L20, not in L28."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0772-body-L001",
+     "source_line_no": 1,
+     "tex": "\\hspace*{21.28pt}\\ArabicRun{عشرة درجة الاوّلة} {\\arabicfont ١٩}\\textsubscript{20}; \\ArabicRun{تلك الازمان الاوّلة} {\\arabicfont ١٣٤}\\textsubscript{6}; \\ArabicRun{مواضعها الاوّلة} {\\arabicfont ١٨٨}\\textsubscript{6}; \\ArabicRun{الدرجة الاوّلة} {\\arabicfont ٢٠٢}\\textsubscript{21}; \\ArabicRun{الحلقتين}",
+     "transcription": "{ar:عشرة درجة الاوّلة} ١٩{sub:20}; {ar:تلك الازمان الاوّلة} ١٣٤{sub:6}; {ar:مواضعها الاوّلة} ١٨٨{sub:6}; {ar:الدرجة الاوّلة} ٢٠٢{sub:21}; {ar:الحلقتين}",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0772-body-L002",
+     "source_line_no": 2,
+     "tex": "\\hspace*{21.28pt}\\ArabicRun{الاوّلتين} {\\arabicfont ٢١١}\\textsubscript{21}; \\ArabicRun{السطور الاوّلة} {\\arabicfont ٢٢٠}\\textsubscript{5}. — Cfr. \\Name{Spitta}, \\textit{Gramm. d. arab. Vulgärdial. von Ae-}",
+     "transcription": "{ar:الاوّلتين} ٢١١{sub:21}; {ar:السطور الاوّلة} ٢٢٠{sub:5}. — Cfr. {sp:Spitta}, *Gramm. d. arab. Vulgärdial. von Ae-*",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0772-body-L003",
+     "source_line_no": 3,
+     "tex": "\\hspace*{21.28pt}\\textit{gypten}, p. 161, complura ex Kitāb al-Fihrist exempla adducentem; \\Name{Fleischer}, \\textit{Klein.}",
+     "transcription": "*gypten*, p. 161, complura ex Kitāb al-Fihrist exempla adducentem; {sp:Fleischer}, *Klein.*",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0772-body-L004",
+     "source_line_no": 4,
+     "tex": "\\hspace*{21.28pt}\\textit{Schr.}, I, 336-337; \\Name{Ḥabash}, f. 61,r.: \\ArabicRun{مقامات الكواكب الاوّلة}.",
+     "transcription": "*Schr.*, I, 336-337; {sp:Ḥabash}, f. 61,r.: {ar:مقامات الكواكب الاوّلة}.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0772-body-L005",
+     "source_line_no": 5,
+     "tex": "\\ArabicRun{اويسطس} \\textgreek{ὁ Ὀϊστός}, constellatio \\textit{Sagittae} {\\arabicfont ٢٥٢}.",
+     "transcription": "{ar:اويسطس} ὁ Ὀϊστός, constellatio *Sagittae* ٢٥٢.",
+     "semantic_anchor": "AB01-PDF0772-E01",
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0772-body-L006",
+     "source_line_no": 6,
+     "tex": "\\ArabicRun{رأس ايرقلاس} \\textgreek{Ἡρακλῆς} (in \\textit{Tetrabiblo}), \\textit{Pollux}, \\textgreek{β} \\textit{Geminorum}, {\\arabicfont ٢٧٧}; in \\textit{Tetrab.} verso a \\Name{Ḥu-}",
+     "transcription": "{ar:رأس ايرقلاس} Ἡρακλῆς (in *Tetrabiblo*), *Pollux*, β *Geminorum*, ٢٧٧; in *Tetrab.* verso a {sp:Ḥu-}",
+     "semantic_anchor": "AB01-PDF0772-E02",
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0772-body-L007",
+     "source_line_no": 7,
+     "tex": "\\hspace*{21.28pt}\\Name{nayn ibn Isḥāq} \\ArabicRun{ايرقلاوس} (ex genet. \\textgreek{Ἡρακλέους}), v. t. II, 290-91.",
+     "transcription": "{sp:nayn ibn Isḥāq} {ar:ايرقلاوس} (ex genet. Ἡρακλέους), v. t. II, 290-91.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0772-body-L008",
+     "source_line_no": 8,
+     "tex": "\\ArabicRun{بدأ} — \\ArabicRun{بَدِيئًا} seu \\ArabicRun{بَدِيًّا} \\textit{antea} {\\arabicfont ٢١}\\textsubscript{13}, {\\arabicfont ٤١}\\textsubscript{18}, {\\arabicfont ٦٨}\\textsubscript{12}, {\\arabicfont ٧١}\\textsubscript{1}, {\\arabicfont ٨٢}\\textsubscript{14}, {\\arabicfont ٩٨}\\textsubscript{9}, {\\arabicfont ١٠٩}\\textsubscript{13}, {\\arabicfont ١٥٠}\\textsubscript{21}, {\\arabicfont ١٧٨}\\textsubscript{15}. Codex semper",
+     "transcription": "{ar:بدأ} — {ar:بَدِيئًا} seu {ar:بَدِيًّا} *antea* ٢١{sub:13}, ٤١{sub:18}, ٦٨{sub:12}, ٧١{sub:1}, ٨٢{sub:14}, ٩٨{sub:9}, ١٠٩{sub:13}, ١٥٠{sub:21}, ١٧٨{sub:15}. Codex semper",
+     "semantic_anchor": "AB01-PDF0772-E03",
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0772-body-L009",
+     "source_line_no": 9,
+     "tex": "\\hspace*{21.28pt}\\ArabicRun{بديا} quod vix recte \\ArabicRun{بَدْئِيًّا} legendum duxeram.",
+     "transcription": "{ar:بديا} quod vix recte {ar:بَدْئِيًّا} legendum duxeram.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0772-body-L010",
+     "source_line_no": 10,
+     "tex": "\\ArabicRun{برطومس} \\textgreek{Ἵππου προτομή}, constellatio \\textit{Equulei} {\\arabicfont ٢٥٣}.",
+     "transcription": "{ar:برطومس} Ἵππου προτομή, constellatio *Equulei* ٢٥٣.",
+     "semantic_anchor": "AB01-PDF0772-E04",
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0772-body-L011",
+     "source_line_no": 11,
+     "tex": "\\ArabicRun{بُرْهَانٌ} \\textit{demonstratio geometrica} {\\arabicfont ١٣}\\textsubscript{13}, {\\arabicfont ١٤}\\textsubscript{15. 16, 17, 18}, {\\arabicfont ١٥}\\textsubscript{11}, {\\arabicfont ٧٦}\\textsubscript{10}, {\\arabicfont ٧٧}\\textsubscript{14}, {\\arabicfont ٩٥}\\textsubscript{7}, {\\arabicfont ١٢٩}\\textsubscript{15}; — \\ArabicRun{البرهـان}",
+     "transcription": "{ar:بُرْهَانٌ} *demonstratio geometrica* ١٣{sub:13}, ١٤{sub:15. 16, 17, 18}, ١٥{sub:11}, ٧٦{sub:10}, ٧٧{sub:14}, ٩٥{sub:7}, ١٢٩{sub:15}; — {ar:البرهـان}",
+     "semantic_anchor": "AB01-PDF0772-E05",
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0772-body-L012",
+     "source_line_no": 12,
+     "tex": "\\hspace*{21.28pt}\\ArabicRun{الهندسيّ والعدديّ} \\textit{demonstratio geometrica et arithmetica} {\\arabicfont ٧}\\textsubscript{9}; — \\ArabicRun{القياس البرهانيّ} \\textit{dedu-}",
+     "transcription": "{ar:الهندسيّ والعدديّ} *demonstratio geometrica et arithmetica* ٧{sub:9}; — {ar:القياس البرهانيّ} *dedu-*",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0772-body-L013",
+     "source_line_no": 13,
+     "tex": "\\hspace*{21.28pt}\\textit{ctio geometrica} {\\arabicfont ٨٤}\\textsubscript{20}. Cfr. \\Name{Woepcke}, \\textit{Extrait du Fakhrì, traité d’algèbre par Aboù}",
+     "transcription": "*ctio geometrica* ٨٤{sub:20}. Cfr. {sp:Woepcke}, *Extrait du Fakhrì, traité d’algèbre par Aboù*",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0772-body-L014",
+     "source_line_no": 14,
+     "tex": "\\hspace*{21.28pt}\\textit{Bekr Mohammed} ... \\textit{Alkarkhî}, Paris 1853, p. 6, adn.: « Je fais remarquer à cette oc-",
+     "transcription": "*Bekr Mohammed* ... *Alkarkhî*, Paris 1853, p. 6, adn.: « Je fais remarquer à cette oc-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0772-body-L015",
+     "source_line_no": 15,
+     "tex": "\\hspace*{21.28pt}« casion que \\ArabicRun{برهان} signifie, chez les algébristes arabes plus spécialement, une démonstration",
+     "transcription": "« casion que {ar:برهان} signifie, chez les algébristes arabes plus spécialement, une démonstration",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0772-body-L016",
+     "source_line_no": 16,
+     "tex": "\\hspace*{21.28pt}« au moyen d’une construction géométrique, et que \\ArabicRun{شرح} ‘ explication ’ correspond ici à",
+     "transcription": "« au moyen d’une construction géométrique, et que {ar:شرح} ‘ explication ’ correspond ici à",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0772-body-L017",
+     "source_line_no": 17,
+     "tex": "\\hspace*{21.28pt}« ce que nous appelerions une demonstration algébrique ou arithmétique ».",
+     "transcription": "« ce que nous appelerions une demonstration algébrique ou arithmétique ».",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0772-body-L018",
+     "source_line_no": 18,
+     "tex": "\\ArabicRun{بَسَطَ} u, in calculo sexagesimali est \\textit{datam fractionem sexagesimam in} (\\ArabicRun{الى}) \\textit{aliam minoris}",
+     "transcription": "{ar:بَسَطَ} u, in calculo sexagesimali est *datam fractionem sexagesimam in* ({ar:الى}) *aliam minoris*",
+     "semantic_anchor": "AB01-PDF0772-E06",
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0772-body-L019",
+     "source_line_no": 19,
+     "tex": "\\hspace*{21.28pt}\\textit{ordinis convertere}, ut secundas in tertias, quartas etc., {\\arabicfont ١١}\\textsubscript{6, 7, 15, 16}, {\\arabicfont ١٢}\\textsubscript{19, 20}. Ex quo in-",
+     "transcription": "*ordinis convertere*, ut secundas in tertias, quartas etc., ١١{sub:6, 7, 15, 16}, ١٢{sub:19, 20}. Ex quo in-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0772-body-L020",
+     "source_line_no": 20,
+     "tex": "\\hspace*{21.28pt}telligitur \\Name{Ibn Yūnus} (\\Name{Caussin}, 151-157, 231) de signis zodiaci convertendis in gradus",
+     "transcription": "telligitur {sp:Ibn Yūnus} ({sp:Caussin}, 151-157, 231) de signis zodiaci convertendis in gradus",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0772-body-L021",
+     "source_line_no": 21,
+     "tex": "\\hspace*{21.28pt}ab initio Arietis supputatos: \\ArabicRun{وسط الشمس في السنة الفارسيّة يا كط مه لط مه ثالثـة يكون}",
+     "transcription": "ab initio Arietis supputatos: {ar:وسط الشمس في السنة الفارسيّة يا كط مه لط مه ثالثـة يكون}",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0772-body-L022",
+     "source_line_no": 22,
+     "tex": "\\hspace*{21.28pt}\\ArabicRun{مبسوطها شنط مه لط مه} « motus medius Solis anno Persico 11\\textsuperscript{\\textit{s}} 29° 45′ 39″ 45‴, seu in",
+     "transcription": "{ar:مبسوطها شنط مه لط مه} « motus medius Solis anno Persico 11{sup:*s*} 29° 45′ 39″ 45‴, seu in",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0772-body-L023",
+     "source_line_no": 23,
+     "tex": "\\hspace*{21.28pt}« gradibus 359° 45′ 39″ 45‴ ». \\Name{Muḥammad} ibn Aḥmad \\Name{ibn Ghāzī} (1), \\textit{Bughyat aṭ-}",
+     "transcription": "« gradibus 359° 45′ 39″ 45‴ ». {sp:Muḥammad} ibn Aḥmad {sp:ibn Ghāzī} (1), *Bughyat aṭ-*",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0772-body-L024",
+     "source_line_no": 24,
+     "tex": "\\hspace*{21.28pt}\\textit{ṭullāb fī sharḥ munyat al-ḥussāb}, Fez 1317, fasc. XIII, p. 6:",
+     "transcription": "*ṭullāb fī sharḥ munyat al-ḥussāb*, Fez 1317, fasc. XIII, p. 6:",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0772-body-L025",
+     "source_line_no": 25,
+     "tex": "\\mbox{}\\rlap{\\hspace*{98.20mm}\\smash{\\makebox[0pt][c]{\\ArabicRun{وبَسْطُها رَدُّك ما فيها ألِفْ}}}}\\rlap{\\hspace*{51.10mm}\\smash{\\makebox[0pt][c]{\\ArabicRun{الى أدقّها وذلـك يختَلِفْ}}}}",
+     "transcription": "{ar:وبَسْطُها رَدُّك ما فيها ألِفْ} {ar:الى أدقّها وذلـك يختَلِفْ}",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0772-body-L026",
+     "source_line_no": 26,
+     "tex": "\\hspace*{21.28pt}\\ArabicRun{اي وبَسْط الكسر ان تَرُدّ جميع ما وُجد فيها من الاجزاء الى اصغر الاجزاء}. — \\ArabicRun{بَسِيط} \\textit{superficies}",
+     "transcription": "{ar:اي وبَسْط الكسر ان تَرُدّ جميع ما وُجد فيها من الاجزاء الى اصغر الاجزاء}. — {ar:بَسِيط} *superficies*",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0772-body-L027",
+     "source_line_no": 27,
+     "tex": "\\hspace*{21.28pt}\\textit{plana, planities} {\\arabicfont ٣٢}\\textsubscript{1, 14}, {\\arabicfont ٩٣}\\textsubscript{19} (ubi opponitur corpori sphaerico et figurae sphaerali); ita",
+     "transcription": "*plana, planities* ٣٢{sub:1, 14}, ٩٣{sub:19} (ubi opponitur corpori sphaerico et figurae sphaerali); ita",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0772-body-L028",
+     "source_line_no": 28,
+     "tex": "\\hspace*{21.28pt}etiam \\Name{Ibn Yūnus} (Caussin, 179 ult.) \\ArabicRun{في بسيط دائرتها} « in planitie eius circuli ». Sed",
+     "transcription": "etiam {sp:Ibn Yūnus} (Caussin, 179 ult.) {ar:في بسيط دائرتها} « in planitie eius circuli ». Sed",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0772-body-L029",
+     "source_line_no": 29,
+     "tex": "\\hspace*{21.28pt}plerumque apud mathematicos est \\textgreek{ἐπιφάνεια}, \\textit{superficies} quaelibet plana sive non, sicut",
+     "transcription": "plerumque apud mathematicos est ἐπιφάνεια, *superficies* quaelibet plana sive non, sicut",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0772-body-L030",
+     "source_line_no": 30,
+     "tex": "\\hspace*{21.28pt}\\ArabicRun{سَطْح}; v. \\Name{Klamroth}, ZDMG., XXXV, 1881, 297; \\textit{Mafātīḥ}, 206-207; \\Name{al-Qazwīnī} ed.",
+     "transcription": "{ar:سَطْح}; v. {sp:Klamroth}, ZDMG., XXXV, 1881, 297; *Mafātīḥ*, 206-207; {sp:al-Qazwīnī} ed.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0772-body-L031",
+     "source_line_no": 31,
+     "tex": "\\hspace*{21.28pt}Wüst., I, 16, l. 12 (\\ArabicRun{الفلك جسم بسيط كرّيّ}); \\Name{Naṣīr ad-dīn}, \\textit{Euclidis recensio}, Romae 1594,",
+     "transcription": "Wüst., I, 16, l. 12 ({ar:الفلك جسم بسيط كرّيّ}); {sp:Naṣīr ad-dīn}, *Euclidis recensio*, Romae 1594,",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0772-body-L032",
+     "source_line_no": 32,
+     "tex": "\\hspace*{21.28pt}p. 4, l. 4 etc. — \\ArabicRun{الآلة البسيطة} \\textit{horologium sciothericum horizontale} {\\arabicfont ٢٠٣}\\textsubscript{6, 10}. — \\ArabicRun{السنون}",
+     "transcription": "p. 4, l. 4 etc. — {ar:الآلة البسيطة} *horologium sciothericum horizontale* ٢٠٣{sub:6, 10}. — {ar:السنون}",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0772-body-L033",
+     "source_line_no": 33,
+     "tex": "\\hspace*{21.28pt}\\ArabicRun{المبسوطة} \\textgreek{ἔτη ἁπλᾶ}, \\textit{anni expansi} ut nostrates aevi medii verterunt (« annos expandidos »",
+     "transcription": "{ar:المبسوطة} ἔτη ἁπλᾶ, *anni expansi* ut nostrates aevi medii verterunt (« annos expandidos »",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0772-body-L034",
+     "source_line_no": 34,
+     "tex": "\\hspace*{21.28pt}in \\textit{Libros del saber de astronomia}) et seriores usque ad XVIII saeculum dixerunt, i.",
+     "transcription": "in *Libros del saber de astronomia*) et seriores usque ad XVIII saeculum dixerunt, i.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0772-body-L035",
+     "source_line_no": 35,
+     "tex": "\\hspace*{21.28pt}e. anni in prima columna tabularum singillatim descripti; contrarium \\ArabicRun{السنون المجموعة}.",
+     "transcription": "e. anni in prima columna tabularum singillatim descripti; contrarium {ar:السنون المجموعة}.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0772-body-L036",
+     "source_line_no": 36,
+     "tex": "\\hspace*{21.28pt}Innumera exempla apud al-Battānī aliosque Arabes. — \\ArabicRun{ظلّ مبسوط} v. \\ArabicRun{ظلّ}.",
+     "transcription": "Innumera exempla apud al-Battānī aliosque Arabes. — {ar:ظلّ مبسوط} v. {ar:ظلّ}.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    }
+   ]
+  },
+  {
+   "role": "notes_left",
+   "lines": [
+    {
+     "id": "AB01-PDF0772-notes_left-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (1) Natus, iuxta meliorem traditionem, 841 heg.",
+     "transcription": "(1) Natus, iuxta meliorem traditionem, 841 heg.",
+     "semantic_anchor": "AB01-PDF0772-N01",
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0772-notes_left-L002",
+     "source_line_no": null,
+     "tex": "(inc. 4 Iul. 1437) in urbe Miknāsah (Mequinez), mor-",
+     "transcription": "(inc. 4 Iul. 1437) in urbe Miknāsah (Mequinez), mor-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0772-notes_left-L003",
+     "source_line_no": null,
+     "tex": "tuus quarta feria 9 ǵumādà prioris 919 (i. e. 13 Iu-",
+     "transcription": "tuus quarta feria 9 ǵumādà prioris 919 (i. e. 13 Iu-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0772-notes_left-L004",
+     "source_line_no": null,
+     "tex": "lii 1513) Fez in urbe. De eo \\Name{al-Kattānī}, \\textit{Salwat}",
+     "transcription": "lii 1513) Fez in urbe. De eo {sp:al-Kattānī}, *Salwat*",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0772-notes_left-L005",
+     "source_line_no": null,
+     "tex": "\\textit{al-anfās}, Fez 1310, II, 73-77; \\Name{Aḥmad Bābā}, \\textit{Nayl}",
+     "transcription": "*al-anfās*, Fez 1310, II, 73-77; {sp:Aḥmad Bābā}, *Nayl*",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  },
+  {
+   "role": "notes_right",
+   "lines": [
+    {
+     "id": "AB01-PDF0772-notes_right-L001",
+     "source_line_no": null,
+     "tex": "\\textit{al-ibtihāǵ}, Fez 1317, p. 359-70; \\Name{Ibn al-Qāḍī}, \\textit{Ǵadh-}",
+     "transcription": "*al-ibtihāǵ*, Fez 1317, p. 359-70; {sp:Ibn al-Qāḍī}, *Ǵadh-*",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0772-notes_right-L002",
+     "source_line_no": null,
+     "tex": "\\textit{wat al-iqtibās}, Fez 1309, p. 203-204; \\Name{Ibn ʿAskar},",
+     "transcription": "*wat al-iqtibās*, Fez 1309, p. 203-204; {sp:Ibn ʿAskar},",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0772-notes_right-L003",
+     "source_line_no": null,
+     "tex": "\\textit{Dawḥat an-nāshir}, Fez 1309, p. 36-37; \\Name{Suter},",
+     "transcription": "*Dawḥat an-nāshir*, Fez 1309, p. 36-37; {sp:Suter},",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0772-notes_right-L004",
+     "source_line_no": null,
+     "tex": "p. 186, nr. 451; \\Name{Brockelmann}, II, 240.",
+     "transcription": "p. 186, nr. 451; {sp:Brockelmann}, II, 240.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  }
+ ]
+}
