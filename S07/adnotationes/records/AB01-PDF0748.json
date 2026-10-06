@@ -1,0 +1,139 @@
+{
+ "anchor": "AB01-PDF0748",
+ "master_pdf_page": 748,
+ "printed_page": 299,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "observations": [
+  "body L2: a small speck is printed before «Circulus»; not transcribed.",
+  "body L5: a blot of ink is printed on the i of «Primus»; not transcribed.",
+  "figure: the labels are transcribed as printed: «Inpiter» (Gemini, terms), «Iupitor» (Cancer, terms), «Venns» (Pisces, terms) and «Verus» (Virgo, terms) are printed so; «Saturnus» (Taurus, faces) is printed with the t and the n broken; the exaltation of Capricornus is printed «♂ 28» without the sign of degrees.",
+  "figure: the signs of the planets are set in FreeSerif; the Moon of the print is a heavier crescent."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0748-body-L001",
+     "source_line_no": 1,
+     "tex": "\\CenterLine{Fol. 197,r.}",
+     "transcription": "Fol. 197,r.",
+     "semantic_anchor": "AB01-PDF0748-H01",
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0748-body-L002",
+     "source_line_no": 2,
+     "tex": "\\Indent Circulus hic complectitur dominos terminorum duodecim signorum, dominos eorum tri-",
+     "transcription": "Circulus hic complectitur dominos terminorum duodecim signorum, dominos eorum tri-",
+     "semantic_anchor": "AB01-PDF0748-P01",
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0748-body-L003",
+     "source_line_no": 3,
+     "tex": "plicitatum die et nocte (1), dominos facierum (2), dominos domiciliorum, et dominos exaltatio-",
+     "transcription": "plicitatum die et nocte (1), dominos facierum (2), dominos domiciliorum, et dominos exaltatio-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0748-body-L004",
+     "source_line_no": 4,
+     "tex": "num, si Deus vult.",
+     "transcription": "num, si Deus vult.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0748-body-F01",
+     "source_line_no": null,
+     "tex": "\\input{figures/AB01-PDF0748-F01}",
+     "transcription": "[figure, redrawn: figures/AB01-PDF0748-F01.tex]",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_FIGURE"
+    },
+    {
+     "id": "AB01-PDF0748-body-L005",
+     "source_line_no": 5,
+     "tex": "\\Indent Primus circulus \\textit{terminis} [inservit]; qui eum sequitur \\textit{triplicitatibus}; qui ambos sequi-",
+     "transcription": "Primus circulus *terminis* [inservit]; qui eum sequitur *triplicitatibus*; qui ambos sequi-",
+     "semantic_anchor": "AB01-PDF0748-P02",
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0748-body-L006",
+     "source_line_no": 6,
+     "tex": "tur \\textit{faciebus}; qui tres illos sequitur \\textit{domiciliis} (3); qui omnes eos sequitur, ac intimus est,",
+     "transcription": "tur *faciebus*; qui tres illos sequitur *domiciliis* (3); qui omnes eos sequitur, ac intimus est,",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0748-body-L007",
+     "source_line_no": 7,
+     "tex": "\\textit{exaltationibus} (4). Nec est [imago haec] ex archetypo.",
+     "transcription": "*exaltationibus* (4). Nec est [imago haec] ex archetypo.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    }
+   ]
+  },
+  {
+   "role": "notes_left",
+   "lines": [
+    {
+     "id": "AB01-PDF0748-notes_left-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (1) Cod. « nocte et die ».",
+     "transcription": "(1) Cod. « nocte et die ».",
+     "semantic_anchor": "AB01-PDF0748-N01",
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0748-notes_left-L002",
+     "source_line_no": null,
+     "tex": "\\Indent (2) Cod. « signorum ».",
+     "transcription": "(2) Cod. « signorum ».",
+     "semantic_anchor": "AB01-PDF0748-N02",
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0748-notes_left-L003",
+     "source_line_no": null,
+     "tex": "\\Indent (3) Cod. « exaltationi ».",
+     "transcription": "(3) Cod. « exaltationi ».",
+     "semantic_anchor": "AB01-PDF0748-N03",
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  },
+  {
+   "role": "notes_right",
+   "lines": [
+    {
+     "id": "AB01-PDF0748-notes_right-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (4) Cod. « domiciliis ». Emendationes figurae",
+     "transcription": "(4) Cod. « domiciliis ». Emendationes figurae",
+     "semantic_anchor": "AB01-PDF0748-N04",
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0748-notes_right-L002",
+     "source_line_no": null,
+     "tex": "illatas in commentario recensebo.",
+     "transcription": "illatas in commentario recensebo.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  }
+ ]
+}
