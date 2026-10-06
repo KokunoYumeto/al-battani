@@ -1,0 +1,939 @@
+\documentclass[11pt]{article}
+\usepackage[paperwidth=220mm,paperheight=320mm,left=16mm,right=16mm,top=18mm,bottom=18mm,headheight=16pt,headsep=10pt,footskip=14pt]{geometry}
+\usepackage{fix-cm}
+\usepackage{fontspec,amsmath,amssymb,graphicx,array,multirow}
+\usepackage[unicode,hidelinks]{hyperref}
+\usepackage{polyglossia}
+\setmainlanguage{latin}
+\setotherlanguages{arabic,greek,hebrew,syriac}
+\setmainfont{Linux Libertine O}[Ligatures=TeX]
+\newfontfamily\greekfont{FreeSerif}[Script=Greek]
+\newfontfamily\arabicfont{Amiri}[Script=Arabic]
+\newfontfamily\hebrewfont{Frank Ruhl Hofshi}[Script=Hebrew]
+\newfontfamily\syriacfont{Segoe UI Historic}[Script=Syriac]
+\newfontfamily\CapFont{Noto Serif}
+\newfontfamily\EthiopicFont{Ebrima}
+\newcommand{\textethiopic}[1]{{\EthiopicFont #1}}
+\newfontfamily\NallinoSigns{NallinoSigns.otf}[Path=./fonts/]
+\newcommand{\AbjadZero}{{\NallinoSigns\symbol{"E000}}}
+\hypersetup{pdftitle={Al-Battani, Opus astronomicum. Nallino, Adnotationes ad tabulas (Pars II, pp. 189-317). S07},pdfauthor={Al-Battani; Carlo Alfonso Nallino (notes)}}
+\makeatletter
+\def\ps@sourceedition{%
+\def\@oddhead{\vbox{\hbox to\textwidth{\fontsize{8}{10}\selectfont C. A. NALLINO — ADNOTATIONES AD TABULAS\hfil\leftmark}\vskip3pt\hrule height.25pt}}%
+\let\@evenhead\@oddhead
+\def\@oddfoot{\hbox to\textwidth{\fontsize{7}{9}\selectfont\rightmark\hfil\thepage}}%
+\let\@evenfoot\@oddfoot}
+\makeatother
+\pagestyle{sourceedition}
+\setlength{\parindent}{0pt}\setlength{\parskip}{0pt}
+\newcommand{\BeginSource}[2]{\clearpage\markboth{PAG. #2}{#1}\hypertarget{#1}{}\pdfbookmark[0]{#1 — p. #2}{bk-#1}\fontsize{11.1}{13.8}\selectfont}
+\tracinglostchars=2
+\newcommand{\Name}[1]{{\addfontfeatures{LetterSpace=4.0}#1}}
+\newcommand{\Indent}{\hspace*{1.6em}}
+\newcommand{\qfrac}[2]{{}^{#1}\!/_{{#2}}}
+\newcommand{\sa}{\textsuperscript{\textit{a}}}\newcommand{\sm}{\textsuperscript{\textit{m}}}\newcommand{\sd}{\textsuperscript{\textit{d}}}
+\newcommand{\RawBlock}[1]{\par\vspace{3pt}\noindent#1\par\vspace{3pt}}
+\newcommand{\CenterLine}[1]{\makebox[\linewidth][c]{#1}}
+\newlength{\FullSourceWidth}\newlength{\GutterOffset}\newif\ifNumbersLeft
+\newcommand{\DSource}[2]{\BeginSource{AB01-PDF#1}{#2}%
+ \setlength{\FullSourceWidth}{\textwidth}\setlength{\GutterOffset}{0pt}%
+ \ifodd#2\relax\NumbersLefttrue\else\NumbersLeftfalse\fi}
+\newsavebox{\DLBox}
+\newcommand{\DLine}[3]{%
+ \par\noindent\hypertarget{#1}{}%
+ \ifx\relax#2\relax\else
+   \ifNumbersLeft
+    \rlap{\kern-\GutterOffset\llap{\fontsize{7}{8}\selectfont #2\hspace{3mm}}}%
+   \else
+    \rlap{\kern\dimexpr\FullSourceWidth-\GutterOffset\relax\hspace{3mm}{\fontsize{7}{8}\selectfont #2}}%
+   \fi
+ \fi
+ \sbox{\DLBox}{\strut #3}%
+ \ifdim\wd\DLBox>\linewidth\typeout{DIPLOMATICWIDTH|#1|\the\wd\DLBox|\the\linewidth}\fi
+ \usebox{\DLBox}\strut\par}
+\begin{document}
+\thispagestyle{empty}
+\begin{center}\Large AL-BATTĀNĪ\par\vspace{4mm}\LARGE OPUS ASTRONOMICUM\par
+\vspace{5mm}\large Caroli Alphonsi Nallino adnotationes ad tabulas (pars II)\par\vspace{8mm}
+\Large S07 --- editio diplomatica in progressu\par\vspace{4mm}\large Paginae impressae 189--203\end{center}
+\vspace{12mm}\noindent Singulae lineae paginarum impressarum singulis lineis huius editionis respondent, cum
+divisionibus vocabulorum, signis et generibus litterarum (rectis, inclinatis, distantibus). Textus ex imaginibus
+paginarum transcriptus est; litterae Graecae et Arabicae, numeri et signa in imaginibus amplificatis lecta sunt.
+Haec transcriptio a nullo homine recognita est.\par
+\DSource{0638}{189}
+\par\vspace{120mm}
+\DLine{AB01-PDF0638-body-L001}{}{\CenterLine{\fontsize{24}{28}\selectfont ADNOTATIONES}}
+\par\noindent\makebox[\linewidth][c]{\rule[.5ex]{18mm}{.4pt}}\par
+\DSource{0639}{190}
+\null
+\DSource{0640}{191}
+\par\vspace{10mm}
+\par\noindent\rule{\linewidth}{1.2pt}\par\vspace{1pt}\noindent\rule{\linewidth}{.4pt}\par
+\par\vspace{38mm}
+\DLine{AB01-PDF0640-body-L001}{}{\CenterLine{\fontsize{24}{28}\selectfont ADNOTATIONES}}
+\par\noindent\makebox[\linewidth][c]{\rule[.5ex]{18mm}{.4pt}}\par
+\par\vspace{26mm}
+\hypertarget{AB01-PDF0640-H02}{}
+\DLine{AB01-PDF0640-body-L002}{}{\CenterLine{\textit{Ad pag. 1–3.} — \textbf{Tabulae regum peregrinorum.}}}
+\par\vspace{4mm}
+\hypertarget{AB01-PDF0640-P01}{}
+\DLine{AB01-PDF0640-body-L003}{}{\Indent In titulo (1) lectionem codicis servavi; censeo tamen al-Battānī \textarabic{تاريخ} pro \textarabic{بتاريخ} scripsisse,}
+\DLine{AB01-PDF0640-body-L004}{}{scilicet « et ab eo [incipit] chronologia Almagesti », sicut etiam apud \Name{al-Bīrūnī}, \textit{Chron.}}
+\DLine{AB01-PDF0640-body-L005}{5}{p. 88 text., 101 vers., scriptum invenimus. Re vera in \textit{Almagesto} \Name{Ptolemaeus} semper fere}
+\DLine{AB01-PDF0640-body-L006}{}{annis aerae Nabonassaris utitur.}
+\hypertarget{AB01-PDF0640-P02}{}
+\DLine{AB01-PDF0640-body-L007}{}{\Indent Graece et Franco-Gallice exstant hae tabulae, a Ptolemaeo usque ad Antoninum mor-}
+\DLine{AB01-PDF0640-body-L008}{}{tuum, ab ignoto Graeco usque ad Constantinopolim a Turcis captam perductae, in libro \textit{Chro-}}
+\DLine{AB01-PDF0640-body-L009}{}{\textit{nologie de} \Name{Ptolémée}: \textit{table chronologique des règnes, apparition des étoiles fixes de}}
+\DLine{AB01-PDF0640-body-L010}{10}{C. \Name{Ptolémée}, \Name{Théon} etc. [\textit{publiées et}] \textit{traduites par Halma,} Paris 1819, 2\textsuperscript{e} partie, p. 3–5.}
+\DLine{AB01-PDF0640-body-L011}{}{Usque ad Diocletianum regem optime tabulas edidit etiam \Name{Ideler}, \textit{Handbuch der mathe-}}
+\DLine{AB01-PDF0640-body-L012}{}{\textit{matischen und technischen Chronologie,} Berlin 1825–26, t. I, p. 111–14; regum Assyriae}
+\DLine{AB01-PDF0640-body-L013}{}{(quorum ultimus Nabonadius) illustravit Eb. \Name{Schrader}, \textit{Die keilinschriftliche babylonische}}
+\DLine{AB01-PDF0640-body-L014}{}{\textit{Königsliste,} in Sitzungsberichte der k. preussischen Akad. der Wissenschaften zu Berlin, 1887,}
+\DLine{AB01-PDF0640-body-L015}{15}{nr. XXXI, p. 579–607.}
+\hypertarget{AB01-PDF0640-P03}{}
+\DLine{AB01-PDF0640-body-L016}{}{\Indent Apud \Name{Ptolemaeum} Graecumque eius continuatorem ita reges distinguuntur: \textit{Assyrio-}}
+\DLine{AB01-PDF0640-body-L017}{}{\textit{rum et Medorum,} \textgreek{Ἀσσυρίων καὶ Μηδῶν βασιλεῖς}, usque ad Nabonadium mortuum; \textit{Persarum,}}
+\DLine{AB01-PDF0640-body-L018}{}{\textgreek{Περσῶν βασιλεῖς}, a Cyro ad Alexandrum Macedonem; \textit{anni regum Macedonum,} \textgreek{ἔτη βασιλέων}}
+\DLine{AB01-PDF0640-body-L019}{}{\textgreek{Μακεδόνων}, a Philippo ad Cleopatram; \textit{regum Romanorum,} \textgreek{Ῥωμαίων βασιλέων}, ab Augusto ad}
+\DLine{AB01-PDF0640-body-L020}{20}{quartum Constantini annum absolutum; \textit{regum Christianorum Romanorum,} \textgreek{Χριστιανῶν Ῥω}-}
+\DLine{AB01-PDF0640-body-L021}{}{\textgreek{μαίων βασιλέων}, inde ab initio quinti anni Constantini.}
+\hypertarget{AB01-PDF0640-P04}{}
+\DLine{AB01-PDF0640-body-L022}{}{\Indent Eadem tabula Albateniana, usque ad Basilium imperatorem porrecta, apud \Name{al-Bīrūnī},}
+\DLine{AB01-PDF0640-body-L023}{}{\textit{Chron.,} p. 88–89 et 92–96 text., 101 et 103–105 vers.}
+\hypertarget{AB01-PDF0640-P05}{}
+\DLine{AB01-PDF0640-body-L024}{}{\Indent Ex aliis fontibus manant tabulae regum ab Augusto ad Heraclium apud \Name{aṭ-Ṭabarī},}
+\DLine{AB01-PDF0640-body-L025}{25}{\textit{Annales,} ser. I, t. II, p. 741–44; \Name{Ibn al-Athīr}, \textit{Annales,} Kahirae 1301–02 heg., t. I,}
+\par\vspace{6pt}\hrule height.25pt\vspace{5pt}
+\noindent\begin{minipage}[t]{.48\textwidth}\vspace{0pt}\fontsize{9}{11.5}\selectfont\setlength{\GutterOffset}{0pt}
+\hypertarget{AB01-PDF0640-N01}{}
+\DLine{AB01-PDF0640-notes_left-L001}{}{\Indent (1) Textus Arabicus harum tabularum est t. III,}
+\DLine{AB01-PDF0640-notes_left-L002}{}{p. 228-31. In versione Hispanica hae tabulae omit-}
+\end{minipage}
+\hfill\begin{minipage}[t]{.48\textwidth}\vspace{0pt}\fontsize{9}{11.5}\selectfont\setlength{\GutterOffset}{0pt}
+\DLine{AB01-PDF0640-notes_right-L001}{}{tuntur, praeter (f. 29,r.) conspectum intervallorum,}
+\DLine{AB01-PDF0640-notes_right-L002}{}{quem infra, p. 197, edam.}
+\end{minipage}
+\DSource{0641}{192}
+\DLine{AB01-PDF0641-body-L001}{}{p. 139–40 (ed. Tornberg I, p. 228–230); \Name{Ḥamzah al-Iṣfahānī}, \textit{Annales} ed. Gottwaldt,}
+\DLine{AB01-PDF0641-body-L002}{}{p. 67–69; \Name{Abū ’l-fidā’}, \textit{Ta’rīkh,} Constantinopoli 1286 heg., t. I, p. 63–69; — atque tabulae}
+\DLine{AB01-PDF0641-body-L003}{}{ab Augusto ad Constantinum Porphyrogenitum (m. 959 Chr.) apud \Name{Ḥamzah} p. 76-79, et \Name{Ibn}}
+\DLine{AB01-PDF0641-body-L004}{}{\Name{al-Athīr} I, p. 141–48 (ed. Tornberg I, p. 230-42).}
+\hypertarget{AB01-PDF0641-P01}{}
+\DLine{AB01-PDF0641-body-L005}{5}{\Indent Albatenii tabulas regum (ut etiam geographicas) ab archetypo Graeco per versionem ali-}
+\DLine{AB01-PDF0641-body-L006}{}{quam \textit{Syro-christianam} provenisse existimo. Syriacam originem redolent « \textit{Bukhtanaṣṣar}}
+\DLine{AB01-PDF0641-body-L007}{}{« \textit{tertius,} qui est Hierosolymorum expugnator » pro \textgreek{Ναβοκολάσσαρος} (1); \textit{Belshaṣṣar} (2) pro}
+\DLine{AB01-PDF0641-body-L008}{}{\textgreek{Νηρικασολάσσαρος} (3); \textit{Darius Medus} pro \textgreek{Ναβονάδιος}; \textit{Akhashwīros} pro \textgreek{Ξέρξης}; \textit{Arnabā} pro}
+\DLine{AB01-PDF0641-body-L009}{}{(Ptolemaeo) \textgreek{Λάγος}; corruptela nominis \textit{Alexandri} [Severi] \textit{filii Mammaeae,} de qua p. 194}
+\DLine{AB01-PDF0641-body-L010}{10}{agam; demum vox \textit{al-ḥanīf,} Iuliano adposita, qua \textgreek{Παραβάτης} « apostata » vertitur. — Ille}
+\DLine{AB01-PDF0641-body-L011}{}{\textit{Syriacus} scriptor sub Leone Isaurico (717–741) floruisse videtur, quia ultimus regum est}
+\DLine{AB01-PDF0641-body-L012}{}{Theodosius III, anno 717 Chr. mortuus.}
+\hypertarget{AB01-PDF0641-P02}{}
+\DLine{AB01-PDF0641-body-L013}{}{\Indent Non desunt parvae a textu Graeco discrepantiae. Regno prioris Artaxerxis 41 annos}
+\DLine{AB01-PDF0641-body-L014}{}{\Name{Ptolemaeus} tribuit; \Name{al-Battānī} et \Name{al-Bīrūnī} 43, ita ut summa usque ad Ochum mor-}
+\DLine{AB01-PDF0641-body-L015}{15}{tuum duobus augeatur annis. Regna Arogi, Darii filii Arsakh, Alexandri Macedonis, 2 + 4}
+\DLine{AB01-PDF0641-body-L016}{}{+ 8 = 14 annos apud \Name{Ptolemaeum} complectuntur; 10 + 6 + 6 = 22 (seu \textarabic{ى} 10 pro \textarabic{ب} 2,}
+\DLine{AB01-PDF0641-body-L017}{}{\textarabic{و} 6 pro \textarabic{د} 4, \textarabic{و} 6 pro \textarabic{ح} 8) apud \Name{al-Battānī}; 2 + 6 + 8 = 16 apud \Name{al-Bīrūnī}; qua re}
+\DLine{AB01-PDF0641-body-L018}{}{regnorum summa usque ad Alexandrum mortuum 424 in \textit{Canone} \Name{Ptolemaei}, 434 apud}
+\DLine{AB01-PDF0641-body-L019}{}{\Name{al-Battānī}, 428 apud \Name{al-Bīrūnī}. Miro modo p. 231 textus (t. II, p. 3 vers.) ac in Hispa-}
+\DLine{AB01-PDF0641-body-L020}{20}{nica versione intervallum a Bukhtanaṣṣar ad Alexandrum mortuum \textarabic{تكد} 424 annorum statuitur,}
+\DLine{AB01-PDF0641-body-L021}{}{quod in versione \textarabic{تلد} 434 ad fidem tabulae regum legendum putavi. — Error in sequentibus}
+\DLine{AB01-PDF0641-body-L022}{}{evanescit, cum a Philippo (Aridaeo) nova incipiat numeratio, scilicet aera ab Alexandro mortuo}
+\DLine{AB01-PDF0641-body-L023}{}{appellata (vide t. I, p. 242–43).}
+\hypertarget{AB01-PDF0641-P03}{}
+\DLine{AB01-PDF0641-body-L024}{}{\Indent Postea omnia bene congruunt cum \textit{Canone Ptolemaico} usque ad Antoninum mortuum;}
+\DLine{AB01-PDF0641-body-L025}{25}{post quem \Name{al-Battānī} et \Name{al-Bīrūnī} Commodum cum 32 annis collocant, in unum regna}
+\DLine{AB01-PDF0641-body-L026}{}{Marci Antonini (19 annorum) et Commodi (13) colligentes. Item regna Severi (18) ac Antonini}
+\DLine{AB01-PDF0641-body-L027}{}{Caracallae (7) in unum conflant; sed annorum summae nulla discrepantia manifeste afficiun-}
+\DLine{AB01-PDF0641-body-L028}{}{tur. Rursus a \textit{Canone} differunt in regnis Philippi Decii et Galli (6 + 1 + 3 loco 7 + 1 + 2);}
+\DLine{AB01-PDF0641-body-L029}{}{summa vero non immutatur. Diocletiano 21 annos pro 20 tribuunt; parvaeque in sequentibus}
+\DLine{AB01-PDF0641-body-L030}{30}{annis discrepantiae insunt, quae tamen paulatim ita vicissim compensantur ut annorum sum-}
+\DLine{AB01-PDF0641-body-L031}{}{mae ad Iulianum paganum mortuum apud Graecum et Arabes aequentur. Constantino Pogo-}
+\DLine{AB01-PDF0641-body-L032}{}{nato (Leontio apud \Name{al-Battānī}) 17 annos Graecus tribuit loco 16, sed Philippico 2 loco 3;}
+\DLine{AB01-PDF0641-body-L033}{}{summa igitur ad Theodosium mortuum 1040 est apud omnes (4).}
+\par\vspace{6pt}\hrule height.25pt\vspace{5pt}
+\noindent\begin{minipage}[t]{.48\textwidth}\vspace{0pt}\fontsize{9}{11.5}\selectfont\setlength{\GutterOffset}{0pt}
+\hypertarget{AB01-PDF0641-N01}{}
+\DLine{AB01-PDF0641-notes_left-L001}{}{\Indent (1) \textgreek{Ναβουχοδονόσωρ} apud \Name{Georgium Syn-}}
+\DLine{AB01-PDF0641-notes_left-L002}{}{\Name{cellum}, ed. G. Dindorf, I, p. 393.}
+\hypertarget{AB01-PDF0641-N02}{}
+\DLine{AB01-PDF0641-notes_left-L003}{}{\Indent (2) Hebraice \textit{Bēlshaṣṣar} \texthebrew{בֵּלְשַׁאצַּר} est ultimus}
+\DLine{AB01-PDF0641-notes_left-L004}{}{Chaldaeorum rex (\textit{Bēl-shar-uṣur}), Nabonidi filius;}
+\DLine{AB01-PDF0641-notes_left-L005}{}{\textit{Bēlṭĕshaṣṣar} \texthebrew{בֵּלְטְשַׁאצַּר} nomen Danielis in re-}
+\DLine{AB01-PDF0641-notes_left-L006}{}{gia Babyloniae aula. Ambo \textgreek{Βαλτάσαρ} apud Septua-}
+\DLine{AB01-PDF0641-notes_left-L007}{}{ginta, \textsyriac{ܒܠܛܫܨܪ} in Syriaca Bibliorum versione (quod}
+\DLine{AB01-PDF0641-notes_left-L008}{}{\Name{Payne Smith}, \textit{Thesaurus Syriacus,} s. v., \textit{Bliṭ-}}
+\DLine{AB01-PDF0641-notes_left-L009}{}{\textit{shāṣār} vel \textit{Blīṭshāṣār} legit, \Name{Bar Bahlūl} contra}
+\DLine{AB01-PDF0641-notes_left-L010}{}{rectius, ut me \Name{I. Guidi} docet, Belṭshāṣār). Nomen}
+\DLine{AB01-PDF0641-notes_left-L011}{}{regis Belshaṣṣar ut \Name{al-Battānī} praebent \Name{Ḥamzah}}
+\DLine{AB01-PDF0641-notes_left-L012}{}{p. 94, ac \Name{aṭ-Ṭabarī} ser. I, t. I, p. 216; t. II, p. 652}
+\DLine{AB01-PDF0641-notes_left-L013}{}{(ubi editor male \textarabic{بلتشصر} recepit); ex librariorum cor-}
+\end{minipage}
+\hfill\begin{minipage}[t]{.48\textwidth}\vspace{0pt}\fontsize{9}{11.5}\selectfont\setlength{\GutterOffset}{0pt}
+\DLine{AB01-PDF0641-notes_right-L001}{}{ruptela \textarabic{بلتنصر} apud \Name{Ibn Khaldūn}, ed. Būlāq 1284}
+\DLine{AB01-PDF0641-notes_right-L002}{}{heg., t. II, p. 117. Apud \Name{Ibn al-Athīr} \textarabic{بلتاصر}; \Name{Euty-}}
+\DLine{AB01-PDF0641-notes_right-L003}{}{\Name{chium} (\textit{Contextio gemmarum, sive Eutychii Pa-}}
+\DLine{AB01-PDF0641-notes_right-L004}{}{\textit{triarchae Alexandrini Annales ed. Edw. Pocockio,}}
+\DLine{AB01-PDF0641-notes_right-L005}{}{Oxoniae 1659, t. I, p. 257) \textarabic{بلتاسر}; sed fortasse in}
+\DLine{AB01-PDF0641-notes_right-L006}{}{ambobus \textarabic{ـتـ} est ex \textarabic{ـشـ} corrupta. Ad formam Syriacam,}
+\DLine{AB01-PDF0641-notes_right-L007}{}{\Name{al-Bīrūnī} l. c. et \Name{Abū ’l-faraǵ} ed. Ṣālḥānī,}
+\DLine{AB01-PDF0641-notes_right-L008}{}{Beyrūt 1890, p. 78, \textarabic{بلطشاصر}.}
+\hypertarget{AB01-PDF0641-N03}{}
+\DLine{AB01-PDF0641-notes_right-L009}{}{\Indent (3) \textgreek{Νιριγασολάσαρος} et \textgreek{Βαλτάσαρ} apud \Name{Syn-}}
+\DLine{AB01-PDF0641-notes_right-L010}{}{\Name{cellum}.}
+\hypertarget{AB01-PDF0641-N04}{}
+\DLine{AB01-PDF0641-notes_right-L011}{}{\Indent (4) Perperam 1042 in editione Halma; error a}
+\DLine{AB01-PDF0641-notes_right-L012}{}{summa Constantii incipit, ubi 994 pro 992 editor}
+\DLine{AB01-PDF0641-notes_right-L013}{}{scripsit.}
+\end{minipage}
+\DSource{0642}{193}
+\hypertarget{AB01-PDF0642-P01}{}
+\DLine{AB01-PDF0642-body-L001}{}{\Indent At quamquam \textit{\textbf{numerorum}} ordo \textit{Albatenianus} cum Graeco et al-Bīrūnī congruit, in}
+\DLine{AB01-PDF0642-body-L002}{}{\textit{\textbf{nominibus}} quibusdam confusio inest in codice Escurialensi, quam auferre nolui. Permutantur}
+\DLine{AB01-PDF0642-body-L003}{}{enim apud \Name{al-Battānī} nomina (non numeri) Secundi Interregni et Mesesimordaci, Theodo-}
+\DLine{AB01-PDF0642-body-L004}{}{sii magni et Valentis; praeterea, post duos Constantinos qui Heraclio subsequuntur, \Name{Graecus}}
+\DLine{AB01-PDF0642-body-L005}{5}{et \Name{al-Bīrūnī} hoc ordine regum nomina praebent: Constantinum Pogonatum pro Leontio, Iu-}
+\DLine{AB01-PDF0642-body-L006}{}{stinianum posteriorem pro Tiberio, Leontium pro Iustiniano, Tiberium pro Philippico I, Iustinianum}
+\DLine{AB01-PDF0642-body-L007}{}{pro Constantino, Philippicum, Anastasium, Theodosium. Ceterum in codice Escurialensi haec}
+\DLine{AB01-PDF0642-body-L008}{}{nomina adeo sunt corrupta ut in eis legendis non raro dubitatio oriatur; qua re affirmare}
+\DLine{AB01-PDF0642-body-L009}{}{non ausim omnes has nominum permutationes ab al-Battānī provenire.}
+\hypertarget{AB01-PDF0642-P02}{}
+\DLine{AB01-PDF0642-body-L010}{10}{\Indent Restat ut de nominibus quibusdam agam.}
+\hypertarget{AB01-PDF0642-P03}{}
+\DLine{AB01-PDF0642-body-L011}{}{\Indent \textit{Darius Medus,} i. e. Nabonadius, in textu est Darius \textit{al-ādharī,} seu « e provincia Ādhar-}
+\DLine{AB01-PDF0642-body-L012}{}{« bayǵān »; etiam in tabula geographica t. II, p. 35, nr. 69, haec regio censetur \textit{Mediae} Pto-}
+\DLine{AB01-PDF0642-body-L013}{}{lemaei respondere. In archetypo Syriaco procul dubio \textit{mādāyā} \textsyriac{ܡܕܝܐ} erat, quod \Name{al-Bīrūnī},}
+\DLine{AB01-PDF0642-body-L014}{}{\textit{Chron.,} p. 89 text., 101 vers. servavit: « Darius (\textarabic{دريوس}) \textit{al-Mādāy} primus ». Apud \Name{aṭ-Ṭa-}}
+\DLine{AB01-PDF0642-body-L015}{15}{\Name{barī}, \textit{Annales,} ser. I, t. II, p. 649 et 652 occurrit Darius (\textarabic{داريوش}) \textit{al-Mādhawī,} quod utro-}
+\DLine{AB01-PDF0642-body-L016}{}{bique dicitur nomen relativum a maiore eius quodam Mādhī vocato; apud \Name{Eutychium}}
+\DLine{AB01-PDF0642-body-L017}{}{t. I, p. 257, « Darius... \textit{al-Mādī,} scilicet e progenie Mādānī » \textarabic{داريوش بن امرير المادي اعني من ولد ماداني};}
+\DLine{AB01-PDF0642-body-L018}{}{apud \Name{Abū ’l-faraǵ} ed. Ṣālḥānī, p. 78 et 80, Darius (\textarabic{داريوش}) \textit{al-Mādī,} et in eiusdem Chro-}
+\DLine{AB01-PDF0642-body-L019}{}{nico Syriaco: \textit{Mādāyā.} — Ex alio fonte, Persico nempe, alibi \Name{al-Bīrūnī}, \textit{Chron.,} p. 111}
+\DLine{AB01-PDF0642-body-L020}{20}{text., 115 vers., \textit{Dārā al-Māhī} i. e. ex regione Māh, quae est forma Persica recentior ve-}
+\DLine{AB01-PDF0642-body-L021}{}{tustissimi nominis \textit{Māda} (Media). — In textu Arabico \textarabic{داريوس}, optime cum Graeco \textgreek{Δαρεῖος} con-}
+\DLine{AB01-PDF0642-body-L022}{}{venientem, recepi ut codex habet; sed vix dubito \Name{al-Battānī} in fonte suo \textarabic{داريوش} \textit{Dārīwash}}
+\DLine{AB01-PDF0642-body-L023}{}{invenisse, ut fere omnes Arabum historici scriptores habent, iuxta Syriacam et Hebraicam}
+\DLine{AB01-PDF0642-body-L024}{}{formam \textit{Dāryāwesh} (in inscriptionibus cuneatis Persicis \textit{Dārayawaush,} Babylonicis \textit{Dāri-}}
+\DLine{AB01-PDF0642-body-L025}{25}{\textit{yāmush}).}
+\hypertarget{AB01-PDF0642-P04}{}
+\DLine{AB01-PDF0642-body-L026}{}{\Indent \textit{Arogus} in textu \textarabic{غيرون} et apud \Name{al-Bīrūnī}, \textit{Chron.,} p. 89 text., 101 vers. \textarabic{مرون}; quae}
+\DLine{AB01-PDF0642-body-L027}{}{vix orta videntur ex \textgreek{Ἀρωγός} \textit{Canonis Ptolemaici,} vel ex \textgreek{Ἄρσης} (varr. \textgreek{Ἄρσις, Ναρσῆς, Ὀάρσης})}
+\DLine{AB01-PDF0642-body-L028}{}{ut ab aliis rex ille vocatur. Erat filius Artaxersis III (Ochi); qua re ex \textgreek{Ἄρσις Ὤχου} (1) in-}
+\DLine{AB01-PDF0642-body-L029}{}{terdum \textit{Arsisochus} conflatus est. Apud \Name{Eutychium} t. I, p. 266, \Name{al-Khāzinī} f. 106,v.,}
+\DLine{AB01-PDF0642-body-L030}{30}{\Name{Abū ’l-faraǵ} p. 89, ipsumque \Name{al-Bīrūnī}, \textit{Chron.,} p. 111 text., 115 vers. (sed ex alio}
+\DLine{AB01-PDF0642-body-L031}{}{fonte), \textit{Arsīs.}}
+\hypertarget{AB01-PDF0642-P05}{}
+\DLine{AB01-PDF0642-body-L032}{}{\Indent \textit{Darius} [\textit{filius}] \textit{Arsakh} (\textarabic{ارسخ}) in \textit{Canone Ptolemaico} est \textit{Darius tertius.} Plerumque ab}
+\DLine{AB01-PDF0642-body-L033}{}{Arabibus, e Persico fonte, \textit{Dārā filius Dārā} vocatus. \Name{Al-Bīrūnī} tamen (\textit{Chron.} p. 89 text.,}
+\DLine{AB01-PDF0642-body-L034}{}{101 vers.) \textit{Darius filius Arsīkh} (\textarabic{ارسيخ}), et in eiusdem inedito \textit{Canone Mas‘ūdico} (teste \Name{Sa-}}
+\DLine{AB01-PDF0642-body-L035}{35}{\Name{chau} in notis ad vers. \textit{Chron.} p. 400) \textit{Darius filius Arsaq} \textarabic{ارسق}; \Name{Abū ’l-faraǵ} ed. Ṣāl-}
+\DLine{AB01-PDF0642-body-L036}{}{ḥānī p. 91, \textit{Darius filius Arshak} \textarabic{ارشك}, ut in eiusdem \textit{Chronico Syriaco,} ed. Bruns et Kirsch,}
+\DLine{AB01-PDF0642-body-L037}{}{Lipsiae 1789, p. 38 text., 36 vers. (\textsyriac{ܕܪܝܘܫ ܒܪ ܐܪܫܟ}). — False omnino \Name{Eutychius} I, 266,}
+\DLine{AB01-PDF0642-body-L038}{}{\textit{Darius filius Arsīs}; et Aethiopica historiae Arabis \Name{Elmacini} (al-Makīn) redactio \textit{Dārā filius}}
+\DLine{AB01-PDF0642-body-L039}{}{\textit{Arsēs} \textethiopic{ዳራ፡ ወልደ፡ አርሴስ፡} (2). — Apud \Name{al-Mas‘ūdī}, \textit{Prairies} II, p. 100, nomen occurrit}
+\DLine{AB01-PDF0642-body-L040}{40}{\textarabic{دارو اليسع}, quod, non improbabili coniectura, \Name{J. Marquart} (3) putat al-Bīrūnicum \textit{Darium}}
+\par\vspace{6pt}\hrule height.25pt\vspace{5pt}
+\noindent\begin{minipage}[t]{.48\textwidth}\vspace{0pt}\fontsize{9}{11.5}\selectfont\setlength{\GutterOffset}{0pt}
+\hypertarget{AB01-PDF0642-N01}{}
+\DLine{AB01-PDF0642-notes_left-L001}{}{\Indent (1) Ut apud \Name{Eusebii} \textit{Chronicorum cano-}}
+\DLine{AB01-PDF0642-notes_left-L002}{}{\textit{num libri duo edd. A. Maius et Ioh. Zohrabus,} Me-}
+\DLine{AB01-PDF0642-notes_left-L003}{}{diolani 1818, p. 107. — Apud \Name{Syncellum} \textgreek{Ναρσῆς}}
+\DLine{AB01-PDF0642-notes_left-L004}{}{\textgreek{Ὤχου ἀδελφός}.}
+\hypertarget{AB01-PDF0642-N02}{}
+\DLine{AB01-PDF0642-notes_left-L005}{}{\Indent (2) Apud L. \Name{Goldschmidt}, \textit{Die abessini-}}
+\end{minipage}
+\hfill\begin{minipage}[t]{.48\textwidth}\vspace{0pt}\fontsize{9}{11.5}\selectfont\setlength{\GutterOffset}{0pt}
+\DLine{AB01-PDF0642-notes_right-L001}{}{\textit{schen Handschriften der Stadtbibliothek zu Frank-}}
+\DLine{AB01-PDF0642-notes_right-L002}{}{\textit{furt am Main,} Berlin 1897, nr. 21, p. 75.}
+\hypertarget{AB01-PDF0642-N03}{}
+\DLine{AB01-PDF0642-notes_right-L003}{}{\Indent (3) \textit{Die Assyriaka des Ktesias,} in Philologus,}
+\DLine{AB01-PDF0642-notes_right-L004}{}{VI Supplementband, 2. Hälfte, Göttingen 1893, p. 653,}
+\DLine{AB01-PDF0642-notes_right-L005}{}{adn. 634.}
+\end{minipage}
+\par\vspace{5mm}\hfill{\fontsize{8}{10}\selectfont 25}\hspace{10mm}
+\DSource{0643}{194}
+\DLine{AB01-PDF0643-body-L001}{}{\textit{filium Arsīkh} esse, et Graeco \textgreek{Δαρεῖος Ἀρσάμου} respondere; \textgreek{Ἀρσάμης} enim (Persice \textit{Arshāma})}
+\DLine{AB01-PDF0643-body-L002}{}{erat Darii III avus. Si ita res se habet, error in scriptura Syriaca explicatur, cum ex \textsyriac{ܐܪܣܡ}}
+\DLine{AB01-PDF0643-body-L003}{}{\textit{Arsam} facile \textsyriac{ܐܪܣܟ} \textit{Arsak} et \textsyriac{ܐܪܣܚ} \textit{Arṡaḥ} (\textit{Arsakh}) oriantur.}
+\hypertarget{AB01-PDF0643-P01}{}
+\DLine{AB01-PDF0643-body-L004}{}{\Indent \textit{Philippus pater Dhū ’l-qarnayn,} loco Philippi \textit{Aridaei} qui Alexandri Magni erat fra-}
+\DLine{AB01-PDF0643-body-L005}{5}{ter uterinus. Error apud Arabes haud infrequens; cfr. t. I, p. 243. — De nomine Dhū ’l-qar-}
+\DLine{AB01-PDF0643-body-L006}{}{nayn t. I, p. \textsc{lxxiv}.}
+\hypertarget{AB01-PDF0643-P02}{}
+\DLine{AB01-PDF0643-body-L007}{}{\Indent \textit{Alexander conditor} est in \textit{Canone Ptolemaico} \textgreek{Ἀλέξανδρος ἄλλος}. Sicut in linea praece-}
+\DLine{AB01-PDF0643-body-L008}{}{denti Philippum Aridaeum cum Macedone confuderat, ita nunc \Name{al-Battānī} vel eius fons}
+\DLine{AB01-PDF0643-body-L009}{}{nomine Conditoris (\textit{al-bannā’}) Alexandrum alterum appellat quod, ut recte habet \Name{al-Bī-}}
+\DLine{AB01-PDF0643-body-L010}{10}{\Name{rūnī} (1), ad Alexandrum Magnum spectat. Hic enim \textgreek{ὁ κτίστης} « [Alexandriae] conditor » in}
+\DLine{AB01-PDF0643-body-L011}{}{\textit{Tabulis Manualibus} \Name{Ptolemaei} (ed. Halma p. 2) ac \Name{Theonis} (ed. Halma t. I, p. 27)}
+\DLine{AB01-PDF0643-body-L012}{}{vocatur. — Eadem confusio apud \Name{Kūshiyār al-Ǵīlī} (\Name{Ideler}, \textit{Handb. d. mathem. u. techn.}}
+\DLine{AB01-PDF0643-body-L013}{}{\textit{Chronol.,} II, 626), et \Name{Ḥāǵǵī Khalīfah} ed. Flügel III, 470, nr. 6471, qui Theonem dicit}
+\DLine{AB01-PDF0643-body-L014}{}{« in opere suo astronomico, Canone appellato et ab observationibus illis deducto, aeram adhi-}
+\DLine{AB01-PDF0643-body-L015}{15}{« buisse Philippi Romani, Conditoris, fratris \textgreek{τοῦ} Dhū ’l-qarnayn » (\textarabic{استعمل في زيجه المسمّى بالقانون}}
+\DLine{AB01-PDF0643-body-L016}{}{\textarabic{المحصول من الرصد المذكور تاريخ فيلبس الرومي البناء اخي ذي القرنين}). Quem locum \Name{J. Lippert}, \textit{Studien}}
+\DLine{AB01-PDF0643-body-L017}{}{\textit{auf dem Gebiete der griechisch-arabischen Uebersetzungslitteratur,} Braunschweig 1894,}
+\DLine{AB01-PDF0643-body-L018}{}{p. 41, adn. 2, commemorans, non iniuria affirmat illud « Philippum conditorem » corruptum}
+\DLine{AB01-PDF0643-body-L019}{}{esse ex aliquo Graeco textu \textgreek{Φίλιππος ὁ μετ’ Ἀλέξανδρον τὸν κτίστην} « Philippus qui [fuit] post}
+\DLine{AB01-PDF0643-body-L020}{20}{Alexandrum conditorem ».}
+\hypertarget{AB01-PDF0643-P03}{}
+\DLine{AB01-PDF0643-body-L021}{}{\Indent \textit{Ptolemaeus Lepus.} Melius erat « Ptolemaeum \textit{Arnabā} » scribere, ut est in codice Escu-}
+\DLine{AB01-PDF0643-body-L022}{}{rialensi (\textarabic{اربيا}, l. \textarabic{ارنبا}). In textu edendo t. III, p. 229, \textarabic{ارنب} \textit{arnab,} i. e. « lepus », emendandum}
+\DLine{AB01-PDF0643-body-L023}{}{putavi; vix recte, nam si auctor « leporem » voluisset voci \textit{arnab} articulum \textit{al-} praeposuisset.}
+\DLine{AB01-PDF0643-body-L024}{}{Similiter « Ptolemaeus filius \textit{Arnabā} » apud \Name{al-Bīrūnī}, \textit{Chron.,} p. 92 text. Eius pater enim}
+\DLine{AB01-PDF0643-body-L025}{25}{Graece \textgreek{Λάγος} « lepus » vocabatur; quod nomen a Syriaco interprete optime \textit{arnĕbā} versum,}
+\DLine{AB01-PDF0643-body-L026}{}{ab \Name{al-Battānī} et \Name{al-Bīrūnī} (seu potius ab utriusque fonte Arabico) pro Graeca voce ha-}
+\DLine{AB01-PDF0643-body-L027}{}{bitum est. Recte alii Arabes \textit{al-arnab,} ut \Name{Ḥamzah} p. 66 text. « Ptolemaeus filius Leporis »;}
+\DLine{AB01-PDF0643-body-L028}{}{\Name{Eutychius} I, 298 « Ptolemaeus qui lepus cognominatur » (\textarabic{بطليموس ويلقّب الارنب}); \Name{al-Khā-}}
+\DLine{AB01-PDF0643-body-L029}{}{\Name{zinī} f. 117,r. « Ptolemaeus \textarabic{مثوس} (?) filius Lūghūs Leporis »; \Name{Abū ’l-faraǵ} p. 98 « Ptole-}
+\DLine{AB01-PDF0643-body-L030}{30}{« maeus filius Lāghūs id est filius Leporis ». — Interdum \textarabic{الارنب} \textit{al-arnab} corrumpitur \textarabic{الاريب}}
+\DLine{AB01-PDF0643-body-L031}{}{\textit{al-arīb} « intelligens, callidus, astutus »; vide adnot. de Goeje ad \Name{al-Mas‘ūdī}, \textit{at-Tanbīh,}}
+\DLine{AB01-PDF0643-body-L032}{}{p. 114 (locus libri \textit{Mafātīḥ} ibi adductus nunc in edit. van Vloten est p. 113: \textarabic{بطليموس الاريب}}
+\DLine{AB01-PDF0643-body-L033}{}{\textarabic{بن اديب}).}
+\hypertarget{AB01-PDF0643-P04}{}
+\DLine{AB01-PDF0643-body-L034}{}{\Indent \textit{Ptolemaeus Cleopatra.} Pro viro interdum habetur; vide quae narrat \Name{al-Bīrūnī}, \textit{Chron.,}}
+\DLine{AB01-PDF0643-body-L035}{35}{p. 92 text., 103 vers.}
+\hypertarget{AB01-PDF0643-P05}{}
+\DLine{AB01-PDF0643-body-L036}{}{\Indent \textit{Alexander filius Mammaeae,} \textgreek{Ἀλέξανδρος Μαμαίας}, seu Alexander Severus, est in cod.}
+\DLine{AB01-PDF0643-body-L037}{}{Escur. \textit{Aleksandros Brnmā} (\textarabic{برنما}), in codicibus \Name{al-Bīrūnī}, \textit{Chron.} p. 94 text., \textit{Aleksandros}}
+\DLine{AB01-PDF0643-body-L038}{}{\textit{Bzymā} (\textarabic{بزيما}), quod originem Syriacam ostendit. Primus enim Arabicus huius tabulae interpres}
+\DLine{AB01-PDF0643-body-L039}{}{Syriacum \textsyriac{ܒܰܪ ܡܳܡܳܐ} \textit{bar Māmā} « filium Mammaeae » pro unico vocabulo habuit, Alexandri}
+\DLine{AB01-PDF0643-body-L040}{40}{cognomine; qua re \textarabic{برمما} \textit{Barmamā} scripsit, a librariis postea varie corruptum. — Forma Syriaca}
+\DLine{AB01-PDF0643-body-L041}{}{genuina nominis \textgreek{Μαμαία} est \textsyriac{ܡܡܐ} \textit{Māmā,} in inscriptionibus Phoeniciis \texthebrew{ממה}, in Palmyrenis \texthebrew{ממי}}
+\DLine{AB01-PDF0643-body-L042}{}{(cfr. \Name{Nöldeke}, \textit{Beiträge zur semitischen Sprachwissenschaft,} Strassburg 1904, p. 94); qua}
+\par\vspace{6pt}\hrule height.25pt\vspace{5pt}
+\noindent\begin{minipage}[t]{.48\textwidth}\vspace{0pt}\fontsize{9}{11.5}\selectfont\setlength{\GutterOffset}{0pt}
+\hypertarget{AB01-PDF0643-N01}{}
+\DLine{AB01-PDF0643-notes_left-L001}{}{\Indent (1) \textit{Chron.} 92 (omissum in vers. p. 103), et 28}
+\DLine{AB01-PDF0643-notes_left-L002}{}{text. (32 vers.). — Unde \Name{al-Maqrīzī}, \textit{al-Mawā‘iẓ}}
+\end{minipage}
+\hfill\begin{minipage}[t]{.48\textwidth}\vspace{0pt}\fontsize{9}{11.5}\selectfont\setlength{\GutterOffset}{0pt}
+\DLine{AB01-PDF0643-notes_right-L001}{}{\textit{wa ’l-i‘tibār,} Būlāq 1270 hegirae, I, 260, l. 5 a f.:}
+\DLine{AB01-PDF0643-notes_right-L002}{}{\textarabic{الاسكندر البناء المقدوني} « Alexander conditor Macedon ».}
+\end{minipage}
+\DSource{0644}{195}
+\DLine{AB01-PDF0644-body-L001}{}{re optime \Name{Abū ’l-faraǵ} ed. Ṣālḥānī p. 126, e Syriacis fontibus recepit « \textit{Aleksandrūs,} cuius}
+\DLine{AB01-PDF0644-body-L002}{}{« matris nomen erat \textit{Māmā} ». — Traditio autem Arabica quae ex \textit{Graeco} manat, genitivum}
+\DLine{AB01-PDF0644-body-L003}{}{Graecum \textgreek{Μαμαίας} servat, quem pro Alexandri cognomine habuit; ita \Name{al-Mas‘ūdī}, \textit{Prai-}}
+\DLine{AB01-PDF0644-body-L004}{}{\textit{ries} II, 306, \textit{al-Iskandar Māmayās;} \Name{al-Mas‘ūdī}, \textit{at-Tanbīh} p. 133, « \textit{al-Ikṣandros}}
+\DLine{AB01-PDF0644-body-L005}{5}{(\textarabic{الاكصندرس}) et cognominatur \textit{Māmayās} », sicut etiam \Name{Ibn al-Athīr}, ed. Kahirensis, t. I,}
+\DLine{AB01-PDF0644-body-L006}{}{p. 143 (perperam 145 impressum) in altero regum catalogo habet.}
+\hypertarget{AB01-PDF0644-P01}{}
+\DLine{AB01-PDF0644-body-L007}{}{\Indent \textit{Decius.} In \textit{Canone} \textgreek{Δέκιος}, et apud \textit{historicos} Arabum scriptores \textit{Dāqiyūs, Daqyūs, Dī-}}
+\DLine{AB01-PDF0644-body-L008}{}{\textit{qiyūs.} Sed \Name{al-Battānī} \textit{Dāqiyānūs,} ut semper hic rex vocatur in \textit{Arabico-Muslimicis} re-}
+\DLine{AB01-PDF0644-body-L009}{}{dactionibus fabulosae narrationis de « gente cavernae » (\textit{ahl al-kahf}) i. e. de septem Dormien-}
+\DLine{AB01-PDF0644-body-L010}{10}{tibus Ephesi; \textit{Deqyānūs} apud \Name{al-Ḥasan al-Qummī an-Naysābūrī}, \textit{Tafsīr} (in marg.}
+\DLine{AB01-PDF0644-body-L011}{}{\textit{tafsīr} aṭ-Ṭabarī) t. XV, p. 114; \Name{ath-Tha‘labī}, \textit{‘Arā’is al-maǵālis,} Kahirae 1297 heg.,}
+\DLine{AB01-PDF0644-body-L012}{}{p. 369 sqq.; \Name{az-Zamakhsharī}, \textit{al-Kashshāf,} Kahirae 1307 heg., t. I, p. 567; \Name{al-Bay-}}
+\DLine{AB01-PDF0644-body-L013}{}{\Name{ḍāwī} ed. Fleischer, t. I, p. 559 seq.; \Name{ad-Damīrī}, \textit{Ḥayāt al-ḥayawān,} Kahirae 1311 heg.,}
+\DLine{AB01-PDF0644-body-L014}{}{t. II, p. 240–45 (s. v. \textarabic{كلب}); [Pseudo-] \Name{Ibn Iyās}, \textit{Badā’i‘ az-zuhūr,} Kahirae 1310 heg.,}
+\DLine{AB01-PDF0644-body-L015}{15}{p. 182–85, etc. — \Name{Aṭ-Ṭabarī} in \textit{Annalibus,} ser. I, t. II, p. 778 (de septem Dormientibus}
+\DLine{AB01-PDF0644-body-L016}{}{agens) ac magno in Qoranum \textit{Commentario} t. XV, p. 123–26, 128, 134–38, \textit{Daqīnūs} \textarabic{دقينوس}.}
+\DLine{AB01-PDF0644-body-L017}{}{Nomen exstat in vico \textit{Shahr-i-Daqyānūs} « Deciani urbs » quo sunt ruinae urbis Ǵiruft (vide}
+\DLine{AB01-PDF0644-body-L018}{}{tabulas geographicas nr. 255). — Miro modo \textit{Daqyūs} a \textit{Daqyānūs} distinguit lexicon \textit{Qāmūs}}
+\DLine{AB01-PDF0644-body-L019}{}{inscriptum eiusque Commentarius \textit{Tāǵ al-‘arūs,} ed. altera, t. IV, p. 152: \textarabic{(دقيوس بالفتح) اسم}}
+\DLine{AB01-PDF0644-body-L020}{20}{\textarabic{(ملك) اعجمي (اتخذ مسجدًا على اصحاب الكهف) زاد الصاغاني (ودقيانوس) اسم (ملك هربوا منه) وقصتهم مذكورة}. — In scri-}
+\DLine{AB01-PDF0644-body-L021}{}{ptis Syriacis \textsyriac{ܕܩܝܘܣ} vel \textsyriac{ܕܩܝܣ} \textit{Deqyūs;} unde \textit{Daqyūs} in historia \textit{Arabico-Christiana} septem}
+\DLine{AB01-PDF0644-body-L022}{}{Dormientium apud \Name{I. Guidi}, \textit{Testi orientali inediti sopra i Sette Dormienti di Efeso,} in}
+\DLine{AB01-PDF0644-body-L023}{}{Memorie dell’Accad. dei Lincei, Classe di scienze morali, ser. III, t. XII, 1884, p. 391, adn. 1;}
+\DLine{AB01-PDF0644-body-L024}{}{tamen \textit{Deqyānūs} in alia narratione \textit{Arabico-Christiana} apud \Name{Guidi} p. 301. In \textit{Synaxario}}
+\DLine{AB01-PDF0644-body-L025}{25}{Arabico-Coptico Iacobitarum \textit{Dākiyūs} (\Name{Guidi} p. 426), ex fonte Graeco, cum quo Aethiopicum}
+\DLine{AB01-PDF0644-body-L026}{}{\textethiopic{ዳክዮስ፡} \textit{Dākyōs} congruit, semper in libris sub Zar’a Yā‘qōb (1434–1468 Chr.) conscriptis}
+\DLine{AB01-PDF0644-body-L027}{}{occurrens (apud \Name{Guidi} p. 406–19 et 429), vel cum \textethiopic{ዳኬዎስ፡} \textit{Dākēwōs} Synaxarii Aethiopici}
+\DLine{AB01-PDF0644-body-L028}{}{(apud \Name{Guidi} p. 427). — Formam \textit{Dāqiyānūs} vel \textit{Deqyānūs} vel \textit{Daqīnūs} puto e scriptura}
+\DLine{AB01-PDF0644-body-L029}{}{Syriaca ortam, ob \textsyriac{ܕܩܝܘܣ} male \textsyriac{ܕܩܝܢܘܣ} lectum (1).}
+\hypertarget{AB01-PDF0644-P02}{}
+\DLine{AB01-PDF0644-body-L030}{30}{\Indent \textit{Iulianus} « \textit{paganus} » (p. 2 et 3). Arabice \textit{al-ḥanīf,} eodem sensu quo vox Syriaca \textit{ḥanpā;}}
+\DLine{AB01-PDF0644-body-L031}{}{in Graeco \textgreek{παραβάτης} « apostata ». De illa verbi \textit{ḥanīf} significatione vide Glossarium De Goeje}
+\DLine{AB01-PDF0644-body-L032}{}{ad \Name{al-Mas‘ūdī}, \textit{at-Tanbīh,} p. \textsc{xvii–xviii}.}
+\hypertarget{AB01-PDF0644-P03}{}
+\DLine{AB01-PDF0644-body-L033}{}{\Indent \textit{Heraclius} (\textit{Hiraqlis} et \textit{Hiraql}) « \textit{sapiens} » (p. 2 et 3). In codice \textarabic{صاحب العرب} \textit{ṣāḥib al-}}
+\DLine{AB01-PDF0644-body-L034}{}{\textit{-‘arab} « dominus arabum », quod t. III, p. 230 ac 231 servavi, licet nullo modo explicare}
+\DLine{AB01-PDF0644-body-L035}{35}{possem; item versio Hispanica paulum infra adducenda: « Hercules \textit{el de los Alaraues} ». Le-}
+\DLine{AB01-PDF0644-body-L036}{}{gendum duco \textarabic{صاحب العرف} \textit{ṣāḥib al-‘irf} « dominus cognitionis, cognitione praeditus »; littera \textarabic{ف}}
+\DLine{AB01-PDF0644-body-L037}{}{in scriptura maghrebina punctum inferne habet, qua re facillime cum \textarabic{ب} confunditur. Coniec-}
+\DLine{AB01-PDF0644-body-L038}{}{tura mea innititur \Name{al-Bīrūnī}, \textit{Chron.,} p. 96 text., 105 vers., ubi \textit{Hiraqlis al-ḥakīm} « He-}
+\DLine{AB01-PDF0644-body-L039}{}{« raclius sapiens ». Cur ita vocatus non bene intelligo; in Graeco \textgreek{Ἡράκλειος} tantum. Fortasse}
+\DLine{AB01-PDF0644-body-L040}{40}{quod Heraclius imperator de rebus astronomicis scripsit; fragmentum eius chronologicum me-}
+\DLine{AB01-PDF0644-body-L041}{}{moravi t. I, p. 244–45. Anno 618 Chr. luculentam in Tabulas Manuales Ptolemaei expositio-}
+\par\vspace{6pt}\hrule height.25pt\vspace{5pt}
+\noindent\begin{minipage}[t]{.48\textwidth}\vspace{0pt}\fontsize{9}{11.5}\selectfont\setlength{\GutterOffset}{0pt}
+\hypertarget{AB01-PDF0644-N01}{}
+\DLine{AB01-PDF0644-notes_left-L001}{}{\Indent (1) Cfr. M. J. \Name{de Goeje} sententiam: « Daaren-}
+\DLine{AB01-PDF0644-notes_left-L002}{}{« tegen hebben de Arabische, naar mijne meening}
+\DLine{AB01-PDF0644-notes_left-L003}{}{« uit oude Syrische bronnen afkomstige, berichten}
+\DLine{AB01-PDF0644-notes_left-L004}{}{« Dakianus » (\textit{De legende der Zevenslapers van Efe-}}
+\end{minipage}
+\hfill\begin{minipage}[t]{.48\textwidth}\vspace{0pt}\fontsize{9}{11.5}\selectfont\setlength{\GutterOffset}{0pt}
+\DLine{AB01-PDF0644-notes_right-L001}{}{\textit{ze,} in Verslagen en Mededeelingen der kon. Akad.}
+\DLine{AB01-PDF0644-notes_right-L002}{}{van Wetenschappen, Afdeeling Letterkunde, 4\textsuperscript{e} reeks,}
+\DLine{AB01-PDF0644-notes_right-L003}{}{deel III, Amsterdam 1900, p. 12).}
+\end{minipage}
+\DSource{0645}{196}
+\DLine{AB01-PDF0645-body-L001}{}{nem composuit, qua supputationes Solis, Lunae, quinque planetarum docuit, sicut apparet ex}
+\DLine{AB01-PDF0645-body-L002}{}{\Name{Iac. Morellii} \textit{Bibliotheca manuscripta Graeca et Latina,} Bassani 1802, p. 205–06 et 209;}
+\DLine{AB01-PDF0645-body-L003}{}{cfr. etiam \Name{Stephani} philosophi (priore VIII Chr. saeculi medietate) fragmentum de arte ma-}
+\DLine{AB01-PDF0645-body-L004}{}{thematica editum in \textit{Catalogo codicum astrologorum Graecorum,} fasc. II, Brussellis 1900,}
+\DLine{AB01-PDF0645-body-L005}{5}{p. 182: \textgreek{Ὅ τε γὰρ Πτολομαῖος} [sic] \textgreek{τοῖς ἀπὸ τοῦ Ναβουχοδόνοσορ ἔτεσιν ἐχρήσατο καὶ μησὶν Αἰγυ}-}
+\DLine{AB01-PDF0645-body-L006}{}{\textgreek{πτιακοῖς, ὁ δέ γε Θέων καὶ Ἡράκλειος καὶ ὁ Ἀμμώνιος τοῖς τοῦ Φιλίππου καὶ μησὶν Αἰγυπτιακοῖς}.}
+\DLine{AB01-PDF0645-body-L007}{}{— Aḥmad ibn ‘Abd al-ḥalīm \Name{Ibn Taymiyyah} in libro \textit{takhǵīl ahl al-inǵīl} « vituperationis}
+\DLine{AB01-PDF0645-body-L008}{}{« asseclarum Evangelii » (1), Heraclium imperatorem affirmat insignem astrologum fuisse, ac}
+\DLine{AB01-PDF0645-body-L009}{}{e stellarum motibus adventum « Regis circumcisionis », nempe Muḥammad, cognovisse; sed,}
+\DLine{AB01-PDF0645-body-L010}{10}{iuxta vetustiores Arabicas traditiones (2), eum Heraclius in somnio viderat. Narrant alii He-}
+\DLine{AB01-PDF0645-body-L011}{}{raclium, epistula Prophetae accepta, ad novam religionem se populumque suum convertere}
+\DLine{AB01-PDF0645-body-L012}{}{primo voluisse, sed principum populique minas irritum tale consilium fecisse (3). — Philoso-}
+\DLine{AB01-PDF0645-body-L013}{}{phorum concilium apud Heraclium (\textit{Hiraql}) regem, eorumque de musica sententias, ex aucto-}
+\DLine{AB01-PDF0645-body-L014}{}{ritate \textarabic{اموس} (Ammonii?) commemorat \Name{al-Kindī} (IX saec. Chr.) in inedito de musica libello,}
+\DLine{AB01-PDF0645-body-L015}{15}{tract. II, cap. IV, apud \Name{Steinschneider} ad \Name{Baldi} p. 437 (extr. 12, cum additamentis). —}
+\DLine{AB01-PDF0645-body-L016}{}{Demum non impossibilis censenda est aliqua cum mythico \textit{Hiraql} (Heraclio aut Hercule) con-}
+\DLine{AB01-PDF0645-body-L017}{}{fusio, quem \Name{Ibn al-Qifṭī} (in adnot. Flügel ad \textit{Fihrist,} t. II, p. 125) dicit « sapientem (\textit{ḥa-}}
+\DLine{AB01-PDF0645-body-L018}{}{« \textit{kīm}) Babylonium, unum e septem sapientibus » qui olim septem templis Babylonis praefuis-}
+\DLine{AB01-PDF0645-body-L019}{}{sent. Huic Hiraql tribuit \Name{an-Nadīm}, \textit{al-Fihrist,} p. 270 et 285, librum \textit{ad-dawāyir wa}}
+\DLine{AB01-PDF0645-body-L020}{20}{\textit{’d-dawālīb} « de rotis [omnimodis] et rotis aquariis » (4); eidem aut alii Hiraql magnum de}
+\DLine{AB01-PDF0645-body-L021}{}{\textit{alchymia} librum ipse \Name{an-Nadīm}, p. 353. l. 24, atque p. 354, l. 27, et \Name{Ḥāǵǵī Khalīfah}}
+\DLine{AB01-PDF0645-body-L022}{}{ed. Flügel, t. V, p. 171 (cfr. etiam \Name{Steinschneider}, \textit{Die arabischen Uebersetzungen aus}}
+\DLine{AB01-PDF0645-body-L023}{}{\textit{dem Griechischen,} in Zeitschr. d. deutsch. morgenl. Gesellsch., t. L, 1896, p. 362, ubi alchy-}
+\DLine{AB01-PDF0645-body-L024}{}{miae scriptor dicitur, quo fundamento nescio, ipse Heraclius imperator esse). — In Bibliotheca}
+\DLine{AB01-PDF0645-body-L025}{25}{Nationali Parisiensi codex Arabicus XIII saeculi Chr. asservatur, quem Catalogus impressus}
+\DLine{AB01-PDF0645-body-L026}{}{(nr. 178, 3\textsuperscript{o}) ita describit: « Comment Sibylle (\textarabic{سبلا}) fille de Héraclius (\textarabic{هرقل}), chef des philosophes,}
+\DLine{AB01-PDF0645-body-L027}{}{« expliqua le songe que cent hommes eurent, la même nuit, dans la ville de Rome, sous le}
+\DLine{AB01-PDF0645-body-L028}{}{« règne d’Auguste César ». — Mythicus Hercules est cuius imago in codice quodam Graeco}
+\DLine{AB01-PDF0645-body-L029}{}{Bononiensi occurrit, subscripta \textgreek{Ἀστρονόμος ὁ Ἱρακλῇς} (\textit{Catal. codd. astrologorum Graecorum,}}
+\DLine{AB01-PDF0645-body-L030}{30}{fasc. IV, 1903, p. 45); cfr. \Name{Bouché-Leclercq}, \textit{L’astrologie grecque,} p. 577: « C’est bien}
+\par\vspace{6pt}\hrule height.25pt\vspace{5pt}
+\noindent\begin{minipage}[t]{.48\textwidth}\vspace{0pt}\fontsize{9}{11.5}\selectfont\setlength{\GutterOffset}{0pt}
+\hypertarget{AB01-PDF0645-N01}{}
+\DLine{AB01-PDF0645-notes_left-L001}{}{\Indent (1) Apud L. \Name{Marraccium}, \textit{Alcorani textus}}
+\DLine{AB01-PDF0645-notes_left-L002}{}{\textit{universus,} Patavii 1698, t. I (Prodromus ad refuta-}
+\DLine{AB01-PDF0645-notes_left-L003}{}{tionem Alcorani), pars I, p. 44. — Heraclium tan-}
+\DLine{AB01-PDF0645-notes_left-L004}{}{quam verum Prophetam Mahometum coluisse affir-}
+\DLine{AB01-PDF0645-notes_left-L005}{}{mat idem \Name{Ibn Taymiyyah}, \textit{ar-risālah al-qu-}}
+\DLine{AB01-PDF0645-notes_left-L006}{}{\textit{bruṣiyyah,} Kahirae 1319 heg., p. 15. — Obiit auctor}
+\DLine{AB01-PDF0645-notes_left-L007}{}{primo diluculo (\textit{saḥar}) diei Lunae 20 dhū ’l-qa‘dah}
+\DLine{AB01-PDF0645-notes_left-L008}{}{728, i. e. ultima nocte inter diem Dominicam 25 et}
+\DLine{AB01-PDF0645-notes_left-L009}{}{diem Lunae 26 Septembris 1328 (« Dienstag 22. Dū}
+\DLine{AB01-PDF0645-notes_left-L010}{}{« ’lqa‘da = 29 Sept. » apud \Name{Brockelmann} II,}
+\DLine{AB01-PDF0645-notes_left-L011}{}{p. 101 falsum, ac e \Name{Schreiner}, ZDMG, LII, 1898,}
+\DLine{AB01-PDF0645-notes_left-L012}{}{p. 562 repetitum; falsum quoque « primo diluculo}
+\DLine{AB01-PDF0645-notes_left-L013}{}{« diei Lunae 10 dhū ’l-qa‘dah » apud \Name{Ibn al-Ālūsī},}
+\DLine{AB01-PDF0645-notes_left-L014}{}{\textit{Ǵalā’ al-‘aynayn,} Būlāq 1298 heg., p. 9, unde flu-}
+\DLine{AB01-PDF0645-notes_left-L015}{}{xit in biographiam antepositam libro \Name{Ibn Taymiy-}}
+\DLine{AB01-PDF0645-notes_left-L016}{}{\Name{yah}, \textit{al-wāsiṭah bayn al-khalq wa ’l-ḥaqq,} Ka-}
+\DLine{AB01-PDF0645-notes_left-L017}{}{hirae 1318 heg., p. 8).}
+\end{minipage}
+\hfill\begin{minipage}[t]{.48\textwidth}\vspace{0pt}\fontsize{9}{11.5}\selectfont\setlength{\GutterOffset}{0pt}
+\hypertarget{AB01-PDF0645-N02}{}
+\DLine{AB01-PDF0645-notes_right-L001}{}{\Indent (2) \textit{Kitāb al-Aghānī} t. VI, p. 94; \Name{aṭ-Ṭabarī},}
+\DLine{AB01-PDF0645-notes_right-L002}{}{\textit{Annales,} ser. I, t. III, p. 1561 sq.}
+\hypertarget{AB01-PDF0645-N03}{}
+\DLine{AB01-PDF0645-notes_right-L003}{}{\Indent (3) \textit{Aghānī} VI, p. 94–96 (cfr. XV, p. 58, l. 14-15);}
+\DLine{AB01-PDF0645-notes_right-L004}{}{\Name{aṭ-Ṭabarī}, l. c., p. 1562-68; \Name{Ibn Sa‘d} apud}
+\DLine{AB01-PDF0645-notes_right-L005}{}{\Name{Wellhausen}, \textit{Skizzen,} t. IV (Berlin 1899) p. 2}
+\DLine{AB01-PDF0645-notes_right-L006}{}{text., 98 vers.; \Name{al-Wāqidī}, vers. Wellhausen,}
+\DLine{AB01-PDF0645-notes_right-L007}{}{p. 329; \Name{Ibn al-Athīr}, Kahirae 1301-02, t. II,}
+\DLine{AB01-PDF0645-notes_right-L008}{}{p. 101–02 (ed. Tornberg II, p. 162-63); \Name{al-Bukhārī},}
+\DLine{AB01-PDF0645-notes_right-L009}{}{Būlāq 1289 heg., t. I, p. 3-5, II, p. 130-31 (ǵihād),}
+\DLine{AB01-PDF0645-notes_right-L010}{}{III, p. 93-94 (tafsīr, ad Qor. III, 57).}
+\hypertarget{AB01-PDF0645-N04}{}
+\DLine{AB01-PDF0645-notes_right-L011}{}{\Indent (4) \textit{Dawāyir} verti « rotas omnimodas »; cfr.}
+\DLine{AB01-PDF0645-notes_right-L012}{}{\textit{Le livre des appareils pneumatiques et des machi-}}
+\DLine{AB01-PDF0645-notes_right-L013}{}{\textit{nes hydrauliques de} \Name{Philon de Byzance} \textit{édité}}
+\DLine{AB01-PDF0645-notes_right-L014}{}{\textit{d’après les versions arabes et traduit par Carra}}
+\DLine{AB01-PDF0645-notes_right-L015}{}{\textit{de Vaux,} in Notices et extraits des mss. de la}
+\DLine{AB01-PDF0645-notes_right-L016}{}{Bibliothèque Nationale, t. XXXVIII, Paris 1902, p. 29,}
+\DLine{AB01-PDF0645-notes_right-L017}{}{30, 231.}
+\end{minipage}
+\DSource{0646}{197}
+\DLine{AB01-PDF0646-body-L001}{}{« l’Hercules de Tyr que Nonnus appelle \textgreek{ἀστροχίτων} (XL, 408, 579), \textgreek{πρόμος ἄστρων} (ibid. 567).}
+\DLine{AB01-PDF0646-body-L002}{}{« Cet Hercule fait un cours d’histoire à Bacchus et lui fait cadeau de sa robe constellée, la}
+\DLine{AB01-PDF0646-body-L003}{}{« vêtement légendaire des astrologues ».}
+\hypertarget{AB01-PDF0646-P01}{}
+\DLine{AB01-PDF0646-body-L004}{}{\Indent Conspectum intervallorum iuxta \textit{Hispanicam} versionem (f. 29,r.) nunc praebebo: « Lo}
+\DLine{AB01-PDF0646-body-L005}{5}{« que a entre Nabuchodonosor el primero fata la muerte de Alexandro el primero .CCCC. et}
+\DLine{AB01-PDF0646-body-L006}{}{« .XXIIII. (1) annos egipcianos. {\CapFont ⸿} Et depues [sic] regno Phelippo padre de Alexandre el}
+\DLine{AB01-PDF0646-body-L007}{}{« Macedonio. et ouo entrel. et entrel començamiento del regnado de Augusto el primero ce-}
+\DLine{AB01-PDF0646-body-L008}{}{« sar .CC. et .LXIIII. (2) annos. {\CapFont ⸿} Et desde que regno Cesar Augusto el romano. fata el co-}
+\DLine{AB01-PDF0646-body-L009}{}{« mençamiento del regno de Dioclecianos el xristiano .CCC. et .XIII. annos. {\CapFont ⸿} Et desde que}
+\DLine{AB01-PDF0646-body-L010}{10}{« regno Dioclecianos fata el començamiento del regno de Bolianoz (3) .LXXVII. annos. {\CapFont ⸿} Et}
+\DLine{AB01-PDF0646-body-L011}{}{« despues mataron (4) a Bolianoz. et tornosse el regno a los xristianos assi como fue. (5) Et}
+\DLine{AB01-PDF0646-body-L012}{}{« fue del començamiento del regno de Dioclecianos. fata el comienço que regno Hercules el}
+\DLine{AB01-PDF0646-body-L013}{}{« de los Alaraues .CCC. et .XXVI. (6) annos. {\CapFont ⸿} Et desi regnaron los Alaraues del comença-}
+\DLine{AB01-PDF0646-body-L014}{}{« miento de la alhigera. fata que regno Mauya que fue de fiios de Vmaya. depues [sic] de}
+\DLine{AB01-PDF0646-body-L015}{15}{« la muerte de Ahly aben Abitali (7) .XXXIX. annos. et finco el regnado en los fijos de}
+\DLine{AB01-PDF0646-body-L016}{}{« Vmaya. fata que se torno a los fijos de Alahbez a complimiento de .C. et .XXVII. annos}
+\DLine{AB01-PDF0646-body-L017}{}{« de la alhigera ».}
+\par\vspace{3mm}
+\hypertarget{AB01-PDF0646-H18}{}
+\DLine{AB01-PDF0646-body-L018}{}{\CenterLine{\textit{Ad pag. 4-6.} — \textbf{Tabula khalifarum.}}}
+\par\vspace{2mm}
+\hypertarget{AB01-PDF0646-P02}{}
+\DLine{AB01-PDF0646-body-L019}{}{\Indent Eadem (8), usque ad al-Muṭī‘ mortuum (336 heg.) porrecta apud \Name{al-Mas‘ūdī}, \textit{Prai-}}
+\DLine{AB01-PDF0646-body-L020}{20}{\textit{ries,} t. IX, p. 38–49, qui se \Name{al-Battānī} praesertim secutum esse fatetur; eadem etiam, usque}
+\DLine{AB01-PDF0646-body-L021}{}{ad al-Muktafī mortuum (334 heg.) perducta, at summis annorum omissis et non sine erro-}
+\DLine{AB01-PDF0646-body-L022}{}{ribus, apud \Name{Ḥamzah} p. 156–58 text. Iuvat nonnulla ex \Name{al-Mas‘ūdī} l. c., p. 38–39 referre:}
+\DLine{AB01-PDF0646-body-L023}{}{« In anteriore huius libri parte iam peculiare caput constitueramus pro regum chronologia ....}
+\DLine{AB01-PDF0646-body-L024}{}{« usque ad hoc tempus, deducta e supputatione atque ex iis quae narrantur in libris biogra-}
+\DLine{AB01-PDF0646-body-L025}{25}{« phiarum, historiarum ac eorum qui historiae khalifarum et regum vacaverunt. Sed illo loco}
+\DLine{AB01-PDF0646-body-L026}{}{« non exposueramus quae in astronomicis operibus (\textit{fī kutub az-zīǵāt}) narrant astronomi}
+\DLine{AB01-PDF0646-body-L027}{}{« (\textit{aṣḥāb an-nuǵūm}) sua temporum ratione innitentes. Hoc igitur capite omnia quae illi in}
+\DLine{AB01-PDF0646-body-L028}{}{« astronomicis operibus statuerint ab hegira ad nostrum tempus memorabimus, ut libri utilitas}
+\DLine{AB01-PDF0646-body-L029}{}{« augeatur et cognitio discrepantiae inter historicos ac caelestium rerum scriptores deprehen-}
+\DLine{AB01-PDF0646-body-L030}{30}{« datur ». Postea, p. 48–49: « Inter hanc et historicorum biographorumque chronologiam di-}
+\DLine{AB01-PDF0646-body-L031}{}{« screpantia (\textit{tafāwut}) est ob incrementa (\textit{ziyādāt}) mensium et dierum. In chronologia ab he-}
+\DLine{AB01-PDF0646-body-L032}{}{« gira ad hoc tempus statuenda usi sumus iis quae in operibus astronomicis invenimus; nam}
+\DLine{AB01-PDF0646-body-L033}{}{« qui huic [rerum caelestium] arti vacant tempora illa accurate servant (\textit{yurā‘ūn}) eorumque}
+\DLine{AB01-PDF0646-body-L034}{}{« cognitionem absolutissime definitam (\textit{‘alà ’t-taḥdīd}) adipiscuntur. Quae retulimus, ex opere}
+\DLine{AB01-PDF0646-body-L035}{35}{« astronomico Abū ‘Abd Allāh Muḥammad ibn Ǵābir \Name{al-Battānī} (9) aliisque astronomicis}
+\DLine{AB01-PDF0646-body-L036}{}{« operibus sumpsimus ». — De tabulis chronologicis vide etiam \Name{al-Mas‘ūdī}, \textit{at-Tanbīh,} p. 329.}
+\par\vspace{6pt}\hrule height.25pt\vspace{5pt}
+\noindent\begin{minipage}[t]{.48\textwidth}\vspace{0pt}\fontsize{9}{11.5}\selectfont\setlength{\GutterOffset}{0pt}
+\hypertarget{AB01-PDF0646-N01}{}
+\DLine{AB01-PDF0646-notes_left-L001}{}{\Indent (1) Legit \textarabic{تكد} ut in cod. Escurialensi; vide su-}
+\DLine{AB01-PDF0646-notes_left-L002}{}{pra p. 192.}
+\hypertarget{AB01-PDF0646-N02}{}
+\DLine{AB01-PDF0646-notes_left-L003}{}{\Indent (2) Perperam legit \textarabic{رصد} pro \textarabic{رضد} 294.}
+\hypertarget{AB01-PDF0646-N03}{}
+\DLine{AB01-PDF0646-notes_left-L004}{}{\Indent (3) Legit \textarabic{بليانس}, ut cod. Escur. hac pagina ha-}
+\DLine{AB01-PDF0646-notes_left-L005}{}{bet, pro \textarabic{يليانس} (cod. Esc. f. 155,r. \textarabic{يوليانس}); omisit \textit{al-}}
+\DLine{AB01-PDF0646-notes_left-L006}{}{\textit{-ḥanīf} « paganum ».}
+\hypertarget{AB01-PDF0646-N04}{}
+\DLine{AB01-PDF0646-notes_left-L007}{}{\Indent (4) Legit \textarabic{قتل} « interfectus est » pro \textarabic{ملك} « re-}
+\DLine{AB01-PDF0646-notes_left-L008}{}{gnavit ».}
+\end{minipage}
+\hfill\begin{minipage}[t]{.48\textwidth}\vspace{0pt}\fontsize{9}{11.5}\selectfont\setlength{\GutterOffset}{0pt}
+\hypertarget{AB01-PDF0646-N05}{}
+\DLine{AB01-PDF0646-notes_right-L001}{}{\Indent (5) Textum corruptum manifeste interpretari}
+\DLine{AB01-PDF0646-notes_right-L002}{}{nescivit; postea duorum annorum intervallum omisit.}
+\hypertarget{AB01-PDF0646-N06}{}
+\DLine{AB01-PDF0646-notes_right-L003}{}{\Indent (6) Legit \textarabic{سكو} ut cod. Escur.}
+\hypertarget{AB01-PDF0646-N07}{}
+\DLine{AB01-PDF0646-notes_right-L004}{}{\Indent (7) I. e. ‘Alī ibn Abī Ṭālib; deest incisum in}
+\DLine{AB01-PDF0646-notes_right-L005}{}{cod. Escur.}
+\hypertarget{AB01-PDF0646-N08}{}
+\DLine{AB01-PDF0646-notes_right-L006}{}{\Indent (8) Textus Arabicus in t. III, p. 231-34. In ver-}
+\DLine{AB01-PDF0646-notes_right-L007}{}{sione Hispanica omissae.}
+\hypertarget{AB01-PDF0646-N09}{}
+\DLine{AB01-PDF0646-notes_right-L008}{}{\Indent (9) In edit. \textarabic{البناني}, qua re in versione Gallica}
+\DLine{AB01-PDF0646-notes_right-L009}{}{\textit{Bennani.}}
+\end{minipage}
+\DSource{0647}{198}
+\hypertarget{AB01-PDF0647-P01}{}
+\DLine{AB01-PDF0647-body-L001}{}{\Indent Anni et menses huius tabulae lunares sunt, iuxta Muslimorum calendarium. De hegira}
+\DLine{AB01-PDF0647-body-L002}{}{die Iovis constituta in adnot. ad tabulam p. 7 dicam.}
+\hypertarget{AB01-PDF0647-P02}{}
+\DLine{AB01-PDF0647-body-L003}{}{\Indent « \textit{Khalifarum iustorum} » nomen in inscriptionibus servavi, sicut in codice inveneram.}
+\DLine{AB01-PDF0647-body-L004}{}{Sed plerumque nonnisi quatuor priores khalifae ita vocantur; nec impossibile est nomen, ab}
+\DLine{AB01-PDF0647-body-L005}{5}{\Name{al-Battānī} quatuor illis dumtaxat praepositum, amanuensium errore etiam reliquis omnibus}
+\DLine{AB01-PDF0647-body-L006}{}{tributum esse.}
+\hypertarget{AB01-PDF0647-P03}{}
+\DLine{AB01-PDF0647-body-L007}{}{\Indent \textit{Banū Hāshim,} in initio p. 5 memorati, tribus vel gens sunt a qua khalifae ‘Abbāsidae}
+\DLine{AB01-PDF0647-body-L008}{}{originem ducebant.}
+\hypertarget{AB01-PDF0647-P04}{}
+\DLine{AB01-PDF0647-body-L009}{}{\Indent Discrepantiae ab \Name{al-Mas‘ūdī} minimi sunt momenti, ut ex earum conspectu patebit:}
+\hypertarget{AB01-PDF0647-body-T01}{}\RawBlock{\hspace*{14mm}\begin{tabular}{@{}l@{\hspace{6mm}}r@{\hspace{2.2mm}}r@{\hspace{2.2mm}}r@{\hspace{3mm}}|@{\hspace{3mm}}r@{\hspace{2.2mm}}r@{\hspace{2.2mm}}r@{\hspace{3mm}}||@{\hspace{3mm}}r@{\hspace{2.2mm}}r@{\hspace{2.2mm}}r@{\hspace{3mm}}|@{\hspace{3mm}}r@{\hspace{2.2mm}}r@{\hspace{2.2mm}}r@{}}
+& \multicolumn{6}{c||}{\Name{al-Battānī} p. 4} & \multicolumn{6}{c}{\Name{al-Mas‘ūdī} IX, 42}\\[3pt]
+‘Omar ibn ‘Abd al-Malik & 2\sa & 5\sm & \textit{13}\sd & 100\sa & 6\sm & \textit{26}\sd & 2\sa & 5\sm & \textit{15}\sd & 100\sa & 6\sm & \textit{28}\sd\\
+Yazīd ibn ‘Abd al-Malik & 4 & 0 & 1 & 104 & 6 & \textit{27} & 4 & 0 & 1 & 104 & 6 & \textit{29}\\
+Hishām ibn ‘Abd al-Malik & 19 & 8 & \textit{9} & 124 & 3 & 6 & 19 & 8 & \textit{7} & 124 & 3 & 6\\[8pt]
+& \multicolumn{6}{c||}{\Name{al-Battānī} p. 5} & \multicolumn{6}{c}{\Name{al-Mas‘ūdī} IX, 46}\\[3pt]
+al-Mutawakkil & 14\sa & 9\sm & \textit{9}\sd & 246\sa & 9\sm & \textit{3}\sd & 14\sa & 9\sm & \textit{7}\sd & 246\sa & 9\sm & \textit{1}\sd\\
+al-Muntaṣir & 0 & 6 & 0 & 247 & 3 & \textit{3} & 0 & 6 & 0 & 247 & 3 & \textit{1}\\
+al-Musta‘īn & 2 & 9 & 3 & 250 & 0 & \textit{6} & 2 & 9 & 3 & 250 & 0 & \textit{4}\\
+usque ad al-Mu‘tazz & 0 & 0 & \textit{8} & 250 & 0 & 14 & 0 & 0 & \textit{10} & 250 & 0 & 14\\
+\end{tabular}}
+\hypertarget{AB01-PDF0647-P05}{}
+\DLine{AB01-PDF0647-body-L010}{10}{\Indent Omnes qui post \textit{al-Muktafī} memorantur (Italicis seu inclinatis litteris expressi), quoniam}
+\DLine{AB01-PDF0647-body-L011}{}{seriore aetate quam \Name{Albatenii} fuerunt, manifeste ab aliquo lectore additi sunt, qui in an-}
+\DLine{AB01-PDF0647-body-L012}{}{norum \textit{al-Muqtadir} summa perperam 18 dies loco 11 posuit et reliquas summas igitur etiam}
+\DLine{AB01-PDF0647-body-L013}{}{vitiavit. Nec parvae sunt in his interpolatis discrepantiae ab \Name{al-Mas‘ūdī}.}
+\hypertarget{AB01-PDF0647-P06}{}
+\DLine{AB01-PDF0647-body-L014}{}{\Indent Sed fortasse ultimus khalifa ab \Name{al-Battānī} memoratus erat \textit{al-Mu‘taḍid;} numeri enim}
+\DLine{AB01-PDF0647-body-L015}{15}{sequentis al-Muktafī cum \Name{al-Mas‘ūdī} IX, 47 non congruunt:}
+\par\vspace{1mm}
+\hypertarget{AB01-PDF0647-H16}{}
+\DLine{AB01-PDF0647-body-L016}{}{\CenterLine{\Name{al-Battānī} 6\sa\ 6\sm\ \textit{4}\sd\ \ |\ \ 294\sa\ \textit{9}\sm\ \textit{26}\sd\ \ ||\ \ \Name{al-Mas‘ūdī} 6\sa\ 6\sm\ \textit{20}\sd\ \ |\ \ 294\sa\ \textit{10}\sm\ \textit{12}\sd}}
+\par\vspace{1mm}
+\hypertarget{AB01-PDF0647-P07}{}
+\DLine{AB01-PDF0647-body-L017}{}{\Indent Historici scriptores, sicut \Name{aṭ-Ṭabarī}, ser. III, t. V, p. 2280, \Name{al-Mas‘ūdī}, \textit{at-Tanbīh,}}
+\DLine{AB01-PDF0647-body-L018}{}{p. 371 (ubi \textarabic{وستّة اشهر} inserendum), aliique, khalifatum al-Muktafī 6 annorum, 6 mensium, 19}
+\DLine{AB01-PDF0647-body-L019}{}{dierum faciunt.}
+\hypertarget{AB01-PDF0647-P08}{}
+\DLine{AB01-PDF0647-body-L020}{20}{\Indent Rogo demum ut p. 5, ult. l., pro codicis \textarabic{كح} 28 restituantur \textarabic{كج} 23 anni.}
+\par\vspace{4mm}
+\hypertarget{AB01-PDF0647-H21}{}
+\DLine{AB01-PDF0647-body-L021}{}{\CenterLine{\textit{Ad pag. 7.} — \textbf{Signa annorum Arabicorum.}}}
+\par\vspace{3mm}
+\hypertarget{AB01-PDF0647-P09}{}
+\DLine{AB01-PDF0647-body-L022}{}{\Indent Tabulam auctor memorat t. I, p. 71 (cap. XXXII), explicat p. 145 (adp. A).}
+\hypertarget{AB01-PDF0647-P10}{}
+\DLine{AB01-PDF0647-body-L023}{}{\Indent Duae signorum rationes occurrunt; altera, quam I vocabo, in sinistra paginae parte, al-}
+\DLine{AB01-PDF0647-body-L024}{}{tera (II) in dextera. Mihi II, in Hispanica versione (f. 29,r.) omissa, \textit{spuria} videtur; inutilis}
+\DLine{AB01-PDF0647-body-L025}{25}{prorsus cum iam I praebeatur, et altera minus commoda, quia ad signum anni dati reperien-}
+\DLine{AB01-PDF0647-body-L026}{}{dum necesse est signo illius anni in tabula scripto signum mensis al-muḥarram semper ad-}
+\DLine{AB01-PDF0647-body-L027}{}{dere. Signum primi anni hegirae erit nempe 7 + 5 = 5, signum secundi 4 + 5 = 2, etc.}
+\DLine{AB01-PDF0647-body-L028}{}{Iuxta rationem I signum anni iam in tabula est, nec additio requiritur nisi ad invenienda signa}
+\DLine{AB01-PDF0647-body-L029}{}{mensium qui primo (al-muḥarram) subsequuntur. \Name{Al-Battānī}, l. c., rationem I exponit; II ne}
+\DLine{AB01-PDF0647-body-L030}{30}{memorat quidem (1).}
+\par\vspace{6pt}\hrule height.25pt\vspace{5pt}{\fontsize{9}{11.5}\selectfont
+\hypertarget{AB01-PDF0647-N01}{}
+\DLine{AB01-PDF0647-notes-L001}{}{\Indent (1) Tertia ratio ex opere \Name{Maslamah al-Maǵrīṭī}, in tabulis spuriis f. 240,v. et 241,r.}
+}
+\DSource{0648}{199}
+\hypertarget{AB01-PDF0648-P01}{}
+\DLine{AB01-PDF0648-body-L001}{}{\Indent Signa annorum collectorum iustis esse unitate minora \Name{al-Battānī} monet; cur ita fa-}
+\DLine{AB01-PDF0648-body-L002}{}{ctum exposui t. I, p. 323.}
+\hypertarget{AB01-PDF0648-P02}{}
+\DLine{AB01-PDF0648-body-L003}{}{\Indent « Anni collecti » (\textit{sinūn maǵmū‘ah}) significant, apud astronomos Arabicos, summam an-}
+\DLine{AB01-PDF0648-body-L004}{}{norum ab epocha aerae, non annorum spatium a quocumque temporis momento numeratum.}
+\DLine{AB01-PDF0648-body-L005}{5}{« Anni singuli » vel, ut Arabice vocantur, « expansi » (\textit{sinūn mabsūṭah}), sunt anni singilla-}
+\DLine{AB01-PDF0648-body-L006}{}{tim sumpti, a quocumque tempore numerati. Nomina annorum \textit{collectorum} et \textit{expansorum}}
+\DLine{AB01-PDF0648-body-L007}{}{e scriptis Arabicis in \textit{Tabulas Toletanas, Alphonsinas} aliasque multas aevi medii et recen-}
+\DLine{AB01-PDF0648-body-L008}{}{tiores irrepserunt.}
+\hypertarget{AB01-PDF0648-P03}{}
+\DLine{AB01-PDF0648-body-L009}{}{\Indent Apud Arabes, ut apud Latinos veteres et astronomos omnes, hebdomada a die dominica}
+\DLine{AB01-PDF0648-body-L010}{10}{(feria prima) orditur; sabbatum (feria septima) hebdomadam concludit.}
+\hypertarget{AB01-PDF0648-P04}{}
+\DLine{AB01-PDF0648-body-L011}{}{\Indent \Name{Al-Battānī} epocham hegirae ponit \textit{die Iovis} (feria quinta) 15 Iulii 622 Chr. Ex astro-}
+\DLine{AB01-PDF0648-body-L012}{}{nomis Arabicis (1) quos inspexi, soli \Name{Ḥabash} et \Name{al-Khāzinī} (f. 22,v. etc.) usum civilem}
+\DLine{AB01-PDF0648-body-L013}{}{Muslimicum sequuntur epochae hegirae die Veneris (feria sexta) 16 Iulii constituendae. Iuvat}
+\DLine{AB01-PDF0648-body-L014}{}{quae \Name{Ḥabash} f. 2,v. narrat suis ipsis verbis referre: « Cum sacrarum traditionum narrato-}
+\DLine{AB01-PDF0648-body-L015}{15}{« res (2) et viros computandi peritissimos invenissem novilunium (\textarabic{مستهَلّ}) al-muḥarram anni quo}
+\DLine{AB01-PDF0648-body-L016}{}{« Arabicus (3) Propheta Muḥammad (propitius est salutemque aeternam praestat ei Deus et}
+\DLine{AB01-PDF0648-body-L017}{}{« purae genti eius domus) feria quinta ponere, investigavi verumne hoc esset (\textarabic{يصحّ}) iuxta com-}
+\DLine{AB01-PDF0648-body-L018}{}{« putationem. Coniunctionem luminarium ad novilunium al-muḥarram anni primi hegirae re-}
+\DLine{AB01-PDF0648-body-L019}{}{« peri fuisse Mekkah in urbe post mediam noctem cuius mane (\textarabic{صبيحة}) feria quarta [i. e. dies}
+\DLine{AB01-PDF0648-body-L020}{20}{« Mercurii] fuit, ac supputando inveni apparitionem Lunae novae in Mekkah fuisse nocte diei}
+\DLine{AB01-PDF0648-body-L021}{}{« Veneris novilunium al-muḥarram anni hegirae. Igitur nihil invenimus quod feriam quintam}
+\DLine{AB01-PDF0648-body-L022}{}{« [diem Iovis] indicaret in coniunctione aut in apparitione; unde nobis patuit gentem illam}
+\DLine{AB01-PDF0648-body-L023}{}{« al-muḥarram a nocte diei Iovis iuxta usum communem dumtaxat computasse, toto calculo}
+\DLine{AB01-PDF0648-body-L024}{}{« suo mensem dhū ’l-ḥiǵǵah elapsum [statuendo] 29 dierum fuisse (4). Igitur ad apparitionem}
+\DLine{AB01-PDF0648-body-L025}{25}{« Lunae novae reversi sumus, et initium al-muḥarram anni primi hegirae constituimus nocte}
+\DLine{AB01-PDF0648-body-L026}{}{« diei Veneris in Mekkah, [cuius] mane dies XXVIII mensis afrawardīn-māh anni 44 ab}
+\DLine{AB01-PDF0648-body-L027}{}{« Abarwīz (5) rege, et 9 annis ac 338 diebus ante Yazdaǵird regem. Item nocte cuius mane}
+\par\vspace{6pt}\hrule height.25pt\vspace{5pt}
+\noindent\begin{minipage}[t]{.48\textwidth}\vspace{0pt}\fontsize{9}{11.5}\selectfont\setlength{\GutterOffset}{0pt}
+\hypertarget{AB01-PDF0648-N01}{}
+\DLine{AB01-PDF0648-notes_left-L001}{}{\Indent (1) Sicut astronomi, ita astrologi diem Iovis}
+\DLine{AB01-PDF0648-notes_left-L002}{}{15 Iulii 622 pro epocha aerae habere solent; e qui-}
+\DLine{AB01-PDF0648-notes_left-L003}{}{bus \Name{al-Kindī} apud O. \Name{Loth}, \textit{al-Kindî als As-}}
+\DLine{AB01-PDF0648-notes_left-L004}{}{\textit{trolog,} in Morgenländische Forschungen, Festschrift}
+\DLine{AB01-PDF0648-notes_left-L005}{}{an H. L. Fleischer, Leipzig 1875, p. 294. — Cum 3624}
+\DLine{AB01-PDF0648-notes_left-L006}{}{dierum faciant intervallum inter aeras hegirae et}
+\DLine{AB01-PDF0648-notes_left-L007}{}{Iezdegerdis, patet in eadem sententia versari \Name{Al-}}
+\DLine{AB01-PDF0648-notes_left-L008}{}{\Name{bumasar} [Abū Ma‘shar] \textit{de magnis coniunctio-}}
+\DLine{AB01-PDF0648-notes_left-L009}{}{\textit{nibus,} Venetiis 1515, tract. IV in fine, ac tract. VIII,}
+\DLine{AB01-PDF0648-notes_left-L010}{}{diff. 2; et \Name{Alchabitium} [al-Qabīṣī], diff. IV,}
+\DLine{AB01-PDF0648-notes_left-L011}{}{cap. VI, fol. dd 3,r. edit. 1485, vel f. 17,r. edit. 1521}
+\DLine{AB01-PDF0648-notes_left-L012}{}{(titulos ambarum dedi t. I, p. 309, adn. 1).}
+\hypertarget{AB01-PDF0648-N02}{}
+\DLine{AB01-PDF0648-notes_left-L013}{}{\Indent (2) \textit{Ruwāt al-ḥadīth,} i. e. qui dicta et facta}
+\DLine{AB01-PDF0648-notes_left-L014}{}{Prophetae eiusque sociorum diligentissime collecta}
+\DLine{AB01-PDF0648-notes_left-L015}{}{tradebant.}
+\hypertarget{AB01-PDF0648-N03}{}
+\DLine{AB01-PDF0648-notes_left-L016}{}{\Indent (3) Ex ipso \textit{Qorano} apparet Qoranum esse « \textit{li-}}
+\DLine{AB01-PDF0648-notes_left-L017}{}{\textit{brum Arabicum} », vel « \textit{claro Arabico sermone}}
+\DLine{AB01-PDF0648-notes_left-L018}{}{\textit{scriptum} », omnesque Prophetas qui ante Muḥam-}
+\DLine{AB01-PDF0648-notes_left-L019}{}{mad fuerint ad alias quam Arabicam nationes mis-}
+\DLine{AB01-PDF0648-notes_left-L020}{}{sos. Unde nomen « \textit{Prophetae Arabici} » quo saepe}
+\end{minipage}
+\hfill\begin{minipage}[t]{.48\textwidth}\vspace{0pt}\fontsize{9}{11.5}\selectfont\setlength{\GutterOffset}{0pt}
+\DLine{AB01-PDF0648-notes_right-L001}{}{Muḥammad vocatur, praesertim in initio ac fine car-}
+\DLine{AB01-PDF0648-notes_right-L002}{}{minum interiectorum popularibus iisque longissimis}
+\DLine{AB01-PDF0648-notes_right-L003}{}{narrationibus \textit{Sīrat Banī Hilāl} inscriptis ac res ge-}
+\DLine{AB01-PDF0648-notes_right-L004}{}{stas gentis Banī Hilāl concelebrantibus (in editt.}
+\DLine{AB01-PDF0648-notes_right-L005}{}{Berytensibus, a Christianis factis, illi primi ultimi-}
+\DLine{AB01-PDF0648-notes_right-L006}{}{que versus omittuntur).}
+\hypertarget{AB01-PDF0648-N04}{}
+\DLine{AB01-PDF0648-notes_right-L007}{}{\Indent (4) Triginta dierum fuerat iuxta peculiarem}
+\DLine{AB01-PDF0648-notes_right-L008}{}{\Name{Ḥabash} intercalandi rationem, qua ultimus annus}
+\DLine{AB01-PDF0648-notes_right-L009}{}{cycli tricennalis pro bisextili habetur; cfr. t. I, p. 323.}
+\DLine{AB01-PDF0648-notes_right-L010}{}{Ab hegira novus ciclus orditur.}
+\hypertarget{AB01-PDF0648-N05}{}
+\DLine{AB01-PDF0648-notes_right-L011}{}{\Indent (5) Chosroes II, cuius regnum a die 27 Iunii}
+\DLine{AB01-PDF0648-notes_right-L012}{}{590 Chr. supputatum esse certissime constat; vide}
+\DLine{AB01-PDF0648-notes_right-L013}{}{\Name{Tabari}’s \textit{Geschichte der Perser und Araber zur}}
+\DLine{AB01-PDF0648-notes_right-L014}{}{\textit{Zeit der Sasaniden übers. von Th. Nöldeke,} Lei-}
+\DLine{AB01-PDF0648-notes_right-L015}{}{den 1879, p. 430-31, \Name{Th. Nöldeke}, \textit{Zur persi-}}
+\DLine{AB01-PDF0648-notes_right-L016}{}{\textit{schen Chronologie,} in ZDMG., t. L, 1896, p. 141, et}
+\DLine{AB01-PDF0648-notes_right-L017}{}{etiam tabulas omnes Sāsānidarum regum apud \Name{al-}}
+\DLine{AB01-PDF0648-notes_right-L018}{}{\Name{-Bīrūnī}, \textit{Chron.,} p. 121-31 text., 123-28 vers. Ergo}
+\DLine{AB01-PDF0648-notes_right-L019}{}{16 Iulii 622 fuit XXVIII dies mensis afrawardīn anni 32}
+\DLine{AB01-PDF0648-notes_right-L020}{}{(non 44 ut in codice Ḥabash) a Chosroe II rege.}
+\end{minipage}
+\DSource{0649}{200}
+\DLine{AB01-PDF0649-body-L001}{}{« fuit XVI dies tammūz [Iulii] anni 933 Alexandri; et a primo die tishrīn prioris (1) ad XV}
+\DLine{AB01-PDF0649-body-L002}{}{« tammūz, toto XV computato, 288 dies fuerunt. Item mane XXIII diei mensis kiyahk}
+\DLine{AB01-PDF0649-body-L003}{}{« anni 1389 a Bukhtanaṣṣar; et a primo die tūt ad XXII kiyahk, die XXII computato,}
+\DLine{AB01-PDF0649-body-L004}{}{« 112 dies fuerunt, qui, additis quinque epagomenis (\textit{al-ayyām al-lawāḥiq}), 117 fiunt. Hos}
+\DLine{AB01-PDF0649-body-L005}{5}{« quinque propterea adiecimus quia a [mense Persico] daymāh (2) numeramus, [ex quo] cum}
+\DLine{AB01-PDF0649-body-L006}{}{« 12 elapsi sunt annus Coptorum perfectus est ».}
+\hypertarget{AB01-PDF0649-P01}{}
+\DLine{AB01-PDF0649-body-L007}{}{\Indent Iuxta civilem Muslimorum usum dies ab occasu Solis computatur, ita ut nox ad sequens}
+\DLine{AB01-PDF0649-body-L008}{}{mane pertineat. Astronomi diem a meridie supputant (t. I, p. 221); ergo nox diei Veneris iuxta}
+\DLine{AB01-PDF0649-body-L009}{}{usum civilem fit apud eos nox diei Iovis. Diei discrepantia in epocha hegirae ita explicatur.}
+\DLine{AB01-PDF0649-body-L010}{10}{\Name{Ḥabash} autem aliis calculis fretus est.}
+\hypertarget{AB01-PDF0649-P02}{}
+\DLine{AB01-PDF0649-body-L011}{}{\Indent Usum mensium lunarium Mekkanis Propheta praecepisse videtur anno 9 hegirae, quo}
+\DLine{AB01-PDF0649-body-L012}{}{\textit{Qorani} IX, 36–37 versiculos probabiliter edidit (3); praecepta anno sequenti in ultima sua}
+\DLine{AB01-PDF0649-body-L013}{}{contione iteravit (4). Quo calendario \Name{Mekkani} antea uterentur non liquet; doctissimorum}
+\DLine{AB01-PDF0649-body-L014}{}{virorum coniecturas vide apud A. \Name{Caussin de Perceval}, \textit{Mémoire sur le calendrier}}
+\DLine{AB01-PDF0649-body-L015}{15}{\textit{arabe avant l’Islamisme} (Journal Asiatique, ser. IV, t. 1, 1843, p. 342–79); \Name{Mahmoud}}
+\DLine{AB01-PDF0649-body-L016}{}{\Name{Effendi}, \textit{Mémoire sur le calendrier arabe avant l’Islamisme et sur la naissance et l’âge}}
+\DLine{AB01-PDF0649-body-L017}{}{\textit{du prophète Mohammad} (Journ. Asiat., V, 11, 1858, p. 109–92); A. \Name{Sprenger}, \textit{Ueber den}}
+\DLine{AB01-PDF0649-body-L018}{}{\textit{Kalender der Araber vor Muḥammad} (Zeitschr. d. deutsch. morgenländ. Gesellsch., t. XIII,}
+\DLine{AB01-PDF0649-body-L019}{}{1859, p. 134-75); J. \Name{Wellhausen}, \textit{Reste arabischen Heidentums,} ed. altera, Berlin 1897,}
+\DLine{AB01-PDF0649-body-L020}{20}{p. 94–101; H. \Name{Winckler}, \textit{Altorientalische Forschungen,} ser. II, t. II (1900), p. 324–50,}
+\DLine{AB01-PDF0649-body-L021}{}{374–81. Suam ipsam sententiam postea \Name{Winckler} (5) paulo mutavit, affirmans Prophetae}
+\DLine{AB01-PDF0649-body-L022}{}{tempore Mekkanos calendarium \textit{solare} habuisse, a Christianis Arabiae australis, Abrahah duce,}
+\DLine{AB01-PDF0649-body-L023}{}{post 525 Chr. allatum; Prophetam autem, post Mekkam anno 8 heg. captam, vetustissimum}
+\DLine{AB01-PDF0649-body-L024}{}{calendarium Mekkanorum \textit{lunare} restituisse quod ad cultum Dei lunaris Hubal olim perti-}
+\DLine{AB01-PDF0649-body-L025}{25}{nuisset.}
+\hypertarget{AB01-PDF0649-P03}{}
+\DLine{AB01-PDF0649-body-L026}{}{\Indent Nonnulli, quos \Name{aṭ-Ṭabarī} (\textit{Annales,} ser. I, t. III, p. 1250–56) recenset, epocham aerae}
+\DLine{AB01-PDF0649-body-L027}{}{ab ipso Muḥammad institutam dicunt; plurimi, rectius quidem, a khalifa ‘Omar anno 16 (vel}
+\DLine{AB01-PDF0649-body-L028}{}{17 vel 18). Epocha est I dies al-muḥarram anni quo Propheta, ab urbe Mekkah secedens,}
+\DLine{AB01-PDF0649-body-L029}{}{al-Madīnah pervenit; quod, iuxta Arabicos et nostros astronomos, die Lunae 8 rabī‘ prioris}
+\DLine{AB01-PDF0649-body-L030}{30}{iuxta usum civilem (20 Sept. 622) fuit vel die Dominica 7 eiusdem (19 Sept.) iuxta astronomicam}
+\DLine{AB01-PDF0649-body-L031}{}{temporum rationem. Vide \Name{Mahmoud Effendi}, l. c., p. 121; \Name{Loth}, \textit{al-Kindî als Astrolog,}}
+\DLine{AB01-PDF0649-body-L032}{}{p. 293–94; \Name{al-Bīrūnī}, \textit{Chron.,} p. 330 text., 327–28 vers. Errant Arabes illi qui diem 12}
+\DLine{AB01-PDF0649-body-L033}{}{rabī‘ I deligunt.}
+\hypertarget{AB01-PDF0649-P04}{}
+\DLine{AB01-PDF0649-body-L034}{}{\Indent De codicis erroribus in annis bisextilibus designandis dixi t. I, p. 323, II; omnia ad \Name{Al-}}
+\DLine{AB01-PDF0649-body-L035}{35}{\Name{batenii} mentem restitui.}
+\par\vspace{6pt}\hrule height.25pt\vspace{5pt}
+\noindent\begin{minipage}[t]{.48\textwidth}\vspace{0pt}\fontsize{9}{11.5}\selectfont\setlength{\GutterOffset}{0pt}
+\hypertarget{AB01-PDF0649-N01}{}
+\DLine{AB01-PDF0649-notes_left-L001}{}{\Indent (1) Seu Octobris; iuxta communem usum (ab}
+\DLine{AB01-PDF0649-notes_left-L002}{}{\textit{Albateniano} diversum) annos Seleucidarum a I Octo-}
+\DLine{AB01-PDF0649-notes_left-L003}{}{bris computat.}
+\hypertarget{AB01-PDF0649-N02}{}
+\DLine{AB01-PDF0649-notes_left-L004}{}{\Indent (2) Aera Nabonassaris die I daymāh incepit.}
+\hypertarget{AB01-PDF0649-N03}{}
+\DLine{AB01-PDF0649-notes_left-L005}{}{\Indent (3) Iuxta \Name{Nöldeke}, \textit{Geschichte des Qorâns,}}
+\DLine{AB01-PDF0649-notes_left-L006}{}{Göttingen 1860, p. 166.}
+\hypertarget{AB01-PDF0649-N04}{}
+\DLine{AB01-PDF0649-notes_left-L007}{}{\Indent (4) \Name{Ibn Hishām}, ed. Wüstenfeld, p. 968–69;}
+\DLine{AB01-PDF0649-notes_left-L008}{}{\Name{aṭ-Ṭabarī}, \textit{Annales,} ser. I, t. IV, p. 1753-54; om-}
+\DLine{AB01-PDF0649-notes_left-L009}{}{nesque sacrarum traditionum scriptores. De tota ea}
+\DLine{AB01-PDF0649-notes_left-L010}{}{contione, varie tradita partimque fortasse ficta, cfr.}
+\DLine{AB01-PDF0649-notes_left-L011}{}{\Name{Snouck Hurgronje}, \textit{Het mekkaansche feest,}}
+\end{minipage}
+\hfill\begin{minipage}[t]{.48\textwidth}\vspace{0pt}\fontsize{9}{11.5}\selectfont\setlength{\GutterOffset}{0pt}
+\DLine{AB01-PDF0649-notes_right-L001}{}{Leiden 1880, p. 43–45. — Nullam certam rationem}
+\DLine{AB01-PDF0649-notes_right-L002}{}{in chronologia rerum a Propheta gestarum habuisse}
+\DLine{AB01-PDF0649-notes_right-L003}{}{vetustissimos historiae scriptores iure monet \Name{Ed.}}
+\DLine{AB01-PDF0649-notes_right-L004}{}{\Name{Sachau}, p. \textsc{xxxv} praefationis suae in I partem}
+\DLine{AB01-PDF0649-notes_right-L005}{}{tomi III operis \Name{Ibn Saad}, \textit{Biographien Muham-}}
+\DLine{AB01-PDF0649-notes_right-L006}{}{\textit{meds, seiner Gefährten und der späteren Träger}}
+\DLine{AB01-PDF0649-notes_right-L007}{}{\textit{des Islams hrsg. von E. Sachau,} Leiden 1904 sqq.}
+\hypertarget{AB01-PDF0649-N05}{}
+\DLine{AB01-PDF0649-notes_right-L008}{}{\Indent (5) \textit{Arabisch-Semitisch-Orientalisch, kultur-}}
+\DLine{AB01-PDF0649-notes_right-L009}{}{\textit{geschichtlich-mythologische Untersuchung,} Berlin}
+\DLine{AB01-PDF0649-notes_right-L010}{}{1901-02, p. 81–90 (= Mitteilungen der vorderasiati-}
+\DLine{AB01-PDF0649-notes_right-L011}{}{schen Gesellschaft, VI Jahrg., 1901, fasc. 4–5).}
+\end{minipage}
+\DSource{0650}{201}
+\par\vspace{8mm}
+\hypertarget{AB01-PDF0650-H01}{}
+\DLine{AB01-PDF0650-body-L001}{}{\CenterLine{\textit{Ad pag. 8.} — \textbf{Signa mensium annorumque Romanorum.}}}
+\par\vspace{4mm}
+\hypertarget{AB01-PDF0650-P01}{}
+\DLine{AB01-PDF0650-body-L002}{}{\Indent Huius tabulae, t. I, p. 71 (cap. XXXII) memoratae, auctor usum explanavit in adp. B}
+\DLine{AB01-PDF0650-body-L003}{}{(t. I, p. 146). Cur signa unitate sint deminuta et cur anni per 28 dividendi exposui t. I, p. 323.}
+\hypertarget{AB01-PDF0650-P02}{}
+\DLine{AB01-PDF0650-body-L004}{}{\Indent In tabulis similibus apud \Name{al-Bīrūnī}, \textit{Chron.,} p. 195 text., 175 vers., et \Name{Oloug Beg},}
+\DLine{AB01-PDF0650-body-L005}{5}{p. 18 text., 17 vers., nulla deminutione signa afficiuntur, et aerae initium prima die Octobris,}
+\DLine{AB01-PDF0650-body-L006}{}{ut communis est mos, non Septembris constituitur.}
+\hypertarget{AB01-PDF0650-P03}{}
+\DLine{AB01-PDF0650-body-L007}{}{\Indent Columna bisextilium praebet sexagesimas partes diei. Cum annus Romanus 365 $\qfrac{1}{4}$ die-}
+\DLine{AB01-PDF0650-body-L008}{}{rum seu 365 $\qfrac{15}{60}$ sit, sexagesimae sibi ipsis adiectae diem integrum intercalandum quarto}
+\DLine{AB01-PDF0650-body-L009}{}{quoque anno conficiunt.}
+\hypertarget{AB01-PDF0650-P04}{}
+\DLine{AB01-PDF0650-body-L010}{10}{\Indent Nomina Latina mensium puto ab \textit{interpolatore Arabico-occidentali} addita. Nunquam ab}
+\DLine{AB01-PDF0650-body-L011}{}{\Name{al-Battānī} in capitibus de chronologia memorantur; differunt etiam a nominibus apud scri-}
+\DLine{AB01-PDF0650-body-L012}{}{ptores \textit{Arabico-orientales} (1) occurrentibus, scilicet: \textit{yānuwāriyūs, fībruwāriyūs, marṭi-}}
+\DLine{AB01-PDF0650-body-L013}{}{\textit{yūs, abrīliyūs, māyūs, yūniyūs, yūliyūs, aghūsṭūs, sābṭānbriyūs, oqṭūmbriyūs, nuwām-}}
+\DLine{AB01-PDF0650-body-L014}{}{\textit{briyūs, dīqembriyūs,} quae e Graecis proveniunt: \textgreek{Ἰανουάριος, Φεβρουάριος, Μάρτιος, Ἀπρίλλιος},}
+\DLine{AB01-PDF0650-body-L015}{15}{\textgreek{Μάϊος, Ἰούνιος, Ἰούλιος, Αὔγουστος, Σεπτέμβριος, Ὀκτώβριος, Νοέμβριος, Δεκέμβριος}. Apud \textit{Arabes}}
+\DLine{AB01-PDF0650-body-L016}{}{\textit{orientales} nomina directe e \textit{Latino} aut linguis \textit{Neolatinis} sumpta nonnisi XII saeculo Christi}
+\DLine{AB01-PDF0650-body-L017}{}{innotuere, per Cruciatorum bella et per foedera ab Italicis praesertim rebuspublicis cum Ae-}
+\DLine{AB01-PDF0650-body-L018}{}{gypti dynastibus inita (2); unde factum est ut hoc nostro tempore menses calendarii Iuliani}
+\DLine{AB01-PDF0650-body-L019}{}{ab Arabibus \textit{Aegypti} ita designentur: \textit{yanāyir, fabrāyir, mārs, abrīl, māyū, yūniyah, yū-}}
+\DLine{AB01-PDF0650-body-L020}{20}{\textit{liyah, oghusṭus, sebtembar, oktūbar, nōfembar, dīsembar.} — Miro modo \textit{mārt, māyus} et}
+\DLine{AB01-PDF0650-body-L021}{}{\textit{oghostūs} (\textarabic{اغستوس}) soli recepti sunt in annum Iulianum quo \textit{Turcae,} post 1675 Chr., in rebus}
+\DLine{AB01-PDF0650-body-L022}{}{ad aerarium spectantibus utuntur, dum reliqui menses Syriacis nominibus vocantur.}
+\hypertarget{AB01-PDF0650-P05}{}
+\DLine{AB01-PDF0650-body-L023}{}{\Indent Nomina huius tabulae spuria, etiam in tabula f. 241,v. (ex opere Arabico-Hispani \Name{Ma-}}
+\DLine{AB01-PDF0650-body-L024}{}{\Name{slamah al-Maǵrīṭī} sumpta) occurrentia, haec sunt: \textit{yannayr, fabrayr, mārs, ibrīl, mā-}}
+\DLine{AB01-PDF0650-body-L025}{25}{\textit{yuh, yūniyuh, yulyuh} (\textarabic{يليه}), \textit{aghusht, sutambar, aktūbar, nuwanbar, duǵanbar.} Eadem}
+\DLine{AB01-PDF0650-body-L026}{}{(paulum mutatis \textit{marsuh, ibrīr, yūliyuh}) appellantur « menses \textit{occidentalium} » (\textarabic{المغاربة}) ab}
+\DLine{AB01-PDF0650-body-L027}{}{\Name{al-Bīrūnī}, \textit{Chron.,} p. 50 et 71 text., 59 et 83 vers.; et in astrolabio occurrunt anno 420 heg.}
+\DLine{AB01-PDF0650-body-L028}{}{(inc. 19 Ianuar. 1029) Toleti confecto, paulum mutatis \textit{yūliyuh, shutanbar, dukanbar} (3).}
+\DLine{AB01-PDF0650-body-L029}{}{— Sub finem VI saec. heg. (XII Chr.), \Name{Ibn Ǵubayr}, scriptor Arabico-Hispanus, iter suum}
+\DLine{AB01-PDF0650-body-L030}{30}{per Siciliam describens memorat \textit{yannayr} (apud \Name{Amari}, \textit{Bibl. Arabo-sicula,} text. p. 96).}
+\par\vspace{6pt}\hrule height.25pt\vspace{5pt}
+\noindent\begin{minipage}[t]{.48\textwidth}\vspace{0pt}\fontsize{9}{11.5}\selectfont\setlength{\GutterOffset}{0pt}
+\hypertarget{AB01-PDF0650-N01}{}
+\DLine{AB01-PDF0650-notes_left-L001}{}{\Indent (1) Iique paucissimi sunt: \Name{Ḥabash} f. 4,v., qui}
+\DLine{AB01-PDF0650-notes_left-L002}{}{ea appellat nomina « mensium Graecorum (\textit{al-yū-}}
+\DLine{AB01-PDF0650-notes_left-L003}{}{\textit{nāniyyīn}) »; \Name{al-Bīrūnī}, \textit{Chron.,} p. 50 text. (59}
+\DLine{AB01-PDF0650-notes_left-L004}{}{vers.) et 71 text. (83 vers.), « menses Graecorum »}
+\DLine{AB01-PDF0650-notes_left-L005}{}{aut « Romanorum »; Chems eddin Abou Abdallah}
+\DLine{AB01-PDF0650-notes_left-L006}{}{Mohammed \Name{ed-Dimichqui}, \textit{Cosmographie, texte}}
+\DLine{AB01-PDF0650-notes_left-L007}{}{\textit{arabe publié d’après l’édition commencée par C.}}
+\DLine{AB01-PDF0650-notes_left-L008}{}{\textit{M. Fraehn par M. F. Mehren,} St. Pétersbourg 1866,}
+\DLine{AB01-PDF0650-notes_left-L009}{}{cap. IX, sect. 8, « menses Graecorum et Romano-}
+\DLine{AB01-PDF0650-notes_left-L010}{}{rum ». — \textarabic{ذقمبرس} in subscriptione codicis Arabico-}
+\DLine{AB01-PDF0650-notes_left-L011}{}{-Christiani, in Syria anno 1188 Alexandri, 877 Chr.,}
+\end{minipage}
+\hfill\begin{minipage}[t]{.48\textwidth}\vspace{0pt}\fontsize{9}{11.5}\selectfont\setlength{\GutterOffset}{0pt}
+\DLine{AB01-PDF0650-notes_right-L001}{}{exarati (vide periodicum \textit{al-Mashriq,} t. VI, 1903,}
+\DLine{AB01-PDF0650-notes_right-L002}{}{pag. 1011).}
+\hypertarget{AB01-PDF0650-N02}{}
+\DLine{AB01-PDF0650-notes_right-L003}{}{\Indent (2) Ut \textit{māy, yūniyuh, aghusht,} in foederibus}
+\DLine{AB01-PDF0650-notes_right-L004}{}{XII ac XIII saec. inter Genuenses et Aegyptum, apud}
+\DLine{AB01-PDF0650-notes_right-L005}{}{M. \Name{Amari}, \textit{Nuovi ricordi arabici su la storia di}}
+\DLine{AB01-PDF0650-notes_right-L006}{}{\textit{Genova,} Genova 1873, p. 5, 10, 16 (= Atti della So-}
+\DLine{AB01-PDF0650-notes_right-L007}{}{cietà Ligure di storia patria, t. V).}
+\hypertarget{AB01-PDF0650-N03}{}
+\DLine{AB01-PDF0650-notes_right-L008}{}{\Indent (3) F. \Name{Woepcke}, \textit{Ueber ein in der k. Bi-}}
+\DLine{AB01-PDF0650-notes_right-L009}{}{\textit{bliothek zu Berlin befindliches arabisches Astro-}}
+\DLine{AB01-PDF0650-notes_right-L010}{}{\textit{labium,} in Abhandl. der mathem. Klasse der k. Ak.}
+\DLine{AB01-PDF0650-notes_right-L011}{}{der Wissensch. zu Berlin, Jahrg. 1858, p. 5.}
+\end{minipage}
+\par\vspace{5mm}\hfill{\fontsize{8}{10}\selectfont 26}\hspace{10mm}
+\DSource{0651}{202}
+\DLine{AB01-PDF0651-body-L001}{}{\textit{fabrayr} (p. 101) et \textit{duǵanbar} (p. 77, 94). — In opere \textit{Vocabulista in arabico pubblicato}}
+\DLine{AB01-PDF0651-body-L002}{}{\textit{da C. Schiaparelli,} Firenze 1871, in Hispania meridionali saec. XIII confecto, memorantur}
+\DLine{AB01-PDF0651-body-L003}{}{\textit{fibrayr, abrīl, māyuh, yūniyuh, yūliyuh, aghusht, shutanbar, nuwanbar, dhuǵanbar} (1). Hae}
+\DLine{AB01-PDF0651-body-L004}{}{\textit{Arabico-occidentales} formae a Latino sermone non per virorum doctorum sed per popularem}
+\DLine{AB01-PDF0651-body-L005}{5}{traditionem derivatae sunt; apud agricolas enim Africae boreo-occidentalis et Nigritiae annus}
+\DLine{AB01-PDF0651-body-L006}{}{Iulianus et nomina Latina mensium ditioni Romanae superfuerunt ac etiam nunc vigent, sicut}
+\DLine{AB01-PDF0651-body-L007}{}{J. \Name{Lippert} animadvertit in Mittheilungen des Seminars für orientalische Sprachen zu Berlin,}
+\DLine{AB01-PDF0651-body-L008}{}{t. II, pars 2\textsuperscript{a} (Westasiatische Studien), 1899, p. 253 (2). Qua re semper memorantur in libellis}
+\DLine{AB01-PDF0651-body-L009}{}{de astronomia ab Arabibus Algeriensibus et Maroccanis in usum scholarum conscriptis; ita}
+\DLine{AB01-PDF0651-body-L010}{10}{\Name{Saḥnūn al-Wānsharishī} (de quo t. I, p. 204), p. 14–15, ubi aperte etiam testatur tale}
+\DLine{AB01-PDF0651-body-L011}{}{calendarium ab agricolis adhiberi, et \Name{Muḥammad as-Sūsī al-Marghitī} (3), \textit{al-Mumta‘}}
+\DLine{AB01-PDF0651-body-L012}{}{\textit{fī sharḥ al-maqna‘} fasc. III, p. 4 sqq., et VI, p. 2, ubi haec « mensium anni \textit{peregrini} (4)}
+\DLine{AB01-PDF0651-body-L013}{}{nomina Romana » ita esse efferenda docet: \textit{yannayr, fabrā’ir} seu \textit{fābrā’ir, mārs} vel \textit{māris}}
+\DLine{AB01-PDF0651-body-L014}{}{vel \textit{mars, ibrīl, māyuh} vel \textit{māy, yūniyuh} vel \textit{yunyuh, yūliyuh} vel \textit{yulyuh, aghusht, shu-}}
+\DLine{AB01-PDF0651-body-L015}{15}{\textit{tanbir, aktūbir} seu \textit{aktubir, nuwanbir, duǵanbir.} In provincia Maroccana Figīg (\textarabic{فقيق} seu \textarabic{فجيج}),}
+\DLine{AB01-PDF0651-body-L016}{}{nuperrime tractui Algeriensi adiecta, haec hodie nomina vigent: \textit{yennayr, fubrayr, mars,}}
+\DLine{AB01-PDF0651-body-L017}{}{\textit{ibrīr, māyū, yūlyū, yūlyūz, ghusht, shutānbīr, ktūber, nuwānbīr, duwānbīr} (5). In Ma-}
+\DLine{AB01-PDF0651-body-L018}{}{roccano imperio boreali, iuxta J. \Name{Lerchundi}, \textit{Vocabulario español-arábigo del dialecto de}}
+\DLine{AB01-PDF0651-body-L019}{}{\textit{Marruecos,} Tánger 1892, nomina sunt: \textit{yinnayr, febrāyar} seu \textit{ibrāyr, mars} seu \textit{mārs,}}
+\DLine{AB01-PDF0651-body-L020}{20}{\textit{ebrīl, māyū} seu \textit{māyuh, yunyuh, yulyuh, ghosht, shutanbir, ektūber, nuwanbir, duǵanbir.}}
+\DLine{AB01-PDF0651-body-L021}{}{Nomina similia Arabum Algeriensium legantur in lexicis eorum dialecti. — Animadvertendum}
+\DLine{AB01-PDF0651-body-L022}{}{est miras formas \textit{ibrīlaz} (simul cum \textit{ibrīl}), \textit{māyb} (cum \textit{māyuh}), \textit{yulyuz} (cum \textit{yulyuh}),}
+\DLine{AB01-PDF0651-body-L023}{}{\textit{ghushtaǵǵ} (cum \textit{aghusht}), \textit{aktubiraǵǵ} (cum \textit{aktubir}) et \textit{nuwanbirad} (cum \textit{nuwanbir}) apud}
+\par\vspace{6pt}\hrule height.25pt\vspace{5pt}
+\noindent\begin{minipage}[t]{.48\textwidth}\vspace{0pt}\fontsize{9}{11.5}\selectfont\setlength{\GutterOffset}{0pt}
+\hypertarget{AB01-PDF0651-N01}{}
+\DLine{AB01-PDF0651-notes_left-L001}{}{\Indent (1) In Siciliae \textit{Chronico Cantabrigensi} (apud}
+\DLine{AB01-PDF0651-notes_left-L002}{}{\Name{Amari}, \textit{Biblioteca arabo-sicula,} textus, Lipsia 1857,}
+\DLine{AB01-PDF0651-notes_left-L003}{}{p. 165–76), a Christiano Siculo quodam sub finem}
+\DLine{AB01-PDF0651-notes_left-L004}{}{X saec. Chr. Arabice scripto, occurrunt \textit{ǵennāriyūh,}}
+\DLine{AB01-PDF0651-notes_left-L005}{}{\textit{mārsuh, abrīl, māyuh, yūniyūh, yūliyūh, awsuh,}}
+\DLine{AB01-PDF0651-notes_left-L006}{}{\textit{sutanbar, aktūbar, duǵanbar.} Post Panormum a}
+\DLine{AB01-PDF0651-notes_left-L007}{}{Rogerio Comite, Normannorum duce, captam (1072}
+\DLine{AB01-PDF0651-notes_left-L008}{}{Chr.), \textit{yannār, marṭiyūs} seu \textit{mārsū, abrīl, māyū,}}
+\DLine{AB01-PDF0651-notes_left-L009}{}{\textit{awsuh, sutanbar, aqtūbar, duǵanbar} invenio pas-}
+\DLine{AB01-PDF0651-notes_left-L010}{}{sim apud \Name{Cusa}, \textit{I diplomi greci ed arabi di Sici-}}
+\DLine{AB01-PDF0651-notes_left-L011}{}{\textit{lia pubblicati} ecc., Palermo 1868-82. Item \textit{māyuh}}
+\DLine{AB01-PDF0651-notes_left-L012}{}{et \textit{nuwanbar} in inscriptionibus annorum 1149 et}
+\DLine{AB01-PDF0651-notes_left-L013}{}{1153, apud \Name{Amari}, \textit{Le epigrafi arabiche di Sicilia,}}
+\DLine{AB01-PDF0651-notes_left-L014}{}{parte II (iscrizioni sepolcrali), Palermo 1879-81, p. 87}
+\DLine{AB01-PDF0651-notes_left-L015}{}{et 96 (= Documenti pubbl. a cura della Società Si-}
+\DLine{AB01-PDF0651-notes_left-L016}{}{ciliana per la storia patria, serie III, vol. I). — De-}
+\DLine{AB01-PDF0651-notes_left-L017}{}{mum \textit{abrīl, māyuh, yūniyuh, yūliyūh} \textarabic{يوليوه}, \textit{shu-}}
+\DLine{AB01-PDF0651-notes_left-L018}{}{\textit{tanbar, duǵanbar,} in foederibus inter Pisanos et}
+\DLine{AB01-PDF0651-notes_left-L019}{}{dynastas Tuneti, Marocci, Hispaniae, apud \Name{Amari},}
+\DLine{AB01-PDF0651-notes_left-L020}{}{\textit{I diplomi arabi del R. Archivio Fiorentino,} Fi-}
+\DLine{AB01-PDF0651-notes_left-L021}{}{renze 1863–67, t. I, p. 13, 15, 87, 97, 101, 111, 135,}
+\DLine{AB01-PDF0651-notes_left-L022}{}{150, 171, 235, et t. II, p. 8; omnia intra annos 1181}
+\DLine{AB01-PDF0651-notes_left-L023}{}{et 1445.}
+\end{minipage}
+\hfill\begin{minipage}[t]{.48\textwidth}\vspace{0pt}\fontsize{9}{11.5}\selectfont\setlength{\GutterOffset}{0pt}
+\hypertarget{AB01-PDF0651-N02}{}
+\DLine{AB01-PDF0651-notes_right-L001}{}{\Indent (2) Cfr. quoque E. \Name{Doutté}, \textit{Un texte arabe}}
+\DLine{AB01-PDF0651-notes_right-L002}{}{\textit{en dialecte oranais,} Mémoires de la Société de lin-}
+\DLine{AB01-PDF0651-notes_right-L003}{}{guistique de Paris, t. XII, 1903, p. 349-50.}
+\hypertarget{AB01-PDF0651-N03}{}
+\DLine{AB01-PDF0651-notes_right-L004}{}{\Indent (3) De quo t. I, p. 205, adn. 1, et p. \textsc{lxxiii}. Li-}
+\DLine{AB01-PDF0651-notes_right-L005}{}{bellus etiam nunc assidue perlegitur in scholis Ara-}
+\DLine{AB01-PDF0651-notes_right-L006}{}{bicis urbis Fez seu Fās et regionis Algeriensis; v.}
+\DLine{AB01-PDF0651-notes_right-L007}{}{\Name{Delphin}, \textit{L’astronomie au Maroc,} in Journal}
+\DLine{AB01-PDF0651-notes_right-L008}{}{Asiatique, ser. VIII, t. XVII, 1891, p. 195–96; \Name{Moty-}}
+\DLine{AB01-PDF0651-notes_right-L009}{}{\Name{linski}, p. XI libri a me t. I, p. 297, adn. 4, me-}
+\DLine{AB01-PDF0651-notes_right-L010}{}{morati.}
+\hypertarget{AB01-PDF0651-N04}{}
+\DLine{AB01-PDF0651-notes_right-L011}{}{\Indent (4) \textit{Sanah ‘aǵamiyyah} appellat annum sola-}
+\DLine{AB01-PDF0651-notes_right-L012}{}{rem Iulianum, die 1 Ianuarii incipientem, quo agri-}
+\DLine{AB01-PDF0651-notes_right-L013}{}{colae utuntur.}
+\hypertarget{AB01-PDF0651-N05}{}
+\DLine{AB01-PDF0651-notes_right-L014}{}{\Indent (5) Teste E. \Name{Doutté}, \textit{Figuig, notes et im-}}
+\DLine{AB01-PDF0651-notes_right-L015}{}{\textit{pressions,} in La Géographie, Bulletin de la Société}
+\DLine{AB01-PDF0651-notes_right-L016}{}{de Géographie, Paris 1903, p. 198, qui etiam addit:}
+\DLine{AB01-PDF0651-notes_right-L017}{}{« L’année musulmane, en effet, n’est employée à Fi-}
+\DLine{AB01-PDF0651-notes_right-L018}{}{« guig que par les lettrés, ou lorsqu’on veut dater}
+\DLine{AB01-PDF0651-notes_right-L019}{}{« une époque; en tout autre circonstance, on se sert}
+\DLine{AB01-PDF0651-notes_right-L020}{}{« non des mois lunaires, mais des mois du calendrier}
+\DLine{AB01-PDF0651-notes_right-L021}{}{« julien, dont les véritables noms ont été conservés}
+\DLine{AB01-PDF0651-notes_right-L022}{}{« en berbère depuis l’antiquité, et non pas, comme}
+\DLine{AB01-PDF0651-notes_right-L023}{}{« on le crois parfois, réintroduits par nous ».}
+\end{minipage}
+\DSource{0652}{203}
+\DLine{AB01-PDF0652-body-L001}{}{\Name{al-Akhḍarī} et \Name{al-Wānsharīshī} occurrentes, e versibus memorialibus quorumdam scrip-}
+\DLine{AB01-PDF0652-body-L002}{}{torum male intellectis ortas esse, ut sunt versus apud \Name{al-Marghītī}, fasc. V, p. 6:}
+\par\vspace{1mm}
+\DLine{AB01-PDF0652-body-L003}{}{\CenterLine{\makebox[56mm][c]{\textarabic{يَنَّيرَ آ فَابْرَائرَدْ وَمَرْصَدِ}}\hspace{8mm}\makebox[56mm][c]{\textarabic{وَمَنْ يُرِدْ مَدْخَلَ شَهْرٍ يُنْشِدِ}}}}
+\DLine{AB01-PDF0652-body-L004}{}{\CenterLine{\makebox[56mm][c]{\textarabic{يلْيُزْ أَغُشْتَجَّ شُتَنْبِرَوْ فُهِ}}\hspace{8mm}\makebox[56mm][c]{\textarabic{أَبْرِيلَ زِ مَايَبْ وَهَاء يُنْيُهِ}}}}
+\DLine{AB01-PDF0652-body-L005}{5}{\CenterLine{\makebox[56mm][c]{\textarabic{مَجْمُوعُهَا أَدَدْ زَبَهْ زَجَوْ حَدَوْ}}\hspace{8mm}\makebox[56mm][c]{\textarabic{أَكْتبِرَحْ نُوَنْبِرَدْ دُجَنْبِرَوْ}}}}
+\par\vspace{1mm}
+\DLine{AB01-PDF0652-body-L006}{}{« qui vult initium mensis recitet: \textit{yannayr-ā, fābrā’ir-ad,} et \textit{marṣ-ad,} | \textit{ibrīl-azi, māy-}}
+\DLine{AB01-PDF0652-body-L007}{}{« \textit{-ab,} et \textit{hā’ yunyuh, yulyu-z, aghusht-aǵǵa, shutanbir-aw} pronuntia, | \textit{aktubir-aḥ, nu-}}
+\DLine{AB01-PDF0652-body-L008}{}{« \textit{wanbir-ad, duǵanbir-aw;} quarum [consonantium] summa est \textit{adad zabaḥ zaǵaw ḥa-}}
+\DLine{AB01-PDF0652-body-L009}{}{« \textit{daw} ». Consonantes nominibus adiectae si suo valore numerali accipiantur (\textit{ā} = 1, \textit{d} = 4,}
+\DLine{AB01-PDF0652-body-L010}{10}{\textit{z} = 7 etc.) indicant diem hebdomadae quo mensis ordiri debet.}
+\hypertarget{AB01-PDF0652-P01}{}
+\DLine{AB01-PDF0652-body-L011}{}{\Indent Nomina « mensium Romanorum » quibus \Name{al-Battānī} et astronomi \Name{orientales} (nec}
+\DLine{AB01-PDF0652-body-L012}{}{non \Name{Arabes Christiani} Syriae et Mesopotamiae hoc nostro tempore) utuntur, a \textit{Syriacis}}
+\DLine{AB01-PDF0652-body-L013}{}{his repetita sunt: \textit{teshrī qdem} (vel \textit{qdīm}), \textit{teshrī ḥrāy} (\textsyriac{ܐܚܪܳܝ}), \textit{kānūn qdem} (vel \textit{qdīm}), \textit{kānūn}}
+\DLine{AB01-PDF0652-body-L014}{}{\textit{ḥrāy, shbāṭ, ādār, nīsān, iyār, ḥzīrān, tāmūz, āb, īlūl.}}
+\hypertarget{AB01-PDF0652-P02}{}
+\DLine{AB01-PDF0652-body-L015}{15}{\Indent « Romani », \textit{ar-Rūm,} ab Arabibus vocantur incolae omnes imperii Byzantini; eodem}
+\DLine{AB01-PDF0652-body-L016}{}{sensu \textgreek{Ῥωμαῖοι} apud Graecos tardae aetatis, Procopium, Zonaram, Cedrenum, Theophanem etc.}
+\par\vspace{4mm}
+\hypertarget{AB01-PDF0652-H17}{}
+\DLine{AB01-PDF0652-body-L017}{}{\CenterLine{\textit{Ad pag. 9–18.} — \textbf{Annorum Arabicorum cum Romanis concordantia.}}}
+\par\vspace{3mm}
+\hypertarget{AB01-PDF0652-P03}{}
+\DLine{AB01-PDF0652-body-L018}{}{\Indent Hae tabulae in fine XXXII capitis (t. I, p. 71) et adp. C (t. I, p. 146) memorantur ac ex-}
+\DLine{AB01-PDF0652-body-L019}{}{planantur.}
+\hypertarget{AB01-PDF0652-P04}{}
+\DLine{AB01-PDF0652-body-L020}{20}{\Indent Parvos codicis errores in numeris dierum facillime emendavi, optimis fretus \textit{Vergleichungs-}}
+\DLine{AB01-PDF0652-body-L021}{}{\textit{-Tabellen der muhammedanischen und christlichen Zeitrechnung hrsg. von} F. \Name{Wüsten-}}
+\DLine{AB01-PDF0652-body-L022}{}{\Name{feld}, Leipzig 1854. Numeri dierum semper sunt unitate minores quam Wüstenfeldianis, quia}
+\DLine{AB01-PDF0652-body-L023}{}{\Name{al-Battānī} initium aerae die 15 Iulii, non 16, constituit.}
+\hypertarget{AB01-PDF0652-P05}{}
+\DLine{AB01-PDF0652-body-L024}{}{\Indent Duas codicis paginas (f. 163,v. ac 164,r.), concordantiam usque ad annum 720 producen-}
+\DLine{AB01-PDF0652-body-L025}{25}{tes, omittendas censui; \textit{spuriae} enim procul dubio sunt. Multis mendis scatent, non ex libra-}
+\DLine{AB01-PDF0652-body-L026}{}{riorum incuria sed e manifestis computandi erroribus ortis, ut evenit quotiescumque ineptus}
+\DLine{AB01-PDF0652-body-L027}{}{interpolator aliquid Albatenio addere conatur. Concordantiam usque ad 600 hegirae, id est}
+\DLine{AB01-PDF0652-body-L028}{}{per amplius 300 annos a tabularum epocha duxisse, sat \Name{Albatenio} erat. — In versione}
+\DLine{AB01-PDF0652-body-L029}{}{Hispanica, f. 30,r.–35,v., hae tabulae inabsolutae reperiuntur; nam in dextera sectione f. 35,v.}
+\DLine{AB01-PDF0652-body-L030}{30}{anni hegirae usque ad 488 scribuntur (7 ultimis lineis vacuis exstantibus), nomina autem primi}
+\DLine{AB01-PDF0652-body-L031}{}{diei al-muḥarram et anni Dhū ’l-qarnayn (quorum ultimus 1492) nonnisi usque ad lineam}
+\DLine{AB01-PDF0652-body-L032}{}{anni 477 heg., dies demum ac menses Romani usque ad lineam anni 470 heg. tantum. Tabu-}
+\DLine{AB01-PDF0652-body-L033}{}{lam amanuensem non absolvisse eo puto, quod hac pagina ubicumque in centenis annorum}
+\DLine{AB01-PDF0652-body-L034}{}{hegirae falso 400 pro 500 scripsisse animadvertisset, praetereaque loco omissi signi al-muḥar-}
+\DLine{AB01-PDF0652-body-L035}{35}{ram anni 452 (leg. 552) posuisse signum anni 453 (leg. 553), et extra sua loca signa sequentia}
+\DLine{AB01-PDF0652-body-L036}{}{constituisse.}
+\par\vspace{4mm}
+\hypertarget{AB01-PDF0652-H37}{}
+\DLine{AB01-PDF0652-body-L037}{}{\CenterLine{\textit{Ad pag. 19-23.} — \textbf{Medii motus Solis et Lunae ad calendarium Arabicum.}}}
+\par\vspace{3mm}
+\hypertarget{AB01-PDF0652-P06}{}
+\DLine{AB01-PDF0652-body-L038}{}{\Indent De his tabulis agitur cap. XXVII et XXXIII (t. I, p. 42 et 71).}
+\hypertarget{AB01-PDF0652-P07}{}
+\DLine{AB01-PDF0652-body-L039}{}{\Indent In columnarum titulis codex semper \textit{al-masīr al-awsaṭ} « iter medium » habet, quod}
+\DLine{AB01-PDF0652-body-L040}{40}{nonnisi p. 20–23 convenit, nam in iis \textit{motus medii,} scilicet gradus quos Sol, Luna etc. dato}
+\end{document}
