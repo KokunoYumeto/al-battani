@@ -34,7 +34,8 @@ Transcription format (UTF-8; one printed line per source line, as printed, with 
                          rule under the columns marked -, in a strip that carries all the rules of the table;
                          @hrule cols PT a rule PT thick across the table; in @spanbrace hr:N (HR:N heavy) is a rule across
                          the span; @hrow cells may span columns too; ! in @cols is a heavy rule
-  @at X:T | X:T ...      a line whose pieces begin at X mm from the left edge and keep their height (formulas)
+  @at X:T | X:T ...      a line whose pieces begin at X mm from the left edge and keep their height (formulas;
+                         X^:T centred at X, X>:T ending at X)
   @pos X:T | X>:T | ...  a line whose pieces stand at X mm from the left edge (> right-aligned, ^ centred, _ half a
                          line lower; ~ hangs a unit sign); @posrule X1 X2 [| X1 X2] rules between two lines;
                          @posbrace under|over X1 X2 [| X1 X2] horizontal braces between two lines
@@ -62,7 +63,8 @@ Inline markup: *italic*, **bold**, {gb:...} bold grotesque (the «Pag.» heads),
 {sfrac:a/b} a small fraction, {0} the zero sign of the tables, {ar:...} an Arabic phrase with its own brackets and
 punctuation, set as one right-to-left run ({syr:...} the same for Syriac), {rtl:...} a phrase of Arabic numerals and Latin words that the print sets
 right to left, given in reading order, \\* a literal asterisk; runs of Arabic, Greek, Hebrew
-and Syriac letters are set in their fonts. & % # are escaped; $...$ is mathematics; every other character is literal."""
+and Syriac letters are set in their fonts, the signs ☾ ⊙ ♈ in FreeSerif. & % # are escaped; $...$ is mathematics; every
+other character is literal."""
 import csv, json, re
 from pathlib import Path
 
@@ -201,7 +203,7 @@ def markup(s):
     s = ETHIOPIC_RUN.sub(lambda m: r"\textethiopic{" + m.group(1) + "}", s)
     s = s.replace("⸿", r"{\CapFont ⸿}")  # the capitulum of the Spanish quotations
     s = s.replace("ꝛ", r"{\CapFont ꝛ}")  # r rotunda of the Latin abbreviations (qꝛ = quia)
-    s = s.replace("☾", r"\MoonSym{}").replace("⊙", r"\SunSym{}")
+    s = s.replace("☾", r"\MoonSym{}").replace("⊙", r"\SunSym{}").replace("♈", r"{\MoonFont ♈}")
     s = s.replace("\uE001", r"\AbjadZero{}").replace("\uE002", "*")
     s = re.sub("\uE003(\\d+)\uE004", lambda m: keep[int(m.group(1))], s)
     return rotate_heads(s)
@@ -555,14 +557,17 @@ def pos_item(it):
 
 
 def at_tex(src):
-    """@at X:TEXT | X:TEXT ...: a line whose pieces begin at X mm from the left edge; unlike @pos the pieces keep
-    their height, so that displayed formulas open the line spacing as they do on the print"""
+    """@at X:TEXT | X:TEXT ...: a line whose pieces begin at X mm from the left edge (X^: centred at X, X>: ending
+    at X); unlike @pos the pieces keep their height, so that displayed formulas open the line spacing as they do on
+    the print"""
     out = [r"\mbox{}"]
     for it in src.split(" | "):
-        m = re.match(r"^(\d+(?:\.\d+)?):(.*)$", it.strip())
+        m = re.match(r"^(\d+(?:\.\d+)?)([>^]?):(.*)$", it.strip())
         if not m:
             raise SystemExit(f"@at item without a position: {it}")
-        out.append(r"\rlap{\hspace*{" + f"{float(m.group(1)):.2f}" + r"mm}" + markup(m.group(2).strip()) + "}")
+        body = markup(m.group(3).strip())
+        box = {"^": r"\makebox[0pt][c]{" + body + "}", ">": r"\llap{" + body + "}"}.get(m.group(2), body)
+        out.append(r"\rlap{\hspace*{" + f"{float(m.group(1)):.2f}" + r"mm}" + box + "}")
     return "".join(out)
 
 
@@ -733,7 +738,7 @@ def section(items, prefix, role, numbered):
                 src = " | ".join(re.sub(r"^>[\d.]+ ", "", t) for t, _ in span_cells(src) if t)
             elif kind == "at":
                 tex = at_tex(src)
-                src = " ".join(re.sub(r"^[\d.]+:", "", it.strip()) for it in src.split(" | "))
+                src = " ".join(re.sub(r"^[\d.]+[>^]?:", "", it.strip()) for it in src.split(" | "))
             elif kind == "pos":
                 tex = pos_tex(src)
                 src = " ".join(re.sub(r"^[\d.]+[>^_]*:", "", it.strip()).replace("~", "") for it in src.split(" | "))

@@ -1,0 +1,60 @@
+@page 740 291
+% the note on the catalogue for 1211 Dhū 'l-qarnayn concluded, then the six columns and their formulas; positions are
+% measured on the print (text edge 61.2 pt): the numerals of the list at 11.25 mm and its text at 17.9 mm, the
+% displayed formulas centred at 74.4 mm, their labels «(col. I)» ... at the edge; the figure (redrawn in
+% figures/AB01-PDF0740-F01.tex) stands on the right of nine lines
+scribit *auellar* (aut potius *anellar,* legens {ar:انالر} pro {ar:افالن}) et *abracaleus* ({ar:ابرقلاوس} pro {ar:ايرقلاوس}
+*īraqlāwus*). — Haec nomina etiam ex {sp:Teucri} scriptis Arabice versis Arabes cognoscebant;
+sed in Teucri fragmentis Graecis apud {sp:Fr. Boll}, *Sphaera, neue griechische Texte und Unter-*
+*suchungen zur Geschichte der Sternbilder*, Leipzig 1903, p. 17, 43–44, 128, ita permutata
+ut Apollon Geminum posteriorem, Hercules anteriorem designet. Ad astrologicam traditionem,
+non ad astronomicam veram, pertinent; iam apud {sp:Varronem} (cfr. {sp:Boll}, p. 122–26, 128).
+^ Sex numerorum columnis haec quantitates exhibentur:
+@at 11.25:I. | 17.9:Declinatio δ stellae.
+@at 11.25:II. | 17.9:Altitudo meridiana *h* stellae.
+@at 11.25:III. | 17.9:Arcus semidiurnus *P* stellae, pro latitudine boreali 36° urbis ar-Raqqah.
+@at 11.25:IV. | 17.9:Longitudo *A* puncti eclipticae eodem tempore quo stella culminantis, pro lat. 36°.
+@at 11.25:V. | 17.9:Longitudo *B* puncti eclipticae eodem tempore orientis quo stella, pro lat. 36°.
+@at 11.25:VI. | 17.9:Longitudo *C* puncti eclipticae eodem tempore occidentis quo stella, pro lat. 36°.
+^ Quo modo haec quantitates supputentur {sp:al-Battānī} suis locis t. I docuit. Formulae ad
+computum *logarithmicum* commodiores omnibus libris de astronomia sphaerica pro quatuor
+prioribus quantitatibus exponuntur. Sit λ longitudo stellae, β eiusdem latitudo, α eius ascensio
+recta, *m* differentia ascensionalis, φ latitudo datae urbis, ε obliquitas eclipticae; quantitate auxi-
+@vspace 0.5
+liaria ficta N deinde ita sumpta ut sit tang N = $\smash{\dfrac{\text{tang β}}{\text{sin λ}}}$, habebimus:
+@vspace 3.1
+@at 74.4^:tang α = $\dfrac{\text{tang λ cos (*N* + ε)}}{\text{cos *N*}}$
+@vspace 0.7
+@at 0:(col. I) | 74.4^:tang δ = sin α tang (*N* + ε)
+@at 0:(col. II) | 74.4^:*h* = complem. φ ± δ = 54° ± δ
+@at 74.4^:sin *m* = tang δ tang φ
+@at 0:(col. III) | 74.4^:*P* = 90° ± *m*
+@vspace 1
+@at 0:(col. IV) | 74.4^:tang *A* = $\dfrac{\text{tang α}}{\text{cos ε}}$.
+@vspace 2
+^ Ad reliquas duas columnas supputandas hae formulae inserviunt quas mihi {sp:Schiapa-}
+{sp:relli} proposuit. Sit MZN meridianus, MEN horizon orientalis, P polus borealis, EE′ aequator
+caelestis, E punctum orientis, KK′ ecliptica, ♈ punctum aequinoctii vernalis, S stella oriens;
+quaeritur punctum K eclipticae simul cum stella oriens, scilicet arcus ♈K, qui e considera-
+@wrapr 95 AB01-PDF0740-F01
+tione trianguli ♈EK elicitur, cuius nota sunt latus ♈E
+binique anguli ei adiacentes. Nam, ductis arcubus ♈P,
+EP, SP circulorum maximorum, mensura arcus ♈E erit
+angulus ♈PE = ♈PS—EPS = α — *m* = ω, pro stel-
+lis quarum declinatio *borealis* (1). Angulus ad ♈ = ε =
+23° 35′; angulus ad E = arcus E′ PN = 90° + φ = 90°
++ 36°; ergo si vocemus *B* arcum quaesitum ♈K, *c* ar-
+cum EK (amplitudinem ortivam puncti K), adhibitis po-
+stea *analogiis* quas *Neperianas* dicunt inveniemus
+@endwrap
+@vspace 0.3
+@at 74.4^:tang {sfrac:1/2}(*B* + *c*) = tang {sfrac:1/2} ω $\dfrac{\text{cos {sfrac:1/2} (90° + φ — ε)}}{\text{cos {sfrac:1/2} (90° + φ + ε)}}$ = tang {sfrac:1/2} ω $\dfrac{\text{cos 51° 12′.5}}{\text{cos 74° 47′.5}}$
+@vspace 0.5
+@at 74.4^:tang {sfrac:1/2}(*B* — *c*) = tang {sfrac:1/2} ω $\dfrac{\text{sin {sfrac:1/2} (90° + φ — ε)}}{\text{sin {sfrac:1/2} (90° + φ + ε)}}$ = tang {sfrac:1/2} ω $\dfrac{\text{sin 51° 12′.5}}{\text{sin 74° 47′.5}}$;
+@obs body: the minus signs of the formulas are printed as dashes (in L36 shorter than in the displayed formulas); transcribed —; the halves are printed as small fractions ¹/₂.
+@obs body L3: the first l of «Boll» is printed broken (like «!»).
+@obs body L18: the N of «ficta N» and of «tang N» is printed upright, in the displayed formulas in italics.
+@obs body L40: the h of «adhibitis» is printed broken.
+@obs body L41-L42: the seconds are printed «12′. 5», «47′. 5», with the decimal after the sign of the minutes; transcribed «12′.5».
+@notes1
+^ (1) Si declinatio est *australis* sumendum ω = α + *m*.

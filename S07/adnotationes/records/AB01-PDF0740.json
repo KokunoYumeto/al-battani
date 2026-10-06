@@ -1,0 +1,359 @@
+{
+ "anchor": "AB01-PDF0740",
+ "master_pdf_page": 740,
+ "printed_page": 291,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "observations": [
+  "body: the minus signs of the formulas are printed as dashes (in L36 shorter than in the displayed formulas); transcribed —; the halves are printed as small fractions ¹/₂.",
+  "body L3: the first l of «Boll» is printed broken (like «!»).",
+  "body L18: the N of «ficta N» and of «tang N» is printed upright, in the displayed formulas in italics.",
+  "body L40: the h of «adhibitis» is printed broken.",
+  "body L41-L42: the seconds are printed «12′. 5», «47′. 5», with the decimal after the sign of the minutes; transcribed «12′.5»."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0740-body-L001",
+     "source_line_no": 1,
+     "tex": "scribit \\textit{auellar} (aut potius \\textit{anellar,} legens \\ArabicRun{انالر} pro \\ArabicRun{افالن}) et \\textit{abracaleus} (\\ArabicRun{ابرقلاوس} pro \\ArabicRun{ايرقلاوس}",
+     "transcription": "scribit *auellar* (aut potius *anellar,* legens {ar:انالر} pro {ar:افالن}) et *abracaleus* ({ar:ابرقلاوس} pro {ar:ايرقلاوس}",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0740-body-L002",
+     "source_line_no": 2,
+     "tex": "\\textit{īraqlāwus}). — Haec nomina etiam ex \\Name{Teucri} scriptis Arabice versis Arabes cognoscebant;",
+     "transcription": "*īraqlāwus*). — Haec nomina etiam ex {sp:Teucri} scriptis Arabice versis Arabes cognoscebant;",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0740-body-L003",
+     "source_line_no": 3,
+     "tex": "sed in Teucri fragmentis Graecis apud \\Name{Fr. Boll}, \\textit{Sphaera, neue griechische Texte und Unter-}",
+     "transcription": "sed in Teucri fragmentis Graecis apud {sp:Fr. Boll}, *Sphaera, neue griechische Texte und Unter-*",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0740-body-L004",
+     "source_line_no": 4,
+     "tex": "\\textit{suchungen zur Geschichte der Sternbilder}, Leipzig 1903, p. 17, 43–44, 128, ita permutata",
+     "transcription": "*suchungen zur Geschichte der Sternbilder*, Leipzig 1903, p. 17, 43–44, 128, ita permutata",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0740-body-L005",
+     "source_line_no": 5,
+     "tex": "ut Apollon Geminum posteriorem, Hercules anteriorem designet. Ad astrologicam traditionem,",
+     "transcription": "ut Apollon Geminum posteriorem, Hercules anteriorem designet. Ad astrologicam traditionem,",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0740-body-L006",
+     "source_line_no": 6,
+     "tex": "non ad astronomicam veram, pertinent; iam apud \\Name{Varronem} (cfr. \\Name{Boll}, p. 122–26, 128).",
+     "transcription": "non ad astronomicam veram, pertinent; iam apud {sp:Varronem} (cfr. {sp:Boll}, p. 122–26, 128).",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0740-body-L007",
+     "source_line_no": 7,
+     "tex": "\\Indent Sex numerorum columnis haec quantitates exhibentur:",
+     "transcription": "Sex numerorum columnis haec quantitates exhibentur:",
+     "semantic_anchor": "AB01-PDF0740-P01",
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0740-body-L008",
+     "source_line_no": 8,
+     "tex": "\\mbox{}\\rlap{\\hspace*{11.25mm}I.}\\rlap{\\hspace*{17.90mm}Declinatio \\textgreek{δ} stellae.}",
+     "transcription": "I. Declinatio δ stellae.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0740-body-L009",
+     "source_line_no": 9,
+     "tex": "\\mbox{}\\rlap{\\hspace*{11.25mm}II.}\\rlap{\\hspace*{17.90mm}Altitudo meridiana \\textit{h} stellae.}",
+     "transcription": "II. Altitudo meridiana *h* stellae.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0740-body-L010",
+     "source_line_no": 10,
+     "tex": "\\mbox{}\\rlap{\\hspace*{11.25mm}III.}\\rlap{\\hspace*{17.90mm}Arcus semidiurnus \\textit{P} stellae, pro latitudine boreali 36° urbis ar-Raqqah.}",
+     "transcription": "III. Arcus semidiurnus *P* stellae, pro latitudine boreali 36° urbis ar-Raqqah.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0740-body-L011",
+     "source_line_no": 11,
+     "tex": "\\mbox{}\\rlap{\\hspace*{11.25mm}IV.}\\rlap{\\hspace*{17.90mm}Longitudo \\textit{A} puncti eclipticae eodem tempore quo stella culminantis, pro lat. 36°.}",
+     "transcription": "IV. Longitudo *A* puncti eclipticae eodem tempore quo stella culminantis, pro lat. 36°.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0740-body-L012",
+     "source_line_no": 12,
+     "tex": "\\mbox{}\\rlap{\\hspace*{11.25mm}V.}\\rlap{\\hspace*{17.90mm}Longitudo \\textit{B} puncti eclipticae eodem tempore orientis quo stella, pro lat. 36°.}",
+     "transcription": "V. Longitudo *B* puncti eclipticae eodem tempore orientis quo stella, pro lat. 36°.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0740-body-L013",
+     "source_line_no": 13,
+     "tex": "\\mbox{}\\rlap{\\hspace*{11.25mm}VI.}\\rlap{\\hspace*{17.90mm}Longitudo \\textit{C} puncti eclipticae eodem tempore occidentis quo stella, pro lat. 36°.}",
+     "transcription": "VI. Longitudo *C* puncti eclipticae eodem tempore occidentis quo stella, pro lat. 36°.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0740-body-L014",
+     "source_line_no": 14,
+     "tex": "\\Indent Quo modo haec quantitates supputentur \\Name{al-Battānī} suis locis t. I docuit. Formulae ad",
+     "transcription": "Quo modo haec quantitates supputentur {sp:al-Battānī} suis locis t. I docuit. Formulae ad",
+     "semantic_anchor": "AB01-PDF0740-P02",
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0740-body-L015",
+     "source_line_no": 15,
+     "tex": "computum \\textit{logarithmicum} commodiores omnibus libris de astronomia sphaerica pro quatuor",
+     "transcription": "computum *logarithmicum* commodiores omnibus libris de astronomia sphaerica pro quatuor",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0740-body-L016",
+     "source_line_no": 16,
+     "tex": "prioribus quantitatibus exponuntur. Sit \\textgreek{λ} longitudo stellae, \\textgreek{β} eiusdem latitudo, \\textgreek{α} eius ascensio",
+     "transcription": "prioribus quantitatibus exponuntur. Sit λ longitudo stellae, β eiusdem latitudo, α eius ascensio",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0740-body-L017",
+     "source_line_no": 17,
+     "tex": "recta, \\textit{m} differentia ascensionalis, \\textgreek{φ} latitudo datae urbis, \\textgreek{ε} obliquitas eclipticae; quantitate auxi-",
+     "transcription": "recta, *m* differentia ascensionalis, φ latitudo datae urbis, ε obliquitas eclipticae; quantitate auxi-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0740-body-L018",
+     "source_line_no": 18,
+     "tex": "liaria ficta N deinde ita sumpta ut sit tang N = $\\smash{\\dfrac{\\text{tang \\textgreek{β}}}{\\text{sin \\textgreek{λ}}}}$, habebimus:",
+     "transcription": "liaria ficta N deinde ita sumpta ut sit tang N = $\\smash{\\dfrac{\\text{tang β}}{\\text{sin λ}}}$, habebimus:",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0740-body-L019",
+     "source_line_no": 19,
+     "tex": "\\mbox{}\\rlap{\\hspace*{74.40mm}\\makebox[0pt][c]{tang \\textgreek{α} = $\\dfrac{\\text{tang \\textgreek{λ} cos (\\textit{N} + \\textgreek{ε})}}{\\text{cos \\textit{N}}}$}}",
+     "transcription": "tang α = $\\dfrac{\\text{tang λ cos (*N* + ε)}}{\\text{cos *N*}}$",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0740-body-L020",
+     "source_line_no": 20,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.00mm}(col. I)}\\rlap{\\hspace*{74.40mm}\\makebox[0pt][c]{tang \\textgreek{δ} = sin \\textgreek{α} tang (\\textit{N} + \\textgreek{ε})}}",
+     "transcription": "(col. I) tang δ = sin α tang (*N* + ε)",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0740-body-L021",
+     "source_line_no": 21,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.00mm}(col. II)}\\rlap{\\hspace*{74.40mm}\\makebox[0pt][c]{\\textit{h} = complem. \\textgreek{φ} ± \\textgreek{δ} = 54° ± \\textgreek{δ}}}",
+     "transcription": "(col. II) *h* = complem. φ ± δ = 54° ± δ",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0740-body-L022",
+     "source_line_no": 22,
+     "tex": "\\mbox{}\\rlap{\\hspace*{74.40mm}\\makebox[0pt][c]{sin \\textit{m} = tang \\textgreek{δ} tang \\textgreek{φ}}}",
+     "transcription": "sin *m* = tang δ tang φ",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0740-body-L023",
+     "source_line_no": 23,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.00mm}(col. III)}\\rlap{\\hspace*{74.40mm}\\makebox[0pt][c]{\\textit{P} = 90° ± \\textit{m}}}",
+     "transcription": "(col. III) *P* = 90° ± *m*",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0740-body-L024",
+     "source_line_no": 24,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.00mm}(col. IV)}\\rlap{\\hspace*{74.40mm}\\makebox[0pt][c]{tang \\textit{A} = $\\dfrac{\\text{tang \\textgreek{α}}}{\\text{cos \\textgreek{ε}}}$.}}",
+     "transcription": "(col. IV) tang *A* = $\\dfrac{\\text{tang α}}{\\text{cos ε}}$.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0740-body-L025",
+     "source_line_no": 25,
+     "tex": "\\Indent Ad reliquas duas columnas supputandas hae formulae inserviunt quas mihi \\Name{Schiapa-}",
+     "transcription": "Ad reliquas duas columnas supputandas hae formulae inserviunt quas mihi {sp:Schiapa-}",
+     "semantic_anchor": "AB01-PDF0740-P03",
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0740-body-L026",
+     "source_line_no": 26,
+     "tex": "\\Name{relli} proposuit. Sit MZN meridianus, MEN horizon orientalis, P polus borealis, EE′ aequator",
+     "transcription": "{sp:relli} proposuit. Sit MZN meridianus, MEN horizon orientalis, P polus borealis, EE′ aequator",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0740-body-L027",
+     "source_line_no": 27,
+     "tex": "caelestis, E punctum orientis, KK′ ecliptica, {\\MoonFont ♈} punctum aequinoctii vernalis, S stella oriens;",
+     "transcription": "caelestis, E punctum orientis, KK′ ecliptica, ♈ punctum aequinoctii vernalis, S stella oriens;",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0740-body-L028",
+     "source_line_no": 28,
+     "tex": "quaeritur punctum K eclipticae simul cum stella oriens, scilicet arcus {\\MoonFont ♈}K, qui e considera-",
+     "transcription": "quaeritur punctum K eclipticae simul cum stella oriens, scilicet arcus ♈K, qui e considera-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0740-body-F01",
+     "source_line_no": null,
+     "tex": "\\input{figures/AB01-PDF0740-F01}",
+     "transcription": "[figure, redrawn: figures/AB01-PDF0740-F01.tex]",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_FIGURE"
+    },
+    {
+     "id": "AB01-PDF0740-body-L029",
+     "source_line_no": 29,
+     "tex": "tione trianguli {\\MoonFont ♈}EK elicitur, cuius nota sunt latus {\\MoonFont ♈}E",
+     "transcription": "tione trianguli ♈EK elicitur, cuius nota sunt latus ♈E",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0740-body-L030",
+     "source_line_no": 30,
+     "tex": "binique anguli ei adiacentes. Nam, ductis arcubus {\\MoonFont ♈}P,",
+     "transcription": "binique anguli ei adiacentes. Nam, ductis arcubus ♈P,",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0740-body-L031",
+     "source_line_no": 31,
+     "tex": "EP, SP circulorum maximorum, mensura arcus {\\MoonFont ♈}E erit",
+     "transcription": "EP, SP circulorum maximorum, mensura arcus ♈E erit",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0740-body-L032",
+     "source_line_no": 32,
+     "tex": "angulus {\\MoonFont ♈}PE = {\\MoonFont ♈}PS—EPS = \\textgreek{α} — \\textit{m} = \\textgreek{ω}, pro stel-",
+     "transcription": "angulus ♈PE = ♈PS—EPS = α — *m* = ω, pro stel-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0740-body-L033",
+     "source_line_no": 33,
+     "tex": "lis quarum declinatio \\textit{borealis} (1). Angulus ad {\\MoonFont ♈} = \\textgreek{ε} =",
+     "transcription": "lis quarum declinatio *borealis* (1). Angulus ad ♈ = ε =",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0740-body-L034",
+     "source_line_no": 34,
+     "tex": "23° 35′; angulus ad E = arcus E′ PN = 90° + \\textgreek{φ} = 90°",
+     "transcription": "23° 35′; angulus ad E = arcus E′ PN = 90° + φ = 90°",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0740-body-L035",
+     "source_line_no": 35,
+     "tex": "+ 36°; ergo si vocemus \\textit{B} arcum quaesitum {\\MoonFont ♈}K, \\textit{c} ar-",
+     "transcription": "+ 36°; ergo si vocemus *B* arcum quaesitum ♈K, *c* ar-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0740-body-L036",
+     "source_line_no": 36,
+     "tex": "cum EK (amplitudinem ortivam puncti K), adhibitis po-",
+     "transcription": "cum EK (amplitudinem ortivam puncti K), adhibitis po-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0740-body-L037",
+     "source_line_no": 37,
+     "tex": "stea \\textit{analogiis} quas \\textit{Neperianas} dicunt inveniemus",
+     "transcription": "stea *analogiis* quas *Neperianas* dicunt inveniemus",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0740-body-L038",
+     "source_line_no": 38,
+     "tex": "\\mbox{}\\rlap{\\hspace*{74.40mm}\\makebox[0pt][c]{tang $\\qfrac{1}{2}$(\\textit{B} + \\textit{c}) = tang $\\qfrac{1}{2}$ \\textgreek{ω} $\\dfrac{\\text{cos $\\qfrac{1}{2}$ (90° + \\textgreek{φ} — \\textgreek{ε})}}{\\text{cos $\\qfrac{1}{2}$ (90° + \\textgreek{φ} + \\textgreek{ε})}}$ = tang $\\qfrac{1}{2}$ \\textgreek{ω} $\\dfrac{\\text{cos 51° 12′.5}}{\\text{cos 74° 47′.5}}$}}",
+     "transcription": "tang {sfrac:1/2}(*B* + *c*) = tang {sfrac:1/2} ω $\\dfrac{\\text{cos {sfrac:1/2} (90° + φ — ε)}}{\\text{cos {sfrac:1/2} (90° + φ + ε)}}$ = tang {sfrac:1/2} ω $\\dfrac{\\text{cos 51° 12′.5}}{\\text{cos 74° 47′.5}}$",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0740-body-L039",
+     "source_line_no": 39,
+     "tex": "\\mbox{}\\rlap{\\hspace*{74.40mm}\\makebox[0pt][c]{tang $\\qfrac{1}{2}$(\\textit{B} — \\textit{c}) = tang $\\qfrac{1}{2}$ \\textgreek{ω} $\\dfrac{\\text{sin $\\qfrac{1}{2}$ (90° + \\textgreek{φ} — \\textgreek{ε})}}{\\text{sin $\\qfrac{1}{2}$ (90° + \\textgreek{φ} + \\textgreek{ε})}}$ = tang $\\qfrac{1}{2}$ \\textgreek{ω} $\\dfrac{\\text{sin 51° 12′.5}}{\\text{sin 74° 47′.5}}$;}}",
+     "transcription": "tang {sfrac:1/2}(*B* — *c*) = tang {sfrac:1/2} ω $\\dfrac{\\text{sin {sfrac:1/2} (90° + φ — ε)}}{\\text{sin {sfrac:1/2} (90° + φ + ε)}}$ = tang {sfrac:1/2} ω $\\dfrac{\\text{sin 51° 12′.5}}{\\text{sin 74° 47′.5}}$;",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    }
+   ]
+  },
+  {
+   "role": "notes",
+   "lines": [
+    {
+     "id": "AB01-PDF0740-notes-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (1) Si declinatio est \\textit{australis} sumendum \\textgreek{ω} = \\textgreek{α} + \\textit{m}.",
+     "transcription": "(1) Si declinatio est *australis* sumendum ω = α + *m*.",
+     "semantic_anchor": "AB01-PDF0740-N01",
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  }
+ ]
+}

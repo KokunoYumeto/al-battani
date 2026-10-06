@@ -4781,3 +4781,44 @@ AB01-PDF0739-notes_right-L008	290	notes_right	Hispani; deest in textu Arab. et i
 AB01-PDF0739-notes_right-L009	290	notes_right	(9) Legit {ar:الاخر} « alia » pro {ar:المتاخر} « sequens, po-
 AB01-PDF0739-notes_right-L010	290	notes_right	sterior ».
 AB01-PDF0739-notes_right-L011	290	notes_right	(10) *Glossa* ut supra.
+AB01-PDF0740-body-L001	291	body	scribit *auellar* (aut potius *anellar,* legens {ar:انالر} pro {ar:افالن}) et *abracaleus* ({ar:ابرقلاوس} pro {ar:ايرقلاوس}
+AB01-PDF0740-body-L002	291	body	*īraqlāwus*). — Haec nomina etiam ex {sp:Teucri} scriptis Arabice versis Arabes cognoscebant;
+AB01-PDF0740-body-L003	291	body	sed in Teucri fragmentis Graecis apud {sp:Fr. Boll}, *Sphaera, neue griechische Texte und Unter-*
+AB01-PDF0740-body-L004	291	body	*suchungen zur Geschichte der Sternbilder*, Leipzig 1903, p. 17, 43–44, 128, ita permutata
+AB01-PDF0740-body-L005	291	body	ut Apollon Geminum posteriorem, Hercules anteriorem designet. Ad astrologicam traditionem,
+AB01-PDF0740-body-L006	291	body	non ad astronomicam veram, pertinent; iam apud {sp:Varronem} (cfr. {sp:Boll}, p. 122–26, 128).
+AB01-PDF0740-body-L007	291	body	Sex numerorum columnis haec quantitates exhibentur:
+AB01-PDF0740-body-L008	291	body	I. Declinatio δ stellae.
+AB01-PDF0740-body-L009	291	body	II. Altitudo meridiana *h* stellae.
+AB01-PDF0740-body-L010	291	body	III. Arcus semidiurnus *P* stellae, pro latitudine boreali 36° urbis ar-Raqqah.
+AB01-PDF0740-body-L011	291	body	IV. Longitudo *A* puncti eclipticae eodem tempore quo stella culminantis, pro lat. 36°.
+AB01-PDF0740-body-L012	291	body	V. Longitudo *B* puncti eclipticae eodem tempore orientis quo stella, pro lat. 36°.
+AB01-PDF0740-body-L013	291	body	VI. Longitudo *C* puncti eclipticae eodem tempore occidentis quo stella, pro lat. 36°.
+AB01-PDF0740-body-L014	291	body	Quo modo haec quantitates supputentur {sp:al-Battānī} suis locis t. I docuit. Formulae ad
+AB01-PDF0740-body-L015	291	body	computum *logarithmicum* commodiores omnibus libris de astronomia sphaerica pro quatuor
+AB01-PDF0740-body-L016	291	body	prioribus quantitatibus exponuntur. Sit λ longitudo stellae, β eiusdem latitudo, α eius ascensio
+AB01-PDF0740-body-L017	291	body	recta, *m* differentia ascensionalis, φ latitudo datae urbis, ε obliquitas eclipticae; quantitate auxi-
+AB01-PDF0740-body-L018	291	body	liaria ficta N deinde ita sumpta ut sit tang N = $\\smash{\\dfrac{\\text{tang β}}{\\text{sin λ}}}$, habebimus:
+AB01-PDF0740-body-L019	291	body	tang α = $\\dfrac{\\text{tang λ cos (*N* + ε)}}{\\text{cos *N*}}$
+AB01-PDF0740-body-L020	291	body	(col. I) tang δ = sin α tang (*N* + ε)
+AB01-PDF0740-body-L021	291	body	(col. II) *h* = complem. φ ± δ = 54° ± δ
+AB01-PDF0740-body-L022	291	body	sin *m* = tang δ tang φ
+AB01-PDF0740-body-L023	291	body	(col. III) *P* = 90° ± *m*
+AB01-PDF0740-body-L024	291	body	(col. IV) tang *A* = $\\dfrac{\\text{tang α}}{\\text{cos ε}}$.
+AB01-PDF0740-body-L025	291	body	Ad reliquas duas columnas supputandas hae formulae inserviunt quas mihi {sp:Schiapa-}
+AB01-PDF0740-body-L026	291	body	{sp:relli} proposuit. Sit MZN meridianus, MEN horizon orientalis, P polus borealis, EE′ aequator
+AB01-PDF0740-body-L027	291	body	caelestis, E punctum orientis, KK′ ecliptica, ♈ punctum aequinoctii vernalis, S stella oriens;
+AB01-PDF0740-body-L028	291	body	quaeritur punctum K eclipticae simul cum stella oriens, scilicet arcus ♈K, qui e considera-
+AB01-PDF0740-body-F01	291	body	[figure, redrawn: figures/AB01-PDF0740-F01.tex]
+AB01-PDF0740-body-L029	291	body	tione trianguli ♈EK elicitur, cuius nota sunt latus ♈E
+AB01-PDF0740-body-L030	291	body	binique anguli ei adiacentes. Nam, ductis arcubus ♈P,
+AB01-PDF0740-body-L031	291	body	EP, SP circulorum maximorum, mensura arcus ♈E erit
+AB01-PDF0740-body-L032	291	body	angulus ♈PE = ♈PS—EPS = α — *m* = ω, pro stel-
+AB01-PDF0740-body-L033	291	body	lis quarum declinatio *borealis* (1). Angulus ad ♈ = ε =
+AB01-PDF0740-body-L034	291	body	23° 35′; angulus ad E = arcus E′ PN = 90° + φ = 90°
+AB01-PDF0740-body-L035	291	body	+ 36°; ergo si vocemus *B* arcum quaesitum ♈K, *c* ar-
+AB01-PDF0740-body-L036	291	body	cum EK (amplitudinem ortivam puncti K), adhibitis po-
+AB01-PDF0740-body-L037	291	body	stea *analogiis* quas *Neperianas* dicunt inveniemus
+AB01-PDF0740-body-L038	291	body	tang {sfrac:1/2}(*B* + *c*) = tang {sfrac:1/2} ω $\\dfrac{\\text{cos {sfrac:1/2} (90° + φ — ε)}}{\\text{cos {sfrac:1/2} (90° + φ + ε)}}$ = tang {sfrac:1/2} ω $\\dfrac{\\text{cos 51° 12′.5}}{\\text{cos 74° 47′.5}}$
+AB01-PDF0740-body-L039	291	body	tang {sfrac:1/2}(*B* — *c*) = tang {sfrac:1/2} ω $\\dfrac{\\text{sin {sfrac:1/2} (90° + φ — ε)}}{\\text{sin {sfrac:1/2} (90° + φ + ε)}}$ = tang {sfrac:1/2} ω $\\dfrac{\\text{sin 51° 12′.5}}{\\text{sin 74° 47′.5}}$;
+AB01-PDF0740-notes-L001	291	notes	(1) Si declinatio est *australis* sumendum ω = α + *m*.

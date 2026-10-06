@@ -1,0 +1,44 @@
+% Nallino, Part II p. 291: the hemisphere above the eastern horizon at the rising of a star, redrawn from the print
+% at the size of the print. The coordinates are those of a 400 dpi render of the figure (crop from x 310 pt, y 548 pt
+% of the master page; y downward), traced along the printed lines. MZN is the meridian, MEN the eastern horizon, P the
+% north pole, E'E the equator, K'K the ecliptic, the sign of Aries the vernal equinox (V), S the rising star; the arcs
+% from P to the equinox, to E and to S are the arcs of great circles of the text. Z is marked on the print by a dot,
+% S by a small star.
+\begin{tikzpicture}[x=0.0635mm,y=-0.0635mm,line width=1pt,line join=round,line cap=round,every node/.style={font=\bfseries\itshape\small,inner sep=1pt}]
+\path (0,17);
+\coordinate (M) at (66,568);
+\coordinate (N) at (892,550);
+\coordinate (Z) at (474,145);
+\coordinate (Ep) at (200,252);
+\coordinate (Kp) at (138,322);
+\coordinate (P) at (745,246);
+\coordinate (V) at (347,487);
+\coordinate (E) at (480,606);
+\coordinate (K) at (630,598);
+\coordinate (S) at (800,572);
+\draw plot[smooth] coordinates {(M) (67,520) (73,480) (83,440) (98,400) (116,360) (Kp) (156,300) (174,280) (Ep) (242,220)
+  (272,200) (312,180) (367,160) (420,150) (Z) (530,149) (588,160) (644,180) (684,200) (716,220) (P) (783,280) (816,320)
+  (840,360) (860,400) (874,440) (884,480) (889,520) (N)};
+\draw plot[smooth] coordinates {(M) (100,576) (150,585) (200,593) (250,598) (300,603) (350,606) (400,608) (450,608) (E)
+  (550,606) (600,602) (K) (675,594) (725,587) (775,578) (S) (850,563) (N)};
+\draw plot[smooth] coordinates {(Ep) (212,280) (232,320) (255,360) (282,400) (310,440) (326,460) (V) (380,520) (424,560)
+  (E)};
+\draw plot[smooth] coordinates {(Kp) (155,340) (200,380) (250,420) (305,460) (V) (410,520) (454,540) (506,560) (562,580)
+  (K)};
+\draw plot[smooth] coordinates {(V) (365,460) (396,420) (434,380) (482,340) (548,300) (650,260) (700,250) (P)};
+\draw (P) -- (E);
+\draw plot[smooth] coordinates {(P) (754,260) (770,300) (784,340) (794,380) (801,420) (804,460) (805,480) (804,520)
+  (802,540) (S)};
+\fill (Z) circle[radius=5];
+\foreach \a in {0,60,120} \draw[line width=0.8pt] (S) ++(\a:9) -- ++(\a+180:18);
+\node at (472,103) {Z};
+\node at (198,205) {E\rlap{$'$}};
+\node at (787,215) {P};
+\node at (88,305) {K\rlap{$'$}};
+\node[font=\normalsize] at (318,510) {\MoonFont ♈};
+\node at (50,610) {M};
+\node at (477,648) {E};
+\node at (650,635) {K};
+\node at (797,625) {S};
+\node at (916,580) {N};
+\end{tikzpicture}
