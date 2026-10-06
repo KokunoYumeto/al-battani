@@ -1,0 +1,581 @@
+{
+ "anchor": "AB01-PDF0721",
+ "master_pdf_page": 721,
+ "printed_page": 272,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "observations": [
+  "body L2: the 3 is printed with the initial form of jīm, first without its dot, then with it («aut»); transcribed with a zero-width joiner.",
+  "body L12: the sigla of Heiberg's codices are printed «μ» with a small ε above it and «ἐλ» with a raised ς; «recipiens» is printed with the e broken.",
+  "body L16: «τόν» is printed so, with an acute accent.",
+  "notes_left L8: «A D. 1218» is printed without a period after A.",
+  "notes_left L20: a blot is printed over the d of «denuo».",
+  "notes_left L22: the last line of the column is printed with the type displaced: the a of «a Ptolemaeo», the e of «Ptolemaeo» and the first i of «indicatas» raised, «emenda» with the d raised and the a lowered, without a hyphen; the word continues «tiones» at the head of the right column."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0721-body-L001",
+     "source_line_no": 1,
+     "tex": "\\Indent Haud parva difficultas erat in \\textit{magnitudinibus} recte statuendis. Facillimae, in libris Ara-",
+     "transcription": "Haud parva difficultas erat in *magnitudinibus* recte statuendis. Facillimae, in libris Ara-",
+     "semantic_anchor": "AB01-PDF0721-P01",
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0721-body-L002",
+     "source_line_no": 2,
+     "tex": "bicis manu exaratis, confusiones inter \\ArabicRun{ب} 2 et \\ArabicRun{د} 4, inter \\ArabicRun{ح‍} (aut \\ArabicRun{ج‍}) 3 et \\ArabicRun{د} 4, inter \\ArabicRun{د} 4 et \\ArabicRun{ه} 5.",
+     "transcription": "bicis manu exaratis, confusiones inter ب 2 et د 4, inter {ar:ح‍} (aut {ar:ج‍}) 3 et د 4, inter د 4 et ه 5.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0721-body-L003",
+     "source_line_no": 3,
+     "tex": "Praeterea, in distinguendis stellis magnis et parvis eiusdem magnitudinis maxima est in Graecis",
+     "transcription": "Praeterea, in distinguendis stellis magnis et parvis eiusdem magnitudinis maxima est in Graecis",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0721-body-L004",
+     "source_line_no": 4,
+     "tex": "exemplaribus incertitudo. In Graeca Grynaei editione verba \\textgreek{μείζων} « maior », \\textgreek{ἐλάσσων} « minor »,",
+     "transcription": "exemplaribus incertitudo. In Graeca Grynaei editione verba μείζων « maior », ἐλάσσων « minor »,",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0721-body-L005",
+     "source_line_no": 5,
+     "tex": "in margine impressa sunt, sed adeo negligenter collocata ut saepe non possit dignosci ad qualem",
+     "transcription": "in margine impressa sunt, sed adeo negligenter collocata ut saepe non possit dignosci ad qualem",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0721-body-L006",
+     "source_line_no": 6,
+     "tex": "duarum subsequentium stellarum distinctio illa pertineat. Creberrimae autem discrepantiae",
+     "transcription": "duarum subsequentium stellarum distinctio illa pertineat. Creberrimae autem discrepantiae",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0721-body-L007",
+     "source_line_no": 7,
+     "tex": "inter Latinam editionem a Liechtenstein editam (1) et Latinam Georgii Trapezuntii. Ob tantam",
+     "transcription": "inter Latinam editionem a Liechtenstein editam (1) et Latinam Georgii Trapezuntii. Ob tantam",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0721-body-L008",
+     "source_line_no": 8,
+     "tex": "rei incertitudinem \\Name{Halma} et \\Name{Baily} vocabula illa omiserunt. Auxilium igitur mihi soli",
+     "transcription": "rei incertitudinem {sp:Halma} et {sp:Baily} vocabula illa omiserunt. Auxilium igitur mihi soli",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0721-body-L009",
+     "source_line_no": 9,
+     "tex": "\\Name{Liechtenstein} et \\Name{aṣ-Ṣūfī} praebebant; aṣ-Ṣūfī potissimum, qui, descriptiones stellarum",
+     "transcription": "{sp:Liechtenstein} et {sp:aṣ-Ṣūfī} praebebant; aṣ-Ṣūfī potissimum, qui, descriptiones stellarum",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0721-body-L010",
+     "source_line_no": 10,
+     "tex": "generales praemittens catalogis singularum constellationum, accuratissime magnitudines in Al-",
+     "transcription": "generales praemittens catalogis singularum constellationum, accuratissime magnitudines in Al-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0721-body-L011",
+     "source_line_no": 11,
+     "tex": "magesti exemplaribus indicatas recenset (2). Versio \\textit{Hispanica} illa « magna » et « parva »",
+     "transcription": "magesti exemplaribus indicatas recenset (2). Versio *Hispanica* illa « magna » et « parva »",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0721-body-L012",
+     "source_line_no": 12,
+     "tex": "omittit; sed \\Name{Heiberg}, sigla \\smash{\\shortstack{{\\fontsize{6.5}{6.5}\\selectfont \\textgreek{ε}}\\\\\\textgreek{μ}}} et \\textgreek{ἐλ}\\textsuperscript{\\textgreek{ς}} suorum codicum recipiens, optimi adiumenti mihi fuit",
+     "transcription": "omittit; sed {sp:Heiberg}, sigla \\smash{\\shortstack{{\\fontsize{6.5}{6.5}\\selectfont ε}\\\\μ}} et ἐλ{sup:ς} suorum codicum recipiens, optimi adiumenti mihi fuit",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0721-body-L013",
+     "source_line_no": 13,
+     "tex": "in supplemento adnotatiuncularum infra posito conficiendo.",
+     "transcription": "in supplemento adnotatiuncularum infra posito conficiendo.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0721-body-L014",
+     "source_line_no": 14,
+     "tex": "\\Indent In stellis definiendis versio Arabica Almagesti qua al-Battānī est usus redderat Graecum",
+     "transcription": "In stellis definiendis versio Arabica Almagesti qua al-Battānī est usus redderat Graecum",
+     "semantic_anchor": "AB01-PDF0721-P02",
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0721-body-L015",
+     "source_line_no": 15,
+     "tex": "\\textgreek{ἐν} (\\textgreek{τῷ}) particula Arabica \\ArabicRun{في}, \\textgreek{ἐπὶ} (\\textgreek{τοῦ}, rarius \\textgreek{ὑπὲρ τόν}) particula \\ArabicRun{على}, \\textgreek{ἐπάνω} (\\textgreek{τοῦ}) particula \\ArabicRun{فوق};",
+     "transcription": "ἐν (τῷ) particula Arabica في, ἐπὶ (τοῦ, rarius ὑπὲρ τόν) particula على, ἐπάνω (τοῦ) particula فوق;",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0721-body-L016",
+     "source_line_no": 16,
+     "tex": "duas priores verti \\textit{in,} ultimam \\textit{supra.}",
+     "transcription": "duas priores verti *in,* ultimam *supra.*",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0721-body-L017",
+     "source_line_no": 17,
+     "tex": "\\Indent In margine notas posui quibus, post \\Name{Iohannis Bayer} \\textit{Uranometriam} (1603), astro-",
+     "transcription": "In margine notas posui quibus, post {sp:Iohannis Bayer} *Uranometriam* (1603), astro-",
+     "semantic_anchor": "AB01-PDF0721-P03",
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0721-body-L018",
+     "source_line_no": 18,
+     "tex": "nomi stellas designant; qua in re facienda \\Name{Baily} optimum ducem habui. Iuvat eius verba",
+     "transcription": "nomi stellas designant; qua in re facienda {sp:Baily} optimum ducem habui. Iuvat eius verba",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0721-body-L019",
+     "source_line_no": 19,
+     "tex": "(p. 16 praefationis) referre: « I have also, in the last column, referred to the corresponding",
+     "transcription": "(p. 16 praefationis) referre: « I have also, in the last column, referred to the corresponding",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0721-body-L020",
+     "source_line_no": 20,
+     "tex": "« observations of the same stars, by \\Name{Flamsteed} and \\Name{Lacaille}, as far as I have been",
+     "transcription": "« observations of the same stars, by {sp:Flamsteed} and {sp:Lacaille}, as far as I have been",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0721-body-L021",
+     "source_line_no": 21,
+     "tex": "« able to identify them. This had been previously done by \\Name{Bode} (3) and \\Name{Delambre} (4);",
+     "transcription": "« able to identify them. This had been previously done by {sp:Bode} (3) and {sp:Delambre} (4);",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0721-body-L022",
+     "source_line_no": 22,
+     "tex": "« but, on examining their references, I have had frequent occasion to differ from them in",
+     "transcription": "« but, on examining their references, I have had frequent occasion to differ from them in",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0721-body-L023",
+     "source_line_no": 23,
+     "tex": "« opinion. It may perhaps be sometimes difficult to decide as to the precise star that was",
+     "transcription": "« opinion. It may perhaps be sometimes difficult to decide as to the precise star that was",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0721-body-L024",
+     "source_line_no": 24,
+     "tex": "« intended to have been observated. ..... \\Name{Bayer’s} characters are such as I have retained",
+     "transcription": "« intended to have been observated. ..... {sp:Bayer’s} characters are such as I have retained",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0721-body-L025",
+     "source_line_no": 25,
+     "tex": "« in \\Name{Flamsteed’s} catalogue, published in my « Account » of his Life (5), and which in some",
+     "transcription": "« in {sp:Flamsteed’s} catalogue, published in my « Account » of his Life (5), and which in some",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    }
+   ]
+  },
+  {
+   "role": "notes_left",
+   "lines": [
+    {
+     "id": "AB01-PDF0721-notes_left-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (1) \\Name{E. B. Knobel}, \\textit{On Al-Sūfi’s Star Magni-}",
+     "transcription": "(1) {sp:E. B. Knobel}, *On Al-Sūfi’s Star Magni-*",
+     "semantic_anchor": "AB01-PDF0721-N01",
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0721-notes_left-L002",
+     "source_line_no": null,
+     "tex": "\\textit{tudes} (Monthly Notices of the R. Astron. Society,",
+     "transcription": "*tudes* (Monthly Notices of the R. Astron. Society,",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0721-notes_left-L003",
+     "source_line_no": null,
+     "tex": "t. XLV, 1885), p. 419 monet has magnitudinum sub-",
+     "transcription": "t. XLV, 1885), p. 419 monet has magnitudinum sub-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0721-notes_left-L004",
+     "source_line_no": null,
+     "tex": "divisiones indicari « in the Liechtenstein Latin \\textit{Al-}",
+     "transcription": "divisiones indicari « in the Liechtenstein Latin *Al-*",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0721-notes_left-L005",
+     "source_line_no": null,
+     "tex": "« \\textit{magest,} translated from the Arabic by Gerard of",
+     "transcription": "« *magest,* translated from the Arabic by Gerard of",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0721-notes_left-L006",
+     "source_line_no": null,
+     "tex": "« Cremona, by « em » (presumably for \\textgreek{μείζων}) and",
+     "transcription": "« Cremona, by « em » (presumably for μείζων) and",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0721-notes_left-L007",
+     "source_line_no": null,
+     "tex": "« « el » (\\textgreek{ἐλάσσων}). In the British Museum Arabic \\textit{Al-}",
+     "transcription": "« « el » (ἐλάσσων). In the British Museum Arabic *Al-*",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0721-notes_left-L008",
+     "source_line_no": null,
+     "tex": "« \\textit{magest} of A D. 1218, by the Arabic letters mīm \\ArabicRun{م}",
+     "transcription": "« *magest* of A D. 1218, by the Arabic letters mīm م",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0721-notes_left-L009",
+     "source_line_no": null,
+     "tex": "« and lām \\ArabicRun{ل}. (These two last examples suggest that",
+     "transcription": "« and lām ل. (These two last examples suggest that",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0721-notes_left-L010",
+     "source_line_no": null,
+     "tex": "« the original Arabian scribe, who translated from",
+     "transcription": "« the original Arabian scribe, who translated from",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0721-notes_left-L011",
+     "source_line_no": null,
+     "tex": "« the Greek, had no idea of the meaning or the ap-",
+     "transcription": "« the Greek, had no idea of the meaning or the ap-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0721-notes_left-L012",
+     "source_line_no": null,
+     "tex": "« plication of the words \\textgreek{μείζων} and \\textgreek{ἐλάσσων}, and",
+     "transcription": "« plication of the words μείζων and ἐλάσσων, and",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0721-notes_left-L013",
+     "source_line_no": null,
+     "tex": "« therefore appended the initials of the Greek words",
+     "transcription": "« therefore appended the initials of the Greek words",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0721-notes_left-L014",
+     "source_line_no": null,
+     "tex": "« in Arabic letters). In the Bodleian Library Arabic",
+     "transcription": "« in Arabic letters). In the Bodleian Library Arabic",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0721-notes_left-L015",
+     "source_line_no": null,
+     "tex": "« \\textit{Almagest} and the several mss. of Al-Sūfi and Ulugh",
+     "transcription": "« *Almagest* and the several mss. of Al-Sūfi and Ulugh",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0721-notes_left-L016",
+     "source_line_no": null,
+     "tex": "« Beigh, these subdivisions are expressed by the",
+     "transcription": "« Beigh, these subdivisions are expressed by the",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0721-notes_left-L017",
+     "source_line_no": null,
+     "tex": "« letters Kāf and Sād, being the initials of the words",
+     "transcription": "« letters Kāf and Sād, being the initials of the words",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0721-notes_left-L018",
+     "source_line_no": null,
+     "tex": "« \\ArabicRun{كبير} (large) and \\ArabicRun{صغير} (small) ».",
+     "transcription": "« كبير (large) and صغير (small) ».",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0721-notes_left-L019",
+     "source_line_no": null,
+     "tex": "\\Indent (2) Omnium conspectum praebet \\Name{Schjelle-}",
+     "transcription": "(2) Omnium conspectum praebet {sp:Schjelle-}",
+     "semantic_anchor": "AB01-PDF0721-N02",
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0721-notes_left-L020",
+     "source_line_no": null,
+     "tex": "\\Name{rup}, p. 5-23 editionis aṣ-Ṣūfī. — Caelum denuo",
+     "transcription": "{sp:rup}, p. 5-23 editionis aṣ-Ṣūfī. — Caelum denuo",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0721-notes_left-L021",
+     "source_line_no": null,
+     "tex": "perlustrans statuit aṣ-Ṣūfī interdum magnitudines",
+     "transcription": "perlustrans statuit aṣ-Ṣūfī interdum magnitudines",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0721-notes_left-L022",
+     "source_line_no": null,
+     "tex": "a Ptolemaeo indicatas emendandas esse; emenda",
+     "transcription": "a Ptolemaeo indicatas emendandas esse; emenda",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  },
+  {
+   "role": "notes_right",
+   "lines": [
+    {
+     "id": "AB01-PDF0721-notes_right-L001",
+     "source_line_no": null,
+     "tex": "tiones solas in catalogis singularum constellationum",
+     "transcription": "tiones solas in catalogis singularum constellationum",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0721-notes_right-L002",
+     "source_line_no": null,
+     "tex": "notavit. Varias lectiones harum emendatarum magni-",
+     "transcription": "notavit. Varias lectiones harum emendatarum magni-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0721-notes_right-L003",
+     "source_line_no": null,
+     "tex": "tudinum collegit e duobus aliis codicibus \\Name{Knobel},",
+     "transcription": "tudinum collegit e duobus aliis codicibus {sp:Knobel},",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0721-notes_right-L004",
+     "source_line_no": null,
+     "tex": "dissertatione nuper memorata et p. 417-25 illius",
+     "transcription": "dissertatione nuper memorata et p. 417-25 illius",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0721-notes_right-L005",
+     "source_line_no": null,
+     "tex": "tomi complectente; sed eas inutiles esse iure monuit",
+     "transcription": "tomi complectente; sed eas inutiles esse iure monuit",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0721-notes_right-L006",
+     "source_line_no": null,
+     "tex": "\\Name{Schjellerup}, \\textit{On Al-Sūfi and Ptolemy’s Cata-}",
+     "transcription": "{sp:Schjellerup}, *On Al-Sūfi and Ptolemy’s Cata-*",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0721-notes_right-L007",
+     "source_line_no": null,
+     "tex": "\\textit{logues,} ibid. p. 465-66.",
+     "transcription": "*logues,* ibid. p. 465-66.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0721-notes_right-L008",
+     "source_line_no": null,
+     "tex": "\\Indent (3) \\Name{Claudius Ptolemäus}, \\textit{Astronom zu}",
+     "transcription": "(3) {sp:Claudius Ptolemäus}, *Astronom zu*",
+     "semantic_anchor": "AB01-PDF0721-N03",
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0721-notes_right-L009",
+     "source_line_no": null,
+     "tex": "\\textit{Alexandrien im zweyten Jahrhundert, Beobachtung}",
+     "transcription": "*Alexandrien im zweyten Jahrhundert, Beobachtung*",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0721-notes_right-L010",
+     "source_line_no": null,
+     "tex": "\\textit{und Beschreybung der Gestirne, und der Bewegung}",
+     "transcription": "*und Beschreybung der Gestirne, und der Bewegung*",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0721-notes_right-L011",
+     "source_line_no": null,
+     "tex": "\\textit{der himmlischen Sphäre.} Berlin und Stettin, 1795,",
+     "transcription": "*der himmlischen Sphäre.* Berlin und Stettin, 1795,",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0721-notes_right-L012",
+     "source_line_no": null,
+     "tex": "1 vol. octavo.",
+     "transcription": "1 vol. octavo.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0721-notes_right-L013",
+     "source_line_no": null,
+     "tex": "\\Indent (4) \\Name{Delambre}, \\textit{Hist. de l’Astron. Ancienne,}",
+     "transcription": "(4) {sp:Delambre}, *Hist. de l’Astron. Ancienne,*",
+     "semantic_anchor": "AB01-PDF0721-N04",
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0721-notes_right-L014",
+     "source_line_no": null,
+     "tex": "vol. II.",
+     "transcription": "vol. II.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0721-notes_right-L015",
+     "source_line_no": null,
+     "tex": "\\Indent (5) \\textit{An account of the Rev.} \\Name{John Flam-}",
+     "transcription": "(5) *An account of the Rev.* {sp:John Flam-}",
+     "semantic_anchor": "AB01-PDF0721-N05",
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0721-notes_right-L016",
+     "source_line_no": null,
+     "tex": "\\Name{steed}, \\textit{the first Astronomer Royal; compiled from}",
+     "transcription": "{sp:steed}, *the first Astronomer Royal; compiled from*",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0721-notes_right-L017",
+     "source_line_no": null,
+     "tex": "\\textit{his own manuscripts, and other authentic docu-}",
+     "transcription": "*his own manuscripts, and other authentic docu-*",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0721-notes_right-L018",
+     "source_line_no": null,
+     "tex": "\\textit{ments, never before published: to which is added}",
+     "transcription": "*ments, never before published: to which is added*",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0721-notes_right-L019",
+     "source_line_no": null,
+     "tex": "\\textit{his British Catalogue of Stars corrected and en-}",
+     "transcription": "*his British Catalogue of Stars corrected and en-*",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0721-notes_right-L020",
+     "source_line_no": null,
+     "tex": "\\textit{larged. By} \\Name{Francis Baily}, \\textit{Esq.} London 1835,",
+     "transcription": "*larged. By* {sp:Francis Baily}, *Esq.* London 1835,",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0721-notes_right-L021",
+     "source_line_no": null,
+     "tex": "1 vol. quarto. — Supplement, London 1837.",
+     "transcription": "1 vol. quarto. — Supplement, London 1837.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  }
+ ]
+}
