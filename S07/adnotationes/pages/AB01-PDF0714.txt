@@ -1,0 +1,59 @@
+@page 714 265
+@vspace 2
+@center **Apparitiones Mercurii.**
+@vspace 4
+% the tables of the variant readings for Mercury, in one frame, as on p. 264: rules measured on the print (table from
+% 63.4 pt, the text edge); a degree with its abjad numeral is moved a little to the right (>1.6); a source whose
+% degrees and minutes both differ is one cell across its column (:2); — means agreement with the restored number
+@colpad 1.5 1.5
+@cols 0 <|| 17.5l | 5.74c 7.31c | 5.67c 7.22c | 5.6c 7.13c | 5.58c 7.1c ! 5.56c 7.07c | 5.59c 7.11c | 5.67c 7.21c | 5.54c 7.04c ||>
+@rule2 cols join
+@hrow 11 | ~\\ **{sc:Signa}** | **{sm:{sc:Ortus vespertinus}}**:8 | **{sm:{sc:Occasus matutinus}}**:8
+@spanbrace 0.1 | | hr:8 | hr:8
+@hrow 11.9 | **{spsc:zodiaci}**\\~ | **{xs:Codex\\Escurialensis}**:2 | **{xs:Versio\\Hispanica}**:2 | **{xs:Ḥabash}**:2 | **{xs:Tabulae\\Alphonsinae}**:2 | **{xs:Codex\\Escurialensis}**:2 | **{xs:Versio\\Hispanica}**:2 | **{xs:Ḥabash}**:2 | **{xs:Tabulae\\Alphonsinae}**:2
+@hrule cols 1.2
+@rowgap 3.75
+@fontsize 9.3 17.2
+@row Aries | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | كد24′
+@row Taurus | — | — | >1.6 ك20° | — | — | — | — | — | — | لح38′ | — | يح18′ | — | يح18′ | — | يج13′
+@row Gemini | — | — | — | — | — | — | — | — | — | — | — | لر37′ | — | لر37′ | — | لر37′
+@row Cancer | — | — | — | — | — | — | — | — | — | — | — | — | — | لط39′ | — | —
+@row Leo | — | يج13′ | — | 13′ | — | 13′ | — | نج53′ | — | — | — | — | — | يج13′ | — | —
+@row Virgo | — | — | — | — | يا11° يح18′:2 | — | — | — | — | — | — | — | — | — | —
+@row Libra | — | — | — | — | — | يح18′ | — | — | — | — | — | ن50′ | — | — | — | ن50′
+@row Scorpius | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | —
+@row Sagittarius | — | — | — | — | — | — | — | — | — | — | — | — | — | يد14′ | — | —
+@row Capricornus | — | — | — | — | — | — | — | يط19′ | — | — | — | — | — | لط39′ | — | يط19′
+@row Aquarius | >1.6 يج13° | — | >1.6 ك20° | — | ك20° نه55′:2 | 20° يه15′:2 | — | — | — | — | — | ح 8′ | — | —
+@row Pisces | — | — | — | — | — | — | — | — | — | يد14′ | — | — | — | يد14′ | — | يد14′
+@normal
+@rowgap 3.5
+@hrule cols 1.3
+@spanbrace 8.8 | :17
+@hspan **Occultationes Mercurii.**:17
+@spanbrace 2.5 | :17
+@rule2 cols join
+@hrow 8.55 | | **{sm:{sc:Ortus matutinus}}**:8 | **{sm:{sc:Occasus vespertinus}}**:8
+@spanbrace 0.4 | | HR:8 | HR:8
+@rowgap 3.75
+@fontsize 9.3 17.2
+@row Aries | — | — | — | — | — | — | — | — | يد14° ط 9′:2 | يب12° ط 9′:2 | 12° 9′:2 | 12° 9′:2
+@row Taurus | — | — | — | — | >1.6 كد24° | — | كد24° لب32′:2 | — | — | — | نب52′ | — | 52′ | >1.6 يج13° | —
+@row Gemini | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | —
+@row Cancer | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | —
+@row Leo | — | — | — | — | — | — | — | 88′! | — | — | — | — | — | — | — | كه25′
+@row Virgo | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | لر37′
+@row Libra | يد14° كط29′:2 | — | كط29′ | 14° 29′:2 | — | 29′ | — | — | — | — | — | يح18′ | — | —
+@row Scorpius | يب12° ي10′:2 | 12° 10′:2 | 12° 10′:2 | 12° 10′:2 | — | — | — | — | — | — | — | —
+@row Sagittarius | — | — | — | — | >1.6 يب12° | — | 12° يو16′:2 | >1.6 ير17° | — | 17° | — | 17° | — | 17° | —
+@row Capricornus | — | — | — | نو56′ | — | يو16′ | — | يه15′ | — | — | — | — | >1.6 يد14° | — | — | —
+@row Aquarius | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | —
+@row Pisces | — | — | — | — | — | — | — | — | — | مر47′ | — | 47′ | — | 47′ | — | 47′
+@normal
+@rowgap 3.9
+@hrule cols 1.3
+@obs body (tables): the zāy of the abjad numerals is printed without its dot: «لر37′» (first table, Gemini, occult. Versio, Ḥabash, Tab. Alph.; second table, Virgo, occult. Tab. Alph.), «ير17°» (second table, Sagittarius, occult. Codex), «مر47′» (second table, Pisces, occult. Codex); transcribed as printed.
+@obs body (first table, Capricornus, occult. Ḥabash): the lām of «لط39′» is printed broken, detached like an alif.
+@obs body (second table, Leo, apparit. Tab. Alph.): «88′!» is printed so, with the exclamation mark.
+@obs body (tables): several dashes are printed short or broken (first table: Taurus and Aquarius, apparit. Codex; Leo, apparit. Ḥabash and occult. Versio; second table: Taurus, occult. Codex; Cancer, apparit. Codex); a stray dot follows the first dash of Taurus (first table, apparit. Codex). Transcribed —.
+@sig 34
