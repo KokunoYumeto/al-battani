@@ -1,0 +1,38 @@
+@page 693 244
+% the displayed formulas and the table stand where they stand on the print (mm from the left edge of the text, 103.3 pt)
+Z (in linea recta ZHE′) longitudo apogei medii Q epicycli; ergo, planeta in T (cuius longitudo
+vera Y) exsistente, QT anomalia media, PT anomalia vera.
+^ E tabulis mediorum motuum colliguntur *m* et arcus QT; nota est quoque excentricitas
+*e* = EE′ = E′F = FI. — In triangulo isosceli IFE′ est
+@at 50.3:$IE':E'F=\sin IFE':\sin FIE'$
+@at 0:vel | 43.8:$IE':\;e\;=\sin\,(180^\circ-m):\sin\left(\dfrac{m}{2}\right)$\,,
+@at 0:unde | 47.6:$IE'=\dfrac{e\sin(180^\circ-m)}{\sin\left(\dfrac{m}{2}\right)}=\dfrac{e\sin m}{\sin\left(\dfrac{m}{2}\right)}$\,;
+@at 0:et quia | 41.5:$\sin m=\sin 2\left(\dfrac{m}{2}\right)=2\sin\left(\dfrac{m}{2}\right)\cos\left(\dfrac{m}{2}\right)$\,,
+@at 0:erit demum | 56.1:$IE'=2e\cos\left(\dfrac{m}{2}\right)$\,.
+^ In triangulo E′IH est angulus\quad $IE'H=m+\dfrac{m}{2}$\,,\quad radius autem deferentis IH = 60{sup:*p*};
+@at 0:ergo | 29.0:$E'H=\dfrac{IE'\times\cos IE'H}{R}+\sqrt{\overline{IH}^2-\left(\dfrac{IE'\times\sin IE'H}{R}\right)^2}$
+@at 10.8:$E'H=\dfrac{2e}{R}\cos\left(\dfrac{m}{2}\right)\cos\left(m+\dfrac{m}{2}\right)+\sqrt{60^2-\left[\dfrac{2e}{R}\cos\left(\dfrac{m}{2}\right)\sin\left(m+\dfrac{m}{2}\right)\right]^2}$
+quae est *distantia centri epicycli a centro aequantis.* Eam Δ vocemus.
+^ Nunc ad rectam HE′, quantum necesse est productam, perpendicularis EN ducatur. In
+triangulo rectangulo E′NE:
+@at 10.8:$NE=E'E\,\dfrac{\sin NE'E}{R}=\dfrac{e\sin m}{R}$\,, | 84.4:$E'N=E'E\,\dfrac{\sin E'EN}{R}=\dfrac{e\cos m}{R}$\,;
+ergo in triangulo HNE:
+*distantia geocentrica centri epicycli* $=HE=\sqrt{(E'H+E'N)^2+\overline{NE}^2}$
+@at 56.1:$=\sqrt{\left(\Delta+\dfrac{e\cos m}{R}\right)^2+\left(\dfrac{e\sin m}{R}\right)^2}$\,.
+Et in eodem triangulo HNE:
+@at 13.8:sin *aequat. centri* $=$ sin $E'HE=R\,\dfrac{NE}{HE}=\dfrac{e\sin m}{\text{dist.\ geocentr.\ centri epicycli}}$\,.
+Supputatio autem *aequationis anomaliae* (seu anguli HEY = arcus XY) eodem modo quo
+in reliquis planetis fit. *Tabulae Mercurii* sicut in reliquis planetis docui institutae sunt.
+^ Tabularum omnium elementa, tam in sexagesimis radii deferentis 60{sup:*p*} sumpti quam in
+decimalibus eiusdem radii 1{sup:*p*} facti, haec sunt:
+@vspace 0.5
+@pos 50.1^:{sm:Excentricitas aequantis (1)} | 111.3^:{sm:Radius epicycli in distantia media.}
+@pos 20.9:Saturno | 44.1>:6~{sup:*p*} | 52.4>:50′ | 54.6^:= | 57.4:0.113888 ... | 95.9>:6~{sup:*p*} | 103.3>:30′ | 106.0^:= | 108.9:0.108333 ...
+@pos 20.9:Iovi | 44.1>:5~{sup:*p*} | 52.4>:30′ | 54.6^:= | 57.4:0.091666 ... | 95.9>:11~{sup:*p*} | 103.3>:30′ | 106.0^:= | 108.9:0.191666 ...
+@pos 20.9:Marti | 44.1>:12~{sup:*p*} | 52.4>:0′ | 54.6^:= | 57.4:0.2 | 95.9>:39~{sup:*p*} | 103.3>:30′ | 106.0^:= | 108.9:0.658333 ...
+@pos 20.9:Veneri | 44.1>:2~{sup:*p*} | 52.4>:30′ | 54.6^:= | 57.4:0.041666 ... | 95.9>:43~{sup:*p*} | 103.3>:10′ | 106.0^:= | 108.9:0.719444 ...
+@pos 20.9:Mercurio | 44.1>:3~{sup:*p*} | 52.4>:0′ | 54.6^:= | 57.4:0.05 | 95.9>:22~{sup:*p*} | 103.3>:30′ | 106.0^:= | 108.9:0.375
+@obs body: the page is printed in a grey impression.
+@obs body (table): the dots after the repeating decimals are printed spaced, «. . .»; transcribed «...».
+@notes1
+^ (1) Quae Veneri et Superioribus est duplum excentricitatis deferentis.
