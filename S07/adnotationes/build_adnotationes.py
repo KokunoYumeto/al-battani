@@ -277,8 +277,10 @@ def row_tex(src):
         (w, a), c = col, cells[k]
         k += 1
         ind = re.match(r"^>(\d+(?:\.\d+)?)? ", c)
-        if ind:  # a continuation line within the cell, indented (6 mm, or >N N mm)
-            c = r"\hspace*{" + (ind.group(1) or "6") + "mm}" + c[ind.end():]
+        pre = ""
+        if ind:  # a continuation line within the cell, indented (6 mm, or >N N mm); markup applies to the rest only
+            pre = r"\hspace*{" + (ind.group(1) or "6") + "mm}"
+            c = c[ind.end():]
         if c.startswith("_ "):  # set half a line lower: a head beside a head of two lines
             out.append(r"\makebox[" + str(w) + "mm][" + a + r"]{\smash{\raisebox{-.5\baselineskip}{" + markup(c[2:])
                        + "}}}")
@@ -287,9 +289,9 @@ def row_tex(src):
             out.append(r"\makebox[" + str(w) + "mm][" + a + "]{" + BRACE2 + "}")
         elif "~" in c:
             main, hang = c.split("~", 1)
-            out.append(r"\makebox[" + str(w) + "mm][" + a + "]{" + markup(main) + r"\rlap{" + markup(hang) + "}}")
+            out.append(r"\makebox[" + str(w) + "mm][" + a + "]{" + pre + markup(main) + r"\rlap{" + markup(hang) + "}}")
         else:  # smashed, so that a tall Arabic numeral does not open the line and break the vertical rules
-            out.append(r"\makebox[" + str(w) + "mm][" + a + r"]{\smash{" + markup(c) + "}}")
+            out.append(r"\makebox[" + str(w) + "mm][" + a + r"]{\smash{" + pre + markup(c) + "}}")
     return "".join(out)
 
 
