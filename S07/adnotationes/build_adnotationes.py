@@ -28,6 +28,7 @@ Transcription format (UTF-8; one printed line per source line, as printed, with 
                          a horizontal brace across the columns A..B between two rows; @rowsep MM an extra
                          gap after every following @row (0 ends it); @colpad A B the space before and after
                          each rule (mm; default 3 2)
+  @at X:T | X:T ...      a line whose pieces begin at X mm from the left edge and keep their height (formulas)
   @pos X:T | X>:T | ...  a line whose pieces stand at X mm from the left edge (> right-aligned, ^ centred, _ half a
                          line lower; ~ hangs a unit sign); @posrule X1 X2 [| X1 X2] rules between two lines;
                          @posbrace under|over X1 X2 [| X1 X2] horizontal braces between two lines
@@ -41,6 +42,7 @@ Transcription format (UTF-8; one printed line per source line, as printed, with 
   @wrap FRAC FILE [MM] ... @endwrap   a figure redrawn in figures/FILE.tex (indented MM), FRAC of the width on the
                          left, with the
                          printed lines between the two directives set beside it
+  @wrapr X FILE ... @endwrap   the same with the figure on the right, from X mm; the lines in a box on the left
   @notes                 the footnotes follow, left column; @col switches to the right column; @notes1 one column
   @sig TEXT              the signature at the foot of the page
   @obs TEXT              an observation on the print (a letter that did not print, a broken sign), kept in the record
@@ -238,8 +240,8 @@ def parse(path):
                 rec["blank"] = True
             elif cmd in ("@title", "@center", "@vspace", "@rule", "@rule2", "@verse", "@calc", "@calcrule",
                          "@calcset", "@cols", "@row", "@rowrule", "@mcols", "@mcnext", "@mcend", "@chead", "@skip",
-                         "@small", "@normal", "@rowgap", "@hrule", "@wrap", "@endwrap", "@brace", "@pos",
-                         "@posrule", "@posbrace", "@hrow", "@rowsep", "@colpad",
+                         "@small", "@normal", "@rowgap", "@hrule", "@wrap", "@wrapr", "@endwrap", "@brace", "@pos",
+                         "@posrule", "@posbrace", "@hrow", "@at", "@rowsep", "@colpad",
                          "@fontsize"):
                 rec[part].append((cmd[1:], arg))
             else:
@@ -433,6 +435,18 @@ def pos_item(it):
     return r"\rlap{\hspace*{" + f"{x:.2f}" + r"mm}\smash{" + box + "}}"
 
 
+def at_tex(src):
+    """@at X:TEXT | X:TEXT ...: a line whose pieces begin at X mm from the left edge; unlike @pos the pieces keep
+    their height, so that displayed formulas open the line spacing as they do on the print"""
+    out = [r"\mbox{}"]
+    for it in src.split(" | "):
+        m = re.match(r"^(\d+(?:\.\d+)?):(.*)$", it.strip())
+        if not m:
+            raise SystemExit(f"@at item without a position: {it}")
+        out.append(r"\rlap{\hspace*{" + f"{float(m.group(1)):.2f}" + r"mm}" + markup(m.group(2).strip()) + "}")
+    return "".join(out)
+
+
 def pos_tex(src):
     """@pos ITEM | ITEM ...: a line whose pieces are set at given positions (Nallino's worked computations)"""
     return r"\mbox{}" + "".join(pos_item(it.strip()) for it in src.split(" | "))
@@ -479,6 +493,7 @@ def mc_begin(w):
 def section(items, prefix, role, numbered):
     """the TeX of one section and its line records"""
     out, recs, n, par, tab, fig = [], [], 0, 0, 0, 0
+    wrapr = None  # the figure of an open @wrapr block, set after its lines
     mc = None  # the column widths of an open @mcols block, and the column being set
     rowsep = "0"
     for kind, text in items:
@@ -534,12 +549,14 @@ def section(items, prefix, role, numbered):
             out.append(r"\par\vspace{" + text + r"\baselineskip}")
             continue
         if kind == "wrap":  # @wrap FRAC FILE: the figure figures/FILE.tex on the left, the following lines beside it
+            # the boxes hang from their top: the strut height is taken back, so that the first line keeps its
+            # ordinary distance from the line above
             frac, fname, *ind = text.split()
             frac, gap = float(frac), 0.02
             ind = r"\hspace*{" + ind[0] + "mm}" if ind else ""
             fig += 1
             fid = f"{prefix}-{role}-F{fig:02d}"
-            out.append(r"\par\noindent\begin{minipage}[t]{" + f"{frac:.3f}" + r"\FullSourceWidth}\vspace{0pt}"
+            out.append(r"\par\vspace{-\ht\strutbox}\noindent\begin{minipage}[t]{" + f"{frac:.3f}" + r"\FullSourceWidth}\vspace{0pt}"
                        + r"\hypertarget{" + fid + r"}{}" + ind + r"\input{figures/" + fname + r"}\end{minipage}\hfill"
                        + r"\begin{minipage}[t]{" + f"{1 - frac - gap:.3f}" + r"\FullSourceWidth}\vspace{0pt}"
                        + r"\setlength{\GutterOffset}{" + f"{frac + gap:.3f}" + r"\FullSourceWidth}")
@@ -547,10 +564,27 @@ def section(items, prefix, role, numbered):
                          "transcription": f"[figure, redrawn: figures/{fname}.tex]", "semantic_anchor": None,
                          "source_role": "NALLINO_FIGURE"})
             continue
+        if kind == "wrapr":  # @wrapr X FILE: the lines in a box on the left, the figure from X mm on the right
+            x, fname = text.split()
+            fig += 1
+            fid = f"{prefix}-{role}-F{fig:02d}"
+            wrapr = (float(x), fname, fid)
+            out.append(r"\par\vspace{-\ht\strutbox}\noindent\begin{minipage}[t]{" + f"{float(x) - 2:.2f}" + r"mm}\vspace{0pt}"
+                       + r"\setlength{\GutterOffset}{0pt}")
+            recs.append({"id": fid, "source_line_no": None, "tex": r"\input{figures/" + fname + "}",
+                         "transcription": f"[figure, redrawn: figures/{fname}.tex]", "semantic_anchor": None,
+                         "source_role": "NALLINO_FIGURE"})
+            continue
         if kind == "endwrap":
+            if wrapr:
+                x, fname, fid = wrapr
+                out.append(r"\end{minipage}\hspace{2mm}\begin{minipage}[t]{" + f"{188 - x:.2f}" + r"mm}\vspace{0pt}"
+                           + r"\hypertarget{" + fid + r"}{}\input{figures/" + fname + r"}\end{minipage}\par")
+                wrapr = None
+                continue
             out.append(r"\end{minipage}\par")
             continue
-        if kind in ("line", "center", "title", "verse", "calc", "row", "chead", "pos", "hrow"):
+        if kind in ("line", "center", "title", "verse", "calc", "row", "chead", "pos", "hrow", "at"):
             n += 1
             lid = f"{prefix}-{role}-L{n:03d}"
             src = (text[3:] if kind == "line" and text.startswith("^^ ") else
@@ -567,6 +601,9 @@ def section(items, prefix, role, numbered):
             elif kind == "hrow":
                 tex = hrow_tex(src)
                 src = " | ".join(c.strip() for c in src.split("|")[1:])
+            elif kind == "at":
+                tex = at_tex(src)
+                src = " ".join(re.sub(r"^[\d.]+:", "", it.strip()) for it in src.split(" | "))
             elif kind == "pos":
                 tex = pos_tex(src)
                 src = " ".join(re.sub(r"^[\d.]+[>^_]*:", "", it.strip()).replace("~", "") for it in src.split(" | "))

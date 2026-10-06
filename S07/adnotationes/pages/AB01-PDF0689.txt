@@ -1,0 +1,38 @@
+@page 689 240
+% the displayed formulas begin where they begin on the print (mm from the left edge of the text, 100.3 pt)
+{sp:tenio} Arabibusque « *aequatio anomaliae et centri* » (1) vocatur, unde nomen *aequationis*
+*centri* quo hodierni etiam astronomi utuntur. Hanc aequationem metitur angulus XHZ = E′HE.
+Ductis perpendicularibus EN et MS ad lineam rectam ZHE′ productam, statim apparet
+@at 41.4:sin aequat. centri $=$ sin $E'HE=R\,\dfrac{NE}{HE}$\,.
+Sit *m* quod Arabes et nostrates aevi medii *centrum* (*al-markaz*) vocant, sive arcus eclipticae
+AZ inter longitudinem apogei excentrici et medium locum planetae interceptus; eum metitur
+angulus AE′Z in centro aequantis. Sit *e* excentricitas, seu EM = ME′; tunc
+@at 45.9:$NE=E'E\,\dfrac{\sin NE'E}{R}=2e\,\dfrac{\sin m}{R}$\,.
+@at 0:Restat ut | 18.9:$HE=\sqrt{\overline{HN}^2+\overline{NE}^2}=\sqrt{(HS+SN)^2+\overline{NE}^2}$ cognoscamus.
+@wrap 0.276 AB01-PDF0689-F01
+@at 0:$HS=\sqrt{\overline{HM}^2-\overline{MS}^2}$\,,\quad ubi\quad $HM=$ radius deferentis $=\rho$.
+@at 20.1:$MS=E'M\,\dfrac{\sin ME'S}{R}=e\,\dfrac{\sin m}{R}$\,,
+@at 0:ergo | 28.4:$HS=\sqrt{\rho^2-\left(\dfrac{e\sin m}{R}\right)^2}$\,.
+@at 0:Praeterea | 19.1:$SN=E'N-E'S$
+@at 5.5:$E'N=E'E\,\dfrac{\sin NEE'}{R}=E'E\,\dfrac{\cos NE'E}{R}=2\,e\,\dfrac{\cos m}{R}$
+@at 5.9:$E'S=E'M\,\dfrac{\sin E'MS}{R}=E'M\,\dfrac{\cos NE'E}{R}=e\,\dfrac{\cos m}{R}$\,.
+@endwrap
+@at 0:Ergo | 18.6:$\overline{HE}^2=\Bigl\{\sqrt{\rho^2-\left(\dfrac{e\sin m}{R}\right)^2}+\dfrac{2e\cos m}{R}-\dfrac{e\cos m}{R}\Bigr\}^2+\left(\dfrac{2e\sin m}{R}\right)^2$
+@at 22.6:$HE=\sqrt{\Bigl\{\sqrt{\rho^2-\left(\dfrac{e\sin m}{R}\right)^2}+\dfrac{e\cos m}{R}\Bigr\}^2+\left(\dfrac{2e\sin m}{R}\right)^2}$\,,
+quae est *distantia geocentrica centri epicycli.* Unde demum:
+@at 26.6:sin aequat. centri $=\dfrac{2e\sin m}{\text{dist.\ centri epicycli a Terrae centro}}$\,.
+Qua formula, constructionibus geometricis {sp:Ptolemaei} deducta, procul dubio {sp:al-Battānī}
+aliique multi (ac ipse {sp:Regiomontanus}) tabulam aequationis centri condiderunt aut pro-
+baverunt.
+^ Tangentibus adhibitis, regula longe simplicior reperitur:
+@at 9.7:tang aequat. centri $=$ tang $E'HE=R\,\dfrac{NE}{HN}=\dfrac{2e\sin m}{\sqrt{\rho^2-\left(\dfrac{e\sin m}{R}\right)^2}+\dfrac{e\cos m}{R}}$\,;
+*R* autem ac ρ unius partis sumptis, ac *e* ad ρ = 1 relata:
+@at 31.6:tang aequat. centri $=\dfrac{2e_1\sin m}{\sqrt{1-(e_1\sin m)^2}+e_1\cos m}$\,.
+@obs body: the page is printed in a grey impression; the formulas are set as on the print, the radicals with a vinculum, the squares of segments with a bar over the letters.
+@notes
+^ (1) *Ta‘dīl al-ḥāṣṣah wa ’l-markaz;* eius quan-
+titas enim est etiam differentia inter epicycli apo-
+geum verum et medium, qua uti oportet ad ano-
+@col
+maliam mediam in veram convertendam. Quid *cen-*
+*trum* sit infra statim dicam.

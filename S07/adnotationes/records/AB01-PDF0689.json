@@ -1,0 +1,288 @@
+{
+ "anchor": "AB01-PDF0689",
+ "master_pdf_page": 689,
+ "printed_page": 240,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "observations": [
+  "body: the page is printed in a grey impression; the formulas are set as on the print, the radicals with a vinculum, the squares of segments with a bar over the letters."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0689-body-L001",
+     "source_line_no": 1,
+     "tex": "\\Name{tenio} Arabibusque « \\textit{aequatio anomaliae et centri} » (1) vocatur, unde nomen \\textit{aequationis}",
+     "transcription": "{sp:tenio} Arabibusque « *aequatio anomaliae et centri* » (1) vocatur, unde nomen *aequationis*",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0689-body-L002",
+     "source_line_no": 2,
+     "tex": "\\textit{centri} quo hodierni etiam astronomi utuntur. Hanc aequationem metitur angulus XHZ = E′HE.",
+     "transcription": "*centri* quo hodierni etiam astronomi utuntur. Hanc aequationem metitur angulus XHZ = E′HE.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0689-body-L003",
+     "source_line_no": 3,
+     "tex": "Ductis perpendicularibus EN et MS ad lineam rectam ZHE′ productam, statim apparet",
+     "transcription": "Ductis perpendicularibus EN et MS ad lineam rectam ZHE′ productam, statim apparet",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0689-body-L004",
+     "source_line_no": 4,
+     "tex": "\\mbox{}\\rlap{\\hspace*{41.40mm}sin aequat. centri $=$ sin $E'HE=R\\,\\dfrac{NE}{HE}$\\,.}",
+     "transcription": "sin aequat. centri $=$ sin $E'HE=R\\,\\dfrac{NE}{HE}$\\,.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0689-body-L005",
+     "source_line_no": 5,
+     "tex": "Sit \\textit{m} quod Arabes et nostrates aevi medii \\textit{centrum} (\\textit{al-markaz}) vocant, sive arcus eclipticae",
+     "transcription": "Sit *m* quod Arabes et nostrates aevi medii *centrum* (*al-markaz*) vocant, sive arcus eclipticae",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0689-body-L006",
+     "source_line_no": 6,
+     "tex": "AZ inter longitudinem apogei excentrici et medium locum planetae interceptus; eum metitur",
+     "transcription": "AZ inter longitudinem apogei excentrici et medium locum planetae interceptus; eum metitur",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0689-body-L007",
+     "source_line_no": 7,
+     "tex": "angulus AE′Z in centro aequantis. Sit \\textit{e} excentricitas, seu EM = ME′; tunc",
+     "transcription": "angulus AE′Z in centro aequantis. Sit *e* excentricitas, seu EM = ME′; tunc",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0689-body-L008",
+     "source_line_no": 8,
+     "tex": "\\mbox{}\\rlap{\\hspace*{45.90mm}$NE=E'E\\,\\dfrac{\\sin NE'E}{R}=2e\\,\\dfrac{\\sin m}{R}$\\,.}",
+     "transcription": "$NE=E'E\\,\\dfrac{\\sin NE'E}{R}=2e\\,\\dfrac{\\sin m}{R}$\\,.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0689-body-L009",
+     "source_line_no": 9,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.00mm}Restat ut}\\rlap{\\hspace*{18.90mm}$HE=\\sqrt{\\overline{HN}^2+\\overline{NE}^2}=\\sqrt{(HS+SN)^2+\\overline{NE}^2}$ cognoscamus.}",
+     "transcription": "Restat ut $HE=\\sqrt{\\overline{HN}^2+\\overline{NE}^2}=\\sqrt{(HS+SN)^2+\\overline{NE}^2}$ cognoscamus.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0689-body-F01",
+     "source_line_no": null,
+     "tex": "\\input{figures/AB01-PDF0689-F01}",
+     "transcription": "[figure, redrawn: figures/AB01-PDF0689-F01.tex]",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_FIGURE"
+    },
+    {
+     "id": "AB01-PDF0689-body-L010",
+     "source_line_no": 10,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.00mm}$HS=\\sqrt{\\overline{HM}^2-\\overline{MS}^2}$\\,,\\quad ubi\\quad $HM=$ radius deferentis $=\\rho$.}",
+     "transcription": "$HS=\\sqrt{\\overline{HM}^2-\\overline{MS}^2}$\\,,\\quad ubi\\quad $HM=$ radius deferentis $=\\rho$.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0689-body-L011",
+     "source_line_no": 11,
+     "tex": "\\mbox{}\\rlap{\\hspace*{20.10mm}$MS=E'M\\,\\dfrac{\\sin ME'S}{R}=e\\,\\dfrac{\\sin m}{R}$\\,,}",
+     "transcription": "$MS=E'M\\,\\dfrac{\\sin ME'S}{R}=e\\,\\dfrac{\\sin m}{R}$\\,,",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0689-body-L012",
+     "source_line_no": 12,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.00mm}ergo}\\rlap{\\hspace*{28.40mm}$HS=\\sqrt{\\rho^2-\\left(\\dfrac{e\\sin m}{R}\\right)^2}$\\,.}",
+     "transcription": "ergo $HS=\\sqrt{\\rho^2-\\left(\\dfrac{e\\sin m}{R}\\right)^2}$\\,.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0689-body-L013",
+     "source_line_no": 13,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.00mm}Praeterea}\\rlap{\\hspace*{19.10mm}$SN=E'N-E'S$}",
+     "transcription": "Praeterea $SN=E'N-E'S$",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0689-body-L014",
+     "source_line_no": 14,
+     "tex": "\\mbox{}\\rlap{\\hspace*{5.50mm}$E'N=E'E\\,\\dfrac{\\sin NEE'}{R}=E'E\\,\\dfrac{\\cos NE'E}{R}=2\\,e\\,\\dfrac{\\cos m}{R}$}",
+     "transcription": "$E'N=E'E\\,\\dfrac{\\sin NEE'}{R}=E'E\\,\\dfrac{\\cos NE'E}{R}=2\\,e\\,\\dfrac{\\cos m}{R}$",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0689-body-L015",
+     "source_line_no": 15,
+     "tex": "\\mbox{}\\rlap{\\hspace*{5.90mm}$E'S=E'M\\,\\dfrac{\\sin E'MS}{R}=E'M\\,\\dfrac{\\cos NE'E}{R}=e\\,\\dfrac{\\cos m}{R}$\\,.}",
+     "transcription": "$E'S=E'M\\,\\dfrac{\\sin E'MS}{R}=E'M\\,\\dfrac{\\cos NE'E}{R}=e\\,\\dfrac{\\cos m}{R}$\\,.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0689-body-L016",
+     "source_line_no": 16,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.00mm}Ergo}\\rlap{\\hspace*{18.60mm}$\\overline{HE}^2=\\Bigl\\{\\sqrt{\\rho^2-\\left(\\dfrac{e\\sin m}{R}\\right)^2}+\\dfrac{2e\\cos m}{R}-\\dfrac{e\\cos m}{R}\\Bigr\\}^2+\\left(\\dfrac{2e\\sin m}{R}\\right)^2$}",
+     "transcription": "Ergo $\\overline{HE}^2=\\Bigl\\{\\sqrt{\\rho^2-\\left(\\dfrac{e\\sin m}{R}\\right)^2}+\\dfrac{2e\\cos m}{R}-\\dfrac{e\\cos m}{R}\\Bigr\\}^2+\\left(\\dfrac{2e\\sin m}{R}\\right)^2$",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0689-body-L017",
+     "source_line_no": 17,
+     "tex": "\\mbox{}\\rlap{\\hspace*{22.60mm}$HE=\\sqrt{\\Bigl\\{\\sqrt{\\rho^2-\\left(\\dfrac{e\\sin m}{R}\\right)^2}+\\dfrac{e\\cos m}{R}\\Bigr\\}^2+\\left(\\dfrac{2e\\sin m}{R}\\right)^2}$\\,,}",
+     "transcription": "$HE=\\sqrt{\\Bigl\\{\\sqrt{\\rho^2-\\left(\\dfrac{e\\sin m}{R}\\right)^2}+\\dfrac{e\\cos m}{R}\\Bigr\\}^2+\\left(\\dfrac{2e\\sin m}{R}\\right)^2}$\\,,",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0689-body-L018",
+     "source_line_no": 18,
+     "tex": "quae est \\textit{distantia geocentrica centri epicycli.} Unde demum:",
+     "transcription": "quae est *distantia geocentrica centri epicycli.* Unde demum:",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0689-body-L019",
+     "source_line_no": 19,
+     "tex": "\\mbox{}\\rlap{\\hspace*{26.60mm}sin aequat. centri $=\\dfrac{2e\\sin m}{\\text{dist.\\ centri epicycli a Terrae centro}}$\\,.}",
+     "transcription": "sin aequat. centri $=\\dfrac{2e\\sin m}{\\text{dist.\\ centri epicycli a Terrae centro}}$\\,.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0689-body-L020",
+     "source_line_no": 20,
+     "tex": "Qua formula, constructionibus geometricis \\Name{Ptolemaei} deducta, procul dubio \\Name{al-Battānī}",
+     "transcription": "Qua formula, constructionibus geometricis {sp:Ptolemaei} deducta, procul dubio {sp:al-Battānī}",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0689-body-L021",
+     "source_line_no": 21,
+     "tex": "aliique multi (ac ipse \\Name{Regiomontanus}) tabulam aequationis centri condiderunt aut pro-",
+     "transcription": "aliique multi (ac ipse {sp:Regiomontanus}) tabulam aequationis centri condiderunt aut pro-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0689-body-L022",
+     "source_line_no": 22,
+     "tex": "baverunt.",
+     "transcription": "baverunt.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0689-body-L023",
+     "source_line_no": 23,
+     "tex": "\\Indent Tangentibus adhibitis, regula longe simplicior reperitur:",
+     "transcription": "Tangentibus adhibitis, regula longe simplicior reperitur:",
+     "semantic_anchor": "AB01-PDF0689-P01",
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0689-body-L024",
+     "source_line_no": 24,
+     "tex": "\\mbox{}\\rlap{\\hspace*{9.70mm}tang aequat. centri $=$ tang $E'HE=R\\,\\dfrac{NE}{HN}=\\dfrac{2e\\sin m}{\\sqrt{\\rho^2-\\left(\\dfrac{e\\sin m}{R}\\right)^2}+\\dfrac{e\\cos m}{R}}$\\,;}",
+     "transcription": "tang aequat. centri $=$ tang $E'HE=R\\,\\dfrac{NE}{HN}=\\dfrac{2e\\sin m}{\\sqrt{\\rho^2-\\left(\\dfrac{e\\sin m}{R}\\right)^2}+\\dfrac{e\\cos m}{R}}$\\,;",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0689-body-L025",
+     "source_line_no": 25,
+     "tex": "\\textit{R} autem ac \\textgreek{ρ} unius partis sumptis, ac \\textit{e} ad \\textgreek{ρ} = 1 relata:",
+     "transcription": "*R* autem ac ρ unius partis sumptis, ac *e* ad ρ = 1 relata:",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0689-body-L026",
+     "source_line_no": 26,
+     "tex": "\\mbox{}\\rlap{\\hspace*{31.60mm}tang aequat. centri $=\\dfrac{2e_1\\sin m}{\\sqrt{1-(e_1\\sin m)^2}+e_1\\cos m}$\\,.}",
+     "transcription": "tang aequat. centri $=\\dfrac{2e_1\\sin m}{\\sqrt{1-(e_1\\sin m)^2}+e_1\\cos m}$\\,.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    }
+   ]
+  },
+  {
+   "role": "notes_left",
+   "lines": [
+    {
+     "id": "AB01-PDF0689-notes_left-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (1) \\textit{Ta‘dīl al-ḥāṣṣah wa ’l-markaz;} eius quan-",
+     "transcription": "(1) *Ta‘dīl al-ḥāṣṣah wa ’l-markaz;* eius quan-",
+     "semantic_anchor": "AB01-PDF0689-N01",
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0689-notes_left-L002",
+     "source_line_no": null,
+     "tex": "titas enim est etiam differentia inter epicycli apo-",
+     "transcription": "titas enim est etiam differentia inter epicycli apo-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0689-notes_left-L003",
+     "source_line_no": null,
+     "tex": "geum verum et medium, qua uti oportet ad ano-",
+     "transcription": "geum verum et medium, qua uti oportet ad ano-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  },
+  {
+   "role": "notes_right",
+   "lines": [
+    {
+     "id": "AB01-PDF0689-notes_right-L001",
+     "source_line_no": null,
+     "tex": "maliam mediam in veram convertendam. Quid \\textit{cen-}",
+     "transcription": "maliam mediam in veram convertendam. Quid *cen-*",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0689-notes_right-L002",
+     "source_line_no": null,
+     "tex": "\\textit{trum} sit infra statim dicam.",
+     "transcription": "*trum* sit infra statim dicam.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  }
+ ]
+}
