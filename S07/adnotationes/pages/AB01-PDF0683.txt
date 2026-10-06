@@ -1,0 +1,57 @@
+@page 683 234
+{sp:ctiones} omnes nomen aliquod receperunt, sed anguli quos octo venti secundarii cum quatuor
+cardinalibus faciunt falsi evaserunt; nam in 12 ventorum rosa ita delineata, intervalla conti-
+gua punctis S et N sunt 45 graduum, reliqua 22° {sfrac:1/2}. — Rosa 16 ventorum omnibus Graecis
+Romanisque scriptoribus est ignota. — {sc:Schiaparelli}.**]**
+^ His omnibus bene perpensis, non difficile fuit corruptelas codicis Escurialensis in nomi-
+nibus Graecis circuli interioris hoc modo sanare:
+@vspace 6
+% the table of the wind names in the figure (Part II p. 92); columns measured on the print (table from 148.3 pt,
+% the text from 115.0 pt): azimuth numbers right-aligned on 171.5 pt, the fractions and signs hanging
+@colpad 1.5 1.5
+@cols 11.75 <|| 11.08c | 11.43c | 25.08c | 11.57c | 52.46c ||>
+@rule2 cols
+@hrow 16.3 | {rotb:Azimuth//in//figura.} | {rotb:Azimu-//{sp:thorum}//directiones.} | Nomina\\in Almagesto. | {rotb:Nomina//in//codice.} | **Probabiles restitutiones.**
+@hrule cols
+@cols 11.75 <|| 6.16r 4.92l | 11.43c | 25.08c | 11.57c | 52.46l ||>
+@fontsize 10.4 13.8
+@rowgap 2
+@rowsep 1.5
+@row 0~° | | S | νότος | ٮوطس | نوطس νότος
+@row 22~ {sfrac:1/2} | | SSE | ortus hiemalis | بوٮوطس | اورونوطس εὐρόνοτος (= φοινικίας)
+@row 45 | | SE | εὐρόνοτος | هوٮعس | فونقيس φοινικίας
+@row 67~ {sfrac:1/2} | | ESE | εὖρος | صدوس | اوروس εὖρος
+@row 90 | | E | ἀπηλιώτης | اڡلطس | افليوطس ἀπηλιώτης
+@row 112~ {sfrac:1/2} | | ENE | καικίας | سعاس | ثيانس ϑηβάνας (= καικίας)
+@row 135 | | NE | βορέας | بورٮوٮ | بورياس βορέας
+@row 157~ {sfrac:1/2} | | NNE | ortus aestivus | افر...ٮطس | افرقطيس ἀπαρκτίας (= ὀρνιθίας)
+@row 180 | | N | ἀπαρκτίας | بعدٮاس | ارنثياس ὀρνιθίας
+@row 202~ {sfrac:1/2} | | NNW | occasus aestivus | افريقس | قرقيس κερκίας (= ϑρασκίας)
+@row 225 | | NW | ϑρασκίας | برقسلس | ثرسقيس ϑρασκίας
+@row 247~ {sfrac:1/2} | | WNW | ἰάπυξ | اٮاقونس | يافوقس ἰάπυξ
+@row 270 | | W | ζέφυρος | رهمرس | زهفرس ζέφυρος
+@row 292~ {sfrac:1/2} | | WSW | λίψ | لعوس | ليبوس λίψ (ex genit. λιβός)
+@row 315 | | SW | λιβόνοτος | ليبونطس | ليبونطس λιβόνοτος
+@row 337~ {sfrac:1/2} | | SSW | occasus hiemalis | بونطس | لوقونطس λευκόνοτος (= λιβόνοτος).
+@rowsep 0
+@rowgap 1
+@rule2 cols
+@normal
+@vspace 6
+^ Ex hoc conspectu patet in *Graeco* Almagesti exemplari, unde versio *Arabica* Albatenio
+nota fluxit, ad quatuor radios redundantes librarium (pro *ortibus* et *occasibus* nostrae reda-
+ctionis Graecae) aliis nominibus Graecis ventos propinquos repetivisse. Versio Arabica autem e
+*Syriaco* facta videtur ob nomen zephyri Arabice *zehfiros* scriptum; cfr. p. 210–11.
+^ **[**Quatuor nomina autem ad quatuor angulos paginae non paucum corrupta. In figura
+*Almagesti* directiones ortuum et occasuum collaterales sunt septentrioni et meridiei, nam cum
+meridiano angulum 22 {sfrac:1/2} graduum efficiunt. Venti cum his directionibus convenientes sunt:
+*Ortui hiemali* εὐρόνοτος, qui in rosa Graeca est collateralis vento meridiei a parte orientis;
+codicis اورى نطس est igitur اورونطس *ewrūnoṭos.* — Collateralis fere vento septentrionis a parte
+orientis est ὀρνιθίας, cuius nomen probabiliter apud *ortum aestivum;* tunc pro اريقنفوس codicis
+erit ارنثيس *ornīthiyas* legendum. — *Occasui aestivo* ad amussim ἀργέστης respondet; igitur
+ارقطوس codicis videtur ارغسطوس *arghesṭūs* emendandum. — Apud *occasum hiemalem* cod.
+@obs body (table, column «Nomina in codice»): the codex forms are printed with the dots of the print, several letters without them as in the codex (ٮ dotless tooth, ڡ dotless fa); transcribed so.
+@obs body (table, row 8): «افر...ٮطس» is printed with three dots for the letters that cannot be read.
+@obs body (table, row 6): the restored form is printed «ثيانس», without a ba.
+@obs body (table): the rule under the head is printed broken, as a dashed line.
+@obs body L22: a thin broken vertical stroke is printed before «Apud»; not transcribed.

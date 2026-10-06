@@ -16,6 +16,8 @@ Transcription format (UTF-8; one printed line per source line, as printed, with 
                          a label beginning with > is set flush right); @calcrule the rule under the numbers;
                          @calcset INDENT LABEL SIGN NUM the column widths in mm
   @cols INDENT C ...     the columns of a small table (widths in mm with l, r or c; | a vertical rule);
+  @hrow H | C1 | ...     a head row H mm tall in the same columns, cells centred; {rot:A//B} and {rotb:A//B}
+                         (bold) set the lines A, B turned through 90 degrees
   @row C1 | C2 | ...     one row of it (~ hangs a unit sign: 159~°; {brace2} a brace over two rows; a cell
                          beginning with > is the indented second line of a name);
                          @rowrule - | | - ... a rule under the columns marked -; || in @cols is a double rule,
@@ -23,11 +25,14 @@ Transcription format (UTF-8; one printed line per source line, as printed, with 
                          indented N mm, one beginning with _ is set half a line lower; @rule2 cols and @hrule cols
                          are a double and a thin rule across the table;
                          @rowgap MM an empty stretch of the table that carries its rules; @brace under|over A B
-                         a horizontal brace across the columns A..B between two rows
+                         a horizontal brace across the columns A..B between two rows; @rowsep MM an extra
+                         gap after every following @row (0 ends it); @colpad A B the space before and after
+                         each rule (mm; default 3 2)
   @pos X:T | X>:T | ...  a line whose pieces stand at X mm from the left edge (> right-aligned, ^ centred, _ half a
                          line lower; ~ hangs a unit sign); @posrule X1 X2 [| X1 X2] rules between two lines;
                          @posbrace under|over X1 X2 [| X1 X2] horizontal braces between two lines
-  @small / @normal       the following lines in small type (9 on 12 pt) / in the type of the text
+  @small / @normal       the following lines in small type (9 on 12 pt) / in the type of the text;
+                         @fontsize PT LEAD any other size
   > TEXT                 a continuation line of a hanging paragraph (indented 2.5 em)
   @mcols W1 W2 ...       columns of short lines side by side (widths as fractions of the text width); @mcnext
                          starts the next column, @mcend closes the block; inside, @chead TEXT is the small bold
@@ -181,7 +186,26 @@ def markup(s):
     s = s.replace("⸿", r"{\CapFont ⸿}")  # the capitulum of the Spanish quotations
     s = s.replace("☾", r"\MoonSym{}").replace("⊙", r"\SunSym{}")
     s = s.replace("\uE001", r"\AbjadZero{}").replace("\uE002", "*")
-    return re.sub("\uE003(\\d+)\uE004", lambda m: keep[int(m.group(1))], s)
+    s = re.sub("\uE003(\\d+)\uE004", lambda m: keep[int(m.group(1))], s)
+    return rotate_heads(s)
+
+
+def rotate_heads(s):
+    """{rot:A//B//C} (and {rotb:...}, bold): the lines A, B, C stacked and turned through 90 degrees, as the heads of
+    narrow table columns are printed; the argument may contain braces"""
+    out, i = [], 0
+    while True:
+        m = re.compile(r"\{rot(b?):").search(s, i)
+        if not m:
+            return "".join(out) + s[i:]
+        depth, j = 1, m.end()
+        while depth:
+            depth += {"{": 1, "}": -1}.get(s[j], 0)
+            j += 1
+        body = s[m.end():j - 1].replace("//", r"\\")
+        bold = r"\bfseries" if m.group(1) else ""
+        out.append(s[i:m.start()] + r"\rotatebox{90}{" + bold + r"\shortstack{" + body + "}}")
+        i = j
 
 
 def parse(path):
@@ -215,7 +239,8 @@ def parse(path):
             elif cmd in ("@title", "@center", "@vspace", "@rule", "@rule2", "@verse", "@calc", "@calcrule",
                          "@calcset", "@cols", "@row", "@rowrule", "@mcols", "@mcnext", "@mcend", "@chead", "@skip",
                          "@small", "@normal", "@rowgap", "@hrule", "@wrap", "@endwrap", "@brace", "@pos",
-                         "@posrule", "@posbrace"):
+                         "@posrule", "@posbrace", "@hrow", "@rowsep", "@colpad",
+                         "@fontsize"):
                 rec[part].append((cmd[1:], arg))
             else:
                 raise SystemExit(f"{path.name}: unknown directive {cmd}")
@@ -250,7 +275,7 @@ def calc_tex(src):
             + "".join(calc_cell(c) for c in nums) + (r"\hspace{2.5mm}" + markup(tail) if tail else ""))
 
 
-COLS = {"indent": 0, "cols": []}
+COLS = {"indent": 0, "cols": [], "pad": (3.0, 2.0)}
 BRACE2 = r"\smash{\raisebox{-6.9pt}{$\left\{\rule[-10pt]{0pt}{20pt}\right.$}}"  # a brace over this row and the next
 
 
@@ -295,6 +320,28 @@ def row_tex(src):
     return "".join(out)
 
 
+def hrow_tex(src):
+    """@hrow H | C1 | C2 ...: a head row H mm tall in the columns of @cols, in the small type of table heads; each
+    cell is centred in its column, horizontally and vertically, and the rules run through the whole height"""
+    h, _, rest = src.partition("|")
+    H = float(h)
+    cells = [c.strip() for c in rest.split("|")]
+    widths = [c for c in COLS["cols"] if c not in SEPS]
+    if len(cells) != len(widths):
+        raise SystemExit(f"@hrow has {len(cells)} cells for {len(widths)} columns: {src}")
+    out, k = [r"\hspace*{" + str(COLS["indent"]) + "mm}"], 0
+    rule = r"\rule[-1mm]{.4pt}{" + f"{H:.2f}" + "mm}"
+    for col in COLS["cols"]:
+        if col in SEPS:
+            out.append(rule_piece(col, rule))
+            continue
+        w, c = col[0], cells[k]
+        k += 1
+        out.append(r"\raisebox{-1mm}{\parbox[b][" + f"{H:.2f}" + "mm][c]{" + str(w) + r"mm}{\centering"
+                   r"\fontsize{7.5}{9}\selectfont " + markup(c) + "}}")
+    return "".join(out)
+
+
 def rowrule_tex(src):
     """@rowrule - | - | | ...: a rule under each column of the @cols marked with -, between two rows"""
     cells = [c.strip() for c in src.split("|")]
@@ -317,20 +364,22 @@ SEPS = ("|", "||", "<||", "||>")
 
 def rule_piece(col, rule):
     """the space and rule(s) of a column separator: | a rule, || a double rule, <|| and ||> the double rules of
-    the left and the right edge of a boxed table"""
+    the left and the right edge of a boxed table; the space before and after a rule is set by @colpad"""
+    a, b = (rf"\hspace{{{x}mm}}" for x in COLS["pad"])
     if col == "|":
-        return r"\hspace{3mm}" + rule + r"\hspace{2mm}"
+        return a + rule + b
     if col == "<||":
-        return rule + r"\hspace{1.2pt}" + rule + r"\hspace{2mm}"
+        return rule + r"\hspace{1.2pt}" + rule + b
     if col == "||>":
-        return r"\hspace{3mm}" + rule + r"\hspace{1.2pt}" + rule
-    return r"\hspace{3mm}" + rule + r"\hspace{1.2pt}" + rule + r"\hspace{2mm}"
+        return a + rule + r"\hspace{1.2pt}" + rule
+    return a + rule + r"\hspace{1.2pt}" + rule + b
 
 
 def cols_width():
     """the width in mm of a table in the current @cols, separators included"""
     pt = 25.4 / 72.27
-    pad = {"|": 5 + 0.4 * pt, "||": 5 + 2.0 * pt, "<||": 2 + 2.0 * pt, "||>": 3 + 2.0 * pt}
+    a, b = COLS["pad"]
+    pad = {"|": a + b + 0.4 * pt, "||": a + b + 2.0 * pt, "<||": b + 2.0 * pt, "||>": a + 2.0 * pt}
     return sum(pad[c] if c in SEPS else c[0] for c in COLS["cols"])
 
 
@@ -431,9 +480,13 @@ def section(items, prefix, role, numbered):
     """the TeX of one section and its line records"""
     out, recs, n, par, tab, fig = [], [], 0, 0, 0, 0
     mc = None  # the column widths of an open @mcols block, and the column being set
+    rowsep = "0"
     for kind, text in items:
         if kind == "cols":
             set_cols(text)
+            continue
+        if kind == "colpad":  # @colpad A B: the space in mm before and after each column rule (default 3 2)
+            COLS["pad"] = tuple(float(x) for x in text.split())
             continue
         if kind == "rowrule":
             out.append(rowrule_tex(text))
@@ -455,6 +508,10 @@ def section(items, prefix, role, numbered):
         if kind == "small":
             out.append(r"\par\fontsize{9}{12}\selectfont")
             continue
+        if kind == "fontsize":  # @fontsize PT LEAD: the type of the following lines
+            pt, lead = text.split()
+            out.append(r"\par\fontsize{" + pt + "}{" + lead + r"}\selectfont")
+            continue
         if kind == "normal":
             out.append(r"\par\fontsize{11.1}{13.8}\selectfont")
             continue
@@ -469,6 +526,9 @@ def section(items, prefix, role, numbered):
             continue
         if kind == "rowgap":
             out.append(rowgap_tex(text))
+            continue
+        if kind == "rowsep":  # @rowsep MM: an extra gap carrying the rules after every following @row (0: none)
+            rowsep = text.strip()
             continue
         if kind == "skip":
             out.append(r"\par\vspace{" + text + r"\baselineskip}")
@@ -490,7 +550,7 @@ def section(items, prefix, role, numbered):
         if kind == "endwrap":
             out.append(r"\end{minipage}\par")
             continue
-        if kind in ("line", "center", "title", "verse", "calc", "row", "chead", "pos"):
+        if kind in ("line", "center", "title", "verse", "calc", "row", "chead", "pos", "hrow"):
             n += 1
             lid = f"{prefix}-{role}-L{n:03d}"
             src = (text[3:] if kind == "line" and text.startswith("^^ ") else
@@ -504,6 +564,9 @@ def section(items, prefix, role, numbered):
                 src = " ".join(c.strip().lstrip(">") for c in src.split("|") if c.strip())
             elif kind == "row":
                 tex = row_tex(src)
+            elif kind == "hrow":
+                tex = hrow_tex(src)
+                src = " | ".join(c.strip() for c in src.split("|")[1:])
             elif kind == "pos":
                 tex = pos_tex(src)
                 src = " ".join(re.sub(r"^[\d.]+[>^_]*:", "", it.strip()).replace("~", "") for it in src.split(" | "))
@@ -539,6 +602,8 @@ def section(items, prefix, role, numbered):
             recs.append({"id": lid, "source_line_no": n if numbered else None, "tex": tex, "transcription": src,
                          "semantic_anchor": sem,
                          "source_role": "NALLINO_ADNOTATIONES" if role == "body" else "NALLINO_APPARATUS"})
+            if kind == "row" and float(rowsep) > 0:
+                out.append(rowgap_tex(rowsep))
         elif kind == "calcset":
             CALC.update(zip(("indent", "label", "sign", "num"), (float(x) for x in text.split())))
         elif kind == "calcrule":  # the rule under the three number columns of a worked computation
@@ -571,7 +636,7 @@ def section(items, prefix, role, numbered):
 def page(rec):
     CALC.clear()
     CALC.update(CALC_DEFAULT)
-    COLS.update({"indent": 0, "cols": []})
+    COLS.update({"indent": 0, "cols": [], "pad": (3.0, 2.0)})
     prefix = f"AB01-PDF{rec['pdf']:04d}"
     out = [r"\DSource{" + f"{rec['pdf']:04d}" + "}{" + str(rec["pp"]) + "}"]
     sections = []
