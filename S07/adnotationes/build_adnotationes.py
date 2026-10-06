@@ -60,7 +60,7 @@ Inline markup: *italic*, **bold**, {gb:...} bold grotesque (the «Pag.» heads),
 {xs:...} the smallest type (the heads of narrow columns),
 {sc:...} small capitals, {sup:...} superscript, {sub:...} subscript,
 {sfrac:a/b} a small fraction, {0} the zero sign of the tables, {ar:...} an Arabic phrase with its own brackets and
-punctuation, set as one right-to-left run, {rtl:...} a phrase of Arabic numerals and Latin words that the print sets
+punctuation, set as one right-to-left run ({syr:...} the same for Syriac), {rtl:...} a phrase of Arabic numerals and Latin words that the print sets
 right to left, given in reading order, \\* a literal asterisk; runs of Arabic, Greek, Hebrew
 and Syriac letters are set in their fonts. & % # are escaped; $...$ is mathematics; every other character is literal."""
 import csv, json, re
@@ -173,8 +173,13 @@ def markup(s):
         keep.append(rtl_phrase(m.group(1)))
         return f"\uE003{len(keep) - 1}\uE004"
 
+    def stash_syr(m):  # {syr:...}: a Syriac phrase with its own punctuation, set as one right-to-left run
+        keep.append(r"\textsyriac{" + m.group(1) + "}")
+        return f"{len(keep) - 1}"
+
     s = re.sub(r"\{ar:([^}]*)\}", stash, s)
     s = re.sub(r"\{rtl:([^}]*)\}", stash_rtl, s)
+    s = re.sub(r"\{syr:([^}]*)\}", stash_syr, s)
     s = s.replace("\\*", "\uE002").replace("&", r"\&").replace("%", r"\%").replace("#", r"\#")
     s = re.sub(r"\{sp:([^}]*)\}", r"\\Name{\1}", s)
     s = re.sub(r"\{sc:([^}]*)\}", r"\\textsc{\1}", s)
