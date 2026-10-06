@@ -29,6 +29,9 @@ Transcription format (UTF-8; one printed line per source line, as printed, with 
                          starts the next column, @mcend closes the block; inside, @chead TEXT is the small bold
                          head of a group and @skip N leaves N lines (N may be 0.5)
   @raw ... @endraw       a LaTeX block passed through (tables, displayed formulas)
+  @wrap FRAC FILE [MM] ... @endwrap   a figure redrawn in figures/FILE.tex (indented MM), FRAC of the width on the
+                         left, with the
+                         printed lines between the two directives set beside it
   @notes                 the footnotes follow, left column; @col switches to the right column; @notes1 one column
   @sig TEXT              the signature at the foot of the page
   @obs TEXT              an observation on the print (a letter that did not print, a broken sign), kept in the record
@@ -56,7 +59,7 @@ ETHIOPIC_RUN = re.compile("([\u1200-\u137F]+(?: [\u1200-\u137F]+)*)")
 PREAMBLE = r"""\documentclass[11pt]{article}
 \usepackage[paperwidth=220mm,paperheight=320mm,left=16mm,right=16mm,top=18mm,bottom=18mm,headheight=16pt,headsep=10pt,footskip=14pt]{geometry}
 \usepackage{fix-cm}
-\usepackage{fontspec,amsmath,amssymb,graphicx,array,multirow}
+\usepackage{fontspec,amsmath,amssymb,graphicx,array,multirow,tikz}
 \usepackage[unicode,hidelinks]{hyperref}
 \usepackage{polyglossia}
 \setmainlanguage{latin}
@@ -69,6 +72,7 @@ PREAMBLE = r"""\documentclass[11pt]{article}
 \newfontfamily\syriacfont{Segoe UI Historic}[Script=Syriac]
 \newfontfamily\CapFont{Noto Serif}
 \newfontfamily\MoonFont{FreeSerif}
+\newcommand{\MoonSym}{\text{\MoonFont ☾}}\newcommand{\SunSym}{\text{\MoonFont ⊙}}
 \newfontfamily\EthiopicFont{Ebrima}
 \newcommand{\textethiopic}[1]{{\EthiopicFont #1}}
 \newfontfamily\NallinoSigns{NallinoSigns.otf}[Path=./fonts/]
@@ -87,6 +91,8 @@ PREAMBLE = r"""\documentclass[11pt]{article}
 \tracinglostchars=2
 \newcommand{\Name}[1]{{\addfontfeatures{LetterSpace=4.0}#1}}
 \newcommand{\Indent}{\hspace*{1.6em}}
+% an Arabic run inside a Latin line: its descenders do not open the line (the printed lines are evenly spaced)
+\newcommand{\ArabicRun}[1]{\smash[b]{\textarabic{#1}}}
 \newcommand{\qfrac}[2]{{}^{#1}\!/_{{#2}}}
 \newcommand{\sa}{\textsuperscript{\textit{a}}}\newcommand{\sm}{\textsuperscript{\textit{m}}}\newcommand{\sd}{\textsuperscript{\textit{d}}}
 \newcommand{\RawBlock}[1]{\par\vspace{3pt}\noindent#1\par\vspace{3pt}}
@@ -132,7 +138,7 @@ def rtl_phrase(s):
         punct[k + 1] += m.group(2)
     vis = []
     for k, w in enumerate(words):
-        t = r"\textarabic{" + w + "}" if ARABIC_RUN.search(w) else w
+        t = r"\ArabicRun{" + w + "}" if ARABIC_RUN.search(w) else w
         vis.append(t + punct[k])
     return " ".join(reversed(vis)) + punct[len(words)]
 
@@ -141,7 +147,7 @@ def markup(s):
     keep = []
 
     def stash(m):  # {ar:...}: an Arabic phrase with its own punctuation and brackets, set as one right-to-left run
-        keep.append(r"\textarabic{" + m.group(1) + "}")
+        keep.append(r"\ArabicRun{" + m.group(1) + "}")
         return f"\uE003{len(keep) - 1}\uE004"
 
     def stash_rtl(m):
@@ -161,13 +167,13 @@ def markup(s):
     s = s.replace("{0}", "\uE001")
     s = re.sub(r"\*\*([^*]+)\*\*", r"\\textbf{\1}", s)
     s = re.sub(r"\*([^*]+)\*", r"\\textit{\1}", s)
-    s = ARABIC_RUN.sub(lambda m: r"\textarabic{" + m.group(1) + "}", s)
+    s = ARABIC_RUN.sub(lambda m: r"\ArabicRun{" + m.group(1) + "}", s)
     s = GREEK_RUN.sub(lambda m: r"\textgreek{" + m.group(1) + "}", s)
     s = HEBREW_RUN.sub(lambda m: r"\texthebrew{" + m.group(1) + "}", s)
     s = SYRIAC_RUN.sub(lambda m: r"\textsyriac{" + m.group(1) + "}", s)
     s = ETHIOPIC_RUN.sub(lambda m: r"\textethiopic{" + m.group(1) + "}", s)
     s = s.replace("⸿", r"{\CapFont ⸿}")  # the capitulum of the Spanish quotations
-    s = s.replace("☾", r"{\MoonFont ☾}").replace("⊙", r"{\MoonFont ⊙}")
+    s = s.replace("☾", r"\MoonSym{}").replace("⊙", r"\SunSym{}")
     s = s.replace("\uE001", r"\AbjadZero{}").replace("\uE002", "*")
     return re.sub("\uE003(\\d+)\uE004", lambda m: keep[int(m.group(1))], s)
 
@@ -202,7 +208,7 @@ def parse(path):
                 rec["blank"] = True
             elif cmd in ("@title", "@center", "@vspace", "@rule", "@rule2", "@verse", "@calc", "@calcrule",
                          "@calcset", "@cols", "@row", "@rowrule", "@mcols", "@mcnext", "@mcend", "@chead", "@skip",
-                         "@small", "@normal", "@rowgap", "@hrule"):
+                         "@small", "@normal", "@rowgap", "@hrule", "@wrap", "@endwrap"):
                 rec[part].append((cmd[1:], arg))
             else:
                 raise SystemExit(f"{path.name}: unknown directive {cmd}")
@@ -345,7 +351,7 @@ def mc_begin(w):
 
 def section(items, prefix, role, numbered):
     """the TeX of one section and its line records"""
-    out, recs, n, par, tab = [], [], 0, 0, 0
+    out, recs, n, par, tab, fig = [], [], 0, 0, 0, 0
     mc = None  # the column widths of an open @mcols block, and the column being set
     for kind, text in items:
         if kind == "cols":
@@ -379,6 +385,23 @@ def section(items, prefix, role, numbered):
             continue
         if kind == "skip":
             out.append(r"\par\vspace{" + text + r"\baselineskip}")
+            continue
+        if kind == "wrap":  # @wrap FRAC FILE: the figure figures/FILE.tex on the left, the following lines beside it
+            frac, fname, *ind = text.split()
+            frac, gap = float(frac), 0.02
+            ind = r"\hspace*{" + ind[0] + "mm}" if ind else ""
+            fig += 1
+            fid = f"{prefix}-{role}-F{fig:02d}"
+            out.append(r"\par\noindent\begin{minipage}[t]{" + f"{frac:.3f}" + r"\FullSourceWidth}\vspace{0pt}"
+                       + r"\hypertarget{" + fid + r"}{}" + ind + r"\input{figures/" + fname + r"}\end{minipage}\hfill"
+                       + r"\begin{minipage}[t]{" + f"{1 - frac - gap:.3f}" + r"\FullSourceWidth}\vspace{0pt}"
+                       + r"\setlength{\GutterOffset}{" + f"{frac + gap:.3f}" + r"\FullSourceWidth}")
+            recs.append({"id": fid, "source_line_no": None, "tex": r"\input{figures/" + fname + "}",
+                         "transcription": f"[figure, redrawn: figures/{fname}.tex]", "semantic_anchor": None,
+                         "source_role": "NALLINO_FIGURE"})
+            continue
+        if kind == "endwrap":
+            out.append(r"\end{minipage}\par")
             continue
         if kind in ("line", "center", "title", "verse", "calc", "row", "chead"):
             n += 1

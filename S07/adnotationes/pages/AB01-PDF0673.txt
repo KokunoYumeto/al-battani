@@ -1,0 +1,44 @@
+@page 673 224
+^ Praeterea apogeum epicycli distinguitur in *verum* (τὸ ἀκριβὲς ἀπόγειον) et *medium* (τὸ
+μέσον ἀπόγειον). Verum, seu G (in circello cuius centrum M), est epicycli punctum in quod
+incidit linea recta ex centro Terrae per centrum epicycli ducta; medium (seu H eiusdem cir-
+@wrap 0.555 AB01-PDF0673-F01 18
+celli), a quo anomalia media numeratur,
+epicycli punctum in quod cadit linea recta
+per centrum epicycli ducta ex puncto F′ li-
+neae apsidalis excentrici, quod a centro E
+Terrae tanto distat quanto, in opposita parte,
+centrum excentrici ab eodem puncto E. Dif-
+ferentia apogeorum veri et medii, seu arcus
+GH, a {sp:Ptolemaeo} ἡ πρόσνευσις τοῦ τῆς
+σελήνης ἐπικύκλου « adsensus epicycli Lunae »
+vocatur; maxima (13° 9′) in 60° et 120° elon-
+gationis Lunae a Sole, nulla in syzygiis
+(i. e. Luna in apogeo excentrici consistente)
+et in quadraturis (seu Luna perigeum ex-
+centrici occupante). Ob hanc prosneusim *p,*
+aequatio simplex Lunae non pendet, ut So-
+lis, ab anomalia media *m,* sed ab anomalia
+correcta *m* + *p*; qua re, si *r* vocemus ra-
+@endwrap
+dium epicycli in partibus radii obliqui 60{sup:*p*} partium, aequatio simplex Lunae supputabitur for-
+mula (cfr. t. I, p. 219–20)
+@center tang aequat. simplicis = $R\,\dfrac{r \sin (m + p)}{60^{p}\,R + r \cos (m + p)}$\,,
+quam nos, ponendo $r_1 = \dfrac{r}{60}$ (i. e. radium epicycli in partibus decimalibus radii obliqui = 1),
+et radium *R,* ad quem functiones trigonometricae referuntur, 1 partis, scribemus
+@center tang aequat. simplicis = $\dfrac{r_1 \sin (m + p)}{1 + r_1 \cos (m + p)}$\,.
+^ Nunc *p* supputemus. Angulus AEM seu FEM, quem linea apsidum excentrici cum linea
+apsidum epicycli efficit, demonstratur semper aequari duplae elongationi Lunae mediae a Sole
+medio, nempe 2 (☾ — ⊙) esse. Sit ρ distantia variabilis Lunae seu centri epicycli a Terra,
+*e* excentricitas in partibus quarum 60 radio obliqui tribuuntur; ut ipse {sp:al-Battānī} ca-
+pite XXXIX docet, erit
+@center $\rho = \sqrt{(60^{p} - e)^2 - \left(\dfrac{e \sin 2\,(☾ - ⊙)}{R}\right)^{2}} \pm \dfrac{e \cos 2\,(☾ - ⊙)}{R}$\,,
+vel, sumptis *R* et radio obliqui = 1{sup:*p*}, et excentricitate $e_1$ in eius partibus:
+@center $\rho = \sqrt{(1 - e_1)^2 - e_1^{\,2} \sin^2 2\,(☾ - ⊙)} \pm e_1 \cos 2\,(☾ - ⊙)$.
+^ In figura est ME = ρ, arcus HG = ang. HMG = ang. EMF′ = *p*; considerando trian-
+gulo MEF′ (ducta perpendiculari ex F′ ad latus ME) statim deducitur
+@center tang $p$ = tang $EMF'$ = $R\,\dfrac{EF' \sin F'EM}{R \times EM - EF' \cos F'EM} = R\,\dfrac{EF' \sin FEM}{R \times EM + EF' \cos FEM}$
+@center tang $p$ = $R\,\dfrac{e \sin 2\,(☾ - ⊙)}{R\rho + e \cos 2\,(☾ - ⊙)} = R\,\dfrac{\left(\dfrac{e}{\rho}\right) \sin 2\,(☾ - ⊙)}{R + \left(\dfrac{e}{\rho}\right) \cos 2\,(☾ - ⊙)}$
+@obs body: the figure is redrawn from the print (figures/AB01-PDF0673-F01.tex); its proportions follow the print, the epicycle being drawn larger than to scale as there.
+@obs body L37: «aequat.» in the second formula is printed with a broken t, like «aequal.».
+@obs body: this page is printed from a grey scan in the master PDF; the letters of the figure are bold italic.

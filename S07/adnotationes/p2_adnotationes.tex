@@ -1,7 +1,7 @@
 \documentclass[11pt]{article}
 \usepackage[paperwidth=220mm,paperheight=320mm,left=16mm,right=16mm,top=18mm,bottom=18mm,headheight=16pt,headsep=10pt,footskip=14pt]{geometry}
 \usepackage{fix-cm}
-\usepackage{fontspec,amsmath,amssymb,graphicx,array,multirow}
+\usepackage{fontspec,amsmath,amssymb,graphicx,array,multirow,tikz}
 \usepackage[unicode,hidelinks]{hyperref}
 \usepackage{polyglossia}
 \setmainlanguage{latin}
@@ -14,6 +14,7 @@
 \newfontfamily\syriacfont{Segoe UI Historic}[Script=Syriac]
 \newfontfamily\CapFont{Noto Serif}
 \newfontfamily\MoonFont{FreeSerif}
+\newcommand{\MoonSym}{\text{\MoonFont ☾}}\newcommand{\SunSym}{\text{\MoonFont ⊙}}
 \newfontfamily\EthiopicFont{Ebrima}
 \newcommand{\textethiopic}[1]{{\EthiopicFont #1}}
 \newfontfamily\NallinoSigns{NallinoSigns.otf}[Path=./fonts/]
@@ -32,6 +33,8 @@
 \tracinglostchars=2
 \newcommand{\Name}[1]{{\addfontfeatures{LetterSpace=4.0}#1}}
 \newcommand{\Indent}{\hspace*{1.6em}}
+% an Arabic run inside a Latin line: its descenders do not open the line (the printed lines are evenly spaced)
+\newcommand{\ArabicRun}[1]{\smash[b]{\textarabic{#1}}}
 \newcommand{\qfrac}[2]{{}^{#1}\!/_{{#2}}}
 \newcommand{\sa}{\textsuperscript{\textit{a}}}\newcommand{\sm}{\textsuperscript{\textit{m}}}\newcommand{\sd}{\textsuperscript{\textit{d}}}
 \newcommand{\RawBlock}[1]{\par\vspace{3pt}\noindent#1\par\vspace{3pt}}
@@ -57,7 +60,7 @@
 \thispagestyle{empty}
 \begin{center}\Large AL-BATTĀNĪ\par\vspace{4mm}\LARGE OPUS ASTRONOMICUM\par
 \vspace{5mm}\large Caroli Alphonsi Nallino adnotationes ad tabulas (pars II)\par\vspace{8mm}
-\Large S07 --- editio diplomatica in progressu\par\vspace{4mm}\large Paginae impressae 189--220\end{center}
+\Large S07 --- editio diplomatica in progressu\par\vspace{4mm}\large Paginae impressae 189--224\end{center}
 \vspace{12mm}\noindent Singulae lineae paginarum impressarum singulis lineis huius editionis respondent, cum
 divisionibus vocabulorum, signis et generibus litterarum (rectis, inclinatis, distantibus). Textus ex imaginibus
 paginarum transcriptus est; litterae Graecae et Arabicae, numeri et signa in imaginibus amplificatis lecta sunt.
@@ -79,7 +82,7 @@ Haec transcriptio a nullo homine recognita est.\par
 \DLine{AB01-PDF0640-body-L002}{}{\CenterLine{\textit{Ad pag. 1–3.} — \textbf{Tabulae regum peregrinorum.}}}
 \par\vspace{4mm}
 \hypertarget{AB01-PDF0640-P01}{}
-\DLine{AB01-PDF0640-body-L003}{}{\Indent In titulo (1) lectionem codicis servavi; censeo tamen al-Battānī \textarabic{تاريخ} pro \textarabic{بتاريخ} scripsisse,}
+\DLine{AB01-PDF0640-body-L003}{}{\Indent In titulo (1) lectionem codicis servavi; censeo tamen al-Battānī \ArabicRun{تاريخ} pro \ArabicRun{بتاريخ} scripsisse,}
 \DLine{AB01-PDF0640-body-L004}{}{scilicet « et ab eo [incipit] chronologia Almagesti », sicut etiam apud \Name{al-Bīrūnī}, \textit{Chron.}}
 \DLine{AB01-PDF0640-body-L005}{5}{p. 88 text., 101 vers., scriptum invenimus. Re vera in \textit{Almagesto} \Name{Ptolemaeus} semper fere}
 \DLine{AB01-PDF0640-body-L006}{}{annis aerae Nabonassaris utitur.}
@@ -134,12 +137,12 @@ Haec transcriptio a nullo homine recognita est.\par
 \DLine{AB01-PDF0641-body-L013}{}{\Indent Non desunt parvae a textu Graeco discrepantiae. Regno prioris Artaxerxis 41 annos}
 \DLine{AB01-PDF0641-body-L014}{}{\Name{Ptolemaeus} tribuit; \Name{al-Battānī} et \Name{al-Bīrūnī} 43, ita ut summa usque ad Ochum mor-}
 \DLine{AB01-PDF0641-body-L015}{15}{tuum duobus augeatur annis. Regna Arogi, Darii filii Arsakh, Alexandri Macedonis, 2 + 4}
-\DLine{AB01-PDF0641-body-L016}{}{+ 8 = 14 annos apud \Name{Ptolemaeum} complectuntur; 10 + 6 + 6 = 22 (seu \textarabic{ى} 10 pro \textarabic{ب} 2,}
-\DLine{AB01-PDF0641-body-L017}{}{\textarabic{و} 6 pro \textarabic{د} 4, \textarabic{و} 6 pro \textarabic{ح} 8) apud \Name{al-Battānī}; 2 + 6 + 8 = 16 apud \Name{al-Bīrūnī}; qua re}
+\DLine{AB01-PDF0641-body-L016}{}{+ 8 = 14 annos apud \Name{Ptolemaeum} complectuntur; 10 + 6 + 6 = 22 (seu \ArabicRun{ى} 10 pro \ArabicRun{ب} 2,}
+\DLine{AB01-PDF0641-body-L017}{}{\ArabicRun{و} 6 pro \ArabicRun{د} 4, \ArabicRun{و} 6 pro \ArabicRun{ح} 8) apud \Name{al-Battānī}; 2 + 6 + 8 = 16 apud \Name{al-Bīrūnī}; qua re}
 \DLine{AB01-PDF0641-body-L018}{}{regnorum summa usque ad Alexandrum mortuum 424 in \textit{Canone} \Name{Ptolemaei}, 434 apud}
 \DLine{AB01-PDF0641-body-L019}{}{\Name{al-Battānī}, 428 apud \Name{al-Bīrūnī}. Miro modo p. 231 textus (t. II, p. 3 vers.) ac in Hispa-}
-\DLine{AB01-PDF0641-body-L020}{20}{nica versione intervallum a Bukhtanaṣṣar ad Alexandrum mortuum \textarabic{تكد} 424 annorum statuitur,}
-\DLine{AB01-PDF0641-body-L021}{}{quod in versione \textarabic{تلد} 434 ad fidem tabulae regum legendum putavi. — Error in sequentibus}
+\DLine{AB01-PDF0641-body-L020}{20}{nica versione intervallum a Bukhtanaṣṣar ad Alexandrum mortuum \ArabicRun{تكد} 424 annorum statuitur,}
+\DLine{AB01-PDF0641-body-L021}{}{quod in versione \ArabicRun{تلد} 434 ad fidem tabulae regum legendum putavi. — Error in sequentibus}
 \DLine{AB01-PDF0641-body-L022}{}{evanescit, cum a Philippo (Aridaeo) nova incipiat numeratio, scilicet aera ab Alexandro mortuo}
 \DLine{AB01-PDF0641-body-L023}{}{appellata (vide t. I, p. 242–43).}
 \hypertarget{AB01-PDF0641-P03}{}
@@ -169,17 +172,17 @@ Haec transcriptio a nullo homine recognita est.\par
 \DLine{AB01-PDF0641-notes_left-L010}{}{rectius, ut me \Name{I. Guidi} docet, Belṭshāṣār). Nomen}
 \DLine{AB01-PDF0641-notes_left-L011}{}{regis Belshaṣṣar ut \Name{al-Battānī} praebent \Name{Ḥamzah}}
 \DLine{AB01-PDF0641-notes_left-L012}{}{p. 94, ac \Name{aṭ-Ṭabarī} ser. I, t. I, p. 216; t. II, p. 652}
-\DLine{AB01-PDF0641-notes_left-L013}{}{(ubi editor male \textarabic{بلتشصر} recepit); ex librariorum cor-}
+\DLine{AB01-PDF0641-notes_left-L013}{}{(ubi editor male \ArabicRun{بلتشصر} recepit); ex librariorum cor-}
 \end{minipage}
 \hfill\begin{minipage}[t]{.48\textwidth}\vspace{0pt}\fontsize{9}{11.5}\selectfont\setlength{\GutterOffset}{0pt}
-\DLine{AB01-PDF0641-notes_right-L001}{}{ruptela \textarabic{بلتنصر} apud \Name{Ibn Khaldūn}, ed. Būlāq 1284}
-\DLine{AB01-PDF0641-notes_right-L002}{}{heg., t. II, p. 117. Apud \Name{Ibn al-Athīr} \textarabic{بلتاصر}; \Name{Euty-}}
+\DLine{AB01-PDF0641-notes_right-L001}{}{ruptela \ArabicRun{بلتنصر} apud \Name{Ibn Khaldūn}, ed. Būlāq 1284}
+\DLine{AB01-PDF0641-notes_right-L002}{}{heg., t. II, p. 117. Apud \Name{Ibn al-Athīr} \ArabicRun{بلتاصر}; \Name{Euty-}}
 \DLine{AB01-PDF0641-notes_right-L003}{}{\Name{chium} (\textit{Contextio gemmarum, sive Eutychii Pa-}}
 \DLine{AB01-PDF0641-notes_right-L004}{}{\textit{triarchae Alexandrini Annales ed. Edw. Pocockio,}}
-\DLine{AB01-PDF0641-notes_right-L005}{}{Oxoniae 1659, t. I, p. 257) \textarabic{بلتاسر}; sed fortasse in}
-\DLine{AB01-PDF0641-notes_right-L006}{}{ambobus \textarabic{ـتـ} est ex \textarabic{ـشـ} corrupta. Ad formam Syriacam,}
+\DLine{AB01-PDF0641-notes_right-L005}{}{Oxoniae 1659, t. I, p. 257) \ArabicRun{بلتاسر}; sed fortasse in}
+\DLine{AB01-PDF0641-notes_right-L006}{}{ambobus \ArabicRun{ـتـ} est ex \ArabicRun{ـشـ} corrupta. Ad formam Syriacam,}
 \DLine{AB01-PDF0641-notes_right-L007}{}{\Name{al-Bīrūnī} l. c. et \Name{Abū ’l-faraǵ} ed. Ṣālḥānī,}
-\DLine{AB01-PDF0641-notes_right-L008}{}{Beyrūt 1890, p. 78, \textarabic{بلطشاصر}.}
+\DLine{AB01-PDF0641-notes_right-L008}{}{Beyrūt 1890, p. 78, \ArabicRun{بلطشاصر}.}
 \hypertarget{AB01-PDF0641-N03}{}
 \DLine{AB01-PDF0641-notes_right-L009}{}{\Indent (3) \textgreek{Νιριγασολάσαρος} et \textgreek{Βαλτάσαρ} apud \Name{Syn-}}
 \DLine{AB01-PDF0641-notes_right-L010}{}{\Name{cellum}.}
@@ -205,35 +208,35 @@ Haec transcriptio a nullo homine recognita est.\par
 \DLine{AB01-PDF0642-body-L011}{}{\Indent \textit{Darius Medus,} i. e. Nabonadius, in textu est Darius \textit{al-ādharī,} seu « e provincia Ādhar-}
 \DLine{AB01-PDF0642-body-L012}{}{« bayǵān »; etiam in tabula geographica t. II, p. 35, nr. 69, haec regio censetur \textit{Mediae} Pto-}
 \DLine{AB01-PDF0642-body-L013}{}{lemaei respondere. In archetypo Syriaco procul dubio \textit{mādāyā} \textsyriac{ܡܕܝܐ} erat, quod \Name{al-Bīrūnī},}
-\DLine{AB01-PDF0642-body-L014}{}{\textit{Chron.,} p. 89 text., 101 vers. servavit: « Darius (\textarabic{دريوس}) \textit{al-Mādāy} primus ». Apud \Name{aṭ-Ṭa-}}
-\DLine{AB01-PDF0642-body-L015}{15}{\Name{barī}, \textit{Annales,} ser. I, t. II, p. 649 et 652 occurrit Darius (\textarabic{داريوش}) \textit{al-Mādhawī,} quod utro-}
+\DLine{AB01-PDF0642-body-L014}{}{\textit{Chron.,} p. 89 text., 101 vers. servavit: « Darius (\ArabicRun{دريوس}) \textit{al-Mādāy} primus ». Apud \Name{aṭ-Ṭa-}}
+\DLine{AB01-PDF0642-body-L015}{15}{\Name{barī}, \textit{Annales,} ser. I, t. II, p. 649 et 652 occurrit Darius (\ArabicRun{داريوش}) \textit{al-Mādhawī,} quod utro-}
 \DLine{AB01-PDF0642-body-L016}{}{bique dicitur nomen relativum a maiore eius quodam Mādhī vocato; apud \Name{Eutychium}}
-\DLine{AB01-PDF0642-body-L017}{}{t. I, p. 257, « Darius... \textit{al-Mādī,} scilicet e progenie Mādānī » \textarabic{داريوش بن امرير المادي اعني من ولد ماداني};}
-\DLine{AB01-PDF0642-body-L018}{}{apud \Name{Abū ’l-faraǵ} ed. Ṣālḥānī, p. 78 et 80, Darius (\textarabic{داريوش}) \textit{al-Mādī,} et in eiusdem Chro-}
+\DLine{AB01-PDF0642-body-L017}{}{t. I, p. 257, « Darius... \textit{al-Mādī,} scilicet e progenie Mādānī » \ArabicRun{داريوش بن امرير المادي اعني من ولد ماداني};}
+\DLine{AB01-PDF0642-body-L018}{}{apud \Name{Abū ’l-faraǵ} ed. Ṣālḥānī, p. 78 et 80, Darius (\ArabicRun{داريوش}) \textit{al-Mādī,} et in eiusdem Chro-}
 \DLine{AB01-PDF0642-body-L019}{}{nico Syriaco: \textit{Mādāyā.} — Ex alio fonte, Persico nempe, alibi \Name{al-Bīrūnī}, \textit{Chron.,} p. 111}
 \DLine{AB01-PDF0642-body-L020}{20}{text., 115 vers., \textit{Dārā al-Māhī} i. e. ex regione Māh, quae est forma Persica recentior ve-}
-\DLine{AB01-PDF0642-body-L021}{}{tustissimi nominis \textit{Māda} (Media). — In textu Arabico \textarabic{داريوس}, optime cum Graeco \textgreek{Δαρεῖος} con-}
-\DLine{AB01-PDF0642-body-L022}{}{venientem, recepi ut codex habet; sed vix dubito \Name{al-Battānī} in fonte suo \textarabic{داريوش} \textit{Dārīwash}}
+\DLine{AB01-PDF0642-body-L021}{}{tustissimi nominis \textit{Māda} (Media). — In textu Arabico \ArabicRun{داريوس}, optime cum Graeco \textgreek{Δαρεῖος} con-}
+\DLine{AB01-PDF0642-body-L022}{}{venientem, recepi ut codex habet; sed vix dubito \Name{al-Battānī} in fonte suo \ArabicRun{داريوش} \textit{Dārīwash}}
 \DLine{AB01-PDF0642-body-L023}{}{invenisse, ut fere omnes Arabum historici scriptores habent, iuxta Syriacam et Hebraicam}
 \DLine{AB01-PDF0642-body-L024}{}{formam \textit{Dāryāwesh} (in inscriptionibus cuneatis Persicis \textit{Dārayawaush,} Babylonicis \textit{Dāri-}}
 \DLine{AB01-PDF0642-body-L025}{25}{\textit{yāmush}).}
 \hypertarget{AB01-PDF0642-P04}{}
-\DLine{AB01-PDF0642-body-L026}{}{\Indent \textit{Arogus} in textu \textarabic{غيرون} et apud \Name{al-Bīrūnī}, \textit{Chron.,} p. 89 text., 101 vers. \textarabic{مرون}; quae}
+\DLine{AB01-PDF0642-body-L026}{}{\Indent \textit{Arogus} in textu \ArabicRun{غيرون} et apud \Name{al-Bīrūnī}, \textit{Chron.,} p. 89 text., 101 vers. \ArabicRun{مرون}; quae}
 \DLine{AB01-PDF0642-body-L027}{}{vix orta videntur ex \textgreek{Ἀρωγός} \textit{Canonis Ptolemaici,} vel ex \textgreek{Ἄρσης} (varr. \textgreek{Ἄρσις, Ναρσῆς, Ὀάρσης})}
 \DLine{AB01-PDF0642-body-L028}{}{ut ab aliis rex ille vocatur. Erat filius Artaxersis III (Ochi); qua re ex \textgreek{Ἄρσις Ὤχου} (1) in-}
 \DLine{AB01-PDF0642-body-L029}{}{terdum \textit{Arsisochus} conflatus est. Apud \Name{Eutychium} t. I, p. 266, \Name{al-Khāzinī} f. 106,v.,}
 \DLine{AB01-PDF0642-body-L030}{30}{\Name{Abū ’l-faraǵ} p. 89, ipsumque \Name{al-Bīrūnī}, \textit{Chron.,} p. 111 text., 115 vers. (sed ex alio}
 \DLine{AB01-PDF0642-body-L031}{}{fonte), \textit{Arsīs.}}
 \hypertarget{AB01-PDF0642-P05}{}
-\DLine{AB01-PDF0642-body-L032}{}{\Indent \textit{Darius} [\textit{filius}] \textit{Arsakh} (\textarabic{ارسخ}) in \textit{Canone Ptolemaico} est \textit{Darius tertius.} Plerumque ab}
+\DLine{AB01-PDF0642-body-L032}{}{\Indent \textit{Darius} [\textit{filius}] \textit{Arsakh} (\ArabicRun{ارسخ}) in \textit{Canone Ptolemaico} est \textit{Darius tertius.} Plerumque ab}
 \DLine{AB01-PDF0642-body-L033}{}{Arabibus, e Persico fonte, \textit{Dārā filius Dārā} vocatus. \Name{Al-Bīrūnī} tamen (\textit{Chron.} p. 89 text.,}
-\DLine{AB01-PDF0642-body-L034}{}{101 vers.) \textit{Darius filius Arsīkh} (\textarabic{ارسيخ}), et in eiusdem inedito \textit{Canone Mas‘ūdico} (teste \Name{Sa-}}
-\DLine{AB01-PDF0642-body-L035}{35}{\Name{chau} in notis ad vers. \textit{Chron.} p. 400) \textit{Darius filius Arsaq} \textarabic{ارسق}; \Name{Abū ’l-faraǵ} ed. Ṣāl-}
-\DLine{AB01-PDF0642-body-L036}{}{ḥānī p. 91, \textit{Darius filius Arshak} \textarabic{ارشك}, ut in eiusdem \textit{Chronico Syriaco,} ed. Bruns et Kirsch,}
+\DLine{AB01-PDF0642-body-L034}{}{101 vers.) \textit{Darius filius Arsīkh} (\ArabicRun{ارسيخ}), et in eiusdem inedito \textit{Canone Mas‘ūdico} (teste \Name{Sa-}}
+\DLine{AB01-PDF0642-body-L035}{35}{\Name{chau} in notis ad vers. \textit{Chron.} p. 400) \textit{Darius filius Arsaq} \ArabicRun{ارسق}; \Name{Abū ’l-faraǵ} ed. Ṣāl-}
+\DLine{AB01-PDF0642-body-L036}{}{ḥānī p. 91, \textit{Darius filius Arshak} \ArabicRun{ارشك}, ut in eiusdem \textit{Chronico Syriaco,} ed. Bruns et Kirsch,}
 \DLine{AB01-PDF0642-body-L037}{}{Lipsiae 1789, p. 38 text., 36 vers. (\textsyriac{ܕܪܝܘܫ ܒܪ ܐܪܫܟ}). — False omnino \Name{Eutychius} I, 266,}
 \DLine{AB01-PDF0642-body-L038}{}{\textit{Darius filius Arsīs}; et Aethiopica historiae Arabis \Name{Elmacini} (al-Makīn) redactio \textit{Dārā filius}}
 \DLine{AB01-PDF0642-body-L039}{}{\textit{Arsēs} \textethiopic{ዳራ፡ ወልደ፡ አርሴስ፡} (2). — Apud \Name{al-Mas‘ūdī}, \textit{Prairies} II, p. 100, nomen occurrit}
-\DLine{AB01-PDF0642-body-L040}{40}{\textarabic{دارو اليسع}, quod, non improbabili coniectura, \Name{J. Marquart} (3) putat al-Bīrūnicum \textit{Darium}}
+\DLine{AB01-PDF0642-body-L040}{40}{\ArabicRun{دارو اليسع}, quod, non improbabili coniectura, \Name{J. Marquart} (3) putat al-Bīrūnicum \textit{Darium}}
 \par\vspace{6pt}\hrule height.25pt\vspace{5pt}
 \noindent\begin{minipage}[t]{.48\textwidth}\vspace{0pt}\fontsize{9}{11.5}\selectfont\setlength{\GutterOffset}{0pt}
 \hypertarget{AB01-PDF0642-N01}{}
@@ -270,35 +273,35 @@ Haec transcriptio a nullo homine recognita est.\par
 \DLine{AB01-PDF0643-body-L012}{}{vocatur. — Eadem confusio apud \Name{Kūshiyār al-Ǵīlī} (\Name{Ideler}, \textit{Handb. d. mathem. u. techn.}}
 \DLine{AB01-PDF0643-body-L013}{}{\textit{Chronol.,} II, 626), et \Name{Ḥāǵǵī Khalīfah} ed. Flügel III, 470, nr. 6471, qui Theonem dicit}
 \DLine{AB01-PDF0643-body-L014}{}{« in opere suo astronomico, Canone appellato et ab observationibus illis deducto, aeram adhi-}
-\DLine{AB01-PDF0643-body-L015}{15}{« buisse Philippi Romani, Conditoris, fratris \textgreek{τοῦ} Dhū ’l-qarnayn » (\textarabic{استعمل في زيجه المسمّى بالقانون}}
-\DLine{AB01-PDF0643-body-L016}{}{\textarabic{المحصول من الرصد المذكور تاريخ فيلبس الرومي البناء اخي ذي القرنين}). Quem locum \Name{J. Lippert}, \textit{Studien}}
+\DLine{AB01-PDF0643-body-L015}{15}{« buisse Philippi Romani, Conditoris, fratris \textgreek{τοῦ} Dhū ’l-qarnayn » (\ArabicRun{استعمل في زيجه المسمّى بالقانون}}
+\DLine{AB01-PDF0643-body-L016}{}{\ArabicRun{المحصول من الرصد المذكور تاريخ فيلبس الرومي البناء اخي ذي القرنين}). Quem locum \Name{J. Lippert}, \textit{Studien}}
 \DLine{AB01-PDF0643-body-L017}{}{\textit{auf dem Gebiete der griechisch-arabischen Uebersetzungslitteratur,} Braunschweig 1894,}
 \DLine{AB01-PDF0643-body-L018}{}{p. 41, adn. 2, commemorans, non iniuria affirmat illud « Philippum conditorem » corruptum}
 \DLine{AB01-PDF0643-body-L019}{}{esse ex aliquo Graeco textu \textgreek{Φίλιππος ὁ μετ’ Ἀλέξανδρον τὸν κτίστην} « Philippus qui [fuit] post}
 \DLine{AB01-PDF0643-body-L020}{20}{Alexandrum conditorem ».}
 \hypertarget{AB01-PDF0643-P03}{}
 \DLine{AB01-PDF0643-body-L021}{}{\Indent \textit{Ptolemaeus Lepus.} Melius erat « Ptolemaeum \textit{Arnabā} » scribere, ut est in codice Escu-}
-\DLine{AB01-PDF0643-body-L022}{}{rialensi (\textarabic{اربيا}, l. \textarabic{ارنبا}). In textu edendo t. III, p. 229, \textarabic{ارنب} \textit{arnab,} i. e. « lepus », emendandum}
+\DLine{AB01-PDF0643-body-L022}{}{rialensi (\ArabicRun{اربيا}, l. \ArabicRun{ارنبا}). In textu edendo t. III, p. 229, \ArabicRun{ارنب} \textit{arnab,} i. e. « lepus », emendandum}
 \DLine{AB01-PDF0643-body-L023}{}{putavi; vix recte, nam si auctor « leporem » voluisset voci \textit{arnab} articulum \textit{al-} praeposuisset.}
 \DLine{AB01-PDF0643-body-L024}{}{Similiter « Ptolemaeus filius \textit{Arnabā} » apud \Name{al-Bīrūnī}, \textit{Chron.,} p. 92 text. Eius pater enim}
 \DLine{AB01-PDF0643-body-L025}{25}{Graece \textgreek{Λάγος} « lepus » vocabatur; quod nomen a Syriaco interprete optime \textit{arnĕbā} versum,}
 \DLine{AB01-PDF0643-body-L026}{}{ab \Name{al-Battānī} et \Name{al-Bīrūnī} (seu potius ab utriusque fonte Arabico) pro Graeca voce ha-}
 \DLine{AB01-PDF0643-body-L027}{}{bitum est. Recte alii Arabes \textit{al-arnab,} ut \Name{Ḥamzah} p. 66 text. « Ptolemaeus filius Leporis »;}
-\DLine{AB01-PDF0643-body-L028}{}{\Name{Eutychius} I, 298 « Ptolemaeus qui lepus cognominatur » (\textarabic{بطليموس ويلقّب الارنب}); \Name{al-Khā-}}
-\DLine{AB01-PDF0643-body-L029}{}{\Name{zinī} f. 117,r. « Ptolemaeus \textarabic{مثوس} (?) filius Lūghūs Leporis »; \Name{Abū ’l-faraǵ} p. 98 « Ptole-}
-\DLine{AB01-PDF0643-body-L030}{30}{« maeus filius Lāghūs id est filius Leporis ». — Interdum \textarabic{الارنب} \textit{al-arnab} corrumpitur \textarabic{الاريب}}
+\DLine{AB01-PDF0643-body-L028}{}{\Name{Eutychius} I, 298 « Ptolemaeus qui lepus cognominatur » (\ArabicRun{بطليموس ويلقّب الارنب}); \Name{al-Khā-}}
+\DLine{AB01-PDF0643-body-L029}{}{\Name{zinī} f. 117,r. « Ptolemaeus \ArabicRun{مثوس} (?) filius Lūghūs Leporis »; \Name{Abū ’l-faraǵ} p. 98 « Ptole-}
+\DLine{AB01-PDF0643-body-L030}{30}{« maeus filius Lāghūs id est filius Leporis ». — Interdum \ArabicRun{الارنب} \textit{al-arnab} corrumpitur \ArabicRun{الاريب}}
 \DLine{AB01-PDF0643-body-L031}{}{\textit{al-arīb} « intelligens, callidus, astutus »; vide adnot. de Goeje ad \Name{al-Mas‘ūdī}, \textit{at-Tanbīh,}}
-\DLine{AB01-PDF0643-body-L032}{}{p. 114 (locus libri \textit{Mafātīḥ} ibi adductus nunc in edit. van Vloten est p. 113: \textarabic{بطليموس الاريب}}
-\DLine{AB01-PDF0643-body-L033}{}{\textarabic{بن اديب}).}
+\DLine{AB01-PDF0643-body-L032}{}{p. 114 (locus libri \textit{Mafātīḥ} ibi adductus nunc in edit. van Vloten est p. 113: \ArabicRun{بطليموس الاريب}}
+\DLine{AB01-PDF0643-body-L033}{}{\ArabicRun{بن اديب}).}
 \hypertarget{AB01-PDF0643-P04}{}
 \DLine{AB01-PDF0643-body-L034}{}{\Indent \textit{Ptolemaeus Cleopatra.} Pro viro interdum habetur; vide quae narrat \Name{al-Bīrūnī}, \textit{Chron.,}}
 \DLine{AB01-PDF0643-body-L035}{35}{p. 92 text., 103 vers.}
 \hypertarget{AB01-PDF0643-P05}{}
 \DLine{AB01-PDF0643-body-L036}{}{\Indent \textit{Alexander filius Mammaeae,} \textgreek{Ἀλέξανδρος Μαμαίας}, seu Alexander Severus, est in cod.}
-\DLine{AB01-PDF0643-body-L037}{}{Escur. \textit{Aleksandros Brnmā} (\textarabic{برنما}), in codicibus \Name{al-Bīrūnī}, \textit{Chron.} p. 94 text., \textit{Aleksandros}}
-\DLine{AB01-PDF0643-body-L038}{}{\textit{Bzymā} (\textarabic{بزيما}), quod originem Syriacam ostendit. Primus enim Arabicus huius tabulae interpres}
+\DLine{AB01-PDF0643-body-L037}{}{Escur. \textit{Aleksandros Brnmā} (\ArabicRun{برنما}), in codicibus \Name{al-Bīrūnī}, \textit{Chron.} p. 94 text., \textit{Aleksandros}}
+\DLine{AB01-PDF0643-body-L038}{}{\textit{Bzymā} (\ArabicRun{بزيما}), quod originem Syriacam ostendit. Primus enim Arabicus huius tabulae interpres}
 \DLine{AB01-PDF0643-body-L039}{}{Syriacum \textsyriac{ܒܰܪ ܡܳܡܳܐ} \textit{bar Māmā} « filium Mammaeae » pro unico vocabulo habuit, Alexandri}
-\DLine{AB01-PDF0643-body-L040}{40}{cognomine; qua re \textarabic{برمما} \textit{Barmamā} scripsit, a librariis postea varie corruptum. — Forma Syriaca}
+\DLine{AB01-PDF0643-body-L040}{40}{cognomine; qua re \ArabicRun{برمما} \textit{Barmamā} scripsit, a librariis postea varie corruptum. — Forma Syriaca}
 \DLine{AB01-PDF0643-body-L041}{}{genuina nominis \textgreek{Μαμαία} est \textsyriac{ܡܡܐ} \textit{Māmā,} in inscriptionibus Phoeniciis \texthebrew{ממה}, in Palmyrenis \texthebrew{ממי}}
 \DLine{AB01-PDF0643-body-L042}{}{(cfr. \Name{Nöldeke}, \textit{Beiträge zur semitischen Sprachwissenschaft,} Strassburg 1904, p. 94); qua}
 \par\vspace{6pt}\hrule height.25pt\vspace{5pt}
@@ -309,14 +312,14 @@ Haec transcriptio a nullo homine recognita est.\par
 \end{minipage}
 \hfill\begin{minipage}[t]{.48\textwidth}\vspace{0pt}\fontsize{9}{11.5}\selectfont\setlength{\GutterOffset}{0pt}
 \DLine{AB01-PDF0643-notes_right-L001}{}{\textit{wa ’l-i‘tibār,} Būlāq 1270 hegirae, I, 260, l. 5 a f.:}
-\DLine{AB01-PDF0643-notes_right-L002}{}{\textarabic{الاسكندر البناء المقدوني} « Alexander conditor Macedon ».}
+\DLine{AB01-PDF0643-notes_right-L002}{}{\ArabicRun{الاسكندر البناء المقدوني} « Alexander conditor Macedon ».}
 \end{minipage}
 \DSource{0644}{195}
 \DLine{AB01-PDF0644-body-L001}{}{re optime \Name{Abū ’l-faraǵ} ed. Ṣālḥānī p. 126, e Syriacis fontibus recepit « \textit{Aleksandrūs,} cuius}
 \DLine{AB01-PDF0644-body-L002}{}{« matris nomen erat \textit{Māmā} ». — Traditio autem Arabica quae ex \textit{Graeco} manat, genitivum}
 \DLine{AB01-PDF0644-body-L003}{}{Graecum \textgreek{Μαμαίας} servat, quem pro Alexandri cognomine habuit; ita \Name{al-Mas‘ūdī}, \textit{Prai-}}
 \DLine{AB01-PDF0644-body-L004}{}{\textit{ries} II, 306, \textit{al-Iskandar Māmayās;} \Name{al-Mas‘ūdī}, \textit{at-Tanbīh} p. 133, « \textit{al-Ikṣandros}}
-\DLine{AB01-PDF0644-body-L005}{5}{(\textarabic{الاكصندرس}) et cognominatur \textit{Māmayās} », sicut etiam \Name{Ibn al-Athīr}, ed. Kahirensis, t. I,}
+\DLine{AB01-PDF0644-body-L005}{5}{(\ArabicRun{الاكصندرس}) et cognominatur \textit{Māmayās} », sicut etiam \Name{Ibn al-Athīr}, ed. Kahirensis, t. I,}
 \DLine{AB01-PDF0644-body-L006}{}{p. 143 (perperam 145 impressum) in altero regum catalogo habet.}
 \hypertarget{AB01-PDF0644-P01}{}
 \DLine{AB01-PDF0644-body-L007}{}{\Indent \textit{Decius.} In \textit{Canone} \textgreek{Δέκιος}, et apud \textit{historicos} Arabum scriptores \textit{Dāqiyūs, Daqyūs, Dī-}}
@@ -326,13 +329,13 @@ Haec transcriptio a nullo homine recognita est.\par
 \DLine{AB01-PDF0644-body-L011}{}{\textit{tafsīr} aṭ-Ṭabarī) t. XV, p. 114; \Name{ath-Tha‘labī}, \textit{‘Arā’is al-maǵālis,} Kahirae 1297 heg.,}
 \DLine{AB01-PDF0644-body-L012}{}{p. 369 sqq.; \Name{az-Zamakhsharī}, \textit{al-Kashshāf,} Kahirae 1307 heg., t. I, p. 567; \Name{al-Bay-}}
 \DLine{AB01-PDF0644-body-L013}{}{\Name{ḍāwī} ed. Fleischer, t. I, p. 559 seq.; \Name{ad-Damīrī}, \textit{Ḥayāt al-ḥayawān,} Kahirae 1311 heg.,}
-\DLine{AB01-PDF0644-body-L014}{}{t. II, p. 240–45 (s. v. \textarabic{كلب}); [Pseudo-] \Name{Ibn Iyās}, \textit{Badā’i‘ az-zuhūr,} Kahirae 1310 heg.,}
+\DLine{AB01-PDF0644-body-L014}{}{t. II, p. 240–45 (s. v. \ArabicRun{كلب}); [Pseudo-] \Name{Ibn Iyās}, \textit{Badā’i‘ az-zuhūr,} Kahirae 1310 heg.,}
 \DLine{AB01-PDF0644-body-L015}{15}{p. 182–85, etc. — \Name{Aṭ-Ṭabarī} in \textit{Annalibus,} ser. I, t. II, p. 778 (de septem Dormientibus}
-\DLine{AB01-PDF0644-body-L016}{}{agens) ac magno in Qoranum \textit{Commentario} t. XV, p. 123–26, 128, 134–38, \textit{Daqīnūs} \textarabic{دقينوس}.}
+\DLine{AB01-PDF0644-body-L016}{}{agens) ac magno in Qoranum \textit{Commentario} t. XV, p. 123–26, 128, 134–38, \textit{Daqīnūs} \ArabicRun{دقينوس}.}
 \DLine{AB01-PDF0644-body-L017}{}{Nomen exstat in vico \textit{Shahr-i-Daqyānūs} « Deciani urbs » quo sunt ruinae urbis Ǵiruft (vide}
 \DLine{AB01-PDF0644-body-L018}{}{tabulas geographicas nr. 255). — Miro modo \textit{Daqyūs} a \textit{Daqyānūs} distinguit lexicon \textit{Qāmūs}}
-\DLine{AB01-PDF0644-body-L019}{}{inscriptum eiusque Commentarius \textit{Tāǵ al-‘arūs,} ed. altera, t. IV, p. 152: \textarabic{(دقيوس بالفتح) اسم}}
-\DLine{AB01-PDF0644-body-L020}{20}{\textarabic{(ملك) اعجمي (اتخذ مسجدًا على اصحاب الكهف) زاد الصاغاني (ودقيانوس) اسم (ملك هربوا منه) وقصتهم مذكورة}. — In scri-}
+\DLine{AB01-PDF0644-body-L019}{}{inscriptum eiusque Commentarius \textit{Tāǵ al-‘arūs,} ed. altera, t. IV, p. 152: \ArabicRun{(دقيوس بالفتح) اسم}}
+\DLine{AB01-PDF0644-body-L020}{20}{\ArabicRun{(ملك) اعجمي (اتخذ مسجدًا على اصحاب الكهف) زاد الصاغاني (ودقيانوس) اسم (ملك هربوا منه) وقصتهم مذكورة}. — In scri-}
 \DLine{AB01-PDF0644-body-L021}{}{ptis Syriacis \textsyriac{ܕܩܝܘܣ} vel \textsyriac{ܕܩܝܣ} \textit{Deqyūs;} unde \textit{Daqyūs} in historia \textit{Arabico-Christiana} septem}
 \DLine{AB01-PDF0644-body-L022}{}{Dormientium apud \Name{I. Guidi}, \textit{Testi orientali inediti sopra i Sette Dormienti di Efeso,} in}
 \DLine{AB01-PDF0644-body-L023}{}{Memorie dell’Accad. dei Lincei, Classe di scienze morali, ser. III, t. XII, 1884, p. 391, adn. 1;}
@@ -347,11 +350,11 @@ Haec transcriptio a nullo homine recognita est.\par
 \DLine{AB01-PDF0644-body-L031}{}{in Graeco \textgreek{παραβάτης} « apostata ». De illa verbi \textit{ḥanīf} significatione vide Glossarium De Goeje}
 \DLine{AB01-PDF0644-body-L032}{}{ad \Name{al-Mas‘ūdī}, \textit{at-Tanbīh,} p. \textsc{xvii–xviii}.}
 \hypertarget{AB01-PDF0644-P03}{}
-\DLine{AB01-PDF0644-body-L033}{}{\Indent \textit{Heraclius} (\textit{Hiraqlis} et \textit{Hiraql}) « \textit{sapiens} » (p. 2 et 3). In codice \textarabic{صاحب العرب} \textit{ṣāḥib al-}}
+\DLine{AB01-PDF0644-body-L033}{}{\Indent \textit{Heraclius} (\textit{Hiraqlis} et \textit{Hiraql}) « \textit{sapiens} » (p. 2 et 3). In codice \ArabicRun{صاحب العرب} \textit{ṣāḥib al-}}
 \DLine{AB01-PDF0644-body-L034}{}{\textit{-‘arab} « dominus arabum », quod t. III, p. 230 ac 231 servavi, licet nullo modo explicare}
 \DLine{AB01-PDF0644-body-L035}{35}{possem; item versio Hispanica paulum infra adducenda: « Hercules \textit{el de los Alaraues} ». Le-}
-\DLine{AB01-PDF0644-body-L036}{}{gendum duco \textarabic{صاحب العرف} \textit{ṣāḥib al-‘irf} « dominus cognitionis, cognitione praeditus »; littera \textarabic{ف}}
-\DLine{AB01-PDF0644-body-L037}{}{in scriptura maghrebina punctum inferne habet, qua re facillime cum \textarabic{ب} confunditur. Coniec-}
+\DLine{AB01-PDF0644-body-L036}{}{gendum duco \ArabicRun{صاحب العرف} \textit{ṣāḥib al-‘irf} « dominus cognitionis, cognitione praeditus »; littera \ArabicRun{ف}}
+\DLine{AB01-PDF0644-body-L037}{}{in scriptura maghrebina punctum inferne habet, qua re facillime cum \ArabicRun{ب} confunditur. Coniec-}
 \DLine{AB01-PDF0644-body-L038}{}{tura mea innititur \Name{al-Bīrūnī}, \textit{Chron.,} p. 96 text., 105 vers., ubi \textit{Hiraqlis al-ḥakīm} « He-}
 \DLine{AB01-PDF0644-body-L039}{}{« raclius sapiens ». Cur ita vocatus non bene intelligo; in Graeco \textgreek{Ἡράκλειος} tantum. Fortasse}
 \DLine{AB01-PDF0644-body-L040}{40}{quod Heraclius imperator de rebus astronomicis scripsit; fragmentum eius chronologicum me-}
@@ -383,7 +386,7 @@ Haec transcriptio a nullo homine recognita est.\par
 \DLine{AB01-PDF0645-body-L011}{}{raclium, epistula Prophetae accepta, ad novam religionem se populumque suum convertere}
 \DLine{AB01-PDF0645-body-L012}{}{primo voluisse, sed principum populique minas irritum tale consilium fecisse (3). — Philoso-}
 \DLine{AB01-PDF0645-body-L013}{}{phorum concilium apud Heraclium (\textit{Hiraql}) regem, eorumque de musica sententias, ex aucto-}
-\DLine{AB01-PDF0645-body-L014}{}{ritate \textarabic{اموس} (Ammonii?) commemorat \Name{al-Kindī} (IX saec. Chr.) in inedito de musica libello,}
+\DLine{AB01-PDF0645-body-L014}{}{ritate \ArabicRun{اموس} (Ammonii?) commemorat \Name{al-Kindī} (IX saec. Chr.) in inedito de musica libello,}
 \DLine{AB01-PDF0645-body-L015}{15}{tract. II, cap. IV, apud \Name{Steinschneider} ad \Name{Baldi} p. 437 (extr. 12, cum additamentis). —}
 \DLine{AB01-PDF0645-body-L016}{}{Demum non impossibilis censenda est aliqua cum mythico \textit{Hiraql} (Heraclio aut Hercule) con-}
 \DLine{AB01-PDF0645-body-L017}{}{fusio, quem \Name{Ibn al-Qifṭī} (in adnot. Flügel ad \textit{Fihrist,} t. II, p. 125) dicit « sapientem (\textit{ḥa-}}
@@ -395,7 +398,7 @@ Haec transcriptio a nullo homine recognita est.\par
 \DLine{AB01-PDF0645-body-L023}{}{\textit{dem Griechischen,} in Zeitschr. d. deutsch. morgenl. Gesellsch., t. L, 1896, p. 362, ubi alchy-}
 \DLine{AB01-PDF0645-body-L024}{}{miae scriptor dicitur, quo fundamento nescio, ipse Heraclius imperator esse). — In Bibliotheca}
 \DLine{AB01-PDF0645-body-L025}{25}{Nationali Parisiensi codex Arabicus XIII saeculi Chr. asservatur, quem Catalogus impressus}
-\DLine{AB01-PDF0645-body-L026}{}{(nr. 178, 3\textsuperscript{o}) ita describit: « Comment Sibylle (\textarabic{سبلا}) fille de Héraclius (\textarabic{هرقل}), chef des philosophes,}
+\DLine{AB01-PDF0645-body-L026}{}{(nr. 178, 3\textsuperscript{o}) ita describit: « Comment Sibylle (\ArabicRun{سبلا}) fille de Héraclius (\ArabicRun{هرقل}), chef des philosophes,}
 \DLine{AB01-PDF0645-body-L027}{}{« expliqua le songe que cent hommes eurent, la même nuit, dans la ville de Rome, sous le}
 \DLine{AB01-PDF0645-body-L028}{}{« règne d’Auguste César ». — Mythicus Hercules est cuius imago in codice quodam Graeco}
 \DLine{AB01-PDF0645-body-L029}{}{Bononiensi occurrit, subscripta \textgreek{Ἀστρονόμος ὁ Ἱρακλῇς} (\textit{Catal. codd. astrologorum Graecorum,}}
@@ -488,16 +491,16 @@ Haec transcriptio a nullo homine recognita est.\par
 \par\vspace{6pt}\hrule height.25pt\vspace{5pt}
 \noindent\begin{minipage}[t]{.48\textwidth}\vspace{0pt}\fontsize{9}{11.5}\selectfont\setlength{\GutterOffset}{0pt}
 \hypertarget{AB01-PDF0646-N01}{}
-\DLine{AB01-PDF0646-notes_left-L001}{}{\Indent (1) Legit \textarabic{تكد} ut in cod. Escurialensi; vide su-}
+\DLine{AB01-PDF0646-notes_left-L001}{}{\Indent (1) Legit \ArabicRun{تكد} ut in cod. Escurialensi; vide su-}
 \DLine{AB01-PDF0646-notes_left-L002}{}{pra p. 192.}
 \hypertarget{AB01-PDF0646-N02}{}
-\DLine{AB01-PDF0646-notes_left-L003}{}{\Indent (2) Perperam legit \textarabic{رصد} pro \textarabic{رضد} 294.}
+\DLine{AB01-PDF0646-notes_left-L003}{}{\Indent (2) Perperam legit \ArabicRun{رصد} pro \ArabicRun{رضد} 294.}
 \hypertarget{AB01-PDF0646-N03}{}
-\DLine{AB01-PDF0646-notes_left-L004}{}{\Indent (3) Legit \textarabic{بليانس}, ut cod. Escur. hac pagina ha-}
-\DLine{AB01-PDF0646-notes_left-L005}{}{bet, pro \textarabic{يليانس} (cod. Esc. f. 155,r. \textarabic{يوليانس}); omisit \textit{al-}}
+\DLine{AB01-PDF0646-notes_left-L004}{}{\Indent (3) Legit \ArabicRun{بليانس}, ut cod. Escur. hac pagina ha-}
+\DLine{AB01-PDF0646-notes_left-L005}{}{bet, pro \ArabicRun{يليانس} (cod. Esc. f. 155,r. \ArabicRun{يوليانس}); omisit \textit{al-}}
 \DLine{AB01-PDF0646-notes_left-L006}{}{\textit{-ḥanīf} « paganum ».}
 \hypertarget{AB01-PDF0646-N04}{}
-\DLine{AB01-PDF0646-notes_left-L007}{}{\Indent (4) Legit \textarabic{قتل} « interfectus est » pro \textarabic{ملك} « re-}
+\DLine{AB01-PDF0646-notes_left-L007}{}{\Indent (4) Legit \ArabicRun{قتل} « interfectus est » pro \ArabicRun{ملك} « re-}
 \DLine{AB01-PDF0646-notes_left-L008}{}{gnavit ».}
 \end{minipage}
 \hfill\begin{minipage}[t]{.48\textwidth}\vspace{0pt}\fontsize{9}{11.5}\selectfont\setlength{\GutterOffset}{0pt}
@@ -505,7 +508,7 @@ Haec transcriptio a nullo homine recognita est.\par
 \DLine{AB01-PDF0646-notes_right-L001}{}{\Indent (5) Textum corruptum manifeste interpretari}
 \DLine{AB01-PDF0646-notes_right-L002}{}{nescivit; postea duorum annorum intervallum omisit.}
 \hypertarget{AB01-PDF0646-N06}{}
-\DLine{AB01-PDF0646-notes_right-L003}{}{\Indent (6) Legit \textarabic{سكو} ut cod. Escur.}
+\DLine{AB01-PDF0646-notes_right-L003}{}{\Indent (6) Legit \ArabicRun{سكو} ut cod. Escur.}
 \hypertarget{AB01-PDF0646-N07}{}
 \DLine{AB01-PDF0646-notes_right-L004}{}{\Indent (7) I. e. ‘Alī ibn Abī Ṭālib; deest incisum in}
 \DLine{AB01-PDF0646-notes_right-L005}{}{cod. Escur.}
@@ -513,7 +516,7 @@ Haec transcriptio a nullo homine recognita est.\par
 \DLine{AB01-PDF0646-notes_right-L006}{}{\Indent (8) Textus Arabicus in t. III, p. 231-34. In ver-}
 \DLine{AB01-PDF0646-notes_right-L007}{}{sione Hispanica omissae.}
 \hypertarget{AB01-PDF0646-N09}{}
-\DLine{AB01-PDF0646-notes_right-L008}{}{\Indent (9) In edit. \textarabic{البناني}, qua re in versione Gallica}
+\DLine{AB01-PDF0646-notes_right-L008}{}{\Indent (9) In edit. \ArabicRun{البناني}, qua re in versione Gallica}
 \DLine{AB01-PDF0646-notes_right-L009}{}{\textit{Bennani.}}
 \end{minipage}
 \DSource{0647}{198}
@@ -555,10 +558,10 @@ usque ad al-Mu‘tazz & 0 & 0 & \textit{8} & 250 & 0 & 14 & 0 & 0 & \textit{10} 
 \par\vspace{1mm}
 \hypertarget{AB01-PDF0647-P07}{}
 \DLine{AB01-PDF0647-body-L017}{}{\Indent Historici scriptores, sicut \Name{aṭ-Ṭabarī}, ser. III, t. V, p. 2280, \Name{al-Mas‘ūdī}, \textit{at-Tanbīh,}}
-\DLine{AB01-PDF0647-body-L018}{}{p. 371 (ubi \textarabic{وستّة اشهر} inserendum), aliique, khalifatum al-Muktafī 6 annorum, 6 mensium, 19}
+\DLine{AB01-PDF0647-body-L018}{}{p. 371 (ubi \ArabicRun{وستّة اشهر} inserendum), aliique, khalifatum al-Muktafī 6 annorum, 6 mensium, 19}
 \DLine{AB01-PDF0647-body-L019}{}{dierum faciunt.}
 \hypertarget{AB01-PDF0647-P08}{}
-\DLine{AB01-PDF0647-body-L020}{20}{\Indent Rogo demum ut p. 5, ult. l., pro codicis \textarabic{كح} 28 restituantur \textarabic{كج} 23 anni.}
+\DLine{AB01-PDF0647-body-L020}{20}{\Indent Rogo demum ut p. 5, ult. l., pro codicis \ArabicRun{كح} 28 restituantur \ArabicRun{كج} 23 anni.}
 \par\vspace{4mm}
 \hypertarget{AB01-PDF0647-H21}{}
 \DLine{AB01-PDF0647-body-L021}{}{\CenterLine{\textit{Ad pag. 7.} — \textbf{Signa annorum Arabicorum.}}}
@@ -597,11 +600,11 @@ usque ad al-Mu‘tazz & 0 & 0 & \textit{8} & 250 & 0 & 14 & 0 & 0 & \textit{10} 
 \DLine{AB01-PDF0648-body-L012}{}{nomis Arabicis (1) quos inspexi, soli \Name{Ḥabash} et \Name{al-Khāzinī} (f. 22,v. etc.) usum civilem}
 \DLine{AB01-PDF0648-body-L013}{}{Muslimicum sequuntur epochae hegirae die Veneris (feria sexta) 16 Iulii constituendae. Iuvat}
 \DLine{AB01-PDF0648-body-L014}{}{quae \Name{Ḥabash} f. 2,v. narrat suis ipsis verbis referre: « Cum sacrarum traditionum narrato-}
-\DLine{AB01-PDF0648-body-L015}{15}{« res (2) et viros computandi peritissimos invenissem novilunium (\textarabic{مستهَلّ}) al-muḥarram anni quo}
+\DLine{AB01-PDF0648-body-L015}{15}{« res (2) et viros computandi peritissimos invenissem novilunium (\ArabicRun{مستهَلّ}) al-muḥarram anni quo}
 \DLine{AB01-PDF0648-body-L016}{}{« Arabicus (3) Propheta Muḥammad (propitius est salutemque aeternam praestat ei Deus et}
-\DLine{AB01-PDF0648-body-L017}{}{« purae genti eius domus) feria quinta ponere, investigavi verumne hoc esset (\textarabic{يصحّ}) iuxta com-}
+\DLine{AB01-PDF0648-body-L017}{}{« purae genti eius domus) feria quinta ponere, investigavi verumne hoc esset (\ArabicRun{يصحّ}) iuxta com-}
 \DLine{AB01-PDF0648-body-L018}{}{« putationem. Coniunctionem luminarium ad novilunium al-muḥarram anni primi hegirae re-}
-\DLine{AB01-PDF0648-body-L019}{}{« peri fuisse Mekkah in urbe post mediam noctem cuius mane (\textarabic{صبيحة}) feria quarta [i. e. dies}
+\DLine{AB01-PDF0648-body-L019}{}{« peri fuisse Mekkah in urbe post mediam noctem cuius mane (\ArabicRun{صبيحة}) feria quarta [i. e. dies}
 \DLine{AB01-PDF0648-body-L020}{20}{« Mercurii] fuit, ac supputando inveni apparitionem Lunae novae in Mekkah fuisse nocte diei}
 \DLine{AB01-PDF0648-body-L021}{}{« Veneris novilunium al-muḥarram anni hegirae. Igitur nihil invenimus quod feriam quintam}
 \DLine{AB01-PDF0648-body-L022}{}{« [diem Iovis] indicaret in coniunctione aut in apparitione; unde nobis patuit gentem illam}
@@ -760,13 +763,13 @@ usque ad al-Mu‘tazz & 0 & 0 & \textit{8} & 250 & 0 & 14 & 0 & 0 & \textit{10} 
 \DLine{AB01-PDF0650-body-L018}{}{gypti dynastibus inita (2); unde factum est ut hoc nostro tempore menses calendarii Iuliani}
 \DLine{AB01-PDF0650-body-L019}{}{ab Arabibus \textit{Aegypti} ita designentur: \textit{yanāyir, fabrāyir, mārs, abrīl, māyū, yūniyah, yū-}}
 \DLine{AB01-PDF0650-body-L020}{20}{\textit{liyah, oghusṭus, sebtembar, oktūbar, nōfembar, dīsembar.} — Miro modo \textit{mārt, māyus} et}
-\DLine{AB01-PDF0650-body-L021}{}{\textit{oghostūs} (\textarabic{اغستوس}) soli recepti sunt in annum Iulianum quo \textit{Turcae,} post 1675 Chr., in rebus}
+\DLine{AB01-PDF0650-body-L021}{}{\textit{oghostūs} (\ArabicRun{اغستوس}) soli recepti sunt in annum Iulianum quo \textit{Turcae,} post 1675 Chr., in rebus}
 \DLine{AB01-PDF0650-body-L022}{}{ad aerarium spectantibus utuntur, dum reliqui menses Syriacis nominibus vocantur.}
 \hypertarget{AB01-PDF0650-P05}{}
 \DLine{AB01-PDF0650-body-L023}{}{\Indent Nomina huius tabulae spuria, etiam in tabula f. 241,v. (ex opere Arabico-Hispani \Name{Ma-}}
 \DLine{AB01-PDF0650-body-L024}{}{\Name{slamah al-Maǵrīṭī} sumpta) occurrentia, haec sunt: \textit{yannayr, fabrayr, mārs, ibrīl, mā-}}
-\DLine{AB01-PDF0650-body-L025}{25}{\textit{yuh, yūniyuh, yulyuh} (\textarabic{يليه}), \textit{aghusht, sutambar, aktūbar, nuwanbar, duǵanbar.} Eadem}
-\DLine{AB01-PDF0650-body-L026}{}{(paulum mutatis \textit{marsuh, ibrīr, yūliyuh}) appellantur « menses \textit{occidentalium} » (\textarabic{المغاربة}) ab}
+\DLine{AB01-PDF0650-body-L025}{25}{\textit{yuh, yūniyuh, yulyuh} (\ArabicRun{يليه}), \textit{aghusht, sutambar, aktūbar, nuwanbar, duǵanbar.} Eadem}
+\DLine{AB01-PDF0650-body-L026}{}{(paulum mutatis \textit{marsuh, ibrīr, yūliyuh}) appellantur « menses \textit{occidentalium} » (\ArabicRun{المغاربة}) ab}
 \DLine{AB01-PDF0650-body-L027}{}{\Name{al-Bīrūnī}, \textit{Chron.,} p. 50 et 71 text., 59 et 83 vers.; et in astrolabio occurrunt anno 420 heg.}
 \DLine{AB01-PDF0650-body-L028}{}{(inc. 19 Ianuar. 1029) Toleti confecto, paulum mutatis \textit{yūliyuh, shutanbar, dukanbar} (3).}
 \DLine{AB01-PDF0650-body-L029}{}{— Sub finem VI saec. heg. (XII Chr.), \Name{Ibn Ǵubayr}, scriptor Arabico-Hispanus, iter suum}
@@ -783,7 +786,7 @@ usque ad al-Mu‘tazz & 0 & 0 & \textit{8} & 250 & 0 & 14 & 0 & 0 & \textit{10} 
 \DLine{AB01-PDF0650-notes_left-L007}{}{\textit{arabe publié d’après l’édition commencée par C.}}
 \DLine{AB01-PDF0650-notes_left-L008}{}{\textit{M. Fraehn par M. F. Mehren,} St. Pétersbourg 1866,}
 \DLine{AB01-PDF0650-notes_left-L009}{}{cap. IX, sect. 8, « menses Graecorum et Romano-}
-\DLine{AB01-PDF0650-notes_left-L010}{}{rum ». — \textarabic{ذقمبرس} in subscriptione codicis Arabico-}
+\DLine{AB01-PDF0650-notes_left-L010}{}{rum ». — \ArabicRun{ذقمبرس} in subscriptione codicis Arabico-}
 \DLine{AB01-PDF0650-notes_left-L011}{}{-Christiani, in Syria anno 1188 Alexandri, 877 Chr.,}
 \end{minipage}
 \hfill\begin{minipage}[t]{.48\textwidth}\vspace{0pt}\fontsize{9}{11.5}\selectfont\setlength{\GutterOffset}{0pt}
@@ -817,7 +820,7 @@ usque ad al-Mu‘tazz & 0 & 0 & \textit{8} & 250 & 0 & 14 & 0 & 0 & \textit{10} 
 \DLine{AB01-PDF0651-body-L012}{}{\textit{fī sharḥ al-maqna‘} fasc. III, p. 4 sqq., et VI, p. 2, ubi haec « mensium anni \textit{peregrini} (4)}
 \DLine{AB01-PDF0651-body-L013}{}{nomina Romana » ita esse efferenda docet: \textit{yannayr, fabrā’ir} seu \textit{fābrā’ir, mārs} vel \textit{māris}}
 \DLine{AB01-PDF0651-body-L014}{}{vel \textit{mars, ibrīl, māyuh} vel \textit{māy, yūniyuh} vel \textit{yunyuh, yūliyuh} vel \textit{yulyuh, aghusht, shu-}}
-\DLine{AB01-PDF0651-body-L015}{15}{\textit{tanbir, aktūbir} seu \textit{aktubir, nuwanbir, duǵanbir.} In provincia Maroccana Figīg (\textarabic{فقيق} seu \textarabic{فجيج}),}
+\DLine{AB01-PDF0651-body-L015}{15}{\textit{tanbir, aktūbir} seu \textit{aktubir, nuwanbir, duǵanbir.} In provincia Maroccana Figīg (\ArabicRun{فقيق} seu \ArabicRun{فجيج}),}
 \DLine{AB01-PDF0651-body-L016}{}{nuperrime tractui Algeriensi adiecta, haec hodie nomina vigent: \textit{yennayr, fubrayr, mars,}}
 \DLine{AB01-PDF0651-body-L017}{}{\textit{ibrīr, māyū, yūlyū, yūlyūz, ghusht, shutānbīr, ktūber, nuwānbīr, duwānbīr} (5). In Ma-}
 \DLine{AB01-PDF0651-body-L018}{}{roccano imperio boreali, iuxta J. \Name{Lerchundi}, \textit{Vocabulario español-arábigo del dialecto de}}
@@ -845,7 +848,7 @@ usque ad al-Mu‘tazz & 0 & 0 & \textit{8} & 250 & 0 & 14 & 0 & 0 & \textit{10} 
 \DLine{AB01-PDF0651-notes_left-L014}{}{parte II (iscrizioni sepolcrali), Palermo 1879-81, p. 87}
 \DLine{AB01-PDF0651-notes_left-L015}{}{et 96 (= Documenti pubbl. a cura della Società Si-}
 \DLine{AB01-PDF0651-notes_left-L016}{}{ciliana per la storia patria, serie III, vol. I). — De-}
-\DLine{AB01-PDF0651-notes_left-L017}{}{mum \textit{abrīl, māyuh, yūniyuh, yūliyūh} \textarabic{يوليوه}, \textit{shu-}}
+\DLine{AB01-PDF0651-notes_left-L017}{}{mum \textit{abrīl, māyuh, yūniyuh, yūliyūh} \ArabicRun{يوليوه}, \textit{shu-}}
 \DLine{AB01-PDF0651-notes_left-L018}{}{\textit{tanbar, duǵanbar,} in foederibus inter Pisanos et}
 \DLine{AB01-PDF0651-notes_left-L019}{}{dynastas Tuneti, Marocci, Hispaniae, apud \Name{Amari},}
 \DLine{AB01-PDF0651-notes_left-L020}{}{\textit{I diplomi arabi del R. Archivio Fiorentino,} Fi-}
@@ -959,13 +962,13 @@ usque ad al-Mu‘tazz & 0 & 0 & \textit{8} & 250 & 0 & 14 & 0 & 0 & \textit{10} 
 \DLine{AB01-PDF0653-body-L015}{15}{\Name{parelli}, dhū ’l-ḥiǵǵah bisextilium addidi.}
 \hypertarget{AB01-PDF0653-P04}{}
 \DLine{AB01-PDF0653-body-L016}{}{\Indent \textbf{\textsf{Pag. 22}}, duo codicis errores, qui me effugerunt, emendentur: secundae itineris Solis in}
-\DLine{AB01-PDF0653-body-L017}{}{10 diebus (ubi cod. et versio 25″ \textarabic{كه} loco 24″ \textarabic{كد}), et secundae nodi in 21 diebus (ubi 45″ \textarabic{مه}}
-\DLine{AB01-PDF0653-body-L018}{}{pro 44″ \textarabic{مد}). — Eadem tabula p. 75, cum tribus discrepantiis ab ipso \Name{al-Battānī} provenien-}
+\DLine{AB01-PDF0653-body-L017}{}{10 diebus (ubi cod. et versio 25″ \ArabicRun{كه} loco 24″ \ArabicRun{كد}), et secundae nodi in 21 diebus (ubi 45″ \ArabicRun{مه}}
+\DLine{AB01-PDF0653-body-L018}{}{pro 44″ \ArabicRun{مد}). — Eadem tabula p. 75, cum tribus discrepantiis ab ipso \Name{al-Battānī} provenien-}
 \DLine{AB01-PDF0653-body-L019}{}{tibus, nempe 15″ in motu Solis in novem diebus, 23″ in decem, et 38′ 59″ (pro 39′ 0″) in}
 \DLine{AB01-PDF0653-body-L020}{20}{anomalia Lunae in decem diebus.}
 \hypertarget{AB01-PDF0653-P05}{}
-\DLine{AB01-PDF0653-body-L021}{}{\Indent \textbf{\textsf{Pag. 23}}, duo codicis errores, qui in versionem irrepserunt, emendentur: 25″ \textarabic{كه} cod. pro}
-\DLine{AB01-PDF0653-body-L022}{}{24″ \textarabic{كد} in Solis itinere trium horarum, et 13″ \textarabic{يج} (cod. \textarabic{لج} 33″) pro 14″ \textarabic{يد} in anomalia lunari}
+\DLine{AB01-PDF0653-body-L021}{}{\Indent \textbf{\textsf{Pag. 23}}, duo codicis errores, qui in versionem irrepserunt, emendentur: 25″ \ArabicRun{كه} cod. pro}
+\DLine{AB01-PDF0653-body-L022}{}{24″ \ArabicRun{كد} in Solis itinere trium horarum, et 13″ \ArabicRun{يج} (cod. \ArabicRun{لج} 33″) pro 14″ \ArabicRun{يد} in anomalia lunari}
 \DLine{AB01-PDF0653-body-L023}{}{23 horarum. — Eadem tabula p. 76, ubi in motu lunari quatuordecim horarum 11″ loco 10″,}
 \DLine{AB01-PDF0653-body-L024}{}{et in anomalia decem horarum 37″ loco 38″ (exacte 5° 26′ 37″ 28‴ 17\textsuperscript{IV}....); ambae discre-}
 \DLine{AB01-PDF0653-body-L025}{25}{pantiae ab \Name{al-Battānī} provenire videntur.}
@@ -1138,19 +1141,19 @@ usque ad al-Mu‘tazz & 0 & 0 & \textit{8} & 250 & 0 & 14 & 0 & 0 & \textit{10} 
 \DLine{AB01-PDF0656-body-L017}{}{conspectum praebeo, primo numeros codicis hac pagina 32 (f. 172,r.) contentos indicans, deinde}
 \DLine{AB01-PDF0656-body-L018}{}{numeros codicis pag. 88 (f. 194,v.), tertio numeros receptos, quarto errorum explicationem:}
 \par\vspace{2mm}
-\DLine{AB01-PDF0656-body-L019}{}{\hspace*{34.0mm}\makebox[5.0mm][l]{\smash{\raisebox{-6.9pt}{$\left\{\rule[-10pt]{0pt}{20pt}\right.$}}}\makebox[12.0mm][r]{\textit{154}\rlap{\textit{°}}}\makebox[9.0mm][r]{44\rlap{′}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[12.0mm][r]{159\rlap{°}}\makebox[9.0mm][r]{44\rlap{′}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[12.0mm][r]{159\rlap{°}}\makebox[9.0mm][r]{44\rlap{′}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[60.0mm][l]{\smash{\textarabic{قند} pro \textarabic{قنط}}}}
-\DLine{AB01-PDF0656-body-L020}{20}{\hspace*{34.0mm}\makebox[5.0mm][l]{\smash{}}\makebox[12.0mm][r]{\smash{\textit{190}}}\makebox[9.0mm][r]{\smash{16}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[12.0mm][r]{\smash{\textit{167}}}\makebox[9.0mm][r]{\smash{16}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[12.0mm][r]{\smash{191}}\makebox[9.0mm][r]{\smash{16}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[60.0mm][l]{\smash{\textarabic{قض} et \textarabic{قصز} pro \textarabic{قضا}}}}
+\DLine{AB01-PDF0656-body-L019}{}{\hspace*{34.0mm}\makebox[5.0mm][l]{\smash{\raisebox{-6.9pt}{$\left\{\rule[-10pt]{0pt}{20pt}\right.$}}}\makebox[12.0mm][r]{\textit{154}\rlap{\textit{°}}}\makebox[9.0mm][r]{44\rlap{′}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[12.0mm][r]{159\rlap{°}}\makebox[9.0mm][r]{44\rlap{′}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[12.0mm][r]{159\rlap{°}}\makebox[9.0mm][r]{44\rlap{′}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[60.0mm][l]{\smash{\ArabicRun{قند} pro \ArabicRun{قنط}}}}
+\DLine{AB01-PDF0656-body-L020}{20}{\hspace*{34.0mm}\makebox[5.0mm][l]{\smash{}}\makebox[12.0mm][r]{\smash{\textit{190}}}\makebox[9.0mm][r]{\smash{16}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[12.0mm][r]{\smash{\textit{167}}}\makebox[9.0mm][r]{\smash{16}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[12.0mm][r]{\smash{191}}\makebox[9.0mm][r]{\smash{16}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[60.0mm][l]{\smash{\ArabicRun{قض} et \ArabicRun{قصز} pro \ArabicRun{قضا}}}}
 \DLine{AB01-PDF0656-body-L021}{}{\hspace*{34.0mm}\makebox[5.0mm][l]{\smash{\raisebox{-6.9pt}{$\left\{\rule[-10pt]{0pt}{20pt}\right.$}}}\makebox[12.0mm][r]{\smash{0}}\makebox[9.0mm][r]{\smash{0}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[12.0mm][r]{\smash{0}}\makebox[9.0mm][r]{\smash{0}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[12.0mm][r]{\smash{0}}\makebox[9.0mm][r]{\smash{0}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[60.0mm][l]{\smash{}}}
 \DLine{AB01-PDF0656-body-L022}{}{\hspace*{34.0mm}\makebox[5.0mm][l]{\smash{}}\makebox[12.0mm][r]{\smash{20}}\makebox[9.0mm][r]{\smash{16}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[12.0mm][r]{\smash{20}}\makebox[9.0mm][r]{\smash{16}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[12.0mm][r]{\smash{20}}\makebox[9.0mm][r]{\smash{16}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[60.0mm][l]{\smash{}}}
-\DLine{AB01-PDF0656-body-L023}{}{\hspace*{34.0mm}\makebox[5.0mm][l]{\smash{\raisebox{-6.9pt}{$\left\{\rule[-10pt]{0pt}{20pt}\right.$}}}\makebox[12.0mm][r]{\smash{348}}\makebox[9.0mm][r]{\smash{\textit{57}}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[12.0mm][r]{\smash{\textit{345}}}\makebox[9.0mm][r]{\smash{\textit{53}}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[12.0mm][r]{\smash{348}}\makebox[9.0mm][r]{\smash{44}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[60.0mm][l]{\smash{\textarabic{نز} et \textarabic{نج} pro \textarabic{مد}; \textarabic{سمه} pro \textarabic{سمح}}}}
+\DLine{AB01-PDF0656-body-L023}{}{\hspace*{34.0mm}\makebox[5.0mm][l]{\smash{\raisebox{-6.9pt}{$\left\{\rule[-10pt]{0pt}{20pt}\right.$}}}\makebox[12.0mm][r]{\smash{348}}\makebox[9.0mm][r]{\smash{\textit{57}}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[12.0mm][r]{\smash{\textit{345}}}\makebox[9.0mm][r]{\smash{\textit{53}}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[12.0mm][r]{\smash{348}}\makebox[9.0mm][r]{\smash{44}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[60.0mm][l]{\smash{\ArabicRun{نز} et \ArabicRun{نج} pro \ArabicRun{مد}; \ArabicRun{سمه} pro \ArabicRun{سمح}}}}
 \DLine{AB01-PDF0656-body-L024}{}{\hspace*{34.0mm}\makebox[5.0mm][l]{\smash{}}\makebox[12.0mm][r]{\smash{360}}\makebox[9.0mm][r]{\smash{0}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[12.0mm][r]{\smash{360}}\makebox[9.0mm][r]{\smash{0}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[12.0mm][r]{\smash{360}}\makebox[9.0mm][r]{\smash{0}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[60.0mm][l]{\smash{}}}
 \par\vspace{2mm}
 \hypertarget{AB01-PDF0656-P02}{}
 \DLine{AB01-PDF0656-body-L025}{25}{\Indent Si iustae essent emendationes (1), distantiam Lunae a nodo necessariam ut contactus di-}
 \DLine{AB01-PDF0656-body-L026}{}{scorum eveniat \Name{al-Battānī} statuisset 20° 16′ in boream, 11° 16′ in austrum. \Name{Ptolemaeus}}
 \DLine{AB01-PDF0656-body-L027}{}{20° 41′ et 11° 22′. Sed non impossibile est pro 191° emendationis meae esse 190° codicis ser-}
-\DLine{AB01-PDF0656-body-L028}{}{vandum, tunc vero 349° \textarabic{سمط} loco codicis \textarabic{سمه} 345° (qui error in scriptura maghrebina facil-}
-\DLine{AB01-PDF0656-body-L029}{}{limus) et \textarabic{سمح} 348°; distantiae a nodo ita fiunt 20° 16′, 10° 26′. — Sed nunc puto veros nu-}
+\DLine{AB01-PDF0656-body-L028}{}{vandum, tunc vero 349° \ArabicRun{سمط} loco codicis \ArabicRun{سمه} 345° (qui error in scriptura maghrebina facil-}
+\DLine{AB01-PDF0656-body-L029}{}{limus) et \ArabicRun{سمح} 348°; distantiae a nodo ita fiunt 20° 16′, 10° 26′. — Sed nunc puto veros nu-}
 \DLine{AB01-PDF0656-body-L030}{30}{meros \textit{alios esse quam quos in tabulis imprimendis receperam.}}
 \hypertarget{AB01-PDF0656-P03}{}
 \DLine{AB01-PDF0656-body-L031}{}{\Indent Ut melius dubitationis causa in emendando appareat, rationem qua \Name{Ptolemaeus} ter-}
@@ -1164,7 +1167,7 @@ usque ad al-Mu‘tazz & 0 & 0 & \textit{8} & 250 & 0 & 14 & 0 & 0 & \textit{10} 
 \DLine{AB01-PDF0656-body-L039}{}{Ab his latitudinibus, per tabulas aut per regulam}
 \par\vspace{1mm}
 \hypertarget{AB01-PDF0656-H40}{}
-\DLine{AB01-PDF0656-body-L040}{40}{\CenterLine{sin dist. {\MoonFont ☾} a nodo boreali $= \mathit{R}\;\dfrac{\text{sin datae lat. {\MoonFont ☾}}}{\text{sin maximae lat. {\MoonFont ☾}}}$\,,}}
+\DLine{AB01-PDF0656-body-L040}{40}{\CenterLine{sin dist. \MoonSym{} a nodo boreali $= \mathit{R}\;\dfrac{\text{sin datae lat. \MoonSym{}}}{\text{sin maximae lat. \MoonSym{}}}$\,,}}
 \par\vspace{6pt}\hrule height.25pt\vspace{5pt}
 \noindent\begin{minipage}[t]{.48\textwidth}\vspace{0pt}\fontsize{9}{11.5}\selectfont\setlength{\GutterOffset}{0pt}
 \hypertarget{AB01-PDF0656-N01}{}
@@ -1184,7 +1187,7 @@ usque ad al-Mu‘tazz & 0 & 0 & \textit{8} & 250 & 0 & 14 & 0 & 0 & \textit{10} 
 \DLine{AB01-PDF0657-body-L004}{}{niunctionis. Coniunctio media adhuc sit futura; quantitas}
 \par\vspace{1mm}
 \hypertarget{AB01-PDF0657-H05}{}
-\DLine{AB01-PDF0657-body-L005}{5}{\CenterLine{(\textgreek{α})\hspace{14mm}maxima aequatio {\MoonFont ⊙} $+\;\dfrac{\text{maxima aeq. {\MoonFont ⊙} $+$ maxima aeq. simpl. {\MoonFont ☾}}}{12}$\,,}}
+\DLine{AB01-PDF0657-body-L005}{5}{\CenterLine{(\textgreek{α})\hspace{14mm}maxima aequatio \SunSym{} $+\;\dfrac{\text{maxima aeq. \SunSym{} $+$ maxima aeq. simpl. \MoonSym{}}}{12}$\,,}}
 \par\vspace{1mm}
 \DLine{AB01-PDF0657-body-L006}{}{quam Ptolemaeus statuit esse maximam differentiam longitudinis quae inter locum verum verae}
 \DLine{AB01-PDF0657-body-L007}{}{coniunctionis et medium mediae cadere possit, addatur distantiis D et D′; exibunt distantiae}
@@ -1197,8 +1200,8 @@ usque ad al-Mu‘tazz & 0 & 0 & \textit{8} & 250 & 0 & 14 & 0 & 0 & \textit{10} 
 \DLine{AB01-PDF0657-body-L013}{}{Solis 16′ 50″, maximam Lunae 17′ 40″; ergo summa semidiametrorum est 34′ 30″. Si \textit{paral-}}
 \DLine{AB01-PDF0657-body-L014}{}{\textit{laxibus Ptolemaicis} usus esset, invenisset}
 \par\vspace{1mm}
-\DLine{AB01-PDF0657-body-L015}{15}{\hspace*{36.0mm}\makebox[36.0mm][l]{\smash{latitudinem {\MoonFont ☾} austr.}}\makebox[15.0mm][r]{\smash{34′ 30″}}\makebox[7.0mm][c]{\smash{+}}\makebox[14.0mm][r]{\smash{58′ 0″}}\makebox[7.0mm][c]{\smash{=}}\makebox[22.0mm][r]{\smash{1° 32′ 30″}}}
-\DLine{AB01-PDF0657-body-L016}{}{\hspace*{36.0mm}\makebox[36.0mm][l]{\smash{latitudinem {\MoonFont ☾} boreal.}}\makebox[15.0mm][r]{\smash{34′ 30″}}\makebox[7.0mm][c]{\smash{+}}\makebox[14.0mm][r]{\smash{8′ 0″}}\makebox[7.0mm][c]{\smash{=}}\makebox[22.0mm][r]{0° 42′ 30″\rlap{,}}}
+\DLine{AB01-PDF0657-body-L015}{15}{\hspace*{36.0mm}\makebox[36.0mm][l]{\smash{latitudinem \MoonSym{} austr.}}\makebox[15.0mm][r]{\smash{34′ 30″}}\makebox[7.0mm][c]{\smash{+}}\makebox[14.0mm][r]{\smash{58′ 0″}}\makebox[7.0mm][c]{\smash{=}}\makebox[22.0mm][r]{\smash{1° 32′ 30″}}}
+\DLine{AB01-PDF0657-body-L016}{}{\hspace*{36.0mm}\makebox[36.0mm][l]{\smash{latitudinem \MoonSym{} boreal.}}\makebox[15.0mm][r]{\smash{34′ 30″}}\makebox[7.0mm][c]{\smash{+}}\makebox[14.0mm][r]{\smash{8′ 0″}}\makebox[7.0mm][c]{\smash{=}}\makebox[22.0mm][r]{0° 42′ 30″\rlap{,}}}
 \par\vspace{1mm}
 \DLine{AB01-PDF0657-body-L017}{}{quibus latitudinibus respondent distantiae a nodo 17° 58′ 48″.6 et 8° 9′ 16″ (2). \Name{Albatenio}}
 \DLine{AB01-PDF0657-body-L018}{}{maxima aequatio Solis est 1° 59′ 10″, maxima simplex Lunae 5° 1′; ergo (\textgreek{α}) est 2° 34′ 10″.}
@@ -1225,7 +1228,7 @@ usque ad al-Mu‘tazz & 0 & 0 & \textit{8} & 250 & 0 & 14 & 0 & 0 & \textit{10} 
 \DLine{AB01-PDF0657-body-L035}{35}{\hspace*{0.0mm}\makebox[54.0mm][l]{\smash{dibunt}}\makebox[16.0mm][r]{\smash{17° 27′}}\makebox[7.0mm][c]{\smash{+}}\makebox[13.0mm][r]{\smash{0° 15′}}\makebox[7.0mm][c]{\smash{+}}\makebox[13.0mm][r]{\smash{2° 34′}}\makebox[7.0mm][c]{\smash{=}}\makebox[18.0mm][r]{\smash{20° 16′}}}
 \DLine{AB01-PDF0657-body-L036}{}{\hspace*{0.0mm}\makebox[54.0mm][l]{\smash{}}\makebox[16.0mm][r]{\smash{7° 52′}}\makebox[7.0mm][c]{\smash{+}}\makebox[13.0mm][r]{\smash{0° 30′}}\makebox[7.0mm][c]{\smash{+}}\makebox[13.0mm][r]{\smash{2° 34′}}\makebox[7.0mm][c]{\smash{=}}\makebox[18.0mm][r]{10° 56′\rlap{.}}}
 \DLine{AB01-PDF0657-body-L037}{}{Prior numerus ad amussim cum terminis borealibus codicis congruit; alter cum australibus}
-\DLine{AB01-PDF0657-body-L038}{}{convenit si \textarabic{نو} 56′ pro \textarabic{يو} 16′ cod., \textarabic{د} 4′ pro \textarabic{نج} 53′ et \textarabic{نز} 57′ cod., \textarabic{سمط} 349° (ut antea iam pro-}
+\DLine{AB01-PDF0657-body-L038}{}{convenit si \ArabicRun{نو} 56′ pro \ArabicRun{يو} 16′ cod., \ArabicRun{د} 4′ pro \ArabicRun{نج} 53′ et \ArabicRun{نز} 57′ cod., \ArabicRun{سمط} 349° (ut antea iam pro-}
 \par\vspace{6pt}\hrule height.25pt\vspace{5pt}
 \noindent\begin{minipage}[t]{.48\textwidth}\vspace{0pt}\fontsize{9}{11.5}\selectfont\setlength{\GutterOffset}{0pt}
 \hypertarget{AB01-PDF0657-N01}{}
@@ -1242,7 +1245,7 @@ usque ad al-Mu‘tazz & 0 & 0 & \textit{8} & 250 & 0 & 14 & 0 & 0 & \textit{10} 
 \DLine{AB01-PDF0657-notes_right-L004}{}{tabularum, 17° 59′ 48″ et 8° 9′ 18″.}
 \end{minipage}
 \DSource{0658}{209}
-\DLine{AB01-PDF0658-body-L001}{}{posueram) pro \textarabic{سمه} 345° et \textarabic{سمح} 348° cod. restituantur. — Rogo igitur ut hic et pag. 88, \textit{termini}}
+\DLine{AB01-PDF0658-body-L001}{}{posueram) pro \ArabicRun{سمه} 345° et \ArabicRun{سمح} 348° cod. restituantur. — Rogo igitur ut hic et pag. 88, \textit{termini}}
 \DLine{AB01-PDF0658-body-L002}{}{\textit{eclipsium Solis ita emendentur:}}
 \par\vspace{1mm}
 \DLine{AB01-PDF0658-body-L003}{}{\hspace*{50.0mm}\makebox[5.0mm][l]{\smash{\raisebox{-6.9pt}{$\left\{\rule[-10pt]{0pt}{20pt}\right.$}}}\makebox[11.0mm][r]{159\rlap{°}}\makebox[9.0mm][r]{44\rlap{′}}\makebox[22.0mm][l]{\smash{}}\makebox[5.0mm][l]{\smash{\raisebox{-6.9pt}{$\left\{\rule[-10pt]{0pt}{20pt}\right.$}}}\makebox[11.0mm][r]{0\rlap{°}}\makebox[9.0mm][r]{0\rlap{′}}\makebox[22.0mm][l]{\smash{}}\makebox[5.0mm][l]{\smash{\raisebox{-6.9pt}{$\left\{\rule[-10pt]{0pt}{20pt}\right.$}}}\makebox[11.0mm][r]{\textit{349}\rlap{\textit{°}}}\makebox[9.0mm][r]{\textit{4}\rlap{\textit{′}}}}
@@ -1254,11 +1257,11 @@ usque ad al-Mu‘tazz & 0 & 0 & \textit{8} & 250 & 0 & 14 & 0 & 0 & \textit{10} 
 \hypertarget{AB01-PDF0658-P02}{}
 \DLine{AB01-PDF0658-body-L007}{}{\Indent \textit{Termini eclipsium lunarium} certissime restitui potuerunt:}
 \par\vspace{1mm}
-\DLine{AB01-PDF0658-body-L008}{}{\hspace*{36.0mm}\makebox[6.0mm][l]{\smash{\raisebox{-6.9pt}{$\left\{\rule[-10pt]{0pt}{20pt}\right.$}}}\makebox[12.0mm][r]{165\rlap{°}}\makebox[9.0mm][r]{\smash{...}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[12.0mm][r]{\textit{355}\rlap{\textit{°}}}\makebox[9.0mm][r]{\textit{53}\rlap{\textit{′}}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[12.0mm][r]{165\rlap{°}}\makebox[9.0mm][r]{13\rlap{′}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[60.0mm][l]{\smash{\textarabic{سنه} false pro \textarabic{قصه}, et \textarabic{نج} pro \textarabic{يج}}}}
-\DLine{AB01-PDF0658-body-L009}{}{\hspace*{36.0mm}\makebox[6.0mm][l]{\smash{}}\makebox[12.0mm][r]{\smash{194}}\makebox[9.0mm][r]{\smash{47}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[12.0mm][r]{\smash{\textit{167}}}\makebox[9.0mm][r]{\smash{\textit{44}}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[12.0mm][r]{\smash{194}}\makebox[9.0mm][r]{\smash{47}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[60.0mm][l]{\smash{\textarabic{قصز} false pro \textarabic{قضد}, et \textarabic{مد} pro \textarabic{مز}}}}
+\DLine{AB01-PDF0658-body-L008}{}{\hspace*{36.0mm}\makebox[6.0mm][l]{\smash{\raisebox{-6.9pt}{$\left\{\rule[-10pt]{0pt}{20pt}\right.$}}}\makebox[12.0mm][r]{165\rlap{°}}\makebox[9.0mm][r]{\smash{...}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[12.0mm][r]{\textit{355}\rlap{\textit{°}}}\makebox[9.0mm][r]{\textit{53}\rlap{\textit{′}}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[12.0mm][r]{165\rlap{°}}\makebox[9.0mm][r]{13\rlap{′}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[60.0mm][l]{\smash{\ArabicRun{سنه} false pro \ArabicRun{قصه}, et \ArabicRun{نج} pro \ArabicRun{يج}}}}
+\DLine{AB01-PDF0658-body-L009}{}{\hspace*{36.0mm}\makebox[6.0mm][l]{\smash{}}\makebox[12.0mm][r]{\smash{194}}\makebox[9.0mm][r]{\smash{47}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[12.0mm][r]{\smash{\textit{167}}}\makebox[9.0mm][r]{\smash{\textit{44}}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[12.0mm][r]{\smash{194}}\makebox[9.0mm][r]{\smash{47}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[60.0mm][l]{\smash{\ArabicRun{قصز} false pro \ArabicRun{قضد}, et \ArabicRun{مد} pro \ArabicRun{مز}}}}
 \DLine{AB01-PDF0658-body-L010}{10}{\hspace*{36.0mm}\makebox[6.0mm][l]{\smash{\raisebox{-6.9pt}{$\left\{\rule[-10pt]{0pt}{20pt}\right.$}}}\makebox[12.0mm][r]{\smash{0}}\makebox[9.0mm][r]{\smash{0}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[12.0mm][r]{\smash{0}}\makebox[9.0mm][r]{\smash{0}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[12.0mm][r]{\smash{0}}\makebox[9.0mm][r]{\smash{0}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[60.0mm][l]{\smash{}}}
 \DLine{AB01-PDF0658-body-L011}{}{\hspace*{36.0mm}\makebox[6.0mm][l]{\smash{}}\makebox[12.0mm][r]{\smash{14}}\makebox[9.0mm][r]{\smash{47}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[12.0mm][r]{\smash{14}}\makebox[9.0mm][r]{\smash{47}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[12.0mm][r]{\smash{14}}\makebox[9.0mm][r]{\smash{47}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[60.0mm][l]{\smash{}}}
-\DLine{AB01-PDF0658-body-L012}{}{\hspace*{36.0mm}\makebox[6.0mm][l]{\smash{\raisebox{-6.9pt}{$\left\{\rule[-10pt]{0pt}{20pt}\right.$}}}\makebox[12.0mm][r]{\smash{345}}\makebox[9.0mm][r]{\smash{\textit{53}}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[12.0mm][r]{\smash{345}}\makebox[9.0mm][r]{\smash{\textit{53}}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[12.0mm][r]{\smash{345}}\makebox[9.0mm][r]{\smash{13}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[60.0mm][l]{\smash{\textarabic{نج} false pro \textarabic{يج}}}}
+\DLine{AB01-PDF0658-body-L012}{}{\hspace*{36.0mm}\makebox[6.0mm][l]{\smash{\raisebox{-6.9pt}{$\left\{\rule[-10pt]{0pt}{20pt}\right.$}}}\makebox[12.0mm][r]{\smash{345}}\makebox[9.0mm][r]{\smash{\textit{53}}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[12.0mm][r]{\smash{345}}\makebox[9.0mm][r]{\smash{\textit{53}}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[12.0mm][r]{\smash{345}}\makebox[9.0mm][r]{\smash{13}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[60.0mm][l]{\smash{\ArabicRun{نج} false pro \ArabicRun{يج}}}}
 \DLine{AB01-PDF0658-body-L013}{}{\hspace*{36.0mm}\makebox[6.0mm][l]{\smash{}}\makebox[12.0mm][r]{\smash{360}}\makebox[9.0mm][r]{\smash{0}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[12.0mm][r]{\smash{360}}\makebox[9.0mm][r]{\smash{0}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[12.0mm][r]{\smash{360}}\makebox[9.0mm][r]{\smash{0}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[60.0mm][l]{\smash{}}}
 \par\vspace{1mm}
 \hypertarget{AB01-PDF0658-P03}{}
@@ -1335,7 +1338,7 @@ usque ad al-Mu‘tazz & 0 & 0 & \textit{8} & 250 & 0 & 14 & 0 & 0 & \textit{10} 
 \DLine{AB01-PDF0659-body-L027}{}{sententiam illam esse abiiciendam statim elucet. Nomina Graeca saepe aliter ab al-Khuwārizmī,}
 \DLine{AB01-PDF0659-body-L028}{}{aliter ab al-Battānī scribuntur; cfr. prioris \textit{Ghermāniyā, Muwesiyah, Ǵanǵis, Nighīrā, Qada-}}
 \DLine{AB01-PDF0659-body-L029}{}{\textit{bathmūs} cum alterius \textit{Ǵehrmāniyā, Muwehsiyā, Ghanǵis, Niǵīrā; Qāṭābathmūs.} Littera \textgreek{γ}}
-\DLine{AB01-PDF0659-body-L030}{30}{Graecorum ab al-Khuwārizmī semper \textarabic{غ} \textit{gh} redditur (5), ab al-Battānī modo \textarabic{غ} \textit{gh,} modo \textarabic{ج} \textit{ǵ:}}
+\DLine{AB01-PDF0659-body-L030}{30}{Graecorum ab al-Khuwārizmī semper \ArabicRun{غ} \textit{gh} redditur (5), ab al-Battānī modo \ArabicRun{غ} \textit{gh,} modo \ArabicRun{ج} \textit{ǵ:}}
 \DLine{AB01-PDF0659-body-L031}{}{\textit{Ghāliyā, Belghīqī, Yāzūghūs, Lūghdunīsiyā, Eghifṭos, Ghālāṭiyā, Faflāghūniyā, Ghanǵis}}
 \DLine{AB01-PDF0659-body-L032}{}{(nr. 89), \textit{Ǵehrmāniyā, Ṭiǵiṭāniyā, Frūǵiyā, Niǵīrā, Frūǵis} (nr. 116). Loca media 56 pro-}
 \DLine{AB01-PDF0659-body-L033}{}{vinciarum al-Khuwārizmī determinat in longitudine et latitudine; al-Battānī 93 provinciarum}
@@ -1568,7 +1571,7 @@ usque ad al-Mu‘tazz & 0 & 0 & \textit{8} & 250 & 0 & 14 & 0 & 0 & \textit{10} 
 \DLine{AB01-PDF0662-body-L048}{}{al-Faramā 195.}
 \DLine{AB01-PDF0662-body-L049}{}{al-Fusṭāṭ 178.}
 \DLine{AB01-PDF0662-body-L050}{}{Gira metropolis 94.}
-\DLine{AB01-PDF0662-body-L051}{}{Iarzitha (? \textarabic{سونا ثليا}) 96.}
+\DLine{AB01-PDF0662-body-L051}{}{Iarzitha (? \ArabicRun{سونا ثليا}) 96.}
 \end{minipage}\begin{minipage}[t]{51.4mm}\vspace{0pt}
 \DLine{AB01-PDF0662-body-L052}{}{Leptis magna 106.}
 \DLine{AB01-PDF0662-body-L053}{}{Madīnat aṭ-Ṭīb 238.}
@@ -1615,7 +1618,7 @@ usque ad al-Mu‘tazz & 0 & 0 & \textit{8} & 250 & 0 & 14 & 0 & 0 & \textit{10} 
 \DLine{AB01-PDF0663-body-L021}{}{‘Aden 185.}
 \DLine{AB01-PDF0663-body-L022}{}{Alqis (Ocelis?) 234.}
 \DLine{AB01-PDF0663-body-L023}{}{al-Baḥrayn 246.}
-\DLine{AB01-PDF0663-body-L024}{}{\textarabic{بِرهور} 236.}
+\DLine{AB01-PDF0663-body-L024}{}{\ArabicRun{بِرهور} 236.}
 \DLine{AB01-PDF0663-body-L025}{}{al-Ǵār 253.}
 \DLine{AB01-PDF0663-body-L026}{}{Ǵorash 243.}
 \DLine{AB01-PDF0663-body-L027}{}{Ḥaḍramūt 237.}
@@ -1623,8 +1626,8 @@ usque ad al-Mu‘tazz & 0 & 0 & \textit{8} & 250 & 0 & 14 & 0 & 0 & \textit{10} 
 \DLine{AB01-PDF0663-body-L029}{}{Mārā 235.}
 \DLine{AB01-PDF0663-body-L030}{}{Mahrah 244.}
 \DLine{AB01-PDF0663-body-L031}{}{Mekkah 103.}
-\DLine{AB01-PDF0663-body-L032}{}{\textarabic{مصره} 249.}
-\DLine{AB01-PDF0663-body-L033}{}{\textarabic{المعلى} 240.}
+\DLine{AB01-PDF0663-body-L032}{}{\ArabicRun{مصره} 249.}
+\DLine{AB01-PDF0663-body-L033}{}{\ArabicRun{المعلى} 240.}
 \DLine{AB01-PDF0663-body-L034}{}{‘Omān 247.}
 \DLine{AB01-PDF0663-body-L035}{}{Saba’ 242.}
 \DLine{AB01-PDF0663-body-L036}{}{Ṣan‘ā’ 184.}
@@ -1766,12 +1769,12 @@ usque ad al-Mu‘tazz & 0 & 0 & \textit{8} & 250 & 0 & 14 & 0 & 0 & \textit{10} 
 \par\vspace{0.5\baselineskip}
 \DLine{AB01-PDF0664-body-L025}{}{\hypertarget{AB01-PDF0664-H25}{}\CenterLine{\fontsize{8.5}{10}\selectfont\textbf{Incertae.}}}
 \par\vspace{0.5\baselineskip}
-\DLine{AB01-PDF0664-body-L026}{}{\textarabic{بجلزا} seu \textarabic{بجلنرا} 102.}
-\DLine{AB01-PDF0664-body-L027}{}{\textarabic{سقراطاوس} 112.}
-\DLine{AB01-PDF0664-body-L028}{}{\textarabic{ارام} 230.}
-\DLine{AB01-PDF0664-body-L029}{}{\textarabic{جزيل} 203.}
-\DLine{AB01-PDF0664-body-L030}{}{\textarabic{بلد اور} 233.}
-\DLine{AB01-PDF0664-body-L031}{}{\textarabic{داڡا مدينة الفرس} 216.}
+\DLine{AB01-PDF0664-body-L026}{}{\ArabicRun{بجلزا} seu \ArabicRun{بجلنرا} 102.}
+\DLine{AB01-PDF0664-body-L027}{}{\ArabicRun{سقراطاوس} 112.}
+\DLine{AB01-PDF0664-body-L028}{}{\ArabicRun{ارام} 230.}
+\DLine{AB01-PDF0664-body-L029}{}{\ArabicRun{جزيل} 203.}
+\DLine{AB01-PDF0664-body-L030}{}{\ArabicRun{بلد اور} 233.}
+\DLine{AB01-PDF0664-body-L031}{}{\ArabicRun{داڡا مدينة الفرس} 216.}
 \end{minipage}}\par
 \par\vspace{4mm}
 \hypertarget{AB01-PDF0664-P01}{}
@@ -1806,11 +1809,11 @@ usque ad al-Mu‘tazz & 0 & 0 & \textit{8} & 250 & 0 & 14 & 0 & 0 & \textit{10} 
 \par\fontsize{9}{12}\selectfont
 \DLine{AB01-PDF0664-body-L055}{55}{17. \textit{Ysla,} quia Arabice \textit{ǵazīrah} insulam ac paeninsulam significat.}
 \DLine{AB01-PDF0664-body-L056}{}{66. Minuta latit. 31′ forte quia translator Hispanus in exemplari suo invenerat hoc loco, ad 0′ designan-}
-\DLine{AB01-PDF0664-body-L057}{}{\hspace*{2.5em}dum, negationem Arabicam \textarabic{لا} (sicut ter vel quater etiam in cod. Escur. fit), quam iuxta suum valo-}
+\DLine{AB01-PDF0664-body-L057}{}{\hspace*{2.5em}dum, negationem Arabicam \ArabicRun{لا} (sicut ter vel quater etiam in cod. Escur. fit), quam iuxta suum valo-}
 \DLine{AB01-PDF0664-body-L058}{}{\hspace*{2.5em}rem numeralem accipiendam putavit.}
-\DLine{AB01-PDF0664-body-L059}{}{72. Lat. 34° (ergo \textarabic{لد}), in cod. Esc. 37° \textarabic{لز}. \Name{Ptolemaeus} VI, 5 extremas latitudines 33° ac 39° statuit;}
-\DLine{AB01-PDF0664-body-L060}{60}{\hspace*{2.5em}vera lectio igitur 36° \textarabic{لو}, quae p. 35 restituenda.}
-\DLine{AB01-PDF0664-body-L061}{}{79. Nomen legit \textarabic{الصعد} pro \textarabic{الصغد}.}
+\DLine{AB01-PDF0664-body-L059}{}{72. Lat. 34° (ergo \ArabicRun{لد}), in cod. Esc. 37° \ArabicRun{لز}. \Name{Ptolemaeus} VI, 5 extremas latitudines 33° ac 39° statuit;}
+\DLine{AB01-PDF0664-body-L060}{60}{\hspace*{2.5em}vera lectio igitur 36° \ArabicRun{لو}, quae p. 35 restituenda.}
+\DLine{AB01-PDF0664-body-L061}{}{79. Nomen legit \ArabicRun{الصعد} pro \ArabicRun{الصغد}.}
 \DSource{0665}{216}
 \par\vspace{3mm}
 \par\noindent\rule{157mm}{1.2pt}\par\nointerlineskip\vspace{1pt}\noindent\rule{157mm}{.4pt}\par
@@ -1849,19 +1852,19 @@ usque ad al-Mu‘tazz & 0 & 0 & \textit{8} & 250 & 0 & 14 & 0 & 0 & \textit{10} 
 \DLine{AB01-PDF0665-body-L032}{}{\hspace*{0.0mm}\makebox[36.6mm][l]{\smash{126. Çayde}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[8.0mm][r]{\smash{*66}}\makebox[7.0mm][r]{\smash{20}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[6.0mm][r]{\smash{33}}\makebox[7.5mm][r]{\smash{30}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{1.2pt}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[36.2mm][l]{\smash{176. Vaçith}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[8.0mm][r]{\smash{*101}}\makebox[7.0mm][r]{\smash{30}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[6.0mm][r]{\smash{*34}}\makebox[6.9mm][r]{\smash{30}}}
 \par\vspace{6mm}
 \par\fontsize{9}{12}\selectfont
-\DLine{AB01-PDF0665-body-L033}{}{87. Nomen legit \textarabic{الزنج} \textit{az-Zinǵ} pro \textarabic{الرخج} \textit{ar-Rukhkhaǵ.}}
-\DLine{AB01-PDF0665-body-L034}{}{102. Nomen incertum videtur \textarabic{حارا} legisse.}
+\DLine{AB01-PDF0665-body-L033}{}{87. Nomen legit \ArabicRun{الزنج} \textit{az-Zinǵ} pro \ArabicRun{الرخج} \textit{ar-Rukhkhaǵ.}}
+\DLine{AB01-PDF0665-body-L034}{}{102. Nomen incertum videtur \ArabicRun{حارا} legisse.}
 \DLine{AB01-PDF0665-body-L035}{35}{103. Omittit longitudinem urbis probatam.}
-\DLine{AB01-PDF0665-body-L036}{}{109. Minuta latitudinis 58′ \textarabic{نح} longe meliora quam 18′ \textarabic{يح} codicis Escurialensis, a me p. 38 haud recte servata.}
+\DLine{AB01-PDF0665-body-L036}{}{109. Minuta latitudinis 58′ \ArabicRun{نح} longe meliora quam 18′ \ArabicRun{يح} codicis Escurialensis, a me p. 38 haud recte servata.}
 \DLine{AB01-PDF0665-body-L037}{}{118. Nomen sicut in cod. Escur. scriptum est invenit.}
 \DLine{AB01-PDF0665-body-L038}{}{124. Nominis corruptela amanuensi Hispano tribuenda videtur.}
-\DLine{AB01-PDF0665-body-L039}{}{153. Nomen legit \textarabic{الزها} pro \textarabic{الرها}; numeri false ab amanuensi quodam collocati pro 72° 50′, 37° 0′.}
+\DLine{AB01-PDF0665-body-L039}{}{153. Nomen legit \ArabicRun{الزها} pro \ArabicRun{الرها}; numeri false ab amanuensi quodam collocati pro 72° 50′, 37° 0′.}
 \DLine{AB01-PDF0665-body-L040}{40}{164. Nominis corruptela (pro \textit{hylath}) amanuensi Hispano tribuenda.}
 \DLine{AB01-PDF0665-body-L041}{}{169. Minuta long. ut apud \Name{al-Khuwārizmī}; minus recte cod. Escur. 10′, a me pag. 42 servata.}
 \DLine{AB01-PDF0665-body-L042}{}{175. Minuta latit. iustiora quam 29′ cod. Escur., a me pag. 43 servata et ex numero graduum false re-}
 \DLine{AB01-PDF0665-body-L043}{}{\hspace*{2.5em}petito orientia.}
-\DLine{AB01-PDF0665-body-L044}{}{176. Gradus latit. emendationem meam pag. 43 confirmant; cod. Escur. 30° \textarabic{ل}, interpres Hispanus 34° \textarabic{لد},}
-\DLine{AB01-PDF0665-body-L045}{45}{\hspace*{2.5em}vera lectio 32° \textarabic{لٮ} (= \textarabic{لب}).}
+\DLine{AB01-PDF0665-body-L044}{}{176. Gradus latit. emendationem meam pag. 43 confirmant; cod. Escur. 30° \ArabicRun{ل}, interpres Hispanus 34° \ArabicRun{لد},}
+\DLine{AB01-PDF0665-body-L045}{45}{\hspace*{2.5em}vera lectio 32° \ArabicRun{لٮ} (= \ArabicRun{لب}).}
 \DSource{0666}{217}
 \par\vspace{3mm}
 \par\noindent\rule{157mm}{1.2pt}\par\nointerlineskip\vspace{1pt}\noindent\rule{157mm}{.4pt}\par
@@ -1891,9 +1894,9 @@ usque ad al-Mu‘tazz & 0 & 0 & \textit{8} & 250 & 0 & 14 & 0 & 0 & \textit{10} 
 \DLine{AB01-PDF0666-body-L023}{}{\hspace*{0.0mm}\makebox[36.6mm][l]{\smash{222. arçocia}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[8.0mm][r]{\smash{67}}\makebox[7.0mm][r]{\smash{35}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[6.0mm][r]{\smash{34}}\makebox[7.5mm][r]{\smash{20}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{1.2pt}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[36.2mm][l]{\smash{261. açabrahan}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[8.0mm][r]{\smash{*63}}\makebox[7.0mm][r]{\smash{}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[6.0mm][r]{\smash{*34}}\makebox[6.9mm][r]{\smash{*30}}}
 \par\vspace{6mm}
 \par\fontsize{9}{12}\selectfont
-\DLine{AB01-PDF0666-body-L024}{}{177. Minuta longit. 50′ \textarabic{ن} meliora quam 30′ \textarabic{ل} cod. Escur. a me servata; \Name{al-Khuw.} 55′.}
+\DLine{AB01-PDF0666-body-L024}{}{177. Minuta longit. 50′ \ArabicRun{ن} meliora quam 30′ \ArabicRun{ل} cod. Escur. a me servata; \Name{al-Khuw.} 55′.}
 \DLine{AB01-PDF0666-body-L025}{25}{183. Numeri, meliores quam cod. Escur., cum emendationibus meis maxima ex parte congruunt.}
-\DLine{AB01-PDF0666-body-L026}{}{188. Eandem lectionem codicis Escur. \textarabic{سواد} « territorium agrique oppidi » pro \textarabic{سوان} \textit{Suwān} prae oculis}
+\DLine{AB01-PDF0666-body-L026}{}{188. Eandem lectionem codicis Escur. \ArabicRun{سواد} « territorium agrique oppidi » pro \ArabicRun{سوان} \textit{Suwān} prae oculis}
 \DLine{AB01-PDF0666-body-L027}{}{\hspace*{2.5em}habuit.}
 \DLine{AB01-PDF0666-body-L028}{}{200. Versio nominis Arabici.}
 \DLine{AB01-PDF0666-body-L029}{}{201. Gradus long. emendationem meam confirmant; minuta nescio an iustiora quam cod. Escur. 30′ a}
@@ -1901,20 +1904,20 @@ usque ad al-Mu‘tazz & 0 & 0 & \textit{8} & 250 & 0 & 14 & 0 & 0 & \textit{10} 
 \DLine{AB01-PDF0666-body-L031}{}{219. « De Persia » false ab interprete additum. Minuta long., cum \Name{Ptolemaicis} congruentia, iustiora}
 \DLine{AB01-PDF0666-body-L032}{}{\hspace*{2.5em}0′ cod. Escur. quod servavi pag. 48.}
 \DLine{AB01-PDF0666-body-L033}{}{221. Latitudo emendationes meas confirmat (sed 15′ pro meis 10′).}
-\DLine{AB01-PDF0666-body-L034}{}{235. Nomen \textit{Mārā} sibi ignotum interpres omisit. Minuta latit. 15′ \textarabic{يه} meliora quam cod. Escur. 55′ \textarabic{نه}}
+\DLine{AB01-PDF0666-body-L034}{}{235. Nomen \textit{Mārā} sibi ignotum interpres omisit. Minuta latit. 15′ \ArabicRun{يه} meliora quam cod. Escur. 55′ \ArabicRun{نه}}
 \DLine{AB01-PDF0666-body-L035}{35}{\hspace*{2.5em}a me servata.}
 \DLine{AB01-PDF0666-body-L036}{}{236. Ignotum nomen interpres omisit.}
 \DLine{AB01-PDF0666-body-L037}{}{238. Pag. 50 gradus long. 81° sunt typothetae lapsus pro 82°.}
 \DLine{AB01-PDF0666-body-L038}{}{242. Latit. emendationem meam confirmat.}
-\DLine{AB01-PDF0666-body-L039}{}{248. Nomen legit \textarabic{البيروز} (cod. Escur. \textarabic{النيروز}). — Longit. gradus 110° \textarabic{قى} falsi, sed emendationem a me in}
-\DLine{AB01-PDF0666-body-L040}{40}{\hspace*{2.5em}nota propositam (102° \textarabic{قٮ} = \textarabic{قب}) confirmant.}
+\DLine{AB01-PDF0666-body-L039}{}{248. Nomen legit \ArabicRun{البيروز} (cod. Escur. \ArabicRun{النيروز}). — Longit. gradus 110° \ArabicRun{قى} falsi, sed emendationem a me in}
+\DLine{AB01-PDF0666-body-L040}{40}{\hspace*{2.5em}nota propositam (102° \ArabicRun{قٮ} = \ArabicRun{قب}) confirmant.}
 \DLine{AB01-PDF0666-body-L041}{}{250. Gradus long. iustiora quam cod. Escur. a me servata; gradus latit. sicut emendavi.}
 \DLine{AB01-PDF0666-body-L042}{}{251. Gradus latit. nescio an omnino iusti, sed longe meliores quam cod. Escur.}
 \DLine{AB01-PDF0666-body-L043}{}{253. Gradus longit. falsi ex amanuensis Hispani incuria (96° pro 69°); latit., in cod. Escur. falsa, nunc}
 \DLine{AB01-PDF0666-body-L044}{}{\hspace*{2.5em}potest pag. 52 certissime restitui.}
-\DLine{AB01-PDF0666-body-L045}{45}{257. Nomen false \textarabic{ديولة} pro \textarabic{دنقلة} lectum.}
-\DLine{AB01-PDF0666-body-L046}{}{261. Nomen false \textarabic{السبرحان} pro \textarabic{السيرجان} lectum. — Minuta latit. in cod. Escur. recte \textarabic{لا} (negatio Arabica = 0′;}
-\DLine{AB01-PDF0666-body-L047}{}{\hspace*{2.5em}cfr. paulum supra ad nr. 66); interpres \textarabic{ل} 30′ legit.}
+\DLine{AB01-PDF0666-body-L045}{45}{257. Nomen false \ArabicRun{ديولة} pro \ArabicRun{دنقلة} lectum.}
+\DLine{AB01-PDF0666-body-L046}{}{261. Nomen false \ArabicRun{السبرحان} pro \ArabicRun{السيرجان} lectum. — Minuta latit. in cod. Escur. recte \ArabicRun{لا} (negatio Arabica = 0′;}
+\DLine{AB01-PDF0666-body-L047}{}{\hspace*{2.5em}cfr. paulum supra ad nr. 66); interpres \ArabicRun{ل} 30′ legit.}
 \par\vspace{5mm}\hfill{\fontsize{8}{10}\selectfont 28}\hspace{10mm}
 \DSource{0667}{218}
 \par\vspace{3mm}
@@ -1929,8 +1932,8 @@ usque ad al-Mu‘tazz & 0 & 0 & \textit{8} & 250 & 0 & 14 & 0 & 0 & \textit{10} 
 \par\fontsize{9}{12}\selectfont
 \DLine{AB01-PDF0667-body-L004}{}{262. Gradus latit. emendationem meam confirmant; minuta nescio an meliora quam cod. Escur. (35′) a}
 \DLine{AB01-PDF0667-body-L005}{5}{\hspace*{2.5em}me servata.}
-\DLine{AB01-PDF0667-body-L006}{}{267. Nomen legit \textarabic{سوسية} pro \textarabic{اسروشنة} (cod. Escur. \textarabic{سروسيه}).}
-\DLine{AB01-PDF0667-body-L007}{}{269. Latit. 34° \textarabic{لد} emendationem meam 37° \textarabic{لز} confirmare videtur.}
+\DLine{AB01-PDF0667-body-L006}{}{267. Nomen legit \ArabicRun{سوسية} pro \ArabicRun{اسروشنة} (cod. Escur. \ArabicRun{سروسيه}).}
+\DLine{AB01-PDF0667-body-L007}{}{269. Latit. 34° \ArabicRun{لد} emendationem meam 37° \ArabicRun{لز} confirmare videtur.}
 \par\fontsize{11.1}{13.8}\selectfont
 \par\vspace{5mm}
 \hypertarget{AB01-PDF0667-P01}{}
@@ -2014,7 +2017,7 @@ usque ad al-Mu‘tazz & 0 & 0 & \textit{8} & 250 & 0 & 14 & 0 & 0 & \textit{10} 
 \DLine{AB01-PDF0668-body-L017}{}{\hspace*{0.0mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{1.2pt}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[40.0mm][l]{\smash{}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[8.0mm][r]{\smash{}}\makebox[7.0mm][r]{\smash{}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[8.0mm][r]{\smash{}}\makebox[7.0mm][r]{\smash{}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[96.0mm][l]{\smash{\hspace*{4mm}et Abou. habent.}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{1.2pt}\rule[-\dp\strutbox]{.4pt}{\baselineskip}}
 \DLine{AB01-PDF0668-body-L018}{}{\hspace*{0.0mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{1.2pt}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[40.0mm][l]{\smash{Balansiyah}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[8.0mm][r]{\smash{30}}\makebox[7.0mm][r]{\smash{30}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[8.0mm][r]{\smash{37}}\makebox[7.0mm][r]{\smash{\textit{37}}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[96.0mm][l]{\smash{\textit{Valencia.} — Abr. 30° 20′, 36° 25′; Abou. 30° 50′, 37° 30′.}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{1.2pt}\rule[-\dp\strutbox]{.4pt}{\baselineskip}}
 \DLine{AB01-PDF0668-body-L019}{}{\hspace*{0.0mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{1.2pt}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[40.0mm][l]{\smash{Saraqusṭah}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[8.0mm][r]{\smash{29}}\makebox[7.0mm][r]{\smash{55}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[8.0mm][r]{\smash{41}}\makebox[7.0mm][r]{\smash{30}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[96.0mm][l]{\smash{\textit{Zaragoza.} — Ut Abou.}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{1.2pt}\rule[-\dp\strutbox]{.4pt}{\baselineskip}}
-\DLine{AB01-PDF0668-body-L020}{20}{\hspace*{0.0mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{1.2pt}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[40.0mm][l]{\smash{Ṭanǵah}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[8.0mm][r]{\smash{24}}\makebox[7.0mm][r]{\smash{10}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[8.0mm][r]{\smash{35}}\makebox[7.0mm][r]{\smash{\textit{55}}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[96.0mm][l]{\smash{\textit{Tanger.} — In lat. \textarabic{يه} 15′ pro \textarabic{نه} 55′ restituendum.}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{1.2pt}\rule[-\dp\strutbox]{.4pt}{\baselineskip}}
+\DLine{AB01-PDF0668-body-L020}{20}{\hspace*{0.0mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{1.2pt}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[40.0mm][l]{\smash{Ṭanǵah}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[8.0mm][r]{\smash{24}}\makebox[7.0mm][r]{\smash{10}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[8.0mm][r]{\smash{35}}\makebox[7.0mm][r]{\smash{\textit{55}}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[96.0mm][l]{\smash{\textit{Tanger.} — In lat. \ArabicRun{يه} 15′ pro \ArabicRun{نه} 55′ restituendum.}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{1.2pt}\rule[-\dp\strutbox]{.4pt}{\baselineskip}}
 \DLine{AB01-PDF0668-body-L021}{}{\hspace*{0.0mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{1.2pt}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[40.0mm][l]{\smash{}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[8.0mm][r]{\smash{}}\makebox[7.0mm][r]{\smash{}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[8.0mm][r]{\smash{}}\makebox[7.0mm][r]{\smash{}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[96.0mm][l]{\smash{\hspace*{4mm}Abou. 24° 10′, 35° 10′; latit. apud Arzachel (3) et Ibn}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{1.2pt}\rule[-\dp\strutbox]{.4pt}{\baselineskip}}
 \DLine{AB01-PDF0668-body-L022}{}{\hspace*{0.0mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{1.2pt}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[40.0mm][l]{\smash{}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[8.0mm][r]{\smash{}}\makebox[7.0mm][r]{\smash{}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[8.0mm][r]{\smash{}}\makebox[7.0mm][r]{\smash{}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[96.0mm][l]{\smash{\hspace*{4mm}Yūnus 35° 15′.}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{1.2pt}\rule[-\dp\strutbox]{.4pt}{\baselineskip}}
 \DLine{AB01-PDF0668-body-L023}{}{\hspace*{0.0mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{1.2pt}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[40.0mm][l]{\smash{Fās}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[8.0mm][r]{\smash{25}}\makebox[7.0mm][r]{\smash{0}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[8.0mm][r]{\smash{33}}\makebox[7.0mm][r]{\smash{0}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[96.0mm][l]{\smash{\textit{Fez.} — Ut Abr.; Abou. 24° 0′, 33° 0′.}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{1.2pt}\rule[-\dp\strutbox]{.4pt}{\baselineskip}}
@@ -2036,9 +2039,9 @@ usque ad al-Mu‘tazz & 0 & 0 & \textit{8} & 250 & 0 & 14 & 0 & 0 & \textit{10} 
 \noindent\begin{minipage}[t]{.48\textwidth}\vspace{0pt}\fontsize{9}{11.5}\selectfont\setlength{\GutterOffset}{0pt}
 \hypertarget{AB01-PDF0668-N01}{}
 \DLine{AB01-PDF0668-notes_left-L001}{}{\Indent (1) Nonnulli Arabum scriptores \textit{Māliqah} efferen-}
-\DLine{AB01-PDF0668-notes_left-L002}{}{dum ducunt; at recte \textit{Tāǵ al-‘arūs,} VII, 73: \textarabic{ومالقة}}
-\DLine{AB01-PDF0668-notes_left-L003}{}{\textarabic{بفتح اللام والعامة تكسرها قال الصاغاني وهو غلط واكثر}}
-\DLine{AB01-PDF0668-notes_left-L004}{}{\textarabic{الاندلسيين يضبطونه بفتحها}.}
+\DLine{AB01-PDF0668-notes_left-L002}{}{dum ducunt; at recte \textit{Tāǵ al-‘arūs,} VII, 73: \ArabicRun{ومالقة}}
+\DLine{AB01-PDF0668-notes_left-L003}{}{\ArabicRun{بفتح اللام والعامة تكسرها قال الصاغاني وهو غلط واكثر}}
+\DLine{AB01-PDF0668-notes_left-L004}{}{\ArabicRun{الاندلسيين يضبطونه بفتحها}.}
 \hypertarget{AB01-PDF0668-N02}{}
 \DLine{AB01-PDF0668-notes_left-L005}{}{\Indent (2) \Name{Yāqūt} aliique \textit{al-Murriyyah} scribendum}
 \DLine{AB01-PDF0668-notes_left-L006}{}{praecipiunt, quod in textum recepi; sed vera lectio}
@@ -2071,7 +2074,7 @@ usque ad al-Mu‘tazz & 0 & 0 & \textit{8} & 250 & 0 & 14 & 0 & 0 & \textit{10} 
 \DLine{AB01-PDF0669-body-L005}{5}{\hspace*{0.0mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{1.2pt}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[40.0mm][l]{\smash{Māridah}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[8.0mm][r]{\smash{8}}\makebox[7.0mm][r]{\smash{0}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[8.0mm][r]{\smash{41}}\makebox[7.0mm][r]{\smash{55}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[96.0mm][l]{\smash{\textit{Mérida.} — Ut Arzachel; cfr. Ptolemaei \textgreek{Αὐγούστα Ἠμε}-}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{1.2pt}\rule[-\dp\strutbox]{.4pt}{\baselineskip}}
 \DLine{AB01-PDF0669-body-L006}{}{\hspace*{0.0mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{1.2pt}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[40.0mm][l]{\smash{}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[8.0mm][r]{\smash{}}\makebox[7.0mm][r]{\smash{}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[8.0mm][r]{\smash{}}\makebox[7.0mm][r]{\smash{}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[96.0mm][l]{\smash{\hspace*{4mm}\textgreek{ριτα} 8° 0′, 39° 30′.}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{1.2pt}\rule[-\dp\strutbox]{.4pt}{\baselineskip}}
 \DLine{AB01-PDF0669-body-L007}{}{\hspace*{0.0mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{1.2pt}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[40.0mm][l]{\smash{Madīnat Sālim}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[8.0mm][r]{\smash{9}}\makebox[7.0mm][r]{\smash{30}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[8.0mm][r]{\smash{40}}\makebox[7.0mm][r]{\smash{15}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[96.0mm][l]{\smash{\textit{Medinaceli.}}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{1.2pt}\rule[-\dp\strutbox]{.4pt}{\baselineskip}}
-\DLine{AB01-PDF0669-body-L008}{}{\hspace*{0.0mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{1.2pt}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[40.0mm][l]{\smash{Ṭurṭūshah}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[8.0mm][r]{\smash{32}}\makebox[7.0mm][r]{\smash{0}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[8.0mm][r]{\smash{\textit{37}}}\makebox[7.0mm][r]{\smash{15}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[96.0mm][l]{\smash{\textit{Tortosa.} — In lat. fortasse \textarabic{م} 40° restituendum; Pto-}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{1.2pt}\rule[-\dp\strutbox]{.4pt}{\baselineskip}}
+\DLine{AB01-PDF0669-body-L008}{}{\hspace*{0.0mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{1.2pt}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[40.0mm][l]{\smash{Ṭurṭūshah}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[8.0mm][r]{\smash{32}}\makebox[7.0mm][r]{\smash{0}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[8.0mm][r]{\smash{\textit{37}}}\makebox[7.0mm][r]{\smash{15}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[96.0mm][l]{\smash{\textit{Tortosa.} — In lat. fortasse \ArabicRun{م} 40° restituendum; Pto-}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{1.2pt}\rule[-\dp\strutbox]{.4pt}{\baselineskip}}
 \DLine{AB01-PDF0669-body-L009}{}{\hspace*{0.0mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{1.2pt}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[40.0mm][l]{\smash{}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[8.0mm][r]{\smash{}}\makebox[7.0mm][r]{\smash{}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[8.0mm][r]{\smash{}}\makebox[7.0mm][r]{\smash{}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[96.0mm][l]{\smash{\hspace*{4mm}lemaeus (\textgreek{Δερτῶσα}) et Ibn Sa‘īd lat. 40° 0′.}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{1.2pt}\rule[-\dp\strutbox]{.4pt}{\baselineskip}}
 \DLine{AB01-PDF0669-body-L010}{10}{\hspace*{0.0mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{1.2pt}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[40.0mm][l]{\smash{Saraqusṭah}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[8.0mm][r]{\smash{8}}\makebox[7.0mm][r]{\smash{30}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[8.0mm][r]{\smash{41}}\makebox[7.0mm][r]{\smash{30}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[96.0mm][l]{\smash{\textit{Zaragoza.}}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{1.2pt}\rule[-\dp\strutbox]{.4pt}{\baselineskip}}
 \DLine{AB01-PDF0669-body-L011}{}{\hspace*{0.0mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{1.2pt}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[40.0mm][l]{\smash{Tudmīr}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[8.0mm][r]{\smash{10}}\makebox[7.0mm][r]{\smash{15}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[8.0mm][r]{\smash{37}}\makebox[7.0mm][r]{\smash{30}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[96.0mm][l]{\smash{\textit{Murcia.}}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{1.2pt}\rule[-\dp\strutbox]{.4pt}{\baselineskip}}
@@ -2082,8 +2085,8 @@ usque ad al-Mu‘tazz & 0 & 0 & \textit{8} & 250 & 0 & 14 & 0 & 0 & \textit{10} 
 \DLine{AB01-PDF0669-body-L016}{}{\hspace*{0.0mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{1.2pt}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[40.0mm][l]{\smash{}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[8.0mm][r]{\smash{}}\makebox[7.0mm][r]{\smash{}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[8.0mm][r]{\smash{}}\makebox[7.0mm][r]{\smash{}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[96.0mm][l]{\smash{\hspace*{4mm}ctoris, a Gherardo Cremonensi Latine verso (2);}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{1.2pt}\rule[-\dp\strutbox]{.4pt}{\baselineskip}}
 \DLine{AB01-PDF0669-body-L017}{}{\hspace*{0.0mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{1.2pt}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[40.0mm][l]{\smash{}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[8.0mm][r]{\smash{}}\makebox[7.0mm][r]{\smash{}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[8.0mm][r]{\smash{}}\makebox[7.0mm][r]{\smash{}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[96.0mm][l]{\smash{\hspace*{4mm}Abou. 27° 30′, 38° 30′.}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{1.2pt}\rule[-\dp\strutbox]{.4pt}{\baselineskip}}
 \DLine{AB01-PDF0669-body-L018}{}{\hspace*{0.0mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{1.2pt}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[40.0mm][l]{\smash{al-Ǵazīrah al-khaḍrā’}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[8.0mm][r]{\smash{26}}\makebox[7.0mm][r]{\smash{0}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[8.0mm][r]{\smash{36}}\makebox[7.0mm][r]{\smash{30}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[96.0mm][l]{\smash{\textit{Algeciras.} — Abou. 25° 40′, 36° 0′.}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{1.2pt}\rule[-\dp\strutbox]{.4pt}{\baselineskip}}
-\DLine{AB01-PDF0669-body-L019}{}{\hspace*{0.0mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{1.2pt}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[40.0mm][l]{\smash{Baṭalyūs}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[8.0mm][r]{\smash{\textit{25}}}\makebox[7.0mm][r]{\smash{20}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[8.0mm][r]{\smash{39}}\makebox[7.0mm][r]{\smash{30}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[96.0mm][l]{\smash{\textit{Badajoz.} — Abou. 24° 32′, 39° 30′; in long. pro \textarabic{كه} 25°}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{1.2pt}\rule[-\dp\strutbox]{.4pt}{\baselineskip}}
-\DLine{AB01-PDF0669-body-L020}{20}{\hspace*{0.0mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{1.2pt}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[40.0mm][l]{\smash{}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[8.0mm][r]{\smash{}}\makebox[7.0mm][r]{\smash{}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[8.0mm][r]{\smash{}}\makebox[7.0mm][r]{\smash{}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[96.0mm][l]{\smash{\hspace*{4mm}fortasse \textarabic{كد} 24° emendandum.}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{1.2pt}\rule[-\dp\strutbox]{.4pt}{\baselineskip}}
+\DLine{AB01-PDF0669-body-L019}{}{\hspace*{0.0mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{1.2pt}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[40.0mm][l]{\smash{Baṭalyūs}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[8.0mm][r]{\smash{\textit{25}}}\makebox[7.0mm][r]{\smash{20}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[8.0mm][r]{\smash{39}}\makebox[7.0mm][r]{\smash{30}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[96.0mm][l]{\smash{\textit{Badajoz.} — Abou. 24° 32′, 39° 30′; in long. pro \ArabicRun{كه} 25°}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{1.2pt}\rule[-\dp\strutbox]{.4pt}{\baselineskip}}
+\DLine{AB01-PDF0669-body-L020}{20}{\hspace*{0.0mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{1.2pt}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[40.0mm][l]{\smash{}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[8.0mm][r]{\smash{}}\makebox[7.0mm][r]{\smash{}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[8.0mm][r]{\smash{}}\makebox[7.0mm][r]{\smash{}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[96.0mm][l]{\smash{\hspace*{4mm}fortasse \ArabicRun{كد} 24° emendandum.}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{1.2pt}\rule[-\dp\strutbox]{.4pt}{\baselineskip}}
 \DLine{AB01-PDF0669-body-L021}{}{\hspace*{0.0mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{1.2pt}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[40.0mm][l]{\smash{Qal‘at Rabāḥ}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[8.0mm][r]{\smash{9}}\makebox[7.0mm][r]{\smash{20}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[8.0mm][r]{\smash{39}}\makebox[7.0mm][r]{\smash{30}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}\makebox[96.0mm][l]{\smash{\textit{Calatrava.}}}\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{1.2pt}\rule[-\dp\strutbox]{.4pt}{\baselineskip}}
 \par\nointerlineskip\noindent\hspace*{0.0mm}\rule{.4pt}{4mm}\hspace{1.2pt}\rule{.4pt}{4mm}\hspace{2mm}\hspace{40.0mm}\hspace{3mm}\rule{.4pt}{4mm}\hspace{2mm}\hspace{8.0mm}\hspace{7.0mm}\hspace{3mm}\rule{.4pt}{4mm}\hspace{2mm}\hspace{8.0mm}\hspace{7.0mm}\hspace{3mm}\rule{.4pt}{4mm}\hspace{2mm}\hspace{96.0mm}\hspace{3mm}\rule{.4pt}{4mm}\hspace{1.2pt}\rule{.4pt}{4mm}\par\nointerlineskip
 \par\noindent\hspace*{0.0mm}\rule{187.83mm}{1.2pt}\par\nointerlineskip\vspace{1pt}\noindent\hspace*{0.0mm}\rule{187.83mm}{.4pt}\par
@@ -2109,7 +2112,7 @@ usque ad al-Mu‘tazz & 0 & 0 & \textit{8} & 250 & 0 & 14 & 0 & 0 & \textit{10} 
 \hypertarget{AB01-PDF0669-N01}{}
 \DLine{AB01-PDF0669-notes_left-L001}{}{\Indent (1) Urbs et regio Sūdān occidentalis, apud Ara-}
 \DLine{AB01-PDF0669-notes_left-L002}{}{bes olim celeberrima. Urbs aut hodierna \textit{Walātah}}
-\DLine{AB01-PDF0669-notes_left-L003}{}{\textarabic{ولاتة} aut illi proxima; regnum, ab Atlantico ad Ni-}
+\DLine{AB01-PDF0669-notes_left-L003}{}{\ArabicRun{ولاتة} aut illi proxima; regnum, ab Atlantico ad Ni-}
 \DLine{AB01-PDF0669-notes_left-L004}{}{ger porrectum, et circa 300 Chr. conditum, anno 1203-}
 \DLine{AB01-PDF0669-notes_left-L005}{}{1204 a gente Mandingo subactum est. Vide P. C. \Name{Me-}}
 \DLine{AB01-PDF0669-notes_left-L006}{}{\Name{yer}, \textit{Erforschungsgeschichte und Staatenbildun-}}
@@ -2118,7 +2121,7 @@ usque ad al-Mu‘tazz & 0 & 0 & \textit{8} & 250 & 0 & 14 & 0 & 0 & \textit{10} 
 \DLine{AB01-PDF0669-notes_left-L009}{}{Aliqua nominis similitudine decepti, putaverunt non-}
 \end{minipage}
 \hfill\begin{minipage}[t]{.48\textwidth}\vspace{0pt}\fontsize{9}{11.5}\selectfont\setlength{\GutterOffset}{0pt}
-\DLine{AB01-PDF0669-notes_right-L001}{}{nulli Ghānah eandem esse urbem ac \textit{Ǵennē} \textarabic{جنى},}
+\DLine{AB01-PDF0669-notes_right-L001}{}{nulli Ghānah eandem esse urbem ac \textit{Ǵennē} \ArabicRun{جنى},}
 \DLine{AB01-PDF0669-notes_right-L002}{}{eo loco quo Baulē in dexteram Niger ripam influit.}
 \hypertarget{AB01-PDF0669-N02}{}
 \DLine{AB01-PDF0669-notes_right-L003}{}{\Indent (2) Apud \Name{Steinschneider}, \textit{Intorno ad}}
@@ -2129,4 +2132,237 @@ usque ad al-Mu‘tazz & 0 & 0 & \textit{8} & 250 & 0 & 14 & 0 & 0 & \textit{10} 
 \DLine{AB01-PDF0669-notes_right-L008}{}{adn. 3. — De incerto libri auctore v. \Name{Suter}, \textit{Nach-}}
 \DLine{AB01-PDF0669-notes_right-L009}{}{\textit{träge und Berichtigungen} p. 170.}
 \end{minipage}
+\DSource{0670}{221}
+\DLine{AB01-PDF0670-body-L001}{}{optime cum \Name{Ptolemaeo} congruunt; interdum discrepantiae + 1″ ab \Name{Aboul Hhassan},}
+\DLine{AB01-PDF0670-body-L002}{}{apud quem, in sinibus integrorum et dimidiorum graduum (quos tantum examinavi), haec}
+\DLine{AB01-PDF0670-body-L003}{}{sunt emendanda:}
+\DLine{AB01-PDF0670-body-L004}{}{\hspace*{44.0mm}\makebox[7.0mm][l]{\smash{sin}}\makebox[8.0mm][r]{24\rlap{°}}\makebox[7.0mm][r]{0\rlap{′}}\makebox[6.0mm][c]{\smash{=}}\makebox[8.0mm][r]{24\rlap{\textsuperscript{\textit{p}}}}\makebox[7.0mm][r]{24\rlap{′}}\makebox[7.0mm][r]{55\rlap{″}}\makebox[34.0mm][c]{\smash{pro editionis}}\makebox[8.0mm][r]{24\rlap{\textsuperscript{\textit{p}}}}\makebox[7.0mm][r]{24\rlap{′}}\makebox[7.0mm][r]{\textit{15}\rlap{\textit{″}}}}
+\DLine{AB01-PDF0670-body-L005}{5}{\hspace*{44.0mm}\makebox[7.0mm][l]{\smash{sin}}\makebox[8.0mm][r]{60\rlap{°}}\makebox[7.0mm][r]{30\rlap{′}}\makebox[6.0mm][c]{\smash{=}}\makebox[8.0mm][r]{52\rlap{\textsuperscript{\textit{p}}}}\makebox[7.0mm][r]{12\rlap{′}}\makebox[7.0mm][r]{46\rlap{″}}\makebox[34.0mm][c]{\smash{»\hspace{15mm}»}}\makebox[8.0mm][r]{52\rlap{\textsuperscript{\textit{p}}}}\makebox[7.0mm][r]{\textit{13}\rlap{\textit{′}}}\makebox[7.0mm][r]{\textit{17}\rlap{\textit{″}}}}
+\DLine{AB01-PDF0670-body-L006}{}{\hspace*{44.0mm}\makebox[7.0mm][l]{\smash{sin}}\makebox[8.0mm][r]{71\rlap{°}}\makebox[7.0mm][r]{0\rlap{′}}\makebox[6.0mm][c]{\smash{=}}\makebox[8.0mm][r]{56\rlap{\textsuperscript{\textit{p}}}}\makebox[7.0mm][r]{33\rlap{′}}\makebox[7.0mm][r]{52\rlap{″}}\makebox[34.0mm][c]{\smash{»\hspace{15mm}»}}\makebox[8.0mm][r]{56\rlap{\textsuperscript{\textit{p}}}}\makebox[7.0mm][r]{\textit{43}\rlap{\textit{′}}}\makebox[7.0mm][r]{52\rlap{″.}}}
+\par\vspace{6mm}
+\hypertarget{AB01-PDF0670-H07}{}
+\DLine{AB01-PDF0670-body-L007}{}{\CenterLine{\textit{Ad pag. 57-58.} — \textbf{Tabulae declinationis Solis.}}}
+\par\vspace{3mm}
+\hypertarget{AB01-PDF0670-P01}{}
+\DLine{AB01-PDF0670-body-L008}{}{\Indent Memoratae t. I, p. 13, cap. IV.}
+\hypertarget{AB01-PDF0670-P02}{}
+\DLine{AB01-PDF0670-body-L009}{}{\Indent Tabulae \Name{Ptolemaei} I, 12 (ed. Halma, t. I, p. 59) et \Name{Theonis} pro obliquitate 23° 51′ 20″}
+\DLine{AB01-PDF0670-body-L010}{10}{supputatae; tabulas igitur \Name{Albatenii} nonnisi per calculos nostris tabulis logarithmicis insti-}
+\DLine{AB01-PDF0670-body-L011}{}{tutos \Name{Schiaparelli} emendare potuit, discrepantiis 1″ aut 2″ neglectis. Logarithmis sufficit}
+\DLine{AB01-PDF0670-body-L012}{}{pro longitudine 1° declinationem supputare (sin \textgreek{δ} = sin L sin \textgreek{ε}); reliqui termini deducuntur dif-}
+\DLine{AB01-PDF0670-body-L013}{}{ferentias logarithmicas sinuum pro singulis gradibus perpetuo addendo primo logarithmo; cfr.}
+\DLine{AB01-PDF0670-body-L014}{}{\textit{notes de} M. \Name{Delambre}, apud Halma, t. I, notes p. 5–6.}
+\hypertarget{AB01-PDF0670-P03}{}
+\DLine{AB01-PDF0670-body-L015}{15}{\Indent \textbf{\textsf{Pag. 58}}, \textit{ordines declinationis.} Tabella memoratur in fine adp. G (t. I, p. 150); de iis or-}
+\DLine{AB01-PDF0670-body-L016}{}{dinibus cap. IV, t. I, p. 13, et etiam adnotationes meas t. I, p. 13, adn. 2, et LXXI. In codicis}
+\DLine{AB01-PDF0670-body-L017}{}{figura perperam voces \textit{ascensus} et \textit{descensus} inter se commutatae, qua re prope ambo latera}
+\DLine{AB01-PDF0670-body-L018}{}{circuli amanuensis \ArabicRun{منكوس} « invertendum » scripsit; versio Hispanica (f. 43,v.) eosdem praebet}
+\DLine{AB01-PDF0670-body-L019}{}{errores, et vocem \textit{mankūs} vertit « conuerso ».}
+\hypertarget{AB01-PDF0670-P04}{}
+\DLine{AB01-PDF0670-body-L020}{20}{\Indent \textbf{\textsf{Pag. 58}}, \textit{ascensiones rectae decadum graduum et sinus correspondentes.} Memorantur}
+\DLine{AB01-PDF0670-body-L021}{}{adp. G, t. I, p. 150. Ascensiones ab initio Arietis numeratae, non ab initio Capricorni ut in}
+\DLine{AB01-PDF0670-body-L022}{}{tabulis t. II, pag. 61–64 (cfr. adnot. t. I, p. 163–64 et Addenda). In titulo tertiae columnae per-}
+\DLine{AB01-PDF0670-body-L023}{}{peram cod. \ArabicRun{ازمان ..... المنصّفة} « tempora dimidiata » loco \ArabicRun{اوتار ..... المنصّفة} « chordae dimidiatae » seu}
+\DLine{AB01-PDF0670-body-L024}{}{sinus. — Tabulam ascensionum rectarum ad decades graduum, sed sinibus omissis et pro alia}
+\DLine{AB01-PDF0670-body-L025}{25}{obliquitate, \Name{Ptolemaeus} quoque II, 8 (ed. Halma, t. I, p. 103) exhibet.}
+\par\vspace{6mm}
+\hypertarget{AB01-PDF0670-H26}{}
+\DLine{AB01-PDF0670-body-L026}{}{\CenterLine{\textit{Ad pag. 59.} — \textbf{Dierum magnitudines pro diversis latitudinibus.}}}
+\par\vspace{3mm}
+\hypertarget{AB01-PDF0670-P05}{}
+\DLine{AB01-PDF0670-body-L027}{}{\Indent Cfr. cap. VIII et IX, t. I, p. 21–22.}
+\hypertarget{AB01-PDF0670-P06}{}
+\DLine{AB01-PDF0670-body-L028}{}{\Indent Tabula a \Name{Schiaparelli} emendata. Incrementa dierum indicantur gradibus circuli aequi-}
+\DLine{AB01-PDF0670-body-L029}{}{noctialis, quorum 15° horam aequinoctialem conficiunt.}
+\par\vspace{6mm}
+\hypertarget{AB01-PDF0670-H30}{}
+\DLine{AB01-PDF0670-body-L030}{30}{\CenterLine{\textit{Ad pag. 60.} — \textbf{Tabula umbrarum.}}}
+\par\vspace{3mm}
+\hypertarget{AB01-PDF0670-P07}{}
+\DLine{AB01-PDF0670-body-L031}{}{\Indent Memoratur cap. X, t. I, p. 22–23}
+\hypertarget{AB01-PDF0670-P08}{}
+\DLine{AB01-PDF0670-body-L032}{}{\Indent Sunt cotangentes pro radio 12 partium supputatae; tabulis logarithmicis facile potui co-}
+\DLine{AB01-PDF0670-body-L033}{}{dicis mendas sanare. Duae primae umbrae in cod. 687\textsuperscript{\textit{p}} 26′ et 663\textsuperscript{\textit{p}} (\ArabicRun{حصج} pro \ArabicRun{سمج} 343\textsuperscript{\textit{p}}) 39′;}
+\DLine{AB01-PDF0670-body-L034}{}{sed fortasse parvae hae minutorum discrepantiae ab ipso \Name{al-Battānī} proveniunt, qui minuta}
+\DLine{AB01-PDF0670-body-L035}{35}{illa deduxerit divisione sinuum usque ad secundas tantum radii 60 partium supputatorum.}
+\par\vspace{6mm}
+\hypertarget{AB01-PDF0670-H36}{}
+\DLine{AB01-PDF0670-body-L036}{}{\CenterLine{\textit{Ad pag. 61–64.} — \textbf{Ascensiones rectae et aequationes dierum.}}}
+\par\vspace{3mm}
+\hypertarget{AB01-PDF0670-P09}{}
+\DLine{AB01-PDF0670-body-L037}{}{\Indent Tabulae memorantur cap. XIII, XXIX, XXXIV, XLII, et adp. E (ubi tabularum usus do-}
+\DLine{AB01-PDF0670-body-L038}{}{cetur), scilicet t. I, p. 28, 49, 72–73, 95, 148.}
+\DSource{0671}{222}
+\hypertarget{AB01-PDF0671-P01}{}
+\DLine{AB01-PDF0671-body-L001}{}{\Indent Ascensiones rectae ab \textit{initio Capricorni} numerantur; ut ab initio \textit{Arietis} fiant oportet}
+\DLine{AB01-PDF0671-body-L002}{}{90° ab ascensionibus tabulae demere. Cfr. t. I, p. 163–64 et Addenda. — \Name{Ptolemaeus} non-}
+\DLine{AB01-PDF0671-body-L003}{}{nisi ascensiones rectas decadum graduum in tabulis posuit, sicut antea monui, ad pag. 58.}
+\hypertarget{AB01-PDF0671-P02}{}
+\DLine{AB01-PDF0671-body-L004}{}{\Indent Aequationum temporis tabula apud Ptolemaeum desideratur; quo modo apud \Name{Albate-}}
+\DLine{AB01-PDF0671-body-L005}{5}{\Name{nium} aequatio illa intelligenda sit (semper nempe subtractiva) dictum est in adnotationibus}
+\DLine{AB01-PDF0671-body-L006}{}{t. I, p. 221–22.}
+\par\vspace{8mm}
+\hypertarget{AB01-PDF0671-H07}{}
+\DLine{AB01-PDF0671-body-L007}{}{\CenterLine{\textit{Ad pag. 65-66.} — \textbf{Ascensiones obliquae pro singulis climatibus.}}}
+\par\vspace{4mm}
+\hypertarget{AB01-PDF0671-P03}{}
+\DLine{AB01-PDF0671-body-L008}{}{\Indent Tabularum mentio cap. XIII et XXXV, t. I, p. 27–28, 29, 73.}
+\hypertarget{AB01-PDF0671-P04}{}
+\DLine{AB01-PDF0671-body-L009}{}{\Indent Ab initio \textit{Arietis} numerantur, non a Capricorno ut ascensiones rectae. Differunt a \textit{Pto-}}
+\DLine{AB01-PDF0671-body-L010}{10}{\textit{lemaicis} II, 8 (ed. Halma, t. I, p. 104–108) ad graduum decades quoque supputatis, ob diver-}
+\DLine{AB01-PDF0671-body-L011}{}{sam eclipticae obliquitatem diversasque igitur climatum latitudines. — Est quaedam proportio}
+\DLine{AB01-PDF0671-body-L012}{}{in augmento ascensionum respondentium intervallo quadrantis horae in longitudine diei; qua}
+\DLine{AB01-PDF0671-body-L013}{}{re codicis mendas sanare haud difficile erat. Nonnullis locis in quibus dubitatio exstabat, cal-}
+\DLine{AB01-PDF0671-body-L014}{}{culos duxi utens tabulis Albatenianis declinationum, ascensionum rectarum, et formula}
+\hypertarget{AB01-PDF0671-H15}{}
+\DLine{AB01-PDF0671-body-L015}{15}{\CenterLine{sin \textit{m} = tg \textgreek{φ} tg \textgreek{δ}.}}
+\par\vspace{8mm}
+\hypertarget{AB01-PDF0671-H16}{}
+\DLine{AB01-PDF0671-body-L016}{}{\CenterLine{\textit{Ad pag. 67.} — \textbf{Ascensiones obliquae urbium Mekkah, Baghdād et Ḥarrān.}}}
+\par\vspace{4mm}
+\hypertarget{AB01-PDF0671-P05}{}
+\DLine{AB01-PDF0671-body-L017}{}{\Indent « Tempora horaria » (\textit{azmān as-sā‘āt,} \textgreek{ὡριαῖοι χρόνοι}) sunt durationes horarum tempora-}
+\DLine{AB01-PDF0671-body-L018}{}{lium indicatae gradibus circuli aequinoctialis, quorum 15° horam aequinoctialem conficiunt. —}
+\DLine{AB01-PDF0671-body-L019}{}{Sequens f. 183,r. codicis vacuum erat.}
+\par\vspace{8mm}
+\hypertarget{AB01-PDF0671-H20}{}
+\DLine{AB01-PDF0671-body-L020}{20}{\CenterLine{\textit{Ad pag. 68-71.} — \textbf{Ascensiones obliquae urbis ar-Raqqah.}}}
+\par\vspace{4mm}
+\hypertarget{AB01-PDF0671-P06}{}
+\DLine{AB01-PDF0671-body-L021}{}{\Indent Tabulae cap. XIII et XXXV, t. I, p. 27–28, 29, 73, memoratae.}
+\hypertarget{AB01-PDF0671-P07}{}
+\DLine{AB01-PDF0671-body-L022}{}{\Indent In titulo interpolator Arabico-Africanus addidit f. 184,r.: \ArabicRun{وهي مطالع بجاية والمرية} « et hae sunt}
+\DLine{AB01-PDF0671-body-L023}{}{« ascensiones [urbium] Biǵāyah (Bougie) et Almeria », f. 184,v.–185,r.: \ArabicRun{وما حاذاها مشرق ومغرب}}
+\DLine{AB01-PDF0671-body-L024}{}{« et eius quod illis e regione respondet [in] Oriente et Occidente »; f. 185,v.: \ArabicRun{وبجاية والمرية وما}}
+\DLine{AB01-PDF0671-body-L025}{25}{\ArabicRun{حاذاها} « et Biǵāyah et Almeriae et eius quod illis e regione respondet ». Cfr. quae p. 218 dixi.}
+\hypertarget{AB01-PDF0671-P08}{}
+\DLine{AB01-PDF0671-body-L026}{}{\Indent \textbf{\textsf{Pag. 71}}, ult. lin., tempora horaria 30° Aquarii ponantur \ArabicRun{يج لد} 13° 34′ loco \ArabicRun{يج لج} 13° 33′ co-}
+\DLine{AB01-PDF0671-body-L027}{}{dicis et versionis.}
+\par\vspace{8mm}
+\hypertarget{AB01-PDF0671-H28}{}
+\DLine{AB01-PDF0671-body-L028}{}{\CenterLine{\textit{Ad pag. 72-77.} — \textbf{Medii motus Solis, Lunae, nodi ad calendarium Romanum.}}}
+\par\vspace{4mm}
+\hypertarget{AB01-PDF0671-P09}{}
+\DLine{AB01-PDF0671-body-L029}{}{\Indent Tabulae cap. XXVII, XXXIII ac XXXVII, t. I, p. 42, 71, 75 memoratae.}
+\hypertarget{AB01-PDF0671-P10}{}
+\DLine{AB01-PDF0671-body-L030}{30}{\Indent De columnarum titulis eadem sunt dicenda quae ad similes tabulas p. 19–23 iam exposui.}
+\DLine{AB01-PDF0671-body-L031}{}{Aera est Dhū ’l-qarnayn vel Seleucidarum, sed iuxta annum fictum a 1 \textit{ādhār} (Martii) anni}
+\DLine{AB01-PDF0671-body-L032}{}{\textit{praecedentis} incipientem, ne quid incommodi ex intercalatione Iuliana oriatur; cfr. t. I, p. 246.}
+\DLine{AB01-PDF0671-body-L033}{}{Hunc tabularum Albatenii usum ita memorat \Name{Samps Puchares} (de quo t. I, p. XXX, adn. 5),}
+\DSource{0672}{223}
+\DLine{AB01-PDF0672-body-L001}{}{loco in \textit{Catal. codd. astrol. Graecorum,} t. I, p. 88 relato: \textgreek{Καὶ τὴν ἀρχὴν τοῦ χρόνου} (1) \textgreek{ἐκεί}-}
+\DLine{AB01-PDF0672-body-L002}{}{\textgreek{νου} [i. e. \textgreek{Ἀλεξάνδρου τοῦ υἱοῦ Φιλίππου, οὗτος Δουλκαρνάην ὀνομάζεται}] \textgreek{τινὲς ἀπὸ τοῦ ͵}ʹ \textgreek{κρατοῦσι}·}
+\DLine{AB01-PDF0672-body-L003}{}{\textgreek{τὸ ὄνομα δὲ τοῦ μηνὸς ἐκείνων Ἀδάρ, διὰ τοῦτο ὅτι ἡ ἀρχὴ τοῦ κόσμου εἰς τοῦτον τὸν μῆνα ἀνα}-}
+\DLine{AB01-PDF0672-body-L004}{}{\textgreek{καινίζεται ἤτοι λαμβάνει ἀρχήν}. \textgreek{διὰ τοῦτο καὶ ὁ Πατανῆς} [= al-Battānī] \textgreek{τὴν ὁδὸν τῶν ἀστέρων εἰς}}
+\DLine{AB01-PDF0672-body-L005}{5}{\textgreek{τὴν σύνταξιν αὐτοῦ ἐν τούτῳ τῷ ἔτει} (2) \textgreek{τέϑεικε, τὴν ἀρχὴν δὲ τοῦ ἔτους αὐτοῦ ἀπὸ τοῦ Ἀδὰρ ἔθηκε}.}
+\hypertarget{AB01-PDF0672-P01}{}
+\DLine{AB01-PDF0672-body-L006}{}{\Indent De quantitate motus Lunae cfr. t. I, p. 225; de epocha fundamentali v. quae \Name{Schiapa-}}
+\DLine{AB01-PDF0672-body-L007}{}{\Name{relli}, t. I, p. 246 dixit.}
+\hypertarget{AB01-PDF0672-P02}{}
+\DLine{AB01-PDF0672-body-L008}{}{\Indent \textbf{\textsf{Pag. 74}}. Codex \textit{subāṭ} (Februarium) dumtaxat communium annorum indicat; placuit su-}
+\DLine{AB01-PDF0672-body-L009}{}{bāṭ etiam bisextilium addere, ut p. 21 pro dhū ’l-ḥiǵǵah feceram (cfr. adn. p. 204).}
+\hypertarget{AB01-PDF0672-P03}{}
+\DLine{AB01-PDF0672-body-L010}{10}{\Indent \textbf{\textsf{Pag. 75–76}}. Cfr. quae de aequalibus tabulis p. 22–23, in adnotationibus p. 204 dixi.}
+\hypertarget{AB01-PDF0672-P04}{}
+\DLine{AB01-PDF0672-body-L011}{}{\Indent \textbf{\textsf{Pag. 77}}. Motus 20 annorum in cod. omissi, forte quia in titulis (excepto motu nodi) in-}
+\DLine{AB01-PDF0672-body-L012}{}{dicati.}
+\par\vspace{6mm}
+\hypertarget{AB01-PDF0672-H13}{}
+\DLine{AB01-PDF0672-body-L013}{}{\CenterLine{\textit{Ad pag. 78-83.} — \textbf{Aequationes Solis et Lunae, latitudo Lunae.}}}
+\par\vspace{4mm}
+\hypertarget{AB01-PDF0672-P05}{}
+\DLine{AB01-PDF0672-body-L014}{}{\Indent Tabulae aequationum cap. XXVII, XXX, XXXIII, XXXVI, XLII (t. I, p. 47, 51, 52, 53–}
+\DLine{AB01-PDF0672-body-L015}{15}{-54, 72, 75, 93) memorantur; latitudinis cap. XXXVIII ac XLIII (t. I, p. 76 et 97).}
+\hypertarget{AB01-PDF0672-P06}{}
+\DLine{AB01-PDF0672-body-L016}{}{\Indent Col. II: \textit{Aequatio Solis.} — A tabula \Name{Ptolemaei} III, 5 (ed. Halma, t. I, p. 201) differt}
+\DLine{AB01-PDF0672-body-L017}{}{ob diversam aequationis maximae quantitatem, de qua t. I, p. 213–14 dixi. Ptolemaeus prae-}
+\DLine{AB01-PDF0672-body-L018}{}{terea tabulae argumentum (anomaliam mediam) intervallo 6 graduum in primo et quarto qua-}
+\DLine{AB01-PDF0672-body-L019}{}{drante, 3 graduum in secundo ac tertio, exhibet; in aequatione secundas omittit. — In tabula}
+\DLine{AB01-PDF0672-body-L020}{20}{\textit{Albateniana,} cuius argumentum per singulos gradus procedit, intervalla in aequatione Solis}
+\DLine{AB01-PDF0672-body-L021}{}{satis sunt regularia ut numeri codicis statim emendari possint; raro mihi opus fuit calculos}
+\DLine{AB01-PDF0672-body-L022}{}{ducere formula tg aequat. = $\dfrac{e_1 \sin m}{1 + e_1 \cos m}$, ubi $e_1$ est epicycli radius aut excentricitas orbitae}
+\DLine{AB01-PDF0672-body-L023}{}{in partibus decimalibus radii orbitae = 1, i. e. Albatenianum $\dfrac{e}{60}$. Cfr. t. I, p. 48 et 219–20.}
+\hypertarget{AB01-PDF0672-P07}{}
+\DLine{AB01-PDF0672-body-L024}{}{\Indent Col. III–VI: \textit{Inaequalitas motus lunaris longitudinis.} — Nonnulla praemittenda sunt}
+\DLine{AB01-PDF0672-body-L025}{25}{ut clarius tabularum constructio et usus intelligantur.}
+\hypertarget{AB01-PDF0672-P08}{}
+\DLine{AB01-PDF0672-body-L026}{}{\Indent In hypothesi Ptolemaica, quam breviter \Name{al-Battānī} cap. XXX (t. I, p. 50–54) exponit,}
+\DLine{AB01-PDF0672-body-L027}{}{motus lunares in plano circuli \textit{deflectentis,} seu \textit{obliqui} respectu zodiaci, fiunt. \textit{Nodi,} seu in-}
+\DLine{AB01-PDF0672-body-L028}{}{tersectiones obliqui et parecliptici, circulum pareclipticum motu retrogrado ambiunt 3 minu-}
+\DLine{AB01-PDF0672-body-L029}{}{nutorum circiter in die.}
+\hypertarget{AB01-PDF0672-P09}{}
+\DLine{AB01-PDF0672-body-L030}{30}{\Indent Luna in circumferentia movetur \textit{epicycli} (3), cuius radius 5\textsuperscript{\textit{p}} 15′ partium est qualium ra-}
+\DLine{AB01-PDF0672-body-L031}{}{dius obliqui 60\textsuperscript{\textit{p}}. Si centrum epicycli circumferentiam obliqui percurreret, inaequalitas motus}
+\DLine{AB01-PDF0672-body-L032}{}{Lunae una esset, ut inaequalitas motus Solis. At centrum epicycli lunaris ambit circumferen-}
+\DLine{AB01-PDF0672-body-L033}{}{tiam excentrici (deferentis), qui in uno puncto, scilicet in apogeo A excentrici, circulum obli-}
+\DLine{AB01-PDF0672-body-L034}{}{quum tangit; qua re primae inaequalitati (cuius correctio vocatur \textit{aequatio simplex}) semper}
+\DLine{AB01-PDF0672-body-L035}{35}{altera adiungitur quotiescumque centrum epicycli seu Luna ab apogeo excentrici recedat. Ex-}
+\DLine{AB01-PDF0672-body-L036}{}{centricitas est 10\textsuperscript{\textit{p}} 19′ partium qualium radius obliqui 60\textsuperscript{\textit{p}}; itaque radius excentrici 60\textsuperscript{\textit{p}} —}
+\DLine{AB01-PDF0672-body-L037}{}{— 10\textsuperscript{\textit{p}} 19′ = 49\textsuperscript{\textit{p}} 41′. Et quoniam apogeum excentrici particeps est motus retrogradi obliqui,}
+\DLine{AB01-PDF0672-body-L038}{}{centrum excentrici circellum describit circa centrum Terrae (vel zodiaci, vel parecliptici) cu-}
+\DLine{AB01-PDF0672-body-L039}{}{ius radius est ipsa excentricitas.}
+\par\vspace{6pt}\hrule height.25pt\vspace{5pt}
+\noindent\begin{minipage}[t]{.48\textwidth}\vspace{0pt}\fontsize{9}{11.5}\selectfont\setlength{\GutterOffset}{0pt}
+\hypertarget{AB01-PDF0672-N01}{}
+\DLine{AB01-PDF0672-notes_left-L001}{}{\Indent (1) \textgreek{Χρόνος} apud Byzantinos scriptores \textit{annum}}
+\DLine{AB01-PDF0672-notes_left-L002}{}{significat.}
+\hypertarget{AB01-PDF0672-N02}{}
+\DLine{AB01-PDF0672-notes_left-L003}{}{\Indent (2) \textgreek{Ἔτος} est « \textit{annorum periodus} ».}
+\end{minipage}
+\hfill\begin{minipage}[t]{.48\textwidth}\vspace{0pt}\fontsize{9}{11.5}\selectfont\setlength{\GutterOffset}{0pt}
+\hypertarget{AB01-PDF0672-N03}{}
+\DLine{AB01-PDF0672-notes_right-L001}{}{\Indent (3) Superne in praecedentia (ab ortu ad occa-}
+\DLine{AB01-PDF0672-notes_right-L002}{}{sum), inferne in consequentia signorum (ab occasu}
+\DLine{AB01-PDF0672-notes_right-L003}{}{ad ortum).}
+\end{minipage}
+\DSource{0673}{224}
+\hypertarget{AB01-PDF0673-P01}{}
+\DLine{AB01-PDF0673-body-L001}{}{\Indent Praeterea apogeum epicycli distinguitur in \textit{verum} (\textgreek{τὸ ἀκριβὲς ἀπόγειον}) et \textit{medium} (\textgreek{τὸ}}
+\DLine{AB01-PDF0673-body-L002}{}{\textgreek{μέσον ἀπόγειον}). Verum, seu G (in circello cuius centrum M), est epicycli punctum in quod}
+\DLine{AB01-PDF0673-body-L003}{}{incidit linea recta ex centro Terrae per centrum epicycli ducta; medium (seu H eiusdem cir-}
+\par\noindent\begin{minipage}[t]{0.555\FullSourceWidth}\vspace{0pt}\hypertarget{AB01-PDF0673-body-F01}{}\hspace*{18mm}\input{figures/AB01-PDF0673-F01}\end{minipage}\hfill\begin{minipage}[t]{0.425\FullSourceWidth}\vspace{0pt}\setlength{\GutterOffset}{0.575\FullSourceWidth}
+\DLine{AB01-PDF0673-body-L004}{}{celli), a quo anomalia media numeratur,}
+\DLine{AB01-PDF0673-body-L005}{5}{epicycli punctum in quod cadit linea recta}
+\DLine{AB01-PDF0673-body-L006}{}{per centrum epicycli ducta ex puncto F′ li-}
+\DLine{AB01-PDF0673-body-L007}{}{neae apsidalis excentrici, quod a centro E}
+\DLine{AB01-PDF0673-body-L008}{}{Terrae tanto distat quanto, in opposita parte,}
+\DLine{AB01-PDF0673-body-L009}{}{centrum excentrici ab eodem puncto E. Dif-}
+\DLine{AB01-PDF0673-body-L010}{10}{ferentia apogeorum veri et medii, seu arcus}
+\DLine{AB01-PDF0673-body-L011}{}{GH, a \Name{Ptolemaeo} \textgreek{ἡ πρόσνευσις τοῦ τῆς}}
+\DLine{AB01-PDF0673-body-L012}{}{\textgreek{σελήνης ἐπικύκλου} « adsensus epicycli Lunae »}
+\DLine{AB01-PDF0673-body-L013}{}{vocatur; maxima (13° 9′) in 60° et 120° elon-}
+\DLine{AB01-PDF0673-body-L014}{}{gationis Lunae a Sole, nulla in syzygiis}
+\DLine{AB01-PDF0673-body-L015}{15}{(i. e. Luna in apogeo excentrici consistente)}
+\DLine{AB01-PDF0673-body-L016}{}{et in quadraturis (seu Luna perigeum ex-}
+\DLine{AB01-PDF0673-body-L017}{}{centrici occupante). Ob hanc prosneusim \textit{p,}}
+\DLine{AB01-PDF0673-body-L018}{}{aequatio simplex Lunae non pendet, ut So-}
+\DLine{AB01-PDF0673-body-L019}{}{lis, ab anomalia media \textit{m,} sed ab anomalia}
+\DLine{AB01-PDF0673-body-L020}{20}{correcta \textit{m} + \textit{p}; qua re, si \textit{r} vocemus ra-}
+\end{minipage}\par
+\DLine{AB01-PDF0673-body-L021}{}{dium epicycli in partibus radii obliqui 60\textsuperscript{\textit{p}} partium, aequatio simplex Lunae supputabitur for-}
+\DLine{AB01-PDF0673-body-L022}{}{mula (cfr. t. I, p. 219–20)}
+\hypertarget{AB01-PDF0673-H23}{}
+\DLine{AB01-PDF0673-body-L023}{}{\CenterLine{tang aequat. simplicis = $R\,\dfrac{r \sin (m + p)}{60^{p}\,R + r \cos (m + p)}$\,,}}
+\DLine{AB01-PDF0673-body-L024}{}{quam nos, ponendo $r_1 = \dfrac{r}{60}$ (i. e. radium epicycli in partibus decimalibus radii obliqui = 1),}
+\DLine{AB01-PDF0673-body-L025}{25}{et radium \textit{R,} ad quem functiones trigonometricae referuntur, 1 partis, scribemus}
+\hypertarget{AB01-PDF0673-H26}{}
+\DLine{AB01-PDF0673-body-L026}{}{\CenterLine{tang aequat. simplicis = $\dfrac{r_1 \sin (m + p)}{1 + r_1 \cos (m + p)}$\,.}}
+\hypertarget{AB01-PDF0673-P02}{}
+\DLine{AB01-PDF0673-body-L027}{}{\Indent Nunc \textit{p} supputemus. Angulus AEM seu FEM, quem linea apsidum excentrici cum linea}
+\DLine{AB01-PDF0673-body-L028}{}{apsidum epicycli efficit, demonstratur semper aequari duplae elongationi Lunae mediae a Sole}
+\DLine{AB01-PDF0673-body-L029}{}{medio, nempe 2 (\MoonSym{} — \SunSym{}) esse. Sit \textgreek{ρ} distantia variabilis Lunae seu centri epicycli a Terra,}
+\DLine{AB01-PDF0673-body-L030}{30}{\textit{e} excentricitas in partibus quarum 60 radio obliqui tribuuntur; ut ipse \Name{al-Battānī} ca-}
+\DLine{AB01-PDF0673-body-L031}{}{pite XXXIX docet, erit}
+\hypertarget{AB01-PDF0673-H32}{}
+\DLine{AB01-PDF0673-body-L032}{}{\CenterLine{$\rho = \sqrt{(60^{p} - e)^2 - \left(\dfrac{e \sin 2\,(\MoonSym{} - \SunSym{})}{R}\right)^{2}} \pm \dfrac{e \cos 2\,(\MoonSym{} - \SunSym{})}{R}$\,,}}
+\DLine{AB01-PDF0673-body-L033}{}{vel, sumptis \textit{R} et radio obliqui = 1\textsuperscript{\textit{p}}, et excentricitate $e_1$ in eius partibus:}
+\hypertarget{AB01-PDF0673-H34}{}
+\DLine{AB01-PDF0673-body-L034}{}{\CenterLine{$\rho = \sqrt{(1 - e_1)^2 - e_1^{\,2} \sin^2 2\,(\MoonSym{} - \SunSym{})} \pm e_1 \cos 2\,(\MoonSym{} - \SunSym{})$.}}
+\hypertarget{AB01-PDF0673-P03}{}
+\DLine{AB01-PDF0673-body-L035}{35}{\Indent In figura est ME = \textgreek{ρ}, arcus HG = ang. HMG = ang. EMF′ = \textit{p}; considerando trian-}
+\DLine{AB01-PDF0673-body-L036}{}{gulo MEF′ (ducta perpendiculari ex F′ ad latus ME) statim deducitur}
+\hypertarget{AB01-PDF0673-H37}{}
+\DLine{AB01-PDF0673-body-L037}{}{\CenterLine{tang $p$ = tang $EMF'$ = $R\,\dfrac{EF' \sin F'EM}{R \times EM - EF' \cos F'EM} = R\,\dfrac{EF' \sin FEM}{R \times EM + EF' \cos FEM}$}}
+\hypertarget{AB01-PDF0673-H38}{}
+\DLine{AB01-PDF0673-body-L038}{}{\CenterLine{tang $p$ = $R\,\dfrac{e \sin 2\,(\MoonSym{} - \SunSym{})}{R\rho + e \cos 2\,(\MoonSym{} - \SunSym{})} = R\,\dfrac{\left(\dfrac{e}{\rho}\right) \sin 2\,(\MoonSym{} - \SunSym{})}{R + \left(\dfrac{e}{\rho}\right) \cos 2\,(\MoonSym{} - \SunSym{})}$}}
 \end{document}

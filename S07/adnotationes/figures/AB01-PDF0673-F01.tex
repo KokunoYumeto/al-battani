@@ -1,0 +1,51 @@
+% Nallino, Part II p. 224: Ptolemy's lunar model, redrawn from the print. The coordinates are those of a 400 dpi
+% render of the page (y downward); E is the centre of the oblique circle (the Earth), F the centre of the
+% excentric, F' its reflection in E, A and P the apogee and the perigee of the excentric, M a third position of
+% the centre of the epicycle. The segment of the line of apsides inside the epicycle at A is dashed in the print.
+\begin{tikzpicture}[x=0.07mm,y=-0.07mm,line width=0.4pt,every node/.style={font=\bfseries\itshape\small,inner sep=1pt}]
+\coordinate (E) at (955,678);
+\coordinate (F) at (955,585);
+\coordinate (Fp) at (955,771);
+\coordinate (A) at (955,155);
+\coordinate (P) at (955,1015);
+\coordinate (M) at (656,894);
+\coordinate (L) at (999,646);
+\coordinate (Hup) at (847,177);
+\coordinate (Hlow) at (855,970);
+\draw (E) circle[radius=525];
+\draw (F) circle[radius=430];
+\draw (A) circle[radius=110];
+\draw (P) circle[radius=110];
+\draw (M) circle[radius=110];
+\draw[dashed] (A) -- (955,265);
+\draw (955,265) -- (955,1203);
+\draw (811,10) -- (E);
+\draw (Hup) -- (A);
+\draw (F) -- (M);
+\draw (L) -- (567,958);
+\draw (F) -- (L);
+\draw (Fp) -- (554,936);
+\draw (E) -- (639,1097);
+\draw (E) -- (827,1052);
+\draw (Hlow) -- (P);
+\node at (957,122) {A};
+\node at (822,210) {H};
+\node at (988,296) {G};
+\node at (410,580) {B};
+\node at (985,560) {F};
+\node at (1030,632) {L};
+\node at (1505,632) {D};
+\node at (983,700) {E};
+\node at (995,776) {F′};
+\node at (780,812) {R};
+\node at (660,855) {M};
+\node at (994,870) {G};
+\node at (525,925) {H};
+\node at (558,985) {G};
+\node at (752,1005) {K};
+\node at (825,960) {H};
+\node at (980,985) {P};
+\node at (632,1140) {N};
+\node at (975,1155) {S};
+\node at (948,1238) {C};
+\end{tikzpicture}

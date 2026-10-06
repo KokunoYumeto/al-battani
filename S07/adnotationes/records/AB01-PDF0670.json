@@ -1,0 +1,329 @@
+{
+ "anchor": "AB01-PDF0670",
+ "master_pdf_page": 670,
+ "printed_page": 221,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "observations": [
+  "body: the italic numbers of the sine block are the erroneous readings of Aboul Hhassan's edition, printed in italics.",
+  "body: «adp.» is printed so throughout, for «adn.».",
+  "body: «Memoratur cap. X, t. I, p. 22–23» is printed without a final period.",
+  "body: «حصج» is printed so, the first letter without its dot; the sense requires خصج (663 in the western numerals of the codex: خ 600, ص 60, ج 3; سمج = 343). A dot is printed above the 3 of «663»."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0670-body-L001",
+     "source_line_no": 1,
+     "tex": "optime cum \\Name{Ptolemaeo} congruunt; interdum discrepantiae + 1″ ab \\Name{Aboul Hhassan},",
+     "transcription": "optime cum {sp:Ptolemaeo} congruunt; interdum discrepantiae + 1″ ab {sp:Aboul Hhassan},",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0670-body-L002",
+     "source_line_no": 2,
+     "tex": "apud quem, in sinibus integrorum et dimidiorum graduum (quos tantum examinavi), haec",
+     "transcription": "apud quem, in sinibus integrorum et dimidiorum graduum (quos tantum examinavi), haec",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0670-body-L003",
+     "source_line_no": 3,
+     "tex": "sunt emendanda:",
+     "transcription": "sunt emendanda:",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0670-body-L004",
+     "source_line_no": 4,
+     "tex": "\\hspace*{44.0mm}\\makebox[7.0mm][l]{\\smash{sin}}\\makebox[8.0mm][r]{24\\rlap{°}}\\makebox[7.0mm][r]{0\\rlap{′}}\\makebox[6.0mm][c]{\\smash{=}}\\makebox[8.0mm][r]{24\\rlap{\\textsuperscript{\\textit{p}}}}\\makebox[7.0mm][r]{24\\rlap{′}}\\makebox[7.0mm][r]{55\\rlap{″}}\\makebox[34.0mm][c]{\\smash{pro editionis}}\\makebox[8.0mm][r]{24\\rlap{\\textsuperscript{\\textit{p}}}}\\makebox[7.0mm][r]{24\\rlap{′}}\\makebox[7.0mm][r]{\\textit{15}\\rlap{\\textit{″}}}",
+     "transcription": "sin | 24~° | 0~′ | = | 24~{sup:*p*} | 24~′ | 55~″ | pro editionis | 24~{sup:*p*} | 24~′ | *15*~*″*",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0670-body-L005",
+     "source_line_no": 5,
+     "tex": "\\hspace*{44.0mm}\\makebox[7.0mm][l]{\\smash{sin}}\\makebox[8.0mm][r]{60\\rlap{°}}\\makebox[7.0mm][r]{30\\rlap{′}}\\makebox[6.0mm][c]{\\smash{=}}\\makebox[8.0mm][r]{52\\rlap{\\textsuperscript{\\textit{p}}}}\\makebox[7.0mm][r]{12\\rlap{′}}\\makebox[7.0mm][r]{46\\rlap{″}}\\makebox[34.0mm][c]{\\smash{»\\hspace{15mm}»}}\\makebox[8.0mm][r]{52\\rlap{\\textsuperscript{\\textit{p}}}}\\makebox[7.0mm][r]{\\textit{13}\\rlap{\\textit{′}}}\\makebox[7.0mm][r]{\\textit{17}\\rlap{\\textit{″}}}",
+     "transcription": "sin | 60~° | 30~′ | = | 52~{sup:*p*} | 12~′ | 46~″ | »\\hspace{15mm}» | 52~{sup:*p*} | *13*~*′* | *17*~*″*",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0670-body-L006",
+     "source_line_no": 6,
+     "tex": "\\hspace*{44.0mm}\\makebox[7.0mm][l]{\\smash{sin}}\\makebox[8.0mm][r]{71\\rlap{°}}\\makebox[7.0mm][r]{0\\rlap{′}}\\makebox[6.0mm][c]{\\smash{=}}\\makebox[8.0mm][r]{56\\rlap{\\textsuperscript{\\textit{p}}}}\\makebox[7.0mm][r]{33\\rlap{′}}\\makebox[7.0mm][r]{52\\rlap{″}}\\makebox[34.0mm][c]{\\smash{»\\hspace{15mm}»}}\\makebox[8.0mm][r]{56\\rlap{\\textsuperscript{\\textit{p}}}}\\makebox[7.0mm][r]{\\textit{43}\\rlap{\\textit{′}}}\\makebox[7.0mm][r]{52\\rlap{″.}}",
+     "transcription": "sin | 71~° | 0~′ | = | 56~{sup:*p*} | 33~′ | 52~″ | »\\hspace{15mm}» | 56~{sup:*p*} | *43*~*′* | 52~″.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0670-body-L007",
+     "source_line_no": 7,
+     "tex": "\\CenterLine{\\textit{Ad pag. 57-58.} — \\textbf{Tabulae declinationis Solis.}}",
+     "transcription": "*Ad pag. 57-58.* — **Tabulae declinationis Solis.**",
+     "semantic_anchor": "AB01-PDF0670-H07",
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0670-body-L008",
+     "source_line_no": 8,
+     "tex": "\\Indent Memoratae t. I, p. 13, cap. IV.",
+     "transcription": "Memoratae t. I, p. 13, cap. IV.",
+     "semantic_anchor": "AB01-PDF0670-P01",
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0670-body-L009",
+     "source_line_no": 9,
+     "tex": "\\Indent Tabulae \\Name{Ptolemaei} I, 12 (ed. Halma, t. I, p. 59) et \\Name{Theonis} pro obliquitate 23° 51′ 20″",
+     "transcription": "Tabulae {sp:Ptolemaei} I, 12 (ed. Halma, t. I, p. 59) et {sp:Theonis} pro obliquitate 23° 51′ 20″",
+     "semantic_anchor": "AB01-PDF0670-P02",
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0670-body-L010",
+     "source_line_no": 10,
+     "tex": "supputatae; tabulas igitur \\Name{Albatenii} nonnisi per calculos nostris tabulis logarithmicis insti-",
+     "transcription": "supputatae; tabulas igitur {sp:Albatenii} nonnisi per calculos nostris tabulis logarithmicis insti-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0670-body-L011",
+     "source_line_no": 11,
+     "tex": "tutos \\Name{Schiaparelli} emendare potuit, discrepantiis 1″ aut 2″ neglectis. Logarithmis sufficit",
+     "transcription": "tutos {sp:Schiaparelli} emendare potuit, discrepantiis 1″ aut 2″ neglectis. Logarithmis sufficit",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0670-body-L012",
+     "source_line_no": 12,
+     "tex": "pro longitudine 1° declinationem supputare (sin \\textgreek{δ} = sin L sin \\textgreek{ε}); reliqui termini deducuntur dif-",
+     "transcription": "pro longitudine 1° declinationem supputare (sin δ = sin L sin ε); reliqui termini deducuntur dif-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0670-body-L013",
+     "source_line_no": 13,
+     "tex": "ferentias logarithmicas sinuum pro singulis gradibus perpetuo addendo primo logarithmo; cfr.",
+     "transcription": "ferentias logarithmicas sinuum pro singulis gradibus perpetuo addendo primo logarithmo; cfr.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0670-body-L014",
+     "source_line_no": 14,
+     "tex": "\\textit{notes de} M. \\Name{Delambre}, apud Halma, t. I, notes p. 5–6.",
+     "transcription": "*notes de* M. {sp:Delambre}, apud Halma, t. I, notes p. 5–6.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0670-body-L015",
+     "source_line_no": 15,
+     "tex": "\\Indent \\textbf{\\textsf{Pag. 58}}, \\textit{ordines declinationis.} Tabella memoratur in fine adp. G (t. I, p. 150); de iis or-",
+     "transcription": "{gb:Pag. 58}, *ordines declinationis.* Tabella memoratur in fine adp. G (t. I, p. 150); de iis or-",
+     "semantic_anchor": "AB01-PDF0670-P03",
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0670-body-L016",
+     "source_line_no": 16,
+     "tex": "dinibus cap. IV, t. I, p. 13, et etiam adnotationes meas t. I, p. 13, adn. 2, et LXXI. In codicis",
+     "transcription": "dinibus cap. IV, t. I, p. 13, et etiam adnotationes meas t. I, p. 13, adn. 2, et LXXI. In codicis",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0670-body-L017",
+     "source_line_no": 17,
+     "tex": "figura perperam voces \\textit{ascensus} et \\textit{descensus} inter se commutatae, qua re prope ambo latera",
+     "transcription": "figura perperam voces *ascensus* et *descensus* inter se commutatae, qua re prope ambo latera",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0670-body-L018",
+     "source_line_no": 18,
+     "tex": "circuli amanuensis \\ArabicRun{منكوس} « invertendum » scripsit; versio Hispanica (f. 43,v.) eosdem praebet",
+     "transcription": "circuli amanuensis منكوس « invertendum » scripsit; versio Hispanica (f. 43,v.) eosdem praebet",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0670-body-L019",
+     "source_line_no": 19,
+     "tex": "errores, et vocem \\textit{mankūs} vertit « conuerso ».",
+     "transcription": "errores, et vocem *mankūs* vertit « conuerso ».",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0670-body-L020",
+     "source_line_no": 20,
+     "tex": "\\Indent \\textbf{\\textsf{Pag. 58}}, \\textit{ascensiones rectae decadum graduum et sinus correspondentes.} Memorantur",
+     "transcription": "{gb:Pag. 58}, *ascensiones rectae decadum graduum et sinus correspondentes.* Memorantur",
+     "semantic_anchor": "AB01-PDF0670-P04",
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0670-body-L021",
+     "source_line_no": 21,
+     "tex": "adp. G, t. I, p. 150. Ascensiones ab initio Arietis numeratae, non ab initio Capricorni ut in",
+     "transcription": "adp. G, t. I, p. 150. Ascensiones ab initio Arietis numeratae, non ab initio Capricorni ut in",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0670-body-L022",
+     "source_line_no": 22,
+     "tex": "tabulis t. II, pag. 61–64 (cfr. adnot. t. I, p. 163–64 et Addenda). In titulo tertiae columnae per-",
+     "transcription": "tabulis t. II, pag. 61–64 (cfr. adnot. t. I, p. 163–64 et Addenda). In titulo tertiae columnae per-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0670-body-L023",
+     "source_line_no": 23,
+     "tex": "peram cod. \\ArabicRun{ازمان ..... المنصّفة} « tempora dimidiata » loco \\ArabicRun{اوتار ..... المنصّفة} « chordae dimidiatae » seu",
+     "transcription": "peram cod. {ar:ازمان ..... المنصّفة} « tempora dimidiata » loco {ar:اوتار ..... المنصّفة} « chordae dimidiatae » seu",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0670-body-L024",
+     "source_line_no": 24,
+     "tex": "sinus. — Tabulam ascensionum rectarum ad decades graduum, sed sinibus omissis et pro alia",
+     "transcription": "sinus. — Tabulam ascensionum rectarum ad decades graduum, sed sinibus omissis et pro alia",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0670-body-L025",
+     "source_line_no": 25,
+     "tex": "obliquitate, \\Name{Ptolemaeus} quoque II, 8 (ed. Halma, t. I, p. 103) exhibet.",
+     "transcription": "obliquitate, {sp:Ptolemaeus} quoque II, 8 (ed. Halma, t. I, p. 103) exhibet.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0670-body-L026",
+     "source_line_no": 26,
+     "tex": "\\CenterLine{\\textit{Ad pag. 59.} — \\textbf{Dierum magnitudines pro diversis latitudinibus.}}",
+     "transcription": "*Ad pag. 59.* — **Dierum magnitudines pro diversis latitudinibus.**",
+     "semantic_anchor": "AB01-PDF0670-H26",
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0670-body-L027",
+     "source_line_no": 27,
+     "tex": "\\Indent Cfr. cap. VIII et IX, t. I, p. 21–22.",
+     "transcription": "Cfr. cap. VIII et IX, t. I, p. 21–22.",
+     "semantic_anchor": "AB01-PDF0670-P05",
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0670-body-L028",
+     "source_line_no": 28,
+     "tex": "\\Indent Tabula a \\Name{Schiaparelli} emendata. Incrementa dierum indicantur gradibus circuli aequi-",
+     "transcription": "Tabula a {sp:Schiaparelli} emendata. Incrementa dierum indicantur gradibus circuli aequi-",
+     "semantic_anchor": "AB01-PDF0670-P06",
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0670-body-L029",
+     "source_line_no": 29,
+     "tex": "noctialis, quorum 15° horam aequinoctialem conficiunt.",
+     "transcription": "noctialis, quorum 15° horam aequinoctialem conficiunt.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0670-body-L030",
+     "source_line_no": 30,
+     "tex": "\\CenterLine{\\textit{Ad pag. 60.} — \\textbf{Tabula umbrarum.}}",
+     "transcription": "*Ad pag. 60.* — **Tabula umbrarum.**",
+     "semantic_anchor": "AB01-PDF0670-H30",
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0670-body-L031",
+     "source_line_no": 31,
+     "tex": "\\Indent Memoratur cap. X, t. I, p. 22–23",
+     "transcription": "Memoratur cap. X, t. I, p. 22–23",
+     "semantic_anchor": "AB01-PDF0670-P07",
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0670-body-L032",
+     "source_line_no": 32,
+     "tex": "\\Indent Sunt cotangentes pro radio 12 partium supputatae; tabulis logarithmicis facile potui co-",
+     "transcription": "Sunt cotangentes pro radio 12 partium supputatae; tabulis logarithmicis facile potui co-",
+     "semantic_anchor": "AB01-PDF0670-P08",
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0670-body-L033",
+     "source_line_no": 33,
+     "tex": "dicis mendas sanare. Duae primae umbrae in cod. 687\\textsuperscript{\\textit{p}} 26′ et 663\\textsuperscript{\\textit{p}} (\\ArabicRun{حصج} pro \\ArabicRun{سمج} 343\\textsuperscript{\\textit{p}}) 39′;",
+     "transcription": "dicis mendas sanare. Duae primae umbrae in cod. 687{sup:*p*} 26′ et 663{sup:*p*} (حصج pro سمج 343{sup:*p*}) 39′;",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0670-body-L034",
+     "source_line_no": 34,
+     "tex": "sed fortasse parvae hae minutorum discrepantiae ab ipso \\Name{al-Battānī} proveniunt, qui minuta",
+     "transcription": "sed fortasse parvae hae minutorum discrepantiae ab ipso {sp:al-Battānī} proveniunt, qui minuta",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0670-body-L035",
+     "source_line_no": 35,
+     "tex": "illa deduxerit divisione sinuum usque ad secundas tantum radii 60 partium supputatorum.",
+     "transcription": "illa deduxerit divisione sinuum usque ad secundas tantum radii 60 partium supputatorum.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0670-body-L036",
+     "source_line_no": 36,
+     "tex": "\\CenterLine{\\textit{Ad pag. 61–64.} — \\textbf{Ascensiones rectae et aequationes dierum.}}",
+     "transcription": "*Ad pag. 61–64.* — **Ascensiones rectae et aequationes dierum.**",
+     "semantic_anchor": "AB01-PDF0670-H36",
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0670-body-L037",
+     "source_line_no": 37,
+     "tex": "\\Indent Tabulae memorantur cap. XIII, XXIX, XXXIV, XLII, et adp. E (ubi tabularum usus do-",
+     "transcription": "Tabulae memorantur cap. XIII, XXIX, XXXIV, XLII, et adp. E (ubi tabularum usus do-",
+     "semantic_anchor": "AB01-PDF0670-P09",
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0670-body-L038",
+     "source_line_no": 38,
+     "tex": "cetur), scilicet t. I, p. 28, 49, 72–73, 95, 148.",
+     "transcription": "cetur), scilicet t. I, p. 28, 49, 72–73, 95, 148.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    }
+   ]
+  }
+ ]
+}

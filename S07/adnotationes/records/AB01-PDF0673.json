@@ -1,0 +1,336 @@
+{
+ "anchor": "AB01-PDF0673",
+ "master_pdf_page": 673,
+ "printed_page": 224,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "observations": [
+  "body: the figure is redrawn from the print (figures/AB01-PDF0673-F01.tex); its proportions follow the print, the epicycle being drawn larger than to scale as there.",
+  "body L37: «aequat.» in the second formula is printed with a broken t, like «aequal.».",
+  "body: this page is printed from a grey scan in the master PDF; the letters of the figure are bold italic."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0673-body-L001",
+     "source_line_no": 1,
+     "tex": "\\Indent Praeterea apogeum epicycli distinguitur in \\textit{verum} (\\textgreek{τὸ ἀκριβὲς ἀπόγειον}) et \\textit{medium} (\\textgreek{τὸ}",
+     "transcription": "Praeterea apogeum epicycli distinguitur in *verum* (τὸ ἀκριβὲς ἀπόγειον) et *medium* (τὸ",
+     "semantic_anchor": "AB01-PDF0673-P01",
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0673-body-L002",
+     "source_line_no": 2,
+     "tex": "\\textgreek{μέσον ἀπόγειον}). Verum, seu G (in circello cuius centrum M), est epicycli punctum in quod",
+     "transcription": "μέσον ἀπόγειον). Verum, seu G (in circello cuius centrum M), est epicycli punctum in quod",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0673-body-L003",
+     "source_line_no": 3,
+     "tex": "incidit linea recta ex centro Terrae per centrum epicycli ducta; medium (seu H eiusdem cir-",
+     "transcription": "incidit linea recta ex centro Terrae per centrum epicycli ducta; medium (seu H eiusdem cir-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0673-body-F01",
+     "source_line_no": null,
+     "tex": "\\input{figures/AB01-PDF0673-F01}",
+     "transcription": "[figure, redrawn: figures/AB01-PDF0673-F01.tex]",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_FIGURE"
+    },
+    {
+     "id": "AB01-PDF0673-body-L004",
+     "source_line_no": 4,
+     "tex": "celli), a quo anomalia media numeratur,",
+     "transcription": "celli), a quo anomalia media numeratur,",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0673-body-L005",
+     "source_line_no": 5,
+     "tex": "epicycli punctum in quod cadit linea recta",
+     "transcription": "epicycli punctum in quod cadit linea recta",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0673-body-L006",
+     "source_line_no": 6,
+     "tex": "per centrum epicycli ducta ex puncto F′ li-",
+     "transcription": "per centrum epicycli ducta ex puncto F′ li-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0673-body-L007",
+     "source_line_no": 7,
+     "tex": "neae apsidalis excentrici, quod a centro E",
+     "transcription": "neae apsidalis excentrici, quod a centro E",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0673-body-L008",
+     "source_line_no": 8,
+     "tex": "Terrae tanto distat quanto, in opposita parte,",
+     "transcription": "Terrae tanto distat quanto, in opposita parte,",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0673-body-L009",
+     "source_line_no": 9,
+     "tex": "centrum excentrici ab eodem puncto E. Dif-",
+     "transcription": "centrum excentrici ab eodem puncto E. Dif-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0673-body-L010",
+     "source_line_no": 10,
+     "tex": "ferentia apogeorum veri et medii, seu arcus",
+     "transcription": "ferentia apogeorum veri et medii, seu arcus",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0673-body-L011",
+     "source_line_no": 11,
+     "tex": "GH, a \\Name{Ptolemaeo} \\textgreek{ἡ πρόσνευσις τοῦ τῆς}",
+     "transcription": "GH, a {sp:Ptolemaeo} ἡ πρόσνευσις τοῦ τῆς",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0673-body-L012",
+     "source_line_no": 12,
+     "tex": "\\textgreek{σελήνης ἐπικύκλου} « adsensus epicycli Lunae »",
+     "transcription": "σελήνης ἐπικύκλου « adsensus epicycli Lunae »",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0673-body-L013",
+     "source_line_no": 13,
+     "tex": "vocatur; maxima (13° 9′) in 60° et 120° elon-",
+     "transcription": "vocatur; maxima (13° 9′) in 60° et 120° elon-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0673-body-L014",
+     "source_line_no": 14,
+     "tex": "gationis Lunae a Sole, nulla in syzygiis",
+     "transcription": "gationis Lunae a Sole, nulla in syzygiis",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0673-body-L015",
+     "source_line_no": 15,
+     "tex": "(i. e. Luna in apogeo excentrici consistente)",
+     "transcription": "(i. e. Luna in apogeo excentrici consistente)",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0673-body-L016",
+     "source_line_no": 16,
+     "tex": "et in quadraturis (seu Luna perigeum ex-",
+     "transcription": "et in quadraturis (seu Luna perigeum ex-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0673-body-L017",
+     "source_line_no": 17,
+     "tex": "centrici occupante). Ob hanc prosneusim \\textit{p,}",
+     "transcription": "centrici occupante). Ob hanc prosneusim *p,*",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0673-body-L018",
+     "source_line_no": 18,
+     "tex": "aequatio simplex Lunae non pendet, ut So-",
+     "transcription": "aequatio simplex Lunae non pendet, ut So-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0673-body-L019",
+     "source_line_no": 19,
+     "tex": "lis, ab anomalia media \\textit{m,} sed ab anomalia",
+     "transcription": "lis, ab anomalia media *m,* sed ab anomalia",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0673-body-L020",
+     "source_line_no": 20,
+     "tex": "correcta \\textit{m} + \\textit{p}; qua re, si \\textit{r} vocemus ra-",
+     "transcription": "correcta *m* + *p*; qua re, si *r* vocemus ra-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0673-body-L021",
+     "source_line_no": 21,
+     "tex": "dium epicycli in partibus radii obliqui 60\\textsuperscript{\\textit{p}} partium, aequatio simplex Lunae supputabitur for-",
+     "transcription": "dium epicycli in partibus radii obliqui 60{sup:*p*} partium, aequatio simplex Lunae supputabitur for-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0673-body-L022",
+     "source_line_no": 22,
+     "tex": "mula (cfr. t. I, p. 219–20)",
+     "transcription": "mula (cfr. t. I, p. 219–20)",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0673-body-L023",
+     "source_line_no": 23,
+     "tex": "\\CenterLine{tang aequat. simplicis = $R\\,\\dfrac{r \\sin (m + p)}{60^{p}\\,R + r \\cos (m + p)}$\\,,}",
+     "transcription": "tang aequat. simplicis = $R\\,\\dfrac{r \\sin (m + p)}{60^{p}\\,R + r \\cos (m + p)}$\\,,",
+     "semantic_anchor": "AB01-PDF0673-H23",
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0673-body-L024",
+     "source_line_no": 24,
+     "tex": "quam nos, ponendo $r_1 = \\dfrac{r}{60}$ (i. e. radium epicycli in partibus decimalibus radii obliqui = 1),",
+     "transcription": "quam nos, ponendo $r_1 = \\dfrac{r}{60}$ (i. e. radium epicycli in partibus decimalibus radii obliqui = 1),",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0673-body-L025",
+     "source_line_no": 25,
+     "tex": "et radium \\textit{R,} ad quem functiones trigonometricae referuntur, 1 partis, scribemus",
+     "transcription": "et radium *R,* ad quem functiones trigonometricae referuntur, 1 partis, scribemus",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0673-body-L026",
+     "source_line_no": 26,
+     "tex": "\\CenterLine{tang aequat. simplicis = $\\dfrac{r_1 \\sin (m + p)}{1 + r_1 \\cos (m + p)}$\\,.}",
+     "transcription": "tang aequat. simplicis = $\\dfrac{r_1 \\sin (m + p)}{1 + r_1 \\cos (m + p)}$\\,.",
+     "semantic_anchor": "AB01-PDF0673-H26",
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0673-body-L027",
+     "source_line_no": 27,
+     "tex": "\\Indent Nunc \\textit{p} supputemus. Angulus AEM seu FEM, quem linea apsidum excentrici cum linea",
+     "transcription": "Nunc *p* supputemus. Angulus AEM seu FEM, quem linea apsidum excentrici cum linea",
+     "semantic_anchor": "AB01-PDF0673-P02",
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0673-body-L028",
+     "source_line_no": 28,
+     "tex": "apsidum epicycli efficit, demonstratur semper aequari duplae elongationi Lunae mediae a Sole",
+     "transcription": "apsidum epicycli efficit, demonstratur semper aequari duplae elongationi Lunae mediae a Sole",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0673-body-L029",
+     "source_line_no": 29,
+     "tex": "medio, nempe 2 (\\MoonSym{} — \\SunSym{}) esse. Sit \\textgreek{ρ} distantia variabilis Lunae seu centri epicycli a Terra,",
+     "transcription": "medio, nempe 2 (☾ — ⊙) esse. Sit ρ distantia variabilis Lunae seu centri epicycli a Terra,",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0673-body-L030",
+     "source_line_no": 30,
+     "tex": "\\textit{e} excentricitas in partibus quarum 60 radio obliqui tribuuntur; ut ipse \\Name{al-Battānī} ca-",
+     "transcription": "*e* excentricitas in partibus quarum 60 radio obliqui tribuuntur; ut ipse {sp:al-Battānī} ca-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0673-body-L031",
+     "source_line_no": 31,
+     "tex": "pite XXXIX docet, erit",
+     "transcription": "pite XXXIX docet, erit",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0673-body-L032",
+     "source_line_no": 32,
+     "tex": "\\CenterLine{$\\rho = \\sqrt{(60^{p} - e)^2 - \\left(\\dfrac{e \\sin 2\\,(\\MoonSym{} - \\SunSym{})}{R}\\right)^{2}} \\pm \\dfrac{e \\cos 2\\,(\\MoonSym{} - \\SunSym{})}{R}$\\,,}",
+     "transcription": "$\\rho = \\sqrt{(60^{p} - e)^2 - \\left(\\dfrac{e \\sin 2\\,(☾ - ⊙)}{R}\\right)^{2}} \\pm \\dfrac{e \\cos 2\\,(☾ - ⊙)}{R}$\\,,",
+     "semantic_anchor": "AB01-PDF0673-H32",
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0673-body-L033",
+     "source_line_no": 33,
+     "tex": "vel, sumptis \\textit{R} et radio obliqui = 1\\textsuperscript{\\textit{p}}, et excentricitate $e_1$ in eius partibus:",
+     "transcription": "vel, sumptis *R* et radio obliqui = 1{sup:*p*}, et excentricitate $e_1$ in eius partibus:",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0673-body-L034",
+     "source_line_no": 34,
+     "tex": "\\CenterLine{$\\rho = \\sqrt{(1 - e_1)^2 - e_1^{\\,2} \\sin^2 2\\,(\\MoonSym{} - \\SunSym{})} \\pm e_1 \\cos 2\\,(\\MoonSym{} - \\SunSym{})$.}",
+     "transcription": "$\\rho = \\sqrt{(1 - e_1)^2 - e_1^{\\,2} \\sin^2 2\\,(☾ - ⊙)} \\pm e_1 \\cos 2\\,(☾ - ⊙)$.",
+     "semantic_anchor": "AB01-PDF0673-H34",
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0673-body-L035",
+     "source_line_no": 35,
+     "tex": "\\Indent In figura est ME = \\textgreek{ρ}, arcus HG = ang. HMG = ang. EMF′ = \\textit{p}; considerando trian-",
+     "transcription": "In figura est ME = ρ, arcus HG = ang. HMG = ang. EMF′ = *p*; considerando trian-",
+     "semantic_anchor": "AB01-PDF0673-P03",
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0673-body-L036",
+     "source_line_no": 36,
+     "tex": "gulo MEF′ (ducta perpendiculari ex F′ ad latus ME) statim deducitur",
+     "transcription": "gulo MEF′ (ducta perpendiculari ex F′ ad latus ME) statim deducitur",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0673-body-L037",
+     "source_line_no": 37,
+     "tex": "\\CenterLine{tang $p$ = tang $EMF'$ = $R\\,\\dfrac{EF' \\sin F'EM}{R \\times EM - EF' \\cos F'EM} = R\\,\\dfrac{EF' \\sin FEM}{R \\times EM + EF' \\cos FEM}$}",
+     "transcription": "tang $p$ = tang $EMF'$ = $R\\,\\dfrac{EF' \\sin F'EM}{R \\times EM - EF' \\cos F'EM} = R\\,\\dfrac{EF' \\sin FEM}{R \\times EM + EF' \\cos FEM}$",
+     "semantic_anchor": "AB01-PDF0673-H37",
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0673-body-L038",
+     "source_line_no": 38,
+     "tex": "\\CenterLine{tang $p$ = $R\\,\\dfrac{e \\sin 2\\,(\\MoonSym{} - \\SunSym{})}{R\\rho + e \\cos 2\\,(\\MoonSym{} - \\SunSym{})} = R\\,\\dfrac{\\left(\\dfrac{e}{\\rho}\\right) \\sin 2\\,(\\MoonSym{} - \\SunSym{})}{R + \\left(\\dfrac{e}{\\rho}\\right) \\cos 2\\,(\\MoonSym{} - \\SunSym{})}$}",
+     "transcription": "tang $p$ = $R\\,\\dfrac{e \\sin 2\\,(☾ - ⊙)}{R\\rho + e \\cos 2\\,(☾ - ⊙)} = R\\,\\dfrac{\\left(\\dfrac{e}{\\rho}\\right) \\sin 2\\,(☾ - ⊙)}{R + \\left(\\dfrac{e}{\\rho}\\right) \\cos 2\\,(☾ - ⊙)}$",
+     "semantic_anchor": "AB01-PDF0673-H38",
+     "source_role": "NALLINO_ADNOTATIONES"
+    }
+   ]
+  }
+ ]
+}

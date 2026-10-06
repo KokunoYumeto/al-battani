@@ -51,7 +51,7 @@
     {
      "id": "AB01-PDF0657-body-L005",
      "source_line_no": 5,
-     "tex": "\\CenterLine{(\\textgreek{α})\\hspace{14mm}maxima aequatio {\\MoonFont ⊙} $+\\;\\dfrac{\\text{maxima aeq. {\\MoonFont ⊙} $+$ maxima aeq. simpl. {\\MoonFont ☾}}}{12}$\\,,}",
+     "tex": "\\CenterLine{(\\textgreek{α})\\hspace{14mm}maxima aequatio \\SunSym{} $+\\;\\dfrac{\\text{maxima aeq. \\SunSym{} $+$ maxima aeq. simpl. \\MoonSym{}}}{12}$\\,,}",
      "transcription": "(α)\\hspace{14mm}maxima aequatio ⊙ $+\\;\\dfrac{\\text{maxima aeq. ⊙ $+$ maxima aeq. simpl. ☾}}{12}$\\,,",
      "semantic_anchor": "AB01-PDF0657-H05",
      "source_role": "NALLINO_ADNOTATIONES"
@@ -131,7 +131,7 @@
     {
      "id": "AB01-PDF0657-body-L015",
      "source_line_no": 15,
-     "tex": "\\hspace*{36.0mm}\\makebox[36.0mm][l]{\\smash{latitudinem {\\MoonFont ☾} austr.}}\\makebox[15.0mm][r]{\\smash{34′ 30″}}\\makebox[7.0mm][c]{\\smash{+}}\\makebox[14.0mm][r]{\\smash{58′ 0″}}\\makebox[7.0mm][c]{\\smash{=}}\\makebox[22.0mm][r]{\\smash{1° 32′ 30″}}",
+     "tex": "\\hspace*{36.0mm}\\makebox[36.0mm][l]{\\smash{latitudinem \\MoonSym{} austr.}}\\makebox[15.0mm][r]{\\smash{34′ 30″}}\\makebox[7.0mm][c]{\\smash{+}}\\makebox[14.0mm][r]{\\smash{58′ 0″}}\\makebox[7.0mm][c]{\\smash{=}}\\makebox[22.0mm][r]{\\smash{1° 32′ 30″}}",
      "transcription": "latitudinem ☾ austr. | 34′ 30″ | + | 58′ 0″ | = | 1° 32′ 30″",
      "semantic_anchor": null,
      "source_role": "NALLINO_ADNOTATIONES"
@@ -139,7 +139,7 @@
     {
      "id": "AB01-PDF0657-body-L016",
      "source_line_no": 16,
-     "tex": "\\hspace*{36.0mm}\\makebox[36.0mm][l]{\\smash{latitudinem {\\MoonFont ☾} boreal.}}\\makebox[15.0mm][r]{\\smash{34′ 30″}}\\makebox[7.0mm][c]{\\smash{+}}\\makebox[14.0mm][r]{\\smash{8′ 0″}}\\makebox[7.0mm][c]{\\smash{=}}\\makebox[22.0mm][r]{0° 42′ 30″\\rlap{,}}",
+     "tex": "\\hspace*{36.0mm}\\makebox[36.0mm][l]{\\smash{latitudinem \\MoonSym{} boreal.}}\\makebox[15.0mm][r]{\\smash{34′ 30″}}\\makebox[7.0mm][c]{\\smash{+}}\\makebox[14.0mm][r]{\\smash{8′ 0″}}\\makebox[7.0mm][c]{\\smash{=}}\\makebox[22.0mm][r]{0° 42′ 30″\\rlap{,}}",
      "transcription": "latitudinem ☾ boreal. | 34′ 30″ | + | 8′ 0″ | = | 0° 42′ 30″~,",
      "semantic_anchor": null,
      "source_role": "NALLINO_ADNOTATIONES"
@@ -315,7 +315,7 @@
     {
      "id": "AB01-PDF0657-body-L038",
      "source_line_no": 38,
-     "tex": "convenit si \\textarabic{نو} 56′ pro \\textarabic{يو} 16′ cod., \\textarabic{د} 4′ pro \\textarabic{نج} 53′ et \\textarabic{نز} 57′ cod., \\textarabic{سمط} 349° (ut antea iam pro-",
+     "tex": "convenit si \\ArabicRun{نو} 56′ pro \\ArabicRun{يو} 16′ cod., \\ArabicRun{د} 4′ pro \\ArabicRun{نج} 53′ et \\ArabicRun{نز} 57′ cod., \\ArabicRun{سمط} 349° (ut antea iam pro-",
      "transcription": "convenit si نو 56′ pro يو 16′ cod., د 4′ pro نج 53′ et نز 57′ cod., سمط 349° (ut antea iam pro-",
      "semantic_anchor": null,
      "source_role": "NALLINO_ADNOTATIONES"
