@@ -476,12 +476,19 @@ def rule_piece(col, rule):
 
 
 def cols_width():
-    """the width in mm of a table in the current @cols, separators included"""
-    pt = 25.4 / 72.27
-    a, b = COLS["pad"]
-    pad = {"|": a + b + 0.4 * pt, "||": a + b + 2.0 * pt, "<||": b + 2.0 * pt, "||>": a + 2.0 * pt,
-           "!": a + b + 1.0 * pt}
-    return sum(pad[c] if c in SEPS else c[0] for c in COLS["cols"])
+    """the width in mm of the frame of the table in the current @cols, separators included"""
+    return frame_extent()[1]
+
+
+def frame_extent():
+    """the frame of the table in the current @cols: its left edge in mm from the left margin of the text, and its
+    width; the frame runs from the left double rule <|| to the right one ||>, or over all the columns when there are
+    none (columns outside it, such as the numbers of a catalogue in the margin, are not under its rules)"""
+    cols = COLS["cols"]
+    i0 = cols.index("<||") if "<||" in cols else 0
+    i1 = len(cols) - 1 - cols[::-1].index("||>") if "||>" in cols else len(cols) - 1
+    width = [sep_width(c) if c in SEPS else c[0] for c in cols]
+    return COLS["indent"] + sum(width[:i0]), sum(width[i0:i1 + 1])
 
 
 def rowgap_tex(mm):
@@ -763,14 +770,14 @@ def section(items, prefix, role, numbered):
             out.append(r"\par\noindent\makebox[\linewidth][c]{\rule[.5ex]{18mm}{.4pt}}\par")
         elif kind == "rule2":  # the double rule across the text, or across a table (@rule2 MM, @rule2 cols); with
             toks = text.split()  # «join» the next row of the table follows without a gap, so that its rules meet it
-            ind = r"\hspace*{" + str(COLS["indent"]) + "mm}" if toks[:1] == ["cols"] else ""
+            ind = r"\hspace*{" + f"{frame_extent()[0]:.2f}" + "mm}" if toks[:1] == ["cols"] else ""
             w = (f"{cols_width():.2f}mm" if toks[:1] == ["cols"] else
                  toks[0] + "mm" if toks else r"\linewidth")
             out.append(r"\par\noindent" + ind + r"\rule{" + w + r"}{1.2pt}\par\nointerlineskip\vspace{1pt}\noindent"
                        + ind + r"\rule{" + w + r"}{.4pt}\par" + (r"\nointerlineskip" if "join" in toks else ""))
         elif kind == "hrule":  # a thin rule across a table (@hrule cols) or MM wide, between its rows; @hrule cols PT
             toks = text.split()  # a rule PT thick
-            ind = r"\hspace*{" + str(COLS["indent"]) + "mm}" if toks[0] == "cols" else ""
+            ind = r"\hspace*{" + f"{frame_extent()[0]:.2f}" + "mm}" if toks[0] == "cols" else ""
             w = f"{cols_width():.2f}mm" if toks[0] == "cols" else toks[0] + "mm"
             th = (toks[1] if len(toks) > 1 else ".4") + "pt"
             out.append(r"\par\nointerlineskip\noindent" + ind + r"\rule{" + w + "}{" + th + r"}\par\nointerlineskip")

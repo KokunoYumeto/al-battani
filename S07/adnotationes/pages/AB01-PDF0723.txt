@@ -1,0 +1,67 @@
+@page 723 274
+% the lacuna of the catalogue (Part II p. 172), filled from the Spanish version, set like the catalogue: the number of
+% the star in the margin, the frame from 4.97 mm (measured on the print, text edge 124.5 pt), the designations of
+% Bayer and Lacaille on the right; degrees and minutes right-aligned in their own columns
+@vspace 4
+@colpad 1.5 1.5
+@cols 0 3.5r 1.47l <|| 56.88l | 7.2r 5.64r 1.89l | 5.2r 5.72r 1.85l | 6.63c | 13.83c ||> 2.4l 32l
+@rule2 cols join
+@hrow 13.9 | | | {\fontsize{8.8}{10}\selectfont Stellarum descriptio.} | {\fontsize{8.8}{10}\selectfont Longitudo.}:3 | {\fontsize{8.8}{10}\selectfont Latitudo.}:3 | Plaga\\Caeli. | {\fontsize{8.8}{10}\selectfont Magnitudo.} | |
+@hrule cols 1.3
+@spanbrace 4.4 | | | :9 | |
+@hspan | | **Navis.**:9 | |
+@spanbrace 4 | | | :9 | |
+@hrule cols
+@rowgap 2.6
+@fontsize 10.4 13.8
+@row 1 | | Anterior duarum stellarum quae | | | | | | | | | |
+@row | | >3.8 sunt in extremitate (« cabo ») navis. | 111~° | 30~′ | | 42~° | 30~′ | | a | 5 | | *e* Navis.
+@row 2 | | Stella posterior earum. | 115 | 30 | | 43 | 20 | | a | 3 | | ι
+@row 3 | | Stella borealis duarum [contigua- | | | | | | | | | |
+@row | | >3.8 rum] in puppi navis. | 110 | 0 | | 45 | 0 | | a | 4 | | ξ
+@row 4 | | Stella lucida in medio puppis. | 107 | 30 | | 47 | 15 | | a | 4 | | κ
+@row 5 | | Stella quae est in extremitate (« ca- | | | | | | | | | |
+@row | | >3.8 bo ») puppis. | 115 | 10 | | 49 | 50 | | a | 4 | | χ
+@row 6 | | Borealis earum quae sunt in tabu- | | | | | | | | | |
+@row | | >3.8 latu (« lecho ») puppis. | *117* | *10* | | 55 | 30 | | a | 5 | | *f* (Lac. 664)
+@row 7 | | Lucida stellarum quae sunt in tabu- | | | | | | | | | |
+@row | | >3.8 latu puppis. | 122 | 20 | | 58 | 20 | | a | 2 | | δ (Lac. 729)
+@row 8 | | Australis duarum stellarum quae | | | | | | | | | |
+@row | | >3.8 sunt in parte anteriore (« en la | | | | | | | | | |
+@row | | >3.8 delantrera ») puppis. | 105 | *30* | | 58 | 40 | | a | 3 | | λ (Lac. 627)
+@row 9 | | Stella anterior duarum obscurarum | | | | | | | | | |
+@row | | >3.8 quae sunt sub lucida. | 119 | 20 | | 60 | 0 | | a | 5 | | ω{sup:1} (Lac. 704)
+@row 10 | | Stella posterior earum. | 122 | 10 | | 59 | 20 | | a | 5 | | ω{sup:2} (Lac. 746)
+@row 11 | | Borealis trium stellarum [quae sunt | | | | | | | | | |
+@row | | >3.8 in scutulis, in eo fere in quod | | | | | | | | | |
+@row | | >3.8 reclinatur malus navis]. | 136 | 50 | | 51 | 30 | | a | 4 | | *p*{sup:1} (Lac. 781)
+@row 12 | | Stella media earum. | 137 | 20 | | 55 | 40 | | a | 4 [magna] | | *p*{sup:2} (Lac. 792)
+@row 13 | | Stella australis earum. | 135 | 10 | | 57 | 10 | | a | 4 [magna] | | *p*{sup:2} (Lac. 776)
+@row 14 | | Borealis duarum quae sunt in me- | | | | | | | | | |
+@row | | >3.8 dio [mali]. | 130 | 30 | | 49 | 0 | | a | 3 | | *o*{sup:2}
+@normal
+@rowgap 2.5
+@vspace 4
+@small
+@at 7.5:**Navis seu Argus:**
+1. Long. H. 114° 10′ (false legit ιγ pro ι γ′). — Lat. L. 42° 40′. — Magnitudo Vh. 4 د pro 5 ه quod reliqui
+> omnes habent (Arg. 5 magna).
+4. Magnitudo Pts., Hg., H., B. 3; L. 4; S. 4 magna; Arg. 4 parva.
+5. Long. Vh. 114° 50′ {ar:قيد ن} pro 115° 10′ {ar:قيه ى}; correxi ut reliqui omnes habent.
+6. Long. falsa; S. 110° 40′; L., B., H., Hg. 111° 20′. — Lat. ut omnes, praeter B. qui, ut videtur ex mera con-
+> iectura, 56° 30′ habet.
+7. Magnitudo Vh. 3 {ar:ج‍} pro 2 ب quod est apud reliquos omnes.
+8. Long. ut S.; sed reliqui 105° 10′. — Nomen Graece ὁ νοτιώτερος αὐτῶν [id est τῶν ἐν τῇ τρόπει τῆς πρύμνης]
+> « australior earum quae sunt in carina puppis », sicut etiam L. et S; sed Arabicus interpres, quem
+> {sp:al-Battānī} secutus est, voci τρόπις sensum « principii », quem metaphorice tantum habet, tribuit.
+11. Magnitudo Hg. 4 magna; reliqui 4.
+12. Lat. Vh. 20′ pro 40′, quod reliqui omnes habent. — Magnitudo ad fidem Hg. et L.; Pts. et S. 4.
+13. Magnitudo ad fidem Hg. et L.; Pts. et S. 4.
+14. Magnitudo ut Pts., B., H., Hg.; sed L. et S. 4.
+@normal
+@obs body (table): the top of the frame is printed as a double rule (heavy and thin), the rule under the heads as a heavy rule; the outer vertical rules are double (heavy outside); the frame is not closed at the foot (the catalogue continues on p. 275).
+@obs body (table): the kappa of star 4 is printed in the curly form; transcribed κ. The longitude of star 6 and the minutes of the longitude of star 8 are printed in italic (codex numbers kept, p. 271).
+@obs body (table): the superscript of «p²» of star 12 and of «o²» of star 14 is printed heavy, that of star 13 light; all three read 2.
+@obs body (note 5): in «قيد» and «قيه» the two dots of qāf and of yāʾ are printed merged into short strokes; the final «ى» is printed without dots.
+@obs body (note 7): the 3 is printed with the initial form of jīm.
+@obs body (note 8): «τρόπει» is printed so.
