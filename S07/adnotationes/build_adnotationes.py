@@ -9,15 +9,22 @@ Transcription format (UTF-8; one printed line per source line, as printed, with 
   @title TEXT            a large centred line (the head ADNOTATIONES)
   @center TEXT           a centred line (the head of each note, «Ad pag. ...»)
   @vspace MM             vertical space
-  @rule / @rule2         a short centred rule / the double rule across the text
+  @rule / @rule2 [MM]    a short centred rule / the double rule across the text (or MM wide, over a table)
   @blank                 the page is blank
   @verse H1 | H2         an Arabic verse, its two hemistichs in reading order (the first is set on the right)
   @calc L | S | A | B | C | T   a line of a worked computation: label, sign, three numbers, tail (fixed columns;
                          a label beginning with > is set flush right); @calcrule the rule under the numbers;
                          @calcset INDENT LABEL SIGN NUM the column widths in mm
   @cols INDENT C ...     the columns of a small table (widths in mm with l, r or c; | a vertical rule);
-  @row C1 | C2 | ...     one row of it (~ hangs a unit sign: 159~°; {brace2} a brace over two rows);
-                         @rowrule - | | - ... a rule under the columns marked -
+  @row C1 | C2 | ...     one row of it (~ hangs a unit sign: 159~°; {brace2} a brace over two rows; a cell
+                         beginning with > is the indented second line of a name);
+                         @rowrule - | | - ... a rule under the columns marked -; || in @cols is a double rule;
+                         @rowgap MM an empty stretch of the table that carries its rules
+  @small / @normal       the following lines in small type (9 on 12 pt) / in the type of the text
+  > TEXT                 a continuation line of a hanging paragraph (indented 2.5 em)
+  @mcols W1 W2 ...       columns of short lines side by side (widths as fractions of the text width); @mcnext
+                         starts the next column, @mcend closes the block; inside, @chead TEXT is the small bold
+                         head of a group and @skip N leaves N lines (N may be 0.5)
   @raw ... @endraw       a LaTeX block passed through (tables, displayed formulas)
   @notes                 the footnotes follow, left column; @col switches to the right column; @notes1 one column
   @sig TEXT              the signature at the foot of the page
@@ -188,7 +195,8 @@ def parse(path):
             elif cmd == "@blank":
                 rec["blank"] = True
             elif cmd in ("@title", "@center", "@vspace", "@rule", "@rule2", "@verse", "@calc", "@calcrule",
-                         "@calcset", "@cols", "@row", "@rowrule"):
+                         "@calcset", "@cols", "@row", "@rowrule", "@mcols", "@mcnext", "@mcend", "@chead", "@skip",
+                         "@small", "@normal", "@rowgap"):
                 rec[part].append((cmd[1:], arg))
             else:
                 raise SystemExit(f"{path.name}: unknown directive {cmd}")
@@ -232,23 +240,25 @@ def set_cols(spec):
     (12r, 30l, 6c), and | is a vertical rule"""
     toks = spec.split()
     COLS["indent"] = float(toks[0])
-    COLS["cols"] = [t if t == "|" else (float(t[:-1]), t[-1]) for t in toks[1:]]
+    COLS["cols"] = [t if t in ("|", "||") else (float(t[:-1]), t[-1]) for t in toks[1:]]
 
 
 def row_tex(src):
     """@row C1 | C2 | ...: one printed row of a small table, in the columns of @cols. In a cell, ~ separates the
     number from a unit sign that hangs to its right (159~°); {brace2} is a brace over this row and the next"""
     cells = [c.strip() for c in src.split("|")]
-    widths = [c for c in COLS["cols"] if c != "|"]
+    widths = [c for c in COLS["cols"] if c not in ("|", "||")]
     if len(cells) != len(widths):
         raise SystemExit(f"@row has {len(cells)} cells for {len(widths)} columns: {src}")
     out, k = [r"\hspace*{" + str(COLS["indent"]) + "mm}"], 0
     for col in COLS["cols"]:
-        if col == "|":
-            out.append(r"\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}")
+        if col in ("|", "||"):
+            out.append(rule_piece(col, r"\rule[-\dp\strutbox]{.4pt}{\baselineskip}"))
             continue
         (w, a), c = col, cells[k]
         k += 1
+        if c.startswith("> "):  # the second line of a name that runs over two printed lines, indented
+            c = r"\hspace*{6mm}" + c[2:]
         if c == "{brace2}":
             out.append(r"\makebox[" + str(w) + "mm][" + a + "]{" + BRACE2 + "}")
         elif "~" in c:
@@ -262,13 +272,13 @@ def row_tex(src):
 def rowrule_tex(src):
     """@rowrule - | - | | ...: a rule under each column of the @cols marked with -, between two rows"""
     cells = [c.strip() for c in src.split("|")]
-    widths = [c for c in COLS["cols"] if c != "|"]
+    widths = [c for c in COLS["cols"] if c not in ("|", "||")]
     if len(cells) != len(widths):
         raise SystemExit(f"@rowrule has {len(cells)} cells for {len(widths)} columns: {src}")
     out, k = [r"\par\nointerlineskip\vspace{1pt}\noindent\hspace*{" + str(COLS["indent"]) + "mm}"], 0
     for col in COLS["cols"]:
-        if col == "|":
-            out.append(r"\hspace{5.4mm}")
+        if col in ("|", "||"):
+            out.append(r"\phantom{" + rule_piece(col, r"\rule{.4pt}{1pt}") + "}")
             continue
         w = col[0]
         out.append((r"\rule{" if cells[k] == "-" else r"\hspace{") + str(w) + ("mm}{.4pt}" if cells[k] == "-" else "mm}"))
@@ -276,9 +286,41 @@ def rowrule_tex(src):
     return "".join(out) + r"\par\nointerlineskip\vspace{2pt}"
 
 
+def rule_piece(col, rule):
+    """the space and rule(s) of a | or || column separator"""
+    if col == "|":
+        return r"\hspace{3mm}" + rule + r"\hspace{2mm}"
+    return r"\hspace{3mm}" + rule + r"\hspace{1.2pt}" + rule + r"\hspace{2mm}"
+
+
+def rowgap_tex(mm):
+    """@rowgap MM: an empty stretch of the table, MM high, that carries its vertical rules (no anchor)"""
+    out = [r"\par\nointerlineskip\noindent\hspace*{" + str(COLS["indent"]) + "mm}"]
+    for col in COLS["cols"]:
+        if col in ("|", "||"):
+            out.append(rule_piece(col, r"\rule{.4pt}{" + mm + "mm}"))
+        else:
+            out.append(r"\hspace{" + str(col[0]) + "mm}")
+    return "".join(out) + r"\par\nointerlineskip"
+
+
+def mc_width(tok):
+    """a column of @mcols: W or W/H, in mm when greater than 1, else a fraction of the text width; H is the width
+    within which the heads of the column are centred"""
+    def unit(x):
+        return x + "mm" if float(x) > 1 else x + r"\textwidth"
+    w, _, h = tok.partition("/")
+    return unit(w), (unit(h) if h else None)
+
+
+def mc_begin(w):
+    return r"\begin{minipage}[t]{" + w + r"}\vspace{0pt}"
+
+
 def section(items, prefix, role, numbered):
     """the TeX of one section and its line records"""
     out, recs, n, par, tab = [], [], 0, 0, 0
+    mc = None  # the column widths of an open @mcols block, and the column being set
     for kind, text in items:
         if kind == "cols":
             set_cols(text)
@@ -286,10 +328,36 @@ def section(items, prefix, role, numbered):
         if kind == "rowrule":
             out.append(rowrule_tex(text))
             continue
-        if kind in ("line", "center", "title", "verse", "calc", "row"):
+        if kind == "mcols":  # columns of short lines set side by side (the index of the cities); rows stay aligned
+            mc = {"w": [mc_width(t) for t in text.split()], "k": 0}
+            out.append(r"\par\vspace{2pt}\noindent{\lineskiplimit=-\maxdimen" + mc_begin(mc["w"][0][0]))
+            continue
+        if kind == "mcnext":
+            mc["k"] += 1
+            out.append(r"\end{minipage}" + mc_begin(mc["w"][mc["k"]][0]))
+            continue
+        if kind == "mcend":
+            if mc["k"] != len(mc["w"]) - 1:
+                raise SystemExit(f"{prefix}: @mcols block with {len(mc['w'])} widths has {mc['k'] + 1} columns")
+            out.append(r"\end{minipage}}\par")
+            mc = None
+            continue
+        if kind == "small":
+            out.append(r"\par\fontsize{9}{12}\selectfont")
+            continue
+        if kind == "normal":
+            out.append(r"\par\fontsize{11.1}{13.8}\selectfont")
+            continue
+        if kind == "rowgap":
+            out.append(rowgap_tex(text))
+            continue
+        if kind == "skip":
+            out.append(r"\par\vspace{" + text + r"\baselineskip}")
+            continue
+        if kind in ("line", "center", "title", "verse", "calc", "row", "chead"):
             n += 1
             lid = f"{prefix}-{role}-L{n:03d}"
-            src = text[2:] if kind == "line" and text.startswith("^ ") else text
+            src = text[2:] if kind == "line" and text.startswith(("^ ", "> ")) else text
             if kind == "verse":  # an Arabic verse: first hemistich | second hemistich, the first set on the right
                 h1, h2 = [h.strip() for h in src.split("|")]
                 tex = (r"\CenterLine{\makebox[56mm][c]{\textarabic{" + h2 + r"}}\hspace{8mm}\makebox[56mm][c]{"
@@ -302,7 +370,9 @@ def section(items, prefix, role, numbered):
             else:
                 tex = markup(src)
             sem = None
-            if kind == "line" and text.startswith("^ "):
+            if kind == "line" and text.startswith("> "):  # a continuation line of a hanging paragraph
+                tex = r"\hspace*{2.5em}" + tex
+            elif kind == "line" and text.startswith("^ "):
                 tex = r"\Indent " + tex
                 note = re.match(r"\((\d+)\)", src)
                 if note and role != "body":
@@ -315,9 +385,16 @@ def section(items, prefix, role, numbered):
                 sem = f"{prefix}-H{n:02d}"
             elif kind == "title":
                 tex = r"\CenterLine{\fontsize{24}{28}\selectfont " + tex + "}"
-            if sem:
+            elif kind == "chead":  # the head of a group in the columns, small bold, centred in its column
+                hw = mc["w"][mc["k"]][1] if mc else None
+                inner = r"\fontsize{8.5}{10}\selectfont\textbf{" + tex + "}"
+                tex = (r"\makebox[" + hw + "][c]{" + inner + "}") if hw else (r"\CenterLine{" + inner + "}")
+                sem = f"{prefix}-H{n:02d}"
+            if sem and mc is not None:  # inside the columns the anchor goes into the line, not between lines
+                tex = r"\hypertarget{" + sem + "}{}" + tex
+            elif sem:
                 out.append(r"\hypertarget{" + sem + "}{}")
-            show = str(n) if numbered and n % 5 == 0 else ""
+            show = str(n) if numbered and n % 5 == 0 and mc is None else ""
             out.append(r"\DLine{" + lid + "}{" + show + "}{" + tex + "}")
             recs.append({"id": lid, "source_line_no": n if numbered else None, "tex": tex, "transcription": src,
                          "semantic_anchor": sem,
@@ -332,8 +409,10 @@ def section(items, prefix, role, numbered):
             out.append(r"\par\vspace{" + text + "mm}")
         elif kind == "rule":
             out.append(r"\par\noindent\makebox[\linewidth][c]{\rule[.5ex]{18mm}{.4pt}}\par")
-        elif kind == "rule2":
-            out.append(r"\par\noindent\rule{\linewidth}{1.2pt}\par\vspace{1pt}\noindent\rule{\linewidth}{.4pt}\par")
+        elif kind == "rule2":  # the double rule across the text, or across a table MM wide (@rule2 MM)
+            w = text.strip() + "mm" if text.strip() else r"\linewidth"
+            out.append(r"\par\noindent\rule{" + w + r"}{1.2pt}\par\nointerlineskip\vspace{1pt}\noindent\rule{" + w
+                       + r"}{.4pt}\par")
         elif kind == "raw":
             tab += 1
             tid = f"{prefix}-{role}-T{tab:02d}"
