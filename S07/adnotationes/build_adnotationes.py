@@ -1,5 +1,6 @@
 """Build the line-anchored diplomatic edition of Nallino's Adnotationes to the tables of Part II (printed pp. 189-317,
-master PDF pages 638-766) from the page transcriptions in pages/ (one file per printed page, AB01-PDF####.txt).
+master PDF pages 638-766, and the blank p. 318) from the page transcriptions in pages/ (one file per printed page,
+AB01-PDF####.txt).
 
 Output, beside this script: p2_adnotationes.tex (XeLaTeX; the layout, macros and line anchors of the S02 edition of
 Part I), records/AB01-PDF####.json (page records in the S02 schema) and anchors.tsv (one row per printed line).
