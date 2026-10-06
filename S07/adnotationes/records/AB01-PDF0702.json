@@ -1,0 +1,371 @@
+{
+ "anchor": "AB01-PDF0702",
+ "master_pdf_page": 702,
+ "printed_page": 253,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "observations": [
+  "body L2: a short stroke like an acute accent is printed above the c of «cathetum»; not transcribed.",
+  "body (formula 2): a dot is printed above the E of «TEM»; not transcribed.",
+  "body L12: a short stroke is printed before the m of «maximas»; not transcribed.",
+  "notes_right L5: the l of «Basileae» and of «lib.» are printed broken, like i."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0702-body-L001",
+     "source_line_no": 1,
+     "tex": "\\textit{proiectione} rectae TE per planetam ipsum transeuntis; consideremus scilicet angulum NEM,",
+     "transcription": "*proiectione* rectae TE per planetam ipsum transeuntis; consideremus scilicet angulum NEM,",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0702-body-L002",
+     "source_line_no": 2,
+     "tex": "trianguli in N rectanguli et habentis cathetum\\quad $NM=$ proiectioni $NT'=\\dfrac{r\\sin\\psi\\cos o}{R^2}$\\,.\\enspace Erit",
+     "transcription": "trianguli in N rectanguli et habentis cathetum\\quad $NM=$ proiectioni $NT'=\\dfrac{r\\sin\\psi\\cos o}{R^2}$\\,.\\enspace Erit",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0702-body-L003",
+     "source_line_no": 3,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.00mm}(1)}\\rlap{\\hspace*{11.20mm}tang\\enspace $NEM=R\\,\\dfrac{NM}{NE}=R\\,\\dfrac{\\;\\dfrac{r\\sin\\psi\\cos o}{R^2}\\;}{\\text{dist.\\ epic.}\\pm\\dfrac{r\\cos\\psi}{R}}=\\dfrac{r\\sin\\psi\\cos o}{R\\times\\text{dist.\\ epic.}\\pm r\\cos\\psi}$\\,.}",
+     "transcription": "(1) tang\\enspace $NEM=R\\,\\dfrac{NM}{NE}=R\\,\\dfrac{\\;\\dfrac{r\\sin\\psi\\cos o}{R^2}\\;}{\\text{dist.\\ epic.}\\pm\\dfrac{r\\cos\\psi}{R}}=\\dfrac{r\\sin\\psi\\cos o}{R\\times\\text{dist.\\ epic.}\\pm r\\cos\\psi}$\\,.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0702-body-L004",
+     "source_line_no": 4,
+     "tex": "\\mbox{}\\rlap{\\hspace*{41.80mm}tang\\enspace $TEM=$ tang obliquitatis $=R\\,\\dfrac{MT}{EM}$\\,.}",
+     "transcription": "tang\\enspace $TEM=$ tang obliquitatis $=R\\,\\dfrac{MT}{EM}$\\,.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0702-body-L005",
+     "source_line_no": 5,
+     "tex": "Quoniam in triangulo NME, rectangulo in N, est\\quad $EM=R\\,\\dfrac{NM}{\\sin NEM}$\\,,\\quad erit",
+     "transcription": "Quoniam in triangulo NME, rectangulo in N, est\\quad $EM=R\\,\\dfrac{NM}{\\sin NEM}$\\,,\\quad erit",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0702-body-L006",
+     "source_line_no": 6,
+     "tex": "\\mbox{}\\rlap{\\hspace*{34.00mm}tang\\enspace $TEM=R\\,\\dfrac{MT}{R\\,\\dfrac{NM}{\\sin NEM}}=\\dfrac{MT}{NM}\\,\\sin NEM$\\,.}",
+     "transcription": "tang\\enspace $TEM=R\\,\\dfrac{MT}{R\\,\\dfrac{NM}{\\sin NEM}}=\\dfrac{MT}{NM}\\,\\sin NEM$\\,.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0702-body-L007",
+     "source_line_no": 7,
+     "tex": "Sed in triangulo rectangulo NMT est\\quad $MT:NM=\\sin o:\\cos o$\\,;\\quad ergo",
+     "transcription": "Sed in triangulo rectangulo NMT est\\quad $MT:NM=\\sin o:\\cos o$\\,;\\quad ergo",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0702-body-L008",
+     "source_line_no": 8,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.00mm}(2)}\\rlap{\\hspace*{24.20mm}tang obliq. $=$ tang\\enspace $TEM=\\dfrac{\\sin o}{\\cos o}\\,\\sin NEM=\\dfrac{\\text{tang}\\,o\\,\\sin NEM}{R}$\\,.}",
+     "transcription": "(2) tang obliq. $=$ tang\\enspace $TEM=\\dfrac{\\sin o}{\\cos o}\\,\\sin NEM=\\dfrac{\\text{tang}\\,o\\,\\sin NEM}{R}$\\,.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0702-body-L009",
+     "source_line_no": 9,
+     "tex": "\\Indent Formulae (1) et (2) ad calculum logarithmicum sufficiunt.",
+     "transcription": "Formulae (1) et (2) ad calculum logarithmicum sufficiunt.",
+     "semantic_anchor": "AB01-PDF0702-P01",
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0702-body-L010",
+     "source_line_no": 10,
+     "tex": "\\Indent Sed \\Name{Ptolemaeus}, ne nimium susciperet laborem, directam supputationem omisit aliamque",
+     "transcription": "Sed {sp:Ptolemaeus}, ne nimium susciperet laborem, directam supputationem omisit aliamque",
+     "semantic_anchor": "AB01-PDF0702-P02",
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0702-body-L011",
+     "source_line_no": 11,
+     "tex": "viam ingressus est. Absque demonstratione statuit XIII, 4 (ed. Halma, t. II, p. 410) maximas",
+     "transcription": "viam ingressus est. Absque demonstratione statuit XIII, 4 (ed. Halma, t. II, p. 410) maximas",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0702-body-L012",
+     "source_line_no": 12,
+     "tex": "digressiones (1) ad maximas obliquitates epicycli eandem habere rationem quam alia quaepiam",
+     "transcription": "digressiones (1) ad maximas obliquitates epicycli eandem habere rationem quam alia quaepiam",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0702-body-L013",
+     "source_line_no": 13,
+     "tex": "digressio seu elongatio ad obliquitatem puncti correspondentis epicycli. Ut res clarius eluceat,",
+     "transcription": "digressio seu elongatio ad obliquitatem puncti correspondentis epicycli. Ut res clarius eluceat,",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0702-body-L014",
+     "source_line_no": 14,
+     "tex": "sit E centrum Terrae, H centrum epicycli, EH communis sectio planorum eclipticae et epicycli.",
+     "transcription": "sit E centrum Terrae, H centrum epicycli, EH communis sectio planorum eclipticae et epicycli.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0702-body-F01",
+     "source_line_no": null,
+     "tex": "\\input{figures/AB01-PDF0702-F01}",
+     "transcription": "[figure, redrawn: figures/AB01-PDF0702-F01.tex]",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_FIGURE"
+    },
+    {
+     "id": "AB01-PDF0702-body-L015",
+     "source_line_no": 15,
+     "tex": "Ducantur ED tangens ad epicyclum, et quaecumque secans EFN;",
+     "transcription": "Ducantur ED tangens ad epicyclum, et quaecumque secans EFN;",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0702-body-L016",
+     "source_line_no": 16,
+     "tex": "ex punctis F, D, N demittantur FI, DK, NM perpendiculares",
+     "transcription": "ex punctis F, D, N demittantur FI, DK, NM perpendiculares",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0702-body-L017",
+     "source_line_no": 17,
+     "tex": "ad planum eclipticae; demum in eclipticae plano rectae EK, EIM",
+     "transcription": "ad planum eclipticae; demum in eclipticae plano rectae EK, EIM",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0702-body-L018",
+     "source_line_no": 18,
+     "tex": "describantur (2). Anguli DEK, NEM, FEI, sunt obliquitates",
+     "transcription": "describantur (2). Anguli DEK, NEM, FEI, sunt obliquitates",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0702-body-L019",
+     "source_line_no": 19,
+     "tex": "(e centro Terrae visae) punctorum D, N, F epicycli, quorum",
+     "transcription": "(e centro Terrae visae) punctorum D, N, F epicycli, quorum",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0702-body-L020",
+     "source_line_no": 20,
+     "tex": "digressiones a Sole erunt anguli DEG, NEG, FEG. \\Name{Ptole-}",
+     "transcription": "digressiones a Sole erunt anguli DEG, NEG, FEG. {sp:Ptole-}",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0702-body-L021",
+     "source_line_no": 21,
+     "tex": "\\Name{maeus} statuit",
+     "transcription": "{sp:maeus} statuit",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0702-body-L022",
+     "source_line_no": 22,
+     "tex": "\\mbox{}\\rlap{\\hspace*{16.60mm}$DEG:DEK=NEG:NEM=FEG:FEI$}",
+     "transcription": "$DEG:DEK=NEG:NEM=FEG:FEI$",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0702-body-L023",
+     "source_line_no": 23,
+     "tex": "seu",
+     "transcription": "seu",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0702-body-L024",
+     "source_line_no": 24,
+     "tex": "\\mbox{}\\rlap{\\hspace*{3.20mm}maxima digressio : maxima obliquitas $=NEG:NEM$\\,; etc.}",
+     "transcription": "maxima digressio : maxima obliquitas $=NEG:NEM$\\,; etc.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0702-body-L025",
+     "source_line_no": 25,
+     "tex": "Quod non exacte sed proxime verum est (3). Digressiones illae",
+     "transcription": "Quod non exacte sed proxime verum est (3). Digressiones illae",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0702-body-L026",
+     "source_line_no": 26,
+     "tex": "manifeste idem sunt quod in theoria aequationum planetarum",
+     "transcription": "manifeste idem sunt quod in theoria aequationum planetarum",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0702-body-L027",
+     "source_line_no": 27,
+     "tex": "\\Name{Ptolemaeus} \\textgreek{ἀνωμαλίας προσϑαφαίρεσις}, \\Name{al-Battānī} « aequationem",
+     "transcription": "{sp:Ptolemaeus} ἀνωμαλίας προσϑαφαίρεσις, {sp:al-Battānī} « aequationem",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0702-body-L028",
+     "source_line_no": 28,
+     "tex": "anomaliae » vocaverunt; qua re tabulam obliquitatis facile",
+     "transcription": "anomaliae » vocaverunt; qua re tabulam obliquitatis facile",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0702-body-L029",
+     "source_line_no": 29,
+     "tex": "condidit, ex correspondentibus aequationibus (in tabulis aequatio-",
+     "transcription": "condidit, ex correspondentibus aequationibus (in tabulis aequatio-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0702-body-L030",
+     "source_line_no": 30,
+     "tex": "num Veneris et Mercurii positis) sumens partem proportionalem",
+     "transcription": "num Veneris et Mercurii positis) sumens partem proportionalem",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0702-body-L031",
+     "source_line_no": 31,
+     "tex": "ad $\\dfrac{46^\\circ}{2^\\circ 30'}$ pro Venere, ad $\\dfrac{22^\\circ}{2^\\circ 30'}$ pro Mercurio.",
+     "transcription": "ad $\\dfrac{46^\\circ}{2^\\circ 30'}$ pro Venere, ad $\\dfrac{22^\\circ}{2^\\circ 30'}$ pro Mercurio.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    }
+   ]
+  },
+  {
+   "role": "notes_left",
+   "lines": [
+    {
+     "id": "AB01-PDF0702-notes_left-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (1) Quas hoc capite \\textgreek{μήκους προσϑαφαιρέσεις} vel",
+     "transcription": "(1) Quas hoc capite μήκους προσϑαφαιρέσεις vel",
+     "semantic_anchor": "AB01-PDF0702-N01",
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0702-notes_left-L002",
+     "source_line_no": null,
+     "tex": "\\textgreek{κατὰ μῆκος προσϑαφαιρέσεις} appellat, nomen haud",
+     "transcription": "κατὰ μῆκος προσϑαφαιρέσεις appellat, nomen haud",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0702-notes_left-L003",
+     "source_line_no": null,
+     "tex": "omnino recte e theoria aequationum planetarum su-",
+     "transcription": "omnino recte e theoria aequationum planetarum su-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0702-notes_left-L004",
+     "source_line_no": null,
+     "tex": "mens; cfr. paulum infra.",
+     "transcription": "mens; cfr. paulum infra.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0702-notes_left-L005",
+     "source_line_no": null,
+     "tex": "\\Indent (2) Recta est linea EIM, quod puncta omnia",
+     "transcription": "(2) Recta est linea EIM, quod puncta omnia",
+     "semantic_anchor": "AB01-PDF0702-N02",
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  },
+  {
+   "role": "notes_right",
+   "lines": [
+    {
+     "id": "AB01-PDF0702-notes_right-L001",
+     "source_line_no": null,
+     "tex": "E, I, M in communi sectione sunt plani eclipticae",
+     "transcription": "E, I, M in communi sectione sunt plani eclipticae",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0702-notes_right-L002",
+     "source_line_no": null,
+     "tex": "planique ad angulos rectos eclipticam secantis.",
+     "transcription": "planique ad angulos rectos eclipticam secantis.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0702-notes_right-L003",
+     "source_line_no": null,
+     "tex": "\\Indent (3) Cfr. \\Name{J. de Monte Regio} \\textit{et} \\Name{G. Purba-}",
+     "transcription": "(3) Cfr. {sp:J. de Monte Regio} *et* {sp:G. Purba-}",
+     "semantic_anchor": "AB01-PDF0702-N03",
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0702-notes_right-L004",
+     "source_line_no": null,
+     "tex": "\\Name{chii} \\textit{Epitome in Cl. Ptolemaei magnam composi-}",
+     "transcription": "{sp:chii} *Epitome in Cl. Ptolemaei magnam composi-*",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0702-notes_right-L005",
+     "source_line_no": null,
+     "tex": "\\textit{tionem,} Basileae 1543, p. 259–60 (lib. XIII, prop. 19).",
+     "transcription": "*tionem,* Basileae 1543, p. 259–60 (lib. XIII, prop. 19).",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  }
+ ]
+}

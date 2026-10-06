@@ -2960,3 +2960,136 @@ AB01-PDF0701-notes_left-L001	252	notes_left	(1) *Almag.* XIII, 3 (Halma, II, 376
 AB01-PDF0701-notes_left-L002	252	notes_left	mum XIII, 4 (Halma II, 407-10).
 AB01-PDF0701-notes_right-L001	252	notes_right	(2) Sunt obliquitates e centro Terrae visae;
 AB01-PDF0701-notes_right-L002	252	notes_right	in centro epicycli 3° {sfrac:1/2} Veneri, 7° Mercurio.
+AB01-PDF0702-body-L001	253	body	*proiectione* rectae TE per planetam ipsum transeuntis; consideremus scilicet angulum NEM,
+AB01-PDF0702-body-L002	253	body	trianguli in N rectanguli et habentis cathetum\\quad $NM=$ proiectioni $NT'=\\dfrac{r\\sin\\psi\\cos o}{R^2}$\\,.\\enspace Erit
+AB01-PDF0702-body-L003	253	body	(1) tang\\enspace $NEM=R\\,\\dfrac{NM}{NE}=R\\,\\dfrac{\\;\\dfrac{r\\sin\\psi\\cos o}{R^2}\\;}{\\text{dist.\\ epic.}\\pm\\dfrac{r\\cos\\psi}{R}}=\\dfrac{r\\sin\\psi\\cos o}{R\\times\\text{dist.\\ epic.}\\pm r\\cos\\psi}$\\,.
+AB01-PDF0702-body-L004	253	body	tang\\enspace $TEM=$ tang obliquitatis $=R\\,\\dfrac{MT}{EM}$\\,.
+AB01-PDF0702-body-L005	253	body	Quoniam in triangulo NME, rectangulo in N, est\\quad $EM=R\\,\\dfrac{NM}{\\sin NEM}$\\,,\\quad erit
+AB01-PDF0702-body-L006	253	body	tang\\enspace $TEM=R\\,\\dfrac{MT}{R\\,\\dfrac{NM}{\\sin NEM}}=\\dfrac{MT}{NM}\\,\\sin NEM$\\,.
+AB01-PDF0702-body-L007	253	body	Sed in triangulo rectangulo NMT est\\quad $MT:NM=\\sin o:\\cos o$\\,;\\quad ergo
+AB01-PDF0702-body-L008	253	body	(2) tang obliq. $=$ tang\\enspace $TEM=\\dfrac{\\sin o}{\\cos o}\\,\\sin NEM=\\dfrac{\\text{tang}\\,o\\,\\sin NEM}{R}$\\,.
+AB01-PDF0702-body-L009	253	body	Formulae (1) et (2) ad calculum logarithmicum sufficiunt.
+AB01-PDF0702-body-L010	253	body	Sed {sp:Ptolemaeus}, ne nimium susciperet laborem, directam supputationem omisit aliamque
+AB01-PDF0702-body-L011	253	body	viam ingressus est. Absque demonstratione statuit XIII, 4 (ed. Halma, t. II, p. 410) maximas
+AB01-PDF0702-body-L012	253	body	digressiones (1) ad maximas obliquitates epicycli eandem habere rationem quam alia quaepiam
+AB01-PDF0702-body-L013	253	body	digressio seu elongatio ad obliquitatem puncti correspondentis epicycli. Ut res clarius eluceat,
+AB01-PDF0702-body-L014	253	body	sit E centrum Terrae, H centrum epicycli, EH communis sectio planorum eclipticae et epicycli.
+AB01-PDF0702-body-F01	253	body	[figure, redrawn: figures/AB01-PDF0702-F01.tex]
+AB01-PDF0702-body-L015	253	body	Ducantur ED tangens ad epicyclum, et quaecumque secans EFN;
+AB01-PDF0702-body-L016	253	body	ex punctis F, D, N demittantur FI, DK, NM perpendiculares
+AB01-PDF0702-body-L017	253	body	ad planum eclipticae; demum in eclipticae plano rectae EK, EIM
+AB01-PDF0702-body-L018	253	body	describantur (2). Anguli DEK, NEM, FEI, sunt obliquitates
+AB01-PDF0702-body-L019	253	body	(e centro Terrae visae) punctorum D, N, F epicycli, quorum
+AB01-PDF0702-body-L020	253	body	digressiones a Sole erunt anguli DEG, NEG, FEG. {sp:Ptole-}
+AB01-PDF0702-body-L021	253	body	{sp:maeus} statuit
+AB01-PDF0702-body-L022	253	body	$DEG:DEK=NEG:NEM=FEG:FEI$
+AB01-PDF0702-body-L023	253	body	seu
+AB01-PDF0702-body-L024	253	body	maxima digressio : maxima obliquitas $=NEG:NEM$\\,; etc.
+AB01-PDF0702-body-L025	253	body	Quod non exacte sed proxime verum est (3). Digressiones illae
+AB01-PDF0702-body-L026	253	body	manifeste idem sunt quod in theoria aequationum planetarum
+AB01-PDF0702-body-L027	253	body	{sp:Ptolemaeus} ἀνωμαλίας προσϑαφαίρεσις, {sp:al-Battānī} « aequationem
+AB01-PDF0702-body-L028	253	body	anomaliae » vocaverunt; qua re tabulam obliquitatis facile
+AB01-PDF0702-body-L029	253	body	condidit, ex correspondentibus aequationibus (in tabulis aequatio-
+AB01-PDF0702-body-L030	253	body	num Veneris et Mercurii positis) sumens partem proportionalem
+AB01-PDF0702-body-L031	253	body	ad $\\dfrac{46^\\circ}{2^\\circ 30'}$ pro Venere, ad $\\dfrac{22^\\circ}{2^\\circ 30'}$ pro Mercurio.
+AB01-PDF0702-notes_left-L001	253	notes_left	(1) Quas hoc capite μήκους προσϑαφαιρέσεις vel
+AB01-PDF0702-notes_left-L002	253	notes_left	κατὰ μῆκος προσϑαφαιρέσεις appellat, nomen haud
+AB01-PDF0702-notes_left-L003	253	notes_left	omnino recte e theoria aequationum planetarum su-
+AB01-PDF0702-notes_left-L004	253	notes_left	mens; cfr. paulum infra.
+AB01-PDF0702-notes_left-L005	253	notes_left	(2) Recta est linea EIM, quod puncta omnia
+AB01-PDF0702-notes_right-L001	253	notes_right	E, I, M in communi sectione sunt plani eclipticae
+AB01-PDF0702-notes_right-L002	253	notes_right	planique ad angulos rectos eclipticam secantis.
+AB01-PDF0702-notes_right-L003	253	notes_right	(3) Cfr. {sp:J. de Monte Regio} *et* {sp:G. Purba-}
+AB01-PDF0702-notes_right-L004	253	notes_right	{sp:chii} *Epitome in Cl. Ptolemaei magnam composi-*
+AB01-PDF0702-notes_right-L005	253	notes_right	*tionem,* Basileae 1543, p. 259–60 (lib. XIII, prop. 19).
+AB01-PDF0703-body-L001	254	body	Ratione exposita qua binae columnae *superiorum* et *inferiorum* planetarum a {sp:Ptole-}
+AB01-PDF0703-body-L002	254	body	{sp:maeo} supputatae sunt, ad explicandam columnam *partium proportionalium* pergamus,
+AB01-PDF0703-body-L003	254	body	quae omnibus planetis est communis, ac t. II, p. 141 reperitur. Praecedentes columnae conditae
+AB01-PDF0703-body-L004	254	body	sunt pro centro epicycli aut in punctis maximarum latitudinum aut in nodis deferentis posito.
+AB01-PDF0703-body-L005	254	body	Oportet columnas illas etiam ad puncta deferentis intermedia aptare. Supputatio directa nimis
+AB01-PDF0703-body-L006	254	body	longus est labor et permultas tabulas requirit; ad praecedentes igitur columnas pro quolibet
+AB01-PDF0703-body-L007	254	body	alio situ centri epicycli aptandas Ptolemaeus adhibuit partes proportionales. Eas tamen directe
+AB01-PDF0703-body-L008	254	body	non supputavit; at considerans XIII, 4 (ed. Halma, II, p. 411) inclinationes obliquitatesque
+AB01-PDF0703-body-L009	254	body	eadem proxime ratione crescere aut decrescere qua latitudines Lunae, ex tabulis universas
+AB01-PDF0703-body-L010	254	body	has latitudines lunares, exacte iam supputatas, accepit et in 12 multiplicavit ut sexagesimae
+AB01-PDF0703-body-L011	254	body	partes fierent; nam maxima Lunae latitudo est 5°, unde\\enspace 5° × 12 = 60°.\\enspace Facillime ita ul-
+AB01-PDF0703-body-L012	254	body	tima columna prodiit.
+AB01-PDF0703-body-L013	254	body	Tabularum usum satis explicat {sp:al-Battānī} cap. XLVII (t. I, p. 115–16), cum quo potest
+AB01-PDF0703-body-L014	254	body	*Almag.* XIII, 6 (ed. Halma, t. II, p. 414–16) comparari. Longitudini verae Saturni 50° addendi,
+AB01-PDF0703-body-L015	254	body	Iovis 20° demendi propterea sunt, quod linea absidum (seu apogei et perigei) deferentis in
+AB01-PDF0703-body-L016	254	body	Saturno 50° elongatur ab ortu lineae maximae inclinationis plani deferentis ad planum ecli-
+AB01-PDF0703-body-L017	254	body	pticae, in Iove 20° ab occasu. In reliquis planetis ambae lineae coincidunt. — Obliquitati Mer-
+AB01-PDF0703-body-L018	254	body	curii modo est addenda modo demenda ipsius decima pars, quod columna obliquitatis ad mediam
+AB01-PDF0703-body-L019	254	body	distantiam geocentricam centri epicycli condita est; variationes autem in distantia apogea aut
+AB01-PDF0703-body-L020	254	body	perigea contingentes {sfrac:1/10} circiter sunt maximae obliquitatis 2° {sfrac:1/2} distantiae mediae, sicut
+AB01-PDF0703-body-L021	254	body	p. 252 dixi. — In supputanda inclinatione, longitudini verae Veneris 90° adduntur, Mercurii 270°,
+AB01-PDF0703-body-L022	254	body	quod inclinatio maxima in nodis fit, seu 90° et 270° elongationis ab apogeo deferentis. —
+AB01-PDF0703-body-L023	254	body	T. I, p. 116, iubet auctor Veneri {sfrac:1/6}, Mercurio {sfrac:8/4} accipi partium sexagesimarum quas ex
+AB01-PDF0703-body-L024	254	body	ultima columna sumpsimus cum iterum in tabulam cum longitudine intravimus. Id faciendum
+AB01-PDF0703-body-L025	254	body	ne parva deferentis ad eclipticam inclinatio negligatur, quam vidimus $\\dfrac{1^\\circ}{10}$ Veneri, 45′ seu
+AB01-PDF0703-body-L026	254	body	$\\dfrac{3^\\circ}{4}$ Mercurio esse.
+AB01-PDF0703-body-L027	254	body	Quae {sp:Delambre}, *Histoire de l’astron. ancienne,* t. II, p. 406, de tabulis latitudinum
+AB01-PDF0703-body-L028	254	body	Ptolemaicis iudicat, vix recta sunt; calculos enim non ad astronomi Graeci mentem duxit.
+AB01-PDF0703-body-L029	254	body	In gravi autem errore versatur cum scribit: « Ainsi pour l’obliquation de Mercure, il avertit
+AB01-PDF0703-body-L030	254	body	« qu’ayant trouvé dans sa Table des erreurs\\enspace — 13′ et + 16′, il avait corrigé sa Table à
+AB01-PDF0703-body-L031	254	body	« raison de {sfrac:1/4} de degré, pour se rapprocher des observations. Cependant ses nombres cadrent
+AB01-PDF0703-body-L032	254	body	« avec les miens; il n’a donc point exécuté ce changement qu’il annonce ». Manifeste non
+AB01-PDF0703-body-L033	254	body	intellexit locum ed. Halma, t. II, p. 410, quo Ptolemaeus monet columnam illam supputatam
+AB01-PDF0703-body-L034	254	body	esse ad mediam distantiam geocentricam epicycli Mercurii, emendatione igitur proportionali
+AB01-PDF0703-body-L035	254	body	ad {sfrac:1/4} gradus egere pro distantiis apogeis et perigeis; cfr. paulum supra et p. 252.
+AB01-PDF0703-body-L036	254	body	Aliam, eamque longe simpliciorem omnibusque planetis communem, doctrinam latitudinum
+AB01-PDF0703-body-L037	254	body	occurrere in *Hypothesibus* existimat {sp:Alwin Haebler}, *Die Lehren des Claudius Pto-*
+AB01-PDF0703-body-L038	254	body	*lemaeus von den Bewegungen der Planeten,* in Zeitschr. für Mathematik und Physik,
+AB01-PDF0703-body-L039	254	body	45. Bd., 1900, hist.-litter. Abteilung, p. 171, 192, 198 (1). Sed iniuria. In *Hypothesibus* enim
+AB01-PDF0703-notes_left-L001	254	notes_left	(1) Dissertatio tota pag. 161-198 periodici oc-
+AB01-PDF0703-notes_left-L002	254	notes_left	cupat. Primo considerationes generaliores de Graeca
+AB01-PDF0703-notes_left-L003	254	notes_left	astronomia (p. 161-176) exhibet, acriter sed iure
+AB01-PDF0703-notes_left-L004	254	notes_left	Halma arguens ob editiones versionesque librorum
+AB01-PDF0703-notes_right-L001	254	notes_right	astronomicorum quas post Almagestum dedit (p. 167-
+AB01-PDF0703-notes_right-L002	254	notes_right	171). Doctrinam Ptolemaicam motuum Solis, Lunae,
+AB01-PDF0703-notes_right-L003	254	notes_right	planetarum in longitudine summatim p. 176-191
+AB01-PDF0703-notes_right-L004	254	notes_right	adumbrat; monet postea Delambrii disquisitiones
+AB01-PDF0704-body-L001	255	body	(ed. Halma, p. 48–56), quae sunt Almagesto seriores, summatim pro singulis planetis sphaeras
+AB01-PDF0704-body-L002	255	body	{sp:Ptolemaeus} recenset quibus eorum motus omnes repraesentantur. Circulum pareclipticum
+AB01-PDF0704-body-L003	255	body	(ὁ ὁμόκεντρος τῷ ζωδιακῷ κύκλος) in zodiaci plano ab occasu ad ortum se eodem quo stellae
+AB01-PDF0704-body-L004	255	body	fixae motu revolventem, circulum obliquum (ὁ ἐγκεκλιμένος κύκλος, ὁ λοξός), deferentem (ὁ ἔκκεν-
+AB01-PDF0704-body-L005	255	body	τρος, Mercurio mobilem, reliquis fixum), centrum aequantis (περὶ ὃ κινεῖται ἰσοταχῶς) describit,
+AB01-PDF0704-body-L006	255	body	sicut ego p. 238–39 ac 243 exposui; duabus parvis discrepantiis in Mercurio exceptis, quas p. 243,
+AB01-PDF0704-body-L007	255	body	adn. 1 et 2, memoravi. Peculiaritates autem epicyclorum pro singulis planetis ita enarrat: *Cir-*
+AB01-PDF0704-body-L008	255	body	*cellus* (κυκλίσκος) in epicycli sphaera, cui concentricus sit, censeatur, in obliqui plano iacens;
+AB01-PDF0704-body-L009	255	body	recta e centro aequantis per circelli centrum producta semper teneat bina circelli puncta quae
+AB01-PDF0704-body-L010	255	body	apogeum et perigeum [epicycli] vocabimus; huius circelli magnitudo non determinatur. *Cir-*
+AB01-PDF0704-body-L011	255	body	*cellus alter* sit, priori concentricus et in eodem obliqui plano, ita se aequabiliter revolvens
+AB01-PDF0704-body-L012	255	body	circa centrum suum ut, ab apogeo [epicycli] incipiens, ab ortu ad occasum (ἐπὶ τὰ αὐτὰ τῇ
+AB01-PDF0704-body-L013	255	body	τοῦ κόσμου περιστροφῇ « in eandem partem in quam revolutio mundi ») moveatur eodem motu
+AB01-PDF0704-body-L014	255	body	quo centrum epicycli [circumferentiam aequantis] ambit; huius etiam circelli magnitudo non
+AB01-PDF0704-body-L015	255	body	memoratur. *Tertius* demum *circellus,* secundo primoque concentricus sed ad eorum planum
+AB01-PDF0704-body-L016	255	body	inclinatus censeatur, cuius circumferentiam planeta [motu suo anomalistico] aequabiliter ab
+AB01-PDF0704-body-L017	255	body	occasu ad ortum (ἐπὶ τὰ ἐναντία τῇ τοῦ κόσμου περιστροφῇ) ambiat; inclinatio et radius huius
+AB01-PDF0704-body-L018	255	body	tertii circelli pro singulis planetis indicantur. — Manifestum est tertium hunc circellum esse
+AB01-PDF0704-body-L019	255	body	verum epicyclum; duos priores autem, sicut circulum pareclipticum, inutiles esse ad mathe-
+AB01-PDF0704-body-L020	255	body	maticam rationem, et solummodo ad philosophicam caelestium sphaerarum inservire. Mani-
+AB01-PDF0704-body-L021	255	body	festum etiam tota hac *Hypothesium* expositione nonnisi generalem adumbrationem motuum
+AB01-PDF0704-body-L022	255	body	planetarum contineri, *nihil* vero eius quod ad supputandas *latitudines* inserviat.
+AB01-PDF0704-body-L023	255	body	Monendum est elementa *Hypothesium* non raro ab *Almagesti* differre:
+AB01-PDF0704-body-L024	255	body	{sm:Saturno} {sm:Iovi} {sm:Marti} {sm:Veneri} {sm:Mercurio}
+AB01-PDF0704-body-L025	255	body	Inclinatio epicycli ad excentricum $\\left\\{\\rule[-8.5pt]{0pt}{17pt}\\right.$ Almag. 4° 30′ 2° 30′ 2° 15′ 2° 30′ 6° 15′
+AB01-PDF0704-body-L026	255	body	Hypoth. 2 30 1 30 1 50 3 30 6 30
+AB01-PDF0704-body-L027	255	body	Inclinatio excentrici ad eclipticam $\\left\\{\\rule[-9.5pt]{0pt}{19pt}\\right.$ Almag. 2 30 1 30 1 0 0 10 0 45
+AB01-PDF0704-body-L028	255	body	Hypoth. 2 30 1 30 1 50 0 10 0 10
+AB01-PDF0704-body-L029	255	body	In *Inscriptione Canopi* quantitates Almagesti occurrunt, praeter inclinationes excentri-
+AB01-PDF0704-body-L030	255	body	corum Saturni (2°26′) et Iovis (1°24′).
+AB01-PDF0704-body-L031	255	body	*Ad pag. 142–143.* — **Apparitiones et occultationes planetarum.**
+AB01-PDF0704-body-L032	255	body	Tabulae memoratae t. I, p. 117–18, cap. XLVIII, quo et ipsarum usus docetur.
+AB01-PDF0704-body-L033	255	body	De his apparitionibus et occultationibus respectu Solis exorientibus, φάσεις καὶ κρύψεις πρὸς
+AB01-PDF0704-body-L034	255	body	τὸν ἥλιον γινόμεναι, agit {sp:Ptolemaeus} XIII, 7–10 (ed. Halma, t. II, p. 416–31), qui tabulas
+AB01-PDF0704-body-L035	255	body	ab Albatenianis necessario diversas praebet XIII, 10 (Halma, II, 430–31).
+AB01-PDF0704-body-L036	255	body	Pauca praemittenda sunt, quae {sp:Ptolemaeus} et {sp:al-Battānī} exponere negligunt; a
+AB01-PDF0704-body-L037	255	body	{sp:Barhebraeo}, *Astron.* p. 78–79 text., 66–68 vers., luculenter enarrata. *Superiores pla-*
+AB01-PDF0704-body-L038	255	body	*netae,* quia Sole tardiores, veluti stellae fixae apparitionem semper habent matutinam, occul-
+AB01-PDF0704-notes_left-L001	255	notes_left	minime ad latitudines planetarum explicandas suf-
+AB01-PDF0704-notes_left-L002	255	notes_left	ficere (p. 192), et Almagesti de hac re doctrinam
+AB01-PDF0704-notes_left-L003	255	notes_left	breviter exponit, omnibus omissis quae ad mathe-
+AB01-PDF0704-notes_right-L001	255	notes_right	maticam supputationem inserviunt (p. 192-198). —
+AB01-PDF0704-notes_right-L002	255	notes_right	P. 191 numeri excentricitatum deferentis Mercurii
+AB01-PDF0704-notes_right-L003	255	notes_right	et Veneris erroribus affecti sunt.

@@ -1,0 +1,61 @@
+@page 702 253
+% the displayed formulas begin where they begin on the print (mm from the left edge of the text, 64.3 pt); the numbers
+% (1), (2) stand at the left edge
+*proiectione* rectae TE per planetam ipsum transeuntis; consideremus scilicet angulum NEM,
+trianguli in N rectanguli et habentis cathetum\quad $NM=$ proiectioni $NT'=\dfrac{r\sin\psi\cos o}{R^2}$\,.\enspace Erit
+@vspace 1.5
+@at 0:(1) | 11.2:tang\enspace $NEM=R\,\dfrac{NM}{NE}=R\,\dfrac{\;\dfrac{r\sin\psi\cos o}{R^2}\;}{\text{dist.\ epic.}\pm\dfrac{r\cos\psi}{R}}=\dfrac{r\sin\psi\cos o}{R\times\text{dist.\ epic.}\pm r\cos\psi}$\,.
+@vspace 1.5
+@at 41.8:tang\enspace $TEM=$ tang obliquitatis $=R\,\dfrac{MT}{EM}$\,.
+@vspace 1
+Quoniam in triangulo NME, rectangulo in N, est\quad $EM=R\,\dfrac{NM}{\sin NEM}$\,,\quad erit
+@vspace 1.5
+@at 34.0:tang\enspace $TEM=R\,\dfrac{MT}{R\,\dfrac{NM}{\sin NEM}}=\dfrac{MT}{NM}\,\sin NEM$\,.
+@vspace 1
+Sed in triangulo rectangulo NMT est\quad $MT:NM=\sin o:\cos o$\,;\quad ergo
+@vspace 0.5
+@at 0:(2) | 24.2:tang obliq. $=$ tang\enspace $TEM=\dfrac{\sin o}{\cos o}\,\sin NEM=\dfrac{\text{tang}\,o\,\sin NEM}{R}$\,.
+@vspace 1
+^ Formulae (1) et (2) ad calculum logarithmicum sufficiunt.
+^ Sed {sp:Ptolemaeus}, ne nimium susciperet laborem, directam supputationem omisit aliamque
+viam ingressus est. Absque demonstratione statuit XIII, 4 (ed. Halma, t. II, p. 410) maximas
+digressiones (1) ad maximas obliquitates epicycli eandem habere rationem quam alia quaepiam
+digressio seu elongatio ad obliquitatem puncti correspondentis epicycli. Ut res clarius eluceat,
+sit E centrum Terrae, H centrum epicycli, EH communis sectio planorum eclipticae et epicycli.
+% the figure stands on the right of the next sixteen lines (on the print from 357 pt, 103.2 mm; here from 113 mm, as the Greek is set wider here)
+@wrapr 113 AB01-PDF0702-F01
+Ducantur ED tangens ad epicyclum, et quaecumque secans EFN;
+ex punctis F, D, N demittantur FI, DK, NM perpendiculares
+ad planum eclipticae; demum in eclipticae plano rectae EK, EIM
+describantur (2). Anguli DEK, NEM, FEI, sunt obliquitates
+(e centro Terrae visae) punctorum D, N, F epicycli, quorum
+digressiones a Sole erunt anguli DEG, NEG, FEG. {sp:Ptole-}
+{sp:maeus} statuit
+@vspace 0.5
+@at 16.6:$DEG:DEK=NEG:NEM=FEG:FEI$
+seu
+@at 3.2:maxima digressio : maxima obliquitas $=NEG:NEM$\,; etc.
+Quod non exacte sed proxime verum est (3). Digressiones illae
+manifeste idem sunt quod in theoria aequationum planetarum
+{sp:Ptolemaeus} ἀνωμαλίας προσϑαφαίρεσις, {sp:al-Battānī} « aequationem
+anomaliae » vocaverunt; qua re tabulam obliquitatis facile
+condidit, ex correspondentibus aequationibus (in tabulis aequatio-
+num Veneris et Mercurii positis) sumens partem proportionalem
+@endwrap
+ad $\dfrac{46^\circ}{2^\circ 30'}$ pro Venere, ad $\dfrac{22^\circ}{2^\circ 30'}$ pro Mercurio.
+@obs body L2: a short stroke like an acute accent is printed above the c of «cathetum»; not transcribed.
+@obs body (formula 2): a dot is printed above the E of «TEM»; not transcribed.
+@obs body L12: a short stroke is printed before the m of «maximas»; not transcribed.
+@obs notes_right L5: the l of «Basileae» and of «lib.» are printed broken, like i.
+@notes
+^ (1) Quas hoc capite μήκους προσϑαφαιρέσεις vel
+κατὰ μῆκος προσϑαφαιρέσεις appellat, nomen haud
+omnino recte e theoria aequationum planetarum su-
+mens; cfr. paulum infra.
+^ (2) Recta est linea EIM, quod puncta omnia
+@col
+E, I, M in communi sectione sunt plani eclipticae
+planique ad angulos rectos eclipticam secantis.
+^ (3) Cfr. {sp:J. de Monte Regio} *et* {sp:G. Purba-}
+{sp:chii} *Epitome in Cl. Ptolemaei magnam composi-*
+*tionem,* Basileae 1543, p. 259–60 (lib. XIII, prop. 19).
