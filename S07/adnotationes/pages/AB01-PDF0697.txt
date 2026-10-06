@@ -1,0 +1,51 @@
+@page 697 248
+% the displayed formulas begin where they begin on the print (mm from the left edge of the text, 107.5 pt; inside the
+% figure block, from the left edge of the lines beside the figure, 275.0 pt)
+epicyclo dato temporis momento; erit arcus AT anomalia vera seu aequata ψ. Recta TK ducatur
+perpendicularis ad DA (ergo parallela ad planum eclipticae); TL et KB demittantur perpen-
+diculares ad planum eclipticae; quadrilaterum TKBL manifeste rectangulum erit. Rectis BL,
+@wrap 0.2944 AB01-PDF0697-F01 1.9
+ET, EL descriptis, angulus TEL erit *latitudo* supputanda.
+Demum KN perpendicularis ad EH, et rectae TH, EK du-
+cantur.
+^ In triangulo HKT, rectangulo in K, cognoscuntur an-
+gulus THK (anomalia vera, ψ) et latus HT (radius epi-
+cycli, *r*); notae igitur fiunt
+@vspace 0.8
+@at 11.4:$KT=\dfrac{r\sin\psi}{R}$\,, | 54.4:$KH=\dfrac{r\cos\psi}{R}$\,.
+@vspace 0.8
+^ In triangulo HKN, rectangulo in N, notus est an-
+gulus KHN seu epicycli inclinatio ad deferentem (*i*); ergo
+@vspace 1
+@at 19.0:$KN=KH\,\dfrac{\sin i}{R}=\dfrac{r\cos\psi\sin i}{R^2}$\,,
+@vspace 2
+@at 19.6:$HN=KH\,\dfrac{\cos i}{R}=\dfrac{r\cos\psi\cos i}{R^2}$\,.
+@vspace 1
+^ Et quia situs centri epicycli in deferente datus cen-
+setur, nota erit, per formulam pag. 240,
+@vspace 1
+@at 0:$NE=EH\mp HN=$ dist. geocentr. epicycli $\mp\,\dfrac{r\cos\psi\cos i}{R^2}$\,.
+@endwrap
+In triangulo rectangulo KNE sunt
+@at 14.0:$KE=\sqrt{\overline{NE}^2+\overline{KN}^2}=\sqrt{\left(\text{dist.\ epic.}\mp\dfrac{r\cos\psi\cos i}{R^2}\right)^2+\left(\dfrac{r\cos\psi\sin i}{R^2}\right)^2}$
+@at 13.7:sin $KEN=R\,\dfrac{KN}{KE}=\dfrac{r\cos\psi\sin i}{R\sqrt{\left(\text{dist.\ epic.}\mp\dfrac{r\cos\psi\cos i}{R^2}\right)^2+\left(\dfrac{r\cos\psi\sin i}{R^2}\right)^2}}$\,.
+Unde colliguntur
+@at 20.9:BEK = KEN + BEH = KEN + inclinatio deferentis ad eclipticam,
+et, quia triangulum KBE ob factas constructiones est rectangulum in B,
+@at 26.1:$KB=KE\,\dfrac{\sin BEK}{R}$\,, | 88.5:$EB=KE\,\dfrac{\cos BEK}{R}$\,.
+In triangulo LBE, rectangulo in B, est\quad $EL=\sqrt{\overline{EB}^2+\overline{BL}^2}$\,,\quad ubi etiam BL nota, quia ae-
+qualis opposito lateri KT (quadrilateri rectanguli TKBL) antea supputato; ob constructiones
+factas angulus ELT rectus est, ergo\quad $ET=\sqrt{\overline{EL}^2+\overline{LT}^2}$\,,\quad et innotescet
+@at 41.2:sin latit. $=$ sin $TEL=R\,\dfrac{LT}{ET}=R\,\dfrac{KB}{ET}$\,.
+^ Hac via, quam supputationi trigonometricae accommodavi, {sp:Ptolemaeus} pro senis ac
+ternis anomaliae verae gradibus deduxit latitudines maximas planetarum *superiorum,* quae
+fiunt in limite boreali deferentis (col. I cuiuscumque horum planetarum) et in australi (col. II
+eorumdem). Ad latitudines in locis intermediis deferentis supputandas adhibuit partes propor-
+tionales, de quibus infra dicendum erit (1).
+@obs body: the page is printed in a grey impression; the squares of segments are printed with a bar over the letters, as transcribed.
+@notes
+^ (1) *Limes borealis,* τὸ βόρειον πέρας, est pun-
+ctum deferentis maxime in septentriones declinans,
+@col
+90° gradibus igitur ab utroque nodo in boream di-
+stans; *limes australis,* τὸ νότιον πέρας, punctum de-
