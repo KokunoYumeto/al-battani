@@ -1,0 +1,59 @@
+@page 712 263
+@vspace 4
+@center **{sp:Iupiter.}**
+@vspace 3
+% the table of the variant readings for Jupiter and Mars, in one frame: rules measured on the print (table from
+% 59.6 pt, the text edge); the columns as on p. 262, a column for the degrees and a wider one for the minutes for
+% each source; — means agreement with the restored number
+@colpad 1.5 1.5
+@cols 0 <|| 17.69l | 5.61c 7.14c | 5.57c 7.09c | 5.59c 7.11c | 5.54c 7.04c ! 5.63c 7.16c | 5.6c 7.12c | 5.55c 7.06c | 5.51c 7.01c ||>
+@rule2 cols join
+@hrow 10.6 | ~\\ **{sc:Signa}** | **{sm:{spsc:Apparitiones}}**:8 | **{sm:{spsc:Occultationes}}**:8
+@spanbrace 0.1 | | hr:8 | hr:8
+@hrow 11.6 | **{spsc:zodiaci}**\\~ | **{xs:Codex\\Escurialensis}**:2 | **{xs:Versio\\Hispanica}**:2 | **{xs:Ḥabash}**:2 | **{xs:Tabulae\\Alphonsinae}**:2 | **{xs:Codex\\Escurialensis}**:2 | **{xs:Versio\\Hispanica}**:2 | **{xs:Ḥabash}**:2 | **{xs:Tabulae\\Alphonsinae}**:2
+@hrule cols 1.2
+@rowgap 2.4
+@fontsize 9.3 17.2
+@row Aries | — | — | — | — | — | ير17′ | — | لج33′ | — | — | — | — | — | — | — | —
+@row Taurus | — | — | — | — | — | — | — | — | — | يح18′ | — | — | — | — | — | —
+@row Gemini | — | — | — | — | — | يد14′ | — | يه15′ | — | — | — | — | — | — | — | —
+@row Cancer | — | — | — | — | — | مد44′ | — | — | — | — | — | — | — | — | — | —
+@row Leo | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | —
+@row Virgo | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | —
+@row Libra | — | — | — | — | — | — | — | — | — | — | — | ل30′ | — | — | — | —
+@row Scorpius | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | —
+@row Sagittarius | — | — | — | — | — | — | — | — | — | — | — | — | — | لر37′ | — | —
+@row Capricornus | — | — | — | — | — | ما41′ | — | مد44′ | — | — | — | — | — | — | — | —
+@row Aquarius | — | — | — | — | — | يد14′ | — | يد14′ | — | — | — | — | — | — | — | —
+@row Pisces | >1.6 كا21° | — | — | نا51′ | — | — | — | — | — | — | — | — | — | ا 1′ | — | —
+@normal
+@rowgap 1.2
+@hrule cols 1.3
+% the second part of the frame: «Mars.» in an open band, then a double rule and the rows for Mars (the heads are
+% not repeated)
+@spanbrace 13.9 | :17
+@hspan **{sp:Mars.}**:17
+@spanbrace 6.9 | :17
+@rule2 cols join
+@rowgap 2.4
+@fontsize 9.3 17.2
+@row Aries | — | — | — | — | — | — | — | — | — | ر 7′ | — | ب 2′ | >1.6 يه15° | يب12′ | — | 12′
+@row Taurus | — | ٮا | — | — | — | يا11′ | — | 11′ | — | — | — | — | >1.6 يو16° | — | — | —
+@row Gemini | — | ٮد | — | — | — | يد14′ | — | 14′ | — | — | — | — | — | — | — | —
+@row Cancer | — | ٮه | — | — | — | يه15′ | — | 15′ | — | — | — | — | — | — | — | يد14′
+@row Leo | — | — | — | — | — | — | — | — | — | — | — | — | — | يد14′ | — | 14′
+@row Virgo | — | — | — | — | — | — | — | — | — | — | — | — | — | يا11′ | — | 11′
+@row Libra | — | — | — | — | — | يب12′ | — | 12′ | — | — | — | — | — | — | — | —
+@row Scorpius | — | — | — | — | — | — | — | — | — | — | — | يا11′ | — | يا11′ | — | 11′
+@row Sagittarius | — | — | — | — | — | ر 7′ | — | 7′ | — | — | — | — | — | يد14′ | — | 14′
+@row Capricornus | — | — | >1.6 لح38° | نه55′ | — | يه15′ | — | 15′ | — | نه55′ | — | 55′ | — | — | — | —
+@row Aquarius | — | — | — | ند54′ | — | ير17′ | — | يد14′ | — | — | — | — | — | — | — | —
+@row Pisces | >1.6 كب22° | — | — | نا51′ | — | يا11′ | — | 11′ | — | — | — | — | — | — | — | —
+@normal
+@rowgap 1.2
+@hrule cols 1.3
+@obs body (table, Mars, Codex Escurialensis, apparitions of Taurus, Gemini, Cancer): only the abjad numeral is printed, with its tooth undotted («ٮا», «ٮد», «ٮه»), without a number; transcribed as printed.
+@obs body (table): the zāy of the abjad numerals is printed without its dot: «ر 7′» (Mars, Aries, occult. Codex; Sagittarius, apparit. Ḥabash), «ير17′» (Jupiter, Aries, and Mars, Aquarius, apparit. Ḥabash), «لر37′» (Jupiter, Sagittarius, occult. Ḥabash); transcribed as printed.
+@obs body (table, Mars, Pisces, apparit. Codex): the dot of the bāʾ of «كب» is printed above the stroke; transcribed كب.
+@obs body (table, Mars, Pisces, apparit. Ḥabash): the dash is printed broken, «--».
+@obs body (table): the heavy rule under the rows of Jupiter is printed broken under the column of the signs.

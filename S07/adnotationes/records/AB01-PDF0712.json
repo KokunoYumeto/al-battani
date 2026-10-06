@@ -1,0 +1,250 @@
+{
+ "anchor": "AB01-PDF0712",
+ "master_pdf_page": 712,
+ "printed_page": 263,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "observations": [
+  "body (table, Mars, Codex Escurialensis, apparitions of Taurus, Gemini, Cancer): only the abjad numeral is printed, with its tooth undotted («ٮا», «ٮد», «ٮه»), without a number; transcribed as printed.",
+  "body (table): the zāy of the abjad numerals is printed without its dot: «ر 7′» (Mars, Aries, occult. Codex; Sagittarius, apparit. Ḥabash), «ير17′» (Jupiter, Aries, and Mars, Aquarius, apparit. Ḥabash), «لر37′» (Jupiter, Sagittarius, occult. Ḥabash); transcribed as printed.",
+  "body (table, Mars, Pisces, apparit. Codex): the dot of the bāʾ of «كب» is printed above the stroke; transcribed كب.",
+  "body (table, Mars, Pisces, apparit. Ḥabash): the dash is printed broken, «--».",
+  "body (table): the heavy rule under the rows of Jupiter is printed broken under the column of the signs."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0712-body-L001",
+     "source_line_no": 1,
+     "tex": "\\CenterLine{\\textbf{\\Name{Iupiter.}}}",
+     "transcription": "**{sp:Iupiter.}**",
+     "semantic_anchor": "AB01-PDF0712-H01",
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0712-body-L002",
+     "source_line_no": 2,
+     "tex": "\\hspace*{0.0mm}\\rule[-1mm]{.4pt}{10.60mm}\\hspace{1.2pt}\\rule[-1mm]{.4pt}{10.60mm}\\hspace{1.5mm}\\raisebox{-1mm}{\\parbox[b][10.60mm][c]{17.69mm}{\\centering\\fontsize{7.5}{9}\\selectfont ~\\\\ \\textbf{\\textsc{Signa}}}}\\hspace{1.5mm}\\rule[-1mm]{.4pt}{10.60mm}\\hspace{1.5mm}\\raisebox{-1mm}{\\parbox[b][10.60mm][c]{60.11mm}{\\centering\\fontsize{7.5}{9}\\selectfont \\textbf{{\\fontsize{9.5}{11}\\selectfont \\Name{\\textsc{Apparitiones}}}}}}\\hspace{1.5mm}\\rule[-1mm]{1pt}{10.60mm}\\hspace{1.5mm}\\raisebox{-1mm}{\\parbox[b][10.60mm][c]{60.06mm}{\\centering\\fontsize{7.5}{9}\\selectfont \\textbf{{\\fontsize{9.5}{11}\\selectfont \\Name{\\textsc{Occultationes}}}}}}\\hspace{1.5mm}\\rule[-1mm]{.4pt}{10.60mm}\\hspace{1.2pt}\\rule[-1mm]{.4pt}{10.60mm}",
+     "transcription": "~\\\\ **{sc:Signa}** | **{sm:{spsc:Apparitiones}}** | **{sm:{spsc:Occultationes}}**",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0712-body-L003",
+     "source_line_no": 3,
+     "tex": "\\hspace*{0.0mm}\\rule[-1mm]{.4pt}{11.60mm}\\hspace{1.2pt}\\rule[-1mm]{.4pt}{11.60mm}\\hspace{1.5mm}\\raisebox{-1mm}{\\parbox[b][11.60mm][c]{17.69mm}{\\centering\\fontsize{7.5}{9}\\selectfont \\textbf{\\Name{\\textsc{zodiaci}}}\\\\~}}\\hspace{1.5mm}\\rule[-1mm]{.4pt}{11.60mm}\\hspace{1.5mm}\\raisebox{-1mm}{\\parbox[b][11.60mm][c]{12.75mm}{\\centering\\fontsize{7.5}{9}\\selectfont \\textbf{{\\fontsize{6.6}{8}\\selectfont Codex\\\\Escurialensis}}}}\\hspace{1.5mm}\\rule[-1mm]{.4pt}{11.60mm}\\hspace{1.5mm}\\raisebox{-1mm}{\\parbox[b][11.60mm][c]{12.66mm}{\\centering\\fontsize{7.5}{9}\\selectfont \\textbf{{\\fontsize{6.6}{8}\\selectfont Versio\\\\Hispanica}}}}\\hspace{1.5mm}\\rule[-1mm]{.4pt}{11.60mm}\\hspace{1.5mm}\\raisebox{-1mm}{\\parbox[b][11.60mm][c]{12.70mm}{\\centering\\fontsize{7.5}{9}\\selectfont \\textbf{{\\fontsize{6.6}{8}\\selectfont Ḥabash}}}}\\hspace{1.5mm}\\rule[-1mm]{.4pt}{11.60mm}\\hspace{1.5mm}\\raisebox{-1mm}{\\parbox[b][11.60mm][c]{12.58mm}{\\centering\\fontsize{7.5}{9}\\selectfont \\textbf{{\\fontsize{6.6}{8}\\selectfont Tabulae\\\\Alphonsinae}}}}\\hspace{1.5mm}\\rule[-1mm]{1pt}{11.60mm}\\hspace{1.5mm}\\raisebox{-1mm}{\\parbox[b][11.60mm][c]{12.79mm}{\\centering\\fontsize{7.5}{9}\\selectfont \\textbf{{\\fontsize{6.6}{8}\\selectfont Codex\\\\Escurialensis}}}}\\hspace{1.5mm}\\rule[-1mm]{.4pt}{11.60mm}\\hspace{1.5mm}\\raisebox{-1mm}{\\parbox[b][11.60mm][c]{12.72mm}{\\centering\\fontsize{7.5}{9}\\selectfont \\textbf{{\\fontsize{6.6}{8}\\selectfont Versio\\\\Hispanica}}}}\\hspace{1.5mm}\\rule[-1mm]{.4pt}{11.60mm}\\hspace{1.5mm}\\raisebox{-1mm}{\\parbox[b][11.60mm][c]{12.61mm}{\\centering\\fontsize{7.5}{9}\\selectfont \\textbf{{\\fontsize{6.6}{8}\\selectfont Ḥabash}}}}\\hspace{1.5mm}\\rule[-1mm]{.4pt}{11.60mm}\\hspace{1.5mm}\\raisebox{-1mm}{\\parbox[b][11.60mm][c]{12.52mm}{\\centering\\fontsize{7.5}{9}\\selectfont \\textbf{{\\fontsize{6.6}{8}\\selectfont Tabulae\\\\Alphonsinae}}}}\\hspace{1.5mm}\\rule[-1mm]{.4pt}{11.60mm}\\hspace{1.2pt}\\rule[-1mm]{.4pt}{11.60mm}",
+     "transcription": "**{spsc:zodiaci}**\\\\~ | **{xs:Codex\\\\Escurialensis}** | **{xs:Versio\\\\Hispanica}** | **{xs:Ḥabash}** | **{xs:Tabulae\\\\Alphonsinae}** | **{xs:Codex\\\\Escurialensis}** | **{xs:Versio\\\\Hispanica}** | **{xs:Ḥabash}** | **{xs:Tabulae\\\\Alphonsinae}**",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0712-body-L004",
+     "source_line_no": 4,
+     "tex": "\\hspace*{0.0mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[17.69mm][l]{\\smash{Aries}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.61mm][c]{\\smash{—}}\\makebox[7.14mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.57mm][c]{\\smash{—}}\\makebox[7.09mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.59mm][c]{\\smash{—}}\\makebox[7.11mm][c]{\\smash{\\ArabicRun{ير}17′}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.54mm][c]{\\smash{—}}\\makebox[7.04mm][c]{\\smash{\\ArabicRun{لج}33′}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{1pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.63mm][c]{\\smash{—}}\\makebox[7.16mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.6mm][c]{\\smash{—}}\\makebox[7.12mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.55mm][c]{\\smash{—}}\\makebox[7.06mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.51mm][c]{\\smash{—}}\\makebox[7.01mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}",
+     "transcription": "Aries | — | — | — | — | — | ير17′ | — | لج33′ | — | — | — | — | — | — | — | —",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0712-body-L005",
+     "source_line_no": 5,
+     "tex": "\\hspace*{0.0mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[17.69mm][l]{\\smash{Taurus}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.61mm][c]{\\smash{—}}\\makebox[7.14mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.57mm][c]{\\smash{—}}\\makebox[7.09mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.59mm][c]{\\smash{—}}\\makebox[7.11mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.54mm][c]{\\smash{—}}\\makebox[7.04mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{1pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.63mm][c]{\\smash{—}}\\makebox[7.16mm][c]{\\smash{\\ArabicRun{يح}18′}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.6mm][c]{\\smash{—}}\\makebox[7.12mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.55mm][c]{\\smash{—}}\\makebox[7.06mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.51mm][c]{\\smash{—}}\\makebox[7.01mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}",
+     "transcription": "Taurus | — | — | — | — | — | — | — | — | — | يح18′ | — | — | — | — | — | —",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0712-body-L006",
+     "source_line_no": 6,
+     "tex": "\\hspace*{0.0mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[17.69mm][l]{\\smash{Gemini}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.61mm][c]{\\smash{—}}\\makebox[7.14mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.57mm][c]{\\smash{—}}\\makebox[7.09mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.59mm][c]{\\smash{—}}\\makebox[7.11mm][c]{\\smash{\\ArabicRun{يد}14′}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.54mm][c]{\\smash{—}}\\makebox[7.04mm][c]{\\smash{\\ArabicRun{يه}15′}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{1pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.63mm][c]{\\smash{—}}\\makebox[7.16mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.6mm][c]{\\smash{—}}\\makebox[7.12mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.55mm][c]{\\smash{—}}\\makebox[7.06mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.51mm][c]{\\smash{—}}\\makebox[7.01mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}",
+     "transcription": "Gemini | — | — | — | — | — | يد14′ | — | يه15′ | — | — | — | — | — | — | — | —",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0712-body-L007",
+     "source_line_no": 7,
+     "tex": "\\hspace*{0.0mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[17.69mm][l]{\\smash{Cancer}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.61mm][c]{\\smash{—}}\\makebox[7.14mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.57mm][c]{\\smash{—}}\\makebox[7.09mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.59mm][c]{\\smash{—}}\\makebox[7.11mm][c]{\\smash{\\ArabicRun{مد}44′}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.54mm][c]{\\smash{—}}\\makebox[7.04mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{1pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.63mm][c]{\\smash{—}}\\makebox[7.16mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.6mm][c]{\\smash{—}}\\makebox[7.12mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.55mm][c]{\\smash{—}}\\makebox[7.06mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.51mm][c]{\\smash{—}}\\makebox[7.01mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}",
+     "transcription": "Cancer | — | — | — | — | — | مد44′ | — | — | — | — | — | — | — | — | — | —",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0712-body-L008",
+     "source_line_no": 8,
+     "tex": "\\hspace*{0.0mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[17.69mm][l]{\\smash{Leo}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.61mm][c]{\\smash{—}}\\makebox[7.14mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.57mm][c]{\\smash{—}}\\makebox[7.09mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.59mm][c]{\\smash{—}}\\makebox[7.11mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.54mm][c]{\\smash{—}}\\makebox[7.04mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{1pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.63mm][c]{\\smash{—}}\\makebox[7.16mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.6mm][c]{\\smash{—}}\\makebox[7.12mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.55mm][c]{\\smash{—}}\\makebox[7.06mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.51mm][c]{\\smash{—}}\\makebox[7.01mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}",
+     "transcription": "Leo | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | —",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0712-body-L009",
+     "source_line_no": 9,
+     "tex": "\\hspace*{0.0mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[17.69mm][l]{\\smash{Virgo}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.61mm][c]{\\smash{—}}\\makebox[7.14mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.57mm][c]{\\smash{—}}\\makebox[7.09mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.59mm][c]{\\smash{—}}\\makebox[7.11mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.54mm][c]{\\smash{—}}\\makebox[7.04mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{1pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.63mm][c]{\\smash{—}}\\makebox[7.16mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.6mm][c]{\\smash{—}}\\makebox[7.12mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.55mm][c]{\\smash{—}}\\makebox[7.06mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.51mm][c]{\\smash{—}}\\makebox[7.01mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}",
+     "transcription": "Virgo | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | —",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0712-body-L010",
+     "source_line_no": 10,
+     "tex": "\\hspace*{0.0mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[17.69mm][l]{\\smash{Libra}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.61mm][c]{\\smash{—}}\\makebox[7.14mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.57mm][c]{\\smash{—}}\\makebox[7.09mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.59mm][c]{\\smash{—}}\\makebox[7.11mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.54mm][c]{\\smash{—}}\\makebox[7.04mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{1pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.63mm][c]{\\smash{—}}\\makebox[7.16mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.6mm][c]{\\smash{—}}\\makebox[7.12mm][c]{\\smash{\\ArabicRun{ل}30′}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.55mm][c]{\\smash{—}}\\makebox[7.06mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.51mm][c]{\\smash{—}}\\makebox[7.01mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}",
+     "transcription": "Libra | — | — | — | — | — | — | — | — | — | — | — | ل30′ | — | — | — | —",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0712-body-L011",
+     "source_line_no": 11,
+     "tex": "\\hspace*{0.0mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[17.69mm][l]{\\smash{Scorpius}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.61mm][c]{\\smash{—}}\\makebox[7.14mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.57mm][c]{\\smash{—}}\\makebox[7.09mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.59mm][c]{\\smash{—}}\\makebox[7.11mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.54mm][c]{\\smash{—}}\\makebox[7.04mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{1pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.63mm][c]{\\smash{—}}\\makebox[7.16mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.6mm][c]{\\smash{—}}\\makebox[7.12mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.55mm][c]{\\smash{—}}\\makebox[7.06mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.51mm][c]{\\smash{—}}\\makebox[7.01mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}",
+     "transcription": "Scorpius | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | —",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0712-body-L012",
+     "source_line_no": 12,
+     "tex": "\\hspace*{0.0mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[17.69mm][l]{\\smash{Sagittarius}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.61mm][c]{\\smash{—}}\\makebox[7.14mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.57mm][c]{\\smash{—}}\\makebox[7.09mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.59mm][c]{\\smash{—}}\\makebox[7.11mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.54mm][c]{\\smash{—}}\\makebox[7.04mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{1pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.63mm][c]{\\smash{—}}\\makebox[7.16mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.6mm][c]{\\smash{—}}\\makebox[7.12mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.55mm][c]{\\smash{—}}\\makebox[7.06mm][c]{\\smash{\\ArabicRun{لر}37′}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.51mm][c]{\\smash{—}}\\makebox[7.01mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}",
+     "transcription": "Sagittarius | — | — | — | — | — | — | — | — | — | — | — | — | — | لر37′ | — | —",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0712-body-L013",
+     "source_line_no": 13,
+     "tex": "\\hspace*{0.0mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[17.69mm][l]{\\smash{Capricornus}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.61mm][c]{\\smash{—}}\\makebox[7.14mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.57mm][c]{\\smash{—}}\\makebox[7.09mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.59mm][c]{\\smash{—}}\\makebox[7.11mm][c]{\\smash{\\ArabicRun{ما}41′}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.54mm][c]{\\smash{—}}\\makebox[7.04mm][c]{\\smash{\\ArabicRun{مد}44′}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{1pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.63mm][c]{\\smash{—}}\\makebox[7.16mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.6mm][c]{\\smash{—}}\\makebox[7.12mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.55mm][c]{\\smash{—}}\\makebox[7.06mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.51mm][c]{\\smash{—}}\\makebox[7.01mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}",
+     "transcription": "Capricornus | — | — | — | — | — | ما41′ | — | مد44′ | — | — | — | — | — | — | — | —",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0712-body-L014",
+     "source_line_no": 14,
+     "tex": "\\hspace*{0.0mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[17.69mm][l]{\\smash{Aquarius}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.61mm][c]{\\smash{—}}\\makebox[7.14mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.57mm][c]{\\smash{—}}\\makebox[7.09mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.59mm][c]{\\smash{—}}\\makebox[7.11mm][c]{\\smash{\\ArabicRun{يد}14′}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.54mm][c]{\\smash{—}}\\makebox[7.04mm][c]{\\smash{\\ArabicRun{يد}14′}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{1pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.63mm][c]{\\smash{—}}\\makebox[7.16mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.6mm][c]{\\smash{—}}\\makebox[7.12mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.55mm][c]{\\smash{—}}\\makebox[7.06mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.51mm][c]{\\smash{—}}\\makebox[7.01mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}",
+     "transcription": "Aquarius | — | — | — | — | — | يد14′ | — | يد14′ | — | — | — | — | — | — | — | —",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0712-body-L015",
+     "source_line_no": 15,
+     "tex": "\\hspace*{0.0mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[17.69mm][l]{\\smash{Pisces}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.61mm][c]{\\smash{\\hspace*{1.6mm}\\ArabicRun{كا}21°}}\\makebox[7.14mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.57mm][c]{\\smash{—}}\\makebox[7.09mm][c]{\\smash{\\ArabicRun{نا}51′}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.59mm][c]{\\smash{—}}\\makebox[7.11mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.54mm][c]{\\smash{—}}\\makebox[7.04mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{1pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.63mm][c]{\\smash{—}}\\makebox[7.16mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.6mm][c]{\\smash{—}}\\makebox[7.12mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.55mm][c]{\\smash{—}}\\makebox[7.06mm][c]{\\smash{\\ArabicRun{ا} 1′}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.51mm][c]{\\smash{—}}\\makebox[7.01mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}",
+     "transcription": "Pisces | كا21° | — | — | نا51′ | — | — | — | — | — | — | — | — | — | ا 1′ | — | —",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0712-body-L016",
+     "source_line_no": 16,
+     "tex": "\\hspace*{0.0mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[144.36mm][c]{\\smash{\\textbf{\\Name{Mars.}}}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}",
+     "transcription": "**{sp:Mars.}**",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0712-body-L017",
+     "source_line_no": 17,
+     "tex": "\\hspace*{0.0mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[17.69mm][l]{\\smash{Aries}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.61mm][c]{\\smash{—}}\\makebox[7.14mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.57mm][c]{\\smash{—}}\\makebox[7.09mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.59mm][c]{\\smash{—}}\\makebox[7.11mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.54mm][c]{\\smash{—}}\\makebox[7.04mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{1pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.63mm][c]{\\smash{—}}\\makebox[7.16mm][c]{\\smash{\\ArabicRun{ر} 7′}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.6mm][c]{\\smash{—}}\\makebox[7.12mm][c]{\\smash{\\ArabicRun{ب} 2′}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.55mm][c]{\\smash{\\hspace*{1.6mm}\\ArabicRun{يه}15°}}\\makebox[7.06mm][c]{\\smash{\\ArabicRun{يب}12′}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.51mm][c]{\\smash{—}}\\makebox[7.01mm][c]{\\smash{12′}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}",
+     "transcription": "Aries | — | — | — | — | — | — | — | — | — | ر 7′ | — | ب 2′ | يه15° | يب12′ | — | 12′",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0712-body-L018",
+     "source_line_no": 18,
+     "tex": "\\hspace*{0.0mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[17.69mm][l]{\\smash{Taurus}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.61mm][c]{\\smash{—}}\\makebox[7.14mm][c]{\\smash{\\ArabicRun{ٮا}}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.57mm][c]{\\smash{—}}\\makebox[7.09mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.59mm][c]{\\smash{—}}\\makebox[7.11mm][c]{\\smash{\\ArabicRun{يا}11′}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.54mm][c]{\\smash{—}}\\makebox[7.04mm][c]{\\smash{11′}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{1pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.63mm][c]{\\smash{—}}\\makebox[7.16mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.6mm][c]{\\smash{—}}\\makebox[7.12mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.55mm][c]{\\smash{\\hspace*{1.6mm}\\ArabicRun{يو}16°}}\\makebox[7.06mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.51mm][c]{\\smash{—}}\\makebox[7.01mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}",
+     "transcription": "Taurus | — | ٮا | — | — | — | يا11′ | — | 11′ | — | — | — | — | يو16° | — | — | —",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0712-body-L019",
+     "source_line_no": 19,
+     "tex": "\\hspace*{0.0mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[17.69mm][l]{\\smash{Gemini}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.61mm][c]{\\smash{—}}\\makebox[7.14mm][c]{\\smash{\\ArabicRun{ٮد}}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.57mm][c]{\\smash{—}}\\makebox[7.09mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.59mm][c]{\\smash{—}}\\makebox[7.11mm][c]{\\smash{\\ArabicRun{يد}14′}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.54mm][c]{\\smash{—}}\\makebox[7.04mm][c]{\\smash{14′}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{1pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.63mm][c]{\\smash{—}}\\makebox[7.16mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.6mm][c]{\\smash{—}}\\makebox[7.12mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.55mm][c]{\\smash{—}}\\makebox[7.06mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.51mm][c]{\\smash{—}}\\makebox[7.01mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}",
+     "transcription": "Gemini | — | ٮد | — | — | — | يد14′ | — | 14′ | — | — | — | — | — | — | — | —",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0712-body-L020",
+     "source_line_no": 20,
+     "tex": "\\hspace*{0.0mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[17.69mm][l]{\\smash{Cancer}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.61mm][c]{\\smash{—}}\\makebox[7.14mm][c]{\\smash{\\ArabicRun{ٮه}}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.57mm][c]{\\smash{—}}\\makebox[7.09mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.59mm][c]{\\smash{—}}\\makebox[7.11mm][c]{\\smash{\\ArabicRun{يه}15′}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.54mm][c]{\\smash{—}}\\makebox[7.04mm][c]{\\smash{15′}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{1pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.63mm][c]{\\smash{—}}\\makebox[7.16mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.6mm][c]{\\smash{—}}\\makebox[7.12mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.55mm][c]{\\smash{—}}\\makebox[7.06mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.51mm][c]{\\smash{—}}\\makebox[7.01mm][c]{\\smash{\\ArabicRun{يد}14′}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}",
+     "transcription": "Cancer | — | ٮه | — | — | — | يه15′ | — | 15′ | — | — | — | — | — | — | — | يد14′",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0712-body-L021",
+     "source_line_no": 21,
+     "tex": "\\hspace*{0.0mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[17.69mm][l]{\\smash{Leo}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.61mm][c]{\\smash{—}}\\makebox[7.14mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.57mm][c]{\\smash{—}}\\makebox[7.09mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.59mm][c]{\\smash{—}}\\makebox[7.11mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.54mm][c]{\\smash{—}}\\makebox[7.04mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{1pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.63mm][c]{\\smash{—}}\\makebox[7.16mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.6mm][c]{\\smash{—}}\\makebox[7.12mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.55mm][c]{\\smash{—}}\\makebox[7.06mm][c]{\\smash{\\ArabicRun{يد}14′}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.51mm][c]{\\smash{—}}\\makebox[7.01mm][c]{\\smash{14′}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}",
+     "transcription": "Leo | — | — | — | — | — | — | — | — | — | — | — | — | — | يد14′ | — | 14′",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0712-body-L022",
+     "source_line_no": 22,
+     "tex": "\\hspace*{0.0mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[17.69mm][l]{\\smash{Virgo}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.61mm][c]{\\smash{—}}\\makebox[7.14mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.57mm][c]{\\smash{—}}\\makebox[7.09mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.59mm][c]{\\smash{—}}\\makebox[7.11mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.54mm][c]{\\smash{—}}\\makebox[7.04mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{1pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.63mm][c]{\\smash{—}}\\makebox[7.16mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.6mm][c]{\\smash{—}}\\makebox[7.12mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.55mm][c]{\\smash{—}}\\makebox[7.06mm][c]{\\smash{\\ArabicRun{يا}11′}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.51mm][c]{\\smash{—}}\\makebox[7.01mm][c]{\\smash{11′}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}",
+     "transcription": "Virgo | — | — | — | — | — | — | — | — | — | — | — | — | — | يا11′ | — | 11′",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0712-body-L023",
+     "source_line_no": 23,
+     "tex": "\\hspace*{0.0mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[17.69mm][l]{\\smash{Libra}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.61mm][c]{\\smash{—}}\\makebox[7.14mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.57mm][c]{\\smash{—}}\\makebox[7.09mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.59mm][c]{\\smash{—}}\\makebox[7.11mm][c]{\\smash{\\ArabicRun{يب}12′}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.54mm][c]{\\smash{—}}\\makebox[7.04mm][c]{\\smash{12′}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{1pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.63mm][c]{\\smash{—}}\\makebox[7.16mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.6mm][c]{\\smash{—}}\\makebox[7.12mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.55mm][c]{\\smash{—}}\\makebox[7.06mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.51mm][c]{\\smash{—}}\\makebox[7.01mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}",
+     "transcription": "Libra | — | — | — | — | — | يب12′ | — | 12′ | — | — | — | — | — | — | — | —",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0712-body-L024",
+     "source_line_no": 24,
+     "tex": "\\hspace*{0.0mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[17.69mm][l]{\\smash{Scorpius}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.61mm][c]{\\smash{—}}\\makebox[7.14mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.57mm][c]{\\smash{—}}\\makebox[7.09mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.59mm][c]{\\smash{—}}\\makebox[7.11mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.54mm][c]{\\smash{—}}\\makebox[7.04mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{1pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.63mm][c]{\\smash{—}}\\makebox[7.16mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.6mm][c]{\\smash{—}}\\makebox[7.12mm][c]{\\smash{\\ArabicRun{يا}11′}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.55mm][c]{\\smash{—}}\\makebox[7.06mm][c]{\\smash{\\ArabicRun{يا}11′}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.51mm][c]{\\smash{—}}\\makebox[7.01mm][c]{\\smash{11′}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}",
+     "transcription": "Scorpius | — | — | — | — | — | — | — | — | — | — | — | يا11′ | — | يا11′ | — | 11′",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0712-body-L025",
+     "source_line_no": 25,
+     "tex": "\\hspace*{0.0mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[17.69mm][l]{\\smash{Sagittarius}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.61mm][c]{\\smash{—}}\\makebox[7.14mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.57mm][c]{\\smash{—}}\\makebox[7.09mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.59mm][c]{\\smash{—}}\\makebox[7.11mm][c]{\\smash{\\ArabicRun{ر} 7′}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.54mm][c]{\\smash{—}}\\makebox[7.04mm][c]{\\smash{7′}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{1pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.63mm][c]{\\smash{—}}\\makebox[7.16mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.6mm][c]{\\smash{—}}\\makebox[7.12mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.55mm][c]{\\smash{—}}\\makebox[7.06mm][c]{\\smash{\\ArabicRun{يد}14′}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.51mm][c]{\\smash{—}}\\makebox[7.01mm][c]{\\smash{14′}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}",
+     "transcription": "Sagittarius | — | — | — | — | — | ر 7′ | — | 7′ | — | — | — | — | — | يد14′ | — | 14′",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0712-body-L026",
+     "source_line_no": 26,
+     "tex": "\\hspace*{0.0mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[17.69mm][l]{\\smash{Capricornus}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.61mm][c]{\\smash{—}}\\makebox[7.14mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.57mm][c]{\\smash{\\hspace*{1.6mm}\\ArabicRun{لح}38°}}\\makebox[7.09mm][c]{\\smash{\\ArabicRun{نه}55′}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.59mm][c]{\\smash{—}}\\makebox[7.11mm][c]{\\smash{\\ArabicRun{يه}15′}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.54mm][c]{\\smash{—}}\\makebox[7.04mm][c]{\\smash{15′}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{1pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.63mm][c]{\\smash{—}}\\makebox[7.16mm][c]{\\smash{\\ArabicRun{نه}55′}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.6mm][c]{\\smash{—}}\\makebox[7.12mm][c]{\\smash{55′}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.55mm][c]{\\smash{—}}\\makebox[7.06mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.51mm][c]{\\smash{—}}\\makebox[7.01mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}",
+     "transcription": "Capricornus | — | — | لح38° | نه55′ | — | يه15′ | — | 15′ | — | نه55′ | — | 55′ | — | — | — | —",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0712-body-L027",
+     "source_line_no": 27,
+     "tex": "\\hspace*{0.0mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[17.69mm][l]{\\smash{Aquarius}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.61mm][c]{\\smash{—}}\\makebox[7.14mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.57mm][c]{\\smash{—}}\\makebox[7.09mm][c]{\\smash{\\ArabicRun{ند}54′}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.59mm][c]{\\smash{—}}\\makebox[7.11mm][c]{\\smash{\\ArabicRun{ير}17′}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.54mm][c]{\\smash{—}}\\makebox[7.04mm][c]{\\smash{\\ArabicRun{يد}14′}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{1pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.63mm][c]{\\smash{—}}\\makebox[7.16mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.6mm][c]{\\smash{—}}\\makebox[7.12mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.55mm][c]{\\smash{—}}\\makebox[7.06mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.51mm][c]{\\smash{—}}\\makebox[7.01mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}",
+     "transcription": "Aquarius | — | — | — | ند54′ | — | ير17′ | — | يد14′ | — | — | — | — | — | — | — | —",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0712-body-L028",
+     "source_line_no": 28,
+     "tex": "\\hspace*{0.0mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[17.69mm][l]{\\smash{Pisces}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.61mm][c]{\\smash{\\hspace*{1.6mm}\\ArabicRun{كب}22°}}\\makebox[7.14mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.57mm][c]{\\smash{—}}\\makebox[7.09mm][c]{\\smash{\\ArabicRun{نا}51′}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.59mm][c]{\\smash{—}}\\makebox[7.11mm][c]{\\smash{\\ArabicRun{يا}11′}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.54mm][c]{\\smash{—}}\\makebox[7.04mm][c]{\\smash{11′}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{1pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.63mm][c]{\\smash{—}}\\makebox[7.16mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.6mm][c]{\\smash{—}}\\makebox[7.12mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.55mm][c]{\\smash{—}}\\makebox[7.06mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[5.51mm][c]{\\smash{—}}\\makebox[7.01mm][c]{\\smash{—}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}",
+     "transcription": "Pisces | كب22° | — | — | نا51′ | — | يا11′ | — | 11′ | — | — | — | — | — | — | — | —",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    }
+   ]
+  }
+ ]
+}

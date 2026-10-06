@@ -704,7 +704,8 @@ def section(items, prefix, role, numbered):
                 src = " ".join(c.strip().lstrip(">") for c in src.split("|") if c.strip())
             elif kind == "row":
                 tex = row_tex(src)
-                src = src.replace("~", "")
+                src = " | ".join(re.sub(r"^(?:>(?:\d+(?:\.\d+)?)? |_ )", "", c.strip())
+                                 for c in src.split("|")).replace("~", "")
             elif kind == "hrow":
                 tex = hrow_tex(src)
                 src = " | ".join(t for t, _ in span_cells(src.partition("|")[2]))
