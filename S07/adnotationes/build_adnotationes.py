@@ -12,15 +12,23 @@ Transcription format (UTF-8; one printed line per source line, as printed, with 
   @rule / @rule2         a short centred rule / the double rule across the text
   @blank                 the page is blank
   @verse H1 | H2         an Arabic verse, its two hemistichs in reading order (the first is set on the right)
+  @calc L | S | A | B | C | T   a line of a worked computation: label, sign, three numbers, tail (fixed columns;
+                         a label beginning with > is set flush right); @calcrule the rule under the numbers;
+                         @calcset INDENT LABEL SIGN NUM the column widths in mm
+  @cols INDENT C ...     the columns of a small table (widths in mm with l, r or c; | a vertical rule);
+  @row C1 | C2 | ...     one row of it (~ hangs a unit sign: 159~°; {brace2} a brace over two rows);
+                         @rowrule - | | - ... a rule under the columns marked -
   @raw ... @endraw       a LaTeX block passed through (tables, displayed formulas)
   @notes                 the footnotes follow, left column; @col switches to the right column; @notes1 one column
   @sig TEXT              the signature at the foot of the page
   @obs TEXT              an observation on the print (a letter that did not print, a broken sign), kept in the record
   ^ TEXT                 a line that begins a paragraph or a footnote (indented)
   % TEXT                 a comment, not printed
-Inline markup: *italic*, **bold**, {sp:Name} letter-spaced, {sc:...} small capitals, {sup:...} superscript,
+Inline markup: *italic*, **bold**, {gb:...} bold grotesque (the «Pag.» heads), {sp:Name} letter-spaced,
+{sc:...} small capitals, {sup:...} superscript,
 {sfrac:a/b} a small fraction, {0} the zero sign of the tables, {ar:...} an Arabic phrase with its own brackets and
-punctuation, set as one right-to-left run, \\* a literal asterisk; runs of Arabic, Greek, Hebrew
+punctuation, set as one right-to-left run, {rtl:...} a phrase of Arabic numerals and Latin words that the print sets
+right to left, given in reading order, \\* a literal asterisk; runs of Arabic, Greek, Hebrew
 and Syriac letters are set in their fonts. & % # are escaped; $...$ is mathematics; every other character is literal."""
 import csv, json, re
 from pathlib import Path
@@ -30,9 +38,9 @@ _AL = r"\u0600-\u065F\u066A-\u06EF\u06FA-\u06FF\u0750-\u077F\uFB50-\uFDFF\uFE70-
 ARABIC_RUN = re.compile(r"([" + _AL + r"]+(?:[ \u060C][" + _AL + r"]+)*)")
 _GR = r"\u0370-\u03FF\u1F00-\u1FFF"
 GREEK_RUN = re.compile(r"([" + _GR + r"](?:[" + _GR + r"\u0300-\u036F’ ,·]*[" + _GR + r"])?)")
-HEBREW_RUN = re.compile("([ְ-ׇא-תװ-״]+(?: [ְ-ׇא-תװ-״]+)*)")
-SYRIAC_RUN = re.compile("([܀-ݏ]+(?: [܀-ݏ]+)*)")
-ETHIOPIC_RUN = re.compile("([ሀ-፿]+(?: [ሀ-፿]+)*)")
+HEBREW_RUN = re.compile("([\u05B0-\u05C7\u05D0-\u05EA\u05F0-\u05F4]+(?: [\u05B0-\u05C7\u05D0-\u05EA\u05F0-\u05F4]+)*)")
+SYRIAC_RUN = re.compile("([\u0700-\u074F]+(?: [\u0700-\u074F]+)*)")
+ETHIOPIC_RUN = re.compile("([\u1200-\u137F]+(?: [\u1200-\u137F]+)*)")
 
 PREAMBLE = r"""\documentclass[11pt]{article}
 \usepackage[paperwidth=220mm,paperheight=320mm,left=16mm,right=16mm,top=18mm,bottom=18mm,headheight=16pt,headsep=10pt,footskip=14pt]{geometry}
@@ -43,11 +51,13 @@ PREAMBLE = r"""\documentclass[11pt]{article}
 \setmainlanguage{latin}
 \setotherlanguages{arabic,greek,hebrew,syriac}
 \setmainfont{Linux Libertine O}[Ligatures=TeX]
+\setsansfont{Linux Biolinum O}[Ligatures=TeX]
 \newfontfamily\greekfont{FreeSerif}[Script=Greek]
 \newfontfamily\arabicfont{Amiri}[Script=Arabic]
 \newfontfamily\hebrewfont{Frank Ruhl Hofshi}[Script=Hebrew]
 \newfontfamily\syriacfont{Segoe UI Historic}[Script=Syriac]
 \newfontfamily\CapFont{Noto Serif}
+\newfontfamily\MoonFont{FreeSerif}
 \newfontfamily\EthiopicFont{Ebrima}
 \newcommand{\textethiopic}[1]{{\EthiopicFont #1}}
 \newfontfamily\NallinoSigns{NallinoSigns.otf}[Path=./fonts/]
@@ -99,6 +109,23 @@ Haec transcriptio a nullo homine recognita est.\par
 """
 
 
+def rtl_phrase(s):
+    """{rtl:...}: a phrase of Arabic numerals and Latin words that the print sets right to left (\u00AB\u0642\u0646\u0637 pro \u0642\u0646\u062F\u00BB =
+    159 pro 154), given in reading order and set in visual order; a trailing punctuation mark of a word is set on
+    the visual right of the word read after it, as printed"""
+    words = s.split()
+    punct = [""] * (len(words) + 1)
+    for k, w in enumerate(words):
+        m = re.match(r"^(.*?)([;,.:]*)$", w)
+        words[k] = m.group(1)
+        punct[k + 1] += m.group(2)
+    vis = []
+    for k, w in enumerate(words):
+        t = r"\textarabic{" + w + "}" if ARABIC_RUN.search(w) else w
+        vis.append(t + punct[k])
+    return " ".join(reversed(vis)) + punct[len(words)]
+
+
 def markup(s):
     keep = []
 
@@ -106,10 +133,16 @@ def markup(s):
         keep.append(r"\textarabic{" + m.group(1) + "}")
         return f"\uE003{len(keep) - 1}\uE004"
 
+    def stash_rtl(m):
+        keep.append(rtl_phrase(m.group(1)))
+        return f"\uE003{len(keep) - 1}\uE004"
+
     s = re.sub(r"\{ar:([^}]*)\}", stash, s)
+    s = re.sub(r"\{rtl:([^}]*)\}", stash_rtl, s)
     s = s.replace("\\*", "\uE002").replace("&", r"\&").replace("%", r"\%").replace("#", r"\#")
     s = re.sub(r"\{sp:([^}]*)\}", r"\\Name{\1}", s)
     s = re.sub(r"\{sc:([^}]*)\}", r"\\textsc{\1}", s)
+    s = re.sub(r"\{gb:([^}]*)\}", r"\\textbf{\\textsf{\1}}", s)
     s = re.sub(r"\{sup:([^}]*)\}", r"\\textsuperscript{\1}", s)
     s = re.sub(r"\{sfrac:([^/}]+)/([^}]+)\}", r"$\\qfrac{\1}{\2}$", s)
     s = s.replace("{0}", "\uE001")
@@ -121,6 +154,7 @@ def markup(s):
     s = SYRIAC_RUN.sub(lambda m: r"\textsyriac{" + m.group(1) + "}", s)
     s = ETHIOPIC_RUN.sub(lambda m: r"\textethiopic{" + m.group(1) + "}", s)
     s = s.replace("⸿", r"{\CapFont ⸿}")  # the capitulum of the Spanish quotations
+    s = s.replace("☾", r"{\MoonFont ☾}").replace("⊙", r"{\MoonFont ⊙}")
     s = s.replace("\uE001", r"\AbjadZero{}").replace("\uE002", "*")
     return re.sub("\uE003(\\d+)\uE004", lambda m: keep[int(m.group(1))], s)
 
@@ -153,7 +187,8 @@ def parse(path):
                 rec["obs"].append(arg)
             elif cmd == "@blank":
                 rec["blank"] = True
-            elif cmd in ("@title", "@center", "@vspace", "@rule", "@rule2", "@verse"):
+            elif cmd in ("@title", "@center", "@vspace", "@rule", "@rule2", "@verse", "@calc", "@calcrule",
+                         "@calcset", "@cols", "@row", "@rowrule"):
                 rec[part].append((cmd[1:], arg))
             else:
                 raise SystemExit(f"{path.name}: unknown directive {cmd}")
@@ -164,11 +199,94 @@ def parse(path):
     return rec
 
 
+CALC_DEFAULT = {"indent": 30, "label": 74, "sign": 7, "num": 7}  # mm; @calcset INDENT LABEL SIGN NUM, per page
+CALC = dict(CALC_DEFAULT)
+
+
+def calc_cell(c):
+    """a number of a worked computation, right-aligned on its last digit; its unit sign hangs to the right"""
+    m = re.match(r"^(.*\d)(\D*)$", c)
+    if not m:
+        return r"\makebox[" + str(CALC["num"]) + "mm][r]{" + markup(c) + "}"
+    return r"\makebox[" + str(CALC["num"]) + "mm][r]{" + markup(m.group(1)) + r"}\rlap{" + markup(m.group(2)) + "}"
+
+
+def calc_tex(src):
+    """@calc LABEL | SIGN | A | B | C | TAIL: one line of a worked computation in fixed columns; a label that begins
+    with > is set flush right against the sign column"""
+    cells = [c.strip() for c in src.split("|")] + [""] * 6
+    label, sign, nums, tail = cells[0], cells[1], cells[2:5], cells[5]
+    right = label.startswith(">")
+    label = label[1:] if right else label
+    return (r"\hspace*{" + str(CALC["indent"]) + r"mm}\makebox[" + str(CALC["label"]) + "mm][" + ("r" if right else "l")
+            + "]{" + markup(label) + r"}\makebox[" + str(CALC["sign"]) + "mm][c]{" + markup(sign) + "}"
+            + "".join(calc_cell(c) for c in nums) + (r"\hspace{2.5mm}" + markup(tail) if tail else ""))
+
+
+COLS = {"indent": 0, "cols": []}
+BRACE2 = r"\smash{\raisebox{-6.9pt}{$\left\{\rule[-10pt]{0pt}{20pt}\right.$}}"  # a brace over this row and the next
+
+
+def set_cols(spec):
+    """@cols INDENT COL ...: the columns of the following @row lines; a column is a width in mm and an alignment
+    (12r, 30l, 6c), and | is a vertical rule"""
+    toks = spec.split()
+    COLS["indent"] = float(toks[0])
+    COLS["cols"] = [t if t == "|" else (float(t[:-1]), t[-1]) for t in toks[1:]]
+
+
+def row_tex(src):
+    """@row C1 | C2 | ...: one printed row of a small table, in the columns of @cols. In a cell, ~ separates the
+    number from a unit sign that hangs to its right (159~°); {brace2} is a brace over this row and the next"""
+    cells = [c.strip() for c in src.split("|")]
+    widths = [c for c in COLS["cols"] if c != "|"]
+    if len(cells) != len(widths):
+        raise SystemExit(f"@row has {len(cells)} cells for {len(widths)} columns: {src}")
+    out, k = [r"\hspace*{" + str(COLS["indent"]) + "mm}"], 0
+    for col in COLS["cols"]:
+        if col == "|":
+            out.append(r"\hspace{3mm}\rule[-\dp\strutbox]{.4pt}{\baselineskip}\hspace{2mm}")
+            continue
+        (w, a), c = col, cells[k]
+        k += 1
+        if c == "{brace2}":
+            out.append(r"\makebox[" + str(w) + "mm][" + a + "]{" + BRACE2 + "}")
+        elif "~" in c:
+            main, hang = c.split("~", 1)
+            out.append(r"\makebox[" + str(w) + "mm][" + a + "]{" + markup(main) + r"\rlap{" + markup(hang) + "}}")
+        else:  # smashed, so that a tall Arabic numeral does not open the line and break the vertical rules
+            out.append(r"\makebox[" + str(w) + "mm][" + a + r"]{\smash{" + markup(c) + "}}")
+    return "".join(out)
+
+
+def rowrule_tex(src):
+    """@rowrule - | - | | ...: a rule under each column of the @cols marked with -, between two rows"""
+    cells = [c.strip() for c in src.split("|")]
+    widths = [c for c in COLS["cols"] if c != "|"]
+    if len(cells) != len(widths):
+        raise SystemExit(f"@rowrule has {len(cells)} cells for {len(widths)} columns: {src}")
+    out, k = [r"\par\nointerlineskip\vspace{1pt}\noindent\hspace*{" + str(COLS["indent"]) + "mm}"], 0
+    for col in COLS["cols"]:
+        if col == "|":
+            out.append(r"\hspace{5.4mm}")
+            continue
+        w = col[0]
+        out.append((r"\rule{" if cells[k] == "-" else r"\hspace{") + str(w) + ("mm}{.4pt}" if cells[k] == "-" else "mm}"))
+        k += 1
+    return "".join(out) + r"\par\nointerlineskip\vspace{2pt}"
+
+
 def section(items, prefix, role, numbered):
     """the TeX of one section and its line records"""
     out, recs, n, par, tab = [], [], 0, 0, 0
     for kind, text in items:
-        if kind in ("line", "center", "title", "verse"):
+        if kind == "cols":
+            set_cols(text)
+            continue
+        if kind == "rowrule":
+            out.append(rowrule_tex(text))
+            continue
+        if kind in ("line", "center", "title", "verse", "calc", "row"):
             n += 1
             lid = f"{prefix}-{role}-L{n:03d}"
             src = text[2:] if kind == "line" and text.startswith("^ ") else text
@@ -176,6 +294,11 @@ def section(items, prefix, role, numbered):
                 h1, h2 = [h.strip() for h in src.split("|")]
                 tex = (r"\CenterLine{\makebox[56mm][c]{\textarabic{" + h2 + r"}}\hspace{8mm}\makebox[56mm][c]{"
                        r"\textarabic{" + h1 + "}}}")
+            elif kind == "calc":
+                tex = calc_tex(src)
+                src = " ".join(c.strip().lstrip(">") for c in src.split("|") if c.strip())
+            elif kind == "row":
+                tex = row_tex(src)
             else:
                 tex = markup(src)
             sem = None
@@ -199,6 +322,12 @@ def section(items, prefix, role, numbered):
             recs.append({"id": lid, "source_line_no": n if numbered else None, "tex": tex, "transcription": src,
                          "semantic_anchor": sem,
                          "source_role": "NALLINO_ADNOTATIONES" if role == "body" else "NALLINO_APPARATUS"})
+        elif kind == "calcset":
+            CALC.update(zip(("indent", "label", "sign", "num"), (float(x) for x in text.split())))
+        elif kind == "calcrule":  # the rule under the three number columns of a worked computation
+            out.append(r"\par\nointerlineskip\vspace{1pt}\noindent\hspace*{" + str(CALC["indent"] + CALC["label"]
+                                                                                  + CALC["sign"])
+                       + r"mm}\rule{" + str(3 * CALC["num"] + 1) + r"mm}{.4pt}\par\nointerlineskip\vspace{2pt}")
         elif kind == "vspace":
             out.append(r"\par\vspace{" + text + "mm}")
         elif kind == "rule":
@@ -215,6 +344,9 @@ def section(items, prefix, role, numbered):
 
 
 def page(rec):
+    CALC.clear()
+    CALC.update(CALC_DEFAULT)
+    COLS.update({"indent": 0, "cols": []})
     prefix = f"AB01-PDF{rec['pdf']:04d}"
     out = [r"\DSource{" + f"{rec['pdf']:04d}" + "}{" + str(rec["pp"]) + "}"]
     sections = []
