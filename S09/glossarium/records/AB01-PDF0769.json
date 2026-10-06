@@ -1,0 +1,437 @@
+{
+ "anchor": "AB01-PDF0769",
+ "master_pdf_page": 769,
+ "printed_page": 320,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "observations": [
+  "body L2: the letters of the figures, «اب», «ج د» and «ب ج», are printed with a line over them.",
+  "body L9, L12, L13, L18, L19, L21, L22, L30: «ثلثة» (L9), «درجةً» (L12), «ستّة» (L13, the first), «ساعة» (L18), «وثُمْن» (L19), «مطالع» (L21), «مطلع» (L22, the first) and «هذا» (L30, the second) are printed with elongated joins (kashīda), not transcribed.",
+  "body L9: «فٱضْرِبْها» and «وٱقْسِمْه» are printed with the sign of waṣla over the alif (ٱ).",
+  "body L14: «١٧٤» is printed without a line number.",
+  "body L19-L20: the passage «ساعة ٨٦17; خُمْس وسُدْس يوم ١٠١7, ١٠٤10; بسُدْس وثُمْن» is printed twice: at the end of L19 (after «ثُلْث ورُبْع») and at the beginning of L20 (followed by «الفضل»); transcribed as printed.",
+  "notes_left L2, notes_right L3, notes_right L7: «ذلك» (left L2), «عند» (right L3), «دائرة» and «اجزاء» (right L7) are printed with elongated joins (kashīda), not transcribed."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0769-body-L001",
+     "source_line_no": 1,
+     "tex": "\\Indent Litterae quibus puncta, lineae, arcus, figurae geometricae designantur, in genetivo epe-",
+     "transcription": "Litterae quibus puncta, lineae, arcus, figurae geometricae designantur, in genetivo epe-",
+     "semantic_anchor": "AB01-PDF0769-P01",
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0769-body-L002",
+     "source_line_no": 2,
+     "tex": "xegetico (\\ArabicRun{اضافة تفسيريّة}) censentur; ergo \\ArabicRun{قوْسَا \\ArOver{اب} و \\ArOver{ج د}}, \\ArabicRun{خطُّ \\ArOver{ب ج}} etc., ut semper apud ma-",
+     "transcription": "xegetico ({ar:اضافة تفسيريّة}) censentur; ergo {ar:قوْسَا {ov:اب} و {ov:ج د}}, {ar:خطُّ {ov:ب ج}} etc., ut semper apud ma-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0769-body-L003",
+     "source_line_no": 3,
+     "tex": "thematicos. — Annexiones impropriae quas grammatici in numeris cardinalibus memorant (1),",
+     "transcription": "thematicos. — Annexiones impropriae quas grammatici in numeris cardinalibus memorant (1),",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0769-body-L004",
+     "source_line_no": 4,
+     "tex": "etiam cum fractionibus invenimus: \\ArabicRun{الربْع يوم} {\\arabicfont ٦٢}\\textsubscript{12}, {\\arabicfont ١٩١}\\textsubscript{6}; \\ArabicRun{الربْع اليوم} {\\arabicfont ٦١}\\textsubscript{18}, {\\arabicfont ٦٢}\\textsubscript{13}, {\\arabicfont ٦٣}\\textsubscript{5, 18, 21}, {\\arabicfont ١٩٣}\\textsubscript{4}; \\ArabicRun{الخُمْسَيْ}",
+     "transcription": "etiam cum fractionibus invenimus: {ar:الربْع يوم} ٦٢{sub:12}, ١٩١{sub:6}; {ar:الربْع اليوم} ٦١{sub:18}, ٦٢{sub:13}, ٦٣{sub:5, 18, 21}, ١٩٣{sub:4}; {ar:الخُمْسَيْ}",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0769-body-L005",
+     "source_line_no": 5,
+     "tex": "\\ArabicRun{ساعة} {\\arabicfont ٦٣}\\textsubscript{18}; \\ArabicRun{الثُّلْثَيْ يوم والربْع يوم} {\\arabicfont ٦٣}\\textsubscript{3}; \\ArabicRun{النصف والربْع ساعة} {\\arabicfont ٦٥}\\textsubscript{9-10}; \\ArabicRun{الثُّلْث عُشْرٍ} {\\arabicfont ٩١}\\textsubscript{21}; \\ArabicRun{ذلك النصف السدس}",
+     "transcription": "{ar:ساعة} ٦٣{sub:18}; {ar:الثُّلْثَيْ يوم والربْع يوم} ٦٣{sub:3}; {ar:النصف والربْع ساعة} ٦٥{sub:9-10}; {ar:الثُّلْث عُشْرٍ} ٩١{sub:21}; {ar:ذلك النصف السدس}",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0769-body-L006",
+     "source_line_no": 6,
+     "tex": "{\\arabicfont ١٣٢}\\textsubscript{2} (2). — Aliae quoque constructiones vix regulares cum numeris occurrunt: \\ArabicRun{تلك السبعة}",
+     "transcription": "١٣٢{sub:2} (2). — Aliae quoque constructiones vix regulares cum numeris occurrunt: {ar:تلك السبعة}",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0769-body-L007",
+     "source_line_no": 7,
+     "tex": "\\ArabicRun{الاجزاء وثلثي جزء} {\\arabicfont ١٨٢}\\textsubscript{18}; \\ArabicRun{على المائتين وواحد ونصف} {\\arabicfont ١٨٣}\\textsubscript{5}; \\ArabicRun{على المائتين والواحد ونصف} {\\arabicfont ١٨٤}\\textsubscript{15}; \\ArabicRun{على المائتين}",
+     "transcription": "{ar:الاجزاء وثلثي جزء} ١٨٢{sub:18}; {ar:على المائتين وواحد ونصف} ١٨٣{sub:5}; {ar:على المائتين والواحد ونصف} ١٨٤{sub:15}; {ar:على المائتين}",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0769-body-L008",
+     "source_line_no": 8,
+     "tex": "\\ArabicRun{وواحد ونصف الذي هو قُطْر الارض} {\\arabicfont ١٨٥}\\textsubscript{3}. Interdum numeri per se ipsos determinati censentur, ar-",
+     "transcription": "{ar:وواحد ونصف الذي هو قُطْر الارض} ١٨٥{sub:3}. Interdum numeri per se ipsos determinati censentur, ar-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0769-body-L009",
+     "source_line_no": 9,
+     "tex": "ticulo omisso: \\ArabicRun{فٱضْرِبْها في ثلثة اجزاء وثماني دقائق ونصف التي هي قدر} {\\arabicfont ١٤٩}\\textsubscript{14}; \\ArabicRun{وٱقْسِمْه على سبعة}",
+     "transcription": "ticulo omisso: {ar:فٱضْرِبْها في ثلثة اجزاء وثماني دقائق ونصف التي هي قدر} ١٤٩{sub:14}; {ar:وٱقْسِمْه على سبعة}",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0769-body-L010",
+     "source_line_no": 10,
+     "tex": "\\ArabicRun{وسبعين التي هي قطر الظلّ} {\\arabicfont ١٤٩}\\textsubscript{16}; \\ArabicRun{فزِدْها على احدى وثلثين اصبعًا وخُمْس اصبع التي هي اقلّ قطر الظلّ}",
+     "transcription": "{ar:وسبعين التي هي قطر الظلّ} ١٤٩{sub:16}; {ar:فزِدْها على احدى وثلثين اصبعًا وخُمْس اصبع التي هي اقلّ قطر الظلّ}",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0769-body-L011",
+     "source_line_no": 11,
+     "tex": "{\\arabicfont ١٤٩}\\textsubscript{17}. — Distributiva per numeri repetitionem multifarie exprimuntur: \\ArabicRun{اربعةً اربعةً} {\\arabicfont ١٩٣}\\textsubscript{5}; \\ArabicRun{سبعةً}",
+     "transcription": "١٤٩{sub:17}. — Distributiva per numeri repetitionem multifarie exprimuntur: {ar:اربعةً اربعةً} ١٩٣{sub:5}; {ar:سبعةً}",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0769-body-L012",
+     "source_line_no": 12,
+     "tex": "\\ArabicRun{سبعةً} {\\arabicfont ١٠١}\\textsubscript{15, 20}, {\\arabicfont ١٠٢}\\textsubscript{3, 6, 9, 13, 16}; \\ArabicRun{سبعةً بسبعةٍ} {\\arabicfont ١١٠}\\textsubscript{10}; \\ArabicRun{درجةً بدرجة} {\\arabicfont ٢٠}\\textsubscript{22}, {\\arabicfont ١١٣}\\textsubscript{9}; \\ArabicRun{لدرجة درجة} {\\arabicfont ١٨}\\textsubscript{18}, {\\arabicfont ٤٠}\\textsubscript{4};",
+     "transcription": "{ar:سبعةً} ١٠١{sub:15, 20}, ١٠٢{sub:3, 6, 9, 13, 16}; {ar:سبعةً بسبعةٍ} ١١٠{sub:10}; {ar:درجةً بدرجة} ٢٠{sub:22}, ١١٣{sub:9}; {ar:لدرجة درجة} ١٨{sub:18}, ٤٠{sub:4};",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0769-body-L013",
+     "source_line_no": 13,
+     "tex": "\\ArabicRun{المتفاضلة بعشرين عشرين} {\\arabicfont ١٠٦}\\textsubscript{9}; \\ArabicRun{المتفاضلة ثلاثين ثلاثين} {\\arabicfont ١٠٧}\\textsubscript{6}; \\ArabicRun{المتفاضلين بستّة ستّة اجزاء} {\\arabicfont ١٧٣}\\textsubscript{13};",
+     "transcription": "{ar:المتفاضلة بعشرين عشرين} ١٠٦{sub:9}; {ar:المتفاضلة ثلاثين ثلاثين} ١٠٧{sub:6}; {ar:المتفاضلين بستّة ستّة اجزاء} ١٧٣{sub:13};",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0769-body-L014",
+     "source_line_no": 14,
+     "tex": "\\ArabicRun{المتفاضليْن بستّة اجزاء ستّة اجزاء} {\\arabicfont ١٧٤}; \\ArabicRun{تفاضُل عشرة عشرة اجزاء} {\\arabicfont ٢٢٥}\\textsubscript{17}; \\ArabicRun{ثلثين ثلثين} {\\arabicfont ٢١٩}\\textsubscript{7}; \\ArabicRun{وأَسْقِطْها}",
+     "transcription": "{ar:المتفاضليْن بستّة اجزاء ستّة اجزاء} ١٧٤; {ar:تفاضُل عشرة عشرة اجزاء} ٢٢٥{sub:17}; {ar:ثلثين ثلثين} ٢١٩{sub:7}; {ar:وأَسْقِطْها}",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0769-body-L015",
+     "source_line_no": 15,
+     "tex": "\\ArabicRun{مائتين وعشر مائتين وعشر} {\\arabicfont ٢١٨}\\textsubscript{12}; \\ArabicRun{فأَلْقِهِ ثمانية وعشرين ثمانية وعشرين} {\\arabicfont ٢١٩}\\textsubscript{16}.",
+     "transcription": "{ar:مائتين وعشر مائتين وعشر} ٢١٨{sub:12}; {ar:فأَلْقِهِ ثمانية وعشرين ثمانية وعشرين} ٢١٩{sub:16}.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0769-body-L016",
+     "source_line_no": 16,
+     "tex": "\\Indent Genetivus a duobus vel tribus nominibus simul pendens invenitur non raro in fractionibus",
+     "transcription": "Genetivus a duobus vel tribus nominibus simul pendens invenitur non raro in fractionibus",
+     "semantic_anchor": "AB01-PDF0769-P02",
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0769-body-L017",
+     "source_line_no": 17,
+     "tex": "designandis, licet regularior constructio frequens sit: \\ArabicRun{نصف ورُبْع ساعة} {\\arabicfont ٦٣}\\textsubscript{13}, {\\arabicfont ٦٥}\\textsubscript{2}, {\\arabicfont ٨٦}\\textsubscript{13}; \\ArabicRun{نصف ورُبْع}",
+     "transcription": "designandis, licet regularior constructio frequens sit: {ar:نصف ورُبْع ساعة} ٦٣{sub:13}, ٦٥{sub:2}, ٨٦{sub:13}; {ar:نصف ورُبْع}",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0769-body-L018",
+     "source_line_no": 18,
+     "tex": "\\ArabicRun{دقيقة} {\\arabicfont ٦٨}\\textsubscript{10}; \\ArabicRun{نصف ورُبْع جزء} {\\arabicfont ٨٣}\\textsubscript{3}; \\ArabicRun{نصف ورُبْع يوم} {\\arabicfont ٦٣}\\textsubscript{2, 16}; \\ArabicRun{نصف وثُلْث يوم} {\\arabicfont ٦٣}\\textsubscript{1}; \\ArabicRun{نصف وثُلْث ساعة}",
+     "transcription": "{ar:دقيقة} ٦٨{sub:10}; {ar:نصف ورُبْع جزء} ٨٣{sub:3}; {ar:نصف ورُبْع يوم} ٦٣{sub:2, 16}; {ar:نصف وثُلْث يوم} ٦٣{sub:1}; {ar:نصف وثُلْث ساعة}",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0769-body-L019",
+     "source_line_no": 19,
+     "tex": "{\\arabicfont ٨٥}\\textsubscript{21}; \\ArabicRun{نصف وثُلْث قُطْره} {\\arabicfont ٨٦}\\textsubscript{7}, {\\arabicfont ٨٧}\\textsubscript{1}; \\ArabicRun{ثُلْث ورُبْع ساعة} {\\arabicfont ٨٦}\\textsubscript{17}; \\ArabicRun{خُمْس وسُدْس يوم} {\\arabicfont ١٠١}\\textsubscript{7}, {\\arabicfont ١٠٤}\\textsubscript{10}; \\ArabicRun{بسُدْس وثُمْن}",
+     "transcription": "٨٥{sub:21}; {ar:نصف وثُلْث قُطْره} ٨٦{sub:7}, ٨٧{sub:1}; {ar:ثُلْث ورُبْع ساعة} ٨٦{sub:17}; {ar:خُمْس وسُدْس يوم} ١٠١{sub:7}, ١٠٤{sub:10}; {ar:بسُدْس وثُمْن}",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0769-body-L020",
+     "source_line_no": 20,
+     "tex": "\\ArabicRun{ساعة} {\\arabicfont ٨٦}\\textsubscript{17}; \\ArabicRun{خُمْس وسُدْس يوم} {\\arabicfont ١٠١}\\textsubscript{7}, {\\arabicfont ١٠٤}\\textsubscript{10}; \\ArabicRun{بسُدْس وثُمْن الفضل} {\\arabicfont ١٤٤}\\textsubscript{7, 14}; \\ArabicRun{نصف وسُدْس دقيقة} {\\arabicfont ١٨٢}\\textsubscript{19}; \\ArabicRun{نصف}",
+     "transcription": "{ar:ساعة} ٨٦{sub:17}; {ar:خُمْس وسُدْس يوم} ١٠١{sub:7}, ١٠٤{sub:10}; {ar:بسُدْس وثُمْن الفضل} ١٤٤{sub:7, 14}; {ar:نصف وسُدْس دقيقة} ١٨٢{sub:19}; {ar:نصف}",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0769-body-L021",
+     "source_line_no": 21,
+     "tex": "\\ArabicRun{وثُلْث وثُمْن قطره} {\\arabicfont ٨٦}\\textsubscript{12}. Sed praeter fractionum usum, haec tantum exempla rei inveni: \\ArabicRun{مطالع}",
+     "transcription": "{ar:وثُلْث وثُمْن قطره} ٨٦{sub:12}. Sed praeter fractionum usum, haec tantum exempla rei inveni: {ar:مطالع}",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0769-body-L022",
+     "source_line_no": 22,
+     "tex": "\\ArabicRun{ومغارب البروج} {\\arabicfont ١٢٩}\\textsubscript{11}, {\\arabicfont ١٣٠}\\textsubscript{11}, {\\arabicfont ١٣٢}\\textsubscript{14}, {\\arabicfont ٢٤٣}\\textsubscript{1}; \\ArabicRun{سمت مطلع ومغيب غير هاتين النقطتين} {\\arabicfont ٢٩}\\textsubscript{18}; \\ArabicRun{سمت مطلع}",
+     "transcription": "{ar:ومغارب البروج} ١٢٩{sub:11}, ١٣٠{sub:11}, ١٣٢{sub:14}, ٢٤٣{sub:1}; {ar:سمت مطلع ومغيب غير هاتين النقطتين} ٢٩{sub:18}; {ar:سمت مطلع}",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0769-body-L023",
+     "source_line_no": 23,
+     "tex": "\\ArabicRun{ومغيب ايّ درجة شِئْتَ} {\\arabicfont ٣٠}\\textsubscript{1} (3).",
+     "transcription": "{ar:ومغيب ايّ درجة شِئْتَ} ٣٠{sub:1} (3).",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0769-body-L024",
+     "source_line_no": 24,
+     "tex": "\\Indent \\ArabicRun{مَا} « quilibet, quicumque, quodlibet » etc., haud infrequens apud mathematicos, raro adhi-",
+     "transcription": "{ar:مَا} « quilibet, quicumque, quodlibet » etc., haud infrequens apud mathematicos, raro adhi-",
+     "semantic_anchor": "AB01-PDF0769-P03",
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0769-body-L025",
+     "source_line_no": 25,
+     "tex": "betur: \\ArabicRun{دائرة ما} {\\arabicfont ١٣}\\textsubscript{18}.",
+     "transcription": "betur: {ar:دائرة ما} ١٣{sub:18}.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0769-body-L026",
+     "source_line_no": 26,
+     "tex": "\\Indent Bis \\ArabicRun{مِنْ} occurrit ubi simplex genetivus exspectandus: \\ArabicRun{التي هي قدر الدائرة من القمر} « quae",
+     "transcription": "Bis {ar:مِنْ} occurrit ubi simplex genetivus exspectandus: {ar:التي هي قدر الدائرة من القمر} « quae",
+     "semantic_anchor": "AB01-PDF0769-P04",
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0769-body-L027",
+     "source_line_no": 27,
+     "tex": "« est quantitas disci lunaris » ({\\arabicfont ١٤٩}\\textsubscript{14}); \\ArabicRun{فهو سهم الدائرة من الظلّ} « ipsa fit sagitta circuli umbrae »",
+     "transcription": "« est quantitas disci lunaris » (١٤٩{sub:14}); {ar:فهو سهم الدائرة من الظلّ} « ipsa fit sagitta circuli umbrae »",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0769-body-L028",
+     "source_line_no": 28,
+     "tex": "({\\arabicfont ١٥٠}\\textsubscript{3-4}). Sed fortasse id ab amanuensi provenit qui \\ArabicRun{الدائرة} cum articulo incaute scriptum delere",
+     "transcription": "(١٥٠{sub:3-4}). Sed fortasse id ab amanuensi provenit qui {ar:الدائرة} cum articulo incaute scriptum delere",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0769-body-L029",
+     "source_line_no": 29,
+     "tex": "noluit, et per \\ArabicRun{من} rectam constructionem servare putavit. — Ad designandam comparationem",
+     "transcription": "noluit, et per {ar:من} rectam constructionem servare putavit. — Ad designandam comparationem",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0769-body-L030",
+     "source_line_no": 30,
+     "tex": "loci adhibetur p. {\\arabicfont ٢٧٣}: \\ArabicRun{المقدّم من هذا} « quae hanc praecedit », \\ArabicRun{الكوكب الباقي الجنوبيّ من هذا}",
+     "transcription": "loci adhibetur p. ٢٧٣: {ar:المقدّم من هذا} « quae hanc praecedit », {ar:الكوكب الباقي الجنوبيّ من هذا}",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0769-body-L031",
+     "source_line_no": 31,
+     "tex": "« stella reliqua ab austro huius ».",
+     "transcription": "« stella reliqua ab austro huius ».",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0769-body-L032",
+     "source_line_no": 32,
+     "tex": "\\Indent Memoratu digna superlativa \\ArabicRun{اطول ما يكون} {\\arabicfont ٣٢}\\textsubscript{14}; \\ArabicRun{اقصر ما يكون} ibid.; \\ArabicRun{اتمّ ما يكون} {\\arabicfont ٨٣}\\textsubscript{11}, {\\arabicfont ١٤٦}\\textsubscript{13};",
+     "transcription": "Memoratu digna superlativa {ar:اطول ما يكون} ٣٢{sub:14}; {ar:اقصر ما يكون} ibid.; {ar:اتمّ ما يكون} ٨٣{sub:11}, ١٤٦{sub:13};",
+     "semantic_anchor": "AB01-PDF0769-P05",
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0769-body-L033",
+     "source_line_no": 33,
+     "tex": "\\ArabicRun{اكثر ما يكون} {\\arabicfont ٩٥}\\textsubscript{9}; de quibus v. \\Name{Fleischer}, \\textit{Klein. Schr.}, I, 475-477.",
+     "transcription": "{ar:اكثر ما يكون} ٩٥{sub:9}; de quibus v. {sp:Fleischer}, *Klein. Schr.*, I, 475-477.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    }
+   ]
+  },
+  {
+   "role": "notes_left",
+   "lines": [
+    {
+     "id": "AB01-PDF0769-notes_left-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (1) \\Name{Fleischer}, \\textit{Kleinere Schriften}, II, 48-54.",
+     "transcription": "(1) {sp:Fleischer}, *Kleinere Schriften*, II, 48-54.",
+     "semantic_anchor": "AB01-PDF0769-N01",
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0769-notes_left-L002",
+     "source_line_no": null,
+     "tex": "\\Indent (2) \\Name{Ḥabash}, f. 124,r.: \\ArabicRun{معرفة ذلك بالنصف}",
+     "transcription": "(2) {sp:Ḥabash}, f. 124,r.: {ar:معرفة ذلك بالنصف}",
+     "semantic_anchor": "AB01-PDF0769-N02",
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0769-notes_left-L003",
+     "source_line_no": null,
+     "tex": "\\ArabicRun{سدس}.",
+     "transcription": "{ar:سدس}.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0769-notes_left-L004",
+     "source_line_no": null,
+     "tex": "\\Indent (3) Cfr. \\Name{Wright}\\textsuperscript{3}, II, 201 (§ 78, rem. \\textit{b}); \\Name{Ver-}",
+     "transcription": "(3) Cfr. {sp:Wright}{sup:3}, II, 201 (§ 78, rem. *b*); {sp:Ver-}",
+     "semantic_anchor": "AB01-PDF0769-N03",
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0769-notes_left-L005",
+     "source_line_no": null,
+     "tex": "\\Name{nier}, II, 200-201 (iuxta al-Ushmūnī et aṣ-Ṣabbān",
+     "transcription": "{sp:nier}, II, 200-201 (iuxta al-Ushmūnī et aṣ-Ṣabbān",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0769-notes_left-L006",
+     "source_line_no": null,
+     "tex": "grammaticos); \\Name{Fleischer}, \\textit{Klein. Schr.}, I, 624-",
+     "transcription": "grammaticos); {sp:Fleischer}, *Klein. Schr.*, I, 624-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0769-notes_left-L007",
+     "source_line_no": null,
+     "tex": "625 (qui unum exemplum e Kitāb al-Fihrist adducit,",
+     "transcription": "625 (qui unum exemplum e Kitāb al-Fihrist adducit,",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0769-notes_left-L008",
+     "source_line_no": null,
+     "tex": "reliqua vero e tardae aetatis scriptoribus, ut an-Na-",
+     "transcription": "reliqua vero e tardae aetatis scriptoribus, ut an-Na-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0769-notes_left-L009",
+     "source_line_no": null,
+     "tex": "wawī et al-Maqqarī). Alia exempla apud \\Name{Ḥamzah}",
+     "transcription": "wawī et al-Maqqarī). Alia exempla apud {sp:Ḥamzah}",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  },
+  {
+   "role": "notes_right",
+   "lines": [
+    {
+     "id": "AB01-PDF0769-notes_right-L001",
+     "source_line_no": null,
+     "tex": "\\Name{al-Iṣfahānī} ed. Gottwaldt, p. 9 (l. 1 et 3), p. 200",
+     "transcription": "{sp:al-Iṣfahānī} ed. Gottwaldt, p. 9 (l. 1 et 3), p. 200",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0769-notes_right-L002",
+     "source_line_no": null,
+     "tex": "(l. 6-7: \\ArabicRun{كانوا يسمونها سني وادوار الهزارات}); \\Name{Ḥa-}",
+     "transcription": "(l. 6-7: {ar:كانوا يسمونها سني وادوار الهزارات}); {sp:Ḥa-}",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0769-notes_right-L003",
+     "source_line_no": null,
+     "tex": "\\Name{bash}, f. 68,v. (\\ArabicRun{عند تشاريق او تغاريب ظهور}",
+     "transcription": "{sp:bash}, f. 68,v. ({ar:عند تشاريق او تغاريب ظهور}",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0769-notes_right-L004",
+     "source_line_no": null,
+     "tex": "\\ArabicRun{الكوكب}), f. 94,r. et 162,v. (\\ArabicRun{عن مطلع ومغرب الاعتدال}),",
+     "transcription": "{ar:الكوكب}), f. 94,r. et 162,v. ({ar:عن مطلع ومغرب الاعتدال}),",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0769-notes_right-L005",
+     "source_line_no": null,
+     "tex": "f. 106,r. (\\ArabicRun{معرفة درجة طول وعرض الكوكب}), f. 124,v.",
+     "transcription": "f. 106,r. ({ar:معرفة درجة طول وعرض الكوكب}), f. 124,v.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0769-notes_right-L006",
+     "source_line_no": null,
+     "tex": "(\\ArabicRun{فتخرج دقائق وثواني مسير ساعة القمر}), f. 145,v.",
+     "transcription": "({ar:فتخرج دقائق وثواني مسير ساعة القمر}), f. 145,v.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0769-notes_right-L007",
+     "source_line_no": null,
+     "tex": "(\\ArabicRun{اجزاء ودقائق تعديل تكسير سطح دائرة القمر}), f.",
+     "transcription": "({ar:اجزاء ودقائق تعديل تكسير سطح دائرة القمر}), f.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0769-notes_right-L008",
+     "source_line_no": null,
+     "tex": "164,v. (\\ArabicRun{مطلع او مغرب راس الحمل}).",
+     "transcription": "164,v. ({ar:مطلع او مغرب راس الحمل}).",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  }
+ ]
+}

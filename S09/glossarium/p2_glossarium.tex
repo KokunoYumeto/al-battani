@@ -34,8 +34,11 @@
 \tracinglostchars=2
 \newcommand{\Name}[1]{{\addfontfeatures{LetterSpace=4.0}#1}}
 \newcommand{\Indent}{\hspace*{1.6em}}
-% an Arabic run inside a Latin line: its descenders do not open the line (the printed lines are evenly spaced)
-\newcommand{\ArabicRun}[1]{\smash[b]{\textarabic{#1}}}
+% an Arabic run inside a Latin line takes no height or depth: the lines are set at their printed baselines
+% (@baselines), which the vowel signs of the Arabic open unevenly
+\newcommand{\ArabicRun}[1]{\smash{\textarabic{#1}}}
+% letters of a geometrical figure, overlined as printed (the line stands 9.3-9.7 pt above the baseline)
+\newcommand{\ArOver}[1]{\vbox{\hrule height .4pt\kern 1.2pt\hbox{\rule{0pt}{8.1pt}#1}}}
 \newcommand{\qfrac}[2]{{}^{#1}\!/_{{#2}}}
 \newcommand{\sa}{\textsuperscript{\textit{a}}}\newcommand{\sm}{\textsuperscript{\textit{m}}}\newcommand{\sd}{\textsuperscript{\textit{d}}}
 \newcommand{\RawBlock}[1]{\par\vspace{3pt}\noindent#1\par\vspace{3pt}}
@@ -61,7 +64,7 @@
 \thispagestyle{empty}
 \begin{center}\Large AL-BATTĀNĪ\par\vspace{4mm}\LARGE OPUS ASTRONOMICUM\par
 \vspace{5mm}\large Caroli Alphonsi Nallino glossarium (pars II)\par\vspace{8mm}
-\Large S09 --- editio diplomatica in progressu\par\vspace{4mm}\large Paginae impressae 319--319\end{center}
+\Large S09 --- editio diplomatica in progressu\par\vspace{4mm}\large Paginae impressae 319--320\end{center}
 \vspace{12mm}\noindent Singulae lineae paginarum impressarum singulis lineis huius editionis respondent, cum
 divisionibus vocabulorum, signis et generibus litterarum (rectis, inclinatis, distantibus). Textus ex imaginibus
 paginarum transcriptus est; litterae Graecae et Arabicae, numeri et signa in imaginibus amplificatis lecta sunt.
@@ -75,44 +78,173 @@ Haec transcriptio a nullo homine recognita est.\par
 \par\vspace{24.57mm}
 \hypertarget{AB01-PDF0768-P01}{}
 \DLine{AB01-PDF0768-body-L002}{}{\Indent De Albatenii sermone brevissime t. I, p. \textsc{xlv} egi; pauca notanda supersunt. Generis \textit{femi-}}
-\DLine{AB01-PDF0768-body-L003}{}{\textit{nini} sunt (praeter \ArabicRun{يد ، عين ، رجْل} in catalogo fixarum plus semel occurrentia, et \ArabicRun{اصبع} ac \ArabicRun{قوس}):}
-\par\vspace{3.79mm}
+\par\vspace{2.37pt}
+\DLine{AB01-PDF0768-body-L003}{}{\textit{nini} sunt (praeter \ArabicRun{رجْل}, \ArabicRun{عين}, \ArabicRun{يد} in catalogo fixarum plus semel occurrentia, et \ArabicRun{اصبع} ac \ArabicRun{قوس}):}
+\par\vspace{11.04pt}
 \DLine{AB01-PDF0768-body-L004}{}{\mbox{}\rlap{\hspace*{11.61mm}\smash{\llap{\ArabicRun{أُذْن}}}}\rlap{\hspace*{15.38mm}\smash{\rlap{{\arabicfont ٢٥٦}, {\arabicfont ٢٧١} bis.}}}\rlap{\hspace*{86.75mm}\smash{\llap{\ArabicRun{فخذ}}}}\rlap{\hspace*{90.52mm}\smash{\rlap{{\arabicfont ٢٤٥}, {\arabicfont ٢٤٨} ter, {\arabicfont ٢٥٠}, {\arabicfont ٢٦٢}, {\arabicfont ٢٧٠}, {\arabicfont ٢٧٢} ter, {\arabicfont ٢٧٣}.}}}}
+\par\vspace{0.11pt}
 \DLine{AB01-PDF0768-body-L005}{5}{\mbox{}\rlap{\hspace*{11.61mm}\smash{\llap{\ArabicRun{أرنب}}}}\rlap{\hspace*{15.38mm}\smash{\rlap{{\arabicfont ٢٦٩} pluries.}}}\rlap{\hspace*{86.75mm}\smash{\llap{\ArabicRun{قدم}}}}\rlap{\hspace*{90.52mm}\smash{\rlap{{\arabicfont ٢٥٠}, {\arabicfont ٢٥٩} bis, {\arabicfont ٢٧٢}.}}}}
+\par\vspace{0.20pt}
 \DLine{AB01-PDF0768-body-L006}{}{\mbox{}\rlap{\hspace*{11.61mm}\smash{\llap{\ArabicRun{دراع}}}}\rlap{\hspace*{15.38mm}\smash{\rlap{{\arabicfont ٢٤٨} bis, {\arabicfont ٢٧٢}.}}}\rlap{\hspace*{86.75mm}\smash{\llap{\ArabicRun{كتف}}}}\rlap{\hspace*{90.52mm}\smash{\rlap{{\arabicfont ٢٤٧}, {\arabicfont ٢٤٨}, {\arabicfont ٢٥٠}, {\arabicfont ٢٥١} ter, {\arabicfont ٢٥٢}, {\arabicfont ٢٥٣}, {\arabicfont ٢٦٣} bis,}}}}
+\par\vspace{0.20pt}
 \DLine{AB01-PDF0768-body-L007}{}{\mbox{}\rlap{\hspace*{11.61mm}\smash{\llap{\ArabicRun{ساق}}}}\rlap{\hspace*{15.38mm}\smash{\rlap{{\arabicfont ٢٥١}, {\arabicfont ٢٦٢}, {\arabicfont ٢٦٣} bis, {\arabicfont ٢٦٤}.}}}\rlap{\hspace*{93.87mm}\smash{\rlap{{\arabicfont ٢٦٧} ter, {\arabicfont ٢٧١} bis.}}}}
-\par\vspace{1.18mm}
+\par\vspace{3.54pt}
 \DLine{AB01-PDF0768-body-L008}{}{\textit{Masculini} generis vero:}
-\par\vspace{1.36mm}
+\par\vspace{3.45pt}
 \DLine{AB01-PDF0768-body-L009}{}{\mbox{}\rlap{\hspace*{11.61mm}\smash{\llap{\ArabicRun{جناح}}}}\rlap{\hspace*{15.38mm}\smash{\rlap{{\arabicfont ٢٤٩} ter, {\arabicfont ٢٥٩} bis, {\arabicfont ٢٧١} bis.}}}\rlap{\hspace*{86.75mm}\smash{\llap{\ArabicRun{قرن}}}}\rlap{\hspace*{90.52mm}\smash{\rlap{{\arabicfont ٢٥٦} quinquies (fem. {\arabicfont ٢٦٢}).}}}}
+\par\vspace{0.11pt}
 \DLine{AB01-PDF0768-body-L010}{10}{\mbox{}\rlap{\hspace*{11.61mm}\smash{\llap{\ArabicRun{ساعد}}}}\rlap{\hspace*{15.38mm}\smash{\rlap{{\arabicfont ٢٤٧}, {\arabicfont ٢٤٨}, {\arabicfont ٢٧٢}.}}}\rlap{\hspace*{86.75mm}\smash{\llap{\ArabicRun{مرفق}}}}\rlap{\hspace*{90.52mm}\smash{\rlap{{\arabicfont ٢٤٧}, {\arabicfont ٢٤٨}, {\arabicfont ٢٦٧}.}}}}
-\par\vspace{0.72mm}
+\par\vspace{2.37pt}
 \DLine{AB01-PDF0768-body-L011}{}{\mbox{}\rlap{\hspace*{11.61mm}\smash{\llap{\ArabicRun{ضِلْع}}}}\rlap{\hspace*{15.38mm}\smash{\rlap{{\arabicfont ٢٥٣} ter, {\arabicfont ٢٥٩}.}}}\rlap{\hspace*{86.75mm}\smash{\llap{\ArabicRun{منكب}}}}\rlap{\hspace*{90.52mm}\smash{\rlap{{\arabicfont ٢٥٣}.}}}}
-\par\vspace{0.75mm}
+\par\vspace{2.37pt}
 \DLine{AB01-PDF0768-body-L012}{}{\mbox{}\rlap{\hspace*{11.61mm}\smash{\llap{\ArabicRun{عرقوب}}}}\rlap{\hspace*{15.38mm}\smash{\rlap{{\arabicfont ٢٥٠} paen., {\arabicfont ٢٥١} bis, {\arabicfont ٢٥٤} bis, {\arabicfont ٢٧٢}.}}}}
-\par\vspace{1.58mm}
+\par\vspace{8.78pt}
 \hypertarget{AB01-PDF0768-P02}{}
 \DLine{AB01-PDF0768-body-L013}{}{\Indent Collectivum \ArabicRun{دَرَجٌ} (e quo n. un. \ArabicRun{دَرَجَةٌ} fit) ab al-Battānī reliquisque astronomis semper tam-}
+\par\vspace{0.20pt}
 \DLine{AB01-PDF0768-body-L014}{}{quam fem. sing. construitur; cfr. \Name{Nöldeke}, \textit{Zur Grammatik des klassischen Arabisch},}
+\par\vspace{0.02pt}
 \DLine{AB01-PDF0768-body-L015}{15}{Wien 1896, p. 84.}
+\par\vspace{2.64pt}
 \hypertarget{AB01-PDF0768-P03}{}
 \DLine{AB01-PDF0768-body-L016}{}{\Indent Nominativum dualis in \ArabicRun{يْن}, pluralis in \ArabicRun{ين} exire semper in numeralibus, non raro in sub-}
+\par\vspace{0.11pt}
 \DLine{AB01-PDF0768-body-L017}{}{stantivis et adiectivis, in cod. Escurialensi, monui t. I, p. \textsc{lxi}; quod cum potius amanuensi quam}
+\par\vspace{0.20pt}
 \DLine{AB01-PDF0768-body-L018}{}{auctori tribuendum esset, in textu edendo emendavi (1). Sed nominativus \ArabicRun{سطري العدد} etc. persaepe}
+\par\vspace{0.29pt}
 \DLine{AB01-PDF0768-body-L019}{}{et constanter in tabulis occurrens, procul dubio ita ab Albatenio ipso scriptus est; nam idem}
+\par\vspace{0.20pt}
 \DLine{AB01-PDF0768-body-L020}{20}{usus apud ceteros astronomos et mathematicos viget. — Concordantiam numeralium cum ge-}
+\par\vspace{0.11pt}
 \DLine{AB01-PDF0768-body-L021}{}{nere substantivorum mendosam, quae saepe in codice reperitur, nolui servare, cum vix ab}
+\par\vspace{2.37pt}
 \DLine{AB01-PDF0768-body-L022}{}{Albatenio proveniat. — De \ArabicRun{اوّلة} v. Glossarium s. v. — Memoratu dignae fractiones sexagesimae}
+\par\vspace{0.29pt}
 \DLine{AB01-PDF0768-body-L023}{}{inferiorum ordinum, p. {\arabicfont ١٠} in tabella contentae, ac potissimum \ArabicRun{عواشرين} « sexagesimae ordinis}
+\par\vspace{0.02pt}
 \DLine{AB01-PDF0768-body-L024}{}{« vicesimi ».}
-\par\vspace{6pt}\hrule height.25pt\vspace{5pt}
+\par\vspace{6.16pt}\hrule height.25pt\vspace{6.32pt}
 \noindent\begin{minipage}[t]{.48\textwidth}\vspace{0pt}\fontsize{9}{11.5}\selectfont\setlength{\GutterOffset}{0pt}\setlength{\FullSourceWidth}{\linewidth}
 \hypertarget{AB01-PDF0768-N01}{}
 \DLine{AB01-PDF0768-notes_left-L001}{}{\Indent (1) Cfr. de hac re A. \Name{Müller}, \textit{Ueber Text und}}
+\par\vspace{0.33pt}
 \DLine{AB01-PDF0768-notes_left-L002}{}{\textit{Sprachgebrauch von Ibn Abī Uṣeibi‘a’s Gesch. der}}
 \end{minipage}
 \hfill\vrule width.3pt\hfill\begin{minipage}[t]{.48\textwidth}\vspace{0pt}\fontsize{9}{11.5}\selectfont\setlength{\GutterOffset}{0pt}\setlength{\FullSourceWidth}{\linewidth}
 \DLine{AB01-PDF0768-notes_right-L001}{}{\textit{Aerzte} (Sitzungsber. d. k. bayer. Akad. d. WW., phi-}
+\par\vspace{0.42pt}
 \DLine{AB01-PDF0768-notes_right-L002}{}{losoph.-philol. Cl., 1884), p. 914–15.}
+\end{minipage}
+\DSource{0769}{320}
+\hypertarget{AB01-PDF0769-P01}{}
+\DLine{AB01-PDF0769-body-L001}{}{\Indent Litterae quibus puncta, lineae, arcus, figurae geometricae designantur, in genetivo epe-}
+\par\vspace{2.55pt}
+\DLine{AB01-PDF0769-body-L002}{}{xegetico (\ArabicRun{اضافة تفسيريّة}) censentur; ergo \ArabicRun{قوْسَا \ArOver{اب} و \ArOver{ج د}}, \ArabicRun{خطُّ \ArOver{ب ج}} etc., ut semper apud ma-}
+\par\vspace{0.11pt}
+\DLine{AB01-PDF0769-body-L003}{}{thematicos. — Annexiones impropriae quas grammatici in numeris cardinalibus memorant (1),}
+\par\vspace{2.55pt}
+\DLine{AB01-PDF0769-body-L004}{}{etiam cum fractionibus invenimus: \ArabicRun{الربْع يوم} {\arabicfont ٦٢}\textsubscript{12}, {\arabicfont ١٩١}\textsubscript{6}; \ArabicRun{الربْع اليوم} {\arabicfont ٦١}\textsubscript{18}, {\arabicfont ٦٢}\textsubscript{13}, {\arabicfont ٦٣}\textsubscript{5, 18, 21}, {\arabicfont ١٩٣}\textsubscript{4}; \ArabicRun{الخُمْسَيْ}}
+\par\vspace{2.19pt}
+\DLine{AB01-PDF0769-body-L005}{5}{\ArabicRun{ساعة} {\arabicfont ٦٣}\textsubscript{18}; \ArabicRun{الثُّلْثَيْ يوم والربْع يوم} {\arabicfont ٦٣}\textsubscript{3}; \ArabicRun{النصف والربْع ساعة} {\arabicfont ٦٥}\textsubscript{9-10}; \ArabicRun{الثُّلْث عُشْرٍ} {\arabicfont ٩١}\textsubscript{21}; \ArabicRun{ذلك النصف السدس}}
+\par\vspace{2.46pt}
+\DLine{AB01-PDF0769-body-L006}{}{{\arabicfont ١٣٢}\textsubscript{2} (2). — Aliae quoque constructiones vix regulares cum numeris occurrunt: \ArabicRun{تلك السبعة}}
+\par\vspace{0.20pt}
+\DLine{AB01-PDF0769-body-L007}{}{\ArabicRun{الاجزاء وثلثي جزء} {\arabicfont ١٨٢}\textsubscript{18}; \ArabicRun{على المائتين وواحد ونصف} {\arabicfont ١٨٣}\textsubscript{5}; \ArabicRun{على المائتين والواحد ونصف} {\arabicfont ١٨٤}\textsubscript{15}; \ArabicRun{على المائتين}}
+\par\vspace{2.37pt}
+\DLine{AB01-PDF0769-body-L008}{}{\ArabicRun{وواحد ونصف الذي هو قُطْر الارض} {\arabicfont ١٨٥}\textsubscript{3}. Interdum numeri per se ipsos determinati censentur, ar-}
+\par\vspace{2.46pt}
+\DLine{AB01-PDF0769-body-L009}{}{ticulo omisso: \ArabicRun{فٱضْرِبْها في ثلثة اجزاء وثماني دقائق ونصف التي هي قدر} {\arabicfont ١٤٩}\textsubscript{14}; \ArabicRun{وٱقْسِمْه على سبعة}}
+\par\vspace{10.05pt}
+\DLine{AB01-PDF0769-body-L010}{10}{\ArabicRun{وسبعين التي هي قطر الظلّ} {\arabicfont ١٤٩}\textsubscript{16}; \ArabicRun{فزِدْها على احدى وثلثين اصبعًا وخُمْس اصبع التي هي اقلّ قطر الظلّ}}
+\par\vspace{-0.07pt}
+\DLine{AB01-PDF0769-body-L011}{}{{\arabicfont ١٤٩}\textsubscript{17}. — Distributiva per numeri repetitionem multifarie exprimuntur: \ArabicRun{اربعةً اربعةً} {\arabicfont ١٩٣}\textsubscript{5}; \ArabicRun{سبعةً}}
+\par\vspace{2.46pt}
+\DLine{AB01-PDF0769-body-L012}{}{\ArabicRun{سبعةً} {\arabicfont ١٠١}\textsubscript{15, 20}, {\arabicfont ١٠٢}\textsubscript{3, 6, 9, 13, 16}; \ArabicRun{سبعةً بسبعةٍ} {\arabicfont ١١٠}\textsubscript{10}; \ArabicRun{درجةً بدرجة} {\arabicfont ٢٠}\textsubscript{22}, {\arabicfont ١١٣}\textsubscript{9}; \ArabicRun{لدرجة درجة} {\arabicfont ١٨}\textsubscript{18}, {\arabicfont ٤٠}\textsubscript{4};}
+\par\vspace{2.37pt}
+\DLine{AB01-PDF0769-body-L013}{}{\ArabicRun{المتفاضلة بعشرين عشرين} {\arabicfont ١٠٦}\textsubscript{9}; \ArabicRun{المتفاضلة ثلاثين ثلاثين} {\arabicfont ١٠٧}\textsubscript{6}; \ArabicRun{المتفاضلين بستّة ستّة اجزاء} {\arabicfont ١٧٣}\textsubscript{13};}
+\par\vspace{2.37pt}
+\DLine{AB01-PDF0769-body-L014}{}{\ArabicRun{المتفاضليْن بستّة اجزاء ستّة اجزاء} {\arabicfont ١٧٤}; \ArabicRun{تفاضُل عشرة عشرة اجزاء} {\arabicfont ٢٢٥}\textsubscript{17}; \ArabicRun{ثلثين ثلثين} {\arabicfont ٢١٩}\textsubscript{7}; \ArabicRun{وأَسْقِطْها}}
+\par\vspace{2.28pt}
+\DLine{AB01-PDF0769-body-L015}{15}{\ArabicRun{مائتين وعشر مائتين وعشر} {\arabicfont ٢١٨}\textsubscript{12}; \ArabicRun{فأَلْقِهِ ثمانية وعشرين ثمانية وعشرين} {\arabicfont ٢١٩}\textsubscript{16}.}
+\par\vspace{5.80pt}
+\hypertarget{AB01-PDF0769-P02}{}
+\DLine{AB01-PDF0769-body-L016}{}{\Indent Genetivus a duobus vel tribus nominibus simul pendens invenitur non raro in fractionibus}
+\par\vspace{2.46pt}
+\DLine{AB01-PDF0769-body-L017}{}{designandis, licet regularior constructio frequens sit: \ArabicRun{نصف ورُبْع ساعة} {\arabicfont ٦٣}\textsubscript{13}, {\arabicfont ٦٥}\textsubscript{2}, {\arabicfont ٨٦}\textsubscript{13}; \ArabicRun{نصف ورُبْع}}
+\par\vspace{2.37pt}
+\DLine{AB01-PDF0769-body-L018}{}{\ArabicRun{دقيقة} {\arabicfont ٦٨}\textsubscript{10}; \ArabicRun{نصف ورُبْع جزء} {\arabicfont ٨٣}\textsubscript{3}; \ArabicRun{نصف ورُبْع يوم} {\arabicfont ٦٣}\textsubscript{2, 16}; \ArabicRun{نصف وثُلْث يوم} {\arabicfont ٦٣}\textsubscript{1}; \ArabicRun{نصف وثُلْث ساعة}}
+\par\vspace{2.55pt}
+\DLine{AB01-PDF0769-body-L019}{}{{\arabicfont ٨٥}\textsubscript{21}; \ArabicRun{نصف وثُلْث قُطْره} {\arabicfont ٨٦}\textsubscript{7}, {\arabicfont ٨٧}\textsubscript{1}; \ArabicRun{ثُلْث ورُبْع ساعة} {\arabicfont ٨٦}\textsubscript{17}; \ArabicRun{خُمْس وسُدْس يوم} {\arabicfont ١٠١}\textsubscript{7}, {\arabicfont ١٠٤}\textsubscript{10}; \ArabicRun{بسُدْس وثُمْن}}
+\par\vspace{2.37pt}
+\DLine{AB01-PDF0769-body-L020}{20}{\ArabicRun{ساعة} {\arabicfont ٨٦}\textsubscript{17}; \ArabicRun{خُمْس وسُدْس يوم} {\arabicfont ١٠١}\textsubscript{7}, {\arabicfont ١٠٤}\textsubscript{10}; \ArabicRun{بسُدْس وثُمْن الفضل} {\arabicfont ١٤٤}\textsubscript{7, 14}; \ArabicRun{نصف وسُدْس دقيقة} {\arabicfont ١٨٢}\textsubscript{19}; \ArabicRun{نصف}}
+\par\vspace{2.37pt}
+\DLine{AB01-PDF0769-body-L021}{}{\ArabicRun{وثُلْث وثُمْن قطره} {\arabicfont ٨٦}\textsubscript{12}. Sed praeter fractionum usum, haec tantum exempla rei inveni: \ArabicRun{مطالع}}
+\par\vspace{2.82pt}
+\DLine{AB01-PDF0769-body-L022}{}{\ArabicRun{ومغارب البروج} {\arabicfont ١٢٩}\textsubscript{11}, {\arabicfont ١٣٠}\textsubscript{11}, {\arabicfont ١٣٢}\textsubscript{14}, {\arabicfont ٢٤٣}\textsubscript{1}; \ArabicRun{سمت مطلع ومغيب غير هاتين النقطتين} {\arabicfont ٢٩}\textsubscript{18}; \ArabicRun{سمت مطلع}}
+\par\vspace{1.74pt}
+\DLine{AB01-PDF0769-body-L023}{}{\ArabicRun{ومغيب ايّ درجة شِئْتَ} {\arabicfont ٣٠}\textsubscript{1} (3).}
+\par\vspace{3.09pt}
+\hypertarget{AB01-PDF0769-P03}{}
+\DLine{AB01-PDF0769-body-L024}{}{\Indent \ArabicRun{مَا} « quilibet, quicumque, quodlibet » etc., haud infrequens apud mathematicos, raro adhi-}
+\par\vspace{-0.79pt}
+\DLine{AB01-PDF0769-body-L025}{25}{betur: \ArabicRun{دائرة ما} {\arabicfont ١٣}\textsubscript{18}.}
+\par\vspace{3.36pt}
+\hypertarget{AB01-PDF0769-P04}{}
+\DLine{AB01-PDF0769-body-L026}{}{\Indent Bis \ArabicRun{مِنْ} occurrit ubi simplex genetivus exspectandus: \ArabicRun{التي هي قدر الدائرة من القمر} « quae}
+\par\vspace{2.46pt}
+\DLine{AB01-PDF0769-body-L027}{}{« est quantitas disci lunaris » ({\arabicfont ١٤٩}\textsubscript{14}); \ArabicRun{فهو سهم الدائرة من الظلّ} « ipsa fit sagitta circuli umbrae »}
+\par\vspace{0.11pt}
+\DLine{AB01-PDF0769-body-L028}{}{({\arabicfont ١٥٠}\textsubscript{3-4}). Sed fortasse id ab amanuensi provenit qui \ArabicRun{الدائرة} cum articulo incaute scriptum delere}
+\par\vspace{0.29pt}
+\DLine{AB01-PDF0769-body-L029}{}{noluit, et per \ArabicRun{من} rectam constructionem servare putavit. — Ad designandam comparationem}
+\par\vspace{2.55pt}
+\DLine{AB01-PDF0769-body-L030}{30}{loci adhibetur p. {\arabicfont ٢٧٣}: \ArabicRun{المقدّم من هذا} « quae hanc praecedit », \ArabicRun{الكوكب الباقي الجنوبيّ من هذا}}
+\par\vspace{-0.52pt}
+\DLine{AB01-PDF0769-body-L031}{}{« stella reliqua ab austro huius ».}
+\par\vspace{3.09pt}
+\hypertarget{AB01-PDF0769-P05}{}
+\DLine{AB01-PDF0769-body-L032}{}{\Indent Memoratu digna superlativa \ArabicRun{اطول ما يكون} {\arabicfont ٣٢}\textsubscript{14}; \ArabicRun{اقصر ما يكون} ibid.; \ArabicRun{اتمّ ما يكون} {\arabicfont ٨٣}\textsubscript{11}, {\arabicfont ١٤٦}\textsubscript{13};}
+\par\vspace{0.20pt}
+\DLine{AB01-PDF0769-body-L033}{}{\ArabicRun{اكثر ما يكون} {\arabicfont ٩٥}\textsubscript{9}; de quibus v. \Name{Fleischer}, \textit{Klein. Schr.}, I, 475-477.}
+\par\vspace{9.62pt}\hrule height.25pt\vspace{5.41pt}
+\noindent\begin{minipage}[t]{.48\textwidth}\vspace{0pt}\fontsize{9}{11.5}\selectfont\setlength{\GutterOffset}{0pt}\setlength{\FullSourceWidth}{\linewidth}
+\hypertarget{AB01-PDF0769-N01}{}
+\DLine{AB01-PDF0769-notes_left-L001}{}{\Indent (1) \Name{Fleischer}, \textit{Kleinere Schriften}, II, 48-54.}
+\par\vspace{-0.21pt}
+\hypertarget{AB01-PDF0769-N02}{}
+\DLine{AB01-PDF0769-notes_left-L002}{}{\Indent (2) \Name{Ḥabash}, f. 124,r.: \ArabicRun{معرفة ذلك بالنصف}}
+\par\vspace{1.69pt}
+\DLine{AB01-PDF0769-notes_left-L003}{}{\ArabicRun{سدس}.}
+\par\vspace{-0.30pt}
+\hypertarget{AB01-PDF0769-N03}{}
+\DLine{AB01-PDF0769-notes_left-L004}{}{\Indent (3) Cfr. \Name{Wright}\textsuperscript{3}, II, 201 (§ 78, rem. \textit{b}); \Name{Ver-}}
+\par\vspace{0.33pt}
+\DLine{AB01-PDF0769-notes_left-L005}{}{\Name{nier}, II, 200-201 (iuxta al-Ushmūnī et aṣ-Ṣabbān}
+\par\vspace{0.24pt}
+\DLine{AB01-PDF0769-notes_left-L006}{}{grammaticos); \Name{Fleischer}, \textit{Klein. Schr.}, I, 624-}
+\par\vspace{0.42pt}
+\DLine{AB01-PDF0769-notes_left-L007}{}{625 (qui unum exemplum e Kitāb al-Fihrist adducit,}
+\par\vspace{0.51pt}
+\DLine{AB01-PDF0769-notes_left-L008}{}{reliqua vero e tardae aetatis scriptoribus, ut an-Na-}
+\par\vspace{0.42pt}
+\DLine{AB01-PDF0769-notes_left-L009}{}{wawī et al-Maqqarī). Alia exempla apud \Name{Ḥamzah}}
+\end{minipage}
+\hfill\vrule width.3pt\hfill\begin{minipage}[t]{.48\textwidth}\vspace{0pt}\fontsize{9}{11.5}\selectfont\setlength{\GutterOffset}{0pt}\setlength{\FullSourceWidth}{\linewidth}
+\DLine{AB01-PDF0769-notes_right-L001}{}{\Name{al-Iṣfahānī} ed. Gottwaldt, p. 9 (l. 1 et 3), p. 200}
+\par\vspace{1.96pt}
+\DLine{AB01-PDF0769-notes_right-L002}{}{(l. 6-7: \ArabicRun{كانوا يسمونها سني وادوار الهزارات}); \Name{Ḥa-}}
+\par\vspace{2.59pt}
+\DLine{AB01-PDF0769-notes_right-L003}{}{\Name{bash}, f. 68,v. (\ArabicRun{عند تشاريق او تغاريب ظهور}}
+\par\vspace{1.69pt}
+\DLine{AB01-PDF0769-notes_right-L004}{}{\ArabicRun{الكوكب}), f. 94,r. et 162,v. (\ArabicRun{عن مطلع ومغرب الاعتدال}),}
+\par\vspace{2.23pt}
+\DLine{AB01-PDF0769-notes_right-L005}{}{f. 106,r. (\ArabicRun{معرفة درجة طول وعرض الكوكب}), f. 124,v.}
+\par\vspace{1.06pt}
+\DLine{AB01-PDF0769-notes_right-L006}{}{(\ArabicRun{فتخرج دقائق وثواني مسير ساعة القمر}), f. 145,v.}
+\par\vspace{1.51pt}
+\DLine{AB01-PDF0769-notes_right-L007}{}{(\ArabicRun{اجزاء ودقائق تعديل تكسير سطح دائرة القمر}), f.}
+\par\vspace{3.04pt}
+\DLine{AB01-PDF0769-notes_right-L008}{}{164,v. (\ArabicRun{مطلع او مغرب راس الحمل}).}
 \end{minipage}
 \end{document}

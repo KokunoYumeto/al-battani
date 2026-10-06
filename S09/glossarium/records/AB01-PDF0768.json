@@ -7,7 +7,6 @@
  "blank": false,
  "signature": null,
  "observations": [
-  "body L3: the Arabic words are set as one phrase read from the right, with Arabic commas: «يد ، عين ، رجْل».",
   "body L4: the t of the first «ter» is printed broken, like l; a speck is printed after the second «ter,»; not transcribed.",
   "body L6: «دراع» is printed so, without the dot of dhāl (for «ذراع»).",
   "body L11: the t of «ter» is printed broken, like l.",
@@ -39,8 +38,8 @@
     {
      "id": "AB01-PDF0768-body-L003",
      "source_line_no": 3,
-     "tex": "\\textit{nini} sunt (praeter \\ArabicRun{يد ، عين ، رجْل} in catalogo fixarum plus semel occurrentia, et \\ArabicRun{اصبع} ac \\ArabicRun{قوس}):",
-     "transcription": "*nini* sunt (praeter {ar:يد ، عين ، رجْل} in catalogo fixarum plus semel occurrentia, et {ar:اصبع} ac {ar:قوس}):",
+     "tex": "\\textit{nini} sunt (praeter \\ArabicRun{رجْل}, \\ArabicRun{عين}, \\ArabicRun{يد} in catalogo fixarum plus semel occurrentia, et \\ArabicRun{اصبع} ac \\ArabicRun{قوس}):",
+     "transcription": "*nini* sunt (praeter {ar:رجْل}, {ar:عين}, {ar:يد} in catalogo fixarum plus semel occurrentia, et {ar:اصبع} ac {ar:قوس}):",
      "semantic_anchor": null,
      "source_role": "NALLINO_GLOSSARIUM"
     },

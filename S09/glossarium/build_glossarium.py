@@ -59,6 +59,11 @@ Transcription format (UTF-8; one printed line per source line, as printed, with 
                          the transcription of its printed text, is kept in the record
   @notes                 the footnotes follow, left column; @col switches to the right column (a thin rule is set
                          between the two columns, as printed); @notes1 one column
+  @baselines Y1 Y2 ...   the printed baselines (PDF points, measured on the scan) of the lines that follow in this
+                         section (the text, or a column of notes); each line after the first is set at its printed
+                         distance from the one before; the number of lines must agree
+  @noterule Y            the middle of the printed rule over the footnotes (PDF points); with @baselines in the
+                         text and the notes the rule and the notes are set at their printed distances
   @sig TEXT              the signature at the foot of the page
   @obs TEXT              an observation on the print (a letter that did not print, a broken sign), kept in the record
   ^ TEXT                 a line that begins a paragraph or a footnote (indented); ^^ TEXT indented twice
@@ -70,6 +75,7 @@ Inline markup: *italic*, **bold**, {gb:...} bold grotesque (the «Pag.» heads),
 sign of the tables, {lbrace3} and {rbrace3} a left and a right brace over three lines (written on the middle one),
 {rbrace2} a right brace over two lines (written on the first), {vrule2} a thin vertical rule over two lines (written
 on the first), {ar:...} an Arabic phrase with its own brackets and punctuation, set as one right-to-left run
+(inside it {ov:...} are overlined letters, the letters of a geometrical figure: {ar:قوْسَا {ov:اب} و {ov:ج د}}),
 ({syr:...} the same for Syriac), {rtl:...} a phrase of Arabic numerals and Latin words that the print sets right to
 left, given in reading order, \\* a literal asterisk; runs of Arabic, Greek, Hebrew and Syriac letters are set in
 their fonts, runs of Arabic-Indic numerals (the page references to the Arabic text, ٢٥٦) in the Arabic font, left to
@@ -124,8 +130,11 @@ PREAMBLE = r"""\documentclass[11pt]{article}
 \tracinglostchars=2
 \newcommand{\Name}[1]{{\addfontfeatures{LetterSpace=4.0}#1}}
 \newcommand{\Indent}{\hspace*{1.6em}}
-% an Arabic run inside a Latin line: its descenders do not open the line (the printed lines are evenly spaced)
-\newcommand{\ArabicRun}[1]{\smash[b]{\textarabic{#1}}}
+% an Arabic run inside a Latin line takes no height or depth: the lines are set at their printed baselines
+% (@baselines), which the vowel signs of the Arabic open unevenly
+\newcommand{\ArabicRun}[1]{\smash{\textarabic{#1}}}
+% letters of a geometrical figure, overlined as printed (the line stands 9.3-9.7 pt above the baseline)
+\newcommand{\ArOver}[1]{\vbox{\hrule height .4pt\kern 1.2pt\hbox{\rule{0pt}{8.1pt}#1}}}
 \newcommand{\qfrac}[2]{{}^{#1}\!/_{{#2}}}
 \newcommand{\sa}{\textsuperscript{\textit{a}}}\newcommand{\sm}{\textsuperscript{\textit{m}}}\newcommand{\sd}{\textsuperscript{\textit{d}}}
 \newcommand{\RawBlock}[1]{\par\vspace{3pt}\noindent#1\par\vspace{3pt}}
@@ -179,8 +188,10 @@ def rtl_phrase(s):
 def markup(s):
     keep = []
 
-    def stash(m):  # {ar:...}: an Arabic phrase with its own punctuation and brackets, set as one right-to-left run
-        keep.append(r"\ArabicRun{" + m.group(1) + "}")
+    def stash(m):  # {ar:...}: an Arabic phrase with its own punctuation and brackets, set as one right-to-left run;
+        # inside it {ov:...} marks overlined letters (the letters of a geometrical figure)
+        body = re.sub(r"\{ov:([^{}]*)\}", lambda o: r"\ArOver{" + o.group(1) + "}", m.group(1))
+        keep.append(r"\ArabicRun{" + body + "}")
         return f"\uE003{len(keep) - 1}\uE004"
 
     def stash_rtl(m):
@@ -191,7 +202,7 @@ def markup(s):
         keep.append(r"\textsyriac{" + m.group(1) + "}")
         return f"{len(keep) - 1}"
 
-    s = re.sub(r"\{ar:([^}]*)\}", stash, s)
+    s = re.sub(r"\{ar:((?:[^{}]|\{ov:[^{}]*\})*)\}", stash, s)
     s = re.sub(r"\{rtl:([^}]*)\}", stash_rtl, s)
     s = re.sub(r"\{syr:([^}]*)\}", stash_syr, s)
     s = s.replace("\\*", "\uE002").replace("&", r"\&").replace("%", r"\%").replace("#", r"\#")
@@ -248,7 +259,7 @@ def parse(path):
     lines = path.read_text(encoding="utf-8").split("\n")
     m = re.match(r"@page (\d+) (\d+)", lines[0])
     rec = {"pdf": int(m.group(1)), "pp": int(m.group(2)), "body": [], "notes_left": [], "notes_right": [],
-           "notes": [], "sig": "", "blank": False, "obs": []}
+           "notes": [], "sig": "", "blank": False, "obs": [], "noterule": None}
     part, raw = "body", None
     for ln in lines[1:]:
         if raw is not None:
@@ -272,7 +283,9 @@ def parse(path):
                 rec["obs"].append(arg)
             elif cmd == "@blank":
                 rec["blank"] = True
-            elif cmd in ("@title", "@center", "@vspace", "@rule", "@rule2", "@verse", "@calc", "@calcrule",
+            elif cmd == "@noterule":
+                rec["noterule"] = float(arg)
+            elif cmd in ("@baselines", "@title", "@center", "@vspace", "@rule", "@rule2", "@verse", "@calc", "@calcrule",
                          "@calcset", "@cols", "@row", "@rowrule", "@mcols", "@mcnext", "@mcend", "@chead", "@skip",
                          "@small", "@normal", "@rowgap", "@hrule", "@wrap", "@wrapr", "@endwrap", "@brace", "@pos",
                          "@posrule", "@posbrace", "@hrow", "@at", "@rowsep", "@colpad", "@hspan", "@spanbrace",
@@ -670,6 +683,10 @@ def mc_begin(w):
     return r"\begin{minipage}[t]{" + w + r"}\vspace{0pt}"
 
 
+BP = 72.27 / 72  # TeX points per PDF point (the positions measured on the scan are PDF points)
+LEADING = {"body": 13.8, "notes": 11.5, "notes_left": 11.5, "notes_right": 11.5}  # the \baselineskip of each role
+
+
 def section(items, prefix, role, numbered):
     """the TeX of one section and its line records"""
     out, recs, n, par, tab, fig = [], [], 0, 0, 0, 0
@@ -677,7 +694,21 @@ def section(items, prefix, role, numbered):
     mc = None  # the column widths of an open @mcols block, and the column being set
     rowsep = "0"
     top = role == "body"  # nothing set yet at the head of the page: a @vspace here must not be discarded by TeX
+    targets, ti = None, 0  # @baselines: the printed baselines of the following lines, and the next one to set
     for kind, text in items:
+        if kind == "baselines":  # @baselines Y1 Y2 ...: the baselines (PDF points on the scan) of the lines that
+            # follow; each line after the first is set at its distance from the one before (the Arabic runs are
+            # smashed, so every line has the height and depth of the strut and the distances are exact)
+            targets, ti = [float(v) for v in text.split()], 0
+            continue
+        if targets is not None and kind in ("line", "center", "title", "verse", "calc", "row", "chead", "pos",
+                                            "hrow", "at", "hspan"):
+            if ti >= len(targets):
+                raise SystemExit(f"{prefix} {role}: more lines than @baselines ({len(targets)})")
+            if ti:
+                gap = (targets[ti] - targets[ti - 1]) * BP - LEADING[role]
+                out.append(r"\par\vspace{" + f"{gap:.2f}" + "pt}")
+            ti += 1
         if kind == "vspace" and top:  # the first line of the page stands MM lower than the first line of a full page
             # (\vspace* keeps the space at the head of the page; with \prevdepth 0 the next line is set a full
             # \baselineskip below, which the space gives back)
@@ -895,7 +926,17 @@ def section(items, prefix, role, numbered):
             out.append(r"\hypertarget{" + tid + "}{}" + text)
             recs.append({"id": tid, "source_line_no": None, "tex": text, "transcription": text, "semantic_anchor": None,
                          "source_role": "NALLINO_TABLE"})
+    if targets is not None and ti != len(targets):
+        raise SystemExit(f"{prefix} {role}: {ti} lines for {len(targets)} @baselines")
     return out, recs
+
+
+def baselines_of(items):
+    """the @baselines of a section (None without them)"""
+    for kind, text in items:
+        if kind == "baselines":
+            return [float(v) for v in text.split()]
+    return None
 
 
 def page(rec):
@@ -910,13 +951,23 @@ def page(rec):
     tex, recs = section(rec["body"], prefix, "body", True)
     out += tex
     sections.append({"role": "body", "lines": recs})
+    # the rule over the footnotes: 6 pt below the text and 5 pt above the notes, or, with @noterule Y and @baselines
+    # in the text and the notes, at its printed distance from the last line of the text and from the first note
+    # (the last line of the text has the depth of the strut, 4.14 pt; the first note the height of the strut of the
+    # notes, 8.05 pt; the rule is .25 pt thick and Y is its middle)
+    above, below = "6pt", "5pt"
+    body_bl = baselines_of(rec["body"])
+    note_bl = baselines_of(rec["notes"] or rec["notes_left"])
+    if rec["noterule"] is not None and body_bl and note_bl:
+        above = f"{(rec['noterule'] - body_bl[-1]) * BP - 4.14 - .125:.2f}pt"
+        below = f"{(note_bl[0] - rec['noterule']) * BP - .125 - 8.05:.2f}pt"
     if rec["notes"]:
-        out.append(r"\par\vspace{6pt}\hrule height.25pt\vspace{5pt}{\fontsize{9}{11.5}\selectfont")
+        out.append(r"\par\vspace{" + above + r"}\hrule height.25pt\vspace{" + below + r"}{\fontsize{9}{11.5}\selectfont")
         tex, recs = section(rec["notes"], prefix, "notes", False)
         out += tex + ["}"]
         sections.append({"role": "notes", "lines": recs})
     elif rec["notes_left"] or rec["notes_right"]:
-        out.append(r"\par\vspace{6pt}\hrule height.25pt\vspace{5pt}")
+        out.append(r"\par\vspace{" + above + r"}\hrule height.25pt\vspace{" + below + "}")
         for k, role in enumerate(("notes_left", "notes_right")):  # the print sets a thin rule between the columns,
             # as deep as the longer column (an unsized \vrule takes the depth of the line, i.e. of the minipages)
             out.append((r"\hfill\vrule width.3pt\hfill" if k else r"\noindent")

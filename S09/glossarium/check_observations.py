@@ -13,6 +13,7 @@ HERE = Path(__file__).resolve().parent
 
 
 def plain(s):
+    s = re.sub(r"\{ov:([^{}]*)\}", r"\1", s)
     s = re.sub(r"\{(?:sp|sc|gb|sup|sub|sm|fs|xs|ar|syr|rtl|spsc):([^}]*)\}", r"\1", s)
     s = re.sub(r"\{sfrac:([^/}]+)/([^}]+)\}", r"\1/\2", s)
     return s.replace("*", "").replace("~", "")
