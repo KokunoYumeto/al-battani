@@ -1,0 +1,61 @@
+@page 713 264
+@vspace 3
+@center **Apparitiones Veneris.**
+@vspace 3.5
+% the tables of the variant readings for Venus, in one frame: rules measured on the print (table from 118.6 pt, the
+% text edge); the columns as on p. 262; a degree with its abjad numeral is moved a little to the right (>1.6) so that
+% the numeral stays inside the column rule; — means agreement with the restored number
+@colpad 1.5 1.5
+@cols 0 <|| 17.62l | 5.63c 7.17c | 5.6c 7.13c | 5.55c 7.06c | 5.56c 7.07c ! 5.58c 7.11c | 5.6c 7.13c | 5.63c 7.17c | 5.24c 6.67c ||>
+@rule2 cols join
+@hrow 10.8 | ~\\ **{sc:Signa}** | **{sm:{sc:Ortus Vespertinus}}**:8 | **{sm:{sc:Occasus matutinus}}**:8
+@spanbrace 0.1 | | hr:8 | hr:8
+@hrow 11.8 | **{spsc:zodiaci}**\\~ | **{xs:Codex\\Escurialensis}**:2 | **{xs:Versio\\Hispanica}**:2 | **{xs:Ḥabash}**:2 | **{xs:Tabulae\\Alphonsinae}**:2 | **{xs:Codex\\Escurialensis}**:2 | **{xs:Versio\\Hispanica}**:2 | **{xs:Ḥabash}**:2 | **{xs:Tabulae\\Alphonsinae}**:2
+@hrule cols 1.2
+@rowgap 3.7
+@fontsize 9.3 17.2
+@row Aries | — | — | — | — | — | ما41′ | — | لا31′ | — | — | — | — | — | — | — | —
+@row Taurus | — | — | — | — | — | — | >1.6 يب12° | — | — | — | — | — | — | — | — | كط29′
+@row Gemini | >1.6 ح 8° | — | >1.6 ح 8° | — | ح 8° لط39′:2 | — | لط39′ | — | — | — | — | — | — | — | كح28′
+@row Cancer | — | — | — | نح58′ | — | لح38′ | — | لح38′ | — | — | — | — | — | ير17′ | — | نح58′
+@row Leo | — | — | — | — | — | يه15′ | — | — | — | — | — | نط59′ | — | يط19′ | ح 8° نط59′:2
+@row Virgo | — | نج53′ | — | نج53′ | — | نج53′ | — | نج53′ | — | — | — | — | — | مر47′ | — | —
+@row Libra | — | — | — | نز57′ | — | نز57′ | — | نز57′ | — | ط 9′ | — | ط 9′ | — | ط 9′ | — | ط 9′
+@row Scorpius | ر 7° نا51′:2 | ر 7° نا51′:2 | ر 7° يا11′:2 | ر 7° يا11′:2 | — | — | — | — | — | — | — | —
+@row Sagittarius | — | — | — | نو56′ | — | يو16′ | — | نو56′ | يب12° كز27′:2 | يب12° كد24′:2 | 12° 27′:2 | 12° 77′!:2
+@row Capricornus | — | — | — | نح58′ | — | يح18′ | — | يح18′ | — | — | — | نح58′ | — | يح18′ | — | يح18′
+@row Aquarius | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | —
+@row Pisces | — | — | يه15° كج23′:2 | >1.6 يه15° | — | يه15° ك20′:2 | — | — | — | — | — | — | — | —
+@normal
+@rowgap 3.3
+@hrule cols 1.4
+% the second table in the same frame: its name in an open band, the heads of the phases only (the sources are those
+% of the first table)
+@spanbrace 8.7 | :17
+@hspan **Occultationes Veneris.**:17
+@spanbrace 2.4 | :17
+@rule2 cols join
+@hrow 8.45 | | **{sm:{sc:Ortus matutinus}}**:8 | **{sm:{sc:Occasus vespertinus}}**:8
+@spanbrace 0.4 | | HR:8 | HR:8
+@rowgap 3.8
+@fontsize 9.3 17.2
+@row Aries | — | — | — | — | — | — | — | — | — | — | >1.6 ب 2° | — | >1.6 ب 2° | — | >1.6 ب 2° | —
+@row Taurus | — | — | — | — | — | — | — | — | ج 3° ل30′:2 | 3° 30′:2 | 3° 30′:2 | 3° 30′:2
+@row Gemini | — | — | — | ند54′ | — | يد14′ | — | يد14′ | — | — | — | — | — | — | — | —
+@row Cancer | — | — | — | — | — | مه45′ | — | يب12′ | — | — | — | — | — | — | — | —
+@row Leo | — | — | — | مه45′ | — | ير17′ | — | مه45′ | — | — | — | — | — | — | >1.6 يا11° | —
+@row Virgo | — | — | — | — | — | كو26′ | — | م40′ | — | — | — | — | — | — | — | —
+@row Libra | — | — | — | — | — | يج13′ | — | — | — | — | — | — | — | — | — | —
+@row Scorpius | — | — | — | — | — | ا 1′ | — | — | — | — | — | — | — | — | — | —
+@row Sagittarius | >1.6 ر 7° | — | >1.6 ر 7° | — | ر 7° مح....:2 | >1.6 ر 7° | — | — | — | ه 5° نب52′:2 | >1.6 ه 5° | — | >1.6 ه 5° | —
+@row Capricornus | >1.6 ر 7° | — | ب 2° لح38′:2 | ب 2° لو36′:2 | ب 2° يح18′:2 | >1.6 ر 7° | — | ب 2° لح38′:2 | >1.6 ب 2° | — | >1.6 ب 2° | —
+@row Aquarius | >1.6 ح 8° | — | ا 1° لو36′:2 | ا 1° كه25′:2 | ا 1° لو36′:2 | ا 1° نب52′:2 | ا 1° ند54′:2 | ا 1° يب12′:2 | ا 1° يد14′:2
+@row Pisces | >1.6 ر 7° | — | ب 2° مح48′:2 | >1.6 ب 2° | — | ب 2° مه45′:2 | ا 1° لا31′:2 | 1° 31′:2 | ب 2° 31′:2 | 1° 31′:2
+@normal
+@rowgap 3.6
+@hrule cols 1.3
+@obs body (tables): the abjad numeral 7 is printed «ر», the zāy without its dot, throughout; so also «ير17′» (first table, Cancer, occult. Ḥabash; second table, Leo, Ḥabash) and «مر47′» (first table, Virgo, occult. Ḥabash); transcribed as printed. The isolated hāʾ of 5 (second table, Sagittarius) is printed as a filled loop.
+@obs body (first table, Sagittarius, occult. Codex): the degree sign of «يب12°» is printed like a grave accent; the 7 of «27′» is printed broken.
+@obs body (first table, Sagittarius, occult. Tab. Alph.): «12° 77′!» is printed so, with the exclamation mark.
+@obs body (second table, Sagittarius, apparit. Ḥabash): «مح....» is printed so, the abjad numeral with four dots and no number.
+@obs body (tables): stray dots are printed by the first dash of Aries (first table, occult. Tab. Alph.; second table, occult. Codex); the dashes before «نز57′» (first table, Libra, Ḥabash) and «نح58′» (first table, Capricornus, occult. Versio) are printed broken.

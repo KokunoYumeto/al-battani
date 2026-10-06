@@ -32,7 +32,7 @@ Transcription format (UTF-8; one printed line per source line, as printed, with 
                          left out); @spanbrace MM | C1 | ... a strip MM high under such a row, carrying the rules at
                          the cell boundaries, with a brace under each cell written br:N; @cellrule - | | - ... a thin
                          rule under the columns marked -, in a strip that carries all the rules of the table;
-                         @hrule cols PT a rule PT thick across the table; in @spanbrace hr:N is a rule across
+                         @hrule cols PT a rule PT thick across the table; in @spanbrace hr:N (HR:N heavy) is a rule across
                          the span; @hrow cells may span columns too; ! in @cols is a heavy rule
   @at X:T | X:T ...      a line whose pieces begin at X mm from the left edge and keep their height (formulas)
   @pos X:T | X>:T | ...  a line whose pieces stand at X mm from the left edge (> right-aligned, ^ centred, _ half a
@@ -300,18 +300,14 @@ def set_cols(spec):
 
 def row_tex(src):
     """@row C1 | C2 | ...: one printed row of a small table, in the columns of @cols. In a cell, ~ separates the
-    number from a unit sign that hangs to its right (159~°); {brace2} is a brace over this row and the next"""
-    cells = [c.strip() for c in src.split("|")]
-    widths = [c for c in COLS["cols"] if c not in SEPS]
-    if len(cells) != len(widths):
-        raise SystemExit(f"@row has {len(cells)} cells for {len(widths)} columns: {src}")
-    out, k = [r"\hspace*{" + str(COLS["indent"]) + "mm}"], 0
-    for col in COLS["cols"]:
-        if col in SEPS:
-            out.append(rule_piece(col, r"\rule[-\dp\strutbox]{.4pt}{\baselineskip}"))
+    number from a unit sign that hangs to its right (159~°); {brace2} is a brace over this row and the next; a cell
+    TEXT:N spans N columns (the rules between them are left out) and takes the alignment of the first"""
+    out = [r"\hspace*{" + str(COLS["indent"]) + "mm}"]
+    for item in span_layout(span_cells(src)):
+        if item[0] == "sep":
+            out.append(rule_piece(item[1], r"\rule[-\dp\strutbox]{.4pt}{\baselineskip}"))
             continue
-        (w, a), c = col, cells[k]
-        k += 1
+        c, w, a = item[1], f"{item[2]:.2f}", item[3]
         ind = re.match(r"^>(\d+(?:\.\d+)?)? ", c)
         pre = ""
         if ind:  # a continuation line within the cell, indented (6 mm, or >N N mm); markup applies to the rest only
@@ -369,9 +365,10 @@ def sep_width(col):
 
 
 def span_layout(cells):
-    """the separators at the cell boundaries, ("sep", col), and the cells, ("cell", text, width in mm), of a spanning
-    line in the current @cols; a separator inside a span adds its width to the cell"""
-    out, ci, rem, acc = [], 0, 0, 0.0
+    """the separators at the cell boundaries, ("sep", col), and the cells, ("cell", text, width in mm, alignment of
+    the first column), of a line in the current @cols whose cells may span columns; a separator inside a span adds
+    its width to the cell"""
+    out, ci, rem, acc, align = [], 0, 0, 0.0, "c"
     for col in COLS["cols"]:
         if col in SEPS:
             if rem:
@@ -380,11 +377,11 @@ def span_layout(cells):
                 out.append(("sep", col))
             continue
         if not rem:
-            rem, acc = cells[ci][1], 0.0
+            rem, acc, align = cells[ci][1], 0.0, col[1]
         acc += col[0]
         rem -= 1
         if not rem:
-            out.append(("cell", cells[ci][0], acc))
+            out.append(("cell", cells[ci][0], acc, align))
             ci += 1
     return out
 
@@ -410,10 +407,11 @@ def spanbrace_tex(src):
     for item in span_layout(span_cells(rest)):
         if item[0] == "sep":
             out.append(rule_piece(item[1], r"\rule{.4pt}{" + f"{mm:.2f}" + "mm}"))
-        elif item[1] == "hr":
+        elif item[1] in ("hr", "HR"):  # a thin (hr) or heavy (HR) rule across the span
             a, b = COLS["pad"]
             out.append(r"\makebox[" + f"{item[2]:.2f}" + r"mm][l]{\hspace*{-" + f"{b:.2f}" + r"mm}\rule["
-                       + f"{mm / 2:.2f}" + "mm]{" + f"{item[2] + a + b:.2f}" + "mm}{.4pt}}")
+                       + f"{mm / 2:.2f}" + "mm]{" + f"{item[2] + a + b:.2f}" + "mm}{"
+                       + (".4pt" if item[1] == "hr" else "1.2pt") + "}}")
         elif item[1] == "br":
             out.append(r"\makebox[" + f"{item[2]:.2f}" + r"mm][c]{\smash{\raisebox{" + f"{mm / 2 - 1.2:.2f}"
                        + r"mm}{$\overbrace{\hspace{" + f"{item[2] - 3:.2f}" + "mm}}$}}}")
@@ -704,8 +702,8 @@ def section(items, prefix, role, numbered):
                 src = " ".join(c.strip().lstrip(">") for c in src.split("|") if c.strip())
             elif kind == "row":
                 tex = row_tex(src)
-                src = " | ".join(re.sub(r"^(?:>(?:\d+(?:\.\d+)?)? |_ )", "", c.strip())
-                                 for c in src.split("|")).replace("~", "")
+                src = " | ".join(re.sub(r"^(?:>(?:\d+(?:\.\d+)?)? |_ )", "", t)
+                                 for t, _ in span_cells(src)).replace("~", "")
             elif kind == "hrow":
                 tex = hrow_tex(src)
                 src = " | ".join(t for t, _ in span_cells(src.partition("|")[2]))
