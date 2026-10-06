@@ -1,0 +1,402 @@
+{
+ "anchor": "AB01-PDF0708",
+ "master_pdf_page": 708,
+ "printed_page": 259,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "observations": [
+  "body L1: «παχυμέστερον» is printed so (the comparative of παχυμερής is παχυμερέστερον).",
+  "body L10: the sign after 3 is printed broken, with a dot under it.",
+  "body L30: the 0 of «90°» is printed broken, like «()»."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0708-body-L001",
+     "source_line_no": 1,
+     "tex": "\\Indent Nescio quo modo hi numeri supputati (\\textgreek{παχυμέστερον} « rudissime » ut \\Name{Theon} I, 63 dicit);",
+     "transcription": "Nescio quo modo hi numeri supputati (παχυμέστερον « rudissime » ut {sp:Theon} I, 63 dicit);",
+     "semantic_anchor": "AB01-PDF0708-P01",
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0708-body-L002",
+     "source_line_no": 2,
+     "tex": "discrepantiae nullius momenti prorsus in calculo latitudinum.",
+     "transcription": "discrepantiae nullius momenti prorsus in calculo latitudinum.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0708-body-L003",
+     "source_line_no": 3,
+     "tex": "\\Indent Anguli BED, eclipticae et horizontis, aequales fiunt ad eclipticae puncta pariter ab uno",
+     "transcription": "Anguli BED, eclipticae et horizontis, aequales fiunt ad eclipticae puncta pariter ab uno",
+     "semantic_anchor": "AB01-PDF0708-P02",
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0708-body-L004",
+     "source_line_no": 4,
+     "tex": "aequinoctiorum dissita; item angulus ad punctum eclipticae oriens aequatur angulo ad oppo-",
+     "transcription": "aequinoctiorum dissita; item angulus ad punctum eclipticae oriens aequatur angulo ad oppo-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0708-body-L005",
+     "source_line_no": 5,
+     "tex": "situm punctum quod simul occidit. Ergo, si planetae semper in plano eclipticae iacerent, sci-",
+     "transcription": "situm punctum quod simul occidit. Ergo, si planetae semper in plano eclipticae iacerent, sci-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0708-body-L006",
+     "source_line_no": 6,
+     "tex": "licet latitudine destituti essent,",
+     "transcription": "licet latitudine destituti essent,",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0708-body-L007",
+     "source_line_no": 7,
+     "tex": "\\Indent\\Indent 1° apparitionum (aut occultationum) arcus essent aequales in punctis pariter ab uno",
+     "transcription": "1° apparitionum (aut occultationum) arcus essent aequales in punctis pariter ab uno",
+     "semantic_anchor": "AB01-PDF0708-P03",
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0708-body-L008",
+     "source_line_no": 8,
+     "tex": "aequinoctiorum elongatis;",
+     "transcription": "aequinoctiorum elongatis;",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0708-body-L009",
+     "source_line_no": 9,
+     "tex": "\\Indent\\Indent 2° apparitionis arcus puncti \\textit{x} aequarentur arcubus occultationis puncti \\textit{x} + 180°;",
+     "transcription": "2° apparitionis arcus puncti *x* aequarentur arcubus occultationis puncti *x* + 180°;",
+     "semantic_anchor": "AB01-PDF0708-P04",
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0708-body-L010",
+     "source_line_no": 10,
+     "tex": "\\Indent\\Indent 3° in punctis solstitialibus (90° et 270°), quae pariter ab aequinoctiis distant et diame-",
+     "transcription": "3° in punctis solstitialibus (90° et 270°), quae pariter ab aequinoctiis distant et diame-",
+     "semantic_anchor": "AB01-PDF0708-P05",
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0708-body-L011",
+     "source_line_no": 11,
+     "tex": "traliter inter se opposita sunt, arcus apparitionum aequarentur arcubus occultationum;",
+     "transcription": "traliter inter se opposita sunt, arcus apparitionum aequarentur arcubus occultationum;",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0708-body-L012",
+     "source_line_no": 12,
+     "tex": "\\Indent\\Indent 4° arcus apparitionum aut occultationum planetarum omnium pro dato eclipticae puncto",
+     "transcription": "4° arcus apparitionum aut occultationum planetarum omnium pro dato eclipticae puncto",
+     "semantic_anchor": "AB01-PDF0708-P06",
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0708-body-L013",
+     "source_line_no": 13,
+     "tex": "essent proportionales ad arcus visionis ipsorum planetarum; nam, in formula pro planetis in",
+     "transcription": "essent proportionales ad arcus visionis ipsorum planetarum; nam, in formula pro planetis in",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0708-body-L014",
+     "source_line_no": 14,
+     "tex": "ecliptica iacentibus, ad idem eclipticae punctum solus arcus visionis variaret.",
+     "transcription": "ecliptica iacentibus, ad idem eclipticae punctum solus arcus visionis variaret.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0708-body-L015",
+     "source_line_no": 15,
+     "tex": "\\Indent Nunc planetarum superiorum tabulas inspiciamus.",
+     "transcription": "Nunc planetarum superiorum tabulas inspiciamus.",
+     "semantic_anchor": "AB01-PDF0708-P07",
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0708-body-L016",
+     "source_line_no": 16,
+     "tex": "\\Indent In \\textit{Saturno} apud \\Name{Ptolemaeum} aequales sunt numeri apparitionum (aut occultationum)",
+     "transcription": "In *Saturno* apud {sp:Ptolemaeum} aequales sunt numeri apparitionum (aut occultationum)",
+     "semantic_anchor": "AB01-PDF0708-P08",
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0708-body-L017",
+     "source_line_no": 17,
+     "tex": "respondentes signis pariter ab alterutro aequinoctio remotis; discrepantes numeri pro signis",
+     "transcription": "respondentes signis pariter ab alterutro aequinoctio remotis; discrepantes numeri pro signis",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0708-body-L018",
+     "source_line_no": 18,
+     "tex": "diametraliter oppositis (solstitiis exceptis); discrepantes etiam apparitiones ab occultationibus",
+     "transcription": "diametraliter oppositis (solstitiis exceptis); discrepantes etiam apparitiones ab occultationibus",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0708-body-L019",
+     "source_line_no": 19,
+     "tex": "punctorum oppositorum; demum maximae minimaeque quantitates in aequinoctiis occurrunt.",
+     "transcription": "punctorum oppositorum; demum maximae minimaeque quantitates in aequinoctiis occurrunt.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0708-body-L020",
+     "source_line_no": 20,
+     "tex": "Inde patet Saturno esse latitudines \\textit{aequales} proxime in longitudinibus a 0° aut 180° aeque",
+     "transcription": "Inde patet Saturno esse latitudines *aequales* proxime in longitudinibus a 0° aut 180° aeque",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0708-body-L021",
+     "source_line_no": 21,
+     "tex": "distantibus, \\textit{maximas} circa aequinoctia, prope solstitia \\textit{nullas;} hoc est Saturni nodos prope",
+     "transcription": "distantibus, *maximas* circa aequinoctia, prope solstitia *nullas;* hoc est Saturni nodos prope",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0708-body-L022",
+     "source_line_no": 22,
+     "tex": "solstitia (90° et 270°) incidere, sicut etiam e doctrina latitudinum Ptolemaica elucet (1). — Sed",
+     "transcription": "solstitia (90° et 270°) incidere, sicut etiam e doctrina latitudinum Ptolemaica elucet (1). — Sed",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0708-body-L023",
+     "source_line_no": 23,
+     "tex": "in tabula \\Name{al-Battānī} arcus apparitionis haud multum differt ab arcu occultationis in initiis",
+     "transcription": "in tabula {sp:al-Battānī} arcus apparitionis haud multum differt ab arcu occultationis in initiis",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0708-body-L024",
+     "source_line_no": 24,
+     "tex": "Cancri et Capricorni, nec multum (infra 1° semper) discrepant inter se arcus apparitionum (aut",
+     "transcription": "Cancri et Capricorni, nec multum (infra 1° semper) discrepant inter se arcus apparitionum (aut",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0708-body-L025",
+     "source_line_no": 25,
+     "tex": "occultationum) locis ab uno aequinoctiorum aeque distantibus; unde colligitur latitudines Sa-",
+     "transcription": "occultationum) locis ab uno aequinoctiorum aeque distantibus; unde colligitur latitudines Sa-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0708-body-L026",
+     "source_line_no": 26,
+     "tex": "turni \\textit{nullas} esse punctis nonnihilo a solstitiis remotis, \\textit{maximas} locis nonnihilo ab aequi-",
+     "transcription": "turni *nullas* esse punctis nonnihilo a solstitiis remotis, *maximas* locis nonnihilo ab aequi-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0708-body-L027",
+     "source_line_no": 27,
+     "tex": "noctiis dissitis. Re vera Albatenio longitudo apogei Saturni pro 1191 Dhū ’l-qarnayn est",
+     "transcription": "noctiis dissitis. Re vera Albatenio longitudo apogei Saturni pro 1191 Dhū ’l-qarnayn est",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0708-body-L028",
+     "source_line_no": 28,
+     "tex": "244° 28′; ergo",
+     "transcription": "244° 28′; ergo",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0708-body-L029",
+     "source_line_no": 29,
+     "tex": "\\mbox{}\\rlap{\\hspace*{27.90mm}longitudo limitis borealis = 244° 28′ — 50° 0′ = 194° 28′}",
+     "transcription": "longitudo limitis borealis = 244° 28′ — 50° 0′ = 194° 28′",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0708-body-L030",
+     "source_line_no": 30,
+     "tex": "\\mbox{}\\rlap{\\hspace*{27.80mm}longitudo nodi ascendentis = 194° 28′ — 90° 0′ = 104° 28′.}",
+     "transcription": "longitudo nodi ascendentis = 194° 28′ — 90° 0′ = 104° 28′.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0708-body-L031",
+     "source_line_no": 31,
+     "tex": "Nodi scilicet in media puncta Cancri et Capricorni cadunt.",
+     "transcription": "Nodi scilicet in media puncta Cancri et Capricorni cadunt.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0708-body-L032",
+     "source_line_no": 32,
+     "tex": "\\Indent In \\textit{Iove} apud \\Name{Ptolemaeum} omnia quae in Saturno occurrunt; \\textit{nullae} latitudines igitur",
+     "transcription": "In *Iove* apud {sp:Ptolemaeum} omnia quae in Saturno occurrunt; *nullae* latitudines igitur",
+     "semantic_anchor": "AB01-PDF0708-P09",
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0708-body-L033",
+     "source_line_no": 33,
+     "tex": "paulo a solstitialibus punctis longe, \\textit{maximae} circa aequinoctia, \\textit{aequales} locis ab alterutro",
+     "transcription": "paulo a solstitialibus punctis longe, *maximae* circa aequinoctia, *aequales* locis ab alterutro",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0708-body-L034",
+     "source_line_no": 34,
+     "tex": "aequinoctio pariter remotis. Re vera apud Ptolemaeum long. limitis borealis Iovis = long.",
+     "transcription": "aequinoctio pariter remotis. Re vera apud Ptolemaeum long. limitis borealis Iovis = long.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0708-body-L035",
+     "source_line_no": 35,
+     "tex": "apogei + 20° = 152° 9′ + 20° = 172° 9′; cadunt igitur nodi 8° ante initium Cancri et Capri-",
+     "transcription": "apogei + 20° = 152° 9′ + 20° = 172° 9′; cadunt igitur nodi 8° ante initium Cancri et Capri-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0708-body-L036",
+     "source_line_no": 36,
+     "tex": "corni. — Nec aliter apud \\Name{al-Battānī}, iuxta quem:",
+     "transcription": "corni. — Nec aliter apud {sp:al-Battānī}, iuxta quem:",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0708-body-L037",
+     "source_line_no": 37,
+     "tex": "\\mbox{}\\rlap{\\hspace*{32.90mm}limes borealis Iovis = 164° 28′ + 20° 0′ = 184° 28′,}",
+     "transcription": "limes borealis Iovis = 164° 28′ + 20° 0′ = 184° 28′,",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0708-body-L038",
+     "source_line_no": 38,
+     "tex": "ita ut nodi 4° $\\qfrac{1}{2}$ post initia Cancri et Capricorni incidant.",
+     "transcription": "ita ut nodi 4° {sfrac:1/2} post initia Cancri et Capricorni incidant.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0708-body-L039",
+     "source_line_no": 39,
+     "tex": "\\Indent In \\textit{Marte,} apud \\Name{Ptolemaeum}, quae de Saturno et Iove diximus non occurrunt; sed",
+     "transcription": "In *Marte,* apud {sp:Ptolemaeum}, quae de Saturno et Iove diximus non occurrunt; sed",
+     "semantic_anchor": "AB01-PDF0708-P10",
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0708-body-L040",
+     "source_line_no": 40,
+     "tex": "arcus apparitionum haud multum differunt ab arcubus occultationum punctorum diametraliter",
+     "transcription": "arcus apparitionum haud multum differunt ab arcubus occultationum punctorum diametraliter",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    }
+   ]
+  },
+  {
+   "role": "notes_left",
+   "lines": [
+    {
+     "id": "AB01-PDF0708-notes_left-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (1) Longitudo limitis borealis Saturni aequatur",
+     "transcription": "(1) Longitudo limitis borealis Saturni aequatur",
+     "semantic_anchor": "AB01-PDF0708-N01",
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0708-notes_left-L002",
+     "source_line_no": null,
+     "tex": "longitudini apogei detractis 50°, ut p. 239, l. 8-9, dixi;",
+     "transcription": "longitudini apogei detractis 50°, ut p. 239, l. 8-9, dixi;",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0708-notes_left-L003",
+     "source_line_no": null,
+     "tex": "ergo, iuxta Ptolemaeum, 224° 10′ — 50° 0′ = 174° 10′.",
+     "transcription": "ergo, iuxta Ptolemaeum, 224° 10′ — 50° 0′ = 174° 10′.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  },
+  {
+   "role": "notes_right",
+   "lines": [
+    {
+     "id": "AB01-PDF0708-notes_right-L001",
+     "source_line_no": null,
+     "tex": "Qua re nodus ascendens 174° 10′ — 90° = 84° 10′, seu",
+     "transcription": "Qua re nodus ascendens 174° 10′ — 90° = 84° 10′, seu",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0708-notes_right-L002",
+     "source_line_no": null,
+     "tex": "haud longe ab initio Cancri; descendens 264° 10′,",
+     "transcription": "haud longe ab initio Cancri; descendens 264° 10′,",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0708-notes_right-L003",
+     "source_line_no": null,
+     "tex": "sex fere gradibus ante initium Capricorni.",
+     "transcription": "sex fere gradibus ante initium Capricorni.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  }
+ ]
+}
