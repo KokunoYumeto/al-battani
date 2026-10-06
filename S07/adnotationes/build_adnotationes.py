@@ -550,13 +550,13 @@ def section(items, prefix, role, numbered):
             continue
         if kind == "wrap":  # @wrap FRAC FILE: the figure figures/FILE.tex on the left, the following lines beside it
             # the boxes hang from their top: the strut height is taken back, so that the first line keeps its
-            # ordinary distance from the line above
+            # ordinary distance from the line above (not at the head of a section, where no line stands above)
             frac, fname, *ind = text.split()
             frac, gap = float(frac), 0.02
             ind = r"\hspace*{" + ind[0] + "mm}" if ind else ""
             fig += 1
             fid = f"{prefix}-{role}-F{fig:02d}"
-            out.append(r"\par\vspace{-\ht\strutbox}\noindent\begin{minipage}[t]{" + f"{frac:.3f}" + r"\FullSourceWidth}\vspace{0pt}"
+            out.append(r"\par" + (r"\vspace{-\ht\strutbox}" if n else "") + r"\noindent\begin{minipage}[t]{" + f"{frac:.3f}" + r"\FullSourceWidth}\vspace{0pt}"
                        + r"\hypertarget{" + fid + r"}{}" + ind + r"\input{figures/" + fname + r"}\end{minipage}\hfill"
                        + r"\begin{minipage}[t]{" + f"{1 - frac - gap:.3f}" + r"\FullSourceWidth}\vspace{0pt}"
                        + r"\setlength{\GutterOffset}{" + f"{frac + gap:.3f}" + r"\FullSourceWidth}")
@@ -569,7 +569,7 @@ def section(items, prefix, role, numbered):
             fig += 1
             fid = f"{prefix}-{role}-F{fig:02d}"
             wrapr = (float(x), fname, fid)
-            out.append(r"\par\vspace{-\ht\strutbox}\noindent\begin{minipage}[t]{" + f"{float(x) - 2:.2f}" + r"mm}\vspace{0pt}"
+            out.append(r"\par" + (r"\vspace{-\ht\strutbox}" if n else "") + r"\noindent\begin{minipage}[t]{" + f"{float(x) - 2:.2f}" + r"mm}\vspace{0pt}"
                        + r"\setlength{\GutterOffset}{0pt}")
             recs.append({"id": fid, "source_line_no": None, "tex": r"\input{figures/" + fname + "}",
                          "transcription": f"[figure, redrawn: figures/{fname}.tex]", "semantic_anchor": None,
@@ -691,7 +691,7 @@ def page(rec):
         out.append(r"\par\vspace{6pt}\hrule height.25pt\vspace{5pt}")
         for k, role in enumerate(("notes_left", "notes_right")):
             out.append((r"\hfill" if k else r"\noindent") + r"\begin{minipage}[t]{.48\textwidth}\vspace{0pt}"
-                       r"\fontsize{9}{11.5}\selectfont\setlength{\GutterOffset}{0pt}")
+                       r"\fontsize{9}{11.5}\selectfont\setlength{\GutterOffset}{0pt}\setlength{\FullSourceWidth}{\linewidth}")
             tex, recs = section(rec[role], prefix, role, False)
             out += tex + [r"\end{minipage}"]
             sections.append({"role": role, "lines": recs})

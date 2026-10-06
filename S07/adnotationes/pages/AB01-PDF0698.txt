@@ -1,0 +1,60 @@
+@page 698 249
+% the formulas begin where they begin on the print (mm from the left edge of the text, 58.8 pt); the numbers (1)-(3)
+% and the words «Cognitis», «et» stand at the left edge
+^ Ut calculus simplicior et ad nostras tabulas logarithmicas aptior fiat, ita operandum est:
+@vspace 1
+@at 0:(1) | 34.1:tang\enspace $KEN=R\,\dfrac{KN}{NE}=R\,\dfrac{r\cos\psi\sin i}{R^2\,\text{dist.\ epic.}\mp r\cos\psi\cos i}$
+@vspace 1.6
+@at 32.2:$BEK=KEN+BEH=KEN+$ inclinat. deferentis
+@vspace 1.6
+@at 48.3:$KE=R\,\dfrac{KN}{\sin KEN}=\dfrac{r\cos\psi\sin i}{R\sin KEN}$
+@vspace 1.6
+@at 40.3:$EB=KE\,\dfrac{\cos BEK}{R}=\dfrac{r\cos\psi\sin i\cos BEK}{R^2\sin KEN}$
+@vspace 1.6
+@at 22.9:tang\enspace $BEL=R\,\dfrac{BL}{EB}$\,, | 63.1:sed | 75.5:$BL=KT=\dfrac{r\sin\psi}{R}$\,, | 115.1:ergo (1)
+@vspace 1.6
+@at 0:(2) | 28.9:tang $BEL=R\,\dfrac{r\sin\psi\,R^2\sin KEN}{R\,r\cos\psi\sin i\cos BEK}=R\,\dfrac{\text{tang}\,\psi\sin KEN}{\sin i\cos BEK}$\,.
+@vspace 1.6
+@at 0:Cognitis | 40.0:$LT=KB=EB\,\dfrac{\sin BEK}{\cos BEK}=\dfrac{EB\,\text{tang}\,BEK}{R}$
+@vspace 1.6
+@at 0:et | 43.1:$EL=R\,\dfrac{EB}{\cos BEL}$\,,\enspace statim innotescet
+@vspace 1.6
+@at 0:(3) | 27.4:tang latit. $=$ tang\enspace $TEL=R\,\dfrac{LT}{EL}=\dfrac{\cos BEL\,\text{tang}\,BEK}{R}$\,.
+@vspace 1.5
+^ Tribus formulis 1, 2, 3 igitur *latitudines planetarum superiorum* computantur.
+^ Ad *planetas inferiores* (Venerem et Mercurium) nunc pergamus. Tres inaequalitates in
+latitudine sortiuntur, quas singillatim enumerabo:
+^^ I{sup:a} inaequalitas est deferentis ad planum eclipticae inclinatio (ἔγκλισις τοῦ ἐκκέντρου, apud
+nonnullos nostratum *deviatio*); eaque non ut in superioribus fixa, sed variabilis ad verum centri
+epicycli cursum (2). Nulla enim, centro epicycli alterutrum nodum (seu communem planorum
+deferentis et eclipticae sectionem) occupante, crescit postea gradatim cum epicyclus a nodis
+recedat, Venerem semper in boream ferens, Mercurium semper in austrum; maximam attingit
+quantitatem (10′ ad boream in Venere, 45′ ad austrum in Mercurio) in apogeo aut perigeo
+deferentis. Quoniam epicyclus in anno sidereo circumferentiam deferentis conficit, patet ex
+dictis apogeum deferentis dimidio anno esse boreale, dimidio anno australe.
+^^ II{sup:a} inaequalitas (ἔγκλισις τοῦ ἐπικύκλου « inclinatio epicycli », Arabum *mayl falak at-*
+*-tadwīr,* nostratum *inclinatio* vel *declinatio*) est inclinatio illius diametri epicycli, quae apogeum
+ac perigeum verum epicycli coniungit, ad planum deferentis. Apogeum et perigeum epicycli
+circellum quidem describunt perpendicularem ad planum deferentis, sicut in superioribus planetis
+vidimus; sed hac differentia quod inclinatio Veneri et Mercurio maxima fit in nodis, nulla in
+apogeo aut perigeo deferentis, nam in apogeo et perigeo deferentis diametrus illa epicycli in
+plano deferentis iacet. In apogeo deferentis verum apogeum epicycli Veneris ad boream de-
+ferentis incipit vergere, perigeum ad austrum; res contraria Mercurio contingit. In perigeo
+deferentis apogeum verum epicycli Veneris ad austrum, perigeum ad boream deferentis vergere
+@obs body L1: a short stroke like an acute accent is printed above the m of «simplicior»; not transcribed.
+@obs body: the theta of the Greek is printed in the open form ϑ, kappa in the curly form; transcribed ϑ and κ.
+@obs body L19: a mark like an apostrophe is printed between the u and the s of «austrum» (second occurrence); not transcribed.
+@notes
+ferentis oppositum. In Marte limes borealis est quoque
+apogeum deferentis, limes australis perigeum; non
+ita vero in Saturno et Iove. Saturni limes borealis
+50° ab apogeo deferentis in occasum versus distat;
+Iovis 20° ab apogeo in ortum; quod iam pag. 239,
+l. 8-10, vidimus.
+@col
+^ (1) Quia\quad $R\,\dfrac{\sin\psi}{\cos\psi}=$ tang ψ.
+^ (2) *Almag.* XIII, 1 (ed. Halma t. II, p. 370):
+Ὥστε καὶ ἐκ τούτου συνάγεσϑαι διότι αἱ μὲν τῶν ἐκκέν-
+τρων ἐγκλίσεις κινούμεναι καὶ αὐταὶ συναποκαϑίστανται
+ταῖς περιόδοις τῶν ἐπικύκλων.
+@sig 32

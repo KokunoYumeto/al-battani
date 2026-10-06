@@ -1,0 +1,362 @@
+{
+ "anchor": "AB01-PDF0698",
+ "master_pdf_page": 698,
+ "printed_page": 249,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": "32",
+ "observations": [
+  "body L1: a short stroke like an acute accent is printed above the m of «simplicior»; not transcribed.",
+  "body: the theta of the Greek is printed in the open form ϑ, kappa in the curly form; transcribed ϑ and κ.",
+  "body L19: a mark like an apostrophe is printed between the u and the s of «austrum» (second occurrence); not transcribed."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0698-body-L001",
+     "source_line_no": 1,
+     "tex": "\\Indent Ut calculus simplicior et ad nostras tabulas logarithmicas aptior fiat, ita operandum est:",
+     "transcription": "Ut calculus simplicior et ad nostras tabulas logarithmicas aptior fiat, ita operandum est:",
+     "semantic_anchor": "AB01-PDF0698-P01",
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0698-body-L002",
+     "source_line_no": 2,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.00mm}(1)}\\rlap{\\hspace*{34.10mm}tang\\enspace $KEN=R\\,\\dfrac{KN}{NE}=R\\,\\dfrac{r\\cos\\psi\\sin i}{R^2\\,\\text{dist.\\ epic.}\\mp r\\cos\\psi\\cos i}$}",
+     "transcription": "(1) tang\\enspace $KEN=R\\,\\dfrac{KN}{NE}=R\\,\\dfrac{r\\cos\\psi\\sin i}{R^2\\,\\text{dist.\\ epic.}\\mp r\\cos\\psi\\cos i}$",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0698-body-L003",
+     "source_line_no": 3,
+     "tex": "\\mbox{}\\rlap{\\hspace*{32.20mm}$BEK=KEN+BEH=KEN+$ inclinat. deferentis}",
+     "transcription": "$BEK=KEN+BEH=KEN+$ inclinat. deferentis",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0698-body-L004",
+     "source_line_no": 4,
+     "tex": "\\mbox{}\\rlap{\\hspace*{48.30mm}$KE=R\\,\\dfrac{KN}{\\sin KEN}=\\dfrac{r\\cos\\psi\\sin i}{R\\sin KEN}$}",
+     "transcription": "$KE=R\\,\\dfrac{KN}{\\sin KEN}=\\dfrac{r\\cos\\psi\\sin i}{R\\sin KEN}$",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0698-body-L005",
+     "source_line_no": 5,
+     "tex": "\\mbox{}\\rlap{\\hspace*{40.30mm}$EB=KE\\,\\dfrac{\\cos BEK}{R}=\\dfrac{r\\cos\\psi\\sin i\\cos BEK}{R^2\\sin KEN}$}",
+     "transcription": "$EB=KE\\,\\dfrac{\\cos BEK}{R}=\\dfrac{r\\cos\\psi\\sin i\\cos BEK}{R^2\\sin KEN}$",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0698-body-L006",
+     "source_line_no": 6,
+     "tex": "\\mbox{}\\rlap{\\hspace*{22.90mm}tang\\enspace $BEL=R\\,\\dfrac{BL}{EB}$\\,,}\\rlap{\\hspace*{63.10mm}sed}\\rlap{\\hspace*{75.50mm}$BL=KT=\\dfrac{r\\sin\\psi}{R}$\\,,}\\rlap{\\hspace*{115.10mm}ergo (1)}",
+     "transcription": "tang\\enspace $BEL=R\\,\\dfrac{BL}{EB}$\\,, sed $BL=KT=\\dfrac{r\\sin\\psi}{R}$\\,, ergo (1)",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0698-body-L007",
+     "source_line_no": 7,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.00mm}(2)}\\rlap{\\hspace*{28.90mm}tang $BEL=R\\,\\dfrac{r\\sin\\psi\\,R^2\\sin KEN}{R\\,r\\cos\\psi\\sin i\\cos BEK}=R\\,\\dfrac{\\text{tang}\\,\\psi\\sin KEN}{\\sin i\\cos BEK}$\\,.}",
+     "transcription": "(2) tang $BEL=R\\,\\dfrac{r\\sin\\psi\\,R^2\\sin KEN}{R\\,r\\cos\\psi\\sin i\\cos BEK}=R\\,\\dfrac{\\text{tang}\\,\\psi\\sin KEN}{\\sin i\\cos BEK}$\\,.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0698-body-L008",
+     "source_line_no": 8,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.00mm}Cognitis}\\rlap{\\hspace*{40.00mm}$LT=KB=EB\\,\\dfrac{\\sin BEK}{\\cos BEK}=\\dfrac{EB\\,\\text{tang}\\,BEK}{R}$}",
+     "transcription": "Cognitis $LT=KB=EB\\,\\dfrac{\\sin BEK}{\\cos BEK}=\\dfrac{EB\\,\\text{tang}\\,BEK}{R}$",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0698-body-L009",
+     "source_line_no": 9,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.00mm}et}\\rlap{\\hspace*{43.10mm}$EL=R\\,\\dfrac{EB}{\\cos BEL}$\\,,\\enspace statim innotescet}",
+     "transcription": "et $EL=R\\,\\dfrac{EB}{\\cos BEL}$\\,,\\enspace statim innotescet",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0698-body-L010",
+     "source_line_no": 10,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.00mm}(3)}\\rlap{\\hspace*{27.40mm}tang latit. $=$ tang\\enspace $TEL=R\\,\\dfrac{LT}{EL}=\\dfrac{\\cos BEL\\,\\text{tang}\\,BEK}{R}$\\,.}",
+     "transcription": "(3) tang latit. $=$ tang\\enspace $TEL=R\\,\\dfrac{LT}{EL}=\\dfrac{\\cos BEL\\,\\text{tang}\\,BEK}{R}$\\,.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0698-body-L011",
+     "source_line_no": 11,
+     "tex": "\\Indent Tribus formulis 1, 2, 3 igitur \\textit{latitudines planetarum superiorum} computantur.",
+     "transcription": "Tribus formulis 1, 2, 3 igitur *latitudines planetarum superiorum* computantur.",
+     "semantic_anchor": "AB01-PDF0698-P02",
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0698-body-L012",
+     "source_line_no": 12,
+     "tex": "\\Indent Ad \\textit{planetas inferiores} (Venerem et Mercurium) nunc pergamus. Tres inaequalitates in",
+     "transcription": "Ad *planetas inferiores* (Venerem et Mercurium) nunc pergamus. Tres inaequalitates in",
+     "semantic_anchor": "AB01-PDF0698-P03",
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0698-body-L013",
+     "source_line_no": 13,
+     "tex": "latitudine sortiuntur, quas singillatim enumerabo:",
+     "transcription": "latitudine sortiuntur, quas singillatim enumerabo:",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0698-body-L014",
+     "source_line_no": 14,
+     "tex": "\\Indent\\Indent I\\textsuperscript{a} inaequalitas est deferentis ad planum eclipticae inclinatio (\\textgreek{ἔγκλισις τοῦ ἐκκέντρου}, apud",
+     "transcription": "I{sup:a} inaequalitas est deferentis ad planum eclipticae inclinatio (ἔγκλισις τοῦ ἐκκέντρου, apud",
+     "semantic_anchor": "AB01-PDF0698-P04",
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0698-body-L015",
+     "source_line_no": 15,
+     "tex": "nonnullos nostratum \\textit{deviatio}); eaque non ut in superioribus fixa, sed variabilis ad verum centri",
+     "transcription": "nonnullos nostratum *deviatio*); eaque non ut in superioribus fixa, sed variabilis ad verum centri",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0698-body-L016",
+     "source_line_no": 16,
+     "tex": "epicycli cursum (2). Nulla enim, centro epicycli alterutrum nodum (seu communem planorum",
+     "transcription": "epicycli cursum (2). Nulla enim, centro epicycli alterutrum nodum (seu communem planorum",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0698-body-L017",
+     "source_line_no": 17,
+     "tex": "deferentis et eclipticae sectionem) occupante, crescit postea gradatim cum epicyclus a nodis",
+     "transcription": "deferentis et eclipticae sectionem) occupante, crescit postea gradatim cum epicyclus a nodis",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0698-body-L018",
+     "source_line_no": 18,
+     "tex": "recedat, Venerem semper in boream ferens, Mercurium semper in austrum; maximam attingit",
+     "transcription": "recedat, Venerem semper in boream ferens, Mercurium semper in austrum; maximam attingit",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0698-body-L019",
+     "source_line_no": 19,
+     "tex": "quantitatem (10′ ad boream in Venere, 45′ ad austrum in Mercurio) in apogeo aut perigeo",
+     "transcription": "quantitatem (10′ ad boream in Venere, 45′ ad austrum in Mercurio) in apogeo aut perigeo",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0698-body-L020",
+     "source_line_no": 20,
+     "tex": "deferentis. Quoniam epicyclus in anno sidereo circumferentiam deferentis conficit, patet ex",
+     "transcription": "deferentis. Quoniam epicyclus in anno sidereo circumferentiam deferentis conficit, patet ex",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0698-body-L021",
+     "source_line_no": 21,
+     "tex": "dictis apogeum deferentis dimidio anno esse boreale, dimidio anno australe.",
+     "transcription": "dictis apogeum deferentis dimidio anno esse boreale, dimidio anno australe.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0698-body-L022",
+     "source_line_no": 22,
+     "tex": "\\Indent\\Indent II\\textsuperscript{a} inaequalitas (\\textgreek{ἔγκλισις τοῦ ἐπικύκλου} « inclinatio epicycli », Arabum \\textit{mayl falak at-}",
+     "transcription": "II{sup:a} inaequalitas (ἔγκλισις τοῦ ἐπικύκλου « inclinatio epicycli », Arabum *mayl falak at-*",
+     "semantic_anchor": "AB01-PDF0698-P05",
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0698-body-L023",
+     "source_line_no": 23,
+     "tex": "\\textit{-tadwīr,} nostratum \\textit{inclinatio} vel \\textit{declinatio}) est inclinatio illius diametri epicycli, quae apogeum",
+     "transcription": "*-tadwīr,* nostratum *inclinatio* vel *declinatio*) est inclinatio illius diametri epicycli, quae apogeum",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0698-body-L024",
+     "source_line_no": 24,
+     "tex": "ac perigeum verum epicycli coniungit, ad planum deferentis. Apogeum et perigeum epicycli",
+     "transcription": "ac perigeum verum epicycli coniungit, ad planum deferentis. Apogeum et perigeum epicycli",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0698-body-L025",
+     "source_line_no": 25,
+     "tex": "circellum quidem describunt perpendicularem ad planum deferentis, sicut in superioribus planetis",
+     "transcription": "circellum quidem describunt perpendicularem ad planum deferentis, sicut in superioribus planetis",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0698-body-L026",
+     "source_line_no": 26,
+     "tex": "vidimus; sed hac differentia quod inclinatio Veneri et Mercurio maxima fit in nodis, nulla in",
+     "transcription": "vidimus; sed hac differentia quod inclinatio Veneri et Mercurio maxima fit in nodis, nulla in",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0698-body-L027",
+     "source_line_no": 27,
+     "tex": "apogeo aut perigeo deferentis, nam in apogeo et perigeo deferentis diametrus illa epicycli in",
+     "transcription": "apogeo aut perigeo deferentis, nam in apogeo et perigeo deferentis diametrus illa epicycli in",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0698-body-L028",
+     "source_line_no": 28,
+     "tex": "plano deferentis iacet. In apogeo deferentis verum apogeum epicycli Veneris ad boream de-",
+     "transcription": "plano deferentis iacet. In apogeo deferentis verum apogeum epicycli Veneris ad boream de-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0698-body-L029",
+     "source_line_no": 29,
+     "tex": "ferentis incipit vergere, perigeum ad austrum; res contraria Mercurio contingit. In perigeo",
+     "transcription": "ferentis incipit vergere, perigeum ad austrum; res contraria Mercurio contingit. In perigeo",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    },
+    {
+     "id": "AB01-PDF0698-body-L030",
+     "source_line_no": 30,
+     "tex": "deferentis apogeum verum epicycli Veneris ad austrum, perigeum ad boream deferentis vergere",
+     "transcription": "deferentis apogeum verum epicycli Veneris ad austrum, perigeum ad boream deferentis vergere",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_ADNOTATIONES"
+    }
+   ]
+  },
+  {
+   "role": "notes_left",
+   "lines": [
+    {
+     "id": "AB01-PDF0698-notes_left-L001",
+     "source_line_no": null,
+     "tex": "ferentis oppositum. In Marte limes borealis est quoque",
+     "transcription": "ferentis oppositum. In Marte limes borealis est quoque",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0698-notes_left-L002",
+     "source_line_no": null,
+     "tex": "apogeum deferentis, limes australis perigeum; non",
+     "transcription": "apogeum deferentis, limes australis perigeum; non",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0698-notes_left-L003",
+     "source_line_no": null,
+     "tex": "ita vero in Saturno et Iove. Saturni limes borealis",
+     "transcription": "ita vero in Saturno et Iove. Saturni limes borealis",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0698-notes_left-L004",
+     "source_line_no": null,
+     "tex": "50° ab apogeo deferentis in occasum versus distat;",
+     "transcription": "50° ab apogeo deferentis in occasum versus distat;",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0698-notes_left-L005",
+     "source_line_no": null,
+     "tex": "Iovis 20° ab apogeo in ortum; quod iam pag. 239,",
+     "transcription": "Iovis 20° ab apogeo in ortum; quod iam pag. 239,",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0698-notes_left-L006",
+     "source_line_no": null,
+     "tex": "l. 8-10, vidimus.",
+     "transcription": "l. 8-10, vidimus.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  },
+  {
+   "role": "notes_right",
+   "lines": [
+    {
+     "id": "AB01-PDF0698-notes_right-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (1) Quia\\quad $R\\,\\dfrac{\\sin\\psi}{\\cos\\psi}=$ tang \\textgreek{ψ}.",
+     "transcription": "(1) Quia\\quad $R\\,\\dfrac{\\sin\\psi}{\\cos\\psi}=$ tang ψ.",
+     "semantic_anchor": "AB01-PDF0698-N01",
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0698-notes_right-L002",
+     "source_line_no": null,
+     "tex": "\\Indent (2) \\textit{Almag.} XIII, 1 (ed. Halma t. II, p. 370):",
+     "transcription": "(2) *Almag.* XIII, 1 (ed. Halma t. II, p. 370):",
+     "semantic_anchor": "AB01-PDF0698-N02",
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0698-notes_right-L003",
+     "source_line_no": null,
+     "tex": "\\textgreek{Ὥστε καὶ ἐκ τούτου συνάγεσϑαι διότι αἱ μὲν τῶν ἐκκέν}-",
+     "transcription": "Ὥστε καὶ ἐκ τούτου συνάγεσϑαι διότι αἱ μὲν τῶν ἐκκέν-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0698-notes_right-L004",
+     "source_line_no": null,
+     "tex": "\\textgreek{τρων ἐγκλίσεις κινούμεναι καὶ αὐταὶ συναποκαϑίστανται}",
+     "transcription": "τρων ἐγκλίσεις κινούμεναι καὶ αὐταὶ συναποκαϑίστανται",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0698-notes_right-L005",
+     "source_line_no": null,
+     "tex": "\\textgreek{ταῖς περιόδοις τῶν ἐπικύκλων}.",
+     "transcription": "ταῖς περιόδοις τῶν ἐπικύκλων.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  }
+ ]
+}
