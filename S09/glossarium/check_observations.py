@@ -13,6 +13,7 @@ HERE = Path(__file__).resolve().parent
 
 
 def plain(s):
+    s = s.replace("{0}", "0")  # the zero sign of the tables
     s = re.sub(r"\{ov:([^{}]*)\}", r"\1", s)
     s = re.sub(r"\{(?:sp|sc|gb|sup|sub|sm|fs|xs|ar|syr|rtl|spsc):([^}]*)\}", r"\1", s)
     s = re.sub(r"\{sfrac:([^/}]+)/([^}]+)\}", r"\1/\2", s)

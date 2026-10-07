@@ -73,7 +73,7 @@ Inline markup: *italic*, **bold**, {gb:...} bold grotesque (the «Pag.» heads),
 {spsc:...} letter-spaced small capitals, {fs:...} the small type of table heads, {sm:...} a smaller type,
 {xs:...} the smallest type (the heads of narrow columns),
 {sc:...} small capitals, {sup:...} superscript, {sub:...} subscript, {sfrac:a/b} a small fraction, {0} the zero
-sign of the tables, {lbrace3} and {rbrace3} a left and a right brace over three lines (written on the middle one),
+sign of the tables (also inside {ar:...}), {lbrace3} and {rbrace3} a left and a right brace over three lines (written on the middle one),
 {rbrace2} a right brace over two lines (written on the first), {vrule2} a thin vertical rule over two lines (written
 on the first), {ar:...} an Arabic phrase with its own brackets and punctuation, set as one right-to-left run
 (inside it {ov:...} are overlined letters, the letters of a geometrical figure: {ar:قوْسَا {ov:اب} و {ov:ج د}}),
@@ -192,6 +192,7 @@ def markup(s):
     def stash(m):  # {ar:...}: an Arabic phrase with its own punctuation and brackets, set as one right-to-left run;
         # inside it {ov:...} marks overlined letters (the letters of a geometrical figure)
         body = re.sub(r"\{ov:([^{}]*)\}", lambda o: r"\ArOver{" + o.group(1) + "}", m.group(1))
+        body = body.replace("{0}", r"\AbjadZero{}")  # the zero sign of the tables inside an Arabic phrase (p. 328)
         keep.append(r"\ArabicRun{" + body + "}")
         return f"\uE003{len(keep) - 1}\uE004"
 
@@ -203,7 +204,7 @@ def markup(s):
         keep.append(r"\textsyriac{" + m.group(1) + "}")
         return f"{len(keep) - 1}"
 
-    s = re.sub(r"\{ar:((?:[^{}]|\{ov:[^{}]*\})*)\}", stash, s)
+    s = re.sub(r"\{ar:((?:[^{}]|\{ov:[^{}]*\}|\{0\})*)\}", stash, s)
     s = re.sub(r"\{rtl:([^}]*)\}", stash_rtl, s)
     s = re.sub(r"\{syr:([^}]*)\}", stash_syr, s)
     s = s.replace("\\*", "\uE002").replace("&", r"\&").replace("%", r"\%").replace("#", r"\#")

@@ -2,7 +2,7 @@
 
 Nallino's *Glossarium* of al-Battānī's technical vocabulary: Arabic headwords, often vowelled, with their Latin, Greek and Arabic explanations and with references to the pages and lines of the Arabic text (Part III), printed in Arabic-Indic numerals. The edition is diplomatic and line-anchored, in the format of the S07 edition of the notes on the tables: every printed line is one line of the edition, with its hyphenation, its punctuation, its letter-spaced names and its italics, and every line has a stable anchor.
 
-The transcription is in progress. It begins at the title page of the glossary (p. 319) and runs page by page; pp. 319–327 are done (the introduction, pp. 319–321, and the entries from ابد to حرف).
+The transcription is in progress. It begins at the title page of the glossary (p. 319) and runs page by page; pp. 319–328 are done (the introduction, pp. 319–321, and the entries from ابد to حصص).
 
 ## Read
 
@@ -30,6 +30,7 @@ The transcription is in progress. It begins at the title page of the glossary (p
 - Greek, Arabic, Syriac and Hebrew words, numbers and diacritics are read on enlarged images of the scan (up to 3,000 dpi).
 - The Greek type has two sorts of theta, θ and ϑ; each is transcribed as printed. It casts ὁ (omicron with the rough breathing) as one sort that resembles δ (ὁ Κρατήρ, ὁ Βοώτης, ὁρίζων); it is transcribed ὁ.
 - The rule over the footnotes is printed 115 points (40.6 mm) long and centred; the edition sets it so.
+- The zero sign of the tables, which Nallino also prints inside Arabic quotations (p. 328), is transcribed `{0}` and set in `fonts/NallinoSigns.otf`.
 - A reading that departs from what one expects is kept as printed and described in the page record (for example «دراع» printed without the dot of dhāl on p. 319).
 
 ## Rebuild
