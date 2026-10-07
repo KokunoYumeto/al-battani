@@ -25,6 +25,7 @@ The transcription covers all of the notes, from the half-title (p. 189) to the o
 - Anchors: `AB01-PDF0641-body-L012` is line 12 of the body of master PDF page 641 (printed p. 192); `notes_left`, `notes_right` and `notes` are the footnote columns. `AB01-PDF0641-N02` marks the start of footnote 2, `-P03` the third paragraph, `-H01` a heading.
 - Greek, Arabic, Hebrew, Syriac and Ethiopic are transcribed in their own scripts, with the vowel signs that are printed. The transliterations follow Nallino's system as printed (*ǵ*, *ḥ*, *ṭ*, *‘*, *’*).
 - Greek, Arabic, Syriac and Hebrew words, numbers, abbreviations and diacritics were read on enlarged images of the scan (400 to 2,400 dpi).
+- The rule over the footnotes is printed 115 points (40.6 mm) long and centred; the edition sets it so.
 - A reading that departs from what one expects is kept as printed and described in the page record. An observation names the line or lines it concerns; `check_observations.py` reports the quoted words that stand on another line of the page. Its five remaining reports quote the context of the observation (for example «5° 2/3», named as the fraction printed before «11° 2/8»).
 
 ## Rebuild

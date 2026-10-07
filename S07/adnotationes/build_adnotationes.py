@@ -892,6 +892,12 @@ def section(items, prefix, role, numbered):
     return out, recs
 
 
+# the rule over the footnotes: printed 115 PDF points (40.6 mm, 115.43 TeX points) long and centred over the text on
+# every page with notes; it takes the vertical place of an \hrule (no interline glue before it or after it)
+NOTE_RULE = (r"\nointerlineskip\hbox to\textwidth{\hss\vrule width 115.43pt height.25pt depth0pt\hss}"
+             r"\prevdepth=-1000pt ")
+
+
 def page(rec):
     CALC.clear()
     CALC.update(CALC_DEFAULT)
@@ -905,12 +911,12 @@ def page(rec):
     out += tex
     sections.append({"role": "body", "lines": recs})
     if rec["notes"]:
-        out.append(r"\par\vspace{6pt}\hrule height.25pt\vspace{5pt}{\fontsize{9}{11.5}\selectfont")
+        out.append(r"\par\vspace{6pt}" + NOTE_RULE + r"\vspace{5pt}{\fontsize{9}{11.5}\selectfont")
         tex, recs = section(rec["notes"], prefix, "notes", False)
         out += tex + ["}"]
         sections.append({"role": "notes", "lines": recs})
     elif rec["notes_left"] or rec["notes_right"]:
-        out.append(r"\par\vspace{6pt}\hrule height.25pt\vspace{5pt}")
+        out.append(r"\par\vspace{6pt}" + NOTE_RULE + r"\vspace{5pt}")
         for k, role in enumerate(("notes_left", "notes_right")):  # the print sets a thin rule between the columns,
             # as deep as the longer column (an unsized \vrule takes the depth of the line, i.e. of the minipages)
             out.append((r"\hfill\vrule width.3pt\hfill" if k else r"\noindent")
