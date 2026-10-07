@@ -2,7 +2,7 @@
 
 Nallino's *Glossarium* of al-Battānī's technical vocabulary: Arabic headwords, often vowelled, with their Latin, Greek and Arabic explanations and with references to the pages and lines of the Arabic text (Part III), printed in Arabic-Indic numerals. The edition is diplomatic and line-anchored, in the format of the S07 edition of the notes on the tables: every printed line is one line of the edition, with its hyphenation, its punctuation, its letter-spaced names and its italics, and every line has a stable anchor.
 
-The transcription is in progress. It begins at the title page of the glossary (p. 319) and runs page by page; pp. 319–325 are done (the introduction, pp. 319–321, and the entries from ابد to ثبت).
+The transcription is in progress. It begins at the title page of the glossary (p. 319) and runs page by page; pp. 319–326 are done (the introduction, pp. 319–321, and the entries from ابد to جذر).
 
 ## Read
 
@@ -27,6 +27,8 @@ The transcription is in progress. It begins at the title page of the glossary (p
 - Each Arabic example is a run read from the right inside the Latin text, which runs from the left. An example broken at the end of a line has its first words at the right end of that line and its last words at the beginning of the next; each line gives its own words in reading order.
 - The vowel signs open the printed lines unevenly. Each page file gives the printed baselines of its lines (`@baselines`, measured on the scan) and the position of the rule over the notes (`@noterule`); the build sets every line there.
 - Greek, Arabic, Syriac and Hebrew words, numbers and diacritics are read on enlarged images of the scan (up to 3,000 dpi).
+- The Greek type has two sorts of theta, θ and ϑ; each is transcribed as printed. It casts ὁ (omicron with the rough breathing) as one sort that resembles δ (ὁ Κρατήρ, ὁ Βοώτης, ὁρίζων); it is transcribed ὁ.
+- The rule over the footnotes is printed 115 points (40.6 mm) long and centred; the edition sets it so.
 - A reading that departs from what one expects is kept as printed and described in the page record (for example «دراع» printed without the dot of dhāl on p. 319).
 
 ## Rebuild

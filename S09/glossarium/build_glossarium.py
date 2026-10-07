@@ -689,6 +689,10 @@ LEADING = {"body": 13.8, "notes": 11.5, "notes_left": 11.5, "notes_right": 11.5}
 # the hanging indent of the entries: on p. 322 the entries begin at 114.3-116.2 PDF points and their continuation
 # lines at 135.4-138.2
 HANG = f"{21.2 * BP:.2f}pt"
+# the rule over the footnotes: printed 115 PDF points long (40.6 mm), centred over the text, on every page with notes
+# (pp. 319-326); it takes the vertical place of an \hrule (no interline glue before it or after it)
+NOTE_RULE = (r"\nointerlineskip\hbox to\textwidth{\hss\vrule width " + f"{115 * BP:.2f}"
+             + r"pt height.25pt depth0pt\hss}\prevdepth=-1000pt ")
 
 
 def section(items, prefix, role, numbered):
@@ -969,12 +973,12 @@ def page(rec):
         above = f"{(rec['noterule'] - body_bl[-1]) * BP - 4.14 - .125:.2f}pt"
         below = f"{(note_bl[0] - rec['noterule']) * BP - .125 - 8.05:.2f}pt"
     if rec["notes"]:
-        out.append(r"\par\vspace{" + above + r"}\hrule height.25pt\vspace{" + below + r"}{\fontsize{9}{11.5}\selectfont")
+        out.append(r"\par\vspace{" + above + "}" + NOTE_RULE + r"\vspace{" + below + r"}{\fontsize{9}{11.5}\selectfont")
         tex, recs = section(rec["notes"], prefix, "notes", False)
         out += tex + ["}"]
         sections.append({"role": "notes", "lines": recs})
     elif rec["notes_left"] or rec["notes_right"]:
-        out.append(r"\par\vspace{" + above + r"}\hrule height.25pt\vspace{" + below + "}")
+        out.append(r"\par\vspace{" + above + "}" + NOTE_RULE + r"\vspace{" + below + "}")
         for k, role in enumerate(("notes_left", "notes_right")):  # the print sets a thin rule between the columns,
             # as deep as the longer column (an unsized \vrule takes the depth of the line, i.e. of the minipages)
             out.append((r"\hfill\vrule width.3pt\hfill" if k else r"\noindent")
