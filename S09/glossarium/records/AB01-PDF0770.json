@@ -7,7 +7,7 @@
  "blank": false,
  "signature": "41",
  "observations": [
-  "body L1, L9, L15, L27: «وقد» (L1) is printed with an elongated join (kashīda), not transcribed; «منهـا» (L9), «هـذا» (L15) and «وأردنـا» (L27) are printed with long joins, transcribed with a tatweel.",
+  "body L1, L9, L15, L27: «وقد» (L1), «منها» (L9), «هذا» (L15) and «وأردنا» (L27) are printed with elongated joins (kashīda), not transcribed.",
   "body L9: the line is one Arabic run, read from the right, ending in the points «.....» at its left end; the point at its right end is the full stop of the Latin sentence, set after the run.",
   "body L13, L20, L23: «وَتَرُ» (L13) has fatha, fatha and damma; «وَتَر» (L20) is printed with two fathas and no vowel on the r.",
   "body L20, L24: «راجعا» (L20) is printed without the tanwīn that «راجعًا» has in L21-L24.",
@@ -88,8 +88,8 @@
     {
      "id": "AB01-PDF0770-body-L009",
      "source_line_no": 9,
-     "tex": "\\ArabicRun{يتهيّأ أَنْ يكون اكثرَ منهـا إِلّا اذا كان.....}.",
-     "transcription": "{ar:يتهيّأ أَنْ يكون اكثرَ منهـا إِلّا اذا كان.....}.",
+     "tex": "\\ArabicRun{يتهيّأ أَنْ يكون اكثرَ منها إِلّا اذا كان.....}.",
+     "transcription": "{ar:يتهيّأ أَنْ يكون اكثرَ منها إِلّا اذا كان.....}.",
      "semantic_anchor": null,
      "source_role": "NALLINO_GLOSSARIUM"
     },
@@ -136,8 +136,8 @@
     {
      "id": "AB01-PDF0770-body-L015",
      "source_line_no": 15,
-     "tex": "\\ArabicRun{القمر في دائرة الارتفاع هـذا} « in hanc parallaxim lunarem altitudinis »; — {\\arabicfont ١٣٠}\\textsubscript{2}: \\ArabicRun{فعلم المقدار في}",
-     "transcription": "{ar:القمر في دائرة الارتفاع هـذا} « in hanc parallaxim lunarem altitudinis »; — ١٣٠{sub:2}: {ar:فعلم المقدار في}",
+     "tex": "\\ArabicRun{القمر في دائرة الارتفاع هذا} « in hanc parallaxim lunarem altitudinis »; — {\\arabicfont ١٣٠}\\textsubscript{2}: \\ArabicRun{فعلم المقدار في}",
+     "transcription": "{ar:القمر في دائرة الارتفاع هذا} « in hanc parallaxim lunarem altitudinis »; — ١٣٠{sub:2}: {ar:فعلم المقدار في}",
      "semantic_anchor": null,
      "source_role": "NALLINO_GLOSSARIUM"
     },
@@ -232,8 +232,8 @@
     {
      "id": "AB01-PDF0770-body-L027",
      "source_line_no": 27,
-     "tex": "(l. 3 a f.) \\ArabicRun{هو قوس الجيب معكوسًا} « isque est arcus versus sinus »; — ibid. (l. 2 a f.) \\ArabicRun{وأردنـا}",
-     "transcription": "(l. 3 a f.) {ar:هو قوس الجيب معكوسًا} « isque est arcus versus sinus »; — ibid. (l. 2 a f.) {ar:وأردنـا}",
+     "tex": "(l. 3 a f.) \\ArabicRun{هو قوس الجيب معكوسًا} « isque est arcus versus sinus »; — ibid. (l. 2 a f.) \\ArabicRun{وأردنا}",
+     "transcription": "(l. 3 a f.) {ar:هو قوس الجيب معكوسًا} « isque est arcus versus sinus »; — ibid. (l. 2 a f.) {ar:وأردنا}",
      "semantic_anchor": null,
      "source_role": "NALLINO_GLOSSARIUM"
     },

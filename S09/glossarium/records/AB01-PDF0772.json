@@ -13,7 +13,8 @@
   "body L14, L27: a small mark before «Paris» (L14) and one over the e of «sphaerali» (L27) are not transcribed.",
   "body L23: «ibn Aḥmad» is not letter-spaced, unlike «Muḥammad» and «ibn Ghāzī».",
   "body L6, L25: the sign over the alif of «ألِفْ» and of «أدقّها» is the hamza alone (3.5 by 3.1 points, the shape of the hamza of «رأس» in L6), not a hamza with a damma; «رَدُّك» has no vowel on the k.",
-  "body L20, L28: «Caussin» is letter-spaced in L20, not in L28."
+  "body L20, L28: «Caussin» is letter-spaced in L20, not in L28.",
+  "body L11, L21, L25: «البرهان» (L11), «ثالثة» (L21) and «وذلك» (L25) are printed with elongated joins (kashīda), not transcribed."
  ],
  "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
  "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
@@ -105,8 +106,8 @@
     {
      "id": "AB01-PDF0772-body-L011",
      "source_line_no": 11,
-     "tex": "\\ArabicRun{بُرْهَانٌ} \\textit{demonstratio geometrica} {\\arabicfont ١٣}\\textsubscript{13}, {\\arabicfont ١٤}\\textsubscript{15. 16, 17, 18}, {\\arabicfont ١٥}\\textsubscript{11}, {\\arabicfont ٧٦}\\textsubscript{10}, {\\arabicfont ٧٧}\\textsubscript{14}, {\\arabicfont ٩٥}\\textsubscript{7}, {\\arabicfont ١٢٩}\\textsubscript{15}; — \\ArabicRun{البرهـان}",
-     "transcription": "{ar:بُرْهَانٌ} *demonstratio geometrica* ١٣{sub:13}, ١٤{sub:15. 16, 17, 18}, ١٥{sub:11}, ٧٦{sub:10}, ٧٧{sub:14}, ٩٥{sub:7}, ١٢٩{sub:15}; — {ar:البرهـان}",
+     "tex": "\\ArabicRun{بُرْهَانٌ} \\textit{demonstratio geometrica} {\\arabicfont ١٣}\\textsubscript{13}, {\\arabicfont ١٤}\\textsubscript{15. 16, 17, 18}, {\\arabicfont ١٥}\\textsubscript{11}, {\\arabicfont ٧٦}\\textsubscript{10}, {\\arabicfont ٧٧}\\textsubscript{14}, {\\arabicfont ٩٥}\\textsubscript{7}, {\\arabicfont ١٢٩}\\textsubscript{15}; — \\ArabicRun{البرهان}",
+     "transcription": "{ar:بُرْهَانٌ} *demonstratio geometrica* ١٣{sub:13}, ١٤{sub:15. 16, 17, 18}, ١٥{sub:11}, ٧٦{sub:10}, ٧٧{sub:14}, ٩٥{sub:7}, ١٢٩{sub:15}; — {ar:البرهان}",
      "semantic_anchor": "AB01-PDF0772-E05",
      "source_role": "NALLINO_GLOSSARIUM"
     },
@@ -185,8 +186,8 @@
     {
      "id": "AB01-PDF0772-body-L021",
      "source_line_no": 21,
-     "tex": "\\hspace*{21.28pt}ab initio Arietis supputatos: \\ArabicRun{وسط الشمس في السنة الفارسيّة يا كط مه لط مه ثالثـة يكون}",
-     "transcription": "ab initio Arietis supputatos: {ar:وسط الشمس في السنة الفارسيّة يا كط مه لط مه ثالثـة يكون}",
+     "tex": "\\hspace*{21.28pt}ab initio Arietis supputatos: \\ArabicRun{وسط الشمس في السنة الفارسيّة يا كط مه لط مه ثالثة يكون}",
+     "transcription": "ab initio Arietis supputatos: {ar:وسط الشمس في السنة الفارسيّة يا كط مه لط مه ثالثة يكون}",
      "semantic_anchor": null,
      "source_role": "NALLINO_GLOSSARIUM"
     },
@@ -217,8 +218,8 @@
     {
      "id": "AB01-PDF0772-body-L025",
      "source_line_no": 25,
-     "tex": "\\mbox{}\\rlap{\\hspace*{98.20mm}\\smash{\\makebox[0pt][c]{\\ArabicRun{وبَسْطُها رَدُّك ما فيها ألِفْ}}}}\\rlap{\\hspace*{51.10mm}\\smash{\\makebox[0pt][c]{\\ArabicRun{الى أدقّها وذلـك يختَلِفْ}}}}",
-     "transcription": "{ar:وبَسْطُها رَدُّك ما فيها ألِفْ} {ar:الى أدقّها وذلـك يختَلِفْ}",
+     "tex": "\\mbox{}\\rlap{\\hspace*{98.20mm}\\smash{\\makebox[0pt][c]{\\ArabicRun{وبَسْطُها رَدُّك ما فيها ألِفْ}}}}\\rlap{\\hspace*{51.10mm}\\smash{\\makebox[0pt][c]{\\ArabicRun{الى أدقّها وذلك يختَلِفْ}}}}",
+     "transcription": "{ar:وبَسْطُها رَدُّك ما فيها ألِفْ} {ar:الى أدقّها وذلك يختَلِفْ}",
      "semantic_anchor": null,
      "source_role": "NALLINO_GLOSSARIUM"
     },
