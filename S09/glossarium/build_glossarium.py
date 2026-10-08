@@ -69,7 +69,7 @@ Transcription format (UTF-8; one printed line per source line, as printed, with 
   @obs TEXT              an observation on the print (a letter that did not print, a broken sign), kept in the record
   ^ TEXT                 a line that begins a paragraph or a footnote (indented); ^^ TEXT indented twice
   % TEXT                 a comment, not printed
-Inline markup: *italic*, **bold**, {gb:...} bold grotesque (the «Pag.» heads), {sp:Name} letter-spaced,
+Inline markup: *italic*, **bold**, ***bold italic***, {gb:...} bold grotesque (the «Pag.» heads), {sp:Name} letter-spaced,
 {spsc:...} letter-spaced small capitals, {fs:...} the small type of table heads, {sm:...} a smaller type,
 {xs:...} the smallest type (the heads of narrow columns),
 {sc:...} small capitals, {sup:...} superscript, {sub:...} subscript, {sfrac:a/b} a small fraction, {0} the zero

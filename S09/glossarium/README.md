@@ -2,7 +2,7 @@
 
 Nallino's *Glossarium* of al-Battānī's technical vocabulary: Arabic headwords, often vowelled, with their Latin, Greek and Arabic explanations and with references to the pages and lines of the Arabic text (Part III), printed in Arabic-Indic numerals. The edition is diplomatic and line-anchored, in the format of the S07 edition of the notes on the tables: every printed line is one line of the edition, with its hyphenation, its punctuation, its letter-spaced names and its italics, and every line has a stable anchor.
 
-The transcription is in progress. It begins at the title page of the glossary (p. 319) and runs page by page; pp. 319–334 are done (the introduction, pp. 319–321, and the entries from ابد to رصد).
+The transcription is in progress. It begins at the title page of the glossary (p. 319) and runs page by page; pp. 319–335 are done (the introduction, pp. 319–321, and the entries from ابد to مركز).
 
 ## Read
 
@@ -26,6 +26,7 @@ The transcription is in progress. It begins at the title page of the glossary (p
 - Arabic is transcribed with the vowel signs, shaddas and sukūns that are printed. The page references to the Arabic text are transcribed in the Arabic-Indic digits of the print (U+0660–0669, ٢٥٦ = 256), most significant digit first; the line numbers printed beside them as small figures are transcribed as subscripts.
 - The Arabic type casts a final hamza with its dammatan or its damma as one sort, with two small loops or one on its head (جُزْءٌ, أدِلَّاءُ, p. 331); these are transcribed ءٌ and ءُ. The sorts are told apart by their size: the plain hamza is about 3.9 by 3.2 points, the hamza with a damma 3.7 by 5.2, the hamza with a dammatan 4.1–4.8 by 5.5–5.8.
 - Hebrew is transcribed with the points that are printed (none, except in «الמִצְווֹת», p. 334, where the Hebrew word stands with the Arabic article inside an Arabic quotation and is set in the Hebrew font within the Arabic run).
+- Persian quotations (p. 335) keep the letters of the print: پ and چ, the final yāʾ without dots as ى, and the gāf, which the type prints as kāf with three dots above, as ڭ.
 - Elongated joins (kashīda) are not transcribed, as in S07; the observations record them. A vowel sign printed over a join is given to its letter.
 - Each Arabic example is a run read from the right inside the Latin text, which runs from the left. An example broken at the end of a line has its first words at the right end of that line and its last words at the beginning of the next; each line gives its own words in reading order.
 - The vowel signs open the printed lines unevenly. Each page file gives the printed baselines of its lines (`@baselines`, measured on the scan) and the position of the rule over the notes (`@noterule`); the build sets every line there. Where the scan is skewed, a line's baseline is measured at its middle, and a short line's at its text.
