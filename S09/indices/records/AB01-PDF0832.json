@@ -1,0 +1,780 @@
+{
+ "anchor": "AB01-PDF0832",
+ "master_pdf_page": 832,
+ "printed_page": 383,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "observations": [
+  "col_left L1: the entry culminatio of p. 382 goes on here. The s of «ascendente» is printed blotted.",
+  "col_left L3: «β» and «δ» are Greek; the first e of «stella» is printed blotted.",
+  "col_left L15: the m of «em.» is printed broken, the top of its last stroke bent away from the letter like an accent; read em.",
+  "col_left L19: «(0)» is the figure zero, of the size and shape of the 0 of 201 in L16 (5.2 by 7.8 points).",
+  "col_left L20: «31» is printed upright; a speck at the top right of its 1 is not transcribed.",
+  "col_left L21, L22: a blank line separates the names in C from those in D.",
+  "col_left L22: the hyphen of «*ad-dabarān*» is printed as a point at mid height.",
+  "col_left L23, L24, L26, L31, L35: the marks over the i of «Ḍa‘fī», «*aḍ-ḍafīrah*», «ad-Damīrī» (twice), «*darīǵān*» and «al-ādharī» are bars (2.0-3.5 by 0.8-1.3 points); the dots of the i's of these lines are 1.2-1.7 points and round. Measured with macron_audit.py. «Ḍa‘fī» has the dot under the D and the sign of ‘ayn; «*aḍ-ḍafīrah*» has dots under both d's.",
+  "col_left L25, L31: «*dahaǵ*» and «*darīǵān*» are printed with ǵ, Nallino's sign for jīm.",
+  "col_left L39: «ecclipticae» is printed so, with a double c (for eclipticae); transcribed as printed.",
+  "col_right L1: the entry declinatio Solis of the left column goes on here. The o of «ordines» is printed broken.",
+  "col_right L4: the italic 1 of «*31-32*» is printed broken, like l.",
+  "col_right L6, L7: the c of «ascendenti» and the second c of «praecipuarum» are printed broken.",
+  "col_right L7: the dot of the first i of «declinationes» has a thin spur to the right, joined to it, so that it looks like an acute; read i.",
+  "col_right L15: the stem of the d of «dato» is printed with a blob at its foot, joined to the letter and reaching 0.7 point below the baseline; it is not a dot below.",
+  "col_right L18: «(excentricus)Lunae» is printed without a space after the parenthesis.",
+  "col_right L22, L30: the commas after the second «II» of L22 and after «II» in L30 are printed short (1.4-1.7 by 2.0-2.2 points, 0.6 point below the baseline), like points at low resolution; at 5,000 dpi both have a tail.",
+  "col_right L30: the second i of «deiectio» is printed without its dot.",
+  "col_right L37: the 0 of «200» is printed broken, only its right side visible.",
+  "col_right L41: a speck (0.4 by 0.4 point) between «n.,» and «286» is not transcribed.",
+  "col_right L44: the point after the n of «233 n.,» is printed small.",
+  "col_right L45: a round speck above the 5 of «254» is not transcribed."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": []
+  },
+  {
+   "role": "col_left",
+   "lines": [
+    {
+     "id": "AB01-PDF0832-col_left-L001",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}eruere ex ascendente, per ascensionum ta-",
+     "transcription": "eruere ex ascendente, per ascensionum ta-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0832-col_left-L002",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}bulas \\textit{14} (adn. 163-164); punctum eclipticae",
+     "transcription": "bulas *14* (adn. 163-164); punctum eclipticae",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0832-col_left-L003",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}simul cum data stella culminans ex \\textgreek{β} et \\textgreek{δ}",
+     "transcription": "simul cum data stella culminans ex β et δ",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0832-col_left-L004",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}stellae deprehendere \\textit{31-32} (adn. 193-195;",
+     "transcription": "stellae deprehendere *31-32* (adn. 193-195;",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0832-col_left-L005",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}formulae nostrae II, 291); punctum eclipti-",
+     "transcription": "formulae nostrae II, 291); punctum eclipti-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0832-col_left-L006",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}cae cum stella culminans, ex datis azimuth",
+     "transcription": "cae cum stella culminans, ex datis azimuth",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0832-col_left-L007",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}ortus vel occasus stellae et gradu cum",
+     "transcription": "ortus vel occasus stellae et gradu cum",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0832-col_left-L008",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}stella ascendenti \\textit{35-36} (adn. 196-197); ta-",
+     "transcription": "stella ascendenti *35-36* (adn. 196-197); ta-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0832-col_left-L009",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}bulae graduum cum praecipuis stellis cul-",
+     "transcription": "bulae graduum cum praecipuis stellis cul-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0832-col_left-L010",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}minantium II, \\textit{178-186} (adn. 289-294). —",
+     "transcription": "minantium II, *178-186* (adn. 289-294). —",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0832-col_left-L011",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}Differentia culminationis seu transitus stellae",
+     "transcription": "Differentia culminationis seu transitus stellae",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0832-col_left-L012",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}per medium Caelum \\textit{32} (adn. 194).",
+     "transcription": "per medium Caelum *32* (adn. 194).",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0832-col_left-L013",
+     "source_line_no": null,
+     "tex": "Cumont Fr. \\textsc{xxxv} n. 5; II, \\textsc{xix}.",
+     "transcription": "Cumont Fr. {sc:xxxv} n. 5; II, {sc:xix}.",
+     "semantic_anchor": "AB01-PDF0832-col_left-E01",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0832-col_left-L014",
+     "source_line_no": null,
+     "tex": "cupola Terrae v. fornix.",
+     "transcription": "cupola Terrae v. fornix.",
+     "semantic_anchor": "AB01-PDF0832-col_left-E02",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0832-col_left-L015",
+     "source_line_no": null,
+     "tex": "Curtze M. \\textsc{xxxi} n. 1, \\textsc{lv}, \\textsc{lvi}, \\textsc{lxxiii}, em. 182.",
+     "transcription": "Curtze M. {sc:xxxi} n. 1, {sc:lv}, {sc:lvi}, {sc:lxxiii}, em. 182.",
+     "semantic_anchor": "AB01-PDF0832-col_left-E03",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0832-col_left-L016",
+     "source_line_no": null,
+     "tex": "Cusa S. II, 201 n., 325, 326.",
+     "transcription": "Cusa S. II, 201 n., 325, 326.",
+     "semantic_anchor": "AB01-PDF0832-col_left-E04",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0832-col_left-L017",
+     "source_line_no": null,
+     "tex": "Cusanus N. \\textsc{xxxviii}.",
+     "transcription": "Cusanus N. {sc:xxxviii}.",
+     "semantic_anchor": "AB01-PDF0832-col_left-E05",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0832-col_left-L018",
+     "source_line_no": null,
+     "tex": "Cygni stellae II, \\textit{149} (et add. 278).",
+     "transcription": "Cygni stellae II, *149* (et add. 278).",
+     "semantic_anchor": "AB01-PDF0832-col_left-E06",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0832-col_left-L019",
+     "source_line_no": null,
+     "tex": "cyphrum (0) interdum negatione \\textit{lā} indicatum",
+     "transcription": "cyphrum (0) interdum negatione *lā* indicatum",
+     "semantic_anchor": "AB01-PDF0832-col_left-E07",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0832-col_left-L020",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}ac 31 false lectum II, \\textsc{vi}, 215 n., 217 n.,",
+     "transcription": "ac 31 false lectum II, {sc:vi}, 215 n., 217 n.,",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0832-col_left-L021",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}266, 271.",
+     "transcription": "266, 271.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0832-col_left-L022",
+     "source_line_no": null,
+     "tex": "\\textit{ad-dabarān} v. Aldebaran.",
+     "transcription": "*ad-dabarān* v. Aldebaran.",
+     "semantic_anchor": "AB01-PDF0832-col_left-E08",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0832-col_left-L023",
+     "source_line_no": null,
+     "tex": "Ḍa‘fī T. v. Agnellini.",
+     "transcription": "Ḍa‘fī T. v. Agnellini.",
+     "semantic_anchor": "AB01-PDF0832-col_left-E09",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0832-col_left-L024",
+     "source_line_no": null,
+     "tex": "\\textit{aḍ-ḍafīrah} 295.",
+     "transcription": "*aḍ-ḍafīrah* 295.",
+     "semantic_anchor": "AB01-PDF0832-col_left-E10",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0832-col_left-L025",
+     "source_line_no": null,
+     "tex": "\\textit{dahaǵ} II, 310.",
+     "transcription": "*dahaǵ* II, 310.",
+     "semantic_anchor": "AB01-PDF0832-col_left-E11",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0832-col_left-L026",
+     "source_line_no": null,
+     "tex": "ad-Damīrī II, 195.",
+     "transcription": "ad-Damīrī II, 195.",
+     "semantic_anchor": "AB01-PDF0832-col_left-E12",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0832-col_left-L027",
+     "source_line_no": null,
+     "tex": "Dantes Alighieri 16 n. 1.",
+     "transcription": "Dantes Alighieri 16 n. 1.",
+     "semantic_anchor": "AB01-PDF0832-col_left-E13",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0832-col_left-L028",
+     "source_line_no": null,
+     "tex": "Danti Ign. 162.",
+     "transcription": "Danti Ign. 162.",
+     "semantic_anchor": "AB01-PDF0832-col_left-E14",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0832-col_left-L029",
+     "source_line_no": null,
+     "tex": "Dāqiyānus v. Decius.",
+     "transcription": "Dāqiyānus v. Decius.",
+     "semantic_anchor": "AB01-PDF0832-col_left-E15",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0832-col_left-L030",
+     "source_line_no": null,
+     "tex": "Dārā filius Dārā v. Darius [filius] Arsakh.",
+     "transcription": "Dārā filius Dārā v. Darius [filius] Arsakh.",
+     "semantic_anchor": "AB01-PDF0832-col_left-E16",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0832-col_left-L031",
+     "source_line_no": null,
+     "tex": "\\textit{darīǵān} v. facies.",
+     "transcription": "*darīǵān* v. facies.",
+     "semantic_anchor": "AB01-PDF0832-col_left-E17",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0832-col_left-L032",
+     "source_line_no": null,
+     "tex": "Darius Hystaspis 207.",
+     "transcription": "Darius Hystaspis 207.",
+     "semantic_anchor": "AB01-PDF0832-col_left-E18",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0832-col_left-L033",
+     "source_line_no": null,
+     "tex": "Darius [filius] Arsakh, Darius tertius, II, \\textit{2}",
+     "transcription": "Darius [filius] Arsakh, Darius tertius, II, *2*",
+     "semantic_anchor": "AB01-PDF0832-col_left-E19",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0832-col_left-L034",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}(adn. 193-194).",
+     "transcription": "(adn. 193-194).",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0832-col_left-L035",
+     "source_line_no": null,
+     "tex": "Darius Medus (al-ādharī), Nabonadius II, \\textit{2}",
+     "transcription": "Darius Medus (al-ādharī), Nabonadius II, *2*",
+     "semantic_anchor": "AB01-PDF0832-col_left-E20",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0832-col_left-L036",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}(adn. 192-193).",
+     "transcription": "(adn. 192-193).",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0832-col_left-L037",
+     "source_line_no": null,
+     "tex": "decanus v. facies.",
+     "transcription": "decanus v. facies.",
+     "semantic_anchor": "AB01-PDF0832-col_left-E21",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0832-col_left-L038",
+     "source_line_no": null,
+     "tex": "Decius II, \\textit{2} (adn. 195 et add. \\textsc{xxix}-\\textsc{xxx}).",
+     "transcription": "Decius II, *2* (adn. 195 et add. {sc:xxix}-{sc:xxx}).",
+     "semantic_anchor": "AB01-PDF0832-col_left-E22",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0832-col_left-L039",
+     "source_line_no": null,
+     "tex": "declinatio Solis aut puncti ecclipticae distin-",
+     "transcription": "declinatio Solis aut puncti ecclipticae distin-",
+     "semantic_anchor": "AB01-PDF0832-col_left-E23",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0832-col_left-L040",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}guitur a declinatione sideris extra eclipti-",
+     "transcription": "guitur a declinatione sideris extra eclipti-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0832-col_left-L041",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}cam 2 n. 6; eius calculus \\textit{12-13} (adn. 162);",
+     "transcription": "cam 2 n. 6; eius calculus *12-13* (adn. 162);",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0832-col_left-L042",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}tabulae II, \\textit{57-58} (adn. 221); Solis declinatio",
+     "transcription": "tabulae II, *57-58* (adn. 221); Solis declinatio",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0832-col_left-L043",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}prope solstitia lente variat \\textit{24} (adn. 185-",
+     "transcription": "prope solstitia lente variat *24* (adn. 185-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0832-col_left-L044",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}186), \\textit{41} lin. 7; Solis ascensus et descensus in",
+     "transcription": "186), *41* lin. 7; Solis ascensus et descensus in",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0832-col_left-L045",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}declinatione \\textit{13} l. 15-18 (adn. 162-163 et",
+     "transcription": "declinatione *13* l. 15-18 (adn. 162-163 et",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    }
+   ]
+  },
+  {
+   "role": "col_right",
+   "lines": [
+    {
+     "id": "AB01-PDF0832-col_right-L001",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}add. \\textsc{lxxii}); ordines declinationis Solis in",
+     "transcription": "add. {sc:lxxii}); ordines declinationis Solis in",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0832-col_right-L002",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}ascensu et descensu \\textit{13} (et n. 2) ac II, \\textit{58}",
+     "transcription": "ascensu et descensu *13* (et n. 2) ac II, *58*",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0832-col_right-L003",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}(adn. 221). — Declinatio stellae ex datis lon-",
+     "transcription": "(adn. 221). — Declinatio stellae ex datis lon-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0832-col_right-L004",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}gitudine et latitudine eruta \\textit{31-32} (adn. 192-",
+     "transcription": "gitudine et latitudine eruta *31-32* (adn. 192-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0832-col_right-L005",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}193); ex azimuth eius ortus aut occasus et",
+     "transcription": "193); ex azimuth eius ortus aut occasus et",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0832-col_right-L006",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}gradu eclipticae cum ea ascendenti \\textit{35-36}",
+     "transcription": "gradu eclipticae cum ea ascendenti *35-36*",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0832-col_right-L007",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}(adn. 196); declinationes praecipuarum stel-",
+     "transcription": "(adn. 196); declinationes praecipuarum stel-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0832-col_right-L008",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}larum II, \\textit{178-186} (adn. 289-294).",
+     "transcription": "larum II, *178-186* (adn. 289-294).",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0832-col_right-L009",
+     "source_line_no": null,
+     "tex": "declinatio [secunda] punctorum eclipticae \\textit{32}",
+     "transcription": "declinatio [secunda] punctorum eclipticae *32*",
+     "semantic_anchor": "AB01-PDF0832-col_right-E01",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0832-col_right-L010",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}et n. 1 (adn. 192 n. 1), \\textit{37} et n. 1, 193, 199.",
+     "transcription": "et n. 1 (adn. 192 n. 1), *37* et n. 1, 193, 199.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0832-col_right-L011",
+     "source_line_no": null,
+     "tex": "declinatio, inclinatio epicycli planetarum infe-",
+     "transcription": "declinatio, inclinatio epicycli planetarum infe-",
+     "semantic_anchor": "AB01-PDF0832-col_right-E02",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0832-col_right-L012",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}riorum II, \\textit{141}, 249, 250-251.",
+     "transcription": "riorum II, *141*, 249, 250-251.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0832-col_right-L013",
+     "source_line_no": null,
+     "tex": "declinatio aequata, loco spurio \\textit{36-37} (adn.",
+     "transcription": "declinatio aequata, loco spurio *36-37* (adn.",
+     "semantic_anchor": "AB01-PDF0832-col_right-E03",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0832-col_right-L014",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}197-198).",
+     "transcription": "197-198).",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0832-col_right-L015",
+     "source_line_no": null,
+     "tex": "declivitas epicycli (elongatio a dato puncto",
+     "transcription": "declivitas epicycli (elongatio a dato puncto",
+     "semantic_anchor": "AB01-PDF0832-col_right-E04",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0832-col_right-L016",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}excentrici) \\textit{52} et n. 6, \\textit{64} lin. 5-6, \\textit{65} lin.",
+     "transcription": "excentrici) *52* et n. 6, *64* lin. 5-6, *65* lin.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0832-col_right-L017",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}8 et 14.",
+     "transcription": "8 et 14.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0832-col_right-L018",
+     "source_line_no": null,
+     "tex": "deferens (excentricus) Lunae \\textit{50-54} (et II, 223);",
+     "transcription": "deferens (excentricus) Lunae *50-54* (et II, 223);",
+     "semantic_anchor": "AB01-PDF0832-col_right-E05",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0832-col_right-L019",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}eius semidiametrus \\textit{52} lin. 27-28.",
+     "transcription": "eius semidiametrus *52* lin. 27-28.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0832-col_right-L020",
+     "source_line_no": null,
+     "tex": "deferens (excentricus) planetarum \\textit{63}, \\textit{64}; su-",
+     "transcription": "deferens (excentricus) planetarum *63*, *64*; su-",
+     "semantic_anchor": "AB01-PDF0832-col_right-E06",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0832-col_right-L021",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}periorum et Veneris II, 238-239; Mercurii",
+     "transcription": "periorum et Veneris II, 238-239; Mercurii",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0832-col_right-L022",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}II, 243; directio absidum deferentis II, 239,",
+     "transcription": "II, 243; directio absidum deferentis II, 239,",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0832-col_right-L023",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}248-249 n.; eius deviatio seu inclinatio in",
+     "transcription": "248-249 n.; eius deviatio seu inclinatio in",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0832-col_right-L024",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}superioribus planetis II, 247, 254, 255; de-",
+     "transcription": "superioribus planetis II, 247, 254, 255; de-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0832-col_right-L025",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}viatio in inferioribus II, 249, 254, 255.",
+     "transcription": "viatio in inferioribus II, 249, 254, 255.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0832-col_right-L026",
+     "source_line_no": null,
+     "tex": "deflectens seu obliquus Lunae \\textit{50}, \\textit{51} lin. 5;",
+     "transcription": "deflectens seu obliquus Lunae *50*, *51* lin. 5;",
+     "semantic_anchor": "AB01-PDF0832-col_right-E07",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0832-col_right-L027",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}II, 223.",
+     "transcription": "II, 223.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0832-col_right-L028",
+     "source_line_no": null,
+     "tex": "deflectens seu obliquus planetarum \\textit{63}, \\textit{64};",
+     "transcription": "deflectens seu obliquus planetarum *63*, *64*;",
+     "semantic_anchor": "AB01-PDF0832-col_right-E08",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0832-col_right-L029",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}cfr. deferens.",
+     "transcription": "cfr. deferens.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0832-col_right-L030",
+     "source_line_no": null,
+     "tex": "deiectio astrologica II, 314.",
+     "transcription": "deiectio astrologica II, 314.",
+     "semantic_anchor": "AB01-PDF0832-col_right-E09",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0832-col_right-L031",
+     "source_line_no": null,
+     "tex": "Delambre J.-B. \\textsc{xvii} n. 1, \\textsc{xxxviii} n. 1, \\textsc{xl}, \\textsc{xlv},",
+     "transcription": "Delambre J.-B. {sc:xvii} n. 1, {sc:xxxviii} n. 1, {sc:xl}, {sc:xlv},",
+     "semantic_anchor": "AB01-PDF0832-col_right-E10",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0832-col_right-L032",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}\\textsc{xlix}, \\textsc{lx}, \\textsc{lxiii}, \\textsc{lxix}, 12 n., 44 n., 56 n.,",
+     "transcription": "{sc:xlix}, {sc:lx}, {sc:lxiii}, {sc:lxix}, 12 n., 44 n., 56 n.,",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0832-col_right-L033",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}97 n., 121 n., 136 n., 153 n., 157 n., 158 n.,",
+     "transcription": "97 n., 121 n., 136 n., 153 n., 157 n., 158 n.,",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0832-col_right-L034",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}164, 181-182, em. 182 n., 183, 184 bis,",
+     "transcription": "164, 181-182, em. 182 n., 183, 184 bis,",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0832-col_right-L035",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}186 ter (em. n. 3), em. 191, 192, 193 bis,",
+     "transcription": "186 ter (em. n. 3), em. 191, 192, 193 bis,",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0832-col_right-L036",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}em. 194-195, em. 198 quater (cfr. \\textsc{lxxiii}),",
+     "transcription": "em. 194-195, em. 198 quater (cfr. {sc:lxxiii}),",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0832-col_right-L037",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}199, em. 200, em. 201 n., 204, em. 213 bis,",
+     "transcription": "199, em. 200, em. 201 n., 204, em. 213 bis,",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0832-col_right-L038",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}214 n., 215, em. 216 bis, 218 n., 221, 222,",
+     "transcription": "214 n., 215, em. 216 bis, 218 n., 221, 222,",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0832-col_right-L039",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}223 bis, 236 bis, 237, 238 bis, em. 241 n.,",
+     "transcription": "223 bis, 236 bis, 237, 238 bis, em. 241 n.,",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0832-col_right-L040",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}244 n., em. 245 n., em. 246, em. 247, em.",
+     "transcription": "244 n., em. 245 n., em. 246, em. 247, em.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0832-col_right-L041",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}248, 249, em. 252 bis, 264 et n., 286 bis,",
+     "transcription": "248, 249, em. 252 bis, 264 et n., 286 bis,",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0832-col_right-L042",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}292 n., 293, 298, 301 n., 303 n., 313 n.;",
+     "transcription": "292 n., 293, 298, 301 n., 303 n., 313 n.;",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0832-col_right-L043",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}II, 42, 155, 164, 206, 220, 221, 226 ter (em.",
+     "transcription": "II, 42, 155, 164, 206, 220, 221, 226 ter (em.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0832-col_right-L044",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}n. 2), 231, 232, 233 n., 235 n., 239 n., em.",
+     "transcription": "n. 2), 231, 232, 233 n., 235 n., 239 n., em.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0832-col_right-L045",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}254, 258, 272, 296.",
+     "transcription": "254, 258, 272, 296.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0832-col_right-L046",
+     "source_line_no": null,
+     "tex": "Delisle L. \\textsc{xxvii}.",
+     "transcription": "Delisle L. {sc:xxvii}.",
+     "semantic_anchor": "AB01-PDF0832-col_right-E11",
+     "source_role": "NALLINO_INDEX"
+    }
+   ]
+  }
+ ]
+}
