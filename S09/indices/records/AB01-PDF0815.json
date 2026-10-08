@@ -1,0 +1,777 @@
+{
+ "anchor": "AB01-PDF0815",
+ "master_pdf_page": 815,
+ "printed_page": 366,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "observations": [
+  "col_left L15: the second c of «occidentalis» is printed broken.",
+  "col_left L16: «Ǵī’ān» is printed so: after the ī (with its bar) stands a small raised mark with its head on top (0.9 point wide, narrower than a stem of l), the sort of the hamza ’, not the remnant of an l; transcribed as printed (the Caspian is Baḥr Ǵīlān in the Arabic geographers).",
+  "col_left L17, L31: the o of «Ǵorǵān» is printed broken in both lines.",
+  "col_left L19: the d of the first «Indorum» is printed broken.",
+  "col_left L20: the comma after «(et II, {sc:xxii}, {sc:xxiii})» is printed short, like a point (1.5 by 1.9 points, 0.6 point below the baseline; the other commas of the line reach 1.3 points below it).",
+  "col_left L41: «{sc:xxiii}–{sc:xxiv}» is printed with an en dash (5.4 points); in the right column L2 and L6 the same numbers are joined by hyphens (3.1-3.2 points).",
+  "col_right L1, L2: the guillemets around «Vi-» and «ridi» are printed as small solid wedges.",
+  "col_right L5: the second i of «Viride» is printed with a spur under its foot; not transcribed.",
+  "col_right L30: the mark over the i of «al-Masīlah» is a bar (1.8 by 0.8 points), found by macron_audit.py; the eye had read a dot.",
+  "col_right L31: «al Maṣīrah» is printed without the hyphen after al.",
+  "col_right L22: the M of «Marsowà» is printed broken; the a has a grave accent."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": []
+  },
+  {
+   "role": "col_left",
+   "lines": [
+    {
+     "id": "AB01-PDF0815-col_left-L001",
+     "source_line_no": null,
+     "tex": "al-Manfūḥah II, 44 n. 192.",
+     "transcription": "al-Manfūḥah II, 44 n. 192.",
+     "semantic_anchor": "AB01-PDF0815-col_left-E01",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0815-col_left-L002",
+     "source_line_no": null,
+     "tex": "Mārā II, \\textit{50} (et 217 nr. 235).",
+     "transcription": "Mārā II, *50* (et 217 nr. 235).",
+     "semantic_anchor": "AB01-PDF0815-col_left-E02",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0815-col_left-L003",
+     "source_line_no": null,
+     "tex": "Maracanda v. Samarqand.",
+     "transcription": "Maracanda v. Samarqand.",
+     "semantic_anchor": "AB01-PDF0815-col_left-E03",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0815-col_left-L004",
+     "source_line_no": null,
+     "tex": "Marāghah \\textsc{x} n. 5, 160, 161 n. 4, 272, 293;",
+     "transcription": "Marāghah {sc:x} n. 5, 160, 161 n. 4, 272, 293;",
+     "semantic_anchor": "AB01-PDF0815-col_left-E04",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0815-col_left-L005",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}eius specula II, \\textsc{xiv} n. 2.",
+     "transcription": "eius specula II, {sc:xiv} n. 2.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0815-col_left-L006",
+     "source_line_no": null,
+     "tex": "Marasdu II, 52 n. 244.",
+     "transcription": "Marasdu II, 52 n. 244.",
+     "semantic_anchor": "AB01-PDF0815-col_left-E05",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0815-col_left-L007",
+     "source_line_no": null,
+     "tex": "Mar‘ash II, 47 n. 214.",
+     "transcription": "Mar‘ash II, 47 n. 214.",
+     "semantic_anchor": "AB01-PDF0815-col_left-E06",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0815-col_left-L008",
+     "source_line_no": null,
+     "tex": "Mārdīn v. Māridīn.",
+     "transcription": "Mārdīn v. Māridīn.",
+     "semantic_anchor": "AB01-PDF0815-col_left-E07",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0815-col_left-L009",
+     "source_line_no": null,
+     "tex": "Mare Ābaskūn 172 bis (et II, \\textsc{xxiii}).",
+     "transcription": "Mare Ābaskūn 172 bis (et II, {sc:xxiii}).",
+     "semantic_anchor": "AB01-PDF0815-col_left-E08",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0815-col_left-L010",
+     "source_line_no": null,
+     "tex": "Mare Aegypti v. Mare Romanorum.",
+     "transcription": "Mare Aegypti v. Mare Romanorum.",
+     "semantic_anchor": "AB01-PDF0815-col_left-E09",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0815-col_left-L011",
+     "source_line_no": null,
+     "tex": "Mare al-Baṣrah \\textit{17}, 168, 170, 176 n. 3.",
+     "transcription": "Mare al-Baṣrah *17*, 168, 170, 176 n. 3.",
+     "semantic_anchor": "AB01-PDF0815-col_left-E10",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0815-col_left-L012",
+     "source_line_no": null,
+     "tex": "Mare Chazarorum (\\textit{al-Khazar}, Caspium) 172",
+     "transcription": "Mare Chazarorum (*al-Khazar*, Caspium) 172",
+     "semantic_anchor": "AB01-PDF0815-col_left-E11",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0815-col_left-L013",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}(et II, \\textsc{xxiii}).",
+     "transcription": "(et II, {sc:xxiii}).",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0815-col_left-L014",
+     "source_line_no": null,
+     "tex": "Mare Circumdans (\\textit{al-baḥr al-muḥīṭ}) v. Ocea-",
+     "transcription": "Mare Circumdans (*al-baḥr al-muḥīṭ*) v. Ocea-",
+     "semantic_anchor": "AB01-PDF0815-col_left-E12",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0815-col_left-L015",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}nus occidentalis (cfr. \\textit{18} l. 9).",
+     "transcription": "nus occidentalis (cfr. *18* l. 9).",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0815-col_left-L016",
+     "source_line_no": null,
+     "tex": "Mare Ǵī’ān (Caspium) II, \\textsc{xxiii}.",
+     "transcription": "Mare Ǵī’ān (Caspium) II, {sc:xxiii}.",
+     "semantic_anchor": "AB01-PDF0815-col_left-E13",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0815-col_left-L017",
+     "source_line_no": null,
+     "tex": "Mare Ǵorǵān seu Portae (Caspium) \\textit{19}, 169,",
+     "transcription": "Mare Ǵorǵān seu Portae (Caspium) *19*, 169,",
+     "semantic_anchor": "AB01-PDF0815-col_left-E14",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0815-col_left-L018",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}170, 172 (et II, \\textsc{xxiii}).",
+     "transcription": "170, 172 (et II, {sc:xxiii}).",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0815-col_left-L019",
+     "source_line_no": null,
+     "tex": "Mare Indorum vel Indorum Sinarumque \\textit{17},",
+     "transcription": "Mare Indorum vel Indorum Sinarumque *17*,",
+     "semantic_anchor": "AB01-PDF0815-col_left-E15",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0815-col_left-L020",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}\\textit{18}, \\textit{19}, 168 (et II, \\textsc{xxii}, \\textsc{xxiii}), 169, 170 bis,",
+     "transcription": "*18*, *19*, 168 (et II, {sc:xxii}, {sc:xxiii}), 169, 170 bis,",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0815-col_left-L021",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}171, 173. False a Reinaud et Lelewel effi-",
+     "transcription": "171, 173. False a Reinaud et Lelewel effi-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0815-col_left-L022",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}ctum 167.",
+     "transcription": "ctum 167.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0815-col_left-L023",
+     "source_line_no": null,
+     "tex": "Mare Magnum (\\textit{al-baḥr al-akbar}, Mediterra-",
+     "transcription": "Mare Magnum (*al-baḥr al-akbar*, Mediterra-",
+     "semantic_anchor": "AB01-PDF0815-col_left-E16",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0815-col_left-L024",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}neum) \\textit{19}.",
+     "transcription": "neum) *19*.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0815-col_left-L025",
+     "source_line_no": null,
+     "tex": "Mare Mediterraneum v. Mare Magnum et Mare",
+     "transcription": "Mare Mediterraneum v. Mare Magnum et Mare",
+     "semantic_anchor": "AB01-PDF0815-col_left-E17",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0815-col_left-L026",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}Romanorum.",
+     "transcription": "Romanorum.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0815-col_left-L027",
+     "source_line_no": null,
+     "tex": "Mare Occidentis (\\textit{baḥr al-Maghrib}) 169, 171",
+     "transcription": "Mare Occidentis (*baḥr al-Maghrib*) 169, 171",
+     "semantic_anchor": "AB01-PDF0815-col_left-E18",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0815-col_left-L028",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}pluries; v. Oceanus Occidentalis.",
+     "transcription": "pluries; v. Oceanus Occidentalis.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0815-col_left-L029",
+     "source_line_no": null,
+     "tex": "Mare Ponticum (\\textit{baḥr Bunṭus}) \\textit{18}, \\textit{19} ter, 169,",
+     "transcription": "Mare Ponticum (*baḥr Bunṭus*) *18*, *19* ter, 169,",
+     "semantic_anchor": "AB01-PDF0815-col_left-E19",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0815-col_left-L030",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}170, 172.",
+     "transcription": "170, 172.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0815-col_left-L031",
+     "source_line_no": null,
+     "tex": "Mare Portae [Caucasicae] v. Mare Ǵorǵān.",
+     "transcription": "Mare Portae [Caucasicae] v. Mare Ǵorǵān.",
+     "semantic_anchor": "AB01-PDF0815-col_left-E20",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0815-col_left-L032",
+     "source_line_no": null,
+     "tex": "Mare Prasodes 18 n. 2, 175.",
+     "transcription": "Mare Prasodes 18 n. 2, 175.",
+     "semantic_anchor": "AB01-PDF0815-col_left-E21",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0815-col_left-L033",
+     "source_line_no": null,
+     "tex": "Mare al-Qolzum (Sinus Arabicus) \\textit{17}, 168, 170,",
+     "transcription": "Mare al-Qolzum (Sinus Arabicus) *17*, 168, 170,",
+     "semantic_anchor": "AB01-PDF0815-col_left-E22",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0815-col_left-L034",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}173, 175, 177 (et add. t. II, \\textsc{xxiii} bis, \\textsc{xxiv}).",
+     "transcription": "173, 175, 177 (et add. t. II, {sc:xxiii} bis, {sc:xxiv}).",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0815-col_left-L035",
+     "source_line_no": null,
+     "tex": "Mare Romanorum (et Aegypti et Syriae) \\textit{18} ter,",
+     "transcription": "Mare Romanorum (et Aegypti et Syriae) *18* ter,",
+     "semantic_anchor": "AB01-PDF0815-col_left-E23",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0815-col_left-L036",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}\\textit{19} quater, 168 (et II, \\textsc{xxii}), 169, 171, 172,",
+     "transcription": "*19* quater, 168 (et II, {sc:xxii}), 169, 171, 172,",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0815-col_left-L037",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}173. Eius longitudo ab Arabibus emendata",
+     "transcription": "173. Eius longitudo ab Arabibus emendata",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0815-col_left-L038",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}II, 213.",
+     "transcription": "II, 213.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0815-col_left-L039",
+     "source_line_no": null,
+     "tex": "Mare Rubrum nostri temporis (\\textit{al-Qolzum}",
+     "transcription": "Mare Rubrum nostri temporis (*al-Qolzum*",
+     "semantic_anchor": "AB01-PDF0815-col_left-E24",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0815-col_left-L040",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}Arabum, Sinus Arabicus) 17 n. 6, 176 (et",
+     "transcription": "Arabum, Sinus Arabicus) 17 n. 6, 176 (et",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0815-col_left-L041",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}add. t. II, \\textsc{xxiii}–\\textsc{xxiv}), 177; apud \\Name{Iacobum}",
+     "transcription": "add. t. II, {sc:xxiii}–{sc:xxiv}), 177; apud {sp:Iacobum}",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0815-col_left-L042",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}\\Name{Edessenum} 177.",
+     "transcription": "{sp:Edessenum} 177.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0815-col_left-L043",
+     "source_line_no": null,
+     "tex": "Mare Sinarum (\\textit{aṣ-Ṣīn}) v. Mare Indorum.",
+     "transcription": "Mare Sinarum (*aṣ-Ṣīn*) v. Mare Indorum.",
+     "semantic_anchor": "AB01-PDF0815-col_left-E25",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0815-col_left-L044",
+     "source_line_no": null,
+     "tex": "Mare Syriae v. Mare Romanorum.",
+     "transcription": "Mare Syriae v. Mare Romanorum.",
+     "semantic_anchor": "AB01-PDF0815-col_left-E26",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0815-col_left-L045",
+     "source_line_no": null,
+     "tex": "Mare Trapezuntis (\\textit{Ṭarābazand}, \\textit{Ṭarābazūn})",
+     "transcription": "Mare Trapezuntis (*Ṭarābazand*, *Ṭarābazūn*)",
+     "semantic_anchor": "AB01-PDF0815-col_left-E27",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0815-col_left-L046",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}172 (et II, \\textsc{xxiii}).",
+     "transcription": "172 (et II, {sc:xxiii}).",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    }
+   ]
+  },
+  {
+   "role": "col_right",
+   "lines": [
+    {
+     "id": "AB01-PDF0815-col_right-L001",
+     "source_line_no": null,
+     "tex": "Mare Ultimum (\\textit{al-akhīr} pro \\textit{al-akhḍar} « Vi-",
+     "transcription": "Mare Ultimum (*al-akhīr* pro *al-akhḍar* « Vi-",
+     "semantic_anchor": "AB01-PDF0815-col_right-E01",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0815-col_right-L002",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}ridi » aliorum) 176 (et add. t. II, \\textsc{xxiii}-\\textsc{xxiv}).",
+     "transcription": "ridi » aliorum) 176 (et add. t. II, {sc:xxiii}-{sc:xxiv}).",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0815-col_right-L003",
+     "source_line_no": null,
+     "tex": "Mare Varengorum (\\textit{baḥr Warank}) 171 et n. 1,",
+     "transcription": "Mare Varengorum (*baḥr Warank*) 171 et n. 1,",
+     "semantic_anchor": "AB01-PDF0815-col_right-E02",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0815-col_right-L004",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}172 (et add. t. II, \\textsc{xxiii} ac n.).",
+     "transcription": "172 (et add. t. II, {sc:xxiii} ac n.).",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0815-col_right-L005",
+     "source_line_no": null,
+     "tex": "Mare Viride (\\textit{al-baḥr al-akhḍar}) \\textit{17} (adn. 175-",
+     "transcription": "Mare Viride (*al-baḥr al-akhḍar*) *17* (adn. 175-",
+     "semantic_anchor": "AB01-PDF0815-col_right-E03",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0815-col_right-L006",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}177 et add. t. II, \\textsc{xxiii}-\\textsc{xxiv}), 170.",
+     "transcription": "177 et add. t. II, {sc:xxiii}-{sc:xxiv}), 170.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0815-col_right-L007",
+     "source_line_no": null,
+     "tex": "Mare Viride (Oceanus Atlanticus) \\textit{19} bis et",
+     "transcription": "Mare Viride (Oceanus Atlanticus) *19* bis et",
+     "semantic_anchor": "AB01-PDF0815-col_right-E04",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0815-col_right-L008",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}n. 4, 176 (et II, \\textsc{xxiii}).",
+     "transcription": "n. 4, 176 (et II, {sc:xxiii}).",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0815-col_right-L009",
+     "source_line_no": null,
+     "tex": "Mare Viride (Mediterraneum) 176, 177.",
+     "transcription": "Mare Viride (Mediterraneum) 176, 177.",
+     "semantic_anchor": "AB01-PDF0815-col_right-E05",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0815-col_right-L010",
+     "source_line_no": null,
+     "tex": "Mare v. Sinus.",
+     "transcription": "Mare v. Sinus.",
+     "semantic_anchor": "AB01-PDF0815-col_right-E06",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0815-col_right-L011",
+     "source_line_no": null,
+     "tex": "Marghīlān (Marghīnān) II, 36 n. 85.",
+     "transcription": "Marghīlān (Marghīnān) II, 36 n. 85.",
+     "semantic_anchor": "AB01-PDF0815-col_right-E07",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0815-col_right-L012",
+     "source_line_no": null,
+     "tex": "Margiana regio v. Marw ar-rūdh.",
+     "transcription": "Margiana regio v. Marw ar-rūdh.",
+     "semantic_anchor": "AB01-PDF0815-col_right-E08",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0815-col_right-L013",
+     "source_line_no": null,
+     "tex": "Mariame v. Ma‘arrat an-Nu‘mān.",
+     "transcription": "Mariame v. Ma‘arrat an-Nu‘mān.",
+     "semantic_anchor": "AB01-PDF0815-col_right-E09",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0815-col_right-L014",
+     "source_line_no": null,
+     "tex": "Mārib II, 51 n. 242.",
+     "transcription": "Mārib II, 51 n. 242.",
+     "semantic_anchor": "AB01-PDF0815-col_right-E10",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0815-col_right-L015",
+     "source_line_no": null,
+     "tex": "Māridah (Mérida) II, 220 bis.",
+     "transcription": "Māridah (Mérida) II, 220 bis.",
+     "semantic_anchor": "AB01-PDF0815-col_right-E11",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0815-col_right-L016",
+     "source_line_no": null,
+     "tex": "Māridīn (Mārdīn) \\textsc{lxi} n.; II, \\textit{42} (et 216: ma-",
+     "transcription": "Māridīn (Mārdīn) {sc:lxi} n.; II, *42* (et 216: ma-",
+     "semantic_anchor": "AB01-PDF0815-col_right-E12",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0815-col_right-L017",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}raditzh).",
+     "transcription": "raditzh).",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0815-col_right-L018",
+     "source_line_no": null,
+     "tex": "al-Mariyyah (Almeria) II, 219 et n., 222.",
+     "transcription": "al-Mariyyah (Almeria) II, 219 et n., 222.",
+     "semantic_anchor": "AB01-PDF0815-col_right-E13",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0815-col_right-L019",
+     "source_line_no": null,
+     "tex": "Marmarica regio II, \\textit{34}, 38 n. 107.",
+     "transcription": "Marmarica regio II, *34*, 38 n. 107.",
+     "semantic_anchor": "AB01-PDF0815-col_right-E14",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0815-col_right-L020",
+     "source_line_no": null,
+     "tex": "Marocco urbs v. Marrākush.",
+     "transcription": "Marocco urbs v. Marrākush.",
+     "semantic_anchor": "AB01-PDF0815-col_right-E15",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0815-col_right-L021",
+     "source_line_no": null,
+     "tex": "Marrākush II, 218.",
+     "transcription": "Marrākush II, 218.",
+     "semantic_anchor": "AB01-PDF0815-col_right-E16",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0815-col_right-L022",
+     "source_line_no": null,
+     "tex": "Marsowà II, 40 n. 139.",
+     "transcription": "Marsowà II, 40 n. 139.",
+     "semantic_anchor": "AB01-PDF0815-col_right-E17",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0815-col_right-L023",
+     "source_line_no": null,
+     "tex": "Marsyas fluvius II, 46 n. 204.",
+     "transcription": "Marsyas fluvius II, 46 n. 204.",
+     "semantic_anchor": "AB01-PDF0815-col_right-E18",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0815-col_right-L024",
+     "source_line_no": null,
+     "tex": "Marūčaq seu Marw-čūq II, 35 n. 77 (et emend.",
+     "transcription": "Marūčaq seu Marw-čūq II, 35 n. 77 (et emend.",
+     "semantic_anchor": "AB01-PDF0815-col_right-E19",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0815-col_right-L025",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}II, \\textsc{xxviii}).",
+     "transcription": "II, {sc:xxviii}).",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0815-col_right-L026",
+     "source_line_no": null,
+     "tex": "Marw ar-rūdh regio (Margiana) II, \\textit{35}; urbs",
+     "transcription": "Marw ar-rūdh regio (Margiana) II, *35*; urbs",
+     "semantic_anchor": "AB01-PDF0815-col_right-E20",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0815-col_right-L027",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}II, 35 n. 77 (et add. t. II, \\textsc{xxviii}).",
+     "transcription": "II, 35 n. 77 (et add. t. II, {sc:xxviii}).",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0815-col_right-L028",
+     "source_line_no": null,
+     "tex": "Marw ash-shāhiǵān (Merv) II, 35 n. 77.",
+     "transcription": "Marw ash-shāhiǵān (Merv) II, 35 n. 77.",
+     "semantic_anchor": "AB01-PDF0815-col_right-E21",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0815-col_right-L029",
+     "source_line_no": null,
+     "tex": "Mashhad ‘Alī II, 42 n. 170.",
+     "transcription": "Mashhad ‘Alī II, 42 n. 170.",
+     "semantic_anchor": "AB01-PDF0815-col_right-E22",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0815-col_right-L030",
+     "source_line_no": null,
+     "tex": "al-Masīlah (Msila) II, 218 n.",
+     "transcription": "al-Masīlah (Msila) II, 218 n.",
+     "semantic_anchor": "AB01-PDF0815-col_right-E23",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0815-col_right-L031",
+     "source_line_no": null,
+     "tex": "al Maṣīrah (Massera, Mossera) insula II, 37 n. 98.",
+     "transcription": "al Maṣīrah (Massera, Mossera) insula II, 37 n. 98.",
+     "semantic_anchor": "AB01-PDF0815-col_right-E24",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0815-col_right-L032",
+     "source_line_no": null,
+     "tex": "al-Maṣṣīṣah II, \\textit{39} (et 216).",
+     "transcription": "al-Maṣṣīṣah II, *39* (et 216).",
+     "semantic_anchor": "AB01-PDF0815-col_right-E25",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0815-col_right-L033",
+     "source_line_no": null,
+     "tex": "al-Maṭkh II, 40 n. 137 (ubi male impressum",
+     "transcription": "al-Maṭkh II, 40 n. 137 (ubi male impressum",
+     "semantic_anchor": "AB01-PDF0815-col_right-E26",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0815-col_right-L034",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}al-Matkh).",
+     "transcription": "al-Matkh).",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0815-col_right-L035",
+     "source_line_no": null,
+     "tex": "Mauritania Tingitana et Caesarensis II, \\textit{34},",
+     "transcription": "Mauritania Tingitana et Caesarensis II, *34*,",
+     "semantic_anchor": "AB01-PDF0815-col_right-E27",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0815-col_right-L036",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}210, 211.",
+     "transcription": "210, 211.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0815-col_right-L037",
+     "source_line_no": null,
+     "tex": "al-Mawṣil (Mossul) II, \\textit{35}, \\textit{42} (et 216).",
+     "transcription": "al-Mawṣil (Mossul) II, *35*, *42* (et 216).",
+     "semantic_anchor": "AB01-PDF0815-col_right-E28",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0815-col_right-L038",
+     "source_line_no": null,
+     "tex": "Mawza‘ II, 50 n. 235.",
+     "transcription": "Mawza‘ II, 50 n. 235.",
+     "semantic_anchor": "AB01-PDF0815-col_right-E29",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0815-col_right-L039",
+     "source_line_no": null,
+     "tex": "Mawzan v. Tell Mawzan.",
+     "transcription": "Mawzan v. Tell Mawzan.",
+     "semantic_anchor": "AB01-PDF0815-col_right-E30",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0815-col_right-L040",
+     "source_line_no": null,
+     "tex": "al-Mayd insula II, \\textit{51}, 212 n. V. al-Kurk.",
+     "transcription": "al-Mayd insula II, *51*, 212 n. V. al-Kurk.",
+     "semantic_anchor": "AB01-PDF0815-col_right-E31",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0815-col_right-L041",
+     "source_line_no": null,
+     "tex": "Mayyāfāriqīn II, \\textit{41}.",
+     "transcription": "Mayyāfāriqīn II, *41*.",
+     "semantic_anchor": "AB01-PDF0815-col_right-E32",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0815-col_right-L042",
+     "source_line_no": null,
+     "tex": "Māzanderān regio II, 36 n. 83, 53 n. 258 et",
+     "transcription": "Māzanderān regio II, 36 n. 83, 53 n. 258 et",
+     "semantic_anchor": "AB01-PDF0815-col_right-E33",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0815-col_right-L043",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}263.",
+     "transcription": "263.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0815-col_right-L044",
+     "source_line_no": null,
+     "tex": "Media v. Ādharbayǵān; praeterea II, 36 n. 83,",
+     "transcription": "Media v. Ādharbayǵān; praeterea II, 36 n. 83,",
+     "semantic_anchor": "AB01-PDF0815-col_right-E34",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0815-col_right-L045",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}193. Reges Medorum v. in Indice historico.",
+     "transcription": "193. Reges Medorum v. in Indice historico.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0815-col_right-L046",
+     "source_line_no": null,
+     "tex": "al-Medīnah (Medina) v. Yathrib.",
+     "transcription": "al-Medīnah (Medina) v. Yathrib.",
+     "semantic_anchor": "AB01-PDF0815-col_right-E35",
+     "source_role": "NALLINO_INDEX"
+    }
+   ]
+  }
+ ]
+}
