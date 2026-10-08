@@ -706,9 +706,9 @@ LEADING = {"body": 13.8, "notes": 11.5, "notes_left": 11.5, "notes_right": 11.5,
 # the type of the index columns: the size of the type of the glossary (x-height 5.1-5.3 PDF points in both), on the
 # leading of the index
 COL_FONT = r"\fontsize{11.1}{14.02}\selectfont"
-# the hanging indent of the index entries: on p. 359 the entries begin at 63.9 PDF points, their continuation lines
-# at 73.8
-COL_HANG = f"{10.0 * BP:.2f}pt"
+# the hanging indent of the index entries: the continuation lines begin 10.6-11.2 PDF points to the right of the
+# entries (pp. 359, 363: 64.1 against 74.7, 64.9 against 75.6-76.1, 283.8 against 294.6)
+COL_HANG = f"{10.7 * BP:.2f}pt"
 # the hanging indent of the entries: on p. 322 the entries begin at 114.3-116.2 PDF points and their continuation
 # lines at 135.4-138.2
 HANG = f"{21.2 * BP:.2f}pt"
