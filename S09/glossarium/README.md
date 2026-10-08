@@ -2,7 +2,7 @@
 
 Nallino's *Glossarium* of al-Battānī's technical vocabulary: Arabic headwords, often vowelled, with their Latin, Greek and Arabic explanations and with references to the pages and lines of the Arabic text (Part III), printed in Arabic-Indic numerals. The edition is diplomatic and line-anchored, in the format of the S07 edition of the notes on the tables: every printed line is one line of the edition, with its hyphenation, its punctuation, its letter-spaced names and its italics, and every line has a stable anchor.
 
-The transcription is in progress. It begins at the title page of the glossary (p. 319) and runs page by page; pp. 319–346 are done (the introduction, pp. 319–321, and the entries from ابد to العنز).
+The transcription is in progress. It begins at the title page of the glossary (p. 319) and runs page by page; pp. 319–347 are done (the introduction, pp. 319–321, and the entries from ابد to الغول).
 
 ## Read
 
@@ -33,7 +33,7 @@ The transcription is in progress. It begins at the title page of the glossary (p
 - Each Arabic example is a run read from the right inside the Latin text, which runs from the left. An example broken at the end of a line has its first words at the right end of that line and its last words at the beginning of the next; each line gives its own words in reading order. The full stop after an Arabic quotation follows the run in the order of the Latin text, so where the quotation fills its last line the full stop stands at the right end of that line (p. 338).
 - The vowel signs open the printed lines unevenly. Each page file gives the printed baselines of its lines (`@baselines`, measured on the scan) and the position of the rule over the notes (`@noterule`); the build sets every line there. Where the scan is skewed, a line's baseline is measured at its middle, and a short line's at its text.
 - Greek, Arabic, Syriac and Hebrew words, numbers and diacritics are read on enlarged images of the scan (up to 3,000 dpi).
-- The Greek type has two sorts of theta, θ and ϑ; each is transcribed as printed. It casts ὁ (omicron with the rough breathing) as one sort that resembles δ (ὁ Κρατήρ, ὁ Βοώτης, ὁρίζων), with the head turned to the right, and ὀ (with the smooth breathing) as a like sort with the head turned to the left (ὀρϑῆς, p. 330); they are transcribed ὁ and ὀ.
+- The Greek type has two sorts of theta, θ and ϑ; each is transcribed as printed. It casts ὁ (omicron with the rough breathing) as one sort that resembles δ (ὁ Κρατήρ, ὁ Βοώτης, ὁρίζων), with the head turned to the right, and ὀ (with the smooth breathing) as a like sort with the head turned to the left (ὀρϑῆς, p. 330); they are transcribed ὁ and ὀ. The sorts of ε and α with a breathing follow the same rule: ἑ (ἑσπερία, ἑῴα) has the head of the breathing opening to the right, ἀ (ἀνατολή, ἀπηλιώτης) to the left (pp. 346-347). A breathing printed before a capital is given with the capital (Ἀρκτοφύλαξ, p. 347).
 - The rule over the footnotes is printed 115 points (40.6 mm) long and centred; the edition sets it so.
 - The zero sign of the tables, which Nallino also prints inside Arabic quotations (p. 328), is transcribed `{0}` and set in `fonts/NallinoSigns.otf`.
 - The signs of the Sun and the Moon (p. 338) are transcribed ⊙ and ☾, as in the Adnotationes (S07).
