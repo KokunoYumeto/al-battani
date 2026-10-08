@@ -1055,6 +1055,12 @@ def page(rec):
     # notes, 8.05 pt; the rule is .25 pt thick and Y is its middle)
     above, below = "6pt", "5pt"
     body_bl = baselines_of(rec["body"])
+    depth = 4.14
+    # on a page of the index the notes follow the two columns (p. 373): the rule is placed from the last line of the
+    # longer column, whose strut has the depth .3 of the leading of the columns
+    if rec["col_left"] or rec["col_right"]:
+        lasts = [b[-1] for b in (baselines_of(rec[r]) for r in ("col_left", "col_right")) if b]
+        body_bl, depth = ([max(lasts)] if lasts else None), .3 * LEADING["col_left"]
     note_bl = baselines_of(rec["notes"] or rec["notes_left"])
     # two columns of notes: each column begins at its own first printed baseline (p. 343: the right column stands
     # 0.18 point lower than the left one); the rule is placed above the higher of the two
@@ -1067,7 +1073,7 @@ def page(rec):
         if col_first:
             note_bl = [min(col_first.values())]
     if rec["noterule"] is not None and body_bl and note_bl:
-        above = f"{(rec['noterule'] - body_bl[-1]) * BP - 4.14 - .125:.2f}pt"
+        above = f"{(rec['noterule'] - body_bl[-1]) * BP - depth - .125:.2f}pt"
         below = f"{(note_bl[0] - rec['noterule']) * BP - .125 - 8.05:.2f}pt"
     if rec["notes"]:
         out.append(r"\par\vspace{" + above + "}" + NOTE_RULE + r"\vspace{" + below + r"}{\fontsize{9}{11.5}\selectfont")

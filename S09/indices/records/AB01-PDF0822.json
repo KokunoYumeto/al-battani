@@ -1,0 +1,563 @@
+{
+ "anchor": "AB01-PDF0822",
+ "master_pdf_page": 822,
+ "printed_page": 373,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "observations": [
+  "body: the double rule stands at 107.4-111.3 PDF points (heavy 2.5, thin 0.8 points), the title INDEX HISTORICUS ET RERUM (capitals 16.7 points tall) on 218.8, the short rule (63.4 points, 22.4 mm) at 248.0. The short rule is printed faint and broken, in pieces of a hairline; the rule of p. 359 is solid. The introduction is set in small type across the page.",
+  "body L8: «iuxta ...» is printed with three spaced points.",
+  "col_left L2, L3: the marks over the i of «Abarwīz» (L2) and «Sa‘īd» (L3) are bars (1.8 by 1.0 and 2.0 by 1.1 points; the dot of the i of «bis», L3, is 1.3 by 1.6), measured with macron_audit.py.",
+  "col_left L5: the hyphen of «al-Fayyūmī» is printed as a point at mid height.",
+  "col_left L8: the b of «‘Abd» is printed broken. «الڭادري» is printed with three dots over the kāf (ڭ), the letter that «al-Gādirī» transcribes with G; the first form, «al-Ǵādirī», has Nallino's ǵ (jīm).",
+  "col_left L8: the mark over the last i of «al-Ǵādirī» is a short bar (1.4 by 1.0 points), at the height of the bar of «al-Gādirī» (2.0 by 1.0); the dots of the other two i's of these names are round (1.2-1.3 points) and stand higher. The line has Arabic and is not counted by macron_audit.py.",
+  "col_left L10: the hyphen of «al-Marrākushī» is printed as a point at mid height.",
+  "col_left L14: the comma after «aetas)» is printed short (1.4 by 2.0 points, 0.4 point below the baseline), with a tail.",
+  "col_left L21: the macron of the second ā of «Abrāhām» is printed broken in two flat pieces (2.0 and 0.7 points wide, 0.4-0.5 tall, at one height), not as a diaeresis (the dots of ä are round, 1.2 points, as in «Wäringer», p. 372).",
+  "col_left L23: «(1)» refers to the footnote of the page.",
+  "col_right L1: the entry Abrāhām ben ‘Ezrā of the left column goes on here.",
+  "col_right L1: the point after «Ian» is printed small (0.8 by 1.1 points).",
+  "col_right L5, L14: «427–428» is printed with an en dash (5.1 points; the hyphen of «33-42», L14, is 2.2 points).",
+  "col_right L10: the comma after «1135)» is printed short (1.2 by 1.8 points, 0.6 point below the baseline), with a tail.",
+  "col_right L14: specks above the point after «33-42)» are not transcribed.",
+  "col_right L20: «Abü» is printed with a diaeresis over the u (two round dots, 1.1 by 1.1 and 1.3 by 1.2 points), where the other entries of the page have the u with a macron; transcribed as printed.",
+  "col_right L22: the hyphen of «’l-faraǵ» is printed as a point at mid height.",
+  "notes_left L2, L3: the opening quotation mark of «‘ Gründe» stands between two spaces (2.6 and 3.0 points); the closing one follows «Chowârezmî» (L3) without a space."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0822-body-L001",
+     "source_line_no": 1,
+     "tex": "\\CenterLine{\\fontsize{24}{28}\\selectfont INDEX HISTORICUS ET RERUM}",
+     "transcription": "INDEX HISTORICUS ET RERUM",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX_HEAD"
+    },
+    {
+     "id": "AB01-PDF0822-body-L002",
+     "source_line_no": 2,
+     "tex": "\\Indent Omittuntur regum et khalifarum nomina, tabulis II, 1-6 contenta, iis exceptis de quibus in adno-",
+     "transcription": "Omittuntur regum et khalifarum nomina, tabulis II, 1-6 contenta, iis exceptis de quibus in adno-",
+     "semantic_anchor": "AB01-PDF0822-P01",
+     "source_role": "NALLINO_INDEX_HEAD"
+    },
+    {
+     "id": "AB01-PDF0822-body-L003",
+     "source_line_no": 3,
+     "tex": "tationibus disseritur. Item fere nunquam glossarii paginae indicantur quibus voces technicae explicatae",
+     "transcription": "tationibus disseritur. Item fere nunquam glossarii paginae indicantur quibus voces technicae explicatae",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX_HEAD"
+    },
+    {
+     "id": "AB01-PDF0822-body-L004",
+     "source_line_no": 4,
+     "tex": "occurrunt. Litterae initiales praenominum sunt quae patrio ipsorum virorum sermone adhibentur;",
+     "transcription": "occurrunt. Litterae initiales praenominum sunt quae patrio ipsorum virorum sermone adhibentur;",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX_HEAD"
+    },
+    {
+     "id": "AB01-PDF0822-body-L005",
+     "source_line_no": 5,
+     "tex": "Iohannes igitur littera \\textit{G.} (Giovanni) designatur si vir Italus est, littera \\textit{J.} (John) si Anglus, etc.",
+     "transcription": "Iohannes igitur littera *G.* (Giovanni) designatur si vir Italus est, littera *J.* (John) si Anglus, etc.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX_HEAD"
+    },
+    {
+     "id": "AB01-PDF0822-body-L006",
+     "source_line_no": 6,
+     "tex": "\\Indent Scribendi compendiis iam p. 359 indicatis haec addantur: adn. = adnotationes ampliores in calce",
+     "transcription": "Scribendi compendiis iam p. 359 indicatis haec addantur: adn. = adnotationes ampliores in calce",
+     "semantic_anchor": "AB01-PDF0822-P02",
+     "source_role": "NALLINO_INDEX_HEAD"
+    },
+    {
+     "id": "AB01-PDF0822-body-L007",
+     "source_line_no": 7,
+     "tex": "versionis capitum aut tabularum. b. = ibn (i. e. filius). em. = emendatus, emendatio. emend. = emen-",
+     "transcription": "versionis capitum aut tabularum. b. = ibn (i. e. filius). em. = emendatus, emendatio. emend. = emen-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX_HEAD"
+    },
+    {
+     "id": "AB01-PDF0822-body-L008",
+     "source_line_no": 8,
+     "tex": "dandum iuxta ... l. = lege, legendum. Muḥ. = Muḥammad. plur. = pluries. v. = vide. Vh. = ver-",
+     "transcription": "dandum iuxta ... l. = lege, legendum. Muḥ. = Muḥammad. plur. = pluries. v. = vide. Vh. = ver-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX_HEAD"
+    },
+    {
+     "id": "AB01-PDF0822-body-L009",
+     "source_line_no": 9,
+     "tex": "sio Hispanica.",
+     "transcription": "sio Hispanica.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX_HEAD"
+    }
+   ]
+  },
+  {
+   "role": "col_left",
+   "lines": [
+    {
+     "id": "AB01-PDF0822-col_left-L001",
+     "source_line_no": null,
+     "tex": "Abāqā Khān \\textsc{lxvii}.",
+     "transcription": "Abāqā Khān {sc:lxvii}.",
+     "semantic_anchor": "AB01-PDF0822-col_left-E01",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0822-col_left-L002",
+     "source_line_no": null,
+     "tex": "Abarwīz v. Chosroes.",
+     "transcription": "Abarwīz v. Chosroes.",
+     "semantic_anchor": "AB01-PDF0822-col_left-E02",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0822-col_left-L003",
+     "source_line_no": null,
+     "tex": "al-‘Abbās b. Sa‘īd al-Ǵawharī 157 bis, 211.",
+     "transcription": "al-‘Abbās b. Sa‘īd al-Ǵawharī 157 bis, 211.",
+     "semantic_anchor": "AB01-PDF0822-col_left-E03",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0822-col_left-L004",
+     "source_line_no": null,
+     "tex": "‘Abd Allāh b. Masrūr an-Naṣrānī 313.",
+     "transcription": "‘Abd Allāh b. Masrūr an-Naṣrānī 313.",
+     "semantic_anchor": "AB01-PDF0822-col_left-E04",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0822-col_left-L005",
+     "source_line_no": null,
+     "tex": "‘Abd al-Qādir al-Fayyūmī 164.",
+     "transcription": "‘Abd al-Qādir al-Fayyūmī 164.",
+     "semantic_anchor": "AB01-PDF0822-col_left-E05",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0822-col_left-L006",
+     "source_line_no": null,
+     "tex": "‘Abd ar-Raḥmān al-Akhḍarī 204-205, 291 et",
+     "transcription": "‘Abd ar-Raḥmān al-Akhḍarī 204-205, 291 et",
+     "semantic_anchor": "AB01-PDF0822-col_left-E06",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0822-col_left-L007",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}n. 2; II, 203, 313.",
+     "transcription": "n. 2; II, 203, 313.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0822-col_left-L008",
+     "source_line_no": null,
+     "tex": "‘Abd ar-Raḥmān al-Ǵādirī (vel al-Gādirī \\ArabicRun{الڭادري})",
+     "transcription": "‘Abd ar-Raḥmān al-Ǵādirī (vel al-Gādirī {ar:الڭادري})",
+     "semantic_anchor": "AB01-PDF0822-col_left-E07",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0822-col_left-L009",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}205 et n., 206, 208.",
+     "transcription": "205 et n., 206, 208.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0822-col_left-L010",
+     "source_line_no": null,
+     "tex": "‘Abd al-Wāḥid al-Marrākushī II, \\textsc{xxx} n.",
+     "transcription": "‘Abd al-Wāḥid al-Marrākushī II, {sc:xxx} n.",
+     "semantic_anchor": "AB01-PDF0822-col_left-E08",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0822-col_left-L011",
+     "source_line_no": null,
+     "tex": "Aben Mohat v. Ibn Mu‘ādh.",
+     "transcription": "Aben Mohat v. Ibn Mu‘ādh.",
+     "semantic_anchor": "AB01-PDF0822-col_left-E09",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0822-col_left-L012",
+     "source_line_no": null,
+     "tex": "Abohaly (Abū ‘Alī al-Khayyāṭ) \\textsc{lvi}, 247 n. 6.",
+     "transcription": "Abohaly (Abū ‘Alī al-Khayyāṭ) {sc:lvi}, 247 n. 6.",
+     "semantic_anchor": "AB01-PDF0822-col_left-E10",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0822-col_left-L013",
+     "source_line_no": null,
+     "tex": "Aboul Hhassan (Abū ‘Alī al-Ḥasan al-Marrā-",
+     "transcription": "Aboul Hhassan (Abū ‘Alī al-Ḥasan al-Marrā-",
+     "semantic_anchor": "AB01-PDF0822-col_left-E11",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0822-col_left-L014",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}kushī) \\textsc{lxv} (eius nomen et aetas), 28 n., 67",
+     "transcription": "kushī) {sc:lxv} (eius nomen et aetas), 28 n., 67",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0822-col_left-L015",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}n., 68 n., 159, 164, 182, 183, 184, 187, 190,",
+     "transcription": "n., 68 n., 159, 164, 182, 183, 184, 187, 190,",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0822-col_left-L016",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}192 bis, 193, 217 bis, 304; II, \\textsc{xiv} et n.,",
+     "transcription": "192 bis, 193, 217 bis, 304; II, {sc:xiv} et n.,",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0822-col_left-L017",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}218 et n., 219 plur., 220 plur., 221 em., 342.",
+     "transcription": "218 et n., 219 plur., 220 plur., 221 em., 342.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0822-col_left-L018",
+     "source_line_no": null,
+     "tex": "Aboulféda v. Abū ’l-fidā’.",
+     "transcription": "Aboulféda v. Abū ’l-fidā’.",
+     "semantic_anchor": "AB01-PDF0822-col_left-E12",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0822-col_left-L019",
+     "source_line_no": null,
+     "tex": "Abrachis v. Hipparchus.",
+     "transcription": "Abrachis v. Hipparchus.",
+     "semantic_anchor": "AB01-PDF0822-col_left-E13",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0822-col_left-L020",
+     "source_line_no": null,
+     "tex": "Abrahah II, 200.",
+     "transcription": "Abrahah II, 200.",
+     "semantic_anchor": "AB01-PDF0822-col_left-E14",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0822-col_left-L021",
+     "source_line_no": null,
+     "tex": "Abrāhām ben ‘Ezrā (Abraham Iudaeus, Ave-",
+     "transcription": "Abrāhām ben ‘Ezrā (Abraham Iudaeus, Ave-",
+     "semantic_anchor": "AB01-PDF0822-col_left-E15",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0822-col_left-L022",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}nezra, Avenares) \\textsc{xxvi}, \\textsc{xxviii}, \\textsc{xxxiii}, \\textsc{xxxv}",
+     "transcription": "nezra, Avenares) {sc:xxvi}, {sc:xxviii}, {sc:xxxiii}, {sc:xxxv}",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0822-col_left-L023",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}n., \\textsc{lxxi}, \\textsc{lxxviii}, \\textsc{lxxx}, 157 n., 216 (1), 248,",
+     "transcription": "n., {sc:lxxi}, {sc:lxxviii}, {sc:lxxx}, 157 n., 216 (1), 248,",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0822-col_left-L024",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}309; II, 313, 351, 356. — Natus Toleti",
+     "transcription": "309; II, 313, 351, 356. — Natus Toleti",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    }
+   ]
+  },
+  {
+   "role": "col_right",
+   "lines": [
+    {
+     "id": "AB01-PDF0822-col_right-L001",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}1092; mortuus 23 Ian. 1167; libros astro-",
+     "transcription": "1092; mortuus 23 Ian. 1167; libros astro-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0822-col_right-L002",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}logicos Lucae vel Mantuae scripsit anno 1145;",
+     "transcription": "logicos Lucae vel Mantuae scripsit anno 1145;",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0822-col_right-L003",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}v. K. \\Name{Albrecht}, \\textit{Studien zu den Dich-}",
+     "transcription": "v. K. {sp:Albrecht}, *Studien zu den Dich-*",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0822-col_right-L004",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}\\textit{tungen Abrahams ben Ezra}, ZDMG. LVII,",
+     "transcription": "*tungen Abrahams ben Ezra*, ZDMG. LVII,",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0822-col_right-L005",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}1903, 427–428.",
+     "transcription": "1903, 427–428.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0822-col_right-L006",
+     "source_line_no": null,
+     "tex": "Abraham de Balmes II, 334.",
+     "transcription": "Abraham de Balmes II, 334.",
+     "semantic_anchor": "AB01-PDF0822-col_right-E01",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0822-col_right-L007",
+     "source_line_no": null,
+     "tex": "Abraham Hispanus v. Abrāhām bar Ḥiyyā.",
+     "transcription": "Abraham Hispanus v. Abrāhām bar Ḥiyyā.",
+     "semantic_anchor": "AB01-PDF0822-col_right-E02",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0822-col_right-L008",
+     "source_line_no": null,
+     "tex": "Abrāhām bar Ḥiyyā (Abraham Hispanus, Sa-",
+     "transcription": "Abrāhām bar Ḥiyyā (Abraham Hispanus, Sa-",
+     "semantic_anchor": "AB01-PDF0822-col_right-E03",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0822-col_right-L009",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}vasorda) \\textsc{xxxiii}, \\textsc{lxxi}, \\textsc{lxxx}, 6 n. (ubi pro",
+     "transcription": "vasorda) {sc:xxxiii}, {sc:lxxi}, {sc:lxxx}, 6 n. (ubi pro",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0822-col_right-L010",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}1165 l. 1135), 159, 287, 293, 298 n., 302-",
+     "transcription": "1165 l. 1135), 159, 287, 293, 298 n., 302-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0822-col_right-L011",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}303, 304; II, 218 et n., 219 plur. — V.",
+     "transcription": "303, 304; II, 218 et n., 219 plur. — V.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0822-col_right-L012",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}etiam Savasorda. — De eo \\Name{Steinschnei-}",
+     "transcription": "etiam Savasorda. — De eo {sp:Steinschnei-}",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0822-col_right-L013",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}\\Name{der}, \\textit{Die Mathematik bei den Juden} (Bibl.",
+     "transcription": "{sp:der}, *Die Mathematik bei den Juden* (Bibl.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0822-col_right-L014",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}Math., N. F., X, 1896, 33-42).",
+     "transcription": "Math., N. F., X, 1896, 33-42).",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0822-col_right-L015",
+     "source_line_no": null,
+     "tex": "Abraham Iudaeus v. Abrāhām ben ‘Ezrā.",
+     "transcription": "Abraham Iudaeus v. Abrāhām ben ‘Ezrā.",
+     "semantic_anchor": "AB01-PDF0822-col_right-E04",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0822-col_right-L016",
+     "source_line_no": null,
+     "tex": "Abū ’l-‘Alā’ al-Ma‘arrī \\textsc{lxxv} (et II, \\textsc{xvii}).",
+     "transcription": "Abū ’l-‘Alā’ al-Ma‘arrī {sc:lxxv} (et II, {sc:xvii}).",
+     "semantic_anchor": "AB01-PDF0822-col_right-E05",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0822-col_right-L017",
+     "source_line_no": null,
+     "tex": "Abū ‘Alī al-Ḥasan al-Marrākushī v. Aboul",
+     "transcription": "Abū ‘Alī al-Ḥasan al-Marrākushī v. Aboul",
+     "semantic_anchor": "AB01-PDF0822-col_right-E06",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0822-col_right-L018",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}Hhassan.",
+     "transcription": "Hhassan.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0822-col_right-L019",
+     "source_line_no": null,
+     "tex": "Abū ‘Alī Yaḥyà al-Khayyāṭ v. Abohaly.",
+     "transcription": "Abū ‘Alī Yaḥyà al-Khayyāṭ v. Abohaly.",
+     "semantic_anchor": "AB01-PDF0822-col_right-E07",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0822-col_right-L020",
+     "source_line_no": null,
+     "tex": "Abü Bakr al-Khuwārizmī II, 50 n.",
+     "transcription": "Abü Bakr al-Khuwārizmī II, 50 n.",
+     "semantic_anchor": "AB01-PDF0822-col_right-E08",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0822-col_right-L021",
+     "source_line_no": null,
+     "tex": "Abū Bakr ibn al-Musharraf \\textsc{lxxii}.",
+     "transcription": "Abū Bakr ibn al-Musharraf {sc:lxxii}.",
+     "semantic_anchor": "AB01-PDF0822-col_right-E09",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0822-col_right-L022",
+     "source_line_no": null,
+     "tex": "Abū ’l-faraǵ \\textsc{x}, 67 n.; II, \\textsc{xxix}, 192 n., 193 ter,",
+     "transcription": "Abū ’l-faraǵ {sc:x}, 67 n.; II, {sc:xxix}, 192 n., 193 ter,",
+     "semantic_anchor": "AB01-PDF0822-col_right-E10",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0822-col_right-L023",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}194, 195. — Syriace scribens est Barhe-",
+     "transcription": "194, 195. — Syriace scribens est Barhe-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0822-col_right-L024",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}braeus.",
+     "transcription": "braeus.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    }
+   ]
+  },
+  {
+   "role": "notes_left",
+   "lines": [
+    {
+     "id": "AB01-PDF0822-notes_left-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (1) Iuxta valde probabilem coniecturam \\Name{Su-}",
+     "transcription": "(1) Iuxta valde probabilem coniecturam {sp:Su-}",
+     "semantic_anchor": "AB01-PDF0822-N01",
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0822-notes_left-L002",
+     "source_line_no": null,
+     "tex": "\\Name{ter}, \\textit{Der Verfasser des Buches ‘ Gründe der Tafeln}",
+     "transcription": "{sp:ter}, *Der Verfasser des Buches ‘ Gründe der Tafeln*",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0822-notes_left-L003",
+     "source_line_no": null,
+     "tex": "\\textit{des Chowârezmî’} (Bibl. Math. III F., 4. Bd., 1903, 127-",
+     "transcription": "*des Chowârezmî’* (Bibl. Math. III F., 4. Bd., 1903, 127-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  },
+  {
+   "role": "notes_right",
+   "lines": [
+    {
+     "id": "AB01-PDF0822-notes_right-L001",
+     "source_line_no": null,
+     "tex": "129), cui \\Name{Steinschneider} (Orient. Litter.-Zeit.,",
+     "transcription": "129), cui {sp:Steinschneider} (Orient. Litter.-Zeit.,",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0822-notes_right-L002",
+     "source_line_no": null,
+     "tex": "VI, 1903, col. 485-486) assentit, auctor libri Arabici",
+     "transcription": "VI, 1903, col. 485-486) assentit, auctor libri Arabici",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0822-notes_right-L003",
+     "source_line_no": null,
+     "tex": "ab Ibn ‘Ezrā versi celeberrimus est \\Name{al-Bīrūnī}.",
+     "transcription": "ab Ibn ‘Ezrā versi celeberrimus est {sp:al-Bīrūnī}.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  }
+ ]
+}
