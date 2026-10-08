@@ -76,7 +76,8 @@ Inline markup: *italic*, **bold**, {gb:...} bold grotesque (the «Pag.» heads),
 sign of the tables (also inside {ar:...}), {lbrace3} and {rbrace3} a left and a right brace over three lines (written on the middle one),
 {rbrace2} a right brace over two lines (written on the first), {vrule2} a thin vertical rule over two lines (written
 on the first), {ar:...} an Arabic phrase with its own brackets and punctuation, set as one right-to-left run
-(inside it {ov:...} are overlined letters, the letters of a geometrical figure: {ar:قوْسَا {ov:اب} و {ov:ج د}}),
+(inside it {ov:...} are overlined letters, the letters of a geometrical figure: {ar:قوْسَا {ov:اب} و {ov:ج د}};
+a Hebrew word inside it is set in the Hebrew font, in the same right-to-left run),
 ({syr:...} the same for Syriac), {rtl:...} a phrase of Arabic numerals and Latin words that the print sets right to
 left, given in reading order, \\* a literal asterisk; runs of Arabic, Greek, Hebrew and Syriac letters are set in
 their fonts, runs of Arabic-Indic numerals (the page references to the Arabic text, ٢٥٦) in the Arabic font, left to
@@ -193,6 +194,8 @@ def markup(s):
         # inside it {ov:...} marks overlined letters (the letters of a geometrical figure)
         body = re.sub(r"\{ov:([^{}]*)\}", lambda o: r"\ArOver{" + o.group(1) + "}", m.group(1))
         body = body.replace("{0}", r"\AbjadZero{}")  # the zero sign of the tables inside an Arabic phrase (p. 328)
+        # a Hebrew word inside an Arabic phrase (الמִצְווֹת, p. 334) keeps the run's direction in the Hebrew font
+        body = HEBREW_RUN.sub(lambda h: r"{\hebrewfont " + h.group(1) + "}", body)
         keep.append(r"\ArabicRun{" + body + "}")
         return f"\uE003{len(keep) - 1}\uE004"
 
