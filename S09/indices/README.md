@@ -2,7 +2,7 @@
 
 Nallino's two indexes to the edition: the *Index geographicus* (pp. 359–372) and the *Index historicus* (pp. 373–413). Each entry gives a name, often with its Arabic or Greek form transcribed in italics, and the places where it occurs: italic numbers are the places of al-Battānī's text, upright numbers those of Nallino's notes (as the introduction of p. 359 says); numbers after «II» are pages of Part II, the others of Part I. The edition is diplomatic and line-anchored, in the format of the S09 edition of the glossary: every printed line is one line of the edition, with its hyphenation, its punctuation, its letter-spaced names and its italics, and every line has a stable anchor.
 
-The transcription is in progress. It begins at the title page of the Index geographicus (p. 359) and runs page by page; pp. 359–391 are done: the Index geographicus is complete (pp. 359–372, the introduction and the entries from Ābaskūn to Zubeyr), and the Index historicus et rerum has begun (pp. 373–391: its introduction and the entries from Abāqā Khān to Iohannes de Capua).
+The transcription is in progress. It begins at the title page of the Index geographicus (p. 359) and runs page by page; pp. 359–392 are done: the Index geographicus is complete (pp. 359–372, the introduction and the entries from Ābaskūn to Zubeyr), and the Index historicus et rerum has begun (pp. 373–392: its introduction and the entries from Abāqā Khān to al-Khuwārizmī).
 
 ## Read
 
@@ -30,7 +30,7 @@ The transcription is in progress. It begins at the title page of the Index geogr
 - The Index geographicus ends on p. 372 with a short rule under the columns; it is set at its printed distance, length and thickness (`@endrule`).
 - Footnotes of the indexes (the first on p. 373) are set as printed under a short rule, in two columns with a thin rule between them, at their printed baselines (`@noterule`, `@notes`, `@col`); the rule is placed from the last line of the longer column.
 - The dot of i and the bar of ī are told apart by measurement (`_intake/notes/tools_s09/macron_audit.py` in the working files: a dot is 1.1–1.4 points wide and round, a bar 1.6–2.4 points wide and flat), since the two are hard to separate by eye in the bold type of the index.
-- Syriac words keep their printed vowel points: the East Syriac dot vowels (zqāpā U+0735, the angular zlāmā U+0739) and the West Syriac Greek-letter vowels (zqāpā U+0733, rbāṣā U+0736) are told apart on the print (p. 384, deqansā).
+- Syriac words keep their printed vowel points: the East Syriac dot vowels (zqāpā U+0735, the angular zlāmā U+0739) and the West Syriac Greek-letter vowels (zqāpā U+0733, rbāṣā U+0736) are told apart on the print (p. 384, deqansā). A horizontal line above a letter that is not pronounced is set as U+0304 over that letter (p. 392, ܓܢ̄ܒܪܐ, gabbārā, with the line over the nun).
 - The sign of right ascension, an italic A joined to an upright R in one sort, is transcribed AR (p. 384).
 - A reading that departs from what one expects is kept as printed and described in the page record.
 

@@ -100,7 +100,8 @@ ARABIC_RUN = re.compile(r"([" + _AL + r"]+(?:[ \u060C][" + _AL + r"]+)*)")
 _GR = r"\u0370-\u03FF\u1F00-\u1FFF"
 GREEK_RUN = re.compile(r"([" + _GR + r"](?:[" + _GR + r"\u0300-\u036F’ ,·]*[" + _GR + r"])?)")
 HEBREW_RUN = re.compile("([\u05B0-\u05C7\u05D0-\u05EA\u05F0-\u05F4]+(?: [\u05B0-\u05C7\u05D0-\u05EA\u05F0-\u05F4]+)*)")
-SYRIAC_RUN = re.compile("([\u0700-\u074F]+(?: [\u0700-\u074F]+)*)")
+# a Syriac run keeps the combining marks of its letters inside it (U+0304, the line above a silent letter, p. 392)
+SYRIAC_RUN = re.compile("([\u0700-\u074F][\u0700-\u074F\u0300-\u036F]*(?: [\u0700-\u074F][\u0700-\u074F\u0300-\u036F]*)*)")
 ETHIOPIC_RUN = re.compile("([\u1200-\u137F]+(?: [\u1200-\u137F]+)*)")
 DIGIT_RUN = re.compile("([\u0660-\u0669]+)")
 
