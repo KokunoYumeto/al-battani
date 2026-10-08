@@ -79,7 +79,7 @@ on the first), {ar:...} an Arabic phrase with its own brackets and punctuation, 
 (inside it {ov:...} are overlined letters, the letters of a geometrical figure: {ar:قوْسَا {ov:اب} و {ov:ج د}};
 a Hebrew word inside it is set in the Hebrew font, in the same right-to-left run),
 ({syr:...} the same for Syriac), {rtl:...} a phrase of Arabic numerals and Latin words that the print sets right to
-left, given in reading order, \\* a literal asterisk; runs of Arabic, Greek, Hebrew and Syriac letters are set in
+left, given in reading order (a part in parentheses inside it is one unit, set left to right), \\* a literal asterisk; runs of Arabic, Greek, Hebrew and Syriac letters are set in
 their fonts, runs of Arabic-Indic numerals (the page references to the Arabic text, ٢٥٦) in the Arabic font, left to
 right, the signs ☾ ⊙ ♈ ♄ ♃ ♂ ♀ ☿ ☊ ☋ in FreeSerif. & % # are escaped; $...$ is mathematics; every other character is
 literal."""
@@ -173,8 +173,10 @@ Haec transcriptio a nullo homine recognita est.\par
 def rtl_phrase(s):
     """{rtl:...}: a phrase of Arabic numerals and Latin words that the print sets right to left (\u00AB\u0642\u0646\u0637 pro \u0642\u0646\u062F\u00BB =
     159 pro 154), given in reading order and set in visual order; a trailing punctuation mark of a word is set on
-    the visual right of the word read after it, as printed"""
-    words = s.split()
+    the visual right of the word read after it, as printed. A part in parentheses is one unit, set left to right
+    with its Arabic words as one right-to-left run: a Latin gloss inside an Arabic phrase (p. 343,
+    \u00AB\u0627\u0644\u0645\u0637\u0627\u0644\u0639 (vel \u0645\u0637\u0627\u0644\u0639 \u0627\u0644\u0628\u0631\u0648\u062C) \u0641\u064A \u0627\u0644\u0627\u0642\u0644\u064A\u0645\u00BB)"""
+    words = re.findall(r"\([^()]*\)[;,.:]*|\S+", s)
     punct = [""] * (len(words) + 1)
     for k, w in enumerate(words):
         m = re.match(r"^(.*?)([;,.:]*)$", w)
@@ -182,7 +184,10 @@ def rtl_phrase(s):
         punct[k + 1] += m.group(2)
     vis = []
     for k, w in enumerate(words):
-        t = r"\ArabicRun{" + w + "}" if ARABIC_RUN.search(w) else w
+        if w.startswith("(") and w.endswith(")"):
+            t = ARABIC_RUN.sub(lambda a: r"\ArabicRun{" + a.group(1) + "}", w)
+        else:
+            t = r"\ArabicRun{" + w + "}" if ARABIC_RUN.search(w) else w
         vis.append(t + punct[k])
     return " ".join(reversed(vis)) + punct[len(words)]
 
@@ -973,6 +978,16 @@ def page(rec):
     above, below = "6pt", "5pt"
     body_bl = baselines_of(rec["body"])
     note_bl = baselines_of(rec["notes"] or rec["notes_left"])
+    # two columns of notes: each column begins at its own first printed baseline (p. 343: the right column stands
+    # 0.18 point lower than the left one); the rule is placed above the higher of the two
+    col_first = {}
+    if not rec["notes"]:
+        for role in ("notes_left", "notes_right"):
+            bl = baselines_of(rec[role])
+            if bl:
+                col_first[role] = bl[0]
+        if col_first:
+            note_bl = [min(col_first.values())]
     if rec["noterule"] is not None and body_bl and note_bl:
         above = f"{(rec['noterule'] - body_bl[-1]) * BP - 4.14 - .125:.2f}pt"
         below = f"{(note_bl[0] - rec['noterule']) * BP - .125 - 8.05:.2f}pt"
@@ -985,9 +1000,11 @@ def page(rec):
         out.append(r"\par\vspace{" + above + "}" + NOTE_RULE + r"\vspace{" + below + "}")
         for k, role in enumerate(("notes_left", "notes_right")):  # the print sets a thin rule between the columns,
             # as deep as the longer column (an unsized \vrule takes the depth of the line, i.e. of the minipages)
+            drop = (col_first[role] - note_bl[0]) * BP if role in col_first and note_bl else 0.0
             out.append((r"\hfill\vrule width.3pt\hfill" if k else r"\noindent")
                        + r"\begin{minipage}[t]{.48\textwidth}\vspace{0pt}"
-                       r"\fontsize{9}{11.5}\selectfont\setlength{\GutterOffset}{0pt}\setlength{\FullSourceWidth}{\linewidth}")
+                       + (r"\vspace*{" + f"{drop:.2f}" + "pt}" if drop > 0.005 else "")
+                       + r"\fontsize{9}{11.5}\selectfont\setlength{\GutterOffset}{0pt}\setlength{\FullSourceWidth}{\linewidth}")
             tex, recs = section(rec[role], prefix, role, False)
             out += tex + [r"\end{minipage}"]
             sections.append({"role": role, "lines": recs})
