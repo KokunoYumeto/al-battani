@@ -1,0 +1,382 @@
+{
+ "anchor": "AB01-PDF0780",
+ "master_pdf_page": 780,
+ "printed_page": 331,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "observations": [
+  "body L7, L20, L24: «خُوصِيٌّ» (L7) has a shadda and over it a dammatan on its yāʾ. The hamza of «جُزْءٌ» (L20) is cast with its dammatan (two small loops on its head), as that of «اِخْتِفَاءٌ» on p. 330; the hamza of «أدِلَّاءُ» (L24) with a damma (one loop), as that of «الحَوَّاءُ» on p. 329, and its alif has no fatha.",
+  "body L12, L20: «62-69», «69-80» (L12) and «19-20» (L20) are printed with a hyphen; the other ranges of the page have an en dash.",
+  "body L21, L34: the digits 2 of «٢٢٤–٢٢٥» (L21) and the last digit of «١١٢» (L34) have one crest each (2.9-3.0 points); a 3 measures 4.6-4.7 points on this page.",
+  "body L25, L26: a small mark (3.6 by 1.9 points) is printed between the lines, below the 1 of «314» (L25) and above the Syriac word of L26; not transcribed.",
+  "body L26: «ܡܕܰܒܪܳܢܳܐ» is printed in Serṭo type with Greek-letter vowels: the pthoḥo (a small A) over the dālath, the zqofo (a small o) over the rīsh and the nūn.",
+  "notes_left L1-L3: the yāʾ of «بِلَّوْريّة», «كُحْلِيّة», «سَمَاويّة» and «وَرْديّة» bears a shadda without a vowel; only «كُحْلِيّة» has a kasra under the letter before it.",
+  "notes_right L4: the ς of «τῆς» is printed in two fragments, like a colon."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0780-body-L001",
+     "source_line_no": 1,
+     "tex": "\\hspace*{21.28pt}143, n. 3: « Le scorpion est le domicile de Mars (Arès), qui y a son Sosie, Antarès, \\textgreek{τῷ}",
+     "transcription": "143, n. 3: « Le scorpion est le domicile de Mars (Arès), qui y a son Sosie, Antarès, τῷ",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0780-body-L002",
+     "source_line_no": 2,
+     "tex": "\\hspace*{21.28pt}« \\textgreek{Ἄρει τὴν χρόαν ὅμοιος} (Cleomed., II, 11) »; et 191, n. 3: « C’est en l’honneur de Mars",
+     "transcription": "« Ἄρει τὴν χρόαν ὅμοιος (Cleomed., II, 11) »; et 191, n. 3: « C’est en l’honneur de Mars",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0780-body-L003",
+     "source_line_no": 3,
+     "tex": "\\hspace*{21.28pt}« (\\textgreek{Ἄρης}) — ou peut-être comme force antagoniste et atténuante, participant un peu de",
+     "transcription": "« (Ἄρης) — ou peut-être comme force antagoniste et atténuante, participant un peu de",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0780-body-L004",
+     "source_line_no": 4,
+     "tex": "\\hspace*{21.28pt}« la nature de Jupiter (Ptol., \\textit{Tetrab.}, II [sic], 9) — que l’étoile la plus brillante du",
+     "transcription": "« la nature de Jupiter (Ptol., *Tetrab.*, II [sic], 9) — que l’étoile la plus brillante du",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0780-body-L005",
+     "source_line_no": 5,
+     "tex": "\\hspace*{21.28pt}« Scorpion porte le nom d’ \\textgreek{Ἀντάρης} ».",
+     "transcription": "« Scorpion porte le nom d’ Ἀντάρης ».",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0780-body-L006",
+     "source_line_no": 6,
+     "tex": "\\ArabicRun{[خَامِسَةٌ]} pl. \\ArabicRun{خَوَامِسُ} \\textit{quintae partes sexagesimae, minuta quinta}, {\\arabicfont ٩}\\textsubscript{10}, {\\arabicfont ١٠}.",
+     "transcription": "{ar:[خَامِسَةٌ]} pl. {ar:خَوَامِسُ} *quintae partes sexagesimae, minuta quinta*, ٩{sub:10}, ١٠.",
+     "semantic_anchor": "AB01-PDF0780-E01",
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0780-body-L007",
+     "source_line_no": 7,
+     "tex": "\\ArabicRun{خُوصِيٌّ} iuxta coniecturam II, 285, 286–87, in \\textit{Almagesto} verso ab \\Name{al-Ḥaǵǵāǵ ibn Yūsuf},",
+     "transcription": "{ar:خُوصِيٌّ} iuxta coniecturam II, 285, 286–87, in *Almagesto* verso ab {sp:al-Ḥaǵǵāǵ ibn Yūsuf},",
+     "semantic_anchor": "AB01-PDF0780-E02",
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0780-body-L008",
+     "source_line_no": 8,
+     "tex": "\\hspace*{21.28pt}\\textgreek{ὑπόκιῤῥος}, \\textit{subrufus, coloris inter flavum et rubrum}. Adiectivis relativis colores desi-",
+     "transcription": "ὑπόκιῤῥος, *subrufus, coloris inter flavum et rubrum*. Adiectivis relativis colores desi-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0780-body-L009",
+     "source_line_no": 9,
+     "tex": "\\hspace*{21.28pt}gnantibus, quae p. 286 memoravi, alia multa addere possum: \\ArabicRun{زُبْدِيّ} apud \\Name{Dozy}; \\ArabicRun{آسِيّ},",
+     "transcription": "gnantibus, quae p. 286 memoravi, alia multa addere possum: {ar:زُبْدِيّ} apud {sp:Dozy}; {ar:آسِيّ},",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0780-body-L010",
+     "source_line_no": 10,
+     "tex": "\\hspace*{21.28pt}\\ArabicRun{بَهَارِيّ}, \\ArabicRun{خَمْريّ}, \\ArabicRun{فِضِّيّ} apud \\Name{Fleischer}, \\textit{Kl. Schr.}, II, 178 (et \\ArabicRun{عُصْفُرِيّ} II, 639); \\ArabicRun{قَرَطِيّ} « lohfar-",
+     "transcription": "{ar:بَهَارِيّ}, {ar:خَمْريّ}, {ar:فِضِّيّ} apud {sp:Fleischer}, *Kl. Schr.*, II, 178 (et {ar:عُصْفُرِيّ} II, 639); {ar:قَرَطِيّ} « lohfar-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0780-body-L011",
+     "source_line_no": 11,
+     "tex": "\\hspace*{21.28pt}ben » apud \\Name{Ibn Durayd}, \\textit{Geneal. Handbuch}, p. 56, l. 5; complura alia apud \\Name{ad-Di-}",
+     "transcription": "ben » apud {sp:Ibn Durayd}, *Geneal. Handbuch*, p. 56, l. 5; complura alia apud {sp:ad-Di-}",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0780-body-L012",
+     "source_line_no": 12,
+     "tex": "\\hspace*{21.28pt}\\Name{mashqī}, p. 62-69 text., 69-80 vers., et \\Name{Ahmed Teifascite}, \\textit{Fior di pensieri}, p. 10,",
+     "transcription": "{sp:mashqī}, p. 62-69 text., 69-80 vers., et {sp:Ahmed Teifascite}, *Fior di pensieri*, p. 10,",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0780-body-L013",
+     "source_line_no": 13,
+     "tex": "\\hspace*{21.28pt}11, 14, 24, 34, 35 text. (1). Idem fit hodiernis dialectis; exemplorum copia apud \\Name{Har-}",
+     "transcription": "11, 14, 24, 34, 35 text. (1). Idem fit hodiernis dialectis; exemplorum copia apud {sp:Har-}",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0780-body-L014",
+     "source_line_no": 14,
+     "tex": "\\hspace*{21.28pt}\\Name{fouch}, \\textit{Drogman arabe}, Beyrouth 1894, p. 64, ac \\Name{Eidenschenk} et \\Name{Cohen–Solal},",
+     "transcription": "{sp:fouch}, *Drogman arabe*, Beyrouth 1894, p. 64, ac {sp:Eidenschenk} et {sp:Cohen–Solal},",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0780-body-L015",
+     "source_line_no": 15,
+     "tex": "\\hspace*{21.28pt}\\textit{Mots usuels de la langue arabe}, Alger 1897, p. 167.",
+     "transcription": "*Mots usuels de la langue arabe*, Alger 1897, p. 167.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0780-body-L016",
+     "source_line_no": 16,
+     "tex": "\\ArabicRun{الدَّجَاجَةُ} \\textgreek{ἡ Ὄρνις} « gallina » (apud Eratosthenem ac Teucrum etiam \\textgreek{ὁ Κύκνος, τὸ Ὄρνεον}), con-",
+     "transcription": "{ar:الدَّجَاجَةُ} ἡ Ὄρνις « gallina » (apud Eratosthenem ac Teucrum etiam ὁ Κύκνος, τὸ Ὄρνεον), con-",
+     "semantic_anchor": "AB01-PDF0780-E03",
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0780-body-L017",
+     "source_line_no": 17,
+     "tex": "\\hspace*{21.28pt}stellatio \\textit{Cygni}, {\\arabicfont ٢٤٩}, {\\arabicfont ٢٧٦}. Cfr. \\Name{Lane} (ex al-Qazwīnī).",
+     "transcription": "stellatio *Cygni*, ٢٤٩, ٢٧٦. Cfr. {sp:Lane} (ex al-Qazwīnī).",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0780-body-L018",
+     "source_line_no": 18,
+     "tex": "\\ArabicRun{مَدْخَلٌ} \\textit{initium} mensis, \\textit{prima dies} mensis, {\\arabicfont ١٠٢}\\textsubscript{11}, {\\arabicfont ١٠٣}\\textsubscript{10}; ac ita chronologi omnes, qui vocem",
+     "transcription": "{ar:مَدْخَلٌ} *initium* mensis, *prima dies* mensis, ١٠٢{sub:11}, ١٠٣{sub:10}; ac ita chronologi omnes, qui vocem",
+     "semantic_anchor": "AB01-PDF0780-E04",
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0780-body-L019",
+     "source_line_no": 19,
+     "tex": "\\hspace*{21.28pt}etiam de \\textit{prima die anni} usurpant. \\Name{Lane}: « a time of entrance » (sine auctoritate).",
+     "transcription": "etiam de *prima die anni* usurpant. {sp:Lane}: « a time of entrance » (sine auctoritate).",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0780-body-L020",
+     "source_line_no": 20,
+     "tex": "\\ArabicRun{دَرَجَةٌ} coll. \\ArabicRun{دَرَجٌ} pl. \\ArabicRun{دَرَجَاتٌ} i. q. \\ArabicRun{جُزْءٌ} ({\\arabicfont ٨}\\textsubscript{19-20}) \\textgreek{μοῖρα}, \\textit{gradus} circuli. Plur. auctor post numeralia",
+     "transcription": "{ar:دَرَجَةٌ} coll. {ar:دَرَجٌ} pl. {ar:دَرَجَاتٌ} i. q. {ar:جُزْءٌ} (٨{sub:19-20}) μοῖρα, *gradus* circuli. Plur. auctor post numeralia",
+     "semantic_anchor": "AB01-PDF0780-E05",
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0780-body-L021",
+     "source_line_no": 21,
+     "tex": "\\hspace*{21.28pt}dumtaxat adhibet, {\\arabicfont ٤٠}\\textsubscript{14}, {\\arabicfont ٤١}\\textsubscript{2} etc.; sine numeralibus adpendice spuria {\\arabicfont ٢٢٤}–{\\arabicfont ٢٢٥}. Cfr. \\Name{Lane} ex TA.",
+     "transcription": "dumtaxat adhibet, ٤٠{sub:14}, ٤١{sub:2} etc.; sine numeralibus adpendice spuria ٢٢٤–٢٢٥. Cfr. {sp:Lane} ex TA.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0780-body-L022",
+     "source_line_no": 22,
+     "tex": "\\ArabicRun{دَرِيجَانٌ} pl. \\ArabicRun{دَرِيجَانَاتٌ} \\textgreek{δεκανός, πρόσωπον}, \\textit{adorogen, decanus, facies} astrologica, vox Albatenio",
+     "transcription": "{ar:دَرِيجَانٌ} pl. {ar:دَرِيجَانَاتٌ} δεκανός, πρόσωπον, *adorogen, decanus, facies* astrologica, vox Albatenio",
+     "semantic_anchor": "AB01-PDF0780-E06",
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0780-body-L023",
+     "source_line_no": 23,
+     "tex": "\\hspace*{21.28pt}ignota, v. I, p. \\textsc{xxx}–\\textsc{xxxi}, et t. II, 310–312; \\Name{al-Bīrūnī}, \\textit{India}, p. 307 text., II, 222 vers.",
+     "transcription": "ignota, v. I, p. {sc:xxx}–{sc:xxxi}, et t. II, 310–312; {sp:al-Bīrūnī}, *India*, p. 307 text., II, 222 vers.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0780-body-L024",
+     "source_line_no": 24,
+     "tex": "\\ArabicRun{[دَلِيلٌ]} pl. \\ArabicRun{أدِلَّاءُ} \\textgreek{ὁ ἀφέτης, ὁ κύριος τῆς ζωῆς}, \\textit{apheta, significator, hileg, hilegium}, {\\arabicfont ٢٠٣}\\textsubscript{1}; cfr. t. I,",
+     "transcription": "{ar:[دَلِيلٌ]} pl. {ar:أدِلَّاءُ} ὁ ἀφέτης, ὁ κύριος τῆς ζωῆς, *apheta, significator, hileg, hilegium*, ٢٠٣{sub:1}; cfr. t. I,",
+     "semantic_anchor": "AB01-PDF0780-E07",
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0780-body-L025",
+     "source_line_no": 25,
+     "tex": "\\hspace*{21.28pt}p. 313–314. Inepta definitio apud \\Name{Dozy}, I, 455–56 (ex Prol.), qui singul. solum praebet.",
+     "transcription": "p. 313–314. Inepta definitio apud {sp:Dozy}, I, 455–56 (ex Prol.), qui singul. solum praebet.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0780-body-L026",
+     "source_line_no": 26,
+     "tex": "\\hspace*{21.28pt}Est \\textsyriac{ܡܕܰܒܪܳܢܳܐ} « rector, gubernator, administrator » apud \\Name{Bardesane}, \\textit{Le Livre des lois}",
+     "transcription": "Est {syr:ܡܕܰܒܪܳܢܳܐ} « rector, gubernator, administrator » apud {sp:Bardesane}, *Le Livre des lois*",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0780-body-L027",
+     "source_line_no": 27,
+     "tex": "\\hspace*{21.28pt}\\textit{des pays}, pluribus locis collectis a Nau in introd. p. 18 (Nau « conducteurs » vertit). —",
+     "transcription": "*des pays*, pluribus locis collectis a Nau in introd. p. 18 (Nau « conducteurs » vertit). —",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0780-body-L028",
+     "source_line_no": 28,
+     "tex": "\\hspace*{21.28pt}\\ArabicRun{دَلَالَةٌ} pl. \\ArabicRun{دَلَالَاتٌ} et \\ArabicRun{دَلَائِلُ} \\textgreek{ἐπισημασία}, \\textit{significatio}, res quam caelestia eventuram portendunt,",
+     "transcription": "{ar:دَلَالَةٌ} pl. {ar:دَلَالَاتٌ} et {ar:دَلَائِلُ} ἐπισημασία, *significatio*, res quam caelestia eventuram portendunt,",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0780-body-L029",
+     "source_line_no": 29,
+     "tex": "\\hspace*{21.28pt}vers. \\textit{Tetrabibli} loco laud. t. I, p. \\textsc{xxii}; \\Name{Abū Ma‘shar}, l. l. hoc t. II in addit. ad I,",
+     "transcription": "vers. *Tetrabibli* loco laud. t. I, p. {sc:xxii}; {sp:Abū Ma‘shar}, l. l. hoc t. II in addit. ad I,",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0780-body-L030",
+     "source_line_no": 30,
+     "tex": "\\hspace*{21.28pt}p. \\textsc{lxxviii}; \\Name{Abū Ma‘shar}, \\textit{Introductorium}, maqālah VI, faṣl I (apud \\Name{Boll}, \\textit{Sphaera},",
+     "transcription": "p. {sc:lxxviii}; {sp:Abū Ma‘shar}, *Introductorium*, maqālah VI, faṣl I (apud {sp:Boll}, *Sphaera*,",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0780-body-L031",
+     "source_line_no": 31,
+     "tex": "\\hspace*{21.28pt}p. 490 pluries); \\Name{Nicoll}, \\textit{Catal. Bodlei.}, p. 238 sq.",
+     "transcription": "p. 490 pluries); {sp:Nicoll}, *Catal. Bodlei.*, p. 238 sq.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0780-body-L032",
+     "source_line_no": 32,
+     "tex": "\\ArabicRun{الدُّلْفِينُ} \\textgreek{ὁ Δελφίν}, constellatio \\textit{Delphini}, {\\arabicfont ٢٥٣}; \\Name{Lane} ex al-Qazwīnī.",
+     "transcription": "{ar:الدُّلْفِينُ} ὁ Δελφίν, constellatio *Delphini*, ٢٥٣; {sp:Lane} ex al-Qazwīnī.",
+     "semantic_anchor": "AB01-PDF0780-E08",
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0780-body-L033",
+     "source_line_no": 33,
+     "tex": "\\ArabicRun{دَوْرٌ} pl. \\ArabicRun{أَدْوَارٌ} \\textgreek{κύκλος}, \\textit{circulus, quantitas 360 graduum}, {\\arabicfont ٩}\\textsubscript{16, 17, 18}, {\\arabicfont ٤١}\\textsubscript{ult.}, {\\arabicfont ٤٢} (\\ArabicRun{دورة}), {\\arabicfont ٧٨}\\textsubscript{16}, {\\arabicfont ١٠٦}\\textsubscript{ult.},",
+     "transcription": "{ar:دَوْرٌ} pl. {ar:أَدْوَارٌ} κύκλος, *circulus, quantitas 360 graduum*, ٩{sub:16, 17, 18}, ٤١{sub:ult.}, ٤٢ ({ar:دورة}), ٧٨{sub:16}, ١٠٦{sub:ult.},",
+     "semantic_anchor": "AB01-PDF0780-E09",
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0780-body-L034",
+     "source_line_no": 34,
+     "tex": "\\hspace*{21.28pt}{\\arabicfont ١٠٧}\\textsubscript{1, 8}, {\\arabicfont ١١٠}\\textsubscript{3, 4}, {\\arabicfont ١١٢}\\textsubscript{20} (\\ArabicRun{دورة}) etc. — \\ArabicRun{تَدْوِيرٌ} \\textit{rotunditas}, {\\arabicfont ٢٧٠}\\textsubscript{ult.} (2), {\\arabicfont ٢٧٨}\\textsubscript{paen.}; cfr. \\Name{al-Edrīsī}, ed.",
+     "transcription": "١٠٧{sub:1, 8}, ١١٠{sub:3, 4}, ١١٢{sub:20} ({ar:دورة}) etc. — {ar:تَدْوِيرٌ} *rotunditas*, ٢٧٠{sub:ult.} (2), ٢٧٨{sub:paen.}; cfr. {sp:al-Edrīsī}, ed.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0780-body-L035",
+     "source_line_no": 35,
+     "tex": "\\hspace*{21.28pt}Amari et Schiaparelli, {\\arabicfont ٧}\\textsubscript{2}: \\ArabicRun{انّ الارض مدوَّرة كتدوير الكرة}. — \\ArabicRun{تدوير السَّفِينَة} \\textgreek{ε} \\textit{Navis} (seu",
+     "transcription": "Amari et Schiaparelli, ٧{sub:2}: {ar:انّ الارض مدوَّرة كتدوير الكرة}. — {ar:تدوير السَّفِينَة} ε *Navis* (seu",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    }
+   ]
+  },
+  {
+   "role": "notes_left",
+   "lines": [
+    {
+     "id": "AB01-PDF0780-notes_left-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (1) Praeterea abstracta \\ArabicRun{بِلَّوْريّة} (Dim. 69 ult.,",
+     "transcription": "(1) Praeterea abstracta {ar:بِلَّوْريّة} (Dim. 69 ult.,",
+     "semantic_anchor": "AB01-PDF0780-N01",
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0780-notes_left-L002",
+     "source_line_no": null,
+     "tex": "70 pr. text.), \\ArabicRun{كُحْلِيّة} (Teif. 44), \\ArabicRun{سَمَاويّة} (Teif. 49,",
+     "transcription": "70 pr. text.), {ar:كُحْلِيّة} (Teif. 44), {ar:سَمَاويّة} (Teif. 49,",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0780-notes_left-L003",
+     "source_line_no": null,
+     "tex": "Dim. 65), \\ArabicRun{وَرْديّة} (Teif. 49, Dim. 65).",
+     "transcription": "Dim. 65), {ar:وَرْديّة} (Teif. 49, Dim. 65).",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0780-notes_left-L004",
+     "source_line_no": null,
+     "tex": "\\Indent (2) Hoc loco etiam Almagestum ab \\Name{al-Ḥaǵ-}",
+     "transcription": "(2) Hoc loco etiam Almagestum ab {sp:al-Ḥaǵ-}",
+     "semantic_anchor": "AB01-PDF0780-N02",
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  },
+  {
+   "role": "notes_right",
+   "lines": [
+    {
+     "id": "AB01-PDF0780-notes_right-L001",
+     "source_line_no": null,
+     "tex": "\\Name{ǵāǵ} versum habebat \\ArabicRun{تدوير}, ut \\Name{Gherardi} inter-",
+     "transcription": "{sp:ǵāǵ} versum habebat {ar:تدوير}, ut {sp:Gherardi} inter-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0780-notes_right-L002",
+     "source_line_no": null,
+     "tex": "pretatio ostendit: « quae est super revolutionem oris",
+     "transcription": "pretatio ostendit: « quae est super revolutionem oris",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0780-notes_right-L003",
+     "source_line_no": null,
+     "tex": "« vasis super arcum meridianum ». Graece: \\textgreek{ὁ ἐπὶ}",
+     "transcription": "« vasis super arcum meridianum ». Graece: ὁ ἐπὶ",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0780-notes_right-L004",
+     "source_line_no": null,
+     "tex": "\\textgreek{τῆς νοτίου περιφερείας τοῦ στόματος}.",
+     "transcription": "τῆς νοτίου περιφερείας τοῦ στόματος.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  }
+ ]
+}
