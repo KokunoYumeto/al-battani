@@ -1,0 +1,222 @@
+{
+ "anchor": "AB01-PDF0807",
+ "master_pdf_page": 807,
+ "printed_page": 358,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "observations": [
+  "body L1, L7, L10, L22: «وما» and «معه» (L1), «عليه» (L7), «ما» and the second «على» (L10) and «الأيّام» (L22) are printed with elongated joins (kashīda), not transcribed.",
+  "body L1, L2, L4: the parentheses enclose the Arabic runs: «(» stands at the left of the last word of the run of L1 and of L4, «)» at the right of the first word of the run of L2 and of L4.",
+  "body L7: «الأوّل» has the hamza on the alif and the shadda on the wāw, no other vowel sign.",
+  "body L7, L8: «الموقَّع» has the shadda and the fatḥa in L7 and in «الجدول الموقَّع عليه عرض القمر» (L8); the other two «الموقّع» of L8 have the shadda alone.",
+  "body L10: the Latin «(sic)» stands inside the first quotation, after «موقع»; the run is given in reading order with {rtl:}.",
+  "body L11: «رؤوس» has the hamza on its first wāw.",
+  "body L12, L13, L16: the second figure of «١٢٦» (L12) is a 2 joined to the 6 (5.8 points, as «٢٦» in L16); the last figure of «١٩٢» (L13) is a 2 with one flag, not a 4.",
+  "body L4, L9, L12, L13: the 8 of «18-19» (L4) is printed with the top of its upper loop broken; the 6s of «16» (L9, L13) and of «٢٢٣{6}» (L13) have the ball terminal touching the bowl, closing a small upper counter (compare the open 6 of «٢٢٤{6}», L13); the 3 of «٢٢١{3}» (L12) has its lower terminal touching the middle stroke.",
+  "body L16, L17: «يَاقُوتٌ» has the dammatan in both lines; in «أَحْمَرُ» (L16) the sukun of the ḥāʾ and the fatḥa of the mīm are printed as one joined sign.",
+  "body L5, L20, L22: «9–10» (L5), «٧٣–٧٥» (L20, L22) and «61–64» (L22) are printed with en dashes (5.3-5.6 points). The dash before «اليَوْمُ الأَوْسَطُ» (L20) is 7.8 points long (the other em dashes of the page 9.6-10.3).",
+  "body L21, L22: «اليَوْم» (L21) has no vowel sign on the mīm; in «الأَيّام» (L22) the fatḥa of the hamza is printed to its right and the yāʾ has the shadda alone; «بلياليها» is unvowelled.",
+  "notes L1: a thin rule 30.3 mm (86 points) long, centred, closes the glossary 114 points below the footnote. A dot (2.4 by 2.3 points) printed between the footnote and that rule, 33 points above it, is not transcribed."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0807-body-L001",
+     "source_line_no": 1,
+     "tex": "\\hspace*{21.28pt}\\textit{gitudo} astri, {\\arabicfont ٣}\\textsubscript{18}, {\\arabicfont ٤}\\textsubscript{10, 11}, {\\arabicfont ٥}\\textsubscript{3}, {\\arabicfont ٧}\\textsubscript{14} ac saepissime. Locus {\\arabicfont ٣}\\textsubscript{18} (\\ArabicRun{وما يظهَر معه من مواضع}",
+     "transcription": "*gitudo* astri, ٣{sub:18}, ٤{sub:10, 11}, ٥{sub:3}, ٧{sub:14} ac saepissime. Locus ٣{sub:18} ({ar:وما يظهَر معه من مواضع}",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0807-body-L002",
+     "source_line_no": 2,
+     "tex": "\\hspace*{21.28pt}\\ArabicRun{بُعْدها الابعد من اجزاء البروج}), vers. I, 3 (et n. 1) ac titulo I, 43, ita vertendus: « et lon-",
+     "transcription": "{ar:بُعْدها الابعد من اجزاء البروج}), vers. I, 3 (et n. 1) ac titulo I, 43, ita vertendus: « et lon-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0807-body-L003",
+     "source_line_no": 3,
+     "tex": "\\hspace*{21.28pt}« gitudines apogei Solis quae simul cum ea [inaequalitate motus solaris] eruuntur ». Item",
+     "transcription": "« gitudines apogei Solis quae simul cum ea [inaequalitate motus solaris] eruuntur ». Item",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0807-body-L004",
+     "source_line_no": 4,
+     "tex": "\\hspace*{21.28pt}{\\arabicfont ٦٤}\\textsubscript{18-19} (\\ArabicRun{وما يظهر مع ذلك من موضع نقطة بعدها الابعد عن مركز الارض في فلك البروج}), vers. I, 43,",
+     "transcription": "٦٤{sub:18-19} ({ar:وما يظهر مع ذلك من موضع نقطة بعدها الابعد عن مركز الارض في فلك البروج}), vers. I, 43,",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0807-body-L005",
+     "source_line_no": 5,
+     "tex": "\\hspace*{21.28pt}l. 9–10: « et qualis sit longitudo apogei Solis simul cum hac [inaequalitate motus] depre-",
+     "transcription": "l. 9–10: « et qualis sit longitudo apogei Solis simul cum hac [inaequalitate motus] depre-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0807-body-L006",
+     "source_line_no": 6,
+     "tex": "\\hspace*{21.28pt}« hendenda ».",
+     "transcription": "« hendenda ».",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0807-body-L007",
+     "source_line_no": 7,
+     "tex": "\\ArabicRun{وقع} — II, \\textit{inscriptione} seu \\textit{titulo} tabulam (\\ArabicRun{على}) \\textit{instruere}; {\\arabicfont ١٠٧}\\textsubscript{12} \\ArabicRun{الجَدْوَل الأوّل ... الموقَّع عليه}",
+     "transcription": "{ar:وقع} — II, *inscriptione* seu *titulo* tabulam ({ar:على}) *instruere*; ١٠٧{sub:12} {ar:الجَدْوَل الأوّل ... الموقَّع عليه}",
+     "semantic_anchor": "AB01-PDF0807-E01",
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0807-body-L008",
+     "source_line_no": 8,
+     "tex": "\\hspace*{21.28pt}\\ArabicRun{تعديل الشمس}; {\\arabicfont ١١٣}\\textsubscript{19} \\ArabicRun{الجدول الموقَّع عليه عرض القمر}; {\\arabicfont ١٢٠}\\textsubscript{5} \\ArabicRun{الموقّع عليهما فلك التدوير}; {\\arabicfont ٢٢٠}\\textsubscript{10} \\ArabicRun{الموقّع}",
+     "transcription": "{ar:تعديل الشمس}; ١١٣{sub:19} {ar:الجدول الموقَّع عليه عرض القمر}; ١٢٠{sub:5} {ar:الموقّع عليهما فلك التدوير}; ٢٢٠{sub:10} {ar:الموقّع}",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0807-body-L009",
+     "source_line_no": 9,
+     "tex": "\\hspace*{21.28pt}\\ArabicRun{عليه اوّل المحرّم}. Cfr. {\\arabicfont ٩٣}\\textsubscript{16} \\ArabicRun{وسنُصَوِّر الشكل ونُوَقِّع فيه عشر دواير للقمر}. Item \\Name{Ḥabash}, f. 17,v.,",
+     "transcription": "{ar:عليه اوّل المحرّم}. Cfr. ٩٣{sub:16} {ar:وسنُصَوِّر الشكل ونُوَقِّع فيه عشر دواير للقمر}. Item {sp:Ḥabash}, f. 17,v.,",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0807-body-L010",
+     "source_line_no": 10,
+     "tex": "\\hspace*{21.28pt}l. 4 \\ArabicRun{الجدول} \\ArabicRun{راس} \\ArabicRun{على} (sic) \\ArabicRun{موقع} \\ArabicRun{نجده} \\ArabicRun{ما} \\ArabicRun{حسب}; f. 27,v., l. 4 a f. \\ArabicRun{موقع على راس الجدول};",
+     "transcription": "l. 4 {rtl:حسب ما نجده موقع (sic) على راس الجدول}; f. 27,v., l. 4 a f. {ar:موقع على راس الجدول};",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0807-body-L011",
+     "source_line_no": 11,
+     "tex": "\\hspace*{21.28pt}f. 77,r., paen. \\ArabicRun{الجدول الموقع عليه مدخل الشمس رؤوس البروج}. — \\ArabicRun{تَوْقِيعٌ} \\textit{inscriptio} tabulae",
+     "transcription": "f. 77,r., paen. {ar:الجدول الموقع عليه مدخل الشمس رؤوس البروج}. — {ar:تَوْقِيعٌ} *inscriptio* tabulae",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0807-body-L012",
+     "source_line_no": 12,
+     "tex": "\\hspace*{21.28pt}vel columnae, {\\arabicfont ١٢٦}\\textsubscript{7}, {\\arabicfont ١٧٢}\\textsubscript{8, 9}, {\\arabicfont ٢١٩}\\textsubscript{20}, {\\arabicfont ٢٢١}\\textsubscript{3}.",
+     "transcription": "vel columnae, ١٢٦{sub:7}, ١٧٢{sub:8, 9}, ٢١٩{sub:20}, ٢٢١{sub:3}.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0807-body-L013",
+     "source_line_no": 13,
+     "tex": "\\ArabicRun{مَوْلِدٌ} pl. \\ArabicRun{مَوَالِيدُ} (1) \\textgreek{γένεσις}, \\textit{genitura}, \\textit{nativitas}, {\\arabicfont ٦١}\\textsubscript{2}, {\\arabicfont ١٩٢}\\textsubscript{12, 15, 16}, {\\arabicfont ١٩٦}\\textsubscript{17}, {\\arabicfont ٢٠٣}\\textsubscript{1}, {\\arabicfont ٢٢٣}\\textsubscript{6}, {\\arabicfont ٢٢٤}\\textsubscript{6}. Singu-",
+     "transcription": "{ar:مَوْلِدٌ} pl. {ar:مَوَالِيدُ} (1) γένεσις, *genitura*, *nativitas*, ٦١{sub:2}, ١٩٢{sub:12, 15, 16}, ١٩٦{sub:17}, ٢٠٣{sub:1}, ٢٢٣{sub:6}, ٢٢٤{sub:6}. Singu-",
+     "semantic_anchor": "AB01-PDF0807-E02",
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0807-body-L014",
+     "source_line_no": 14,
+     "tex": "\\hspace*{21.28pt}lare \\ArabicRun{مَوْلُودٌ} aut plurale \\ArabicRun{مَوَالِدُ} ab astronomis et astrologis nunquam usurpari videntur. De-",
+     "transcription": "lare {ar:مَوْلُودٌ} aut plurale {ar:مَوَالِدُ} ab astronomis et astrologis nunquam usurpari videntur. De-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0807-body-L015",
+     "source_line_no": 15,
+     "tex": "\\hspace*{21.28pt}finitio \\Name{Dozy}, II, 840,\\textit{b} haud exacta.",
+     "transcription": "finitio {sp:Dozy}, II, 840,*b* haud exacta.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0807-body-L016",
+     "source_line_no": 16,
+     "tex": "\\ArabicRun{يَاقُوتٌ أَحْمَرُ} \\textit{rubinus} (loco parallelo Geographiae Ptolemaei \\textgreek{ὑάκινθος}), {\\arabicfont ٢٦}\\textsubscript{14}; \\Name{Dozy}, II, 847,\\textit{b} (ex",
+     "transcription": "{ar:يَاقُوتٌ أَحْمَرُ} *rubinus* (loco parallelo Geographiae Ptolemaei ὑάκινθος), ٢٦{sub:14}; {sp:Dozy}, II, 847,*b* (ex",
+     "semantic_anchor": "AB01-PDF0807-E03",
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0807-body-L017",
+     "source_line_no": 17,
+     "tex": "\\hspace*{21.28pt}Bc et Niebuhr). — \\ArabicRun{يَاقُوتٌ لَوْنُ السَّمَاءِ} \\textit{sapphirus} (\\textgreek{βήρυλλος} Ptolemaei), ibid.; \\Name{Dozy} \\ArabicRun{ياقوت}",
+     "transcription": "Bc et Niebuhr). — {ar:يَاقُوتٌ لَوْنُ السَّمَاءِ} *sapphirus* (βήρυλλος Ptolemaei), ibid.; {sp:Dozy} {ar:ياقوت}",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0807-body-L018",
+     "source_line_no": 18,
+     "tex": "\\hspace*{21.28pt}\\ArabicRun{ازرق} (ex Bc).",
+     "transcription": "{ar:ازرق} (ex Bc).",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0807-body-L019",
+     "source_line_no": 19,
+     "tex": "\\ArabicRun{يوم} — \\ArabicRun{اليَوْمُ بِلَيْلَتِهِ} pl. \\ArabicRun{الأَيَّامُ بِلَيَالِيهَا} \\textgreek{τὸ νυχθήμερον}, \\textit{nychthemerum}, temporis spatium 24 hora-",
+     "transcription": "{ar:يوم} — {ar:اليَوْمُ بِلَيْلَتِهِ} pl. {ar:الأَيَّامُ بِلَيَالِيهَا} τὸ νυχθήμερον, *nychthemerum*, temporis spatium 24 hora-",
+     "semantic_anchor": "AB01-PDF0807-E04",
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0807-body-L020",
+     "source_line_no": 20,
+     "tex": "\\hspace*{21.28pt}rum quibus Terra rotationem perficit, {\\arabicfont ٧٣}–{\\arabicfont ٧٥} ac saepissime. — \\ArabicRun{اليَوْمُ الأَوْسَطُ} \\textgreek{ὁμαλὸν νυχθή}-",
+     "transcription": "rum quibus Terra rotationem perficit, ٧٣–٧٥ ac saepissime. — {ar:اليَوْمُ الأَوْسَطُ} ὁμαλὸν νυχθή-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0807-body-L021",
+     "source_line_no": 21,
+     "tex": "\\hspace*{21.28pt}\\textgreek{μερον}, \\textit{nychthemerum medium}; \\ArabicRun{اليَوْم المُخْتَلِفُ} \\textgreek{ἀνώμαλον νυχθήμερον}, \\textit{nychthemerum in-}",
+     "transcription": "μερον, *nychthemerum medium*; {ar:اليَوْم المُخْتَلِفُ} ἀνώμαλον νυχθήμερον, *nychthemerum in-*",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0807-body-L022",
+     "source_line_no": 22,
+     "tex": "\\hspace*{21.28pt}\\textit{aequale}, {\\arabicfont ٧٣}–{\\arabicfont ٧٥} etc. — \\ArabicRun{تَعْدِيلُ الأَيّام بلياليها} \\textit{aequatio temporis}, {\\arabicfont ١٠٨}\\textsubscript{24} et II, 61–64.",
+     "transcription": "*aequale*, ٧٣–٧٥ etc. — {ar:تَعْدِيلُ الأَيّام بلياليها} *aequatio temporis*, ١٠٨{sub:24} et II, 61–64.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    }
+   ]
+  },
+  {
+   "role": "notes",
+   "lines": [
+    {
+     "id": "AB01-PDF0807-notes-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (1) Ut \\ArabicRun{مراسيل} ex \\ArabicRun{مُرْسَل} et \\ArabicRun{مناكير} ex \\ArabicRun{مُنْكَر}.",
+     "transcription": "(1) Ut {ar:مراسيل} ex {ar:مُرْسَل} et {ar:مناكير} ex {ar:مُنْكَر}.",
+     "semantic_anchor": "AB01-PDF0807-N01",
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  }
+ ]
+}

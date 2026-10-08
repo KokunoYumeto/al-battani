@@ -1,0 +1,48 @@
+@page 807 358
+% the last page of the glossary: the end of وضع (L1-L6, with the two passages of the Arabic text and their versions),
+% then the entries وقع (L7-L12: the inscriptions of the tables, with the quotations of the Arabic text and of Ḥabash,
+% توقيع), مولد (L13-L15), ياقوت (L16-L18) and يوم (L19-L22); one footnote and the short rule that closes the glossary.
+% The order of the words of each Arabic run is fixed from the x positions of the ink, word by word; in L7-L11 each
+% page reference stands before its quotation, and the quotation of L7 goes on at the beginning of L8. The lines are
+% set at the middle of their Latin words (base_fix), L8, an Arabic line, 0.72 point below its joins.
+@baselines 130.56 146.76 162.87 179.16 195.31 211.38 227.67 243.50 259.80 276.00 292.07 308.22 324.33 340.40 356.55 372.75 388.95 405.05 421.26 437.40 453.39 469.50
+> *gitudo* astri, ٣{sub:18}, ٤{sub:10, 11}, ٥{sub:3}, ٧{sub:14} ac saepissime. Locus ٣{sub:18} ({ar:وما يظهَر معه من مواضع}
+> {ar:بُعْدها الابعد من اجزاء البروج}), vers. I, 3 (et n. 1) ac titulo I, 43, ita vertendus: « et lon-
+> « gitudines apogei Solis quae simul cum ea [inaequalitate motus solaris] eruuntur ». Item
+> ٦٤{sub:18-19} ({ar:وما يظهر مع ذلك من موضع نقطة بعدها الابعد عن مركز الارض في فلك البروج}), vers. I, 43,
+> l. 9–10: « et qualis sit longitudo apogei Solis simul cum hac [inaequalitate motus] depre-
+> « hendenda ».
++ {ar:وقع} — II, *inscriptione* seu *titulo* tabulam ({ar:على}) *instruere*; ١٠٧{sub:12} {ar:الجَدْوَل الأوّل ... الموقَّع عليه}
+> {ar:تعديل الشمس}; ١١٣{sub:19} {ar:الجدول الموقَّع عليه عرض القمر}; ١٢٠{sub:5} {ar:الموقّع عليهما فلك التدوير}; ٢٢٠{sub:10} {ar:الموقّع}
+> {ar:عليه اوّل المحرّم}. Cfr. ٩٣{sub:16} {ar:وسنُصَوِّر الشكل ونُوَقِّع فيه عشر دواير للقمر}. Item {sp:Ḥabash}, f. 17,v.,
+> l. 4 {rtl:حسب ما نجده موقع (sic) على راس الجدول}; f. 27,v., l. 4 a f. {ar:موقع على راس الجدول};
+> f. 77,r., paen. {ar:الجدول الموقع عليه مدخل الشمس رؤوس البروج}. — {ar:تَوْقِيعٌ} *inscriptio* tabulae
+> vel columnae, ١٢٦{sub:7}, ١٧٢{sub:8, 9}, ٢١٩{sub:20}, ٢٢١{sub:3}.
++ {ar:مَوْلِدٌ} pl. {ar:مَوَالِيدُ} (1) γένεσις, *genitura*, *nativitas*, ٦١{sub:2}, ١٩٢{sub:12, 15, 16}, ١٩٦{sub:17}, ٢٠٣{sub:1}, ٢٢٣{sub:6}, ٢٢٤{sub:6}. Singu-
+> lare {ar:مَوْلُودٌ} aut plurale {ar:مَوَالِدُ} ab astronomis et astrologis nunquam usurpari videntur. De-
+> finitio {sp:Dozy}, II, 840,*b* haud exacta.
++ {ar:يَاقُوتٌ أَحْمَرُ} *rubinus* (loco parallelo Geographiae Ptolemaei ὑάκινθος), ٢٦{sub:14}; {sp:Dozy}, II, 847,*b* (ex
+> Bc et Niebuhr). — {ar:يَاقُوتٌ لَوْنُ السَّمَاءِ} *sapphirus* (βήρυλλος Ptolemaei), ibid.; {sp:Dozy} {ar:ياقوت}
+> {ar:ازرق} (ex Bc).
++ {ar:يوم} — {ar:اليَوْمُ بِلَيْلَتِهِ} pl. {ar:الأَيَّامُ بِلَيَالِيهَا} τὸ νυχθήμερον, *nychthemerum*, temporis spatium 24 hora-
+> rum quibus Terra rotationem perficit, ٧٣–٧٥ ac saepissime. — {ar:اليَوْمُ الأَوْسَطُ} ὁμαλὸν νυχθή-
+> μερον, *nychthemerum medium*; {ar:اليَوْم المُخْتَلِفُ} ἀνώμαλον νυχθήμερον, *nychthemerum in-*
+> *aequale*, ٧٣–٧٥ etc. — {ar:تَعْدِيلُ الأَيّام بلياليها} *aequatio temporis*, ١٠٨{sub:24} et II, 61–64.
+@obs body L1, L7, L10, L22: «وما» and «معه» (L1), «عليه» (L7), «ما» and the second «على» (L10) and «الأيّام» (L22) are printed with elongated joins (kashīda), not transcribed.
+@obs body L1, L2, L4: the parentheses enclose the Arabic runs: «(» stands at the left of the last word of the run of L1 and of L4, «)» at the right of the first word of the run of L2 and of L4.
+@obs body L7: «الأوّل» has the hamza on the alif and the shadda on the wāw, no other vowel sign.
+@obs body L7, L8: «الموقَّع» has the shadda and the fatḥa in L7 and in «الجدول الموقَّع عليه عرض القمر» (L8); the other two «الموقّع» of L8 have the shadda alone.
+@obs body L10: the Latin «(sic)» stands inside the first quotation, after «موقع»; the run is given in reading order with {rtl:}.
+@obs body L11: «رؤوس» has the hamza on its first wāw.
+@obs body L12, L13, L16: the second figure of «١٢٦» (L12) is a 2 joined to the 6 (5.8 points, as «٢٦» in L16); the last figure of «١٩٢» (L13) is a 2 with one flag, not a 4.
+@obs body L4, L9, L12, L13: the 8 of «18-19» (L4) is printed with the top of its upper loop broken; the 6s of «16» (L9, L13) and of «٢٢٣{6}» (L13) have the ball terminal touching the bowl, closing a small upper counter (compare the open 6 of «٢٢٤{6}», L13); the 3 of «٢٢١{3}» (L12) has its lower terminal touching the middle stroke.
+@obs body L16, L17: «يَاقُوتٌ» has the dammatan in both lines; in «أَحْمَرُ» (L16) the sukun of the ḥāʾ and the fatḥa of the mīm are printed as one joined sign.
+@obs body L5, L20, L22: «9–10» (L5), «٧٣–٧٥» (L20, L22) and «61–64» (L22) are printed with en dashes (5.3-5.6 points). The dash before «اليَوْمُ الأَوْسَطُ» (L20) is 7.8 points long (the other em dashes of the page 9.6-10.3).
+@obs body L21, L22: «اليَوْم» (L21) has no vowel sign on the mīm; in «الأَيّام» (L22) the fatḥa of the hamza is printed to its right and the yāʾ has the shadda alone; «بلياليها» is unvowelled.
+@noterule 483.32
+@notes1
+@baselines 504.56
+^ (1) Ut {ar:مراسيل} ex {ar:مُرْسَل} et {ar:مناكير} ex {ar:مُنْكَر}.
+@vspace 37.00
+@rule 30.31
+@obs notes L1: a thin rule 30.3 mm (86 points) long, centred, closes the glossary 114 points below the footnote. A dot (2.4 by 2.3 points) printed between the footnote and that rule, 33 points above it, is not transcribed.

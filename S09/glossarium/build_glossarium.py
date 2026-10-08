@@ -163,7 +163,7 @@ PREAMBLE = r"""\documentclass[11pt]{article}
 NOTICE = r"""\thispagestyle{empty}
 \begin{center}\Large AL-BATTĀNĪ\par\vspace{4mm}\LARGE OPUS ASTRONOMICUM\par
 \vspace{5mm}\large Caroli Alphonsi Nallino glossarium (pars II)\par\vspace{8mm}
-\Large S09 --- editio diplomatica in progressu\par\vspace{4mm}\large Paginae impressae 319--LASTPAGE\end{center}
+\Large S09 --- editio diplomatica\par\vspace{4mm}\large Paginae impressae 319--LASTPAGE\end{center}
 \vspace{12mm}\noindent Singulae lineae paginarum impressarum singulis lineis huius editionis respondent, cum
 divisionibus vocabulorum, signis et generibus litterarum (rectis, inclinatis, distantibus). Textus ex imaginibus
 paginarum transcriptus est; litterae Graecae et Arabicae, numeri et signa in imaginibus amplificatis lecta sunt.
