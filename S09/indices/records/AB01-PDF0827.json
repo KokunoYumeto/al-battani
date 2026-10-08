@@ -1,0 +1,782 @@
+{
+ "anchor": "AB01-PDF0827",
+ "master_pdf_page": 827,
+ "printed_page": 378,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "observations": [
+  "col_left L5: «φ» is the Greek phi.",
+  "col_left L10, L11, L17: ☾ is the sign of the Moon, ⊙ the sign of the Sun.",
+  "col_left L21: «*30–31*» is printed with an en dash (as wide as a figure); the other ranges of the page have hyphens, except three in the right column (L2, L3, L43).",
+  "col_left L31, L33, L41: the marks over the i of «‘Arīb» (twice) and «Arsīs» are bars (2.3-2.5 by 0.8-1.2 points), measured with macron_audit.py.",
+  "col_left L39: a speck (0.4 by 0.6 point) over the u of «Arogus» is not transcribed.",
+  "col_left L40: the ḥ of «Arsaḥ» is the ḥ sort with its dot joined below (1.3 points under the baseline); «Arsakh?» is printed with a thin space (2.4 points) before the question mark.",
+  "col_left L43: «*Art de vérifier les dates*» is printed in italics.",
+  "col_right L2, L3, L43: «ārya–siddhānta», «az–Zarqālī» and «6–8» are printed with en dashes (5.3 points in ārya–siddhānta); transcribed as printed.",
+  "col_right L5, L8: ⊙ is the sign of the Sun, ☾ the sign of the Moon.",
+  "col_right L6: a speck (0.8 by 1.0 point) at the foot of the e of «ube-» is not transcribed.",
+  "col_right L11: «(1)» refers to the footnote of the page. The hyphen at the end of «obli-» is printed short (2.0 by 1.3 points), like a point.",
+  "col_right L12: the hyphen of «*27-28*» has a spur hanging from its right end (together 2.9 by 3.0 points); transcribed as a hyphen.",
+  "col_right L16: the hyphen of «163-164» is printed as a point at mid height (1.6 by 1.0 points); the same range in L25 has a full hyphen.",
+  "col_right L16: a speck at the left of the 3 of «163» is not transcribed.",
+  "col_right L27, L39: «λ», «β», «γ» and «δ» are Greek.",
+  "col_right L32: a speck (1.1 by 1.9 points) far to the right of «15.» is not transcribed.",
+  "col_right L33: a round speck (1.4 by 1.7 points) under the i of «ascensionum», 2.4-4.0 points below the baseline, is not transcribed (the word has no letter that Nallino marks with a dot below).",
+  "col_right L39: «al-ḥimārāni» ends with a dotted i (1.6 by 1.3 points), the dual ending; the two ā carry macrons.",
+  "col_right L42: the last o of «oppositio» is printed broken, open on the left.",
+  "col_right L43: the entry aspectus goes on on p. 379.",
+  "notes_left L1: the rule over the footnote is 115 points (40.6 mm) long, as on p. 373; its middle lies 14 points below the last line of the columns.",
+  "notes_right L1: the hyphen at the end of «consi-» is printed raised, at the height of the dot of the i (2.9 by 1.2 points, 5.5-6.7 points above the baseline)."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": []
+  },
+  {
+   "role": "col_left",
+   "lines": [
+    {
+     "id": "AB01-PDF0827-col_left-L001",
+     "source_line_no": null,
+     "tex": "arcus depressionis 269 (et n. 1), 270-271.",
+     "transcription": "arcus depressionis 269 (et n. 1), 270-271.",
+     "semantic_anchor": "AB01-PDF0827-col_left-E01",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0827-col_left-L002",
+     "source_line_no": null,
+     "tex": "arcus diurnus aut semidiurnus Solis, e tabulis",
+     "transcription": "arcus diurnus aut semidiurnus Solis, e tabulis",
+     "semantic_anchor": "AB01-PDF0827-col_left-E02",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0827-col_left-L003",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}ascensionum duplici modo erutus \\textit{28-29}; e",
+     "transcription": "ascensionum duplici modo erutus *28-29*; e",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0827-col_left-L004",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}temporibus horariis \\textit{29}; definitus \\textit{32} lin. 31-",
+     "transcription": "temporibus horariis *29*; definitus *32* lin. 31-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0827-col_left-L005",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}32; maximus vel minimus ex data \\textgreek{φ} \\textit{21-22}",
+     "transcription": "32; maximus vel minimus ex data φ *21-22*",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0827-col_left-L006",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}(adn. 180).",
+     "transcription": "(adn. 180).",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0827-col_left-L007",
+     "source_line_no": null,
+     "tex": "arcus diurnus aut semidiurnus stellae e decli-",
+     "transcription": "arcus diurnus aut semidiurnus stellae e decli-",
+     "semantic_anchor": "AB01-PDF0827-col_left-E03",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0827-col_left-L008",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}natione captus \\textit{32} (adn. 195).",
+     "transcription": "natione captus *32* (adn. 195).",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0827-col_left-L009",
+     "source_line_no": null,
+     "tex": "arcus lucis 269, 270.",
+     "transcription": "arcus lucis 269, 270.",
+     "semantic_anchor": "AB01-PDF0827-col_left-E04",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0827-col_left-L010",
+     "source_line_no": null,
+     "tex": "arcus Lunae in eclipsibus \\MoonSym{} \\textit{99-100} (adn. 275-",
+     "transcription": "arcus Lunae in eclipsibus ☾ *99-100* (adn. 275-",
+     "semantic_anchor": "AB01-PDF0827-col_left-E05",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0827-col_left-L011",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}276); in eclipsibus \\SunSym{} \\textit{109}.",
+     "transcription": "276); in eclipsibus ⊙ *109*.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0827-col_left-L012",
+     "source_line_no": null,
+     "tex": "arcus morae 269 n. 1, 270.",
+     "transcription": "arcus morae 269 n. 1, 270.",
+     "semantic_anchor": "AB01-PDF0827-col_left-E06",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0827-col_left-L013",
+     "source_line_no": null,
+     "tex": "arcus revolutus sphaerae ab ortu Solis \\textit{30}",
+     "transcription": "arcus revolutus sphaerae ab ortu Solis *30*",
+     "semantic_anchor": "AB01-PDF0827-col_left-E07",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0827-col_left-L014",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}(adn. 189-191); ab occasu Solis \\textit{34}; ab ortu",
+     "transcription": "(adn. 189-191); ab occasu Solis *34*; ab ortu",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0827-col_left-L015",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}stellae \\textit{34} (adn. 195-196); in parte anni tro-",
+     "transcription": "stellae *34* (adn. 195-196); in parte anni tro-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0827-col_left-L016",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}pici excedente 365 dies II, \\textit{188} (adn. 295).",
+     "transcription": "pici excedente 365 dies II, *188* (adn. 295).",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0827-col_left-L017",
+     "source_line_no": null,
+     "tex": "arcus Solis in eclipsibus \\SunSym{} \\textit{109}.",
+     "transcription": "arcus Solis in eclipsibus ⊙ *109*.",
+     "semantic_anchor": "AB01-PDF0827-col_left-E08",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0827-col_left-L018",
+     "source_line_no": null,
+     "tex": "arcus umbrae in eclipsibus Lunae \\textit{99-100} (adn.",
+     "transcription": "arcus umbrae in eclipsibus Lunae *99-100* (adn.",
+     "semantic_anchor": "AB01-PDF0827-col_left-E09",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0827-col_left-L019",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}275-276).",
+     "transcription": "275-276).",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0827-col_left-L020",
+     "source_line_no": null,
+     "tex": "arcus versus (arcus respondens dato sinui verso)",
+     "transcription": "arcus versus (arcus respondens dato sinui verso)",
+     "semantic_anchor": "AB01-PDF0827-col_left-E10",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0827-col_left-L021",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}\\textit{30–31}, \\textit{34}.",
+     "transcription": "*30–31*, *34*.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0827-col_left-L022",
+     "source_line_no": null,
+     "tex": "arcus visionis II, 256-257.",
+     "transcription": "arcus visionis II, 256-257.",
+     "semantic_anchor": "AB01-PDF0827-col_left-E11",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0827-col_left-L023",
+     "source_line_no": null,
+     "tex": "Argelander Fr. W., passim in notis II, 144-",
+     "transcription": "Argelander Fr. W., passim in notis II, 144-",
+     "semantic_anchor": "AB01-PDF0827-col_left-E12",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0827-col_left-L024",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}177, 273, 274-277.",
+     "transcription": "177, 273, 274-277.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0827-col_left-L025",
+     "source_line_no": null,
+     "tex": "argestes (\\textit{arghesṭūs}) II, \\textit{92} (adn. 234).",
+     "transcription": "argestes (*arghesṭūs*) II, *92* (adn. 234).",
+     "semantic_anchor": "AB01-PDF0827-col_left-E13",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0827-col_left-L026",
+     "source_line_no": null,
+     "tex": "argumentum (\\textit{ḥiṣṣah}) azimuthi 183; — decli-",
+     "transcription": "argumentum (*ḥiṣṣah*) azimuthi 183; — decli-",
+     "semantic_anchor": "AB01-PDF0827-col_left-E14",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0827-col_left-L027",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}nationis Solis aut eclipticae \\textit{13}; — diversi-",
+     "transcription": "nationis Solis aut eclipticae *13*; — diversi-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0827-col_left-L028",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}tatis diei in quadrante v. dies.",
+     "transcription": "tatis diei in quadrante v. dies.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0827-col_left-L029",
+     "source_line_no": null,
+     "tex": "argumentum i. q. anomalia apud nonnullos II,",
+     "transcription": "argumentum i. q. anomalia apud nonnullos II,",
+     "semantic_anchor": "AB01-PDF0827-col_left-E15",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0827-col_left-L030",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}226.",
+     "transcription": "226.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0827-col_left-L031",
+     "source_line_no": null,
+     "tex": "‘Arīb, annales et glossarium, \\textsc{xx} n. 1; II, 40,",
+     "transcription": "‘Arīb, annales et glossarium, {sc:xx} n. 1; II, 40,",
+     "semantic_anchor": "AB01-PDF0827-col_left-E16",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0827-col_left-L032",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}322.",
+     "transcription": "322.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0827-col_left-L033",
+     "source_line_no": null,
+     "tex": "‘Arīb b. Sa‘d 297.",
+     "transcription": "‘Arīb b. Sa‘d 297.",
+     "semantic_anchor": "AB01-PDF0827-col_left-E17",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0827-col_left-L034",
+     "source_line_no": null,
+     "tex": "Arietis stellae II, \\textit{155} (cum add. 279).",
+     "transcription": "Arietis stellae II, *155* (cum add. 279).",
+     "semantic_anchor": "AB01-PDF0827-col_left-E18",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0827-col_left-L035",
+     "source_line_no": null,
+     "tex": "Aristarchus 208, 252; II, \\textsc{xxvii}.",
+     "transcription": "Aristarchus 208, 252; II, {sc:xxvii}.",
+     "semantic_anchor": "AB01-PDF0827-col_left-E19",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0827-col_left-L036",
+     "source_line_no": null,
+     "tex": "Aristoteles 173, 272 (add. \\textsc{lxxv}), 286.",
+     "transcription": "Aristoteles 173, 272 (add. {sc:lxxv}), 286.",
+     "semantic_anchor": "AB01-PDF0827-col_left-E20",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0827-col_left-L037",
+     "source_line_no": null,
+     "tex": "Aristyllus 299.",
+     "transcription": "Aristyllus 299.",
+     "semantic_anchor": "AB01-PDF0827-col_left-E21",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0827-col_left-L038",
+     "source_line_no": null,
+     "tex": "Armanus \\textsc{xxxv} n. 5; v. Humenus.",
+     "transcription": "Armanus {sc:xxxv} n. 5; v. Humenus.",
+     "semantic_anchor": "AB01-PDF0827-col_left-E22",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0827-col_left-L039",
+     "source_line_no": null,
+     "tex": "Arogus rex II, \\textit{2} (adn. 193).",
+     "transcription": "Arogus rex II, *2* (adn. 193).",
+     "semantic_anchor": "AB01-PDF0827-col_left-E23",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0827-col_left-L040",
+     "source_line_no": null,
+     "tex": "Arsames (unde Arsaḥ, Arsakh?) II, 194.",
+     "transcription": "Arsames (unde Arsaḥ, Arsakh?) II, 194.",
+     "semantic_anchor": "AB01-PDF0827-col_left-E24",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0827-col_left-L041",
+     "source_line_no": null,
+     "tex": "Arses (Arsīs, Narses, Oarses) II, 193.",
+     "transcription": "Arses (Arsīs, Narses, Oarses) II, 193.",
+     "semantic_anchor": "AB01-PDF0827-col_left-E25",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0827-col_left-L042",
+     "source_line_no": null,
+     "tex": "Arsisochus II, 193.",
+     "transcription": "Arsisochus II, 193.",
+     "semantic_anchor": "AB01-PDF0827-col_left-E26",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0827-col_left-L043",
+     "source_line_no": null,
+     "tex": "\\textit{Art de vérifier les dates}, liber 244 n. 2.",
+     "transcription": "*Art de vérifier les dates*, liber 244 n. 2.",
+     "semantic_anchor": "AB01-PDF0827-col_left-E27",
+     "source_role": "NALLINO_INDEX"
+    }
+   ]
+  },
+  {
+   "role": "col_right",
+   "lines": [
+    {
+     "id": "AB01-PDF0827-col_right-L001",
+     "source_line_no": null,
+     "tex": "Āryabhaṭa 293, 303 n. 1.",
+     "transcription": "Āryabhaṭa 293, 303 n. 1.",
+     "semantic_anchor": "AB01-PDF0827-col_right-E01",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0827-col_right-L002",
+     "source_line_no": null,
+     "tex": "\\textit{ārya–siddhānta}, duo libri 206.",
+     "transcription": "*ārya–siddhānta*, duo libri 206.",
+     "semantic_anchor": "AB01-PDF0827-col_right-E02",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0827-col_right-L003",
+     "source_line_no": null,
+     "tex": "Arzachel (Arzechel etc.) v. az–Zarqālī.",
+     "transcription": "Arzachel (Arzechel etc.) v. az–Zarqālī.",
+     "semantic_anchor": "AB01-PDF0827-col_right-E03",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0827-col_right-L004",
+     "source_line_no": null,
+     "tex": "Aṣbagh b. as-Samḥ v. Ibn as-Samḥ.",
+     "transcription": "Aṣbagh b. as-Samḥ v. Ibn as-Samḥ.",
+     "semantic_anchor": "AB01-PDF0827-col_right-E04",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0827-col_right-L005",
+     "source_line_no": null,
+     "tex": "ascendens (\\textit{ṭāli‘}) ex arcu revoluto sphaerae co-",
+     "transcription": "ascendens (*ṭāli‘*) ex arcu revoluto sphaerae co-",
+     "semantic_anchor": "AB01-PDF0827-col_right-E05",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0827-col_right-L006",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}gnoscere die \\textit{30} lin. 36-38, nocte \\textit{34}; ube-",
+     "transcription": "gnoscere die *30* lin. 36-38, nocte *34*; ube-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0827-col_right-L007",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}riora praecepta \\textit{73}; ex distantia \\SunSym{} a linea",
+     "transcription": "riora praecepta *73*; ex distantia ⊙ a linea",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0827-col_right-L008",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}medii Caeli \\textit{31} lin. 1-5; ex observatione \\MoonSym{}",
+     "transcription": "medii Caeli *31* lin. 1-5; ex observatione ☾",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0827-col_right-L009",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}aut alterius sideris \\textit{34}; tempore nativitatis",
+     "transcription": "aut alterius sideris *34*; tempore nativitatis",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0827-col_right-L010",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}\\textit{128-129}, \\textit{148}.",
+     "transcription": "*128-129*, *148*.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0827-col_right-L011",
+     "source_line_no": null,
+     "tex": "ascensiones (1) in climatibus (ascensiones obli-",
+     "transcription": "ascensiones (1) in climatibus (ascensiones obli-",
+     "semantic_anchor": "AB01-PDF0827-col_right-E06",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0827-col_right-L012",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}quae) \\textit{27-28} (adn. 187-189); tabulae II, \\textit{65-}",
+     "transcription": "quae) *27-28* (adn. 187-189); tabulae II, *65-*",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0827-col_right-L013",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}\\textit{66} (adn. 222). Azimuth earum v. amplitudo.",
+     "transcription": "*66* (adn. 222). Azimuth earum v. amplitudo.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0827-col_right-L014",
+     "source_line_no": null,
+     "tex": "ascensiones in sphaera recta (ascensiones re-",
+     "transcription": "ascensiones in sphaera recta (ascensiones re-",
+     "semantic_anchor": "AB01-PDF0827-col_right-E07",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0827-col_right-L015",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}ctae) \\textit{13-14}; commodi causa in tabulis a",
+     "transcription": "ctae) *13-14*; commodi causa in tabulis a",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0827-col_right-L016",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}Capricorni initio numeratae \\textit{14} (adn. 163-164,",
+     "transcription": "Capricorni initio numeratae *14* (adn. 163-164,",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0827-col_right-L017",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}cum add. \\textsc{lxxii} et II, \\textsc{xvii}, \\textsc{xxiv}), 325; ta-",
+     "transcription": "cum add. {sc:lxxii} et II, {sc:xvii}, {sc:xxiv}), 325; ta-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0827-col_right-L018",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}bulae II, \\textit{61-64} (adn. 221-222); tabulae",
+     "transcription": "bulae II, *61-64* (adn. 221-222); tabulae",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0827-col_right-L019",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}pro decadibus graduum eclipticae, initio a",
+     "transcription": "pro decadibus graduum eclipticae, initio a",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0827-col_right-L020",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}0° Arietis sumpto, II, \\textit{58} (adn. 221), ipsa-",
+     "transcription": "0° Arietis sumpto, II, *58* (adn. 221), ipsa-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0827-col_right-L021",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}rumque usus \\textit{150}; aequantur descensibus",
+     "transcription": "rumque usus *150*; aequantur descensibus",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0827-col_right-L022",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}oppositorum punctorum \\textit{27} lin. 14-16 (cum",
+     "transcription": "oppositorum punctorum *27* lin. 14-16 (cum",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0827-col_right-L023",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}emend. II, \\textsc{xx}); aequantur ascensionibus in",
+     "transcription": "emend. II, {sc:xx}); aequantur ascensionibus in",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0827-col_right-L024",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}paxillo medii Caeli et paxillo Terrae (i. e.",
+     "transcription": "paxillo medii Caeli et paxillo Terrae (i. e.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0827-col_right-L025",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}in meridiano) \\textit{132} et n. 2 (cfr. 163-164).",
+     "transcription": "in meridiano) *132* et n. 2 (cfr. 163-164).",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0827-col_right-L026",
+     "source_line_no": null,
+     "tex": "ascensiones rectae stellarum v. stellae; — for-",
+     "transcription": "ascensiones rectae stellarum v. stellae; — for-",
+     "semantic_anchor": "AB01-PDF0827-col_right-E08",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0827-col_right-L027",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}mulae nostrae, datis \\textgreek{λ} et \\textgreek{β}, II, 291.",
+     "transcription": "mulae nostrae, datis λ et β, II, 291.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0827-col_right-L028",
+     "source_line_no": null,
+     "tex": "ascensiones in sphaerae quartis quae quatuor",
+     "transcription": "ascensiones in sphaerae quartis quae quatuor",
+     "semantic_anchor": "AB01-PDF0827-col_right-E09",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0827-col_right-L029",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}paxillis intercipiuntur (i. q. directio signifi-",
+     "transcription": "paxillis intercipiuntur (i. q. directio signifi-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0827-col_right-L030",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}catoris) duplici ratione supputatae \\textit{131-134}",
+     "transcription": "catoris) duplici ratione supputatae *131-134*",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0827-col_right-L031",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}(adn. 314-317).",
+     "transcription": "(adn. 314-317).",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0827-col_right-L032",
+     "source_line_no": null,
+     "tex": "ascensionum arcuatio, quid \\textit{28} lin. 15.",
+     "transcription": "ascensionum arcuatio, quid *28* lin. 15.",
+     "semantic_anchor": "AB01-PDF0827-col_right-E10",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0827-col_right-L033",
+     "source_line_no": null,
+     "tex": "ascensionum rectarum et obliquarum differen-",
+     "transcription": "ascensionum rectarum et obliquarum differen-",
+     "semantic_anchor": "AB01-PDF0827-col_right-E11",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0827-col_right-L034",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}tia, differentia ascensionalis v. dies.",
+     "transcription": "tia, differentia ascensionalis v. dies.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0827-col_right-L035",
+     "source_line_no": null,
+     "tex": "ascensionum tempora (gradus, minuta etc. ae-",
+     "transcription": "ascensionum tempora (gradus, minuta etc. ae-",
+     "semantic_anchor": "AB01-PDF0827-col_right-E12",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0827-col_right-L036",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}quatoris), II, 336.",
+     "transcription": "quatoris), II, 336.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0827-col_right-L037",
+     "source_line_no": null,
+     "tex": "ascensus graduum eclipticae v. ortus.",
+     "transcription": "ascensus graduum eclipticae v. ortus.",
+     "semantic_anchor": "AB01-PDF0827-col_right-E13",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0827-col_right-L038",
+     "source_line_no": null,
+     "tex": "ascensus et descensus ordo v. ordines.",
+     "transcription": "ascensus et descensus ordo v. ordines.",
+     "semantic_anchor": "AB01-PDF0827-col_right-E14",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0827-col_right-L039",
+     "source_line_no": null,
+     "tex": "Aselli, \\textgreek{γ} et \\textgreek{δ} Cancri, v. al-ḥimārāni.",
+     "transcription": "Aselli, γ et δ Cancri, v. al-ḥimārāni.",
+     "semantic_anchor": "AB01-PDF0827-col_right-E15",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0827-col_right-L040",
+     "source_line_no": null,
+     "tex": "Ashenton J. v. Iohannes Anglicanus.",
+     "transcription": "Ashenton J. v. Iohannes Anglicanus.",
+     "semantic_anchor": "AB01-PDF0827-col_right-E16",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0827-col_right-L041",
+     "source_line_no": null,
+     "tex": "\\textit{aṣl} in chronologicis v. origo.",
+     "transcription": "*aṣl* in chronologicis v. origo.",
+     "semantic_anchor": "AB01-PDF0827-col_right-E17",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0827-col_right-L042",
+     "source_line_no": null,
+     "tex": "aspectus (oppositio, trinus, quadratura, sextilis),",
+     "transcription": "aspectus (oppositio, trinus, quadratura, sextilis),",
+     "semantic_anchor": "AB01-PDF0827-col_right-E18",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0827-col_right-L043",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}quid \\textit{129}, \\textit{130} lin. 6–8; cur aspectus fiant",
+     "transcription": "quid *129*, *130* lin. 6–8; cur aspectus fiant",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    }
+   ]
+  },
+  {
+   "role": "notes_left",
+   "lines": [
+    {
+     "id": "AB01-PDF0827-notes_left-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (1) A Graecis et Arabibus intelliguntur ascen-",
+     "transcription": "(1) A Graecis et Arabibus intelliguntur ascen-",
+     "semantic_anchor": "AB01-PDF0827-N01",
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0827-notes_left-L002",
+     "source_line_no": null,
+     "tex": "siones (obliquae aut rectae) Solis et punctorum ecli-",
+     "transcription": "siones (obliquae aut rectae) Solis et punctorum ecli-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  },
+  {
+   "role": "notes_right",
+   "lines": [
+    {
+     "id": "AB01-PDF0827-notes_right-L001",
+     "source_line_no": null,
+     "tex": "pticae. Ascensiones siderum extra eclipticam consi-",
+     "transcription": "pticae. Ascensiones siderum extra eclipticam consi-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0827-notes_right-L002",
+     "source_line_no": null,
+     "tex": "stentium per periphrases designantur ut monui II, 343.",
+     "transcription": "stentium per periphrases designantur ut monui II, 343.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  }
+ ]
+}
