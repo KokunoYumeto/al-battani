@@ -82,7 +82,7 @@ a Hebrew word inside it is set in the Hebrew font, in the same right-to-left run
 ({syr:...} the same for Syriac), {rtl:...} a phrase of Arabic numerals and Latin words that the print sets right to
 left, given in reading order (a part in parentheses inside it is one unit, set left to right), \\* a literal asterisk; runs of Arabic, Greek, Hebrew and Syriac letters are set in
 their fonts, runs of Arabic-Indic numerals (the page references to the Arabic text, ٢٥٦) in the Arabic font, left to
-right, the signs ☾ ⊙ ♈ ♄ ♃ ♂ ♀ ☿ ☊ ☋ in FreeSerif. & % # are escaped; $...$ is mathematics; every other character is
+right, the signs ☾ ⊙ ♈ ♄ ♃ ♂ ♀ ☿ ☊ ☋ ✜ in FreeSerif. & % # are escaped; $...$ is mathematics; every other character is
 literal."""
 import csv, json, re
 from pathlib import Path
@@ -241,7 +241,7 @@ def markup(s):
     s = s.replace("⸿", r"{\CapFont ⸿}")  # the capitulum of the Spanish quotations
     s = s.replace("ꝛ", r"{\CapFont ꝛ}")  # r rotunda of the Latin abbreviations (qꝛ = quia)
     s = s.replace("☾", r"\MoonSym{}").replace("⊙", r"\SunSym{}")
-    for sign in "♈♄♃♂♀☿☊☋":  # the sign of Aries, the planets and the nodes
+    for sign in "♈♄♃♂♀☿☊☋✜":  # the sign of Aries, the planets, the nodes and the cross of a dictionary (p. 355)
         s = s.replace(sign, r"{\MoonFont " + sign + "}")
     s = s.replace("\uE001", r"\AbjadZero{}").replace("\uE002", "*")
     s = re.sub("\uE003(\\d+)\uE004", lambda m: keep[int(m.group(1))], s)
