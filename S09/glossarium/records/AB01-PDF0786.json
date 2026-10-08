@@ -1,0 +1,399 @@
+{
+ "anchor": "AB01-PDF0786",
+ "master_pdf_page": 786,
+ "printed_page": 337,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": "43",
+ "observations": [
+  "body L1, L17: the 2 and the 6 of «٢٦١», «٢٦٧» (L1) and «٢٦٣» (L17) touch (5.6 points), as in «٢٦» on p. 326; the last digit of «٢٦٣» is 4.7 points wide (a 3).",
+  "body L2: «[سَادِسَة]» has no tanwīn, unlike the bracketed headwords [خَامِسَةٌ] on p. 331 and [سَابِعَةٌ] on p. 336.",
+  "body L5, L6: the headword «سطر» (L6) has no vowel signs; the mark above it is the kasra under the r of «سَرِيرٌ» (L5).",
+  "body L6, L7: the syllable «the» is printed twice at the break of «mathe-» (L6) and «thematicae» (L7); transcribed as printed.",
+  "body L7: the first digit of «٣٢» is 4.8 points wide (a 3), the second 3.0 points (a 2); both digits of «٣٣» measure 4.7-4.8 points.",
+  "body L10, L11: the kasra under the r of «المُشْتَرِك» (L10) is printed low, just above the b of «tabulis» (L11), as the kasra of المِرِّيخِ on p. 330.",
+  "body L4, L7, L11, L30, L34: «١٩٤–١٩٧» (L4), «١٨–١٩» (L7), «٢٩–٣٠» (L30) and «٢٠٦–٢٠٨» (L34) are printed with an en dash (5.0-5.5 points), «61-64» and «68-71» (L11) with a hyphen (3.0-3.2 points).",
+  "body L16: «ἐκλίψεως» is printed without the ε of ἐκλείψεως, as on p. 336; transcribed as printed. «سُقُوطٌ» is printed with an elongated join (kashīda), not transcribed.",
+  "body L23: «الرُّؤُس» is printed with one wāw; its hamza is cast with the damma in one sort (3.7 by 5.2 points), the hamza of «الرَّأْس» with the sukūn (3.7 by 5.5 points).",
+  "body L26, L30: the alif of «الأُفْق» (L26) has the hamza with a damma and the fāʾ a sukūn, as on p. 330; «الافق» (L30) is unvowelled.",
+  "body L26: the dots in «سَمْت ... من» and in «directio ... in» are printed spaced; transcribed «...».",
+  "body L30, L35, L36: the hairlines of some letters did not print: the o of «ergo» (L30), of «aequinoctiali» and of the second «puncto» (L35) and of «tanto» (L36) shows two separate arcs, and the u of the first «puncto» (L35) is open at the bottom; transcribed as the letters.",
+  "body L36: a speck (0.6 point) is printed in the left margin before «(i. e.»; not transcribed.",
+  "notes_left L1: a speck (0.8 point) is printed against the opening parenthesis of «(1)»; not transcribed.",
+  "notes_left L4: «الرامى» is printed with a mīm and a final yāʾ without dots: the closed loop of the mīm and the bowl of the yāʾ differ from the isolated sīn of the small-type راس on p. 320. The text has سَمْت الرَّأْس for the zenith (body L23). Transcribed as printed.",
+  "notes_right L4: the dots of «...» are printed spaced; transcribed «...»."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0786-body-L001",
+     "source_line_no": 1,
+     "tex": "\\ArabicRun{سَحَابِيٌّ} \\textgreek{νεφελοειδής}, \\textit{nebulosa} (stella), {\\arabicfont ١٨٩}\\textsubscript{12}, {\\arabicfont ٢٥٧} quater, {\\arabicfont ٢٦١} bis, {\\arabicfont ٢٦٧}; i. q. \\ArabicRun{غَمَامِيّ}.",
+     "transcription": "{ar:سَحَابِيٌّ} νεφελοειδής, *nebulosa* (stella), ١٨٩{sub:12}, ٢٥٧ quater, ٢٦١ bis, ٢٦٧; i. q. {ar:غَمَامِيّ}.",
+     "semantic_anchor": "AB01-PDF0786-E01",
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0786-body-L002",
+     "source_line_no": 2,
+     "tex": "\\ArabicRun{[سَادِسَة]} pl. \\ArabicRun{سَوَادِسُ} \\textit{sexta pars sexagesima, minutum sextum}, {\\arabicfont ١٠}, {\\arabicfont ١١} ter, {\\arabicfont ١٢}. — \\ArabicRun{تَسْدِيسٌ} \\textgreek{ἑξά}-",
+     "transcription": "{ar:[سَادِسَة]} pl. {ar:سَوَادِسُ} *sexta pars sexagesima, minutum sextum*, ١٠, ١١ ter, ١٢. — {ar:تَسْدِيسٌ} ἑξά-",
+     "semantic_anchor": "AB01-PDF0786-E02",
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0786-body-L003",
+     "source_line_no": 3,
+     "tex": "\\hspace*{21.28pt}\\textgreek{γωνον}, \\textit{sextilis aspectus}, i. e. sexta circuli eclipticae pars, intervallum 60° inter longitu-",
+     "transcription": "γωνον, *sextilis aspectus*, i. e. sexta circuli eclipticae pars, intervallum 60° inter longitu-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0786-body-L004",
+     "source_line_no": 4,
+     "tex": "\\hspace*{21.28pt}dines duorum siderum. {\\arabicfont ١٩٤}–{\\arabicfont ١٩٧} (cfr. \\Name{Dozy}, I, 642 ex Prol., Bc, 1001 N).",
+     "transcription": "dines duorum siderum. ١٩٤–١٩٧ (cfr. {sp:Dozy}, I, 642 ex Prol., Bc, 1001 N).",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0786-body-L005",
+     "source_line_no": 5,
+     "tex": "\\ArabicRun{سَرِيرٌ} \\textgreek{κατάστρωμα}, \\textit{tabulatus navis}, {\\arabicfont ٢٧٨}\\textsubscript{ult.}, {\\arabicfont ٢٧٩} (cfr. II, 275 in vers. Hispan. « lecho »).",
+     "transcription": "{ar:سَرِيرٌ} κατάστρωμα, *tabulatus navis*, ٢٧٨{sub:ult.}, ٢٧٩ (cfr. II, 275 in vers. Hispan. « lecho »).",
+     "semantic_anchor": "AB01-PDF0786-E03",
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0786-body-L006",
+     "source_line_no": 6,
+     "tex": "\\ArabicRun{سطر} — \\ArabicRun{سَطْرُ العَدَد} pl. \\ArabicRun{سُطُور العَدَد} vel \\ArabicRun{سُطُور الأَعْدَاد} \\textgreek{τοῦ ἀριϑμοῦ σελίδιον}, \\textit{columna tabulae mathe-}",
+     "transcription": "{ar:سطر} — {ar:سَطْرُ العَدَد} pl. {ar:سُطُور العَدَد} vel {ar:سُطُور الأَعْدَاد} τοῦ ἀριϑμοῦ σελίδιον, *columna tabulae mathe-*",
+     "semantic_anchor": "AB01-PDF0786-E04",
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0786-body-L007",
+     "source_line_no": 7,
+     "tex": "\\hspace*{21.28pt}\\textit{thematicae exhibens argumentum}, {\\arabicfont ١٥}\\textsubscript{21}, {\\arabicfont ١٦} pluries, {\\arabicfont ١٨}–{\\arabicfont ١٩}, {\\arabicfont ٣٢}\\textsubscript{23}, {\\arabicfont ٣٣}\\textsubscript{9}, {\\arabicfont ١١٢}\\textsubscript{8}, {\\arabicfont ٢١٨}\\textsubscript{14} ac per-",
+     "transcription": "*thematicae exhibens argumentum*, ١٥{sub:21}, ١٦ pluries, ١٨–١٩, ٣٢{sub:23}, ٣٣{sub:9}, ١١٢{sub:8}, ٢١٨{sub:14} ac per-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0786-body-L008",
+     "source_line_no": 8,
+     "tex": "\\hspace*{21.28pt}saepe; item in titulis tabularum fere omnium (1). Columnae quibus functiones exhibentur",
+     "transcription": "saepe; item in titulis tabularum fere omnium (1). Columnae quibus functiones exhibentur",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0786-body-L009",
+     "source_line_no": 9,
+     "tex": "\\hspace*{21.28pt}appellantur \\ArabicRun{جداول}. — \\ArabicRun{سُطُور العَدَد المربَّع} \\textit{columna quadruplicis argumenti}, t. II, p. 57-",
+     "transcription": "appellantur {ar:جداول}. — {ar:سُطُور العَدَد المربَّع} *columna quadruplicis argumenti*, t. II, p. 57-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0786-body-L010",
+     "source_line_no": 10,
+     "tex": "\\hspace*{21.28pt}58. — \\ArabicRun{سَطْر العَدَد المُشْتَرِك} \\textgreek{ἀριϑμοὶ κοινοί}, \\textit{columna exhibens argumentum commune plu-}",
+     "transcription": "58. — {ar:سَطْر العَدَد المُشْتَرِك} ἀριϑμοὶ κοινοί, *columna exhibens argumentum commune plu-*",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0786-body-L011",
+     "source_line_no": 11,
+     "tex": "\\hspace*{21.28pt}\\textit{ribus tabulis}, {\\arabicfont ٤٠}\\textsubscript{18}, {\\arabicfont ٤١}\\textsubscript{9}, {\\arabicfont ٤٣}\\textsubscript{1}, et t. II, 61-64, 68-71.",
+     "transcription": "*ribus tabulis*, ٤٠{sub:18}, ٤١{sub:9}, ٤٣{sub:1}, et t. II, 61-64, 68-71.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0786-body-L012",
+     "source_line_no": 12,
+     "tex": "\\ArabicRun{سعد} — \\ArabicRun{سَعْدُ بُلَعَ} vigesima tertia statio lunaris complectens \\textgreek{ν} vel \\textit{Fl. 13} (iuxta Schjellerup",
+     "transcription": "{ar:سعد} — {ar:سَعْدُ بُلَعَ} vigesima tertia statio lunaris complectens ν vel *Fl. 13* (iuxta Schjellerup",
+     "semantic_anchor": "AB01-PDF0786-E05",
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0786-body-L013",
+     "source_line_no": 13,
+     "tex": "\\hspace*{21.28pt}\\textit{Fl. 7}), \\textgreek{μ} \\textit{et} \\textgreek{ε} \\textit{Aquarii}, {\\arabicfont ١٨٩}\\textsubscript{6}; cfr. hoc t. II addit. ad I, 125. — \\ArabicRun{سَعْدُ السُّعُودِ} vigesima quarta",
+     "transcription": "*Fl. 7*), μ *et* ε *Aquarii*, ١٨٩{sub:6}; cfr. hoc t. II addit. ad I, 125. — {ar:سَعْدُ السُّعُودِ} vigesima quarta",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0786-body-L014",
+     "source_line_no": 14,
+     "tex": "\\hspace*{21.28pt}statio lunaris complectens \\textgreek{β} \\textit{et} \\textgreek{ξ} \\textit{Aquarii ac c'} (Schjell. \\textit{c}) \\textit{Capricorni}.",
+     "transcription": "statio lunaris complectens β *et* ξ *Aquarii ac c'* (Schjell. *c*) *Capricorni*.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0786-body-L015",
+     "source_line_no": 15,
+     "tex": "\\ArabicRun{السَّفِينَةُ} \\textgreek{ἡ Ἀργώ}, constellatio \\textit{Navis} vel \\textit{Argūs}, {\\arabicfont ٢٧٨}; \\Name{Lane} ex al-Qazwīnī.",
+     "transcription": "{ar:السَّفِينَةُ} ἡ Ἀργώ, constellatio *Navis* vel *Argūs*, ٢٧٨; {sp:Lane} ex al-Qazwīnī.",
+     "semantic_anchor": "AB01-PDF0786-E06",
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0786-body-L016",
+     "source_line_no": 16,
+     "tex": "\\ArabicRun{سُقُوطٌ} \\textgreek{ἔμπτωσις, ἀρχὴ τῆς ἐκλίψεως}, \\textit{immersio}, una ex eclipsium phasibus, {\\arabicfont ١٤٧} sqq.",
+     "transcription": "{ar:سُقُوطٌ} ἔμπτωσις, ἀρχὴ τῆς ἐκλίψεως, *immersio*, una ex eclipsium phasibus, ١٤٧ sqq.",
+     "semantic_anchor": "AB01-PDF0786-E07",
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0786-body-L017",
+     "source_line_no": 17,
+     "tex": "\\ArabicRun{السَّاقِي} \\textgreek{ὁ Ὑδροχόος}, constellatio \\textit{Aquarii}, in catalogo fixarum ex Almagesto {\\arabicfont ٢٦٣}; sed alibi sem-",
+     "transcription": "{ar:السَّاقِي} ὁ Ὑδροχόος, constellatio *Aquarii*, in catalogo fixarum ex Almagesto ٢٦٣; sed alibi sem-",
+     "semantic_anchor": "AB01-PDF0786-E08",
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0786-body-L018",
+     "source_line_no": 18,
+     "tex": "\\hspace*{21.28pt}per \\ArabicRun{الدَّلْو}.",
+     "transcription": "per {ar:الدَّلْو}.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0786-body-L019",
+     "source_line_no": 19,
+     "tex": "\\ArabicRun{سلس} — {\\arabicfont ٣٤}\\textsubscript{17} \\ArabicRun{مَوْضع سَلِسُ الوَجْهِ} locus \\textit{planae} superficiei (Plato Tiburt.: « planaeque faciei »);",
+     "transcription": "{ar:سلس} — ٣٤{sub:17} {ar:مَوْضع سَلِسُ الوَجْهِ} locus *planae* superficiei (Plato Tiburt.: « planaeque faciei »);",
+     "semantic_anchor": "AB01-PDF0786-E09",
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0786-body-L020",
+     "source_line_no": 20,
+     "tex": "\\hspace*{21.28pt}{\\arabicfont ٢٠٣}\\textsubscript{10-11} \\ArabicRun{صفيحة نُحَاس مستوية السطح سَلِسَة الوجه} « aequalis et \\textit{laevigatae} superficiei »;",
+     "transcription": "٢٠٣{sub:10-11} {ar:صفيحة نُحَاس مستوية السطح سَلِسَة الوجه} « aequalis et *laevigatae* superficiei »;",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0786-body-L021",
+     "source_line_no": 21,
+     "tex": "\\hspace*{21.28pt}{\\arabicfont ٢١٠}\\textsubscript{5} \\ArabicRun{سلسة السطح} « \\textit{expolitae} superficiei »; {\\arabicfont ٢١٥}\\textsubscript{8} \\ArabicRun{ويكون وجه اللِّبْنَة سَلِسًا} « lateris superfi-",
+     "transcription": "٢١٠{sub:5} {ar:سلسة السطح} « *expolitae* superficiei »; ٢١٥{sub:8} {ar:ويكون وجه اللِّبْنَة سَلِسًا} « lateris superfi-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0786-body-L022",
+     "source_line_no": 22,
+     "tex": "\\hspace*{21.28pt}« cies sit \\textit{expolita} ».",
+     "transcription": "« cies sit *expolita* ».",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0786-body-L023",
+     "source_line_no": 23,
+     "tex": "\\ArabicRun{سمت} \\textit{directio} quaelibet, {\\arabicfont ٩٢}\\textsubscript{21}, {\\arabicfont ٩٣}\\textsubscript{18}, {\\arabicfont ٩٦}\\textsubscript{17}, {\\arabicfont ١٣٦}\\textsubscript{19}, {\\arabicfont ١٨٧}\\textsubscript{13}; unde \\ArabicRun{سَمْت الرَّأْس} vel \\ArabicRun{سَمْت الرُّؤُس} « di-",
+     "transcription": "{ar:سمت} *directio* quaelibet, ٩٢{sub:21}, ٩٣{sub:18}, ٩٦{sub:17}, ١٣٦{sub:19}, ١٨٧{sub:13}; unde {ar:سَمْت الرَّأْس} vel {ar:سَمْت الرُّؤُس} « di-",
+     "semantic_anchor": "AB01-PDF0786-E10",
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0786-body-L024",
+     "source_line_no": 24,
+     "tex": "\\hspace*{21.28pt}rectio capitis », \\textgreek{ἡ κορυφή, τὸ κατὰ κορυφὴν σημεῖον}, « zenith capitis » vel « zenith capitum »",
+     "transcription": "rectio capitis », ἡ κορυφή, τὸ κατὰ κορυφὴν σημεῖον, « zenith capitis » vel « zenith capitum »",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0786-body-L025",
+     "source_line_no": 25,
+     "tex": "\\hspace*{21.28pt}apud Platonem Tiburtinum, « el zonte (el zont) de la cabeça » in versione Hispanica (2). —",
+     "transcription": "apud Platonem Tiburtinum, « el zonte (el zont) de la cabeça » in versione Hispanica (2). —",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0786-body-L026",
+     "source_line_no": 26,
+     "tex": "\\hspace*{21.28pt}\\ArabicRun{سَمْت ... من دائرة الأُفْق} « directio ... in circulo horizontis » in gradibus circuli computata,",
+     "transcription": "{ar:سَمْت ... من دائرة الأُفْق} « directio ... in circulo horizontis » in gradibus circuli computata,",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0786-body-L027",
+     "source_line_no": 27,
+     "tex": "\\hspace*{21.28pt}\\textit{azimuth} (« zenith » (3) apud Platonem Tiburtinum), cuius exempla innumera. Notandum",
+     "transcription": "*azimuth* (« zenith » (3) apud Platonem Tiburtinum), cuius exempla innumera. Notandum",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0786-body-L028",
+     "source_line_no": 28,
+     "tex": "\\hspace*{21.28pt}quod Arabes veteres \\textit{azimuth} a puncto E vel W horizontis numerant, nos a puncto S",
+     "transcription": "quod Arabes veteres *azimuth* a puncto E vel W horizontis numerant, nos a puncto S",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0786-body-L029",
+     "source_line_no": 29,
+     "tex": "\\hspace*{21.28pt}vel N; qua re azimuth punctorum eclipticae apud Arabes ab \\textit{amplitudine} non differt.",
+     "transcription": "vel N; qua re azimuth punctorum eclipticae apud Arabes ab *amplitudine* non differt.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0786-body-L030",
+     "source_line_no": 30,
+     "tex": "\\hspace*{21.28pt}Solis p. {\\arabicfont ٢٩}–{\\arabicfont ٣٠} et {\\arabicfont ٣٤} al-Battānī \\ArabicRun{من دائرة الافق} omittit; ergo \\ArabicRun{سمت المَطْلَع} \\textit{amplitudo ortiva},",
+     "transcription": "Solis p. ٢٩–٣٠ et ٣٤ al-Battānī {ar:من دائرة الافق} omittit; ergo {ar:سمت المَطْلَع} *amplitudo ortiva*,",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0786-body-L031",
+     "source_line_no": 31,
+     "tex": "\\hspace*{21.28pt}\\ArabicRun{سمت المَغِيب} \\textit{amplitudo occidua}, \\ArabicRun{سمت الجَنُوب} \\textit{azimuth} seu \\textit{directio meridiei}. — \\ArabicRun{سمت}",
+     "transcription": "{ar:سمت المَغِيب} *amplitudo occidua*, {ar:سمت الجَنُوب} *azimuth* seu *directio meridiei*. — {ar:سمت}",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0786-body-L032",
+     "source_line_no": 32,
+     "tex": "\\hspace*{21.28pt}\\ArabicRun{القِبْلَة} \\textit{azimuth qiblae, directio qiblae}, i. e. angulus interceptus arcu circuli magni per-",
+     "transcription": "{ar:القِبْلَة} *azimuth qiblae, directio qiblae*, i. e. angulus interceptus arcu circuli magni per-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0786-body-L033",
+     "source_line_no": 33,
+     "tex": "\\hspace*{21.28pt}pendicularis ad meridianum datae urbis et arcu circuli magni datam urbem cum Mekkah",
+     "transcription": "pendicularis ad meridianum datae urbis et arcu circuli magni datam urbem cum Mekkah",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0786-body-L034",
+     "source_line_no": 34,
+     "tex": "\\hspace*{21.28pt}coniungentis, {\\arabicfont ٢٠٦}–{\\arabicfont ٢٠٨}.",
+     "transcription": "coniungentis, ٢٠٦–٢٠٨.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0786-body-L035",
+     "source_line_no": 35,
+     "tex": "\\ArabicRun{سَمِعَ} a, cum \\ArabicRun{ل}, \\textgreek{ἀκούειν}, \\textit{audire}, de puncto eclipticae quod ab aequinoctiali puncto retrorsum",
+     "transcription": "{ar:سَمِعَ} a, cum {ar:ل}, ἀκούειν, *audire*, de puncto eclipticae quod ab aequinoctiali puncto retrorsum",
+     "semantic_anchor": "AB01-PDF0786-E11",
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0786-body-L036",
+     "source_line_no": 36,
+     "tex": "\\hspace*{21.28pt}(i. e. in hemisphaerio australi) tanto distat quanto antrorsum aliud punctum (\\ArabicRun{آمِرٌ}), {\\arabicfont ١٩٥}\\textsubscript{19},",
+     "transcription": "(i. e. in hemisphaerio australi) tanto distat quanto antrorsum aliud punctum ({ar:آمِرٌ}), ١٩٥{sub:19},",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    }
+   ]
+  },
+  {
+   "role": "notes_left",
+   "lines": [
+    {
+     "id": "AB01-PDF0786-notes_left-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (1) Ita quoque \\Name{Ḥabash}, \\Name{Oloug Beg}, \\Name{al-}",
+     "transcription": "(1) Ita quoque {sp:Ḥabash}, {sp:Oloug Beg}, {sp:al-}",
+     "semantic_anchor": "AB01-PDF0786-N01",
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0786-notes_left-L002",
+     "source_line_no": null,
+     "tex": "\\Name{Bīrūnī} (\\textit{Chron.}, 162-166 text.) etc.",
+     "transcription": "{sp:Bīrūnī} (*Chron.*, 162-166 text.) etc.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0786-notes_left-L003",
+     "source_line_no": null,
+     "tex": "\\Indent (2) In nonnullis ex \\textit{Libros del saber de astro-}",
+     "transcription": "(2) In nonnullis ex *Libros del saber de astro-*",
+     "semantic_anchor": "AB01-PDF0786-N02",
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0786-notes_left-L004",
+     "source_line_no": null,
+     "tex": "\\textit{nomia} \\ArabicRun{سمت} est « zonte », \\ArabicRun{سمت الرامى} « cenit ».",
+     "transcription": "*nomia* {ar:سمت} est « zonte », {ar:سمت الرامى} « cenit ».",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  },
+  {
+   "role": "notes_right",
+   "lines": [
+    {
+     "id": "AB01-PDF0786-notes_right-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (3) « De azimuth » est spuria inscriptio cap. XI",
+     "transcription": "(3) « De azimuth » est spuria inscriptio cap. XI",
+     "semantic_anchor": "AB01-PDF0786-N03",
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0786-notes_right-L002",
+     "source_line_no": null,
+     "tex": "(ed. Norimberg., f. 15,r.) Inscriptio genuina in indice",
+     "transcription": "(ed. Norimberg., f. 15,r.) Inscriptio genuina in indice",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0786-notes_right-L003",
+     "source_line_no": null,
+     "tex": "capitum (f. 2,r.): « In cognitione zenith altitudinis et",
+     "transcription": "capitum (f. 2,r.): « In cognitione zenith altitudinis et",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0786-notes_right-L004",
+     "source_line_no": null,
+     "tex": "« umbrae circuli horizontis ... ».",
+     "transcription": "« umbrae circuli horizontis ... ».",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  }
+ ]
+}
