@@ -47,6 +47,7 @@ Transcription format (UTF-8; one printed line per source line, as printed, with 
                          @fontsize PT LEAD any other size
   + TEXT                 the first line of an entry of the glossary, flush left (anchored -E01, -E02, ...)
   > TEXT                 a continuation line of an entry, indented as printed (21.2 PDF points)
+  >> TEXT                a paragraph that begins inside an entry, indented by twice that (p. 345)
   @mcols W1 W2 ...       columns of short lines side by side (widths as fractions of the text width); @mcnext
                          starts the next column, @mcend closes the block; inside, @chead TEXT is the small bold
                          head of a group and @skip N leaves N lines (N may be 0.5)
@@ -698,6 +699,7 @@ LEADING = {"body": 13.8, "notes": 11.5, "notes_left": 11.5, "notes_right": 11.5}
 # the hanging indent of the entries: on p. 322 the entries begin at 114.3-116.2 PDF points and their continuation
 # lines at 135.4-138.2
 HANG = f"{21.2 * BP:.2f}pt"
+HANG2 = f"{2 * 21.2 * BP:.2f}pt"  # a paragraph inside an entry (>> )
 # the rule over the footnotes: printed 115 PDF points long (40.6 mm), centred over the text, on every page with notes
 # (pp. 319-326); it takes the vertical place of an \hrule (no interline glue before it or after it)
 NOTE_RULE = (r"\nointerlineskip\hbox to\textwidth{\hss\vrule width " + f"{115 * BP:.2f}"
@@ -849,7 +851,7 @@ def section(items, prefix, role, numbered):
         if kind in ("line", "center", "title", "verse", "calc", "row", "chead", "pos", "hrow", "at", "hspan"):
             n += 1
             lid = f"{prefix}-{role}-L{n:03d}"
-            src = (text[3:] if kind == "line" and text.startswith("^^ ") else
+            src = (text[3:] if kind == "line" and text.startswith(("^^ ", ">> ")) else
                    text[2:] if kind == "line" and text.startswith(("^ ", "> ", "+ ")) else text)
             if kind == "verse":  # an Arabic verse: first hemistich | second hemistich, the first set on the right
                 h1, h2 = [h.strip() for h in src.split("|")]
@@ -878,7 +880,12 @@ def section(items, prefix, role, numbered):
             else:
                 tex = markup(src)
             sem = None
-            if kind == "line" and text.startswith("> "):  # a continuation line of an entry, indented as printed
+            if kind == "line" and text.startswith(">> "):  # a paragraph that begins inside an entry, indented by
+                # twice the hang (p. 345: «Quae Dozy» at 42.6 PDF points from the margin, the continuation lines at 21.2)
+                tex = r"\hspace*{" + HANG2 + "}" + tex
+                par += 1
+                sem = f"{prefix}-P{par:02d}"
+            elif kind == "line" and text.startswith("> "):  # a continuation line of an entry, indented as printed
                 tex = r"\hspace*{" + HANG + "}" + tex
             elif kind == "line" and text.startswith("+ "):  # the first line of an entry, flush left
                 ent += 1

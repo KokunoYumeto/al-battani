@@ -2,7 +2,7 @@
 
 Nallino's *Glossarium* of al-Battānī's technical vocabulary: Arabic headwords, often vowelled, with their Latin, Greek and Arabic explanations and with references to the pages and lines of the Arabic text (Part III), printed in Arabic-Indic numerals. The edition is diplomatic and line-anchored, in the format of the S07 edition of the notes on the tables: every printed line is one line of the edition, with its hyphenation, its punctuation, its letter-spaced names and its italics, and every line has a stable anchor.
 
-The transcription is in progress. It begins at the title page of the glossary (p. 319) and runs page by page; pp. 319–344 are done (the introduction, pp. 319–321, and the entries from ابد to تعديل).
+The transcription is in progress. It begins at the title page of the glossary (p. 319) and runs page by page; pp. 319–345 are done (the introduction, pp. 319–321, and the entries from ابد to عشرات).
 
 ## Read
 
@@ -22,7 +22,7 @@ The transcription is in progress. It begins at the title page of the glossary (p
 ## Conventions
 
 - Anchors: `AB01-PDF0768-body-L004` is line 4 of the body of master PDF page 768 (printed p. 319); `notes_left`, `notes_right` and `notes` are the footnote columns.
-- Each entry begins at the left margin with its Arabic headword, usually the unvowelled root, then a dash and the vowelled forms; its continuation lines are indented as printed (21.2 PDF points). The entries are anchored per page (`AB01-PDF0771-body-E01`, ...).
+- Each entry begins at the left margin with its Arabic headword, usually the unvowelled root, then a dash and the vowelled forms; its continuation lines are indented as printed (21.2 PDF points), and a paragraph that begins inside an entry by twice that (p. 345). The entries are anchored per page (`AB01-PDF0771-body-E01`, ...).
 - Arabic is transcribed with the vowel signs, shaddas and sukūns that are printed. The page references to the Arabic text are transcribed in the Arabic-Indic digits of the print (U+0660–0669, ٢٥٦ = 256), most significant digit first; the line numbers printed beside them as small figures are transcribed as subscripts.
 - The Arabic type casts a final hamza with its dammatan or its damma as one sort, with two small loops or one on its head (جُزْءٌ, أدِلَّاءُ, p. 331); these are transcribed ءٌ and ءُ. The sorts are told apart by their size: the plain hamza is about 3.9 by 3.2 points, the hamza with a damma 3.7 by 5.2, the hamza with a dammatan 4.1–4.8 by 5.5–5.8.
 - The type sets a damma over a shadda laid flat: a round head at its right end with a thin tail (الشُّجَاعُ, جَنُوبِيُّ, p. 340; أَفُلُّن, p. 322). It is about as large as a fatha (3.9 by 2.0 points) and is told from it by the head; a fatha is a straight stroke.
@@ -37,6 +37,7 @@ The transcription is in progress. It begins at the title page of the glossary (p
 - The rule over the footnotes is printed 115 points (40.6 mm) long and centred; the edition sets it so.
 - The zero sign of the tables, which Nallino also prints inside Arabic quotations (p. 328), is transcribed `{0}` and set in `fonts/NallinoSigns.otf`.
 - The signs of the Sun and the Moon (p. 338) are transcribed ⊙ and ☾, as in the Adnotationes (S07).
+- A reversed apostrophe (head on top, tail down to the right) is transcribed ‛ where it is printed: for the hamza of al-Bannā‛ and as the closing mark of an Arabic quotation (p. 345). The ordinary apostrophe ’ has its tail down to the left.
 - A reading that departs from what one expects is kept as printed and described in the page record (for example «دراع» printed without the dot of dhāl on p. 319).
 
 ## Rebuild
