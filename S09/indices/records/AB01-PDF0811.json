@@ -1,0 +1,748 @@
+{
+ "anchor": "AB01-PDF0811",
+ "master_pdf_page": 811,
+ "printed_page": 362,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "observations": [
+  "col_left L1: the o of «Chorasmiae» is printed broken.",
+  "col_left L13: «al-Mada’in» is printed without a macron over its second a.",
+  "col_left L17, L18: a blank line separates the names in C from those in D.",
+  "col_left L18: the t of «etiam» is printed broken; «Ghazarian» is letter-spaced.",
+  "col_left L38: the mark over the i of «ad-Dībaḥāt» is a bar (1.9 by 1.0 points), found by macron_audit.py after the eye had read a dot.",
+  "col_left L39: «170 n 7» is printed without the point after n.",
+  "col_right L7, L8: a blank line separates the names in D from those in E; likewise L26-L27 (E and F) and L41-L42 (F and G).",
+  "col_right L2: the d and the h of «denaonth» are printed broken.",
+  "col_right L15: the macron over the second a of «Ḥamāh» is printed slanting.",
+  "col_right L17, L19, L20, L21: the marks over the last i of «Ereglī» and over the i of «Eskī» (L19-L21) are bars (1.9-2.2 by 0.8-1.1 points), not dots (1.1-1.3 by 1.2-1.7); the eye at 6,000 dpi took two of them for dots.",
+  "col_right L20: a dot is printed under the E of «Ẹskī» (as under the Ḥ of «Ḥiṣār»); transcribed as printed.",
+  "col_right L31: the hyphen of «Si-» is printed short, like a point (1.4 by 1.1 points).",
+  "col_right L34: a dot is printed under the o of «Faọ»; transcribed as printed.",
+  "col_right L38: the entry Filasṭīn ends without a point."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": []
+  },
+  {
+   "role": "col_left",
+   "lines": [
+    {
+     "id": "AB01-PDF0811-col_left-L001",
+     "source_line_no": null,
+     "tex": "Chorasmiae (\\textit{Khuwārizm}) lacus 172.",
+     "transcription": "Chorasmiae (*Khuwārizm*) lacus 172.",
+     "semantic_anchor": "AB01-PDF0811-col_left-E01",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0811-col_left-L002",
+     "source_line_no": null,
+     "tex": "Cilicia II, \\textit{34}.",
+     "transcription": "Cilicia II, *34*.",
+     "semantic_anchor": "AB01-PDF0811-col_left-E02",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0811-col_left-L003",
+     "source_line_no": null,
+     "tex": "Clysma 17 n. 6. V. al-Qolzum.",
+     "transcription": "Clysma 17 n. 6. V. al-Qolzum.",
+     "semantic_anchor": "AB01-PDF0811-col_left-E03",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0811-col_left-L004",
+     "source_line_no": null,
+     "tex": "Coelesyria II, \\textit{35} (n. 63).",
+     "transcription": "Coelesyria II, *35* (n. 63).",
+     "semantic_anchor": "AB01-PDF0811-col_left-E04",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0811-col_left-L005",
+     "source_line_no": null,
+     "tex": "Colchis II, \\textit{34}.",
+     "transcription": "Colchis II, *34*.",
+     "semantic_anchor": "AB01-PDF0811-col_left-E05",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0811-col_left-L006",
+     "source_line_no": null,
+     "tex": "Constantinopolis (\\textit{al-Qusṭanṭīniyyah}) \\textit{18}, \\textit{19} ter,",
+     "transcription": "Constantinopolis (*al-Qusṭanṭīniyyah*) *18*, *19* ter,",
+     "semantic_anchor": "AB01-PDF0811-col_left-E06",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0811-col_left-L007",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.04pt}67 n. 1, 172; II, \\textit{33}, \\textit{44}, 212, 217 nr. 182.",
+     "transcription": "67 n. 1, 172; II, *33*, *44*, 212, 217 nr. 182.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0811-col_left-L008",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.04pt}— Amnis (i. e. fretus) Constantinopolitanus",
+     "transcription": "— Amnis (i. e. fretus) Constantinopolitanus",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0811-col_left-L009",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.04pt}\\textit{19} (l. 3-4, 17), 169, 172.",
+     "transcription": "*19* (l. 3-4, 17), 169, 172.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0811-col_left-L010",
+     "source_line_no": null,
+     "tex": "Córdoba, Corduba (\\textit{Qurṭubah}) II, 215, 219.",
+     "transcription": "Córdoba, Corduba (*Qurṭubah*) II, 215, 219.",
+     "semantic_anchor": "AB01-PDF0811-col_left-E07",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0811-col_left-L011",
+     "source_line_no": null,
+     "tex": "Creta (\\textit{Aqrīṭish}, \\textit{Qirīṭī}) insula, \\textit{18}, 169, 171;",
+     "transcription": "Creta (*Aqrīṭish*, *Qirīṭī*) insula, *18*, 169, 171;",
+     "semantic_anchor": "AB01-PDF0811-col_left-E08",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0811-col_left-L012",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.04pt}II, \\textit{34}.",
+     "transcription": "II, *34*.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0811-col_left-L013",
+     "source_line_no": null,
+     "tex": "Ctesiphon (\\textit{Qisṭifān}) v. al-Mada’in.",
+     "transcription": "Ctesiphon (*Qisṭifān*) v. al-Mada’in.",
+     "semantic_anchor": "AB01-PDF0811-col_left-E09",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0811-col_left-L014",
+     "source_line_no": null,
+     "tex": "Cyprus (\\textit{Qubrus}) insula \\textit{18}, 169, 171; II, \\textit{33},",
+     "transcription": "Cyprus (*Qubrus*) insula *18*, 169, 171; II, *33*,",
+     "semantic_anchor": "AB01-PDF0811-col_left-E10",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0811-col_left-L015",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.04pt}39 n. 118, 215 n. 62.",
+     "transcription": "39 n. 118, 215 n. 62.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0811-col_left-L016",
+     "source_line_no": null,
+     "tex": "Cyrnus (\\textit{Qurnus}) insula \\textit{18}, 169; II, 33.",
+     "transcription": "Cyrnus (*Qurnus*) insula *18*, 169; II, 33.",
+     "semantic_anchor": "AB01-PDF0811-col_left-E11",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0811-col_left-L017",
+     "source_line_no": null,
+     "tex": "Cyrus, Cyrrhus (\\textit{Qūros}) urbs, v. Qūrus.",
+     "transcription": "Cyrus, Cyrrhus (*Qūros*) urbs, v. Qūrus.",
+     "semantic_anchor": "AB01-PDF0811-col_left-E12",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0811-col_left-L018",
+     "source_line_no": null,
+     "tex": "Dabīl II, \\textit{42}, 212. Cfr. etiam M. \\Name{Ghazarian},",
+     "transcription": "Dabīl II, *42*, 212. Cfr. etiam M. {sp:Ghazarian},",
+     "semantic_anchor": "AB01-PDF0811-col_left-E13",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0811-col_left-L019",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.04pt}\\textit{Armenien unter der arabischen Herr-}",
+     "transcription": "*Armenien unter der arabischen Herr-*",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0811-col_left-L020",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.04pt}\\textit{schaft}, Marburg 1903, p. 71 (ex Ztsch. f. ar-",
+     "transcription": "*schaft*, Marburg 1903, p. 71 (ex Ztsch. f. ar-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0811-col_left-L021",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.04pt}menische Philol., II. Bd.).",
+     "transcription": "menische Philol., II. Bd.).",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0811-col_left-L022",
+     "source_line_no": null,
+     "tex": "Dacia II, \\textit{33}.",
+     "transcription": "Dacia II, *33*.",
+     "semantic_anchor": "AB01-PDF0811-col_left-E14",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0811-col_left-L023",
+     "source_line_no": null,
+     "tex": "Dalmatia II, \\textit{33} et n.",
+     "transcription": "Dalmatia II, *33* et n.",
+     "semantic_anchor": "AB01-PDF0811-col_left-E15",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0811-col_left-L024",
+     "source_line_no": null,
+     "tex": "Damascus (\\textit{Dimashq}) 157, 160 bis, 211 ter,",
+     "transcription": "Damascus (*Dimashq*) 157, 160 bis, 211 ter,",
+     "semantic_anchor": "AB01-PDF0811-col_left-E16",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0811-col_left-L025",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.04pt}214; II, \\textit{35}, \\textit{40} (et 216).",
+     "transcription": "214; II, *35*, *40* (et 216).",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0811-col_left-L026",
+     "source_line_no": null,
+     "tex": "Damietta v. Dimyāṭ.",
+     "transcription": "Damietta v. Dimyāṭ.",
+     "semantic_anchor": "AB01-PDF0811-col_left-E17",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0811-col_left-L027",
+     "source_line_no": null,
+     "tex": "Dānah II, 43 n. 180.",
+     "transcription": "Dānah II, 43 n. 180.",
+     "semantic_anchor": "AB01-PDF0811-col_left-E18",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0811-col_left-L028",
+     "source_line_no": null,
+     "tex": "Daqāsh (Deguèche) II, \\textsc{xxx} n.",
+     "transcription": "Daqāsh (Deguèche) II, {sc:xxx} n.",
+     "semantic_anchor": "AB01-PDF0811-col_left-E19",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0811-col_left-L029",
+     "source_line_no": null,
+     "tex": "Daqyūs v. Daqāsh et Taqiyūs.",
+     "transcription": "Daqyūs v. Daqāsh et Taqiyūs.",
+     "semantic_anchor": "AB01-PDF0811-col_left-E20",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0811-col_left-L030",
+     "source_line_no": null,
+     "tex": "Dārā, Daras II, \\textit{42} (et 216).",
+     "transcription": "Dārā, Daras II, *42* (et 216).",
+     "semantic_anchor": "AB01-PDF0811-col_left-E21",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0811-col_left-L031",
+     "source_line_no": null,
+     "tex": "Dawīn v. Dabīl.",
+     "transcription": "Dawīn v. Dabīl.",
+     "semantic_anchor": "AB01-PDF0811-col_left-E22",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0811-col_left-L032",
+     "source_line_no": null,
+     "tex": "ad-Daybul II, \\textit{44} (emend. II, \\textsc{xxviii}), 52 n. 248.",
+     "transcription": "ad-Daybul II, *44* (emend. II, {sc:xxviii}), 52 n. 248.",
+     "semantic_anchor": "AB01-PDF0811-col_left-E23",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0811-col_left-L033",
+     "source_line_no": null,
+     "tex": "Dayr al-‘Āqūl v. al-‘Āqūl.",
+     "transcription": "Dayr al-‘Āqūl v. al-‘Āqūl.",
+     "semantic_anchor": "AB01-PDF0811-col_left-E24",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0811-col_left-L034",
+     "source_line_no": null,
+     "tex": "Deguèche v. Daqāsh.",
+     "transcription": "Deguèche v. Daqāsh.",
+     "semantic_anchor": "AB01-PDF0811-col_left-E25",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0811-col_left-L035",
+     "source_line_no": null,
+     "tex": "Demāwend v. Donbāwend.",
+     "transcription": "Demāwend v. Donbāwend.",
+     "semantic_anchor": "AB01-PDF0811-col_left-E26",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0811-col_left-L036",
+     "source_line_no": null,
+     "tex": "Derbend 172; II, 34 n., 45 n.",
+     "transcription": "Derbend 172; II, 34 n., 45 n.",
+     "semantic_anchor": "AB01-PDF0811-col_left-E27",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0811-col_left-L037",
+     "source_line_no": null,
+     "tex": "Dertosa v. Ṭurṭūshah.",
+     "transcription": "Dertosa v. Ṭurṭūshah.",
+     "semantic_anchor": "AB01-PDF0811-col_left-E28",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0811-col_left-L038",
+     "source_line_no": null,
+     "tex": "ad-Dībaḥāt insulae 170.",
+     "transcription": "ad-Dībaḥāt insulae 170.",
+     "semantic_anchor": "AB01-PDF0811-col_left-E29",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0811-col_left-L039",
+     "source_line_no": null,
+     "tex": "Dībat al-mahal insulae 170 n 7.",
+     "transcription": "Dībat al-mahal insulae 170 n 7.",
+     "semantic_anchor": "AB01-PDF0811-col_left-E30",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0811-col_left-L040",
+     "source_line_no": null,
+     "tex": "Dimyāṭ (Damietta) II, \\textit{43} (et 217).",
+     "transcription": "Dimyāṭ (Damietta) II, *43* (et 217).",
+     "semantic_anchor": "AB01-PDF0811-col_left-E31",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0811-col_left-L041",
+     "source_line_no": null,
+     "tex": "Diospolis magna II, \\textit{37}, 212.",
+     "transcription": "Diospolis magna II, *37*, 212.",
+     "semantic_anchor": "AB01-PDF0811-col_left-E32",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0811-col_left-L042",
+     "source_line_no": null,
+     "tex": "Dīwāniyyeh II, 49 n. 229.",
+     "transcription": "Dīwāniyyeh II, 49 n. 229.",
+     "semantic_anchor": "AB01-PDF0811-col_left-E33",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0811-col_left-L043",
+     "source_line_no": null,
+     "tex": "Diyālā fluvius II, 45 n. 198.",
+     "transcription": "Diyālā fluvius II, 45 n. 198.",
+     "semantic_anchor": "AB01-PDF0811-col_left-E34",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0811-col_left-L044",
+     "source_line_no": null,
+     "tex": "Diyārbekr II, 41 n. 145 et 147.",
+     "transcription": "Diyārbekr II, 41 n. 145 et 147.",
+     "semantic_anchor": "AB01-PDF0811-col_left-E35",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0811-col_left-L045",
+     "source_line_no": null,
+     "tex": "Dīzak II, 53 n. 267.",
+     "transcription": "Dīzak II, 53 n. 267.",
+     "semantic_anchor": "AB01-PDF0811-col_left-E36",
+     "source_role": "NALLINO_INDEX"
+    }
+   ]
+  },
+  {
+   "role": "col_right",
+   "lines": [
+    {
+     "id": "AB01-PDF0811-col_right-L001",
+     "source_line_no": null,
+     "tex": "Dolūk (Doliche) II, \\textit{40}.",
+     "transcription": "Dolūk (Doliche) II, *40*.",
+     "semantic_anchor": "AB01-PDF0811-col_right-E01",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0811-col_right-L002",
+     "source_line_no": null,
+     "tex": "Donbāwend II, \\textit{53} (et 218: denaonth).",
+     "transcription": "Donbāwend II, *53* (et 218: denaonth).",
+     "semantic_anchor": "AB01-PDF0811-col_right-E02",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0811-col_right-L003",
+     "source_line_no": null,
+     "tex": "Donqolah II, \\textit{53} (et 217: diola), 212 n.",
+     "transcription": "Donqolah II, *53* (et 217: diola), 212 n.",
+     "semantic_anchor": "AB01-PDF0811-col_right-E03",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0811-col_right-L004",
+     "source_line_no": null,
+     "tex": "Drangiana v. Siǵistān.",
+     "transcription": "Drangiana v. Siǵistān.",
+     "semantic_anchor": "AB01-PDF0811-col_right-E04",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0811-col_right-L005",
+     "source_line_no": null,
+     "tex": "Dshizak v. Dīzak.",
+     "transcription": "Dshizak v. Dīzak.",
+     "semantic_anchor": "AB01-PDF0811-col_right-E05",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0811-col_right-L006",
+     "source_line_no": null,
+     "tex": "Dubius II, 42 n. 165.",
+     "transcription": "Dubius II, 42 n. 165.",
+     "semantic_anchor": "AB01-PDF0811-col_right-E06",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0811-col_right-L007",
+     "source_line_no": null,
+     "tex": "Durbeta v. Mayyāfāriqīn.",
+     "transcription": "Durbeta v. Mayyāfāriqīn.",
+     "semantic_anchor": "AB01-PDF0811-col_right-E07",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0811-col_right-L008",
+     "source_line_no": null,
+     "tex": "Edessa v. ar-Rohā’.",
+     "transcription": "Edessa v. ar-Rohā’.",
+     "semantic_anchor": "AB01-PDF0811-col_right-E08",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0811-col_right-L009",
+     "source_line_no": null,
+     "tex": "Ēlath 17 n. 6.",
+     "transcription": "Ēlath 17 n. 6.",
+     "semantic_anchor": "AB01-PDF0811-col_right-E09",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0811-col_right-L010",
+     "source_line_no": null,
+     "tex": "Elburz mons II, 53 n. 258.",
+     "transcription": "Elburz mons II, 53 n. 258.",
+     "semantic_anchor": "AB01-PDF0811-col_right-E10",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0811-col_right-L011",
+     "source_line_no": null,
+     "tex": "Eleutheropolis II, 49 n. 228.",
+     "transcription": "Eleutheropolis II, 49 n. 228.",
+     "semantic_anchor": "AB01-PDF0811-col_right-E11",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0811-col_right-L012",
+     "source_line_no": null,
+     "tex": "Emessa (\\textit{Ḥimṣ}) II, 39 n. 128.",
+     "transcription": "Emessa (*Ḥimṣ*) II, 39 n. 128.",
+     "semantic_anchor": "AB01-PDF0811-col_right-E12",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0811-col_right-L013",
+     "source_line_no": null,
+     "tex": "Emmaus v. ‘Amawās.",
+     "transcription": "Emmaus v. ‘Amawās.",
+     "semantic_anchor": "AB01-PDF0811-col_right-E13",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0811-col_right-L014",
+     "source_line_no": null,
+     "tex": "el-Enfeh v. el-Anfeh.",
+     "transcription": "el-Enfeh v. el-Anfeh.",
+     "semantic_anchor": "AB01-PDF0811-col_right-E14",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0811-col_right-L015",
+     "source_line_no": null,
+     "tex": "Epiphania (\\textit{Ḥamāh}) II, 39.",
+     "transcription": "Epiphania (*Ḥamāh*) II, 39.",
+     "semantic_anchor": "AB01-PDF0811-col_right-E15",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0811-col_right-L016",
+     "source_line_no": null,
+     "tex": "Epirus II, \\textit{34}.",
+     "transcription": "Epirus II, *34*.",
+     "semantic_anchor": "AB01-PDF0811-col_right-E16",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0811-col_right-L017",
+     "source_line_no": null,
+     "tex": "Ereglī II, 48 n. 218.",
+     "transcription": "Ereglī II, 48 n. 218.",
+     "semantic_anchor": "AB01-PDF0811-col_right-E17",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0811-col_right-L018",
+     "source_line_no": null,
+     "tex": "Erẓerūm II, 41 n. 147.",
+     "transcription": "Erẓerūm II, 41 n. 147.",
+     "semantic_anchor": "AB01-PDF0811-col_right-E18",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0811-col_right-L019",
+     "source_line_no": null,
+     "tex": "Eskī Ḥaleb II, 40 n. 137.",
+     "transcription": "Eskī Ḥaleb II, 40 n. 137.",
+     "semantic_anchor": "AB01-PDF0811-col_right-E19",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0811-col_right-L020",
+     "source_line_no": null,
+     "tex": "Ẹskī Ḥiṣār II, 39 n. 116.",
+     "transcription": "Ẹskī Ḥiṣār II, 39 n. 116.",
+     "semantic_anchor": "AB01-PDF0811-col_right-E20",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0811-col_right-L021",
+     "source_line_no": null,
+     "tex": "Eskī Mōṣul II, 42 n. 161.",
+     "transcription": "Eskī Mōṣul II, 42 n. 161.",
+     "semantic_anchor": "AB01-PDF0811-col_right-E21",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0811-col_right-L022",
+     "source_line_no": null,
+     "tex": "Euboea II, \\textit{34}.",
+     "transcription": "Euboea II, *34*.",
+     "semantic_anchor": "AB01-PDF0811-col_right-E22",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0811-col_right-L023",
+     "source_line_no": null,
+     "tex": "Eumara II, 47 n. 208.",
+     "transcription": "Eumara II, 47 n. 208.",
+     "semantic_anchor": "AB01-PDF0811-col_right-E23",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0811-col_right-L024",
+     "source_line_no": null,
+     "tex": "Europa (\\textit{Ewrūfī}) \\textit{19}.",
+     "transcription": "Europa (*Ewrūfī*) *19*.",
+     "semantic_anchor": "AB01-PDF0811-col_right-E24",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0811-col_right-L025",
+     "source_line_no": null,
+     "tex": "Evarias, Evarius v. Ḥuwwārīn.",
+     "transcription": "Evarias, Evarius v. Ḥuwwārīn.",
+     "semantic_anchor": "AB01-PDF0811-col_right-E25",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0811-col_right-L026",
+     "source_line_no": null,
+     "tex": "Eylīǵah II, 43 n. 180.",
+     "transcription": "Eylīǵah II, 43 n. 180.",
+     "semantic_anchor": "AB01-PDF0811-col_right-E26",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0811-col_right-L027",
+     "source_line_no": null,
+     "tex": "Fāmiyah II, \\textit{40}.",
+     "transcription": "Fāmiyah II, *40*.",
+     "semantic_anchor": "AB01-PDF0811-col_right-E27",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0811-col_right-L028",
+     "source_line_no": null,
+     "tex": "al-Faramā II, \\textit{45} (et 217), 47 n. 212.",
+     "transcription": "al-Faramā II, *45* (et 217), 47 n. 212.",
+     "semantic_anchor": "AB01-PDF0811-col_right-E28",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0811-col_right-L029",
+     "source_line_no": null,
+     "tex": "Farghānah regio (false pro Paropanisadis) II,",
+     "transcription": "Farghānah regio (false pro Paropanisadis) II,",
+     "semantic_anchor": "AB01-PDF0811-col_right-E29",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0811-col_right-L030",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.04pt}\\textit{36} (et 216), 212.",
+     "transcription": "*36* (et 216), 212.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0811-col_right-L031",
+     "source_line_no": null,
+     "tex": "Fāris (Persis) 170; II, \\textit{35} (et 215). — V. Si-",
+     "transcription": "Fāris (Persis) 170; II, *35* (et 215). — V. Si-",
+     "semantic_anchor": "AB01-PDF0811-col_right-E30",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0811-col_right-L032",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.04pt}nus Persicus.",
+     "transcription": "nus Persicus.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0811-col_right-L033",
+     "source_line_no": null,
+     "tex": "Fās (Fez) II, 202 n., 219.",
+     "transcription": "Fās (Fez) II, 202 n., 219.",
+     "semantic_anchor": "AB01-PDF0811-col_right-E31",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0811-col_right-L034",
+     "source_line_no": null,
+     "tex": "Fāw (Faọ) II, 53 n. 268.",
+     "transcription": "Fāw (Faọ) II, 53 n. 268.",
+     "semantic_anchor": "AB01-PDF0811-col_right-E32",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0811-col_right-L035",
+     "source_line_no": null,
+     "tex": "Fergana v. Farghānah.",
+     "transcription": "Fergana v. Farghānah.",
+     "semantic_anchor": "AB01-PDF0811-col_right-E33",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0811-col_right-L036",
+     "source_line_no": null,
+     "tex": "Fez v. Fās.",
+     "transcription": "Fez v. Fās.",
+     "semantic_anchor": "AB01-PDF0811-col_right-E34",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0811-col_right-L037",
+     "source_line_no": null,
+     "tex": "Figīg II, 202 bis.",
+     "transcription": "Figīg II, 202 bis.",
+     "semantic_anchor": "AB01-PDF0811-col_right-E35",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0811-col_right-L038",
+     "source_line_no": null,
+     "tex": "Filasṭīn urbs II, \\textit{38} (et 216); regio v. Palaestina",
+     "transcription": "Filasṭīn urbs II, *38* (et 216); regio v. Palaestina",
+     "semantic_anchor": "AB01-PDF0811-col_right-E36",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0811-col_right-L039",
+     "source_line_no": null,
+     "tex": "Franci (\\textit{Faranǵah}) 172.",
+     "transcription": "Franci (*Faranǵah*) 172.",
+     "semantic_anchor": "AB01-PDF0811-col_right-E37",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0811-col_right-L040",
+     "source_line_no": null,
+     "tex": "Fretus v. Constantinopolis.",
+     "transcription": "Fretus v. Constantinopolis.",
+     "semantic_anchor": "AB01-PDF0811-col_right-E38",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0811-col_right-L041",
+     "source_line_no": null,
+     "tex": "al-Fusṭāṭ II, \\textsc{xxii}, \\textit{43} (et 217).",
+     "transcription": "al-Fusṭāṭ II, {sc:xxii}, *43* (et 217).",
+     "semantic_anchor": "AB01-PDF0811-col_right-E39",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0811-col_right-L042",
+     "source_line_no": null,
+     "tex": "Gabala Coelesyriae v. Ǵabalah. — Gabala Phoe-",
+     "transcription": "Gabala Coelesyriae v. Ǵabalah. — Gabala Phoe-",
+     "semantic_anchor": "AB01-PDF0811-col_right-E40",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0811-col_right-L043",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.04pt}niciae v. Ǵubayl.",
+     "transcription": "niciae v. Ǵubayl.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    }
+   ]
+  }
+ ]
+}

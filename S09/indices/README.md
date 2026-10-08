@@ -2,7 +2,7 @@
 
 Nallino's two indexes to the edition: the *Index geographicus* (pp. 359–372) and the *Index historicus* (pp. 373–413). Each entry gives a name, often with its Arabic or Greek form transcribed in italics, and the places where it occurs: italic numbers are the places of al-Battānī's text, upright numbers those of Nallino's notes (as the introduction of p. 359 says); numbers after «II» are pages of Part II, the others of Part I. The edition is diplomatic and line-anchored, in the format of the S09 edition of the glossary: every printed line is one line of the edition, with its hyphenation, its punctuation, its letter-spaced names and its italics, and every line has a stable anchor.
 
-The transcription is in progress. It begins at the title page of the Index geographicus (p. 359) and runs page by page; pp. 359–361 are done (the introduction and the entries from Ābaskūn to Chersonesus Thracia).
+The transcription is in progress. It begins at the title page of the Index geographicus (p. 359) and runs page by page; pp. 359–362 are done (the introduction and the entries from Ābaskūn to Gabala).
 
 ## Read
 
@@ -26,6 +26,7 @@ The transcription is in progress. It begins at the title page of the Index geogr
 - The transcriptions of Arabic, Persian and other names keep the diacritics that are printed: macrons, the dots under ḥ, ṣ, ṭ, ḍ, ẓ, the ‘ of ʿayn and the ’ of hamza, and ǵ (g with an acute), Nallino's transcription of the letter jīm (ج), as in Ādharbayǵān and al-Aflāǵ. Small differences of the print (a dot over a macron, a letter printed broken) are kept or described in the page record.
 - Italic and upright numbers are distinguished as printed: they separate the places of al-Battānī's text from those of Nallino's notes.
 - The lines are set at their printed baselines (`@baselines`, measured on the scan for each line of each column).
+- The dot of i and the bar of ī are told apart by measurement (`_intake/notes/tools_s09/macron_audit.py` in the working files: a dot is 1.1–1.4 points wide and round, a bar 1.6–2.4 points wide and flat), since the two are hard to separate by eye in the bold type of the index.
 - A reading that departs from what one expects is kept as printed and described in the page record.
 
 ## Rebuild
