@@ -1,0 +1,403 @@
+{
+ "anchor": "AB01-PDF0806",
+ "master_pdf_page": 806,
+ "printed_page": 357,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "observations": [
+  "body L1, L2: the three points stand at the left of «موضع», at the end of the Arabic run; the quotation goes on in L2 («موزون السطح»).",
+  "body L2, L18: «ليكُنْ» (L2) and «وسط» in «المَمَرُّ في وسط السماء» (L18) are printed with elongated joins (kashīda), not transcribed.",
+  "body L2: «سطحُهُ» has the ḍamma on the ḥāʾ and on the hāʾ.",
+  "body L8, L9, L15: «السَّمَاءَ» has the fatḥa over the hamza in L8 and L9; «السَّمَاءِ» (L15) has the kasra under it.",
+  "body L18, L20, L21: «المَمَرُّ», «الجَنُوبيُّ» and «العَشَوِيُّ» end with the shadda and the ḍamma; «الجَنُوبيُّ» has no kasra under the bāʾ.",
+  "body L12, L19: «v.» (vide) before «تشريق» is the Latin v, as in «vel» (L12), not the Arabic figure ٧.",
+  "body L26: the em dash after «وسع» is broken near its left end (1.6 and 7.1 points). «المَشْرقِ» has the fatḥa on the mīm, the sukun on the shīn and the kasra under the qāf, none under the rāʾ.",
+  "body L28: «٣٤» is a 3 joined to a 4 (8.4 points wide; a joined «٢٤» measures about 6.6).",
+  "body L32, L33: «الٱتِّصَالَاتُ» (L32) has the waṣla over the alif after the article; «الاجتمَاعات» (L33) has only the fatḥa on the mīm.",
+  "body L6, L7: «Edr.» and «Auw.» are not letter-spaced (letter gaps 0.8-1.3 points; «Dozy», L6, 1.8-2.0).",
+  "notes_left L1, L4: the hyphen of «Bouché-Leclercq» (L1) is 3.8 points long; that of «σω-» (L4) 2.9 points, the en dashes of the notes on pp. 333 and 343 4.3-4.7 points.",
+  "notes_right L3: the three points follow the comma of «astres,» without a space."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0806-body-L001",
+     "source_line_no": 1,
+     "tex": "\\ArabicRun{مَوْزُونٌ} superficies \\textit{perpendiculo aequata}, \\textit{perfecte horizontalis} aut \\textit{verticalis}; {\\arabicfont ٣٤}\\textsubscript{18} \\ArabicRun{موضع ...}",
+     "transcription": "{ar:مَوْزُونٌ} superficies *perpendiculo aequata*, *perfecte horizontalis* aut *verticalis*; ٣٤{sub:18} {ar:موضع ...}",
+     "semantic_anchor": "AB01-PDF0806-E01",
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0806-body-L002",
+     "source_line_no": 2,
+     "tex": "\\hspace*{21.28pt}\\ArabicRun{موزون السطح} « locus cuius superficies horizontalis, non inclinata »; {\\arabicfont ١٣٧}\\textsubscript{3} \\ArabicRun{ليكُنْ سطحُهُ}",
+     "transcription": "{ar:موزون السطح} « locus cuius superficies horizontalis, non inclinata »; ١٣٧{sub:3} {ar:ليكُنْ سطحُهُ}",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0806-body-L003",
+     "source_line_no": 3,
+     "tex": "\\hspace*{21.28pt}\\ArabicRun{مستويًا موزونًا بالشاقول} « sit eius superficies plana, perpendiculo aequata »; {\\arabicfont ٢٠٥}\\textsubscript{19} \\ArabicRun{بعد ان}",
+     "transcription": "{ar:مستويًا موزونًا بالشاقول} « sit eius superficies plana, perpendiculo aequata »; ٢٠٥{sub:19} {ar:بعد ان}",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0806-body-L004",
+     "source_line_no": 4,
+     "tex": "\\hspace*{21.28pt}\\ArabicRun{يكون وجهه موزونًا بالشاقول}; {\\arabicfont ٢١٧}\\textsubscript{12} \\ArabicRun{ويكون وجه سطح المِسْطَرة قائمًا على خطّ نصف النهار موزونًا عليه}",
+     "transcription": "{ar:يكون وجهه موزونًا بالشاقول}; ٢١٧{sub:12} {ar:ويكون وجه سطح المِسْطَرة قائمًا على خطّ نصف النهار موزونًا عليه}",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0806-body-L005",
+     "source_line_no": 5,
+     "tex": "\\hspace*{21.28pt}« sitque superficies regulae perpendicularis ad lineam meridianam et perfecte verticalis ».",
+     "transcription": "« sitque superficies regulae perpendicularis ad lineam meridianam et perfecte verticalis ».",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0806-body-L006",
+     "source_line_no": 6,
+     "tex": "\\hspace*{21.28pt}Cfr. \\Name{Dozy}, II, 800,\\textit{a}: \\ArabicRun{وَزَنَ} « \\textit{librare terram, aquam, prendre le niveau de la terre, de}",
+     "transcription": "Cfr. {sp:Dozy}, II, 800,*a*: {ar:وَزَنَ} « *librare terram, aquam, prendre le niveau de la terre, de*",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0806-body-L007",
+     "source_line_no": 7,
+     "tex": "\\hspace*{21.28pt}« \\textit{l’eau, mesurer au niveau, niveler} » (ex Edr. et Auw.).",
+     "transcription": "« *l’eau, mesurer au niveau, niveler* » (ex Edr. et Auw.).",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0806-body-L008",
+     "source_line_no": 8,
+     "tex": "\\ArabicRun{وسط} — V, n. act. \\ArabicRun{تَوَسُّطٌ}, \\textit{in medio rei esse}; ergo \\ArabicRun{تَوَسَّطَ السَّمَاءَ} \\textgreek{μεσουρανεῖν}, \\textit{Caelum mediare},",
+     "transcription": "{ar:وسط} — V, n. act. {ar:تَوَسُّطٌ}, *in medio rei esse*; ergo {ar:تَوَسَّطَ السَّمَاءَ} μεσουρανεῖν, *Caelum mediare*,",
+     "semantic_anchor": "AB01-PDF0806-E02",
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0806-body-L009",
+     "source_line_no": 9,
+     "tex": "\\hspace*{21.28pt}\\textit{culminare, per meridianum transire}; \\ArabicRun{تَوَسُّطُ الكوكب السَّمَاءَ} \\textit{sideris culminatio}, \\textit{sideris}",
+     "transcription": "*culminare, per meridianum transire*; {ar:تَوَسُّطُ الكوكب السَّمَاءَ} *sideris culminatio*, *sideris*",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0806-body-L010",
+     "source_line_no": 10,
+     "tex": "\\hspace*{21.28pt}\\textit{transitus per meridianum}; \\ArabicRun{الاجزاء التي تتوسّط السماء مع الكوكب} \\textit{punctum eclipticae eodem}",
+     "transcription": "*transitus per meridianum*; {ar:الاجزاء التي تتوسّط السماء مع الكوكب} *punctum eclipticae eodem*",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0806-body-L011",
+     "source_line_no": 11,
+     "tex": "\\hspace*{21.28pt}\\textit{tempore quo stella per meridianum transiens}; persaepe. — \\ArabicRun{وَسَطٌ} pl. \\ArabicRun{أَوْسَاطٌ} \\textgreek{μέση πάροδος},",
+     "transcription": "*tempore quo stella per meridianum transiens*; persaepe. — {ar:وَسَطٌ} pl. {ar:أَوْسَاطٌ} μέση πάροδος,",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0806-body-L012",
+     "source_line_no": 12,
+     "tex": "\\hspace*{21.28pt}\\textgreek{μέση κίνησις}, \\textit{a}) \\textit{motus medius} longitudinis, i. q. \\ArabicRun{الحركة الوُسْطَى} vel \\ArabicRun{المسير الاوسط}, {\\arabicfont ٦٤}\\textsubscript{8} (ubi",
+     "transcription": "μέση κίνησις, *a*) *motus medius* longitudinis, i. q. {ar:الحركة الوُسْطَى} vel {ar:المسير الاوسط}, ٦٤{sub:8} (ubi",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0806-body-L013",
+     "source_line_no": 13,
+     "tex": "\\hspace*{21.28pt}definitur) ac persaepe; item II, 25, 26, 31, 32, 73, 74, 75, 76, 77, 86, 87, 103. \\textit{b}) \\textit{longitudo}",
+     "transcription": "definitur) ac persaepe; item II, 25, 26, 31, 32, 73, 74, 75, 76, 77, 86, 87, 103. *b*) *longitudo*",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0806-body-L014",
+     "source_line_no": 14,
+     "tex": "\\hspace*{21.28pt}\\textit{media}, i. q. \\ArabicRun{الموضع الاوسط}, {\\arabicfont ٧٨}\\textsubscript{14}, {\\arabicfont ١١٢} pluries, {\\arabicfont ١٧١}–{\\arabicfont ١٧٢} et II, 24, 29–30, 72, 84, 85, 102. — \\ArabicRun{وَسَطُ}",
+     "transcription": "*media*, i. q. {ar:الموضع الاوسط}, ٧٨{sub:14}, ١١٢ pluries, ١٧١–١٧٢ et II, 24, 29–30, 72, 84, 85, 102. — {ar:وَسَطُ}",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0806-body-L015",
+     "source_line_no": 15,
+     "tex": "\\hspace*{21.28pt}\\ArabicRun{السَّمَاءِ} \\textgreek{τὸ μεσουράνημα}, \\textit{medium Caelum}, intersectio eclipticae et meridiani superioris,",
+     "transcription": "{ar:السَّمَاءِ} τὸ μεσουράνημα, *medium Caelum*, intersectio eclipticae et meridiani superioris,",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0806-body-L016",
+     "source_line_no": 16,
+     "tex": "\\hspace*{21.28pt}saepissime; ergo: \\ArabicRun{دَائِرَةُ وسط السماء} et \\ArabicRun{خطّ وسط السماء} \\textgreek{ὁ μεσημβρινός}, \\textit{meridianus} caele-",
+     "transcription": "saepissime; ergo: {ar:دَائِرَةُ وسط السماء} et {ar:خطّ وسط السماء} ὁ μεσημβρινός, *meridianus* caele-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0806-body-L017",
+     "source_line_no": 17,
+     "tex": "\\hspace*{21.28pt}stis et terrestris, {\\arabicfont ١٨}\\textsubscript{1}, {\\arabicfont ٢٢}\\textsubscript{15, 16}, {\\arabicfont ٣٥}\\textsubscript{10, 15} etc.; \\ArabicRun{الارتفاع في وسط السماء} \\textit{altitudo meridiana},",
+     "transcription": "stis et terrestris, ١٨{sub:1}, ٢٢{sub:15, 16}, ٣٥{sub:10, 15} etc.; {ar:الارتفاع في وسط السماء} *altitudo meridiana*,",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0806-body-L018",
+     "source_line_no": 18,
+     "tex": "\\hspace*{21.28pt}{\\arabicfont ٣٧}\\textsubscript{7, 8} etc.; \\ArabicRun{البُعْد عن خطّ وسط السماء} \\textit{angulus horarius}, {\\arabicfont ٤٥}\\textsubscript{13}, {\\arabicfont ٥٣}\\textsubscript{7}; \\ArabicRun{المَمَرُّ في وسط السماء}",
+     "transcription": "٣٧{sub:7, 8} etc.; {ar:البُعْد عن خطّ وسط السماء} *angulus horarius*, ٤٥{sub:13}, ٥٣{sub:7}; {ar:المَمَرُّ في وسط السماء}",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0806-body-L019",
+     "source_line_no": 19,
+     "tex": "\\hspace*{21.28pt}\\textit{transitus per meridianum, culminatio}, {\\arabicfont ٧٤}\\textsubscript{15}; \\ArabicRun{وسط سماء التشريق} v. \\ArabicRun{تشريق}; \\ArabicRun{وسط السماء}",
+     "transcription": "*transitus per meridianum, culminatio*, ٧٤{sub:15}; {ar:وسط سماء التشريق} v. {ar:تشريق}; {ar:وسط السماء}",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0806-body-L020",
+     "source_line_no": 20,
+     "tex": "\\hspace*{21.28pt}\\ArabicRun{الجَنُوبيُّ} \\textgreek{μεσημβρινὸν μεσουράνημα}, cum stella superne culminat consistente Sole in meri-",
+     "transcription": "{ar:الجَنُوبيُّ} μεσημβρινὸν μεσουράνημα, cum stella superne culminat consistente Sole in meri-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0806-body-L021",
+     "source_line_no": 21,
+     "tex": "\\hspace*{21.28pt}diano superiore aut inferiore, {\\arabicfont ١٨٠}\\textsubscript{6}; \\ArabicRun{وسط السماء العَشَوِيُّ} \\textgreek{ὀψινὸν μεσουράνημα}, cum, occidente",
+     "transcription": "diano superiore aut inferiore, ١٨٠{sub:6}; {ar:وسط السماء العَشَوِيُّ} ὀψινὸν μεσουράνημα, cum, occidente",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0806-body-L022",
+     "source_line_no": 22,
+     "tex": "\\hspace*{21.28pt}Sole, stella meridianum superiorem aut inferiorem occupat, {\\arabicfont ١٨٠}\\textsubscript{16}. — \\ArabicRun{وَسَطُ الثُّرَيَّا} \\textgreek{η} \\textit{Tauri},",
+     "transcription": "Sole, stella meridianum superiorem aut inferiorem occupat, ١٨٠{sub:16}. — {ar:وَسَطُ الثُّرَيَّا} η *Tauri*,",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0806-body-L023",
+     "source_line_no": 23,
+     "tex": "\\hspace*{21.28pt}{\\arabicfont ٢٧٧}. — \\ArabicRun{وَسَطُ الكُسُوفِ} \\textgreek{μέσος χρόνος τῆς ἐκλείψεως}, \\textit{medium eclipsis}, {\\arabicfont ١٤٧}\\textsubscript{19} etc. — \\ArabicRun{أَوْسَطُ} \\textgreek{μέσος},",
+     "transcription": "٢٧٧. — {ar:وَسَطُ الكُسُوفِ} μέσος χρόνος τῆς ἐκλείψεως, *medium eclipsis*, ١٤٧{sub:19} etc. — {ar:أَوْسَطُ} μέσος,",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0806-body-L024",
+     "source_line_no": 24,
+     "tex": "\\hspace*{21.28pt}\\textit{medius}, de longitudine aut motu aut syzygia ita supputati ac si motus caelestes essent",
+     "transcription": "*medius*, de longitudine aut motu aut syzygia ita supputati ac si motus caelestes essent",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0806-body-L025",
+     "source_line_no": 25,
+     "tex": "\\hspace*{21.28pt}aequabiles; oppos. \\ArabicRun{حَقِّيٌّ} \\textgreek{ἀκριβής}, verus.",
+     "transcription": "aequabiles; oppos. {ar:حَقِّيٌّ} ἀκριβής, verus.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0806-body-L026",
+     "source_line_no": 26,
+     "tex": "\\ArabicRun{وسع} — \\ArabicRun{سَعَةُ المَشْرقِ} \\textgreek{ἡ τοῦ ὁρίζοντος περιφέρεια ὑπό τε τοῦ ἰσημερινοῦ καὶ τοῦ λοξοῦ κύκλου}, \\textit{am-}",
+     "transcription": "{ar:وسع} — {ar:سَعَةُ المَشْرقِ} ἡ τοῦ ὁρίζοντος περιφέρεια ὑπό τε τοῦ ἰσημερινοῦ καὶ τοῦ λοξοῦ κύκλου, *am-*",
+     "semantic_anchor": "AB01-PDF0806-E03",
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0806-body-L027",
+     "source_line_no": 27,
+     "tex": "\\hspace*{21.28pt}\\textit{plitudo ortiva}, arcus horizontis inter punctum E et punctum eclipticae in horizonte ascen-",
+     "transcription": "*plitudo ortiva*, arcus horizontis inter punctum E et punctum eclipticae in horizonte ascen-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0806-body-L028",
+     "source_line_no": 28,
+     "tex": "\\hspace*{21.28pt}dens, {\\arabicfont ٣٤}\\textsubscript{2, 4}.",
+     "transcription": "dens, ٣٤{sub:2, 4}.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0806-body-L029",
+     "source_line_no": 29,
+     "tex": "\\ArabicRun{وصل} — VIII, \\textgreek{συνάπτειν}, \\textit{applicavit se} alteri (\\ArabicRun{ب}) planeta, alteri consociatus est per aliquem",
+     "transcription": "{ar:وصل} — VIII, συνάπτειν, *applicavit se* alteri ({ar:ب}) planeta, alteri consociatus est per aliquem",
+     "semantic_anchor": "AB01-PDF0806-E04",
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0806-body-L030",
+     "source_line_no": 30,
+     "tex": "\\hspace*{21.28pt}aspectuum (trinum, sextilem, quadraturam, oppositionem) aut per coniunctionem (1), {\\arabicfont ١٩٥}\\textsubscript{2, 3},",
+     "transcription": "aspectuum (trinum, sextilem, quadraturam, oppositionem) aut per coniunctionem (1), ١٩٥{sub:2, 3},",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0806-body-L031",
+     "source_line_no": 31,
+     "tex": "\\hspace*{21.28pt}{\\arabicfont ١٩٦}\\textsubscript{10}. \\ArabicRun{اِتِّصَالٌ} pl. \\ArabicRun{اِتِّصَالَاتٌ} \\textgreek{συναφή}, \\textit{applicatio}, \\textit{alictisal}, consociatio planetarum (aut Solis aut",
+     "transcription": "١٩٦{sub:10}. {ar:اِتِّصَالٌ} pl. {ar:اِتِّصَالَاتٌ} συναφή, *applicatio*, *alictisal*, consociatio planetarum (aut Solis aut",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0806-body-L032",
+     "source_line_no": 32,
+     "tex": "\\hspace*{21.28pt}Lunae) cum aliis per aliquem aspectum aut per coniunctionem, {\\arabicfont ١٩٤} seqq. — \\ArabicRun{الٱتِّصَالَاتُ} \\textgreek{αἱ}",
+     "transcription": "Lunae) cum aliis per aliquem aspectum aut per coniunctionem, ١٩٤ seqq. — {ar:الٱتِّصَالَاتُ} αἱ",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0806-body-L033",
+     "source_line_no": 33,
+     "tex": "\\hspace*{21.28pt}\\textgreek{συζυγίαι}, \\textit{syzygiae}, coniunctiones et oppositiones Solis cum Luna, {\\arabicfont ٧}\\textsubscript{6}; plerumque \\ArabicRun{الاجتمَاعات}",
+     "transcription": "συζυγίαι, *syzygiae*, coniunctiones et oppositiones Solis cum Luna, ٧{sub:6}; plerumque {ar:الاجتمَاعات}",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0806-body-L034",
+     "source_line_no": 34,
+     "tex": "\\hspace*{21.28pt}\\ArabicRun{والاستقبالات}.",
+     "transcription": "{ar:والاستقبالات}.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_GLOSSARIUM"
+    },
+    {
+     "id": "AB01-PDF0806-body-L035",
+     "source_line_no": 35,
+     "tex": "\\ArabicRun{وضع} — \\ArabicRun{مَوْضِعُ كوكب من فلك البروج} vel brevius \\ArabicRun{مَوْضِعٌ} pl. \\ArabicRun{مَوَاضِعُ} \\textgreek{κατὰ μῆκος ἐποχή, ἡ ἐποχή}, \\textit{lon-}",
+     "transcription": "{ar:وضع} — {ar:مَوْضِعُ كوكب من فلك البروج} vel brevius {ar:مَوْضِعٌ} pl. {ar:مَوَاضِعُ} κατὰ μῆκος ἐποχή, ἡ ἐποχή, *lon-*",
+     "semantic_anchor": "AB01-PDF0806-E05",
+     "source_role": "NALLINO_GLOSSARIUM"
+    }
+   ]
+  },
+  {
+   "role": "notes_left",
+   "lines": [
+    {
+     "id": "AB01-PDF0806-notes_left-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (1) Cfr. \\Name{Bouché-Leclercq}, \\textit{Astrol. grecque},",
+     "transcription": "(1) Cfr. {sp:Bouché-Leclercq}, *Astrol. grecque*,",
+     "semantic_anchor": "AB01-PDF0806-N01",
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0806-notes_left-L002",
+     "source_line_no": null,
+     "tex": "p. 246: « Ils [astrologi] ont remplacé la règle de sens",
+     "transcription": "p. 246: « Ils [astrologi] ont remplacé la règle de sens",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0806-notes_left-L003",
+     "source_line_no": null,
+     "tex": "« commun, en vertu de laquelle la rencontre des",
+     "transcription": "« commun, en vertu de laquelle la rencontre des",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0806-notes_left-L004",
+     "source_line_no": null,
+     "tex": "« planètes doit être réelle (\\textgreek{κατὰ συμπαρουσίαν} ou \\textgreek{σω}-",
+     "transcription": "« planètes doit être réelle (κατὰ συμπαρουσίαν ou σω-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0806-notes_left-L005",
+     "source_line_no": null,
+     "tex": "« \\textgreek{ματικῶς}), par cette autre règle astrologique que",
+     "transcription": "« ματικῶς), par cette autre règle astrologique que",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  },
+  {
+   "role": "notes_right",
+   "lines": [
+    {
+     "id": "AB01-PDF0806-notes_right-L001",
+     "source_line_no": null,
+     "tex": "« l’aspect (\\textgreek{σχῆμα}) vaut ou vaut presque la présence",
+     "transcription": "« l’aspect (σχῆμα) vaut ou vaut presque la présence",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0806-notes_right-L002",
+     "source_line_no": null,
+     "tex": "« réelle. Par conséquent, toute planète peut être",
+     "transcription": "« réelle. Par conséquent, toute planète peut être",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0806-notes_right-L003",
+     "source_line_no": null,
+     "tex": "« remplacée, par toute relation entre astres,... par",
+     "transcription": "« remplacée, par toute relation entre astres,... par",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0806-notes_right-L004",
+     "source_line_no": null,
+     "tex": "« le ‘ rayon ’ qu’elles lancent suivant un des aspects",
+     "transcription": "« le ‘ rayon ’ qu’elles lancent suivant un des aspects",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0806-notes_right-L005",
+     "source_line_no": null,
+     "tex": "« polygonaux ».",
+     "transcription": "« polygonaux ».",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  }
+ ]
+}
