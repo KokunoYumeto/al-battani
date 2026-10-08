@@ -1,0 +1,791 @@
+{
+ "anchor": "AB01-PDF0844",
+ "master_pdf_page": 844,
+ "printed_page": 395,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "observations": [
+  "col_left L1: the second t of «latitudo» is printed without the end of its foot, which stands apart to its right (0.6 by 1.0 point, 0.9-1.9 points above the baseline); it is not a point.",
+  "col_left L4: the comma after «II» is printed short (1.8 by 2.3 points, its foot 0.9 point below the baseline), like a point at low resolution.",
+  "col_left L6, L8, L18: «al-Battānī» and «tānī» have the bars over the a and the last i, measured with macron_audit.py.",
+  "col_left L9: a speck (0.6 by 0.5 point) under the s of «borealis», 1.6 points below the baseline, is not transcribed.",
+  "col_left L10, L16, L17, L33: the hyphens of «5-6», «232-233», «al-Bat-» (the first) and «*19-23*» are printed short (1.9-2.3 by 1.0-1.3 points; the other hyphens of the page that stand free are 2.8-3.7 points long), like points at mid height at low resolution (hyphen_audit.py).",
+  "col_right L25: the hyphen of «265-266» is printed short (1.9 by 1.1 points), like a point at mid height at low resolution.",
+  "col_left L14: the e of «Ptolemaico» is printed without its bar, like c.",
+  "col_left L18: «18′» is printed with the sign of minutes.",
+  "col_left L24, L25: the last o of «praecessio» and the o of «Solis» are printed broken, in two strokes like ( ); read o. «*sabq*» is printed in italics.",
+  "col_left L27: a speck (1.1 by 1.1 points) in the margin, 12 points before the line, is not transcribed.",
+  "col_left L31: a speck (0.6 by 0.6 point) before the L of «Luna», at the height of the capitals, is not transcribed.",
+  "col_left L34: «Dhū ’l-qarnayn» has the bar over the u and the apostrophe of elision.",
+  "col_left L41: a speck (0.6 by 1.1 points) between «plex» and «seu», 0.8-1.9 points above the baseline, is not transcribed.",
+  "col_left L45: the italic 5 of «*51-52*» is printed broken: the ball at the lower end of its curve stands apart (1.6 by 1.9 points, 0.4-2.4 points above the baseline); it is not a point.",
+  "col_left, col_right: as on the preceding pages, many t's are printed with the left part of their crossbar faint or missing, so that they look like l (in motus, lativus, motibus, supputatus and quatio of the left column, and in apparet, est, semidiametrus, composita, tertia, altitudo, azimuth, centro, zenithalis, stationes, cognitio, vespertina, exposita, doctrinae, al-Battānī, directio and horizonte of the right column); several m's are printed broken like ı and n and several n's like ıı. They are read t, m and n.",
+  "col_right L1: a blot (3.7 by 3.8 points) above the first p of «apparet», 4.5-8.3 points above the baseline, is not transcribed.",
+  "col_right L10: the s after the u of «prosneusis» is printed with a break in its spine; read s.",
+  "col_right L22, L40: «difficilis» is printed with the ffi ligature and «fine» with the fi ligature.",
+  "col_right L27: a tiny speck on the baseline between «apud» and «Muslimos» is not transcribed.",
+  "col_right L33, L35: «al-Khāzinī» and «al-Battānī» have the bars over the a and the last i.",
+  "col_right L36: the closing parenthesis after «II» is printed with a spur in the middle of its curve, like }; read ).",
+  "col_right L40, L42: the last e of «Lunae» and the e of «vae» are printed closed, like θ; read e.",
+  "col_right L43: a hairline stroke (2.3 by 0.6 points) above the z of «horizontis», 8.0-8.6 points above the baseline, is not transcribed; it is not a macron (the bars of this type are 1.0-1.3 points thick).",
+  "col_right L44: the ball at the end of the tail of the italic 9 of «*90-92*» stands apart from the figure (1.4 by 2.0 points, on the baseline); it is not a point.",
+  "col_right L46: a blot (3.6 by 2.3 points) over the n and the point of «lin.», 7.3-9.5 points above the baseline, is not transcribed."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": []
+  },
+  {
+   "role": "col_left",
+   "lines": [
+    {
+     "id": "AB01-PDF0844-col_left-L001",
+     "source_line_no": null,
+     "tex": "Luna, eius maxima latitudo \\textit{54}; tabulae lati-",
+     "transcription": "Luna, eius maxima latitudo *54*; tabulae lati-",
+     "semantic_anchor": "AB01-PDF0844-col_left-E01",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0844-col_left-L002",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}tudinis II, \\textit{78-83} (adn. 227); latitudo tabulis",
+     "transcription": "tudinis II, *78-83* (adn. 227); latitudo tabulis",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0844-col_left-L003",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}deducta \\textit{76}; argumentum latitudinis \\textit{76} (adn.",
+     "transcription": "deducta *76*; argumentum latitudinis *76* (adn.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0844-col_left-L004",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}250-251 et emend. \\textsc{lxxiv}) et II, 227; motus",
+     "transcription": "250-251 et emend. {sc:lxxiv}) et II, 227; motus",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0844-col_left-L005",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}latitudinis \\textit{50} (cfr. II, 229 n.); motus lat.",
+     "transcription": "latitudinis *50* (cfr. II, 229 n.); motus lat.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0844-col_left-L006",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}emendatus ab al-Battānī \\textit{54} (adn. 225).",
+     "transcription": "emendatus ab al-Battānī *54* (adn. 225).",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0844-col_left-L007",
+     "source_line_no": null,
+     "tex": "Luna, eius nodi \\textit{50} (adn. 250); motus nodi",
+     "transcription": "Luna, eius nodi *50* (adn. 250); motus nodi",
+     "semantic_anchor": "AB01-PDF0844-col_left-E02",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0844-col_left-L008",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}emendatus ab al-Battānī \\textit{54} (adn. 225-226);",
+     "transcription": "emendatus ab al-Battānī *54* (adn. 225-226);",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0844-col_left-L009",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}motus nodi borealis \\textit{75-76} (adn. 250, cfr.",
+     "transcription": "motus nodi borealis *75-76* (adn. 250, cfr.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0844-col_left-L010",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}\\textsc{xliii} lin. 5-6); quomodo in tabulis descriptus",
+     "transcription": "{sc:xliii} lin. 5-6); quomodo in tabulis descriptus",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0844-col_left-L011",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}II, 204; v. Lunae tabulae mediorum mo-",
+     "transcription": "II, 204; v. Lunae tabulae mediorum mo-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0844-col_left-L012",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}tuum.",
+     "transcription": "tuum.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0844-col_left-L013",
+     "source_line_no": null,
+     "tex": "Luna, motus longitudinis medius \\textit{50} lin. 36;",
+     "transcription": "Luna, motus longitudinis medius *50* lin. 36;",
+     "semantic_anchor": "AB01-PDF0844-col_left-E03",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0844-col_left-L014",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}a Ptolemaico diversus \\textit{54} (adn. 225-226);",
+     "transcription": "a Ptolemaico diversus *54* (adn. 225-226);",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0844-col_left-L015",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}acceleratio saecularis \\textsc{xxxix}-\\textsc{xl}; adhuc in-",
+     "transcription": "acceleratio saecularis {sc:xxxix}-{sc:xl}; adhuc in-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0844-col_left-L016",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}certa theoria motus 232-233; quomodo ab",
+     "transcription": "certa theoria motus 232-233; quomodo ab",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0844-col_left-L017",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}antiquis reperiebatur 225; in tabulis al-Bat-",
+     "transcription": "antiquis reperiebatur 225; in tabulis al-Bat-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0844-col_left-L018",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}tānī 18′ addidit \\textit{49} (adn. 222); longitudo vera",
+     "transcription": "tānī 18′ addidit *49* (adn. 222); longitudo vera",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0844-col_left-L019",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}a tabulis deducta \\textit{75} et II, 225; v. Lunae",
+     "transcription": "a tabulis deducta *75* et II, 225; v. Lunae",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0844-col_left-L020",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}tabulae mediorum motuum.",
+     "transcription": "tabulae mediorum motuum.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0844-col_left-L021",
+     "source_line_no": null,
+     "tex": "Luna, dupla elongatio a Sole medio [i. e. du-",
+     "transcription": "Luna, dupla elongatio a Sole medio [i. e. du-",
+     "semantic_anchor": "AB01-PDF0844-col_left-E04",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0844-col_left-L022",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}plus motus synodicus vel relativus] 50 n. 3,",
+     "transcription": "plus motus synodicus vel relativus] 50 n. 3,",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0844-col_left-L023",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}\\textit{53} lin. 3 (cfr. II, 225).",
+     "transcription": "*53* lin. 3 (cfr. II, 225).",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0844-col_left-L024",
+     "source_line_no": null,
+     "tex": "Luna, praecessio (\\textit{sabq}) inaequalis horaria re-",
+     "transcription": "Luna, praecessio (*sabq*) inaequalis horaria re-",
+     "semantic_anchor": "AB01-PDF0844-col_left-E05",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0844-col_left-L025",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}spectu Solis [i. e. motus synodicus vel re-",
+     "transcription": "spectu Solis [i. e. motus synodicus vel re-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0844-col_left-L026",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}lativus horarius verus] \\textit{94} lin. 3-12, 278;",
+     "transcription": "lativus horarius verus] *94* lin. 3-12, 278;",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0844-col_left-L027",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}eius supputatio \\textit{150} (adn. 273 et 327); ta-",
+     "transcription": "eius supputatio *150* (adn. 273 et 327); ta-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0844-col_left-L028",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}bella II, 88 (adn. 231).",
+     "transcription": "bella II, 88 (adn. 231).",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0844-col_left-L029",
+     "source_line_no": null,
+     "tex": "Luna, motus synodicus vel relativus v. Lunae",
+     "transcription": "Luna, motus synodicus vel relativus v. Lunae",
+     "semantic_anchor": "AB01-PDF0844-col_left-E06",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0844-col_left-L030",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}dupla elongatio, Lunae praecessio.",
+     "transcription": "dupla elongatio, Lunae praecessio.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0844-col_left-L031",
+     "source_line_no": null,
+     "tex": "Luna, tabulae mediorum motuum longitudinis,",
+     "transcription": "Luna, tabulae mediorum motuum longitudinis,",
+     "semantic_anchor": "AB01-PDF0844-col_left-E07",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0844-col_left-L032",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}anomaliae et nodi borealis, ad calendarium",
+     "transcription": "anomaliae et nodi borealis, ad calendarium",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0844-col_left-L033",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}Arabicum II, \\textit{19-23} (adn. 203-204); ad ca-",
+     "transcription": "Arabicum II, *19-23* (adn. 203-204); ad ca-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0844-col_left-L034",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}lendarium Romanum aerae Dhū ’l-qarnayn",
+     "transcription": "lendarium Romanum aerae Dhū ’l-qarnayn",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0844-col_left-L035",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}II, \\textit{72-77} (adn. 222-223); annis tropicis II,",
+     "transcription": "II, *72-77* (adn. 222-223); annis tropicis II,",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0844-col_left-L036",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}\\textit{187} (adn. 295); in motibus e tabulis eli-",
+     "transcription": "*187* (adn. 295); in motibus e tabulis eli-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0844-col_left-L037",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}ciendis aequatio temporis negligi non potest",
+     "transcription": "ciendis aequatio temporis negligi non potest",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0844-col_left-L038",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}\\textit{49} lin. 1-3.",
+     "transcription": "*49* lin. 1-3.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0844-col_left-L039",
+     "source_line_no": null,
+     "tex": "Luna, inaequalitates eius motus et aequatio-",
+     "transcription": "Luna, inaequalitates eius motus et aequatio-",
+     "semantic_anchor": "AB01-PDF0844-col_left-E08",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0844-col_left-L040",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}nes \\textit{50-54} et II, 223-225; inaequalitas sim-",
+     "transcription": "nes *50-54* et II, 223-225; inaequalitas sim-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0844-col_left-L041",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}plex seu prima \\textit{50}, \\textit{51} et II, 223; inaequa-",
+     "transcription": "plex seu prima *50*, *51* et II, 223; inaequa-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0844-col_left-L042",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}litas altera \\textit{50}, \\textit{51}, \\textit{52} et II, 225; effectus",
+     "transcription": "litas altera *50*, *51*, *52* et II, 225; effectus",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0844-col_left-L043",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}ambarum inaequalitatum supputatus et ta-",
+     "transcription": "ambarum inaequalitatum supputatus et ta-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0844-col_left-L044",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}bulis descriptus \\textit{52-54} et II, 223-225; ae-",
+     "transcription": "bulis descriptus *52-54* et II, 223-225; ae-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0844-col_left-L045",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}quatio simplex \\textit{47-48}, \\textit{51-52} (adn. 224) et",
+     "transcription": "quatio simplex *47-48*, *51-52* (adn. 224) et",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0844-col_left-L046",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}II, 223-224; aeq. simplex tempore syzygia-",
+     "transcription": "II, 223-224; aeq. simplex tempore syzygia-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    }
+   ]
+  },
+  {
+   "role": "col_right",
+   "lines": [
+    {
+     "id": "AB01-PDF0844-col_right-L001",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}rum apparet \\textit{51} lin. 33 sqq.; sinus aequa-",
+     "transcription": "rum apparet *51* lin. 33 sqq.; sinus aequa-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0844-col_right-L002",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}tionis simplicis est semidiametrus epicycli",
+     "transcription": "tionis simplicis est semidiametrus epicycli",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0844-col_right-L003",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}v. epicyclus; aequatio anomaliae [seu pro-",
+     "transcription": "v. epicyclus; aequatio anomaliae [seu pro-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0844-col_right-L004",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}sneusis epicycli Lunae] II, 224-225 (cfr. \\textit{54});",
+     "transcription": "sneusis epicycli Lunae] II, 224-225 (cfr. *54*);",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0844-col_right-L005",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}aequatio composita seu tota \\textit{75} et II, 225;",
+     "transcription": "aequatio composita seu tota *75* et II, 225;",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0844-col_right-L006",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}evectio 224; evectionis duplum est secunda",
+     "transcription": "evectio 224; evectionis duplum est secunda",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0844-col_right-L007",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}inaequalitas veterum II, 225; evectionis cal-",
+     "transcription": "inaequalitas veterum II, 225; evectionis cal-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0844-col_right-L008",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}culus in coniunctionibus 273-274; tertia",
+     "transcription": "culus in coniunctionibus 273-274; tertia",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0844-col_right-L009",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}inaequalitas seu variatio est duplum circiter",
+     "transcription": "inaequalitas seu variatio est duplum circiter",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0844-col_right-L010",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}aequationis anomaliae (seu prosneusis epicy-",
+     "transcription": "aequationis anomaliae (seu prosneusis epicy-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0844-col_right-L011",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}cli) 224 et II, 225 n.; tabulae aequationum",
+     "transcription": "cli) 224 et II, 225 n.; tabulae aequationum",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0844-col_right-L012",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}II, \\textit{78-83} (adn. 223-227).",
+     "transcription": "II, *78-83* (adn. 223-227).",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0844-col_right-L013",
+     "source_line_no": null,
+     "tex": "Luna, eius motus inaequalis horarius v. Lunae",
+     "transcription": "Luna, eius motus inaequalis horarius v. Lunae",
+     "semantic_anchor": "AB01-PDF0844-col_right-E01",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0844-col_right-L014",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}praecessio.",
+     "transcription": "praecessio.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0844-col_right-L015",
+     "source_line_no": null,
+     "tex": "Luna, eius vis luminis in applicationibus \\textit{130}",
+     "transcription": "Luna, eius vis luminis in applicationibus *130*",
+     "semantic_anchor": "AB01-PDF0844-col_right-E02",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0844-col_right-L016",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}(adn. 305-306).",
+     "transcription": "(adn. 305-306).",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0844-col_right-L017",
+     "source_line_no": null,
+     "tex": "Luna, v. altitudo; azimuth Lunae; distantia",
+     "transcription": "Luna, v. altitudo; azimuth Lunae; distantia",
+     "semantic_anchor": "AB01-PDF0844-col_right-E03",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0844-col_right-L018",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}Lunae a centro Terrae; distantia zenithalis",
+     "transcription": "Lunae a centro Terrae; distantia zenithalis",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0844-col_right-L019",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}Lunae; eclipses; stationes; syzygiae.",
+     "transcription": "Lunae; eclipses; stationes; syzygiae.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0844-col_right-L020",
+     "source_line_no": null,
+     "tex": "Luna nova, doctrina eius apparitionis \\textit{85-92}",
+     "transcription": "Luna nova, doctrina eius apparitionis *85-92*",
+     "semantic_anchor": "AB01-PDF0844-col_right-E04",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0844-col_right-L021",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}(adn. 265-272); cur cognitio eius apparitionis",
+     "transcription": "(adn. 265-272); cur cognitio eius apparitionis",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0844-col_right-L022",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}difficilis \\textit{85-86}; vulgares de eius apparitione",
+     "transcription": "difficilis *85-86*; vulgares de eius apparitione",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0844-col_right-L023",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}errores \\textit{86} lin. 2-8 (adn. 266); cur Arabibus",
+     "transcription": "errores *86* lin. 2-8 (adn. 266); cur Arabibus",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0844-col_right-L024",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}et Muslimis eius cognitio necessaria \\textit{85} (adn.",
+     "transcription": "et Muslimis eius cognitio necessaria *85* (adn.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0844-col_right-L025",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}265-266 cum add. \\textsc{lxxv} et II, \\textsc{xvii}); Lunae",
+     "transcription": "265-266 cum add. {sc:lxxv} et II, {sc:xvii}); Lunae",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0844-col_right-L026",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}novae nuncium apud Iudaeos \\textsc{lxxv}; novi-",
+     "transcription": "novae nuncium apud Iudaeos {sc:lxxv}; novi-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0844-col_right-L027",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}lunii visio incerta apud Muslimos 265-266",
+     "transcription": "lunii visio incerta apud Muslimos 265-266",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0844-col_right-L028",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}(add. \\textsc{lxxv} et II, \\textsc{xvii}); cur ab antiquis no-",
+     "transcription": "(add. {sc:lxxv} et II, {sc:xvii}); cur ab antiquis no-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0844-col_right-L029",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}vilunii doctrina neglecta \\textit{86} lin. 8-11; ve-",
+     "transcription": "vilunii doctrina neglecta *86* lin. 8-11; ve-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0844-col_right-L030",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}terum opinio \\textit{86} lin. 11-13, \\textit{88} lin. 1-3;",
+     "transcription": "terum opinio *86* lin. 11-13, *88* lin. 1-3;",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0844-col_right-L031",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}Albatenii doctrina apparitionum vespertina-",
+     "transcription": "Albatenii doctrina apparitionum vespertina-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0844-col_right-L032",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}rum Lunae novae \\textit{86-87} (adn. 266-268);",
+     "transcription": "rum Lunae novae *86-87* (adn. 266-268);",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0844-col_right-L033",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}Albatenii doctrina ab al-Khāzinī exposita 269-",
+     "transcription": "Albatenii doctrina ab al-Khāzinī exposita 269-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0844-col_right-L034",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}270; aliorum doctrinae 268-269, 270-271;",
+     "transcription": "270; aliorum doctrinae 268-269, 270-271;",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0844-col_right-L035",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}arcus medius apparitionis ab al-Battānī con-",
+     "transcription": "arcus medius apparitionis ab al-Battānī con-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0844-col_right-L036",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}stitutus \\textit{86} (adn. 266-267 nr. I et II); arcus",
+     "transcription": "stitutus *86* (adn. 266-267 nr. I et II); arcus",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0844-col_right-L037",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}apparitionis duplici ratione aequatus \\textit{87} (adn.",
+     "transcription": "apparitionis duplici ratione aequatus *87* (adn.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0844-col_right-L038",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}267-268), \\textit{88} (adn. 271); arcus aequatorialis",
+     "transcription": "267-268), *88* (adn. 271); arcus aequatorialis",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0844-col_right-L039",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}apparitionis \\textit{88} lin. 5-6; apparitio matutina",
+     "transcription": "apparitionis *88* lin. 5-6; apparitio matutina",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0844-col_right-L040",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}in fine mensis \\textit{89}; falx Lunae visibilis 266-",
+     "transcription": "in fine mensis *89*; falx Lunae visibilis 266-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0844-col_right-L041",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}267, 268, 271; fusus 271; imago Lunae no-",
+     "transcription": "267, 268, 271; fusus 271; imago Lunae no-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0844-col_right-L042",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}vae delineata \\textit{89-90} (adn. 271); cornuum",
+     "transcription": "vae delineata *89-90* (adn. 271); cornuum",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0844-col_right-L043",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}directio in horizonte \\textit{90}; ex quo horizontis",
+     "transcription": "directio in horizonte *90*; ex quo horizontis",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0844-col_right-L044",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}puncto apparebit \\textit{90-92} (adn. 271-272);",
+     "transcription": "puncto apparebit *90-92* (adn. 271-272);",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0844-col_right-L045",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}quamdiu radii Solis post occasum impediant",
+     "transcription": "quamdiu radii Solis post occasum impediant",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0844-col_right-L046",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}visionem \\textit{90} lin. 32-33.",
+     "transcription": "visionem *90* lin. 32-33.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    }
+   ]
+  }
+ ]
+}
