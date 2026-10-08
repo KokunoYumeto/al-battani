@@ -61,8 +61,11 @@ Transcription format (UTF-8; one printed line per source line, as printed, with 
   @figl FILE | TEXT      a figure set at the left margin (a table head drawn to the columns of @cols); TEXT,
                          the transcription of its printed text, is kept in the record
   @colL / @colR          the left / the right column of the index on this page (each with its @baselines); in the
-                         columns + is the first line of an entry and > a continuation line, indented 10 PDF points
+                         columns + is the first line of an entry and > a continuation line, indented 10.7 PDF points
                          as printed
+  @endrule Y W T         the short rule under the columns that closes an index (p. 372): its middle at Y, W long and
+                         T thick (PDF points, measured on the scan), centred, at its printed distance below the last
+                         line of the longer column
   @notes                 the footnotes follow, left column; @col switches to the right column (a thin rule is set
                          between the two columns, as printed); @notes1 one column
   @baselines Y1 Y2 ...   the printed baselines (PDF points, measured on the scan) of the lines that follow in this
@@ -275,7 +278,8 @@ def parse(path):
     lines = path.read_text(encoding="utf-8").split("\n")
     m = re.match(r"@page (\d+) (\d+)", lines[0])
     rec = {"pdf": int(m.group(1)), "pp": int(m.group(2)), "body": [], "notes_left": [], "notes_right": [],
-           "notes": [], "col_left": [], "col_right": [], "sig": "", "blank": False, "obs": [], "noterule": None}
+           "notes": [], "col_left": [], "col_right": [], "sig": "", "blank": False, "obs": [], "noterule": None,
+           "endrule": None}
     part, raw = "body", None
     for ln in lines[1:]:
         if raw is not None:
@@ -302,6 +306,8 @@ def parse(path):
                 rec["blank"] = True
             elif cmd == "@noterule":
                 rec["noterule"] = float(arg)
+            elif cmd == "@endrule":
+                rec["endrule"] = tuple(float(v) for v in arg.split())
             elif cmd in ("@baselines", "@title", "@center", "@vspace", "@rule", "@rule2", "@verse", "@calc", "@calcrule",
                          "@calcset", "@cols", "@row", "@rowrule", "@mcols", "@mcnext", "@mcend", "@chead", "@skip",
                          "@small", "@normal", "@rowgap", "@hrule", "@wrap", "@wrapr", "@endwrap", "@brace", "@pos",
@@ -1034,6 +1040,15 @@ def page(rec):
             tex, crecs = section(rec[role], prefix, role, False)
             out += tex + [r"\end{minipage}"]
             sections.append({"role": role, "lines": crecs})
+    # the short rule that closes an index (p. 372): the line of the two columns is as deep as the longer column, down
+    # to the depth of the strut of its last line (.3 of the leading of the columns); the rule is set below it at its
+    # printed distance, without interline glue, centred on the text
+    if rec["endrule"]:
+        y, w, t = rec["endrule"]
+        last = max(b[-1] for b in (baselines_of(rec[r]) for r in ("col_left", "col_right")) if b)
+        gap = (y - t / 2 - last) * BP - .3 * LEADING["col_left"]
+        out.append(r"\par\nointerlineskip\vspace{" + f"{gap:.2f}" + r"pt}\hbox to\textwidth{\hss\vrule width "
+                   + f"{w * BP:.2f}pt height {t * BP:.2f}" + r"pt depth0pt\hss}\prevdepth=-1000pt ")
     # the rule over the footnotes: 6 pt below the text and 5 pt above the notes, or, with @noterule Y and @baselines
     # in the text and the notes, at its printed distance from the last line of the text and from the first note
     # (the last line of the text has the depth of the strut, 4.14 pt; the first note the height of the strut of the
