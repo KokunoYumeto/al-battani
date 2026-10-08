@@ -1,0 +1,781 @@
+{
+ "anchor": "AB01-PDF0837",
+ "master_pdf_page": 837,
+ "printed_page": 388,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "observations": [
+  "col_left L1: «geuzahar» is printed in roman type, not in italics.",
+  "col_left L3: the hyphen of «al-Ghazālī» is printed as a point at mid height; the last i has a bar (1.9 by 1.0 points), measured with macron_audit.py.",
+  "col_left L12: the marks over the i of «ad-dīn», «Ǵamshīd» and «al-Kāshī» are bars (2.3-2.4 by 1.0-1.3 points); the i of «Ghiyāth» is dotted.",
+  "col_left L14: «*al-ghumayṣā’*» has the dot under the s and ends with the sign of hamza; «α» is Greek.",
+  "col_left L15, R14: «*ǵīb*» and «*ǵuwīrāst*» are printed with ǵ, Nallino's sign for jīm; the ī of «*ǵīb*» has its bar (3.6 by 1.2 points).",
+  "col_left L19: the last i of «tānī» has a bar (1.9 by 1.0 points).",
+  "col_left L28, L29: «‘Arīb» begins with the sign of ‘ayn and has a bar over the i; «aṭ-» and «Ṭabarī» have the dots under the t and the T.",
+  "col_left L34: «γωνία» is Greek, with the acute on the ι.",
+  "col_left L34: a speck (0.6 by 1.0 point) to the right of «248.», near the column rule, is not transcribed.",
+  "col_left L37: the hyphen of «{sc:lxx}-{sc:lxxi}» is printed as a point at mid height.",
+  "col_left L39: the second 3 of «339» is printed broken, the tip of its middle stroke apart from the figure.",
+  "col_left L41: a speck (0.4 by 0.6 point) on the baseline between «terrestris» and «*19*» is not transcribed.",
+  "col_left L45: «Dhū’l-» is printed with the sign of hamza between ū and l, without a space.",
+  "col_left L46, col_right L1: the entry Graeci goes on at the head of the right column.",
+  "col_right L1: a speck above the 3 of «23» is not transcribed.",
+  "col_right L3: the hyphen at the end of «Pto-» is printed as a point at mid height.",
+  "col_right L14, L15: a blank line separates the names in G from those in Ḥ.",
+  "col_right L15: the H of «Ḥabash» has its dot below; the last numeral is printed {sc:xlviii} with the second I broken, a spur at its top.",
+  "col_right L16: a speck (1.1 by 0.7 points) under the V of «{sc:lxvi}», 1.6-2.3 points below the baseline, is not transcribed.",
+  "col_right L27: a speck (0.6 by 0.5 point) under «335», 3.5 points below the baseline, is not transcribed.",
+  "col_right L31: «*ḥadd*» and «*ḥudūd*» have the dots under the italic h's.",
+  "col_right L33, L35: «al-Ḥaǵǵāǵ» and «Ḥāǵǵī» are printed with Ḥ and ǵ; «Maṭar» has the dot under the t; the bars of «Ḥāǵǵī» and «Khalīfah» are measured (2.0-2.3 by 1.0 points).",
+  "col_right L44, L45: «‘Alī», «Riḍwān» and «al-Hamdānī» are printed with the sign of ‘ayn, the dot under the d and the bars over the last i (2.0-2.4 by 1.0-1.3 points)."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": []
+  },
+  {
+   "role": "col_left",
+   "lines": [
+    {
+     "id": "AB01-PDF0837-col_left-L001",
+     "source_line_no": null,
+     "tex": "geuzahar 250.",
+     "transcription": "geuzahar 250.",
+     "semantic_anchor": "AB01-PDF0837-col_left-E01",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0837-col_left-L002",
+     "source_line_no": null,
+     "tex": "\\textit{al-ghafr} \\textit{125} (adn. 296).",
+     "transcription": "*al-ghafr* *125* (adn. 296).",
+     "semantic_anchor": "AB01-PDF0837-col_left-E02",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0837-col_left-L003",
+     "source_line_no": null,
+     "tex": "al-Ghazālī 266 n.; II, 336.",
+     "transcription": "al-Ghazālī 266 n.; II, 336.",
+     "semantic_anchor": "AB01-PDF0837-col_left-E03",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0837-col_left-L004",
+     "source_line_no": null,
+     "tex": "Ghazarian M. II, 370.",
+     "transcription": "Ghazarian M. II, 370.",
+     "semantic_anchor": "AB01-PDF0837-col_left-E04",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0837-col_left-L005",
+     "source_line_no": null,
+     "tex": "Gherardus Cremonensis \\textsc{xxxi} n. 1, \\textsc{xliv} n. 4,",
+     "transcription": "Gherardus Cremonensis {sc:xxxi} n. 1, {sc:xliv} n. 4,",
+     "semantic_anchor": "AB01-PDF0837-col_left-E05",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0837-col_left-L006",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}\\textsc{lxxviii} (cfr. Geminus), 155, 156 n. 1, 252",
+     "transcription": "{sc:lxxviii} (cfr. Geminus), 155, 156 n. 1, 252",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0837-col_left-L007",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}n., 282, 310; II, \\textsc{xix} n., 219 n., 220, 226,",
+     "transcription": "n., 282, 310; II, {sc:xix} n., 219 n., 220, 226,",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0837-col_left-L008",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}233 n., 266, 272 n., 273, 280, 283-287, 331",
+     "transcription": "233 n., 266, 272 n., 273, 280, 283-287, 331",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0837-col_left-L009",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}n.; cfr. Liechtenstein.",
+     "transcription": "n.; cfr. Liechtenstein.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0837-col_left-L010",
+     "source_line_no": null,
+     "tex": "Gherardus a Sabloneta \\textsc{xxxv}, \\textsc{xxxvi} n. 1 (cfr.",
+     "transcription": "Gherardus a Sabloneta {sc:xxxv}, {sc:xxxvi} n. 1 (cfr.",
+     "semantic_anchor": "AB01-PDF0837-col_left-E06",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0837-col_left-L011",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}II, \\textsc{xvi}-\\textsc{xvii}), \\textsc{lxxviii}.",
+     "transcription": "II, {sc:xvi}-{sc:xvii}), {sc:lxxviii}.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0837-col_left-L012",
+     "source_line_no": null,
+     "tex": "Ghiyāth ad-dīn Ǵamshīd al-Kāshī 154 (de eius",
+     "transcription": "Ghiyāth ad-dīn Ǵamshīd al-Kāshī 154 (de eius",
+     "semantic_anchor": "AB01-PDF0837-col_left-E07",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0837-col_left-L013",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}aetate n. 1).",
+     "transcription": "aetate n. 1).",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0837-col_left-L014",
+     "source_line_no": null,
+     "tex": "\\textit{al-ghumayṣā’}, \\textgreek{α} Canis minoris II, 283 (ex Vh.).",
+     "transcription": "*al-ghumayṣā’*, α Canis minoris II, 283 (ex Vh.).",
+     "semantic_anchor": "AB01-PDF0837-col_left-E08",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0837-col_left-L015",
+     "source_line_no": null,
+     "tex": "\\textit{ǵīb} 155.",
+     "transcription": "*ǵīb* 155.",
+     "semantic_anchor": "AB01-PDF0837-col_left-E09",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0837-col_left-L016",
+     "source_line_no": null,
+     "tex": "Ginzel F. K. 55 n., 233, 297 n. 6; II, 354 n.",
+     "transcription": "Ginzel F. K. 55 n., 233, 297 n. 6; II, 354 n.",
+     "semantic_anchor": "AB01-PDF0837-col_left-E10",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0837-col_left-L017",
+     "source_line_no": null,
+     "tex": "Glaser Ed. II, 37, 44, 51.",
+     "transcription": "Glaser Ed. II, 37, 44, 51.",
+     "semantic_anchor": "AB01-PDF0837-col_left-E11",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0837-col_left-L018",
+     "source_line_no": null,
+     "tex": "globus caelestis, armillis instructus, ab al-Bat-",
+     "transcription": "globus caelestis, armillis instructus, ab al-Bat-",
+     "semantic_anchor": "AB01-PDF0837-col_left-E12",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0837-col_left-L019",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}tānī invento \\textit{139-142} (adn. 319-321).",
+     "transcription": "tānī invento *139-142* (adn. 319-321).",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0837-col_left-L020",
+     "source_line_no": null,
+     "tex": "\\textit{Glossarium Arabico-Latinum} 291 n. 1.",
+     "transcription": "*Glossarium Arabico-Latinum* 291 n. 1.",
+     "semantic_anchor": "AB01-PDF0837-col_left-E13",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0837-col_left-L021",
+     "source_line_no": null,
+     "tex": "gnomon (\\textit{miqyās}), quomodo divisus \\textit{22}, \\textit{23}",
+     "transcription": "gnomon (*miqyās*), quomodo divisus *22*, *23*",
+     "semantic_anchor": "AB01-PDF0837-col_left-E14",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0837-col_left-L022",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}(adn. 182 et \\textsc{xlvii}); eius umbra \\textit{29} lin. 40,",
+     "transcription": "(adn. 182 et {sc:xlvii}); eius umbra *29* lin. 40,",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0837-col_left-L023",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}\\textit{30} lin. 27; indicat umbram superioris limbi",
+     "transcription": "*30* lin. 27; indicat umbram superioris limbi",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0837-col_left-L024",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}disci solaris 182; v. umbra.",
+     "transcription": "disci solaris 182; v. umbra.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0837-col_left-L025",
+     "source_line_no": null,
+     "tex": "Gnostici \\textsc{xv}, 250.",
+     "transcription": "Gnostici {sc:xv}, 250.",
+     "semantic_anchor": "AB01-PDF0837-col_left-E15",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0837-col_left-L026",
+     "source_line_no": null,
+     "tex": "de Goeje M. J. 170 n. 8, 171 n. 3, 176 bis",
+     "transcription": "de Goeje M. J. 170 n. 8, 171 n. 3, 176 bis",
+     "semantic_anchor": "AB01-PDF0837-col_left-E16",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0837-col_left-L027",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}(cfr. add. II, \\textsc{xxiii}-\\textsc{xxiv}); II, \\textsc{xxix}, 49 n.,",
+     "transcription": "(cfr. add. II, {sc:xxiii}-{sc:xxiv}); II, {sc:xxix}, 49 n.,",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0837-col_left-L028",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}51 bis, 195 bis. Cfr. ‘Arīb (glossarium), aṭ-",
+     "transcription": "51 bis, 195 bis. Cfr. ‘Arīb (glossarium), aṭ-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0837-col_left-L029",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}Ṭabarī (glossarium).",
+     "transcription": "Ṭabarī (glossarium).",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0837-col_left-L030",
+     "source_line_no": null,
+     "tex": "Goldschmidt L. II, 193 n.",
+     "transcription": "Goldschmidt L. II, 193 n.",
+     "semantic_anchor": "AB01-PDF0837-col_left-E17",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0837-col_left-L031",
+     "source_line_no": null,
+     "tex": "Goldziher I. \\textsc{xliii} n. 5, \\textsc{xliv} n. 1, 208 n. 1;",
+     "transcription": "Goldziher I. {sc:xliii} n. 5, {sc:xliv} n. 1, 208 n. 1;",
+     "semantic_anchor": "AB01-PDF0837-col_left-E18",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0837-col_left-L032",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}II, 49, 50 n. (ubi l. 1900).",
+     "transcription": "II, 49, 50 n. (ubi l. 1900).",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0837-col_left-L033",
+     "source_line_no": null,
+     "tex": "Golius J. 45 n. 3, em. 221 n. 1; II, 351.",
+     "transcription": "Golius J. 45 n. 3, em. 221 n. 1; II, 351.",
+     "semantic_anchor": "AB01-PDF0837-col_left-E19",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0837-col_left-L034",
+     "source_line_no": null,
+     "tex": "\\textgreek{γωνία} i. q. paxillus 248.",
+     "transcription": "γωνία i. q. paxillus 248.",
+     "semantic_anchor": "AB01-PDF0837-col_left-E20",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0837-col_left-L035",
+     "source_line_no": null,
+     "tex": "Gosselin II, 52.",
+     "transcription": "Gosselin II, 52.",
+     "semantic_anchor": "AB01-PDF0837-col_left-E21",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0837-col_left-L036",
+     "source_line_no": null,
+     "tex": "gradus circuli \\textit{6}; eius partes sexagesimae \\textit{6-8}",
+     "transcription": "gradus circuli *6*; eius partes sexagesimae *6-8*",
+     "semantic_anchor": "AB01-PDF0837-col_left-E22",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0837-col_left-L037",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}(emend. \\textsc{lxx}-\\textsc{lxxi}).",
+     "transcription": "(emend. {sc:lxx}-{sc:lxxi}).",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0837-col_left-L038",
+     "source_line_no": null,
+     "tex": "gradus aequales seu aequalitatis \\textit{28} et n. 3;",
+     "transcription": "gradus aequales seu aequalitatis *28* et n. 3;",
+     "semantic_anchor": "AB01-PDF0837-col_left-E23",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0837-col_left-L039",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}II, 339.",
+     "transcription": "II, 339.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0837-col_left-L040",
+     "source_line_no": null,
+     "tex": "gradus in quo stella est = longitudo stellae.",
+     "transcription": "gradus in quo stella est = longitudo stellae.",
+     "semantic_anchor": "AB01-PDF0837-col_left-E24",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0837-col_left-L041",
+     "source_line_no": null,
+     "tex": "gradus meridiani terrestris \\textit{19} (adn. 164-165).",
+     "transcription": "gradus meridiani terrestris *19* (adn. 164-165).",
+     "semantic_anchor": "AB01-PDF0837-col_left-E25",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0837-col_left-L042",
+     "source_line_no": null,
+     "tex": "gradus se mutuo intuentes et aequipollentes",
+     "transcription": "gradus se mutuo intuentes et aequipollentes",
+     "semantic_anchor": "AB01-PDF0837-col_left-E26",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0837-col_left-L043",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}\\textit{130} lin. 16-22; imperantes vel sublimes,",
+     "transcription": "*130* lin. 16-22; imperantes vel sublimes,",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0837-col_left-L044",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}obedientes vel humiles \\textit{130} lin. 23-28.",
+     "transcription": "obedientes vel humiles *130* lin. 23-28.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0837-col_left-L045",
+     "source_line_no": null,
+     "tex": "Graeci (\\textit{yūnāniyyūn}) Aegyptii annis Dhū’l-",
+     "transcription": "Graeci (*yūnāniyyūn*) Aegyptii annis Dhū’l-",
+     "semantic_anchor": "AB01-PDF0837-col_left-E27",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0837-col_left-L046",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}qarnayn utuntur a 1 Sept. ordientibus \\textit{67}",
+     "transcription": "qarnayn utuntur a 1 Sept. ordientibus *67*",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    }
+   ]
+  },
+  {
+   "role": "col_right",
+   "lines": [
+    {
+     "id": "AB01-PDF0837-col_right-L001",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}lin. 1-7, \\textit{68} lin. 3 sqq. et 23, \\textit{69} lin. 14",
+     "transcription": "lin. 1-7, *68* lin. 3 sqq. et 23, *69* lin. 14",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0837-col_right-L002",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}et 33 sqq., \\textit{93} lin. 6, 244-245.",
+     "transcription": "et 33 sqq., *93* lin. 6, 244-245.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0837-col_right-L003",
+     "source_line_no": null,
+     "tex": "Graeca astronomia Chaldaeo-hellenistica, a Pto-",
+     "transcription": "Graeca astronomia Chaldaeo-hellenistica, a Pto-",
+     "semantic_anchor": "AB01-PDF0837-col_right-E01",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0837-col_right-L004",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}lemaica diversa 208-209.",
+     "transcription": "lemaica diversa 208-209.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0837-col_right-L005",
+     "source_line_no": null,
+     "tex": "Graffin II, \\textsc{vii}.",
+     "transcription": "Graffin II, {sc:vii}.",
+     "semantic_anchor": "AB01-PDF0837-col_right-E02",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0837-col_right-L006",
+     "source_line_no": null,
+     "tex": "grammaticae Arabicae res II, 319-321.",
+     "transcription": "grammaticae Arabicae res II, 319-321.",
+     "semantic_anchor": "AB01-PDF0837-col_right-E03",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0837-col_right-L007",
+     "source_line_no": null,
+     "tex": "Griffini E. II, \\textsc{xx} bis, 235.",
+     "transcription": "Griffini E. II, {sc:xx} bis, 235.",
+     "semantic_anchor": "AB01-PDF0837-col_right-E04",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0837-col_right-L008",
+     "source_line_no": null,
+     "tex": "Grynaeus Sim. II, 271.",
+     "transcription": "Grynaeus Sim. II, 271.",
+     "semantic_anchor": "AB01-PDF0837-col_right-E05",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0837-col_right-L009",
+     "source_line_no": null,
+     "tex": "Guidi I. II, \\textsc{xxx}, 192 n., 195 plur.",
+     "transcription": "Guidi I. II, {sc:xxx}, 192 n., 195 plur.",
+     "semantic_anchor": "AB01-PDF0837-col_right-E06",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0837-col_right-L010",
+     "source_line_no": null,
+     "tex": "Guilielmus Alvernus \\textsc{xxxv}.",
+     "transcription": "Guilielmus Alvernus {sc:xxxv}.",
+     "semantic_anchor": "AB01-PDF0837-col_right-E07",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0837-col_right-L011",
+     "source_line_no": null,
+     "tex": "Günther S. 203 (em.), 272 (add. \\textsc{lxxv} et II,",
+     "transcription": "Günther S. 203 (em.), 272 (add. {sc:lxxv} et II,",
+     "semantic_anchor": "AB01-PDF0837-col_right-E08",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0837-col_right-L012",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}\\textsc{xviii}).",
+     "transcription": "{sc:xviii}).",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0837-col_right-L013",
+     "source_line_no": null,
+     "tex": "von Gutschmid A. 207.",
+     "transcription": "von Gutschmid A. 207.",
+     "semantic_anchor": "AB01-PDF0837-col_right-E09",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0837-col_right-L014",
+     "source_line_no": null,
+     "tex": "\\textit{ǵuwīrāst}, loco spurio \\textit{149} (adn. 325).",
+     "transcription": "*ǵuwīrāst*, loco spurio *149* (adn. 325).",
+     "semantic_anchor": "AB01-PDF0837-col_right-E10",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0837-col_right-L015",
+     "source_line_no": null,
+     "tex": "Ḥabash \\textsc{xxxii} n. 3, \\textsc{xxxiii} n. 2, \\textsc{xlv}, \\textsc{xlviii},",
+     "transcription": "Ḥabash {sc:xxxii} n. 3, {sc:xxxiii} n. 2, {sc:xlv}, {sc:xlviii},",
+     "semantic_anchor": "AB01-PDF0837-col_right-E11",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0837-col_right-L016",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}eius aetas \\textsc{lxvi}; — 67 n., 155, 156 bis, 159,",
+     "transcription": "eius aetas {sc:lxvi}; — 67 n., 155, 156 bis, 159,",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0837-col_right-L017",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}163 (et emend. II, \\textsc{xxiv}), 164, 178; eius tri-",
+     "transcription": "163 (et emend. II, {sc:xxiv}), 164, 178; eius tri-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0837-col_right-L018",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}gonometria 182; — 184, 186-187, 189 (et",
+     "transcription": "gonometria 182; — 184, 186-187, 189 (et",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0837-col_right-L019",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}emend. II, \\textsc{xxiv}), 190, 192, 210 quater, 214,",
+     "transcription": "emend. II, {sc:xxiv}), 190, 192, 210 quater, 214,",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0837-col_right-L020",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}219, 221, 222, 224, 226, 239, 241 n., 242,",
+     "transcription": "219, 221, 222, 224, 226, 239, 241 n., 242,",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0837-col_right-L021",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}243, 244, 245, 248, 249, 266 (et n. 3);",
+     "transcription": "243, 244, 245, 248, 249, 266 (et n. 3);",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0837-col_right-L022",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}doctrina novilunii 268-269; — 269, 281,",
+     "transcription": "doctrina novilunii 268-269; — 269, 281,",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0837-col_right-L023",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}284, 292 bis, 299 et n. 3, 303, 311, 319,",
+     "transcription": "284, 292 bis, 299 et n. 3, 303, 311, 319,",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0837-col_right-L024",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}323 ter; II, \\textsc{xi}, 42, epocha hegirae 199-200;",
+     "transcription": "323 ter; II, {sc:xi}, 42, epocha hegirae 199-200;",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0837-col_right-L025",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}— 201 n., 209 bis, 238, 258, 262-265, 266,",
+     "transcription": "— 201 n., 209 bis, 238, 258, 262-265, 266,",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0837-col_right-L026",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}320 n., 321, 323, 324 bis, 327, 328, 330,",
+     "transcription": "320 n., 321, 323, 324 bis, 327, 328, 330,",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0837-col_right-L027",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}332, 333 bis, 335 ter, 336, 337 n., 339,",
+     "transcription": "332, 333 bis, 335 ter, 336, 337 n., 339,",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0837-col_right-L028",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}341, 342 et n., 343 bis, 344, 348, 350 ter,",
+     "transcription": "341, 342 et n., 343 bis, 344, 348, 350 ter,",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0837-col_right-L029",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}351, 353, 354, 358.",
+     "transcription": "351, 353, 354, 358.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0837-col_right-L030",
+     "source_line_no": null,
+     "tex": "Habenicht H. II, 38.",
+     "transcription": "Habenicht H. II, 38.",
+     "semantic_anchor": "AB01-PDF0837-col_right-E12",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0837-col_right-L031",
+     "source_line_no": null,
+     "tex": "\\textit{ḥadd} plur. \\textit{ḥudūd} v. termini.",
+     "transcription": "*ḥadd* plur. *ḥudūd* v. termini.",
+     "semantic_anchor": "AB01-PDF0837-col_right-E13",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0837-col_right-L032",
+     "source_line_no": null,
+     "tex": "Haebler Al. II, 254-255 (em.).",
+     "transcription": "Haebler Al. II, 254-255 (em.).",
+     "semantic_anchor": "AB01-PDF0837-col_right-E14",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0837-col_right-L033",
+     "source_line_no": null,
+     "tex": "al-Ḥaǵǵāǵ b. Yūsuf b. Maṭar II, \\textsc{viii} n., 266,",
+     "transcription": "al-Ḥaǵǵāǵ b. Yūsuf b. Maṭar II, {sc:viii} n., 266,",
+     "semantic_anchor": "AB01-PDF0837-col_right-E15",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0837-col_right-L034",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}283, 284, 286, 287, 331 bis, 349 n.",
+     "transcription": "283, 284, 286, 287, 331 bis, 349 n.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0837-col_right-L035",
+     "source_line_no": null,
+     "tex": "Ḥāǵǵī Khalīfah (Haji Khalfa) \\textsc{ix}, \\textsc{xi} n. 7, \\textsc{xxiv},",
+     "transcription": "Ḥāǵǵī Khalīfah (Haji Khalfa) {sc:ix}, {sc:xi} n. 7, {sc:xxiv},",
+     "semantic_anchor": "AB01-PDF0837-col_right-E16",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0837-col_right-L036",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}\\textsc{xxxii}, \\textsc{xxxiii}, \\textsc{lxvi}, 218 n. 4; II, \\textsc{xvii}, 194,",
+     "transcription": "{sc:xxxii}, {sc:xxxiii}, {sc:lxvi}, 218 n. 4; II, {sc:xvii}, 194,",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0837-col_right-L037",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}196, 345 n., 387.",
+     "transcription": "196, 345 n., 387.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0837-col_right-L038",
+     "source_line_no": null,
+     "tex": "Halley Edm. \\textsc{xvii} n., \\textsc{xxxviii}-\\textsc{ix}, \\textsc{li}, \\textsc{lvi}, \\textsc{lxiii},",
+     "transcription": "Halley Edm. {sc:xvii} n., {sc:xxxviii}-{sc:ix}, {sc:li}, {sc:lvi}, {sc:lxiii},",
+     "semantic_anchor": "AB01-PDF0837-col_right-E17",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0837-col_right-L039",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}42 n. 6, 44 n., 56 plur., 57 plur., 124, 227,",
+     "transcription": "42 n. 6, 44 n., 56 plur., 57 plur., 124, 227,",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0837-col_right-L040",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}228, 229, 230, 231, 232.",
+     "transcription": "228, 229, 230, 231, 232.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0837-col_right-L041",
+     "source_line_no": null,
+     "tex": "Halma Nic. \\textsc{lxviii}-\\textsc{ix}, 244; II, 192 n., 235 n.,",
+     "transcription": "Halma Nic. {sc:lxviii}-{sc:ix}, 244; II, 192 n., 235 n.,",
+     "semantic_anchor": "AB01-PDF0837-col_right-E18",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0837-col_right-L042",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}237, 258 n., 266 bis, 271, 272, 273, 288;",
+     "transcription": "237, 258 n., 266 bis, 271, 272, 273, 288;",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0837-col_right-L043",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}passim in notis II, 144-177 et 274-277.",
+     "transcription": "passim in notis II, 144-177 et 274-277.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0837-col_right-L044",
+     "source_line_no": null,
+     "tex": "Haly Heben Rodan v. ‘Alī b. Riḍwān.",
+     "transcription": "Haly Heben Rodan v. ‘Alī b. Riḍwān.",
+     "semantic_anchor": "AB01-PDF0837-col_right-E19",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0837-col_right-L045",
+     "source_line_no": null,
+     "tex": "al-Hamdānī II, \\textsc{xv}, 37, 45, 51 ter, 52.",
+     "transcription": "al-Hamdānī II, {sc:xv}, 37, 45, 51 ter, 52.",
+     "semantic_anchor": "AB01-PDF0837-col_right-E20",
+     "source_role": "NALLINO_INDEX"
+    }
+   ]
+  }
+ ]
+}
