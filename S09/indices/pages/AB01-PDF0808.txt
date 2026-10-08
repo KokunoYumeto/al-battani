@@ -1,0 +1,91 @@
+@page 808 359
+% the first page of the Index geographicus: the double rule, the title and the short rule (22.4 mm), the three
+% paragraphs of the introduction in small type across the page (x-height 4.3-4.5 PDF points; set in 9.2 points),
+% then the index in two columns (x-height 5.1-5.4, the type of the glossary; leading 13.98), from Ābaskūn to
+% Anāwarzā. Italic numbers are the pages of al-Battānī's text, upright numbers those of Nallino's notes (the
+% introduction says so). The column lines are set at the middle of their letters (base_fix on each line).
+@rule2
+@vspace 32.56
+@title INDEX GEOGRAPHICUS
+@vspace 6.32
+@rule 22.44
+@vspace 12.37
+@fontsize 9.2 10.84
+@baselines 296.74 307.60 318.31 329.20 340.12 350.74
+^ Numeri inclinatis characteribus impressi indicant Albatenii locos, reliqui adnotationes meas.
+^ Compendia haec sunt: lin. = linea. n. = nota, in imis paginis. nr. = numerus. add. = cum
+additionibus. add. t. II = cum additionibus initio t. II collocatis. emend. = cum emendationibus.
+^ Permulto post tabulas impressas prodiit optimus liber G. {sp:Le Strange}, *The lands of the Ea-*
+*stern Caliphate, Mesopotamia, Persia, and Central Asia from the Moslem conquest to the time of Ti-*
+*mur*, Cambridge 1905, qui pro compluribus nominibus conferri nunc potest.
+@colL
+@baselines 382.27 396.34 410.31 424.38 438.26 452.33 466.30 480.28 494.43 508.31 522.38 536.36 550.24 564.12 578.10 592.26 606.05 620.20 634.36 648.33 662.13 676.20 689.72 703.97 717.85 731.65 745.53 759.68
++ Ābaskūn (Abuskūn, Abiskūn) 172 et n. (et add.
+> t. II).
++ ‘Abbādān II, *53* (et 218).
++ Achaia II, *34*.
++ Adana v. Adhanah.
++ ‘Aden *15*, 170 (et add. t. II); II, *44* (et 217)
+> Sinus ‘Aden v. Barbaricus sinus.
++ Adhanah II, *39* (et 216: Edane), 43 n. 179.
++ Ādharbayǵān II, *35*, 193, 53 n. 266.
++ Adrias v. Sinus Adrias.
++ Aegyptus (*Miṣr*), *18*, *19* quater, 172 (et add.
+> t. II); II, *34* nr. 42 ac 45; *Eghifṭos* inferior
+> II, *34*, 210. V. Mare Aegypti.
++ Aelana 17 n. 6. V. Aylah.
++ Aethiopes, Aethiopia (*al-ḥabash*) *17* ter, *18* bis,
+> *19* bis, 170 ter, 171 (et add. t. II); II, *44*.
+> V. Kūsh.
++ al-Aflāǵ regio II, 44 n. 192.
++ Africa, quo modo eius littus in Albatenii fonte
+> descriptum 167. *Ifrīqiyyah*, sensu strictiore
+> Romano, 172; II, *34* (et 215), 212; eius
+> mare I, 171. *Ifrīqiyyah*, sensu lato, II, *34*
+> nr. 44. V. Libya.
++ ‘Afrīn II, 35 n 63, 40 n. 139, 48 n. 220.
++ Afyūn Qarā Ḥiṣār II, 44 n. 183.
++ al-Aḥsā’ II, 52 n. 254.
++ al-Ahwāz II, *35*.
++ Akhlāṭ v. Khilāṭ.
+@colR
+@baselines 382.12 396.10 410.16 423.96 437.93 452.09 466.24 479.85 493.83 507.98 522.14 536.21 550.09 564.15 577.95 591.93 606.08 619.96 633.94 648.27 661.98 675.96 690.11 704.18 717.88 732.31 746.01 760.25
++ Akhmīm II, *52* (et 217).
++ Akhsīkat II, 36 n. 85.
++ ‘Akkā II, *39* (et 216).
++ Aksūm v. Auxume.
++ Alani (*al-Lān*) 172.
++ Albania II, *34*. — Albaniae Portae v. Porta.
++ Albion Britannica (*Alūyōn Brehṭanīqī*) II, *33*
+> nr. 2, 211.
++ Alcaz v. Alqis.
++ Aleppo v. Ḥalab.
++ Alexandria (*al-Iskandariyyah*) *41* bis et n. 2,
+> *42* et n. 3, 73 n. 3, 160, 172; II, *38* (et
+> 216), 170 n. 2, 206, 210 plur., 212.
++ Alexandria ad Issum v. Iskandarūnah.
++ Algeciras II, 220.
++ Almeria v. al-Mariyyah.
++ Alqis (?) II, *50* et n.
++ ‘Amawās II, *47*.
++ Āmid II, *41*, 212.
++ ‘Ammūriyah (Amorium) II, *44* (et 217), 212.
++ al-‘Amq II, *35* et n.
++ Āmul II, *53*.
++ ‘Amwās v. ‘Amawās.
++ Anafah II, 48 n. 221. Cfr. *al-Mashriq*, V, 1902,
+> p. 109-111.
++ Anastasiopolis (*Dārā*) II, 42 n. 159; (*ar-Ru-*
+> *ṣāfah*) II, 45 n. 201.
++ Anāwarzā II, 43 n. 179. Cfr. F. X. {sp:Schaffner},
+@obs body: the double rule stands at 107.6 PDF points, the title INDEX GEOGRAPHICUS (capitals 17.5 points tall) on 219.2, the short rule (63.6 points, 22.4 mm) at 248.3; the introduction is set in small type across the page.
+@obs col_left L1: a dot (0.6 point) is printed to the right of the apex of the A of «Abuskūn»; not transcribed.
+@obs col_left L6, L20: a dot after the comma of «II,» (L6) and a speck after «descriptum» (L20) are not transcribed.
+@obs col_left L9, L18: «Ādharbayǵān» and «al-Aflāǵ» are printed with ǵ, a g with an acute.
+@obs col_left L24: «35 n 63» is printed without the point after n.
+@obs col_right L1: the first stem of the m of «Akhmīm» is printed apart from the rest of the letter, and the left foot of the A is broken off.
+@obs col_right L6: the t of «Porta» is printed broken, like an l.
+@obs col_right L7: in «Alūyōn» a dot is printed above the macron of the ū; in «Brehṭanīqī» the dot stands under the t, the h is plain.
+@obs col_right L25: «109-111» is printed with a hyphen (3.1 points).
+@obs col_right L27: the point after «n» is printed small.
+@obs col_right L28: the entry goes on at the head of the left column of p. 360.

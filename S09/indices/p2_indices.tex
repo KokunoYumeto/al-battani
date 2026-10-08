@@ -1,0 +1,253 @@
+\documentclass[11pt]{article}
+\usepackage[paperwidth=220mm,paperheight=320mm,left=16mm,right=16mm,top=18mm,bottom=18mm,headheight=16pt,headsep=10pt,footskip=14pt]{geometry}
+\usepackage{fix-cm}
+\usepackage{fontspec,amsmath,amssymb,graphicx,array,multirow,tikz}
+\usetikzlibrary{decorations.pathreplacing}
+\usepackage[unicode,hidelinks]{hyperref}
+\usepackage{polyglossia}
+\setmainlanguage{latin}
+\setotherlanguages{arabic,greek,hebrew,syriac}
+\setmainfont{Linux Libertine O}[Ligatures=TeX]
+\setsansfont{Linux Biolinum O}[Ligatures=TeX]
+\newfontfamily\greekfont{FreeSerif}[Script=Greek]
+\newfontfamily\arabicfont{Amiri}[Script=Arabic]
+\newfontfamily\hebrewfont{Frank Ruhl Hofshi}[Script=Hebrew]
+\newfontfamily\syriacfont{Segoe UI Historic}[Script=Syriac]
+\newfontfamily\CapFont{Noto Serif}
+\newfontfamily\MoonFont{FreeSerif}
+\newcommand{\MoonSym}{\text{\MoonFont ☾}}\newcommand{\SunSym}{\text{\MoonFont ⊙}}
+\newfontfamily\EthiopicFont{Ebrima}
+\newcommand{\textethiopic}[1]{{\EthiopicFont #1}}
+\newfontfamily\NallinoSigns{NallinoSigns.otf}[Path=./fonts/]
+\newcommand{\AbjadZero}{{\NallinoSigns\symbol{"E000}}}
+\hypersetup{pdftitle={Al-Battani, Opus astronomicum. Nallino, Index geographicus et Index historicus (Pars II, pp. 359-413). S09},pdfauthor={Al-Battani; Carlo Alfonso Nallino (indices)}}
+\makeatletter
+\def\ps@sourceedition{%
+\def\@oddhead{\vbox{\hbox to\textwidth{\fontsize{8}{10}\selectfont C. A. NALLINO — \IndexHead\hfil\leftmark}\vskip3pt\hrule height.25pt}}%
+\let\@evenhead\@oddhead
+\def\@oddfoot{\hbox to\textwidth{\fontsize{7}{9}\selectfont\rightmark\hfil\thepage}}%
+\let\@evenfoot\@oddfoot}
+\makeatother
+\newcommand{\IndexHead}{INDEX GEOGRAPHICUS}
+\pagestyle{sourceedition}
+\setlength{\parindent}{0pt}\setlength{\parskip}{0pt}
+\newcommand{\BeginSource}[2]{\clearpage\markboth{PAG. #2}{#1}\hypertarget{#1}{}\pdfbookmark[0]{#1 — p. #2}{bk-#1}\fontsize{11.1}{13.8}\selectfont}
+\tracinglostchars=2
+\newcommand{\Name}[1]{{\addfontfeatures{LetterSpace=4.0}#1}}
+\newcommand{\Indent}{\hspace*{1.6em}}
+% an Arabic run inside a Latin line takes no height or depth: the lines are set at their printed baselines
+% (@baselines), which the vowel signs of the Arabic open unevenly
+\newcommand{\ArabicRun}[1]{\smash{\textarabic{#1}}}
+% letters of a geometrical figure, overlined as printed (the line stands 9.3-9.7 pt above the baseline)
+\newcommand{\ArOver}[1]{\vbox{\hrule height .4pt\kern 1.2pt\hbox{\rule{0pt}{8.1pt}#1}}}
+\newcommand{\qfrac}[2]{{}^{#1}\!/_{{#2}}}
+\newcommand{\sa}{\textsuperscript{\textit{a}}}\newcommand{\sm}{\textsuperscript{\textit{m}}}\newcommand{\sd}{\textsuperscript{\textit{d}}}
+\newcommand{\RawBlock}[1]{\par\vspace{3pt}\noindent#1\par\vspace{3pt}}
+\newcommand{\CenterLine}[1]{\makebox[\linewidth][c]{#1}}
+\newlength{\FullSourceWidth}\newlength{\GutterOffset}\newif\ifNumbersLeft
+\newcommand{\DSource}[2]{\BeginSource{AB01-PDF#1}{#2}%
+ \setlength{\FullSourceWidth}{\textwidth}\setlength{\GutterOffset}{0pt}%
+ \ifodd#2\relax\NumbersLefttrue\else\NumbersLeftfalse\fi}
+\newsavebox{\DLBox}
+\newcommand{\DLine}[3]{%
+ \par\noindent\hypertarget{#1}{}%
+ \ifx\relax#2\relax\else
+   \ifNumbersLeft
+    \rlap{\kern-\GutterOffset\llap{\fontsize{7}{8}\selectfont #2\hspace{3mm}}}%
+   \else
+    \rlap{\kern\dimexpr\FullSourceWidth-\GutterOffset\relax\hspace{3mm}{\fontsize{7}{8}\selectfont #2}}%
+   \fi
+ \fi
+ \sbox{\DLBox}{\strut #3}%
+ \ifdim\wd\DLBox>\linewidth\typeout{DIPLOMATICWIDTH|#1|\the\wd\DLBox|\the\linewidth}\fi
+ \usebox{\DLBox}\strut\par}
+\begin{document}
+\thispagestyle{empty}
+\begin{center}\Large AL-BATTĀNĪ\par\vspace{4mm}\LARGE OPUS ASTRONOMICUM\par
+\vspace{5mm}\large Caroli Alphonsi Nallino index geographicus et index historicus (pars II)\par\vspace{8mm}
+\Large S09 --- editio diplomatica\par\vspace{4mm}\large Paginae impressae 359--359\end{center}
+\vspace{12mm}\noindent Singulae lineae paginarum impressarum (et columnarum) singulis lineis huius editionis respondent, cum
+divisionibus vocabulorum, signis et generibus litterarum (rectis, inclinatis, distantibus). Textus ex imaginibus
+paginarum transcriptus est; litterae Graecae et Arabicae, transcriptiones nominum, numeri et signa in imaginibus amplificatis lecta sunt.
+Haec transcriptio a nullo homine recognita est.\par
+\renewcommand{\IndexHead}{INDEX GEOGRAPHICUS}
+\DSource{0808}{359}
+\par\noindent\rule{\linewidth}{1.2pt}\par\nointerlineskip\vspace{1pt}\noindent\rule{\linewidth}{.4pt}\par
+\par\vspace{32.56mm}
+\DLine{AB01-PDF0808-body-L001}{}{\CenterLine{\fontsize{24}{28}\selectfont INDEX GEOGRAPHICUS}}
+\par\vspace{6.32mm}
+\par\noindent\makebox[\linewidth][c]{\rule[.5ex]{22.44mm}{.4pt}}\par
+\par\vspace{12.37mm}
+\par\fontsize{9.2}{10.84}\selectfont
+\hypertarget{AB01-PDF0808-P01}{}
+\DLine{AB01-PDF0808-body-L002}{}{\Indent Numeri inclinatis characteribus impressi indicant Albatenii locos, reliqui adnotationes meas.}
+\par\vspace{0.06pt}
+\hypertarget{AB01-PDF0808-P02}{}
+\DLine{AB01-PDF0808-body-L003}{}{\Indent Compendia haec sunt: lin. = linea. n. = nota, in imis paginis. nr. = numerus. add. = cum}
+\par\vspace{-0.09pt}
+\DLine{AB01-PDF0808-body-L004}{}{additionibus. add. t. II = cum additionibus initio t. II collocatis. emend. = cum emendationibus.}
+\par\vspace{0.09pt}
+\hypertarget{AB01-PDF0808-P03}{}
+\DLine{AB01-PDF0808-body-L005}{5}{\Indent Permulto post tabulas impressas prodiit optimus liber G. \Name{Le Strange}, \textit{The lands of the Ea-}}
+\par\vspace{0.12pt}
+\DLine{AB01-PDF0808-body-L006}{}{\textit{stern Caliphate, Mesopotamia, Persia, and Central Asia from the Moslem conquest to the time of Ti-}}
+\par\vspace{-0.18pt}
+\DLine{AB01-PDF0808-body-L007}{}{\textit{mur}, Cambridge 1905, qui pro compluribus nominibus conferri nunc potest.}
+\par\vspace{18.43pt}
+\par\nointerlineskip
+\noindent\begin{minipage}[t]{.485\textwidth}\vspace{0pt}\vspace*{0.15pt}\fontsize{11.1}{14.02}\selectfont\setlength{\GutterOffset}{0pt}\setlength{\FullSourceWidth}{\linewidth}
+\hypertarget{AB01-PDF0808-col_left-E01}{}
+\DLine{AB01-PDF0808-col_left-L001}{}{Ābaskūn (Abuskūn, Abiskūn) 172 et n. (et add.}
+\par\vspace{0.10pt}
+\DLine{AB01-PDF0808-col_left-L002}{}{\hspace*{10.04pt}t. II).}
+\par\vspace{0.00pt}
+\hypertarget{AB01-PDF0808-col_left-E02}{}
+\DLine{AB01-PDF0808-col_left-L003}{}{‘Abbādān II, \textit{53} (et 218).}
+\par\vspace{0.10pt}
+\hypertarget{AB01-PDF0808-col_left-E03}{}
+\DLine{AB01-PDF0808-col_left-L004}{}{Achaia II, \textit{34}.}
+\par\vspace{-0.09pt}
+\hypertarget{AB01-PDF0808-col_left-E04}{}
+\DLine{AB01-PDF0808-col_left-L005}{}{Adana v. Adhanah.}
+\par\vspace{0.10pt}
+\hypertarget{AB01-PDF0808-col_left-E05}{}
+\DLine{AB01-PDF0808-col_left-L006}{}{‘Aden \textit{15}, 170 (et add. t. II); II, \textit{44} (et 217)}
+\par\vspace{0.00pt}
+\DLine{AB01-PDF0808-col_left-L007}{}{\hspace*{10.04pt}Sinus ‘Aden v. Barbaricus sinus.}
+\par\vspace{0.01pt}
+\hypertarget{AB01-PDF0808-col_left-E06}{}
+\DLine{AB01-PDF0808-col_left-L008}{}{Adhanah II, \textit{39} (et 216: Edane), 43 n. 179.}
+\par\vspace{0.18pt}
+\hypertarget{AB01-PDF0808-col_left-E07}{}
+\DLine{AB01-PDF0808-col_left-L009}{}{Ādharbayǵān II, \textit{35}, 193, 53 n. 266.}
+\par\vspace{-0.09pt}
+\hypertarget{AB01-PDF0808-col_left-E08}{}
+\DLine{AB01-PDF0808-col_left-L010}{}{Adrias v. Sinus Adrias.}
+\par\vspace{0.10pt}
+\hypertarget{AB01-PDF0808-col_left-E09}{}
+\DLine{AB01-PDF0808-col_left-L011}{}{Aegyptus (\textit{Miṣr}), \textit{18}, \textit{19} quater, 172 (et add.}
+\par\vspace{0.01pt}
+\DLine{AB01-PDF0808-col_left-L012}{}{\hspace*{10.04pt}t. II); II, \textit{34} nr. 42 ac 45; \textit{Eghifṭos} inferior}
+\par\vspace{-0.09pt}
+\DLine{AB01-PDF0808-col_left-L013}{}{\hspace*{10.04pt}II, \textit{34}, 210. V. Mare Aegypti.}
+\par\vspace{-0.09pt}
+\hypertarget{AB01-PDF0808-col_left-E10}{}
+\DLine{AB01-PDF0808-col_left-L014}{}{Aelana 17 n. 6. V. Aylah.}
+\par\vspace{0.01pt}
+\hypertarget{AB01-PDF0808-col_left-E11}{}
+\DLine{AB01-PDF0808-col_left-L015}{}{Aethiopes, Aethiopia (\textit{al-ḥabash}) \textit{17} ter, \textit{18} bis,}
+\par\vspace{0.19pt}
+\DLine{AB01-PDF0808-col_left-L016}{}{\hspace*{10.04pt}\textit{19} bis, 170 ter, 171 (et add. t. II); II, \textit{44}.}
+\par\vspace{-0.18pt}
+\DLine{AB01-PDF0808-col_left-L017}{}{\hspace*{10.04pt}V. Kūsh.}
+\par\vspace{0.18pt}
+\hypertarget{AB01-PDF0808-col_left-E12}{}
+\DLine{AB01-PDF0808-col_left-L018}{}{al-Aflāǵ regio II, 44 n. 192.}
+\par\vspace{0.19pt}
+\hypertarget{AB01-PDF0808-col_left-E13}{}
+\DLine{AB01-PDF0808-col_left-L019}{}{Africa, quo modo eius littus in Albatenii fonte}
+\par\vspace{0.00pt}
+\DLine{AB01-PDF0808-col_left-L020}{}{\hspace*{10.04pt}descriptum 167. \textit{Ifrīqiyyah}, sensu strictiore}
+\par\vspace{-0.17pt}
+\DLine{AB01-PDF0808-col_left-L021}{}{\hspace*{10.04pt}Romano, 172; II, \textit{34} (et 215), 212; eius}
+\par\vspace{0.10pt}
+\DLine{AB01-PDF0808-col_left-L022}{}{\hspace*{10.04pt}mare I, 171. \textit{Ifrīqiyyah}, sensu lato, II, \textit{34}}
+\par\vspace{-0.45pt}
+\DLine{AB01-PDF0808-col_left-L023}{}{\hspace*{10.04pt}nr. 44. V. Libya.}
+\par\vspace{0.28pt}
+\hypertarget{AB01-PDF0808-col_left-E14}{}
+\DLine{AB01-PDF0808-col_left-L024}{}{‘Afrīn II, 35 n 63, 40 n. 139, 48 n. 220.}
+\par\vspace{-0.09pt}
+\hypertarget{AB01-PDF0808-col_left-E15}{}
+\DLine{AB01-PDF0808-col_left-L025}{}{Afyūn Qarā Ḥiṣār II, 44 n. 183.}
+\par\vspace{-0.17pt}
+\hypertarget{AB01-PDF0808-col_left-E16}{}
+\DLine{AB01-PDF0808-col_left-L026}{}{al-Aḥsā’ II, 52 n. 254.}
+\par\vspace{-0.09pt}
+\hypertarget{AB01-PDF0808-col_left-E17}{}
+\DLine{AB01-PDF0808-col_left-L027}{}{al-Ahwāz II, \textit{35}.}
+\par\vspace{0.18pt}
+\hypertarget{AB01-PDF0808-col_left-E18}{}
+\DLine{AB01-PDF0808-col_left-L028}{}{Akhlāṭ v. Khilāṭ.}
+\end{minipage}
+\hfill\vrule width.3pt\hfill\begin{minipage}[t]{.485\textwidth}\vspace{0pt}\fontsize{11.1}{14.02}\selectfont\setlength{\GutterOffset}{0pt}\setlength{\FullSourceWidth}{\linewidth}
+\hypertarget{AB01-PDF0808-col_right-E01}{}
+\DLine{AB01-PDF0808-col_right-L001}{}{Akhmīm II, \textit{52} (et 217).}
+\par\vspace{0.01pt}
+\hypertarget{AB01-PDF0808-col_right-E02}{}
+\DLine{AB01-PDF0808-col_right-L002}{}{Akhsīkat II, 36 n. 85.}
+\par\vspace{0.09pt}
+\hypertarget{AB01-PDF0808-col_right-E03}{}
+\DLine{AB01-PDF0808-col_right-L003}{}{‘Akkā II, \textit{39} (et 216).}
+\par\vspace{-0.17pt}
+\hypertarget{AB01-PDF0808-col_right-E04}{}
+\DLine{AB01-PDF0808-col_right-L004}{}{Aksūm v. Auxume.}
+\par\vspace{0.00pt}
+\hypertarget{AB01-PDF0808-col_right-E05}{}
+\DLine{AB01-PDF0808-col_right-L005}{}{Alani (\textit{al-Lān}) 172.}
+\par\vspace{0.19pt}
+\hypertarget{AB01-PDF0808-col_right-E06}{}
+\DLine{AB01-PDF0808-col_right-L006}{}{Albania II, \textit{34}. — Albaniae Portae v. Porta.}
+\par\vspace{0.18pt}
+\hypertarget{AB01-PDF0808-col_right-E07}{}
+\DLine{AB01-PDF0808-col_right-L007}{}{Albion Britannica (\textit{Alūyōn Brehṭanīqī}) II, \textit{33}}
+\par\vspace{-0.36pt}
+\DLine{AB01-PDF0808-col_right-L008}{}{\hspace*{10.04pt}nr. 2, 211.}
+\par\vspace{0.01pt}
+\hypertarget{AB01-PDF0808-col_right-E08}{}
+\DLine{AB01-PDF0808-col_right-L009}{}{Alcaz v. Alqis.}
+\par\vspace{0.18pt}
+\hypertarget{AB01-PDF0808-col_right-E09}{}
+\DLine{AB01-PDF0808-col_right-L010}{}{Aleppo v. Ḥalab.}
+\par\vspace{0.19pt}
+\hypertarget{AB01-PDF0808-col_right-E10}{}
+\DLine{AB01-PDF0808-col_right-L011}{}{Alexandria (\textit{al-Iskandariyyah}) \textit{41} bis et n. 2,}
+\par\vspace{0.10pt}
+\DLine{AB01-PDF0808-col_right-L012}{}{\hspace*{10.04pt}\textit{42} et n. 3, 73 n. 3, 160, 172; II, \textit{38} (et}
+\par\vspace{-0.09pt}
+\DLine{AB01-PDF0808-col_right-L013}{}{\hspace*{10.04pt}216), 170 n. 2, 206, 210 plur., 212.}
+\par\vspace{0.09pt}
+\hypertarget{AB01-PDF0808-col_right-E11}{}
+\DLine{AB01-PDF0808-col_right-L014}{}{Alexandria ad Issum v. Iskandarūnah.}
+\par\vspace{-0.17pt}
+\hypertarget{AB01-PDF0808-col_right-E12}{}
+\DLine{AB01-PDF0808-col_right-L015}{}{Algeciras II, 220.}
+\par\vspace{0.01pt}
+\hypertarget{AB01-PDF0808-col_right-E13}{}
+\DLine{AB01-PDF0808-col_right-L016}{}{Almeria v. al-Mariyyah.}
+\par\vspace{0.18pt}
+\hypertarget{AB01-PDF0808-col_right-E14}{}
+\DLine{AB01-PDF0808-col_right-L017}{}{Alqis (?) II, \textit{50} et n.}
+\par\vspace{-0.09pt}
+\hypertarget{AB01-PDF0808-col_right-E15}{}
+\DLine{AB01-PDF0808-col_right-L018}{}{‘Amawās II, \textit{47}.}
+\par\vspace{0.01pt}
+\hypertarget{AB01-PDF0808-col_right-E16}{}
+\DLine{AB01-PDF0808-col_right-L019}{}{Āmid II, \textit{41}, 212.}
+\par\vspace{0.36pt}
+\hypertarget{AB01-PDF0808-col_right-E17}{}
+\DLine{AB01-PDF0808-col_right-L020}{}{‘Ammūriyah (Amorium) II, \textit{44} (et 217), 212.}
+\par\vspace{-0.26pt}
+\hypertarget{AB01-PDF0808-col_right-E18}{}
+\DLine{AB01-PDF0808-col_right-L021}{}{al-‘Amq II, \textit{35} et n.}
+\par\vspace{0.01pt}
+\hypertarget{AB01-PDF0808-col_right-E19}{}
+\DLine{AB01-PDF0808-col_right-L022}{}{Āmul II, \textit{53}.}
+\par\vspace{0.18pt}
+\hypertarget{AB01-PDF0808-col_right-E20}{}
+\DLine{AB01-PDF0808-col_right-L023}{}{‘Amwās v. ‘Amawās.}
+\par\vspace{0.10pt}
+\hypertarget{AB01-PDF0808-col_right-E21}{}
+\DLine{AB01-PDF0808-col_right-L024}{}{Anafah II, 48 n. 221. Cfr. \textit{al-Mashriq}, V, 1902,}
+\par\vspace{-0.27pt}
+\DLine{AB01-PDF0808-col_right-L025}{}{\hspace*{10.04pt}p. 109-111.}
+\par\vspace{0.46pt}
+\hypertarget{AB01-PDF0808-col_right-E22}{}
+\DLine{AB01-PDF0808-col_right-L026}{}{Anastasiopolis (\textit{Dārā}) II, 42 n. 159; (\textit{ar-Ru-}}
+\par\vspace{-0.27pt}
+\DLine{AB01-PDF0808-col_right-L027}{}{\hspace*{10.04pt}\textit{ṣāfah}) II, 45 n. 201.}
+\par\vspace{0.27pt}
+\hypertarget{AB01-PDF0808-col_right-E23}{}
+\DLine{AB01-PDF0808-col_right-L028}{}{Anāwarzā II, 43 n. 179. Cfr. F. X. \Name{Schaffner},}
+\end{minipage}
+\end{document}
