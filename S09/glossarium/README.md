@@ -2,7 +2,7 @@
 
 Nallino's *Glossarium* of al-Battānī's technical vocabulary: Arabic headwords, often vowelled, with their Latin, Greek and Arabic explanations and with references to the pages and lines of the Arabic text (Part III), printed in Arabic-Indic numerals. The edition is diplomatic and line-anchored, in the format of the S07 edition of the notes on the tables: every printed line is one line of the edition, with its hyphenation, its punctuation, its letter-spaced names and its italics, and every line has a stable anchor.
 
-The transcription is in progress. It begins at the title page of the glossary (p. 319) and runs page by page; pp. 319–337 are done (the introduction, pp. 319–321, and the entries from ابد to سمع).
+The transcription is in progress. It begins at the title page of the glossary (p. 319) and runs page by page; pp. 319–338 are done (the introduction, pp. 319–321, and the entries from ابد to سهم).
 
 ## Read
 
@@ -28,12 +28,13 @@ The transcription is in progress. It begins at the title page of the glossary (p
 - Hebrew is transcribed with the points that are printed (none, except in «الמִצְווֹת», p. 334, where the Hebrew word stands with the Arabic article inside an Arabic quotation and is set in the Hebrew font within the Arabic run).
 - Persian quotations (p. 335) keep the letters of the print: پ and چ, the final yāʾ without dots as ى, and the gāf, which the type prints as kāf with three dots above, as ڭ.
 - Elongated joins (kashīda) are not transcribed, as in S07; the observations record them. A vowel sign printed over a join is given to its letter.
-- Each Arabic example is a run read from the right inside the Latin text, which runs from the left. An example broken at the end of a line has its first words at the right end of that line and its last words at the beginning of the next; each line gives its own words in reading order.
+- Each Arabic example is a run read from the right inside the Latin text, which runs from the left. An example broken at the end of a line has its first words at the right end of that line and its last words at the beginning of the next; each line gives its own words in reading order. The full stop after an Arabic quotation follows the run in the order of the Latin text, so where the quotation fills its last line the full stop stands at the right end of that line (p. 338).
 - The vowel signs open the printed lines unevenly. Each page file gives the printed baselines of its lines (`@baselines`, measured on the scan) and the position of the rule over the notes (`@noterule`); the build sets every line there. Where the scan is skewed, a line's baseline is measured at its middle, and a short line's at its text.
 - Greek, Arabic, Syriac and Hebrew words, numbers and diacritics are read on enlarged images of the scan (up to 3,000 dpi).
 - The Greek type has two sorts of theta, θ and ϑ; each is transcribed as printed. It casts ὁ (omicron with the rough breathing) as one sort that resembles δ (ὁ Κρατήρ, ὁ Βοώτης, ὁρίζων), with the head turned to the right, and ὀ (with the smooth breathing) as a like sort with the head turned to the left (ὀρϑῆς, p. 330); they are transcribed ὁ and ὀ.
 - The rule over the footnotes is printed 115 points (40.6 mm) long and centred; the edition sets it so.
 - The zero sign of the tables, which Nallino also prints inside Arabic quotations (p. 328), is transcribed `{0}` and set in `fonts/NallinoSigns.otf`.
+- The signs of the Sun and the Moon (p. 338) are transcribed ⊙ and ☾, as in the Adnotationes (S07).
 - A reading that departs from what one expects is kept as printed and described in the page record (for example «دراع» printed without the dot of dhāl on p. 319).
 
 ## Rebuild
