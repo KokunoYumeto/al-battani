@@ -17,7 +17,7 @@ Part III of Nallino's edition prints the Arabic text of the *Zīj* from the Esco
 
 ## Conventions
 
-- Vowel signs, shadda, sukun, tanwīn, madda and hamza exactly as printed; where the print has no hamza, none is supplied. The type's lām-alif ends in a club head; a hamza is a separate mark above it (measured on every doubtful case).
+- Vowel signs, shadda, sukun, tanwīn, madda and hamza exactly as printed; where the print has no hamza, none is supplied. The type's lām-alif ends in a club head; a hamza is a separate mark above it (measured on every doubtful case). Under an alif the print usually sets a hamza with a kasra under it (إِ), sometimes a hamza alone (إنعام, p. 7); every إ is measured: a hamza alone is one mark of about 2.5 × 2.9 pt, a hamza with kasra is a hamza over a separate stroke (or one mark at least 3.9 pt tall where the two touch).
 - Final yā' with dots (ي) and without (ى), tā' marbūṭa (ة) and hā' (ه) as printed.
 - Long joins (kashida) are not transcribed; the long swash form of kāf is transcribed ك.
 - Misprints are transcribed as printed and described in `@obs`: on p. 1 «ونجزية» (Nallino's corrigenda: «Pag. ١, lin. 18, lege وتجزية»); on p. 3 the numeral of chapter 18 printed يج for يح.
