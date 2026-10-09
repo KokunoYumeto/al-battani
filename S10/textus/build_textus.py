@@ -146,7 +146,9 @@ def parse(path):
             else:
                 raise SystemExit(f"{path.name}: inside @table only @tr rows and @endtable")
             continue
-        if ln.startswith("@table "):
+        if ln.startswith("@sig "):
+            page["sig"] = ln[5:].strip()
+        elif ln.startswith("@table "):
             table = {"name": ln.split()[1], "rows": []}
         elif ln.startswith("@lab "):
             page["items"].append(("label", ln[5:].strip()))
@@ -228,17 +230,22 @@ def page_tex(page, geo, recs, anchors):
             xfix = float(m_at.group(1)) if m_at else None
             txt = m_at.group(2) if m_at else txt
             cands = band(side, yb)
+            if side == "R" and has_num:
+                nx = numeral_x1(yb)
+                cands = [m for m in cands if m["x0"] > nx + 1]
+            # Nallino's line numbers stand on his grid of 27 pt, not always on a printed line (beside a heading):
+            # a number is set at its own measured baseline (the foot of its digits)
+            ym = yb
+            if txt.strip().isdigit() and cands:
+                ym = max(m["y1"] for m in cands)
             if side == "L":
                 x = xfix or (max(m["x1"] for m in cands) if cands else bx0 - 10)
-                res.append(at("base east", x, yb, r"{\fontsize{8}{9}\selectfont " + tex_escape_latin(txt) + "}"))
+                res.append(at("base east", x, ym, r"{\fontsize{8}{9}\selectfont " + tex_escape_latin(txt) + "}"))
             else:
-                if has_num:
-                    nx = numeral_x1(yb)
-                    cands = [m for m in cands if m["x0"] > nx + 1]
                 x = xfix or (min(m["x0"] for m in cands) if cands else bx1 + 10)
-                res.append(at("base west", x, yb, r"{\fontsize{8}{9}\selectfont " + tex_escape_latin(txt) + "}"))
+                res.append(at("base west", x, ym, r"{\fontsize{8}{9}\selectfont " + tex_escape_latin(txt) + "}"))
             if txt.strip().isdigit():
-                grid.append((int(txt.strip()), yb))
+                grid.append((int(txt.strip()), ym))
         return res
 
     tables = geo.get("tables", [])
@@ -355,6 +362,16 @@ def page_tex(page, geo, recs, anchors):
         raise SystemExit(f"AB01-PDF{pdf:04}: {len(glines)} geometry lines, {gi} transcribed")
     if ti != len(tables) or li != len(labels):
         raise SystemExit(f"AB01-PDF{pdf:04}: {len(tables)} tables / {len(labels)} labels measured, {ti} / {li} transcribed")
+    if page.get("sig"):
+        # the printer's signature at the foot of the first page of a sheet, where printed
+        s = geo.get("sig")
+        if not s:
+            raise SystemExit(f"AB01-PDF{pdf:04}: @sig without a measured place (geometry 'sig')")
+        out.append(at("base west", s["x0"], s["base"], r"{\fontsize{9}{10}\selectfont\bfseries " +
+                      tex_escape_latin(page["sig"]) + "}"))
+        rec["signature"] = {"text": page["sig"], "x0": s["x0"], "baseline": s["base"]}
+    elif geo.get("sig"):
+        raise SystemExit(f"AB01-PDF{pdf:04}: a signature is measured but not transcribed (@sig)")
     # Nallino's line number of every line, from the grid of the printed numbers (27 pt apart)
     if grid:
         for ln in rec["lines"]:

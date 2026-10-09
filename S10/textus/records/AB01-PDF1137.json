@@ -218,8 +218,8 @@
   {
    "anchor": "AB01-PDF1137-L17",
    "kind": "text",
-   "text": "نسبة جميع هذه الاوتار المنصَّفة المذكورة المرسومة في هذا الكتاب واكيلا يحتاج ان يتكرّر القول فِيما",
-   "plain": "نسبة جميع هذه الاوتار المنصَّفة المذكورة المرسومة في هذا الكتاب واكيلا يحتاج ان يتكرّر القول فِيما",
+   "text": "نسبة جميع هذه الاوتار المنصَّفة المذكورة المرسومة في هذا الكتاب ولكيلا يحتاج ان يتكرّر القول فِيما",
+   "plain": "نسبة جميع هذه الاوتار المنصَّفة المذكورة المرسومة في هذا الكتاب ولكيلا يحتاج ان يتكرّر القول فِيما",
    "baseline": 565.2,
    "x0": 117.2,
    "x1": 539.8,
@@ -254,8 +254,8 @@
   {
    "anchor": "AB01-PDF1137-L20",
    "kind": "text",
-   "text": "تعرف وتر ايّ درجة شئت من هذه الاوتار المنصَّفة من قِبَل الجداول فاُطاب في جَدْوَل الاوتار{mR:20}",
-   "plain": "تعرف وتر ايّ درجة شئت من هذه الاوتار المنصَّفة من قِبَل الجداول فاُطاب في جَدْوَل الاوتار",
+   "text": "تعرف وتر ايّ درجة شئت من هذه الاوتار المنصَّفة من قِبَل الجداول فاُطلب في جَدْوَل الاوتار{mR:20}",
+   "plain": "تعرف وتر ايّ درجة شئت من هذه الاوتار المنصَّفة من قِبَل الجداول فاُطلب في جَدْوَل الاوتار",
    "baseline": 645.5,
    "x0": 117.2,
    "x1": 539.8,
@@ -306,11 +306,10 @@
   }
  ],
  "observations": [
-  "L17: «واكيلا» as printed: the stroke after the wāw stands free (a component of its own, 1.7 x 7.6 pt), not joined to the kāf as a lām; the sense requires ولكيلا.",
-  "L20: «فاُطاب» as printed: the stroke after the ṭā' is an alif and the bā' has its isolated form (its bowl separate, ending in an upturned tip; 1200-2400 dpi); p. 11 L18 has فاُطلب with the lām joined to the bā'. Both machine readings read فأطاب.",
-  "L19, L20: باُسمه and فاُطاب have a damma over the alif (a curl 3.2-3.6 x 3.2 pt, as over فاُطلب on p. 11), not a hamza.",
   "L01-L03: the second القسي of L01, بكل (L02) and كل (L03) have no shadda (measured); L01 يُعْلم, L06 القُطْر, L07 بفصْليْن, L12 فأَثبتْناه, L18 يستأْنف (hamza with a sukun, one stack 3.6 x 5.4 pt) and L22 تِلْقاءهُ have a sukun.",
   "L04: وبَيّنٌ: a fatha over the bā', a shadda over the yā' and a dammatan over the nūn; L18 نُبين has a damma and no shadda (the tall mark beside it is the note number).",
-  "L04: الربْعين has a sukun over the bā', no damma over the rā'."
+  "L04: الربْعين has a sukun over the bā', no damma over the rā'.",
+  "L17, L20: in ولكيلا and فاُطلب the lām stands apart from the following letter: its join did not print, and the lām is separated from the kāf and from the bā' by a hairline (0.70 and 0.76 pt at 2400 dpi; a letter space after an alif measures 3.2 pt). Both machine readings take the lām for an alif (واكيلا, فأطاب).",
+  "L19, L20: باُسمه and فاُطلب have a damma over the alif (a curl 3.2-3.6 x 3.2 pt, as over فاُطلب on p. 11), not a hamza."
  ]
 }
