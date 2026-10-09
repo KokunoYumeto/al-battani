@@ -29,7 +29,7 @@ Inline markup: {n:N} a note reference (superscript, as printed); {ov:...} overli
 {mL:TEXT} / {mR:TEXT} a margin item beside this line, on the left / right (the codex's folio, f. 4,v., and
 Nallino's line numbers 5, 10, 15, 20), set where the geometry has it; * the asterisk of a new folio of the codex;
 {0} the zero sign of the codex (set in fonts/NallinoSigns.otf, as in the other editions of the project).
-Long joins (kashida) are not transcribed. In the notes: *italic*, {sc:...} small capitals; Arabic runs are set in
+Long joins (kashida) are not transcribed. In the notes: *italic*, {sc:...} small capitals, {sp:...} letter-spaced; Arabic runs are set in
 the Arabic font."""
 import json
 import re
@@ -79,6 +79,8 @@ PREAMBLE = r"""\documentclass[11pt]{article}
 \newcommand{\RLN}[2]{\sbox{\LBox}{\RL{#2}}%
  \ifdim\wd\LBox>#1\relax\typeout{NARROWED|\the\wd\LBox|#1}\resizebox{#1}{\ht\LBox}{\usebox{\LBox}}%
  \else\usebox{\LBox}\fi}
+% a letter-spaced name in the notes (R e i n a u d on p. 25: 2.55 pt between the letters at 9.2 pt)
+\newcommand{\Name}[1]{{\addfontfeatures{LetterSpace=27}#1}}
 \newcommand{\Note}[1]{\textsuperscript{\fontsize{8}{8}\selectfont\addfontfeatures{Numbers=Lining}#1}}
 \newcommand{\Ov}[1]{\vbox{\hrule height .4pt\kern 1.0pt\hbox{#1}}}
 \newcommand{\ArRun}[1]{\textarabic{#1}}
@@ -119,6 +121,7 @@ def latin_inline(s):
     s = ARABIC_RUN.sub(stash, s)
     s = tex_escape_latin(s)
     s = re.sub(r"\{sc:([^}]*)\}", r"\\textsc{\1}", s)
+    s = re.sub(r"\{sp:([^}]*)\}", r"\\Name{\1}", s)
     s = re.sub(r"\*([^*]+)\*", r"\\textit{\1}", s)
     s = re.sub(r"\{n:([^}]*)\}", lambda m: r"\Note{" + m.group(1) + "}", s)
     return re.sub("\uE003(\\d+)\uE004", lambda m: keep[int(m.group(1))], s)
