@@ -132,11 +132,25 @@ def parse(path):
     assert head[0] == "@page", path
     page = {"pdf": int(head[1]), "printed": head[2], "kind": "text", "items": [], "notes": [], "obs": []}
     section = "items"
+    table = None
     for raw in lines[1:]:
         ln = unicodedata.normalize("NFC", raw.rstrip("\r"))
         if not ln.strip() or ln.startswith("%"):
             continue
-        if ln.startswith("@kind "):
+        if table is not None:
+            if ln.startswith("@endtable"):
+                page["items"].append(("table", table["name"], table["rows"]))
+                table = None
+            elif ln.startswith("@tr "):
+                table["rows"].append([c.strip() for c in ln[4:].split("|")])
+            else:
+                raise SystemExit(f"{path.name}: inside @table only @tr rows and @endtable")
+            continue
+        if ln.startswith("@table "):
+            table = {"name": ln.split()[1], "rows": []}
+        elif ln.startswith("@lab "):
+            page["items"].append(("label", ln[5:].strip()))
+        elif ln.startswith("@kind "):
             page["kind"] = ln.split()[1]
         elif ln.startswith("@notes"):
             section = "notes"
@@ -227,8 +241,74 @@ def page_tex(page, geo, recs, anchors):
                 grid.append((int(txt.strip()), yb))
         return res
 
+    tables = geo.get("tables", [])
+    labels = geo.get("labels", [])
+    ti = li = 0
+
+    def tikz_lines(segs, width):
+        """straight rules in page coordinates (PDF points of the scan)"""
+        draw = "".join(r"\draw[line width=" + f"{width:.2f}pt" + "] ([shift={(" + f"{x0 + dx:.2f}pt,{-(y0 + dy):.2f}pt" +
+                       ")}]current page.north west) -- ([shift={(" + f"{x1 + dx:.2f}pt,{-(y1 + dy):.2f}pt" +
+                       ")}]current page.north west);" for x0, y0, x1, y1 in segs)
+        return r"\begin{tikzpicture}[remember picture,overlay]" + draw + r"\end{tikzpicture}"
+
     for item in page["items"]:
         kind = item[0]
+        if kind == "table":
+            # a ruled table: the rules where printed (geometry "tables"), every cell's words at the centre of its
+            # printed ink (or of the cell), horizontal (a cell written =TEXT) or turned through the table's angle
+            _, name, rows = item
+            tg = tables[ti]
+            ti += 1
+            xr, yr = tg["x"], tg["y"]
+            fw, rw, gap = tg.get("frame", 0.9), tg.get("rule", 0.4), tg.get("gap", 0.0)
+            gt, gb = (gap, gap) if not isinstance(gap, list) else gap   # the inner rules stop short of the rows
+            segs_frame = [(xr[0], yr[0], xr[-1], yr[0]), (xr[0], yr[-1], xr[-1], yr[-1]),
+                          (xr[0], yr[0], xr[0], yr[-1]), (xr[-1], yr[0], xr[-1], yr[-1])]
+            segs = [(xr[0], y, xr[-1], y) for y in yr[1:-1]]
+            for x in xr[1:-1]:
+                for ya, yb_ in zip(yr[:-1], yr[1:]):
+                    segs.append((x, ya + gt, x, yb_ - gb))
+            out.append(tikz_lines(segs_frame, fw))
+            out.append(tikz_lines(segs, rw))
+            centres = {(c["r"], c["c"]): c for c in tg.get("cells", [])}
+            size = tg.get("size", 11.0)
+            rot = tg.get("rot", 45.0)
+            ncol = len(xr) - 1
+            trec = {"name": name, "anchor": f"AB01-PDF{pdf:04}-{name}", "rows": rows, "rot": rot}
+            for r, row in enumerate(rows, 1):
+                if len(row) != ncol:
+                    raise SystemExit(f"AB01-PDF{pdf:04} {name}: row {r} has {len(row)} cells, the grid {ncol}")
+                for c, cell in enumerate(row, 1):
+                    if not cell:
+                        continue
+                    ci = ncol - c                        # columns are counted from the right
+                    cm = centres.get((r, c))
+                    cx = cm["cx"] if cm else (xr[ci] + xr[ci + 1]) / 2
+                    cy = cm["cy"] if cm else (yr[r - 1] + yr[r]) / 2
+                    horiz = cell.startswith("=")
+                    body = ar_inline(cell.lstrip("="))
+                    aid = f"AB01-PDF{pdf:04}-{name}-R{r:02}-C{c:02}"
+                    node = (r"\hypertarget{" + aid + r"}{}{\fontsize{" + f"{size}" + "}{" + f"{size * 1.2:.1f}" +
+                            r"}\ArBody\RL{" + body + "}}")
+                    if horiz:
+                        out.append(at("center", cx, cy, node))
+                    else:
+                        out.append(r"\At{center}{" + f"{cx + dx:.2f}pt,{-(cy + dy):.2f}pt" + r"}{\rotatebox{" +
+                                   f"{rot:.0f}" + "}{" + node + "}}")
+                    anchors.append((aid, pdf, printed, "cell", strip_markup(cell.lstrip("="))))
+            rec.setdefault("tables", []).append(trec)
+            continue
+        if kind == "label":
+            # a letter set beside a table or a figure (the sides of a table), where printed
+            lg = labels[li]
+            li += 1
+            # the bar over a label stands at the same height over every letter (11 pt over the baseline)
+            body = ar_inline(item[1]).replace(r"\Ov{", r"\Ov{\rule{0pt}{10.2pt}")
+            out.append(at("base", lg["x"], lg["base"], r"{\fontsize{" + f"{lg.get('size', 13.8)}" + r"}{20}\ArBody\RL{" +
+                          body + "}}"))
+            rec.setdefault("labels", []).append({"text": item[1], "x": lg["x"], "baseline": lg["base"]})
+            continue
         if kind == "rule":
             _, y, length = item
             x = (bx0 + bx1) / 2
@@ -273,6 +353,8 @@ def page_tex(page, geo, recs, anchors):
         anchors.append((aid, pdf, printed, kind, plain))
     if gi != len(glines):
         raise SystemExit(f"AB01-PDF{pdf:04}: {len(glines)} geometry lines, {gi} transcribed")
+    if ti != len(tables) or li != len(labels):
+        raise SystemExit(f"AB01-PDF{pdf:04}: {len(tables)} tables / {len(labels)} labels measured, {ti} / {li} transcribed")
     # Nallino's line number of every line, from the grid of the printed numbers (27 pt apart)
     if grid:
         for ln in rec["lines"]:
