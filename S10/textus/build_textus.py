@@ -235,6 +235,10 @@ def page_tex(page, geo, recs, anchors):
             xfix = float(m_at.group(1)) if m_at else None
             txt = m_at.group(2) if m_at else txt
             cands = band(side, yb)
+            if not cands and txt.strip().isdigit():
+                # a line number standing on the grid between a heading and the text (p. 20): the nearest item
+                near = [m for m in geo.get("margin", []) if m["side"] == side and abs(m["y1"] - yb) < 30]
+                cands = sorted(near, key=lambda m: abs(m["y1"] - yb))[:1]
             if side == "R" and has_num:
                 nx = numeral_x1(yb)
                 cands = [m for m in cands if m["x0"] > nx + 1]
