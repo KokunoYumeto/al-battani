@@ -27,7 +27,8 @@ as printed):
 Inline markup: {n:N} a note reference (superscript, as printed); {ov:...} overlined letters (abjad numerals);
 {num:X} the overlined numeral of a chapter in the list of chapters, set in the margin column on the right;
 {mL:TEXT} / {mR:TEXT} a margin item beside this line, on the left / right (the codex's folio, f. 4,v., and
-Nallino's line numbers 5, 10, 15, 20), set where the geometry has it; * the asterisk of a new folio of the codex.
+Nallino's line numbers 5, 10, 15, 20), set where the geometry has it; * the asterisk of a new folio of the codex;
+{0} the zero sign of the codex (set in fonts/NallinoSigns.otf, as in the other editions of the project).
 Long joins (kashida) are not transcribed. In the notes: *italic*, {sc:...} small capitals; Arabic runs are set in
 the Arabic font."""
 import json
@@ -54,6 +55,8 @@ PREAMBLE = r"""\documentclass[11pt]{article}
 \newfontfamily\arabicfont{Amiri}[Script=Arabic]
 \newfontfamily\ArBody{Amiri}[Script=Arabic]
 \newfontfamily\OrnFont{FreeSerif}
+\newfontfamily\NallinoSigns{NallinoSigns.otf}[Path=./fonts/]
+\newcommand{\AbjadZero}{{\NallinoSigns\symbol{"E000}}}
 \hypersetup{pdftitle={Al-Battani, Kitab az-Zij as-Sabi'. Textus Arabicus (Nallino, Pars III). S10},pdfauthor={Al-Battani; Carlo Alfonso Nallino (ed.)}}
 \makeatletter
 \def\ps@sourceedition{%
@@ -99,9 +102,10 @@ def tex_escape_latin(s):
 
 def ar_inline(s):
     """markup inside an Arabic line"""
+    s = s.replace("{0}", "")         # the zero sign of the codex, also inside {ov:...}
     s = re.sub(r"\{n:([^}]*)\}", lambda m: r"\Note{" + m.group(1) + "}", s)
     s = re.sub(r"\{ov:([^}]*)\}", lambda m: r"\Ov{" + m.group(1) + "}", s)
-    return s.replace("%", r"\%").replace("#", r"\#")
+    return s.replace("%", r"\%").replace("#", r"\#").replace("", r"\AbjadZero{}")
 
 
 def latin_inline(s):
@@ -121,9 +125,10 @@ def latin_inline(s):
 
 
 def strip_markup(s):
+    s = s.replace("{0}", "")         # the zero sign stays {0} in the plain text of the records
     s = re.sub(r"\{(?:n|mL|mR|num)(?:@[\d.]+)?:[^}]*\}", "", s)
     s = re.sub(r"\{ov:([^}]*)\}", r"\1", s)
-    return re.sub(r"\s+", " ", s).strip()
+    return re.sub(r"\s+", " ", s).strip().replace("", "{0}")
 
 
 def parse(path):
