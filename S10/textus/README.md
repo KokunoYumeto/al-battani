@@ -2,7 +2,7 @@
 
 Part III of Nallino's edition prints the Arabic text of the *Zīj* from the Escorial codex. The scan has its pages in descending order (the book opens from the right): printed page = 1152 − PDF page. S10 covers the Arabic title page (PDF 1153), the list of chapters (pp. 1–5, PDF 1151–1147) and the text to p. 79 (PDF 1146–1073), in reading order.
 
-**Done:** the title page, pp. 1–5 (the invocation, the heading of the work and the codex's list of the 57 chapters with its closing formula) and the text of pp. 6–21: chapter 1, chapter 2 with the tables of the orders produced by multiplying and by dividing the sexagesimal orders, chapter 3 on chords, chapter 4 on the obliquity of the ecliptic (the observations at al-Raqqa, the declination of each degree and its six ranks), chapter 5 on the risings of the signs in the right sphere, and the beginning of chapter 6 on the parallels of the equator and the inhabited places. The text follows page by page.
+**Done:** the title page, pp. 1–5 (the invocation, the heading of the work and the codex's list of the 57 chapters with its closing formula) and the text of pp. 6–22: chapter 1, chapter 2 with the tables of the orders produced by multiplying and by dividing the sexagesimal orders, chapter 3 on chords, chapter 4 on the obliquity of the ecliptic (the observations at al-Raqqa, the declination of each degree and its six ranks), chapter 5 on the risings of the signs in the right sphere, and chapter 6 on the parallels of the equator and the inhabited places (the equator; the height of the pole from a circumpolar star). The text follows page by page.
 
 ## Read
 
