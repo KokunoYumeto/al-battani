@@ -1,0 +1,796 @@
+{
+ "anchor": "AB01-PDF0846",
+ "master_pdf_page": 846,
+ "printed_page": 397,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "observations": [
+  "col_left L1: the entry Menelaus of p. 396 goes on here.",
+  "col_left L2, L8: the commas after «II» are printed short (1.6 by 2.2 points, their feet 0.8 and 0.7 point below the baseline), like points at low resolution; read at 8,000 dpi, each is a head narrowing into a short stub, as the commas of the page, not round as its points.",
+  "col_left L6: the comma after «n. 3» is printed short (1.6 by 2.4 points, its foot 0.85 point below the baseline). The lower left serif of the second X of «{sc:lxxiv}» stands apart from the letter, like a point; it is not a point.",
+  "col_left L8: the two d's of «add.» are printed broken; read d.",
+  "col_left L12, L16, L17, L18, L21: the e of «eius» (L12) is printed broken, open like c; the m of «gnorum» like rn; the first o of «nonnullis» open at the right, like ɔ; the o of «motus» and of «longitudinis» broken; several t's without the left part of their crossbar, like l («pertransit», «computantur»). They are read as the letters.",
+  "col_left L14: «al-Battānī» has bars over the second a and the last i. The lower end of the first e of «emendata» stands apart from the letter, like a point; it is not a point.",
+  "col_left L15: «*77*» is printed in italic figures, as the places of al-Battānī's text before «(adn.» in the lines above: both 7s overlap the italic 7s of the page by 0.84–0.86 of their ink (intersection over union), the upright 7s by 0.57–0.64 (glyph_iou.py).",
+  "col_left L22, L23: the second c of «Occidentalis» is printed broken; the i and the c of «Ptolemaico» are printed touching, like k; the last o of «longitudo» is printed open. Read as the letters.",
+  "col_left L29, L30, L42: «Sédillot» is printed with an acute over the e; «Čelebī» with the háček over the C and a bar over the last i. The i of «Mīram» in L30 has a bar (2.5 by 1.2 points); the i of «Miram» in L42 has a dot (1.4 by 1.0 points); each is transcribed as printed.",
+  "col_left L31, L41: «Mā-shā’-allāh» and «*mir’āh*» are printed with the sign ’ and bars over the a's.",
+  "col_left L35: «*al-miǵlad*» is printed with ǵ, Nallino's sign for jīm; «π{sup:6}» is the Greek π with a superscript 6 (π⁶ Orionis).",
+  "col_left L36, L37: «*miḥrāb*» has the dot under the h; «*al-mihraǵān*» has a plain h and ǵ.",
+  "col_left L39: the Hebrew «מִמְסָךְ» is vowelled, read at 6,000 dpi: ḥireq under the first mem, šᵉwā under the second, qāmeṣ under the samekh, šᵉwā in the final kaf.",
+  "col_left L44: «*283*» is printed in italic figures, though p. 283 of Part II is in Nallino's notes, which the index cites in upright figures (the same reference for α Canis minoris, p. 388, is upright): the 2, the 8 and the 3 overlap the italic figures of the page and of p. 396 by 0.73–0.87 of their ink, the upright ones by 0.42–0.61 (glyph_iou.py). Transcribed as printed.",
+  "col_left L45: «β» is Greek.",
+  "col_right L1: «μῖξις» is Greek, read at 6,000 dpi: the circumflex over the ι is printed as a wave joined to the top of the ξ.",
+  "col_right L2: «*mizāǵ*» is printed with ǵ. The comma after «II» is printed without its tail: a small teardrop (1.1 by 1.6 points, its foot 0.2 point below the baseline), narrower than the points of the page (round, about 1.7 points); read as the head of a comma, as the reference «II, {sc:xviii}-{sc:xix}» requires.",
+  "col_right L7, L25: the V of «{sc:xv}» is printed broken; the guillemets around «Arabicus Propheta» are printed as small solid wedges, as on the earlier pages.",
+  "col_right L10, L11, L14, L23, L24: several t's are printed without the left part of their crossbar, like l or ı («Battānī», «Mordtmann», «Moritz», «propheta», «legatio»); read t.",
+  "col_right L15, L16: «Mouliéras» is printed with an acute over the e; «Mouravieff» with the ff ligature.",
+  "col_right L18, L21, L23: «*al-mudīr*» has a bar over the i; «Mufliḥ» and «Muḥammad» have the ḥ sort; «*1*, *4*, *5*» and «*1*, *4*» (L24) are italic.",
+  "col_right L19: the top of the italic f of «*Mufīd*» is printed apart from the letter, like a dot (1.3 by 1.6 points), before the bar of the ī (3.5 by 1.0 points); «*al-‘ulūm*» has the sign of ‘ayn and a bar over the u.",
+  "col_right L27, L35: the first i of «al-Fārisī» and of «al-Khuwārizmī» is dotted, the last has its bar.",
+  "col_right L32, L34, L37: the marks over the last i of «Ghāzī», «al-Ḥāzimī», «as-Sa‘īdī» (both i's) and «al-Mandā’ī» are bars (1.8–2.4 by 0.7–1.0 points), measured with word_marks.py.",
+  "col_right L38: «aṣ-Ṣabbāgh» has the dots under the s and the S; the comma after «II» is printed thin (1.1 by 2.2 points, its foot 0.8 point below the baseline).",
+  "col_right L40: «al-Akhṣāṣī» has the dots under both s, both times.",
+  "col_right L41: the mark over the last i of «al-Aghzāwī» is a bar (1.8 by 1.1 points), though it looks like a dot at low resolution; «‘Alī» and «‘Omar» begin with the sign of ‘ayn.",
+  "col_right L44: «Ḥaydar» has the dotted Ḥ.",
+  "col_right L45: the mark over the i after the ‘ayn of «Ismā‘īl» is a short bar (1.6 by 0.8 points, as the short bar of an ī on p. 361); «at-Tanūkhī» has its bar.",
+  "col_right L46: the h of «ash» is printed broken, like lı; «Maḥmūd» has the ḥ sort."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": []
+  },
+  {
+   "role": "col_left",
+   "lines": [
+    {
+     "id": "AB01-PDF0846-col_left-L001",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}293-294 (cfr. II, 270 n.), 299; II, 161; cata-",
+     "transcription": "293-294 (cfr. II, 270 n.), 299; II, 161; cata-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0846-col_left-L002",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}logus fixarum false ei tributus II, 269-270;",
+     "transcription": "logus fixarum false ei tributus II, 269-270;",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0846-col_left-L003",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}eius theorema 192 n. 2, 259.",
+     "transcription": "eius theorema 192 n. 2, 259.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0846-col_left-L004",
+     "source_line_no": null,
+     "tex": "menses Arabum \\textit{66}; — Romanorum \\textit{67}; —",
+     "transcription": "menses Arabum *66*; — Romanorum *67*; —",
+     "semantic_anchor": "AB01-PDF0846-col_left-E01",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0846-col_left-L005",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}Coptorum \\textit{67} (duplici ratione Arabice desi-",
+     "transcription": "Coptorum *67* (duplici ratione Arabice desi-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0846-col_left-L006",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}gnati 209 n. 3, 243, add. \\textsc{lxxiv}); — Per-",
+     "transcription": "gnati 209 n. 3, 243, add. {sc:lxxiv}); — Per-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0846-col_left-L007",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}sarum \\textit{67}; — nomina Latina mensium apud",
+     "transcription": "sarum *67*; — nomina Latina mensium apud",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0846-col_left-L008",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}Arabes II, 201-203 (add. \\textsc{xxx}); — nomina",
+     "transcription": "Arabes II, 201-203 (add. {sc:xxx}); — nomina",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0846-col_left-L009",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}Syriaca II, 203.",
+     "transcription": "Syriaca II, 203.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0846-col_left-L010",
+     "source_line_no": null,
+     "tex": "mensium initia v. signa.",
+     "transcription": "mensium initia v. signa.",
+     "semantic_anchor": "AB01-PDF0846-col_left-E02",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0846-col_left-L011",
+     "source_line_no": null,
+     "tex": "Mercurius nunquam Soli opponitur \\textit{55} (adn.",
+     "transcription": "Mercurius nunquam Soli opponitur *55* (adn.",
+     "semantic_anchor": "AB01-PDF0846-col_left-E03",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0846-col_left-L012",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}226); eius sphaeram umbra Terrae in ecli-",
+     "transcription": "226); eius sphaeram umbra Terrae in ecli-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0846-col_left-L013",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}psibus pertransit \\textit{54} (adn. 226); eius ano-",
+     "transcription": "psibus pertransit *54* (adn. 226); eius ano-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0846-col_left-L014",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}malia emendata ab al-Battānī \\textit{66} (adn. 242);",
+     "transcription": "malia emendata ab al-Battānī *66* (adn. 242);",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0846-col_left-L015",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}eius parallaxis \\textit{77} (adn. 252-253); bis in si-",
+     "transcription": "eius parallaxis *77* (adn. 252-253); bis in si-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0846-col_left-L016",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}gnorum ambitu perigeum pertransit \\textit{113} lin.",
+     "transcription": "gnorum ambitu perigeum pertransit *113* lin.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0846-col_left-L017",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}36-37; vocatus a nonnullis \\textit{al-kātib} 291,",
+     "transcription": "36-37; vocatus a nonnullis *al-kātib* 291,",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0846-col_left-L018",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}324; peculiaritates in eius motus longitudinis",
+     "transcription": "324; peculiaritates in eius motus longitudinis",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0846-col_left-L019",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}doctrina II, 243-245; v. planetae.",
+     "transcription": "doctrina II, 243-245; v. planetae.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0846-col_left-L020",
+     "source_line_no": null,
+     "tex": "meridianus primus a quo longitudines urbium",
+     "transcription": "meridianus primus a quo longitudines urbium",
+     "semantic_anchor": "AB01-PDF0846-col_left-E04",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0846-col_left-L021",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}computantur \\textit{19-20}; iuxta Indos 165; primus",
+     "transcription": "computantur *19-20*; iuxta Indos 165; primus",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0846-col_left-L022",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}meridianus Africae Occidentalis primitus a",
+     "transcription": "meridianus Africae Occidentalis primitus a",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0846-col_left-L023",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}Ptolemaico non differebat II, 213; longitudo",
+     "transcription": "Ptolemaico non differebat II, 213; longitudo",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0846-col_left-L024",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}et dimensio gradus meridiani \\textit{19} (adn. 164-",
+     "transcription": "et dimensio gradus meridiani *19* (adn. 164-",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0846-col_left-L025",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}165).",
+     "transcription": "165).",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0846-col_left-L026",
+     "source_line_no": null,
+     "tex": "meridianus caelestis v. culminatio.",
+     "transcription": "meridianus caelestis v. culminatio.",
+     "semantic_anchor": "AB01-PDF0846-col_left-E05",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0846-col_left-L027",
+     "source_line_no": null,
+     "tex": "meridies, qualis antiquis astronomis 228 n. 2.",
+     "transcription": "meridies, qualis antiquis astronomis 228 n. 2.",
+     "semantic_anchor": "AB01-PDF0846-col_left-E06",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0846-col_left-L028",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}— V. linea meridiana.",
+     "transcription": "— V. linea meridiana.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0846-col_left-L029",
+     "source_line_no": null,
+     "tex": "Meryem Čelebī, nomen a Sédillot ita false le-",
+     "transcription": "Meryem Čelebī, nomen a Sédillot ita false le-",
+     "semantic_anchor": "AB01-PDF0846-col_left-E07",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0846-col_left-L030",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}ctum pro Mīram Čelebī.",
+     "transcription": "ctum pro Mīram Čelebī.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0846-col_left-L031",
+     "source_line_no": null,
+     "tex": "Messahala v. Mā-shā’-allāh.",
+     "transcription": "Messahala v. Mā-shā’-allāh.",
+     "semantic_anchor": "AB01-PDF0846-col_left-E08",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0846-col_left-L032",
+     "source_line_no": null,
+     "tex": "Meton 41 n. 6, 300.",
+     "transcription": "Meton 41 n. 6, 300.",
+     "semantic_anchor": "AB01-PDF0846-col_left-E09",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0846-col_left-L033",
+     "source_line_no": null,
+     "tex": "Meyer P. C. II, 220 n.",
+     "transcription": "Meyer P. C. II, 220 n.",
+     "semantic_anchor": "AB01-PDF0846-col_left-E10",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0846-col_left-L034",
+     "source_line_no": null,
+     "tex": "Mez A. II, 363.",
+     "transcription": "Mez A. II, 363.",
+     "semantic_anchor": "AB01-PDF0846-col_left-E11",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0846-col_left-L035",
+     "source_line_no": null,
+     "tex": "\\textit{al-miǵlad} (?), \\textgreek{π}\\textsuperscript{6} Orionis II, \\textit{169}.",
+     "transcription": "*al-miǵlad* (?), π{sup:6} Orionis II, *169*.",
+     "semantic_anchor": "AB01-PDF0846-col_left-E12",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0846-col_left-L036",
+     "source_line_no": null,
+     "tex": "\\textit{miḥrāb} 318.",
+     "transcription": "*miḥrāb* 318.",
+     "semantic_anchor": "AB01-PDF0846-col_left-E13",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0846-col_left-L037",
+     "source_line_no": null,
+     "tex": "\\textit{al-mihraǵān} \\textit{67}.",
+     "transcription": "*al-mihraǵān* *67*.",
+     "semantic_anchor": "AB01-PDF0846-col_left-E14",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0846-col_left-L038",
+     "source_line_no": null,
+     "tex": "milliaria (\\textit{mīl}) Arabica \\textit{19} (adn. 164-165).",
+     "transcription": "milliaria (*mīl*) Arabica *19* (adn. 164-165).",
+     "semantic_anchor": "AB01-PDF0846-col_left-E15",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0846-col_left-L039",
+     "source_line_no": null,
+     "tex": "\\textit{mimsāk} \\texthebrew{מִמְסָךְ} \\textsc{lxxviii}.",
+     "transcription": "*mimsāk* מִמְסָךְ {sc:lxxviii}.",
+     "semantic_anchor": "AB01-PDF0846-col_left-E16",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0846-col_left-L040",
+     "source_line_no": null,
+     "tex": "minuta unius gradus \\textit{6}.",
+     "transcription": "minuta unius gradus *6*.",
+     "semantic_anchor": "AB01-PDF0846-col_left-E17",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0846-col_left-L041",
+     "source_line_no": null,
+     "tex": "\\textit{mir’āh} \\textsc{lxxv} (add. II, \\textsc{xvii}-\\textsc{xviii}).",
+     "transcription": "*mir’āh* {sc:lxxv} (add. II, {sc:xvii}-{sc:xviii}).",
+     "semantic_anchor": "AB01-PDF0846-col_left-E18",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0846-col_left-L042",
+     "source_line_no": null,
+     "tex": "Miram Čelebī 154 ter, 183; II, 335 plur., 339,",
+     "transcription": "Miram Čelebī 154 ter, 183; II, 335 plur., 339,",
+     "semantic_anchor": "AB01-PDF0846-col_left-E19",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0846-col_left-L043",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}352.",
+     "transcription": "352.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0846-col_left-L044",
+     "source_line_no": null,
+     "tex": "\\textit{al-mirzam} \\textit{125}, \\textit{126}, 295 plur.; — II, \\textit{283}",
+     "transcription": "*al-mirzam* *125*, *126*, 295 plur.; — II, *283*",
+     "semantic_anchor": "AB01-PDF0846-col_left-E20",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0846-col_left-L045",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}(ex Vh.; \\textgreek{β} Canis minoris).",
+     "transcription": "(ex Vh.; β Canis minoris).",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0846-col_left-L046",
+     "source_line_no": null,
+     "tex": "Mittwoch E. \\textsc{xi}.",
+     "transcription": "Mittwoch E. {sc:xi}.",
+     "semantic_anchor": "AB01-PDF0846-col_left-E21",
+     "source_role": "NALLINO_INDEX"
+    }
+   ]
+  },
+  {
+   "role": "col_right",
+   "lines": [
+    {
+     "id": "AB01-PDF0846-col_right-L001",
+     "source_line_no": null,
+     "tex": "\\textgreek{μῖξις} II, \\textsc{xix}.",
+     "transcription": "μῖξις II, {sc:xix}.",
+     "semantic_anchor": "AB01-PDF0846-col_right-E01",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0846-col_right-L002",
+     "source_line_no": null,
+     "tex": "\\textit{mizāǵ} 297-298 (add. \\textsc{lxxviii} et II, \\textsc{xviii}-\\textsc{xix}).",
+     "transcription": "*mizāǵ* 297-298 (add. {sc:lxxviii} et II, {sc:xviii}-{sc:xix}).",
+     "semantic_anchor": "AB01-PDF0846-col_right-E02",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0846-col_right-L003",
+     "source_line_no": null,
+     "tex": "molae motus \\textit{16} lin. 22 et 23.",
+     "transcription": "molae motus *16* lin. 22 et 23.",
+     "semantic_anchor": "AB01-PDF0846-col_right-E03",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0846-col_right-L004",
+     "source_line_no": null,
+     "tex": "Mommsen Th. 244.",
+     "transcription": "Mommsen Th. 244.",
+     "semantic_anchor": "AB01-PDF0846-col_right-E04",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0846-col_right-L005",
+     "source_line_no": null,
+     "tex": "de Monteregio I., v. Regiomontanus.",
+     "transcription": "de Monteregio I., v. Regiomontanus.",
+     "semantic_anchor": "AB01-PDF0846-col_right-E05",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0846-col_right-L006",
+     "source_line_no": null,
+     "tex": "de Montfaucon B. \\textsc{xxviii} n. 2.",
+     "transcription": "de Montfaucon B. {sc:xxviii} n. 2.",
+     "semantic_anchor": "AB01-PDF0846-col_right-E06",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0846-col_right-L007",
+     "source_line_no": null,
+     "tex": "Montucla J. F. \\textsc{xv} n. 4, \\textsc{xvii} n. 1, \\textsc{xxiv}, \\textsc{xl},",
+     "transcription": "Montucla J. F. {sc:xv} n. 4, {sc:xvii} n. 1, {sc:xxiv}, {sc:xl},",
+     "semantic_anchor": "AB01-PDF0846-col_right-E07",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0846-col_right-L008",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}\\textsc{lxxiv}, 205.",
+     "transcription": "{sc:lxxiv}, 205.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0846-col_right-L009",
+     "source_line_no": null,
+     "tex": "mora (\\textit{makth}) in eclipsibus, quo sensu ab al-",
+     "transcription": "mora (*makth*) in eclipsibus, quo sensu ab al-",
+     "semantic_anchor": "AB01-PDF0846-col_right-E08",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0846-col_right-L010",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}Battānī usurpata 275; II, 232.",
+     "transcription": "Battānī usurpata 275; II, 232.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0846-col_right-L011",
+     "source_line_no": null,
+     "tex": "Mordtmann J. H. II, 47.",
+     "transcription": "Mordtmann J. H. II, 47.",
+     "semantic_anchor": "AB01-PDF0846-col_right-E09",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0846-col_right-L012",
+     "source_line_no": null,
+     "tex": "Morelli Iac. II, 196.",
+     "transcription": "Morelli Iac. II, 196.",
+     "semantic_anchor": "AB01-PDF0846-col_right-E10",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0846-col_right-L013",
+     "source_line_no": null,
+     "tex": "de Morgan J. II, 45, 53 bis.",
+     "transcription": "de Morgan J. II, 45, 53 bis.",
+     "semantic_anchor": "AB01-PDF0846-col_right-E11",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0846-col_right-L014",
+     "source_line_no": null,
+     "tex": "Moritz B. II, 41, 46, 47 bis, 49.",
+     "transcription": "Moritz B. II, 41, 46, 47 bis, 49.",
+     "semantic_anchor": "AB01-PDF0846-col_right-E12",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0846-col_right-L015",
+     "source_line_no": null,
+     "tex": "Mouliéras Aug. II, \\textsc{xxix} n.",
+     "transcription": "Mouliéras Aug. II, {sc:xxix} n.",
+     "semantic_anchor": "AB01-PDF0846-col_right-E13",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0846-col_right-L016",
+     "source_line_no": null,
+     "tex": "Mouravieff 172 n. 4.",
+     "transcription": "Mouravieff 172 n. 4.",
+     "semantic_anchor": "AB01-PDF0846-col_right-E14",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0846-col_right-L017",
+     "source_line_no": null,
+     "tex": "Mubārak-shāh b. Ibrāhīm \\textsc{lxv}.",
+     "transcription": "Mubārak-shāh b. Ibrāhīm {sc:lxv}.",
+     "semantic_anchor": "AB01-PDF0846-col_right-E15",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0846-col_right-L018",
+     "source_line_no": null,
+     "tex": "\\textit{al-mudīr} Mercurii II, 243.",
+     "transcription": "*al-mudīr* Mercurii II, 243.",
+     "semantic_anchor": "AB01-PDF0846-col_right-E16",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0846-col_right-L019",
+     "source_line_no": null,
+     "tex": "\\textit{Mufīd al-‘ulūm} liber II, 50 et n. (ubi pro",
+     "transcription": "*Mufīd al-‘ulūm* liber II, 50 et n. (ubi pro",
+     "semantic_anchor": "AB01-PDF0846-col_right-E17",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0846-col_right-L020",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}1901 l. 1900).",
+     "transcription": "1901 l. 1900).",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0846-col_right-L021",
+     "source_line_no": null,
+     "tex": "Mufliḥ b. Yūnus 219.",
+     "transcription": "Mufliḥ b. Yūnus 219.",
+     "semantic_anchor": "AB01-PDF0846-col_right-E18",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0846-col_right-L022",
+     "source_line_no": null,
+     "tex": "Muḥammad, nomen Muslimicum \\textsc{xv}.",
+     "transcription": "Muḥammad, nomen Muslimicum {sc:xv}.",
+     "semantic_anchor": "AB01-PDF0846-col_right-E19",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0846-col_right-L023",
+     "source_line_no": null,
+     "tex": "Muḥammad propheta (Mahometus) \\textit{1}, \\textit{4}, \\textit{5}; II,",
+     "transcription": "Muḥammad propheta (Mahometus) *1*, *4*, *5*; II,",
+     "semantic_anchor": "AB01-PDF0846-col_right-E20",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0846-col_right-L024",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}\\textit{1}, \\textit{4}; legatio ad Heraclium II, 196 (add.",
+     "transcription": "*1*, *4*; legatio ad Heraclium II, 196 (add.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0846-col_right-L025",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}\\textsc{xxx}); « Arabicus Propheta » II, 199 n.",
+     "transcription": "{sc:xxx}); « Arabicus Propheta » II, 199 n.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0846-col_right-L026",
+     "source_line_no": null,
+     "tex": "Muḥ. b. ‘Abd al-Malik v. Ibn az-Zayyāt.",
+     "transcription": "Muḥ. b. ‘Abd al-Malik v. Ibn az-Zayyāt.",
+     "semantic_anchor": "AB01-PDF0846-col_right-E21",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0846-col_right-L027",
+     "source_line_no": null,
+     "tex": "Muḥ. b. Abī Bakr al-Fārisī II, 235 n.; eius",
+     "transcription": "Muḥ. b. Abī Bakr al-Fārisī II, 235 n.; eius",
+     "semantic_anchor": "AB01-PDF0846-col_right-E22",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0846-col_right-L028",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}aetas etc. II, \\textsc{xxiv}-\\textsc{xxv}.",
+     "transcription": "aetas etc. II, {sc:xxiv}-{sc:xxv}.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0846-col_right-L029",
+     "source_line_no": null,
+     "tex": "Muḥ. b. Abī ’sh-Shukr al-Maghrabī II, \\textsc{xiii}-",
+     "transcription": "Muḥ. b. Abī ’sh-Shukr al-Maghrabī II, {sc:xiii}-",
+     "semantic_anchor": "AB01-PDF0846-col_right-E23",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0846-col_right-L030",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}\\textsc{xiv}.",
+     "transcription": "{sc:xiv}.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0846-col_right-L031",
+     "source_line_no": null,
+     "tex": "Muḥ. b. Aḥmad Abū ’l-Muṭahhar \\textsc{xvii} n. 3.",
+     "transcription": "Muḥ. b. Aḥmad Abū ’l-Muṭahhar {sc:xvii} n. 3.",
+     "semantic_anchor": "AB01-PDF0846-col_right-E24",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0846-col_right-L032",
+     "source_line_no": null,
+     "tex": "Muḥ. b. Aḥmad ibn Ghāzī II, 323 (et n., no-",
+     "transcription": "Muḥ. b. Aḥmad ibn Ghāzī II, 323 (et n., no-",
+     "semantic_anchor": "AB01-PDF0846-col_right-E25",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0846-col_right-L033",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}titiae de eo).",
+     "transcription": "titiae de eo).",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0846-col_right-L034",
+     "source_line_no": null,
+     "tex": "Muḥ. b. Aḥmad al-Ḥāzimī as-Sa‘īdī 269 n. 3.",
+     "transcription": "Muḥ. b. Aḥmad al-Ḥāzimī as-Sa‘īdī 269 n. 3.",
+     "semantic_anchor": "AB01-PDF0846-col_right-E26",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0846-col_right-L035",
+     "source_line_no": null,
+     "tex": "Muḥ. b. Aḥmad al-Khuwārizmī Abū ‘Abd Allāh",
+     "transcription": "Muḥ. b. Aḥmad al-Khuwārizmī Abū ‘Abd Allāh",
+     "semantic_anchor": "AB01-PDF0846-col_right-E27",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0846-col_right-L036",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}284 n. 2, 325.",
+     "transcription": "284 n. 2, 325.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0846-col_right-L037",
+     "source_line_no": null,
+     "tex": "Muḥ. b. Aḥmad al-Mandā’ī \\textsc{xvi}.",
+     "transcription": "Muḥ. b. Aḥmad al-Mandā’ī {sc:xvi}.",
+     "semantic_anchor": "AB01-PDF0846-col_right-E28",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0846-col_right-L038",
+     "source_line_no": null,
+     "tex": "Muḥ. b. Aḥmad b. Muḥ. aṣ-Ṣabbāgh II, 338.",
+     "transcription": "Muḥ. b. Aḥmad b. Muḥ. aṣ-Ṣabbāgh II, 338.",
+     "semantic_anchor": "AB01-PDF0846-col_right-E29",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0846-col_right-L039",
+     "source_line_no": null,
+     "tex": "Muḥ. b. Aḥmad as-Samarqandī 211.",
+     "transcription": "Muḥ. b. Aḥmad as-Samarqandī 211.",
+     "semantic_anchor": "AB01-PDF0846-col_right-E30",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0846-col_right-L040",
+     "source_line_no": null,
+     "tex": "Muḥ. al-Akhṣāṣī v. al-Akhṣāṣī.",
+     "transcription": "Muḥ. al-Akhṣāṣī v. al-Akhṣāṣī.",
+     "semantic_anchor": "AB01-PDF0846-col_right-E31",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0846-col_right-L041",
+     "source_line_no": null,
+     "tex": "Muḥ. b. ‘Alī b. ‘Omar al-Aghzāwī (anno 1317",
+     "transcription": "Muḥ. b. ‘Alī b. ‘Omar al-Aghzāwī (anno 1317",
+     "semantic_anchor": "AB01-PDF0846-col_right-E32",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0846-col_right-L042",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}heg. scribens in ditione Maroccana) II, 287",
+     "transcription": "heg. scribens in ditione Maroccana) II, 287",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0846-col_right-L043",
+     "source_line_no": null,
+     "tex": "\\hspace*{10.74pt}n., 342, 353 n.",
+     "transcription": "n., 342, 353 n.",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0846-col_right-L044",
+     "source_line_no": null,
+     "tex": "Muḥ. Ḥaydar 172 n. 8.",
+     "transcription": "Muḥ. Ḥaydar 172 n. 8.",
+     "semantic_anchor": "AB01-PDF0846-col_right-E33",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0846-col_right-L045",
+     "source_line_no": null,
+     "tex": "Muḥ. b. Ismā‘īl at-Tanūkhī 303.",
+     "transcription": "Muḥ. b. Ismā‘īl at-Tanūkhī 303.",
+     "semantic_anchor": "AB01-PDF0846-col_right-E34",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0846-col_right-L046",
+     "source_line_no": null,
+     "tex": "Muḥ. b. Maḥmūd ash-Shahrazūrī \\textsc{xi}.",
+     "transcription": "Muḥ. b. Maḥmūd ash-Shahrazūrī {sc:xi}.",
+     "semantic_anchor": "AB01-PDF0846-col_right-E35",
+     "source_role": "NALLINO_INDEX"
+    }
+   ]
+  }
+ ]
+}
