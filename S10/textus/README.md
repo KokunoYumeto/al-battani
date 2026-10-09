@@ -2,7 +2,7 @@
 
 Part III of Nallino's edition prints the Arabic text of the *Zīj* from the Escorial codex. The scan has its pages in descending order (the book opens from the right): printed page = 1152 − PDF page. S10 covers the Arabic title page (PDF 1153), the list of chapters (pp. 1–5, PDF 1151–1147) and the text to p. 79 (PDF 1146–1073), in reading order.
 
-**Done:** the title page, pp. 1–5 (the invocation, the heading of the work and the codex's list of the 57 chapters with its closing formula) and the text of pp. 6–23: chapter 1, chapter 2 with the tables of the orders produced by multiplying and by dividing the sexagesimal orders, chapter 3 on chords, chapter 4 on the obliquity of the ecliptic (the observations at al-Raqqa, the declination of each degree and its six ranks), chapter 5 on the risings of the signs in the right sphere, and chapter 6 on the parallels of the equator and the inhabited places (the equator, the height of the pole, the parallels to the arctic circle). The text follows page by page.
+**Done:** the title page, pp. 1–5 (the invocation, the heading of the work and the codex's list of the 57 chapters with its closing formula) and the text of pp. 6–24: chapter 1, chapter 2 with the tables of the orders produced by multiplying and by dividing the sexagesimal orders, chapter 3 on chords, chapter 4 on the obliquity of the ecliptic (the observations at al-Raqqa, the declination of each degree and its six ranks), chapter 5 on the risings of the signs in the right sphere, and chapter 6 on the parallels of the equator and the inhabited places (the equator, the height of the pole, the parallels to the arctic circle and to the pole). The text follows page by page.
 
 ## Read
 
@@ -19,6 +19,7 @@ Part III of Nallino's edition prints the Arabic text of the *Zīj* from the Esco
 
 - Vowel signs, shadda, sukun, tanwīn, madda and hamza exactly as printed; where the print has no hamza, none is supplied. The type's lām-alif ends in a club head; a hamza is a separate mark above it (measured on every doubtful case). Under an alif the print usually sets a hamza with a kasra under it (إِ), sometimes a hamza alone (إنعام, p. 7); every إ is measured: a hamza alone is one mark of about 2.5 × 2.9 pt, a hamza with kasra is a hamza over a separate stroke (or one mark at least 3.9 pt tall where the two touch).
 - Final yā' with dots (ي) and without (ى), tā' marbūṭa (ة) and hā' (ه) as printed.
+- «الله» and «لله» are printed with a shadda and a superscript alif over the second lām and are transcribed so (اللّٰه, للّٰه). The dammatan is a damma with a second curl (نهارٌ, ليلٌ, p. 24); the fathatan on a final hamza is one sort with it (جزءًا).
 - Long joins (kashida) are not transcribed; the long swash form of kāf is transcribed ك.
 - Where the joining stroke of a lām did not print, the lām and the next letter are separated by a hairline (0.7–0.8 pt at 2400 dpi) and the lām looks like an alif; it is transcribed as a lām, with an observation (ولكيلا and فاُطلب on p. 15, حصلت on p. 17). A stroke that stands a full letter space (3.2 pt) from the next letter is an alif: the article of «واوتر» (p. 16) and «اوتر» (p. 17) lacks its lām, as printed.
 - Misprints are transcribed as printed and described in `@obs`: on p. 1 «ونجزية» (Nallino's corrigenda: «Pag. ١, lin. 18, lege وتجزية»); on p. 3 the numeral of chapter 18 printed يج for يح.
