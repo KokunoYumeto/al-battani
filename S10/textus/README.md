@@ -2,7 +2,7 @@
 
 Part III of Nallino's edition prints the Arabic text of the *Zīj* from the Escorial codex. The scan has its pages in descending order (the book opens from the right): printed page = 1152 − PDF page. S10 covers the Arabic title page (PDF 1153), the list of chapters (pp. 1–5, PDF 1151–1147) and the text to p. 79 (PDF 1146–1073), in reading order.
 
-**Done:** the title page, pp. 1–5 (the invocation, the heading of the work and the codex's list of the 57 chapters with its closing formula) and the text of pp. 6–8 (chapter 1 and the start of chapter 2). The text follows page by page.
+**Done:** the title page, pp. 1–5 (the invocation, the heading of the work and the codex's list of the 57 chapters with its closing formula) and the text of pp. 6–9 (chapter 1 and chapter 2 to the multiplication of fractions). The text follows page by page.
 
 ## Read
 

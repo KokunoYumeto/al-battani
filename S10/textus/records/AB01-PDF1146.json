@@ -124,8 +124,8 @@
   {
    "anchor": "AB01-PDF1146-L10",
    "kind": "text",
-   "text": "يوم الدين. ﴿ امّا بعد ﴾ إنّ من اشرف العلوم منزلةً واسناها مرتبةً واحسنها حِليةً واعلقها بالقلوب",
-   "plain": "يوم الدين. ﴿ امّا بعد ﴾ إنّ من اشرف العلوم منزلةً واسناها مرتبةً واحسنها حِليةً واعلقها بالقلوب",
+   "text": "يوم الدين. ﴿ امّا بعد ﴾ إِنّ من اشرف العلوم منزلةً واسناها مرتبةً واحسنها حِليةً واعلقها بالقلوب",
+   "plain": "يوم الدين. ﴿ امّا بعد ﴾ إِنّ من اشرف العلوم منزلةً واسناها مرتبةً واحسنها حِليةً واعلقها بالقلوب",
    "baseline": 430.2,
    "x0": 85.9,
    "x1": 508.2,
@@ -193,8 +193,8 @@
   {
    "anchor": "AB01-PDF1146-L15",
    "kind": "text",
-   "text": "ما يُدْرِك بذلك مَنْ أنعم النظر وأدام الفكر فيه من إثبات التوحيد ومعرفة كُنْه عظمة الخالق وسَعة",
-   "plain": "ما يُدْرِك بذلك مَنْ أنعم النظر وأدام الفكر فيه من إثبات التوحيد ومعرفة كُنْه عظمة الخالق وسَعة",
+   "text": "ما يُدْرِك بذلك مَنْ أنعم النظر وأدام الفكر فيه من إِثبات التوحيد ومعرفة كُنْه عظمة الخالق وسَعة",
+   "plain": "ما يُدْرِك بذلك مَنْ أنعم النظر وأدام الفكر فيه من إِثبات التوحيد ومعرفة كُنْه عظمة الخالق وسَعة",
    "baseline": 565.2,
    "x0": 85.9,
    "x1": 508.2,
@@ -283,6 +283,7 @@
   "L12: علم has no vowel signs; its lām is broken (the stem stands apart).",
   "L16: عزّمَن is printed without a space between the zāy and the mīm.",
   "L17: ٱلْسَّمَآء has a sukun over the lām, a fatha over the mīm and a madda over the alif; no kasra under the hamza (900 dpi, measured). The full stop after بُرُوجًا precedes the note number; likewise after خِلْفَةً (L18) and ٱلْحِسَابَ (L19).",
-  "L18: the final hamza of ضِيَاءً is one sort with the fathatan (a stroke with a hook on the hamza, 3.6 x 5.4 pt)."
+  "L18: the final hamza of ضِيَاءً is one sort with the fathatan (a stroke with a hook on the hamza, 3.6 x 5.4 pt).",
+  "every إ on this page was measured (hamza_below.py): a hamza with a kasra under the alif where transcribed إِ."
  ]
 }

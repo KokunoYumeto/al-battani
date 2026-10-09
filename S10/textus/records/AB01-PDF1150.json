@@ -271,8 +271,8 @@
   {
    "anchor": "AB01-PDF1150-L21",
    "kind": "text",
-   "text": "{num:يه}في معرفة ارتفاع الشمس في وقت إنصاف النهار في كلّ يوم",
-   "plain": "في معرفة ارتفاع الشمس في وقت إنصاف النهار في كلّ يوم",
+   "text": "{num:يه}في معرفة ارتفاع الشمس في وقت إِنصاف النهار في كلّ يوم",
+   "plain": "في معرفة ارتفاع الشمس في وقت إِنصاف النهار في كلّ يوم",
    "baseline": 675.0,
    "x0": 249.0,
    "x1": 494.5,
@@ -321,6 +321,7 @@
  "observations": [
   "L08: the chapter numeral 10 is printed as a dotless yā' (ى) under its bar.",
   "L22: the speck after الشمس (0.36 pt) is not a full stop (the full stop of p. 1 measures 2.9 x 3.2 pt).",
-  "L23: القائم is printed with a long join after the qāf (القــائم), not transcribed."
+  "L23: القائم is printed with a long join after the qāf (القــائم), not transcribed.",
+  "every إ on this page was measured (hamza_below.py): a hamza with a kasra under the alif where transcribed إِ."
  ]
 }

@@ -112,8 +112,8 @@
   {
    "anchor": "AB01-PDF1148-L09",
    "kind": "text",
-   "text": "{num:له}في إقامة الطالع والبيوت الاثناعشر من قبل ساعات النهار والليل ومعرفة الساعات من قبل الطالع",
-   "plain": "في إقامة الطالع والبيوت الاثناعشر من قبل ساعات النهار والليل ومعرفة الساعات من قبل الطالع",
+   "text": "{num:له}في إِقامة الطالع والبيوت الاثناعشر من قبل ساعات النهار والليل ومعرفة الساعات من قبل الطالع",
+   "plain": "في إِقامة الطالع والبيوت الاثناعشر من قبل ساعات النهار والليل ومعرفة الساعات من قبل الطالع",
    "baseline": 347.4,
    "x0": 88.4,
    "x1": 488.4,
@@ -309,6 +309,7 @@
   "L07: الرَّقَّة has a fatha over the shadda on the rā' and on the qāf; تُستخرَج has only a damma over the first tā' and a fatha over the rā' (1100 dpi), no sukun.",
   "L02: النيّريْن has a shadda over the first yā' and a sukun over the second; L19 طرفيْه a sukun over the yā'.",
   "L05: شئتَ ends with a fatha; L20 شئت has none (1100 dpi).",
-  "L07, L11, L14, L18, L21: long joins (الرَّقَّــة, وهمــا, الافــق, موضعــه, فيــه, منهــا) are not transcribed."
+  "L07, L11, L14, L18, L21: long joins (الرَّقَّــة, وهمــا, الافــق, موضعــه, فيــه, منهــا) are not transcribed.",
+  "every إ on this page was measured (hamza_below.py): a hamza with a kasra under the alif where transcribed إِ."
  ]
 }
