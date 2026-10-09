@@ -44,7 +44,9 @@ from pathlib import Path
 HERE = Path(__file__).resolve().parent
 NAME = "p3_textus"
 OUT_W, OUT_H = 623.62, 907.09            # the edition page: 220 x 320 mm, as the other editions of the project
-_AL = r"\u0600-\u065F\u066A-\u06EF\u06FA-\u06FF\u0750-\u077F\uFB50-\uFDFF\uFE70-\uFEFF"
+# Arabic letters and signs, and the Arabic-Indic figures (a page cited in a note, p. 46), which the Latin font of
+# the notes does not have
+_AL = r"\u0600-\u06EF\u06FA-\u06FF\u0750-\u077F\uFB50-\uFDFF\uFE70-\uFEFF"
 ARABIC_RUN = re.compile(r"([" + _AL + r"]+(?:[ \u060C.:،][" + _AL + r"]+)*)")
 AR_DIGITS = str.maketrans("0123456789", "٠١٢٣٤٥٦٧٨٩")
 WEST = str.maketrans("٠١٢٣٤٥٦٧٨٩", "0123456789")
