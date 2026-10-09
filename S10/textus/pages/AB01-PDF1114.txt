@@ -1,0 +1,53 @@
+@page 1114 ٣٨
+% Printed p. 38: chapter 12 continued: the azimuth line of the rising point of Cancer, the sine of the altitude without
+% azimuth found by similar triangles in the meridian circle ا ب ل, and its computation for the example (40;33, the arc
+% 42;32); the figure of the construction is redrawn.
+مطلع اوّل السرطان وهو وتر السمت المنصَّف. وايضًا تُخْرِج{n:1} من نقطة {ov:ز} عمودًا الى خطّ {ov:ه ب} موازيًا
+لخطّ {ov:ه ا} وهو عمود {ov:ز ك} وهو وتر الارتفاع نصفَ النهار ولذلك يبقى خطّ {ov:ك ه} وتر قوس {ov:ز ا} التي هي
+تمام الارتفاع فنُريد وجود خطّ {ov:ه م} الذي هو وتر الارتفاع الذي لا ميْلَ لسمته اذ كان خطّ {ov:ه م} مساويًا
+لعمود {ov:د ح} الذي يظهر انّه وتر قوس {ov:ب د} التي هي مقدار هذا الارتفاع المطلوب اذا كانت دائرة {ov:ا ب ل}
+مارّةً على سمت الرؤس ونقطة اوّل السرطان فلِأَنَّ مثلَّث {ov:ز ك ج} *القائم الزاوية قد صار معلوم الأضلاع{mL:5}{mR:f. 25,r.}
+وهو مناسب{n:2} لمثلَّث {ov:م ه ح} الصغير اذا كانت زاوية {ov:م ه ج} مساويةً لزاوية {ov:ز ك ه} وزاوية {ov:ج م ه} مساوية
+لزاوية {ov:ك ز ج} وزاوية {ov:ك ج ز} مشتركة للمثلَّثيْن فلذلك تكون نسبة خطّ {ov:ز ك} الى خطّ {ov:ك ج} مثل خطّ {ov:م ه}
+الى خطّ {ov:ه ج}. وايضًا فانّ نسبة خطّ {ov:ه ج} الى خطّ {ov:ج ك} كنسبة {ov:ه م} الى {ov:ك ز} وهي ايضًا نسبة خطّ {ov:ج م}
+الى خطّ {ov:ج ز} فاذا القيْنا من خطّ {ov:ك ز} نسبة [خطّ {ov:ج م} الى خطّ {ov:ج ز}]{n:3} بقِيَتْ لنا نسبة خطّ {ov:ه م} الى خطّ
+{ov:ك ز} وكذلك هو اذا اخذنا من خطّ {ov:ك ز} بقدر خطّ {ov:ج ه} من خطّ {ov:ج ك} صارت لنا نسبة {ov:ه م} الى {ov:ك ز}.{mL:10}
+@fig F01
+@ft ا
+@ft ز
+@ft م
+@ft د
+@ft ل
+@ft ج
+@ft ه
+@ft ك
+@ft ح
+@ft ب
+@ft ط
+@endfig
+حساب ذلك انْ تضرب خطّ {ov:ه ج}
+الذي قد ظهر انّه {ov:ل} جزءً في خطّ
+{ov:ك ز} الذي هو {ov:نح لا} وهو وتر قوس {ov:ب ز}
+المنصَّف فيبلغ الف وسبعمائة وخمسة{n:4}
+وخمسين جزءًا ونصف جزء وخطّ {ov:ك ه}{mL:15}
+الذي هو وتر تمام الارتفاع يكون {ov:يج يز}
+فخطّ{n:5} {ov:ه ج} و {ov:ه ك} مجموعين يكونان {ov:مج يز}
+وهو خطّ {ov:ك ج} كلّه فاذا قسمنا ذلك *على{mR:f. 25,v.}
+خطّ {ov:ك ج} حصل {ov:م لج} وهو مقدار خطّ
+{ov:ه م} المطلوب وخطّ {ov:د ح} مثله ولذلك{mL:20}
+يكون قوس {ov:د ب} اثنين واربعين جزءًا واثنتين وثلثين دقيقة وهي الارتفاع الذي لا ميْلَ لسمته وذلك
+ما اردْنا انْ نُبيّن ان شاء اللّٰه.
+@notes
+1) Cod. يخرج — 2) Cod. مناسبة — 3) Cod. خط ك ج الى نسبة خط ج م — 4) Deest in cod. —
+5) Cod. قوس
+@obs The figure (F01) is redrawn where printed, beside L11-L20: the circle and its six straight lines are least-squares fits to their ink (circle: centre 206.70, 523.11 pt, radius 109.83 pt, stroke 1.42 pt; lines 1.2-1.4 pt), and the eleven letters are set at the centres of their printed ink (tools_s10/fig_measure.py, 600 dpi). As on p. 35 its letters are larger than the overlined letters of the text and are set at 15.5 pt; ه prints as a ring.
+@obs L03, L06, L07, L08, L10, L11, L12, L14, L20, L21: long joins (لسمتـه, لزاويـة, مساويـة, مثـل, خـطّ, نسبـة, حسـاب, ذلـك, فيبلـغ, مثـله) are not transcribed.
+@obs Every group of overlined letters stands under one bar: the points of the figure (pairs and the triples ا ب ل, ز ك ج, م ه ح, م ه ج, ز ك ه, ج م ه, ك ز ج, ك ج ز) and the numbers ل (30), نح لا (58;31), يج يز (13;17), مج يز (43;17) and م لج (40;33). ه prints as a small ring or a filled dot (Tesseract reads ٠).
+@obs L01: المنصَّف (also L14): a fatha over the shadda on the ṣād. تُخْرِج: a damma over the tā', a sukun over the khā' (a round mark, -13.7 to -11.2 pt, above the tā''s pair and the khā''s dot), a kasra under the rā' (3000 dpi). مطلع: its final ʿayn printed filled (Tesseract reads مطام). عمودًا, موازيًا, L03 مساويًا: fathatan.
+@obs L02: نصفَ: a fatha over the fā'. يبقى has no dots under its yā'. L03: فنُريد: a damma over the nūn. ميْلَ (also L21): a sukun over the yā' and a fatha over the lām.
+@obs L04, L12: انّه: a shadda over the nūn, printed high (-15.5 to -13.0 pt). L05: مارّةً: a shadda over the rā' and fathatan over the tā' marbūṭa. فلِأَنَّ: a kasra under the lām, hamza and fatha over the alif, a fatha over the shadda on the nūn. مثلَّث (also L06 لمثلَّث and L07 للمثلَّثيْن): a fatha over the shadda on the lām. الأضلاع: a bare hamza over the alif (2.5 x 3.2 pt).
+@obs L06: مساويةً: fathatan. L07: للمثلَّثيْن: a sukun over the yā' (-14.0 to -11.5 pt) above its tooth, the nūn's dot at dot height (2600 dpi).
+@obs L08, L10: the full stops after «ه ج» and «ك ز». L09: القيْنا: a sukun over the yā'. بقِيَتْ: a kasra under the qāf, a fatha over the yā' and a sukun over the tā'. The square brackets are printed as in a right-to-left text (the opening bracket, on the right, as ]), as on p. 35; the reference to note 3 stands after the closing bracket.
+@obs L11, L22: انْ: over the nūn a sukun (-12.3 to -9.8 pt) above its dot (2600 dpi). L22: اردْنا: a sukun over the dāl. نُبيّن: a damma over the nūn and a shadda over the yā'.
+@obs L12: «جزءً» is printed without an alif after the hamza, which carries its fathatan in one sort (3.6 x 5.8 pt); on L15 and L21 «جزءًا» has its alif. L13: نح (58), not نج: there is no dot in the bowl (3000 dpi); with لا it is 58;31, as the multiplication on L14-L15 requires (30 x 58;31 = 1755;30). L19: م لج (40;33): a dot in the bowl of the jīm (3000 dpi).
+@obs L17: «و» stands between «ه ج» and «ه ك» with a space on each side; a speck (1.1 x 0.7 pt) before it is not a full stop. L18: «وهو» and «خطّ» are printed without a space between them. In فاذا the alif printed in two pieces. The asterisk stands before على.
