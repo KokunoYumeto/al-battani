@@ -88,8 +88,8 @@
   {
    "anchor": "AB01-PDF1148-L07",
    "kind": "text",
-   "text": "النهار بمدينة الرَّقَّة وبها تُستخرَج الحركات في كلّ حين فيُعْرَف وسط الكوكب في ذلك الوقت",
-   "plain": "النهار بمدينة الرَّقَّة وبها تُستخرَج الحركات في كلّ حين فيُعْرَف وسط الكوكب في ذلك الوقت",
+   "text": "النهار بمدينة الرَّقَّة وبها تُستخْرَج الحركات في كلّ حين فيُعْرَف وسط الكوكب في ذلك الوقت",
+   "plain": "النهار بمدينة الرَّقَّة وبها تُستخْرَج الحركات في كلّ حين فيُعْرَف وسط الكوكب في ذلك الوقت",
    "baseline": 293.4,
    "x0": 88.4,
    "x1": 488.4,
@@ -310,6 +310,7 @@
   "L02: النيّريْن has a shadda over the first yā' and a sukun over the second; L19 طرفيْه a sukun over the yā'.",
   "L05: شئتَ ends with a fatha; L20 شئت has none (1100 dpi).",
   "L07, L11, L14, L18, L21: long joins (الرَّقَّــة, وهمــا, الافــق, موضعــه, فيــه, منهــا) are not transcribed.",
-  "every إ on this page was measured (hamza_below.py): a hamza with a kasra under the alif where transcribed إِ."
+  "every إ on this page was measured (hamza_below.py): a hamza with a kasra under the alif where transcribed إِ.",
+  "L07: تُستخْرَج: over the khā' its dot and above it a sukun (two round marks, -7 and -11 pt; found by tools_s10/sukunsweep.py, checked at 1400 dpi)."
  ]
 }

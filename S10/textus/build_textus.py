@@ -20,6 +20,11 @@ as printed):
   @c SIZE TEXT        a centred display line set in SIZE pt (takes a geometry line)
   @rule Y LEN         a short centred rule LEN pt long at Y (no geometry line)
   @orn Y              the printed ornament, centred at Y (no geometry line)
+  @fig NAME           a figure redrawn where printed (it takes no geometry line): its circles and straight lines from
+                      the geometry ("figures": centres, radii, end points and stroke widths measured on the scan);
+  @ft TEXT            its labels follow, one per line in reading order, each set at the measured centre of its printed
+                      ink, turned where printed, and narrowed to its printed length where a length is given
+  @endfig             the end of the figure
   @notes              the footnotes follow, one source line per printed line (Latin with Arabic; they take the
                       geometry's note lines)
   @obs TEXT           an observation on the print, kept in the record
@@ -141,9 +146,22 @@ def parse(path):
     page = {"pdf": int(head[1]), "printed": head[2], "kind": "text", "items": [], "notes": [], "obs": []}
     section = "items"
     table = None
+    figure = None
     for raw in lines[1:]:
         ln = unicodedata.normalize("NFC", raw.rstrip("\r"))
         if not ln.strip() or ln.startswith("%"):
+            continue
+        if figure is not None:
+            if ln.startswith("@endfig"):
+                page["items"].append(("figure", figure["name"], figure["texts"]))
+                figure = None
+            elif ln.startswith("@ft "):
+                figure["texts"].append(ln[4:].strip())
+            else:
+                raise SystemExit(f"{path.name}: inside @fig only @ft labels and @endfig")
+            continue
+        if ln.startswith("@fig "):
+            figure = {"name": ln.split()[1], "texts": []}
             continue
         if table is not None:
             if ln.startswith("@endtable"):
@@ -262,7 +280,8 @@ def page_tex(page, geo, recs, anchors):
 
     tables = geo.get("tables", [])
     labels = geo.get("labels", [])
-    ti = li = 0
+    figures = geo.get("figures", [])
+    ti = li = fi = 0
 
     def tikz_lines(segs, width):
         """straight rules in page coordinates (PDF points of the scan)"""
@@ -318,6 +337,43 @@ def page_tex(page, geo, recs, anchors):
                     anchors.append((aid, pdf, printed, "cell", strip_markup(cell.lstrip("="))))
             rec.setdefault("tables", []).append(trec)
             continue
+        if kind == "figure":
+            # a figure redrawn where printed: circles and straight lines with their measured stroke widths, and the
+            # labels at the measured centres of their printed ink (turned where printed; narrowed to the printed length)
+            _, name, texts = item
+            if fi >= len(figures) or figures[fi].get("name") != name:
+                raise SystemExit(f"AB01-PDF{pdf:04}: figure {name} is not measured (geometry 'figures')")
+            fg = figures[fi]
+            fi += 1
+            if len(texts) != len(fg["texts"]):
+                raise SystemExit(f"AB01-PDF{pdf:04} {name}: {len(fg['texts'])} labels measured, {len(texts)} transcribed")
+
+            def pt(x, y):
+                return "([shift={(" + f"{x + dx:.2f}pt,{-(y + dy):.2f}pt" + ")}]current page.north west)"
+            draw = "".join(r"\draw[line width=" + f"{c['w']:.2f}pt" + "] " + pt(c["cx"], c["cy"]) + " circle[radius=" +
+                           f"{c['r']:.2f}pt" + "];" for c in fg.get("circles", []))
+            draw += "".join(r"\draw[line width=" + f"{s['w']:.2f}pt" + "] " + pt(s["x0"], s["y0"]) + " -- " +
+                            pt(s["x1"], s["y1"]) + ";" for s in fg.get("segments", []))
+            out.append(r"\begin{tikzpicture}[remember picture,overlay]" + draw + r"\end{tikzpicture}")
+            frec = {"name": name, "anchor": f"AB01-PDF{pdf:04}-{name}", "circles": fg.get("circles", []),
+                    "segments": fg.get("segments", []), "labels": [], "note": fg.get("note", "")}
+            for j, (t, tg) in enumerate(zip(texts, fg["texts"]), 1):
+                aid = f"AB01-PDF{pdf:04}-{name}-T{j:02}"
+                size = tg.get("size", 13.8)
+                body = ar_inline(t)
+                inner = (r"\RLN{" + f"{tg['w']:.2f}pt" + "}{" + body + "}") if tg.get("w") else (r"\RL{" + body + "}")
+                node = (r"\hypertarget{" + aid + r"}{}{\fontsize{" + f"{size}" + "}{" + f"{size * 1.2:.1f}" +
+                        r"}\ArBody" + inner + "}")
+                rot = tg.get("rot", 0)
+                if rot:
+                    out.append(r"\At{center}{" + f"{tg['x'] + dx:.2f}pt,{-(tg['y'] + dy):.2f}pt" + r"}{\rotatebox{" +
+                               f"{rot:.1f}" + "}{" + node + "}}")
+                else:
+                    out.append(at("center", tg["x"], tg["y"], node))
+                frec["labels"].append({"anchor": aid, "text": t, "x": tg["x"], "y": tg["y"], "rot": rot, "size": size})
+                anchors.append((aid, pdf, printed, "figure", strip_markup(t)))
+            rec.setdefault("figures", []).append(frec)
+            continue
         if kind == "label":
             # a letter set beside a table or a figure (the sides of a table), where printed
             lg = labels[li]
@@ -372,8 +428,9 @@ def page_tex(page, geo, recs, anchors):
         anchors.append((aid, pdf, printed, kind, plain))
     if gi != len(glines):
         raise SystemExit(f"AB01-PDF{pdf:04}: {len(glines)} geometry lines, {gi} transcribed")
-    if ti != len(tables) or li != len(labels):
-        raise SystemExit(f"AB01-PDF{pdf:04}: {len(tables)} tables / {len(labels)} labels measured, {ti} / {li} transcribed")
+    if ti != len(tables) or li != len(labels) or fi != len(figures):
+        raise SystemExit(f"AB01-PDF{pdf:04}: {len(tables)} tables / {len(labels)} labels / {len(figures)} figures "
+                         f"measured, {ti} / {li} / {fi} transcribed")
     if page.get("sig"):
         # the printer's signature at the foot of the first page of a sheet, where printed
         s = geo.get("sig")
