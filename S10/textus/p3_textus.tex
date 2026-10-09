@@ -1,0 +1,256 @@
+\documentclass[11pt]{article}
+\usepackage[paperwidth=220mm,paperheight=320mm,left=16mm,right=16mm,top=18mm,bottom=18mm,headheight=16pt,headsep=10pt,footskip=14pt]{geometry}
+\usepackage{fontspec,graphicx,tikz}
+\usepackage[unicode,hidelinks]{hyperref}
+\usepackage{polyglossia}
+\setmainlanguage{latin}
+\setotherlanguages{arabic}
+\setmainfont{Linux Libertine O}[Ligatures=TeX]
+\newfontfamily\arabicfont{Amiri}[Script=Arabic]
+\newfontfamily\ArBody{Amiri}[Script=Arabic]
+\newfontfamily\OrnFont{FreeSerif}
+\hypersetup{pdftitle={Al-Battani, Kitab az-Zij as-Sabi'. Textus Arabicus (Nallino, Pars III). S10},pdfauthor={Al-Battani; Carlo Alfonso Nallino (ed.)}}
+\makeatletter
+\def\ps@sourceedition{%
+\def\@oddhead{\vbox{\hbox to\textwidth{\fontsize{8}{10}\selectfont AL-BATTĀNĪ — TEXTUS ARABICUS (NALLINO, PARS III)\hfil\leftmark}\vskip3pt\hrule height.25pt}}%
+\let\@evenhead\@oddhead
+\def\@oddfoot{\hbox to\textwidth{\fontsize{7}{9}\selectfont\rightmark\hfil\thepage}}%
+\let\@evenfoot\@oddfoot}
+\makeatother
+\pagestyle{sourceedition}
+\setlength{\parindent}{0pt}\setlength{\parskip}{0pt}
+\tracinglostchars=2
+\newcommand{\DSource}[2]{\clearpage\markboth{#2}{AB01-PDF#1}\pdfbookmark[0]{AB01-PDF#1 — #2}{bk-#1}\null}
+% place #3 with its anchor #1 at (#2) from the top left corner of the page
+\newcommand{\At}[3]{\begin{tikzpicture}[remember picture,overlay]\node[anchor=#1,inner sep=0pt,outer sep=0pt] at ([shift={(#2)}]current page.north west) {#3};\end{tikzpicture}}
+\newsavebox{\LBox}
+% a right-to-left line #2 justified to the width #1 (\RLJ) or at its natural width (\RLN); narrowed to #1 if wider
+\newcommand{\RLJ}[2]{\sbox{\LBox}{\RL{#2}}%
+ \ifdim\wd\LBox>#1\relax\typeout{NARROWED|\the\wd\LBox|#1}\resizebox{#1}{\ht\LBox}{\usebox{\LBox}}%
+ \else\makebox[#1][s]{\RL{#2}}\fi}
+\newcommand{\RLN}[2]{\sbox{\LBox}{\RL{#2}}%
+ \ifdim\wd\LBox>#1\relax\typeout{NARROWED|\the\wd\LBox|#1}\resizebox{#1}{\ht\LBox}{\usebox{\LBox}}%
+ \else\usebox{\LBox}\fi}
+\newcommand{\Note}[1]{\textsuperscript{\fontsize{8}{8}\selectfont\addfontfeatures{Numbers=Lining}#1}}
+\newcommand{\Ov}[1]{\vbox{\hrule height .4pt\kern 1.0pt\hbox{#1}}}
+\newcommand{\ArRun}[1]{\textarabic{#1}}
+\begin{document}
+\thispagestyle{empty}
+\begin{center}\Large AL-BATTĀNĪ\par\vspace{4mm}\LARGE KITĀB AZ-ZĪJ AṢ-ṢĀBIʾ\par
+\vspace{5mm}\large textus Arabicus a Carolo Alphonso Nallino editus (pars III)\par\vspace{8mm}
+\Large S10 --- editio diplomatica\par\vspace{4mm}\large Titulus; paginae impressae 1--5\end{center}
+\vspace{12mm}\noindent Singulae lineae paginarum impressarum singulis lineis huius editionis respondent et ibi
+collocantur ubi in pagina impressa stant (lineae quae totam latitudinem implent ad eandem latitudinem
+extenduntur). Textus Arabicus cum signis vocalium, ut impressa sunt, ex imaginibus paginarum transcriptus est;
+productiones litterarum (kashida) non transcribuntur. Numeri foliorum codicis et numeri linearum Nallini in
+marginibus stant ubi impressi sunt. Haec transcriptio a nullo homine recognita est.\par
+\DSource{1153}{SINE NUMERO}
+\At{base}{326.68pt,-145.19pt}{\hypertarget{AB01-PDF1153-L01}{}{\fontsize{46.0}{55.2}\ArBody\RL{كتاب الزيج الصابئ}}}
+\At{base}{324.13pt,-215.19pt}{\hypertarget{AB01-PDF1153-L02}{}{\fontsize{13.0}{15.6}\ArBody\RL{تاليف}}}
+\At{base}{325.58pt,-258.88pt}{\hypertarget{AB01-PDF1153-L03}{}{\fontsize{27.0}{32.4}\ArBody\RL{ابي عبد الله محمّد بن سنان بن جابر الحرّانيّ}}}
+\At{base}{324.73pt,-318.69pt}{\hypertarget{AB01-PDF1153-L04}{}{\fontsize{27.0}{32.4}\ArBody\RL{المعروف بالبَتّانيّ}}}
+\At{base}{325.23pt,-384.58pt}{\hypertarget{AB01-PDF1153-L05}{}{\fontsize{19.0}{22.8}\ArBody\RL{نُقِلَ عن النسخة المحفوظة بمكتبة بلدة الإسْكوريال من بلاد الاندلس}}}
+\At{base}{324.18pt,-442.19pt}{\hypertarget{AB01-PDF1153-L06}{}{\fontsize{11.5}{13.8}\ArBody\RL{اعتنى بطبعه وتصحيحه وترجمه الى اللغة اللاتينيّة وعلّق حواشيه}}}
+\At{base}{323.08pt,-482.49pt}{\hypertarget{AB01-PDF1153-L07}{}{\fontsize{17.0}{20.4}\ArBody\RL{الدكتور كَرْلو نالّينو}}}
+\At{base}{324.53pt,-516.99pt}{\hypertarget{AB01-PDF1153-L08}{}{\fontsize{11.5}{13.8}\ArBody\RL{مدرّس بمدرسة اللغات الشرقيّة في نابولي}}}
+\At{center}{325.58pt,-604.48pt}{{\OrnFont\fontsize{20}{20}\selectfont ❦}}
+\At{base}{323.63pt,-708.88pt}{\hypertarget{AB01-PDF1153-L09}{}{\fontsize{22.0}{26.4}\ArBody\RL{طُبع بمدينة رومية العظمى}}}
+\At{base}{322.93pt,-741.29pt}{\hypertarget{AB01-PDF1153-L10}{}{\fontsize{11.5}{13.8}\ArBody\RL{سنة ١٨٩٩ المسيحيّة}}}
+\DSource{1151}{PAG. 1}
+\At{base}{338.23pt,-147.44pt}{\hypertarget{AB01-PDF1151-L01}{}{\fontsize{26.0}{31.2}\ArBody\RL{بسم الله الرحمن الرحيم}}}
+\At{base east}{115.03pt,-147.44pt}{{\fontsize{8}{9}\selectfont fol. 1,v.}}
+\At{base}{333.18pt,-214.75pt}{\hypertarget{AB01-PDF1151-L02}{}{\fontsize{26.0}{31.2}\ArBody\RL{صلّى الله على النبيّ محمّد رسوله الكريم وعلى آله وصحبه وسلّم}}}
+\At{center}{331.33pt,-276.84pt}{\rule{69.0pt}{0.5pt}}
+\At{base east}{521.43pt,-411.64pt}{\hypertarget{AB01-PDF1151-L03}{}{\fontsize{13.8}{27}\ArBody\RLJ{401.40pt}{جامع ما وضع محمّد بن جابر بن سنان الحرّانيّ المعروف بالبَتّانيّ عفا الله عنه في حساب النجوم}}}
+\At{base east}{545.53pt,-438.64pt}{\hypertarget{AB01-PDF1151-L04}{}{\fontsize{13.8}{27}\ArBody\RLN{358.50pt}{ومواضع مسيرها الممتحن وجملة ما فيه من الأبواب سبعة\Note{1} وخمسون بابًا وهذا تفسيرها.}}}
+\At{base east}{520.73pt,-495.14pt}{\hypertarget{AB01-PDF1151-L05}{}{\fontsize{13.8}{27}\ArBody\RLN{232.90pt}{في صدر الكتاب}}}
+\At{base east}{545.53pt,-495.14pt}{{\fontsize{13.8}{27}\ArBody\Ov{ا}}}
+\At{base east}{520.03pt,-518.94pt}{\hypertarget{AB01-PDF1151-L06}{}{\fontsize{13.8}{27}\ArBody\RLN{385.20pt}{في تقسيم دائرة الفلك وضرب الأجزاء بعضها في بعض وتجذيرها وقسمتها بعضها على بعض}}}
+\At{base east}{560.33pt,-518.94pt}{{\fontsize{13.8}{27}\ArBody\Ov{ب}}}
+\At{base west}{555.53pt,-518.94pt}{{\fontsize{8}{9}\selectfont 15}}
+\At{base east}{519.63pt,-547.35pt}{\hypertarget{AB01-PDF1151-L07}{}{\fontsize{13.8}{27}\ArBody\RLJ{400.70pt}{في معرفة اقدار اوتار اجزاء الدائرة وإِثبات أنصاف اوتار أضعاف القسيّ في الجداول وما يتبع}}}
+\At{base east}{545.53pt,-547.35pt}{{\fontsize{13.8}{27}\ArBody\Ov{ج}}}
+\At{base east}{520.73pt,-576.14pt}{\hypertarget{AB01-PDF1151-L08}{}{\fontsize{13.8}{27}\ArBody\RLN{81.00pt}{ذلك من العمل بها}}}
+\At{base east}{520.03pt,-599.55pt}{\hypertarget{AB01-PDF1151-L09}{}{\fontsize{13.8}{27}\ArBody\RLJ{401.40pt}{في مقدار ميل فلك البروج عن فلك معدّل النهار ونجزية هذا الميل وجهاته ومراتبه في صعوده}}}
+\At{base east}{545.53pt,-599.55pt}{{\fontsize{13.8}{27}\ArBody\Ov{د}}}
+\At{base east}{520.03pt,-629.14pt}{\hypertarget{AB01-PDF1151-L10}{}{\fontsize{13.8}{27}\ArBody\RLN{190.10pt}{وهبوطه وهو ميل الشمس عن الفلك المستقيم}}}
+\At{base east}{519.33pt,-654.64pt}{\hypertarget{AB01-PDF1151-L11}{}{\fontsize{13.8}{27}\ArBody\RLJ{402.20pt}{في معرفة اقدار ما يطلع من فلك معدّل النهار مع قسيّ فلك البروج المفروضة\Note{2} تحت معدّل النهار}}}
+\At{base east}{559.23pt,-654.64pt}{{\fontsize{13.8}{27}\ArBody\Ov{ه}}}
+\At{base west}{555.53pt,-654.64pt}{{\fontsize{8}{9}\selectfont 20}}
+\At{base east}{519.33pt,-682.05pt}{\hypertarget{AB01-PDF1151-L12}{}{\fontsize{13.8}{27}\ArBody\RLJ{401.80pt}{الذي يسمَّى خطّ الاستواء وبهذه الاقدار ايضًا تمرّ البروج وتجوز في فلك نصف النهار في كلّ}}}
+\At{base east}{518.93pt,-708.64pt}{\hypertarget{AB01-PDF1151-L13}{}{\fontsize{13.8}{27}\ArBody\RLN{272.20pt}{موضع من الارض ويسمَّى لذلك مطالع البروج في الفلك المستقيم}}}
+\At{west}{117.53pt,-735.14pt}{\rule{102.2pt}{0.5pt}}
+\At{base west}{143.43pt,-763.55pt}{\hypertarget{AB01-PDF1151-N01}{}{\fontsize{9.2}{11}\selectfont 1) Cod. \ArRun{سبع} — 2) Excidisse videtur \ArRun{في البلدان التي}}}
+\DSource{1150}{PAG. 2}
+\At{base east}{498.63pt,-143.27pt}{\hypertarget{AB01-PDF1150-L01}{}{\fontsize{13.8}{27}\ArBody\RLJ{397.80pt}{في معرفة خواصّ كلّ خطّ من الخطوط الموازية لمعدّل النهار المائل عنه الى الشمال وذكر مواضع}}}
+\At{base east}{524.73pt,-143.27pt}{{\fontsize{13.8}{27}\ArBody\Ov{و}}}
+\At{base east}{497.93pt,-170.27pt}{\hypertarget{AB01-PDF1150-L02}{}{\fontsize{13.8}{27}\ArBody\RLN{265.70pt}{الارض العامرة المعلومة الطول والعرض في كتاب صورة الارض}}}
+\At{base east}{498.63pt,-197.27pt}{\hypertarget{AB01-PDF1150-L03}{}{\fontsize{13.8}{27}\ArBody\RLJ{397.80pt}{في معرفة سعة مشارق الشتاء والصيف ومغاربها من دوائر آفاق البلدان وهي القسيّ التي تكون}}}
+\At{base east}{524.33pt,-197.27pt}{{\fontsize{13.8}{27}\ArBody\Ov{ز}}}
+\At{base east}{498.63pt,-224.27pt}{\hypertarget{AB01-PDF1150-L04}{}{\fontsize{13.8}{27}\ArBody\RLJ{397.80pt}{بين فلك معدّل النهار ومواضع فلك البروج في دائرة الافق ويسمَّى سمت المطالع والمغارب من}}}
+\At{base east}{498.63pt,-251.27pt}{\hypertarget{AB01-PDF1150-L05}{}{\fontsize{13.8}{27}\ArBody\RLN{45.00pt}{دائرة الافق}}}
+\At{base east}{91.63pt,-251.27pt}{{\fontsize{8}{9}\selectfont 5}}
+\At{base east}{498.63pt,-278.56pt}{\hypertarget{AB01-PDF1150-L06}{}{\fontsize{13.8}{27}\ArBody\RLN{324.00pt}{في معرفة ارتفاع القطب الشماليّ من قبل زيادة النهار الاطول اذا كان مفروضًا}}}
+\At{base east}{525.03pt,-278.56pt}{{\fontsize{13.8}{27}\ArBody\Ov{ح}}}
+\At{base east}{498.63pt,-305.97pt}{\hypertarget{AB01-PDF1150-L07}{}{\fontsize{13.8}{27}\ArBody\RLN{267.50pt}{في معرفة زيادة *النهار الاطول من قبل ارتفاع القطب المفروض}}}
+\At{base east}{525.03pt,-305.97pt}{{\fontsize{13.8}{27}\ArBody\Ov{ط}}}
+\At{base west}{531.53pt,-305.97pt}{{\fontsize{8}{9}\selectfont f. 2,r.}}
+\At{base east}{498.63pt,-332.56pt}{\hypertarget{AB01-PDF1150-L08}{}{\fontsize{13.8}{27}\ArBody\RLJ{397.80pt}{في معرفة الارتفاع والظلّ احدهما من قبل الآخر اذا كان الظلّ بسيطًا ومعرفة ذلك اذا كان}}}
+\At{base east}{525.43pt,-332.56pt}{{\fontsize{13.8}{27}\ArBody\Ov{ى}}}
+\At{base east}{497.93pt,-359.56pt}{\hypertarget{AB01-PDF1150-L09}{}{\fontsize{13.8}{27}\ArBody\RLN{40.40pt}{الظلّ قائمًا}}}
+\At{base east}{498.63pt,-386.56pt}{\hypertarget{AB01-PDF1150-L10}{}{\fontsize{13.8}{27}\ArBody\RLJ{397.80pt}{في معرفة سمت الارتفاع والظلّ من دائرة الافق في كلّ بلد وفي كلّ وقت من النهار في جميع}}}
+\At{base east}{525.03pt,-386.56pt}{{\fontsize{13.8}{27}\ArBody\Ov{يا}}}
+\At{base east}{91.93pt,-386.56pt}{{\fontsize{8}{9}\selectfont 10}}
+\At{base east}{498.23pt,-413.56pt}{\hypertarget{AB01-PDF1150-L11}{}{\fontsize{13.8}{27}\ArBody\RLJ{397.40pt}{اجزاء فلك البروج وهو ما تقطع القوس التي تجوز على سمت الرؤس والشمس من دائرة الافق}}}
+\At{base east}{498.63pt,-440.97pt}{\hypertarget{AB01-PDF1150-L12}{}{\fontsize{13.8}{27}\ArBody\RLN{90.40pt}{من حدّ المطلع والمغيب}}}
+\At{base east}{498.63pt,-467.97pt}{\hypertarget{AB01-PDF1150-L13}{}{\fontsize{13.8}{27}\ArBody\RLJ{397.80pt}{في معرفة خطّ نصف النهار في كلّ بلد وهو سمت الجنوب وما يظهر معه من سمت مشرق}}}
+\At{base east}{524.73pt,-467.97pt}{{\fontsize{13.8}{27}\ArBody\Ov{يب}}}
+\At{base east}{498.63pt,-494.56pt}{\hypertarget{AB01-PDF1150-L14}{}{\fontsize{13.8}{27}\ArBody\RLN{122.40pt}{الاعتدال ومعرفته بجهات شتَّى}}}
+\At{base east}{498.63pt,-521.26pt}{\hypertarget{AB01-PDF1150-L15}{}{\fontsize{13.8}{27}\ArBody\RLJ{397.80pt}{في معرفة قدر ما يطلع من فلك معدّل النهار مع اجزاء فلك البروج المفروضة من الافق في كلّ}}}
+\At{base east}{525.43pt,-521.26pt}{{\fontsize{13.8}{27}\ArBody\Ov{يج}}}
+\At{base east}{92.33pt,-521.26pt}{{\fontsize{8}{9}\selectfont 15}}
+\At{base east}{498.63pt,-548.57pt}{\hypertarget{AB01-PDF1150-L16}{}{\fontsize{13.8}{27}\ArBody\RLJ{397.80pt}{موضع من مواضع الارض ويسمَّى مطالع البروج في كلّ بلد وما يتبع ذلك من معرفة مطالع ايّ}}}
+\At{base east}{498.63pt,-575.57pt}{\hypertarget{AB01-PDF1150-L17}{}{\fontsize{13.8}{27}\ArBody\RLJ{397.80pt}{وجه شئت في هذه المطالع وفي مطالع الفلك المستقيم ومعرفة اجزاء فلك البروج من قبل هذه}}}
+\At{base east}{498.63pt,-602.57pt}{\hypertarget{AB01-PDF1150-L18}{}{\fontsize{13.8}{27}\ArBody\RLJ{397.80pt}{المطالع ومقدار قوس النهار والليل وساعاتها المعتدلة وازمان ساعات النهار والليل الزمانيّة وتحويل}}}
+\At{base east}{498.63pt,-629.57pt}{\hypertarget{AB01-PDF1150-L19}{}{\fontsize{13.8}{27}\ArBody\RLN{63.70pt}{بعضها الى بعض}}}
+\At{base east}{498.63pt,-656.26pt}{\hypertarget{AB01-PDF1150-L20}{}{\fontsize{13.8}{27}\ArBody\RLN{307.80pt}{في معرفة عروض البلدان وهو ارتفاع القطب الشماليّ بها عن الافق بالرصد}}}
+\At{base east}{524.73pt,-656.26pt}{{\fontsize{13.8}{27}\ArBody\Ov{يد}}}
+\At{base east}{92.33pt,-656.26pt}{{\fontsize{8}{9}\selectfont 20}}
+\At{base east}{498.63pt,-682.87pt}{\hypertarget{AB01-PDF1150-L21}{}{\fontsize{13.8}{27}\ArBody\RLN{245.50pt}{في معرفة ارتفاع الشمس في وقت إنصاف النهار في كلّ يوم}}}
+\At{base east}{524.73pt,-682.87pt}{{\fontsize{13.8}{27}\ArBody\Ov{يه}}}
+\At{base east}{498.63pt,-709.87pt}{\hypertarget{AB01-PDF1150-L22}{}{\fontsize{13.8}{27}\ArBody\RLJ{397.80pt}{في معرفة ما يمضي من النهار من ساعة وما يطلع من قبل قياس الشمس ومعرفة الارتفاع والظلّ}}}
+\At{base east}{524.73pt,-709.87pt}{{\fontsize{13.8}{27}\ArBody\Ov{يو}}}
+\At{base east}{497.53pt,-736.87pt}{\hypertarget{AB01-PDF1150-L23}{}{\fontsize{13.8}{27}\ArBody\RLN{139.70pt}{القائم}}}
+\At{base east}{498.63pt,-763.87pt}{\hypertarget{AB01-PDF1150-L24}{}{\fontsize{13.8}{27}\ArBody\RLN{227.20pt}{في معرفة الارتفاع من قبل ما يمضي من ساعات النهار}}}
+\At{base east}{524.33pt,-763.87pt}{{\fontsize{13.8}{27}\ArBody\Ov{يز}}}
+\DSource{1149}{PAG. 3}
+\At{base east}{522.03pt,-143.44pt}{\hypertarget{AB01-PDF1149-L01}{}{\fontsize{13.8}{27}\ArBody\RLJ{399.60pt}{في معرفة ابعاد الكواكب الثابتة او المتحيّرة عن فلك معدّل النهار اذا كانت مائلةً عن نطاق البروج}}}
+\At{base east}{544.83pt,-143.44pt}{{\fontsize{13.8}{27}\ArBody\Ov{يج}}}
+\At{base east}{522.03pt,-170.44pt}{\hypertarget{AB01-PDF1149-L02}{}{\fontsize{13.8}{27}\ArBody\RLJ{399.60pt}{في العرض واجزاء فلك البروج التي تتوسّط السماء معها من قبل مواضعها من *فلك البروج في}}}
+\At{base east}{113.23pt,-170.44pt}{{\fontsize{8}{9}\selectfont f. 2,v.}}
+\At{base east}{522.03pt,-197.44pt}{\hypertarget{AB01-PDF1149-L03}{}{\fontsize{13.8}{27}\ArBody\RLN{63.00pt}{الطول والعرض}}}
+\At{base east}{522.03pt,-224.44pt}{\hypertarget{AB01-PDF1149-L04}{}{\fontsize{13.8}{27}\ArBody\RLJ{399.60pt}{في معرفة نصف\Note{1} قوس نهار احد الكواكب وهو نصف مكثه فوق الارض وتحتها ايضًا وازمان}}}
+\At{base east}{545.93pt,-224.44pt}{{\fontsize{13.8}{27}\ArBody\Ov{يط}}}
+\At{base east}{522.03pt,-250.34pt}{\hypertarget{AB01-PDF1149-L05}{}{\fontsize{13.8}{27}\ArBody\RLN{110.90pt}{ساعاته فوق الارض وتحتها}}}
+\At{base west}{552.43pt,-250.34pt}{{\fontsize{8}{9}\selectfont 5}}
+\At{base east}{522.03pt,-278.14pt}{\hypertarget{AB01-PDF1149-L06}{}{\fontsize{13.8}{27}\ArBody\RLN{374.10pt}{في معرفة الدرجة من فلك البروج التي يطلع معها احد الكواكب والدرجة التي معها يغيب}}}
+\At{base east}{545.93pt,-278.14pt}{{\fontsize{13.8}{27}\ArBody\Ov{ك}}}
+\At{base east}{522.03pt,-305.14pt}{\hypertarget{AB01-PDF1149-L07}{}{\fontsize{13.8}{27}\ArBody\RLN{259.90pt}{في معرفة ما يمضي من الليل من ساعة بقياس بعض الكواكب}}}
+\At{base east}{546.63pt,-305.14pt}{{\fontsize{13.8}{27}\ArBody\Ov{كا}}}
+\At{base east}{522.03pt,-331.75pt}{\hypertarget{AB01-PDF1149-L08}{}{\fontsize{13.8}{27}\ArBody\RLN{290.20pt}{في معرفة ارتفاع بعض الكواكب من قبل الساعات الماضية من الليل}}}
+\At{base east}{548.83pt,-331.75pt}{{\fontsize{13.8}{27}\ArBody\Ov{كب}}}
+\At{base east}{522.03pt,-358.75pt}{\hypertarget{AB01-PDF1149-L09}{}{\fontsize{13.8}{27}\ArBody\RLN{244.80pt}{في معرفة سمت احد الكواكب من قبل ارتفاعه عن الافق}}}
+\At{base east}{547.03pt,-358.75pt}{{\fontsize{13.8}{27}\ArBody\Ov{كج}}}
+\At{base east}{522.03pt,-385.75pt}{\hypertarget{AB01-PDF1149-L10}{}{\fontsize{13.8}{27}\ArBody\RLJ{399.60pt}{في معرفة بعد احد الكواكب عن فلك معدّل النهار وما يتوسّط السماء معه من اجزاء البروج}}}
+\At{base east}{548.83pt,-385.75pt}{{\fontsize{13.8}{27}\ArBody\Ov{كد}}}
+\At{base west}{555.33pt,-385.75pt}{{\fontsize{8}{9}\selectfont 10}}
+\At{base east}{522.03pt,-412.75pt}{\hypertarget{AB01-PDF1149-L11}{}{\fontsize{13.8}{27}\ArBody\RLJ{399.60pt}{من قبل معرفة سمت الموضع الذي يطلع منه او يغيب من دائرة الافق. وبه يُعْلَم ايضًا ميل الجزء}}}
+\At{base east}{522.03pt,-439.35pt}{\hypertarget{AB01-PDF1149-L12}{}{\fontsize{13.8}{27}\ArBody\RLN{164.20pt}{من فلك البروج عن فلك معدّل النهار}}}
+\At{base east}{522.03pt,-466.75pt}{\hypertarget{AB01-PDF1149-L13}{}{\fontsize{13.8}{27}\ArBody\RLJ{399.60pt}{في معرفة الجزء الذي فيه الكوكب من اجزاء فلك البروج وعرض الكوكب من قبل بعده عن}}}
+\At{base east}{549.53pt,-466.75pt}{{\fontsize{13.8}{27}\ArBody\Ov{كه}}}
+\At{base east}{522.03pt,-493.35pt}{\hypertarget{AB01-PDF1149-L14}{}{\fontsize{13.8}{27}\ArBody\RLN{274.00pt}{فلك معدّل النهار والجزء الذي يتوسّط السماء معه اذا كان معلومًا}}}
+\At{base east}{522.03pt,-520.35pt}{\hypertarget{AB01-PDF1149-L15}{}{\fontsize{13.8}{27}\ArBody\RLN{348.90pt}{في معرفة ابعاد ما بين الكواكب على ترتيب مواضعها في الفلك في الطول والعرض}}}
+\At{base east}{548.13pt,-520.35pt}{{\fontsize{13.8}{27}\ArBody\Ov{كو}}}
+\At{base west}{555.63pt,-520.35pt}{{\fontsize{8}{9}\selectfont 15}}
+\At{base east}{522.03pt,-547.04pt}{\hypertarget{AB01-PDF1149-L16}{}{\fontsize{13.8}{27}\ArBody\RLJ{399.60pt}{في معرفة مقدار طول ازمان\Note{2} السنة الشمسيّة الموجودة بالرصد وحركة الشمس الوسطى في الايّام}}}
+\At{base east}{549.13pt,-547.04pt}{{\fontsize{13.8}{27}\ArBody\Ov{كز}}}
+\At{base east}{522.03pt,-573.64pt}{\hypertarget{AB01-PDF1149-L17}{}{\fontsize{13.8}{27}\ArBody\RLN{368.30pt}{والشهور والسنين من قبل ذلك}}}
+\At{base east}{522.03pt,-600.64pt}{\hypertarget{AB01-PDF1149-L18}{}{\fontsize{13.8}{27}\ArBody\RLJ{399.30pt}{في معرفة اختلاف حركة الشمس وما يظهر معه من مواضع بعدها الأبعد من اجزاء}}}
+\At{base east}{548.43pt,-600.64pt}{{\fontsize{13.8}{27}\ArBody\Ov{كح}}}
+\At{base east}{520.53pt,-627.64pt}{\hypertarget{AB01-PDF1149-L19}{}{\fontsize{13.8}{27}\ArBody\RLN{23.70pt}{البروج}}}
+\At{base east}{522.03pt,-654.35pt}{\hypertarget{AB01-PDF1149-L20}{}{\fontsize{13.8}{27}\ArBody\RLJ{399.60pt}{في معرفة اقدار اختلاف الايّام بلياليها اذا قيس نهار يوم مع ليلته الى نهار يوم آخر مع ليلته وكيف}}}
+\At{base east}{547.73pt,-654.35pt}{{\fontsize{13.8}{27}\ArBody\Ov{كط}}}
+\At{base west}{555.33pt,-654.35pt}{{\fontsize{8}{9}\selectfont 20}}
+\At{base east}{522.03pt,-681.35pt}{\hypertarget{AB01-PDF1149-L21}{}{\fontsize{13.8}{27}\ArBody\RLN{141.10pt}{تحوَّل وتُنْقَل من بعضها الى بعض}}}
+\At{base east}{522.03pt,-708.35pt}{\hypertarget{AB01-PDF1149-L22}{}{\fontsize{13.8}{27}\ArBody\RLJ{399.60pt}{في صفة افلاك القمر وحركاته وما يظهر فيها من الاختلاف في اوقات الاجتماعات والمقابلات}}}
+\At{base east}{548.43pt,-708.35pt}{{\fontsize{13.8}{27}\ArBody\Ov{ل}}}
+\At{west}{122.23pt,-737.45pt}{\rule{102.2pt}{0.5pt}}
+\At{base west}{150.73pt,-764.85pt}{\hypertarget{AB01-PDF1149-N01}{}{\fontsize{9.2}{11}\selectfont 1) Deest in codice. — 2) Cod. \ArRun{زمان}}}
+\DSource{1148}{PAG. 4}
+\At{base east}{489.93pt,-137.51pt}{\hypertarget{AB01-PDF1148-L01}{}{\fontsize{13.8}{27}\ArBody\RLJ{397.40pt}{الشمسيّة وما يتركّب مع ذلك من الاختلاف الثاني من قبل ابعاده عن الشمس *وعلل الكسوفين}}}
+\At{base west}{521.83pt,-137.51pt}{{\fontsize{8}{9}\selectfont f. 3,r.}}
+\At{base east}{491.43pt,-165.51pt}{\hypertarget{AB01-PDF1148-L02}{}{\fontsize{13.8}{27}\ArBody\RLN{296.70pt}{وبعد النيّريْن عن الارض وزيادة ضوء القمر ونقصانه ببعده عن الشمس}}}
+\At{base east}{491.03pt,-191.11pt}{\hypertarget{AB01-PDF1148-L03}{}{\fontsize{13.8}{27}\ArBody\RLN{173.50pt}{في صفة افلاك الكواكب المتحيّرة وحالاتها}}}
+\At{base east}{515.73pt,-191.11pt}{{\fontsize{13.8}{27}\ArBody\Ov{لا}}}
+\At{base east}{491.03pt,-218.81pt}{\hypertarget{AB01-PDF1148-L04}{}{\fontsize{13.8}{27}\ArBody\RLN{325.40pt}{في معرفة تأريخ العرب والروم والفرس والقبط ومعرفة بعض ذلك من بعض}}}
+\At{base east}{515.73pt,-218.81pt}{{\fontsize{13.8}{27}\ArBody\Ov{لب}}}
+\At{base east}{492.13pt,-244.71pt}{\hypertarget{AB01-PDF1148-L05}{}{\fontsize{13.8}{27}\ArBody\RLN{376.60pt}{في معرفة موضع الشمس الذي تُرَى فيه من فلك البروج بتأريخ الروم والعرب ايّهما شئتَ}}}
+\At{base east}{516.43pt,-244.71pt}{{\fontsize{13.8}{27}\ArBody\Ov{لج}}}
+\At{base east}{82.63pt,-244.71pt}{{\fontsize{8}{9}\selectfont 5}}
+\At{base east}{492.53pt,-272.81pt}{\hypertarget{AB01-PDF1148-L06}{}{\fontsize{13.8}{27}\ArBody\RLJ{400.00pt}{في معرفة ساعات التقويم في كلّ بلد وهي الساعات المعتدلة الوسطى التي تكون من بعد انتصاف}}}
+\At{base east}{516.03pt,-272.81pt}{{\fontsize{13.8}{27}\ArBody\Ov{لد}}}
+\At{base east}{492.53pt,-299.11pt}{\hypertarget{AB01-PDF1148-L07}{}{\fontsize{13.8}{27}\ArBody\RLJ{400.00pt}{النهار بمدينة الرَّقَّة وبها تُستخرَج الحركات في كلّ حين فيُعْرَف وسط الكوكب في ذلك الوقت}}}
+\At{base east}{492.53pt,-326.51pt}{\hypertarget{AB01-PDF1148-L08}{}{\fontsize{13.8}{27}\ArBody\RLN{289.10pt}{من اوقات النهار والليل وتحويل هذه الساعات الى ساعات البلدان}}}
+\At{base east}{492.53pt,-353.11pt}{\hypertarget{AB01-PDF1148-L09}{}{\fontsize{13.8}{27}\ArBody\RLJ{400.00pt}{في إقامة الطالع والبيوت الاثناعشر من قبل ساعات النهار والليل ومعرفة الساعات من قبل الطالع}}}
+\At{base east}{517.13pt,-353.11pt}{{\fontsize{13.8}{27}\ArBody\Ov{له}}}
+\At{base east}{492.53pt,-379.41pt}{\hypertarget{AB01-PDF1148-L10}{}{\fontsize{13.8}{27}\ArBody\RLJ{400.00pt}{في معرفة موضع القمر الحقيقيّ من فلك البروج في كلّ يوم وفي كلّ وقت}}}
+\At{base east}{517.13pt,-379.41pt}{{\fontsize{13.8}{27}\ArBody\Ov{لو}}}
+\At{base east}{84.03pt,-379.41pt}{{\fontsize{8}{9}\selectfont 10}}
+\At{base east}{492.53pt,-406.41pt}{\hypertarget{AB01-PDF1148-L11}{}{\fontsize{13.8}{27}\ArBody\RLJ{398.60pt}{في معرفة موضع العقد الشماليّ والجنوبيّ وهما الرأس والذنب اللذين يكون عليهما مجاز القمر}}}
+\At{base east}{517.83pt,-406.41pt}{{\fontsize{13.8}{27}\ArBody\Ov{لز}}}
+\At{base east}{492.53pt,-433.71pt}{\hypertarget{AB01-PDF1148-L12}{}{\fontsize{13.8}{27}\ArBody\RLN{275.10pt}{في العرض}}}
+\At{base east}{492.53pt,-461.11pt}{\hypertarget{AB01-PDF1148-L13}{}{\fontsize{13.8}{27}\ArBody\RLN{321.90pt}{في معرفة عرض القمر وهو بعده عن نطاق البروج الى جهة الجنوب والشمال}}}
+\At{base east}{517.83pt,-461.11pt}{{\fontsize{13.8}{27}\ArBody\Ov{لح}}}
+\At{base east}{492.53pt,-488.11pt}{\hypertarget{AB01-PDF1148-L14}{}{\fontsize{13.8}{27}\ArBody\RLJ{400.00pt}{في معرفة اختلاف المنظر الذي يعرض في القمر في الطول والعرض واقداره في نواحي الافق}}}
+\At{base east}{517.83pt,-488.11pt}{{\fontsize{13.8}{27}\ArBody\Ov{لط}}}
+\At{base east}{492.53pt,-514.01pt}{\hypertarget{AB01-PDF1148-L15}{}{\fontsize{13.8}{27}\ArBody\RLN{202.70pt}{والسبب الذي يعرض عنه ذلك فيه بجهات شتَّى}}}
+\At{base east}{85.13pt,-514.01pt}{{\fontsize{8}{9}\selectfont 15}}
+\At{base east}{492.53pt,-541.41pt}{\hypertarget{AB01-PDF1148-L16}{}{\fontsize{13.8}{27}\ArBody\RLJ{400.00pt}{في معرفة بعد القمر عن الارض من قبل اختلاف منظره في دائرة الارتفاع التي فيما بين سمت}}}
+\At{base east}{518.93pt,-541.41pt}{{\fontsize{13.8}{27}\ArBody\Ov{م}}}
+\At{base east}{491.73pt,-568.71pt}{\hypertarget{AB01-PDF1148-L17}{}{\fontsize{13.8}{27}\ArBody\RLN{216.30pt}{الرؤس والافق القاطعة لموضع القمر من فلك البروج}}}
+\At{base east}{492.53pt,-597.21pt}{\hypertarget{AB01-PDF1148-L18}{}{\fontsize{13.8}{27}\ArBody\RLJ{398.90pt}{في معرفة رؤية الهلال\Note{1} في اوائل الشهور واواخرها وسمت موضعه الذي يُرَى فيه من السماء}}}
+\At{base east}{518.93pt,-597.21pt}{{\fontsize{13.8}{27}\ArBody\Ov{ما}}}
+\At{base east}{492.53pt,-621.71pt}{\hypertarget{AB01-PDF1148-L19}{}{\fontsize{13.8}{27}\ArBody\RLN{360.00pt}{وارتفاعه عند ذلك عن الافق وصورته على ما *فيه من الضوء واعتدال طرفيْه او ميلهما}}}
+\At{base west}{526.13pt,-621.71pt}{{\fontsize{8}{9}\selectfont f. 3,v.}}
+\At{base east}{492.53pt,-648.71pt}{\hypertarget{AB01-PDF1148-L20}{}{\fontsize{13.8}{27}\ArBody\RLJ{398.90pt}{في معرفة اجتماعات ومقابلات الشمس والقمر الوسطى والحقيقيّة بتأريخ الروم والقبط ايّهما شئت}}}
+\At{base east}{518.93pt,-648.71pt}{{\fontsize{13.8}{27}\ArBody\Ov{مب}}}
+\At{base east}{86.23pt,-648.71pt}{{\fontsize{8}{9}\selectfont 20}}
+\At{base east}{492.53pt,-675.71pt}{\hypertarget{AB01-PDF1148-L21}{}{\fontsize{13.8}{27}\ArBody\RLJ{397.80pt}{في معرفة الكسوفات القمريّة واقدارها واوقاتها في البلدان والناحية التي منها يبتدئ الكسوف}}}
+\At{base east}{519.33pt,-675.71pt}{{\fontsize{13.8}{27}\ArBody\Ov{مج}}}
+\At{base east}{492.53pt,-704.11pt}{\hypertarget{AB01-PDF1148-L22}{}{\fontsize{13.8}{27}\ArBody\RLN{363.30pt}{والناحية التي منها يكون الانجلاء من دائرة القمر وصورة ذلك وعمله بالحساب والجدول}}}
+\At{west}{93.43pt,-734.71pt}{\rule{101.9pt}{0.5pt}}
+\At{base west}{123.73pt,-762.81pt}{\hypertarget{AB01-PDF1148-N01}{}{\fontsize{9.2}{11}\selectfont 1) Cod. \ArRun{الاهلة}}}
+\DSource{1147}{PAG. 5}
+\At{base east}{515.13pt,-143.83pt}{\hypertarget{AB01-PDF1147-L01}{}{\fontsize{13.8}{27}\ArBody\RLJ{398.80pt}{في معرفة كسوف الشمس واقداره المختلفة في كلّ بلد واوقاته فيه ومعرفة الناحية التي منها يبتدئ}}}
+\At{base east}{536.23pt,-143.83pt}{{\fontsize{13.8}{27}\ArBody\Ov{مد}}}
+\At{base east}{515.93pt,-170.83pt}{\hypertarget{AB01-PDF1147-L02}{}{\fontsize{13.8}{27}\ArBody\RLN{307.50pt}{وينجلى الكسوف من دائرة الشمس وصورة ذلك وعمله بالحساب والجدول}}}
+\At{base east}{515.93pt,-197.43pt}{\hypertarget{AB01-PDF1147-L03}{}{\fontsize{13.8}{27}\ArBody\RLN{306.80pt}{في معرفة مواضع الخمسة الكواكب المتحيّرة من فلك البروج في كلّ حين}}}
+\At{base east}{538.03pt,-197.43pt}{{\fontsize{13.8}{27}\ArBody\Ov{مه}}}
+\At{base east}{515.93pt,-224.43pt}{\hypertarget{AB01-PDF1147-L04}{}{\fontsize{13.8}{27}\ArBody\RLN{206.30pt}{في معرفة مقام الكواكب الخمسة المتحيّرة ورجوعها}}}
+\At{base east}{538.33pt,-224.43pt}{{\fontsize{13.8}{27}\ArBody\Ov{مو}}}
+\At{base east}{515.93pt,-251.13pt}{\hypertarget{AB01-PDF1147-L05}{}{\fontsize{13.8}{27}\ArBody\RLN{215.70pt}{في معرفة عروض الكواكب الخمسة المتحيّرة وجهاتها}}}
+\At{base east}{537.33pt,-251.13pt}{{\fontsize{13.8}{27}\ArBody\Ov{مز}}}
+\At{base west}{544.53pt,-251.13pt}{{\fontsize{8}{9}\selectfont 5}}
+\At{base east}{515.93pt,-278.13pt}{\hypertarget{AB01-PDF1147-L06}{}{\fontsize{13.8}{27}\ArBody\RLN{249.50pt}{في معرفة ظهور الكواكب الخمسة المتحيّرة واختفائها}}}
+\At{base east}{539.13pt,-278.13pt}{{\fontsize{13.8}{27}\ArBody\Ov{مح}}}
+\At{base east}{515.93pt,-305.83pt}{\hypertarget{AB01-PDF1147-L07}{}{\fontsize{13.8}{27}\ArBody\RLN{348.50pt}{في معرفة الاشكال التسعة التي تكون للكواكب الثابتة وبعض المتحيّرة عند الشمس}}}
+\At{base east}{539.43pt,-305.83pt}{{\fontsize{13.8}{27}\ArBody\Ov{مط}}}
+\At{base east}{515.93pt,-332.83pt}{\hypertarget{AB01-PDF1147-L08}{}{\fontsize{13.8}{27}\ArBody\RLN{313.20pt}{في ذكر ابعاد الكواكب عن الارض واقطارها وعظم اجرامها وسعة افلاكها}}}
+\At{base east}{539.83pt,-332.83pt}{{\fontsize{13.8}{27}\ArBody\Ov{ن}}}
+\At{base east}{515.93pt,-359.43pt}{\hypertarget{AB01-PDF1147-L09}{}{\fontsize{13.8}{27}\ArBody\RLJ{399.60pt}{في معرفة حركة سائر الكواكب\Note{1} بالرصد ورسم مواضع ما يحتاج اليه منها في الجدول في الطول}}}
+\At{base east}{540.13pt,-359.43pt}{{\fontsize{13.8}{27}\ArBody\Ov{نا}}}
+\At{base east}{515.93pt,-386.43pt}{\hypertarget{AB01-PDF1147-L10}{}{\fontsize{13.8}{27}\ArBody\RLN{41.80pt}{والعرض}}}
+\At{base west}{547.33pt,-386.43pt}{{\fontsize{8}{9}\selectfont 10}}
+\At{base east}{515.93pt,-413.43pt}{\hypertarget{AB01-PDF1147-L11}{}{\fontsize{13.8}{27}\ArBody\RLN{374.80pt}{فيما ذكر اصحاب الطلسمات انّ للفلك حركة انتقال مقبلةً ومدبرةً وما يظهر فيه من الخلل}}}
+\At{base east}{540.13pt,-413.43pt}{{\fontsize{13.8}{27}\ArBody\Ov{نب}}}
+\At{base east}{515.93pt,-440.83pt}{\hypertarget{AB01-PDF1147-L12}{}{\fontsize{13.8}{27}\ArBody\RLJ{399.60pt}{في معرفة اوقات تحاويل السنين الكائنة\Note{2} عند عودة الشمس الى الموضع الذي كانت فيه في الاصل}}}
+\At{base east}{541.23pt,-440.83pt}{{\fontsize{13.8}{27}\ArBody\Ov{نج}}}
+\At{base east}{515.93pt,-467.83pt}{\hypertarget{AB01-PDF1147-L13}{}{\fontsize{13.8}{27}\ArBody\RLJ{399.60pt}{في تحقيق اقدار الاتّصالات التي تكون بحسب عروض الكواكب اذا ألقت الشعاع على فلك}}}
+\At{base east}{541.63pt,-467.83pt}{{\fontsize{13.8}{27}\ArBody\Ov{ند}}}
+\At{base east}{515.13pt,-494.43pt}{\hypertarget{AB01-PDF1147-L14}{}{\fontsize{13.8}{27}\ArBody\RLN{24.40pt}{البروج}}}
+\At{base east}{515.93pt,-520.73pt}{\hypertarget{AB01-PDF1147-L15}{}{\fontsize{13.8}{27}\ArBody\RLN{185.80pt}{في معرفة مطالع البروج فيما بين ارباع الفلك}}}
+\At{base east}{541.63pt,-520.73pt}{{\fontsize{13.8}{27}\ArBody\Ov{نه}}}
+\At{base west}{548.83pt,-520.73pt}{{\fontsize{8}{9}\selectfont 15}}
+\At{base east}{515.93pt,-548.12pt}{\hypertarget{AB01-PDF1147-L16}{}{\fontsize{13.8}{27}\ArBody\RLJ{399.60pt}{في عمل *الرخامة القائمة المسطوحة لمعرفة ساعات النهار الزمانيّة في كلّ بلد وتقويم نصبها وسمت}}}
+\At{base east}{541.93pt,-548.12pt}{{\fontsize{13.8}{27}\ArBody\Ov{نو}}}
+\At{base east}{108.13pt,-548.12pt}{{\fontsize{8}{9}\selectfont f. 4,r.}}
+\At{base east}{515.13pt,-575.12pt}{\hypertarget{AB01-PDF1147-L17}{}{\fontsize{13.8}{27}\ArBody\RLN{300.90pt}{الجنوب وكيف يُعْرَف سمت القبلة في الرخامة وهو سمت مكّة المحروسة}}}
+\At{base east}{515.93pt,-602.12pt}{\hypertarget{AB01-PDF1147-L18}{}{\fontsize{13.8}{27}\ArBody\RLJ{399.60pt}{في ختم الكتاب وصفة ضعة الآلة التي على هيئة الفلك وتسمَّى البيْضة وضعة الآلتين اللّتان\Note{3}}}}
+\At{base east}{542.73pt,-602.12pt}{{\fontsize{13.8}{27}\ArBody\Ov{نز}}}
+\At{base east}{515.93pt,-628.73pt}{\hypertarget{AB01-PDF1147-L19}{}{\fontsize{13.8}{27}\ArBody\RLN{37.10pt}{للرصد.}}}
+\At{base east}{515.93pt,-655.42pt}{\hypertarget{AB01-PDF1147-L20}{}{\fontsize{13.8}{27}\ArBody\RLN{380.20pt}{وهذا تفسير تفصيل الكتاب وهو سبعة وخمسون نوعًا والحمد لله على عونه وصلّى الله على محمّد.}}}
+\At{base west}{521.13pt,-655.42pt}{{\fontsize{8}{9}\selectfont 20}}
+\At{west}{116.13pt,-724.12pt}{\rule{101.5pt}{0.5pt}}
+\At{base west}{144.63pt,-751.53pt}{\hypertarget{AB01-PDF1147-N01}{}{\fontsize{9.2}{11}\selectfont \makebox[373.30pt][s]{1 Pro \ArRun{سائر الكواكب}, in capite ipso et apud Platonem legitur \ArRun{الكواكب الثابتة} — 2 Cod. \ArRun{الكائن} —}}}
+\At{base west}{118.33pt,-767.03pt}{\hypertarget{AB01-PDF1147-N02}{}{\fontsize{9.2}{11}\selectfont 3) Cod. \ArRun{التي}}}
+\end{document}
