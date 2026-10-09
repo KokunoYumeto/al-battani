@@ -2,7 +2,7 @@
 
 Nallino's two indexes to the edition: the *Index geographicus* (pp. 359–372) and the *Index historicus* (pp. 373–413). Each entry gives a name, often with its Arabic or Greek form transcribed in italics, and the places where it occurs: italic numbers are the places of al-Battānī's text, upright numbers those of Nallino's notes (as the introduction of p. 359 says); numbers after «II» are pages of Part II, the others of Part I. The edition is diplomatic and line-anchored, in the format of the S09 edition of the glossary: every printed line is one line of the edition, with its hyphenation, its punctuation, its letter-spaced names and its italics, and every line has a stable anchor.
 
-The transcription is in progress. It begins at the title page of the Index geographicus (p. 359) and runs page by page; pp. 359–409 are done: the Index geographicus is complete (pp. 359–372, the introduction and the entries from Ābaskūn to Zubeyr), and the Index historicus et rerum has begun (pp. 373–409: its introduction and the entries from Abāqā Khān to at-taqwīm).
+The transcription is in progress. It begins at the title page of the Index geographicus (p. 359) and runs page by page; pp. 359–410 are done: the Index geographicus is complete (pp. 359–372, the introduction and the entries from Ābaskūn to Zubeyr), and the Index historicus et rerum has begun (pp. 373–410: its introduction and the entries from Abāqā Khān to τροπή).
 
 ## Read
 
