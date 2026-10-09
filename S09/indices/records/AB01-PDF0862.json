@@ -1,0 +1,169 @@
+{
+ "anchor": "AB01-PDF0862",
+ "master_pdf_page": 862,
+ "printed_page": 413,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "observations": [
+  "col_left L1: «az-Zarqālī» has the bars over the a and the last i (1.9 by 1.1 points).",
+  "col_left L2: «*zawāyā*» is printed in italics, with the bars over the second and the third a; «« paxilli »» is printed with guillemets and spaces inside them.",
+  "col_left L3, L5: «*zenith*» and «*zeunzaar*» are printed in italics.",
+  "col_left L4: «ζῆσι» is Greek, read at 10,000 dpi: the circumflex is cast joined to the top of the η, as a small hook at its left; the word is printed with the same circumflex in the note on p. XXXI of the preface (PDF 40), to which the entry refers.",
+  "col_left L6, L7, L8: «*zīǵ*» is printed in italics, with the bar over the i (3.5 by 1.0–1.2 points) and the acute on the g, in all three lines.",
+  "col_left L7: the l of «*al-ma’mūnī*» is printed broken: only its upper part printed (from 7.5 to 3.1 points above the baseline; the l of «*al-mumtaḥan*» in the same line runs from 7.4 points down to the baseline), so that it looks like an apostrophe, read at 10,000 dpi; the hyphen after it is printed as a point at mid height (1.9 by 1.3 points); read al-. «*ma’mūnī*» has the apostrophe of the hamzah and the bars over the u and the last i; «*al-mumtaḥan*» (L7, L8) has the dot under the h.",
+  "col_right L1: «{sc:lxxiv}» is printed in small capitals.",
+  "col_right L5, L6: «*az-zubānayāni*» and «*az-zubrah*» are printed in italics, their hyphens short (2.2 and 2.3 points long); «*az-zubānayāni*» has the bars over the second and the fourth a and a round dot on the last i (1.4 by 1.4 points), measured with word_marks.py; transcribed as printed. «*125*» is italic in both lines.",
+  "col_right L7: «Žukovsky» has the háček on the Z. The left arm of its y rises 1.5 points above the x-height (to 6.8 points above the baseline; its right arm and both arms of the y's of pp. 411–412 reach 4.9–5.4 points): a thick upright piece (1.1–1.4 points wide) joined to the top of the arm, slanting slightly to the right as it descends, read at 12,000 dpi. It stands over the left arm, not over the letter, and is not separated from it like the accents of this type; transcribed y.",
+  "col_left, col_right: the ball terminals of the 3s of «203» (R3) and of the 2s and 5s of «125» and «296» (R5) stand apart in places; none of them is a point.",
+  "col_right L8: a thin rule 89.3 points (31.5 mm) long and 0.7 point thick, from 240.5 to 329.8, centred under the column rule (283.8), closes the Index historicus et rerum, as the rule of 88.9 points closes the Index geographicus on p. 372; its middle lies at 390.6, 160.9 points below the last line of the right column. The column rule runs only beside the eight lines of the page. No signature is printed on this page."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": []
+  },
+  {
+   "role": "col_left",
+   "lines": [
+    {
+     "id": "AB01-PDF0862-col_left-L001",
+     "source_line_no": null,
+     "tex": "el Zarquiel v. az-Zarqālī.",
+     "transcription": "el Zarquiel v. az-Zarqālī.",
+     "semantic_anchor": "AB01-PDF0862-col_left-E01",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0862-col_left-L002",
+     "source_line_no": null,
+     "tex": "\\textit{zawāyā} i. q. « paxilli » \\textsc{xxi} n. 1, \\textsc{xxiii}.",
+     "transcription": "*zawāyā* i. q. « paxilli » {sc:xxi} n. 1, {sc:xxiii}.",
+     "semantic_anchor": "AB01-PDF0862-col_left-E02",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0862-col_left-L003",
+     "source_line_no": null,
+     "tex": "\\textit{zenith}, cur articulo careat \\textsc{xxx} n. 8.",
+     "transcription": "*zenith*, cur articulo careat {sc:xxx} n. 8.",
+     "semantic_anchor": "AB01-PDF0862-col_left-E03",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0862-col_left-L004",
+     "source_line_no": null,
+     "tex": "\\textgreek{ζῆσι} \\textsc{xxxi}.",
+     "transcription": "ζῆσι {sc:xxxi}.",
+     "semantic_anchor": "AB01-PDF0862-col_left-E04",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0862-col_left-L005",
+     "source_line_no": null,
+     "tex": "\\textit{zeunzaar} 250.",
+     "transcription": "*zeunzaar* 250.",
+     "semantic_anchor": "AB01-PDF0862-col_left-E05",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0862-col_left-L006",
+     "source_line_no": null,
+     "tex": "\\textit{zīǵ}, quid \\textsc{xxxi} et n. 3.",
+     "transcription": "*zīǵ*, quid {sc:xxxi} et n. 3.",
+     "semantic_anchor": "AB01-PDF0862-col_left-E06",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0862-col_left-L007",
+     "source_line_no": null,
+     "tex": "\\textit{az-zīǵ al-ma’mūnī al-mumtaḥan} II, 353.",
+     "transcription": "*az-zīǵ al-ma’mūnī al-mumtaḥan* II, 353.",
+     "semantic_anchor": "AB01-PDF0862-col_left-E07",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0862-col_left-L008",
+     "source_line_no": null,
+     "tex": "\\textit{az-zīǵ al-mumtaḥan} v. Tabula Probata.",
+     "transcription": "*az-zīǵ al-mumtaḥan* v. Tabula Probata.",
+     "semantic_anchor": "AB01-PDF0862-col_left-E08",
+     "source_role": "NALLINO_INDEX"
+    }
+   ]
+  },
+  {
+   "role": "col_right",
+   "lines": [
+    {
+     "id": "AB01-PDF0862-col_right-L001",
+     "source_line_no": null,
+     "tex": "Zimmern H. \\textsc{lxxiv}.",
+     "transcription": "Zimmern H. {sc:lxxiv}.",
+     "semantic_anchor": "AB01-PDF0862-col_right-E01",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0862-col_right-L002",
+     "source_line_no": null,
+     "tex": "zodiacus v. ecliptica, signa zodiaci.",
+     "transcription": "zodiacus v. ecliptica, signa zodiaci.",
+     "semantic_anchor": "AB01-PDF0862-col_right-E02",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0862-col_right-L003",
+     "source_line_no": null,
+     "tex": "Zonaras II, 203.",
+     "transcription": "Zonaras II, 203.",
+     "semantic_anchor": "AB01-PDF0862-col_right-E03",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0862-col_right-L004",
+     "source_line_no": null,
+     "tex": "Zottoli A. 272.",
+     "transcription": "Zottoli A. 272.",
+     "semantic_anchor": "AB01-PDF0862-col_right-E04",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0862-col_right-L005",
+     "source_line_no": null,
+     "tex": "\\textit{az-zubānayāni} \\textit{125} (adn. 296).",
+     "transcription": "*az-zubānayāni* *125* (adn. 296).",
+     "semantic_anchor": "AB01-PDF0862-col_right-E05",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0862-col_right-L006",
+     "source_line_no": null,
+     "tex": "\\textit{az-zubrah} \\textit{125}.",
+     "transcription": "*az-zubrah* *125*.",
+     "semantic_anchor": "AB01-PDF0862-col_right-E06",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0862-col_right-L007",
+     "source_line_no": null,
+     "tex": "Žukovsky V. II, \\textsc{xxviii}.",
+     "transcription": "Žukovsky V. II, {sc:xxviii}.",
+     "semantic_anchor": "AB01-PDF0862-col_right-E07",
+     "source_role": "NALLINO_INDEX"
+    },
+    {
+     "id": "AB01-PDF0862-col_right-L008",
+     "source_line_no": null,
+     "tex": "Zuretti C. O. \\textsc{xxii}.",
+     "transcription": "Zuretti C. O. {sc:xxii}.",
+     "semantic_anchor": "AB01-PDF0862-col_right-E08",
+     "source_role": "NALLINO_INDEX"
+    }
+   ]
+  }
+ ]
+}
