@@ -28,9 +28,11 @@ as printed):
   @rule Y LEN [XC]    a rule LEN pt long at Y, centred on the block or at XC (no geometry line)
   @orn Y              the printed ornament, centred at Y (no geometry line)
   @fig NAME           a figure redrawn where printed (it takes no geometry line): its circles and straight lines from
-                      the geometry ("figures": centres, radii, end points and stroke widths measured on the scan);
+                      the geometry ("figures": centres, radii, end points and stroke widths measured on the scan),
+                      and where it has them its arcs, filled discs and hatched half discs;
   @ft TEXT            its labels follow, one per line in reading order, each set at the measured centre of its printed
-                      ink, turned where printed, and narrowed to its printed length where a length is given
+                      ink, turned where printed, and narrowed to its printed length where a length is given (or
+                      spread to it: a phrase of several words)
   @endfig             the end of the figure
   @notes              the footnotes follow, one source line per printed line (Latin with Arabic; they take the
                       geometry's note lines)
@@ -44,6 +46,7 @@ Nallino's line numbers 5, 10, 15, 20), set where the geometry has it; * the aste
 Long joins (kashida) are not transcribed. In the notes and the Latin lines: *italic*, {sc:...} small capitals,
 {sp:...} letter-spaced, {b:...} bold; Arabic runs are set in the Arabic font."""
 import json
+import math
 import re
 import unicodedata
 from pathlib import Path
@@ -374,18 +377,58 @@ def page_tex(page, geo, recs, anchors):
             # a dashed circle or line ("dash": [ON, OFF], the lengths of its dashes and gaps along it, measured on the scan)
             def dash(e):
                 return f", dash pattern=on {e['dash'][0]:.2f}pt off {e['dash'][1]:.2f}pt" if e.get("dash") else ""
-            draw = "".join(r"\draw[line width=" + f"{c['w']:.2f}pt" + dash(c) + "] " + pt(c["cx"], c["cy"]) +
+            # a hatched half disc ("hatches"): the part of the circle cx, cy, r on the side "into" (a unit vector) of
+            # the chord x0, y0 - x1, y1, filled with parallel lines "w" thick at "angle" degrees (counter-clockwise, the
+            # line of the text at 0), "pitch" apart, one of them "phase" from the centre of the circle along their
+            # normal; all measured on the scan
+            def hatch(h):
+                t = math.radians(h["angle"])
+                ux, uy, nx, ny = math.cos(t), -math.sin(t), math.sin(t), math.cos(t)
+                ex, ey = h["x1"] - h["x0"], h["y1"] - h["y0"]
+                el = math.hypot(ex, ey)
+                ex, ey = ex / el * h["r"] * 0.4, ey / el * h["r"] * 0.4
+                ix, iy = h["into"][0] * h["r"] * 2.3, h["into"][1] * h["r"] * 2.3
+                ax, ay, bx, by = h["x0"] - ex, h["y0"] - ey, h["x1"] + ex, h["y1"] + ey
+                body = (r"\clip " + pt(h["cx"], h["cy"]) + " circle[radius=" + f"{h['r']:.2f}pt" + "];" +
+                        r"\clip " + pt(ax, ay) + " -- " + pt(bx, by) + " -- " + pt(bx + ix, by + iy) + " -- " +
+                        pt(ax + ix, ay + iy) + " -- cycle;")
+                j0 = math.ceil((-h["r"] - h["phase"]) / h["pitch"])
+                j1 = math.floor((h["r"] - h["phase"]) / h["pitch"])
+                for j in range(j0, j1 + 1):
+                    sj = h["phase"] + j * h["pitch"]
+                    half = math.sqrt(max(h["r"] ** 2 - sj ** 2, 0.0)) + 0.5
+                    qx, qy = h["cx"] + sj * nx, h["cy"] + sj * ny
+                    body += (r"\draw[line width=" + f"{h['w']:.2f}pt" + "] " + pt(qx - half * ux, qy - half * uy) +
+                             " -- " + pt(qx + half * ux, qy + half * uy) + ";")
+                return r"\begin{scope}" + body + r"\end{scope}"
+            draw = "".join(hatch(h) for h in fg.get("hatches", []))
+            draw += "".join(r"\draw[line width=" + f"{c['w']:.2f}pt" + dash(c) + "] " + pt(c["cx"], c["cy"]) +
                            " circle[radius=" + f"{c['r']:.2f}pt" + "];" for c in fg.get("circles", []))
             draw += "".join(r"\draw[line width=" + f"{s['w']:.2f}pt" + dash(s) + "] " + pt(s["x0"], s["y0"]) + " -- " +
                             pt(s["x1"], s["y1"]) + ";" for s in fg.get("segments", []))
+            # an arc ("arcs"): of the circle cx, cy, r from the angle a0 to a1 (degrees, counter-clockwise, the line of the
+            # text at 0), dashed where printed so; a filled disc ("discs"): cx, cy, r
+            draw += "".join(r"\draw[line width=" + f"{a['w']:.2f}pt" + dash(a) + "] " +
+                            pt(a["cx"] + a["r"] * math.cos(math.radians(a["a0"])),
+                               a["cy"] - a["r"] * math.sin(math.radians(a["a0"]))) +
+                            " arc[start angle=" + f"{a['a0']:.2f}" + ", end angle=" + f"{a['a1']:.2f}" + ", radius=" +
+                            f"{a['r']:.2f}pt" + "];" for a in fg.get("arcs", []))
+            draw += "".join(r"\fill " + pt(c["cx"], c["cy"]) + " circle[radius=" + f"{c['r']:.2f}pt" + "];"
+                            for c in fg.get("discs", []))
             out.append(r"\begin{tikzpicture}[remember picture,overlay]" + draw + r"\end{tikzpicture}")
             frec = {"name": name, "anchor": f"AB01-PDF{pdf:04}-{name}", "circles": fg.get("circles", []),
                     "segments": fg.get("segments", []), "labels": [], "note": fg.get("note", "")}
+            for key in ("arcs", "discs", "hatches"):
+                if fg.get(key):
+                    frec[key] = fg[key]
             for j, (t, tg) in enumerate(zip(texts, fg["texts"]), 1):
                 aid = f"AB01-PDF{pdf:04}-{name}-T{j:02}"
                 size = tg.get("size", 13.8)
                 body = ar_inline(t)
-                inner = (r"\RLN{" + f"{tg['w']:.2f}pt" + "}{" + body + "}") if tg.get("w") else (r"\RL{" + body + "}")
+                # a label with a measured length: narrowed to it if wider; "spread": a phrase spread to it (its words
+                # stand as far apart as printed)
+                inner = ((r"\RLJ{" if tg.get("spread") else r"\RLN{") + f"{tg['w']:.2f}pt" + "}{" + body + "}") \
+                    if tg.get("w") else (r"\RL{" + body + "}")
                 node = (r"\hypertarget{" + aid + r"}{}{\fontsize{" + f"{size}" + "}{" + f"{size * 1.2:.1f}" +
                         r"}\ArBody" + inner + "}")
                 rot = tg.get("rot", 0)
