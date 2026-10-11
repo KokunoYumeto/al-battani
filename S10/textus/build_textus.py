@@ -1,6 +1,7 @@
-"""Build the line-anchored diplomatic edition of al-Battānī's Arabic text as printed in Nallino's Part III (master PDF
-1153 and 1151 down to 1073 for S10: the title, the list of chapters and the text to printed p. 79) from the page
-transcriptions in pages/ and the measured page geometry in geometry/.
+"""Build the line-anchored diplomatic edition of al-Battānī's Arabic text as printed in Nallino's Part III (for S10:
+the Latin half-title, title, imprint and corrigenda, master PDF 868 and 870-872, then the Arabic title, PDF 1153, and
+the list of chapters and the text to printed p. 79, PDF 1151 down to 1073) from the page transcriptions in pages/ and
+the measured page geometry in geometry/.
 
 Every printed line is set at its printed baseline and with its printed right edge (PDF points measured on the scan;
 the printed page is centred on the edition page); a line that fills the measure is justified to its printed width,
@@ -18,7 +19,12 @@ as printed):
   @h1 TEXT            a chapter heading, centred (takes a geometry line)
   @h2 TEXT            the line under a chapter heading, centred (takes a geometry line)
   @c SIZE TEXT        a centred display line set in SIZE pt (takes a geometry line)
-  @rule Y LEN         a short centred rule LEN pt long at Y (no geometry line)
+  @lc TEXT            a display line in Latin type (the Latin title pages; takes a geometry line with "top"): set in
+                      the Latin font and scaled to the measured width and height of its printed line, so that it
+                      stands in the box of the printed line; the printed typefaces are not imitated
+  @ll SIZE TEXT       a line of Latin with Arabic words, set in SIZE pt from its measured left edge and spread to its
+                      printed width when it fills the measure (the corrigenda; takes a geometry line)
+  @rule Y LEN [XC]    a rule LEN pt long at Y, centred on the block or at XC (no geometry line)
   @orn Y              the printed ornament, centred at Y (no geometry line)
   @fig NAME           a figure redrawn where printed (it takes no geometry line): its circles and straight lines from
                       the geometry ("figures": centres, radii, end points and stroke widths measured on the scan);
@@ -34,8 +40,8 @@ Inline markup: {n:N} a note reference (superscript, as printed); {ov:...} overli
 {mL:TEXT} / {mR:TEXT} a margin item beside this line, on the left / right (the codex's folio, f. 4,v., and
 Nallino's line numbers 5, 10, 15, 20), set where the geometry has it; * the asterisk of a new folio of the codex;
 {0} the zero sign of the codex (set in fonts/NallinoSigns.otf, as in the other editions of the project).
-Long joins (kashida) are not transcribed. In the notes: *italic*, {sc:...} small capitals, {sp:...} letter-spaced; Arabic runs are set in
-the Arabic font."""
+Long joins (kashida) are not transcribed. In the notes and the Latin lines: *italic*, {sc:...} small capitals,
+{sp:...} letter-spaced, {b:...} bold; Arabic runs are set in the Arabic font."""
 import json
 import re
 import unicodedata
@@ -94,6 +100,8 @@ PREAMBLE = r"""\documentclass[11pt]{article}
 \newcommand{\Note}[1]{\textsuperscript{\fontsize{8}{8}\selectfont\addfontfeatures{Numbers=Lining}#1}}
 \newcommand{\Ov}[1]{\vbox{\hrule height .4pt\kern 1.0pt\hbox{#1}}}
 \newcommand{\ArRun}[1]{\textarabic{#1}}
+% a display line in Latin type #3 scaled to the width #1 and the height #2 of its printed line
+\newcommand{\LFit}[3]{\sbox{\LBox}{#3}\resizebox{#1}{#2}{\usebox{\LBox}}}
 """
 
 NOTICE = r"""\thispagestyle{empty}
@@ -132,6 +140,7 @@ def latin_inline(s):
     s = tex_escape_latin(s)
     s = re.sub(r"\{sc:([^}]*)\}", r"\\textsc{\1}", s)
     s = re.sub(r"\{sp:([^}]*)\}", r"\\Name{\1}", s)
+    s = re.sub(r"\{b:([^}]*)\}", r"\\textbf{\1}", s)
     s = re.sub(r"\*([^*]+)\*", r"\\textit{\1}", s)
     s = re.sub(r"\{n:([^}]*)\}", lambda m: r"\Note{" + m.group(1) + "}", s)
     return re.sub("\uE003(\\d+)\uE004", lambda m: keep[int(m.group(1))], s)
@@ -195,12 +204,17 @@ def parse(path):
             page["items"].append(("h1", ln[4:].strip()))
         elif ln.startswith("@h2 "):
             page["items"].append(("h2", ln[4:].strip()))
+        elif ln.startswith("@lc "):
+            page["items"].append(("ldisplay", ln[4:].strip()))
+        elif ln.startswith("@ll "):
+            size, text = ln[4:].strip().split(" ", 1)
+            page["items"].append(("ltext", text.strip(), float(size)))
         elif ln.startswith("@c "):
             size, text = ln[3:].strip().split(" ", 1)
             page["items"].append(("display", text.strip(), float(size)))
         elif ln.startswith("@rule "):
-            y, length = ln.split()[1:3]
-            page["items"].append(("rule", float(y), float(length)))
+            parts = ln.split()
+            page["items"].append(("rule", float(parts[1]), float(parts[2]), float(parts[3]) if len(parts) > 3 else None))
         elif ln.startswith("@orn "):
             page["items"].append(("orn", float(ln.split()[1])))
         elif ln.startswith("@"):
@@ -393,8 +407,8 @@ def page_tex(page, geo, recs, anchors):
             rec.setdefault("labels", []).append({"text": item[1], "x": lg["x"], "baseline": lg["base"]})
             continue
         if kind == "rule":
-            _, y, length = item
-            x = (bx0 + bx1) / 2
+            _, y, length, xc = item
+            x = (bx0 + bx1) / 2 if xc is None else xc
             out.append(at("center", x, y, r"\rule{" + f"{length:.1f}" + "pt}{0.5pt}"))
             rec["lines"].append({"anchor": None, "kind": "rule", "y": y, "length_pt": length})
             continue
@@ -413,6 +427,23 @@ def page_tex(page, geo, recs, anchors):
         yb, x0, x1 = g["base"], g["x0"], g["x1"]
         body = ar_inline(re.sub(r"\{(?:mL|mR|num)(?:@[\d.]+)?:[^}]*\}", "", text)).strip()
         target = r"\hypertarget{" + aid + "}{}"
+        if kind in ("ldisplay", "ltext"):
+            # Latin type (the Latin title pages and the corrigenda of Part III)
+            lbody = latin_inline(text)
+            if kind == "ldisplay":
+                # scaled to the box of the printed line: its measured width and its height above the baseline
+                out.append(at("base", (x0 + x1) / 2, yb, target + r"{\fontsize{20}{24}\selectfont\LFit{" + f"{x1 - x0:.2f}pt" +
+                              "}{" + f"{yb - g['top']:.2f}pt" + "}{" + lbody + "}}"))
+            else:
+                size = item[2]
+                box = (r"\makebox[" + f"{x1 - x0:.2f}pt" + "][s]{" + lbody + "}") if x1 >= bx1 - 8 else lbody
+                out.append(at("base west", x0, yb, target + r"{\fontsize{" + f"{size}" + "}{" + f"{size * 1.2:.1f}" +
+                              r"}\selectfont " + box + "}"))
+            plain = re.sub(r"\{(?:sc|sp|b):([^}]*)\}", r"\1", strip_markup(text))
+            rec["lines"].append({"anchor": aid, "kind": "latin-display" if kind == "ldisplay" else "latin", "text": text,
+                                 "plain": plain, "baseline": yb, "x0": x0, "x1": x1, "margin": [], "numeral": None})
+            anchors.append((aid, pdf, printed, "latin", plain))
+            continue
         if kind in ("h1", "h2", "display"):
             size = {"h1": 21.0, "h2": 15.5}.get(kind, item[2] if kind == "display" else 14.5)
             xc = (x0 + x1) / 2
@@ -479,8 +510,10 @@ def page_tex(page, geo, recs, anchors):
 
 
 def main():
-    pages = sorted((HERE / "pages").glob("AB01-PDF*.txt"), key=lambda p: -int(p.stem[8:]))
-    # reading order: the title (PDF 1153), then the printed pages from p. 1 (PDF 1151) down the PDF
+    # reading order: the Latin half-title, title, imprint and corrigenda (PDF 868, 870-872, up the PDF), then the
+    # Arabic title (PDF 1153) and the printed pages from p. 1 (PDF 1151) down the PDF
+    pages = sorted((HERE / "pages").glob("AB01-PDF*.txt"),
+                   key=lambda p: (0, int(p.stem[8:])) if int(p.stem[8:]) < 1000 else (1, -int(p.stem[8:])))
     body, recs, anchors = [], [], []
     for p in pages:
         page = parse(p)
@@ -488,7 +521,7 @@ def main():
         body.append(page_tex(page, geo, recs, anchors))
     first = recs[0]["printed_page"] if recs else "-"
     printed_nums = [r["printed_page"].translate(WEST) for r in recs if r["printed_page"] != "-"]
-    rng = "Titulus; paginae impressae " + (f"{printed_nums[0]}--{printed_nums[-1]}" if printed_nums else "")
+    rng = "Tituli, corrigenda; paginae impressae " + (f"{printed_nums[0]}--{printed_nums[-1]}" if printed_nums else "")
     tex = (PREAMBLE + "\\begin{document}\n" + NOTICE.replace("RANGE", rng) + "\n".join(body) + "\n\\end{document}\n")
     (HERE / f"{NAME}.tex").write_text(tex, encoding="utf-8")
     (HERE / "records").mkdir(exist_ok=True)
