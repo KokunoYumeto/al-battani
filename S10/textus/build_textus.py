@@ -355,12 +355,13 @@ def page_tex(page, geo, recs, anchors):
 
             def pt(x, y):
                 return "([shift={(" + f"{x + dx:.2f}pt,{-(y + dy):.2f}pt" + ")}]current page.north west)"
-            draw = "".join(r"\draw[line width=" + f"{c['w']:.2f}pt" + "] " + pt(c["cx"], c["cy"]) + " circle[radius=" +
-                           f"{c['r']:.2f}pt" + "];" for c in fg.get("circles", []))
-            # a dashed line ("dash": [ON, OFF], the lengths of its dashes and gaps along the line, measured on the scan)
-            draw += "".join(r"\draw[line width=" + f"{s['w']:.2f}pt" +
-                            (f", dash pattern=on {s['dash'][0]:.2f}pt off {s['dash'][1]:.2f}pt" if s.get("dash") else "") +
-                            "] " + pt(s["x0"], s["y0"]) + " -- " + pt(s["x1"], s["y1"]) + ";" for s in fg.get("segments", []))
+            # a dashed circle or line ("dash": [ON, OFF], the lengths of its dashes and gaps along it, measured on the scan)
+            def dash(e):
+                return f", dash pattern=on {e['dash'][0]:.2f}pt off {e['dash'][1]:.2f}pt" if e.get("dash") else ""
+            draw = "".join(r"\draw[line width=" + f"{c['w']:.2f}pt" + dash(c) + "] " + pt(c["cx"], c["cy"]) +
+                           " circle[radius=" + f"{c['r']:.2f}pt" + "];" for c in fg.get("circles", []))
+            draw += "".join(r"\draw[line width=" + f"{s['w']:.2f}pt" + dash(s) + "] " + pt(s["x0"], s["y0"]) + " -- " +
+                            pt(s["x1"], s["y1"]) + ";" for s in fg.get("segments", []))
             out.append(r"\begin{tikzpicture}[remember picture,overlay]" + draw + r"\end{tikzpicture}")
             frec = {"name": name, "anchor": f"AB01-PDF{pdf:04}-{name}", "circles": fg.get("circles", []),
                     "segments": fg.get("segments", []), "labels": [], "note": fg.get("note", "")}
