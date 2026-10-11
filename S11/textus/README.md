@@ -2,7 +2,7 @@
 
 Part III of Nallino's edition prints the Arabic text of the *Zīj* from the Escorial codex. The scan has its pages in descending order (the book opens from the right): printed page = 1152 − PDF page. S11 covers printed pp. 80–153 (PDF 1072 down to 999). It continues [S10](../../S10/textus/README.md), which holds the title pages, Nallino's corrigenda and pp. 1–79; S12 will hold pp. 154–226.
 
-**Done:** pp. 80–86: chapter 30 continued: the end of the account of the moon's spheres and motions, with the figure of p. 81 redrawn, the causes of the eclipses of the moon and of the sun, and the account of the distances and sizes of the sun and the moon, with the two solar and the two lunar eclipses observed at al-Raqqa and Antioch. The session is in progress: pp. 87–153 are not yet transcribed.
+**Done:** pp. 80–87: chapter 30 continued: the end of the account of the moon's spheres and motions, with the figure of p. 81 redrawn, the causes of the eclipses of the moon and of the sun, and the account of the distances and sizes of the sun and the moon, with the two solar and the two lunar eclipses observed at al-Raqqa and Antioch and the diameters of the moon and of the shadow found from them. The session is in progress: pp. 88–153 are not yet transcribed.
 
 ## Read
 
