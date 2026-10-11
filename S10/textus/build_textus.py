@@ -1,7 +1,8 @@
-"""Build the line-anchored diplomatic edition of al-Battānī's Arabic text as printed in Nallino's Part III (for S10:
-the Latin half-title, title, imprint and corrigenda, master PDF 868 and 870-872, then the Arabic title, PDF 1153, and
-the list of chapters and the text to printed p. 79, PDF 1151 down to 1073) from the page transcriptions in pages/ and
-the measured page geometry in geometry/.
+"""Build the line-anchored diplomatic edition of al-Battānī's Arabic text as printed in Nallino's Part III from the
+page transcriptions in pages/ and the measured page geometry in geometry/. The same script serves every session of the
+text; the session is the name of the folder above this one. S10: the Latin half-title, title, imprint and corrigenda
+(master PDF 868 and 870-872), the Arabic title (PDF 1153), the list of chapters and the text to printed p. 79 (PDF
+1151 down to 1073). S11: printed pp. 80-153 (PDF 1072 down to 999). S12: printed pp. 154-226 (PDF 998 down to 926).
 
 Every printed line is set at its printed baseline and with its printed right edge (PDF points measured on the scan;
 the printed page is centred on the edition page); a line that fills the measure is justified to its printed width,
@@ -48,6 +49,7 @@ import unicodedata
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
+SESSION = HERE.parent.name   # S10, S11 or S12
 NAME = "p3_textus"
 OUT_W, OUT_H = 623.62, 907.09            # the edition page: 220 x 320 mm, as the other editions of the project
 # Arabic letters and signs, and the Arabic-Indic figures (a page cited in a note, p. 46), which the Latin font of
@@ -73,7 +75,7 @@ PREAMBLE = r"""\documentclass[11pt]{article}
 \newfontfamily\OrnFont{FreeSerif}
 \newfontfamily\NallinoSigns{NallinoSigns.otf}[Path=./fonts/]
 \newcommand{\AbjadZero}{{\NallinoSigns\symbol{"E000}}}
-\hypersetup{pdftitle={Al-Battani, Kitab az-Zij as-Sabi'. Textus Arabicus (Nallino, Pars III). S10},pdfauthor={Al-Battani; Carlo Alfonso Nallino (ed.)}}
+\hypersetup{pdftitle={Al-Battani, Kitab az-Zij as-Sabi'. Textus Arabicus (Nallino, Pars III). SESSIONID},pdfauthor={Al-Battani; Carlo Alfonso Nallino (ed.)}}
 \makeatletter
 \def\ps@sourceedition{%
 \def\@oddhead{\vbox{\hbox to\textwidth{\fontsize{8}{10}\selectfont AL-BATTĀNĪ — TEXTUS ARABICUS (NALLINO, PARS III)\hfil\leftmark}\vskip3pt\hrule height.25pt}}%
@@ -107,7 +109,7 @@ PREAMBLE = r"""\documentclass[11pt]{article}
 NOTICE = r"""\thispagestyle{empty}
 \begin{center}\Large AL-BATTĀNĪ\par\vspace{4mm}\LARGE KITĀB AZ-ZĪJ AṢ-ṢĀBIʾ\par
 \vspace{5mm}\large textus Arabicus a Carolo Alphonso Nallino editus (pars III)\par\vspace{8mm}
-\Large S10 --- editio diplomatica\par\vspace{4mm}\large RANGE\end{center}
+\Large SESSIONID --- editio diplomatica\par\vspace{4mm}\large RANGE\end{center}
 \vspace{12mm}\noindent Singulae lineae paginarum impressarum singulis lineis huius editionis respondent et ibi
 collocantur ubi in pagina impressa stant (lineae quae totam latitudinem implent ad eandem latitudinem
 extenduntur). Textus Arabicus cum signis vocalium, ut impressa sunt, ex imaginibus paginarum transcriptus est;
@@ -521,8 +523,10 @@ def main():
         body.append(page_tex(page, geo, recs, anchors))
     first = recs[0]["printed_page"] if recs else "-"
     printed_nums = [r["printed_page"].translate(WEST) for r in recs if r["printed_page"] != "-"]
-    rng = "Tituli, corrigenda; paginae impressae " + (f"{printed_nums[0]}--{printed_nums[-1]}" if printed_nums else "")
-    tex = (PREAMBLE + "\\begin{document}\n" + NOTICE.replace("RANGE", rng) + "\n".join(body) + "\n\\end{document}\n")
+    rng = (("Tituli, corrigenda; p" if any(int(r["source_page"][8:]) < 1000 for r in recs) else "P") + "aginae impressae " +
+           (f"{printed_nums[0]}--{printed_nums[-1]}" if printed_nums else ""))
+    tex = (PREAMBLE.replace("SESSIONID", SESSION) + "\\begin{document}\n" +
+           NOTICE.replace("RANGE", rng).replace("SESSIONID", SESSION) + "\n".join(body) + "\n\\end{document}\n")
     (HERE / f"{NAME}.tex").write_text(tex, encoding="utf-8")
     (HERE / "records").mkdir(exist_ok=True)
     for r in recs:

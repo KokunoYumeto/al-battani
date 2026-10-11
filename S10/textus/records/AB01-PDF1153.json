@@ -50,8 +50,8 @@
   {
    "anchor": "AB01-PDF1153-L05",
    "kind": "display",
-   "text": "نُقِلَ عن النسخة المحفوظة بمكتبة بلدة الإسْكوريال من بلاد الاندلس",
-   "plain": "نُقِلَ عن النسخة المحفوظة بمكتبة بلدة الإسْكوريال من بلاد الاندلس",
+   "text": "نُقِلَ عن النسخة المحفوظة بمكتبة بلدة الإِسْكوريال من بلاد الاندلس",
+   "plain": "نُقِلَ عن النسخة المحفوظة بمكتبة بلدة الإِسْكوريال من بلاد الاندلس",
    "baseline": 378.4,
    "x0": 154.4,
    "x1": 487.8,
@@ -122,10 +122,10 @@
  "notes": [],
  "observations": [
   "L01: the last letter of الصابئ is a dotless yā' with hamza above (ئ in its final form).",
-  "L05: نُقِلَ has a damma over the nūn (above its dot), a kasra under the qāf and a fatha over the lām (1400 dpi); الإسْكوريال has a hamza under the alif and a sukun over the sīn, no kasra.",
+  "L05: نُقِلَ has a damma over the nūn (above its dot), a kasra under the qāf and a fatha over the lām (1400 dpi); الإِسْكوريال has under the alif the hamza with its kasra in one sort and a sukun over the sīn.",
   "L03, L04, L05, L09: the long joins of the display type (عبــد, محــمّــد, المعــروف, عــن, النسخــة, طبــع) are not transcribed.",
   "L05, L07: the kāf of بمكتبة, الدكتور and كَرْلو has the long swash form (ڪ), transcribed ك.",
   "L09: طُبع has a damma over the ṭā'; under the bā' only its dot.",
-  "L05: the hamza under the alif of الإسْكوريال measures 3.2 x 4.7 pt in this display type: one mark, a hamza whose tail curves down to the left, no separate kasra stroke (3000 dpi; a hamza with kasra in the text type is a hamza over a separate stroke)."
+  "L05: the mark under the alif of الإِسْكوريال measures 3.2-3.5 x 4.7 pt: the hamza with its kasra cast in one sort, the sort of the text type (3.4-3.6 x 4.6-5.0 pt on p. 41; a bare hamza under an alif measures 3.2 x 3.3 pt). In the master scan the hamza and the stroke run together; in the second copy the stroke of the kasra stands clear under the hamza, as under the alif of وإِن on p. 41 (found by tools_s10/kasrasweep.py)."
  ]
 }
