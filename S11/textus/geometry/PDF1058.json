@@ -11,53 +11,53 @@
  "lines": [
   {
    "base": 130.7,
-   "x0": 339.4,
-   "x1": 480.2
+   "x0": 337.4,
+   "x1": 480.1
   },
   {
    "base": 157.3,
-   "x0": 339.4,
-   "x1": 500.3
+   "x0": 337.4,
+   "x1": 503.3
   },
   {
    "base": 184.0,
-   "x0": 339.4,
-   "x1": 500.7
+   "x0": 337.4,
+   "x1": 503.3
   },
   {
    "base": 211.3,
-   "x0": 339.4,
-   "x1": 500.7
+   "x0": 337.4,
+   "x1": 503.3
   },
   {
    "base": 238.0,
-   "x0": 339.4,
-   "x1": 501.0
+   "x0": 337.4,
+   "x1": 503.3
   },
   {
    "base": 265.0,
-   "x0": 339.4,
-   "x1": 500.7
+   "x0": 337.4,
+   "x1": 503.3
   },
   {
    "base": 291.2,
-   "x0": 339.4,
-   "x1": 501.0
+   "x0": 337.4,
+   "x1": 503.3
   },
   {
    "base": 318.2,
-   "x0": 339.4,
-   "x1": 500.7
+   "x0": 337.4,
+   "x1": 503.3
   },
   {
    "base": 345.2,
-   "x0": 339.4,
-   "x1": 501.0
+   "x0": 337.4,
+   "x1": 503.3
   },
   {
    "base": 372.2,
-   "x0": 429.8,
-   "x1": 500.3
+   "x0": 429.4,
+   "x1": 503.3
   }
  ],
  "rule": null,
@@ -812,5 +812,5 @@
    "note": "the figure for the moon's light: the circle of the sun about ب with its level diameter ا ج; the upright axis from the top of the sun's circle through the centre of the earth, a filled disc with the letter ي and the word «الارض», down to the middle of the last circle of the moon; ten circles of the moon, their centres on a circle of 145.0 pt about the earth, 20 degrees apart on its left half, from the conjunction at the top (centre ن) to the opposition at the foot (centre ز), the eight between them with the centre د; in each circle the line ك ط, at right angles to the direction of the sun, bounds the dark half, which is hatched, and in the eight circles between the first and the last the line م ل, at right angles to the direction of the earth, crosses the whole circle; the words «مظلم» in the dark half of the first circle and «منير» in the lit half of the last; at the right of the axis a dashed arc from the first circle to the last and, upright along it, the words «وحكم هذا النصف مثل النصف الآخر». Measured on the master scan at 1200 dpi (scratch fig/f1058.py and fig/m1058_a ... g.py): the eleven circles are least-squares fits to the middle of their strokes where no other ink runs into them (rms 0.09 to 0.14 pt); the axis is one straight line through its clean stretches (they keep within 0.27 pt of it) and ends on the line ك ط of the last circle; the lines ك ط are fitted to their edge on the lit side and the lines م ل to their clear part, whose run through the hatching was found again from the unbroken ink along it (within 0.75 degrees and 0.4 pt of the same line; in the ninth circle within 1 pt); each line is drawn between its meetings with the fitted circle, with its measured thickness. The hatching of each dark half is drawn as a regular set of parallel lines with the direction, the mean distance (1.33 to 1.44 pt), the place and the thickness (0.42 to 0.56 pt) measured in that half away from its letters; the engraved lines are not quite even, and 63 to 81 per cent of the ink of the drawn lines falls on printed ones. The dashed arc is a circle fitted to the centres of its 90 dashes (rms 0.12 pt), drawn with their median length and gap between its meetings with the first and the last circle. The disc of the earth has the radius of its printed ink (the mean of its width, its height beside the axis and its area). The 59 letters and words are set at the centres of their printed ink; a letter that touches a line of the figure is measured up to that line, and the letters in the dark halves are measured after the hatching was taken out of the image (an opening of 0.36 pt)"
   }
  ],
- "corrections": "p. 94: the figure fills the page beside and under the ten lines of text; the automatic geometry took its letters for margin items and a mark at the foot of the scan for the rule. The block of the text, the margin items (line numbers 5 and 10 at the far left of the page, the folio number at the right) are set by hand; the page has no rule and no notes"
+ "corrections": "p. 94: the figure fills the page beside and under the ten lines of text; the automatic geometry took its letters for margin items and a mark at the foot of the scan for the rule. The block of the text, the margin items (line numbers 5 and 10 at the far left of the page, the folio number at the right) are set by hand, and the ten lines are measured from their ink (337.4 to 503.3 pt; the first ends at 480.1 pt with its asterisk, the last begins at 429.4 pt); the page has no rule and no notes"
 }
