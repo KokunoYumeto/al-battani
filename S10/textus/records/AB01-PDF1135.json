@@ -271,8 +271,8 @@
   {
    "anchor": "AB01-PDF1135-L21",
    "kind": "text",
-   "text": "عليه مدار الكرة العظمى التي تدور على قُطْبَيْه انّما يُعْرَف برصد الشمس وتفقُّد مجازها على نُقْطتَيْ",
-   "plain": "عليه مدار الكرة العظمى التي تدور على قُطْبَيْه انّما يُعْرَف برصد الشمس وتفقُّد مجازها على نُقْطتَيْ",
+   "text": "عليه مدار الكرة العظمى التي تدور على قُطْبَيْه انّما يُعْرَف برصْد الشمس وتفقُّد مجازها على نُقْطتَيْ",
+   "plain": "عليه مدار الكرة العظمى التي تدور على قُطْبَيْه انّما يُعْرَف برصْد الشمس وتفقُّد مجازها على نُقْطتَيْ",
    "baseline": 725.4,
    "x0": 122.6,
    "x1": 544.9,
@@ -297,7 +297,9 @@
   "L19: إنّ has a hamza under the alif and no kasra (one mark 2.9 x 3.2 pt, as إنعام on p. 7); ميْل has a sukun and no fatha.",
   "L19: in عليه the join of the lām to the yā' did not print (a hairline); the text layer reads عايه.",
   "L20: وتفقُّد: the qāf's dots, a shadda and a damma stacked over the qāf (1500 dpi); قُطْبَيْه and يُعْرَف have a sukun.",
-  "L03, L10, L12: فألْقِ has a hamza without a fatha; أضعفْتَه and فأَضعفْه have a sukun over the fā' (measured); L04 فزدْه a sukun and no kasra."
+  "L03, L10, L12: فألْقِ has a hamza without a fatha; أضعفْتَه and فأَضعفْه have a sukun over the fā' (measured); L04 فزدْه a sukun and no kasra.",
+  "L21: برصْد: a sukun over the ṣād (a round mark 2.6 x 2.7 pt, 13.1 pt over the baseline) (found by tools_s10/dotsweep.py, read at 1300 dpi).",
+  "L03: the tā' of تسعين printed without its dots, as on p. 18 (L15, L18)."
  ],
  "signature": {
   "text": "3",

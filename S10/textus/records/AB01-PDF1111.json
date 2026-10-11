@@ -112,8 +112,8 @@
   {
    "anchor": "AB01-PDF1111-L09",
    "kind": "text",
-   "text": "اليه ممّا هو أقلّ منه فخُذْ ما تلقاءَه من درج البروج المرسومة في سَطْر العدد المُشترِك فما كان فهي",
-   "plain": "اليه ممّا هو أقلّ منه فخُذْ ما تلقاءَه من درج البروج المرسومة في سَطْر العدد المُشترِك فما كان فهي",
+   "text": "اليه ممّا هو أقلّ منه فخُذْ ما تلقاءَه من درج البروج المرسومة في سَطْر العدد المُشْترِك فما كان فهي",
+   "plain": "اليه ممّا هو أقلّ منه فخُذْ ما تلقاءَه من درج البروج المرسومة في سَطْر العدد المُشْترِك فما كان فهي",
    "baseline": 346.7,
    "x0": 115.0,
    "x1": 540.2,
@@ -165,8 +165,8 @@
   {
    "anchor": "AB01-PDF1111-L13",
    "kind": "text",
-   "text": "يتلوه فما حصَل من الدرج والدقائق بعد القِسْمة فزِدْه على الدرج الّتي خرجتْ لك بَدِيًّا{n:1} فما بلغتْ بعد",
-   "plain": "يتلوه فما حصَل من الدرج والدقائق بعد القِسْمة فزِدْه على الدرج الّتي خرجتْ لك بَدِيًّا فما بلغتْ بعد",
+   "text": "يتلوه فما حصَل من الدرج والدقائق بعد القِسْمة فزِدْه على الدرج الّتي خرجتْ لك بَدْئًِّا{n:1} فما بلغتْ بعد",
+   "plain": "يتلوه فما حصَل من الدرج والدقائق بعد القِسْمة فزِدْه على الدرج الّتي خرجتْ لك بَدْئًِّا فما بلغتْ بعد",
    "baseline": 453.6,
    "x0": 115.0,
    "x1": 540.2,
@@ -247,8 +247,8 @@
   {
    "anchor": "AB01-PDF1111-L19",
    "kind": "text",
-   "text": "تلقاءَه من ازمان المطالع الّتي تلقاءَه في الإِقليم المحدود الّذي يكون عَرْض تلك المدينة مثلَه او اقربَ اليه",
-   "plain": "تلقاءَه من ازمان المطالع الّتي تلقاءَه في الإِقليم المحدود الّذي يكون عَرْض تلك المدينة مثلَه او اقربَ اليه",
+   "text": "تلقاءَه من ازمان المطالع الّتي تلقاءَه في الإِقليم المحدود الّذي يكون عَرْض تلك المدينة مثْلَه او اقربَ اليه",
+   "plain": "تلقاءَه من ازمان المطالع الّتي تلقاءَه في الإِقليم المحدود الّذي يكون عَرْض تلك المدينة مثْلَه او اقربَ اليه",
    "baseline": 614.2,
    "x0": 114.7,
    "x1": 540.2,
@@ -313,14 +313,15 @@
   "L04: أَعْنِي: hamza and fatha in one sort, a sukun over the ʿayn, a kasra under the nūn (3000 dpi). أصَبْتَ (L04) has a bare hamza, أَصَبْتَ (L08) the hamza with its fatha in one sort. A bare hamza also in أن (L06), أزمان (L07), أقربُ (L08), أقلّ (L09), الأزمان (L10) and أو (L14, L17); أَن (L14, L16) has the hamza with its fatha in one sort.",
   "L06: ويُسمَّى: a damma over the yā' and a fatha over the shadda on the mīm. تَقْويسَ, L07 وتَحْويلَها: a fatha over the tā', a sukun over the second letter, a fatha over the sīn and over the lām. قِبَل: a kasra under the qāf and a fatha over the bā'. L07 السَّوَاء: a fatha over the shadda on the sīn and a fatha over the wāw.",
   "L07, L18: فٱطلُب and فٱعرِف have the waṣla over the alif (as on p. 40), a damma touching the top of the lām in فٱطلُب and a kasra under the rā' in فٱعرِف; انقُص (L10) and فانقُصْه (L20) have no sign over the alif.",
-  "L08: فحيْثُ: a sukun over the yā' and a damma over the thā'. مِثلَه: a kasra under the mīm and a fatha over the lām; مثلَه (L19) has the fatha only. L09: ممّا: the shadda over the mīm touches the top of the alif (3600 dpi). المُشترِك: a damma over the mīm and a kasra under the rā', no sukun (as on p. 40).",
+  "L08: فحيْثُ: a sukun over the yā' and a damma over the thā'. مِثلَه: a kasra under the mīm and a fatha over the lām; مثْلَه (L19): a sukun over the thā' (a round mark 2.5 x 2.7 pt over its three dots) and the fatha, no kasra (2400 dpi; found by tools_s10/dotsweep.py). L09: ممّا: the shadda over the mīm touches the top of the alif (3600 dpi). المُشْترِك: a damma over the mīm, a sukun over the shīn (a round mark 2.5 x 2.6 pt over its three dots) and a kasra under the rā'; on p. 40 (L18) the word has no sukun (2400 dpi; found by tools_s10/dotsweep.py).",
   "L12: قسَمْتَه: a fatha over the sīn, a sukun over the mīm, a fatha over the tā'. A mark of 2.2 x 1.4 pt over the alif of المطالع is not transcribed. L13: القِسْمة: a kasra under the qāf and a sukun over the sīn. خرجتْ, بلغتْ: a sukun over the tā'.",
-  "L13: بَدِيًّا: a fatha over the bā', a kasra under the junction of dāl and yā', a shadda and fathatan over the yā' and its alif. Two further marks stand over the word: a round mark over the dāl (2.9 x 2.9 pt, -11.5 to -8.6 pt) and, over the tooth of the yā' (whose two dots stand under it), a mark of the shape and size of a hamza (3.2 x 2.9 pt, -9.0 to -6.1 pt); they are not transcribed (5000 dpi). Note 1: the codex always writes بديا.",
+  "L13: «بَدْئًِّا» as printed, every mark transcribed: a fatha over the bā'; a sukun over the dāl (a round mark 2.9 x 2.9 pt, 8.6 to 11.5 pt over the baseline: the sukun of this type); after the dāl one tooth with a hamza over it (3.2 x 2.9 pt, 6.1 to 9.0 pt over the baseline) and the two dots of a yā' under it, transcribed ئ as in بدئًا on pp. 21, 68 and 71; a kasra under the gap between the dāl and the tooth, to the right of the dots (transcribed with the tooth, since the dāl has the sukun); over the tooth and its alif a shadda (3.2 x 2.5 pt) and above it a fathatan (3.6 x 3.2 pt). The marks of two readings stand together (the sukun and the hamza of bad'an, the kasra and the shadda of badiyyan). Note 1: the codex always writes بديا (5000 dpi; the sukun found by tools_s10/dotsweep.py).",
   "L14: السماءَ, تلقاءَه (L09, L19 twice) and تلقاءَ (L20): the hamza with its fatha in one sort. In يطلُع (L14, L17) and تنظُر (L14) the damma touches the top of the lām or of the stroke of the ẓā' (4000 dpi).",
   "L15: الفَضْل: a fatha over the fā', and over the ḍād its dot with a sukun above. يبقَى: a fatha over the qāf. فتأْخذ: the hamza over the alif with a sukun above it, in one sort (3.2 x 5.8 pt).",
   "L17: معدِّل: a shadda over the dāl and a kasra under it. طُلوع, غُروبها: a damma; مَغيب: a fatha. L18: غَدٍ: a fatha and kasratan. وخُذْ (and فخُذْ L09): a damma and a sukun.",
   "L19: عَرْض: a fatha over the ʿayn and a sukun over the rā'. اقربَ: a fatha over the bā' and no hamza over the alif. L20: the hamza of الجزء and of لجزء is larger than the bare hamza elsewhere (3.6 x 4.7-5.0 pt, with a long tail) and carries no vowel; transcribed bare (5000 dpi). المقابِل (L20), المقابِلة (L21): a kasra under the bā'.",
-  "L11, L21: بقِيَ: a kasra under the qāf and a fatha over the yā'. L21: اكثرَ: a fatha over the rā'. L22: زِدْتَّ: a kasra under the zāy, a sukun over the dāl, a fatha over the shadda on the tā'. دوْرًا: a sukun over the wāw and fathatan, no fatha over the dāl. نقَصْتَ: a fatha over the qāf, a sukun over the ṣād, a fatha over the tā'."
+  "L11, L21: بقِيَ: a kasra under the qāf and a fatha over the yā'. L21: اكثرَ: a fatha over the rā'. L22: زِدْتَّ: a kasra under the zāy, a sukun over the dāl, a fatha over the shadda on the tā'. دوْرًا: a sukun over the wāw and fathatan, no fatha over the dāl. نقَصْتَ: a fatha over the qāf, a sukun over the ṣād, a fatha over the tā'.",
+  "L04: under فُضول, between the ḍād and the wāw, a small dot (1.7 x 1.4 pt, 1.2 pt under the baseline), not transcribed."
  ],
  "signature": {
   "text": "6",

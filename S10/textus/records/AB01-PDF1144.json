@@ -95,8 +95,8 @@
   {
    "anchor": "AB01-PDF1144-L08",
    "kind": "text",
-   "text": "الشمس بها. ولمّا كان كلّ ذي بُعْد ذا وسط وطرفيْن كان كلّ *فصل من هذه الفصول ينقسم الى{mL:10}{mR:f. 5,v.}",
-   "plain": "الشمس بها. ولمّا كان كلّ ذي بُعْد ذا وسط وطرفيْن كان كلّ *فصل من هذه الفصول ينقسم الى",
+   "text": "الشمس بها. ولمّا كان كلّ ذي بُعْد ذا وسط وطرْفيْن كان كلّ *فصل من هذه الفصول ينقسم الى{mL:10}{mR:f. 5,v.}",
+   "plain": "الشمس بها. ولمّا كان كلّ ذي بُعْد ذا وسط وطرْفيْن كان كلّ *فصل من هذه الفصول ينقسم الى",
    "baseline": 384.1,
    "x0": 79.0,
    "x1": 501.7,
@@ -285,6 +285,8 @@
   "L19: the first تسمّى: its tā' printed without its dots and detached from the sīn (a stroke 6.5 pt high; an alif is 9 pt).",
   "L07, L09, L12, L14, L16: long joins (متباينــة, ثلثــة, الاثنــا, منــه, الحَمَــل, الحُــوت) are not transcribed.",
   "every إ on this page was measured (hamza_below.py): a hamza with a kasra under the alif where transcribed إِ.",
-  "Nallino's corrigenda (Part III, PDF 872) read «٨,7, بأنّه» for «وبإِنّه» (L05), «٨,11 et 14, الاثنَيْ» for «اثناعشر» (L09) and «الاثنا عشر» (L12), and «٨,15, اثنتَيْ عشرة» for «اثنتاعشر» (L13); L05, L09, L12 and L13 are lines 7, 11, 14 and 15 of the page by Nallino's count."
+  "Nallino's corrigenda (Part III, PDF 872) read «٨,7, بأنّه» for «وبإِنّه» (L05), «٨,11 et 14, الاثنَيْ» for «اثناعشر» (L09) and «الاثنا عشر» (L12), and «٨,15, اثنتَيْ عشرة» for «اثنتاعشر» (L13); L05, L09, L12 and L13 are lines 7, 11, 14 and 15 of the page by Nallino's count.",
+  "L08: وطرْفيْن: two sukuns, over the rā' and over the yā' (round marks 2.6 x 3.0 pt at the same height, 11 pt over the baseline; the dots of the fā' and of the nūn stand lower) (found by tools_s10/dotsweep.py, read at 1300 dpi).",
+  "L13: اثنتاعشر: over the first tooth, the thā', only a small slanted mark (1.0 x 1.7 pt) in place of its three dots, in both copies (the master scan and the second copy, Internet Archive albattanisivealb00batt); the dot of the nūn and the two dots of the tā' follow."
  ]
 }

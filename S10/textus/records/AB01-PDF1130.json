@@ -189,8 +189,8 @@
   {
    "anchor": "AB01-PDF1130-L15",
    "kind": "text",
-   "text": "وذلك عند مجازه على خطّ وسط السماء{n:1} من فوق القطب حيث يكون بين سمت الرؤس والقطب{mL:15}",
-   "plain": "وذلك عند مجازه على خطّ وسط السماء من فوق القطب حيث يكون بين سمت الرؤس والقطب",
+   "text": "وذلك عند مجازه على خطّ وسط السماء{n:1} من فوْق القطب حيث يكون بين سمت الرؤس والقطب{mL:15}",
+   "plain": "وذلك عند مجازه على خطّ وسط السماء من فوْق القطب حيث يكون بين سمت الرؤس والقطب",
    "baseline": 508.3,
    "x0": 83.7,
    "x1": 504.6,
@@ -309,6 +309,7 @@
   "L15: the alif of مجازه printed only as a short raised fragment.",
   "L17, L18: فعُلم and جُمع have a damma and no kasra (1800 dpi).",
   "L22: لانّها has no hamza (لأنّه on L01 has one); يومئذٍ has a hamza on its seat and a kasratan under the dhāl.",
-  "L04: in صَنْعاءَ the hamza and a fatha over it are one sort (3.6 x 5.0 pt; a bare hamza measures 2.9 x 3.2 pt)."
+  "L04: in صَنْعاءَ the hamza and a fatha over it are one sort (3.6 x 5.0 pt; a bare hamza measures 2.9 x 3.2 pt).",
+  "L15: فوْق: a sukun over the wāw (a round mark 2.5 x 2.8 pt, 10.8 pt over the baseline, higher than the dot of the fā' and the pair of the qāf) (found by tools_s10/dotsweep.py, read at 1300 dpi)."
  ]
 }

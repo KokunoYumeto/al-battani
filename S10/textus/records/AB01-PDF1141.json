@@ -83,8 +83,8 @@
   {
    "anchor": "AB01-PDF1141-L07",
    "kind": "text",
-   "text": "جنس الازواج فتلزَمه هذه الشريطة كالدقائق تبسط الى الثواني وكالثوالث تُبْسَط الى الروابع. ﴿ وامّا",
-   "plain": "جنس الازواج فتلزَمه هذه الشريطة كالدقائق تبسط الى الثواني وكالثوالث تُبْسَط الى الروابع. ﴿ وامّا",
+   "text": "جنس الازواج فتلرَمه هذه الشريطة كالدقائق تبسط الى الثواني وكالثوالث تُبْسَط الى الروابع. ﴿ وامّا",
+   "plain": "جنس الازواج فتلرَمه هذه الشريطة كالدقائق تبسط الى الثواني وكالثوالث تُبْسَط الى الروابع. ﴿ وامّا",
    "baseline": 295.6,
    "x0": 116.1,
    "x1": 540.9,
@@ -311,6 +311,8 @@
   "L19, L22: شئت has no vowel over the tā' (the mark above it is the dots of التي on L18); اردتّ on L22 has the shadda alone, اردتَّ on L17 a fatha over it.",
   "L20: بإِزائه: hamza and kasra under the alif (one mark 2.9 x 4.7 pt).",
   "N01: Cod. followed by six spaced dots and ال, as printed.",
-  "L22: قسمْتَه: a sukun (2.2 x 2.2 pt, 10-12 pt above the line) over the mīm and a fatha over the tā' (3000 dpi)."
+  "L22: قسمْتَه: a sukun (2.2 x 2.2 pt, 10-12 pt above the line) over the mīm and a fatha over the tā' (3000 dpi).",
+  "L07: «فتلرَمه» as printed, for فتلزَمه: no dot over the fourth letter, a rā' where the word has a zāy, in both copies (the master scan and the second copy, Internet Archive albattanisivealb00batt); the fatha stands over it (3000 dpi; found by tools_s10/dotsweep.py).",
+  "L20: between هو and ارفع, on the baseline, a round dot (1.8 x 1.8 pt), not transcribed."
  ]
 }

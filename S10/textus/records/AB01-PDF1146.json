@@ -124,8 +124,8 @@
   {
    "anchor": "AB01-PDF1146-L10",
    "kind": "text",
-   "text": "يوم الدين. ﴿ امّا بعد ﴾ إِنّ من اشرف العلوم منزلةً واسناها مرتبةً واحسنها حِليةً واعلقها بالقلوب",
-   "plain": "يوم الدين. ﴿ امّا بعد ﴾ إِنّ من اشرف العلوم منزلةً واسناها مرتبةً واحسنها حِليةً واعلقها بالقلوب",
+   "text": "يوم الدين. ﴿ امّا بعد ﴾ إِنّ من اشرف العلوم منزلةً واسناها مرتبةً واحسنها حِلْيةً واعلقها بالقلوب",
+   "plain": "يوم الدين. ﴿ امّا بعد ﴾ إِنّ من اشرف العلوم منزلةً واسناها مرتبةً واحسنها حِلْيةً واعلقها بالقلوب",
    "baseline": 430.2,
    "x0": 85.9,
    "x1": 508.2,
@@ -148,8 +148,8 @@
   {
    "anchor": "AB01-PDF1146-L12",
    "kind": "text",
-   "text": "جهلُه من شرائع الدين وسنّته علم صناعة النجوم لِمَا في ذلك من جسيم الحظّ وعظيم الانتفاع بمعرفة",
-   "plain": "جهلُه من شرائع الدين وسنّته علم صناعة النجوم لِمَا في ذلك من جسيم الحظّ وعظيم الانتفاع بمعرفة",
+   "text": "جهلُه من شرائع الدين وسنّته علْم صناعة النجوم لِمَا في ذلك من جسيم الحظّ وعظيم الانتفاع بمعرفة",
+   "plain": "جهلُه من شرائع الدين وسنّته علْم صناعة النجوم لِمَا في ذلك من جسيم الحظّ وعظيم الانتفاع بمعرفة",
    "baseline": 484.2,
    "x0": 85.9,
    "x1": 508.2,
@@ -280,10 +280,11 @@
   "L07, L08: وحْدَه and ولَوْ have no fatha over the first wāw; the lām of ٱلهُدَى and of ٱلكَافِرِينَ has no sukun, that of ٱلْحَقِّ, ٱلْمُشْرِكُونَ, ٱلْأَرْضِ and ٱلْقَمَرَ has one (measured).",
   "L10: the qāf of بالقلوب printed only in part (its two dots, no body).",
   "L11: والمعها (wa-almaʿuhā), as printed; not والصقها.",
-  "L12: علم has no vowel signs; its lām is broken (the stem stands apart).",
+  "L12: علْم: a sukun over the lām and no other sign: the sukun is a round mark (2.4 x 2.7 pt) that stands on the shortened stem of the lām, here a hairline apart from it, as in عِلْمًا (L05) and حِلْيةً (L10), where it touches the stem or nearly; the lām of العلم (L11) and العلوم (L10) has its full stem and no such mark (2400 dpi; found by tools_s10/dotsweep.py).",
   "L16: عزّمَن is printed without a space between the zāy and the mīm.",
   "L17: ٱلْسَّمَآء has a sukun over the lām, a fatha over the mīm and a madda over the alif; no kasra under the hamza (900 dpi, measured). The full stop after بُرُوجًا precedes the note number; likewise after خِلْفَةً (L18) and ٱلْحِسَابَ (L19).",
   "L18: the final hamza of ضِيَاءً is one sort with the fathatan (a stroke with a hook on the hamza, 3.6 x 5.4 pt).",
-  "every إ on this page was measured (hamza_below.py): a hamza with a kasra under the alif where transcribed إِ."
+  "every إ on this page was measured (hamza_below.py): a hamza with a kasra under the alif where transcribed إِ.",
+  "L10: حِلْيةً: a kasra under the ḥā', a sukun over the lām (a round mark 2.6 x 3.0 pt on its shortened stem) and a fathatan over the tā' marbūṭa (2400 dpi; found by tools_s10/dotsweep.py)."
  ]
 }

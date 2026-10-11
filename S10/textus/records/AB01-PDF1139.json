@@ -47,8 +47,8 @@
   {
    "anchor": "AB01-PDF1139-L04",
    "kind": "text",
-   "text": "قال قد اختلف الاوائل في مقدار قُطْر الدائرة من مُحيطها غيرَ انّهم قرِبوه فذكر قوم انّ محيط",
-   "plain": "قال قد اختلف الاوائل في مقدار قُطْر الدائرة من مُحيطها غيرَ انّهم قرِبوه فذكر قوم انّ محيط",
+   "text": "قال قد اختلف الاوائل في مقدار قُطْر الدائرة من مُحيطها غيْرَ انّهم قرِبوه فذكر قوم انّ محيط",
+   "plain": "قال قد اختلف الاوائل في مقدار قُطْر الدائرة من مُحيطها غيْرَ انّهم قرِبوه فذكر قوم انّ محيط",
    "baseline": 293.8,
    "x0": 114.3,
    "x1": 514.3,
@@ -83,8 +83,8 @@
   {
    "anchor": "AB01-PDF1139-L07",
    "kind": "text",
-   "text": "وربُع سُدس المثل الواحد ولسنا مضطرّين الى علم حقيقة ذلك في وضع الاوتار اذا كانت القسيّ{mR:10}",
-   "plain": "وربُع سُدس المثل الواحد ولسنا مضطرّين الى علم حقيقة ذلك في وضع الاوتار اذا كانت القسيّ",
+   "text": "وربُع سُدس المثل الواحد ولسْنا مضطرّين الى علم حقيقة ذلك في وضع الاوتار اذا كانت القسيّ{mR:10}",
+   "plain": "وربُع سُدس المثل الواحد ولسْنا مضطرّين الى علم حقيقة ذلك في وضع الاوتار اذا كانت القسيّ",
    "baseline": 374.4,
    "x0": 114.3,
    "x1": 537.7,
@@ -182,8 +182,8 @@
   {
    "anchor": "AB01-PDF1139-L14",
    "kind": "text",
-   "text": "مضروبًا في مثله وأُخذ جِذْر ما يبقى كان هو وَتَر ثُلث الدائرة. وكذلك كلّ قوس معلومة الوتر من",
-   "plain": "مضروبًا في مثله وأُخذ جِذْر ما يبقى كان هو وَتَر ثُلث الدائرة. وكذلك كلّ قوس معلومة الوتر من",
+   "text": "مضروبًا في مثله وأُخذ جِذْر ما يبقى كان هو وَتَر ثُلْث الدائرة. وكذلك كلّ قوْس معلومة الوتر من",
+   "plain": "مضروبًا في مثله وأُخذ جِذْر ما يبقى كان هو وَتَر ثُلْث الدائرة. وكذلك كلّ قوْس معلومة الوتر من",
    "baseline": 562.3,
    "x0": 114.3,
    "x1": 537.7,
@@ -269,6 +269,7 @@
   "L08, L11, L13: يُعْلَم, قُطْرها and القُطْر have a sukun (a round mark 2.2-2.5 x 2.5 pt); the other قُطر of the page have the damma alone (measured); L11 أصْل has a sukun over the ṣād, not a shadda.",
   "L16: وإِنّ: hamza and kasra under the alif (one mark 3.2 x 4.7 pt).",
   "N01: مايتين: in the type of the notes a single dot measures 1.1 x 1.4 pt; the marks under the first and third teeth (2.2 x 1.8) and over the second (2.2 x 1.4) are pairs of dots (1500 dpi).",
-  "L11: انّه: a shadda (2.9 x 2.2 pt) stands high over the nūn, 13-15 pt above the line (2400 dpi)."
+  "L11: انّه: a shadda (2.9 x 2.2 pt) stands high over the nūn, 13-15 pt above the line (2400 dpi).",
+  "L04: غيْرَ: a sukun over the yā' and a fatha over the rā'. L07: ولسْنا: a sukun over the sīn. L14: ثُلْث: a damma over the first thā' and a sukun on the top of the lām; قوْس: a sukun over the wāw. Each sukun is a round mark of 2.6-2.7 x 2.7-2.8 pt, 8.5-10.8 pt over the baseline, higher than the dots of the neighbouring letters (found by tools_s10/dotsweep.py, read at 1300 dpi)."
  ]
 }

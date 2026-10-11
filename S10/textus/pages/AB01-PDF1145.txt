@@ -1,12 +1,12 @@
 @page 1145 ٧
 % Printed p. 7: chapter 1, the end (al-Battani on his book; the page ends after its last line).
-كثير في كتاب اللّٰه عزّ وجلّ يطول وصفه ويتّسع القول بذكره واستشهاده. ﴿ وإِنّي{n:1} لمّا اطَالتُ
+كثير في كتاب اللّٰه عزّ وجلّ يطول وصْفه ويتّسع القول بذكره واستشهاده. ﴿ وإِنّي{n:1} لمّا اطَالتُ
 النظر ﴾ في هذا العلم وادمنتُ الفكر فيه ووقفتُ على اختلاف الكتب الموضوعة لحركات النجوم وما
 تَهَيَّأَ{n:2} على بعض واضعيها من الخَلَل فيما أَصَّلوه فيها من الاعمال وما ابتنوها{n:3} عليه وما اجتمع ايضًا في
 حركات النجوم على طول الزمان لمّا قيست أرصادها الى الأرصاد القديمة وما وُجِدَ في ميْل فلك البروج
 عن فلك معدِّل النهار من التقارب وما تغيّر بتغيّره من اصناف الحساب واقدار ازمان السنين واوقات{mR:5}
 الفصول واتّصالات النيّريْن التي يُستدلّ عليها بازمان الكسوفات واوقاتها اجريتُ في تصحيح ذلك
-وإِحكامه على مذهب بطلميوس في الكتاب المعروف بالمجسطيّ بعد إنعام النَظَر وطول الفكر والروْية
+وإِحكامه على مذهب بطلميوس في الكتاب المعروف بالمجسطيّ بعد إنعام النَظَر وطول الفكر والرؤية
 مقتفيًا اثره متّبعًا ما رسمه اذ كان قد تَقَصَّى ذلك من وجوهه ودلّ على العلل والاسباب العارضة
 *فيه بالبرهان الهندسيّ والعدديّ الذي لا تُدْفَع صحّته ولا يُشَكّ في حقيقته فأمر بالمِحْنة والاعتبار{mL:f. 5,r.}
 بعده وذكر انّه قد يجوز أن يُسْتَدْرَكَ عليه في أرصاده على طول الزمان كما استدرك هو على إِبَّرْخُس{n:4}{mR:10}
@@ -24,10 +24,11 @@ Plato: «Abrachis». — 5) Deest in cod.
 @obs L12, L15: ٱستعجم, ٱستغلق and ٱستخراج have the waṣla sign over the alif.
 @obs L13: يأثَر, as printed (alif with hamza, thā' with its three dots, fatha over it).
 @obs L05: معدِّل has a kasra under the shadda (the earlier pages print معدّل).
-@obs L07: والروْية with a sukun over the wāw, no hamza.
+@obs L07: والرؤية: over the wāw a hamza (heart-shaped, 3.2 x 3.3 pt, as over the wāw of الرؤس on p. 2, L11), not the round sukun of this type (2400 dpi; found by tools_s10/dotsweep.py).
 @obs L01, L06, L09, L16: long joins (اطالــت, تصحيــح, ذلــك, حقيقتــه) are not transcribed.
 @obs L01: اطَالتُ has a fatha over the ṭā' and a damma over the final tā' (900 dpi).
 @obs L16: تحذيق as printed (dhāl with its dot; both machine readings agree).
 @obs L07: النَظَر has a fatha over the nūn and over the ẓā', no shadda (1000 dpi).
 @obs every إ on this page was measured (hamza_below.py): a hamza with a kasra under the alif where transcribed إِ.
 @obs L14: مِنْطَقة: over the nūn its dot (low, -6 to -4 pt) and above it a sukun (-12 to -9 pt; sukunsweep.py, 1400 dpi).
+@obs L01: وصْفه: a sukun over the ṣād (a round mark 2.6 x 3.0 pt, 10.8 pt over the baseline; the dot of the fā' stands lower, to its left) (found by tools_s10/dotsweep.py, read at 1300 dpi).
