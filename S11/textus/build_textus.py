@@ -60,8 +60,9 @@ OUT_W, OUT_H = 623.62, 907.09            # the edition page: 220 x 320 mm, as th
 _AL = r"\u0600-\u06EF\u06FA-\u06FF\u0750-\u077F\uFB50-\uFDFF\uFE70-\uFEFF"
 ARABIC_RUN = re.compile(r"([" + _AL + r"]+(?:[ \u060C.:،][" + _AL + r"]+)*)")
 # in the notes the zero sign of the codex ({0}, held as U+E000) belongs to the Arabic run it stands in (p. 64,
-# note 1: «Cod. {0} كط», the zero to the right of كط)
-ARABIC_RUN_NOTE = re.compile(r"([" + _AL + "\uE000" + r"]+(?:[ \u060C.:،][" + _AL + "\uE000" + r"]+)*)")
+# note 1: «Cod. {0} كط», the zero to the right of كط); a full stop with the space after it does not end an Arabic
+# run (p. 128, note 2: a passage of the text that runs over three lines)
+ARABIC_RUN_NOTE = re.compile(r"([" + _AL + "\uE000" + r"]+(?:(?:\. |[ \u060C.:،])[" + _AL + "\uE000" + r"]+)*)")
 AR_DIGITS = str.maketrans("0123456789", "٠١٢٣٤٥٦٧٨٩")
 WEST = str.maketrans("٠١٢٣٤٥٦٧٨٩", "0123456789")
 
