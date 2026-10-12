@@ -252,7 +252,7 @@ def page_tex(page, geo, recs, anchors):
     dx, dy = (OUT_W - pw) / 2, (OUT_H - ph) / 2
     bx0, bx1 = geo["block"]
     printed_w = printed.translate(WEST) if printed != "-" else "-"
-    out = [r"\DSource{" + f"{pdf}" + "}{" + ("PAG. " + printed_w if printed != "-" else "SINE NUMERO") + "}"]
+    out = [r"\DSource{" + f"{pdf:04}" + "}{" + ("PAG. " + printed_w if printed != "-" else "SINE NUMERO") + "}"]
     rec = {"source_page": f"AB01-PDF{pdf:04}", "printed_page": printed, "kind": page["kind"], "lines": [],
            "notes": [], "observations": page["obs"]}
     glines = geo["lines"]
