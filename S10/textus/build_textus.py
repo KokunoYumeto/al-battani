@@ -572,7 +572,7 @@ def main():
     # reading order: the Latin half-title, title, imprint and corrigenda (PDF 868, 870-872, up the PDF), then the
     # Arabic title (PDF 1153) and the printed pages from p. 1 (PDF 1151) down the PDF
     pages = sorted((HERE / "pages").glob("AB01-PDF*.txt"),
-                   key=lambda p: (0, int(p.stem[8:])) if int(p.stem[8:]) < 1000 else (1, -int(p.stem[8:])))
+                   key=lambda p: (0, int(p.stem[8:])) if int(p.stem[8:]) < 873 else (1, -int(p.stem[8:])))
     body, recs, anchors = [], [], []
     for p in pages:
         page = parse(p)
