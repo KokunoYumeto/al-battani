@@ -1,0 +1,103 @@
+\documentclass[11pt]{article}
+\usepackage[paperwidth=220mm,paperheight=320mm,left=16mm,right=16mm,top=18mm,bottom=18mm,headheight=16pt,headsep=10pt,footskip=14pt]{geometry}
+\usepackage{fontspec,graphicx,tikz}
+\usepackage[unicode,hidelinks]{hyperref}
+\usepackage{polyglossia}
+\setmainlanguage{latin}
+\setotherlanguages{arabic}
+\setmainfont{Linux Libertine O}[Ligatures=TeX]
+\newfontfamily\arabicfont{Amiri}[Script=Arabic]
+\newfontfamily\ArBody{Amiri}[Script=Arabic]
+\newfontfamily\OrnFont{FreeSerif}
+\newfontfamily\NallinoSigns{NallinoSigns.otf}[Path=./fonts/]
+\newcommand{\AbjadZero}{{\NallinoSigns\symbol{"E000}}}
+\hypersetup{pdftitle={Al-Battani, Kitab az-Zij as-Sabi'. Textus Arabicus (Nallino, Pars III). S12},pdfauthor={Al-Battani; Carlo Alfonso Nallino (ed.)}}
+\makeatletter
+\def\ps@sourceedition{%
+\def\@oddhead{\vbox{\hbox to\textwidth{\fontsize{8}{10}\selectfont AL-BATTĀNĪ — TEXTUS ARABICUS (NALLINO, PARS III)\hfil\leftmark}\vskip3pt\hrule height.25pt}}%
+\let\@evenhead\@oddhead
+\def\@oddfoot{\hbox to\textwidth{\fontsize{7}{9}\selectfont\rightmark\hfil\thepage}}%
+\let\@evenfoot\@oddfoot}
+\makeatother
+\pagestyle{sourceedition}
+\setlength{\parindent}{0pt}\setlength{\parskip}{0pt}
+\tracinglostchars=2
+\newcommand{\DSource}[2]{\clearpage\markboth{#2}{AB01-PDF#1}\pdfbookmark[0]{AB01-PDF#1 — #2}{bk-#1}\null}
+% place #3 with its anchor #1 at (#2) from the top left corner of the page
+\newcommand{\At}[3]{\begin{tikzpicture}[remember picture,overlay]\node[anchor=#1,inner sep=0pt,outer sep=0pt] at ([shift={(#2)}]current page.north west) {#3};\end{tikzpicture}}
+\newsavebox{\LBox}
+% a right-to-left line #2 justified to the width #1 (\RLJ) or at its natural width (\RLN); narrowed to #1 if wider
+\newcommand{\RLJ}[2]{\sbox{\LBox}{\RL{#2}}%
+ \ifdim\wd\LBox>#1\relax\typeout{NARROWED|\the\wd\LBox|#1}\resizebox{#1}{\ht\LBox}{\usebox{\LBox}}%
+ \else\makebox[#1][s]{\RL{#2}}\fi}
+\newcommand{\RLN}[2]{\sbox{\LBox}{\RL{#2}}%
+ \ifdim\wd\LBox>#1\relax\typeout{NARROWED|\the\wd\LBox|#1}\resizebox{#1}{\ht\LBox}{\usebox{\LBox}}%
+ \else\usebox{\LBox}\fi}
+% a letter-spaced name in the notes (R e i n a u d on p. 25: 2.55 pt between the letters at 9.2 pt)
+\newcommand{\Name}[1]{{\addfontfeatures{LetterSpace=27}#1}}
+\newcommand{\Note}[1]{\textsuperscript{\fontsize{8}{8}\selectfont\addfontfeatures{Numbers=Lining}#1}}
+\newcommand{\Ov}[1]{\vbox{\hrule height .4pt\kern 1.0pt\hbox{#1}}}
+\newcommand{\ArRun}[1]{\textarabic{#1}}
+% a display line in Latin type #3 scaled to the width #1 and the height #2 of its printed line
+\newcommand{\LFit}[3]{\sbox{\LBox}{#3}\resizebox{#1}{#2}{\usebox{\LBox}}}
+\begin{document}
+\thispagestyle{empty}
+\begin{center}\Large AL-BATTĀNĪ\par\vspace{4mm}\LARGE KITĀB AZ-ZĪJ AṢ-ṢĀBIʾ\par
+\vspace{5mm}\large textus Arabicus a Carolo Alphonso Nallino editus (pars III)\par\vspace{8mm}
+\Large S12 --- editio diplomatica\par\vspace{4mm}\large Tituli, corrigenda; paginae impressae 154--154\end{center}
+\vspace{12mm}\noindent Singulae lineae paginarum impressarum singulis lineis huius editionis respondent et ibi
+collocantur ubi in pagina impressa stant (lineae quae totam latitudinem implent ad eandem latitudinem
+extenduntur). Textus Arabicus cum signis vocalium, ut impressa sunt, ex imaginibus paginarum transcriptus est;
+productiones litterarum (kashida) non transcribuntur. Numeri foliorum codicis et numeri linearum Nallini in
+marginibus stant ubi impressi sunt. Haec transcriptio a nullo homine recognita est.\par
+\DSource{0998}{PAG. 154}
+\At{base east}{511.55pt,-139.71pt}{\hypertarget{AB01-PDF0998-L01}{}{\fontsize{13.8}{27}\ArBody\RLJ{426.20pt}{كان للقمر مَكْث فإِنّك تُخْرِج اجزاء\Note{1} الجَدْوَل الرابع من حدّ سمت الغارب من بَدْء المكث ومن}}}
+\At{base east}{509.75pt,-166.01pt}{\hypertarget{AB01-PDF0998-L02}{}{\fontsize{13.8}{27}\ArBody\RLJ{424.80pt}{حَدّ سمت الجُزْء الطالع في بَدْء الانجلاء الى جهة عرض القمر فحيْثُ انْتَهَى بك العَدَد من دائرة}}}
+\At{base east}{507.95pt,-193.01pt}{\hypertarget{AB01-PDF0998-L03}{}{\fontsize{13.8}{27}\ArBody\RLJ{423.00pt}{الافْق فهو سَمْت الظُّلْمَة والانجلاء الذي يحدُث في دائرة القمر. وهذه صورة الكُسوف على جهته}}}
+\At{base east}{507.95pt,-219.31pt}{\hypertarget{AB01-PDF0998-L04}{}{\fontsize{13.8}{27}\ArBody\RLN{176.00pt}{وجهات الظلْمة فيه والانجلاء إِن شاء اللّٰه.}}}
+\begin{tikzpicture}[remember picture,overlay]\draw[line width=1.27pt] ([shift={(226.84pt,-369.77pt)}]current page.north west) circle[radius=110.62pt];\draw[line width=1.26pt] ([shift={(226.92pt,-369.97pt)}]current page.north west) circle[radius=83.69pt];\draw[line width=1.19pt] ([shift={(227.01pt,-370.04pt)}]current page.north west) circle[radius=61.71pt];\draw[line width=1.23pt] ([shift={(150.50pt,-336.27pt)}]current page.north west) circle[radius=22.08pt];\draw[line width=1.22pt] ([shift={(227.10pt,-348.33pt)}]current page.north west) circle[radius=21.78pt];\draw[line width=1.23pt] ([shift={(310.12pt,-360.53pt)}]current page.north west) circle[radius=21.99pt];\draw[line width=1.08pt] ([shift={(226.77pt,-259.15pt)}]current page.north west) -- ([shift={(226.85pt,-480.40pt)}]current page.north west);\draw[line width=1.08pt] ([shift={(116.21pt,-369.65pt)}]current page.north west) -- ([shift={(337.45pt,-370.45pt)}]current page.north west);\draw[line width=1.08pt] ([shift={(149.75pt,-335.95pt)}]current page.north west) -- ([shift={(226.80pt,-336.14pt)}]current page.north west);\draw[line width=1.21pt] ([shift={(149.77pt,-336.18pt)}]current page.north west) -- ([shift={(311.21pt,-360.66pt)}]current page.north west);\draw[line width=1.19pt] ([shift={(150.21pt,-335.62pt)}]current page.north west) -- ([shift={(327.65pt,-415.30pt)}]current page.north west);\draw[line width=1.08pt] ([shift={(226.81pt,-361.53pt)}]current page.north west) -- ([shift={(310.91pt,-360.47pt)}]current page.north west);\draw[line width=1.11pt] ([shift={(116.96pt,-382.59pt)}]current page.north west) -- ([shift={(310.88pt,-360.26pt)}]current page.north west);\end{tikzpicture}
+\At{center}{227.21pt,-246.17pt}{\hypertarget{AB01-PDF0998-F01-T01}{}{\fontsize{13.8}{16.6}\ArBody\RLN{27.62pt}{جنوب}}}
+\At{center}{229.85pt,-265.97pt}{\hypertarget{AB01-PDF0998-F01-T02}{}{\fontsize{15.0}{18.0}\ArBody\RL{ا}}}
+\At{center}{235.25pt,-296.03pt}{\hypertarget{AB01-PDF0998-F01-T03}{}{\fontsize{14.5}{17.4}\ArBody\RL{ض}}}
+\At{center}{145.13pt,-337.97pt}{\hypertarget{AB01-PDF0998-F01-T04}{}{\fontsize{15.5}{18.6}\ArBody\RL{م}}}
+\At{center}{232.07pt,-335.69pt}{\hypertarget{AB01-PDF0998-F01-T05}{}{\fontsize{15.5}{18.6}\ArBody\RL{ل}}}
+\At{center}{231.17pt,-351.83pt}{\hypertarget{AB01-PDF0998-F01-T06}{}{\fontsize{15.5}{18.6}\ArBody\RL{ه}}}
+\At{center}{174.65pt,-354.95pt}{\hypertarget{AB01-PDF0998-F01-T07}{}{\fontsize{15.5}{18.6}\ArBody\RL{ح}\kern2.46pt}}
+\At{center}{232.31pt,-361.43pt}{\hypertarget{AB01-PDF0998-F01-T08}{}{\fontsize{13.0}{15.6}\ArBody\RL{ط}}}
+\At{center}{316.79pt,-357.35pt}{\hypertarget{AB01-PDF0998-F01-T09}{}{\fontsize{15.5}{18.6}\ArBody\RL{ك}}}
+\At{center}{281.93pt,-366.59pt}{\hypertarget{AB01-PDF0998-F01-T10}{}{\fontsize{12.5}{15.0}\ArBody\RL{س}}}
+\At{center}{96.47pt,-372.77pt}{\hypertarget{AB01-PDF0998-F01-T11}{}{\fontsize{13.8}{16.6}\ArBody\RLN{24.38pt}{مشرق}}}
+\At{center}{124.67pt,-362.81pt}{\hypertarget{AB01-PDF0998-F01-T12}{}{\fontsize{15.5}{18.6}\ArBody\RL{ب}}}
+\At{center}{333.47pt,-374.87pt}{\hypertarget{AB01-PDF0998-F01-T13}{}{\fontsize{15.5}{18.6}\ArBody\RL{د}}}
+\At{center}{357.29pt,-374.21pt}{\hypertarget{AB01-PDF0998-F01-T14}{}{\fontsize{13.8}{16.6}\ArBody\RLN{25.70pt}{مغرب}}}
+\At{center}{231.11pt,-378.95pt}{\hypertarget{AB01-PDF0998-F01-T15}{}{\fontsize{15.5}{18.6}\ArBody\RL{ز}\kern-2.24pt}}
+\At{center}{126.23pt,-389.51pt}{\hypertarget{AB01-PDF0998-F01-T16}{}{\fontsize{15.5}{18.6}\ArBody\RL{ق}}}
+\At{center}{322.55pt,-405.65pt}{\hypertarget{AB01-PDF0998-F01-T17}{}{\fontsize{15.0}{18.0}\ArBody\RL{لا}}}
+\At{center}{219.65pt,-472.01pt}{\hypertarget{AB01-PDF0998-F01-T18}{}{\fontsize{15.5}{18.6}\ArBody\RL{ج}\kern2.46pt}}
+\At{center}{226.73pt,-498.47pt}{\hypertarget{AB01-PDF0998-F01-T19}{}{\fontsize{13.8}{16.6}\ArBody\RLN{20.18pt}{شمال}}}
+\At{base east}{484.55pt,-246.31pt}{\hypertarget{AB01-PDF0998-L05}{}{\fontsize{13.8}{27}\ArBody\RLN{106.50pt}{*قال نَبْدَأُ بعَوْن اللّٰه فنخُطّ}}}
+\At{base east}{78.25pt,-245.21pt}{{\fontsize{8}{9}\selectfont 5}}
+\At{base west}{514.95pt,-246.31pt}{{\fontsize{8}{9}\selectfont f. 105,r.}}
+\At{base east}{507.95pt,-273.31pt}{\hypertarget{AB01-PDF0998-L06}{}{\fontsize{13.8}{27}\ArBody\RLN{129.20pt}{خَطًّا مستقيمًا ونقسِمه بأَقسام}}}
+\At{base east}{507.65pt,-299.91pt}{\hypertarget{AB01-PDF0998-L07}{}{\fontsize{13.8}{27}\ArBody\RLN{129.30pt}{متساوية كم شِئْتَ بَعْدَ أن يكون}}}
+\At{base east}{507.65pt,-326.91pt}{\hypertarget{AB01-PDF0998-L08}{}{\fontsize{13.8}{27}\ArBody\RLN{130.40pt}{مثل عَدَد نِصْف القُطْرَيْن او}}}
+\At{base east}{506.85pt,-352.91pt}{\hypertarget{AB01-PDF0998-L09}{}{\fontsize{13.8}{27}\ArBody\RLN{128.50pt}{اكثر منه ثمّ خذ من هذا الخطّ}}}
+\At{base east}{506.15pt,-380.21pt}{\hypertarget{AB01-PDF0998-L10}{}{\fontsize{13.8}{27}\ArBody\RLN{127.80pt}{بقدر نصف القطربْن فأَدِرْ به}}}
+\At{base east}{77.95pt,-378.81pt}{{\fontsize{8}{9}\selectfont 10}}
+\At{base east}{506.85pt,-406.51pt}{\hypertarget{AB01-PDF0998-L11}{}{\fontsize{13.8}{27}\ArBody\RLN{129.20pt}{دائرة وهي دائرة نصف القطريْن}}}
+\At{base east}{506.85pt,-433.11pt}{\hypertarget{AB01-PDF0998-L12}{}{\fontsize{13.8}{27}\ArBody\RLN{128.10pt}{التي عليها يقَع مَرْكَز القمر في}}}
+\At{base east}{507.25pt,-459.81pt}{\hypertarget{AB01-PDF0998-L13}{}{\fontsize{13.8}{27}\ArBody\RLN{128.90pt}{وقت الابتداء وتمام الانجلاء ثمّ}}}
+\At{base east}{507.25pt,-486.41pt}{\hypertarget{AB01-PDF0998-L14}{}{\fontsize{13.8}{27}\ArBody\RLN{128.90pt}{خذ ايضًا بقَدْر نصف قطر الظلّ}}}
+\At{base east}{507.25pt,-513.11pt}{\hypertarget{AB01-PDF0998-L15}{}{\fontsize{13.8}{27}\ArBody\RLN{128.20pt}{فأدِرْ به دائرة على مركز الدائرة}}}
+\At{base east}{77.55pt,-512.71pt}{{\fontsize{8}{9}\selectfont 15}}
+\At{base east}{506.55pt,-539.31pt}{\hypertarget{AB01-PDF0998-L16}{}{\fontsize{13.8}{27}\ArBody\RLJ{423.40pt}{الأُولَى تقَع في داخِل تلك الدائرة وهي دائرة الظِّلّ ثمّ رَبِّعِ الدائرتَيْن أَرْباعًا متساوية واكتُبْ}}}
+\At{base east}{506.85pt,-566.71pt}{\hypertarget{AB01-PDF0998-L17}{}{\fontsize{13.8}{27}\ArBody\RLJ{422.60pt}{على أطراف الخُطوط جِهات المشرِق والمغرِب والشَّمال والجَنُوب ثمّ خُذْ من الخطّ المقسوم ايضًا}}}
+\At{base east}{505.85pt,-593.31pt}{\hypertarget{AB01-PDF0998-L18}{}{\fontsize{13.8}{27}\ArBody\RLJ{422.00pt}{بقَدْر عرض القمر لوَسَط الكسوف بالمِدْوَار وضَعْ احد طَرَفَيْه على مركز الدائرتَيْن وأدِرْ طَرَفه}}}
+\At{base east}{506.15pt,-620.00pt}{\hypertarget{AB01-PDF0998-L19}{}{\fontsize{13.8}{27}\ArBody\RLJ{422.60pt}{الآخر الى جهة عرض القمر فحيْث وقَع من خطّ الشَّمال او الجَنوب فتعلِم عليه عَلامة على الخطّ تكون}}}
+\At{base east}{507.25pt,-646.31pt}{\hypertarget{AB01-PDF0998-L20}{}{\fontsize{13.8}{27}\ArBody\RLJ{422.30pt}{مَرْكَزًا للقمر لوَسط الكسوف ثمّ خذ من ذلك الخطّ ايضًا بقَدْر عرض القمر لبدْء الكسوف}}}
+\At{base east}{77.25pt,-646.31pt}{{\fontsize{8}{9}\selectfont 20}}
+\At{base east}{506.85pt,-672.21pt}{\hypertarget{AB01-PDF0998-L21}{}{\fontsize{13.8}{27}\ArBody\RLJ{423.00pt}{وافعَلْ به مثل ذلك وتعلِم على موضعه من الخطّ في جهة عرض القمر علامة ثانية وكذلك تفعَل}}}
+\At{base east}{505.85pt,-698.81pt}{\hypertarget{AB01-PDF0998-L22}{}{\fontsize{13.8}{27}\ArBody\RLJ{422.00pt}{بعرض القمر لتمام الانجلاء وتعلِم على موضعه من الخطّ علامة أُخْرَى في جهة العرض ثمّ أَخْرِج من}}}
+\At{west}{82.95pt,-727.06pt}{\rule{101.5pt}{0.5pt}}
+\At{base west}{111.45pt,-754.61pt}{\hypertarget{AB01-PDF0998-N01}{}{\fontsize{9.2}{11}\selectfont 1) Cod. \ArRun{اخر}}}
+\end{document}
