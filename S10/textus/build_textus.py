@@ -55,6 +55,15 @@ HERE = Path(__file__).resolve().parent
 SESSION = HERE.parent.name   # S10, S11 or S12
 NAME = "p3_textus"
 OUT_W, OUT_H = 623.62, 907.09            # the edition page: 220 x 320 mm, as the other editions of the project
+# the centre of the ink of an isolated letter from the centre of its advance width, in em (to the right positive),
+# for the letters of Amiri whose ink stands off it by 0.02 em or more: jim, ha' and kha' 0.0793, 'ayn and ghayn
+# 0.1245, ra' and zay -0.0723, waw and waw with hamza -0.0725, alif with hamza below 0.0523, alif with madda
+# -0.0268 (from the outlines of Amiri-Regular 1.000, with fontTools; at the 15.5 pt of the figure letters 1.2, 1.9
+# and 1.1 pt). A figure label of one such letter is moved back by this distance, so that the centre of its ink,
+# not of its advance width, stands at the measured centre of the printed ink
+INK_OFF = {"\u062C": 0.0793, "\u062D": 0.0793, "\u062E": 0.0793, "\u0639": 0.1245, "\u063A": 0.1245,
+           "\u0631": -0.0723, "\u0632": -0.0723, "\u0648": -0.0725, "\u0624": -0.0725, "\u0625": 0.0523,
+           "\u0622": -0.0268}
 # Arabic letters and signs, and the Arabic-Indic figures (a page cited in a note, p. 46), which the Latin font of
 # the notes does not have
 _AL = r"\u0600-\u06EF\u06FA-\u06FF\u0750-\u077F\uFB50-\uFDFF\uFE70-\uFEFF"
@@ -430,6 +439,10 @@ def page_tex(page, geo, recs, anchors):
                 # stand as far apart as printed)
                 inner = ((r"\RLJ{" if tg.get("spread") else r"\RLN{") + f"{tg['w']:.2f}pt" + "}{" + body + "}") \
                     if tg.get("w") else (r"\RL{" + body + "}")
+                # a label of one letter whose ink stands off the centre of its advance width (INK_OFF): a kern
+                # after it, twice that distance, brings the centre of its box to the centre of its ink
+                if not tg.get("w") and strip_markup(t) in INK_OFF:
+                    inner += r"\kern" + f"{2 * INK_OFF[strip_markup(t)] * size:.2f}pt"
                 node = (r"\hypertarget{" + aid + r"}{}{\fontsize{" + f"{size}" + "}{" + f"{size * 1.2:.1f}" +
                         r"}\ArBody" + inner + "}")
                 rot = tg.get("rot", 0)
