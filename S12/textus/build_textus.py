@@ -71,8 +71,10 @@ ARABIC_RUN = re.compile(r"([" + _AL + r"]+(?:[ \u060C.:،][" + _AL + r"]+)*)")
 # in the notes the zero sign of the codex ({0}, held as U+E000) belongs to the Arabic run it stands in (p. 64,
 # note 1: «Cod. {0} كط», the zero to the right of كط); a full stop with the space after it does not end an Arabic
 # run (p. 128, note 2: a passage of the text that runs over three lines); a «(sic)» between two Arabic words of one
-# quotation stands inside the run, which goes from right to left through it (p. 207, note 1)
-ARABIC_RUN_NOTE = re.compile(r"([" + _AL + "\uE000" + r"]+(?:(?:\. | \(sic\) |[ \u060C.:،])[" + _AL + "\uE000" + r"]+)*)")
+# quotation stands inside the run, which goes from right to left through it (p. 207, note 1); so does an
+# ellipsis «. . .» between two fragments of one quotation, and a zero-width joiner (U+200D) after a fragment
+# that is broken off keeps its last letter in the joining form (p. 219, note 1)
+ARABIC_RUN_NOTE = re.compile(r"([" + _AL + "\uE000\u200D" + r"]+(?:(?:\. | \(sic\) | ?\. \. \. ?|[ \u060C.:،])[" + _AL + "\uE000\u200D" + r"]+)*)")
 AR_DIGITS = str.maketrans("0123456789", "٠١٢٣٤٥٦٧٨٩")
 WEST = str.maketrans("٠١٢٣٤٥٦٧٨٩", "0123456789")
 
@@ -150,7 +152,8 @@ def latin_inline(s):
 
     def stash(m):
         keep.append(r"\ArRun{" + m.group(1).replace("\uE000", r"\AbjadZero{}")
-                    .replace("(sic)", r"\LR{\textlatin{(sic)}}") + "}")
+                    .replace("(sic)", r"\LR{\textlatin{(sic)}}")
+                    .replace(". . .", r".\kern0.45em{}.\kern0.45em{}.") + "}")
         return f"\uE003{len(keep) - 1}\uE004"
 
     s = ARABIC_RUN_NOTE.sub(stash, s.replace("{0}", "\uE000"))
