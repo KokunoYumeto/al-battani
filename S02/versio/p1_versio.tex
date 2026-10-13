@@ -1,0 +1,217 @@
+\documentclass[11pt]{article}
+\usepackage[paperwidth=220mm,paperheight=320mm,left=16mm,right=16mm,top=18mm,bottom=18mm,headheight=16pt,headsep=10pt,footskip=14pt]{geometry}
+\usepackage{fix-cm}
+\usepackage{fontspec,amsmath,amssymb,graphicx,array,multirow,tikz}
+\usetikzlibrary{decorations.pathreplacing}
+\usepackage[unicode,hidelinks]{hyperref}
+\usepackage{polyglossia}
+\setmainlanguage{latin}
+\setotherlanguages{arabic,greek,hebrew,syriac}
+\setmainfont{Linux Libertine O}[Ligatures=TeX]
+\setsansfont{Linux Biolinum O}[Ligatures=TeX]
+\newfontfamily\greekfont{FreeSerif}[Script=Greek]
+\newfontfamily\arabicfont{Amiri}[Script=Arabic]
+\newfontfamily\hebrewfont{Frank Ruhl Hofshi}[Script=Hebrew]
+\newfontfamily\syriacfont{Segoe UI Historic}[Script=Syriac]
+\newfontfamily\CapFont{Noto Serif}
+\newfontfamily\MoonFont{FreeSerif}
+\newcommand{\MoonSym}{\text{\MoonFont ☾}}\newcommand{\SunSym}{\text{\MoonFont ⊙}}
+\newfontfamily\EthiopicFont{Ebrima}
+\newcommand{\textethiopic}[1]{{\EthiopicFont #1}}
+\newfontfamily\NallinoSigns{NallinoSigns.otf}[Path=./fonts/]
+\newcommand{\AbjadZero}{{\NallinoSigns\symbol{"E000}}}
+\hypersetup{pdftitle={Al-Battani, Opus astronomicum. Nallino, versio Latina et adnotationes (Pars I). S02},pdfauthor={Al-Battani; Carlo Alfonso Nallino (Latin translation and notes)}}
+\makeatletter
+\def\ps@sourceedition{%
+\def\@oddhead{\vbox{\hbox to\textwidth{\fontsize{8}{10}\selectfont C. A. NALLINO — VERSIO ET ADNOTATIONES\hfil\leftmark}\vskip3pt\hrule height.25pt}}%
+\let\@evenhead\@oddhead
+\def\@oddfoot{\hbox to\textwidth{\fontsize{7}{9}\selectfont\rightmark\hfil\thepage}}%
+\let\@evenfoot\@oddfoot}
+\makeatother
+\pagestyle{sourceedition}
+\setlength{\parindent}{0pt}\setlength{\parskip}{0pt}
+\newcommand{\BeginSource}[2]{\clearpage\markboth{PAG. #2}{#1}\hypertarget{#1}{}\pdfbookmark[0]{#1 — p. #2}{bk-#1}\fontsize{11.1}{13.8}\selectfont}
+\tracinglostchars=2
+\newcommand{\Name}[1]{{\addfontfeatures{LetterSpace=4.0}#1}}
+\newcommand{\Indent}{\hspace*{1.6em}}
+% an Arabic run inside a Latin line: its descenders do not open the line (the printed lines are evenly spaced)
+\newcommand{\ArabicRun}[1]{\smash[b]{\textarabic{#1}}}
+\newcommand{\qfrac}[2]{{}^{#1}\!/_{{#2}}}
+\newcommand{\sa}{\textsuperscript{\textit{a}}}\newcommand{\sm}{\textsuperscript{\textit{m}}}\newcommand{\sd}{\textsuperscript{\textit{d}}}
+\newcommand{\RawBlock}[1]{\par\vspace{3pt}\noindent#1\par\vspace{3pt}}
+\newcommand{\CenterLine}[1]{\makebox[\linewidth][c]{#1}}
+\newlength{\FullSourceWidth}\newlength{\GutterOffset}\newif\ifNumbersLeft
+\newcommand{\DSource}[2]{\BeginSource{AB01-PDF#1}{#2}%
+ \setlength{\FullSourceWidth}{\textwidth}\setlength{\GutterOffset}{0pt}%
+ \ifodd#2\relax\NumbersLefttrue\else\NumbersLeftfalse\fi}
+\newsavebox{\DLBox}
+\newcommand{\DLine}[4]{%
+ \par\noindent\hypertarget{#1}{}%
+ \ifx\relax#2\relax\else
+   \ifNumbersLeft
+    \rlap{\kern-\GutterOffset\llap{\fontsize{7}{8}\selectfont #2\hspace{3mm}}}%
+   \else
+    \rlap{\kern\dimexpr\FullSourceWidth-\GutterOffset\relax\hspace{3mm}{\fontsize{7}{8}\selectfont #2}}%
+   \fi
+ \fi
+ \ifx\relax#3\relax\else
+   \ifNumbersLeft
+    \rlap{\kern\dimexpr\FullSourceWidth-\GutterOffset\relax\hspace{3mm}{\fontsize{7}{8}\selectfont #3}}%
+   \else
+    \rlap{\kern-\GutterOffset\llap{\fontsize{7}{8}\selectfont #3\hspace{3mm}}}%
+   \fi
+ \fi
+ \sbox{\DLBox}{\strut #4}%
+ \ifdim\wd\DLBox>\linewidth\typeout{DIPLOMATICWIDTH|#1|\the\wd\DLBox|\the\linewidth}\fi
+ \usebox{\DLBox}\strut\par}
+\begin{document}
+\thispagestyle{empty}
+\begin{center}\Large AL-BATTĀNĪ\par\vspace{4mm}\LARGE OPUS ASTRONOMICUM\par
+\vspace{5mm}\large Caroli Alphonsi Nallino versio Latina et adnotationes (pars I)\par\vspace{8mm}
+\Large S02 --- editio diplomatica\par\vspace{4mm}\large Paginae impressae 54--55\end{center}
+\vspace{12mm}\noindent Singulae lineae paginarum impressarum singulis lineis huius editionis respondent, cum
+divisionibus vocabulorum, signis et generibus litterarum (rectis, inclinatis, distantibus). Numeri linearum et
+paginae textus Arabici in marginibus stant ut impressi sunt. Textus ex imaginibus paginarum transcriptus est;
+litterae Graecae et Arabicae, numeri et signa in imaginibus amplificatis lecta sunt.
+Haec transcriptio a nullo homine recognita est.\par
+\DSource{0143}{54}
+\DLine{AB01-PDF0143-body-L001}{}{}{dum complectatur ex gradibus quorum circumferentia triangulum DKE circumdans 360 habet;}
+\DLine{AB01-PDF0143-body-L002}{}{}{eius sinus 0\textsuperscript{\textit{p}} 31′ 25″ (1) erit ex partibus quarum semidiametrus ED 60 continet. Remanent}
+\DLine{AB01-PDF0143-body-L003}{}{p. 82.}{igitur angulus KED 89° 30′, arcus KD 89° 30′ (2), eiusque sinus 60\textsuperscript{\textit{p}} (3) fere. Sed si linea ED}
+\DLine{AB01-PDF0143-body-L004}{}{}{excentricitatis 10\textsuperscript{\textit{p}} 19′ ponatur, linea EK quinque fere minutorum, et linea KD 10\textsuperscript{\textit{p}} 19′ circiter}
+\DLine{AB01-PDF0143-body-L005}{5}{}{fiet. Deinde lineam EF ut ED ponamus, ES ut EK, SF ut DK. Lineam DB, quae a centro}
+\DLine{AB01-PDF0143-body-L006}{}{}{excentrici ad eiusdem circumferentiam protenditur, iam vidimus 49\textsuperscript{\textit{p}} 41′ esse ea ratione qua}
+\DLine{AB01-PDF0143-body-L007}{}{}{semidiametrus MB epicycli 5\textsuperscript{\textit{p}} 15′ est; ob ea quae diximus tota BK 48\textsuperscript{\textit{p}} 36′ erit, de qua si}
+\DLine{AB01-PDF0143-body-L008}{}{}{EK, scilicet 5 minuta, demitur, remanet linea EB 48\textsuperscript{\textit{p}} 31′. Quoniam ES etiam 5 minuta com-}
+\DLine{AB01-PDF0143-body-L009}{}{}{plectitur, erit SB 48\textsuperscript{\textit{p}} 26′ (4); et ex ratione linearum SF, SB ratio lineae BF deprehenditur,}
+\DLine{AB01-PDF0143-body-L010}{10}{}{quae igitur 49\textsuperscript{\textit{p}} 31′ fere complectetur si SF circiter 10\textsuperscript{\textit{p}} 19′ (5) fuerit. Excrescente autem}
+\DLine{AB01-PDF0143-body-L011}{}{}{linea BF usque ad 60\textsuperscript{\textit{p}}, fiet SF circiter 12\textsuperscript{\textit{p}} 32′ (6), et arcus super eam positus, si angulus}
+\DLine{AB01-PDF0143-body-L012}{}{}{rectus 90° continet, 12° 1′ fere; et haec est quantitas arcus HG. — Motus verus Lunae in}
+\DLine{AB01-PDF0143-body-L013}{}{}{epicyclo, ut a centro eclipticae conspicitur, a puncto G erit igitur 345° 13′; qua re, si dupla}
+\DLine{AB01-PDF0143-body-L014}{}{}{elongatio minor est 180° gradibus, arcus HG additur anomaliae in tabulis repertae; si contra}
+\DLine{AB01-PDF0143-body-L015}{15}{}{180° superat, arcus HG de anomalia illa demitur. Initio enim centrum epicycli inter pun-}
+\DLine{AB01-PDF0143-body-L016}{}{}{ctum A excentrici et P, qui M sequitur, erit; postea in alterum semicirculum PA, qui a}
+\DLine{AB01-PDF0143-body-L017}{}{}{parte puncti D reperitur (7), transibit. Haec 12° 1′ in tertia (8) columna, sub numero 90° 30′}
+\DLine{AB01-PDF0143-body-L018}{}{}{inveniuntur.}
+\hypertarget{AB01-PDF0143-P01}{}
+\DLine{AB01-PDF0143-body-L019}{}{}{\Indent Dicit [auctor]: Motum longitudinis Lunae ut in libro Ptolemaei ponitur invenimus, post-}
+\DLine{AB01-PDF0143-body-L020}{20}{}{quam ei addidimus id quod motui Solis adiecimus; et hoc modo eum in tabulis descripsimus.}
+\DLine{AB01-PDF0143-body-L021}{}{}{Motus anomalisticus omnino est ut apud Ptolemaeum; sed motum latitudinis invenimus 27}
+\DLine{AB01-PDF0143-body-L022}{}{}{minutis redundantem in libro Ptolemaei, qua re haec minuta per tempus inter eum et nos}
+\DLine{AB01-PDF0143-body-L023}{}{}{transactum divisimus et de motu latitudinis dempsimus; quod remansit in tabulis posuimus.}
+\DLine{AB01-PDF0143-body-L024}{}{}{Columnas ad elongationem duplicatam Lunae a Sole designandam nobis componere necesse}
+\DLine{AB01-PDF0143-body-L025}{25}{}{non fuit; quocumque tempore enim elongationem Solis a Luna iuxta eorum medium motum}
+\DLine{AB01-PDF0143-body-L026}{}{p. 83.}{scimus, qua duplicata utemus pro eo quod ex tabulis provenit, sine augmento vel deminu-}
+\DLine{AB01-PDF0143-body-L027}{}{}{tione. — Latitudinem Lunae usque ad 5 gradus fere pervenire reperimus eaque in septima (9)}
+\DLine{AB01-PDF0143-body-L028}{}{}{columna tabularum aequationis describitur; sed cum eius quantitas (10) hoc nostro tempore [ab}
+\DLine{AB01-PDF0143-body-L029}{}{}{aerae Dhū ’l–qarnayn initio] $\qfrac{3}{4}$ unius gradus [veritatem] excederet, hoc de motu eius de-}
+\DLine{AB01-PDF0143-body-L030}{30}{}{traximus, et remansit quod, Deo altissimo volente, eo loco invenies (\textbf{\textit{d}}).}
+\hypertarget{AB01-PDF0143-P02}{}
+\DLine{AB01-PDF0143-body-L031}{}{}{\Indent Eclipsis lunaris causa haec est: cum Sol maior Terra sit, Terra autem maior quam Luna,}
+\DLine{AB01-PDF0143-body-L032}{}{}{radii Solis Terram involvunt et ab altera parte in aerem progrediuntur ut arbor pini, —}
+\DLine{AB01-PDF0143-body-L033}{}{}{qua re umbra Terrae \textit{umbra pinea} appellatur, — et ultra sphaeram Mercurii desinit (\textbf{\textit{e}}).}
+\DLine{AB01-PDF0143-body-L034}{}{}{Cum Luna per alterutrum nodum suae sphaerae transit tempore quo Soli opponitur, [centrum}
+\DLine{AB01-PDF0143-body-L035}{35}{}{eius orbis] fit centrum ipsum eclipticae, qua re [Luna] in zodiacum incidit et Solem de dia-}
+\DLine{AB01-PDF0143-body-L036}{}{}{metro sphaerae caelestis prospicit (11); tunc Luna caret latitudine qua a Sole declinet, et dire-}
+\par\vspace{6pt}\nointerlineskip\hbox to\textwidth{\hss\vrule width 115.43pt height.25pt depth0pt\hss}\prevdepth=-1000pt \vspace{5pt}
+\noindent\begin{minipage}[t]{.48\textwidth}\vspace{0pt}\fontsize{9}{11.5}\selectfont\setlength{\GutterOffset}{0pt}\setlength{\FullSourceWidth}{\linewidth}
+\hypertarget{AB01-PDF0143-N01}{}
+\DLine{AB01-PDF0143-notes_left-L001}{}{}{\Indent (1) Plato 30.55.}
+\hypertarget{AB01-PDF0143-N02}{}
+\DLine{AB01-PDF0143-notes_left-L002}{}{}{\Indent (2) Plato semper 88° 30′.}
+\hypertarget{AB01-PDF0143-N03}{}
+\DLine{AB01-PDF0143-notes_left-L003}{}{}{\Indent (3) In tabulis sinuum 59\textsuperscript{\textit{p}} 59′ 52″.}
+\hypertarget{AB01-PDF0143-N04}{}
+\DLine{AB01-PDF0143-notes_left-L004}{}{}{\Indent (4) Plat. 48\textsuperscript{\textit{p}} 56′.}
+\hypertarget{AB01-PDF0143-N05}{}
+\DLine{AB01-PDF0143-notes_left-L005}{}{}{\Indent (5) Plat. 10\textsuperscript{\textit{p}} 18′.}
+\hypertarget{AB01-PDF0143-N06}{}
+\DLine{AB01-PDF0143-notes_left-L006}{}{}{\Indent (6) Plat. 12\textsuperscript{\textit{p}} 30′.}
+\hypertarget{AB01-PDF0143-N07}{}
+\DLine{AB01-PDF0143-notes_left-L007}{}{}{\Indent (7) Hae litterae ad figuram pag. 51, non pag. 53,}
+\DLine{AB01-PDF0143-notes_left-L008}{}{}{referuntur.}
+\hypertarget{AB01-PDF0143-N08}{}
+\DLine{AB01-PDF0143-notes_left-L009}{}{}{\Indent (8) Vel potius quarta.}
+\hypertarget{AB01-PDF0143-N09}{}
+\DLine{AB01-PDF0143-notes_left-L010}{}{}{\Indent (9) Ita quoque in tabulis.}
+\end{minipage}
+\hfill\vrule width.3pt\hfill\begin{minipage}[t]{.48\textwidth}\vspace{0pt}\fontsize{9}{11.5}\selectfont\setlength{\GutterOffset}{0pt}\setlength{\FullSourceWidth}{\linewidth}
+\hypertarget{AB01-PDF0143-N10}{}
+\DLine{AB01-PDF0143-notes_right-L001}{}{}{\Indent (10) Cod. « anomalia eius » (\ArabicRun{حاصته}) pro « eius}
+\DLine{AB01-PDF0143-notes_right-L002}{}{}{quantitate » (\ArabicRun{حصته}).}
+\hypertarget{AB01-PDF0143-N11}{}
+\DLine{AB01-PDF0143-notes_right-L003}{}{}{\Indent (11) Cod.: « tempore eius oppositionis contra}
+\DLine{AB01-PDF0143-notes_right-L004}{}{}{« Solem fit centrum eclipticae, qua re in zodiacum}
+\DLine{AB01-PDF0143-notes_right-L005}{}{}{« incidit »; Plato: « cumque per alterum nodorum}
+\DLine{AB01-PDF0143-notes_right-L006}{}{}{« sui caeli praeventionis hora Luna transgreditur,}
+\DLine{AB01-PDF0143-notes_right-L007}{}{}{« eius centrum est centrum circuli signorum, et ipsa}
+\DLine{AB01-PDF0143-notes_right-L008}{}{}{« tunc in ipso eodem signorum cingulo consistit ».}
+\DLine{AB01-PDF0143-notes_right-L009}{}{}{Textus, pag. 83, l. 7 ita restituatur: \ArabicRun{صار مركزه مركز}}
+\DLine{AB01-PDF0143-notes_right-L010}{}{}{\ArabicRun{فلك البروج}.}
+\end{minipage}
+\DSource{0144}{55}
+\DLine{AB01-PDF0144-body-L001}{}{}{ctionem Solis quaerit. Terra autem, inter ambo luminaria interiecta, Lunam tegit, quae igitur}
+\DLine{AB01-PDF0144-body-L002}{}{}{in umbram pineam Terrae incidit, lumen suum amittit, et plus minusve occultatur prout eius}
+\DLine{AB01-PDF0144-body-L003}{}{}{iter [i. e. longitudo] plus vel minus [punctum] zodiaci appropinquat, in quo centrum umbrae}
+\DLine{AB01-PDF0144-body-L004}{}{}{reperitur. Si Luna latitudine omnino caret et in ipso nodo exstat, tempore mediae eclipsis}
+\DLine{AB01-PDF0144-body-L005}{5}{}{per lineam centri umbrae transit; eclipsis igitur omnium perfectissima ac longissima est, et}
+\DLine{AB01-PDF0144-body-L006}{}{}{Luna totum suum lumen amittit. Nam tota lux profecto tum habetur cum Sol super totum}
+\DLine{AB01-PDF0144-body-L007}{}{}{hemisphaerium lunare eum prospiciens incidit, quod fieri non potest nisi (1) Luna in diametro}
+\DLine{AB01-PDF0144-body-L008}{}{}{Solis sit, ita ut a Sole dimidia circumferentia distet; tunc vero Luna, [cum res sint ut ita}
+\DLine{AB01-PDF0144-body-L009}{}{}{diximus], est sub umbra in medio eclipsis. Sed si a via Solis in septentriones aut meridiem}
+\DLine{AB01-PDF0144-body-L010}{10}{}{versus declinat, inter ambo luminaria distantia semicirculo minor habetur, neque oppositio}
+\DLine{AB01-PDF0144-body-L011}{}{}{iuxta diametrum rectam fit; qua re cum Luna opponitur Soli ab eius via in latitudine decli-}
+\DLine{AB01-PDF0144-body-L012}{}{}{nans, eclipsis fit iuxta quantitatem huius latitudinis, usque ad latitudinem maximam cuius cir-}
+\DLine{AB01-PDF0144-body-L013}{}{}{culus circulum umbrae tangere possit.}
+\hypertarget{AB01-PDF0144-P01}{}
+\DLine{AB01-PDF0144-body-L014}{}{}{\Indent Ex his patet reliquos planetas in oppositione Solis occultari non posse, nam umbra ad}
+\DLine{AB01-PDF0144-body-L015}{15}{}{eorum centra non pervenit; Mercurius autem a Sole nunquam ita recedit ut ei opponatur (\textbf{\textit{f}}),}
+\DLine{AB01-PDF0144-body-L016}{}{}{qua re in umbram de oppositione non incidit. Sed Luna reliquos planetas occultat, quando in}
+\DLine{AB01-PDF0144-body-L017}{}{}{longitudine et latitudine eius viam apparentem occupant; tunc enim Luna in lineam ab oculis}
+\DLine{AB01-PDF0144-body-L018}{}{}{ad planetam progredientem incidit. Planetae interdum alios [planetas] occultant, cum inferior}
+\DLine{AB01-PDF0144-body-L019}{}{p. 84.}{eorum sub superiore transeat eadem longitudine et latitudine.}
+\hypertarget{AB01-PDF0144-P02}{}
+\DLine{AB01-PDF0144-body-L020}{20}{}{\Indent Si Terra Solem magnitudine aequaret, latitudo umbrae sibi ipsi aequalis ubique maneret,}
+\DLine{AB01-PDF0144-body-L021}{}{}{neque in aere terminaretur, sed ad infinitum procederet; eclipsis lunaris (2) semper eadem}
+\DLine{AB01-PDF0144-body-L022}{}{}{quantitate sive in inferiore sive in superiore parte epicycli Lunae eveniret; planetae autem}
+\DLine{AB01-PDF0144-body-L023}{}{}{omnes (3) in oppositione Solis occultarentur. Si Sol minor quam Terra esset, summa umbra}
+\DLine{AB01-PDF0144-body-L024}{}{}{latior inferiore exstaret, et in Caelo ad infinitum procederet; quo magis latitudo umbrae}
+\DLine{AB01-PDF0144-body-L025}{25}{}{ascenderet, eo magis Luna et planetae occultarentur, atque diversis diebus deficerent iuxta}
+\DLine{AB01-PDF0144-body-L026}{}{}{suum iter ab itinere Solis.}
+\hypertarget{AB01-PDF0144-P03}{}
+\DLine{AB01-PDF0144-body-L027}{}{}{\Indent Causa eclipsium solarium est Luna; haec enim, si contingit ut eius centrum tempore}
+\DLine{AB01-PDF0144-body-L028}{}{}{coniunctionis appareat in ecliptica, inter oculos adspicientium et Solem incidit, quia est in linea}
+\DLine{AB01-PDF0144-body-L029}{}{}{ab oculis ad Solem ducta. Eo tempore Luna est Terrae propior quam Sol, et similis rei parvae}
+\DLine{AB01-PDF0144-body-L030}{30}{}{quae semper videatur atque alteram maiorem occultet, si magis quam haec propinqua sit}
+\DLine{AB01-PDF0144-body-L031}{}{}{oculis. Quantitates eclipsis variant iuxta quantitatem latitudinis apparentis Lunae, donec [lati-}
+\DLine{AB01-PDF0144-body-L032}{}{}{tudo] talis fiat ut nihil Solis occultare queat. Eclipsis Solis diversam quantitatem habet in}
+\DLine{AB01-PDF0144-body-L033}{}{}{locis [Terrae] qui diversam ab alteris latitudinem habent; eclipsis contra Lunae ubique aequa-}
+\DLine{AB01-PDF0144-body-L034}{}{}{lis apparet.}
+\hypertarget{AB01-PDF0144-P04}{}
+\DLine{AB01-PDF0144-body-L035}{35}{}{\Indent Ut cognosceret Solis et Lunae distantias diametrosque, et eorum corporum respectu Terrae}
+\DLine{AB01-PDF0144-body-L036}{}{}{magnitudines, Ptolemaeus (4) duabus eclipsibus Lunae usus est; supposuitque, ad calculos}
+\DLine{AB01-PDF0144-body-L037}{}{}{ducendos, Lunam totum Solem occultare posse, cum Luna suum apogeum tempore coniun-}
+\DLine{AB01-PDF0144-body-L038}{}{}{ctionis occupet et in ecliptica consistat; nec diametro Solis in apogeo et perigeo differentiam}
+\DLine{AB01-PDF0144-body-L039}{}{}{sensibilem respectu Lunae tribuit, immo diametrum semper aequalem esse posuit. Denique in}
+\par\vspace{6pt}\nointerlineskip\hbox to\textwidth{\hss\vrule width 115.43pt height.25pt depth0pt\hss}\prevdepth=-1000pt \vspace{5pt}
+\noindent\begin{minipage}[t]{.48\textwidth}\vspace{0pt}\fontsize{9}{11.5}\selectfont\setlength{\GutterOffset}{0pt}\setlength{\FullSourceWidth}{\linewidth}
+\hypertarget{AB01-PDF0144-N01}{}
+\DLine{AB01-PDF0144-notes_left-L001}{}{}{\Indent (1) Plato: « nam totum lumen non amittet, nisi}
+\DLine{AB01-PDF0144-notes_left-L002}{}{}{« cum super illam sui circuli partem qui in ipsius}
+\DLine{AB01-PDF0144-notes_left-L003}{}{}{« directo fuerit, ceciderit, quod esse non potest,}
+\DLine{AB01-PDF0144-notes_left-L004}{}{}{« nisi ..... ».}
+\hypertarget{AB01-PDF0144-N02}{}
+\DLine{AB01-PDF0144-notes_left-L005}{}{}{\Indent (2) Addendum est « perfecta »; sin minus haud}
+\DLine{AB01-PDF0144-notes_left-L006}{}{}{verum est.}
+\end{minipage}
+\hfill\vrule width.3pt\hfill\begin{minipage}[t]{.48\textwidth}\vspace{0pt}\fontsize{9}{11.5}\selectfont\setlength{\GutterOffset}{0pt}\setlength{\FullSourceWidth}{\linewidth}
+\hypertarget{AB01-PDF0144-N03}{}
+\DLine{AB01-PDF0144-notes_right-L001}{}{}{\Indent (3) Mercurio et Venere tamen exceptis, qui}
+\DLine{AB01-PDF0144-notes_right-L002}{}{}{nunquam, ut supra auctor de Mercurio dixit, Soli}
+\DLine{AB01-PDF0144-notes_right-L003}{}{}{opponuntur. Addendum ergo videtur « superiores ».}
+\hypertarget{AB01-PDF0144-N04}{}
+\DLine{AB01-PDF0144-notes_right-L004}{}{}{\Indent (4) \textit{Almag.} V, 14 (ed. Halma, t. I, p. 339-343).}
+\DLine{AB01-PDF0144-notes_right-L005}{}{}{De iis cfr. \Name{Ginzel}, \textit{Spezieller Kanon der Sonnen-}}
+\DLine{AB01-PDF0144-notes_right-L006}{}{}{\textit{und Mondfinsternisse,} Berlin 1899, V Abschnitt.}
+\end{minipage}
+\end{document}
