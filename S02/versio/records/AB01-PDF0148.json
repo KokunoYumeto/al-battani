@@ -1,0 +1,639 @@
+{
+ "anchor": "AB01-PDF0148",
+ "master_pdf_page": 148,
+ "printed_page": 59,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "margin_locators": [
+  {
+   "line_anchor": "AB01-PDF0148-body-L014",
+   "text": "p. 89."
+  }
+ ],
+ "observations": [
+  "body: the figure stands at the left of the page, as tall as the 35 lines of the body, which are set beside it in a narrower measure; the line numbers 5 to 35 stand in the left margin, left of the figure, and the locator «p. 89.» (L14) in the right margin.",
+  "body: the figure is redrawn from measurements of the print: its three circles and its ten straight lines are least-squares fits to the printed ink, and its seventeen letters (bold italic capitals) stand where they are printed. The line NQ is Nallino's addition (note 8).",
+  "body L31-L34: the words from «AS 60 par-» to «complecti» and the word «denique» are italic (the interpolation of note 6); the semicolon between them is upright.",
+  "notes_left L10: the theta of «αἴσϑησιν» is printed in its open form."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0148-body-F01",
+     "source_line_no": null,
+     "tex": "\\input{figures/AB01-PDF0148-F01}",
+     "transcription": "[figure, redrawn: figures/AB01-PDF0148-F01.tex]",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_FIGURE"
+    },
+    {
+     "id": "AB01-PDF0148-body-L001",
+     "source_line_no": 1,
+     "tex": "\\Indent Pergamus nunc ad explicandam distantiam Solis atque id",
+     "transcription": "Pergamus nunc ad explicandam distantiam Solis atque id",
+     "semantic_anchor": "AB01-PDF0148-P01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0148-body-L002",
+     "source_line_no": 2,
+     "tex": "quod cum ea apparet; hoc facere non possumus iuxta opinio-",
+     "transcription": "quod cum ea apparet; hoc facere non possumus iuxta opinio-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0148-body-L003",
+     "source_line_no": 3,
+     "tex": "nem Ptolemaei, nisi figuram et proportiones in eius libro po-",
+     "transcription": "nem Ptolemaei, nisi figuram et proportiones in eius libro po-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0148-body-L004",
+     "source_line_no": 4,
+     "tex": "sitas (1) iteremus. Sed postea eas, ut nostris observationibus",
+     "transcription": "sitas (1) iteremus. Sed postea eas, ut nostris observationibus",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0148-body-L005",
+     "source_line_no": 5,
+     "tex": "invenimus, exponemus, nam, si nostris observationibus utimur,",
+     "transcription": "invenimus, exponemus, nam, si nostris observationibus utimur,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 5,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0148-body-L006",
+     "source_line_no": 6,
+     "tex": "proportiones et distantiae duplicatae (2) illae haud bonae viden-",
+     "transcription": "proportiones et distantiae duplicatae (2) illae haud bonae viden-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0148-body-L007",
+     "source_line_no": 7,
+     "tex": "tur. Figuram Ptolemaei hic describemus et declarabimus; dia-",
+     "transcription": "tur. Figuram Ptolemaei hic describemus et declarabimus; dia-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0148-body-L008",
+     "source_line_no": 8,
+     "tex": "gramma considera et quomodo calculi ab eo deducantur; ita,",
+     "transcription": "gramma considera et quomodo calculi ab eo deducantur; ita,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0148-body-L009",
+     "source_line_no": 9,
+     "tex": "Deo volente, scopum attinges.",
+     "transcription": "Deo volente, scopum attinges.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0148-body-L010",
+     "source_line_no": 10,
+     "tex": "\\Indent Deo adiuvante incepi, et tres inaequales circulos descripsi,",
+     "transcription": "Deo adiuvante incepi, et tres inaequales circulos descripsi,",
+     "semantic_anchor": "AB01-PDF0148-P02",
+     "margin_locator": null,
+     "printed_line_number": 10,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0148-body-L011",
+     "source_line_no": 11,
+     "tex": "quorum centra in eadem linea recta sunt. Circulus eorum ma-",
+     "transcription": "quorum centra in eadem linea recta sunt. Circulus eorum ma-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0148-body-L012",
+     "source_line_no": 12,
+     "tex": "ximus est ABC, cuius centrum D; circulus mediae magnitudinis",
+     "transcription": "ximus est ABC, cuius centrum D; circulus mediae magnitudinis",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0148-body-L013",
+     "source_line_no": 13,
+     "tex": "KLM, cuius centrum N, discum Terrae effingit; circulus mini-",
+     "transcription": "KLM, cuius centrum N, discum Terrae effingit; circulus mini-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0148-body-L014",
+     "source_line_no": 14,
+     "tex": "mus, inter duos reliquos descriptus, scilicet EFG cum centro H,",
+     "transcription": "mus, inter duos reliquos descriptus, scilicet EFG cum centro H,",
+     "semantic_anchor": null,
+     "margin_locator": "p. 89.",
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0148-body-L015",
+     "source_line_no": 15,
+     "tex": "discum Lunae repraesentat.",
+     "transcription": "discum Lunae repraesentat.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 15,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0148-body-L016",
+     "source_line_no": 16,
+     "tex": "\\Indent Duas lineas radiorum ab extremitatibus A et C diametri",
+     "transcription": "Duas lineas radiorum ab extremitatibus A et C diametri",
+     "semantic_anchor": "AB01-PDF0148-P03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0148-body-L017",
+     "source_line_no": 17,
+     "tex": "solaris duxi, ita ut discum Terrae in K et M tangant (3) atque",
+     "transcription": "solaris duxi, ita ut discum Terrae in K et M tangant (3) atque",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0148-body-L018",
+     "source_line_no": 18,
+     "tex": "ab altera parte in S concurrant; ergo triangulum ASC conum",
+     "transcription": "ab altera parte in S concurrant; ergo triangulum ASC conum",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0148-body-L019",
+     "source_line_no": 19,
+     "tex": "repraesentat, et medium a linea DS dividitur, ita ut duo trian-",
+     "transcription": "repraesentat, et medium a linea DS dividitur, ita ut duo trian-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0148-body-L020",
+     "source_line_no": 20,
+     "tex": "gula rectangula proveniant. A centro N Terrae duas lineas duxi,",
+     "transcription": "gula rectangula proveniant. A centro N Terrae duas lineas duxi,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 20,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0148-body-L021",
+     "source_line_no": 21,
+     "tex": "discum Lunae in G et E tangentes (4) et per puncta A et C",
+     "transcription": "discum Lunae in G et E tangentes (4) et per puncta A et C",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0148-body-L022",
+     "source_line_no": 22,
+     "tex": "disci solaris transeuntes; idque ob eclipses solares in quibus",
+     "transcription": "disci solaris transeuntes; idque ob eclipses solares in quibus",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0148-body-L023",
+     "source_line_no": 23,
+     "tex": "Luna totum Solem puncto N abscondit, factum est. Diametros",
+     "transcription": "Luna totum Solem puncto N abscondit, factum est. Diametros",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0148-body-L024",
+     "source_line_no": 24,
+     "tex": "AC et KM ducamus; itemque EG, quam usque ad T protra-",
+     "transcription": "AC et KM ducamus; itemque EG, quam usque ad T protra-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0148-body-L025",
+     "source_line_no": 25,
+     "tex": "hemus. Sit P locus apogeus Lunae in eclipsibus lunaribus (5),",
+     "transcription": "hemus. Sit P locus apogeus Lunae in eclipsibus lunaribus (5),",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 25,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0148-body-L026",
+     "source_line_no": 26,
+     "tex": "et sit HN aequalis lineae NP. Quoniam linea DS per omnia",
+     "transcription": "et sit HN aequalis lineae NP. Quoniam linea DS per omnia",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0148-body-L027",
+     "source_line_no": 27,
+     "tex": "centra transit, in hac figura erunt DA semidiametrus Solis, HG",
+     "transcription": "centra transit, in hac figura erunt DA semidiametrus Solis, HG",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0148-body-L028",
+     "source_line_no": 28,
+     "tex": "semidiametrus Lunae, MN semidiametrus Terrae. Lineam IPQ",
+     "transcription": "semidiametrus Lunae, MN semidiametrus Terrae. Lineam IPQ",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0148-body-L029",
+     "source_line_no": 29,
+     "tex": "ducamus, quae est umbrae diametrus; erit PQ umbrae semi-",
+     "transcription": "ducamus, quae est umbrae diametrus; erit PQ umbrae semi-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0148-body-L030",
+     "source_line_no": 30,
+     "tex": "diametrus.",
+     "transcription": "diametrus.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 30,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0148-body-L031",
+     "source_line_no": 31,
+     "tex": "\\Indent Ptolemaeus ad calculos suos ducendos, statuit \\textit{AS 60 par-}",
+     "transcription": "Ptolemaeus ad calculos suos ducendos, statuit *AS 60 par-*",
+     "semantic_anchor": "AB01-PDF0148-P04",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0148-body-L032",
+     "source_line_no": 32,
+     "tex": "\\textit{tes complecti quarum diametrus 120 continet, triangulum}",
+     "transcription": "*tes complecti quarum diametrus 120 continet, triangulum*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0148-body-L033",
+     "source_line_no": 33,
+     "tex": "\\textit{ADS rectangulum esse; longinquitatem maximam haberi,}",
+     "transcription": "*ADS rectangulum esse; longinquitatem maximam haberi,*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0148-body-L034",
+     "source_line_no": 34,
+     "tex": "\\textit{et lineam DS igitur 60\\textsuperscript{p} fere complecti}; \\textit{denique} (6) angu-",
+     "transcription": "*et lineam DS igitur 60{sup:p} fere complecti*; *denique* (6) angu-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0148-body-L035",
+     "source_line_no": 35,
+     "tex": "lum GNH (7) 0° 15′ 40″, et angulum QNP (8) 0° 40′ 40″ esse,",
+     "transcription": "lum GNH (7) 0° 15′ 40″, et angulum QNP (8) 0° 40′ 40″ esse,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 35,
+     "source_role": "NALLINO_TRANSLATION"
+    }
+   ]
+  },
+  {
+   "role": "notes_left",
+   "lines": [
+    {
+     "id": "AB01-PDF0148-notes_left-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (1) \\textit{Almag.} V, 15 (ed. Halma, t. I, p. 343-346).",
+     "transcription": "(1) *Almag.* V, 15 (ed. Halma, t. I, p. 343-346).",
+     "semantic_anchor": "AB01-PDF0148-N01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0148-notes_left-L002",
+     "source_line_no": null,
+     "tex": "\\Indent (2) Cfr. demonstrationem sequentem.",
+     "transcription": "(2) Cfr. demonstrationem sequentem.",
+     "semantic_anchor": "AB01-PDF0148-N02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0148-notes_left-L003",
+     "source_line_no": null,
+     "tex": "\\Indent (3) Extremitates diametrorum AC, KM, EG haud",
+     "transcription": "(3) Extremitates diametrorum AC, KM, EG haud",
+     "semantic_anchor": "AB01-PDF0148-N03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0148-notes_left-L004",
+     "source_line_no": null,
+     "tex": "sunt puncta contactus tangentium; hae enim non",
+     "transcription": "sunt puncta contactus tangentium; hae enim non",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0148-notes_left-L005",
+     "source_line_no": null,
+     "tex": "possunt esse ad diametros perpendiculares. Re vera",
+     "transcription": "possunt esse ad diametros perpendiculares. Re vera",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0148-notes_left-L006",
+     "source_line_no": null,
+     "tex": "tamen differentia insensibilis fit ob parvitatem an-",
+     "transcription": "tamen differentia insensibilis fit ob parvitatem an-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0148-notes_left-L007",
+     "source_line_no": null,
+     "tex": "gulorum ENG, MSK. Accuratius ergo \\Name{Ptolemaeus},",
+     "transcription": "gulorum ENG, MSK. Accuratius ergo {sp:Ptolemaeus},",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0148-notes_left-L008",
+     "source_line_no": null,
+     "tex": "\\textit{Almag.} V, 15 (ed. Halma, t. I, p. 344) dicit rectas",
+     "transcription": "*Almag.* V, 15 (ed. Halma, t. I, p. 344) dicit rectas",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0148-notes_left-L009",
+     "source_line_no": null,
+     "tex": "per puncta contactus transeuntes « aequales diame-",
+     "transcription": "per puncta contactus transeuntes « aequales diame-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0148-notes_left-L010",
+     "source_line_no": null,
+     "tex": "tris \\textit{ad sensum} (\\textgreek{πρὸς αἴσϑησιν}) » esse.",
+     "transcription": "tris *ad sensum* (πρὸς αἴσϑησιν) » esse.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0148-notes_left-L011",
+     "source_line_no": null,
+     "tex": "\\Indent (4) Cfr. adn. 3.",
+     "transcription": "(4) Cfr. adn. 3.",
+     "semantic_anchor": "AB01-PDF0148-N04",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0148-notes_left-L012",
+     "source_line_no": null,
+     "tex": "\\Indent (5) Ptolemaei calculum nunc refert, qui Lunam",
+     "transcription": "(5) Ptolemaei calculum nunc refert, qui Lunam",
+     "semantic_anchor": "AB01-PDF0148-N05",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  },
+  {
+   "role": "notes_right",
+   "lines": [
+    {
+     "id": "AB01-PDF0148-notes_right-L001",
+     "source_line_no": null,
+     "tex": "in suo apogeo consistentem putabat Solem tegere.",
+     "transcription": "in suo apogeo consistentem putabat Solem tegere.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0148-notes_right-L002",
+     "source_line_no": null,
+     "tex": "Sed aliter al-Battānī sentit, ut infra patebit.",
+     "transcription": "Sed aliter al-Battānī sentit, ut infra patebit.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0148-notes_right-L003",
+     "source_line_no": null,
+     "tex": "\\Indent (6) Interpolatio ineptissima, licet apud Plato-",
+     "transcription": "(6) Interpolatio ineptissima, licet apud Plato-",
+     "semantic_anchor": "AB01-PDF0148-N06",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0148-notes_right-L004",
+     "source_line_no": null,
+     "tex": "nem quoque exstet. Falsum AS vel DS sexaginta",
+     "transcription": "nem quoque exstet. Falsum AS vel DS sexaginta",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0148-notes_right-L005",
+     "source_line_no": null,
+     "tex": "partes complecti, ut ex sequentibus patet; superva-",
+     "transcription": "partes complecti, ut ex sequentibus patet; superva-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0148-notes_right-L006",
+     "source_line_no": null,
+     "tex": "canea omnino observatio triangulum ADS rectan-",
+     "transcription": "canea omnino observatio triangulum ADS rectan-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0148-notes_right-L007",
+     "source_line_no": null,
+     "tex": "gulum esse.",
+     "transcription": "gulum esse.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0148-notes_right-L008",
+     "source_line_no": null,
+     "tex": "\\Indent (7) Cod. GHN, Plato GNF; numerus sequens",
+     "transcription": "(7) Cod. GHN, Plato GNF; numerus sequens",
+     "semantic_anchor": "AB01-PDF0148-N07",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0148-notes_right-L009",
+     "source_line_no": null,
+     "tex": "apud Plat. « 0,515 et 40 ».",
+     "transcription": "apud Plat. « 0,515 et 40 ».",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0148-notes_right-L010",
+     "source_line_no": null,
+     "tex": "\\Indent (8) Cod. QSP; Plato hoc incisum omittit. In fi-",
+     "transcription": "(8) Cod. QSP; Plato hoc incisum omittit. In fi-",
+     "semantic_anchor": "AB01-PDF0148-N08",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0148-notes_right-L011",
+     "source_line_no": null,
+     "tex": "gura lineam NQ addidi, quae in schemate codicis et",
+     "transcription": "gura lineam NQ addidi, quae in schemate codicis et",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0148-notes_right-L012",
+     "source_line_no": null,
+     "tex": "Platonis deest.",
+     "transcription": "Platonis deest.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  }
+ ]
+}

@@ -4,9 +4,9 @@ Part I of Nallino's edition is his Latin translation of al-Battānī's *Zīj*, w
 
 The edition is diplomatic and line-anchored: every printed line is one line of the edition, with its hyphenation, its punctuation, its letter-spaced names, its italics and its bold italic reference letters, and every line has a stable anchor. The line numbers that the print sets beside every fifth line and the locators of the Arabic text («p. 84.») stand in the margins as printed.
 
-**Done:** pp. 54–58 (5 pages, 281 anchored lines).
+**Done:** pp. 54–59 (6 pages, 341 anchored lines).
 
-**Contents so far:** chapter 30 continued (pp. 54–55): the anomaly of the Moon on the epicycle, what al-Battānī keeps of Ptolemy's lunar motions and what he corrects, and the causes of the eclipses of the Moon and of the Sun.
+**Contents so far:** chapter 30 continued (pp. 54–59): the anomaly of the Moon on the epicycle, what al-Battānī keeps of Ptolemy's lunar motions and what he corrects, the causes of the eclipses of the Moon and of the Sun, the two eclipses of the Sun and the two eclipses of the Moon that al-Battānī observed, with their computed places and what Ptolemy's reckoning would give, the diameters of the Moon, of the Sun and of the shadow that follow from them, and the beginning of the distance of the Sun after Ptolemy, with his figure of the three circles and the cone of the shadow redrawn (p. 59).
 
 ## Read
 
@@ -20,6 +20,7 @@ The edition is diplomatic and line-anchored: every printed line is one line of t
 | `build_versio.py` | Builds `p1_versio.tex`, the page records and the anchor list from the page files. |
 | `records/AB01-PDF####.json` | One record per page in the S02 schema: the body and the footnote columns, line by line, with anchors, the TeX of each line, the transcription, the printed line number and the marginal locator. Observations on the print are kept in `observations`. |
 | `anchors.tsv` | Every printed line: anchor, printed page, section, transcription. |
+| `figures/` | The redrawn figures (TikZ), one file per figure; `figures/src/` holds the measurements of each figure (circles and lines fitted to the printed ink, the boxes of the letters) and `make_figure.py`, which writes the TikZ file from them. |
 | `check_observations.py` | Checks the line numbers named in the observations against the transcribed lines. |
 | `fonts/NallinoSigns.otf` | The zero sign of the tables (loaded by the preamble that this edition shares with the notes on the tables). |
 

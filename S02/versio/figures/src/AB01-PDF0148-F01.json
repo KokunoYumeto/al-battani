@@ -1,0 +1,247 @@
+{
+ "pdf": 148,
+ "printed_page": 59,
+ "comment": [
+  "Nallino, Part I p. 59: Ptolemy's figure for the distance of the Sun, redrawn from the print: the circle",
+  "of the Sun ABC (centre D), of the Moon EFG (centre H) and of the Earth KLM (centre N) on one axis, the",
+  "cone of the rays ASC, the lines from N through the Moon to A and C, the diameter IPQ of the shadow and",
+  "the line NQ that Nallino added. The circles and the lines are least-squares fits to the printed ink;",
+  "the coordinates are PDF points of master page 148 less the origin (69.0, 127.0), y downward."
+ ],
+ "origin": [
+  69.0,
+  127.0
+ ],
+ "scale": 0.9916,
+ "size": [
+  124.0,
+  486.0
+ ],
+ "label_pt": 11.5,
+ "circles": [
+  {
+   "cx": 135.48,
+   "cy": 185.24,
+   "r": 52.73,
+   "w": 1.21,
+   "name": "the circle of the Sun"
+  },
+  {
+   "cx": 135.55,
+   "cy": 301.4,
+   "r": 19.82,
+   "w": 1.22,
+   "name": "the circle of the Moon"
+  },
+  {
+   "cx": 135.55,
+   "cy": 375.76,
+   "r": 29.21,
+   "w": 1.14,
+   "name": "the circle of the Earth"
+  }
+ ],
+ "segments": [
+  {
+   "x0": 135.31,
+   "y0": 132.51,
+   "x1": 135.48,
+   "y1": 611.33,
+   "w": 1.08,
+   "name": "the axis, from the top of the circle of the Sun to S"
+  },
+  {
+   "x0": 82.75,
+   "y0": 185.46,
+   "x1": 188.2,
+   "y1": 184.96,
+   "w": 1.08,
+   "name": "the diameter CA of the Sun"
+  },
+  {
+   "x0": 82.02,
+   "y0": 185.46,
+   "x1": 135.48,
+   "y1": 607.4,
+   "w": 1.12,
+   "name": "C to S, touching the Earth at K"
+  },
+  {
+   "x0": 188.71,
+   "y0": 184.96,
+   "x1": 135.48,
+   "y1": 610.84,
+   "w": 1.1,
+   "name": "A to S, touching the Earth at M"
+  },
+  {
+   "x0": 135.4,
+   "y0": 376.49,
+   "x1": 82.75,
+   "y1": 184.91,
+   "w": 1.14,
+   "name": "N to C, touching the Moon at E"
+  },
+  {
+   "x0": 135.4,
+   "y0": 375.47,
+   "x1": 188.19,
+   "y1": 184.11,
+   "w": 1.14,
+   "name": "N to A, touching the Moon at G"
+  },
+  {
+   "x0": 115.73,
+   "y0": 301.5,
+   "x1": 174.2,
+   "y1": 301.04,
+   "w": 0.9,
+   "name": "the diameter EG of the Moon, drawn on to T"
+  },
+  {
+   "x0": 106.34,
+   "y0": 375.58,
+   "x1": 164.76,
+   "y1": 375.29,
+   "w": 0.9,
+   "name": "the diameter KM of the Earth"
+  },
+  {
+   "x0": 115.46,
+   "y0": 449.34,
+   "x1": 155.72,
+   "y1": 448.91,
+   "w": 0.9,
+   "name": "IPQ, the diameter of the shadow"
+  },
+  {
+   "x0": 135.4,
+   "y0": 375.77,
+   "x1": 155.65,
+   "y1": 449.51,
+   "w": 1.05,
+   "name": "N to Q (added by Nallino)"
+  }
+ ],
+ "labels": [
+  {
+   "t": "C",
+   "x0": 73.7,
+   "y0": 178.88,
+   "x1": 80.54,
+   "y1": 187.34
+  },
+  {
+   "t": "D",
+   "x0": 126.44,
+   "y0": 176.0,
+   "x1": 133.46,
+   "y1": 183.56
+  },
+  {
+   "t": "A",
+   "x0": 178.1,
+   "y0": 175.1,
+   "x1": 185.84,
+   "y1": 183.56
+  },
+  {
+   "t": "B",
+   "x0": 137.6,
+   "y0": 240.26,
+   "x1": 144.44,
+   "y1": 248.0
+  },
+  {
+   "t": "E",
+   "x0": 105.02,
+   "y0": 296.96,
+   "x1": 111.86,
+   "y1": 304.34
+  },
+  {
+   "t": "H",
+   "x0": 124.82,
+   "y0": 291.92,
+   "x1": 134.54,
+   "y1": 299.66
+  },
+  {
+   "t": "G",
+   "x0": 159.56,
+   "y0": 291.02,
+   "x1": 165.86,
+   "y1": 300.38
+  },
+  {
+   "t": "T",
+   "x0": 177.56,
+   "y0": 293.72,
+   "x1": 184.4,
+   "y1": 301.82
+  },
+  {
+   "t": "F",
+   "x0": 137.06,
+   "y0": 322.7,
+   "x1": 143.72,
+   "y1": 330.26
+  },
+  {
+   "t": "K",
+   "x0": 96.02,
+   "y0": 370.94,
+   "x1": 104.48,
+   "y1": 379.4
+  },
+  {
+   "t": "N",
+   "x0": 139.76,
+   "y0": 377.24,
+   "x1": 148.04,
+   "y1": 384.26
+  },
+  {
+   "t": "M",
+   "x0": 168.02,
+   "y0": 370.76,
+   "x1": 177.92,
+   "y1": 378.5
+  },
+  {
+   "t": "L",
+   "x0": 136.7,
+   "y0": 406.58,
+   "x1": 142.64,
+   "y1": 414.32
+  },
+  {
+   "t": "I",
+   "x0": 107.36,
+   "y0": 445.1,
+   "x1": 112.58,
+   "y1": 453.2
+  },
+  {
+   "t": "P",
+   "x0": 136.88,
+   "y0": 451.22,
+   "x1": 143.72,
+   "y1": 459.32
+  },
+  {
+   "t": "Q",
+   "x0": 157.58,
+   "y0": 444.38,
+   "x1": 164.06,
+   "y1": 455.72
+  },
+  {
+   "t": "S",
+   "x0": 139.22,
+   "y0": 601.16,
+   "x1": 145.52,
+   "y1": 609.98
+  }
+ ]
+}
