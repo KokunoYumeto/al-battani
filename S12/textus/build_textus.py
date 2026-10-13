@@ -25,7 +25,7 @@ as printed):
                       stands in the box of the printed line; the printed typefaces are not imitated
   @ll SIZE TEXT       a line of Latin with Arabic words, set in SIZE pt from its measured left edge and spread to its
                       printed width when it fills the measure (the corrigenda; takes a geometry line)
-  @rule Y LEN [XC]    a rule LEN pt long at Y, centred on the block or at XC (no geometry line)
+  @rule Y LEN [XC [W]]  a rule LEN pt long at Y, centred on the block or at XC, W pt thick (0.5 pt if not given; no geometry line)
   @orn Y              the printed ornament, centred at Y (no geometry line)
   @fig NAME           a figure redrawn where printed (it takes no geometry line): its circles and straight lines from
                       the geometry ("figures": centres, radii, end points and stroke widths measured on the scan),
@@ -234,7 +234,7 @@ def parse(path):
             page["items"].append(("display", text.strip(), float(size)))
         elif ln.startswith("@rule "):
             parts = ln.split()
-            page["items"].append(("rule", float(parts[1]), float(parts[2]), float(parts[3]) if len(parts) > 3 else None))
+            page["items"].append(("rule", *(float(v) for v in parts[1:5])))
         elif ln.startswith("@orn "):
             page["items"].append(("orn", float(ln.split()[1])))
         elif ln.startswith("@"):
@@ -478,9 +478,9 @@ def page_tex(page, geo, recs, anchors):
             rec.setdefault("labels", []).append({"text": item[1], "x": lg["x"], "baseline": lg["base"]})
             continue
         if kind == "rule":
-            _, y, length, xc = item
+            _, y, length, xc, thick = item + (None, 0.5)[len(item) - 3:]
             x = (bx0 + bx1) / 2 if xc is None else xc
-            out.append(at("center", x, y, r"\rule{" + f"{length:.1f}" + "pt}{0.5pt}"))
+            out.append(at("center", x, y, r"\rule{" + f"{length:.1f}" + "pt}{" + f"{thick:.1f}" + "pt}"))
             rec["lines"].append({"anchor": None, "kind": "rule", "y": y, "length_pt": length})
             continue
         if kind == "orn":

@@ -1,0 +1,88 @@
+{
+ "pdf": 926,
+ "page": [
+  617.52,
+  889.92
+ ],
+ "block": [
+  77.6,
+  499.9
+ ],
+ "lines": [
+  {
+   "base": 127.8,
+   "x0": 78.3,
+   "x1": 500.2
+  },
+  {
+   "base": 154.4,
+   "x0": 78.0,
+   "x1": 500.6
+  },
+  {
+   "base": 181.4,
+   "x0": 228.1,
+   "x1": 500.6
+  },
+  {
+   "base": 234.7,
+   "x0": 78.0,
+   "x1": 476.5
+  },
+  {
+   "base": 261.4,
+   "x0": 77.6,
+   "x1": 500.2
+  },
+  {
+   "base": 288.0,
+   "x0": 77.2,
+   "x1": 499.5
+  },
+  {
+   "base": 314.6,
+   "x0": 77.2,
+   "x1": 499.5
+  },
+  {
+   "base": 341.6,
+   "x0": 75.4,
+   "x1": 499.9
+  },
+  {
+   "base": 368.6,
+   "x0": 197.5,
+   "x1": 499.5
+  }
+ ],
+ "rule": [
+  77.4,
+  396.7,
+  177.8,
+  398.2
+ ],
+ "notes": [
+  {
+   "y": 424.8,
+   "x0": 104.8,
+   "x1": 156.6
+  }
+ ],
+ "margin": [
+  {
+   "side": "L",
+   "x0": 66.2,
+   "y0": 227.5,
+   "x1": 70.6,
+   "y1": 234.0
+  },
+  {
+   "side": "L",
+   "x0": 62.6,
+   "y0": 361.1,
+   "x1": 70.2,
+   "y1": 367.6
+  }
+ ],
+ "corrections": "p. 226, the last page of the text: line numbers 5 and 10 in the left margin beside L04 and L09; no folio number; the automatic geometry took the rule over the note (396.7 to 398.2 pt) for a line of text and the closing rules at the foot of the text (553.3 to 559.8 pt) for the rule and a line of notes: the rule and the one line of notes are given by hand, and the three closing rules are set from their measured places"
+}
