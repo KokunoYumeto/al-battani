@@ -29,7 +29,7 @@ as printed):
   @orn Y              the printed ornament, centred at Y (no geometry line)
   @fig NAME           a figure redrawn where printed (it takes no geometry line): its circles and straight lines from
                       the geometry ("figures": centres, radii, end points and stroke widths measured on the scan),
-                      and where it has them its arcs, filled discs and hatched half discs;
+                      and where it has them its arcs, traced lines, filled discs and hatched half discs;
   @ft TEXT            its labels follow, one per line in reading order, each set at the measured centre of its printed
                       ink, turned where printed, and narrowed to its printed length where a length is given (or
                       spread to it: a phrase of several words)
@@ -70,8 +70,9 @@ _AL = r"\u0600-\u06EF\u06FA-\u06FF\u0750-\u077F\uFB50-\uFDFF\uFE70-\uFEFF"
 ARABIC_RUN = re.compile(r"([" + _AL + r"]+(?:[ \u060C.:،][" + _AL + r"]+)*)")
 # in the notes the zero sign of the codex ({0}, held as U+E000) belongs to the Arabic run it stands in (p. 64,
 # note 1: «Cod. {0} كط», the zero to the right of كط); a full stop with the space after it does not end an Arabic
-# run (p. 128, note 2: a passage of the text that runs over three lines)
-ARABIC_RUN_NOTE = re.compile(r"([" + _AL + "\uE000" + r"]+(?:(?:\. |[ \u060C.:،])[" + _AL + "\uE000" + r"]+)*)")
+# run (p. 128, note 2: a passage of the text that runs over three lines); a «(sic)» between two Arabic words of one
+# quotation stands inside the run, which goes from right to left through it (p. 207, note 1)
+ARABIC_RUN_NOTE = re.compile(r"([" + _AL + "\uE000" + r"]+(?:(?:\. | \(sic\) |[ \u060C.:،])[" + _AL + "\uE000" + r"]+)*)")
 AR_DIGITS = str.maketrans("0123456789", "٠١٢٣٤٥٦٧٨٩")
 WEST = str.maketrans("٠١٢٣٤٥٦٧٨٩", "0123456789")
 
@@ -148,7 +149,8 @@ def latin_inline(s):
     keep = []
 
     def stash(m):
-        keep.append(r"\ArRun{" + m.group(1).replace("\uE000", r"\AbjadZero{}") + "}")
+        keep.append(r"\ArRun{" + m.group(1).replace("\uE000", r"\AbjadZero{}")
+                    .replace("(sic)", r"\LR{\textlatin{(sic)}}") + "}")
         return f"\uE003{len(keep) - 1}\uE004"
 
     s = ARABIC_RUN_NOTE.sub(stash, s.replace("{0}", "\uE000"))
@@ -163,7 +165,7 @@ def latin_inline(s):
 
 def strip_markup(s):
     s = s.replace("{0}", "")         # the zero sign stays {0} in the plain text of the records
-    s = re.sub(r"\{(?:n|mL|mR|num)(?:@[\d.]+)?:[^}]*\}", "", s)
+    s = re.sub(r"\{(?:n|mL|mR|num)(?:@[\d.]+){0,2}:[^}]*\}", "", s)
     s = re.sub(r"\{ov:([^}]*)\}", r"\1", s)
     return re.sub(r"\s+", " ", s).strip().replace("", "{0}")
 
@@ -240,9 +242,9 @@ def parse(path):
 
 
 def margin_items(s):
-    """(side, text) of every {mL:...} / {mR:...}; an explicit position stays in the text as @X:TEXT"""
+    """(side, text) of every {mL:...} / {mR:...}; an explicit position stays in the text as @X:TEXT or @X@Y:TEXT"""
     return [(side, (pos + ":" if pos else "") + txt) for side, pos, txt in
-            re.findall(r"\{m([LR])(@[\d.]+)?:([^}]*)\}", s)]
+            re.findall(r"\{m([LR])((?:@[\d.]+){1,2})?:([^}]*)\}", s)]
 
 
 def page_tex(page, geo, recs, anchors):
@@ -282,13 +284,16 @@ def page_tex(page, geo, recs, anchors):
 
     def place_margin(text_line, yb, aid):
         """{mL:} / {mR:}: the folio of the codex and Nallino's line numbers, where printed; on the right they stand
-        beyond the column of the chapter numerals. {mR@X:} / {mL@X:} give the left / right edge X explicitly."""
+        beyond the column of the chapter numerals. {mR@X:} / {mL@X:} give the left / right edge X explicitly;
+        {mL@X@Y:} / {mR@X@Y:} give the baseline Y too (a folio number beside a figure, where no line of text
+        stands at its height, p. 207)."""
         res = []
         has_num = "{num:" in text_line
         for side, txt in margin_items(text_line):
-            m_at = re.match(r"@([\d.]+):(.*)", txt)
+            m_at = re.match(r"@([\d.]+)(?:@([\d.]+))?:(.*)", txt)
             xfix = float(m_at.group(1)) if m_at else None
-            txt = m_at.group(2) if m_at else txt
+            yfix = float(m_at.group(2)) if m_at and m_at.group(2) else None
+            txt = m_at.group(3) if m_at else txt
             cands = band(side, yb)
             if not cands and txt.strip().isdigit():
                 # a line number standing on the grid between a heading and the text (p. 20): the nearest item
@@ -299,7 +304,7 @@ def page_tex(page, geo, recs, anchors):
                 cands = [m for m in cands if m["x0"] > nx + 1]
             # Nallino's line numbers stand on his grid of 27 pt, not always on a printed line (beside a heading):
             # a number is set at its own measured baseline (the foot of its digits)
-            ym = yb
+            ym = yb if yfix is None else yfix
             if txt.strip().isdigit() and cands:
                 ym = max(m["y1"] for m in cands)
             if side == "L":
@@ -423,12 +428,16 @@ def page_tex(page, geo, recs, anchors):
                                a["cy"] - a["r"] * math.sin(math.radians(a["a0"]))) +
                             " arc[start angle=" + f"{a['a0']:.2f}" + ", end angle=" + f"{a['a1']:.2f}" + ", radius=" +
                             f"{a['r']:.2f}pt" + "];" for a in fg.get("arcs", []))
+            # a traced line ("paths"): a line through the measured points "pts" of the middle of its stroke, dashed
+            # where printed so (the dashed curves of a figure drawn by hand, p. 207)
+            draw += "".join(r"\draw[line join=round, line width=" + f"{p['w']:.2f}pt" + dash(p) + "] " +
+                            " -- ".join(pt(x, y) for x, y in p["pts"]) + ";" for p in fg.get("paths", []))
             draw += "".join(r"\fill " + pt(c["cx"], c["cy"]) + " circle[radius=" + f"{c['r']:.2f}pt" + "];"
                             for c in fg.get("discs", []))
             out.append(r"\begin{tikzpicture}[remember picture,overlay]" + draw + r"\end{tikzpicture}")
             frec = {"name": name, "anchor": f"AB01-PDF{pdf:04}-{name}", "circles": fg.get("circles", []),
                     "segments": fg.get("segments", []), "labels": [], "note": fg.get("note", "")}
-            for key in ("arcs", "discs", "hatches"):
+            for key in ("arcs", "paths", "discs", "hatches"):
                 if fg.get(key):
                     frec[key] = fg[key]
             for j, (t, tg) in enumerate(zip(texts, fg["texts"]), 1):
@@ -484,7 +493,7 @@ def page_tex(page, geo, recs, anchors):
         aid = f"AB01-PDF{pdf:04}-L{k:02}"
         text = item[1]
         yb, x0, x1 = g["base"], g["x0"], g["x1"]
-        body = ar_inline(re.sub(r"\{(?:mL|mR|num)(?:@[\d.]+)?:[^}]*\}", "", text)).strip()
+        body = ar_inline(re.sub(r"\{(?:mL|mR|num)(?:@[\d.]+){0,2}:[^}]*\}", "", text)).strip()
         target = r"\hypertarget{" + aid + "}{}"
         if kind in ("ldisplay", "ltext"):
             # Latin type (the Latin title pages and the corrigenda of Part III)
