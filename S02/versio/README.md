@@ -4,7 +4,7 @@ Part I of Nallino's edition is his Latin translation of al-Battānī's *Zīj*, w
 
 The edition is diplomatic and line-anchored: every printed line is one line of the edition, with its hyphenation, its punctuation, its letter-spaced names, its italics and its bold italic reference letters, and every line has a stable anchor. The line numbers that the print sets beside every fifth line and the locators of the Arabic text («p. 84.») stand in the margins as printed.
 
-**Done:** pp. 54–56 (3 pages, 172 anchored lines).
+**Done:** pp. 54–57 (4 pages, 228 anchored lines).
 
 **Contents so far:** chapter 30 continued (pp. 54–55): the anomaly of the Moon on the epicycle, what al-Battānī keeps of Ptolemy's lunar motions and what he corrects, and the causes of the eclipses of the Moon and of the Sun.
 
