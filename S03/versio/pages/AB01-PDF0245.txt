@@ -1,0 +1,65 @@
+@page 245 156
+% Commentary on chapter 3 continued: Ruska on the Syriac ‘ūbā for ǵayb and Nallino's answer; the names of the chord, the sine, the versed sine and the sagitta taken by the Arabs from the Indians (the Sindhind), and the history of the trigonometric functions from the Indian sines to the Arab halving of Ptolemy's chords; c) on p. 11: the linear interpolation in the tables of sines, the tables of Ibn Yūnus and Ulugh Beg; the versed sine sin vers a = R − cos a and the formula (α) cos a = √(R² − sin² a).
+@nonum
+l. c., animadvertit (1). J. {sp:Ruska}, *Zur Geschichte des* « *Sinus* » (in Zeitschrift für Mathema-
+tik und Physik, t. XL, Leipzig 1895, historisch–literarische Abtheilung, p. 128) duos scriptores
+Syros saeculi XIII Chr. (2) adducit, apud quos vox technica *ǵayb* semper Syriaca *‘ūbā* ܥܘܒ݁ܐ
+vertitur, sinum hominis significante; sed errat cum scribit: « Die Uebersetzung durch *sinus*
+« ist demnach als richtig durch die syrische Belege gesichert. Die verständigere Uebersetzung
+« aber, welche einen Mann voraussetzt, dem der mathematische Inhalt und dessen klarer Aus-
+« druck wichtiger ist als pedantische Wörtlichkeit, lautet natürlich *chorda* . . . . . Beide Ueber-
+« setzungen finden sich vor: die zweite, wie {sp:Koppe} nachgewiesen hat, bei {sp:Plato von Ti-}
+« {sp:voli} ». Plato Tiburtinus enim *chordam* scribit non ob rationalioris versionis studium (quod
+quantum ab eo ceterisque illius aetatis interpretibus alienum fuerit, satis eorum versiones
+ubique ostendunt), sed quia hac ipsa voce {sp:al-Battānī} utitur.
+^ Vocabula, Graecis ignota, chordam, sinum, sinum rectum (Sanskritice *kramajyā*), sinum
+versum (Sanskr. *utkramajyā*), sagittam (Sanskr. *śara* vel *ishu*) ab Indis mathematicos Arabes
+didicisse vix dubitari potest. Addantur quae Arabum scriptores de libro Indico *as–Sindhind*
+inscripto (i. e. Sanskr. *Brahma–sphuṭa–siddhānta*) et anno 156 heg., 773 Chr., khalifae
+Baghdādensi allato, narrant. His omnibus perpensis, historia functionum trigonometricarum se-
+quenti modo repraesentari potest. Indi, praesertim usu proiectionum orthogonalium moti ({sp:von}
+{sp:Braunmühl}, I, 31–32), pro chordis Graecorum sinus rectos et versos adhibuerunt; eos pro
+vicesimis quartis partibus quadrantis, scilicet pro singulis 3° 45′, calculaverunt, radio 3438
+minutorum sumpto. Prima sinuum notione ab Indis recepta, et eodem fere tempore Ptolemaei
+libris cognitis, recte Arabes intellexerunt commodius et exactius esse novos sinus construere,
+chordas Ptolemaei (pro singulis dimidiis gradibus et radio sexaginta partium calculatas) dimi-
+diando. Quod iam ante al–Battānī fecerunt.
+@vspace 2.32
+@center {bi:c}) — *Pag. 11.*
+@vspace 1.85
+^ *Interpolatio* ad inveniendos sinus arcuum qui inter duos se subsequentes tabulae arcus
+comprehenduntur, eadem est ac quae apud {sp:Ptolemaeum} legitur ad supputandas chordas;
+variatio sinuum et chordarum censetur proportionalis esse ad variationem arcuum intra inter-
+vallum tabulare dimidii gradus. Quae {sp:Cantor}, I, 355 (= 392 alterius edit.) de Ptolemaeo
+scribit, « ein Beweis für diese angenommene Proportionalität in engem Bereiche ist dagegen
+« nicht vorhanden », recte possunt quoque de {sp:al–Battānī}, {sp:Ḥabash} (fol. 18,v.) ceterisque
+Arabibus dici. Interpolationes exactiores in construendis tabulis tantum adhibebant. — Tabu-
+lae sinuum ad singula minuta quadrantis ab {sp:Ibn Yūnus} supputatae exstant in codice Ara-
+bico 5752 Bibliothecae Regiae Berolinensis; alias quoque {sp:Ulugh Beg} calculavit.
+^ *Sinus versos,* quorum usum {sp:Indi} iam ante Arabes cognoverunt, auctor definit:
+@vspace 1.08
+@center sin vers $a = R - \cos a$.
+@vspace 1.14
+Supervacaneum duxit eorum tabulam construere, quam contra apud {sp:Ḥabash} invenimus. In
+fine paginae duae formulae leguntur; altera est
+@at 0:(α) | 98.8^:$\cos a = \sqrt{R^2 - \sin^2 a}$,
+@vspace 0.62
+quae e Pythagorae theoremate consequitur, et, posito $R = 1$, respondet tritae regulae nostrae
+$\cos a = \sqrt{1 - \sin^2 a}$.
+@vspace -1.40
+@notes
+^ (1) Sed ex eo quod non Plato Tiburtinus, sed
+Gerardus Cremonensis usum huius vocis apud nos
+vulgavit, nescio quo modo {sp:Koppe} in dubium vocare
+possit originem Arabici *ǵayb* a Munk explanatam.
+@col
+^ (2) Pertinent igitur ad seriorem non solum Sy-
+riasmi sed etiam Arabismi aetatem, non, ut {sp:von}
+{sp:Braunmühl}, I, 50, adn. 1, scribit, « in den ersten
+Zeiten des Mittelalters ».
+@obs body L3: the Syriac word is printed in the Serto script, with a dot over the beth (qushshaya).
+@obs body L7: five spaced dots stand after «chorda», as printed.
+@obs body L34: the m of «usum» is printed broken, with a short stroke rising over it; it is not an accent.
+@obs body L36: a speck stands under the last h of «Ḥabash»; it is not a dot of the transliteration.
+@obs body L38: the formula (α) stands a little to the right of the middle of the line, as printed; the label is in the type of the text.
+@obs body L35, L38, L40: the minus signs of the formulas are printed as long dashes; they are set as minus signs.
