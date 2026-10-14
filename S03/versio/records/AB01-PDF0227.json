@@ -1,0 +1,511 @@
+{
+ "anchor": "AB01-PDF0227",
+ "master_pdf_page": 227,
+ "printed_page": 138,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "margin_locators": [
+  {
+   "line_anchor": "AB01-PDF0227-body-L005",
+   "text": "p. 208."
+  },
+  {
+   "line_anchor": "AB01-PDF0227-body-L033",
+   "text": "p. 209."
+  }
+ ],
+ "observations": [
+  "body: the line numbers 5 to 40 stand in the right margin and the locators «p. 208.» (L5) and «p. 209.» (L33, beside the head of chapter 57) in the left margin. In «p. 208.» the 2 is printed broken, like £, and the 8 blotted; in «p. 209.» the 9 is blotted. The count of the lines runs through the spaces and the head of chapter 57: 35 stands in the space between «CAPUT LVII.» and the title, 40 beside L37.",
+  "body: the running head of the page is printed «A. NALLINO», without the initial C.",
+  "body L33-L35: the head of the chapter is set in a larger type; «CAPUT LVII.» and the two lines of the title are centred.",
+  "body L34: a speck stands before «Libri» at the head of the title; it is not a sign.",
+  "body L37: the o of «libro» is printed broken, open at the top.",
+  "notes_right L3: Nallino's addenda et emendanda (Part I, p. LXXII) read «138-139, adn. 5: Additamenta quorumdam codicum Platonis legantur in praefatione p. LII-LV.».",
+  "notes_right L2: the 3 of «22-23» is printed faint and broken.",
+  "body L5, L11: a speck stands before «nem» at the head of L5; a speck stands under the a of «supra»; they are not signs.",
+  "body L17: a speck stands over the e of «eumque»; it is not an accent.",
+  "notes_right L1: the 1 of «adn. 1.» is printed with a flag and a dot, like i."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0227-body-L001",
+     "source_line_no": 1,
+     "tex": "\\Indent Dicit [auctor]: Amplam tabulam marmoream, quadrilateram et oblongam ABCD sume;",
+     "transcription": "Dicit [auctor]: Amplam tabulam marmoream, quadrilateram et oblongam ABCD sume;",
+     "semantic_anchor": "AB01-PDF0227-P01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0227-body-L002",
+     "source_line_no": 2,
+     "tex": "ad $\\qfrac{2}{3}$ eius latitudinis, et in longitudinis medio loco pone centrum E, circa quod circulum",
+     "transcription": "ad {sfrac:2/3} eius latitudinis, et in longitudinis medio loco pone centrum E, circa quod circulum",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0227-body-L003",
+     "source_line_no": 3,
+     "tex": "describe; postea circulum duabus lineis, se ad angulos rectos in centro mutuo secantibus, et",
+     "transcription": "describe; postea circulum duabus lineis, se ad angulos rectos in centro mutuo secantibus, et",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0227-body-L004",
+     "source_line_no": 4,
+     "tex": "usque ad latera tabulae productis, in quatuor quadrantes divide. Linea longior, ad longitudi-",
+     "transcription": "usque ad latera tabulae productis, in quatuor quadrantes divide. Linea longior, ad longitudi-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0227-body-L005",
+     "source_line_no": 5,
+     "tex": "nem tabulae ducta, erit linea ortus et occasus; brevior, ad latitudinem tabulae descripta, li-",
+     "transcription": "nem tabulae ducta, erit linea ortus et occasus; brevior, ad latitudinem tabulae descripta, li-",
+     "semantic_anchor": null,
+     "margin_locator": "p. 208.",
+     "printed_line_number": 5,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0227-body-L006",
+     "source_line_no": 6,
+     "tex": "neam meridianam indicabit. Prope extremas lineas cardines horizontis nota. In circumferentia",
+     "transcription": "neam meridianam indicabit. Prope extremas lineas cardines horizontis nota. In circumferentia",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0227-body-L007",
+     "source_line_no": 7,
+     "tex": "a punctis ortus et occasus lineae longioris incipe azimuthorum supputationem; azimuth australia",
+     "transcription": "a punctis ortus et occasus lineae longioris incipe azimuthorum supputationem; azimuth australia",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0227-body-L008",
+     "source_line_no": 8,
+     "tex": "ad boream versus numera, borealia in austrum versus, postquam singulos quadrantes in 90 gra-",
+     "transcription": "ad boream versus numera, borealia in austrum versus, postquam singulos quadrantes in 90 gra-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0227-body-L009",
+     "source_line_no": 9,
+     "tex": "dus dividisti nigro vel rubro atramento, ut divisionis vestigia deleri possint. Et circulum simi-",
+     "transcription": "dus dividisti nigro vel rubro atramento, ut divisionis vestigia deleri possint. Et circulum simi-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0227-body-L010",
+     "source_line_no": 10,
+     "tex": "liter. Sed ambas circuli diametros, quae sunt duae lineae memoratae, marmori incide, ut earum",
+     "transcription": "liter. Sed ambas circuli diametros, quae sunt duae lineae memoratae, marmori incide, ut earum",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 10,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0227-body-L011",
+     "source_line_no": 11,
+     "tex": "vestigia remaneant. Supra omnes directiones horarum Cancri litteram M scribe, supra dire-",
+     "transcription": "vestigia remaneant. Supra omnes directiones horarum Cancri litteram M scribe, supra dire-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0227-body-L012",
+     "source_line_no": 12,
+     "tex": "ctiones horarum Capricorni litteram L; numeros horarum locis in quae umbrae incidunt nota,",
+     "transcription": "ctiones horarum Capricorni litteram L; numeros horarum locis in quae umbrae incidunt nota,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0227-body-L013",
+     "source_line_no": 13,
+     "tex": "ab occasu incipiens; demum in longitudine et latitudine tabulae duc lineas inter puncta hora-",
+     "transcription": "ab occasu incipiens; demum in longitudine et latitudine tabulae duc lineas inter puncta hora-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0227-body-L014",
+     "source_line_no": 14,
+     "tex": "rum et umbrarum. Urbem Mekkah in tractu orientali et australi pone; arcum latitudinis inter",
+     "transcription": "rum et umbrarum. Urbem Mekkah in tractu orientali et australi pone; arcum latitudinis inter",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0227-body-L015",
+     "source_line_no": 15,
+     "tex": "utrasque urbes contentum MK appella; eandem quantitatem in tractu occidentali sume, et per",
+     "transcription": "utrasque urbes contentum MK appella; eandem quantitatem in tractu occidentali sume, et per",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 15,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0227-body-L016",
+     "source_line_no": 16,
+     "tex": "utrumque punctum K (1) lineam parallelam ad lineam ortus et occasus describe. [Deinde sume",
+     "transcription": "utrumque punctum K (1) lineam parallelam ad lineam ortus et occasus describe. [Deinde sume",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0227-body-L017",
+     "source_line_no": 17,
+     "tex": "arcum longitudinis qui inter duas urbes intercedit, eumque a binis punctis meridiei ad orientem",
+     "transcription": "arcum longitudinis qui inter duas urbes intercedit, eumque a binis punctis meridiei ad orientem",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0227-body-L018",
+     "source_line_no": 18,
+     "tex": "versus signa, et NH appella; per duo puncta N duc lineam lineae meridianae parallelam;] (2)",
+     "transcription": "versus signa, et NH appella; per duo puncta N duc lineam lineae meridianae parallelam;] (2)",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0227-body-L019",
+     "source_line_no": 19,
+     "tex": "locum intersectionis duarum linearum T [appella]. Linea ETP est directio Mekkah. Sit autem",
+     "transcription": "locum intersectionis duarum linearum T [appella]. Linea ETP est directio Mekkah. Sit autem",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0227-body-L020",
+     "source_line_no": 20,
+     "tex": "ES longitudo stili, quem pones erectum in centro E. Haec explicanda erant. — Tabulas etiam",
+     "transcription": "ES longitudo stili, quem pones erectum in centro E. Haec explicanda erant. — Tabulas etiam",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 20,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0227-body-L021",
+     "source_line_no": 21,
+     "tex": "confecimus, in quibus directiones, umbras et altitudines horarum Capricorni et Cancri ad lati-",
+     "transcription": "confecimus, in quibus directiones, umbras et altitudines horarum Capricorni et Cancri ad lati-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0227-body-L022",
+     "source_line_no": 22,
+     "tex": "tudinem 36° 0′ describuntur (3).",
+     "transcription": "tudinem 36° 0′ describuntur (3).",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0227-body-L023",
+     "source_line_no": 23,
+     "tex": "\\Indent Sciothericum erectum, cuius erecta superficies meridiem prospicit, eodem modo quoad",
+     "transcription": "Sciothericum erectum, cuius erecta superficies meridiem prospicit, eodem modo quoad",
+     "semantic_anchor": "AB01-PDF0227-P02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0227-body-L024",
+     "source_line_no": 24,
+     "tex": "directiones construitur; nam umbrae tantum variant, ut in capite de cognitione umbrae ere-",
+     "transcription": "directiones construitur; nam umbrae tantum variant, ut in capite de cognitione umbrae ere-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0227-body-L025",
+     "source_line_no": 25,
+     "tex": "ctae (4) diximus. Sciotherico igitur ad quantitates umbrae stantis confecto, et eius superficie",
+     "transcription": "ctae (4) diximus. Sciotherico igitur ad quantitates umbrae stantis confecto, et eius superficie",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 25,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0227-body-L026",
+     "source_line_no": 26,
+     "tex": "erecta in linea ortus et occasus posita, necessarie superficies tabulae meridiem prospiciet,",
+     "transcription": "erecta in linea ortus et occasus posita, necessarie superficies tabulae meridiem prospiciet,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0227-body-L027",
+     "source_line_no": 27,
+     "tex": "se ab ortu ad occasum protendens; pars amplior versus terram, angustior versus caelum erit.",
+     "transcription": "se ab ortu ad occasum protendens; pars amplior versus terram, angustior versus caelum erit.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0227-body-L028",
+     "source_line_no": 28,
+     "tex": "Notum est in hoc sciotherico umbram omnium longissimam in initio Cancri haberi, brevissi-",
+     "transcription": "Notum est in hoc sciotherico umbram omnium longissimam in initio Cancri haberi, brevissi-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0227-body-L029",
+     "source_line_no": 29,
+     "tex": "mam in initio Capricorni. Stilus complectatur 12 e partibus regulae qua umbram metitus es;",
+     "transcription": "mam in initio Capricorni. Stilus complectatur 12 e partibus regulae qua umbram metitus es;",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0227-body-L030",
+     "source_line_no": 30,
+     "tex": "ita poteris e loco incidentiae extremitatis umbrae super lineas horarum cognoscere horas tem-",
+     "transcription": "ita poteris e loco incidentiae extremitatis umbrae super lineas horarum cognoscere horas tem-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 30,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0227-body-L031",
+     "source_line_no": 31,
+     "tex": "porales transactas diei. — Plurimis modis variisque instrumentis horae deprehenduntur; sed",
+     "transcription": "porales transactas diei. — Plurimis modis variisque instrumentis horae deprehenduntur; sed",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0227-body-L032",
+     "source_line_no": 32,
+     "tex": "haec duo instrumenta, si Deus vult, omnium quibus usus sum certissima et commodissima sunt.",
+     "transcription": "haec duo instrumenta, si Deus vult, omnium quibus usus sum certissima et commodissima sunt.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0227-body-L033",
+     "source_line_no": 34,
+     "tex": "\\CenterLine{CAPUT LVII.}",
+     "transcription": "CAPUT LVII.",
+     "semantic_anchor": "AB01-PDF0227-H33",
+     "margin_locator": "p. 209.",
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0227-body-L034",
+     "source_line_no": 36,
+     "tex": "\\CenterLine{Libri conclusio: de constructione globi caelestis, quadrantis muralis}",
+     "transcription": "Libri conclusio: de constructione globi caelestis, quadrantis muralis",
+     "semantic_anchor": "AB01-PDF0227-H34",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0227-body-L035",
+     "source_line_no": 37,
+     "tex": "\\CenterLine{et triquetri, quae ad perficiendas observationes inserviunt (5).}",
+     "transcription": "et triquetri, quae ad perficiendas observationes inserviunt (5).",
+     "semantic_anchor": "AB01-PDF0227-H35",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0227-body-L036",
+     "source_line_no": 39,
+     "tex": "\\Indent Dicit [auctor]: Causae rerum, et fundamenta calculi geometricis rationibus probata, quae",
+     "transcription": "Dicit [auctor]: Causae rerum, et fundamenta calculi geometricis rationibus probata, quae",
+     "semantic_anchor": "AB01-PDF0227-P03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0227-body-L037",
+     "source_line_no": 40,
+     "tex": "in libro nostro memoravimus et descripsimus, semper manent immutata, nec eorum status",
+     "transcription": "in libro nostro memoravimus et descripsimus, semper manent immutata, nec eorum status",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 40,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0227-body-L038",
+     "source_line_no": 41,
+     "tex": "unquam in dubium vocari potest; sed in iis rebus metiendis et observandis possibile est aliquid",
+     "transcription": "unquam in dubium vocari potest; sed in iis rebus metiendis et observandis possibile est aliquid",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    }
+   ]
+  },
+  {
+   "role": "notes_left",
+   "lines": [
+    {
+     "id": "AB01-PDF0227-notes_left-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (1) Cod. K, M.",
+     "transcription": "(1) Cod. K, M.",
+     "semantic_anchor": "AB01-PDF0227-N01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0227-notes_left-L002",
+     "source_line_no": null,
+     "tex": "\\Indent (2) Pro his verbis quae uncis inclusi, codex et",
+     "transcription": "(2) Pro his verbis quae uncis inclusi, codex et",
+     "semantic_anchor": "AB01-PDF0227-N02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0227-notes_left-L003",
+     "source_line_no": null,
+     "tex": "Plato tantum habent: « super arcum qui inter eas",
+     "transcription": "Plato tantum habent: « super arcum qui inter eas",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0227-notes_left-L004",
+     "source_line_no": null,
+     "tex": "« est NH signa, et super .... ».",
+     "transcription": "« est NH signa, et super .... ».",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  },
+  {
+   "role": "notes_right",
+   "lines": [
+    {
+     "id": "AB01-PDF0227-notes_right-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (3) Fol. 240,r. — Cfr. pag. 135, adn. 1.",
+     "transcription": "(3) Fol. 240,r. — Cfr. pag. 135, adn. 1.",
+     "semantic_anchor": "AB01-PDF0227-N03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0227-notes_right-L002",
+     "source_line_no": null,
+     "tex": "\\Indent (4) Cap. X, p. 22-23.",
+     "transcription": "(4) Cap. X, p. 22-23.",
+     "semantic_anchor": "AB01-PDF0227-N04",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0227-notes_right-L003",
+     "source_line_no": null,
+     "tex": "\\Indent (5) Platonis versio, ut typis impressa et in co-",
+     "transcription": "(5) Platonis versio, ut typis impressa et in co-",
+     "semantic_anchor": "AB01-PDF0227-N05",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0227-notes_right-L004",
+     "source_line_no": null,
+     "tex": "dice Parisiensi 7266 exstat, omnia omittit quae de-",
+     "transcription": "dice Parisiensi 7266 exstat, omnia omittit quae de-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  }
+ ]
+}
