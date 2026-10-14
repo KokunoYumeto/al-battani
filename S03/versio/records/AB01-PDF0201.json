@@ -1,0 +1,511 @@
+{
+ "anchor": "AB01-PDF0201",
+ "master_pdf_page": 201,
+ "printed_page": 112,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "margin_locators": [
+  {
+   "line_anchor": "AB01-PDF0201-body-L010",
+   "text": "p. 170."
+  }
+ ],
+ "observations": [
+  "body: the line numbers 5 to 40 stand in the right margin and the locator «p. 170.» (L10) in the left margin.",
+  "body: the figure stands at the left of lines 24 to 43, which are set beside it in a narrow measure. It is redrawn from measurements of the print: its five circles (the circle ABCD of the half sum of the diameters and the disc of the Sun FKRL about E, and the three discs of the Moon about S, G and Q) and its six straight lines are least-squares fits to the printed ink, and its sixteen letters (bold italic capitals), the dot at G and the four words MERIDIES, SEPTENTRIONES, ORIENS (reading downward) and OCCIDENS (reading upward), in bold sans-serif capitals, stand where they are printed. In SEPTENTRIONES the P is printed broken, with a stroke below it.",
+  "body L3, L9: a mark stands under the last e of «quaere» and over the z of the second «azimuth»; they are not signs.",
+  "body L15, L36: specks stand under the m of «eadem» and of «centrum»; they are not signs.",
+  "body L42: a speck stands before «E»; it is not a sign.",
+  "notes_left L2: the dash of «196–7» is printed longer (4.2 pt) than the hyphens of the notes."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0201-body-L001",
+     "source_line_no": 1,
+     "tex": "solaris assignata, est quantitas apparens eclipsis. — Item si regiones obscurationis in circulo",
+     "transcription": "solaris assignata, est quantitas apparens eclipsis. — Item si regiones obscurationis in circulo",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0201-body-L002",
+     "source_line_no": 2,
+     "tex": "eclipsis scire vis, digitos eclipsis nondum aequatos in tabula inclinationum obscurationis (1)",
+     "transcription": "eclipsis scire vis, digitos eclipsis nondum aequatos in tabula inclinationum obscurationis (1)",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0201-body-L003",
+     "source_line_no": 3,
+     "tex": "quaere; numeri respondentes in secunda columna, initio immersionis Solis et fini emersionis",
+     "transcription": "quaere; numeri respondentes in secunda columna, initio immersionis Solis et fini emersionis",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0201-body-L004",
+     "source_line_no": 4,
+     "tex": "assignata, sunt gradus inclinationis. Postea azimuth ascendentis et azimuth gradus occidentis",
+     "transcription": "assignata, sunt gradus inclinationis. Postea azimuth ascendentis et azimuth gradus occidentis",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0201-body-L005",
+     "source_line_no": 5,
+     "tex": "tempore immersionis et emersionis deprehende ex circulis climatum (2), ut in capite de ecli-",
+     "transcription": "tempore immersionis et emersionis deprehende ex circulis climatum (2), ut in capite de ecli-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 5,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0201-body-L006",
+     "source_line_no": 6,
+     "tex": "psibus Lunae docuimus; gradus inclinationis numera a termino azimuth ascendentis in fine",
+     "transcription": "psibus Lunae docuimus; gradus inclinationis numera a termino azimuth ascendentis in fine",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0201-body-L007",
+     "source_line_no": 7,
+     "tex": "emersionis et a termino azimuth gradus occidentis in initio immersionis, semper versus partem",
+     "transcription": "emersionis et a termino azimuth gradus occidentis in initio immersionis, semper versus partem",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0201-body-L008",
+     "source_line_no": 8,
+     "tex": "latitudinis Lunae procedens; loca circuli horizontis ad quae pervenies, erunt azimuth [seu di-",
+     "transcription": "latitudinis Lunae procedens; loca circuli horizontis ad quae pervenies, erunt azimuth [seu di-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0201-body-L009",
+     "source_line_no": 9,
+     "tex": "rectio] obscurationis et azimuth emersionis.",
+     "transcription": "rectio] obscurationis et azimuth emersionis.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0201-body-L010",
+     "source_line_no": 10,
+     "tex": "\\Indent Si imaginem eclipsis Solis, ut antea eclipsis Lunae, effingere vis, ex linea divisa (3) quan-",
+     "transcription": "Si imaginem eclipsis Solis, ut antea eclipsis Lunae, effingere vis, ex linea divisa (3) quan-",
+     "semantic_anchor": "AB01-PDF0201-P01",
+     "margin_locator": "p. 170.",
+     "printed_line_number": 10,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0201-body-L011",
+     "source_line_no": 11,
+     "tex": "titatem semisummae duarum diametrorum sume, et hoc radio circulum describe, quem in",
+     "transcription": "titatem semisummae duarum diametrorum sume, et hoc radio circulum describe, quem in",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0201-body-L012",
+     "source_line_no": 12,
+     "tex": "quatuor quadrantes divides duabus lineis se in centro ad angulos rectos mutuo secantibus. Ex",
+     "transcription": "quatuor quadrantes divides duabus lineis se in centro ad angulos rectos mutuo secantibus. Ex",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0201-body-L013",
+     "source_line_no": 13,
+     "tex": "eadem linea quantitatem semidiametri solaris accipe, qua secundum circulum, primo concen-",
+     "transcription": "eadem linea quantitatem semidiametri solaris accipe, qua secundum circulum, primo concen-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0201-body-L014",
+     "source_line_no": 14,
+     "tex": "tricum, sed eo necessarie minorem, describe; et in extremis lineis circuli maioris quatuor",
+     "transcription": "tricum, sed eo necessarie minorem, describe; et in extremis lineis circuli maioris quatuor",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0201-body-L015",
+     "source_line_no": 15,
+     "tex": "horizontis cardines nota. Postea ex eadem linea divisa etiam quantitatem latitudinis apparentis",
+     "transcription": "horizontis cardines nota. Postea ex eadem linea divisa etiam quantitatem latitudinis apparentis",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 15,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0201-body-L016",
+     "source_line_no": 16,
+     "tex": "Lunae in initio immersionis circino sume; deinde alteram circini extremitatem in centro com-",
+     "transcription": "Lunae in initio immersionis circino sume; deinde alteram circini extremitatem in centro com-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0201-body-L017",
+     "source_line_no": 17,
+     "tex": "muni duorum circulorum ponens, alteram versus partem latitudinis apparentis Lunae verte;",
+     "transcription": "muni duorum circulorum ponens, alteram versus partem latitudinis apparentis Lunae verte;",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0201-body-L018",
+     "source_line_no": 18,
+     "tex": "ubi haec in lineam incidet, pone signum initii immersionis. Similiter fac cum quantitatibus",
+     "transcription": "ubi haec in lineam incidet, pone signum initii immersionis. Similiter fac cum quantitatibus",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0201-body-L019",
+     "source_line_no": 19,
+     "tex": "latitudinis Lunae in medio eclipsis et in fine emersionis; tria signa ita notaveris. A latitudinis",
+     "transcription": "latitudinis Lunae in medio eclipsis et in fine emersionis; tria signa ita notaveris. A latitudinis",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0201-body-L020",
+     "source_line_no": 20,
+     "tex": "puncto in initio immersionis lineam diametro parallelam in occidentem versus duc, et a puncto",
+     "transcription": "puncto in initio immersionis lineam diametro parallelam in occidentem versus duc, et a puncto",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 20,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0201-body-L021",
+     "source_line_no": 21,
+     "tex": "latitudinis in fine emersionis alteram lineam diametro parallelam versus orientem; loca ex-",
+     "transcription": "latitudinis in fine emersionis alteram lineam diametro parallelam versus orientem; loca ex-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0201-body-L022",
+     "source_line_no": 22,
+     "tex": "trema linearum in circumferentia maiore nota. Deinde ex linea divisa etiam quantitatem semi-",
+     "transcription": "trema linearum in circumferentia maiore nota. Deinde ex linea divisa etiam quantitatem semi-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0201-body-L023",
+     "source_line_no": 23,
+     "tex": "diametri Lunae sume, qua circulum circa punctum latitudinis lunaris in medio eclipsis de-",
+     "transcription": "diametri Lunae sume, qua circulum circa punctum latitudinis lunaris in medio eclipsis de-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0201-body-F01",
+     "source_line_no": null,
+     "tex": "\\input{figures/AB01-PDF0201-F01}",
+     "transcription": "[figure, redrawn: figures/AB01-PDF0201-F01.tex]",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_FIGURE"
+    },
+    {
+     "id": "AB01-PDF0201-body-L024",
+     "source_line_no": 24,
+     "tex": "scribe; pars disci Solis in hunc",
+     "transcription": "scribe; pars disci Solis in hunc",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0201-body-L025",
+     "source_line_no": 25,
+     "tex": "circulum incidens est pars So-",
+     "transcription": "circulum incidens est pars So-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 25,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0201-body-L026",
+     "source_line_no": 26,
+     "tex": "lis occultata. Alium circulum",
+     "transcription": "lis occultata. Alium circulum",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0201-body-L027",
+     "source_line_no": 27,
+     "tex": "etiam circa punctum in occi-",
+     "transcription": "etiam circa punctum in occi-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0201-body-L028",
+     "source_line_no": 28,
+     "tex": "dentali circumferentia signa-",
+     "transcription": "dentali circumferentia signa-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0201-body-L029",
+     "source_line_no": 29,
+     "tex": "tum describe; discum Solis",
+     "transcription": "tum describe; discum Solis",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0201-body-L030",
+     "source_line_no": 30,
+     "tex": "tanget eritque circulus initii",
+     "transcription": "tanget eritque circulus initii",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 30,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0201-body-L031",
+     "source_line_no": 31,
+     "tex": "immersionis. Similiter circa",
+     "transcription": "immersionis. Similiter circa",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0201-body-L032",
+     "source_line_no": 32,
+     "tex": "punctum orientale circumfe-",
+     "transcription": "punctum orientale circumfe-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0201-body-L033",
+     "source_line_no": 33,
+     "tex": "rentiae tertium circulum de-",
+     "transcription": "rentiae tertium circulum de-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0201-body-L034",
+     "source_line_no": 34,
+     "tex": "scribe, qui erit circulus finis",
+     "transcription": "scribe, qui erit circulus finis",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0201-body-L035",
+     "source_line_no": 35,
+     "tex": "emersionis.",
+     "transcription": "emersionis.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 35,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0201-body-L036",
+     "source_line_no": 36,
+     "tex": "\\Indent Circa centrum E sit ABCD",
+     "transcription": "Circa centrum E sit ABCD",
+     "semantic_anchor": "AB01-PDF0201-P02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0201-body-L037",
+     "source_line_no": 37,
+     "tex": "circulus semisummae duarum",
+     "transcription": "circulus semisummae duarum",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0201-body-L038",
+     "source_line_no": 38,
+     "tex": "diametrorum; sint A pun-",
+     "transcription": "diametrorum; sint A pun-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0201-body-L039",
+     "source_line_no": 39,
+     "tex": "ctum occidentis, B meridiei,",
+     "transcription": "ctum occidentis, B meridiei,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0201-body-L040",
+     "source_line_no": 40,
+     "tex": "C orientis, D septentrionum.",
+     "transcription": "C orientis, D septentrionum.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 40,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0201-body-L041",
+     "source_line_no": 41,
+     "tex": "Diametros AC, BD ducamus",
+     "transcription": "Diametros AC, BD ducamus",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0201-body-L042",
+     "source_line_no": 42,
+     "tex": "et circa centrum E circulum",
+     "transcription": "et circa centrum E circulum",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0201-body-L043",
+     "source_line_no": 43,
+     "tex": "Solis FKRL. Latitudo appa-",
+     "transcription": "Solis FKRL. Latitudo appa-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    }
+   ]
+  },
+  {
+   "role": "notes_left",
+   "lines": [
+    {
+     "id": "AB01-PDF0201-notes_left-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (1) In eodem fol. 195,r.",
+     "transcription": "(1) In eodem fol. 195,r.",
+     "semantic_anchor": "AB01-PDF0201-N01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0201-notes_left-L002",
+     "source_line_no": null,
+     "tex": "\\Indent (2) Fol. 196,v. Eorum usum explicat p. 196–7.",
+     "transcription": "(2) Fol. 196,v. Eorum usum explicat p. 196–7.",
+     "semantic_anchor": "AB01-PDF0201-N02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  },
+  {
+   "role": "notes_right",
+   "lines": [
+    {
+     "id": "AB01-PDF0201-notes_right-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (3) Cfr. cap. XLIII, pag. 102.",
+     "transcription": "(3) Cfr. cap. XLIII, pag. 102.",
+     "semantic_anchor": "AB01-PDF0201-N03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  }
+ ]
+}

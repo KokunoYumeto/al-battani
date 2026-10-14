@@ -1,0 +1,260 @@
+{
+ "pdf": 201,
+ "printed_page": 112,
+ "comment": [
+  "Nallino, Part I p. 112: the figure of a solar eclipse, redrawn from the print: the circle ABCD of the",
+  "half sum of the diameters and the disc of the Sun FKRL, both about E, the diameters CA and BD, the",
+  "discs of the Moon at the beginning (centre S), the middle (centre G, a dot) and the end (centre Q),",
+  "the lines EHQ, PQ, SM and ENS; the four quarters MERIDIES, SEPTENTRIONES, ORIENS (reading downward)",
+  "and OCCIDENS (reading upward). Circles and lines are least-squares fits to the printed ink;",
+  "coordinates are PDF points of master page 201 less the origin (120.24, 430.16), y downward."
+ ],
+ "origin": [
+  120.24,
+  430.16
+ ],
+ "scale": 0.9851,
+ "size": [
+  285.0,
+  275.0
+ ],
+ "label_pt": 11.5,
+ "circles": [
+  {
+   "cx": 252.85,
+   "cy": 576.43,
+   "r": 107.07,
+   "w": 1.05,
+   "name": "the circle ABCD of the half sum of the two diameters, centre E"
+  },
+  {
+   "cx": 252.74,
+   "cy": 576.58,
+   "r": 65.4,
+   "w": 1.02,
+   "name": "the disc of the Sun FKRL, centre E"
+  },
+  {
+   "cx": 252.98,
+   "cy": 630.0,
+   "r": 41.89,
+   "w": 0.95,
+   "name": "the disc of the Moon at the middle of the eclipse, centre G"
+  },
+  {
+   "cx": 358.08,
+   "cy": 595.48,
+   "r": 42.13,
+   "w": 0.96,
+   "name": "the disc of the Moon at the end of the emersion, centre Q"
+  },
+  {
+   "cx": 176.25,
+   "cy": 651.54,
+   "r": 41.53,
+   "w": 0.97,
+   "name": "the disc of the Moon at the beginning of the immersion, centre S"
+  }
+ ],
+ "segments": [
+  {
+   "x0": 145.79,
+   "y0": 577.19,
+   "x1": 359.91,
+   "y1": 575.99,
+   "w": 0.9,
+   "name": "the diameter CA (east to west)"
+  },
+  {
+   "x0": 252.2,
+   "y0": 469.36,
+   "x1": 252.94,
+   "y1": 683.49,
+   "w": 0.72,
+   "name": "the diameter BD (south to north)"
+  },
+  {
+   "x0": 252.57,
+   "y0": 576.06,
+   "x1": 357.98,
+   "y1": 595.72,
+   "w": 0.78,
+   "name": "the line EHQ"
+  },
+  {
+   "x0": 252.63,
+   "y0": 596.11,
+   "x1": 357.87,
+   "y1": 595.92,
+   "w": 0.72,
+   "name": "the line PQ"
+  },
+  {
+   "x0": 175.0,
+   "y0": 651.67,
+   "x1": 252.82,
+   "y1": 650.68,
+   "w": 0.9,
+   "name": "the line SM"
+  },
+  {
+   "x0": 252.57,
+   "y0": 576.39,
+   "x1": 176.03,
+   "y1": 651.91,
+   "w": 0.95,
+   "name": "the line ENS"
+  }
+ ],
+ "rings": [
+  {
+   "cx": 252.2,
+   "cy": 630.3,
+   "r": 0.01,
+   "w": 0.1,
+   "dot": 1.25
+  }
+ ],
+ "labels": [
+  {
+   "t": "B",
+   "x0": 249.5,
+   "y0": 459.6,
+   "x1": 256.1,
+   "y1": 466.1
+  },
+  {
+   "t": "F",
+   "x0": 254.6,
+   "y0": 501.7,
+   "x1": 259.7,
+   "y1": 508.8
+  },
+  {
+   "t": "E",
+   "x0": 255.22,
+   "y0": 565.92,
+   "x1": 261.7,
+   "y1": 573.84
+  },
+  {
+   "t": "C",
+   "x0": 139.0,
+   "y0": 573.2,
+   "x1": 143.7,
+   "y1": 580.4
+  },
+  {
+   "t": "A",
+   "x0": 361.0,
+   "y0": 571.5,
+   "x1": 368.5,
+   "y1": 579.5
+  },
+  {
+   "t": "H",
+   "x0": 319.3,
+   "y0": 579.6,
+   "x1": 327.5,
+   "y1": 585.7
+  },
+  {
+   "t": "Q",
+   "x0": 360.8,
+   "y0": 591.0,
+   "x1": 366.0,
+   "y1": 600.8
+  },
+  {
+   "t": "P",
+   "x0": 253.2,
+   "y0": 597.8,
+   "x1": 260.8,
+   "y1": 605.4
+  },
+  {
+   "t": "N",
+   "x0": 204.1,
+   "y0": 610.3,
+   "x1": 211.3,
+   "y1": 617.5
+  },
+  {
+   "t": "K",
+   "x0": 213.74,
+   "y0": 620.18,
+   "x1": 219.32,
+   "y1": 627.74
+  },
+  {
+   "t": "G",
+   "x0": 255.7,
+   "y0": 624.2,
+   "x1": 261.4,
+   "y1": 631.7
+  },
+  {
+   "t": "R",
+   "x0": 254.48,
+   "y0": 633.6,
+   "x1": 259.88,
+   "y1": 640.8
+  },
+  {
+   "t": "L",
+   "x0": 296.8,
+   "y0": 624.7,
+   "x1": 302.9,
+   "y1": 631.9
+  },
+  {
+   "t": "S",
+   "x0": 169.12,
+   "y0": 652.04,
+   "x1": 173.98,
+   "y1": 660.32
+  },
+  {
+   "t": "M",
+   "x0": 255.84,
+   "y0": 647.04,
+   "x1": 262.5,
+   "y1": 654.78
+  },
+  {
+   "t": "D",
+   "x0": 249.2,
+   "y0": 686.7,
+   "x1": 255.7,
+   "y1": 693.5
+  }
+ ],
+ "words": [
+  {
+   "t": "\\resizebox{34.31pt}{4.70pt}{MERIDIES}",
+   "cx": 252.91,
+   "cy": 453.09,
+   "font": "\\fontsize{8.5}{8.5}\\sffamily\\bfseries\\selectfont"
+  },
+  {
+   "t": "\\resizebox{65.61pt}{5.22pt}{SEPTENTRIONES}",
+   "cx": 250.43,
+   "cy": 699.35,
+   "font": "\\fontsize{8.5}{8.5}\\sffamily\\bfseries\\selectfont"
+  },
+  {
+   "t": "\\resizebox{26.86pt}{5.32pt}{ORIENS}",
+   "cx": 133.49,
+   "cy": 576.97,
+   "font": "\\fontsize{8.5}{8.5}\\sffamily\\bfseries\\selectfont",
+   "rot": -90
+  },
+  {
+   "t": "\\resizebox{38.03pt}{5.32pt}{OCCIDENS}",
+   "cx": 374.05,
+   "cy": 578.62,
+   "font": "\\fontsize{8.5}{8.5}\\sffamily\\bfseries\\selectfont",
+   "rot": 90
+  }
+ ]
+}
