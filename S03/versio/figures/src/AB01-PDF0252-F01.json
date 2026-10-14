@@ -1,0 +1,335 @@
+{
+ "pdf": 252,
+ "printed_page": 163,
+ "comment": [
+  "Nallino, Part I p. 163: the sphere projected on the plane of the horizon FENO, redrawn from the print: the",
+  "horizon circle; the meridian PN as its vertical diameter, with the zenith Z marked by a dot; the equator EMO,",
+  "the ecliptic from F through the first point of Aries and C, and the solstitial colure from the pole P",
+  "through R and C, as arcs of circles; the letters N, X, C, M, R, the sign of Aries, E, Z, O, F and P, with",
+  "the full stop printed after P. Measured on the scan (_intake/latin/tools/fig163)."
+ ],
+ "origin": [
+  61.9,
+  609.86
+ ],
+ "scale": 0.99352,
+ "size": [
+  133.0,
+  131.0
+ ],
+ "label_pt": 11,
+ "circles": [
+  {
+   "name": "the horizon FENO",
+   "cx": 135.08,
+   "cy": 683.68,
+   "r": 55.19,
+   "w": 1.34
+  }
+ ],
+ "segments": [
+  {
+   "name": "the meridian PN",
+   "x0": 135.38,
+   "y0": 628.49,
+   "x1": 134.81,
+   "y1": 738.88,
+   "w": 1.44
+  }
+ ],
+ "arcs": [
+  {
+   "name": "the equator EMO",
+   "cx": 135.15686697429783,
+   "cy": 743.0355686033571,
+   "r": 80.78267733117951,
+   "a0": -133.172,
+   "a1": -46.978,
+   "w": 1.33
+  },
+  {
+   "name": "the ecliptic from F through the first point of Aries and C",
+   "cx": 154.06735772215384,
+   "cy": 707.1661307214661,
+   "r": 65.65195119851512,
+   "a0": 174.319,
+   "a1": 287.763,
+   "w": 1.46
+  },
+  {
+   "name": "the solstitial colure from P through R and C",
+   "cx": 95.87136779637659,
+   "cy": 667.4024301711618,
+   "r": 62.1323884317336,
+   "a0": 51.052,
+   "a1": -37.718,
+   "w": 1.3
+  }
+ ],
+ "labels": [
+  {
+   "t": "\\resizebox{8.64pt}{7.99pt}{N}",
+   "cx": 135.15,
+   "cy": 622.42,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{6.46pt}{7.51pt}{X}",
+   "cx": 130.18,
+   "cy": 640.54,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{6.93pt}{8.46pt}{C}",
+   "cx": 147.09,
+   "cy": 647.58,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{9.36pt}{7.39pt}{M}",
+   "cx": 128.98,
+   "cy": 657.4,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{7.36pt}{7.63pt}{R}",
+   "cx": 152.52,
+   "cy": 669.86,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{9.72pt}{9.66pt}{♈}",
+   "cx": 104.58,
+   "cy": 676.3,
+   "font": "\\fontsize{11}{11}\\MoonFont"
+  },
+  {
+   "t": "\\resizebox{8.42pt}{7.75pt}{E}",
+   "cx": 71.67,
+   "cy": 683.7,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{5.95pt}{7.39pt}{Z}",
+   "cx": 128.22,
+   "cy": 683.4,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{6.21pt}{7.15pt}{O}",
+   "cx": 195.04,
+   "cy": 685.46,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{7.50pt}{7.99pt}{F}",
+   "cx": 80.1,
+   "cy": 716.12,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{6.84pt}{7.87pt}{P}",
+   "cx": 127.37,
+   "cy": 716.88,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  }
+ ],
+ "fills": [
+  {
+   "name": "the dot of the zenith Z on the meridian",
+   "pts": [
+    [
+     135.96,
+     683.3
+    ],
+    [
+     135.667,
+     684.007
+    ],
+    [
+     134.96,
+     684.3
+    ],
+    [
+     134.253,
+     684.007
+    ],
+    [
+     133.96,
+     683.3
+    ],
+    [
+     134.253,
+     682.593
+    ],
+    [
+     134.96,
+     682.3
+    ],
+    [
+     135.667,
+     682.593
+    ]
+   ]
+  },
+  {
+   "name": "the full stop after P",
+   "pts": [
+    [
+     130.81,
+     719.04
+    ],
+    [
+     130.625,
+     719.485
+    ],
+    [
+     130.18,
+     719.67
+    ],
+    [
+     129.735,
+     719.485
+    ],
+    [
+     129.55,
+     719.04
+    ],
+    [
+     129.735,
+     718.595
+    ],
+    [
+     130.18,
+     718.41
+    ],
+    [
+     130.625,
+     718.595
+    ]
+   ]
+  }
+ ],
+ "boxes": {
+  "N": [
+   131.42,
+   618.4,
+   140.78,
+   626.44
+  ],
+  "X": [
+   126.98,
+   636.76,
+   134.3,
+   644.32
+  ],
+  "C": [
+   144.5,
+   643.32,
+   150.98,
+   651.84
+  ],
+  "M": [
+   124.44,
+   653.68,
+   134.22,
+   661.12
+  ],
+  "R": [
+   149.08,
+   666.02,
+   156.4,
+   673.7
+  ],
+  "♈": [
+   100.08,
+   671.44,
+   109.08,
+   681.16
+  ],
+  "E": [
+   67.8,
+   679.8,
+   76.68,
+   687.6
+  ],
+  "Z": [
+   125.44,
+   679.68,
+   132.04,
+   687.12
+  ],
+  "O": [
+   192.74,
+   681.86,
+   198.5,
+   689.06
+  ],
+  "F": [
+   76.68,
+   712.1,
+   85.32,
+   720.14
+  ],
+  "P": [
+   124.2,
+   712.92,
+   131.76,
+   720.84
+  ]
+ },
+ "points": {
+  "E": [
+   79.89,
+   684.12
+  ],
+  "O": [
+   190.27,
+   683.98
+  ],
+  "F": [
+   88.74,
+   713.67
+  ],
+  "ecliptic, other end": [
+   174.1,
+   644.64
+  ],
+  "P": [
+   134.93,
+   715.72
+  ],
+  "colure, top": [
+   145.02,
+   629.39
+  ],
+  "Aries": [
+   99.61,
+   670.49
+  ],
+  "R": [
+   157.98,
+   665.54
+  ],
+  "C": [
+   152.36,
+   641.54
+  ],
+  "X": [
+   135.3,
+   644.25
+  ],
+  "M": [
+   135.21,
+   662.25
+  ],
+  "N (top)": [
+   135.38,
+   628.49
+  ],
+  "bottom": [
+   134.81,
+   738.88
+  ]
+ }
+}

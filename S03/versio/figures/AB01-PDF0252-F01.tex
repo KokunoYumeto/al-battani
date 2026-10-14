@@ -1,0 +1,26 @@
+% Nallino, Part I p. 163: the sphere projected on the plane of the horizon FENO, redrawn from the print: the
+% horizon circle; the meridian PN as its vertical diameter, with the zenith Z marked by a dot; the equator EMO,
+% the ecliptic from F through the first point of Aries and C, and the solstitial colure from the pole P
+% through R and C, as arcs of circles; the letters N, X, C, M, R, the sign of Aries, E, Z, O, F and P, with
+% the full stop printed after P. Measured on the scan (_intake/latin/tools/fig163).
+\begin{tikzpicture}[x=0.9935pt,y=-0.9935pt,line cap=butt,every node/.style={font=\fontsize{11}{11}\bfseries\itshape\selectfont,inner sep=0pt}]
+\useasboundingbox (0,0) rectangle (133.00,131.00);
+\draw[line width=1.33pt] (73.18,73.82) circle[radius=55.19];  % the horizon FENO
+\draw[line width=1.43pt] (73.48,18.63) -- (72.91,129.02);  % the meridian PN
+\draw[line width=1.32pt] (17.99,74.26) arc[start angle=-133.17,end angle=-46.98,radius=80.78];
+\draw[line width=1.45pt] (26.84,103.81) arc[start angle=174.32,end angle=287.76,radius=65.65];
+\draw[line width=1.29pt] (73.03,105.86) arc[start angle=51.05,end angle=-37.72,radius=62.13];
+\fill plot[smooth cycle,tension=0.5] coordinates {(74.06,73.44) (73.77,74.15) (73.06,74.44) (72.35,74.15) (72.06,73.44) (72.35,72.73) (73.06,72.44) (73.77,72.73)};  % the dot of the zenith Z on the meridian
+\fill plot[smooth cycle,tension=0.5] coordinates {(68.91,109.18) (68.72,109.62) (68.28,109.81) (67.84,109.62) (67.65,109.18) (67.84,108.74) (68.28,108.55) (68.72,108.74)};  % the full stop after P
+\node at (73.25,12.56) {\normalfont\fontsize{11}{11}\bfseries\itshape\selectfont \resizebox{8.64pt}{7.99pt}{N}};
+\node at (68.28,30.68) {\normalfont\fontsize{11}{11}\bfseries\itshape\selectfont \resizebox{6.46pt}{7.51pt}{X}};
+\node at (85.19,37.72) {\normalfont\fontsize{11}{11}\bfseries\itshape\selectfont \resizebox{6.93pt}{8.46pt}{C}};
+\node at (67.08,47.54) {\normalfont\fontsize{11}{11}\bfseries\itshape\selectfont \resizebox{9.36pt}{7.39pt}{M}};
+\node at (90.62,60.00) {\normalfont\fontsize{11}{11}\bfseries\itshape\selectfont \resizebox{7.36pt}{7.63pt}{R}};
+\node at (42.68,66.44) {\normalfont\fontsize{11}{11}\MoonFont \resizebox{9.72pt}{9.66pt}{♈}};
+\node at (9.77,73.84) {\normalfont\fontsize{11}{11}\bfseries\itshape\selectfont \resizebox{8.42pt}{7.75pt}{E}};
+\node at (66.32,73.54) {\normalfont\fontsize{11}{11}\bfseries\itshape\selectfont \resizebox{5.95pt}{7.39pt}{Z}};
+\node at (133.14,75.60) {\normalfont\fontsize{11}{11}\bfseries\itshape\selectfont \resizebox{6.21pt}{7.15pt}{O}};
+\node at (18.20,106.26) {\normalfont\fontsize{11}{11}\bfseries\itshape\selectfont \resizebox{7.50pt}{7.99pt}{F}};
+\node at (65.47,107.02) {\normalfont\fontsize{11}{11}\bfseries\itshape\selectfont \resizebox{6.84pt}{7.87pt}{P}};
+\end{tikzpicture}

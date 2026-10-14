@@ -1,0 +1,66 @@
+@page 252 163
+% Commentary on chapter 4 concluded: Theon's names for the four quarters of his tables of the Sun's declination, and the same usage in the Alfonsine Libro de las taulas; on chapter 5, a) on pp. 13-14: the right ascension from Ptolemy's construction by Menelaus' theorem, in chords and in sines, al-Battānī's formula sin α = R sin δ cos ε / (cos δ sin ε), and Ḥabash's shorter rule sin α = R tg δ cotg ε from his tables of tangents and cotangents; b) on p. 14, l. 10-12: the time of culmination of a point of the ecliptic, with the figure of the sphere projected on the plane of the horizon (begun).
+@nonum
+Item in tabulis declinationum Solis, sub columnis graduum eclipticae, {sp:Theon}, I, 144
+scribit:
+@at 31.04:A 0° ad 90°: | 59.62:Βοῤῥαῖος καταβαθμός, descensus borealis.
+@at 31.04:A 90° ad 180°: | 59.62:Νότιος καταβαθμός, descensus australis.
+@at 31.04:A 180° ad 270°: | 59.62:Νότιος ἀναβαθμός, ascensus australis.
+@at 31.04:A 270° ad 360°: | 59.62:Βοῤῥαῖος ἀναβαθμός, ascensus borealis.
+^ Ut apud al–Battānī legimus in *Libro de las taulas alfonsies,* cap. XX (*Libros del saber*
+*de astronomia,* t. IV, p. 136): « et si el logar fuer de un grado fata tres signos. el sol es suuiente
+« en septentrion. et si fuer de tres signos fata .VI. es decendiente en septentrion. et si fuer
+« de .VI. signos fata .IX. es decendiente en mediodía. et si fuer de .IX. signos fata .XII. es
+« suuiente en mediodía ».
+@fontsize 15 17
+@vspace 5.84
+@center A{sc:d} {sc:caput} V.
+@normal
+@vspace 2.65
+@center {bi:a}) — *Pag. 13–14.*
+@vspace 3.33
+^ Calculus *ascensionis rectae*: Sit δ declinatio dati gradus eclipticae, *α* ascensio recta eius-
+dem, ε obliquitas eclipticae; {sp:Ptolemaeus}, *Almag.* I, 13 (ed. Halma, t. I, p. 60–61) per
+theorema Menelai demonstrat
+@vspace -0.41
+@center $\dfrac{\text{chorda } 2\alpha}{\text{chorda 180°}} = \dfrac{\text{chorda } 2\text{δ}}{\text{chorda } (\text{180°} - 2\text{δ})} \times \dfrac{\text{chorda } (\text{180°} - 2\text{ε})}{\text{chorda } 2\text{ε}}$.
+@vspace -0.28
+Sinibus pro chordis adhibitis, deducitur
+@center $\dfrac{2 \sin \alpha}{2R} = \dfrac{2 \sin \text{δ}}{2 \cos \text{δ}} \times \dfrac{2 \cos \text{ε}}{2 \sin \text{ε}}$,
+@vspace -0.48
+unde formula {sp:al–Battānī}
+@vspace -1.17
+@center $\sin \alpha = R\,\dfrac{\sin \text{δ} \cos \text{ε}}{\cos \text{δ} \sin \text{ε}}$.
+@vspace 0.64
+^ {sp:Ḥabash}, qui eadem aetate qua al–Battānī vixit, cum tabulas tangentium et cotangen-
+tium (radio 60 partium sumpto) construxisset, in suo opere (fol. 88,r.) brevius potuit
+@vspace 1.51
+@center $\sin \alpha = R\,\mathrm{tg}\,\text{δ}\,\mathrm{cotg}\,\text{ε}$
+docere.
+@vspace 2.90
+@center {bi:b}) — *Pag. 14, l. 10–12.*
+@vspace 3.96
+^ [Calculo ascensionum rectarum cuiuscumque puncti eclipticae cognito, auctor nunc vult
+ostendere quo modo tempus culminationis eorum punctorum deprehendatur, scilicet gradus
+aequatoris caelestis qui, culminationis tempore, ab horizonte datae urbis ascendit.
+@wrap 0.248 AB01-PDF0252-F01
+^ Sphaera caelestis proiiciatur in planum horizontis FENO
+datae urbis; sit P polus, PN meridianus, EMO circulus aequi-
+noctialis, ♈ initium Arietis, F♈C ecliptica, F ascendens, C ini-
+tium Capricorni, PC colurus solstitialis. Necessario ♈R, scilicet
+arcus aequatoris caelestis inter punctum ♈ aequinoctii vernalis
+et R coluri solstitialis interceptus, est 90 graduum; item 90°
+debet semper esse arcus EM, horizonte et meridiano intercep-
+tus. Manifeste erit igitur quocumque tempore E♈ = MR. —
+Sit X punctum eclipticae cuius culminatio quando eveniat scire
+volumus; erit XC eius longitudo ab initio Capricorni suppu-
+@endwrap
+@obs body L1-L11: the end of the note c) on p. 13; the addendum of Nallino's addenda et emendanda (Part I, p. LXXII) to pp. 162-163, on Vettius Valens and Julianus of Laodicea, is recorded on p. 162.
+@obs body L3-L6: the kappas of «καταβαθμός» are printed in the curly form (ϰ), the thetas of «καταβαθμός» and «ἀναβαθμός» in the open form (ϑ).
+@obs body L7: of the long dash of «al–Battānī» only its middle printed (1.4 pt), in the middle of the space of a long dash between al and Battānī.
+@obs body L12: the head of the notes on chapter 5, «Ad» and «caput» in small capitals.
+@obs body L17, L19, L21, L24: the formulas stand in the middle of the line; α is italic, δ and ε upright; the minus signs of L17 are printed as long dashes and set as minus signs.
+@obs body L24: the sines of these formulas are lengths in the circle of radius R, so that the rule of L21 is sin α = R tan δ cot ε; with tangents and cotangents of the same radius R, as in Ḥabash's tables of radius 60, it reads sin α = tg δ cotg ε / R. The printed form holds when tg and cotg are the ratios of sine and cosine; kept as printed.
+@obs body L27: the opening bracket before «Calculo» is printed heavy, its upper arm short.
+@obs body L30-L39: the figure stands at the left of lines 30 to 39, which are set beside it in a narrow measure. It is redrawn from measurements of the print: the horizon FENO as a circle, the meridian PN as its vertical diameter with the zenith Z marked by a dot on it, and the equator EMO, the ecliptic F♈C and the solstitial colure PRC as arcs of circles fitted to the printed strokes (the equator and the ecliptic end on the horizon at both ends, the colure at its upper end and on the meridian at P). The letters are bold italic; the F is printed blotted; a full stop stands under the bowl of the P and is kept.
+@obs body L26-L39: Nallino's addenda et emendanda (Part I, p. LXXII) add to the note b) on pp. 163-164 further tables of right ascensions counted from the beginning of Capricorn; the addendum is recorded on p. 164, where the note ends.
