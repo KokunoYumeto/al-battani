@@ -84,7 +84,8 @@ larger (a note number or letter after the head; it may hold one level of markup,
 sign of the tables, {lbrace3} and {rbrace3} a left and a right brace over three lines (written on the middle one),
 {rbrace2} a right brace over two lines (written on the first), {vrule2} a thin vertical rule over two lines (written
 on the first), {ar:...} an Arabic phrase with its own brackets and punctuation, set as one right-to-left run
-({syr:...} the same for Syriac), {rtl:...} a phrase of Arabic numerals and Latin words that the print sets right to
+(a Latin word inside it, as codd. or add., stands in its place in the run in the roman type; {syr:...} the same
+for Syriac), {rtl:...} a phrase of Arabic numerals and Latin words that the print sets right to
 left, given in reading order, \\* a literal asterisk; runs of Arabic, Greek, Hebrew and Syriac letters are set in
 their fonts, the signs ☾ ⊙ ♈ ♄ ♃ ♂ ♀ ☿ ☊ ☋ in FreeSerif. & % # are escaped; $...$ is mathematics; every other
 character is literal."""
@@ -201,8 +202,10 @@ def rtl_phrase(s):
 def markup(s):
     keep = []
 
-    def stash(m):  # {ar:...}: an Arabic phrase with its own punctuation and brackets, set as one right-to-left run
-        keep.append(r"\ArabicRun{" + m.group(1) + "}")
+    def stash(m):  # {ar:...}: an Arabic phrase with its own punctuation and brackets, set as one right-to-left run;
+        # a Latin word inside it (codd., add.) is set in the roman type, left to right, in its place in the run
+        body = re.sub(r"[A-Za-z][A-Za-z.]*", lambda k: r"\textlatin{" + k.group(0) + "}", m.group(1))
+        keep.append(r"\ArabicRun{" + body + "}")
         return f"\uE003{len(keep) - 1}\uE004"
 
     def stash_rtl(m):
