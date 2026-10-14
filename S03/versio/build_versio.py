@@ -60,6 +60,7 @@ Transcription format (UTF-8; one printed line per source line, as printed, with 
                          between the two columns, as printed); @notes1 one column
   @sig TEXT              the signature at the foot of the page
   @tail MM FILE          the ornament that closes a part, redrawn in figures/FILE.tex, centred MM below the notes
+  @nonum                 the print numbers no lines on this page (the commentary): no line numbers in the margin
   @obs TEXT              an observation on the print (a letter that did not print, a broken sign), kept in the record
   @innotes LEN           inside a @wrap block: the notes are printed in the column beside the figure, under its lines;
                          a rule LEN mm long is set and the following lines are the notes (small type, no numbers)
@@ -266,7 +267,7 @@ def parse(path):
     lines = path.read_text(encoding="utf-8").split("\n")
     m = re.match(r"@page (\d+) (\d+)", lines[0])
     rec = {"pdf": int(m.group(1)), "pp": int(m.group(2)), "body": [], "notes_left": [], "notes_right": [],
-           "notes": [], "sig": "", "tail": None, "blank": False, "obs": []}
+           "notes": [], "sig": "", "tail": None, "blank": False, "nonum": False, "obs": []}
     part, raw = "body", None
     for ln in lines[1:]:
         if raw is not None:
@@ -291,6 +292,8 @@ def parse(path):
                 rec["tail"] = (float(mm), fname)
             elif cmd == "@obs":
                 rec["obs"].append(arg)
+            elif cmd == "@nonum":
+                rec["nonum"] = True
             elif cmd == "@blank":
                 rec["blank"] = True
             elif cmd in ("@title", "@center", "@vspace", "@rule", "@rule2", "@verse", "@calc", "@calcrule",
@@ -957,7 +960,7 @@ def page(rec):
     sections = []
     if rec["blank"]:
         out.append(r"\null")
-    tex, recs = section(rec["body"], prefix, "body", True)
+    tex, recs = section(rec["body"], prefix, "body", not rec["nonum"])
     out += tex
     sections.append({"role": "body", "lines": [r for r in recs if "-notes-" not in r["id"]]})
     if any("-notes-" in r["id"] for r in recs):  # notes set beside a figure (@innotes)
