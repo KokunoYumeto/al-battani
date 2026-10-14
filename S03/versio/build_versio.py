@@ -26,7 +26,8 @@ Transcription format (UTF-8; one printed line per source line, as printed, with 
                          @rowrule - | | - ... a rule under the columns marked -; || in @cols is a double rule,
                          <|| and ||> the double rules of the edges of a boxed table; a cell beginning with >N is
                          indented N mm, one beginning with _ is set half a line lower; @rule2 cols and @hrule cols
-                         are a double and a thin rule across the table (@rule2 cols foot: the closing double rule);
+                         are a double and a thin rule across the table (@rule2 cols foot: the closing double rule;
+                         @rule2 cols thin: two equal thin rules);
                          @rowgap MM an empty stretch of the table that carries its rules; @brace under|over A B
                          a horizontal brace across the columns A..B between two rows; @rowsep MM an extra
                          gap after every following @row (0 ends it); @colpad A B the space before and after
@@ -926,6 +927,8 @@ def section(items, prefix, role, numbered):
             w = (f"{cols_width():.2f}mm" if toks[:1] == ["cols"] else
                  toks[0] + "mm" if toks else r"\linewidth")
             heavy, thin = r"\rule{" + w + r"}{1.2pt}", r"\rule{" + w + r"}{.4pt}"
+            if "thin" in toks:  # «thin»: two equal thin rules (p. 160)
+                heavy = thin = r"\rule{" + w + r"}{.6pt}"
             first, second = (thin, heavy) if "foot" in toks else (heavy, thin)
             out.append(r"\par" + (r"\nointerlineskip" if "foot" in toks else "") + r"\noindent" + ind + first
                        + r"\par\nointerlineskip\vspace{1pt}\noindent" + ind + second + r"\par"
