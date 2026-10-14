@@ -1,0 +1,302 @@
+{
+ "anchor": "AB01-PDF0239",
+ "master_pdf_page": 239,
+ "printed_page": 150,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "margin_locators": [
+  {
+   "line_anchor": "AB01-PDF0239-body-L009",
+   "text": "p. 226."
+  }
+ ],
+ "observations": [
+  "body: the line numbers 5 to 30 stand in the right margin and the locator «p. 226.» (L9) in the left margin; in the locator the 2s are printed blotted. The count of the lines runs through the spaces and the heads of G and H: 5 stands beside the first line of the title of G, 20 beside the head H, where only its 0 is printed.",
+  "body L1-L4, L14-L15: the heads G and H are set in a larger bold type and centred; the title of G is set in a larger type as a paragraph whose second and third lines are indented, the title of H in a larger type, centred.",
+  "body: a tailpiece closes the translation below the notes: a rule swelling into three lenses in the middle; it is redrawn from the print (figures/AB01-PDF0239-F01.tex).",
+  "body L22: the s of «respectu» is printed small and raised."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0239-body-L001",
+     "source_line_no": 3,
+     "tex": "\\CenterLine{\\textbf{G.}}",
+     "transcription": "**G.**",
+     "semantic_anchor": "AB01-PDF0239-H01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0239-body-L002",
+     "source_line_no": 5,
+     "tex": "Caput de cognoscendis ascensionibus rectis decadum graduum eclipticae,",
+     "transcription": "Caput de cognoscendis ascensionibus rectis decadum graduum eclipticae,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 5,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0239-body-L003",
+     "source_line_no": 6,
+     "tex": "\\mbox{}\\rlap{\\hspace*{7.55mm}et de sinibus harum ascensionum, ut qualibet regione ascensiones}",
+     "transcription": "et de sinibus harum ascensionum, ut qualibet regione ascensiones",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0239-body-L004",
+     "source_line_no": 7,
+     "tex": "\\mbox{}\\rlap{\\hspace*{7.55mm}signorum facile deprehendantur.}",
+     "transcription": "signorum facile deprehendantur.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0239-body-L005",
+     "source_line_no": 9,
+     "tex": "\\Indent Ascensiones rectas decimi cuiusque gradus, cum praecedentibus in unum collecti, usque",
+     "transcription": "Ascensiones rectas decimi cuiusque gradus, cum praecedentibus in unum collecti, usque",
+     "semantic_anchor": "AB01-PDF0239-P01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0239-body-L006",
+     "source_line_no": 10,
+     "tex": "ad finem 90° descripsimus, et apud eas notavimus sinus ascensionum (1). Cum ascensiones co-",
+     "transcription": "ad finem 90° descripsimus, et apud eas notavimus sinus ascensionum (1). Cum ascensiones co-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 10,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0239-body-L007",
+     "source_line_no": 11,
+     "tex": "gnoscere velis, ut in parte anteriore libri [cap. XIII] ostendimus operare: sinum dimidii in-",
+     "transcription": "gnoscere velis, ut in parte anteriore libri [cap. XIII] ostendimus operare: sinum dimidii in-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0239-body-L008",
+     "source_line_no": 12,
+     "tex": "crementi diei longissimi in ea urbe cognosce, eumque multiplica in sinus harum decadum",
+     "transcription": "crementi diei longissimi in ea urbe cognosce, eumque multiplica in sinus harum decadum",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0239-body-L009",
+     "source_line_no": 13,
+     "tex": "apud ipsas descriptos; productum in arcum converte; arcus erit argumentum diversitatis diei",
+     "transcription": "apud ipsas descriptos; productum in arcum converte; arcus erit argumentum diversitatis diei",
+     "semantic_anchor": null,
+     "margin_locator": "p. 226.",
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0239-body-L010",
+     "source_line_no": 14,
+     "tex": "quod ad decades collectas pertinet. — Id in tabula posuimus ad omnia signa cum intervallo",
+     "transcription": "quod ad decades collectas pertinet. — Id in tabula posuimus ad omnia signa cum intervallo",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0239-body-L011",
+     "source_line_no": 15,
+     "tex": "decem graduum; nam hoc sufficit ad necessariam cognitionem ascensionum in ea urbe et in",
+     "transcription": "decem graduum; nam hoc sufficit ad necessariam cognitionem ascensionum in ea urbe et in",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 15,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0239-body-L012",
+     "source_line_no": 16,
+     "tex": "regionibus eiusdem latitudinis. Hoc deprehenditur e parva tabella posita sub quadrato ordinum",
+     "transcription": "regionibus eiusdem latitudinis. Hoc deprehenditur e parva tabella posita sub quadrato ordinum",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0239-body-L013",
+     "source_line_no": 17,
+     "tex": "declinationis signorum.",
+     "transcription": "declinationis signorum.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0239-body-L014",
+     "source_line_no": 20,
+     "tex": "\\CenterLine{\\textbf{H.}}",
+     "transcription": "**H.**",
+     "semantic_anchor": "AB01-PDF0239-H14",
+     "margin_locator": null,
+     "printed_line_number": 20,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0239-body-L015",
+     "source_line_no": 22,
+     "tex": "\\CenterLine{Caput [de motu synodico Lunae].}",
+     "transcription": "Caput [de motu synodico Lunae].",
+     "semantic_anchor": "AB01-PDF0239-H15",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0239-body-L016",
+     "source_line_no": 24,
+     "tex": "\\Indent Si vis motum horarium inaequalem Lunae ad supputandas syzygias cognoscere, praeci-",
+     "transcription": "Si vis motum horarium inaequalem Lunae ad supputandas syzygias cognoscere, praeci-",
+     "semantic_anchor": "AB01-PDF0239-P02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0239-body-L017",
+     "source_line_no": 25,
+     "tex": "sam (2) differentiam [longitudinis] inter Solem et Lunam accipe, et inveni quod ei respondet ex",
+     "transcription": "sam (2) differentiam [longitudinis] inter Solem et Lunam accipe, et inveni quod ei respondet ex",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 25,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0239-body-L018",
+     "source_line_no": 26,
+     "tex": "motu horario Lunae in columnis incrementi et decrementi (3); ipsum ad singulos gradus des-",
+     "transcription": "motu horario Lunae in columnis incrementi et decrementi (3); ipsum ad singulos gradus des-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0239-body-L019",
+     "source_line_no": 27,
+     "tex": "cribitur. Minuta de motu horario inaequali Lunae deme, si anomalia aequata Lunae, cuius",
+     "transcription": "cribitur. Minuta de motu horario inaequali Lunae deme, si anomalia aequata Lunae, cuius",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0239-body-L020",
+     "source_line_no": 28,
+     "tex": "iter horarium cognovisti, a 0° ad 95° vel a 265° ad 360° est; sed minuta adde motui illi, cum",
+     "transcription": "iter horarium cognovisti, a 0° ad 95° vel a 265° ad 360° est; sed minuta adde motui illi, cum",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0239-body-L021",
+     "source_line_no": 29,
+     "tex": "anomalia aequata a 95° ad 265° sit. Exibit iter definitum, de quo motum horarium Solis deme;",
+     "transcription": "anomalia aequata a 95° ad 265° sit. Exibit iter definitum, de quo motum horarium Solis deme;",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0239-body-L022",
+     "source_line_no": 30,
+     "tex": "remanet praecessio Lunae [respectu Solis] (4) (\\textbf{\\textit{a}}).",
+     "transcription": "remanet praecessio Lunae [respectu Solis] (4) ({bi:a}).",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 30,
+     "source_role": "NALLINO_TRANSLATION"
+    }
+   ]
+  },
+  {
+   "role": "notes_left",
+   "lines": [
+    {
+     "id": "AB01-PDF0239-notes_left-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (1) Fol. 178,r.",
+     "transcription": "(1) Fol. 178,r.",
+     "semantic_anchor": "AB01-PDF0239-N01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0239-notes_left-L002",
+     "source_line_no": null,
+     "tex": "\\Indent (2) Cfr. pag. 110, adn. 7.",
+     "transcription": "(2) Cfr. pag. 110, adn. 7.",
+     "semantic_anchor": "AB01-PDF0239-N02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  },
+  {
+   "role": "notes_right",
+   "lines": [
+    {
+     "id": "AB01-PDF0239-notes_right-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (3) Fol. 194,v.",
+     "transcription": "(3) Fol. 194,v.",
+     "semantic_anchor": "AB01-PDF0239-N03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0239-notes_right-L002",
+     "source_line_no": null,
+     "tex": "\\Indent (4) I. e. motus synodicus Lunae.",
+     "transcription": "(4) I. e. motus synodicus Lunae.",
+     "semantic_anchor": "AB01-PDF0239-N04",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  }
+ ],
+ "tailpiece": "[ornament, redrawn: figures/AB01-PDF0239-F01.tex]"
+}
