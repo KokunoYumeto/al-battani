@@ -1,0 +1,526 @@
+{
+ "anchor": "AB01-PDF0181",
+ "master_pdf_page": 181,
+ "printed_page": 92,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "margin_locators": [
+  {
+   "line_anchor": "AB01-PDF0181-body-L012",
+   "text": "p. 139."
+  }
+ ],
+ "observations": [
+  "body: the line numbers 5 to 35 stand in the right margin and the locator «p. 139.» (L12) in the left margin. The count of the lines runs through the spaces and the head of chapter 42: 10 stands beside the first line of the title.",
+  "body L7-L9: the head of the chapter is set in a larger type and centred; the title is in two lines.",
+  "body L4: a speck stands at mid height after «locis»; it is not a sign.",
+  "body L11: in «subāṭ» the dot under the t is printed joined to the foot of the letter.",
+  "body L11, L36: «’l–qarnayn» and «’l–qar-» are printed with a dash longer than the hyphens of the page (5.6 and 6.0 pt against 2.8 to 3.6 pt).",
+  "body L21, L28: the o of «Romanorum» and of «Romanos» is printed thin, its sides as broken strokes.",
+  "notes_left L4: the day of «I ādhār» is printed as a capital I, without the flag that the figure 1 has in the notes (in the number of note 1 and in the folio of note 2); kept as printed.",
+  "notes_left L6, notes_right L6: the letters of «adn. a» and «adn. b» are bold italic.",
+  "notes_right L6: a short low stroke stands between «cfr.» and «adn.»; it is not a sign."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0181-body-L001",
+     "source_line_no": 1,
+     "tex": "M et K, transibit; MG fiet una linea recta; et observator a loco M vel K Lunam novam",
+     "transcription": "M et K, transibit; MG fiet una linea recta; et observator a loco M vel K Lunam novam",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0181-body-L002",
+     "source_line_no": 2,
+     "tex": "per illam notam in directione lineae KG procul dubio videbit, si aer clarus et purus fuerit.",
+     "transcription": "per illam notam in directione lineae KG procul dubio videbit, si aer clarus et purus fuerit.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0181-body-L003",
+     "source_line_no": 3,
+     "tex": "Aer autem mutabilis turbidusque visionem Lunae in ea regione impediet, et Luna fortasse in",
+     "transcription": "Aer autem mutabilis turbidusque visionem Lunae in ea regione impediet, et Luna fortasse in",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0181-body-L004",
+     "source_line_no": 4,
+     "tex": "aliis locis eiusdem latitudinis apparebit, cum necesse non sit ubicumque aerem turbidum esse.",
+     "transcription": "aliis locis eiusdem latitudinis apparebit, cum necesse non sit ubicumque aerem turbidum esse.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0181-body-L005",
+     "source_line_no": 5,
+     "tex": "Qua re etiam fieri potest ut Luna nova, in urbe invisibilis, in pagis prope urbem conspici",
+     "transcription": "Qua re etiam fieri potest ut Luna nova, in urbe invisibilis, in pagis prope urbem conspici",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 5,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0181-body-L006",
+     "source_line_no": 6,
+     "tex": "possit.",
+     "transcription": "possit.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0181-body-L007",
+     "source_line_no": 8,
+     "tex": "\\CenterLine{CAPUT XLII.}",
+     "transcription": "CAPUT XLII.",
+     "semantic_anchor": "AB01-PDF0181-H07",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0181-body-L008",
+     "source_line_no": 10,
+     "tex": "\\CenterLine{De syzygiarum calculo quolibet Terrae loco ad aeram Romanorum}",
+     "transcription": "De syzygiarum calculo quolibet Terrae loco ad aeram Romanorum",
+     "semantic_anchor": "AB01-PDF0181-H08",
+     "margin_locator": null,
+     "printed_line_number": 10,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0181-body-L009",
+     "source_line_no": 11,
+     "tex": "\\CenterLine{et aeram Coptorum.}",
+     "transcription": "et aeram Coptorum.",
+     "semantic_anchor": "AB01-PDF0181-H09",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0181-body-L010",
+     "source_line_no": 13,
+     "tex": "\\Indent Dicit [auctor]: Si coniunctiones et oppositiones quolibet mense Romano supputare vis,",
+     "transcription": "Dicit [auctor]: Si coniunctiones et oppositiones quolibet mense Romano supputare vis,",
+     "semantic_anchor": "AB01-PDF0181-P01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0181-body-L011",
+     "source_line_no": 14,
+     "tex": "annos a Dhū ’l–qarnayn sume, annum in quo es non numerans nisi subāṭ [i. e. Februarius]",
+     "transcription": "annos a Dhū ’l–qarnayn sume, annum in quo es non numerans nisi subāṭ [i. e. Februarius]",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0181-body-L012",
+     "source_line_no": 15,
+     "tex": "praeterierit (1); numerum inventum in columna annorum collectorum [ab aera], in tabulis",
+     "transcription": "praeterierit (1); numerum inventum in columna annorum collectorum [ab aera], in tabulis",
+     "semantic_anchor": null,
+     "margin_locator": "p. 139.",
+     "printed_line_number": 15,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0181-body-L013",
+     "source_line_no": 16,
+     "tex": "coniunctionum aut oppositionum (2), prout alterutram vis, quaere; et si numerus tuo aequalis",
+     "transcription": "coniunctionum aut oppositionum (2), prout alterutram vis, quaere; et si numerus tuo aequalis",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0181-body-L014",
+     "source_line_no": 17,
+     "tex": "ibi non reperiatur, numerum statim in tabula inferiorem sume. Postea quod respondet in qua-",
+     "transcription": "ibi non reperiatur, numerum statim in tabula inferiorem sume. Postea quod respondet in qua-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0181-body-L015",
+     "source_line_no": 18,
+     "tex": "tuor columnis dierum, motus medii Solis Lunaeque, anomaliae Lunae, et motus latitudinis,",
+     "transcription": "tuor columnis dierum, motus medii Solis Lunaeque, anomaliae Lunae, et motus latitudinis,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0181-body-L016",
+     "source_line_no": 19,
+     "tex": "nota. Quo facto, si tibi remanent anni, praeter eos quos in tabula reperisti, eos in columna",
+     "transcription": "nota. Quo facto, si tibi remanent anni, praeter eos quos in tabula reperisti, eos in columna",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0181-body-L017",
+     "source_line_no": 20,
+     "tex": "annorum singulorum quaere; et quod in quatuor reliquis columnis respondet, ordinatim sub",
+     "transcription": "annorum singulorum quaere; et quod in quatuor reliquis columnis respondet, ordinatim sub",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 20,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0181-body-L018",
+     "source_line_no": 21,
+     "tex": "numeris similibus antea inventis scribe. Deinde e diebus mensis lunaris, qui in prima quatuor",
+     "transcription": "numeris similibus antea inventis scribe. Deinde e diebus mensis lunaris, qui in prima quatuor",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0181-body-L019",
+     "source_line_no": 22,
+     "tex": "columnarum [in tabula mensium] descripti sunt, id accipe quod respondet mensi integro prae-",
+     "transcription": "columnarum [in tabula mensium] descripti sunt, id accipe quod respondet mensi integro prae-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0181-body-L020",
+     "source_line_no": 23,
+     "tex": "cedenti mensem in quo calculus ducitur; idque adde diebus qui ex annis collectis et singulis",
+     "transcription": "cedenti mensem in quo calculus ducitur; idque adde diebus qui ex annis collectis et singulis",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0181-body-L021",
+     "source_line_no": 24,
+     "tex": "iam provenerant. Si summa excedit dies mensium Romanorum sub eo integro mense descri-",
+     "transcription": "iam provenerant. Si summa excedit dies mensium Romanorum sub eo integro mense descri-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0181-body-L022",
+     "source_line_no": 25,
+     "tex": "ptos, sed minor est quam dies indicati sub mense in quo calculus ducitur, sume dies mensi",
+     "transcription": "ptos, sed minor est quam dies indicati sub mense in quo calculus ducitur, sume dies mensi",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 25,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0181-body-L023",
+     "source_line_no": 26,
+     "tex": "integro [mensem tuum praecedenti] respondentes, et quod sub iis in tribus reliquis columnis",
+     "transcription": "integro [mensem tuum praecedenti] respondentes, et quod sub iis in tribus reliquis columnis",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0181-body-L024",
+     "source_line_no": 27,
+     "tex": "invenitur nota. Si autem dierum summa excedit dies Romanos sub mense in quo calculum",
+     "transcription": "invenitur nota. Si autem dierum summa excedit dies Romanos sub mense in quo calculum",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0181-body-L025",
+     "source_line_no": 28,
+     "tex": "ducis notatos, sume dies mensis qui mensem integrum praecedit, et quod in tribus residuis",
+     "transcription": "ducis notatos, sume dies mensis qui mensem integrum praecedit, et quod in tribus residuis",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0181-body-L026",
+     "source_line_no": 29,
+     "tex": "columnis respondet, ordinatim scribe sub numeris qui e tabulis annorum singulorum et colle-",
+     "transcription": "columnis respondet, ordinatim scribe sub numeris qui e tabulis annorum singulorum et colle-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0181-body-L027",
+     "source_line_no": 30,
+     "tex": "ctorum provenerant. Numeros repertos in quatuor summas, pro quatuor columnis, collige.",
+     "transcription": "ctorum provenerant. Numeros repertos in quatuor summas, pro quatuor columnis, collige.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 30,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0181-body-L028",
+     "source_line_no": 31,
+     "tex": "Postea dies Romanos respondentes mensi integro qui mensem calculi praecedit, deme de summa",
+     "transcription": "Postea dies Romanos respondentes mensi integro qui mensem calculi praecedit, deme de summa",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0181-body-L029",
+     "source_line_no": 32,
+     "tex": "dierum provenientium e tribus tabulis annorum collectorum, annorum singulorum, et men-",
+     "transcription": "dierum provenientium e tribus tabulis annorum collectorum, annorum singulorum, et men-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0181-body-L030",
+     "source_line_no": 33,
+     "tex": "sium; dies et minuta residua sunt dies elapsi e mense in quo calculum ducis, et horae aequi-",
+     "transcription": "sium; dies et minuta residua sunt dies elapsi e mense in quo calculum ducis, et horae aequi-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0181-body-L031",
+     "source_line_no": 34,
+     "tex": "noctiales post meridiem diei praeteriti usque ad tempus coniunctionis aut oppositionis, iuxta",
+     "transcription": "noctiales post meridiem diei praeteriti usque ad tempus coniunctionis aut oppositionis, iuxta",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0181-body-L032",
+     "source_line_no": 35,
+     "tex": "motus medios Solis et Lunae. [Ex tribus reliquis columnis autem proveniunt locus Solis et",
+     "transcription": "motus medios Solis et Lunae. [Ex tribus reliquis columnis autem proveniunt locus Solis et",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 35,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0181-body-L033",
+     "source_line_no": 36,
+     "tex": "Lunae, iuxta ipsorum motus medios] (3), anomalia Lunae, et motus in latitudine. [Lunae mo-",
+     "transcription": "Lunae, iuxta ipsorum motus medios] (3), anomalia Lunae, et motus in latitudine. [Lunae mo-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0181-body-L034",
+     "source_line_no": 37,
+     "tex": "tus medius] idem est ac motus medius Solis tempore [coniunctionis; tempore autem] opposi-",
+     "transcription": "tus medius] idem est ac motus medius Solis tempore [coniunctionis; tempore autem] opposi-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0181-body-L035",
+     "source_line_no": 38,
+     "tex": "tionis necessarie Lunae motus medius erit motui [i. e. loco] medio Solis oppositus.",
+     "transcription": "tionis necessarie Lunae motus medius erit motui [i. e. loco] medio Solis oppositus.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0181-body-L036",
+     "source_line_no": 39,
+     "tex": "\\Indent Si coniunctiones et oppositiones vis ad aeram Coptorum (4) supputare, annos a Dhū ’l–qar-",
+     "transcription": "Si coniunctiones et oppositiones vis ad aeram Coptorum (4) supputare, annos a Dhū ’l–qar-",
+     "semantic_anchor": "AB01-PDF0181-P02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    }
+   ]
+  },
+  {
+   "role": "notes_left",
+   "lines": [
+    {
+     "id": "AB01-PDF0181-notes_left-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (1) Ad incommodum vitandum quod distinctio",
+     "transcription": "(1) Ad incommodum vitandum quod distinctio",
+     "semantic_anchor": "AB01-PDF0181-N01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0181-notes_left-L002",
+     "source_line_no": null,
+     "tex": "annorum communium et bisextilium calculis infert,",
+     "transcription": "annorum communium et bisextilium calculis infert,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0181-notes_left-L003",
+     "source_line_no": null,
+     "tex": "epochae motuum Solis, Lunae et planetarum ad an-",
+     "transcription": "epochae motuum Solis, Lunae et planetarum ad an-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0181-notes_left-L004",
+     "source_line_no": null,
+     "tex": "num fictum referuntur, qui die I ādhār (Martii) prae-",
+     "transcription": "num fictum referuntur, qui die I ādhār (Martii) prae-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0181-notes_left-L005",
+     "source_line_no": null,
+     "tex": "cedentis mensem aylūl (Septembrem) anni dati in-",
+     "transcription": "cedentis mensem aylūl (Septembrem) anni dati in-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0181-notes_left-L006",
+     "source_line_no": null,
+     "tex": "cipit. Vide adn. \\textbf{\\textit{a}} ad cap. XXXIII.",
+     "transcription": "cipit. Vide adn. {bi:a} ad cap. XXXIII.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  },
+  {
+   "role": "notes_right",
+   "lines": [
+    {
+     "id": "AB01-PDF0181-notes_right-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (2) Fol. 192,v. et seqq.",
+     "transcription": "(2) Fol. 192,v. et seqq.",
+     "semantic_anchor": "AB01-PDF0181-N02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0181-notes_right-L002",
+     "source_line_no": null,
+     "tex": "\\Indent (3) Addidi, Platonem sequens. Quae statim in-",
+     "transcription": "(3) Addidi, Platonem sequens. Quae statim in-",
+     "semantic_anchor": "AB01-PDF0181-N03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0181-notes_right-L003",
+     "source_line_no": null,
+     "tex": "fra supplevi, Plato quoque non habet.",
+     "transcription": "fra supplevi, Plato quoque non habet.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0181-notes_right-L004",
+     "source_line_no": null,
+     "tex": "\\Indent (4) Est aera Augusti vel Alexandrina, quam",
+     "transcription": "(4) Est aera Augusti vel Alexandrina, quam",
+     "semantic_anchor": "AB01-PDF0181-N04",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0181-notes_right-L005",
+     "source_line_no": null,
+     "tex": "al-Battānī incipit a 29 Aug. anni 25 ante Chr. n.;",
+     "transcription": "al-Battānī incipit a 29 Aug. anni 25 ante Chr. n.;",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0181-notes_right-L006",
+     "source_line_no": null,
+     "tex": "cfr. adn. \\textbf{\\textit{b}} ad cap. XXXII, et pag. 69 (adn. 3).",
+     "transcription": "cfr. adn. {bi:b} ad cap. XXXII, et pag. 69 (adn. 3).",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  }
+ ]
+}
