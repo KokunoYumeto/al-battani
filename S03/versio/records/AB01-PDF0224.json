@@ -1,0 +1,520 @@
+{
+ "anchor": "AB01-PDF0224",
+ "master_pdf_page": 224,
+ "printed_page": 135,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "margin_locators": [
+  {
+   "line_anchor": "AB01-PDF0224-body-L021",
+   "text": "p. 204"
+  }
+ ],
+ "observations": [
+  "body: the line numbers 5 to 40 stand in the left margin and the locator «p. 204» (L21) in the right margin; the locator is printed without the point after the number. In the line numbers 30 and 40 the 0 is printed broken. The count of the lines runs through the spaces and the head of chapter 56: 5 stands beside the second line of the title, 10 beside L7.",
+  "body L1-L4: the head of the chapter is set in a larger type; «CAPUT LVI.» is centred, the title is set as a paragraph of three lines, the second and the third indented.",
+  "body L2-L3: the word marmore is set between a raised opening mark “ and a low closing mark „; kept as printed.",
+  "body L2: a speck stands under the line, below the ā of «rukhāmah»; it is not a sign.",
+  "body L19: a short slanting speck stands after «divisio», at the height of the tops of the letters, like a grave accent; it is not a sign.",
+  "body L24: the second s of «versus» is printed broken, like ε.",
+  "notes_right L1: the semicolon after the closing » is printed raised, at the top of the line.",
+  "notes_right L4: «al-Battānī» is printed with macrons over the a and the i; the hyphen of «mi-» is printed short and round, like a point.",
+  "body L1: a small speck stands after «CAPUT LVI.»; it is not a sign.",
+  "body L2-L4: the hyphens of «ar-rukhāmah», «mar-» and «cogno-» are of one length (3.96 pt).",
+  "notes_left L2, notes_right L4: the hyphens of «ar-Raqqah» (3.4 pt) and «al-Battānī» (3.5 pt) are a little longer than the hyphens at the ends of the lines of the notes (2.5–2.6 pt); they are kept as hyphens.",
+  "notes_left L4: the opening « before «Tabulam» is printed as one blotted angle.",
+  "notes_right L4: a speck stands at the foot of the m of «mi-»; it is not a sign."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0224-body-L001",
+     "source_line_no": 2,
+     "tex": "\\CenterLine{CAPUT LVI.}",
+     "transcription": "CAPUT LVI.",
+     "semantic_anchor": "AB01-PDF0224-H01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0224-body-L002",
+     "source_line_no": 4,
+     "tex": "De conficiendo sive strato sive erecto instrumento, \\textit{ar-rukhāmah} “ mar-",
+     "transcription": "De conficiendo sive strato sive erecto instrumento, *ar-rukhāmah* “ mar-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0224-body-L003",
+     "source_line_no": 5,
+     "tex": "\\mbox{}\\rlap{\\hspace*{7.55mm}more „ appellato, quo horae temporales diei quolibet loco cogno-}",
+     "transcription": "more „ appellato, quo horae temporales diei quolibet loco cogno-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 5,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0224-body-L004",
+     "source_line_no": 6,
+     "tex": "\\mbox{}\\rlap{\\hspace*{7.55mm}scuntur.}",
+     "transcription": "scuntur.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0224-body-L005",
+     "source_line_no": 8,
+     "tex": "\\Indent Dicit [auctor]: Si horas temporales diei ab ortu ad occasum Solis e superficie umbrae",
+     "transcription": "Dicit [auctor]: Si horas temporales diei ab ortu ad occasum Solis e superficie umbrae",
+     "semantic_anchor": "AB01-PDF0224-P01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0224-body-L006",
+     "source_line_no": 9,
+     "tex": "solaris in instrumento [ad terram] strato cognoscere vis, tabulam marmoream aut cupream,",
+     "transcription": "solaris in instrumento [ad terram] strato cognoscere vis, tabulam marmoream aut cupream,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0224-body-L007",
+     "source_line_no": 10,
+     "tex": "aequalis et laevigatae superficiei, cuiuslibet magnitudinis sume; optima proportio habetur cum",
+     "transcription": "aequalis et laevigatae superficiei, cuiuslibet magnitudinis sume; optima proportio habetur cum",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 10,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0224-body-L008",
+     "source_line_no": 11,
+     "tex": "latitudo sit $\\qfrac{2}{3}$ longitudinis. In linea dimidiae longitudinis, ad $\\qfrac{2}{3}$ latitudinis, punctum nota, et",
+     "transcription": "latitudo sit {sfrac:2/3} longitudinis. In linea dimidiae longitudinis, ad {sfrac:2/3} latitudinis, punctum nota, et",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0224-body-L009",
+     "source_line_no": 12,
+     "tex": "circa id quavis semidiametro circulum describe; circulum autem duabus lineis rectis se in centro",
+     "transcription": "circa id quavis semidiametro circulum describe; circulum autem duabus lineis rectis se in centro",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0224-body-L010",
+     "source_line_no": 13,
+     "tex": "ad angulos rectos mutuo secantibus in quatuor partes aequales divide; et in singulis quadran-",
+     "transcription": "ad angulos rectos mutuo secantibus in quatuor partes aequales divide; et in singulis quadran-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0224-body-L011",
+     "source_line_no": 14,
+     "tex": "tibus 90 gradus signa cum intervallo unius gradus vel amplius, prout magnitudo vel angustia",
+     "transcription": "tibus 90 gradus signa cum intervallo unius gradus vel amplius, prout magnitudo vel angustia",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0224-body-L012",
+     "source_line_no": 15,
+     "tex": "circuli concedit. Postea umbram initii Cancri et initii Capricorni ad unam, duas, tres, qua-",
+     "transcription": "circuli concedit. Postea umbram initii Cancri et initii Capricorni ad unam, duas, tres, qua-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 15,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0224-body-L013",
+     "source_line_no": 16,
+     "tex": "tuor, quinque et sex horas temporarias, nec non directionem umbrae cuiusque harum horarum",
+     "transcription": "tuor, quinque et sex horas temporarias, nec non directionem umbrae cuiusque harum horarum",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0224-body-L014",
+     "source_line_no": 17,
+     "tex": "in circulo horizontis cognosce, iis modis quos in anteriore parte libri, in capite de cognitione",
+     "transcription": "in circulo horizontis cognosce, iis modis quos in anteriore parte libri, in capite de cognitione",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0224-body-L015",
+     "source_line_no": 18,
+     "tex": "azimuth umbrae et altitudinis ad singulos gradus eclipticae quocumque loco [cap. XI], tibi",
+     "transcription": "azimuth umbrae et altitudinis ad singulos gradus eclipticae quocumque loco [cap. XI], tibi",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0224-body-L016",
+     "source_line_no": 19,
+     "tex": "ostendimus. Idest altitudines omnium horarum cognosce, et ex iis umbras atque azimuth modo",
+     "transcription": "ostendimus. Idest altitudines omnium horarum cognosce, et ex iis umbras atque azimuth modo",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0224-body-L017",
+     "source_line_no": 20,
+     "tex": "memorato deprehende (1); postea regulam rectam sume, cuius superficies in partes aequales",
+     "transcription": "memorato deprehende (1); postea regulam rectam sume, cuius superficies in partes aequales",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 20,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0224-body-L018",
+     "source_line_no": 21,
+     "tex": "divisa sit ita ut partes superent aut saltem aequent numerum umbrae initii Capricorni. Pun-",
+     "transcription": "divisa sit ita ut partes superent aut saltem aequent numerum umbrae initii Capricorni. Pun-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0224-body-L019",
+     "source_line_no": 22,
+     "tex": "ctum a quo divisio regulae incipit in centro circuli pone, et latus regulae in directione um-",
+     "transcription": "ctum a quo divisio regulae incipit in centro circuli pone, et latus regulae in directione um-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0224-body-L020",
+     "source_line_no": 23,
+     "tex": "brae unius horae Capricorni, versus ampliorem marmoris partem; gradus azimuth in circum-",
+     "transcription": "brae unius horae Capricorni, versus ampliorem marmoris partem; gradus azimuth in circum-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0224-body-L021",
+     "source_line_no": 24,
+     "tex": "ferentia a puncto orientis incipiens numera, et gradus regulae a centro iuxta longitudinem",
+     "transcription": "ferentia a puncto orientis incipiens numera, et gradus regulae a centro iuxta longitudinem",
+     "semantic_anchor": null,
+     "margin_locator": "p. 204",
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0224-body-L022",
+     "source_line_no": 25,
+     "tex": "umbrae unius horae; quo pervenies, ibi punctum nota, quod erit signum umbrae primae ho-",
+     "transcription": "umbrae unius horae; quo pervenies, ibi punctum nota, quod erit signum umbrae primae ho-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 25,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0224-body-L023",
+     "source_line_no": 26,
+     "tex": "rae. Similiter signa umbrarum et azimuth ad reliquas quinque horas pone; et umbrae locum",
+     "transcription": "rae. Similiter signa umbrarum et azimuth ad reliquas quinque horas pone; et umbrae locum",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0224-body-L024",
+     "source_line_no": 27,
+     "tex": "in marmore nota in linea septentrionum et austri ad partem ampliorem tabulae versus, sci-",
+     "transcription": "in marmore nota in linea septentrionum et austri ad partem ampliorem tabulae versus, sci-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0224-body-L025",
+     "source_line_no": 28,
+     "tex": "licet in linea meridiana. Quo facto, regulam ad alterum quadrantem prope lineam meri-",
+     "transcription": "licet in linea meridiana. Quo facto, regulam ad alterum quadrantem prope lineam meri-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0224-body-L026",
+     "source_line_no": 29,
+     "tex": "dianam verte; in eo ut nuper fecisti operare, et hoc modo umbras quinque horarum initii",
+     "transcription": "dianam verte; in eo ut nuper fecisti operare, et hoc modo umbras quinque horarum initii",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0224-body-L027",
+     "source_line_no": 30,
+     "tex": "Capricorni signaveris ab utraque parte lineae meridianae, nempe ad ortum et occasum versus,",
+     "transcription": "Capricorni signaveris ab utraque parte lineae meridianae, nempe ad ortum et occasum versus,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 30,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0224-body-L028",
+     "source_line_no": 31,
+     "tex": "in portione ampliore tabulae.",
+     "transcription": "in portione ampliore tabulae.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0224-body-L029",
+     "source_line_no": 32,
+     "tex": "\\Indent Eodem modo directiones horarum Cancri, in angustiore parte tabulae, ab utroque lineae",
+     "transcription": "Eodem modo directiones horarum Cancri, in angustiore parte tabulae, ab utroque lineae",
+     "semantic_anchor": "AB01-PDF0224-P02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0224-body-L030",
+     "source_line_no": 33,
+     "tex": "meridianae latere signa, ita ut finis sextae horae in lineam meridianam incidat. Manifeste",
+     "transcription": "meridianae latere signa, ita ut finis sextae horae in lineam meridianam incidat. Manifeste",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0224-body-L031",
+     "source_line_no": 34,
+     "tex": "directio erit in parte angustiore tabulae, respectu lineae ortus et occasus, cum fuerit borealis;",
+     "transcription": "directio erit in parte angustiore tabulae, respectu lineae ortus et occasus, cum fuerit borealis;",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0224-body-L032",
+     "source_line_no": 35,
+     "tex": "at in parte ampliore, cum fuerit australis. Puncta horarum Cancri cum punctis respondentibus",
+     "transcription": "at in parte ampliore, cum fuerit australis. Puncta horarum Cancri cum punctis respondentibus",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 35,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0224-body-L033",
+     "source_line_no": 36,
+     "tex": "horarum Capricorni coniunge lineis rectis, scilicet primam horam Cancri cum prima Capri-",
+     "transcription": "horarum Capricorni coniunge lineis rectis, scilicet primam horam Cancri cum prima Capri-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0224-body-L034",
+     "source_line_no": 37,
+     "tex": "corni, secundam cum secunda etc. Item puncta horarum Cancri cum alteris Cancri, et puncta",
+     "transcription": "corni, secundam cum secunda etc. Item puncta horarum Cancri cum alteris Cancri, et puncta",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0224-body-L035",
+     "source_line_no": 38,
+     "tex": "horarum Capricorni cum aliis Capricorni coniunge lineis in tabula signatis, quae, ab utraque",
+     "transcription": "horarum Capricorni cum aliis Capricorni coniunge lineis in tabula signatis, quae, ab utraque",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0224-body-L036",
+     "source_line_no": 39,
+     "tex": "parte, a puncto primae horae ad horam sextam, in linea meridiana signatam, perveniant, et",
+     "transcription": "parte, a puncto primae horae ad horam sextam, in linea meridiana signatam, perveniant, et",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0224-body-L037",
+     "source_line_no": 40,
+     "tex": "definiant locum marmoris quam umbra nunquam praetergreditur.",
+     "transcription": "definiant locum marmoris quam umbra nunquam praetergreditur.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 40,
+     "source_role": "NALLINO_TRANSLATION"
+    }
+   ]
+  },
+  {
+   "role": "notes_left",
+   "lines": [
+    {
+     "id": "AB01-PDF0224-notes_left-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (1) Longitudines et azimuth harum umbrarum",
+     "transcription": "(1) Longitudines et azimuth harum umbrarum",
+     "semantic_anchor": "AB01-PDF0224-N01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0224-notes_left-L002",
+     "source_line_no": null,
+     "tex": "ad latitudinem urbis ar-Raqqah iam supputata, exhi-",
+     "transcription": "ad latitudinem urbis ar-Raqqah iam supputata, exhi-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0224-notes_left-L003",
+     "source_line_no": null,
+     "tex": "bentur in tabula fol. 240,r. — In fine capitis Plato",
+     "transcription": "bentur in tabula fol. 240,r. — In fine capitis Plato",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0224-notes_left-L004",
+     "source_line_no": null,
+     "tex": "habet: « Tabulam etiam ad zenith [i. e. azimuth]",
+     "transcription": "habet: « Tabulam etiam ad zenith [i. e. azimuth]",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0224-notes_left-L005",
+     "source_line_no": null,
+     "tex": "« horarum Capricorni et Cancri, et ad earum um-",
+     "transcription": "« horarum Capricorni et Cancri, et ad earum um-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  },
+  {
+   "role": "notes_right",
+   "lines": [
+    {
+     "id": "AB01-PDF0224-notes_right-L001",
+     "source_line_no": null,
+     "tex": "« bras in latitudine triginta sex graduum facimus »;",
+     "transcription": "« bras in latitudine triginta sex graduum facimus »;",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0224-notes_right-L002",
+     "source_line_no": null,
+     "tex": "sequuntur duae tabellae ad latitudinem 36° et ad",
+     "transcription": "sequuntur duae tabellae ad latitudinem 36° et ad",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0224-notes_right-L003",
+     "source_line_no": null,
+     "tex": "latitudinem 38°, quae ab aliquo Platonis lectore sup-",
+     "transcription": "latitudinem 38°, quae ab aliquo Platonis lectore sup-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0224-notes_right-L004",
+     "source_line_no": null,
+     "tex": "putata esse videntur, et cum tabula al-Battānī mi-",
+     "transcription": "putata esse videntur, et cum tabula al-Battānī mi-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0224-notes_right-L005",
+     "source_line_no": null,
+     "tex": "nime conveniunt.",
+     "transcription": "nime conveniunt.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  }
+ ]
+}
