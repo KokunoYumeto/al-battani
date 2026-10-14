@@ -1,0 +1,221 @@
+{
+ "pdf": 179,
+ "printed_page": 90,
+ "comment": [
+  "Nallino, Part I p. 90: the figure of the new Moon, redrawn from the print: the disc of the Sun ABCD",
+  "(centre E) and the equal disc of the Moon (centre F), the diameters AC and BD, the line MS, the",
+  "line HK produced to L, the line through F, E and G to T, and the line PQ through the intersections",
+  "of the discs; the four quarters MERIDIES, ORIENS, OCCIDENS, SEPTENTRIONES (the first N of the last",
+  "printed reversed). Circles and lines are least-squares fits to the printed ink; coordinates are",
+  "PDF points of master page 179 less the origin (95.04, 108.06), y downward."
+ ],
+ "origin": [
+  95.04,
+  108.06
+ ],
+ "scale": 0.9894,
+ "size": [
+  296.0,
+  212.0
+ ],
+ "label_pt": 11.5,
+ "circles": [
+  {
+   "cx": 260.52,
+   "cy": 221.37,
+   "r": 77.05,
+   "w": 1.12,
+   "name": "the disc of the Sun ABCD, centre E"
+  },
+  {
+   "cx": 237.02,
+   "cy": 233.85,
+   "r": 77.06,
+   "w": 1.12,
+   "name": "the disc of the Moon, centre F (equal to the disc of the Sun)"
+  }
+ ],
+ "segments": [
+  {
+   "x0": 260.06,
+   "y0": 144.32,
+   "x1": 260.6,
+   "y1": 298.42,
+   "w": 0.9,
+   "name": "the diameter AC through E"
+  },
+  {
+   "x0": 183.47,
+   "y0": 221.44,
+   "x1": 337.57,
+   "y1": 221.39,
+   "w": 0.9,
+   "name": "the diameter BD through E (the line of the ecliptic)"
+  },
+  {
+   "x0": 235.94,
+   "y0": 148.35,
+   "x1": 237.74,
+   "y1": 294.98,
+   "w": 0.9,
+   "name": "the line MS (the arcs AM and CS equal to the distance of Sun and Moon)"
+  },
+  {
+   "x0": 105.31,
+   "y0": 234.2,
+   "x1": 336.63,
+   "y1": 233.34,
+   "w": 0.9,
+   "name": "the line HK produced to L (KL equal to EB)"
+  },
+  {
+   "x0": 168.04,
+   "y0": 268.22,
+   "x1": 329.68,
+   "y1": 187.41,
+   "w": 1.07,
+   "name": "the line through F and E to T (G where it leaves the disc of the Moon)"
+  },
+  {
+   "x0": 213.54,
+   "y0": 160.3,
+   "x1": 284.15,
+   "y1": 294.71,
+   "w": 1.07,
+   "name": "the line PQ through the intersections of the two discs"
+  }
+ ],
+ "labels": [
+  {
+   "t": "M",
+   "x0": 234.32,
+   "y0": 137.56,
+   "x1": 240.44,
+   "y1": 144.76
+  },
+  {
+   "t": "A",
+   "x0": 255.9,
+   "y0": 134.2,
+   "x1": 263.1,
+   "y1": 142.0
+  },
+  {
+   "t": "P",
+   "x0": 210.7,
+   "y0": 149.8,
+   "x1": 217.6,
+   "y1": 156.7
+  },
+  {
+   "t": "T",
+   "x0": 332.34,
+   "y0": 176.96,
+   "x1": 339.18,
+   "y1": 184.7
+  },
+  {
+   "t": "G",
+   "x0": 304.9,
+   "y0": 186.9,
+   "x1": 311.3,
+   "y1": 194.7
+  },
+  {
+   "t": "E",
+   "x0": 262.52,
+   "y0": 208.78,
+   "x1": 269.18,
+   "y1": 216.7
+  },
+  {
+   "t": "B",
+   "x0": 174.36,
+   "y0": 216.9,
+   "x1": 181.02,
+   "y1": 225.0
+  },
+  {
+   "t": "D",
+   "x0": 340.26,
+   "y0": 216.28,
+   "x1": 347.28,
+   "y1": 224.2
+  },
+  {
+   "t": "H",
+   "x0": 339.0,
+   "y0": 229.2,
+   "x1": 346.8,
+   "y1": 236.4
+  },
+  {
+   "t": "L",
+   "x0": 105.38,
+   "y0": 237.22,
+   "x1": 111.14,
+   "y1": 244.96
+  },
+  {
+   "t": "K",
+   "x0": 175.52,
+   "y0": 236.14,
+   "x1": 180.74,
+   "y1": 243.52
+  },
+  {
+   "t": "F",
+   "x0": 228.64,
+   "y0": 236.2,
+   "x1": 236.02,
+   "y1": 245.02
+  },
+  {
+   "t": "S",
+   "x0": 234.26,
+   "y0": 296.82,
+   "x1": 239.66,
+   "y1": 305.46
+  },
+  {
+   "t": "C",
+   "x0": 254.0,
+   "y0": 299.7,
+   "x1": 260.0,
+   "y1": 307.5
+  },
+  {
+   "t": "Q",
+   "x0": 283.52,
+   "y0": 295.86,
+   "x1": 289.82,
+   "y1": 305.4
+  }
+ ],
+ "words": [
+  {
+   "t": "\\resizebox{31.25pt}{5.16pt}{MERIDIES}",
+   "cx": 259.56,
+   "cy": 126.37,
+   "font": "\\fontsize{8.5}{8.5}\\sffamily\\bfseries\\selectfont"
+  },
+  {
+   "t": "\\resizebox{25.82pt}{5.70pt}{ORIENS}",
+   "cx": 158.45,
+   "cy": 222.46,
+   "font": "\\fontsize{8.5}{8.5}\\sffamily\\bfseries\\selectfont"
+  },
+  {
+   "t": "\\resizebox{36.86pt}{5.79pt}{OCCIDENS}",
+   "cx": 369.82,
+   "cy": 222.5,
+   "font": "\\fontsize{8.5}{8.5}\\sffamily\\bfseries\\selectfont"
+  },
+  {
+   "t": "\\resizebox{62.51pt}{5.52pt}{SEPTE\\reflectbox{N}TRIONES}",
+   "cx": 258.92,
+   "cy": 315.92,
+   "font": "\\fontsize{8.5}{8.5}\\sffamily\\bfseries\\selectfont"
+  }
+ ]
+}
