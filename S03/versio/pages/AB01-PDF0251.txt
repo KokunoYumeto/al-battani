@@ -1,0 +1,59 @@
+@page 251 162
+% Commentary on chapter 4, a) concluded: Naṣīr ad-dīn's eight hypotheses on a motion of the ecliptic; Quṭb ad-dīn ash-Shīrāzī finds no constant rate of decrease; the continuous decrease recognized by Ignazio Danti, Tycho Brahe and Euler; b) on p. 12, l. 27-32: the rule for the declination of a degree of the ecliptic from Ptolemy's construction by Menelaus' theorem, in chords and in sines, al-Battānī's formula sin δ = sin L sin ε / R; c) on p. 13, l. 15-18: the ascending and descending of the Sun in Theon's Canon.
+@nonum
+« aut post binos eclipticae in aequatorem casus, aut tempore secundi casus, aut inter duos
+« casus; hoc vero [triplici modo, scilicet] post dimidium circulum peractum, aut tempore dimi-
+« dii circuli exacte, aut ante semicirculum perfectum. Posset demum quoque ecliptica ad spa-
+« tium inter duos casus non pervenire, cum ea redire cogiteretur aut tempore primi sui in
+« aequatorem casus aut ante eum. Sunt ergo hypotheses octo; iuxta priores quinque binae
+« zodiaci medietates, borealis nempe et australis, inter se permutarentur simul cum proprie-
+« tatibus suis; et iuxta tres ex iis [quinque] singulae zodiaci medietates in singulas aequa-
+« toris medietates [interdum] inciderent. Iuxta priores septem hypotheses dimidia eclipticae
+« pars cum dimidia aequatoris sibi proxima conveniret; quotiescumque hoc fieret, dies noctes-
+« que omnibus Terrae locis inter se aequarentur, et variae anni partes deficerent. Iuxta au-
+« tem hypothesim ultimam [seu octavam] (1) nonnisi incrementum aut decrementum conse-
+« queretur in altitudinibus [Solis] et in longitudinibus dierum noctiumque ».
+^ {sp:Quṭb ad–dīn Maḥmūd ash–Shīrāzī}, qui mense ramaḍān 710 (Febr. 1311 Chr.) obiit,
+in sua *at–tuḥfah ash–shāhiyyah* (f. 5,v.–6,r.) dicit nullam certam decrementi proportionem
+inveniri inter diversas obliquitatis quantitates diversis temporibus dimensas.
+^ Qui historiam astronomiae scripserunt dicunt in secunda saeculi XVI Chr. medietate quos-
+dam primo continuam obliquitatis deminutionem agnovisse, ut {sp:Ignatium Danti} in suo
+*Trattato dell’Astrolabio,* Firenze 1569, licet alii multi illius aetatis eam in dubium vocavis-
+sent; {sp:Tychonem Brahe} (1546–1601) eandem e mutatis latitudinibus stellarum argumen-
+tatum esse; {sp:Eulerum} (1707–1783) demum legibus mechanicae caelestis demonstravisse.
+@vspace 5.32
+@center {bi:b}) — *Pag. 12, l. 27–32.*
+@vspace 4.35
+^ Regula ad inveniendam *Solis* vel cuiuscumque gradus eclipticae {bi:declinationem} e constru-
+ctione {sp:Ptolemaei}, *Almag.* I, 12 (ed. Halma, t. I, p. 56–58) consequitur. Sit ε obliquitas
+eclipticae, δ declinatio dati gradus, L longitudo Solis vel dati gradus; Ptolemaeus per notum
+theorema Menelai demonstrat
+@center $\dfrac{\text{chorda 180°}}{\text{chorda } 2\text{ε}} = \dfrac{\text{chorda 180°}}{\text{chorda } 2\text{δ}} \times \dfrac{\text{chorda } 2L}{\text{chorda 180°}}$.
+@vspace 0.98
+Cum chorda 180° = diametro sit (2R), si pro chordis sinus adhibeantur exit
+@vspace 0.45
+@center $\dfrac{2R}{2 \sin \text{ε}} = \dfrac{2R}{2 \sin \text{δ}} \times \dfrac{2 \sin L}{2R}$,
+@vspace 0.92
+unde formula {sp:al–Battānī}
+@center $\sin \text{δ} = \dfrac{\sin L \sin \text{ε}}{R}$ (2).
+@vspace 6.01
+@center {bi:c}) — *Pag. 13, l. 15–18.*
+@vspace 4.27
+^ Similia apud {sp:Ptolemaeum} non leguntur, sed exstant in *Canone* {sp:Theonis}, ed. Halma,
+t. I, p. 54: « Nam cum fuerit Sol inter 1° et 90° dicemus eum in Boream versus descendere
+« [sic, βοῤῥᾶν κατιέναι]; cum inter 91° et 180° ad Austrum descendere; inter 181° et 270° in
+« Austrum versus ascendere [sic, νότον ἀνιέναι]; inter 271° et 360° ad Boream ascendere ».
+@vspace 3.27
+@notes
+^ (1) Qua cum aequatore ecliptica nunquam con-
+venire censetur.
+^ (2) Radius apud Ptolemaeum et al–Battānī est
+@col
+sexaginta partium; in formulis nostris trigonome-
+tricis sumitur contra $R = 1$, qua re iuxta nostrum
+usum regula auctoris fit $\sin \text{δ} = \sin L \sin \text{ε}$.
+@obs body L4: «cogiteretur» is printed for cogitaretur; kept as printed.
+@obs body L22: «declinationem» is set in bold italic, «Solis» in italic.
+@obs body L26, L28, L30: the formulas are centred; the Greek letters ε and δ are upright, L and R italic, as printed.
+@obs body L34: the kappa of «κατιέναι» is printed in the curly form (ϰ).
+@obs body L32-L35: Nallino's addenda et emendanda (Part I, p. LXXII) add to pp. 162-163 that Theon's strange definitions are found also in the unpublished Astrologia of Vettius Valens, book II, in the chapter on the winds of the stars (περὶ ἀνέμων τῶν ἀστέρων): after Salmasius (De annis climactericis, pp. 421-422), Valens puts with the other astrologers the exaltation of the Sun in 19° of Aries, takes the square with its vertices in 19° of Aries, Cancer, Libra and Capricorn, and says that the Sun descends the north from Aries to Cancer, descends the south from Cancer to Libra, ascends the south from Libra to Capricorn and ascends the north from Capricorn to Aries, and the like of the other planets; of the Moon, whose exaltation is in 3° of Taurus, book I (Salmasius, p. 422) says the same with the square Taurus, Leo, Scorpius, Aquarius. Julianus of Laodicea (the passage cited on p. LXXI) agrees with al-Battānī's usage: the Sun, Venus and Mercury, at the longitudes 214° 8′ 50″, 231° 28′ and 224° 32′, descend to the south (κατέρχεται νότον), the Moon and Saturn, at 48° 10′ and 24° 28′, ascend to the north (ἀνέρχεται βοῤῥᾶν); Nallino takes the same words said of Jupiter (154° 12′) and Mars (137° 35′) for a corruption of the copyists.
