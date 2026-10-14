@@ -1,0 +1,621 @@
+{
+ "anchor": "AB01-PDF0246",
+ "master_pdf_page": 246,
+ "printed_page": 157,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "margin_locators": [],
+ "observations": [
+  "body L2, L4, L6: the formulas stand in the middle of the line; the minus signs are printed as long dashes and set as minus signs; the label (β) is in the type of the text.",
+  "body L8-L9: the head of the notes on chapter 4, «Ad» and «caput» in small capitals.",
+  "body L11: the second u of «Yūnus» is printed with its right stem drawn up over the line, like ú; it is not an accent.",
+  "body L15: a short upright stroke stands between the A and the b of «al-‘Ab-»; it is not a sign. The dash of «al-‘Ab-» measures 4.0 pt, between a hyphen and the longer dash of the names in the following lines; it is transcribed as a hyphen.",
+  "body L22: the Arabic words «توجــه» and «بــلاد» are printed with elongations between their letters, kept as printed.",
+  "notes_left L1, L5: of the opening parenthesis before «cuius» (L1) only the top printed; the closing parenthesis of L5 is printed broken.",
+  "notes_left L11: the hyphen of «condi-» stands low, at the foot of the line.",
+  "notes_right L3: the C of «Canonum» is printed broken, its curve and its top apart.",
+  "notes_right L11-L12: the t of «t. XX» is printed broken, like l; the opening parenthesis before «ubi» did not print, only a speck stands in its place."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0246-body-L001",
+     "source_line_no": null,
+     "tex": "\\Indent Altera vero",
+     "transcription": "Altera vero",
+     "semantic_anchor": "AB01-PDF0246-P01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0246-body-L002",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.00mm}(\\textgreek{β})}\\rlap{\\hspace*{94.00mm}\\makebox[0pt][c]{$\\sin \\dfrac{\\text{90°} - a}{2} = \\sqrt{30^{p}\\,(R - \\sin a)}$}}",
+     "transcription": "(β) $\\sin \\dfrac{\\text{90°} - a}{2} = \\sqrt{30^{p}\\,(R - \\sin a)}$",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0246-body-L003",
+     "source_line_no": null,
+     "tex": "ex \\Name{al–Battānī} et \\Name{Ptolemaei} regula, in adn. \\textbf{\\textit{a}} (pag. 153) memorata",
+     "transcription": "ex {sp:al–Battānī} et {sp:Ptolemaei} regula, in adn. {bi:a} (pag. 153) memorata",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0246-body-L004",
+     "source_line_no": null,
+     "tex": "\\CenterLine{chorda $\\dfrac{a}{2} = \\sqrt{\\dfrac{2R - \\text{chorda}\\,(\\text{180°} - a)}{2} \\times 2R}$,}",
+     "transcription": "chorda $\\dfrac{a}{2} = \\sqrt{\\dfrac{2R - \\text{chorda}\\,(\\text{180°} - a)}{2} \\times 2R}$,",
+     "semantic_anchor": "AB01-PDF0246-H04",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0246-body-L005",
+     "source_line_no": null,
+     "tex": "oritur, quae, sinibus pro chordis positis et $R = 60^{p}$ sumpto, fit",
+     "transcription": "oritur, quae, sinibus pro chordis positis et $R = 60^{p}$ sumpto, fit",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0246-body-L006",
+     "source_line_no": null,
+     "tex": "\\CenterLine{sin $\\dfrac{a}{2} = \\sqrt{30^{p}\\,(R - \\cos a)}$.}",
+     "transcription": "sin $\\dfrac{a}{2} = \\sqrt{30^{p}\\,(R - \\cos a)}$.",
+     "semantic_anchor": "AB01-PDF0246-H06",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0246-body-L007",
+     "source_line_no": null,
+     "tex": "Cur \\Name{al–Battānī} pro \\textit{a} eius complementum susceperit nescio.",
+     "transcription": "Cur {sp:al–Battānī} pro *a* eius complementum susceperit nescio.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0246-body-L008",
+     "source_line_no": null,
+     "tex": "\\CenterLine{A\\textsc{d} \\textsc{caput} IV.}",
+     "transcription": "A{sc:d} {sc:caput} IV.",
+     "semantic_anchor": "AB01-PDF0246-H08",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0246-body-L009",
+     "source_line_no": null,
+     "tex": "\\CenterLine{\\textbf{\\textit{a}}) — \\textit{Pag. 12.}}",
+     "transcription": "{bi:a}) — *Pag. 12.*",
+     "semantic_anchor": "AB01-PDF0246-H09",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0246-body-L010",
+     "source_line_no": null,
+     "tex": "\\Indent De Arabibus qui ante annum 1000 Chr. \\textit{obliquitatem eclipticae} dimensi sunt, haec \\Name{Ibn}",
+     "transcription": "De Arabibus qui ante annum 1000 Chr. *obliquitatem eclipticae* dimensi sunt, haec {sp:Ibn}",
+     "semantic_anchor": "AB01-PDF0246-P02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0246-body-L011",
+     "source_line_no": null,
+     "tex": "\\Name{Yūnus} in XI capite operis sui (1) narrat: « Inter \\Name{Ptolemaeum} et auctores \\textit{Tabulae}",
+     "transcription": "{sp:Yūnus} in XI capite operis sui (1) narrat: « Inter {sp:Ptolemaeum} et auctores *Tabulae*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0246-body-L012",
+     "source_line_no": null,
+     "tex": "« \\textit{Probatae} (\\textit{al–mumtaḥan}) observationes obliquitatis haud cognosco praeter observationem",
+     "transcription": "« *Probatae* (*al–mumtaḥan*) observationes obliquitatis haud cognosco praeter observationem",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0246-body-L013",
+     "source_line_no": null,
+     "tex": "« paulo post annum 160 hegirae [inc. 18 Oct. 776] factam (2), cuius auctor obliquitatem 23° 31′",
+     "transcription": "« paulo post annum 160 hegirae [inc. 18 Oct. 776] factam (2), cuius auctor obliquitatem 23° 31′",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0246-body-L014",
+     "source_line_no": null,
+     "tex": "« memorat. Quod vero quantitatem attinet ab auctoribus \\textit{Tabulae probatae} (3) in observatio-",
+     "transcription": "« memorat. Quod vero quantitatem attinet ab auctoribus *Tabulae probatae* (3) in observatio-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0246-body-L015",
+     "source_line_no": null,
+     "tex": "« nibus aetati nostrae vicinis repertam, \\Name{Yaḥyà ibn Abī Manṣūr}, \\Name{Sanad ibn ‘Alī}, \\Name{al-‘Ab-}",
+     "transcription": "« nibus aetati nostrae vicinis repertam, {sp:Yaḥyà ibn Abī Manṣūr}, {sp:Sanad ibn ‘Alī}, {sp:al-‘Ab-}",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0246-body-L016",
+     "source_line_no": null,
+     "tex": "« \\Name{bās ibn Sa‘īd al-Ǵawharī} et coetus virorum doctorum ac insignium (\\ArabicRun{وطايفة من اهل العلم والفضل})",
+     "transcription": "« {sp:bās ibn Sa‘īd al-Ǵawharī} et coetus virorum doctorum ac insignium (وطايفة من اهل العلم والفضل)",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0246-body-L017",
+     "source_line_no": null,
+     "tex": "« in [regione] ash–Shammāsiyyah [vocata] urbis Baghdād, tempore [khalifae] al–Ma’mūn, de",
+     "transcription": "« in [regione] ash–Shammāsiyyah [vocata] urbis Baghdād, tempore [khalifae] al–Ma’mūn, de",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0246-body-L018",
+     "source_line_no": null,
+     "tex": "« ea inquisiverunt, inveneruntque 23° 33′, ut, secundum eos, narrant Muḥammad ibn Mūsà",
+     "transcription": "« ea inquisiverunt, inveneruntque 23° 33′, ut, secundum eos, narrant Muḥammad ibn Mūsà",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0246-body-L019",
+     "source_line_no": null,
+     "tex": "« \\Name{al–Khuwārizmī} in opere suo astronomico (\\ArabicRun{في زيجه}), et Muḥammad ibn Kathīr \\Name{al–Farghānī}",
+     "transcription": "« {sp:al–Khuwārizmī} in opere suo astronomico (في زيجه), et Muḥammad ibn Kathīr {sp:al–Farghānī}",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0246-body-L020",
+     "source_line_no": null,
+     "tex": "« in libro suo de astrolabio conficiendo; et res nota est (4). Qui Damasci, post Yaḥyà ibn Abī",
+     "transcription": "« in libro suo de astrolabio conficiendo; et res nota est (4). Qui Damasci, post Yaḥyà ibn Abī",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0246-body-L021",
+     "source_line_no": null,
+     "tex": "« Manṣūr mortuum, observaverunt instrumento quod al–Ma’mūn sumere iusserat cum ad Ro-",
+     "transcription": "« Manṣūr mortuum, observaverunt instrumento quod al–Ma’mūn sumere iusserat cum ad Ro-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0246-body-L022",
+     "source_line_no": null,
+     "tex": "« manorum terram versus profectus erat (\\ArabicRun{بالالة التي امر باتخاذها المامون حين توجــه الى بــلاد الروم}), et",
+     "transcription": "« manorum terram versus profectus erat (بالالة التي امر باتخاذها المامون حين توجــه الى بــلاد الروم), et",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0246-body-L023",
+     "source_line_no": null,
+     "tex": "« sunt \\Name{Khālid ibn ‘Abd al–Malik al–Marwarrūdhī}, \\Name{Abū ’ṭ–ṭayyib Sanad ibn ‘Alī},",
+     "transcription": "« sunt {sp:Khālid ibn ‘Abd al–Malik al–Marwarrūdhī}, {sp:Abū ’ṭ–ṭayyib Sanad ibn ‘Alī},",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0246-body-L024",
+     "source_line_no": null,
+     "tex": "« \\Name{‘Alī} ibn Mūsà \\Name{al–Asṭurlābī} aliique, narrant se invenisse maximam declinationem eclipti-",
+     "transcription": "« {sp:‘Alī} ibn Mūsà {sp:al–Asṭurlābī} aliique, narrant se invenisse maximam declinationem eclipti-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0246-body-L025",
+     "source_line_no": null,
+     "tex": "« cae 23° 33′ 52″; et fuit dimensio, per hoc instrumentum facta, anno 201 ab Yazdaǵird »",
+     "transcription": "« cae 23° 33′ 52″; et fuit dimensio, per hoc instrumentum facta, anno 201 ab Yazdaǵird »",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0246-body-L026",
+     "source_line_no": null,
+     "tex": "[inc. 27 Apr. 832] (5).",
+     "transcription": "[inc. 27 Apr. 832] (5).",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    }
+   ]
+  },
+  {
+   "role": "notes_left",
+   "lines": [
+    {
+     "id": "AB01-PDF0246-notes_left-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (1) Pag. 222 codicis Leidensis (cuius diligentis-",
+     "transcription": "(1) Pag. 222 codicis Leidensis (cuius diligentis-",
+     "semantic_anchor": "AB01-PDF0246-N01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0246-notes_left-L002",
+     "source_line_no": null,
+     "tex": "simum apographum, eadem paginarum divisione ser-",
+     "transcription": "simum apographum, eadem paginarum divisione ser-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0246-notes_left-L003",
+     "source_line_no": null,
+     "tex": "vata, est codex Parisiensis nr. 2495). Locum contuli",
+     "transcription": "vata, est codex Parisiensis nr. 2495). Locum contuli",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0246-notes_left-L004",
+     "source_line_no": null,
+     "tex": "cum codice Parisiensi 2496 (capita selecta ex Ibn",
+     "transcription": "cum codice Parisiensi 2496 (capita selecta ex Ibn",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0246-notes_left-L005",
+     "source_line_no": null,
+     "tex": "Yūnus opere praebente, et neglegentius exarato),",
+     "transcription": "Yūnus opere praebente, et neglegentius exarato),",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0246-notes_left-L006",
+     "source_line_no": null,
+     "tex": "fol. 25,r.",
+     "transcription": "fol. 25,r.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0246-notes_left-L007",
+     "source_line_no": null,
+     "tex": "\\Indent (2) Quod « paulo post » verti, Arabice est \\ArabicRun{نيف}",
+     "transcription": "(2) Quod « paulo post » verti, Arabice est نيف",
+     "semantic_anchor": "AB01-PDF0246-N02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0246-notes_left-L008",
+     "source_line_no": null,
+     "tex": "i. e. « plures duobus sed pauciores decem ».",
+     "transcription": "i. e. « plures duobus sed pauciores decem ».",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0246-notes_left-L009",
+     "source_line_no": null,
+     "tex": "\\Indent (3) Est opus astronomicum quod, Yaḥyà ibn",
+     "transcription": "(3) Est opus astronomicum quod, Yaḥyà ibn",
+     "semantic_anchor": "AB01-PDF0246-N03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0246-notes_left-L010",
+     "source_line_no": null,
+     "tex": "Abī Manṣūr duce, iuxta suas observationes astro-",
+     "transcription": "Abī Manṣūr duce, iuxta suas observationes astro-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0246-notes_left-L011",
+     "source_line_no": null,
+     "tex": "nomi khalifae al-Ma’mūn (regn. 813-833 Chr.) condi-",
+     "transcription": "nomi khalifae al-Ma’mūn (regn. 813-833 Chr.) condi-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0246-notes_left-L012",
+     "source_line_no": null,
+     "tex": "derunt.",
+     "transcription": "derunt.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0246-notes_left-L013",
+     "source_line_no": null,
+     "tex": "\\Indent (4) Idque confirmat ipse \\Name{Ibn Yūnus} in intro-",
+     "transcription": "(4) Idque confirmat ipse {sp:Ibn Yūnus} in intro-",
+     "semantic_anchor": "AB01-PDF0246-N04",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0246-notes_left-L014",
+     "source_line_no": null,
+     "tex": "ductione operis sui (apud \\Name{Caussin}, pag. 56), dicens",
+     "transcription": "ductione operis sui (apud {sp:Caussin}, pag. 56), dicens",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0246-notes_left-L015",
+     "source_line_no": null,
+     "tex": "anno 214 heg. (inc. 10 Mart. 829), 198 Iezdegerdis",
+     "transcription": "anno 214 heg. (inc. 10 Mart. 829), 198 Iezdegerdis",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0246-notes_left-L016",
+     "source_line_no": null,
+     "tex": "(inc. 28 Apr. 829), Yaḥyà b. Abī Manṣūr, al-‘Abbās",
+     "transcription": "(inc. 28 Apr. 829), Yaḥyà b. Abī Manṣūr, al-‘Abbās",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  },
+  {
+   "role": "notes_right",
+   "lines": [
+    {
+     "id": "AB01-PDF0246-notes_right-L001",
+     "source_line_no": null,
+     "tex": "ibn Sa‘īd al-Ǵawharī, Sanad ibn ‘Alī aliosque in urbe",
+     "transcription": "ibn Sa‘īd al-Ǵawharī, Sanad ibn ‘Alī aliosque in urbe",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0246-notes_right-L002",
+     "source_line_no": null,
+     "tex": "Baghdād 23° 33′ invenisse. — \\Name{Az-Zarqālī}, in ver-",
+     "transcription": "Baghdād 23° 33′ invenisse. — {sp:Az-Zarqālī}, in ver-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0246-notes_right-L003",
+     "source_line_no": null,
+     "tex": "sione Latina inedita \\textit{Canonum} seu \\textit{Tabularum To-}",
+     "transcription": "sione Latina inedita *Canonum* seu *Tabularum To-*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0246-notes_right-L004",
+     "source_line_no": null,
+     "tex": "\\textit{letanarum}, et Iudaeus \\Name{Abrāhām ben ‘Ezrā} (in",
+     "transcription": "*letanarum*, et Iudaeus {sp:Abrāhām ben ‘Ezrā} (in",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0246-notes_right-L005",
+     "source_line_no": null,
+     "tex": "secunda saeculi XII Chr. medietate) dicunt Yaḥyà",
+     "transcription": "secunda saeculi XII Chr. medietate) dicunt Yaḥyà",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0246-notes_right-L006",
+     "source_line_no": null,
+     "tex": "ibn Abī Manṣūr 23° 33′ 30″ invenisse; cfr. \\Name{Delam-}",
+     "transcription": "ibn Abī Manṣūr 23° 33′ 30″ invenisse; cfr. {sp:Delam-}",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0246-notes_right-L007",
+     "source_line_no": null,
+     "tex": "\\Name{bre}, p. 177 (cuius codex Tabularum Toletanarum no-",
+     "transcription": "{sp:bre}, p. 177 (cuius codex Tabularum Toletanarum no-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0246-notes_right-L008",
+     "source_line_no": null,
+     "tex": "men corruptum praebebat « Almeon fils d’Albuma-",
+     "transcription": "men corruptum praebebat « Almeon fils d’Albuma-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0246-notes_right-L009",
+     "source_line_no": null,
+     "tex": "zar »), et M. \\Name{Steinschneider}, \\textit{Études sur Zar-}",
+     "transcription": "zar »), et M. {sp:Steinschneider}, *Études sur Zar-*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0246-notes_right-L010",
+     "source_line_no": null,
+     "tex": "\\textit{kali} in Bullettino di bibliografia e di storia delle",
+     "transcription": "*kali* in Bullettino di bibliografia e di storia delle",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0246-notes_right-L011",
+     "source_line_no": null,
+     "tex": "scienze matematiche e fisiche, t. XX, 1887-88, p. 87",
+     "transcription": "scienze matematiche e fisiche, t. XX, 1887-88, p. 87",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0246-notes_right-L012",
+     "source_line_no": null,
+     "tex": "(ubi codex Tabularum indicatur, nomen « Jahiben fi-",
+     "transcription": "(ubi codex Tabularum indicatur, nomen « Jahiben fi-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0246-notes_right-L013",
+     "source_line_no": null,
+     "tex": "lius Albumasaris » exhibens).",
+     "transcription": "lius Albumasaris » exhibens).",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0246-notes_right-L014",
+     "source_line_no": null,
+     "tex": "\\Indent (5) Eadem narrat in introductione (\\Name{Caussin},",
+     "transcription": "(5) Eadem narrat in introductione ({sp:Caussin},",
+     "semantic_anchor": "AB01-PDF0246-N05",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0246-notes_right-L015",
+     "source_line_no": null,
+     "tex": "56); annus ibi est 217 heg. (inc. 7 Febr. 832), 201",
+     "transcription": "56); annus ibi est 217 heg. (inc. 7 Febr. 832), 201",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0246-notes_right-L016",
+     "source_line_no": null,
+     "tex": "Iezdegerdis.",
+     "transcription": "Iezdegerdis.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  }
+ ]
+}
