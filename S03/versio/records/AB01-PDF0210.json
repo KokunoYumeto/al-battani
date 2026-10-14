@@ -1,0 +1,627 @@
+{
+ "anchor": "AB01-PDF0210",
+ "master_pdf_page": 210,
+ "printed_page": 121,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": "16",
+ "margin_locators": [
+  {
+   "line_anchor": "AB01-PDF0210-body-L010",
+   "text": "p. 183."
+  },
+  {
+   "line_anchor": "AB01-PDF0210-body-L032",
+   "text": "p. 184."
+  }
+ ],
+ "observations": [
+  "body: the line numbers 5 to 30 stand in the left margin and the locators «p. 183.» (L10) and «p. 184.» (L32) in the right margin. The signature 16 stands at the foot of the page, at the right.",
+  "body L2, L5: «7ᵖ» and «2ᵖ» are written with a small raised italic p (partes).",
+  "body L15: the second fraction is printed with the denominator «10×2», one twentieth.",
+  "notes_left L9: in «(26 1/4)³» the 4 of the fraction is printed broken.",
+  "notes_left L10: in Plato's 1/19000 the stroke of the fraction is printed broken.",
+  "notes_right L3: the fraction (166 + 1070)/2 is set in two lines of small figures at the head of the line; its bar is printed broken."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0210-body-L001",
+     "source_line_no": 1,
+     "tex": "verunt; inveneruntque diametrum Mercurii $\\qfrac{1}{15}$ (1) diametri Solis esse. Cum 115 (2) per 15",
+     "transcription": "verunt; inveneruntque diametrum Mercurii {sfrac:1/15} (1) diametri Solis esse. Cum 115 (2) per 15",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0210-body-L002",
+     "source_line_no": 2,
+     "tex": "dividantur, exeunt 7\\textsuperscript{\\textit{p}} $\\qfrac{2}{3}$. Quoniam diametrus Solis 5 $\\qfrac{1}{2}$ diametros terrestres complectitur, si",
+     "transcription": "dividantur, exeunt 7{sup:*p*} {sfrac:2/3}. Quoniam diametrus Solis 5 {sfrac:1/2} diametros terrestres complectitur, si",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0210-body-L003",
+     "source_line_no": 3,
+     "tex": "diametrus media Solis, ut calculo ostendimus, 1108 (3) ponatur, hac ratione diametrus Terrae",
+     "transcription": "diametrus media Solis, ut calculo ostendimus, 1108 (3) ponatur, hac ratione diametrus Terrae",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0210-body-L004",
+     "source_line_no": 4,
+     "tex": "201 $\\qfrac{1}{2}$ (4) erit; et si illos 7 $\\qfrac{2}{3}$ cum his 201 $\\qfrac{1}{2}$ comparentur, invenientur esse ut 1 ad 26 $\\qfrac{1}{4}$ (5).",
+     "transcription": "201 {sfrac:1/2} (4) erit; et si illos 7 {sfrac:2/3} cum his 201 {sfrac:1/2} comparentur, invenientur esse ut 1 ad 26 {sfrac:1/4} (5).",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0210-body-L005",
+     "source_line_no": 5,
+     "tex": "Cum autem diametrus Terrae, [scilicet 2\\textsuperscript{\\textit{p}}], subtendatur arcui sphaerae caelestis 1° 57′ (6) com-",
+     "transcription": "Cum autem diametrus Terrae, [scilicet 2{sup:*p*}], subtendatur arcui sphaerae caelestis 1° 57′ (6) com-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 5,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0210-body-L006",
+     "source_line_no": 6,
+     "tex": "plectenti, diametrus Mercurii erit chorda arcus 0° 4′ $\\qfrac{1}{2}$ + $\\qfrac{1}{6}$ [= 0° 4′ $\\qfrac{2}{3}$]. Hoc in longitudi-",
+     "transcription": "plectenti, diametrus Mercurii erit chorda arcus 0° 4′ {sfrac:1/2} + {sfrac:1/6} [= 0° 4′ {sfrac:2/3}]. Hoc in longitudi-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0210-body-L007",
+     "source_line_no": 7,
+     "tex": "nem, latitudinem et altitudinem multiplicetur; invenietur magnitudinem corporis Mercurii esse",
+     "transcription": "nem, latitudinem et altitudinem multiplicetur; invenietur magnitudinem corporis Mercurii esse",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0210-body-L008",
+     "source_line_no": 8,
+     "tex": "$\\qfrac{1}{18087}$ (7) circiter corporis Terrae.",
+     "transcription": "{sfrac:1/18087} (7) circiter corporis Terrae.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0210-body-L009",
+     "source_line_no": 9,
+     "tex": "\\Indent Deinde Venerem consideraverunt, inveneruntque eius magnitudinem a distantia apogea ad",
+     "transcription": "Deinde Venerem consideraverunt, inveneruntque eius magnitudinem a distantia apogea ad",
+     "semantic_anchor": "AB01-PDF0210-P01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0210-body-L010",
+     "source_line_no": 10,
+     "tex": "perigeam $\\qfrac{2}{13}$ (8) variare; et si 166 (9) illas, quae sunt maxima distantia Mercurii et minima",
+     "transcription": "perigeam {sfrac:2/13} (8) variare; et si 166 (9) illas, quae sunt maxima distantia Mercurii et minima",
+     "semantic_anchor": null,
+     "margin_locator": "p. 183.",
+     "printed_line_number": 10,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0210-body-L011",
+     "source_line_no": 11,
+     "tex": "Terrae, multiplicas in eos 6 $\\qfrac{1}{2}$ qui sunt quantitas variationis magnitudinis Veneris, ad unita-",
+     "transcription": "Terrae, multiplicas in eos 6 {sfrac:1/2} qui sunt quantitas variationis magnitudinis Veneris, ad unita-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0210-body-L012",
+     "source_line_no": 12,
+     "tex": "tem relata, invenis distantiam apogeam Veneris esse 1070 (10), ut perigeam Solis; media lon-",
+     "transcription": "tem relata, invenis distantiam apogeam Veneris esse 1070 (10), ut perigeam Solis; media lon-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0210-body-L013",
+     "source_line_no": 13,
+     "tex": "ginquitas igitur 618 erit. Diametrum Veneris cum diametro Solis in longinquitate media com-",
+     "transcription": "ginquitas igitur 618 erit. Diametrum Veneris cum diametro Solis in longinquitate media com-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0210-body-L014",
+     "source_line_no": 14,
+     "tex": "paraverunt, inveneruntque eam esse $\\qfrac{1}{10}$ diametri solaris; decima pars autem ex 618 est 61 $\\qfrac{4}{5}$;",
+     "transcription": "paraverunt, inveneruntque eam esse {sfrac:1/10} diametri solaris; decima pars autem ex 618 est 61 {sfrac:4/5};",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0210-body-L015",
+     "source_line_no": 15,
+     "tex": "quod, per 201 $\\qfrac{1}{2}$ divisum, efficit $\\qfrac{1}{4}$ + $\\qfrac{1}{10\\times 2}$ [= $\\qfrac{3}{10}$] diametri terrestris, praeter modicam",
+     "transcription": "quod, per 201 {sfrac:1/2} divisum, efficit {sfrac:1/4} + {sfrac:1/10×2} [= {sfrac:3/10}] diametri terrestris, praeter modicam",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 15,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0210-body-L016",
+     "source_line_no": 16,
+     "tex": "quantitatem haud computandam (11). Itaque diametrus Veneris subtendet arcum 0° 32′ 27″",
+     "transcription": "quantitatem haud computandam (11). Itaque diametrus Veneris subtendet arcum 0° 32′ 27″",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0210-body-L017",
+     "source_line_no": 17,
+     "tex": "sphaerae caelestis; et si hoc in longitudinem, latitudinem et altitudinem multiplicaveris, inve-",
+     "transcription": "sphaerae caelestis; et si hoc in longitudinem, latitudinem et altitudinem multiplicaveris, inve-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0210-body-L018",
+     "source_line_no": 18,
+     "tex": "nies magnitudinem Veneris esse $\\qfrac{1}{36}$ Terrae.",
+     "transcription": "nies magnitudinem Veneris esse {sfrac:1/36} Terrae.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0210-body-L019",
+     "source_line_no": 19,
+     "tex": "\\Indent Centra epicyclorum Mercurii et Veneris in excentrico moventur ut centrum epicycli Solis;",
+     "transcription": "Centra epicyclorum Mercurii et Veneris in excentrico moventur ut centrum epicycli Solis;",
+     "semantic_anchor": "AB01-PDF0210-P02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0210-body-L020",
+     "source_line_no": 20,
+     "tex": "eorum epicyclorum diametri autem cognoscuntur ex intervallo inter apogeum et primam sta-",
+     "transcription": "eorum epicyclorum diametri autem cognoscuntur ex intervallo inter apogeum et primam sta-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 20,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0210-body-L021",
+     "source_line_no": 21,
+     "tex": "tionem, quod est tota digressio versus partem progressionis signorum. Mercurii digressio est",
+     "transcription": "tionem, quod est tota digressio versus partem progressionis signorum. Mercurii digressio est",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0210-body-L022",
+     "source_line_no": 22,
+     "tex": "26°, cum Sol opponitur centro epicycli in apogeo excentrici sito; Mercurius altera vice ante",
+     "transcription": "26°, cum Sol opponitur centro epicycli in apogeo excentrici sito; Mercurius altera vice ante",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0210-body-L023",
+     "source_line_no": 23,
+     "tex": "Solem, altera post Solem erit. Veneris digressio 46° (12) complectitur, cum Sol opponitur centro",
+     "transcription": "Solem, altera post Solem erit. Veneris digressio 46° (12) complectitur, cum Sol opponitur centro",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0210-body-L024",
+     "source_line_no": 24,
+     "tex": "epicycli in apogeo excentrici sito; Venus erit altera vice ante Solem, altera in conspectu Solis,",
+     "transcription": "epicycli in apogeo excentrici sito; Venus erit altera vice ante Solem, altera in conspectu Solis,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0210-body-L025",
+     "source_line_no": 25,
+     "tex": "altera demum post Solem. Minima Veneris elongatio fit a prima ad secundam stationem, et",
+     "transcription": "altera demum post Solem. Minima Veneris elongatio fit a prima ad secundam stationem, et",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 25,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0210-body-L026",
+     "source_line_no": 26,
+     "tex": "41° complectitur; minima elongatio Mercurii est elongatio inter duas stationes illas, scilicet 21°.",
+     "transcription": "41° complectitur; minima elongatio Mercurii est elongatio inter duas stationes illas, scilicet 21°.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0210-body-L027",
+     "source_line_no": 27,
+     "tex": "Patet igitur diametrum epicycli Mercurii subtendi arcui 47° (13), et diametrum epicycli Veneris",
+     "transcription": "Patet igitur diametrum epicycli Mercurii subtendi arcui 47° (13), et diametrum epicycli Veneris",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0210-body-L028",
+     "source_line_no": 28,
+     "tex": "arcui 87°.",
+     "transcription": "arcui 87°.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0210-body-L029",
+     "source_line_no": 29,
+     "tex": "\\Indent Magnitudinem Martis in perigeo septies magnitudinem suam in apogeo complecti invene-",
+     "transcription": "Magnitudinem Martis in perigeo septies magnitudinem suam in apogeo complecti invene-",
+     "semantic_anchor": "AB01-PDF0210-P03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0210-body-L030",
+     "source_line_no": 30,
+     "tex": "runt. Martis autem distantia perigea est ut apogea Solis, quam 1146 (14) esse calculis inveni-",
+     "transcription": "runt. Martis autem distantia perigea est ut apogea Solis, quam 1146 (14) esse calculis inveni-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 30,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0210-body-L031",
+     "source_line_no": 31,
+     "tex": "mus; hoc, in 7 multiplicatum, efficit 8022, qua re media Martis longinquitas 4584 (15) erit.",
+     "transcription": "mus; hoc, in 7 multiplicatum, efficit 8022, qua re media Martis longinquitas 4584 (15) erit.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0210-body-L032",
+     "source_line_no": 32,
+     "tex": "Eum etiam in media distantia metiti sunt, eiusque diametrum invenerunt $\\qfrac{1}{20}$ diametri Solis",
+     "transcription": "Eum etiam in media distantia metiti sunt, eiusque diametrum invenerunt {sfrac:1/20} diametri Solis",
+     "semantic_anchor": null,
+     "margin_locator": "p. 184.",
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0210-body-L033",
+     "source_line_no": 33,
+     "tex": "esse; media distantia igitur, per 20 divisa, 229 $\\qfrac{1}{5}$ (16) vices efficiet. Hoc autem per 201 $\\qfrac{1}{2}$,",
+     "transcription": "esse; media distantia igitur, per 20 divisa, 229 {sfrac:1/5} (16) vices efficiet. Hoc autem per 201 {sfrac:1/2},",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0210-body-L034",
+     "source_line_no": 34,
+     "tex": "quae sunt Terrae diametrus, dividatur; diametrus Martis perpaulo minor erit quam 1 $\\qfrac{1}{7}$ (17)",
+     "transcription": "quae sunt Terrae diametrus, dividatur; diametrus Martis perpaulo minor erit quam 1 {sfrac:1/7} (17)",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    }
+   ]
+  },
+  {
+   "role": "notes_left",
+   "lines": [
+    {
+     "id": "AB01-PDF0210-notes_left-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (1) Plato hic et infra $\\qfrac{1}{12}$.",
+     "transcription": "(1) Plato hic et infra {sfrac:1/12}.",
+     "semantic_anchor": "AB01-PDF0210-N01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0210-notes_left-L002",
+     "source_line_no": null,
+     "tex": "\\Indent (2) Plato 112.",
+     "transcription": "(2) Plato 112.",
+     "semantic_anchor": "AB01-PDF0210-N02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0210-notes_left-L003",
+     "source_line_no": null,
+     "tex": "\\Indent (3) Cod. 248.",
+     "transcription": "(3) Cod. 248.",
+     "semantic_anchor": "AB01-PDF0210-N03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0210-notes_left-L004",
+     "source_line_no": null,
+     "tex": "\\Indent (4) Melius 201 $\\qfrac{5}{11}$. Perperam \\Name{Delambre}, p. 51,",
+     "transcription": "(4) Melius 201 {sfrac:5/11}. Perperam {sp:Delambre}, p. 51,",
+     "semantic_anchor": "AB01-PDF0210-N04",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0210-notes_left-L005",
+     "source_line_no": null,
+     "tex": "invenit 201 $\\qfrac{11}{16}$.",
+     "transcription": "invenit 201 {sfrac:11/16}.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0210-notes_left-L006",
+     "source_line_no": null,
+     "tex": "\\Indent (5) Plato: « erit unius partis et 36 minutorum",
+     "transcription": "(5) Plato: « erit unius partis et 36 minutorum",
+     "semantic_anchor": "AB01-PDF0210-N05",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0210-notes_left-L007",
+     "source_line_no": null,
+     "tex": "« ac quartae fere ».",
+     "transcription": "« ac quartae fere ».",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0210-notes_left-L008",
+     "source_line_no": null,
+     "tex": "\\Indent (6) Cod. 1° 47′; Plato 1° 17′.",
+     "transcription": "(6) Cod. 1° 47′; Plato 1° 17′.",
+     "semantic_anchor": "AB01-PDF0210-N06",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0210-notes_left-L009",
+     "source_line_no": null,
+     "tex": "\\Indent (7) Nam (26 $\\qfrac{1}{4}$)³ = 18087,890625. — Cod. $\\qfrac{1}{17}$;",
+     "transcription": "(7) Nam (26 {sfrac:1/4})³ = 18087,890625. — Cod. {sfrac:1/17};",
+     "semantic_anchor": "AB01-PDF0210-N07",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0210-notes_left-L010",
+     "source_line_no": null,
+     "tex": "Plato $\\qfrac{1}{19000}$.",
+     "transcription": "Plato {sfrac:1/19000}.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0210-notes_left-L011",
+     "source_line_no": null,
+     "tex": "\\Indent (8) Cod. $\\qfrac{2}{16}$.",
+     "transcription": "(8) Cod. {sfrac:2/16}.",
+     "semantic_anchor": "AB01-PDF0210-N08",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0210-notes_left-L012",
+     "source_line_no": null,
+     "tex": "\\Indent (9) Cod. 177.",
+     "transcription": "(9) Cod. 177.",
+     "semantic_anchor": "AB01-PDF0210-N09",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  },
+  {
+   "role": "notes_right",
+   "lines": [
+    {
+     "id": "AB01-PDF0210-notes_right-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (10) Melius 1079; sed nihil immutandum est,",
+     "transcription": "(10) Melius 1079; sed nihil immutandum est,",
+     "semantic_anchor": "AB01-PDF0210-N10",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0210-notes_right-L002",
+     "source_line_no": null,
+     "tex": "nam media distantia ab auctore ponitur 618 =",
+     "transcription": "nam media distantia ab auctore ponitur 618 =",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0210-notes_right-L003",
+     "source_line_no": null,
+     "tex": "$\\dfrac{\\text{166 + 1070}}{\\text{2}}$. Etiam in cap. XXX, p. 61, l. 17, minima",
+     "transcription": "$\\dfrac{\\text{166 + 1070}}{\\text{2}}$. Etiam in cap. XXX, p. 61, l. 17, minima",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0210-notes_right-L004",
+     "source_line_no": null,
+     "tex": "Solis longinquitas dicitur 1070 esse.",
+     "transcription": "Solis longinquitas dicitur 1070 esse.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0210-notes_right-L005",
+     "source_line_no": null,
+     "tex": "\\Indent (11) Nam 61 $\\qfrac{4}{5}$ : 201 $\\qfrac{1}{2}$ = $\\qfrac{307}{1000}$.",
+     "transcription": "(11) Nam 61 {sfrac:4/5} : 201 {sfrac:1/2} = {sfrac:307/1000}.",
+     "semantic_anchor": "AB01-PDF0210-N11",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0210-notes_right-L006",
+     "source_line_no": null,
+     "tex": "\\Indent (12) Plat. 16°. — Iidem numeri apud \\Name{Ptole-}",
+     "transcription": "(12) Plat. 16°. — Iidem numeri apud {sp:Ptole-}",
+     "semantic_anchor": "AB01-PDF0210-N12",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0210-notes_right-L007",
+     "source_line_no": null,
+     "tex": "\\Name{maeum} leguntur.",
+     "transcription": "{sp:maeum} leguntur.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0210-notes_right-L008",
+     "source_line_no": null,
+     "tex": "\\Indent (13) Plato 17°.",
+     "transcription": "(13) Plato 17°.",
+     "semantic_anchor": "AB01-PDF0210-N13",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0210-notes_right-L009",
+     "source_line_no": null,
+     "tex": "\\Indent (14) Cod. 146; Plato 1176.",
+     "transcription": "(14) Cod. 146; Plato 1176.",
+     "semantic_anchor": "AB01-PDF0210-N14",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0210-notes_right-L010",
+     "source_line_no": null,
+     "tex": "\\Indent (15) Plato 4284.",
+     "transcription": "(15) Plato 4284.",
+     "semantic_anchor": "AB01-PDF0210-N15",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0210-notes_right-L011",
+     "source_line_no": null,
+     "tex": "\\Indent (16) Cod. 129 $\\qfrac{1}{5}$.",
+     "transcription": "(16) Cod. 129 {sfrac:1/5}.",
+     "semantic_anchor": "AB01-PDF0210-N16",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0210-notes_right-L012",
+     "source_line_no": null,
+     "tex": "\\Indent (17) Plato 1 $\\qfrac{1}{9}$.",
+     "transcription": "(17) Plato 1 {sfrac:1/9}.",
+     "semantic_anchor": "AB01-PDF0210-N17",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  }
+ ]
+}
