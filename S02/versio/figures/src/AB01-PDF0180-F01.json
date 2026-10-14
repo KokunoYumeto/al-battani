@@ -1,0 +1,200 @@
+{
+ "pdf": 180,
+ "printed_page": 91,
+ "comment": [
+  "Nallino, Part I p. 91: the horizon ABCD (centre E) with the lines AC and BD, the half DLB of the",
+  "ecliptic above the horizon (an arc of a circle through B and D), the line from M through K, E and F to",
+  "G, and the astrolabe at the lower left with its diameters TS and MK; the four quarters MERIDIES,",
+  "ORIENS, OCCIDENS, SEPTENTRIONES. Circles, the arc and lines are least-squares fits to the printed ink;",
+  "coordinates are PDF points of master page 180 less the origin (73.44, 279.06), y downward."
+ ],
+ "origin": [
+  73.44,
+  279.06
+ ],
+ "scale": 0.9915,
+ "size": [
+  325.0,
+  200.0
+ ],
+ "label_pt": 11.5,
+ "circles": [
+  {
+   "cx": 273.29,
+   "cy": 375.36,
+   "r": 77.5,
+   "w": 1.12,
+   "name": "the horizon ABCD, centre E"
+  },
+  {
+   "cx": 136.7,
+   "cy": 428.92,
+   "r": 41.52,
+   "w": 1.26,
+   "name": "the astrolabe, with its diameters TS and MK"
+  }
+ ],
+ "segments": [
+  {
+   "x0": 273.06,
+   "y0": 297.86,
+   "x1": 273.2,
+   "y1": 452.86,
+   "w": 0.9,
+   "name": "the line AC (south to north) through E"
+  },
+  {
+   "x0": 195.79,
+   "y0": 374.9,
+   "x1": 350.79,
+   "y1": 374.97,
+   "w": 0.72,
+   "name": "the line BD (east to west) through E"
+  },
+  {
+   "x0": 121.4,
+   "y0": 390.33,
+   "x1": 152.25,
+   "y1": 467.42,
+   "w": 1.08,
+   "name": "the diameter TS of the astrolabe"
+  },
+  {
+   "x0": 98.01,
+   "y0": 444.0,
+   "x1": 345.28,
+   "y1": 346.67,
+   "w": 1.05,
+   "name": "the line from M through K, E and F to G (the side of the rule or the inside of the tube)"
+  }
+ ],
+ "arcs": [
+  {
+   "cx": 273.16,
+   "cy": 405.21,
+   "r": 82.96,
+   "a0": 201.4,
+   "a1": 338.72,
+   "w": 0.88
+  }
+ ],
+ "labels": [
+  {
+   "t": "A",
+   "x0": 269.6,
+   "y0": 288.3,
+   "x1": 276.8,
+   "y1": 295.8
+  },
+  {
+   "t": "L",
+   "x0": 264.8,
+   "y0": 324.1,
+   "x1": 270.7,
+   "y1": 331.6
+  },
+  {
+   "t": "F",
+   "x0": 334.2,
+   "y0": 339.9,
+   "x1": 341.4,
+   "y1": 347.4
+  },
+  {
+   "t": "G",
+   "x0": 347.3,
+   "y0": 339.9,
+   "x1": 353.3,
+   "y1": 347.4
+  },
+  {
+   "t": "H",
+   "x0": 328.0,
+   "y0": 353.9,
+   "x1": 337.3,
+   "y1": 361.7
+  },
+  {
+   "t": "B",
+   "x0": 187.02,
+   "y0": 370.2,
+   "x1": 194.4,
+   "y1": 378.84
+  },
+  {
+   "t": "D",
+   "x0": 352.72,
+   "y0": 370.74,
+   "x1": 359.02,
+   "y1": 378.48
+  },
+  {
+   "t": "E",
+   "x0": 264.82,
+   "y0": 378.94,
+   "x1": 270.04,
+   "y1": 386.5
+  },
+  {
+   "t": "T",
+   "x0": 118.52,
+   "y0": 380.28,
+   "x1": 125.9,
+   "y1": 388.56
+  },
+  {
+   "t": "K",
+   "x0": 174.72,
+   "y0": 401.58,
+   "x1": 181.38,
+   "y1": 409.68
+  },
+  {
+   "t": "M",
+   "x0": 85.28,
+   "y0": 440.78,
+   "x1": 94.82,
+   "y1": 448.88
+  },
+  {
+   "t": "S",
+   "x0": 149.26,
+   "y0": 469.1,
+   "x1": 156.1,
+   "y1": 477.56
+  },
+  {
+   "t": "C",
+   "x0": 269.48,
+   "y0": 455.56,
+   "x1": 275.78,
+   "y1": 463.66
+  }
+ ],
+ "words": [
+  {
+   "t": "\\resizebox{34.00pt}{5.35pt}{MERIDIES}",
+   "cx": 297.69,
+   "cy": 293.66,
+   "font": "\\fontsize{8.5}{8.5}\\sffamily\\bfseries\\selectfont"
+  },
+  {
+   "t": "\\resizebox{26.06pt}{5.62pt}{ORIENS}",
+   "cx": 171.87,
+   "cy": 375.79,
+   "font": "\\fontsize{8.5}{8.5}\\sffamily\\bfseries\\selectfont"
+  },
+  {
+   "t": "\\resizebox{34.18pt}{5.18pt}{OCCIDENS}",
+   "cx": 379.07,
+   "cy": 375.66,
+   "font": "\\fontsize{8.5}{8.5}\\sffamily\\bfseries\\selectfont"
+  },
+  {
+   "t": "\\resizebox{62.11pt}{5.09pt}{SEPTENTRIONES}",
+   "cx": 271.1,
+   "cy": 470.44,
+   "font": "\\fontsize{8.5}{8.5}\\sffamily\\bfseries\\selectfont"
+  }
+ ]
+}
