@@ -15,7 +15,10 @@ ink (_intake/latin/tools/fig_measure2.py). Optional:
            right toward the bottom of the page), dotted with dots D pt apart if "dots" is given
   "rings"  [{"cx", "cy", "r", "w", "dot": R}]: a small circle with a filled dot of radius R at its centre
   "words"  [{"t", "cx", "cy", "font", "rot"}]: a word set in the TeX font commands "font", turned through "rot"
-           degrees, centred at (cx, cy)"""
+           degrees, centred at (cx, cy)
+  "groups" [{"w", "segs": [[x0, y0, x1, y1], ...], "cap", "comment"}]: many short strokes of one width (the ticks
+           of a graduation, the dashes of a broken line), drawn eight to a command
+  labels may give their centre as "cx", "cy" instead of the box, a turn "rot" (degrees) and a "font" of their own"""
 import json
 import math
 import sys
@@ -84,16 +87,30 @@ def main():
                    + ") circle[radius=" + f"{r['r']:.2f}" + "];")
         if r.get("dot"):
             out.append(r"\fill (" + X(r["cx"]) + "," + Y(r["cy"]) + ") circle[radius=" + f"{r['dot']:.2f}" + "];")
+    for gr in d.get("groups", []):
+        if gr.get("comment"):
+            out.append("% " + gr["comment"])
+        style = r"line width=" + f"{gr['w'] * s:.2f}" + "pt" + (",line cap=" + gr["cap"] if gr.get("cap") else "")
+        segs = gr["segs"]
+        for k in range(0, len(segs), 8):
+            out.append(r"\draw[" + style + "] " + " ".join("(" + X(x0) + "," + Y(y0) + ")--(" + X(x1) + "," + Y(y1)
+                                                          + ")" for x0, y0, x1, y1 in segs[k:k + 8]) + ";")
     for lb in d["labels"]:
-        out.append(r"\node at (" + X((lb["x0"] + lb["x1"]) / 2) + "," + Y((lb["y0"] + lb["y1"]) / 2) + ") {"
-                   + lb["t"] + "};")
+        if "cx" in lb:
+            cx, cy = lb["cx"], lb["cy"]
+        else:
+            cx, cy = (lb["x0"] + lb["x1"]) / 2, (lb["y0"] + lb["y1"]) / 2
+        rot = f"[rotate={lb['rot']}]" if lb.get("rot") else ""
+        text = (r"\normalfont" + lb["font"] + " " + lb["t"]) if lb.get("font") else lb["t"]
+        out.append(r"\node" + rot + " at (" + X(cx) + "," + Y(cy) + ") {" + text + "};")
     for wd in d.get("words", []):
         rot = f"[rotate={wd['rot']}]" if wd.get("rot") else ""
         out.append(r"\node" + rot + " at (" + X(wd["cx"]) + "," + Y(wd["cy"]) + r") {\normalfont" + wd["font"]
                    + " " + wd["t"] + "};")
     out.append(r"\end{tikzpicture}")
     (HERE.parent / f"{name}.tex").write_text("\n".join(out) + "\n", encoding="utf-8", newline="\n")
-    print(f"wrote {name}.tex: {len(d['circles'])} circles, {len(d['segments'])} lines, {len(d['labels'])} letters, "
+    print(f"wrote {name}.tex: {len(d['circles'])} circles, {len(d['segments'])} lines, "
+          f"{sum(len(g['segs']) for g in d.get('groups', []))} strokes in groups, {len(d['labels'])} letters, "
           f"{len(d.get('hatch', []))} hatched parts, {len(d.get('words', []))} words")
 
 
