@@ -18,6 +18,8 @@ ink (_intake/latin/tools/fig_measure2.py). Optional:
            degrees, centred at (cx, cy)
   "groups" [{"w", "segs": [[x0, y0, x1, y1], ...], "cap", "comment"}]: many short strokes of one width (the ticks
            of a graduation, the dashes of a broken line), drawn eight to a command
+  "fills"  [{"pts": [[x, y], ...], "name"}]: a small printed shape filled through its traced outline (a smooth
+           closed curve through the points), for marks that are not lines, circles or letters
   labels may give their centre as "cx", "cy" instead of the box, a turn "rot" (degrees) and a "font" of their own"""
 import json
 import math
@@ -87,6 +89,9 @@ def main():
                    + ") circle[radius=" + f"{r['r']:.2f}" + "];")
         if r.get("dot"):
             out.append(r"\fill (" + X(r["cx"]) + "," + Y(r["cy"]) + ") circle[radius=" + f"{r['dot']:.2f}" + "];")
+    for fl in d.get("fills", []):
+        out.append(r"\fill plot[smooth cycle,tension=0.5] coordinates {" + " ".join(
+            "(" + X(x) + "," + Y(y) + ")" for x, y in fl["pts"]) + "};  % " + fl["name"])
     for gr in d.get("groups", []):
         if gr.get("comment"):
             out.append("% " + gr["comment"])
@@ -111,7 +116,8 @@ def main():
     (HERE.parent / f"{name}.tex").write_text("\n".join(out) + "\n", encoding="utf-8", newline="\n")
     print(f"wrote {name}.tex: {len(d['circles'])} circles, {len(d['segments'])} lines, "
           f"{sum(len(g['segs']) for g in d.get('groups', []))} strokes in groups, {len(d['labels'])} letters, "
-          f"{len(d.get('hatch', []))} hatched parts, {len(d.get('words', []))} words")
+          f"{len(d.get('hatch', []))} hatched parts, {len(d.get('fills', []))} filled shapes, "
+          f"{len(d.get('words', []))} words")
 
 
 if __name__ == "__main__":
