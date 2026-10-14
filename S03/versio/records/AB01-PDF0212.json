@@ -1,0 +1,627 @@
+{
+ "anchor": "AB01-PDF0212",
+ "master_pdf_page": 212,
+ "printed_page": 123,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "margin_locators": [
+  {
+   "line_anchor": "AB01-PDF0212-body-L015",
+   "text": "p. 186."
+  }
+ ],
+ "observations": [
+  "body: the line numbers 5 to 30 stand in the left margin and the locator «p. 186.» (L15) in the right margin. In «p. 186.» the 6 is printed blotted.",
+  "body L13, L20: specks stand over the u of «cui», and over the S and the s of «Solis»; they are not accents.",
+  "body L20: the letter of the reference (d) is bold italic; it is printed broken, its bowl hardly visible.",
+  "body L33: the dot of the i of «[i. e.» did not print.",
+  "body L14: a speck stands in the right margin beside the line; it is not a sign.",
+  "notes_left L6: the letter of «adnot. d» is bold italic.",
+  "body L1, L6: specks stand over the m of «Ipsarum» and over the s of «constellationibus», the second a short slanting stroke like an acute accent; they are not accents.",
+  "body L3, L14: the o of «comparata» and the o of «corpus» are printed thin and broken.",
+  "body L8, L26, L29: specks stand at the foot of the last m of «maximum», at the foot of the m of «arcum» before «16°», and under the u of «subtendi»; they are not points. A speck stands over the e of «Lunae»; it is not an accent.",
+  "notes_left L8, L11: a speck stands under the 6 of «(6)»; in «248.» the 8 is printed broken, its upper loop open at the right, like R."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0212-body-L001",
+     "source_line_no": 1,
+     "tex": "semidiametros Terrae complecti, earumque magnitudinem $\\qfrac{1}{20}$ magnitudinis Solis esse. Ipsarum",
+     "transcription": "semidiametros Terrae complecti, earumque magnitudinem {sfrac:1/20} magnitudinis Solis esse. Ipsarum",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0212-body-L002",
+     "source_line_no": 2,
+     "tex": "distantia igitur, per 20 divisa, efficiet diametrum eorum siderum 950 (1); quae, cum diametro",
+     "transcription": "distantia igitur, per 20 divisa, efficiet diametrum eorum siderum 950 (1); quae, cum diametro",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0212-body-L003",
+     "source_line_no": 3,
+     "tex": "terrestri comparata, dabit 4 $\\qfrac{2}{3}$ + $\\qfrac{1}{20}$ [= 4 $\\qfrac{43}{60}$] diametros Terrae circiter. Hoc in longitu-",
+     "transcription": "terrestri comparata, dabit 4 {sfrac:2/3} + {sfrac:1/20} [= 4 {sfrac:43/60}] diametros Terrae circiter. Hoc in longitu-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0212-body-L004",
+     "source_line_no": 4,
+     "tex": "dinem, latitudinem et altitudinem multiplicetur; magnitudo harum quindecim stellarum erit",
+     "transcription": "dinem, latitudinem et altitudinem multiplicetur; magnitudo harum quindecim stellarum erit",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0212-body-L005",
+     "source_line_no": 5,
+     "tex": "fere 105 (2) vicibus ut magnitudo Terrae.",
+     "transcription": "fere 105 (2) vicibus ut magnitudo Terrae.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 5,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0212-body-L006",
+     "source_line_no": 6,
+     "tex": "\\Indent Stellas fixas, quae in constellationibus reperiuntur, ad sex magnitudinis ordines posuimus,",
+     "transcription": "Stellas fixas, quae in constellationibus reperiuntur, ad sex magnitudinis ordines posuimus,",
+     "semantic_anchor": "AB01-PDF0212-P01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0212-body-L007",
+     "source_line_no": 7,
+     "tex": "ab ordine quindecim (3) stellarum memoratarum decrescentes usque ad sextum ordinem, cuius",
+     "transcription": "ab ordine quindecim (3) stellarum memoratarum decrescentes usque ad sextum ordinem, cuius",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0212-body-L008",
+     "source_line_no": 8,
+     "tex": "stellae 16 vicibus maiores sunt quam Terra. Omnium corporum maximum est Sol; post quem",
+     "transcription": "stellae 16 vicibus maiores sunt quam Terra. Omnium corporum maximum est Sol; post quem",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0212-body-L009",
+     "source_line_no": 9,
+     "tex": "secundum locum obtinent quindecim stellae fixae primae magnitudinis; tertium Iupiter; quar-",
+     "transcription": "secundum locum obtinent quindecim stellae fixae primae magnitudinis; tertium Iupiter; quar-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0212-body-L010",
+     "source_line_no": 10,
+     "tex": "tum Saturnus; quintum reliquae stellae fixae secundae magnitudinis [usque ad sextam]; sex-",
+     "transcription": "tum Saturnus; quintum reliquae stellae fixae secundae magnitudinis [usque ad sextam]; sex-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 10,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0212-body-L011",
+     "source_line_no": 11,
+     "tex": "tum Mars; septimum Terra; octavum Luna; nonum Venus; decimum Mercurius, quod omnium",
+     "transcription": "tum Mars; septimum Terra; octavum Luna; nonum Venus; decimum Mercurius, quod omnium",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0212-body-L012",
+     "source_line_no": 12,
+     "tex": "caelestium corporum minimum est.",
+     "transcription": "caelestium corporum minimum est.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0212-body-L013",
+     "source_line_no": 13,
+     "tex": "\\Indent Si quis has diametros iterum metiri cupit, alhidadam sumat, cui duas pinnulas perforatas",
+     "transcription": "Si quis has diametros iterum metiri cupit, alhidadam sumat, cui duas pinnulas perforatas",
+     "semantic_anchor": "AB01-PDF0212-P02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0212-body-L014",
+     "source_line_no": 14,
+     "tex": "aptet; foramen pinnulae ocularis parvum sit, alterius contra tale ut corpus totum sideris, nec",
+     "transcription": "aptet; foramen pinnulae ocularis parvum sit, alterius contra tale ut corpus totum sideris, nec",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0212-body-L015",
+     "source_line_no": 15,
+     "tex": "plus nec minus capiat. Quo facto, altera alhidada eiusdem magnitudinis Solem metiatur, et",
+     "transcription": "plus nec minus capiat. Quo facto, altera alhidada eiusdem magnitudinis Solem metiatur, et",
+     "semantic_anchor": null,
+     "margin_locator": "p. 186.",
+     "printed_line_number": 15,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0212-body-L016",
+     "source_line_no": 16,
+     "tex": "diametrum foraminis quo Solem metitus erit comparet cum diametro foraminis ad mensuram",
+     "transcription": "diametrum foraminis quo Solem metitus erit comparet cum diametro foraminis ad mensuram",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0212-body-L017",
+     "source_line_no": 17,
+     "tex": "stellae adhibiti. Necesse est comparationem eodem horizontis loco facere.",
+     "transcription": "stellae adhibiti. Necesse est comparationem eodem horizontis loco facere.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0212-body-L018",
+     "source_line_no": 18,
+     "tex": "\\Indent Restat ut de quantitatibus stellarum loquamur, scilicet de arcubus sphaerae caelestis",
+     "transcription": "Restat ut de quantitatibus stellarum loquamur, scilicet de arcubus sphaerae caelestis",
+     "semantic_anchor": "AB01-PDF0212-P03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0212-body-L019",
+     "source_line_no": 19,
+     "tex": "quos stellarum diametri in media distantia [a Terra] subtendunt, et exponamus quoque arcus",
+     "transcription": "quos stellarum diametri in media distantia [a Terra] subtendunt, et exponamus quoque arcus",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0212-body-L020",
+     "source_line_no": 20,
+     "tex": "qui, iuxta mensuram factam, respondent distantiis apogeis et perigeis (\\textbf{\\textit{d}}). — Solis diametrum",
+     "transcription": "qui, iuxta mensuram factam, respondent distantiis apogeis et perigeis ({bi:d}). — Solis diametrum",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 20,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0212-body-L021",
+     "source_line_no": 21,
+     "tex": "iam invenimus 39° 48′ (4) esse; eamque dicimus in omnibus distantiis ita se habere, nam quan-",
+     "transcription": "iam invenimus 39° 48′ (4) esse; eamque dicimus in omnibus distantiis ita se habere, nam quan-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0212-body-L022",
+     "source_line_no": 22,
+     "tex": "titate sensibili non variat. — Saturni diametrus in distantia apogea subtendit arcum 16° 22′ (5),",
+     "transcription": "titate sensibili non variat. — Saturni diametrus in distantia apogea subtendit arcum 16° 22′ (5),",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0212-body-L023",
+     "source_line_no": 23,
+     "tex": "in media distantia arcum 36° 39′ (6), in minima arcum 33° 36′ (7). — Iovis diametrus in di-",
+     "transcription": "in media distantia arcum 36° 39′ (6), in minima arcum 33° 36′ (7). — Iovis diametrus in di-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0212-body-L024",
+     "source_line_no": 24,
+     "tex": "stantia apogea subtendit arcum 35° 36′ (8), in media arcum 14° 45′ (9), in perigea arcum",
+     "transcription": "stantia apogea subtendit arcum 35° 36′ (8), in media arcum 14° 45′ (9), in perigea arcum",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0212-body-L025",
+     "source_line_no": 25,
+     "tex": "29° 36′ (10). — Martis diametrus in longinquitate apogea subtendit arcum 36° 10′ (11), in media",
+     "transcription": "29° 36′ (10). — Martis diametrus in longinquitate apogea subtendit arcum 36° 10′ (11), in media",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 25,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0212-body-L026",
+     "source_line_no": 26,
+     "tex": "arcum 16° 14′ (12), in perigea arcum 33° 36′ (13). — Veneris diametrus subtendit arcum 0° 10′",
+     "transcription": "arcum 16° 14′ (12), in perigea arcum 33° 36′ (13). — Veneris diametrus subtendit arcum 0° 10′",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0212-body-L027",
+     "source_line_no": 27,
+     "tex": "in distantia apogea; arcum 0° 39′ (14) in media distantia; arcum 0° 36′ (15) in perigea. — Mer-",
+     "transcription": "in distantia apogea; arcum 0° 39′ (14) in media distantia; arcum 0° 36′ (15) in perigea. — Mer-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0212-body-L028",
+     "source_line_no": 28,
+     "tex": "curii diametrus subtendit arcum 0° 33′ in longinquitate apogea, arcum 0° 6′ in media, arcum",
+     "transcription": "curii diametrus subtendit arcum 0° 33′ in longinquitate apogea, arcum 0° 6′ in media, arcum",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0212-body-L029",
+     "source_line_no": 29,
+     "tex": "0° 14′ (16) in perigea. — Lunae diametrum vidimus (17) in apogea longinquitate subtendi arcui",
+     "transcription": "0° 14′ (16) in perigea. — Lunae diametrum vidimus (17) in apogea longinquitate subtendi arcui",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0212-body-L030",
+     "source_line_no": 30,
+     "tex": "0° 29′ 40″ (18), in media arcui 0° 39′ 36″ (19), in perigea arcui 0° 36′ 22″ (20).",
+     "transcription": "0° 29′ 40″ (18), in media arcui 0° 39′ 36″ (19), in perigea arcui 0° 36′ 22″ (20).",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 30,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0212-body-L031",
+     "source_line_no": 31,
+     "tex": "\\Indent Inter has distantias memoratas, hae planetarum quantitates variant prout planetae amplius",
+     "transcription": "Inter has distantias memoratas, hae planetarum quantitates variant prout planetae amplius",
+     "semantic_anchor": "AB01-PDF0212-P04",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0212-body-L032",
+     "source_line_no": 32,
+     "tex": "vel minus [a Terra] absunt; idque aequationibus planetarum deprehenditur. Distantia sideris",
+     "transcription": "vel minus [a Terra] absunt; idque aequationibus planetarum deprehenditur. Distantia sideris",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0212-body-L033",
+     "source_line_no": 33,
+     "tex": "ab apogeo vel perigeo epicycli cognoscitur ab aequatione media aequata ad quintam [i. e. apo-",
+     "transcription": "ab apogeo vel perigeo epicycli cognoscitur ab aequatione media aequata ad quintam [i. e. apo-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0212-body-L034",
+     "source_line_no": 34,
+     "tex": "gei] vel septimam [i. e. distantiae perigeae] columnam; distantia autem centri epicycli ab apo-",
+     "transcription": "gei] vel septimam [i. e. distantiae perigeae] columnam; distantia autem centri epicycli ab apo-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    }
+   ]
+  },
+  {
+   "role": "notes_left",
+   "lines": [
+    {
+     "id": "AB01-PDF0212-notes_left-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (1) Plato 920.",
+     "transcription": "(1) Plato 920.",
+     "semantic_anchor": "AB01-PDF0212-N01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0212-notes_left-L002",
+     "source_line_no": null,
+     "tex": "\\Indent (2) Plato 102.",
+     "transcription": "(2) Plato 102.",
+     "semantic_anchor": "AB01-PDF0212-N02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0212-notes_left-L003",
+     "source_line_no": null,
+     "tex": "\\Indent (3) Plato 12.",
+     "transcription": "(3) Plato 12.",
+     "semantic_anchor": "AB01-PDF0212-N03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0212-notes_left-L004",
+     "source_line_no": null,
+     "tex": "\\Indent (4) Error ut in p. 122, l. 33; Plato 9° 48′. —",
+     "transcription": "(4) Error ut in p. 122, l. 33; Plato 9° 48′. —",
+     "semantic_anchor": "AB01-PDF0212-N04",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0212-notes_left-L005",
+     "source_line_no": null,
+     "tex": "Codicis numeros usque ad capitis finem servo, quos",
+     "transcription": "Codicis numeros usque ad capitis finem servo, quos",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0212-notes_left-L006",
+     "source_line_no": null,
+     "tex": "corrigere nequeo. Cfr. adnot. \\textbf{\\textit{d}}.",
+     "transcription": "corrigere nequeo. Cfr. adnot. {bi:d}.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0212-notes_left-L007",
+     "source_line_no": null,
+     "tex": "\\Indent (5) Plato 6° 22′.",
+     "transcription": "(5) Plato 6° 22′.",
+     "semantic_anchor": "AB01-PDF0212-N05",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0212-notes_left-L008",
+     "source_line_no": null,
+     "tex": "\\Indent (6) Plato 7° 48′.",
+     "transcription": "(6) Plato 7° 48′.",
+     "semantic_anchor": "AB01-PDF0212-N06",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0212-notes_left-L009",
+     "source_line_no": null,
+     "tex": "\\Indent (7) Plato 8° 26′.",
+     "transcription": "(7) Plato 8° 26′.",
+     "semantic_anchor": "AB01-PDF0212-N07",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0212-notes_left-L010",
+     "source_line_no": null,
+     "tex": "\\Indent (8) Plato 6° 0′.",
+     "transcription": "(8) Plato 6° 0′.",
+     "semantic_anchor": "AB01-PDF0212-N08",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0212-notes_left-L011",
+     "source_line_no": null,
+     "tex": "\\Indent (9) Plato 248.",
+     "transcription": "(9) Plato 248.",
+     "semantic_anchor": "AB01-PDF0212-N09",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0212-notes_left-L012",
+     "source_line_no": null,
+     "tex": "\\Indent (10) Plato 9° 34′.",
+     "transcription": "(10) Plato 9° 34′.",
+     "semantic_anchor": "AB01-PDF0212-N10",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  },
+  {
+   "role": "notes_right",
+   "lines": [
+    {
+     "id": "AB01-PDF0212-notes_right-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (11) Plato 2° 38′.",
+     "transcription": "(11) Plato 2° 38′.",
+     "semantic_anchor": "AB01-PDF0212-N11",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0212-notes_right-L002",
+     "source_line_no": null,
+     "tex": "\\Indent (12) Plato ..... 22′.",
+     "transcription": "(12) Plato ..... 22′.",
+     "semantic_anchor": "AB01-PDF0212-N12",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0212-notes_right-L003",
+     "source_line_no": null,
+     "tex": "\\Indent (13) Plato 8° 30′.",
+     "transcription": "(13) Plato 8° 30′.",
+     "semantic_anchor": "AB01-PDF0212-N13",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0212-notes_right-L004",
+     "source_line_no": null,
+     "tex": "\\Indent (14) Plato 0° 32′ $\\qfrac{1}{2}$.",
+     "transcription": "(14) Plato 0° 32′ {sfrac:1/2}.",
+     "semantic_anchor": "AB01-PDF0212-N14",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0212-notes_right-L005",
+     "source_line_no": null,
+     "tex": "\\Indent (15) Plato 0° 22′.",
+     "transcription": "(15) Plato 0° 22′.",
+     "semantic_anchor": "AB01-PDF0212-N15",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0212-notes_right-L006",
+     "source_line_no": null,
+     "tex": "\\Indent (16) In cod. incertum utrum 14′ an 16′. — Plato",
+     "transcription": "(16) In cod. incertum utrum 14′ an 16′. — Plato",
+     "semantic_anchor": "AB01-PDF0212-N16",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0212-notes_right-L007",
+     "source_line_no": null,
+     "tex": "Mercurium omittit.",
+     "transcription": "Mercurium omittit.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0212-notes_right-L008",
+     "source_line_no": null,
+     "tex": "\\Indent (17) Sed in cap. XXX, p. 58, alii numeri le-",
+     "transcription": "(17) Sed in cap. XXX, p. 58, alii numeri le-",
+     "semantic_anchor": "AB01-PDF0212-N17",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0212-notes_right-L009",
+     "source_line_no": null,
+     "tex": "guntur.",
+     "transcription": "guntur.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0212-notes_right-L010",
+     "source_line_no": null,
+     "tex": "\\Indent (18) Plato 0° 29′ 30″.",
+     "transcription": "(18) Plato 0° 29′ 30″.",
+     "semantic_anchor": "AB01-PDF0212-N18",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0212-notes_right-L011",
+     "source_line_no": null,
+     "tex": "\\Indent (19) Plato nihil habet.",
+     "transcription": "(19) Plato nihil habet.",
+     "semantic_anchor": "AB01-PDF0212-N19",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0212-notes_right-L012",
+     "source_line_no": null,
+     "tex": "\\Indent (20) Plato 0° 23′ $\\qfrac{1}{2}$.",
+     "transcription": "(20) Plato 0° 23′ {sfrac:1/2}.",
+     "semantic_anchor": "AB01-PDF0212-N20",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  }
+ ]
+}
