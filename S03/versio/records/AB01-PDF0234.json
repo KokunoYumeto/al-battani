@@ -1,0 +1,471 @@
+{
+ "anchor": "AB01-PDF0234",
+ "master_pdf_page": 234,
+ "printed_page": 145,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": "19",
+ "margin_locators": [
+  {
+   "line_anchor": "AB01-PDF0234-body-L015",
+   "text": "p. 219."
+  }
+ ],
+ "observations": [
+  "body: the line numbers 5 to 40 stand in the left margin and the locator «p. 219.» (L15) in the right margin. The count of the lines runs through the spaces and the heads of A and B: 5 stands beside the first line of the title of A, 35 a little below the first line of the title of B.",
+  "body L1-L3, L27-L30: the heads A and B are set in a larger bold type, the titles in a larger type, all centred; «(1)» after A and the letter a of the first title are in the type of the text.",
+  "body L3: a speck stands under the t of the last word of the title; it is not a sign.",
+  "body L24: a speck stands at mid height before «21»; it is not a sign."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0234-body-L001",
+     "source_line_no": 3,
+     "tex": "\\CenterLine{\\textbf{A.} {\\fontsize{11.1}{13.8}\\selectfont (1)}}",
+     "transcription": "**A.** {nm:(1)}",
+     "semantic_anchor": "AB01-PDF0234-H01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0234-body-L002",
+     "source_line_no": 5,
+     "tex": "\\CenterLine{Caput de inveniendis per tabulas initiis annorum et mensium Arabum,}",
+     "transcription": "Caput de inveniendis per tabulas initiis annorum et mensium Arabum,",
+     "semantic_anchor": "AB01-PDF0234-H02",
+     "margin_locator": null,
+     "printed_line_number": 5,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0234-body-L003",
+     "source_line_no": 6,
+     "tex": "\\CenterLine{quae ad chronologiam statuendam necessaria sunt {\\fontsize{11.1}{13.8}\\selectfont (\\textbf{\\textit{a}})}.}",
+     "transcription": "quae ad chronologiam statuendam necessaria sunt {nm:({bi:a})}.",
+     "semantic_anchor": "AB01-PDF0234-H03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0234-body-L004",
+     "source_line_no": 8,
+     "tex": "\\Indent Dicit [auctor]: Signum anni aerae Arabicae, id est hegirae, in quo es, si deprehendere",
+     "transcription": "Dicit [auctor]: Signum anni aerae Arabicae, id est hegirae, in quo es, si deprehendere",
+     "semantic_anchor": "AB01-PDF0234-P01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0234-body-L005",
+     "source_line_no": 9,
+     "tex": "cupis, numero annorum hegirae, si 210 excedat, quoties potes 210 deme, et residuo tan-",
+     "transcription": "cupis, numero annorum hegirae, si 210 excedat, quoties potes 210 deme, et residuo tan-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0234-body-L006",
+     "source_line_no": 10,
+     "tex": "tum utere; nam, singulis 210 annis [perfectis], annorum signa ad pristinum ordinem semper",
+     "transcription": "tum utere; nam, singulis 210 annis [perfectis], annorum signa ad pristinum ordinem semper",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 10,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0234-body-L007",
+     "source_line_no": 11,
+     "tex": "reveniunt (2). Annos ita repertos, addito anno in quo es si eius primus dies iam inceperit,",
+     "transcription": "reveniunt (2). Annos ita repertos, addito anno in quo es si eius primus dies iam inceperit,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0234-body-L008",
+     "source_line_no": 12,
+     "tex": "quaere in columna annorum [ab hegira] collectorum, et signum eis respondens sume. Si nu-",
+     "transcription": "quaere in columna annorum [ab hegira] collectorum, et signum eis respondens sume. Si nu-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0234-body-L009",
+     "source_line_no": 13,
+     "tex": "merum tuum in ea tabula non reperis, accipe signum numeri proxime inferioris in tabula",
+     "transcription": "merum tuum in ea tabula non reperis, accipe signum numeri proxime inferioris in tabula",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0234-body-L010",
+     "source_line_no": 14,
+     "tex": "notati; annos residuos quaere in tabula annorum singulorum, eorumque signum adde signo",
+     "transcription": "notati; annos residuos quaere in tabula annorum singulorum, eorumque signum adde signo",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0234-body-L011",
+     "source_line_no": 15,
+     "tex": "antea reperto. Si summa numerum septem excedit, de ea 7 deme; remanebit signum anni",
+     "transcription": "antea reperto. Si summa numerum septem excedit, de ea 7 deme; remanebit signum anni",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 15,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0234-body-L012",
+     "source_line_no": 16,
+     "tex": "quaesiti. Si contra tabula annorum singulorum uti necesse tibi non fuit, numero reperto sub",
+     "transcription": "quaesiti. Si contra tabula annorum singulorum uti necesse tibi non fuit, numero reperto sub",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0234-body-L013",
+     "source_line_no": 17,
+     "tex": "annis [ab hegira] collectis semper unum adde; aut, si mavis, in tabula annorum collectorum",
+     "transcription": "annis [ab hegira] collectis semper unum adde; aut, si mavis, in tabula annorum collectorum",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0234-body-L014",
+     "source_line_no": 18,
+     "tex": "annos praeter triginta quaere, in tabula annorum singulorum triginta, et quod ex utraque",
+     "transcription": "annos praeter triginta quaere, in tabula annorum singulorum triginta, et quod ex utraque",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0234-body-L015",
+     "source_line_no": 19,
+     "tex": "tabula inveneris in unum collige. Ambae viae ad reperiendum signum tui anni ducunt. Nu-",
+     "transcription": "tabula inveneris in unum collige. Ambae viae ad reperiendum signum tui anni ducunt. Nu-",
+     "semantic_anchor": null,
+     "margin_locator": "p. 219.",
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0234-body-L016",
+     "source_line_no": 20,
+     "tex": "merum repertum a die dominica proiice; exibit dies quo annus incipit, idest initium mensis",
+     "transcription": "merum repertum a die dominica proiice; exibit dies quo annus incipit, idest initium mensis",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 20,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0234-body-L017",
+     "source_line_no": 21,
+     "tex": "al–muḥarram (\\textbf{\\textit{b}}).",
+     "transcription": "al–muḥarram ({bi:b}).",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0234-body-L018",
+     "source_line_no": 22,
+     "tex": "\\Indent Si initium alterius mensis scire cupis, huius mensis signum in tabula mensium quaere,",
+     "transcription": "Si initium alterius mensis scire cupis, huius mensis signum in tabula mensium quaere,",
+     "semantic_anchor": "AB01-PDF0234-P02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0234-body-L019",
+     "source_line_no": 23,
+     "tex": "ipsumque signo anni adde; excedente summa numerum septem, de ea 7 deme, et residuum",
+     "transcription": "ipsumque signo anni adde; excedente summa numerum septem, de ea 7 deme, et residuum",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0234-body-L020",
+     "source_line_no": 24,
+     "tex": "a die dominica proiice; habebis initium mensis quaesiti. Hoc calculo utendum est ad invenien-",
+     "transcription": "a die dominica proiice; habebis initium mensis quaesiti. Hoc calculo utendum est ad invenien-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0234-body-L021",
+     "source_line_no": 25,
+     "tex": "dos motus stellarum in tabulis ad aeram Arabum descriptis; aliam rationem calculi ne adhi-",
+     "transcription": "dos motus stellarum in tabulis ad aeram Arabum descriptis; aliam rationem calculi ne adhi-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 25,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0234-body-L022",
+     "source_line_no": 26,
+     "tex": "beas, si quid magis vel minus quam haec praebeat.",
+     "transcription": "beas, si quid magis vel minus quam haec praebeat.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0234-body-L023",
+     "source_line_no": 27,
+     "tex": "\\Indent Si vis annos bisextiles Arabum cognoscere, annos hegirae divide per 30; si residuum",
+     "transcription": "Si vis annos bisextiles Arabum cognoscere, annos hegirae divide per 30; si residuum",
+     "semantic_anchor": "AB01-PDF0234-P03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0234-body-L024",
+     "source_line_no": 28,
+     "tex": "divisionis 2, 5, 7 (3), 10, 13, 16, 18 (4), 21, 24, 26 (5), 29 est, annus bisextilis habetur; alio-",
+     "transcription": "divisionis 2, 5, 7 (3), 10, 13, 16, 18 (4), 21, 24, 26 (5), 29 est, annus bisextilis habetur; alio-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0234-body-L025",
+     "source_line_no": 29,
+     "tex": "quin non. Id, si Deus vult, in tabula ad invenienda signa singulorum annorum ostendam. Apud",
+     "transcription": "quin non. Id, si Deus vult, in tabula ad invenienda signa singulorum annorum ostendam. Apud",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0234-body-L026",
+     "source_line_no": 30,
+     "tex": "Deum solum auxilium invenimus.",
+     "transcription": "Deum solum auxilium invenimus.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 30,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0234-body-L027",
+     "source_line_no": 33,
+     "tex": "\\CenterLine{\\textbf{B.}}",
+     "transcription": "**B.**",
+     "semantic_anchor": "AB01-PDF0234-H27",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0234-body-L028",
+     "source_line_no": 35,
+     "tex": "\\CenterLine{Caput de cognoscendis initiis mensium Romanorum}",
+     "transcription": "Caput de cognoscendis initiis mensium Romanorum",
+     "semantic_anchor": "AB01-PDF0234-H28",
+     "margin_locator": null,
+     "printed_line_number": 35,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0234-body-L029",
+     "source_line_no": 36,
+     "tex": "\\CenterLine{ad aeram Dhū ’l-qarnayn,}",
+     "transcription": "ad aeram Dhū ’l-qarnayn,",
+     "semantic_anchor": "AB01-PDF0234-H29",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0234-body-L030",
+     "source_line_no": 37,
+     "tex": "\\CenterLine{quae est per 28 dividenda, cum additione anni.}",
+     "transcription": "quae est per 28 dividenda, cum additione anni.",
+     "semantic_anchor": "AB01-PDF0234-H30",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0234-body-L031",
+     "source_line_no": 39,
+     "tex": "\\Indent Dicit [auctor]: Si diem hebdomadae in quem initium cuiuslibet mensis Romani incidit",
+     "transcription": "Dicit [auctor]: Si diem hebdomadae in quem initium cuiuslibet mensis Romani incidit",
+     "semantic_anchor": "AB01-PDF0234-P04",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0234-body-L032",
+     "source_line_no": 40,
+     "tex": "scire vis, annos aerae Dhū ’l–qarnayn, simul cum anno in quo ipse es licet unus dies tantum",
+     "transcription": "scire vis, annos aerae Dhū ’l–qarnayn, simul cum anno in quo ipse es licet unus dies tantum",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 40,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0234-body-L033",
+     "source_line_no": 41,
+     "tex": "mensis aylūl inceperit, sume, iisque semper annum adde quasi radicem praeteritam (6). De",
+     "transcription": "mensis aylūl inceperit, sume, iisque semper annum adde quasi radicem praeteritam (6). De",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    }
+   ]
+  },
+  {
+   "role": "notes_left",
+   "lines": [
+    {
+     "id": "AB01-PDF0234-notes_left-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (1) His litteris parva capita sequentia, quae",
+     "transcription": "(1) His litteris parva capita sequentia, quae",
+     "semantic_anchor": "AB01-PDF0234-N01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0234-notes_left-L002",
+     "source_line_no": null,
+     "tex": "tantum in textu Arabico Escurialensi leguntur et",
+     "transcription": "tantum in textu Arabico Escurialensi leguntur et",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0234-notes_left-L003",
+     "source_line_no": null,
+     "tex": "nullum numerum habent, distinxi.",
+     "transcription": "nullum numerum habent, distinxi.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0234-notes_left-L004",
+     "source_line_no": null,
+     "tex": "\\Indent (2) Cfr. tabulam fol. 157,v.",
+     "transcription": "(2) Cfr. tabulam fol. 157,v.",
+     "semantic_anchor": "AB01-PDF0234-N02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0234-notes_left-L005",
+     "source_line_no": null,
+     "tex": "\\Indent (3) Cod. 8.",
+     "transcription": "(3) Cod. 8.",
+     "semantic_anchor": "AB01-PDF0234-N03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  },
+  {
+   "role": "notes_right",
+   "lines": [
+    {
+     "id": "AB01-PDF0234-notes_right-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (4) Cod. 19.",
+     "transcription": "(4) Cod. 19.",
+     "semantic_anchor": "AB01-PDF0234-N04",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0234-notes_right-L002",
+     "source_line_no": null,
+     "tex": "\\Indent (5) Cod. 27.",
+     "transcription": "(5) Cod. 27.",
+     "semantic_anchor": "AB01-PDF0234-N05",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0234-notes_right-L003",
+     "source_line_no": null,
+     "tex": "\\Indent (6) Haec verba in codice corrupta; pro \\ArabicRun{ماصلا},",
+     "transcription": "(6) Haec verba in codice corrupta; pro ماصلا,",
+     "semantic_anchor": "AB01-PDF0234-N06",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0234-notes_right-L004",
+     "source_line_no": null,
+     "tex": "quod nullum sensum praebet, lego \\ArabicRun{ماضيا} « praeteri-",
+     "transcription": "quod nullum sensum praebet, lego ماضيا « praeteri-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0234-notes_right-L005",
+     "source_line_no": null,
+     "tex": "tam ». Ita quoque pag. 146, adn. 5.",
+     "transcription": "tam ». Ita quoque pag. 146, adn. 5.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  }
+ ]
+}
