@@ -1,0 +1,541 @@
+{
+ "anchor": "AB01-PDF0206",
+ "master_pdf_page": 206,
+ "printed_page": 117,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "margin_locators": [
+  {
+   "line_anchor": "AB01-PDF0206-body-L014",
+   "text": "p. 177."
+  }
+ ],
+ "observations": [
+  "body: the page begins with the head of chapter 48, set in a larger type and centred; the title is in two lines. The line numbers 5 to 35 stand in the left margin and the locator «p. 177.» (L14) in the right margin. The count of the lines runs through the head: 5 stands beside the first line of the title, 10 beside L6.",
+  "body L25: the letter of the reference (a) is bold italic; with chapter 48 the letters begin again at a.",
+  "notes_left L1: the letter of «adn. b» is bold italic.",
+  "body L28, notes_left L4: specks stand over the i of «qui» and over the first p of «apparitiones»; they are not signs."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0206-body-L001",
+     "source_line_no": 3,
+     "tex": "\\CenterLine{CAPUT XLVIII.}",
+     "transcription": "CAPUT XLVIII.",
+     "semantic_anchor": "AB01-PDF0206-H01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0206-body-L002",
+     "source_line_no": 5,
+     "tex": "\\CenterLine{De ortu et occasu, scilicet de apparitione et occultatione}",
+     "transcription": "De ortu et occasu, scilicet de apparitione et occultatione",
+     "semantic_anchor": "AB01-PDF0206-H02",
+     "margin_locator": null,
+     "printed_line_number": 5,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0206-body-L003",
+     "source_line_no": 6,
+     "tex": "\\CenterLine{quinque planetarum.}",
+     "transcription": "quinque planetarum.",
+     "semantic_anchor": "AB01-PDF0206-H03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0206-body-L004",
+     "source_line_no": 8,
+     "tex": "\\Indent Dicit [auctor]: Si planetarum ortum et occasum, scilicet apparitionem et occultationem",
+     "transcription": "Dicit [auctor]: Si planetarum ortum et occasum, scilicet apparitionem et occultationem",
+     "semantic_anchor": "AB01-PDF0206-P01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0206-body-L005",
+     "source_line_no": 9,
+     "tex": "scire cupis, in Saturno, Iove et Marte anomaliam [aequatam] observa; nam si a 0° ad 180°",
+     "transcription": "scire cupis, in Saturno, Iove et Marte anomaliam [aequatam] observa; nam si a 0° ad 180°",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0206-body-L006",
+     "source_line_no": 10,
+     "tex": "est, ortum matutinum habent; si a 180° ad 360°, occasum vespertinum. Venus et Mercurius",
+     "transcription": "est, ortum matutinum habent; si a 180° ad 360°, occasum vespertinum. Venus et Mercurius",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 10,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0206-body-L007",
+     "source_line_no": 11,
+     "tex": "autem, eo quod circa (1) Solem tunc veloci tunc tardo cursu moventur, respectu Solis quatuor",
+     "transcription": "autem, eo quod circa (1) Solem tunc veloci tunc tardo cursu moventur, respectu Solis quatuor",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0206-body-L008",
+     "source_line_no": 12,
+     "tex": "figuras habent. — Venus, eius anomalia aequata a 0° ad 137° (2) exstante, in ortu vespertino",
+     "transcription": "figuras habent. — Venus, eius anomalia aequata a 0° ad 137° (2) exstante, in ortu vespertino",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0206-body-L009",
+     "source_line_no": 13,
+     "tex": "reperitur, idque evenit cum in horizonte occidentali apparet; velocior tunc Sole movetur. A",
+     "transcription": "reperitur, idque evenit cum in horizonte occidentali apparet; velocior tunc Sole movetur. A",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0206-body-L010",
+     "source_line_no": 14,
+     "tex": "137° ad 180° anomaliae, est in occasu vespertino; tunc tarde movetur et regreditur ita ut eam",
+     "transcription": "137° ad 180° anomaliae, est in occasu vespertino; tunc tarde movetur et regreditur ita ut eam",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0206-body-L011",
+     "source_line_no": 15,
+     "tex": "Sol consequatur. A 180° ad 223° anomaliae, ortum matutinum habet, et Sole tardior est; de-",
+     "transcription": "Sol consequatur. A 180° ad 223° anomaliae, ortum matutinum habet, et Sole tardior est; de-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 15,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0206-body-L012",
+     "source_line_no": 16,
+     "tex": "mum a 223° ad 360° mane occidit, usque quo Solem consequatur et sub eius radiis occultetur,",
+     "transcription": "mum a 223° ad 360° mane occidit, usque quo Solem consequatur et sub eius radiis occultetur,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0206-body-L013",
+     "source_line_no": 17,
+     "tex": "nam est tunc Sole velocior. — Mercurius, anomalia aequata a 0° ad 112° exstante, vespere",
+     "transcription": "nam est tunc Sole velocior. — Mercurius, anomalia aequata a 0° ad 112° exstante, vespere",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0206-body-L014",
+     "source_line_no": 18,
+     "tex": "oritur; a 112° ad 180° anomaliae, vespere occidit; a 180° ad 248° mane oritur, et a 248° ad",
+     "transcription": "oritur; a 112° ad 180° anomaliae, vespere occidit; a 180° ad 248° mane oritur, et a 248° ad",
+     "semantic_anchor": null,
+     "margin_locator": "p. 177.",
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0206-body-L015",
+     "source_line_no": 19,
+     "tex": "360° mane occidit. Mercurii motus tarditas et velocitas fiunt ut in Venere vidimus.",
+     "transcription": "360° mane occidit. Mercurii motus tarditas et velocitas fiunt ut in Venere vidimus.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0206-body-L016",
+     "source_line_no": 20,
+     "tex": "\\Indent Si apparitionem matutinam Saturni, Iovis et Martis in oriente scire vis, quae est initium",
+     "transcription": "Si apparitionem matutinam Saturni, Iovis et Martis in oriente scire vis, quae est initium",
+     "semantic_anchor": "AB01-PDF0206-P02",
+     "margin_locator": null,
+     "printed_line_number": 20,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0206-body-L017",
+     "source_line_no": 21,
+     "tex": "eorum exitus de radiis usque ad apparitionem, cum Sol eos iam praetergressus sit, supputa",
+     "transcription": "eorum exitus de radiis usque ad apparitionem, cum Sol eos iam praetergressus sit, supputa",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0206-body-L018",
+     "source_line_no": 22,
+     "tex": "eorum anomaliam aequatam; nam si est prope 20° (3), planeta apparet. Occasus vespertinus,",
+     "transcription": "eorum anomaliam aequatam; nam si est prope 20° (3), planeta apparet. Occasus vespertinus,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0206-body-L019",
+     "source_line_no": 23,
+     "tex": "qui evenit cum Sol planetas illos consecutus sit et suis radiis occultet, habetur si anomalia",
+     "transcription": "qui evenit cum Sol planetas illos consecutus sit et suis radiis occultet, habetur si anomalia",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0206-body-L020",
+     "source_line_no": 24,
+     "tex": "aequata circiter 340° (4) sit. — In Venere et Mercurio, initium apparitionis vespertinae ab",
+     "transcription": "aequata circiter 340° (4) sit. — In Venere et Mercurio, initium apparitionis vespertinae ab",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0206-body-L021",
+     "source_line_no": 25,
+     "tex": "occidente fit si anomalia [aequata] prope 20° (5) est; si prope 340° (6) exstat, habetur initium",
+     "transcription": "occidente fit si anomalia [aequata] prope 20° (5) est; si prope 340° (6) exstat, habetur initium",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 25,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0206-body-L022",
+     "source_line_no": 26,
+     "tex": "occultationis matutinae ab oriente; si fere 160° (7), est initium occultationis vespertinae ab",
+     "transcription": "occultationis matutinae ab oriente; si fere 160° (7), est initium occultationis vespertinae ab",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0206-body-L023",
+     "source_line_no": 27,
+     "tex": "occidente; si denique fere 200° (8), est initium matutinae apparitionis ab oriente.",
+     "transcription": "occidente; si denique fere 200° (8), est initium matutinae apparitionis ab oriente.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0206-body-L024",
+     "source_line_no": 28,
+     "tex": "\\Indent Si initium ortus et occultationis planetarum calculo scire vis, arcum aequinoctialem appa-",
+     "transcription": "Si initium ortus et occultationis planetarum calculo scire vis, arcum aequinoctialem appa-",
+     "semantic_anchor": "AB01-PDF0206-P03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0206-body-L025",
+     "source_line_no": 29,
+     "tex": "ritionis (\\textbf{\\textit{a}}) quem unusquisque eorum habet, cognosce; hic arcus Saturno est 14° (9), Iovi 12°",
+     "transcription": "ritionis ({bi:a}) quem unusquisque eorum habet, cognosce; hic arcus Saturno est 14° (9), Iovi 12°",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0206-body-L026",
+     "source_line_no": 30,
+     "tex": "45′ (10), Marti 14° 30′ (11), Veneri 5° 40′ (12), Mercurio 11° 30′. Postea declinationem planetae",
+     "transcription": "45′ (10), Marti 14° 30′ (11), Veneri 5° 40′ (12), Mercurio 11° 30′. Postea declinationem planetae",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 30,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0206-body-L027",
+     "source_line_no": 31,
+     "tex": "et gradum [eclipticae] cum eo culminantem, iuxta latitudinem ipsius planetae, deprehende; ex",
+     "transcription": "et gradum [eclipticae] cum eo culminantem, iuxta latitudinem ipsius planetae, deprehende; ex",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0206-body-L028",
+     "source_line_no": 32,
+     "tex": "his cognosce eius arcum semidiurnum, qui est eius dimidia mora super Terram; denique tem-",
+     "transcription": "his cognosce eius arcum semidiurnum, qui est eius dimidia mora super Terram; denique tem-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0206-body-L029",
+     "source_line_no": 33,
+     "tex": "pora ascensionalia gradus qui cum eo ascendit vel occidit, ut docuimus inveni. Si gradus ascen-",
+     "transcription": "pora ascensionalia gradus qui cum eo ascendit vel occidit, ut docuimus inveni. Si gradus ascen-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0206-body-L030",
+     "source_line_no": 34,
+     "tex": "sionum vel occasuum inter planetam et Solem sunt aequales arcui apparitionis, eo die planeta",
+     "transcription": "sionum vel occasuum inter planetam et Solem sunt aequales arcui apparitionis, eo die planeta",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0206-body-L031",
+     "source_line_no": 35,
+     "tex": "apparebit aut occultabitur. Si apparitionem ex radiis supputas, et intervallum inter planetam et",
+     "transcription": "apparebit aut occultabitur. Si apparitionem ex radiis supputas, et intervallum inter planetam et",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 35,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0206-body-L032",
+     "source_line_no": 36,
+     "tex": "Solem minus est arcu apparitionis, planeta nondum apparuit; si arcum superat, apparitio iam",
+     "transcription": "Solem minus est arcu apparitionis, planeta nondum apparuit; si arcum superat, apparitio iam",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0206-body-L033",
+     "source_line_no": 37,
+     "tex": "evenit. Si occultationem consideras, et tempora occasuum vel ascensionum, — prout [planeta]",
+     "transcription": "evenit. Si occultationem consideras, et tempora occasuum vel ascensionum, — prout [planeta]",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0206-body-L034",
+     "source_line_no": 38,
+     "tex": "in alterutra horizontis plaga est, — inter planetam et Solem minora sunt arcu apparitionis,",
+     "transcription": "in alterutra horizontis plaga est, — inter planetam et Solem minora sunt arcu apparitionis,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    }
+   ]
+  },
+  {
+   "role": "notes_left",
+   "lines": [
+    {
+     "id": "AB01-PDF0206-notes_left-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (1) Cfr. adn. \\textbf{\\textit{b}} ad cap. XLVII.",
+     "transcription": "(1) Cfr. adn. {bi:b} ad cap. XLVII.",
+     "semantic_anchor": "AB01-PDF0206-N01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0206-notes_left-L002",
+     "source_line_no": null,
+     "tex": "\\Indent (2) Cod. 136°.",
+     "transcription": "(2) Cod. 136°.",
+     "semantic_anchor": "AB01-PDF0206-N02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0206-notes_left-L003",
+     "source_line_no": null,
+     "tex": "\\Indent (3) Cod. 26°. — Numeri anomaliae aequatae ad",
+     "transcription": "(3) Cod. 26°. — Numeri anomaliae aequatae ad",
+     "semantic_anchor": "AB01-PDF0206-N03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0206-notes_left-L004",
+     "source_line_no": null,
+     "tex": "apparitiones et occultationes, leguntur ut recepi apud",
+     "transcription": "apparitiones et occultationes, leguntur ut recepi apud",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0206-notes_left-L005",
+     "source_line_no": null,
+     "tex": "Platonem et in \\textit{Canone} \\Name{Theonis}, ed. Halma, t. I,",
+     "transcription": "Platonem et in *Canone* {sp:Theonis}, ed. Halma, t. I,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0206-notes_left-L006",
+     "source_line_no": null,
+     "tex": "p. 62-63.",
+     "transcription": "p. 62-63.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0206-notes_left-L007",
+     "source_line_no": null,
+     "tex": "\\Indent (4) Cod. 348°.",
+     "transcription": "(4) Cod. 348°.",
+     "semantic_anchor": "AB01-PDF0206-N04",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0206-notes_left-L008",
+     "source_line_no": null,
+     "tex": "\\Indent (5) Cod. 26°.",
+     "transcription": "(5) Cod. 26°.",
+     "semantic_anchor": "AB01-PDF0206-N05",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  },
+  {
+   "role": "notes_right",
+   "lines": [
+    {
+     "id": "AB01-PDF0206-notes_right-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (6) Cod. 348°.",
+     "transcription": "(6) Cod. 348°.",
+     "semantic_anchor": "AB01-PDF0206-N06",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0206-notes_right-L002",
+     "source_line_no": null,
+     "tex": "\\Indent (7) Plato 360°.",
+     "transcription": "(7) Plato 360°.",
+     "semantic_anchor": "AB01-PDF0206-N07",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0206-notes_right-L003",
+     "source_line_no": null,
+     "tex": "\\Indent (8) Cod. 170°.",
+     "transcription": "(8) Cod. 170°.",
+     "semantic_anchor": "AB01-PDF0206-N08",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0206-notes_right-L004",
+     "source_line_no": null,
+     "tex": "\\Indent (9) Cod. 16°. — Sunt numeri \\textit{Almag.} XIII, 7",
+     "transcription": "(9) Cod. 16°. — Sunt numeri *Almag.* XIII, 7",
+     "semantic_anchor": "AB01-PDF0206-N09",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0206-notes_right-L005",
+     "source_line_no": null,
+     "tex": "(ed. Halma, t. II, p. 419).",
+     "transcription": "(ed. Halma, t. II, p. 419).",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0206-notes_right-L006",
+     "source_line_no": null,
+     "tex": "\\Indent (10) Plato 12° 40′.",
+     "transcription": "(10) Plato 12° 40′.",
+     "semantic_anchor": "AB01-PDF0206-N10",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0206-notes_right-L007",
+     "source_line_no": null,
+     "tex": "\\Indent (11) Cod. 16° 30′.",
+     "transcription": "(11) Cod. 16° 30′.",
+     "semantic_anchor": "AB01-PDF0206-N11",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0206-notes_right-L008",
+     "source_line_no": null,
+     "tex": "\\Indent (12) Cod. 6° 40′; Plato 2° 40′.",
+     "transcription": "(12) Cod. 6° 40′; Plato 2° 40′.",
+     "semantic_anchor": "AB01-PDF0206-N12",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  }
+ ]
+}
