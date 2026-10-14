@@ -59,6 +59,7 @@ Transcription format (UTF-8; one printed line per source line, as printed, with 
   @notes                 the footnotes follow, left column; @col switches to the right column (a thin rule is set
                          between the two columns, as printed); @notes1 one column
   @sig TEXT              the signature at the foot of the page
+  @tail MM FILE          the ornament that closes a part, redrawn in figures/FILE.tex, centred MM below the notes
   @obs TEXT              an observation on the print (a letter that did not print, a broken sign), kept in the record
   @innotes LEN           inside a @wrap block: the notes are printed in the column beside the figure, under its lines;
                          a rule LEN mm long is set and the following lines are the notes (small type, no numbers)
@@ -265,7 +266,7 @@ def parse(path):
     lines = path.read_text(encoding="utf-8").split("\n")
     m = re.match(r"@page (\d+) (\d+)", lines[0])
     rec = {"pdf": int(m.group(1)), "pp": int(m.group(2)), "body": [], "notes_left": [], "notes_right": [],
-           "notes": [], "sig": "", "blank": False, "obs": []}
+           "notes": [], "sig": "", "tail": None, "blank": False, "obs": []}
     part, raw = "body", None
     for ln in lines[1:]:
         if raw is not None:
@@ -285,6 +286,9 @@ def parse(path):
                 part = {"@notes": "notes_left", "@col": "notes_right", "@notes1": "notes"}[cmd]
             elif cmd == "@sig":
                 rec["sig"] = arg
+            elif cmd == "@tail":
+                mm, fname = arg.split()
+                rec["tail"] = (float(mm), fname)
             elif cmd == "@obs":
                 rec["obs"].append(arg)
             elif cmd == "@blank":
@@ -973,6 +977,10 @@ def page(rec):
             tex, recs = section(rec[role], prefix, role, False)
             out += tex + [r"\end{minipage}"]
             sections.append({"role": role, "lines": recs})
+    if rec["tail"]:  # the ornament that closes a part, redrawn in figures/FILE.tex, centred MM below the notes
+        mm, fname = rec["tail"]
+        out.append(r"\par\vspace{" + f"{mm:.2f}" + r"mm}\noindent\makebox[\linewidth][c]{\input{figures/" + fname
+                   + r"}}")
     if rec["sig"]:
         out.append(r"\par\vspace{5mm}\hfill{\fontsize{8}{10}\selectfont " + markup(rec["sig"]) + r"}\hspace{10mm}")
     record = {"anchor": prefix, "master_pdf_page": rec["pdf"], "printed_page": rec["pp"], "source": "SRC01",
@@ -986,6 +994,8 @@ def page(rec):
               "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs "
                                        "read on enlarged images. Not reviewed by a person.",
               "sections": sections}
+    if rec["tail"]:
+        record["tailpiece"] = f"[ornament, redrawn: figures/{rec['tail'][1]}.tex]"
     return "\n".join(out), record
 
 
