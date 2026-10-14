@@ -60,6 +60,8 @@ Transcription format (UTF-8; one printed line per source line, as printed, with 
                          between the two columns, as printed); @notes1 one column
   @sig TEXT              the signature at the foot of the page
   @obs TEXT              an observation on the print (a letter that did not print, a broken sign), kept in the record
+  @innotes LEN           inside a @wrap block: the notes are printed in the column beside the figure, under its lines;
+                         a rule LEN mm long is set and the following lines are the notes (small type, no numbers)
   @lineno N              the printed count of the next line of the body, where the count of the print departs from
                          the count of the lines of the page (the print numbers every fifth line in the margin)
   ^ TEXT                 a line that begins a paragraph or a footnote (indented); ^^ TEXT indented twice
@@ -287,7 +289,7 @@ def parse(path):
                          "@small", "@normal", "@rowgap", "@hrule", "@wrap", "@wrapr", "@endwrap", "@brace", "@pos",
                          "@posrule", "@posbrace", "@hrow", "@at", "@rowsep", "@colpad", "@hspan", "@spanbrace",
                          "@cellrule", "@figc", "@figl",
-                         "@fontsize", "@lineno"):
+                         "@fontsize", "@lineno", "@innotes"):
                 rec[part].append((cmd[1:], arg))
             else:
                 raise SystemExit(f"{path.name}: unknown directive {cmd}")
@@ -698,6 +700,11 @@ def section(items, prefix, role, numbered):
         if kind == "lineno":
             pn = int(text) - 1
             continue
+        if kind == "innotes":  # the notes in the column beside a figure, under a short rule
+            role, numbered, n = "notes", False, 0
+            out.append(r"\par\vspace{7pt}\noindent\rule[.5ex]{" + (text.strip() or "12") + r"mm}{.4pt}\par"
+                       r"\vspace{5pt}\fontsize{9}{11.5}\selectfont")
+            continue
         if kind not in ("cols", "colpad", "calcset", "rowsep", "small", "normal", "fontsize"):
             top = False
         if kind == "cols":
@@ -937,7 +944,9 @@ def page(rec):
         out.append(r"\null")
     tex, recs = section(rec["body"], prefix, "body", True)
     out += tex
-    sections.append({"role": "body", "lines": recs})
+    sections.append({"role": "body", "lines": [r for r in recs if "-notes-" not in r["id"]]})
+    if any("-notes-" in r["id"] for r in recs):  # notes set beside a figure (@innotes)
+        sections.append({"role": "notes", "lines": [r for r in recs if "-notes-" in r["id"]]})
     if rec["notes"]:
         out.append(r"\par\vspace{6pt}" + NOTE_RULE + r"\vspace{5pt}{\fontsize{9}{11.5}\selectfont")
         tex, recs = section(rec["notes"], prefix, "notes", False)
