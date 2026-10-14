@@ -1,0 +1,535 @@
+{
+ "anchor": "AB01-PDF0209",
+ "master_pdf_page": 209,
+ "printed_page": 120,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "margin_locators": [
+  {
+   "line_anchor": "AB01-PDF0209-body-L019",
+   "text": "p. 182."
+  }
+ ],
+ "observations": [
+  "body: the line numbers 5 to 35 stand in the right margin and the locator «p. 182.» (L19) in the left margin. In «p. 182.» the 2 is printed broken, its top curl and its foot apart; read as 182 after «p. 181.» (p. 119). The count of the lines runs through the spaces and the head of chapter 50: 10 stands beside «CAPUT L.», 15 beside L11.",
+  "body L8-L10: the head of the chapter is set in a larger type and centred; the title is in two lines.",
+  "body L3-L4: the transliterations are printed «ash–Shi‘rà al–yamāniyyah» and «ash–Shi‘rà ash–sha’miyyah», with the ‘ayn as a turned comma and a grave accent on the final a (measured on the scan); in «sha’miyyah» the hamza is written ’.",
+  "body L7, L14: the letters of the references (b) and (a) are bold italic; with chapter 50 the letters begin again at a.",
+  "body L15, L19, L26, L27, L32, L34, notes_right L4, L6: «1ᵖ», «64ᵖ», «33ᵖ», «115ᵖ», «38ᵖ» and «18ᵖ» are written with a small raised italic p (partes).",
+  "body L20: in «αἰθήρ» the eta is printed broken, its first stroke joined to the theta.",
+  "body L28, L30: a speck stands before «terminum»; the e of «ea» after «In» has a hook at its foot, like ę.",
+  "notes_left L1, L3: a speck stands before «(1)»; the closing parenthesis of «(3)» is printed broken."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0209-body-L001",
+     "source_line_no": 1,
+     "tex": "\\Indent Quantitas necessaria ad apparitionem et occultationem stellarum fixarum deprehenditur",
+     "transcription": "Quantitas necessaria ad apparitionem et occultationem stellarum fixarum deprehenditur",
+     "semantic_anchor": "AB01-PDF0209-P01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0209-body-L002",
+     "source_line_no": 2,
+     "tex": "ex eo sex magnitudinis ordinum in quem ipsae incidunt. Dicunt enim arcum apparitionis",
+     "transcription": "ex eo sex magnitudinis ordinum in quem ipsae incidunt. Dicunt enim arcum apparitionis",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0209-body-L003",
+     "source_line_no": 3,
+     "tex": "et occultationis stellarum primae magnitudinis, ut sunt ash–Shi‘rà al–yamāniyyah (1), ash–",
+     "transcription": "et occultationis stellarum primae magnitudinis, ut sunt ash–Shi‘rà al–yamāniyyah (1), ash–",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0209-body-L004",
+     "source_line_no": 4,
+     "tex": "–Shi‘rà ash–sha’miyyah (2), Cor Leonis (3), ambo Simāk (4), ultima Fluvii (5) aliaeque, com-",
+     "transcription": "–Shi‘rà ash–sha’miyyah (2), Cor Leonis (3), ambo Simāk (4), ultima Fluvii (5) aliaeque, com-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0209-body-L005",
+     "source_line_no": 5,
+     "tex": "plecti 15 gradus (6); et hi sunt gradus temporis aequatoris. Reliquos magnitudinum ordines",
+     "transcription": "plecti 15 gradus (6); et hi sunt gradus temporis aequatoris. Reliquos magnitudinum ordines",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 5,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0209-body-L006",
+     "source_line_no": 6,
+     "tex": "habere arcus ordinatim super 15° crescentes, usque ad minimam magnitudinem, quae arcu",
+     "transcription": "habere arcus ordinatim super 15° crescentes, usque ad minimam magnitudinem, quae arcu",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0209-body-L007",
+     "source_line_no": 7,
+     "tex": "fere unius signi appareat et occultetur (\\textbf{\\textit{b}}).",
+     "transcription": "fere unius signi appareat et occultetur ({bi:b}).",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0209-body-L008",
+     "source_line_no": 10,
+     "tex": "\\CenterLine{CAPUT L.}",
+     "transcription": "CAPUT L.",
+     "semantic_anchor": "AB01-PDF0209-H08",
+     "margin_locator": null,
+     "printed_line_number": 10,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0209-body-L009",
+     "source_line_no": 12,
+     "tex": "\\CenterLine{De planetarum distantiis et diametris, de magnitudine eorum corporum}",
+     "transcription": "De planetarum distantiis et diametris, de magnitudine eorum corporum",
+     "semantic_anchor": "AB01-PDF0209-H09",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0209-body-L010",
+     "source_line_no": 13,
+     "tex": "\\CenterLine{et sphaerarum, ut traduntur iuxta ea quae veteres narraverunt.}",
+     "transcription": "et sphaerarum, ut traduntur iuxta ea quae veteres narraverunt.",
+     "semantic_anchor": "AB01-PDF0209-H10",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0209-body-L011",
+     "source_line_no": 15,
+     "tex": "\\Indent Dicit [auctor]: Solis atque Lunae distantias, diametros et magnitudines iam exposuimus",
+     "transcription": "Dicit [auctor]: Solis atque Lunae distantias, diametros et magnitudines iam exposuimus",
+     "semantic_anchor": "AB01-PDF0209-P02",
+     "margin_locator": null,
+     "printed_line_number": 15,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0209-body-L012",
+     "source_line_no": 16,
+     "tex": "ad fidem Almagesti et secundum id quod observatione eclipsium reperimus (7); nunc igitur",
+     "transcription": "ad fidem Almagesti et secundum id quod observatione eclipsium reperimus (7); nunc igitur",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0209-body-L013",
+     "source_line_no": 17,
+     "tex": "reliquas sphaeras, usque ad sphaeram Saturni et sphaeram stellarum fixarum, describere inci-",
+     "transcription": "reliquas sphaeras, usque ad sphaeram Saturni et sphaeram stellarum fixarum, describere inci-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0209-body-L014",
+     "source_line_no": 18,
+     "tex": "piamus, iuxta ea quae recentiores sapientes post (8) Ptolemaeum longo labore statuerunt (\\textbf{\\textit{a}}).",
+     "transcription": "piamus, iuxta ea quae recentiores sapientes post (8) Ptolemaeum longo labore statuerunt ({bi:a}).",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0209-body-L015",
+     "source_line_no": 19,
+     "tex": "Dixerunt enim distantiam apogeam Lunae, si Terrae semidiametrus 1\\textsuperscript{\\textit{p}} ponatur, 64\\textsuperscript{\\textit{p}} 10′ com-",
+     "transcription": "Dixerunt enim distantiam apogeam Lunae, si Terrae semidiametrus 1{sup:*p*} ponatur, 64{sup:*p*} 10′ com-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0209-body-L016",
+     "source_line_no": 20,
+     "tex": "plecti, et hanc esse distantiam perigeam Mercurii; ambas sphaeras autem Mercurii et Veneris",
+     "transcription": "plecti, et hanc esse distantiam perigeam Mercurii; ambas sphaeras autem Mercurii et Veneris",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 20,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0209-body-L017",
+     "source_line_no": 21,
+     "tex": "inter longinquitatem maximam Lunae et minimam Solis contineri; terminum denique aeris et",
+     "transcription": "inter longinquitatem maximam Lunae et minimam Solis contineri; terminum denique aeris et",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0209-body-L018",
+     "source_line_no": 22,
+     "tex": "ignis esse distantiam perigeam Lunae, evenientem cum Luna ab alterutra oppositionis parte,",
+     "transcription": "ignis esse distantiam perigeam Lunae, evenientem cum Luna ab alterutra oppositionis parte,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0209-body-L019",
+     "source_line_no": 23,
+     "tex": "scilicet in quadratura media respectu Solis sit; tunc Lunam a Terra manifeste 33\\textsuperscript{\\textit{p}} 33′ (9)",
+     "transcription": "scilicet in quadratura media respectu Solis sit; tunc Lunam a Terra manifeste 33{sup:*p*} 33′ (9)",
+     "semantic_anchor": null,
+     "margin_locator": "p. 182.",
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0209-body-L020",
+     "source_line_no": 24,
+     "tex": "abesse. Ultra hunc locum, ut auctores illi scribunt, aethera (\\textgreek{αἰθήρ}) protendi, in quo stellae",
+     "transcription": "abesse. Ultra hunc locum, ut auctores illi scribunt, aethera (αἰθήρ) protendi, in quo stellae",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0209-body-L021",
+     "source_line_no": 25,
+     "tex": "moveantur. Duo reliqua elementa, terram scilicet et aquam, quantitatem semidiametri Terrae",
+     "transcription": "moveantur. Duo reliqua elementa, terram scilicet et aquam, quantitatem semidiametri Terrae",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 25,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0209-body-L022",
+     "source_line_no": 26,
+     "tex": "non excedere. Haec quatuor elementa, terram, aquam, aera, ignem, rerum naturalium ter-",
+     "transcription": "non excedere. Haec quatuor elementa, terram, aquam, aera, ignem, rerum naturalium ter-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0209-body-L023",
+     "source_line_no": 27,
+     "tex": "restrium originem esse, atque vitae et corruptionis causam; cum ipsa varient, res mutari prout",
+     "transcription": "restrium originem esse, atque vitae et corruptionis causam; cum ipsa varient, res mutari prout",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0209-body-L024",
+     "source_line_no": 28,
+     "tex": "magis vel minus a Sole, Luna stellisque absint; et quia elementa intra spatium a perigeo",
+     "transcription": "magis vel minus a Sole, Luna stellisque absint; et quia elementa intra spatium a perigeo",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0209-body-L025",
+     "source_line_no": 29,
+     "tex": "Lunae definito mutentur, etiam cuncta animalia et plantas variationibus affici. Spatium hoc,",
+     "transcription": "Lunae definito mutentur, etiam cuncta animalia et plantas variationibus affici. Spatium hoc,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0209-body-L026",
+     "source_line_no": 30,
+     "tex": "quod a centro Terrae ad aethera protendatur, 33\\textsuperscript{\\textit{p}} 33′ (10) a centro Terrae, ut diximus, por-",
+     "transcription": "quod a centro Terrae ad aethera protendatur, 33{sup:*p*} 33′ (10) a centro Terrae, ut diximus, por-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 30,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0209-body-L027",
+     "source_line_no": 31,
+     "tex": "rigi, secundum rationem qua semidiametrus Terrae 1\\textsuperscript{\\textit{p}} ponatur; ibi terram, aera, aquam,",
+     "transcription": "rigi, secundum rationem qua semidiametrus Terrae 1{sup:*p*} ponatur; ibi terram, aera, aquam,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0209-body-L028",
+     "source_line_no": 32,
+     "tex": "ignem desinere. Ultra hunc terminum quintam naturam existere, de qua nihil certi dici possit,",
+     "transcription": "ignem desinere. Ultra hunc terminum quintam naturam existere, de qua nihil certi dici possit,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0209-body-L029",
+     "source_line_no": 33,
+     "tex": "quia sensibus nostris haud percipiatur, talemque essentiam habeat quam mens comprehendere",
+     "transcription": "quia sensibus nostris haud percipiatur, talemque essentiam habeat quam mens comprehendere",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0209-body-L030",
+     "source_line_no": 34,
+     "tex": "nequeat. In ea, supra sphaeram Lunae, sphaeram Mercurii volvi, cuius magnitudinem dicuntur",
+     "transcription": "nequeat. In ea, supra sphaeram Lunae, sphaeram Mercurii volvi, cuius magnitudinem dicuntur",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0209-body-L031",
+     "source_line_no": 35,
+     "tex": "in locis apogei et perigei metiti esse, eamque variare invenisse ut a 2 $\\qfrac{1}{3}$ + $\\qfrac{1}{4}$ [= 2 $\\qfrac{7}{12}$] ad 1.",
+     "transcription": "in locis apogei et perigei metiti esse, eamque variare invenisse ut a 2 {sfrac:1/3} + {sfrac:1/4} [= 2 {sfrac:7/12}] ad 1.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 35,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0209-body-L032",
+     "source_line_no": 36,
+     "tex": "Cum igitur distantia perigea Mercurii ut apogea Lunae sit, idest 64\\textsuperscript{\\textit{p}} 10′, maximam distantiam",
+     "transcription": "Cum igitur distantia perigea Mercurii ut apogea Lunae sit, idest 64{sup:*p*} 10′, maximam distantiam",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0209-body-L033",
+     "source_line_no": 37,
+     "tex": "fere 166 semidiametros Terrae complecti; et si longinquitati perigeae addatur semidifferentia",
+     "transcription": "fere 166 semidiametros Terrae complecti; et si longinquitati perigeae addatur semidifferentia",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0209-body-L034",
+     "source_line_no": 38,
+     "tex": "harum duarum longinquitatum, mediam distantiam Mercurii 115\\textsuperscript{\\textit{p}} (11) inveniri. Postea eius",
+     "transcription": "harum duarum longinquitatum, mediam distantiam Mercurii 115{sup:*p*} (11) inveniri. Postea eius",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0209-body-L035",
+     "source_line_no": 39,
+     "tex": "magnitudinem in media distantia cum magnitudine Solis in media longinquitate compara-",
+     "transcription": "magnitudinem in media distantia cum magnitudine Solis in media longinquitate compara-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    }
+   ]
+  },
+  {
+   "role": "notes_left",
+   "lines": [
+    {
+     "id": "AB01-PDF0209-notes_left-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (1) Sirius, \\textgreek{α} Canis maioris.",
+     "transcription": "(1) Sirius, α Canis maioris.",
+     "semantic_anchor": "AB01-PDF0209-N01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0209-notes_left-L002",
+     "source_line_no": null,
+     "tex": "\\Indent (2) \\textgreek{α} Canis minoris.",
+     "transcription": "(2) α Canis minoris.",
+     "semantic_anchor": "AB01-PDF0209-N02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0209-notes_left-L003",
+     "source_line_no": null,
+     "tex": "\\Indent (3) \\textgreek{α} Leonis.",
+     "transcription": "(3) α Leonis.",
+     "semantic_anchor": "AB01-PDF0209-N03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0209-notes_left-L004",
+     "source_line_no": null,
+     "tex": "\\Indent (4) \\textgreek{α} Virginis et \\textgreek{α} Bootis.",
+     "transcription": "(4) α Virginis et α Bootis.",
+     "semantic_anchor": "AB01-PDF0209-N04",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0209-notes_left-L005",
+     "source_line_no": null,
+     "tex": "\\Indent (5) \\textgreek{α} Eridani.",
+     "transcription": "(5) α Eridani.",
+     "semantic_anchor": "AB01-PDF0209-N05",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0209-notes_left-L006",
+     "source_line_no": null,
+     "tex": "\\Indent (6) Plato 12°.",
+     "transcription": "(6) Plato 12°.",
+     "semantic_anchor": "AB01-PDF0209-N06",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0209-notes_left-L007",
+     "source_line_no": null,
+     "tex": "\\Indent (7) Cap. XXX.",
+     "transcription": "(7) Cap. XXX.",
+     "semantic_anchor": "AB01-PDF0209-N07",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  },
+  {
+   "role": "notes_right",
+   "lines": [
+    {
+     "id": "AB01-PDF0209-notes_right-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (8) Cod.: « ante »; Plato: « sicut quam pluri-",
+     "transcription": "(8) Cod.: « ante »; Plato: « sicut quam pluri-",
+     "semantic_anchor": "AB01-PDF0209-N08",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0209-notes_right-L002",
+     "source_line_no": null,
+     "tex": "« mum sapientes post Ptolemaei tempus facere vo-",
+     "transcription": "« mum sapientes post Ptolemaei tempus facere vo-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0209-notes_right-L003",
+     "source_line_no": null,
+     "tex": "« luerunt ».",
+     "transcription": "« luerunt ».",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0209-notes_right-L004",
+     "source_line_no": null,
+     "tex": "\\Indent (9) Cod. 38\\textsuperscript{\\textit{p}} 33′; Plato 18\\textsuperscript{\\textit{p}} 38′. Cfr. cap. XXXIX,",
+     "transcription": "(9) Cod. 38{sup:*p*} 33′; Plato 18{sup:*p*} 38′. Cfr. cap. XXXIX,",
+     "semantic_anchor": "AB01-PDF0209-N09",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0209-notes_right-L005",
+     "source_line_no": null,
+     "tex": "p. 78.",
+     "transcription": "p. 78.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0209-notes_right-L006",
+     "source_line_no": null,
+     "tex": "\\Indent (10) Cod. 38\\textsuperscript{\\textit{p}} 33′; Plato 18\\textsuperscript{\\textit{p}} 38′.",
+     "transcription": "(10) Cod. 38{sup:*p*} 33′; Plato 18{sup:*p*} 38′.",
+     "semantic_anchor": "AB01-PDF0209-N10",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0209-notes_right-L007",
+     "source_line_no": null,
+     "tex": "\\Indent (11) Plato 112.",
+     "transcription": "(11) Plato 112.",
+     "semantic_anchor": "AB01-PDF0209-N11",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  }
+ ]
+}
