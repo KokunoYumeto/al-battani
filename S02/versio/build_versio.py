@@ -824,7 +824,8 @@ def section(items, prefix, role, numbered):
             pn += 1
             lid = f"{prefix}-{role}-L{n:03d}"
             loc, nonum = "", False
-            if kind == "line":  # {loc:TEXT}: the locator printed in the margin beside this line; {nonum}: no number
+            if kind in ("line", "center", "title"):  # {loc:TEXT}: the locator printed in the margin beside this
+                # line; {nonum}: no number
                 mloc = re.search(r" ?\{loc:([^}]*)\}", text)
                 if mloc:
                     loc, text = mloc.group(1), text[:mloc.start()] + text[mloc.end():]
