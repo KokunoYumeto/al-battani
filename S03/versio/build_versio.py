@@ -14,6 +14,10 @@ Transcription format (UTF-8; one printed line per source line, as printed, with 
   @rule / @rule2 [MM]    a short centred rule / the double rule across the text (or MM wide, over a table)
   @blank                 the page is blank
   @verse H1 | H2         an Arabic verse, its two hemistichs in reading order (the first is set on the right)
+  @ar [R=MM] TEXT        a line of an Arabic paragraph in reading order, set right to left and justified across
+                         the measure (R=MM: the first line, indented MM from the right margin); {sup:..}
+                         inside it is a raised note number or asterisk
+  @rulel MM [PT]         a rule MM long at the left margin, on a line of its own (PT thick, default .4)
   @calc L | S | A | B | C | T   a line of a worked computation: label, sign, three numbers, tail (fixed columns;
                          a label beginning with > is set flush right); @calcrule the rule under the numbers;
                          @calcset INDENT LABEL SIGN NUM the column widths in mm
@@ -302,7 +306,7 @@ def parse(path):
                          "@calcset", "@cols", "@row", "@rowrule", "@mcols", "@mcnext", "@mcend", "@chead", "@skip",
                          "@small", "@normal", "@rowgap", "@hrule", "@wrap", "@wrapr", "@endwrap", "@brace", "@pos",
                          "@posrule", "@posbrace", "@hrow", "@at", "@rowsep", "@colpad", "@hspan", "@spanbrace",
-                         "@cellrule", "@figc", "@figl",
+                         "@cellrule", "@figc", "@figl", "@ar", "@rulel",
                          "@fontsize", "@lineno", "@innotes", "@numgap"):
                 rec[part].append((cmd[1:], arg))
             else:
@@ -838,7 +842,7 @@ def section(items, prefix, role, numbered):
                 continue
             out.append(r"\end{minipage}\par")
             continue
-        if kind in ("line", "center", "title", "verse", "calc", "row", "chead", "pos", "hrow", "at", "hspan"):
+        if kind in ("line", "center", "title", "verse", "calc", "row", "chead", "pos", "hrow", "at", "hspan", "ar"):
             n += 1
             pn += 1
             lid = f"{prefix}-{role}-L{n:03d}"
@@ -856,6 +860,13 @@ def section(items, prefix, role, numbered):
                 h1, h2 = [h.strip() for h in src.split("|")]
                 tex = (r"\CenterLine{\makebox[56mm][c]{\textarabic{" + h2 + r"}}\hspace{8mm}\makebox[56mm][c]{"
                        r"\textarabic{" + h1 + "}}}")
+            elif kind == "ar":  # a line of an Arabic paragraph, justified right to left across the measure
+                m_ = re.match(r"^R=([\d.]+)\s+(.*)$", src)
+                ind, src = (m_.group(1), m_.group(2)) if m_ else (None, src)
+                body = re.sub(r"\{sup:([^}]*)\}", r"\\textsuperscript{\1}", src)
+                # smashed: the lines stand at the leading of the block (@fontsize), as printed, whatever their marks
+                tex = (r"\smash{\makebox[\linewidth][s]{\textarabic{" + body + "}"
+                       + (r"\hspace*{" + ind + "mm}" if ind else "") + "}}")
             elif kind == "calc":
                 tex = calc_tex(src)
                 src = " ".join(c.strip().lstrip(">") for c in src.split("|") if c.strip())
@@ -919,6 +930,10 @@ def section(items, prefix, role, numbered):
                        + r"mm}\rule{" + str(3 * CALC["num"] + 1) + r"mm}{.4pt}\par\nointerlineskip\vspace{2pt}")
         elif kind == "vspace":
             out.append(r"\par\vspace{" + text + "mm}")
+        elif kind == "rulel":  # @rulel MM [PT]: a rule MM long at the left margin, on a line of its own
+            toks = text.split()
+            out.append(r"\par\noindent\rule[.5ex]{" + toks[0] + "mm}{" + (toks[1] if len(toks) > 1 else ".4")
+                       + r"pt}\par")
         elif kind == "rule":
             out.append(r"\par\noindent\makebox[\linewidth][c]{\rule[.5ex]{18mm}{.4pt}}\par")
         elif kind == "rule2":  # the double rule across the text, or across a table (@rule2 MM, @rule2 cols); with
