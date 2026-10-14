@@ -1,0 +1,556 @@
+{
+ "anchor": "AB01-PDF0150",
+ "master_pdf_page": 150,
+ "printed_page": 61,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "margin_locators": [
+  {
+   "line_anchor": "AB01-PDF0150-body-L011",
+   "text": "p. 92."
+  },
+  {
+   "line_anchor": "AB01-PDF0150-body-L035",
+   "text": "p. 93."
+  }
+ ],
+ "observations": [
+  "body: the line numbers 5 to 35 stand in the left margin and the locators «p. 92.» (L11) and «p. 93.» (L35) in the right margin.",
+  "body L12: the small raised ring of the degrees stands after the 4 of «4° 1/2», where a number of times is meant (note 4 refers to p. 60, line 15: the diameter of the Sun 5 1/2 diameters of the Earth); transcribed as printed.",
+  "notes_left L1, L3: the fractions are set over their bars, in the line of note 1 and in a line of their own in note 2; the full stop after the formula of note 1 stands raised.",
+  "notes_right L6: the dash at the head of the formula is the sign of the subtraction.",
+  "notes_right L7: the note ends with the closing quotation sign, without a full stop."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0150-body-L001",
+     "source_line_no": 1,
+     "tex": "transitu 0° 38′ 30″, et Solis diametrum 0° 31′ 20″; unde consequitur tunc diametrum lunarem",
+     "transcription": "transitu 0° 38′ 30″, et Solis diametrum 0° 31′ 20″; unde consequitur tunc diametrum lunarem",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0150-body-L002",
+     "source_line_no": 2,
+     "tex": "0° 1′ 50″ minorem esse diametro Solis, quae differentia est fere $\\qfrac{47}{150}$ (1) illorum 0° 5′ 50″ ex-",
+     "transcription": "0° 1′ 50″ minorem esse diametro Solis, quae differentia est fere {sfrac:47/150} (1) illorum 0° 5′ 50″ ex-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0150-body-L003",
+     "source_line_no": 3,
+     "tex": "primentium variationem diametri lunaris ab apogeo ad perigeum. Si haec [ratio] sumatur ex",
+     "transcription": "primentium variationem diametri lunaris ab apogeo ad perigeum. Si haec [ratio] sumatur ex",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0150-body-L004",
+     "source_line_no": 4,
+     "tex": "iis 10\\textsuperscript{\\textit{p}} 20′ quae sunt diametrus totus epicycli et quibus variat distantia Lunae a Terra tem-",
+     "transcription": "iis 10{sup:*p*} 20′ quae sunt diametrus totus epicycli et quibus variat distantia Lunae a Terra tem-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0150-body-L005",
+     "source_line_no": 5,
+     "tex": "poribus coniunctionum et oppositionum, remanet quantitas illius [differentiae] 3\\textsuperscript{\\textit{p}} $\\qfrac{1}{5}$ circiter.",
+     "transcription": "poribus coniunctionum et oppositionum, remanet quantitas illius [differentiae] 3{sup:*p*} {sfrac:1/5} circiter.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 5,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0150-body-L006",
+     "source_line_no": 6,
+     "tex": "Quae si de 64\\textsuperscript{\\textit{p}} 10′, scilicet de maxima distantia Lunae, demantur, invenitur longinquitatem",
+     "transcription": "Quae si de 64{sup:*p*} 10′, scilicet de maxima distantia Lunae, demantur, invenitur longinquitatem",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0150-body-L007",
+     "source_line_no": 7,
+     "tex": "geocentricam Lunae fere 60 $\\qfrac{29}{30}$ (2) vicibus [semidiametrum Terrae] complecti, cum Luna sit",
+     "transcription": "geocentricam Lunae fere 60 {sfrac:29/30} (2) vicibus [semidiametrum Terrae] complecti, cum Luna sit",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0150-body-L008",
+     "source_line_no": 8,
+     "tex": "in loco quo eius diametrus 0° 31′ 20″ est, et Solem totum nobis occultat. Si diametrus Lunae",
+     "transcription": "in loco quo eius diametrus 0° 31′ 20″ est, et Solem totum nobis occultat. Si diametrus Lunae",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0150-body-L009",
+     "source_line_no": 9,
+     "tex": "0° 31′ 20″ est, semidiametrus umbrae loco transitus Lunae fere 0° 40′ 40″ complectitur, quod",
+     "transcription": "0° 31′ 20″ est, semidiametrus umbrae loco transitus Lunae fere 0° 40′ 40″ complectitur, quod",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0150-body-L010",
+     "source_line_no": 10,
+     "tex": "vicinum est quantitati a Ptolemaeo relatae. Si 18 $\\qfrac{4}{5}$ in 60 $\\qfrac{29}{30}$ multiplicemus, longinquitas",
+     "transcription": "vicinum est quantitati a Ptolemaeo relatae. Si 18 {sfrac:4/5} in 60 {sfrac:29/30} multiplicemus, longinquitas",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 10,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0150-body-L011",
+     "source_line_no": 11,
+     "tex": "geocentrica Solis in apogeo proveniet fere 1146 (3) vicibus ut semidiametrus Terrae; quod cum",
+     "transcription": "geocentrica Solis in apogeo proveniet fere 1146 (3) vicibus ut semidiametrus Terrae; quod cum",
+     "semantic_anchor": null,
+     "margin_locator": "p. 92.",
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0150-body-L012",
+     "source_line_no": 12,
+     "tex": "per 4° $\\qfrac{1}{2}$ (4), quae circiter sunt inter diametrum Solis et diametrum Terrae, dividantur, patet",
+     "transcription": "per 4° {sfrac:1/2} (4), quae circiter sunt inter diametrum Solis et diametrum Terrae, dividantur, patet",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0150-body-L013",
+     "source_line_no": 13,
+     "tex": "centrum Terrae ab extrema umbra 254 $\\qfrac{2}{3}$ (5) semidiametris terrestribus distare. Et cum dia-",
+     "transcription": "centrum Terrae ab extrema umbra 254 {sfrac:2/3} (5) semidiametris terrestribus distare. Et cum dia-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0150-body-L014",
+     "source_line_no": 14,
+     "tex": "metrus tota epicycli solaris, ut iam [in cap. XXVIII] vidimus, duplum excentricitatis sit, idest",
+     "transcription": "metrus tota epicycli solaris, ut iam [in cap. XXVIII] vidimus, duplum excentricitatis sit, idest",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0150-body-L015",
+     "source_line_no": 15,
+     "tex": "4\\textsuperscript{\\textit{p}} $\\qfrac{1}{6}$ fere complectatur, variatio distantiae geocentricae Solis fere ut 76 semidiametri Terrae",
+     "transcription": "4{sup:*p*} {sfrac:1/6} fere complectatur, variatio distantiae geocentricae Solis fere ut 76 semidiametri Terrae",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 15,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0150-body-L016",
+     "source_line_no": 16,
+     "tex": "erit, quorum dimidia pars, scilicet 38, ad longinquitatem mediam pertinent. Est igitur minima",
+     "transcription": "erit, quorum dimidia pars, scilicet 38, ad longinquitatem mediam pertinent. Est igitur minima",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0150-body-L017",
+     "source_line_no": 17,
+     "tex": "distantia geocentrica Solis ut 1070 semidiametri Terrae; media ut 1108; maxima ut 1146.",
+     "transcription": "distantia geocentrica Solis ut 1070 semidiametri Terrae; media ut 1108; maxima ut 1146.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0150-body-L018",
+     "source_line_no": 18,
+     "tex": "Luna autem nobis Solem occultat, quando a Sole 1085 semidiametris Terrae distat (6). Haec",
+     "transcription": "Luna autem nobis Solem occultat, quando a Sole 1085 semidiametris Terrae distat (6). Haec",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0150-body-L019",
+     "source_line_no": 19,
+     "tex": "est proportio quam per eclipses solares reperimus.",
+     "transcription": "est proportio quam per eclipses solares reperimus.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0150-body-L020",
+     "source_line_no": 20,
+     "tex": "\\Indent Lux Lunae a Sole provenit; eius incrementum et decrementum igitur secundum distan-",
+     "transcription": "Lux Lunae a Sole provenit; eius incrementum et decrementum igitur secundum distan-",
+     "semantic_anchor": "AB01-PDF0150-P01",
+     "margin_locator": null,
+     "printed_line_number": 20,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0150-body-L021",
+     "source_line_no": 21,
+     "tex": "tias Lunae a Sole fiunt. Cuiusvis sphaerae dimidia pars tantum conspici potest, quae oculis",
+     "transcription": "tias Lunae a Sole fiunt. Cuiusvis sphaerae dimidia pars tantum conspici potest, quae oculis",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0150-body-L022",
+     "source_line_no": 22,
+     "tex": "opponitur; cum igitur, medio mense lunari, Luna lumine plena apparet, hemisphaerium eius",
+     "transcription": "opponitur; cum igitur, medio mense lunari, Luna lumine plena apparet, hemisphaerium eius",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0150-body-L023",
+     "source_line_no": 23,
+     "tex": "ante nostros oculos stans idem est ac illud quod Solem prospectat. Sed cum, ut in fine mensis",
+     "transcription": "ante nostros oculos stans idem est ac illud quod Solem prospectat. Sed cum, ut in fine mensis",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0150-body-L024",
+     "source_line_no": 24,
+     "tex": "lunaris contingit, hemisphaeriorum alterum Terram, alterum Solem prospiciat, nullum in Luna",
+     "transcription": "lunaris contingit, hemisphaeriorum alterum Terram, alterum Solem prospiciat, nullum in Luna",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0150-body-L025",
+     "source_line_no": 25,
+     "tex": "nitorem videmus. Inter haec duo extrema, lux apparet iuxta quantitatem hemisphaerii Solem",
+     "transcription": "nitorem videmus. Inter haec duo extrema, lux apparet iuxta quantitatem hemisphaerii Solem",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 25,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0150-body-L026",
+     "source_line_no": 26,
+     "tex": "prospicientis quae in hemisphaerium prae nostris oculis stans incidit; quo magis igitur ab ex-",
+     "transcription": "prospicientis quae in hemisphaerium prae nostris oculis stans incidit; quo magis igitur ab ex-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0150-body-L027",
+     "source_line_no": 27,
+     "tex": "tremo mense Sol progreditur, eo magis lumen lunare crescit, donec Sol Lunae fere diame-",
+     "transcription": "tremo mense Sol progreditur, eo magis lumen lunare crescit, donec Sol Lunae fere diame-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0150-body-L028",
+     "source_line_no": 28,
+     "tex": "traliter (7) opponatur, et lux plena ergo contingat; postea incipit decrescere usque ad finem",
+     "transcription": "traliter (7) opponatur, et lux plena ergo contingat; postea incipit decrescere usque ad finem",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0150-body-L029",
+     "source_line_no": 29,
+     "tex": "mensis, quo tempore omnino deficit.",
+     "transcription": "mensis, quo tempore omnino deficit.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0150-body-L030",
+     "source_line_no": 30,
+     "tex": "\\Indent Ut exemplum praebeamus, circa centrum I sit sphaera Lunae; eius diametrum FN usque",
+     "transcription": "Ut exemplum praebeamus, circa centrum I sit sphaera Lunae; eius diametrum FN usque",
+     "semantic_anchor": "AB01-PDF0150-P02",
+     "margin_locator": null,
+     "printed_line_number": 30,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0150-body-L031",
+     "source_line_no": 31,
+     "tex": "ad punctum B producamus, quod sit centrum disci Solis cum diametro AC. Punctum I cen-",
+     "transcription": "ad punctum B producamus, quod sit centrum disci Solis cum diametro AC. Punctum I cen-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0150-body-L032",
+     "source_line_no": 32,
+     "tex": "trum quoque Terrae ponamus, igitur BI necessarie distantiam geocentricam Solis. Punctum N",
+     "transcription": "trum quoque Terrae ponamus, igitur BI necessarie distantiam geocentricam Solis. Punctum N",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0150-body-L033",
+     "source_line_no": 33,
+     "tex": "sphaerae lunaris deflectentis [seu inclinatae] sit centrum disci Lunae tempore coniunctionis,",
+     "transcription": "sphaerae lunaris deflectentis [seu inclinatae] sit centrum disci Lunae tempore coniunctionis,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0150-body-L034",
+     "source_line_no": 34,
+     "tex": "quo centrum Lunae est in linea centrum Solis et centrum Terrae coniungenti; postea centrum",
+     "transcription": "quo centrum Lunae est in linea centrum Solis et centrum Terrae coniungenti; postea centrum",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0150-body-L035",
+     "source_line_no": 35,
+     "tex": "disci lunaris ab N motu unius diei vel quantitate maiore aut minore recedat, usque quo ad",
+     "transcription": "disci lunaris ab N motu unius diei vel quantitate maiore aut minore recedat, usque quo ad",
+     "semantic_anchor": null,
+     "margin_locator": "p. 93.",
+     "printed_line_number": 35,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0150-body-L036",
+     "source_line_no": 36,
+     "tex": "oppositionem, ubi centrum eius disci erit punctum F, perveniat. Littera D signemus centra",
+     "transcription": "oppositionem, ubi centrum eius disci erit punctum F, perveniat. Littera D signemus centra",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    }
+   ]
+  },
+  {
+   "role": "notes_left",
+   "lines": [
+    {
+     "id": "AB01-PDF0150-notes_left-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (1) Vel, ut auctor dicit, $\\dfrac{1}{3} - \\dfrac{1}{10 \\times 5}$.",
+     "transcription": "(1) Vel, ut auctor dicit, $\\dfrac{1}{3} - \\dfrac{1}{10 \\times 5}$.",
+     "semantic_anchor": "AB01-PDF0150-N01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0150-notes_left-L002",
+     "source_line_no": null,
+     "tex": "\\Indent (2) Vel, ut auctor dicit,",
+     "transcription": "(2) Vel, ut auctor dicit,",
+     "semantic_anchor": "AB01-PDF0150-N02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0150-notes_left-L003",
+     "source_line_no": null,
+     "tex": "\\hspace*{2.5em}60\\textsuperscript{\\textit{p}} $\\dfrac{1}{2} + \\dfrac{1}{3} + \\dfrac{1}{10} + \\dfrac{1}{10 \\times 3}$;",
+     "transcription": "60{sup:*p*} $\\dfrac{1}{2} + \\dfrac{1}{3} + \\dfrac{1}{10} + \\dfrac{1}{10 \\times 3}$;",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0150-notes_left-L004",
+     "source_line_no": null,
+     "tex": "Plato male « 60 duasque unius tertias, ac quintam",
+     "transcription": "Plato male « 60 duasque unius tertias, ac quintam",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0150-notes_left-L005",
+     "source_line_no": null,
+     "tex": "« et fere decenam ».",
+     "transcription": "« et fere decenam ».",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0150-notes_left-L006",
+     "source_line_no": null,
+     "tex": "\\Indent (3) Plato 1156.",
+     "transcription": "(3) Plato 1156.",
+     "semantic_anchor": "AB01-PDF0150-N03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0150-notes_left-L007",
+     "source_line_no": null,
+     "tex": "\\Indent (4) Plato « 402 et dimidium »; v. pag. 60, l. 15.",
+     "transcription": "(4) Plato « 402 et dimidium »; v. pag. 60, l. 15.",
+     "semantic_anchor": "AB01-PDF0150-N04",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  },
+  {
+   "role": "notes_right",
+   "lines": [
+    {
+     "id": "AB01-PDF0150-notes_right-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (5) Plato 555 $\\qfrac{2}{3}$.",
+     "transcription": "(5) Plato 555 {sfrac:2/3}.",
+     "semantic_anchor": "AB01-PDF0150-N05",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0150-notes_right-L002",
+     "source_line_no": null,
+     "tex": "\\Indent (6) Invenerat parum antea Solem apogeum",
+     "transcription": "(6) Invenerat parum antea Solem apogeum",
+     "semantic_anchor": "AB01-PDF0150-N06",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0150-notes_right-L003",
+     "source_line_no": null,
+     "tex": "tegi a Luna cum haec a nobis 60 $\\qfrac{29}{30}$ semidiame-",
+     "transcription": "tegi a Luna cum haec a nobis 60 {sfrac:29/30} semidiame-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0150-notes_right-L004",
+     "source_line_no": null,
+     "tex": "tros terrestres distet; invenit nunc maximam distan-",
+     "transcription": "tros terrestres distet; invenit nunc maximam distan-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0150-notes_right-L005",
+     "source_line_no": null,
+     "tex": "tiam geocentricam Solis 1146 semidiametros terre-",
+     "transcription": "tiam geocentricam Solis 1146 semidiametros terre-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0150-notes_right-L006",
+     "source_line_no": null,
+     "tex": "stres complecti; ergo tunc distantia Solis a Luna",
+     "transcription": "stres complecti; ergo tunc distantia Solis a Luna",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0150-notes_right-L007",
+     "source_line_no": null,
+     "tex": "1146 — 60 $\\qfrac{29}{30}$ = 1085 $\\qfrac{1}{30}$.",
+     "transcription": "1146 — 60 {sfrac:29/30} = 1085 {sfrac:1/30}.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0150-notes_right-L008",
+     "source_line_no": null,
+     "tex": "\\Indent (7) Cod. « e semidiametro »",
+     "transcription": "(7) Cod. « e semidiametro »",
+     "semantic_anchor": "AB01-PDF0150-N07",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  }
+ ]
+}
