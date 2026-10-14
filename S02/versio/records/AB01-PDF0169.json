@@ -1,0 +1,538 @@
+{
+ "anchor": "AB01-PDF0169",
+ "master_pdf_page": 169,
+ "printed_page": 80,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "margin_locators": [
+  {
+   "line_anchor": "AB01-PDF0169-body-L013",
+   "text": "p. 120."
+  },
+  {
+   "line_anchor": "AB01-PDF0169-body-L036",
+   "text": "p. 121."
+  }
+ ],
+ "observations": [
+  "body: the line numbers 5 to 40 stand in the right margin and the locators «p. 120.» (L13) and «p. 121.» (L36) in the left margin.",
+  "body L8, L9: the words from «res invertitur» to «latitudinis» are italic.",
+  "body L7, L9, L39: the letters of the references (k), (l) and (m) are bold italic.",
+  "body L38: «octavam»: Nallino's addenda et emendanda (Part I, p. LXXI) read «80,38, pro octavam l. decimam octavam, ut Plato habet»; the printed form is kept.",
+  "body L5, L27: a speck stands before «exibit» and another after the semicolon that follows «epicycli»; they are not signs.",
+  "notes_right L4: a speck stands before «75-76»; it is not a sign.",
+  "notes_right L3: «sequenttnus» is printed so; the emendanda read «80, adn. 4, pro sequenttnus l. sequentibus»; the printed form is kept."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0169-body-L001",
+     "source_line_no": 1,
+     "tex": "tantum, non in longitudine fit, et parallaxis altitudinis est ipsa parallaxis in latitudine. Si",
+     "transcription": "tantum, non in longitudine fit, et parallaxis altitudinis est ipsa parallaxis in latitudine. Si",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0169-body-L002",
+     "source_line_no": 2,
+     "tex": "distantia dati gradus ab ascendente est minor 90 gradibus, eam de 90° deme; si maior, de ea",
+     "transcription": "distantia dati gradus ab ascendente est minor 90 gradibus, eam de 90° deme; si maior, de ea",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0169-body-L003",
+     "source_line_no": 3,
+     "tex": "90° detrahe; postea ut nunc dicam fac: Sinum alterutrius residui multiplica in sinum altitu-",
+     "transcription": "90° detrahe; postea ut nunc dicam fac: Sinum alterutrius residui multiplica in sinum altitu-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0169-body-L004",
+     "source_line_no": 4,
+     "tex": "dinis dati gradus eo tempore; productum per sinum distantiae gradus dati ab ascendente di-",
+     "transcription": "dinis dati gradus eo tempore; productum per sinum distantiae gradus dati ab ascendente di-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0169-body-L005",
+     "source_line_no": 5,
+     "tex": "vide; quod exibit in semidiametrum multiplica, et novum productum divide per sinum distantiae",
+     "transcription": "vide; quod exibit in semidiametrum multiplica, et novum productum divide per sinum distantiae",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 5,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0169-body-L006",
+     "source_line_no": 6,
+     "tex": "zenithalis dati gradus; quod proveniet in arcum converte, et arcus erit quantitas anguli lon-",
+     "transcription": "zenithalis dati gradus; quod proveniet in arcum converte, et arcus erit quantitas anguli lon-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0169-body-L007",
+     "source_line_no": 7,
+     "tex": "gitudinis, cuius complementum est angulus latitudinis (\\textbf{\\textit{k}}). At si altitudo est super horizontem",
+     "transcription": "gitudinis, cuius complementum est angulus latitudinis ({bi:k}). At si altitudo est super horizontem",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0169-body-L008",
+     "source_line_no": 8,
+     "tex": "borealem, \\textit{res invertitur; nam arcus tibi e tabulis proveniens est tunc angulus latitudi-}",
+     "transcription": "borealem, *res invertitur; nam arcus tibi e tabulis proveniens est tunc angulus latitudi-*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0169-body-L009",
+     "source_line_no": 9,
+     "tex": "\\textit{nis} (\\textbf{\\textit{l}}), cuius complementum angulus longitudinis. Sed hoc non evenit in ceteris regionibus,",
+     "transcription": "*nis* ({bi:l}), cuius complementum angulus longitudinis. Sed hoc non evenit in ceteris regionibus,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0169-body-L010",
+     "source_line_no": 10,
+     "tex": "quarum latitudo maior est summa declinationis [Solis] et latitudinis borealis Lunae (1).",
+     "transcription": "quarum latitudo maior est summa declinationis [Solis] et latitudinis borealis Lunae (1).",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 10,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0169-body-L011",
+     "source_line_no": 11,
+     "tex": "\\Indent Postea distantiam zenithalem dati gradus in quo Luna est, in columna numerorum, cum",
+     "transcription": "Postea distantiam zenithalem dati gradus in quo Luna est, in columna numerorum, cum",
+     "semantic_anchor": "AB01-PDF0169-P01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0169-body-L012",
+     "source_line_no": 12,
+     "tex": "intervallo duorum graduum descriptorum, in tabulis parallaxium Lunae in circulo altitudinis (2)",
+     "transcription": "intervallo duorum graduum descriptorum, in tabulis parallaxium Lunae in circulo altitudinis (2)",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0169-body-L013",
+     "source_line_no": 13,
+     "tex": "quaere; et quod ei respondet in quatuor columnis parallaxium lunarium, scilicet tertia, quarta,",
+     "transcription": "quaere; et quod ei respondet in quatuor columnis parallaxium lunarium, scilicet tertia, quarta,",
+     "semantic_anchor": null,
+     "margin_locator": "p. 120.",
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0169-body-L014",
+     "source_line_no": 14,
+     "tex": "quinta sextaque, accipe et separatim scribe. Anomaliam aequatam Lunae sume; si minor 180",
+     "transcription": "quinta sextaque, accipe et separatim scribe. Anomaliam aequatam Lunae sume; si minor 180",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0169-body-L015",
+     "source_line_no": 15,
+     "tex": "gradibus est, eius dimidiam partem serva; si maior, eam de 360 deme et dimidia residui parte",
+     "transcription": "gradibus est, eius dimidiam partem serva; si maior, eam de 360 deme et dimidia residui parte",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 15,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0169-body-L016",
+     "source_line_no": 16,
+     "tex": "utere. Quod exibit in columna numerorum in his tabulis quaere, et minuta ei respondentia",
+     "transcription": "utere. Quod exibit in columna numerorum in his tabulis quaere, et minuta ei respondentia",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0169-body-L017",
+     "source_line_no": 17,
+     "tex": "in septima et octava columna, epicyclo assignatis, nota; minuta septimae columnae in minuta",
+     "transcription": "in septima et octava columna, epicyclo assignatis, nota; minuta septimae columnae in minuta",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0169-body-L018",
+     "source_line_no": 18,
+     "tex": "ex quarta iam sumpta multiplica; minuta autem octavae in minuta iam e sexta recepta; ambo",
+     "transcription": "ex quarta iam sumpta multiplica; minuta autem octavae in minuta iam e sexta recepta; ambo",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0169-body-L019",
+     "source_line_no": 19,
+     "tex": "producta per 60 divide. Postea productum e septima columna proveniens adde ei quod e tertia",
+     "transcription": "producta per 60 divide. Postea productum e septima columna proveniens adde ei quod e tertia",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0169-body-L020",
+     "source_line_no": 20,
+     "tex": "transcripseras; minuta denique e multiplicatione octavae orta adiice numeris quintae. — Aut,",
+     "transcription": "transcripseras; minuta denique e multiplicatione octavae orta adiice numeris quintae. — Aut,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 20,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0169-body-L021",
+     "source_line_no": 21,
+     "tex": "si mavis, quanta pars ex 60 sint minuta in septima columna reperta vide; partem proportio-",
+     "transcription": "si mavis, quanta pars ex 60 sint minuta in septima columna reperta vide; partem proportio-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0169-body-L022",
+     "source_line_no": 22,
+     "tex": "nalem sume ex eo quod in quarta inveneras, eamque numeris a tertia columna provenientibus",
+     "transcription": "nalem sume ex eo quod in quarta inveneras, eamque numeris a tertia columna provenientibus",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0169-body-L023",
+     "source_line_no": 23,
+     "tex": "adde. Postea quanta pars ex 60 sint minuta octavae columnae vide, et ex eo quod in sexta",
+     "transcription": "adde. Postea quanta pars ex 60 sint minuta octavae columnae vide, et ex eo quod in sexta",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0169-body-L024",
+     "source_line_no": 24,
+     "tex": "inveneras sume partem proportionalem, quam numeri quintae adiicies. — Quamcumque viam",
+     "transcription": "inveneras sume partem proportionalem, quam numeri quintae adiicies. — Quamcumque viam",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0169-body-L025",
+     "source_line_no": 25,
+     "tex": "delegeris ad idem pervenies. — Numeri qui e tertia et quinta columna post operationes prae-",
+     "transcription": "delegeris ad idem pervenies. — Numeri qui e tertia et quinta columna post operationes prae-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 25,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0169-body-L026",
+     "source_line_no": 26,
+     "tex": "scriptas exeunt, sunt parallaxes Lunae in circulo altitudinis in duobus terminis apogei et pe-",
+     "transcription": "scriptas exeunt, sunt parallaxes Lunae in circulo altitudinis in duobus terminis apogei et pe-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0169-body-L027",
+     "source_line_no": 27,
+     "tex": "rigei epicycli; eas serva, earumque differentiam cognosce, nam est parallaxis simul et Lunae",
+     "transcription": "rigei epicycli; eas serva, earumque differentiam cognosce, nam est parallaxis simul et Lunae",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0169-body-L028",
+     "source_line_no": 28,
+     "tex": "et Solis.",
+     "transcription": "et Solis.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0169-body-L029",
+     "source_line_no": 29,
+     "tex": "\\Indent Postea elongationem Lunae a Sole, iuxta eorum motus medios, accipe, a gradu medio",
+     "transcription": "Postea elongationem Lunae a Sole, iuxta eorum motus medios, accipe, a gradu medio",
+     "semantic_anchor": "AB01-PDF0169-P02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0169-body-L030",
+     "source_line_no": 30,
+     "tex": "Solis vel a gradu ei opposito numerans, prout Luna fuerit alterutri ante vel retro propior,",
+     "transcription": "Solis vel a gradu ei opposito numerans, prout Luna fuerit alterutri ante vel retro propior,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 30,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0169-body-L031",
+     "source_line_no": 31,
+     "tex": "ita ut maxima elongatio nunquam 90° excedat. Quod invenies quaere in columna numerorum",
+     "transcription": "ita ut maxima elongatio nunquam 90° excedat. Quod invenies quaere in columna numerorum",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0169-body-L032",
+     "source_line_no": 32,
+     "tex": "earundem tabularum, et minuta in nona columna, excentrico assignata, respondentia serva;",
+     "transcription": "earundem tabularum, et minuta in nona columna, excentrico assignata, respondentia serva;",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0169-body-L033",
+     "source_line_no": 33,
+     "tex": "quanta pars e 60 sint vide, et sume partem proportionalem e differentia inter numeros aequatos",
+     "transcription": "quanta pars e 60 sint vide, et sume partem proportionalem e differentia inter numeros aequatos",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0169-body-L034",
+     "source_line_no": 34,
+     "tex": "tertiae et quintae columnae, quos servare praecepi. Minuta exeuntia semper adde tertiae colu-",
+     "transcription": "tertiae et quintae columnae, quos servare praecepi. Minuta exeuntia semper adde tertiae colu-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0169-body-L035",
+     "source_line_no": 35,
+     "tex": "mnae aequatae quam servasti; summa est parallaxis simul et Solis et Lunae in circulo alti-",
+     "transcription": "mnae aequatae quam servasti; summa est parallaxis simul et Solis et Lunae in circulo alti-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 35,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0169-body-L036",
+     "source_line_no": 36,
+     "tex": "tudinis, iuxta Lunae locum et distantiam a Terra. Eam serva. Postea parallaxim Solis quae",
+     "transcription": "tudinis, iuxta Lunae locum et distantiam a Terra. Eam serva. Postea parallaxim Solis quae",
+     "semantic_anchor": null,
+     "margin_locator": "p. 121.",
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0169-body-L037",
+     "source_line_no": 37,
+     "tex": "in secunda columna respondet distantiae zenithali dati gradus accipe; minutis et secundis ita",
+     "transcription": "in secunda columna respondet distantiae zenithali dati gradus accipe; minutis et secundis ita",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0169-body-L038",
+     "source_line_no": 38,
+     "tex": "repertis semper adde ipsorum octavam partem (3), ob diversitatem quae distantiae Solis a Terra",
+     "transcription": "repertis semper adde ipsorum octavam partem (3), ob diversitatem quae distantiae Solis a Terra",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0169-body-L039",
+     "source_line_no": 39,
+     "tex": "contigit (\\textbf{\\textit{m}}); quod exibit serva. Postea anomaliam Solis in tabula correctionis quaere, et mi-",
+     "transcription": "contigit ({bi:m}); quod exibit serva. Postea anomaliam Solis in tabula correctionis quaere, et mi-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0169-body-L040",
+     "source_line_no": 40,
+     "tex": "nuta portionum quae ei in tertia columna (4) respondent vide quanta pars sint e 60; partem",
+     "transcription": "nuta portionum quae ei in tertia columna (4) respondent vide quanta pars sint e 60; partem",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 40,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0169-body-L041",
+     "source_line_no": 41,
+     "tex": "proportionalem e 13 secundis quibus parallaxis Solis ab apogeo ad perigeum differt sume, et",
+     "transcription": "proportionalem e 13 secundis quibus parallaxis Solis ab apogeo ad perigeum differt sume, et",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    }
+   ]
+  },
+  {
+   "role": "notes_left",
+   "lines": [
+    {
+     "id": "AB01-PDF0169-notes_left-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (1) Cfr. infra, pag. 81, l. 17-18.",
+     "transcription": "(1) Cfr. infra, pag. 81, l. 17-18.",
+     "semantic_anchor": "AB01-PDF0169-N01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0169-notes_left-L002",
+     "source_line_no": null,
+     "tex": "\\Indent (2) Fol. 197,v.-198,r.",
+     "transcription": "(2) Fol. 197,v.-198,r.",
+     "semantic_anchor": "AB01-PDF0169-N02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0169-notes_left-L003",
+     "source_line_no": null,
+     "tex": "\\Indent (3) Plato: « decimae octavae partis quantita-",
+     "transcription": "(3) Plato: « decimae octavae partis quantita-",
+     "semantic_anchor": "AB01-PDF0169-N03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0169-notes_left-L004",
+     "source_line_no": null,
+     "tex": "« tem ».",
+     "transcription": "« tem ».",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  },
+  {
+   "role": "notes_right",
+   "lines": [
+    {
+     "id": "AB01-PDF0169-notes_right-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (4) Fol. 195,r.; sed est tertia columna si nume-",
+     "transcription": "(4) Fol. 195,r.; sed est tertia columna si nume-",
+     "semantic_anchor": "AB01-PDF0169-N04",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0169-notes_right-L002",
+     "source_line_no": null,
+     "tex": "rorum series duae columnae computentur, ut etiam",
+     "transcription": "rorum series duae columnae computentur, ut etiam",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0169-notes_right-L003",
+     "source_line_no": null,
+     "tex": "fit in sequenttnus et in pag. 64. Aliter vero in pag. 51-",
+     "transcription": "fit in sequenttnus et in pag. 64. Aliter vero in pag. 51-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0169-notes_right-L004",
+     "source_line_no": null,
+     "tex": "-54 et 75-76.",
+     "transcription": "-54 et 75-76.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  }
+ ]
+}
