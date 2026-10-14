@@ -62,6 +62,7 @@ Transcription format (UTF-8; one printed line per source line, as printed, with 
   @obs TEXT              an observation on the print (a letter that did not print, a broken sign), kept in the record
   @innotes LEN           inside a @wrap block: the notes are printed in the column beside the figure, under its lines;
                          a rule LEN mm long is set and the following lines are the notes (small type, no numbers)
+  @numgap N              an empty line of the body that the print counts, with the number N printed beside it
   @lineno N              the printed count of the next line of the body, where the count of the print departs from
                          the count of the lines of the page (the print numbers every fifth line in the margin)
   ^ TEXT                 a line that begins a paragraph or a footnote (indented); ^^ TEXT indented twice
@@ -289,7 +290,7 @@ def parse(path):
                          "@small", "@normal", "@rowgap", "@hrule", "@wrap", "@wrapr", "@endwrap", "@brace", "@pos",
                          "@posrule", "@posbrace", "@hrow", "@at", "@rowsep", "@colpad", "@hspan", "@spanbrace",
                          "@cellrule", "@figc", "@figl",
-                         "@fontsize", "@lineno", "@innotes"):
+                         "@fontsize", "@lineno", "@innotes", "@numgap"):
                 rec[part].append((cmd[1:], arg))
             else:
                 raise SystemExit(f"{path.name}: unknown directive {cmd}")
@@ -699,6 +700,11 @@ def section(items, prefix, role, numbered):
             continue
         if kind == "lineno":
             pn = int(text) - 1
+            continue
+        if kind == "numgap":  # an empty line that the print counts, its number printed beside it
+            pn = int(text)
+            out.append(r"\DLine{" + f"{prefix}-{role}-gap{pn:03d}" + "}{" + text.strip() + "}{}{}")
+            top = False
             continue
         if kind == "innotes":  # the notes in the column beside a figure, under a short rule
             role, numbered, n = "notes", False, 0
