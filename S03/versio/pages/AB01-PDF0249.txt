@@ -1,0 +1,81 @@
+@page 249 160
+% Commentary on chapter 4, a) continued: the table of the principal observations of the greatest declination of the ecliptic, from Eratosthenes to Ulugh Beg, with the place and year of each, the observed obliquity, the true (mean) obliquity by Bessel's formula and the error; the author's words on p. 12 confirm that he did not take the decrease of the obliquity to be continuous.
+@nonum
+Stellula \* indico annos observationum certos; ubi annus ignoratur, eum posui qui est auctoris
+tabularum epocha vel qui circiter praesumi potest. Errores usque ad secundas notavi; sed
+nemo ignorat hos numeros absolute non semper recipi posse, cum interdum annus observatio-
+nis haud certe cognoscatur, aut observator Arabicus de industria secundas neglexerit (1).
+@vspace 5.49
+@colpad 1.5 1.5
+@cols 2.38 <|| 54.95c | 20.76c | 20.81c | 20.76c | 26.40c | 20.27c ||>
+@rule2 cols thin join
+@hrow 17.41 | {nm:{sc:Observatores}} | **{sc:locus}\\{sc:observationis}** | **{sc:annus}** | **{sc:obliquitas}\\{sc:observata}** | **{sc:obliquitas}\\{sc:vera (media)}** | **{sc:error}**
+@hrule cols 1.2
+@colpad 2.4 0.6
+@cols 2.38 <|| 54.95l>3.47 | 20.76c | 0.80r 20.01l>1.07 | 6.46r 5.70r 5.66r 2.94l | 6.41r 5.75r 6.46r 6.86r 0.92l | 8.55c 3.39r 5.79r 2.54l ||>
+@small
+@rowgap 3.90
+@rowsep 1.026
+@row Eratosthenes | Alexandria | | 230 a. Chr. | 23~° | 51~′ | 20~″ | | 23~° | 43~′ | 45.~″ | 01 | | + | 7~′ | 35~″ |
+@row Hipparchus (2) | Rhodus | | 130 a. Chr. | 23 | 51 | 20 | | 23 | 42 | 56. | 62 | | + | 8 | 23 |
+@row Auctores Tabulae Probatae (3) | Baghdād | \* | 829 Chr. | 23 | 33 | | | 23 | 35 | 41. | 16 | | — | 2 | 41 |
+@rowsep 0.25
+@row Alii astronomi khalīfae al-Ma- | | | | | | | | | | | | | | | |
+@rowsep 1.026
+@row >3.84 ’mūn | Damascus | \* | 832 Chr. | 23 | 33 | 52 | | 23 | 35 | 39. | 71 | | — | 1 | 48 |
+@row Banū Mūsà | Baghdād | | 860 | 23 | 35 | | | 23 | 35 | 26. | 32 | | — | 0 | 26 |
+@row al–Battānī | ar–Raqqah | | 880 | 23 | 35 | | | 23 | 35 | 16. | 74 | | — | 0 | 17 |
+@row Ibn al-A‘lam | Baghdād ? | | 960 | 23 | 34 | 2 | | 23 | 34 | 37. | 92 | | — | 0 | 36 |
+@row ‘Abd ar-Raḥmān aṣ–Ṣūfī | Baghdād ? | | 965 | 23 | 33 | 45 | | 23 | 34 | 35. | 50 | | — | 0 | 50 |
+@row Abū ’l-Wefā’ | Baghdād | \* | 987 | 23 | 35 | | | 23 | 34 | 25. | 46 | | + | 0 | 35 |
+@row Wīgan ibn Rustam al-Kūhī (4) | Baghdād | \* | 988 | 23 | 51 | 1 | | 23 | 34 | 24. | 98 | | + | 16 | 36 |
+@row Ibn Yūnus | Kahira | \* | 1001 | 23 | 34 | 52 | | 23 | 34 | 18. | 74 | | + | 0 | 33 |
+@row Tabulae Alphonsinae (5) | Toletum | | 1250 | 23 | 32 | 29 | | 23 | 32 | 19. | 16 | | + | 0 | 10 |
+@row Naṣīr ad–dīn aṭ–Ṭūsī (6) | Marāghah | | 1270 | 23 | 30 | | | 23 | 32 | 9. | 49 | | — | 2 | 9 |
+@row Ibn ash–Shāṭir | Damascus | | 1363 | 23 | 31 | | | 23 | 31 | 24. | 78 | | — | 0 | 24 |
+@row Ulugh Beg | Samarqand | | 1437 | 23 | 30 | 17 | | 23 | 30 | 49. | 13 | | — | 0 | 32 |
+@rowsep 0
+@rowgap 2.82
+@rule2 cols foot thin
+@normal
+@vspace 6.56
+^ Auctoris verba, pag. 12, l. 14–24, omnino confirmant quae iam in adn. 9, pag. 5, dixeram,
+al–Battānī scilicet ab incertis Graecorum observationibus minime *continuam* deminutionem
+@vspace 6.71
+@notes
+^ (1) In tabellis quae, post {sp:Lalande} (ut puto),
+apud scriptores nostrates circumferuntur (diligentis-
+simis {sp:Houzeau} et {sp:Wolf} non exceptis) errores
+insunt, quorum originem nescio; Eratostheni enim
+23° 45′ 7″ tribuunt, al-Battānī 23° 35′ 41″, Ibn Yūnus
+23° 34′ 26″, Ulugh Beg 23° 31′ 48″, Abū ‘Alī al-Ḥasan
+(Aboul Hhassan) 23° 33′ 45″ !.
+^ (2) {sp:Ptolemaeus}, anno 140 Chr., eandem quan-
+titatem servat; error igitur + 10′ 10″ fit. Error
+{sp:Theonis}, qui anno fere 360 Chr. scripsit, est
++ 12′ 1″.
+^ (3) Si 23° 33′ 30″ admittantur, ut quidam dicunt
+(cfr. p. 6, adn. 3), error — 2′ 11″ fit.
+^ (4) Iuxta locum {sp:Ibn al-Qifṭī} quem {sp:Casiri},
+@col
+*Bibliotheca Arabico-hispana Escurialensis,* Matriti
+1760-70, t. I, p. 441, et {sp:Sédillot} in praefatione ad
+textum {sp:Oloug Beg}, p. LII-LIII, adducunt. Eandem
+lectionem praebet codex Ibn al-Qifṭī qui Romae in
+Bibliotheca Academiae Lyncaeorum asservatur.
+^ (5) Ita passim in *Libro de las taulas alfonsies*
+(*Libros del saber de astronomia,* t. IV) et in *Libro*
+*del quadrante para rectificar* (ibid. t. III, p. 296-297).
+^ (6) Iuxta adnotationem {sp:Sédillot} ad textum
+{sp:Oloug Beg}, p. 63; locus ibi adductus reperitur
+in f. 105,r. codicis Florentini earumdem *Tabularum*
+*īlkhānicarum*. Iuxta hanc quantitatem supputantur
+declinationes primae (f. 120,r.-121,r.) et secundae
+(f. 121,v.-122,v.).
+@obs body (table): the table is boxed by double rules, the head separated from the rows by a single heavier rule; the heads are set in bold small capitals, «Observatores» in the small capitals of the text; the rows are set in a smaller type.
+@obs body (table): the asterisks that mark the certain years stand in the margin of the column of the years, before the numbers; in the column Error the minus signs are printed as long dashes.
+@obs body (table): the first row carries the signs of degrees, minutes and seconds; in the column Obliquitas vera they are «23° 43′ 45.″ 01», the sign of the seconds after the point.
+@obs body (table): recomputed with Bessel's formula of p. 159 (t = 1750 less the year), the true obliquities of the rows from 829 to 1437 agree with the print within 0.05″, except Ibn al-A‘lam and aṣ-Ṣūfī: for 960 and 965 the formula gives 23° 34′ 38.41″ and 23° 34′ 36.01″, and the printed values 37.92″ and 35.50″ are those of 961 and 966 (37.93″, 35.53″). For Eratosthenes the formula gives 23° 44′ 5.01″ (t = 1980), exactly 20″ more than the printed 23° 43′ 45.01″, as if the term 15′ 47.01″ had been added as 15′ 27.01″; for Hipparchus 23° 43′ 17.69″ (t = 1880), 21.07″ more than printed. Every error of the last column is the observed less the printed true obliquity, rounded to the second (Ibn ash-Shāṭir: −24.78″, printed −0′ 24″). The printed values are kept.
+@obs notes_left L8-L11: with the formula of p. 159 the error of Ptolemy's 23° 51′ 20″ is + 10′ 10″ in 140 Chr., as printed, and + 11′ 55″ in 360 Chr. for Theon, printed + 12′ 1″; kept as printed.
+@obs notes_left L9: a speck stands over the full stop after «fit»; it is not a colon.
+@obs notes_right L1: a slanting stroke stands over the last i of «Matriti»; it is not an accent.
