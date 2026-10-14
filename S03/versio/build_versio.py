@@ -133,8 +133,9 @@ PREAMBLE = r"""\documentclass[11pt]{article}
 \tracinglostchars=2
 \newcommand{\Name}[1]{{\addfontfeatures{LetterSpace=4.0}#1}}
 \newcommand{\Indent}{\hspace*{1.6em}}
-% an Arabic run inside a Latin line: its descenders do not open the line (the printed lines are evenly spaced)
-\newcommand{\ArabicRun}[1]{\smash[b]{\textarabic{#1}}}
+% an Arabic run inside a Latin line: neither its descenders nor its vowel signs above (shadda, damma) open the line
+% (the printed lines are evenly spaced)
+\newcommand{\ArabicRun}[1]{\smash{\textarabic{#1}}}
 \newcommand{\qfrac}[2]{{}^{#1}\!/_{{#2}}}
 \newcommand{\sa}{\textsuperscript{\textit{a}}}\newcommand{\sm}{\textsuperscript{\textit{m}}}\newcommand{\sd}{\textsuperscript{\textit{d}}}
 \newcommand{\RawBlock}[1]{\par\vspace{3pt}\noindent#1\par\vspace{3pt}}
