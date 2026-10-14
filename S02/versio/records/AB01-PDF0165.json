@@ -1,0 +1,463 @@
+{
+ "anchor": "AB01-PDF0165",
+ "master_pdf_page": 165,
+ "printed_page": 76,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "margin_locators": [
+  {
+   "line_anchor": "AB01-PDF0165-body-L014",
+   "text": "p. 114."
+  }
+ ],
+ "observations": [
+  "body: the line numbers 5 to 40 stand in the right margin and the locator «p. 114.» (L14) in the left margin. The count of the lines runs through the spaces and the heads of chapters 38 and 39: 5 stands in the space between L3 and the head of chapter 38, beside no line; 30 beside the head of chapter 39.",
+  "body L4-L5, L24-L26: the heads of the chapters are set in a larger type and centred; the title of chapter 39 is in two lines.",
+  "body L3, L13: the letters of the references (a) are bold italic; the (a) of L3 belongs to chapter 37, that of L13 to chapter 38, where the letters begin again.",
+  "body L1: the first two words are printed faint, their letters broken.",
+  "body L19: the t of «descendet» is printed broken, like an l.",
+  "notes_right L2: «Ptolemaeum» is not letter-spaced here."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0165-body-L001",
+     "source_line_no": 1,
+     "tex": "semper deme. Residuum est locus nodi borealis in ecliptica; eum ab Arietis initio, solito more,",
+     "transcription": "semper deme. Residuum est locus nodi borealis in ecliptica; eum ab Arietis initio, solito more,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0165-body-L002",
+     "source_line_no": 2,
+     "tex": "proiice, [ut habeas gradus minutaque signi in quod nodus incidit]. — Locus nodi australis,",
+     "transcription": "proiice, [ut habeas gradus minutaque signi in quod nodus incidit]. — Locus nodi australis,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0165-body-L003",
+     "source_line_no": 3,
+     "tex": "qui Cauda appellatur, de diametro opponitur loco nodi borealis, cuius nadir est (\\textbf{\\textit{a}}).",
+     "transcription": "qui Cauda appellatur, de diametro opponitur loco nodi borealis, cuius nadir est ({bi:a}).",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0165-body-L004",
+     "source_line_no": 6,
+     "tex": "\\CenterLine{CAPUT XXXVIII.}",
+     "transcription": "CAPUT XXXVIII.",
+     "semantic_anchor": "AB01-PDF0165-H04",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0165-body-L005",
+     "source_line_no": 8,
+     "tex": "\\CenterLine{De latitudine Lunae et de eius plaga respectu eclipticae.}",
+     "transcription": "De latitudine Lunae et de eius plaga respectu eclipticae.",
+     "semantic_anchor": "AB01-PDF0165-H05",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0165-body-L006",
+     "source_line_no": 10,
+     "tex": "\\Indent Dicit [auctor]: Si latitudinem Lunae, quae est distantia Lunae ab ecliptica, scire vis, lo-",
+     "transcription": "Dicit [auctor]: Si latitudinem Lunae, quae est distantia Lunae ab ecliptica, scire vis, lo-",
+     "semantic_anchor": "AB01-PDF0165-P01",
+     "margin_locator": null,
+     "printed_line_number": 10,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0165-body-L007",
+     "source_line_no": 11,
+     "tex": "cum correctum Capitis de loco vero correcto Lunae deme; remanet argumentum latitudinis.",
+     "transcription": "cum correctum Capitis de loco vero correcto Lunae deme; remanet argumentum latitudinis.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0165-body-L008",
+     "source_line_no": 12,
+     "tex": "Vel, si mavis, loco vero Lunae adde motum medium Capitis; et si summa 360° superat, de",
+     "transcription": "Vel, si mavis, loco vero Lunae adde motum medium Capitis; et si summa 360° superat, de",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0165-body-L009",
+     "source_line_no": 13,
+     "tex": "ea deme 360°; exibit argumentum latitudinis. Hoc in columnis numerorum e tabulis aequa-",
+     "transcription": "ea deme 360°; exibit argumentum latitudinis. Hoc in columnis numerorum e tabulis aequa-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0165-body-L010",
+     "source_line_no": 14,
+     "tex": "tionis Lunae (1) quaere; quod ei in sexta columna (2) respondet est latitudo Lunae eo tempore.",
+     "transcription": "tionis Lunae (1) quaere; quod ei in sexta columna (2) respondet est latitudo Lunae eo tempore.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0165-body-L011",
+     "source_line_no": 15,
+     "tex": "Id si calculo scire mavis, sinum argumenti latitudinis in 5\\textsuperscript{\\textit{p}} 13′ (3), quae sunt sinus totius lati-",
+     "transcription": "Id si calculo scire mavis, sinum argumenti latitudinis in 5{sup:*p*} 13′ (3), quae sunt sinus totius lati-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 15,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0165-body-L012",
+     "source_line_no": 16,
+     "tex": "tudinis, multiplica; productum per semidiametrum divide; quod exibit in arcum converte; arcus",
+     "transcription": "tudinis, multiplica; productum per semidiametrum divide; quod exibit in arcum converte; arcus",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0165-body-L013",
+     "source_line_no": 17,
+     "tex": "erit latitudo Lunae (\\textbf{\\textit{a}}).",
+     "transcription": "erit latitudo Lunae ({bi:a}).",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0165-body-L014",
+     "source_line_no": 18,
+     "tex": "\\Indent Latitudine quocumque modo cognita, si argumentum latitudinis a 0° ad 180° est, latitudo",
+     "transcription": "Latitudine quocumque modo cognita, si argumentum latitudinis a 0° ad 180° est, latitudo",
+     "semantic_anchor": "AB01-PDF0165-P02",
+     "margin_locator": "p. 114.",
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0165-body-L015",
+     "source_line_no": 19,
+     "tex": "habetur borealis; si a 180° ad 360°, latitudo fit australis. Et si cognoscere cupis utrum Luna",
+     "transcription": "habetur borealis; si a 180° ad 360°, latitudo fit australis. Et si cognoscere cupis utrum Luna",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0165-body-L016",
+     "source_line_no": 20,
+     "tex": "in plaga sua ascendat an descendat, argumentum latitudinis observa; nam si a 0° ad 90° fue-",
+     "transcription": "in plaga sua ascendat an descendat, argumentum latitudinis observa; nam si a 0° ad 90° fue-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 20,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0165-body-L017",
+     "source_line_no": 21,
+     "tex": "rit, Luna in latitudinem crescet et ad septentriones versus ascendet; si a 90° ad 180°, Luna",
+     "transcription": "rit, Luna in latitudinem crescet et ad septentriones versus ascendet; si a 90° ad 180°, Luna",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0165-body-L018",
+     "source_line_no": 22,
+     "tex": "in latitudinem decrescet et a septentrionibus descendet; si a 180° ad 270° (4), Luna crescet",
+     "transcription": "in latitudinem decrescet et a septentrionibus descendet; si a 180° ad 270° (4), Luna crescet",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0165-body-L019",
+     "source_line_no": 23,
+     "tex": "in latitudinem et in meridiem versus (5) descendet; denique si a 270° (6) ad 360°, Luna in",
+     "transcription": "in latitudinem et in meridiem versus (5) descendet; denique si a 270° (6) ad 360°, Luna in",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0165-body-L020",
+     "source_line_no": 24,
+     "tex": "latitudinem decrescet et de meridie ascendet. Id est, Luna, cum a Capite recesserit, erit bo-",
+     "transcription": "latitudinem decrescet et de meridie ascendet. Id est, Luna, cum a Capite recesserit, erit bo-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0165-body-L021",
+     "source_line_no": 25,
+     "tex": "realis usque quo ad Caudam pervenerit; cum Caudam superaverit, erit australis usque quo",
+     "transcription": "realis usque quo ad Caudam pervenerit; cum Caudam superaverit, erit australis usque quo",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 25,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0165-body-L022",
+     "source_line_no": 26,
+     "tex": "ad Caput redierit. Nam a nodo Capitis in septentriones versus, a nodo Caudae in meridiem,",
+     "transcription": "ad Caput redierit. Nam a nodo Capitis in septentriones versus, a nodo Caudae in meridiem,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0165-body-L023",
+     "source_line_no": 27,
+     "tex": "Deo volente, proficiscitur.",
+     "transcription": "Deo volente, proficiscitur.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0165-body-L024",
+     "source_line_no": 30,
+     "tex": "\\CenterLine{CAPUT XXXIX.}",
+     "transcription": "CAPUT XXXIX.",
+     "semantic_anchor": "AB01-PDF0165-H24",
+     "margin_locator": null,
+     "printed_line_number": 30,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0165-body-L025",
+     "source_line_no": 32,
+     "tex": "\\CenterLine{De causa parallaxis Lunae et de eius cognitione per calculum}",
+     "transcription": "De causa parallaxis Lunae et de eius cognitione per calculum",
+     "semantic_anchor": "AB01-PDF0165-H25",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0165-body-L026",
+     "source_line_no": 33,
+     "tex": "\\CenterLine{et per tabulas.}",
+     "transcription": "et per tabulas.",
+     "semantic_anchor": "AB01-PDF0165-H26",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0165-body-L027",
+     "source_line_no": 35,
+     "tex": "\\Indent Dicit [auctor]: Parallaxis Lunae est quantitas qua locus Lunae observationibus inventus",
+     "transcription": "Dicit [auctor]: Parallaxis Lunae est quantitas qua locus Lunae observationibus inventus",
+     "semantic_anchor": "AB01-PDF0165-P03",
+     "margin_locator": null,
+     "printed_line_number": 35,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0165-body-L028",
+     "source_line_no": 36,
+     "tex": "differt a loco quo ipsa veraciter est, ut calculis determinatur. Cum Luna sit propior Terrae",
+     "transcription": "differt a loco quo ipsa veraciter est, ut calculis determinatur. Cum Luna sit propior Terrae",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0165-body-L029",
+     "source_line_no": 37,
+     "tex": "[quam cetera sidera], magnitudo Terrae respectu sphaerae lunaris maior est quam respectu",
+     "transcription": "[quam cetera sidera], magnitudo Terrae respectu sphaerae lunaris maior est quam respectu",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0165-body-L030",
+     "source_line_no": 38,
+     "tex": "sphaerarum reliquorum astrorum, donec ad eclipticam perveniatur, cuius respectu Terra quasi",
+     "transcription": "sphaerarum reliquorum astrorum, donec ad eclipticam perveniatur, cuius respectu Terra quasi",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0165-body-L031",
+     "source_line_no": 39,
+     "tex": "punctum apparet. Et quoniam centrum Terrae est etiam eclipticae centrum atque locus verae",
+     "transcription": "punctum apparet. Et quoniam centrum Terrae est etiam eclipticae centrum atque locus verae",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0165-body-L032",
+     "source_line_no": 40,
+     "tex": "visionis, visus variat secundum differentiam inter centrum et superficiem Terrae, quae est",
+     "transcription": "visionis, visus variat secundum differentiam inter centrum et superficiem Terrae, quae est",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 40,
+     "source_role": "NALLINO_TRANSLATION"
+    }
+   ]
+  },
+  {
+   "role": "notes_left",
+   "lines": [
+    {
+     "id": "AB01-PDF0165-notes_left-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (1) Fol. 189,v. et seqq.",
+     "transcription": "(1) Fol. 189,v. et seqq.",
+     "semantic_anchor": "AB01-PDF0165-N01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0165-notes_left-L002",
+     "source_line_no": null,
+     "tex": "\\Indent (2) Nam columna numerorum aut aequationis",
+     "transcription": "(2) Nam columna numerorum aut aequationis",
+     "semantic_anchor": "AB01-PDF0165-N02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0165-notes_left-L003",
+     "source_line_no": null,
+     "tex": "Solis non computatur. Aliis locis contra binae nu-",
+     "transcription": "Solis non computatur. Aliis locis contra binae nu-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0165-notes_left-L004",
+     "source_line_no": null,
+     "tex": "merorum series pro duabus columnis habentur.",
+     "transcription": "merorum series pro duabus columnis habentur.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0165-notes_left-L005",
+     "source_line_no": null,
+     "tex": "\\Indent (3) Male Plato 5\\textsuperscript{\\textit{p}} 30′; nam in tabulis 5\\textsuperscript{\\textit{p}} 13′ 46″",
+     "transcription": "(3) Male Plato 5{sup:*p*} 30′; nam in tabulis 5{sup:*p*} 13′ 46″",
+     "semantic_anchor": "AB01-PDF0165-N03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  },
+  {
+   "role": "notes_right",
+   "lines": [
+    {
+     "id": "AB01-PDF0165-notes_right-L001",
+     "source_line_no": null,
+     "tex": "est sinus 5° 0′, scilicet maximae latitudinis Lunae",
+     "transcription": "est sinus 5° 0′, scilicet maximae latitudinis Lunae",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0165-notes_right-L002",
+     "source_line_no": null,
+     "tex": "(cfr. initium cap. XXX, p. 50, et Ptolemaeum).",
+     "transcription": "(cfr. initium cap. XXX, p. 50, et Ptolemaeum).",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0165-notes_right-L003",
+     "source_line_no": null,
+     "tex": "\\Indent (4) Plato 570°.",
+     "transcription": "(4) Plato 570°.",
+     "semantic_anchor": "AB01-PDF0165-N04",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0165-notes_right-L004",
+     "source_line_no": null,
+     "tex": "\\Indent (5) Cod.: « de meridie ».",
+     "transcription": "(5) Cod.: « de meridie ».",
+     "semantic_anchor": "AB01-PDF0165-N05",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0165-notes_right-L005",
+     "source_line_no": null,
+     "tex": "\\Indent (6) Plato: « a 500 et septimo ».",
+     "transcription": "(6) Plato: « a 500 et septimo ».",
+     "semantic_anchor": "AB01-PDF0165-N06",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  }
+ ]
+}
