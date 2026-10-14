@@ -1,0 +1,516 @@
+{
+ "anchor": "AB01-PDF0265",
+ "master_pdf_page": 265,
+ "printed_page": 176,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "margin_locators": [],
+ "observations": [
+  "body L1: the figure 7 of «700 milliariorum» is printed with a break in its stroke.",
+  "body L5, L9-L10, L24-L25, L28-L29, L34-L35, L39: the Arabic quotations stand in the Latin lines and are set right to left; a quotation that runs over into the next line begins at the right margin and goes on in the next line from the right end of its Arabic words, after which the Latin text follows. The edition gives every part in reading order.",
+  "body L28, L34: the reading of the manuscripts «(طرف codd.)» stands at the left of «الى طرفه», that is after it in the right-to-left order of the quotation, and in the same way the word added by the editor, «[يُعْرَف add.]», stands after «وطَرَفه»; read from left to right, codd. and add. stand before the Arabic word. The edition keeps both in their place in the Arabic run.",
+  "body L34-L35, L39: the quotation of Quṭb ad-dīn ash-Shīrāzī and the second quotation of Qāḍī-zādeh are printed without the parentheses that enclose the other Arabic quotations of the page.",
+  "body L5, L29: the final yā' is printed with its dots in «اعني» and «الذي» and in «مائتي», without them in «الادنى» and «يسمى»; transcribed as printed.",
+  "body L24: before «وعرض طرفيه» and after «طرفيه مائتا» spacing material that rose in the forme has printed black marks above and below the line; they are not signs.",
+  "body L25, L37: the kāf of «اكـــــبر» is printed in its lengthened form, and the connection of «عنــد» is drawn out; the edition lengthens both with tatweels to about the printed length.",
+  "body L17: the l of «l’Atlantique que le nom» is printed broken, its upper part standing like the dot of an i.",
+  "body L26: small specks stand under the l of «verba igitur al–Mas‘ūdī» and under the B of «cum al–Battānī»; they are not signs.",
+  "body L27: «cod P» is printed without the full stop of the abbreviation; kept as printed.",
+  "body L32: a speck stands over the second u of «cuius extremitas»; it is not an accent.",
+  "body L31-L34, L37-L38: the conversions in brackets reckon three miles to the parasang (200 = 600, 460 = 1380, 60 = 180); computed again, all are correct.",
+  "body L1-L42: the lines that hold Arabic words stand further apart than the others (up to about 15.5 pt against 13.9 pt); the edition follows the measured spacing.",
+  "notes_left, notes_right: the rule over the notes is printed faintly and only in fragments; a thin vertical rule stands between the two columns of notes."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0265-body-L001",
+     "source_line_no": null,
+     "tex": "verbis « loco originis », cui, Ptolemaeum sequens, enormem latitudinem 700 milliariorum (1)",
+     "transcription": "verbis « loco originis », cui, Ptolemaeum sequens, enormem latitudinem 700 milliariorum (1)",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0265-body-L002",
+     "source_line_no": null,
+     "tex": "tribuit.",
+     "transcription": "tribuit.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0265-body-L003",
+     "source_line_no": null,
+     "tex": "\\Indent Locus parallelus apud \\Name{Ibn Rosteh}, p. 84, est: « et latitudinem prope eius extremita-",
+     "transcription": "Locus parallelus apud {sp:Ibn Rosteh}, p. 84, est: « et latitudinem prope eius extremita-",
+     "semantic_anchor": "AB01-PDF0265-P01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0265-body-L004",
+     "source_line_no": null,
+     "tex": "« tem in occidente, nempe in eius extremo proximo, quod \\textit{mare Ultimum} appelletur, 200 »",
+     "transcription": "« tem in occidente, nempe in eius extremo proximo, quod *mare Ultimum* appelletur, 200 »",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0265-body-L005",
+     "source_line_no": null,
+     "tex": "(\\ArabicRun{وعند منتهاه في المغرب اعني طرفه الادنى الذي يسمى بالبحر الاخير مائتا ميل}). Parva litterarum mutatione « eius",
+     "transcription": "({ar:وعند منتهاه في المغرب اعني طرفه الادنى الذي يسمى بالبحر الاخير مائتا ميل}). Parva litterarum mutatione « eius",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0265-body-L006",
+     "source_line_no": null,
+     "tex": "extremo » (\\ArabicRun{طرفه}) respondet « eius recto itinere » (\\ArabicRun{طريقه}) quod \\Name{al–Battānī} habet; similiter in",
+     "transcription": "extremo » ({ar:طرفه}) respondet « eius recto itinere » ({ar:طريقه}) quod {sp:al–Battānī} habet; similiter in",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0265-body-L007",
+     "source_line_no": null,
+     "tex": "scriptura Arabica \\ArabicRun{الاخير} « Ultimum » haud multum differt a \\ArabicRun{الاخضر} « Viride ».",
+     "transcription": "scriptura Arabica {ar:الاخير} « Ultimum » haud multum differt a {ar:الاخضر} « Viride ».",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0265-body-L008",
+     "source_line_no": null,
+     "tex": "\\Indent \\Name{Qodāmah}, p. 230, scribit: « et latitudinem prope eius extremitatem in occidente, et",
+     "transcription": "{sp:Qodāmah}, p. 230, scribit: « et latitudinem prope eius extremitatem in occidente, et",
+     "semantic_anchor": "AB01-PDF0265-P02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0265-body-L009",
+     "source_line_no": null,
+     "tex": "« loco contiguo (vel: coniuncto) mari Viridi 200 » (\\ArabicRun{وعند منتهاه في المغرب والموضع المتصل بالبحر الاخضر مائتا}",
+     "transcription": "« loco contiguo (vel: coniuncto) mari Viridi 200 » ({ar:وعند منتهاه في المغرب والموضع المتصل بالبحر الاخضر مائتا}",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0265-body-L010",
+     "source_line_no": null,
+     "tex": "\\ArabicRun{ميل}). In versione Gallica libri \\Name{Qodāmah}, p. 174, adn. 2, \\Name{de Goeje} haec explicat: « Reinaud,",
+     "transcription": "{ar:ميل}). In versione Gallica libri {sp:Qodāmah}, p. 174, adn. 2, {sp:de Goeje} haec explicat: « Reinaud,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0265-body-L011",
+     "source_line_no": null,
+     "tex": "« Aboulféda, p. 211 (comp. aussi Ibn Khaldoun \\textit{Prolég.} I, 96) dit que ce nom appartient à",
+     "transcription": "« Aboulféda, p. 211 (comp. aussi Ibn Khaldoun *Prolég.* I, 96) dit que ce nom appartient à",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0265-body-L012",
+     "source_line_no": null,
+     "tex": "« l’Océan Indien. Mais on l’emploie souvent aussi pour désigner l’Atlantique, et même la Mé-",
+     "transcription": "« l’Océan Indien. Mais on l’emploie souvent aussi pour désigner l’Atlantique, et même la Mé-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0265-body-L013",
+     "source_line_no": null,
+     "tex": "« diterranée porte parfois ce nom. On pourrait croire que Kodâma a supposé avec Bâtiny",
+     "transcription": "« diterranée porte parfois ce nom. On pourrait croire que Kodâma a supposé avec Bâtiny",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0265-body-L014",
+     "source_line_no": null,
+     "tex": "« [sic, pro al–Battānī] que l’Afrique, au sud de l’Abyssinie, tournait à l’ouest et se dirigeait",
+     "transcription": "« [sic, pro al–Battānī] que l’Afrique, au sud de l’Abyssinie, tournait à l’ouest et se dirigeait",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0265-body-L015",
+     "source_line_no": null,
+     "tex": "« vers l’océan Atlantique (comp. Reinaud, Introd., p. CCLXXXVI, note 2) (2), mais la com-",
+     "transcription": "« vers l’océan Atlantique (comp. Reinaud, Introd., p. CCLXXXVI, note 2) (2), mais la com-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0265-body-L016",
+     "source_line_no": null,
+     "tex": "« paraison du texte avec celui d’Ibn Rosteh prouve que Kodâma n’a pas compris sa source",
+     "transcription": "« paraison du texte avec celui d’Ibn Rosteh prouve que Kodâma n’a pas compris sa source",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0265-body-L017",
+     "source_line_no": null,
+     "tex": "« et que c’est en réalité à l’Atlantique que le nom de mer Verte appartient ici ».",
+     "transcription": "« et que c’est en réalité à l’Atlantique que le nom de mer Verte appartient ici ».",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0265-body-L018",
+     "source_line_no": null,
+     "tex": "\\Indent Sed quo modo Oceanus Atlanticus potest dici coniunctus vel contiguus mari al–Qolzum,",
+     "transcription": "Sed quo modo Oceanus Atlanticus potest dici coniunctus vel contiguus mari al–Qolzum,",
+     "semantic_anchor": "AB01-PDF0265-P03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0265-body-L019",
+     "source_line_no": null,
+     "tex": "quod nos hodie Rubrum mare vocamus? Nemo est qui non videat sententiam quoque \\Name{de}",
+     "transcription": "quod nos hodie Rubrum mare vocamus? Nemo est qui non videat sententiam quoque {sp:de}",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0265-body-L020",
+     "source_line_no": null,
+     "tex": "\\Name{Goeje} omnino esse reiiciendam.",
+     "transcription": "{sp:Goeje} omnino esse reiiciendam.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0265-body-L021",
+     "source_line_no": null,
+     "tex": "\\Indent Consideremus nunc locos similes apud alios scriptores. \\Name{Al–Mas‘ūdī}, \\textit{Prairies,} I, 237,",
+     "transcription": "Consideremus nunc locos similes apud alios scriptores. {sp:Al–Mas‘ūdī}, *Prairies,* I, 237,",
+     "semantic_anchor": "AB01-PDF0265-P04",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0265-body-L022",
+     "source_line_no": null,
+     "tex": "haec habet: « eius longitudo est 1400 milliariorum; latitudo eius duarum extremitatum, et",
+     "transcription": "haec habet: « eius longitudo est 1400 milliariorum; latitudo eius duarum extremitatum, et",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0265-body-L023",
+     "source_line_no": null,
+     "tex": "« est locus omnium proximus in eius latitudine, 200; latitudo demum in medio loco 700, quae",
+     "transcription": "« est locus omnium proximus in eius latitudine, 200; latitudo demum in medio loco 700, quae",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0265-body-L024",
+     "source_line_no": null,
+     "tex": "« est maxima eius latitudo » (\\ArabicRun{طوله الف واربعمائة ميل وعرض طرفيه مائتا ميل وهو اقرب المواضع في عرضه وعرضه}",
+     "transcription": "« est maxima eius latitudo » ({ar:طوله الف واربعمائة ميل وعرض طرفيه مائتا ميل وهو اقرب المواضع في عرضه وعرضه}",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0265-body-L025",
+     "source_line_no": null,
+     "tex": "\\ArabicRun{في الوسط سبعمائة ميل وهو اكـــــبر العرض فيه}). Verba « eius duarum extremitatum » (\\ArabicRun{طرفيه}) sunt parvus",
+     "transcription": "{ar:في الوسط سبعمائة ميل وهو اكـــــبر العرض فيه}). Verba « eius duarum extremitatum » ({ar:طرفيه}) sunt parvus",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0265-body-L026",
+     "source_line_no": null,
+     "tex": "scripturae error (3) pro \\ArabicRun{طريقه} « eius recti itineris »; verba igitur al–Mas‘ūdī cum al–Battānī",
+     "transcription": "scripturae error (3) pro {ar:طريقه} « eius recti itineris »; verba igitur al–Mas‘ūdī cum al–Battānī",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0265-body-L027",
+     "source_line_no": null,
+     "tex": "concordant. — \\Name{Al–Kharaqī}, fol. 74,v. cod P = 57,v. cod. L: « eius finem, versus extremi-",
+     "transcription": "concordant. — {sp:Al–Kharaqī}, fol. 74,v. cod P = 57,v. cod. L: « eius finem, versus extremi-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0265-body-L028",
+     "source_line_no": null,
+     "tex": "« tatem proximam quae \\textit{mare Viride} appelletur, 200 milliariorum esse » (\\ArabicRun{ومنتهاه الى طرفه (طرف \\textlatin{codd.})}",
+     "transcription": "« tatem proximam quae *mare Viride* appelletur, 200 milliariorum esse » ({ar:ومنتهاه الى طرفه (طرف codd.)}",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0265-body-L029",
+     "source_line_no": null,
+     "tex": "\\ArabicRun{الادنى الذي يسمّى البحر الاخضر مقدار مائتي ميل}).",
+     "transcription": "{ar:الادنى الذي يسمّى البحر الاخضر مقدار مائتي ميل}).",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0265-body-L030",
+     "source_line_no": null,
+     "tex": "\\Indent \\Name{Quṭb ad–dīn Maḥmūd ash–Shīrāzī}, \\textit{at–tuḥfah ash–shāhiyyah,} f. 155,v.: « Ducentae",
+     "transcription": "{sp:Quṭb ad–dīn Maḥmūd ash–Shīrāzī}, *at–tuḥfah ash–shāhiyyah,* f. 155,v.: « Ducentae",
+     "semantic_anchor": "AB01-PDF0265-P05",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0265-body-L031",
+     "source_line_no": null,
+     "tex": "« parasangae [= 600 milliaria] sunt latitudo originis secundi sinus, qui Sinus Ruber appel-",
+     "transcription": "« parasangae [= 600 milliaria] sunt latitudo originis secundi sinus, qui Sinus Ruber appel-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0265-body-L032",
+     "source_line_no": null,
+     "tex": "« latur, et cuius extremitas Mare Viride dicitur; eius longitudo in septentriones versus est",
+     "transcription": "« latur, et cuius extremitas Mare Viride dicitur; eius longitudo in septentriones versus est",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0265-body-L033",
+     "source_line_no": null,
+     "tex": "« 460 parasangarum [= 1380 milliaria]; ubi angustior fit, et est eius finis, 60 parasangas",
+     "transcription": "« 460 parasangarum [= 1380 milliaria]; ubi angustior fit, et est eius finis, 60 parasangas",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0265-body-L034",
+     "source_line_no": null,
+     "tex": "« [= 180 milliaria] complectitur » \\ArabicRun{وهي عرض اصل الخليج الثاني ويُسمَّى الخليج الاحمر وطَرَفه [يُعْرَف \\textlatin{add.}] بالبحر}",
+     "transcription": "« [= 180 milliaria] complectitur » {ar:وهي عرض اصل الخليج الثاني ويُسمَّى الخليج الاحمر وطَرَفه [يُعْرَف add.] بالبحر}",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0265-body-L035",
+     "source_line_no": null,
+     "tex": "\\ArabicRun{الاخضر وطوله في الشمال اربعمائة وستّون فرسخًا وحيث يستدقّ وهو منتهاه ستّون فرسخًا}.",
+     "transcription": "{ar:الاخضر وطوله في الشمال اربعمائة وستّون فرسخًا وحيث يستدقّ وهو منتهاه ستّون فرسخًا}.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0265-body-L036",
+     "source_line_no": null,
+     "tex": "\\Indent \\Name{Qāḍī–zādeh}, in commentario ad I caput (\\textit{faṣl}) tertiae sectionis (\\textit{bāb}) libri \\textit{at–tadhkirah,}",
+     "transcription": "{sp:Qāḍī–zādeh}, in commentario ad I caput (*faṣl*) tertiae sectionis (*bāb*) libri *at–tadhkirah,*",
+     "semantic_anchor": "AB01-PDF0265-P06",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0265-body-L037",
+     "source_line_no": null,
+     "tex": "f. 120,v., ait Sinum Rubrum 200 parasangas [= 600 mill.] prope originem suam (\\ArabicRun{عنــد اصله})",
+     "transcription": "f. 120,v., ait Sinum Rubrum 200 parasangas [= 600 mill.] prope originem suam ({ar:عنــد اصله})",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0265-body-L038",
+     "source_line_no": null,
+     "tex": "complecti; « postea angustior fit eo usque quo finis eius 60 parasangarum [= 180 mill.] eva-",
+     "transcription": "complecti; « postea angustior fit eo usque quo finis eius 60 parasangarum [= 180 mill.] eva-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0265-body-L039",
+     "source_line_no": null,
+     "tex": "« dit » \\ArabicRun{ثمّ انّه يستدقّ الى أن يصير منتهاه ستّين فرسخًا}.",
+     "transcription": "« dit » {ar:ثمّ انّه يستدقّ الى أن يصير منتهاه ستّين فرسخًا}.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0265-body-L040",
+     "source_line_no": null,
+     "tex": "\\Indent « Proxima extremitas », « proximum rectum iter », cet., omnium fere Arabicorum scripto-",
+     "transcription": "« Proxima extremitas », « proximum rectum iter », cet., omnium fere Arabicorum scripto-",
+     "semantic_anchor": "AB01-PDF0265-P07",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0265-body-L041",
+     "source_line_no": null,
+     "tex": "rum non possunt nisi « proximum nobis » explicari; et quoniam tam auctores Arabici quam Syrii",
+     "transcription": "rum non possunt nisi « proximum nobis » explicari; et quoniam tam auctores Arabici quam Syrii",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0265-body-L042",
+     "source_line_no": null,
+     "tex": "(a quibus Arabes notiones illas de maribus acceperunt) in Syria et in Mesopotamia vivebant,",
+     "transcription": "(a quibus Arabes notiones illas de maribus acceperunt) in Syria et in Mesopotamia vivebant,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    }
+   ]
+  },
+  {
+   "role": "notes_left",
+   "lines": [
+    {
+     "id": "AB01-PDF0265-notes_left-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (1) Seu potius 400; cfr. p. 168, adn. 3.",
+     "transcription": "(1) Seu potius 400; cfr. p. 168, adn. 3.",
+     "semantic_anchor": "AB01-PDF0265-N01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0265-notes_left-L002",
+     "source_line_no": null,
+     "tex": "\\Indent (2) Sed hanc coniecturam \\Name{Reinaud} iam vi-",
+     "transcription": "(2) Sed hanc coniecturam {sp:Reinaud} iam vi-",
+     "semantic_anchor": "AB01-PDF0265-N02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0265-notes_left-L003",
+     "source_line_no": null,
+     "tex": "dimus (adn. \\textbf{\\textit{d}}, p. 167) omnino falsam esse.",
+     "transcription": "dimus (adn. {bi:d}, p. 167) omnino falsam esse.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  },
+  {
+   "role": "notes_right",
+   "lines": [
+    {
+     "id": "AB01-PDF0265-notes_right-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (3) Idem error in descriptione maris al-Baṣ-",
+     "transcription": "(3) Idem error in descriptione maris al-Baṣ-",
+     "semantic_anchor": "AB01-PDF0265-N03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0265-notes_right-L002",
+     "source_line_no": null,
+     "tex": "rah, cfr. adn. \\textbf{\\textit{d}}, pag. 168, adn. 4.",
+     "transcription": "rah, cfr. adn. {bi:d}, pag. 168, adn. 4.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  }
+ ]
+}
