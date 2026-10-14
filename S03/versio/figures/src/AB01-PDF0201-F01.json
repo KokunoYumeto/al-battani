@@ -115,146 +115,129 @@
    "dot": 1.25
   }
  ],
- "labels": [
-  {
-   "t": "B",
-   "x0": 249.5,
-   "y0": 459.6,
-   "x1": 256.1,
-   "y1": 466.1
-  },
-  {
-   "t": "F",
-   "x0": 254.6,
-   "y0": 501.7,
-   "x1": 259.7,
-   "y1": 508.8
-  },
-  {
-   "t": "E",
-   "x0": 255.22,
-   "y0": 565.92,
-   "x1": 261.7,
-   "y1": 573.84
-  },
-  {
-   "t": "C",
-   "x0": 139.0,
-   "y0": 573.2,
-   "x1": 143.7,
-   "y1": 580.4
-  },
-  {
-   "t": "A",
-   "x0": 361.0,
-   "y0": 571.5,
-   "x1": 368.5,
-   "y1": 579.5
-  },
-  {
-   "t": "H",
-   "x0": 319.3,
-   "y0": 579.6,
-   "x1": 327.5,
-   "y1": 585.7
-  },
-  {
-   "t": "Q",
-   "x0": 360.8,
-   "y0": 591.0,
-   "x1": 366.0,
-   "y1": 600.8
-  },
-  {
-   "t": "P",
-   "x0": 253.2,
-   "y0": 597.8,
-   "x1": 260.8,
-   "y1": 605.4
-  },
-  {
-   "t": "N",
-   "x0": 204.1,
-   "y0": 610.3,
-   "x1": 211.3,
-   "y1": 617.5
-  },
-  {
-   "t": "K",
-   "x0": 213.74,
-   "y0": 620.18,
-   "x1": 219.32,
-   "y1": 627.74
-  },
-  {
-   "t": "G",
-   "x0": 255.7,
-   "y0": 624.2,
-   "x1": 261.4,
-   "y1": 631.7
-  },
-  {
-   "t": "R",
-   "x0": 254.48,
-   "y0": 633.6,
-   "x1": 259.88,
-   "y1": 640.8
-  },
-  {
-   "t": "L",
-   "x0": 296.8,
-   "y0": 624.7,
-   "x1": 302.9,
-   "y1": 631.9
-  },
-  {
-   "t": "S",
-   "x0": 169.12,
-   "y0": 652.04,
-   "x1": 173.98,
-   "y1": 660.32
-  },
-  {
-   "t": "M",
-   "x0": 255.84,
-   "y0": 647.04,
-   "x1": 262.5,
-   "y1": 654.78
-  },
-  {
-   "t": "D",
-   "x0": 249.2,
-   "y0": 686.7,
-   "x1": 255.7,
-   "y1": 693.5
-  }
- ],
+ "labels": [],
  "words": [
   {
-   "t": "\\resizebox{34.31pt}{4.70pt}{MERIDIES}",
-   "cx": 252.91,
-   "cy": 453.09,
+   "t": "\\resizebox{34.93pt}{4.37pt}{MERIDIES}",
+   "cx": 252.95,
+   "cy": 452.94,
    "font": "\\fontsize{8.5}{8.5}\\sffamily\\bfseries\\selectfont"
   },
   {
-   "t": "\\resizebox{65.61pt}{5.22pt}{SEPTENTRIONES}",
-   "cx": 250.43,
-   "cy": 699.35,
+   "t": "\\resizebox{66.32pt}{5.14pt}{SEPTENTRIONES}",
+   "cx": 250.51,
+   "cy": 699.27,
    "font": "\\fontsize{8.5}{8.5}\\sffamily\\bfseries\\selectfont"
   },
   {
-   "t": "\\resizebox{26.86pt}{5.32pt}{ORIENS}",
-   "cx": 133.49,
-   "cy": 576.97,
+   "t": "\\resizebox{27.66pt}{4.85pt}{ORIENS}",
+   "cx": 133.44,
+   "cy": 576.93,
    "font": "\\fontsize{8.5}{8.5}\\sffamily\\bfseries\\selectfont",
    "rot": -90
   },
   {
-   "t": "\\resizebox{38.03pt}{5.32pt}{OCCIDENS}",
-   "cx": 374.05,
-   "cy": 578.62,
+   "t": "\\resizebox{38.90pt}{5.08pt}{OCCIDENS}",
+   "cx": 374.1,
+   "cy": 578.49,
    "font": "\\fontsize{8.5}{8.5}\\sffamily\\bfseries\\selectfont",
    "rot": 90
+  },
+  {
+   "t": "\\resizebox{7.54pt}{8.04pt}{B}",
+   "cx": 251.92,
+   "cy": 463.0,
+   "font": "\\fontsize{11.5}{11.5}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{5.99pt}{7.21pt}{F}",
+   "cx": 256.56,
+   "cy": 505.28,
+   "font": "\\fontsize{11.5}{11.5}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{6.65pt}{7.57pt}{E}",
+   "cx": 257.39,
+   "cy": 569.92,
+   "font": "\\fontsize{11.5}{11.5}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{6.11pt}{8.16pt}{C}",
+   "cx": 141.04,
+   "cy": 577.5,
+   "font": "\\fontsize{11.5}{11.5}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{6.53pt}{7.92pt}{A}",
+   "cx": 364.17,
+   "cy": 575.62,
+   "font": "\\fontsize{11.5}{11.5}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{8.01pt}{6.86pt}{H}",
+   "cx": 322.27,
+   "cy": 583.36,
+   "font": "\\fontsize{11.5}{11.5}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{6.29pt}{7.54pt}{Q}",
+   "cx": 363.07,
+   "cy": 596.02,
+   "font": "\\fontsize{11.5}{11.5}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{6.14pt}{7.45pt}{P}",
+   "cx": 256.58,
+   "cy": 601.5,
+   "font": "\\fontsize{11.5}{11.5}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{7.14pt}{7.33pt}{N}",
+   "cx": 206.52,
+   "cy": 613.82,
+   "font": "\\fontsize{11.5}{11.5}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{7.78pt}{7.45pt}{K}",
+   "cx": 216.11,
+   "cy": 623.94,
+   "font": "\\fontsize{11.5}{11.5}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{6.02pt}{8.27pt}{G}",
+   "cx": 258.12,
+   "cy": 628.32,
+   "font": "\\fontsize{11.5}{11.5}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{6.10pt}{6.97pt}{R}",
+   "cx": 256.55,
+   "cy": 637.18,
+   "font": "\\fontsize{11.5}{11.5}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{6.59pt}{7.33pt}{L}",
+   "cx": 299.67,
+   "cy": 628.46,
+   "font": "\\fontsize{11.5}{11.5}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{6.54pt}{8.51pt}{S}",
+   "cx": 170.61,
+   "cy": 656.28,
+   "font": "\\fontsize{11.5}{11.5}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{8.43pt}{7.57pt}{M}",
+   "cx": 258.56,
+   "cy": 650.68,
+   "font": "\\fontsize{11.5}{11.5}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{6.82pt}{7.33pt}{D}",
+   "cx": 252.13,
+   "cy": 690.04,
+   "font": "\\fontsize{11.5}{11.5}\\bfseries\\itshape\\selectfont"
   }
  ]
 }
