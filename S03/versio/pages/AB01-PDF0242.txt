@@ -1,0 +1,51 @@
+@page 242 153
+% The first page of Nallino's commentary: on chapter 3, the propositions on chords that al-Battānī takes from the Almagest I, 9, written in modern algebraic notation as the formulas (α) to (ϑ); Ptolemy has no rule like (η) for the chord of a sum, and Delambre is wrong to ascribe one to him.
+@nonum
+@rule2
+@vspace 42.32
+@title ADNOTATIONES
+@vspace 6.19
+@rule
+@vspace 20.19
+@fontsize 15 17
+@center A{sc:d} {sc:caput} III.
+@normal
+@vspace 3.83
+@center {bi:a}) — *Pag. 9–10.*
+@vspace 4.3
+^ Propositiones omnes quas auctor de *chordis* habet, in *Almagesto* I, 9 (ed. Halma t. I,
+p. 26–37) demonstrantur. Si littera R semidiametrum indicemus, nostra scriptura algebrica
+hoc modo exprimuntur:
+@vspace -0.54
+@at 0:**(α)** | 14.26:chorda $\dfrac{\text{360°}}{\text{6}}$ | 34.92:seu chorda 60° $= R$
+@vspace 0.83
+@at 0:**(β)** | 14.26:chorda $\dfrac{\text{360°}}{\text{3}}$ | 34.92:seu chorda 120° $= \sqrt{4\,R^2 - \text{chorda}^2\,\dfrac{\text{360°}}{\text{6}}}$
+@at 0:**(γ)** | 14.26:chorda $(\text{180°} - a) = \sqrt{4\,R^2 - \text{chorda}^2\,a}$
+@vspace 0.26
+@at 0:**(δ)** | 14.26:chorda $\dfrac{\text{360°}}{\text{4}}$ | 34.92:seu chorda 90° $= \sqrt{2\,R^2}$
+@vspace 0.70
+@at 0:**(ε)** | 14.26:chorda $\dfrac{\text{360°}}{\text{10}}$ | 34.92:seu chorda 36° $= \sqrt{R^2 + \dfrac{2\,R}{4}} - \dfrac{2\,R}{4}$
+@vspace 0.41
+@at 0:**(ζ)** | 14.26:chorda $\dfrac{\text{360°}}{\text{5}}$ | 34.92:seu chorda 72° $= \sqrt{\text{chorda}^2\,\dfrac{\text{360°}}{\text{10}} + R^2}$
+@vspace 0.05
+@at 0:**(η)** | 14.26:chorda $(a - b) = \dfrac{\text{chorda } a \text{ chorda } (\text{180°} - b) - \text{chorda } b \text{ chorda } (\text{180°} - a)}{2\,R}$
+@vspace 0.60
+@at 0:**(ϑ)** | 14.26:chorda $\dfrac{a}{2} = \sqrt{\dfrac{2\,R - \text{chorda } (\text{180°} - a)}{2} \times 2\,R}$
+@vspace 1.15
+^ Ad inveniendam chordam summae duorum arcuum, {sp:Ptolemaeus} (ed. Halma, t. I.
+p. 32–33), quem noster sequitur, aliquid simile regulae (η) non habet, sed per chordam sup-
+plementi transit (1); ergo
+@vspace 1.99
+@notes
+^ (1) Errat {sp:Delambre}, *Astron. ancienne*, t. II,
+p. 39 (ut me {sp:Schiaparelli} monet), qui {sp:Ptole-}
+{sp:maeo} regulam tribuit:
+@col
+@center crd $(p + q) =$
+@center $= \dfrac{\text{crd } p \text{ crd } (\text{180°} - q) - \text{crd } q \text{ crd } (\text{180°} - p)}{2\,R}$.
+@sig 20
+@obs body: the first page of the commentary: a double rule, heavy over thin, across the head of the page; the title, set in a large condensed bold type; a short rule; the head of the notes on chapter 3, «Ad» and «caput» in small capitals; the print numbers no lines in the commentary.
+@obs body L7-L14: the formulas stand as printed, their labels in bold; the words «seu chorda» of (α), (β), (δ), (ε) and (ζ) stand in one column.
+@obs body L11: in (ε) the second term under the root is printed 2R/4, without a square; the side of the decagon, chorda 36° = √(R² + (R/2)²) − R/2, asks for (2R/4)²; kept as printed.
+@obs body L15: «Halma, t. I.» is printed with a full stop before the line break.
+@obs notes_right L2: the sign between the two products is printed −; the chord of the sum is crd (p + q) = [crd p crd (180° − q) + crd q crd (180° − p)] / 2R, and with − the rule gives crd (p − q), the rule (η) of the text; kept as printed.

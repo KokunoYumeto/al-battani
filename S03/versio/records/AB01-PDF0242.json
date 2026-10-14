@@ -1,0 +1,257 @@
+{
+ "anchor": "AB01-PDF0242",
+ "master_pdf_page": 242,
+ "printed_page": 153,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": "20",
+ "margin_locators": [],
+ "observations": [
+  "body: the first page of the commentary: a double rule, heavy over thin, across the head of the page; the title, set in a large condensed bold type; a short rule; the head of the notes on chapter 3, «Ad» and «caput» in small capitals; the print numbers no lines in the commentary.",
+  "body L7-L14: the formulas stand as printed, their labels in bold; the words «seu chorda» of (α), (β), (δ), (ε) and (ζ) stand in one column.",
+  "body L11: in (ε) the second term under the root is printed 2R/4, without a square; the side of the decagon, chorda 36° = √(R² + (R/2)²) − R/2, asks for (2R/4)²; kept as printed.",
+  "body L15: «Halma, t. I.» is printed with a full stop before the line break.",
+  "notes_right L2: the sign between the two products is printed −; the chord of the sum is crd (p + q) = [crd p crd (180° − q) + crd q crd (180° − p)] / 2R, and with − the rule gives crd (p − q), the rule (η) of the text; kept as printed."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0242-body-L001",
+     "source_line_no": null,
+     "tex": "\\CenterLine{\\fontsize{24}{28}\\selectfont ADNOTATIONES}",
+     "transcription": "ADNOTATIONES",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0242-body-L002",
+     "source_line_no": null,
+     "tex": "\\CenterLine{A\\textsc{d} \\textsc{caput} III.}",
+     "transcription": "A{sc:d} {sc:caput} III.",
+     "semantic_anchor": "AB01-PDF0242-H02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0242-body-L003",
+     "source_line_no": null,
+     "tex": "\\CenterLine{\\textbf{\\textit{a}}) — \\textit{Pag. 9–10.}}",
+     "transcription": "{bi:a}) — *Pag. 9–10.*",
+     "semantic_anchor": "AB01-PDF0242-H03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0242-body-L004",
+     "source_line_no": null,
+     "tex": "\\Indent Propositiones omnes quas auctor de \\textit{chordis} habet, in \\textit{Almagesto} I, 9 (ed. Halma t. I,",
+     "transcription": "Propositiones omnes quas auctor de *chordis* habet, in *Almagesto* I, 9 (ed. Halma t. I,",
+     "semantic_anchor": "AB01-PDF0242-P01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0242-body-L005",
+     "source_line_no": null,
+     "tex": "p. 26–37) demonstrantur. Si littera R semidiametrum indicemus, nostra scriptura algebrica",
+     "transcription": "p. 26–37) demonstrantur. Si littera R semidiametrum indicemus, nostra scriptura algebrica",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0242-body-L006",
+     "source_line_no": null,
+     "tex": "hoc modo exprimuntur:",
+     "transcription": "hoc modo exprimuntur:",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0242-body-L007",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.00mm}\\textbf{(\\textgreek{α})}}\\rlap{\\hspace*{14.26mm}chorda $\\dfrac{\\text{360°}}{\\text{6}}$}\\rlap{\\hspace*{34.92mm}seu chorda 60° $= R$}",
+     "transcription": "**(α)** chorda $\\dfrac{\\text{360°}}{\\text{6}}$ seu chorda 60° $= R$",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0242-body-L008",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.00mm}\\textbf{(\\textgreek{β})}}\\rlap{\\hspace*{14.26mm}chorda $\\dfrac{\\text{360°}}{\\text{3}}$}\\rlap{\\hspace*{34.92mm}seu chorda 120° $= \\sqrt{4\\,R^2 - \\text{chorda}^2\\,\\dfrac{\\text{360°}}{\\text{6}}}$}",
+     "transcription": "**(β)** chorda $\\dfrac{\\text{360°}}{\\text{3}}$ seu chorda 120° $= \\sqrt{4\\,R^2 - \\text{chorda}^2\\,\\dfrac{\\text{360°}}{\\text{6}}}$",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0242-body-L009",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.00mm}\\textbf{(\\textgreek{γ})}}\\rlap{\\hspace*{14.26mm}chorda $(\\text{180°} - a) = \\sqrt{4\\,R^2 - \\text{chorda}^2\\,a}$}",
+     "transcription": "**(γ)** chorda $(\\text{180°} - a) = \\sqrt{4\\,R^2 - \\text{chorda}^2\\,a}$",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0242-body-L010",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.00mm}\\textbf{(\\textgreek{δ})}}\\rlap{\\hspace*{14.26mm}chorda $\\dfrac{\\text{360°}}{\\text{4}}$}\\rlap{\\hspace*{34.92mm}seu chorda 90° $= \\sqrt{2\\,R^2}$}",
+     "transcription": "**(δ)** chorda $\\dfrac{\\text{360°}}{\\text{4}}$ seu chorda 90° $= \\sqrt{2\\,R^2}$",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0242-body-L011",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.00mm}\\textbf{(\\textgreek{ε})}}\\rlap{\\hspace*{14.26mm}chorda $\\dfrac{\\text{360°}}{\\text{10}}$}\\rlap{\\hspace*{34.92mm}seu chorda 36° $= \\sqrt{R^2 + \\dfrac{2\\,R}{4}} - \\dfrac{2\\,R}{4}$}",
+     "transcription": "**(ε)** chorda $\\dfrac{\\text{360°}}{\\text{10}}$ seu chorda 36° $= \\sqrt{R^2 + \\dfrac{2\\,R}{4}} - \\dfrac{2\\,R}{4}$",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0242-body-L012",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.00mm}\\textbf{(\\textgreek{ζ})}}\\rlap{\\hspace*{14.26mm}chorda $\\dfrac{\\text{360°}}{\\text{5}}$}\\rlap{\\hspace*{34.92mm}seu chorda 72° $= \\sqrt{\\text{chorda}^2\\,\\dfrac{\\text{360°}}{\\text{10}} + R^2}$}",
+     "transcription": "**(ζ)** chorda $\\dfrac{\\text{360°}}{\\text{5}}$ seu chorda 72° $= \\sqrt{\\text{chorda}^2\\,\\dfrac{\\text{360°}}{\\text{10}} + R^2}$",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0242-body-L013",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.00mm}\\textbf{(\\textgreek{η})}}\\rlap{\\hspace*{14.26mm}chorda $(a - b) = \\dfrac{\\text{chorda } a \\text{ chorda } (\\text{180°} - b) - \\text{chorda } b \\text{ chorda } (\\text{180°} - a)}{2\\,R}$}",
+     "transcription": "**(η)** chorda $(a - b) = \\dfrac{\\text{chorda } a \\text{ chorda } (\\text{180°} - b) - \\text{chorda } b \\text{ chorda } (\\text{180°} - a)}{2\\,R}$",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0242-body-L014",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.00mm}\\textbf{(\\textgreek{ϑ})}}\\rlap{\\hspace*{14.26mm}chorda $\\dfrac{a}{2} = \\sqrt{\\dfrac{2\\,R - \\text{chorda } (\\text{180°} - a)}{2} \\times 2\\,R}$}",
+     "transcription": "**(ϑ)** chorda $\\dfrac{a}{2} = \\sqrt{\\dfrac{2\\,R - \\text{chorda } (\\text{180°} - a)}{2} \\times 2\\,R}$",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0242-body-L015",
+     "source_line_no": null,
+     "tex": "\\Indent Ad inveniendam chordam summae duorum arcuum, \\Name{Ptolemaeus} (ed. Halma, t. I.",
+     "transcription": "Ad inveniendam chordam summae duorum arcuum, {sp:Ptolemaeus} (ed. Halma, t. I.",
+     "semantic_anchor": "AB01-PDF0242-P02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0242-body-L016",
+     "source_line_no": null,
+     "tex": "p. 32–33), quem noster sequitur, aliquid simile regulae (\\textgreek{η}) non habet, sed per chordam sup-",
+     "transcription": "p. 32–33), quem noster sequitur, aliquid simile regulae (η) non habet, sed per chordam sup-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0242-body-L017",
+     "source_line_no": null,
+     "tex": "plementi transit (1); ergo",
+     "transcription": "plementi transit (1); ergo",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    }
+   ]
+  },
+  {
+   "role": "notes_left",
+   "lines": [
+    {
+     "id": "AB01-PDF0242-notes_left-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (1) Errat \\Name{Delambre}, \\textit{Astron. ancienne}, t. II,",
+     "transcription": "(1) Errat {sp:Delambre}, *Astron. ancienne*, t. II,",
+     "semantic_anchor": "AB01-PDF0242-N01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0242-notes_left-L002",
+     "source_line_no": null,
+     "tex": "p. 39 (ut me \\Name{Schiaparelli} monet), qui \\Name{Ptole-}",
+     "transcription": "p. 39 (ut me {sp:Schiaparelli} monet), qui {sp:Ptole-}",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0242-notes_left-L003",
+     "source_line_no": null,
+     "tex": "\\Name{maeo} regulam tribuit:",
+     "transcription": "{sp:maeo} regulam tribuit:",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  },
+  {
+   "role": "notes_right",
+   "lines": [
+    {
+     "id": "AB01-PDF0242-notes_right-L001",
+     "source_line_no": null,
+     "tex": "\\CenterLine{crd $(p + q) =$}",
+     "transcription": "crd $(p + q) =$",
+     "semantic_anchor": "AB01-PDF0242-H01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0242-notes_right-L002",
+     "source_line_no": null,
+     "tex": "\\CenterLine{$= \\dfrac{\\text{crd } p \\text{ crd } (\\text{180°} - q) - \\text{crd } q \\text{ crd } (\\text{180°} - p)}{2\\,R}$.}",
+     "transcription": "$= \\dfrac{\\text{crd } p \\text{ crd } (\\text{180°} - q) - \\text{crd } q \\text{ crd } (\\text{180°} - p)}{2\\,R}$.",
+     "semantic_anchor": "AB01-PDF0242-H02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  }
+ ]
+}
