@@ -1,0 +1,592 @@
+{
+ "anchor": "AB01-PDF0167",
+ "master_pdf_page": 167,
+ "printed_page": 78,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "margin_locators": [
+  {
+   "line_anchor": "AB01-PDF0167-body-L018",
+   "text": "p. 117."
+  }
+ ],
+ "observations": [
+  "body: the line numbers 5 to 35 stand in the right margin and the locator «p. 117.» (L18) in the left margin.",
+  "body L26, L29, L32: the letters of the references (d), (e) and (f) are bold italic.",
+  "body L31, L32: the words from «eo utere» to «epicycli» are italic, with the number and the fraction.",
+  "notes_left L5: note 1 ends with «negligere», without a full stop.",
+  "notes_left L7: the dash before «Cap.» is printed shorter (6.1 pt) than the other dashes between sentences in the notes (7 to 8 pt), in a tightly set line; transcribed as the same dash."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0167-body-L001",
+     "source_line_no": 1,
+     "tex": "vationis in calculum Solis ingressa est, cum terminus eclipticae eiusque declinatio tantum per",
+     "transcription": "vationis in calculum Solis ingressa est, cum terminus eclipticae eiusque declinatio tantum per",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0167-body-L002",
+     "source_line_no": 2,
+     "tex": "observationes Solis cogniti sint (1).",
+     "transcription": "observationes Solis cogniti sint (1).",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0167-body-L003",
+     "source_line_no": 3,
+     "tex": "\\Indent Ex iis quae supra diximus patet locum apogeum excentrici Lunae 60 partibus a centro",
+     "transcription": "Ex iis quae supra diximus patet locum apogeum excentrici Lunae 60 partibus a centro",
+     "semantic_anchor": "AB01-PDF0167-P01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0167-body-L004",
+     "source_line_no": 4,
+     "tex": "Terrae distare; si igitur semidiametrus Terrae 1\\textsuperscript{\\textit{p}} ponatur, Luna tunc a superficie Terrae 59\\textsuperscript{\\textit{p}}",
+     "transcription": "Terrae distare; si igitur semidiametrus Terrae 1{sup:*p*} ponatur, Luna tunc a superficie Terrae 59{sup:*p*}",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0167-body-L005",
+     "source_line_no": 5,
+     "tex": "aberit; et hac ratione illae 5\\textsuperscript{\\textit{p}} $\\qfrac{1}{4}$ semidiametri epicycli fiunt 5\\textsuperscript{\\textit{p}} $\\qfrac{1}{6}$, atque diametrus tota epi-",
+     "transcription": "aberit; et hac ratione illae 5{sup:*p*} {sfrac:1/4} semidiametri epicycli fiunt 5{sup:*p*} {sfrac:1/6}, atque diametrus tota epi-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 5,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0167-body-L006",
+     "source_line_no": 6,
+     "tex": "cycli 10\\textsuperscript{\\textit{p}} $\\qfrac{1}{3}$ complectitur. Si igitur centrum epicycli tenet apogeum excentrici, ut mediarum",
+     "transcription": "cycli 10{sup:*p*} {sfrac:1/3} complectitur. Si igitur centrum epicycli tenet apogeum excentrici, ut mediarum",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0167-body-L007",
+     "source_line_no": 7,
+     "tex": "syzygiarum temporibus evenit, Luna autem apogeum epicycli occupat, maxima distantia Lu-",
+     "transcription": "syzygiarum temporibus evenit, Luna autem apogeum epicycli occupat, maxima distantia Lu-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0167-body-L008",
+     "source_line_no": 8,
+     "tex": "nae a Terra 64\\textsuperscript{\\textit{p}} 10′ attingit, quae primus terminus habetur; exstante vero Luna in parte",
+     "transcription": "nae a Terra 64{sup:*p*} 10′ attingit, quae primus terminus habetur; exstante vero Luna in parte",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0167-body-L009",
+     "source_line_no": 9,
+     "tex": "inferiore epicycli, distantia fit 53\\textsuperscript{\\textit{p}} 50′ (2), quae sunt secundus terminus. Centrum epicycli, cum",
+     "transcription": "inferiore epicycli, distantia fit 53{sup:*p*} 50′ (2), quae sunt secundus terminus. Centrum epicycli, cum",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0167-body-L010",
+     "source_line_no": 10,
+     "tex": "perigeum excentrici occupat, vidimus a centro Terrae 39\\textsuperscript{\\textit{p}} 22′ (3) distare, quae, secundum illam",
+     "transcription": "perigeum excentrici occupat, vidimus a centro Terrae 39{sup:*p*} 22′ (3) distare, quae, secundum illam",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 10,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0167-body-L011",
+     "source_line_no": 11,
+     "tex": "rationem, 38\\textsuperscript{\\textit{p}} 43′ (4) fiunt; et hoc evenit in quadraturis mensis quae ab utroque plenilunii (5)",
+     "transcription": "rationem, 38{sup:*p*} 43′ (4) fiunt; et hoc evenit in quadraturis mensis quae ab utroque plenilunii (5)",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0167-body-L012",
+     "source_line_no": 12,
+     "tex": "latere sunt. Si eo tempore Luna supremam epicycli partem tenet, a Terra 43\\textsuperscript{\\textit{p}} 53′ (6) distat,",
+     "transcription": "latere sunt. Si eo tempore Luna supremam epicycli partem tenet, a Terra 43{sup:*p*} 53′ (6) distat,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0167-body-L013",
+     "source_line_no": 13,
+     "tex": "quae sunt tertius terminus; si perigeum epicycli occupat, a Terra 33\\textsuperscript{\\textit{p}} 33′ (7) abest, quae sunt",
+     "transcription": "quae sunt tertius terminus; si perigeum epicycli occupat, a Terra 33{sup:*p*} 33′ (7) abest, quae sunt",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0167-body-L014",
+     "source_line_no": 14,
+     "tex": "quartus terminus. Inter hos quatuor terminos distantiae variant.",
+     "transcription": "quartus terminus. Inter hos quatuor terminos distantiae variant.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0167-body-L015",
+     "source_line_no": 15,
+     "tex": "\\Indent Si longinquitatem Lunae a Terra scire vis, anomaliam aequatam Lunae accipe; si minor",
+     "transcription": "Si longinquitatem Lunae a Terra scire vis, anomaliam aequatam Lunae accipe; si minor",
+     "semantic_anchor": "AB01-PDF0167-P02",
+     "margin_locator": null,
+     "printed_line_number": 15,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0167-body-L016",
+     "source_line_no": 16,
+     "tex": "quam 180° est, eam tene; si 180° superat, eam de 360° deme, et residuo utere. Si numerus",
+     "transcription": "quam 180° est, eam tene; si 180° superat, eam de 360° deme, et residuo utere. Si numerus",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0167-body-L017",
+     "source_line_no": 17,
+     "tex": "anomaliae, quem retinendum praecepi, est minor 90 gradibus, eius sinum eiusque cosinum",
+     "transcription": "anomaliae, quem retinendum praecepi, est minor 90 gradibus, eius sinum eiusque cosinum",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0167-body-L018",
+     "source_line_no": 18,
+     "tex": "in 5\\textsuperscript{\\textit{p}} 15′, quae sunt semidiametrus epicycli, multiplica; postea ambo producta per semidiame-",
+     "transcription": "in 5{sup:*p*} 15′, quae sunt semidiametrus epicycli, multiplica; postea ambo producta per semidiame-",
+     "semantic_anchor": null,
+     "margin_locator": "p. 117.",
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0167-body-L019",
+     "source_line_no": 19,
+     "tex": "trum divide. Ei quod e cosinu provenit, 60\\textsuperscript{\\textit{p}} adde; quadrato huius summae adiice quadratum",
+     "transcription": "trum divide. Ei quod e cosinu provenit, 60{sup:*p*} adde; quadrato huius summae adiice quadratum",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0167-body-L020",
+     "source_line_no": 20,
+     "tex": "eius quod e sinu exit; denique radicem huius numeri sume. — Si autem numerus anomaliae,",
+     "transcription": "eius quod e sinu exit; denique radicem huius numeri sume. — Si autem numerus anomaliae,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 20,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0167-body-L021",
+     "source_line_no": 21,
+     "tex": "quem retinendum praecepi, 90° excedit, de eo 90° deme; sinum et cosinum residui multiplica",
+     "transcription": "quem retinendum praecepi, 90° excedit, de eo 90° deme; sinum et cosinum residui multiplica",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0167-body-L022",
+     "source_line_no": 22,
+     "tex": "in 5\\textsuperscript{\\textit{p}} 15′, et ambo producta per semidiametrum divide; quod e sinu provenit de 60\\textsuperscript{\\textit{p}} deme,",
+     "transcription": "in 5{sup:*p*} 15′, et ambo producta per semidiametrum divide; quod e sinu provenit de 60{sup:*p*} deme,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0167-body-L023",
+     "source_line_no": 23,
+     "tex": "et quadratum residui adde quadrato eius quod e cosinu provenit; denique radicem huius sum-",
+     "transcription": "et quadratum residui adde quadrato eius quod e cosinu provenit; denique radicem huius sum-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0167-body-L024",
+     "source_line_no": 24,
+     "tex": "mae accipe. — Radix alterutro modo reperta est hypotenusa Lunae, scilicet distantia Lunae",
+     "transcription": "mae accipe. — Radix alterutro modo reperta est hypotenusa Lunae, scilicet distantia Lunae",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0167-body-L025",
+     "source_line_no": 25,
+     "tex": "a centro Terrae, tempore mediarum syzygiarum; de singulis huius distantiae gradibus minu-",
+     "transcription": "a centro Terrae, tempore mediarum syzygiarum; de singulis huius distantiae gradibus minu-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 25,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0167-body-L026",
+     "source_line_no": 26,
+     "tex": "tum deme, et residuum erit distantia Lunae a [superficie] Terrae (\\textbf{\\textit{d}}).",
+     "transcription": "tum deme, et residuum erit distantia Lunae a [superficie] Terrae ({bi:d}).",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0167-body-L027",
+     "source_line_no": 27,
+     "tex": "\\Indent Si autem Luna ab alterutra parte inter coniunctionem et oppositionem reperitur, sume",
+     "transcription": "Si autem Luna ab alterutra parte inter coniunctionem et oppositionem reperitur, sume",
+     "semantic_anchor": "AB01-PDF0167-P03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0167-body-L028",
+     "source_line_no": 28,
+     "tex": "productum minutorum quartae columnae in quintam columnam tabularum aequationis Lunae;",
+     "transcription": "productum minutorum quartae columnae in quintam columnam tabularum aequationis Lunae;",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0167-body-L029",
+     "source_line_no": 29,
+     "tex": "hoc est quod te iussi aequationi simplici Lunae addere tempore correctionis (8) (\\textbf{\\textit{e}}); ei semper",
+     "transcription": "hoc est quod te iussi aequationi simplici Lunae addere tempore correctionis (8) ({bi:e}); ei semper",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0167-body-L030",
+     "source_line_no": 30,
+     "tex": "adde 5° 1′, quae sunt maxima aequatio simplex. Sinus huius summae est semidiametrus epi-",
+     "transcription": "adde 5° 1′, quae sunt maxima aequatio simplex. Sinus huius summae est semidiametrus epi-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 30,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0167-body-L031",
+     "source_line_no": 31,
+     "tex": "cycli declivis (9); \\textit{eo utere ut supra iis 5\\textsuperscript{p} $\\qfrac{1}{4}$; invenies hypotenusam Lunae aequatam ad}",
+     "transcription": "cycli declivis (9); *eo utere ut supra iis 5{sup:p} {sfrac:1/4}; invenies hypotenusam Lunae aequatam ad*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0167-body-L032",
+     "source_line_no": 32,
+     "tex": "\\textit{declivitatem epicycli} (\\textbf{\\textit{f}}). Postea sume duplam elongationem, quae inter Solem et Lunam iuxta",
+     "transcription": "*declivitatem epicycli* ({bi:f}). Postea sume duplam elongationem, quae inter Solem et Lunam iuxta",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0167-body-L033",
+     "source_line_no": 33,
+     "tex": "eorum motus medios evenit; si a 0° ad 180° est, eam tene, si a 180° ad 360° eam de 360°",
+     "transcription": "eorum motus medios evenit; si a 0° ad 180° est, eam tene, si a 180° ad 360° eam de 360°",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0167-body-L034",
+     "source_line_no": 34,
+     "tex": "deme, et residuum serva. Si numerus quem servare praecipio est minor 90 gradibus, eum",
+     "transcription": "deme, et residuum serva. Si numerus quem servare praecipio est minor 90 gradibus, eum",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0167-body-L035",
+     "source_line_no": 35,
+     "tex": "de 90° deme, at si maior de eo 90° detrahe; sinum residui voca sinum primum, et sinum eius",
+     "transcription": "de 90° deme, at si maior de eo 90° detrahe; sinum residui voca sinum primum, et sinum eius",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 35,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0167-body-L036",
+     "source_line_no": 36,
+     "tex": "complementi sinum secundum. Semidiametrum excentrici, quam 49\\textsuperscript{\\textit{p}} 41′ esse vidimus, in se",
+     "transcription": "complementi sinum secundum. Semidiametrum excentrici, quam 49{sup:*p*} 41′ esse vidimus, in se",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0167-body-L037",
+     "source_line_no": 37,
+     "tex": "ipsam multiplica; 2468\\textsuperscript{\\textit{p}} 26′ (10) invenies. Secundum sinum multiplica in 10\\textsuperscript{\\textit{p}} 19′ (11), quae sunt",
+     "transcription": "ipsam multiplica; 2468{sup:*p*} 26′ (10) invenies. Secundum sinum multiplica in 10{sup:*p*} 19′ (11), quae sunt",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    }
+   ]
+  },
+  {
+   "role": "notes_left",
+   "lines": [
+    {
+     "id": "AB01-PDF0167-notes_left-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (1) I. e. cum parallaxis Solis negligatur in alti-",
+     "transcription": "(1) I. e. cum parallaxis Solis negligatur in alti-",
+     "semantic_anchor": "AB01-PDF0167-N01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0167-notes_left-L002",
+     "source_line_no": null,
+     "tex": "tudinibus meridianis solstitialibus et in obliquitate",
+     "transcription": "tudinibus meridianis solstitialibus et in obliquitate",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0167-notes_left-L003",
+     "source_line_no": null,
+     "tex": "eclipticae determinandis, licet, immo quasi necessa-",
+     "transcription": "eclipticae determinandis, licet, immo quasi necessa-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0167-notes_left-L004",
+     "source_line_no": null,
+     "tex": "rium est, parallaxim solarem quibusdam aliis occa-",
+     "transcription": "rium est, parallaxim solarem quibusdam aliis occa-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0167-notes_left-L005",
+     "source_line_no": null,
+     "tex": "sionibus quoque negligere",
+     "transcription": "sionibus quoque negligere",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0167-notes_left-L006",
+     "source_line_no": null,
+     "tex": "\\Indent (2) Cod. 33\\textsuperscript{\\textit{p}} 50′.",
+     "transcription": "(2) Cod. 33{sup:*p*} 50′.",
+     "semantic_anchor": "AB01-PDF0167-N02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0167-notes_left-L007",
+     "source_line_no": null,
+     "tex": "\\Indent (3) Cod. 59\\textsuperscript{\\textit{p}} 22′; Plato 39\\textsuperscript{\\textit{p}} 55′. — Cap. XXX, p. 52.",
+     "transcription": "(3) Cod. 59{sup:*p*} 22′; Plato 39{sup:*p*} 55′. — Cap. XXX, p. 52.",
+     "semantic_anchor": "AB01-PDF0167-N03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0167-notes_left-L008",
+     "source_line_no": null,
+     "tex": "\\Indent (4) Cod. 48\\textsuperscript{\\textit{p}} 43′.",
+     "transcription": "(4) Cod. 48{sup:*p*} 43′.",
+     "semantic_anchor": "AB01-PDF0167-N04",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0167-notes_left-L009",
+     "source_line_no": null,
+     "tex": "\\Indent (5) I. e. loci oppositionis.",
+     "transcription": "(5) I. e. loci oppositionis.",
+     "semantic_anchor": "AB01-PDF0167-N05",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  },
+  {
+   "role": "notes_right",
+   "lines": [
+    {
+     "id": "AB01-PDF0167-notes_right-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (6) Cod. 53\\textsuperscript{\\textit{p}} 53′.",
+     "transcription": "(6) Cod. 53{sup:*p*} 53′.",
+     "semantic_anchor": "AB01-PDF0167-N06",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0167-notes_right-L002",
+     "source_line_no": null,
+     "tex": "\\Indent (7) Cod. 58\\textsuperscript{\\textit{p}} 53′. — Omnes in terminorum cal-",
+     "transcription": "(7) Cod. 58{sup:*p*} 53′. — Omnes in terminorum cal-",
+     "semantic_anchor": "AB01-PDF0167-N07",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0167-notes_right-L003",
+     "source_line_no": null,
+     "tex": "culi ut in \\textit{Almag.} V, 17 (ed. Halma, t. I, p. 349).",
+     "transcription": "culi ut in *Almag.* V, 17 (ed. Halma, t. I, p. 349).",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0167-notes_right-L004",
+     "source_line_no": null,
+     "tex": "\\Indent (8) I. e. ad locum verum reperiendum; cfr.",
+     "transcription": "(8) I. e. ad locum verum reperiendum; cfr.",
+     "semantic_anchor": "AB01-PDF0167-N08",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0167-notes_right-L005",
+     "source_line_no": null,
+     "tex": "cap. XXXVI, p. 75.",
+     "transcription": "cap. XXXVI, p. 75.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0167-notes_right-L006",
+     "source_line_no": null,
+     "tex": "\\Indent (9) I. e. epicycli, cuius centrum non est in apo-",
+     "transcription": "(9) I. e. epicycli, cuius centrum non est in apo-",
+     "semantic_anchor": "AB01-PDF0167-N09",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0167-notes_right-L007",
+     "source_line_no": null,
+     "tex": "geo excentrici; cfr. cap. XXX, p. 51, et passim.",
+     "transcription": "geo excentrici; cfr. cap. XXX, p. 51, et passim.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0167-notes_right-L008",
+     "source_line_no": null,
+     "tex": "\\Indent (10) Male Plato 56′ pro 26′, ut etiam infra.",
+     "transcription": "(10) Male Plato 56′ pro 26′, ut etiam infra.",
+     "semantic_anchor": "AB01-PDF0167-N10",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0167-notes_right-L009",
+     "source_line_no": null,
+     "tex": "\\Indent (11) Cod. 5\\textsuperscript{\\textit{p}} 14′.",
+     "transcription": "(11) Cod. 5{sup:*p*} 14′.",
+     "semantic_anchor": "AB01-PDF0167-N11",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  }
+ ]
+}
