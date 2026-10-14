@@ -71,7 +71,8 @@ Inline markup: {loc:p. 84.} the locator printed in the margin beside the line (t
 stands in the margin opposite the line numbers), {nonum} the line number is not printed beside this line,
 *italic*, **bold**, {bi:...} bold italic, {gb:...} bold grotesque (the «Pag.» heads), {sp:Name} letter-spaced,
 {spsc:...} letter-spaced small capitals, {fs:...} the small type of table heads, {sm:...} a smaller type,
-{xs:...} the smallest type (the heads of narrow columns),
+{xs:...} the smallest type (the heads of narrow columns), {nm:...} the type of the text inside a head set
+larger (a note number or letter after the head; it may hold one level of markup, as {nm:({bi:a})}),
 {sc:...} small capitals, {sup:...} superscript, {sub:...} subscript, {sfrac:a/b} a small fraction, {0} the zero
 sign of the tables, {lbrace3} and {rbrace3} a left and a right brace over three lines (written on the middle one),
 {rbrace2} a right brace over two lines (written on the first), {vrule2} a thin vertical rule over two lines (written
@@ -211,6 +212,7 @@ def markup(s):
     s = re.sub(r"\{sp:([^}]*)\}", r"\\Name{\1}", s)
     s = re.sub(r"\{sc:([^}]*)\}", r"\\textsc{\1}", s)
     s = re.sub(r"\{spsc:([^}]*)\}", r"\\Name{\\textsc{\1}}", s)
+    s = re.sub(r"\{nm:((?:[^{}]|\{[^{}]*\})*)\}", r"{\\fontsize{11.1}{13.8}\\selectfont \1}", s)
     s = re.sub(r"\{fs:([^}]*)\}", r"{\\fontsize{7.5}{9}\\selectfont \1}", s)
     s = re.sub(r"\{sm:([^}]*)\}", r"{\\fontsize{9.5}{11}\\selectfont \1}", s)
     s = re.sub(r"\{xs:([^}]*)\}", r"{\\fontsize{6.6}{8}\\selectfont \1}", s)
