@@ -1,0 +1,534 @@
+{
+ "anchor": "AB01-PDF0153",
+ "master_pdf_page": 153,
+ "printed_page": 64,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "margin_locators": [
+  {
+   "line_anchor": "AB01-PDF0153-body-L012",
+   "text": "p. 96."
+  },
+  {
+   "line_anchor": "AB01-PDF0153-body-L033",
+   "text": "p. 97."
+  }
+ ],
+ "observations": [
+  "body: the figure stands at the left of lines 12 to 28, which are set beside it in a narrower measure; the line numbers 5 to 40 stand in the right margin and the locators «p. 96.» (L12) and «p. 97.» (L33) in the left margin, «p. 96.» left of the figure.",
+  "body: the figure is redrawn from measurements of the print: its five circles and its seven straight lines are least-squares fits to the printed ink, and its twenty-one letters (bold italic capitals) stand where they are printed. In the print the circle ABCD has its centre on the diameter AF at the height of M, not at E, and the circle GBFD has its centre at E; the two circles meet at B and D. They are drawn so.",
+  "body L11: the letter of the reference (a) is bold italic; with chapter 31 the letters of the references begin again at a.",
+  "body L29: the words from «planeta» to «centrum H,» and the word «et» are italic (note 5).",
+  "body: some words are printed with heavier ink than their neighbours (among them «K» on L15, «MLR,» on L24 and «Punctum» on L27); they are in the roman type of the text. In «planetae» on L25 the first e is printed filled, so that it looks like an o."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0153-body-L001",
+     "source_line_no": 1,
+     "tex": "centrum in circumferentia excentrici a puncto apogei in partem successionis signorum medio",
+     "transcription": "centrum in circumferentia excentrici a puncto apogei in partem successionis signorum medio",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0153-body-L002",
+     "source_line_no": 2,
+     "tex": "motu diurno planetae in longitudine movetur; planeta autem in epicyclo a puncto apogei, ut e",
+     "transcription": "motu diurno planetae in longitudine movetur; planeta autem in epicyclo a puncto apogei, ut e",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0153-body-L003",
+     "source_line_no": 3,
+     "tex": "centro eclipticae conspicitur, ad successionem iterum signorum quotidie motu planetae contin-",
+     "transcription": "centro eclipticae conspicitur, ad successionem iterum signorum quotidie motu planetae contin-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0153-body-L004",
+     "source_line_no": 4,
+     "tex": "genti (1) movetur. Semidiametrus epicycli est ipsa quantitas mediae aequationis planetae (2),",
+     "transcription": "genti (1) movetur. Semidiametrus epicycli est ipsa quantitas mediae aequationis planetae (2),",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0153-body-L005",
+     "source_line_no": 5,
+     "tex": "et declivitatem (3) habet quae in inferiore parte circuli [excentrici] crescit et in parte supe-",
+     "transcription": "et declivitatem (3) habet quae in inferiore parte circuli [excentrici] crescit et in parte supe-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 5,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0153-body-L006",
+     "source_line_no": 6,
+     "tex": "riore decrescit. Haec aequatio media describitur in sexta columna tabularum aequationis pla-",
+     "transcription": "riore decrescit. Haec aequatio media describitur in sexta columna tabularum aequationis pla-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0153-body-L007",
+     "source_line_no": 7,
+     "tex": "netae (4), quantitates decrementi in quinta, incrementi in septima. Quarta columna continentur",
+     "transcription": "netae (4), quantitates decrementi in quinta, incrementi in septima. Quarta columna continentur",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0153-body-L008",
+     "source_line_no": 8,
+     "tex": "minuta ad quorum proportionem augmentum et decrementum sumuntur, ut in Luna ad incre-",
+     "transcription": "minuta ad quorum proportionem augmentum et decrementum sumuntur, ut in Luna ad incre-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0153-body-L009",
+     "source_line_no": 9,
+     "tex": "mentum posui. Tertia columna aequatio anomaliae et centri continetur, quae ab excentrici-",
+     "transcription": "mentum posui. Tertia columna aequatio anomaliae et centri continetur, quae ab excentrici-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0153-body-L010",
+     "source_line_no": 10,
+     "tex": "tate provenit.",
+     "transcription": "tate provenit.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 10,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0153-body-L011",
+     "source_line_no": 11,
+     "tex": "\\Indent Haec sunt imagines sphaerarum quas delineare promisimus (\\textbf{\\textit{a}}).",
+     "transcription": "Haec sunt imagines sphaerarum quas delineare promisimus ({bi:a}).",
+     "semantic_anchor": "AB01-PDF0153-P01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0153-body-F01",
+     "source_line_no": null,
+     "tex": "\\input{figures/AB01-PDF0153-F01}",
+     "transcription": "[figure, redrawn: figures/AB01-PDF0153-F01.tex]",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_FIGURE"
+    },
+    {
+     "id": "AB01-PDF0153-body-L012",
+     "source_line_no": 12,
+     "tex": "\\Indent Dicit [auctor]: Circa centrum E sit",
+     "transcription": "Dicit [auctor]: Circa centrum E sit",
+     "semantic_anchor": "AB01-PDF0153-P02",
+     "margin_locator": "p. 96.",
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0153-body-L013",
+     "source_line_no": 13,
+     "tex": "circulus ABCD pareclipticus, et circulus",
+     "transcription": "circulus ABCD pareclipticus, et circulus",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0153-body-L014",
+     "source_line_no": 14,
+     "tex": "GBFD [deflectentis]; sit M centrum ex-",
+     "transcription": "GBFD [deflectentis]; sit M centrum ex-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0153-body-L015",
+     "source_line_no": 15,
+     "tex": "centrici GHKL, punctum G apogeum, K",
+     "transcription": "centrici GHKL, punctum G apogeum, K",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 15,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0153-body-L016",
+     "source_line_no": 16,
+     "tex": "perigeum ipsius excentrici. Excentrici",
+     "transcription": "perigeum ipsius excentrici. Excentrici",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0153-body-L017",
+     "source_line_no": 17,
+     "tex": "puncto H centro epicycli PQS constituto,",
+     "transcription": "puncto H centro epicycli PQS constituto,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0153-body-L018",
+     "source_line_no": 18,
+     "tex": "lineas MHQ et EHP ducamus; littera",
+     "transcription": "lineas MHQ et EHP ducamus; littera",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0153-body-L019",
+     "source_line_no": 19,
+     "tex": "T locum planetae in epicyclo signemus,",
+     "transcription": "T locum planetae in epicyclo signemus,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0153-body-L020",
+     "source_line_no": 20,
+     "tex": "lineam ETN postea describentes, iuxta",
+     "transcription": "lineam ETN postea describentes, iuxta",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 20,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0153-body-L021",
+     "source_line_no": 21,
+     "tex": "quam motus planetae apparet in ecliptica.",
+     "transcription": "quam motus planetae apparet in ecliptica.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0153-body-L022",
+     "source_line_no": 22,
+     "tex": "Diametrus AF manifeste per centra tran-",
+     "transcription": "Diametrus AF manifeste per centra tran-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0153-body-L023",
+     "source_line_no": 23,
+     "tex": "sit. — Similiter punctum L excentrici",
+     "transcription": "sit. — Similiter punctum L excentrici",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0153-body-L024",
+     "source_line_no": 24,
+     "tex": "sit centrum epicycli RVX, et lineas MLR,",
+     "transcription": "sit centrum epicycli RVX, et lineas MLR,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0153-body-L025",
+     "source_line_no": 25,
+     "tex": "ELV ducamus; sit X locus planetae in",
+     "transcription": "ELV ducamus; sit X locus planetae in",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 25,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0153-body-L026",
+     "source_line_no": 26,
+     "tex": "epicyclo, ergo EXZ linea secundum quam",
+     "transcription": "epicyclo, ergo EXZ linea secundum quam",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0153-body-L027",
+     "source_line_no": 27,
+     "tex": "in ecliptica planeta conspicitur. Punctum",
+     "transcription": "in ecliptica planeta conspicitur. Punctum",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0153-body-L028",
+     "source_line_no": 28,
+     "tex": "A directionem apogei in ecliptica indicat;",
+     "transcription": "A directionem apogei in ecliptica indicat;",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0153-body-L029",
+     "source_line_no": 29,
+     "tex": "cum igitur \\textit{planeta, in puncto T epicycli, cuius centrum H,} fuerit \\textit{et} (5) centrum epicycli",
+     "transcription": "cum igitur *planeta, in puncto T epicycli, cuius centrum H,* fuerit *et* (5) centrum epicycli",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0153-body-L030",
+     "source_line_no": 30,
+     "tex": "in G, linea ab E proveniens transibit per centrum M et puncta G, A; in ea reperiemus apo-",
+     "transcription": "in G, linea ab E proveniens transibit per centrum M et puncta G, A; in ea reperiemus apo-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 30,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0153-body-L031",
+     "source_line_no": 31,
+     "tex": "geum Q epicycli, nam tunc linea MHQ super EMA incidet, et locus Q in A, quod simul apo-",
+     "transcription": "geum Q epicycli, nam tunc linea MHQ super EMA incidet, et locus Q in A, quod simul apo-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0153-body-L032",
+     "source_line_no": 32,
+     "tex": "geum medium et verum erit, linea enim quoque EHP, secundum quam locus veri apogei appa-",
+     "transcription": "geum medium et verum erit, linea enim quoque EHP, secundum quam locus veri apogei appa-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0153-body-L033",
+     "source_line_no": 33,
+     "tex": "ret, in linea EA reperietur. Cum vero centrum epicycli in H fuerit, inter puncta G et K",
+     "transcription": "ret, in linea EA reperietur. Cum vero centrum epicycli in H fuerit, inter puncta G et K",
+     "semantic_anchor": null,
+     "margin_locator": "p. 97.",
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0153-body-L034",
+     "source_line_no": 34,
+     "tex": "excentrici posito et [a G] minus quam dimidia circumferentia [distanti], locus apogei veri in",
+     "transcription": "excentrici posito et [a G] minus quam dimidia circumferentia [distanti], locus apogei veri in",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0153-body-L035",
+     "source_line_no": 35,
+     "tex": "epicyclo erit P, locus apogei medii Q, a quo motus planetae in epicyclo suo incipit, scilicet",
+     "transcription": "epicyclo erit P, locus apogei medii Q, a quo motus planetae in epicyclo suo incipit, scilicet",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 35,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0153-body-L036",
+     "source_line_no": 36,
+     "tex": "arcus QT; motus igitur in anomalia quantitate arcus QP, quae est inaequalitas, arcum QT",
+     "transcription": "arcus QT; motus igitur in anomalia quantitate arcus QP, quae est inaequalitas, arcum QT",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0153-body-L037",
+     "source_line_no": 37,
+     "tex": "superat. Ita locus quo centrum epicycli in ecliptica e puncto E apparet, quantitate arcus QP",
+     "transcription": "superat. Ita locus quo centrum epicycli in ecliptica e puncto E apparet, quantitate arcus QP",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0153-body-L038",
+     "source_line_no": 38,
+     "tex": "erit minor loco quo e centro M conspicitur; nam P ab M minus quam Q distat.",
+     "transcription": "erit minor loco quo e centro M conspicitur; nam P ab M minus quam Q distat.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0153-body-L039",
+     "source_line_no": 39,
+     "tex": "\\Indent Similiter centrum epicycli ponamus in puncto L alterius semicircumferentiae; locus quo",
+     "transcription": "Similiter centrum epicycli ponamus in puncto L alterius semicircumferentiae; locus quo",
+     "semantic_anchor": "AB01-PDF0153-P03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0153-body-L040",
+     "source_line_no": 40,
+     "tex": "in ecliptica e puncto E videtur, quantitate arcus VR superabit locum quo ex M conspicitur;",
+     "transcription": "in ecliptica e puncto E videtur, quantitate arcus VR superabit locum quo ex M conspicitur;",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 40,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0153-body-L041",
+     "source_line_no": 41,
+     "tex": "et apogeum verum, e centro E visum, eadem quantitate VR minus erit quam apogeum me-",
+     "transcription": "et apogeum verum, e centro E visum, eadem quantitate VR minus erit quam apogeum me-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0153-body-L042",
+     "source_line_no": 42,
+     "tex": "dium e centro M conspectum. Planeta enim in puncto X epicycli est, et medio motu in epi-",
+     "transcription": "dium e centro M conspectum. Planeta enim in puncto X epicycli est, et medio motu in epi-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    }
+   ]
+  },
+  {
+   "role": "notes_left",
+   "lines": [
+    {
+     "id": "AB01-PDF0153-notes_left-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (1) Est anomalia.",
+     "transcription": "(1) Est anomalia.",
+     "semantic_anchor": "AB01-PDF0153-N01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0153-notes_left-L002",
+     "source_line_no": null,
+     "tex": "\\Indent (2) Est aequatio centri.",
+     "transcription": "(2) Est aequatio centri.",
+     "semantic_anchor": "AB01-PDF0153-N02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0153-notes_left-L003",
+     "source_line_no": null,
+     "tex": "\\Indent (3) Est elongatio eius centri ab apogeo excentr.",
+     "transcription": "(3) Est elongatio eius centri ab apogeo excentr.",
+     "semantic_anchor": "AB01-PDF0153-N03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  },
+  {
+   "role": "notes_right",
+   "lines": [
+    {
+     "id": "AB01-PDF0153-notes_right-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (4) Fol. 208,v.-223,r.",
+     "transcription": "(4) Fol. 208,v.-223,r.",
+     "semantic_anchor": "AB01-PDF0153-N04",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0153-notes_right-L002",
+     "source_line_no": null,
+     "tex": "\\Indent (5) Verba Italicis litteris impressa omnino sunt",
+     "transcription": "(5) Verba Italicis litteris impressa omnino sunt",
+     "semantic_anchor": "AB01-PDF0153-N05",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0153-notes_right-L003",
+     "source_line_no": null,
+     "tex": "supervacanea, et interpolata videntur.",
+     "transcription": "supervacanea, et interpolata videntur.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  }
+ ]
+}
