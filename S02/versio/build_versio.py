@@ -218,7 +218,9 @@ def markup(s):
     s = re.sub(r"\{bi:([^}]*)\}", r"\\textbf{\\textit{\1}}", s)
     s = re.sub(r"\{sup:([^}]*)\}", r"\\textsuperscript{\1}", s)
     s = re.sub(r"\{sub:([^}]*)\}", r"\\textsubscript{\1}", s)
-    s = re.sub(r"\{sfrac:([^/}]+)/([^}]+)\}", r"$\\qfrac{\1}{\2}$", s)
+    # a multiplication sign inside a small fraction (p. 100: 1/5×10) is set as \times
+    s = re.sub(r"\{sfrac:([^/}]+)/([^}]+)\}", lambda m: "$\\qfrac{" + m.group(1).replace("×", r"\times ")
+               + "}{" + m.group(2).replace("×", r"\times ") + "}$", s)
     s = s.replace("{lbrace3}", LBRACE3).replace("{rbrace3}", RBRACE3).replace("{rbrace2}", RBRACE2)
     s = s.replace("{vrule2}", VRULE2)
     s = s.replace("{0}", "\uE001")

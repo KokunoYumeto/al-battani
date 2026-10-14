@@ -1,0 +1,547 @@
+{
+ "anchor": "AB01-PDF0189",
+ "master_pdf_page": 189,
+ "printed_page": 100,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "margin_locators": [
+  {
+   "line_anchor": "AB01-PDF0189-body-L009",
+   "text": "p. 151."
+  },
+  {
+   "line_anchor": "AB01-PDF0189-body-L035",
+   "text": "p. 152."
+  }
+ ],
+ "observations": [
+  "body: the line numbers 5 to 35 stand in the right margin and the locators «p. 151.» (L9) and «p. 152.» (L35) in the left margin.",
+  "body L1: the fraction is printed with the denominator 5×10 in small figures: one fifth of a tenth (of a minute), as note 1 explains.",
+  "body L8: the letter of the reference (c) is bold italic.",
+  "body L25: the e of «Lunae» before «[procedens]» has a blot at its foot, like a full stop joined to it; no stop is read.",
+  "body L28: the first i of «initii» is printed with a large blot in place of its dot.",
+  "notes_left L6: the prime after «50» is printed short, as a point, and the full stop after the last fraction is printed raised."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0189-body-L001",
+     "source_line_no": 1,
+     "tex": "+ $\\qfrac{1}{5\\times 10}$ (1), ut fiat ad semidiametrum proportionalis. Productum in arcum converte, tabula",
+     "transcription": "+ {sfrac:1/5×10} (1), ut fiat ad semidiametrum proportionalis. Productum in arcum converte, tabula",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0189-body-L002",
+     "source_line_no": 2,
+     "tex": "sinuum utens; arcum multiplica in quartam partem circumferentiae umbrae, et per 90 divide;",
+     "transcription": "sinuum utens; arcum multiplica in quartam partem circumferentiae umbrae, et per 90 divide;",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0189-body-L003",
+     "source_line_no": 3,
+     "tex": "quotiens erit arcus umbrae, qui, in digitos semidiametri umbrae multiplicatus, aream arcus",
+     "transcription": "quotiens erit arcus umbrae, qui, in digitos semidiametri umbrae multiplicatus, aream arcus",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0189-body-L004",
+     "source_line_no": 4,
+     "tex": "umbrae efficit. Hanc adde areae arcus Lunae; de summa deme superficiem trianguli umbrae",
+     "transcription": "umbrae efficit. Hanc adde areae arcus Lunae; de summa deme superficiem trianguli umbrae",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0189-body-L005",
+     "source_line_no": 5,
+     "tex": "simul cum superficie trianguli Lunae collectam; remanet superficies partis occultatae e disco",
+     "transcription": "simul cum superficie trianguli Lunae collectam; remanet superficies partis occultatae e disco",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 5,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0189-body-L006",
+     "source_line_no": 6,
+     "tex": "lunari. Eam in 12 multiplica, et productum per aream disci lunaris antea servatam divide;",
+     "transcription": "lunari. Eam in 12 multiplica, et productum per aream disci lunaris antea servatam divide;",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0189-body-L007",
+     "source_line_no": 7,
+     "tex": "digiti exeuntes indicant partem disci Lunae occultatam, iuxta rationem qua tota superficies",
+     "transcription": "digiti exeuntes indicant partem disci Lunae occultatam, iuxta rationem qua tota superficies",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0189-body-L008",
+     "source_line_no": 8,
+     "tex": "disci in 12 digitos dividitur (\\textbf{\\textit{c}}).",
+     "transcription": "disci in 12 digitos dividitur ({bi:c}).",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0189-body-L009",
+     "source_line_no": 9,
+     "tex": "\\Indent Si azimuth (2) regionis horizontis in qua immersio vel emersio fiunt, et figuram eclipsis",
+     "transcription": "Si azimuth (2) regionis horizontis in qua immersio vel emersio fiunt, et figuram eclipsis",
+     "semantic_anchor": "AB01-PDF0189-P01",
+     "margin_locator": "p. 151.",
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0189-body-L010",
+     "source_line_no": 10,
+     "tex": "cognoscere vis, ascendens singulis eclipsis temporibus supputa, et azimuth ascendentium, ut in",
+     "transcription": "cognoscere vis, ascendens singulis eclipsis temporibus supputa, et azimuth ascendentium, ut in",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 10,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0189-body-L011",
+     "source_line_no": 11,
+     "tex": "anteriore parte libri docuimus [cap. VII], inveni. Latitudines Lunae tempore initii eclipsis et",
+     "transcription": "anteriore parte libri docuimus [cap. VII], inveni. Latitudines Lunae tempore initii eclipsis et",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0189-body-L012",
+     "source_line_no": 12,
+     "tex": "finis emersionis accipe, si Luna non deficit tota; si enim Luna tota deficit et cum mora [in",
+     "transcription": "finis emersionis accipe, si Luna non deficit tota; si enim Luna tota deficit et cum mora [in",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0189-body-L013",
+     "source_line_no": 13,
+     "tex": "umbra], etiam latitudines in initio morae et in initio emersionis sumere debes. Singulas lati-",
+     "transcription": "umbra], etiam latitudines in initio morae et in initio emersionis sumere debes. Singulas lati-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0189-body-L014",
+     "source_line_no": 14,
+     "tex": "tudines in semidiametrum multiplica; quae ex initio morae et emersionis proveniunt divide",
+     "transcription": "tudines in semidiametrum multiplica; quae ex initio morae et emersionis proveniunt divide",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0189-body-L015",
+     "source_line_no": 15,
+     "tex": "per minuta totius morae (3); quae ex initio immersionis et fine emersionis exeunt, divide",
+     "transcription": "per minuta totius morae (3); quae ex initio immersionis et fine emersionis exeunt, divide",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 15,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0189-body-L016",
+     "source_line_no": 16,
+     "tex": "per dimidiam duarum diametrorum summam; invenies gradus, quos per tabulam sinuum in",
+     "transcription": "per dimidiam duarum diametrorum summam; invenies gradus, quos per tabulam sinuum in",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0189-body-L017",
+     "source_line_no": 17,
+     "tex": "arcus converte; arcus singulis temporibus contingens est quantitas inclinationis obscuritatis",
+     "transcription": "arcus converte; arcus singulis temporibus contingens est quantitas inclinationis obscuritatis",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0189-body-L018",
+     "source_line_no": 18,
+     "tex": "eclipsis eo tempore. Eam et plagam Caeli in qua est, serva. — Nam si in aliquo eorum tem-",
+     "transcription": "eclipsis eo tempore. Eam et plagam Caeli in qua est, serva. — Nam si in aliquo eorum tem-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0189-body-L019",
+     "source_line_no": 19,
+     "tex": "porum centrum verum Lunae in ecliptica est, scilicet latitudine caret, cum id eveniat in initio",
+     "transcription": "porum centrum verum Lunae in ecliptica est, scilicet latitudine caret, cum id eveniat in initio",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0189-body-L020",
+     "source_line_no": 20,
+     "tex": "eclipsis et in initio emersionis, initium obscuritatis et initium emersionis erunt utroque tem-",
+     "transcription": "eclipsis et in initio emersionis, initium obscuritatis et initium emersionis erunt utroque tem-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 20,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0189-body-L021",
+     "source_line_no": 21,
+     "tex": "pore a parte azimuth ascendentis; cum autem id in initio morae et in fine emersionis contin-",
+     "transcription": "pore a parte azimuth ascendentis; cum autem id in initio morae et in fine emersionis contin-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0189-body-L022",
+     "source_line_no": 22,
+     "tex": "gat, ambo a parte azimuth gradus iis temporibus occidentis erunt. — Si Luna non est in linea",
+     "transcription": "gat, ambo a parte azimuth gradus iis temporibus occidentis erunt. — Si Luna non est in linea",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0189-body-L023",
+     "source_line_no": 23,
+     "tex": "zodiaci, scilicet ab alterutra eclipticae parte latitudinem habet, hoc modo inclinationem ecli-",
+     "transcription": "zodiaci, scilicet ab alterutra eclipticae parte latitudinem habet, hoc modo inclinationem ecli-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0189-body-L024",
+     "source_line_no": 24,
+     "tex": "psis in initio immersionis et fine (4) emersionis deprehendes: tempore initii immersionis ab",
+     "transcription": "psis in initio immersionis et fine (4) emersionis deprehendes: tempore initii immersionis ab",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0189-body-L025",
+     "source_line_no": 25,
+     "tex": "azimuth ascendentis in initio eclipsis ad plagam contrariam latitudini Lunae [procedens]; tem-",
+     "transcription": "azimuth ascendentis in initio eclipsis ad plagam contrariam latitudini Lunae [procedens]; tem-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 25,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0189-body-L026",
+     "source_line_no": 26,
+     "tex": "pore finis emersionis ab azimuth eius gradus occidentis ad plagam oppositam latitudini Lunae.",
+     "transcription": "pore finis emersionis ab azimuth eius gradus occidentis ad plagam oppositam latitudini Lunae.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0189-body-L027",
+     "source_line_no": 27,
+     "tex": "In initio emersionis et initio morae, ad inveniendam inclinationem obscuritatis eclipsis ita [pro-",
+     "transcription": "In initio emersionis et initio morae, ad inveniendam inclinationem obscuritatis eclipsis ita [pro-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0189-body-L028",
+     "source_line_no": 28,
+     "tex": "cede]: tempore initii emersionis ab azimuth gradus tunc ascendentis in eandem plagam latitu-",
+     "transcription": "cede]: tempore initii emersionis ab azimuth gradus tunc ascendentis in eandem plagam latitu-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0189-body-L029",
+     "source_line_no": 29,
+     "tex": "dinis Lunae; tempore initii morae ab azimuth gradus tunc occidentis in plagam latitudinis",
+     "transcription": "dinis Lunae; tempore initii morae ab azimuth gradus tunc occidentis in plagam latitudinis",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0189-body-L030",
+     "source_line_no": 30,
+     "tex": "lunaris. Gradus amplitudinis ad quem in circulo horizontis numerando iis temporibus perve-",
+     "transcription": "lunaris. Gradus amplitudinis ad quem in circulo horizontis numerando iis temporibus perve-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 30,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0189-body-L031",
+     "source_line_no": 31,
+     "tex": "nies, indicabit inclinationem obscuritatis et emersionis disci lunaris.",
+     "transcription": "nies, indicabit inclinationem obscuritatis et emersionis disci lunaris.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0189-body-L032",
+     "source_line_no": 32,
+     "tex": "\\Indent Si Luna non deficit tota, inclinatio obscuritatis in medio eclipsis semper ad angulos rectos",
+     "transcription": "Si Luna non deficit tota, inclinatio obscuritatis in medio eclipsis semper ad angulos rectos",
+     "semantic_anchor": "AB01-PDF0189-P02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0189-body-L033",
+     "source_line_no": 33,
+     "tex": "super eclipticam incidit; idque evenit in loco, quem definit arcus per polos eclipticae, locum",
+     "transcription": "super eclipticam incidit; idque evenit in loco, quem definit arcus per polos eclipticae, locum",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0189-body-L034",
+     "source_line_no": 34,
+     "tex": "Lunae et circulum horizontis transiens (5). Ut id cognoscas, angulum longitudinis, qui invenitur",
+     "transcription": "Lunae et circulum horizontis transiens (5). Ut id cognoscas, angulum longitudinis, qui invenitur",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0189-body-L035",
+     "source_line_no": 35,
+     "tex": "ad tempus mediae eclipsis ut ad cognoscendam parallaxim Lunae docuimus [cap. XXXIX],",
+     "transcription": "ad tempus mediae eclipsis ut ad cognoscendam parallaxim Lunae docuimus [cap. XXXIX],",
+     "semantic_anchor": null,
+     "margin_locator": "p. 152.",
+     "printed_line_number": 35,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0189-body-L036",
+     "source_line_no": 36,
+     "tex": "accipe, [eum numerans] a termino azimuth ascendentis [tempore] mediae eclipsis versus par-",
+     "transcription": "accipe, [eum numerans] a termino azimuth ascendentis [tempore] mediae eclipsis versus par-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0189-body-L037",
+     "source_line_no": 37,
+     "tex": "tem contrariam latitudini Lunae, si Luna ab oriente est; Luna contra in parte occidentali",
+     "transcription": "tem contrariam latitudini Lunae, si Luna ab oriente est; Luna contra in parte occidentali",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0189-body-L038",
+     "source_line_no": 38,
+     "tex": "exstante, angulum illum collige ab extremitate azimuth gradus occidentis [tempore] medii ecli-",
+     "transcription": "exstante, angulum illum collige ab extremitate azimuth gradus occidentis [tempore] medii ecli-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    }
+   ]
+  },
+  {
+   "role": "notes_left",
+   "lines": [
+    {
+     "id": "AB01-PDF0189-notes_left-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (1) Plato tantum $\\qfrac{1}{2}$ + $\\qfrac{1}{4}$ habet; cod.: « dimi-",
+     "transcription": "(1) Plato tantum {sfrac:1/2} + {sfrac:1/4} habet; cod.: « dimi-",
+     "semantic_anchor": "AB01-PDF0189-N01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0189-notes_left-L002",
+     "source_line_no": null,
+     "tex": "« diam partem et quadrantem minuti atque ..... de-",
+     "transcription": "« diam partem et quadrantem minuti atque ..... de-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0189-notes_left-L003",
+     "source_line_no": null,
+     "tex": "« cimae partis minuti ». Verbum tineis corrosum, e",
+     "transcription": "« cimae partis minuti ». Verbum tineis corrosum, e",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0189-notes_left-L004",
+     "source_line_no": null,
+     "tex": "tenuis vestigiis patet $\\qfrac{1}{5}$ vel $\\qfrac{1}{6}$ fuisse. Primam fra-",
+     "transcription": "tenuis vestigiis patet {sfrac:1/5} vel {sfrac:1/6} fuisse. Primam fra-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0189-notes_left-L005",
+     "source_line_no": null,
+     "tex": "ctionem delegi, nam 60\\textsuperscript{\\textit{p}} : 15 $\\qfrac{3}{5}$ = 3\\textsuperscript{\\textit{p}} 50′ $\\qfrac{120}{156}$ =",
+     "transcription": "ctionem delegi, nam 60{sup:*p*} : 15 {sfrac:3/5} = 3{sup:*p*} 50′ {sfrac:120/156} =",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0189-notes_left-L006",
+     "source_line_no": null,
+     "tex": "3\\textsuperscript{\\textit{p}} 50′ $\\qfrac{1}{2}$ + $\\qfrac{1}{4}$ + $\\qfrac{1}{52}$.",
+     "transcription": "3{sup:*p*} 50′ {sfrac:1/2} + {sfrac:1/4} + {sfrac:1/52}.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  },
+  {
+   "role": "notes_right",
+   "lines": [
+    {
+     "id": "AB01-PDF0189-notes_right-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (2) Sive amplitudines; Arabes enim azimuth",
+     "transcription": "(2) Sive amplitudines; Arabes enim azimuth",
+     "semantic_anchor": "AB01-PDF0189-N02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0189-notes_right-L002",
+     "source_line_no": null,
+     "tex": "supputant a linea E-W incipientes.",
+     "transcription": "supputant a linea E-W incipientes.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0189-notes_right-L003",
+     "source_line_no": null,
+     "tex": "\\Indent (3) Cfr. pag. 98, adn. 2.",
+     "transcription": "(3) Cfr. pag. 98, adn. 2.",
+     "semantic_anchor": "AB01-PDF0189-N03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0189-notes_right-L004",
+     "source_line_no": null,
+     "tex": "\\Indent (4) Cod. « initio »; Plato nihil habet.",
+     "transcription": "(4) Cod. « initio »; Plato nihil habet.",
+     "semantic_anchor": "AB01-PDF0189-N04",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0189-notes_right-L005",
+     "source_line_no": null,
+     "tex": "\\Indent (5) Idem loquendi modus alibi quoque inveni-",
+     "transcription": "(5) Idem loquendi modus alibi quoque inveni-",
+     "semantic_anchor": "AB01-PDF0189-N05",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0189-notes_right-L006",
+     "source_line_no": null,
+     "tex": "tur; cfr. pag. 77, adn. 1.",
+     "transcription": "tur; cfr. pag. 77, adn. 1.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  }
+ ]
+}
