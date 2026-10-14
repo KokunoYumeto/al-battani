@@ -1,0 +1,549 @@
+{
+ "anchor": "AB01-PDF0217",
+ "master_pdf_page": 217,
+ "printed_page": 128,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "margin_locators": [
+  {
+   "line_anchor": "AB01-PDF0217-body-L020",
+   "text": "p. 193."
+  }
+ ],
+ "observations": [
+  "body: the line numbers 5 to 35 stand in the right margin and the locator «p. 193.» (L20) in the left margin. The count of the lines runs through the spaces and the head of chapter 53: 10 stands beside the second line of the title, 15 beside L12.",
+  "body L6-L8: the head of the chapter is set in a larger type; «CAPUT LIII.» is centred, the title is set as a paragraph of two lines, the second indented.",
+  "body L9: the letter of the reference (a) is bold italic; with chapter 53 the letters begin again at a.",
+  "body L11, L17: the m of «sume» is printed broken, like ni; the e after the rr of «correctis» is printed broken, like c.",
+  "notes_left L5, L6: «365ᵈ 5ʰ 46ᵐ 24ˢ» and «5ʰ 46ᵐ 24ˢ» are written with small raised italic d, h, m and s.",
+  "notes_left L8: the note ends with a comma, «12,»; kept as printed.",
+  "notes_right L1: the fraction (3 2/5)/360 is set in two lines, with the small fraction 2/5 in its numerator; the line stands 5.3 pt lower than the first line of the left column, and the next line follows at 13.8 pt, to make room for the fraction.",
+  "body L8: a speck stands before «quem» in the title, at the height of the tops of the letters; it is not a sign.",
+  "body L10, L11: the dash before «sume» (8.5 pt) is printed shorter and thinner than the dash before «et hoc» (10.3 pt); a speck stands under the o of «hoc».",
+  "body L25: the 7 of «270°» is printed broken, its stroke reduced to a blot; read as 270 between «180°» and «360°».",
+  "notes_left L1: the hyphen of «legen-» is printed short and round (1.7 pt), like a point.",
+  "notes_right L4: the closing parenthesis of «(6)» is printed short."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0217-body-L001",
+     "source_line_no": 1,
+     "tex": "sed inter observationes suas et antecessorum nimis breve spatium, 200 (1) annorum scilicet,",
+     "transcription": "sed inter observationes suas et antecessorum nimis breve spatium, 200 (1) annorum scilicet,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0217-body-L002",
+     "source_line_no": 2,
+     "tex": "praeterierat ut in hoc motu variatio manifesta reperiri potuisset. Inter Ptolemaeum autem et",
+     "transcription": "praeterierat ut in hoc motu variatio manifesta reperiri potuisset. Inter Ptolemaeum autem et",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0217-body-L003",
+     "source_line_no": 3,
+     "tex": "observationes nostras longum temporis spatium intercessit, et eum motum maiorem esse inve-",
+     "transcription": "observationes nostras longum temporis spatium intercessit, et eum motum maiorem esse inve-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0217-body-L004",
+     "source_line_no": 4,
+     "tex": "nimus, ita ut 66 annis solaribus unum gradum perficiat (2). Ex horum motuum differentia",
+     "transcription": "nimus, ita ut 66 annis solaribus unum gradum perficiat (2). Ex horum motuum differentia",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0217-body-L005",
+     "source_line_no": 5,
+     "tex": "illud augmenti provenit quod in omnes incidit.",
+     "transcription": "illud augmenti provenit quod in omnes incidit.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 5,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0217-body-L006",
+     "source_line_no": 7,
+     "tex": "\\CenterLine{CAPUT LIII.}",
+     "transcription": "CAPUT LIII.",
+     "semantic_anchor": "AB01-PDF0217-H06",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0217-body-L007",
+     "source_line_no": 9,
+     "tex": "De temporibus revolutionum annorum eorumque ascendentibus, et de locis",
+     "transcription": "De temporibus revolutionum annorum eorumque ascendentibus, et de locis",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0217-body-L008",
+     "source_line_no": 10,
+     "tex": "\\mbox{}\\rlap{\\hspace*{7.55mm}planetarum cum ad gradum quem initio occupabant revertuntur.}",
+     "transcription": "planetarum cum ad gradum quem initio occupabant revertuntur.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 10,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0217-body-L009",
+     "source_line_no": 12,
+     "tex": "\\Indent Dicit [auctor]: Si cognoscere vis revolutionem (\\textbf{\\textit{a}}) cuiuslibet anni nativitatum vel aliarum",
+     "transcription": "Dicit [auctor]: Si cognoscere vis revolutionem ({bi:a}) cuiuslibet anni nativitatum vel aliarum",
+     "semantic_anchor": "AB01-PDF0217-P01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0217-body-L010",
+     "source_line_no": 13,
+     "tex": "rerum exordium habentium, ad initium fixum, — et hoc est tempus quo Soli opus est ut ad",
+     "transcription": "rerum exordium habentium, ad initium fixum, — et hoc est tempus quo Soli opus est ut ad",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0217-body-L011",
+     "source_line_no": 14,
+     "tex": "eundem gradum redeat quem, in illius rei initio, tenebat, — sume annum initii et annum aerae",
+     "transcription": "eundem gradum redeat quem, in illius rei initio, tenebat, — sume annum initii et annum aerae",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0217-body-L012",
+     "source_line_no": 15,
+     "tex": "Dhū ’l–qarnayn in quo vis revolutionem cognoscere. Minorem de maiore deme; remanet nu-",
+     "transcription": "Dhū ’l–qarnayn in quo vis revolutionem cognoscere. Minorem de maiore deme; remanet nu-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 15,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0217-body-L013",
+     "source_line_no": 16,
+     "tex": "merus annorum perfectorum, qui ab initio constitutae rei vel a nativitate elapsi sunt usque ad",
+     "transcription": "merus annorum perfectorum, qui ab initio constitutae rei vel a nativitate elapsi sunt usque ad",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0217-body-L014",
+     "source_line_no": 17,
+     "tex": "eundem diem mensis Romani in quo nativitas vel initium contigerant. Hos annos integros mul-",
+     "transcription": "eundem diem mensis Romani in quo nativitas vel initium contigerant. Hos annos integros mul-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0217-body-L015",
+     "source_line_no": 18,
+     "tex": "tiplica in 86° 36′, quibus spatium anni dies perfectos excedit (3); de producto quot circulos",
+     "transcription": "tiplica in 86° 36′, quibus spatium anni dies perfectos excedit (3); de producto quot circulos",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0217-body-L016",
+     "source_line_no": 19,
+     "tex": "[i. e. 360°] potes deme; residuum per 15 (4) divide; exibunt horae aequinoctiales. Eas adde",
+     "transcription": "[i. e. 360°] potes deme; residuum per 15 (4) divide; exibunt horae aequinoctiales. Eas adde",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0217-body-L017",
+     "source_line_no": 20,
+     "tex": "horis correctis originis; si summa minor est quam 24, eam cum die praeterito mensis serva;",
+     "transcription": "horis correctis originis; si summa minor est quam 24, eam cum die praeterito mensis serva;",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 20,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0217-body-L018",
+     "source_line_no": 21,
+     "tex": "at si 24 excedit, de ea 24 deme et diebus praeteritis diem adde. Dies et horas ita inventos",
+     "transcription": "at si 24 excedit, de ea 24 deme et diebus praeteritis diem adde. Dies et horas ita inventos",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0217-body-L019",
+     "source_line_no": 22,
+     "tex": "serva. Si annus bisextilis est, atque iam mensis subāṭ praeteriit, de diebus elapsis diem deme,",
+     "transcription": "serva. Si annus bisextilis est, atque iam mensis subāṭ praeteriit, de diebus elapsis diem deme,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0217-body-L020",
+     "source_line_no": 23,
+     "tex": "et habebis dies correctionis; si autem annus non est bisextilis, dies ut invenisti serva, ipsi",
+     "transcription": "et habebis dies correctionis; si autem annus non est bisextilis, dies ut invenisti serva, ipsi",
+     "semantic_anchor": null,
+     "margin_locator": "p. 193.",
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0217-body-L021",
+     "source_line_no": 24,
+     "tex": "enim erunt dies et horae correctionis. Per eos, ut docuimus, motum medium Solis anno dato",
+     "transcription": "enim erunt dies et horae correctionis. Per eos, ut docuimus, motum medium Solis anno dato",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0217-body-L022",
+     "source_line_no": 25,
+     "tex": "cognosce; motus medius [i. e. longitudo media] Solis erit ut motus medius tempore originis.",
+     "transcription": "cognosce; motus medius [i. e. longitudo media] Solis erit ut motus medius tempore originis.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 25,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0217-body-L023",
+     "source_line_no": 26,
+     "tex": "\\Indent Aut, si mavis, annos repertos multiplica in 3° 24′, quae desunt ad complendam quartam",
+     "transcription": "Aut, si mavis, annos repertos multiplica in 3° 24′, quae desunt ad complendam quartam",
+     "semantic_anchor": "AB01-PDF0217-P02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0217-body-L024",
+     "source_line_no": 27,
+     "tex": "diei partem excedentem 365 dies (5); de producto quoties potes 4 deme; si unus remanet,",
+     "transcription": "diei partem excedentem 365 dies (5); de producto quoties potes 4 deme; si unus remanet,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0217-body-L025",
+     "source_line_no": 28,
+     "tex": "eum 90° (6) computa, si duo 180° (7), si tres 270° (8), si quatuor 360° (9). Ex eo quod fuerit",
+     "transcription": "eum 90° (6) computa, si duo 180° (7), si tres 270° (8), si quatuor 360° (9). Ex eo quod fuerit",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0217-body-L026",
+     "source_line_no": 29,
+     "tex": "id quod servavisti deme; singulos quindecim gradus residui unam horam supputa, et horas",
+     "transcription": "id quod servavisti deme; singulos quindecim gradus residui unam horam supputa, et horas",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0217-body-L027",
+     "source_line_no": 30,
+     "tex": "provenientes adde, ut supra diximus, horis correctionis.",
+     "transcription": "provenientes adde, ut supra diximus, horis correctionis.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 30,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0217-body-L028",
+     "source_line_no": 31,
+     "tex": "\\Indent Quod alterutra via invenis, idem est, scilicet aera; ad eam motum medium [i. e. longi-",
+     "transcription": "Quod alterutra via invenis, idem est, scilicet aera; ad eam motum medium [i. e. longi-",
+     "semantic_anchor": "AB01-PDF0217-P03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0217-body-L029",
+     "source_line_no": 32,
+     "tex": "tudinem mediam] Solis modo antea explicato, ut soles, determina; quod provenit corrige, et",
+     "transcription": "tudinem mediam] Solis modo antea explicato, ut soles, determina; quod provenit corrige, et",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0217-body-L030",
+     "source_line_no": 33,
+     "tex": "si locus verus Solis ut primus exit, est tunc tempus revolutionis. Si autem locum verum ori-",
+     "transcription": "si locus verus Solis ut primus exit, est tunc tempus revolutionis. Si autem locum verum ori-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0217-body-L031",
+     "source_line_no": 34,
+     "tex": "ginis superat, ex motu horario Solis partem proportionalem ad portionem excedentem sume,",
+     "transcription": "ginis superat, ex motu horario Solis partem proportionalem ad portionem excedentem sume,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0217-body-L032",
+     "source_line_no": 35,
+     "tex": "et de horis correctionis deme; si contra minor est, partem proportionalem motus horarii adde",
+     "transcription": "et de horis correctionis deme; si contra minor est, partem proportionalem motus horarii adde",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 35,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0217-body-L033",
+     "source_line_no": 36,
+     "tex": "horis correctionis; veraciter ita cognosces horas correctionis quibus numeras Solem usque ad",
+     "transcription": "horis correctionis; veraciter ita cognosces horas correctionis quibus numeras Solem usque ad",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0217-body-L034",
+     "source_line_no": 37,
+     "tex": "locum verum quem in origine tenebat.",
+     "transcription": "locum verum quem in origine tenebat.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0217-body-L035",
+     "source_line_no": 38,
+     "tex": "\\Indent Per eas etiam locum Lunae et reliquorum planetarum corrige, easque in horas nychthe-",
+     "transcription": "Per eas etiam locum Lunae et reliquorum planetarum corrige, easque in horas nychthe-",
+     "semantic_anchor": "AB01-PDF0217-P04",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    }
+   ]
+  },
+  {
+   "role": "notes_left",
+   "lines": [
+    {
+     "id": "AB01-PDF0217-notes_left-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (1) Ita cod. et Plato; sed fortasse 280 legen-",
+     "transcription": "(1) Ita cod. et Plato; sed fortasse 280 legen-",
+     "semantic_anchor": "AB01-PDF0217-N01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0217-notes_left-L002",
+     "source_line_no": null,
+     "tex": "dum, quod est intervallum inter Hipparchum et",
+     "transcription": "dum, quod est intervallum inter Hipparchum et",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0217-notes_left-L003",
+     "source_line_no": null,
+     "tex": "Ptolemaeum.",
+     "transcription": "Ptolemaeum.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0217-notes_left-L004",
+     "source_line_no": null,
+     "tex": "\\Indent (2) V. cap. LI, pag. 124, l. 33.",
+     "transcription": "(2) V. cap. LI, pag. 124, l. 33.",
+     "semantic_anchor": "AB01-PDF0217-N02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0217-notes_left-L005",
+     "source_line_no": null,
+     "tex": "\\Indent (3) Auctor annum tropicum 365\\textsuperscript{\\textit{d}} 5\\textsuperscript{\\textit{h}} 46\\textsuperscript{\\textit{m}} 24\\textsuperscript{\\textit{s}} esse",
+     "transcription": "(3) Auctor annum tropicum 365{sup:*d*} 5{sup:*h*} 46{sup:*m*} 24{sup:*s*} esse",
+     "semantic_anchor": "AB01-PDF0217-N03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0217-notes_left-L006",
+     "source_line_no": null,
+     "tex": "invenit; multiplicentur igitur 5\\textsuperscript{\\textit{h}} 46\\textsuperscript{\\textit{m}} 24\\textsuperscript{\\textit{s}} in 15°, qui",
+     "transcription": "invenit; multiplicentur igitur 5{sup:*h*} 46{sup:*m*} 24{sup:*s*} in 15°, qui",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0217-notes_left-L007",
+     "source_line_no": null,
+     "tex": "horam aequinoctialem perficiunt; exibunt 86° 36′.",
+     "transcription": "horam aequinoctialem perficiunt; exibunt 86° 36′.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0217-notes_left-L008",
+     "source_line_no": null,
+     "tex": "\\Indent (4) Plato 12,",
+     "transcription": "(4) Plato 12,",
+     "semantic_anchor": "AB01-PDF0217-N04",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  },
+  {
+   "role": "notes_right",
+   "lines": [
+    {
+     "id": "AB01-PDF0217-notes_right-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (5) Annus tropicus auctoris nostri 365 $\\qfrac{1}{4}$ — $\\dfrac{\\text{3 $\\qfrac{2}{5}$}}{\\text{360}}$",
+     "transcription": "(5) Annus tropicus auctoris nostri 365 {sfrac:1/4} — $\\dfrac{\\text{3 {sfrac:2/5}}}{\\text{360}}$",
+     "semantic_anchor": "AB01-PDF0217-N05",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0217-notes_right-L002",
+     "source_line_no": null,
+     "tex": "complectitur; ad perficiendam quartam partem diei",
+     "transcription": "complectitur; ad perficiendam quartam partem diei",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0217-notes_right-L003",
+     "source_line_no": null,
+     "tex": "desunt igitur 3° $\\qfrac{2}{5}$ i. e. 3° 24′.",
+     "transcription": "desunt igitur 3° {sfrac:2/5} i. e. 3° 24′.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0217-notes_right-L004",
+     "source_line_no": null,
+     "tex": "\\Indent (6) Plato 60°.",
+     "transcription": "(6) Plato 60°.",
+     "semantic_anchor": "AB01-PDF0217-N06",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0217-notes_right-L005",
+     "source_line_no": null,
+     "tex": "\\Indent (7) Plato 184.",
+     "transcription": "(7) Plato 184.",
+     "semantic_anchor": "AB01-PDF0217-N07",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0217-notes_right-L006",
+     "source_line_no": null,
+     "tex": "\\Indent (8) Plato 274.",
+     "transcription": "(8) Plato 274.",
+     "semantic_anchor": "AB01-PDF0217-N08",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0217-notes_right-L007",
+     "source_line_no": null,
+     "tex": "\\Indent (9) Plato 364.",
+     "transcription": "(9) Plato 364.",
+     "semantic_anchor": "AB01-PDF0217-N09",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  }
+ ]
+}
