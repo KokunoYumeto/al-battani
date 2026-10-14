@@ -1,0 +1,486 @@
+{
+ "anchor": "AB01-PDF0243",
+ "master_pdf_page": 243,
+ "printed_page": 154,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "margin_locators": [],
+ "observations": [
+  "body L1: in (ι) the two products of the numerator stand in the wrong order: chorda (180° − [a + b]) = [chorda (180° − a) chorda (180° − b) − chorda a chorda b] / 2R, for chorda x = 2R sin x/2; as printed the numerator is the negative of the true one; kept as printed.",
+  "body L1-L2: the labels (ι) and (κ) are set in the type of the text, not in bold as (α) to (ϑ) on p. 153.",
+  "body L15: a speck stands under the R of «Recherches»; it is not a sign.",
+  "body L33-L34: a slanted stroke stands between the lines, from under the s of «sinum» to over the last a of «pervulgata»; it is not an accent."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0243-body-L001",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.00mm}(\\textgreek{ι})}\\rlap{\\hspace*{11.28mm}chorda $(\\text{180°} - [a + b]) = \\dfrac{\\text{chorda } a \\text{ chorda } b - \\text{chorda } (\\text{180°} - a) \\text{ chorda } (\\text{180°} - b)}{2\\,R}$}",
+     "transcription": "(ι) chorda $(\\text{180°} - [a + b]) = \\dfrac{\\text{chorda } a \\text{ chorda } b - \\text{chorda } (\\text{180°} - a) \\text{ chorda } (\\text{180°} - b)}{2\\,R}$",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0243-body-L002",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.00mm}(\\textgreek{κ})}\\rlap{\\hspace*{11.28mm}chorda $(a + b) = \\sqrt{4R^2 - \\text{chorda}^2\\,(\\text{180°} - [a + b])}$}",
+     "transcription": "(κ) chorda $(a + b) = \\sqrt{4R^2 - \\text{chorda}^2\\,(\\text{180°} - [a + b])}$",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0243-body-L003",
+     "source_line_no": null,
+     "tex": "\\Indent Viam qua Ptolemaeus ad calculum chordae 1° pervenit omnes fere historiae mathesis",
+     "transcription": "Viam qua Ptolemaeus ad calculum chordae 1° pervenit omnes fere historiae mathesis",
+     "semantic_anchor": "AB01-PDF0243-P01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0243-body-L004",
+     "source_line_no": null,
+     "tex": "scriptores exponunt; e recentissimis consulantur M. \\Name{Cantor}, \\textit{Vorlesungen über Geschichte der}",
+     "transcription": "scriptores exponunt; e recentissimis consulantur M. {sp:Cantor}, *Vorlesungen über Geschichte der*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0243-body-L005",
+     "source_line_no": null,
+     "tex": "\\textit{Mathematik,} Leipzig 1880 sqq., t. I, pag. 353–355 (vel 390–392 alterius editionis anni 1894);",
+     "transcription": "*Mathematik,* Leipzig 1880 sqq., t. I, pag. 353–355 (vel 390–392 alterius editionis anni 1894);",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0243-body-L006",
+     "source_line_no": null,
+     "tex": "R. \\Name{Wolf}, \\textit{Handbuch der Astronomie, ihrer Geschichte und Litteratur,} Zürich 1890–93,",
+     "transcription": "R. {sp:Wolf}, *Handbuch der Astronomie, ihrer Geschichte und Litteratur,* Zürich 1890–93,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0243-body-L007",
+     "source_line_no": null,
+     "tex": "t. I, p. 164–165, § 61,\\textit{b}; A. \\Name{von Braunmühl}, \\textit{Vorlesungen über Geschichte der Trigo-}",
+     "transcription": "t. I, p. 164–165, § 61,*b*; A. {sp:von Braunmühl}, *Vorlesungen über Geschichte der Trigo-*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0243-body-L008",
+     "source_line_no": null,
+     "tex": "\\textit{nometrie,} Leipzig 1900 sqq., t. I, p. 21. Error, quem F. \\Name{Woepcke}, \\textit{Discussion de deux}",
+     "transcription": "*nometrie,* Leipzig 1900 sqq., t. I, p. 21. Error, quem F. {sp:Woepcke}, *Discussion de deux*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0243-body-L009",
+     "source_line_no": null,
+     "tex": "\\textit{méthodes arabes pour déterminer une valeur rapprochée de sin 1°} (Journal de Mathé-",
+     "transcription": "*méthodes arabes pour déterminer une valeur rapprochée de sin 1°* (Journal de Mathé-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0243-body-L010",
+     "source_line_no": null,
+     "tex": "matiques pures et appliquées publié par J. Liouville, t. XIX, 1854, p. 165) per Lagrangii inter-",
+     "transcription": "matiques pures et appliquées publié par J. Liouville, t. XIX, 1854, p. 165) per Lagrangii inter-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0243-body-L011",
+     "source_line_no": null,
+     "tex": "polationis formulam investigavit, est 0,000\\,000\\,09, scilicet minorem quam $\\qfrac{1}{10\\,000\\,000}$; sensibilis",
+     "transcription": "polationis formulam investigavit, est 0,000\\,000\\,09, scilicet minorem quam {sfrac:1/10\\,000\\,000}; sensibilis",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0243-body-L012",
+     "source_line_no": null,
+     "tex": "igitur in tertiis tantum fit, quas Ptolemaeus in tabula chordarum omittit. — Quantitatem sinus",
+     "transcription": "igitur in tertiis tantum fit, quas Ptolemaeus in tabula chordarum omittit. — Quantitatem sinus",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0243-body-L013",
+     "source_line_no": null,
+     "tex": "1° veritati propiorem, \\Name{Abū ’l–Wefā’} (940–998 Chr.) invenit, quae in quintis tantum, seu in",
+     "transcription": "1° veritati propiorem, {sp:Abū ’l–Wefā’} (940–998 Chr.) invenit, quae in quintis tantum, seu in",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0243-body-L014",
+     "source_line_no": null,
+     "tex": "nona figura decimali, errorem praebet (sin 30′ = 0\\textsuperscript{\\textit{p}} 31′ 24″ 55‴ 54\\textsuperscript{IV} 55\\textsuperscript{V} pro 54\\textsuperscript{V} 47\\textsuperscript{VI} 16\\textsuperscript{VII});",
+     "transcription": "nona figura decimali, errorem praebet (sin 30′ = 0{sup:*p*} 31′ 24″ 55‴ 54{sup:IV} 55{sup:V} pro 54{sup:V} 47{sup:VI} 16{sup:VII});",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0243-body-L015",
+     "source_line_no": null,
+     "tex": "cfr. \\Name{Woepcke}, \\textit{Recherches sur l’histoire des sciences mathématiques chez les Orientaux,}",
+     "transcription": "cfr. {sp:Woepcke}, *Recherches sur l’histoire des sciences mathématiques chez les Orientaux,*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0243-body-L016",
+     "source_line_no": null,
+     "tex": "in Journal Asiatique, V série, t. XV, 1860, p. 286–303; \\Name{Cantor}, I, 641–642 (= 703 alterius",
+     "transcription": "in Journal Asiatique, V série, t. XV, 1860, p. 286–303; {sp:Cantor}, I, 641–642 (= 703 alterius",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0243-body-L017",
+     "source_line_no": null,
+     "tex": "editionis); \\Name{von Braunmühl}, I, 56–57. — Iuxta ea quae nobis tradidit \\Name{Mīram Čelebī} (ob.",
+     "transcription": "editionis); {sp:von Braunmühl}, I, 56–57. — Iuxta ea quae nobis tradidit {sp:Mīram Čelebī} (ob.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0243-body-L018",
+     "source_line_no": null,
+     "tex": "anno 931 heg. = 1524–25 Chr.) in commentario suo ad Ulugh Beg (in versione Gallica \\Name{Sé-}",
+     "transcription": "anno 931 heg. = 1524–25 Chr.) in commentario suo ad Ulugh Beg (in versione Gallica {sp:Sé-}",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0243-body-L019",
+     "source_line_no": null,
+     "tex": "\\Name{dillot}, p. 69–77, adnot.), alii iique veteres Arabes, ignoti nominis, methodum Ptolemaicam",
+     "transcription": "{sp:dillot}, p. 69–77, adnot.), alii iique veteres Arabes, ignoti nominis, methodum Ptolemaicam",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0243-body-L020",
+     "source_line_no": null,
+     "tex": "absolvendo, quantitatem sinus 1° invenerunt quae veritatem excedit fractione minore quam",
+     "transcription": "absolvendo, quantitatem sinus 1° invenerunt quae veritatem excedit fractione minore quam",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0243-body-L021",
+     "source_line_no": null,
+     "tex": "$\\qfrac{1}{100\\,000\\,000}$; error enim est $\\qfrac{37}{416}$ (vel fere $\\qfrac{1}{11}$) erroris Ptolemaei, cum sin 1° = 1\\textsuperscript{\\textit{p}} 2′ 49″ 43‴",
+     "transcription": "{sfrac:1/100\\,000\\,000}; error enim est {sfrac:37/416} (vel fere {sfrac:1/11}) erroris Ptolemaei, cum sin 1° = 1{sup:*p*} 2′ 49″ 43‴",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0243-body-L022",
+     "source_line_no": null,
+     "tex": "13\\textsuperscript{IV} 5\\textsuperscript{V} 30\\textsuperscript{VI} pro 11\\textsuperscript{IV} 14\\textsuperscript{V} 44\\textsuperscript{VI} faciant. Sed nisi de industria in calculis parvas fractiones quas-",
+     "transcription": "13{sup:IV} 5{sup:V} 30{sup:VI} pro 11{sup:IV} 14{sup:V} 44{sup:VI} faciant. Sed nisi de industria in calculis parvas fractiones quas-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0243-body-L023",
+     "source_line_no": null,
+     "tex": "dam neglexissent, potuissent numerum longe meliorem invenire, cuius error fuisset $\\qfrac{1}{64}$ erroris",
+     "transcription": "dam neglexissent, potuissent numerum longe meliorem invenire, cuius error fuisset {sfrac:1/64} erroris",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0243-body-L024",
+     "source_line_no": null,
+     "tex": "Ptolemaici. Cfr. \\Name{Woepcke}, \\textit{Discussion de deux méthodes} etc., p. 155–157, 159–167. — Ele-",
+     "transcription": "Ptolemaici. Cfr. {sp:Woepcke}, *Discussion de deux méthodes* etc., p. 155–157, 159–167. — Ele-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0243-body-L025",
+     "source_line_no": null,
+     "tex": "gantissime demum, aequationem trisectionis anguli proxime solvendo, id est aequationem tertii",
+     "transcription": "gantissime demum, aequationem trisectionis anguli proxime solvendo, id est aequationem tertii",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0243-body-L026",
+     "source_line_no": null,
+     "tex": "gradus in seriem evolvendo, sin 1° = 1\\textsuperscript{\\textit{p}} 2′ 49″ 43‴ 11\\textsuperscript{IV} recte supputavit \\Name{Ghiyāth ad–dīn} (1)",
+     "transcription": "gradus in seriem evolvendo, sin 1° = 1{sup:*p*} 2′ 49″ 43‴ 11{sup:IV} recte supputavit {sp:Ghiyāth ad–dīn} (1)",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0243-body-L027",
+     "source_line_no": null,
+     "tex": "\\Name{Ǵamshīd al–Kāshī}, cui probabiliter alii Arabes in hoc praeiverunt; eius methodum, nobis",
+     "transcription": "{sp:Ǵamshīd al–Kāshī}, cui probabiliter alii Arabes in hoc praeiverunt; eius methodum, nobis",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0243-body-L028",
+     "source_line_no": null,
+     "tex": "a \\Name{Mīram Čelebī}, l. c. pag. 77–83, traditam, exposuit \\Name{Woepcke}, \\textit{Discussion}, p. 167–176,",
+     "transcription": "a {sp:Mīram Čelebī}, l. c. pag. 77–83, traditam, exposuit {sp:Woepcke}, *Discussion*, p. 167–176,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0243-body-L029",
+     "source_line_no": null,
+     "tex": "301–303. Cfr. quoque H. \\Name{Hankel}, \\textit{Zur Geschichte der Mathematik im Alterthum und}",
+     "transcription": "301–303. Cfr. quoque H. {sp:Hankel}, *Zur Geschichte der Mathematik im Alterthum und*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0243-body-L030",
+     "source_line_no": null,
+     "tex": "\\textit{Mittelalter,} Leipzig 1874, p. 290–293; \\Name{Cantor}, I, 671-672 (= 737 alt. edit.); \\Name{von Braun-}",
+     "transcription": "*Mittelalter,* Leipzig 1874, p. 290–293; {sp:Cantor}, I, 671-672 (= 737 alt. edit.); {sp:von Braun-}",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0243-body-L031",
+     "source_line_no": null,
+     "tex": "\\Name{mühl}, I, 73–75.",
+     "transcription": "{sp:mühl}, I, 73–75.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0243-body-L032",
+     "source_line_no": null,
+     "tex": "\\CenterLine{\\textbf{\\textit{b}}) — \\textit{Pag. 10–11.}}",
+     "transcription": "{bi:b}) — *Pag. 10–11.*",
+     "semantic_anchor": "AB01-PDF0243-H32",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0243-body-L033",
+     "source_line_no": null,
+     "tex": "\\Indent Vocem technicam \\textit{ǵayb}, qua Arabes sinum indicant, al–Battānī nunquam memorat, licet",
+     "transcription": "Vocem technicam *ǵayb*, qua Arabes sinum indicant, al–Battānī nunquam memorat, licet",
+     "semantic_anchor": "AB01-PDF0243-P02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0243-body-L034",
+     "source_line_no": null,
+     "tex": "iam ineunte IX saeculo Christi pervulgata esset, ut ex inedita versione Latina operis astro-",
+     "transcription": "iam ineunte IX saeculo Christi pervulgata esset, ut ex inedita versione Latina operis astro-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0243-body-L035",
+     "source_line_no": null,
+     "tex": "nomici \\Name{Muḥammad ibn Mūsà al–Khuwārizmī}, ab \\Name{Adelardo Bathoniensi} saeculo XII",
+     "transcription": "nomici {sp:Muḥammad ibn Mūsà al–Khuwārizmī}, ab {sp:Adelardo Bathoniensi} saeculo XII",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0243-body-L036",
+     "source_line_no": null,
+     "tex": "confecta, patet. Ibi enim nomen Arabicum \\textit{elgeib} (praemisso scilicet articulo Arabico \\textit{al} sive",
+     "transcription": "confecta, patet. Ibi enim nomen Arabicum *elgeib* (praemisso scilicet articulo Arabico *al* sive",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    }
+   ]
+  },
+  {
+   "role": "notes_left",
+   "lines": [
+    {
+     "id": "AB01-PDF0243-notes_left-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (1) Male quidem ‘Atāb ad-dīn efferunt, \\ArabicRun{عتاب}",
+     "transcription": "(1) Male quidem ‘Atāb ad-dīn efferunt, عتاب",
+     "semantic_anchor": "AB01-PDF0243-N01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0243-notes_left-L002",
+     "source_line_no": null,
+     "tex": "‘Atāb pro \\ArabicRun{غياث} Ghiyāth legentes. Anno circiter 840",
+     "transcription": "‘Atāb pro غياث Ghiyāth legentes. Anno circiter 840",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0243-notes_left-L003",
+     "source_line_no": null,
+     "tex": "heg., 1436-37 Chr., obiit, ut recte H. \\Name{Suter}, \\textit{Die}",
+     "transcription": "heg., 1436-37 Chr., obiit, ut recte H. {sp:Suter}, *Die*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0243-notes_left-L004",
+     "source_line_no": null,
+     "tex": "\\textit{Mathematiker und Astronomen der Araber}, Leip-",
+     "transcription": "*Mathematiker und Astronomen der Araber*, Leip-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0243-notes_left-L005",
+     "source_line_no": null,
+     "tex": "zig 1900, p. 173-4, nr. 429, statuit; cuius argumentis",
+     "transcription": "zig 1900, p. 173-4, nr. 429, statuit; cuius argumentis",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  },
+  {
+   "role": "notes_right",
+   "lines": [
+    {
+     "id": "AB01-PDF0243-notes_right-L001",
+     "source_line_no": null,
+     "tex": "addatur quod opusculum de inveniendo sinu 1° (in",
+     "transcription": "addatur quod opusculum de inveniendo sinu 1° (in",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0243-notes_right-L002",
+     "source_line_no": null,
+     "tex": "Bibliotheca Kahirensi adhuc exstans) iam a Qāḍīzā-",
+     "transcription": "Bibliotheca Kahirensi adhuc exstans) iam a Qāḍīzā-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0243-notes_right-L003",
+     "source_line_no": null,
+     "tex": "deh ar-Rūmī, intra annos 840-850 heg. mortuo, lau-",
+     "transcription": "deh ar-Rūmī, intra annos 840-850 heg. mortuo, lau-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0243-notes_right-L004",
+     "source_line_no": null,
+     "tex": "dibus extollitur, ut Mīram Čelebī narrat.",
+     "transcription": "dibus extollitur, ut Mīram Čelebī narrat.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  }
+ ]
+}

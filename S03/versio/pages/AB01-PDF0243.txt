@@ -1,0 +1,59 @@
+@page 243 154
+% Commentary on chapter 3 continued: the formulas (ι) and (κ) for the chord of a sum; the computation of the chord of 1° by Ptolemy and its history (Cantor, Wolf, von Braunmühl, Woepcke), the better values of Abū ’l-Wefā’, of the anonymous Arabs reported by Mīram Čelebī and of Ghiyāth ad-dīn Ǵamshīd al-Kāshī; b) on pp. 10-11: the Arabic term ǵayb for the sine, already in the Latin al-Khuwārizmī of Adelard of Bath.
+@nonum
+@at 0:(ι) | 11.28:chorda $(\text{180°} - [a + b]) = \dfrac{\text{chorda } a \text{ chorda } b - \text{chorda } (\text{180°} - a) \text{ chorda } (\text{180°} - b)}{2\,R}$
+@vspace -0.19
+@at 0:(κ) | 11.28:chorda $(a + b) = \sqrt{4R^2 - \text{chorda}^2\,(\text{180°} - [a + b])}$
+@vspace 4.27
+^ Viam qua Ptolemaeus ad calculum chordae 1° pervenit omnes fere historiae mathesis
+scriptores exponunt; e recentissimis consulantur M. {sp:Cantor}, *Vorlesungen über Geschichte der*
+*Mathematik,* Leipzig 1880 sqq., t. I, pag. 353–355 (vel 390–392 alterius editionis anni 1894);
+R. {sp:Wolf}, *Handbuch der Astronomie, ihrer Geschichte und Litteratur,* Zürich 1890–93,
+t. I, p. 164–165, § 61,*b*; A. {sp:von Braunmühl}, *Vorlesungen über Geschichte der Trigo-*
+*nometrie,* Leipzig 1900 sqq., t. I, p. 21. Error, quem F. {sp:Woepcke}, *Discussion de deux*
+*méthodes arabes pour déterminer une valeur rapprochée de sin 1°* (Journal de Mathé-
+matiques pures et appliquées publié par J. Liouville, t. XIX, 1854, p. 165) per Lagrangii inter-
+polationis formulam investigavit, est 0,000\,000\,09, scilicet minorem quam {sfrac:1/10\,000\,000}; sensibilis
+igitur in tertiis tantum fit, quas Ptolemaeus in tabula chordarum omittit. — Quantitatem sinus
+1° veritati propiorem, {sp:Abū ’l–Wefā’} (940–998 Chr.) invenit, quae in quintis tantum, seu in
+nona figura decimali, errorem praebet (sin 30′ = 0{sup:*p*} 31′ 24″ 55‴ 54{sup:IV} 55{sup:V} pro 54{sup:V} 47{sup:VI} 16{sup:VII});
+cfr. {sp:Woepcke}, *Recherches sur l’histoire des sciences mathématiques chez les Orientaux,*
+in Journal Asiatique, V série, t. XV, 1860, p. 286–303; {sp:Cantor}, I, 641–642 (= 703 alterius
+editionis); {sp:von Braunmühl}, I, 56–57. — Iuxta ea quae nobis tradidit {sp:Mīram Čelebī} (ob.
+anno 931 heg. = 1524–25 Chr.) in commentario suo ad Ulugh Beg (in versione Gallica {sp:Sé-}
+{sp:dillot}, p. 69–77, adnot.), alii iique veteres Arabes, ignoti nominis, methodum Ptolemaicam
+absolvendo, quantitatem sinus 1° invenerunt quae veritatem excedit fractione minore quam
+{sfrac:1/100\,000\,000}; error enim est {sfrac:37/416} (vel fere {sfrac:1/11}) erroris Ptolemaei, cum sin 1° = 1{sup:*p*} 2′ 49″ 43‴
+13{sup:IV} 5{sup:V} 30{sup:VI} pro 11{sup:IV} 14{sup:V} 44{sup:VI} faciant. Sed nisi de industria in calculis parvas fractiones quas-
+dam neglexissent, potuissent numerum longe meliorem invenire, cuius error fuisset {sfrac:1/64} erroris
+Ptolemaici. Cfr. {sp:Woepcke}, *Discussion de deux méthodes* etc., p. 155–157, 159–167. — Ele-
+gantissime demum, aequationem trisectionis anguli proxime solvendo, id est aequationem tertii
+gradus in seriem evolvendo, sin 1° = 1{sup:*p*} 2′ 49″ 43‴ 11{sup:IV} recte supputavit {sp:Ghiyāth ad–dīn} (1)
+{sp:Ǵamshīd al–Kāshī}, cui probabiliter alii Arabes in hoc praeiverunt; eius methodum, nobis
+a {sp:Mīram Čelebī}, l. c. pag. 77–83, traditam, exposuit {sp:Woepcke}, *Discussion*, p. 167–176,
+301–303. Cfr. quoque H. {sp:Hankel}, *Zur Geschichte der Mathematik im Alterthum und*
+*Mittelalter,* Leipzig 1874, p. 290–293; {sp:Cantor}, I, 671-672 (= 737 alt. edit.); {sp:von Braun-}
+{sp:mühl}, I, 73–75.
+@vspace 5.65
+@center {bi:b}) — *Pag. 10–11.*
+@vspace 4.46
+^ Vocem technicam *ǵayb*, qua Arabes sinum indicant, al–Battānī nunquam memorat, licet
+iam ineunte IX saeculo Christi pervulgata esset, ut ex inedita versione Latina operis astro-
+nomici {sp:Muḥammad ibn Mūsà al–Khuwārizmī}, ab {sp:Adelardo Bathoniensi} saeculo XII
+confecta, patet. Ibi enim nomen Arabicum *elgeib* (praemisso scilicet articulo Arabico *al* sive
+@vspace 4.96
+@notes
+^ (1) Male quidem ‘Atāb ad-dīn efferunt, عتاب
+‘Atāb pro غياث Ghiyāth legentes. Anno circiter 840
+heg., 1436-37 Chr., obiit, ut recte H. {sp:Suter}, *Die*
+*Mathematiker und Astronomen der Araber*, Leip-
+zig 1900, p. 173-4, nr. 429, statuit; cuius argumentis
+@col
+addatur quod opusculum de inveniendo sinu 1° (in
+Bibliotheca Kahirensi adhuc exstans) iam a Qāḍīzā-
+deh ar-Rūmī, intra annos 840-850 heg. mortuo, lau-
+dibus extollitur, ut Mīram Čelebī narrat.
+@obs body L1: in (ι) the two products of the numerator stand in the wrong order: chorda (180° − [a + b]) = [chorda (180° − a) chorda (180° − b) − chorda a chorda b] / 2R, for chorda x = 2R sin x/2; as printed the numerator is the negative of the true one; kept as printed.
+@obs body L1-L2: the labels (ι) and (κ) are set in the type of the text, not in bold as (α) to (ϑ) on p. 153.
+@obs body L15: a speck stands under the R of «Recherches»; it is not a sign.
+@obs body L33-L34: a slanted stroke stands between the lines, from under the s of «sinum» to over the last a of «pervulgata»; it is not an accent.
