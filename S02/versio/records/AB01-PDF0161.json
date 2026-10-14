@@ -1,0 +1,507 @@
+{
+ "anchor": "AB01-PDF0161",
+ "master_pdf_page": 161,
+ "printed_page": 72,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "margin_locators": [
+  {
+   "line_anchor": "AB01-PDF0161-body-L015",
+   "text": "p. 108."
+  },
+  {
+   "line_anchor": "AB01-PDF0161-body-L036",
+   "text": "p. 109."
+  }
+ ],
+ "observations": [
+  "body: the line numbers 5 to 40 stand in the right margin and the locators «p. 108.» (L15) and «p. 109.» (L36) in the left margin. The count of the lines runs through the space and the head of chapter 34: 25 stands between the head and the title, beside no line, and 30 beside the first line of the chapter.",
+  "body L22-L25: the head «CAPUT XXXIV.» is centred; the title is set in the larger type as a paragraph of three lines, the second and the third indented, not centred.",
+  "body L2: the last letter of «quaere» is printed broken, its bar and the left of its bowl not printed; it is read as e.",
+  "body L19: the o of «eodem» is printed broken.",
+  "body L14, L36: specks stand over the h of «ādhār» and over the first u of «residuum»; they are not signs.",
+  "notes_left L3: the letter of «adnot. c» is bold italic."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0161-body-L001",
+     "source_line_no": 1,
+     "tex": "\\Indent Si apogeum de medio Solis motu demitur, remanet anomalia Solis, quam sub motu medio",
+     "transcription": "Si apogeum de medio Solis motu demitur, remanet anomalia Solis, quam sub motu medio",
+     "semantic_anchor": "AB01-PDF0161-P01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0161-body-L002",
+     "source_line_no": 2,
+     "tex": "scribe. Postea in columnis numerorum in tabulis aequationis Solis (1) eam quaere; gradus,",
+     "transcription": "scribe. Postea in columnis numerorum in tabulis aequationis Solis (1) eam quaere; gradus,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0161-body-L003",
+     "source_line_no": 3,
+     "tex": "minuta, secundas ei in columna aequationis Solis respondentia accipe et sub anomalia scribe.",
+     "transcription": "minuta, secundas ei in columna aequationis Solis respondentia accipe et sub anomalia scribe.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0161-body-L004",
+     "source_line_no": 4,
+     "tex": "Si anomalia Solis, cuius aequationem sumpsisti, minor quam 180° est, aequationem de motu",
+     "transcription": "Si anomalia Solis, cuius aequationem sumpsisti, minor quam 180° est, aequationem de motu",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0161-body-L005",
+     "source_line_no": 5,
+     "tex": "medio deme; at si 180° superat, aequationem motui medio adde. Exibit locus verus Solis in",
+     "transcription": "medio deme; at si 180° superat, aequationem motui medio adde. Exibit locus verus Solis in",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 5,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0161-body-L006",
+     "source_line_no": 6,
+     "tex": "ecliptica; quem si de initio Arietis proieceris, singulis signis 30° tribuens, invenies locum",
+     "transcription": "ecliptica; quem si de initio Arietis proieceris, singulis signis 30° tribuens, invenies locum",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0161-body-L007",
+     "source_line_no": 7,
+     "tex": "Solis in signo ad quod pervenisti.",
+     "transcription": "Solis in signo ad quod pervenisti.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0161-body-L008",
+     "source_line_no": 8,
+     "tex": "\\Indent Haec aequatio est ad horam meridianam urbis ar–Raqqah eo die quo calculus fit.",
+     "transcription": "Haec aequatio est ad horam meridianam urbis ar–Raqqah eo die quo calculus fit.",
+     "semantic_anchor": "AB01-PDF0161-P02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0161-body-L009",
+     "source_line_no": 9,
+     "tex": "\\Indent Si cum anomalia sunt etiam minuta, sume aequationem graduum integrorum; postea, ex",
+     "transcription": "Si cum anomalia sunt etiam minuta, sume aequationem graduum integrorum; postea, ex",
+     "semantic_anchor": "AB01-PDF0161-P03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0161-body-L010",
+     "source_line_no": 10,
+     "tex": "differentia inter hanc aequationem et aequationem numeri in tabula statim superioris, accipe",
+     "transcription": "differentia inter hanc aequationem et aequationem numeri in tabula statim superioris, accipe",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 10,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0161-body-L011",
+     "source_line_no": 11,
+     "tex": "partem eadem proportione qua minuta data ad 60 sunt. Proventum de servata aequatione gra-",
+     "transcription": "partem eadem proportione qua minuta data ad 60 sunt. Proventum de servata aequatione gra-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0161-body-L012",
+     "source_line_no": 12,
+     "tex": "duum deme, si haec maior est, vel ei adde, si est minor; exibit aequatio respondens anomaliae",
+     "transcription": "duum deme, si haec maior est, vel ei adde, si est minor; exibit aequatio respondens anomaliae",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0161-body-L013",
+     "source_line_no": 13,
+     "tex": "datae. Similiter, Deo volente, fac, si cum anomalia Lunae et quinque planetarum minuta sint.",
+     "transcription": "datae. Similiter, Deo volente, fac, si cum anomalia Lunae et quinque planetarum minuta sint.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0161-body-L014",
+     "source_line_no": 14,
+     "tex": "\\Indent Apogeum Solis, primo die mensis ādhār anni 1191 a Dhū ’l–qarnayn (2), erat circiter in",
+     "transcription": "Apogeum Solis, primo die mensis ādhār anni 1191 a Dhū ’l–qarnayn (2), erat circiter in",
+     "semantic_anchor": "AB01-PDF0161-P04",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0161-body-L015",
+     "source_line_no": 15,
+     "tex": "22° 15′ Geminorum sive 82° 15′ (3) ab Arietis initio. Si locum verum Solis ante vel post hunc",
+     "transcription": "22° 15′ Geminorum sive 82° 15′ (3) ab Arietis initio. Si locum verum Solis ante vel post hunc",
+     "semantic_anchor": null,
+     "margin_locator": "p. 108.",
+     "printed_line_number": 15,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0161-body-L016",
+     "source_line_no": 16,
+     "tex": "annum determinare cupis, intervallum annorum cognosce, et singulis 66 annis Romanis unum",
+     "transcription": "annum determinare cupis, intervallum annorum cognosce, et singulis 66 annis Romanis unum",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0161-body-L017",
+     "source_line_no": 17,
+     "tex": "gradum tribue (4); gradus et minuta hoc modo inventa de 82° 15′ (5) deme, si tempus quae-",
+     "transcription": "gradum tribue (4); gradus et minuta hoc modo inventa de 82° 15′ (5) deme, si tempus quae-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0161-body-L018",
+     "source_line_no": 18,
+     "tex": "situm eo anno est anterius, vel 82° 15′ adde si posterius; exibit apogeum Solis anno quaesito.",
+     "transcription": "situm eo anno est anterius, vel 82° 15′ adde si posterius; exibit apogeum Solis anno quaesito.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0161-body-L019",
+     "source_line_no": 19,
+     "tex": "Apogeum enim eodem motu quo sphaera stellarum fixarum volvitur, movetur, quem obser-",
+     "transcription": "Apogeum enim eodem motu quo sphaera stellarum fixarum volvitur, movetur, quem obser-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0161-body-L020",
+     "source_line_no": 20,
+     "tex": "vationibus invenimus unius gradus esse in 66 annis Romanis vel in 68 circiter annis luna-",
+     "transcription": "vationibus invenimus unius gradus esse in 66 annis Romanis vel in 68 circiter annis luna-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 20,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0161-body-L021",
+     "source_line_no": 21,
+     "tex": "ribus. — Si calculum ad aeram Arabum ducis, fac ut diximus.",
+     "transcription": "ribus. — Si calculum ad aeram Arabum ducis, fac ut diximus.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0161-body-L022",
+     "source_line_no": 24,
+     "tex": "\\CenterLine{CAPUT XXXIV.}",
+     "transcription": "CAPUT XXXIV.",
+     "semantic_anchor": "AB01-PDF0161-H22",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0161-body-L023",
+     "source_line_no": 26,
+     "tex": "De cognoscendis quolibet Terrae loco horis correctis, quae sunt horae",
+     "transcription": "De cognoscendis quolibet Terrae loco horis correctis, quae sunt horae",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0161-body-L024",
+     "source_line_no": 27,
+     "tex": "\\mbox{}\\rlap{\\hspace*{7.55mm}aequinoctiales, et horae mediae etiam appellantur, post meridiem}",
+     "transcription": "aequinoctiales, et horae mediae etiam appellantur, post meridiem",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0161-body-L025",
+     "source_line_no": 28,
+     "tex": "\\mbox{}\\rlap{\\hspace*{7.55mm}urbis ar-Raqqah.}",
+     "transcription": "urbis ar-Raqqah.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0161-body-L026",
+     "source_line_no": 30,
+     "tex": "\\Indent Dicit [auctor]: Qualibet regione nunc scire cupis horas correctas, scilicet horas secundum",
+     "transcription": "Dicit [auctor]: Qualibet regione nunc scire cupis horas correctas, scilicet horas secundum",
+     "semantic_anchor": "AB01-PDF0161-P05",
+     "margin_locator": null,
+     "printed_line_number": 30,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0161-body-L027",
+     "source_line_no": 31,
+     "tex": "quas in hoc libro motus stellarum reperiuntur, nam in eo stellae determinantur ad meridiem",
+     "transcription": "quas in hoc libro motus stellarum reperiuntur, nam in eo stellae determinantur ad meridiem",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0161-body-L028",
+     "source_line_no": 32,
+     "tex": "diei, quo calculus fit, in urbe ar–Raqqah. Hic est meridies crastini diei (6); qua re septima",
+     "transcription": "diei, quo calculus fit, in urbe ar–Raqqah. Hic est meridies crastini diei (6); qua re septima",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0161-body-L029",
+     "source_line_no": 33,
+     "tex": "hora temporalis diurna est hora prima diei sequentis, et similiter usque ad occasum Solis, qui",
+     "transcription": "hora temporalis diurna est hora prima diei sequentis, et similiter usque ad occasum Solis, qui",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0161-body-L030",
+     "source_line_no": 34,
+     "tex": "horam sextam diei efficit, aut usque ad sextam noctis quae est illius diei duodecima; et pa-",
+     "transcription": "horam sextam diei efficit, aut usque ad sextam noctis quae est illius diei duodecima; et pa-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0161-body-L031",
+     "source_line_no": 35,
+     "tex": "riter usque ad ortum Solis crastinum et ad novi diei meridiem, quo nychthemerum terminatur.",
+     "transcription": "riter usque ad ortum Solis crastinum et ad novi diei meridiem, quo nychthemerum terminatur.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 35,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0161-body-L032",
+     "source_line_no": 36,
+     "tex": "\\Indent Cognito horarum numero a meridie ad horam datam diei vel noctis, multiplica horas",
+     "transcription": "Cognito horarum numero a meridie ad horam datam diei vel noctis, multiplica horas",
+     "semantic_anchor": "AB01-PDF0161-P06",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0161-body-L033",
+     "source_line_no": 37,
+     "tex": "diurnas in tempora horaria diei, quae ex gradu Solis in tuo climate deprehenduntur; horas",
+     "transcription": "diurnas in tempora horaria diei, quae ex gradu Solis in tuo climate deprehenduntur; horas",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0161-body-L034",
+     "source_line_no": 38,
+     "tex": "nocturnas multiplica in tempora horaria noctis, quae per nadir gradus Solis habentur. De eo",
+     "transcription": "nocturnas multiplica in tempora horaria noctis, quae per nadir gradus Solis habentur. De eo",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0161-body-L035",
+     "source_line_no": 39,
+     "tex": "quod proveniet deme gradus et minuta quae in columna aequationis nychthemerōn, in tabulis",
+     "transcription": "quod proveniet deme gradus et minuta quae in columna aequationis nychthemerōn, in tabulis",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0161-body-L036",
+     "source_line_no": 40,
+     "tex": "ascensionum rectarum (7), sub gradu Solis describuntur; residuum per 15 divide, et exibunt",
+     "transcription": "ascensionum rectarum (7), sub gradu Solis describuntur; residuum per 15 divide, et exibunt",
+     "semantic_anchor": null,
+     "margin_locator": "p. 109.",
+     "printed_line_number": 40,
+     "source_role": "NALLINO_TRANSLATION"
+    }
+   ]
+  },
+  {
+   "role": "notes_left",
+   "lines": [
+    {
+     "id": "AB01-PDF0161-notes_left-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (1) Fol. 189,v. et seqq.",
+     "transcription": "(1) Fol. 189,v. et seqq.",
+     "semantic_anchor": "AB01-PDF0161-N01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0161-notes_left-L002",
+     "source_line_no": null,
+     "tex": "\\Indent (2) 1 Mart. 880 post Chr. n.",
+     "transcription": "(2) 1 Mart. 880 post Chr. n.",
+     "semantic_anchor": "AB01-PDF0161-N02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0161-notes_left-L003",
+     "source_line_no": null,
+     "tex": "\\Indent (3) Plat. 85° 15′. — Cfr. adnot. \\textbf{\\textit{c}} ad cap. XXVII.",
+     "transcription": "(3) Plat. 85° 15′. — Cfr. adnot. {bi:c} ad cap. XXVII.",
+     "semantic_anchor": "AB01-PDF0161-N03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0161-notes_left-L004",
+     "source_line_no": null,
+     "tex": "\\Indent (4) Praecessio annua igitur est 54″ 33‴; cfr.",
+     "transcription": "(4) Praecessio annua igitur est 54″ 33‴; cfr.",
+     "semantic_anchor": "AB01-PDF0161-N04",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0161-notes_left-L005",
+     "source_line_no": null,
+     "tex": "caput LI.",
+     "transcription": "caput LI.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  },
+  {
+   "role": "notes_right",
+   "lines": [
+    {
+     "id": "AB01-PDF0161-notes_right-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (5) Plat. 63° 15′.",
+     "transcription": "(5) Plat. 63° 15′.",
+     "semantic_anchor": "AB01-PDF0161-N05",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0161-notes_right-L002",
+     "source_line_no": null,
+     "tex": "\\Indent (6) Nam, ut in cap. XXIX vidimus, al-Battānī",
+     "transcription": "(6) Nam, ut in cap. XXIX vidimus, al-Battānī",
+     "semantic_anchor": "AB01-PDF0161-N06",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0161-notes_right-L003",
+     "source_line_no": null,
+     "tex": "diem a meridie incipit, non ab occasu Solis ut Mu-",
+     "transcription": "diem a meridie incipit, non ab occasu Solis ut Mu-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0161-notes_right-L004",
+     "source_line_no": null,
+     "tex": "slimi (praeter astronomos) solent.",
+     "transcription": "slimi (praeter astronomos) solent.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0161-notes_right-L005",
+     "source_line_no": null,
+     "tex": "\\Indent (7) Fol. 179,v. et seqq.",
+     "transcription": "(7) Fol. 179,v. et seqq.",
+     "semantic_anchor": "AB01-PDF0161-N07",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  }
+ ]
+}
