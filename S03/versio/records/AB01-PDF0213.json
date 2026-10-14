@@ -1,0 +1,563 @@
+{
+ "anchor": "AB01-PDF0213",
+ "master_pdf_page": 213,
+ "printed_page": 124,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "margin_locators": [
+  {
+   "line_anchor": "AB01-PDF0213-body-L004",
+   "text": "p. 187."
+  },
+  {
+   "line_anchor": "AB01-PDF0213-body-L024",
+   "text": "p. 188."
+  }
+ ],
+ "observations": [
+  "body: the line numbers 5 to 35 stand in the right margin and the locators «p. 187.» (L4, beside the head of chapter 51) and «p. 188.» (L24) in the left margin. The count of the lines runs through the spaces and the head of chapter 51: 5 stands beside «CAPUT LI.», 10 in the space below the title, 15 beside L12.",
+  "body L4-L7: the head of the chapter is set in a larger type; «CAPUT LI.» is centred, the title is set as a paragraph of three lines, the second and the third indented.",
+  "body L2: «60ᵖ» is written with a small raised italic p (partes).",
+  "body L2: Nallino's addenda et emendanda (Part I, p. LXXII) read «124,2, pro referta l. relata.»; the printed «referta» is kept.",
+  "body L1, L2: a speck stands over the g of «geo»; the o of «longinquitas» is printed broken; the m of «semidiametrum» is printed broken, like ni, and a speck stands over its r; the specks are not accents.",
+  "body L3: a slanting speck stands in the right margin beside the line; it is not a sign.",
+  "body L5: a thin slanting speck stands at the foot of the n of «in» before «sphaera»; it is not a comma.",
+  "body L8: a speck stands over the comma after «ortibus», at the top of the s; it is not the point of a semicolon.",
+  "body L11, L28: the first stem of the m of «semper» is printed broken, like a colon; the s of «nostri» is printed broken, like 3.",
+  "body L30, L32: the letters of the references (a) and (b) are bold italic; with chapter 51 the letters begin again at a.",
+  "notes_left L6, L7: a speck stands after the point of «Sept.»; it is not a second point. The hyphen of «Me-» is printed as a round point at the height of a hyphen.",
+  "notes_right L7: of the closing parenthesis of «(9)» only the foot printed, like a comma; the full stop after the fraction stands high, at the top of the 3."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0213-body-L001",
+     "source_line_no": 1,
+     "tex": "geo excentrici ex aequatione anomaliae deprehenditur. Per ambas has aequationes invenitur",
+     "transcription": "geo excentrici ex aequatione anomaliae deprehenditur. Per ambas has aequationes invenitur",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0213-body-L002",
+     "source_line_no": 2,
+     "tex": "longinquitas planetae a Terra, referta ad 60\\textsuperscript{\\textit{p}} quae semidiametrum efficiunt, sicut in capite de",
+     "transcription": "longinquitas planetae a Terra, referta ad 60{sup:*p*} quae semidiametrum efficiunt, sicut in capite de",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0213-body-L003",
+     "source_line_no": 3,
+     "tex": "distantiis Lunae cognoscendis a variatione eius motus [cap. XXXIX] docuimus.",
+     "transcription": "distantiis Lunae cognoscendis a variatione eius motus [cap. XXXIX] docuimus.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0213-body-L004",
+     "source_line_no": 5,
+     "tex": "\\CenterLine{CAPUT LI.}",
+     "transcription": "CAPUT LI.",
+     "semantic_anchor": "AB01-PDF0213-H04",
+     "margin_locator": "p. 187.",
+     "printed_line_number": 5,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0213-body-L005",
+     "source_line_no": 7,
+     "tex": "De reperto motu stellarum fixarum, sive ipsae in sphaera moventur,",
+     "transcription": "De reperto motu stellarum fixarum, sive ipsae in sphaera moventur,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0213-body-L006",
+     "source_line_no": 8,
+     "tex": "\\mbox{}\\rlap{\\hspace*{7.55mm}sive sphaera cum iis movetur; et de cognitione locorum stellarum}",
+     "transcription": "sive sphaera cum iis movetur; et de cognitione locorum stellarum",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0213-body-L007",
+     "source_line_no": 9,
+     "tex": "\\mbox{}\\rlap{\\hspace*{7.55mm}per tabulas.}",
+     "transcription": "per tabulas.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0213-body-L008",
+     "source_line_no": 11,
+     "tex": "\\Indent Dicit [auctor]: Status stellarum fixarum in earum ortibus, occasibus, culminationibus,",
+     "transcription": "Dicit [auctor]: Status stellarum fixarum in earum ortibus, occasibus, culminationibus,",
+     "semantic_anchor": "AB01-PDF0213-P01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0213-body-L009",
+     "source_line_no": 12,
+     "tex": "moris super Terram et sub Terra, nec non earum a polo remotiones qualibet regione iam",
+     "transcription": "moris super Terram et sub Terra, nec non earum a polo remotiones qualibet regione iam",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0213-body-L010",
+     "source_line_no": 13,
+     "tex": "in hoc libro memoravimus. A tempore quo earum motus repertus est, hae stellae sine ulla",
+     "transcription": "in hoc libro memoravimus. A tempore quo earum motus repertus est, hae stellae sine ulla",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0213-body-L011",
+     "source_line_no": 14,
+     "tex": "variatione circa polos eclipticae moventur, sed latitudinem suam semper servant; qua re di-",
+     "transcription": "variatione circa polos eclipticae moventur, sed latitudinem suam semper servant; qua re di-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0213-body-L012",
+     "source_line_no": 15,
+     "tex": "stantia alterius ab altera post tempus primae observationis nunquam variavit. Hac de causa",
+     "transcription": "stantia alterius ab altera post tempus primae observationis nunquam variavit. Hac de causa",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 15,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0213-body-L013",
+     "source_line_no": 16,
+     "tex": "stellae fixae appellatae sunt, fixae scilicet in distantia ab aliis; nam omnes unum eundemque",
+     "transcription": "stellae fixae appellatae sunt, fixae scilicet in distantia ab aliis; nam omnes unum eundemque",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0213-body-L014",
+     "source_line_no": 17,
+     "tex": "motum habent, sive in eadem sphaera simul moventur, sive sphaera ipsa communis ab occi-",
+     "transcription": "motum habent, sive in eadem sphaera simul moventur, sive sphaera ipsa communis ab occi-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0213-body-L015",
+     "source_line_no": 18,
+     "tex": "dente ad orientem, eas, ut sunt reliqui septem planetarum motus, motu suo transfert.",
+     "transcription": "dente ad orientem, eas, ut sunt reliqui septem planetarum motus, motu suo transfert.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0213-body-L016",
+     "source_line_no": 19,
+     "tex": "\\Indent Loca stellarum in longitudine et latitudine in libro Ptolemaei invenimus ad primum an-",
+     "transcription": "Loca stellarum in longitudine et latitudine in libro Ptolemaei invenimus ad primum an-",
+     "semantic_anchor": "AB01-PDF0213-P02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0213-body-L017",
+     "source_line_no": 20,
+     "tex": "num Antonini regis, qui est annus 886 (1) a Bukhtanaṣṣar primo [i. e. Nabonassar] rege. Una",
+     "transcription": "num Antonini regis, qui est annus 886 (1) a Bukhtanaṣṣar primo [i. e. Nabonassar] rege. Una",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 20,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0213-body-L018",
+     "source_line_no": 21,
+     "tex": "ex observationibus stellarum qua Ptolemaeus (2) usus est, fuit observatio Menelai anno 845 (3)",
+     "transcription": "ex observationibus stellarum qua Ptolemaeus (2) usus est, fuit observatio Menelai anno 845 (3)",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0213-body-L019",
+     "source_line_no": 22,
+     "tex": "Nabonassaris. Invenit tunc stellam borealem inter oculos Scorpii, quam sphaera armillari per",
+     "transcription": "Nabonassaris. Invenit tunc stellam borealem inter oculos Scorpii, quam sphaera armillari per",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0213-body-L020",
+     "source_line_no": 23,
+     "tex": "Lunam metitus est, in 5° 55′ (4) Scorpii esse; et iuxta ea quae Ptolemaeus in libro suo ex-",
+     "transcription": "Lunam metitus est, in 5° 55′ (4) Scorpii esse; et iuxta ea quae Ptolemaeus in libro suo ex-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0213-body-L021",
+     "source_line_no": 24,
+     "tex": "plicat, eodem anno Cor Leonis in 2° 40′ Leonis, Sirius in 17° Geminorum esse debebant.",
+     "transcription": "plicat, eodem anno Cor Leonis in 2° 40′ Leonis, Sirius in 17° Geminorum esse debebant.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0213-body-L022",
+     "source_line_no": 25,
+     "tex": "\\Indent Nos has stellas fixas memoratas et alias quoque subsequentibus annis pluries observavi-",
+     "transcription": "Nos has stellas fixas memoratas et alias quoque subsequentibus annis pluries observavi-",
+     "semantic_anchor": "AB01-PDF0213-P03",
+     "margin_locator": null,
+     "printed_line_number": 25,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0213-body-L023",
+     "source_line_no": 26,
+     "tex": "mus; et una ex observationibus quibus multum confidimus, anno 1191 a Dhū ’l–qarnayn (5)",
+     "transcription": "mus; et una ex observationibus quibus multum confidimus, anno 1191 a Dhū ’l–qarnayn (5)",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0213-body-L024",
+     "source_line_no": 27,
+     "tex": "fuit; Lunam et culminationes stellarum observantes, declinationes et gradus signorum cum",
+     "transcription": "fuit; Lunam et culminationes stellarum observantes, declinationes et gradus signorum cum",
+     "semantic_anchor": null,
+     "margin_locator": "p. 188.",
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0213-body-L025",
+     "source_line_no": 28,
+     "tex": "quibus culminant invenimus, unde etiam earum loca respectu eclipticae cognovimus. Patuit",
+     "transcription": "quibus culminant invenimus, unde etiam earum loca respectu eclipticae cognovimus. Patuit",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0213-body-L026",
+     "source_line_no": 29,
+     "tex": "igitur stellam borealem ex iis quae sunt inter oculos Scorpii occupare 17° 45′ (6) Scorpii, Si-",
+     "transcription": "igitur stellam borealem ex iis quae sunt inter oculos Scorpii occupare 17° 45′ (6) Scorpii, Si-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0213-body-L027",
+     "source_line_no": 30,
+     "tex": "rium 28° 50′ Geminorum, et Cor Leonis 14° Leonis. Annus observationis nostrae fuit annus 1627",
+     "transcription": "rium 28° 50′ Geminorum, et Cor Leonis 14° Leonis. Annus observationis nostrae fuit annus 1627",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 30,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0213-body-L028",
+     "source_line_no": 31,
+     "tex": "Nabonassaris regis; cum igitur ea 11° 50′ differentiae inter prima loca et loca nostri temporis",
+     "transcription": "Nabonassaris regis; cum igitur ea 11° 50′ differentiae inter prima loca et loca nostri temporis",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0213-body-L029",
+     "source_line_no": 32,
+     "tex": "dividantur per 782 (7) annos intervalli inter utramque observationem, inveniemus stellarum",
+     "transcription": "dividantur per 782 (7) annos intervalli inter utramque observationem, inveniemus stellarum",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0213-body-L030",
+     "source_line_no": 33,
+     "tex": "motum sex et sexaginta annis solaribus 1° attingere (8) (\\textbf{\\textit{a}}); et hoc modo tabulam motus stel-",
+     "transcription": "motum sex et sexaginta annis solaribus 1° attingere (8) ({bi:a}); et hoc modo tabulam motus stel-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0213-body-L031",
+     "source_line_no": 34,
+     "tex": "larum fixarum in annis collectis et singulis atque in mensibus descripsimus. Locis itaque in",
+     "transcription": "larum fixarum in annis collectis et singulis atque in mensibus descripsimus. Locis itaque in",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0213-body-L032",
+     "source_line_no": 35,
+     "tex": "libro Ptolemaei signatis nos 11° 10′ (9) addidimus (\\textbf{\\textit{b}}), ut stellas fixas ad annum 1191 post Dhū",
+     "transcription": "libro Ptolemaei signatis nos 11° 10′ (9) addidimus ({bi:b}), ut stellas fixas ad annum 1191 post Dhū",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 35,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0213-body-L033",
+     "source_line_no": 36,
+     "tex": "’l–qarnayn describeremus; nullam contra differentiam sensibilem latitudinis invenimus in multis",
+     "transcription": "’l–qarnayn describeremus; nullam contra differentiam sensibilem latitudinis invenimus in multis",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0213-body-L034",
+     "source_line_no": 37,
+     "tex": "stellis quas observavimus. Tabulas igitur confecimus (10), quibus longitudines, latitudines, pla-",
+     "transcription": "stellis quas observavimus. Tabulas igitur confecimus (10), quibus longitudines, latitudines, pla-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    }
+   ]
+  },
+  {
+   "role": "notes_left",
+   "lines": [
+    {
+     "id": "AB01-PDF0213-notes_left-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (1) Ita cod., Plato, et \\Name{aṣ-Ṣūfī}; at deberet esse",
+     "transcription": "(1) Ita cod., Plato, et {sp:aṣ-Ṣūfī}; at deberet esse",
+     "semantic_anchor": "AB01-PDF0213-N01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0213-notes_left-L002",
+     "source_line_no": null,
+     "tex": "885.",
+     "transcription": "885.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0213-notes_left-L003",
+     "source_line_no": null,
+     "tex": "\\Indent (2) \\textit{Almag.} VII, 3 (ed. Halma, t. II, p. 27).",
+     "transcription": "(2) *Almag.* VII, 3 (ed. Halma, t. II, p. 27).",
+     "semantic_anchor": "AB01-PDF0213-N02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0213-notes_left-L004",
+     "source_line_no": null,
+     "tex": "\\Indent (3) Plato 842.",
+     "transcription": "(3) Plato 842.",
+     "semantic_anchor": "AB01-PDF0213-N03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0213-notes_left-L005",
+     "source_line_no": null,
+     "tex": "\\Indent (4) Plato 2° 22′.",
+     "transcription": "(4) Plato 2° 22′.",
+     "semantic_anchor": "AB01-PDF0213-N04",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0213-notes_left-L006",
+     "source_line_no": null,
+     "tex": "\\Indent (5) Incipit die 1 Sept. 879 post Chr. natum.",
+     "transcription": "(5) Incipit die 1 Sept. 879 post Chr. natum.",
+     "semantic_anchor": "AB01-PDF0213-N05",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0213-notes_left-L007",
+     "source_line_no": null,
+     "tex": "\\Indent (6) Ita codex, ut videtur, bene; nam 5° 55′ Me-",
+     "transcription": "(6) Ita codex, ut videtur, bene; nam 5° 55′ Me-",
+     "semantic_anchor": "AB01-PDF0213-N06",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0213-notes_left-L008",
+     "source_line_no": null,
+     "tex": "nelai + 11° 50′ (cfr. infra, l. 31) = 17° 45′. Plato habet",
+     "transcription": "nelai + 11° 50′ (cfr. infra, l. 31) = 17° 45′. Plato habet",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0213-notes_left-L009",
+     "source_line_no": null,
+     "tex": "17° 20′, quod \\Name{Halley}, \\textit{Emendationes ac notae} etc.",
+     "transcription": "17° 20′, quod {sp:Halley}, *Emendationes ac notae* etc.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  },
+  {
+   "role": "notes_right",
+   "lines": [
+    {
+     "id": "AB01-PDF0213-notes_right-L001",
+     "source_line_no": null,
+     "tex": "p. 920, emendare voluit 17° 50′. — Catalogus nostri",
+     "transcription": "p. 920, emendare voluit 17° 50′. — Catalogus nostri",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0213-notes_right-L002",
+     "source_line_no": null,
+     "tex": "auctoris, fol. 232,r., praebet 17° 40′.",
+     "transcription": "auctoris, fol. 232,r., praebet 17° 40′.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0213-notes_right-L003",
+     "source_line_no": null,
+     "tex": "\\Indent (7) Plato 783.",
+     "transcription": "(7) Plato 783.",
+     "semantic_anchor": "AB01-PDF0213-N07",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0213-notes_right-L004",
+     "source_line_no": null,
+     "tex": "\\Indent (8) I. e. quotannis 54″ 33‴; vide tabulam prae-",
+     "transcription": "(8) I. e. quotannis 54″ 33‴; vide tabulam prae-",
+     "semantic_anchor": "AB01-PDF0213-N08",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0213-notes_right-L005",
+     "source_line_no": null,
+     "tex": "cessionis, in fol. 208,r. — Sed $\\dfrac{\\text{11° 50′}}{\\text{782}}$ = 54″,4757 =",
+     "transcription": "cessionis, in fol. 208,r. — Sed $\\dfrac{\\text{11° 50′}}{\\text{782}}$ = 54″,4757 =",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0213-notes_right-L006",
+     "source_line_no": null,
+     "tex": "54″ 28‴.",
+     "transcription": "54″ 28‴.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0213-notes_right-L007",
+     "source_line_no": null,
+     "tex": "\\Indent (9) Cod. et Plato 11° $\\qfrac{1}{2}$ + $\\qfrac{1}{3}$ pro 11° $\\dfrac{\\text{1}}{\\text{2}\\times\\text{3}}$.",
+     "transcription": "(9) Cod. et Plato 11° {sfrac:1/2} + {sfrac:1/3} pro 11° $\\dfrac{\\text{1}}{\\text{2}\\times\\text{3}}$.",
+     "semantic_anchor": "AB01-PDF0213-N09",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0213-notes_right-L008",
+     "source_line_no": null,
+     "tex": "\\Indent (10) Fol. 226,v. et seqq.",
+     "transcription": "(10) Fol. 226,v. et seqq.",
+     "semantic_anchor": "AB01-PDF0213-N10",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  }
+ ]
+}
