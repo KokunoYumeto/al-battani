@@ -1,0 +1,687 @@
+{
+ "anchor": "AB01-PDF0149",
+ "master_pdf_page": 149,
+ "printed_page": 60,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "margin_locators": [
+  {
+   "line_anchor": "AB01-PDF0149-body-L003",
+   "text": "p. 90."
+  },
+  {
+   "line_anchor": "AB01-PDF0149-body-L020",
+   "text": "p. 91."
+  }
+ ],
+ "observations": [
+  "body: the line numbers 5 to 30 stand in the right margin and the locators «p. 90.» (L3) and «p. 91.» (L20) in the left margin.",
+  "body L1, L2: the words from «e gradibus» to «efficiunt» are italic (the end of the interpolation of p. 59, note 6).",
+  "body L19: a low point stands after the comma that follows «EG»; it is not transcribed.",
+  "notes_left L10: the sign after the 2 is the small raised ring of the degrees, not the raised p of the parts that the text has («2 partes» is meant).",
+  "notes_right L5: the theta of «μέγεϑος» is printed in its open form.",
+  "notes_right L7: the denominator of the fraction is printed blotted; it is read as 2 by its flat foot."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0149-body-L001",
+     "source_line_no": 1,
+     "tex": "\\textit{e gradibus quorum 360 quatuor angulos rectos circuli triangulum rectangulum ADS}",
+     "transcription": "*e gradibus quorum 360 quatuor angulos rectos circuli triangulum rectangulum ADS*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0149-body-L002",
+     "source_line_no": 2,
+     "tex": "\\textit{circumdantis efficiunt} (1). Linea HG igitur, sinus anguli GNH, 0\\textsuperscript{\\textit{p}} 16′ 24″ (2) erit, et linea PQ,",
+     "transcription": "*circumdantis efficiunt* (1). Linea HG igitur, sinus anguli GNH, 0{sup:*p*} 16′ 24″ (2) erit, et linea PQ,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0149-body-L003",
+     "source_line_no": 3,
+     "tex": "sinus anguli QNP (3), 0\\textsuperscript{\\textit{p}} 42′ 35″ (4), e partibus quarum 60 linea PN (5) continentur. Sed si",
+     "transcription": "sinus anguli QNP (3), 0{sup:*p*} 42′ 35″ (4), e partibus quarum 60 linea PN (5) continentur. Sed si",
+     "semantic_anchor": null,
+     "margin_locator": "p. 90.",
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0149-body-L004",
+     "source_line_no": 4,
+     "tex": "semidiametro MN Terrae 1\\textsuperscript{\\textit{p}} tribuatur, et lineae PN, quae est distantia geocentrica Lunae,",
+     "transcription": "semidiametro MN Terrae 1{sup:*p*} tribuatur, et lineae PN, quae est distantia geocentrica Lunae,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0149-body-L005",
+     "source_line_no": 5,
+     "tex": "64\\textsuperscript{\\textit{p}} 10′, linea HG fiet 0\\textsuperscript{\\textit{p}} 17′ 33″ (6), et PQ 0\\textsuperscript{\\textit{p}} 45′ 38″; erit igitur PQ ad HG fere ut 2 $\\qfrac{3}{5}$",
+     "transcription": "64{sup:*p*} 10′, linea HG fiet 0{sup:*p*} 17′ 33″ (6), et PQ 0{sup:*p*} 45′ 38″; erit igitur PQ ad HG fere ut 2 {sfrac:3/5}",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 5,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0149-body-L006",
+     "source_line_no": 6,
+     "tex": "ad 1. Cum autem HN aequalis sit lineae PN (7), summa linearum PQ, HT (8) [duplum] lineae",
+     "transcription": "ad 1. Cum autem HN aequalis sit lineae PN (7), summa linearum PQ, HT (8) [duplum] lineae",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0149-body-L007",
+     "source_line_no": 7,
+     "tex": "MN efficiet (9). Lineam PQ vidimus 0\\textsuperscript{\\textit{p}} 45′ 38″ esse, lineam HG 0\\textsuperscript{\\textit{p}} 17′ 33″, earum summa igi-",
+     "transcription": "MN efficiet (9). Lineam PQ vidimus 0{sup:*p*} 45′ 38″ esse, lineam HG 0{sup:*p*} 17′ 33″, earum summa igi-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0149-body-L008",
+     "source_line_no": 8,
+     "tex": "tur 1\\textsuperscript{\\textit{p}} 3′ 11″ erit, de qua cum linea MN, quae est unius partis, dematur, remanebit (10) linea",
+     "transcription": "tur 1{sup:*p*} 3′ 11″ erit, de qua cum linea MN, quae est unius partis, dematur, remanebit (10) linea",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0149-body-L009",
+     "source_line_no": 9,
+     "tex": "GT (11), quae duplicitatem perficit, 0\\textsuperscript{\\textit{p}} 56′ 49″. Item erit HN (12) 0\\textsuperscript{\\textit{p}} 3′ 11″, et DH (13) 0\\textsuperscript{\\textit{p}} 56′",
+     "transcription": "GT (11), quae duplicitatem perficit, 0{sup:*p*} 56′ 49″. Item erit HN (12) 0{sup:*p*} 3′ 11″, et DH (13) 0{sup:*p*} 56′",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0149-body-L010",
+     "source_line_no": 10,
+     "tex": "49″, si tota DN 1\\textsuperscript{\\textit{p}} ponatur (14); [ipsa] DN lineam HN 18 $\\qfrac{4}{5}$ vicibus fere continebit, et iis-",
+     "transcription": "49″, si tota DN 1{sup:*p*} ponatur (14); [ipsa] DN lineam HN 18 {sfrac:4/5} vicibus fere continebit, et iis-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 10,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0149-body-L011",
+     "source_line_no": 11,
+     "tex": "dem 18 $\\qfrac{4}{5}$ vicibus circiter DA (15) lineam HG numerabit, quae est ratio DN (16) ad HN (17).",
+     "transcription": "dem 18 {sfrac:4/5} vicibus circiter DA (15) lineam HG numerabit, quae est ratio DN (16) ad HN (17).",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0149-body-L012",
+     "source_line_no": 12,
+     "tex": "\\Indent Lineam HN vidimus 64\\textsuperscript{\\textit{p}} 10′ esse, cum [MN] 1\\textsuperscript{\\textit{p}} ponatur; qua re DN, scilicet distantia",
+     "transcription": "Lineam HN vidimus 64{sup:*p*} 10′ esse, cum [MN] 1{sup:*p*} ponatur; qua re DN, scilicet distantia",
+     "semantic_anchor": "AB01-PDF0149-P01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0149-body-L013",
+     "source_line_no": 13,
+     "tex": "geocentrica Solis, semidiametrum MN Terrae fere 1210 vicibus (18) numerabit. Diametrus Solis",
+     "transcription": "geocentrica Solis, semidiametrum MN Terrae fere 1210 vicibus (18) numerabit. Diametrus Solis",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0149-body-L014",
+     "source_line_no": 14,
+     "tex": "18 $\\qfrac{4}{5}$ diametros lunares fere aequat; diametrus Terrae est fere 3 $\\qfrac{2}{5}$ vicibus maior diametro",
+     "transcription": "18 {sfrac:4/5} diametros lunares fere aequat; diametrus Terrae est fere 3 {sfrac:2/5} vicibus maior diametro",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0149-body-L015",
+     "source_line_no": 15,
+     "tex": "Lunae; qua re diametrus Solis 5 $\\qfrac{1}{2}$ diametros Terrae complectetur. — Cubus, longitudine",
+     "transcription": "Lunae; qua re diametrus Solis 5 {sfrac:1/2} diametros Terrae complectetur. — Cubus, longitudine",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 15,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0149-body-L016",
+     "source_line_no": 16,
+     "tex": "latitudine et altitudine praeditus, qui unitatem in se ipsam bis multiplicando invenitur, unitas",
+     "transcription": "latitudine et altitudine praeditus, qui unitatem in se ipsam bis multiplicando invenitur, unitas",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0149-body-L017",
+     "source_line_no": 17,
+     "tex": "est; et hic est cubus (19) Terrae. Cubus qui ex multiplicatione 5 $\\qfrac{1}{2}$ in se ipsum et deinde",
+     "transcription": "est; et hic est cubus (19) Terrae. Cubus qui ex multiplicatione 5 {sfrac:1/2} in se ipsum et deinde",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0149-body-L018",
+     "source_line_no": 18,
+     "tex": "rursus in 5 $\\qfrac{1}{2}$ oritur, est 166 $\\qfrac{3}{8}$. Cubus 18 $\\qfrac{4}{5}$ est 6644 $\\qfrac{1}{2}$ (20); cubus denique diametri lu-",
+     "transcription": "rursus in 5 {sfrac:1/2} oritur, est 166 {sfrac:3/8}. Cubus 18 {sfrac:4/5} est 6644 {sfrac:1/2} (20); cubus denique diametri lu-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0149-body-L019",
+     "source_line_no": 19,
+     "tex": "naris, scilicet lineae EG, cubo unitatis 39 $\\qfrac{1}{4}$ vicibus (21) continetur. Ergo magnitudo Solis",
+     "transcription": "naris, scilicet lineae EG, cubo unitatis 39 {sfrac:1/4} vicibus (21) continetur. Ergo magnitudo Solis",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0149-body-L020",
+     "source_line_no": 20,
+     "tex": "166 $\\qfrac{3}{8}$ vicibus magnitudinem Terrae complectitur, et 6644 $\\qfrac{1}{2}$ magnitudinem Lunae; Terra",
+     "transcription": "166 {sfrac:3/8} vicibus magnitudinem Terrae complectitur, et 6644 {sfrac:1/2} magnitudinem Lunae; Terra",
+     "semantic_anchor": null,
+     "margin_locator": "p. 91.",
+     "printed_line_number": 20,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0149-body-L021",
+     "source_line_no": 21,
+     "tex": "autem 39 $\\qfrac{1}{4}$ (22) vicibus Lunam.",
+     "transcription": "autem 39 {sfrac:1/4} (22) vicibus Lunam.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0149-body-L022",
+     "source_line_no": 22,
+     "tex": "\\Indent Item si linea MN 1\\textsuperscript{\\textit{p}} ponatur, erit PQ 0\\textsuperscript{\\textit{p}} 45′ 38″ et PN 64\\textsuperscript{\\textit{p}} 10′; itaque si tota SN 1\\textsuperscript{\\textit{p}}",
+     "transcription": "Item si linea MN 1{sup:*p*} ponatur, erit PQ 0{sup:*p*} 45′ 38″ et PN 64{sup:*p*} 10′; itaque si tota SN 1{sup:*p*}",
+     "semantic_anchor": "AB01-PDF0149-P02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0149-body-L023",
+     "source_line_no": 23,
+     "tex": "sit, eius pars PS 0\\textsuperscript{\\textit{p}} 45′ 38″ (23) erit, et linea PN, quae ad complendum gradum restat, 0\\textsuperscript{\\textit{p}} 14′",
+     "transcription": "sit, eius pars PS 0{sup:*p*} 45′ 38″ (23) erit, et linea PN, quae ad complendum gradum restat, 0{sup:*p*} 14′",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0149-body-L024",
+     "source_line_no": 24,
+     "tex": "22″ (24); [et cum] linea PS [ad PN] sit ut ratio 0\\textsuperscript{\\textit{p}} 45′ 38″ ad 0\\textsuperscript{\\textit{p}} 14′ 22″, erit linea SP 203 $\\qfrac{5}{6}$ (25)",
+     "transcription": "22″ (24); [et cum] linea PS [ad PN] sit ut ratio 0{sup:*p*} 45′ 38″ ad 0{sup:*p*} 14′ 22″, erit linea SP 203 {sfrac:5/6} (25)",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0149-body-L025",
+     "source_line_no": 25,
+     "tex": "e partibus quarum 64\\textsuperscript{\\textit{p}} 10′ linea PN complectitur. Si lineae SP linea PN addatur, tota SN,",
+     "transcription": "e partibus quarum 64{sup:*p*} 10′ linea PN complectitur. Si lineae SP linea PN addatur, tota SN,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 25,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0149-body-L026",
+     "source_line_no": 26,
+     "tex": "extremam umbram cum centro Terrae coniungens, erit 268 (26) fere vicibus ut semidiametrus",
+     "transcription": "extremam umbram cum centro Terrae coniungens, erit 268 (26) fere vicibus ut semidiametrus",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0149-body-L027",
+     "source_line_no": 27,
+     "tex": "Terrae; linea autem DS, centrum Solis (27) cum extrema umbra coniungens, 1478 vicibus",
+     "transcription": "Terrae; linea autem DS, centrum Solis (27) cum extrema umbra coniungens, 1478 vicibus",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0149-body-L028",
+     "source_line_no": 28,
+     "tex": "semidiametrum MN Terrae complectetur. Haec sunt quantitates quibus Ptolemaeus usus est.",
+     "transcription": "semidiametrum MN Terrae complectetur. Haec sunt quantitates quibus Ptolemaeus usus est.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0149-body-L029",
+     "source_line_no": 29,
+     "tex": "\\Indent Differentiam quae nobis in his rebus apparuit iam exposuimus, scilicet diametrum Lunae in",
+     "transcription": "Differentiam quae nobis in his rebus apparuit iam exposuimus, scilicet diametrum Lunae in",
+     "semantic_anchor": "AB01-PDF0149-P03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0149-body-L030",
+     "source_line_no": 30,
+     "tex": "longinquiore transitu nonnisi 0° 29′ 30″ esse, semidiametrum umbrae in longinquiore Lunae (28)",
+     "transcription": "longinquiore transitu nonnisi 0° 29′ 30″ esse, semidiametrum umbrae in longinquiore Lunae (28)",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 30,
+     "source_role": "NALLINO_TRANSLATION"
+    }
+   ]
+  },
+  {
+   "role": "notes_left",
+   "lines": [
+    {
+     "id": "AB01-PDF0149-notes_left-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (1) Ineptissima interpolatio, nisi forte QNP pro",
+     "transcription": "(1) Ineptissima interpolatio, nisi forte QNP pro",
+     "semantic_anchor": "AB01-PDF0149-N01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0149-notes_left-L002",
+     "source_line_no": null,
+     "tex": "ADS codicis et Platonis est legendum.",
+     "transcription": "ADS codicis et Platonis est legendum.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0149-notes_left-L003",
+     "source_line_no": null,
+     "tex": "\\Indent (2) Secundae apud Plat. 54″.",
+     "transcription": "(2) Secundae apud Plat. 54″.",
+     "semantic_anchor": "AB01-PDF0149-N02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0149-notes_left-L004",
+     "source_line_no": null,
+     "tex": "\\Indent (3) Cod. et Plato QSP.",
+     "transcription": "(3) Cod. et Plato QSP.",
+     "semantic_anchor": "AB01-PDF0149-N03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0149-notes_left-L005",
+     "source_line_no": null,
+     "tex": "\\Indent (4) Minuta apud Plat. 45′.",
+     "transcription": "(4) Minuta apud Plat. 45′.",
+     "semantic_anchor": "AB01-PDF0149-N04",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0149-notes_left-L006",
+     "source_line_no": null,
+     "tex": "\\Indent (5) Cod. et Plato DS.",
+     "transcription": "(5) Cod. et Plato DS.",
+     "semantic_anchor": "AB01-PDF0149-N05",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0149-notes_left-L007",
+     "source_line_no": null,
+     "tex": "\\Indent (6) Minuta in cod. 16′.",
+     "transcription": "(6) Minuta in cod. 16′.",
+     "semantic_anchor": "AB01-PDF0149-N06",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0149-notes_left-L008",
+     "source_line_no": null,
+     "tex": "\\Indent (7) Cod. PL.",
+     "transcription": "(7) Cod. PL.",
+     "semantic_anchor": "AB01-PDF0149-N07",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0149-notes_left-L009",
+     "source_line_no": null,
+     "tex": "\\Indent (8) Cod. HN.",
+     "transcription": "(8) Cod. HN.",
+     "semantic_anchor": "AB01-PDF0149-N08",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0149-notes_left-L010",
+     "source_line_no": null,
+     "tex": "\\Indent (9) I. e. 2°.",
+     "transcription": "(9) I. e. 2°.",
+     "semantic_anchor": "AB01-PDF0149-N09",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0149-notes_left-L011",
+     "source_line_no": null,
+     "tex": "\\Indent (10) Hic cod. et Plato addunt: « linea HN 0\\textsuperscript{\\textit{p}}",
+     "transcription": "(10) Hic cod. et Plato addunt: « linea HN 0{sup:*p*}",
+     "semantic_anchor": "AB01-PDF0149-N10",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0149-notes_left-L012",
+     "source_line_no": null,
+     "tex": "« 3′ 11″ et ».",
+     "transcription": "« 3′ 11″ et ».",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0149-notes_left-L013",
+     "source_line_no": null,
+     "tex": "\\Indent (11) Cod. DL, Plato DH.",
+     "transcription": "(11) Cod. DL, Plato DH.",
+     "semantic_anchor": "AB01-PDF0149-N11",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0149-notes_left-L014",
+     "source_line_no": null,
+     "tex": "\\Indent (12) Cod. et Plato HG.",
+     "transcription": "(12) Cod. et Plato HG.",
+     "semantic_anchor": "AB01-PDF0149-N12",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0149-notes_left-L015",
+     "source_line_no": null,
+     "tex": "\\Indent (13) Cod. DA; pro his Plato: « cum linea DA",
+     "transcription": "(13) Cod. DA; pro his Plato: « cum linea DA",
+     "semantic_anchor": "AB01-PDF0149-N13",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0149-notes_left-L016",
+     "source_line_no": null,
+     "tex": "« erit unius partis ».",
+     "transcription": "« erit unius partis ».",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0149-notes_left-L017",
+     "source_line_no": null,
+     "tex": "\\Indent (14) Nam DN : DH = MN : GT.",
+     "transcription": "(14) Nam DN : DH = MN : GT.",
+     "semantic_anchor": "AB01-PDF0149-N14",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  },
+  {
+   "role": "notes_right",
+   "lines": [
+    {
+     "id": "AB01-PDF0149-notes_right-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (15) Plat. DH.",
+     "transcription": "(15) Plat. DH.",
+     "semantic_anchor": "AB01-PDF0149-N15",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0149-notes_right-L002",
+     "source_line_no": null,
+     "tex": "\\Indent (16) Cod. HT, Plato NH.",
+     "transcription": "(16) Cod. HT, Plato NH.",
+     "semantic_anchor": "AB01-PDF0149-N16",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0149-notes_right-L003",
+     "source_line_no": null,
+     "tex": "\\Indent (17) Cod. HG, Plato DN.",
+     "transcription": "(17) Cod. HG, Plato DN.",
+     "semantic_anchor": "AB01-PDF0149-N17",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0149-notes_right-L004",
+     "source_line_no": null,
+     "tex": "\\Indent (18) Plato 121.",
+     "transcription": "(18) Plato 121.",
+     "semantic_anchor": "AB01-PDF0149-N18",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0149-notes_right-L005",
+     "source_line_no": null,
+     "tex": "\\Indent (19) In \\textit{Almag.} \\textgreek{τὸ στερεὸν μέγεϑος} « magnitudo",
+     "transcription": "(19) In *Almag.* τὸ στερεὸν μέγεϑος « magnitudo",
+     "semantic_anchor": "AB01-PDF0149-N19",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0149-notes_right-L006",
+     "source_line_no": null,
+     "tex": "« solida, volumen ».",
+     "transcription": "« solida, volumen ».",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0149-notes_right-L007",
+     "source_line_no": null,
+     "tex": "\\Indent (20) Plato 6655 $\\qfrac{1}{2}$.",
+     "transcription": "(20) Plato 6655 {sfrac:1/2}.",
+     "semantic_anchor": "AB01-PDF0149-N20",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0149-notes_right-L008",
+     "source_line_no": null,
+     "tex": "\\Indent (21) Cod. 49 $\\qfrac{1}{4}$; Plato: « est una pars de 495",
+     "transcription": "(21) Cod. 49 {sfrac:1/4}; Plato: « est una pars de 495",
+     "semantic_anchor": "AB01-PDF0149-N21",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0149-notes_right-L009",
+     "source_line_no": null,
+     "tex": "« 18 et quarta cubici unius ».",
+     "transcription": "« 18 et quarta cubici unius ».",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0149-notes_right-L010",
+     "source_line_no": null,
+     "tex": "\\Indent (22) Plato 49 $\\qfrac{1}{4}$.",
+     "transcription": "(22) Plato 49 {sfrac:1/4}.",
+     "semantic_anchor": "AB01-PDF0149-N22",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0149-notes_right-L011",
+     "source_line_no": null,
+     "tex": "\\Indent (23) Partes apud Plat. 8\\textsuperscript{\\textit{p}}.",
+     "transcription": "(23) Partes apud Plat. 8{sup:*p*}.",
+     "semantic_anchor": "AB01-PDF0149-N23",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0149-notes_right-L012",
+     "source_line_no": null,
+     "tex": "\\Indent (24) Secundae apud Plat. 55″. — Est SN : PS =",
+     "transcription": "(24) Secundae apud Plat. 55″. — Est SN : PS =",
+     "semantic_anchor": "AB01-PDF0149-N24",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0149-notes_right-L013",
+     "source_line_no": null,
+     "tex": "MN : PQ.",
+     "transcription": "MN : PQ.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0149-notes_right-L014",
+     "source_line_no": null,
+     "tex": "\\Indent (25) Plato 503 $\\qfrac{5}{6}$.",
+     "transcription": "(25) Plato 503 {sfrac:5/6}.",
+     "semantic_anchor": "AB01-PDF0149-N25",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0149-notes_right-L015",
+     "source_line_no": null,
+     "tex": "\\Indent (26) Plato 568.",
+     "transcription": "(26) Plato 568.",
+     "semantic_anchor": "AB01-PDF0149-N26",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0149-notes_right-L016",
+     "source_line_no": null,
+     "tex": "\\Indent (27) Cod. « Terrae ».",
+     "transcription": "(27) Cod. « Terrae ».",
+     "semantic_anchor": "AB01-PDF0149-N27",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0149-notes_right-L017",
+     "source_line_no": null,
+     "tex": "\\Indent (28) Cod. « Solis ».",
+     "transcription": "(28) Cod. « Solis ».",
+     "semantic_anchor": "AB01-PDF0149-N28",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  }
+ ]
+}
