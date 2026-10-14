@@ -1,0 +1,497 @@
+{
+ "anchor": "AB01-PDF0235",
+ "master_pdf_page": 235,
+ "printed_page": 146,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "margin_locators": [
+  {
+   "line_anchor": "AB01-PDF0235-body-L007",
+   "text": "p. 220."
+  },
+  {
+   "line_anchor": "AB01-PDF0235-body-L028",
+   "text": "p. 221."
+  }
+ ],
+ "observations": [
+  "body: the line numbers 5 to 40 stand in the right margin and the locators «p. 220.» (L7, beside the head of C) and «p. 221.» (L28) in the left margin; in both locators the 2s are printed blotted. The count of the lines runs through the spaces and the head of C: 10 stands beside the first line of the title.",
+  "body L7-L9: the head C is set in a larger bold type, the title in a larger type, both centred.",
+  "body L2: a short stroke rises from the last e of «quaere,» like an acute; it is not an accent.",
+  "body L28: a blot joins the tops of the a and the first n of «repertis annum».",
+  "notes_right L1: «cfr. cap. XXXII, p. 67, adn. 1.» is printed with thin spaces.",
+  "body L38: the dash of «sem al-muḥarram» measures 4.4 pt, between the hyphen of L22 (3.4 pt) and the longer dash of the other lines (5.3 to 5.5 pt); it is transcribed as a hyphen."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0235-body-L001",
+     "source_line_no": 1,
+     "tex": "summa quoties potes 28 deme (1), ita ut residuum sit 28 aut minus quam 28; residuum in",
+     "transcription": "summa quoties potes 28 deme (1), ita ut residuum sit 28 aut minus quam 28; residuum in",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0235-body-L002",
+     "source_line_no": 2,
+     "tex": "tabula annorum Romanorum singulorum quaere, et numerus ei in columna mensis quaesiti",
+     "transcription": "tabula annorum Romanorum singulorum quaere, et numerus ei in columna mensis quaesiti",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0235-body-L003",
+     "source_line_no": 3,
+     "tex": "respondens erit signum illius mensis Romani. Hoc signum a die dominica proiice; numerus",
+     "transcription": "respondens erit signum illius mensis Romani. Hoc signum a die dominica proiice; numerus",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0235-body-L004",
+     "source_line_no": 4,
+     "tex": "ita proveniens erit nomen primi diei mensis (2). — Primus dies aylūl (3) est initium anni. —",
+     "transcription": "ita proveniens erit nomen primi diei mensis (2). — Primus dies aylūl (3) est initium anni. —",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0235-body-L005",
+     "source_line_no": 5,
+     "tex": "Annus bisextilis cognoscitur e nota quam a latere mensis subāṭ posita est; volente Deo, quartus",
+     "transcription": "Annus bisextilis cognoscitur e nota quam a latere mensis subāṭ posita est; volente Deo, quartus",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 5,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0235-body-L006",
+     "source_line_no": 6,
+     "tex": "quisque annus bisextilis est (\\textbf{\\textit{a}}).",
+     "transcription": "quisque annus bisextilis est ({bi:a}).",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0235-body-L007",
+     "source_line_no": 8,
+     "tex": "\\CenterLine{\\textbf{C.}}",
+     "transcription": "**C.**",
+     "semantic_anchor": "AB01-PDF0235-H07",
+     "margin_locator": "p. 220.",
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0235-body-L008",
+     "source_line_no": 10,
+     "tex": "\\CenterLine{Caput de inveniendis per has tabulas aeris Arabum et Romanorum}",
+     "transcription": "Caput de inveniendis per has tabulas aeris Arabum et Romanorum",
+     "semantic_anchor": "AB01-PDF0235-H08",
+     "margin_locator": null,
+     "printed_line_number": 10,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0235-body-L009",
+     "source_line_no": 11,
+     "tex": "\\CenterLine{altera ex altera.}",
+     "transcription": "altera ex altera.",
+     "semantic_anchor": "AB01-PDF0235-H09",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0235-body-L010",
+     "source_line_no": 13,
+     "tex": "\\Indent Dicit [auctor]: Si ab aera hegirae aeram Romanorum cognoscere vis, tuos annos Arabicos",
+     "transcription": "Dicit [auctor]: Si ab aera hegirae aeram Romanorum cognoscere vis, tuos annos Arabicos",
+     "semantic_anchor": "AB01-PDF0235-P01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0235-body-L011",
+     "source_line_no": 14,
+     "tex": "quaere in prima columna annorum hegirae, et sume quod iis respondet ex annis, mensibus",
+     "transcription": "quaere in prima columna annorum hegirae, et sume quod iis respondet ex annis, mensibus",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0235-body-L012",
+     "source_line_no": 15,
+     "tex": "et diebus Romanis in columna quae « anni Dhū ’l–qarnayn » inscribitur (4); habebis annos, men-",
+     "transcription": "et diebus Romanis in columna quae « anni Dhū ’l–qarnayn » inscribitur (4); habebis annos, men-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 15,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0235-body-L013",
+     "source_line_no": 16,
+     "tex": "ses et dies aerae Dhū ’l–qarnayn transactos usque ad primum diem mensis al–muḥarram anni",
+     "transcription": "ses et dies aerae Dhū ’l–qarnayn transactos usque ad primum diem mensis al–muḥarram anni",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0235-body-L014",
+     "source_line_no": 17,
+     "tex": "Arabici in quo es. [Hoc anni initium] in quem hebdomadae diem incidat ita cognosce: Nume-",
+     "transcription": "Arabici in quo es. [Hoc anni initium] in quem hebdomadae diem incidat ita cognosce: Nume-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0235-body-L015",
+     "source_line_no": 18,
+     "tex": "rum dierum hebdomadae qui, in columna « initio al–muḥarram » inscripta, respondet numero",
+     "transcription": "rum dierum hebdomadae qui, in columna « initio al–muḥarram » inscripta, respondet numero",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0235-body-L016",
+     "source_line_no": 19,
+     "tex": "tui anni hegirae sume; ipse erit dies transactus mensis Romani iam in tabula reperti, et cum",
+     "transcription": "tui anni hegirae sume; ipse erit dies transactus mensis Romani iam in tabula reperti, et cum",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0235-body-L017",
+     "source_line_no": 20,
+     "tex": "chronologia in initio libri descripta conveniet.",
+     "transcription": "chronologia in initio libri descripta conveniet.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 20,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0235-body-L018",
+     "source_line_no": 21,
+     "tex": "\\Indent Si alium mensem Romanum vis, initium tui mensis Arabici vide in quem hebdomadae",
+     "transcription": "Si alium mensem Romanum vis, initium tui mensis Arabici vide in quem hebdomadae",
+     "semantic_anchor": "AB01-PDF0235-P02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0235-body-L019",
+     "source_line_no": 22,
+     "tex": "diem incidat: scilicet numero dierum per quos initium al–muḥarram cognovisti, adde signum",
+     "transcription": "diem incidat: scilicet numero dierum per quos initium al–muḥarram cognovisti, adde signum",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0235-body-L020",
+     "source_line_no": 23,
+     "tex": "mensis Arabici dati, quod in tabula signorum mensium Arabum invenitur; summa numerum 7",
+     "transcription": "mensis Arabici dati, quod in tabula signorum mensium Arabum invenitur; summa numerum 7",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0235-body-L021",
+     "source_line_no": 24,
+     "tex": "excedente, 7 de ea deme; residuum a die dominica proiice, et habebis primum diem mensis",
+     "transcription": "excedente, 7 de ea deme; residuum a die dominica proiice, et habebis primum diem mensis",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0235-body-L022",
+     "source_line_no": 25,
+     "tex": "Arabici dati. Huius mensis dies elapsos cognosce; postea ab initio al-muḥarram usque ad",
+     "transcription": "Arabici dati. Huius mensis dies elapsos cognosce; postea ab initio al-muḥarram usque ad",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 25,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0235-body-L023",
+     "source_line_no": 26,
+     "tex": "diem datam procedens, numera dies mensium praeteritorum, alteri mensi 30 dies, alteri 29",
+     "transcription": "diem datam procedens, numera dies mensium praeteritorum, alteri mensi 30 dies, alteri 29",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0235-body-L024",
+     "source_line_no": 27,
+     "tex": "tribuens; de horum dierum summa, una cum diebus mensis tantum incepti collecta, diem",
+     "transcription": "tribuens; de horum dierum summa, una cum diebus mensis tantum incepti collecta, diem",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0235-body-L025",
+     "source_line_no": 28,
+     "tex": "deme; residuo adde dies quos in tabula iam e mense Romano elapsisse inveneras. Hanc sum-",
+     "transcription": "deme; residuo adde dies quos in tabula iam e mense Romano elapsisse inveneras. Hanc sum-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0235-body-L026",
+     "source_line_no": 29,
+     "tex": "mam ab initio illius mensis Romani proiice, singulis mensibus dies ipsorum tribuens; dies mensis",
+     "transcription": "mam ab initio illius mensis Romani proiice, singulis mensibus dies ipsorum tribuens; dies mensis",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0235-body-L027",
+     "source_line_no": 30,
+     "tex": "ad quem pervenies erit dies in quo es e mense Romano anni Dhū ’l–qarnayn in tabula re-",
+     "transcription": "ad quem pervenies erit dies in quo es e mense Romano anni Dhū ’l–qarnayn in tabula re-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 30,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0235-body-L028",
+     "source_line_no": 31,
+     "tex": "perti; sed si aylūl iam incepisse invenis, annis Dhū ’l–qarnayn in tabula repertis annum adde.",
+     "transcription": "perti; sed si aylūl iam incepisse invenis, annis Dhū ’l–qarnayn in tabula repertis annum adde.",
+     "semantic_anchor": null,
+     "margin_locator": "p. 221.",
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0235-body-L029",
+     "source_line_no": 32,
+     "tex": "Si annus est bisextilis, mensi subāṭ 29 dies tribue; annus bisextilis autem a notis positis in",
+     "transcription": "Si annus est bisextilis, mensi subāṭ 29 dies tribue; annus bisextilis autem a notis positis in",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0235-body-L030",
+     "source_line_no": 33,
+     "tex": "tabula signorum mensium Romanorum cognoscitur.",
+     "transcription": "tabula signorum mensium Romanorum cognoscitur.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0235-body-L031",
+     "source_line_no": 34,
+     "tex": "\\Indent Similiter ab aera Romana deprehendes diem mensis et anni Arabici in quo es. In hac",
+     "transcription": "Similiter ab aera Romana deprehendes diem mensis et anni Arabici in quo es. In hac",
+     "semantic_anchor": "AB01-PDF0235-P03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0235-body-L032",
+     "source_line_no": 35,
+     "tex": "tabula, e columna annorum Dhū ’l–qarnayn cognosce quot dies mensis Romani transierint,",
+     "transcription": "tabula, e columna annorum Dhū ’l–qarnayn cognosce quot dies mensis Romani transierint,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 35,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0235-body-L033",
+     "source_line_no": 36,
+     "tex": "nam in ultimum diem elapsum incidet initium al–muḥarram tui anni hegirae. Postea dies resi-",
+     "transcription": "nam in ultimum diem elapsum incidet initium al–muḥarram tui anni hegirae. Postea dies resi-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0235-body-L034",
+     "source_line_no": 37,
+     "tex": "duos illius mensis Romani accipe, et iis adde dies elapsos post eum mensem usque ad diem",
+     "transcription": "duos illius mensis Romani accipe, et iis adde dies elapsos post eum mensem usque ad diem",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0235-body-L035",
+     "source_line_no": 38,
+     "tex": "datam; huic summae diem semper tanquam radicem praeteritam (5) adde. Quod ita provenit,",
+     "transcription": "datam; huic summae diem semper tanquam radicem praeteritam (5) adde. Quod ita provenit,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0235-body-L036",
+     "source_line_no": 39,
+     "tex": "ab initio al–muḥarram proiice, singulis hegirae mensibus dies ipsorum tribuens; et dies ad",
+     "transcription": "ab initio al–muḥarram proiice, singulis hegirae mensibus dies ipsorum tribuens; et dies ad",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0235-body-L037",
+     "source_line_no": 40,
+     "tex": "quem pervenies erit dies quaesitus ex anno Arabico in tabula invento; sed si numerando men-",
+     "transcription": "quem pervenies erit dies quaesitus ex anno Arabico in tabula invento; sed si numerando men-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 40,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0235-body-L038",
+     "source_line_no": 41,
+     "tex": "sem al-muḥarram iam uno saltem die incepisse invenis, annis hegirae e tabula depromptis",
+     "transcription": "sem al-muḥarram iam uno saltem die incepisse invenis, annis hegirae e tabula depromptis",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0235-body-L039",
+     "source_line_no": 42,
+     "tex": "annum adde. Hoc calculo, si Deus vult, utendum est.",
+     "transcription": "annum adde. Hoc calculo, si Deus vult, utendum est.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    }
+   ]
+  },
+  {
+   "role": "notes_left",
+   "lines": [
+    {
+     "id": "AB01-PDF0235-notes_left-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (1) In hac aera 28 annis perfectis, signa men-",
+     "transcription": "(1) In hac aera 28 annis perfectis, signa men-",
+     "semantic_anchor": "AB01-PDF0235-N01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0235-notes_left-L002",
+     "source_line_no": null,
+     "tex": "sium eodem ordine reveniunt.",
+     "transcription": "sium eodem ordine reveniunt.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0235-notes_left-L003",
+     "source_line_no": null,
+     "tex": "\\Indent (2) Cfr. tabulam fol. 158,r.",
+     "transcription": "(2) Cfr. tabulam fol. 158,r.",
+     "semantic_anchor": "AB01-PDF0235-N02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  },
+  {
+   "role": "notes_right",
+   "lines": [
+    {
+     "id": "AB01-PDF0235-notes_right-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (3) I. e. Septembris; cfr. cap. XXXII, p. 67, adn. 1.",
+     "transcription": "(3) I. e. Septembris; cfr. cap. XXXII, p. 67, adn. 1.",
+     "semantic_anchor": "AB01-PDF0235-N03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0235-notes_right-L002",
+     "source_line_no": null,
+     "tex": "\\Indent (4) F. 158,v. et seqq.",
+     "transcription": "(4) F. 158,v. et seqq.",
+     "semantic_anchor": "AB01-PDF0235-N04",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0235-notes_right-L003",
+     "source_line_no": null,
+     "tex": "\\Indent (5) Cfr. pag. 145, adn. 6.",
+     "transcription": "(5) Cfr. pag. 145, adn. 6.",
+     "semantic_anchor": "AB01-PDF0235-N05",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  }
+ ]
+}
