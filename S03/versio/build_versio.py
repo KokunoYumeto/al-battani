@@ -15,8 +15,8 @@ Transcription format (UTF-8; one printed line per source line, as printed, with 
   @blank                 the page is blank
   @verse H1 | H2         an Arabic verse, its two hemistichs in reading order (the first is set on the right)
   @ar [R=MM] TEXT        a line of an Arabic paragraph in reading order, set right to left and justified across
-                         the measure (R=MM: the first line, indented MM from the right margin); {sup:..}
-                         inside it is a raised note number or asterisk
+                         the measure (R=MM: the first line, indented MM from the right margin; END: the last
+                         line, set from the right margin); {sup:..} inside it is a raised note number or asterisk
   @rulel MM [PT]         a rule MM long at the left margin, on a line of its own (PT thick, default .4)
   @calc L | S | A | B | C | T   a line of a worked computation: label, sign, three numbers, tail (fixed columns;
                          a label beginning with > is set flush right); @calcrule the rule under the numbers;
@@ -863,9 +863,12 @@ def section(items, prefix, role, numbered):
             elif kind == "ar":  # a line of an Arabic paragraph, justified right to left across the measure
                 m_ = re.match(r"^R=([\d.]+)\s+(.*)$", src)
                 ind, src = (m_.group(1), m_.group(2)) if m_ else (None, src)
+                last = src.startswith("END ")  # the last line of the paragraph: set from the right, not justified
+                if last:
+                    src = src[4:]
                 body = re.sub(r"\{sup:([^}]*)\}", r"\\textsuperscript{\1}", src)
                 # smashed: the lines stand at the leading of the block (@fontsize), as printed, whatever their marks
-                tex = (r"\smash{\makebox[\linewidth][s]{\textarabic{" + body + "}"
+                tex = (r"\smash{\makebox[\linewidth][" + ("r" if last else "s") + r"]{\textarabic{" + body + "}"
                        + (r"\hspace*{" + ind + "mm}" if ind else "") + "}}")
             elif kind == "calc":
                 tex = calc_tex(src)
