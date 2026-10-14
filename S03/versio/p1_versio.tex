@@ -1,0 +1,144 @@
+\documentclass[11pt]{article}
+\usepackage[paperwidth=220mm,paperheight=320mm,left=16mm,right=16mm,top=18mm,bottom=18mm,headheight=16pt,headsep=10pt,footskip=14pt]{geometry}
+\usepackage{fix-cm}
+\usepackage{fontspec,amsmath,amssymb,graphicx,array,multirow,tikz}
+\usetikzlibrary{decorations.pathreplacing}
+\usepackage[unicode,hidelinks]{hyperref}
+\usepackage{polyglossia}
+\setmainlanguage{latin}
+\setotherlanguages{arabic,greek,hebrew,syriac}
+\setmainfont{Linux Libertine O}[Ligatures=TeX]
+\setsansfont{Linux Biolinum O}[Ligatures=TeX]
+\newfontfamily\greekfont{FreeSerif}[Script=Greek]
+\newfontfamily\arabicfont{Amiri}[Script=Arabic]
+\newfontfamily\hebrewfont{Frank Ruhl Hofshi}[Script=Hebrew]
+\newfontfamily\syriacfont{Segoe UI Historic}[Script=Syriac]
+\newfontfamily\CapFont{Noto Serif}
+\newfontfamily\MoonFont{FreeSerif}
+\newcommand{\MoonSym}{\text{\MoonFont ☾}}\newcommand{\SunSym}{\text{\MoonFont ⊙}}
+\newfontfamily\EthiopicFont{Ebrima}
+\newcommand{\textethiopic}[1]{{\EthiopicFont #1}}
+\newfontfamily\NallinoSigns{NallinoSigns.otf}[Path=./fonts/]
+\newcommand{\AbjadZero}{{\NallinoSigns\symbol{"E000}}}
+\hypersetup{pdftitle={Al-Battani, Opus astronomicum. Nallino, versio Latina et adnotationes (Pars I). S03},pdfauthor={Al-Battani; Carlo Alfonso Nallino (Latin translation and notes)}}
+\makeatletter
+\def\ps@sourceedition{%
+\def\@oddhead{\vbox{\hbox to\textwidth{\fontsize{8}{10}\selectfont C. A. NALLINO — VERSIO ET ADNOTATIONES\hfil\leftmark}\vskip3pt\hrule height.25pt}}%
+\let\@evenhead\@oddhead
+\def\@oddfoot{\hbox to\textwidth{\fontsize{7}{9}\selectfont\rightmark\hfil\thepage}}%
+\let\@evenfoot\@oddfoot}
+\makeatother
+\pagestyle{sourceedition}
+\setlength{\parindent}{0pt}\setlength{\parskip}{0pt}
+\newcommand{\BeginSource}[2]{\clearpage\markboth{PAG. #2}{#1}\hypertarget{#1}{}\pdfbookmark[0]{#1 — p. #2}{bk-#1}\fontsize{11.1}{13.8}\selectfont}
+\tracinglostchars=2
+\newcommand{\Name}[1]{{\addfontfeatures{LetterSpace=4.0}#1}}
+\newcommand{\Indent}{\hspace*{1.6em}}
+% an Arabic run inside a Latin line: its descenders do not open the line (the printed lines are evenly spaced)
+\newcommand{\ArabicRun}[1]{\smash[b]{\textarabic{#1}}}
+\newcommand{\qfrac}[2]{{}^{#1}\!/_{{#2}}}
+\newcommand{\sa}{\textsuperscript{\textit{a}}}\newcommand{\sm}{\textsuperscript{\textit{m}}}\newcommand{\sd}{\textsuperscript{\textit{d}}}
+\newcommand{\RawBlock}[1]{\par\vspace{3pt}\noindent#1\par\vspace{3pt}}
+\newcommand{\CenterLine}[1]{\makebox[\linewidth][c]{#1}}
+\newlength{\FullSourceWidth}\newlength{\GutterOffset}\newif\ifNumbersLeft
+\newcommand{\DSource}[2]{\BeginSource{AB01-PDF#1}{#2}%
+ \setlength{\FullSourceWidth}{\textwidth}\setlength{\GutterOffset}{0pt}%
+ \ifodd#2\relax\NumbersLefttrue\else\NumbersLeftfalse\fi}
+\newsavebox{\DLBox}
+\newcommand{\DLine}[4]{%
+ \par\noindent\hypertarget{#1}{}%
+ \ifx\relax#2\relax\else
+   \ifNumbersLeft
+    \rlap{\kern-\GutterOffset\llap{\fontsize{7}{8}\selectfont #2\hspace{3mm}}}%
+   \else
+    \rlap{\kern\dimexpr\FullSourceWidth-\GutterOffset\relax\hspace{3mm}{\fontsize{7}{8}\selectfont #2}}%
+   \fi
+ \fi
+ \ifx\relax#3\relax\else
+   \ifNumbersLeft
+    \rlap{\kern\dimexpr\FullSourceWidth-\GutterOffset\relax\hspace{3mm}{\fontsize{7}{8}\selectfont #3}}%
+   \else
+    \rlap{\kern-\GutterOffset\llap{\fontsize{7}{8}\selectfont #3\hspace{3mm}}}%
+   \fi
+ \fi
+ \sbox{\DLBox}{\strut #4}%
+ \ifdim\wd\DLBox>\linewidth\typeout{DIPLOMATICWIDTH|#1|\the\wd\DLBox|\the\linewidth}\fi
+ \usebox{\DLBox}\strut\par}
+\begin{document}
+\thispagestyle{empty}
+\begin{center}\Large AL-BATTĀNĪ\par\vspace{4mm}\LARGE OPUS ASTRONOMICUM\par
+\vspace{5mm}\large Caroli Alphonsi Nallino versio Latina et adnotationes (pars I)\par\vspace{8mm}
+\Large S03 --- editio diplomatica\par\vspace{4mm}\large Paginae impressae 110--110\end{center}
+\vspace{12mm}\noindent Singulae lineae paginarum impressarum singulis lineis huius editionis respondent, cum
+divisionibus vocabulorum, signis et generibus litterarum (rectis, inclinatis, distantibus). Numeri linearum et
+paginae textus Arabici in marginibus stant ut impressi sunt. Textus ex imaginibus paginarum transcriptus est;
+litterae Graecae et Arabicae, numeri et signa in imaginibus amplificatis lecta sunt.
+Haec transcriptio a nullo homine recognita est.\par
+\DSource{0199}{110}
+\DLine{AB01-PDF0199-body-L001}{}{}{latitudinis Lunae numera; ad gradum horizontis ad quem ita pervenies, obscuritas tendet.}
+\DLine{AB01-PDF0199-body-L002}{}{}{Scilicet, exstante Sole ab occidente, numerare incipies ab azimuth gradus occidentis; exstante}
+\DLine{AB01-PDF0199-body-L003}{}{}{vero Sole in parte orientali, ab azimuth gradus ascendentis inchoabis.}
+\hypertarget{AB01-PDF0199-P01}{}
+\DLine{AB01-PDF0199-body-L004}{}{}{\Indent Si per tabulas, modo veritati propinquo, eclipses Solis cognoscere vis, cum Solem deficere}
+\DLine{AB01-PDF0199-body-L005}{5}{}{scias aut saltem deficere posse, quantum in tua urbe horae aequinoctiales verae coniunctionis}
+\DLine{AB01-PDF0199-body-L006}{}{}{a tempore meridiano distent hoc modo deprehende. Horas coniunctionis in horas tui loci con-}
+\DLine{AB01-PDF0199-body-L007}{}{}{verte; eas de 24 horis deme, si coniunctio est antemeridiana, aut eas serva, si coniunctio post}
+\DLine{AB01-PDF0199-body-L008}{}{}{meridiem evenit usque ad occasum Solis. Habebis distantiam horarum coniunctionis a linea}
+\DLine{AB01-PDF0199-body-L009}{}{}{meridiana. Per eam in tabulis parallaxium Lunae in climatibus (1) cognosce parallaxim lunarem}
+\DLine{AB01-PDF0199-body-L010}{10}{}{longitudinis, ut postea scias parallaxim correctam ad gradum in quo Luna reperitur per quar-}
+\DLine{AB01-PDF0199-body-L011}{}{}{tam (2) columnam tabulae correctionis (3). Parallaxim correctam divide per motum horarium}
+\DLine{AB01-PDF0199-body-L012}{}{}{Lunae; exibunt horae primae parallaxis, quas ab horis verae coniunctionis deme vel iis adde,}
+\DLine{AB01-PDF0199-body-L013}{}{}{prout Luna minus vel magis quam 90° ab ascendente distat. — Earum distantiam a meridie}
+\DLine{AB01-PDF0199-body-L014}{}{}{iterum sume; per eam deprehende parallaxim Lunae in longitudine, correctam quarta (4) co-}
+\DLine{AB01-PDF0199-body-L015}{15}{p. 167.}{lumna tabulae correctionis; haec erit secunda parallaxis, quam per praecessionem Lunae [re-}
+\DLine{AB01-PDF0199-body-L016}{}{}{spectu Solis] divide, ut horas secundae parallaxis habeas. Eas ab horis verae coniunctionis}
+\DLine{AB01-PDF0199-body-L017}{}{}{deme, aut iis adde, prout distantia coniunctionis scilicet gradus Lunae ab ascendente minor}
+\DLine{AB01-PDF0199-body-L018}{}{}{aut maior quam 90° est. — Earum distantiam a meridie tertia vice sume; per eam cognosce}
+\DLine{AB01-PDF0199-body-L019}{}{}{parallaxim correctam gradus Lunae in longitudine; quae si ut secunda parallaxis est, horae}
+\DLine{AB01-PDF0199-body-L020}{20}{}{verae coniunctionis, post additas vel demptas horas secundae parallaxis, sunt horae medii ecli-}
+\DLine{AB01-PDF0199-body-L021}{}{}{psis. — At si tertia parallaxis secundam superat, earum differentiam observa. Postea sextantem}
+\DLine{AB01-PDF0199-body-L022}{}{}{horae adde horis distantiae coniunctionis a meridie, quas per secundam parallaxim inveneras;}
+\DLine{AB01-PDF0199-body-L023}{}{}{hac summa cognita, inveni, ut soles, parallaxim longitudinis correctam gradus Lunae. Quan-}
+\DLine{AB01-PDF0199-body-L024}{}{}{titatem qua haec superat secundam parallaxim, multiplica in sex, et productum de praecessione}
+\DLine{AB01-PDF0199-body-L025}{25}{}{horaria Lunae [respectu Solis] (5) deme; remanet motus aequatus, per quem divide \textit{differen-}}
+\DLine{AB01-PDF0199-body-L026}{}{}{\textit{tiam inter tertiam et secundam parallaxim, quam te servare iussi} (6). Exibit pars horae;}
+\DLine{AB01-PDF0199-body-L027}{}{}{eam adde horis secundae parallaxis, et habebis horas praecisas (7). — Denique si tertia paralla-}
+\DLine{AB01-PDF0199-body-L028}{}{}{xis est secunda minor, earum differentiam in 6 multiplicatam adde praecessioni Lunae; habebis}
+\DLine{AB01-PDF0199-body-L029}{}{}{motum aequatum, per quem divide differentiam duarum parallaxium. Exibit pars horae, quam}
+\DLine{AB01-PDF0199-body-L030}{30}{}{ab horis secundae parallaxis deme, ut horas praecisas habeas.}
+\hypertarget{AB01-PDF0199-P02}{}
+\DLine{AB01-PDF0199-body-L031}{}{}{\Indent Horas praecisas parallaxis separatim multiplica in motum inaequalem Lunae et motum}
+\DLine{AB01-PDF0199-body-L032}{}{}{inaequalem Solis in ea hora; ambo producta serva. Si tunc Luna ab ascendente minus quam}
+\DLine{AB01-PDF0199-body-L033}{}{}{90° distat, horas praecisas secundae parallaxis deme de horis verae coniunctionis, motum Solis}
+\DLine{AB01-PDF0199-body-L034}{}{}{eo [temporis] spatio de loco coniunctionis, denique motum Lunae de loco coniunctionis, de}
+\DLine{AB01-PDF0199-body-L035}{35}{}{anomalia Lunae et de motu latitudinis; at de motu latitudinis eum cum motu nodi [borealis]}
+\DLine{AB01-PDF0199-body-L036}{}{}{in horis secundae parallaxis detrahe. Si contra Luna ab ascendente magis quam 90° distat,}
+\DLine{AB01-PDF0199-body-L037}{}{}{additionem pro subductione adhibe. — Habebis horas medii eclipsis, locum Solis, locum Lu-}
+\DLine{AB01-PDF0199-body-L038}{}{}{nae, anomaliam Lunae et motum latitudinis, omnia correcta ad medium eclipsis.}
+\par\vspace{6pt}\nointerlineskip\hbox to\textwidth{\hss\vrule width 115.43pt height.25pt depth0pt\hss}\prevdepth=-1000pt \vspace{5pt}
+\noindent\begin{minipage}[t]{.48\textwidth}\vspace{0pt}\fontsize{9}{11.5}\selectfont\setlength{\GutterOffset}{0pt}\setlength{\FullSourceWidth}{\linewidth}
+\hypertarget{AB01-PDF0199-N01}{}
+\DLine{AB01-PDF0199-notes_left-L001}{}{}{\Indent (1) Fol. 198,v. et seqq.}
+\hypertarget{AB01-PDF0199-N02}{}
+\DLine{AB01-PDF0199-notes_left-L002}{}{}{\Indent (2) Ita cod. et Plato, sed addendum « et quin-}
+\DLine{AB01-PDF0199-notes_left-L003}{}{}{« tam » ut ex regulis cap. XXXIX, pag. 83 patet.}
+\hypertarget{AB01-PDF0199-N03}{}
+\DLine{AB01-PDF0199-notes_left-L004}{}{}{\Indent (3) Fol. 195,r. — Quae usque ad pag. 111, l. 6,}
+\DLine{AB01-PDF0199-notes_left-L005}{}{}{sequuntur sunt iam uberius in pag. 104, l. 21—p. 106,}
+\DLine{AB01-PDF0199-notes_left-L006}{}{}{l. 22 exposita. Sed auctor nunc vult tabularum usum}
+\DLine{AB01-PDF0199-notes_left-L007}{}{}{explicare.}
+\end{minipage}
+\hfill\vrule width.3pt\hfill\begin{minipage}[t]{.48\textwidth}\vspace{0pt}\fontsize{9}{11.5}\selectfont\setlength{\GutterOffset}{0pt}\setlength{\FullSourceWidth}{\linewidth}
+\hypertarget{AB01-PDF0199-N04}{}
+\DLine{AB01-PDF0199-notes_right-L001}{}{}{\Indent (4) Adde, ut supra dixi, « et quinta ».}
+\hypertarget{AB01-PDF0199-N05}{}
+\DLine{AB01-PDF0199-notes_right-L002}{}{}{\Indent (5) I. e. de motu synodico (vel relativo) horario}
+\DLine{AB01-PDF0199-notes_right-L003}{}{}{Lunae.}
+\hypertarget{AB01-PDF0199-N06}{}
+\DLine{AB01-PDF0199-notes_right-L004}{}{}{\Indent (6) Vide quae de locis parallelis pag. 105, l. 24}
+\DLine{AB01-PDF0199-notes_right-L005}{}{}{et 34, disseritur in adnot. \textbf{\textit{a}}.}
+\hypertarget{AB01-PDF0199-N07}{}
+\DLine{AB01-PDF0199-notes_right-L006}{}{}{\Indent (7) Vel aequatas, ut in loco parallelo pag. 105,}
+\DLine{AB01-PDF0199-notes_right-L007}{}{}{l. 37 sqq., legitur.}
+\end{minipage}
+\end{document}
