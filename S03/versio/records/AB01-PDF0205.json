@@ -1,0 +1,624 @@
+{
+ "anchor": "AB01-PDF0205",
+ "master_pdf_page": 205,
+ "printed_page": 116,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "margin_locators": [
+  {
+   "line_anchor": "AB01-PDF0205-body-L016",
+   "text": "p. 176."
+  }
+ ],
+ "observations": [
+  "body: the line numbers 5 to 25 stand in the right margin and the locator «p. 176.» (L16) in the left margin.",
+  "body L3: the upper dot of the semicolon after «est» is printed faint.",
+  "body L22: «gradibns» is printed so, with an n for the u; kept as printed.",
+  "body L24: the letter of the reference (b) is bold italic.",
+  "notes_left L9: the volume of Halma's Almagest is printed «t. I» here; notes 1 and 5 cite book XIII in volume II; kept as printed.",
+  "notes_right L6: يج (13) and يح (18) are the minutes in Arabic letters, each a tooth joined to the jīm or the ḥā'; the two dots of the yā' are printed joined into one short bar under each.",
+  "notes_right L8-L9: the Greek is set in a smaller type. In «βοῤῤᾶν» each rho is printed with a breathing of the same form as the smooth breathing of «ἀνιέναι»; kept as printed."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0205-body-L001",
+     "source_line_no": 1,
+     "tex": "respondentia. Quota pars ex 60 alter locus sit vide, et partem proportionalem ex obliquitate",
+     "transcription": "respondentia. Quota pars ex 60 alter locus sit vide, et partem proportionalem ex obliquitate",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0205-body-L002",
+     "source_line_no": 2,
+     "tex": "sume; habebis secundam latitudinem. Si numerus, ad quem minuta reperisti, in superiorem",
+     "transcription": "sume; habebis secundam latitudinem. Si numerus, ad quem minuta reperisti, in superiorem",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0205-body-L003",
+     "source_line_no": 3,
+     "tex": "[tabulae] medietatem incidit, et anomalia aequata minor 180 gradibus est; secunda latitudo",
+     "transcription": "[tabulae] medietatem incidit, et anomalia aequata minor 180 gradibus est; secunda latitudo",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0205-body-L004",
+     "source_line_no": 4,
+     "tex": "est borealis (1); si anomalia 180° superat, latitudo est australis (2). Si autem numerus in infe-",
+     "transcription": "est borealis (1); si anomalia 180° superat, latitudo est australis (2). Si autem numerus in infe-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0205-body-L005",
+     "source_line_no": 5,
+     "tex": "riorem medietatem incidit, et anomalia aequata minor 180° est, latitudinem australem (3) ha-",
+     "transcription": "riorem medietatem incidit, et anomalia aequata minor 180° est, latitudinem australem (3) ha-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 5,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0205-body-L006",
+     "source_line_no": 6,
+     "tex": "bes; si vero anomalia superat 180°, latitudo secunda est borealis (4). — Postea ex minutis",
+     "transcription": "bes; si vero anomalia superat 180°, latitudo secunda est borealis (4). — Postea ex minutis",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0205-body-L007",
+     "source_line_no": 7,
+     "tex": "altero loco scriptis, si Venerem consideras, ipsorum sextam partem sume, quae semper erit",
+     "transcription": "altero loco scriptis, si Venerem consideras, ipsorum sextam partem sume, quae semper erit",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0205-body-L008",
+     "source_line_no": 8,
+     "tex": "borealis; si Mercurium consideras, $\\qfrac{1}{2}$ + $\\qfrac{1}{4}$ [= $\\qfrac{3}{4}$] accipe, quae semper erit australis. Has",
+     "transcription": "borealis; si Mercurium consideras, {sfrac:1/2} + {sfrac:1/4} [= {sfrac:3/4}] accipe, quae semper erit australis. Has",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0205-body-L009",
+     "source_line_no": 9,
+     "tex": "tres latitudines, si in eadem plaga sunt, in unum collige; si in duabus diversis plagis, minorem",
+     "transcription": "tres latitudines, si in eadem plaga sunt, in unum collige; si in duabus diversis plagis, minorem",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0205-body-L010",
+     "source_line_no": 10,
+     "tex": "de maiore deme, et plagam residui cognosce, ipsum enim est latitudo planetae (5).",
+     "transcription": "de maiore deme, et plagam residui cognosce, ipsum enim est latitudo planetae (5).",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 10,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0205-body-L011",
+     "source_line_no": 11,
+     "tex": "\\Indent Scias autem Ptolemaeum (6) maximam latitudinem Saturni in septentriones versus 3° 2′ (7)",
+     "transcription": "Scias autem Ptolemaeum (6) maximam latitudinem Saturni in septentriones versus 3° 2′ (7)",
+     "semantic_anchor": "AB01-PDF0205-P01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0205-body-L012",
+     "source_line_no": 12,
+     "tex": "et in meridiem 3° 5′ (8) invenisse; Iovis in septentriones versus 2° 4′ (9) et in meridiem 2° 8′;",
+     "transcription": "et in meridiem 3° 5′ (8) invenisse; Iovis in septentriones versus 2° 4′ (9) et in meridiem 2° 8′;",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0205-body-L013",
+     "source_line_no": 13,
+     "tex": "Martis in septentriones 4° 21′ (10) et in meridiem 7° 7′ (11); Veneris ab utraque parte 8° 56′ (12);",
+     "transcription": "Martis in septentriones 4° 21′ (10) et in meridiem 7° 7′ (11); Veneris ab utraque parte 8° 56′ (12);",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0205-body-L014",
+     "source_line_no": 14,
+     "tex": "Mercurii ab utraque parte 4° 18′ (13).",
+     "transcription": "Mercurii ab utraque parte 4° 18′ (13).",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0205-body-L015",
+     "source_line_no": 15,
+     "tex": "\\Indent Utrum planeta in plaga sua ascendat an descendat si cognoscere vis, eius latitudinem post",
+     "transcription": "Utrum planeta in plaga sua ascendat an descendat si cognoscere vis, eius latitudinem post",
+     "semantic_anchor": "AB01-PDF0205-P02",
+     "margin_locator": null,
+     "printed_line_number": 15,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0205-body-L016",
+     "source_line_no": 16,
+     "tex": "decem dies corrige. Si latitudo est borealis, eamque crescere vides, planeta est ascendens; si",
+     "transcription": "decem dies corrige. Si latitudo est borealis, eamque crescere vides, planeta est ascendens; si",
+     "semantic_anchor": null,
+     "margin_locator": "p. 176.",
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0205-body-L017",
+     "source_line_no": 17,
+     "tex": "latitudinem decrescere invenis, planeta est descendens. Si latitudo est australis et crescens,",
+     "transcription": "latitudinem decrescere invenis, planeta est descendens. Si latitudo est australis et crescens,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0205-body-L018",
+     "source_line_no": 18,
+     "tex": "planeta descendit; si decrescens, planeta ascendit. Si in plaga boreali exstat, eumque ad meri-",
+     "transcription": "planeta descendit; si decrescens, planeta ascendit. Si in plaga boreali exstat, eumque ad meri-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0205-body-L019",
+     "source_line_no": 19,
+     "tex": "diem tendere invenis, cognosces eum in descensu septentrionum esse; si contra in plaga australi",
+     "transcription": "diem tendere invenis, cognosces eum in descensu septentrionum esse; si contra in plaga australi",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0205-body-L020",
+     "source_line_no": 20,
+     "tex": "est, et ad septentriones tendit, scias eum in ascensu Austri esse (14).",
+     "transcription": "est, et ad septentriones tendit, scias eum in ascensu Austri esse (14).",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 20,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0205-body-L021",
+     "source_line_no": 21,
+     "tex": "\\Indent In Saturno, Iove et Marte hoc aliter etiam cognoscitur. Si eorum latitudo est borealis,",
+     "transcription": "In Saturno, Iove et Marte hoc aliter etiam cognoscitur. Si eorum latitudo est borealis,",
+     "semantic_anchor": "AB01-PDF0205-P03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0205-body-L022",
+     "source_line_no": 22,
+     "tex": "et anomalia minor 180 gradibns, sunt ascendentes; si anomalia 180° superat, descendentes. In",
+     "transcription": "et anomalia minor 180 gradibns, sunt ascendentes; si anomalia 180° superat, descendentes. In",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0205-body-L023",
+     "source_line_no": 23,
+     "tex": "latitudine australi, si anomalia est 180 gradibus minor, descendunt; si anomalia 180° excedit,",
+     "transcription": "latitudine australi, si anomalia est 180 gradibus minor, descendunt; si anomalia 180° excedit,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0205-body-L024",
+     "source_line_no": 24,
+     "tex": "ascendunt. — In Venere et Mercurio, ob eorum velocem circa (\\textbf{\\textit{b}}) Solem cursum, quamquam",
+     "transcription": "ascendunt. — In Venere et Mercurio, ob eorum velocem circa ({bi:b}) Solem cursum, quamquam",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0205-body-L025",
+     "source_line_no": 25,
+     "tex": "eorum latitudo maior est cum Soli coniunguntur (15), difficile est eorum statum deprehendere",
+     "transcription": "eorum latitudo maior est cum Soli coniunguntur (15), difficile est eorum statum deprehendere",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 25,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0205-body-L026",
+     "source_line_no": 26,
+     "tex": "nisi via quam supra indicavimus (16).",
+     "transcription": "nisi via quam supra indicavimus (16).",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    }
+   ]
+  },
+  {
+   "role": "notes_left",
+   "lines": [
+    {
+     "id": "AB01-PDF0205-notes_left-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (1) Cod. « australis »; cfr. \\textit{Almag.} XIII, 6 (ed.",
+     "transcription": "(1) Cod. « australis »; cfr. *Almag.* XIII, 6 (ed.",
+     "semantic_anchor": "AB01-PDF0205-N01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0205-notes_left-L002",
+     "source_line_no": null,
+     "tex": "Halma, t. II, p. 415-416).",
+     "transcription": "Halma, t. II, p. 415-416).",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0205-notes_left-L003",
+     "source_line_no": null,
+     "tex": "\\Indent (2) Cod. « borealis ».",
+     "transcription": "(2) Cod. « borealis ».",
+     "semantic_anchor": "AB01-PDF0205-N02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0205-notes_left-L004",
+     "source_line_no": null,
+     "tex": "\\Indent (3) Cod. « borealem ».",
+     "transcription": "(3) Cod. « borealem ».",
+     "semantic_anchor": "AB01-PDF0205-N03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0205-notes_left-L005",
+     "source_line_no": null,
+     "tex": "\\Indent (4) Cod. « australis ».",
+     "transcription": "(4) Cod. « australis ».",
+     "semantic_anchor": "AB01-PDF0205-N04",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0205-notes_left-L006",
+     "source_line_no": null,
+     "tex": "\\Indent (5) Omnia haec praecepta de tabularum usu",
+     "transcription": "(5) Omnia haec praecepta de tabularum usu",
+     "semantic_anchor": "AB01-PDF0205-N05",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0205-notes_left-L007",
+     "source_line_no": null,
+     "tex": "sunt in \\textit{Almag.} XIII, 6 (ed. Halma, t. II, p. 414-416).",
+     "transcription": "sunt in *Almag.* XIII, 6 (ed. Halma, t. II, p. 414-416).",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0205-notes_left-L008",
+     "source_line_no": null,
+     "tex": "\\Indent (6) Latitudines trium planetarum superiorum",
+     "transcription": "(6) Latitudines trium planetarum superiorum",
+     "semantic_anchor": "AB01-PDF0205-N06",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0205-notes_left-L009",
+     "source_line_no": null,
+     "tex": "vide in tabula \\textit{Almag.} XIII, 5 (ed. Halma, t. I, p. 412-",
+     "transcription": "vide in tabula *Almag.* XIII, 5 (ed. Halma, t. I, p. 412-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0205-notes_left-L010",
+     "source_line_no": null,
+     "tex": "-413).",
+     "transcription": "-413).",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0205-notes_left-L011",
+     "source_line_no": null,
+     "tex": "\\Indent (7) Cod. 8° 2′.",
+     "transcription": "(7) Cod. 8° 2′.",
+     "semantic_anchor": "AB01-PDF0205-N07",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0205-notes_left-L012",
+     "source_line_no": null,
+     "tex": "\\Indent (8) Cod. 33° 5′. In tabula f. 224,v., 3° 5′ ut in",
+     "transcription": "(8) Cod. 33° 5′. In tabula f. 224,v., 3° 5′ ut in",
+     "semantic_anchor": "AB01-PDF0205-N08",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0205-notes_left-L013",
+     "source_line_no": null,
+     "tex": "\\textit{Almag.} Latino (ex Arabico) a Liechtenstein edito",
+     "transcription": "*Almag.* Latino (ex Arabico) a Liechtenstein edito",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0205-notes_left-L014",
+     "source_line_no": null,
+     "tex": "Venetiis 1515; ed. Halma 3° 4′ habet (in versione Gal-",
+     "transcription": "Venetiis 1515; ed. Halma 3° 4′ habet (in versione Gal-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0205-notes_left-L015",
+     "source_line_no": null,
+     "tex": "lica perperam 2° 4′). In \\textit{Canone} \\Name{Theonis}, ed. Halma,",
+     "transcription": "lica perperam 2° 4′). In *Canone* {sp:Theonis}, ed. Halma,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0205-notes_left-L016",
+     "source_line_no": null,
+     "tex": "t. I, p. 59 et III, 2 legitur 3° 6′.",
+     "transcription": "t. I, p. 59 et III, 2 legitur 3° 6′.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  },
+  {
+   "role": "notes_right",
+   "lines": [
+    {
+     "id": "AB01-PDF0205-notes_right-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (9) Plato 2° 8′.",
+     "transcription": "(9) Plato 2° 8′.",
+     "semantic_anchor": "AB01-PDF0205-N09",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0205-notes_right-L002",
+     "source_line_no": null,
+     "tex": "\\Indent (10) Cod. 6°, Plato 4°.",
+     "transcription": "(10) Cod. 6°, Plato 4°.",
+     "semantic_anchor": "AB01-PDF0205-N10",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0205-notes_right-L003",
+     "source_line_no": null,
+     "tex": "\\Indent (11) Cod. et Plato 6°.",
+     "transcription": "(11) Cod. et Plato 6°.",
+     "semantic_anchor": "AB01-PDF0205-N11",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0205-notes_right-L004",
+     "source_line_no": null,
+     "tex": "\\Indent (12) Cod. sine punctis; Plato 8° 26′; \\Name{Theon},",
+     "transcription": "(12) Cod. sine punctis; Plato 8° 26′; {sp:Theon},",
+     "semantic_anchor": "AB01-PDF0205-N12",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0205-notes_right-L005",
+     "source_line_no": null,
+     "tex": "t. I, p. 59, ut recepi.",
+     "transcription": "t. I, p. 59, ut recepi.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0205-notes_right-L006",
+     "source_line_no": null,
+     "tex": "\\Indent (13) Cod. sine punctis ergo incertum utrum",
+     "transcription": "(13) Cod. sine punctis ergo incertum utrum",
+     "semantic_anchor": "AB01-PDF0205-N13",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0205-notes_right-L007",
+     "source_line_no": null,
+     "tex": "\\ArabicRun{يج} 13′ an \\ArabicRun{يح} 18′; Plato et \\Name{Theon} l. l., ut recepi.",
+     "transcription": "يج 13′ an يح 18′; Plato et {sp:Theon} l. l., ut recepi.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0205-notes_right-L008",
+     "source_line_no": null,
+     "tex": "\\Indent (14) Similia in \\textit{Canone} \\Name{Theonis}, t. I, pag. 58",
+     "transcription": "(14) Similia in *Canone* {sp:Theonis}, t. I, pag. 58",
+     "semantic_anchor": "AB01-PDF0205-N14",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0205-notes_right-L009",
+     "source_line_no": null,
+     "tex": "(\\textgreek{βοῤῤᾶν ἀνιέναι} et \\textgreek{βοῤῤᾶν καταβαίνειν}; \\textgreek{νότον κατιέναι} et",
+     "transcription": "(βοῤῤᾶν ἀνιέναι et βοῤῤᾶν καταβαίνειν; νότον κατιέναι et",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0205-notes_right-L010",
+     "source_line_no": null,
+     "tex": "\\textgreek{νότον ἀνιέναι}). Cfr. \\Name{Oloug Beg}, p. 155 vers.",
+     "transcription": "νότον ἀνιέναι). Cfr. {sp:Oloug Beg}, p. 155 vers.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0205-notes_right-L011",
+     "source_line_no": null,
+     "tex": "\\Indent (15) Intelligendum « inferius coniunguntur »;",
+     "transcription": "(15) Intelligendum « inferius coniunguntur »;",
+     "semantic_anchor": "AB01-PDF0205-N15",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0205-notes_right-L012",
+     "source_line_no": null,
+     "tex": "maximae Veneris et Mercurii latitudines in coniun-",
+     "transcription": "maximae Veneris et Mercurii latitudines in coniun-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0205-notes_right-L013",
+     "source_line_no": null,
+     "tex": "ctionibus inferioribus, scilicet sub Sole, contingunt",
+     "transcription": "ctionibus inferioribus, scilicet sub Sole, contingunt",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0205-notes_right-L014",
+     "source_line_no": null,
+     "tex": "(\\Name{Schiaparelli}).",
+     "transcription": "({sp:Schiaparelli}).",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0205-notes_right-L015",
+     "source_line_no": null,
+     "tex": "\\Indent (16) Hic ponit Plato quae de apogeis planeta-",
+     "transcription": "(16) Hic ponit Plato quae de apogeis planeta-",
+     "semantic_anchor": "AB01-PDF0205-N16",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0205-notes_right-L016",
+     "source_line_no": null,
+     "tex": "rum recte codex habet in fine cap. XLV.",
+     "transcription": "rum recte codex habet in fine cap. XLV.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  }
+ ]
+}

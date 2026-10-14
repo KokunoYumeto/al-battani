@@ -4,7 +4,7 @@ Part I of Nallino's edition is his Latin translation of al-Battānī's *Zīj*, w
 
 The edition is diplomatic and line-anchored: every printed line is one line of the edition, with its hyphenation, its punctuation, its letter-spaced names, its italics and its bold italic reference letters, and every line has a stable anchor. The line numbers that the print sets beside every fifth line and the locators of the Arabic text («p. 84.») stand in the margins as printed.
 
-**Done:** pp. 110–115 (6 pages, 282 anchored lines).
+**Done:** pp. 110–116 (7 pages, 340 anchored lines).
 
 **Contents so far:** chapter 44 continued (from p. 110): the solar eclipse by the tables, its middle, its digits, its beginning and end and the quarters of its darkening and emersion (pp. 110–112), and the figure of a solar eclipse, redrawn, with the demonstration on it (pp. 112–113); chapter 45, on the places of the planets in the ecliptic by the era of the Arabs and the era of the Romans, with the apogees of the planets in the year 1191 of Dhū ’l-qarnayn and their motion (pp. 113–114); chapter 46, on the retrogradations of the planets (p. 114); chapter 47, on the latitude of the five planets (from p. 115).
 
