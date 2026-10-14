@@ -1,0 +1,505 @@
+{
+ "anchor": "AB01-PDF0208",
+ "master_pdf_page": 208,
+ "printed_page": 119,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "margin_locators": [
+  {
+   "line_anchor": "AB01-PDF0208-body-L014",
+   "text": "p. 180."
+  },
+  {
+   "line_anchor": "AB01-PDF0208-body-L042",
+   "text": "p. 181."
+  }
+ ],
+ "observations": [
+  "body: the line numbers 5 to 40 stand in the left margin and the locators «p. 180.» (L14) and «p. 181.» (L42) in the right margin. In «p. 180.» the 8 is printed broken, like an S; read as 180 between «p. 179.» (p. 118) and «p. 181.» (L42). The 0 of the line number 30 is printed broken.",
+  "body L41: the letter of the reference (a) is bold italic; with chapter 49 the letters begin again at a.",
+  "body L5, L17, L18, L24: specks stand before «appellatur», over the u of «dum» (a round dot), under the n of «regione» and after «stella»; they are not signs.",
+  "body L11: an irregular blot joined to the s of «Solis» runs into the space before «ortum», at the height of a hyphen; it is not a hyphen."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0208-body-L001",
+     "source_line_no": 1,
+     "tex": "dam planetarum, in regionibus eclipticae et locis horizontis respectu Solis et respectu Lunae",
+     "transcription": "dam planetarum, in regionibus eclipticae et locis horizontis respectu Solis et respectu Lunae",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0208-body-L002",
+     "source_line_no": 2,
+     "tex": "etiam variant. Praesertim conspicuae sunt quae cum Sole eveniunt; idque novem modis fieri",
+     "transcription": "etiam variant. Praesertim conspicuae sunt quae cum Sole eveniunt; idque novem modis fieri",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0208-body-L003",
+     "source_line_no": 3,
+     "tex": "potest.",
+     "transcription": "potest.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0208-body-L004",
+     "source_line_no": 4,
+     "tex": "\\Indent Prima species est ortus anterior antelucanus, cum stella simul cum Sole horizontem orien-",
+     "transcription": "Prima species est ortus anterior antelucanus, cum stella simul cum Sole horizontem orien-",
+     "semantic_anchor": "AB01-PDF0208-P01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0208-body-L005",
+     "source_line_no": 5,
+     "tex": "talem tenet. Duobus modis id evenit, quorum alter matutinus appellatur, cum stella nondum",
+     "transcription": "talem tenet. Duobus modis id evenit, quorum alter matutinus appellatur, cum stella nondum",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 5,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0208-body-L006",
+     "source_line_no": 6,
+     "tex": "in oriente appareat et post Solis ortum ascendat; alter matutinus orientalis, cum, in oriente,",
+     "transcription": "in oriente appareat et post Solis ortum ascendat; alter matutinus orientalis, cum, in oriente,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0208-body-L007",
+     "source_line_no": 7,
+     "tex": "stella eodem tempore quo Sol ascendat. Dicitur autem ortus anterior cum stella Solem in",
+     "transcription": "stella eodem tempore quo Sol ascendat. Dicitur autem ortus anterior cum stella Solem in",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0208-body-L008",
+     "source_line_no": 8,
+     "tex": "ortu praecedat.",
+     "transcription": "ortu praecedat.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0208-body-L009",
+     "source_line_no": 9,
+     "tex": "\\Indent Secunda species, culminatio ortus anterioris appellata, habetur cum stella, oriente Sole,",
+     "transcription": "Secunda species, culminatio ortus anterioris appellata, habetur cum stella, oriente Sole,",
+     "semantic_anchor": "AB01-PDF0208-P02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0208-body-L010",
+     "source_line_no": 10,
+     "tex": "medium Caelum super Terram vel sub Terra occupet. Duobus modis evenit, quorum alter",
+     "transcription": "medium Caelum super Terram vel sub Terra occupet. Duobus modis evenit, quorum alter",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 10,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0208-body-L011",
+     "source_line_no": 11,
+     "tex": "matutinus dicitur, si stella post Solis ortum culminet; alter matutinus medius, si stella cul-",
+     "transcription": "matutinus dicitur, si stella post Solis ortum culminet; alter matutinus medius, si stella cul-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0208-body-L012",
+     "source_line_no": 12,
+     "tex": "minet oriente Sole.",
+     "transcription": "minet oriente Sole.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0208-body-L013",
+     "source_line_no": 13,
+     "tex": "\\Indent Tertia species est occasus anterior matutinus; oriente Sole, stella in horizonte occidentali",
+     "transcription": "Tertia species est occasus anterior matutinus; oriente Sole, stella in horizonte occidentali",
+     "semantic_anchor": "AB01-PDF0208-P03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0208-body-L014",
+     "source_line_no": 14,
+     "tex": "consistit. Id quoque variis modis evenit; cum stella, oriente Sole, in regione occidentali sit,",
+     "transcription": "consistit. Id quoque variis modis evenit; cum stella, oriente Sole, in regione occidentali sit,",
+     "semantic_anchor": null,
+     "margin_locator": "p. 180.",
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0208-body-L015",
+     "source_line_no": 15,
+     "tex": "sed post Solem ortum occidat, quod matutinus in occasu anteriore vocatur; aut cum stella",
+     "transcription": "sed post Solem ortum occidat, quod matutinus in occasu anteriore vocatur; aut cum stella",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 15,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0208-body-L016",
+     "source_line_no": 16,
+     "tex": "eodem tempore quo Sol oritur occidat; aut cum stella ante ortum Solis occidat.",
+     "transcription": "eodem tempore quo Sol oritur occidat; aut cum stella ante ortum Solis occidat.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0208-body-L017",
+     "source_line_no": 17,
+     "tex": "\\Indent Quarta species est ortus anterior australis; Sol enim lineam meridianam occupat dum",
+     "transcription": "Quarta species est ortus anterior australis; Sol enim lineam meridianam occupat dum",
+     "semantic_anchor": "AB01-PDF0208-P04",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0208-body-L018",
+     "source_line_no": 18,
+     "tex": "stella in regione orientali reperitur. Variis modis id evenit: Sol potest die culminare, [qua",
+     "transcription": "stella in regione orientali reperitur. Variis modis id evenit: Sol potest die culminare, [qua",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0208-body-L019",
+     "source_line_no": 19,
+     "tex": "re stella tunc non apparet] (1); aut nocte Sol paxillum Terrae occupat (2), et sidus in hori-",
+     "transcription": "re stella tunc non apparet] (1); aut nocte Sol paxillum Terrae occupat (2), et sidus in hori-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0208-body-L020",
+     "source_line_no": 20,
+     "tex": "zonte orientali, ut diximus, apparet, sive Solem praecedit, sive cum eo pariter comitatur, sive",
+     "transcription": "zonte orientali, ut diximus, apparet, sive Solem praecedit, sive cum eo pariter comitatur, sive",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 20,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0208-body-L021",
+     "source_line_no": 21,
+     "tex": "eum sequitur; quod si fuerit, sidus post culminationem Solis apparebit.",
+     "transcription": "eum sequitur; quod si fuerit, sidus post culminationem Solis apparebit.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0208-body-L022",
+     "source_line_no": 22,
+     "tex": "\\Indent Quinta species est culminatio australis; Sol et stella medium Caelum tenent. Id duobus",
+     "transcription": "Quinta species est culminatio australis; Sol et stella medium Caelum tenent. Id duobus",
+     "semantic_anchor": "AB01-PDF0208-P05",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0208-body-L023",
+     "source_line_no": 23,
+     "tex": "modis fit: alter cum Sol die super Terram consistat, ita ut stella conspici non possit, vel noctu",
+     "transcription": "modis fit: alter cum Sol die super Terram consistat, ita ut stella conspici non possit, vel noctu",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0208-body-L024",
+     "source_line_no": 24,
+     "tex": "Sol cum ea in paxillo Terrae sit, et stella igitur tunc quoque non appareat. Alter cum, occu-",
+     "transcription": "Sol cum ea in paxillo Terrae sit, et stella igitur tunc quoque non appareat. Alter cum, occu-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0208-body-L025",
+     "source_line_no": 25,
+     "tex": "pante Sole paxillum Terrae, stella in medio Caelo super Terram consistat, qua re, ut diximus,",
+     "transcription": "pante Sole paxillum Terrae, stella in medio Caelo super Terram consistat, qua re, ut diximus,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 25,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0208-body-L026",
+     "source_line_no": 26,
+     "tex": "appareat, Solem praecedens vel comitans vel sequens.",
+     "transcription": "appareat, Solem praecedens vel comitans vel sequens.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0208-body-L027",
+     "source_line_no": 27,
+     "tex": "\\Indent Sexta species est occasus australis; Sol culminat, stella autem in regione occidentali repe-",
+     "transcription": "Sexta species est occasus australis; Sol culminat, stella autem in regione occidentali repe-",
+     "semantic_anchor": "AB01-PDF0208-P06",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0208-body-L028",
+     "source_line_no": 28,
+     "tex": "ritur. Fieri potest ut Sol die culminet, qua re stella non appareat; aut Sol noctu paxillum",
+     "transcription": "ritur. Fieri potest ut Sol die culminet, qua re stella non appareat; aut Sol noctu paxillum",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0208-body-L029",
+     "source_line_no": 29,
+     "tex": "Terrae occupet, qua re stella appareat Solem praecedens, vel comitans, vel sequens.",
+     "transcription": "Terrae occupet, qua re stella appareat Solem praecedens, vel comitans, vel sequens.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0208-body-L030",
+     "source_line_no": 30,
+     "tex": "\\Indent Septima species est ortus vespertinus; Sol est in horizonte occidentali, stella in orientali.",
+     "transcription": "Septima species est ortus vespertinus; Sol est in horizonte occidentali, stella in orientali.",
+     "semantic_anchor": "AB01-PDF0208-P07",
+     "margin_locator": null,
+     "printed_line_number": 30,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0208-body-L031",
+     "source_line_no": 31,
+     "tex": "Fieri potest ut, occidente Sole, stella in oriente [non] appareat, quia ante occasum Solis ascen-",
+     "transcription": "Fieri potest ut, occidente Sole, stella in oriente [non] appareat, quia ante occasum Solis ascen-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0208-body-L032",
+     "source_line_no": 32,
+     "tex": "dit; aut eodem tempore oriatur quo Sol occidit, idque vespertinum appellatur; aut stella post",
+     "transcription": "dit; aut eodem tempore oriatur quo Sol occidit, idque vespertinum appellatur; aut stella post",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0208-body-L033",
+     "source_line_no": 33,
+     "tex": "occasum Solis oriatur et appareat.",
+     "transcription": "occasum Solis oriatur et appareat.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0208-body-L034",
+     "source_line_no": 34,
+     "tex": "\\Indent Octava species est culminatio vespertina; consistente Sole in horizonte occidentali, stella",
+     "transcription": "Octava species est culminatio vespertina; consistente Sole in horizonte occidentali, stella",
+     "semantic_anchor": "AB01-PDF0208-P08",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0208-body-L035",
+     "source_line_no": 35,
+     "tex": "medium Caelum tenet super Terram aut sub Terra. Evenit ut sidus, occidente Sole, appareat",
+     "transcription": "medium Caelum tenet super Terram aut sub Terra. Evenit ut sidus, occidente Sole, appareat",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 35,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0208-body-L036",
+     "source_line_no": 36,
+     "tex": "aut non appareat, prout super Terram aut sub Terra sit; et in culminatione sua interdum",
+     "transcription": "aut non appareat, prout super Terram aut sub Terra sit; et in culminatione sua interdum",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0208-body-L037",
+     "source_line_no": 37,
+     "tex": "Solem praecedat, interdum ei comitetur interdum eum sequatur.",
+     "transcription": "Solem praecedat, interdum ei comitetur interdum eum sequatur.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0208-body-L038",
+     "source_line_no": 38,
+     "tex": "\\Indent Nona species est occasus anterior vespertinus; stella et Sol horizontem occidentalem tenent.",
+     "transcription": "Nona species est occasus anterior vespertinus; stella et Sol horizontem occidentalem tenent.",
+     "semantic_anchor": "AB01-PDF0208-P09",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0208-body-L039",
+     "source_line_no": 39,
+     "tex": "Interdum stella in regione occidentali apparet antequam in radios Solis intret, et post Solem",
+     "transcription": "Interdum stella in regione occidentali apparet antequam in radios Solis intret, et post Solem",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0208-body-L040",
+     "source_line_no": 40,
+     "tex": "igitur occidit; interdum stella et Sol eodem tempore occidunt; interdum quoque stella in oc-",
+     "transcription": "igitur occidit; interdum stella et Sol eodem tempore occidunt; interdum quoque stella in oc-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": 40,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0208-body-L041",
+     "source_line_no": 41,
+     "tex": "casu Solem praecedit, ita ut postea ante Solem oriatur (\\textbf{\\textit{a}}).",
+     "transcription": "casu Solem praecedit, ita ut postea ante Solem oriatur ({bi:a}).",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0208-body-L042",
+     "source_line_no": 42,
+     "tex": "\\Indent Distantias stellarum ab alteris iuxta earum loca in sphaera caelesti, et gradus eclipticae",
+     "transcription": "Distantias stellarum ab alteris iuxta earum loca in sphaera caelesti, et gradus eclipticae",
+     "semantic_anchor": "AB01-PDF0208-P10",
+     "margin_locator": "p. 181.",
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0208-body-L043",
+     "source_line_no": 43,
+     "tex": "qui cum illis ascendunt, culminant, occidunt, iam in hoc libro explicavimus (3).",
+     "transcription": "qui cum illis ascendunt, culminant, occidunt, iam in hoc libro explicavimus (3).",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    }
+   ]
+  },
+  {
+   "role": "notes_left",
+   "lines": [
+    {
+     "id": "AB01-PDF0208-notes_left-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (1) Addidi, Platonem sequens.",
+     "transcription": "(1) Addidi, Platonem sequens.",
+     "semantic_anchor": "AB01-PDF0208-N01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0208-notes_left-L002",
+     "source_line_no": null,
+     "tex": "\\Indent (2) I. e. sub Terra culminat.",
+     "transcription": "(2) I. e. sub Terra culminat.",
+     "semantic_anchor": "AB01-PDF0208-N02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  },
+  {
+   "role": "notes_right",
+   "lines": [
+    {
+     "id": "AB01-PDF0208-notes_right-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (3) Cap. XVIII, XX et XXVI.",
+     "transcription": "(3) Cap. XVIII, XX et XXVI.",
+     "semantic_anchor": "AB01-PDF0208-N03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  }
+ ]
+}
