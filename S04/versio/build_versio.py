@@ -76,7 +76,8 @@ Transcription format (UTF-8; one printed line per source line, as printed, with 
   @numgap N              an empty line of the body that the print counts, with the number N printed beside it
   @lineno N              the printed count of the next line of the body, where the count of the print departs from
                          the count of the lines of the page (the print numbers every fifth line in the margin)
-  ^ TEXT                 a line that begins a paragraph or a footnote (indented); ^^ TEXT indented twice
+  ^ TEXT                 a line that begins a paragraph or a footnote (indented); ^^ TEXT indented twice;
+                         ^+ TEXT indented one and a half times (the a), b) items of a list)
   % TEXT                 a comment, not printed
 Inline markup: {loc:p. 84.} the locator printed in the margin beside the line (the page of the Arabic text; it
 stands in the margin opposite the line numbers), {nonum} the line number is not printed beside this line,
@@ -93,8 +94,8 @@ on the first), {vrule:L:T} a thin vertical rule L pt long whose top is T pt abov
 (a Latin word inside it, as codd. or add., stands in its place in the run in the roman type; {syr:...} the same
 for Syriac), {rtl:...} a phrase of Arabic numerals and Latin words that the print sets right to
 left, given in reading order, \\* a literal asterisk; runs of Arabic, Greek, Hebrew, Syriac and Coptic letters are
-set in their fonts (Coptic in FreeSerif bold, as printed), the signs ☾ ⊙ ♈ ♄ ♃ ♂ ♀ ☿ ☊ ☋ in FreeSerif. & % # are escaped; $...$ is mathematics; every other
-character is literal."""
+set in their fonts (Coptic in FreeSerif bold, as printed), the signs ☾ ⊙ ♈ ♄ ♃ ♂ ♀ ☿ ☊ ☋ in FreeSerif. & % # are
+escaped; $...$ is mathematics; every other character is literal."""
 import csv, json, re
 from pathlib import Path
 
@@ -891,7 +892,7 @@ def section(items, prefix, role, numbered):
                     loc, text = mloc.group(1), text[:mloc.start()] + text[mloc.end():]
                 if "{nonum}" in text:
                     nonum, text = True, text.replace(" {nonum}", "").replace("{nonum}", "")
-            src = (text[3:] if kind == "line" and text.startswith("^^ ") else
+            src = (text[3:] if kind == "line" and text.startswith(("^^ ", "^+ ")) else
                    text[2:] if kind == "line" and text.startswith(("^ ", "> ")) else text)
             if kind == "verse":  # an Arabic verse: first hemistich | second hemistich, the first set on the right
                 h1, h2 = [h.strip() for h in src.split("|")]
@@ -933,8 +934,8 @@ def section(items, prefix, role, numbered):
             sem = None
             if kind == "line" and text.startswith("> "):  # a continuation line of a hanging paragraph
                 tex = r"\hspace*{2.5em}" + tex
-            elif kind == "line" and text.startswith(("^ ", "^^ ")):
-                tex = (r"\Indent\Indent " if text.startswith("^^ ") else r"\Indent ") + tex
+            elif kind == "line" and text.startswith(("^ ", "^^ ", "^+ ")):
+                tex = {"^^ ": r"\Indent\Indent ", "^+ ": r"\Indent\hspace*{.8em}"}.get(text[:3], r"\Indent ") + tex
                 note = re.match(r"\((\d+)\)", src)
                 if note and role != "body":
                     sem = f"{prefix}-N{int(note.group(1)):02d}"
