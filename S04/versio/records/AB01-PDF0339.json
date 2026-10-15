@@ -1,0 +1,437 @@
+{
+ "anchor": "AB01-PDF0339",
+ "master_pdf_page": 339,
+ "printed_page": 250,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "margin_locators": [],
+ "observations": [
+  "body L1-L11: the figure stands on the left of these lines and is redrawn from the print: the circle about T (radius 54.7 pt) through O, the epicycle about O (radius 18.8 pt), the line from T through O to M, the tangents from T, drawn on beyond K and I as far as they print, and the radii OK and OI; the bold italic letters stand where they are printed. As drawn, O lies on the circle (0.02 pt off), the three lines from T meet 0.9 pt from its centre, the tangents pass 19.1 and 18.2 pt from O, and the radii meet 0.8 pt from the centre of the epicycle. The figure is not to scale: its angle OTI is 20.4°.",
+  "body L1-L11: at the point of contact I the radius OI is perpendicular to TI, so the angle TOI is 90° − OTI and the arc MI from the highest point M is 90° + OTI; OTI, the greatest angle under which the epicycle is seen from T, is the greatest equation of the centre. Likewise MIK = 360° − (90° + KTO) = 270° − KTO. With al-Battānī's greatest equations (Part II, p. 81: 1° 59′ 10″ for the Sun, 5° 1′ 0″ for the Moon) the points of contact lie at 91° 59′ 10″ and 268° 0′ 50″, and at 95° 1′ and 264° 59′; with 7° 40′ at 97° 40′ and 262° 20′ (L14).",
+  "body L1, L4: specks before «est» and after the comma of «medius,» (L1) are not transcribed; the first t of «retardat» (L4) is broken and prints like an l.",
+  "body L7-L8: the bars after «270°» (L7, 10.2 pt, at the end of the line) and «270°» (L8, 10.0 pt) are minus signs.",
+  "body L11, L14-L15: «al–Battānī» has a long dash (L11, 5.4 pt); in L14-L15 the name is divided at its dash, which is printed at the end of L14 and again at the beginning of L15 (5.4 and 5.2 pt). The dash before «Schiaparelli» measures 10.0 pt, and a heavy bracket closes the addition begun on p. 249.",
+  "body L16-L17: the addenda (Part I, p. LXXIV) refer for chapter 37 to the preface, p. XLIII, where the Persian word ǵawzahar in the title of the chapter (p. 75) is judged an interpolation: it is missing in the index of the chapters (p. 3) and in Plato's version. In the head the dash after «a)» measures 10.3 pt and «75–76» has a long dash (4.7 pt); a speck over the last I of «XXXVII» is not transcribed.",
+  "body L19-L20: the article ὁ is printed with its breathing joined to the omicron, both times; a speck over the last ο of «σύνδεσμος» is not transcribed.",
+  "body L22-L23, L32: «Bouché–Leclercq», «121–123» and «15–16» have long dashes (5.6, 5.4 and 5.6 pt).",
+  "body L24: in the Persian word the gāf is printed as a kāf with three dots above (ڭ); in note 7 of p. 75 the same word has the gāf (گوزهر). «cfr. p. 45, adn. 3» is the note on the circulus pareclipticus, al-mumaththal.",
+  "body L29, L31: a dot over the second stroke of the h of «iozahar» (L29) and a stroke over the c of «seconda» (L31) are not transcribed.",
+  "body L33-L34: in the head the dash after «a)» measures 10.2 pt, the hyphen of «10-17» 3.5 pt; p. 76, L10-L14 is the rule for the argument of latitude of the Moon.",
+  "notes L1-L2: the note is set in two lines across the page; the hyphen of «1871-1878» measures 3.4 pt, and the closing parenthesis of «suppeditavit)» is broken."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0339-body-F01",
+     "source_line_no": null,
+     "tex": "\\input{figures/AB01-PDF0339-F01}",
+     "transcription": "[figure, redrawn: figures/AB01-PDF0339-F01.tex]",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_FIGURE"
+    },
+    {
+     "id": "AB01-PDF0339-body-L001",
+     "source_line_no": null,
+     "tex": "\\Indent Cuius causa haec est. Motus medius, in figura hoc loco de-",
+     "transcription": "Cuius causa haec est. Motus medius, in figura hoc loco de-",
+     "semantic_anchor": "AB01-PDF0339-P01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0339-body-L002",
+     "source_line_no": null,
+     "tex": "scripta, est motus centri O epicycli; cum Sol est in I, scilicet in",
+     "transcription": "scripta, est motus centri O epicycli; cum Sol est in I, scilicet in",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0339-body-L003",
+     "source_line_no": null,
+     "tex": "linea epicyclo tangenti, motu medio quoque movetur, nam tunc",
+     "transcription": "linea epicyclo tangenti, motu medio quoque movetur, nam tunc",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0339-body-L004",
+     "source_line_no": null,
+     "tex": "eius motus in epicyclo nec accelerat nec retardat velocitatem an-",
+     "transcription": "eius motus in epicyclo nec accelerat nec retardat velocitatem an-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0339-body-L005",
+     "source_line_no": null,
+     "tex": "gularem respectu Terrae T; idque evenit exstante arcu MI (i. e.",
+     "transcription": "gularem respectu Terrae T; idque evenit exstante arcu MI (i. e.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0339-body-L006",
+     "source_line_no": null,
+     "tex": "anomalia) $=$ 90° $+$ OTI $=$ 90° $+$ maxima aequatio centri. Similiter",
+     "transcription": "anomalia) $=$ 90° $+$ OTI $=$ 90° $+$ maxima aequatio centri. Similiter",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0339-body-L007",
+     "source_line_no": null,
+     "tex": "cum Sol in altera tangente est; tunc anomalia $=$ MIK $=$ 270° $-$",
+     "transcription": "cum Sol in altera tangente est; tunc anomalia $=$ MIK $=$ 270° $-$",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0339-body-L008",
+     "source_line_no": null,
+     "tex": "KTO $=$ 270° $-$ maxima aequatio centri. In Sole maxima aequatio",
+     "transcription": "KTO $=$ 270° $-$ maxima aequatio centri. In Sole maxima aequatio",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0339-body-L009",
+     "source_line_no": null,
+     "tex": "est 2° fere; itaque MI $=$ 92°, MIK $=$ 268°. In Luna, cuius ma-",
+     "transcription": "est 2° fere; itaque MI $=$ 92°, MIK $=$ 268°. In Luna, cuius ma-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0339-body-L010",
+     "source_line_no": null,
+     "tex": "xima aequatio in syzygiis 5° complectitur, MI $=$ 95°, MIK $=$ 265°",
+     "transcription": "xima aequatio in syzygiis 5° complectitur, MI $=$ 95°, MIK $=$ 265°",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0339-body-L011",
+     "source_line_no": null,
+     "tex": "ut \\Name{al–Battānī} habet.",
+     "transcription": "ut {sp:al–Battānī} habet.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0339-body-L012",
+     "source_line_no": null,
+     "tex": "\\Indent Quoad Lunam tamen animadverti debet maximam aequationem posse excentricitatis causa",
+     "transcription": "Quoad Lunam tamen animadverti debet maximam aequationem posse excentricitatis causa",
+     "semantic_anchor": "AB01-PDF0339-P02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0339-body-L013",
+     "source_line_no": null,
+     "tex": "mutari et 7° 40′ attingere; qua re in quadraturis, ubi effectus excentricitatis maximus est,",
+     "transcription": "mutari et 7° 40′ attingere; qua re in quadraturis, ubi effectus excentricitatis maximus est,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0339-body-L014",
+     "source_line_no": null,
+     "tex": "fiunt MI $=$ 97° 40′, MIK $=$ 262° 20′. Omnes has considerationes nimio brevitatis studio \\Name{al–}",
+     "transcription": "fiunt MI $=$ 97° 40′, MIK $=$ 262° 20′. Omnes has considerationes nimio brevitatis studio {sp:al–}",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0339-body-L015",
+     "source_line_no": null,
+     "tex": "\\Name{–Battānī} omisit. — \\textsc{Schiaparelli}.]",
+     "transcription": "{sp:–Battānī} omisit. — {sc:Schiaparelli}.]",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0339-body-L016",
+     "source_line_no": null,
+     "tex": "\\CenterLine{A\\textsc{d} \\textsc{caput} XXXVII.}",
+     "transcription": "A{sc:d} {sc:caput} XXXVII.",
+     "semantic_anchor": "AB01-PDF0339-H16",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0339-body-L017",
+     "source_line_no": null,
+     "tex": "\\CenterLine{\\textbf{\\textit{a}}) — \\textit{Pag. 75–76.}}",
+     "transcription": "{bi:a}) — *Pag. 75–76.*",
+     "semantic_anchor": "AB01-PDF0339-H17",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0339-body-L018",
+     "source_line_no": null,
+     "tex": "\\Indent \\textit{Motus nodi} retrogradus est, qua re a 360° demendus.",
+     "transcription": "*Motus nodi* retrogradus est, qua re a 360° demendus.",
+     "semantic_anchor": "AB01-PDF0339-P03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0339-body-L019",
+     "source_line_no": null,
+     "tex": "\\Indent Nomina \\textit{caput} et \\textit{cauda} ignota astronomis Graecis, apud quos \\textgreek{ὁ ἀναβιβάζων} [\\textgreek{σύνδεσμος}]",
+     "transcription": "Nomina *caput* et *cauda* ignota astronomis Graecis, apud quos ὁ ἀναβιβάζων [σύνδεσμος]",
+     "semantic_anchor": "AB01-PDF0339-P04",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0339-body-L020",
+     "source_line_no": null,
+     "tex": "« ascendens [nodus] » est nodus borealis, \\textgreek{ὁ καταβιβάζων} « descendens » australis. Caput et",
+     "transcription": "« ascendens [nodus] » est nodus borealis, ὁ καταβιβάζων « descendens » australis. Caput et",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0339-body-L021",
+     "source_line_no": null,
+     "tex": "cauda ad caelestem Draconem referuntur, quem e Chaldaeorum superstitionibus primi Christi",
+     "transcription": "cauda ad caelestem Draconem referuntur, quem e Chaldaeorum superstitionibus primi Christi",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0339-body-L022",
+     "source_line_no": null,
+     "tex": "saeculi receperant Gnostici et astrologi Graeci quidam; cfr. A. \\Name{Bouché–Leclercq}, \\textit{L’astro-}",
+     "transcription": "saeculi receperant Gnostici et astrologi Graeci quidam; cfr. A. {sp:Bouché–Leclercq}, *L’astro-*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0339-body-L023",
+     "source_line_no": null,
+     "tex": "\\textit{logie grecque,} Paris 1899, p. 121–123.",
+     "transcription": "*logie grecque,* Paris 1899, p. 121–123.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0339-body-L024",
+     "source_line_no": null,
+     "tex": "\\Indent Vox \\textit{ǵawzahar,} e Persico \\textit{gawzahr} \\ArabicRun{ڭوزهر}, significat: 1) circulum pareclipticum (cfr. p. 45,",
+     "transcription": "Vox *ǵawzahar,* e Persico *gawzahr* ڭوزهر, significat: 1) circulum pareclipticum (cfr. p. 45,",
+     "semantic_anchor": "AB01-PDF0339-P05",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0339-body-L025",
+     "source_line_no": null,
+     "tex": "adn. 3) Lunae seu orbitam lunarem; 2) nodos orbitae lunaris, et praesertim nodum ascenden-",
+     "transcription": "adn. 3) Lunae seu orbitam lunarem; 2) nodos orbitae lunaris, et praesertim nodum ascenden-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0339-body-L026",
+     "source_line_no": null,
+     "tex": "tem; 3) nodos orbitae cuiuscumque planetae. Probabiliter est vox Zendica \\textit{gaocithra} « semen",
+     "transcription": "tem; 3) nodos orbitae cuiuscumque planetae. Probabiliter est vox Zendica *gaocithra* « semen",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0339-body-L027",
+     "source_line_no": null,
+     "tex": "« bovum [servans] », epitheton Lunae in libro \\textit{Avestā} inscripto; putabant enim Lunam semen",
+     "transcription": "« bovum [servans] », epitheton Lunae in libro *Avestā* inscripto; putabant enim Lunam semen",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0339-body-L028",
+     "source_line_no": null,
+     "tex": "primi bovis servavisse, et ex eo varia armentorum genera procreavisse (1). Apud scriptores",
+     "transcription": "primi bovis servavisse, et ex eo varia armentorum genera procreavisse (1). Apud scriptores",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0339-body-L029",
+     "source_line_no": null,
+     "tex": "Latinos saeculi XI et seqq. nomen Arabicum corruptum in \\textit{iozahar, iehuzar, gehuzahar,}",
+     "transcription": "Latinos saeculi XI et seqq. nomen Arabicum corruptum in *iozahar, iehuzar, gehuzahar,*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0339-body-L030",
+     "source_line_no": null,
+     "tex": "\\textit{geuzaar, genzahar, zeunzaar, çeuçahat} saepe invenitur; cfr. M. \\Name{Steinschneider}, \\textit{Let-}",
+     "transcription": "*geuzaar, genzahar, zeunzaar, çeuçahat* saepe invenitur; cfr. M. {sp:Steinschneider}, *Let-*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0339-body-L031",
+     "source_line_no": null,
+     "tex": "\\textit{tera seconda a D. B. Boncompagni, intorno al libro} « \\textit{Saraceni cuiusdam de eris} »,",
+     "transcription": "*tera seconda a D. B. Boncompagni, intorno al libro* « *Saraceni cuiusdam de eris* »,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0339-body-L032",
+     "source_line_no": null,
+     "tex": "Roma 1863, p. 15–16 et 19.",
+     "transcription": "Roma 1863, p. 15–16 et 19.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0339-body-L033",
+     "source_line_no": null,
+     "tex": "\\CenterLine{A\\textsc{d} \\textsc{caput} XXXVIII.}",
+     "transcription": "A{sc:d} {sc:caput} XXXVIII.",
+     "semantic_anchor": "AB01-PDF0339-H33",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0339-body-L034",
+     "source_line_no": null,
+     "tex": "\\CenterLine{\\textbf{\\textit{a}}) — \\textit{Pag. 76, l. 10-17.}}",
+     "transcription": "{bi:a}) — *Pag. 76, l. 10-17.*",
+     "semantic_anchor": "AB01-PDF0339-H34",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0339-body-L035",
+     "source_line_no": null,
+     "tex": "\\Indent \\textit{Argumentum latitudinis,} quod est arcus orbitae lunaris inter quoddam orbitae punctum",
+     "transcription": "*Argumentum latitudinis,* quod est arcus orbitae lunaris inter quoddam orbitae punctum",
+     "semantic_anchor": "AB01-PDF0339-P06",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0339-body-L036",
+     "source_line_no": null,
+     "tex": "et Lunae locum dato temporis momento, \\Name{Ptolemaeus} et \\Name{Theon} (\\textit{Tables manuelles} t. I,",
+     "transcription": "et Lunae locum dato temporis momento, {sp:Ptolemaeus} et {sp:Theon} (*Tables manuelles* t. I,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0339-body-L037",
+     "source_line_no": null,
+     "tex": "p. 55 et passim) numerant a \\textit{termino boreali} (\\textgreek{βόρειον πέρας}) scilicet a puncto orbis lunaris in",
+     "transcription": "p. 55 et passim) numerant a *termino boreali* (βόρειον πέρας) scilicet a puncto orbis lunaris in",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    }
+   ]
+  },
+  {
+   "role": "notes",
+   "lines": [
+    {
+     "id": "AB01-PDF0339-notes-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (1) F. \\Name{Spiegel}, \\textit{Erânische Alterthumskunde,} Leipzig 1871-1878, t. II, p. 70 (quem locum mihi",
+     "transcription": "(1) F. {sp:Spiegel}, *Erânische Alterthumskunde,* Leipzig 1871-1878, t. II, p. 70 (quem locum mihi",
+     "semantic_anchor": "AB01-PDF0339-N01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0339-notes-L002",
+     "source_line_no": null,
+     "tex": "I. \\Name{Pizzi} suppeditavit).",
+     "transcription": "I. {sp:Pizzi} suppeditavit).",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,154 @@
+{
+ "pdf": 339,
+ "printed_page": 250,
+ "comment": [
+  "Nallino, Part I p. 250: Schiaparelli's figure of the epicycle, redrawn from the print: the circle about the",
+  "Earth T through the centre O of the epicycle, the epicycle about O, the line from T through O to M, the tangents",
+  "from T touching the epicycle at K and I, drawn on beyond them, the radii OK and OI, and the bold italic letters.",
+  "Measured on the scan (_intake/latin/tools/fig250)."
+ ],
+ "origin": [
+  110.2,
+  105.06
+ ],
+ "scale": 0.98925,
+ "size": [
+  114.0,
+  146.0
+ ],
+ "label_pt": 11,
+ "circles": [
+  {
+   "name": "the circle about T",
+   "cx": 168.3,
+   "cy": 194.94,
+   "r": 54.69,
+   "w": 1.41
+  },
+  {
+   "name": "the epicycle about O",
+   "cx": 178.93,
+   "cy": 141.31,
+   "r": 18.79,
+   "w": 1.54
+  }
+ ],
+ "segments": [
+  {
+   "name": "the line from T through O to M",
+   "x0": 168.8,
+   "y0": 194.22,
+   "x1": 181.94,
+   "y1": 122.0,
+   "w": 1.0
+  },
+  {
+   "name": "the tangent TK, drawn on beyond K",
+   "x0": 168.8,
+   "y0": 194.22,
+   "x1": 156.91,
+   "y1": 126.38,
+   "w": 1.08
+  },
+  {
+   "name": "the tangent TI, drawn on beyond I",
+   "x0": 168.8,
+   "y0": 194.22,
+   "x1": 203.21,
+   "y1": 136.04,
+   "w": 1.16
+  },
+  {
+   "name": "the radius OK",
+   "x0": 178.34,
+   "y0": 141.82,
+   "x1": 160.16,
+   "y1": 144.81,
+   "w": 0.82
+  },
+  {
+   "name": "the radius OI",
+   "x0": 178.34,
+   "y0": 141.82,
+   "x1": 194.74,
+   "y1": 150.39,
+   "w": 0.93
+  }
+ ],
+ "labels": [
+  {
+   "t": "\\resizebox{8.69pt}{7.46pt}{M}",
+   "cx": 182.91,
+   "cy": 115.92,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{6.06pt}{7.11pt}{O}",
+   "cx": 182.63,
+   "cy": 137.24,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{6.70pt}{7.69pt}{K}",
+   "cx": 154.81,
+   "cy": 147.34,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{3.24pt}{6.86pt}{I}",
+   "cx": 195.46,
+   "cy": 155.78,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{5.29pt}{7.23pt}{T}",
+   "cx": 160.99,
+   "cy": 196.9,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  }
+ ],
+ "boxes": {
+  "M@178,112": [
+   9.12,
+   7.68
+  ],
+  "O@180,133": [
+   5.64,
+   7.32
+  ],
+  "K@151,143": [
+   7.2,
+   7.8
+  ],
+  "I@194,152": [
+   3.96,
+   6.96
+  ],
+  "T@159,193": [
+   5.28,
+   7.32
+  ]
+ },
+ "points": {
+  "T": [
+   168.8,
+   194.22
+  ],
+  "O": [
+   178.34,
+   141.82
+  ],
+  "K": [
+   160.16,
+   144.81
+  ],
+  "I": [
+   194.74,
+   150.39
+  ],
+  "M": [
+   181.94,
+   122.0
+  ]
+ }
+}
