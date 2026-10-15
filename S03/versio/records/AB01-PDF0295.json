@@ -1,0 +1,479 @@
+{
+ "anchor": "AB01-PDF0295",
+ "master_pdf_page": 295,
+ "printed_page": 206,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "margin_locators": [],
+ "observations": [
+  "body L1-L8: Nallino's calculation is right: 3600″/80 = 45″; 3548″/45″ = 78,844, so 45″ take 1/78,844 of a day, and 1440m/78,844 = 18m,264 = 18m 16s; 365d 5h 55m + 18m 16s = 365d 6h 13m 16s.",
+  "body L7, L10-L11: the dashes of «al–Battānī», «al–Wānsharīshī» and «al–Ǵādirī» are long dashes (5.5 pt).",
+  "body L16-L17: Burgess' name is letter-spaced and divided between the lines; its hyphen is printed short, like a point.",
+  "body L20: the dash of «indo–arischen» is a long dash.",
+  "body (table): the table is boxed by double rules, the head separated from the rows by a single rule; the heads are in small capitals. The rule between the column of the names and that of the ages is drawn, over the first four rows, as a brace pointing to «ante V vel VI saeculum», which stands between the second and the third row; the rule runs on above and below the brace. The first row carries the signs of days, hours, minutes and seconds, the seconds' sign before the point; specks stand before «31.» in the second row and before «365» in the seventh.",
+  "body (table): the values that follow from the days of the yugas are right: 1577917828 days in 4320000 years (Sūrya-Siddhānta) give 365d 6h 12m 36s.56, 1577917500 days (Prior Ārya-Siddhānta) 365d 6h 12m 30s, and Brahmagupta's 1577916450000 days in 4320000000 years (Brahma Siddhānta) 365d 6h 12m 9s; the Romaka-Siddhānta's 365d 5h 55m 12s is Ptolemy's tropical year, 365 1/4 − 1/300 days.",
+  "body L31: the dash of the italic «Romaka–Siddhānta» is a long dash."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0295-body-L001",
+     "source_line_no": null,
+     "tex": "\\Indent Ratiocinatio tamen \\Name{Letronniana} tota ab errore calculi pendet, quem \\Name{Martin} non",
+     "transcription": "Ratiocinatio tamen {sp:Letronniana} tota ab errore calculi pendet, quem {sp:Martin} non",
+     "semantic_anchor": "AB01-PDF0295-P01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0295-body-L002",
+     "source_line_no": null,
+     "tex": "animadvertit (1). Nam 1° (seu 3600″) per 80 annos divisus arcum annuum efficit 45 secunda-",
+     "transcription": "animadvertit (1). Nam 1° (seu 3600″) per 80 annos divisus arcum annuum efficit 45 secunda-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0295-body-L003",
+     "source_line_no": null,
+     "tex": "rum, non 40″. Solis motus diurnus apud Ptolemaeum est 0° 59′ 8″ seu 3548″; quae, per 45″",
+     "transcription": "rum, non 40″. Solis motus diurnus apud Ptolemaeum est 0° 59′ 8″ seu 3548″; quae, per 45″",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0295-body-L004",
+     "source_line_no": null,
+     "tex": "divisa, indicant arcum 45″ percurri fractione diei 78,844..... Minuta temporis quae dies com-",
+     "transcription": "divisa, indicant arcum 45″ percurri fractione diei 78,844..... Minuta temporis quae dies com-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0295-body-L005",
+     "source_line_no": null,
+     "tex": "plectitur, scilicet 1440\\textsuperscript{\\textit{m}}, per 78,84 dividantur; provenient 18\\textsuperscript{\\textit{m}},264..... vel 18\\textsuperscript{\\textit{m}} 16\\textsuperscript{\\textit{s}} fere, non",
+     "transcription": "plectitur, scilicet 1440{sup:*m*}, per 78,84 dividantur; provenient 18{sup:*m*},264..... vel 18{sup:*m*} 16{sup:*s*} fere, non",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0295-body-L006",
+     "source_line_no": null,
+     "tex": "16\\textsuperscript{\\textit{m}} 19\\textsuperscript{\\textit{s}} ut Letronne habet. Hoc temporis spatium addatur anno tropico Ptolemaei; invenietur",
+     "transcription": "16{sup:*m*} 19{sup:*s*} ut Letronne habet. Hoc temporis spatium addatur anno tropico Ptolemaei; invenietur",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0295-body-L007",
+     "source_line_no": null,
+     "tex": "365\\textsuperscript{\\textit{d}} 5\\textsuperscript{\\textit{h}} 55\\textsuperscript{\\textit{m}} $+$ 18\\textsuperscript{\\textit{m}} 16\\textsuperscript{\\textit{s}} $=$ 365\\textsuperscript{\\textit{d}} 6\\textsuperscript{\\textit{h}} 13\\textsuperscript{\\textit{m}} 16\\textsuperscript{\\textit{s}}, quod ab anno sidereo apud al–Battānī memorato",
+     "transcription": "365{sup:*d*} 5{sup:*h*} 55{sup:*m*} $+$ 18{sup:*m*} 16{sup:*s*} $=$ 365{sup:*d*} 6{sup:*h*} 13{sup:*m*} 16{sup:*s*}, quod ab anno sidereo apud al–Battānī memorato",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0295-body-L008",
+     "source_line_no": null,
+     "tex": "(qualiscumque lectio, 12\\textsuperscript{\\textit{m}} codicis vel 11\\textsuperscript{\\textit{m}} fere Platonis, pro bona recipiatur) differt.",
+     "transcription": "(qualiscumque lectio, 12{sup:*m*} codicis vel 11{sup:*m*} fere Platonis, pro bona recipiatur) differt.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0295-body-L009",
+     "source_line_no": null,
+     "tex": "\\Indent Omnia itaque quae \\Name{Letronne} et \\Name{Martin} de talis anni origine scribunt reiicienda esse",
+     "transcription": "Omnia itaque quae {sp:Letronne} et {sp:Martin} de talis anni origine scribunt reiicienda esse",
+     "semantic_anchor": "AB01-PDF0295-P02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0295-body-L010",
+     "source_line_no": null,
+     "tex": "puto. Restat ut inquiramus an longitudo anni solaris quam al–Battānī et al–Wānsharīshī (se-",
+     "transcription": "puto. Restat ut inquiramus an longitudo anni solaris quam al–Battānī et al–Wānsharīshī (se-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0295-body-L011",
+     "source_line_no": null,
+     "tex": "cundum al–Ǵādirī) Aegyptiis Babyloniisque tribuunt (al–Battānī quoque astrologis theoriae",
+     "transcription": "cundum al–Ǵādirī) Aegyptiis Babyloniisque tribuunt (al–Battānī quoque astrologis theoriae",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0295-body-L012",
+     "source_line_no": null,
+     "tex": "trepidationis asseclis), alibi etiam memoretur.",
+     "transcription": "trepidationis asseclis), alibi etiam memoretur.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0295-body-L013",
+     "source_line_no": null,
+     "tex": "\\Indent Astronomi Indici annum sidereum cognoscunt, qui ab antea memorato tantum ob secundas",
+     "transcription": "Astronomi Indici annum sidereum cognoscunt, qui ab antea memorato tantum ob secundas",
+     "semantic_anchor": "AB01-PDF0295-P03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0295-body-L014",
+     "source_line_no": null,
+     "tex": "temporis additas differt. Habent enim cyclos, quos \\textit{yuga} vocant, aliquot annorum millia com-",
+     "transcription": "temporis additas differt. Habent enim cyclos, quos *yuga* vocant, aliquot annorum millia com-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0295-body-L015",
+     "source_line_no": null,
+     "tex": "plectentes, et quibus certum dierum numerum tribuunt; annos unius \\textit{yuga} per dierum nu-",
+     "transcription": "plectentes, et quibus certum dierum numerum tribuunt; annos unius *yuga* per dierum nu-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0295-body-L016",
+     "source_line_no": null,
+     "tex": "merum dividendo, longitudo anni facile deducitur. Indicorum annorum tabulam sumo e J. \\Name{Bur-}",
+     "transcription": "merum dividendo, longitudo anni facile deducitur. Indicorum annorum tabulam sumo e J. {sp:Bur-}",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0295-body-L017",
+     "source_line_no": null,
+     "tex": "\\Name{gess}, \\textit{Notes on Hindu Astronomy and the history of our knowledge of it} (in Journal of",
+     "transcription": "{sp:gess}, *Notes on Hindu Astronomy and the history of our knowledge of it* (in Journal of",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0295-body-L018",
+     "source_line_no": null,
+     "tex": "the R. Asiatic Society of Great Britain, New Series, t. XXV, 1893, p. 722); aetatem librorum",
+     "transcription": "the R. Asiatic Society of Great Britain, New Series, t. XXV, 1893, p. 722); aetatem librorum",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0295-body-L019",
+     "source_line_no": null,
+     "tex": "secundum G. \\Name{Thibaut}, \\textit{Astronomie, Astrologie und Mathematik} [\\textit{der Inder}], Strassburg",
+     "transcription": "secundum G. {sp:Thibaut}, *Astronomie, Astrologie und Mathematik* [*der Inder*], Strassburg",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0295-body-L020",
+     "source_line_no": null,
+     "tex": "1899 (= Grundriss der indo–arischen Philologie, begründet von G. Bühler, fortgesetzt von",
+     "transcription": "1899 (= Grundriss der indo–arischen Philologie, begründet von G. Bühler, fortgesetzt von",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0295-body-L021",
+     "source_line_no": null,
+     "tex": "F. Kielhorn, t. III, fasc. 9) indico:",
+     "transcription": "F. Kielhorn, t. III, fasc. 9) indico:",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0295-body-L022",
+     "source_line_no": null,
+     "tex": "\\hspace*{15.69mm}\\rule[-1mm]{.4pt}{13.78mm}\\hspace{1.2pt}\\rule[-1mm]{.4pt}{13.78mm}\\hspace{1.5mm}\\raisebox{-1mm}{\\parbox[b][13.78mm][c]{42.21mm}{\\centering\\fontsize{7.5}{9}\\selectfont\\leavevmode \\textsc{{\\fontsize{9.5}{11}\\selectfont Nomen libri}}}}\\hspace{1.5mm}\\rule[-1mm]{.4pt}{13.78mm}\\hspace{1.5mm}\\raisebox{-1mm}{\\parbox[b][13.78mm][c]{34.15mm}{\\centering\\fontsize{7.5}{9}\\selectfont\\leavevmode \\textsc{{\\fontsize{9.5}{11}\\selectfont Aetas post christum}}}}\\hspace{1.5mm}\\rule[-1mm]{.4pt}{13.78mm}\\hspace{1.5mm}\\raisebox{-1mm}{\\parbox[b][13.78mm][c]{28.84mm}{\\centering\\fontsize{7.5}{9}\\selectfont\\leavevmode \\textsc{{\\fontsize{9.5}{11}\\selectfont Anni longitudo}}}}\\hspace{1.5mm}\\rule[-1mm]{.4pt}{13.78mm}\\hspace{1.2pt}\\rule[-1mm]{.4pt}{13.78mm}",
+     "transcription": "{sc:{sm:Nomen libri}} | {sc:{sm:Aetas post christum}} | {sc:{sm:Anni longitudo}}",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0295-body-L023",
+     "source_line_no": null,
+     "tex": "\\hspace*{15.69mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[42.21mm][l]{\\smash{\\hspace*{1.46mm}Sūrya-Siddhānta (2)}}\\makebox[3.14mm][l]{\\smash{\\hspace*{1.50mm}\\smash{\\raisebox{-46.50pt}{\\tikz\\draw[line width=.55pt,decorate,decoration={brace,amplitude=2.3pt}] (0,52.4pt) -- (0,0);}}}}\\makebox[34.15mm][c]{\\smash{}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[6.29mm][r]{365\\rlap{\\textsuperscript{\\textit{d}}}}\\makebox[4.50mm][r]{6\\rlap{\\textsuperscript{\\textit{h}}}}\\makebox[6.04mm][r]{12\\rlap{\\textsuperscript{\\textit{m}}}}\\makebox[5.45mm][r]{36\\rlap{\\textsuperscript{\\textit{s}}.}}\\makebox[6.56mm][l]{\\smash{\\hspace*{2.09mm}56}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}",
+     "transcription": "Sūrya-Siddhānta (2) | {rbrace:52.4:5.9} |  | 365{sup:*d*} | 6{sup:*h*} | 12{sup:*m*} | 36{sup:*s*}. | 56",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0295-body-L024",
+     "source_line_no": null,
+     "tex": "\\hspace*{15.69mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[42.21mm][l]{\\smash{\\hspace*{1.46mm}Parāśara-Siddhānta}}\\makebox[3.14mm][l]{\\smash{\\hspace*{1.50mm}}}\\makebox[34.15mm][c]{\\smash{\\raisebox{-7.43pt}{ante V vel VI saeculum}}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[6.29mm][r]{\\smash{365}}\\makebox[4.50mm][r]{\\smash{6}}\\makebox[6.04mm][r]{\\smash{12}}\\makebox[5.45mm][r]{31\\rlap{.}}\\makebox[6.56mm][l]{\\smash{\\hspace*{2.09mm}50}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}",
+     "transcription": "Parāśara-Siddhānta |  | ante V vel VI saeculum | 365 | 6 | 12 | 31. | 50",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0295-body-L025",
+     "source_line_no": null,
+     "tex": "\\hspace*{15.69mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[42.21mm][l]{\\smash{\\hspace*{1.46mm}Pauliśa-Siddhānta}}\\makebox[3.14mm][l]{\\smash{\\hspace*{1.50mm}}}\\makebox[34.15mm][c]{\\smash{}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[6.29mm][r]{\\smash{365}}\\makebox[4.50mm][r]{\\smash{6}}\\makebox[6.04mm][r]{\\smash{12}}\\makebox[5.45mm][r]{\\smash{36}}\\makebox[6.56mm][l]{\\smash{\\hspace*{2.09mm}}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}",
+     "transcription": "Pauliśa-Siddhānta |  |  | 365 | 6 | 12 | 36 | ",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0295-body-L026",
+     "source_line_no": null,
+     "tex": "\\hspace*{15.69mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[42.21mm][l]{\\smash{\\hspace*{1.46mm}Romaka-Siddhānta}}\\makebox[3.14mm][l]{\\smash{\\hspace*{1.50mm}}}\\makebox[34.15mm][c]{\\smash{}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[6.29mm][r]{\\smash{365}}\\makebox[4.50mm][r]{\\smash{5}}\\makebox[6.04mm][r]{\\smash{55}}\\makebox[5.45mm][r]{\\smash{12}}\\makebox[6.56mm][l]{\\smash{\\hspace*{2.09mm}}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}",
+     "transcription": "Romaka-Siddhānta |  |  | 365 | 5 | 55 | 12 | ",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0295-body-L027",
+     "source_line_no": null,
+     "tex": "\\hspace*{15.69mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[42.21mm][l]{\\smash{\\hspace*{1.46mm}Prior Ārya-Siddhānta}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[34.15mm][c]{\\smash{499}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[6.29mm][r]{\\smash{365}}\\makebox[4.50mm][r]{\\smash{6}}\\makebox[6.04mm][r]{\\smash{12}}\\makebox[5.45mm][r]{\\smash{30}}\\makebox[6.56mm][l]{\\smash{\\hspace*{2.09mm}}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}",
+     "transcription": "Prior Ārya-Siddhānta | 499 | 365 | 6 | 12 | 30 | ",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0295-body-L028",
+     "source_line_no": null,
+     "tex": "\\hspace*{15.69mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[42.21mm][l]{\\smash{\\hspace*{1.46mm}Brahma Siddhānta}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[34.15mm][c]{\\smash{628}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[6.29mm][r]{\\smash{365}}\\makebox[4.50mm][r]{\\smash{6}}\\makebox[6.04mm][r]{\\smash{12}}\\makebox[5.45mm][r]{\\smash{9}}\\makebox[6.56mm][l]{\\smash{\\hspace*{2.09mm}}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}",
+     "transcription": "Brahma Siddhānta | 628 | 365 | 6 | 12 | 9 | ",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0295-body-L029",
+     "source_line_no": null,
+     "tex": "\\hspace*{15.69mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[42.21mm][l]{\\smash{\\hspace*{1.46mm}Posterior Ārya-Siddhānta}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[34.15mm][c]{\\smash{650-1150}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[6.29mm][r]{\\smash{365}}\\makebox[4.50mm][r]{\\smash{6}}\\makebox[6.04mm][r]{\\smash{12}}\\makebox[5.45mm][r]{36\\rlap{.}}\\makebox[6.56mm][l]{\\smash{\\hspace*{2.09mm}84}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}",
+     "transcription": "Posterior Ārya-Siddhānta | 650-1150 | 365 | 6 | 12 | 36. | 84",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0295-body-L030",
+     "source_line_no": null,
+     "tex": "\\hspace*{15.69mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[42.21mm][l]{\\smash{\\hspace*{1.46mm}Siddhānta-Śiromaṇi}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[34.15mm][c]{\\smash{1150}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.5mm}\\makebox[6.29mm][r]{\\smash{365}}\\makebox[4.50mm][r]{\\smash{6}}\\makebox[6.04mm][r]{\\smash{12}}\\makebox[5.45mm][r]{\\smash{9}}\\makebox[6.56mm][l]{\\smash{\\hspace*{2.09mm}}}\\hspace{1.5mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}",
+     "transcription": "Siddhānta-Śiromaṇi | 1150 | 365 | 6 | 12 | 9 | ",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0295-body-L031",
+     "source_line_no": null,
+     "tex": "\\Indent Excepto igitur \\textit{Romaka–Siddhānta}, qui annum tropicum Ptolemaei praebet, anni omnes",
+     "transcription": "Excepto igitur *Romaka–Siddhānta*, qui annum tropicum Ptolemaei praebet, anni omnes",
+     "semantic_anchor": "AB01-PDF0295-P04",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0295-body-L032",
+     "source_line_no": null,
+     "tex": "Indici (siderei), si secundae negligantur, eandem habent longitudinem quam codex Escurialensis",
+     "transcription": "Indici (siderei), si secundae negligantur, eandem habent longitudinem quam codex Escurialensis",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    }
+   ]
+  },
+  {
+   "role": "notes_left",
+   "lines": [
+    {
+     "id": "AB01-PDF0295-notes_left-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (1) \\Name{Martin} autem al–Battānī tantum ex iis",
+     "transcription": "(1) {sp:Martin} autem al–Battānī tantum ex iis",
+     "semantic_anchor": "AB01-PDF0295-N01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0295-notes_left-L002",
+     "source_line_no": null,
+     "tex": "quae \\Name{Letronne} refert cognovit; ambo, ut in ad-",
+     "transcription": "quae {sp:Letronne} refert cognovit; ambo, ut in ad-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0295-notes_left-L003",
+     "source_line_no": null,
+     "tex": "notationibus ad LII caput videbimus, Albatenio quae-",
+     "transcription": "notationibus ad LII caput videbimus, Albatenio quae-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0295-notes_left-L004",
+     "source_line_no": null,
+     "tex": "dam tribuunt quae ille nunquam dixit.",
+     "transcription": "dam tribuunt quae ille nunquam dixit.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0295-notes_left-L005",
+     "source_line_no": null,
+     "tex": "\\Indent (2) In vetustiore libri redactione annus 365\\textsuperscript{\\textit{d}}",
+     "transcription": "(2) In vetustiore libri redactione annus 365{sup:*d*}",
+     "semantic_anchor": "AB01-PDF0295-N02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0295-notes_left-L006",
+     "source_line_no": null,
+     "tex": "6\\textsuperscript{\\textit{h}} 12\\textsuperscript{\\textit{m}} 36\\textsuperscript{\\textit{s}} exacte fuisse videtur, ut apparet e libro",
+     "transcription": "6{sup:*h*} 12{sup:*m*} 36{sup:*s*} exacte fuisse videtur, ut apparet e libro",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  },
+  {
+   "role": "notes_right",
+   "lines": [
+    {
+     "id": "AB01-PDF0295-notes_right-L001",
+     "source_line_no": null,
+     "tex": "\\textit{The Pañchasiddhāntikā, the astronomical work}",
+     "transcription": "*The Pañchasiddhāntikā, the astronomical work*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0295-notes_right-L002",
+     "source_line_no": null,
+     "tex": "\\textit{of} \\Name{Varāha Mihira}, edited with an original",
+     "transcription": "*of* {sp:Varāha Mihira}, edited with an original",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0295-notes_right-L003",
+     "source_line_no": null,
+     "tex": "commentary in sanskrit and an english translation",
+     "transcription": "commentary in sanskrit and an english translation",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0295-notes_right-L004",
+     "source_line_no": null,
+     "tex": "and introduction by G. \\Name{Thibaut} and \\Name{Sudhākara}",
+     "transcription": "and introduction by G. {sp:Thibaut} and {sp:Sudhākara}",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0295-notes_right-L005",
+     "source_line_no": null,
+     "tex": "\\Name{Dvivedī}, Benares 1889, pag. 5 vers., cap. I, stro-",
+     "transcription": "{sp:Dvivedī}, Benares 1889, pag. 5 vers., cap. I, stro-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0295-notes_right-L006",
+     "source_line_no": null,
+     "tex": "pha 14.",
+     "transcription": "pha 14.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  }
+ ]
+}
