@@ -638,10 +638,10 @@ def brace_tex(src):
 
 
 def pos_item(it):
-    """one item of a @pos line: X[flags]:TEXT, X in mm from the left edge of the text; flags > right-aligned at X,
-    ^ centred at X, _ lowered by half a line (a fraction set between two printed lines); in TEXT, ~ hangs the rest
-    to the right of the alignment point (17~° right-aligned on its digits)"""
-    m = re.match(r"^(\d+(?:\.\d+)?)([>^_]*):(.*)$", it)
+    """one item of a @pos line: X[flags]:TEXT, X in mm from the left edge of the text (negative: in the margin);
+    flags > right-aligned at X, ^ centred at X, _ lowered by half a line (a fraction set between two printed lines);
+    in TEXT, ~ hangs the rest to the right of the alignment point (17~° right-aligned on its digits)"""
+    m = re.match(r"^(-?\d+(?:\.\d+)?)([>^_]*):(.*)$", it)
     if not m:
         raise SystemExit(f"@pos item without a position: {it}")
     x, flags, text = float(m.group(1)), m.group(2), m.group(3).strip()
