@@ -1,0 +1,409 @@
+{
+ "anchor": "AB01-PDF0362",
+ "master_pdf_page": 362,
+ "printed_page": 273,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": "35",
+ "margin_locators": [],
+ "observations": [
+  "body L1-L3, L25-L28: the head of the commentary on chapter 42 is set in small capitals; the dashes after «a)» and «b)» and before «Schiaparelli» (L25) measure 10.0 to 10.1 pt, the dash of «33—pag.» (L26) 9.3 pt; «5–11» (L2), «38–40» and «al–Battānī» (L28) have long dashes (5.3 pt). Heavy brackets open Schiaparelli's additions in L3 and L27 and close the first in L25; the second goes on to p. 274.",
+  "body L3-L5: 5° 1′ and 7° 40′ are the greatest equations of the anomaly at the syzygies and at the quadratures, the apparent radius of the epicycle, 5;15 parts, seen from 60 parts and from 60 − 2 × 10;19 = 39;22 parts; their difference is 2° 39′ = 159′, and 5° 1′ = 301′.",
+  "body L8-L9, L13: the hourly motion in anomaly, 13° 3′ 54″ a day, is 32′ 40″ an hour, about 33′. The distance of the centre of the epicycle, 60 parts, is 11.4 times its radius, 5;15 parts; the print takes twelve times, which gives 33′ : 12 = 165″. In L13, 165″ · 2/180 = 33″/18, and 33 · 159 = 5247, 18 · 301 = 5418: the coefficient is 0.968.",
+  "body L22-L23: the small chapter H of al-Battānī (p. 150, L24-L30 of the translation) subtracts the minutes when the corrected anomaly lies from 0° to 95° or from 265° to 360°, and adds them from 95° to 265°.",
+  "body L28, L33-L34: the precept of p. 93, L38-L40 of the translation adds 1/6 + 1/8 = 7/24 of the difference to the anomaly when the degrees of the Sun exceed those of the Moon. The mean synodic motion, 12° 11′ 27″ a day (p. 267), is 30′ 29″ an hour, 1° in 1 h 58 min.",
+  "body L35: «media» at the beginning of the line is set in bold italic, heavier than the italic «excedet»; kept as printed.",
+  "body L37-L38: specks stand before «Sit» (L37), above the space between «cfr.» and «p.» (L38) and above the stop after «EO» (L38); they are not punctuation."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0362-body-L001",
+     "source_line_no": null,
+     "tex": "\\CenterLine{A\\textsc{d} \\textsc{caput} XLII.}",
+     "transcription": "A{sc:d} {sc:caput} XLII.",
+     "semantic_anchor": "AB01-PDF0362-H01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0362-body-L002",
+     "source_line_no": null,
+     "tex": "\\CenterLine{\\textbf{\\textit{a}}) — \\textit{Pag. 94, l. 5–11.}}",
+     "transcription": "{bi:a}) — *Pag. 94, l. 5–11.*",
+     "semantic_anchor": "AB01-PDF0362-H02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0362-body-L003",
+     "source_line_no": null,
+     "tex": "\\Indent [Praecepta pertinent ad secundam aequationem calculi evectionis. Si pro dupla elonga-",
+     "transcription": "[Praecepta pertinent ad secundam aequationem calculi evectionis. Si pro dupla elonga-",
+     "semantic_anchor": "AB01-PDF0362-P01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0362-body-L004",
+     "source_line_no": null,
+     "tex": "tione 180° radius apparens epicycli (ergo velocitas etiam qua aequatio anomaliae crescit) auge-",
+     "transcription": "tione 180° radius apparens epicycli (ergo velocitas etiam qua aequatio anomaliae crescit) auge-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0362-body-L005",
+     "source_line_no": null,
+     "tex": "tur a 5° 1′ ad 7° 40′, quanto crescet pro dupla elongatione 2\\textgreek{ε}°? Manifeste $\\dfrac{\\text{2° 39′}}{\\text{5° 1′}}\\cdot\\dfrac{\\text{2\\textgreek{ε}°}}{\\text{180°}}$ circiter.",
+     "transcription": "tur a 5° 1′ ad 7° 40′, quanto crescet pro dupla elongatione 2ε°? Manifeste $\\dfrac{\\text{2° 39′}}{\\text{5° 1′}}\\cdot\\dfrac{\\text{2ε°}}{\\text{180°}}$ circiter.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0362-body-L006",
+     "source_line_no": null,
+     "tex": "Eadem proportione velocitas aequationis anomaliae crescet in segmento superiore epicycli contra",
+     "transcription": "Eadem proportione velocitas aequationis anomaliae crescet in segmento superiore epicycli contra",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0362-body-L007",
+     "source_line_no": null,
+     "tex": "ordinem signorum, in segmento inferiore ad signorum ordinem (ab occasu ad ortum). Haec velo-",
+     "transcription": "ordinem signorum, in segmento inferiore ad signorum ordinem (ab occasu ad ortum). Haec velo-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0362-body-L008",
+     "source_line_no": null,
+     "tex": "citas media horaria cum sit 33′ circumferentiae epicycli, in oculo observatoris, qui duodecies",
+     "transcription": "citas media horaria cum sit 33′ circumferentiae epicycli, in oculo observatoris, qui duodecies",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0362-body-L009",
+     "source_line_no": null,
+     "tex": "longius consistit quam centrum epicycli, subtendet arcum duodecies minorem, seu $\\dfrac{\\text{33′}}{\\text{12}} = \\text{165″}$;",
+     "transcription": "longius consistit quam centrum epicycli, subtendet arcum duodecies minorem, seu $\\dfrac{\\text{33′}}{\\text{12}} = \\text{165″}$;",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0362-body-L010",
+     "source_line_no": null,
+     "tex": "cuius quantitatis sumenda erit pars indicata ratione antea exposita. Ergo motus horarius ap-",
+     "transcription": "cuius quantitatis sumenda erit pars indicata ratione antea exposita. Ergo motus horarius ap-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0362-body-L011",
+     "source_line_no": null,
+     "tex": "parens anomaliae in epicyclo crescet (et decrescet motus horarius Lunae in ecliptica cum Luna",
+     "transcription": "parens anomaliae in epicyclo crescet (et decrescet motus horarius Lunae in ecliptica cum Luna",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0362-body-L012",
+     "source_line_no": null,
+     "tex": "fuerit apogea, crescet cum fuerit perigea) quantitate horaria:",
+     "transcription": "fuerit apogea, crescet cum fuerit perigea) quantitate horaria:",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0362-body-L013",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{94.88mm}\\makebox[0pt][c]{$\\text{165″}\\,\\dfrac{\\text{2° 39′}}{\\text{5° 1′}}\\cdot\\dfrac{\\text{2\\textgreek{ε}°}}{\\text{180°}} = \\dfrac{\\text{33″}}{\\text{18}}\\cdot\\dfrac{\\text{159}}{\\text{301}}\\cdot\\dfrac{\\text{\\textgreek{ε}°}}{\\text{1°}} = \\dfrac{\\text{5247″}}{\\text{5418}}\\cdot\\dfrac{\\text{\\textgreek{ε}°}}{\\text{1°}}\\,.$}}",
+     "transcription": "$\\text{165″}\\,\\dfrac{\\text{2° 39′}}{\\text{5° 1′}}\\cdot\\dfrac{\\text{2ε°}}{\\text{180°}} = \\dfrac{\\text{33″}}{\\text{18}}\\cdot\\dfrac{\\text{159}}{\\text{301}}\\cdot\\dfrac{\\text{ε°}}{\\text{1°}} = \\dfrac{\\text{5247″}}{\\text{5418}}\\cdot\\dfrac{\\text{ε°}}{\\text{1°}}\\,.$",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0362-body-L014",
+     "source_line_no": null,
+     "tex": "Coefficiens tam paulum ab unitate differt ut fere 1 sumi possit; dicemus tunc \\textit{ob appropin-}",
+     "transcription": "Coefficiens tam paulum ab unitate differt ut fere 1 sumi possit; dicemus tunc *ob appropin-*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0362-body-L015",
+     "source_line_no": null,
+     "tex": "\\textit{quationem epicycli ad observatorem cum Luna extra mediam coniunctionem sit, motum}",
+     "transcription": "*quationem epicycli ad observatorem cum Luna extra mediam coniunctionem sit, motum*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0362-body-L016",
+     "source_line_no": null,
+     "tex": "\\textit{eius horarium apparentem in parte apogea epicycli tot secundis singula hora retardari}",
+     "transcription": "*eius horarium apparentem in parte apogea epicycli tot secundis singula hora retardari*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0362-body-L017",
+     "source_line_no": null,
+     "tex": "\\textit{quot gradus contineantur elongatione} \\textgreek{ε}°; \\textit{totidemque hunc motum horarium accelerari}",
+     "transcription": "*quot gradus contineantur elongatione* ε°; *totidemque hunc motum horarium accelerari*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0362-body-L018",
+     "source_line_no": null,
+     "tex": "\\textit{in epicycli parte perigea.} Hic ponit \\Name{Albatenius} Lunam esse prope perigeum aut apogeum",
+     "transcription": "*in epicycli parte perigea.* Hic ponit {sp:Albatenius} Lunam esse prope perigeum aut apogeum",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0362-body-L019",
+     "source_line_no": null,
+     "tex": "epicycli; effectus in maximis aequationibus anomaliae nullus est. At manifeste auctor rudem",
+     "transcription": "epicycli; effectus in maximis aequationibus anomaliae nullus est. At manifeste auctor rudem",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0362-body-L020",
+     "source_line_no": null,
+     "tex": "adproximationem sufficere existimavit.",
+     "transcription": "adproximationem sufficere existimavit.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0362-body-L021",
+     "source_line_no": null,
+     "tex": "\\Indent Ex iis quae diximus patet usus tabellae in parte dextera t. II, p. 88 et cur in adpendice H",
+     "transcription": "Ex iis quae diximus patet usus tabellae in parte dextera t. II, p. 88 et cur in adpendice H",
+     "semantic_anchor": "AB01-PDF0362-P02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0362-body-L022",
+     "source_line_no": null,
+     "tex": "(pag. 150) signum correctionis dicatur negativum esse a 265° ad 95° (in segmento epicycli supe-",
+     "transcription": "(pag. 150) signum correctionis dicatur negativum esse a 265° ad 95° (in segmento epicycli supe-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0362-body-L023",
+     "source_line_no": null,
+     "tex": "riore), positivum a 95° ad 265° (in segmento inferiore). Tabella ultra 7° non procedit, quia elon-",
+     "transcription": "riore), positivum a 95° ad 265° (in segmento inferiore). Tabella ultra 7° non procedit, quia elon-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0362-body-L024",
+     "source_line_no": null,
+     "tex": "gatio media tempore verae coniunctionis 7° paulum excedere potest, et nunquam 8° attingit.",
+     "transcription": "gatio media tempore verae coniunctionis 7° paulum excedere potest, et nunquam 8° attingit.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0362-body-L025",
+     "source_line_no": null,
+     "tex": "— \\textsc{Schiaparelli}.]",
+     "transcription": "— {sc:Schiaparelli}.]",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0362-body-L026",
+     "source_line_no": null,
+     "tex": "\\CenterLine{\\textbf{\\textit{b}}) — \\textit{Pag. 95, l. 33—pag. 96, l. 2.}}",
+     "transcription": "{bi:b}) — *Pag. 95, l. 33—pag. 96, l. 2.*",
+     "semantic_anchor": "AB01-PDF0362-H26",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0362-body-L027",
+     "source_line_no": null,
+     "tex": "\\Indent [Causa qua \\textit{anomaliae lunari} $\\qfrac{1}{6}$ + $\\qfrac{1}{8}$ differentiae longitudinis adduntur.",
+     "transcription": "[Causa qua *anomaliae lunari* {sfrac:1/6} + {sfrac:1/8} differentiae longitudinis adduntur.",
+     "semantic_anchor": "AB01-PDF0362-P03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0362-body-L028",
+     "source_line_no": null,
+     "tex": "\\Indent Praecepto pag. 93, l. 38–40 et eius rudi demonstratione quam nunc praebet, \\Name{al–Battānī}",
+     "transcription": "Praecepto pag. 93, l. 38–40 et eius rudi demonstratione quam nunc praebet, {sp:al–Battānī}",
+     "semantic_anchor": "AB01-PDF0362-P04",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0362-body-L029",
+     "source_line_no": null,
+     "tex": "aliquo modo vult calculum evectionis non negligere, cum tempus coniunctionis verae aliquot",
+     "transcription": "aliquo modo vult calculum evectionis non negligere, cum tempus coniunctionis verae aliquot",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0362-body-L030",
+     "source_line_no": null,
+     "tex": "horis distet a tempore mediae. Primum casuum ab Albatenio datorum ponamus, nempe tem-",
+     "transcription": "horis distet a tempore mediae. Primum casuum ab Albatenio datorum ponamus, nempe tem-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0362-body-L031",
+     "source_line_no": null,
+     "tex": "pore mediae coniunctionis locum verum Solis in ecliptica praecedere verum locum Lunae;",
+     "transcription": "pore mediae coniunctionis locum verum Solis in ecliptica praecedere verum locum Lunae;",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0362-body-L032",
+     "source_line_no": null,
+     "tex": "\\textgreek{ε} esse differentiam longitudinis in gradibus. Luna Soli appropinquabit uno gradu singulis dua-",
+     "transcription": "ε esse differentiam longitudinis in gradibus. Luna Soli appropinquabit uno gradu singulis dua-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0362-body-L033",
+     "source_line_no": null,
+     "tex": "bus horis fere exacte; ergo vera coniunctio eveniet fere 2\\textgreek{ε} horas post mediam, elongatio me-",
+     "transcription": "bus horis fere exacte; ergo vera coniunctio eveniet fere 2ε horas post mediam, elongatio me-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0362-body-L034",
+     "source_line_no": null,
+     "tex": "dia (quae tempore mediae coniunctionis nulla erat) in coniunctione vera \\textgreek{ε} erit, at longitudo",
+     "transcription": "dia (quae tempore mediae coniunctionis nulla erat) in coniunctione vera ε erit, at longitudo",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0362-body-L035",
+     "source_line_no": null,
+     "tex": "\\textbf{\\textit{media}} Lunae \\textgreek{ε} gradibus longitudinem mediam Solis \\textit{excedet,} et elongatio media lunaris erit",
+     "transcription": "{bi:media} Lunae ε gradibus longitudinem mediam Solis *excedet,* et elongatio media lunaris erit",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0362-body-L036",
+     "source_line_no": null,
+     "tex": "2\\textgreek{ε} gradibus in ortum versus, scilicet in directione positiva.",
+     "transcription": "2ε gradibus in ortum versus, scilicet in directione positiva.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0362-body-L037",
+     "source_line_no": null,
+     "tex": "\\Indent Sit AK circulus excentricus Lunae. O centrum, E Terra, N centrum aequantis seu pun-",
+     "transcription": "Sit AK circulus excentricus Lunae. O centrum, E Terra, N centrum aequantis seu pun-",
+     "semantic_anchor": "AB01-PDF0362-P05",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0362-body-L038",
+     "source_line_no": null,
+     "tex": "ctum circa quod motus centri epicycli semper uniformis apparet (cfr. p. 237), qua re EN $=$ EO.",
+     "transcription": "ctum circa quod motus centri epicycli semper uniformis apparet (cfr. p. 237), qua re EN $=$ EO.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    }
+   ]
+  }
+ ]
+}
