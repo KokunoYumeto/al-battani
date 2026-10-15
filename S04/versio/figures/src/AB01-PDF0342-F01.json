@@ -1,0 +1,127 @@
+{
+ "pdf": 342,
+ "printed_page": 253,
+ "comment": [
+  "Nallino, Part I p. 253: Schiaparelli's figure of the epicycle of Mercury, redrawn from the print: the arc AB of",
+  "the orbit of the Sun, the epicycle CD about I touching it at C, the line from C through I and D to the Earth T,",
+  "and the bold italic letters. Measured on the scan (_intake/latin/tools/fig253)."
+ ],
+ "origin": [
+  367.5,
+  397.38000000000005
+ ],
+ "scale": 0.99639,
+ "size": [
+  123.2,
+  105.2
+ ],
+ "label_pt": 11,
+ "circles": [
+  {
+   "name": "the epicycle CD about I",
+   "cx": 428.67,
+   "cy": 437.89,
+   "r": 24.68,
+   "w": 1.43
+  }
+ ],
+ "segments": [
+  {
+   "name": "the line from C through I and D to T",
+   "x0": 428.85,
+   "y0": 412.9,
+   "x1": 428.38,
+   "y1": 495.0,
+   "w": 1.25
+  }
+ ],
+ "arcs": [
+  {
+   "name": "the arc AB of the orbit of the Sun",
+   "cx": 428.11,
+   "cy": 493.73,
+   "r": 80.8,
+   "a0": -134.62,
+   "a1": -47.54,
+   "w": 1.48
+  }
+ ],
+ "labels": [
+  {
+   "t": "\\resizebox{4.83pt}{6.83pt}{C}",
+   "cx": 430.4,
+   "cy": 406.2,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{6.11pt}{7.63pt}{A}",
+   "cx": 371.14,
+   "cy": 428.92,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{6.90pt}{6.56pt}{B}",
+   "cx": 486.28,
+   "cy": 430.38,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{3.17pt}{7.99pt}{I}",
+   "cx": 433.03,
+   "cy": 436.74,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{4.34pt}{6.46pt}{D}",
+   "cx": 433.54,
+   "cy": 466.82,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{6.36pt}{6.92pt}{T}",
+   "cx": 431.99,
+   "cy": 498.14,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  }
+ ],
+ "boxes": {
+  "C@429,402": [
+   4.5,
+   6.96
+  ],
+  "A@368,425": [
+   6.0,
+   7.68
+  ],
+  "B@482,427": [
+   6.84,
+   6.6
+  ],
+  "I@431,432": [
+   3.84,
+   8.04
+  ],
+  "D@432,463": [
+   4.38,
+   6.48
+  ],
+  "T@430,494": [
+   6.3,
+   6.96
+  ]
+ },
+ "points": {
+  "C": [
+   428.85,
+   412.9
+  ],
+  "T": [
+   428.38,
+   495.0
+  ],
+  "I": [
+   428.67,
+   437.89
+  ]
+ }
+}

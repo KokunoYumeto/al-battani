@@ -1,0 +1,540 @@
+{
+ "anchor": "AB01-PDF0342",
+ "master_pdf_page": 342,
+ "printed_page": 253,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "margin_locators": [],
+ "observations": [
+  "body L1-L2, notes_left L9: with 3′ for the Sun at 104ᵖ, Venus at 16ᵖ would have 3′ × 104 : 16 = 19½′, about a third of a part, as Jābir says in note 1 («circiter tertiam partis»).",
+  "body L9, L12, L26: the dashes before «Quo» and «Schiaparelli» measure 10.2 and 9.8 pt; a speck over the e of «confidebat» (L12) is not transcribed.",
+  "body L13-L14: a heavy bracket opens Schiaparelli's addition; «al–Battānī» has a long dash (5.4 pt), and «120–21» is divided at its dash, which is printed at the end of L13 and again at the beginning of L14 (5.4 pt each).",
+  "body L15-L17: the table stands at the places measured on the print; the distances are al-Battānī's of p. 120-121 (S03), the apogee of the Moon, of Mercury and of Venus equal to the perigee of Mercury, of Venus and of the Sun. Recomputed, arcsin(1/64ᵖ 10′) = 53′ 34.6″, arcsin(1/166) = 20′ 42.6″, arcsin(1/1070) = 3′ 12.8″: the table has 53′ 34″, 20′ 42″ and 3′ 13″.",
+  "body L20-L26: the figure stands on the right of these lines and is redrawn from the print: the arc AB of the orbit of the Sun (radius 80.8 pt), drawn whole though it prints faint at the right of C, the epicycle CD about I (radius 24.7 pt), which touches it inside at C (their centres 55.8 pt apart, against 56.1 for contact), and the line from C through I and D to T; the bold italic letters stand where they are printed. As drawn, IC : IT is 24.7 : 57.1 = 0.43, not the 0,375 of L22, and T stands 1.3 pt from the centre of the arc.",
+  "body L22-L24: with IC = 0,375 IT, TC = IT + IC = 1,375 IT and TD = IT − IC = 0,625 IT (Ptolemy's epicycle of Mercury, 22ᵖ 30′ of 60ᵖ). But 3′ × 1,375 : 0,625 = 3′ × 2,2 = 6′,6 (6′ 36″), not the printed 6′,52; with Ptolemy's 2′ 51″ for the Sun it would be 6′ 16″.",
+  "body L27: the dash after «d)» measures 9.4 pt, the hyphen of «15-26» 3.6 pt.",
+  "body L29-L32: «ψ» is printed with a straight stem. Formula (α) is al-Battānī's rule of p. 78, L15-L20: the sine and the cosine of the anomaly multiplied by the radius of the epicycle, 5ᵖ 15′, and divided by R; 60ᵖ added to the second; the root of the sum of the squares. 60ᵖ sin 5° 1′ = 5ᵖ 14′ 57″, the radius of the epicycle as «sinus maximae aequationis centri». The dash of «al–Battānī» (L30) measures 5.3 pt.",
+  "notes_left L1-L2, L4: the hyphen at the end of «Vene-» prints short and the bracket after «rem» is broken; the m of «summa» is broken.",
+  "notes_right L7: a blot over the t of «centrum» is not transcribed."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0342-body-L001",
+     "source_line_no": null,
+     "tex": "parallaxe destitutam censere? Veneri minus 16\\textsuperscript{\\textit{p}} a centro Terrae distanti parallaxis esse debe-",
+     "transcription": "parallaxe destitutam censere? Veneri minus 16{sup:*p*} a centro Terrae distanti parallaxis esse debe-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0342-body-L002",
+     "source_line_no": null,
+     "tex": "ret circiter $\\qfrac{1}{3}$ unius ex illis partibus quibus distantiam geocentricam indicavimus (1). Item si",
+     "transcription": "ret circiter {sfrac:1/3} unius ex illis partibus quibus distantiam geocentricam indicavimus (1). Item si",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0342-body-L003",
+     "source_line_no": null,
+     "tex": "Mercurius [statim] sub Sole consisteret, cum perigeum epicycli occuparet deberet parallaxim",
+     "transcription": "Mercurius [statim] sub Sole consisteret, cum perigeum epicycli occuparet deberet parallaxim",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0342-body-L004",
+     "source_line_no": null,
+     "tex": "7 fere minutorum habere. Verum est parallaxes amborum planetarum in perigeo observari",
+     "transcription": "7 fere minutorum habere. Verum est parallaxes amborum planetarum in perigeo observari",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0342-body-L005",
+     "source_line_no": null,
+     "tex": "non posse, quia illi tunc in coniunctione sunt cum Sole (2); id tamen possibile est in locis ei",
+     "transcription": "non posse, quia illi tunc in coniunctione sunt cum Sole (2); id tamen possibile est in locis ei",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0342-body-L006",
+     "source_line_no": null,
+     "tex": "propinquis, et praesertim cum planetae sint in tangentibus ad epicyclum ductis, tunc enim di-",
+     "transcription": "propinquis, et praesertim cum planetae sint in tangentibus ad epicyclum ductis, tunc enim di-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0342-body-L007",
+     "source_line_no": null,
+     "tex": "gressionem totam habent. Cum autem centrum epicycli sit in alterutro nodo, planeta iacet in",
+     "transcription": "gressionem totam habent. Cum autem centrum epicycli sit in alterutro nodo, planeta iacet in",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0342-body-L008",
+     "source_line_no": null,
+     "tex": "plano eclipticae, et parallaxis, tunc latitudine carens, 6′ circiter in Venere, 4′ circiter in Mer-",
+     "transcription": "plano eclipticae, et parallaxis, tunc latitudine carens, 6′ circiter in Venere, 4′ circiter in Mer-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0342-body-L009",
+     "source_line_no": null,
+     "tex": "curio fieri debet. — Quo modo igitur Ptolemaeus, postquam Soli parallaxim 3′ fere, nullam",
+     "transcription": "curio fieri debet. — Quo modo igitur Ptolemaeus, postquam Soli parallaxim 3′ fere, nullam",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0342-body-L010",
+     "source_line_no": null,
+     "tex": "autem Veneri et Mercurio tribuerit, potuit planetas illos sub Sole censere?",
+     "transcription": "autem Veneri et Mercurio tribuerit, potuit planetas illos sub Sole censere?",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0342-body-L011",
+     "source_line_no": null,
+     "tex": "\\Indent Ita recte \\Name{Ǵābir}, cuius verba ad sensum retuli. Sed fortasse Ptolemaeus haud multum",
+     "transcription": "Ita recte {sp:Ǵābir}, cuius verba ad sensum retuli. Sed fortasse Ptolemaeus haud multum",
+     "semantic_anchor": "AB01-PDF0342-P01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0342-body-L012",
+     "source_line_no": null,
+     "tex": "parallaxe solari 2′ 51″ confidebat, nec sphaerarum ordinem certum esse arbitrabatur.",
+     "transcription": "parallaxe solari 2′ 51″ confidebat, nec sphaerarum ordinem certum esse arbitrabatur.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0342-body-L013",
+     "source_line_no": null,
+     "tex": "\\Indent [Iuxta rationes maximarum et minimarum distantiarum quas \\Name{al–Battānī} cap. L, p. 120–",
+     "transcription": "[Iuxta rationes maximarum et minimarum distantiarum quas {sp:al–Battānī} cap. L, p. 120–",
+     "semantic_anchor": "AB01-PDF0342-P02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0342-body-L014",
+     "source_line_no": null,
+     "tex": "–21, ex vetere traditione refert, si radius Terrae $=$ 1\\textsuperscript{\\textit{p}} sumatur invenitur",
+     "transcription": "–21, ex vetere traditione refert, si radius Terrae $=$ 1{sup:*p*} sumatur invenitur",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0342-body-L015",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{43.15mm}\\smash{\\makebox[0pt][c]{distantia}}}\\rlap{\\hspace*{59.92mm}\\smash{\\makebox[0pt][c]{apogea}}}\\rlap{\\hspace*{69.17mm}\\smash{\\rlap{\\MoonSym{},}}}\\rlap{\\hspace*{82.30mm}\\smash{\\makebox[0pt][c]{perigea}}}\\rlap{\\hspace*{92.88mm}\\smash{\\makebox[0pt][c]{{\\MoonFont ☿}}}}\\rlap{\\hspace*{106.23mm}\\smash{\\llap{64}\\rlap{\\textsuperscript{\\textit{p}}}}}\\rlap{\\hspace*{113.88mm}\\smash{\\llap{10}\\rlap{′}}}\\rlap{\\hspace*{131.72mm}\\smash{\\makebox[0pt][c]{parallaxis}}}\\rlap{\\hspace*{148.00mm}\\smash{\\llap{53}\\rlap{′}}}\\rlap{\\hspace*{155.21mm}\\smash{\\llap{34}\\rlap{″}}}",
+     "transcription": "distantia apogea ☾, perigea ☿ 64{sup:*p*} 10′ parallaxis 53′ 34″",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0342-body-L016",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{43.15mm}\\smash{\\makebox[0pt][c]{»}}}\\rlap{\\hspace*{59.92mm}\\smash{\\makebox[0pt][c]{»}}}\\rlap{\\hspace*{69.17mm}\\smash{\\rlap{{\\MoonFont ☿},}}}\\rlap{\\hspace*{82.30mm}\\smash{\\makebox[0pt][c]{»}}}\\rlap{\\hspace*{92.88mm}\\smash{\\makebox[0pt][c]{{\\MoonFont ♀}}}}\\rlap{\\hspace*{106.23mm}\\smash{\\llap{166}}}\\rlap{\\hspace*{113.88mm}\\smash{\\llap{0}}}\\rlap{\\hspace*{131.72mm}\\smash{\\makebox[0pt][c]{»}}}\\rlap{\\hspace*{148.00mm}\\smash{\\llap{20}}}\\rlap{\\hspace*{155.21mm}\\smash{\\llap{42}}}",
+     "transcription": "» » ☿, » ♀ 166 0 » 20 42",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0342-body-L017",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{43.15mm}\\smash{\\makebox[0pt][c]{»}}}\\rlap{\\hspace*{59.92mm}\\smash{\\makebox[0pt][c]{»}}}\\rlap{\\hspace*{69.17mm}\\smash{\\rlap{{\\MoonFont ♀},}}}\\rlap{\\hspace*{82.30mm}\\smash{\\makebox[0pt][c]{»}}}\\rlap{\\hspace*{92.88mm}\\smash{\\makebox[0pt][c]{\\SunSym{}}}}\\rlap{\\hspace*{106.23mm}\\smash{\\llap{1070}}}\\rlap{\\hspace*{113.88mm}\\smash{\\llap{0}}}\\rlap{\\hspace*{131.72mm}\\smash{\\makebox[0pt][c]{»}}}\\rlap{\\hspace*{148.00mm}\\smash{\\llap{3}}}\\rlap{\\hspace*{155.21mm}\\smash{\\llap{13}}}",
+     "transcription": "» » ♀, » ⊙ 1070 0 » 3 13",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0342-body-L018",
+     "source_line_no": null,
+     "tex": "Unde patet cur \\Name{Ǵābir} dicat parallaxim Veneris ({\\MoonFont ♀}), si Venus sub Sole et supra Mercurium",
+     "transcription": "Unde patet cur {sp:Ǵābir} dicat parallaxim Veneris (♀), si Venus sub Sole et supra Mercurium",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0342-body-L019",
+     "source_line_no": null,
+     "tex": "({\\MoonFont ☿}) ponatur, in distantia perigea 20′ attingere. Addit postea parallaxim Mercurii, etiam si infe-",
+     "transcription": "(☿) ponatur, in distantia perigea 20′ attingere. Addit postea parallaxim Mercurii, etiam si infe-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0342-body-F01",
+     "source_line_no": null,
+     "tex": "\\input{figures/AB01-PDF0342-F01}",
+     "transcription": "[figure, redrawn: figures/AB01-PDF0342-F01.tex]",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_FIGURE"
+    },
+    {
+     "id": "AB01-PDF0342-body-L020",
+     "source_line_no": null,
+     "tex": "rior Sole et superior Venere collocetur, in perigeo epicycli in-",
+     "transcription": "rior Sole et superior Venere collocetur, in perigeo epicycli in-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0342-body-L021",
+     "source_line_no": null,
+     "tex": "ter 6′ et 7′ esse. Nam sit T Terra, AB orbita Solis, CD epi-",
+     "transcription": "ter 6′ et 7′ esse. Nam sit T Terra, AB orbita Solis, CD epi-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0342-body-L022",
+     "source_line_no": null,
+     "tex": "cyclus Mercurii; Ptolemaeus docet IC $=$ 0,375 × IT circiter;",
+     "transcription": "cyclus Mercurii; Ptolemaeus docet IC $=$ 0,375 × IT circiter;",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0342-body-L023",
+     "source_line_no": null,
+     "tex": "ergo erit TD : TC $=$ 0,625 : 1,375. Si parallaxis Solis 3′ suma-",
+     "transcription": "ergo erit TD : TC $=$ 0,625 : 1,375. Si parallaxis Solis 3′ suma-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0342-body-L024",
+     "source_line_no": null,
+     "tex": "tur, parallaxis Mercurii in D proveniet 3′ $\\dfrac{\\text{1,375}}{\\text{0,625}} =$ 6′,52. Ob",
+     "transcription": "tur, parallaxis Mercurii in D proveniet 3′ $\\dfrac{\\text{1,375}}{\\text{0,625}} =$ 6′,52. Ob",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0342-body-L025",
+     "source_line_no": null,
+     "tex": "excentricitatem orbitae Mercurii potest interdum aliquantulum",
+     "transcription": "excentricitatem orbitae Mercurii potest interdum aliquantulum",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0342-body-L026",
+     "source_line_no": null,
+     "tex": "haec quantitas augeri. — \\textsc{Schiaparelli}.]",
+     "transcription": "haec quantitas augeri. — {sc:Schiaparelli}.]",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0342-body-L027",
+     "source_line_no": null,
+     "tex": "\\CenterLine{\\textbf{\\textit{d}}) — \\textit{Pag. 78, l. 15-26.}}",
+     "transcription": "{bi:d}) — *Pag. 78, l. 15-26.*",
+     "semantic_anchor": "AB01-PDF0342-H27",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0342-body-L028",
+     "source_line_no": null,
+     "tex": "\\Indent \\textit{Distantiam geocentricam Lunae in syzygiis} (3) supputare.",
+     "transcription": "*Distantiam geocentricam Lunae in syzygiis* (3) supputare.",
+     "semantic_anchor": "AB01-PDF0342-P03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0342-body-L029",
+     "source_line_no": null,
+     "tex": "\\Indent Sit \\textgreek{ψ} anomalia aequata (pro qua, si 180° superat, eius differentia a 360° sumitur), \\textit{e} ra-",
+     "transcription": "Sit ψ anomalia aequata (pro qua, si 180° superat, eius differentia a 360° sumitur), *e* ra-",
+     "semantic_anchor": "AB01-PDF0342-P04",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0342-body-L030",
+     "source_line_no": null,
+     "tex": "dius epicycli id est sinus maximae aequationis centri; \\Name{al–Battānī} docet, si anomalia inter",
+     "transcription": "dius epicycli id est sinus maximae aequationis centri; {sp:al–Battānī} docet, si anomalia inter",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0342-body-L031",
+     "source_line_no": null,
+     "tex": "0° et 90° continetur,",
+     "transcription": "0° et 90° continetur,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0342-body-L032",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.71mm}(\\textgreek{α})}\\rlap{\\hspace*{94.80mm}\\makebox[0pt][c]{dist. geoc. $= \\sqrt{\\left(\\dfrac{e \\cos \\psi}{R} + 60^{p}\\right)^{2} + \\left(\\dfrac{e \\sin \\psi}{R}\\right)^{2}}\\,,$}}",
+     "transcription": "(α) dist. geoc. $= \\sqrt{\\left(\\dfrac{e \\cos \\psi}{R} + 60^{p}\\right)^{2} + \\left(\\dfrac{e \\sin \\psi}{R}\\right)^{2}}\\,,$",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    }
+   ]
+  },
+  {
+   "role": "notes_left",
+   "lines": [
+    {
+     "id": "AB01-PDF0342-notes_left-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (1) « Cum ergo sit Sol super eam [i. e. Vene-",
+     "transcription": "(1) « Cum ergo sit Sol super eam [i. e. Vene-",
+     "semantic_anchor": "AB01-PDF0342-N01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0342-notes_left-L002",
+     "source_line_no": null,
+     "tex": "« rem], et erit longitudo eius semper a centro Ter-",
+     "transcription": "« rem], et erit longitudo eius semper a centro Ter-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0342-notes_left-L003",
+     "source_line_no": null,
+     "tex": "« rae plus 104 partibus, et est ei diversitas aspectus,",
+     "transcription": "« rae plus 104 partibus, et est ei diversitas aspectus,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0342-notes_left-L004",
+     "source_line_no": null,
+     "tex": "« cuius summa est fere tria minuta, tunc quia non",
+     "transcription": "« cuius summa est fere tria minuta, tunc quia non",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0342-notes_left-L005",
+     "source_line_no": null,
+     "tex": "« invenitur, ut stellae Veneris, cum inter ipsam et",
+     "transcription": "« invenitur, ut stellae Veneris, cum inter ipsam et",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0342-notes_left-L006",
+     "source_line_no": null,
+     "tex": "« inter centrum Terrae est minus 16 partibus diver-",
+     "transcription": "« inter centrum Terrae est minus 16 partibus diver-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0342-notes_left-L007",
+     "source_line_no": null,
+     "tex": "« sitas aspectus, cui sit quantitas manifesta, et opor-",
+     "transcription": "« sitas aspectus, cui sit quantitas manifesta, et opor-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0342-notes_left-L008",
+     "source_line_no": null,
+     "tex": "« tet, ut sit secundum quod partium eius longitudini",
+     "transcription": "« tet, ut sit secundum quod partium eius longitudini",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0342-notes_left-L009",
+     "source_line_no": null,
+     "tex": "« circiter tertiam partis ».",
+     "transcription": "« circiter tertiam partis ».",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  },
+  {
+   "role": "notes_right",
+   "lines": [
+    {
+     "id": "AB01-PDF0342-notes_right-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (2) « Et oportet iterum, si stella Mercurii est",
+     "transcription": "(2) « Et oportet iterum, si stella Mercurii est",
+     "semantic_anchor": "AB01-PDF0342-N02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0342-notes_right-L002",
+     "source_line_no": null,
+     "tex": "« sub Sole, ut sit diversitas aspectus eius, quum est",
+     "transcription": "« sub Sole, ut sit diversitas aspectus eius, quum est",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0342-notes_right-L003",
+     "source_line_no": null,
+     "tex": "« in longitudine propiori orbis revolutionis suae, fere",
+     "transcription": "« in longitudine propiori orbis revolutionis suae, fere",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0342-notes_right-L004",
+     "source_line_no": null,
+     "tex": "« 7 minuta, licet diversitas aspectus utriusque in",
+     "transcription": "« 7 minuta, licet diversitas aspectus utriusque in",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0342-notes_right-L005",
+     "source_line_no": null,
+     "tex": "« istis locis non sit possibilis, propterea quod uter-",
+     "transcription": "« istis locis non sit possibilis, propterea quod uter-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0342-notes_right-L006",
+     "source_line_no": null,
+     "tex": "« que est in constructione Solis ».",
+     "transcription": "« que est in constructione Solis ».",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0342-notes_right-L007",
+     "source_line_no": null,
+     "tex": "\\Indent (3) Tunc centrum epicycli apogeum excentrici",
+     "transcription": "(3) Tunc centrum epicycli apogeum excentrici",
+     "semantic_anchor": "AB01-PDF0342-N03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0342-notes_right-L008",
+     "source_line_no": null,
+     "tex": "occupat.",
+     "transcription": "occupat.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  }
+ ]
+}
