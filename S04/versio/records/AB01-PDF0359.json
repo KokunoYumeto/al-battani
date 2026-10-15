@@ -1,0 +1,508 @@
+{
+ "anchor": "AB01-PDF0359",
+ "master_pdf_page": 359,
+ "printed_page": 270,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "margin_locators": [],
+ "observations": [
+  "body L1-L23: the equation is added to the mean arc of visibility 11° 45′ when the difference is «decrescens», the arc of light being less than 12° 10′ (L3), and subtracted when it is «crescens» (L4); in the second method it is added to 10° 50′ when the difference belongs to 13° 40′, the arc of light being the smaller (L20-L21). A narrower crescent needs a longer arc of visibility, as in rule II of p. 268.",
+  "body L6, L24-L25, L29, L32, L37: «89,r.–v.» (L24) and «al–Ḥarrānī» (L25) have long dashes (5.3 and 5.6 pt); the dashes before «Altera» (L6) and before «Sectio» (L29, L32, L37) measure 10.0 to 10.3 pt.",
+  "body L15: the hyphen after «produ» prints as a blot, 2.0 by 2.6 pt.",
+  "body L26: «قومنا» is printed without the fatha that it has on p. 269, L25.",
+  "notes_left L1: note a) to chapter 41 ends on p. 266 with Thābit ibn Qurrah's death (288 H., 901) and his epistle on the visibility of the new moon.",
+  "notes_right L2: the formula has the form of the rule of the right spherical triangle, cos c = cos a cos b, with the arc of light as hypotenuse and the depression of the Sun and the distance of the Moon from the foot of the perpendicular as sides. With sines and cosines to the radius R, as in the formula of p. 269, L5, it reads cos dist. = R cos arcus lucis : cos depress. Solis; the print sets R in the denominator, which divides the right side by R²; kept as printed."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0359-body-L001",
+     "source_line_no": null,
+     "tex": "« scens aut ab his decrescens. Minuta proportionalia reperta multiplicemus in [gradus et mi-",
+     "transcription": "« scens aut ab his decrescens. Minuta proportionalia reperta multiplicemus in [gradus et mi-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0359-body-L002",
+     "source_line_no": null,
+     "tex": "« nuta] servata; productum per 60 dividamus; exibit \\textit{aequatio,} quam addamus arcui medio",
+     "transcription": "« nuta] servata; productum per 60 dividamus; exibit *aequatio,* quam addamus arcui medio",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0359-body-L003",
+     "source_line_no": null,
+     "tex": "« apparitionis (scilicet 11° 45′) si differentia erat decrescens, aut de arcu 11° 45′ demamus si",
+     "transcription": "« apparitionis (scilicet 11° 45′) si differentia erat decrescens, aut de arcu 11° 45′ demamus si",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0359-body-L004",
+     "source_line_no": null,
+     "tex": "« differentia crescens erat. Proveniet \\textit{arcus apparitionis correctus} (\\ArabicRun{قوس الرؤية المصححة}). Si arcus",
+     "transcription": "« differentia crescens erat. Proveniet *arcus apparitionis correctus* ({ar:قوس الرؤية المصححة}). Si arcus",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0359-body-L005",
+     "source_line_no": null,
+     "tex": "« morae fuerit huic arcui apparitionis correcto aequalis aut maior, Luna nova apparebit; si",
+     "transcription": "« morae fuerit huic arcui apparitionis correcto aequalis aut maior, Luna nova apparebit; si",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0359-body-L006",
+     "source_line_no": null,
+     "tex": "« minor non. — \\textit{Altera eius} [Albatenii] \\textit{methodus.} Dicit: Locum verum Solis et Lunae nocte",
+     "transcription": "« minor non. — *Altera eius* [Albatenii] *methodus.* Dicit: Locum verum Solis et Lunae nocte",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0359-body-L007",
+     "source_line_no": null,
+     "tex": "« trigesimi diei mensis Arabici determinemus, atque ambos arcus lucis et morae tunc exstan-",
+     "transcription": "« trigesimi diei mensis Arabici determinemus, atque ambos arcus lucis et morae tunc exstan-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0359-body-L008",
+     "source_line_no": null,
+     "tex": "« tes. Si arcus lucis 13° 40′ fuerit, arcus medius apparitionis, qui 10° 50′ complectitur, iam",
+     "transcription": "« tes. Si arcus lucis 13° 40′ fuerit, arcus medius apparitionis, qui 10° 50′ complectitur, iam",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0359-body-L009",
+     "source_line_no": null,
+     "tex": "« erit aequatus. At si arcus lucis maior aut minor fuerit quam 13° 40′, ad eum debebimus",
+     "transcription": "« erit aequatus. At si arcus lucis maior aut minor fuerit quam 13° 40′, ad eum debebimus",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0359-body-L010",
+     "source_line_no": null,
+     "tex": "« arcum apparitionis corrigere. Correctio haec est: Differentiam inter arcum lucis inventum",
+     "transcription": "« arcum apparitionis corrigere. Correctio haec est: Differentiam inter arcum lucis inventum",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0359-body-L011",
+     "source_line_no": null,
+     "tex": "« et 13° 40′ sumamus; cum ea in secundam tabulam \\Name{Albatenianam} aequationis visionis",
+     "transcription": "« et 13° 40′ sumamus; cum ea in secundam tabulam {sp:Albatenianam} aequationis visionis",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0359-body-L012",
+     "source_line_no": null,
+     "tex": "« intrando, gradus et minuta ei respondentia accipiamus et servemus. Postea cum anomalia",
+     "transcription": "« intrando, gradus et minuta ei respondentia accipiamus et servemus. Postea cum anomalia",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0359-body-L013",
+     "source_line_no": null,
+     "tex": "« aequata [Lunae] in eandem secundam tabulam intrando, sumamus minuta proportionalia ei",
+     "transcription": "« aequata [Lunae] in eandem secundam tabulam intrando, sumamus minuta proportionalia ei",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0359-body-L014",
+     "source_line_no": null,
+     "tex": "« respondentia; erunt crescentia aut decrescentia prout ad arcum lucis inventum aut ad ar-",
+     "transcription": "« respondentia; erunt crescentia aut decrescentia prout ad arcum lucis inventum aut ad ar-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0359-body-L015",
+     "source_line_no": null,
+     "tex": "« cum 13° 40′ differentia pertinebat. Ea in [gradus minutaque] servata multiplicemus; produ-",
+     "transcription": "« cum 13° 40′ differentia pertinebat. Ea in [gradus minutaque] servata multiplicemus; produ-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0359-body-L016",
+     "source_line_no": null,
+     "tex": "« ctum per 60 dividamus; prodibit \\textit{aequatio generalis} (\\ArabicRun{تعديل مطلق}), quae erit in gradus ascen-",
+     "transcription": "« ctum per 60 dividamus; prodibit *aequatio generalis* ({ar:تعديل مطلق}), quae erit in gradus ascen-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0359-body-L017",
+     "source_line_no": null,
+     "tex": "« sionum convertenda. Hoc est eam addamus gradui cum quo Luna occidit, si differentia ad",
+     "transcription": "« sionum convertenda. Hoc est eam addamus gradui cum quo Luna occidit, si differentia ad",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0359-body-L018",
+     "source_line_no": null,
+     "tex": "« arcum 13° 40′ pertinuerit; ascensionem obliquam nadir gradus ita provenientis sumamus,",
+     "transcription": "« arcum 13° 40′ pertinuerit; ascensionem obliquam nadir gradus ita provenientis sumamus,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0359-body-L019",
+     "source_line_no": null,
+     "tex": "« et ascensionem nadir gradus cum quo Luna occidit; minorem de maiore demamus; proveniet",
+     "transcription": "« et ascensionem nadir gradus cum quo Luna occidit; minorem de maiore demamus; proveniet",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0359-body-L020",
+     "source_line_no": null,
+     "tex": "« \\textit{aequatio aequata} (\\ArabicRun{التعديل المعدل}). Eam addamus 10° 50′, si differentia ad arcum 13° 40′ perti-",
+     "transcription": "« *aequatio aequata* ({ar:التعديل المعدل}). Eam addamus 10° 50′, si differentia ad arcum 13° 40′ perti-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0359-body-L021",
+     "source_line_no": null,
+     "tex": "« nebat, aut de 10° 50′ demamus si ad arcum lucis spectabat; proveniet \\textit{arcus apparitionis}",
+     "transcription": "« nebat, aut de 10° 50′ demamus si ad arcum lucis spectabat; proveniet *arcus apparitionis*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0359-body-L022",
+     "source_line_no": null,
+     "tex": "« \\textit{correctus.} Postea si arcus morae fuerit arcui correcto apparitionis aequalis aut maior,",
+     "transcription": "« *correctus.* Postea si arcus morae fuerit arcui correcto apparitionis aequalis aut maior,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0359-body-L023",
+     "source_line_no": null,
+     "tex": "« Luna nova conspicietur; si minor, non apparebit ».",
+     "transcription": "« Luna nova conspicietur; si minor, non apparebit ».",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0359-body-L024",
+     "source_line_no": null,
+     "tex": "\\Indent Exponit postea methodum Thābit ibn Qurrah (f. 89,r.–v.): « \\textit{Caput V: de eo quod me-}",
+     "transcription": "Exponit postea methodum Thābit ibn Qurrah (f. 89,r.–v.): « *Caput V: de eo quod me-*",
+     "semantic_anchor": "AB01-PDF0359-P01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0359-body-L025",
+     "source_line_no": null,
+     "tex": "« \\textit{morat} \\Name{Thābit ibn Qurrah} al–Ḥarrānī (1), qui arcum depressionis aequat per arcum",
+     "transcription": "« *morat* {sp:Thābit ibn Qurrah} al–Ḥarrānī (1), qui arcum depressionis aequat per arcum",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0359-body-L026",
+     "source_line_no": null,
+     "tex": "« lucis. Dicit: Locum verum Solis et Lunae determinemus (\\ArabicRun{قومنا النيرين}) tempore occasus Lunae,",
+     "transcription": "« lucis. Dicit: Locum verum Solis et Lunae determinemus ({ar:قومنا النيرين}) tempore occasus Lunae,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0359-body-L027",
+     "source_line_no": null,
+     "tex": "« nocte trigesimi (2) diei mensis Arabici; item cognoscamus arcus lucis, morae, depressionis,",
+     "transcription": "« nocte trigesimi (2) diei mensis Arabici; item cognoscamus arcus lucis, morae, depressionis,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0359-body-L028",
+     "source_line_no": null,
+     "tex": "« nec non distantiam Lunae a loco incidentiae perpendicularis (sive catheti) lucis (\\ArabicRun{مسقط عمود النور}) (3).",
+     "transcription": "« nec non distantiam Lunae a loco incidentiae perpendicularis (sive catheti) lucis ({ar:مسقط عمود النور}) (3).",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0359-body-L029",
+     "source_line_no": null,
+     "tex": "« — \\textit{Sectio:} de limitibus totalibus (\\ArabicRun{في الحدود الكلية}), e tabula [sumendis]. Cum eos quaerimus, in",
+     "transcription": "« — *Sectio:* de limitibus totalibus ({ar:في الحدود الكلية}), e tabula [sumendis]. Cum eos quaerimus, in",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0359-body-L030",
+     "source_line_no": null,
+     "tex": "« tabulam limitum visionis, a \\Name{Thābit} confectam, cum anomalia Lunae intremus, et sumamus",
+     "transcription": "« tabulam limitum visionis, a {sp:Thābit} confectam, cum anomalia Lunae intremus, et sumamus",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0359-body-L031",
+     "source_line_no": null,
+     "tex": "« quod ei respondet ex arcubus totalibus generalibus (\\ArabicRun{المطلقة}), [scilicet] arcu lucis, aequatione,",
+     "transcription": "« quod ei respondet ex arcubus totalibus generalibus ({ar:المطلقة}), [scilicet] arcu lucis, aequatione,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0359-body-L032",
+     "source_line_no": null,
+     "tex": "« extremo distantiae; haec omnia separatim servemus. — \\textit{Sectio:} de consideratione facienda",
+     "transcription": "« extremo distantiae; haec omnia separatim servemus. — *Sectio:* de consideratione facienda",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0359-body-L033",
+     "source_line_no": null,
+     "tex": "« (\\ArabicRun{في الاعتبار}). Arcum lucis calculo repertum observemus; si fuerit minor arcu lucis e tabula",
+     "transcription": "« ({ar:في الاعتبار}). Arcum lucis calculo repertum observemus; si fuerit minor arcu lucis e tabula",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0359-body-L034",
+     "source_line_no": null,
+     "tex": "« sumpto, ne speremus visionem Lunae ob parvitatem luminis in corpore Lunae; si aequalis",
+     "transcription": "« sumpto, ne speremus visionem Lunae ob parvitatem luminis in corpore Lunae; si aequalis",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0359-body-L035",
+     "source_line_no": null,
+     "tex": "« fuerit extremo distantiae aut maior, Luna conspicietur die ante Solis occasum, nec erunt",
+     "transcription": "« fuerit extremo distantiae aut maior, Luna conspicietur die ante Solis occasum, nec erunt",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0359-body-L036",
+     "source_line_no": null,
+     "tex": "« necessariae supputationes; demum si fuerit maior arcu lucis e tabula sumpto, sed minor",
+     "transcription": "« necessariae supputationes; demum si fuerit maior arcu lucis e tabula sumpto, sed minor",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0359-body-L037",
+     "source_line_no": null,
+     "tex": "« extremo distantiae, necessaria erit aequatio. — \\textit{Sectio:} de arcu lucis corrigendo. Si eum",
+     "transcription": "« extremo distantiae, necessaria erit aequatio. — *Sectio:* de arcu lucis corrigendo. Si eum",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0359-body-L038",
+     "source_line_no": null,
+     "tex": "« corrigere voluerimus, complementum arcus distantiae Lunae a loco incidentiae perpendicu-",
+     "transcription": "« corrigere voluerimus, complementum arcus distantiae Lunae a loco incidentiae perpendicu-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0359-body-L039",
+     "source_line_no": null,
+     "tex": "« laris lucis multiplicabimus in arcum lucis e tabula sumpto; productum per 360 dividemus;",
+     "transcription": "« laris lucis multiplicabimus in arcum lucis e tabula sumpto; productum per 360 dividemus;",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0359-body-L040",
+     "source_line_no": null,
+     "tex": "« proveniet \\textit{depressio correcta,} quam seorsum servabimus. Differentiam inter arcum lucis",
+     "transcription": "« proveniet *depressio correcta,* quam seorsum servabimus. Differentiam inter arcum lucis",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0359-body-L041",
+     "source_line_no": null,
+     "tex": "« repertum [observatione] et arcum lucis e tabula provenientem sumamus et in depressionem",
+     "transcription": "« repertum [observatione] et arcum lucis e tabula provenientem sumamus et in depressionem",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0359-body-L042",
+     "source_line_no": null,
+     "tex": "« correctam multiplicemus; productum dividamus per arcum aequationis tabulae; exibit \\textit{se-}",
+     "transcription": "« correctam multiplicemus; productum dividamus per arcum aequationis tabulae; exibit *se-*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0359-body-L043",
+     "source_line_no": null,
+     "tex": "« \\textit{cunda aequatio.} Si differentia pertinebat ad arcum lucis repertum [observatione], aequa-",
+     "transcription": "« *cunda aequatio.* Si differentia pertinebat ad arcum lucis repertum [observatione], aequa-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    }
+   ]
+  },
+  {
+   "role": "notes_left",
+   "lines": [
+    {
+     "id": "AB01-PDF0359-notes_left-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (1) Cfr. p. 266, sub fine adn. \\textbf{\\textit{a}}.",
+     "transcription": "(1) Cfr. p. 266, sub fine adn. {bi:a}.",
+     "semantic_anchor": "AB01-PDF0359-N01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0359-notes_left-L002",
+     "source_line_no": null,
+     "tex": "\\Indent (2) Cfr. p. 269, adn. 5.",
+     "transcription": "(2) Cfr. p. 269, adn. 5.",
+     "semantic_anchor": "AB01-PDF0359-N02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  },
+  {
+   "role": "notes_right",
+   "lines": [
+    {
+     "id": "AB01-PDF0359-notes_right-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (3) Ut ex fol. 87,r., apparet, supputatur formula:",
+     "transcription": "(3) Ut ex fol. 87,r., apparet, supputatur formula:",
+     "semantic_anchor": "AB01-PDF0359-N03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0359-notes_right-L002",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{45.97mm}\\makebox[0pt][c]{cos dist. \\MoonSym{} a perpendic. lucis $= \\dfrac{\\text{cos arcus lucis}}{R\\ \\text{cos depress. Solis}}\\,.$}}",
+     "transcription": "cos dist. ☾ a perpendic. lucis $= \\dfrac{\\text{cos arcus lucis}}{R\\ \\text{cos depress. Solis}}\\,.$",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  }
+ ]
+}
