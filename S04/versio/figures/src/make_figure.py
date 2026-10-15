@@ -22,7 +22,11 @@ ink (_intake/latin/tools/fig_measure2.py). Optional:
   "white"  [{"x0", "y0", "x1", "y1", "w", "name"}]: a stroke drawn in white over a hatching, before the outlines (a
            line that the print shows as a blank in the hatch lines)
   "fills"  [{"pts": [[x, y], ...], "name"}]: a small printed shape filled through its traced outline (a smooth
-           closed curve through the points), for marks that are not lines, circles or letters
+           closed curve through the points), for marks that are not lines, circles or letters; with "poly": true
+           the outline is the polygon through the points, and "holes": [[[x, y], ...], ...] are left blank in it
+           (even-odd rule)
+  "hatchpoly" [{"pts": [[x, y], ...], "ys": [y, ...], "w", "name"}]: the polygon through the points filled with
+           horizontal lines W pt thick at the printed heights ys (a hatching whose lines are not evenly spaced)
   "curves" [{"pts": [[x, y], ...], "w", "name"}]: an open curve that is neither a circle nor a line, drawn as the
            polyline of its traced centre line (points about 0.5 pt apart)
   "arcbraces" [{"cx", "cy", "r", "a0", "a1", "amp", "w", "name"}]: a curly brace along the arc of radius r from
@@ -86,6 +90,14 @@ def main():
                        + ") -- (" + X(c["cx"] + c["r"] + 1) + "," + Y(y) + ");")
             y += h["step"]
         out.append(r"\end{scope}")
+    for h in d.get("hatchpoly", []):
+        xs = [x for x, _ in h["pts"]]
+        out.append(r"\begin{scope}\clip " + " -- ".join("(" + X(x) + "," + Y(y) + ")" for x, y in h["pts"])
+                   + " -- cycle;  % " + h["name"])
+        for y in h["ys"]:
+            out.append(r"\draw[line width=" + f"{h['w'] * s:.2f}" + "pt] (" + X(min(xs) - 1) + "," + Y(y) + ") -- ("
+                       + X(max(xs) + 1) + "," + Y(y) + ");")
+        out.append(r"\end{scope}")
     for g in d.get("white", []):  # a stroke left blank in a hatching (a line printed as a gap in the hatch lines)
         out.append(r"\draw[line width=" + f"{g['w'] * s:.2f}" + "pt,white] (" + X(g["x0"]) + "," + Y(g["y0"])
                    + ") -- (" + X(g["x1"]) + "," + Y(g["y1"]) + ");  % " + g["name"])
@@ -118,6 +130,11 @@ def main():
         out.append(r"\draw[line width=" + f"{cv['w'] * s:.2f}" + "pt,line join=round] " + " -- ".join(
             "(" + X(x) + "," + Y(y) + ")" for x, y in cv["pts"]) + ";  % " + cv["name"])
     for fl in d.get("fills", []):
+        if fl.get("poly"):  # the traced polygon, with its holes left blank
+            path = " ".join(" -- ".join("(" + X(x) + "," + Y(y) + ")" for x, y in ring) + " -- cycle"
+                            for ring in [fl["pts"]] + fl.get("holes", []))
+            out.append(r"\fill[even odd rule] " + path + ";  % " + fl["name"])
+            continue
         out.append(r"\fill plot[smooth cycle,tension=0.5] coordinates {" + " ".join(
             "(" + X(x) + "," + Y(y) + ")" for x, y in fl["pts"]) + "};  % " + fl["name"])
     for gr in d.get("groups", []):
@@ -171,7 +188,8 @@ def main():
     (HERE.parent / f"{name}.tex").write_text("\n".join(out) + "\n", encoding="utf-8", newline="\n")
     print(f"wrote {name}.tex: {len(d['circles'])} circles, {len(d['segments'])} lines, "
           f"{sum(len(g['segs']) for g in d.get('groups', []))} strokes in groups, {len(d['labels'])} letters, "
-          f"{len(d.get('hatch', []))} hatched parts, {len(d.get('fills', []))} filled shapes, {len(d.get('dots', []))} dots, "
+          f"{len(d.get('hatch', [])) + len(d.get('hatchpoly', []))} hatched parts, {len(d.get('fills', []))} filled shapes, "
+          f"{len(d.get('dots', []))} dots, "
           f"{len(d.get('curves', []))} curves, "
           f"{len(d.get('words', []))} words, {len(d.get('braces', [])) + len(d.get('arcbraces', []))} braces")
 

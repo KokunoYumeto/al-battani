@@ -1,0 +1,497 @@
+{
+ "anchor": "AB01-PDF0363",
+ "master_pdf_page": 363,
+ "printed_page": 274,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "margin_locators": [],
+ "observations": [
+  "body L1-L15: the first figure stands on the left of these lines and is redrawn from the print: the eccentric AK about O (radius 82.2 pt) and the epicycle about Q (radius 30.6 pt), circles fitted to the print; the diameter AK; the lines RQE and PQN, which meet 1.1 pt from the centre of the epicycle and 0.4 pt from the eccentric; the dashed line from S on the eccentric to E, drawn dash by dash; dots at O, E and N; the two feathered arrows of the motions, traced as filled outlines; the letters, in a lighter italic than those of the second figure. On the figure AEQ = 28.98° is twice AES = 14.49°, and NQE = 5.10° against QEA × EN : NA = 5.06°; EO and EN measure 21.2 and 21.9 pt against EA = 103.4 pt, where Ptolemy's 10p 19′ : 60p would give 17.8 pt.",
+  "body L7, L16: L7 names the angle «RPQ», at P, which is not small; the angle meant is RQP at the centre of the epicycle, which L16 sets equal to NQE, the «portio»; kept as printed.",
+  "body L5, L12, L14: the hyphens of «prove-» and «distantia-» print as short marks (1.2 and 1.8 pt). The minus signs of «QEA — QNA» and «NA — EA» (L14) are printed as long dashes (10.0 and 9.7 pt) and set as minus signs; in the second «EA» and the last «NA» of L14 the E and the N print broken.",
+  "body L13-L18: for the small angles under which the arc QA is seen from E and N, QEA : QNA = NA : EA; NQE = QEA − QNA, the exterior angle at E of the triangle QNE; NA − EA = EN. With EA = 60p and EN = 10p 19′, NA = 70p 19′, and 10p 19′ × 2 = 20p 38′.",
+  "body L21-L22: 20p 38′ : 70p 19′ = 0,29343; 1/6 + 1/8 = 7/24 = 0,291667, which the print gives as 0,2916. «al–Battānī» (L21) is letter-spaced, with a long dash (5.0 pt); the dash before «Schiaparelli» measures 9.8 pt, and a heavy bracket closes the addition begun on p. 273, L27.",
+  "body L23-L25, L39: the dash after «c)» measures 9.8 pt and «3–9» has a long dash (4.1 pt); the dash before «Satis» (L24) measures 10.0 pt. A heavy bracket opens Schiaparelli's addition in L24; it goes on to p. 275. «al-» (L24) is letter-spaced, with a hyphen (3.0 pt), and «–Battānī» (L25) begins with a long dash (5.0 pt); «Al–Battānī» (L39) has a long dash (5.1 pt).",
+  "body L24-L40: the second figure stands on the right of these lines and is redrawn from the print: the epicycle about C (radius 41.7 pt); the edges of the angles AEB and aEb, drawn from the circle to E, which they reach within 0.6 pt, the angles hatched with horizontal lines at their printed heights (107 and 106 lines, 0.6 pt thick); the line from E touching the epicycle at α and β (C lies 42.0 pt from it), produced beyond the circle as printed; the bold italic letters, β in a lighter italic. On the figure CEa = 8.7° and the greatest equation CEα = 14.8°, in the ratio 3 : 5 of the text; the arcs AB and ab measure 20.2° and 18.0°, the angles AEB and aEb 4.1° and 2.8°.",
+  "notes_left L1-L2: Almagest VI, 5, where Ptolemy has 7° 24′ (p. 96, note 2), treats the ecliptic limits. The print sets no rule between the two columns of the notes.",
+  "notes_right L2: the dash before «Schiaparelli» measures 7.4 pt."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0363-body-F01",
+     "source_line_no": null,
+     "tex": "\\input{figures/AB01-PDF0363-F01}",
+     "transcription": "[figure, redrawn: figures/AB01-PDF0363-F01.tex]",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_FIGURE"
+    },
+    {
+     "id": "AB01-PDF0363-body-L001",
+     "source_line_no": null,
+     "tex": "Punctum S indicet directionem Solis; angulus AES sit",
+     "transcription": "Punctum S indicet directionem Solis; angulus AES sit",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0363-body-L002",
+     "source_line_no": null,
+     "tex": "elongatio media, cuius duplum AEQ; erit Q centrum",
+     "transcription": "elongatio media, cuius duplum AEQ; erit Q centrum",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0363-body-L003",
+     "source_line_no": null,
+     "tex": "epicycli, punctum P origo mediarum anomaliarum seu",
+     "transcription": "epicycli, punctum P origo mediarum anomaliarum seu",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0363-body-L004",
+     "source_line_no": null,
+     "tex": "apogeum medium, R apogeum verum, PR aequatio",
+     "transcription": "apogeum medium, R apogeum verum, PR aequatio",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0363-body-L005",
+     "source_line_no": null,
+     "tex": "anomaliae \\textit{addenda} anomaliae mediae ut vera prove-",
+     "transcription": "anomaliae *addenda* anomaliae mediae ut vera prove-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0363-body-L006",
+     "source_line_no": null,
+     "tex": "niat. Oportet demonstrare in locis propinquis coniun-",
+     "transcription": "niat. Oportet demonstrare in locis propinquis coniun-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0363-body-L007",
+     "source_line_no": null,
+     "tex": "ctioni angulum RPQ esse $\\qfrac{1}{6}$ + $\\qfrac{1}{8}$ $=$ $\\qfrac{7}{24}$ elongationis",
+     "transcription": "ctioni angulum RPQ esse {sfrac:1/6} + {sfrac:1/8} $=$ {sfrac:7/24} elongationis",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0363-body-L008",
+     "source_line_no": null,
+     "tex": "mediae QES, vel $\\qfrac{7}{48}$ duplae elongationis QEA.",
+     "transcription": "mediae QES, vel {sfrac:7/48} duplae elongationis QEA.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0363-body-L009",
+     "source_line_no": null,
+     "tex": "\\Indent Cum anguli in E, N omnes sint multum parvi,",
+     "transcription": "Cum anguli in E, N omnes sint multum parvi,",
+     "semantic_anchor": "AB01-PDF0363-P01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0363-body-L010",
+     "source_line_no": null,
+     "tex": "possumus noto opticae theoremate uti et affirmare an-",
+     "transcription": "possumus noto opticae theoremate uti et affirmare an-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0363-body-L011",
+     "source_line_no": null,
+     "tex": "gulos QEA, QNA, sub quibus arcus QA e punctis E",
+     "transcription": "gulos QEA, QNA, sub quibus arcus QA e punctis E",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0363-body-L012",
+     "source_line_no": null,
+     "tex": "et N cernitur, inter se esse ratione inversa distantia-",
+     "transcription": "et N cernitur, inter se esse ratione inversa distantia-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0363-body-L013",
+     "source_line_no": null,
+     "tex": "rum horum punctorum ab arcu; ergo QEA : QNA $=$",
+     "transcription": "rum horum punctorum ab arcu; ergo QEA : QNA $=$",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0363-body-L014",
+     "source_line_no": null,
+     "tex": "$=$ NA : EA, unde QEA $-$ QNA : QEA $=$ NA $-$ EA : NA,",
+     "transcription": "$=$ NA : EA, unde QEA $-$ QNA : QEA $=$ NA $-$ EA : NA,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0363-body-L015",
+     "source_line_no": null,
+     "tex": "vel NQE : QEA $=$ EN : NA. Et quoniam, iuxta Ptole-",
+     "transcription": "vel NQE : QEA $=$ EN : NA. Et quoniam, iuxta Ptole-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0363-body-L016",
+     "source_line_no": null,
+     "tex": "maeum, si EA $=$ 60\\textsuperscript{\\textit{p}} sumatur est NE $=$ 10\\textsuperscript{\\textit{p}} 19′, et quoniam NQE $=$ RQP $=$ \\textit{portio} seu aequa-",
+     "transcription": "maeum, si EA $=$ 60{sup:*p*} sumatur est NE $=$ 10{sup:*p*} 19′, et quoniam NQE $=$ RQP $=$ *portio* seu aequa-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0363-body-L017",
+     "source_line_no": null,
+     "tex": "tio argumenti, erit",
+     "transcription": "tio argumenti, erit",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0363-body-L018",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{93.35mm}\\makebox[0pt][c]{aequatio argumenti $=$ dupla elongatio $\\dfrac{10^{p}\\,19'}{70^{p}\\,19'} =$ elongatio $\\dfrac{20^{p}\\,38'}{70^{p}\\,19'}\\,.$}}",
+     "transcription": "aequatio argumenti $=$ dupla elongatio $\\dfrac{10^{p}\\,19'}{70^{p}\\,19'} =$ elongatio $\\dfrac{20^{p}\\,38'}{70^{p}\\,19'}\\,.$",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0363-body-L019",
+     "source_line_no": null,
+     "tex": "Quod tanto erit veritati propius quanto minores fuerint anguli considerati; semper autem pro",
+     "transcription": "Quod tanto erit veritati propius quanto minores fuerint anguli considerati; semper autem pro",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0363-body-L020",
+     "source_line_no": null,
+     "tex": "usu huius calculi astronomici satis exactum.",
+     "transcription": "usu huius calculi astronomici satis exactum.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0363-body-L021",
+     "source_line_no": null,
+     "tex": "\\Indent Ratio $\\dfrac{20^{p}\\,38'}{70^{p}\\,19'}$ in numeris decimalibus 0,2934 efficit; \\Name{al–Battānī} a rudiore sua supputa-",
+     "transcription": "Ratio $\\dfrac{20^{p}\\,38'}{70^{p}\\,19'}$ in numeris decimalibus 0,2934 efficit; {sp:al–Battānī} a rudiore sua supputa-",
+     "semantic_anchor": "AB01-PDF0363-P02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0363-body-L022",
+     "source_line_no": null,
+     "tex": "tione $\\qfrac{1}{6}$ + $\\qfrac{1}{8}$ $=$ 0,2916 deducit. Concordantia optima. — \\textsc{Schiaparelli}.]",
+     "transcription": "tione {sfrac:1/6} + {sfrac:1/8} $=$ 0,2916 deducit. Concordantia optima. — {sc:Schiaparelli}.]",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0363-body-L023",
+     "source_line_no": null,
+     "tex": "\\CenterLine{\\textbf{\\textit{c}}) — \\textit{Pag. 96, l. 3–9.}}",
+     "transcription": "{bi:c}) — *Pag. 96, l. 3–9.*",
+     "semantic_anchor": "AB01-PDF0363-H23",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0363-body-F02",
+     "source_line_no": null,
+     "tex": "\\input{figures/AB01-PDF0363-F02}",
+     "transcription": "[figure, redrawn: figures/AB01-PDF0363-F02.tex]",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_FIGURE"
+    },
+    {
+     "id": "AB01-PDF0363-body-L024",
+     "source_line_no": null,
+     "tex": "\\Indent [« \\textit{In hoc Ptolemaeus} ..... ». — Satis obscure vult nunc \\Name{al-}",
+     "transcription": "[« *In hoc Ptolemaeus* ..... ». — Satis obscure vult nunc {sp:al-}",
+     "semantic_anchor": "AB01-PDF0363-P03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0363-body-L025",
+     "source_line_no": null,
+     "tex": "\\Name{–Battānī} ostendere cur antea Lunam consideraverit in epicycli posi-",
+     "transcription": "{sp:–Battānī} ostendere cur antea Lunam consideraverit in epicycli posi-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0363-body-L026",
+     "source_line_no": null,
+     "tex": "tione cui respondet aequatio 3°, cum primo aspectu censeri possit casus",
+     "transcription": "tione cui respondet aequatio 3°, cum primo aspectu censeri possit casus",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0363-body-L027",
+     "source_line_no": null,
+     "tex": "maioris momenti esse in positione respondenti aequationi 5°. Auctor ait,",
+     "transcription": "maioris momenti esse in positione respondenti aequationi 5°. Auctor ait,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0363-body-L028",
+     "source_line_no": null,
+     "tex": "aequatione fere 3° et correctione anomaliae 1° $\\qfrac{1}{2}$ exstantibus, errorem",
+     "transcription": "aequatione fere 3° et correctione anomaliae 1° {sfrac:1/2} exstantibus, errorem",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0363-body-L029",
+     "source_line_no": null,
+     "tex": "provenientem a neglecta nova correctione maximam suam quantitatem",
+     "transcription": "provenientem a neglecta nova correctione maximam suam quantitatem",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0363-body-L030",
+     "source_line_no": null,
+     "tex": "attingere; posita vero aequatione $=$ 5°, correctionem nullam aut parvi",
+     "transcription": "attingere; posita vero aequatione $=$ 5°, correctionem nullam aut parvi",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0363-body-L031",
+     "source_line_no": null,
+     "tex": "esse momenti. Haec vera esse e sequentibus patebit: Sit C centrum",
+     "transcription": "esse momenti. Haec vera esse e sequentibus patebit: Sit C centrum",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0363-body-L032",
+     "source_line_no": null,
+     "tex": "epicycli, E Terra. Arcus \\textit{ab} et \\textgreek{αβ} sint $\\qfrac{7}{24}$ elongationis; \\textit{ab} in loco",
+     "transcription": "epicycli, E Terra. Arcus *ab* et αβ sint {sfrac:7/24} elongationis; *ab* in loco",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0363-body-L033",
+     "source_line_no": null,
+     "tex": "quo aequatio CE\\textit{a} $=$ 3°, \\textgreek{αβ} in loco quo aequatio CE\\textgreek{α} $=$ 5°. Manifeste",
+     "transcription": "quo aequatio CE*a* $=$ 3°, αβ in loco quo aequatio CEα $=$ 5°. Manifeste",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0363-body-L034",
+     "source_line_no": null,
+     "tex": "si correctio illarum $\\qfrac{7}{24}$ elongationis negligitur, error in priore loco",
+     "transcription": "si correctio illarum {sfrac:7/24} elongationis negligitur, error in priore loco",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0363-body-L035",
+     "source_line_no": null,
+     "tex": "est angulus \\textit{a}E\\textit{b}, multo maior errore qui fit in loco posteriore ubi",
+     "transcription": "est angulus *a*E*b*, multo maior errore qui fit in loco posteriore ubi",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0363-body-L036",
+     "source_line_no": null,
+     "tex": "nullus aut negligendus apparet.",
+     "transcription": "nullus aut negligendus apparet.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0363-body-L037",
+     "source_line_no": null,
+     "tex": "\\Indent Sed quis (1) poterit dicere: Cur tanquam locum maximi erro-",
+     "transcription": "Sed quis (1) poterit dicere: Cur tanquam locum maximi erro-",
+     "semantic_anchor": "AB01-PDF0363-P04",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0363-body-L038",
+     "source_line_no": null,
+     "tex": "ris partem AB epicycli non sumis? Nonne est angulus AEB (erroris",
+     "transcription": "ris partem AB epicycli non sumis? Nonne est angulus AEB (erroris",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0363-body-L039",
+     "source_line_no": null,
+     "tex": "quantitas) maior etiam quam in praecedentibus casibus? \\Name{Al–Battānī}",
+     "transcription": "quantitas) maior etiam quam in praecedentibus casibus? {sp:Al–Battānī}",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0363-body-L040",
+     "source_line_no": null,
+     "tex": "ita respondet: Si Luna in A aut B (vel etiam in A′ aut B′) consistit,",
+     "transcription": "ita respondet: Si Luna in A aut B (vel etiam in A′ aut B′) consistit,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    }
+   ]
+  },
+  {
+   "role": "notes_left",
+   "lines": [
+    {
+     "id": "AB01-PDF0363-notes_left-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (1) [In textu: « Ptolemaeus ». Sed causa qua",
+     "transcription": "(1) [In textu: « Ptolemaeus ». Sed causa qua",
+     "semantic_anchor": "AB01-PDF0363-N01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0363-notes_left-L002",
+     "source_line_no": null,
+     "tex": "Ptolemaeus (cfr. p. 96, adn. 2) 7° 24′ statuerat, nihil",
+     "transcription": "Ptolemaeus (cfr. p. 96, adn. 2) 7° 24′ statuerat, nihil",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  },
+  {
+   "role": "notes_right",
+   "lines": [
+    {
+     "id": "AB01-PDF0363-notes_right-L001",
+     "source_line_no": null,
+     "tex": "pertinet ad hoc problema; disserebat enim de ter-",
+     "transcription": "pertinet ad hoc problema; disserebat enim de ter-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0363-notes_right-L002",
+     "source_line_no": null,
+     "tex": "minis eclipticis Solis. — \\textsc{Schiaparelli}.]",
+     "transcription": "minis eclipticis Solis. — {sc:Schiaparelli}.]",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  }
+ ]
+}
