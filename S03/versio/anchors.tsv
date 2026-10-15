@@ -4243,3 +4243,41 @@ AB01-PDF0291-body-L031	202	body	(β) $\\text{chorda distantiae} = 2 \\sin\\left(
 AB01-PDF0291-body-L032	202	body	vel $\\sin\\dfrac{\\text{dist.}}{2} = \\sin\\left(\\dfrac{L - L'}{2}\\right) \\dfrac{\\cos\\text{β}}{R}$.
 AB01-PDF0291-body-L033	202	body	III. — Cum latitudines β et β′ stellarum diversae sint, sed in eadem Caeli plaga respe-
 AB01-PDF0291-body-L034	202	body	ctu eclipticae.
+AB01-PDF0292-body-L001	203	body	Statuit tunc {sp:al–Battānī}:
+AB01-PDF0292-body-L002	203	body	primum latus $= L - L'$, secundum latus $= \\text{duplus arcus}\\ \\left[\\sin\\left(\\dfrac{L - L'}{2}\\right) \\dfrac{\\cos(\\text{β} - \\text{β}')}{R}\\right]$,
+AB01-PDF0292-body-L003	203	body	tertium latus $=$ quartum latus $= \\text{β} - \\text{β}'$,
+AB01-PDF0292-body-L004	203	body	primum longitudinis latus $= \\text{duplus arcus}\\ \\left[\\sin\\left(\\dfrac{L - L'}{2}\\right) \\dfrac{\\cos\\text{β}}{R}\\right]$,
+AB01-PDF0292-body-L005	203	body	secundum longitudinis latus $= \\text{duplus arcus}\\ \\left[\\sin\\left(\\dfrac{L - L'}{2}\\right) \\dfrac{\\cos\\text{β}'}{R}\\right]$.
+AB01-PDF0292-body-L006	203	body	{sp:Al–Battānī} praeceptum est:
+AB01-PDF0292-body-L007	203	body	(γ) $\\text{chorda distantiae} = \\sqrt{\\text{crd I longit. lateris} \\times \\text{crd II longit. lateris} + \\text{crd}^2\\ \\text{III lateris}}$,
+AB01-PDF0292-body-L008	203	body	quod geometrice eodem modo quo regula (α) manifeste demonstratur (cfr. adn. {bi:b}).
+AB01-PDF0292-body-L009	203	body	Implicite formula fundamentalis nostrae trigonometriae sphaericae continetur. Nam ambo
+AB01-PDF0292-body-L010	203	body	membra aequationis quadrata faciendo, et sinibus introducendo, reperitur
+AB01-PDF0292-body-L011	203	body	$4 \\sin^2\\left(\\dfrac{\\text{distantiae}}{2}\\right) = 2 \\sin\\left(\\dfrac{L - L'}{2}\\right) \\dfrac{\\cos\\text{β}}{R} \\times 2 \\sin\\left(\\dfrac{L - L'}{2}\\right) \\dfrac{\\cos\\text{β}'}{R} + 4 \\sin^2\\left(\\dfrac{\\text{β} - \\text{β}'}{2}\\right)$.
+AB01-PDF0292-body-L012	203	body	Omnia per 4 dividendo, et considerando esse $\\sin^2\\dfrac{x}{2} = \\dfrac{R^2 - R \\cos x}{2}$,
+AB01-PDF0292-body-L013	203	body	$\\dfrac{R^2 - R\\,\\text{cos distantiae}}{2} = \\sin^2\\left(\\dfrac{L - L'}{2}\\right) \\dfrac{\\cos\\text{β} \\cos\\text{β}'}{R^2} + \\dfrac{R^2 - R \\cos(\\text{β} - \\text{β}')}{2} =$
+AB01-PDF0292-body-L014	203	body	$= \\dfrac{R^2 - R \\cos(L - L')}{2} \\times \\dfrac{\\cos\\text{β} \\cos\\text{β}'}{R^2} + \\dfrac{R^2 - R \\cos(\\text{β} - \\text{β}')}{2}$.
+AB01-PDF0292-body-L015	203	body	Omnia in 2 multiplicentur et per *R* dividantur; proveniet
+AB01-PDF0292-body-L016	203	body	$R - \\text{cos distantiae} = \\dfrac{\\cos\\text{β} \\cos\\text{β}'}{R} - \\dfrac{\\cos\\text{β} \\cos\\text{β}' \\cos(L - L')}{R^2} + R - \\cos(\\text{β} - \\text{β}')$.
+AB01-PDF0292-body-L017	203	body	Sed $\\cos(\\text{β} - \\text{β}') = \\dfrac{\\sin\\text{β} \\sin\\text{β}' + \\cos\\text{β} \\cos\\text{β}'}{R}$; qua re, terminis aequalibus sed contrarii signi
+AB01-PDF0292-body-L018	203	body	demptis,
+AB01-PDF0292-body-L019	203	body	$\\text{cos distantiae} = \\dfrac{\\sin\\text{β} \\sin\\text{β}'}{R} + \\dfrac{\\cos\\text{β} \\cos\\text{β}' \\cos(L - L')}{R^2}$,
+AB01-PDF0292-body-L020	203	body	quam nos, $R = 1$ sumentes, nunc scribimus:
+AB01-PDF0292-body-L021	203	body	$\\text{cos dist.} = \\sin\\text{β} \\sin\\text{β}' + \\cos\\text{β} \\cos\\text{β}' \\cos(L - L')$.
+AB01-PDF0292-body-L022	203	body	Si pro β et β′ eorum complementa sumantur Δ et Δ′, scilicet distantias a polo eclipticae,
+AB01-PDF0292-body-L023	203	body	formula fit
+AB01-PDF0292-body-L024	203	body	$\\text{cos dist.} = \\cos\\text{Δ} \\cos\\text{Δ}' + \\sin\\text{Δ} \\sin\\text{Δ}' \\cos(L - L')$,
+AB01-PDF0292-body-L025	203	body	e consideratione trianguli sphaerici FDE, in quo angulus $\\text{DFE} = \\text{L} - \\text{L}'$, statim deducta, et
+AB01-PDF0292-body-L026	203	body	hodie semper in hoc problemate adhibita.
+AB01-PDF0292-body-L027	203	body	IV. — Cum latitudines β et β′ diversae et in duabus diversis plagis sint.
+AB01-PDF0292-body-L028	203	body	A III casu in hoc tantum differt quod pro $\\text{β} - \\text{β}'$ tertii lateris oportet $\\text{β} + \\text{β}'$ sumere. Ergo
+AB01-PDF0292-body-L029	203	body	$\\cos(\\text{β} + \\text{β}') = \\dfrac{\\cos\\text{β} \\cos\\text{β}' - \\sin\\text{β} \\sin\\text{β}'}{R}$, qua re formula fit:
+AB01-PDF0292-body-L030	203	body	$\\text{cos dist.} = -\\dfrac{\\sin\\text{β} \\sin\\text{β}'}{R} + \\dfrac{\\cos\\text{β} \\cos\\text{β}' \\cos(L - L')}{R^2}$.
+AB01-PDF0292-body-L031	203	body	Solutio {sp:al–Battānī} elegantissima est, et eo magis memoranda quod, post S. {sp:Günther}.
+AB01-PDF0292-body-L032	203	body	*Studien zur Geschichte der mathematischen und physikalischen Geographie,* Halle 1877–
+AB01-PDF0292-body-L033	203	body	–79, fasc. V, p. 306–308, primus dicitur {sp:Georgius Amirucius} hoc problema resolvisse
+AB01-PDF0292-body-L034	203	body	sine divisione figurae in duo triangula sphaerica rectangula (1). Amirucius distantiam geogra-
+AB01-PDF0292-notes_left-L001	203	notes_left	(1) R. {sp:Wolf}, *Handbuch der Astronomie, ihrer*
+AB01-PDF0292-notes_left-L002	203	notes_left	*Geschichte und Litteratur,* Zürich 1890–93, t. II,
+AB01-PDF0292-notes_right-L001	203	notes_right	p. 208, § 429, adn. {bi:a}; {sp:Cantor}, t. II, p. 416-417; {sp:von}
+AB01-PDF0292-notes_right-L002	203	notes_right	{sp:Braunmühl}, t. I, p. 134. — Amirucius, natione
