@@ -62,7 +62,8 @@ Transcription format (UTF-8; one printed line per source line, as printed, with 
   @figl FILE | TEXT      a figure set at the left margin (a table head drawn to the columns of @cols); TEXT,
                          the transcription of its printed text, is kept in the record
   @notes                 the footnotes follow, left column; @col switches to the right column (a thin rule is set
-                         between the two columns, as printed); @notes1 one column
+                         between the two columns, as printed); @notes1 one column; @notes norule (or @notes1 norule):
+                         the print sets no rule over the notes (p. 212, under a boxed table); the place is kept
   @sig TEXT              the signature at the foot of the page
   @tail MM FILE          the ornament that closes a part, redrawn in figures/FILE.tex, centred MM below the notes
   @nonum                 the print numbers no lines on this page (the commentary): no line numbers in the margin
@@ -282,7 +283,7 @@ def parse(path):
     lines = path.read_text(encoding="utf-8").split("\n")
     m = re.match(r"@page (\d+) (\d+)", lines[0])
     rec = {"pdf": int(m.group(1)), "pp": int(m.group(2)), "body": [], "notes_left": [], "notes_right": [],
-           "notes": [], "sig": "", "tail": None, "blank": False, "nonum": False, "obs": []}
+           "notes": [], "sig": "", "tail": None, "blank": False, "nonum": False, "obs": [], "noterule": True}
     part, raw = "body", None
     for ln in lines[1:]:
         if raw is not None:
@@ -300,6 +301,8 @@ def parse(path):
                 raw = []
             elif cmd in ("@notes", "@col", "@notes1"):
                 part = {"@notes": "notes_left", "@col": "notes_right", "@notes1": "notes"}[cmd]
+                if arg.strip() == "norule":
+                    rec["noterule"] = False
             elif cmd == "@sig":
                 rec["sig"] = arg
             elif cmd == "@tail":
@@ -980,6 +983,7 @@ def section(items, prefix, role, numbered):
 # every page with notes; it takes the vertical place of an \hrule (no interline glue before it or after it)
 NOTE_RULE = (r"\nointerlineskip\hbox to\textwidth{\hss\vrule width 115.43pt height.25pt depth0pt\hss}"
              r"\prevdepth=-1000pt ")
+NOTE_NORULE = NOTE_RULE.replace("width 115.43pt", "width 0pt")  # @notes norule: the same place, no rule
 
 
 def page(rec):
@@ -997,12 +1001,13 @@ def page(rec):
     if any("-notes-" in r["id"] for r in recs):  # notes set beside a figure (@innotes)
         sections.append({"role": "notes", "lines": [r for r in recs if "-notes-" in r["id"]]})
     if rec["notes"]:
-        out.append(r"\par\vspace{6pt}" + NOTE_RULE + r"\vspace{5pt}{\fontsize{9}{11.5}\selectfont")
+        out.append(r"\par\vspace{6pt}" + (NOTE_RULE if rec["noterule"] else NOTE_NORULE)
+                   + r"\vspace{5pt}{\fontsize{9}{11.5}\selectfont")
         tex, recs = section(rec["notes"], prefix, "notes", False)
         out += tex + ["}"]
         sections.append({"role": "notes", "lines": recs})
     elif rec["notes_left"] or rec["notes_right"]:
-        out.append(r"\par\vspace{6pt}" + NOTE_RULE + r"\vspace{5pt}")
+        out.append(r"\par\vspace{6pt}" + (NOTE_RULE if rec["noterule"] else NOTE_NORULE) + r"\vspace{5pt}")
         for k, role in enumerate(("notes_left", "notes_right")):  # the print sets a thin rule between the columns,
             # as deep as the longer column (an unsized \vrule takes the depth of the line, i.e. of the minipages)
             out.append((r"\hfill\vrule width.3pt\hfill" if k else r"\noindent")
