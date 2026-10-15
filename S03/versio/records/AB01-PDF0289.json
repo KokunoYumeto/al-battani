@@ -1,0 +1,462 @@
+{
+ "anchor": "AB01-PDF0289",
+ "master_pdf_page": 289,
+ "printed_page": 200,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "margin_locators": [],
+ "observations": [
+  "body L1-L3: the method is right: in the triangle ♈HC, right-angled at H, with the angle ε at the first point of Aries, tg ♈H = tg ♈C cos ε and sin HC = sin ♈C sin ε; so ♈H, entered as a right ascension in the table of right ascensions, gives ♈C as the corresponding arc of the ecliptic, and the declination of that arc in the table of the declination of the Sun is HC = β′. The 90° are added because the table counts the right ascensions from the beginning of Capricorn (note 1).",
+  "body L2-L3: the dash of the folios is printed at the end of L2, after «177,v.» (4.2 pt), and again at the head of L3, before «178,r.)» (5.6 pt).",
+  "body L4: the head of the notes on chapter 26, «Ad» and «caput» in small capitals, in the larger type of the heads.",
+  "body L5: in the head, the dash after «a)» measures 10.3 pt; a speck under the period after «38» makes it look like a colon.",
+  "body L8: in «expositis» the o is printed broken, open at the top.",
+  "body L8, L10, L20, L29: the dashes of «39–40», «59–61» and «33–34» are long dashes (5.5 pt in L8).",
+  "body L11, L37: the dashes of the letter-spaced «al–Battānī» are long dashes (5.5 and 5.4 pt).",
+  "body L22-L23: Delambre's difference is right: 64° 20′ 27″ − 54° 19′ = 10° 1′ 27″.",
+  "body L26-L28: Nallino's remark is right: 64° 19′ falls short of 64° 20′ 27″ by one minute when the seconds are neglected.",
+  "body L31: a speck stands above the line between «est» and «falsas»."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0289-body-L001",
+     "source_line_no": null,
+     "tex": "aequatoris arcus, scilicet ascensio recta (1) puncti C; tabulae dabunt arcum respondentem (90°",
+     "transcription": "aequatoris arcus, scilicet ascensio recta (1) puncti C; tabulae dabunt arcum respondentem (90°",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0289-body-L002",
+     "source_line_no": null,
+     "tex": "$+$ {\\MoonFont ♈}C) fictae eclipticae. Reiectis 90°, et cum arcu {\\MoonFont ♈}C in tabulas declinationis Solis (f. 177,v.–",
+     "transcription": "$+$ ♈C) fictae eclipticae. Reiectis 90°, et cum arcu ♈C in tabulas declinationis Solis (f. 177,v.–",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0289-body-L003",
+     "source_line_no": null,
+     "tex": "–178,r.) intrando, ficta declinatio \\textgreek{β}′ invenietur.",
+     "transcription": "–178,r.) intrando, ficta declinatio β′ invenietur.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0289-body-L004",
+     "source_line_no": null,
+     "tex": "\\CenterLine{A\\textsc{d} \\textsc{caput} XXVI.}",
+     "transcription": "A{sc:d} {sc:caput} XXVI.",
+     "semantic_anchor": "AB01-PDF0289-H04",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0289-body-L005",
+     "source_line_no": null,
+     "tex": "\\CenterLine{\\textbf{\\textit{a}}) — \\textit{Pag. 38.}}",
+     "transcription": "{bi:a}) — *Pag. 38.*",
+     "semantic_anchor": "AB01-PDF0289-H05",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0289-body-L006",
+     "source_line_no": null,
+     "tex": "\\Indent \\textit{Distantiam inter duas stellas intercedentem} supputare in circulo maximo qui per am-",
+     "transcription": "*Distantiam inter duas stellas intercedentem* supputare in circulo maximo qui per am-",
+     "semantic_anchor": "AB01-PDF0289-P01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0289-body-L007",
+     "source_line_no": null,
+     "tex": "bas transit.",
+     "transcription": "bas transit.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0289-body-L008",
+     "source_line_no": null,
+     "tex": "\\Indent Regulis suis, in pag. 39–40 expositis, auctor demonstrationem geometricam praemittit, ut",
+     "transcription": "Regulis suis, in pag. 39–40 expositis, auctor demonstrationem geometricam praemittit, ut",
+     "semantic_anchor": "AB01-PDF0289-P02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0289-body-L009",
+     "source_line_no": null,
+     "tex": "iam in XII capite fecerat; demonstrationi autem exemplum quoque in numeris addit, sicut",
+     "transcription": "iam in XII capite fecerat; demonstrationi autem exemplum quoque in numeris addit, sicut",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0289-body-L010",
+     "source_line_no": null,
+     "tex": "postea in XXX capite, p. 59–61. Iam in adnot. \\textbf{\\textit{b}} ad XII caput (p. 186) monui probabilem con-",
+     "transcription": "postea in XXX capite, p. 59–61. Iam in adnot. {bi:b} ad XII caput (p. 186) monui probabilem con-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0289-body-L011",
+     "source_line_no": null,
+     "tex": "iecturam esse has formulas \\Name{al–Battānī} primum constituisse, qua de causa necessarium",
+     "transcription": "iecturam esse has formulas {sp:al–Battānī} primum constituisse, qua de causa necessarium",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0289-body-L012",
+     "source_line_no": null,
+     "tex": "arbitratum esse earum veritatem geometrice probare.",
+     "transcription": "arbitratum esse earum veritatem geometrice probare.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0289-body-L013",
+     "source_line_no": null,
+     "tex": "\\Indent \\Name{Regiomontanus} constructionem auctoris valde improbat; « verum esset », ait, « si",
+     "transcription": "{sp:Regiomontanus} constructionem auctoris valde improbat; « verum esset », ait, « si",
+     "semantic_anchor": "AB01-PDF0289-P03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0289-body-L014",
+     "source_line_no": null,
+     "tex": "« arcus GE esset circuli magni, et ipse primo bene inventus. Sed dico tibi ille processus intri-",
+     "transcription": "« arcus GE esset circuli magni, et ipse primo bene inventus. Sed dico tibi ille processus intri-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0289-body-L015",
+     "source_line_no": null,
+     "tex": "« catus est, et modicae reputationis. Utitur enim lineis curvis tanquam rectis, quod tametsi",
+     "transcription": "« catus est, et modicae reputationis. Utitur enim lineis curvis tanquam rectis, quod tametsi",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0289-body-L016",
+     "source_line_no": null,
+     "tex": "« Ptolemaeum fecisse constet, ipse tamen arcus breves loco linearum rectarum accepit, noster",
+     "transcription": "« Ptolemaeum fecisse constet, ipse tamen arcus breves loco linearum rectarum accepit, noster",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0289-body-L017",
+     "source_line_no": null,
+     "tex": "« vero indifferenter quantoscumque ». Demonstrat postea quadrilaterum ex quatuor chordis",
+     "transcription": "« vero indifferenter quantoscumque ». Demonstrat postea quadrilaterum ex quatuor chordis",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0289-body-L018",
+     "source_line_no": null,
+     "tex": "AB, BG, GE, EA, symmetricum esse, et hac de causa inscribi posse circulo; demum probat",
+     "transcription": "AB, BG, GE, EA, symmetricum esse, et hac de causa inscribi posse circulo; demum probat",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0289-body-L019",
+     "source_line_no": null,
+     "tex": "chordam $GE = R\\,\\dfrac{\\text{chorda arcus}\\ AB}{\\text{sin arcus}\\ FG}$, ubi GE est arcus circuli minoris.",
+     "transcription": "chordam $GE = R\\,\\dfrac{\\text{chorda arcus}\\ AB}{\\text{sin arcus}\\ FG}$, ubi GE est arcus circuli minoris.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0289-body-L020",
+     "source_line_no": null,
+     "tex": "\\Indent Nec minus acriter iudicat \\Name{Delambre}, p. 33–34, solutionem auctoris esse « décidément",
+     "transcription": "Nec minus acriter iudicat {sp:Delambre}, p. 33–34, solutionem auctoris esse « décidément",
+     "semantic_anchor": "AB01-PDF0289-P04",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0289-body-L021",
+     "source_line_no": null,
+     "tex": "« mauvaise, sans aucune ambiguité »; exemplum numeris expressum, tabulis logarithmicis",
+     "transcription": "« mauvaise, sans aucune ambiguité »; exemplum numeris expressum, tabulis logarithmicis",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0289-body-L022",
+     "source_line_no": null,
+     "tex": "resolvit, et invenit $\\cos AG = \\cos \\text{64° 20′ 27″}$; « Albategni la trouve de 54° 19′, trop faible",
+     "transcription": "resolvit, et invenit $\\cos AG = \\cos \\text{64° 20′ 27″}$; « Albategni la trouve de 54° 19′, trop faible",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0289-body-L023",
+     "source_line_no": null,
+     "tex": "« de 10° 1′ 27″ »; concludit ergo: « Albategni, en terminant ce chapitre, dit qu’il sert, comme",
+     "transcription": "« de 10° 1′ 27″ »; concludit ergo: « Albategni, en terminant ce chapitre, dit qu’il sert, comme",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0289-body-L024",
+     "source_line_no": null,
+     "tex": "« le précédent, pour les nativités..... Pour la gloire d’Albategni, il faut croire ces deux der-",
+     "transcription": "« le précédent, pour les nativités..... Pour la gloire d’Albategni, il faut croire ces deux der-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0289-body-L025",
+     "source_line_no": null,
+     "tex": "« niers chapitres interpolés par quelque astrologue ignorant et charlatan ».",
+     "transcription": "« niers chapitres interpolés par quelque astrologue ignorant et charlatan ».",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0289-body-L026",
+     "source_line_no": null,
+     "tex": "\\Indent At si Delambre numeros calculi Albateniani attente consideravisset, invenisset 54° 19′,",
+     "transcription": "At si Delambre numeros calculi Albateniani attente consideravisset, invenisset 54° 19′,",
+     "semantic_anchor": "AB01-PDF0289-P05",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0289-body-L027",
+     "source_line_no": null,
+     "tex": "quae Plato habet, lapsum calami vel typothetae pro 64° 19′ esse; neglectis igitur secundis,",
+     "transcription": "quae Plato habet, lapsum calami vel typothetae pro 64° 19′ esse; neglectis igitur secundis,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0289-body-L028",
+     "source_line_no": null,
+     "tex": "quas auctor omittit, error tantum unius minuti est, et e differentia in interpolatione tabula-",
+     "transcription": "quas auctor omittit, error tantum unius minuti est, et e differentia in interpolatione tabula-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0289-body-L029",
+     "source_line_no": null,
+     "tex": "rum sinuum manifeste provenit. Item, si regulae p. 39–40 iuxta hodiernum usum trigonome-",
+     "transcription": "rum sinuum manifeste provenit. Item, si regulae p. 39–40 iuxta hodiernum usum trigonome-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0289-body-L030",
+     "source_line_no": null,
+     "tex": "tricum scribantur, inveniuntur regulae fundamentales quibus nos triangula sphaerica resol-",
+     "transcription": "tricum scribantur, inveniuntur regulae fundamentales quibus nos triangula sphaerica resol-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0289-body-L031",
+     "source_line_no": null,
+     "tex": "vemus. Impossibile igitur est falsas esse constructiones geometricas, e quibus calculus verus",
+     "transcription": "vemus. Impossibile igitur est falsas esse constructiones geometricas, e quibus calculus verus",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0289-body-L032",
+     "source_line_no": null,
+     "tex": "certaeque regulae deducuntur.",
+     "transcription": "certaeque regulae deducuntur.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0289-body-L033",
+     "source_line_no": null,
+     "tex": "\\Indent Ex exemplo numerali clarissime patet nomine « linea \\textit{x} » ab auctore non arcus \\textit{x} aut",
+     "transcription": "Ex exemplo numerali clarissime patet nomine « linea *x* » ab auctore non arcus *x* aut",
+     "semantic_anchor": "AB01-PDF0289-P06",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0289-body-L034",
+     "source_line_no": null,
+     "tex": "chorda arcus \\textit{x} designari, sed recta quae sub arcu \\textit{x} reperitur scilicet sinus talis arcus. Ea-",
+     "transcription": "chorda arcus *x* designari, sed recta quae sub arcu *x* reperitur scilicet sinus talis arcus. Ea-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0289-body-L035",
+     "source_line_no": null,
+     "tex": "dem locutio in XXVIII capite pluries occurrit. Nec obliviscendum est figuram pag. 38, quam",
+     "transcription": "dem locutio in XXVIII capite pluries occurrit. Nec obliviscendum est figuram pag. 38, quam",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0289-body-L036",
+     "source_line_no": null,
+     "tex": "Platonis versio lineis curvis exhibet, in codice Escurialensi lineis rectis descriptam, ut imprimi",
+     "transcription": "Platonis versio lineis curvis exhibet, in codice Escurialensi lineis rectis descriptam, ut imprimi",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0289-body-L037",
+     "source_line_no": null,
+     "tex": "curavi, exstare. Unde certum fit \\Name{al–Battānī} proiectionem orthographicam sphaerae, qua iam",
+     "transcription": "curavi, exstare. Unde certum fit {sp:al–Battānī} proiectionem orthographicam sphaerae, qua iam",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0289-body-L038",
+     "source_line_no": null,
+     "tex": "alias usus erat (ut in adnotationibus ad capita XI, XII, XVI ostendi), imaginatum esse, et ex",
+     "transcription": "alias usus erat (ut in adnotationibus ad capita XI, XII, XVI ostendi), imaginatum esse, et ex",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    }
+   ]
+  },
+  {
+   "role": "notes_left",
+   "lines": [
+    {
+     "id": "AB01-PDF0289-notes_left-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (1) Nonaginta gradus illi debent arcui {\\MoonFont ♈}H addi,",
+     "transcription": "(1) Nonaginta gradus illi debent arcui ♈H addi,",
+     "semantic_anchor": "AB01-PDF0289-N01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0289-notes_left-L002",
+     "source_line_no": null,
+     "tex": "quia ascensiones rectas auctor a coluro solstitii hie-",
+     "transcription": "quia ascensiones rectas auctor a coluro solstitii hie-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  },
+  {
+   "role": "notes_right",
+   "lines": [
+    {
+     "id": "AB01-PDF0289-notes_right-L001",
+     "source_line_no": null,
+     "tex": "malis (initii Capricorni), non ab initio {\\MoonFont ♈} Arietis",
+     "transcription": "malis (initii Capricorni), non ab initio ♈ Arietis",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0289-notes_right-L002",
+     "source_line_no": null,
+     "tex": "numerat. Cfr. p. 164.",
+     "transcription": "numerat. Cfr. p. 164.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  }
+ ]
+}

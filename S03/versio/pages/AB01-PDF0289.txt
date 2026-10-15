@@ -1,0 +1,73 @@
+@page 289 200
+% Notes on chapter 25, b) concluded: β' from the tables, the arc 90° + ♈H taken as a right ascension and the arc ♈C entered in the table of the declination of the Sun. Notes on chapter 26, a) on p. 38: the distance between two stars; the geometrical demonstration and the numerical example; Regiomontanus' censure of the construction and his own proof; Delambre's judgement and his recomputation of the example; Nallino's answer: 54° 19' is a slip for 64° 19', and the rules are the fundamental rules of spherical trigonometry; the line of an arc is its sine; the figure of p. 38 drawn with straight lines in the Escorial manuscript, an orthographic projection (begun). Note on the right ascensions counted from the winter solstice.
+@nonum
+@vspace 0.10
+aequatoris arcus, scilicet ascensio recta (1) puncti C; tabulae dabunt arcum respondentem (90°
+$+$ ♈C) fictae eclipticae. Reiectis 90°, et cum arcu ♈C in tabulas declinationis Solis (f. 177,v.–
+–178,r.) intrando, ficta declinatio β′ invenietur.
+@fontsize 15 17
+@vspace 9.15
+@center A{sc:d} {sc:caput} XXVI.
+@normal
+@vspace 3.88
+@center {bi:a}) — *Pag. 38.*
+@vspace 4.45
+^ *Distantiam inter duas stellas intercedentem* supputare in circulo maximo qui per am-
+bas transit.
+^ Regulis suis, in pag. 39–40 expositis, auctor demonstrationem geometricam praemittit, ut
+iam in XII capite fecerat; demonstrationi autem exemplum quoque in numeris addit, sicut
+postea in XXX capite, p. 59–61. Iam in adnot. {bi:b} ad XII caput (p. 186) monui probabilem con-
+iecturam esse has formulas {sp:al–Battānī} primum constituisse, qua de causa necessarium
+arbitratum esse earum veritatem geometrice probare.
+@vspace -0.07
+^ {sp:Regiomontanus} constructionem auctoris valde improbat; « verum esset », ait, « si
+« arcus GE esset circuli magni, et ipse primo bene inventus. Sed dico tibi ille processus intri-
+« catus est, et modicae reputationis. Utitur enim lineis curvis tanquam rectis, quod tametsi
+« Ptolemaeum fecisse constet, ipse tamen arcus breves loco linearum rectarum accepit, noster
+« vero indifferenter quantoscumque ». Demonstrat postea quadrilaterum ex quatuor chordis
+AB, BG, GE, EA, symmetricum esse, et hac de causa inscribi posse circulo; demum probat
+@vspace -0.09
+chordam $GE = R\,\dfrac{\text{chorda arcus}\ AB}{\text{sin arcus}\ FG}$, ubi GE est arcus circuli minoris.
+@vspace 0.93
+^ Nec minus acriter iudicat {sp:Delambre}, p. 33–34, solutionem auctoris esse « décidément
+« mauvaise, sans aucune ambiguité »; exemplum numeris expressum, tabulis logarithmicis
+resolvit, et invenit $\cos AG = \cos \text{64° 20′ 27″}$; « Albategni la trouve de 54° 19′, trop faible
+« de 10° 1′ 27″ »; concludit ergo: « Albategni, en terminant ce chapitre, dit qu’il sert, comme
+« le précédent, pour les nativités..... Pour la gloire d’Albategni, il faut croire ces deux der-
+« niers chapitres interpolés par quelque astrologue ignorant et charlatan ».
+^ At si Delambre numeros calculi Albateniani attente consideravisset, invenisset 54° 19′,
+quae Plato habet, lapsum calami vel typothetae pro 64° 19′ esse; neglectis igitur secundis,
+quas auctor omittit, error tantum unius minuti est, et e differentia in interpolatione tabula-
+@vspace -0.12
+rum sinuum manifeste provenit. Item, si regulae p. 39–40 iuxta hodiernum usum trigonome-
+tricum scribantur, inveniuntur regulae fundamentales quibus nos triangula sphaerica resol-
+vemus. Impossibile igitur est falsas esse constructiones geometricas, e quibus calculus verus
+certaeque regulae deducuntur.
+^ Ex exemplo numerali clarissime patet nomine « linea *x* » ab auctore non arcus *x* aut
+chorda arcus *x* designari, sed recta quae sub arcu *x* reperitur scilicet sinus talis arcus. Ea-
+dem locutio in XXVIII capite pluries occurrit. Nec obliviscendum est figuram pag. 38, quam
+Platonis versio lineis curvis exhibet, in codice Escurialensi lineis rectis descriptam, ut imprimi
+@vspace -0.11
+curavi, exstare. Unde certum fit {sp:al–Battānī} proiectionem orthographicam sphaerae, qua iam
+alias usus erat (ut in adnotationibus ad capita XI, XII, XVI ostendi), imaginatum esse, et ex
+@vspace 1.04
+@notes
+@fontsize 9 11.72
+@vspace 1.31
+^ (1) Nonaginta gradus illi debent arcui ♈H addi,
+quia ascensiones rectas auctor a coluro solstitii hie-
+@col
+@fontsize 9 11.72
+@vspace 1.37
+malis (initii Capricorni), non ab initio ♈ Arietis
+numerat. Cfr. p. 164.
+@obs body L1-L3: the method is right: in the triangle ♈HC, right-angled at H, with the angle ε at the first point of Aries, tg ♈H = tg ♈C cos ε and sin HC = sin ♈C sin ε; so ♈H, entered as a right ascension in the table of right ascensions, gives ♈C as the corresponding arc of the ecliptic, and the declination of that arc in the table of the declination of the Sun is HC = β′. The 90° are added because the table counts the right ascensions from the beginning of Capricorn (note 1).
+@obs body L2-L3: the dash of the folios is printed at the end of L2, after «177,v.» (4.2 pt), and again at the head of L3, before «178,r.)» (5.6 pt).
+@obs body L4: the head of the notes on chapter 26, «Ad» and «caput» in small capitals, in the larger type of the heads.
+@obs body L5: in the head, the dash after «a)» measures 10.3 pt; a speck under the period after «38» makes it look like a colon.
+@obs body L8: in «expositis» the o is printed broken, open at the top.
+@obs body L8, L10, L20, L29: the dashes of «39–40», «59–61» and «33–34» are long dashes (5.5 pt in L8).
+@obs body L11, L37: the dashes of the letter-spaced «al–Battānī» are long dashes (5.5 and 5.4 pt).
+@obs body L22-L23: Delambre's difference is right: 64° 20′ 27″ − 54° 19′ = 10° 1′ 27″.
+@obs body L26-L28: Nallino's remark is right: 64° 19′ falls short of 64° 20′ 27″ by one minute when the seconds are neglected.
+@obs body L31: a speck stands above the line between «est» and «falsas».
