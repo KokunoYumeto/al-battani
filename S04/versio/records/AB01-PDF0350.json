@@ -1,0 +1,510 @@
+{
+ "anchor": "AB01-PDF0350",
+ "master_pdf_page": 350,
+ "printed_page": 261,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "margin_locators": [],
+ "observations": [
+  "body L1-L3: ATZ = ABZ − BZT and AHZ = ABZ + DZK hold in the plane triangles BZT and BZH, where an exterior angle is the sum of the two opposite interior angles; the bar in L1 (9.7 pt) is a minus sign. By p. 259, L36 ABZ is the angle of latitude, so ATZ and AHZ are corrected angles of latitude, not of longitude, here as in p. 260, L36: al-Battānī's rule (p. 82, L22-L26) takes the variation from the angle of latitude and adds it to the angle of longitude when the corrected zenith distance is the smaller, as for the northern Moon E; (α) and (β) of L8-L9 give the two corrections with ±.",
+  "body L1-L10: the figure stands on the right of these lines; it is the figure of p. 259 (L30-L40) cut again, turned about 7° and with flatter vertical circles, and is redrawn from this print: the ecliptic GA, nearly straight; the vertical circles ZT, ZK and ZD, arcs of circles fitted through the apex Z (radius 190.2, 192.5 and 183.9 pt); the circle of latitude EBD and the perpendiculars EL and KD, straight strokes; the stroke from the pole Q to E in eight dashes, the last joined to E. The letters print heavier than on p. 259.",
+  "body L4, L17, L19-L20, L24, L29: «Al-Battānī» (L4) has a hyphen (3.5 pt); the long dashes of «al–Battānī» in L17, L20, L24 and L29, of «’l–‘Abbās», «al–Faḍl» and «an–Nayrīzī» measure 4.9 to 5.5 pt.",
+  "body L6-L12: in the triangle ZLE, right-angled at L, sin EZL = sin EL : sin ZE, and EZL is BZT, ZT passing through E and ZK through L and B; with sin EL = sin β sin ang. long. : R (p. 259, L40) and ZE = z this is L12, as printed. Al-Battānī's rule (L6) gives the same only for z = 90°. A blot prints above the «(1)» of L12.",
+  "body L13-L17: the place is p. 82, L22-L23 («Postea quod e divisione anguli longitudinis provenerat rursus sume et in arcum converte; exibit variatio anguli»); the words in brackets, which Nallino would add, make the rule that of L12. «22–23» has a long dash (5.8 pt); the second o of «oporteret» prints broken.",
+  "body L19-L23: «quabus» (L23) is printed for quibus.",
+  "body L28-L33: ZBQ and ZEQ, the angles between the vertical and the circle of latitude at B and at the Moon E, are the angles of longitude (p. 259, L36); in the triangle ZEB, sin ZEQ = sin ZEB = sin ZBE sin ZB : sin ZE. A heavy bracket opens Schiaparelli's addition; the dashes of L31 and L32 measure 9.6 pt.",
+  "body L36-L37: «EL 2° summum» is the bound of p. 260, L25, which holds for the Moon in the meridian; elsewhere EL is larger (p. 260, L24-L29). The dash before «Ex» measures 10.2 pt.",
+  "notes_left L1-L4: Ptolemy puts the arcs β and z for their sines; the β of the formula prints broken.",
+  "notes_right L1-L5: the dash before «Schia-» measures 8.4 pt. «Chr )» is printed with a space and no stop. The year 310 of the Hijra ran from 1 May 922 to 20 April 923."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0350-body-F01",
+     "source_line_no": null,
+     "tex": "\\input{figures/AB01-PDF0350-F01}",
+     "transcription": "[figure, redrawn: figures/AB01-PDF0350-F01.tex]",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_FIGURE"
+    },
+    {
+     "id": "AB01-PDF0350-body-L001",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{20.38mm}ang. long. correctus $= ATZ = ABZ - BZT,$}",
+     "transcription": "ang. long. correctus $= ATZ = ABZ - BZT,$",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0350-body-L002",
+     "source_line_no": null,
+     "tex": "et, pro Luna australi,",
+     "transcription": "et, pro Luna australi,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0350-body-L003",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{19.93mm}ang. long. correctus $= AHZ = ABZ + DZK.$}",
+     "transcription": "ang. long. correctus $= AHZ = ABZ + DZK.$",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0350-body-L004",
+     "source_line_no": null,
+     "tex": "\\Indent Hactenus \\Name{Ptolemaeus}. \\Name{Al-Battānī} supputationem \\textit{varia-}",
+     "transcription": "Hactenus {sp:Ptolemaeus}. {sp:Al-Battānī} supputationem *varia-*",
+     "semantic_anchor": "AB01-PDF0350-P01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0350-body-L005",
+     "source_line_no": null,
+     "tex": "\\textit{tionis anguli} i. e. BZT docet hoc modo:",
+     "transcription": "*tionis anguli* i. e. BZT docet hoc modo:",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0350-body-L006",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{65.83mm}\\makebox[0pt][c]{$\\sin BZT = \\dfrac{\\text{sin \\textgreek{β} sin ang. long.}}{R}\\,,$}}",
+     "transcription": "$\\sin BZT = \\dfrac{\\text{sin β sin ang. long.}}{R}\\,,$",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0350-body-L007",
+     "source_line_no": null,
+     "tex": "unde",
+     "transcription": "unde",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0350-body-L008",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.00mm}(\\textgreek{α})}\\rlap{\\hspace*{8.10mm}ang. long. correctus $=$ ang. long. $\\pm$ arc $\\left(\\dfrac{\\text{sin \\textgreek{β} sin ang. long.}}{R}\\right)$}",
+     "transcription": "(α) ang. long. correctus $=$ ang. long. $\\pm$ arc $\\left(\\dfrac{\\text{sin β sin ang. long.}}{R}\\right)$",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0350-body-L009",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.00mm}(\\textgreek{β})}\\rlap{\\hspace*{7.16mm}ang. latit. correctus $=$ ang. latit. $\\pm$ arc $\\left(\\dfrac{\\text{sin \\textgreek{β} sin ang. long.}}{R}\\right).$}",
+     "transcription": "(β) ang. latit. correctus $=$ ang. latit. $\\pm$ arc $\\left(\\dfrac{\\text{sin β sin ang. long.}}{R}\\right).$",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0350-body-L010",
+     "source_line_no": null,
+     "tex": "\\Indent Sed calculus quoque « variationis anguli » haud rectus est.",
+     "transcription": "Sed calculus quoque « variationis anguli » haud rectus est.",
+     "semantic_anchor": "AB01-PDF0350-P02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0350-body-L011",
+     "source_line_no": null,
+     "tex": "Nam sin BZT $=$ R $\\dfrac{\\text{sin EL}}{\\text{sin ZE}}$; qua re, ob valores horum sinuum antea repertos:",
+     "transcription": "Nam sin BZT $=$ R $\\dfrac{\\text{sin EL}}{\\text{sin ZE}}$; qua re, ob valores horum sinuum antea repertos:",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0350-body-L012",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{93.73mm}\\makebox[0pt][c]{$\\sin BZT = \\dfrac{R\\,\\dfrac{\\text{sin \\textgreek{β} cos }ABZ}{R}}{\\sin z} = \\dfrac{\\text{sin \\textgreek{β} sin ang. long.}}{\\sin z}$ (1).}}",
+     "transcription": "$\\sin BZT = \\dfrac{R\\,\\dfrac{\\text{sin β cos }ABZ}{R}}{\\sin z} = \\dfrac{\\text{sin β sin ang. long.}}{\\sin z}$ (1).",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0350-body-L013",
+     "source_line_no": null,
+     "tex": "\\Indent Ad veritatem restituendam in hoc calculo variationis anguli oporteret igitur aliquid in",
+     "transcription": "Ad veritatem restituendam in hoc calculo variationis anguli oporteret igitur aliquid in",
+     "semantic_anchor": "AB01-PDF0350-P03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0350-body-L014",
+     "source_line_no": null,
+     "tex": "l. 22–23 addere: « postea quod e divisione anguli longitudinis provenerat (2) rursus sume [\\textit{et}",
+     "transcription": "l. 22–23 addere: « postea quod e divisione anguli longitudinis provenerat (2) rursus sume [*et*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0350-body-L015",
+     "source_line_no": null,
+     "tex": "« \\textit{in semidiametrum multiplica; productum per sinum distantiae zenithalis aequatae}",
+     "transcription": "« *in semidiametrum multiplica; productum per sinum distantiae zenithalis aequatae*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0350-body-L016",
+     "source_line_no": null,
+     "tex": "« \\textit{Lunae divide; quod invenies}] in arcum converte; exibit variatio anguli ». Sed hanc cor-",
+     "transcription": "« *Lunae divide; quod invenies*] in arcum converte; exibit variatio anguli ». Sed hanc cor-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0350-body-L017",
+     "source_line_no": null,
+     "tex": "rectionem in animo \\Name{al–Battānī} habuisse vehementer dubitandum est, ut p. 262 ostendetur.",
+     "transcription": "rectionem in animo {sp:al–Battānī} habuisse vehementer dubitandum est, ut p. 262 ostendetur.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0350-body-L018",
+     "source_line_no": null,
+     "tex": "\\Indent Procul dubio ad hunc angulorum correctorum calculum pertinent censurae quas \\Name{Ibn}",
+     "transcription": "Procul dubio ad hunc angulorum correctorum calculum pertinent censurae quas {sp:Ibn}",
+     "semantic_anchor": "AB01-PDF0350-P04",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0350-body-L019",
+     "source_line_no": null,
+     "tex": "\\Name{Yūnus}, introd. (ap. \\Name{Caussin} p. 72) infert: « Item falsum est quod Abū ’l–‘Abbās al–Faḍl",
+     "transcription": "{sp:Yūnus}, introd. (ap. {sp:Caussin} p. 72) infert: « Item falsum est quod Abū ’l–‘Abbās al–Faḍl",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0350-body-L020",
+     "source_line_no": null,
+     "tex": "« ibn Ḥātim \\Name{an–Nayrīzī} (3), Abū ‘Abd Allāh Muḥammad ibn Ǵābir ibn Sinān \\Name{al–Battānī}",
+     "transcription": "« ibn Ḥātim {sp:an–Nayrīzī} (3), Abū ‘Abd Allāh Muḥammad ibn Ǵābir ibn Sinān {sp:al–Battānī}",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0350-body-L021",
+     "source_line_no": null,
+     "tex": "« aliique dicunt de angulis quibus opus est ad cognoscendam parallaxim lunarem in longitu-",
+     "transcription": "« aliique dicunt de angulis quibus opus est ad cognoscendam parallaxim lunarem in longitu-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0350-body-L022",
+     "source_line_no": null,
+     "tex": "« dine et latitudine, in calculo eclipsium Solis; id enim ad veram cognitionem loci apparentis",
+     "transcription": "« dine et latitudine, in calculo eclipsium Solis; id enim ad veram cognitionem loci apparentis",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0350-body-L023",
+     "source_line_no": null,
+     "tex": "« Lunae non ducit, cum non adhibeantur methodi quabus ad veritatem perveniatur ». Sed hae",
+     "transcription": "« Lunae non ducit, cum non adhibeantur methodi quabus ad veritatem perveniatur ». Sed hae",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0350-body-L024",
+     "source_line_no": null,
+     "tex": "censurae (quas \\Name{Caussin} perperam ad XLIV cap. al–Battānī pertinere censet) \\Name{Ptolemaeum},",
+     "transcription": "censurae (quas {sp:Caussin} perperam ad XLIV cap. al–Battānī pertinere censet) {sp:Ptolemaeum},",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0350-body-L025",
+     "source_line_no": null,
+     "tex": "magis etiam quam \\Name{Albatenium} attingunt; et re vera \\Name{Tannery}, \\textit{Recherches sur l’hist.}",
+     "transcription": "magis etiam quam {sp:Albatenium} attingunt; et re vera {sp:Tannery}, *Recherches sur l’hist.*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0350-body-L026",
+     "source_line_no": null,
+     "tex": "\\textit{de l’astron. ancienne}, Paris 1893, p. 221, adn., haud paulum ob has correctiones Graecum",
+     "transcription": "*de l’astron. ancienne*, Paris 1893, p. 221, adn., haud paulum ob has correctiones Graecum",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0350-body-L027",
+     "source_line_no": null,
+     "tex": "astronomum obiurgat.",
+     "transcription": "astronomum obiurgat.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0350-body-L028",
+     "source_line_no": null,
+     "tex": "\\Indent [Solutio problematis nullo modo calculum anguli in T requirit, ut \\Name{Ptolemaeus} et",
+     "transcription": "[Solutio problematis nullo modo calculum anguli in T requirit, ut {sp:Ptolemaeus} et",
+     "semantic_anchor": "AB01-PDF0350-P05",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0350-body-L029",
+     "source_line_no": null,
+     "tex": "\\Name{al–Battānī} habent; verus \\textit{angulus longitudinis}, qui respectu B est ZBQ, respectu Lunae",
+     "transcription": "{sp:al–Battānī} habent; verus *angulus longitudinis*, qui respectu B est ZBQ, respectu Lunae",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0350-body-L030",
+     "source_line_no": null,
+     "tex": "E est ZEQ; hic autem facillime deducitur per proportionem sinuum, triangulo ZEB considerato.",
+     "transcription": "E est ZEQ; hic autem facillime deducitur per proportionem sinuum, triangulo ZEB considerato.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0350-body-L031",
+     "source_line_no": null,
+     "tex": "— Falsissima, ut antea dictum est, aequatio BZT $+$ ATZ $=$ ABZ, quae tantum constaret si",
+     "transcription": "— Falsissima, ut antea dictum est, aequatio BZT $+$ ATZ $=$ ABZ, quae tantum constaret si",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0350-body-L032",
+     "source_line_no": null,
+     "tex": "triangula essent rectilinea. — Demum in calculo anguli ATZ ambo scriptores erraverunt. Parva",
+     "transcription": "triangula essent rectilinea. — Demum in calculo anguli ATZ ambo scriptores erraverunt. Parva",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0350-body-L033",
+     "source_line_no": null,
+     "tex": "tamen mutatione, supputatio \\Name{Albateniana} potest satis idonee corrigi.",
+     "transcription": "tamen mutatione, supputatio {sp:Albateniana} potest satis idonee corrigi.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0350-body-L034",
+     "source_line_no": null,
+     "tex": "\\Indent Sit AG ecliptica, Z zenith, E Luna, EB circulus latitudinis, ZB et ZT circuli verticales",
+     "transcription": "Sit AG ecliptica, Z zenith, E Luna, EB circulus latitudinis, ZB et ZT circuli verticales",
+     "semantic_anchor": "AB01-PDF0350-P06",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0350-body-L035",
+     "source_line_no": null,
+     "tex": "per B et E ducti. Loco arcus perpendicularis EL ducendi, arcus paralleli describatur, ita ut",
+     "transcription": "per B et E ducti. Loco arcus perpendicularis EL ducendi, arcus paralleli describatur, ita ut",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0350-body-L036",
+     "source_line_no": null,
+     "tex": "L, E pariter a Z distent; quoniam EL 2° summum attingit, licet alterum alteri arcui surrogare.",
+     "transcription": "L, E pariter a Z distent; quoniam EL 2° summum attingit, licet alterum alteri arcui surrogare.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0350-body-L037",
+     "source_line_no": null,
+     "tex": "— Ex centro O sphaerae ducantur tria plana quae in sphaera tres arcus vel latera trianguli",
+     "transcription": "— Ex centro O sphaerae ducantur tria plana quae in sphaera tres arcus vel latera trianguli",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    }
+   ]
+  },
+  {
+   "role": "notes_left",
+   "lines": [
+    {
+     "id": "AB01-PDF0350-notes_left-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (1) [\\Name{Ptolemaeus} per \\textit{z} dividit, faciens",
+     "transcription": "(1) [{sp:Ptolemaeus} per *z* dividit, faciens",
+     "semantic_anchor": "AB01-PDF0350-N01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0350-notes_left-L002",
+     "source_line_no": null,
+     "tex": "\\CenterLine{$\\sin BZT = \\dfrac{\\text{\\textgreek{β} sin ang. long.}}{z}\\,.$}",
+     "transcription": "$\\sin BZT = \\dfrac{\\text{β sin ang. long.}}{z}\\,.$",
+     "semantic_anchor": "AB01-PDF0350-H02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0350-notes_left-L003",
+     "source_line_no": null,
+     "tex": "Sed \\textit{z} pro sin \\textit{z} ponere semper falsum est; proxime",
+     "transcription": "Sed *z* pro sin *z* ponere semper falsum est; proxime",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0350-notes_left-L004",
+     "source_line_no": null,
+     "tex": "tantum fieri potest cum Luna paulum a zenith di-",
+     "transcription": "tantum fieri potest cum Luna paulum a zenith di-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  },
+  {
+   "role": "notes_right",
+   "lines": [
+    {
+     "id": "AB01-PDF0350-notes_right-L001",
+     "source_line_no": null,
+     "tex": "stet, ita ut sin \\textit{z} haud multum a \\textit{z} differat. — \\textsc{Schia-}",
+     "transcription": "stet, ita ut sin *z* haud multum a *z* differat. — {sc:Schia-}",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0350-notes_right-L002",
+     "source_line_no": null,
+     "tex": "\\textsc{parelli}.]",
+     "transcription": "{sc:parelli}.]",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0350-notes_right-L003",
+     "source_line_no": null,
+     "tex": "\\Indent (2) I. e.\\quad $\\dfrac{\\text{sin \\textgreek{β} sin ang. long.}}{R}$.",
+     "transcription": "(2) I. e.\\quad $\\dfrac{\\text{sin β sin ang. long.}}{R}$.",
+     "semantic_anchor": "AB01-PDF0350-N02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0350-notes_right-L004",
+     "source_line_no": null,
+     "tex": "\\Indent (3) Obiit circa annum 310 heg. (922-23 Chr );",
+     "transcription": "(3) Obiit circa annum 310 heg. (922-23 Chr );",
+     "semantic_anchor": "AB01-PDF0350-N03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0350-notes_right-L005",
+     "source_line_no": null,
+     "tex": "\\Name{Suter} nr. 88, p. 45.",
+     "transcription": "{sp:Suter} nr. 88, p. 45.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  }
+ ]
+}
