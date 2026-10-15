@@ -20,6 +20,9 @@ ink (_intake/latin/tools/fig_measure2.py). Optional:
            of a graduation, the dashes of a broken line), drawn eight to a command
   "fills"  [{"pts": [[x, y], ...], "name"}]: a small printed shape filled through its traced outline (a smooth
            closed curve through the points), for marks that are not lines, circles or letters
+  "braces" [{"x0", "y0", "x1", "y1", "amp", "w", "name"}]: a curly brace along the line from (x0, y0) to (x1, y1),
+           its ends there and its point "amp" pt away, on the left of the direction of travel as seen on the page
+           (from left to right: the point upward; from top to bottom: the point to the right)
   labels may give their centre as "cx", "cy" instead of the box, a turn "rot" (degrees) and a "font" of their own"""
 import json
 import math
@@ -100,6 +103,10 @@ def main():
         for k in range(0, len(segs), 8):
             out.append(r"\draw[" + style + "] " + " ".join("(" + X(x0) + "," + Y(y0) + ")--(" + X(x1) + "," + Y(y1)
                                                           + ")" for x0, y0, x1, y1 in segs[k:k + 8]) + ";")
+    for br in d.get("braces", []):
+        out.append(r"\draw[decorate,decoration={brace,amplitude=" + f"{br['amp'] * s:.2f}" + "pt},line width="
+                   + f"{br['w'] * s:.2f}" + "pt] (" + X(br["x0"]) + "," + Y(br["y0"]) + ") -- (" + X(br["x1"]) + ","
+                   + Y(br["y1"]) + ");  % " + br["name"])
     for lb in d["labels"]:
         if "cx" in lb:
             cx, cy = lb["cx"], lb["cy"]
@@ -117,7 +124,7 @@ def main():
     print(f"wrote {name}.tex: {len(d['circles'])} circles, {len(d['segments'])} lines, "
           f"{sum(len(g['segs']) for g in d.get('groups', []))} strokes in groups, {len(d['labels'])} letters, "
           f"{len(d.get('hatch', []))} hatched parts, {len(d.get('fills', []))} filled shapes, "
-          f"{len(d.get('words', []))} words")
+          f"{len(d.get('words', []))} words, {len(d.get('braces', []))} braces")
 
 
 if __name__ == "__main__":
