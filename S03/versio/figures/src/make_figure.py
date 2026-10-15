@@ -20,6 +20,8 @@ ink (_intake/latin/tools/fig_measure2.py). Optional:
            of a graduation, the dashes of a broken line), drawn eight to a command
   "fills"  [{"pts": [[x, y], ...], "name"}]: a small printed shape filled through its traced outline (a smooth
            closed curve through the points), for marks that are not lines, circles or letters
+  "ellipses" [{"cx", "cy", "rx", "ry", "w", "name"}]: an ellipse with axes parallel to the page (a circle printed
+           a little wider than high)
   "braces" [{"x0", "y0", "x1", "y1", "amp", "w", "name"}]: a curly brace along the line from (x0, y0) to (x1, y1),
            its ends there and its point "amp" pt away, on the left of the direction of travel as seen on the page
            (from left to right: the point upward; from top to bottom: the point to the right)
@@ -76,6 +78,9 @@ def main():
     for c in d["circles"]:
         out.append(r"\draw[line width=" + f"{c['w'] * s:.2f}" + "pt] (" + X(c["cx"]) + "," + Y(c["cy"])
                    + ") circle[radius=" + f"{c['r']:.2f}" + "];  % " + c["name"])
+    for e in d.get("ellipses", []):
+        out.append(r"\draw[line width=" + f"{e['w'] * s:.2f}" + "pt] (" + X(e["cx"]) + "," + Y(e["cy"])
+                   + ") ellipse[x radius=" + f"{e['rx']:.2f}" + ",y radius=" + f"{e['ry']:.2f}" + "];  % " + e["name"])
     for g in d["segments"]:
         out.append(r"\draw[line width=" + f"{g['w'] * s:.2f}" + "pt] (" + X(g["x0"]) + "," + Y(g["y0"]) + ") -- ("
                    + X(g["x1"]) + "," + Y(g["y1"]) + ");  % " + g["name"])
