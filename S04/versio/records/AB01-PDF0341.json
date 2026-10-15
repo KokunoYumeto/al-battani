@@ -1,0 +1,511 @@
+{
+ "anchor": "AB01-PDF0341",
+ "master_pdf_page": 341,
+ "printed_page": 252,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "margin_locators": [],
+ "observations": [
+  "body L1-L9: Schiaparelli's addition begun on p. 251 goes on; in L9 a heavy bracket closes it, after a dash of 10.0 pt. L3-L4 reword p. 77, L25-L27 with «zenith» for «medii Caeli».",
+  "body L2, L6, L13-L15, L26-L27: «al–Battānī» and «al–Farghānī» have long dashes (5.3 to 5.4 pt); in L14-L15 «al–Farghānī» is divided at its dash, which is printed at the end of L14 and again at the beginning of L15 (5.3 and 5.4 pt). The second «al–Battānī» of L14 is printed without letter-spacing; a stroke over the first a of «al–Battānī» (L27) is not transcribed.",
+  "body L10: the dash after «c)» measures 10.0 pt, that of «32–34» 5.9 pt. The lines cited are p. 77, L32-L34: «Parallaxis etiam est in Venere et Mercurio sensibilis, sed magis in Mercurio ... in perigeo, quo tempore eius parallaxis aequat parallaxim Lunae in apogeo».",
+  "body L12, L17, L33, L36: a stroke over the first a of «apogeae», a speck under the s of «sensu», a speck over the e of «Sole» and one after «Igitur» are not transcribed.",
+  "body L21: the comma after «reiecerint» prints low; the dash of «167–69» measures 5.4 pt.",
+  "body L23-L24: Ptolemy puts the Sun 1210 radii of the Earth from it; the parallax of a body at that distance on the horizon is arcsin(1/1210) = 2′ 50.5″, his 2′ 51″.",
+  "body L31-L32: «114-» and «-115» are divided at the hyphen, which is printed at the end of L31 and again at the beginning of L32 (2.9 and 2.8 pt).",
+  "body L35-L38: with the radius of the eccentric 60ᵖ, the epicycle 43ᵖ 10′ and the eccentricity 1ᵖ 15′ (Ptolemy's Venus), the greatest distance of Venus is 60 + 1;15 + 43;10 = 104ᵖ 25′ and the least 60 − 1;15 − 43;10 = 15ᵖ 35′, «amplius 104ᵖ» and «minus 16ᵖ». The argument goes on to p. 253.",
+  "notes_left L2-L3, notes_right L1: the hyphens at the ends of «alio-» and «indu-» print short (1.6 and 1.8 pt); a low stroke after «inventum),» is not transcribed."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0341-body-L001",
+     "source_line_no": null,
+     "tex": "est in L, conspicietur inferior in L′, et parallaxis ita erit in plagam versus, quam arcus ZL",
+     "transcription": "est in L, conspicietur inferior in L′, et parallaxis ita erit in plagam versus, quam arcus ZL",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0341-body-L002",
+     "source_line_no": null,
+     "tex": "productus designat, scilicet a parte opposita zenith. Melius ergo \\Name{al–Battānī} scribere pote-",
+     "transcription": "productus designat, scilicet a parte opposita zenith. Melius ergo {sp:al–Battānī} scribere pote-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0341-body-L003",
+     "source_line_no": null,
+     "tex": "rat: « parallaxis semper in eam latitudinis plagam declinat, quam designat circulus ultra eum",
+     "transcription": "rat: « parallaxis semper in eam latitudinis plagam declinat, quam designat circulus ultra eum",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0341-body-L004",
+     "source_line_no": null,
+     "tex": "« eclipticae gradum productus a zenith medii Caeli ». Nam hic non de medio Caelo agitur",
+     "transcription": "« eclipticae gradum productus a zenith medii Caeli ». Nam hic non de medio Caelo agitur",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0341-body-L005",
+     "source_line_no": null,
+     "tex": "quod in XXXV cap. memoratur, sed de zenith quod est in medio Caeli visibilis.",
+     "transcription": "quod in XXXV cap. memoratur, sed de zenith quod est in medio Caeli visibilis.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0341-body-L006",
+     "source_line_no": null,
+     "tex": "\\Indent Parallaxis longitudinis, de qua postea \\Name{al–Battānī} loquitur, fit ab ea parte a quo ecli-",
+     "transcription": "Parallaxis longitudinis, de qua postea {sp:al–Battānī} loquitur, fit ab ea parte a quo ecli-",
+     "semantic_anchor": "AB01-PDF0341-P01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0341-body-L007",
+     "source_line_no": null,
+     "tex": "ptica horizonti appropinquat; ergo versus A si AL minor 90 gradibus.",
+     "transcription": "ptica horizonti appropinquat; ergo versus A si AL minor 90 gradibus.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0341-body-L008",
+     "source_line_no": null,
+     "tex": "\\Indent Ambo praecepta brevius indicari poterant: parallaxis longitudinis fit versus ascendens si",
+     "transcription": "Ambo praecepta brevius indicari poterant: parallaxis longitudinis fit versus ascendens si",
+     "semantic_anchor": "AB01-PDF0341-P02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0341-body-L009",
+     "source_line_no": null,
+     "tex": "hoc propinquius est, secus versus descendens. — \\textsc{Schiaparelli}.]",
+     "transcription": "hoc propinquius est, secus versus descendens. — {sc:Schiaparelli}.]",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0341-body-L010",
+     "source_line_no": null,
+     "tex": "\\CenterLine{\\textbf{\\textit{c}}) — \\textit{Pag. 77, l. 32–34.}}",
+     "transcription": "{bi:c}) — *Pag. 77, l. 32–34.*",
+     "semantic_anchor": "AB01-PDF0341-H10",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0341-body-L011",
+     "source_line_no": null,
+     "tex": "\\Indent \\textit{Parallaxis Veneris et Mercurii} sensibilis; in Mercurio perigeo aequalis parallaxi Lu-",
+     "transcription": "*Parallaxis Veneris et Mercurii* sensibilis; in Mercurio perigeo aequalis parallaxi Lu-",
+     "semantic_anchor": "AB01-PDF0341-P03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0341-body-L012",
+     "source_line_no": null,
+     "tex": "nae apogeae.",
+     "transcription": "nae apogeae.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0341-body-L013",
+     "source_line_no": null,
+     "tex": "\\Indent Discrepat nunc \\Name{al–Battānī} a \\Name{Ptolemaei} IX, 1 (ed. Halma t. II, p. 115) sententia, pa-",
+     "transcription": "Discrepat nunc {sp:al–Battānī} a {sp:Ptolemaei} IX, 1 (ed. Halma t. II, p. 115) sententia, pa-",
+     "semantic_anchor": "AB01-PDF0341-P04",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0341-body-L014",
+     "source_line_no": null,
+     "tex": "rallaxes quinque planetarum omnium insensibiles esse. Sed iam ante al–Battānī scripserat \\Name{al–}",
+     "transcription": "rallaxes quinque planetarum omnium insensibiles esse. Sed iam ante al–Battānī scripserat {sp:al–}",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0341-body-L015",
+     "source_line_no": null,
+     "tex": "\\Name{–Farghānī} cap. XXVII, p. 100 ed. Golii: « In superioribus quidem planetis, qui nempe con-",
+     "transcription": "{sp:–Farghānī} cap. XXVII, p. 100 ed. Golii: « In superioribus quidem planetis, qui nempe con-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0341-body-L016",
+     "source_line_no": null,
+     "tex": "« sistunt supra Solem, de hac parallaxi [altitudinis] haud quicquam deprehenditur, quod",
+     "transcription": "« sistunt supra Solem, de hac parallaxi [altitudinis] haud quicquam deprehenditur, quod",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0341-body-L017",
+     "source_line_no": null,
+     "tex": "« ullatenus queat sensu dignosci. Quod ad Solem spectat, neque eius etiam parallaxis obser-",
+     "transcription": "« ullatenus queat sensu dignosci. Quod ad Solem spectat, neque eius etiam parallaxis obser-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0341-body-L018",
+     "source_line_no": null,
+     "tex": "« vando animadvertitur; at cum subducitur ex [nota] Solis distantia a Terra, summum eius",
+     "transcription": "« vando animadvertitur; at cum subducitur ex [nota] Solis distantia a Terra, summum eius",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0341-body-L019",
+     "source_line_no": null,
+     "tex": "« quod prope horizontem colligitur, 3 sunt minuta. \\textit{In Venere autem, Mercurio et Luna}",
+     "transcription": "« quod prope horizontem colligitur, 3 sunt minuta. *In Venere autem, Mercurio et Luna*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0341-body-L020",
+     "source_line_no": null,
+     "tex": "« \\textit{parallaxis sensibilis} est; praesertim in Luna ..... ».",
+     "transcription": "« *parallaxis sensibilis* est; praesertim in Luna ..... ».",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0341-body-L021",
+     "source_line_no": null,
+     "tex": "\\Indent Cur Ptolemaei sententiam Arabes reiecerint, iam \\Name{Delambre} p. 50 et 167–69 animad-",
+     "transcription": "Cur Ptolemaei sententiam Arabes reiecerint, iam {sp:Delambre} p. 50 et 167–69 animad-",
+     "semantic_anchor": "AB01-PDF0341-P05",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0341-body-L022",
+     "source_line_no": null,
+     "tex": "vertit. \\Name{Ptolemaeus} distantias sphaerarum quinque planetarum a Terra non determinat; So-",
+     "transcription": "vertit. {sp:Ptolemaeus} distantias sphaerarum quinque planetarum a Terra non determinat; So-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0341-body-L023",
+     "source_line_no": null,
+     "tex": "lem quod attinet, ex \\Name{Aristarchi} theoria de distantiis Solis et Lunae deducit parallaxim so-",
+     "transcription": "lem quod attinet, ex {sp:Aristarchi} theoria de distantiis Solis et Lunae deducit parallaxim so-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0341-body-L024",
+     "source_line_no": null,
+     "tex": "larem 2′ 51″ (vel rotunde 3 minutorum), sed addit eam non posse observationibus directis",
+     "transcription": "larem 2′ 51″ (vel rotunde 3 minutorum), sed addit eam non posse observationibus directis",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0341-body-L025",
+     "source_line_no": null,
+     "tex": "supputari (cfr. p. 77, adn. 4). Qua re, licet ex antiquorum traditione Venerem et Mercurium",
+     "transcription": "supputari (cfr. p. 77, adn. 4). Qua re, licet ex antiquorum traditione Venerem et Mercurium",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0341-body-L026",
+     "source_line_no": null,
+     "tex": "sub Sole ponat, eorum parallaxes insensibiles existimare potest. — Sed \\Name{al–Farghānī} et",
+     "transcription": "sub Sole ponat, eorum parallaxes insensibiles existimare potest. — Sed {sp:al–Farghānī} et",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0341-body-L027",
+     "source_line_no": null,
+     "tex": "\\Name{al–Battānī}, ut reliqui Arabes, sententiam illorum sequuntur, qui sphaeras planetarum con-",
+     "transcription": "{sp:al–Battānī}, ut reliqui Arabes, sententiam illorum sequuntur, qui sphaeras planetarum con-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0341-body-L028",
+     "source_line_no": null,
+     "tex": "tiguas putant, ita ut maxima distantia inferioris sit minima planetae statim superioris (cfr.",
+     "transcription": "tiguas putant, ita ut maxima distantia inferioris sit minima planetae statim superioris (cfr.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0341-body-L029",
+     "source_line_no": null,
+     "tex": "adn. \\textbf{\\textit{a}} ad cap. L). Ergo maxima Mercurii parallaxis debet minimae Lunae aequari.",
+     "transcription": "adn. {bi:a} ad cap. L). Ergo maxima Mercurii parallaxis debet minimae Lunae aequari.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0341-body-L030",
+     "source_line_no": null,
+     "tex": "\\Indent Notatu dignae sunt censurae quas, priore XII Chr. saec. medietate, \\Name{Ǵābir ibn Aflaḥ}",
+     "transcription": "Notatu dignae sunt censurae quas, priore XII Chr. saec. medietate, {sp:Ǵābir ibn Aflaḥ}",
+     "semantic_anchor": "AB01-PDF0341-P06",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0341-body-L031",
+     "source_line_no": null,
+     "tex": "in Ptolemaeum intulit (1). Considerationibus \\Name{Ptolemaicis} (\\textit{Alm.} IX, 1, ed. Halma t. II, p. 114-",
+     "transcription": "in Ptolemaeum intulit (1). Considerationibus {sp:Ptolemaicis} (*Alm.* IX, 1, ed. Halma t. II, p. 114-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0341-body-L032",
+     "source_line_no": null,
+     "tex": "-115) de ordine sphaerarum planetarum expositis, has addit observationes: Graecus astrono-",
+     "transcription": "-115) de ordine sphaerarum planetarum expositis, has addit observationes: Graecus astrono-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0341-body-L033",
+     "source_line_no": null,
+     "tex": "mus Venerem et Mercurium sub Sole ponit, cui parallaxim 2′ 51″ tribuit, eaque utitur in",
+     "transcription": "mus Venerem et Mercurium sub Sole ponit, cui parallaxim 2′ 51″ tribuit, eaque utitur in",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0341-body-L034",
+     "source_line_no": null,
+     "tex": "eclipsibus solaribus; at ambos inferiores planetas negat sensibilem parallaxim habere. Demon-",
+     "transcription": "eclipsibus solaribus; at ambos inferiores planetas negat sensibilem parallaxim habere. Demon-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0341-body-L035",
+     "source_line_no": null,
+     "tex": "strat postea Ptolemaeus radium epicycli Veneris 43\\textsuperscript{\\textit{p}} $\\qfrac{1}{6}$, excentricitatem 1\\textsuperscript{\\textit{p}} $\\qfrac{1}{4}$ esse e partibus",
+     "transcription": "strat postea Ptolemaeus radium epicycli Veneris 43{sup:*p*} {sfrac:1/6}, excentricitatem 1{sup:*p*} {sfrac:1/4} esse e partibus",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0341-body-L036",
+     "source_line_no": null,
+     "tex": "quarum 60 tribuuntur radio excentrici. Igitur Venus in maxima distantia deberet a centro",
+     "transcription": "quarum 60 tribuuntur radio excentrici. Igitur Venus in maxima distantia deberet a centro",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0341-body-L037",
+     "source_line_no": null,
+     "tex": "Terrae amplius 104\\textsuperscript{\\textit{p}} abesse, in minima minus 16\\textsuperscript{\\textit{p}}. Itaque si Sol, qui a Terra semper amplius",
+     "transcription": "Terrae amplius 104{sup:*p*} abesse, in minima minus 16{sup:*p*}. Itaque si Sol, qui a Terra semper amplius",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0341-body-L038",
+     "source_line_no": null,
+     "tex": "104\\textsuperscript{\\textit{p}} distat, parallaxim trium fere minutorum habet, quo modo Ptolemaeus potest Venerem",
+     "transcription": "104{sup:*p*} distat, parallaxim trium fere minutorum habet, quo modo Ptolemaeus potest Venerem",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    }
+   ]
+  },
+  {
+   "role": "notes_left",
+   "lines": [
+    {
+     "id": "AB01-PDF0341-notes_left-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (1) \\Name{Gebri filii Affla Hispalensis} \\textit{de}",
+     "transcription": "(1) {sp:Gebri filii Affla Hispalensis} *de*",
+     "semantic_anchor": "AB01-PDF0341-N01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0341-notes_left-L002",
+     "source_line_no": null,
+     "tex": "\\textit{astronomia libri IX, in quibus Ptolemaeum, alio-}",
+     "transcription": "*astronomia libri IX, in quibus Ptolemaeum, alio-*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0341-notes_left-L003",
+     "source_line_no": null,
+     "tex": "\\textit{qui doctissimum, emendavit, alicubi etiam indu-}",
+     "transcription": "*qui doctissimum, emendavit, alicubi etiam indu-*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0341-notes_left-L004",
+     "source_line_no": null,
+     "tex": "\\textit{stria superavit.} Norimbergae 1541 (in calce operis:",
+     "transcription": "*stria superavit.* Norimbergae 1541 (in calce operis:",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0341-notes_left-L005",
+     "source_line_no": null,
+     "tex": "\\textit{Instrumentum sinuum seu primi mobilis nuper}",
+     "transcription": "*Instrumentum sinuum seu primi mobilis nuper*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  },
+  {
+   "role": "notes_right",
+   "lines": [
+    {
+     "id": "AB01-PDF0341-notes_right-L001",
+     "source_line_no": null,
+     "tex": "\\textit{a} \\Name{Petro Apiano} \\textit{inventum}), lib. VII, p. 103.",
+     "transcription": "*a* {sp:Petro Apiano} *inventum*), lib. VII, p. 103.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0341-notes_right-L002",
+     "source_line_no": null,
+     "tex": "Versio Latina est Gherardi Cremonensis, sed tam",
+     "transcription": "Versio Latina est Gherardi Cremonensis, sed tam",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0341-notes_right-L003",
+     "source_line_no": null,
+     "tex": "barbarica ut huius loci nihil \\Name{Delambre} p. 184",
+     "transcription": "barbarica ut huius loci nihil {sp:Delambre} p. 184",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0341-notes_right-L004",
+     "source_line_no": null,
+     "tex": "intellexerit.",
+     "transcription": "intellexerit.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  }
+ ]
+}
