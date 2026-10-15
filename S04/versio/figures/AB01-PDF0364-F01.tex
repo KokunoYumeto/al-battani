@@ -1,0 +1,24 @@
+% Nallino, Part I p. 275: Schiaparelli's figure of the Moon in the shadow of the Earth, redrawn from the print:
+% the shadow about O with the two gaps of its printed outline, the Moon at a, b and c on its path, solid from a
+% to c and dashed beyond, the radius from A through K and b to O, and the italic letters.
+% Measured on the scan (_intake/latin/tools/fig275).
+\begin{tikzpicture}[x=1.0147pt,y=-1.0147pt,line cap=butt,every node/.style={font=\fontsize{11}{11}\bfseries\itshape\selectfont,inner sep=0pt}]
+\useasboundingbox (0,0) rectangle (132.00,121.00);
+\draw[line width=1.07pt] (42.07,44.73) circle[radius=16.37];  % the Moon at a
+\draw[line width=1.10pt] (68.89,43.87) circle[radius=16.39];  % the Moon at b
+\draw[line width=1.09pt] (95.81,43.29) circle[radius=16.44];  % the Moon at c
+\draw[line width=1.27pt] (41.38,45.01) -- (96.65,43.26);  % the path of the Moon from a to c
+\draw[line width=1.11pt] (69.14,14.90) -- (69.48,67.66);  % the radius AO
+\draw[line width=1.13pt] (122.34,65.04) arc[start angle=-362.96,end angle=-79.44,radius=52.87];
+\draw[line width=1.13pt] (80.13,15.97) arc[start angle=-78.45,end angle=-11.88,radius=52.87];
+\fill (69.48,67.66) circle[radius=0.95];  % O
+% the path of the Moon outside a and c, dash by dash
+\draw[line width=1.32pt,line cap=round] (9.84,46.01)--(10.52,45.99) (11.88,45.95)--(14.00,45.88) (15.61,45.83)--(17.61,45.77) (18.49,45.74)--(24.07,45.56) (25.07,45.53)--(27.20,45.46) (28.68,45.42)--(30.54,45.36) (32.27,45.30)--(34.15,45.24) (35.63,45.20)--(38.09,45.12);
+\draw[line width=1.32pt,line cap=round] (39.23,45.08)--(40.97,45.03) (97.78,43.23)--(99.89,43.16) (100.89,43.13)--(103.36,43.05) (104.36,43.02)--(106.96,42.94) (107.96,42.91)--(110.08,42.84) (110.62,42.82)--(112.77,42.75) (113.73,42.72)--(118.37,42.58);
+\node at (67.01,8.62) {\normalfont\fontsize{11}{11}\itshape\selectfont \resizebox{6.98pt}{7.28pt}{A}};
+\node at (63.53,23.08) {\normalfont\fontsize{11}{11}\itshape\selectfont \resizebox{6.07pt}{7.40pt}{K}};
+\node at (63.24,37.66) {\normalfont\fontsize{11}{11}\itshape\selectfont \resizebox{6.21pt}{7.20pt}{b}};
+\node at (96.62,38.92) {\normalfont\fontsize{11}{11}\itshape\selectfont \resizebox{4.32pt}{4.88pt}{c}};
+\node at (40.26,39.94) {\normalfont\fontsize{11}{11}\itshape\selectfont \resizebox{7.00pt}{4.29pt}{a}};
+\node at (67.80,74.56) {\normalfont\fontsize{11}{11}\itshape\selectfont \resizebox{5.26pt}{6.60pt}{O}};
+\end{tikzpicture}

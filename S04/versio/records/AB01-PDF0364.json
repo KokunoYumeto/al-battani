@@ -1,0 +1,445 @@
+{
+ "anchor": "AB01-PDF0364",
+ "master_pdf_page": 364,
+ "printed_page": 275,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "margin_locators": [],
+ "observations": [
+  "body L1-L4: the upper right corner of the leaf is lost in the master scan: the scan is blank there, along a line that runs from x 451 pt at the rule under the running head (whose page number 275 is lost with it) to x 459 pt at L4, and the ends of L1-L4, 35 to 42 pt of print each (about eight letters), are lost. The visible text is transcribed and a light grey bar marks each lost end, its length that of the lost print at the scale of the edition; nothing is supplied. After «paulo» (L1) only the left side of a round letter of x-height is left at the edge (x 452.1-453.5 pt). The sense asks for «dimidium» there (7/24 of 2° is 35′, a little more than half a degree, and L2 goes on «et saepe ne dimidium quidem attingunt»), and for «provenit error» and «luminarium» at the ends of L3 and L4; the lost end of L2 opened the parenthesis that «ab)» closes in L3. The master scan is the Internet Archive file of the three parts (the same bytes); no second copy of Part I has been found to supply the lost ends.",
+  "body L5, L7-L8, L18-L20, L33-L35: heavy brackets close Schiaparelli's addition begun on p. 274, L24 (L5) and open and close those of a) (L8, L18) and b) (L20, L33); the addition of c), begun in L35, goes on to p. 276. The dashes after «a)», «b)» and «c)» measure 10.1, 9.2 and 9.6 pt, those of «39—pag.» and «22—pag.» 9.7 and 9.2 pt, those before «Schiaparelli» (L18, L33) 10.1 and 10.2 pt; «al–Battānī» (L8) is letter-spaced, with a long dash (5.3 pt).",
+  "body L8-L16: the first figure stands on the right of these lines and is redrawn from the print: the shadow about O (radius 52.9 pt), its outline printed with two gaps, at the upper right and on the right, which are kept; the Moon at a, b and c (radius 16.4 pt), a and c touching the shadow inside, within 0.6 pt; the path of the Moon, solid from a to c and dashed beyond, dash by dash; the line from A through K and b to O, with the dot at O; the italic letters. AK = 12.6 pt, the radius of the shadow less Ob and the radius of the Moon; ab and bc measure 26.8 and 26.9 pt, so bc is half the path ca.",
+  "body L10, L12, L16-L17: the t's of «totalitatis» (L10), of «talis» (L12) and the second t of «totam» (L16) print without their crossbars, like an l; the m of «minuta» (L11) and of «moram» (L17) prints broken, like ın. A speck below the line before «98» (L10), 1.2 by 2.6 pt, is not a comma.",
+  "body L22-L30: the second figure stands on the left of these lines and is redrawn from the print: the shadow of the Earth, whose printed outline is not a circle (its radius from O grows from about 86 pt on the left to 91 pt on the right), drawn along its traced centre line; the ecliptic EOA and the perpendicular through O; the Moon about D (radius 23.5 pt) and about B (radius 24.2 pt), touching the shadow inside at G and F; the lines GDO and FBO; DC and HB parallel to the ecliptic, DE and BA perpendicular to it; the line DIB; the bold italic letters; «umbra Terrae» along the left of the outline and «ecliptica» along the ecliptic, in italic. OB = OD is the radius of the shadow less that of the Moon, half the difference of the diameters; HB = OA, since OHBA is a rectangle; IB² = HB² + IH², the path from the middle of the eclipse to the end of totality.",
+  "body L28-L31: the bars over «OE» and «HB» (L28) reach over the exponents; the 2 after «HB» under the radical (L31) prints broken, only its upper hook and a speck.",
+  "notes_left L1-L2: the numerator 1 of L1 prints with a heavy flag, 3.4 pt wide, and a speck before it. Nallino's addenda (Part I, p. LXXI) note at p. 96, l. 6 that «gradus» is to be read for «horae», referring to this note."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0364-body-L001",
+     "source_line_no": null,
+     "tex": "elongatio pendit a sola aequatione Solis, et summum 2° est; ergo eius $\\qfrac{7}{24}$ paulo \\textcolor{black!22}{\\rule[-.2ex]{19.2mm}{1.6ex}}",
+     "transcription": "elongatio pendit a sola aequatione Solis, et summum 2° est; ergo eius {sfrac:7/24} paulo {lost:19.2}",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0364-body-L002",
+     "source_line_no": null,
+     "tex": "gradum excedunt, et saepe ne dimidium quidem attingunt. Unde consequitur re vera \\textcolor{black!22}{\\rule[-.2ex]{17.8mm}{1.6ex}}",
+     "transcription": "gradum excedunt, et saepe ne dimidium quidem attingunt. Unde consequitur re vera {lost:17.8}",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0364-body-L003",
+     "source_line_no": null,
+     "tex": "loca circa \\textit{ab}) esse puncta in quibus, a neglectis iis $\\qfrac{7}{24}$ elongationis, maximus proveni\\textcolor{black!22}{\\rule[-.2ex]{17.3mm}{1.6ex}}",
+     "transcription": "loca circa *ab*) esse puncta in quibus, a neglectis iis {sfrac:7/24} elongationis, maximus proveni{lost:17.3}",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0364-body-L004",
+     "source_line_no": null,
+     "tex": "hic autem $\\qfrac{1}{8}$ gradus vel $\\qfrac{1}{4}$ horae circiter (1) est in motu relativo duorum luminari\\textcolor{black!22}{\\rule[-.2ex]{16.1mm}{1.6ex}}",
+     "transcription": "hic autem {sfrac:1/8} gradus vel {sfrac:1/4} horae circiter (1) est in motu relativo duorum luminari{lost:16.1}",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0364-body-L005",
+     "source_line_no": null,
+     "tex": "\\textsc{Schiaparelli}.]",
+     "transcription": "{sc:Schiaparelli}.]",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0364-body-L006",
+     "source_line_no": null,
+     "tex": "\\CenterLine{A\\textsc{d} \\textsc{caput} XLIII.}",
+     "transcription": "A{sc:d} {sc:caput} XLIII.",
+     "semantic_anchor": "AB01-PDF0364-H06",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0364-body-L007",
+     "source_line_no": null,
+     "tex": "\\CenterLine{\\textbf{\\textit{a}}) — \\textit{Pag. 97, l. 35.}}",
+     "transcription": "{bi:a}) — *Pag. 97, l. 35.*",
+     "semantic_anchor": "AB01-PDF0364-H07",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0364-body-F01",
+     "source_line_no": null,
+     "tex": "\\input{figures/AB01-PDF0364-F01}",
+     "transcription": "[figure, redrawn: figures/AB01-PDF0364-F01.tex]",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_FIGURE"
+    },
+    {
+     "id": "AB01-PDF0364-body-L008",
+     "source_line_no": null,
+     "tex": "\\Indent [Vocem \\textit{moram} \\Name{al–Battānī} vario sensu usurpat. Sit O",
+     "transcription": "[Vocem *moram* {sp:al–Battānī} vario sensu usurpat. Sit O",
+     "semantic_anchor": "AB01-PDF0364-P01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0364-body-L009",
+     "source_line_no": null,
+     "tex": "centrum umbrae, \\textit{b} centrum Lunae in medio eclipsis, \\textit{a} centrum",
+     "transcription": "centrum umbrae, *b* centrum Lunae in medio eclipsis, *a* centrum",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0364-body-L010",
+     "source_line_no": null,
+     "tex": "Lunae in fine totalitatis, \\textit{c} in initio. Hoc loco et p. 98, l. 36,",
+     "transcription": "Lunae in fine totalitatis, *c* in initio. Hoc loco et p. 98, l. 36,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0364-body-L011",
+     "source_line_no": null,
+     "tex": "\\textit{minuta morae} sunt quantitas AK qua magnitudo eclipsis to-",
+     "transcription": "*minuta morae* sunt quantitas AK qua magnitudo eclipsis to-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0364-body-L012",
+     "source_line_no": null,
+     "tex": "talis 12 digitos excedit; at p. 98, l. 6 et passim saepe, \\textit{minuta}",
+     "transcription": "talis 12 digitos excedit; at p. 98, l. 6 et passim saepe, *minuta*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0364-body-L013",
+     "source_line_no": null,
+     "tex": "\\textit{morae} sunt $\\qfrac{1}{2}$ longitudo \\textit{bc} spatii quod Luna intra umbram",
+     "transcription": "*morae* sunt {sfrac:1/2} longitudo *bc* spatii quod Luna intra umbram",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0364-body-L014",
+     "source_line_no": null,
+     "tex": "percurrit ab initio ad finem totalitatis. \\textit{Horae morae} vel \\textit{tem-}",
+     "transcription": "percurrit ab initio ad finem totalitatis. *Horae morae* vel *tem-*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0364-body-L015",
+     "source_line_no": null,
+     "tex": "\\textit{pus morae} indicant temporis intervallum in quo Luna a \\textit{b} ad \\textit{a}",
+     "transcription": "*pus morae* indicant temporis intervallum in quo Luna a *b* ad *a*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0364-body-L016",
+     "source_line_no": null,
+     "tex": "pervenit, nempe dimidium tempus totalitatis. Demum \\textit{totam}",
+     "transcription": "pervenit, nempe dimidium tempus totalitatis. Demum *totam*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0364-body-L017",
+     "source_line_no": null,
+     "tex": "\\textit{moram} appellat maximum valorem morae, qui eclipsi centrali respondet; est igitur dimidia",
+     "transcription": "*moram* appellat maximum valorem morae, qui eclipsi centrali respondet; est igitur dimidia",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0364-body-L018",
+     "source_line_no": null,
+     "tex": "differentia diametrorum umbrae et Lunae. — \\textsc{Schiaparelli}.]",
+     "transcription": "differentia diametrorum umbrae et Lunae. — {sc:Schiaparelli}.]",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0364-body-L019",
+     "source_line_no": null,
+     "tex": "\\CenterLine{\\textbf{\\textit{b}}) — \\textit{Pag. 98, l. 39—pag. 99, l. 3.}}",
+     "transcription": "{bi:b}) — *Pag. 98, l. 39—pag. 99, l. 3.*",
+     "semantic_anchor": "AB01-PDF0364-H19",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0364-body-L020",
+     "source_line_no": null,
+     "tex": "\\Indent [Verba Italicis litteris impressa aliquot erroribus scatent ab amanuensium negligentia",
+     "transcription": "[Verba Italicis litteris impressa aliquot erroribus scatent ab amanuensium negligentia",
+     "semantic_anchor": "AB01-PDF0364-P02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0364-body-L021",
+     "source_line_no": null,
+     "tex": "provenientibus. Probabilis restitutio, ut facile e figura apparet, haec est: « Ab hoc motu, ut",
+     "transcription": "provenientibus. Probabilis restitutio, ut facile e figura apparet, haec est: « Ab hoc motu, ut",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0364-body-F02",
+     "source_line_no": null,
+     "tex": "\\input{figures/AB01-PDF0364-F02}",
+     "transcription": "[figure, redrawn: figures/AB01-PDF0364-F02.tex]",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_FIGURE"
+    },
+    {
+     "id": "AB01-PDF0364-body-L022",
+     "source_line_no": null,
+     "tex": "« vidimus, latitudinem Lunae ambobus tem-",
+     "transcription": "« vidimus, latitudinem Lunae ambobus tem-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0364-body-L023",
+     "source_line_no": null,
+     "tex": "« poribus disce [BA vel DE], \\textit{eiusque qua-}",
+     "transcription": "« poribus disce [BA vel DE], *eiusque qua-*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0364-body-L024",
+     "source_line_no": null,
+     "tex": "« \\textit{dratum deme de quadratum semidiffe-}",
+     "transcription": "« *dratum deme de quadratum semidiffe-*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0364-body-L025",
+     "source_line_no": null,
+     "tex": "« \\textit{rentiae} [OB vel OD] \\textit{duarum diame-}",
+     "transcription": "« *rentiae* [OB vel OD] *duarum diame-*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0364-body-L026",
+     "source_line_no": null,
+     "tex": "« \\textit{trorum quae est quantitas minutorum}",
+     "transcription": "« *trorum quae est quantitas minutorum*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0364-body-L027",
+     "source_line_no": null,
+     "tex": "« \\textit{totius morae} (2). \\textit{Quantitati residuae}",
+     "transcription": "« *totius morae* (2). *Quantitati residuae*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0364-body-L028",
+     "source_line_no": null,
+     "tex": "« [$\\overline{\\text{OA}}^{2}$ vel $\\overline{\\text{OE}}^{2}$, sive, quod idem est, $\\overline{\\text{HB}}^{2}$",
+     "transcription": "« [$\\overline{\\text{OA}}^{2}$ vel $\\overline{\\text{OE}}^{2}$, sive, quod idem est, $\\overline{\\text{HB}}^{2}$",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0364-body-L029",
+     "source_line_no": null,
+     "tex": "« vel $\\overline{\\text{DC}}^{2}$] \\textit{adde quadratum differentiae}",
+     "transcription": "« vel $\\overline{\\text{DC}}^{2}$] *adde quadratum differentiae*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0364-body-L030",
+     "source_line_no": null,
+     "tex": "« inter latitudines Lunae in medio eclipsis",
+     "transcription": "« inter latitudines Lunae in medio eclipsis",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0364-body-L031",
+     "source_line_no": null,
+     "tex": "« et eo tempore [$\\overline{\\text{IH}}^{2}$ vel $\\overline{\\text{IC}}^{2}$]; radicem huius summae [$\\sqrt{\\overline{\\text{HB}}^{2} + \\overline{\\text{IH}}^{2}} = \\text{IB}$, vel $\\sqrt{\\overline{\\text{DC}}^{2} + \\overline{\\text{IC}}^{2}} = \\text{ID}$]",
+     "transcription": "« et eo tempore [$\\overline{\\text{IH}}^{2}$ vel $\\overline{\\text{IC}}^{2}$]; radicem huius summae [$\\sqrt{\\overline{\\text{HB}}^{2} + \\overline{\\text{IH}}^{2}} = \\text{IB}$, vel $\\sqrt{\\overline{\\text{DC}}^{2} + \\overline{\\text{IC}}^{2}} = \\text{ID}$]",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0364-body-L032",
+     "source_line_no": null,
+     "tex": "« divide per praecessionem Lunae. Quod e tempore initii provenit ..... ». Similiter demonstran-",
+     "transcription": "« divide per praecessionem Lunae. Quod e tempore initii provenit ..... ». Similiter demonstran-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0364-body-L033",
+     "source_line_no": null,
+     "tex": "tur praecedentes regulae p. 98. — \\textsc{Schiaparelli}.]",
+     "transcription": "tur praecedentes regulae p. 98. — {sc:Schiaparelli}.]",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0364-body-L034",
+     "source_line_no": null,
+     "tex": "\\CenterLine{\\textbf{\\textit{c}}) — \\textit{Pag. 99, l. 22—pag. 100, l. 8.}}",
+     "transcription": "{bi:c}) — *Pag. 99, l. 22—pag. 100, l. 8.*",
+     "semantic_anchor": "AB01-PDF0364-H34",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0364-body-L035",
+     "source_line_no": null,
+     "tex": "\\Indent [\\textit{Calculus superficiei disci lunaris occultatae.}",
+     "transcription": "[*Calculus superficiei disci lunaris occultatae.*",
+     "semantic_anchor": "AB01-PDF0364-P03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0364-body-L036",
+     "source_line_no": null,
+     "tex": "\\Indent Regulas auctoris ad supputationem \\textit{sagittarum} Lunae et umbrae non memini me apud",
+     "transcription": "Regulas auctoris ad supputationem *sagittarum* Lunae et umbrae non memini me apud",
+     "semantic_anchor": "AB01-PDF0364-P04",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    }
+   ]
+  },
+  {
+   "role": "notes_left",
+   "lines": [
+    {
+     "id": "AB01-PDF0364-notes_left-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (1) Pag. 96, l. 6, cod. et Plato $\\qfrac{1}{8}$ horae habent.",
+     "transcription": "(1) Pag. 96, l. 6, cod. et Plato {sfrac:1/8} horae habent.",
+     "semantic_anchor": "AB01-PDF0364-N01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0364-notes_left-L002",
+     "source_line_no": null,
+     "tex": "Sed corrigendum videtur $\\qfrac{1}{8}$ gradus, ut p. 96, l. 1.",
+     "transcription": "Sed corrigendum videtur {sfrac:1/8} gradus, ut p. 96, l. 1.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  },
+  {
+   "role": "notes_right",
+   "lines": [
+    {
+     "id": "AB01-PDF0364-notes_right-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (2) Cfr. supra adn. \\textbf{\\textit{a}}.",
+     "transcription": "(2) Cfr. supra adn. {bi:a}.",
+     "semantic_anchor": "AB01-PDF0364-N02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  }
+ ]
+}

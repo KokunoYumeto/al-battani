@@ -68,7 +68,7 @@ Transcription format (UTF-8; one printed line per source line, as printed, with 
                          between the two columns, as printed); @notes1 one column; @notes norule (or @notes1 norule):
                          the print sets no rule over the notes (p. 212, under a boxed table); the place is kept;
                          @col norule: the print sets no rule between the two columns (p. 257)
-  @sig TEXT             the signature at the foot of the page
+  @sig TEXT              the signature at the foot of the page
   @tail MM FILE          the ornament that closes a part, redrawn in figures/FILE.tex, centred MM below the notes
   @nonum                 the print numbers no lines on this page (the commentary): no line numbers in the margin
   @obs TEXT              an observation on the print (a letter that did not print, a broken sign), kept in the record
@@ -91,6 +91,7 @@ sign of the tables, {AR} the sign of right ascension (the A and the R joined on 
 {rbrace2} a right brace over two lines (written on the first), {rbrace:L:T} a right brace L pt long whose top is
 T pt above the baseline of the line it is written on, {vrule2} a thin vertical rule over two lines (written
 on the first), {vrule:L:T} a thin vertical rule L pt long whose top is T pt above the baseline,
+{lost:MM} print lost in the master scan (p. 275, a corner of the leaf), shown as a light grey bar MM mm long,
 {ar:...} an Arabic phrase with its own brackets and punctuation, set as one right-to-left run
 (a Latin word inside it, as codd. or add., stands in its place in the run in the roman type; {syr:...} the same
 for Syriac), {rtl:...} a phrase of Arabic numerals and Latin words that the print sets right to
@@ -260,6 +261,9 @@ def markup(s):
     s = re.sub(r"\{vrule:(\d+(?:\.\d+)?):(\d+(?:\.\d+)?)\}",
                lambda m: (r"\smash{\rule[" + f"{float(m.group(2)) - float(m.group(1)):.2f}" + "pt]{.4pt}{"
                           + m.group(1) + "pt}}"), s)
+    # print lost in the master scan (a torn or masked corner): {lost:MM}, a light grey bar MM mm long
+    s = re.sub(r"\{lost:(\d+(?:\.\d+)?)\}",
+               lambda m: r"\textcolor{black!22}{\rule[-.2ex]{" + m.group(1) + r"mm}{1.6ex}}", s)
     s = s.replace("{0}", "\uE001").replace("{AR}", r"\ARsign{}")
     s = re.sub(r"\*\*([^*]+)\*\*", r"\\textbf{\1}", s)
     s = re.sub(r"\*([^*]+)\*", r"\\textit{\1}", s)
