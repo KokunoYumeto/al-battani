@@ -4,9 +4,9 @@ Part I of Nallino's edition is his Latin translation of al-Battānī's *Zīj*, w
 
 The edition is diplomatic and line-anchored: every printed line is one line of the edition, with its hyphenation, its punctuation, its letter-spaced names, its italics and its bold italic reference letters, and every line has a stable anchor.
 
-**Done:** pp. 219–219 (1 page, 41 anchored lines).
+**Done:** pp. 219–220 (2 pages, 75 anchored lines).
 
-**Contents so far:** the commentary on chapter 28, continued (from p. 219): the longitudes of the apogee of the Sun of the Arabic astronomers concluded, the lines EF and EG of p. 46 recomputed, and the equation of the centre, with the figure after Almagest III, 5, redrawn, and al-Battānī's formula for its sine (p. 219).
+**Contents so far:** the commentary on chapter 28, continued (from p. 219): the longitudes of the apogee of the Sun of the Arabic astronomers concluded, the lines EF and EG of p. 46 recomputed, and the equation of the centre, with the figure after Almagest III, 5, redrawn, and al-Battānī's formula for its sine (p. 219); the formula derived for the epicycle and for the eccentric, with the second figure redrawn, the simpler forms with the tangent, and the beginning of the radii of the epicycles (p. 220).
 
 ## Read
 

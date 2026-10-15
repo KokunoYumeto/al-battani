@@ -1,0 +1,368 @@
+{
+ "anchor": "AB01-PDF0309",
+ "master_pdf_page": 309,
+ "printed_page": 220,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "margin_locators": [],
+ "observations": [
+  "body L3-L12: the derivation is right: in the right triangle FME, sin HEF : MF = sin FME : EF with FME = 90°; AM = AF cos HAF / R and MF = AF sin HAF / R with AF = e and HAF = m, both to the radius R of the sines; so EF = √[(e sin m / R)² + (e cos m / R + 60p)²], the denominator of p. 219.",
+  "body L6, L18: within the root the print marks the segments MF and LE with a bar of their own under the bar of the root.",
+  "body (figure): the figure is redrawn from the print: the eccentric about H and the concentric about E, of equal radii, and the seven straight lines, measured on the scan.",
+  "body L15-L22: in the eccentric, LE = e sin m / R and LH = e cos m / R, and ME = √[LE² + (HL + 60p)²]; with the tangent, tang HEF = R · MF : (60p + AM) = R e sin m : (60p R + e cos m), and the same for tang LME, which is the formula of p. 219 in tangents.",
+  "body L22, L24: «60pR» stands for 60p × R; with sines to the radius R = 60p the tangent of the equation is e sin m : (60p + e cos m / R) to the same radius, as printed.",
+  "body L27: the fraction e/60 stands at the end of the line, as printed.",
+  "body L29: in the head the dash after «g)» measures 9.8 pt and is transcribed as a dash; that of «17-20» measures 3.6 pt, a hyphen.",
+  "body L33: the dash of «al–Battānī» is a long dash (5.3 pt)."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0309-body-L001",
+     "source_line_no": null,
+     "tex": "constructionibus Ptolemaicis et Albatenianis; in hypothesi epicycli, ubi aequatio centri $=$",
+     "transcription": "constructionibus Ptolemaicis et Albatenianis; in hypothesi epicycli, ubi aequatio centri $=$",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0309-body-L002",
+     "source_line_no": null,
+     "tex": "ang. HEF,",
+     "transcription": "ang. HEF,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0309-body-L003",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{15.67mm}$\\sin HEF : MF = \\sin FME : EF$,\\hspace{3.5mm}id est\\hspace{3.5mm}sin aeq. centri $: MF = \\sin 90° : EF$,}",
+     "transcription": "$\\sin HEF : MF = \\sin FME : EF$,\\hspace{3.5mm}id est\\hspace{3.5mm}sin aeq. centri $: MF = \\sin 90° : EF$,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0309-body-L004",
+     "source_line_no": null,
+     "tex": "et quoniam sin 90° $=$ \\textit{R}, erit",
+     "transcription": "et quoniam sin 90° $=$ *R*, erit",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0309-body-L005",
+     "source_line_no": null,
+     "tex": "\\CenterLine{sin aeq. centri $= R\\,\\dfrac{MF}{EF}$.}",
+     "transcription": "sin aeq. centri $= R\\,\\dfrac{MF}{EF}$.",
+     "semantic_anchor": "AB01-PDF0309-H05",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0309-body-L006",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.80mm}1)}\\rlap{\\hspace*{30.15mm}$EF = \\sqrt{\\overline{MF}^2 + (AE + AM)^2} = \\sqrt{\\overline{MF}^2 + (60^{p} + AM)^2}$.}",
+     "transcription": "1) $EF = \\sqrt{\\overline{MF}^2 + (AE + AM)^2} = \\sqrt{\\overline{MF}^2 + (60^{p} + AM)^2}$.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0309-body-L007",
+     "source_line_no": null,
+     "tex": "\\CenterLine{$AM : AF = \\sin AFM : \\sin AMF = \\cos HAF : R$}",
+     "transcription": "$AM : AF = \\sin AFM : \\sin AMF = \\cos HAF : R$",
+     "semantic_anchor": "AB01-PDF0309-H07",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0309-body-L008",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.66mm}unde}\\rlap{\\hspace*{47.42mm}$AM = \\dfrac{AF \\times \\cos HAF}{R} = \\dfrac{e \\cos m}{R}$.}",
+     "transcription": "unde $AM = \\dfrac{AF \\times \\cos HAF}{R} = \\dfrac{e \\cos m}{R}$.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0309-body-L009",
+     "source_line_no": null,
+     "tex": "\\CenterLine{$MF : AF = \\sin HAF : \\sin AMF$}",
+     "transcription": "$MF : AF = \\sin HAF : \\sin AMF$",
+     "semantic_anchor": "AB01-PDF0309-H09",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0309-body-L010",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.56mm}unde}\\rlap{\\hspace*{47.42mm}$MF = \\dfrac{AF \\times \\sin HAF}{R} = \\dfrac{e \\sin m}{R}$.}",
+     "transcription": "unde $MF = \\dfrac{AF \\times \\sin HAF}{R} = \\dfrac{e \\sin m}{R}$.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0309-body-L011",
+     "source_line_no": null,
+     "tex": "\\Indent Valores isti linearum AM, MF introducantur in 1), proveniet",
+     "transcription": "Valores isti linearum AM, MF introducantur in 1), proveniet",
+     "semantic_anchor": "AB01-PDF0309-P01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0309-body-L012",
+     "source_line_no": null,
+     "tex": "\\CenterLine{$EF = \\sqrt{\\Bigl(\\dfrac{e \\sin m}{R}\\Bigr)^2 + \\Bigl(\\dfrac{e \\cos m}{R} + 60^{p}\\Bigr)^2}$}",
+     "transcription": "$EF = \\sqrt{\\Bigl(\\dfrac{e \\sin m}{R}\\Bigr)^2 + \\Bigl(\\dfrac{e \\cos m}{R} + 60^{p}\\Bigr)^2}$",
+     "semantic_anchor": "AB01-PDF0309-H12",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0309-body-L013",
+     "source_line_no": null,
+     "tex": "quod est denominator formulae Albatenianae.",
+     "transcription": "quod est denominator formulae Albatenianae.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0309-body-L014",
+     "source_line_no": null,
+     "tex": "\\Indent Similiter in hypothesi excentrici:",
+     "transcription": "Similiter in hypothesi excentrici:",
+     "semantic_anchor": "AB01-PDF0309-P02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0309-body-F01",
+     "source_line_no": null,
+     "tex": "\\input{figures/AB01-PDF0309-F01}",
+     "transcription": "[figure, redrawn: figures/AB01-PDF0309-F01.tex]",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_FIGURE"
+    },
+    {
+     "id": "AB01-PDF0309-body-L015",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{3.81mm}sin aequat. centri $= \\sin LME = R\\,\\dfrac{LE}{ME}$}",
+     "transcription": "sin aequat. centri $= \\sin LME = R\\,\\dfrac{LE}{ME}$",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0309-body-L016",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.59mm}$LE = HE\\dfrac{\\sin LHE}{R} = HE\\dfrac{\\sin FHM}{R} = \\dfrac{e \\sin m}{R}$}",
+     "transcription": "$LE = HE\\dfrac{\\sin LHE}{R} = HE\\dfrac{\\sin FHM}{R} = \\dfrac{e \\sin m}{R}$",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0309-body-L017",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.52mm}$LH = HE\\dfrac{\\cos LHE}{R} = HE\\dfrac{\\cos FHM}{R} = \\dfrac{e \\cos m}{R}$}",
+     "transcription": "$LH = HE\\dfrac{\\cos LHE}{R} = HE\\dfrac{\\cos FHM}{R} = \\dfrac{e \\cos m}{R}$",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0309-body-L018",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{6.82mm}$ME = \\sqrt{\\overline{LE}^2 + (HL + 60^{p})^2}$ etc.}",
+     "transcription": "$ME = \\sqrt{\\overline{LE}^2 + (HL + 60^{p})^2}$ etc.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0309-body-L019",
+     "source_line_no": null,
+     "tex": "\\Indent Si tangentium cognovisset usum, sim-",
+     "transcription": "Si tangentium cognovisset usum, sim-",
+     "semantic_anchor": "AB01-PDF0309-P03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0309-body-L020",
+     "source_line_no": null,
+     "tex": "plicius invenisset in hypothesi epicycli",
+     "transcription": "plicius invenisset in hypothesi epicycli",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0309-body-L021",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.00mm}tang aequat. $=$ tang $HEF = R\\,\\dfrac{MF}{60^{p} + AM} =$}",
+     "transcription": "tang aequat. $=$ tang $HEF = R\\,\\dfrac{MF}{60^{p} + AM} =$",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0309-body-L022",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{16.29mm}$= R\\,\\dfrac{e \\sin m}{60^{p} R + e \\cos m}$,}",
+     "transcription": "$= R\\,\\dfrac{e \\sin m}{60^{p} R + e \\cos m}$,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0309-body-L023",
+     "source_line_no": null,
+     "tex": "et in hypothesi excentrici",
+     "transcription": "et in hypothesi excentrici",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0309-body-L024",
+     "source_line_no": null,
+     "tex": "\\CenterLine{tang aequat. $=$ tang $LME = R\\,\\dfrac{LE}{60^{p} + HL} = R\\,\\dfrac{e \\sin m}{60^{p} R + e \\cos m}$.}",
+     "transcription": "tang aequat. $=$ tang $LME = R\\,\\dfrac{LE}{60^{p} + HL} = R\\,\\dfrac{e \\sin m}{60^{p} R + e \\cos m}$.",
+     "semantic_anchor": "AB01-PDF0309-H24",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0309-body-L025",
+     "source_line_no": null,
+     "tex": "\\Indent In omnibus his formulis excentricitas vel radius epicycli, scilicet \\textit{e}, est in partibus \\textit{sexa-}",
+     "transcription": "In omnibus his formulis excentricitas vel radius epicycli, scilicet *e*, est in partibus *sexa-*",
+     "semantic_anchor": "AB01-PDF0309-P04",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0309-body-L026",
+     "source_line_no": null,
+     "tex": "\\textit{gesimis} radii excentrici vel orbitae, qui 60\\textsuperscript{\\textit{p}} complecti ponitur. At radio excentrici vel orbitae",
+     "transcription": "*gesimis* radii excentrici vel orbitae, qui 60{sup:*p*} complecti ponitur. At radio excentrici vel orbitae",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0309-body-L027",
+     "source_line_no": null,
+     "tex": "1\\textsuperscript{\\textit{p}} sumpto, et \\textit{e} in eius partibus \\textit{decimalibus,} ut noster est mos, expressa (seu posita $\\frac{e}{60}$",
+     "transcription": "1{sup:*p*} sumpto, et *e* in eius partibus *decimalibus,* ut noster est mos, expressa (seu posita $\\frac{e}{60}$",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0309-body-L028",
+     "source_line_no": null,
+     "tex": "pro \\textit{e} Graecorum et Albatenii) manifeste pro 60\\textsuperscript{\\textit{p}} ubique erit 1 scribendum.",
+     "transcription": "pro *e* Graecorum et Albatenii) manifeste pro 60{sup:*p*} ubique erit 1 scribendum.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0309-body-L029",
+     "source_line_no": null,
+     "tex": "\\CenterLine{\\textbf{\\textit{g}}) — \\textit{Pag. 48, l. 17-20.}}",
+     "transcription": "{bi:g}) — *Pag. 48, l. 17-20.*",
+     "semantic_anchor": "AB01-PDF0309-H29",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0309-body-L030",
+     "source_line_no": null,
+     "tex": "\\Indent \\textit{Radii epicyclorum} Lunae et quinque planetarum.",
+     "transcription": "*Radii epicyclorum* Lunae et quinque planetarum.",
+     "semantic_anchor": "AB01-PDF0309-P05",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0309-body-L031",
+     "source_line_no": null,
+     "tex": "\\Indent Correctio numerorum facilis est, nam hi radii sunt sinus maximae aequationis centri (in",
+     "transcription": "Correctio numerorum facilis est, nam hi radii sunt sinus maximae aequationis centri (in",
+     "semantic_anchor": "AB01-PDF0309-P06",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0309-body-L032",
+     "source_line_no": null,
+     "tex": "media distantia a Terra, si de quinque planetis agitur). Aequationes maximae (mediae in pla-",
+     "transcription": "media distantia a Terra, si de quinque planetis agitur). Aequationes maximae (mediae in pla-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0309-body-L033",
+     "source_line_no": null,
+     "tex": "netis) et earum sinus e tabulis al–Battānī sumantur; proveniet:",
+     "transcription": "netis) et earum sinus e tabulis al–Battānī sumantur; proveniet:",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    }
+   ]
+  }
+ ]
+}

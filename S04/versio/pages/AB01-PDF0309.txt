@@ -1,0 +1,73 @@
+@page 309 220
+% Commentary on chapter 28, f) concluded: al-Battānī's formula for the sine of the equation of the centre derived in the hypothesis of the epicycle (EF, AM and MF) and of the eccentric, with the figure, redrawn; the simpler formulas with the tangent; the formulas with the radius 1 and the eccentricity in decimal parts. g) on p. 48, l. 17-20: the radii of the epicycles of the Moon and the five planets as the sines of the greatest equations (begun).
+@nonum
+@vspace 0.19
+constructionibus Ptolemaicis et Albatenianis; in hypothesi epicycli, ubi aequatio centri $=$
+@vspace 0.09
+ang. HEF,
+@at 15.67:$\sin HEF : MF = \sin FME : EF$,\hspace{3.5mm}id est\hspace{3.5mm}sin aeq. centri $: MF = \sin 90° : EF$,
+et quoniam sin 90° $=$ *R*, erit
+@center sin aeq. centri $= R\,\dfrac{MF}{EF}$.
+@vspace 0.35
+@at 0.80:1) | 30.15:$EF = \sqrt{\overline{MF}^2 + (AE + AM)^2} = \sqrt{\overline{MF}^2 + (60^{p} + AM)^2}$.
+@vspace -0.52
+@center $AM : AF = \sin AFM : \sin AMF = \cos HAF : R$
+@vspace 0.11
+@at 0.66:unde | 47.42:$AM = \dfrac{AF \times \cos HAF}{R} = \dfrac{e \cos m}{R}$.
+@vspace 0.64
+@center $MF : AF = \sin HAF : \sin AMF$
+@vspace 0.13
+@at 0.56:unde | 47.42:$MF = \dfrac{AF \times \sin HAF}{R} = \dfrac{e \sin m}{R}$.
+@vspace 0.54
+^ Valores isti linearum AM, MF introducantur in 1), proveniet
+@vspace -0.13
+@center $EF = \sqrt{\Bigl(\dfrac{e \sin m}{R}\Bigr)^2 + \Bigl(\dfrac{e \cos m}{R} + 60^{p}\Bigr)^2}$
+@vspace 0.08
+quod est denominator formulae Albatenianae.
+@vspace 0.14
+^ Similiter in hypothesi excentrici:
+@vspace 0.32
+@wrap 0.4075 AB01-PDF0309-F01
+@at 3.81:sin aequat. centri $= \sin LME = R\,\dfrac{LE}{ME}$
+@vspace 1.08
+@at 0.59:$LE = HE\dfrac{\sin LHE}{R} = HE\dfrac{\sin FHM}{R} = \dfrac{e \sin m}{R}$
+@vspace 1.14
+@at 0.52:$LH = HE\dfrac{\cos LHE}{R} = HE\dfrac{\cos FHM}{R} = \dfrac{e \cos m}{R}$
+@vspace 0.18
+@at 6.82:$ME = \sqrt{\overline{LE}^2 + (HL + 60^{p})^2}$ etc.
+@vspace -0.65
+^ Si tangentium cognovisset usum, sim-
+plicius invenisset in hypothesi epicycli
+@vspace 0.10
+@at 0:tang aequat. $=$ tang $HEF = R\,\dfrac{MF}{60^{p} + AM} =$
+@vspace -0.17
+@at 16.29:$= R\,\dfrac{e \sin m}{60^{p} R + e \cos m}$,
+@endwrap
+@vspace 0.23
+et in hypothesi excentrici
+@vspace 0.24
+@center tang aequat. $=$ tang $LME = R\,\dfrac{LE}{60^{p} + HL} = R\,\dfrac{e \sin m}{60^{p} R + e \cos m}$.
+@vspace 2.48
+^ In omnibus his formulis excentricitas vel radius epicycli, scilicet *e*, est in partibus *sexa-*
+*gesimis* radii excentrici vel orbitae, qui 60{sup:*p*} complecti ponitur. At radio excentrici vel orbitae
+@vspace 1.11
+1{sup:*p*} sumpto, et *e* in eius partibus *decimalibus,* ut noster est mos, expressa (seu posita $\frac{e}{60}$
+@vspace 1.22
+pro *e* Graecorum et Albatenii) manifeste pro 60{sup:*p*} ubique erit 1 scribendum.
+@vspace 6.75
+@center {bi:g}) — *Pag. 48, l. 17-20.*
+@vspace 4.66
+^ *Radii epicyclorum* Lunae et quinque planetarum.
+@vspace -0.07
+^ Correctio numerorum facilis est, nam hi radii sunt sinus maximae aequationis centri (in
+media distantia a Terra, si de quinque planetis agitur). Aequationes maximae (mediae in pla-
+@vspace 0.12
+netis) et earum sinus e tabulis al–Battānī sumantur; proveniet:
+@obs body L3-L12: the derivation is right: in the right triangle FME, sin HEF : MF = sin FME : EF with FME = 90°; AM = AF cos HAF / R and MF = AF sin HAF / R with AF = e and HAF = m, both to the radius R of the sines; so EF = √[(e sin m / R)² + (e cos m / R + 60p)²], the denominator of p. 219.
+@obs body L6, L18: within the root the print marks the segments MF and LE with a bar of their own under the bar of the root.
+@obs body (figure): the figure is redrawn from the print: the eccentric about H and the concentric about E, of equal radii, and the seven straight lines, measured on the scan.
+@obs body L15-L22: in the eccentric, LE = e sin m / R and LH = e cos m / R, and ME = √[LE² + (HL + 60p)²]; with the tangent, tang HEF = R · MF : (60p + AM) = R e sin m : (60p R + e cos m), and the same for tang LME, which is the formula of p. 219 in tangents.
+@obs body L22, L24: «60pR» stands for 60p × R; with sines to the radius R = 60p the tangent of the equation is e sin m : (60p + e cos m / R) to the same radius, as printed.
+@obs body L27: the fraction e/60 stands at the end of the line, as printed.
+@obs body L29: in the head the dash after «g)» measures 9.8 pt and is transcribed as a dash; that of «17-20» measures 3.6 pt, a hyphen.
+@obs body L33: the dash of «al–Battānī» is a long dash (5.3 pt).

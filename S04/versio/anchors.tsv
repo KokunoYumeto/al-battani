@@ -40,3 +40,37 @@ AB01-PDF0308-notes_left-L003	219	notes_left	ab {sp:Ḥabash}, f. 28,r. — Perpe
 AB01-PDF0308-notes_right-L001	219	notes_right	*at-Tanbīh* p. 222, hanc observationem anno 217 heg.
 AB01-PDF0308-notes_right-L002	219	notes_right	fuisse scribit.
 AB01-PDF0308-notes_right-L003	219	notes_right	(1) In partibus radii excentrici vel orbitae ($=$60{sup:*p*}).
+AB01-PDF0309-body-L001	220	body	constructionibus Ptolemaicis et Albatenianis; in hypothesi epicycli, ubi aequatio centri $=$
+AB01-PDF0309-body-L002	220	body	ang. HEF,
+AB01-PDF0309-body-L003	220	body	$\\sin HEF : MF = \\sin FME : EF$,\\hspace{3.5mm}id est\\hspace{3.5mm}sin aeq. centri $: MF = \\sin 90° : EF$,
+AB01-PDF0309-body-L004	220	body	et quoniam sin 90° $=$ *R*, erit
+AB01-PDF0309-body-L005	220	body	sin aeq. centri $= R\\,\\dfrac{MF}{EF}$.
+AB01-PDF0309-body-L006	220	body	1) $EF = \\sqrt{\\overline{MF}^2 + (AE + AM)^2} = \\sqrt{\\overline{MF}^2 + (60^{p} + AM)^2}$.
+AB01-PDF0309-body-L007	220	body	$AM : AF = \\sin AFM : \\sin AMF = \\cos HAF : R$
+AB01-PDF0309-body-L008	220	body	unde $AM = \\dfrac{AF \\times \\cos HAF}{R} = \\dfrac{e \\cos m}{R}$.
+AB01-PDF0309-body-L009	220	body	$MF : AF = \\sin HAF : \\sin AMF$
+AB01-PDF0309-body-L010	220	body	unde $MF = \\dfrac{AF \\times \\sin HAF}{R} = \\dfrac{e \\sin m}{R}$.
+AB01-PDF0309-body-L011	220	body	Valores isti linearum AM, MF introducantur in 1), proveniet
+AB01-PDF0309-body-L012	220	body	$EF = \\sqrt{\\Bigl(\\dfrac{e \\sin m}{R}\\Bigr)^2 + \\Bigl(\\dfrac{e \\cos m}{R} + 60^{p}\\Bigr)^2}$
+AB01-PDF0309-body-L013	220	body	quod est denominator formulae Albatenianae.
+AB01-PDF0309-body-L014	220	body	Similiter in hypothesi excentrici:
+AB01-PDF0309-body-F01	220	body	[figure, redrawn: figures/AB01-PDF0309-F01.tex]
+AB01-PDF0309-body-L015	220	body	sin aequat. centri $= \\sin LME = R\\,\\dfrac{LE}{ME}$
+AB01-PDF0309-body-L016	220	body	$LE = HE\\dfrac{\\sin LHE}{R} = HE\\dfrac{\\sin FHM}{R} = \\dfrac{e \\sin m}{R}$
+AB01-PDF0309-body-L017	220	body	$LH = HE\\dfrac{\\cos LHE}{R} = HE\\dfrac{\\cos FHM}{R} = \\dfrac{e \\cos m}{R}$
+AB01-PDF0309-body-L018	220	body	$ME = \\sqrt{\\overline{LE}^2 + (HL + 60^{p})^2}$ etc.
+AB01-PDF0309-body-L019	220	body	Si tangentium cognovisset usum, sim-
+AB01-PDF0309-body-L020	220	body	plicius invenisset in hypothesi epicycli
+AB01-PDF0309-body-L021	220	body	tang aequat. $=$ tang $HEF = R\\,\\dfrac{MF}{60^{p} + AM} =$
+AB01-PDF0309-body-L022	220	body	$= R\\,\\dfrac{e \\sin m}{60^{p} R + e \\cos m}$,
+AB01-PDF0309-body-L023	220	body	et in hypothesi excentrici
+AB01-PDF0309-body-L024	220	body	tang aequat. $=$ tang $LME = R\\,\\dfrac{LE}{60^{p} + HL} = R\\,\\dfrac{e \\sin m}{60^{p} R + e \\cos m}$.
+AB01-PDF0309-body-L025	220	body	In omnibus his formulis excentricitas vel radius epicycli, scilicet *e*, est in partibus *sexa-*
+AB01-PDF0309-body-L026	220	body	*gesimis* radii excentrici vel orbitae, qui 60{sup:*p*} complecti ponitur. At radio excentrici vel orbitae
+AB01-PDF0309-body-L027	220	body	1{sup:*p*} sumpto, et *e* in eius partibus *decimalibus,* ut noster est mos, expressa (seu posita $\\frac{e}{60}$
+AB01-PDF0309-body-L028	220	body	pro *e* Graecorum et Albatenii) manifeste pro 60{sup:*p*} ubique erit 1 scribendum.
+AB01-PDF0309-body-L029	220	body	{bi:g}) — *Pag. 48, l. 17-20.*
+AB01-PDF0309-body-L030	220	body	*Radii epicyclorum* Lunae et quinque planetarum.
+AB01-PDF0309-body-L031	220	body	Correctio numerorum facilis est, nam hi radii sunt sinus maximae aequationis centri (in
+AB01-PDF0309-body-L032	220	body	media distantia a Terra, si de quinque planetis agitur). Aequationes maximae (mediae in pla-
+AB01-PDF0309-body-L033	220	body	netis) et earum sinus e tabulis al–Battānī sumantur; proveniet:
