@@ -21,6 +21,8 @@ ink (_intake/latin/tools/fig_measure2.py). Optional:
            of a graduation, the dashes of a broken line), drawn eight to a command
   "fills"  [{"pts": [[x, y], ...], "name"}]: a small printed shape filled through its traced outline (a smooth
            closed curve through the points), for marks that are not lines, circles or letters
+  "curves" [{"pts": [[x, y], ...], "w", "name"}]: an open curve that is neither a circle nor a line, drawn as the
+           polyline of its traced centre line (points about 0.5 pt apart)
   "arcbraces" [{"cx", "cy", "r", "a0", "a1", "amp", "w", "name"}]: a curly brace along the arc of radius r from
            the angle a0 to a1 (degrees, as for "arcs"), its ends on the arc and its point "amp" pt outside it (a
            negative amp puts the point inside); drawn as a curve through computed points
@@ -105,6 +107,9 @@ def main():
     for dt in d.get("dots", []):
         out.append(r"\fill (" + X(dt["cx"]) + "," + Y(dt["cy"]) + ") circle[radius=" + f"{dt['r']:.2f}" + "];  % "
                    + dt["name"])
+    for cv in d.get("curves", []):
+        out.append(r"\draw[line width=" + f"{cv['w'] * s:.2f}" + "pt,line join=round] " + " -- ".join(
+            "(" + X(x) + "," + Y(y) + ")" for x, y in cv["pts"]) + ";  % " + cv["name"])
     for fl in d.get("fills", []):
         out.append(r"\fill plot[smooth cycle,tension=0.5] coordinates {" + " ".join(
             "(" + X(x) + "," + Y(y) + ")" for x, y in fl["pts"]) + "};  % " + fl["name"])
@@ -160,6 +165,7 @@ def main():
     print(f"wrote {name}.tex: {len(d['circles'])} circles, {len(d['segments'])} lines, "
           f"{sum(len(g['segs']) for g in d.get('groups', []))} strokes in groups, {len(d['labels'])} letters, "
           f"{len(d.get('hatch', []))} hatched parts, {len(d.get('fills', []))} filled shapes, {len(d.get('dots', []))} dots, "
+          f"{len(d.get('curves', []))} curves, "
           f"{len(d.get('words', []))} words, {len(d.get('braces', [])) + len(d.get('arcbraces', []))} braces")
 
 
