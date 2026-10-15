@@ -1,0 +1,83 @@
+@page 287 198
+% Notes on chapter 25, a) concluded: al-Battānī's rules for a star and a degree on opposite sides of the equator, with the quantity he calls divisum; the agreement of the Escorial manuscript and Plato's version; Delambre's eight pages on the rules, and Regiomontanus' judgement of the method as Delambre reports it from a letter; Schiaparelli's proof that the rules are false (begun): the two cases disagree, and the sine of the obliquitas aequata becomes infinite when the declinatio aequata is 90°; the names sinus longissimus and sinus crescens. Note on Regiomontanus' text of al-Battānī.
+@nonum
+@at 7.47:**II.** | 12.73:Cum δ et δ′ in duabus contrariis plagis sint:
+@vspace 0.14
+@at 11.23:$\text{δ} + \text{δ}' = \text{declinatio aequata}$.
+@at 11.13:$2R - \cos\text{ε} = \text{sinus longissimus}$.
+@at 11.10:$2R - \cos\text{δ}' = \text{sinus crescens}$.
+@vspace -0.25
+@at 11.2:$\dfrac{\sin\text{ε} \sin\text{δ}}{\text{cos decl. aeq.}} \times \dfrac{\cos\text{δ}'}{R}$ | 48.32:$=$ | 53.77:sinus obliquitatis aequatae.
+@vspace 0.09
+@at 11.30:$\text{sin obl. aeq.}$ | 31.23:$\times$ | 36.36:$\dfrac{\sin\text{δ}}{\cos\text{δ}}$ | 45.71:$\times$ | 51.25:$\dfrac{\text{sin cresc.}}{\text{sin long.}}$ | 66.64:$=$ | 72.43:divisum.
+@at 11.23:$\text{cos obl. aeq.} \times \dfrac{\text{divisum}}{\cos\text{ε}} \times \dfrac{\text{sin dist. solst. gradus culmin.}}{R} =$ sin variationis stellae,
+@vspace 0.56
+vel, valorem *divisi* introducendo,
+@vspace 0.14
+@at 11.13:$\dfrac{\text{cos obl. aeq.} \times \text{sin obl. aeq.}}{\cos\text{ε}} \times \dfrac{\sin\text{δ}}{\cos\text{δ}} \times \dfrac{\text{sin cresc.}}{\text{sin long.}} \times \dfrac{\text{sin dist. solst. gradus culm.}}{R} =$
+@vspace -0.41
+@at 0:$=$ | 4.64:sinus variationis stellae.
+^ Variatione stellae, ut supra dictum est, uteris.
+^ Hucusque codex Escurialensis, cum quo versio Platonis concordat, paucis verbis exceptis,
+quae manifeste ob librariorum incuriam apud Platonem desiderantur. Sed regulae omnino
+falsae sunt, immo vera monstra appellari possunt. {sp:Delambre}, p. 22–31, octo paginas dedit
+ad sensum quemcumque ex auctoris praecepto eruendum; sed tantus labor inutilis prorsus
+evasit. Nec felicior antea {sp:Regiomontanus} fuisse videtur; nam, ut {sp:Delambre} alibi
+(p. 353) de eo narrat, in epistula quadam ad Bianchini, « parle assez brièvement de la mé-
+@vspace 0.10
+« thode d’Albategni (chap. XXV), et c’est pour la trouver défectueuse. Il ajoute pourtant qu’elle
+« ne serait admissible que pour le colure des solstices où la déclinaison et la latitude sont
+« dans un même plan. Alors en effet $\dfrac{2 - \cos A\kern-0.22em R}{2 - \cos L'} = \dfrac{2}{2} = 1$; cependant, à la manière dont il
+@vspace 0.38
+« s’exprime, on serait tenté de croire que son manuscrit d’Albategni ne ressemblait guère
+« aux éditions qu’on en a données » (1).
+^ [Formulae illae non solum ridiculo modo difficiles sunt, sed manifesto falsae. Hoc iam
+quodammodo {sp:Delambre} demonstravit; clarius patebit e sequentibus considerationibus: 1°. for-
+@vspace 0.08
+mulae in duobus casibus expositis diversae sunt, cum contra aequales esse debuissent, in se-
+cunda $\text{δ} + \text{δ}'$ pro $\text{δ} - \text{δ}'$ (vel $\text{δ}' - \text{δ}$) posito. Id non intellexisse talem in formularum au-
+ctore imperitiam ostendit, qualem nullo modo al–Battānī imputare licet, iis perpensis quae
+ipse in similibus occasionibus facit. — 2°. Formulae ex hoc ipso absurdae apparent, quod non
+possunt omnibus valoribus quantitatum in iis indicatarum convenire. In posteriore regula sinus
+@vspace 0.07
+et cosinus *obliquitatis aequatae* occurrunt; sinus autem huius obliquitatis definitur formula
+@vspace -0.56
+@at 0:$\dfrac{\sin\text{ε} \sin\text{δ}}{\text{cos decl. aeq.}} \times \dfrac{\cos\text{δ}'}{R}$, | 38.94:quod in absurdum ducere potest, quotiescumque declinatio aequata
+@vspace -0.16
+(sive $\text{δ} + \text{δ}'$) gradibus 90° fiat aequalis: hoc autem evenire posse nemo negabit. Tunc erit cos
+$(\text{δ} + \text{δ}') =$ nihilo, et sinus obliquitatis aequatae frustra in tabulis quaeretur, utpote infinite magnus.
+^ Inepta praeterea sunt nomina *sinus longissimus* et *sinus crescens*, duabus quantitatibus
+@vspace 1.54
+@notes
+@fontsize 9 11.72
+@vspace 1.37
+^ (1) Hanc epistulam mihi legere non licuit; sed
+vix credibile puto Regiomontanum alium prae ocu-
+lis habuisse textum quam postea impressum. Editio
+Norimbergensis secundum manuscriptum cui ipse
+Regiomontanus sua manu passim adnotationes adie-
+cerat, facta videtur; et in hoc capite a textu Ara-
+@col
+@fontsize 9 11.82
+@vspace 1.41
+bico non differt nisi parvis lacunis quae sunt mani-
+festae librariorum mendae. Differentiae quas Delam-
+bre notavit probabiliter sunt diversae Regiomontani
+interpretationes, ex incredibili fere Platonis obscu-
+ritate et ambiguitate verborum ortae, vel Regio-
+montani coniecturae.
+@obs body L1-L10: the rules render al-Battānī's text of chapter 25 (p. 37) for a star and a degree on opposite sides of the equator, step by step, with the quantity he calls divisum; L9 is L6 put into L7.
+@obs body L3-L4: the minus signs are printed as long dashes (9.7 and 10.0 pt); they are set as minus signs.
+@obs body L5: a short raised bar, a speck, stands between ε and the second sin of the numerator.
+@obs body L7: a mark like an acute accent, a speck, stands over the e of «aeq.».
+@obs body L14: the dash of «22–31» is a long dash (5.1 pt).
+@obs body L16: in the letter-spaced «Regiomontanus» the o after gi is printed broken, open at the top, and a blot stands under the g.
+@obs body L16-L22: Nallino's addenda et emendanda (Part I, p. LXXIII) correct this passage and note 1: the letter is not Regiomontanus' to Bianchini, as Delambre affirms, but Bianchini's to Regiomontanus, now better edited by M. Curtze, Urkunden zur Geschichte der Mathematik im Mittelalter und der Renaissance, Leipzig 1902, t. I, p. 240–41. They quote its passage on a rule for the declination of a star that has latitude, which Bianchini doubts and finds stated by Albategni without a proof. The printed text is kept.
+@obs body L20: the minus signs of Delambre's fraction are printed as long dashes (10.4 and 10.1 pt); they are set as minus signs. When the culminating degree is a solstice, as on the colure of the solstices, δ′ = ε, the sinus crescens equals the sinus longissimus and their ratio in the rules is 1.
+@obs body L23: the heavy bracket opens Schiaparelli's addition, which continues on the next page.
+@obs body L24-L26: the first objection holds: the rules of the two cases (p. 197 and L1-L10) differ in form, not only by δ + δ′ in place of δ − δ′.
+@obs body L26-L28: the minus signs of L26 are printed as long dashes (9.7 and 10.1 pt); they are set as minus signs. The dash of «al–Battānī» is a long dash (5.5 pt), the dash before «2°.» measures 10.2 pt.
+@obs body L28-L33: the second objection holds: by L5 the sine of the obliquitas aequata has cos (δ + δ′) in its denominator, which vanishes when δ + δ′ = 90°; this can happen, since δ′ is at most ε and a star on the other side of the equator may have δ = 90° − δ′. The value exceeds R before that (with ε = δ′ = 23° 30′ and δ = 60° it is 2.8 R), and no arc has such a sine.
+@obs notes_left L1: corrected with L16-L22 in the addenda (p. LXXIII): the letter that Nallino could not read is Bianchini's to Regiomontanus, edited by Curtze.
+@obs notes_right L4: the hyphen of «obscu-» is printed short (1.7 pt), like a point.
+@obs notes_right L5: a broken mark like a bar stands before «vel»; the hyphen of «Regio-» is printed low and short (2.3 pt), like a point.

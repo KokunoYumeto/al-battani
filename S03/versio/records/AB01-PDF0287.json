@@ -1,0 +1,507 @@
+{
+ "anchor": "AB01-PDF0287",
+ "master_pdf_page": 287,
+ "printed_page": 198,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "margin_locators": [],
+ "observations": [
+  "body L1-L10: the rules render al-Battānī's text of chapter 25 (p. 37) for a star and a degree on opposite sides of the equator, step by step, with the quantity he calls divisum; L9 is L6 put into L7.",
+  "body L3-L4: the minus signs are printed as long dashes (9.7 and 10.0 pt); they are set as minus signs.",
+  "body L5: a short raised bar, a speck, stands between ε and the second sin of the numerator.",
+  "body L7: a mark like an acute accent, a speck, stands over the e of «aeq.».",
+  "body L14: the dash of «22–31» is a long dash (5.1 pt).",
+  "body L16: in the letter-spaced «Regiomontanus» the o after gi is printed broken, open at the top, and a blot stands under the g.",
+  "body L16-L22: Nallino's addenda et emendanda (Part I, p. LXXIII) correct this passage and note 1: the letter is not Regiomontanus' to Bianchini, as Delambre affirms, but Bianchini's to Regiomontanus, now better edited by M. Curtze, Urkunden zur Geschichte der Mathematik im Mittelalter und der Renaissance, Leipzig 1902, t. I, p. 240–41. They quote its passage on a rule for the declination of a star that has latitude, which Bianchini doubts and finds stated by Albategni without a proof. The printed text is kept.",
+  "body L20: the minus signs of Delambre's fraction are printed as long dashes (10.4 and 10.1 pt); they are set as minus signs. When the culminating degree is a solstice, as on the colure of the solstices, δ′ = ε, the sinus crescens equals the sinus longissimus and their ratio in the rules is 1.",
+  "body L23: the heavy bracket opens Schiaparelli's addition, which continues on the next page.",
+  "body L24-L26: the first objection holds: the rules of the two cases (p. 197 and L1-L10) differ in form, not only by δ + δ′ in place of δ − δ′.",
+  "body L26-L28: the minus signs of L26 are printed as long dashes (9.7 and 10.1 pt); they are set as minus signs. The dash of «al–Battānī» is a long dash (5.5 pt), the dash before «2°.» measures 10.2 pt.",
+  "body L28-L33: the second objection holds: by L5 the sine of the obliquitas aequata has cos (δ + δ′) in its denominator, which vanishes when δ + δ′ = 90°; this can happen, since δ′ is at most ε and a star on the other side of the equator may have δ = 90° − δ′. The value exceeds R before that (with ε = δ′ = 23° 30′ and δ = 60° it is 2.8 R), and no arc has such a sine.",
+  "notes_left L1: corrected with L16-L22 in the addenda (p. LXXIII): the letter that Nallino could not read is Bianchini's to Regiomontanus, edited by Curtze.",
+  "notes_right L4: the hyphen of «obscu-» is printed short (1.7 pt), like a point.",
+  "notes_right L5: a broken mark like a bar stands before «vel»; the hyphen of «Regio-» is printed low and short (2.3 pt), like a point."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0287-body-L001",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{7.47mm}\\textbf{II.}}\\rlap{\\hspace*{12.73mm}Cum \\textgreek{δ} et \\textgreek{δ}′ in duabus contrariis plagis sint:}",
+     "transcription": "**II.** Cum δ et δ′ in duabus contrariis plagis sint:",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0287-body-L002",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{11.23mm}$\\text{\\textgreek{δ}} + \\text{\\textgreek{δ}}' = \\text{declinatio aequata}$.}",
+     "transcription": "$\\text{δ} + \\text{δ}' = \\text{declinatio aequata}$.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0287-body-L003",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{11.13mm}$2R - \\cos\\text{\\textgreek{ε}} = \\text{sinus longissimus}$.}",
+     "transcription": "$2R - \\cos\\text{ε} = \\text{sinus longissimus}$.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0287-body-L004",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{11.10mm}$2R - \\cos\\text{\\textgreek{δ}}' = \\text{sinus crescens}$.}",
+     "transcription": "$2R - \\cos\\text{δ}' = \\text{sinus crescens}$.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0287-body-L005",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{11.20mm}$\\dfrac{\\sin\\text{\\textgreek{ε}} \\sin\\text{\\textgreek{δ}}}{\\text{cos decl. aeq.}} \\times \\dfrac{\\cos\\text{\\textgreek{δ}}'}{R}$}\\rlap{\\hspace*{48.32mm}$=$}\\rlap{\\hspace*{53.77mm}sinus obliquitatis aequatae.}",
+     "transcription": "$\\dfrac{\\sin\\text{ε} \\sin\\text{δ}}{\\text{cos decl. aeq.}} \\times \\dfrac{\\cos\\text{δ}'}{R}$ $=$ sinus obliquitatis aequatae.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0287-body-L006",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{11.30mm}$\\text{sin obl. aeq.}$}\\rlap{\\hspace*{31.23mm}$\\times$}\\rlap{\\hspace*{36.36mm}$\\dfrac{\\sin\\text{\\textgreek{δ}}}{\\cos\\text{\\textgreek{δ}}}$}\\rlap{\\hspace*{45.71mm}$\\times$}\\rlap{\\hspace*{51.25mm}$\\dfrac{\\text{sin cresc.}}{\\text{sin long.}}$}\\rlap{\\hspace*{66.64mm}$=$}\\rlap{\\hspace*{72.43mm}divisum.}",
+     "transcription": "$\\text{sin obl. aeq.}$ $\\times$ $\\dfrac{\\sin\\text{δ}}{\\cos\\text{δ}}$ $\\times$ $\\dfrac{\\text{sin cresc.}}{\\text{sin long.}}$ $=$ divisum.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0287-body-L007",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{11.23mm}$\\text{cos obl. aeq.} \\times \\dfrac{\\text{divisum}}{\\cos\\text{\\textgreek{ε}}} \\times \\dfrac{\\text{sin dist. solst. gradus culmin.}}{R} =$ sin variationis stellae,}",
+     "transcription": "$\\text{cos obl. aeq.} \\times \\dfrac{\\text{divisum}}{\\cos\\text{ε}} \\times \\dfrac{\\text{sin dist. solst. gradus culmin.}}{R} =$ sin variationis stellae,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0287-body-L008",
+     "source_line_no": null,
+     "tex": "vel, valorem \\textit{divisi} introducendo,",
+     "transcription": "vel, valorem *divisi* introducendo,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0287-body-L009",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{11.13mm}$\\dfrac{\\text{cos obl. aeq.} \\times \\text{sin obl. aeq.}}{\\cos\\text{\\textgreek{ε}}} \\times \\dfrac{\\sin\\text{\\textgreek{δ}}}{\\cos\\text{\\textgreek{δ}}} \\times \\dfrac{\\text{sin cresc.}}{\\text{sin long.}} \\times \\dfrac{\\text{sin dist. solst. gradus culm.}}{R} =$}",
+     "transcription": "$\\dfrac{\\text{cos obl. aeq.} \\times \\text{sin obl. aeq.}}{\\cos\\text{ε}} \\times \\dfrac{\\sin\\text{δ}}{\\cos\\text{δ}} \\times \\dfrac{\\text{sin cresc.}}{\\text{sin long.}} \\times \\dfrac{\\text{sin dist. solst. gradus culm.}}{R} =$",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0287-body-L010",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.00mm}$=$}\\rlap{\\hspace*{4.64mm}sinus variationis stellae.}",
+     "transcription": "$=$ sinus variationis stellae.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0287-body-L011",
+     "source_line_no": null,
+     "tex": "\\Indent Variatione stellae, ut supra dictum est, uteris.",
+     "transcription": "Variatione stellae, ut supra dictum est, uteris.",
+     "semantic_anchor": "AB01-PDF0287-P01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0287-body-L012",
+     "source_line_no": null,
+     "tex": "\\Indent Hucusque codex Escurialensis, cum quo versio Platonis concordat, paucis verbis exceptis,",
+     "transcription": "Hucusque codex Escurialensis, cum quo versio Platonis concordat, paucis verbis exceptis,",
+     "semantic_anchor": "AB01-PDF0287-P02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0287-body-L013",
+     "source_line_no": null,
+     "tex": "quae manifeste ob librariorum incuriam apud Platonem desiderantur. Sed regulae omnino",
+     "transcription": "quae manifeste ob librariorum incuriam apud Platonem desiderantur. Sed regulae omnino",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0287-body-L014",
+     "source_line_no": null,
+     "tex": "falsae sunt, immo vera monstra appellari possunt. \\Name{Delambre}, p. 22–31, octo paginas dedit",
+     "transcription": "falsae sunt, immo vera monstra appellari possunt. {sp:Delambre}, p. 22–31, octo paginas dedit",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0287-body-L015",
+     "source_line_no": null,
+     "tex": "ad sensum quemcumque ex auctoris praecepto eruendum; sed tantus labor inutilis prorsus",
+     "transcription": "ad sensum quemcumque ex auctoris praecepto eruendum; sed tantus labor inutilis prorsus",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0287-body-L016",
+     "source_line_no": null,
+     "tex": "evasit. Nec felicior antea \\Name{Regiomontanus} fuisse videtur; nam, ut \\Name{Delambre} alibi",
+     "transcription": "evasit. Nec felicior antea {sp:Regiomontanus} fuisse videtur; nam, ut {sp:Delambre} alibi",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0287-body-L017",
+     "source_line_no": null,
+     "tex": "(p. 353) de eo narrat, in epistula quadam ad Bianchini, « parle assez brièvement de la mé-",
+     "transcription": "(p. 353) de eo narrat, in epistula quadam ad Bianchini, « parle assez brièvement de la mé-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0287-body-L018",
+     "source_line_no": null,
+     "tex": "« thode d’Albategni (chap. XXV), et c’est pour la trouver défectueuse. Il ajoute pourtant qu’elle",
+     "transcription": "« thode d’Albategni (chap. XXV), et c’est pour la trouver défectueuse. Il ajoute pourtant qu’elle",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0287-body-L019",
+     "source_line_no": null,
+     "tex": "« ne serait admissible que pour le colure des solstices où la déclinaison et la latitude sont",
+     "transcription": "« ne serait admissible que pour le colure des solstices où la déclinaison et la latitude sont",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0287-body-L020",
+     "source_line_no": null,
+     "tex": "« dans un même plan. Alors en effet $\\dfrac{2 - \\cos A\\kern-0.22em R}{2 - \\cos L'} = \\dfrac{2}{2} = 1$; cependant, à la manière dont il",
+     "transcription": "« dans un même plan. Alors en effet $\\dfrac{2 - \\cos A\\kern-0.22em R}{2 - \\cos L'} = \\dfrac{2}{2} = 1$; cependant, à la manière dont il",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0287-body-L021",
+     "source_line_no": null,
+     "tex": "« s’exprime, on serait tenté de croire que son manuscrit d’Albategni ne ressemblait guère",
+     "transcription": "« s’exprime, on serait tenté de croire que son manuscrit d’Albategni ne ressemblait guère",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0287-body-L022",
+     "source_line_no": null,
+     "tex": "« aux éditions qu’on en a données » (1).",
+     "transcription": "« aux éditions qu’on en a données » (1).",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0287-body-L023",
+     "source_line_no": null,
+     "tex": "\\Indent [Formulae illae non solum ridiculo modo difficiles sunt, sed manifesto falsae. Hoc iam",
+     "transcription": "[Formulae illae non solum ridiculo modo difficiles sunt, sed manifesto falsae. Hoc iam",
+     "semantic_anchor": "AB01-PDF0287-P03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0287-body-L024",
+     "source_line_no": null,
+     "tex": "quodammodo \\Name{Delambre} demonstravit; clarius patebit e sequentibus considerationibus: 1°. for-",
+     "transcription": "quodammodo {sp:Delambre} demonstravit; clarius patebit e sequentibus considerationibus: 1°. for-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0287-body-L025",
+     "source_line_no": null,
+     "tex": "mulae in duobus casibus expositis diversae sunt, cum contra aequales esse debuissent, in se-",
+     "transcription": "mulae in duobus casibus expositis diversae sunt, cum contra aequales esse debuissent, in se-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0287-body-L026",
+     "source_line_no": null,
+     "tex": "cunda $\\text{\\textgreek{δ}} + \\text{\\textgreek{δ}}'$ pro $\\text{\\textgreek{δ}} - \\text{\\textgreek{δ}}'$ (vel $\\text{\\textgreek{δ}}' - \\text{\\textgreek{δ}}$) posito. Id non intellexisse talem in formularum au-",
+     "transcription": "cunda $\\text{δ} + \\text{δ}'$ pro $\\text{δ} - \\text{δ}'$ (vel $\\text{δ}' - \\text{δ}$) posito. Id non intellexisse talem in formularum au-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0287-body-L027",
+     "source_line_no": null,
+     "tex": "ctore imperitiam ostendit, qualem nullo modo al–Battānī imputare licet, iis perpensis quae",
+     "transcription": "ctore imperitiam ostendit, qualem nullo modo al–Battānī imputare licet, iis perpensis quae",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0287-body-L028",
+     "source_line_no": null,
+     "tex": "ipse in similibus occasionibus facit. — 2°. Formulae ex hoc ipso absurdae apparent, quod non",
+     "transcription": "ipse in similibus occasionibus facit. — 2°. Formulae ex hoc ipso absurdae apparent, quod non",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0287-body-L029",
+     "source_line_no": null,
+     "tex": "possunt omnibus valoribus quantitatum in iis indicatarum convenire. In posteriore regula sinus",
+     "transcription": "possunt omnibus valoribus quantitatum in iis indicatarum convenire. In posteriore regula sinus",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0287-body-L030",
+     "source_line_no": null,
+     "tex": "et cosinus \\textit{obliquitatis aequatae} occurrunt; sinus autem huius obliquitatis definitur formula",
+     "transcription": "et cosinus *obliquitatis aequatae* occurrunt; sinus autem huius obliquitatis definitur formula",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0287-body-L031",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.00mm}$\\dfrac{\\sin\\text{\\textgreek{ε}} \\sin\\text{\\textgreek{δ}}}{\\text{cos decl. aeq.}} \\times \\dfrac{\\cos\\text{\\textgreek{δ}}'}{R}$,}\\rlap{\\hspace*{38.94mm}quod in absurdum ducere potest, quotiescumque declinatio aequata}",
+     "transcription": "$\\dfrac{\\sin\\text{ε} \\sin\\text{δ}}{\\text{cos decl. aeq.}} \\times \\dfrac{\\cos\\text{δ}'}{R}$, quod in absurdum ducere potest, quotiescumque declinatio aequata",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0287-body-L032",
+     "source_line_no": null,
+     "tex": "(sive $\\text{\\textgreek{δ}} + \\text{\\textgreek{δ}}'$) gradibus 90° fiat aequalis: hoc autem evenire posse nemo negabit. Tunc erit cos",
+     "transcription": "(sive $\\text{δ} + \\text{δ}'$) gradibus 90° fiat aequalis: hoc autem evenire posse nemo negabit. Tunc erit cos",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0287-body-L033",
+     "source_line_no": null,
+     "tex": "$(\\text{\\textgreek{δ}} + \\text{\\textgreek{δ}}') =$ nihilo, et sinus obliquitatis aequatae frustra in tabulis quaeretur, utpote infinite magnus.",
+     "transcription": "$(\\text{δ} + \\text{δ}') =$ nihilo, et sinus obliquitatis aequatae frustra in tabulis quaeretur, utpote infinite magnus.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0287-body-L034",
+     "source_line_no": null,
+     "tex": "\\Indent Inepta praeterea sunt nomina \\textit{sinus longissimus} et \\textit{sinus crescens}, duabus quantitatibus",
+     "transcription": "Inepta praeterea sunt nomina *sinus longissimus* et *sinus crescens*, duabus quantitatibus",
+     "semantic_anchor": "AB01-PDF0287-P04",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    }
+   ]
+  },
+  {
+   "role": "notes_left",
+   "lines": [
+    {
+     "id": "AB01-PDF0287-notes_left-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (1) Hanc epistulam mihi legere non licuit; sed",
+     "transcription": "(1) Hanc epistulam mihi legere non licuit; sed",
+     "semantic_anchor": "AB01-PDF0287-N01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0287-notes_left-L002",
+     "source_line_no": null,
+     "tex": "vix credibile puto Regiomontanum alium prae ocu-",
+     "transcription": "vix credibile puto Regiomontanum alium prae ocu-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0287-notes_left-L003",
+     "source_line_no": null,
+     "tex": "lis habuisse textum quam postea impressum. Editio",
+     "transcription": "lis habuisse textum quam postea impressum. Editio",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0287-notes_left-L004",
+     "source_line_no": null,
+     "tex": "Norimbergensis secundum manuscriptum cui ipse",
+     "transcription": "Norimbergensis secundum manuscriptum cui ipse",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0287-notes_left-L005",
+     "source_line_no": null,
+     "tex": "Regiomontanus sua manu passim adnotationes adie-",
+     "transcription": "Regiomontanus sua manu passim adnotationes adie-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0287-notes_left-L006",
+     "source_line_no": null,
+     "tex": "cerat, facta videtur; et in hoc capite a textu Ara-",
+     "transcription": "cerat, facta videtur; et in hoc capite a textu Ara-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  },
+  {
+   "role": "notes_right",
+   "lines": [
+    {
+     "id": "AB01-PDF0287-notes_right-L001",
+     "source_line_no": null,
+     "tex": "bico non differt nisi parvis lacunis quae sunt mani-",
+     "transcription": "bico non differt nisi parvis lacunis quae sunt mani-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0287-notes_right-L002",
+     "source_line_no": null,
+     "tex": "festae librariorum mendae. Differentiae quas Delam-",
+     "transcription": "festae librariorum mendae. Differentiae quas Delam-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0287-notes_right-L003",
+     "source_line_no": null,
+     "tex": "bre notavit probabiliter sunt diversae Regiomontani",
+     "transcription": "bre notavit probabiliter sunt diversae Regiomontani",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0287-notes_right-L004",
+     "source_line_no": null,
+     "tex": "interpretationes, ex incredibili fere Platonis obscu-",
+     "transcription": "interpretationes, ex incredibili fere Platonis obscu-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0287-notes_right-L005",
+     "source_line_no": null,
+     "tex": "ritate et ambiguitate verborum ortae, vel Regio-",
+     "transcription": "ritate et ambiguitate verborum ortae, vel Regio-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0287-notes_right-L006",
+     "source_line_no": null,
+     "tex": "montani coniecturae.",
+     "transcription": "montani coniecturae.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  }
+ ]
+}
