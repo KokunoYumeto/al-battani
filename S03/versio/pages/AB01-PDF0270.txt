@@ -1,0 +1,86 @@
+@page 270 181
+% Notes on chapter 10, a) on p. 22, continued: the law of sines in a plane triangle, not known to the Arabs of al-Battānī's time (Naṣīr ad-dīn aṭ-Ṭūsī, von Braunmühl); the hypotenuse of the shadow triangle, rules (β) and (γ); II, by the umbra erecta, rules (δ), (ε), (ζ), with the figure; the shadows as trigonometric functions for a gnomon of 60 parts, rules (α′)-(ζ′); Delambre on the tables of the Arabs. Notes on Thābit ibn Qorrah and the spherical law of sines (Suter), and on quṭr, hypotenuse and diameter.
+@nonum
+^ Facilius poterat e theoremate deduci: in quolibet triangulo plano latera inter se eandem
+rationem habent quam sinus angulorum ipsis oppositorum. Sed haec propositio ignota videtur
+fuisse Arabibus illius aetatis (1); serius apud {sp:Naṣīr ad–dīn aṭ–Ṭūsī}, qui mense Iulio 1274
+Chr. obiit, legitur, ut recte ait {sp:von Braunmühl}, I, p. 66–67.
+^ Docet auctor postea « hypotenusam (2) trianguli umbrae », i. e. latus AC cognoscere; ma-
+@vspace -0.16
+nifeste est
+@vspace -0.15
+@at 0:(β) | 94^:$\text{hypoten. triang. umbrae} = \sqrt{\text{umbra extensa}^2 + p^2}$.
+@vspace 1.28
+^ Et quoniam $\sin h = R\,\dfrac{AB}{AC}$, erit quoque
+@vspace -0.20
+@at 0:(γ) | 94^:$\sin h = \dfrac{Rp}{\sqrt{\text{umbra extensa}^2 + p^2}}$
+@vspace -0.40
+^ II. Per *umbram erectam.* Eam auctor, l. 30–32, statuit
+@vspace 0.11
+@at 0:(δ) | 94^:$\text{umbra erecta} = p\,\dfrac{\sin h}{\cos h}$;
+@vspace 2.00
+@wrapr 150.1 AB01-PDF0270-F01
+postea duas formulas praebet:
+@vspace 0.24
+@at 0:(ε) | 74.05^:$\sin\text{ζ} = \cos h = \dfrac{Rp}{\sqrt{\text{umbra erecta}^2 + p^2}}$,
+@vspace -0.59
+quae facillime ut (γ) deducitur;
+@vspace 0.09
+@at 0:(ζ) | 74.05^:$\sin h = \dfrac{R\ \text{umbra erecta}}{\sqrt{\text{umbra erecta}^2 + p^2}}$,
+@vspace -0.32
+quae nonnisi notam definitionem $\sin h = R\,\dfrac{BC}{AC}$ repraesentat.
+@vspace 0.85
+^ Si auctor gnomonem in 60 partes divisisset (sicut iam 60 partium
+@endwrap
+@vspace -0.33
+sumpserat semidiametrum ad quam sinus, sinus versus et cosinus refert), manifeste hae um-
+brae factae essent verae functiones trigonometricae, et formulae nuper inventae scribi po-
+@vspace -0.17
+tuissent
+@vspace -0.89
+@at 0:(α′) | 46.5^:$\text{cotg}\,h = R\,\dfrac{\cos h}{\sin h}$ | 97.1:(β′) | 142.5^:$\text{cosec}\,h = \sqrt{R^2 + \text{cotg}^2 h}$
+@vspace 0.87
+@at 0:(γ′) | 46.5^:$\sin h = \dfrac{R^2}{\text{cosec}\,h}$ | 97.1:(δ′) | 142.5^:$\text{tg}\,h = R\,\dfrac{\sin h}{\cos h}$
+@vspace 0.77
+@at 0:(ε′) | 46.5^:$\cos h = \dfrac{R^2}{\sec h}$ | 97.1:(ζ′) | 142.5^:$\sin h = R\,\dfrac{\text{tg}\,h}{\sec h}$;
+@vspace 0.84
+quae, cum $R = 1$ ut mos est hodiernus sumatur, omnino formulis nostris trigonometricis re-
+spondent. Iuvat nunc verba {sp:Delambre}, p. 16–17, referre: « Les Arabes avaient donc, au
+« tems d’Albategni, des tables des quantités, $\text{ombre} = \text{σ} = \text{ν}\,\dfrac{\cos h}{\sin h} = 12 \cot h = 12\,\text{tang}\,N$,
+@vspace 0.64
+« et par conséquent des tables de tangentes, mais calculées pour le rayon 12, tandis que les
+« sinus étaient calculés pour le rayon 60; mais en multipliant ces tangentes par 5, ou {sfrac:10/2},
+« on aurait eu les tangentes pour le rayon 60. ..... Voilà bien la première idée des tan-
+@vspace 0.78
+@notes
+@fontsize 9 11.78
+@vspace 0.95
+^ (1) Propositio autem « in quocumque triangulo
+« sphaerico sinus angulorum directe sunt sinibus
+« oppositorum laterum proportionales », triangula
+rectangula quod attinet, e loco quodam libri de qua-
+@vspace 0.07
+drilatero a Naṣīr ad–dīn aṭ-Ṭūsī confecti videtur iam
+ante al-Battānī nota fuisse mathematico {sp:Thābit}
+{sp:ibn Qorrah}, qui mense ṣafar 288 heg. (Febr. 901
+@col
+@fontsize 9 11.78
+@vspace 0.70
+Chr.) obiit; cfr. H. {sp:Suter}, *Zur Geschichte der Tri-*
+*gonometrie,* in Bibliotheca Mathematica herausge-
+geben von G. Eneström, Neue Folge, t. VII, Stock-
+holm 1893, p. 7.
+@vspace -0.12
+^ (2) Vel « diametrum »; Arabice *quṭr* ambas res
+significat, nam hypotenusa semper est diametrus
+circuli triangulo rectangulo circumscripti.
+@obs body L1-L4: Nallino's addenda et emendanda (Part I, p. LXXIII) add to p. 181, ll. 1-4 that the theorem of the proportionality of the sines of the angles to the opposite sides in a plane triangle is already mentioned by al-Bīrūnī, as a thing known to all (Chronology, p. 184 of the text, p. 166 of the translation).
+@obs body L3: a speck stands before «mense»; it is not a sign.
+@obs body L7, L9, L13, L15, L21: the root signs are printed as a V with the bar over the radicand; set as root signs.
+@obs body L7-L23: the formulas are checked. In the figure of p. 180, AC² = CB² + AB² gives (β), and sin h = R AB/AC gives (γ). In the figure of this page, with BA = p and BC the umbra erecta, BC = p tg h gives (δ), cos h = R BA/AC gives (ε) and sin h = R BC/AC gives (ζ). For the radius R, cosec h = R²/sin h, sec h = R²/cos h, cotg h = R cos h/sin h and tg h = R sin h/cos h; with these (α′)-(ζ′) are identities, (β′) from cosec² h = R² + cotg² h.
+@obs body L12-L17: the figure stands at the right of lines 12 to 17; the last of them is set in a narrower measure, and the C of the figure stands after «partium». The figure is redrawn from measurements of the print: the gnomon BA and the umbra erecta BC as solid lines, the ray AC in dashes, each dash where it printed; the angle h at A (about 59° as drawn) and the angle 90° − h at C; the letters and words in the italic of the text: «gnomon» over BA, «umbra crecta» set upward beside BC, «90°−h» set along the ray.
+@obs body L12-L17: the label beside BC is printed «umbra crecta», with c for the first e of erecta (as «umbra cxtensa» on p. 180); in «90°−h» the minus sign printed as a short stroke joined to the degree sign. Kept as printed.
+@obs body L19: the hyphen of «po-» printed only as a dot.
+@obs body L26: the gnomon is written ν in the formula of Delambre, and N is his zenith distance (12 tang N = 12 cot h); kept as printed.
+@obs body L28: «10/2» is printed as a small fraction, ¹⁰/₂ (= 5 = 60/12).
+@obs notes_left L5-L6: the dash of «aṭ-Ṭūsī» measures 3.6 pt, that of «al-Battānī» 3.4 pt, as the hyphens of the notes (2.6-3.1 pt); the dash of «ad–dīn» is longer, about 4.8 pt. Transcribed as hyphens and a long dash.

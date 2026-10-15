@@ -1,0 +1,480 @@
+{
+ "anchor": "AB01-PDF0270",
+ "master_pdf_page": 270,
+ "printed_page": 181,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "margin_locators": [],
+ "observations": [
+  "body L1-L4: Nallino's addenda et emendanda (Part I, p. LXXIII) add to p. 181, ll. 1-4 that the theorem of the proportionality of the sines of the angles to the opposite sides in a plane triangle is already mentioned by al-Bīrūnī, as a thing known to all (Chronology, p. 184 of the text, p. 166 of the translation).",
+  "body L3: a speck stands before «mense»; it is not a sign.",
+  "body L7, L9, L13, L15, L21: the root signs are printed as a V with the bar over the radicand; set as root signs.",
+  "body L7-L23: the formulas are checked. In the figure of p. 180, AC² = CB² + AB² gives (β), and sin h = R AB/AC gives (γ). In the figure of this page, with BA = p and BC the umbra erecta, BC = p tg h gives (δ), cos h = R BA/AC gives (ε) and sin h = R BC/AC gives (ζ). For the radius R, cosec h = R²/sin h, sec h = R²/cos h, cotg h = R cos h/sin h and tg h = R sin h/cos h; with these (α′)-(ζ′) are identities, (β′) from cosec² h = R² + cotg² h.",
+  "body L12-L17: the figure stands at the right of lines 12 to 17; the last of them is set in a narrower measure, and the C of the figure stands after «partium». The figure is redrawn from measurements of the print: the gnomon BA and the umbra erecta BC as solid lines, the ray AC in dashes, each dash where it printed; the angle h at A (about 59° as drawn) and the angle 90° − h at C; the letters and words in the italic of the text: «gnomon» over BA, «umbra crecta» set upward beside BC, «90°−h» set along the ray.",
+  "body L12-L17: the label beside BC is printed «umbra crecta», with c for the first e of erecta (as «umbra cxtensa» on p. 180); in «90°−h» the minus sign printed as a short stroke joined to the degree sign. Kept as printed.",
+  "body L19: the hyphen of «po-» printed only as a dot.",
+  "body L26: the gnomon is written ν in the formula of Delambre, and N is his zenith distance (12 tang N = 12 cot h); kept as printed.",
+  "body L28: «10/2» is printed as a small fraction, ¹⁰/₂ (= 5 = 60/12).",
+  "notes_left L5-L6: the dash of «aṭ-Ṭūsī» measures 3.6 pt, that of «al-Battānī» 3.4 pt, as the hyphens of the notes (2.6-3.1 pt); the dash of «ad–dīn» is longer, about 4.8 pt. Transcribed as hyphens and a long dash."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0270-body-L001",
+     "source_line_no": null,
+     "tex": "\\Indent Facilius poterat e theoremate deduci: in quolibet triangulo plano latera inter se eandem",
+     "transcription": "Facilius poterat e theoremate deduci: in quolibet triangulo plano latera inter se eandem",
+     "semantic_anchor": "AB01-PDF0270-P01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0270-body-L002",
+     "source_line_no": null,
+     "tex": "rationem habent quam sinus angulorum ipsis oppositorum. Sed haec propositio ignota videtur",
+     "transcription": "rationem habent quam sinus angulorum ipsis oppositorum. Sed haec propositio ignota videtur",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0270-body-L003",
+     "source_line_no": null,
+     "tex": "fuisse Arabibus illius aetatis (1); serius apud \\Name{Naṣīr ad–dīn aṭ–Ṭūsī}, qui mense Iulio 1274",
+     "transcription": "fuisse Arabibus illius aetatis (1); serius apud {sp:Naṣīr ad–dīn aṭ–Ṭūsī}, qui mense Iulio 1274",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0270-body-L004",
+     "source_line_no": null,
+     "tex": "Chr. obiit, legitur, ut recte ait \\Name{von Braunmühl}, I, p. 66–67.",
+     "transcription": "Chr. obiit, legitur, ut recte ait {sp:von Braunmühl}, I, p. 66–67.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0270-body-L005",
+     "source_line_no": null,
+     "tex": "\\Indent Docet auctor postea « hypotenusam (2) trianguli umbrae », i. e. latus AC cognoscere; ma-",
+     "transcription": "Docet auctor postea « hypotenusam (2) trianguli umbrae », i. e. latus AC cognoscere; ma-",
+     "semantic_anchor": "AB01-PDF0270-P02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0270-body-L006",
+     "source_line_no": null,
+     "tex": "nifeste est",
+     "transcription": "nifeste est",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0270-body-L007",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.00mm}(\\textgreek{β})}\\rlap{\\hspace*{94.00mm}\\makebox[0pt][c]{$\\text{hypoten. triang. umbrae} = \\sqrt{\\text{umbra extensa}^2 + p^2}$.}}",
+     "transcription": "(β) $\\text{hypoten. triang. umbrae} = \\sqrt{\\text{umbra extensa}^2 + p^2}$.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0270-body-L008",
+     "source_line_no": null,
+     "tex": "\\Indent Et quoniam $\\sin h = R\\,\\dfrac{AB}{AC}$, erit quoque",
+     "transcription": "Et quoniam $\\sin h = R\\,\\dfrac{AB}{AC}$, erit quoque",
+     "semantic_anchor": "AB01-PDF0270-P03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0270-body-L009",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.00mm}(\\textgreek{γ})}\\rlap{\\hspace*{94.00mm}\\makebox[0pt][c]{$\\sin h = \\dfrac{Rp}{\\sqrt{\\text{umbra extensa}^2 + p^2}}$}}",
+     "transcription": "(γ) $\\sin h = \\dfrac{Rp}{\\sqrt{\\text{umbra extensa}^2 + p^2}}$",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0270-body-L010",
+     "source_line_no": null,
+     "tex": "\\Indent II. Per \\textit{umbram erectam.} Eam auctor, l. 30–32, statuit",
+     "transcription": "II. Per *umbram erectam.* Eam auctor, l. 30–32, statuit",
+     "semantic_anchor": "AB01-PDF0270-P04",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0270-body-L011",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.00mm}(\\textgreek{δ})}\\rlap{\\hspace*{94.00mm}\\makebox[0pt][c]{$\\text{umbra erecta} = p\\,\\dfrac{\\sin h}{\\cos h}$;}}",
+     "transcription": "(δ) $\\text{umbra erecta} = p\\,\\dfrac{\\sin h}{\\cos h}$;",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0270-body-F01",
+     "source_line_no": null,
+     "tex": "\\input{figures/AB01-PDF0270-F01}",
+     "transcription": "[figure, redrawn: figures/AB01-PDF0270-F01.tex]",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_FIGURE"
+    },
+    {
+     "id": "AB01-PDF0270-body-L012",
+     "source_line_no": null,
+     "tex": "postea duas formulas praebet:",
+     "transcription": "postea duas formulas praebet:",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0270-body-L013",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.00mm}(\\textgreek{ε})}\\rlap{\\hspace*{74.05mm}\\makebox[0pt][c]{$\\sin\\text{\\textgreek{ζ}} = \\cos h = \\dfrac{Rp}{\\sqrt{\\text{umbra erecta}^2 + p^2}}$,}}",
+     "transcription": "(ε) $\\sin\\text{ζ} = \\cos h = \\dfrac{Rp}{\\sqrt{\\text{umbra erecta}^2 + p^2}}$,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0270-body-L014",
+     "source_line_no": null,
+     "tex": "quae facillime ut (\\textgreek{γ}) deducitur;",
+     "transcription": "quae facillime ut (γ) deducitur;",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0270-body-L015",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.00mm}(\\textgreek{ζ})}\\rlap{\\hspace*{74.05mm}\\makebox[0pt][c]{$\\sin h = \\dfrac{R\\ \\text{umbra erecta}}{\\sqrt{\\text{umbra erecta}^2 + p^2}}$,}}",
+     "transcription": "(ζ) $\\sin h = \\dfrac{R\\ \\text{umbra erecta}}{\\sqrt{\\text{umbra erecta}^2 + p^2}}$,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0270-body-L016",
+     "source_line_no": null,
+     "tex": "quae nonnisi notam definitionem $\\sin h = R\\,\\dfrac{BC}{AC}$ repraesentat.",
+     "transcription": "quae nonnisi notam definitionem $\\sin h = R\\,\\dfrac{BC}{AC}$ repraesentat.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0270-body-L017",
+     "source_line_no": null,
+     "tex": "\\Indent Si auctor gnomonem in 60 partes divisisset (sicut iam 60 partium",
+     "transcription": "Si auctor gnomonem in 60 partes divisisset (sicut iam 60 partium",
+     "semantic_anchor": "AB01-PDF0270-P05",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0270-body-L018",
+     "source_line_no": null,
+     "tex": "sumpserat semidiametrum ad quam sinus, sinus versus et cosinus refert), manifeste hae um-",
+     "transcription": "sumpserat semidiametrum ad quam sinus, sinus versus et cosinus refert), manifeste hae um-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0270-body-L019",
+     "source_line_no": null,
+     "tex": "brae factae essent verae functiones trigonometricae, et formulae nuper inventae scribi po-",
+     "transcription": "brae factae essent verae functiones trigonometricae, et formulae nuper inventae scribi po-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0270-body-L020",
+     "source_line_no": null,
+     "tex": "tuissent",
+     "transcription": "tuissent",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0270-body-L021",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.00mm}(\\textgreek{α}′)}\\rlap{\\hspace*{46.50mm}\\makebox[0pt][c]{$\\text{cotg}\\,h = R\\,\\dfrac{\\cos h}{\\sin h}$}}\\rlap{\\hspace*{97.10mm}(\\textgreek{β}′)}\\rlap{\\hspace*{142.50mm}\\makebox[0pt][c]{$\\text{cosec}\\,h = \\sqrt{R^2 + \\text{cotg}^2 h}$}}",
+     "transcription": "(α′) $\\text{cotg}\\,h = R\\,\\dfrac{\\cos h}{\\sin h}$ (β′) $\\text{cosec}\\,h = \\sqrt{R^2 + \\text{cotg}^2 h}$",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0270-body-L022",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.00mm}(\\textgreek{γ}′)}\\rlap{\\hspace*{46.50mm}\\makebox[0pt][c]{$\\sin h = \\dfrac{R^2}{\\text{cosec}\\,h}$}}\\rlap{\\hspace*{97.10mm}(\\textgreek{δ}′)}\\rlap{\\hspace*{142.50mm}\\makebox[0pt][c]{$\\text{tg}\\,h = R\\,\\dfrac{\\sin h}{\\cos h}$}}",
+     "transcription": "(γ′) $\\sin h = \\dfrac{R^2}{\\text{cosec}\\,h}$ (δ′) $\\text{tg}\\,h = R\\,\\dfrac{\\sin h}{\\cos h}$",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0270-body-L023",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.00mm}(\\textgreek{ε}′)}\\rlap{\\hspace*{46.50mm}\\makebox[0pt][c]{$\\cos h = \\dfrac{R^2}{\\sec h}$}}\\rlap{\\hspace*{97.10mm}(\\textgreek{ζ}′)}\\rlap{\\hspace*{142.50mm}\\makebox[0pt][c]{$\\sin h = R\\,\\dfrac{\\text{tg}\\,h}{\\sec h}$;}}",
+     "transcription": "(ε′) $\\cos h = \\dfrac{R^2}{\\sec h}$ (ζ′) $\\sin h = R\\,\\dfrac{\\text{tg}\\,h}{\\sec h}$;",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0270-body-L024",
+     "source_line_no": null,
+     "tex": "quae, cum $R = 1$ ut mos est hodiernus sumatur, omnino formulis nostris trigonometricis re-",
+     "transcription": "quae, cum $R = 1$ ut mos est hodiernus sumatur, omnino formulis nostris trigonometricis re-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0270-body-L025",
+     "source_line_no": null,
+     "tex": "spondent. Iuvat nunc verba \\Name{Delambre}, p. 16–17, referre: « Les Arabes avaient donc, au",
+     "transcription": "spondent. Iuvat nunc verba {sp:Delambre}, p. 16–17, referre: « Les Arabes avaient donc, au",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0270-body-L026",
+     "source_line_no": null,
+     "tex": "« tems d’Albategni, des tables des quantités, $\\text{ombre} = \\text{\\textgreek{σ}} = \\text{\\textgreek{ν}}\\,\\dfrac{\\cos h}{\\sin h} = 12 \\cot h = 12\\,\\text{tang}\\,N$,",
+     "transcription": "« tems d’Albategni, des tables des quantités, $\\text{ombre} = \\text{σ} = \\text{ν}\\,\\dfrac{\\cos h}{\\sin h} = 12 \\cot h = 12\\,\\text{tang}\\,N$,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0270-body-L027",
+     "source_line_no": null,
+     "tex": "« et par conséquent des tables de tangentes, mais calculées pour le rayon 12, tandis que les",
+     "transcription": "« et par conséquent des tables de tangentes, mais calculées pour le rayon 12, tandis que les",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0270-body-L028",
+     "source_line_no": null,
+     "tex": "« sinus étaient calculés pour le rayon 60; mais en multipliant ces tangentes par 5, ou $\\qfrac{10}{2}$,",
+     "transcription": "« sinus étaient calculés pour le rayon 60; mais en multipliant ces tangentes par 5, ou {sfrac:10/2},",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0270-body-L029",
+     "source_line_no": null,
+     "tex": "« on aurait eu les tangentes pour le rayon 60. ..... Voilà bien la première idée des tan-",
+     "transcription": "« on aurait eu les tangentes pour le rayon 60. ..... Voilà bien la première idée des tan-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    }
+   ]
+  },
+  {
+   "role": "notes_left",
+   "lines": [
+    {
+     "id": "AB01-PDF0270-notes_left-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (1) Propositio autem « in quocumque triangulo",
+     "transcription": "(1) Propositio autem « in quocumque triangulo",
+     "semantic_anchor": "AB01-PDF0270-N01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0270-notes_left-L002",
+     "source_line_no": null,
+     "tex": "« sphaerico sinus angulorum directe sunt sinibus",
+     "transcription": "« sphaerico sinus angulorum directe sunt sinibus",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0270-notes_left-L003",
+     "source_line_no": null,
+     "tex": "« oppositorum laterum proportionales », triangula",
+     "transcription": "« oppositorum laterum proportionales », triangula",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0270-notes_left-L004",
+     "source_line_no": null,
+     "tex": "rectangula quod attinet, e loco quodam libri de qua-",
+     "transcription": "rectangula quod attinet, e loco quodam libri de qua-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0270-notes_left-L005",
+     "source_line_no": null,
+     "tex": "drilatero a Naṣīr ad–dīn aṭ-Ṭūsī confecti videtur iam",
+     "transcription": "drilatero a Naṣīr ad–dīn aṭ-Ṭūsī confecti videtur iam",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0270-notes_left-L006",
+     "source_line_no": null,
+     "tex": "ante al-Battānī nota fuisse mathematico \\Name{Thābit}",
+     "transcription": "ante al-Battānī nota fuisse mathematico {sp:Thābit}",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0270-notes_left-L007",
+     "source_line_no": null,
+     "tex": "\\Name{ibn Qorrah}, qui mense ṣafar 288 heg. (Febr. 901",
+     "transcription": "{sp:ibn Qorrah}, qui mense ṣafar 288 heg. (Febr. 901",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  },
+  {
+   "role": "notes_right",
+   "lines": [
+    {
+     "id": "AB01-PDF0270-notes_right-L001",
+     "source_line_no": null,
+     "tex": "Chr.) obiit; cfr. H. \\Name{Suter}, \\textit{Zur Geschichte der Tri-}",
+     "transcription": "Chr.) obiit; cfr. H. {sp:Suter}, *Zur Geschichte der Tri-*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0270-notes_right-L002",
+     "source_line_no": null,
+     "tex": "\\textit{gonometrie,} in Bibliotheca Mathematica herausge-",
+     "transcription": "*gonometrie,* in Bibliotheca Mathematica herausge-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0270-notes_right-L003",
+     "source_line_no": null,
+     "tex": "geben von G. Eneström, Neue Folge, t. VII, Stock-",
+     "transcription": "geben von G. Eneström, Neue Folge, t. VII, Stock-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0270-notes_right-L004",
+     "source_line_no": null,
+     "tex": "holm 1893, p. 7.",
+     "transcription": "holm 1893, p. 7.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0270-notes_right-L005",
+     "source_line_no": null,
+     "tex": "\\Indent (2) Vel « diametrum »; Arabice \\textit{quṭr} ambas res",
+     "transcription": "(2) Vel « diametrum »; Arabice *quṭr* ambas res",
+     "semantic_anchor": "AB01-PDF0270-N02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0270-notes_right-L006",
+     "source_line_no": null,
+     "tex": "significat, nam hypotenusa semper est diametrus",
+     "transcription": "significat, nam hypotenusa semper est diametrus",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0270-notes_right-L007",
+     "source_line_no": null,
+     "tex": "circuli triangulo rectangulo circumscripti.",
+     "transcription": "circuli triangulo rectangulo circumscripti.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  }
+ ]
+}
