@@ -1,0 +1,476 @@
+{
+ "anchor": "AB01-PDF0328",
+ "master_pdf_page": 328,
+ "printed_page": 239,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "margin_locators": [],
+ "observations": [
+  "body L1-L2, L17: in the head the dash after «d)» measures 9.5 pt, those of «1–8» and «12–15» 5.4 and 5.3 pt; the dashes after «I.» and «II.» measure 10.3 and 10.8 pt, that of «1–2» 5.4 pt.",
+  "body L6, L10, L16, L20, L24, L26, L28, L30, L33: the dashes of «al–Battānī», «al–Battanī», «al–Ma’mūn», «’l–qarnayn» and «al–Bīrūnī» are long dashes (4.7 to 5.6 pt).",
+  "body L15, L31: the hyphens of «al-Battānī» measure 2.6 and 2.9 pt.",
+  "body L5-L8: the heads stand over braces. Al-Battānī's motions are those of his table of single Roman years (Part II, p. 103), which gives the motions of 20 years to the thirds. Ptolemy's daily mean motions in longitude (Almagest IX, 3) give in 7305 days 244° 38′ 1″ 37‴ 47⁗, 247° 12′ 33″ 49‴ 53⁗ and 228° 15′ 22″ 17‴ 21⁗, printed with the thirds 38, 49 and 17. The differences are right. The rules under Ptolemy's numbers of Saturn and Mars print broken.",
+  "body L9-L11: 37 times the differences of L8 gives the sums of Saturn and Jupiter, 2° 54′ 19″ 54‴ and 3° 5′ 22″ 49‴; for Mars 37 × 0° 6′ 48″ 32‴ = 4° 11′ 55″ 44‴, against the printed «45‴». The 740 years stand for the 743 from 137 to 880.",
+  "body L12-L13: a brace joins «Tabula Probata» and «Ḥabash (2)»; the numbers stand between the two lines.",
+  "body L17-L19: with al-Battānī's precession of 1° in 66 years over the 743 years from 137 to 880 (11° 15′), Ptolemy's apogee of Jupiter, 11° of Virgo (Almagest XI, 1), comes to 172° 15′, 7° 47′ more than al-Battānī's 164° 28′ (L31).",
+  "body L20: the beginning of the year 1191, 1 September 879, is that of note 3 on p. 114.",
+  "body L25, L28: 1 muḥarram 420 is 19 January 1029 in the astronomers' reckoning from Thursday 15 July 622 (20 January in the civil reckoning); from 880 to 1029 there are 149 years, and 149 years at 1° in 66 years make 2° 15′.",
+  "body L26-L32: al-Bīrūnī's longitudes are rightly counted from the beginning of Aries in L30, and the differences of L32 are right. Al-Battānī's apogees are those of p. 114 (L11-L12 there), Mars with the printed 126° 18′; the addenda (Part I, p. LXXI) read 58′ for these minutes, which would make the difference of Mars 1° 32′. The rules under the numbers of Jupiter, Venus and Mercury print broken.",
+  "body L28: the a of «al–Battanī» has no macron; kept as printed.",
+  "body L33: the minutes are written in Arabic letters: مج 43 and مح 48 differ by the dot of the jīm, كط 29 and لط 39 by kāf and lām. The second of Venus is printed «نط» (59), with the tooth and the dot of a nūn, where the sense requires لط (39); kept as printed. With 43′ and 29′ the differences of Saturn and Venus become 2° 15′.",
+  "body L5, L12, L16: specks to the right of «Mars», after the last «20‴» and after «esse.» are not transcribed.",
+  "notes_right L1: the dash before «Elementa» measures 8.8 pt and the hyphen of «41,r.-49,v.» 3.6 pt."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0328-body-L001",
+     "source_line_no": null,
+     "tex": "\\CenterLine{\\textbf{\\textit{d}}) — \\textit{Pag. 66, l. 1–8, 12–15.}}",
+     "transcription": "{bi:d}) — *Pag. 66, l. 1–8, 12–15.*",
+     "semantic_anchor": "AB01-PDF0328-H01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0328-body-L002",
+     "source_line_no": null,
+     "tex": "\\Indent I. — \\textit{Motus longitudinis planetarum superiorum} dicit (l. 1–2) se maiores quam quos",
+     "transcription": "I. — *Motus longitudinis planetarum superiorum* dicit (l. 1–2) se maiores quam quos",
+     "semantic_anchor": "AB01-PDF0328-P01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0328-body-L003",
+     "source_line_no": null,
+     "tex": "Ptolemaeus statuerat invenisse. Re vera e tabulis ita motus medii in intervallo 20 annorum",
+     "transcription": "Ptolemaeus statuerat invenisse. Re vera e tabulis ita motus medii in intervallo 20 annorum",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0328-body-L004",
+     "source_line_no": null,
+     "tex": "Iulianorum (1), vel 20 Aegyptiorum (sine intercalatione) $+$ 5 dierum, colliguntur:",
+     "transcription": "Iulianorum (1), vel 20 Aegyptiorum (sine intercalatione) $+$ 5 dierum, colliguntur:",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0328-body-L005",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{69.56mm}\\smash{\\makebox[0pt][c]{{\\fontsize{9.5}{11}\\selectfont \\textbf{Saturnus}}}}}\\rlap{\\hspace*{111.97mm}\\smash{\\makebox[0pt][c]{{\\fontsize{9.5}{11}\\selectfont \\textbf{Iupiter}}}}}\\rlap{\\hspace*{154.25mm}\\smash{\\makebox[0pt][c]{{\\fontsize{9.5}{11}\\selectfont \\textbf{Mars}}}}}",
+     "transcription": "{sm:**Saturnus**} {sm:**Iupiter**} {sm:**Mars**}",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0328-body-L006",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{17.80mm}\\smash{\\rlap{\\Name{al–Battānī}}}}\\rlap{\\hspace*{59.02mm}\\smash{\\llap{244}\\rlap{°}}}\\rlap{\\hspace*{66.54mm}\\smash{\\llap{42}\\rlap{′}}}\\rlap{\\hspace*{73.32mm}\\smash{\\llap{44}\\rlap{″}}}\\rlap{\\hspace*{81.91mm}\\smash{\\llap{20}\\rlap{‴}}}\\rlap{\\hspace*{101.88mm}\\smash{\\llap{247}\\rlap{°}}}\\rlap{\\hspace*{109.49mm}\\smash{\\llap{17}\\rlap{′}}}\\rlap{\\hspace*{116.58mm}\\smash{\\llap{34}\\rlap{″}}}\\rlap{\\hspace*{124.85mm}\\smash{\\llap{26}\\rlap{‴}}}\\rlap{\\hspace*{144.82mm}\\smash{\\llap{228}\\rlap{°}}}\\rlap{\\hspace*{152.44mm}\\smash{\\llap{22}\\rlap{′}}}\\rlap{\\hspace*{159.43mm}\\smash{\\llap{10}\\rlap{″}}}\\rlap{\\hspace*{167.49mm}\\smash{\\llap{49}\\rlap{‴}}}",
+     "transcription": "{sp:al–Battānī} 244° 42′ 44″ 20‴ 247° 17′ 34″ 26‴ 228° 22′ 10″ 49‴",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0328-body-L007",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{17.89mm}\\smash{\\rlap{\\Name{Ptolemaeus}}}}\\rlap{\\hspace*{59.02mm}\\smash{\\llap{244}}}\\rlap{\\hspace*{66.54mm}\\smash{\\llap{38}}}\\rlap{\\hspace*{73.32mm}\\smash{\\llap{1}}}\\rlap{\\hspace*{81.91mm}\\smash{\\llap{38}}}\\rlap{\\hspace*{101.88mm}\\smash{\\llap{247}}}\\rlap{\\hspace*{109.49mm}\\smash{\\llap{12}}}\\rlap{\\hspace*{116.58mm}\\smash{\\llap{33}}}\\rlap{\\hspace*{124.85mm}\\smash{\\llap{49}}}\\rlap{\\hspace*{144.82mm}\\smash{\\llap{228}}}\\rlap{\\hspace*{152.44mm}\\smash{\\llap{15}}}\\rlap{\\hspace*{159.43mm}\\smash{\\llap{22}}}\\rlap{\\hspace*{167.49mm}\\smash{\\llap{17}}}",
+     "transcription": "{sp:Ptolemaeus} 244 38 1 38 247 12 33 49 228 15 22 17",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0328-body-L008",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{38.25mm}\\smash{\\rlap{differ.}}}\\rlap{\\hspace*{59.02mm}\\smash{\\llap{0}\\rlap{°}}}\\rlap{\\hspace*{66.54mm}\\smash{\\llap{4}\\rlap{′}}}\\rlap{\\hspace*{73.32mm}\\smash{\\llap{42}\\rlap{″}}}\\rlap{\\hspace*{81.91mm}\\smash{\\llap{42}\\rlap{‴}}}\\rlap{\\hspace*{101.88mm}\\smash{\\llap{0}\\rlap{°}}}\\rlap{\\hspace*{109.49mm}\\smash{\\llap{5}\\rlap{′}}}\\rlap{\\hspace*{116.58mm}\\smash{\\llap{0}\\rlap{″}}}\\rlap{\\hspace*{124.85mm}\\smash{\\llap{37}\\rlap{‴}}}\\rlap{\\hspace*{144.82mm}\\smash{\\llap{0}\\rlap{°}}}\\rlap{\\hspace*{152.44mm}\\smash{\\llap{6}\\rlap{′}}}\\rlap{\\hspace*{159.43mm}\\smash{\\llap{48}\\rlap{″}}}\\rlap{\\hspace*{167.49mm}\\smash{\\llap{32}\\rlap{‴}}}",
+     "transcription": "differ. 0° 4′ 42″ 42‴ 0° 5′ 0″ 37‴ 0° 6′ 48″ 32‴",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0328-body-L009",
+     "source_line_no": null,
+     "tex": "\\Indent Itaque in 740 circiter annis Iulianis intercedentibus inter epocham tabularum Ptolemaei",
+     "transcription": "Itaque in 740 circiter annis Iulianis intercedentibus inter epocham tabularum Ptolemaei",
+     "semantic_anchor": "AB01-PDF0328-P02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0328-body-L010",
+     "source_line_no": null,
+     "tex": "(137 Chr.) et epocham tabularum al–Battānī (880 Chr.) differentiae fuerunt {\\MoonFont ♄} 2° 54′ 19″ 54‴,",
+     "transcription": "(137 Chr.) et epocham tabularum al–Battānī (880 Chr.) differentiae fuerunt ♄ 2° 54′ 19″ 54‴,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0328-body-L011",
+     "source_line_no": null,
+     "tex": "{\\MoonFont ♃} 3° 5′ 22″ 49‴, {\\MoonFont ♂} 4° 11′ 55″ 45‴.",
+     "transcription": "♃ 3° 5′ 22″ 49‴, ♂ 4° 11′ 55″ 45‴.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0328-body-L012",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{1.33mm}\\smash{\\rlap{\\textit{Tabula Probata}}}}\\rlap{\\hspace*{39.94mm}\\smash{\\rlap{\\smash{\\raisebox{-16.6pt}{\\tikz\\draw[line width=.55pt,decorate,decoration={brace,amplitude=2.3pt}] (0,25.8pt) -- (0,0);}}}}}\\rlap{\\hspace*{53.13mm}\\smash{\\raisebox{-.55\\baselineskip}{\\llap{244}\\rlap{°}}}}\\rlap{\\hspace*{60.88mm}\\smash{\\raisebox{-.55\\baselineskip}{\\llap{43}\\rlap{′}}}}\\rlap{\\hspace*{67.96mm}\\smash{\\raisebox{-.55\\baselineskip}{\\llap{14}\\rlap{″}}}}\\rlap{\\hspace*{86.42mm}\\smash{\\raisebox{-.55\\baselineskip}{\\llap{247}\\rlap{°}}}}\\rlap{\\hspace*{94.26mm}\\smash{\\raisebox{-.55\\baselineskip}{\\llap{17}\\rlap{′}}}}\\rlap{\\hspace*{101.03mm}\\smash{\\raisebox{-.55\\baselineskip}{\\llap{46}\\rlap{″}}}}\\rlap{\\hspace*{109.27mm}\\smash{\\raisebox{-.55\\baselineskip}{\\llap{20}\\rlap{‴}}}}\\rlap{\\hspace*{129.64mm}\\smash{\\raisebox{-.55\\baselineskip}{\\llap{228}\\rlap{°}}}}\\rlap{\\hspace*{137.16mm}\\smash{\\raisebox{-.55\\baselineskip}{\\llap{23}\\rlap{′}}}}\\rlap{\\hspace*{144.07mm}\\smash{\\raisebox{-.55\\baselineskip}{\\llap{2}\\rlap{″}}}}\\rlap{\\hspace*{152.44mm}\\smash{\\raisebox{-.55\\baselineskip}{\\llap{20}\\rlap{‴}}}}",
+     "transcription": "*Tabula Probata* {rbrace2} 244° 43′ 14″ 247° 17′ 46″ 20‴ 228° 23′ 2″ 20‴",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0328-body-L013",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{1.06mm}\\smash{\\rlap{\\Name{Ḥabash} (2)}}}",
+     "transcription": "{sp:Ḥabash} (2)",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0328-body-L014",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.93mm}\\smash{\\rlap{Astron. hodierni}}}\\rlap{\\hspace*{53.13mm}\\smash{\\llap{244}}}\\rlap{\\hspace*{60.88mm}\\smash{\\llap{42}}}\\rlap{\\hspace*{67.96mm}\\smash{\\llap{5}}}\\rlap{\\hspace*{86.42mm}\\smash{\\llap{247}}}\\rlap{\\hspace*{94.26mm}\\smash{\\llap{15}}}\\rlap{\\hspace*{101.03mm}\\smash{\\llap{31}}}\\rlap{\\hspace*{129.64mm}\\smash{\\llap{228}}}\\rlap{\\hspace*{137.16mm}\\smash{\\llap{20}}}\\rlap{\\hspace*{144.07mm}\\smash{\\llap{14}}}",
+     "transcription": "Astron. hodierni 244 42 5 247 15 31 228 20 14",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0328-body-L015",
+     "source_line_no": null,
+     "tex": "\\Indent Patet numeros meliores Ptolemaicis \\Name{al-Battānī} invenisse, et procul fere dubio obser-",
+     "transcription": "Patet numeros meliores Ptolemaicis {sp:al-Battānī} invenisse, et procul fere dubio obser-",
+     "semantic_anchor": "AB01-PDF0328-P03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0328-body-L016",
+     "source_line_no": null,
+     "tex": "vationibus quoque astronomorum khalīfae al–Ma’mūn usum esse.",
+     "transcription": "vationibus quoque astronomorum khalīfae al–Ma’mūn usum esse.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0328-body-L017",
+     "source_line_no": null,
+     "tex": "\\Indent II. — \\textit{Apogea planetarum} narrat se invenisse iisdem fere locis in quibus (praecessione",
+     "transcription": "II. — *Apogea planetarum* narrat se invenisse iisdem fere locis in quibus (praecessione",
+     "semantic_anchor": "AB01-PDF0328-P04",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0328-body-L018",
+     "source_line_no": null,
+     "tex": "aequinoctiorum in intervallo temporis addita) iuxta tabulas Ptolemaei esse debebant, excepta",
+     "transcription": "aequinoctiorum in intervallo temporis addita) iuxta tabulas Ptolemaei esse debebant, excepta",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0328-body-L019",
+     "source_line_no": null,
+     "tex": "tamen longitudine apogei Iovis 8° fere minore quam longitudine Ptolemaica.",
+     "transcription": "tamen longitudine apogei Iovis 8° fere minore quam longitudine Ptolemaica.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0328-body-L020",
+     "source_line_no": null,
+     "tex": "\\Indent Apogeorum longitudines pro anno 1191 Dhū ’l–qarnayn (inc. 1 Sept. 879 Chr.) indicantur",
+     "transcription": "Apogeorum longitudines pro anno 1191 Dhū ’l–qarnayn (inc. 1 Sept. 879 Chr.) indicantur",
+     "semantic_anchor": "AB01-PDF0328-P05",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0328-body-L021",
+     "source_line_no": null,
+     "tex": "in fine XLV capitis (p. 114) et in titulis tabularum aequationum planetae; a \\Name{Ptolemaeo},",
+     "transcription": "in fine XLV capitis (p. 114) et in titulis tabularum aequationum planetae; a {sp:Ptolemaeo},",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0328-body-L022",
+     "source_line_no": null,
+     "tex": "\\textit{Almag.} IX, 3 (ed. Halma t. II, p. 128 seqq.), pro anno 137. Sed ante quam eas inter se com-",
+     "transcription": "*Almag.* IX, 3 (ed. Halma t. II, p. 128 seqq.), pro anno 137. Sed ante quam eas inter se com-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0328-body-L023",
+     "source_line_no": null,
+     "tex": "paremus, necesse est ut inquiramus an numeri codicis recte scripti sint.",
+     "transcription": "paremus, necesse est ut inquiramus an numeri codicis recte scripti sint.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0328-body-L024",
+     "source_line_no": null,
+     "tex": "\\Indent \\Name{Al–Bīrūnī}, in libello inedito de elementis astronomiae, f. 28,r. et v., scribit: « Apogeo-",
+     "transcription": "{sp:Al–Bīrūnī}, in libello inedito de elementis astronomiae, f. 28,r. et v., scribit: « Apogeo-",
+     "semantic_anchor": "AB01-PDF0328-P06",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0328-body-L025",
+     "source_line_no": null,
+     "tex": "« rum loca hoc nostro tempore, anno scilicet 420 hegirae [inc. 19 Ian. 1029], iuxta quae Mu-",
+     "transcription": "« rum loca hoc nostro tempore, anno scilicet 420 hegirae [inc. 19 Ian. 1029], iuxta quae Mu-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0328-body-L026",
+     "source_line_no": null,
+     "tex": "« ḥammad ibn Ǵābir \\Name{al–Battānī} invenit debent esse: apogeum \\SunSym{} 24° 32′ Gemin., {\\MoonFont ♄} 6° 48′",
+     "transcription": "« ḥammad ibn Ǵābir {sp:al–Battānī} invenit debent esse: apogeum ⊙ 24° 32′ Gemin., ♄ 6° 48′",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0328-body-L027",
+     "source_line_no": null,
+     "tex": "« Sagitt., {\\MoonFont ♃} 16° 43′ Virg., {\\MoonFont ♂} 8° 30′ Leonis, {\\MoonFont ♀} 24° 39′ Gemin., {\\MoonFont ☿} 23° 43′ Librae ». In intervallo",
+     "transcription": "« Sagitt., ♃ 16° 43′ Virg., ♂ 8° 30′ Leonis, ♀ 24° 39′ Gemin., ☿ 23° 43′ Librae ». In intervallo",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0328-body-L028",
+     "source_line_no": null,
+     "tex": "149 annorum solarium praecessio iuxta al–Battanī et al–Bīrūnī fuit 2° 15′; haec igitur diffe-",
+     "transcription": "149 annorum solarium praecessio iuxta al–Battanī et al–Bīrūnī fuit 2° 15′; haec igitur diffe-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0328-body-L029",
+     "source_line_no": null,
+     "tex": "rentia in omnibus planetis reperiri debet. Tabella comparationis praebet:",
+     "transcription": "rentia in omnibus planetis reperiri debet. Tabella comparationis praebet:",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0328-body-L030",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{19.70mm}\\smash{\\rlap{\\Name{al–Bīrūnī}:}}}\\rlap{\\hspace*{48.13mm}\\smash{\\rlap{{\\MoonFont ♄}}}}\\rlap{\\hspace*{73.19mm}\\smash{\\rlap{{\\MoonFont ♃}}}}\\rlap{\\hspace*{99.31mm}\\smash{\\rlap{{\\MoonFont ♂}}}}\\rlap{\\hspace*{124.90mm}\\smash{\\rlap{{\\MoonFont ♀}}}}\\rlap{\\hspace*{147.57mm}\\smash{\\rlap{{\\MoonFont ☿}}}}\\rlap{\\hspace*{59.86mm}\\smash{\\llap{246}\\rlap{°}}}\\rlap{\\hspace*{67.34mm}\\smash{\\llap{48}\\rlap{′}}}\\rlap{\\hspace*{86.29mm}\\smash{\\llap{166}\\rlap{°}}}\\rlap{\\hspace*{93.77mm}\\smash{\\llap{43}\\rlap{′}}}\\rlap{\\hspace*{111.39mm}\\smash{\\llap{128}\\rlap{°}}}\\rlap{\\hspace*{118.88mm}\\smash{\\llap{30}\\rlap{′}}}\\rlap{\\hspace*{134.24mm}\\smash{\\llap{84}\\rlap{°}}}\\rlap{\\hspace*{141.55mm}\\smash{\\llap{39}\\rlap{′}}}\\rlap{\\hspace*{158.95mm}\\smash{\\llap{203}\\rlap{°}}}\\rlap{\\hspace*{166.78mm}\\smash{\\llap{43}\\rlap{′}}}",
+     "transcription": "{sp:al–Bīrūnī}: ♄ ♃ ♂ ♀ ☿ 246° 48′ 166° 43′ 128° 30′ 84° 39′ 203° 43′",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0328-body-L031",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{20.01mm}\\smash{\\rlap{\\Name{al-Battānī}}}}\\rlap{\\hspace*{59.86mm}\\smash{\\llap{244}}}\\rlap{\\hspace*{67.34mm}\\smash{\\llap{28}}}\\rlap{\\hspace*{86.29mm}\\smash{\\llap{164}}}\\rlap{\\hspace*{93.77mm}\\smash{\\llap{28}}}\\rlap{\\hspace*{111.39mm}\\smash{\\llap{126}}}\\rlap{\\hspace*{118.88mm}\\smash{\\llap{18}}}\\rlap{\\hspace*{134.24mm}\\smash{\\llap{82}}}\\rlap{\\hspace*{141.55mm}\\smash{\\llap{14}}}\\rlap{\\hspace*{158.95mm}\\smash{\\llap{201}}}\\rlap{\\hspace*{166.78mm}\\smash{\\llap{28}}}",
+     "transcription": "{sp:al-Battānī} 244 28 164 28 126 18 82 14 201 28",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0328-body-L032",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{36.75mm}\\smash{\\rlap{differ.}}}\\rlap{\\hspace*{59.86mm}\\smash{\\llap{2}\\rlap{°}}}\\rlap{\\hspace*{67.34mm}\\smash{\\llap{20}\\rlap{′}}}\\rlap{\\hspace*{86.29mm}\\smash{\\llap{2}\\rlap{°}}}\\rlap{\\hspace*{93.77mm}\\smash{\\llap{15}\\rlap{′}}}\\rlap{\\hspace*{111.39mm}\\smash{\\llap{2}\\rlap{°}}}\\rlap{\\hspace*{118.88mm}\\smash{\\llap{12}\\rlap{′}}}\\rlap{\\hspace*{134.24mm}\\smash{\\llap{2}\\rlap{°}}}\\rlap{\\hspace*{141.55mm}\\smash{\\llap{25}\\rlap{′}}}\\rlap{\\hspace*{158.95mm}\\smash{\\llap{2}\\rlap{°}}}\\rlap{\\hspace*{166.78mm}\\smash{\\llap{15}\\rlap{′}}}",
+     "transcription": "differ. 2° 20′ 2° 15′ 2° 12′ 2° 25′ 2° 15′",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0328-body-L033",
+     "source_line_no": null,
+     "tex": "\\Indent Si apud al–Bīrūnī minuta Saturni \\ArabicRun{مج} 43′ pro \\ArabicRun{مح} 48′, et Veneris \\ArabicRun{كط} 29′ pro \\ArabicRun{نط} 39′ corri-",
+     "transcription": "Si apud al–Bīrūnī minuta Saturni مج 43′ pro مح 48′, et Veneris كط 29′ pro نط 39′ corri-",
+     "semantic_anchor": "AB01-PDF0328-P07",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0328-body-L034",
+     "source_line_no": null,
+     "tex": "gantur, differentia 2° 15′ ubique apparet, \\textit{Marte} tantum excepto ubi emendatio difficilis. Nu-",
+     "transcription": "gantur, differentia 2° 15′ ubique apparet, *Marte* tantum excepto ubi emendatio difficilis. Nu-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0328-body-L035",
+     "source_line_no": null,
+     "tex": "meri ergo Albateniani, praeter quam in Marte, recti videntur.",
+     "transcription": "meri ergo Albateniani, praeter quam in Marte, recti videntur.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    }
+   ]
+  },
+  {
+   "role": "notes_left",
+   "lines": [
+    {
+     "id": "AB01-PDF0328-notes_left-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (1) Hoc intervallum deligo quoniam pro eo tan-",
+     "transcription": "(1) Hoc intervallum deligo quoniam pro eo tan-",
+     "semantic_anchor": "AB01-PDF0328-N01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0328-notes_left-L002",
+     "source_line_no": null,
+     "tex": "tum tabulae Albatenianae, t. II, p. 103, tertias prae-",
+     "transcription": "tum tabulae Albatenianae, t. II, p. 103, tertias prae-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0328-notes_left-L003",
+     "source_line_no": null,
+     "tex": "bent. In numeris Ptolemaei quartas, quintas et sex-",
+     "transcription": "bent. In numeris Ptolemaei quartas, quintas et sex-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0328-notes_left-L004",
+     "source_line_no": null,
+     "tex": "tas omitto.",
+     "transcription": "tas omitto.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  },
+  {
+   "role": "notes_right",
+   "lines": [
+    {
+     "id": "AB01-PDF0328-notes_right-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (2) Fol. 41,r.-49,v. — Elementa \\textit{Tabulae Pro-}",
+     "transcription": "(2) Fol. 41,r.-49,v. — Elementa *Tabulae Pro-*",
+     "semantic_anchor": "AB01-PDF0328-N02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0328-notes_right-L002",
+     "source_line_no": null,
+     "tex": "\\textit{batae}, i. e. motus medii in anno Aegyptio vel Per-",
+     "transcription": "*batae*, i. e. motus medii in anno Aegyptio vel Per-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0328-notes_right-L003",
+     "source_line_no": null,
+     "tex": "sico 365 dierum, sunt apud \\Name{Ibn Yūnus}, cap. VI",
+     "transcription": "sico 365 dierum, sunt apud {sp:Ibn Yūnus}, cap. VI",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0328-notes_right-L004",
+     "source_line_no": null,
+     "tex": "(\\Name{Caussin} p. 234 seqq.).",
+     "transcription": "({sp:Caussin} p. 234 seqq.).",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  }
+ ]
+}
