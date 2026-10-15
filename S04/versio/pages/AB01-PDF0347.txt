@@ -1,0 +1,70 @@
+@page 347 258
+% Commentary on chapter 39, m) concluded: Ptolemy's greatest distance of the Sun 1210 radii, 64 more than al-Battānī's; 1210 : 64 = 18 29/32, so an eighteenth part is to be added to the parallaxes taken from the Almagest and the codex's eighth is false; the modern mean distance 23430 radii and parallax 8″,80; the parallax at the apogee 3′ 0″ and at the perigee 3′ 13″, whose difference of 13″ is on p. 80, last line. n) on p. 81, l. 4-6: the parallaxes in longitude and latitude follow from Ptolemy's constructions. o) on p. 81, l. 23-34: the angle of the ecliptic with the vertical circle when the Moon is at the ascendant, by the latitudo aequata; formula (α) derived in the right spherical triangle GBH, with the figure redrawn; the passage in italics there false (Schiaparelli). p) on p. 81, l. 38 - p. 82, l. 4: the angle of latitude when the Moon is in the meridian; formula (α) (begun).
+@nonum
+{sp:Ptolemaeus} maximam 1210 invenerat, nempe 64 radiis maiorem quam Albatenianam. Et
+@vspace -0.96
+cum $\dfrac{1210}{64} = 18\dfrac{29}{32}$ sit, {sp:al–Battānī} autem tabulam parallaxium Solis ex *Almagesto* sumpse-
+@vspace -0.43
+rit, manifeste numeris ibi repertis {sfrac:1/18} ipsorum addi debet. Lectio igitur codicis {sfrac:1/8} falsa est.
+^ Distantiae diminutio {sp:Albateniana} est parva mutatio in peius, nam quantitas {sp:Ptole-}
+{sp:maica} iam multo minor erat vera. Astronomi hodierni mediam Solis distantiam 23430 radio-
+rum circiter faciunt, parallaxim 8″,80.
+^ Parallaxis iuxta {sp:Ptolemaeum} est 2′ 51″; mutatis distantiis, {sp:al–Battānī} invenit:
+@vspace 0.26
+@at 78.27^:sin parall. ⊙ apogei $= 60^{p}\,\dfrac{1}{1146} =$ 3′ 8″ 29‴; | 130.07:parall. 3′ | 155.47>:0″
+@vspace 1.17
+@at 77.51^:sin parall. ⊙ perigei $= 60^{p}\,\dfrac{1}{1070} =$ 3′ 21″ 52‴; | 129.93:parall. 3′ 13″,
+@vspace 0.64
+unde differentia tredecim secundarum ab apogeo ad perigeum quae p. 80. l. ult., memoratur.
+@vspace 4.53
+@center {bi:n}) — *Pag. 81, l. 4-6.*
+@vspace 3.32
+^ Regulae facile deducuntur e constructionibus geometricis {sp:Ptolemaei}; cfr. adn. {bi:a}, p. 251.
+@vspace 4.57
+@center {bi:o}) — *Pag. 81, l. 23-34.*
+@vspace 3.32
+@wrap 0.249 AB01-PDF0347-F01
+^ Luna in ecliptica exstante, supputare *angulum ecliptica et*
+*circulo verticali* per Lunam transeunti *interceptum*, cum Luna in
+ascendente sit.
+^ Iubet antea *latitudinem aequatam* climatis deprehendere, scili-
+cet latitudinem loci terrestris dati $\mp$ declinationem gradus eclipticae
+culminantis. Quo facto formula est:
+@vspace 0.41
+@at 0.00:(α) | 68.21^:sin ang. long. $=$ cos ang. lat. $= R\,\dfrac{\text{cos latit. aequatae}}{\text{sin dist. ☾ a gr. culm.}}\,.$
+@endwrap
+@vspace -0.29
+^ Regulam probabiliter hoc modo reperit. Sit H ascendens et Luna, G gradus eclipticae
+culminans; manifeste ZHG erit angulus latitudinis, cuius complementum GHB angulus longi-
+tudinis; GB altitudo gradus culminantis, quae (ob hoc ipsum cap., p. 79, et cap. XV, p. 30)
+est summa aut differentia complementi latitudinis φ urbis et declinationis δ gradus culminantis.
+@vspace 0.08
+In triangulo sphaerico rectangulo GBH est (cfr. p. 181, adn. 1)
+@at 93.15^:sin *GH* : sin *GB* $=$ sin *HBG* : sin *GHB*.
+@at 0.00:At | 31.05:sin *GB* $=$ sin $\bigl[$(90° $-$ φ) $\pm$ δ$\bigr]$ $=$ cos (φ $\mp$ δ) $=$ cos latit. aequatae;
+@at 0.00:ergo | 40.47:sin dist. ☾ a gr. culm. : cos lat. aeq. $= R$ : sin ang. long.,
+unde formula {sp:al-Battānī}.
+^ [Quae Italicis litteris impressa sequuntur, falsa sunt, et ab eodem interpolatore prove-
+niunt qui similem errorem p. 80, l. 7–9 addidit (cfr. adn. {bi:l}).
+^ {sp:Ptolemaeus} hoc problema neglexerat, nam ad eius solutionem regula generalis, in adn. {bi:k},
+p. 257 enunciata, sufficere poterat. — {sc:Schiaparelli}.]
+@vspace 4.49
+@center {bi:p}) — *Pag. 81, l. 38—pag. 82, l. 4.*
+@vspace 3.32
+^ *Angulum latitudinis* supputare cum Luna sit in meridiano et in ecliptica.
+^ Aut regula generalis (p. 80 et adn. {bi:k}) est adhibenda, aut
+@at 0.00:(α) | 93.95^:sin ang. long. $=$ cos ang. lat. $= R\,\dfrac{\text{sin decl. gr. culm.} \times \text{cos dist. ☾ ab Ariete vel Libra}}{\text{cos decl. gr. culm.} \times \text{sin dist. ☾ ab Ariete vel Libra}}\,.$
+@obs body L1-L3: Ptolemy's distance of the Sun, 1210 radii, exceeds al-Battānī's greatest, 1146 (p. 257, L35), by 64, and 1210 : 64 = 18 29/32 (18,906), as printed. The parallax varies inversely as the distance, so the values of the Almagest are to be multiplied by 1210 : 1146, that is increased by 64/1146 = 1/17,9 of themselves: an eighteenth part, as concluded; 64/1210 = 1/18,9 is the increase as a part of the increased parallax. «al–Battānī» (L2) has a long dash (5.3 pt); the t of «Almagesto» prints only in its upper part.
+@obs body L4-L6: 206 265″ : 23430 = 8″,803; the parallax 8″,80, adopted at the Paris conference of 1896, belongs to 23 440 radii, so «circiter».
+@obs body L7: 2′ 51″ answers to the distance of 1210 radii: arcsin (1 : 1210) = 2′ 50″,5. «al–Battānī» has a long dash (5.3 pt).
+@obs body L8-L9: 60ᵖ : 1146 = 0ᵖ 3′ 8″ 29‴ (3′ 8″,48) and 60ᵖ : 1070 = 0ᵖ 3′ 21″ 52‴ (3′ 21″,87); the arcs of which these are the sines measure 3′ 0″,0 and 3′ 12″,8: as printed. The formulas stand where they are printed, the 0″ of L8 over the 13″ of L9.
+@obs body L10: «p. 80.» has a full stop where the other references have a comma; the thirteen seconds are on the last line of p. 80 («e 13 secundis quibus parallaxis Solis ab apogeo ad perigeum differt»), 3′ 13″ − 3′ 0″. A short stroke prints below the a and the t of «memoratur».
+@obs body L11-L12: the dash after «n)» measures 10.2 pt, the hyphen of «4-6» 3.2 pt. The rules of p. 81, L4-L6 (the parallax in altitude times the sine of the angle of longitude, or of latitude, divided by 60ᵖ) are the formulas of note a), p. 251.
+@obs body L13: the dash after «o)» measures 10.0 pt, the hyphen of «23-34» 3.1 pt.
+@obs body L14-L20: the figure stands on the left of these lines and is redrawn from the print: the meridian (radius 40.5 pt), the horizon from B, the vertical circle from the zenith to H and the ecliptic from G through H, as arcs of circles fitted to the print (radius 316.3, 80.1 and 152.5 pt), which meet in H within 0.04 pt; the words «Zenith», «horizon», «ecliptica» and «meridianus» and the letters G, B, H as printed, the last two words along their circles. The zenith, Z in L22, is marked only by the word.
+@obs body L18: «∓»: the northern declination of the culminating degree is subtracted from the latitude, the southern added (p. 81, L24-L25).
+@obs body L20-L29: (α) is the law of sines (p. 181, note 1) in the triangle GBH, right-angled at B, where the meridian meets the horizon: sin GHB = R sin GB : sin GH. GH is the distance of the Moon at the ascendant from the culminating degree, GB the meridian altitude of G, 90° − φ ± δ, whose sine is cos (φ ∓ δ); GHB, the angle of the ecliptic with the horizon, is the complement of ZHG, the vertical HZ being perpendicular to the horizon. It is al-Battānī's rule of p. 81, L23-L29. The label «(α)» stands at the left edge of the lines beside the figure and the formula where it is printed. In L27 the bar after «90°» (9.5 pt, as long as the signs of equality) is a minus sign, and the square brackets print taller than the parentheses.
+@obs body L29: «al-Battānī» has a hyphen (4.0 pt), shorter than the long dashes of L2 and L7 (5.3 pt).
+@obs body L30-L33: heavy brackets open and close Schiaparelli's addition; «7–9» has a long dash (5.3 pt), the dash before «Schiaparelli» measures 10.1 pt. The passage in italics is p. 81, L31-L33, for a latitude smaller than the northern declination of the culminating degree: sin ang. lat. = R sin (δ − φ) : sin dist. By (α), which holds in this case too, cos ang. lat. = R cos (δ − φ) : sin dist.; the two hold together only when the culminating degree is 90° from the ascendant, so the rule is false, as Schiaparelli says. The error of p. 80, L7-L9 is note l), p. 257.
+@obs body L34: the dash after «p)» measures 10.2 pt, that of «38—pag.» 10.0 pt; the stop after «pag» prints small and low.
+@obs body L35-L37: on the meridian the vertical circle through the Moon is the meridian itself, and the angle of latitude is the angle η of the ecliptic with the meridian. In the right spherical triangle of the ecliptic, the equator and the meridian, with the hypotenuse λ, the distance from Aries or Libra, and the side δ, the declination, cos η = tan δ : tan λ = sin δ cos λ : (cos δ sin λ), which is (α). It is al-Battānī's rule of p. 81, L40 - p. 82, L3. The label «(α)» stands at the margin and the formula where it is printed.
