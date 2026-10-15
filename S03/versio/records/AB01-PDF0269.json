@@ -1,0 +1,357 @@
+{
+ "anchor": "AB01-PDF0269",
+ "master_pdf_page": 269,
+ "printed_page": 180,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "margin_locators": [],
+ "observations": [
+  "body L1, L18: the heads of the notes on chapters 9 and 10, «Ad» and «caput» in small capitals, in the larger type of the heads.",
+  "body L2: the dash of «21-22» measures 4.0 pt, shorter than the long dash of «l. 1–6» on p. 178 (5.4 pt); transcribed as a hyphen.",
+  "body L4: «t. I» is printed with a broken t; the dash of «70–71» measures 4.6 pt and is transcribed as a long dash.",
+  "body L7, L9, L11, L13-L14, L17, L20: the minus signs of «180°— 2φ», «180°— 2P», «90°— P», «P — 90°», «— cos P» and «90°— h» are printed as long dashes, that of «180° − 2ε» as a short one; all are set as minus signs.",
+  "body L11: a speck stands over the equals sign; it is not a sign.",
+  "body L5-L17: the formulas are checked. In the figure of p. 177, with ZB = φ, BA = 90° − φ, ZH = 90° − ε, HT = ε, TE = 90° − P and EA = 90°, Menelaus' theorem (Almagest II, 3) gives L7, L9 and L11 as printed (chorda 2a = 2 sin a, chorda 180° = 2R). Ptolemy's P is the least semidiurnal arc, al-Battānī's the greatest; with sin (P − 90°) = − cos P rule (α) is the modern cos P = − tg φ tg ε, and (β) with the declination δ is − cos P = tg φ tg δ, as in note 1.",
+  "body L21-L30: the figure stands at the left of lines 21 to 30, which are set beside it in a narrow measure. It is redrawn from measurements of the print: the gnomon AB, its shadow CB and the ray AC as solid lines (the angle at C measures 34.5°); the line DGA, the sine GF, the ray produced CF, the line BE and the quadrant DFE about A in dashes, each dash where it printed; the angle h marked at A and at C; the braces of cos h, sin h and p; the letters and the words in the italic of the text.",
+  "body L21-L30: the label under the shadow is printed «umbra cxtensa», with c for the e of extensa; kept as printed.",
+  "body L23: the dash of «13–15» touches its figures; transcribed as a long dash, as in the ranges of the other lines.",
+  "body L24: the formula (α) is checked: by the similar triangles ABC and AGF (L29-L30), CB : p = cos h : sin h.",
+  "body L26: a speck stands before «xaginta» at the left of the line; it is not a sign.",
+  "notes L1: the minus sign before «cos P» is printed short and apart from it, and the equals sign is blotted."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0269-body-L001",
+     "source_line_no": null,
+     "tex": "\\CenterLine{A\\textsc{d} \\textsc{caput} IX.}",
+     "transcription": "A{sc:d} {sc:caput} IX.",
+     "semantic_anchor": "AB01-PDF0269-H01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0269-body-L002",
+     "source_line_no": null,
+     "tex": "\\CenterLine{\\textbf{\\textit{a}}) — \\textit{Pag. 21-22.}}",
+     "transcription": "{bi:a}) — *Pag. 21-22.*",
+     "semantic_anchor": "AB01-PDF0269-H02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0269-body-L003",
+     "source_line_no": null,
+     "tex": "\\Indent Altitudine \\textgreek{φ} poli data, \\textit{arcum maximum} vel \\textit{minimum semidiurnum Solis} invenire.",
+     "transcription": "Altitudine φ poli data, *arcum maximum* vel *minimum semidiurnum Solis* invenire.",
+     "semantic_anchor": "AB01-PDF0269-P01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0269-body-L004",
+     "source_line_no": null,
+     "tex": "\\Indent Figura praecedenti \\Name{Ptolemaeus}, \\textit{Almag.} II, 3 (ed. Halma, t. I, p. 70–71) demonstrat:",
+     "transcription": "Figura praecedenti {sp:Ptolemaeus}, *Almag.* II, 3 (ed. Halma, t. I, p. 70–71) demonstrat:",
+     "semantic_anchor": "AB01-PDF0269-P02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0269-body-L005",
+     "source_line_no": null,
+     "tex": "\\CenterLine{$\\dfrac{\\text{chorda } 2\\,ZB}{\\text{chorda } 2\\,BA} = \\dfrac{\\text{chorda } 2\\,ZH}{\\text{chorda } 2\\,HT} \\times \\dfrac{\\text{chorda } 2\\,TE}{\\text{chorda } 2\\,EA}$,}",
+     "transcription": "$\\dfrac{\\text{chorda } 2\\,ZB}{\\text{chorda } 2\\,BA} = \\dfrac{\\text{chorda } 2\\,ZH}{\\text{chorda } 2\\,HT} \\times \\dfrac{\\text{chorda } 2\\,TE}{\\text{chorda } 2\\,EA}$,",
+     "semantic_anchor": "AB01-PDF0269-H05",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0269-body-L006",
+     "source_line_no": null,
+     "tex": "id est",
+     "transcription": "id est",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0269-body-L007",
+     "source_line_no": null,
+     "tex": "\\CenterLine{$\\dfrac{\\text{chorda } 2\\text{\\textgreek{φ}}}{\\text{chorda } (\\text{180°} - 2\\text{\\textgreek{φ}})} = \\dfrac{\\text{chorda } (\\text{180°} - 2\\text{\\textgreek{ε}})}{\\text{chorda } 2\\text{\\textgreek{ε}}} \\times \\dfrac{\\text{chorda } (\\text{180°} - 2P)}{\\text{chorda 180°}}$.}",
+     "transcription": "$\\dfrac{\\text{chorda } 2\\text{φ}}{\\text{chorda } (\\text{180°} - 2\\text{φ})} = \\dfrac{\\text{chorda } (\\text{180°} - 2\\text{ε})}{\\text{chorda } 2\\text{ε}} \\times \\dfrac{\\text{chorda } (\\text{180°} - 2P)}{\\text{chorda 180°}}$.",
+     "semantic_anchor": "AB01-PDF0269-H07",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0269-body-L008",
+     "source_line_no": null,
+     "tex": "Sinibus pro chordis positis,",
+     "transcription": "Sinibus pro chordis positis,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0269-body-L009",
+     "source_line_no": null,
+     "tex": "\\CenterLine{$\\dfrac{\\sin\\text{\\textgreek{φ}}}{\\cos\\text{\\textgreek{φ}}} = \\dfrac{\\cos\\text{\\textgreek{ε}}\\ \\sin (\\text{90°} - P)}{\\sin\\text{\\textgreek{ε}} \\times R}$,}",
+     "transcription": "$\\dfrac{\\sin\\text{φ}}{\\cos\\text{φ}} = \\dfrac{\\cos\\text{ε}\\ \\sin (\\text{90°} - P)}{\\sin\\text{ε} \\times R}$,",
+     "semantic_anchor": "AB01-PDF0269-H09",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0269-body-L010",
+     "source_line_no": null,
+     "tex": "unde",
+     "transcription": "unde",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0269-body-L011",
+     "source_line_no": null,
+     "tex": "\\CenterLine{$\\sin (\\text{90°} - P) = R\\,\\dfrac{\\sin\\text{\\textgreek{φ}} \\sin\\text{\\textgreek{ε}}}{\\cos\\text{\\textgreek{φ}} \\cos\\text{\\textgreek{ε}}}$.}",
+     "transcription": "$\\sin (\\text{90°} - P) = R\\,\\dfrac{\\sin\\text{φ} \\sin\\text{ε}}{\\cos\\text{φ} \\cos\\text{ε}}$.",
+     "semantic_anchor": "AB01-PDF0269-H11",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0269-body-L012",
+     "source_line_no": null,
+     "tex": "\\Indent \\Name{Ptolemaeus} decrementum minimi diei respectu diei aequinoctialis consideraverat, nempe",
+     "transcription": "{sp:Ptolemaeus} decrementum minimi diei respectu diei aequinoctialis consideraverat, nempe",
+     "semantic_anchor": "AB01-PDF0269-P03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0269-body-L013",
+     "source_line_no": null,
+     "tex": "90° − \\textit{P}; \\Name{al–Battānī} autem excessum maximi diei, scilicet \\textit{P} − 90°, qua re eius formula est",
+     "transcription": "90° − *P*; {sp:al–Battānī} autem excessum maximi diei, scilicet *P* − 90°, qua re eius formula est",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0269-body-L014",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.00mm}(\\textgreek{α})}\\rlap{\\hspace*{94.00mm}\\makebox[0pt][c]{$\\sin (P - \\text{90°}) = - \\cos P = R\\,\\dfrac{\\sin\\text{\\textgreek{φ}} \\sin\\text{\\textgreek{ε}}}{\\cos\\text{\\textgreek{φ}} \\cos\\text{\\textgreek{ε}}}$.}}",
+     "transcription": "(α) $\\sin (P - \\text{90°}) = - \\cos P = R\\,\\dfrac{\\sin\\text{φ} \\sin\\text{ε}}{\\cos\\text{φ} \\cos\\text{ε}}$.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0269-body-L015",
+     "source_line_no": null,
+     "tex": "\\Indent Si pro maximo arcu semidiurno quaeratur arcus alius, loco obliquitatis \\textgreek{ε} ponatur decli-",
+     "transcription": "Si pro maximo arcu semidiurno quaeratur arcus alius, loco obliquitatis ε ponatur decli-",
+     "semantic_anchor": "AB01-PDF0269-P04",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0269-body-L016",
+     "source_line_no": null,
+     "tex": "natio (\\textgreek{δ}) puncti eclipticae quod Sol occupat data die; formula \\Name{al–Battānī} fit",
+     "transcription": "natio (δ) puncti eclipticae quod Sol occupat data die; formula {sp:al–Battānī} fit",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0269-body-L017",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.00mm}(\\textgreek{β})}\\rlap{\\hspace*{94.00mm}\\makebox[0pt][c]{$- \\cos P = R\\,\\dfrac{\\sin\\text{\\textgreek{φ}} \\sin\\text{\\textgreek{δ}}}{\\cos\\text{\\textgreek{φ}} \\cos\\text{\\textgreek{δ}}}$ (1).}}",
+     "transcription": "(β) $- \\cos P = R\\,\\dfrac{\\sin\\text{φ} \\sin\\text{δ}}{\\cos\\text{φ} \\cos\\text{δ}}$ (1).",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0269-body-L018",
+     "source_line_no": null,
+     "tex": "\\CenterLine{A\\textsc{d} \\textsc{caput} X.}",
+     "transcription": "A{sc:d} {sc:caput} X.",
+     "semantic_anchor": "AB01-PDF0269-H18",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0269-body-L019",
+     "source_line_no": null,
+     "tex": "\\CenterLine{\\textbf{\\textit{a}}) — \\textit{Pag. 22.}}",
+     "transcription": "{bi:a}) — *Pag. 22.*",
+     "semantic_anchor": "AB01-PDF0269-H19",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0269-body-L020",
+     "source_line_no": null,
+     "tex": "\\Indent \\textit{Altitudinem h Solis} vel \\textit{distantiam zenithalem} \\textgreek{ζ} (= 90° − \\textit{h}) supputare per umbram",
+     "transcription": "*Altitudinem h Solis* vel *distantiam zenithalem* ζ (= 90° − *h*) supputare per umbram",
+     "semantic_anchor": "AB01-PDF0269-P05",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0269-body-F01",
+     "source_line_no": null,
+     "tex": "\\input{figures/AB01-PDF0269-F01}",
+     "transcription": "[figure, redrawn: figures/AB01-PDF0269-F01.tex]",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_FIGURE"
+    },
+    {
+     "id": "AB01-PDF0269-body-L021",
+     "source_line_no": null,
+     "tex": "gnomonis, in 12 partes divisi.",
+     "transcription": "gnomonis, in 12 partes divisi.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0269-body-L022",
+     "source_line_no": null,
+     "tex": "\\Indent I. Per \\textit{umbram extensam.} Partes gnomonis (seu late-",
+     "transcription": "I. Per *umbram extensam.* Partes gnomonis (seu late-",
+     "semantic_anchor": "AB01-PDF0269-P06",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0269-body-L023",
+     "source_line_no": null,
+     "tex": "ris AB) \\textit{p} appellentur; auctor docet, l. 13–15, esse",
+     "transcription": "ris AB) *p* appellentur; auctor docet, l. 13–15, esse",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0269-body-L024",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.00mm}(\\textgreek{α})}\\rlap{\\hspace*{26.40mm}$\\text{umbra extensa} = p\\,\\dfrac{\\cos h}{\\sin h}$.}",
+     "transcription": "(α) $\\text{umbra extensa} = p\\,\\dfrac{\\cos h}{\\sin h}$.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0269-body-L025",
+     "source_line_no": null,
+     "tex": "\\Indent Propositio facile potest hoc modo deduci: radio AD se-",
+     "transcription": "Propositio facile potest hoc modo deduci: radio AD se-",
+     "semantic_anchor": "AB01-PDF0269-P07",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0269-body-L026",
+     "source_line_no": null,
+     "tex": "xaginta partium (ad quem auctor functiones trigonometricas",
+     "transcription": "xaginta partium (ad quem auctor functiones trigonometricas",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0269-body-L027",
+     "source_line_no": null,
+     "tex": "refert) quadrans circuli EFD describatur; e similitudine trian-",
+     "transcription": "refert) quadrans circuli EFD describatur; e similitudine trian-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0269-body-L028",
+     "source_line_no": null,
+     "tex": "gulorum rectangulorum ABC, AGF statim colligitur",
+     "transcription": "gulorum rectangulorum ABC, AGF statim colligitur",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0269-body-L029",
+     "source_line_no": null,
+     "tex": "\\CenterLine{CB : AB = GA : FG,}",
+     "transcription": "CB : AB = GA : FG,",
+     "semantic_anchor": "AB01-PDF0269-H29",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0269-body-L030",
+     "source_line_no": null,
+     "tex": "\\CenterLine{umbra extensa : \\textit{p} = cos \\textit{h} : sin \\textit{h}.}",
+     "transcription": "umbra extensa : *p* = cos *h* : sin *h*.",
+     "semantic_anchor": "AB01-PDF0269-H30",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    }
+   ]
+  },
+  {
+   "role": "notes",
+   "lines": [
+    {
+     "id": "AB01-PDF0269-notes-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (1) Nos, tangentibus utentes et radium R = 1 sumentes, brevius scribimus $- \\cos P = \\text{tg}\\,\\text{\\textgreek{φ}}\\ \\text{tg}\\,\\text{\\textgreek{δ}}$.",
+     "transcription": "(1) Nos, tangentibus utentes et radium R = 1 sumentes, brevius scribimus $- \\cos P = \\text{tg}\\,\\text{φ}\\ \\text{tg}\\,\\text{δ}$.",
+     "semantic_anchor": "AB01-PDF0269-N01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  }
+ ]
+}

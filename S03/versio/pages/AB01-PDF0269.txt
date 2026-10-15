@@ -1,0 +1,74 @@
+@page 269 180
+% Notes on chapter 9, a) on pp. 21-22: the greatest or least semidiurnal arc of the Sun from the latitude, by Ptolemy's Almagest II, 3: in chords and in sines, Ptolemy's sin (90° − P) = R sin φ sin ε / (cos φ cos ε) and al-Battānī's rules (α) for the solstice and (β) for any declination, with the modern form − cos P = tg φ tg δ. Notes on chapter 10, a) on p. 22: the altitude of the Sun from the shadow of a gnomon of 12 parts; I, by the umbra extensa, rule (α) umbra extensa = p cos h / sin h, with the figure of the gnomon and the proof from similar triangles (begun).
+@nonum
+@fontsize 15 17
+@vspace 9.68
+@center A{sc:d} {sc:caput} IX.
+@normal
+@vspace 3.9
+@center {bi:a}) — *Pag. 21-22.*
+@vspace 5.12
+^ Altitudine φ poli data, *arcum maximum* vel *minimum semidiurnum Solis* invenire.
+^ Figura praecedenti {sp:Ptolemaeus}, *Almag.* II, 3 (ed. Halma, t. I, p. 70–71) demonstrat:
+@vspace 0.46
+@center $\dfrac{\text{chorda } 2\,ZB}{\text{chorda } 2\,BA} = \dfrac{\text{chorda } 2\,ZH}{\text{chorda } 2\,HT} \times \dfrac{\text{chorda } 2\,TE}{\text{chorda } 2\,EA}$,
+@vspace 0.49
+id est
+@vspace -1.42
+@center $\dfrac{\text{chorda } 2\text{φ}}{\text{chorda } (\text{180°} - 2\text{φ})} = \dfrac{\text{chorda } (\text{180°} - 2\text{ε})}{\text{chorda } 2\text{ε}} \times \dfrac{\text{chorda } (\text{180°} - 2P)}{\text{chorda 180°}}$.
+Sinibus pro chordis positis,
+@vspace -1.21
+@center $\dfrac{\sin\text{φ}}{\cos\text{φ}} = \dfrac{\cos\text{ε}\ \sin (\text{90°} - P)}{\sin\text{ε} \times R}$,
+@vspace -1.46
+unde
+@vspace -0.82
+@center $\sin (\text{90°} - P) = R\,\dfrac{\sin\text{φ} \sin\text{ε}}{\cos\text{φ} \cos\text{ε}}$.
+^ {sp:Ptolemaeus} decrementum minimi diei respectu diei aequinoctialis consideraverat, nempe
+90° − *P*; {sp:al–Battānī} autem excessum maximi diei, scilicet *P* − 90°, qua re eius formula est
+@vspace 0.26
+@at 0:(α) | 94^:$\sin (P - \text{90°}) = - \cos P = R\,\dfrac{\sin\text{φ} \sin\text{ε}}{\cos\text{φ} \cos\text{ε}}$.
+@vspace 0.09
+^ Si pro maximo arcu semidiurno quaeratur arcus alius, loco obliquitatis ε ponatur decli-
+natio (δ) puncti eclipticae quod Sol occupat data die; formula {sp:al–Battānī} fit
+@vspace 0.51
+@at 0:(β) | 94^:$- \cos P = R\,\dfrac{\sin\text{φ} \sin\text{δ}}{\cos\text{φ} \cos\text{δ}}$ (1).
+@fontsize 15 17
+@vspace 8.65
+@center A{sc:d} {sc:caput} X.
+@normal
+@vspace 3.80
+@center {bi:a}) — *Pag. 22.*
+@vspace 5.16
+^ *Altitudinem h Solis* vel *distantiam zenithalem* ζ (= 90° − *h*) supputare per umbram
+@wrap 0.267 AB01-PDF0269-F01
+gnomonis, in 12 partes divisi.
+@vspace 0.15
+^ I. Per *umbram extensam.* Partes gnomonis (seu late-
+ris AB) *p* appellentur; auctor docet, l. 13–15, esse
+@vspace 0.11
+@at 0:(α) | 26.4:$\text{umbra extensa} = p\,\dfrac{\cos h}{\sin h}$.
+@vspace 0.84
+^ Propositio facile potest hoc modo deduci: radio AD se-
+xaginta partium (ad quem auctor functiones trigonometricas
+refert) quadrans circuli EFD describatur; e similitudine trian-
+gulorum rectangulorum ABC, AGF statim colligitur
+@vspace 0.08
+@center CB : AB = GA : FG,
+@center umbra extensa : *p* = cos *h* : sin *h*.
+@endwrap
+@vspace 0.65
+@notes1
+@vspace 1.07
+^ (1) Nos, tangentibus utentes et radium R = 1 sumentes, brevius scribimus $- \cos P = \text{tg}\,\text{φ}\ \text{tg}\,\text{δ}$.
+@obs body L1, L18: the heads of the notes on chapters 9 and 10, «Ad» and «caput» in small capitals, in the larger type of the heads.
+@obs body L2: the dash of «21-22» measures 4.0 pt, shorter than the long dash of «l. 1–6» on p. 178 (5.4 pt); transcribed as a hyphen.
+@obs body L4: «t. I» is printed with a broken t; the dash of «70–71» measures 4.6 pt and is transcribed as a long dash.
+@obs body L7, L9, L11, L13-L14, L17, L20: the minus signs of «180°— 2φ», «180°— 2P», «90°— P», «P — 90°», «— cos P» and «90°— h» are printed as long dashes, that of «180° − 2ε» as a short one; all are set as minus signs.
+@obs body L11: a speck stands over the equals sign; it is not a sign.
+@obs body L5-L17: the formulas are checked. In the figure of p. 177, with ZB = φ, BA = 90° − φ, ZH = 90° − ε, HT = ε, TE = 90° − P and EA = 90°, Menelaus' theorem (Almagest II, 3) gives L7, L9 and L11 as printed (chorda 2a = 2 sin a, chorda 180° = 2R). Ptolemy's P is the least semidiurnal arc, al-Battānī's the greatest; with sin (P − 90°) = − cos P rule (α) is the modern cos P = − tg φ tg ε, and (β) with the declination δ is − cos P = tg φ tg δ, as in note 1.
+@obs body L21-L30: the figure stands at the left of lines 21 to 30, which are set beside it in a narrow measure. It is redrawn from measurements of the print: the gnomon AB, its shadow CB and the ray AC as solid lines (the angle at C measures 34.5°); the line DGA, the sine GF, the ray produced CF, the line BE and the quadrant DFE about A in dashes, each dash where it printed; the angle h marked at A and at C; the braces of cos h, sin h and p; the letters and the words in the italic of the text.
+@obs body L21-L30: the label under the shadow is printed «umbra cxtensa», with c for the e of extensa; kept as printed.
+@obs body L23: the dash of «13–15» touches its figures; transcribed as a long dash, as in the ranges of the other lines.
+@obs body L24: the formula (α) is checked: by the similar triangles ABC and AGF (L29-L30), CB : p = cos h : sin h.
+@obs body L26: a speck stands before «xaginta» at the left of the line; it is not a sign.
+@obs notes L1: the minus sign before «cos P» is printed short and apart from it, and the equals sign is blotted.

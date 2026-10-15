@@ -3304,3 +3304,35 @@ AB01-PDF0268-notes_left-L001	179	notes_left	(1) Ad nostrum $\\text{tg}\\,\\text{
 AB01-PDF0268-notes_left-L002	179	notes_left	reducitur si $\\dfrac{\\cos\\text{ε} \\sin P}{R}$ pro cos ampl. solst. po-
 AB01-PDF0268-notes_right-L001	179	notes_right	natur, et $R\\,\\dfrac{\\sin\\text{ε}}{\\cos\\text{φ}}$ pro sin ampl. solst.; ut in VII
 AB01-PDF0268-notes_right-L002	179	notes_right	capite auctor docuit.
+AB01-PDF0269-body-L001	180	body	A{sc:d} {sc:caput} IX.
+AB01-PDF0269-body-L002	180	body	{bi:a}) — *Pag. 21-22.*
+AB01-PDF0269-body-L003	180	body	Altitudine φ poli data, *arcum maximum* vel *minimum semidiurnum Solis* invenire.
+AB01-PDF0269-body-L004	180	body	Figura praecedenti {sp:Ptolemaeus}, *Almag.* II, 3 (ed. Halma, t. I, p. 70–71) demonstrat:
+AB01-PDF0269-body-L005	180	body	$\\dfrac{\\text{chorda } 2\\,ZB}{\\text{chorda } 2\\,BA} = \\dfrac{\\text{chorda } 2\\,ZH}{\\text{chorda } 2\\,HT} \\times \\dfrac{\\text{chorda } 2\\,TE}{\\text{chorda } 2\\,EA}$,
+AB01-PDF0269-body-L006	180	body	id est
+AB01-PDF0269-body-L007	180	body	$\\dfrac{\\text{chorda } 2\\text{φ}}{\\text{chorda } (\\text{180°} - 2\\text{φ})} = \\dfrac{\\text{chorda } (\\text{180°} - 2\\text{ε})}{\\text{chorda } 2\\text{ε}} \\times \\dfrac{\\text{chorda } (\\text{180°} - 2P)}{\\text{chorda 180°}}$.
+AB01-PDF0269-body-L008	180	body	Sinibus pro chordis positis,
+AB01-PDF0269-body-L009	180	body	$\\dfrac{\\sin\\text{φ}}{\\cos\\text{φ}} = \\dfrac{\\cos\\text{ε}\\ \\sin (\\text{90°} - P)}{\\sin\\text{ε} \\times R}$,
+AB01-PDF0269-body-L010	180	body	unde
+AB01-PDF0269-body-L011	180	body	$\\sin (\\text{90°} - P) = R\\,\\dfrac{\\sin\\text{φ} \\sin\\text{ε}}{\\cos\\text{φ} \\cos\\text{ε}}$.
+AB01-PDF0269-body-L012	180	body	{sp:Ptolemaeus} decrementum minimi diei respectu diei aequinoctialis consideraverat, nempe
+AB01-PDF0269-body-L013	180	body	90° − *P*; {sp:al–Battānī} autem excessum maximi diei, scilicet *P* − 90°, qua re eius formula est
+AB01-PDF0269-body-L014	180	body	(α) $\\sin (P - \\text{90°}) = - \\cos P = R\\,\\dfrac{\\sin\\text{φ} \\sin\\text{ε}}{\\cos\\text{φ} \\cos\\text{ε}}$.
+AB01-PDF0269-body-L015	180	body	Si pro maximo arcu semidiurno quaeratur arcus alius, loco obliquitatis ε ponatur decli-
+AB01-PDF0269-body-L016	180	body	natio (δ) puncti eclipticae quod Sol occupat data die; formula {sp:al–Battānī} fit
+AB01-PDF0269-body-L017	180	body	(β) $- \\cos P = R\\,\\dfrac{\\sin\\text{φ} \\sin\\text{δ}}{\\cos\\text{φ} \\cos\\text{δ}}$ (1).
+AB01-PDF0269-body-L018	180	body	A{sc:d} {sc:caput} X.
+AB01-PDF0269-body-L019	180	body	{bi:a}) — *Pag. 22.*
+AB01-PDF0269-body-L020	180	body	*Altitudinem h Solis* vel *distantiam zenithalem* ζ (= 90° − *h*) supputare per umbram
+AB01-PDF0269-body-F01	180	body	[figure, redrawn: figures/AB01-PDF0269-F01.tex]
+AB01-PDF0269-body-L021	180	body	gnomonis, in 12 partes divisi.
+AB01-PDF0269-body-L022	180	body	I. Per *umbram extensam.* Partes gnomonis (seu late-
+AB01-PDF0269-body-L023	180	body	ris AB) *p* appellentur; auctor docet, l. 13–15, esse
+AB01-PDF0269-body-L024	180	body	(α) $\\text{umbra extensa} = p\\,\\dfrac{\\cos h}{\\sin h}$.
+AB01-PDF0269-body-L025	180	body	Propositio facile potest hoc modo deduci: radio AD se-
+AB01-PDF0269-body-L026	180	body	xaginta partium (ad quem auctor functiones trigonometricas
+AB01-PDF0269-body-L027	180	body	refert) quadrans circuli EFD describatur; e similitudine trian-
+AB01-PDF0269-body-L028	180	body	gulorum rectangulorum ABC, AGF statim colligitur
+AB01-PDF0269-body-L029	180	body	CB : AB = GA : FG,
+AB01-PDF0269-body-L030	180	body	umbra extensa : *p* = cos *h* : sin *h*.
+AB01-PDF0269-notes-L001	180	notes	(1) Nos, tangentibus utentes et radium R = 1 sumentes, brevius scribimus $- \\cos P = \\text{tg}\\,\\text{φ}\\ \\text{tg}\\,\\text{δ}$.
