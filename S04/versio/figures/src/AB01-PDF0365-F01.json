@@ -1,0 +1,344 @@
+{
+ "pdf": 365,
+ "printed_page": 276,
+ "comment": [
+  "Nallino, Part I p. 276: Schiaparelli's figure of the sagittae of the shadow and of the Moon, redrawn from the",
+  "print: the shadow of the Earth about S and the Moon about V, cutting each other at B and C, the line ZA through",
+  "S and V, the common chord BC through L, the radii SB, SC (a) and VB, VC (c), N and K where each circle meets ZA",
+  "inside the other, and the words umbra Terrae. Measured on the scan (_intake/latin/tools/fig276)."
+ ],
+ "origin": [
+  110.2,
+  119.94
+ ],
+ "scale": 0.99281,
+ "size": [
+  236.0,
+  168.0
+ ],
+ "label_pt": 11,
+ "circles": [
+  {
+   "name": "the shadow of the Earth about S",
+   "cx": 200.43,
+   "cy": 207.13,
+   "r": 79.8,
+   "w": 1.14
+  },
+  {
+   "name": "the Moon about V",
+   "cx": 291.54,
+   "cy": 206.05,
+   "r": 38.87,
+   "w": 1.24
+  }
+ ],
+ "segments": [
+  {
+   "name": "the line ZA",
+   "x0": 120.15,
+   "y0": 207.41,
+   "x1": 331.05,
+   "y1": 205.8,
+   "w": 1.06
+  },
+  {
+   "name": "the common chord BC",
+   "x0": 272.23,
+   "y0": 172.32,
+   "x1": 273.04,
+   "y1": 240.23,
+   "w": 1.05
+  },
+  {
+   "name": "SB",
+   "x0": 199.72,
+   "y0": 206.81,
+   "x1": 272.23,
+   "y1": 172.32,
+   "w": 1.03
+  },
+  {
+   "name": "SC",
+   "x0": 199.72,
+   "y0": 206.81,
+   "x1": 273.04,
+   "y1": 240.23,
+   "w": 1.11
+  },
+  {
+   "name": "VB",
+   "x0": 292.21,
+   "y0": 206.12,
+   "x1": 272.23,
+   "y1": 172.32,
+   "w": 1.07
+  },
+  {
+   "name": "VC",
+   "x0": 292.21,
+   "y0": 206.12,
+   "x1": 273.04,
+   "y1": 240.23,
+   "w": 0.97
+  }
+ ],
+ "labels": [
+  {
+   "t": "\\resizebox{6.27pt}{7.84pt}{B}",
+   "cx": 274.67,
+   "cy": 165.48,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{6.71pt}{4.43pt}{a}",
+   "cx": 235.34,
+   "cy": 184.92,
+   "font": "\\fontsize{11}{11}\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{3.95pt}{4.54pt}{c}",
+   "cx": 285.66,
+   "cy": 186.66,
+   "font": "\\fontsize{11}{11}\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{6.59pt}{7.04pt}{S}",
+   "cx": 197.59,
+   "cy": 201.36,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{5.51pt}{7.03pt}{Z}",
+   "cx": 114.18,
+   "cy": 207.3,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{7.80pt}{7.36pt}{A}",
+   "cx": 336.69,
+   "cy": 206.68,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{6.64pt}{7.14pt}{L}",
+   "cx": 267.01,
+   "cy": 211.56,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{6.96pt}{7.13pt}{V}",
+   "cx": 296.85,
+   "cy": 211.98,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{5.79pt}{6.69pt}{b}",
+   "cx": 230.91,
+   "cy": 212.22,
+   "font": "\\fontsize{11}{11}\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{8.13pt}{7.02pt}{N}",
+   "cx": 246.51,
+   "cy": 211.94,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{7.39pt}{7.01pt}{K}",
+   "cx": 283.87,
+   "cy": 211.74,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{6.28pt}{6.81pt}{C}",
+   "cx": 274.99,
+   "cy": 248.04,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{6.55pt}{5.69pt}{u}",
+   "cx": 176.45,
+   "cy": 280.81,
+   "font": "\\fontsize{11}{11}\\itshape\\selectfont",
+   "rot": -18.03,
+   "anchor": "base"
+  },
+  {
+   "t": "\\resizebox{9.84pt}{5.69pt}{m}",
+   "cx": 184.92,
+   "cy": 283.04,
+   "font": "\\fontsize{11}{11}\\itshape\\selectfont",
+   "rot": -11.54,
+   "anchor": "base"
+  },
+  {
+   "t": "\\resizebox{6.01pt}{9.05pt}{b}",
+   "cx": 193.3,
+   "cy": 284.28,
+   "font": "\\fontsize{11}{11}\\itshape\\selectfont",
+   "rot": -5.27,
+   "anchor": "base"
+  },
+  {
+   "t": "\\resizebox{4.49pt}{5.69pt}{r}",
+   "cx": 198.91,
+   "cy": 284.6,
+   "font": "\\fontsize{11}{11}\\itshape\\selectfont",
+   "rot": -1.12,
+   "anchor": "base"
+  },
+  {
+   "t": "\\resizebox{6.11pt}{5.69pt}{a}",
+   "cx": 204.57,
+   "cy": 284.5,
+   "font": "\\fontsize{11}{11}\\itshape\\selectfont",
+   "rot": 3.07,
+   "anchor": "base"
+  },
+  {
+   "t": "\\resizebox{6.84pt}{8.53pt}{T}",
+   "cx": 214.78,
+   "cy": 283.27,
+   "font": "\\fontsize{11}{11}\\itshape\\selectfont",
+   "rot": 10.68,
+   "anchor": "base"
+  },
+  {
+   "t": "\\resizebox{5.04pt}{5.69pt}{e}",
+   "cx": 220.97,
+   "cy": 281.84,
+   "font": "\\fontsize{11}{11}\\itshape\\selectfont",
+   "rot": 15.38,
+   "anchor": "base"
+  },
+  {
+   "t": "\\resizebox{4.49pt}{5.69pt}{r}",
+   "cx": 225.84,
+   "cy": 280.33,
+   "font": "\\fontsize{11}{11}\\itshape\\selectfont",
+   "rot": 19.15,
+   "anchor": "base"
+  },
+  {
+   "t": "\\resizebox{4.49pt}{5.69pt}{r}",
+   "cx": 230.32,
+   "cy": 278.61,
+   "font": "\\fontsize{11}{11}\\itshape\\selectfont",
+   "rot": 22.7,
+   "anchor": "base"
+  },
+  {
+   "t": "\\resizebox{6.11pt}{5.69pt}{a}",
+   "cx": 235.47,
+   "cy": 276.23,
+   "font": "\\fontsize{11}{11}\\itshape\\selectfont",
+   "rot": 26.89,
+   "anchor": "base"
+  },
+  {
+   "t": "\\resizebox{5.04pt}{5.69pt}{e}",
+   "cx": 240.68,
+   "cy": 273.34,
+   "font": "\\fontsize{11}{11}\\itshape\\selectfont",
+   "rot": 31.3,
+   "anchor": "base"
+  }
+ ],
+ "boxes": {
+  "B@272,162": [
+   6.24,
+   7.92
+  ],
+  "a@233,183": [
+   5.76,
+   4.56
+  ],
+  "c@285,184": [
+   3.48,
+   4.68
+  ],
+  "S@195,198": [
+   6.24,
+   7.2
+  ],
+  "Z@112,204": [
+   6.12,
+   7.08
+  ],
+  "A@333,203": [
+   7.68,
+   7.44
+  ],
+  "L@264,208": [
+   6.12,
+   7.2
+  ],
+  "V@295,208": [
+   7.08,
+   7.32
+  ],
+  "b@229,209": [
+   4.8,
+   6.84
+  ],
+  "N@243,208": [
+   8.82,
+   7.2
+  ],
+  "K@278,208": [
+   7.92,
+   7.08
+  ],
+  "C@273,245": [
+   5.88,
+   6.96
+  ]
+ },
+ "points": {
+  "B": [
+   272.23,
+   172.32
+  ],
+  "C": [
+   273.04,
+   240.23
+  ],
+  "Z": [
+   120.63,
+   207.4
+  ],
+  "A": [
+   330.41,
+   205.8
+  ],
+  "N": [
+   252.68,
+   206.4
+  ],
+  "K": [
+   280.22,
+   206.19
+  ],
+  "L": [
+   272.43,
+   206.24
+  ],
+  "S_lines": [
+   199.72,
+   206.81
+  ],
+  "V_lines": [
+   292.21,
+   206.12
+  ],
+  "B_lines": [
+   272.37,
+   171.91
+  ],
+  "C_lines": [
+   273.46,
+   241.02
+  ]
+ }
+}

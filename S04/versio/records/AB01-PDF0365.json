@@ -1,0 +1,422 @@
+{
+ "anchor": "AB01-PDF0365",
+ "master_pdf_page": 365,
+ "printed_page": 276,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "margin_locators": [],
+ "observations": [
+  "body L1-L12: the figure stands on the left of these lines and is redrawn from the print: the shadow about S (radius 79.8 pt) and the Moon about V (radius 38.9 pt), circles fitted to the print; the line ZA through their centres; the common chord BC, perpendicular to ZA within 0.2 degree; the radii SB, SC and VB, VC, which meet within 0.8 pt of the centres; the bold italic capitals, a, b, c in italic, and «umbra Terrae» in italic along the bottom of the shadow. On the figure SK = a and SN = b − c, so KA = c + (b − a) and KN = c − (b − a), the two factors of L16.",
+  "body L2, L22, L26: «al–Battānī» (L2) and «Al–Battānī» (L22) are letter-spaced, with long dashes (5.5 and 5.4 pt); «al-Battānī» (L26) is letter-spaced, with a hyphen (3.5 pt).",
+  "body L9-L20: Euclid, Elements II, 13: in a triangle the square on the side opposite an acute angle is less than the squares on the sides containing it by twice the rectangle of one side and the projection of the other on it; in SBV the projections of VB and SB on SV are LV = x and SL = y. The formulas are right: c² − (a − b)² = {c + (b − a)}{c − (b − a)} and a² − (b − c)² = {a + (b − c)}{a − (b − c)}, and ZN = a + (b − c), KN = a − (b − c).",
+  "body L13-L16: a speck below the line after «ergo» (L13) is not a stop. The minus sign of «a — y» prints in two pieces, 5.5 and 3.0 pt, like «--» (L14); so do those of «a — y» and of «c — (b — a)» in L16. The minus signs are set as minus signs; the braces of L16 and L20 are as tall as the fractions.",
+  "body L24, L27-L37: (β) holds because L lies between N and K; (γ) is the theorem of intersecting chords in the circle of the Moon, BL² = NL × LA, with LA = NA − NL; in L30 KV = SV − SK = c − KN, the semidiameter of the Moon less the corrected digits of the eclipse, NK; (δ) gives the eclipsed lune NBKC as the sum of the two segments, each a sector less a triangle. The dashes before «Quo» (L31), «Demum» (L34) and «Schiaparelli» (L37) measure 9.8, 9.5 and 8.0 pt; a heavy bracket closes the addition begun on p. 275, L35.",
+  "body L33, L36-L37: the e of «e tabulis» (L33) prints with its eye closed, like an o; specks stand before «= area» (L36) and over the last e of «curvilineae» (L37).",
+  "notes L1: «28-30» has a hyphen (4.1 pt). The translation, p. 99, L28-L29, reads «sagittae umbrae» and «cum sagitta umbrae» where the codex and Plato have the sagitta of the lunar disc (its notes 3 and 4; note 5 has the same reading at L31)."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0365-body-F01",
+     "source_line_no": null,
+     "tex": "\\input{figures/AB01-PDF0365-F01}",
+     "transcription": "[figure, redrawn: figures/AB01-PDF0365-F01.tex]",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_FIGURE"
+    },
+    {
+     "id": "AB01-PDF0365-body-L001",
+     "source_line_no": null,
+     "tex": "alios scriptores invenisse; hoc modo pos-",
+     "transcription": "alios scriptores invenisse; hoc modo pos-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0365-body-L002",
+     "source_line_no": null,
+     "tex": "sunt demonstrari. Ait \\Name{al–Battānī} sa-",
+     "transcription": "sunt demonstrari. Ait {sp:al–Battānī} sa-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0365-body-L003",
+     "source_line_no": null,
+     "tex": "gittam LK umbrae $= \\dfrac{\\text{KA} \\times \\text{KN}}{2\\,\\text{SV}}$. Sit",
+     "transcription": "gittam LK umbrae $= \\dfrac{\\text{KA} \\times \\text{KN}}{2\\,\\text{SV}}$. Sit",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0365-body-L004",
+     "source_line_no": null,
+     "tex": "\\textit{a} semidiametrus umbrae, \\textit{c} semidiame-",
+     "transcription": "*a* semidiametrus umbrae, *c* semidiame-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0365-body-L005",
+     "source_line_no": null,
+     "tex": "trus Lunae, \\textit{b} $=$ VS distantia centrorum.",
+     "transcription": "trus Lunae, *b* $=$ VS distantia centrorum.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0365-body-L006",
+     "source_line_no": null,
+     "tex": "Haec distantia per chordam communem",
+     "transcription": "Haec distantia per chordam communem",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0365-body-L007",
+     "source_line_no": null,
+     "tex": "BC dividitur in duas partes SL $=$ \\textit{y},",
+     "transcription": "BC dividitur in duas partes SL $=$ *y*,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0365-body-L008",
+     "source_line_no": null,
+     "tex": "LV $=$ \\textit{x}; qua re \\textit{x} + \\textit{y} $=$ \\textit{b}. Tunc no-",
+     "transcription": "LV $=$ *x*; qua re *x* + *y* $=$ *b*. Tunc no-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0365-body-L009",
+     "source_line_no": null,
+     "tex": "tum \\Name{Euclidis} (II, 13) theorema docet",
+     "transcription": "tum {sp:Euclidis} (II, 13) theorema docet",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0365-body-L010",
+     "source_line_no": null,
+     "tex": "in triangulo SBV esse",
+     "transcription": "in triangulo SBV esse",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0365-body-L011",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{40.21mm}\\makebox[0pt][c]{$a^{2} = b^{2} + c^{2} - 2b{\\cdot}x$}}",
+     "transcription": "$a^{2} = b^{2} + c^{2} - 2b{\\cdot}x$",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0365-body-L012",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{40.21mm}\\makebox[0pt][c]{$c^{2} = b^{2} + a^{2} - 2b{\\cdot}y$}}",
+     "transcription": "$c^{2} = b^{2} + a^{2} - 2b{\\cdot}y$",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0365-body-L013",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.00mm}ergo}\\rlap{\\hspace*{57.84mm}\\makebox[0pt][c]{$x = \\dfrac{b^{2} - a^{2} + c^{2}}{2b}$}}\\rlap{\\hspace*{130.20mm}\\makebox[0pt][c]{$y = \\dfrac{b^{2} + a^{2} - c^{2}}{2b}\\,.$}}",
+     "transcription": "ergo $x = \\dfrac{b^{2} - a^{2} + c^{2}}{2b}$ $y = \\dfrac{b^{2} + a^{2} - c^{2}}{2b}\\,.$",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0365-body-L014",
+     "source_line_no": null,
+     "tex": "Facile nunc est ambas sagittas LK $=$ \\textit{a} $-$ \\textit{y}, LN $=$ \\textit{c} $-$ \\textit{x} supputare. Valores nuper inventos",
+     "transcription": "Facile nunc est ambas sagittas LK $=$ *a* $-$ *y*, LN $=$ *c* $-$ *x* supputare. Valores nuper inventos",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0365-body-L015",
+     "source_line_no": null,
+     "tex": "linearum \\textit{y} et \\textit{x} surrogando:",
+     "transcription": "linearum *y* et *x* surrogando:",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0365-body-L016",
+     "source_line_no": null,
+     "tex": "$LK = a - y = a - \\dfrac{b^{2} + a^{2} - c^{2}}{2b} = \\dfrac{2ab - b^{2} - a^{2} + c^{2}}{2b} = \\dfrac{c^{2} - (a - b)^{2}}{2b} = \\dfrac{1}{2b}\\Bigl\\{c + (b - a)\\Bigr\\}\\Bigl\\{c - (b - a)\\Bigr\\}\\,,$",
+     "transcription": "$LK = a - y = a - \\dfrac{b^{2} + a^{2} - c^{2}}{2b} = \\dfrac{2ab - b^{2} - a^{2} + c^{2}}{2b} = \\dfrac{c^{2} - (a - b)^{2}}{2b} = \\dfrac{1}{2b}\\Bigl\\{c + (b - a)\\Bigr\\}\\Bigl\\{c - (b - a)\\Bigr\\}\\,,$",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0365-body-L017",
+     "source_line_no": null,
+     "tex": "unde",
+     "transcription": "unde",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0365-body-L018",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.00mm}(\\textgreek{α})}\\rlap{\\hspace*{93.80mm}\\makebox[0pt][c]{$LK = \\text{sagitta umbrae} = \\dfrac{1}{2SV}\\,KA \\times KN.$}}",
+     "transcription": "(α) $LK = \\text{sagitta umbrae} = \\dfrac{1}{2SV}\\,KA \\times KN.$",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0365-body-L019",
+     "source_line_no": null,
+     "tex": "Similiter",
+     "transcription": "Similiter",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0365-body-L020",
+     "source_line_no": null,
+     "tex": "$LN = c - x = c - \\dfrac{b^{2} - a^{2} + c^{2}}{2b} = \\dfrac{2bc - b^{2} + a^{2} - c^{2}}{2b} = \\dfrac{a^{2} - (b - c)^{2}}{2b} = \\dfrac{1}{2b}\\Bigl\\{a + (b - c)\\Bigr\\}\\Bigl\\{a - (b - c)\\Bigr\\}\\,,$",
+     "transcription": "$LN = c - x = c - \\dfrac{b^{2} - a^{2} + c^{2}}{2b} = \\dfrac{2bc - b^{2} + a^{2} - c^{2}}{2b} = \\dfrac{a^{2} - (b - c)^{2}}{2b} = \\dfrac{1}{2b}\\Bigl\\{a + (b - c)\\Bigr\\}\\Bigl\\{a - (b - c)\\Bigr\\}\\,,$",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0365-body-L021",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{94.19mm}\\makebox[0pt][c]{$LN = \\text{sagitta disci lunaris} = \\dfrac{1}{2SV}\\,ZN \\times KN.$}}",
+     "transcription": "$LN = \\text{sagitta disci lunaris} = \\dfrac{1}{2SV}\\,ZN \\times KN.$",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0365-body-L022",
+     "source_line_no": null,
+     "tex": "\\Name{Al–Battānī} formulam (\\textgreek{α}) proponit; sagittam disci lunaris a sagitta umbrae directe deducit",
+     "transcription": "{sp:Al–Battānī} formulam (α) proponit; sagittam disci lunaris a sagitta umbrae directe deducit",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0365-body-L023",
+     "source_line_no": null,
+     "tex": "statuens",
+     "transcription": "statuens",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0365-body-L024",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.00mm}(\\textgreek{β})}\\rlap{\\hspace*{10.91mm}$LN = \\text{sagitta disci lunaris} = NK - LK = \\text{digiti eclipsis correcti} - \\text{sagitta umbrae}.$}",
+     "transcription": "(β) $LN = \\text{sagitta disci lunaris} = NK - LK = \\text{digiti eclipsis correcti} - \\text{sagitta umbrae}.$",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0365-body-L025",
+     "source_line_no": null,
+     "tex": "\\Indent Solutio vere elegantissima.",
+     "transcription": "Solutio vere elegantissima.",
+     "semantic_anchor": "AB01-PDF0365-P01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0365-body-L026",
+     "source_line_no": null,
+     "tex": "\\Indent Postea \\Name{al-Battānī} semichordam BL (\\textit{dimidium sinum communem}) supputat, utens",
+     "transcription": "Postea {sp:al-Battānī} semichordam BL (*dimidium sinum communem*) supputat, utens",
+     "semantic_anchor": "AB01-PDF0365-P02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0365-body-L027",
+     "source_line_no": null,
+     "tex": "nota regula BL $= \\sqrt{\\text{NL} \\times \\text{LA}}$:",
+     "transcription": "nota regula BL $= \\sqrt{\\text{NL} \\times \\text{LA}}$:",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0365-body-L028",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.00mm}(\\textgreek{γ})}\\rlap{\\hspace*{14.10mm}dimidius sinus communis $= \\sqrt{\\text{sag. disc. lun.} \\times (\\text{digit. diam. lun.} - \\text{sag. disc. lun.})}$.}",
+     "transcription": "(γ) dimidius sinus communis $= \\sqrt{\\text{sag. disc. lun.} \\times (\\text{digit. diam. lun.} - \\text{sag. disc. lun.})}$.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0365-body-L029",
+     "source_line_no": null,
+     "tex": "\\Indent Aream trianguli BVC (\\textit{trianguli Lunae}) invenit multiplicando dimidium sinum communem",
+     "transcription": "Aream trianguli BVC (*trianguli Lunae*) invenit multiplicando dimidium sinum communem",
+     "semantic_anchor": "AB01-PDF0365-P03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0365-body-L030",
+     "source_line_no": null,
+     "tex": "BL in distantiam LV; haec autem distantia est LV $=$ KV + LK $=$ (semidiam. \\MoonSym{} $-$ digit. eclipsis",
+     "transcription": "BL in distantiam LV; haec autem distantia est LV $=$ KV + LK $=$ (semidiam. ☾ $-$ digit. eclipsis",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0365-body-L031",
+     "source_line_no": null,
+     "tex": "correcti) + sagitta umbrae (1). Similiter \\textit{trianguli umbrae} BSC area supputatur. — Quo fa-",
+     "transcription": "correcti) + sagitta umbrae (1). Similiter *trianguli umbrae* BSC area supputatur. — Quo fa-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0365-body-L032",
+     "source_line_no": null,
+     "tex": "cto \\textit{aream arcus Lunae}, idest sectoris VBNC, deducit multiplicando semidiametrum Lunae",
+     "transcription": "cto *aream arcus Lunae*, idest sectoris VBNC, deducit multiplicando semidiametrum Lunae",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0365-body-L033",
+     "source_line_no": null,
+     "tex": "VN in \\textit{arcum Lunae}, scilicet in arcum BN, e tabulis sumptum auxilio sinus BL. Similiter",
+     "transcription": "VN in *arcum Lunae*, scilicet in arcum BN, e tabulis sumptum auxilio sinus BL. Similiter",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0365-body-L034",
+     "source_line_no": null,
+     "tex": "\\textit{arcus umbrae} BK $\\times$ semidiametrus SK umbrae $=$ \\textit{area arcus umbrae}. — Demum",
+     "transcription": "*arcus umbrae* BK $\\times$ semidiametrus SK umbrae $=$ *area arcus umbrae*. — Demum",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0365-body-L035",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.00mm}(\\textgreek{δ})}\\rlap{\\hspace*{94.24mm}\\makebox[0pt][c]{(area arcus \\MoonSym{} + area arcus umbrae) $-$ (triang. \\MoonSym{} + triang. umbrae) $=$}}",
+     "transcription": "(δ) (area arcus ☾ + area arcus umbrae) $-$ (triang. ☾ + triang. umbrae) $=$",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0365-body-L036",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{94.57mm}\\makebox[0pt][c]{$=$ area partis occultatae disci lunaris,}}",
+     "transcription": "$=$ area partis occultatae disci lunaris,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0365-body-L037",
+     "source_line_no": null,
+     "tex": "quae est area figurae curvilineae NBKC. — \\textsc{Schiaparelli}.]",
+     "transcription": "quae est area figurae curvilineae NBKC. — {sc:Schiaparelli}.]",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    }
+   ]
+  },
+  {
+   "role": "notes",
+   "lines": [
+    {
+     "id": "AB01-PDF0365-notes-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (1) Cod. et Plato perperam « sagittam disci lunaris » habent (p. 99, l. 28-30).",
+     "transcription": "(1) Cod. et Plato perperam « sagittam disci lunaris » habent (p. 99, l. 28-30).",
+     "semantic_anchor": "AB01-PDF0365-N01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  }
+ ]
+}
