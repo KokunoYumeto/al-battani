@@ -1,0 +1,409 @@
+{
+ "anchor": "AB01-PDF0277",
+ "master_pdf_page": 277,
+ "printed_page": 188,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "margin_locators": [],
+ "observations": [
+  "body L1, L3, L5, L16, L18, L20, L22, L33: the minus signs are printed as long dashes (9.6 to 10.6 pt; that of «180° − 2ε» in L16 8.2 pt); they are set as minus signs.",
+  "body L1-L5: rule (α) is checked. With sin (P − 90°) = − cos P it is the form of L5. For the radius 1, with sin α = tg δ cotg ε (chapter 5, L21) and − cos P = tg φ tg ε (the longest day, p. 180), it gives sin m = tg φ tg δ, the ascensional difference.",
+  "body L5: the fraction bar under «sin α cos P» did not print; it is set.",
+  "body L6, L24: the dashes of «97–98» and «92–94» measure 5.5 and about 5.3 pt (the second joined to the 2), long dashes.",
+  "body L7-L14: the first figure stands at the left of lines 7 to 14, which are set beside it in a narrow measure. It is redrawn from measurements of the print: the meridian ABGD as a circle; the horizon BED and the equator AEG as flat arcs of circles, as printed; the arcs ZHT and LKZ of the circles of declination, which meet at the south pole Z; the axis through E in dashes, each dash where it printed; the upright bold letters, and the italic words horizon and aequator.",
+  "body L7-L22: the formulas are checked. In the first figure TH = ε, ZH = 90° − ε, TE = P − 90° (TEG = P, EG = 90°), EL the ascensional difference, KL = δ and KZ = 90° − δ; Menelaus' theorem gives L14 and L16 (chorda 2a = 2 sin a, chorda (180° − 2a) = 2 cos a), whence L18 and L20; with al-Battānī's sin α = R sin δ cos ε / (cos δ sin ε) it gives L22, the same as (α).",
+  "body L13: a spot of ink stands in the bowl of the D of «BED»; it is not a sign.",
+  "body L21, L36: the dash of «Al–Battānī» in L21 measures 5.4 pt, a long dash; the letter-spaced «al-Battānī» of L36 has a hyphen (3.6 pt). Kept as printed.",
+  "body L23-L31: the second figure stands at the right of lines 23 to 31, which are set beside it in a narrow measure. It is redrawn from measurements of the print: the meridian ABGD as a circle; the horizon BED, the equator AEG, the ecliptic Z♈T and the circle of declination KM as arcs of circles, as printed (the horizon, the ecliptic and KM meet in L); the axis through E in dashes, each dash where it printed; the bold italic letters and the sign of Aries.",
+  "body L23-L35: the formulas are checked. In the second figure KD = φ, DG = 90° − φ, KL = 90° − δ, LM = δ, ME = m and EG = 90°; Menelaus' theorem gives L31 and L33, and with sines L35, that is sin m = R tg φ tg δ.",
+  "body L33: a speck stands after the sign =; it is not a sign."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0277-body-L001",
+     "source_line_no": null,
+     "tex": "P − 90° dimidium incrementum diei longissimi supra diem aequinoctialem (= 2 × 90°= 12\\textsuperscript{h});",
+     "transcription": "P − 90° dimidium incrementum diei longissimi supra diem aequinoctialem (= 2 × 90°= 12{sup:h});",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0277-body-L002",
+     "source_line_no": null,
+     "tex": "\\textgreek{α} ascensio recta dati gradus eclipticae; formula auctoris est",
+     "transcription": "α ascensio recta dati gradus eclipticae; formula auctoris est",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0277-body-L003",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.00mm}(\\textgreek{α})}\\rlap{\\hspace*{94.00mm}\\makebox[0pt][c]{$\\sin m = \\dfrac{\\sin\\text{\\textgreek{α}} \\sin (P - \\text{90°})}{R}$,}}",
+     "transcription": "(α) $\\sin m = \\dfrac{\\sin\\text{α} \\sin (P - \\text{90°})}{R}$,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0277-body-L004",
+     "source_line_no": null,
+     "tex": "quam scribere possumus",
+     "transcription": "quam scribere possumus",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0277-body-L005",
+     "source_line_no": null,
+     "tex": "\\CenterLine{$\\sin m = - \\dfrac{\\sin\\text{\\textgreek{α}} \\cos P}{R}$.}",
+     "transcription": "$\\sin m = - \\dfrac{\\sin\\text{α} \\cos P}{R}$.",
+     "semantic_anchor": "AB01-PDF0277-H05",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0277-body-L006",
+     "source_line_no": null,
+     "tex": "\\Indent Implicite continetur demonstratione \\Name{Ptolemaei}, \\textit{Almag.} II, 7 (ed. Halma, t. I, p. 97–98).",
+     "transcription": "Implicite continetur demonstratione {sp:Ptolemaei}, *Almag.* II, 7 (ed. Halma, t. I, p. 97–98).",
+     "semantic_anchor": "AB01-PDF0277-P01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0277-body-F01",
+     "source_line_no": null,
+     "tex": "\\input{figures/AB01-PDF0277-F01}",
+     "transcription": "[figure, redrawn: figures/AB01-PDF0277-F01.tex]",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_FIGURE"
+    },
+    {
+     "id": "AB01-PDF0277-body-L007",
+     "source_line_no": null,
+     "tex": "Sit ABGD circulus meridianus; AEG aequator, cuius polus au-",
+     "transcription": "Sit ABGD circulus meridianus; AEG aequator, cuius polus au-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0277-body-L008",
+     "source_line_no": null,
+     "tex": "stralis Z; BED horizon; ZHT et LKZ duo arcus circulorum",
+     "transcription": "stralis Z; BED horizon; ZHT et LKZ duo arcus circulorum",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0277-body-L009",
+     "source_line_no": null,
+     "tex": "declinationis; H punctum commune horizonti et parallelo qui",
+     "transcription": "declinationis; H punctum commune horizonti et parallelo qui",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0277-body-L010",
+     "source_line_no": null,
+     "tex": "transit per punctum solstitiale hiemale; K punctum commune",
+     "transcription": "transit per punctum solstitiale hiemale; K punctum commune",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0277-body-L011",
+     "source_line_no": null,
+     "tex": "horizonti et parallelo qui per datum eclipticae locum transit.",
+     "transcription": "horizonti et parallelo qui per datum eclipticae locum transit.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0277-body-L012",
+     "source_line_no": null,
+     "tex": "Manifeste TEG est maximus arcus semidiurnus eo Terrae loco",
+     "transcription": "Manifeste TEG est maximus arcus semidiurnus eo Terrae loco",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0277-body-L013",
+     "source_line_no": null,
+     "tex": "cui respondet horizon caelestis BED. Ptolemaeus invenit:",
+     "transcription": "cui respondet horizon caelestis BED. Ptolemaeus invenit:",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0277-body-L014",
+     "source_line_no": null,
+     "tex": "\\CenterLine{$\\dfrac{\\text{chorda } 2\\,TH}{\\text{chorda } 2\\,ZH} = \\dfrac{\\text{chorda } 2\\,TE}{\\text{chorda } 2\\,EL} \\times \\dfrac{\\text{chorda } 2\\,KL}{\\text{chorda } 2\\,KZ}$,}",
+     "transcription": "$\\dfrac{\\text{chorda } 2\\,TH}{\\text{chorda } 2\\,ZH} = \\dfrac{\\text{chorda } 2\\,TE}{\\text{chorda } 2\\,EL} \\times \\dfrac{\\text{chorda } 2\\,KL}{\\text{chorda } 2\\,KZ}$,",
+     "semantic_anchor": "AB01-PDF0277-H14",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0277-body-L015",
+     "source_line_no": null,
+     "tex": "id est",
+     "transcription": "id est",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0277-body-L016",
+     "source_line_no": null,
+     "tex": "\\CenterLine{$\\dfrac{\\text{chorda } 2\\text{\\textgreek{ε}}}{\\text{chorda } (\\text{180°} - 2\\text{\\textgreek{ε}})} = \\dfrac{\\text{chorda } (2P - \\text{180°})}{\\text{chorda 2 differ. ascens.}} \\times \\dfrac{\\text{chorda } 2\\text{\\textgreek{δ}}}{\\text{chorda } (\\text{180°} - 2\\text{\\textgreek{δ}})}$,}",
+     "transcription": "$\\dfrac{\\text{chorda } 2\\text{ε}}{\\text{chorda } (\\text{180°} - 2\\text{ε})} = \\dfrac{\\text{chorda } (2P - \\text{180°})}{\\text{chorda 2 differ. ascens.}} \\times \\dfrac{\\text{chorda } 2\\text{δ}}{\\text{chorda } (\\text{180°} - 2\\text{δ})}$,",
+     "semantic_anchor": "AB01-PDF0277-H16",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0277-body-L017",
+     "source_line_no": null,
+     "tex": "et, sinibus pro chordis positis,",
+     "transcription": "et, sinibus pro chordis positis,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0277-body-L018",
+     "source_line_no": null,
+     "tex": "\\CenterLine{$\\dfrac{\\sin\\text{\\textgreek{ε}}}{\\cos\\text{\\textgreek{ε}}} = \\dfrac{\\sin (P - \\text{90°})}{\\text{sin diff. ascens.}} \\times \\dfrac{\\sin\\text{\\textgreek{δ}}}{\\cos\\text{\\textgreek{δ}}}$,}",
+     "transcription": "$\\dfrac{\\sin\\text{ε}}{\\cos\\text{ε}} = \\dfrac{\\sin (P - \\text{90°})}{\\text{sin diff. ascens.}} \\times \\dfrac{\\sin\\text{δ}}{\\cos\\text{δ}}$,",
+     "semantic_anchor": "AB01-PDF0277-H18",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0277-body-L019",
+     "source_line_no": null,
+     "tex": "unde",
+     "transcription": "unde",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0277-body-L020",
+     "source_line_no": null,
+     "tex": "\\CenterLine{$\\text{sin differ. ascens.} = - \\cos P\\,\\dfrac{\\sin\\text{\\textgreek{δ}} \\cos\\text{\\textgreek{ε}}}{\\cos\\text{\\textgreek{δ}} \\sin\\text{\\textgreek{ε}}}$.}",
+     "transcription": "$\\text{sin differ. ascens.} = - \\cos P\\,\\dfrac{\\sin\\text{δ} \\cos\\text{ε}}{\\cos\\text{δ} \\sin\\text{ε}}$.",
+     "semantic_anchor": "AB01-PDF0277-H20",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0277-body-L021",
+     "source_line_no": null,
+     "tex": "\\Indent Al–Battānī autem in V capite docuerat $\\sin\\text{\\textgreek{α}} = R\\,\\dfrac{\\sin\\text{\\textgreek{δ}} \\cos\\text{\\textgreek{ε}}}{\\cos\\text{\\textgreek{δ}} \\sin\\text{\\textgreek{ε}}}$, qua re",
+     "transcription": "Al–Battānī autem in V capite docuerat $\\sin\\text{α} = R\\,\\dfrac{\\sin\\text{δ} \\cos\\text{ε}}{\\cos\\text{δ} \\sin\\text{ε}}$, qua re",
+     "semantic_anchor": "AB01-PDF0277-P02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0277-body-L022",
+     "source_line_no": null,
+     "tex": "\\CenterLine{$\\sin m = - \\dfrac{\\cos P \\sin\\text{\\textgreek{α}}}{R}$.}",
+     "transcription": "$\\sin m = - \\dfrac{\\cos P \\sin\\text{α}}{R}$.",
+     "semantic_anchor": "AB01-PDF0277-H22",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0277-body-F02",
+     "source_line_no": null,
+     "tex": "\\input{figures/AB01-PDF0277-F02}",
+     "transcription": "[figure, redrawn: figures/AB01-PDF0277-F02.tex]",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_FIGURE"
+    },
+    {
+     "id": "AB01-PDF0277-body-L023",
+     "source_line_no": null,
+     "tex": "\\Indent II. Altera formula directe e demonstratione \\Name{Ptole-}",
+     "transcription": "II. Altera formula directe e demonstratione {sp:Ptole-}",
+     "semantic_anchor": "AB01-PDF0277-P03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0277-body-L024",
+     "source_line_no": null,
+     "tex": "\\Name{maei}, \\textit{Almag.} II, 7 (ed. Halma, t. I, p. 92–94) deducitur.",
+     "transcription": "{sp:maei}, *Almag.* II, 7 (ed. Halma, t. I, p. 92–94) deducitur.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0277-body-L025",
+     "source_line_no": null,
+     "tex": "Sit ABGD circulus meridianus; BED horizon; AEG aequator",
+     "transcription": "Sit ABGD circulus meridianus; BED horizon; AEG aequator",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0277-body-L026",
+     "source_line_no": null,
+     "tex": "caelestis; Z{\\MoonFont ♈}T ecliptica, cuius punctum {\\MoonFont ♈} initium Arietis;",
+     "transcription": "caelestis; Z♈T ecliptica, cuius punctum ♈ initium Arietis;",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0277-body-L027",
+     "source_line_no": null,
+     "tex": "K polus borealis aequatoris; KM arcus circuli declinationis.",
+     "transcription": "K polus borealis aequatoris; KM arcus circuli declinationis.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0277-body-L028",
+     "source_line_no": null,
+     "tex": "Erunt {\\MoonFont ♈}E ascensio obliqua dati puncti L eclipticae, {\\MoonFont ♈}M",
+     "transcription": "Erunt ♈E ascensio obliqua dati puncti L eclipticae, ♈M",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0277-body-L029",
+     "source_line_no": null,
+     "tex": "ascensio recta eiusdem, EM differentia ascensionalis. Ptole-",
+     "transcription": "ascensio recta eiusdem, EM differentia ascensionalis. Ptole-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0277-body-L030",
+     "source_line_no": null,
+     "tex": "maeus demonstrat:",
+     "transcription": "maeus demonstrat:",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0277-body-L031",
+     "source_line_no": null,
+     "tex": "\\CenterLine{$\\dfrac{\\text{chorda } 2\\,KD}{\\text{chorda } 2\\,DG} = \\dfrac{\\text{chorda } 2\\,KL}{\\text{chorda } 2\\,LM} \\times \\dfrac{\\text{chorda } 2\\,ME}{\\text{chorda } 2\\,EG}$,}",
+     "transcription": "$\\dfrac{\\text{chorda } 2\\,KD}{\\text{chorda } 2\\,DG} = \\dfrac{\\text{chorda } 2\\,KL}{\\text{chorda } 2\\,LM} \\times \\dfrac{\\text{chorda } 2\\,ME}{\\text{chorda } 2\\,EG}$,",
+     "semantic_anchor": "AB01-PDF0277-H31",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0277-body-L032",
+     "source_line_no": null,
+     "tex": "hoc est",
+     "transcription": "hoc est",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0277-body-L033",
+     "source_line_no": null,
+     "tex": "\\CenterLine{$\\dfrac{\\text{chorda } 2\\text{\\textgreek{φ}}}{\\text{chorda } (\\text{180°} - 2\\text{\\textgreek{φ}})} = \\dfrac{\\text{chorda } (\\text{180°} - 2\\text{\\textgreek{δ}})}{\\text{chorda } 2\\text{\\textgreek{δ}}} \\times \\dfrac{\\text{chorda } 2m}{\\text{chorda 180°}}$.}",
+     "transcription": "$\\dfrac{\\text{chorda } 2\\text{φ}}{\\text{chorda } (\\text{180°} - 2\\text{φ})} = \\dfrac{\\text{chorda } (\\text{180°} - 2\\text{δ})}{\\text{chorda } 2\\text{δ}} \\times \\dfrac{\\text{chorda } 2m}{\\text{chorda 180°}}$.",
+     "semantic_anchor": "AB01-PDF0277-H33",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0277-body-L034",
+     "source_line_no": null,
+     "tex": "Sinibus pro chordis positis, colligitur",
+     "transcription": "Sinibus pro chordis positis, colligitur",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0277-body-L035",
+     "source_line_no": null,
+     "tex": "\\CenterLine{$\\dfrac{\\sin\\text{\\textgreek{φ}}}{\\cos\\text{\\textgreek{φ}}} = \\dfrac{\\cos\\text{\\textgreek{δ}}}{\\sin\\text{\\textgreek{δ}}} \\times \\dfrac{\\sin m}{R}$,}",
+     "transcription": "$\\dfrac{\\sin\\text{φ}}{\\cos\\text{φ}} = \\dfrac{\\cos\\text{δ}}{\\sin\\text{δ}} \\times \\dfrac{\\sin m}{R}$,",
+     "semantic_anchor": "AB01-PDF0277-H35",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0277-body-L036",
+     "source_line_no": null,
+     "tex": "unde formula \\Name{al-Battānī}",
+     "transcription": "unde formula {sp:al-Battānī}",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,76 @@
+@page 277 188
+% Notes on chapter 13, a) continued: al-Battānī's rule I, (α) sin m = sin α sin (P − 90°) / R, that is − sin α cos P / R, implicit in Ptolemy's demonstration, Almagest II, 7: the figure, Menelaus' theorem in chords and in sines, sin differ. ascens. = − cos P sin δ cos ε / (cos δ sin ε), and with al-Battānī's sin α of chapter 5 rule (α); rule II, directly from Ptolemy's demonstration, Almagest II, 7: the figure, Menelaus' theorem in chords and in sines (continued on p. 189).
+@nonum
+@vspace 0.13
+P − 90° dimidium incrementum diei longissimi supra diem aequinoctialem (= 2 × 90°= 12{sup:h});
+@vspace 0.09
+α ascensio recta dati gradus eclipticae; formula auctoris est
+@vspace -0.35
+@at 0:(α) | 94^:$\sin m = \dfrac{\sin\text{α} \sin (P - \text{90°})}{R}$,
+@vspace 1.00
+quam scribere possumus
+@vspace 0.13
+@center $\sin m = - \dfrac{\sin\text{α} \cos P}{R}$.
+@vspace 0.58
+^ Implicite continetur demonstratione {sp:Ptolemaei}, *Almag.* II, 7 (ed. Halma, t. I, p. 97–98).
+@vspace -0.07
+@wrap 0.242 AB01-PDF0277-F01
+Sit ABGD circulus meridianus; AEG aequator, cuius polus au-
+stralis Z; BED horizon; ZHT et LKZ duo arcus circulorum
+declinationis; H punctum commune horizonti et parallelo qui
+transit per punctum solstitiale hiemale; K punctum commune
+horizonti et parallelo qui per datum eclipticae locum transit.
+Manifeste TEG est maximus arcus semidiurnus eo Terrae loco
+cui respondet horizon caelestis BED. Ptolemaeus invenit:
+@center $\dfrac{\text{chorda } 2\,TH}{\text{chorda } 2\,ZH} = \dfrac{\text{chorda } 2\,TE}{\text{chorda } 2\,EL} \times \dfrac{\text{chorda } 2\,KL}{\text{chorda } 2\,KZ}$,
+@endwrap
+@vspace 0.58
+id est
+@vspace -0.13
+@center $\dfrac{\text{chorda } 2\text{ε}}{\text{chorda } (\text{180°} - 2\text{ε})} = \dfrac{\text{chorda } (2P - \text{180°})}{\text{chorda 2 differ. ascens.}} \times \dfrac{\text{chorda } 2\text{δ}}{\text{chorda } (\text{180°} - 2\text{δ})}$,
+@vspace -0.36
+et, sinibus pro chordis positis,
+@vspace -0.10
+@center $\dfrac{\sin\text{ε}}{\cos\text{ε}} = \dfrac{\sin (P - \text{90°})}{\text{sin diff. ascens.}} \times \dfrac{\sin\text{δ}}{\cos\text{δ}}$,
+@vspace -0.76
+unde
+@vspace -0.96
+@center $\text{sin differ. ascens.} = - \cos P\,\dfrac{\sin\text{δ} \cos\text{ε}}{\cos\text{δ} \sin\text{ε}}$.
+@vspace 0.93
+^ Al–Battānī autem in V capite docuerat $\sin\text{α} = R\,\dfrac{\sin\text{δ} \cos\text{ε}}{\cos\text{δ} \sin\text{ε}}$, qua re
+@vspace 1.02
+@center $\sin m = - \dfrac{\cos P \sin\text{α}}{R}$.
+@vspace 2.10
+@wrapr 101.4 AB01-PDF0277-F02
+^ II. Altera formula directe e demonstratione {sp:Ptole-}
+{sp:maei}, *Almag.* II, 7 (ed. Halma, t. I, p. 92–94) deducitur.
+Sit ABGD circulus meridianus; BED horizon; AEG aequator
+caelestis; Z♈T ecliptica, cuius punctum ♈ initium Arietis;
+K polus borealis aequatoris; KM arcus circuli declinationis.
+Erunt ♈E ascensio obliqua dati puncti L eclipticae, ♈M
+ascensio recta eiusdem, EM differentia ascensionalis. Ptole-
+@vspace -0.08
+maeus demonstrat:
+@center $\dfrac{\text{chorda } 2\,KD}{\text{chorda } 2\,DG} = \dfrac{\text{chorda } 2\,KL}{\text{chorda } 2\,LM} \times \dfrac{\text{chorda } 2\,ME}{\text{chorda } 2\,EG}$,
+@endwrap
+@vspace 0.88
+hoc est
+@vspace -0.07
+@center $\dfrac{\text{chorda } 2\text{φ}}{\text{chorda } (\text{180°} - 2\text{φ})} = \dfrac{\text{chorda } (\text{180°} - 2\text{δ})}{\text{chorda } 2\text{δ}} \times \dfrac{\text{chorda } 2m}{\text{chorda 180°}}$.
+@vspace -0.46
+Sinibus pro chordis positis, colligitur
+@vspace 0.26
+@center $\dfrac{\sin\text{φ}}{\cos\text{φ}} = \dfrac{\cos\text{δ}}{\sin\text{δ}} \times \dfrac{\sin m}{R}$,
+@vspace -0.52
+unde formula {sp:al-Battānī}
+@obs body L1, L3, L5, L16, L18, L20, L22, L33: the minus signs are printed as long dashes (9.6 to 10.6 pt; that of «180° − 2ε» in L16 8.2 pt); they are set as minus signs.
+@obs body L1-L5: rule (α) is checked. With sin (P − 90°) = − cos P it is the form of L5. For the radius 1, with sin α = tg δ cotg ε (chapter 5, L21) and − cos P = tg φ tg ε (the longest day, p. 180), it gives sin m = tg φ tg δ, the ascensional difference.
+@obs body L5: the fraction bar under «sin α cos P» did not print; it is set.
+@obs body L6, L24: the dashes of «97–98» and «92–94» measure 5.5 and about 5.3 pt (the second joined to the 2), long dashes.
+@obs body L7-L14: the first figure stands at the left of lines 7 to 14, which are set beside it in a narrow measure. It is redrawn from measurements of the print: the meridian ABGD as a circle; the horizon BED and the equator AEG as flat arcs of circles, as printed; the arcs ZHT and LKZ of the circles of declination, which meet at the south pole Z; the axis through E in dashes, each dash where it printed; the upright bold letters, and the italic words horizon and aequator.
+@obs body L7-L22: the formulas are checked. In the first figure TH = ε, ZH = 90° − ε, TE = P − 90° (TEG = P, EG = 90°), EL the ascensional difference, KL = δ and KZ = 90° − δ; Menelaus' theorem gives L14 and L16 (chorda 2a = 2 sin a, chorda (180° − 2a) = 2 cos a), whence L18 and L20; with al-Battānī's sin α = R sin δ cos ε / (cos δ sin ε) it gives L22, the same as (α).
+@obs body L13: a spot of ink stands in the bowl of the D of «BED»; it is not a sign.
+@obs body L21, L36: the dash of «Al–Battānī» in L21 measures 5.4 pt, a long dash; the letter-spaced «al-Battānī» of L36 has a hyphen (3.6 pt). Kept as printed.
+@obs body L23-L31: the second figure stands at the right of lines 23 to 31, which are set beside it in a narrow measure. It is redrawn from measurements of the print: the meridian ABGD as a circle; the horizon BED, the equator AEG, the ecliptic Z♈T and the circle of declination KM as arcs of circles, as printed (the horizon, the ecliptic and KM meet in L); the axis through E in dashes, each dash where it printed; the bold italic letters and the sign of Aries.
+@obs body L23-L35: the formulas are checked. In the second figure KD = φ, DG = 90° − φ, KL = 90° − δ, LM = δ, ME = m and EG = 90°; Menelaus' theorem gives L31 and L33, and with sines L35, that is sin m = R tg φ tg δ.
+@obs body L33: a speck stands after the sign =; it is not a sign.

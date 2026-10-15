@@ -3643,3 +3643,41 @@ AB01-PDF0276-notes_left-L003	187	notes_left	qua re, ut e cap. XIX patet, arcus s
 AB01-PDF0276-notes_right-L001	187	notes_right	gradus, i. e. dimidia diei longitudo cum Sol ad eum
 AB01-PDF0276-notes_right-L002	187	notes_right	gradum pervenerit, est 90° ± differentia ascen-
 AB01-PDF0276-notes_right-L003	187	notes_right	sionalis.
+AB01-PDF0277-body-L001	188	body	P − 90° dimidium incrementum diei longissimi supra diem aequinoctialem (= 2 × 90°= 12{sup:h});
+AB01-PDF0277-body-L002	188	body	α ascensio recta dati gradus eclipticae; formula auctoris est
+AB01-PDF0277-body-L003	188	body	(α) $\\sin m = \\dfrac{\\sin\\text{α} \\sin (P - \\text{90°})}{R}$,
+AB01-PDF0277-body-L004	188	body	quam scribere possumus
+AB01-PDF0277-body-L005	188	body	$\\sin m = - \\dfrac{\\sin\\text{α} \\cos P}{R}$.
+AB01-PDF0277-body-L006	188	body	Implicite continetur demonstratione {sp:Ptolemaei}, *Almag.* II, 7 (ed. Halma, t. I, p. 97–98).
+AB01-PDF0277-body-F01	188	body	[figure, redrawn: figures/AB01-PDF0277-F01.tex]
+AB01-PDF0277-body-L007	188	body	Sit ABGD circulus meridianus; AEG aequator, cuius polus au-
+AB01-PDF0277-body-L008	188	body	stralis Z; BED horizon; ZHT et LKZ duo arcus circulorum
+AB01-PDF0277-body-L009	188	body	declinationis; H punctum commune horizonti et parallelo qui
+AB01-PDF0277-body-L010	188	body	transit per punctum solstitiale hiemale; K punctum commune
+AB01-PDF0277-body-L011	188	body	horizonti et parallelo qui per datum eclipticae locum transit.
+AB01-PDF0277-body-L012	188	body	Manifeste TEG est maximus arcus semidiurnus eo Terrae loco
+AB01-PDF0277-body-L013	188	body	cui respondet horizon caelestis BED. Ptolemaeus invenit:
+AB01-PDF0277-body-L014	188	body	$\\dfrac{\\text{chorda } 2\\,TH}{\\text{chorda } 2\\,ZH} = \\dfrac{\\text{chorda } 2\\,TE}{\\text{chorda } 2\\,EL} \\times \\dfrac{\\text{chorda } 2\\,KL}{\\text{chorda } 2\\,KZ}$,
+AB01-PDF0277-body-L015	188	body	id est
+AB01-PDF0277-body-L016	188	body	$\\dfrac{\\text{chorda } 2\\text{ε}}{\\text{chorda } (\\text{180°} - 2\\text{ε})} = \\dfrac{\\text{chorda } (2P - \\text{180°})}{\\text{chorda 2 differ. ascens.}} \\times \\dfrac{\\text{chorda } 2\\text{δ}}{\\text{chorda } (\\text{180°} - 2\\text{δ})}$,
+AB01-PDF0277-body-L017	188	body	et, sinibus pro chordis positis,
+AB01-PDF0277-body-L018	188	body	$\\dfrac{\\sin\\text{ε}}{\\cos\\text{ε}} = \\dfrac{\\sin (P - \\text{90°})}{\\text{sin diff. ascens.}} \\times \\dfrac{\\sin\\text{δ}}{\\cos\\text{δ}}$,
+AB01-PDF0277-body-L019	188	body	unde
+AB01-PDF0277-body-L020	188	body	$\\text{sin differ. ascens.} = - \\cos P\\,\\dfrac{\\sin\\text{δ} \\cos\\text{ε}}{\\cos\\text{δ} \\sin\\text{ε}}$.
+AB01-PDF0277-body-L021	188	body	Al–Battānī autem in V capite docuerat $\\sin\\text{α} = R\\,\\dfrac{\\sin\\text{δ} \\cos\\text{ε}}{\\cos\\text{δ} \\sin\\text{ε}}$, qua re
+AB01-PDF0277-body-L022	188	body	$\\sin m = - \\dfrac{\\cos P \\sin\\text{α}}{R}$.
+AB01-PDF0277-body-F02	188	body	[figure, redrawn: figures/AB01-PDF0277-F02.tex]
+AB01-PDF0277-body-L023	188	body	II. Altera formula directe e demonstratione {sp:Ptole-}
+AB01-PDF0277-body-L024	188	body	{sp:maei}, *Almag.* II, 7 (ed. Halma, t. I, p. 92–94) deducitur.
+AB01-PDF0277-body-L025	188	body	Sit ABGD circulus meridianus; BED horizon; AEG aequator
+AB01-PDF0277-body-L026	188	body	caelestis; Z♈T ecliptica, cuius punctum ♈ initium Arietis;
+AB01-PDF0277-body-L027	188	body	K polus borealis aequatoris; KM arcus circuli declinationis.
+AB01-PDF0277-body-L028	188	body	Erunt ♈E ascensio obliqua dati puncti L eclipticae, ♈M
+AB01-PDF0277-body-L029	188	body	ascensio recta eiusdem, EM differentia ascensionalis. Ptole-
+AB01-PDF0277-body-L030	188	body	maeus demonstrat:
+AB01-PDF0277-body-L031	188	body	$\\dfrac{\\text{chorda } 2\\,KD}{\\text{chorda } 2\\,DG} = \\dfrac{\\text{chorda } 2\\,KL}{\\text{chorda } 2\\,LM} \\times \\dfrac{\\text{chorda } 2\\,ME}{\\text{chorda } 2\\,EG}$,
+AB01-PDF0277-body-L032	188	body	hoc est
+AB01-PDF0277-body-L033	188	body	$\\dfrac{\\text{chorda } 2\\text{φ}}{\\text{chorda } (\\text{180°} - 2\\text{φ})} = \\dfrac{\\text{chorda } (\\text{180°} - 2\\text{δ})}{\\text{chorda } 2\\text{δ}} \\times \\dfrac{\\text{chorda } 2m}{\\text{chorda 180°}}$.
+AB01-PDF0277-body-L034	188	body	Sinibus pro chordis positis, colligitur
+AB01-PDF0277-body-L035	188	body	$\\dfrac{\\sin\\text{φ}}{\\cos\\text{φ}} = \\dfrac{\\cos\\text{δ}}{\\sin\\text{δ}} \\times \\dfrac{\\sin m}{R}$,
+AB01-PDF0277-body-L036	188	body	unde formula {sp:al-Battānī}

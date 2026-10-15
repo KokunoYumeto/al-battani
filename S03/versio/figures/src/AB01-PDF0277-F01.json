@@ -1,0 +1,387 @@
+{
+ "pdf": 277,
+ "printed_page": 188,
+ "comment": [
+  "Nallino, Part I p. 188: Ptolemy's figure for the ascensional difference (Almagest II, 7), redrawn from the print:",
+  "the meridian ABGD as a circle; the horizon BED and the equator AEG as flat arcs of circles, as printed; the arcs",
+  "ZHT and LKZ of the circles of declination through the south pole Z; the axis through E in dashes, each where it",
+  "printed; the upright bold letters and the italic words horizon and aequator. Measured on the scan",
+  "(_intake/latin/tools/fig188)."
+ ],
+ "origin": [
+  109.4,
+  220.89
+ ],
+ "scale": 0.99281,
+ "size": [
+  122.0,
+  116.0
+ ],
+ "label_pt": 11,
+ "circles": [
+  {
+   "name": "the meridian ABGD",
+   "cx": 172.15,
+   "cy": 285.07,
+   "r": 50.77,
+   "w": 1.16
+  }
+ ],
+ "segments": [],
+ "arcs": [
+  {
+   "name": "the horizon BED",
+   "cx": 170.01,
+   "cy": -27.6,
+   "r": 312.69,
+   "a0": 98.922,
+   "a1": 80.293,
+   "w": 0.91
+  },
+  {
+   "name": "the equator AEG",
+   "cx": 358.81,
+   "cy": 25.81,
+   "r": 320.45,
+   "a0": 134.853,
+   "a1": 116.652,
+   "w": 1.03
+  },
+  {
+   "name": "the arc ZHT",
+   "cx": 201.74,
+   "cy": 294.84,
+   "r": 66.22,
+   "a0": 151.053,
+   "a1": 208.529,
+   "w": 1.01
+  },
+  {
+   "name": "the arc LKZ",
+   "cx": 232.6,
+   "cy": 320.27,
+   "r": 89.05,
+   "a0": -148.869,
+   "a1": -184.265,
+   "w": 1.01
+  }
+ ],
+ "groups": [
+  {
+   "w": 1.2,
+   "cap": "round",
+   "segs": [
+    [
+     199.37,
+     246.86,
+     197.9,
+     248.54
+    ],
+    [
+     196.78,
+     250.07,
+     195.31,
+     252.34
+    ],
+    [
+     194.32,
+     253.66,
+     192.71,
+     255.89
+    ],
+    [
+     191.47,
+     257.43,
+     190.08,
+     259.63
+    ],
+    [
+     189.19,
+     260.74,
+     187.85,
+     262.58
+    ],
+    [
+     186.48,
+     264.37,
+     184.39,
+     267.32
+    ],
+    [
+     183.13,
+     269.06,
+     181.78,
+     271.01
+    ],
+    [
+     179.84,
+     273.51,
+     178.31,
+     275.62
+    ],
+    [
+     176.99,
+     277.44,
+     175.26,
+     279.7
+    ],
+    [
+     168.61,
+     289.01,
+     166.49,
+     292.17
+    ],
+    [
+     165.95,
+     293.16,
+     164.64,
+     294.9
+    ],
+    [
+     163.33,
+     296.9,
+     161.98,
+     298.85
+    ],
+    [
+     160.77,
+     300.52,
+     159.42,
+     302.23
+    ],
+    [
+     157.75,
+     304.72,
+     156.88,
+     305.82
+    ],
+    [
+     155.35,
+     308.02,
+     154.73,
+     308.78
+    ],
+    [
+     153.34,
+     310.76,
+     152.28,
+     312.54
+    ],
+    [
+     151.03,
+     314.14,
+     149.69,
+     315.98
+    ],
+    [
+     149.01,
+     316.96,
+     147.66,
+     318.67
+    ],
+    [
+     146.68,
+     320.15,
+     145.68,
+     321.77
+    ],
+    [
+     200.7,
+     244.59,
+     199.96,
+     245.62
+    ],
+    [
+     174.58,
+     281.1,
+     172.5,
+     284.01
+    ],
+    [
+     170.62,
+     286.63,
+     169.3,
+     288.49
+    ],
+    [
+     144.75,
+     322.8,
+     144.3,
+     323.43
+    ]
+   ],
+   "comment": "the dashes of the axis"
+  }
+ ],
+ "labels": [
+  {
+   "t": "\\resizebox{5.99pt}{7.38pt}{A}",
+   "cx": 127.32,
+   "cy": 249.4,
+   "font": "\\fontsize{11}{11}\\bfseries\\selectfont"
+  },
+  {
+   "t": "\\resizebox{5.74pt}{7.36pt}{T}",
+   "cx": 144.9,
+   "cy": 259.1,
+   "font": "\\fontsize{11}{11}\\bfseries\\selectfont"
+  },
+  {
+   "t": "\\resizebox{5.10pt}{7.36pt}{L}",
+   "cx": 159.24,
+   "cy": 270.5,
+   "font": "\\fontsize{11}{11}\\bfseries\\selectfont"
+  },
+  {
+   "t": "\\resizebox{6.12pt}{7.74pt}{B}",
+   "cx": 116.04,
+   "cy": 277.78,
+   "font": "\\fontsize{11}{11}\\bfseries\\selectfont"
+  },
+  {
+   "t": "\\resizebox{5.07pt}{7.13pt}{H}",
+   "cx": 142.22,
+   "cy": 278.18,
+   "font": "\\fontsize{11}{11}\\bfseries\\selectfont"
+  },
+  {
+   "t": "\\resizebox{5.32pt}{7.03pt}{D}",
+   "cx": 227.4,
+   "cy": 276.92,
+   "font": "\\fontsize{11}{11}\\bfseries\\selectfont"
+  },
+  {
+   "t": "\\resizebox{5.93pt}{7.01pt}{K}",
+   "cx": 153.67,
+   "cy": 291.32,
+   "font": "\\fontsize{11}{11}\\bfseries\\selectfont"
+  },
+  {
+   "t": "\\resizebox{5.30pt}{7.74pt}{E}",
+   "cx": 172.36,
+   "cy": 292.88,
+   "font": "\\fontsize{11}{11}\\bfseries\\selectfont"
+  },
+  {
+   "t": "\\resizebox{5.49pt}{7.51pt}{G}",
+   "cx": 222.16,
+   "cy": 309.12,
+   "font": "\\fontsize{11}{11}\\bfseries\\selectfont"
+  },
+  {
+   "t": "\\resizebox{5.27pt}{7.03pt}{Z}",
+   "cx": 139.21,
+   "cy": 329.98,
+   "font": "\\fontsize{11}{11}\\bfseries\\selectfont"
+  },
+  {
+   "t": "\\resizebox{25.28pt}{7.03pt}{horizon}",
+   "cx": 199.55,
+   "cy": 277.84,
+   "font": "\\fontsize{11}{11}\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{31.32pt}{6.80pt}{aequator}",
+   "cx": 194.62,
+   "cy": 297.05,
+   "font": "\\fontsize{11}{11}\\itshape\\selectfont",
+   "rot": -27.5
+  }
+ ],
+ "boxes": {
+  "A": [
+   6.0,
+   7.44
+  ],
+  "T": [
+   5.64,
+   7.44
+  ],
+  "L": [
+   4.68,
+   7.44
+  ],
+  "B": [
+   5.52,
+   7.8
+  ],
+  "H": [
+   4.8,
+   7.2
+  ],
+  "D": [
+   4.92,
+   7.08
+  ],
+  "K": [
+   5.76,
+   7.08
+  ],
+  "E": [
+   4.92,
+   7.8
+  ],
+  "G": [
+   5.16,
+   7.68
+  ],
+  "Z": [
+   4.92,
+   7.08
+  ],
+  "horizon": [
+   24.72,
+   7.2
+  ],
+  "aequator": [
+   31.49,
+   9.76
+  ]
+ },
+ "points": {
+  "Z": [
+   143.79,
+   326.89
+  ],
+  "top": [
+   201.42,
+   243.58
+  ],
+  "B": [
+   121.52,
+   281.3
+  ],
+  "D": [
+   222.73,
+   280.61
+  ],
+  "A": [
+   132.8,
+   252.99
+  ],
+  "G": [
+   215.06,
+   312.22
+  ],
+  "E": [
+   170.48,
+   285.09
+  ],
+  "T": [
+   143.56,
+   263.22
+  ],
+  "H": [
+   136.54,
+   283.29
+  ],
+  "L": [
+   156.37,
+   274.23
+  ],
+  "K": [
+   151.04,
+   284.51
+  ]
+ }
+}
