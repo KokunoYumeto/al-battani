@@ -1,0 +1,760 @@
+{
+ "anchor": "AB01-PDF0307",
+ "master_pdf_page": 307,
+ "printed_page": 218,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "margin_locators": [],
+ "observations": [
+  "body L1-L2, L8, L13, L15-L16, L20-L23: the dashes of the transliterated names and titles and of «1288–1370» and «157–58» are long dashes (5.2 to 5.5 pt).",
+  "body L1, L5, L9: the dashes after «4° 27′.», before «Ex astronomis» and after «IV.» measure 9.7 to 10.3 pt and are transcribed as dashes.",
+  "body L3-L5: 3600″ : 43 2/3 = 82″,44 = 1′ 22″ 26‴ 33ⁱᵛ,6 a year; the printed 1′ 19″ 39‴ 53ⁱᵛ,6 is 1° in 45,19 years, and less the precession of 54″ 33‴ it leaves 25″ 6‴ 53ⁱᵛ,6 (printed 25″ 3‴).",
+  "body L10-L24: the longitudes stand in a column at the right of the list.",
+  "notes_left L1: Nallino's addenda et emendanda (Part I, p. LXXIV) read «218, adn. 1, pro Riccii l. Ricii.»; the printed form is kept.",
+  "notes_left L3-L9: two thirds of a year of 365 days are 243d 8h; Leo's 1° in 43 years, 232 days, 6 hours and 46 minutes is 82″,5 a year.",
+  "notes_left L16, notes_right L11: in «Brahma–sphuṭa-siddhānta» the first dash measures 4.8 pt, a long dash, the second 3.2 pt, a hyphen; the dash of «al–Bīrūnī» measures 4.7 pt, a long dash; the other dashes of the notes measure 3.0 to 4.2 pt and are hyphens.",
+  "notes_right L23-L24: note 5 goes on at the foot of p. 219."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0307-body-L001",
+     "source_line_no": null,
+     "tex": "ab al–Battānī autem ad az–Zarqālī annis 193 regressum 4° 27′. — Iudaeus \\Name{Levi ben Ger-}",
+     "transcription": "ab al–Battānī autem ad az–Zarqālī annis 193 regressum 4° 27′. — Iudaeus {sp:Levi ben Ger-}",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0307-body-L002",
+     "source_line_no": null,
+     "tex": "\\Name{son} sive \\Name{Leo de Balneolis} (1288–1370 Chr.), in astronomia sua Hebraice confecta, mo-",
+     "transcription": "{sp:son} sive {sp:Leo de Balneolis} (1288–1370 Chr.), in astronomia sua Hebraice confecta, mo-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0307-body-L003",
+     "source_line_no": null,
+     "tex": "tum apogei Solis, observationibus suis cum vetustioribus diligenter comparatis, deduxit 1° annis",
+     "transcription": "tum apogei Solis, observationibus suis cum vetustioribus diligenter comparatis, deduxit 1° annis",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0307-body-L004",
+     "source_line_no": null,
+     "tex": "43 $\\qfrac{2}{3}$ esse, i. e. 1′ 19″ 39‴ 53\\textsuperscript{IV},6 quotannis (1). Et quoniam praecessionem annuam Albatenia-",
+     "transcription": "43 {sfrac:2/3} esse, i. e. 1′ 19″ 39‴ 53{sup:IV},6 quotannis (1). Et quoniam praecessionem annuam Albatenia-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0307-body-L005",
+     "source_line_no": null,
+     "tex": "nam 54″ 33‴ acceperat, motum \\textit{proprium} apogei Solis 25″ 3‴ ponebat. — Ex astronomis",
+     "transcription": "nam 54″ 33‴ acceperat, motum *proprium* apogei Solis 25″ 3‴ ponebat. — Ex astronomis",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0307-body-L006",
+     "source_line_no": null,
+     "tex": "Europaeis primi \\Name{Keplerus} et \\Name{Longomontanus} motum apogei Solis a motu stellarum",
+     "transcription": "Europaeis primi {sp:Keplerus} et {sp:Longomontanus} motum apogei Solis a motu stellarum",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0307-body-L007",
+     "source_line_no": null,
+     "tex": "fixarum seu praecessionis distinxerunt; cfr. I. B. \\Name{Riccioli}, \\textit{Almagestum novum astrono-}",
+     "transcription": "fixarum seu praecessionis distinxerunt; cfr. I. B. {sp:Riccioli}, *Almagestum novum astrono-*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0307-body-L008",
+     "source_line_no": null,
+     "tex": "\\textit{miam veterem novamque complectens,} Bononiae 1651, t. I, p. 157–58.",
+     "transcription": "*miam veterem novamque complectens,* Bononiae 1651, t. I, p. 157–58.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0307-body-L009",
+     "source_line_no": null,
+     "tex": "\\Indent IV. — \\textit{Longitudo apogei Solis} secundum astronomos Albatenio vetustiores aut coaevos:",
+     "transcription": "IV. — *Longitudo apogei Solis* secundum astronomos Albatenio vetustiores aut coaevos:",
+     "semantic_anchor": "AB01-PDF0307-P01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0307-body-L010",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.00mm}\\smash{\\rlap{\\Name{Babylonii} tertio saeculo ante Chr. (2)}}}\\rlap{\\hspace*{130.87mm}\\smash{\\rlap{76° 35′}}}",
+     "transcription": "{sp:Babylonii} tertio saeculo ante Chr. (2) 76° 35′",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0307-body-L011",
+     "source_line_no": null,
+     "tex": "\\Name{Graeci} omnes ab Hipparcho (125 circiter ante Chr.) ad Theonem (IV Chr. saec.)",
+     "transcription": "{sp:Graeci} omnes ab Hipparcho (125 circiter ante Chr.) ad Theonem (IV Chr. saec.)",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0307-body-L012",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{7.43mm}\\smash{\\rlap{et Proclum (V Chr. saec.)}}}\\rlap{\\hspace*{130.87mm}\\smash{\\rlap{65° 30′}}}",
+     "transcription": "et Proclum (V Chr. saec.) 65° 30′",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0307-body-L013",
+     "source_line_no": null,
+     "tex": "Prima libri \\textit{Sūrya–siddhānta} redactio, ante V Chr. saec., iuxta \\textit{Pañcasiddhān-}",
+     "transcription": "Prima libri *Sūrya–siddhānta* redactio, ante V Chr. saec., iuxta *Pañcasiddhān-*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0307-body-L014",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{7.43mm}\\smash{\\rlap{\\textit{tikā,} vers. \\Name{Thibaut}, cap. IX, str. 7, p. 57}}}\\rlap{\\hspace*{130.87mm}\\smash{\\rlap{80°}}}",
+     "transcription": "*tikā,* vers. {sp:Thibaut}, cap. IX, str. 7, p. 57 80°",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0307-body-L015",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.00mm}\\smash{\\rlap{Posterior \\textit{Sūrya–siddhānta}, vers. \\Name{Burgess} et \\Name{Whitney}, adn. p. 171 et 487}}}\\rlap{\\hspace*{130.87mm}\\smash{\\rlap{77° 15′}}}",
+     "transcription": "Posterior *Sūrya–siddhānta*, vers. {sp:Burgess} et {sp:Whitney}, adn. p. 171 et 487 77° 15′",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0307-body-L016",
+     "source_line_no": null,
+     "tex": "Liber \\textit{Romaka–siddhānta,} ante V Chr. saec., apud \\textit{Pañcasiddhāntikā}, cap. VIII,",
+     "transcription": "Liber *Romaka–siddhānta,* ante V Chr. saec., apud *Pañcasiddhāntikā*, cap. VIII,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0307-body-L017",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{7.43mm}\\smash{\\rlap{str. 2, p. 48 vers.}}}\\rlap{\\hspace*{130.87mm}\\smash{\\rlap{75°}}}",
+     "transcription": "str. 2, p. 48 vers. 75°",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0307-body-L018",
+     "source_line_no": null,
+     "tex": "\\Name{Āryabhaṭa}, anno 499 Chr. scribens, iuxta praefationem \\Name{Thibaut} ad \\textit{Pañca-}",
+     "transcription": "{sp:Āryabhaṭa}, anno 499 Chr. scribens, iuxta praefationem {sp:Thibaut} ad *Pañca-*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0307-body-L019",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{7.43mm}\\smash{\\rlap{\\textit{siddhāntikā,} p. XVIII}}}\\rlap{\\hspace*{130.87mm}\\smash{\\rlap{78°}}}",
+     "transcription": "*siddhāntikā,* p. XVIII 78°",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0307-body-L020",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.00mm}\\smash{\\rlap{Liber Arabicus \\textit{as–Sindhind} (3), teste \\Name{Ibn Hibintà}, f. 1,v. et 2,r.}}}\\rlap{\\hspace*{130.87mm}\\smash{\\rlap{77° 15′}}}",
+     "transcription": "Liber Arabicus *as–Sindhind* (3), teste {sp:Ibn Hibintà}, f. 1,v. et 2,r. 77° 15′",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0307-body-L021",
+     "source_line_no": null,
+     "tex": "\\textit{Tabulae as–Shāh} (4) dictae, testibus \\Name{Ibn Hibintà}, f. 2,r., et \\Name{al–Mas‘ūdī}, \\textit{at–}",
+     "transcription": "*Tabulae as–Shāh* (4) dictae, testibus {sp:Ibn Hibintà}, f. 2,r., et {sp:al–Mas‘ūdī}, *at–*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0307-body-L022",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{7.43mm}\\smash{\\rlap{\\textit{–Tanbīh,} p. 222}}}\\rlap{\\hspace*{130.87mm}\\smash{\\rlap{80°}}}",
+     "transcription": "*–Tanbīh,* p. 222 80°",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0307-body-L023",
+     "source_line_no": null,
+     "tex": "Astronomi \\Name{al–Ma’mūn}, Baghdād in urbe, anno 198 Iezdegerdis, 214 heg. (829",
+     "transcription": "Astronomi {sp:al–Ma’mūn}, Baghdād in urbe, anno 198 Iezdegerdis, 214 heg. (829",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0307-body-L024",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{7.43mm}\\smash{\\rlap{Chr.), teste \\Name{Ibn Yūnus}, introd., ap. \\Name{Caussin} p. 56 (5)}}}\\rlap{\\hspace*{130.87mm}\\smash{\\rlap{82° 39′}}}",
+     "transcription": "Chr.), teste {sp:Ibn Yūnus}, introd., ap. {sp:Caussin} p. 56 (5) 82° 39′",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    }
+   ]
+  },
+  {
+   "role": "notes_left",
+   "lines": [
+    {
+     "id": "AB01-PDF0307-notes_left-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (1) Teste \\Name{Aug. Riccii} \\textit{De motu octavae}",
+     "transcription": "(1) Teste {sp:Aug. Riccii} *De motu octavae*",
+     "semantic_anchor": "AB01-PDF0307-N01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0307-notes_left-L002",
+     "source_line_no": null,
+     "tex": "\\textit{sphaerae,} in Civitate Casalis Sancti Evasii 1513; cfr.",
+     "transcription": "*sphaerae,* in Civitate Casalis Sancti Evasii 1513; cfr.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0307-notes_left-L003",
+     "source_line_no": null,
+     "tex": "quoque \\Name{Delambre} 381. — Anni 43 $\\qfrac{2}{3}$ sunt 43",
+     "transcription": "quoque {sp:Delambre} 381. — Anni 43 {sfrac:2/3} sunt 43",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0307-notes_left-L004",
+     "source_line_no": null,
+     "tex": "anni, 243\\textsuperscript{\\textit{d}} 8\\textsuperscript{\\textit{h}}; praecisius in astronomia Latine con-",
+     "transcription": "anni, 243{sup:*d*} 8{sup:*h*}; praecisius in astronomia Latine con-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0307-notes_left-L005",
+     "source_line_no": null,
+     "tex": "scripta (aut versa?) eiusdem \\Name{Leonis de Balne-}",
+     "transcription": "scripta (aut versa?) eiusdem {sp:Leonis de Balne-}",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0307-notes_left-L006",
+     "source_line_no": null,
+     "tex": "\\Name{olis}, tract. I, cap. 58 (fol. 46,v., col. \\textit{a} codicis Va-",
+     "transcription": "{sp:olis}, tract. I, cap. 58 (fol. 46,v., col. *a* codicis Va-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0307-notes_left-L007",
+     "source_line_no": null,
+     "tex": "ticani Latini 3098): « Nos vero invenimus eam [i. e.",
+     "transcription": "ticani Latini 3098): « Nos vero invenimus eam [i. e.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0307-notes_left-L008",
+     "source_line_no": null,
+     "tex": "« augem seu apogeum Solis] moveri per 1 g. 43 an-",
+     "transcription": "« augem seu apogeum Solis] moveri per 1 g. 43 an-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0307-notes_left-L009",
+     "source_line_no": null,
+     "tex": "« nis, 232 diebus, 6 horis et circa 46 minutis ».",
+     "transcription": "« nis, 232 diebus, 6 horis et circa 46 minutis ».",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0307-notes_left-L010",
+     "source_line_no": null,
+     "tex": "\\Indent (2) Iuxta F. X. \\Name{Kugler}, \\textit{Die babylonische}",
+     "transcription": "(2) Iuxta F. X. {sp:Kugler}, *Die babylonische*",
+     "semantic_anchor": "AB01-PDF0307-N02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0307-notes_left-L011",
+     "source_line_no": null,
+     "tex": "\\textit{Mondrechnung,} Freiburg i. B. 1900, p. 90. Numeri",
+     "transcription": "*Mondrechnung,* Freiburg i. B. 1900, p. 90. Numeri",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0307-notes_left-L012",
+     "source_line_no": null,
+     "tex": "reducti sunt ad eclipticam mobilem nostram; in",
+     "transcription": "reducti sunt ad eclipticam mobilem nostram; in",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0307-notes_left-L013",
+     "source_line_no": null,
+     "tex": "ecliptica fixa Babyloniorum 79° 49′ erant.",
+     "transcription": "ecliptica fixa Babyloniorum 79° 49′ erant.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0307-notes_left-L014",
+     "source_line_no": null,
+     "tex": "\\Indent (3) Erat versio, VIII Chr. saec. facta, operis",
+     "transcription": "(3) Erat versio, VIII Chr. saec. facta, operis",
+     "semantic_anchor": "AB01-PDF0307-N03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0307-notes_left-L015",
+     "source_line_no": null,
+     "tex": "quod Indicus \\Name{Brahmagupta} anno 628 Chr. scri-",
+     "transcription": "quod Indicus {sp:Brahmagupta} anno 628 Chr. scri-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0307-notes_left-L016",
+     "source_line_no": null,
+     "tex": "pserat et \\textit{Brahma–sphuṭa-siddhānta} vocaverat.",
+     "transcription": "pserat et *Brahma–sphuṭa-siddhānta* vocaverat.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0307-notes_left-L017",
+     "source_line_no": null,
+     "tex": "Apogei longitudo ut in posteriore Sūrya-siddhānta.",
+     "transcription": "Apogei longitudo ut in posteriore Sūrya-siddhānta.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0307-notes_left-L018",
+     "source_line_no": null,
+     "tex": "— \\Name{Al-Mas‘ūdī}, \\textit{at-Tanbīh} p. 221-222, ait eos qui",
+     "transcription": "— {sp:Al-Mas‘ūdī}, *at-Tanbīh* p. 221-222, ait eos qui",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0307-notes_left-L019",
+     "source_line_no": null,
+     "tex": "methodum as-Sindhind sequerentur ponere apo-",
+     "transcription": "methodum as-Sindhind sequerentur ponere apo-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0307-notes_left-L020",
+     "source_line_no": null,
+     "tex": "geum Solis, primo hegirae anno, in 77° 55′ 14″.",
+     "transcription": "geum Solis, primo hegirae anno, in 77° 55′ 14″.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0307-notes_left-L021",
+     "source_line_no": null,
+     "tex": "\\Indent (4) Earum quoque meminit \\Name{Ibn Rosteh},",
+     "transcription": "(4) Earum quoque meminit {sp:Ibn Rosteh},",
+     "semantic_anchor": "AB01-PDF0307-N04",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0307-notes_left-L022",
+     "source_line_no": null,
+     "tex": "p. 162, l. 3-17, unde patet eam, saltem in redactione",
+     "transcription": "p. 162, l. 3-17, unde patet eam, saltem in redactione",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0307-notes_left-L023",
+     "source_line_no": null,
+     "tex": "Arabica, motus caelestes ad primum Iezdegerdis an-",
+     "transcription": "Arabica, motus caelestes ad primum Iezdegerdis an-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0307-notes_left-L024",
+     "source_line_no": null,
+     "tex": "num (16 Iun. 632) retulisse. Procul dubio sunt quae",
+     "transcription": "num (16 Iun. 632) retulisse. Procul dubio sunt quae",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  },
+  {
+   "role": "notes_right",
+   "lines": [
+    {
+     "id": "AB01-PDF0307-notes_right-L001",
+     "source_line_no": null,
+     "tex": "ab aliis Arabibus \\textit{tabulae ash-shahriyār} vocantur,",
+     "transcription": "ab aliis Arabibus *tabulae ash-shahriyār* vocantur,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0307-notes_right-L002",
+     "source_line_no": null,
+     "tex": "nam \\textit{shāh} et \\textit{shahriyār} Persice « regem » signifi-",
+     "transcription": "nam *shāh* et *shahriyār* Persice « regem » signifi-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0307-notes_right-L003",
+     "source_line_no": null,
+     "tex": "cant; exeunte VIII Chr. saeculo, vel IX ineunte, eas",
+     "transcription": "cant; exeunte VIII Chr. saeculo, vel IX ineunte, eas",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0307-notes_right-L004",
+     "source_line_no": null,
+     "tex": "e lingua Persica verterat Abū ’l-ḥasan ‘Alī ibn Zi-",
+     "transcription": "e lingua Persica verterat Abū ’l-ḥasan ‘Alī ibn Zi-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0307-notes_right-L005",
+     "source_line_no": null,
+     "tex": "yād \\Name{at-Tamīmī}, cfr. \\textit{Kitāb al-Fihrist,} p. 241,",
+     "transcription": "yād {sp:at-Tamīmī}, cfr. *Kitāb al-Fihrist,* p. 241,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0307-notes_right-L006",
+     "source_line_no": null,
+     "tex": "l. 5, et 244, l. 29; \\Name{Hamzae Ispahanensis}",
+     "transcription": "l. 5, et 244, l. 29; {sp:Hamzae Ispahanensis}",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0307-notes_right-L007",
+     "source_line_no": null,
+     "tex": "\\textit{Annalium libri X,} edidit J. M. E. Gottwaldt, Petro-",
+     "transcription": "*Annalium libri X,* edidit J. M. E. Gottwaldt, Petro-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0307-notes_right-L008",
+     "source_line_no": null,
+     "tex": "poli-Lipsiae 1844-1848, t. I, p. 200 et 201; \\Name{Haji}",
+     "transcription": "poli-Lipsiae 1844-1848, t. I, p. 200 et 201; {sp:Haji}",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0307-notes_right-L009",
+     "source_line_no": null,
+     "tex": "\\Name{Khalfa}, \\textit{Lexicon bibliographicum et encyclopae-}",
+     "transcription": "{sp:Khalfa}, *Lexicon bibliographicum et encyclopae-*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0307-notes_right-L010",
+     "source_line_no": null,
+     "tex": "\\textit{dicum,} edidit et vertit G. Flügel, Leipzig-London",
+     "transcription": "*dicum,* edidit et vertit G. Flügel, Leipzig-London",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0307-notes_right-L011",
+     "source_line_no": null,
+     "tex": "1835-58, t. III, p. 566, nr. 6952. Apud \\Name{al–Bīrūnī},",
+     "transcription": "1835-58, t. III, p. 566, nr. 6952. Apud {sp:al–Bīrūnī},",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0307-notes_right-L012",
+     "source_line_no": null,
+     "tex": "\\textit{Chron.,} p. 6 text. et vers., nomen est \\textit{Tabulae}",
+     "transcription": "*Chron.,* p. 6 text. et vers., nomen est *Tabulae*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0307-notes_right-L013",
+     "source_line_no": null,
+     "tex": "\\textit{shahriyārān ash-shāh.} Tempore quo Abū Ma‘shar",
+     "transcription": "*shahriyārān ash-shāh.* Tempore quo Abū Ma‘shar",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0307-notes_right-L014",
+     "source_line_no": null,
+     "tex": "(m. 886 Chr.) scribebat vulgatissimae apud Arabes,",
+     "transcription": "(m. 886 Chr.) scribebat vulgatissimae apud Arabes,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0307-notes_right-L015",
+     "source_line_no": null,
+     "tex": "ut ex \\Name{Ibn Rosteh}, l. c., patet; iis nitebatur",
+     "transcription": "ut ex {sp:Ibn Rosteh}, l. c., patet; iis nitebatur",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0307-notes_right-L016",
+     "source_line_no": null,
+     "tex": "Mā-shā’-allāh astrologus (m. 815 Chr. circiter), teste",
+     "transcription": "Mā-shā’-allāh astrologus (m. 815 Chr. circiter), teste",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0307-notes_right-L017",
+     "source_line_no": null,
+     "tex": "\\Name{Ibn Hibintà}, f. 224,r. [Fortasse versio Arabica",
+     "transcription": "{sp:Ibn Hibintà}, f. 224,r. [Fortasse versio Arabica",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0307-notes_right-L018",
+     "source_line_no": null,
+     "tex": "libri Pehlevici « Tabulae Shatro-ayār » quorum me-",
+     "transcription": "libri Pehlevici « Tabulae Shatro-ayār » quorum me-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0307-notes_right-L019",
+     "source_line_no": null,
+     "tex": "minit \\Name{Mānūskihar} in secunda sua epistula (880",
+     "transcription": "minit {sp:Mānūskihar} in secunda sua epistula (880",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0307-notes_right-L020",
+     "source_line_no": null,
+     "tex": "Chr. circiter), apud E. W. \\Name{West}, \\textit{Pahlavi texts}",
+     "transcription": "Chr. circiter), apud E. W. {sp:West}, *Pahlavi texts*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0307-notes_right-L021",
+     "source_line_no": null,
+     "tex": "\\textit{translated,} t. IV, Oxford 1892, p. XLVII $=$ The sa-",
+     "transcription": "*translated,* t. IV, Oxford 1892, p. XLVII $=$ The sa-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0307-notes_right-L022",
+     "source_line_no": null,
+     "tex": "cred books of the East, t. XXXVII. — \\textsc{Schiaparelli}.]",
+     "transcription": "cred books of the East, t. XXXVII. — {sc:Schiaparelli}.]",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0307-notes_right-L023",
+     "source_line_no": null,
+     "tex": "\\Indent (5) Ergo pro hegirae anno (inc. 15 Iul. 622),",
+     "transcription": "(5) Ergo pro hegirae anno (inc. 15 Iul. 622),",
+     "semantic_anchor": "AB01-PDF0307-N05",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0307-notes_right-L024",
+     "source_line_no": null,
+     "tex": "cum praecessionem 3° 9′ 1″ in 214 Arabicis annis",
+     "transcription": "cum praecessionem 3° 9′ 1″ in 214 Arabicis annis",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  }
+ ]
+}
