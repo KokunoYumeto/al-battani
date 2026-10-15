@@ -1,0 +1,441 @@
+{
+ "anchor": "AB01-PDF0346",
+ "master_pdf_page": 346,
+ "printed_page": 257,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": "33",
+ "margin_locators": [],
+ "observations": [
+  "body L1: the dash after «k)» measures 9.5 pt; «40—pag.» has a dash of 9.4 pt.",
+  "body L2-L10: formula (α) is al-Battānī's rule of p. 80, L2-L7: the sine of the residue (the cosine of the distance of the Moon from the ascendant) times the sine of the altitude, divided by the sine of the distance, times R, divided by the sine of the zenith distance, that is the cosine of h. It is the rule of the right spherical triangle HET (the right angle at E): the cosine of the angle at H is tan HE : tan HT. «al-Battānī» (L9) has a hyphen (3.0 pt); the label «(α)» stands at the margin and the formula where it is printed.",
+  "body L11-L19: the figure stands on the right of these lines and is redrawn from the print: the meridian ABGD (radius 54.2 pt), the horizon BETMD, the vertical circle AHEKG, the ecliptic ZHTL and the arc KLM of the great circle whose pole is H, as arcs of circles fitted to the print (radius 246.1, 264.6, 150.7 and 51.2 pt). The ecliptic ends 0.7 pt short of the meridian at N. The vertical prints broken in places between H and K, the ecliptic where it crosses the vertical at H and the arc KLM next to K; they are drawn whole. The letters are of two types, as far as the scan shows: B, E, T, M, K, N and G upright, A, Z, H, D and L italic; the A is printed without its bar.",
+  "body L12, L14: «131–32» has a long dash (5.4 pt). «Ex II» is printed so, with two capitals I; the pole of the arc KLM is H (L13 and the figure).",
+  "body L18-L20: L18 is the theorem of Menelaus for the triangle HKL cut by the horizon, which meets HK in E, HL in T and KL produced in M. With HK, HL and KM quadrants, EK = 90° − h, TL = 90° − HT and LM = 90° − KL, where KL measures the angle of latitude, it gives L20 and (α).",
+  "body L21: the dash before «De» measures 7.2 pt, shorter than the other dashes of the page.",
+  "body L22-L26: the dash after «l)» measures 9.8 pt, the hyphen of «7-9» 3.4 pt. Heavy brackets open and close Schiaparelli's addition; the dashes before «Falsum» and «Schiaparelli» measure 10.2 and 9.6 pt. The words quoted are p. 80, L7-L9, where the translation has «super horizontem borealem» for the «supra horizontem borealem» printed here.",
+  "body L27-L30: «al–Battānī» (L27) and «31–33» (L30) have long dashes (5.5 and 5.2 pt); the dash before «Formulam» measures 10.1 pt. «sed hoc non evenit in ceteris regionibus» is p. 80, L9; the formula of p. 81, L31-L33 is the passage in italics there (note o).",
+  "body L31-L35: the dash after «m)» measures 10.1 pt, the hyphen of «37-39» 3.4 pt. The eighteenth part is the reading of Plato; the translation prints «octavam partem» on p. 80, L38, corrected in the addenda (Part I, p. LXXI). The M of «Melius» and «XXX» (L35) print heavy. The sentence goes on to p. 258.",
+  "notes_left L1-L2: «p. 82, l. 8-26 et adn. r»: the hyphen measures 3.2 pt.",
+  "notes_right L1-L2: the t of «erat» is printed broken and the closing guillemet after «nostris» prints as a single angle; «p. 81, l. 15-18» is the rule for the side of the parallax in latitude («Est denique semper australis in urbibus ...»); the hyphen of «15-18» measures 3.0 pt."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0346-body-L001",
+     "source_line_no": null,
+     "tex": "\\CenterLine{\\textbf{\\textit{k}}) — \\textit{Pag. 79, l. 40—pag. 80, l. 7.}}",
+     "transcription": "{bi:k}) — *Pag. 79, l. 40—pag. 80, l. 7.*",
+     "semantic_anchor": "AB01-PDF0346-H01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0346-body-L002",
+     "source_line_no": null,
+     "tex": "\\Indent Luna in ecliptica exstante (1), ex data distantia zenithali \\textgreek{ζ} Lunae, nempe complemento",
+     "transcription": "Luna in ecliptica exstante (1), ex data distantia zenithali ζ Lunae, nempe complemento",
+     "semantic_anchor": "AB01-PDF0346-P01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0346-body-L003",
+     "source_line_no": null,
+     "tex": "altitudinis \\textit{h}, \\textit{angulos quos ecliptica cum circulo verticali} per Lunam transeunti efficit co-",
+     "transcription": "altitudinis *h*, *angulos quos ecliptica cum circulo verticali* per Lunam transeunti efficit co-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0346-body-L004",
+     "source_line_no": null,
+     "tex": "gnoscere.",
+     "transcription": "gnoscere.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0346-body-L005",
+     "source_line_no": null,
+     "tex": "\\Indent Angulus ecliptica et verticali interceptus appellatur \\textit{angulus latitudinis}; eius comple-",
+     "transcription": "Angulus ecliptica et verticali interceptus appellatur *angulus latitudinis*; eius comple-",
+     "semantic_anchor": "AB01-PDF0346-P02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0346-body-L006",
+     "source_line_no": null,
+     "tex": "mentum est \\textit{angulus longitudinis}, interceptus circulo verticali et circulo per gradum longi-",
+     "transcription": "mentum est *angulus longitudinis*, interceptus circulo verticali et circulo per gradum longi-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0346-body-L007",
+     "source_line_no": null,
+     "tex": "tudinis Lunae et per eclipticae polos transeunti.",
+     "transcription": "tudinis Lunae et per eclipticae polos transeunti.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0346-body-L008",
+     "source_line_no": null,
+     "tex": "\\Indent Angulus latitudinis est rectus cum Luna 90° ab ascendente distet. Si longinquitas maior",
+     "transcription": "Angulus latitudinis est rectus cum Luna 90° ab ascendente distet. Si longinquitas maior",
+     "semantic_anchor": "AB01-PDF0346-P03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0346-body-L009",
+     "source_line_no": null,
+     "tex": "vel minor est 90°, et altitudo australis, regula \\Name{al-Battānī} est",
+     "transcription": "vel minor est 90°, et altitudo australis, regula {sp:al-Battānī} est",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0346-body-L010",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.00mm}(\\textgreek{α})}\\rlap{\\hspace*{94.07mm}\\makebox[0pt][c]{sin ang. long. $=$ cos ang. lat. $= \\dfrac{\\text{cos dist. \\MoonSym{} ab asc.}}{\\text{sin dist. \\MoonSym{} ab asc.}} \\times \\dfrac{\\sin h}{\\cos h} \\times R.$}}",
+     "transcription": "(α) sin ang. long. $=$ cos ang. lat. $= \\dfrac{\\text{cos dist. ☾ ab asc.}}{\\text{sin dist. ☾ ab asc.}} \\times \\dfrac{\\sin h}{\\cos h} \\times R.$",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0346-body-F01",
+     "source_line_no": null,
+     "tex": "\\input{figures/AB01-PDF0346-F01}",
+     "transcription": "[figure, redrawn: figures/AB01-PDF0346-F01.tex]",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_FIGURE"
+    },
+    {
+     "id": "AB01-PDF0346-body-L011",
+     "source_line_no": null,
+     "tex": "\\Indent Hoc e constructione geometrica \\Name{Ptolemaei} II, 12 (ed.",
+     "transcription": "Hoc e constructione geometrica {sp:Ptolemaei} II, 12 (ed.",
+     "semantic_anchor": "AB01-PDF0346-P04",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0346-body-L012",
+     "source_line_no": null,
+     "tex": "Halma t. I, p. 131–32) deducitur: Sit ABGD meridianus, BED",
+     "transcription": "Halma t. I, p. 131–32) deducitur: Sit ABGD meridianus, BED",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0346-body-L013",
+     "source_line_no": null,
+     "tex": "horizon, A zenith, ZHTN ecliptica, AHEG verticalis, ZHA an-",
+     "transcription": "horizon, A zenith, ZHTN ecliptica, AHEG verticalis, ZHA an-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0346-body-L014",
+     "source_line_no": null,
+     "tex": "gulus latitudinis. Ex II, tanquam polo sumpto, arcus KLM circuli",
+     "transcription": "gulus latitudinis. Ex II, tanquam polo sumpto, arcus KLM circuli",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0346-body-L015",
+     "source_line_no": null,
+     "tex": "maximi describatur; AE, EM, KM erunt quadrantes maximo-",
+     "transcription": "maximi describatur; AE, EM, KM erunt quadrantes maximo-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0346-body-L016",
+     "source_line_no": null,
+     "tex": "rum circulorum, et KL arcus qui metitur angulum latitudinis.",
+     "transcription": "rum circulorum, et KL arcus qui metitur angulum latitudinis.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0346-body-L017",
+     "source_line_no": null,
+     "tex": "Ptolemaeus demonstrat",
+     "transcription": "Ptolemaeus demonstrat",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0346-body-L018",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{62.52mm}\\makebox[0pt][c]{$\\dfrac{\\text{chorda } 2HE}{\\text{chorda } 2EK} = \\dfrac{\\text{chorda } 2HT}{\\text{chorda } 2TL} \\times \\dfrac{\\text{chorda } 2LM}{\\text{chorda } 2KM}\\,;$}}",
+     "transcription": "$\\dfrac{\\text{chorda } 2HE}{\\text{chorda } 2EK} = \\dfrac{\\text{chorda } 2HT}{\\text{chorda } 2TL} \\times \\dfrac{\\text{chorda } 2LM}{\\text{chorda } 2KM}\\,;$",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0346-body-L019",
+     "source_line_no": null,
+     "tex": "sinibus pro chordis positis",
+     "transcription": "sinibus pro chordis positis",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0346-body-L020",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{93.90mm}\\makebox[0pt][c]{$\\dfrac{\\sin h}{\\cos h} = \\dfrac{\\text{sin dist. \\MoonSym{} ab asc.}}{\\text{cos dist. \\MoonSym{} ab asc.}} \\times \\dfrac{\\text{cos ang. lat.}}{R}\\,,$}}",
+     "transcription": "$\\dfrac{\\sin h}{\\cos h} = \\dfrac{\\text{sin dist. ☾ ab asc.}}{\\text{cos dist. ☾ ab asc.}} \\times \\dfrac{\\text{cos ang. lat.}}{R}\\,,$",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0346-body-L021",
+     "source_line_no": null,
+     "tex": "unde regula \\Name{Albateniana}. — De iis quae sequuntur cfr. adn. \\textbf{\\textit{l}}.",
+     "transcription": "unde regula {sp:Albateniana}. — De iis quae sequuntur cfr. adn. {bi:l}.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0346-body-L022",
+     "source_line_no": null,
+     "tex": "\\CenterLine{\\textbf{\\textit{l}}) — \\textit{Pag. 80, l. 7-9.}}",
+     "transcription": "{bi:l}) — *Pag. 80, l. 7-9.*",
+     "semantic_anchor": "AB01-PDF0346-H22",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0346-body-L023",
+     "source_line_no": null,
+     "tex": "\\Indent [« \\textit{At si altitudo est supra horizontem borealem} » (i. e. cum gradus eclipticae culmi-",
+     "transcription": "[« *At si altitudo est supra horizontem borealem* » (i. e. cum gradus eclipticae culmi-",
+     "semantic_anchor": "AB01-PDF0346-P05",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0346-body-L024",
+     "source_line_no": null,
+     "tex": "nans est a septentrionibus zenith) « \\textit{res invertitur; nam arcus} ..... ». — Falsum, nam arcus",
+     "transcription": "nans est a septentrionibus zenith) « *res invertitur; nam arcus* ..... ». — Falsum, nam arcus",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0346-body-L025",
+     "source_line_no": null,
+     "tex": "semper erit angulus longitudinis ut antea. Quod mutatur est signum parallaxis in latitudine.",
+     "transcription": "semper erit angulus longitudinis ut antea. Quod mutatur est signum parallaxis in latitudine.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0346-body-L026",
+     "source_line_no": null,
+     "tex": "— \\textsc{Schiaparelli}.]",
+     "transcription": "— {sc:Schiaparelli}.]",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0346-body-L027",
+     "source_line_no": null,
+     "tex": "\\Indent Error ab \\Name{al–Battānī} non provenit; eum esse ineptissimam interpolationem illius lectoris",
+     "transcription": "Error ab {sp:al–Battānī} non provenit; eum esse ineptissimam interpolationem illius lectoris",
+     "semantic_anchor": "AB01-PDF0346-P06",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0346-body-L028",
+     "source_line_no": null,
+     "tex": "qui, ut vidimus videbimusque, alia quoque stultissime vitiavit, satis patet ex iis quae statim",
+     "transcription": "qui, ut vidimus videbimusque, alia quoque stultissime vitiavit, satis patet ex iis quae statim",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0346-body-L029",
+     "source_line_no": null,
+     "tex": "infra sequuntur: « sed hoc non evenit in ceteris (2) regionibus ..... », ubi manifeste de signo",
+     "transcription": "infra sequuntur: « sed hoc non evenit in ceteris (2) regionibus ..... », ubi manifeste de signo",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0346-body-L030",
+     "source_line_no": null,
+     "tex": "parallaxis lunaris agitur. — Formulam quoque pag. 81, l. 31–33, interpolator similiter corrupit.",
+     "transcription": "parallaxis lunaris agitur. — Formulam quoque pag. 81, l. 31–33, interpolator similiter corrupit.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0346-body-L031",
+     "source_line_no": null,
+     "tex": "\\CenterLine{\\textbf{\\textit{m}}) — \\textit{Pag. 80, l. 37-39.}}",
+     "transcription": "{bi:m}) — *Pag. 80, l. 37-39.*",
+     "semantic_anchor": "AB01-PDF0346-H31",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0346-body-L032",
+     "source_line_no": null,
+     "tex": "\\Indent \\textit{Parallaxis Solis}, cum e tabulis sumitur, \\textit{augenda ipsius decima octava parte} « ob",
+     "transcription": "*Parallaxis Solis*, cum e tabulis sumitur, *augenda ipsius decima octava parte* « ob",
+     "semantic_anchor": "AB01-PDF0346-P07",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0346-body-L033",
+     "source_line_no": null,
+     "tex": "« diversitatem quae distantiae Solis a Terra contigit ».",
+     "transcription": "« diversitatem quae distantiae Solis a Terra contigit ».",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0346-body-L034",
+     "source_line_no": null,
+     "tex": "\\Indent Melius dici poterat: « ob mutatam a nobis distantiam Ptolemaicam Solis a centro Terrae ».",
+     "transcription": "Melius dici poterat: « ob mutatam a nobis distantiam Ptolemaicam Solis a centro Terrae ».",
+     "semantic_anchor": "AB01-PDF0346-P08",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0346-body-L035",
+     "source_line_no": null,
+     "tex": "In XXX cap., p. 61, maximam distantiam 1146 radiorum terrestrium, minimam 1070 statuit;",
+     "transcription": "In XXX cap., p. 61, maximam distantiam 1146 radiorum terrestrium, minimam 1070 statuit;",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    }
+   ]
+  },
+  {
+   "role": "notes_left",
+   "lines": [
+    {
+     "id": "AB01-PDF0346-notes_left-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (1) Cum extra eclipticam sit, correctio neces-",
+     "transcription": "(1) Cum extra eclipticam sit, correctio neces-",
+     "semantic_anchor": "AB01-PDF0346-N01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0346-notes_left-L002",
+     "source_line_no": null,
+     "tex": "saria est quae p. 82, l. 8-26 et adn. \\textbf{\\textit{r}} exponitur.",
+     "transcription": "saria est quae p. 82, l. 8-26 et adn. {bi:r} exponitur.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  },
+  {
+   "role": "notes_right",
+   "lines": [
+    {
+     "id": "AB01-PDF0346-notes_right-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (2) Exspectandum erat « nostris »; vide p. 81,",
+     "transcription": "(2) Exspectandum erat « nostris »; vide p. 81,",
+     "semantic_anchor": "AB01-PDF0346-N02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0346-notes_right-L002",
+     "source_line_no": null,
+     "tex": "l. 15-18, ubi res clarius exponitur.",
+     "transcription": "l. 15-18, ubi res clarius exponitur.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  }
+ ]
+}

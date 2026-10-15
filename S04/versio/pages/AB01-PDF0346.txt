@@ -1,0 +1,77 @@
+@page 346 257
+% Commentary on chapter 39, k) on p. 79, l. 40 - p. 80, l. 7: the angles of the ecliptic with the vertical circle through the Moon, the angle of latitude and its complement the angle of longitude; al-Battānī's rule (α), cos ang. lat. = R cot dist. ☾ ab asc. tan h; Ptolemy's construction (Almagest II, 12) with the figure redrawn: the arc KLM described about H as pole, the theorem of Menelaus in chords and in sines. l) on p. 80, l. 7-9: «res invertitur» false (Schiaparelli); an inept interpolation of a reader, as «in ceteris regionibus» shows; the formula of p. 81, l. 31-33 likewise corrupted. m) on p. 80, l. 37-39: the parallax of the Sun increased by an eighteenth part; al-Battānī's distances of the Sun (begun). Notes: the correction outside the ecliptic (p. 82); «nostris» expected (p. 81, l. 15-18).
+@nonum
+@vspace 4.62
+@center {bi:k}) — *Pag. 79, l. 40—pag. 80, l. 7.*
+@vspace 4.27
+^ Luna in ecliptica exstante (1), ex data distantia zenithali ζ Lunae, nempe complemento
+@vspace 0.04
+altitudinis *h*, *angulos quos ecliptica cum circulo verticali* per Lunam transeunti efficit co-
+@vspace 0.12
+gnoscere.
+^ Angulus ecliptica et verticali interceptus appellatur *angulus latitudinis*; eius comple-
+mentum est *angulus longitudinis*, interceptus circulo verticali et circulo per gradum longi-
+tudinis Lunae et per eclipticae polos transeunti.
+^ Angulus latitudinis est rectus cum Luna 90° ab ascendente distet. Si longinquitas maior
+vel minor est 90°, et altitudo australis, regula {sp:al-Battānī} est
+@at 0.00:(α) | 94.07^:sin ang. long. $=$ cos ang. lat. $= \dfrac{\text{cos dist. ☾ ab asc.}}{\text{sin dist. ☾ ab asc.}} \times \dfrac{\sin h}{\cos h} \times R.$
+@vspace 2.36
+@wrapr 126.30 AB01-PDF0346-F01
+^ Hoc e constructione geometrica {sp:Ptolemaei} II, 12 (ed.
+Halma t. I, p. 131–32) deducitur: Sit ABGD meridianus, BED
+horizon, A zenith, ZHTN ecliptica, AHEG verticalis, ZHA an-
+gulus latitudinis. Ex II, tanquam polo sumpto, arcus KLM circuli
+maximi describatur; AE, EM, KM erunt quadrantes maximo-
+rum circulorum, et KL arcus qui metitur angulum latitudinis.
+Ptolemaeus demonstrat
+@vspace 0.41
+@at 62.52^:$\dfrac{\text{chorda } 2HE}{\text{chorda } 2EK} = \dfrac{\text{chorda } 2HT}{\text{chorda } 2TL} \times \dfrac{\text{chorda } 2LM}{\text{chorda } 2KM}\,;$
+@vspace 0.23
+sinibus pro chordis positis
+@endwrap
+@vspace -0.42
+@at 93.90^:$\dfrac{\sin h}{\cos h} = \dfrac{\text{sin dist. ☾ ab asc.}}{\text{cos dist. ☾ ab asc.}} \times \dfrac{\text{cos ang. lat.}}{R}\,,$
+unde regula {sp:Albateniana}. — De iis quae sequuntur cfr. adn. {bi:l}.
+@vspace 5.76
+@center {bi:l}) — *Pag. 80, l. 7-9.*
+@vspace 3.31
+^ [« *At si altitudo est supra horizontem borealem* » (i. e. cum gradus eclipticae culmi-
+nans est a septentrionibus zenith) « *res invertitur; nam arcus* ..... ». — Falsum, nam arcus
+semper erit angulus longitudinis ut antea. Quod mutatur est signum parallaxis in latitudine.
+@vspace 0.10
+— {sc:Schiaparelli}.]
+^ Error ab {sp:al–Battānī} non provenit; eum esse ineptissimam interpolationem illius lectoris
+qui, ut vidimus videbimusque, alia quoque stultissime vitiavit, satis patet ex iis quae statim
+infra sequuntur: « sed hoc non evenit in ceteris (2) regionibus ..... », ubi manifeste de signo
+parallaxis lunaris agitur. — Formulam quoque pag. 81, l. 31–33, interpolator similiter corrupit.
+@vspace 4.59
+@center {bi:m}) — *Pag. 80, l. 37-39.*
+@vspace 3.35
+^ *Parallaxis Solis*, cum e tabulis sumitur, *augenda ipsius decima octava parte* « ob
+@vspace -0.08
+« diversitatem quae distantiae Solis a Terra contigit ».
+^ Melius dici poterat: « ob mutatam a nobis distantiam Ptolemaicam Solis a centro Terrae ».
+In XXX cap., p. 61, maximam distantiam 1146 radiorum terrestrium, minimam 1070 statuit;
+@notes
+@fontsize 9 11.80
+@vspace 1.76
+^ (1) Cum extra eclipticam sit, correctio neces-
+@vspace 0.06
+saria est quae p. 82, l. 8-26 et adn. {bi:r} exponitur.
+@col
+@fontsize 9 11.80
+@vspace 1.80
+^ (2) Exspectandum erat « nostris »; vide p. 81,
+l. 15-18, ubi res clarius exponitur.
+@sig 33
+@obs body L1: the dash after «k)» measures 9.5 pt; «40—pag.» has a dash of 9.4 pt.
+@obs body L2-L10: formula (α) is al-Battānī's rule of p. 80, L2-L7: the sine of the residue (the cosine of the distance of the Moon from the ascendant) times the sine of the altitude, divided by the sine of the distance, times R, divided by the sine of the zenith distance, that is the cosine of h. It is the rule of the right spherical triangle HET (the right angle at E): the cosine of the angle at H is tan HE : tan HT. «al-Battānī» (L9) has a hyphen (3.0 pt); the label «(α)» stands at the margin and the formula where it is printed.
+@obs body L11-L19: the figure stands on the right of these lines and is redrawn from the print: the meridian ABGD (radius 54.2 pt), the horizon BETMD, the vertical circle AHEKG, the ecliptic ZHTL and the arc KLM of the great circle whose pole is H, as arcs of circles fitted to the print (radius 246.1, 264.6, 150.7 and 51.2 pt). The ecliptic ends 0.7 pt short of the meridian at N. The vertical prints broken in places between H and K, the ecliptic where it crosses the vertical at H and the arc KLM next to K; they are drawn whole. The letters are of two types, as far as the scan shows: B, E, T, M, K, N and G upright, A, Z, H, D and L italic; the A is printed without its bar.
+@obs body L12, L14: «131–32» has a long dash (5.4 pt). «Ex II» is printed so, with two capitals I; the pole of the arc KLM is H (L13 and the figure).
+@obs body L18-L20: L18 is the theorem of Menelaus for the triangle HKL cut by the horizon, which meets HK in E, HL in T and KL produced in M. With HK, HL and KM quadrants, EK = 90° − h, TL = 90° − HT and LM = 90° − KL, where KL measures the angle of latitude, it gives L20 and (α).
+@obs body L21: the dash before «De» measures 7.2 pt, shorter than the other dashes of the page.
+@obs body L22-L26: the dash after «l)» measures 9.8 pt, the hyphen of «7-9» 3.4 pt. Heavy brackets open and close Schiaparelli's addition; the dashes before «Falsum» and «Schiaparelli» measure 10.2 and 9.6 pt. The words quoted are p. 80, L7-L9, where the translation has «super horizontem borealem» for the «supra horizontem borealem» printed here.
+@obs body L27-L30: «al–Battānī» (L27) and «31–33» (L30) have long dashes (5.5 and 5.2 pt); the dash before «Formulam» measures 10.1 pt. «sed hoc non evenit in ceteris regionibus» is p. 80, L9; the formula of p. 81, L31-L33 is the passage in italics there (note o).
+@obs body L31-L35: the dash after «m)» measures 10.1 pt, the hyphen of «37-39» 3.4 pt. The eighteenth part is the reading of Plato; the translation prints «octavam partem» on p. 80, L38, corrected in the addenda (Part I, p. LXXI). The M of «Melius» and «XXX» (L35) print heavy. The sentence goes on to p. 258.
+@obs notes_left L1-L2: «p. 82, l. 8-26 et adn. r»: the hyphen measures 3.2 pt.
+@obs notes_right L1-L2: the t of «erat» is printed broken and the closing guillemet after «nostris» prints as a single angle; «p. 81, l. 15-18» is the rule for the side of the parallax in latitude («Est denique semper australis in urbibus ...»); the hyphen of «15-18» measures 3.0 pt.

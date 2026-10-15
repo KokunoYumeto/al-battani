@@ -1,0 +1,245 @@
+{
+ "pdf": 346,
+ "printed_page": 257,
+ "comment": [
+  "Nallino, Part I p. 257: the figure after Almagest II, 12, redrawn from the print: the meridian ABGD, the horizon",
+  "BETMD, the vertical circle AHEKG, the ecliptic ZHTLN, the arc KLM of the great circle whose pole is H, and the",
+  "letters, upright bold or bold italic as printed. Measured on the scan (_intake/latin/tools/fig257)."
+ ],
+ "origin": [
+  341.0,
+  290.58
+ ],
+ "scale": 0.99639,
+ "size": [
+  136.0,
+  140.0
+ ],
+ "label_pt": 11,
+ "circles": [
+  {
+   "name": "the meridian ABGD",
+   "cx": 409.44,
+   "cy": 358.18,
+   "r": 54.22,
+   "w": 1.15
+  }
+ ],
+ "segments": [],
+ "arcs": [
+  {
+   "name": "the horizon BETMD",
+   "cx": 407.49,
+   "cy": 117.55,
+   "r": 246.09,
+   "a0": 102.26,
+   "a1": 76.81,
+   "w": 1.1
+  },
+  {
+   "name": "the vertical circle AHEKG",
+   "cx": 668.22,
+   "cy": 357.58,
+   "r": 264.55,
+   "a0": -168.3,
+   "a1": -191.96,
+   "w": 1.2
+  },
+  {
+   "name": "the ecliptic ZHTL, ending short of the meridian at N",
+   "cx": 292.59,
+   "cy": 431.4,
+   "r": 150.72,
+   "a0": -53.13,
+   "a1": -11.29,
+   "w": 1.17
+  },
+  {
+   "name": "the arc KLM",
+   "cx": 406.61,
+   "cy": 334.17,
+   "r": 51.15,
+   "a0": 91.66,
+   "a1": 30.05,
+   "w": 1.17
+  }
+ ],
+ "labels": [
+  {
+   "t": "\\resizebox{5.01pt}{8.23pt}{A}",
+   "cx": 412.83,
+   "cy": 296.7,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{5.53pt}{7.41pt}{Z}",
+   "cx": 383.0,
+   "cy": 304.24,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{7.54pt}{6.92pt}{H}",
+   "cx": 410.1,
+   "cy": 328.44,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{8.28pt}{9.33pt}{B}",
+   "cx": 348.62,
+   "cy": 360.24,
+   "font": "\\fontsize{11}{11}\\bfseries\\selectfont"
+  },
+  {
+   "t": "\\resizebox{6.10pt}{7.29pt}{E}",
+   "cx": 397.88,
+   "cy": 358.62,
+   "font": "\\fontsize{11}{11}\\bfseries\\selectfont"
+  },
+  {
+   "t": "\\resizebox{7.24pt}{7.63pt}{T}",
+   "cx": 428.85,
+   "cy": 357.36,
+   "font": "\\fontsize{11}{11}\\bfseries\\selectfont"
+  },
+  {
+   "t": "\\resizebox{9.10pt}{7.40pt}{M}",
+   "cx": 451.07,
+   "cy": 354.8,
+   "font": "\\fontsize{11}{11}\\bfseries\\selectfont"
+  },
+  {
+   "t": "\\resizebox{8.32pt}{8.73pt}{D}",
+   "cx": 470.64,
+   "cy": 356.5,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{6.93pt}{6.69pt}{L}",
+   "cx": 439.0,
+   "cy": 379.32,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{7.82pt}{7.39pt}{K}",
+   "cx": 399.68,
+   "cy": 385.94,
+   "font": "\\fontsize{11}{11}\\bfseries\\selectfont"
+  },
+  {
+   "t": "\\resizebox{8.11pt}{9.04pt}{N}",
+   "cx": 445.02,
+   "cy": 406.54,
+   "font": "\\fontsize{11}{11}\\bfseries\\selectfont"
+  },
+  {
+   "t": "\\resizebox{8.32pt}{8.83pt}{G}",
+   "cx": 409.8,
+   "cy": 418.66,
+   "font": "\\fontsize{11}{11}\\bfseries\\selectfont"
+  }
+ ],
+ "boxes": {
+  "A@410,292": [
+   4.92,
+   8.28
+  ],
+  "Z@380,300": [
+   6.12,
+   7.44
+  ],
+  "H@406,325": [
+   8.04,
+   6.96
+  ],
+  "B@344,355": [
+   7.44,
+   9.36
+  ],
+  "E@395,355": [
+   5.64,
+   7.32
+  ],
+  "T@425,353": [
+   7.08,
+   7.68
+  ],
+  "M@446,351": [
+   8.64,
+   7.56
+  ],
+  "D@466,352": [
+   8.4,
+   8.76
+  ],
+  "L@436,376": [
+   6.36,
+   6.72
+  ],
+  "K@396,382": [
+   7.56,
+   7.44
+  ],
+  "N@441,402": [
+   7.62,
+   9.24
+  ],
+  "G@406,414": [
+   7.8,
+   9.0
+  ]
+ },
+ "points": {
+  "B": [
+   355.22,
+   358.03
+  ],
+  "D": [
+   463.65,
+   357.15
+  ],
+  "A": [
+   409.16,
+   303.96
+  ],
+  "G": [
+   409.41,
+   412.4
+  ],
+  "Z": [
+   383.03,
+   310.82
+  ],
+  "Nm": [
+   440.53,
+   402.6
+  ],
+  "E": [
+   403.74,
+   363.62
+  ],
+  "T": [
+   426.84,
+   362.88
+  ],
+  "H": [
+   405.01,
+   331.0
+  ],
+  "K": [
+   405.13,
+   385.3
+  ],
+  "L": [
+   433.43,
+   377.73
+  ],
+  "M": [
+   450.88,
+   359.79
+  ],
+  "N_end": [
+   440.39,
+   401.89
+  ]
+ }
+}
