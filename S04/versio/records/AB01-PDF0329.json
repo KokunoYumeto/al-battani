@@ -1,0 +1,586 @@
+{
+ "anchor": "AB01-PDF0329",
+ "master_pdf_page": 329,
+ "printed_page": 240,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "margin_locators": [],
+ "observations": [
+  "body L2: «i e.» has no period after the i; kept as printed.",
+  "body L2-L3, L7, L11, L14, L23, L26-L27, L29, L31: the dashes of «’l–qāsim», «as–Samḥ», «al–Battānī», «az–Zarqālī», «al–Kha-», «’l–qarnayn» and «al–Ǵaghmīnī» are long dashes (4.6 to 5.6 pt).",
+  "body L18: the hyphen of «al-Ǵaghmīnī» measures 3.5 pt; «Auxilium» is set slightly spaced and is transcribed without letter-spacing.",
+  "body L4, L7: 1 muḥarram 416 is 3 March 1025 in the astronomers' reckoning (4 March in the civil one); the 145 Julian years from 880 to 1025 are 149.5 lunar years, which at 1° in 68 lunar years make 2° 12′.",
+  "body L5-L12: Ibn as-Samḥ's apogees less 2° 12′ give the numbers of L10, which agree with al-Battānī's of p. 114 (L11-L12 there) save Mars, printed 126° 18′ there (the addenda, Part I, p. LXXI, read 58′), and Venus, 82° 14′ there (cfr. L29-L30).",
+  "body L6: the sign of equality between ♀ and ⊙ is 9.6 pt long.",
+  "body L12, L23: the minutes are written in Arabic letters, يح 18 and نح 58, as in note 4 of p. 114: they differ by the two dots of the yā’ and the one of the nūn.",
+  "body L20-L28: al-Ǵaghmīnī's apogees less al-Battānī's of L10 give 4° 55′ 33″, for Mars 5° 35′ 46″ with 126° 18′ and 4° 55′ 46″ with 126° 58′. In al-Battānī's table of the motion of the fixed stars (Part II, p. 107) 320 years give 4° 50′ 55″, 5 years 4′ 33″ and 30 days 4″ 30‴, together 4° 55′ 32″ 30‴; 325 years and 30 days after 1 September 879 is 1 October 1204, and 1191 + 325 = 1516.",
+  "body L6, L26: specks before the closing quotation mark (L6) and under «1191» (L26) are not transcribed.",
+  "notes_left L1-L2: 18 raǵab 426 is 29 May 1035 in the civil reckoning.",
+  "notes_left L7: the dash of «1863–67» (about 4 pt, joined to the figures) is transcribed as a long dash.",
+  "notes_right L2: لح 38 and لج 33 differ by the dot of the jīm.",
+  "notes_right L5: the dash before «Codex» measures 6.7 pt.",
+  "notes_right L7-L10: the phrase of the Naples codex, لاول سنة عشر لذي القرنين, is divided after لاول; in letters 1307 is غشز and 1516 غثيو (1000 + 500 + 10 + 6). The lines of the right column stand about 15 pt apart (11.8 pt in the left column), as printed."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0329-body-L001",
+     "source_line_no": null,
+     "tex": "\\Indent In \\textit{Libro de las láminas de las VII planetas,} cuius prima pars (16 complectens ca-",
+     "transcription": "In *Libro de las láminas de las VII planetas,* cuius prima pars (16 complectens ca-",
+     "semantic_anchor": "AB01-PDF0329-P01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0329-body-L002",
+     "source_line_no": null,
+     "tex": "pita) est versio Hispanica operis Arabici ab \\Name{Abulcacim Abnaçahm} i e. Abū ’l–qāsim",
+     "transcription": "pita) est versio Hispanica operis Arabici ab {sp:Abulcacim Abnaçahm} i e. Abū ’l–qāsim",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0329-body-L003",
+     "source_line_no": null,
+     "tex": "Aṣbagh \\Name{Ibn as–Samḥ} (1) confecti, parte I, cap. XIII (2), praecessione [Albateniana] unius",
+     "transcription": "Aṣbagh {sp:Ibn as–Samḥ} (1) confecti, parte I, cap. XIII (2), praecessione [Albateniana] unius",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0329-body-L004",
+     "source_line_no": null,
+     "tex": "gradus in 68 annis lunaribus sumpta, apogea planetarum pro anno 416 heg. (inc. 3 Mart. 1025)",
+     "transcription": "gradus in 68 annis lunaribus sumpta, apogea planetarum pro anno 416 heg. (inc. 3 Mart. 1025)",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0329-body-L005",
+     "source_line_no": null,
+     "tex": "praebet, quae manifeste ab Albatenianis proveniunt. Numeri ita sunt: {\\MoonFont ♄} 246° 40′, {\\MoonFont ♃} 166° 40′,",
+     "transcription": "praebet, quae manifeste ab Albatenianis proveniunt. Numeri ita sunt: ♄ 246° 40′, ♃ 166° 40′,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0329-body-L006",
+     "source_line_no": null,
+     "tex": "{\\MoonFont ♂} 129° 10′, \\SunSym{} 84° 27′, {\\MoonFont ♀} $=$ \\SunSym{} (« tal cuemo ell auxe del sol »), {\\MoonFont ☿} 203° 40′. Intervallum in-",
+     "transcription": "♂ 129° 10′, ⊙ 84° 27′, ♀ $=$ ⊙ (« tal cuemo ell auxe del sol »), ☿ 203° 40′. Intervallum in-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0329-body-L007",
+     "source_line_no": null,
+     "tex": "ter al–Battānī et Ibn as–Samḥ est 145 annorum Iulianorum; praecessio igitur 2° 12′. Haec",
+     "transcription": "ter al–Battānī et Ibn as–Samḥ est 145 annorum Iulianorum; praecessio igitur 2° 12′. Haec",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0329-body-L008",
+     "source_line_no": null,
+     "tex": "quantitas de longitudinibus illis dematur; proveniunt apogea pro epocha tabularum Albate-",
+     "transcription": "quantitas de longitudinibus illis dematur; proveniunt apogea pro epocha tabularum Albate-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0329-body-L009",
+     "source_line_no": null,
+     "tex": "nianarum:",
+     "transcription": "nianarum:",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0329-body-L010",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{18.02mm}\\smash{\\rlap{{\\MoonFont ♄} 244° 28′}}}\\rlap{\\hspace*{48.09mm}\\smash{\\rlap{{\\MoonFont ♃} 164° 28′}}}\\rlap{\\hspace*{78.87mm}\\smash{\\rlap{{\\MoonFont ♂} 126° 58′}}}\\rlap{\\hspace*{109.52mm}\\smash{\\rlap{\\SunSym{} et {\\MoonFont ♀} 82° 15′}}}\\rlap{\\hspace*{150.08mm}\\smash{\\rlap{{\\MoonFont ☿} 201° 28′,}}}",
+     "transcription": "♄ 244° 28′ ♃ 164° 28′ ♂ 126° 58′ ⊙ et ♀ 82° 15′ ☿ 201° 28′,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0329-body-L011",
+     "source_line_no": null,
+     "tex": "quae cum numeris al–Battānī omnino congruunt, excepto apogeo Martis ubi minuta codicis",
+     "transcription": "quae cum numeris al–Battānī omnino congruunt, excepto apogeo Martis ubi minuta codicis",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0329-body-L012",
+     "source_line_no": null,
+     "tex": "Escurialensis \\ArabicRun{يح} 18′ in \\ArabicRun{نح} 58′ mutanda videntur (3).",
+     "transcription": "Escurialensis يح 18′ in نح 58′ mutanda videntur (3).",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0329-body-L013",
+     "source_line_no": null,
+     "tex": "\\Indent In secunda parte eiusdem libri \\textit{de las láminas de las VII planetas,} quae est versio opu-",
+     "transcription": "In secunda parte eiusdem libri *de las láminas de las VII planetas,* quae est versio opu-",
+     "semantic_anchor": "AB01-PDF0329-P02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0329-body-L014",
+     "source_line_no": null,
+     "tex": "sculi astronomi Arabici \\Name{Abuizac el Zarquiel} i. e. Abū Isḥāq \\Name{az–Zarqālī}, cap. II (\\textit{Libros}",
+     "transcription": "sculi astronomi Arabici {sp:Abuizac el Zarquiel} i. e. Abū Isḥāq {sp:az–Zarqālī}, cap. II (*Libros*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0329-body-L015",
+     "source_line_no": null,
+     "tex": "\\textit{del saber de astronomia,} t. III, p. 272–273), auctor dicit apogea el \\Name{Bateni} (i. e. Albatenii)",
+     "transcription": "*del saber de astronomia,* t. III, p. 272–273), auctor dicit apogea el {sp:Bateni} (i. e. Albatenii)",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0329-body-L016",
+     "source_line_no": null,
+     "tex": "se ad annum hegirae 473 (vel 468?) reduxisse; sed numeri Romani tantis mendis scatent ut",
+     "transcription": "se ad annum hegirae 473 (vel 468?) reduxisse; sed numeri Romani tantis mendis scatent ut",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0329-body-L017",
+     "source_line_no": null,
+     "tex": "nullo modo restitui possint.",
+     "transcription": "nullo modo restitui possint.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0329-body-L018",
+     "source_line_no": null,
+     "tex": "\\Indent Auxilium quoque nobis \\Name{al-Ǵaghmīnī} p. 253 praebet, qui praecessionem Albatenianam",
+     "transcription": "Auxilium quoque nobis {sp:al-Ǵaghmīnī} p. 253 praebet, qui praecessionem Albatenianam",
+     "semantic_anchor": "AB01-PDF0329-P03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0329-body-L019",
+     "source_line_no": null,
+     "tex": "sumit. Eius apogea haec sunt:",
+     "transcription": "sumit. Eius apogea haec sunt:",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0329-body-L020",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{3.81mm}\\smash{\\rlap{\\SunSym{} 87° 10′ 33″}}}\\rlap{\\hspace*{41.85mm}\\smash{\\rlap{{\\MoonFont ♄} 249° 23′ 33″}}}\\rlap{\\hspace*{80.24mm}\\smash{\\rlap{{\\MoonFont ♃} 169° 23′ 33″}}}\\rlap{\\hspace*{119.44mm}\\smash{\\rlap{{\\MoonFont ♂} 131° 53′ 46″}}}\\rlap{\\hspace*{158.41mm}\\smash{\\rlap{{\\MoonFont ♀} 87° 10′ 33″}}}",
+     "transcription": "⊙ 87° 10′ 33″ ♄ 249° 23′ 33″ ♃ 169° 23′ 33″ ♂ 131° 53′ 46″ ♀ 87° 10′ 33″",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0329-body-L021",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{76.08mm}\\smash{\\rlap{{\\MoonFont ☿} 206° 23′ 33″ (4).}}}",
+     "transcription": "☿ 206° 23′ 33″ (4).",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0329-body-L022",
+     "source_line_no": null,
+     "tex": "\\Indent Omnia exacte ab Albatenianis differunt quantitate 4° 55′ 33″, \\textit{Marte} excepto ubi differentia",
+     "transcription": "Omnia exacte ab Albatenianis differunt quantitate 4° 55′ 33″, *Marte* excepto ubi differentia",
+     "semantic_anchor": "AB01-PDF0329-P04",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0329-body-L023",
+     "source_line_no": null,
+     "tex": "5° 35′ 46″. At si minuta Albateniana \\ArabicRun{يح} 18′ in \\ArabicRun{نح} 58′ corrigantur ut \\Name{Ibn as–Samḥ}, \\Name{al–Kha-}",
+     "transcription": "5° 35′ 46″. At si minuta Albateniana يح 18′ in نح 58′ corrigantur ut {sp:Ibn as–Samḥ}, {sp:al–Kha-}",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0329-body-L024",
+     "source_line_no": null,
+     "tex": "\\Name{raqī}, et \\Name{Ptolemaeus} quoque postulant, differentia rursus fit 4° 55′ 46″, secundis tantum",
+     "transcription": "{sp:raqī}, et {sp:Ptolemaeus} quoque postulant, differentia rursus fit 4° 55′ 46″, secundis tantum",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0329-body-L025",
+     "source_line_no": null,
+     "tex": "discrepantibus. — Differentia praecessionalis 4° 55′ 33″ respondet intervallo 325 annorum Iu-",
+     "transcription": "discrepantibus. — Differentia praecessionalis 4° 55′ 33″ respondet intervallo 325 annorum Iu-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0329-body-L026",
+     "source_line_no": null,
+     "tex": "lianorum et 30 dierum; apogea al–Battānī sunt pro anno 1191 Dhū ’l–qarnayn, iuxta Alba-",
+     "transcription": "lianorum et 30 dierum; apogea al–Battānī sunt pro anno 1191 Dhū ’l–qarnayn, iuxta Alba-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0329-body-L027",
+     "source_line_no": null,
+     "tex": "tenianum usum die 1 \\textit{Sept.} 879 Chr. incipiente; ergo \\Name{al–Ǵaghmīnī} ea ad annum 1516 re-",
+     "transcription": "tenianum usum die 1 *Sept.* 879 Chr. incipiente; ergo {sp:al–Ǵaghmīnī} ea ad annum 1516 re-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0329-body-L028",
+     "source_line_no": null,
+     "tex": "duxit, iuxta communem usum die 1 \\textit{Octobris} 1204 Chr. incipientis (5).",
+     "transcription": "duxit, iuxta communem usum die 1 *Octobris* 1204 Chr. incipientis (5).",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0329-body-L029",
+     "source_line_no": null,
+     "tex": "\\Indent De apogeo \\textit{Veneris}, quod \\Name{al–Battānī} aequale apogeo Solis ponit, et cuius minuta in-",
+     "transcription": "De apogeo *Veneris*, quod {sp:al–Battānī} aequale apogeo Solis ponit, et cuius minuta in-",
+     "semantic_anchor": "AB01-PDF0329-P05",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0329-body-L030",
+     "source_line_no": null,
+     "tex": "certa sunt inter 14′ et 15′, cfr. adn. \\textbf{\\textit{c}} ad XXVIII cap. (pag. 214).",
+     "transcription": "certa sunt inter 14′ et 15′, cfr. adn. {bi:c} ad XXVIII cap. (pag. 214).",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0329-body-L031",
+     "source_line_no": null,
+     "tex": "\\Indent Correctis in 58′ minuta \\textit{Martis}, comparatio al–Battānī cum Ptolemaeo haec est:",
+     "transcription": "Correctis in 58′ minuta *Martis*, comparatio al–Battānī cum Ptolemaeo haec est:",
+     "semantic_anchor": "AB01-PDF0329-P06",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    }
+   ]
+  },
+  {
+   "role": "notes_left",
+   "lines": [
+    {
+     "id": "AB01-PDF0329-notes_left-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (1) Granatae in urbe obiit die 18 raǵab 426 heg.",
+     "transcription": "(1) Granatae in urbe obiit die 18 raǵab 426 heg.",
+     "semantic_anchor": "AB01-PDF0329-N01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0329-notes_left-L002",
+     "source_line_no": null,
+     "tex": "(29 Maii 1035 Chr.); cfr. \\Name{Suter}, p. 85, nr. 194. An-",
+     "transcription": "(29 Maii 1035 Chr.); cfr. {sp:Suter}, p. 85, nr. 194. An-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0329-notes_left-L003",
+     "source_line_no": null,
+     "tex": "num mortis male quidam 476 fuisse dicunt.",
+     "transcription": "num mortis male quidam 476 fuisse dicunt.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0329-notes_left-L004",
+     "source_line_no": null,
+     "tex": "\\Indent (2) \\textit{Libros del saber de astronomia del Rey}",
+     "transcription": "(2) *Libros del saber de astronomia del Rey*",
+     "semantic_anchor": "AB01-PDF0329-N02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0329-notes_left-L005",
+     "source_line_no": null,
+     "tex": "D. \\Name{Alfonso X de Castilla}, \\textit{copilados, ano-}",
+     "transcription": "D. {sp:Alfonso X de Castilla}, *copilados, ano-*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0329-notes_left-L006",
+     "source_line_no": null,
+     "tex": "\\textit{tados y comentados por} D. \\Name{Manuel Rico y Si-}",
+     "transcription": "*tados y comentados por* D. {sp:Manuel Rico y Si-}",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0329-notes_left-L007",
+     "source_line_no": null,
+     "tex": "\\Name{nobas}, Madrid 1863–67, t. III, p. 262.",
+     "transcription": "{sp:nobas}, Madrid 1863–67, t. III, p. 262.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0329-notes_left-L008",
+     "source_line_no": null,
+     "tex": "\\Indent (3) Eadem correctio necessaria patet ex iis quae",
+     "transcription": "(3) Eadem correctio necessaria patet ex iis quae",
+     "semantic_anchor": "AB01-PDF0329-N03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0329-notes_left-L009",
+     "source_line_no": null,
+     "tex": "infra dicam et ex \\Name{al-Kharaqī}, lib. I, cap. XV,",
+     "transcription": "infra dicam et ex {sp:al-Kharaqī}, lib. I, cap. XV,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0329-notes_left-L010",
+     "source_line_no": null,
+     "tex": "faṣl V (cod. Laurent., f. 45,v.), qui apogea dat pro",
+     "transcription": "faṣl V (cod. Laurent., f. 45,v.), qui apogea dat pro",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0329-notes_left-L011",
+     "source_line_no": null,
+     "tex": "initio anni 1444 Dhū ’l-qarn. i. e. pro 1 Oct. 1132",
+     "transcription": "initio anni 1444 Dhū ’l-qarn. i. e. pro 1 Oct. 1132",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0329-notes_left-L012",
+     "source_line_no": null,
+     "tex": "Chr., manifeste longitudines Albatenianas ad tempus",
+     "transcription": "Chr., manifeste longitudines Albatenianas ad tempus",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0329-notes_left-L013",
+     "source_line_no": null,
+     "tex": "suum reducens.",
+     "transcription": "suum reducens.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  },
+  {
+   "role": "notes_right",
+   "lines": [
+    {
+     "id": "AB01-PDF0329-notes_right-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (4) \\Name{Rudloff} et \\Name{Hochheim} hoc loco per-",
+     "transcription": "(4) {sp:Rudloff} et {sp:Hochheim} hoc loco per-",
+     "semantic_anchor": "AB01-PDF0329-N04",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0329-notes_right-L002",
+     "source_line_no": null,
+     "tex": "peram \\ArabicRun{لح} 38″ pro \\ArabicRun{لج} 33″.",
+     "transcription": "peram لح 38″ pro لج 33″.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0329-notes_right-L003",
+     "source_line_no": null,
+     "tex": "\\Indent (5) \\Name{Rudloff} et \\Name{Hochheim} perperam ver-",
+     "transcription": "(5) {sp:Rudloff} et {sp:Hochheim} perperam ver-",
+     "semantic_anchor": "AB01-PDF0329-N05",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0329-notes_right-L004",
+     "source_line_no": null,
+     "tex": "terunt apogea illa esse « pro primo anno Alexandri",
+     "transcription": "terunt apogea illa esse « pro primo anno Alexandri",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0329-notes_right-L005",
+     "source_line_no": null,
+     "tex": "« [Dhū ’l-qarnayn] »! — Codex qui in Bibliotheca",
+     "transcription": "« [Dhū ’l-qarnayn] »! — Codex qui in Bibliotheca",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0329-notes_right-L006",
+     "source_line_no": null,
+     "tex": "Nationali Neapolis asservatur, pulcra scriptura exa-",
+     "transcription": "Nationali Neapolis asservatur, pulcra scriptura exa-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0329-notes_right-L007",
+     "source_line_no": null,
+     "tex": "ratus sed erroribus in numeris refertus, habet \\ArabicRun{لاول}",
+     "transcription": "ratus sed erroribus in numeris refertus, habet لاول",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0329-notes_right-L008",
+     "source_line_no": null,
+     "tex": "\\ArabicRun{سنة عشر لذي القرنين} « ad initium anni 1307 Dhū ’l-qar-",
+     "transcription": "سنة عشر لذي القرنين « ad initium anni 1307 Dhū ’l-qar-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0329-notes_right-L009",
+     "source_line_no": null,
+     "tex": "« nayn ». Sed \\ArabicRun{عشر} manifestus est calami lapsus pro",
+     "transcription": "« nayn ». Sed عشر manifestus est calami lapsus pro",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0329-notes_right-L010",
+     "source_line_no": null,
+     "tex": "\\ArabicRun{غثيو} 1516.",
+     "transcription": "غثيو 1516.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  }
+ ]
+}
