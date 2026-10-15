@@ -1,0 +1,447 @@
+{
+ "anchor": "AB01-PDF0354",
+ "master_pdf_page": 354,
+ "printed_page": 265,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": "34",
+ "margin_locators": [],
+ "observations": [
+  "body L1-L6: the figure stands on the right of these lines and is redrawn from the print: the semicircle AZB about the centre of the Earth E (radius 59.9 pt) with its diameter AB, the Earth, a small semicircle through F (radius 20.9 pt), the vertical EZ and the lines FL and EL, which end at the circle 0.7 pt short of their meeting point; LF produced to Q and the perpendicular QE are dashed. The centres of the two semicircles lie within 0.6 pt of E. The letters F and Q print italic, the others upright; the A is printed without its bar.",
+  "body L1-L9: in the right triangle EQL, sin FLE = R EQ : EL; in the right triangle EQF the angle QFE is the vertical angle of ZFL = ζ, and EF = a; so dist. × sin p = a sin ζ, which is the law of sines in the triangle EFL. With a = 1 it is al-Battānī's first rule, p. 85, L19-L22: the sine of the apparent zenith distance multiplied by R and divided by the sine of the parallax converted into minutes, that is by 60 sin p, R being 60. In L5 the commas after the fractions stand high, beside the tops of the denominators.",
+  "body L8, L18: «al–Battānī» is letter-spaced, with long dashes (5.3 and 5.6 pt).",
+  "body L10-L15: the figure stands on the left of these lines and is redrawn from the print: the semicircle AZB about E (radius 72.7 pt), the Earth through F (radius 24.6 pt), the vertical EZ and the lines FL and EL, as in the first figure; the perpendicular FQ on EL is dashed (four dashes), and an arc of ten dots about E (radius 44.7 pt) from EZ to EL marks the angle z; the letter z stands on it. The letters L and E print upright, the others italic.",
+  "body L10-L19: by the law of sines in the triangle EFL, FL = a sin z : sin p; QL = FL cos p, and taking QL = FL neglects at most 1/6600 of FL for p up to 1°; EQ = a cos z : R; so the distance is a sin z : sin p + a cos z : R, and with a = 1 and cos z = sin h it is (β), the second rule of p. 85, L23-L27, which Nallino restored there in brackets (note 4 there: the whole period is missing in the codex and in Plato). A heavy bracket opens Schiaparelli's addition in L10 and closes it in L21.",
+  "body L20-L21: «23–24» has a long dash (5.4 pt), and the dash before «Schiaparelli» measures 9.1 pt. The words struck out stand in Nallino's restoration of the second rule (p. 85, L23-L24), which repeats the wording of the first; formula (β) divides the sine of z by the sine of p without the factor R.",
+  "body L22-L23: the head of the commentary on chapter 41; the dash after «a)» measures 10.2 pt, and «37–39» has a long dash (5.3 pt).",
+  "body L24-L35: the place is p. 85, L37-L39, the beginning of chapter 41 on the visibility of the new moon. «ash–shakk» (L29) has a long dash (5.6 pt); the ‘ayn of «sha‘bān» (L27) is the turned comma.",
+  "notes_right L1-L2: Nallino's addenda (Part I, p. LXXV) add to this note a reference on the announcement of the new moon among the Jews, who did not accept the testimony of women, slaves and the wicked: Maimonides, de novilunio, chapter II, col. 240-244 of the edition cited in the preface, p. XXXIV, note 3. The note goes on to p. 266."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0354-body-F01",
+     "source_line_no": null,
+     "tex": "\\input{figures/AB01-PDF0354-F01}",
+     "transcription": "[figure, redrawn: figures/AB01-PDF0354-F01.tex]",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_FIGURE"
+    },
+    {
+     "id": "AB01-PDF0354-body-L001",
+     "source_line_no": null,
+     "tex": "\\Indent I. Sit E centrum Terrae, F locus observationis, Z zenith,",
+     "transcription": "I. Sit E centrum Terrae, F locus observationis, Z zenith,",
+     "semantic_anchor": "AB01-PDF0354-P01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0354-body-L002",
+     "source_line_no": null,
+     "tex": "L Luna; erunt ang. ZFL $=$ \\textgreek{ζ}, ang. FLE $=$ \\textit{p}, EL $=$ distantia",
+     "transcription": "L Luna; erunt ang. ZFL $=$ ζ, ang. FLE $=$ *p*, EL $=$ distantia",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0354-body-L003",
+     "source_line_no": null,
+     "tex": "geocentrica quaesita. Producatur FL usque quo in Q cum re-",
+     "transcription": "geocentrica quaesita. Producatur FL usque quo in Q cum re-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0354-body-L004",
+     "source_line_no": null,
+     "tex": "cta EQ angulum rectum efficiat. Manifeste:",
+     "transcription": "cta EQ angulum rectum efficiat. Manifeste:",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0354-body-L005",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{37.61mm}\\makebox[0pt][c]{$\\sin FLE = R\\,\\dfrac{EQ}{EL}\\,,$}}\\rlap{\\hspace*{88.48mm}\\makebox[0pt][c]{$\\sin QFE = R\\,\\dfrac{EQ}{EF}\\,,$}}",
+     "transcription": "$\\sin FLE = R\\,\\dfrac{EQ}{EL}\\,,$ $\\sin QFE = R\\,\\dfrac{EQ}{EF}\\,,$",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0354-body-L006",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.00mm}id est}\\rlap{\\hspace*{40.92mm}\\makebox[0pt][c]{$\\sin p = R\\,\\dfrac{EQ}{\\text{dist.}}\\,,$}}\\rlap{\\hspace*{85.45mm}\\makebox[0pt][c]{$\\sin \\text{\\textgreek{ζ}} = R\\,\\dfrac{EQ}{a}\\,,$}}",
+     "transcription": "id est $\\sin p = R\\,\\dfrac{EQ}{\\text{dist.}}\\,,$ $\\sin \\text{ζ} = R\\,\\dfrac{EQ}{a}\\,,$",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0354-body-L007",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.00mm}unde}\\rlap{\\hspace*{91.61mm}\\makebox[0pt][c]{distantia geocentr. $\\times \\sin p = a \\sin \\text{\\textgreek{ζ}}$.}}",
+     "transcription": "unde distantia geocentr. $\\times \\sin p = a \\sin \\text{ζ}$.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0354-body-L008",
+     "source_line_no": null,
+     "tex": "Et quoniam \\textit{a} $=$ 1 sumitur, statim prior formula \\Name{al–Battānī} oritur:",
+     "transcription": "Et quoniam *a* $=$ 1 sumitur, statim prior formula {sp:al–Battānī} oritur:",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0354-body-L009",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.00mm}(\\textgreek{α})}\\rlap{\\hspace*{94.35mm}\\makebox[0pt][c]{distantia geocentrica $= \\dfrac{\\sin \\text{\\textgreek{ζ}}}{\\sin p}\\,.$}}",
+     "transcription": "(α) distantia geocentrica $= \\dfrac{\\sin \\text{ζ}}{\\sin p}\\,.$",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0354-body-F02",
+     "source_line_no": null,
+     "tex": "\\input{figures/AB01-PDF0354-F02}",
+     "transcription": "[figure, redrawn: figures/AB01-PDF0354-F02.tex]",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_FIGURE"
+    },
+    {
+     "id": "AB01-PDF0354-body-L010",
+     "source_line_no": null,
+     "tex": "\\Indent II. [Altera regula, cuius maxima pars desideratur,",
+     "transcription": "II. [Altera regula, cuius maxima pars desideratur,",
+     "semantic_anchor": "AB01-PDF0354-P02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0354-body-L011",
+     "source_line_no": null,
+     "tex": "procul dubio haec erat: Sit \\textit{z} distantia zenithalis \\textit{vera},",
+     "transcription": "procul dubio haec erat: Sit *z* distantia zenithalis *vera*,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0354-body-L012",
+     "source_line_no": null,
+     "tex": "nempe ZEL; perpendicularis FQ ducatur; eodem quo",
+     "transcription": "nempe ZEL; perpendicularis FQ ducatur; eodem quo",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0354-body-L013",
+     "source_line_no": null,
+     "tex": "antea pro EL modo facillime invenitur FL $= a\\,\\dfrac{\\sin z}{\\sin p}$. Ob",
+     "transcription": "antea pro EL modo facillime invenitur FL $= a\\,\\dfrac{\\sin z}{\\sin p}$. Ob",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0354-body-L014",
+     "source_line_no": null,
+     "tex": "parvitatem anguli FLE, sine errore sensibili potest QL $=$",
+     "transcription": "parvitatem anguli FLE, sine errore sensibili potest QL $=$",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0354-body-L015",
+     "source_line_no": null,
+     "tex": "FL $= a\\,\\dfrac{\\sin z}{\\sin p}$ statui; est autem EQ $= \\dfrac{a \\cos z}{R}$; ergo",
+     "transcription": "FL $= a\\,\\dfrac{\\sin z}{\\sin p}$ statui; est autem EQ $= \\dfrac{a \\cos z}{R}$; ergo",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0354-body-L016",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{94.06mm}\\makebox[0pt][c]{distantia geocentrica $= EL = QL + EQ = a\\,\\dfrac{\\sin z}{\\sin p} + a\\,\\dfrac{\\cos z}{R}\\,.$}}",
+     "transcription": "distantia geocentrica $= EL = QL + EQ = a\\,\\dfrac{\\sin z}{\\sin p} + a\\,\\dfrac{\\cos z}{R}\\,.$",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0354-body-L017",
+     "source_line_no": null,
+     "tex": "Si \\textit{a} $=$ 1 sumatur, et in secundo termino altitudo vera \\textit{h} pro eius complemento \\textit{z}, oritur",
+     "transcription": "Si *a* $=$ 1 sumatur, et in secundo termino altitudo vera *h* pro eius complemento *z*, oritur",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0354-body-L018",
+     "source_line_no": null,
+     "tex": "altera formula \\Name{al–Battānī}:",
+     "transcription": "altera formula {sp:al–Battānī}:",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0354-body-L019",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.00mm}(\\textgreek{β})}\\rlap{\\hspace*{94.46mm}\\makebox[0pt][c]{distantia geocentrica $= \\dfrac{\\sin z}{\\sin p} + \\dfrac{\\sin h}{R}\\,.$}}",
+     "transcription": "(β) distantia geocentrica $= \\dfrac{\\sin z}{\\sin p} + \\dfrac{\\sin h}{R}\\,.$",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0354-body-L020",
+     "source_line_no": null,
+     "tex": "\\Indent Pag. 85, l. 23–24, verba « \\textit{in semidiametrum multiplica, et productum} » delenda sunt.",
+     "transcription": "Pag. 85, l. 23–24, verba « *in semidiametrum multiplica, et productum* » delenda sunt.",
+     "semantic_anchor": "AB01-PDF0354-P03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0354-body-L021",
+     "source_line_no": null,
+     "tex": "— \\textsc{Schiaparelli}.]",
+     "transcription": "— {sc:Schiaparelli}.]",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0354-body-L022",
+     "source_line_no": null,
+     "tex": "\\CenterLine{A\\textsc{d} \\textsc{caput} XLI.}",
+     "transcription": "A{sc:d} {sc:caput} XLI.",
+     "semantic_anchor": "AB01-PDF0354-H22",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0354-body-L023",
+     "source_line_no": null,
+     "tex": "\\CenterLine{\\textbf{\\textit{a}}) — \\textit{Pag. 85, l. 37–39.}}",
+     "transcription": "{bi:a}) — *Pag. 85, l. 37–39.*",
+     "semantic_anchor": "AB01-PDF0354-H23",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0354-body-L024",
+     "source_line_no": null,
+     "tex": "\\Indent \\textit{Novilunii cognitio} maximi est momenti apud nationes Muslimicas, non solum ob chro-",
+     "transcription": "*Novilunii cognitio* maximi est momenti apud nationes Muslimicas, non solum ob chro-",
+     "semantic_anchor": "AB01-PDF0354-P04",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0354-body-L025",
+     "source_line_no": null,
+     "tex": "nologiam Arabicam, sed etiam ob praecepta religionis de ieiunio mensis ramaḍān. Incipit enim",
+     "transcription": "nologiam Arabicam, sed etiam ob praecepta religionis de ieiunio mensis ramaḍān. Incipit enim",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0354-body-L026",
+     "source_line_no": null,
+     "tex": "cum Luna nova mensis ramaḍān apparet; cessat cum Luna nova mensis shawwāl cernitur.",
+     "transcription": "cum Luna nova mensis ramaḍān apparet; cessat cum Luna nova mensis shawwāl cernitur.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0354-body-L027",
+     "source_line_no": null,
+     "tex": "Oportet igitur ut Muslimi novam Lunam explorent ultima die (vicesima nona) mensis sha‘bān (1),",
+     "transcription": "Oportet igitur ut Muslimi novam Lunam explorent ultima die (vicesima nona) mensis sha‘bān (1),",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0354-body-L028",
+     "source_line_no": null,
+     "tex": "et, si viderint illam, ieiunium incipiant. Prima dies ramaḍān « dies dubitationis » (\\textit{yawm}",
+     "transcription": "et, si viderint illam, ieiunium incipiant. Prima dies ramaḍān « dies dubitationis » (*yawm*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0354-body-L029",
+     "source_line_no": null,
+     "tex": "\\textit{ash–shakk}) vocatur; in ea enim fieri potest ut, licet aer serenus sit, Luna nova maneat invi-",
+     "transcription": "*ash–shakk*) vocatur; in ea enim fieri potest ut, licet aer serenus sit, Luna nova maneat invi-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0354-body-L030",
+     "source_line_no": null,
+     "tex": "sibilis, qua re incertum utrum debeant homines ieiunare an non. Hoc die elapso ieiunium",
+     "transcription": "sibilis, qua re incertum utrum debeant homines ieiunare an non. Hoc die elapso ieiunium",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0354-body-L031",
+     "source_line_no": null,
+     "tex": "semper est incipiendum, etiamsi ob aeris condiciones novilunium haud possit cerni.",
+     "transcription": "semper est incipiendum, etiamsi ob aeris condiciones novilunium haud possit cerni.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0354-body-L032",
+     "source_line_no": null,
+     "tex": "\\Indent Eo « dubitationis die », si in aere aliquod impedimentum sit quo Luna apparere nequeat,",
+     "transcription": "Eo « dubitationis die », si in aere aliquod impedimentum sit quo Luna apparere nequeat,",
+     "semantic_anchor": "AB01-PDF0354-P05",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0354-body-L033",
+     "source_line_no": null,
+     "tex": "ieiunium incipi debet cum iudex religiosus (\\textit{qāḍī}) urbis susceperit testimonium unius hominis",
+     "transcription": "ieiunium incipi debet cum iudex religiosus (*qāḍī*) urbis susceperit testimonium unius hominis",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0354-body-L034",
+     "source_line_no": null,
+     "tex": "veridici, qui asserat se novam Lunam vidisse, sive vir est, sive mulier, sive liber, sive ser-",
+     "transcription": "veridici, qui asserat se novam Lunam vidisse, sive vir est, sive mulier, sive liber, sive ser-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0354-body-L035",
+     "source_line_no": null,
+     "tex": "vus (2). Si autem in aere nullum sit impedimentum, nullius recipitur testimonium, donec vide-",
+     "transcription": "vus (2). Si autem in aere nullum sit impedimentum, nullius recipitur testimonium, donec vide-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    }
+   ]
+  },
+  {
+   "role": "notes_left",
+   "lines": [
+    {
+     "id": "AB01-PDF0354-notes_left-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (1) Qui ramaḍān praecedit. Non obliviscendum",
+     "transcription": "(1) Qui ramaḍān praecedit. Non obliviscendum",
+     "semantic_anchor": "AB01-PDF0354-N01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0354-notes_left-L002",
+     "source_line_no": null,
+     "tex": "apud Muslimos diem civilem ab occasu Solis incipere.",
+     "transcription": "apud Muslimos diem civilem ab occasu Solis incipere.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  },
+  {
+   "role": "notes_right",
+   "lines": [
+    {
+     "id": "AB01-PDF0354-notes_right-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (2) Si de novilunio in fine ramaḍān et initio",
+     "transcription": "(2) Si de novilunio in fine ramaḍān et initio",
+     "semantic_anchor": "AB01-PDF0354-N02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0354-notes_right-L002",
+     "source_line_no": null,
+     "tex": "shawwāl agitur, necessarium est testimonium duo-",
+     "transcription": "shawwāl agitur, necessarium est testimonium duo-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,260 @@
+{
+ "pdf": 354,
+ "printed_page": 265,
+ "comment": [
+  "Nallino, Part I p. 265: Schiaparelli's figure of the first solution for the distance of the Moon,",
+  "redrawn from the print: the semicircle AZB about E, the Earth through F, the vertical EZ, the lines",
+  "FL and EL, LF produced to Q and the perpendicular QE (dashed), and the letters.",
+  "Measured on the scan (_intake/latin/tools/fig265)."
+ ],
+ "origin": [
+  370.6,
+  113.94
+ ],
+ "scale": 0.99639,
+ "size": [
+  130.0,
+  95.0
+ ],
+ "label_pt": 11,
+ "circles": [],
+ "segments": [
+  {
+   "name": "the diameter AB",
+   "x0": 375.09,
+   "y0": 195.93,
+   "x1": 496.43,
+   "y1": 196.47,
+   "w": 1.0
+  },
+  {
+   "name": "the vertical EZ",
+   "x0": 436.09,
+   "y0": 196.2,
+   "x1": 436.1,
+   "y1": 136.72,
+   "w": 1.37
+  },
+  {
+   "name": "the line FL",
+   "x0": 436.09,
+   "y0": 175.41,
+   "x1": 474.13,
+   "y1": 149.58,
+   "w": 1.2
+  },
+  {
+   "name": "the line EL",
+   "x0": 436.09,
+   "y0": 196.2,
+   "x1": 474.2,
+   "y1": 149.78,
+   "w": 1.29
+  }
+ ],
+ "arcs": [
+  {
+   "name": "the semicircle AZB",
+   "cx": 435.76,
+   "cy": 196.67,
+   "r": 59.94,
+   "a0": -179.29,
+   "a1": -0.18,
+   "w": 1.45
+  },
+  {
+   "name": "the Earth, the small semicircle through F",
+   "cx": 436.04,
+   "cy": 196.33,
+   "r": 20.92,
+   "a0": -179.4,
+   "a1": -0.08,
+   "w": 1.44
+  }
+ ],
+ "groups": [
+  {
+   "comment": "the dashed line FQ, LF produced to Q",
+   "w": 1.3,
+   "segs": [
+    [
+     434.93,
+     176.22,
+     433.01,
+     177.57
+    ],
+    [
+     432.52,
+     177.91,
+     429.96,
+     179.7
+    ],
+    [
+     429.64,
+     179.92,
+     426.21,
+     182.33
+    ]
+   ]
+  },
+  {
+   "comment": "the dashed line the perpendicular QE",
+   "w": 1.3,
+   "segs": [
+    [
+     426.29,
+     181.87,
+     427.35,
+     183.41
+    ],
+    [
+     427.71,
+     183.94,
+     430.22,
+     187.62
+    ],
+    [
+     430.54,
+     188.08,
+     434.3,
+     193.59
+    ],
+    [
+     434.37,
+     193.69,
+     435.39,
+     195.18
+    ]
+   ]
+  }
+ ],
+ "dots": [],
+ "labels": [
+  {
+   "t": "\\resizebox{6.97pt}{7.53pt}{Z}",
+   "cx": 436.51,
+   "cy": 130.86,
+   "font": "\\fontsize{11}{11}\\bfseries\\selectfont"
+  },
+  {
+   "t": "\\resizebox{7.35pt}{8.34pt}{L}",
+   "cx": 477.77,
+   "cy": 144.48,
+   "font": "\\fontsize{11}{11}\\bfseries\\selectfont"
+  },
+  {
+   "t": "\\resizebox{5.64pt}{8.48pt}{F}",
+   "cx": 429.91,
+   "cy": 170.74,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{6.49pt}{6.46pt}{Q}",
+   "cx": 423.98,
+   "cy": 187.72,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{6.23pt}{7.65pt}{E}",
+   "cx": 435.7,
+   "cy": 201.12,
+   "font": "\\fontsize{11}{11}\\bfseries\\selectfont"
+  },
+  {
+   "t": "\\resizebox{8.42pt}{7.88pt}{A}",
+   "cx": 374.88,
+   "cy": 202.96,
+   "font": "\\fontsize{11}{11}\\bfseries\\selectfont"
+  },
+  {
+   "t": "\\resizebox{8.55pt}{7.77pt}{B}",
+   "cx": 494.57,
+   "cy": 203.24,
+   "font": "\\fontsize{11}{11}\\bfseries\\selectfont"
+  }
+ ],
+ "boxes": {
+  "Z@433,127": [
+   6.48,
+   7.56
+  ],
+  "L@474,140": [
+   6.72,
+   8.4
+  ],
+  "F@427,166": [
+   6.48,
+   8.52
+  ],
+  "Q@421,183": [
+   6.0,
+   8.64
+  ],
+  "E@433,197": [
+   5.76,
+   7.68
+  ],
+  "A@370,198": [
+   8.4,
+   7.92
+  ],
+  "B@490,199": [
+   7.68,
+   7.8
+  ]
+ },
+ "points": {
+  "E": [
+   436.09,
+   196.2
+  ],
+  "E2": [
+   436.11,
+   196.2
+  ],
+  "Z": [
+   436.1,
+   136.72
+  ],
+  "A": [
+   375.82,
+   195.93
+  ],
+  "B": [
+   495.7,
+   196.47
+  ],
+  "a": [
+   415.12,
+   196.11
+  ],
+  "b": [
+   456.96,
+   196.3
+  ],
+  "F": [
+   436.09,
+   175.41
+  ],
+  "F2": [
+   436.09,
+   175.57
+  ],
+  "L1": [
+   474.66,
+   149.22
+  ],
+  "L2": [
+   473.44,
+   150.05
+  ],
+  "L3": [
+   473.76,
+   150.31
+  ],
+  "Q": [
+   426.48,
+   182.14
+  ]
+ }
+}
