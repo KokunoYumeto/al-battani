@@ -1,0 +1,69 @@
+@page 288 199
+% Notes on chapter 25, a) concluded: Schiaparelli's objections continued: the names sinus longissimus and sinus crescens for quantities greater than R, Delambre's strange factor; al-Battānī did not invert the rules of chapter 18, the problem being that of the altitude and azimuth with the latitude 90° − ε; the division into many named parts; his conclusion that the rules for the variatio are an interpolation by the owner of a copy that had lost a leaf. b) on p. 37, ll. 21-25: the latitude of a star from its declination and longitude, rules (α) and (β); their derivation from the triangles ABC and CDQ', with the figure; β' is not taught (begun).
+@nonum
+imposita quae semper $R$ excedunt, et quibus in sphaera nulla possibilis repraesentatio geome-
+trica respondet; ita ut vehementer dubitandum sit eas unquam posse in similia problemata
+solvenda adhiberi. Factor qui earum mutua ratione determinatur, a {sp:Delambre}, p. 27, « as-
+@vspace -0.12
+« sez étrange » dicitur, et insuetam vere faciem prae se fert.
+^ Valde quoque mirum est al–Battānī in hoc capite formulas iam inventas ad solvendum
+contrarium problema XVIII capitis non invertisse, sicut alias fecerat, nec vidisse quod latitu-
+dinem et longitudinem ex ascensione recta et declinatione elicere idem est ac altitudinem et
+@vspace -0.09
+azimuth a declinatione et angulo horario cognoscere, cum sufficiat in hoc ultimo problemate
+distantiam inter zenith et polum $= \text{ε}$, scilicet latitudinem $= \text{90°} - \text{ε}$ ponere.
+^ Ab usu Albateniano demum abhorrens videtur calculi divisio in multas easque parvas
+@vspace -0.07
+partes, peculiaribus nominibus designatas; id al–Battānī in reliquis capitibus perraro facit, ac
+tantum patentibus commodi causis motus.
+^ His omnibus perpensis, ea quae calculum *variationis stellae* seu longitudinis docent ar-
+@vspace -0.10
+bitror ab al–Battānī non provenire et stultissimam esse interpolationem. Facilis est coniectura
+in exemplari a quo postea codex Escurialensis et codex Platonis derivati sunt, folium inte-
+riisse quo vera al–Battānī praecepta continerentur; eius possessorem igitur, bono animo ma-
+gis quam scientia astronomica praeditum, lacunam explere pro suis (eheu quam parvis!) viri-
+bus studuisse. — {sc:Schiaparelli}.]
+@vspace 5.14
+@center {bi:b}) — *Pag. 37, l. 21–25.*
+@vspace 5.07
+^ *Latitudinem* β stellae supputare, cum declinatio et longitudo notae sint.
+^ Solutio problematis a cognitione arcus pendet, quem auctor ita definit
+@vspace -0.49
+@at 0:(α) | 94^:$\text{sin arcus} = \dfrac{\sin\text{δ} \cos\text{β}'}{\cos\text{ε}}$,
+@vspace 0.81
+ubi β′ est quod al–Battānī « declinationem gradus in quo stellam invenisti » appellat, scilicet
+procul dubio declinatio *secunda* gradus longitudinis stellae, quae est latitudo gradus aequa-
+toris eandem longitudinem quam stella habentis. Erit postea
+@at 0:(β) | 94^:$\text{β} = \text{β}' - \text{arcus}, \qquad \text{vel} \qquad \text{β} = \text{arcus} - \text{β}'$,
+@vspace -0.09
+prout β′ maior aut minor arcu erit.
+^ Via qua auctor ad formulas suas pervenit haec probabiliter est: Sit QPEDP′ circulus
+@wrap 0.246 AB01-PDF0288-F01
+meridianus, ♈E ecliptica, ♈D aequator, PAB circulus decli-
+@vspace -0.12
+nationis per stellam A transiens, QACQ′ circulus latitudinis
+eiusdem stellae A. Itaque $\text{AB} = \text{δ}$, $\text{AH} = \text{β}$, $\text{HC} = \text{β}'$, AC ar-
+cus quaesitus. E triangulo ABC, rectangulo in B, deducitur
+@center $\sin AC = R\,\dfrac{\sin AB}{\text{sin ang.}\ C} = R\,\dfrac{\sin\text{δ}}{\text{sin ang.}\ C}$.
+Triangulum CDQ′, rectangulum in D, praebet
+@vspace -0.21
+@center $\text{sin ang.}\ C = R\,\dfrac{\sin DQ'}{\sin CQ'} = R\,\dfrac{\cos\text{ε}}{\cos\text{β}'}$,
+unde
+@endwrap
+@vspace -0.47
+@at 0:(α) | 94^:$\sin AC = \dfrac{R \sin\text{δ}}{R\,\dfrac{\cos\text{ε}}{\cos\text{β}'}} = \dfrac{\sin\text{δ} \cos\text{β}'}{\cos\text{ε}}$.
+^ Sed neque hic, neque antea in XVIII capite (cfr. pag. 193), quo modo necessaria quantitas
+β′ supputetur auctor docet. Potest e tabulis elici; arcus eclipticae 90° + ♈H fingatur esse
+@obs body L1-L2: the remark holds for the sinus longissimus, 2R − cos ε, which always exceeds R; the sinus crescens, 2R − cos δ′, equals R when δ′ = 0 and exceeds it otherwise.
+@obs body L5, L11, L14, L16, L23: the dashes of «al–Battānī» are long dashes (5.4 to 5.5 pt).
+@obs body L5-L9: the remark is right: the latitude and longitude follow from the right ascension and the declination as the altitude and azimuth from the declination and the hour angle, the pole of the ecliptic standing for the zenith at the distance ε from the pole of the equator, that is, for the latitude 90° − ε.
+@obs body L9: the minus sign is printed as a long dash (10.2 pt); it is set as a minus sign.
+@obs body L12: Nallino's addenda et emendanda (Part I, p. LXXIII) read «199,12, adde: ut cap. XXXIX, p. 78–79.»; the printed line is kept.
+@obs body L18: the dash before Schiaparelli's name measures 9.8 pt; the heavy bracket closes his addition, begun on p. 198.
+@obs body L19: in the head, the dash after «b)» measures 10.4 pt and the dash of «21–25» 5.5 pt; transcribed as a dash and a long dash.
+@obs body L22, L26-L27: rules (α) and (β) are right: AC is the arc, and on the circle of latitude AH = β and HC = β′, so that β = AC − β′ when H lies between A and C (β′ smaller than the arc), and β = β′ − AC when A lies between H and C.
+@obs body L26: the minus signs are printed as long dashes (10.2 pt); they are set as minus signs.
+@obs body L29-L36: the figure stands at the left of lines 29 to 36, which are set beside it in a narrow measure. It is redrawn from measurements of the print: the meridian QPEDP′, printed a little wider than high, as an ellipse; the equator, from the left of the meridian through the first point of Aries to D, and the ecliptic, to E, as straight lines; the axes PP′ and QQ′ in dashes, each dash where it printed; the circle of declination PAB, to P′, and the circle of latitude QACQ′ as arcs; the braces ε (Q to P, between the left ends of the equator and the ecliptic, and E to D), β (A to H), β′ (H to C), 90° − β′ (C to Q′) and 90° − ε (D to Q′), with their labels, the last two turned along the curves; the bold italic letters, the sign of Aries and the italic words aequator and ecliptica.
+@obs body L29-L34: the letters of the figure named in the text are upright, in the type of the text; in the formulas they are italic.
+@obs body L33-L37: the derivation is right: in the triangle ABC, right-angled at B, sin AB = sin AC sin C; in the triangle CDQ′, right-angled at D, where the meridian meets the equator, sin DQ′ = sin CQ′ sin C, with DQ′ = 90° − ε and CQ′ = 90° − β′, the arcs marked in the figure; hence sin AC = sin δ cos β′/cos ε.
+@obs body L39: a short bar, a speck, stands under the a of «arcus».
