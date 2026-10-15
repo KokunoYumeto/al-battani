@@ -20,6 +20,9 @@ ink (_intake/latin/tools/fig_measure2.py). Optional:
            of a graduation, the dashes of a broken line), drawn eight to a command
   "fills"  [{"pts": [[x, y], ...], "name"}]: a small printed shape filled through its traced outline (a smooth
            closed curve through the points), for marks that are not lines, circles or letters
+  "arcbraces" [{"cx", "cy", "r", "a0", "a1", "amp", "w", "name"}]: a curly brace along the arc of radius r from
+           the angle a0 to a1 (degrees, as for "arcs"), its ends on the arc and its point "amp" pt outside it (a
+           negative amp puts the point inside); drawn as a curve through computed points
   "ellipses" [{"cx", "cy", "rx", "ry", "w", "name"}]: an ellipse with axes parallel to the page (a circle printed
            a little wider than high)
   "braces" [{"x0", "y0", "x1", "y1", "amp", "w", "name"}]: a curly brace along the line from (x0, y0) to (x1, y1),
@@ -108,6 +111,28 @@ def main():
         for k in range(0, len(segs), 8):
             out.append(r"\draw[" + style + "] " + " ".join("(" + X(x0) + "," + Y(y0) + ")--(" + X(x1) + "," + Y(y1)
                                                           + ")" for x0, y0, x1, y1 in segs[k:k + 8]) + ";")
+    for br in d.get("arcbraces", []):
+        # the profile of a brace across its length t (0..1): the ends curl out to half the amplitude, the middle
+        # rises to the point (as the brace decoration, but following the arc)
+        L = abs(math.radians(br["a1"] - br["a0"])) * br["r"]
+        c = min(0.22, 2.4 / max(L, 1e-6))
+        amp = br["amp"]
+
+        def prof(t):
+            u = min(t, 1 - t)
+            if u < c:
+                return amp / 2 * math.sin(math.pi / 2 * u / c)
+            if u < 0.5 - c:
+                return amp / 2
+            return amp / 2 + amp / 2 * (1 - math.cos(math.pi / 2 * (u - (0.5 - c)) / c))
+        pts = []
+        for k in range(121):
+            t = k / 120
+            a_ = math.radians(br["a0"] + (br["a1"] - br["a0"]) * t)
+            rr = br["r"] + prof(t)
+            pts.append((br["cx"] + rr * math.cos(a_), br["cy"] + rr * math.sin(a_)))
+        out.append(r"\draw[line width=" + f"{br['w'] * s:.2f}" + "pt,line cap=round,line join=round] "
+                   + " -- ".join("(" + X(x) + "," + Y(y) + ")" for x, y in pts) + ";  % " + br["name"])
     for br in d.get("braces", []):
         out.append(r"\draw[decorate,decoration={brace,amplitude=" + f"{br['amp'] * s:.2f}" + "pt},line width="
                    + f"{br['w'] * s:.2f}" + "pt] (" + X(br["x0"]) + "," + Y(br["y0"]) + ") -- (" + X(br["x1"]) + ","
@@ -129,7 +154,7 @@ def main():
     print(f"wrote {name}.tex: {len(d['circles'])} circles, {len(d['segments'])} lines, "
           f"{sum(len(g['segs']) for g in d.get('groups', []))} strokes in groups, {len(d['labels'])} letters, "
           f"{len(d.get('hatch', []))} hatched parts, {len(d.get('fills', []))} filled shapes, "
-          f"{len(d.get('words', []))} words, {len(d.get('braces', []))} braces")
+          f"{len(d.get('words', []))} words, {len(d.get('braces', [])) + len(d.get('arcbraces', []))} braces")
 
 
 if __name__ == "__main__":
