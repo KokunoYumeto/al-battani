@@ -1,0 +1,340 @@
+{
+ "pdf": 266,
+ "printed_page": 177,
+ "comment": [
+  "Nallino, Part I p. 177: the figure of the solstitial amplitude, redrawn from the print: the meridian ABGD as a",
+  "circle; the equator AEG, the horizon BED and the circle of declination PTHZ through the solstitial point H as",
+  "arcs of circles; the line from the pole P through E to the pole Z in dashes; the letters P, A, T, B, H, E, D,",
+  "G and Z. Measured on the scan (_intake/latin/tools/fig177)."
+ ],
+ "origin": [
+  49.7,
+  548.98
+ ],
+ "scale": 0.99323,
+ "size": [
+  119.0,
+  126.0
+ ],
+ "label_pt": 11,
+ "circles": [
+  {
+   "name": "the meridian ABGD",
+   "cx": 111.97,
+   "cy": 618.86,
+   "r": 50.97,
+   "w": 1.11
+  }
+ ],
+ "segments": [],
+ "arcs": [
+  {
+   "name": "the equator AEG",
+   "cx": 246.44957099211618,
+   "cy": 339.3440622844582,
+   "r": 311.81642418031566,
+   "a0": 125.089,
+   "a1": 106.298,
+   "w": 1.13
+  },
+  {
+   "name": "the horizon BED",
+   "cx": 119.27154380074778,
+   "cy": 251.3193526968585,
+   "r": 369.2348977311036,
+   "a0": 99.067,
+   "a1": 83.21,
+   "w": 1.08
+  },
+  {
+   "name": "the circle of declination PTHZ",
+   "cx": 156.26943309556174,
+   "cy": 640.9549588684033,
+   "r": 70.28007712158421,
+   "a0": 252.978,
+   "a1": 160.034,
+   "w": 1.12
+  }
+ ],
+ "groups": [
+  {
+   "w": 1.24,
+   "cap": "round",
+   "segs": [
+    [
+     133.75,
+     577.59,
+     132.39,
+     579.89
+    ],
+    [
+     131.54,
+     581.65,
+     130.31,
+     583.56
+    ],
+    [
+     129.26,
+     585.85,
+     128.03,
+     587.76
+    ],
+    [
+     127.07,
+     590.01,
+     126.2,
+     591.37
+    ],
+    [
+     125.42,
+     593.64,
+     124.35,
+     595.34
+    ],
+    [
+     123.19,
+     597.92,
+     122.18,
+     599.68
+    ],
+    [
+     120.99,
+     602.16,
+     120.02,
+     603.69
+    ],
+    [
+     119.23,
+     605.43,
+     118.27,
+     607.2
+    ],
+    [
+     117.26,
+     609.4,
+     116.32,
+     611.18
+    ],
+    [
+     115.32,
+     613.48,
+     114.35,
+     615.08
+    ],
+    [
+     113.43,
+     617.19,
+     112.44,
+     619.06
+    ],
+    [
+     107.58,
+     629.3,
+     106.61,
+     631.12
+    ],
+    [
+     105.57,
+     633.3,
+     104.57,
+     635.02
+    ],
+    [
+     103.7,
+     636.97,
+     102.47,
+     638.88
+    ],
+    [
+     101.6,
+     640.92,
+     100.54,
+     642.43
+    ],
+    [
+     99.69,
+     644.46,
+     98.69,
+     646.18
+    ],
+    [
+     97.89,
+     647.94,
+     96.89,
+     649.66
+    ],
+    [
+     96.15,
+     651.27,
+     95.16,
+     653.14
+    ],
+    [
+     94.42,
+     655.0,
+     93.33,
+     656.83
+    ],
+    [
+     92.39,
+     658.96,
+     91.79,
+     659.97
+    ],
+    [
+     135.03,
+     574.34,
+     134.15,
+     576.09
+    ],
+    [
+     111.36,
+     621.27,
+     110.51,
+     622.95
+    ],
+    [
+     90.92,
+     661.78,
+     89.99,
+     663.63
+    ]
+   ],
+   "comment": "the dashes of the line from P through E to Z (the stubs at P, E and Z join the strokes)"
+  }
+ ],
+ "labels": [
+  {
+   "t": "\\resizebox{7.49pt}{7.51pt}{P}",
+   "cx": 139.31,
+   "cy": 567.8,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{7.92pt}{7.39pt}{A}",
+   "cx": 58.36,
+   "cy": 593.68,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{6.88pt}{7.15pt}{T}",
+   "cx": 91.22,
+   "cy": 602.8,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{7.48pt}{7.63pt}{B}",
+   "cx": 52.78,
+   "cy": 615.62,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{9.42pt}{7.27pt}{H}",
+   "cx": 81.08,
+   "cy": 624.06,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{8.19pt}{7.39pt}{E}",
+   "cx": 112.13,
+   "cy": 628.7,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{6.99pt}{7.39pt}{D}",
+   "cx": 169.4,
+   "cy": 617.06,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{7.46pt}{7.75pt}{G}",
+   "cx": 164.45,
+   "cy": 637.98,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{6.16pt}{7.51pt}{Z}",
+   "cx": 85.61,
+   "cy": 669.56,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  }
+ ],
+ "boxes": {
+  "P": [
+   135.84,
+   564.02,
+   144.12,
+   571.58
+  ],
+  "A": [
+   54.52,
+   589.96,
+   62.32,
+   597.4
+  ],
+  "T": [
+   88.96,
+   599.2,
+   95.8,
+   606.4
+  ],
+  "B": [
+   49.08,
+   611.78,
+   56.52,
+   619.46
+  ],
+  "H": [
+   76.96,
+   620.4,
+   87.04,
+   627.72
+  ],
+  "E": [
+   108.36,
+   624.98,
+   117.0,
+   632.42
+  ],
+  "D": [
+   166.1,
+   613.34,
+   173.18,
+   620.78
+  ],
+  "G": [
+   161.52,
+   634.08,
+   168.6,
+   641.88
+  ],
+  "Z": [
+   82.72,
+   665.78,
+   89.56,
+   673.34
+  ]
+ },
+ "points": {
+  "P": [
+   135.7,
+   573.75
+  ],
+  "Z": [
+   90.21,
+   664.95
+  ],
+  "T": [
+   92.84,
+   610.7
+  ],
+  "H": [
+   89.39,
+   619.34
+  ],
+  "E": [
+   111.56,
+   620.47
+  ]
+ }
+}

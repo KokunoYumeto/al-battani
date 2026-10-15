@@ -1,0 +1,509 @@
+{
+ "anchor": "AB01-PDF0266",
+ "master_pdf_page": 266,
+ "printed_page": 177,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": "23",
+ "margin_locators": [],
+ "observations": [
+  "body L1-L25: the end of the note e) on p. 17, l. 33, begun on p. 175.",
+  "body L6, L11: «Mare Viride» of L11 is printed heavier than the same words in L6, as by a heavier impression at the beginning of the line; the letters are those of the italic, and it is transcribed as italic.",
+  "body L17: the dash of «yamā dh–» at the end of the line is the long dash of the name (5.4 pt), as in «dh–sūph» earlier in the line; the name goes on in the next line.",
+  "body L18: the Syriac words are printed in the Serto script, the dālath with its dot below; the edition sets them in an Estrangela type.",
+  "body L26: the head of the notes on chapter 7, «Ad» and «caput» in small capitals, in the larger type of the heads.",
+  "body L28-L36: the figure stands at the left of lines 28 to 36, which are set beside it in a narrow measure. It is redrawn from measurements of the print: the meridian ABGD as a circle; the equator AEG, the horizon BED and the circle of declination PTHZ through the solstitial point H as arcs of circles fitted to the printed strokes; the line from the pole P through E to the pole Z in dashes, each drawn where it printed, with the short pieces that join the strokes at P, E and Z (between the junction at E and the dash beside the letter E one dash of the series did not print). The letters are bold italic.",
+  "body L35: the formula is Menelaus' theorem for the spherical triangle THE cut by the meridian ABZ: sin AT : sin AE = (sin TZ : sin ZH) × (sin HB : sin BE), written with the chords of the double arcs; checked, the ratios are as printed. With AE = 90°, TZ = 90°, ZH = 90° − ε and HB = 90° − HE it gives cos HE = sin P cos ε.",
+  "notes_left L5: «riq» is printed heavier than the rest of the italic of the note, as by a heavier impression at the beginning of the line; transcribed as italic.",
+  "notes_left, notes_right: the rule over the notes is 114.4 pt long; a thin vertical rule stands between the two columns of notes. The signature 23 stands at the foot of the page, at the right."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0266-body-L001",
+     "source_line_no": null,
+     "tex": "manifeste pars maris al–Qolzum iis proxima debet borealis esse. Nec aliter potest « finis »",
+     "transcription": "manifeste pars maris al–Qolzum iis proxima debet borealis esse. Nec aliter potest « finis »",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0266-body-L002",
+     "source_line_no": null,
+     "tex": "intelligi, quae opponitur origini, scilicet freto quod nos Bāb el–Mandeb appellamus. \\Name{Iacobus}",
+     "transcription": "intelligi, quae opponitur origini, scilicet freto quod nos Bāb el–Mandeb appellamus. {sp:Iacobus}",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0266-body-L003",
+     "source_line_no": null,
+     "tex": "\\Name{Edessenus} id certissime confirmat; scribit enim in \\textit{Hexemerone} (p. LXVI vers. \\textit{Hjelt}): « in",
+     "transcription": "{sp:Edessenus} id certissime confirmat; scribit enim in *Hexemerone* (p. LXVI vers. *Hjelt*): « in",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0266-body-L004",
+     "source_line_no": null,
+     "tex": "« latitudinem extrema parte australi 400 fere milliaria, septentrionali vero ad ducenta aut",
+     "transcription": "« latitudinem extrema parte australi 400 fere milliaria, septentrionali vero ad ducenta aut",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0266-body-L005",
+     "source_line_no": null,
+     "tex": "« fortasse minus patet ». Res cum ita sint, posset aliquis arbitrari veram lectionem esse quam",
+     "transcription": "« fortasse minus patet ». Res cum ita sint, posset aliquis arbitrari veram lectionem esse quam",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0266-body-L006",
+     "source_line_no": null,
+     "tex": "\\Name{Qodāmah} praebet, et hoc loco nomen \\textit{Mare Viride} ad Mediterraneum pertinere (ut inter-",
+     "transcription": "{sp:Qodāmah} praebet, et hoc loco nomen *Mare Viride* ad Mediterraneum pertinere (ut inter-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0266-body-L007",
+     "source_line_no": null,
+     "tex": "dum, sed raro, Arabes aiunt), quod iure potest extremitati boreali maris al–Qolzum contiguum",
+     "transcription": "dum, sed raro, Arabes aiunt), quod iure potest extremitati boreali maris al–Qolzum contiguum",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0266-body-L008",
+     "source_line_no": null,
+     "tex": "dici. Difficultates tamen non desunt; parum probabile videtur Qodāmah tantum bonam lectio-",
+     "transcription": "dici. Difficultates tamen non desunt; parum probabile videtur Qodāmah tantum bonam lectio-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0266-body-L009",
+     "source_line_no": null,
+     "tex": "nem servasse, et alios omnes, etiam qui vetustiores essent Qodāmah, textum corrupisse; nec",
+     "transcription": "nem servasse, et alios omnes, etiam qui vetustiores essent Qodāmah, textum corrupisse; nec",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0266-body-L010",
+     "source_line_no": null,
+     "tex": "explicari posset cur in harum descriptionum locis in quibus de Mediterraneo agitur nomen",
+     "transcription": "explicari posset cur in harum descriptionum locis in quibus de Mediterraneo agitur nomen",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0266-body-L011",
+     "source_line_no": null,
+     "tex": "\\textit{Mare Viride} nunquam memoretur.",
+     "transcription": "*Mare Viride* nunquam memoretur.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0266-body-L012",
+     "source_line_no": null,
+     "tex": "\\Indent Vera interpretatio mihi videtur e loco astronomiae Syriacae \\Name{Barhebraei}, nuperrime",
+     "transcription": "Vera interpretatio mihi videtur e loco astronomiae Syriacae {sp:Barhebraei}, nuperrime",
+     "semantic_anchor": "AB01-PDF0266-P01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0266-body-L013",
+     "source_line_no": null,
+     "tex": "a \\Name{Nau} editae, elici posse. Auctor, qui anno 1279 Chr. scripsit, ad maria, lacus, flumina de-",
+     "transcription": "a {sp:Nau} editae, elici posse. Auctor, qui anno 1279 Chr. scripsit, ad maria, lacus, flumina de-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0266-body-L014",
+     "source_line_no": null,
+     "tex": "scribenda vetustissimis auctoribus Syriis atque scriptoribus Arabicis pariter usus est; de mari",
+     "transcription": "scribenda vetustissimis auctoribus Syriis atque scriptoribus Arabicis pariter usus est; de mari",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0266-body-L015",
+     "source_line_no": null,
+     "tex": "Rubro (\\textit{yamā sūmāqā}) haec habet (p. 135 textus): « Secundus [sinus qui ex Oceano Indico",
+     "transcription": "Rubro (*yamā sūmāqā*) haec habet (p. 135 textus): « Secundus [sinus qui ex Oceano Indico",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0266-body-L016",
+     "source_line_no": null,
+     "tex": "« oritur] est mare Rubrum, quod parvum est, et in longitudinem 400 milliaria patet; latitudo",
+     "transcription": "« oritur] est mare Rubrum, quod parvum est, et in longitudinem 400 milliaria patet; latitudo",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0266-body-L017",
+     "source_line_no": null,
+     "tex": "« eius extremitatis, quae \\textit{yamā dh–sūph} est, 200 milliaria complectitur ». Hoc \\textit{yamā dh–}",
+     "transcription": "« eius extremitatis, quae *yamā dh–sūph* est, 200 milliaria complectitur ». Hoc *yamā dh–*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0266-body-L018",
+     "source_line_no": null,
+     "tex": "\\textit{sūph} \\textsyriac{ܝܡܐ ܕܣܘܦ}, quod iam in vetustissimis versionibus Syriacis Veteris et Novi Testamenti",
+     "transcription": "*sūph* {syr:ܝܡܐ ܕܣܘܦ}, quod iam in vetustissimis versionibus Syriacis Veteris et Novi Testamenti",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0266-body-L019",
+     "source_line_no": null,
+     "tex": "legitur, est nomen Hebraicum \\textit{yam sūph,} indoli linguae Syriacae aptato; significat « mare",
+     "transcription": "legitur, est nomen Hebraicum *yam sūph,* indoli linguae Syriacae aptato; significat « mare",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0266-body-L020",
+     "source_line_no": null,
+     "tex": "algarum » et indicat tractum maris Rubri in quo Pharao, Israelitas persequens, miserrime",
+     "transcription": "algarum » et indicat tractum maris Rubri in quo Pharao, Israelitas persequens, miserrime",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0266-body-L021",
+     "source_line_no": null,
+     "tex": "cum suis interiit. Primus Syrus qui e Geographia Ptolemaei illam descriptionem marium con-",
+     "transcription": "cum suis interiit. Primus Syrus qui e Geographia Ptolemaei illam descriptionem marium con-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0266-body-L022",
+     "source_line_no": null,
+     "tex": "gessit, nomen sacris traditionibus celeberrimum omittere noluit; Arabs autem qui Syriaca",
+     "transcription": "gessit, nomen sacris traditionibus celeberrimum omittere noluit; Arabs autem qui Syriaca",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0266-body-L023",
+     "source_line_no": null,
+     "tex": "vertit, haud bene sciens qualis planta voci \\textit{sūph} responderet, iure ad sensum « \\textit{mare Viride} »",
+     "transcription": "vertit, haud bene sciens qualis planta voci *sūph* responderet, iure ad sensum « *mare Viride* »",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0266-body-L024",
+     "source_line_no": null,
+     "tex": "transtulit. — Ergo lectio \\Name{al–Battānī} optima est; \\ArabicRun{المتصل} « coniunctum, contiguum » \\Name{Qodā-}",
+     "transcription": "transtulit. — Ergo lectio {sp:al–Battānī} optima est; {ar:المتصل} « coniunctum, contiguum » {sp:Qodā-}",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0266-body-L025",
+     "source_line_no": null,
+     "tex": "\\Name{mae} est error vel falsa correctio pro \\ArabicRun{المسمى} « appellatum ».",
+     "transcription": "{sp:mae} est error vel falsa correctio pro {ar:المسمى} « appellatum ».",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0266-body-L026",
+     "source_line_no": null,
+     "tex": "\\CenterLine{A\\textsc{d} \\textsc{caput} VII.}",
+     "transcription": "A{sc:d} {sc:caput} VII.",
+     "semantic_anchor": "AB01-PDF0266-H26",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0266-body-L027",
+     "source_line_no": null,
+     "tex": "\\CenterLine{\\textbf{\\textit{a}}) — \\textit{Pag. 20, l. 22–30.}}",
+     "transcription": "{bi:a}) — *Pag. 20, l. 22–30.*",
+     "semantic_anchor": "AB01-PDF0266-H27",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0266-body-F01",
+     "source_line_no": null,
+     "tex": "\\input{figures/AB01-PDF0266-F01}",
+     "transcription": "[figure, redrawn: figures/AB01-PDF0266-F01.tex]",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_FIGURE"
+    },
+    {
+     "id": "AB01-PDF0266-body-L028",
+     "source_line_no": null,
+     "tex": "\\Indent \\textit{Amplitudinem solstitialem} (1) supputare, datis arcu semi-",
+     "transcription": "*Amplitudinem solstitialem* (1) supputare, datis arcu semi-",
+     "semantic_anchor": "AB01-PDF0266-P02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0266-body-L029",
+     "source_line_no": null,
+     "tex": "diurno maximo (P) et obliquitate eclipticae (\\textgreek{ε}).",
+     "transcription": "diurno maximo (P) et obliquitate eclipticae (ε).",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0266-body-L030",
+     "source_line_no": null,
+     "tex": "\\Indent Sit ABGD circulus meridianus, AEG circulus aequinoctialis",
+     "transcription": "Sit ABGD circulus meridianus, AEG circulus aequinoctialis",
+     "semantic_anchor": "AB01-PDF0266-P03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0266-body-L031",
+     "source_line_no": null,
+     "tex": "(cuius poli P et Z), BED horizon, H punctum solstitiale eclipticae;",
+     "transcription": "(cuius poli P et Z), BED horizon, H punctum solstitiale eclipticae;",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0266-body-L032",
+     "source_line_no": null,
+     "tex": "erunt TH = \\textgreek{ε}, AT = P, HE = amplitudini solstitiali. Per hanc",
+     "transcription": "erunt TH = ε, AT = P, HE = amplitudini solstitiali. Per hanc",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0266-body-L033",
+     "source_line_no": null,
+     "tex": "constructionem \\Name{Ptolemaeus}, \\textit{Almag.} II, 2 (ed. Halma, t. I,",
+     "transcription": "constructionem {sp:Ptolemaeus}, *Almag.* II, 2 (ed. Halma, t. I,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0266-body-L034",
+     "source_line_no": null,
+     "tex": "p. 67–69) demonstrat",
+     "transcription": "p. 67–69) demonstrat",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0266-body-L035",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{12.51mm}$\\dfrac{\\text{chorda } 2\\,AT}{\\text{chorda } 2\\,AE} = \\dfrac{\\text{chorda } 2\\,TZ}{\\text{chorda } 2\\,ZH} \\times \\dfrac{\\text{chorda } 2\\,HB}{\\text{chorda } 2\\,BE}$}",
+     "transcription": "$\\dfrac{\\text{chorda } 2\\,AT}{\\text{chorda } 2\\,AE} = \\dfrac{\\text{chorda } 2\\,TZ}{\\text{chorda } 2\\,ZH} \\times \\dfrac{\\text{chorda } 2\\,HB}{\\text{chorda } 2\\,BE}$",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0266-body-L036",
+     "source_line_no": null,
+     "tex": "id est",
+     "transcription": "id est",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    }
+   ]
+  },
+  {
+   "role": "notes_left",
+   "lines": [
+    {
+     "id": "AB01-PDF0266-notes_left-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (1) Est arcus horizontis inter punctum orientis",
+     "transcription": "(1) Est arcus horizontis inter punctum orientis",
+     "semantic_anchor": "AB01-PDF0266-N01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0266-notes_left-L002",
+     "source_line_no": null,
+     "tex": "aut occidentis et locum horizontis a quo punctum",
+     "transcription": "aut occidentis et locum horizontis a quo punctum",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0266-notes_left-L003",
+     "source_line_no": null,
+     "tex": "solstitiale eclipticae ascendit; si a puncto orientis",
+     "transcription": "solstitiale eclipticae ascendit; si a puncto orientis",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0266-notes_left-L004",
+     "source_line_no": null,
+     "tex": "supputatur dicitur \\textit{amplitudo ortiva} (\\textit{sa‘at al-mash-}",
+     "transcription": "supputatur dicitur *amplitudo ortiva* (*sa‘at al-mash-*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0266-notes_left-L005",
+     "source_line_no": null,
+     "tex": "\\textit{riq}), si a puncto occidentis \\textit{amplitudo occidua} (\\textit{sa-}",
+     "transcription": "*riq*), si a puncto occidentis *amplitudo occidua* (*sa-*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  },
+  {
+   "role": "notes_right",
+   "lines": [
+    {
+     "id": "AB01-PDF0266-notes_right-L001",
+     "source_line_no": null,
+     "tex": "\\textit{‘at al-maghrib}). Amplitudines auctor potest quo-",
+     "transcription": "*‘at al-maghrib*). Amplitudines auctor potest quo-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0266-notes_right-L002",
+     "source_line_no": null,
+     "tex": "que \\textit{azimuth} appellare, cum apud Arabes azimu-",
+     "transcription": "que *azimuth* appellare, cum apud Arabes azimu-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0266-notes_right-L003",
+     "source_line_no": null,
+     "tex": "thorum initium a puncto orientis aut occidentis ca-",
+     "transcription": "thorum initium a puncto orientis aut occidentis ca-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0266-notes_right-L004",
+     "source_line_no": null,
+     "tex": "piatur, non, ut apud nos semper, a puncto boreali",
+     "transcription": "piatur, non, ut apud nos semper, a puncto boreali",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0266-notes_right-L005",
+     "source_line_no": null,
+     "tex": "aut australi.",
+     "transcription": "aut australi.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  }
+ ]
+}
