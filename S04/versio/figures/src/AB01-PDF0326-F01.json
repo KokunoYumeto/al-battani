@@ -1,0 +1,1259 @@
+{
+ "pdf": 326,
+ "printed_page": 237,
+ "comment": [
+  "Nallino, Part I p. 237: Schiaparelli's restoration of the figure of p. 64, redrawn from the print: the deflectent",
+  "GBFD about the Earth E; the eccentric GHKL about M; the epicycles about H and L; the circle ABCD in dashes, each",
+  "where it printed; the line from A (two dashes to G) through G, E', M, E, K and C to F; the lines MHQ, EHP, ETN and",
+  "the radius HT; MLR, ELV, EXZ and the radius LX; the bold italic letters. Measured on the scan",
+  "(_intake/latin/tools/fig237)."
+ ],
+ "origin": [
+  266.8,
+  422.22
+ ],
+ "scale": 0.99424,
+ "size": [
+  210.7,
+  217.4
+ ],
+ "label_pt": 11,
+ "circles": [
+  {
+   "name": "the deflectent GBFD about E",
+   "cx": 383.43,
+   "cy": 538.43,
+   "r": 90.23,
+   "w": 1.16
+  },
+  {
+   "name": "the eccentric GHKL about M",
+   "cx": 383.3,
+   "cy": 518.9,
+   "r": 70.11,
+   "w": 1.11
+  },
+  {
+   "name": "the epicycle about H",
+   "cx": 323.95,
+   "cy": 556.16,
+   "r": 19.32,
+   "w": 1.38
+  },
+  {
+   "name": "the epicycle about L",
+   "cx": 420.89,
+   "cy": 577.13,
+   "r": 19.33,
+   "w": 1.25
+  }
+ ],
+ "segments": [
+  {
+   "name": "the axis from G through E', M, E, K and C to F",
+   "x0": 382.31,
+   "y0": 448.21,
+   "x1": 384.05,
+   "y1": 628.65,
+   "w": 1.0
+  },
+  {
+   "name": "a dash of the axis between A and G",
+   "x0": 382.23,
+   "y0": 439.94,
+   "x1": 382.25,
+   "y1": 442.7,
+   "w": 1.0
+  },
+  {
+   "name": "a dash of the axis between A and G",
+   "x0": 382.27,
+   "y0": 444.02,
+   "x1": 382.29,
+   "y1": 446.54,
+   "w": 1.0
+  },
+  {
+   "name": "MHQ",
+   "x0": 382.98,
+   "y0": 518.12,
+   "x1": 307.83,
+   "y1": 566.81,
+   "w": 0.92
+  },
+  {
+   "name": "EHP",
+   "x0": 383.18,
+   "y0": 538.07,
+   "x1": 305.57,
+   "y1": 562.1,
+   "w": 1.03
+  },
+  {
+   "name": "ETN",
+   "x0": 383.18,
+   "y0": 538.07,
+   "x1": 304.37,
+   "y1": 581.89,
+   "w": 1.0
+  },
+  {
+   "name": "the radius HT",
+   "x0": 323.88,
+   "y0": 556.28,
+   "x1": 318.72,
+   "y1": 574.75,
+   "w": 1.41
+  },
+  {
+   "name": "MLR",
+   "x0": 382.98,
+   "y0": 518.12,
+   "x1": 432.32,
+   "y1": 592.72,
+   "w": 0.97
+  },
+  {
+   "name": "ELV",
+   "x0": 383.18,
+   "y0": 538.07,
+   "x1": 435.0,
+   "y1": 590.34,
+   "w": 0.98
+  },
+  {
+   "name": "EXZ",
+   "x0": 383.18,
+   "y0": 538.07,
+   "x1": 430.16,
+   "y1": 615.61,
+   "w": 1.0
+  },
+  {
+   "name": "the radius LX",
+   "x0": 421.36,
+   "y0": 577.02,
+   "x1": 402.4,
+   "y1": 571.5,
+   "w": 0.91
+  }
+ ],
+ "arcs": [
+  {
+   "name": "a dash of the circle ABCD",
+   "cx": 374.3,
+   "cy": 528.77,
+   "r": 90.4,
+   "a0": -178.42,
+   "a1": -178.02,
+   "w": 1.02
+  },
+  {
+   "name": "a dash of the circle ABCD",
+   "cx": 374.3,
+   "cy": 528.77,
+   "r": 90.4,
+   "a0": -177.38,
+   "a1": -175.35,
+   "w": 1.02
+  },
+  {
+   "name": "a dash of the circle ABCD",
+   "cx": 374.3,
+   "cy": 528.77,
+   "r": 90.4,
+   "a0": -174.02,
+   "a1": -171.9,
+   "w": 1.02
+  },
+  {
+   "name": "a dash of the circle ABCD",
+   "cx": 374.3,
+   "cy": 528.77,
+   "r": 90.4,
+   "a0": -169.89,
+   "a1": -168.43,
+   "w": 1.02
+  },
+  {
+   "name": "a dash of the circle ABCD",
+   "cx": 374.3,
+   "cy": 528.77,
+   "r": 90.4,
+   "a0": -167.38,
+   "a1": -165.53,
+   "w": 1.02
+  },
+  {
+   "name": "a dash of the circle ABCD",
+   "cx": 374.3,
+   "cy": 528.77,
+   "r": 90.4,
+   "a0": -164.39,
+   "a1": -162.06,
+   "w": 1.02
+  },
+  {
+   "name": "a dash of the circle ABCD",
+   "cx": 374.3,
+   "cy": 528.77,
+   "r": 90.4,
+   "a0": -160.66,
+   "a1": -158.42,
+   "w": 1.02
+  },
+  {
+   "name": "a dash of the circle ABCD",
+   "cx": 374.3,
+   "cy": 528.77,
+   "r": 90.4,
+   "a0": -156.19,
+   "a1": -154.26,
+   "w": 1.02
+  },
+  {
+   "name": "a dash of the circle ABCD",
+   "cx": 374.3,
+   "cy": 528.77,
+   "r": 90.4,
+   "a0": -152.89,
+   "a1": -149.84,
+   "w": 1.02
+  },
+  {
+   "name": "a dash of the circle ABCD",
+   "cx": 374.3,
+   "cy": 528.77,
+   "r": 90.4,
+   "a0": -148.61,
+   "a1": -146.03,
+   "w": 1.02
+  },
+  {
+   "name": "a dash of the circle ABCD",
+   "cx": 374.3,
+   "cy": 528.77,
+   "r": 90.4,
+   "a0": -144.61,
+   "a1": -143.0,
+   "w": 1.02
+  },
+  {
+   "name": "a dash of the circle ABCD",
+   "cx": 374.3,
+   "cy": 528.77,
+   "r": 90.4,
+   "a0": -141.37,
+   "a1": -139.59,
+   "w": 1.02
+  },
+  {
+   "name": "a dash of the circle ABCD",
+   "cx": 374.3,
+   "cy": 528.77,
+   "r": 90.4,
+   "a0": -138.19,
+   "a1": -135.88,
+   "w": 1.02
+  },
+  {
+   "name": "a dash of the circle ABCD",
+   "cx": 374.3,
+   "cy": 528.77,
+   "r": 90.4,
+   "a0": -134.97,
+   "a1": -132.17,
+   "w": 1.02
+  },
+  {
+   "name": "a dash of the circle ABCD",
+   "cx": 374.3,
+   "cy": 528.77,
+   "r": 90.4,
+   "a0": -130.29,
+   "a1": -127.84,
+   "w": 1.02
+  },
+  {
+   "name": "a dash of the circle ABCD",
+   "cx": 374.3,
+   "cy": 528.77,
+   "r": 90.4,
+   "a0": -126.09,
+   "a1": -124.16,
+   "w": 1.02
+  },
+  {
+   "name": "a dash of the circle ABCD",
+   "cx": 374.3,
+   "cy": 528.77,
+   "r": 90.4,
+   "a0": -122.99,
+   "a1": -120.61,
+   "w": 1.02
+  },
+  {
+   "name": "a dash of the circle ABCD",
+   "cx": 374.3,
+   "cy": 528.77,
+   "r": 90.4,
+   "a0": -119.3,
+   "a1": -116.29,
+   "w": 1.02
+  },
+  {
+   "name": "a dash of the circle ABCD",
+   "cx": 374.3,
+   "cy": 528.77,
+   "r": 90.4,
+   "a0": -115.42,
+   "a1": -113.43,
+   "w": 1.02
+  },
+  {
+   "name": "a dash of the circle ABCD",
+   "cx": 374.3,
+   "cy": 528.77,
+   "r": 90.4,
+   "a0": -111.94,
+   "a1": -110.05,
+   "w": 1.02
+  },
+  {
+   "name": "a dash of the circle ABCD",
+   "cx": 374.3,
+   "cy": 528.77,
+   "r": 90.4,
+   "a0": -108.58,
+   "a1": -106.83,
+   "w": 1.02
+  },
+  {
+   "name": "a dash of the circle ABCD",
+   "cx": 374.3,
+   "cy": 528.77,
+   "r": 90.4,
+   "a0": -105.48,
+   "a1": -103.99,
+   "w": 1.02
+  },
+  {
+   "name": "a dash of the circle ABCD",
+   "cx": 374.3,
+   "cy": 528.77,
+   "r": 90.4,
+   "a0": -102.12,
+   "a1": -100.27,
+   "w": 1.02
+  },
+  {
+   "name": "a dash of the circle ABCD",
+   "cx": 374.3,
+   "cy": 528.77,
+   "r": 90.4,
+   "a0": -98.66,
+   "a1": -96.13,
+   "w": 1.02
+  },
+  {
+   "name": "a dash of the circle ABCD",
+   "cx": 374.3,
+   "cy": 528.77,
+   "r": 90.4,
+   "a0": -94.73,
+   "a1": -92.62,
+   "w": 1.02
+  },
+  {
+   "name": "a dash of the circle ABCD",
+   "cx": 374.3,
+   "cy": 528.77,
+   "r": 90.4,
+   "a0": -91.37,
+   "a1": -89.95,
+   "w": 1.02
+  },
+  {
+   "name": "a dash of the circle ABCD",
+   "cx": 374.3,
+   "cy": 528.77,
+   "r": 90.4,
+   "a0": -88.55,
+   "a1": -86.9,
+   "w": 1.02
+  },
+  {
+   "name": "a dash of the circle ABCD",
+   "cx": 374.3,
+   "cy": 528.77,
+   "r": 90.4,
+   "a0": -86.26,
+   "a1": -84.77,
+   "w": 1.02
+  },
+  {
+   "name": "a dash of the circle ABCD",
+   "cx": 374.3,
+   "cy": 528.77,
+   "r": 90.4,
+   "a0": -83.75,
+   "a1": -81.69,
+   "w": 1.02
+  },
+  {
+   "name": "a dash of the circle ABCD",
+   "cx": 374.3,
+   "cy": 528.77,
+   "r": 90.4,
+   "a0": -80.53,
+   "a1": -78.67,
+   "w": 1.02
+  },
+  {
+   "name": "a dash of the circle ABCD",
+   "cx": 374.3,
+   "cy": 528.77,
+   "r": 90.4,
+   "a0": -77.65,
+   "a1": -75.89,
+   "w": 1.02
+  },
+  {
+   "name": "a dash of the circle ABCD",
+   "cx": 374.3,
+   "cy": 528.77,
+   "r": 90.4,
+   "a0": -73.96,
+   "a1": -72.18,
+   "w": 1.02
+  },
+  {
+   "name": "a dash of the circle ABCD",
+   "cx": 374.3,
+   "cy": 528.77,
+   "r": 90.4,
+   "a0": -70.95,
+   "a1": -69.12,
+   "w": 1.02
+  },
+  {
+   "name": "a dash of the circle ABCD",
+   "cx": 374.3,
+   "cy": 528.77,
+   "r": 90.4,
+   "a0": -67.61,
+   "a1": -65.82,
+   "w": 1.02
+  },
+  {
+   "name": "a dash of the circle ABCD",
+   "cx": 374.3,
+   "cy": 528.77,
+   "r": 90.4,
+   "a0": -64.24,
+   "a1": -61.8,
+   "w": 1.02
+  },
+  {
+   "name": "a dash of the circle ABCD",
+   "cx": 374.3,
+   "cy": 528.77,
+   "r": 90.4,
+   "a0": -60.3,
+   "a1": -58.09,
+   "w": 1.02
+  },
+  {
+   "name": "a dash of the circle ABCD",
+   "cx": 374.3,
+   "cy": 528.77,
+   "r": 90.4,
+   "a0": -56.83,
+   "a1": -55.05,
+   "w": 1.02
+  },
+  {
+   "name": "a dash of the circle ABCD",
+   "cx": 374.3,
+   "cy": 528.77,
+   "r": 90.4,
+   "a0": -53.46,
+   "a1": -51.35,
+   "w": 1.02
+  },
+  {
+   "name": "a dash of the circle ABCD",
+   "cx": 374.3,
+   "cy": 528.77,
+   "r": 90.4,
+   "a0": -50.06,
+   "a1": -48.11,
+   "w": 1.02
+  },
+  {
+   "name": "a dash of the circle ABCD",
+   "cx": 374.3,
+   "cy": 528.77,
+   "r": 90.4,
+   "a0": -47.09,
+   "a1": -44.72,
+   "w": 1.02
+  },
+  {
+   "name": "a dash of the circle ABCD",
+   "cx": 374.3,
+   "cy": 528.77,
+   "r": 90.4,
+   "a0": -44.4,
+   "a1": -41.8,
+   "w": 1.02
+  },
+  {
+   "name": "a dash of the circle ABCD",
+   "cx": 374.3,
+   "cy": 528.77,
+   "r": 90.4,
+   "a0": -35.4,
+   "a1": -33.3,
+   "w": 1.02
+  },
+  {
+   "name": "a dash of the circle ABCD",
+   "cx": 374.3,
+   "cy": 528.77,
+   "r": 90.4,
+   "a0": -31.47,
+   "a1": -29.6,
+   "w": 1.02
+  },
+  {
+   "name": "a dash of the circle ABCD",
+   "cx": 374.3,
+   "cy": 528.77,
+   "r": 90.4,
+   "a0": -27.14,
+   "a1": -25.05,
+   "w": 1.02
+  },
+  {
+   "name": "a dash of the circle ABCD",
+   "cx": 374.3,
+   "cy": 528.77,
+   "r": 90.4,
+   "a0": -23.18,
+   "a1": -21.44,
+   "w": 1.02
+  },
+  {
+   "name": "a dash of the circle ABCD",
+   "cx": 374.3,
+   "cy": 528.77,
+   "r": 90.4,
+   "a0": -19.2,
+   "a1": -17.28,
+   "w": 1.02
+  },
+  {
+   "name": "a dash of the circle ABCD",
+   "cx": 374.3,
+   "cy": 528.77,
+   "r": 90.4,
+   "a0": -15.19,
+   "a1": -11.16,
+   "w": 1.02
+  },
+  {
+   "name": "a dash of the circle ABCD",
+   "cx": 374.3,
+   "cy": 528.77,
+   "r": 90.4,
+   "a0": -9.22,
+   "a1": -6.66,
+   "w": 1.02
+  },
+  {
+   "name": "a dash of the circle ABCD",
+   "cx": 374.3,
+   "cy": 528.77,
+   "r": 90.4,
+   "a0": -5.1,
+   "a1": -2.92,
+   "w": 1.02
+  },
+  {
+   "name": "a dash of the circle ABCD",
+   "cx": 374.3,
+   "cy": 528.77,
+   "r": 90.4,
+   "a0": -1.44,
+   "a1": 0.42,
+   "w": 1.02
+  },
+  {
+   "name": "a dash of the circle ABCD",
+   "cx": 374.3,
+   "cy": 528.77,
+   "r": 90.4,
+   "a0": 2.35,
+   "a1": 4.82,
+   "w": 1.02
+  },
+  {
+   "name": "a dash of the circle ABCD",
+   "cx": 374.3,
+   "cy": 528.77,
+   "r": 90.4,
+   "a0": 6.6,
+   "a1": 9.21,
+   "w": 1.02
+  },
+  {
+   "name": "a dash of the circle ABCD",
+   "cx": 374.3,
+   "cy": 528.77,
+   "r": 90.4,
+   "a0": 11.79,
+   "a1": 13.72,
+   "w": 1.02
+  },
+  {
+   "name": "a dash of the circle ABCD",
+   "cx": 374.3,
+   "cy": 528.77,
+   "r": 90.4,
+   "a0": 15.3,
+   "a1": 17.48,
+   "w": 1.02
+  },
+  {
+   "name": "a dash of the circle ABCD",
+   "cx": 374.3,
+   "cy": 528.77,
+   "r": 90.4,
+   "a0": 19.21,
+   "a1": 20.85,
+   "w": 1.02
+  },
+  {
+   "name": "a dash of the circle ABCD",
+   "cx": 374.3,
+   "cy": 528.77,
+   "r": 90.4,
+   "a0": 23.17,
+   "a1": 25.0,
+   "w": 1.02
+  },
+  {
+   "name": "a dash of the circle ABCD",
+   "cx": 374.3,
+   "cy": 528.77,
+   "r": 90.4,
+   "a0": 27.63,
+   "a1": 30.27,
+   "w": 1.02
+  },
+  {
+   "name": "a dash of the circle ABCD",
+   "cx": 374.3,
+   "cy": 528.77,
+   "r": 90.4,
+   "a0": 32.34,
+   "a1": 34.63,
+   "w": 1.02
+  },
+  {
+   "name": "a dash of the circle ABCD",
+   "cx": 374.3,
+   "cy": 528.77,
+   "r": 90.4,
+   "a0": 36.87,
+   "a1": 39.57,
+   "w": 1.02
+  },
+  {
+   "name": "a dash of the circle ABCD",
+   "cx": 374.3,
+   "cy": 528.77,
+   "r": 90.4,
+   "a0": 54.7,
+   "a1": 56.6,
+   "w": 1.02
+  },
+  {
+   "name": "a dash of the circle ABCD",
+   "cx": 374.3,
+   "cy": 528.77,
+   "r": 90.4,
+   "a0": 59.85,
+   "a1": 61.84,
+   "w": 1.02
+  },
+  {
+   "name": "a dash of the circle ABCD",
+   "cx": 374.3,
+   "cy": 528.77,
+   "r": 90.4,
+   "a0": 64.08,
+   "a1": 66.44,
+   "w": 1.02
+  },
+  {
+   "name": "a dash of the circle ABCD",
+   "cx": 374.3,
+   "cy": 528.77,
+   "r": 90.4,
+   "a0": 68.94,
+   "a1": 70.89,
+   "w": 1.02
+  },
+  {
+   "name": "a dash of the circle ABCD",
+   "cx": 374.3,
+   "cy": 528.77,
+   "r": 90.4,
+   "a0": 73.96,
+   "a1": 76.08,
+   "w": 1.02
+  },
+  {
+   "name": "a dash of the circle ABCD",
+   "cx": 374.3,
+   "cy": 528.77,
+   "r": 90.4,
+   "a0": 79.12,
+   "a1": 81.15,
+   "w": 1.02
+  },
+  {
+   "name": "a dash of the circle ABCD",
+   "cx": 374.3,
+   "cy": 528.77,
+   "r": 90.4,
+   "a0": 84.3,
+   "a1": 86.6,
+   "w": 1.02
+  },
+  {
+   "name": "a dash of the circle ABCD",
+   "cx": 374.3,
+   "cy": 528.77,
+   "r": 90.4,
+   "a0": 89.34,
+   "a1": 90.76,
+   "w": 1.02
+  },
+  {
+   "name": "a dash of the circle ABCD",
+   "cx": 374.3,
+   "cy": 528.77,
+   "r": 90.4,
+   "a0": 93.92,
+   "a1": 95.87,
+   "w": 1.02
+  },
+  {
+   "name": "a dash of the circle ABCD",
+   "cx": 374.3,
+   "cy": 528.77,
+   "r": 90.4,
+   "a0": 98.57,
+   "a1": 99.96,
+   "w": 1.02
+  },
+  {
+   "name": "a dash of the circle ABCD",
+   "cx": 374.3,
+   "cy": 528.77,
+   "r": 90.4,
+   "a0": 103.09,
+   "a1": 104.21,
+   "w": 1.02
+  },
+  {
+   "name": "a dash of the circle ABCD",
+   "cx": 374.3,
+   "cy": 528.77,
+   "r": 90.4,
+   "a0": 106.67,
+   "a1": 108.79,
+   "w": 1.02
+  },
+  {
+   "name": "a dash of the circle ABCD",
+   "cx": 374.3,
+   "cy": 528.77,
+   "r": 90.4,
+   "a0": 110.85,
+   "a1": 111.24,
+   "w": 1.02
+  },
+  {
+   "name": "a dash of the circle ABCD",
+   "cx": 374.3,
+   "cy": 528.77,
+   "r": 90.4,
+   "a0": 113.07,
+   "a1": 115.23,
+   "w": 1.02
+  },
+  {
+   "name": "a dash of the circle ABCD",
+   "cx": 374.3,
+   "cy": 528.77,
+   "r": 90.4,
+   "a0": 116.81,
+   "a1": 118.33,
+   "w": 1.02
+  },
+  {
+   "name": "a dash of the circle ABCD",
+   "cx": 374.3,
+   "cy": 528.77,
+   "r": 90.4,
+   "a0": 120.24,
+   "a1": 122.21,
+   "w": 1.02
+  },
+  {
+   "name": "a dash of the circle ABCD",
+   "cx": 374.3,
+   "cy": 528.77,
+   "r": 90.4,
+   "a0": 124.6,
+   "a1": 126.9,
+   "w": 1.02
+  },
+  {
+   "name": "a dash of the circle ABCD",
+   "cx": 374.3,
+   "cy": 528.77,
+   "r": 90.4,
+   "a0": 128.4,
+   "a1": 130.2,
+   "w": 1.02
+  },
+  {
+   "name": "a dash of the circle ABCD",
+   "cx": 374.3,
+   "cy": 528.77,
+   "r": 90.4,
+   "a0": 133.3,
+   "a1": 134.0,
+   "w": 1.02
+  },
+  {
+   "name": "a dash of the circle ABCD",
+   "cx": 374.3,
+   "cy": 528.77,
+   "r": 90.4,
+   "a0": 135.2,
+   "a1": 137.5,
+   "w": 1.02
+  },
+  {
+   "name": "a dash of the circle ABCD",
+   "cx": 374.3,
+   "cy": 528.77,
+   "r": 90.4,
+   "a0": 138.81,
+   "a1": 141.46,
+   "w": 1.02
+  },
+  {
+   "name": "a dash of the circle ABCD",
+   "cx": 374.3,
+   "cy": 528.77,
+   "r": 90.4,
+   "a0": 145.0,
+   "a1": 149.3,
+   "w": 1.02
+  },
+  {
+   "name": "a dash of the circle ABCD",
+   "cx": 374.3,
+   "cy": 528.77,
+   "r": 90.4,
+   "a0": 149.74,
+   "a1": 150.98,
+   "w": 1.02
+  },
+  {
+   "name": "a dash of the circle ABCD",
+   "cx": 374.3,
+   "cy": 528.77,
+   "r": 90.4,
+   "a0": 152.87,
+   "a1": 154.69,
+   "w": 1.02
+  },
+  {
+   "name": "a dash of the circle ABCD",
+   "cx": 374.3,
+   "cy": 528.77,
+   "r": 90.4,
+   "a0": 155.59,
+   "a1": 157.69,
+   "w": 1.02
+  },
+  {
+   "name": "a dash of the circle ABCD",
+   "cx": 374.3,
+   "cy": 528.77,
+   "r": 90.4,
+   "a0": 159.47,
+   "a1": 161.49,
+   "w": 1.02
+  },
+  {
+   "name": "a dash of the circle ABCD",
+   "cx": 374.3,
+   "cy": 528.77,
+   "r": 90.4,
+   "a0": 162.28,
+   "a1": 164.76,
+   "w": 1.02
+  },
+  {
+   "name": "a dash of the circle ABCD",
+   "cx": 374.3,
+   "cy": 528.77,
+   "r": 90.4,
+   "a0": 166.23,
+   "a1": 168.6,
+   "w": 1.02
+  },
+  {
+   "name": "a dash of the circle ABCD",
+   "cx": 374.3,
+   "cy": 528.77,
+   "r": 90.4,
+   "a0": 170.8,
+   "a1": 172.54,
+   "w": 1.02
+  },
+  {
+   "name": "a dash of the circle ABCD",
+   "cx": 374.3,
+   "cy": 528.77,
+   "r": 90.4,
+   "a0": 174.22,
+   "a1": 176.5,
+   "w": 1.02
+  },
+  {
+   "name": "a dash of the circle ABCD",
+   "cx": 374.3,
+   "cy": 528.77,
+   "r": 90.4,
+   "a0": 178.59,
+   "a1": 180.61,
+   "w": 1.02
+  }
+ ],
+ "labels": [
+  {
+   "t": "\\resizebox{7.44pt}{8.33pt}{A}",
+   "cx": 385.57,
+   "cy": 433.12,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{6.08pt}{7.40pt}{G}",
+   "cx": 386.14,
+   "cy": 453.58,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{7.65pt}{8.59pt}{D}",
+   "cx": 448.99,
+   "cy": 468.64,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{7.12pt}{9.07pt}{E′}",
+   "cx": 389.1,
+   "cy": 495.88,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{8.96pt}{7.50pt}{M}",
+   "cx": 388.23,
+   "cy": 516.16,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{5.24pt}{7.04pt}{E}",
+   "cx": 378.73,
+   "cy": 533.86,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{4.69pt}{6.58pt}{S}",
+   "cx": 339.76,
+   "cy": 539.28,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{5.39pt}{6.67pt}{H}",
+   "cx": 324.47,
+   "cy": 550.48,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{5.11pt}{7.27pt}{P}",
+   "cx": 300.68,
+   "cy": 560.98,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{6.09pt}{5.91pt}{Q}",
+   "cx": 305.17,
+   "cy": 569.68,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{6.64pt}{6.79pt}{T}",
+   "cx": 316.7,
+   "cy": 579.54,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{7.00pt}{7.36pt}{T₁}",
+   "cx": 330.11,
+   "cy": 574.08,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{5.76pt}{7.38pt}{N}",
+   "cx": 297.8,
+   "cy": 584.34,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{6.04pt}{7.02pt}{B}",
+   "cx": 312.51,
+   "cy": 602.86,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{5.72pt}{7.02pt}{K}",
+   "cx": 378.56,
+   "cy": 583.66,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{4.62pt}{7.76pt}{C}",
+   "cx": 379.15,
+   "cy": 612.48,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{4.27pt}{7.62pt}{F}",
+   "cx": 380.83,
+   "cy": 634.2,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{5.08pt}{5.96pt}{X}",
+   "cx": 397.34,
+   "cy": 571.46,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{5.09pt}{6.31pt}{L}",
+   "cx": 422.52,
+   "cy": 570.9,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{5.18pt}{6.44pt}{O}",
+   "cx": 436.08,
+   "cy": 557.22,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{6.94pt}{6.41pt}{X₁}",
+   "cx": 417.86,
+   "cy": 588.2,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{6.03pt}{5.97pt}{V}",
+   "cx": 439.39,
+   "cy": 590.82,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{8.33pt}{7.09pt}{R}",
+   "cx": 433.15,
+   "cy": 596.56,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{4.54pt}{5.43pt}{Z}",
+   "cx": 433.05,
+   "cy": 618.17,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  }
+ ],
+ "boxes": {
+  "A@381,428": [
+   7.32,
+   8.4
+  ],
+  "G@383,449": [
+   5.76,
+   7.56
+  ],
+  "D@445,464": [
+   7.74,
+   8.64
+  ],
+  "E′@385,491": [
+   7.68,
+   9.12
+  ],
+  "M@383,512": [
+   9.36,
+   7.68
+  ],
+  "E@376,530": [
+   5.52,
+   7.08
+  ],
+  "S@337,535": [
+   4.44,
+   6.72
+  ],
+  "H@321,546": [
+   5.76,
+   6.72
+  ],
+  "P@298,557": [
+   5.64,
+   7.32
+  ],
+  "Q@302,565": [
+   5.64,
+   7.92
+  ],
+  "T@314,575": [
+   6.6,
+   6.84
+  ],
+  "T₁@327,569": [
+   5.88,
+   8.64
+  ],
+  "N@295,580": [
+   6.24,
+   7.56
+  ],
+  "B@309,599": [
+   6.0,
+   7.08
+  ],
+  "K@375,579": [
+   6.12,
+   7.08
+  ],
+  "C@377,608": [
+   4.32,
+   7.92
+  ],
+  "F@378,630": [
+   4.92,
+   7.68
+  ],
+  "X@394,568": [
+   5.76,
+   6.0
+  ],
+  "L@420,567": [
+   4.68,
+   6.36
+  ],
+  "O@434,553": [
+   4.8,
+   6.6
+  ],
+  "X₁@414,584": [
+   6.6,
+   7.56
+  ],
+  "V@437,587": [
+   6.12,
+   6.12
+  ],
+  "R@429,593": [
+   8.28,
+   7.2
+  ],
+  "Z@430,615": [
+   5.04,
+   5.46
+  ]
+ },
+ "points": {
+  "E": [
+   383.18,
+   538.07
+  ],
+  "M": [
+   382.98,
+   518.12
+  ],
+  "H": [
+   323.88,
+   556.28
+  ],
+  "L": [
+   421.36,
+   577.02
+  ],
+  "G": [
+   382.31,
+   448.21
+  ],
+  "F": [
+   384.05,
+   628.65
+  ],
+  "K": [
+   383.67,
+   589.01
+  ],
+  "Q": [
+   307.83,
+   566.81
+  ],
+  "P": [
+   305.57,
+   562.1
+  ],
+  "N": [
+   304.37,
+   581.89
+  ],
+  "T": [
+   318.72,
+   574.75
+  ],
+  "R": [
+   432.32,
+   592.72
+  ],
+  "V": [
+   435.0,
+   590.34
+  ],
+  "X": [
+   402.4,
+   571.5
+  ],
+  "Z": [
+   430.16,
+   615.61
+  ]
+ }
+}
