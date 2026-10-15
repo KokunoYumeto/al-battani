@@ -1,0 +1,361 @@
+{
+ "anchor": "AB01-PDF0267",
+ "master_pdf_page": 267,
+ "printed_page": 178,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "margin_locators": [],
+ "observations": [
+  "body L1-L5: the end of the note a) on p. 20, ll. 22-30, begun on p. 177.",
+  "body L1, L20, L29: the minus signs in the numerator of the third fraction of L1, in the denominator of the first fraction of L20 and in the numerator of L29 are printed as long dashes, the one in the denominator of the second fraction of L1 as a short dash; all are set as minus signs.",
+  "body L5, L12: the R of the denominators is printed in another italic form, with an open bowl, like the P of the heads of the notes.",
+  "body L18, L20: the bars of the middle fractions are printed broken.",
+  "body L20: the numerator of the third fraction, «chorda ampl. solstit.», stands for the chord of the double arc HE, chorda 2 ampl. solstit., as in the third fraction of L18; the sines that follow in L23 (sin amplit.) hold for the double arc. Kept as printed.",
+  "body L29: a short stroke after the full stop is not a sign.",
+  "body L1-L33: the formulas are checked: with chorda 2a = 2 sin a and chorda 180° = 2R, Menelaus' theorem (Almagest II, 2 in L1 and II, 3 in L18) gives the sine forms and the rules of al-Battānī and of Ḥabash as printed, with the remarks on L20 and L33.",
+  "body L33: the third rule of Ḥabash holds when tg is the ratio of sine and cosine; with the tangent of radius R, as in the tables, it reads sin ampl. = √((tg φ sin δ / R)² + sin² δ). Kept as printed.",
+  "body L1: the first line stands lower than a line of text at the head of the page; the edition places it by the measured distance from the running head."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0267-body-L001",
+     "source_line_no": null,
+     "tex": "\\CenterLine{$\\dfrac{\\text{chorda } 2P}{\\text{chorda 180°}} = \\dfrac{\\text{chorda 180°}}{\\text{chorda } (\\text{180°} - 2\\text{\\textgreek{ε}})} \\times \\dfrac{\\text{chorda } (\\text{180°} - 2\\text{ ampl. solst.})}{\\text{chorda 180°}}$.}",
+     "transcription": "$\\dfrac{\\text{chorda } 2P}{\\text{chorda 180°}} = \\dfrac{\\text{chorda 180°}}{\\text{chorda } (\\text{180°} - 2\\text{ε})} \\times \\dfrac{\\text{chorda } (\\text{180°} - 2\\text{ ampl. solst.})}{\\text{chorda 180°}}$.",
+     "semantic_anchor": "AB01-PDF0267-H01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0267-body-L002",
+     "source_line_no": null,
+     "tex": "Adhibitis sinibus pro chordis, invenitur",
+     "transcription": "Adhibitis sinibus pro chordis, invenitur",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0267-body-L003",
+     "source_line_no": null,
+     "tex": "\\CenterLine{$\\dfrac{\\sin P}{R} = \\dfrac{R\\,\\text{cos. ampl. solst.}}{\\cos\\text{\\textgreek{ε}} \\times R}$,}",
+     "transcription": "$\\dfrac{\\sin P}{R} = \\dfrac{R\\,\\text{cos. ampl. solst.}}{\\cos\\text{ε} \\times R}$,",
+     "semantic_anchor": "AB01-PDF0267-H03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0267-body-L004",
+     "source_line_no": null,
+     "tex": "unde oritur formula \\Name{al–Battānī}:",
+     "transcription": "unde oritur formula {sp:al–Battānī}:",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0267-body-L005",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.00mm}(\\textgreek{α})}\\rlap{\\hspace*{94.00mm}\\makebox[0pt][c]{$\\text{cos ampl. solst.} = \\dfrac{\\cos\\text{\\textgreek{ε}}\\ \\sin P}{R}$.}}",
+     "transcription": "(α) $\\text{cos ampl. solst.} = \\dfrac{\\cos\\text{ε}\\ \\sin P}{R}$.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0267-body-L006",
+     "source_line_no": null,
+     "tex": "\\CenterLine{\\textbf{\\textit{b}}) — \\textit{Pag. 20, l. 34–41.}}",
+     "transcription": "{bi:b}) — *Pag. 20, l. 34–41.*",
+     "semantic_anchor": "AB01-PDF0267-H06",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0267-body-L007",
+     "source_line_no": null,
+     "tex": "\\Indent \\textit{Amplitudinem} cuiuscumque eclipticae puncti, quod solstitiale non sit, supputare, datis",
+     "transcription": "*Amplitudinem* cuiuscumque eclipticae puncti, quod solstitiale non sit, supputare, datis",
+     "semantic_anchor": "AB01-PDF0267-P01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0267-body-L008",
+     "source_line_no": null,
+     "tex": "arcu semidiurno illius puncti et obliquitate eclipticae.",
+     "transcription": "arcu semidiurno illius puncti et obliquitate eclipticae.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0267-body-L009",
+     "source_line_no": null,
+     "tex": "\\Indent In formula problematis praecedentis sufficit P appellare arcum semidiurnum puncti dati",
+     "transcription": "In formula problematis praecedentis sufficit P appellare arcum semidiurnum puncti dati",
+     "semantic_anchor": "AB01-PDF0267-P02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0267-body-L010",
+     "source_line_no": null,
+     "tex": "eclipticae, et pro obliquitate tota adhibere \\textgreek{δ} scilicet declinationem eiusdem puncti dati. Oritur",
+     "transcription": "eclipticae, et pro obliquitate tota adhibere δ scilicet declinationem eiusdem puncti dati. Oritur",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0267-body-L011",
+     "source_line_no": null,
+     "tex": "statim formula \\Name{al–Battānī}:",
+     "transcription": "statim formula {sp:al–Battānī}:",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0267-body-L012",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.00mm}(\\textgreek{α})}\\rlap{\\hspace*{94.00mm}\\makebox[0pt][c]{$\\text{cos ampl.} = \\dfrac{\\cos\\text{\\textgreek{δ}}\\ \\sin P}{R}$.}}",
+     "transcription": "(α) $\\text{cos ampl.} = \\dfrac{\\cos\\text{δ}\\ \\sin P}{R}$.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0267-body-L013",
+     "source_line_no": null,
+     "tex": "\\CenterLine{\\textbf{\\textit{c}}) — \\textit{Pag. 21, l. 1–6.}}",
+     "transcription": "{bi:c}) — *Pag. 21, l. 1–6.*",
+     "semantic_anchor": "AB01-PDF0267-H13",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0267-body-L014",
+     "source_line_no": null,
+     "tex": "\\Indent Latitudine \\textgreek{φ} urbis et declinatione \\textgreek{δ} puncti propositi eclipticae datis, \\textit{amplitudinem} sup-",
+     "transcription": "Latitudine φ urbis et declinatione δ puncti propositi eclipticae datis, *amplitudinem* sup-",
+     "semantic_anchor": "AB01-PDF0267-P03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0267-body-L015",
+     "source_line_no": null,
+     "tex": "putare.",
+     "transcription": "putare.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0267-body-L016",
+     "source_line_no": null,
+     "tex": "\\Indent In figura praecedenti manifeste BZ est altitudo poli supra horizontem datae urbis, scilicet",
+     "transcription": "In figura praecedenti manifeste BZ est altitudo poli supra horizontem datae urbis, scilicet",
+     "semantic_anchor": "AB01-PDF0267-P04",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0267-body-L017",
+     "source_line_no": null,
+     "tex": "latitudo \\textgreek{φ}. \\Name{Ptolemaeus}, \\textit{Almag.,} II, 3 (ed. Halma, t. I, p. 71–72) geometrice demonstrat",
+     "transcription": "latitudo φ. {sp:Ptolemaeus}, *Almag.,* II, 3 (ed. Halma, t. I, p. 71–72) geometrice demonstrat",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0267-body-L018",
+     "source_line_no": null,
+     "tex": "\\CenterLine{$\\dfrac{\\text{chorda } 2\\,ZA}{\\text{chorda } 2\\,AB} = \\dfrac{\\text{chorda } 2\\,ZT}{\\text{chorda } 2\\,TH} \\times \\dfrac{\\text{chorda } 2\\,HE}{\\text{chorda } 2\\,EB}$,}",
+     "transcription": "$\\dfrac{\\text{chorda } 2\\,ZA}{\\text{chorda } 2\\,AB} = \\dfrac{\\text{chorda } 2\\,ZT}{\\text{chorda } 2\\,TH} \\times \\dfrac{\\text{chorda } 2\\,HE}{\\text{chorda } 2\\,EB}$,",
+     "semantic_anchor": "AB01-PDF0267-H18",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0267-body-L019",
+     "source_line_no": null,
+     "tex": "id est",
+     "transcription": "id est",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0267-body-L020",
+     "source_line_no": null,
+     "tex": "\\CenterLine{$\\dfrac{\\text{chorda 180°}}{\\text{chorda } (\\text{180°} - 2\\text{\\textgreek{φ}})} = \\dfrac{\\text{chorda 180°}}{\\text{chorda } 2\\text{\\textgreek{ε}}} \\times \\dfrac{\\text{chorda ampl. solstit.}}{\\text{chorda 180°}}$.}",
+     "transcription": "$\\dfrac{\\text{chorda 180°}}{\\text{chorda } (\\text{180°} - 2\\text{φ})} = \\dfrac{\\text{chorda 180°}}{\\text{chorda } 2\\text{ε}} \\times \\dfrac{\\text{chorda ampl. solstit.}}{\\text{chorda 180°}}$.",
+     "semantic_anchor": "AB01-PDF0267-H20",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0267-body-L021",
+     "source_line_no": null,
+     "tex": "Sinibus pro chordis positis, amplitudine puncti cuiuscumque eclipticae pro puncti solstitialis,",
+     "transcription": "Sinibus pro chordis positis, amplitudine puncti cuiuscumque eclipticae pro puncti solstitialis,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0267-body-L022",
+     "source_line_no": null,
+     "tex": "declinatione ergo \\textgreek{δ} puncti dati pro tota obliquitate \\textgreek{ε}, invenitur",
+     "transcription": "declinatione ergo δ puncti dati pro tota obliquitate ε, invenitur",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0267-body-L023",
+     "source_line_no": null,
+     "tex": "\\CenterLine{$\\dfrac{R}{\\cos\\text{\\textgreek{φ}}} = \\dfrac{\\text{sin amplit.}}{\\sin\\text{\\textgreek{δ}}}$,}",
+     "transcription": "$\\dfrac{R}{\\cos\\text{φ}} = \\dfrac{\\text{sin amplit.}}{\\sin\\text{δ}}$,",
+     "semantic_anchor": "AB01-PDF0267-H23",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0267-body-L024",
+     "source_line_no": null,
+     "tex": "unde statim formula \\Name{al–Battānī}:",
+     "transcription": "unde statim formula {sp:al–Battānī}:",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0267-body-L025",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.00mm}(\\textgreek{α})}\\rlap{\\hspace*{94.00mm}\\makebox[0pt][c]{$\\text{sin amplit.} = R\\,\\dfrac{\\sin\\text{\\textgreek{δ}}}{\\cos\\text{\\textgreek{φ}}}$.}}",
+     "transcription": "(α) $\\text{sin amplit.} = R\\,\\dfrac{\\sin\\text{δ}}{\\cos\\text{φ}}$.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0267-body-L026",
+     "source_line_no": null,
+     "tex": "\\Indent \\Name{Ḥabash}, coaevus al–Battānī, fol. 92,r., praeter hanc formulam tres alias habet; prima",
+     "transcription": "{sp:Ḥabash}, coaevus al–Battānī, fol. 92,r., praeter hanc formulam tres alias habet; prima",
+     "semantic_anchor": "AB01-PDF0267-P05",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0267-body-L027",
+     "source_line_no": null,
+     "tex": "(quoniam cosec $x = \\dfrac{R^2}{\\sin x}$, et Ḥabash, f. 85,r.–87,v., tabulam cosecantium per \\textit{R} divisarum,",
+     "transcription": "(quoniam cosec $x = \\dfrac{R^2}{\\sin x}$, et Ḥabash, f. 85,r.–87,v., tabulam cosecantium per *R* divisarum,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0267-body-L028",
+     "source_line_no": null,
+     "tex": "hoc est $\\dfrac{\\text{cosec}}{R} = \\dfrac{R}{\\text{sin}}$, praebet) est",
+     "transcription": "hoc est $\\dfrac{\\text{cosec}}{R} = \\dfrac{R}{\\text{sin}}$, praebet) est",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0267-body-L029",
+     "source_line_no": null,
+     "tex": "\\CenterLine{$\\text{sin ampl.} = \\dfrac{\\text{cosec } (\\text{90°} - \\text{\\textgreek{φ}})}{R} \\sin\\text{\\textgreek{δ}}$.}",
+     "transcription": "$\\text{sin ampl.} = \\dfrac{\\text{cosec } (\\text{90°} - \\text{φ})}{R} \\sin\\text{δ}$.",
+     "semantic_anchor": "AB01-PDF0267-H29",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0267-body-L030",
+     "source_line_no": null,
+     "tex": "Secunda, quoniam $\\sin\\text{\\textgreek{δ}} = \\dfrac{\\sin\\text{\\textgreek{ε}} \\sin L}{R}$ (ubi L est longitudo puncti eclipticae),",
+     "transcription": "Secunda, quoniam $\\sin\\text{δ} = \\dfrac{\\sin\\text{ε} \\sin L}{R}$ (ubi L est longitudo puncti eclipticae),",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0267-body-L031",
+     "source_line_no": null,
+     "tex": "\\CenterLine{$\\text{sin ampl.} = \\dfrac{\\sin\\text{\\textgreek{ε}} \\sin L}{\\cos\\text{\\textgreek{φ}}}$.}",
+     "transcription": "$\\text{sin ampl.} = \\dfrac{\\sin\\text{ε} \\sin L}{\\cos\\text{φ}}$.",
+     "semantic_anchor": "AB01-PDF0267-H31",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0267-body-L032",
+     "source_line_no": null,
+     "tex": "Tertia manifeste per proiectionem orthographicam inventa est:",
+     "transcription": "Tertia manifeste per proiectionem orthographicam inventa est:",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0267-body-L033",
+     "source_line_no": null,
+     "tex": "\\CenterLine{$\\text{sin ampl.} = \\sqrt{(\\text{tg}\\,\\text{\\textgreek{φ}} \\sin\\text{\\textgreek{δ}})^2 + \\sin^2\\text{\\textgreek{δ}}}$.}",
+     "transcription": "$\\text{sin ampl.} = \\sqrt{(\\text{tg}\\,\\text{φ} \\sin\\text{δ})^2 + \\sin^2\\text{δ}}$.",
+     "semantic_anchor": "AB01-PDF0267-H33",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    }
+   ]
+  }
+ ]
+}

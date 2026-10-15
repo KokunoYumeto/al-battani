@@ -1,0 +1,67 @@
+@page 267 178
+% Commentary on chapter 7, a) concluded: Ptolemy's theorem in chords and in sines, and al-Battānī's rule (α) cos ampl. solst. = cos ε sin P / R; b) on p. 20, ll. 34-41: the amplitude of any point of the ecliptic from its semidiurnal arc and declination, cos ampl. = cos δ sin P / R; c) on p. 21, ll. 1-6: the amplitude from the latitude and the declination, by Almagest II, 3, sin amplit. = R sin δ / cos φ, and the three further rules of Ḥabash.
+@nonum
+@vspace 1.46
+@center $\dfrac{\text{chorda } 2P}{\text{chorda 180°}} = \dfrac{\text{chorda 180°}}{\text{chorda } (\text{180°} - 2\text{ε})} \times \dfrac{\text{chorda } (\text{180°} - 2\text{ ampl. solst.})}{\text{chorda 180°}}$.
+Adhibitis sinibus pro chordis, invenitur
+@vspace 0.13
+@center $\dfrac{\sin P}{R} = \dfrac{R\,\text{cos. ampl. solst.}}{\cos\text{ε} \times R}$,
+@vspace -0.18
+unde oritur formula {sp:al–Battānī}:
+@vspace -1.06
+@at 0:(α) | 94^:$\text{cos ampl. solst.} = \dfrac{\cos\text{ε}\ \sin P}{R}$.
+@vspace 4.72
+@center {bi:b}) — *Pag. 20, l. 34–41.*
+@vspace 3.36
+^ *Amplitudinem* cuiuscumque eclipticae puncti, quod solstitiale non sit, supputare, datis
+arcu semidiurno illius puncti et obliquitate eclipticae.
+@vspace 0.08
+^ In formula problematis praecedentis sufficit P appellare arcum semidiurnum puncti dati
+@vspace 0.04
+eclipticae, et pro obliquitate tota adhibere δ scilicet declinationem eiusdem puncti dati. Oritur
+statim formula {sp:al–Battānī}:
+@vspace -1.07
+@at 0:(α) | 94^:$\text{cos ampl.} = \dfrac{\cos\text{δ}\ \sin P}{R}$.
+@vspace 4.79
+@center {bi:c}) — *Pag. 21, l. 1–6.*
+@vspace 3.36
+^ Latitudine φ urbis et declinatione δ puncti propositi eclipticae datis, *amplitudinem* sup-
+putare.
+^ In figura praecedenti manifeste BZ est altitudo poli supra horizontem datae urbis, scilicet
+@vspace 0.11
+latitudo φ. {sp:Ptolemaeus}, *Almag.,* II, 3 (ed. Halma, t. I, p. 71–72) geometrice demonstrat
+@center $\dfrac{\text{chorda } 2\,ZA}{\text{chorda } 2\,AB} = \dfrac{\text{chorda } 2\,ZT}{\text{chorda } 2\,TH} \times \dfrac{\text{chorda } 2\,HE}{\text{chorda } 2\,EB}$,
+@vspace -0.44
+id est
+@vspace -1.24
+@center $\dfrac{\text{chorda 180°}}{\text{chorda } (\text{180°} - 2\text{φ})} = \dfrac{\text{chorda 180°}}{\text{chorda } 2\text{ε}} \times \dfrac{\text{chorda ampl. solstit.}}{\text{chorda 180°}}$.
+Sinibus pro chordis positis, amplitudine puncti cuiuscumque eclipticae pro puncti solstitialis,
+declinatione ergo δ puncti dati pro tota obliquitate ε, invenitur
+@center $\dfrac{R}{\cos\text{φ}} = \dfrac{\text{sin amplit.}}{\sin\text{δ}}$,
+@vspace -1.36
+unde statim formula {sp:al–Battānī}:
+@vspace -0.84
+@at 0:(α) | 94^:$\text{sin amplit.} = R\,\dfrac{\sin\text{δ}}{\cos\text{φ}}$.
+@vspace 0.08
+^ {sp:Ḥabash}, coaevus al–Battānī, fol. 92,r., praeter hanc formulam tres alias habet; prima
+@vspace -1.61
+(quoniam cosec $x = \dfrac{R^2}{\sin x}$, et Ḥabash, f. 85,r.–87,v., tabulam cosecantium per *R* divisarum,
+@vspace -0.20
+hoc est $\dfrac{\text{cosec}}{R} = \dfrac{R}{\text{sin}}$, praebet) est
+@vspace -0.20
+@center $\text{sin ampl.} = \dfrac{\text{cosec } (\text{90°} - \text{φ})}{R} \sin\text{δ}$.
+@vspace -0.22
+Secunda, quoniam $\sin\text{δ} = \dfrac{\sin\text{ε} \sin L}{R}$ (ubi L est longitudo puncti eclipticae),
+@center $\text{sin ampl.} = \dfrac{\sin\text{ε} \sin L}{\cos\text{φ}}$.
+@vspace 0.12
+Tertia manifeste per proiectionem orthographicam inventa est:
+@center $\text{sin ampl.} = \sqrt{(\text{tg}\,\text{φ} \sin\text{δ})^2 + \sin^2\text{δ}}$.
+@obs body L1-L5: the end of the note a) on p. 20, ll. 22-30, begun on p. 177.
+@obs body L1, L20, L29: the minus signs in the numerator of the third fraction of L1, in the denominator of the first fraction of L20 and in the numerator of L29 are printed as long dashes, the one in the denominator of the second fraction of L1 as a short dash; all are set as minus signs.
+@obs body L5, L12: the R of the denominators is printed in another italic form, with an open bowl, like the P of the heads of the notes.
+@obs body L18, L20: the bars of the middle fractions are printed broken.
+@obs body L20: the numerator of the third fraction, «chorda ampl. solstit.», stands for the chord of the double arc HE, chorda 2 ampl. solstit., as in the third fraction of L18; the sines that follow in L23 (sin amplit.) hold for the double arc. Kept as printed.
+@obs body L29: a short stroke after the full stop is not a sign.
+@obs body L1-L33: the formulas are checked: with chorda 2a = 2 sin a and chorda 180° = 2R, Menelaus' theorem (Almagest II, 2 in L1 and II, 3 in L18) gives the sine forms and the rules of al-Battānī and of Ḥabash as printed, with the remarks on L20 and L33.
+@obs body L33: the third rule of Ḥabash holds when tg is the ratio of sine and cosine; with the tangent of radius R, as in the tables, it reads sin ampl. = √((tg φ sin δ / R)² + sin² δ). Kept as printed.
+@obs body L1: the first line stands lower than a line of text at the head of the page; the edition places it by the measured distance from the running head.

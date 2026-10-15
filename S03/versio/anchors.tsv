@@ -3237,3 +3237,36 @@ AB01-PDF0266-notes_right-L002	177	notes_right	que *azimuth* appellare, cum apud 
 AB01-PDF0266-notes_right-L003	177	notes_right	thorum initium a puncto orientis aut occidentis ca-
 AB01-PDF0266-notes_right-L004	177	notes_right	piatur, non, ut apud nos semper, a puncto boreali
 AB01-PDF0266-notes_right-L005	177	notes_right	aut australi.
+AB01-PDF0267-body-L001	178	body	$\\dfrac{\\text{chorda } 2P}{\\text{chorda 180°}} = \\dfrac{\\text{chorda 180°}}{\\text{chorda } (\\text{180°} - 2\\text{ε})} \\times \\dfrac{\\text{chorda } (\\text{180°} - 2\\text{ ampl. solst.})}{\\text{chorda 180°}}$.
+AB01-PDF0267-body-L002	178	body	Adhibitis sinibus pro chordis, invenitur
+AB01-PDF0267-body-L003	178	body	$\\dfrac{\\sin P}{R} = \\dfrac{R\\,\\text{cos. ampl. solst.}}{\\cos\\text{ε} \\times R}$,
+AB01-PDF0267-body-L004	178	body	unde oritur formula {sp:al–Battānī}:
+AB01-PDF0267-body-L005	178	body	(α) $\\text{cos ampl. solst.} = \\dfrac{\\cos\\text{ε}\\ \\sin P}{R}$.
+AB01-PDF0267-body-L006	178	body	{bi:b}) — *Pag. 20, l. 34–41.*
+AB01-PDF0267-body-L007	178	body	*Amplitudinem* cuiuscumque eclipticae puncti, quod solstitiale non sit, supputare, datis
+AB01-PDF0267-body-L008	178	body	arcu semidiurno illius puncti et obliquitate eclipticae.
+AB01-PDF0267-body-L009	178	body	In formula problematis praecedentis sufficit P appellare arcum semidiurnum puncti dati
+AB01-PDF0267-body-L010	178	body	eclipticae, et pro obliquitate tota adhibere δ scilicet declinationem eiusdem puncti dati. Oritur
+AB01-PDF0267-body-L011	178	body	statim formula {sp:al–Battānī}:
+AB01-PDF0267-body-L012	178	body	(α) $\\text{cos ampl.} = \\dfrac{\\cos\\text{δ}\\ \\sin P}{R}$.
+AB01-PDF0267-body-L013	178	body	{bi:c}) — *Pag. 21, l. 1–6.*
+AB01-PDF0267-body-L014	178	body	Latitudine φ urbis et declinatione δ puncti propositi eclipticae datis, *amplitudinem* sup-
+AB01-PDF0267-body-L015	178	body	putare.
+AB01-PDF0267-body-L016	178	body	In figura praecedenti manifeste BZ est altitudo poli supra horizontem datae urbis, scilicet
+AB01-PDF0267-body-L017	178	body	latitudo φ. {sp:Ptolemaeus}, *Almag.,* II, 3 (ed. Halma, t. I, p. 71–72) geometrice demonstrat
+AB01-PDF0267-body-L018	178	body	$\\dfrac{\\text{chorda } 2\\,ZA}{\\text{chorda } 2\\,AB} = \\dfrac{\\text{chorda } 2\\,ZT}{\\text{chorda } 2\\,TH} \\times \\dfrac{\\text{chorda } 2\\,HE}{\\text{chorda } 2\\,EB}$,
+AB01-PDF0267-body-L019	178	body	id est
+AB01-PDF0267-body-L020	178	body	$\\dfrac{\\text{chorda 180°}}{\\text{chorda } (\\text{180°} - 2\\text{φ})} = \\dfrac{\\text{chorda 180°}}{\\text{chorda } 2\\text{ε}} \\times \\dfrac{\\text{chorda ampl. solstit.}}{\\text{chorda 180°}}$.
+AB01-PDF0267-body-L021	178	body	Sinibus pro chordis positis, amplitudine puncti cuiuscumque eclipticae pro puncti solstitialis,
+AB01-PDF0267-body-L022	178	body	declinatione ergo δ puncti dati pro tota obliquitate ε, invenitur
+AB01-PDF0267-body-L023	178	body	$\\dfrac{R}{\\cos\\text{φ}} = \\dfrac{\\text{sin amplit.}}{\\sin\\text{δ}}$,
+AB01-PDF0267-body-L024	178	body	unde statim formula {sp:al–Battānī}:
+AB01-PDF0267-body-L025	178	body	(α) $\\text{sin amplit.} = R\\,\\dfrac{\\sin\\text{δ}}{\\cos\\text{φ}}$.
+AB01-PDF0267-body-L026	178	body	{sp:Ḥabash}, coaevus al–Battānī, fol. 92,r., praeter hanc formulam tres alias habet; prima
+AB01-PDF0267-body-L027	178	body	(quoniam cosec $x = \\dfrac{R^2}{\\sin x}$, et Ḥabash, f. 85,r.–87,v., tabulam cosecantium per *R* divisarum,
+AB01-PDF0267-body-L028	178	body	hoc est $\\dfrac{\\text{cosec}}{R} = \\dfrac{R}{\\text{sin}}$, praebet) est
+AB01-PDF0267-body-L029	178	body	$\\text{sin ampl.} = \\dfrac{\\text{cosec } (\\text{90°} - \\text{φ})}{R} \\sin\\text{δ}$.
+AB01-PDF0267-body-L030	178	body	Secunda, quoniam $\\sin\\text{δ} = \\dfrac{\\sin\\text{ε} \\sin L}{R}$ (ubi L est longitudo puncti eclipticae),
+AB01-PDF0267-body-L031	178	body	$\\text{sin ampl.} = \\dfrac{\\sin\\text{ε} \\sin L}{\\cos\\text{φ}}$.
+AB01-PDF0267-body-L032	178	body	Tertia manifeste per proiectionem orthographicam inventa est:
+AB01-PDF0267-body-L033	178	body	$\\text{sin ampl.} = \\sqrt{(\\text{tg}\\,\\text{φ} \\sin\\text{δ})^2 + \\sin^2\\text{δ}}$.
