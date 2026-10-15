@@ -1,0 +1,451 @@
+{
+ "anchor": "AB01-PDF0308",
+ "master_pdf_page": 308,
+ "printed_page": 219,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "margin_locators": [],
+ "observations": [
+  "body L1-L7: the degrees, minutes and seconds of the values stand in columns, the figures of each column aligned on the right; the list continues that of p. 218.",
+  "body L3: the year 1 of Yazdegerd begins on 16 June 632, the year 220 on 23 April 851 (L4).",
+  "body L8-L10: the two Persian observations are those of p. 209, note 2; by Caussin (p. 216) the later, about 630, put the apogee in 20° of Gemini, i. e. 80°.",
+  "body L9-L10, L26, L28: the dashes of «ash–Shāh», «Sūrya–siddhānta», «190–199» and «al–Battānī» are long dashes (5.3 to 5.5 pt).",
+  "body L11, L17, L23: in the heads the dashes after «d)», «e)» and «f)» measure 10.1 to 10.3 pt and are transcribed as dashes; that of «25–26» is the thin long dash of «29–37» on p. 214 (4.3 pt), that of «2-16» a short hyphen (3.4 pt).",
+  "body L14-L16: 61p 48′ 2″ = 222482″, whose square is 49 498 240 324; 1p 2′ 22″ 1/2 = 3742″,5, whose square is 14 006 306,25; the sum 49 512 246 630,25 has the root 222 513″,475 = 61p 48′ 33″,47. In L15 «(3472″,5)²» is printed for (3742″,5)², whose square follows.",
+  "body L20-L22: 58p 11′ 58″ = 209518″, whose square is 43 897 792 324; the sum with 14 006 306,25 is 43 911 798 630,25 (printed 625,25); its root 209 551″,42 = 58p 12′ 31″,4 is right.",
+  "body L29: the formula is right: with the sines and cosines to the radius R = 60p, the equation q of the centre satisfies tan q = e sin m : (60p + e cos m), so that sin q = R e sin m : √[(e sin m)² + (e cos m + 60p R)²] with the factors R as printed.",
+  "body (figure): the figure is redrawn from the print: the circle ABC about E and the two epicycles about A and B, the lines measured on the scan, the diameter NT in dashes, each dash where it printed.",
+  "notes_left L1-L3: note 5 of p. 218 goes on here: 82° 39′ less the precession of 3° 9′ 1″ in 214 Arabic years is 79° 29′ 59″, the 79° 30′ of the Tabula Probata.",
+  "notes_left L3, notes_right L1: the dash before «Perperam» measures 8.2 pt; the dashes of «al-Mas‘ūdī» and «at-Tanbīh» (3.0 and 3.5 pt) are hyphens."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0308-body-L001",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.00mm}\\smash{\\rlap{Iidem, Damasci, anno 201 Iezdegerdis, 217 heg. (832 Chr.), teste \\Name{Ibn Yūnus} l. c.}}}\\rlap{\\hspace*{134.36mm}\\smash{\\llap{82}\\rlap{°}}}\\rlap{\\hspace*{140.29mm}\\smash{\\llap{1}\\rlap{′}}}\\rlap{\\hspace*{145.47mm}\\smash{\\llap{37}\\rlap{″}}}",
+     "transcription": "Iidem, Damasci, anno 201 Iezdegerdis, 217 heg. (832 Chr.), teste {sp:Ibn Yūnus} l. c. 82° 1′ 37″",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0308-body-L002",
+     "source_line_no": null,
+     "tex": "Tres fratres \\Name{Banū Mūsà ibn Shākir} supputabant apogeum primo Iezdegerdis",
+     "transcription": "Tres fratres {sp:Banū Mūsà ibn Shākir} supputabant apogeum primo Iezdegerdis",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0308-body-L003",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{7.61mm}\\smash{\\rlap{anno (inc. 16 Iun. 632) fuisse, ut \\Name{Ibn Yūnus} cap. V, \\Name{Caussin} 150, narrat}}}\\rlap{\\hspace*{134.36mm}\\smash{\\llap{80}\\rlap{°}}}\\rlap{\\hspace*{140.29mm}\\smash{\\llap{44}\\rlap{′}}}\\rlap{\\hspace*{145.47mm}\\smash{\\llap{19}\\rlap{″}}}",
+     "transcription": "anno (inc. 16 Iun. 632) fuisse, ut {sp:Ibn Yūnus} cap. V, {sp:Caussin} 150, narrat 80° 44′ 19″",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0308-body-L004",
+     "source_line_no": null,
+     "tex": "\\Name{Aḥmad}, unus eorum trium, anno 220 Iezdegerdis (inc. 23 Apr. 851 Chr.), teste",
+     "transcription": "{sp:Aḥmad}, unus eorum trium, anno 220 Iezdegerdis (inc. 23 Apr. 851 Chr.), teste",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0308-body-L005",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{7.61mm}\\smash{\\rlap{\\Name{Ibn Yūnus}, l. c., et cap. VIII (ap. \\Name{Delambre}, p. 99)}}}\\rlap{\\hspace*{134.36mm}\\smash{\\llap{84}\\rlap{°}}}\\rlap{\\hspace*{140.29mm}\\smash{\\llap{33}\\rlap{′}}}",
+     "transcription": "{sp:Ibn Yūnus}, l. c., et cap. VIII (ap. {sp:Delambre}, p. 99) 84° 33′",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0308-body-L006",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.00mm}\\smash{\\rlap{Familia \\Name{Banū Amāǵūr} (\\Name{Ibn Yūnus} cap. V, \\Name{Caussin} p. 152)}}}\\rlap{\\hspace*{134.36mm}\\smash{\\llap{83}\\rlap{°}}}\\rlap{\\hspace*{140.29mm}\\smash{\\llap{35}\\rlap{′}}}",
+     "transcription": "Familia {sp:Banū Amāǵūr} ({sp:Ibn Yūnus} cap. V, {sp:Caussin} p. 152) 83° 35′",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0308-body-L007",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.00mm}\\smash{\\rlap{\\Name{Mufliḥ ibn Yūsuf}, libertus illius familiae (\\Name{Ibn Yūnus} l. c.)}}}\\rlap{\\hspace*{134.36mm}\\smash{\\llap{84}\\rlap{°}}}\\rlap{\\hspace*{140.29mm}\\smash{\\llap{5}\\rlap{′}}}",
+     "transcription": "{sp:Mufliḥ ibn Yūsuf}, libertus illius familiae ({sp:Ibn Yūnus} l. c.) 84° 5′",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0308-body-L008",
+     "source_line_no": null,
+     "tex": "\\Indent Addantur duae illae \\Name{Persicae} observationes (?) quas, ex opere Ibn Yūnus sumptas,",
+     "transcription": "Addantur duae illae {sp:Persicae} observationes (?) quas, ex opere Ibn Yūnus sumptas,",
+     "semantic_anchor": "AB01-PDF0308-P01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0308-body-L009",
+     "source_line_no": null,
+     "tex": "retuli p. 209, adn. 2; posterior, anni 630 Chr. circiter, 80° praebuit ut tabulae \\textit{ash–Shāh} (e",
+     "transcription": "retuli p. 209, adn. 2; posterior, anni 630 Chr. circiter, 80° praebuit ut tabulae *ash–Shāh* (e",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0308-body-L010",
+     "source_line_no": null,
+     "tex": "Pehlevico seu Persico aevi medii in Arabicum translatae) et prior \\textit{Sūrya–siddhānta.}",
+     "transcription": "Pehlevico seu Persico aevi medii in Arabicum translatae) et prior *Sūrya–siddhānta.*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0308-body-L011",
+     "source_line_no": null,
+     "tex": "\\CenterLine{\\textbf{\\textit{d}}) — \\textit{Pag. 46, l. 7.}}",
+     "transcription": "{bi:d}) — *Pag. 46, l. 7.*",
+     "semantic_anchor": "AB01-PDF0308-H11",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0308-body-L012",
+     "source_line_no": null,
+     "tex": "\\Indent Longitudinem lineae EF servavi ut est in cod. Escurialensi et in versione Platonis, nempe",
+     "transcription": "Longitudinem lineae EF servavi ut est in cod. Escurialensi et in versione Platonis, nempe",
+     "semantic_anchor": "AB01-PDF0308-P02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0308-body-L013",
+     "source_line_no": null,
+     "tex": "61\\textsuperscript{\\textit{p}} 48′ 35″. Exactius erat:",
+     "transcription": "61{sup:*p*} 48′ 35″. Exactius erat:",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0308-body-L014",
+     "source_line_no": null,
+     "tex": "\\CenterLine{$EF = \\sqrt{EM^2 + FM^2} = \\sqrt{(61^{p}\\,48'\\,2'')^2 + (1^{p}\\,2'\\,22''\\,\\qfrac{1}{2})^2} =$}",
+     "transcription": "$EF = \\sqrt{EM^2 + FM^2} = \\sqrt{(61^{p}\\,48'\\,2'')^2 + (1^{p}\\,2'\\,22''\\,\\qfrac{1}{2})^2} =$",
+     "semantic_anchor": "AB01-PDF0308-H14",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0308-body-L015",
+     "source_line_no": null,
+     "tex": "\\CenterLine{$= \\sqrt{(222482'')^2 + (3472'',5)^2} = \\sqrt{49\\;498\\;240\\;324^{\\text{IV}},00 + 14\\;006\\;306^{\\text{IV}},25} =$}",
+     "transcription": "$= \\sqrt{(222482'')^2 + (3472'',5)^2} = \\sqrt{49\\;498\\;240\\;324^{\\text{IV}},00 + 14\\;006\\;306^{\\text{IV}},25} =$",
+     "semantic_anchor": "AB01-PDF0308-H15",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0308-body-L016",
+     "source_line_no": null,
+     "tex": "\\CenterLine{$= \\sqrt{49\\;512\\;246\\;630^{\\text{IV}},25} = 222\\;513'',47... = 61^{p}\\,48'\\,33'',47.$}",
+     "transcription": "$= \\sqrt{49\\;512\\;246\\;630^{\\text{IV}},25} = 222\\;513'',47... = 61^{p}\\,48'\\,33'',47.$",
+     "semantic_anchor": "AB01-PDF0308-H16",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0308-body-L017",
+     "source_line_no": null,
+     "tex": "\\CenterLine{\\textbf{\\textit{e}}) — \\textit{Pag. 46, l. 25–26.}}",
+     "transcription": "{bi:e}) — *Pag. 46, l. 25–26.*",
+     "semantic_anchor": "AB01-PDF0308-H17",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0308-body-L018",
+     "source_line_no": null,
+     "tex": "\\Indent Longitudo lineae EG ut in cod. et apud Platonem, nempe 58\\textsuperscript{\\textit{p}} 12′ 34″; sed p. 47, l. 32,",
+     "transcription": "Longitudo lineae EG ut in cod. et apud Platonem, nempe 58{sup:*p*} 12′ 34″; sed p. 47, l. 32,",
+     "semantic_anchor": "AB01-PDF0308-P03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0308-body-L019",
+     "source_line_no": null,
+     "tex": "cod. rectius secundas 32″ habet. Nam",
+     "transcription": "cod. rectius secundas 32″ habet. Nam",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0308-body-L020",
+     "source_line_no": null,
+     "tex": "\\CenterLine{$EG = \\sqrt{KG^2 + EK^2} = \\sqrt{(1^{p}\\,2'\\,22''\\,\\qfrac{1}{2})^2 + (58^{p}\\,11'\\,58'')^2} =$}",
+     "transcription": "$EG = \\sqrt{KG^2 + EK^2} = \\sqrt{(1^{p}\\,2'\\,22''\\,\\qfrac{1}{2})^2 + (58^{p}\\,11'\\,58'')^2} =$",
+     "semantic_anchor": "AB01-PDF0308-H20",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0308-body-L021",
+     "source_line_no": null,
+     "tex": "\\CenterLine{$= \\sqrt{(3742'',5)^2 + (209\\;518'')^2} = \\sqrt{14\\;006\\;306^{\\text{IV}},25 + 43\\;897\\;792\\;324^{\\text{IV}}} =$}",
+     "transcription": "$= \\sqrt{(3742'',5)^2 + (209\\;518'')^2} = \\sqrt{14\\;006\\;306^{\\text{IV}},25 + 43\\;897\\;792\\;324^{\\text{IV}}} =$",
+     "semantic_anchor": "AB01-PDF0308-H21",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0308-body-L022",
+     "source_line_no": null,
+     "tex": "\\CenterLine{$= \\sqrt{43\\;911\\;798\\;625^{\\text{IV}},25} = 209\\;551'',4... = 58^{p}\\,12'\\,31'',4.$}",
+     "transcription": "$= \\sqrt{43\\;911\\;798\\;625^{\\text{IV}},25} = 209\\;551'',4... = 58^{p}\\,12'\\,31'',4.$",
+     "semantic_anchor": "AB01-PDF0308-H22",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0308-body-L023",
+     "source_line_no": null,
+     "tex": "\\CenterLine{\\textbf{\\textit{f}}) — \\textit{Pag. 48, l. 2-16.}}",
+     "transcription": "{bi:f}) — *Pag. 48, l. 2-16.*",
+     "semantic_anchor": "AB01-PDF0308-H23",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0308-body-F01",
+     "source_line_no": null,
+     "tex": "\\input{figures/AB01-PDF0308-F01}",
+     "transcription": "[figure, redrawn: figures/AB01-PDF0308-F01.tex]",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_FIGURE"
+    },
+    {
+     "id": "AB01-PDF0308-body-L024",
+     "source_line_no": null,
+     "tex": "\\Indent \\textit{Aequationem centri} supputare.",
+     "transcription": "*Aequationem centri* supputare.",
+     "semantic_anchor": "AB01-PDF0308-P04",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0308-body-L025",
+     "source_line_no": null,
+     "tex": "\\Indent Constructiones geometricae p. 46–47 ex",
+     "transcription": "Constructiones geometricae p. 46–47 ex",
+     "semantic_anchor": "AB01-PDF0308-P05",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0308-body-L026",
+     "source_line_no": null,
+     "tex": "\\textit{Almag.} III, 5 (ed. Halma t. I, p. 190–199)",
+     "transcription": "*Almag.* III, 5 (ed. Halma t. I, p. 190–199)",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0308-body-L027",
+     "source_line_no": null,
+     "tex": "sumptae sunt; deest contra apud Ptolemaeum",
+     "transcription": "sumptae sunt; deest contra apud Ptolemaeum",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0308-body-L028",
+     "source_line_no": null,
+     "tex": "formula \\Name{al–Battānī}:",
+     "transcription": "formula {sp:al–Battānī}:",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0308-body-L029",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{1.64mm}sin aeq. centri $= \\dfrac{R\\,\\dfrac{e \\sin m}{R}}{\\sqrt{\\Bigl(\\dfrac{e \\sin m}{R}\\Bigr)^{2} + \\Bigl(\\dfrac{e \\cos m}{R} + 60^{p}\\Bigr)^{2}}}$\\,,}",
+     "transcription": "sin aeq. centri $= \\dfrac{R\\,\\dfrac{e \\sin m}{R}}{\\sqrt{\\Bigl(\\dfrac{e \\sin m}{R}\\Bigr)^{2} + \\Bigl(\\dfrac{e \\cos m}{R} + 60^{p}\\Bigr)^{2}}}$\\,,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0308-body-L030",
+     "source_line_no": null,
+     "tex": "ubi \\textit{e} est excentricitas vel, in hypothesi epi-",
+     "transcription": "ubi *e* est excentricitas vel, in hypothesi epi-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0308-body-L031",
+     "source_line_no": null,
+     "tex": "cycli, radius epicycli (1); \\textit{m} arcus anomaliae,",
+     "transcription": "cycli, radius epicycli (1); *m* arcus anomaliae,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0308-body-L032",
+     "source_line_no": null,
+     "tex": "scilicet arcus excentrici vel epicycli quem sidus",
+     "transcription": "scilicet arcus excentrici vel epicycli quem sidus",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0308-body-L033",
+     "source_line_no": null,
+     "tex": "ab apogeo usque ad datum temporis momen-",
+     "transcription": "ab apogeo usque ad datum temporis momen-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0308-body-L034",
+     "source_line_no": null,
+     "tex": "tum percurrerit. Facillime regula deducitur e",
+     "transcription": "tum percurrerit. Facillime regula deducitur e",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    }
+   ]
+  },
+  {
+   "role": "notes_left",
+   "lines": [
+    {
+     "id": "AB01-PDF0308-notes_left-L001",
+     "source_line_no": null,
+     "tex": "supputassent, longitudinem apogei 79° 30′ ponebant.",
+     "transcription": "supputassent, longitudinem apogei 79° 30′ ponebant.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0308-notes_left-L002",
+     "source_line_no": null,
+     "tex": "Est quantitas recepta in eorum \\textit{Tabula Probata} et",
+     "transcription": "Est quantitas recepta in eorum *Tabula Probata* et",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0308-notes_left-L003",
+     "source_line_no": null,
+     "tex": "ab \\Name{Ḥabash}, f. 28,r. — Perperam \\Name{al-Mas‘ūdī},",
+     "transcription": "ab {sp:Ḥabash}, f. 28,r. — Perperam {sp:al-Mas‘ūdī},",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  },
+  {
+   "role": "notes_right",
+   "lines": [
+    {
+     "id": "AB01-PDF0308-notes_right-L001",
+     "source_line_no": null,
+     "tex": "\\textit{at-Tanbīh} p. 222, hanc observationem anno 217 heg.",
+     "transcription": "*at-Tanbīh* p. 222, hanc observationem anno 217 heg.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0308-notes_right-L002",
+     "source_line_no": null,
+     "tex": "fuisse scribit.",
+     "transcription": "fuisse scribit.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0308-notes_right-L003",
+     "source_line_no": null,
+     "tex": "\\Indent (1) In partibus radii excentrici vel orbitae ($=$60\\textsuperscript{\\textit{p}}).",
+     "transcription": "(1) In partibus radii excentrici vel orbitae ($=$60{sup:*p*}).",
+     "semantic_anchor": "AB01-PDF0308-N01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,165 @@
+\documentclass[11pt]{article}
+\usepackage[paperwidth=220mm,paperheight=320mm,left=16mm,right=16mm,top=18mm,bottom=18mm,headheight=16pt,headsep=10pt,footskip=14pt]{geometry}
+\usepackage{fix-cm}
+\usepackage{fontspec,amsmath,amssymb,graphicx,array,multirow,tikz}
+\usetikzlibrary{decorations.pathreplacing}
+\usepackage[unicode,hidelinks]{hyperref}
+\usepackage{polyglossia}
+\setmainlanguage{latin}
+\setotherlanguages{arabic,greek,hebrew,syriac}
+\setmainfont{Linux Libertine O}[Ligatures=TeX]
+\setsansfont{Linux Biolinum O}[Ligatures=TeX]
+\newfontfamily\greekfont{FreeSerif}[Script=Greek]
+\newfontfamily\arabicfont{Amiri}[Script=Arabic]
+\newfontfamily\hebrewfont{Frank Ruhl Hofshi}[Script=Hebrew]
+\newfontfamily\syriacfont{Segoe UI Historic}[Script=Syriac]
+\newfontfamily\CapFont{Noto Serif}
+\newfontfamily\MoonFont{FreeSerif}
+\newcommand{\MoonSym}{\text{\MoonFont ☾}}\newcommand{\SunSym}{\text{\MoonFont ⊙}}
+\newfontfamily\EthiopicFont{Ebrima}
+\newcommand{\textethiopic}[1]{{\EthiopicFont #1}}
+\newfontfamily\NallinoSigns{NallinoSigns.otf}[Path=./fonts/]
+\newcommand{\AbjadZero}{{\NallinoSigns\symbol{"E000}}}
+\hypersetup{pdftitle={Al-Battani, Opus astronomicum. Nallino, versio Latina et adnotationes (Pars I). S04},pdfauthor={Al-Battani; Carlo Alfonso Nallino (Latin translation and notes)}}
+\makeatletter
+\def\ps@sourceedition{%
+\def\@oddhead{\vbox{\hbox to\textwidth{\fontsize{8}{10}\selectfont C. A. NALLINO — VERSIO ET ADNOTATIONES\hfil\leftmark}\vskip3pt\hrule height.25pt}}%
+\let\@evenhead\@oddhead
+\def\@oddfoot{\hbox to\textwidth{\fontsize{7}{9}\selectfont\rightmark\hfil\thepage}}%
+\let\@evenfoot\@oddfoot}
+\makeatother
+\pagestyle{sourceedition}
+\setlength{\parindent}{0pt}\setlength{\parskip}{0pt}
+\newcommand{\BeginSource}[2]{\clearpage\markboth{PAG. #2}{#1}\hypertarget{#1}{}\pdfbookmark[0]{#1 — p. #2}{bk-#1}\fontsize{11.1}{13.8}\selectfont}
+\tracinglostchars=2
+\newcommand{\Name}[1]{{\addfontfeatures{LetterSpace=4.0}#1}}
+\newcommand{\Indent}{\hspace*{1.6em}}
+% an Arabic run inside a Latin line: neither its descenders nor its vowel signs above (shadda, damma) open the line
+% (the printed lines are evenly spaced)
+\newcommand{\ArabicRun}[1]{\smash{\textarabic{#1}}}
+\newcommand{\qfrac}[2]{{}^{#1}\!/_{{#2}}}
+\newcommand{\sa}{\textsuperscript{\textit{a}}}\newcommand{\sm}{\textsuperscript{\textit{m}}}\newcommand{\sd}{\textsuperscript{\textit{d}}}
+\newcommand{\RawBlock}[1]{\par\vspace{3pt}\noindent#1\par\vspace{3pt}}
+\newcommand{\CenterLine}[1]{\makebox[\linewidth][c]{#1}}
+\newlength{\FullSourceWidth}\newlength{\GutterOffset}\newif\ifNumbersLeft
+\newcommand{\DSource}[2]{\BeginSource{AB01-PDF#1}{#2}%
+ \setlength{\FullSourceWidth}{\textwidth}\setlength{\GutterOffset}{0pt}%
+ \ifodd#2\relax\NumbersLefttrue\else\NumbersLeftfalse\fi}
+\newsavebox{\DLBox}
+\newcommand{\DLine}[4]{%
+ \par\noindent\hypertarget{#1}{}%
+ \ifx\relax#2\relax\else
+   \ifNumbersLeft
+    \rlap{\kern-\GutterOffset\llap{\fontsize{7}{8}\selectfont #2\hspace{3mm}}}%
+   \else
+    \rlap{\kern\dimexpr\FullSourceWidth-\GutterOffset\relax\hspace{3mm}{\fontsize{7}{8}\selectfont #2}}%
+   \fi
+ \fi
+ \ifx\relax#3\relax\else
+   \ifNumbersLeft
+    \rlap{\kern\dimexpr\FullSourceWidth-\GutterOffset\relax\hspace{3mm}{\fontsize{7}{8}\selectfont #3}}%
+   \else
+    \rlap{\kern-\GutterOffset\llap{\fontsize{7}{8}\selectfont #3\hspace{3mm}}}%
+   \fi
+ \fi
+ \sbox{\DLBox}{\strut #4}%
+ \ifdim\wd\DLBox>\linewidth\typeout{DIPLOMATICWIDTH|#1|\the\wd\DLBox|\the\linewidth}\fi
+ \usebox{\DLBox}\strut\par}
+\begin{document}
+\thispagestyle{empty}
+\begin{center}\Large AL-BATTĀNĪ\par\vspace{4mm}\LARGE OPUS ASTRONOMICUM\par
+\vspace{5mm}\large Caroli Alphonsi Nallino versio Latina et adnotationes (pars I)\par\vspace{8mm}
+\Large S04 --- editio diplomatica\par\vspace{4mm}\large Paginae impressae 219--219\end{center}
+\vspace{12mm}\noindent Singulae lineae paginarum impressarum singulis lineis huius editionis respondent, cum
+divisionibus vocabulorum, signis et generibus litterarum (rectis, inclinatis, distantibus). Numeri linearum et
+paginae textus Arabici in marginibus stant ut impressi sunt. Textus ex imaginibus paginarum transcriptus est;
+litterae Graecae et Arabicae, numeri et signa in imaginibus amplificatis lecta sunt.
+Haec transcriptio a nullo homine recognita est.\par
+\DSource{0308}{219}
+\par\vspace*{\dimexpr 0.08mm-\baselineskip\relax}\prevdepth=0pt
+\DLine{AB01-PDF0308-body-L001}{}{}{\mbox{}\rlap{\hspace*{0.00mm}\smash{\rlap{Iidem, Damasci, anno 201 Iezdegerdis, 217 heg. (832 Chr.), teste \Name{Ibn Yūnus} l. c.}}}\rlap{\hspace*{134.36mm}\smash{\llap{82}\rlap{°}}}\rlap{\hspace*{140.29mm}\smash{\llap{1}\rlap{′}}}\rlap{\hspace*{145.47mm}\smash{\llap{37}\rlap{″}}}}
+\DLine{AB01-PDF0308-body-L002}{}{}{Tres fratres \Name{Banū Mūsà ibn Shākir} supputabant apogeum primo Iezdegerdis}
+\DLine{AB01-PDF0308-body-L003}{}{}{\mbox{}\rlap{\hspace*{7.61mm}\smash{\rlap{anno (inc. 16 Iun. 632) fuisse, ut \Name{Ibn Yūnus} cap. V, \Name{Caussin} 150, narrat}}}\rlap{\hspace*{134.36mm}\smash{\llap{80}\rlap{°}}}\rlap{\hspace*{140.29mm}\smash{\llap{44}\rlap{′}}}\rlap{\hspace*{145.47mm}\smash{\llap{19}\rlap{″}}}}
+\DLine{AB01-PDF0308-body-L004}{}{}{\Name{Aḥmad}, unus eorum trium, anno 220 Iezdegerdis (inc. 23 Apr. 851 Chr.), teste}
+\DLine{AB01-PDF0308-body-L005}{}{}{\mbox{}\rlap{\hspace*{7.61mm}\smash{\rlap{\Name{Ibn Yūnus}, l. c., et cap. VIII (ap. \Name{Delambre}, p. 99)}}}\rlap{\hspace*{134.36mm}\smash{\llap{84}\rlap{°}}}\rlap{\hspace*{140.29mm}\smash{\llap{33}\rlap{′}}}}
+\DLine{AB01-PDF0308-body-L006}{}{}{\mbox{}\rlap{\hspace*{0.00mm}\smash{\rlap{Familia \Name{Banū Amāǵūr} (\Name{Ibn Yūnus} cap. V, \Name{Caussin} p. 152)}}}\rlap{\hspace*{134.36mm}\smash{\llap{83}\rlap{°}}}\rlap{\hspace*{140.29mm}\smash{\llap{35}\rlap{′}}}}
+\DLine{AB01-PDF0308-body-L007}{}{}{\mbox{}\rlap{\hspace*{0.00mm}\smash{\rlap{\Name{Mufliḥ ibn Yūsuf}, libertus illius familiae (\Name{Ibn Yūnus} l. c.)}}}\rlap{\hspace*{134.36mm}\smash{\llap{84}\rlap{°}}}\rlap{\hspace*{140.29mm}\smash{\llap{5}\rlap{′}}}}
+\par\vspace{1.14mm}
+\hypertarget{AB01-PDF0308-P01}{}
+\DLine{AB01-PDF0308-body-L008}{}{}{\Indent Addantur duae illae \Name{Persicae} observationes (?) quas, ex opere Ibn Yūnus sumptas,}
+\DLine{AB01-PDF0308-body-L009}{}{}{retuli p. 209, adn. 2; posterior, anni 630 Chr. circiter, 80° praebuit ut tabulae \textit{ash–Shāh} (e}
+\DLine{AB01-PDF0308-body-L010}{}{}{Pehlevico seu Persico aevi medii in Arabicum translatae) et prior \textit{Sūrya–siddhānta.}}
+\par\vspace{3.40mm}
+\hypertarget{AB01-PDF0308-H11}{}
+\DLine{AB01-PDF0308-body-L011}{}{}{\CenterLine{\textbf{\textit{d}}) — \textit{Pag. 46, l. 7.}}}
+\par\vspace{3.36mm}
+\hypertarget{AB01-PDF0308-P02}{}
+\DLine{AB01-PDF0308-body-L012}{}{}{\Indent Longitudinem lineae EF servavi ut est in cod. Escurialensi et in versione Platonis, nempe}
+\DLine{AB01-PDF0308-body-L013}{}{}{61\textsuperscript{\textit{p}} 48′ 35″. Exactius erat:}
+\par\vspace{0.35mm}
+\hypertarget{AB01-PDF0308-H14}{}
+\DLine{AB01-PDF0308-body-L014}{}{}{\CenterLine{$EF = \sqrt{EM^2 + FM^2} = \sqrt{(61^{p}\,48'\,2'')^2 + (1^{p}\,2'\,22''\,\qfrac{1}{2})^2} =$}}
+\hypertarget{AB01-PDF0308-H15}{}
+\DLine{AB01-PDF0308-body-L015}{}{}{\CenterLine{$= \sqrt{(222482'')^2 + (3472'',5)^2} = \sqrt{49\;498\;240\;324^{\text{IV}},00 + 14\;006\;306^{\text{IV}},25} =$}}
+\par\vspace{-0.14mm}
+\hypertarget{AB01-PDF0308-H16}{}
+\DLine{AB01-PDF0308-body-L016}{}{}{\CenterLine{$= \sqrt{49\;512\;246\;630^{\text{IV}},25} = 222\;513'',47... = 61^{p}\,48'\,33'',47.$}}
+\par\vspace{3.61mm}
+\hypertarget{AB01-PDF0308-H17}{}
+\DLine{AB01-PDF0308-body-L017}{}{}{\CenterLine{\textbf{\textit{e}}) — \textit{Pag. 46, l. 25–26.}}}
+\par\vspace{2.19mm}
+\hypertarget{AB01-PDF0308-P03}{}
+\DLine{AB01-PDF0308-body-L018}{}{}{\Indent Longitudo lineae EG ut in cod. et apud Platonem, nempe 58\textsuperscript{\textit{p}} 12′ 34″; sed p. 47, l. 32,}
+\par\vspace{0.14mm}
+\DLine{AB01-PDF0308-body-L019}{}{}{cod. rectius secundas 32″ habet. Nam}
+\par\vspace{0.21mm}
+\hypertarget{AB01-PDF0308-H20}{}
+\DLine{AB01-PDF0308-body-L020}{}{}{\CenterLine{$EG = \sqrt{KG^2 + EK^2} = \sqrt{(1^{p}\,2'\,22''\,\qfrac{1}{2})^2 + (58^{p}\,11'\,58'')^2} =$}}
+\par\vspace{-0.12mm}
+\hypertarget{AB01-PDF0308-H21}{}
+\DLine{AB01-PDF0308-body-L021}{}{}{\CenterLine{$= \sqrt{(3742'',5)^2 + (209\;518'')^2} = \sqrt{14\;006\;306^{\text{IV}},25 + 43\;897\;792\;324^{\text{IV}}} =$}}
+\hypertarget{AB01-PDF0308-H22}{}
+\DLine{AB01-PDF0308-body-L022}{}{}{\CenterLine{$= \sqrt{43\;911\;798\;625^{\text{IV}},25} = 209\;551'',4... = 58^{p}\,12'\,31'',4.$}}
+\par\vspace{3.51mm}
+\hypertarget{AB01-PDF0308-H23}{}
+\DLine{AB01-PDF0308-body-L023}{}{}{\CenterLine{\textbf{\textit{f}}) — \textit{Pag. 48, l. 2-16.}}}
+\par\vspace{-\ht\strutbox}\noindent\begin{minipage}[t]{0.391\FullSourceWidth}\vspace{0pt}\hypertarget{AB01-PDF0308-body-F01}{}\input{figures/AB01-PDF0308-F01}\end{minipage}\hfill\begin{minipage}[t]{0.589\FullSourceWidth}\vspace{0pt}\setlength{\GutterOffset}{0.411\FullSourceWidth}
+\par\vspace{3.30mm}
+\hypertarget{AB01-PDF0308-P04}{}
+\DLine{AB01-PDF0308-body-L024}{}{}{\Indent \textit{Aequationem centri} supputare.}
+\hypertarget{AB01-PDF0308-P05}{}
+\DLine{AB01-PDF0308-body-L025}{}{}{\Indent Constructiones geometricae p. 46–47 ex}
+\DLine{AB01-PDF0308-body-L026}{}{}{\textit{Almag.} III, 5 (ed. Halma t. I, p. 190–199)}
+\par\vspace{0.09mm}
+\DLine{AB01-PDF0308-body-L027}{}{}{sumptae sunt; deest contra apud Ptolemaeum}
+\par\vspace{0.14mm}
+\DLine{AB01-PDF0308-body-L028}{}{}{formula \Name{al–Battānī}:}
+\par\vspace{1.85mm}
+\DLine{AB01-PDF0308-body-L029}{}{}{\mbox{}\rlap{\hspace*{1.64mm}sin aeq. centri $= \dfrac{R\,\dfrac{e \sin m}{R}}{\sqrt{\Bigl(\dfrac{e \sin m}{R}\Bigr)^{2} + \Bigl(\dfrac{e \cos m}{R} + 60^{p}\Bigr)^{2}}}$\,,}}
+\par\vspace{0.22mm}
+\DLine{AB01-PDF0308-body-L030}{}{}{ubi \textit{e} est excentricitas vel, in hypothesi epi-}
+\DLine{AB01-PDF0308-body-L031}{}{}{cycli, radius epicycli (1); \textit{m} arcus anomaliae,}
+\DLine{AB01-PDF0308-body-L032}{}{}{scilicet arcus excentrici vel epicycli quem sidus}
+\par\vspace{0.11mm}
+\DLine{AB01-PDF0308-body-L033}{}{}{ab apogeo usque ad datum temporis momen-}
+\DLine{AB01-PDF0308-body-L034}{}{}{tum percurrerit. Facillime regula deducitur e}
+\end{minipage}\par
+\par\vspace{0.76mm}
+\par\vspace{6pt}\nointerlineskip\hbox to\textwidth{\hss\vrule width 115.43pt height.25pt depth0pt\hss}\prevdepth=-1000pt \vspace{5pt}
+\noindent\begin{minipage}[t]{.48\textwidth}\vspace{0pt}\fontsize{9}{11.5}\selectfont\setlength{\GutterOffset}{0pt}\setlength{\FullSourceWidth}{\linewidth}
+\par\fontsize{9}{11.80}\selectfont
+\par\vspace{0.04mm}
+\DLine{AB01-PDF0308-notes_left-L001}{}{}{supputassent, longitudinem apogei 79° 30′ ponebant.}
+\DLine{AB01-PDF0308-notes_left-L002}{}{}{Est quantitas recepta in eorum \textit{Tabula Probata} et}
+\DLine{AB01-PDF0308-notes_left-L003}{}{}{ab \Name{Ḥabash}, f. 28,r. — Perperam \Name{al-Mas‘ūdī},}
+\end{minipage}
+\hfill\vrule width.3pt\hfill\begin{minipage}[t]{.48\textwidth}\vspace{0pt}\fontsize{9}{11.5}\selectfont\setlength{\GutterOffset}{0pt}\setlength{\FullSourceWidth}{\linewidth}
+\par\fontsize{9}{11.80}\selectfont
+\par\vspace{-0.09mm}
+\DLine{AB01-PDF0308-notes_right-L001}{}{}{\textit{at-Tanbīh} p. 222, hanc observationem anno 217 heg.}
+\par\vspace{-0.13mm}
+\DLine{AB01-PDF0308-notes_right-L002}{}{}{fuisse scribit.}
+\hypertarget{AB01-PDF0308-N01}{}
+\DLine{AB01-PDF0308-notes_right-L003}{}{}{\Indent (1) In partibus radii excentrici vel orbitae ($=$60\textsuperscript{\textit{p}}).}
+\end{minipage}
+\end{document}
