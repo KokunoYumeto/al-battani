@@ -1,0 +1,244 @@
+{
+ "pdf": 356,
+ "printed_page": 267,
+ "comment": [
+  "Nallino, Part I p. 267: Schiaparelli's figure of the crescent of the Moon, redrawn from the print: the Moon L",
+  "seen from T, the parallel lines TS and LS towards the Sun, the line TL through F, the diameter CD with the dark",
+  "half hatched, the radius LB blank in the hatching, the radius LA, and the bold italic letters.",
+  "Measured on the scan (_intake/latin/tools/fig267)."
+ ],
+ "origin": [
+  399.5,
+  115.26
+ ],
+ "scale": 0.99639,
+ "size": [
+  86.0,
+  163.0
+ ],
+ "label_pt": 11,
+ "circles": [
+  {
+   "name": "the Moon",
+   "cx": 455.35,
+   "cy": 198.18,
+   "r": 19.25,
+   "w": 1.03
+  }
+ ],
+ "segments": [
+  {
+   "name": "the line TS",
+   "x0": 409.91,
+   "y0": 266.83,
+   "x1": 410.61,
+   "y1": 120.77,
+   "w": 0.97
+  },
+  {
+   "name": "the line LE produced to S",
+   "x0": 455.46,
+   "y0": 197.99,
+   "x1": 455.58,
+   "y1": 122.21,
+   "w": 0.97
+  },
+  {
+   "name": "the line TL through F",
+   "x0": 409.91,
+   "y0": 266.83,
+   "x1": 455.16,
+   "y1": 197.98,
+   "w": 1.06
+  },
+  {
+   "name": "the diameter CD",
+   "x0": 436.1,
+   "y0": 197.85,
+   "x1": 474.6,
+   "y1": 198.12,
+   "w": 1.03
+  }
+ ],
+ "hatch": [
+  {
+   "circle": 0,
+   "segment": 3,
+   "away": [
+    455.46,
+    187.99
+   ],
+   "step": 1.56,
+   "w": 0.84,
+   "start": 199.28
+  }
+ ],
+ "white": [
+  {
+   "name": "the radius LB, blank in the hatching",
+   "x0": 456.72,
+   "y0": 198.81,
+   "x1": 470.34,
+   "y1": 207.76,
+   "w": 1.2
+  }
+ ],
+ "groups": [
+  {
+   "comment": "the radius LA, printed with a gap",
+   "w": 1.0,
+   "segs": [
+    [
+     455.46,
+     197.99,
+     448.28,
+     193.27
+    ],
+    [
+     448.07,
+     193.13,
+     439.38,
+     187.41
+    ]
+   ]
+  }
+ ],
+ "labels": [
+  {
+   "t": "\\resizebox{5.21pt}{7.07pt}{S}",
+   "cx": 401.52,
+   "cy": 121.84,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{6.36pt}{7.07pt}{S}",
+   "cx": 447.71,
+   "cy": 121.58,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{6.50pt}{6.93pt}{E}",
+   "cx": 459.58,
+   "cy": 173.44,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{5.99pt}{6.44pt}{A}",
+   "cx": 434.22,
+   "cy": 181.8,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{7.06pt}{7.16pt}{L}",
+   "cx": 460.04,
+   "cy": 192.96,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{5.92pt}{6.95pt}{C}",
+   "cx": 429.16,
+   "cy": 198.46,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{7.73pt}{7.65pt}{D}",
+   "cx": 480.3,
+   "cy": 196.2,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{6.66pt}{7.03pt}{B}",
+   "cx": 476.1,
+   "cy": 212.0,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{5.54pt}{6.69pt}{F}",
+   "cx": 444.14,
+   "cy": 221.92,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{6.29pt}{7.04pt}{T}",
+   "cx": 409.59,
+   "cy": 273.46,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  }
+ ],
+ "boxes": {
+  "S1@399,118": [
+   4.92,
+   7.2
+  ],
+  "S2@445,118": [
+   6.0,
+   7.2
+  ],
+  "E@456,170": [
+   6.84,
+   6.96
+  ],
+  "A@431,178": [
+   5.88,
+   6.48
+  ],
+  "L@457,189": [
+   6.48,
+   7.2
+  ],
+  "C@427,194": [
+   5.52,
+   7.08
+  ],
+  "D@476,192": [
+   7.8,
+   7.68
+  ],
+  "B@472,208": [
+   6.6,
+   7.08
+  ],
+  "F@441,218": [
+   6.36,
+   6.72
+  ],
+  "T@407,270": [
+   6.24,
+   7.08
+  ]
+ },
+ "points": {
+  "L1": [
+   455.46,
+   197.99
+  ],
+  "L2": [
+   455.16,
+   197.98
+  ],
+  "L3": [
+   455.46,
+   197.53
+  ],
+  "T": [
+   409.91,
+   266.83
+  ],
+  "E": [
+   455.49,
+   178.93
+  ],
+  "C": [
+   436.1,
+   197.85
+  ],
+  "D": [
+   474.6,
+   198.12
+  ],
+  "F": [
+   444.56,
+   214.12
+  ]
+ }
+}

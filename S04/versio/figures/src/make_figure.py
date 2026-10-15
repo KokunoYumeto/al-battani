@@ -9,7 +9,7 @@ edge of the text block and the top of the first printed line beside the figure),
 printed line spacing to that of the edition, "size" [W, H] the box of the picture in points of the page, and
 "label_pt" the size of the bold italic letters. The circles and the lines are least-squares fits to the printed
 ink (_intake/latin/tools/fig_measure2.py). Optional:
-  "hatch"  [{"circle": i, "segment": j, "away": [x, y], "step": S, "w": W}]: the part of circle i on the side of
+  "hatch"  [{"circle": i, "segment": j, "away": [x, y], "step": S, "w": W, "start": Y0}]: the part of circle i on the side of
            segment j away from the point [x, y], filled with horizontal lines S pt apart, W pt thick
   "arcs"   [{"cx", "cy", "r", "a0", "a1", "w", "dots": D}]: an arc from angle a0 to a1 (degrees, measured from the
            right toward the bottom of the page), dotted with dots D pt apart if "dots" is given
@@ -19,6 +19,8 @@ ink (_intake/latin/tools/fig_measure2.py). Optional:
            degrees, centred at (cx, cy)
   "groups" [{"w", "segs": [[x0, y0, x1, y1], ...], "cap", "comment"}]: many short strokes of one width (the ticks
            of a graduation, the dashes of a broken line), drawn eight to a command
+  "white"  [{"x0", "y0", "x1", "y1", "w", "name"}]: a stroke drawn in white over a hatching, before the outlines (a
+           line that the print shows as a blank in the hatch lines)
   "fills"  [{"pts": [[x, y], ...], "name"}]: a small printed shape filled through its traced outline (a smooth
            closed curve through the points), for marks that are not lines, circles or letters
   "curves" [{"pts": [[x, y], ...], "w", "name"}]: an open curve that is neither a circle nor a line, drawn as the
@@ -77,11 +79,16 @@ def main():
                    + X(b[0] + f * nx) + "," + Y(b[1] + f * ny) + ") -- (" + X(a[0] + f * nx) + ","
                    + Y(a[1] + f * ny) + ") -- cycle;")
         y = c["cy"] - c["r"] + h["step"] / 2
+        if "start" in h:  # a printed hatch line at the height start: the lines keep its phase
+            y = h["start"] - math.floor((h["start"] - (c["cy"] - c["r"])) / h["step"]) * h["step"]
         while y < c["cy"] + c["r"]:
             out.append(r"\draw[line width=" + f"{h['w'] * s:.2f}" + "pt] (" + X(c["cx"] - c["r"] - 1) + "," + Y(y)
                        + ") -- (" + X(c["cx"] + c["r"] + 1) + "," + Y(y) + ");")
             y += h["step"]
         out.append(r"\end{scope}")
+    for g in d.get("white", []):  # a stroke left blank in a hatching (a line printed as a gap in the hatch lines)
+        out.append(r"\draw[line width=" + f"{g['w'] * s:.2f}" + "pt,white] (" + X(g["x0"]) + "," + Y(g["y0"])
+                   + ") -- (" + X(g["x1"]) + "," + Y(g["y1"]) + ");  % " + g["name"])
     for c in d["circles"]:
         out.append(r"\draw[line width=" + f"{c['w'] * s:.2f}" + "pt] (" + X(c["cx"]) + "," + Y(c["cy"])
                    + ") circle[radius=" + f"{c['r']:.2f}" + "];  % " + c["name"])
