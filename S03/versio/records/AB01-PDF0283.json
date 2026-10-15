@@ -1,0 +1,450 @@
+{
+ "anchor": "AB01-PDF0283",
+ "master_pdf_page": 283,
+ "printed_page": 194,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "margin_locators": [],
+ "observations": [
+  "body L2-L3: the dashes of «al–kawkab» and «as–samā’» measure 5.4 and 5.5 pt, long dashes. A spot stands over the u of «Caelum» and over the a of «ab»; they are not signs.",
+  "body L6: the heavy bracket opens Schiaparelli's addition, which continues on the next page.",
+  "body L9-L17: the figure stands at the left of lines 9 to 17, which are set beside it in a narrow measure. It is redrawn from measurements of the print: the sphere as an arc of a circle from the lower end of the ecliptic over the top to Z, drawn whole where it printed with a small break at the upper right; the equator and the ecliptic as straight lines through the first point of Aries; the circle of latitude QAHC and the circles of declination PAKB and PHI as arcs; the bold italic letters, the sign of Aries and the italic words aequator and ecliptica.",
+  "body L18-L28: the derivation is checked. In the triangle AHP, sin APH : sin AH = sin PAH : sin PH, where PAH is the supplement of PAQ and PH = 90° − D; in the triangle AQP, sin PAQ : sin QP = sin PQA : sin PA, where PQA is measured by HX = 90° − L and PA = 90° − δ; together they give (α), which differs from L7 by cos D in place of R.",
+  "body L20, L21, L38: the minus signs are printed as long dashes (9.6 to 10.6 pt); they are set as minus signs.",
+  "body L26: Nallino's addenda et emendanda (Part I, p. LXXIII) read «194,26, lineola excidit in fractione cos L / cos δ.»; the fraction bar, which did not print, is set.",
+  "body L35: the dashes of «21–22» and «al–Battānī» are long dashes (5.4 pt).",
+  "body L38: Delambre's sign of right ascension is printed as a ligature of italic A and R; it is set as A and R joined.",
+  "body L36-L41: Delambre's formulas are checked: in the triangle ABC, right-angled at B, cos AC = cos AB cos CB and tg CB = tg AC cos C, and with cos C = sin ε cos L, AC = β + β′ and AB = δ, sin CB = sin (β + β′) sin ε cos L / cos δ.",
+  "body L40: Nallino's addenda et emendanda (Part I, p. LXXIII) read «194, in paenultima formula pro “sin ω” l. “sin ε”.»; the printed «sin ω» is kept (Delambre's ω is ε, L36)."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0283-body-L001",
+     "source_line_no": null,
+     "tex": "\\Indent Auctor id supputat quod « differentiam (seu variationem) transitus stellae per medium",
+     "transcription": "Auctor id supputat quod « differentiam (seu variationem) transitus stellae per medium",
+     "semantic_anchor": "AB01-PDF0283-P01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0283-body-L002",
+     "source_line_no": null,
+     "tex": "« Caelum » (\\textit{ikhtilāf maǵāz al–kawkab fī wasaṭ as–samā’}) appellat; haec quantitas ascen-",
+     "transcription": "« Caelum » (*ikhtilāf maǵāz al–kawkab fī wasaṭ as–samā’*) appellat; haec quantitas ascen-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0283-body-L003",
+     "source_line_no": null,
+     "tex": "sioni rectae gradus longitudinis stellae addetur aut ab ea, pro opportunitate, demetur; summa",
+     "transcription": "sioni rectae gradus longitudinis stellae addetur aut ab ea, pro opportunitate, demetur; summa",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0283-body-L004",
+     "source_line_no": null,
+     "tex": "aut residuum erit ascensio recta gradus cum stella culminantis. E tabulis ascensionum recta-",
+     "transcription": "aut residuum erit ascensio recta gradus cum stella culminantis. E tabulis ascensionum recta-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0283-body-L005",
+     "source_line_no": null,
+     "tex": "rum longitudo illius gradus elicietur.",
+     "transcription": "rum longitudo illius gradus elicietur.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0283-body-L006",
+     "source_line_no": null,
+     "tex": "\\Indent [Si codicis et Platonis lectio esset bona, regula auctoris hoc modo exprimi deberet:",
+     "transcription": "[Si codicis et Platonis lectio esset bona, regula auctoris hoc modo exprimi deberet:",
+     "semantic_anchor": "AB01-PDF0283-P02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0283-body-L007",
+     "source_line_no": null,
+     "tex": "\\CenterLine{$\\text{sin differ. transitus} = \\dfrac{\\sin\\text{\\textgreek{β}} \\sin\\text{\\textgreek{ε}} \\cos L}{R \\cos\\text{\\textgreek{δ}}}$.}",
+     "transcription": "$\\text{sin differ. transitus} = \\dfrac{\\sin\\text{β} \\sin\\text{ε} \\cos L}{R \\cos\\text{δ}}$.",
+     "semantic_anchor": "AB01-PDF0283-H07",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0283-body-L008",
+     "source_line_no": null,
+     "tex": "\\Indent Nunc quid sit haec differentia transitus seu differentia culminationis statuamus. Sit P polus",
+     "transcription": "Nunc quid sit haec differentia transitus seu differentia culminationis statuamus. Sit P polus",
+     "semantic_anchor": "AB01-PDF0283-P03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0283-body-F01",
+     "source_line_no": null,
+     "tex": "\\input{figures/AB01-PDF0283-F01}",
+     "transcription": "[figure, redrawn: figures/AB01-PDF0283-F01.tex]",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_FIGURE"
+    },
+    {
+     "id": "AB01-PDF0283-body-L009",
+     "source_line_no": null,
+     "tex": "aequatoris, Q polus eclipticae; per stellam datam A ducantur",
+     "transcription": "aequatoris, Q polus eclipticae; per stellam datam A ducantur",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0283-body-L010",
+     "source_line_no": null,
+     "tex": "circulus declinationis PAB, et circulus latitudinis QAC; per",
+     "transcription": "circulus declinationis PAB, et circulus latitudinis QAC; per",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0283-body-L011",
+     "source_line_no": null,
+     "tex": "punctum H eclipticae, quod est gradus longitudinis stellae, cir-",
+     "transcription": "punctum H eclipticae, quod est gradus longitudinis stellae, cir-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0283-body-L012",
+     "source_line_no": null,
+     "tex": "culus PHI declinationis describatur. Manifeste arcus BI aequa-",
+     "transcription": "culus PHI declinationis describatur. Manifeste arcus BI aequa-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0283-body-L013",
+     "source_line_no": null,
+     "tex": "toris est intervallum inter transitum stellae A per meridianum",
+     "transcription": "toris est intervallum inter transitum stellae A per meridianum",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0283-body-L014",
+     "source_line_no": null,
+     "tex": "et transitum puncti H eclipticae quod est gradus stellae, vel",
+     "transcription": "et transitum puncti H eclipticae quod est gradus stellae, vel",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0283-body-L015",
+     "source_line_no": null,
+     "tex": "differentia inter ascensionem rectam ({\\MoonFont ♈} I) gradus stellae et",
+     "transcription": "differentia inter ascensionem rectam (♈ I) gradus stellae et",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0283-body-L016",
+     "source_line_no": null,
+     "tex": "ascensionem rectam ({\\MoonFont ♈} B) stellae.",
+     "transcription": "ascensionem rectam (♈ B) stellae.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0283-body-L017",
+     "source_line_no": null,
+     "tex": "\\Indent Cum PB = PI = 90° sit ob constructiones factas, arcus",
+     "transcription": "Cum PB = PI = 90° sit ob constructiones factas, arcus",
+     "semantic_anchor": "AB01-PDF0283-P04",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0283-body-L018",
+     "source_line_no": null,
+     "tex": "BI (scilicet differentia transitus quaesita) erit mensura anguli APH. Si D appellemus declina-",
+     "transcription": "BI (scilicet differentia transitus quaesita) erit mensura anguli APH. Si D appellemus declina-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0283-body-L019",
+     "source_line_no": null,
+     "tex": "tionem puncti H, scilicet arcum HI, habemus",
+     "transcription": "tionem puncti H, scilicet arcum HI, habemus",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0283-body-L020",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{5.79mm}$AH = \\text{\\textgreek{β}}$}\\rlap{\\hspace*{26.06mm}$PH = \\text{90°} - D$}\\rlap{\\hspace*{58.44mm}$PA = \\text{90°} - \\text{\\textgreek{δ}}$}\\rlap{\\hspace*{89.14mm}$QA = \\text{90°} - \\text{\\textgreek{β}}$}\\rlap{\\hspace*{119.90mm}$QP = XZ = \\text{\\textgreek{ε}}$.}",
+     "transcription": "$AH = \\text{β}$ $PH = \\text{90°} - D$ $PA = \\text{90°} - \\text{δ}$ $QA = \\text{90°} - \\text{β}$ $QP = XZ = \\text{ε}$.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0283-body-L021",
+     "source_line_no": null,
+     "tex": "Et quoniam \\textit{QH} = \\textit{QX} = 90°, arcus \\textit{HX} (i. e. 90° − \\textit{L}) erit mensura anguli \\textit{PQA}.",
+     "transcription": "Et quoniam *QH* = *QX* = 90°, arcus *HX* (i. e. 90° − *L*) erit mensura anguli *PQA*.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0283-body-L022",
+     "source_line_no": null,
+     "tex": "\\Indent Ob proportionalitatem sinuum angulorum ad sinus laterum oppositorum, in triangulo",
+     "transcription": "Ob proportionalitatem sinuum angulorum ad sinus laterum oppositorum, in triangulo",
+     "semantic_anchor": "AB01-PDF0283-P05",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0283-body-L023",
+     "source_line_no": null,
+     "tex": "AHP est",
+     "transcription": "AHP est",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0283-body-L024",
+     "source_line_no": null,
+     "tex": "\\CenterLine{$\\text{sin diff. trans.} = \\sin\\text{\\textgreek{β}}\\,\\dfrac{\\sin PAQ}{\\cos D}$;}",
+     "transcription": "$\\text{sin diff. trans.} = \\sin\\text{β}\\,\\dfrac{\\sin PAQ}{\\cos D}$;",
+     "semantic_anchor": "AB01-PDF0283-H24",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0283-body-L025",
+     "source_line_no": null,
+     "tex": "item in triangulo AQP",
+     "transcription": "item in triangulo AQP",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0283-body-L026",
+     "source_line_no": null,
+     "tex": "\\CenterLine{$\\sin PAQ = \\sin\\text{\\textgreek{ε}}\\,\\dfrac{\\cos L}{\\cos\\text{\\textgreek{δ}}}$;}",
+     "transcription": "$\\sin PAQ = \\sin\\text{ε}\\,\\dfrac{\\cos L}{\\cos\\text{δ}}$;",
+     "semantic_anchor": "AB01-PDF0283-H26",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0283-body-L027",
+     "source_line_no": null,
+     "tex": "ergo",
+     "transcription": "ergo",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0283-body-L028",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.00mm}(\\textgreek{α})}\\rlap{\\hspace*{94.00mm}\\makebox[0pt][c]{$\\text{sin diff. trans.} = \\dfrac{\\sin\\text{\\textgreek{β}} \\sin\\text{\\textgreek{ε}} \\cos L}{\\cos D \\cos\\text{\\textgreek{δ}}}$.}}",
+     "transcription": "(α) $\\text{sin diff. trans.} = \\dfrac{\\sin\\text{β} \\sin\\text{ε} \\cos L}{\\cos D \\cos\\text{δ}}$.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0283-body-L029",
+     "source_line_no": null,
+     "tex": "\\Indent Necessarium ergo est $\\cos D$ pro \\textit{R}, quem habent codex Escurialensis et Plato, ponere;",
+     "transcription": "Necessarium ergo est $\\cos D$ pro *R*, quem habent codex Escurialensis et Plato, ponere;",
+     "semantic_anchor": "AB01-PDF0283-P06",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0283-body-L030",
+     "source_line_no": null,
+     "tex": "secus regula falsa est. Ut ad p. 48 textus Arabici adnotatum fuit, verba « chordam eius quod",
+     "transcription": "secus regula falsa est. Ut ad p. 48 textus Arabici adnotatum fuit, verba « chordam eius quod",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0283-body-L031",
+     "source_line_no": null,
+     "tex": "« restat ad declinationem gradus in quo stella est complendam usque ad nonaginta » (i. e.",
+     "transcription": "« restat ad declinationem gradus in quo stella est complendam usque ad nonaginta » (i. e.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0283-body-L032",
+     "source_line_no": null,
+     "tex": "cos \\textit{D}), lineam fortasse implentia, perperam a librario in archetypo omissa videntur; locum",
+     "transcription": "cos *D*), lineam fortasse implentia, perperam a librario in archetypo omissa videntur; locum",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0283-body-L033",
+     "source_line_no": null,
+     "tex": "ita corruptum (« productum divide per et quod exibit arcua ») imperitus lector, qui alia quo-",
+     "transcription": "ita corruptum (« productum divide per et quod exibit arcua ») imperitus lector, qui alia quo-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0283-body-L034",
+     "source_line_no": null,
+     "tex": "que vitiavit, restituere arbitratus est post « per » addendo « dimidium diametri ».",
+     "transcription": "que vitiavit, restituere arbitratus est post « per » addendo « dimidium diametri ».",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0283-body-L035",
+     "source_line_no": null,
+     "tex": "\\Indent \\Name{Delambre}, p. 21–22, nullum errorem in regula al–Battānī animadvertit, sed eam false",
+     "transcription": "{sp:Delambre}, p. 21–22, nullum errorem in regula al–Battānī animadvertit, sed eam false",
+     "semantic_anchor": "AB01-PDF0283-P07",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0283-body-L036",
+     "source_line_no": null,
+     "tex": "interpretatus est. Notatione nostra adhibita (nam Delambre \\textit{B}, \\textit{D}, \\textgreek{ω, λ, λ}′ pro nostris \\textit{H}, \\textit{B},",
+     "transcription": "interpretatus est. Notatione nostra adhibita (nam Delambre *B*, *D*, ω, λ, λ′ pro nostris *H*, *B*,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0283-body-L037",
+     "source_line_no": null,
+     "tex": "\\textgreek{ε, β, β}′ scribit), haec sunt eius verba: « Cherchez cos \\textit{AC} et cos {\\MoonFont ♈}\\textit{H}, vous aurez cos \\textit{AB}",
+     "transcription": "ε, β, β′ scribit), haec sunt eius verba: « Cherchez cos *AC* et cos ♈*H*, vous aurez cos *AB*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0283-body-L038",
+     "source_line_no": null,
+     "tex": "« $\\cos CB = \\cos AC$, ou $\\cos CB = \\dfrac{\\cos AC}{\\cos AB}$, puis $A\\kern-0.22em R = \\text{{\\MoonFont ♈}}B = \\text{{\\MoonFont ♈}}C - CB$; nous ferions tang",
+     "transcription": "« $\\cos CB = \\cos AC$, ou $\\cos CB = \\dfrac{\\cos AC}{\\cos AB}$, puis $A\\kern-0.22em R = \\text{♈}B = \\text{♈}C - CB$; nous ferions tang",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0283-body-L039",
+     "source_line_no": null,
+     "tex": "« $CB = \\text{tang}\\,AC \\cos C$, ou",
+     "transcription": "« $CB = \\text{tang}\\,AC \\cos C$, ou",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0283-body-L040",
+     "source_line_no": null,
+     "tex": "\\CenterLine{$\\dfrac{\\sin CB}{\\cos CB} = \\biggl(\\dfrac{\\sin AC}{\\cos AC}\\biggr) \\cos C = \\dfrac{\\sin AC}{\\cos AB \\cos CB} \\sin\\text{\\textgreek{ω}} \\cos \\text{{\\MoonFont ♈}}H$,}",
+     "transcription": "$\\dfrac{\\sin CB}{\\cos CB} = \\biggl(\\dfrac{\\sin AC}{\\cos AC}\\biggr) \\cos C = \\dfrac{\\sin AC}{\\cos AB \\cos CB} \\sin\\text{ω} \\cos \\text{♈}H$,",
+     "semantic_anchor": "AB01-PDF0283-H40",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0283-body-L041",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.00mm}« et}\\rlap{\\hspace*{94.00mm}\\makebox[0pt][c]{$\\sin CB = \\dfrac{\\sin AC \\sin\\text{\\textgreek{ε}} \\cos \\text{{\\MoonFont ♈}}H}{\\cos AB} = \\dfrac{\\sin (\\text{\\textgreek{β}} + \\text{\\textgreek{β}}') \\sin\\text{\\textgreek{ε}} \\cos L}{\\cos\\text{\\textgreek{δ}}}$.}}",
+     "transcription": "« et $\\sin CB = \\dfrac{\\sin AC \\sin\\text{ε} \\cos \\text{♈}H}{\\cos AB} = \\dfrac{\\sin (\\text{β} + \\text{β}') \\sin\\text{ε} \\cos L}{\\cos\\text{δ}}$.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    }
+   ]
+  }
+ ]
+}

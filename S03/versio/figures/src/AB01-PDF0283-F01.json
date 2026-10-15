@@ -1,0 +1,275 @@
+{
+ "pdf": 283,
+ "printed_page": 194,
+ "comment": [
+  "Nallino, Part I p. 194: the figure of the difference of culmination, redrawn from the print: the sphere as an arc",
+  "of a circle from the lower end of the ecliptic over the top to Z (drawn whole where it printed with a small break",
+  "at the upper right); the equator and the ecliptic as straight lines through the first point of Aries; the circle of",
+  "latitude QAHC and the circles of declination PAKB and PHI as arcs; the bold italic letters, the sign of Aries and",
+  "the italic words aequator and ecliptica. Measured on the scan (_intake/latin/tools/fig194)."
+ ],
+ "origin": [
+  110.2,
+  230.46
+ ],
+ "scale": 0.99281,
+ "size": [
+  132.0,
+  120.0
+ ],
+ "label_pt": 11,
+ "circles": [],
+ "segments": [
+  {
+   "name": "the equator",
+   "x0": 116.21,
+   "y0": 307.2,
+   "x1": 236.11,
+   "y1": 307.45,
+   "w": 0.85
+  },
+  {
+   "name": "the ecliptic",
+   "x0": 130.37,
+   "y0": 345.82,
+   "x1": 222.21,
+   "y1": 268.74,
+   "w": 0.92
+  }
+ ],
+ "arcs": [
+  {
+   "name": "the sphere, from the lower end of the ecliptic over the top to Z",
+   "cx": 176.16,
+   "cy": 307.13,
+   "r": 59.95,
+   "a0": 139.808,
+   "a1": 360.306,
+   "w": 1.05
+  },
+  {
+   "name": "the arc QAHC",
+   "cx": 147.97,
+   "cy": 330.94,
+   "r": 70.26,
+   "a0": -98.747,
+   "a1": -19.572,
+   "w": 1.01
+  },
+  {
+   "name": "the arc PAKB",
+   "cx": 5.4,
+   "cy": 311.43,
+   "r": 183.2,
+   "a0": -20.53,
+   "a1": -1.275,
+   "w": 1.01
+  },
+  {
+   "name": "the arc PHI",
+   "cx": 129.18,
+   "cy": 305.84,
+   "r": 75.47,
+   "a0": -51.022,
+   "a1": 1.169,
+   "w": 1.0
+  }
+ ],
+ "labels": [
+  {
+   "t": "\\resizebox{5.70pt}{7.49pt}{P}",
+   "cx": 178.64,
+   "cy": 240.06,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{6.60pt}{6.44pt}{Q}",
+   "cx": 129.88,
+   "cy": 259.7,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{7.93pt}{7.14pt}{X}",
+   "cx": 228.82,
+   "cy": 266.78,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{7.07pt}{7.48pt}{A}",
+   "cx": 179.97,
+   "cy": 275.22,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{8.18pt}{7.49pt}{H}",
+   "cx": 209.26,
+   "cy": 286.26,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{8.40pt}{7.72pt}{K}",
+   "cx": 180.36,
+   "cy": 292.98,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{9.45pt}{8.56pt}{♈}",
+   "cx": 178.62,
+   "cy": 314.72,
+   "font": "\\fontsize{11}{11}\\MoonFont"
+  },
+  {
+   "t": "\\resizebox{6.99pt}{7.48pt}{B}",
+   "cx": 188.74,
+   "cy": 313.16,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{2.56pt}{7.60pt}{I}",
+   "cx": 201.65,
+   "cy": 313.32,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{7.05pt}{7.75pt}{C}",
+   "cx": 213.48,
+   "cy": 313.56,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{5.19pt}{7.03pt}{Z}",
+   "cx": 233.81,
+   "cy": 312.92,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{38.79pt}{6.11pt}{aequator}",
+   "cx": 145.14,
+   "cy": 301.62,
+   "font": "\\fontsize{11}{11}\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{37.79pt}{7.56pt}{ecliptica}",
+   "cx": 145.31,
+   "cy": 325.4,
+   "font": "\\fontsize{11}{11}\\itshape\\selectfont",
+   "rot": 40.0
+  }
+ ],
+ "boxes": {
+  "P": [
+   6.3,
+   7.56
+  ],
+  "Q": [
+   6.12,
+   8.64
+  ],
+  "X": [
+   9.0,
+   7.2
+  ],
+  "A": [
+   6.96,
+   7.56
+  ],
+  "H": [
+   8.76,
+   7.56
+  ],
+  "K": [
+   9.0,
+   7.8
+  ],
+  "♈": [
+   8.76,
+   8.76
+  ],
+  "B": [
+   6.96,
+   7.56
+  ],
+  "I": [
+   3.12,
+   7.68
+  ],
+  "C": [
+   6.6,
+   7.92
+  ],
+  "Z": [
+   5.76,
+   7.08
+  ],
+  "aequator": [
+   39.0,
+   8.76
+  ],
+  "ecliptica": [
+   37.17,
+   10.21
+  ]
+ },
+ "points": {
+  "eqL": [
+   116.21,
+   307.2
+  ],
+  "Z": [
+   236.11,
+   307.45
+  ],
+  "eclL": [
+   130.37,
+   345.82
+  ],
+  "X": [
+   222.21,
+   268.74
+  ],
+  "Ar": [
+   176.23,
+   307.32
+  ],
+  "Q": [
+   137.28,
+   261.49
+  ],
+  "P": [
+   176.96,
+   247.18
+  ],
+  "P2": [
+   176.65,
+   247.18
+  ],
+  "A": [
+   184.0,
+   270.62
+  ],
+  "H": [
+   201.84,
+   285.83
+  ],
+  "H2": [
+   201.93,
+   285.76
+  ],
+  "K": [
+   188.06,
+   297.4
+  ],
+  "B": [
+   188.55,
+   307.35
+  ],
+  "I": [
+   204.63,
+   307.38
+  ],
+  "C": [
+   214.17,
+   307.4
+  ]
+ }
+}

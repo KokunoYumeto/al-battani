@@ -1,0 +1,76 @@
+@page 283 194
+% Notes on chapter 18, c) continued: al-Battānī's difference of transit through mid-heaven, added to or subtracted from the right ascension of the star's degree; the rule as read in the Escorial manuscript and in Plato; the difference of culmination, with the figure: by the sine rule in the triangles AHP and AQP, rule (α), which needs cos D for the R of the manuscript and Plato; the omission in the archetype; Delambre's reading of the rule (begun).
+@nonum
+^ Auctor id supputat quod « differentiam (seu variationem) transitus stellae per medium
+@vspace 0.11
+« Caelum » (*ikhtilāf maǵāz al–kawkab fī wasaṭ as–samā’*) appellat; haec quantitas ascen-
+sioni rectae gradus longitudinis stellae addetur aut ab ea, pro opportunitate, demetur; summa
+@vspace -0.08
+aut residuum erit ascensio recta gradus cum stella culminantis. E tabulis ascensionum recta-
+@vspace 0.09
+rum longitudo illius gradus elicietur.
+^ [Si codicis et Platonis lectio esset bona, regula auctoris hoc modo exprimi deberet:
+@center $\text{sin differ. transitus} = \dfrac{\sin\text{β} \sin\text{ε} \cos L}{R \cos\text{δ}}$.
+@vspace 0.89
+^ Nunc quid sit haec differentia transitus seu differentia culminationis statuamus. Sit P polus
+@wrap 0.244 AB01-PDF0283-F01
+aequatoris, Q polus eclipticae; per stellam datam A ducantur
+circulus declinationis PAB, et circulus latitudinis QAC; per
+punctum H eclipticae, quod est gradus longitudinis stellae, cir-
+culus PHI declinationis describatur. Manifeste arcus BI aequa-
+@vspace -0.10
+toris est intervallum inter transitum stellae A per meridianum
+et transitum puncti H eclipticae quod est gradus stellae, vel
+differentia inter ascensionem rectam (♈ I) gradus stellae et
+@vspace 0.07
+ascensionem rectam (♈ B) stellae.
+^ Cum PB = PI = 90° sit ob constructiones factas, arcus
+@endwrap
+@vspace -0.34
+BI (scilicet differentia transitus quaesita) erit mensura anguli APH. Si D appellemus declina-
+tionem puncti H, scilicet arcum HI, habemus
+@vspace 0.23
+@at 5.79:$AH = \text{β}$ | 26.06:$PH = \text{90°} - D$ | 58.44:$PA = \text{90°} - \text{δ}$ | 89.14:$QA = \text{90°} - \text{β}$ | 119.9:$QP = XZ = \text{ε}$.
+@vspace -0.24
+Et quoniam *QH* = *QX* = 90°, arcus *HX* (i. e. 90° − *L*) erit mensura anguli *PQA*.
+^ Ob proportionalitatem sinuum angulorum ad sinus laterum oppositorum, in triangulo
+AHP est
+@vspace -1.06
+@center $\text{sin diff. trans.} = \sin\text{β}\,\dfrac{\sin PAQ}{\cos D}$;
+@vspace -0.59
+item in triangulo AQP
+@vspace -1.10
+@center $\sin PAQ = \sin\text{ε}\,\dfrac{\cos L}{\cos\text{δ}}$;
+@vspace -0.53
+ergo
+@vspace -1.07
+@at 0:(α) | 94^:$\text{sin diff. trans.} = \dfrac{\sin\text{β} \sin\text{ε} \cos L}{\cos D \cos\text{δ}}$.
+@vspace 0.40
+^ Necessarium ergo est $\cos D$ pro *R*, quem habent codex Escurialensis et Plato, ponere;
+secus regula falsa est. Ut ad p. 48 textus Arabici adnotatum fuit, verba « chordam eius quod
+« restat ad declinationem gradus in quo stella est complendam usque ad nonaginta » (i. e.
+cos *D*), lineam fortasse implentia, perperam a librario in archetypo omissa videntur; locum
+@vspace -0.09
+ita corruptum (« productum divide per et quod exibit arcua ») imperitus lector, qui alia quo-
+que vitiavit, restituere arbitratus est post « per » addendo « dimidium diametri ».
+^ {sp:Delambre}, p. 21–22, nullum errorem in regula al–Battānī animadvertit, sed eam false
+interpretatus est. Notatione nostra adhibita (nam Delambre *B*, *D*, ω, λ, λ′ pro nostris *H*, *B*,
+ε, β, β′ scribit), haec sunt eius verba: « Cherchez cos *AC* et cos ♈*H*, vous aurez cos *AB*
+@vspace -1.21
+« $\cos CB = \cos AC$, ou $\cos CB = \dfrac{\cos AC}{\cos AB}$, puis $A\kern-0.22em R = \text{♈}B = \text{♈}C - CB$; nous ferions tang
+@vspace -0.41
+« $CB = \text{tang}\,AC \cos C$, ou
+@vspace -0.35
+@center $\dfrac{\sin CB}{\cos CB} = \biggl(\dfrac{\sin AC}{\cos AC}\biggr) \cos C = \dfrac{\sin AC}{\cos AB \cos CB} \sin\text{ω} \cos \text{♈}H$,
+@vspace -0.66
+@at 0:« et | 94^:$\sin CB = \dfrac{\sin AC \sin\text{ε} \cos \text{♈}H}{\cos AB} = \dfrac{\sin (\text{β} + \text{β}') \sin\text{ε} \cos L}{\cos\text{δ}}$.
+@obs body L2-L3: the dashes of «al–kawkab» and «as–samā’» measure 5.4 and 5.5 pt, long dashes. A spot stands over the u of «Caelum» and over the a of «ab»; they are not signs.
+@obs body L6: the heavy bracket opens Schiaparelli's addition, which continues on the next page.
+@obs body L9-L17: the figure stands at the left of lines 9 to 17, which are set beside it in a narrow measure. It is redrawn from measurements of the print: the sphere as an arc of a circle from the lower end of the ecliptic over the top to Z, drawn whole where it printed with a small break at the upper right; the equator and the ecliptic as straight lines through the first point of Aries; the circle of latitude QAHC and the circles of declination PAKB and PHI as arcs; the bold italic letters, the sign of Aries and the italic words aequator and ecliptica.
+@obs body L18-L28: the derivation is checked. In the triangle AHP, sin APH : sin AH = sin PAH : sin PH, where PAH is the supplement of PAQ and PH = 90° − D; in the triangle AQP, sin PAQ : sin QP = sin PQA : sin PA, where PQA is measured by HX = 90° − L and PA = 90° − δ; together they give (α), which differs from L7 by cos D in place of R.
+@obs body L20, L21, L38: the minus signs are printed as long dashes (9.6 to 10.6 pt); they are set as minus signs.
+@obs body L26: Nallino's addenda et emendanda (Part I, p. LXXIII) read «194,26, lineola excidit in fractione cos L / cos δ.»; the fraction bar, which did not print, is set.
+@obs body L35: the dashes of «21–22» and «al–Battānī» are long dashes (5.4 pt).
+@obs body L38: Delambre's sign of right ascension is printed as a ligature of italic A and R; it is set as A and R joined.
+@obs body L36-L41: Delambre's formulas are checked: in the triangle ABC, right-angled at B, cos AC = cos AB cos CB and tg CB = tg AC cos C, and with cos C = sin ε cos L, AC = β + β′ and AB = δ, sin CB = sin (β + β′) sin ε cos L / cos δ.
+@obs body L40: Nallino's addenda et emendanda (Part I, p. LXXIII) read «194, in paenultima formula pro “sin ω” l. “sin ε”.»; the printed «sin ω» is kept (Delambre's ω is ε, L36).
