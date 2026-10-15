@@ -1,0 +1,82 @@
+@page 290 201
+% Notes on chapter 26, a) concluded: the figure drawn by Schiaparelli to avoid ambiguities, the sphere projected orthogonally on the plane of the ecliptic; the proportion in the plane triangle FBC and al-Battānī's rule for half the distance; corruptions and interpolations in the text; the rules serve the profections in nativities and other questions. b) on p. 39, ll. 1-12: the distance of G from A by Ptolemy's theorem in the quadrilateral GEBA (begun). Notes on the great circle DH and on the words added by the manuscript and Plato.
+@nonum
+ea regulas deduxisse. Ambiguitates facile vitarentur figuram Albatenianam parum aliter de-
+@wrap 0.288 AB01-PDF0290-F01
+scribendo, ita ut punctum M chordae statim ab M arcus,
+et C chordae a C arcus diversa appareant; {sp:Schiapa-}
+{sp:relli} diagramma mihi proposuit quod hoc loco impres-
+sum exstat. Proiiciatur sphaera in planum eclipticae or-
+thogonaliter; erit AHDB ecliptica, cuius polus F; FG, FE,
+FB, FA uno eodemque tempore erunt complementa lati-
+tudinis et horum complementorum sinus. Per duo puncta
+G, E, eiusdem latitudinis, *circulus maximus* (1) DH descri-
+batur, cuius arcus GE erit distantia inter G et E; rectae
+GE, BA ducantur, bifariam sectae a recta FC; demum
+arcus AG *circuli maximi* et eius chorda signentur. Lit-
+@endwrap
+@vspace -0.30
+teris M et C puncta media chordarum, litteris M′ et C′ loca media arcuum distinguantur.
+^ Quo facto, manifesta est in triangulo plano FBC proportio $\text{GM} : \text{BC} = \text{FG} : \text{FB}$ (2), scilicet, si
+@vspace -0.08
+L et L′ longitudines stellarum, β latitudo vocentur,
+@vspace -0.24
+@center $\text{sin arc}\,\dfrac{GE}{2} : \text{sin arc}\,\dfrac{L - L'}{2} = \text{sin arc}\,(\text{90°} - \text{β}) : \text{sin arc}\ \text{90°}$.
+@vspace 1.03
+@at 0:At | 7.68:$\sin \text{90°} = R$, arcus $\dfrac{GE}{2}$ est dimidia distantia quaesita, ergo
+@vspace -0.29
+@center $\sin\dfrac{GE}{2} = \sin\dfrac{L - L'}{2} \times \dfrac{\cos\text{β}}{R}$,
+@vspace 0.59
+quae est regula al–Battānī, in pag. 40, l. 1–2 (et 39, l. 26–28) enuntiata.
+^ Nonnullae corruptelae aut interpolationes quoque in textu sunt, in versione mea suis locis
+indicatae; quas {sp:Albatenio} ipsi tribuere non licet, cum stultissimae, supervacaneae omnino
+et nullius consequentiae sint in calculo numerali auctoris aut in regulis paginarum 39–40.
+Manus imperiti lectoris apparet, cuius vestigia manifesta alibi quoque invenimus.
+^ Iuxta finem capitis, haec praecepta quam maxime utilia sunt ad supputandas profectiones
+in nativitatibus; sed ea etiam quaestionibus non astrologicis inservire apparet ex ipsius {sp:al–}
+{sp:–Battānī} verbis, ubi distantiam Lunae a Sole certo absolutoque modo supputare docet
+(cap. XLI, p. 87, l. 11–13).
+@vspace 3.38
+@center {bi:b}) — *Pag. 39, l. 1–12.*
+@vspace 3.23
+^ Cognita distantia puncti G ab E in circulo maximo per formulam
+@vspace -0.16
+@center $\sin\dfrac{1}{2}\,\text{distantiae} = \sin\dfrac{L - L'}{2} \times \dfrac{\cos\text{β}}{R}$,
+@vspace 0.60
+quaerit auctor distantiam puncti G ab A in circulo maximo quoque. Observat igitur in qua-
+drilatero *rectilineo* GEBA (quod symmetricum est, ergo circulo inscribi potest) verum esse
+theorema Ptolemaei in initio capitis (p. 37, l. 38–40) enuntiatum; haberi itaque
+@vspace -0.44
+@center $\overline{GA}^2 = 2\,\overline{GB}^2 + GE \times BA$,
+@vspace 2.52
+@notes
+@fontsize 9 11.72
+@vspace 2.91
+^ (1) Non circulus minor seu parallelus circulo
+maximo BA, ut {sp:Regiomontanus} et {sp:Delambre}
+@vspace 0.10
+interpretati sunt.
+^ (2) Codex et Plato addunt « = FM : FC », quod,
+licet verum sit, inutile prorsus apparet, nam harum
+rectarum cognitio nec requiritur, nec docetur. Inter-
+@col
+@fontsize 9 11.72
+@vspace 2.99
+polatio ergo censenda, ex hoc orta quod scriptor
+archetypi unde codex Escurialensis et codex Plato-
+nis proveniunt, in lineis 23, 24, 30 et 31 perperam FM
+{ar:ف م} pro FG {ar:ف ط}, et FC {ar:ف ج} pro FB {ar:ف ب} posuit.
+Inde quoque corruptela provenit, pag. 38, adn. 6,
+indicata.
+@sig 26
+@obs body L2-L12: the figure stands at the left of lines 2 to 12, which are set beside it in a narrow measure. It is redrawn from measurements of the print: the ecliptic AHDB, printed a little wider than high, as an ellipse about its pole F; the straight lines FB, FA and FC′ (through M, M′ and C) and the chords BA, GE and GA; the great circle DH through G and E and the great circle through G and A as arcs, each below its chord; the bold italic letters and the italic word ecliptica along the circle.
+@obs body L3-L4: Schiaparelli's name is letter-spaced and divided between the lines.
+@obs body L14-L18: the proportion and the rule are right: in the projection FG = FE = R cos β and FB = FA = R, GM and BC are the halves of the chords GE and BA, and the chord between the two stars, parallel to the ecliptic, keeps its length; so R sin (GE/2) : R sin ((L − L′)/2) = R cos β : R.
+@obs body L16, L18, L30: the minus signs are printed as long dashes (10.1 to 10.4 pt); they are set as minus signs.
+@obs body L19, L22, L27: the dashes of «al–Battānī», «1–2», «39–40» and «11–13» are long dashes (5.4 to 5.5 pt).
+@obs body L25-L26: the letter-spaced name of al-Battānī is divided between the lines, its long dash printed at the end of L25 (5.5 pt) and again at the head of L26 (5.8 pt).
+@obs body L28: in the head, the dash after «b)» measures 10.0 pt and the dash of «1–12» 5.4 pt; transcribed as a dash and a long dash.
+@obs body L34: the printed formula has 2 GB². Ptolemy's theorem in the symmetric quadrilateral GEAB, GA × EB = GE × BA + EA × GB with EB = GA and EA = GB, gives GA² = GB² + GE × BA (with R = 1, β = 30° and L − L′ = 60°: GA² = 1.134, GB² = 0.268, GE × BA = 0.866), as rule (α) of the next page, which adds the square of the third side once. The printed form is kept. The exponent of GA is printed broken.
+@obs notes_left L6: the hyphen of «Inter-» is printed short (1.9 pt).
+@obs notes_right L4: the Arabic letters are those of al-Battānī's figure for F, M, G, C and B.
+@obs notes_right L6: the signature 26 stands at the foot of the page, at the right.

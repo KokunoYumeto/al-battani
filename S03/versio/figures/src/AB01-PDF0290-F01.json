@@ -1,0 +1,381 @@
+{
+ "pdf": 290,
+ "printed_page": 201,
+ "comment": [
+  "Nallino, Part I p. 201: Schiaparelli's diagram of the distance of two stars, redrawn from the print: the",
+  "ecliptic AHDB (printed a little wider than high) about its pole F; the straight lines FB, FA and FC' (through M,",
+  "M' and C) and the chords BA, GE and GA; the great circle DH through G and E and the great circle through G and A",
+  "as arcs; the bold italic letters and the italic word ecliptica along the circle. Measured on the scan",
+  "(_intake/latin/tools/fig201)."
+ ],
+ "origin": [
+  55.2,
+  128.5
+ ],
+ "scale": 0.99281,
+ "size": [
+  150.0,
+  146.0
+ ],
+ "label_pt": 11,
+ "ellipses": [
+  {
+   "name": "the ecliptic AHDB",
+   "cx": 131.11,
+   "cy": 199.81,
+   "rx": 63.17,
+   "ry": 62.61,
+   "w": 0.99
+  }
+ ],
+ "circles": [],
+ "segments": [
+  {
+   "name": "FB",
+   "x0": 131.29,
+   "y0": 199.59,
+   "x1": 89.31,
+   "y1": 246.76,
+   "w": 0.9
+  },
+  {
+   "name": "FA",
+   "x0": 131.29,
+   "y0": 199.59,
+   "x1": 172.98,
+   "y1": 246.7,
+   "w": 0.91
+  },
+  {
+   "name": "FC' through M, M' and C",
+   "x0": 131.29,
+   "y0": 199.59,
+   "x1": 130.98,
+   "y1": 262.43,
+   "w": 0.93
+  },
+  {
+   "name": "the chord BA",
+   "x0": 89.42,
+   "y0": 246.65,
+   "x1": 173.1,
+   "y1": 246.83,
+   "w": 0.86
+  },
+  {
+   "name": "the chord GE",
+   "x0": 110.23,
+   "y0": 223.26,
+   "x1": 152.24,
+   "y1": 223.27,
+   "w": 0.54
+  },
+  {
+   "name": "the chord GA",
+   "x0": 110.13,
+   "y0": 223.38,
+   "x1": 173.06,
+   "y1": 246.79,
+   "w": 0.84
+  }
+ ],
+ "arcs": [
+  {
+   "name": "the great circle DH through G and E",
+   "cx": 131.14,
+   "cy": 135.95,
+   "r": 90.03,
+   "a0": 45.466,
+   "a1": 134.59,
+   "w": 0.89
+  },
+  {
+   "name": "the great circle through G and A",
+   "cx": 212.64,
+   "cy": 45.98,
+   "r": 205.18,
+   "a0": 100.967,
+   "a1": 120.04,
+   "w": 0.93
+  }
+ ],
+ "labels": [
+  {
+   "t": "\\resizebox{7.58pt}{7.62pt}{D}",
+   "cx": 61.42,
+   "cy": 196.84,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{6.84pt}{7.02pt}{H}",
+   "cx": 199.83,
+   "cy": 200.38,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{6.56pt}{7.26pt}{F}",
+   "cx": 132.83,
+   "cy": 194.1,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{6.95pt}{7.28pt}{G}",
+   "cx": 107.27,
+   "cy": 217.32,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{7.80pt}{7.25pt}{M}",
+   "cx": 136.89,
+   "cy": 218.52,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{6.02pt}{7.15pt}{E}",
+   "cx": 154.81,
+   "cy": 217.2,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{10.00pt}{7.03pt}{M′}",
+   "cx": 138.34,
+   "cy": 230.18,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{7.24pt}{7.36pt}{B}",
+   "cx": 81.48,
+   "cy": 247.32,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{6.80pt}{8.10pt}{C}",
+   "cx": 125.18,
+   "cy": 251.6,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{5.85pt}{7.13pt}{A}",
+   "cx": 178.04,
+   "cy": 246.6,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{10.37pt}{7.52pt}{C′}",
+   "cx": 128.02,
+   "cy": 269.04,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{5.18pt}{4.10pt}{e}",
+   "cx": 100.88,
+   "cy": 154.64,
+   "font": "\\fontsize{11}{11}\\itshape\\selectfont",
+   "rot": 33.79,
+   "anchor": "base"
+  },
+  {
+   "t": "\\resizebox{5.03pt}{4.10pt}{c}",
+   "cx": 105.02,
+   "cy": 152.13,
+   "font": "\\fontsize{11}{11}\\itshape\\selectfont",
+   "rot": 28.68,
+   "anchor": "base"
+  },
+  {
+   "t": "\\resizebox{3.44pt}{6.52pt}{l}",
+   "cx": 108.62,
+   "cy": 150.33,
+   "font": "\\fontsize{11}{11}\\itshape\\selectfont",
+   "rot": 24.44,
+   "anchor": "base"
+  },
+  {
+   "t": "\\resizebox{3.57pt}{5.77pt}{i}",
+   "cx": 111.69,
+   "cy": 149.05,
+   "font": "\\fontsize{11}{11}\\itshape\\selectfont",
+   "rot": 20.94,
+   "anchor": "base"
+  },
+  {
+   "t": "\\resizebox{6.32pt}{4.58pt}{p}",
+   "cx": 116.14,
+   "cy": 147.56,
+   "font": "\\fontsize{11}{11}\\itshape\\selectfont",
+   "rot": 15.99,
+   "anchor": "base"
+  },
+  {
+   "t": "\\resizebox{3.97pt}{5.24pt}{t}",
+   "cx": 120.89,
+   "cy": 146.43,
+   "font": "\\fontsize{11}{11}\\itshape\\selectfont",
+   "rot": 10.84,
+   "anchor": "base"
+  },
+  {
+   "t": "\\resizebox{3.57pt}{5.77pt}{i}",
+   "cx": 124.42,
+   "cy": 145.88,
+   "font": "\\fontsize{11}{11}\\itshape\\selectfont",
+   "rot": 7.06,
+   "anchor": "base"
+  },
+  {
+   "t": "\\resizebox{5.03pt}{4.10pt}{c}",
+   "cx": 128.49,
+   "cy": 145.53,
+   "font": "\\fontsize{11}{11}\\itshape\\selectfont",
+   "rot": 2.76,
+   "anchor": "base"
+  },
+  {
+   "t": "\\resizebox{6.28pt}{4.10pt}{a}",
+   "cx": 133.86,
+   "cy": 145.53,
+   "font": "\\fontsize{11}{11}\\itshape\\selectfont",
+   "rot": -2.9,
+   "anchor": "base"
+  }
+ ],
+ "boxes": {
+  "D": [
+   7.68,
+   7.68
+  ],
+  "H": [
+   7.32,
+   7.08
+  ],
+  "F": [
+   7.56,
+   7.32
+  ],
+  "G": [
+   6.6,
+   7.44
+  ],
+  "M": [
+   8.16,
+   7.44
+  ],
+  "E": [
+   6.36,
+   7.2
+  ],
+  "M′": [
+   10.68,
+   7.2
+  ],
+  "B": [
+   7.2,
+   7.44
+  ],
+  "C": [
+   6.36,
+   8.28
+  ],
+  "A": [
+   5.76,
+   7.2
+  ],
+  "C′": [
+   10.44,
+   7.68
+  ],
+  "ecliptica": {
+   "angles": [
+    -125.31,
+    -83.88
+   ],
+   "radii": [
+    52.11,
+    54.35,
+    60.91
+   ]
+  }
+ },
+ "points": {
+  "F": [
+   131.29,
+   199.59
+  ],
+  "B": [
+   89.31,
+   246.76
+  ],
+  "A": [
+   172.98,
+   246.7
+  ],
+  "C2": [
+   130.98,
+   262.43
+  ],
+  "F_v": [
+   131.62,
+   199.23
+  ],
+  "BA_B": [
+   89.42,
+   246.65
+  ],
+  "BA_A": [
+   173.1,
+   246.83
+  ],
+  "G": [
+   110.04,
+   223.48
+  ],
+  "E": [
+   152.39,
+   223.44
+  ],
+  "D": [
+   67.93,
+   200.07
+  ],
+  "H": [
+   194.28,
+   200.13
+  ],
+  "M": [
+   131.38,
+   223.26
+  ],
+  "M2": [
+   131.35,
+   225.98
+  ],
+  "C": [
+   131.14,
+   246.74
+  ],
+  "GE_G": [
+   110.23,
+   223.26
+  ],
+  "GE_E": [
+   152.24,
+   223.27
+  ],
+  "GA_G": [
+   110.13,
+   223.38
+  ],
+  "GA_A": [
+   173.06,
+   246.79
+  ],
+  "GAarc_G": [
+   109.93,
+   223.6
+  ],
+  "GAarc_A": [
+   173.61,
+   247.41
+  ]
+ }
+}
