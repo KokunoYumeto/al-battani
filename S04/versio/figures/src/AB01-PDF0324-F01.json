@@ -1,0 +1,253 @@
+{
+ "pdf": 324,
+ "printed_page": 235,
+ "comment": [
+  "Nallino, Part I p. 235: the shadow of the Earth, redrawn from the print: the Earth about M, with the diameter",
+  "from K; the two sides of the cone of the shadow, meeting at its vertex V where their measured ink ends; the axis",
+  "MV; the lines from M to R and R' on the left side; the arcs about M through R and N and through R' and N'; the",
+  "bold italic letters and the words Terra and Conus umbrae. Measured on the scan (_intake/latin/tools/fig235)."
+ ],
+ "origin": [
+  384.6,
+  424.19
+ ],
+ "scale": 0.99281,
+ "size": [
+  90.0,
+  218.8
+ ],
+ "label_pt": 11,
+ "circles": [
+  {
+   "name": "the Earth about M",
+   "cx": 435.26,
+   "cy": 460.16,
+   "r": 31.59,
+   "w": 1.32
+  }
+ ],
+ "segments": [
+  {
+   "name": "the left side of the cone",
+   "x0": 398.27,
+   "y0": 438.11,
+   "x1": 435.71,
+   "y1": 632.76,
+   "w": 1.37
+  },
+  {
+   "name": "the right side of the cone",
+   "x0": 472.22,
+   "y0": 435.63,
+   "x1": 435.71,
+   "y1": 632.76,
+   "w": 1.39
+  },
+  {
+   "name": "the diameter KM",
+   "x0": 402.6,
+   "y0": 460.37,
+   "x1": 467.73,
+   "y1": 459.66,
+   "w": 1.56
+  },
+  {
+   "name": "the axis MV",
+   "x0": 435.23,
+   "y0": 460.01,
+   "x1": 435.71,
+   "y1": 632.76,
+   "w": 1.38
+  },
+  {
+   "name": "MR",
+   "x0": 435.23,
+   "y0": 460.01,
+   "x1": 418.01,
+   "y1": 539.49,
+   "w": 1.12
+  },
+  {
+   "name": "MR'",
+   "x0": 435.23,
+   "y0": 460.01,
+   "x1": 422.86,
+   "y1": 564.39,
+   "w": 1.25
+  }
+ ],
+ "arcs": [
+  {
+   "name": "the arc about M through R and N",
+   "cx": 434.65,
+   "cy": 459.09,
+   "r": 82.1,
+   "a0": 64.38,
+   "a1": 116.66,
+   "w": 1.24
+  },
+  {
+   "name": "the arc about M through R' and N'",
+   "cx": 434.72,
+   "cy": 459.17,
+   "r": 105.89,
+   "a0": 70.59,
+   "a1": 110.11,
+   "w": 1.24
+  }
+ ],
+ "labels": [
+  {
+   "t": "\\resizebox{7.62pt}{7.72pt}{K}",
+   "cx": 396.27,
+   "cy": 463.42,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{7.46pt}{7.49pt}{M}",
+   "cx": 433.98,
+   "cy": 454.2,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{7.23pt}{7.56pt}{R}",
+   "cx": 412.5,
+   "cy": 543.76,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{7.63pt}{7.08pt}{N}",
+   "cx": 440.1,
+   "cy": 545.13,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{8.01pt}{8.03pt}{R′}",
+   "cx": 416.8,
+   "cy": 569.64,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{8.11pt}{7.96pt}{N′}",
+   "cx": 440.22,
+   "cy": 569.64,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{7.43pt}{7.84pt}{V}",
+   "cx": 434.69,
+   "cy": 637.9,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{25.14pt}{4.93pt}{Terra}",
+   "cx": 435.17,
+   "cy": 439.7,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{30.60pt}{8.19pt}{Conus}",
+   "cx": 433.2,
+   "cy": 501.28,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{31.34pt}{8.84pt}{umbrae}",
+   "cx": 440.09,
+   "cy": 515.92,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  }
+ ],
+ "boxes": {
+  "K@392,459": [
+   8.16,
+   7.8
+  ],
+  "M@430,450": [
+   7.8,
+   7.68
+  ],
+  "R@408,539": [
+   7.2,
+   7.68
+  ],
+  "N@436,541": [
+   8.28,
+   7.26
+  ],
+  "R′@412,565": [
+   8.64,
+   8.16
+  ],
+  "N′@436,565": [
+   8.4,
+   8.16
+  ],
+  "V@432,633": [
+   7.56,
+   8.04
+  ],
+  "Terra@422,436": [
+   24.48,
+   5.04
+  ],
+  "Conus@418,496": [
+   30.0,
+   8.4
+  ],
+  "umbrae@420,511": [
+   30.84,
+   9.12
+  ]
+ },
+ "points": {
+  "V": [
+   435.8,
+   630.81
+  ],
+  "M": [
+   435.23,
+   460.01
+  ],
+  "K": [
+   402.6,
+   460.37
+  ],
+  "M_rays": [
+   437.36,
+   447.14
+  ],
+  "R": [
+   418.01,
+   539.49
+  ],
+  "Rp": [
+   422.86,
+   564.39
+  ],
+  "N": [
+   435.38,
+   541.19
+  ],
+  "Np": [
+   435.42,
+   565.05
+  ],
+  "MR_end": [
+   418.23,
+   539.53
+  ],
+  "MRp_end": [
+   423.22,
+   564.43
+  ],
+  "KM_right": [
+   467.73,
+   459.66
+  ],
+  "V_ink": [
+   435.71,
+   632.76
+  ]
+ }
+}

@@ -1,0 +1,488 @@
+{
+ "anchor": "AB01-PDF0324",
+ "master_pdf_page": 324,
+ "printed_page": 235,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "margin_locators": [],
+ "observations": [
+  "body L1: with al-Battānī's hourly motions of the Moon, 32′ 56″ in longitude and 32′ 40″ in anomaly (Part II, p. 76), and the radius of the epicycle 5p 15′ (p. 221), the hourly motion at the perigee and the apogee of the epicycle is 32′ 56″ + 32′ 40″ × 5;15/54;45 = 36′ 4″ and 32′ 56″ − 32′ 40″ × 5;15/65;15 = 30′ 18″, the numbers of the line.",
+  "body L2, L5-L6, L9, L31, L33: the dashes of 10.0 to 10.2 pt are transcribed as dashes; those of «16–18» in the head, «70–72» (L9) and «7–8» (L33, 5.5 pt) are long dashes, as those of the transliterated names (5.2 to 5.6 pt).",
+  "body L9-L10, L13, L20, L23-L24, L32, L34, L37: «Ibn Yūnus», «Caussin», «an–Nayrīzī», «al–Battānī», «Ptolemaei» and «Ptolemaeus» are letter-spaced; «al–Battānī» of L23-L24 is not.",
+  "body L17, L23-L28: al-Battānī's table of the parallaxes (Part II, p. 94, after Ptolemy) gives at 90° 53′ 34″ for the first distance and 10′ 17″ more for the second, 63′ 51″; the print has 64′ 51″ in L24 and L26, against the difference 10′ 17″ of L28 and of Ibn Yūnus in L17 (64′ 51″ − 53′ 34″ would be 11′ 17″).",
+  "body L20-L34: the lines beside the figure end about 380 pt from the edge of the page, the first of them (L20) 8 pt further; the edition sets them to one measure.",
+  "body (figure): the two lines from M end on the left side of the cone at R and R′, where the arcs about M cross it; the words «Terra», «Conus» and «umbrae» are in bold italic, crossed by the lines as printed.",
+  "body L35-L38: 35′ 1/3 × 2 3/5 = 91′,867 and 29′ 1/2 × 2 3/5 = 76′,7; their halves are 45′ 56″ and 38′ 21″, whose difference 7′ 35″ is al-Battānī's 7′ 1/2 of L37. The printed semidiameters 45′ 54″ and 38′ 42″ differ by Ibn Yūnus' 7′ 12″, but 38′ 42″ is not the half of 76′,7.",
+  "notes_right L3: the dash of «Al-Battānī» is a hyphen."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0324-body-L001",
+     "source_line_no": null,
+     "tex": "t. II, p. 88 non conveniunt, e qua 36′ 4″ et 30′ 18″ deducuntur. Causam differentiae nescio;",
+     "transcription": "t. II, p. 88 non conveniunt, e qua 36′ 4″ et 30′ 18″ deducuntur. Causam differentiae nescio;",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0324-body-L002",
+     "source_line_no": null,
+     "tex": "fortasse supputatio Albateniana adproximate tantum ducta est. — In sequentibus calculis po-",
+     "transcription": "fortasse supputatio Albateniana adproximate tantum ducta est. — In sequentibus calculis po-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0324-body-L003",
+     "source_line_no": null,
+     "tex": "nit maximam diametrum esse ad minimam ut maximus motus horarius ad minimum. Verum",
+     "transcription": "nit maximam diametrum esse ad minimam ut maximus motus horarius ad minimum. Verum",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0324-body-L004",
+     "source_line_no": null,
+     "tex": "esset si motus horarius \\textit{anomaliae} aequaretur motui \\textit{longitudinis}, ut in Sole evenit; error",
+     "transcription": "esset si motus horarius *anomaliae* aequaretur motui *longitudinis*, ut in Sole evenit; error",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0324-body-L005",
+     "source_line_no": null,
+     "tex": "tamen etiam in Lunae diametro videtur negligendus. — \\textsc{Schiaparelli}.]",
+     "transcription": "tamen etiam in Lunae diametro videtur negligendus. — {sc:Schiaparelli}.]",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0324-body-L006",
+     "source_line_no": null,
+     "tex": "\\CenterLine{\\textbf{\\textit{o}}) — \\textit{Pag. 58, l. 16–18.}}",
+     "transcription": "{bi:o}) — *Pag. 58, l. 16–18.*",
+     "semantic_anchor": "AB01-PDF0324-H06",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0324-body-L007",
+     "source_line_no": null,
+     "tex": "\\Indent \\textit{Semidiametrum umbrae}, cum Luna apogea sit, 0° 38′ $\\qfrac{1}{2}$ fere statuit; cum Luna peri-",
+     "transcription": "*Semidiametrum umbrae*, cum Luna apogea sit, 0° 38′ {sfrac:1/2} fere statuit; cum Luna peri-",
+     "semantic_anchor": "AB01-PDF0324-P01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0324-body-L008",
+     "source_line_no": null,
+     "tex": "gea exstet, 0° 46′ circiter; differentia ergo 0° 7′ $\\qfrac{1}{2}$ circiter.",
+     "transcription": "gea exstet, 0° 46′ circiter; differentia ergo 0° 7′ {sfrac:1/2} circiter.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0324-body-L009",
+     "source_line_no": null,
+     "tex": "\\Indent \\Name{Ibn Yūnus} (introd., \\Name{Caussin} p. 70–72) haec observat: « Errant quoque Abū ’l–‘Abbās",
+     "transcription": "{sp:Ibn Yūnus} (introd., {sp:Caussin} p. 70–72) haec observat: « Errant quoque Abū ’l–‘Abbās",
+     "semantic_anchor": "AB01-PDF0324-P02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0324-body-L010",
+     "source_line_no": null,
+     "tex": "« al–Faḍl ibn Ḥātim \\Name{an–Nayrīzī} (1) et Muḥammad ibn Ǵābir \\Name{al–Battānī} cum ponunt",
+     "transcription": "« al–Faḍl ibn Ḥātim {sp:an–Nayrīzī} (1) et Muḥammad ibn Ǵābir {sp:al–Battānī} cum ponunt",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0324-body-L011",
+     "source_line_no": null,
+     "tex": "« semidiametrum umbrae inter maximam et minimam [Lunae] distantiam variare 7′ 12″. Qui-",
+     "transcription": "« semidiametrum umbrae inter maximam et minimam [Lunae] distantiam variare 7′ 12″. Qui-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0324-body-L012",
+     "source_line_no": null,
+     "tex": "« cumque minus quam duo viri illi in studiis geometriae versatus agnoscet eam sententiam",
+     "transcription": "« cumque minus quam duo viri illi in studiis geometriae versatus agnoscet eam sententiam",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0324-body-L013",
+     "source_line_no": null,
+     "tex": "« falsam esse, si consideraverit demonstrationem \\Name{Ptolemaei} [\\textit{Almag.} V, 15] de distantia",
+     "transcription": "« falsam esse, si consideraverit demonstrationem {sp:Ptolemaei} [*Almag.* V, 15] de distantia",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0324-body-L014",
+     "source_line_no": null,
+     "tex": "« Solis a centro Terrae. Impossibile est variationem semidiametri umbrae inter distantiam",
+     "transcription": "« Solis a centro Terrae. Impossibile est variationem semidiametri umbrae inter distantiam",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0324-body-L015",
+     "source_line_no": null,
+     "tex": "« apogeam Lunae et distantiam perigeam tanti esse quanti illi faciunt, neque 8′ vel 9′ minu-",
+     "transcription": "« apogeam Lunae et distantiam perigeam tanti esse quanti illi faciunt, neque 8′ vel 9′ minu-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0324-body-L016",
+     "source_line_no": null,
+     "tex": "« torum; multo maior evadere debet si in hoc statuendo viam demonstrationis geometricae",
+     "transcription": "« torum; multo maior evadere debet si in hoc statuendo viam demonstrationis geometricae",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0324-body-L017",
+     "source_line_no": null,
+     "tex": "« sequeris. Olim calculum ego institueram, et inveneram 0° 10′ 17″ ponens Solem et Lunam (2)",
+     "transcription": "« sequeris. Olim calculum ego institueram, et inveneram 0° 10′ 17″ ponens Solem et Lunam (2)",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0324-body-L018",
+     "source_line_no": null,
+     "tex": "« in maxima distantia a Terra. Variatio quae semidiametrum umbrae afficit ob proximitatem",
+     "transcription": "« in maxima distantia a Terra. Variatio quae semidiametrum umbrae afficit ob proximitatem",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0324-body-L019",
+     "source_line_no": null,
+     "tex": "« Solis Terrae, non potest 1 minutum excedere » (3).",
+     "transcription": "« Solis Terrae, non potest 1 minutum excedere » (3).",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0324-body-F01",
+     "source_line_no": null,
+     "tex": "\\input{figures/AB01-PDF0324-F01}",
+     "transcription": "[figure, redrawn: figures/AB01-PDF0324-F01.tex]",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_FIGURE"
+    },
+    {
+     "id": "AB01-PDF0324-body-L020",
+     "source_line_no": null,
+     "tex": "\\Indent [Quae \\Name{Ibn Yūnus} dicit hoc modo demonstrantur. Sit RN radius",
+     "transcription": "[Quae {sp:Ibn Yūnus} dicit hoc modo demonstrantur. Sit RN radius",
+     "semantic_anchor": "AB01-PDF0324-P03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0324-body-L021",
+     "source_line_no": null,
+     "tex": "umbrae in minima distantia, quem angulus RMN in minutis et secundis",
+     "transcription": "umbrae in minima distantia, quem angulus RMN in minutis et secundis",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0324-body-L022",
+     "source_line_no": null,
+     "tex": "metitur; R′N′ radius umbrae in maxima distantia, eiusque mensura an-",
+     "transcription": "metitur; R′N′ radius umbrae in maxima distantia, eiusque mensura an-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0324-body-L023",
+     "source_line_no": null,
+     "tex": "gulus R′MN′. Est KRM maxima Lunae parallaxis, iuxta al–Battānī in",
+     "transcription": "gulus R′MN′. Est KRM maxima Lunae parallaxis, iuxta al–Battānī in",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0324-body-L024",
+     "source_line_no": null,
+     "tex": "syzygiis 64′ 51″ complectens; KR′M minima parallaxis, iuxta al–Bat-",
+     "transcription": "syzygiis 64′ 51″ complectens; KR′M minima parallaxis, iuxta al–Bat-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0324-body-L025",
+     "source_line_no": null,
+     "tex": "tānī 53′ 34″. Sit $\\varphi$ angulus KVM in vertice coni umbrae. In triangulo",
+     "transcription": "tānī 53′ 34″. Sit $\\varphi$ angulus KVM in vertice coni umbrae. In triangulo",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0324-body-L026",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.75mm}\\smash{\\rlap{MRV sunt}}}\\rlap{\\hspace*{41.11mm}\\smash{\\rlap{$KRM$}}}\\rlap{\\hspace*{56.97mm}\\smash{\\makebox[0pt][c]{$=$}}}\\rlap{\\hspace*{60.21mm}\\smash{\\rlap{64′ 51″}}}\\rlap{\\hspace*{78.45mm}\\smash{\\makebox[0pt][c]{$=$}}}\\rlap{\\hspace*{83.23mm}\\smash{\\makebox[0pt][c]{$\\varphi$}}}\\rlap{\\hspace*{88.00mm}\\smash{\\makebox[0pt][c]{$+$}}}\\rlap{\\hspace*{91.64mm}\\smash{\\rlap{$RMV$}}}",
+     "transcription": "MRV sunt $KRM$ $=$ 64′ 51″ $=$ $\\varphi$ $+$ $RMV$",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0324-body-L027",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{41.78mm}\\smash{\\rlap{$KR'M$}}}\\rlap{\\hspace*{57.56mm}\\smash{\\makebox[0pt][c]{$=$}}}\\rlap{\\hspace*{60.65mm}\\smash{\\rlap{53′ 34″}}}\\rlap{\\hspace*{79.03mm}\\smash{\\makebox[0pt][c]{$=$}}}\\rlap{\\hspace*{83.61mm}\\smash{\\makebox[0pt][c]{$\\varphi$}}}\\rlap{\\hspace*{88.31mm}\\smash{\\makebox[0pt][c]{$+$}}}\\rlap{\\hspace*{92.00mm}\\smash{\\rlap{$R'MV$}}}",
+     "transcription": "$KR'M$ $=$ 53′ 34″ $=$ $\\varphi$ $+$ $R'MV$",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0324-body-L028",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{37.52mm}\\smash{\\rlap{differentia}}}\\rlap{\\hspace*{61.45mm}\\smash{\\rlap{$\\overline{\\text{10′ 17″}}$}}}\\rlap{\\hspace*{79.56mm}\\smash{\\makebox[0pt][c]{$=$}}}\\rlap{\\hspace*{83.12mm}\\smash{\\rlap{$RMV$}}}\\rlap{\\hspace*{97.59mm}\\smash{\\makebox[0pt][c]{$-$}}}\\rlap{\\hspace*{101.28mm}\\smash{\\rlap{$R'MV$}}}\\rlap{\\hspace*{116.93mm}\\smash{\\makebox[0pt][c]{$=$}}}\\rlap{\\hspace*{120.64mm}\\smash{\\rlap{$RMR'$,}}}",
+     "transcription": "differentia $\\overline{\\text{10′ 17″}}$ $=$ $RMV$ $-$ $R'MV$ $=$ $RMR'$,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0324-body-L029",
+     "source_line_no": null,
+     "tex": "qui RMR′ est, in angulo, differentia inter maximam et minimam um-",
+     "transcription": "qui RMR′ est, in angulo, differentia inter maximam et minimam um-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0324-body-L030",
+     "source_line_no": null,
+     "tex": "bram. Manifeste angulus 10′ 17″ semper idem est, licet distantia Solis",
+     "transcription": "bram. Manifeste angulus 10′ 17″ semper idem est, licet distantia Solis",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0324-body-L031",
+     "source_line_no": null,
+     "tex": "et angulus coni umbrae varient. — \\textsc{Schiaparelli}.]",
+     "transcription": "et angulus coni umbrae varient. — {sc:Schiaparelli}.]",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0324-body-L032",
+     "source_line_no": null,
+     "tex": "\\Indent Numeros suos manifeste \\Name{al–Battānī} hoc modo invenit. Putavit",
+     "transcription": "Numeros suos manifeste {sp:al–Battānī} hoc modo invenit. Putavit",
+     "semantic_anchor": "AB01-PDF0324-P04",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0324-body-L033",
+     "source_line_no": null,
+     "tex": "(cfr. p. 58, l. 7–8) rationem diametri umbrae ad diametrum Lunae esse",
+     "transcription": "(cfr. p. 58, l. 7–8) rationem diametri umbrae ad diametrum Lunae esse",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0324-body-L034",
+     "source_line_no": null,
+     "tex": "quam \\Name{Ptolemaeus}, \\textit{Almag.} V, 14 (ed. Halma t. I, p. 343) habet, sci-",
+     "transcription": "quam {sp:Ptolemaeus}, *Almag.* V, 14 (ed. Halma t. I, p. 343) habet, sci-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0324-body-L035",
+     "source_line_no": null,
+     "tex": "licet ut 2 $\\qfrac{3}{5}$ ad 1; hac ratione e diametris Albatenianis maxima et minima Lunae (35′ $\\qfrac{1}{3}$ et",
+     "transcription": "licet ut 2 {sfrac:3/5} ad 1; hac ratione e diametris Albatenianis maxima et minima Lunae (35′ {sfrac:1/3} et",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0324-body-L036",
+     "source_line_no": null,
+     "tex": "29′ $\\qfrac{1}{2}$) deducuntur diametri umbrae 91′,858 et 76′,7, semidiametri itaque 45′ 54″ et 38′ 42″.",
+     "transcription": "29′ {sfrac:1/2}) deducuntur diametri umbrae 91′,858 et 76′,7, semidiametri itaque 45′ 54″ et 38′ 42″.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0324-body-L037",
+     "source_line_no": null,
+     "tex": "Differentia 7′ 12″, quam \\Name{Ibn Yūnus} memorat; \\Name{al–Battānī} 7′ $\\qfrac{1}{2}$ fere scribit, quoniam",
+     "transcription": "Differentia 7′ 12″, quam {sp:Ibn Yūnus} memorat; {sp:al–Battānī} 7′ {sfrac:1/2} fere scribit, quoniam",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0324-body-L038",
+     "source_line_no": null,
+     "tex": "semidiametros rotunde 46′ et 38′ $\\qfrac{1}{2}$ ponit.",
+     "transcription": "semidiametros rotunde 46′ et 38′ {sfrac:1/2} ponit.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    }
+   ]
+  },
+  {
+   "role": "notes_left",
+   "lines": [
+    {
+     "id": "AB01-PDF0324-notes_left-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (1) Anaritius apud Latinos aevi medii scripto-",
+     "transcription": "(1) Anaritius apud Latinos aevi medii scripto-",
+     "semantic_anchor": "AB01-PDF0324-N01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0324-notes_left-L002",
+     "source_line_no": null,
+     "tex": "res. Obiit anno circiter 922 Chr.; \\Name{Suter}, \\textit{Die Ma-}",
+     "transcription": "res. Obiit anno circiter 922 Chr.; {sp:Suter}, *Die Ma-*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0324-notes_left-L003",
+     "source_line_no": null,
+     "tex": "\\textit{thematiker und Astronomen}, p. 45, nr. 88.",
+     "transcription": "*thematiker und Astronomen*, p. 45, nr. 88.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  },
+  {
+   "role": "notes_right",
+   "lines": [
+    {
+     "id": "AB01-PDF0324-notes_right-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (2) [Melius: Solem apogeum, Lunam in apogeo",
+     "transcription": "(2) [Melius: Solem apogeum, Lunam in apogeo",
+     "semantic_anchor": "AB01-PDF0324-N02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0324-notes_right-L002",
+     "source_line_no": null,
+     "tex": "excentrici. — \\textsc{Schiaparelli}.]",
+     "transcription": "excentrici. — {sc:Schiaparelli}.]",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0324-notes_right-L003",
+     "source_line_no": null,
+     "tex": "\\Indent (3) Al-Battānī 0′ 50″ circiter.",
+     "transcription": "(3) Al-Battānī 0′ 50″ circiter.",
+     "semantic_anchor": "AB01-PDF0324-N03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  }
+ ]
+}
