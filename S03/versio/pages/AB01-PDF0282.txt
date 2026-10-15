@@ -1,0 +1,77 @@
+@page 282 193
+% Notes on chapter 18, b) concluded: Schiaparelli's derivation of al-Battānī's rule from Menelaus' theorem in the triangle QPS cut by the equator, with the figure; al-Battānī never says how β′ is computed; β′ in Ibn Yūnus, Abū 'l-Ḥasan and Ulugh Beg by two formulas, and from the tables; the rule as sin δ = sin (β + β′) sin Z, Delambre on Regiomontanus' Tabulae directionum, and the tables of the second declination of the Arabs; c) on p. 32, ll. 13-17: the degree of the ecliptic culminating with a star (begun).
+@nonum
+@vspace 0.08
+duplorum arcuum Menelai sinus ponendo et notationem algebricam hodiernam adhibendo, hoc
+modo exprimitur
+@vspace -1.19
+@center $\sin A\text{β} \mathbin{.} \sin C\text{α} \mathbin{.} \sin B\text{γ} = \sin C\text{β} \mathbin{.} \sin A\text{γ} \mathbin{.} \sin B\text{α}$.
+@wrap 0.220 AB01-PDF0282-F01
+^ Nunc sit S data stella, P polus aequatoris, Q polus eclipticae;
+@vspace -0.09
+latera protracta trianguli QPS secentur aequatore OY; erit
+@vspace 0.09
+@center $\sin QZ \mathbin{.} \sin SV \mathbin{.} \sin PY = \sin SZ \mathbin{.} \sin QY \mathbin{.} \sin PV$.
+@vspace -0.09
+@at 0:Sed | 7.43:$QZ = QT + TZ = \text{90°} + \text{β}'$ | 59.5:$QY = QX + XY = \text{90°} + \text{ε}$
+@vspace -0.09
+@at 7.43:$SV = \text{δ}$ | 59.5:$SZ = ST + TZ = \text{β} + \text{β}'$
+@at 7.43:$PY = \text{90°}$ | 59.5:$PV = \text{90°}$
+Ergo aequatio antea reperta fit
+@center $\cos\text{β}' \sin\text{δ} \times R = \sin (\text{β} + \text{β}') \cos\text{ε} \times R$,
+@endwrap
+@vspace -0.44
+unde regula {sp:al-Battānī}. — {sc:Schiaparelli}.]
+^ Sed {sp:al–Battānī} quo modo β′ supputetur nunquam docet; quod recte mirum est nisi
+lacuna in archetypo codicis Escurialensis et versionis Platonis supponatur; cfr. adn. {bi:a} ad hoc
+ipsum caput (p. 192). Quantitas β′ apud {sp:Ibn Yūnus}, cap. XXXIX ({sp:Delambre}, p. 141),
+{sp:Aboul Hhassan}, cap. XXIV, p. 181, {sp:Oloug Beg}, p. 63–64 textus, 88 vers., duplici
+@vspace -0.63
+@at 0:modo invenitur: | 35.0:$\sin\text{β}' = \dfrac{\sin\text{δ}'}{\sin d'}$, | 90.6:$\cos\text{β}' = \dfrac{\cos\text{ε}}{\cos d'}$,
+@vspace 0.58
+ubi δ′ est declinatio puncti *T* eclipticae (quod est longitudo stellae), *d′* declinatio puncti ecli-
+@vspace -0.07
+pticae cuius longitudo aequalis sit arcui eclipticae inter punctum *T* et proximum punctum
+solstitiale. — Sed β′ potest quoque e tabulis deduci. Longitudo *L* = *OT* tanquam ascensio
+@vspace -0.08
+recta consideretur; 90° gradibus augeatur, quoniam auctor ascensiones rectas ab initio Capri-
+@vspace 0.00
+corni, non Arietis, numerat, et summa quaeratur in columna graduum ascensionum in tabula
+ascensionum rectarum (f. 179,v., et seqq.); numerus ei respondens in columna graduum ecli-
+pticae erit, nonaginta gradibus demptis, arcus *OZ* aequatoris, quem nos nunc veluti arcum
+eclipticae considerabimus. In tabula declinationis Solis (f. 177,v., et seq.) sumamus declinatio-
+@vspace -0.09
+nem respondentem ficto arcui eclipticae *OZ*; ficta declinatio reperta erit manifeste arcus
+*TZ,* scilicet β′.
+^ In triangulo sphaerico *OTZ*, rectangulo in *T*, manifeste (quoniam ang. *XOY* = *TOZ* = ε)
+@vspace -0.36
+est $\text{sin ang.}\ Z = \dfrac{\cos\text{ε}}{\cos\text{β}'}$; formula Albateniana potest igitur scribi
+@vspace -1.44
+@center $\sin\text{δ} = \sin (\text{β} + \text{β}') \sin Z$.
+Hoc in mente habuisse mihi videtur {sp:Delambre}, p. 289 et 290, cum ait {sp:Regiomontanum}
+in *Tabulis Directionum* (anni 1475) ab idea {sp:al–Battānī} profectum esse in construenda
+tabula qua, pro omnibus longitudinibus caelestibus, *radix ascensionum* (id est arcus *OZ*),
+@vspace -0.09
+*arcus* (id est β′ seu declinatio secunda), sin *Z* et cotg *Z* praebentur. Ita facile poterant coor-
+dinatae eclipticae (longitudo et latitudo) in aequatoriales (declinationem et ascensionem rectam)
+converti, formulis utendo
+@at 45.7:$\sin\text{δ} = \sin (\text{β} + \text{β}') \sin Z$
+@vspace -0.09
+@at 45.7:$\sin (OZ - \text{asc. recta}) = \text{tg}\,\text{δ}\ \text{cotg}\,C$.
+^ Nec obliviscendum est Arabes declinatione secunda pluries uti, immo talis declinationis
+tabulas pro singulis eclipticae gradibus construxisse.
+@vspace 4.39
+@center {bi:c}) — *Pag. 32, l. 13–17.*
+@vspace 4.39
+^ *Gradum eclipticae qui cum stella culminat* e stellae latitudine β, longitudine *L*, decli-
+@vspace 0.12
+natione δ notis deducere.
+@sig 25
+@obs body L1-L11: Schiaparelli's derivation is checked. Menelaus' theorem (L3) in the triangle QPS cut by the equator, with QZ = 90° + β′, SV = δ, PY = 90°, QY = 90° + ε, SZ = β + β′ and PV = 90°, gives cos β′ sin δ R = sin (β + β′) cos ε R, the rule of p. 192.
+@obs body L4-L11: the figure stands at the left of lines 4 to 11, which are set beside it in a narrow measure. It is redrawn from measurements of the print: the sphere as an arc of a circle from the lower end of the ecliptic over the top to Y; the equator and the ecliptic as straight lines through O; the arcs QST and PSV; OQ, OP and TZ (the arc QST produced to the equator) in dashes, each dash where it printed; the bold italic letters and the italic words aequator and ecliptica. In aequator the t is printed without its crossbar.
+@obs body L12: the heavy bracket closes Schiaparelli's addition, begun on p. 192. Here the dash of the letter-spaced «al-Battānī» is a hyphen (3.6 pt); in L13 and L32 it is a long dash (5.5 pt).
+@obs body L16, L20, L41: the dashes of «63–64» and «13–17» are long dashes; the dash before «Sed» measures 10.3 pt, that of the head c) 10.2 pt.
+@obs body L17-L18: the formulas are checked. With tg β′ = tg ε sin L, sin δ′ = sin ε sin L and sin d′ = sin ε cos L, cos β′ = cos ε / cos d′ holds as printed, but sin β′ = sin δ′ / cos d′, not sin δ′ / sin d′: for ε = 23° 30′ and L = 30°, β′ = 12° 16′ and sin β′ = 0.2125 = sin δ′ / cos d′, while sin δ′ / sin d′ = 0.577. Kept as printed.
+@obs body L20-L30: the procedure by the tables is checked. In the triangle OTZ, right-angled at T, tg OZ = tg L / cos ε, so that OZ is the longitude whose right ascension is L, and sin TZ = sin OZ sin ε, the declination of that longitude, is β′; and cos ε = cos β′ sin Z gives sin Z = cos ε / cos β′, whence sin δ = sin (β + β′) sin Z.
+@obs body L38: the minus sign is printed as a long dash (9.8 pt); it is set as a minus sign. «cotg C» is printed for cotg Z: in the triangle SVZ, right-angled at V, sin VZ = tg δ cotg Z with VZ = OZ − asc. recta. Kept as printed.
+@obs body L43: the signature 25 stands at the foot of the page, at the right.

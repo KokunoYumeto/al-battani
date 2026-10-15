@@ -1,0 +1,392 @@
+{
+ "pdf": 282,
+ "printed_page": 193,
+ "comment": [
+  "Nallino, Part I p. 193: Schiaparelli's figure for the declination of a star, redrawn from the print: the sphere as",
+  "an arc of a circle from the lower end of the ecliptic over the top to Y; the equator OY and the ecliptic OX as",
+  "straight lines; the arcs QST and PSV; OQ, OP and TZ (the arc QST produced) in dashes, each where it printed; the",
+  "bold italic letters and the italic words aequator and ecliptica. Measured on the scan (_intake/latin/tools/fig193)."
+ ],
+ "origin": [
+  66.2,
+  146.47
+ ],
+ "scale": 0.99281,
+ "size": [
+  120.0,
+  104.0
+ ],
+ "label_pt": 11,
+ "circles": [],
+ "segments": [
+  {
+   "name": "the equator",
+   "x0": 73.01,
+   "y0": 217.12,
+   "x1": 176.14,
+   "y1": 215.15,
+   "w": 1.02
+  },
+  {
+   "name": "the ecliptic",
+   "x0": 78.87,
+   "y0": 239.84,
+   "x1": 170.47,
+   "y1": 192.4,
+   "w": 1.11
+  }
+ ],
+ "arcs": [
+  {
+   "name": "the sphere, from the lower end of the ecliptic over the top to Y",
+   "cx": 124.57,
+   "cy": 215.93,
+   "r": 51.58,
+   "a0": 152.382,
+   "a1": 359.136,
+   "w": 1.42
+  },
+  {
+   "name": "the arc QST",
+   "cx": 106.45,
+   "cy": 225.63,
+   "r": 55.21,
+   "a0": -97.237,
+   "a1": -27.454,
+   "w": 1.36
+  },
+  {
+   "name": "the arc PSV",
+   "cx": 71.59,
+   "cy": 216.24,
+   "r": 72.63,
+   "a0": -45.542,
+   "a1": -0.373,
+   "w": 1.37
+  }
+ ],
+ "groups": [
+  {
+   "w": 1.2,
+   "cap": "round",
+   "segs": [
+    [
+     101.73,
+     171.82,
+     102.86,
+     173.94
+    ],
+    [
+     103.66,
+     175.66,
+     104.84,
+     177.93
+    ],
+    [
+     105.67,
+     179.71,
+     107.29,
+     182.32
+    ],
+    [
+     108.1,
+     184.18,
+     109.28,
+     186.45
+    ],
+    [
+     110.17,
+     188.24,
+     111.54,
+     190.56
+    ],
+    [
+     112.43,
+     192.47,
+     113.39,
+     194.38
+    ],
+    [
+     114.08,
+     195.79,
+     115.2,
+     197.74
+    ],
+    [
+     116.01,
+     199.48,
+     117.51,
+     202.03
+    ],
+    [
+     118.35,
+     203.79,
+     119.25,
+     205.38
+    ],
+    [
+     120.06,
+     207.27,
+     121.0,
+     208.77
+    ],
+    [
+     121.9,
+     210.7,
+     122.43,
+     211.74
+    ],
+    [
+     123.33,
+     167.79,
+     123.41,
+     169.64
+    ],
+    [
+     123.6,
+     175.86,
+     123.69,
+     178.67
+    ],
+    [
+     123.73,
+     180.57,
+     123.79,
+     183.27
+    ],
+    [
+     123.7,
+     185.11,
+     123.86,
+     187.48
+    ],
+    [
+     123.95,
+     189.46,
+     123.97,
+     192.26
+    ],
+    [
+     124.09,
+     194.43,
+     124.04,
+     196.52
+    ],
+    [
+     124.21,
+     197.91,
+     124.16,
+     200.0
+    ],
+    [
+     124.22,
+     201.39,
+     124.48,
+     203.65
+    ],
+    [
+     124.43,
+     205.61,
+     124.64,
+     207.96
+    ],
+    [
+     124.66,
+     209.92,
+     124.72,
+     212.01
+    ],
+    [
+     155.99,
+     201.66,
+     156.53,
+     201.92
+    ],
+    [
+     157.28,
+     203.94,
+     157.68,
+     205.31
+    ],
+    [
+     158.5,
+     207.28,
+     159.08,
+     208.83
+    ],
+    [
+     159.7,
+     211.06,
+     159.94,
+     211.99
+    ]
+   ],
+   "comment": "the dashes of OQ, OP and TZ"
+  }
+ ],
+ "labels": [
+  {
+   "t": "\\resizebox{7.38pt}{7.73pt}{P}",
+   "cx": 124.74,
+   "cy": 157.98,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{7.11pt}{6.70pt}{Q}",
+   "cx": 93.52,
+   "cy": 165.44,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{6.46pt}{7.39pt}{S}",
+   "cx": 136.62,
+   "cy": 173.46,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{6.87pt}{7.85pt}{T}",
+   "cx": 157.78,
+   "cy": 192.4,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{7.98pt}{8.09pt}{X}",
+   "cx": 176.96,
+   "cy": 192.24,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{6.21pt}{7.49pt}{O}",
+   "cx": 125.42,
+   "cy": 221.68,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{8.02pt}{7.13pt}{V}",
+   "cx": 142.68,
+   "cy": 221.24,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{5.51pt}{7.74pt}{Z}",
+   "cx": 159.8,
+   "cy": 221.24,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{6.32pt}{8.56pt}{Y}",
+   "cx": 178.49,
+   "cy": 220.2,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{39.02pt}{4.94pt}{aequator}",
+   "cx": 96.32,
+   "cy": 210.42,
+   "font": "\\fontsize{11}{11}\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{38.10pt}{7.58pt}{ecliptica}",
+   "cx": 101.92,
+   "cy": 235.22,
+   "font": "\\fontsize{11}{11}\\itshape\\selectfont",
+   "rot": 27.38
+  }
+ ],
+ "boxes": {
+  "P": [
+   8.16,
+   7.8
+  ],
+  "Q": [
+   6.6,
+   9.0
+  ],
+  "S": [
+   6.12,
+   7.56
+  ],
+  "T": [
+   6.84,
+   7.92
+  ],
+  "X": [
+   9.06,
+   8.16
+  ],
+  "O": [
+   5.76,
+   7.68
+  ],
+  "V": [
+   8.16,
+   7.32
+  ],
+  "Z": [
+   6.12,
+   7.8
+  ],
+  "Y": [
+   6.42,
+   8.64
+  ],
+  "aequator": [
+   39.24,
+   7.08
+  ],
+  "ecliptica": [
+   37.47,
+   10.24
+  ]
+ },
+ "points": {
+  "eqL": [
+   73.01,
+   217.12
+  ],
+  "Y": [
+   176.14,
+   215.15
+  ],
+  "eclL": [
+   78.87,
+   239.84
+  ],
+  "X": [
+   170.47,
+   192.4
+  ],
+  "O": [
+   124.63,
+   216.14
+  ],
+  "Q": [
+   99.5,
+   170.86
+  ],
+  "P": [
+   122.45,
+   164.4
+  ],
+  "S": [
+   132.76,
+   177.09
+  ],
+  "T": [
+   155.45,
+   200.18
+  ],
+  "V": [
+   144.21,
+   215.76
+  ],
+  "Z_arc": [
+   160.72,
+   215.45
+  ],
+  "Z_line": [
+   161.36,
+   215.44
+  ]
+ }
+}

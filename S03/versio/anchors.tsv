@@ -3834,3 +3834,47 @@ AB01-PDF0281-notes_right-L002	192	notes_right	medii *figuram sectorem* verterunt
 AB01-PDF0281-notes_right-L003	192	notes_right	mine servato, *figuram alkata*; Germani hodierni
 AB01-PDF0281-notes_right-L004	192	notes_right	*Transversalenfigur,* et propositionem *Transver-*
 AB01-PDF0281-notes_right-L005	192	notes_right	*salensatz.*
+AB01-PDF0282-body-L001	193	body	duplorum arcuum Menelai sinus ponendo et notationem algebricam hodiernam adhibendo, hoc
+AB01-PDF0282-body-L002	193	body	modo exprimitur
+AB01-PDF0282-body-L003	193	body	$\\sin A\\text{β} \\mathbin{.} \\sin C\\text{α} \\mathbin{.} \\sin B\\text{γ} = \\sin C\\text{β} \\mathbin{.} \\sin A\\text{γ} \\mathbin{.} \\sin B\\text{α}$.
+AB01-PDF0282-body-F01	193	body	[figure, redrawn: figures/AB01-PDF0282-F01.tex]
+AB01-PDF0282-body-L004	193	body	Nunc sit S data stella, P polus aequatoris, Q polus eclipticae;
+AB01-PDF0282-body-L005	193	body	latera protracta trianguli QPS secentur aequatore OY; erit
+AB01-PDF0282-body-L006	193	body	$\\sin QZ \\mathbin{.} \\sin SV \\mathbin{.} \\sin PY = \\sin SZ \\mathbin{.} \\sin QY \\mathbin{.} \\sin PV$.
+AB01-PDF0282-body-L007	193	body	Sed $QZ = QT + TZ = \\text{90°} + \\text{β}'$ $QY = QX + XY = \\text{90°} + \\text{ε}$
+AB01-PDF0282-body-L008	193	body	$SV = \\text{δ}$ $SZ = ST + TZ = \\text{β} + \\text{β}'$
+AB01-PDF0282-body-L009	193	body	$PY = \\text{90°}$ $PV = \\text{90°}$
+AB01-PDF0282-body-L010	193	body	Ergo aequatio antea reperta fit
+AB01-PDF0282-body-L011	193	body	$\\cos\\text{β}' \\sin\\text{δ} \\times R = \\sin (\\text{β} + \\text{β}') \\cos\\text{ε} \\times R$,
+AB01-PDF0282-body-L012	193	body	unde regula {sp:al-Battānī}. — {sc:Schiaparelli}.]
+AB01-PDF0282-body-L013	193	body	Sed {sp:al–Battānī} quo modo β′ supputetur nunquam docet; quod recte mirum est nisi
+AB01-PDF0282-body-L014	193	body	lacuna in archetypo codicis Escurialensis et versionis Platonis supponatur; cfr. adn. {bi:a} ad hoc
+AB01-PDF0282-body-L015	193	body	ipsum caput (p. 192). Quantitas β′ apud {sp:Ibn Yūnus}, cap. XXXIX ({sp:Delambre}, p. 141),
+AB01-PDF0282-body-L016	193	body	{sp:Aboul Hhassan}, cap. XXIV, p. 181, {sp:Oloug Beg}, p. 63–64 textus, 88 vers., duplici
+AB01-PDF0282-body-L017	193	body	modo invenitur: $\\sin\\text{β}' = \\dfrac{\\sin\\text{δ}'}{\\sin d'}$, $\\cos\\text{β}' = \\dfrac{\\cos\\text{ε}}{\\cos d'}$,
+AB01-PDF0282-body-L018	193	body	ubi δ′ est declinatio puncti *T* eclipticae (quod est longitudo stellae), *d′* declinatio puncti ecli-
+AB01-PDF0282-body-L019	193	body	pticae cuius longitudo aequalis sit arcui eclipticae inter punctum *T* et proximum punctum
+AB01-PDF0282-body-L020	193	body	solstitiale. — Sed β′ potest quoque e tabulis deduci. Longitudo *L* = *OT* tanquam ascensio
+AB01-PDF0282-body-L021	193	body	recta consideretur; 90° gradibus augeatur, quoniam auctor ascensiones rectas ab initio Capri-
+AB01-PDF0282-body-L022	193	body	corni, non Arietis, numerat, et summa quaeratur in columna graduum ascensionum in tabula
+AB01-PDF0282-body-L023	193	body	ascensionum rectarum (f. 179,v., et seqq.); numerus ei respondens in columna graduum ecli-
+AB01-PDF0282-body-L024	193	body	pticae erit, nonaginta gradibus demptis, arcus *OZ* aequatoris, quem nos nunc veluti arcum
+AB01-PDF0282-body-L025	193	body	eclipticae considerabimus. In tabula declinationis Solis (f. 177,v., et seq.) sumamus declinatio-
+AB01-PDF0282-body-L026	193	body	nem respondentem ficto arcui eclipticae *OZ*; ficta declinatio reperta erit manifeste arcus
+AB01-PDF0282-body-L027	193	body	*TZ,* scilicet β′.
+AB01-PDF0282-body-L028	193	body	In triangulo sphaerico *OTZ*, rectangulo in *T*, manifeste (quoniam ang. *XOY* = *TOZ* = ε)
+AB01-PDF0282-body-L029	193	body	est $\\text{sin ang.}\\ Z = \\dfrac{\\cos\\text{ε}}{\\cos\\text{β}'}$; formula Albateniana potest igitur scribi
+AB01-PDF0282-body-L030	193	body	$\\sin\\text{δ} = \\sin (\\text{β} + \\text{β}') \\sin Z$.
+AB01-PDF0282-body-L031	193	body	Hoc in mente habuisse mihi videtur {sp:Delambre}, p. 289 et 290, cum ait {sp:Regiomontanum}
+AB01-PDF0282-body-L032	193	body	in *Tabulis Directionum* (anni 1475) ab idea {sp:al–Battānī} profectum esse in construenda
+AB01-PDF0282-body-L033	193	body	tabula qua, pro omnibus longitudinibus caelestibus, *radix ascensionum* (id est arcus *OZ*),
+AB01-PDF0282-body-L034	193	body	*arcus* (id est β′ seu declinatio secunda), sin *Z* et cotg *Z* praebentur. Ita facile poterant coor-
+AB01-PDF0282-body-L035	193	body	dinatae eclipticae (longitudo et latitudo) in aequatoriales (declinationem et ascensionem rectam)
+AB01-PDF0282-body-L036	193	body	converti, formulis utendo
+AB01-PDF0282-body-L037	193	body	$\\sin\\text{δ} = \\sin (\\text{β} + \\text{β}') \\sin Z$
+AB01-PDF0282-body-L038	193	body	$\\sin (OZ - \\text{asc. recta}) = \\text{tg}\\,\\text{δ}\\ \\text{cotg}\\,C$.
+AB01-PDF0282-body-L039	193	body	Nec obliviscendum est Arabes declinatione secunda pluries uti, immo talis declinationis
+AB01-PDF0282-body-L040	193	body	tabulas pro singulis eclipticae gradibus construxisse.
+AB01-PDF0282-body-L041	193	body	{bi:c}) — *Pag. 32, l. 13–17.*
+AB01-PDF0282-body-L042	193	body	*Gradum eclipticae qui cum stella culminat* e stellae latitudine β, longitudine *L*, decli-
+AB01-PDF0282-body-L043	193	body	natione δ notis deducere.
