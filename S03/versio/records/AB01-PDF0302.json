@@ -1,0 +1,599 @@
+{
+ "anchor": "AB01-PDF0302",
+ "master_pdf_page": 302,
+ "printed_page": 213,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "margin_locators": [],
+ "observations": [
+  "body L1-L4: the heads are in small capitals, each over a brace that spans its column. From Schram's day numbers on p. 212 the intervals are 93d 12h 21m,5, 186d 14h 6m,3 and 178d 15h 42m,8 for 882 (printed 42, 5) and 93d 12h 15m,8 and 186d 14h 8m,2 for 883 (printed 8, 0; the hours and minutes of p. 212 give 8m,1). The d after 93 in the column of 883 is printed without its bowl, like an l.",
+  "body L6-L7, L9, L14, L20, L26-L27: the dashes of «146–148», «85–86», «al–ḥarakah», «al–Battānī», «188–190» and «Sūrya–siddhānta» are long dashes (4.3 to 5.4 pt).",
+  "body L8: in the head the dash after «b)» measures 10.0 pt and is transcribed as a dash.",
+  "body L22-L25: the greatest equation of the centre is 1° 55′ 18″,8 for the eccentricity 0,016 771 063 and 1° 58′ 8″,6 for 0,017 182 700; the 1° 58′ 2″,85 printed for 880 is about 6″ smaller than the eccentricity printed with it requires.",
+  "notes_left L5, L7-L8: the dashes of «al-Battānī», «al-Bīrūnī», «al-ḥāṣṣah» and «al-khāṣṣah» measure 3.1 to 4.2 pt and are transcribed as hyphens.",
+  "notes_right L2: 2p 4′ 45″ : 60p is 0.0346527777...; the print has 0.034652766.",
+  "notes_right L4-L11: 2p 29′ 30″ : 60p = 0.0415277..., 1/24 = 0.041666..., and the halves 0.017326, 0.0207638 and 0.020833 are right."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0302-body-L001",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{85.62mm}\\smash{\\makebox[0pt][c]{\\textsc{{\\fontsize{9.5}{11}\\selectfont Anno 882}}}}}\\rlap{\\hspace*{115.40mm}\\smash{\\makebox[0pt][c]{\\textsc{{\\fontsize{9.5}{11}\\selectfont Anno 883}}}}}",
+     "transcription": "{sc:{sm:Anno 882}} {sc:{sm:Anno 883}}",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0302-body-L002",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{20.86mm}\\smash{\\rlap{Ab aequin. vern. ad solst. aest.}}}\\rlap{\\hspace*{80.53mm}\\smash{\\llap{93}\\rlap{\\textsuperscript{\\textit{d}}}}}\\rlap{\\hspace*{86.39mm}\\smash{\\llap{12}\\rlap{\\textsuperscript{\\textit{h}}}}}\\rlap{\\hspace*{92.25mm}\\smash{\\llap{21}\\rlap{\\textsuperscript{\\textit{m}},}}}\\rlap{\\hspace*{95.43mm}\\smash{\\rlap{5}}}\\rlap{\\hspace*{109.97mm}\\smash{\\llap{93}\\rlap{\\textsuperscript{\\textit{d}}}}}\\rlap{\\hspace*{115.83mm}\\smash{\\llap{12}\\rlap{\\textsuperscript{\\textit{h}}}}}\\rlap{\\hspace*{122.01mm}\\smash{\\llap{15}\\rlap{\\textsuperscript{\\textit{m}},}}}\\rlap{\\hspace*{124.87mm}\\smash{\\rlap{8}}}",
+     "transcription": "Ab aequin. vern. ad solst. aest. 93{sup:*d*} 12{sup:*h*} 21{sup:*m*}, 5 93{sup:*d*} 12{sup:*h*} 15{sup:*m*}, 8",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0302-body-L003",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{20.86mm}\\smash{\\rlap{Ab aequin. vern. ad aeq. aut.}}}\\rlap{\\hspace*{80.53mm}\\smash{\\llap{186}}}\\rlap{\\hspace*{86.39mm}\\smash{\\llap{14}}}\\rlap{\\hspace*{92.25mm}\\smash{\\llap{6}\\rlap{,}}}\\rlap{\\hspace*{95.43mm}\\smash{\\rlap{3}}}\\rlap{\\hspace*{109.97mm}\\smash{\\llap{186}}}\\rlap{\\hspace*{115.83mm}\\smash{\\llap{14}}}\\rlap{\\hspace*{122.01mm}\\smash{\\llap{8}\\rlap{,}}}\\rlap{\\hspace*{124.87mm}\\smash{\\rlap{0}}}",
+     "transcription": "Ab aequin. vern. ad aeq. aut. 186 14 6, 3 186 14 8, 0",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0302-body-L004",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{20.86mm}\\smash{\\rlap{Ab aequin. aut. ad aeq. vern.}}}\\rlap{\\hspace*{80.53mm}\\smash{\\llap{178}}}\\rlap{\\hspace*{86.39mm}\\smash{\\llap{15}}}\\rlap{\\hspace*{92.25mm}\\smash{\\llap{42}\\rlap{,}}}\\rlap{\\hspace*{95.43mm}\\smash{\\rlap{5}}}\\rlap{\\hspace*{109.97mm}\\smash{\\llap{178}}}\\rlap{\\hspace*{115.83mm}\\smash{\\llap{15}}}\\rlap{\\hspace*{122.01mm}\\smash{\\llap{40}\\rlap{,}}}\\rlap{\\hspace*{124.87mm}\\smash{\\rlap{6}}}",
+     "transcription": "Ab aequin. aut. ad aeq. vern. 178 15 42, 5 178 15 40, 6",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0302-body-L005",
+     "source_line_no": null,
+     "tex": "\\Indent Alias Arabum observationes aequinoctiales et solstitiales, intra annos 830 et 851 Chr.",
+     "transcription": "Alias Arabum observationes aequinoctiales et solstitiales, intra annos 830 et 851 Chr.",
+     "semantic_anchor": "AB01-PDF0302-P01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0302-body-L006",
+     "source_line_no": null,
+     "tex": "Damasci et Baghdād factas, nobis tradidit \\Name{Ibn Yūnus}, cap. IV, apud \\Name{Caussin} p. 146–148,",
+     "transcription": "Damasci et Baghdād factas, nobis tradidit {sp:Ibn Yūnus}, cap. IV, apud {sp:Caussin} p. 146–148,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0302-body-L007",
+     "source_line_no": null,
+     "tex": "et \\Name{Delambre} p. 85–86 (ubi, p. 86, l. 1, pro 831 est 851 legendum).",
+     "transcription": "et {sp:Delambre} p. 85–86 (ubi, p. 86, l. 1, pro 831 est 851 legendum).",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0302-body-L008",
+     "source_line_no": null,
+     "tex": "\\CenterLine{\\textbf{\\textit{b}}) — \\textit{Pag. 44, l. 15.}}",
+     "transcription": "{bi:b}) — *Pag. 44, l. 15.*",
+     "semantic_anchor": "AB01-PDF0302-H08",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0302-body-L009",
+     "source_line_no": null,
+     "tex": "\\Indent \\textit{Anomalia,} \\textgreek{ἀνωμαλία} (\\textit{ikhtilāf al–ḥarakah} « variatio, inaequalitas motus ») proprie voca-",
+     "transcription": "*Anomalia,* ἀνωμαλία (*ikhtilāf al–ḥarakah* « variatio, inaequalitas motus ») proprie voca-",
+     "semantic_anchor": "AB01-PDF0302-P02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0302-body-L010",
+     "source_line_no": null,
+     "tex": "batur differentia inter longitudinem veram et longitudinem mediam Solis vel planetae. Geo-",
+     "transcription": "batur differentia inter longitudinem veram et longitudinem mediam Solis vel planetae. Geo-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0302-body-L011",
+     "source_line_no": null,
+     "tex": "metrice, in hypothesi excentrici, erat angulus contentus duabus rectis a centro Solis ad cen-",
+     "transcription": "metrice, in hypothesi excentrici, erat angulus contentus duabus rectis a centro Solis ad cen-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0302-body-L012",
+     "source_line_no": null,
+     "tex": "trum eclipticae seu mundi et centrum excentrici productis; in hypothesi epicycli, angulus",
+     "transcription": "trum eclipticae seu mundi et centrum excentrici productis; in hypothesi epicycli, angulus",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0302-body-L013",
+     "source_line_no": null,
+     "tex": "effectus duabus rectis ab eclipticae centro ad centrum epicycli et centrum Solis ductis.",
+     "transcription": "effectus duabus rectis ab eclipticae centro ad centrum epicycli et centrum Solis ductis.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0302-body-L014",
+     "source_line_no": null,
+     "tex": "\\Indent Persaepe tamen al–Battānī (ut iam in sequentibus) ceterique Arabes hunc angulum seu",
+     "transcription": "Persaepe tamen al–Battānī (ut iam in sequentibus) ceterique Arabes hunc angulum seu",
+     "semantic_anchor": "AB01-PDF0302-P03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0302-body-L015",
+     "source_line_no": null,
+     "tex": "hanc differentiam vocant \\textit{ta‘dīl} « aequationem » (1), unde nomen hodiernum astronomicum",
+     "transcription": "hanc differentiam vocant *ta‘dīl* « aequationem » (1), unde nomen hodiernum astronomicum",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0302-body-L016",
+     "source_line_no": null,
+     "tex": "aequatio centri. Nomine contra anomalia (2), ut Graeci saepe et hodierni semper, designant",
+     "transcription": "aequatio centri. Nomine contra anomalia (2), ut Graeci saepe et hodierni semper, designant",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0302-body-L017",
+     "source_line_no": null,
+     "tex": "quod rectius \\textit{argumentum anomaliae} vel \\textit{motum anomalisticum} appellandum esset; scilicet",
+     "transcription": "quod rectius *argumentum anomaliae* vel *motum anomalisticum* appellandum esset; scilicet",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0302-body-L018",
+     "source_line_no": null,
+     "tex": "excentrici vel epicycli arcum quem Sol aut planeta ab apogeo usque ad momentum temporis",
+     "transcription": "excentrici vel epicycli arcum quem Sol aut planeta ab apogeo usque ad momentum temporis",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0302-body-L019",
+     "source_line_no": null,
+     "tex": "datum percurrerit (3).",
+     "transcription": "datum percurrerit (3).",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0302-body-L020",
+     "source_line_no": null,
+     "tex": "\\Indent Maximam anomaliam seu maximam aequationem centri Solis \\Name{al–Battānī} 1° 59′ 10″",
+     "transcription": "Maximam anomaliam seu maximam aequationem centri Solis {sp:al–Battānī} 1° 59′ 10″",
+     "semantic_anchor": "AB01-PDF0302-P04",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0302-body-L021",
+     "source_line_no": null,
+     "tex": "invenit (4); excentricitatem 2\\textsuperscript{\\textit{p}} 4′ $\\qfrac{3}{4}$, radio excentrici 60 partium sumpto (5). Iuxta Leverrier,",
+     "transcription": "invenit (4); excentricitatem 2{sup:*p*} 4′ {sfrac:3/4}, radio excentrici 60 partium sumpto (5). Iuxta Leverrier,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0302-body-L022",
+     "source_line_no": null,
+     "tex": "qui pro initio anni 1850 maximam centri aequationem 1° 55′ 18″,31 et excentricitatem orbitae",
+     "transcription": "qui pro initio anni 1850 maximam centri aequationem 1° 55′ 18″,31 et excentricitatem orbitae",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0302-body-L023",
+     "source_line_no": null,
+     "tex": "solaris (vel potius terrestris) 0,016 771 063 statuit, anno 880 Chr. aequatio 1° 58′ 2″,85, ex-",
+     "transcription": "solaris (vel potius terrestris) 0,016 771 063 statuit, anno 880 Chr. aequatio 1° 58′ 2″,85, ex-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0302-body-L024",
+     "source_line_no": null,
+     "tex": "centricitas 0,017 182 700 esse debebat. — Aliae aequationis quantitates ab auctoribus Alba-",
+     "transcription": "centricitas 0,017 182 700 esse debebat. — Aliae aequationis quantitates ab auctoribus Alba-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0302-body-L025",
+     "source_line_no": null,
+     "tex": "tenio vetustioribus aut coaevis receptae, haec sunt:",
+     "transcription": "tenio vetustioribus aut coaevis receptae, haec sunt:",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0302-body-L026",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.00mm}\\smash{\\rlap{\\Name{Hipparchus} et \\Name{Ptolemaeus} (\\textit{Almag.} III, 4, ed. Halma t. I, p. 188–190)}}}\\rlap{\\hspace*{132.00mm}\\smash{\\rlap{2° 23′}}}",
+     "transcription": "{sp:Hipparchus} et {sp:Ptolemaeus} (*Almag.* III, 4, ed. Halma t. I, p. 188–190) 2° 23′",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0302-body-L027",
+     "source_line_no": null,
+     "tex": "Liber Indicus \\textit{Sūrya–siddhānta} inscriptus, vers. Burgess et Whitney, p. 220 adnot.",
+     "transcription": "Liber Indicus *Sūrya–siddhānta* inscriptus, vers. Burgess et Whitney, p. 220 adnot.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0302-body-L028",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{7.12mm}\\smash{\\rlap{(ante V vel VI saec. Chr.)}}}\\rlap{\\hspace*{132.00mm}\\smash{\\rlap{2° 10′ 31″}}}",
+     "transcription": "(ante V vel VI saec. Chr.) 2° 10′ 31″",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    }
+   ]
+  },
+  {
+   "role": "notes_left",
+   "lines": [
+    {
+     "id": "AB01-PDF0302-notes_left-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (1) Quam vocem Rudloff et Hochheim, \\Name{al-}",
+     "transcription": "(1) Quam vocem Rudloff et Hochheim, {sp:al-}",
+     "semantic_anchor": "AB01-PDF0302-N01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0302-notes_left-L002",
+     "source_line_no": null,
+     "tex": "\\Name{Gaghmīnī} p. 238, 240, 248 et passim, « Rectifi-",
+     "transcription": "{sp:Gaghmīnī} p. 238, 240, 248 et passim, « Rectifi-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0302-notes_left-L003",
+     "source_line_no": null,
+     "tex": "cation » vertunt.",
+     "transcription": "cation » vertunt.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0302-notes_left-L004",
+     "source_line_no": null,
+     "tex": "\\Indent (2) Sed cum de Luna reliquisque planetis agi-",
+     "transcription": "(2) Sed cum de Luna reliquisque planetis agi-",
+     "semantic_anchor": "AB01-PDF0302-N02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0302-notes_left-L005",
+     "source_line_no": null,
+     "tex": "tur, al-Battānī semper fere voce \\ArabicRun{الحاصة} \\textit{al-ḥāṣṣah}",
+     "transcription": "tur, al-Battānī semper fere voce {ar:الحاصة} *al-ḥāṣṣah*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0302-notes_left-L006",
+     "source_line_no": null,
+     "tex": "« [motu] contingenti [planetae] » utitur, ut quoque",
+     "transcription": "« [motu] contingenti [planetae] » utitur, ut quoque",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0302-notes_left-L007",
+     "source_line_no": null,
+     "tex": "\\Name{al-Bīrūnī}, \\textit{India} (cfr. adn. Sachau in vers. II,",
+     "transcription": "{sp:al-Bīrūnī}, *India* (cfr. adn. Sachau in vers. II,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0302-notes_left-L008",
+     "source_line_no": null,
+     "tex": "363); alii voce \\ArabicRun{الخاصة} \\textit{al-khāṣṣah} « [motu] proprio",
+     "transcription": "363); alii voce {ar:الخاصة} *al-khāṣṣah* « [motu] proprio",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0302-notes_left-L009",
+     "source_line_no": null,
+     "tex": "« seu peculiari ».",
+     "transcription": "« seu peculiari ».",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0302-notes_left-L010",
+     "source_line_no": null,
+     "tex": "\\Indent (3) In hodierna astronomia appellatur \\textit{anoma-}",
+     "transcription": "(3) In hodierna astronomia appellatur *anoma-*",
+     "semantic_anchor": "AB01-PDF0302-N03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0302-notes_left-L011",
+     "source_line_no": null,
+     "tex": "\\textit{lia vera} angulus quem radius vector cum axe ma-",
+     "transcription": "*lia vera* angulus quem radius vector cum axe ma-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0302-notes_left-L012",
+     "source_line_no": null,
+     "tex": "iore orbitae ellipticae efficit.",
+     "transcription": "iore orbitae ellipticae efficit.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0302-notes_left-L013",
+     "source_line_no": null,
+     "tex": "\\Indent (4) Numerus 1° 58′ qui vulgo fertur (\\Name{Delam-}",
+     "transcription": "(4) Numerus 1° 58′ qui vulgo fertur ({sp:Delam-}",
+     "semantic_anchor": "AB01-PDF0302-N04",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0302-notes_left-L014",
+     "source_line_no": null,
+     "tex": "\\Name{bre} p. 36, R. \\Name{Wolf}, \\textit{Handbuch,} I, 447, § 206) est",
+     "transcription": "{sp:bre} p. 36, R. {sp:Wolf}, *Handbuch,* I, 447, § 206) est",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0302-notes_left-L015",
+     "source_line_no": null,
+     "tex": "error versionis Platonis impressae; cfr. p. 44, adn. 3.",
+     "transcription": "error versionis Platonis impressae; cfr. p. 44, adn. 3.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  },
+  {
+   "role": "notes_right",
+   "lines": [
+    {
+     "id": "AB01-PDF0302-notes_right-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (5) Si radius unius partis sumitur, invenitur",
+     "transcription": "(5) Si radius unius partis sumitur, invenitur",
+     "semantic_anchor": "AB01-PDF0302-N05",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0302-notes_right-L002",
+     "source_line_no": null,
+     "tex": "\\CenterLine{$\\dfrac{2^{p}\\,4'\\,45''}{60^{p}}$ $=$ 0.034652766....}",
+     "transcription": "$\\dfrac{2^{p}\\,4'\\,45''}{60^{p}}$ $=$ 0.034652766....",
+     "semantic_anchor": "AB01-PDF0302-H02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0302-notes_right-L003",
+     "source_line_no": null,
+     "tex": "Ptolemaeus",
+     "transcription": "Ptolemaeus",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0302-notes_right-L004",
+     "source_line_no": null,
+     "tex": "\\CenterLine{$\\dfrac{2^{p}\\,29'\\,30''}{60^{p}}$ $=$ 0.0415277....}",
+     "transcription": "$\\dfrac{2^{p}\\,29'\\,30''}{60^{p}}$ $=$ 0.0415277....",
+     "semantic_anchor": "AB01-PDF0302-H04",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0302-notes_right-L005",
+     "source_line_no": null,
+     "tex": "repererat; sed, ut calculum commodiorem redderet,",
+     "transcription": "repererat; sed, ut calculum commodiorem redderet,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0302-notes_right-L006",
+     "source_line_no": null,
+     "tex": "fractionem $\\qfrac{1}{24}$ $=$ 0.04166.... delegit. Animadverten-",
+     "transcription": "fractionem {sfrac:1/24} $=$ 0.04166.... delegit. Animadverten-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0302-notes_right-L007",
+     "source_line_no": null,
+     "tex": "dum est excentricitatem in hypothesi excentrici",
+     "transcription": "dum est excentricitatem in hypothesi excentrici",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0302-notes_right-L008",
+     "source_line_no": null,
+     "tex": "idem fere esse quod \\textit{duplum} excentricitatis in elli-",
+     "transcription": "idem fere esse quod *duplum* excentricitatis in elli-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0302-notes_right-L009",
+     "source_line_no": null,
+     "tex": "pse Kepleriana; si igitur numeri veterum cum ho-",
+     "transcription": "pse Kepleriana; si igitur numeri veterum cum ho-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0302-notes_right-L010",
+     "source_line_no": null,
+     "tex": "diernis comparentur, oportet eos dimidiare, et Albate-",
+     "transcription": "diernis comparentur, oportet eos dimidiare, et Albate-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0302-notes_right-L011",
+     "source_line_no": null,
+     "tex": "nio excentricitatem 0.017326, Ptolemaeo 0.0207638...",
+     "transcription": "nio excentricitatem 0.017326, Ptolemaeo 0.0207638...",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0302-notes_right-L012",
+     "source_line_no": null,
+     "tex": "(vel 0.02083....) tribuere. Veteribus excentricitas",
+     "transcription": "(vel 0.02083....) tribuere. Veteribus excentricitas",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0302-notes_right-L013",
+     "source_line_no": null,
+     "tex": "erat sinus maximae aequationis centri.",
+     "transcription": "erat sinus maximae aequationis centri.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  }
+ ]
+}
