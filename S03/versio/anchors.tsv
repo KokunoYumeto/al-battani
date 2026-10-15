@@ -3754,3 +3754,41 @@ AB01-PDF0279-body-L035	190	body	e XV capite colligitur
 AB01-PDF0279-body-L036	190	body	$\\text{sin alt. merid.} = \\sin (\\text{complem.}\\ \\text{φ} \\pm \\text{δ}) = \\dfrac{\\cos\\text{φ} \\cos\\text{δ} \\pm \\sin\\text{φ} \\sin\\text{δ}}{R}$,
 AB01-PDF0279-body-L037	190	body	$\\text{sin alt. merid.} = \\cos (\\text{φ} \\mp \\text{δ})$;
 AB01-PDF0279-body-L038	190	body	qua re formula (α) scribi potest
+AB01-PDF0280-body-L001	191	body	$\\text{sin vers}\\,t = \\biggl(R + R\\,\\dfrac{\\sin\\text{φ} \\sin\\text{δ}}{\\cos\\text{φ} \\cos\\text{δ}}\\biggr) - \\dfrac{\\sin h\\,\\biggl(R + R\\,\\dfrac{\\sin\\text{φ} \\sin\\text{δ}}{\\cos\\text{φ} \\cos\\text{δ}}\\biggr)}{\\cos (\\text{φ} \\mp \\text{δ})}$
+AB01-PDF0280-body-L002	191	body	$= \\dfrac{R\\,(\\cos\\text{φ} \\cos\\text{δ} + \\sin\\text{φ} \\sin\\text{δ})}{\\cos\\text{φ} \\cos\\text{δ}} - \\dfrac{R \\sin h\\,(\\cos\\text{φ} \\cos\\text{δ} + \\sin\\text{φ} \\sin\\text{δ})}{\\cos\\text{φ} \\cos\\text{δ} \\cos (\\text{φ} \\mp \\text{δ})}$.
+AB01-PDF0280-body-L003	191	body	Sed (ut e III capite patet) $\\cos\\text{φ} \\cos\\text{δ} + \\sin\\text{φ} \\sin\\text{δ} = R \\cos (\\text{φ} - \\text{δ})$, ergo
+AB01-PDF0280-body-L004	191	body	$\\text{sin vers}\\,t = R^2\\,\\dfrac{\\cos (\\text{φ} - \\text{δ})}{\\cos\\text{φ} \\cos\\text{δ}} - R^2\\,\\dfrac{\\sin h \\cos (\\text{φ} - \\text{δ})}{\\cos\\text{φ} \\cos\\text{δ} \\cos (\\text{φ} \\mp \\text{δ})}$,
+AB01-PDF0280-body-L005	191	body	et tandem
+AB01-PDF0280-body-L006	191	body	(I) $\\text{sin vers}\\,t = R^2\\,\\dfrac{\\cos (\\text{φ} - \\text{δ}) - \\sin h}{\\cos\\text{φ} \\cos\\text{δ}}$,
+AB01-PDF0280-body-L007	191	body	quam formulam ($R^2$ omisso, quoniam lineas trigonometricas nos ad $R = 1$ referimus) {sp:De-}
+AB01-PDF0280-body-L008	191	body	{sp:lambre}, p. 20, perperam Albatenio ipsi tribuit. Et quoniam nos angulum horarium *t* directe
+AB01-PDF0280-body-L009	191	body	a nota relatione $\\sin h = \\sin\\text{φ} \\sin\\text{δ} + \\cos\\text{φ} \\cos\\text{δ} \\cos t$ derivamus, scilicet
+AB01-PDF0280-body-L010	191	body	$\\cos t = \\dfrac{\\sin h - \\sin\\text{φ} \\sin\\text{δ}}{\\cos\\text{φ} \\cos\\text{δ}}$,
+AB01-PDF0280-body-L011	191	body	ubi duae multiplicationes sunt faciendae pro unica ($R^2$ omisso) quae in (I) reperitur, ipse {sp:De-}
+AB01-PDF0280-body-L012	191	body	{sp:lambre}, p. 164, formulam (I) postea adducit quasi primum antiquissimum exemplum *pro-*
+AB01-PDF0280-body-L013	191	body	*sthapheresis,* seu processus quo mathematici nostri, ante logarithmos repertos, additiones et
+AB01-PDF0280-body-L014	191	body	subductiones pro multiplicationibus et divisionibus ponere studebant. Idemque repetunt {sp:Han-}
+AB01-PDF0280-body-L015	191	body	{sp:kel}, p. 281, et {sp:Cantor}, I, p. 633 (= 694 alterius edit.); sed minime recte, nam al-Battānī
+AB01-PDF0280-body-L016	191	body	nunquam formulam (α), per proiectionem ortographicam obtentam, in (I) convertit, sicut optime
+AB01-PDF0280-body-L017	191	body	{sp:von Braunmühl}, I, 53, adn. 2, sensit.
+AB01-PDF0280-body-L018	191	body	Formula (I), scripta
+AB01-PDF0280-body-L019	191	body	$\\text{sin vers}\\,t = R^2\\,\\dfrac{\\text{sin altit. merid.} - \\sin h}{\\cos\\text{φ} \\cos\\text{δ}}$,
+AB01-PDF0280-body-L020	191	body	est apud {sp:Oloug Beg}, p. 96 textus, 124 vers.; qui eam tamen non algebrice ab (α), sed di-
+AB01-PDF0280-body-F01	191	body	[figure, redrawn: figures/AB01-PDF0280-F01.tex]
+AB01-PDF0280-body-L021	191	body	recte a proiectione orthographica procul dubio deduxit. In figura
+AB01-PDF0280-body-L022	191	body	prima huius adnotationis perpendicularis HZ ducatur; unde ZL =
+AB01-PDF0280-body-L023	191	body	HK = sin *h*, et FZ = sin altit. merid. − sin *h*. Angulus XCG est
+AB01-PDF0280-body-L024	191	body	altitudo poli supra horizontem, scilicet φ; ergo ang. FHZ = ang.
+AB01-PDF0280-body-L025	191	body	XGC = 90° − φ. Manifeste quoque CX = sin δ, FX = cos δ.
+AB01-PDF0280-body-L026	191	body	Quoniam latera cuiuscumque trianguli inter se sicut sinus angu-
+AB01-PDF0280-body-L027	191	body	lorum oppositorum sunt (1),
+AB01-PDF0280-body-L028	191	body	$FZ : FH$ $= \\text{sin ang.}\\ H : \\text{sin ang.}\\ Z$
+AB01-PDF0280-body-L029	191	body	$= \\cos\\text{φ} : \\sin \\text{90°} = \\cos\\text{φ} : R$;
+AB01-PDF0280-body-L030	191	body	ergo $FZ = FH\\,\\dfrac{\\cos\\text{φ}}{R}$. Vidimus supra $FH = \\text{sin vers}\\,t\\,\\dfrac{FX}{R} = \\text{sin vers}\\,t\\,\\dfrac{\\cos\\text{δ}}{R}$; itaque
+AB01-PDF0280-body-L031	191	body	$FZ = \\dfrac{\\text{sin vers}\\,t \\cos\\text{δ}}{R} \\times \\dfrac{\\cos\\text{φ}}{R} = \\dfrac{1}{R^2}\\,\\text{sin vers}\\,t \\cos\\text{δ} \\cos\\text{φ}$.
+AB01-PDF0280-body-L032	191	body	Sed $FZ = \\text{sin altit. merid.} - \\sin h$; ergo
+AB01-PDF0280-body-L033	191	body	$\\text{sin altit. merid.} - \\sin h = \\dfrac{1}{R^2}\\,\\text{sin vers}\\,t \\cos\\text{δ} \\cos\\text{φ}$,
+AB01-PDF0280-body-L034	191	body	unde
+AB01-PDF0280-body-L035	191	body	$\\text{sin vers}\\,t = R^2\\,\\dfrac{\\text{sin altit. merid.} - \\sin h}{\\cos\\text{δ} \\cos\\text{φ}}$,
+AB01-PDF0280-body-L036	191	body	ut erat demonstrandum.
+AB01-PDF0280-notes-L001	191	notes	(1) Propositionem {sp:Ulugh Beg} haud ignorabat; cfr. pag. 181, adn. 1.

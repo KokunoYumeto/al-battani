@@ -1,0 +1,414 @@
+{
+ "anchor": "AB01-PDF0280",
+ "master_pdf_page": 280,
+ "printed_page": 191,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "margin_locators": [],
+ "observations": [
+  "body L1-L6: the formulas are checked: they are rule (α) of p. 190 with sin vers P = R + R sin φ sin δ / (cos φ cos δ) and sin alt. merid. = cos (φ ∓ δ); with cos φ cos δ + sin φ sin δ = R cos (φ − δ) they give L4, and with the declination counted with its sign cos (φ ∓ δ) is cos (φ − δ), which cancels in L6.",
+  "body L1-L4, L6, L10, L19, L23, L25, L32, L33, L35: the minus signs are printed as long dashes (9.7 to 10.6 pt; that of L10 8.5 pt); they are set as minus signs.",
+  "body L9-L10: with the radius 1, sin h = sin φ sin δ + cos φ cos δ cos t gives L10.",
+  "body L15: the dash of «al-Battānī» measures 3.6 pt, a hyphen.",
+  "body L16: Nallino's addenda et emendanda (Part I, p. LXXIII) read «191,16, pro ortographicam l. orthographicam.»; the printed «ortographicam» is kept.",
+  "body L21-L26: the figure stands at the left of lines 21 to 26, which are set beside it in a narrow measure. It is the first figure of p. 190 drawn again with the perpendicular HZ, and is redrawn from measurements of the print: the meridian as a half circle over the horizon; the horizon, FL, HK, the parallel FG and the axis from C to the pole as straight lines (here FL, HK and the axis are printed solid); ZH in dashes, each dash where it printed; the brace φ along the arc; the bold italic letters and the word Polus.",
+  "body L21-L35: the proof is checked. In the triangle FZH the angle at Z is right and the angle at H equals XGC = 90° − φ, since HZ is parallel to the horizon; hence FZ : FH = cos φ : R. With FH = sin vers t FX / R (p. 190) and FX = cos δ, FZ = sin vers t cos δ cos φ / R², and FZ = FL − ZL = sin altit. merid. − sin h gives (I).",
+  "body L25: a spot of ink under the s of «cos δ» (the last of the line); it is not a sign.",
+  "body L30: a short upright stroke stands before the R under «cos φ»; it is not a sign."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0280-body-L001",
+     "source_line_no": null,
+     "tex": "\\CenterLine{$\\text{sin vers}\\,t = \\biggl(R + R\\,\\dfrac{\\sin\\text{\\textgreek{φ}} \\sin\\text{\\textgreek{δ}}}{\\cos\\text{\\textgreek{φ}} \\cos\\text{\\textgreek{δ}}}\\biggr) - \\dfrac{\\sin h\\,\\biggl(R + R\\,\\dfrac{\\sin\\text{\\textgreek{φ}} \\sin\\text{\\textgreek{δ}}}{\\cos\\text{\\textgreek{φ}} \\cos\\text{\\textgreek{δ}}}\\biggr)}{\\cos (\\text{\\textgreek{φ}} \\mp \\text{\\textgreek{δ}})}$}",
+     "transcription": "$\\text{sin vers}\\,t = \\biggl(R + R\\,\\dfrac{\\sin\\text{φ} \\sin\\text{δ}}{\\cos\\text{φ} \\cos\\text{δ}}\\biggr) - \\dfrac{\\sin h\\,\\biggl(R + R\\,\\dfrac{\\sin\\text{φ} \\sin\\text{δ}}{\\cos\\text{φ} \\cos\\text{δ}}\\biggr)}{\\cos (\\text{φ} \\mp \\text{δ})}$",
+     "semantic_anchor": "AB01-PDF0280-H01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0280-body-L002",
+     "source_line_no": null,
+     "tex": "\\CenterLine{$= \\dfrac{R\\,(\\cos\\text{\\textgreek{φ}} \\cos\\text{\\textgreek{δ}} + \\sin\\text{\\textgreek{φ}} \\sin\\text{\\textgreek{δ}})}{\\cos\\text{\\textgreek{φ}} \\cos\\text{\\textgreek{δ}}} - \\dfrac{R \\sin h\\,(\\cos\\text{\\textgreek{φ}} \\cos\\text{\\textgreek{δ}} + \\sin\\text{\\textgreek{φ}} \\sin\\text{\\textgreek{δ}})}{\\cos\\text{\\textgreek{φ}} \\cos\\text{\\textgreek{δ}} \\cos (\\text{\\textgreek{φ}} \\mp \\text{\\textgreek{δ}})}$.}",
+     "transcription": "$= \\dfrac{R\\,(\\cos\\text{φ} \\cos\\text{δ} + \\sin\\text{φ} \\sin\\text{δ})}{\\cos\\text{φ} \\cos\\text{δ}} - \\dfrac{R \\sin h\\,(\\cos\\text{φ} \\cos\\text{δ} + \\sin\\text{φ} \\sin\\text{δ})}{\\cos\\text{φ} \\cos\\text{δ} \\cos (\\text{φ} \\mp \\text{δ})}$.",
+     "semantic_anchor": "AB01-PDF0280-H02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0280-body-L003",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.00mm}Sed (ut e III capite patet)}\\rlap{\\hspace*{45.10mm}$\\cos\\text{\\textgreek{φ}} \\cos\\text{\\textgreek{δ}} + \\sin\\text{\\textgreek{φ}} \\sin\\text{\\textgreek{δ}} = R \\cos (\\text{\\textgreek{φ}} - \\text{\\textgreek{δ}})$,}\\rlap{\\hspace*{110.90mm}ergo}",
+     "transcription": "Sed (ut e III capite patet) $\\cos\\text{φ} \\cos\\text{δ} + \\sin\\text{φ} \\sin\\text{δ} = R \\cos (\\text{φ} - \\text{δ})$, ergo",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0280-body-L004",
+     "source_line_no": null,
+     "tex": "\\CenterLine{$\\text{sin vers}\\,t = R^2\\,\\dfrac{\\cos (\\text{\\textgreek{φ}} - \\text{\\textgreek{δ}})}{\\cos\\text{\\textgreek{φ}} \\cos\\text{\\textgreek{δ}}} - R^2\\,\\dfrac{\\sin h \\cos (\\text{\\textgreek{φ}} - \\text{\\textgreek{δ}})}{\\cos\\text{\\textgreek{φ}} \\cos\\text{\\textgreek{δ}} \\cos (\\text{\\textgreek{φ}} \\mp \\text{\\textgreek{δ}})}$,}",
+     "transcription": "$\\text{sin vers}\\,t = R^2\\,\\dfrac{\\cos (\\text{φ} - \\text{δ})}{\\cos\\text{φ} \\cos\\text{δ}} - R^2\\,\\dfrac{\\sin h \\cos (\\text{φ} - \\text{δ})}{\\cos\\text{φ} \\cos\\text{δ} \\cos (\\text{φ} \\mp \\text{δ})}$,",
+     "semantic_anchor": "AB01-PDF0280-H04",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0280-body-L005",
+     "source_line_no": null,
+     "tex": "et tandem",
+     "transcription": "et tandem",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0280-body-L006",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.00mm}(I)}\\rlap{\\hspace*{94.00mm}\\makebox[0pt][c]{$\\text{sin vers}\\,t = R^2\\,\\dfrac{\\cos (\\text{\\textgreek{φ}} - \\text{\\textgreek{δ}}) - \\sin h}{\\cos\\text{\\textgreek{φ}} \\cos\\text{\\textgreek{δ}}}$,}}",
+     "transcription": "(I) $\\text{sin vers}\\,t = R^2\\,\\dfrac{\\cos (\\text{φ} - \\text{δ}) - \\sin h}{\\cos\\text{φ} \\cos\\text{δ}}$,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0280-body-L007",
+     "source_line_no": null,
+     "tex": "quam formulam ($R^2$ omisso, quoniam lineas trigonometricas nos ad $R = 1$ referimus) \\Name{De-}",
+     "transcription": "quam formulam ($R^2$ omisso, quoniam lineas trigonometricas nos ad $R = 1$ referimus) {sp:De-}",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0280-body-L008",
+     "source_line_no": null,
+     "tex": "\\Name{lambre}, p. 20, perperam Albatenio ipsi tribuit. Et quoniam nos angulum horarium \\textit{t} directe",
+     "transcription": "{sp:lambre}, p. 20, perperam Albatenio ipsi tribuit. Et quoniam nos angulum horarium *t* directe",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0280-body-L009",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.00mm}a nota relatione}\\rlap{\\hspace*{28.90mm}$\\sin h = \\sin\\text{\\textgreek{φ}} \\sin\\text{\\textgreek{δ}} + \\cos\\text{\\textgreek{φ}} \\cos\\text{\\textgreek{δ}} \\cos t$}\\rlap{\\hspace*{88.40mm}derivamus, scilicet}",
+     "transcription": "a nota relatione $\\sin h = \\sin\\text{φ} \\sin\\text{δ} + \\cos\\text{φ} \\cos\\text{δ} \\cos t$ derivamus, scilicet",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0280-body-L010",
+     "source_line_no": null,
+     "tex": "\\CenterLine{$\\cos t = \\dfrac{\\sin h - \\sin\\text{\\textgreek{φ}} \\sin\\text{\\textgreek{δ}}}{\\cos\\text{\\textgreek{φ}} \\cos\\text{\\textgreek{δ}}}$,}",
+     "transcription": "$\\cos t = \\dfrac{\\sin h - \\sin\\text{φ} \\sin\\text{δ}}{\\cos\\text{φ} \\cos\\text{δ}}$,",
+     "semantic_anchor": "AB01-PDF0280-H10",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0280-body-L011",
+     "source_line_no": null,
+     "tex": "ubi duae multiplicationes sunt faciendae pro unica ($R^2$ omisso) quae in (I) reperitur, ipse \\Name{De-}",
+     "transcription": "ubi duae multiplicationes sunt faciendae pro unica ($R^2$ omisso) quae in (I) reperitur, ipse {sp:De-}",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0280-body-L012",
+     "source_line_no": null,
+     "tex": "\\Name{lambre}, p. 164, formulam (I) postea adducit quasi primum antiquissimum exemplum \\textit{pro-}",
+     "transcription": "{sp:lambre}, p. 164, formulam (I) postea adducit quasi primum antiquissimum exemplum *pro-*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0280-body-L013",
+     "source_line_no": null,
+     "tex": "\\textit{sthapheresis,} seu processus quo mathematici nostri, ante logarithmos repertos, additiones et",
+     "transcription": "*sthapheresis,* seu processus quo mathematici nostri, ante logarithmos repertos, additiones et",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0280-body-L014",
+     "source_line_no": null,
+     "tex": "subductiones pro multiplicationibus et divisionibus ponere studebant. Idemque repetunt \\Name{Han-}",
+     "transcription": "subductiones pro multiplicationibus et divisionibus ponere studebant. Idemque repetunt {sp:Han-}",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0280-body-L015",
+     "source_line_no": null,
+     "tex": "\\Name{kel}, p. 281, et \\Name{Cantor}, I, p. 633 (= 694 alterius edit.); sed minime recte, nam al-Battānī",
+     "transcription": "{sp:kel}, p. 281, et {sp:Cantor}, I, p. 633 (= 694 alterius edit.); sed minime recte, nam al-Battānī",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0280-body-L016",
+     "source_line_no": null,
+     "tex": "nunquam formulam (\\textgreek{α}), per proiectionem ortographicam obtentam, in (I) convertit, sicut optime",
+     "transcription": "nunquam formulam (α), per proiectionem ortographicam obtentam, in (I) convertit, sicut optime",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0280-body-L017",
+     "source_line_no": null,
+     "tex": "\\Name{von Braunmühl}, I, 53, adn. 2, sensit.",
+     "transcription": "{sp:von Braunmühl}, I, 53, adn. 2, sensit.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0280-body-L018",
+     "source_line_no": null,
+     "tex": "\\Indent Formula (I), scripta",
+     "transcription": "Formula (I), scripta",
+     "semantic_anchor": "AB01-PDF0280-P01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0280-body-L019",
+     "source_line_no": null,
+     "tex": "\\CenterLine{$\\text{sin vers}\\,t = R^2\\,\\dfrac{\\text{sin altit. merid.} - \\sin h}{\\cos\\text{\\textgreek{φ}} \\cos\\text{\\textgreek{δ}}}$,}",
+     "transcription": "$\\text{sin vers}\\,t = R^2\\,\\dfrac{\\text{sin altit. merid.} - \\sin h}{\\cos\\text{φ} \\cos\\text{δ}}$,",
+     "semantic_anchor": "AB01-PDF0280-H19",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0280-body-L020",
+     "source_line_no": null,
+     "tex": "est apud \\Name{Oloug Beg}, p. 96 textus, 124 vers.; qui eam tamen non algebrice ab (\\textgreek{α}), sed di-",
+     "transcription": "est apud {sp:Oloug Beg}, p. 96 textus, 124 vers.; qui eam tamen non algebrice ab (α), sed di-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0280-body-F01",
+     "source_line_no": null,
+     "tex": "\\input{figures/AB01-PDF0280-F01}",
+     "transcription": "[figure, redrawn: figures/AB01-PDF0280-F01.tex]",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_FIGURE"
+    },
+    {
+     "id": "AB01-PDF0280-body-L021",
+     "source_line_no": null,
+     "tex": "recte a proiectione orthographica procul dubio deduxit. In figura",
+     "transcription": "recte a proiectione orthographica procul dubio deduxit. In figura",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0280-body-L022",
+     "source_line_no": null,
+     "tex": "prima huius adnotationis perpendicularis HZ ducatur; unde ZL =",
+     "transcription": "prima huius adnotationis perpendicularis HZ ducatur; unde ZL =",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0280-body-L023",
+     "source_line_no": null,
+     "tex": "HK = sin \\textit{h}, et FZ = sin altit. merid. − sin \\textit{h}. Angulus XCG est",
+     "transcription": "HK = sin *h*, et FZ = sin altit. merid. − sin *h*. Angulus XCG est",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0280-body-L024",
+     "source_line_no": null,
+     "tex": "altitudo poli supra horizontem, scilicet \\textgreek{φ}; ergo ang. FHZ = ang.",
+     "transcription": "altitudo poli supra horizontem, scilicet φ; ergo ang. FHZ = ang.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0280-body-L025",
+     "source_line_no": null,
+     "tex": "XGC = 90° − \\textgreek{φ}. Manifeste quoque CX = sin \\textgreek{δ}, FX = cos \\textgreek{δ}.",
+     "transcription": "XGC = 90° − φ. Manifeste quoque CX = sin δ, FX = cos δ.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0280-body-L026",
+     "source_line_no": null,
+     "tex": "Quoniam latera cuiuscumque trianguli inter se sicut sinus angu-",
+     "transcription": "Quoniam latera cuiuscumque trianguli inter se sicut sinus angu-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0280-body-L027",
+     "source_line_no": null,
+     "tex": "lorum oppositorum sunt (1),",
+     "transcription": "lorum oppositorum sunt (1),",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0280-body-L028",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{46.40mm}$FZ : FH$}\\rlap{\\hspace*{61.90mm}$= \\text{sin ang.}\\ H : \\text{sin ang.}\\ Z$}",
+     "transcription": "$FZ : FH$ $= \\text{sin ang.}\\ H : \\text{sin ang.}\\ Z$",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0280-body-L029",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{61.90mm}$= \\cos\\text{\\textgreek{φ}} : \\sin \\text{90°} = \\cos\\text{\\textgreek{φ}} : R$;}",
+     "transcription": "$= \\cos\\text{φ} : \\sin \\text{90°} = \\cos\\text{φ} : R$;",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0280-body-L030",
+     "source_line_no": null,
+     "tex": "ergo $FZ = FH\\,\\dfrac{\\cos\\text{\\textgreek{φ}}}{R}$. Vidimus supra $FH = \\text{sin vers}\\,t\\,\\dfrac{FX}{R} = \\text{sin vers}\\,t\\,\\dfrac{\\cos\\text{\\textgreek{δ}}}{R}$; itaque",
+     "transcription": "ergo $FZ = FH\\,\\dfrac{\\cos\\text{φ}}{R}$. Vidimus supra $FH = \\text{sin vers}\\,t\\,\\dfrac{FX}{R} = \\text{sin vers}\\,t\\,\\dfrac{\\cos\\text{δ}}{R}$; itaque",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0280-body-L031",
+     "source_line_no": null,
+     "tex": "\\CenterLine{$FZ = \\dfrac{\\text{sin vers}\\,t \\cos\\text{\\textgreek{δ}}}{R} \\times \\dfrac{\\cos\\text{\\textgreek{φ}}}{R} = \\dfrac{1}{R^2}\\,\\text{sin vers}\\,t \\cos\\text{\\textgreek{δ}} \\cos\\text{\\textgreek{φ}}$.}",
+     "transcription": "$FZ = \\dfrac{\\text{sin vers}\\,t \\cos\\text{δ}}{R} \\times \\dfrac{\\cos\\text{φ}}{R} = \\dfrac{1}{R^2}\\,\\text{sin vers}\\,t \\cos\\text{δ} \\cos\\text{φ}$.",
+     "semantic_anchor": "AB01-PDF0280-H31",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0280-body-L032",
+     "source_line_no": null,
+     "tex": "Sed $FZ = \\text{sin altit. merid.} - \\sin h$; ergo",
+     "transcription": "Sed $FZ = \\text{sin altit. merid.} - \\sin h$; ergo",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0280-body-L033",
+     "source_line_no": null,
+     "tex": "\\CenterLine{$\\text{sin altit. merid.} - \\sin h = \\dfrac{1}{R^2}\\,\\text{sin vers}\\,t \\cos\\text{\\textgreek{δ}} \\cos\\text{\\textgreek{φ}}$,}",
+     "transcription": "$\\text{sin altit. merid.} - \\sin h = \\dfrac{1}{R^2}\\,\\text{sin vers}\\,t \\cos\\text{δ} \\cos\\text{φ}$,",
+     "semantic_anchor": "AB01-PDF0280-H33",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0280-body-L034",
+     "source_line_no": null,
+     "tex": "unde",
+     "transcription": "unde",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0280-body-L035",
+     "source_line_no": null,
+     "tex": "\\CenterLine{$\\text{sin vers}\\,t = R^2\\,\\dfrac{\\text{sin altit. merid.} - \\sin h}{\\cos\\text{\\textgreek{δ}} \\cos\\text{\\textgreek{φ}}}$,}",
+     "transcription": "$\\text{sin vers}\\,t = R^2\\,\\dfrac{\\text{sin altit. merid.} - \\sin h}{\\cos\\text{δ} \\cos\\text{φ}}$,",
+     "semantic_anchor": "AB01-PDF0280-H35",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0280-body-L036",
+     "source_line_no": null,
+     "tex": "ut erat demonstrandum.",
+     "transcription": "ut erat demonstrandum.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    }
+   ]
+  },
+  {
+   "role": "notes",
+   "lines": [
+    {
+     "id": "AB01-PDF0280-notes-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (1) Propositionem \\Name{Ulugh Beg} haud ignorabat; cfr. pag. 181, adn. 1.",
+     "transcription": "(1) Propositionem {sp:Ulugh Beg} haud ignorabat; cfr. pag. 181, adn. 1.",
+     "semantic_anchor": "AB01-PDF0280-N01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  }
+ ]
+}

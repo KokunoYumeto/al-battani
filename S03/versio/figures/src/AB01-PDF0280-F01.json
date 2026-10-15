@@ -1,0 +1,279 @@
+{
+ "pdf": 280,
+ "printed_page": 191,
+ "comment": [
+  "Nallino, Part I p. 191: the first figure of the note on chapter 16 printed again with the perpendicular HZ,",
+  "redrawn from the print: the meridian as a half circle over the horizon; the horizon, FL, HK, the parallel FG and",
+  "the axis from C to the pole as straight lines; ZH in dashes, each where it printed; the brace φ along the arc;",
+  "the bold italic letters and the word Polus. Measured on the scan (_intake/latin/tools/fig191)."
+ ],
+ "origin": [
+  59.0,
+  471.43
+ ],
+ "scale": 0.99281,
+ "size": [
+  118.0,
+  72.0
+ ],
+ "label_pt": 11,
+ "circles": [],
+ "segments": [
+  {
+   "name": "the horizon",
+   "x0": 66.83,
+   "y0": 533.67,
+   "x1": 164.38,
+   "y1": 534.07,
+   "w": 0.98
+  },
+  {
+   "name": "FL",
+   "x0": 81.64,
+   "y0": 498.87,
+   "x1": 82.0,
+   "y1": 533.73,
+   "w": 1.08
+  },
+  {
+   "name": "HK",
+   "x0": 100.52,
+   "y0": 510.13,
+   "x1": 100.49,
+   "y1": 533.81,
+   "w": 1.07
+  },
+  {
+   "name": "the parallel FG",
+   "x0": 81.64,
+   "y0": 498.87,
+   "x1": 140.97,
+   "y1": 533.97,
+   "w": 1.08
+  },
+  {
+   "name": "the axis from C to the pole",
+   "x0": 115.52,
+   "y0": 533.87,
+   "x1": 141.22,
+   "y1": 492.36,
+   "w": 1.0
+  }
+ ],
+ "arcs": [
+  {
+   "name": "the meridian, over the horizon",
+   "cx": 115.61,
+   "cy": 533.87,
+   "r": 48.77,
+   "a0": 180.235,
+   "a1": 360.226,
+   "w": 1.18
+  }
+ ],
+ "groups": [
+  {
+   "w": 1.09,
+   "cap": "round",
+   "segs": [
+    [
+     86.18,
+     510.44,
+     88.03,
+     510.39
+    ],
+    [
+     90.63,
+     510.41,
+     92.0,
+     510.37
+    ],
+    [
+     93.98,
+     510.44,
+     95.83,
+     510.39
+    ],
+    [
+     83.09,
+     510.41,
+     83.89,
+     510.41
+    ],
+    [
+     97.91,
+     510.41,
+     99.25,
+     510.41
+    ]
+   ],
+   "comment": "the dashes of ZH"
+  }
+ ],
+ "arcbraces": [
+  {
+   "name": "the brace φ along the arc",
+   "cx": 115.61,
+   "cy": 533.87,
+   "r": 51.29,
+   "a0": -41.36,
+   "a1": -12.12,
+   "amp": 2.47,
+   "w": 0.8
+  }
+ ],
+ "labels": [
+  {
+   "t": "\\resizebox{22.63pt}{8.43pt}{Polus}",
+   "cx": 151.73,
+   "cy": 486.5,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{6.66pt}{7.85pt}{F}",
+   "cx": 78.88,
+   "cy": 494.04,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{5.83pt}{7.03pt}{Z}",
+   "cx": 77.27,
+   "cy": 511.78,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{8.18pt}{7.61pt}{H}",
+   "cx": 105.86,
+   "cy": 506.52,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{7.30pt}{7.67pt}{X}",
+   "cx": 120.5,
+   "cy": 515.71,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{6.66pt}{5.37pt}{φ}",
+   "cx": 167.94,
+   "cy": 509.22,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{6.77pt}{7.73pt}{L}",
+   "cx": 81.21,
+   "cy": 539.22,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{7.17pt}{7.48pt}{K}",
+   "cx": 99.2,
+   "cy": 539.46,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{7.05pt}{7.51pt}{C}",
+   "cx": 113.68,
+   "cy": 539.42,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{6.95pt}{7.16pt}{G}",
+   "cx": 139.67,
+   "cy": 540.1,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  }
+ ],
+ "boxes": {
+  "Polus": [
+   22.68,
+   8.64
+  ],
+  "F": [
+   7.68,
+   7.92
+  ],
+  "Z": [
+   6.48,
+   7.08
+  ],
+  "H": [
+   8.76,
+   7.68
+  ],
+  "X": [
+   8.28,
+   7.74
+  ],
+  "φ": [
+   6.12,
+   8.28
+  ],
+  "L": [
+   6.24,
+   7.8
+  ],
+  "K": [
+   7.68,
+   7.56
+  ],
+  "C": [
+   6.6,
+   7.68
+  ],
+  "G": [
+   6.6,
+   7.32
+  ]
+ },
+ "points": {
+  "A": [
+   66.83,
+   533.67
+  ],
+  "B": [
+   164.38,
+   534.07
+  ],
+  "F": [
+   81.55,
+   498.95
+  ],
+  "F_L": [
+   81.72,
+   498.8
+  ],
+  "L": [
+   82.0,
+   533.73
+  ],
+  "K": [
+   100.49,
+   533.81
+  ],
+  "G": [
+   140.97,
+   533.97
+  ],
+  "C": [
+   115.52,
+   533.87
+  ],
+  "H": [
+   100.52,
+   510.13
+  ],
+  "X": [
+   122.28,
+   522.95
+  ],
+  "Pol": [
+   141.22,
+   492.36
+  ],
+  "Z": [
+   81.81,
+   510.41
+  ]
+ }
+}

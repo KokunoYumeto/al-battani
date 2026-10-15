@@ -1,0 +1,82 @@
+@page 280 191
+% Notes on chapter 16, a) continued: rule (α) expanded into formula (I), sin vers t = R² (cos (φ − δ) − sin h) / (cos φ cos δ), which Delambre attributes to al-Battānī himself; Delambre, Hankel and Cantor on (I) as an early prosthaphaeresis, against which von Braunmühl; formula (I) in Ulugh Beg, derived from the orthographic projection: the figure of p. 190 with the perpendicular HZ, and the proof by the sine rule. Note on Ulugh Beg and the sine rule.
+@nonum
+@vspace 0.26
+@center $\text{sin vers}\,t = \biggl(R + R\,\dfrac{\sin\text{φ} \sin\text{δ}}{\cos\text{φ} \cos\text{δ}}\biggr) - \dfrac{\sin h\,\biggl(R + R\,\dfrac{\sin\text{φ} \sin\text{δ}}{\cos\text{φ} \cos\text{δ}}\biggr)}{\cos (\text{φ} \mp \text{δ})}$
+@vspace -0.09
+@center $= \dfrac{R\,(\cos\text{φ} \cos\text{δ} + \sin\text{φ} \sin\text{δ})}{\cos\text{φ} \cos\text{δ}} - \dfrac{R \sin h\,(\cos\text{φ} \cos\text{δ} + \sin\text{φ} \sin\text{δ})}{\cos\text{φ} \cos\text{δ} \cos (\text{φ} \mp \text{δ})}$.
+@vspace -0.53
+@at 0:Sed (ut e III capite patet) | 45.1:$\cos\text{φ} \cos\text{δ} + \sin\text{φ} \sin\text{δ} = R \cos (\text{φ} - \text{δ})$, | 110.9:ergo
+@vspace -0.11
+@center $\text{sin vers}\,t = R^2\,\dfrac{\cos (\text{φ} - \text{δ})}{\cos\text{φ} \cos\text{δ}} - R^2\,\dfrac{\sin h \cos (\text{φ} - \text{δ})}{\cos\text{φ} \cos\text{δ} \cos (\text{φ} \mp \text{δ})}$,
+@vspace -1.68
+et tandem
+@vspace -1.11
+@at 0:(I) | 94^:$\text{sin vers}\,t = R^2\,\dfrac{\cos (\text{φ} - \text{δ}) - \sin h}{\cos\text{φ} \cos\text{δ}}$,
+@vspace -0.50
+quam formulam ($R^2$ omisso, quoniam lineas trigonometricas nos ad $R = 1$ referimus) {sp:De-}
+@vspace -0.07
+{sp:lambre}, p. 20, perperam Albatenio ipsi tribuit. Et quoniam nos angulum horarium *t* directe
+@vspace -0.08
+@at 0:a nota relatione | 28.9:$\sin h = \sin\text{φ} \sin\text{δ} + \cos\text{φ} \cos\text{δ} \cos t$ | 88.4:derivamus, scilicet
+@vspace 0.19
+@center $\cos t = \dfrac{\sin h - \sin\text{φ} \sin\text{δ}}{\cos\text{φ} \cos\text{δ}}$,
+@vspace -0.50
+ubi duae multiplicationes sunt faciendae pro unica ($R^2$ omisso) quae in (I) reperitur, ipse {sp:De-}
+@vspace 0.08
+{sp:lambre}, p. 164, formulam (I) postea adducit quasi primum antiquissimum exemplum *pro-*
+*sthapheresis,* seu processus quo mathematici nostri, ante logarithmos repertos, additiones et
+@vspace -0.08
+subductiones pro multiplicationibus et divisionibus ponere studebant. Idemque repetunt {sp:Han-}
+{sp:kel}, p. 281, et {sp:Cantor}, I, p. 633 (= 694 alterius edit.); sed minime recte, nam al-Battānī
+nunquam formulam (α), per proiectionem ortographicam obtentam, in (I) convertit, sicut optime
+{sp:von Braunmühl}, I, 53, adn. 2, sensit.
+@vspace -0.24
+^ Formula (I), scripta
+@vspace -0.87
+@center $\text{sin vers}\,t = R^2\,\dfrac{\text{sin altit. merid.} - \sin h}{\cos\text{φ} \cos\text{δ}}$,
+@vspace -0.44
+est apud {sp:Oloug Beg}, p. 96 textus, 124 vers.; qui eam tamen non algebrice ab (α), sed di-
+@vspace 0.08
+@wrap 0.220 AB01-PDF0280-F01
+recte a proiectione orthographica procul dubio deduxit. In figura
+prima huius adnotationis perpendicularis HZ ducatur; unde ZL =
+@vspace -0.10
+HK = sin *h*, et FZ = sin altit. merid. − sin *h*. Angulus XCG est
+@vspace -0.02
+altitudo poli supra horizontem, scilicet φ; ergo ang. FHZ = ang.
+XGC = 90° − φ. Manifeste quoque CX = sin δ, FX = cos δ.
+Quoniam latera cuiuscumque trianguli inter se sicut sinus angu-
+@endwrap
+@vspace -1.42
+lorum oppositorum sunt (1),
+@vspace -1.20
+@at 46.4:$FZ : FH$ | 61.9:$= \text{sin ang.}\ H : \text{sin ang.}\ Z$
+@at 61.9:$= \cos\text{φ} : \sin \text{90°} = \cos\text{φ} : R$;
+@vspace -0.09
+ergo $FZ = FH\,\dfrac{\cos\text{φ}}{R}$. Vidimus supra $FH = \text{sin vers}\,t\,\dfrac{FX}{R} = \text{sin vers}\,t\,\dfrac{\cos\text{δ}}{R}$; itaque
+@vspace 1.09
+@center $FZ = \dfrac{\text{sin vers}\,t \cos\text{δ}}{R} \times \dfrac{\cos\text{φ}}{R} = \dfrac{1}{R^2}\,\text{sin vers}\,t \cos\text{δ} \cos\text{φ}$.
+@vspace 0.61
+Sed $FZ = \text{sin altit. merid.} - \sin h$; ergo
+@vspace -0.98
+@center $\text{sin altit. merid.} - \sin h = \dfrac{1}{R^2}\,\text{sin vers}\,t \cos\text{δ} \cos\text{φ}$,
+@vspace -0.53
+unde
+@vspace -1.17
+@center $\text{sin vers}\,t = R^2\,\dfrac{\text{sin altit. merid.} - \sin h}{\cos\text{δ} \cos\text{φ}}$,
+@vspace -1.48
+ut erat demonstrandum.
+@vspace -0.35
+@notes1
+@vspace 1.04
+^ (1) Propositionem {sp:Ulugh Beg} haud ignorabat; cfr. pag. 181, adn. 1.
+@obs body L1-L6: the formulas are checked: they are rule (α) of p. 190 with sin vers P = R + R sin φ sin δ / (cos φ cos δ) and sin alt. merid. = cos (φ ∓ δ); with cos φ cos δ + sin φ sin δ = R cos (φ − δ) they give L4, and with the declination counted with its sign cos (φ ∓ δ) is cos (φ − δ), which cancels in L6.
+@obs body L1-L4, L6, L10, L19, L23, L25, L32, L33, L35: the minus signs are printed as long dashes (9.7 to 10.6 pt; that of L10 8.5 pt); they are set as minus signs.
+@obs body L9-L10: with the radius 1, sin h = sin φ sin δ + cos φ cos δ cos t gives L10.
+@obs body L15: the dash of «al-Battānī» measures 3.6 pt, a hyphen.
+@obs body L16: Nallino's addenda et emendanda (Part I, p. LXXIII) read «191,16, pro ortographicam l. orthographicam.»; the printed «ortographicam» is kept.
+@obs body L21-L26: the figure stands at the left of lines 21 to 26, which are set beside it in a narrow measure. It is the first figure of p. 190 drawn again with the perpendicular HZ, and is redrawn from measurements of the print: the meridian as a half circle over the horizon; the horizon, FL, HK, the parallel FG and the axis from C to the pole as straight lines (here FL, HK and the axis are printed solid); ZH in dashes, each dash where it printed; the brace φ along the arc; the bold italic letters and the word Polus.
+@obs body L21-L35: the proof is checked. In the triangle FZH the angle at Z is right and the angle at H equals XGC = 90° − φ, since HZ is parallel to the horizon; hence FZ : FH = cos φ : R. With FH = sin vers t FX / R (p. 190) and FX = cos δ, FZ = sin vers t cos δ cos φ / R², and FZ = FL − ZL = sin altit. merid. − sin h gives (I).
+@obs body L25: a spot of ink under the s of «cos δ» (the last of the line); it is not a sign.
+@obs body L30: a short upright stroke stands before the R under «cos φ»; it is not a sign.
