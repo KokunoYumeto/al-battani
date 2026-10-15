@@ -1,0 +1,550 @@
+{
+ "anchor": "AB01-PDF0325",
+ "master_pdf_page": 325,
+ "printed_page": 236,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "margin_locators": [],
+ "observations": [
+  "body L1: in the head the dash after «p)» measures 10.3 pt and is transcribed as a dash; that of «27–31» is a long dash (5.3 pt).",
+  "body L2, L11, L13-L14, L17, L26, L35: the dashes of «al–Battānī» and of «29–30» and «234–235» are long dashes (5.2 to 5.4 pt).",
+  "body L4-L12: al-Battānī's middle diameters, 32′ 30″ of the Sun and 32′ 25″ of the Moon, are the means of his extremes, 31′ 20″ and 33′ 40″, and 29′ 30″ and 35′ 20″ (the 29′ 1/2 and 35′ 1/3 of p. 58); the lines of diameters stand at their printed places.",
+  "body L8: the 4 of «32′ 36″,48» prints broken.",
+  "body L21-L22: the rough breathings of «ὁρᾶσθαι» and «ὅλον» are joined to the tops of their omicrons, so that both look like a delta; the omicrons of «ἐμποδιζόμενον» print open.",
+  "body L33-L34: specks after «Eudosso» and around «di Brera» are not transcribed.",
+  "body L35: a heavy bracket opens Schiaparelli's addition, which goes on to p. 237.",
+  "notes_right L4: the dash before «Cfr.» measures 8.5 pt and is transcribed as a dash."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0325-body-L001",
+     "source_line_no": null,
+     "tex": "\\CenterLine{\\textbf{\\textit{p}}) — \\textit{Pag. 58, l. 27–31.}}",
+     "transcription": "{bi:p}) — *Pag. 58, l. 27–31.*",
+     "semantic_anchor": "AB01-PDF0325-H01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0325-body-L002",
+     "source_line_no": null,
+     "tex": "\\Indent Ex observationibus eclipsium \\Name{al–Battānī} \\textit{diametros angulares Lunae} et \\textit{Solis} melius",
+     "transcription": "Ex observationibus eclipsium {sp:al–Battānī} *diametros angulares Lunae* et *Solis* melius",
+     "semantic_anchor": "AB01-PDF0325-P01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0325-body-L003",
+     "source_line_no": null,
+     "tex": "quam \\Name{Ptolemaeus} determinavit.",
+     "transcription": "quam {sp:Ptolemaeus} determinavit.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0325-body-L004",
+     "source_line_no": null,
+     "tex": "\\Indent Diametrus \\textit{Solis} 31′ 20″ semper apud Graecum auctorem erat, qui eam variare ignorabat.",
+     "transcription": "Diametrus *Solis* 31′ 20″ semper apud Graecum auctorem erat, qui eam variare ignorabat.",
+     "semantic_anchor": "AB01-PDF0325-P02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0325-body-L005",
+     "source_line_no": null,
+     "tex": "Noster variationem diametri agnovit, et pro diversis distantiis a Terra invenit:",
+     "transcription": "Noster variationem diametri agnovit, et pro diversis distantiis a Terra invenit:",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0325-body-L006",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{14.73mm}\\smash{\\rlap{31′ 20″ in maxima dist.,}}}\\rlap{\\hspace*{65.86mm}\\smash{\\rlap{32′ 30″ in media,}}}\\rlap{\\hspace*{101.56mm}\\smash{\\rlap{33′ 40″ in minima.}}}",
+     "transcription": "31′ 20″ in maxima dist., 32′ 30″ in media, 33′ 40″ in minima.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0325-body-L007",
+     "source_line_no": null,
+     "tex": "\\Indent Astronomi aevi nostri (1) statuerunt:",
+     "transcription": "Astronomi aevi nostri (1) statuerunt:",
+     "semantic_anchor": "AB01-PDF0325-P03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0325-body-L008",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{14.42mm}\\smash{\\rlap{31′ 31″,98 in maxima dist.,}}}\\rlap{\\hspace*{71.52mm}\\smash{\\rlap{32′ 3″,64 in media,}}}\\rlap{\\hspace*{112.31mm}\\smash{\\rlap{32′ 36″,48 in minima.}}}",
+     "transcription": "31′ 31″,98 in maxima dist., 32′ 3″,64 in media, 32′ 36″,48 in minima.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0325-body-L009",
+     "source_line_no": null,
+     "tex": "\\Indent Diametrus \\textit{Lunae} iuxta",
+     "transcription": "Diametrus *Lunae* iuxta",
+     "semantic_anchor": "AB01-PDF0325-P04",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0325-body-L010",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.40mm}\\smash{\\rlap{\\Name{Ptolemaeum}:}}}\\rlap{\\hspace*{32.51mm}\\smash{\\rlap{31′ 20″ in maxima dist.,}}}\\rlap{\\hspace*{83.64mm}\\smash{\\rlap{33′ 20″ in media,}}}\\rlap{\\hspace*{120.89mm}\\smash{\\rlap{35′ 20″ in minima;}}}",
+     "transcription": "{sp:Ptolemaeum}: 31′ 20″ in maxima dist., 33′ 20″ in media, 35′ 20″ in minima;",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0325-body-L011",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.18mm}\\smash{\\rlap{\\Name{al–Battānī}:}}}\\rlap{\\hspace*{33.26mm}\\smash{\\rlap{29′ 30″}}}\\rlap{\\hspace*{84.62mm}\\smash{\\rlap{32′ 25″}}}\\rlap{\\hspace*{121.46mm}\\smash{\\rlap{35′ 20″}}}",
+     "transcription": "{sp:al–Battānī}: 29′ 30″ 32′ 25″ 35′ 20″",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0325-body-L012",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.35mm}\\smash{\\rlap{nostrates (2):}}}\\rlap{\\hspace*{33.13mm}\\smash{\\rlap{29′ 26″}}}\\rlap{\\hspace*{84.35mm}\\smash{\\rlap{31′}}}\\rlap{\\hspace*{93.95mm}\\smash{\\rlap{8″}}}\\rlap{\\hspace*{121.42mm}\\smash{\\rlap{33′ 34″}}}",
+     "transcription": "nostrates (2): 29′ 26″ 31′ 8″ 33′ 34″",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0325-body-L013",
+     "source_line_no": null,
+     "tex": "\\Indent Res haud parvi momenti est, nam ex suis mensuris \\Name{al–Battānī} (ut iam \\Name{Delambre} p. 39",
+     "transcription": "Res haud parvi momenti est, nam ex suis mensuris {sp:al–Battānī} (ut iam {sp:Delambre} p. 39",
+     "semantic_anchor": "AB01-PDF0325-P05",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0325-body-L014",
+     "source_line_no": null,
+     "tex": "animadvertit) in l. 29–30 deducit \\textit{eclipses annulares Solis interdum evenire}; quae contra",
+     "transcription": "animadvertit) in l. 29–30 deducit *eclipses annulares Solis interdum evenire*; quae contra",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0325-body-L015",
+     "source_line_no": null,
+     "tex": "fieri non potuissent iuxta mensuras \\Name{Ptolemaei}, diametrum Solis aequalem diametro Lunae",
+     "transcription": "fieri non potuissent iuxta mensuras {sp:Ptolemaei}, diametrum Solis aequalem diametro Lunae",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0325-body-L016",
+     "source_line_no": null,
+     "tex": "apogeae statuentes; cfr. \\Name{Delambre}, \\textit{Histoire de l’astronomie ancienne}, Paris 1817, t. II,",
+     "transcription": "apogeae statuentes; cfr. {sp:Delambre}, *Histoire de l’astronomie ancienne*, Paris 1817, t. II,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0325-body-L017",
+     "source_line_no": null,
+     "tex": "p. 234–235, et P. \\Name{Tannery}, \\textit{Recherches sur l’astronomie ancienne}, Paris 1893, p. 224 et",
+     "transcription": "p. 234–235, et P. {sp:Tannery}, *Recherches sur l’astronomie ancienne*, Paris 1893, p. 224 et",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0325-body-L018",
+     "source_line_no": null,
+     "tex": "233. Inter Graecos tamen, I saec. ante Chr. n., \\Name{Sosigenes} philosophus Peripateticus variatio-",
+     "transcription": "233. Inter Graecos tamen, I saec. ante Chr. n., {sp:Sosigenes} philosophus Peripateticus variatio-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0325-body-L019",
+     "source_line_no": null,
+     "tex": "nem diametri solaris iam cognoverat, et, Proclo Diadocho teste (3), dixerat Solem in eclipsibus",
+     "transcription": "nem diametri solaris iam cognoverat, et, Proclo Diadocho teste (3), dixerat Solem in eclipsibus",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0325-body-L020",
+     "source_line_no": null,
+     "tex": "perigeis « non apparere totum occultatum, sed limbo suae circumferentiae discum lunarem",
+     "transcription": "perigeis « non apparere totum occultatum, sed limbo suae circumferentiae discum lunarem",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0325-body-L021",
+     "source_line_no": null,
+     "tex": "« excedere et sine impedimento lucem praebere » \\textgreek{ὁρᾶσθαι μὴ ὅλον ἐπιπροσθούμενον, ἀλλὰ τοῖς}",
+     "transcription": "« excedere et sine impedimento lucem praebere » ὁρᾶσθαι μὴ ὅλον ἐπιπροσθούμενον, ἀλλὰ τοῖς",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0325-body-L022",
+     "source_line_no": null,
+     "tex": "\\textgreek{ἄκροις τῆς ἑαυτοῦ περιφερείας ὑπερβάλλειν τὸν κύκλον τῆς σελήνης καὶ φωτίζειν οὐκ ἐμποδιζόμενον}.",
+     "transcription": "ἄκροις τῆς ἑαυτοῦ περιφερείας ὑπερβάλλειν τὸν κύκλον τῆς σελήνης καὶ φωτίζειν οὐκ ἐμποδιζόμενον.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0325-body-L023",
+     "source_line_no": null,
+     "tex": "\\Name{Proclus} hanc sententiam falsam demonstrare vult per mensuras Ptolemaicas, dicens si ea",
+     "transcription": "{sp:Proclus} hanc sententiam falsam demonstrare vult per mensuras Ptolemaicas, dicens si ea",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0325-body-L024",
+     "source_line_no": null,
+     "tex": "vera esset consequi diametrum apparentem Lunae in punctis apogeis differre a diametro Solis;",
+     "transcription": "vera esset consequi diametrum apparentem Lunae in punctis apogeis differre a diametro Solis;",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0325-body-L025",
+     "source_line_no": null,
+     "tex": "hoc autem doctrinae Ptolemaei contrarium esse.",
+     "transcription": "hoc autem doctrinae Ptolemaei contrarium esse.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0325-body-L026",
+     "source_line_no": null,
+     "tex": "\\Indent Arabes post \\Name{al–Battānī} eclipses annulares Solis in dubium non vocaverunt; anno 1279",
+     "transcription": "Arabes post {sp:al–Battānī} eclipses annulares Solis in dubium non vocaverunt; anno 1279",
+     "semantic_anchor": "AB01-PDF0325-P06",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0325-body-L027",
+     "source_line_no": null,
+     "tex": "Chr., in astronomia Syriace scripta, \\Name{Barhebraeus} p. 88 text. narrat: « Diametrum Solis",
+     "transcription": "Chr., in astronomia Syriace scripta, {sp:Barhebraeus} p. 88 text. narrat: « Diametrum Solis",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0325-body-L028",
+     "source_line_no": null,
+     "tex": "« ab apogeo ad perigeum invenerunt variare a 31′ ad 34′ (4); diametrum Lunae a 29′ ad 36′.",
+     "transcription": "« ab apogeo ad perigeum invenerunt variare a 31′ ad 34′ (4); diametrum Lunae a 29′ ad 36′.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0325-body-L029",
+     "source_line_no": null,
+     "tex": "« Cum ambae diametri apparentes aequales sint, Sol totus deficit absque eo quod umbra ex-",
+     "transcription": "« Cum ambae diametri apparentes aequales sint, Sol totus deficit absque eo quod umbra ex-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0325-body-L030",
+     "source_line_no": null,
+     "tex": "« cedens reperiatur; cum diametrus Solis maior sit lunari, non solum nulla umbra excedens",
+     "transcription": "« cedens reperiatur; cum diametrus Solis maior sit lunari, non solum nulla umbra excedens",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0325-body-L031",
+     "source_line_no": null,
+     "tex": "« habetur, sed in Sole corona luminosa circa Lunam quae eum occultat cernitur ».",
+     "transcription": "« habetur, sed in Sole corona luminosa circa Lunam quae eum occultat cernitur ».",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0325-body-L032",
+     "source_line_no": null,
+     "tex": "\\Indent Etiam XVII Christi saeculo ineunte dubitabant Europaei quidam eclipsem totalem Solis",
+     "transcription": "Etiam XVII Christi saeculo ineunte dubitabant Europaei quidam eclipsem totalem Solis",
+     "semantic_anchor": "AB01-PDF0325-P07",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0325-body-L033",
+     "source_line_no": null,
+     "tex": "fieri posse; cfr. G. \\Name{Schiaparelli}, \\textit{Le sfere omocentriche di Eudosso, di Callippo e di}",
+     "transcription": "fieri posse; cfr. G. {sp:Schiaparelli}, *Le sfere omocentriche di Eudosso, di Callippo e di*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0325-body-L034",
+     "source_line_no": null,
+     "tex": "\\textit{Aristotele}, Milano 1875, pag. 62, adn. 31 ($=$ Pubblicazioni del R. Osservatorio di Brera, Nr. IX).",
+     "transcription": "*Aristotele*, Milano 1875, pag. 62, adn. 31 ($=$ Pubblicazioni del R. Osservatorio di Brera, Nr. IX).",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0325-body-L035",
+     "source_line_no": null,
+     "tex": "\\Indent [Ipsa prima eclipsi 8 Augusti 891 fortasse potuit \\Name{al–Battānī} in sententia sua interdum",
+     "transcription": "[Ipsa prima eclipsi 8 Augusti 891 fortasse potuit {sp:al–Battānī} in sententia sua interdum",
+     "semantic_anchor": "AB01-PDF0325-P08",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    }
+   ]
+  },
+  {
+   "role": "notes_left",
+   "lines": [
+    {
+     "id": "AB01-PDF0325-notes_left-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (1) Eos sequor qui in specula Parisiensi cele-",
+     "transcription": "(1) Eos sequor qui in specula Parisiensi cele-",
+     "semantic_anchor": "AB01-PDF0325-N01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0325-notes_left-L002",
+     "source_line_no": null,
+     "tex": "berrimas ephemerides \\textit{La Connaissance des Temps}",
+     "transcription": "berrimas ephemerides *La Connaissance des Temps*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0325-notes_left-L003",
+     "source_line_no": null,
+     "tex": "et \\textit{Annuaire du Bureau des Longitudes} edunt.",
+     "transcription": "et *Annuaire du Bureau des Longitudes* edunt.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0325-notes_left-L004",
+     "source_line_no": null,
+     "tex": "\\Indent (2) Iuxta \\Name{Babylonios} IV et III saec. ante",
+     "transcription": "(2) Iuxta {sp:Babylonios} IV et III saec. ante",
+     "semantic_anchor": "AB01-PDF0325-N02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0325-notes_left-L005",
+     "source_line_no": null,
+     "tex": "Chr. 29′ 26″,9, 31′ 51″,5, 34′ 16″,2, quae sunt melio-",
+     "transcription": "Chr. 29′ 26″,9, 31′ 51″,5, 34′ 16″,2, quae sunt melio-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0325-notes_left-L006",
+     "source_line_no": null,
+     "tex": "res etiam quantitatibus Ptolemaicis et Albatenianis.",
+     "transcription": "res etiam quantitatibus Ptolemaicis et Albatenianis.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0325-notes_left-L007",
+     "source_line_no": null,
+     "tex": "Cfr. \\Name{Kugler}, \\textit{Die babylonische Mondrechnung},",
+     "transcription": "Cfr. {sp:Kugler}, *Die babylonische Mondrechnung*,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0325-notes_left-L008",
+     "source_line_no": null,
+     "tex": "Freiburg i. Br. 1900, p. 126.",
+     "transcription": "Freiburg i. Br. 1900, p. 126.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  },
+  {
+   "role": "notes_right",
+   "lines": [
+    {
+     "id": "AB01-PDF0325-notes_right-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (3) \\textit{Hypothèses et époques des planètes de}",
+     "transcription": "(3) *Hypothèses et époques des planètes de*",
+     "semantic_anchor": "AB01-PDF0325-N03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0325-notes_right-L002",
+     "source_line_no": null,
+     "tex": "C. \\Name{Ptolémée}, \\textit{et Hypotyposes de} \\Name{Proclus Dia-}",
+     "transcription": "C. {sp:Ptolémée}, *et Hypotyposes de* {sp:Proclus Dia-}",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0325-notes_right-L003",
+     "source_line_no": null,
+     "tex": "\\Name{dochus} \\textit{publiées et traduites par} \\Name{Halma}, Pa-",
+     "transcription": "{sp:dochus} *publiées et traduites par* {sp:Halma}, Pa-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0325-notes_right-L004",
+     "source_line_no": null,
+     "tex": "ris 1820, p. 111. — Cfr. quoque \\Name{Delambre}, \\textit{Hist.}",
+     "transcription": "ris 1820, p. 111. — Cfr. quoque {sp:Delambre}, *Hist.*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0325-notes_right-L005",
+     "source_line_no": null,
+     "tex": "\\textit{de l’astr. anc.}, t. I, p. 314.",
+     "transcription": "*de l’astr. anc.*, t. I, p. 314.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0325-notes_right-L006",
+     "source_line_no": null,
+     "tex": "\\Indent (4) Barhebraeus numeris rotundis semper fere",
+     "transcription": "(4) Barhebraeus numeris rotundis semper fere",
+     "semantic_anchor": "AB01-PDF0325-N04",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0325-notes_right-L007",
+     "source_line_no": null,
+     "tex": "utitur; si gradibus data quantitas constat, minuta",
+     "transcription": "utitur; si gradibus data quantitas constat, minuta",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0325-notes_right-L008",
+     "source_line_no": null,
+     "tex": "omittit; si minutis, secundas.",
+     "transcription": "omittit; si minutis, secundas.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  }
+ ]
+}
