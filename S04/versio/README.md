@@ -4,9 +4,9 @@ Part I of Nallino's edition is his Latin translation of al-Battānī's *Zīj*, w
 
 The edition is diplomatic and line-anchored: every printed line is one line of the edition, with its hyphenation, its punctuation, its letter-spaced names, its italics and its bold italic reference letters, and every line has a stable anchor.
 
-**Done:** pp. 219–221 (3 pages, 112 anchored lines).
+**Done:** pp. 219–222 (4 pages, 157 anchored lines).
 
-**Contents so far:** the commentary on chapter 28, continued (from p. 219): the longitudes of the apogee of the Sun of the Arabic astronomers concluded, the lines EF and EG of p. 46 recomputed, and the equation of the centre, with the figure after Almagest III, 5, redrawn, and al-Battānī's formula for its sine (p. 219); the formula derived for the epicycle and for the eccentric, with the second figure redrawn, the simpler forms with the tangent, and the beginning of the radii of the epicycles (p. 220); the radii of the epicycles of the Moon and the planets in a table with the readings of the codex and of Plato and the values of Ptolemy and al-Farghānī; chapter 29: the day counted from noon and from midnight, and Schiaparelli on the equation of time (p. 221).
+**Contents so far:** the commentary on chapter 28, continued (from p. 219): the longitudes of the apogee of the Sun of the Arabic astronomers concluded, the lines EF and EG of p. 46 recomputed, and the equation of the centre, with the figure after Almagest III, 5, redrawn, and al-Battānī's formula for its sine (p. 219); the formula derived for the epicycle and for the eccentric, with the second figure redrawn, the simpler forms with the tangent, and the beginning of the radii of the epicycles (p. 220); the radii of the epicycles of the Moon and the planets in a table with the readings of the codex and of Plato and the values of Ptolemy and al-Farghānī; chapter 29: the day counted from noon and from midnight, and Schiaparelli on the equation of time (p. 221), concluded: the mean times of Ptolemy and al-Battānī and the 18′ added to the Moon, Ibn Yūnus' five methods after Delambre, and the mean place of the Sun (p. 222).
 
 ## Read
 
