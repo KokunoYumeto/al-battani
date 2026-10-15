@@ -1,0 +1,93 @@
+@page 358 269
+% Commentary on chapter 41, c) continued: Ḥabash's table of the lunar parallax for the visibility of the new moon; his method, less perfect than al-Battānī's: the new moon visible when the depression of the Sun is 10° or more, never at 9° or a little less; his formula for the light of the Moon, sin = R sin Δλ : √(sin² β + sin² Δλ). Al-Khāzinī, az-Zīǵ as-Sanǵarī (Vatican codex, tract IX, part I): chapter II on those who use the simple arcs, the arcs of light, of delay, of depression and of altitude; the limits of the people of the Book, of the Indians, the Chinese and al-Khuwārizmī, of Ḥabash and as-Saʿīdī, and of Kūshiyār; chapter IV on the principles of al-Battānī: his first method, the arc of delay corrected by the arc of light (begun). Notes: the Arabic of chapter II and the meaning of the four arcs; the people of the Book; as-Saʿīdī after Suter; Kūshiyār; the Muslim day begins at sunset.
+@nonum
+« laxis lunaris propter visionem Lunae novae » praebet; sed eius methodus ab {sp:Álbateniana}
+differt et multo ea imperfectior videtur. Statuit Lunam novam conspici posse cum arcus de-
+pressionis Solis sub horizonte sit 10° aut amplius; nunquam apparere cum hic arcus sit 9° aut
+paulo minus. Tunc quantitatem luminis Lunae hoc modo inveniri:
+@vspace -0.08
+@at 93.53^:sin luminis ☾ $= R\,\dfrac{\text{sin differ. longit. }(☾ - ⊙)}{\sqrt{\text{sin}^{2}\ \text{latit. }☾ + \text{sin}^{2}\ \text{differ. longit. }(☾ - ⊙)}}\,.$
+@vspace -0.33
+^ Iuvat nunc multa referre ex iis quae {sp:al–Khāzinī}, *az–zīǵ as–sanǵarī*, cod. Vatic.
+fol. 87,r.–90,v. (tractat. IX, pars I) narrat: « *Caput II:* de iis qui [in calculo novilunii] ni-
+« tuntur arcubus simplicibus, inter se non compositis. — Arcus, cum aliis non compositis, qui
+« adhibentur in supputanda visione Lunae novae quatuor sunt: *arcus lucis, arcus morae,*
+« *arcus depressionis, arcus altitudinis* (1). — Dicunt multi e {sp:gente libri} (2): [Cum fue-
+« rit] inter 10 et 12, et amplius, Luna erit intra limites visionis et poterit cerni. — Dicunt
+« {sp:Indi}, {sp:Sinenses} et {sp:Muḥammad ibn Mūsà al–Khuwārizmī}: Si arcus morae fuerit
+@vspace 0.09
+« 12 et amplius, Luna nova conspicietur; secus non. — Dicit Aḥmad ibn ‘Abd Allāh {sp:Ḥabash}
+« calculator: Cum fuerit Solis depressio, tempore occasus Lunae, 10° et amplius, conspicietur;
+« secus non. Et secundum eundem auctorem narrat {sp:as–Sa‘īdī} (3) quod si arcus fuerit 8° {sfrac:2/3}
+@vspace -0.25
+« et amplius conspicietur; si minus, non. — Dicit {sp:Kūshiyār} (4): Quod verisimile duco ({ar:المعتبر}
+@vspace 0.34
+« {ar:عندي}) est arcum lucis 10°, arcum morae 8°, arcum altitudinis apparentis 6°, arcum depressio-
+« nis 8° usque ad 7° {sfrac:1/2} complecti. Si hi arcus ita fuerint aut maiores, Luna nova erit visibilis;
+« si minores, non. Dicit quoque: Si summa arcuum lucis et depressionis fuerit 18° vel amplius,
+« Luna nova conspicietur ». — In III capite {sp:al–Khāzinī} docet quo modo arcus illi depre-
+@vspace 0.11
+hendantur (f. 87,v.–88,r.); postea haec habet (f. 88,r.–89,r.): « *Caput IV:* de principiis quibus
+« {sp:al-Battānī} nititur ({ar:في ذكر ما اعتمد عليه البتاني}). — Inter calculos [variis arcubus] compositos
+@vspace -0.28
+« ({ar:ومن المركبات}) est quod {sp:al-Battānī} memorat, qui arcu morae nititur eumque corrigit ({ar:وعدله})
+@vspace -0.37
+« duplici modo per arcum lucis. — *Prior methodus.* Dicit: Nocte trigesimi diei (5) mensis Ara-
+@vspace -0.39
+« bici verum locum Solis et Lunae determinemus ({ar:قوَمنا النيرين}) tempore occasus Solis; locum Lu-
+@vspace 0.41
+« nae in longitudine et latitudine corrigamus ({ar:عدلنا}), et deprehendamus arcum lucis et arcum
+« morae tunc exstantes. Arcum lucis observemus; si 12° {sfrac:1/6} fuerit, arcus medius apparitionis,
+« qui 11° 45′ complectitur, iam erit aequatus. Si arcus lucis maior aut minor fuerit 12° 10′, ad
+« eum debebimus arcum medium apparitionis, seu 11° 45′, corrigere. Aequatio haec est: differen-
+« tiam sumamus inter arcum lucis repertum et 12° 10′, et cum hac differentia intrando in pri-
+« mam tabulam aequationis visionis ab {sp:al–Battānī} confectam, gradus et minuta ei respondentia
+« accipiamus, quae servabimus quia nondum erunt aequata. Postea in eandem tabulam cum
+« anomalia Lunae [aequata] etiam intrando, sumamus minuta proportionalia ({ar:دقائق النسب}), quae
+@vspace 0.07
+« erunt crescentia aut decrescentia prout differentia antea sumpta fuerit super 12° 10′ cre-
+@notes
+@fontsize 9 11.80
+@vspace 4.77
+^ (1) {ar:الباب الثاني في ذكر من اعتمد على القسي المفردة}
+@ar البسيطة. القسي المفردة المستعملة في عمل معرفة رؤية الهلال اربع
+@ar احداها قوس النور والثانية قوس المكث والثالثة قوس الانحطاط
+{ar:والرابعة قوس الارتفاع}. — Ex f. 87,v.-88,r. patet arcum
+@vspace -0.08
+morae esse moram Lunae post occasum Solis, ar-
+cum depressionis depressionem Solis sub horizonte
+@vspace 0.08
+tempore occasus Lunae, arcum altitudinis altitudi
+nem Lunae tempore quo Sol occidit.
+^ (2) {ar:قالت طائفة من اهل الكتاب}. *Gentem libri* ap-
+pellant Muslimi Christianos, Iudaeos et Ṣābios (non
+@vspace 0.08
+Sabaeos), qui a Deo revelationem scriptam accepe-
+@col
+@fontsize 9 11.80
+@vspace 0.28
+runt. — Hoc loco probabiliter Iudaei intelliguntur
+quorum calendarium est lunisolare.
+@vspace 1.45
+^ (3) Cod. {ar:السعدى}. Fortasse ut {sp:Suter} mihi
+litteris proposuit, est Muḥammad ibn Aḥmad al-
+–Ḥāzimī as-Sa‘īdī, ignotae hucusque aetatis, qui Al-
+magestum in epitomem redegit; cfr. {sp:Suter}, *Die*
+@vspace -0.08
+*Mathem. u. Astronomen der Araber*, p. 202, nr. 520.
+@vspace 1.48
+^ (4) Floruit ineunte XI Chr. saec.; {sp:Suter}, p 83–
+-84, nr. 192.
+@vspace 1.50
+^ (5) Iuxta usum civilem Muslimorum dies ab
+occasu Solis incipit; nox igitur diem praecedit.
+@obs body L1-L2: «Álbateniana» (L1) is printed with an acute over the A, 3.2 by 2.8 pt, a full accent like the acute over ǵ; the word has no accent elsewhere («Albateniana»); kept as printed. A speck after the t of «praebet» (L1) is not a stop; the e of «eius» (L1) is broken and prints like a c; a thin stroke 2 pt long hanging below the line before «arcus» (L2) is not a comma.
+@obs body L5: the formula treats the latitude β of the Moon and the difference in longitude Δλ as the legs of a right triangle, with sines for arcs: sin luminis : R = sin Δλ : √(sin² β + sin² Δλ). In the right spherical triangle with these legs the sine of the hypotenuse, the elongation, has sin² = sin² β + sin² Δλ − sin² β sin² Δλ; without the last term, the arc found is the angle of that triangle at the Moon, opposite Δλ, which is 90° when β = 0.
+@obs body L6-L13: «al–Khāzinī», «az–zīǵ», «as–sanǵarī» (L6), «87,r.–90,v.» (L7) and «al–Khuwārizmī» (L12) have long dashes (5.3 to 5.4 pt); the dashes before «Arcus» (L8), «Dicunt multi» (L10) and «Dicit Aḥmad» (L13) measure 10.1 to 10.4 pt, the dash before «Dicunt» on L11 7.1 pt, set as the same long rule. The limit of 12° for the arc of delay of the Indians and al-Khuwārizmī (L12-L13) is the 2 nāḍikā of p. 268, note 3: 48 minutes of time, in which 12° of the equator pass.
+@obs body L2-L3, L14-L20: «as–Sa‘īdī» (L15) has a long dash (about 5.5 pt, joined to the s), «al–Khāzinī» (L20) one of 5.3 pt; the dashes before «Dicit Kūshiyār» (L16) and «In III capite» (L20) measure 9.8 and 10.1 pt. Ḥabash's limit of 10° for the depression of the Sun (L14) is the one stated on L2-L3; as-Sa‘īdī reports 8° 2/3 after him (L15). Kūshiyār's sum of 18° (L19) is his arc of light, 10°, and his arc of depression, 8° (L17-L18).
+@obs body L21-L25: «87,v.–88,r.» and «88,r.–89,r.» (L21) have long dashes (5.3 pt); a speck about 1 pt across at the foot after the semicolon of «88,r.);» (L21) is not a stop. «al-Battānī» (L22, L23) is letter-spaced, with hyphens (3.5 and 3.4 pt); the dashes before «Inter» (L22) and «Prior» (L24) measure 9.2 and 9.4 pt. «قوَمنا» (L25) is printed with a fatha over the wāw, a slanted stroke 2.5 pt long, and no shadda; the verb is qawwamnā, "we have computed the true places"; kept as printed.
+@obs body L26-L34: al-Khāzinī's 12° 1/6 (L27), written 12° 10′ on L28, L30 and L34, stands for al-Battānī's 12° 11′ (p. 268, rule II); the mean arc of visibility of 11° 45′ (L28-L29) is al-Battānī's (p. 267). «al–Battānī» (L31) is letter-spaced, with a long dash (5.5 pt).
+@obs notes_left L1-L4: note 1 gives the Arabic of the title of chapter II and of the sentence that L7-L10 of the text translate. The dash before «Ex» (L4) measures 7.4 pt; «87,v.-88,r.» (L4) has a hyphen (3.2 pt).
+@obs notes_left L7: «altitudi» has no printed hyphen at the end of the line; kept as printed.
+@obs notes_right L1-L5: the dash before «Hoc» (L1) measures 8.0 pt. The reading of the codex, «السعدى» (L3), as-Sa‘dī, is printed with the teeth of the sīn as low bumps on a drawn-out stroke; the name that Suter proposed, as-Sa‘īdī (L5), has a yā’ before the dāl. The hyphen of «al-Ḥāzimī» is printed at the end of L4 (3.5 pt) and again, as a long dash (4.4 pt), at the beginning of L5; «as-Sa‘īdī» (L5) has a hyphen (3.0 pt).
+@obs notes_right L8-L9: «p» before «83–» (L8) is printed without its stop; kept as printed. «83–» ends L8 with a long dash (5.2 pt) and «-84» begins L9 with a hyphen (3.2 pt).
