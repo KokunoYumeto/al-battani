@@ -1,0 +1,398 @@
+{
+ "anchor": "AB01-PDF0327",
+ "master_pdf_page": 327,
+ "printed_page": 238,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "margin_locators": [],
+ "observations": [
+  "body L1-L4: Schiaparelli's addition on the figure of p. 64, begun on p. 237, goes on here; a heavy bracket closes it in L4, after a dash of 9.7 pt.",
+  "body L3, L7, L18, L25, L30: the dashes of «al–Battānī» are long dashes (4.3 to 5.5 pt; the shortest in L7).",
+  "body L3, L9, L17, L31: the dashes of «64–65», «17–19», «dit–il» and «65–66» are long dashes (5.2 to 5.8 pt).",
+  "body L5, L15: in the heads the dashes after «b)» and «c)» measure 10.3 and 10.0 pt; those of «17–23» and «23–34» are long dashes.",
+  "body L6-L14: heavy brackets open and close Schiaparelli's addition b); the dashes after the quotation (L6), after «17–19.» (L9) and before his name (L14) measure 9.7 to 10.4 pt, as do those of L20 and L26.",
+  "body L6: five dots follow «est» in the quotation of p. 65.",
+  "body L8-L13: the equalities are checked: the third of L13 is the sum of the first two, and with Δε negative and greater in size than Δm, Δl = Δm + Δε is negative, as L8-L9 say. The signs of equality print 9.4 to 9.7 pt long and the signs of addition 9.3 to 10.7 pt wide.",
+  "body L13: the line of equalities is centred in the print; its three parts stand at their printed places.",
+  "body L1-L2, L32, L34: specks before «Demonstratio», over the o of «corre-», before «suis» and before «solitus» are not transcribed.",
+  "body L3, L27, L30: the t of «fortasse» and of «tangentium» print without their bars, so that they look like l, and the t of «proveniunt» is broken.",
+  "notes L1: the only note is set in one line across the page."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0327-body-L001",
+     "source_line_no": null,
+     "tex": "\\Indent Demonstratio tota falsa est in hoc quod, contra hypothesim Ptolemaei, ponit M centrum",
+     "transcription": "Demonstratio tota falsa est in hoc quod, contra hypothesim Ptolemaei, ponit M centrum",
+     "semantic_anchor": "AB01-PDF0327-P01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0327-body-L002",
+     "source_line_no": null,
+     "tex": "motus uniformis epicycli H in excentrico; pro M erat E′ considerandum. Parvae aliae corre-",
+     "transcription": "motus uniformis epicycli H in excentrico; pro M erat E′ considerandum. Parvae aliae corre-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0327-body-L003",
+     "source_line_no": null,
+     "tex": "ctiones iam suis locis p. 64–65 indicatae sunt, quibus fortasse vera \\Name{al–Battānī} demonstratio",
+     "transcription": "ctiones iam suis locis p. 64–65 indicatae sunt, quibus fortasse vera {sp:al–Battānī} demonstratio",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0327-body-L004",
+     "source_line_no": null,
+     "tex": "restituitur. — \\textsc{Schiaparelli}.]",
+     "transcription": "restituitur. — {sc:Schiaparelli}.]",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0327-body-L005",
+     "source_line_no": null,
+     "tex": "\\CenterLine{\\textbf{\\textit{b}}) — \\textit{Pag. 65, l. 17–23.}}",
+     "transcription": "{bi:b}) — *Pag. 65, l. 17–23.*",
+     "semantic_anchor": "AB01-PDF0327-H05",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0327-body-L006",
+     "source_line_no": null,
+     "tex": "\\Indent [« \\textit{Regressuum planetarum causa est.....} ». — Data die sit $\\Delta l$ motus planetae in lon-",
+     "transcription": "[« *Regressuum planetarum causa est.....* ». — Data die sit $\\Delta l$ motus planetae in lon-",
+     "semantic_anchor": "AB01-PDF0327-P02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0327-body-L007",
+     "source_line_no": null,
+     "tex": "gitudine in ecliptica, $\\Delta m$ motus medius diurnus, $\\Delta\\text{\\textgreek{ε}}$ variatio aequationis; \\Name{al–Battānī} ait,",
+     "transcription": "gitudine in ecliptica, $\\Delta m$ motus medius diurnus, $\\Delta\\text{ε}$ variatio aequationis; {sp:al–Battānī} ait,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0327-body-L008",
+     "source_line_no": null,
+     "tex": "quoniam $\\Delta l = \\Delta m + \\Delta\\text{\\textgreek{ε}}$, si $\\Delta\\text{\\textgreek{ε}}$ negativa et maior quam $\\Delta m$ sit, $\\Delta l$ quoque negativam esse",
+     "transcription": "quoniam $\\Delta l = \\Delta m + \\Delta\\text{ε}$, si $\\Delta\\text{ε}$ negativa et maior quam $\\Delta m$ sit, $\\Delta l$ quoque negativam esse",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0327-body-L009",
+     "source_line_no": null,
+     "tex": "et planetam retrogradum. Hoc sensus linearum 17–19. — Quae postea leguntur; « si locus",
+     "transcription": "et planetam retrogradum. Hoc sensus linearum 17–19. — Quae postea leguntur; « si locus",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0327-body-L010",
+     "source_line_no": null,
+     "tex": "« verus planetae » usque ad l. 24, sunt obscurissima repetitio eiusdem rei; sed quo modo lo-",
+     "transcription": "« verus planetae » usque ad l. 24, sunt obscurissima repetitio eiusdem rei; sed quo modo lo-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0327-body-L011",
+     "source_line_no": null,
+     "tex": "cus sanandus nescio. Sit $l$ longitudo vera hodie, $l + \\Delta l$ cras, $m$ motus medius hodie, $m + \\Delta m$",
+     "transcription": "cus sanandus nescio. Sit $l$ longitudo vera hodie, $l + \\Delta l$ cras, $m$ motus medius hodie, $m + \\Delta m$",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0327-body-L012",
+     "source_line_no": null,
+     "tex": "cras, $\\text{\\textgreek{ε}}$ aequatio hodierna, $\\text{\\textgreek{ε}} + \\Delta\\text{\\textgreek{ε}}$ crastina; procul dubio erit",
+     "transcription": "cras, $\\text{ε}$ aequatio hodierna, $\\text{ε} + \\Delta\\text{ε}$ crastina; procul dubio erit",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0327-body-L013",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{28.40mm}\\smash{\\rlap{$l = m + \\text{\\textgreek{ε}}$,}}}\\rlap{\\hspace*{60.40mm}\\smash{\\rlap{$\\Delta l = \\Delta m + \\Delta\\text{\\textgreek{ε}}$,}}}\\rlap{\\hspace*{101.68mm}\\smash{\\rlap{$l + \\Delta l = m + \\Delta m + \\text{\\textgreek{ε}} + \\Delta\\text{\\textgreek{ε}}$.}}}",
+     "transcription": "$l = m + \\text{ε}$, $\\Delta l = \\Delta m + \\Delta\\text{ε}$, $l + \\Delta l = m + \\Delta m + \\text{ε} + \\Delta\\text{ε}$.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0327-body-L014",
+     "source_line_no": null,
+     "tex": "\\Indent Qualis harum aequalitatum in textu indicetur non intelligo. — \\textsc{Schiaparelli}.]",
+     "transcription": "Qualis harum aequalitatum in textu indicetur non intelligo. — {sc:Schiaparelli}.]",
+     "semantic_anchor": "AB01-PDF0327-P03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0327-body-L015",
+     "source_line_no": null,
+     "tex": "\\CenterLine{\\textbf{\\textit{c}}) — \\textit{Pag. 65, l. 23–34.}}",
+     "transcription": "{bi:c}) — *Pag. 65, l. 23–34.*",
+     "semantic_anchor": "AB01-PDF0327-H15",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0327-body-L016",
+     "source_line_no": null,
+     "tex": "\\Indent Iure \\Name{Delambre} p. 40 scribit: « Les rétrogradations arrivent lorsque le mouvement sur",
+     "transcription": "Iure {sp:Delambre} p. 40 scribit: « Les rétrogradations arrivent lorsque le mouvement sur",
+     "semantic_anchor": "AB01-PDF0327-P04",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0327-body-L017",
+     "source_line_no": null,
+     "tex": "« l’épicycle est égal ou contraire au mouvement du centre de l’épicycle; ce qui a lieu, dit–il",
+     "transcription": "« l’épicycle est égal ou contraire au mouvement du centre de l’épicycle; ce qui a lieu, dit–il",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0327-body-L018",
+     "source_line_no": null,
+     "tex": "« [i. e. \\Name{al–Battānī}], quand la planète est dans le rayon visuel tangent à l’épicycle, ce qui",
+     "transcription": "« [i. e. {sp:al–Battānī}], quand la planète est dans le rayon visuel tangent à l’épicycle, ce qui",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0327-body-L019",
+     "source_line_no": null,
+     "tex": "« n’est pas exact, car alors le mouvement dans l’épicycle est nul, et il reste le mouvement",
+     "transcription": "« n’est pas exact, car alors le mouvement dans l’épicycle est nul, et il reste le mouvement",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0327-body-L020",
+     "source_line_no": null,
+     "tex": "« du centre sans aucune compensation (1); c’est une inadvertance ». — Idem \\Name{Delambre} p. 99,",
+     "transcription": "« du centre sans aucune compensation (1); c’est une inadvertance ». — Idem {sp:Delambre} p. 99,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0327-body-L021",
+     "source_line_no": null,
+     "tex": "ubi de IX cap. \\Name{Ibn Yūnus} loquitur, haec habet: « Il énonce, comme Albatégni, que la ré-",
+     "transcription": "ubi de IX cap. {sp:Ibn Yūnus} loquitur, haec habet: « Il énonce, comme Albatégni, que la ré-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0327-body-L022",
+     "source_line_no": null,
+     "tex": "« trogradation commence lorsque la planète se meut suivant la tangente à l’orbite. Si ce n’est",
+     "transcription": "« trogradation commence lorsque la planète se meut suivant la tangente à l’orbite. Si ce n’est",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0327-body-L023",
+     "source_line_no": null,
+     "tex": "« pas une erreur positive, c’est au moins une expression bien impropre. Ptolémée s’était ex-",
+     "transcription": "« pas une erreur positive, c’est au moins une expression bien impropre. Ptolémée s’était ex-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0327-body-L024",
+     "source_line_no": null,
+     "tex": "« primé avec beaucoup plus de justesse ».",
+     "transcription": "« primé avec beaucoup plus de justesse ».",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0327-body-L025",
+     "source_line_no": null,
+     "tex": "\\Indent Patet ex hoc \\Name{al–Battānī} et \\Name{Ibn Yūnus} adproximate tantum loca regressuum plane-",
+     "transcription": "Patet ex hoc {sp:al–Battānī} et {sp:Ibn Yūnus} adproximate tantum loca regressuum plane-",
+     "semantic_anchor": "AB01-PDF0327-P05",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0327-body-L026",
+     "source_line_no": null,
+     "tex": "tarum indicare voluisse. — Sed alius quoque error apud nostrum invenitur, cum ponit puncta",
+     "transcription": "tarum indicare voluisse. — Sed alius quoque error apud nostrum invenitur, cum ponit puncta",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0327-body-L027",
+     "source_line_no": null,
+     "tex": "contactus tangentium (X et T) esse eadem loca in quibus epicyclus excentricum secat; ex",
+     "transcription": "contactus tangentium (X et T) esse eadem loca in quibus epicyclus excentricum secat; ex",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0327-body-L028",
+     "source_line_no": null,
+     "tex": "ipsa codicis et Platonis figura (pag. 64) id impossibile apparet.",
+     "transcription": "ipsa codicis et Platonis figura (pag. 64) id impossibile apparet.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0327-body-L029",
+     "source_line_no": null,
+     "tex": "\\Indent Procul dubio multa huius capitis quae ad explicandam theoriam planetarum inserviunt",
+     "transcription": "Procul dubio multa huius capitis quae ad explicandam theoriam planetarum inserviunt",
+     "semantic_anchor": "AB01-PDF0327-P06",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0327-body-L030",
+     "source_line_no": null,
+     "tex": "ab \\Name{al–Battānī} non proveniunt. Auctor hoc caput praesertim scripsit ut declararet qua ra-",
+     "transcription": "ab {sp:al–Battānī} non proveniunt. Auctor hoc caput praesertim scripsit ut declararet qua ra-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0327-body-L031",
+     "source_line_no": null,
+     "tex": "tione tabulas planetarum Ptolemaicas correxisset (p. 65–66); elementa cosmographica lectoribus",
+     "transcription": "tione tabulas planetarum Ptolemaicas correxisset (p. 65–66); elementa cosmographica lectoribus",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0327-body-L032",
+     "source_line_no": null,
+     "tex": "suis iam nota censebat (ut in reliquis libri partibus), qua re summatim tantum fortasse sphae-",
+     "transcription": "suis iam nota censebat (ut in reliquis libri partibus), qua re summatim tantum fortasse sphae-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0327-body-L033",
+     "source_line_no": null,
+     "tex": "ras vel circulos planetarum memoraverat, auxilio figurae. Brevem theoriae expositionem, ut",
+     "transcription": "ras vel circulos planetarum memoraverat, auxilio figurae. Brevem theoriae expositionem, ut",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0327-body-L034",
+     "source_line_no": null,
+     "tex": "puto, solitus indoctus lector pro parvis suis viribus conatus est uberiorem reddere, et hoc",
+     "transcription": "puto, solitus indoctus lector pro parvis suis viribus conatus est uberiorem reddere, et hoc",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0327-body-L035",
+     "source_line_no": null,
+     "tex": "modo textum Albatenianum deturpavit.",
+     "transcription": "modo textum Albatenianum deturpavit.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    }
+   ]
+  },
+  {
+   "role": "notes",
+   "lines": [
+    {
+     "id": "AB01-PDF0327-notes-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (1) I. e. eo loco planeta motum epicycli in excentrico participat.",
+     "transcription": "(1) I. e. eo loco planeta motum epicycli in excentrico participat.",
+     "semantic_anchor": "AB01-PDF0327-N01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  }
+ ]
+}
