@@ -22,8 +22,9 @@ Transcription format (UTF-8; one printed line per source line, as printed, with 
                          a label beginning with > is set flush right); @calcrule the rule under the numbers;
                          @calcset INDENT LABEL SIGN NUM the column widths in mm
   @cols INDENT C ...     the columns of a small table (widths in mm with l, r or c; | a vertical rule);
-  @hrow H | C1 | ...     a head row H mm tall in the same columns, cells centred; {rot:A//B} and {rotb:A//B}
-                         (bold) set the lines A, B turned through 90 degrees
+  @hrow H | C1 | ...     a head row H mm tall in the same columns, cells centred (H:LEAD sets their lines LEAD pt
+                         apart, 9 by default); {rot:A//B} and {rotb:A//B} (bold) set the lines A, B turned
+                         through 90 degrees
   @row C1 | C2 | ...     one row of it (~ hangs a unit sign: 159~°; {brace2} a brace over two rows; a cell
                          beginning with > is the indented second line of a name; {hr} a thin rule across the
                          cell or its span, {hr MM} one MM long; {dy:N} sets the cell N pt lower);
@@ -436,9 +437,11 @@ def row_tex(src):
 
 def hrow_tex(src):
     """@hrow H | C1 | C2 ...: a head row H mm tall in the columns of @cols, in the small type of table heads; each
-    cell is centred in its column, horizontally and vertically, and the rules run through the whole height"""
+    cell is centred in its column, horizontally and vertically, and the rules run through the whole height;
+    @hrow H:LEAD sets the lines of the cells LEAD pt apart (9 pt by default)"""
     h, _, rest = src.partition("|")
-    H = float(h)
+    h, _, lead = h.partition(":")
+    H, lead = float(h), lead.strip() or "9"
     out = [r"\hspace*{" + str(COLS["indent"]) + "mm}"]
     rule = r"\rule[-1mm]{.4pt}{" + f"{H:.2f}" + "mm}"
     for item in span_layout(span_cells(rest)):  # a cell TEXT:N spans N columns, as in @hspan
@@ -447,7 +450,7 @@ def hrow_tex(src):
             out.append(rule_piece(item[1], rule))
             continue
         out.append(r"\raisebox{-1mm}{\parbox[b][" + f"{H:.2f}" + "mm][c]{" + f"{item[2]:.2f}" + r"mm}{\centering"
-                   r"\fontsize{7.5}{9}\selectfont\leavevmode " + markup(item[1]) + "}}")
+                   r"\fontsize{7.5}{" + lead + r"}\selectfont\leavevmode " + markup(item[1]) + "}}")
     return "".join(out)
 
 
