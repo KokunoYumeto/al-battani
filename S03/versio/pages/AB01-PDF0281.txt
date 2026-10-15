@@ -1,0 +1,86 @@
+@page 281 192
+% Notes on chapter 17, a) on p. 31: the altitude of the Sun from the hours since sunrise, the rule of chapter 16 inverted, as in Ḥabash and Abū 'l-Ḥasan. Notes on chapter 18, a) on p. 31, ll. 30-32: Schiaparelli on the obscure sentence about the stars on either side; b) on pp. 31-32: the declination of a star from its longitude and latitude, al-Battānī's rule with the second declination β′, also in Abū 'l-Ḥasan, Ibn Yūnus and Ulugh Beg; Schiaparelli on its derivation from Menelaus' theorem, with the figure (begun). Notes on β′ and on the names of Menelaus' theorem.
+@nonum
+@fontsize 15 17
+@vspace 9.59
+@center A{sc:d} {sc:caput} XVII.
+@normal
+@vspace 2.71
+@center {bi:a}) — *Pag. 31.*
+@vspace 3.28
+^ *Altitudinem Solis* ex horis diei elapsis ab eius ortu cognoscere.
+^ Problema est praecedenti contrarium; {sp:al–Battānī} igitur, praecedentis capitis formulam
+@vspace -0.13
+invertens, docet
+@vspace -1.02
+@at 0:(α) | 94^:$\sin h = \dfrac{(\text{sin vers}\,P - \text{sin vers}\,t)\ \text{sin altit. merid.}}{\text{sin vers}\,P}$,
+@vspace 0.54
+ut quoque apud {sp:Ḥabash}, f. 100,r., et {sp:Aboul Hhassan}, cap. XLIV, p. 266, legimus.
+@fontsize 15 17
+@vspace 8.48
+@center A{sc:d} {sc:caput} XVIII.
+@normal
+@vspace 3.46
+@center {bi:a}) — *Pag. 31, l. 30–32.*
+@vspace 5.21
+^ [« *Stellae autem ab alterutra parte* » etc. — Tota periodus perobscura. Declinatio
+vario modo maior vel minor est quam latitudo in diversis Caeli plagis, nec intelligitur quo
+modo utile sit ducere summam aut differentiam duarum quantitatum, quae, ut auctor ipse
+@vspace 0.07
+statim infra dicit, in duobus diversis circulis computantur. Aut est glossa valde imperiti le-
+ctoris, aut fragmentum loci amplioris quem restituere nunc impossibile est. Fortasse hoc loco
+arcus definiebatur quem in sequentibus β′ appellabimus; sed mera est coniectura. — {sc:Schia-}
+@vspace -0.28
+{sc:parelli}.]
+@vspace 0.64
+@center {bi:b}) — *Pag. 31-32.*
+@vspace 4.37
+^ *Declinationem* δ sideris calculare, cuius notae sint longitudo L et latitudo β.
+^ Sit β′ latitudo puncti aequatoris caelestis quod eandem longitudinem ac sidus habet (1);
+@vspace -0.31
+regula {sp:al–Battānī} est
+@at 0:(α) | 94^:$\sin\text{δ} = \dfrac{\sin (\text{β} \pm \text{β}') \cos\text{ε}}{\cos\text{β}'}$,
+@vspace -0.35
+quam posterius quoque praebent {sp:Aboul Hhassan}, cap. XXV, p. 189, et, simul cum aliis
+formulis, {sp:Ibn Yūnus}, cap. XXXIX (apud {sp:Delambre}, p. 141), atque {sp:Oloug Beg}, p. 64
+@vspace -0.48
+textus, 90 vers.
+@vspace 0.51
+@wrap 0.193 AB01-PDF0281-F01
+^ [Probabiliter haec propositio deducta est auxilio *theorematis*
+*Menelai* (2), quo semper Ptolemaeus utitur ad triangula sphaerica
+solvenda, et quod hoc modo enuntiari potest: Sit ABC triangulum
+sphaericum, cuius latera sint arcus circulorum maximorum; circu-
+lus maximus αβγ secet tria latera trianguli quanto oportet protracta;
+@vspace 0.07
+inter sex fragmenta quae cogitari possunt inter verticem quemque
+trianguli et arcum secantem αβγ, exstat relatio quae, pro chordis
+@endwrap
+@vspace -0.55
+@notes
+@fontsize 9 11.72
+@vspace -0.61
+^ (1) Quantitatem β′ al-Battānī appellat « decli-
+nationem », scilicet declinationem secundam, ut in
+versione p. 32, adn. 1, iam dixi.
+@vspace 0.08
+^ (2) {sp:Menelai} *Sphaerica* III, 2; appellatur et-
+iam *regula sex quantitatum.* Eius figuram Arabes
+@col
+@fontsize 9 11.72
+@vspace -0.61
+{sp:ash-shakl al-qaṭṭā‘} dixerunt, quod Latini aevi
+medii *figuram sectorem* verterunt, aut, Arabico no-
+mine servato, *figuram alkata*; Germani hodierni
+@vspace 0.08
+*Transversalenfigur,* et propositionem *Transver-*
+*salensatz.*
+@obs body L1, L8: the heads of the notes on chapters 17 and 18, «Ad» and «caput» in small capitals, in the larger type of the heads.
+@obs body L2, L9, L17: in the heads, the dashes after «a)» and «b)» measure 10.3, 9.8 and 10.2 pt and the dash of «30–32» 5.5 pt; the dash of «31-32» measures 4.1 pt and is transcribed as a hyphen, as on p. 179.
+@obs body L4, L20: the dashes of the letter-spaced «al–Battānī» measure 5.4 pt, long dashes.
+@obs body L6: the minus sign is printed as a long dash (9.8 pt); it is set as a minus sign. The rule is rule (α) of chapter 16 solved for sin h.
+@obs body L10-L16: Schiaparelli's addition stands in heavy brackets, as on pp. 185-186; the dashes before «Tota» and before his name measure 9.5 and 10.2 pt. In «autem» the t is printed broken, like an l.
+@obs body L18-L21: rule (α) is checked: with the second declination β′, tg β′ = tg ε sin L, sin (β + β′) cos ε / cos β′ = sin β cos ε + cos β sin ε sin L, the sine of the declination of a star of longitude L and latitude β (radius 1); the lower sign when the latitude lies on the other side.
+@obs body L25-L31: the figure stands at the left of lines 25 to 31, which are set beside it in a narrow measure. It is redrawn from measurements of the print: the spherical triangle ABC with its sides produced, BC to α, AC to β and AB to γ, as arcs of circles; the transversal αβγ in dashes, each dash where it printed; the bold italic letters. The arc CB, printed with a small break with a dot in it, is drawn whole.
+@obs body L25: the heavy bracket opens Schiaparelli's addition on Menelaus' theorem, which continues on p. 193.
+@obs notes_left L1: the dash of «al-Battānī» measures 3.7 pt, a hyphen.

@@ -1,0 +1,270 @@
+{
+ "pdf": 281,
+ "printed_page": 192,
+ "comment": [
+  "Nallino, Part I p. 192: the figure of Menelaus' theorem, redrawn from the print: the spherical triangle ABC with",
+  "its sides produced, BC to α, AC to β and AB to γ, as arcs of circles (the arc CB is drawn whole where it printed",
+  "with a small break); the transversal αβγ in dashes, each where it printed; the bold italic letters. Measured on",
+  "the scan (_intake/latin/tools/fig192)."
+ ],
+ "origin": [
+  114.5,
+  578.04
+ ],
+ "scale": 0.99281,
+ "size": [
+  106.0,
+  100.0
+ ],
+ "label_pt": 11,
+ "circles": [],
+ "segments": [],
+ "arcs": [
+  {
+   "name": "the side BC produced to α",
+   "cx": 173.77,
+   "cy": 678.77,
+   "r": 67.15,
+   "a0": -135.076,
+   "a1": -58.526,
+   "w": 1.17
+  },
+  {
+   "name": "the side AC produced to β",
+   "cx": 203.69,
+   "cy": 662.59,
+   "r": 65.82,
+   "a0": -94.23,
+   "a1": -162.21,
+   "w": 1.21
+  },
+  {
+   "name": "the side AB produced to γ",
+   "cx": 145.89,
+   "cy": 632.8,
+   "r": 63.94,
+   "a0": -34.102,
+   "a1": 24.913,
+   "w": 1.12
+  }
+ ],
+ "groups": [
+  {
+   "w": 1.2,
+   "cap": "round",
+   "segs": [
+    [
+     128.96,
+     633.69,
+     130.83,
+     635.23
+    ],
+    [
+     132.18,
+     636.35,
+     134.37,
+     637.95
+    ],
+    [
+     136.14,
+     639.23,
+     138.33,
+     640.83
+    ],
+    [
+     144.0,
+     644.41,
+     146.51,
+     645.73
+    ],
+    [
+     148.4,
+     646.72,
+     151.02,
+     648.15
+    ],
+    [
+     152.68,
+     648.87,
+     155.16,
+     649.99
+    ],
+    [
+     157.29,
+     650.87,
+     160.13,
+     652.12
+    ],
+    [
+     162.41,
+     652.96,
+     164.97,
+     653.85
+    ],
+    [
+     166.55,
+     654.33,
+     168.66,
+     654.99
+    ],
+    [
+     170.62,
+     655.74,
+     173.01,
+     656.24
+    ],
+    [
+     174.97,
+     656.8,
+     177.95,
+     657.49
+    ],
+    [
+     179.81,
+     657.82,
+     182.6,
+     658.36
+    ],
+    [
+     184.53,
+     658.61,
+     188.21,
+     659.08
+    ],
+    [
+     190.16,
+     659.3,
+     192.62,
+     659.49
+    ],
+    [
+     195.7,
+     659.62,
+     197.91,
+     659.66
+    ],
+    [
+     205.34,
+     659.75,
+     207.19,
+     659.64
+    ],
+    [
+     210.16,
+     659.35,
+     211.08,
+     659.24
+    ],
+    [
+     202.94,
+     659.75,
+     200.11,
+     659.77
+    ],
+    [
+     143.09,
+     643.76,
+     141.87,
+     643.01
+    ],
+    [
+     140.19,
+     641.95,
+     139.64,
+     641.6
+    ]
+   ],
+   "comment": "the dashes of the transversal αβγ"
+  }
+ ],
+ "labels": [
+  {
+   "t": "\\resizebox{7.07pt}{7.60pt}{A}",
+   "cx": 199.75,
+   "cy": 590.42,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{8.46pt}{7.63pt}{C}",
+   "cx": 157.64,
+   "cy": 605.98,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{8.08pt}{7.36pt}{B}",
+   "cx": 214.48,
+   "cy": 621.76,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{7.31pt}{5.69pt}{α}",
+   "cx": 118.9,
+   "cy": 630.42,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{5.80pt}{7.41pt}{β}",
+   "cx": 137.4,
+   "cy": 649.26,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{7.56pt}{4.94pt}{γ}",
+   "cx": 200.78,
+   "cy": 666.24,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  }
+ ],
+ "boxes": {
+  "A": [
+   6.96,
+   7.68
+  ],
+  "C": [
+   7.92,
+   7.8
+  ],
+  "B": [
+   8.04,
+   7.44
+  ],
+  "α": [
+   7.56,
+   5.88
+  ],
+  "β": [
+   6.12,
+   9.96
+  ],
+  "γ": [
+   7.32,
+   7.92
+  ]
+ },
+ "points": {
+  "A": [
+   198.84,
+   596.95
+  ],
+  "C": [
+   160.46,
+   612.96
+  ],
+  "B": [
+   208.83,
+   621.5
+  ],
+  "alpha": [
+   126.23,
+   631.35
+  ],
+  "beta": [
+   141.02,
+   642.48
+  ],
+  "gamma": [
+   203.88,
+   659.73
+  ]
+ }
+}

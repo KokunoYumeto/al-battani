@@ -1,0 +1,459 @@
+{
+ "anchor": "AB01-PDF0281",
+ "master_pdf_page": 281,
+ "printed_page": 192,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "margin_locators": [],
+ "observations": [
+  "body L1, L8: the heads of the notes on chapters 17 and 18, «Ad» and «caput» in small capitals, in the larger type of the heads.",
+  "body L2, L9, L17: in the heads, the dashes after «a)» and «b)» measure 10.3, 9.8 and 10.2 pt and the dash of «30–32» 5.5 pt; the dash of «31-32» measures 4.1 pt and is transcribed as a hyphen, as on p. 179.",
+  "body L4, L20: the dashes of the letter-spaced «al–Battānī» measure 5.4 pt, long dashes.",
+  "body L6: the minus sign is printed as a long dash (9.8 pt); it is set as a minus sign. The rule is rule (α) of chapter 16 solved for sin h.",
+  "body L10-L16: Schiaparelli's addition stands in heavy brackets, as on pp. 185-186; the dashes before «Tota» and before his name measure 9.5 and 10.2 pt. In «autem» the t is printed broken, like an l.",
+  "body L18-L21: rule (α) is checked: with the second declination β′, tg β′ = tg ε sin L, sin (β + β′) cos ε / cos β′ = sin β cos ε + cos β sin ε sin L, the sine of the declination of a star of longitude L and latitude β (radius 1); the lower sign when the latitude lies on the other side.",
+  "body L25-L31: the figure stands at the left of lines 25 to 31, which are set beside it in a narrow measure. It is redrawn from measurements of the print: the spherical triangle ABC with its sides produced, BC to α, AC to β and AB to γ, as arcs of circles; the transversal αβγ in dashes, each dash where it printed; the bold italic letters. The arc CB, printed with a small break with a dot in it, is drawn whole.",
+  "body L25: the heavy bracket opens Schiaparelli's addition on Menelaus' theorem, which continues on p. 193.",
+  "notes_left L1: the dash of «al-Battānī» measures 3.7 pt, a hyphen."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0281-body-L001",
+     "source_line_no": null,
+     "tex": "\\CenterLine{A\\textsc{d} \\textsc{caput} XVII.}",
+     "transcription": "A{sc:d} {sc:caput} XVII.",
+     "semantic_anchor": "AB01-PDF0281-H01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0281-body-L002",
+     "source_line_no": null,
+     "tex": "\\CenterLine{\\textbf{\\textit{a}}) — \\textit{Pag. 31.}}",
+     "transcription": "{bi:a}) — *Pag. 31.*",
+     "semantic_anchor": "AB01-PDF0281-H02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0281-body-L003",
+     "source_line_no": null,
+     "tex": "\\Indent \\textit{Altitudinem Solis} ex horis diei elapsis ab eius ortu cognoscere.",
+     "transcription": "*Altitudinem Solis* ex horis diei elapsis ab eius ortu cognoscere.",
+     "semantic_anchor": "AB01-PDF0281-P01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0281-body-L004",
+     "source_line_no": null,
+     "tex": "\\Indent Problema est praecedenti contrarium; \\Name{al–Battānī} igitur, praecedentis capitis formulam",
+     "transcription": "Problema est praecedenti contrarium; {sp:al–Battānī} igitur, praecedentis capitis formulam",
+     "semantic_anchor": "AB01-PDF0281-P02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0281-body-L005",
+     "source_line_no": null,
+     "tex": "invertens, docet",
+     "transcription": "invertens, docet",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0281-body-L006",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.00mm}(\\textgreek{α})}\\rlap{\\hspace*{94.00mm}\\makebox[0pt][c]{$\\sin h = \\dfrac{(\\text{sin vers}\\,P - \\text{sin vers}\\,t)\\ \\text{sin altit. merid.}}{\\text{sin vers}\\,P}$,}}",
+     "transcription": "(α) $\\sin h = \\dfrac{(\\text{sin vers}\\,P - \\text{sin vers}\\,t)\\ \\text{sin altit. merid.}}{\\text{sin vers}\\,P}$,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0281-body-L007",
+     "source_line_no": null,
+     "tex": "ut quoque apud \\Name{Ḥabash}, f. 100,r., et \\Name{Aboul Hhassan}, cap. XLIV, p. 266, legimus.",
+     "transcription": "ut quoque apud {sp:Ḥabash}, f. 100,r., et {sp:Aboul Hhassan}, cap. XLIV, p. 266, legimus.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0281-body-L008",
+     "source_line_no": null,
+     "tex": "\\CenterLine{A\\textsc{d} \\textsc{caput} XVIII.}",
+     "transcription": "A{sc:d} {sc:caput} XVIII.",
+     "semantic_anchor": "AB01-PDF0281-H08",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0281-body-L009",
+     "source_line_no": null,
+     "tex": "\\CenterLine{\\textbf{\\textit{a}}) — \\textit{Pag. 31, l. 30–32.}}",
+     "transcription": "{bi:a}) — *Pag. 31, l. 30–32.*",
+     "semantic_anchor": "AB01-PDF0281-H09",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0281-body-L010",
+     "source_line_no": null,
+     "tex": "\\Indent [« \\textit{Stellae autem ab alterutra parte} » etc. — Tota periodus perobscura. Declinatio",
+     "transcription": "[« *Stellae autem ab alterutra parte* » etc. — Tota periodus perobscura. Declinatio",
+     "semantic_anchor": "AB01-PDF0281-P03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0281-body-L011",
+     "source_line_no": null,
+     "tex": "vario modo maior vel minor est quam latitudo in diversis Caeli plagis, nec intelligitur quo",
+     "transcription": "vario modo maior vel minor est quam latitudo in diversis Caeli plagis, nec intelligitur quo",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0281-body-L012",
+     "source_line_no": null,
+     "tex": "modo utile sit ducere summam aut differentiam duarum quantitatum, quae, ut auctor ipse",
+     "transcription": "modo utile sit ducere summam aut differentiam duarum quantitatum, quae, ut auctor ipse",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0281-body-L013",
+     "source_line_no": null,
+     "tex": "statim infra dicit, in duobus diversis circulis computantur. Aut est glossa valde imperiti le-",
+     "transcription": "statim infra dicit, in duobus diversis circulis computantur. Aut est glossa valde imperiti le-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0281-body-L014",
+     "source_line_no": null,
+     "tex": "ctoris, aut fragmentum loci amplioris quem restituere nunc impossibile est. Fortasse hoc loco",
+     "transcription": "ctoris, aut fragmentum loci amplioris quem restituere nunc impossibile est. Fortasse hoc loco",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0281-body-L015",
+     "source_line_no": null,
+     "tex": "arcus definiebatur quem in sequentibus \\textgreek{β}′ appellabimus; sed mera est coniectura. — \\textsc{Schia-}",
+     "transcription": "arcus definiebatur quem in sequentibus β′ appellabimus; sed mera est coniectura. — {sc:Schia-}",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0281-body-L016",
+     "source_line_no": null,
+     "tex": "\\textsc{parelli}.]",
+     "transcription": "{sc:parelli}.]",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0281-body-L017",
+     "source_line_no": null,
+     "tex": "\\CenterLine{\\textbf{\\textit{b}}) — \\textit{Pag. 31-32.}}",
+     "transcription": "{bi:b}) — *Pag. 31-32.*",
+     "semantic_anchor": "AB01-PDF0281-H17",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0281-body-L018",
+     "source_line_no": null,
+     "tex": "\\Indent \\textit{Declinationem} \\textgreek{δ} sideris calculare, cuius notae sint longitudo L et latitudo \\textgreek{β}.",
+     "transcription": "*Declinationem* δ sideris calculare, cuius notae sint longitudo L et latitudo β.",
+     "semantic_anchor": "AB01-PDF0281-P04",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0281-body-L019",
+     "source_line_no": null,
+     "tex": "\\Indent Sit \\textgreek{β}′ latitudo puncti aequatoris caelestis quod eandem longitudinem ac sidus habet (1);",
+     "transcription": "Sit β′ latitudo puncti aequatoris caelestis quod eandem longitudinem ac sidus habet (1);",
+     "semantic_anchor": "AB01-PDF0281-P05",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0281-body-L020",
+     "source_line_no": null,
+     "tex": "regula \\Name{al–Battānī} est",
+     "transcription": "regula {sp:al–Battānī} est",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0281-body-L021",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.00mm}(\\textgreek{α})}\\rlap{\\hspace*{94.00mm}\\makebox[0pt][c]{$\\sin\\text{\\textgreek{δ}} = \\dfrac{\\sin (\\text{\\textgreek{β}} \\pm \\text{\\textgreek{β}}') \\cos\\text{\\textgreek{ε}}}{\\cos\\text{\\textgreek{β}}'}$,}}",
+     "transcription": "(α) $\\sin\\text{δ} = \\dfrac{\\sin (\\text{β} \\pm \\text{β}') \\cos\\text{ε}}{\\cos\\text{β}'}$,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0281-body-L022",
+     "source_line_no": null,
+     "tex": "quam posterius quoque praebent \\Name{Aboul Hhassan}, cap. XXV, p. 189, et, simul cum aliis",
+     "transcription": "quam posterius quoque praebent {sp:Aboul Hhassan}, cap. XXV, p. 189, et, simul cum aliis",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0281-body-L023",
+     "source_line_no": null,
+     "tex": "formulis, \\Name{Ibn Yūnus}, cap. XXXIX (apud \\Name{Delambre}, p. 141), atque \\Name{Oloug Beg}, p. 64",
+     "transcription": "formulis, {sp:Ibn Yūnus}, cap. XXXIX (apud {sp:Delambre}, p. 141), atque {sp:Oloug Beg}, p. 64",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0281-body-L024",
+     "source_line_no": null,
+     "tex": "textus, 90 vers.",
+     "transcription": "textus, 90 vers.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0281-body-F01",
+     "source_line_no": null,
+     "tex": "\\input{figures/AB01-PDF0281-F01}",
+     "transcription": "[figure, redrawn: figures/AB01-PDF0281-F01.tex]",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_FIGURE"
+    },
+    {
+     "id": "AB01-PDF0281-body-L025",
+     "source_line_no": null,
+     "tex": "\\Indent [Probabiliter haec propositio deducta est auxilio \\textit{theorematis}",
+     "transcription": "[Probabiliter haec propositio deducta est auxilio *theorematis*",
+     "semantic_anchor": "AB01-PDF0281-P06",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0281-body-L026",
+     "source_line_no": null,
+     "tex": "\\textit{Menelai} (2), quo semper Ptolemaeus utitur ad triangula sphaerica",
+     "transcription": "*Menelai* (2), quo semper Ptolemaeus utitur ad triangula sphaerica",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0281-body-L027",
+     "source_line_no": null,
+     "tex": "solvenda, et quod hoc modo enuntiari potest: Sit ABC triangulum",
+     "transcription": "solvenda, et quod hoc modo enuntiari potest: Sit ABC triangulum",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0281-body-L028",
+     "source_line_no": null,
+     "tex": "sphaericum, cuius latera sint arcus circulorum maximorum; circu-",
+     "transcription": "sphaericum, cuius latera sint arcus circulorum maximorum; circu-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0281-body-L029",
+     "source_line_no": null,
+     "tex": "lus maximus \\textgreek{αβγ} secet tria latera trianguli quanto oportet protracta;",
+     "transcription": "lus maximus αβγ secet tria latera trianguli quanto oportet protracta;",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0281-body-L030",
+     "source_line_no": null,
+     "tex": "inter sex fragmenta quae cogitari possunt inter verticem quemque",
+     "transcription": "inter sex fragmenta quae cogitari possunt inter verticem quemque",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0281-body-L031",
+     "source_line_no": null,
+     "tex": "trianguli et arcum secantem \\textgreek{αβγ}, exstat relatio quae, pro chordis",
+     "transcription": "trianguli et arcum secantem αβγ, exstat relatio quae, pro chordis",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    }
+   ]
+  },
+  {
+   "role": "notes_left",
+   "lines": [
+    {
+     "id": "AB01-PDF0281-notes_left-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (1) Quantitatem \\textgreek{β}′ al-Battānī appellat « decli-",
+     "transcription": "(1) Quantitatem β′ al-Battānī appellat « decli-",
+     "semantic_anchor": "AB01-PDF0281-N01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0281-notes_left-L002",
+     "source_line_no": null,
+     "tex": "nationem », scilicet declinationem secundam, ut in",
+     "transcription": "nationem », scilicet declinationem secundam, ut in",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0281-notes_left-L003",
+     "source_line_no": null,
+     "tex": "versione p. 32, adn. 1, iam dixi.",
+     "transcription": "versione p. 32, adn. 1, iam dixi.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0281-notes_left-L004",
+     "source_line_no": null,
+     "tex": "\\Indent (2) \\Name{Menelai} \\textit{Sphaerica} III, 2; appellatur et-",
+     "transcription": "(2) {sp:Menelai} *Sphaerica* III, 2; appellatur et-",
+     "semantic_anchor": "AB01-PDF0281-N02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0281-notes_left-L005",
+     "source_line_no": null,
+     "tex": "iam \\textit{regula sex quantitatum.} Eius figuram Arabes",
+     "transcription": "iam *regula sex quantitatum.* Eius figuram Arabes",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  },
+  {
+   "role": "notes_right",
+   "lines": [
+    {
+     "id": "AB01-PDF0281-notes_right-L001",
+     "source_line_no": null,
+     "tex": "\\Name{ash-shakl al-qaṭṭā‘} dixerunt, quod Latini aevi",
+     "transcription": "{sp:ash-shakl al-qaṭṭā‘} dixerunt, quod Latini aevi",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0281-notes_right-L002",
+     "source_line_no": null,
+     "tex": "medii \\textit{figuram sectorem} verterunt, aut, Arabico no-",
+     "transcription": "medii *figuram sectorem* verterunt, aut, Arabico no-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0281-notes_right-L003",
+     "source_line_no": null,
+     "tex": "mine servato, \\textit{figuram alkata}; Germani hodierni",
+     "transcription": "mine servato, *figuram alkata*; Germani hodierni",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0281-notes_right-L004",
+     "source_line_no": null,
+     "tex": "\\textit{Transversalenfigur,} et propositionem \\textit{Transver-}",
+     "transcription": "*Transversalenfigur,* et propositionem *Transver-*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0281-notes_right-L005",
+     "source_line_no": null,
+     "tex": "\\textit{salensatz.}",
+     "transcription": "*salensatz.*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  }
+ ]
+}
