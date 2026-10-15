@@ -1,0 +1,906 @@
+{
+ "pdf": 337,
+ "printed_page": 248,
+ "comment": [
+  "Nallino, Part I p. 248: the division of the houses after al-Battani, redrawn from the print: the meridian PSP'N,",
+  "the horizon NES, the equator BB' and the ecliptic from IV through A to X as arcs, the five circles of declination",
+  "through the poles P and P', the dots of the cusps on the equator (10, 11, 12, a, 2, 3, 4) and on the ecliptic (X,",
+  "XI, XII, A, II, III, IV); the words X domus ... III domus set letter by letter along the gores, as printed; the",
+  "bold italic letters and numerals and the sign of Aries. Measured on the scan (_intake/latin/tools/fig248)."
+ ],
+ "origin": [
+  115.9,
+  390.2
+ ],
+ "scale": 0.99281,
+ "size": [
+  181.0,
+  158.0
+ ],
+ "label_pt": 11,
+ "circles": [
+  {
+   "name": "the meridian PSP'N",
+   "cx": 206.32,
+   "cy": 472.32,
+   "r": 74.4,
+   "w": 1.11
+  }
+ ],
+ "segments": [
+  {
+   "name": "the horizon NES",
+   "x0": 131.92,
+   "y0": 471.3,
+   "x1": 280.72,
+   "y1": 472.69,
+   "w": 1.42
+  }
+ ],
+ "arcs": [
+  {
+   "name": "the equator BB'",
+   "cx": 10.74,
+   "cy": 329.85,
+   "r": 241.55,
+   "a0": 53.77,
+   "a1": 18.37,
+   "w": 1.24
+  },
+  {
+   "name": "the ecliptic from IV through A to X",
+   "cx": 292.3,
+   "cy": 672.47,
+   "r": 232.15,
+   "a0": -131.93,
+   "a1": -94.56,
+   "w": 1.2
+  },
+  {
+   "name": "the circle of declination through 11",
+   "cx": 181.99,
+   "cy": 505.56,
+   "r": 84.41,
+   "a0": -115.28,
+   "a1": 7.7,
+   "w": 1.17
+  },
+  {
+   "name": "the circle of declination through 12",
+   "cx": 83.36,
+   "cy": 639.99,
+   "r": 220.18,
+   "a0": -73.49,
+   "a1": -34.01,
+   "w": 1.19
+  },
+  {
+   "name": "the circle of declination through a",
+   "cx": 286.41,
+   "cy": 362.75,
+   "r": 155.35,
+   "a0": 154.72,
+   "a1": 97.62,
+   "w": 1.15
+  },
+  {
+   "name": "the circle of declination through 2",
+   "cx": 239.89,
+   "cy": 426.46,
+   "r": 94.47,
+   "a0": 178.39,
+   "a1": 74.02,
+   "w": 1.2
+  },
+  {
+   "name": "the circle of declination through 3",
+   "cx": 219.04,
+   "cy": 455.01,
+   "r": 77.29,
+   "a0": -160.5,
+   "a1": -307.06,
+   "w": 1.18
+  }
+ ],
+ "dots": [
+  {
+   "name": "the dot of B'",
+   "cx": 239.84,
+   "cy": 406.62,
+   "r": 1.4
+  },
+  {
+   "name": "the dot of 11",
+   "cx": 228.2,
+   "cy": 435.13,
+   "r": 1.45
+  },
+  {
+   "name": "the dot of 12",
+   "cx": 212.8,
+   "cy": 461.96,
+   "r": 1.39
+  },
+  {
+   "name": "the dot of a",
+   "cx": 193.36,
+   "cy": 487.67,
+   "r": 1.43
+  },
+  {
+   "name": "the dot of 2",
+   "cx": 181.16,
+   "cy": 500.43,
+   "r": 1.48
+  },
+  {
+   "name": "the dot of 3",
+   "cx": 167.81,
+   "cy": 512.87,
+   "r": 1.44
+  },
+  {
+   "name": "the dot of B",
+   "cx": 153.4,
+   "cy": 524.72,
+   "r": 1.34
+  },
+  {
+   "name": "the dot of X",
+   "cx": 273.52,
+   "cy": 441.27,
+   "r": 1.1
+  },
+  {
+   "name": "the dot of XI",
+   "cx": 241.77,
+   "cy": 445.89,
+   "r": 1.32
+  },
+  {
+   "name": "the dot of XII",
+   "cx": 205.94,
+   "cy": 457.0,
+   "r": 1.32
+  },
+  {
+   "name": "the dot of A",
+   "cx": 175.57,
+   "cy": 471.89,
+   "r": 1.32
+  },
+  {
+   "name": "the dot of II",
+   "cx": 162.18,
+   "cy": 479.95,
+   "r": 1.34
+  },
+  {
+   "name": "the dot of III",
+   "cx": 149.87,
+   "cy": 488.95,
+   "r": 1.32
+  },
+  {
+   "name": "the dot of IV",
+   "cx": 137.48,
+   "cy": 499.43,
+   "r": 1.06
+  }
+ ],
+ "labels": [
+  {
+   "t": "\\resizebox{11.04pt}{7.47pt}{X}",
+   "cx": 205.92,
+   "cy": 407.86,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont",
+   "rot": -15.4
+  },
+  {
+   "t": "\\resizebox{7.10pt}{9.69pt}{d}",
+   "cx": 223.04,
+   "cy": 414.84,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont",
+   "rot": -26.17
+  },
+  {
+   "t": "\\resizebox{5.21pt}{4.12pt}{o}",
+   "cx": 229.72,
+   "cy": 421.1,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont",
+   "rot": -31.23
+  },
+  {
+   "t": "\\resizebox{12.89pt}{4.49pt}{m}",
+   "cx": 239.6,
+   "cy": 426.94,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont",
+   "rot": -38.24
+  },
+  {
+   "t": "\\resizebox{8.72pt}{4.51pt}{u}",
+   "cx": 250.51,
+   "cy": 435.54,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont",
+   "rot": -46.42
+  },
+  {
+   "t": "\\resizebox{6.93pt}{6.04pt}{s}",
+   "cx": 258.13,
+   "cy": 445.53,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont",
+   "rot": -53.81
+  },
+  {
+   "t": "\\resizebox{12.88pt}{8.10pt}{XI}",
+   "cx": 193.9,
+   "cy": 431.45,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont",
+   "rot": -24.99
+  },
+  {
+   "t": "\\resizebox{7.90pt}{7.31pt}{d}",
+   "cx": 213.09,
+   "cy": 437.96,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont",
+   "rot": -25.76
+  },
+  {
+   "t": "\\resizebox{6.07pt}{4.14pt}{o}",
+   "cx": 219.32,
+   "cy": 442.55,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont",
+   "rot": -31.41
+  },
+  {
+   "t": "\\resizebox{12.43pt}{4.23pt}{m}",
+   "cx": 228.12,
+   "cy": 449.95,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont",
+   "rot": -40.53
+  },
+  {
+   "t": "\\resizebox{8.85pt}{4.22pt}{u}",
+   "cx": 237.86,
+   "cy": 459.11,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont",
+   "rot": -51.01
+  },
+  {
+   "t": "\\resizebox{4.84pt}{5.65pt}{s}",
+   "cx": 243.13,
+   "cy": 464.64,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont",
+   "rot": -56.69
+  },
+  {
+   "t": "\\resizebox{14.39pt}{7.38pt}{XII}",
+   "cx": 174.6,
+   "cy": 453.79,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont",
+   "rot": -37.34
+  },
+  {
+   "t": "\\resizebox{7.23pt}{7.25pt}{d}",
+   "cx": 187.18,
+   "cy": 463.28,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont",
+   "rot": -37.72
+  },
+  {
+   "t": "\\resizebox{5.84pt}{3.53pt}{o}",
+   "cx": 191.33,
+   "cy": 468.96,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont",
+   "rot": -39.24
+  },
+  {
+   "t": "\\resizebox{12.26pt}{3.91pt}{m}",
+   "cx": 199.79,
+   "cy": 476.84,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont",
+   "rot": -42.02
+  },
+  {
+   "t": "\\resizebox{9.98pt}{4.00pt}{u}",
+   "cx": 208.17,
+   "cy": 484.1,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont",
+   "rot": -44.65
+  },
+  {
+   "t": "\\resizebox{4.87pt}{5.54pt}{s}",
+   "cx": 215.06,
+   "cy": 488.67,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont",
+   "rot": -46.47
+  },
+  {
+   "t": "\\resizebox{3.55pt}{5.53pt}{I}",
+   "cx": 181.41,
+   "cy": 485.51,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont",
+   "rot": -40.29
+  },
+  {
+   "t": "\\resizebox{5.80pt}{5.96pt}{d}",
+   "cx": 186.35,
+   "cy": 489.54,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont",
+   "rot": -38.58
+  },
+  {
+   "t": "\\resizebox{5.27pt}{3.45pt}{o}",
+   "cx": 191.04,
+   "cy": 494.62,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont",
+   "rot": -36.76
+  },
+  {
+   "t": "\\resizebox{11.61pt}{3.43pt}{m}",
+   "cx": 196.53,
+   "cy": 498.61,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont",
+   "rot": -34.84
+  },
+  {
+   "t": "\\resizebox{8.36pt}{3.36pt}{u}",
+   "cx": 204.52,
+   "cy": 503.87,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont",
+   "rot": -32.22
+  },
+  {
+   "t": "\\resizebox{4.18pt}{4.51pt}{s}",
+   "cx": 210.08,
+   "cy": 506.88,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont",
+   "rot": -30.57
+  },
+  {
+   "t": "\\resizebox{7.04pt}{6.91pt}{II}",
+   "cx": 166.84,
+   "cy": 497.43,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont",
+   "rot": -40.78
+  },
+  {
+   "t": "\\resizebox{5.13pt}{7.08pt}{d}",
+   "cx": 173.75,
+   "cy": 503.43,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont",
+   "rot": -37.48
+  },
+  {
+   "t": "\\resizebox{5.99pt}{3.90pt}{o}",
+   "cx": 180.11,
+   "cy": 509.61,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont",
+   "rot": -34.26
+  },
+  {
+   "t": "\\resizebox{11.77pt}{3.81pt}{m}",
+   "cx": 187.8,
+   "cy": 514.62,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont",
+   "rot": -30.83
+  },
+  {
+   "t": "\\resizebox{7.73pt}{3.91pt}{u}",
+   "cx": 196.81,
+   "cy": 519.38,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont",
+   "rot": -27.11
+  },
+  {
+   "t": "\\resizebox{4.94pt}{5.09pt}{s}",
+   "cx": 202.45,
+   "cy": 522.15,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont",
+   "rot": -24.86
+  },
+  {
+   "t": "\\resizebox{10.30pt}{8.10pt}{III}",
+   "cx": 153.01,
+   "cy": 508.15,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont",
+   "rot": -50.97
+  },
+  {
+   "t": "\\resizebox{7.24pt}{6.89pt}{d}",
+   "cx": 165.94,
+   "cy": 520.86,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont",
+   "rot": -37.24
+  },
+  {
+   "t": "\\resizebox{5.69pt}{4.00pt}{o}",
+   "cx": 170.31,
+   "cy": 525.64,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont",
+   "rot": -34.35
+  },
+  {
+   "t": "\\resizebox{12.47pt}{3.91pt}{m}",
+   "cx": 178.31,
+   "cy": 530.85,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont",
+   "rot": -29.7
+  },
+  {
+   "t": "\\resizebox{7.88pt}{4.05pt}{u}",
+   "cx": 187.46,
+   "cy": 535.44,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont",
+   "rot": -24.87
+  },
+  {
+   "t": "\\resizebox{6.09pt}{4.56pt}{s}",
+   "cx": 194.01,
+   "cy": 538.18,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont",
+   "rot": -21.52
+  },
+  {
+   "t": "\\resizebox{11.49pt}{8.79pt}{B′}",
+   "cx": 244.3,
+   "cy": 399.12,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{7.70pt}{9.99pt}{P}",
+   "cx": 135.09,
+   "cy": 424.48,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{8.35pt}{6.19pt}{X}",
+   "cx": 279.23,
+   "cy": 438.26,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{7.08pt}{7.84pt}{N}",
+   "cx": 122.74,
+   "cy": 470.6,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{9.50pt}{9.86pt}{S}",
+   "cx": 288.17,
+   "cy": 472.92,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{7.05pt}{7.84pt}{IV}",
+   "cx": 131.19,
+   "cy": 501.46,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{7.96pt}{8.43pt}{B}",
+   "cx": 147.02,
+   "cy": 529.74,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{12.39pt}{11.18pt}{P′}",
+   "cx": 275.19,
+   "cy": 517.92,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{5.24pt}{6.95pt}{A}",
+   "cx": 175.98,
+   "cy": 466.25,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{6.48pt}{7.15pt}{E}",
+   "cx": 208.66,
+   "cy": 476.68,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{10.48pt}{6.04pt}{♈}",
+   "cx": 215.5,
+   "cy": 449.53,
+   "font": "\\fontsize{11}{11}\\MoonFont"
+  },
+  {
+   "t": "\\resizebox{8.55pt}{5.94pt}{XI}",
+   "cx": 244.64,
+   "cy": 441.48,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{9.97pt}{5.23pt}{XII}",
+   "cx": 194.7,
+   "cy": 455.78,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{6.37pt}{6.12pt}{II}",
+   "cx": 167.98,
+   "cy": 480.77,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{7.46pt}{6.18pt}{III}",
+   "cx": 155.07,
+   "cy": 489.96,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{7.52pt}{5.62pt}{10}",
+   "cx": 242.49,
+   "cy": 412.14,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont",
+   "rot": -25.02
+  },
+  {
+   "t": "\\resizebox{7.29pt}{6.44pt}{11}",
+   "cx": 233.36,
+   "cy": 433.11,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont",
+   "rot": -24.39
+  },
+  {
+   "t": "\\resizebox{6.95pt}{5.93pt}{12}",
+   "cx": 218.28,
+   "cy": 460.53,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont",
+   "rot": -30.5
+  },
+  {
+   "t": "\\resizebox{6.72pt}{4.89pt}{a}",
+   "cx": 198.05,
+   "cy": 487.1,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{5.97pt}{6.35pt}{2}",
+   "cx": 185.79,
+   "cy": 499.99,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont",
+   "rot": 16.8
+  },
+  {
+   "t": "\\resizebox{4.83pt}{5.90pt}{3}",
+   "cx": 172.89,
+   "cy": 512.35,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont",
+   "rot": -9.95
+  },
+  {
+   "t": "\\resizebox{5.80pt}{5.94pt}{4}",
+   "cx": 157.6,
+   "cy": 525.04,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  }
+ ],
+ "boxes": {
+  "X domus: X": [
+   12.53,
+   7.54
+  ],
+  "X domus: d": [
+   6.84,
+   9.9
+  ],
+  "X domus: o": [
+   4.6,
+   4.24
+  ],
+  "X domus: m": [
+   11.72,
+   4.63
+  ],
+  "X domus: u": [
+   7.69,
+   4.65
+  ],
+  "X domus: s": [
+   6.05,
+   6.25
+  ],
+  "XI domus: XI": [
+   14.29,
+   8.19
+  ],
+  "XI domus: d": [
+   7.62,
+   7.47
+  ],
+  "XI domus: o": [
+   5.36,
+   4.26
+  ],
+  "XI domus: m": [
+   11.3,
+   4.36
+  ],
+  "XI domus: u": [
+   7.8,
+   4.35
+  ],
+  "XI domus: s": [
+   4.22,
+   5.84
+  ],
+  "XII domus: XII": [
+   15.6,
+   7.45
+  ],
+  "XII domus: d": [
+   6.97,
+   7.41
+  ],
+  "XII domus: o": [
+   5.16,
+   3.64
+  ],
+  "XII domus: m": [
+   11.14,
+   4.03
+  ],
+  "XII domus: u": [
+   8.8,
+   4.12
+  ],
+  "XII domus: s": [
+   4.26,
+   5.73
+  ],
+  "I domus: I": [
+   4.32,
+   5.58
+  ],
+  "I domus: d": [
+   5.59,
+   6.08
+  ],
+  "I domus: o": [
+   4.66,
+   3.55
+  ],
+  "I domus: m": [
+   10.55,
+   3.53
+  ],
+  "I domus: u": [
+   7.37,
+   3.46
+  ],
+  "I domus: s": [
+   3.65,
+   4.67
+  ],
+  "II domus: II": [
+   7.83,
+   6.99
+  ],
+  "II domus: d": [
+   4.95,
+   7.23
+  ],
+  "II domus: o": [
+   5.29,
+   4.02
+  ],
+  "II domus: m": [
+   10.69,
+   3.92
+  ],
+  "II domus: u": [
+   6.81,
+   4.03
+  ],
+  "II domus: s": [
+   4.32,
+   5.27
+  ],
+  "III domus: III": [
+   11.09,
+   8.18
+  ],
+  "III domus: d": [
+   6.98,
+   7.04
+  ],
+  "III domus: o": [
+   5.03,
+   4.12
+  ],
+  "III domus: m": [
+   11.33,
+   4.03
+  ],
+  "III domus: u": [
+   6.95,
+   4.17
+  ],
+  "III domus: s": [
+   5.32,
+   4.72
+  ],
+  "B′@238,394": [
+   12.6,
+   8.88
+  ],
+  "P@131,419": [
+   8.52,
+   10.08
+  ],
+  "X@275,435": [
+   9.48,
+   6.24
+  ],
+  "N@119,466": [
+   7.68,
+   8.04
+  ],
+  "S@284,467": [
+   9.0,
+   10.08
+  ],
+  "IV@128,497": [
+   7.68,
+   8.04
+  ],
+  "B@143,525": [
+   7.92,
+   8.52
+  ],
+  "P′@269,512": [
+   13.44,
+   11.28
+  ],
+  "A@173,462": [
+   5.16,
+   7.02
+  ],
+  "E@205,473": [
+   6.84,
+   7.2
+  ],
+  "♈@210,446": [
+   9.72,
+   6.18
+  ],
+  "XI@240,438": [
+   9.48,
+   6.0
+  ],
+  "XII@189,453": [
+   10.8,
+   5.28
+  ],
+  "II@165,477": [
+   7.08,
+   6.18
+  ],
+  "III@151,486": [
+   8.04,
+   6.24
+  ],
+  "10@239,409": [
+   7.03,
+   5.76
+  ],
+  "11@230,430": [
+   6.2,
+   6.51
+  ],
+  "12@214,457": [
+   6.49,
+   6.0
+  ],
+  "a@195,484": [
+   6.0,
+   5.04
+  ],
+  "2@183,496": [
+   5.78,
+   6.4
+  ],
+  "3@170,509": [
+   4.44,
+   6.05
+  ],
+  "4@155,522": [
+   5.4,
+   6.0
+  ]
+ },
+ "points": {
+  "P": [
+   145.87,
+   429.11
+  ],
+  "P'": [
+   265.78,
+   516.9
+  ],
+  "N": [
+   131.92,
+   471.3
+  ],
+  "S": [
+   280.72,
+   472.69
+  ],
+  "E": [
+   206.03,
+   472.0
+  ],
+  "A": [
+   175.71,
+   471.71
+  ],
+  "A3": [
+   175.68,
+   471.71
+  ],
+  "B'": [
+   239.98,
+   405.96
+  ],
+  "B": [
+   153.48,
+   524.7
+  ],
+  "X": [
+   273.84,
+   441.05
+  ],
+  "IV": [
+   137.16,
+   499.76
+  ],
+  "Aries": [
+   219.01,
+   452.19
+  ],
+  "11": [
+   228.22,
+   434.94
+  ],
+  "12": [
+   212.94,
+   461.98
+  ],
+  "a": [
+   193.77,
+   487.46
+  ],
+  "2": [
+   181.47,
+   500.71
+  ],
+  "3": [
+   168.08,
+   513.12
+  ],
+  "XI": [
+   241.69,
+   445.9
+  ],
+  "XII": [
+   205.83,
+   457.02
+  ],
+  "II": [
+   162.19,
+   480.2
+  ],
+  "III": [
+   149.74,
+   489.24
+  ],
+  "A_d3": [
+   175.69,
+   471.73
+  ]
+ }
+}

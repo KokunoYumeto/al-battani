@@ -14,6 +14,7 @@ ink (_intake/latin/tools/fig_measure2.py). Optional:
   "arcs"   [{"cx", "cy", "r", "a0", "a1", "w", "dots": D}]: an arc from angle a0 to a1 (degrees, measured from the
            right toward the bottom of the page), dotted with dots D pt apart if "dots" is given
   "rings"  [{"cx", "cy", "r", "w", "dot": R}]: a small circle with a filled dot of radius R at its centre
+  "dots"   [{"cx", "cy", "r", "name"}]: a filled dot of radius r (the marked points where lines cross)
   "words"  [{"t", "cx", "cy", "font", "rot"}]: a word set in the TeX font commands "font", turned through "rot"
            degrees, centred at (cx, cy)
   "groups" [{"w", "segs": [[x0, y0, x1, y1], ...], "cap", "comment"}]: many short strokes of one width (the ticks
@@ -101,6 +102,9 @@ def main():
                    + ") circle[radius=" + f"{r['r']:.2f}" + "];")
         if r.get("dot"):
             out.append(r"\fill (" + X(r["cx"]) + "," + Y(r["cy"]) + ") circle[radius=" + f"{r['dot']:.2f}" + "];")
+    for dt in d.get("dots", []):
+        out.append(r"\fill (" + X(dt["cx"]) + "," + Y(dt["cy"]) + ") circle[radius=" + f"{dt['r']:.2f}" + "];  % "
+                   + dt["name"])
     for fl in d.get("fills", []):
         out.append(r"\fill plot[smooth cycle,tension=0.5] coordinates {" + " ".join(
             "(" + X(x) + "," + Y(y) + ")" for x, y in fl["pts"]) + "};  % " + fl["name"])
@@ -155,7 +159,7 @@ def main():
     (HERE.parent / f"{name}.tex").write_text("\n".join(out) + "\n", encoding="utf-8", newline="\n")
     print(f"wrote {name}.tex: {len(d['circles'])} circles, {len(d['segments'])} lines, "
           f"{sum(len(g['segs']) for g in d.get('groups', []))} strokes in groups, {len(d['labels'])} letters, "
-          f"{len(d.get('hatch', []))} hatched parts, {len(d.get('fills', []))} filled shapes, "
+          f"{len(d.get('hatch', []))} hatched parts, {len(d.get('fills', []))} filled shapes, {len(d.get('dots', []))} dots, "
           f"{len(d.get('words', []))} words, {len(d.get('braces', [])) + len(d.get('arcbraces', []))} braces")
 
 
