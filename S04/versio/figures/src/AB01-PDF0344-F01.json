@@ -1,0 +1,234 @@
+{
+ "pdf": 344,
+ "printed_page": 255,
+ "comment": [
+  "Nallino, Part I p. 255, the figure on the right: Schiaparelli's two epicycles, about A (the centre in the",
+  "apogee of the eccentric) and about N (its true place), redrawn from the print: the line from the Earth E",
+  "through N, M, H, A and M' to H', the lines EG', EG and G'G, the perpendiculars M'G' and MG, the radii AG' and",
+  "NG, and the bold italic letters. Measured on the scan (_intake/latin/tools/fig255)."
+ ],
+ "origin": [
+  400.15,
+  224.94
+ ],
+ "scale": 0.98925,
+ "size": [
+  74.0,
+  260.0
+ ],
+ "label_pt": 11,
+ "circles": [
+  {
+   "name": "the epicycle about A",
+   "cx": 431.71,
+   "cy": 279.07,
+   "r": 30.91,
+   "w": 1.3
+  },
+  {
+   "name": "the epicycle about N",
+   "cx": 433.88,
+   "cy": 357.9,
+   "r": 30.99,
+   "w": 1.32
+  }
+ ],
+ "segments": [
+  {
+   "name": "the line from E through N, M, H, A and M' to H'",
+   "x0": 436.7,
+   "y0": 473.57,
+   "x1": 431.18,
+   "y1": 248.16,
+   "w": 1.04
+  },
+  {
+   "name": "the line EG'",
+   "x0": 436.7,
+   "y0": 473.57,
+   "x1": 459.58,
+   "y1": 266.34,
+   "w": 1.16
+  },
+  {
+   "name": "the line EG",
+   "x0": 436.7,
+   "y0": 473.57,
+   "x1": 461.78,
+   "y1": 345.07,
+   "w": 1.13
+  },
+  {
+   "name": "the line G'G",
+   "x0": 459.58,
+   "y0": 266.34,
+   "x1": 461.78,
+   "y1": 345.07,
+   "w": 1.18
+  },
+  {
+   "name": "the perpendicular M'G'",
+   "x0": 431.65,
+   "y0": 266.77,
+   "x1": 459.58,
+   "y1": 266.34,
+   "w": 1.36
+  },
+  {
+   "name": "the radius AG'",
+   "x0": 431.71,
+   "y0": 279.07,
+   "x1": 459.58,
+   "y1": 266.34,
+   "w": 1.1
+  },
+  {
+   "name": "the perpendicular MG",
+   "x0": 433.67,
+   "y0": 345.63,
+   "x1": 461.78,
+   "y1": 345.07,
+   "w": 1.24
+  },
+  {
+   "name": "the radius NG",
+   "x0": 433.88,
+   "y0": 357.9,
+   "x1": 461.78,
+   "y1": 345.07,
+   "w": 1.19
+  }
+ ],
+ "labels": [
+  {
+   "t": "\\resizebox{9.77pt}{9.25pt}{H′}",
+   "cx": 433.36,
+   "cy": 238.82,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{7.68pt}{7.49pt}{G′}",
+   "cx": 467.78,
+   "cy": 262.22,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{8.84pt}{9.22pt}{M′}",
+   "cx": 423.03,
+   "cy": 264.34,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{5.83pt}{6.27pt}{A}",
+   "cx": 424.52,
+   "cy": 280.02,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{6.81pt}{7.23pt}{H}",
+   "cx": 426.97,
+   "cy": 323.0,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{5.67pt}{6.31pt}{G}",
+   "cx": 468.21,
+   "cy": 342.24,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{8.92pt}{7.46pt}{M}",
+   "cx": 424.99,
+   "cy": 344.54,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{6.95pt}{6.41pt}{N}",
+   "cx": 426.49,
+   "cy": 358.64,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{5.10pt}{6.53pt}{E}",
+   "cx": 438.08,
+   "cy": 480.1,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  }
+ ],
+ "boxes": {
+  "H′@428,234": [
+   10.2,
+   9.36
+  ],
+  "G′@464,258": [
+   7.8,
+   7.68
+  ],
+  "M′@418,259": [
+   9.48,
+   9.48
+  ],
+  "A@421,276": [
+   5.76,
+   6.36
+  ],
+  "H@424,319": [
+   7.32,
+   7.32
+  ],
+  "G@466,338": [
+   5.4,
+   6.48
+  ],
+  "M@420,340": [
+   9.36,
+   7.68
+  ],
+  "N@423,355": [
+   7.56,
+   6.6
+  ],
+  "E@435,476": [
+   5.4,
+   6.6
+  ]
+ },
+ "points": {
+  "E": [
+   436.7,
+   473.57
+  ],
+  "H'": [
+   431.18,
+   248.16
+  ],
+  "H": [
+   433.19,
+   326.91
+  ],
+  "A": [
+   431.71,
+   279.07
+  ],
+  "N": [
+   433.88,
+   357.9
+  ],
+  "M'": [
+   431.65,
+   266.77
+  ],
+  "M": [
+   433.67,
+   345.63
+  ],
+  "G'": [
+   459.58,
+   266.34
+  ],
+  "G": [
+   461.78,
+   345.07
+  ]
+ }
+}

@@ -1,0 +1,462 @@
+{
+ "anchor": "AB01-PDF0344",
+ "master_pdf_page": 344,
+ "printed_page": 255,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "margin_locators": [],
+ "observations": [
+  "body L1-L8: Nallino restores p. 78, L29-L32, where the italic words of p. 78 («eo utere ut supra iis 5ᵖ ¼; invenies hypotenusam Lunae aequatam ad declivitatem epicycli») are what the codex and Plato keep of the passage; the words he supplies stand in brackets and in italics. Dividing 5ᵖ 15′ by the sine of the apparent semidiameter of the epicycle and multiplying by 60ᵖ gives NE = NK : sin NEK, the distance of the centre of the epicycle (p. 254, L22-L24).",
+  "body L9-L27: the figure stands on the right of these lines and is redrawn from the print: the two epicycles about A and about N (radius 30.9 and 31.0 pt) on the line from the Earth E to H′ (A and N 0.3 and 0.1 pt off it), the lines EG′, EG and G′G, the perpendiculars M′G′ and MG (89.8° and 89.7° to the line) and the radii AG′ and NG; the bold italic letters stand where they are printed. The anomaly is drawn the same in both epicycles (H′AG′ 66.5°, HNG 66.6°), so that G′G is parallel and equal to AN (0.3° off); hence the angle EG′G equals H′EG′, an equation of the epicycle, at most 5° 1′ (L21-L22).",
+  "body L12-L13, L23: «adn. d» is note d) of p. 253; «AG′ = 5ᵖ ¼» is the radius of the epicycle, 5ᵖ 15′; «adn. g» is the next note, on p. 79, L7. In L23 the g is followed by a comma, and the dash before «Cum» measures 9.8 pt.",
+  "body L15-L16: a speck after the full stop of «EG.» is not transcribed; the comma after «qua re» prints high.",
+  "body L17-L20: the bars after «AE» (L17, 10.3 pt, at the end of the line), after «60ᵖ» (L18), after «EG′» (L19) and between the brackets (L20) are minus signs. «portio duplae excentricitatis» is al-Battānī's name, p. 79, L6: 60ᵖ less the distance NE.",
+  "body L28-L31: a heavy bracket closes Schiaparelli's addition, after a dash of 10.2 pt; «al–Battānī», «78–79» and «334–36» have long dashes (5.4, 5.8 and 5.5 pt).",
+  "body L32-L40: the figure stands on the left of these lines and is redrawn from the print: the circle about the Earth E (radius 77.4 pt) and the eccentric about F (radius 61.0 pt), touching at A (0.7 pt apart), the line from A through F and E, the epicycle about N (radius 23.4 pt), whose centre lies on the eccentric, the line from H through N and E to L, the perpendicular FL (88.9° to NL), and the lines NF, GE and GN, with the bold italic letters where they are printed. A dot to the right of A is not drawn. As drawn, FE : FA is 14.6 : 61.4 = 0.24 (Ptolemy's lunar model, 10ᵖ 19′ : 49ᵖ 41′ = 0.21) and the angle AEN is 135.5°.",
+  "body L33-L40: the angle FEL is the supplement of AEN, the double elongation, so that sin FEL = sin 2 (☾ − ⊙); in the right triangle FEL, FL and EL are ε sin and ε cos 2 (☾ − ⊙) on the radius R. On p. 79, L1-L4 al-Battānī takes the square of FL from 2468ᵖ 26′, the square of 49ᵖ 41′, and adds or subtracts EL: NE = NL ∓ EL. The bars between ☾ and ⊙ and after «180°» are minus signs; «ε» is printed upright.",
+  "notes L1: «p. 78, l. 24» is «Radix alterutro modo reperta est hypotenusa Lunae, scilicet distantia Lunae a centro Terrae»."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0344-body-L001",
+     "source_line_no": null,
+     "tex": "\\Indent Lacuna hoc modo restitui potest: « sinus huius summae est semidiametrus epicycli de-",
+     "transcription": "Lacuna hoc modo restitui potest: « sinus huius summae est semidiametrus epicycli de-",
+     "semantic_anchor": "AB01-PDF0344-P01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0344-body-L002",
+     "source_line_no": null,
+     "tex": "« clivis; [\\textit{per eum divide 5}\\textsuperscript{\\textit{p}} \\textit{15′, et quod exibit in 60}\\textsuperscript{\\textit{p}} \\textit{multiplica; proveniet distantia}",
+     "transcription": "« clivis; [*per eum divide 5*{sup:*p*} *15′, et quod exibit in 60*{sup:*p*} *multiplica; proveniet distantia*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0344-body-L003",
+     "source_line_no": null,
+     "tex": "« \\textit{centri epicycli a Terra.}] Ea utere eodem modo quo supra usus es [\\textit{distantia apogea eius-}",
+     "transcription": "« *centri epicycli a Terra.*] Ea utere eodem modo quo supra usus es [*distantia apogea eius-*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0344-body-L004",
+     "source_line_no": null,
+     "tex": "« \\textit{dem centri in syzygiis;}] invenies hypotenusam Lunae aequatam ad declivitatem epicycli » (1).",
+     "transcription": "« *dem centri in syzygiis;*] invenies hypotenusam Lunae aequatam ad declivitatem epicycli » (1).",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0344-body-L005",
+     "source_line_no": null,
+     "tex": "\\Indent « [\\textit{Si aliter vis, absque tabularum usu, eandem distantiam supputare, distantiam}",
+     "transcription": "« [*Si aliter vis, absque tabularum usu, eandem distantiam supputare, distantiam*",
+     "semantic_anchor": "AB01-PDF0344-P02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0344-body-L006",
+     "source_line_no": null,
+     "tex": "« \\textit{apogeam centri epicycli et semidiametrum epicycli 5}\\textsuperscript{\\textit{p}} \\textit{15′ sume, ut supra fecisti; hinc}",
+     "transcription": "« *apogeam centri epicycli et semidiametrum epicycli 5*{sup:*p*} *15′ sume, ut supra fecisti; hinc*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0344-body-L007",
+     "source_line_no": null,
+     "tex": "« \\textit{eodem quem diximus modo hypotenusam Lunae quaere.}] Postea sume duplam elonga-",
+     "transcription": "« *eodem quem diximus modo hypotenusam Lunae quaere.*] Postea sume duplam elonga-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0344-body-L008",
+     "source_line_no": null,
+     "tex": "« tionem ..... ».",
+     "transcription": "« tionem ..... ».",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0344-body-F01",
+     "source_line_no": null,
+     "tex": "\\input{figures/AB01-PDF0344-F01}",
+     "transcription": "[figure, redrawn: figures/AB01-PDF0344-F01.tex]",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_FIGURE"
+    },
+    {
+     "id": "AB01-PDF0344-body-L009",
+     "source_line_no": null,
+     "tex": "\\Indent Haec nova solutio in hoc consistit, quod, loco supputandi distantiam",
+     "transcription": "Haec nova solutio in hoc consistit, quod, loco supputandi distantiam",
+     "semantic_anchor": "AB01-PDF0344-P03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0344-body-L010",
+     "source_line_no": null,
+     "tex": "Lunae quando epicycli centrum a Terra quantitate NE distat, calculus inci-",
+     "transcription": "Lunae quando epicycli centrum a Terra quantitate NE distat, calculus inci-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0344-body-L011",
+     "source_line_no": null,
+     "tex": "pitur ponendo AE pro NE; postea quaeritur correctio ei afferenda. Sit",
+     "transcription": "pitur ponendo AE pro NE; postea quaeritur correctio ei afferenda. Sit",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0344-body-L012",
+     "source_line_no": null,
+     "tex": "AE $=$ 60\\textsuperscript{\\textit{p}}, distantia apogea centri epicycli; eadem via quae in adn. \\textbf{\\textit{d}} ex-",
+     "transcription": "AE $=$ 60{sup:*p*}, distantia apogea centri epicycli; eadem via quae in adn. {bi:d} ex-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0344-body-L013",
+     "source_line_no": null,
+     "tex": "ponitur, et semper radio AG′ $=$ 5\\textsuperscript{\\textit{p}} $\\qfrac{1}{4}$ adhibendo, supputatur EG′ scilicet",
+     "transcription": "ponitur, et semper radio AG′ $=$ 5{sup:*p*} {sfrac:1/4} adhibendo, supputatur EG′ scilicet",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0344-body-L014",
+     "source_line_no": null,
+     "tex": "\\textit{hypotenusa Lunae.} Sit postea EN vera distantia centri epicycli a Terra;",
+     "transcription": "*hypotenusa Lunae.* Sit postea EN vera distantia centri epicycli a Terra;",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0344-body-L015",
+     "source_line_no": null,
+     "tex": "vera distantia Lunae erit EG. Cum anguli in E valde sint parvi, et NA",
+     "transcription": "vera distantia Lunae erit EG. Cum anguli in E valde sint parvi, et NA",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0344-body-L016",
+     "source_line_no": null,
+     "tex": "quoque parva respectu AE, triangulum EGG′ longissimum erit, qua re,",
+     "transcription": "quoque parva respectu AE, triangulum EGG′ longissimum erit, qua re,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0344-body-L017",
+     "source_line_no": null,
+     "tex": "multum proxime, EG′ $=$ EG $+$ GG′ $=$ EG $+$ NA. Et quoniam NA $=$ AE $-$",
+     "transcription": "multum proxime, EG′ $=$ EG $+$ GG′ $=$ EG $+$ NA. Et quoniam NA $=$ AE $-$",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0344-body-L018",
+     "source_line_no": null,
+     "tex": "NE $=$ 60\\textsuperscript{\\textit{p}} $-$ NE $=$ \\textit{portio duplae excentricitatis} (p. 79, l. 6), erit proxime",
+     "transcription": "NE $=$ 60{sup:*p*} $-$ NE $=$ *portio duplae excentricitatis* (p. 79, l. 6), erit proxime",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0344-body-L019",
+     "source_line_no": null,
+     "tex": "distantia Lunae quaesitae EG $=$ EG′ $-$ NA $=$ (\\textit{hypotenusa Lunae ad de-}",
+     "transcription": "distantia Lunae quaesitae EG $=$ EG′ $-$ NA $=$ (*hypotenusa Lunae ad de-*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0344-body-L020",
+     "source_line_no": null,
+     "tex": "\\textit{clivitatem epicycli aequata}) $-$ (\\textit{portio duplae excentricitatis}). Adproxi-",
+     "transcription": "*clivitatem epicycli aequata*) $-$ (*portio duplae excentricitatis*). Adproxi-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0344-body-L021",
+     "source_line_no": null,
+     "tex": "matio semper sufficit, nam angulus in G′, nempe EG′G $=$ H′EG′ nunquam",
+     "transcription": "matio semper sufficit, nam angulus in G′, nempe EG′G $=$ H′EG′ nunquam",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0344-body-L022",
+     "source_line_no": null,
+     "tex": "5° 1′ superat; angulus G′EG minor illo erit, quia in theoria Lunae semper",
+     "transcription": "5° 1′ superat; angulus G′EG minor illo erit, quia in theoria Lunae semper",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0344-body-L023",
+     "source_line_no": null,
+     "tex": "GG′ $<$ EG. Quoad p. 79, l. 7, vide adn. \\textbf{\\textit{g}}, — Cum centrum N epicycli ad",
+     "transcription": "GG′ $<$ EG. Quoad p. 79, l. 7, vide adn. {bi:g}, — Cum centrum N epicycli ad",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0344-body-L024",
+     "source_line_no": null,
+     "tex": "punctum apogeum excentrici pervenit, distantia NA nulla fit. Cum vero",
+     "transcription": "punctum apogeum excentrici pervenit, distantia NA nulla fit. Cum vero",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0344-body-L025",
+     "source_line_no": null,
+     "tex": "centrum epicycli ad punctum perigeum pervenit, eadem distantia fit ma-",
+     "transcription": "centrum epicycli ad punctum perigeum pervenit, eadem distantia fit ma-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0344-body-L026",
+     "source_line_no": null,
+     "tex": "xima, et quidem duplo excentricitatis circuli excentrici aequalis. Centro",
+     "transcription": "xima, et quidem duplo excentricitatis circuli excentrici aequalis. Centro",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0344-body-L027",
+     "source_line_no": null,
+     "tex": "epicycli alios locos, quam perigeum et apogeum, occupante, distantia NA",
+     "transcription": "epicycli alios locos, quam perigeum et apogeum, occupante, distantia NA",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0344-body-L028",
+     "source_line_no": null,
+     "tex": "semper est minor dupla excentricitate, ita ut \\textit{portio} vel fractio quaedam \\textit{duplae excentrici-}",
+     "transcription": "semper est minor dupla excentricitate, ita ut *portio* vel fractio quaedam *duplae excentrici-*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0344-body-L029",
+     "source_line_no": null,
+     "tex": "\\textit{tatis} appellari possit; quo nomine, ut vides, Albatenius revera usus est. — \\textsc{Schiaparelli}.]",
+     "transcription": "*tatis* appellari possit; quo nomine, ut vides, Albatenius revera usus est. — {sc:Schiaparelli}.]",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0344-body-L030",
+     "source_line_no": null,
+     "tex": "\\Indent Formula trigonometrica quam \\Name{al–Battānī} p. 78–79 ad supputandam NE praebet, facile",
+     "transcription": "Formula trigonometrica quam {sp:al–Battānī} p. 78–79 ad supputandam NE praebet, facile",
+     "semantic_anchor": "AB01-PDF0344-P04",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0344-body-L031",
+     "source_line_no": null,
+     "tex": "derivatur a constructionibus geometricis \\Name{Ptolemaei}, \\textit{Alm.} V, 13 (ed. Halma t. I, p. 334–36).",
+     "transcription": "derivatur a constructionibus geometricis {sp:Ptolemaei}, *Alm.* V, 13 (ed. Halma t. I, p. 334–36).",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0344-body-F02",
+     "source_line_no": null,
+     "tex": "\\input{figures/AB01-PDF0344-F02}",
+     "transcription": "[figure, redrawn: figures/AB01-PDF0344-F02.tex]",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_FIGURE"
+    },
+    {
+     "id": "AB01-PDF0344-body-L032",
+     "source_line_no": null,
+     "tex": "Producatur NE usque quo in L rectam FL ad angulos",
+     "transcription": "Producatur NE usque quo in L rectam FL ad angulos",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0344-body-L033",
+     "source_line_no": null,
+     "tex": "rectos secet; erit AEN arcus duplae elongationis 2 (\\MoonSym{} $-$ \\SunSym{}),",
+     "transcription": "rectos secet; erit AEN arcus duplae elongationis 2 (☾ $-$ ⊙),",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0344-body-L034",
+     "source_line_no": null,
+     "tex": "et FE excentricitas \\textgreek{ε} ($=$ 10\\textsuperscript{\\textit{p}} 19′). Manifeste in triangulo",
+     "transcription": "et FE excentricitas ε ($=$ 10{sup:*p*} 19′). Manifeste in triangulo",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0344-body-L035",
+     "source_line_no": null,
+     "tex": "rectangulo FEL",
+     "transcription": "rectangulo FEL",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0344-body-L036",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{56.75mm}\\makebox[0pt][c]{$FL = \\dfrac{FE \\times \\sin FEL}{R} = \\dfrac{\\text{\\textgreek{ε}} \\sin FEL}{R}\\,,$}}",
+     "transcription": "$FL = \\dfrac{FE \\times \\sin FEL}{R} = \\dfrac{\\text{ε} \\sin FEL}{R}\\,,$",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0344-body-L037",
+     "source_line_no": null,
+     "tex": "et, quoniam sin \\textit{FEL} $=$ sin [180° $-$ 2 (\\MoonSym{} $-$ \\SunSym{})] $=$ sin 2",
+     "transcription": "et, quoniam sin *FEL* $=$ sin [180° $-$ 2 (☾ $-$ ⊙)] $=$ sin 2",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0344-body-L038",
+     "source_line_no": null,
+     "tex": "(\\MoonSym{} $-$ \\SunSym{}), erit",
+     "transcription": "(☾ $-$ ⊙), erit",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0344-body-L039",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{57.40mm}\\makebox[0pt][c]{$FL = \\dfrac{\\text{\\textgreek{ε}} \\sin 2\\,(\\MoonSym{} - \\SunSym{})}{R}\\,.$}}",
+     "transcription": "$FL = \\dfrac{\\text{ε} \\sin 2\\,(☾ - ⊙)}{R}\\,.$",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0344-body-L040",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.00mm}Similiter}\\rlap{\\hspace*{56.76mm}\\makebox[0pt][c]{$EL = \\dfrac{\\text{\\textgreek{ε}} \\cos 2\\,(\\MoonSym{} - \\SunSym{})}{R}\\,.$}}",
+     "transcription": "Similiter $EL = \\dfrac{\\text{ε} \\cos 2\\,(☾ - ⊙)}{R}\\,.$",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    }
+   ]
+  },
+  {
+   "role": "notes",
+   "lines": [
+    {
+     "id": "AB01-PDF0344-notes-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (1) I. e. distantiam quaesitam Lunae a centro Terrae; cfr. p. 78, l. 24.",
+     "transcription": "(1) I. e. distantiam quaesitam Lunae a centro Terrae; cfr. p. 78, l. 24.",
+     "semantic_anchor": "AB01-PDF0344-N01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  }
+ ]
+}

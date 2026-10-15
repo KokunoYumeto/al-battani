@@ -1,0 +1,70 @@
+@page 344 255
+% Commentary on chapter 39, f) continued: the lacuna of p. 78 restored («per eum divide 5ᵖ 15′ ... distantia centri epicycli a Terra»; «distantia apogea eiusdem centri in syzygiis»); a second solution without the tables. Schiaparelli: the new solution computes with AE for NE and corrects by NA, with the figure of the two epicycles redrawn: EG = EG′ − NA = (hypotenusa Lunae ad declivitatem epicycli aequata) − (portio duplae excentricitatis); the approximation suffices, since the angle EG′G never exceeds 5° 1′; NA nothing at the apogee of the eccentric, twice the eccentricity at the perigee. The trigonometric formula for NE (p. 78-79) after Almagest V, 13, with the figure of the eccentric redrawn: FL = ε sin 2(☾ − ⊙)/R, EL = ε cos 2(☾ − ⊙)/R. Note: the distance of the Moon from the centre of the Earth.
+@nonum
+^ Lacuna hoc modo restitui potest: « sinus huius summae est semidiametrus epicycli de-
+« clivis; [*per eum divide 5*{sup:*p*} *15′, et quod exibit in 60*{sup:*p*} *multiplica; proveniet distantia*
+« *centri epicycli a Terra.*] Ea utere eodem modo quo supra usus es [*distantia apogea eius-*
+« *dem centri in syzygiis;*] invenies hypotenusam Lunae aequatam ad declivitatem epicycli » (1).
+^ « [*Si aliter vis, absque tabularum usu, eandem distantiam supputare, distantiam*
+« *apogeam centri epicycli et semidiametrum epicycli 5*{sup:*p*} *15′ sume, ut supra fecisti; hinc*
+« *eodem quem diximus modo hypotenusam Lunae quaere.*] Postea sume duplam elonga-
+« tionem ..... ».
+@vspace -0.12
+@wrapr 154.45 AB01-PDF0344-F01
+^ Haec nova solutio in hoc consistit, quod, loco supputandi distantiam
+Lunae quando epicycli centrum a Terra quantitate NE distat, calculus inci-
+pitur ponendo AE pro NE; postea quaeritur correctio ei afferenda. Sit
+AE $=$ 60{sup:*p*}, distantia apogea centri epicycli; eadem via quae in adn. {bi:d} ex-
+ponitur, et semper radio AG′ $=$ 5{sup:*p*} {sfrac:1/4} adhibendo, supputatur EG′ scilicet
+*hypotenusa Lunae.* Sit postea EN vera distantia centri epicycli a Terra;
+vera distantia Lunae erit EG. Cum anguli in E valde sint parvi, et NA
+@vspace -0.07
+quoque parva respectu AE, triangulum EGG′ longissimum erit, qua re,
+multum proxime, EG′ $=$ EG $+$ GG′ $=$ EG $+$ NA. Et quoniam NA $=$ AE $-$
+NE $=$ 60{sup:*p*} $-$ NE $=$ *portio duplae excentricitatis* (p. 79, l. 6), erit proxime
+distantia Lunae quaesitae EG $=$ EG′ $-$ NA $=$ (*hypotenusa Lunae ad de-*
+*clivitatem epicycli aequata*) $-$ (*portio duplae excentricitatis*). Adproxi-
+@vspace -0.10
+matio semper sufficit, nam angulus in G′, nempe EG′G $=$ H′EG′ nunquam
+5° 1′ superat; angulus G′EG minor illo erit, quia in theoria Lunae semper
+GG′ $<$ EG. Quoad p. 79, l. 7, vide adn. {bi:g}, — Cum centrum N epicycli ad
+punctum apogeum excentrici pervenit, distantia NA nulla fit. Cum vero
+centrum epicycli ad punctum perigeum pervenit, eadem distantia fit ma-
+xima, et quidem duplo excentricitatis circuli excentrici aequalis. Centro
+epicycli alios locos, quam perigeum et apogeum, occupante, distantia NA
+@endwrap
+@vspace -0.43
+semper est minor dupla excentricitate, ita ut *portio* vel fractio quaedam *duplae excentrici-*
+*tatis* appellari possit; quo nomine, ut vides, Albatenius revera usus est. — {sc:Schiaparelli}.]
+^ Formula trigonometrica quam {sp:al–Battānī} p. 78–79 ad supputandam NE praebet, facile
+derivatur a constructionibus geometricis {sp:Ptolemaei}, *Alm.* V, 13 (ed. Halma t. I, p. 334–36).
+@vspace -0.07
+@wrap 0.372 AB01-PDF0344-F02
+Producatur NE usque quo in L rectam FL ad angulos
+rectos secet; erit AEN arcus duplae elongationis 2 (☾ $-$ ⊙),
+et FE excentricitas ε ($=$ 10{sup:*p*} 19′). Manifeste in triangulo
+rectangulo FEL
+@vspace 1.58
+@at 56.75^:$FL = \dfrac{FE \times \sin FEL}{R} = \dfrac{\text{ε} \sin FEL}{R}\,,$
+@vspace 1.39
+et, quoniam sin *FEL* $=$ sin [180° $-$ 2 (☾ $-$ ⊙)] $=$ sin 2
+@vspace 0.08
+(☾ $-$ ⊙), erit
+@vspace -0.29
+@at 57.40^:$FL = \dfrac{\text{ε} \sin 2\,(☾ - ⊙)}{R}\,.$
+@vspace 1.88
+@at 0.00:Similiter | 56.76^:$EL = \dfrac{\text{ε} \cos 2\,(☾ - ⊙)}{R}\,.$
+@endwrap
+@notes1
+@fontsize 9 11.80
+@vspace 5.07
+^ (1) I. e. distantiam quaesitam Lunae a centro Terrae; cfr. p. 78, l. 24.
+@obs body L1-L8: Nallino restores p. 78, L29-L32, where the italic words of p. 78 («eo utere ut supra iis 5ᵖ ¼; invenies hypotenusam Lunae aequatam ad declivitatem epicycli») are what the codex and Plato keep of the passage; the words he supplies stand in brackets and in italics. Dividing 5ᵖ 15′ by the sine of the apparent semidiameter of the epicycle and multiplying by 60ᵖ gives NE = NK : sin NEK, the distance of the centre of the epicycle (p. 254, L22-L24).
+@obs body L9-L27: the figure stands on the right of these lines and is redrawn from the print: the two epicycles about A and about N (radius 30.9 and 31.0 pt) on the line from the Earth E to H′ (A and N 0.3 and 0.1 pt off it), the lines EG′, EG and G′G, the perpendiculars M′G′ and MG (89.8° and 89.7° to the line) and the radii AG′ and NG; the bold italic letters stand where they are printed. The anomaly is drawn the same in both epicycles (H′AG′ 66.5°, HNG 66.6°), so that G′G is parallel and equal to AN (0.3° off); hence the angle EG′G equals H′EG′, an equation of the epicycle, at most 5° 1′ (L21-L22).
+@obs body L12-L13, L23: «adn. d» is note d) of p. 253; «AG′ = 5ᵖ ¼» is the radius of the epicycle, 5ᵖ 15′; «adn. g» is the next note, on p. 79, L7. In L23 the g is followed by a comma, and the dash before «Cum» measures 9.8 pt.
+@obs body L15-L16: a speck after the full stop of «EG.» is not transcribed; the comma after «qua re» prints high.
+@obs body L17-L20: the bars after «AE» (L17, 10.3 pt, at the end of the line), after «60ᵖ» (L18), after «EG′» (L19) and between the brackets (L20) are minus signs. «portio duplae excentricitatis» is al-Battānī's name, p. 79, L6: 60ᵖ less the distance NE.
+@obs body L28-L31: a heavy bracket closes Schiaparelli's addition, after a dash of 10.2 pt; «al–Battānī», «78–79» and «334–36» have long dashes (5.4, 5.8 and 5.5 pt).
+@obs body L32-L40: the figure stands on the left of these lines and is redrawn from the print: the circle about the Earth E (radius 77.4 pt) and the eccentric about F (radius 61.0 pt), touching at A (0.7 pt apart), the line from A through F and E, the epicycle about N (radius 23.4 pt), whose centre lies on the eccentric, the line from H through N and E to L, the perpendicular FL (88.9° to NL), and the lines NF, GE and GN, with the bold italic letters where they are printed. A dot to the right of A is not drawn. As drawn, FE : FA is 14.6 : 61.4 = 0.24 (Ptolemy's lunar model, 10ᵖ 19′ : 49ᵖ 41′ = 0.21) and the angle AEN is 135.5°.
+@obs body L33-L40: the angle FEL is the supplement of AEN, the double elongation, so that sin FEL = sin 2 (☾ − ⊙); in the right triangle FEL, FL and EL are ε sin and ε cos 2 (☾ − ⊙) on the radius R. On p. 79, L1-L4 al-Battānī takes the square of FL from 2468ᵖ 26′, the square of 49ᵖ 41′, and adds or subtracts EL: NE = NL ∓ EL. The bars between ☾ and ⊙ and after «180°» are minus signs; «ε» is printed upright.
+@obs notes L1: «p. 78, l. 24» is «Radix alterutro modo reperta est hypotenusa Lunae, scilicet distantia Lunae a centro Terrae».

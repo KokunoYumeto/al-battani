@@ -1,0 +1,197 @@
+{
+ "pdf": 344,
+ "printed_page": 255,
+ "comment": [
+  "Nallino, Part I p. 255, the figure on the left: after Almagest V, 13, redrawn from the print: the circle",
+  "about the Earth E and the eccentric about F, touching at A, the line from A through F and E, the epicycle",
+  "about N on the eccentric with G and H, the line from H through N and E to L, the perpendicular FL, the lines",
+  "NF, GE and GN, and the bold italic letters. Measured on the scan (_intake/latin/tools/fig255)."
+ ],
+ "origin": [
+  55.23,
+  544.86
+ ],
+ "scale": 0.98925,
+ "size": [
+  160.0,
+  171.0
+ ],
+ "label_pt": 11,
+ "circles": [
+  {
+   "name": "the circle about E",
+   "cx": 136.44,
+   "cy": 636.87,
+   "r": 77.35,
+   "w": 1.32
+  },
+  {
+   "name": "the eccentric about F",
+   "cx": 136.71,
+   "cy": 621.18,
+   "r": 60.99,
+   "w": 1.18
+  },
+  {
+   "name": "the epicycle about N",
+   "cx": 103.01,
+   "cy": 672.01,
+   "r": 23.38,
+   "w": 1.35
+  }
+ ],
+ "segments": [
+  {
+   "name": "the line from A through F and E",
+   "x0": 136.25,
+   "y0": 559.52,
+   "x1": 136.87,
+   "y1": 714.22,
+   "w": 1.31
+  },
+  {
+   "name": "the line from H through N and E to L",
+   "x0": 87.11,
+   "y0": 689.16,
+   "x1": 144.63,
+   "y1": 628.75,
+   "w": 1.24
+  },
+  {
+   "name": "the line NF",
+   "x0": 103.01,
+   "y0": 672.01,
+   "x1": 136.5,
+   "y1": 621.6,
+   "w": 1.47
+  },
+  {
+   "name": "the line GE",
+   "x0": 79.64,
+   "y0": 671.28,
+   "x1": 136.56,
+   "y1": 636.79,
+   "w": 1.14
+  },
+  {
+   "name": "the radius GN",
+   "x0": 79.64,
+   "y0": 671.28,
+   "x1": 103.01,
+   "y1": 672.01,
+   "w": 1.1
+  },
+  {
+   "name": "the perpendicular FL",
+   "x0": 136.5,
+   "y0": 621.6,
+   "x1": 144.63,
+   "y1": 628.75,
+   "w": 1.38
+  }
+ ],
+ "labels": [
+  {
+   "t": "\\resizebox{7.53pt}{6.63pt}{A}",
+   "cx": 134.71,
+   "cy": 552.28,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{5.60pt}{6.99pt}{F}",
+   "cx": 140.93,
+   "cy": 616.28,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{6.62pt}{6.64pt}{L}",
+   "cx": 149.21,
+   "cy": 628.2,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{5.44pt}{7.00pt}{E}",
+   "cx": 141.95,
+   "cy": 640.06,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{7.74pt}{6.72pt}{G}",
+   "cx": 74.59,
+   "cy": 668.99,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{7.61pt}{6.18pt}{N}",
+   "cx": 111.9,
+   "cy": 669.9,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{7.48pt}{6.40pt}{H}",
+   "cx": 94.88,
+   "cy": 686.78,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  }
+ ],
+ "boxes": {
+  "A@130,548": [
+   7.44,
+   6.72
+  ],
+  "F@138,612": [
+   6.48,
+   7.08
+  ],
+  "L@146,624": [
+   6.12,
+   6.72
+  ],
+  "E@139,636": [
+   5.76,
+   7.08
+  ],
+  "G@71,665": [
+   7.38,
+   6.9
+  ],
+  "N@109,666": [
+   8.28,
+   6.36
+  ],
+  "H@91,683": [
+   8.04,
+   6.48
+  ]
+ },
+ "points": {
+  "A": [
+   136.25,
+   559.52
+  ],
+  "F": [
+   136.5,
+   621.6
+  ],
+  "E": [
+   136.56,
+   636.79
+  ],
+  "L": [
+   144.63,
+   628.75
+  ],
+  "N": [
+   103.01,
+   672.01
+  ],
+  "G": [
+   79.64,
+   671.28
+  ],
+  "H": [
+   87.11,
+   689.16
+  ]
+ }
+}
