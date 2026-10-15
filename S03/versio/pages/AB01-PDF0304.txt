@@ -1,0 +1,86 @@
+@page 304 215
+% Commentary on chapter 28, c) continued: Schiaparelli's addition concluded: the longitude of the apogee of 884 by Leverrier's formula, 83° 50' 51", 1 1/2° more than al-Battānī's 82° 17'. II. The computation of the longitude of the apogee: Ptolemy's method from the equinoxes and the summer solstice, with the formulas for FS, ES, the eccentricity FE and the longitude of the apogee; al-Bīrūnī's account of the method of the later astronomers from the middles of the fixed signs and of Abū Naṣr Manṣūr ibn 'Irāq's method from three points of the ecliptic; Delambre's solution. Notes on Leverrier's formula; on al-muḥdathūn; on Abū Naṣr ibn 'Irāq and his treatise; on Sachau and Holetschek.
+@nonum
+^ [Observatio {sp:Albateniana} optima est censenda, cum problema tunc temporis valde dif-
+ficillimum esset. Iuxta formulam ω $=$ 280° 21′ 21″,5 $-$ 61″,6995·*t* $+$ 0″,0001823·*t*{sup:2}, qua Le-
+verrier longitudinem ω *perigei* pro *t* annis Iulianis ante 1850 determinat (1), longitudo *apogei*
+@vspace -0.07
+Solis anno 884 Chr. debebat 83° 50′ 51″ esse; al–Battānī 82° 17′, scilicet numerum 1° {sfrac:1/2} mi-
+norem vero invenit. Sed cum problema ab elementis valde incertis pendeat, maiorem apud anti-
+quos astronomos in his rebus subtilitatem requirere iniustum foret. — {sc:Schiaparelli}.]
+@vspace 0.11
+^ II. — *Ratio supputandae longitudinis apogei Solis.*
+^ Ut ipse p. 43, l. 11 fatetur, {sp:al–Battānī} rationem {sp:Ptolemaei} sequitur, quae a cogni-
+@vspace -0.10
+tione aequinoctiorum et solstitii aestivi pendet, nec non longitudinis anni tropici unde motus
+medius Solis diurnus deducitur. Motus medius Solis in vere dati anni sit *v*, in aestate subse-
+@vspace -0.25
+quenti *a*; excentricitas orbitae Solis vel maxima anomalia est $FE = \sqrt{FS^2 + ES^2}$; ubi ex
+Albatenii demonstratione, radio excentrici $=$ 60{sup:*p*} $=$ *R* sumpto, patet
+@vspace 0.91
+@center $FS = \sin\biggl[v - \biggl(\text{90°} + \dfrac{(v + a) - \text{180°}}{2}\biggr)\biggr] = \sin\dfrac{v - a}{2}$,
+@vspace -0.28
+@center $ES = \sin\dfrac{(v + a) - \text{180°}}{2} = -\cos\dfrac{v + a}{2}$.
+@vspace 0.51
+Nos ergo scribere possumus:
+@vspace -1.13
+@center excentricitas $= FE = \sqrt{\sin^2\dfrac{v - a}{2} + \cos^2\dfrac{v + a}{2}}$.
+^ Longitudo apogei T est arcus AH, cuius complementum arcus HB seu angulus FES. At
+@vspace -0.15
+manifeste
+@vspace 0.27
+@center $\sin\,(\text{90°} - \text{long. apogei}) = \sin FES = R\,\dfrac{ES}{FE}$,
+@vspace 0.63
+ubi quantitates ES, FE paulum antea supputatae sunt.
+^ Hanc Ptolemaei methodum late exponit quoque {sp:al–Bīrūnī}, *Chron.,* p. 183–85 text.,
+164–67 vers.; postea addit: « Cum vero *recentiores* (2) cognovissent perdifficile et impossibile
+« fere tempora solstitiorum exacte deprehendere, maluerunt in observationibus suis puncta
+« quae medietates quatuor temporum anni indicant, scilicet medietates signorum firmorum
+« [i. e. 15° Tauri, 15° Leonis, 15° Scorpii, 15° Aquarii]. Methodus tamen quam magister meus
+@vspace -0.08
+« {sp:Abū Naṣr Manṣūr Ibn ‘Irāq} (3) khalifae libertus, invenit ad hoc problema solvendum,
+« nititur cognitione trium punctorum quorumlibet eclipticae, et cognitione exacta longitudinis
+« anni solaris. In meo libro qui *Testimonii rogatio de discrepantiis in observationibus* in-
+« scribitur, hanc methodum tanto meliorem esse methodo astronomorum recentiorum quanto
+@vspace 0.08
+« hic melior est methodo veterum ostendi » (4). Et re vera hoc modo puncta eclipticae deligi
+possunt quorum cognitio facilior sit cognitione solstitiorum; eadem videtur esse solutio quam
+{sp:Delambre}, *Hist. de l’astron. ancienne,* t. II, p. 121–133, proposuit. — De difficultate tem-
+@vspace -0.10
+pus solstitii metiendi iam dictum est pag. 212.
+@vspace 1.66
+@notes
+@fontsize 9 11.80
+@vspace 1.33
+^ (1) Sed in eius formula centesimae partes se-
+@vspace -0.13
+cundarum non sunt absolute certae.
+@vspace 0.12
+^ (2) *Al-muḥdathūn,* nempe astronomi qui aetate
+al-Ma’mūn (813-833 Chr.) et posterius floruerunt.
+^ (3) De eo {sp:Suter}, *Die Mathematiker,* p. 81-2,
+nr. 186. — Valde probabile censeo primam huius no-
+vae solutionis partem contineri opusculo cui titulus
+est: « *Supputatio excentricitatis, ex Almagesto re-*
+« *gio* {sp:Abū Naṣr Ibn ‘Irāq} », et quod Londi-
+@col
+@fontsize 9 11.80
+@vspace 1.33
+nii in Bibliotheca « Library of the India Office »
+vocata asservatur.
+^ (4) Totus hic al-Bīrūnī locus de apogeo editus,
+versus et illustratus quoque reperitur apud {sp:Sa-}
+@vspace 0.33
+{sp:chau} und {sp:Holetschek}, *Eine Berechnung der*
+*Entfernung des Sonnen-Apogäums von dem Früh-*
+*lingspunkte bei Albîrûnî* (Sitzungsberichte der phi-
+los.-histor. Classe der k. k. Akad. der Wissenschaften
+zu Wien, 1876, t. LXXXII, p. 243-266).
+@obs body L1, L6: heavy brackets open and close Schiaparelli's addition; the dash before his name measures 10.3 pt.
+@obs body L2-L4: with t = 966 years (884 to 1850) the formula gives ω = 263° 50′ 50″, so the apogee 83° 50′ 50″ (printed 83° 50′ 51″), 1° 33′ 50″ more than al-Battānī's 82° 17′. The minus sign of the formula is printed as a dash.
+@obs body L4, L8, L21-L22, L32: the dashes of «al–Battānī», «al–Bīrūnī», «183–85», «164–67» and «121–133» are long dashes (5.3 to 5.5 pt).
+@obs body L7: the dash after «II.» measures 10.0 pt and is transcribed as a dash.
+@obs body L11-L19: the formulas are right: FS = sin (v − a)/2 and ES = − cos (v + a)/2, so FE² = FS² + ES², and sin FES = R ES : FE.
+@obs body L26: «khalifae» is printed without the macron of the i.
+@obs body L21-L33: Nallino's addenda et emendanda (Part I, p. LXXIV) add to this page: «E Snellii auctoritate, narrat Montucla (Hist. des mathématiques, nouvelle édition, Paris, an VII–X, t. I, p. 366) az–Zarqālī, circa annos 1070–80 florentem, ad vitandam incertam solstitiorum observationem, in calculo longitudinis apogei solaris usum esse observationibus Solis in ambobus aequinoctiis ac tertio quolibet eclipticae puncto, vel etiam in tribus punctis quibuscumque. Est ratio igitur de qua al–Bīrūnī l. c. agit. Ex quo az–Zarqālī operum (quorum solus liber de saphaea, in versione Hispanica, typis excusus est) Snellius talia compererit nescio.»
+@obs notes_left L4-L5, notes_right L3, L5-L9: the dashes of «813-833», «81-2», «al-Bīrūnī», «Sonnen-Apogäums», «philos.-histor.» and «243-266» measure 3.0 to 3.5 pt, hyphens.

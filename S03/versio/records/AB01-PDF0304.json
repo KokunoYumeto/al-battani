@@ -1,0 +1,550 @@
+{
+ "anchor": "AB01-PDF0304",
+ "master_pdf_page": 304,
+ "printed_page": 215,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "margin_locators": [],
+ "observations": [
+  "body L1, L6: heavy brackets open and close Schiaparelli's addition; the dash before his name measures 10.3 pt.",
+  "body L2-L4: with t = 966 years (884 to 1850) the formula gives ω = 263° 50′ 50″, so the apogee 83° 50′ 50″ (printed 83° 50′ 51″), 1° 33′ 50″ more than al-Battānī's 82° 17′. The minus sign of the formula is printed as a dash.",
+  "body L4, L8, L21-L22, L32: the dashes of «al–Battānī», «al–Bīrūnī», «183–85», «164–67» and «121–133» are long dashes (5.3 to 5.5 pt).",
+  "body L7: the dash after «II.» measures 10.0 pt and is transcribed as a dash.",
+  "body L11-L19: the formulas are right: FS = sin (v − a)/2 and ES = − cos (v + a)/2, so FE² = FS² + ES², and sin FES = R ES : FE.",
+  "body L26: «khalifae» is printed without the macron of the i.",
+  "body L21-L33: Nallino's addenda et emendanda (Part I, p. LXXIV) add to this page: «E Snellii auctoritate, narrat Montucla (Hist. des mathématiques, nouvelle édition, Paris, an VII–X, t. I, p. 366) az–Zarqālī, circa annos 1070–80 florentem, ad vitandam incertam solstitiorum observationem, in calculo longitudinis apogei solaris usum esse observationibus Solis in ambobus aequinoctiis ac tertio quolibet eclipticae puncto, vel etiam in tribus punctis quibuscumque. Est ratio igitur de qua al–Bīrūnī l. c. agit. Ex quo az–Zarqālī operum (quorum solus liber de saphaea, in versione Hispanica, typis excusus est) Snellius talia compererit nescio.»",
+  "notes_left L4-L5, notes_right L3, L5-L9: the dashes of «813-833», «81-2», «al-Bīrūnī», «Sonnen-Apogäums», «philos.-histor.» and «243-266» measure 3.0 to 3.5 pt, hyphens."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0304-body-L001",
+     "source_line_no": null,
+     "tex": "\\Indent [Observatio \\Name{Albateniana} optima est censenda, cum problema tunc temporis valde dif-",
+     "transcription": "[Observatio {sp:Albateniana} optima est censenda, cum problema tunc temporis valde dif-",
+     "semantic_anchor": "AB01-PDF0304-P01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0304-body-L002",
+     "source_line_no": null,
+     "tex": "ficillimum esset. Iuxta formulam \\textgreek{ω} $=$ 280° 21′ 21″,5 $-$ 61″,6995·\\textit{t} $+$ 0″,0001823·\\textit{t}\\textsuperscript{2}, qua Le-",
+     "transcription": "ficillimum esset. Iuxta formulam ω $=$ 280° 21′ 21″,5 $-$ 61″,6995·*t* $+$ 0″,0001823·*t*{sup:2}, qua Le-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0304-body-L003",
+     "source_line_no": null,
+     "tex": "verrier longitudinem \\textgreek{ω} \\textit{perigei} pro \\textit{t} annis Iulianis ante 1850 determinat (1), longitudo \\textit{apogei}",
+     "transcription": "verrier longitudinem ω *perigei* pro *t* annis Iulianis ante 1850 determinat (1), longitudo *apogei*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0304-body-L004",
+     "source_line_no": null,
+     "tex": "Solis anno 884 Chr. debebat 83° 50′ 51″ esse; al–Battānī 82° 17′, scilicet numerum 1° $\\qfrac{1}{2}$ mi-",
+     "transcription": "Solis anno 884 Chr. debebat 83° 50′ 51″ esse; al–Battānī 82° 17′, scilicet numerum 1° {sfrac:1/2} mi-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0304-body-L005",
+     "source_line_no": null,
+     "tex": "norem vero invenit. Sed cum problema ab elementis valde incertis pendeat, maiorem apud anti-",
+     "transcription": "norem vero invenit. Sed cum problema ab elementis valde incertis pendeat, maiorem apud anti-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0304-body-L006",
+     "source_line_no": null,
+     "tex": "quos astronomos in his rebus subtilitatem requirere iniustum foret. — \\textsc{Schiaparelli}.]",
+     "transcription": "quos astronomos in his rebus subtilitatem requirere iniustum foret. — {sc:Schiaparelli}.]",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0304-body-L007",
+     "source_line_no": null,
+     "tex": "\\Indent II. — \\textit{Ratio supputandae longitudinis apogei Solis.}",
+     "transcription": "II. — *Ratio supputandae longitudinis apogei Solis.*",
+     "semantic_anchor": "AB01-PDF0304-P02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0304-body-L008",
+     "source_line_no": null,
+     "tex": "\\Indent Ut ipse p. 43, l. 11 fatetur, \\Name{al–Battānī} rationem \\Name{Ptolemaei} sequitur, quae a cogni-",
+     "transcription": "Ut ipse p. 43, l. 11 fatetur, {sp:al–Battānī} rationem {sp:Ptolemaei} sequitur, quae a cogni-",
+     "semantic_anchor": "AB01-PDF0304-P03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0304-body-L009",
+     "source_line_no": null,
+     "tex": "tione aequinoctiorum et solstitii aestivi pendet, nec non longitudinis anni tropici unde motus",
+     "transcription": "tione aequinoctiorum et solstitii aestivi pendet, nec non longitudinis anni tropici unde motus",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0304-body-L010",
+     "source_line_no": null,
+     "tex": "medius Solis diurnus deducitur. Motus medius Solis in vere dati anni sit \\textit{v}, in aestate subse-",
+     "transcription": "medius Solis diurnus deducitur. Motus medius Solis in vere dati anni sit *v*, in aestate subse-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0304-body-L011",
+     "source_line_no": null,
+     "tex": "quenti \\textit{a}; excentricitas orbitae Solis vel maxima anomalia est $FE = \\sqrt{FS^2 + ES^2}$; ubi ex",
+     "transcription": "quenti *a*; excentricitas orbitae Solis vel maxima anomalia est $FE = \\sqrt{FS^2 + ES^2}$; ubi ex",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0304-body-L012",
+     "source_line_no": null,
+     "tex": "Albatenii demonstratione, radio excentrici $=$ 60\\textsuperscript{\\textit{p}} $=$ \\textit{R} sumpto, patet",
+     "transcription": "Albatenii demonstratione, radio excentrici $=$ 60{sup:*p*} $=$ *R* sumpto, patet",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0304-body-L013",
+     "source_line_no": null,
+     "tex": "\\CenterLine{$FS = \\sin\\biggl[v - \\biggl(\\text{90°} + \\dfrac{(v + a) - \\text{180°}}{2}\\biggr)\\biggr] = \\sin\\dfrac{v - a}{2}$,}",
+     "transcription": "$FS = \\sin\\biggl[v - \\biggl(\\text{90°} + \\dfrac{(v + a) - \\text{180°}}{2}\\biggr)\\biggr] = \\sin\\dfrac{v - a}{2}$,",
+     "semantic_anchor": "AB01-PDF0304-H13",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0304-body-L014",
+     "source_line_no": null,
+     "tex": "\\CenterLine{$ES = \\sin\\dfrac{(v + a) - \\text{180°}}{2} = -\\cos\\dfrac{v + a}{2}$.}",
+     "transcription": "$ES = \\sin\\dfrac{(v + a) - \\text{180°}}{2} = -\\cos\\dfrac{v + a}{2}$.",
+     "semantic_anchor": "AB01-PDF0304-H14",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0304-body-L015",
+     "source_line_no": null,
+     "tex": "Nos ergo scribere possumus:",
+     "transcription": "Nos ergo scribere possumus:",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0304-body-L016",
+     "source_line_no": null,
+     "tex": "\\CenterLine{excentricitas $= FE = \\sqrt{\\sin^2\\dfrac{v - a}{2} + \\cos^2\\dfrac{v + a}{2}}$.}",
+     "transcription": "excentricitas $= FE = \\sqrt{\\sin^2\\dfrac{v - a}{2} + \\cos^2\\dfrac{v + a}{2}}$.",
+     "semantic_anchor": "AB01-PDF0304-H16",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0304-body-L017",
+     "source_line_no": null,
+     "tex": "\\Indent Longitudo apogei T est arcus AH, cuius complementum arcus HB seu angulus FES. At",
+     "transcription": "Longitudo apogei T est arcus AH, cuius complementum arcus HB seu angulus FES. At",
+     "semantic_anchor": "AB01-PDF0304-P04",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0304-body-L018",
+     "source_line_no": null,
+     "tex": "manifeste",
+     "transcription": "manifeste",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0304-body-L019",
+     "source_line_no": null,
+     "tex": "\\CenterLine{$\\sin\\,(\\text{90°} - \\text{long. apogei}) = \\sin FES = R\\,\\dfrac{ES}{FE}$,}",
+     "transcription": "$\\sin\\,(\\text{90°} - \\text{long. apogei}) = \\sin FES = R\\,\\dfrac{ES}{FE}$,",
+     "semantic_anchor": "AB01-PDF0304-H19",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0304-body-L020",
+     "source_line_no": null,
+     "tex": "ubi quantitates ES, FE paulum antea supputatae sunt.",
+     "transcription": "ubi quantitates ES, FE paulum antea supputatae sunt.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0304-body-L021",
+     "source_line_no": null,
+     "tex": "\\Indent Hanc Ptolemaei methodum late exponit quoque \\Name{al–Bīrūnī}, \\textit{Chron.,} p. 183–85 text.,",
+     "transcription": "Hanc Ptolemaei methodum late exponit quoque {sp:al–Bīrūnī}, *Chron.,* p. 183–85 text.,",
+     "semantic_anchor": "AB01-PDF0304-P05",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0304-body-L022",
+     "source_line_no": null,
+     "tex": "164–67 vers.; postea addit: « Cum vero \\textit{recentiores} (2) cognovissent perdifficile et impossibile",
+     "transcription": "164–67 vers.; postea addit: « Cum vero *recentiores* (2) cognovissent perdifficile et impossibile",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0304-body-L023",
+     "source_line_no": null,
+     "tex": "« fere tempora solstitiorum exacte deprehendere, maluerunt in observationibus suis puncta",
+     "transcription": "« fere tempora solstitiorum exacte deprehendere, maluerunt in observationibus suis puncta",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0304-body-L024",
+     "source_line_no": null,
+     "tex": "« quae medietates quatuor temporum anni indicant, scilicet medietates signorum firmorum",
+     "transcription": "« quae medietates quatuor temporum anni indicant, scilicet medietates signorum firmorum",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0304-body-L025",
+     "source_line_no": null,
+     "tex": "« [i. e. 15° Tauri, 15° Leonis, 15° Scorpii, 15° Aquarii]. Methodus tamen quam magister meus",
+     "transcription": "« [i. e. 15° Tauri, 15° Leonis, 15° Scorpii, 15° Aquarii]. Methodus tamen quam magister meus",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0304-body-L026",
+     "source_line_no": null,
+     "tex": "« \\Name{Abū Naṣr Manṣūr Ibn ‘Irāq} (3) khalifae libertus, invenit ad hoc problema solvendum,",
+     "transcription": "« {sp:Abū Naṣr Manṣūr Ibn ‘Irāq} (3) khalifae libertus, invenit ad hoc problema solvendum,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0304-body-L027",
+     "source_line_no": null,
+     "tex": "« nititur cognitione trium punctorum quorumlibet eclipticae, et cognitione exacta longitudinis",
+     "transcription": "« nititur cognitione trium punctorum quorumlibet eclipticae, et cognitione exacta longitudinis",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0304-body-L028",
+     "source_line_no": null,
+     "tex": "« anni solaris. In meo libro qui \\textit{Testimonii rogatio de discrepantiis in observationibus} in-",
+     "transcription": "« anni solaris. In meo libro qui *Testimonii rogatio de discrepantiis in observationibus* in-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0304-body-L029",
+     "source_line_no": null,
+     "tex": "« scribitur, hanc methodum tanto meliorem esse methodo astronomorum recentiorum quanto",
+     "transcription": "« scribitur, hanc methodum tanto meliorem esse methodo astronomorum recentiorum quanto",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0304-body-L030",
+     "source_line_no": null,
+     "tex": "« hic melior est methodo veterum ostendi » (4). Et re vera hoc modo puncta eclipticae deligi",
+     "transcription": "« hic melior est methodo veterum ostendi » (4). Et re vera hoc modo puncta eclipticae deligi",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0304-body-L031",
+     "source_line_no": null,
+     "tex": "possunt quorum cognitio facilior sit cognitione solstitiorum; eadem videtur esse solutio quam",
+     "transcription": "possunt quorum cognitio facilior sit cognitione solstitiorum; eadem videtur esse solutio quam",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0304-body-L032",
+     "source_line_no": null,
+     "tex": "\\Name{Delambre}, \\textit{Hist. de l’astron. ancienne,} t. II, p. 121–133, proposuit. — De difficultate tem-",
+     "transcription": "{sp:Delambre}, *Hist. de l’astron. ancienne,* t. II, p. 121–133, proposuit. — De difficultate tem-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0304-body-L033",
+     "source_line_no": null,
+     "tex": "pus solstitii metiendi iam dictum est pag. 212.",
+     "transcription": "pus solstitii metiendi iam dictum est pag. 212.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    }
+   ]
+  },
+  {
+   "role": "notes_left",
+   "lines": [
+    {
+     "id": "AB01-PDF0304-notes_left-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (1) Sed in eius formula centesimae partes se-",
+     "transcription": "(1) Sed in eius formula centesimae partes se-",
+     "semantic_anchor": "AB01-PDF0304-N01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0304-notes_left-L002",
+     "source_line_no": null,
+     "tex": "cundarum non sunt absolute certae.",
+     "transcription": "cundarum non sunt absolute certae.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0304-notes_left-L003",
+     "source_line_no": null,
+     "tex": "\\Indent (2) \\textit{Al-muḥdathūn,} nempe astronomi qui aetate",
+     "transcription": "(2) *Al-muḥdathūn,* nempe astronomi qui aetate",
+     "semantic_anchor": "AB01-PDF0304-N02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0304-notes_left-L004",
+     "source_line_no": null,
+     "tex": "al-Ma’mūn (813-833 Chr.) et posterius floruerunt.",
+     "transcription": "al-Ma’mūn (813-833 Chr.) et posterius floruerunt.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0304-notes_left-L005",
+     "source_line_no": null,
+     "tex": "\\Indent (3) De eo \\Name{Suter}, \\textit{Die Mathematiker,} p. 81-2,",
+     "transcription": "(3) De eo {sp:Suter}, *Die Mathematiker,* p. 81-2,",
+     "semantic_anchor": "AB01-PDF0304-N03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0304-notes_left-L006",
+     "source_line_no": null,
+     "tex": "nr. 186. — Valde probabile censeo primam huius no-",
+     "transcription": "nr. 186. — Valde probabile censeo primam huius no-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0304-notes_left-L007",
+     "source_line_no": null,
+     "tex": "vae solutionis partem contineri opusculo cui titulus",
+     "transcription": "vae solutionis partem contineri opusculo cui titulus",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0304-notes_left-L008",
+     "source_line_no": null,
+     "tex": "est: « \\textit{Supputatio excentricitatis, ex Almagesto re-}",
+     "transcription": "est: « *Supputatio excentricitatis, ex Almagesto re-*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0304-notes_left-L009",
+     "source_line_no": null,
+     "tex": "« \\textit{gio} \\Name{Abū Naṣr Ibn ‘Irāq} », et quod Londi-",
+     "transcription": "« *gio* {sp:Abū Naṣr Ibn ‘Irāq} », et quod Londi-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  },
+  {
+   "role": "notes_right",
+   "lines": [
+    {
+     "id": "AB01-PDF0304-notes_right-L001",
+     "source_line_no": null,
+     "tex": "nii in Bibliotheca « Library of the India Office »",
+     "transcription": "nii in Bibliotheca « Library of the India Office »",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0304-notes_right-L002",
+     "source_line_no": null,
+     "tex": "vocata asservatur.",
+     "transcription": "vocata asservatur.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0304-notes_right-L003",
+     "source_line_no": null,
+     "tex": "\\Indent (4) Totus hic al-Bīrūnī locus de apogeo editus,",
+     "transcription": "(4) Totus hic al-Bīrūnī locus de apogeo editus,",
+     "semantic_anchor": "AB01-PDF0304-N04",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0304-notes_right-L004",
+     "source_line_no": null,
+     "tex": "versus et illustratus quoque reperitur apud \\Name{Sa-}",
+     "transcription": "versus et illustratus quoque reperitur apud {sp:Sa-}",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0304-notes_right-L005",
+     "source_line_no": null,
+     "tex": "\\Name{chau} und \\Name{Holetschek}, \\textit{Eine Berechnung der}",
+     "transcription": "{sp:chau} und {sp:Holetschek}, *Eine Berechnung der*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0304-notes_right-L006",
+     "source_line_no": null,
+     "tex": "\\textit{Entfernung des Sonnen-Apogäums von dem Früh-}",
+     "transcription": "*Entfernung des Sonnen-Apogäums von dem Früh-*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0304-notes_right-L007",
+     "source_line_no": null,
+     "tex": "\\textit{lingspunkte bei Albîrûnî} (Sitzungsberichte der phi-",
+     "transcription": "*lingspunkte bei Albîrûnî* (Sitzungsberichte der phi-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0304-notes_right-L008",
+     "source_line_no": null,
+     "tex": "los.-histor. Classe der k. k. Akad. der Wissenschaften",
+     "transcription": "los.-histor. Classe der k. k. Akad. der Wissenschaften",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0304-notes_right-L009",
+     "source_line_no": null,
+     "tex": "zu Wien, 1876, t. LXXXII, p. 243-266).",
+     "transcription": "zu Wien, 1876, t. LXXXII, p. 243-266).",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  }
+ ]
+}
