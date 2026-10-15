@@ -1,0 +1,71 @@
+@page 343 254
+% Commentary on chapter 39, d) concluded: formula (β) for the anomaly between 90° and 180°; neither is in Ptolemy; Schiaparelli derives them from the figure of the epicycle about A, redrawn: EG = √((AE + AM)² + MG²), AM = e cos ψ / R, MG = e sin ψ / R, AE = 60ᵖ, the radius of the circulus pareclipticus; the minute subtracted for each degree of the distance (p. 78, l. 25-26) is of little use (Schiaparelli). e) on p. 78, l. 27-29: the apparent semidiameter of the epicycle, the angle NEK, with the figure of the eccentric and the epicycle redrawn; «in maximum numerum quintae columnae», 2° 40′, should have been written (Schiaparelli). f) on p. 78, l. 31-32: the distance of the Moon outside the syzygies; the passage corrupt, two solutions; NK = 5ᵖ 15′, NE from the angle NEK, then GE as in d) (begun).
+@nonum
+@vspace 0.25
+et, anomalia inter 90° et 180° exstante,
+@vspace -1.61
+@at 0.00:(β) | 93.82^:dist. geoc. $= \sqrt{\left(\dfrac{e \cos \psi}{R}\right)^{2} + \left(60^{p} - \dfrac{e \sin \psi}{R}\right)^{2}}\,.$
+@vspace 2.17
+@wrap 0.132 AB01-PDF0343-F01
+^ Has formulas {sp:Ptolemaeus} non habet; sed facillime hac constructione
+deducuntur: Sit E centrum Terrae et eclipticae, F centrum excentrici, G locus
+Lunae, HG itaque anomalia minor 90 gradibus; manifeste
+@vspace 0.92
+@at 79.35^:$EG = \sqrt{(AE + AM)^{2} + MG^{2}}\,.$
+In hanc formulam introducantur valores
+@vspace 0.27
+@at 79.25^:$AM = \dfrac{AG \times \cos HAG}{R} = \dfrac{e \cos \psi}{R}$
+@vspace 1.13
+@at 79.72^:$MG = \dfrac{AG \times \cos MGA}{R} = \dfrac{e \sin \psi}{R}$
+@vspace 0.24
+@at 79.43^:$AE =$ radius circuli parecliptici $=$ 60{sup:*p*},
+et statim proveniet regula (α).
+@endwrap
+@vspace -0.29
+^ [Quod in lineis 25–26 addit auctor: « *de singulis huius distantiae gradibus minutum*
+« *deme* » etc. parum habet utilitatis: nam distantia Lunae *a superficie Terrae* nunquam
+eadem est ac distantia Lunae *a loco observationis,* qua Astronomi recentiores utuntur ad
+computandam Lunae diametrum apparentem. Praeterea notandum est, etiam in syzygiis Lunae
+distantiam a centro Terrae nunquam fere 60 partibus aequari: unde patet regulam a veritate
+etiam nonnihil aberrare. Satius fuisset, partem unam demere de sexaginta partibus, quibus
+constat distantia AE. — {sc:Schiaparelli}.]
+@vspace 4.09
+@center {bi:e}) — *Pag. 78, l. 27–29.*
+@vspace 4.53
+@wrapr 143.05 AB01-PDF0343-F02
+^ [« *Sume productum minutorum quartae columnae in quin-*
+*tam columnam* ..... ».
+^ Vult nunc {sp:al–Battānī} supputare quantitatem semidiametri epi-
+cycli quae ex Terra conspicitur, scilicet angulum NEK qui est ma-
+xima aequatio anomaliae cum centrum epicycli punctum N occupet.
+@vspace 0.09
+Numerum quintae columnae non potest cognosci nisi data sit anomalia
+HNK; sed haec ignoratur, eademque id ipsum est quod inveniri de-
+bet, nam HNK $=$ 90° $+$ NEK. Ergo non « *in quintam columnam* »,
+sed « *in maximum numerum quintae columnae* » i. e. in 2° 40′
+erat scribendum. {sc:Schiaparelli}.]
+@vspace 2.73
+@at 92.89^:{bi:f}) — *Pag. 78, l. 31–32 et seqq.*
+@vspace 2.27
+^ *Distantiam geocentricam Lunae extra syzygias* supputare,
+nempe cum epicycli centrum non sit in apogeo excentrici.
+@endwrap
+@vspace -0.35
+^ [In his et in sequentibus multa videntur corrupta esse: nec facile est Auctoris mentem
+coniectura assequi. Duas problematis solutiones mihi videtur Albatenius exponere: quod si
+verum est, in codice et in Platone multa exciderunt, quorum reliquiae sunt verba Italicis lit-
+@vspace 0.07
+teris impressa; qua re finis prioris solutionis et initium posterioris desiderantur. — Cognito
+radio epicycli, seu NK $=$ 5{sup:*p*} 15′ e partibus quarum AE 60{sup:*p*} complectitur, ex angulo NEK nu-
+per invento statim NE deducitur, scilicet distantia Terrae ab epicycli centro; per quam, data
+anomalia HNG, problema resolvitur ut antea pro syzygiis mediis (v. adn. {bi:d}) factum est; pro-
+venit distantia GE Lunae a centro Terrae.
+@obs body L1-L2: the label «(β)» stands at the margin and the formula is centred where it is printed. Formula (β) gives the distance only if ψ is read as the anomaly less 90°, as in al-Battānī's rule (p. 78, L20-L24: «de eo 90° deme»); with ψ the anomaly itself, as defined on p. 253, (α) holds for every anomaly, √((60ᵖ + e cos ψ/R)² + (e sin ψ/R)²). For e = 5ᵖ 15′ and an anomaly of 120°, (α) and (β) with ψ = 30° both give 57ᵖ 33′; (β) with ψ = 120° would give 55ᵖ 31′.
+@obs body L3-L11: the figure stands on the left of these lines and is redrawn from the print: the epicycle about A (radius 24.7 pt), the line from its top H through M and A to F and the Earth E, the line from G to E, the radius AG and the perpendicular MG (89.97° to HE), with the bold italic letters where they are printed. It is not to scale: AE is 4.3 radii of the epicycle, against 60ᵖ : 5ᵖ 15′ = 11.4.
+@obs body L6-L11: in the right triangle EMG, EG² = EM² + MG² with EM = AE + AM; AM and MG are the cosine and the sine of the anomaly HAG in the epicycle of radius AG = e; with AE = 60ᵖ this is (α).
+@obs body L12-L18: heavy brackets open and close Schiaparelli's addition; «lineis 25–26» (long dash, 5.5 pt) are p. 78, L25-L26, «de singulis huius distantiae gradibus minutum deme». A minute for each degree is 1/60 of the distance, one part when the distance is 60 parts; Schiaparelli would subtract the one part of the radius of the Earth. The dash before «Schiaparelli» measures 10.2 pt.
+@obs body L19: the dash after «e)» measures 10.2 pt, that of «27–29» 5.4 pt; the lines cited are p. 78, L27-L29, «sume productum minutorum quartae columnae in quintam columnam tabularum aequationis Lunae».
+@obs body L20-L32: the figure stands on the right of these lines and is redrawn from the print: the circle about the Earth E (radius 90.2 pt) and the eccentric about F (radius 60.8 pt), their left halves from the line A F E, touching at A; the line from A through F and E; the epicycle about N (radius 19.6 pt), whose centre lies on the eccentric (0.1 pt off); the tangent EK, drawn on beyond K (N stands 19.8 pt from it); the lines EG and E N H; the radii NK and NG; the perpendicular GM (87.6° to NH); the bold italic letters where they are printed. The N below the centre of the epicycle is broken. As drawn, the angle NEK is 26.8° and EF : FA is 27.2 : 60.8.
+@obs body L22-L29: «al–Battānī» has a long dash (5.4 pt). The fifth column of al-Battānī's tables of the Moon (Part II, p. 78-81), the increment of the equation, reaches 2° 40′ at its greatest, Schiaparelli's number (7° 40′ − 5° 1′ = 2° 39′). In L29 no dash stands before «Schiaparelli»; a speck over its E is not transcribed, and a heavy bracket closes the addition.
+@obs body L30: the head stands beside the figure but is centred on the measure, as printed; the dash after «f)» measures 10.1 pt, that of «31–32» 5.4 pt.
+@obs body L33-L40: a heavy bracket opens Schiaparelli's addition, which goes on to p. 255. The «verba Italicis litteris impressa» are p. 78, L31-L32: «eo utere ut supra iis 5ᵖ ¼; invenies hypotenusam Lunae aequatam ad declivitatem epicycli»; NK = 5ᵖ 15′ is that 5ᵖ ¼. The dash before «Cognito» measures 10.4 pt; «(v. adn. d)» is note d) of p. 253.

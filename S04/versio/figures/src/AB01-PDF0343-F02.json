@@ -1,0 +1,221 @@
+{
+ "pdf": 343,
+ "printed_page": 254,
+ "comment": [
+  "Nallino, Part I p. 254, the figure on the right: the eccentric carrying the epicycle of the Moon, redrawn",
+  "from the print: the circle about the Earth E and the eccentric about F (their left halves, from the line A F E),",
+  "the epicycle about N on the eccentric, the tangent EK drawn on beyond K, the lines EG and E N H, the radii NK",
+  "and NG, the perpendicular GM, and the bold italic letters. Measured on the scan (_intake/latin/tools/fig254)."
+ ],
+ "origin": [
+  440.83,
+  452.70000000000005
+ ],
+ "scale": 0.99281,
+ "size": [
+  102.0,
+  192.0
+ ],
+ "label_pt": 11,
+ "circles": [
+  {
+   "name": "the epicycle about N",
+   "cx": 494.58,
+   "cy": 573.1,
+   "r": 19.6,
+   "w": 1.5
+  }
+ ],
+ "segments": [
+  {
+   "name": "the line from A through F and E",
+   "x0": 531.3,
+   "y0": 462.89,
+   "x1": 532.81,
+   "y1": 643.19,
+   "w": 1.28
+  },
+  {
+   "name": "the tangent EK, drawn on beyond K",
+   "x0": 532.04,
+   "y0": 551.79,
+   "x1": 482.08,
+   "y1": 553.81,
+   "w": 1.23
+  },
+  {
+   "name": "the line EG",
+   "x0": 532.04,
+   "y0": 551.79,
+   "x1": 475.41,
+   "y1": 569.03,
+   "w": 1.15
+  },
+  {
+   "name": "the line from E through N to H",
+   "x0": 532.04,
+   "y0": 551.79,
+   "x1": 477.33,
+   "y1": 582.4,
+   "w": 1.24
+  },
+  {
+   "name": "the radius NK",
+   "x0": 494.58,
+   "y0": 573.1,
+   "x1": 493.7,
+   "y1": 553.29,
+   "w": 1.24
+  },
+  {
+   "name": "the radius NG",
+   "x0": 494.58,
+   "y0": 573.1,
+   "x1": 475.41,
+   "y1": 569.03,
+   "w": 1.0
+  },
+  {
+   "name": "the perpendicular GM",
+   "x0": 475.41,
+   "y0": 569.03,
+   "x1": 481.29,
+   "y1": 580.2,
+   "w": 1.1
+  }
+ ],
+ "arcs": [
+  {
+   "name": "the circle about E, its left half",
+   "cx": 531.68,
+   "cy": 553.05,
+   "r": 90.15,
+   "a0": 89.28,
+   "a1": 269.76,
+   "w": 1.38
+  },
+  {
+   "name": "the eccentric about F, from the apogee A to the perigee",
+   "cx": 531.48,
+   "cy": 524.62,
+   "r": 60.84,
+   "a0": 89.21,
+   "a1": 269.84,
+   "w": 1.23
+  }
+ ],
+ "labels": [
+  {
+   "t": "\\resizebox{8.41pt}{7.48pt}{A}",
+   "cx": 528.48,
+   "cy": 454.66,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{5.21pt}{7.26pt}{F}",
+   "cx": 538.22,
+   "cy": 523.3,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{6.72pt}{7.36pt}{K}",
+   "cx": 493.19,
+   "cy": 548.4,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{5.80pt}{7.74pt}{E}",
+   "cx": 537.75,
+   "cy": 550.98,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{6.19pt}{6.69pt}{G}",
+   "cx": 468.17,
+   "cy": 567.06,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{5.20pt}{6.32pt}{N}",
+   "cx": 493.52,
+   "cy": 577.7,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{5.74pt}{5.97pt}{M}",
+   "cx": 485.21,
+   "cy": 582.7,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{7.17pt}{7.49pt}{H}",
+   "cx": 469.22,
+   "cy": 584.02,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  }
+ ],
+ "boxes": {
+  "A@524,450": [
+   8.28,
+   7.56
+  ],
+  "F@535,519": [
+   6.0,
+   7.32
+  ],
+  "K@490,544": [
+   7.2,
+   7.44
+  ],
+  "E@534,544": [
+   6.12,
+   7.8
+  ],
+  "G@465,563": [
+   5.88,
+   6.84
+  ],
+  "N@491,574": [
+   5.64,
+   6.48
+  ],
+  "M@482,579": [
+   6.0,
+   6.12
+  ],
+  "H@466,580": [
+   7.68,
+   7.56
+  ]
+ },
+ "points": {
+  "E": [
+   532.04,
+   551.79
+  ],
+  "A": [
+   531.3,
+   462.89
+  ],
+  "N": [
+   494.58,
+   573.1
+  ],
+  "K": [
+   493.7,
+   553.29
+  ],
+  "G": [
+   475.41,
+   569.03
+  ],
+  "H": [
+   477.33,
+   582.4
+  ],
+  "M": [
+   481.29,
+   580.2
+  ]
+ }
+}

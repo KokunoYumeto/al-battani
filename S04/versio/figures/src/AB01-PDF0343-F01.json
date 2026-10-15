@@ -1,0 +1,149 @@
+{
+ "pdf": 343,
+ "printed_page": 254,
+ "comment": [
+  "Nallino, Part I p. 254, the figure on the left: Schiaparelli's construction of formula (alpha), redrawn",
+  "from the print: the epicycle about A, the line from its top H through M and A to F and the Earth E, the line",
+  "from G to E, the radius AG and the perpendicular MG, and the bold italic letters. Measured on the scan",
+  "(_intake/latin/tools/fig254)."
+ ],
+ "origin": [
+  113.77,
+  161.22
+ ],
+ "scale": 0.99281,
+ "size": [
+  56.0,
+  151.0
+ ],
+ "label_pt": 11,
+ "circles": [
+  {
+   "name": "the epicycle about A",
+   "cx": 139.72,
+   "cy": 204.53,
+   "r": 24.67,
+   "w": 1.5
+  }
+ ],
+ "segments": [
+  {
+   "name": "the line from H through M, A and F to the Earth E",
+   "x0": 139.51,
+   "y0": 179.85,
+   "x1": 141.84,
+   "y1": 309.45,
+   "w": 1.31
+  },
+  {
+   "name": "the line from G to E",
+   "x0": 158.33,
+   "y0": 188.83,
+   "x1": 141.84,
+   "y1": 309.45,
+   "w": 1.16
+  },
+  {
+   "name": "the radius AG",
+   "x0": 139.95,
+   "y0": 204.15,
+   "x1": 158.33,
+   "y1": 188.83,
+   "w": 1.0
+  },
+  {
+   "name": "the perpendicular MG",
+   "x0": 139.68,
+   "y0": 189.18,
+   "x1": 158.33,
+   "y1": 188.83,
+   "w": 1.36
+  }
+ ],
+ "labels": [
+  {
+   "t": "\\resizebox{7.40pt}{6.54pt}{H}",
+   "cx": 138.28,
+   "cy": 172.64,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{9.29pt}{6.55pt}{M}",
+   "cx": 131.99,
+   "cy": 188.2,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{6.57pt}{6.69pt}{G}",
+   "cx": 164.82,
+   "cy": 183.8,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{6.95pt}{7.25pt}{A}",
+   "cx": 130.45,
+   "cy": 205.3,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{6.04pt}{6.66pt}{F}",
+   "cx": 133.36,
+   "cy": 283.24,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{6.59pt}{6.79pt}{E}",
+   "cx": 134.68,
+   "cy": 306.9,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  }
+ ],
+ "boxes": {
+  "H@134,169": [
+   7.92,
+   6.6
+  ],
+  "M@127,184": [
+   9.72,
+   6.72
+  ],
+  "G@162,180": [
+   6.24,
+   6.84
+  ],
+  "A@127,201": [
+   6.84,
+   7.32
+  ],
+  "F@130,279": [
+   6.96,
+   6.72
+  ],
+  "E@131,303": [
+   6.96,
+   6.84
+  ]
+ },
+ "points": {
+  "E": [
+   141.84,
+   309.45
+  ],
+  "M": [
+   139.68,
+   189.18
+  ],
+  "G": [
+   158.33,
+   188.83
+  ],
+  "A": [
+   139.95,
+   204.15
+  ],
+  "H": [
+   139.51,
+   179.85
+  ]
+ }
+}
