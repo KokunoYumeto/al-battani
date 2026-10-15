@@ -1,0 +1,437 @@
+{
+ "anchor": "AB01-PDF0360",
+ "master_pdf_page": 360,
+ "printed_page": 271,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "margin_locators": [],
+ "observations": [
+  "body L3, L6, L8-L9, L19, L22, L24-L26, L32, L34: «89,v.-90,v.» (L6) has a hyphen (3.5 pt); «al–Khāzinī» (L6), «Al–Battānī» (L9) and «al–Battānī» (L19) have long dashes (5.4 pt), as have «1–34» (L8), «31–32» (L25) and «18–19» (L32) in the heads and the reference (5.4 to 5.9 pt). The dashes after «d)», «e)» and «f)» and before «Sectio» (L3), «Al–Battānī» (L9), «Regula» (L22), «Schiaparelli» (L24) and «Constructio» (L26) and at the end of L32 measure 8.9 to 10.3 pt.",
+  "body L9, L24, L26, L33, L36: heavy brackets open Schiaparelli's additions in L9, L26 and L36 and close them in L24 and L33; the addition begun in L36 goes on to p. 272.",
+  "body L12-L16: al-Battānī's second solution (p. 88, l. 3-8 of the translation) takes 10° 5/6 = 10° 50′ when the Moon moves with its least and the Sun with its greatest motion, and 13° 2/3 = 13° 40′ when the Moon moves with its greatest and the Sun with its least. A speck 2.3 by 1.8 pt at mid-height before «minimum)» (L15) is not a hyphen.",
+  "body L18: 11° 45′ · 13/12 · 12° 11′ : 13° 40′ = 11° 20′ 51″, which the print gives as 11° 21′. The factor 13/12 adds a twelfth to the arc for the greatest distance; the inverse ratio of rule III on p. 268 for the number 0 of the third column, 1 : 1 − 1/12, would give 12/11 and 11° 25′ 37″.",
+  "body L26, L31: the translation, p. 89, l. 31-32, reads «spatium inter duos arcus est Lunae novae imago»; Schiaparelli's quotations here have «novae Lunae». The quotation of L32 is p. 90, l. 18-19."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0360-body-L001",
+     "source_line_no": null,
+     "tex": "« tionem secundam dememus a depressione correcta; si ad arcum lucis e tabula sumptum",
+     "transcription": "« tionem secundam dememus a depressione correcta; si ad arcum lucis e tabula sumptum",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0360-body-L002",
+     "source_line_no": null,
+     "tex": "« differentia pertinebat, aequationem secundam addemus depressioni correctae. Prodibit \\textit{de-}",
+     "transcription": "« differentia pertinebat, aequationem secundam addemus depressioni correctae. Prodibit *de-*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0360-body-L003",
+     "source_line_no": null,
+     "tex": "« \\textit{pressio adhibenda} (\\ArabicRun{الانحطاط المحصى}). — \\textit{Sectio:} De consideratione rursus facienda. Si depressio",
+     "transcription": "« *pressio adhibenda* ({ar:الانحطاط المحصى}). — *Sectio:* De consideratione rursus facienda. Si depressio",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0360-body-L004",
+     "source_line_no": null,
+     "tex": "« Solis quam calculo invenimus tempore occasus Lunae est aequalis depressioni adhibendae",
+     "transcription": "« Solis quam calculo invenimus tempore occasus Lunae est aequalis depressioni adhibendae",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0360-body-L005",
+     "source_line_no": null,
+     "tex": "« aut maior, Luna nova conspicitur; si minor, non conspicitur ».",
+     "transcription": "« aut maior, Luna nova conspicitur; si minor, non conspicitur ».",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0360-body-L006",
+     "source_line_no": null,
+     "tex": "\\Indent Postremo (cap. VI, f. 89,v.-90,v.) \\Name{al–Khāzinī} methodum suam docet, quam, cum sit",
+     "transcription": "Postremo (cap. VI, f. 89,v.-90,v.) {sp:al–Khāzinī} methodum suam docet, quam, cum sit",
+     "semantic_anchor": "AB01-PDF0360-P01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0360-body-L007",
+     "source_line_no": null,
+     "tex": "Albatenio serior, nunc referre operis pretium non est.",
+     "transcription": "Albatenio serior, nunc referre operis pretium non est.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0360-body-L008",
+     "source_line_no": null,
+     "tex": "\\CenterLine{\\textbf{\\textit{d}}) — \\textit{Pag. 88, l. 1–34.}}",
+     "transcription": "{bi:d}) — *Pag. 88, l. 1–34.*",
+     "semantic_anchor": "AB01-PDF0360-H08",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0360-body-L009",
+     "source_line_no": null,
+     "tex": "\\Indent [« \\textit{Ut nunc ad opinionem revertamur.....} ». — \\Name{Al–Battānī} nunc aliam rationem eius-",
+     "transcription": "[« *Ut nunc ad opinionem revertamur.....* ». — {sp:Al–Battānī} nunc aliam rationem eius-",
+     "semantic_anchor": "AB01-PDF0360-P02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0360-body-L010",
+     "source_line_no": null,
+     "tex": "dem calculi ducendi exponit; iisdem nititur principiis, sed alios numeros tanquam fundamen-",
+     "transcription": "dem calculi ducendi exponit; iisdem nititur principiis, sed alios numeros tanquam fundamen-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0360-body-L011",
+     "source_line_no": null,
+     "tex": "tum sumit. Ponit Lunam, in maxima distantia a Terra i. e. minima diametro apparenti prae-",
+     "transcription": "tum sumit. Ponit Lunam, in maxima distantia a Terra i. e. minima diametro apparenti prae-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0360-body-L012",
+     "source_line_no": null,
+     "tex": "ditam, visibilem fieri cum \\textit{arcus apparitionis} sit 10° 50′ et distantia angularis a Sole 13° 40′.",
+     "transcription": "ditam, visibilem fieri cum *arcus apparitionis* sit 10° 50′ et distantia angularis a Sole 13° 40′.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0360-body-L013",
+     "source_line_no": null,
+     "tex": "Modo satis peregrino delectum horum numerorum explicat, dicens priorem esse \\textit{minimum}",
+     "transcription": "Modo satis peregrino delectum horum numerorum explicat, dicens priorem esse *minimum*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0360-body-L014",
+     "source_line_no": null,
+     "tex": "qui fieri possit motum relativum Solis et Lunae in ecliptica (nempe cum Sol maximum mo-",
+     "transcription": "qui fieri possit motum relativum Solis et Lunae in ecliptica (nempe cum Sol maximum mo-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0360-body-L015",
+     "source_line_no": null,
+     "tex": "tum horarium habeat, Luna minimum); alterum esse motum relativum \\textit{maximum,} cum Sol",
+     "transcription": "tum horarium habeat, Luna minimum); alterum esse motum relativum *maximum,* cum Sol",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0360-body-L016",
+     "source_line_no": null,
+     "tex": "quam tardissime, Luna quam celerrime moveatur. Sed quomodocumque res sit, condicio rerum",
+     "transcription": "quam tardissime, Luna quam celerrime moveatur. Sed quomodocumque res sit, condicio rerum",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0360-body-L017",
+     "source_line_no": null,
+     "tex": "his numeris repraesentata haud multum differt a condicione in praecedenti solutione delecta.",
+     "transcription": "his numeris repraesentata haud multum differt a condicione in praecedenti solutione delecta.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0360-body-L018",
+     "source_line_no": null,
+     "tex": "Iuxta quae antea posuerat invenitur 11° 45′ $\\dfrac{13}{12}\\cdot\\dfrac{\\text{12° 11′}}{\\text{13° 40′}} =$ 11° 21′ $=$ \\textit{arcus apparitionis} res-",
+     "transcription": "Iuxta quae antea posuerat invenitur 11° 45′ $\\dfrac{13}{12}\\cdot\\dfrac{\\text{12° 11′}}{\\text{13° 40′}} =$ 11° 21′ $=$ *arcus apparitionis* res-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0360-body-L019",
+     "source_line_no": null,
+     "tex": "pondens maximae distantiae lunari et elongationi 13° 40′. Nunc pro 11° 21′ al–Battānī 10° 50′",
+     "transcription": "pondens maximae distantiae lunari et elongationi 13° 40′. Nunc pro 11° 21′ al–Battānī 10° 50′",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0360-body-L020",
+     "source_line_no": null,
+     "tex": "tantum ponit; differentia parvi momenti est, attamen iuxta novum calculum interdum Luna",
+     "transcription": "tantum ponit; differentia parvi momenti est, attamen iuxta novum calculum interdum Luna",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0360-body-L021",
+     "source_line_no": null,
+     "tex": "nova potest visibilis iudicari in condicionibus in quibus iuxta priorem calculum apparere ne-",
+     "transcription": "nova potest visibilis iudicari in condicionibus in quibus iuxta priorem calculum apparere ne-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0360-body-L022",
+     "source_line_no": null,
+     "tex": "quibat. — Regula autem supputationis eadem est quae casus praecedentis, hoc tantum excepto",
+     "transcription": "quibat. — Regula autem supputationis eadem est quae casus praecedentis, hoc tantum excepto",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0360-body-L023",
+     "source_line_no": null,
+     "tex": "quod in ratione ducenda distantiae Lunae a Terra tanquam fundamentum illius rationis sumi-",
+     "transcription": "quod in ratione ducenda distantiae Lunae a Terra tanquam fundamentum illius rationis sumi-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0360-body-L024",
+     "source_line_no": null,
+     "tex": "tur distantia maxima pro media, et consequenter est operandum. — \\textsc{Schiaparelli}.]",
+     "transcription": "tur distantia maxima pro media, et consequenter est operandum. — {sc:Schiaparelli}.]",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0360-body-L025",
+     "source_line_no": null,
+     "tex": "\\CenterLine{\\textbf{\\textit{e}}) — \\textit{Pag. 89, l. 31–32.}}",
+     "transcription": "{bi:e}) — *Pag. 89, l. 31–32.*",
+     "semantic_anchor": "AB01-PDF0360-H25",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0360-body-L026",
+     "source_line_no": null,
+     "tex": "\\Indent [« \\textit{Spatium inter duos arcus est novae Lunae imago} ». — Constructio auctoris incli-",
+     "transcription": "[« *Spatium inter duos arcus est novae Lunae imago* ». — Constructio auctoris incli-",
+     "semantic_anchor": "AB01-PDF0360-P03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0360-body-L027",
+     "source_line_no": null,
+     "tex": "nationem lineae cornuum respectu eclipticae satis exacte praebet, eo usque saltem quo diffe-",
+     "transcription": "nationem lineae cornuum respectu eclipticae satis exacte praebet, eo usque saltem quo diffe-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0360-body-L028",
+     "source_line_no": null,
+     "tex": "rentia longitudinis inter Solem et Lunam non fiat multo maior differentia quae solet primae",
+     "transcription": "rentia longitudinis inter Solem et Lunam non fiat multo maior differentia quae solet primae",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0360-body-L029",
+     "source_line_no": null,
+     "tex": "apparitionis die haberi. Animadvertendum etiam est GT esse \\textit{veram latitudinem fusi} lunaris",
+     "transcription": "apparitionis die haberi. Animadvertendum etiam est GT esse *veram latitudinem fusi* lunaris",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0360-body-L030",
+     "source_line_no": null,
+     "tex": "visibilis, non latitudinem \\textit{falcis} quae fuso multo subtilior est, nam ibi superficies lunaris sub",
+     "transcription": "visibilis, non latitudinem *falcis* quae fuso multo subtilior est, nam ibi superficies lunaris sub",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0360-body-L031",
+     "source_line_no": null,
+     "tex": "magna obliquitate conspicitur. Hoc modo intelligenda sunt verba « est novae Lunae imago ».",
+     "transcription": "magna obliquitate conspicitur. Hoc modo intelligenda sunt verba « est novae Lunae imago ».",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0360-body-L032",
+     "source_line_no": null,
+     "tex": "Melius infra p. 90, l. 18–19: « Linea TG erit ..... quantitas digitorum lucis lunaris ». —",
+     "transcription": "Melius infra p. 90, l. 18–19: « Linea TG erit ..... quantitas digitorum lucis lunaris ». —",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0360-body-L033",
+     "source_line_no": null,
+     "tex": "\\textsc{Schiaparelli}.]",
+     "transcription": "{sc:Schiaparelli}.]",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0360-body-L034",
+     "source_line_no": null,
+     "tex": "\\CenterLine{\\textbf{\\textit{f}}) — \\textit{Pag. 91, l. 11 et seqq.}}",
+     "transcription": "{bi:f}) — *Pag. 91, l. 11 et seqq.*",
+     "semantic_anchor": "AB01-PDF0360-H34",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0360-body-L035",
+     "source_line_no": null,
+     "tex": "\\Indent I. \\textit{Horizontis locum e quo Luna nova apparebit} cognoscere.",
+     "transcription": "I. *Horizontis locum e quo Luna nova apparebit* cognoscere.",
+     "semantic_anchor": "AB01-PDF0360-P04",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0360-body-L036",
+     "source_line_no": null,
+     "tex": "\\Indent [In figura huius paginae quaedam sunt cum textu minime convenientia; et in textu ipso",
+     "transcription": "[In figura huius paginae quaedam sunt cum textu minime convenientia; et in textu ipso",
+     "semantic_anchor": "AB01-PDF0360-P05",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0360-body-L037",
+     "source_line_no": null,
+     "tex": "quaedam, Italicis litteris impressa, haud recta. Quoniam EG est circulus verticalis per Lu-",
+     "transcription": "quaedam, Italicis litteris impressa, haud recta. Quoniam EG est circulus verticalis per Lu-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0360-body-L038",
+     "source_line_no": null,
+     "tex": "nam F transiens eiusque directionem G in horizonte indicans, punctum H eclipticae cum Luna",
+     "transcription": "nam F transiens eiusque directionem G in horizonte indicans, punctum H eclipticae cum Luna",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0360-body-L039",
+     "source_line_no": null,
+     "tex": "culminans debebit non in linea a G ad E, sed in circulo maximo qui a Luna F ad polum",
+     "transcription": "culminans debebit non in linea a G ad E, sed in circulo maximo qui a Luna F ad polum",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0360-body-L040",
+     "source_line_no": null,
+     "tex": "caelestem procedit esse. Attamen in textu codicis et Platonis linea KEHFG memoratur!",
+     "transcription": "caelestem procedit esse. Attamen in textu codicis et Platonis linea KEHFG memoratur!",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0360-body-L041",
+     "source_line_no": null,
+     "tex": "Figura male descripta, et textus ad eius errores accommodatus, ut alibi quoque vidimus,",
+     "transcription": "Figura male descripta, et textus ad eius errores accommodatus, ut alibi quoque vidimus,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    }
+   ]
+  }
+ ]
+}
