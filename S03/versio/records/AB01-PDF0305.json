@@ -1,0 +1,619 @@
+{
+ "anchor": "AB01-PDF0305",
+ "master_pdf_page": 305,
+ "printed_page": 216,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "margin_locators": [],
+ "observations": [
+  "body L1, L25, L30: the dashes after «III.» and before «Caussin» and «Ibn ‘Ezrā» measure 10.0 to 10.2 pt and are transcribed as dashes.",
+  "body L2, L6, L9, L15-L17, L19-L20, L23, L32: the dashes of the transliterated names are long dashes (5.2 to 5.5 pt); the name of al-Battānī is divided between L16 and L17 with the dash repeated.",
+  "body L16-L17: 11″,46 in 745 years make 8537″,7 = 2° 22′ 18″.",
+  "body L29: «fût» is printed for fut.",
+  "body L32-L33: no hyphen is printed after «per».",
+  "body L11-L14: Nallino's addenda et emendanda (Part I, p. LXXIV) add to this page: «Priore II saec. Chr. medietate, Theon Smyrnaeus (minime cum Alexandrino confundendus) annum sideralem, quem a tropico non distinguit, ponit 365 1/4 esse dierum; annum anomalisticum, quo Sol ad apogeum redit, 365 1/2. Motum igitur praecessionis negans, manifeste putat apogeum solare totum zodiacum percurrere 1461 annis, i. e. 27′ 6″ 1/2 quotannis moveri! Unde haec absurda sumpserit nescimus; error in textu Graeco non potest coniici, nam, ut Martin p. 110 animadvertit, auctor ipse addit Solem ad idem altitudinis punctum, id est ad eandem a Terra distantiam, eadem diei hora singulis bienniis redire (1). Recte igitur Martin l. c. iudicat: ‹ Ecce vero Theon Smyrnaeus solaris apogei in zodiaco motum erga aequinoctia et erga stellas iam affirmaverat, et ita quidem iusto citiorem fecerat, ut satius fuerit eum ignorare aut negare, quam talem credere ›. — (1) Theonis Smyrnaei Liber de astronomia, textum edidit, Latine vertit,..... notis illustravit Th. H. Martin, Parisiis 1849, p. 261; Theonis Smyrnaei Expositio rerum mathematicarum ad legendum Platonem utilium, recensuit Ed. Hiller, Lipsiae 1878, p. 172-73.» A whole circle in 1461 years is 14′ 47″ a year.",
+  "notes_left L2-L3, L11, notes_right L2-L3: the dashes of «44-45», «89-90», «34-38» and «331-338» measure 2.6 to 4.2 pt, hyphens, and that of «al–Bīrūnī» 4.3 pt, a long dash; «44-45.—» is printed without a space before the dash."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0305-body-L001",
+     "source_line_no": null,
+     "tex": "\\Indent III. — \\textit{Motus apogei Solis.}",
+     "transcription": "III. — *Motus apogei Solis.*",
+     "semantic_anchor": "AB01-PDF0305-P01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0305-body-L002",
+     "source_line_no": null,
+     "tex": "\\Indent Iure \\Name{Delambre}, p. 36, negat \\Name{al–Battānī} motum \\textit{proprium} apogei solaris cognovisse,",
+     "transcription": "Iure {sp:Delambre}, p. 36, negat {sp:al–Battānī} motum *proprium* apogei solaris cognovisse,",
+     "semantic_anchor": "AB01-PDF0305-P02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0305-body-L003",
+     "source_line_no": null,
+     "tex": "ut perperam aiunt \\Name{Bailly} aliique multi; re vera in fine XXXIII et XLIV capitum apogeo",
+     "transcription": "ut perperam aiunt {sp:Bailly} aliique multi; re vera in fine XXXIII et XLIV capitum apogeo",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0305-body-L004",
+     "source_line_no": null,
+     "tex": "Solis nonnisi motum reliquorum apogeorum et stellarum fixarum tribuit, scilicet motum prae-",
+     "transcription": "Solis nonnisi motum reliquorum apogeorum et stellarum fixarum tribuit, scilicet motum prae-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0305-body-L005",
+     "source_line_no": null,
+     "tex": "cessionis.",
+     "transcription": "cessionis.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0305-body-L006",
+     "source_line_no": null,
+     "tex": "\\Indent Haud recte tamen \\Name{Delambre} miratur al–Battānī suum apogeum solare cum Hipparchi",
+     "transcription": "Haud recte tamen {sp:Delambre} miratur al–Battānī suum apogeum solare cum Hipparchi",
+     "semantic_anchor": "AB01-PDF0305-P03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0305-body-L007",
+     "source_line_no": null,
+     "tex": "et Ptolemaei (qui 65° 30′ habent) non comparavisse, et hoc modo motum annuum peculiarem",
+     "transcription": "et Ptolemaei (qui 65° 30′ habent) non comparavisse, et hoc modo motum annuum peculiarem",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0305-body-L008",
+     "source_line_no": null,
+     "tex": "apogei non deduxisse 25 secundarum (comparatione cum apogeo Ptolemaei instituta) aut 21",
+     "transcription": "apogei non deduxisse 25 secundarum (comparatione cum apogeo Ptolemaei instituta) aut 21",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0305-body-L009",
+     "source_line_no": null,
+     "tex": "(cum apogeo Hipparchi). Al–Battānī optime intellexit nullius utilitatis esse longitudinem Grae-",
+     "transcription": "(cum apogeo Hipparchi). Al–Battānī optime intellexit nullius utilitatis esse longitudinem Grae-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0305-body-L010",
+     "source_line_no": null,
+     "tex": "cam apogei solaris; \\Name{Ptolemaeus} (1) enim, licet motum praecessionis tribuat stellis fixis et",
+     "transcription": "cam apogei solaris; {sp:Ptolemaeus} (1) enim, licet motum praecessionis tribuat stellis fixis et",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0305-body-L011",
+     "source_line_no": null,
+     "tex": "planetarum apogeis, apogeum Solis immobile existimat, affirmans se, anno 463 ab Alexandro",
+     "transcription": "planetarum apogeis, apogeum Solis immobile existimat, affirmans se, anno 463 ab Alexandro",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0305-body-L012",
+     "source_line_no": null,
+     "tex": "mortuo (139 Chr.), illud invenisse in eadem longitudine 65° 30′, in qua, 265 fere annis ante,",
+     "transcription": "mortuo (139 Chr.), illud invenisse in eadem longitudine 65° 30′, in qua, 265 fere annis ante,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0305-body-L013",
+     "source_line_no": null,
+     "tex": "\\Name{Hipparchus} invenerat! Ipse \\Name{Theon} (\\textit{Tables manuelles,} ed. Halma, t. I, p. 54) demum,",
+     "transcription": "{sp:Hipparchus} invenerat! Ipse {sp:Theon} (*Tables manuelles,* ed. Halma, t. I, p. 54) demum,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0305-body-L014",
+     "source_line_no": null,
+     "tex": "IV Chr. saeculo, apogeum Solis semper in 65° 30′ ponit.",
+     "transcription": "IV Chr. saeculo, apogeum Solis semper in 65° 30′ ponit.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0305-body-L015",
+     "source_line_no": null,
+     "tex": "\\Indent Quo modo itaque e Graecorum dictis poterat al–Battānī parvum motum proprium apogei",
+     "transcription": "Quo modo itaque e Graecorum dictis poterat al–Battānī parvum motum proprium apogei",
+     "semantic_anchor": "AB01-PDF0305-P04",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0305-body-L016",
+     "source_line_no": null,
+     "tex": "Solis deducere, qui quotannis est 11″,46 et in intervallo 745 annorum a Ptolemaeo ad al–",
+     "transcription": "Solis deducere, qui quotannis est 11″,46 et in intervallo 745 annorum a Ptolemaeo ad al–",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0305-body-L017",
+     "source_line_no": null,
+     "tex": "–Battānī nonnisi 2° 22′ 18″ attingit? Iam maximi momenti est Arabes falsam declarasse Grae-",
+     "transcription": "–Battānī nonnisi 2° 22′ 18″ attingit? Iam maximi momenti est Arabes falsam declarasse Grae-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0305-body-L018",
+     "source_line_no": null,
+     "tex": "corum sententiam de immobilitate apogei solaris, et agnovisse illud particeps esse motus prae-",
+     "transcription": "corum sententiam de immobilitate apogei solaris, et agnovisse illud particeps esse motus prae-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0305-body-L019",
+     "source_line_no": null,
+     "tex": "cessionis aequinoctiorum, quo longitudines stellarum fixarum augentur. Scribit \\Name{al–Mas‘ūdī},",
+     "transcription": "cessionis aequinoctiorum, quo longitudines stellarum fixarum augentur. Scribit {sp:al–Mas‘ūdī},",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0305-body-L020",
+     "source_line_no": null,
+     "tex": "\\textit{at–Tanbīh,} p. 222: « Astrologi et astronomi aetatis nostrae a sapientibus Indorum, Chaldaeo-",
+     "transcription": "*at–Tanbīh,* p. 222: « Astrologi et astronomi aetatis nostrae a sapientibus Indorum, Chaldaeo-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0305-body-L021",
+     "source_line_no": null,
+     "tex": "« rum, Aegyptiorum, Graecorum, Romanorum aliorumque non dissentiunt in ponendo apo-",
+     "transcription": "« rum, Aegyptiorum, Graecorum, Romanorum aliorumque non dissentiunt in ponendo apo-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0305-body-L022",
+     "source_line_no": null,
+     "tex": "« geum Solis in signo Geminorum; discrepantia inter eos nonnisi circa eius immobilitatem et",
+     "transcription": "« geum Solis in signo Geminorum; discrepantia inter eos nonnisi circa eius immobilitatem et",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0305-body-L023",
+     "source_line_no": null,
+     "tex": "« motum, ut diximus, exstat. \\Name{Thābit ibn Qurrah} aṣ–Ṣābi’ al–Ḥarrānī (2) epistulam scri-",
+     "transcription": "« motum, ut diximus, exstat. {sp:Thābit ibn Qurrah} aṣ–Ṣābi’ al–Ḥarrānī (2) epistulam scri-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0305-body-L024",
+     "source_line_no": null,
+     "tex": "« psit ut Hipparchi sententiam, apogeum Solis moveri, defenderet contra quae dixerat Ptole-",
+     "transcription": "« psit ut Hipparchi sententiam, apogeum Solis moveri, defenderet contra quae dixerat Ptole-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0305-body-L025",
+     "source_line_no": null,
+     "tex": "« maeus » (3). — \\Name{Caussin}, p. 234, haec iuxta \\Name{Ibn Yūnus} narrat: « Dans ce même chap. VIII,",
+     "transcription": "« maeus » (3). — {sp:Caussin}, p. 234, haec iuxta {sp:Ibn Yūnus} narrat: « Dans ce même chap. VIII,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0305-body-L026",
+     "source_line_no": null,
+     "tex": "« Ebn Iounis rapporte deux observations faites par les Perses, postérieurement à Ptolémée,",
+     "transcription": "« Ebn Iounis rapporte deux observations faites par les Perses, postérieurement à Ptolémée,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0305-body-L027",
+     "source_line_no": null,
+     "tex": "« qui ont servi à reconnoître le mouvement de l’apogée du soleil que Ptolémée croyoit im-",
+     "transcription": "« qui ont servi à reconnoître le mouvement de l’apogée du soleil que Ptolémée croyoit im-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0305-body-L028",
+     "source_line_no": null,
+     "tex": "« mobile. Par la première de ces observations, qui remonte à l’an 470 environ, ère vulgaire,",
+     "transcription": "« mobile. Par la première de ces observations, qui remonte à l’an 470 environ, ère vulgaire,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0305-body-L029",
+     "source_line_no": null,
+     "tex": "« l’apogée du Soleil fût trouvé dans 17° 55′ des gémeaux; et par la seconde, 160 ans environ",
+     "transcription": "« l’apogée du Soleil fût trouvé dans 17° 55′ des gémeaux; et par la seconde, 160 ans environ",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0305-body-L030",
+     "source_line_no": null,
+     "tex": "« après, 630 ère vulgaire, dans 20° des gémeaux ». — \\Name{Ibn ‘Ezrā} (4), qui in posteriore me-",
+     "transcription": "« après, 630 ère vulgaire, dans 20° des gémeaux ». — {sp:Ibn ‘Ezrā} (4), qui in posteriore me-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0305-body-L031",
+     "source_line_no": null,
+     "tex": "dietate XII saec. Chr. obiit, in praefatione sua ad versionem Hebraicam \\textit{Fundamentorum}",
+     "transcription": "dietate XII saec. Chr. obiit, in praefatione sua ad versionem Hebraicam *Fundamentorum*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0305-body-L032",
+     "source_line_no": null,
+     "tex": "\\textit{tabularum al–Khuwārizmī} a quodam Ibn al–Muthannà conscriptorum, ait Ptolemaeum per",
+     "transcription": "*tabularum al–Khuwārizmī* a quodam Ibn al–Muthannà conscriptorum, ait Ptolemaeum per",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0305-body-L033",
+     "source_line_no": null,
+     "tex": "peram immobile credidisse apogeum Solis, cuius motum aequalem motui stellarum fixarum",
+     "transcription": "peram immobile credidisse apogeum Solis, cuius motum aequalem motui stellarum fixarum",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0305-body-L034",
+     "source_line_no": null,
+     "tex": "« docti Ismaelis » i. e. Arabes primi agnovissent (5).",
+     "transcription": "« docti Ismaelis » i. e. Arabes primi agnovissent (5).",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    }
+   ]
+  },
+  {
+   "role": "notes_left",
+   "lines": [
+    {
+     "id": "AB01-PDF0305-notes_left-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (1) \\textit{Almag.} III, 4 (ed. Halma t. I, p. 184); item",
+     "transcription": "(1) *Almag.* III, 4 (ed. Halma t. I, p. 184); item",
+     "semantic_anchor": "AB01-PDF0305-N01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0305-notes_left-L002",
+     "source_line_no": null,
+     "tex": "in \\textit{Hypothesibus} ed. Halma, Paris 1820, p. 44-45.—",
+     "transcription": "in *Hypothesibus* ed. Halma, Paris 1820, p. 44-45.—",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0305-notes_left-L003",
+     "source_line_no": null,
+     "tex": "\\Name{Proclus}, \\textit{Hypotyposes,} ed. Halma, p. 89-90 et",
+     "transcription": "{sp:Proclus}, *Hypotyposes,* ed. Halma, p. 89-90 et",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0305-notes_left-L004",
+     "source_line_no": null,
+     "tex": "120, astronomos dicit immobiles invenisse apsides",
+     "transcription": "120, astronomos dicit immobiles invenisse apsides",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0305-notes_left-L005",
+     "source_line_no": null,
+     "tex": "Solis, apogeum scilicet in 5° $\\qfrac{1}{2}$ Gemin. (65° 30′) et",
+     "transcription": "Solis, apogeum scilicet in 5° {sfrac:1/2} Gemin. (65° 30′) et",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0305-notes_left-L006",
+     "source_line_no": null,
+     "tex": "perigeum in 5° $\\qfrac{1}{2}$ Sagitt. (245° 30′). Sed Proclus",
+     "transcription": "perigeum in 5° {sfrac:1/2} Sagitt. (245° 30′). Sed Proclus",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0305-notes_left-L007",
+     "source_line_no": null,
+     "tex": "(V saec. Chr.) etiam negat praecessionem aequino-",
+     "transcription": "(V saec. Chr.) etiam negat praecessionem aequino-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0305-notes_left-L008",
+     "source_line_no": null,
+     "tex": "ctiorum.",
+     "transcription": "ctiorum.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0305-notes_left-L009",
+     "source_line_no": null,
+     "tex": "\\Indent (2) Obiit mense ṣafar 288 heg. (Febr. 901 Chr.);",
+     "transcription": "(2) Obiit mense ṣafar 288 heg. (Febr. 901 Chr.);",
+     "semantic_anchor": "AB01-PDF0305-N02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0305-notes_left-L010",
+     "source_line_no": null,
+     "tex": "\\Name{Suter}, \\textit{Die Mathematiker und Astronomen der}",
+     "transcription": "{sp:Suter}, *Die Mathematiker und Astronomen der*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0305-notes_left-L011",
+     "source_line_no": null,
+     "tex": "\\textit{Araber,} nr. 66, p. 34-38; M. \\Name{Steinschneider},",
+     "transcription": "*Araber,* nr. 66, p. 34-38; M. {sp:Steinschneider},",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0305-notes_left-L012",
+     "source_line_no": null,
+     "tex": "\\textit{Thabit ben Korra, bibliographische Notiz} (in Zeit-",
+     "transcription": "*Thabit ben Korra, bibliographische Notiz* (in Zeit-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  },
+  {
+   "role": "notes_right",
+   "lines": [
+    {
+     "id": "AB01-PDF0305-notes_right-L001",
+     "source_line_no": null,
+     "tex": "schrift für Mathematik und Physik, t. XVIII, 1873,",
+     "transcription": "schrift für Mathematik und Physik, t. XVIII, 1873,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0305-notes_right-L002",
+     "source_line_no": null,
+     "tex": "p. 331-338).",
+     "transcription": "p. 331-338).",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0305-notes_right-L003",
+     "source_line_no": null,
+     "tex": "\\Indent (3) Cfr. quoque locum \\Name{al–Bīrūnī} quem",
+     "transcription": "(3) Cfr. quoque locum {sp:al–Bīrūnī} quem",
+     "semantic_anchor": "AB01-PDF0305-N03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0305-notes_right-L004",
+     "source_line_no": null,
+     "tex": "p. 208, l. 11 sqq. attuli.",
+     "transcription": "p. 208, l. 11 sqq. attuli.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0305-notes_right-L005",
+     "source_line_no": null,
+     "tex": "\\Indent (4) Locus Hebraice et Germanice est apud",
+     "transcription": "(4) Locus Hebraice et Germanice est apud",
+     "semantic_anchor": "AB01-PDF0305-N04",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0305-notes_right-L006",
+     "source_line_no": null,
+     "tex": "\\Name{Steinschneider}, \\textit{Zur Geschichte der Ueber-}",
+     "transcription": "{sp:Steinschneider}, *Zur Geschichte der Ueber-*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0305-notes_right-L007",
+     "source_line_no": null,
+     "tex": "\\textit{setzungen aus dem Indischen ins Arabische} (in",
+     "transcription": "*setzungen aus dem Indischen ins Arabische* (in",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0305-notes_right-L008",
+     "source_line_no": null,
+     "tex": "Zeitschr. der deutsch. morgenländischen Gesellschaft,",
+     "transcription": "Zeitschr. der deutsch. morgenländischen Gesellschaft,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0305-notes_right-L009",
+     "source_line_no": null,
+     "tex": "t. XXIV, 1870, p. 356); sed ibi Hebraicum \\textit{gabhūt}",
+     "transcription": "t. XXIV, 1870, p. 356); sed ibi Hebraicum *gabhūt*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0305-notes_right-L010",
+     "source_line_no": null,
+     "tex": "perperam vertitur « Höhe » pro « Apogäum ».",
+     "transcription": "perperam vertitur « Höhe » pro « Apogäum ».",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0305-notes_right-L011",
+     "source_line_no": null,
+     "tex": "\\Indent (5) Cfr. etiam \\textit{Astronomiam} \\Name{Barhebraei},",
+     "transcription": "(5) Cfr. etiam *Astronomiam* {sp:Barhebraei},",
+     "semantic_anchor": "AB01-PDF0305-N05",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0305-notes_right-L012",
+     "source_line_no": null,
+     "tex": "p. 25-26 textus.",
+     "transcription": "p. 25-26 textus.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  }
+ ]
+}
