@@ -1,0 +1,431 @@
+{
+ "anchor": "AB01-PDF0321",
+ "master_pdf_page": 321,
+ "printed_page": 232,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "margin_locators": [],
+ "observations": [
+  "body L1-L10: the table goes on from p. 231; col. I repeats the results computed there (136° 10′ 12″, 134° 36′ 13″, 319° 25′ 40″, 314° 36′ 43″, 110° 11′ 22″, 111° 9′ 1″, 190° 11′ 10″, 185° 22′ 13″ and the southern latitude 0° 28′ 9″). The corrupt numbers of the codex («134», «4», «5») and of Plato («54», «91», «5», «109», «51») are printed in italics, Plato's «7» of the mean anomaly (L6) upright; the dots stand where Halley gives no number. The period after «Esc» in the head printed only as a speck; a speck between «vera» and «Lunae» (L5) and a hairline after Halley's «5» (L7) are not transcribed.",
+  "body L11-L12: the numbers are written in Maghribi abjad: «قلو» 136, «قلد» 134, «يا» 11, «د» 4, «ط» 9, «ه» 5. The dots of ي in «يا» are not printed, and «ه» prints as a solid round.",
+  "body L13: the dash before «Schiaparelli» measures 10.0 pt and is transcribed as a dash; the foot of the first L of «Schiaparelli» is broken off, so that the letter looks like an I with a speck.",
+  "body L14: the dash after «II.» measures 10.3 pt and is transcribed as a dash.",
+  "body L18, L33: the dashes of «ar–Raqqah» and «al–Battānī» are long dashes (5.6 and 5.5 pt).",
+  "body L21, L25, L27, L29, L31: the bars of «☾−⊙» (10.0 pt) and «O−T» (9.8 pt) in the text and in the head of the table, and those before «2′ 50″», «5m,7», «3 40» and «7, 3» (7.4 to 8.6 pt), are minus signs; the short bar of «O–T» in the head (4.2 pt) is transcribed as a dash.",
+  "body L25-L30: the times and places are those of the computations: I. 0h 47m, 139° 14′ 20″ and 139° 11′ 30″ (p. 227); II. 21h 20m, 308° 35′ 51″ and 308° 36′ 6″ (p. 229); III. 7h 48m, the first time of p. 230; IV. 15h 22m, 134° 36′ 13″ and 314° 36′ 43″ less 180° (p. 231). The eclipse of row I is that of 8 Āb 1202, 8 August 891 (p. 226); the row has 7 Aug. The differences of time answer to the differences of elongation at 2 minutes of time to 1′ (2′ 50″ 5m.7, 15″ 0m.5, 3′ 40″ 7m.3); at that rate the 30″ of row IV give 1m.0, where the print has 0m.1.",
+  "body L29: for 7h 48m al-Battānī's tables give the mean Sun 125° 20′ 31″ and, with the equation 1° 19′ 16″, the true Sun 124° 1′ 15″; the mean Moon 308° 41′ 17″, the mean anomaly 113° 9′ 29″, the double elongation 6° 41′ 32″, the correction of the anomaly 59′ 14″, the true anomaly 114° 8′ 43″, the simple equation 4° 43′ 51″ and the shadow in 123° 57′ 26″. The printed 123° 57′ 34″ is the 124° 1′ 24″ of p. 230 less 3′ 50″, the Moon's mean motion in 7 minutes; with the recomputed places ☾ − ⊙ is − 3′ 49″ and O − T − 7m.6.",
+  "body L32: a raised speck before «exspectandum» is not transcribed."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0321-body-L001",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{78.36mm}\\smash{\\makebox[0pt][c]{{\\fontsize{9.5}{11}\\selectfont \\textbf{Col. I}}}}}\\rlap{\\hspace*{107.80mm}\\smash{\\makebox[0pt][c]{{\\fontsize{9.5}{11}\\selectfont \\textbf{Cod. Esc.}}}}}\\rlap{\\hspace*{132.74mm}\\smash{\\makebox[0pt][c]{{\\fontsize{9.5}{11}\\selectfont \\textbf{Plato}}}}}\\rlap{\\hspace*{158.04mm}\\smash{\\makebox[0pt][c]{{\\fontsize{9.5}{11}\\selectfont \\textbf{Halley}}}}}",
+     "transcription": "{sm:**Col. I**} {sm:**Cod. Esc.**} {sm:**Plato**} {sm:**Halley**}",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0321-body-L002",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{13.67mm}\\smash{\\rlap{Longitudo media Solis}}}\\rlap{\\hspace*{73.52mm}\\smash{\\llap{136}\\rlap{°}}}\\rlap{\\hspace*{80.99mm}\\smash{\\llap{10}\\rlap{′}}}\\rlap{\\hspace*{88.11mm}\\smash{\\llap{12}\\rlap{″}}}\\rlap{\\hspace*{107.04mm}\\smash{\\llap{\\textit{134}}\\rlap{°}}}\\rlap{\\hspace*{114.52mm}\\smash{\\llap{10}\\rlap{′}}}\\rlap{\\hspace*{132.30mm}\\smash{\\llap{136}\\rlap{°}}}\\rlap{\\hspace*{139.78mm}\\smash{\\llap{10}\\rlap{′}}}\\rlap{\\hspace*{150.99mm}\\smash{\\makebox[0pt][c]{.}}}\\rlap{\\hspace*{154.59mm}\\smash{\\makebox[0pt][c]{.}}}\\rlap{\\hspace*{158.15mm}\\smash{\\makebox[0pt][c]{.}}}\\rlap{\\hspace*{161.87mm}\\smash{\\makebox[0pt][c]{.}}}\\rlap{\\hspace*{165.74mm}\\smash{\\makebox[0pt][c]{.}}}",
+     "transcription": "Longitudo media Solis 136° 10′ 12″ *134*° 10′ 136° 10′ . . . . .",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0321-body-L003",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{13.67mm}\\smash{\\rlap{Longitudo vera Solis}}}\\rlap{\\hspace*{73.52mm}\\smash{\\llap{134}}}\\rlap{\\hspace*{80.99mm}\\smash{\\llap{36}}}\\rlap{\\hspace*{88.11mm}\\smash{\\llap{13}}}\\rlap{\\hspace*{107.04mm}\\smash{\\llap{134}}}\\rlap{\\hspace*{114.52mm}\\smash{\\llap{36}}}\\rlap{\\hspace*{132.30mm}\\smash{\\llap{134}}}\\rlap{\\hspace*{139.78mm}\\smash{\\llap{36}}}\\rlap{\\hspace*{151.21mm}\\smash{\\makebox[0pt][c]{.}}}\\rlap{\\hspace*{154.82mm}\\smash{\\makebox[0pt][c]{.}}}\\rlap{\\hspace*{158.29mm}\\smash{\\makebox[0pt][c]{.}}}\\rlap{\\hspace*{161.94mm}\\smash{\\makebox[0pt][c]{.}}}\\rlap{\\hspace*{165.87mm}\\smash{\\makebox[0pt][c]{.}}}",
+     "transcription": "Longitudo vera Solis 134 36 13 134 36 134 36 . . . . .",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0321-body-L004",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{13.67mm}\\smash{\\rlap{Longitudo media Lunae}}}\\rlap{\\hspace*{73.52mm}\\smash{\\llap{319}}}\\rlap{\\hspace*{80.99mm}\\smash{\\llap{25}}}\\rlap{\\hspace*{88.11mm}\\smash{\\llap{40}}}\\rlap{\\hspace*{107.04mm}\\smash{\\llap{319}}}\\rlap{\\hspace*{114.52mm}\\smash{\\llap{24}}}\\rlap{\\hspace*{132.30mm}\\smash{\\llap{319}}}\\rlap{\\hspace*{139.78mm}\\smash{\\llap{\\textit{54}}}}\\rlap{\\hspace*{157.56mm}\\smash{\\llap{319}\\rlap{°}}}\\rlap{\\hspace*{165.08mm}\\smash{\\llap{24}\\rlap{′}}}",
+     "transcription": "Longitudo media Lunae 319 25 40 319 24 319 *54* 319° 24′",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0321-body-L005",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{13.67mm}\\smash{\\rlap{Longitudo vera Lunae}}}\\rlap{\\hspace*{73.52mm}\\smash{\\llap{314}}}\\rlap{\\hspace*{80.99mm}\\smash{\\llap{36}}}\\rlap{\\hspace*{88.11mm}\\smash{\\llap{43}}}\\rlap{\\hspace*{107.04mm}\\smash{\\llap{314}}}\\rlap{\\hspace*{114.52mm}\\smash{\\llap{36}}}\\rlap{\\hspace*{132.30mm}\\smash{\\llap{314}}}\\rlap{\\hspace*{139.78mm}\\smash{\\llap{36}}}\\rlap{\\hspace*{151.12mm}\\smash{\\makebox[0pt][c]{.}}}\\rlap{\\hspace*{154.66mm}\\smash{\\makebox[0pt][c]{.}}}\\rlap{\\hspace*{158.20mm}\\smash{\\makebox[0pt][c]{.}}}\\rlap{\\hspace*{161.83mm}\\smash{\\makebox[0pt][c]{.}}}\\rlap{\\hspace*{165.70mm}\\smash{\\makebox[0pt][c]{.}}}",
+     "transcription": "Longitudo vera Lunae 314 36 43 314 36 314 36 . . . . .",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0321-body-L006",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{13.67mm}\\smash{\\rlap{Anomalia media Lunae}}}\\rlap{\\hspace*{73.52mm}\\smash{\\llap{110}}}\\rlap{\\hspace*{80.99mm}\\smash{\\llap{11}}}\\rlap{\\hspace*{88.11mm}\\smash{\\llap{22}}}\\rlap{\\hspace*{107.04mm}\\smash{\\llap{110}}}\\rlap{\\hspace*{114.52mm}\\smash{\\llap{\\textit{4}}}}\\rlap{\\hspace*{132.30mm}\\smash{\\llap{110}}}\\rlap{\\hspace*{139.78mm}\\smash{\\llap{7}}}\\rlap{\\hspace*{151.08mm}\\smash{\\makebox[0pt][c]{.}}}\\rlap{\\hspace*{154.62mm}\\smash{\\makebox[0pt][c]{.}}}\\rlap{\\hspace*{158.20mm}\\smash{\\makebox[0pt][c]{.}}}\\rlap{\\hspace*{161.76mm}\\smash{\\makebox[0pt][c]{.}}}\\rlap{\\hspace*{165.74mm}\\smash{\\makebox[0pt][c]{.}}}",
+     "transcription": "Anomalia media Lunae 110 11 22 110 *4* 110 7 . . . . .",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0321-body-L007",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{13.67mm}\\smash{\\rlap{Anomalia vera Lunae}}}\\rlap{\\hspace*{73.52mm}\\smash{\\llap{111}}}\\rlap{\\hspace*{80.99mm}\\smash{\\llap{9}}}\\rlap{\\hspace*{88.11mm}\\smash{\\llap{1}}}\\rlap{\\hspace*{107.04mm}\\smash{\\llap{111}}}\\rlap{\\hspace*{114.52mm}\\smash{\\llap{\\textit{5}}}}\\rlap{\\hspace*{132.30mm}\\smash{\\llap{\\textit{91}}}}\\rlap{\\hspace*{139.78mm}\\smash{\\llap{\\textit{5}}}}\\rlap{\\hspace*{157.56mm}\\smash{\\llap{111}}}\\rlap{\\hspace*{165.08mm}\\smash{\\llap{5}}}",
+     "transcription": "Anomalia vera Lunae 111 9 1 111 *5* *91* *5* 111 5",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0321-body-L008",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{13.67mm}\\smash{\\rlap{Motus med. latit. Lunae}}}\\rlap{\\hspace*{73.52mm}\\smash{\\llap{190}}}\\rlap{\\hspace*{80.99mm}\\smash{\\llap{11}}}\\rlap{\\hspace*{88.11mm}\\smash{\\llap{10}}}\\rlap{\\hspace*{107.04mm}\\smash{\\llap{190}}}\\rlap{\\hspace*{114.52mm}\\smash{\\llap{10}}}\\rlap{\\hspace*{132.30mm}\\smash{\\llap{\\textit{109}}}}\\rlap{\\hspace*{139.78mm}\\smash{\\llap{10}}}\\rlap{\\hspace*{157.56mm}\\smash{\\llap{190}}}\\rlap{\\hspace*{165.08mm}\\smash{\\llap{10}}}",
+     "transcription": "Motus med. latit. Lunae 190 11 10 190 10 *109* 10 190 10",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0321-body-L009",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{13.67mm}\\smash{\\rlap{Motus verus latit. Lunae}}}\\rlap{\\hspace*{73.52mm}\\smash{\\llap{185}}}\\rlap{\\hspace*{80.99mm}\\smash{\\llap{22}}}\\rlap{\\hspace*{88.11mm}\\smash{\\llap{13}}}\\rlap{\\hspace*{107.04mm}\\smash{\\llap{185}}}\\rlap{\\hspace*{114.52mm}\\smash{\\llap{21}}}\\rlap{\\hspace*{132.30mm}\\smash{\\llap{185}}}\\rlap{\\hspace*{139.78mm}\\smash{\\llap{\\textit{51}}}}\\rlap{\\hspace*{157.56mm}\\smash{\\llap{185}}}\\rlap{\\hspace*{165.08mm}\\smash{\\llap{21}}}",
+     "transcription": "Motus verus latit. Lunae 185 22 13 185 21 185 *51* 185 21",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0321-body-L010",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{13.67mm}\\smash{\\rlap{Latit. vera Lunae austr.}}}\\rlap{\\hspace*{73.52mm}\\smash{\\llap{0}}}\\rlap{\\hspace*{80.99mm}\\smash{\\llap{28}}}\\rlap{\\hspace*{88.11mm}\\smash{\\llap{9}}}\\rlap{\\hspace*{107.04mm}\\smash{\\llap{0}}}\\rlap{\\hspace*{114.52mm}\\smash{\\llap{28}}}\\rlap{\\hspace*{132.30mm}\\smash{\\llap{0}}}\\rlap{\\hspace*{139.78mm}\\smash{\\llap{28}}}\\rlap{\\hspace*{151.30mm}\\smash{\\makebox[0pt][c]{.}}}\\rlap{\\hspace*{154.79mm}\\smash{\\makebox[0pt][c]{.}}}\\rlap{\\hspace*{158.40mm}\\smash{\\makebox[0pt][c]{.}}}\\rlap{\\hspace*{161.91mm}\\smash{\\makebox[0pt][c]{.}}}\\rlap{\\hspace*{165.92mm}\\smash{\\makebox[0pt][c]{.}}}",
+     "transcription": "Latit. vera Lunae austr. 0 28 9 0 28 0 28 . . . . .",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0321-body-L011",
+     "source_line_no": null,
+     "tex": "\\Indent In codice Escurialensi ergo sunt gradus longitudinis mediae Solis (\\ArabicRun{قلو} 136° pro \\ArabicRun{قلد} 134°),",
+     "transcription": "In codice Escurialensi ergo sunt gradus longitudinis mediae Solis ({ar:قلو} 136° pro {ar:قلد} 134°),",
+     "semantic_anchor": "AB01-PDF0321-P01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0321-body-L012",
+     "source_line_no": null,
+     "tex": "minuta anomaliae mediae (\\ArabicRun{يا} 11′ pro \\ArabicRun{د} 4′) et minuta anomaliae verae (\\ArabicRun{ط} 9′ pro \\ArabicRun{ه} 5′, error",
+     "transcription": "minuta anomaliae mediae ({ar:يا} 11′ pro {ar:د} 4′) et minuta anomaliae verae ({ar:ط} 9′ pro {ar:ه} 5′, error",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0321-body-L013",
+     "source_line_no": null,
+     "tex": "in scriptura maghrebina facilis) corrigenda. — \\textsc{Schiaparelli}.]",
+     "transcription": "in scriptura maghrebina facilis) corrigenda. — {sc:Schiaparelli}.]",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0321-body-L014",
+     "source_line_no": null,
+     "tex": "\\Indent II. — \\textit{Animadversiones generales ad has quatuor eclipses.}",
+     "transcription": "II. — *Animadversiones generales ad has quatuor eclipses.*",
+     "semantic_anchor": "AB01-PDF0321-P02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0321-body-L015",
+     "source_line_no": null,
+     "tex": "\\Indent [De his quatuor eclipsibus ab Albatenio observatis et in calculum relatis, pauca adiicere",
+     "transcription": "[De his quatuor eclipsibus ab Albatenio observatis et in calculum relatis, pauca adiicere",
+     "semantic_anchor": "AB01-PDF0321-P03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0321-body-L016",
+     "source_line_no": null,
+     "tex": "opportunum est; ac primum de earum cum tabulis Albatenianis optimo consensu. Tabella se-",
+     "transcription": "opportunum est; ac primum de earum cum tabulis Albatenianis optimo consensu. Tabella se-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0321-body-L017",
+     "source_line_no": null,
+     "tex": "quens exhibet primo loco pro unaquaque eclipsi tempus medium coniunctionis verae ex obser-",
+     "transcription": "quens exhibet primo loco pro unaquaque eclipsi tempus medium coniunctionis verae ex obser-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0321-body-L018",
+     "source_line_no": null,
+     "tex": "vatione, ad meridianum urbis ar–Raqqah. Secundo et tertio loco longitudines veras Solis et",
+     "transcription": "vatione, ad meridianum urbis ar–Raqqah. Secundo et tertio loco longitudines veras Solis et",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0321-body-L019",
+     "source_line_no": null,
+     "tex": "Lunae secundum tabulas, pro eodem momento coniunctionis (aut oppositionis) verae; quae lon-",
+     "transcription": "Lunae secundum tabulas, pro eodem momento coniunctionis (aut oppositionis) verae; quae lon-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0321-body-L020",
+     "source_line_no": null,
+     "tex": "gitudines sane aequales esse deberent (aut 180° gradibus inter se differre), si nullus error in",
+     "transcription": "gitudines sane aequales esse deberent (aut 180° gradibus inter se differre), si nullus error in",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0321-body-L021",
+     "source_line_no": null,
+     "tex": "observationem et in tabulas irrepsisset. Quarto loco exhibet differentiam \\MoonSym{}$-$\\SunSym{}, quae dat er-",
+     "transcription": "observationem et in tabulas irrepsisset. Quarto loco exhibet differentiam ☾$-$⊙, quae dat er-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0321-body-L022",
+     "source_line_no": null,
+     "tex": "rorem elongationis \\MoonSym{} e tabulis procedentem. Demum differentiam inter tempus coniunctionis",
+     "transcription": "rorem elongationis ☾ e tabulis procedentem. Demum differentiam inter tempus coniunctionis",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0321-body-L023",
+     "source_line_no": null,
+     "tex": "(aut oppositionis) verae ex observatione petitum (quod littera O designo) et tempus coniun-",
+     "transcription": "(aut oppositionis) verae ex observatione petitum (quod littera O designo) et tempus coniun-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0321-body-L024",
+     "source_line_no": null,
+     "tex": "ctionis (aut oppositionis) verae e tabulis derivatum (quod littera T noto).",
+     "transcription": "ctionis (aut oppositionis) verae e tabulis derivatum (quod littera T noto).",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0321-body-L025",
+     "source_line_no": null,
+     "tex": "\\hspace*{16.54mm}\\rule[-1mm]{.4pt}{7.06mm}\\hspace{1.2pt}\\rule[-1mm]{.4pt}{7.06mm}\\hspace{0.0mm}\\raisebox{-1mm}{\\parbox[b][7.06mm][c]{35.80mm}{\\centering\\fontsize{7.5}{6.3}\\selectfont\\vspace*{17.34pt}\\leavevmode {\\fontsize{11.1}{13.8}\\selectfont \\textbf{\\textsc{Eclipses}}}}}\\hspace{0.0mm}\\rule[-1mm]{.4pt}{7.06mm}\\hspace{0.0mm}\\raisebox{-1mm}{\\parbox[b][7.06mm][c]{23.53mm}{\\centering\\fontsize{7.5}{6.3}\\selectfont\\vspace*{16.54pt}\\leavevmode \\textbf{Tempus med.\\\\ex observat.}}}\\hspace{0.0mm}\\rule[-1mm]{.4pt}{7.06mm}\\hspace{0.0mm}\\raisebox{-1mm}{\\parbox[b][7.06mm][c]{47.19mm}{\\centering\\fontsize{7.5}{6.3}\\selectfont\\leavevmode {\\fontsize{9.5}{11}\\selectfont Ex tabulis long. vera}}}\\hspace{0.0mm}\\rule[-1mm]{.4pt}{7.06mm}\\hspace{0.0mm}\\raisebox{-1mm}{\\parbox[b][7.06mm][c]{23.55mm}{\\centering\\fontsize{7.5}{6.3}\\selectfont\\vspace*{15.74pt}\\leavevmode \\textbf{Differ. in elong.}\\\\{\\fontsize{11.1}{13.8}\\selectfont \\MoonSym{}$-$\\SunSym{}}}}\\hspace{0.0mm}\\rule[-1mm]{.4pt}{7.06mm}\\hspace{0.0mm}\\raisebox{-1mm}{\\parbox[b][7.06mm][c]{23.43mm}{\\centering\\fontsize{7.5}{6.3}\\selectfont\\vspace*{13.54pt}\\leavevmode \\textbf{Diff. temporis\\\\in syzygia vera\\\\O–T}}}\\hspace{0.0mm}\\rule[-1mm]{.4pt}{7.06mm}\\hspace{1.2pt}\\rule[-1mm]{.4pt}{7.06mm}",
+     "transcription": "{nm:**{sc:Eclipses}**} | **Tempus med.\\\\ex observat.** | {sm:Ex tabulis long. vera} | **Differ. in elong.**\\\\{nm:☾$-$⊙} | **Diff. temporis\\\\in syzygia vera\\\\O–T**",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0321-body-L026",
+     "source_line_no": null,
+     "tex": "\\hspace*{16.54mm}\\rule[-1mm]{.4pt}{4.44mm}\\hspace{1.2pt}\\rule[-1mm]{.4pt}{4.44mm}\\hspace{0.0mm}\\raisebox{-1mm}{\\parbox[b][4.44mm][c]{35.80mm}{\\centering\\fontsize{7.5}{6.3}\\selectfont\\leavevmode }}\\hspace{0.0mm}\\rule[-1mm]{.4pt}{4.44mm}\\hspace{0.0mm}\\raisebox{-1mm}{\\parbox[b][4.44mm][c]{23.53mm}{\\centering\\fontsize{7.5}{6.3}\\selectfont\\leavevmode }}\\hspace{0.0mm}\\rule[-1mm]{.4pt}{4.44mm}\\hspace{0.0mm}\\raisebox{-1mm}{\\parbox[b][4.44mm][c]{23.48mm}{\\centering\\fontsize{7.5}{6.3}\\selectfont\\leavevmode \\textbf{Solis}}}\\hspace{0.0mm}\\rule[-1mm]{.4pt}{4.44mm}\\hspace{0.0mm}\\raisebox{-1mm}{\\parbox[b][4.44mm][c]{23.57mm}{\\centering\\fontsize{7.5}{6.3}\\selectfont\\leavevmode {\\fontsize{11.1}{13.8}\\selectfont \\MoonSym{}} \\textbf{vel umbrae}}}\\hspace{0.0mm}\\rule[-1mm]{.4pt}{4.44mm}\\hspace{0.0mm}\\raisebox{-1mm}{\\parbox[b][4.44mm][c]{23.55mm}{\\centering\\fontsize{7.5}{6.3}\\selectfont\\leavevmode }}\\hspace{0.0mm}\\rule[-1mm]{.4pt}{4.44mm}\\hspace{0.0mm}\\raisebox{-1mm}{\\parbox[b][4.44mm][c]{23.43mm}{\\centering\\fontsize{7.5}{6.3}\\selectfont\\leavevmode }}\\hspace{0.0mm}\\rule[-1mm]{.4pt}{4.44mm}\\hspace{1.2pt}\\rule[-1mm]{.4pt}{4.44mm}",
+     "transcription": " |  | **Solis** | {nm:☾} **vel umbrae** |  | ",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0321-body-L027",
+     "source_line_no": null,
+     "tex": "\\hspace*{16.54mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{0.0mm}\\makebox[10.71mm][l]{\\smash{\\hspace*{4.25mm}I.}}\\makebox[6.04mm][l]{\\smash{891,}}\\makebox[6.34mm][r]{\\smash{7}}\\makebox[12.71mm][l]{\\smash{\\hspace*{1.95mm}Aug.}}\\hspace{0.0mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{0.0mm}\\makebox[10.82mm][r]{0\\rlap{\\textsuperscript{\\textit{h}}}}\\makebox[5.66mm][r]{47\\rlap{\\textsuperscript{\\textit{m}}}}\\makebox[7.05mm][l]{\\smash{}}\\hspace{0.0mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{0.0mm}\\makebox[8.86mm][r]{139\\rlap{°}}\\makebox[5.82mm][r]{14\\rlap{′}}\\makebox[5.41mm][r]{20\\rlap{″}}\\makebox[3.39mm][l]{\\smash{}}\\hspace{0.0mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{0.0mm}\\makebox[8.74mm][r]{139\\rlap{°}}\\makebox[5.70mm][r]{11\\rlap{′}}\\makebox[5.70mm][r]{30\\rlap{″}}\\makebox[3.43mm][l]{\\smash{}}\\hspace{0.0mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{0.0mm}\\makebox[4.69mm][l]{\\smash{}}\\makebox[4.72mm][c]{\\smash{$-$}}\\makebox[3.30mm][r]{2\\rlap{′}}\\makebox[5.73mm][r]{50\\rlap{″}}\\makebox[5.11mm][l]{\\smash{}}\\hspace{0.0mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{0.0mm}\\makebox[4.32mm][l]{\\smash{}}\\makebox[5.40mm][c]{\\smash{$-$}}\\makebox[3.10mm][r]{5\\rlap{\\textsuperscript{\\textit{m}},}}\\makebox[5.17mm][r]{\\smash{7}}\\makebox[5.44mm][l]{\\smash{}}\\hspace{0.0mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}",
+     "transcription": "I. | 891, | 7 | Aug. | 0{sup:*h*} | 47{sup:*m*} |  | 139° | 14′ | 20″ |  | 139° | 11′ | 30″ |  |  | $-$ | 2′ | 50″ |  |  | $-$ | 5{sup:*m*}, | 7 | ",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0321-body-L028",
+     "source_line_no": null,
+     "tex": "\\hspace*{16.54mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{0.0mm}\\makebox[10.71mm][l]{\\smash{\\hspace*{4.25mm}II.}}\\makebox[6.04mm][l]{\\smash{901,}}\\makebox[6.34mm][r]{\\smash{22}}\\makebox[12.71mm][l]{\\smash{\\hspace*{1.95mm}Ian.}}\\hspace{0.0mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{0.0mm}\\makebox[10.82mm][r]{\\smash{21}}\\makebox[5.66mm][r]{\\smash{20}}\\makebox[7.05mm][l]{\\smash{}}\\hspace{0.0mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{0.0mm}\\makebox[8.86mm][r]{\\smash{308}}\\makebox[5.82mm][r]{\\smash{35}}\\makebox[5.41mm][r]{\\smash{51}}\\makebox[3.39mm][l]{\\smash{}}\\hspace{0.0mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{0.0mm}\\makebox[8.74mm][r]{\\smash{308}}\\makebox[5.70mm][r]{\\smash{36}}\\makebox[5.70mm][r]{\\smash{6}}\\makebox[3.43mm][l]{\\smash{}}\\hspace{0.0mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{0.0mm}\\makebox[4.69mm][l]{\\smash{}}\\makebox[4.72mm][c]{\\smash{$+$}}\\makebox[3.30mm][r]{\\smash{0}}\\makebox[5.73mm][r]{\\smash{15}}\\makebox[5.11mm][l]{\\smash{}}\\hspace{0.0mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{0.0mm}\\makebox[4.32mm][l]{\\smash{}}\\makebox[5.40mm][c]{\\smash{$+$}}\\makebox[3.10mm][r]{0\\rlap{,}}\\makebox[5.17mm][r]{\\smash{5}}\\makebox[5.44mm][l]{\\smash{}}\\hspace{0.0mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}",
+     "transcription": "II. | 901, | 22 | Ian. | 21 | 20 |  | 308 | 35 | 51 |  | 308 | 36 | 6 |  |  | $+$ | 0 | 15 |  |  | $+$ | 0, | 5 | ",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0321-body-L029",
+     "source_line_no": null,
+     "tex": "\\hspace*{16.54mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{0.0mm}\\makebox[10.71mm][l]{\\smash{\\hspace*{4.25mm}III.}}\\makebox[6.04mm][l]{\\smash{883,}}\\makebox[6.34mm][r]{\\smash{23}}\\makebox[12.71mm][l]{\\smash{\\hspace*{1.95mm}Iul.}}\\hspace{0.0mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{0.0mm}\\makebox[10.82mm][r]{\\smash{7}}\\makebox[5.66mm][r]{\\smash{48}}\\makebox[7.05mm][l]{\\smash{}}\\hspace{0.0mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{0.0mm}\\makebox[8.86mm][r]{\\smash{124}}\\makebox[5.82mm][r]{\\smash{1}}\\makebox[5.41mm][r]{\\smash{14}}\\makebox[3.39mm][l]{\\smash{}}\\hspace{0.0mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{0.0mm}\\makebox[8.74mm][r]{\\smash{123}}\\makebox[5.70mm][r]{\\smash{57}}\\makebox[5.70mm][r]{\\smash{34}}\\makebox[3.43mm][l]{\\smash{}}\\hspace{0.0mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{0.0mm}\\makebox[4.69mm][l]{\\smash{}}\\makebox[4.72mm][c]{\\smash{$-$}}\\makebox[3.30mm][r]{\\smash{3}}\\makebox[5.73mm][r]{\\smash{40}}\\makebox[5.11mm][l]{\\smash{}}\\hspace{0.0mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{0.0mm}\\makebox[4.32mm][l]{\\smash{}}\\makebox[5.40mm][c]{\\smash{$-$}}\\makebox[3.10mm][r]{7\\rlap{,}}\\makebox[5.17mm][r]{\\smash{3}}\\makebox[5.44mm][l]{\\smash{}}\\hspace{0.0mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}",
+     "transcription": "III. | 883, | 23 | Iul. | 7 | 48 |  | 124 | 1 | 14 |  | 123 | 57 | 34 |  |  | $-$ | 3 | 40 |  |  | $-$ | 7, | 3 | ",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0321-body-L030",
+     "source_line_no": null,
+     "tex": "\\hspace*{16.54mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{0.0mm}\\makebox[10.71mm][l]{\\smash{\\hspace*{4.25mm}IV.}}\\makebox[6.04mm][l]{\\smash{901,}}\\makebox[6.34mm][r]{\\smash{2}}\\makebox[12.71mm][l]{\\smash{\\hspace*{1.95mm}Aug.}}\\hspace{0.0mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{0.0mm}\\makebox[10.82mm][r]{\\smash{15}}\\makebox[5.66mm][r]{\\smash{22}}\\makebox[7.05mm][l]{\\smash{}}\\hspace{0.0mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{0.0mm}\\makebox[8.86mm][r]{\\smash{134}}\\makebox[5.82mm][r]{\\smash{36}}\\makebox[5.41mm][r]{\\smash{13}}\\makebox[3.39mm][l]{\\smash{}}\\hspace{0.0mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{0.0mm}\\makebox[8.74mm][r]{\\smash{134}}\\makebox[5.70mm][r]{\\smash{36}}\\makebox[5.70mm][r]{\\smash{43}}\\makebox[3.43mm][l]{\\smash{}}\\hspace{0.0mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{0.0mm}\\makebox[4.69mm][l]{\\smash{}}\\makebox[4.72mm][c]{\\smash{$+$}}\\makebox[3.30mm][r]{\\smash{0}}\\makebox[5.73mm][r]{\\smash{30}}\\makebox[5.11mm][l]{\\smash{}}\\hspace{0.0mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{0.0mm}\\makebox[4.32mm][l]{\\smash{}}\\makebox[5.40mm][c]{\\smash{$+$}}\\makebox[3.10mm][r]{0\\rlap{,}}\\makebox[5.17mm][r]{\\smash{1}}\\makebox[5.44mm][l]{\\smash{}}\\hspace{0.0mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}",
+     "transcription": "IV. | 901, | 2 | Aug. | 15 | 22 |  | 134 | 36 | 13 |  | 134 | 36 | 43 |  |  | $+$ | 0 | 30 |  |  | $+$ | 0, | 1 | ",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0321-body-L031",
+     "source_line_no": null,
+     "tex": "\\Indent Errores \\MoonSym{}$-$\\SunSym{} et O$-$T profecto sunt pro minimis habendi; immo multo minores viden-",
+     "transcription": "Errores ☾$-$⊙ et O$-$T profecto sunt pro minimis habendi; immo multo minores viden-",
+     "semantic_anchor": "AB01-PDF0321-P04",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0321-body-L032",
+     "source_line_no": null,
+     "tex": "tur quam exspectandum esset in observationibus sine telescopio habitis, subsidiis etiam ad ac-",
+     "transcription": "tur quam exspectandum esset in observationibus sine telescopio habitis, subsidiis etiam ad ac-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0321-body-L033",
+     "source_line_no": null,
+     "tex": "curatam temporis definitionem tunc deficientibus. Qua re suspicio subit al–Battānī ad harum",
+     "transcription": "curatam temporis definitionem tunc deficientibus. Qua re suspicio subit al–Battānī ad harum",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0321-body-L034",
+     "source_line_no": null,
+     "tex": "eclipsium normam proprias tabulas emendasse.",
+     "transcription": "eclipsium normam proprias tabulas emendasse.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0321-body-L035",
+     "source_line_no": null,
+     "tex": "\\Indent Res aliter se habet si quatuor eclipses cum tabulis recentioribus Lunae comparemus.",
+     "transcription": "Res aliter se habet si quatuor eclipses cum tabulis recentioribus Lunae comparemus.",
+     "semantic_anchor": "AB01-PDF0321-P05",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0321-body-L036",
+     "source_line_no": null,
+     "tex": "Theoria Lunae, astronomorum nostri aevi maximis laboribus quamvis exculta, eo tamen cer-",
+     "transcription": "Theoria Lunae, astronomorum nostri aevi maximis laboribus quamvis exculta, eo tamen cer-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0321-body-L037",
+     "source_line_no": null,
+     "tex": "titudinis nondum pervenit ut ad eius rationem veteres Babyloniorum, Graecorum et Arabum",
+     "transcription": "titudinis nondum pervenit ut ad eius rationem veteres Babyloniorum, Graecorum et Arabum",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0321-body-L038",
+     "source_line_no": null,
+     "tex": "observationes tuto diiudicare liceat. Quin immo, ex observationibus illis theoriae quodammodo",
+     "transcription": "observationes tuto diiudicare liceat. Quin immo, ex observationibus illis theoriae quodammodo",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0321-body-L039",
+     "source_line_no": null,
+     "tex": "opem ferre paucis abhinc annis vir omni laude maior, Theodorus \\Name{Oppolzer}, in tabulis suis",
+     "transcription": "opem ferre paucis abhinc annis vir omni laude maior, Theodorus {sp:Oppolzer}, in tabulis suis",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0321-body-L040",
+     "source_line_no": null,
+     "tex": "syzygiarum, praesertim vero in magno \\textit{Canone eclipsium} strenua opera conatus est. Ean-",
+     "transcription": "syzygiarum, praesertim vero in magno *Canone eclipsium* strenua opera conatus est. Ean-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    }
+   ]
+  }
+ ]
+}

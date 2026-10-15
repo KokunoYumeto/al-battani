@@ -23,7 +23,8 @@ Transcription format (UTF-8; one printed line per source line, as printed, with 
                          @calcset INDENT LABEL SIGN NUM the column widths in mm
   @cols INDENT C ...     the columns of a small table (widths in mm with l, r or c; | a vertical rule);
   @hrow H | C1 | ...     a head row H mm tall in the same columns, cells centred (H:LEAD sets their lines LEAD pt
-                         apart, 9 by default); {rot:A//B} and {rotb:A//B} (bold) set the lines A, B turned
+                         apart, 9 by default; H:LEAD:PT their type, 7.5 pt by default; a cell {dy:N} TEXT is set N pt
+                         lower); {rot:A//B} and {rotb:A//B} (bold) set the lines A, B turned
                          through 90 degrees
   @row C1 | C2 | ...     one row of it (~ hangs a unit sign: 159~°; {brace2} a brace over two rows; a cell
                          beginning with > is the indented second line of a name; {hr} a thin rule across the
@@ -438,10 +439,13 @@ def row_tex(src):
 def hrow_tex(src):
     """@hrow H | C1 | C2 ...: a head row H mm tall in the columns of @cols, in the small type of table heads; each
     cell is centred in its column, horizontally and vertically, and the rules run through the whole height;
-    @hrow H:LEAD sets the lines of the cells LEAD pt apart (9 pt by default)"""
+    @hrow H:LEAD sets the lines of the cells LEAD pt apart (9 pt by default), @hrow H:LEAD:PT their type PT (7.5 by
+    default); a cell beginning with {dy:N} is set N pt lower (higher if N is negative), so that a head of a row of
+    two levels stands in the middle of both"""
     h, _, rest = src.partition("|")
     h, _, lead = h.partition(":")
-    H, lead = float(h), lead.strip() or "9"
+    lead, _, size = lead.partition(":")
+    H, lead, size = float(h), lead.strip() or "9", size.strip() or "7.5"
     out = [r"\hspace*{" + str(COLS["indent"]) + "mm}"]
     rule = r"\rule[-1mm]{.4pt}{" + f"{H:.2f}" + "mm}"
     for item in span_layout(span_cells(rest)):  # a cell TEXT:N spans N columns, as in @hspan
@@ -449,8 +453,12 @@ def hrow_tex(src):
         if item[0] == "sep":
             out.append(rule_piece(item[1], rule))
             continue
+        cell, shift = item[1], ""
+        dy = re.match(r"^\{dy:(-?\d+(?:\.\d+)?)\} ", cell)
+        if dy:  # the centred block moves down by half the space set above it
+            cell, shift = cell[dy.end():], r"\vspace*{" + f"{2 * float(dy.group(1)):g}" + "pt}"
         out.append(r"\raisebox{-1mm}{\parbox[b][" + f"{H:.2f}" + "mm][c]{" + f"{item[2]:.2f}" + r"mm}{\centering"
-                   r"\fontsize{7.5}{" + lead + r"}\selectfont\leavevmode " + markup(item[1]) + "}}")
+                   r"\fontsize{" + size + "}{" + lead + r"}\selectfont" + shift + r"\leavevmode " + markup(cell) + "}}")
     return "".join(out)
 
 
@@ -895,7 +903,7 @@ def section(items, prefix, role, numbered):
                 src = re.sub(r"\{hr(?: [\d.]+)?\}", "", src)
             elif kind == "hrow":
                 tex = hrow_tex(src)
-                src = " | ".join(t for t, _ in span_cells(src.partition("|")[2]))
+                src = " | ".join(re.sub(r"^\{dy:-?[\d.]+\} ", "", t) for t, _ in span_cells(src.partition("|")[2]))
             elif kind == "hspan":
                 tex = hspan_tex(src)
                 src = " | ".join(re.sub(r"^>[\d.]+ ", "", t) for t, _ in span_cells(src) if t)
