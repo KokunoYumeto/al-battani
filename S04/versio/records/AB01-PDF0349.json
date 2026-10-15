@@ -1,0 +1,422 @@
+{
+ "anchor": "AB01-PDF0349",
+ "master_pdf_page": 349,
+ "printed_page": 260,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "margin_locators": [],
+ "observations": [
+  "body L1: the u of «figuram» is covered by a blot.",
+  "body L1-L4: in the triangle ELB, right-angled at L and taken as plane, the angles at E and B make 90°, so that LEB is the angle of latitude, and the law of sines gives L4; the exact rule of the right spherical triangle is tan BL = tan EB cos EBL = tan β sin ang. latit. : R. The bars after «90°» (L2) and those of L5, L7, L10, L21 and L22 (9.1 to 10.2 pt, as long as the signs of equality) are minus signs.",
+  "body L5-L10: ZB = ζ, and KB = BL, the triangles ELB and BKD being equal (p. 259, L38-L40). Ptolemy (Almagest V, 19) puts the arcs for their sines: L9 and L10.",
+  "body L11: «ZE = ζ» is printed for ZE = z: ζ is ZB, the zenith distance of the degree of the Moon (p. 259, L26), z that of the Moon (L13, L16, L17). «369–370» has a long dash (5.4 pt).",
+  "body L13: the bars over ZL and EL mark the arcs taken as straight lines; a speck prints before ZL.",
+  "body L14: «Al–Battānī» has a long dash (5.4 pt), as in L23 and L37; the hyphen of «sub-» prints short and high (1.8 pt).",
+  "body L17-L23: cos ZE = cos EL cos ZL is the rule of the spherical triangle ELZ right-angled at L, and the three lines that follow are exact; al-Battānī's rule ((α), p. 259, L29) drops the term sin² EL sin² ZL. Heavy brackets open (L17) and close (L35) Schiaparelli's addition. The full stop after the formula of L23 stands at mid-height.",
+  "body L24-L29: with β = 5° and EBZ = 23° 35′, sin EL = sin 5° sin 23° 35′ gives EL = 1° 59′ 55″, the 2° 0′ printed; sin² 2° 0′ = 1 : 821.0, and the error of sin z, and so of the parallax in altitude, is at most half of it, 1 : 1642: 3″,7 of Ptolemy's greatest parallax of the Moon, 1° 42′ 1/2 at 33 1/2 radii. But 23° 35′, the obliquity, bounds the angle EBZ, the angle of longitude, only when the Moon is in the meridian, where it lies between 0° and 23° 35′ (p. 258, formula (α)). Elsewhere it is greater: on the horizon it is the angle of the ecliptic with the horizon (p. 258, L22), which at latitude 36° reaches 77° 34′; EL then becomes 4° 53′, sin² EL 1 : 138, and the error of the parallax up to 1 : 276 of it, 22″. The bar of the fraction in L27 prints broken.",
+  "body L32: «differentia inter arcus ZE, EL»: EL is at most β, while ZE may be any zenith distance; the difference which is small except near the zenith, where ZE spans few degrees, is that of ZE and ZL (cos ZE = cos EL cos ZL, L19), so ZL is meant for EL.",
+  "body L35-L37: the dashes before «Schiaparelli» and after «angulorum.» measure 10.0 and 10.1 pt. «l. l.» is Almagest V, 19; T and H are the points where the vertical circles through E and D meet the ecliptic (p. 259, the second figure). The crossbar of the H of «AHZ» prints faint."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0349-body-L001",
+     "source_line_no": null,
+     "tex": "\\Indent Si, ob parvitatem triangulorum, figuram tanquam rectilineam consideremus, debet esse",
+     "transcription": "Si, ob parvitatem triangulorum, figuram tanquam rectilineam consideremus, debet esse",
+     "semantic_anchor": "AB01-PDF0349-P01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0349-body-L002",
+     "source_line_no": null,
+     "tex": "ang. LEB $=$ 90° $-$ EBL $=$ 90° $-$ ang. long. $=$ ang. latit., qua re in triangulo sphaerico ELB vel",
+     "transcription": "ang. LEB $=$ 90° $-$ EBL $=$ 90° $-$ ang. long. $=$ ang. latit., qua re in triangulo sphaerico ELB vel",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0349-body-L003",
+     "source_line_no": null,
+     "tex": "BKD \\textit{proxime} habetur:",
+     "transcription": "BKD *proxime* habetur:",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0349-body-L004",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{93.83mm}\\makebox[0pt][c]{$\\sin BL = \\sin KB = \\dfrac{\\sin EB \\times \\sin LEB}{R} = \\dfrac{\\text{sin \\textgreek{β} sin ang. latit.}}{R}\\,.$}}",
+     "transcription": "$\\sin BL = \\sin KB = \\dfrac{\\sin EB \\times \\sin LEB}{R} = \\dfrac{\\text{sin β sin ang. latit.}}{R}\\,.$",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0349-body-L005",
+     "source_line_no": null,
+     "tex": "\\Indent Si Luna est borealis, ZL $=$ ZB $-$ BL $=$ \\textgreek{ζ} $-$ BL; si australis, ZK $=$ ZB $+$ KB $=$ \\textgreek{ζ} $+$ BL;",
+     "transcription": "Si Luna est borealis, ZL $=$ ZB $-$ BL $=$ ζ $-$ BL; si australis, ZK $=$ ZB $+$ KB $=$ ζ $+$ BL;",
+     "semantic_anchor": "AB01-PDF0349-P02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0349-body-L006",
+     "source_line_no": null,
+     "tex": "ergo, ob aequationes nuper inventas, \\textit{proxime} saltem erit",
+     "transcription": "ergo, ob aequationes nuper inventas, *proxime* saltem erit",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0349-body-L007",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.00mm}$\\sin ZL = \\sin\\left[\\text{\\textgreek{ζ}} - \\text{arc}\\left(\\dfrac{\\text{sin \\textgreek{β} sin ang. latit.}}{R}\\right)\\right],$}\\rlap{\\hspace*{187.68mm}\\llap{$\\sin ZK = \\sin\\left[\\text{\\textgreek{ζ}} + \\text{arc}\\left(\\dfrac{\\text{sin \\textgreek{β} sin ang. latit.}}{R}\\right)\\right].$}}",
+     "transcription": "$\\sin ZL = \\sin\\left[\\text{ζ} - \\text{arc}\\left(\\dfrac{\\text{sin β sin ang. latit.}}{R}\\right)\\right],$ $\\sin ZK = \\sin\\left[\\text{ζ} + \\text{arc}\\left(\\dfrac{\\text{sin β sin ang. latit.}}{R}\\right)\\right].$",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0349-body-L008",
+     "source_line_no": null,
+     "tex": "\\Indent Adproximatio paulo maior est quam quae \\textit{Almagestum} habet; ibi enim simplicius ponitur",
+     "transcription": "Adproximatio paulo maior est quam quae *Almagestum* habet; ibi enim simplicius ponitur",
+     "semantic_anchor": "AB01-PDF0349-P03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0349-body-L009",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{45.44mm}\\makebox[0pt][c]{$BL = \\dfrac{\\text{\\textgreek{β} sin ang. latit.}}{R}\\,,$}}\\rlap{\\hspace*{141.71mm}\\makebox[0pt][c]{$EL = \\dfrac{\\text{\\textgreek{β} sin ang. long.}}{R}\\,,$}}",
+     "transcription": "$BL = \\dfrac{\\text{β sin ang. latit.}}{R}\\,,$ $EL = \\dfrac{\\text{β sin ang. long.}}{R}\\,,$",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0349-body-L010",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{44.39mm}\\makebox[0pt][c]{$ZL = \\text{\\textgreek{ζ}} - \\dfrac{\\text{\\textgreek{β} sin ang. latit.}}{R}\\,,$}}\\rlap{\\hspace*{142.92mm}\\makebox[0pt][c]{$ZK = \\text{\\textgreek{ζ}} + \\dfrac{\\text{\\textgreek{β} sin ang. latit.}}{R}\\,.$}}",
+     "transcription": "$ZL = \\text{ζ} - \\dfrac{\\text{β sin ang. latit.}}{R}\\,,$ $ZK = \\text{ζ} + \\dfrac{\\text{β sin ang. latit.}}{R}\\,.$",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0349-body-L011",
+     "source_line_no": null,
+     "tex": "\\Indent Restat ut ZE $=$ \\textgreek{ζ} supputetur. \\Name{Ptolemaeus} (cfr. quoque ed. Halma t. I, p. 369–370)",
+     "transcription": "Restat ut ZE $=$ ζ supputetur. {sp:Ptolemaeus} (cfr. quoque ed. Halma t. I, p. 369–370)",
+     "semantic_anchor": "AB01-PDF0349-P04",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0349-body-L012",
+     "source_line_no": null,
+     "tex": "triangulum ZEL rectilineum ponit, invenitque",
+     "transcription": "triangulum ZEL rectilineum ponit, invenitque",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0349-body-L013",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{93.72mm}\\makebox[0pt][c]{$z^{2} = \\overline{ZL}^{2} + \\overline{EL}^{2} = \\left(\\text{\\textgreek{ζ}} \\mp \\dfrac{\\text{\\textgreek{β} sin ang. latit.}}{R}\\right)^{2} + \\left(\\dfrac{\\text{\\textgreek{β} sin ang. long.}}{R}\\right)^{2}.$}}",
+     "transcription": "$z^{2} = \\overline{ZL}^{2} + \\overline{EL}^{2} = \\left(\\text{ζ} \\mp \\dfrac{\\text{β sin ang. latit.}}{R}\\right)^{2} + \\left(\\dfrac{\\text{β sin ang. long.}}{R}\\right)^{2}.$",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0349-body-L014",
+     "source_line_no": null,
+     "tex": "\\Indent \\Name{Al–Battānī} manifeste noluit simplices lineas rectas pro arcubus ponere; arcubus sub-",
+     "transcription": "{sp:Al–Battānī} manifeste noluit simplices lineas rectas pro arcubus ponere; arcubus sub-",
+     "semantic_anchor": "AB01-PDF0349-P05",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0349-body-L015",
+     "source_line_no": null,
+     "tex": "stituit eorum sinus, et tunc, triangulum ZEL tanquam rectilineum ducens, statuit:",
+     "transcription": "stituit eorum sinus, et tunc, triangulum ZEL tanquam rectilineum ducens, statuit:",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0349-body-L016",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{93.75mm}\\makebox[0pt][c]{$\\sin^{2} z = \\sin^{2} ZL + \\sin^{2} EL = \\sin^{2}\\left[\\text{\\textgreek{ζ}} \\mp \\text{arc}\\left(\\dfrac{\\text{sin \\textgreek{β} sin ang. latit.}}{R}\\right)\\right] + \\left(\\dfrac{\\text{sin \\textgreek{β} sin ang. long.}}{R}\\right)^{2}.$}}",
+     "transcription": "$\\sin^{2} z = \\sin^{2} ZL + \\sin^{2} EL = \\sin^{2}\\left[\\text{ζ} \\mp \\text{arc}\\left(\\dfrac{\\text{sin β sin ang. latit.}}{R}\\right)\\right] + \\left(\\dfrac{\\text{sin β sin ang. long.}}{R}\\right)^{2}.$",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0349-body-L017",
+     "source_line_no": null,
+     "tex": "\\Indent [In resolvendo triangulo sphaerico ELZ rectangulo in L, vera formula quae \\textit{z} (vel ZE)",
+     "transcription": "[In resolvendo triangulo sphaerico ELZ rectangulo in L, vera formula quae *z* (vel ZE)",
+     "semantic_anchor": "AB01-PDF0349-P06",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0349-body-L018",
+     "source_line_no": null,
+     "tex": "praebet est",
+     "transcription": "praebet est",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0349-body-L019",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{93.75mm}\\makebox[0pt][c]{$\\cos ZE = \\cos EL \\cos ZL$}}",
+     "transcription": "$\\cos ZE = \\cos EL \\cos ZL$",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0349-body-L020",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.00mm}unde oritur}\\rlap{\\hspace*{93.65mm}\\makebox[0pt][c]{$\\cos^{2} ZE = \\cos^{2} EL \\cos^{2} ZL$}}",
+     "transcription": "unde oritur $\\cos^{2} ZE = \\cos^{2} EL \\cos^{2} ZL$",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0349-body-L021",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.00mm}scilicet}\\rlap{\\hspace*{93.45mm}\\makebox[0pt][c]{$1 - \\sin^{2} ZE = (1 - \\sin^{2} EL)\\;(1 - \\sin^{2} ZL)$}}",
+     "transcription": "scilicet $1 - \\sin^{2} ZE = (1 - \\sin^{2} EL)\\;(1 - \\sin^{2} ZL)$",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0349-body-L022",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.00mm}vel etiam}\\rlap{\\hspace*{93.97mm}\\makebox[0pt][c]{$\\sin^{2} ZE = \\sin^{2} EL + \\sin^{2} ZL - \\sin^{2} EL \\sin^{2} ZL.$}}",
+     "transcription": "vel etiam $\\sin^{2} ZE = \\sin^{2} EL + \\sin^{2} ZL - \\sin^{2} EL \\sin^{2} ZL.$",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0349-body-L023",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.00mm}\\Name{Al–Battānī} contra:}\\rlap{\\hspace*{95.27mm}\\makebox[0pt][c]{$\\sin^{2} ZE = \\sin^{2} EL + \\sin^{2} ZL\\;\\cdot$}}",
+     "transcription": "{sp:Al–Battānī} contra: $\\sin^{2} ZE = \\sin^{2} EL + \\sin^{2} ZL\\;\\cdot$",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0349-body-L024",
+     "source_line_no": null,
+     "tex": "Unde patet eius sin\\textsuperscript{2} ZE veritatem excedere quantitate sin\\textsuperscript{2} EL sin\\textsuperscript{2} ZL. Cum EB $=$ \\textgreek{β} summum",
+     "transcription": "Unde patet eius sin{sup:2} ZE veritatem excedere quantitate sin{sup:2} EL sin{sup:2} ZL. Cum EB $=$ β summum",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0349-body-L025",
+     "source_line_no": null,
+     "tex": "5° attingat, et angulus EBZ summum 23° 35′, invenitur EL summum esse 2° 0′; qua re ma-",
+     "transcription": "5° attingat, et angulus EBZ summum 23° 35′, invenitur EL summum esse 2° 0′; qua re ma-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0349-body-L026",
+     "source_line_no": null,
+     "tex": "ximus valor sin\\textsuperscript{2} EL est $\\dfrac{1}{821}$, radio $=$ 1 sumpto. Apud \\Name{Albatenium} igitur error quantitatis",
+     "transcription": "ximus valor sin{sup:2} EL est $\\dfrac{1}{821}$, radio $=$ 1 sumpto. Apud {sp:Albatenium} igitur error quantitatis",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0349-body-L027",
+     "source_line_no": null,
+     "tex": "sin\\textsuperscript{2} ZE summum est $\\dfrac{1}{821}$ sin\\textsuperscript{2} ZL; et argumentatione quam referre nunc opus non est, invenio",
+     "transcription": "sin{sup:2} ZE summum est $\\dfrac{1}{821}$ sin{sup:2} ZL; et argumentatione quam referre nunc opus non est, invenio",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0349-body-L028",
+     "source_line_no": null,
+     "tex": "maximum errorem contingentem parallaxi altitudinis ob ZE ita imperfecte supputatum, $\\dfrac{1}{1642}$",
+     "transcription": "maximum errorem contingentem parallaxi altitudinis ob ZE ita imperfecte supputatum, $\\dfrac{1}{1642}$",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0349-body-L029",
+     "source_line_no": null,
+     "tex": "ipsius parallaxis non posse excedere, summum ergo 3″ vel 4″, etiam si exaggerata parallaxis",
+     "transcription": "ipsius parallaxis non posse excedere, summum ergo 3″ vel 4″, etiam si exaggerata parallaxis",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0349-body-L030",
+     "source_line_no": null,
+     "tex": "\\Name{Ptolemaei} adhibeatur cum Luna est in perigeo excentrici. Formula igitur \\Name{Albateniana},",
+     "transcription": "{sp:Ptolemaei} adhibeatur cum Luna est in perigeo excentrici. Formula igitur {sp:Albateniana},",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0349-body-L031",
+     "source_line_no": null,
+     "tex": "licet tantum adproximata, optime inservit. Formula rudior \\Name{Ptolemaei} quoque sufficit; nam",
+     "transcription": "licet tantum adproximata, optime inservit. Formula rudior {sp:Ptolemaei} quoque sufficit; nam",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0349-body-L032",
+     "source_line_no": null,
+     "tex": "differentia inter arcus ZE, EL nunquam multum sensibilis est, et alicuius momenti fit tantum",
+     "transcription": "differentia inter arcus ZE, EL nunquam multum sensibilis est, et alicuius momenti fit tantum",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0349-body-L033",
+     "source_line_no": null,
+     "tex": "cum Luna zenith appropinquet, scilicet cum ZE haud multos gradus complectatur. Tunc e",
+     "transcription": "cum Luna zenith appropinquet, scilicet cum ZE haud multos gradus complectatur. Tunc e",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0349-body-L034",
+     "source_line_no": null,
+     "tex": "methodo \\Name{Albatenii} et methodo \\Name{Ptolemaei} eadem fere quantitas colligitur, cum pro sinibus",
+     "transcription": "methodo {sp:Albatenii} et methodo {sp:Ptolemaei} eadem fere quantitas colligitur, cum pro sinibus",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0349-body-L035",
+     "source_line_no": null,
+     "tex": "possint arcus poni absque multa variatione in eo quod provenit. — \\textsc{Schiaparelli}.]",
+     "transcription": "possint arcus poni absque multa variatione in eo quod provenit. — {sc:Schiaparelli}.]",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0349-body-L036",
+     "source_line_no": null,
+     "tex": "\\Indent II. \\textit{Correctio angulorum.} — \\Name{Ptolemaeus}, l. l., angulum longitudinis correctum putat",
+     "transcription": "II. *Correctio angulorum.* — {sp:Ptolemaeus}, l. l., angulum longitudinis correctum putat",
+     "semantic_anchor": "AB01-PDF0349-P07",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0349-body-L037",
+     "source_line_no": null,
+     "tex": "ATZ esse, vel AHZ si Luna ab austro eclipticae consistit. \\Name{Al–Battānī} similiter, sed falso ut",
+     "transcription": "ATZ esse, vel AHZ si Luna ab austro eclipticae consistit. {sp:Al–Battānī} similiter, sed falso ut",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0349-body-L038",
+     "source_line_no": null,
+     "tex": "infra dicemus. Ambo postea, perperam triangulis sphaericis tribuentes proprietatem rectilineo-",
+     "transcription": "infra dicemus. Ambo postea, perperam triangulis sphaericis tribuentes proprietatem rectilineo-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0349-body-L039",
+     "source_line_no": null,
+     "tex": "rum, faciunt",
+     "transcription": "rum, faciunt",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    }
+   ]
+  }
+ ]
+}

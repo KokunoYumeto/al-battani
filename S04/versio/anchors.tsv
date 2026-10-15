@@ -1800,3 +1800,42 @@ AB01-PDF0348-body-L037	259	body	angulus longitudinis.
 AB01-PDF0348-body-L038	259	body	In triangulo sphaerico rectangulo ELB ($=$ BKD) est (cfr.
 AB01-PDF0348-body-L039	259	body	p. 181, adn. 1):
 AB01-PDF0348-body-L040	259	body	$\\sin EL = \\sin DK = \\dfrac{\\sin EB \\times \\sin EBL}{R} = \\dfrac{\\text{sin β sin ang. long.}}{R}\\,.$
+AB01-PDF0349-body-L001	260	body	Si, ob parvitatem triangulorum, figuram tanquam rectilineam consideremus, debet esse
+AB01-PDF0349-body-L002	260	body	ang. LEB $=$ 90° $-$ EBL $=$ 90° $-$ ang. long. $=$ ang. latit., qua re in triangulo sphaerico ELB vel
+AB01-PDF0349-body-L003	260	body	BKD *proxime* habetur:
+AB01-PDF0349-body-L004	260	body	$\\sin BL = \\sin KB = \\dfrac{\\sin EB \\times \\sin LEB}{R} = \\dfrac{\\text{sin β sin ang. latit.}}{R}\\,.$
+AB01-PDF0349-body-L005	260	body	Si Luna est borealis, ZL $=$ ZB $-$ BL $=$ ζ $-$ BL; si australis, ZK $=$ ZB $+$ KB $=$ ζ $+$ BL;
+AB01-PDF0349-body-L006	260	body	ergo, ob aequationes nuper inventas, *proxime* saltem erit
+AB01-PDF0349-body-L007	260	body	$\\sin ZL = \\sin\\left[\\text{ζ} - \\text{arc}\\left(\\dfrac{\\text{sin β sin ang. latit.}}{R}\\right)\\right],$ $\\sin ZK = \\sin\\left[\\text{ζ} + \\text{arc}\\left(\\dfrac{\\text{sin β sin ang. latit.}}{R}\\right)\\right].$
+AB01-PDF0349-body-L008	260	body	Adproximatio paulo maior est quam quae *Almagestum* habet; ibi enim simplicius ponitur
+AB01-PDF0349-body-L009	260	body	$BL = \\dfrac{\\text{β sin ang. latit.}}{R}\\,,$ $EL = \\dfrac{\\text{β sin ang. long.}}{R}\\,,$
+AB01-PDF0349-body-L010	260	body	$ZL = \\text{ζ} - \\dfrac{\\text{β sin ang. latit.}}{R}\\,,$ $ZK = \\text{ζ} + \\dfrac{\\text{β sin ang. latit.}}{R}\\,.$
+AB01-PDF0349-body-L011	260	body	Restat ut ZE $=$ ζ supputetur. {sp:Ptolemaeus} (cfr. quoque ed. Halma t. I, p. 369–370)
+AB01-PDF0349-body-L012	260	body	triangulum ZEL rectilineum ponit, invenitque
+AB01-PDF0349-body-L013	260	body	$z^{2} = \\overline{ZL}^{2} + \\overline{EL}^{2} = \\left(\\text{ζ} \\mp \\dfrac{\\text{β sin ang. latit.}}{R}\\right)^{2} + \\left(\\dfrac{\\text{β sin ang. long.}}{R}\\right)^{2}.$
+AB01-PDF0349-body-L014	260	body	{sp:Al–Battānī} manifeste noluit simplices lineas rectas pro arcubus ponere; arcubus sub-
+AB01-PDF0349-body-L015	260	body	stituit eorum sinus, et tunc, triangulum ZEL tanquam rectilineum ducens, statuit:
+AB01-PDF0349-body-L016	260	body	$\\sin^{2} z = \\sin^{2} ZL + \\sin^{2} EL = \\sin^{2}\\left[\\text{ζ} \\mp \\text{arc}\\left(\\dfrac{\\text{sin β sin ang. latit.}}{R}\\right)\\right] + \\left(\\dfrac{\\text{sin β sin ang. long.}}{R}\\right)^{2}.$
+AB01-PDF0349-body-L017	260	body	[In resolvendo triangulo sphaerico ELZ rectangulo in L, vera formula quae *z* (vel ZE)
+AB01-PDF0349-body-L018	260	body	praebet est
+AB01-PDF0349-body-L019	260	body	$\\cos ZE = \\cos EL \\cos ZL$
+AB01-PDF0349-body-L020	260	body	unde oritur $\\cos^{2} ZE = \\cos^{2} EL \\cos^{2} ZL$
+AB01-PDF0349-body-L021	260	body	scilicet $1 - \\sin^{2} ZE = (1 - \\sin^{2} EL)\\;(1 - \\sin^{2} ZL)$
+AB01-PDF0349-body-L022	260	body	vel etiam $\\sin^{2} ZE = \\sin^{2} EL + \\sin^{2} ZL - \\sin^{2} EL \\sin^{2} ZL.$
+AB01-PDF0349-body-L023	260	body	{sp:Al–Battānī} contra: $\\sin^{2} ZE = \\sin^{2} EL + \\sin^{2} ZL\\;\\cdot$
+AB01-PDF0349-body-L024	260	body	Unde patet eius sin{sup:2} ZE veritatem excedere quantitate sin{sup:2} EL sin{sup:2} ZL. Cum EB $=$ β summum
+AB01-PDF0349-body-L025	260	body	5° attingat, et angulus EBZ summum 23° 35′, invenitur EL summum esse 2° 0′; qua re ma-
+AB01-PDF0349-body-L026	260	body	ximus valor sin{sup:2} EL est $\\dfrac{1}{821}$, radio $=$ 1 sumpto. Apud {sp:Albatenium} igitur error quantitatis
+AB01-PDF0349-body-L027	260	body	sin{sup:2} ZE summum est $\\dfrac{1}{821}$ sin{sup:2} ZL; et argumentatione quam referre nunc opus non est, invenio
+AB01-PDF0349-body-L028	260	body	maximum errorem contingentem parallaxi altitudinis ob ZE ita imperfecte supputatum, $\\dfrac{1}{1642}$
+AB01-PDF0349-body-L029	260	body	ipsius parallaxis non posse excedere, summum ergo 3″ vel 4″, etiam si exaggerata parallaxis
+AB01-PDF0349-body-L030	260	body	{sp:Ptolemaei} adhibeatur cum Luna est in perigeo excentrici. Formula igitur {sp:Albateniana},
+AB01-PDF0349-body-L031	260	body	licet tantum adproximata, optime inservit. Formula rudior {sp:Ptolemaei} quoque sufficit; nam
+AB01-PDF0349-body-L032	260	body	differentia inter arcus ZE, EL nunquam multum sensibilis est, et alicuius momenti fit tantum
+AB01-PDF0349-body-L033	260	body	cum Luna zenith appropinquet, scilicet cum ZE haud multos gradus complectatur. Tunc e
+AB01-PDF0349-body-L034	260	body	methodo {sp:Albatenii} et methodo {sp:Ptolemaei} eadem fere quantitas colligitur, cum pro sinibus
+AB01-PDF0349-body-L035	260	body	possint arcus poni absque multa variatione in eo quod provenit. — {sc:Schiaparelli}.]
+AB01-PDF0349-body-L036	260	body	II. *Correctio angulorum.* — {sp:Ptolemaeus}, l. l., angulum longitudinis correctum putat
+AB01-PDF0349-body-L037	260	body	ATZ esse, vel AHZ si Luna ab austro eclipticae consistit. {sp:Al–Battānī} similiter, sed falso ut
+AB01-PDF0349-body-L038	260	body	infra dicemus. Ambo postea, perperam triangulis sphaericis tribuentes proprietatem rectilineo-
+AB01-PDF0349-body-L039	260	body	rum, faciunt

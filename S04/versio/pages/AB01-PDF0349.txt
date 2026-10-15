@@ -1,0 +1,74 @@
+@page 349 260
+% Commentary on chapter 39, r) continued: in the triangles ELB and BKD, taken as plane, LEB = 90° − EBL = the angle of latitude, so that sin BL = sin β sin ang. latit. : R nearly; ZL = ζ − BL and ZK = ζ + BL; Ptolemy (Almagest V, 19) puts the arcs for their sines and z² = ZL² + EL²; al-Battānī keeps the sines, sin² z = sin² ZL + sin² EL. Schiaparelli: the exact rule cos ZE = cos EL cos ZL, al-Battānī's sin² ZE too great by sin² EL sin² ZL, at most 1/821 sin² ZL, the parallax in error by at most 1/1642 of itself, 3″ or 4″; both methods suffice. II. The correction of the angles: Ptolemy and al-Battānī take ATZ or AHZ (begun).
+@nonum
+^ Si, ob parvitatem triangulorum, figuram tanquam rectilineam consideremus, debet esse
+ang. LEB $=$ 90° $-$ EBL $=$ 90° $-$ ang. long. $=$ ang. latit., qua re in triangulo sphaerico ELB vel
+@vspace 0.08
+BKD *proxime* habetur:
+@vspace 0.10
+@at 93.83^:$\sin BL = \sin KB = \dfrac{\sin EB \times \sin LEB}{R} = \dfrac{\text{sin β sin ang. latit.}}{R}\,.$
+@vspace 0.60
+^ Si Luna est borealis, ZL $=$ ZB $-$ BL $=$ ζ $-$ BL; si australis, ZK $=$ ZB $+$ KB $=$ ζ $+$ BL;
+ergo, ob aequationes nuper inventas, *proxime* saltem erit
+@vspace -0.21
+@at 0.00:$\sin ZL = \sin\left[\text{ζ} - \text{arc}\left(\dfrac{\text{sin β sin ang. latit.}}{R}\right)\right],$ | 187.68>:$\sin ZK = \sin\left[\text{ζ} + \text{arc}\left(\dfrac{\text{sin β sin ang. latit.}}{R}\right)\right].$
+@vspace -0.46
+^ Adproximatio paulo maior est quam quae *Almagestum* habet; ibi enim simplicius ponitur
+@vspace 0.10
+@at 45.44^:$BL = \dfrac{\text{β sin ang. latit.}}{R}\,,$ | 141.71^:$EL = \dfrac{\text{β sin ang. long.}}{R}\,,$
+@vspace 1.13
+@at 44.39^:$ZL = \text{ζ} - \dfrac{\text{β sin ang. latit.}}{R}\,,$ | 142.92^:$ZK = \text{ζ} + \dfrac{\text{β sin ang. latit.}}{R}\,.$
+@vspace 0.44
+^ Restat ut ZE $=$ ζ supputetur. {sp:Ptolemaeus} (cfr. quoque ed. Halma t. I, p. 369–370)
+@vspace 0.09
+triangulum ZEL rectilineum ponit, invenitque
+@vspace -1.09
+@at 93.72^:$z^{2} = \overline{ZL}^{2} + \overline{EL}^{2} = \left(\text{ζ} \mp \dfrac{\text{β sin ang. latit.}}{R}\right)^{2} + \left(\dfrac{\text{β sin ang. long.}}{R}\right)^{2}.$
+@vspace -0.39
+^ {sp:Al–Battānī} manifeste noluit simplices lineas rectas pro arcubus ponere; arcubus sub-
+stituit eorum sinus, et tunc, triangulum ZEL tanquam rectilineum ducens, statuit:
+@vspace -0.94
+@at 93.75^:$\sin^{2} z = \sin^{2} ZL + \sin^{2} EL = \sin^{2}\left[\text{ζ} \mp \text{arc}\left(\dfrac{\text{sin β sin ang. latit.}}{R}\right)\right] + \left(\dfrac{\text{sin β sin ang. long.}}{R}\right)^{2}.$
+@vspace 0.66
+^ [In resolvendo triangulo sphaerico ELZ rectangulo in L, vera formula quae *z* (vel ZE)
+praebet est
+@vspace 0.10
+@at 93.75^:$\cos ZE = \cos EL \cos ZL$
+@at 0.00:unde oritur | 93.65^:$\cos^{2} ZE = \cos^{2} EL \cos^{2} ZL$
+@vspace 0.10
+@at 0.00:scilicet | 93.45^:$1 - \sin^{2} ZE = (1 - \sin^{2} EL)\;(1 - \sin^{2} ZL)$
+@at 0.00:vel etiam | 93.97^:$\sin^{2} ZE = \sin^{2} EL + \sin^{2} ZL - \sin^{2} EL \sin^{2} ZL.$
+@at 0.00:{sp:Al–Battānī} contra: | 95.27^:$\sin^{2} ZE = \sin^{2} EL + \sin^{2} ZL\;\cdot$
+@vspace 1.11
+Unde patet eius sin{sup:2} ZE veritatem excedere quantitate sin{sup:2} EL sin{sup:2} ZL. Cum EB $=$ β summum
+5° attingat, et angulus EBZ summum 23° 35′, invenitur EL summum esse 2° 0′; qua re ma-
+@vspace -0.93
+ximus valor sin{sup:2} EL est $\dfrac{1}{821}$, radio $=$ 1 sumpto. Apud {sp:Albatenium} igitur error quantitatis
+@vspace -2.20
+sin{sup:2} ZE summum est $\dfrac{1}{821}$ sin{sup:2} ZL; et argumentatione quam referre nunc opus non est, invenio
+@vspace -2.16
+maximum errorem contingentem parallaxi altitudinis ob ZE ita imperfecte supputatum, $\dfrac{1}{1642}$
+@vspace -0.42
+ipsius parallaxis non posse excedere, summum ergo 3″ vel 4″, etiam si exaggerata parallaxis
+{sp:Ptolemaei} adhibeatur cum Luna est in perigeo excentrici. Formula igitur {sp:Albateniana},
+licet tantum adproximata, optime inservit. Formula rudior {sp:Ptolemaei} quoque sufficit; nam
+@vspace 0.08
+differentia inter arcus ZE, EL nunquam multum sensibilis est, et alicuius momenti fit tantum
+cum Luna zenith appropinquet, scilicet cum ZE haud multos gradus complectatur. Tunc e
+methodo {sp:Albatenii} et methodo {sp:Ptolemaei} eadem fere quantitas colligitur, cum pro sinibus
+possint arcus poni absque multa variatione in eo quod provenit. — {sc:Schiaparelli}.]
+@vspace 0.09
+^ II. *Correctio angulorum.* — {sp:Ptolemaeus}, l. l., angulum longitudinis correctum putat
+ATZ esse, vel AHZ si Luna ab austro eclipticae consistit. {sp:Al–Battānī} similiter, sed falso ut
+infra dicemus. Ambo postea, perperam triangulis sphaericis tribuentes proprietatem rectilineo-
+rum, faciunt
+@obs body L1: the u of «figuram» is covered by a blot.
+@obs body L1-L4: in the triangle ELB, right-angled at L and taken as plane, the angles at E and B make 90°, so that LEB is the angle of latitude, and the law of sines gives L4; the exact rule of the right spherical triangle is tan BL = tan EB cos EBL = tan β sin ang. latit. : R. The bars after «90°» (L2) and those of L5, L7, L10, L21 and L22 (9.1 to 10.2 pt, as long as the signs of equality) are minus signs.
+@obs body L5-L10: ZB = ζ, and KB = BL, the triangles ELB and BKD being equal (p. 259, L38-L40). Ptolemy (Almagest V, 19) puts the arcs for their sines: L9 and L10.
+@obs body L11: «ZE = ζ» is printed for ZE = z: ζ is ZB, the zenith distance of the degree of the Moon (p. 259, L26), z that of the Moon (L13, L16, L17). «369–370» has a long dash (5.4 pt).
+@obs body L13: the bars over ZL and EL mark the arcs taken as straight lines; a speck prints before ZL.
+@obs body L14: «Al–Battānī» has a long dash (5.4 pt), as in L23 and L37; the hyphen of «sub-» prints short and high (1.8 pt).
+@obs body L17-L23: cos ZE = cos EL cos ZL is the rule of the spherical triangle ELZ right-angled at L, and the three lines that follow are exact; al-Battānī's rule ((α), p. 259, L29) drops the term sin² EL sin² ZL. Heavy brackets open (L17) and close (L35) Schiaparelli's addition. The full stop after the formula of L23 stands at mid-height.
+@obs body L24-L29: with β = 5° and EBZ = 23° 35′, sin EL = sin 5° sin 23° 35′ gives EL = 1° 59′ 55″, the 2° 0′ printed; sin² 2° 0′ = 1 : 821.0, and the error of sin z, and so of the parallax in altitude, is at most half of it, 1 : 1642: 3″,7 of Ptolemy's greatest parallax of the Moon, 1° 42′ 1/2 at 33 1/2 radii. But 23° 35′, the obliquity, bounds the angle EBZ, the angle of longitude, only when the Moon is in the meridian, where it lies between 0° and 23° 35′ (p. 258, formula (α)). Elsewhere it is greater: on the horizon it is the angle of the ecliptic with the horizon (p. 258, L22), which at latitude 36° reaches 77° 34′; EL then becomes 4° 53′, sin² EL 1 : 138, and the error of the parallax up to 1 : 276 of it, 22″. The bar of the fraction in L27 prints broken.
+@obs body L32: «differentia inter arcus ZE, EL»: EL is at most β, while ZE may be any zenith distance; the difference which is small except near the zenith, where ZE spans few degrees, is that of ZE and ZL (cos ZE = cos EL cos ZL, L19), so ZL is meant for EL.
+@obs body L35-L37: the dashes before «Schiaparelli» and after «angulorum.» measure 10.0 and 10.1 pt. «l. l.» is Almagest V, 19; T and H are the points where the vertical circles through E and D meet the ecliptic (p. 259, the second figure). The crossbar of the H of «AHZ» prints faint.
