@@ -82,7 +82,8 @@ stands in the margin opposite the line numbers), {nonum} the line number is not 
 larger (a note number or letter after the head; it may hold one level of markup, as {nm:({bi:a})}),
 {sc:...} small capitals, {sup:...} superscript, {sub:...} subscript, {sfrac:a/b} a small fraction, {0} the zero
 sign of the tables, {lbrace3} and {rbrace3} a left and a right brace over three lines (written on the middle one),
-{rbrace2} a right brace over two lines (written on the first), {vrule2} a thin vertical rule over two lines (written
+{rbrace2} a right brace over two lines (written on the first), {rbrace:L:T} a right brace L pt long whose top is
+T pt above the baseline of the line it is written on, {vrule2} a thin vertical rule over two lines (written
 on the first), {ar:...} an Arabic phrase with its own brackets and punctuation, set as one right-to-left run
 (a Latin word inside it, as codd. or add., stands in its place in the run in the roman type; {syr:...} the same
 for Syriac), {rtl:...} a phrase of Arabic numerals and Latin words that the print sets right to
@@ -235,6 +236,11 @@ def markup(s):
     s = re.sub(r"\{sfrac:([^/}]+)/([^}]+)\}", lambda m: "$\\qfrac{" + m.group(1).replace("×", r"\times ")
                + "}{" + m.group(2).replace("×", r"\times ") + "}$", s)
     s = s.replace("{lbrace3}", LBRACE3).replace("{rbrace3}", RBRACE3).replace("{rbrace2}", RBRACE2)
+    # a right brace of any length, drawn as the others: {rbrace:L:T}, L pt long, its top T pt above the baseline
+    s = re.sub(r"\{rbrace:(\d+(?:\.\d+)?):(\d+(?:\.\d+)?)\}",
+               lambda m: (r"\smash{\raisebox{" + f"{float(m.group(2)) - float(m.group(1)):.2f}" + r"pt}{\tikz\draw"
+                          r"[line width=.55pt,decorate,decoration={brace,amplitude=2.3pt}] (0," + m.group(1)
+                          + r"pt) -- (0,0);}}"), s)
     s = s.replace("{vrule2}", VRULE2)
     s = s.replace("{0}", "\uE001")
     s = re.sub(r"\*\*([^*]+)\*\*", r"\\textbf{\1}", s)
