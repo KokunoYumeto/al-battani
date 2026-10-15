@@ -1,0 +1,70 @@
+@page 275 186
+% Notes on chapter 12, a) concluded (Schiaparelli's addition); b) on p. 25, ll. 16-22 and p. 25, l. 37 - p. 26: the altitude of the Sun on the prime vertical from the amplitude and the meridian altitude; why al-Battānī proves this rule; his proof by the analemma, and the corrupt last words of the proof, explained by Schiaparelli; al-Battānī's rule (α), also in Ibn Yūnus; Delambre's expansion of it; the three rules of Ḥabash (begun). Notes on Ḥabash, on the analemma in von Braunmühl, and on a slip of Delambre.
+@nonum
+tem regionibus ab aequatore usque ad parallelum 45° parvus angulus MZM′ usque ad 8′ vel
+9′ assurgere potest; unde intelligimus, cur Albatenius hanc lineae meridianae descriptionem
+@vspace 0.19
+circa solstitiorum tempora suscipiendam affirmet. — {sc:Schiaparelli}.]
+@vspace 5.16
+@center {bi:b}) — *Pag. 25, l. 16–22, et pag. 25, l. 37 - pag. 26.*
+@vspace 4.47
+^ Amplitudine ortiva et altitudine meridiana notis, *altitudinem Solis quae azimuth caret*
+scilicet *altitudinem in primo circulo verticali* (per loca Est- West transeunte, a quibus azi-
+muth Arabum numerantur) supputare.
+^ Hucusque auctor formulas suas absque demonstrationibus enuntiaverat; nunc contra quo
+modo regula inveniatur geometrice ostendit. Cur id fecerit haud certe constat; mihi probabile
+videtur anteriores demonstrationes eum omisisse utpote iam, ex aliis auctoribus notas, hanc
+contra problematis solutionem novam esse et hac de causa al-Battānī eam demonstrare vo-
+luisse. Vidimus enimvero propositiones astronomiae sphaericae prioribus capitibus contentas
+aut facile posse e constructionibus Ptolemaicis deduci (sinibus pro chordis positis) aut apud
+Ḥabash (1), auctoris nostri coaevum, etiam legi; problema autem huius capitis nonnisi apud
+seriores hoc modo resolutum invenio. Item in capite XXVI alterius formulae trigonometricae
+demonstratio legitur, quam ab {sp:al–Battānī} primum inventam fuisse minime dubitandum est.
+^ Demonstratio Albateniana analemmate seu proiectione orthographica sphaerae nititur, cu-
+ius usus frequens apud Indos, frequentior apud Arabes est (2). — Ultima demonstrationis
+verba (p. 26, l. 27–29), quae Plato omittit, ab imperito quodam lectore vitiatae sunt, qui eo-
+dem modo textum in XXVI capite (pag. 38, l. 27–28) deturpavit. [Al–Battānī volebat: ergo
+si linea GF secundum rationem CM ad CF minuatur, remanet linea EM; similiter, si GF se-
+@vspace 0.09
+cundum rationem EC ad CG minuatur, restat linea EM. Hoc est, cum sit $EC : CG = EM :$
+$GF = CM : CF$, manifeste $EM = \dfrac{GF \times CM}{CF} = \dfrac{GF \times EC}{CG}$. — {sc:Schiaparelli}.]
+@vspace 0.61
+^ Cum sit $EC$ = sin amplitudinis ortivae Solis data die, $GF$ = sin altitudinis meridianae
+Solis, $CG = EC + EG$ = sin amplit. ortivae + cos altit. meridianae, statim colligitur formula
+@vspace 0.08
+{sp:al–Battānī}:
+@at 0:(α) | 94^:$\text{sin altit. sine azimuth} = \dfrac{\text{sin amplit. ort.} \times \text{sin altit. merid.}}{\text{sin amplit. ort.} + \text{cos altit. merid.}}$,
+@vspace -0.41
+quae postea, simul cum aliis, legitur apud {sp:Ibn Yūnus}, cap. XVIII ({sp:Delambre}, p. 114).
+^ Inutile, nec menti auctoris respondens, est hanc formulam evolvere, ut {sp:Delambre}, p. 19,
+facit, pro sin ampl. ortivae eius valorem $R\,\dfrac{\sin\text{δ}}{\cos\text{φ}}$ in VII capite inventum ponendo, pro sin
+@vspace -0.21
+altit. merid. valorem $\cos (\text{φ} - \text{δ})$ qui e XV cap. consequitur, demum $\sin (\text{φ} - \text{δ})$ pro cos
+altit. merid. Colligitur tunc (3)
+@vspace 0.72
+@center $\text{sin alt. sine azimuth} = R\,\dfrac{\sin\text{δ}}{\cos\text{φ}} \Biggl(\frac{\displaystyle\cos (\text{φ} - \text{δ})}{\displaystyle\sin (\text{φ} - \text{δ}) + R\,{\textstyle\frac{\displaystyle\sin\text{δ}}{\displaystyle\cos\text{φ}}}}\Biggr) = \dfrac{R \sin\text{δ} \cos (\text{φ} - \text{δ})}{\cos\text{φ} \sin (\text{φ} - \text{δ}) + R \sin\text{δ}}$.
+@vspace -0.18
+^ Animadvertendum potius est pro formula Albateniana tres alias apud {sp:Ḥabash}, f. 93,r.,
+reperiri:
+@vspace 1.78
+@notes
+@fontsize 9 11.80
+@vspace 2.11
+^ (1) Qui tamen demonstrationes semper omittit.
+^ (2) Quod recte intellexit {sp:von Braunmühl},
+I, p. 38 (de Indis) et passim.
+@col
+@fontsize 9 11.70
+@vspace 2.25
+^ (3) {sp:Delambre} ponit $\sin (\text{φ} - \text{δ})$ in nume-
+ratore, $\cos (\text{φ} - \text{δ})$ in denominatore fractionis; sed
+est merus lapsus calami.
+@obs body L1-L3: the end of Schiaparelli's addition to the note a) on chapter 12, begun on p. 185; it closes with a heavy bracket after his name in small capitals.
+@obs body L4: in the head, the dash of «16–22» measures 5.4 pt, the dash between «37» and «pag. 26», set with spaces, 4.7 pt; transcribed as a long dash and a hyphen.
+@obs body L6: «Est- West» is printed with a hyphen (3.2 pt) and a space after it; kept as printed.
+@obs body L11: the dash of «al-Battānī» measures 3.5 pt, a hyphen; in L16 and L26 the name is letter-spaced with the long dash (5.5 pt).
+@obs body L20-L23: Schiaparelli's explanation of the corrupt words stands in heavy brackets, as in the addition of L1-L3.
+@obs body L22-L27: the formulas are checked. The proportion EC : CG = EM : GF = CM : CF gives EM = GF × EC / CG; with EC = sin amplit. ortivae, GF = sin altit. merid. and CG = EC + EG = sin amplit. ortivae + cos altit. merid. it is rule (α). With R = 1, sin amplit. ortivae = sin δ / cos φ, sin altit. merid. = cos (φ − δ) and cos altit. merid. = sin (φ − δ), the denominator cos φ sin (φ − δ) + sin δ equals sin φ cos (φ − δ), so that the altitude on the prime vertical is sin δ / sin φ, as it must be.
+@obs body L24: the cedilla under the C of «Cum» and the hook under the C of «EC» are spots of ink; they are not signs.
+@obs body L31, L33: the minus signs are printed as long dashes; they are set as minus signs.
+@obs body L33: the large parentheses enclose the fraction with its compound denominator, as printed.

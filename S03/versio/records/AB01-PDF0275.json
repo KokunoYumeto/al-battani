@@ -1,0 +1,451 @@
+{
+ "anchor": "AB01-PDF0275",
+ "master_pdf_page": 275,
+ "printed_page": 186,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "margin_locators": [],
+ "observations": [
+  "body L1-L3: the end of Schiaparelli's addition to the note a) on chapter 12, begun on p. 185; it closes with a heavy bracket after his name in small capitals.",
+  "body L4: in the head, the dash of «16–22» measures 5.4 pt, the dash between «37» and «pag. 26», set with spaces, 4.7 pt; transcribed as a long dash and a hyphen.",
+  "body L6: «Est- West» is printed with a hyphen (3.2 pt) and a space after it; kept as printed.",
+  "body L11: the dash of «al-Battānī» measures 3.5 pt, a hyphen; in L16 and L26 the name is letter-spaced with the long dash (5.5 pt).",
+  "body L20-L23: Schiaparelli's explanation of the corrupt words stands in heavy brackets, as in the addition of L1-L3.",
+  "body L22-L27: the formulas are checked. The proportion EC : CG = EM : GF = CM : CF gives EM = GF × EC / CG; with EC = sin amplit. ortivae, GF = sin altit. merid. and CG = EC + EG = sin amplit. ortivae + cos altit. merid. it is rule (α). With R = 1, sin amplit. ortivae = sin δ / cos φ, sin altit. merid. = cos (φ − δ) and cos altit. merid. = sin (φ − δ), the denominator cos φ sin (φ − δ) + sin δ equals sin φ cos (φ − δ), so that the altitude on the prime vertical is sin δ / sin φ, as it must be.",
+  "body L24: the cedilla under the C of «Cum» and the hook under the C of «EC» are spots of ink; they are not signs.",
+  "body L31, L33: the minus signs are printed as long dashes; they are set as minus signs.",
+  "body L33: the large parentheses enclose the fraction with its compound denominator, as printed."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0275-body-L001",
+     "source_line_no": null,
+     "tex": "tem regionibus ab aequatore usque ad parallelum 45° parvus angulus MZM′ usque ad 8′ vel",
+     "transcription": "tem regionibus ab aequatore usque ad parallelum 45° parvus angulus MZM′ usque ad 8′ vel",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0275-body-L002",
+     "source_line_no": null,
+     "tex": "9′ assurgere potest; unde intelligimus, cur Albatenius hanc lineae meridianae descriptionem",
+     "transcription": "9′ assurgere potest; unde intelligimus, cur Albatenius hanc lineae meridianae descriptionem",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0275-body-L003",
+     "source_line_no": null,
+     "tex": "circa solstitiorum tempora suscipiendam affirmet. — \\textsc{Schiaparelli}.]",
+     "transcription": "circa solstitiorum tempora suscipiendam affirmet. — {sc:Schiaparelli}.]",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0275-body-L004",
+     "source_line_no": null,
+     "tex": "\\CenterLine{\\textbf{\\textit{b}}) — \\textit{Pag. 25, l. 16–22, et pag. 25, l. 37 - pag. 26.}}",
+     "transcription": "{bi:b}) — *Pag. 25, l. 16–22, et pag. 25, l. 37 - pag. 26.*",
+     "semantic_anchor": "AB01-PDF0275-H04",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0275-body-L005",
+     "source_line_no": null,
+     "tex": "\\Indent Amplitudine ortiva et altitudine meridiana notis, \\textit{altitudinem Solis quae azimuth caret}",
+     "transcription": "Amplitudine ortiva et altitudine meridiana notis, *altitudinem Solis quae azimuth caret*",
+     "semantic_anchor": "AB01-PDF0275-P01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0275-body-L006",
+     "source_line_no": null,
+     "tex": "scilicet \\textit{altitudinem in primo circulo verticali} (per loca Est- West transeunte, a quibus azi-",
+     "transcription": "scilicet *altitudinem in primo circulo verticali* (per loca Est- West transeunte, a quibus azi-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0275-body-L007",
+     "source_line_no": null,
+     "tex": "muth Arabum numerantur) supputare.",
+     "transcription": "muth Arabum numerantur) supputare.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0275-body-L008",
+     "source_line_no": null,
+     "tex": "\\Indent Hucusque auctor formulas suas absque demonstrationibus enuntiaverat; nunc contra quo",
+     "transcription": "Hucusque auctor formulas suas absque demonstrationibus enuntiaverat; nunc contra quo",
+     "semantic_anchor": "AB01-PDF0275-P02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0275-body-L009",
+     "source_line_no": null,
+     "tex": "modo regula inveniatur geometrice ostendit. Cur id fecerit haud certe constat; mihi probabile",
+     "transcription": "modo regula inveniatur geometrice ostendit. Cur id fecerit haud certe constat; mihi probabile",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0275-body-L010",
+     "source_line_no": null,
+     "tex": "videtur anteriores demonstrationes eum omisisse utpote iam, ex aliis auctoribus notas, hanc",
+     "transcription": "videtur anteriores demonstrationes eum omisisse utpote iam, ex aliis auctoribus notas, hanc",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0275-body-L011",
+     "source_line_no": null,
+     "tex": "contra problematis solutionem novam esse et hac de causa al-Battānī eam demonstrare vo-",
+     "transcription": "contra problematis solutionem novam esse et hac de causa al-Battānī eam demonstrare vo-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0275-body-L012",
+     "source_line_no": null,
+     "tex": "luisse. Vidimus enimvero propositiones astronomiae sphaericae prioribus capitibus contentas",
+     "transcription": "luisse. Vidimus enimvero propositiones astronomiae sphaericae prioribus capitibus contentas",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0275-body-L013",
+     "source_line_no": null,
+     "tex": "aut facile posse e constructionibus Ptolemaicis deduci (sinibus pro chordis positis) aut apud",
+     "transcription": "aut facile posse e constructionibus Ptolemaicis deduci (sinibus pro chordis positis) aut apud",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0275-body-L014",
+     "source_line_no": null,
+     "tex": "Ḥabash (1), auctoris nostri coaevum, etiam legi; problema autem huius capitis nonnisi apud",
+     "transcription": "Ḥabash (1), auctoris nostri coaevum, etiam legi; problema autem huius capitis nonnisi apud",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0275-body-L015",
+     "source_line_no": null,
+     "tex": "seriores hoc modo resolutum invenio. Item in capite XXVI alterius formulae trigonometricae",
+     "transcription": "seriores hoc modo resolutum invenio. Item in capite XXVI alterius formulae trigonometricae",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0275-body-L016",
+     "source_line_no": null,
+     "tex": "demonstratio legitur, quam ab \\Name{al–Battānī} primum inventam fuisse minime dubitandum est.",
+     "transcription": "demonstratio legitur, quam ab {sp:al–Battānī} primum inventam fuisse minime dubitandum est.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0275-body-L017",
+     "source_line_no": null,
+     "tex": "\\Indent Demonstratio Albateniana analemmate seu proiectione orthographica sphaerae nititur, cu-",
+     "transcription": "Demonstratio Albateniana analemmate seu proiectione orthographica sphaerae nititur, cu-",
+     "semantic_anchor": "AB01-PDF0275-P03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0275-body-L018",
+     "source_line_no": null,
+     "tex": "ius usus frequens apud Indos, frequentior apud Arabes est (2). — Ultima demonstrationis",
+     "transcription": "ius usus frequens apud Indos, frequentior apud Arabes est (2). — Ultima demonstrationis",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0275-body-L019",
+     "source_line_no": null,
+     "tex": "verba (p. 26, l. 27–29), quae Plato omittit, ab imperito quodam lectore vitiatae sunt, qui eo-",
+     "transcription": "verba (p. 26, l. 27–29), quae Plato omittit, ab imperito quodam lectore vitiatae sunt, qui eo-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0275-body-L020",
+     "source_line_no": null,
+     "tex": "dem modo textum in XXVI capite (pag. 38, l. 27–28) deturpavit. [Al–Battānī volebat: ergo",
+     "transcription": "dem modo textum in XXVI capite (pag. 38, l. 27–28) deturpavit. [Al–Battānī volebat: ergo",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0275-body-L021",
+     "source_line_no": null,
+     "tex": "si linea GF secundum rationem CM ad CF minuatur, remanet linea EM; similiter, si GF se-",
+     "transcription": "si linea GF secundum rationem CM ad CF minuatur, remanet linea EM; similiter, si GF se-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0275-body-L022",
+     "source_line_no": null,
+     "tex": "cundum rationem EC ad CG minuatur, restat linea EM. Hoc est, cum sit $EC : CG = EM :$",
+     "transcription": "cundum rationem EC ad CG minuatur, restat linea EM. Hoc est, cum sit $EC : CG = EM :$",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0275-body-L023",
+     "source_line_no": null,
+     "tex": "$GF = CM : CF$, manifeste $EM = \\dfrac{GF \\times CM}{CF} = \\dfrac{GF \\times EC}{CG}$. — \\textsc{Schiaparelli}.]",
+     "transcription": "$GF = CM : CF$, manifeste $EM = \\dfrac{GF \\times CM}{CF} = \\dfrac{GF \\times EC}{CG}$. — {sc:Schiaparelli}.]",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0275-body-L024",
+     "source_line_no": null,
+     "tex": "\\Indent Cum sit $EC$ = sin amplitudinis ortivae Solis data die, $GF$ = sin altitudinis meridianae",
+     "transcription": "Cum sit $EC$ = sin amplitudinis ortivae Solis data die, $GF$ = sin altitudinis meridianae",
+     "semantic_anchor": "AB01-PDF0275-P04",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0275-body-L025",
+     "source_line_no": null,
+     "tex": "Solis, $CG = EC + EG$ = sin amplit. ortivae + cos altit. meridianae, statim colligitur formula",
+     "transcription": "Solis, $CG = EC + EG$ = sin amplit. ortivae + cos altit. meridianae, statim colligitur formula",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0275-body-L026",
+     "source_line_no": null,
+     "tex": "\\Name{al–Battānī}:",
+     "transcription": "{sp:al–Battānī}:",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0275-body-L027",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.00mm}(\\textgreek{α})}\\rlap{\\hspace*{94.00mm}\\makebox[0pt][c]{$\\text{sin altit. sine azimuth} = \\dfrac{\\text{sin amplit. ort.} \\times \\text{sin altit. merid.}}{\\text{sin amplit. ort.} + \\text{cos altit. merid.}}$,}}",
+     "transcription": "(α) $\\text{sin altit. sine azimuth} = \\dfrac{\\text{sin amplit. ort.} \\times \\text{sin altit. merid.}}{\\text{sin amplit. ort.} + \\text{cos altit. merid.}}$,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0275-body-L028",
+     "source_line_no": null,
+     "tex": "quae postea, simul cum aliis, legitur apud \\Name{Ibn Yūnus}, cap. XVIII (\\Name{Delambre}, p. 114).",
+     "transcription": "quae postea, simul cum aliis, legitur apud {sp:Ibn Yūnus}, cap. XVIII ({sp:Delambre}, p. 114).",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0275-body-L029",
+     "source_line_no": null,
+     "tex": "\\Indent Inutile, nec menti auctoris respondens, est hanc formulam evolvere, ut \\Name{Delambre}, p. 19,",
+     "transcription": "Inutile, nec menti auctoris respondens, est hanc formulam evolvere, ut {sp:Delambre}, p. 19,",
+     "semantic_anchor": "AB01-PDF0275-P05",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0275-body-L030",
+     "source_line_no": null,
+     "tex": "facit, pro sin ampl. ortivae eius valorem $R\\,\\dfrac{\\sin\\text{\\textgreek{δ}}}{\\cos\\text{\\textgreek{φ}}}$ in VII capite inventum ponendo, pro sin",
+     "transcription": "facit, pro sin ampl. ortivae eius valorem $R\\,\\dfrac{\\sin\\text{δ}}{\\cos\\text{φ}}$ in VII capite inventum ponendo, pro sin",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0275-body-L031",
+     "source_line_no": null,
+     "tex": "altit. merid. valorem $\\cos (\\text{\\textgreek{φ}} - \\text{\\textgreek{δ}})$ qui e XV cap. consequitur, demum $\\sin (\\text{\\textgreek{φ}} - \\text{\\textgreek{δ}})$ pro cos",
+     "transcription": "altit. merid. valorem $\\cos (\\text{φ} - \\text{δ})$ qui e XV cap. consequitur, demum $\\sin (\\text{φ} - \\text{δ})$ pro cos",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0275-body-L032",
+     "source_line_no": null,
+     "tex": "altit. merid. Colligitur tunc (3)",
+     "transcription": "altit. merid. Colligitur tunc (3)",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0275-body-L033",
+     "source_line_no": null,
+     "tex": "\\CenterLine{$\\text{sin alt. sine azimuth} = R\\,\\dfrac{\\sin\\text{\\textgreek{δ}}}{\\cos\\text{\\textgreek{φ}}} \\Biggl(\\frac{\\displaystyle\\cos (\\text{\\textgreek{φ}} - \\text{\\textgreek{δ}})}{\\displaystyle\\sin (\\text{\\textgreek{φ}} - \\text{\\textgreek{δ}}) + R\\,{\\textstyle\\frac{\\displaystyle\\sin\\text{\\textgreek{δ}}}{\\displaystyle\\cos\\text{\\textgreek{φ}}}}}\\Biggr) = \\dfrac{R \\sin\\text{\\textgreek{δ}} \\cos (\\text{\\textgreek{φ}} - \\text{\\textgreek{δ}})}{\\cos\\text{\\textgreek{φ}} \\sin (\\text{\\textgreek{φ}} - \\text{\\textgreek{δ}}) + R \\sin\\text{\\textgreek{δ}}}$.}",
+     "transcription": "$\\text{sin alt. sine azimuth} = R\\,\\dfrac{\\sin\\text{δ}}{\\cos\\text{φ}} \\Biggl(\\frac{\\displaystyle\\cos (\\text{φ} - \\text{δ})}{\\displaystyle\\sin (\\text{φ} - \\text{δ}) + R\\,{\\textstyle\\frac{\\displaystyle\\sin\\text{δ}}{\\displaystyle\\cos\\text{φ}}}}\\Biggr) = \\dfrac{R \\sin\\text{δ} \\cos (\\text{φ} - \\text{δ})}{\\cos\\text{φ} \\sin (\\text{φ} - \\text{δ}) + R \\sin\\text{δ}}$.",
+     "semantic_anchor": "AB01-PDF0275-H33",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0275-body-L034",
+     "source_line_no": null,
+     "tex": "\\Indent Animadvertendum potius est pro formula Albateniana tres alias apud \\Name{Ḥabash}, f. 93,r.,",
+     "transcription": "Animadvertendum potius est pro formula Albateniana tres alias apud {sp:Ḥabash}, f. 93,r.,",
+     "semantic_anchor": "AB01-PDF0275-P06",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0275-body-L035",
+     "source_line_no": null,
+     "tex": "reperiri:",
+     "transcription": "reperiri:",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    }
+   ]
+  },
+  {
+   "role": "notes_left",
+   "lines": [
+    {
+     "id": "AB01-PDF0275-notes_left-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (1) Qui tamen demonstrationes semper omittit.",
+     "transcription": "(1) Qui tamen demonstrationes semper omittit.",
+     "semantic_anchor": "AB01-PDF0275-N01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0275-notes_left-L002",
+     "source_line_no": null,
+     "tex": "\\Indent (2) Quod recte intellexit \\Name{von Braunmühl},",
+     "transcription": "(2) Quod recte intellexit {sp:von Braunmühl},",
+     "semantic_anchor": "AB01-PDF0275-N02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0275-notes_left-L003",
+     "source_line_no": null,
+     "tex": "I, p. 38 (de Indis) et passim.",
+     "transcription": "I, p. 38 (de Indis) et passim.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  },
+  {
+   "role": "notes_right",
+   "lines": [
+    {
+     "id": "AB01-PDF0275-notes_right-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (3) \\Name{Delambre} ponit $\\sin (\\text{\\textgreek{φ}} - \\text{\\textgreek{δ}})$ in nume-",
+     "transcription": "(3) {sp:Delambre} ponit $\\sin (\\text{φ} - \\text{δ})$ in nume-",
+     "semantic_anchor": "AB01-PDF0275-N03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0275-notes_right-L002",
+     "source_line_no": null,
+     "tex": "ratore, $\\cos (\\text{\\textgreek{φ}} - \\text{\\textgreek{δ}})$ in denominatore fractionis; sed",
+     "transcription": "ratore, $\\cos (\\text{φ} - \\text{δ})$ in denominatore fractionis; sed",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0275-notes_right-L003",
+     "source_line_no": null,
+     "tex": "est merus lapsus calami.",
+     "transcription": "est merus lapsus calami.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  }
+ ]
+}
