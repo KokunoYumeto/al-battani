@@ -3714,3 +3714,43 @@ AB01-PDF0278-body-L030	189	body	tempus datum post meridiem est, aut subtrahitur 
 AB01-PDF0278-body-L031	189	body	residuum erunt arcus revolutus sphaerae, cuius gradus facile in horas aequinoctiales aut tem-
 AB01-PDF0278-body-L032	189	body	porales convertentur.
 AB01-PDF0278-body-L033	189	body	Sit *P* arcus semidiurnus, *h* altitudo Solis tempore dato, formula {sp:al–Battānī} est
+AB01-PDF0279-body-L001	190	body	(α) $\\text{sin vers}\\,t = \\text{sin vers}\\,P - \\dfrac{\\sin h\\ \\text{sin vers}\\,P}{\\text{sin altit. merid.}}$.
+AB01-PDF0279-body-F01	190	body	[figure, redrawn: figures/AB01-PDF0279-F01.tex]
+AB01-PDF0279-body-L002	190	body	Manifeste haec formula deducta est per proiectionem
+AB01-PDF0279-body-L003	190	body	orthographicam sphaerae. In planum circuli meridiani AFPB
+AB01-PDF0279-body-L004	190	body	proiiciantur orthographice horizon ACB, aequator caelestis
+AB01-PDF0279-body-L005	190	body	EC, parallelus FG descriptus a Sole qui in H pervenisse pu-
+AB01-PDF0279-body-L006	190	body	tetur; perpendicularis FL erit sinus altitudinis meridianae,
+AB01-PDF0279-body-L007	190	body	HK sinus altitudinis tempore dato. In triangulo FLG, quo-
+AB01-PDF0279-body-L008	190	body	niam HK parallela est lateri FL, habetur proportio
+AB01-PDF0279-body-L009	190	body	$FG : HG = FL : HK$
+AB01-PDF0279-body-L010	190	body	$FG : HG = \\text{sin alt. merid.} : \\sin h$.
+AB01-PDF0279-body-L011	190	body	Nunc ut quid sint FG, HG, sciamus, imaginemur proiectionem orthographicam figurae,
+AB01-PDF0279-body-L012	190	body	circulo horizontis omisso, in planum circuli aequinoctialis; erit FXQ meridianus, angulus *f* X *h′*
+AB01-PDF0279-body-L013	190	body	= *t*, angulus *f* X *g′* = P, *h* X = cos *t*, X *g* = cos *P*. E similitudine triangulorum *h′ h* X,
+AB01-PDF0279-body-L014	190	body	H′ H X, colligitur
+AB01-PDF0279-body-F02	190	body	[figure, redrawn: figures/AB01-PDF0279-F02.tex]
+AB01-PDF0279-body-L015	190	body	$FH : f\\,h = H'X : h'\\,X$,
+AB01-PDF0279-body-L016	190	body	id est $FH : f\\,h = FX : R$;
+AB01-PDF0279-body-L017	190	body	sed $f\\,h = f\\,X - h\\,X = R - \\cos t = \\text{sin vers}\\,t$, ergo
+AB01-PDF0279-body-L018	190	body	$FH = \\text{sin vers}\\,t\\,\\dfrac{FX}{R}$.
+AB01-PDF0279-body-L019	190	body	Similiter proportio deducitur
+AB01-PDF0279-body-L020	190	body	$FG : f\\,g = G'X : g'X$
+AB01-PDF0279-body-L021	190	body	vel $FG : f\\,g = FX : R$;
+AB01-PDF0279-body-L022	190	body	sed, quoniam in figura $P > \\text{90°}$, est
+AB01-PDF0279-body-L023	190	body	$f\\,g = f\\,X + X\\,g = R + \\cos P = \\text{sin vers}\\,P$,
+AB01-PDF0279-body-L024	190	body	ergo $FG = \\text{sin vers}\\,P\\,\\dfrac{FX}{R}$.
+AB01-PDF0279-body-L025	190	body	Demum $HG = FG - FH = \\dfrac{FX}{R}\\,(\\text{sin vers}\\,P - \\text{sin vers}\\,t)$.
+AB01-PDF0279-body-L026	190	body	Prima proportio inventa fit igitur
+AB01-PDF0279-body-L027	190	body	$\\dfrac{FX}{R}\\,\\text{sin vers}\\,P : \\dfrac{FX}{R}\\,(\\text{sin vers}\\,P - \\text{sin vers}\\,t) = \\text{sin alt. merid.} : \\sin h$,
+AB01-PDF0279-body-L028	190	body	unde $\\text{sin vers}\\,P - \\text{sin vers}\\,t = \\dfrac{\\sin h\\ \\text{sin vers}\\,P}{\\text{sin altit. merid.}}$,
+AB01-PDF0279-body-L029	190	body	et tandem formula {sp:al–Battānī}:
+AB01-PDF0279-body-L030	190	body	(α) $\\text{sin vers}\\,t = \\text{sin vers}\\,P - \\dfrac{\\sin h\\ \\text{sin vers}\\,P}{\\text{sin alt. merid.}}$.
+AB01-PDF0279-body-L031	190	body	Eadem apud {sp:Ḥabash}, f. 99,v., legitur (qui sin vers *P* appellat *ǵayb an–nahār* « sinum
+AB01-PDF0279-body-L032	190	body	diei »), {sp:Aboul Hhassan}, cap. XLI, p. 261, et {sp:Oloug Beg}, p. 95 textus, 122 vers.
+AB01-PDF0279-body-L033	190	body	Algebrice haud difficile est hanc formulam ulterius evolvere. Ob regulam IX capitis
+AB01-PDF0279-body-L034	190	body	$\\text{sin vers}\\,P = R - \\cos P = R + R\\,\\dfrac{\\sin\\text{φ} \\sin\\text{δ}}{\\cos\\text{φ} \\cos\\text{δ}}$;
+AB01-PDF0279-body-L035	190	body	e XV capite colligitur
+AB01-PDF0279-body-L036	190	body	$\\text{sin alt. merid.} = \\sin (\\text{complem.}\\ \\text{φ} \\pm \\text{δ}) = \\dfrac{\\cos\\text{φ} \\cos\\text{δ} \\pm \\sin\\text{φ} \\sin\\text{δ}}{R}$,
+AB01-PDF0279-body-L037	190	body	$\\text{sin alt. merid.} = \\cos (\\text{φ} \\mp \\text{δ})$;
+AB01-PDF0279-body-L038	190	body	qua re formula (α) scribi potest

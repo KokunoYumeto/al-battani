@@ -1,0 +1,71 @@
+@page 279 190
+% Notes on chapter 16, a) continued: al-Battānī's rule (α) for the hour angle, sin vers t = sin vers P − sin h sin vers P / sin altit. merid.; its derivation by the orthographic projection on the plane of the meridian (first figure) and on the plane of the equator (second figure); the same rule in Ḥabash, Abū 'l-Ḥasan and Ulugh Beg; its expansion by the rules of chapters 9 and 15 (begun).
+@nonum
+@vspace 1.62
+@at 0:(α) | 94^:$\text{sin vers}\,t = \text{sin vers}\,P - \dfrac{\sin h\ \text{sin vers}\,P}{\text{sin altit. merid.}}$.
+@vspace 2.42
+@wrap 0.267 AB01-PDF0279-F01
+^ Manifeste haec formula deducta est per proiectionem
+orthographicam sphaerae. In planum circuli meridiani AFPB
+proiiciantur orthographice horizon ACB, aequator caelestis
+EC, parallelus FG descriptus a Sole qui in H pervenisse pu-
+tetur; perpendicularis FL erit sinus altitudinis meridianae,
+HK sinus altitudinis tempore dato. In triangulo FLG, quo-
+niam HK parallela est lateri FL, habetur proportio
+@endwrap
+@vspace -0.31
+@at 45.05:$FG : HG = FL : HK$
+@at 45.05:$FG : HG = \text{sin alt. merid.} : \sin h$.
+^ Nunc ut quid sint FG, HG, sciamus, imaginemur proiectionem orthographicam figurae,
+circulo horizontis omisso, in planum circuli aequinoctialis; erit FXQ meridianus, angulus *f* X *h′*
+= *t*, angulus *f* X *g′* = P, *h* X = cos *t*, X *g* = cos *P*. E similitudine triangulorum *h′ h* X,
+H′ H X, colligitur
+@wrapr 94.46 AB01-PDF0279-F02
+@at 27.67:$FH : f\,h = H'X : h'\,X$,
+@vspace -0.08
+@at 0:id est | 30.35:$FH : f\,h = FX : R$;
+@at 0:sed | 9.0:$f\,h = f\,X - h\,X = R - \cos t = \text{sin vers}\,t$, | 79.7:ergo
+@at 29.8:$FH = \text{sin vers}\,t\,\dfrac{FX}{R}$.
+@vspace 0.72
+Similiter proportio deducitur
+@at 29.6:$FG : f\,g = G'X : g'X$
+@at 0:vel | 30.25:$FG : f\,g = FX : R$;
+sed, quoniam in figura $P > \text{90°}$, est
+@vspace 0.10
+@at 10.2:$f\,g = f\,X + X\,g = R + \cos P = \text{sin vers}\,P$,
+@at 0:ergo | 28.96:$FG = \text{sin vers}\,P\,\dfrac{FX}{R}$.
+@endwrap
+@vspace -0.30
+@at 0:Demum | 94^:$HG = FG - FH = \dfrac{FX}{R}\,(\text{sin vers}\,P - \text{sin vers}\,t)$.
+@vspace 0.62
+Prima proportio inventa fit igitur
+@vspace 0.11
+@center $\dfrac{FX}{R}\,\text{sin vers}\,P : \dfrac{FX}{R}\,(\text{sin vers}\,P - \text{sin vers}\,t) = \text{sin alt. merid.} : \sin h$,
+@vspace 0.89
+@at 0:unde | 94^:$\text{sin vers}\,P - \text{sin vers}\,t = \dfrac{\sin h\ \text{sin vers}\,P}{\text{sin altit. merid.}}$,
+@vspace 0.56
+et tandem formula {sp:al–Battānī}:
+@at 0:(α) | 94^:$\text{sin vers}\,t = \text{sin vers}\,P - \dfrac{\sin h\ \text{sin vers}\,P}{\text{sin alt. merid.}}$.
+@vspace 0.52
+Eadem apud {sp:Ḥabash}, f. 99,v., legitur (qui sin vers *P* appellat *ǵayb an–nahār* « sinum
+diei »), {sp:Aboul Hhassan}, cap. XLI, p. 261, et {sp:Oloug Beg}, p. 95 textus, 122 vers.
+^ Algebrice haud difficile est hanc formulam ulterius evolvere. Ob regulam IX capitis
+@vspace 0.11
+@center $\text{sin vers}\,P = R - \cos P = R + R\,\dfrac{\sin\text{φ} \sin\text{δ}}{\cos\text{φ} \cos\text{δ}}$;
+@vspace -1.44
+e XV capite colligitur
+@vspace -1.05
+@center $\text{sin alt. merid.} = \sin (\text{complem.}\ \text{φ} \pm \text{δ}) = \dfrac{\cos\text{φ} \cos\text{δ} \pm \sin\text{φ} \sin\text{δ}}{R}$,
+@vspace 0.61
+@center $\text{sin alt. merid.} = \cos (\text{φ} \mp \text{δ})$;
+qua re formula (α) scribi potest
+@obs body L1, L17, L25, L27, L28, L30, L34: the minus signs are printed as long dashes (9.7 to 10.4 pt); they are set as minus signs.
+@obs body L1, L25-L30: rule (α) is checked. For the radius 1, rule (β) of chapter 9 gives sin vers P = 1 + tg φ tg δ = cos (φ − δ) / (cos φ cos δ), and from sin h = sin φ sin δ + cos φ cos δ cos t, sin vers t = (cos (φ − δ) − sin h) / (cos φ cos δ); with sin alt. merid. = cos (φ − δ) this is the rule. The proportions of L9-L10 and L27 follow from the similar triangles FLG and HKG of the first figure.
+@obs body L2-L8: the first figure stands at the left of lines 2 to 8, which are set beside it in a narrow measure. It is redrawn from measurements of the print: the meridian AFPB as a half circle over the horizon AB; the horizon, the equator EC and the parallel FG as straight lines; the perpendiculars FL and HK and the axis from C to the pole in dashes, each dash where it printed; the bold italic letters and the word Polus.
+@obs body L7: a speck stands under the d of «dato»; it is not a sign.
+@obs body L13: the P after «angulus *f* X *g′* =» is printed upright, the other P in italic; kept as printed.
+@obs body L13, L23: Xg = cos P and fg = R + cos P take the cosine of P as a length, the cosine of its supplement, since P > 90° in the figure; with the sign, as in L34, sin vers P = R − cos P.
+@obs body L15-L24: the second figure stands at the right of lines 15 to 24, which are set beside it in a narrow measure. It is redrawn from measurements of the print: the equator and the parallel of the Sun as circles about X; the meridian fQ and the radii Xh′ and Xg′ as straight lines; the perpendiculars from h′, H′, G′ and g′ to the meridian in dashes, each dash where it printed; the arc of the angle t; the bold italic letters, the abbreviation merid set upward beside the meridian, and the words parallelus and aequator set upward along the circles, letter by letter.
+@obs body L29: the dash of the letter-spaced «al–Battānī» measures 5.5 pt, a long dash.
+@obs body L31: in «ǵayb an–nahār» the dash, joined to the letters, measures about 4.9 pt, a long dash; kept as printed.
+@obs body L33-L37: the expansion is checked: rule (β) of chapter 9 gives − cos P = R sin φ sin δ / (cos φ cos δ), whence L34; by chapter 15 the meridian altitude is complem. φ ± δ, whose sine is (cos φ cos δ ± sin φ sin δ) / R = cos (φ ∓ δ), L36-L37.

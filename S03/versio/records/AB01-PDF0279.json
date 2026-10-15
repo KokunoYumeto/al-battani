@@ -1,0 +1,428 @@
+{
+ "anchor": "AB01-PDF0279",
+ "master_pdf_page": 279,
+ "printed_page": 190,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "margin_locators": [],
+ "observations": [
+  "body L1, L17, L25, L27, L28, L30, L34: the minus signs are printed as long dashes (9.7 to 10.4 pt); they are set as minus signs.",
+  "body L1, L25-L30: rule (α) is checked. For the radius 1, rule (β) of chapter 9 gives sin vers P = 1 + tg φ tg δ = cos (φ − δ) / (cos φ cos δ), and from sin h = sin φ sin δ + cos φ cos δ cos t, sin vers t = (cos (φ − δ) − sin h) / (cos φ cos δ); with sin alt. merid. = cos (φ − δ) this is the rule. The proportions of L9-L10 and L27 follow from the similar triangles FLG and HKG of the first figure.",
+  "body L2-L8: the first figure stands at the left of lines 2 to 8, which are set beside it in a narrow measure. It is redrawn from measurements of the print: the meridian AFPB as a half circle over the horizon AB; the horizon, the equator EC and the parallel FG as straight lines; the perpendiculars FL and HK and the axis from C to the pole in dashes, each dash where it printed; the bold italic letters and the word Polus.",
+  "body L7: a speck stands under the d of «dato»; it is not a sign.",
+  "body L13: the P after «angulus *f* X *g′* =» is printed upright, the other P in italic; kept as printed.",
+  "body L13, L23: Xg = cos P and fg = R + cos P take the cosine of P as a length, the cosine of its supplement, since P > 90° in the figure; with the sign, as in L34, sin vers P = R − cos P.",
+  "body L15-L24: the second figure stands at the right of lines 15 to 24, which are set beside it in a narrow measure. It is redrawn from measurements of the print: the equator and the parallel of the Sun as circles about X; the meridian fQ and the radii Xh′ and Xg′ as straight lines; the perpendiculars from h′, H′, G′ and g′ to the meridian in dashes, each dash where it printed; the arc of the angle t; the bold italic letters, the abbreviation merid set upward beside the meridian, and the words parallelus and aequator set upward along the circles, letter by letter.",
+  "body L29: the dash of the letter-spaced «al–Battānī» measures 5.5 pt, a long dash.",
+  "body L31: in «ǵayb an–nahār» the dash, joined to the letters, measures about 4.9 pt, a long dash; kept as printed.",
+  "body L33-L37: the expansion is checked: rule (β) of chapter 9 gives − cos P = R sin φ sin δ / (cos φ cos δ), whence L34; by chapter 15 the meridian altitude is complem. φ ± δ, whose sine is (cos φ cos δ ± sin φ sin δ) / R = cos (φ ∓ δ), L36-L37."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0279-body-L001",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.00mm}(\\textgreek{α})}\\rlap{\\hspace*{94.00mm}\\makebox[0pt][c]{$\\text{sin vers}\\,t = \\text{sin vers}\\,P - \\dfrac{\\sin h\\ \\text{sin vers}\\,P}{\\text{sin altit. merid.}}$.}}",
+     "transcription": "(α) $\\text{sin vers}\\,t = \\text{sin vers}\\,P - \\dfrac{\\sin h\\ \\text{sin vers}\\,P}{\\text{sin altit. merid.}}$.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0279-body-F01",
+     "source_line_no": null,
+     "tex": "\\input{figures/AB01-PDF0279-F01}",
+     "transcription": "[figure, redrawn: figures/AB01-PDF0279-F01.tex]",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_FIGURE"
+    },
+    {
+     "id": "AB01-PDF0279-body-L002",
+     "source_line_no": null,
+     "tex": "\\Indent Manifeste haec formula deducta est per proiectionem",
+     "transcription": "Manifeste haec formula deducta est per proiectionem",
+     "semantic_anchor": "AB01-PDF0279-P01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0279-body-L003",
+     "source_line_no": null,
+     "tex": "orthographicam sphaerae. In planum circuli meridiani AFPB",
+     "transcription": "orthographicam sphaerae. In planum circuli meridiani AFPB",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0279-body-L004",
+     "source_line_no": null,
+     "tex": "proiiciantur orthographice horizon ACB, aequator caelestis",
+     "transcription": "proiiciantur orthographice horizon ACB, aequator caelestis",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0279-body-L005",
+     "source_line_no": null,
+     "tex": "EC, parallelus FG descriptus a Sole qui in H pervenisse pu-",
+     "transcription": "EC, parallelus FG descriptus a Sole qui in H pervenisse pu-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0279-body-L006",
+     "source_line_no": null,
+     "tex": "tetur; perpendicularis FL erit sinus altitudinis meridianae,",
+     "transcription": "tetur; perpendicularis FL erit sinus altitudinis meridianae,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0279-body-L007",
+     "source_line_no": null,
+     "tex": "HK sinus altitudinis tempore dato. In triangulo FLG, quo-",
+     "transcription": "HK sinus altitudinis tempore dato. In triangulo FLG, quo-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0279-body-L008",
+     "source_line_no": null,
+     "tex": "niam HK parallela est lateri FL, habetur proportio",
+     "transcription": "niam HK parallela est lateri FL, habetur proportio",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0279-body-L009",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{45.05mm}$FG : HG = FL : HK$}",
+     "transcription": "$FG : HG = FL : HK$",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0279-body-L010",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{45.05mm}$FG : HG = \\text{sin alt. merid.} : \\sin h$.}",
+     "transcription": "$FG : HG = \\text{sin alt. merid.} : \\sin h$.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0279-body-L011",
+     "source_line_no": null,
+     "tex": "\\Indent Nunc ut quid sint FG, HG, sciamus, imaginemur proiectionem orthographicam figurae,",
+     "transcription": "Nunc ut quid sint FG, HG, sciamus, imaginemur proiectionem orthographicam figurae,",
+     "semantic_anchor": "AB01-PDF0279-P02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0279-body-L012",
+     "source_line_no": null,
+     "tex": "circulo horizontis omisso, in planum circuli aequinoctialis; erit FXQ meridianus, angulus \\textit{f} X \\textit{h′}",
+     "transcription": "circulo horizontis omisso, in planum circuli aequinoctialis; erit FXQ meridianus, angulus *f* X *h′*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0279-body-L013",
+     "source_line_no": null,
+     "tex": "= \\textit{t}, angulus \\textit{f} X \\textit{g′} = P, \\textit{h} X = cos \\textit{t}, X \\textit{g} = cos \\textit{P}. E similitudine triangulorum \\textit{h′ h} X,",
+     "transcription": "= *t*, angulus *f* X *g′* = P, *h* X = cos *t*, X *g* = cos *P*. E similitudine triangulorum *h′ h* X,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0279-body-L014",
+     "source_line_no": null,
+     "tex": "H′ H X, colligitur",
+     "transcription": "H′ H X, colligitur",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0279-body-F02",
+     "source_line_no": null,
+     "tex": "\\input{figures/AB01-PDF0279-F02}",
+     "transcription": "[figure, redrawn: figures/AB01-PDF0279-F02.tex]",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_FIGURE"
+    },
+    {
+     "id": "AB01-PDF0279-body-L015",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{27.67mm}$FH : f\\,h = H'X : h'\\,X$,}",
+     "transcription": "$FH : f\\,h = H'X : h'\\,X$,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0279-body-L016",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.00mm}id est}\\rlap{\\hspace*{30.35mm}$FH : f\\,h = FX : R$;}",
+     "transcription": "id est $FH : f\\,h = FX : R$;",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0279-body-L017",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.00mm}sed}\\rlap{\\hspace*{9.00mm}$f\\,h = f\\,X - h\\,X = R - \\cos t = \\text{sin vers}\\,t$,}\\rlap{\\hspace*{79.70mm}ergo}",
+     "transcription": "sed $f\\,h = f\\,X - h\\,X = R - \\cos t = \\text{sin vers}\\,t$, ergo",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0279-body-L018",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{29.80mm}$FH = \\text{sin vers}\\,t\\,\\dfrac{FX}{R}$.}",
+     "transcription": "$FH = \\text{sin vers}\\,t\\,\\dfrac{FX}{R}$.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0279-body-L019",
+     "source_line_no": null,
+     "tex": "Similiter proportio deducitur",
+     "transcription": "Similiter proportio deducitur",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0279-body-L020",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{29.60mm}$FG : f\\,g = G'X : g'X$}",
+     "transcription": "$FG : f\\,g = G'X : g'X$",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0279-body-L021",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.00mm}vel}\\rlap{\\hspace*{30.25mm}$FG : f\\,g = FX : R$;}",
+     "transcription": "vel $FG : f\\,g = FX : R$;",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0279-body-L022",
+     "source_line_no": null,
+     "tex": "sed, quoniam in figura $P > \\text{90°}$, est",
+     "transcription": "sed, quoniam in figura $P > \\text{90°}$, est",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0279-body-L023",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{10.20mm}$f\\,g = f\\,X + X\\,g = R + \\cos P = \\text{sin vers}\\,P$,}",
+     "transcription": "$f\\,g = f\\,X + X\\,g = R + \\cos P = \\text{sin vers}\\,P$,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0279-body-L024",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.00mm}ergo}\\rlap{\\hspace*{28.96mm}$FG = \\text{sin vers}\\,P\\,\\dfrac{FX}{R}$.}",
+     "transcription": "ergo $FG = \\text{sin vers}\\,P\\,\\dfrac{FX}{R}$.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0279-body-L025",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.00mm}Demum}\\rlap{\\hspace*{94.00mm}\\makebox[0pt][c]{$HG = FG - FH = \\dfrac{FX}{R}\\,(\\text{sin vers}\\,P - \\text{sin vers}\\,t)$.}}",
+     "transcription": "Demum $HG = FG - FH = \\dfrac{FX}{R}\\,(\\text{sin vers}\\,P - \\text{sin vers}\\,t)$.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0279-body-L026",
+     "source_line_no": null,
+     "tex": "Prima proportio inventa fit igitur",
+     "transcription": "Prima proportio inventa fit igitur",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0279-body-L027",
+     "source_line_no": null,
+     "tex": "\\CenterLine{$\\dfrac{FX}{R}\\,\\text{sin vers}\\,P : \\dfrac{FX}{R}\\,(\\text{sin vers}\\,P - \\text{sin vers}\\,t) = \\text{sin alt. merid.} : \\sin h$,}",
+     "transcription": "$\\dfrac{FX}{R}\\,\\text{sin vers}\\,P : \\dfrac{FX}{R}\\,(\\text{sin vers}\\,P - \\text{sin vers}\\,t) = \\text{sin alt. merid.} : \\sin h$,",
+     "semantic_anchor": "AB01-PDF0279-H27",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0279-body-L028",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.00mm}unde}\\rlap{\\hspace*{94.00mm}\\makebox[0pt][c]{$\\text{sin vers}\\,P - \\text{sin vers}\\,t = \\dfrac{\\sin h\\ \\text{sin vers}\\,P}{\\text{sin altit. merid.}}$,}}",
+     "transcription": "unde $\\text{sin vers}\\,P - \\text{sin vers}\\,t = \\dfrac{\\sin h\\ \\text{sin vers}\\,P}{\\text{sin altit. merid.}}$,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0279-body-L029",
+     "source_line_no": null,
+     "tex": "et tandem formula \\Name{al–Battānī}:",
+     "transcription": "et tandem formula {sp:al–Battānī}:",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0279-body-L030",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.00mm}(\\textgreek{α})}\\rlap{\\hspace*{94.00mm}\\makebox[0pt][c]{$\\text{sin vers}\\,t = \\text{sin vers}\\,P - \\dfrac{\\sin h\\ \\text{sin vers}\\,P}{\\text{sin alt. merid.}}$.}}",
+     "transcription": "(α) $\\text{sin vers}\\,t = \\text{sin vers}\\,P - \\dfrac{\\sin h\\ \\text{sin vers}\\,P}{\\text{sin alt. merid.}}$.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0279-body-L031",
+     "source_line_no": null,
+     "tex": "Eadem apud \\Name{Ḥabash}, f. 99,v., legitur (qui sin vers \\textit{P} appellat \\textit{ǵayb an–nahār} « sinum",
+     "transcription": "Eadem apud {sp:Ḥabash}, f. 99,v., legitur (qui sin vers *P* appellat *ǵayb an–nahār* « sinum",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0279-body-L032",
+     "source_line_no": null,
+     "tex": "diei »), \\Name{Aboul Hhassan}, cap. XLI, p. 261, et \\Name{Oloug Beg}, p. 95 textus, 122 vers.",
+     "transcription": "diei »), {sp:Aboul Hhassan}, cap. XLI, p. 261, et {sp:Oloug Beg}, p. 95 textus, 122 vers.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0279-body-L033",
+     "source_line_no": null,
+     "tex": "\\Indent Algebrice haud difficile est hanc formulam ulterius evolvere. Ob regulam IX capitis",
+     "transcription": "Algebrice haud difficile est hanc formulam ulterius evolvere. Ob regulam IX capitis",
+     "semantic_anchor": "AB01-PDF0279-P03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0279-body-L034",
+     "source_line_no": null,
+     "tex": "\\CenterLine{$\\text{sin vers}\\,P = R - \\cos P = R + R\\,\\dfrac{\\sin\\text{\\textgreek{φ}} \\sin\\text{\\textgreek{δ}}}{\\cos\\text{\\textgreek{φ}} \\cos\\text{\\textgreek{δ}}}$;}",
+     "transcription": "$\\text{sin vers}\\,P = R - \\cos P = R + R\\,\\dfrac{\\sin\\text{φ} \\sin\\text{δ}}{\\cos\\text{φ} \\cos\\text{δ}}$;",
+     "semantic_anchor": "AB01-PDF0279-H34",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0279-body-L035",
+     "source_line_no": null,
+     "tex": "e XV capite colligitur",
+     "transcription": "e XV capite colligitur",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0279-body-L036",
+     "source_line_no": null,
+     "tex": "\\CenterLine{$\\text{sin alt. merid.} = \\sin (\\text{complem.}\\ \\text{\\textgreek{φ}} \\pm \\text{\\textgreek{δ}}) = \\dfrac{\\cos\\text{\\textgreek{φ}} \\cos\\text{\\textgreek{δ}} \\pm \\sin\\text{\\textgreek{φ}} \\sin\\text{\\textgreek{δ}}}{R}$,}",
+     "transcription": "$\\text{sin alt. merid.} = \\sin (\\text{complem.}\\ \\text{φ} \\pm \\text{δ}) = \\dfrac{\\cos\\text{φ} \\cos\\text{δ} \\pm \\sin\\text{φ} \\sin\\text{δ}}{R}$,",
+     "semantic_anchor": "AB01-PDF0279-H36",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0279-body-L037",
+     "source_line_no": null,
+     "tex": "\\CenterLine{$\\text{sin alt. merid.} = \\cos (\\text{\\textgreek{φ}} \\mp \\text{\\textgreek{δ}})$;}",
+     "transcription": "$\\text{sin alt. merid.} = \\cos (\\text{φ} \\mp \\text{δ})$;",
+     "semantic_anchor": "AB01-PDF0279-H37",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0279-body-L038",
+     "source_line_no": null,
+     "tex": "qua re formula (\\textgreek{α}) scribi potest",
+     "transcription": "qua re formula (α) scribi potest",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    }
+   ]
+  }
+ ]
+}
