@@ -1,0 +1,80 @@
+@page 273 184
+% Notes on chapter 11, a) on p. 23, continued: the proof of rule (β) from the second figure (the arcs CW and RH, the proportion CB : RL = CW : RH), al-Battānī's rule with the sign of the difference; the rule in Ibn Yūnus, Abū 'l-Ḥasan and Ulugh Beg, and Ḥabash's form; the rule with the values of the two sines put in, and its modern form cos azimuth = (sin δ − sin h sin φ)/(cos h cos φ) from the cosine rule; Delambre's account misread by Hankel and Cantor (begun). Note on the sum of the sines for a southern declination.
+@nonum
+culus OHW altitudinis, et circulus DRL parallelus horizonti. Demum recta HK ducatur per-
+pendicularis ad planum horizontis.
+@vspace 0.10
+^ Arcus CW et RH, iisdem circulis verticalibus OC et OW intercepti, eundem graduum
+numerum amplectentur; eorum sinus igitur, qui in figura lineis rectis CW, RH repraesentan-
+tur, erunt proportionales ad radios CB, RL, quibus arcus illi descripti sunt. Quoniam LB =
+HW est altitudo *h* Solis, eiusque sinus est HK = RC, arcus autem OH = OL est altitudinis
+complementum et sinum habet RL, manifeste ob supra dicta erit
+@vspace 2.33
+@center CB : RL = CW : RH
+@vspace -1.20
+id est
+@vspace -1.04
+@center $R : \cos h = \text{sin azimuth} : RH$,
+@vspace -1.14
+unde
+@vspace -0.96
+@center $\text{sin azimuth} = R\,\dfrac{RH}{\cos h}$.
+@vspace 2.80
+^ Ob constructiones factas est RH = CK = CG − KG. Sed CG manifeste est sinus ampli-
+tudinis ortivae, scilicet sinus arcus horizontis inter punctum orientis C et punctum a quo Sol
+data die oritur; KG est quod auctor sinum differentiae horizontis appellat; ergo formula {sp:al–}
+@vspace 0.09
+{sp:–Battānī}:
+@vspace -1.19
+@at 0:(β) | 94^:$\text{sin azimuth} = R\,\dfrac{\text{sin amplit. ortivae} - \text{sin differ. horiz.}}{\cos h}$,
+@vspace 1.73
+quae valet cum azimuth, amplitudo et declinatio positive numerentur in septentriones versus.
+Si differentia, quae est fractionis numerator, negativa fuerit (1), azimuth in austrum versus erit.
+^ Eadem formula (β) apud {sp:Ibn Yūnus}, cap. XX ({sp:Delambre}, p. 116), {sp:Aboul Hhassan},
+cap. LXII, p. 308, {sp:Oloug Beg}, p. 78 textus, 106–107 vers., exstat. {sp:Ḥabash}, f. 92,v., pro
+sin differ. horiz. ponit eius quantitatem iuxta regulam (α); scribit itaque:
+@vspace -0.22
+@center $\text{sin azimuth} = \dfrac{R}{\cos h} \left(\dfrac{\sin\text{φ}}{\cos\text{φ}} \sin h - \text{sin amplit. ortivae}\right)$.
+@vspace -1.26
+^ In formulam (β) introducamus valorem sinus differ. horiz. antea repertum (i. e. $\dfrac{\sin h \sin\text{φ}}{\cos\text{φ}}$),
+@vspace -0.92
+et valorem sinus amplit. ortivae in VII capite inventum (i. e. $R\,\dfrac{\sin\text{δ}}{\cos\text{φ}}$); proveniet
+@vspace -0.94
+@center $\text{sin azimuth} = R\,\dfrac{R \sin\text{δ} - \sin h \sin\text{φ}}{\cos h \cos\text{φ}}$.
+@vspace 0.82
+^ Cum autem al–Battānī, ut Arabes fere omnes, azimuth a linea ortus et occasus compu-
+tet, nos contra a puncto septentrionum in orientem versus procedentes, sin azimuth Arabum
+fit apud nos $\sin (\text{90°} - \text{azimuth}) = \text{cos azimuth}$. Radio demum unius partis, ut noster est mos,
+@vspace 0.07
+sumpto, invenimus statim formulam hodiernam
+@center $\text{cos azimuth} = \dfrac{\sin\text{δ} - \sin h \sin\text{φ}}{\cos h \cos\text{φ}}$,
+@vspace -0.22
+quae est proxima consequentia regulae fundamentalis trigonometriae sphaericae (a Germanis
+@vspace 0.09
+*Cosinussatz* appellatae)
+@vspace -1.16
+@center $\cos a = \cos b \cos c + \sin b \sin c \cos A$
+@vspace 1.14
+si ponatur $a = \text{90°} - \text{δ}$, $b = \text{90°} - h$, $c = \text{90°} - \text{φ}$, $A = \text{azimuth}$.
+^ Quae {sp:Delambre}, p. 17, scribit, explicationes suas algebricas cum regulis Albatenianis
+commiscens, haud recte interpretati sunt {sp:Hankel}, *Zur Gesch. der Mathem.,* p. 281, {sp:Can-}
+@vspace 1.35
+@notes
+@fontsize 9 11.87
+@vspace 0.85
+^ (1) Cum sinus differ. horizontis maior sit sinu
+ampl. ortivae. — Quando Sol est in plaga australi
+@col
+@fontsize 9 11.87
+@vspace 0.85
+respectu aequatoris, non differentia sed summa si-
+nuum est adhibenda.
+@obs body L1-L37: the proof of rule (β) refers to the second figure of p. 183.
+@obs body L1: the O of «OHW» is printed broken, like «()».
+@obs body L7: a speck stands over the R of «RL»; it is not a sign.
+@obs body L8-L12: the proportion is checked: the arcs CW and RH are cut off by the same verticals OC and OW from circles of radii CB = R and RL = cos h, so that CW : RH = R : cos h, and with CW = sin azimuth, sin azimuth = R RH / cos h.
+@obs body L13, L17, L23, L26, L29, L31, L35: the minus signs are printed as long dashes; they are set as minus signs.
+@obs body L15-L16: the name al–Battānī is divided with the long dash at the end of the line and again at the beginning of the next, as printed.
+@obs body L17-L31: the formulas are checked: with sin amplit. ortivae = R sin δ / cos φ (chapter 7) and sin differ. horiz. = sin h sin φ / cos φ (rule (α) of p. 183), rule (β) gives L26, and with the azimuth counted from the north point and R = 1 it becomes cos azimuth = (sin δ − sin h sin φ)/(cos h cos φ), the cosine rule of L33 with a = 90° − δ, b = 90° − h, c = 90° − φ. The form of Ḥabash (L23) is the negative of (β): it gives the azimuth counted towards the south.
+@obs body L26: a dot stands between «sin» and «δ» in the numerator; it is not a sign.
+@obs notes_left L2: the dash before «Quando» is the separating dash (7.7 pt).

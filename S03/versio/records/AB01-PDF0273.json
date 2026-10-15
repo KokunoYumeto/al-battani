@@ -1,0 +1,451 @@
+{
+ "anchor": "AB01-PDF0273",
+ "master_pdf_page": 273,
+ "printed_page": 184,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "margin_locators": [],
+ "observations": [
+  "body L1-L37: the proof of rule (β) refers to the second figure of p. 183.",
+  "body L1: the O of «OHW» is printed broken, like «()».",
+  "body L7: a speck stands over the R of «RL»; it is not a sign.",
+  "body L8-L12: the proportion is checked: the arcs CW and RH are cut off by the same verticals OC and OW from circles of radii CB = R and RL = cos h, so that CW : RH = R : cos h, and with CW = sin azimuth, sin azimuth = R RH / cos h.",
+  "body L13, L17, L23, L26, L29, L31, L35: the minus signs are printed as long dashes; they are set as minus signs.",
+  "body L15-L16: the name al–Battānī is divided with the long dash at the end of the line and again at the beginning of the next, as printed.",
+  "body L17-L31: the formulas are checked: with sin amplit. ortivae = R sin δ / cos φ (chapter 7) and sin differ. horiz. = sin h sin φ / cos φ (rule (α) of p. 183), rule (β) gives L26, and with the azimuth counted from the north point and R = 1 it becomes cos azimuth = (sin δ − sin h sin φ)/(cos h cos φ), the cosine rule of L33 with a = 90° − δ, b = 90° − h, c = 90° − φ. The form of Ḥabash (L23) is the negative of (β): it gives the azimuth counted towards the south.",
+  "body L26: a dot stands between «sin» and «δ» in the numerator; it is not a sign.",
+  "notes_left L2: the dash before «Quando» is the separating dash (7.7 pt)."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0273-body-L001",
+     "source_line_no": null,
+     "tex": "culus OHW altitudinis, et circulus DRL parallelus horizonti. Demum recta HK ducatur per-",
+     "transcription": "culus OHW altitudinis, et circulus DRL parallelus horizonti. Demum recta HK ducatur per-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0273-body-L002",
+     "source_line_no": null,
+     "tex": "pendicularis ad planum horizontis.",
+     "transcription": "pendicularis ad planum horizontis.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0273-body-L003",
+     "source_line_no": null,
+     "tex": "\\Indent Arcus CW et RH, iisdem circulis verticalibus OC et OW intercepti, eundem graduum",
+     "transcription": "Arcus CW et RH, iisdem circulis verticalibus OC et OW intercepti, eundem graduum",
+     "semantic_anchor": "AB01-PDF0273-P01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0273-body-L004",
+     "source_line_no": null,
+     "tex": "numerum amplectentur; eorum sinus igitur, qui in figura lineis rectis CW, RH repraesentan-",
+     "transcription": "numerum amplectentur; eorum sinus igitur, qui in figura lineis rectis CW, RH repraesentan-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0273-body-L005",
+     "source_line_no": null,
+     "tex": "tur, erunt proportionales ad radios CB, RL, quibus arcus illi descripti sunt. Quoniam LB =",
+     "transcription": "tur, erunt proportionales ad radios CB, RL, quibus arcus illi descripti sunt. Quoniam LB =",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0273-body-L006",
+     "source_line_no": null,
+     "tex": "HW est altitudo \\textit{h} Solis, eiusque sinus est HK = RC, arcus autem OH = OL est altitudinis",
+     "transcription": "HW est altitudo *h* Solis, eiusque sinus est HK = RC, arcus autem OH = OL est altitudinis",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0273-body-L007",
+     "source_line_no": null,
+     "tex": "complementum et sinum habet RL, manifeste ob supra dicta erit",
+     "transcription": "complementum et sinum habet RL, manifeste ob supra dicta erit",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0273-body-L008",
+     "source_line_no": null,
+     "tex": "\\CenterLine{CB : RL = CW : RH}",
+     "transcription": "CB : RL = CW : RH",
+     "semantic_anchor": "AB01-PDF0273-H08",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0273-body-L009",
+     "source_line_no": null,
+     "tex": "id est",
+     "transcription": "id est",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0273-body-L010",
+     "source_line_no": null,
+     "tex": "\\CenterLine{$R : \\cos h = \\text{sin azimuth} : RH$,}",
+     "transcription": "$R : \\cos h = \\text{sin azimuth} : RH$,",
+     "semantic_anchor": "AB01-PDF0273-H10",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0273-body-L011",
+     "source_line_no": null,
+     "tex": "unde",
+     "transcription": "unde",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0273-body-L012",
+     "source_line_no": null,
+     "tex": "\\CenterLine{$\\text{sin azimuth} = R\\,\\dfrac{RH}{\\cos h}$.}",
+     "transcription": "$\\text{sin azimuth} = R\\,\\dfrac{RH}{\\cos h}$.",
+     "semantic_anchor": "AB01-PDF0273-H12",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0273-body-L013",
+     "source_line_no": null,
+     "tex": "\\Indent Ob constructiones factas est RH = CK = CG − KG. Sed CG manifeste est sinus ampli-",
+     "transcription": "Ob constructiones factas est RH = CK = CG − KG. Sed CG manifeste est sinus ampli-",
+     "semantic_anchor": "AB01-PDF0273-P02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0273-body-L014",
+     "source_line_no": null,
+     "tex": "tudinis ortivae, scilicet sinus arcus horizontis inter punctum orientis C et punctum a quo Sol",
+     "transcription": "tudinis ortivae, scilicet sinus arcus horizontis inter punctum orientis C et punctum a quo Sol",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0273-body-L015",
+     "source_line_no": null,
+     "tex": "data die oritur; KG est quod auctor sinum differentiae horizontis appellat; ergo formula \\Name{al–}",
+     "transcription": "data die oritur; KG est quod auctor sinum differentiae horizontis appellat; ergo formula {sp:al–}",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0273-body-L016",
+     "source_line_no": null,
+     "tex": "\\Name{–Battānī}:",
+     "transcription": "{sp:–Battānī}:",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0273-body-L017",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.00mm}(\\textgreek{β})}\\rlap{\\hspace*{94.00mm}\\makebox[0pt][c]{$\\text{sin azimuth} = R\\,\\dfrac{\\text{sin amplit. ortivae} - \\text{sin differ. horiz.}}{\\cos h}$,}}",
+     "transcription": "(β) $\\text{sin azimuth} = R\\,\\dfrac{\\text{sin amplit. ortivae} - \\text{sin differ. horiz.}}{\\cos h}$,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0273-body-L018",
+     "source_line_no": null,
+     "tex": "quae valet cum azimuth, amplitudo et declinatio positive numerentur in septentriones versus.",
+     "transcription": "quae valet cum azimuth, amplitudo et declinatio positive numerentur in septentriones versus.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0273-body-L019",
+     "source_line_no": null,
+     "tex": "Si differentia, quae est fractionis numerator, negativa fuerit (1), azimuth in austrum versus erit.",
+     "transcription": "Si differentia, quae est fractionis numerator, negativa fuerit (1), azimuth in austrum versus erit.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0273-body-L020",
+     "source_line_no": null,
+     "tex": "\\Indent Eadem formula (\\textgreek{β}) apud \\Name{Ibn Yūnus}, cap. XX (\\Name{Delambre}, p. 116), \\Name{Aboul Hhassan},",
+     "transcription": "Eadem formula (β) apud {sp:Ibn Yūnus}, cap. XX ({sp:Delambre}, p. 116), {sp:Aboul Hhassan},",
+     "semantic_anchor": "AB01-PDF0273-P03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0273-body-L021",
+     "source_line_no": null,
+     "tex": "cap. LXII, p. 308, \\Name{Oloug Beg}, p. 78 textus, 106–107 vers., exstat. \\Name{Ḥabash}, f. 92,v., pro",
+     "transcription": "cap. LXII, p. 308, {sp:Oloug Beg}, p. 78 textus, 106–107 vers., exstat. {sp:Ḥabash}, f. 92,v., pro",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0273-body-L022",
+     "source_line_no": null,
+     "tex": "sin differ. horiz. ponit eius quantitatem iuxta regulam (\\textgreek{α}); scribit itaque:",
+     "transcription": "sin differ. horiz. ponit eius quantitatem iuxta regulam (α); scribit itaque:",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0273-body-L023",
+     "source_line_no": null,
+     "tex": "\\CenterLine{$\\text{sin azimuth} = \\dfrac{R}{\\cos h} \\left(\\dfrac{\\sin\\text{\\textgreek{φ}}}{\\cos\\text{\\textgreek{φ}}} \\sin h - \\text{sin amplit. ortivae}\\right)$.}",
+     "transcription": "$\\text{sin azimuth} = \\dfrac{R}{\\cos h} \\left(\\dfrac{\\sin\\text{φ}}{\\cos\\text{φ}} \\sin h - \\text{sin amplit. ortivae}\\right)$.",
+     "semantic_anchor": "AB01-PDF0273-H23",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0273-body-L024",
+     "source_line_no": null,
+     "tex": "\\Indent In formulam (\\textgreek{β}) introducamus valorem sinus differ. horiz. antea repertum (i. e. $\\dfrac{\\sin h \\sin\\text{\\textgreek{φ}}}{\\cos\\text{\\textgreek{φ}}}$),",
+     "transcription": "In formulam (β) introducamus valorem sinus differ. horiz. antea repertum (i. e. $\\dfrac{\\sin h \\sin\\text{φ}}{\\cos\\text{φ}}$),",
+     "semantic_anchor": "AB01-PDF0273-P04",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0273-body-L025",
+     "source_line_no": null,
+     "tex": "et valorem sinus amplit. ortivae in VII capite inventum (i. e. $R\\,\\dfrac{\\sin\\text{\\textgreek{δ}}}{\\cos\\text{\\textgreek{φ}}}$); proveniet",
+     "transcription": "et valorem sinus amplit. ortivae in VII capite inventum (i. e. $R\\,\\dfrac{\\sin\\text{δ}}{\\cos\\text{φ}}$); proveniet",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0273-body-L026",
+     "source_line_no": null,
+     "tex": "\\CenterLine{$\\text{sin azimuth} = R\\,\\dfrac{R \\sin\\text{\\textgreek{δ}} - \\sin h \\sin\\text{\\textgreek{φ}}}{\\cos h \\cos\\text{\\textgreek{φ}}}$.}",
+     "transcription": "$\\text{sin azimuth} = R\\,\\dfrac{R \\sin\\text{δ} - \\sin h \\sin\\text{φ}}{\\cos h \\cos\\text{φ}}$.",
+     "semantic_anchor": "AB01-PDF0273-H26",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0273-body-L027",
+     "source_line_no": null,
+     "tex": "\\Indent Cum autem al–Battānī, ut Arabes fere omnes, azimuth a linea ortus et occasus compu-",
+     "transcription": "Cum autem al–Battānī, ut Arabes fere omnes, azimuth a linea ortus et occasus compu-",
+     "semantic_anchor": "AB01-PDF0273-P05",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0273-body-L028",
+     "source_line_no": null,
+     "tex": "tet, nos contra a puncto septentrionum in orientem versus procedentes, sin azimuth Arabum",
+     "transcription": "tet, nos contra a puncto septentrionum in orientem versus procedentes, sin azimuth Arabum",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0273-body-L029",
+     "source_line_no": null,
+     "tex": "fit apud nos $\\sin (\\text{90°} - \\text{azimuth}) = \\text{cos azimuth}$. Radio demum unius partis, ut noster est mos,",
+     "transcription": "fit apud nos $\\sin (\\text{90°} - \\text{azimuth}) = \\text{cos azimuth}$. Radio demum unius partis, ut noster est mos,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0273-body-L030",
+     "source_line_no": null,
+     "tex": "sumpto, invenimus statim formulam hodiernam",
+     "transcription": "sumpto, invenimus statim formulam hodiernam",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0273-body-L031",
+     "source_line_no": null,
+     "tex": "\\CenterLine{$\\text{cos azimuth} = \\dfrac{\\sin\\text{\\textgreek{δ}} - \\sin h \\sin\\text{\\textgreek{φ}}}{\\cos h \\cos\\text{\\textgreek{φ}}}$,}",
+     "transcription": "$\\text{cos azimuth} = \\dfrac{\\sin\\text{δ} - \\sin h \\sin\\text{φ}}{\\cos h \\cos\\text{φ}}$,",
+     "semantic_anchor": "AB01-PDF0273-H31",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0273-body-L032",
+     "source_line_no": null,
+     "tex": "quae est proxima consequentia regulae fundamentalis trigonometriae sphaericae (a Germanis",
+     "transcription": "quae est proxima consequentia regulae fundamentalis trigonometriae sphaericae (a Germanis",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0273-body-L033",
+     "source_line_no": null,
+     "tex": "\\textit{Cosinussatz} appellatae)",
+     "transcription": "*Cosinussatz* appellatae)",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0273-body-L034",
+     "source_line_no": null,
+     "tex": "\\CenterLine{$\\cos a = \\cos b \\cos c + \\sin b \\sin c \\cos A$}",
+     "transcription": "$\\cos a = \\cos b \\cos c + \\sin b \\sin c \\cos A$",
+     "semantic_anchor": "AB01-PDF0273-H34",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0273-body-L035",
+     "source_line_no": null,
+     "tex": "si ponatur $a = \\text{90°} - \\text{\\textgreek{δ}}$, $b = \\text{90°} - h$, $c = \\text{90°} - \\text{\\textgreek{φ}}$, $A = \\text{azimuth}$.",
+     "transcription": "si ponatur $a = \\text{90°} - \\text{δ}$, $b = \\text{90°} - h$, $c = \\text{90°} - \\text{φ}$, $A = \\text{azimuth}$.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0273-body-L036",
+     "source_line_no": null,
+     "tex": "\\Indent Quae \\Name{Delambre}, p. 17, scribit, explicationes suas algebricas cum regulis Albatenianis",
+     "transcription": "Quae {sp:Delambre}, p. 17, scribit, explicationes suas algebricas cum regulis Albatenianis",
+     "semantic_anchor": "AB01-PDF0273-P06",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0273-body-L037",
+     "source_line_no": null,
+     "tex": "commiscens, haud recte interpretati sunt \\Name{Hankel}, \\textit{Zur Gesch. der Mathem.,} p. 281, \\Name{Can-}",
+     "transcription": "commiscens, haud recte interpretati sunt {sp:Hankel}, *Zur Gesch. der Mathem.,* p. 281, {sp:Can-}",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    }
+   ]
+  },
+  {
+   "role": "notes_left",
+   "lines": [
+    {
+     "id": "AB01-PDF0273-notes_left-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (1) Cum sinus differ. horizontis maior sit sinu",
+     "transcription": "(1) Cum sinus differ. horizontis maior sit sinu",
+     "semantic_anchor": "AB01-PDF0273-N01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0273-notes_left-L002",
+     "source_line_no": null,
+     "tex": "ampl. ortivae. — Quando Sol est in plaga australi",
+     "transcription": "ampl. ortivae. — Quando Sol est in plaga australi",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  },
+  {
+   "role": "notes_right",
+   "lines": [
+    {
+     "id": "AB01-PDF0273-notes_right-L001",
+     "source_line_no": null,
+     "tex": "respectu aequatoris, non differentia sed summa si-",
+     "transcription": "respectu aequatoris, non differentia sed summa si-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0273-notes_right-L002",
+     "source_line_no": null,
+     "tex": "nuum est adhibenda.",
+     "transcription": "nuum est adhibenda.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  }
+ ]
+}

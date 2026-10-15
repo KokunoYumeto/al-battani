@@ -3472,3 +3472,44 @@ AB01-PDF0272-body-L036	183	body	est, EC aequator caelestis, FG parallelus descri
 AB01-PDF0272-body-L037	183	body	a Sole, quem ponumus in H. Per H ducantur cir-
 AB01-PDF0272-notes-L001	183	notes	(1) {sp:Carra de Vaux}, *L’Almageste d’Aboû ’l-Wéfa al-Bûzdjâni,* in Journal Asiatique, ser. VIII,
 AB01-PDF0272-notes-L002	183	notes	t. 19, 1892, p. 429.
+AB01-PDF0273-body-L001	184	body	culus OHW altitudinis, et circulus DRL parallelus horizonti. Demum recta HK ducatur per-
+AB01-PDF0273-body-L002	184	body	pendicularis ad planum horizontis.
+AB01-PDF0273-body-L003	184	body	Arcus CW et RH, iisdem circulis verticalibus OC et OW intercepti, eundem graduum
+AB01-PDF0273-body-L004	184	body	numerum amplectentur; eorum sinus igitur, qui in figura lineis rectis CW, RH repraesentan-
+AB01-PDF0273-body-L005	184	body	tur, erunt proportionales ad radios CB, RL, quibus arcus illi descripti sunt. Quoniam LB =
+AB01-PDF0273-body-L006	184	body	HW est altitudo *h* Solis, eiusque sinus est HK = RC, arcus autem OH = OL est altitudinis
+AB01-PDF0273-body-L007	184	body	complementum et sinum habet RL, manifeste ob supra dicta erit
+AB01-PDF0273-body-L008	184	body	CB : RL = CW : RH
+AB01-PDF0273-body-L009	184	body	id est
+AB01-PDF0273-body-L010	184	body	$R : \\cos h = \\text{sin azimuth} : RH$,
+AB01-PDF0273-body-L011	184	body	unde
+AB01-PDF0273-body-L012	184	body	$\\text{sin azimuth} = R\\,\\dfrac{RH}{\\cos h}$.
+AB01-PDF0273-body-L013	184	body	Ob constructiones factas est RH = CK = CG − KG. Sed CG manifeste est sinus ampli-
+AB01-PDF0273-body-L014	184	body	tudinis ortivae, scilicet sinus arcus horizontis inter punctum orientis C et punctum a quo Sol
+AB01-PDF0273-body-L015	184	body	data die oritur; KG est quod auctor sinum differentiae horizontis appellat; ergo formula {sp:al–}
+AB01-PDF0273-body-L016	184	body	{sp:–Battānī}:
+AB01-PDF0273-body-L017	184	body	(β) $\\text{sin azimuth} = R\\,\\dfrac{\\text{sin amplit. ortivae} - \\text{sin differ. horiz.}}{\\cos h}$,
+AB01-PDF0273-body-L018	184	body	quae valet cum azimuth, amplitudo et declinatio positive numerentur in septentriones versus.
+AB01-PDF0273-body-L019	184	body	Si differentia, quae est fractionis numerator, negativa fuerit (1), azimuth in austrum versus erit.
+AB01-PDF0273-body-L020	184	body	Eadem formula (β) apud {sp:Ibn Yūnus}, cap. XX ({sp:Delambre}, p. 116), {sp:Aboul Hhassan},
+AB01-PDF0273-body-L021	184	body	cap. LXII, p. 308, {sp:Oloug Beg}, p. 78 textus, 106–107 vers., exstat. {sp:Ḥabash}, f. 92,v., pro
+AB01-PDF0273-body-L022	184	body	sin differ. horiz. ponit eius quantitatem iuxta regulam (α); scribit itaque:
+AB01-PDF0273-body-L023	184	body	$\\text{sin azimuth} = \\dfrac{R}{\\cos h} \\left(\\dfrac{\\sin\\text{φ}}{\\cos\\text{φ}} \\sin h - \\text{sin amplit. ortivae}\\right)$.
+AB01-PDF0273-body-L024	184	body	In formulam (β) introducamus valorem sinus differ. horiz. antea repertum (i. e. $\\dfrac{\\sin h \\sin\\text{φ}}{\\cos\\text{φ}}$),
+AB01-PDF0273-body-L025	184	body	et valorem sinus amplit. ortivae in VII capite inventum (i. e. $R\\,\\dfrac{\\sin\\text{δ}}{\\cos\\text{φ}}$); proveniet
+AB01-PDF0273-body-L026	184	body	$\\text{sin azimuth} = R\\,\\dfrac{R \\sin\\text{δ} - \\sin h \\sin\\text{φ}}{\\cos h \\cos\\text{φ}}$.
+AB01-PDF0273-body-L027	184	body	Cum autem al–Battānī, ut Arabes fere omnes, azimuth a linea ortus et occasus compu-
+AB01-PDF0273-body-L028	184	body	tet, nos contra a puncto septentrionum in orientem versus procedentes, sin azimuth Arabum
+AB01-PDF0273-body-L029	184	body	fit apud nos $\\sin (\\text{90°} - \\text{azimuth}) = \\text{cos azimuth}$. Radio demum unius partis, ut noster est mos,
+AB01-PDF0273-body-L030	184	body	sumpto, invenimus statim formulam hodiernam
+AB01-PDF0273-body-L031	184	body	$\\text{cos azimuth} = \\dfrac{\\sin\\text{δ} - \\sin h \\sin\\text{φ}}{\\cos h \\cos\\text{φ}}$,
+AB01-PDF0273-body-L032	184	body	quae est proxima consequentia regulae fundamentalis trigonometriae sphaericae (a Germanis
+AB01-PDF0273-body-L033	184	body	*Cosinussatz* appellatae)
+AB01-PDF0273-body-L034	184	body	$\\cos a = \\cos b \\cos c + \\sin b \\sin c \\cos A$
+AB01-PDF0273-body-L035	184	body	si ponatur $a = \\text{90°} - \\text{δ}$, $b = \\text{90°} - h$, $c = \\text{90°} - \\text{φ}$, $A = \\text{azimuth}$.
+AB01-PDF0273-body-L036	184	body	Quae {sp:Delambre}, p. 17, scribit, explicationes suas algebricas cum regulis Albatenianis
+AB01-PDF0273-body-L037	184	body	commiscens, haud recte interpretati sunt {sp:Hankel}, *Zur Gesch. der Mathem.,* p. 281, {sp:Can-}
+AB01-PDF0273-notes_left-L001	184	notes_left	(1) Cum sinus differ. horizontis maior sit sinu
+AB01-PDF0273-notes_left-L002	184	notes_left	ampl. ortivae. — Quando Sol est in plaga australi
+AB01-PDF0273-notes_right-L001	184	notes_right	respectu aequatoris, non differentia sed summa si-
+AB01-PDF0273-notes_right-L002	184	notes_right	nuum est adhibenda.
