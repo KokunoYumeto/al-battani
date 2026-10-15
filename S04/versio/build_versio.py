@@ -86,7 +86,7 @@ stands in the margin opposite the line numbers), {nonum} the line number is not 
 {xs:...} the smallest type (the heads of narrow columns), {nm:...} the type of the text inside a head set
 larger (a note number or letter after the head; it may hold one level of markup, as {nm:({bi:a})}),
 {sc:...} small capitals, {sup:...} superscript, {sub:...} subscript, {sfrac:a/b} a small fraction, {0} the zero
-sign of the tables, {lbrace3} and {rbrace3} a left and a right brace over three lines (written on the middle one),
+sign of the tables, {AR} the sign of right ascension (the A and the R joined on one stem, p. 249),{lbrace3} and {rbrace3} a left and a right brace over three lines (written on the middle one),
 {rbrace2} a right brace over two lines (written on the first), {rbrace:L:T} a right brace L pt long whose top is
 T pt above the baseline of the line it is written on, {vrule2} a thin vertical rule over two lines (written
 on the first), {vrule:L:T} a thin vertical rule L pt long whose top is T pt above the baseline,
@@ -135,6 +135,9 @@ PREAMBLE = r"""\documentclass[11pt]{article}
 \newcommand{\textethiopic}[1]{{\EthiopicFont #1}}
 \newfontfamily\NallinoSigns{NallinoSigns.otf}[Path=./fonts/]
 \newcommand{\AbjadZero}{{\NallinoSigns\symbol{"E000}}}
+% the sign of right ascension: the left half of the A (its thin stroke and its bar) joined to the stem of the R
+\usepackage{trimclip}
+\newcommand{\ARsign}{\mbox{\clipbox{0pt 0pt {.48\width} 0pt}{A}\kern-.10em R}}
 \hypersetup{pdftitle={Al-Battani, Opus astronomicum. Nallino, versio Latina et adnotationes (Pars I). SESSION},pdfauthor={Al-Battani; Carlo Alfonso Nallino (Latin translation and notes)}}
 \makeatletter
 \def\ps@sourceedition{%
@@ -256,7 +259,7 @@ def markup(s):
     s = re.sub(r"\{vrule:(\d+(?:\.\d+)?):(\d+(?:\.\d+)?)\}",
                lambda m: (r"\smash{\rule[" + f"{float(m.group(2)) - float(m.group(1)):.2f}" + "pt]{.4pt}{"
                           + m.group(1) + "pt}}"), s)
-    s = s.replace("{0}", "\uE001")
+    s = s.replace("{0}", "\uE001").replace("{AR}", r"\ARsign{}")
     s = re.sub(r"\*\*([^*]+)\*\*", r"\\textbf{\1}", s)
     s = re.sub(r"\*([^*]+)\*", r"\\textit{\1}", s)
     s = ARABIC_RUN.sub(lambda m: r"\ArabicRun{" + m.group(1) + "}", s)

@@ -22,6 +22,9 @@
 \newcommand{\textethiopic}[1]{{\EthiopicFont #1}}
 \newfontfamily\NallinoSigns{NallinoSigns.otf}[Path=./fonts/]
 \newcommand{\AbjadZero}{{\NallinoSigns\symbol{"E000}}}
+% the sign of right ascension: the left half of the A (its thin stroke and its bar) joined to the stem of the R
+\usepackage{trimclip}
+\newcommand{\ARsign}{\mbox{\clipbox{0pt 0pt {.48\width} 0pt}{A}\kern-.10em R}}
 \hypersetup{pdftitle={Al-Battani, Opus astronomicum. Nallino, versio Latina et adnotationes (Pars I). S04},pdfauthor={Al-Battani; Carlo Alfonso Nallino (Latin translation and notes)}}
 \makeatletter
 \def\ps@sourceedition{%
@@ -71,7 +74,7 @@
 \thispagestyle{empty}
 \begin{center}\Large AL-BATTĀNĪ\par\vspace{4mm}\LARGE OPUS ASTRONOMICUM\par
 \vspace{5mm}\large Caroli Alphonsi Nallino versio Latina et adnotationes (pars I)\par\vspace{8mm}
-\Large S04 --- editio diplomatica\par\vspace{4mm}\large Paginae impressae 219--248\end{center}
+\Large S04 --- editio diplomatica\par\vspace{4mm}\large Paginae impressae 219--249\end{center}
 \vspace{12mm}\noindent Singulae lineae paginarum impressarum singulis lineis huius editionis respondent, cum
 divisionibus vocabulorum, signis et generibus litterarum (rectis, inclinatis, distantibus). Numeri linearum et
 paginae textus Arabici in marginibus stant ut impressi sunt. Textus ex imaginibus paginarum transcriptus est;
@@ -2453,4 +2456,91 @@ Haec transcriptio a nullo homine recognita est.\par
 \par\vspace{0.08mm}
 \DLine{AB01-PDF0337-notes_right-L004}{}{}{cti A, angulus \textit{a}PB arcus seminocturnus eiusdem A}
 \end{minipage}
+\DSource{0338}{249}
+\par\vspace*{\dimexpr 1.46mm-\baselineskip\relax}\prevdepth=0pt
+\DLine{AB01-PDF0338-body-L001}{}{}{\mbox{}\rlap{\hspace*{93.49mm}\makebox[0pt][c]{\ARsign{} initii XI domus $=$ \ARsign{} medii Caeli $+ \dfrac{\text{arc. semid. ascendentis}}{3}$}}}
+\par\vspace{-0.20mm}
+\DLine{AB01-PDF0338-body-L002}{}{}{\mbox{}\rlap{\hspace*{93.17mm}\makebox[0pt][c]{\ARsign{} initii XII domus $=$ \ARsign{} initii XI $+ \dfrac{\text{arc. semid. ascendentis}}{3}$}}}
+\par\vspace{-0.50mm}
+\DLine{AB01-PDF0338-body-L003}{}{}{\mbox{}\rlap{\hspace*{93.38mm}\makebox[0pt][c]{\ARsign{} initii II domus $=$ \ARsign{} ascendentis $+ \left(\text{60°} - \dfrac{\text{arc. semid. ascendentis}}{3}\right)$}}}
+\par\vspace{-1.54mm}
+\DLine{AB01-PDF0338-body-L004}{}{}{\mbox{}\rlap{\hspace*{94.26mm}\makebox[0pt][c]{\ARsign{} initii III domus $=$ \ARsign{} initii II $+ \left(\text{60°} - \dfrac{\text{arc. semid. ascendentis}}{3}\right)$}}}
+\par\vspace{-0.42mm}
+\DLine{AB01-PDF0338-body-L005}{}{}{Initia V, VI, VIII, IX sunt nadir XI, XII, II, III.}
+\par\vspace{-\ht\strutbox}\noindent\begin{minipage}[t]{118.90mm}\vspace{0pt}\setlength{\GutterOffset}{0pt}
+\par\vspace{-0.09mm}
+\hypertarget{AB01-PDF0338-P01}{}
+\DLine{AB01-PDF0338-body-L006}{}{}{\Indent In hac domorum partitione igitur non solum duae}
+\DLine{AB01-PDF0338-body-L007}{}{}{series inaequales fusorum oriuntur, sed etiam absurditas}
+\DLine{AB01-PDF0338-body-L008}{}{}{reperitur quam his verbis \Name{Delambre}, p. 502 de Alca-}
+\DLine{AB01-PDF0338-body-L009}{}{}{bitio loquens, notat (1): « Les six maisons dernières sont}
+\DLine{AB01-PDF0338-body-L010}{}{}{« toujours diamétralement opposées aux six premières; il}
+\DLine{AB01-PDF0338-body-L011}{}{}{« en résulte cependant une espèce d’absurdité. Le quart}
+\DLine{AB01-PDF0338-body-L012}{}{}{« de l’équateur, entre le méridien et l’horizon occidental,}
+\DLine{AB01-PDF0338-body-L013}{}{}{« se trouve divisé suivant les arcs nocturnes, quoiqu’il}
+\par\vspace{0.09mm}
+\DLine{AB01-PDF0338-body-L014}{}{}{« appartienne au jour; le quart entre l’horizon occidental}
+\par\vspace{-0.07mm}
+\DLine{AB01-PDF0338-body-L015}{}{}{« et le méridien inférieur, est divisé suivant les heures}
+\DLine{AB01-PDF0338-body-L016}{}{}{« du jour, quoiqu’il appartienne à la nuit. Au reste, le}
+\DLine{AB01-PDF0338-body-L017}{}{}{« calcul de cette méthode est extrêmement simple, et c’est}
+\end{minipage}\hspace{2mm}\begin{minipage}[t]{67.10mm}\vspace{0pt}\hypertarget{AB01-PDF0338-body-F01}{}\input{figures/AB01-PDF0338-F01}\end{minipage}\par
+\par\vspace{-0.36mm}
+\DLine{AB01-PDF0338-body-L018}{}{}{« peut–être ce qui a fait passer sur l’absurdité que nous venons de remarquer ».}
+\hypertarget{AB01-PDF0338-P02}{}
+\DLine{AB01-PDF0338-body-L019}{}{}{\Indent Supputandi ratio \Name{Albateniana} reperitur quoque in \textit{Libros del saber de Astronomia}}
+\DLine{AB01-PDF0338-body-L020}{}{}{aut nomine \Name{Ptolemaei} aut \Name{al–Battānī}. Nam t. II, p. 60–61 (\textit{Libro de las armellas}, lib. II,}
+\DLine{AB01-PDF0338-body-L021}{}{}{cap. XLIII): « De saber yguar las XII casas segund la opinion de Ptolomeo et de el Bateni »;}
+\par\vspace{-0.07mm}
+\DLine{AB01-PDF0338-body-L022}{}{}{t. II, p. 193 (\textit{Libro del astrolabio redondo,} libro II, cap. LIX): « De saber ygualar las doze}
+\DLine{AB01-PDF0338-body-L023}{}{}{« casas segun la opinion de Ptolomeo et de Veles » (2); t. III, p. 71 (\textit{Libros de la lámina}}
+\DLine{AB01-PDF0338-body-L024}{}{}{\textit{universal,} pars II, cap. LXII): « de saber ygualar las casas que caen entre los ángulos, se-}
+\DLine{AB01-PDF0338-body-L025}{}{}{« gund la opinion de Ptolomeo »; t. III, p. 204 (\textit{Libro de la açafeha,} cuius auctor \Name{az–Zar-}}
+\DLine{AB01-PDF0338-body-L026}{}{}{\Name{qālī}, cap. LVI): « De saber eguar las casas segund la oppinion de Ptholomeo », supputatio ab}
+\DLine{AB01-PDF0338-body-L027}{}{}{Albateniana non differt (3). Nec diversae sunt regulae quas \Name{Ḥabash} et \Name{Oloug Beg} (in}
+\DLine{AB01-PDF0338-body-L028}{}{}{initio capitis) docent.}
+\par\vspace{0.30mm}
+\hypertarget{AB01-PDF0338-H29}{}
+\DLine{AB01-PDF0338-body-L029}{}{}{\CenterLine{A\textsc{d} \textsc{caput} XXXVI.}}
+\par\vspace{1.83mm}
+\hypertarget{AB01-PDF0338-H30}{}
+\DLine{AB01-PDF0338-body-L030}{}{}{\CenterLine{\textbf{\textit{a}}) — \textit{Pag. 75, l. 27-30.}}}
+\par\vspace{3.31mm}
+\hypertarget{AB01-PDF0338-P03}{}
+\DLine{AB01-PDF0338-body-L031}{}{}{\Indent [Quae de Luna dicit vera sunt; Solem quod attinet addere debebat pro numeris 95° et}
+\DLine{AB01-PDF0338-body-L032}{}{}{265° ponendum esse 90 $+$ maxima aequatio centri, et 270 $-$ maxima aequatio centri; ergo,}
+\par\vspace{-0.14mm}
+\DLine{AB01-PDF0338-body-L033}{}{}{in numeris rotundis, 92° et 268°.}
+\par\vspace{6pt}\nointerlineskip\hbox to\textwidth{\hss\vrule width 115.43pt height.25pt depth0pt\hss}\prevdepth=-1000pt \vspace{5pt}
+\noindent\begin{minipage}[t]{.48\textwidth}\vspace{0pt}\fontsize{9}{11.5}\selectfont\setlength{\GutterOffset}{0pt}\setlength{\FullSourceWidth}{\linewidth}
+\par\fontsize{9}{11.80}\selectfont
+\par\vspace{0.59mm}
+\DLine{AB01-PDF0338-notes_left-L001}{}{}{vel arcus semidiurnus eius nadir. Qua re si arcus}
+\DLine{AB01-PDF0338-notes_left-L002}{}{}{semidiurnus cuiuslibet eclipticae puncti addatur ar-}
+\DLine{AB01-PDF0338-notes_left-L003}{}{}{cui semidiurno eius nadir, semper 180° proveniunt;}
+\par\vspace{-0.78mm}
+\DLine{AB01-PDF0338-notes_left-L004}{}{}{item summa fusi maioris et fusi minoris $\dfrac{\text{180°}}{3} = \text{60°}$}
+\par\vspace{-0.58mm}
+\DLine{AB01-PDF0338-notes_left-L005}{}{}{semper erit. Unde praeceptum Albatenianum p. 74,}
+\DLine{AB01-PDF0338-notes_left-L006}{}{}{l. 9-10. — \textsc{Schiaparelli}.]}
+\hypertarget{AB01-PDF0338-N01}{}
+\DLine{AB01-PDF0338-notes_left-L007}{}{}{\Indent (1) Ut evidentior sit res, figuram adiicio quae}
+\DLine{AB01-PDF0338-notes_left-L008}{}{}{proiectionem domorum in planum aequatoris caele-}
+\DLine{AB01-PDF0338-notes_left-L009}{}{}{stis ostendat.}
+\end{minipage}
+\hfill\vrule width.3pt\hfill\begin{minipage}[t]{.48\textwidth}\vspace{0pt}\fontsize{9}{11.5}\selectfont\setlength{\GutterOffset}{0pt}\setlength{\FullSourceWidth}{\linewidth}
+\par\fontsize{9}{11.80}\selectfont
+\par\vspace{0.68mm}
+\hypertarget{AB01-PDF0338-N02}{}
+\DLine{AB01-PDF0338-notes_right-L001}{}{}{\Indent (2) I. e. \textgreek{Οὐαλῆς}, Arabum \Name{Wālīs}, \Name{Vettius}}
+\DLine{AB01-PDF0338-notes_right-L002}{}{}{\Name{Valens} Antiochenus, astrologus celeberrimus cu-}
+\DLine{AB01-PDF0338-notes_right-L003}{}{}{ius aetas incerta inter II et IV Chr. saeculum.}
+\hypertarget{AB01-PDF0338-N03}{}
+\DLine{AB01-PDF0338-notes_right-L004}{}{}{\Indent (3) Alibi supputatio \Name{Hermetis} exponitur;}
+\DLine{AB01-PDF0338-notes_right-L005}{}{}{t. II, p. 193 (\textit{Libro del astrolabio redondo,} lib. II,}
+\DLine{AB01-PDF0338-notes_right-L006}{}{}{cap. LX), t. III, p. 72 (\textit{Libros de la lámina univer-}}
+\DLine{AB01-PDF0338-notes_right-L007}{}{}{\textit{sal,} pars II, cap. LXIII), et 209-210 (\textit{Libro de la aça-}}
+\DLine{AB01-PDF0338-notes_right-L008}{}{}{\textit{feha,} cap. LXIII).}
+\end{minipage}
+\par\vspace{5mm}\hfill{\fontsize{8}{10}\selectfont 32}\hspace{10mm}
 \end{document}
