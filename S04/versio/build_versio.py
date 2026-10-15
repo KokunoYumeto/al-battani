@@ -24,7 +24,8 @@ Transcription format (UTF-8; one printed line per source line, as printed, with 
   @cols INDENT C ...     the columns of a small table (widths in mm with l, r or c; | a vertical rule);
   @hrow H | C1 | ...     a head row H mm tall in the same columns, cells centred (H:LEAD sets their lines LEAD pt
                          apart, 9 by default; H:LEAD:PT their type, 7.5 pt by default; a cell {dy:N} TEXT is set N pt
-                         lower); {rot:A//B} and {rotb:A//B} (bold) set the lines A, B turned
+                         lower, a cell {lead:N} TEXT has its lines N pt apart, after {dy:N} when both are given);
+                         {rot:A//B} and {rotb:A//B} (bold) set the lines A, B turned
                          through 90 degrees
   @row C1 | C2 | ...     one row of it (~ hangs a unit sign: 159~°; {brace2} a brace over two rows; a cell
                          beginning with > is the indented second line of a name; {hr} a thin rule across the
@@ -453,12 +454,15 @@ def hrow_tex(src):
         if item[0] == "sep":
             out.append(rule_piece(item[1], rule))
             continue
-        cell, shift = item[1], ""
+        cell, shift, cl = item[1], "", lead
         dy = re.match(r"^\{dy:(-?\d+(?:\.\d+)?)\} ", cell)
         if dy:  # the centred block moves down by half the space set above it
             cell, shift = cell[dy.end():], r"\vspace*{" + f"{2 * float(dy.group(1)):g}" + "pt}"
+        ld = re.match(r"^\{lead:(\d+(?:\.\d+)?)\} ", cell)
+        if ld:  # {lead:N}: the lines of this cell N pt apart
+            cell, cl = cell[ld.end():], ld.group(1)
         out.append(r"\raisebox{-1mm}{\parbox[b][" + f"{H:.2f}" + "mm][c]{" + f"{item[2]:.2f}" + r"mm}{\centering"
-                   r"\fontsize{" + size + "}{" + lead + r"}\selectfont" + shift + r"\leavevmode " + markup(cell) + "}}")
+                   r"\fontsize{" + size + "}{" + cl + r"}\selectfont" + shift + r"\leavevmode " + markup(cell) + "}}")
     return "".join(out)
 
 
@@ -903,7 +907,8 @@ def section(items, prefix, role, numbered):
                 src = re.sub(r"\{hr(?: [\d.]+)?\}", "", src)
             elif kind == "hrow":
                 tex = hrow_tex(src)
-                src = " | ".join(re.sub(r"^\{dy:-?[\d.]+\} ", "", t) for t, _ in span_cells(src.partition("|")[2]))
+                src = " | ".join(re.sub(r"^(?:\{dy:-?[\d.]+\} )?(?:\{lead:[\d.]+\} )?", "", t)
+                                 for t, _ in span_cells(src.partition("|")[2]))
             elif kind == "hspan":
                 tex = hspan_tex(src)
                 src = " | ".join(re.sub(r"^>[\d.]+ ", "", t) for t, _ in span_cells(src) if t)

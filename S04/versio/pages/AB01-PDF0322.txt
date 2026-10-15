@@ -1,0 +1,83 @@
+@page 322 233
+% Commentary on chapter 30, the general remarks on the four eclipses continued: Ginzel's corrections of Oppolzer's Canon from ancient total solar eclipses and Schram's reduction tables; the reductions of al-Battānī's mean time to the modern one (half of the 32m between his and Ptolemy's, 16m) and of the meridians of Antioch (36° 9', Hartmann) and ar-Raqqah (39° 4', Chesney) to Greenwich; a boxed table of the true time of each syzygy after al-Battānī, the equation of days with the 16m, the difference of longitude, the mean time of the geocentric syzygy at Greenwich after al-Battānī and after Oppolzer-Ginzel, and their difference; the observed syzygies fall about a quarter of an hour later than the tables give, partly because the beginning of an eclipse is seen late. Notes: Ginzel's papers in the Sitzungsberichte of Vienna, 1882-1884; Schram's tables, 1889.
+@nonum
+dem viam postea ingressus est F. K. {sp:Ginzel}, qui, antiquis eclipsium totalium Solis usus ob-
+servationibus, novas Canonis Oppolzeriani correctiones enucleare diligentissime studuit (1); quas
+demum tabellis optime ad usum astronomorum accommodatis expressit R. {sp:Schram} (2). Sic
+coniunctis trium astronomorum laboribus tabulae exstiterunt, partim theoretico, partim empi-
+rico fundamento innixae, quae inter omnes accuratissime cursum Lunae pro antiquis tempo-
+ribus exhibere censendae sunt.
+^ Ad comparationem nostrarum eclipsium cum his tabulis recte instituendam primum me-
+minisse oportet, tempus medium Albatenii non idem esse ac tempus medium nobis usitatum.
+Iam antea, in adn. {bi:b} ad XXIX caput (p. 221–22), demonstratum est Albatenio aequationem
+nychthemerōn semper esse subtractivam, Ptolemaeo additivam, ita ut tempori medio Albatenii
+circiter 32{sup:*m*} addenda sint, ut ad Ptolemaei usum reducatur. Modus vero, quo nostrates aequa-
+tionem illam computare solent, ita est comparatus ut inter Albatenianam et Ptolemaicam me-
+thodum quam proxime medium teneat. Quare, ne nimis perplexis iisdemque non necessariis
+calculis involvamur, pro instituto nostro sat erit tempori medio Albatenii dimidium intervalli
+nuper dicti, scilicet 16{sup:*m*} addere, ut numeri auctoris ad usum nostrum revocentur, quem Cano-
+@vspace 0.07
+nis Oppolzeriani auctores quoque secuti sunt.
+^ Altera reductio est reductio longitudinis, a meridianis urbium Antiochiae et ar–Raqqah,
+in quibus observatum est, ad meridianum Grenovicensem, quo usi sunt Oppolzer eiusque socii.
+Longitudinem orientalem a Grenovico pro Antiochia (ubi II et IV eclipsis observatae sunt)
+sumpsi 36° 9′ $=$ 2{sup:*h*} 24{sup:*m*} 36{sup:*s*} e Hartmanni auctoritate; pro ar–Raqqah (ubi I et III eclipsis ob-
+servatae) 39° 4′ $=$ 2{sup:*h*} 36{sup:*m*} 16{sup:*s*} iuxta observationes Chesney.
+^ Hisce perpensis, in sequenti tabella elementa comparationis collexi.
+@vspace 2.34
+@colpad 0 0
+@cols 5.54 <|| 34.99c | 23.69c | 23.33c | 23.54c | 23.38c | 23.58c | 23.34c ||>
+@rule2 cols thin join
+@hrow 10.86:6.3 | {dy:9.38} {nm:**{sc:Eclipses}**} | {dy:8.18} **Tempus verum\\syzygiae geoc.\\ex Albatenio** | {dy:8.88} **Aequatio\\nychthemeron\\$+$ 16{sup:m}** | {dy:8.18} **Differentia\\longitudinum\\a Grenovico** | {lead:8.4} {sm:Syzygiae geocentricae\\tempus med. ad merid.\\Grenovic.}:2 | {dy:8.18} **Differentia inter\\Albatenium et\\Ginzel**
+@spanbrace 0.6 | | | | | hr:2 |
+@hrow 5.15:6.3 | | | | | **Albatenio** | **Oppol.–Ginzel** |
+@hrule cols 0.4
+@rowgap 4.39
+@rowsep 0.38
+@cols 5.54 <|| 10.98l>4.43 6.77l 7.05r 10.19l>1.99 | 7.17r 5.80r 6.60r 4.12l | 1.03l 6.26c 4.46r 7.51r 4.07l | 6.13r 5.65r 7.58r 4.18l | 6.04r 5.65r 7.46r 4.23l | 6.15r 5.61r 7.53r 4.29l | 1.02l 6.28c 4.39r 7.55r 4.10l ||>
+@row I. | 891, | 7/8 | Aug. | 1~{sup:*h*} | 0~{sup:*m*} | 0~{sup:*s*} |  |  | $+$ | 2~{sup:*m*} | 56~{sup:*s*} |  | 2~{sup:*h*} | 36~{sup:*m*} | 16~{sup:*s*} |  | 22~{sup:*h*} | 26~{sup:*m*} | 40~{sup:*s*} |  | 22~{sup:*h*} | 13~{sup:*m*} | 12~{sup:*s*} |  |  | $+$ | 13~{sup:*m*} | 28~{sup:*s*} | 
+@cols 5.54 <|| 10.98l>4.43 6.77l 5.72r 11.52l>2.08 | 7.17r 5.80r 6.60r 4.12l | 1.03l 6.26c 4.46r 7.51r 4.07l | 6.13r 5.65r 7.58r 4.18l | 6.04r 5.65r 7.46r 4.23l | 6.15r 5.61r 7.53r 4.29l | 1.02l 6.28c 4.39r 7.55r 4.10l ||>
+@row II. | 901, | 22 | Ian. | 21 | 10 | 0 |  |  | $+$ | 15 | 0 |  | 2 | 24 | 36 |  | 19 | 0 | 24 |  | 18 | 46 | 42 |  |  | $+$ | 13 | 42 | 
+@row III. | 883, | 23 | Iul. | 8 | 0 | 0 |  |  | $+$ | 3 | 44 |  | 2 | 36 | 16 |  | 5 | 27 | 28 |  | 5 | 9 | 24 |  |  | $+$ | 18 | 4 | 
+@row IV. | 901, | 2 | Aug. | 15 | 20 | 0 |  |  | $+$ | 3 | 20 |  | 2 | 24 | 36 |  | 12 | 58 | 44 |  | 12 | 31 | 18 |  |  | $+$ | 17 | 26 | 
+@rowsep 0
+@rowgap 4.15
+@rule2 cols foot thin
+@vspace 3.05
+^ Statim colligitur in omnibus eclipsibus syzygiam ex observatione quadrante circiter horae
+serius poni, quam tabulae ferant. Huius differentiae partem aliquam observationibus ipsis esse
+tribuendam non dubito. Initium enim obscurationis oculo nudo percipi non potest, nisi aliquot
+minuta temporis a geometrico contactu sint elapsa. Id autem praesertim evenire debuit anti-
+@vspace 0.08
+quis astronomis, quibus initium eclipsis e tabulis satis accurate praedici non poterat. Haec
+incertitudo in notando obscurationis fine locum non habuit; qua re in aestimando medio ecli-
+@vspace 0.45
+@notes
+@fontsize 9 11.80
+@vspace 0.12
+^ (1) *Astronomische Untersuchungen über Fin-*
+*sternisse*, in Sitzungsberichte der mathem.-natur-
+wissenschaftliche Classe der k. Akad. der WW. zu
+Wien, tom. LXXXV, sectio II, 1882, pag. 663-747;
+t. LXXXVIII, s. II, 1883, p. 629-755; t. LXXXIX, s. II,
+1884;. p. 491-559.
+@col
+@fontsize 9 11.80
+@vspace 0.14
+^ (2) *Reductionstafeln für den Oppolzer‘sche*
+*Finsterniss-Canon, zum Uebergang auf die Gin-*
+@vspace -0.08
+*zel’schen empirischen Correctionen*, in Denkschrif-
+ten der k. Akad. der WW. zu Wien, mathem. Classe,
+t. LVI, 1889.
+@sig 30
+@obs body L1, L3, L7, L11, L21: specks between «K.» and «Ginzel», between «usum» and «astronomorum», in the indent before «Ad», above «32m» and after «36m» are not transcribed.
+@obs body L9, L17, L20: the dashes of «221–22» and «ar–Raqqah» are long dashes (5.2 to 5.3 pt).
+@obs body L9-L16: the greatest difference between al-Battānī's and Ptolemy's mean time is 31m 12s or 32m 12s on p. 222; its half is the 16m added here.
+@obs body L19-L21: 36° 9′ and 39° 4′ at 4 minutes of time to the degree are 2h 24m 36s and 2h 36m 16s; Chesney's longitude of ar-Raqqah is 39° 3′ 57″ (p. 226, note 2).
+@obs body L23-L28: the true times of the syzygies are those of the computations: I. 1h 0m (p. 227); II. the 20h 20m of the observation at Antioch (p. 228) with the 50 minutes to the true conjunction (p. 229); III. 8h (p. 230); IV. 15h 20m (p. 231). The second column is 16m less al-Battānī's equation of days, 13m 4s (Leo 19°), 1m (Aquarius 8°), 12m 16s (Leo 4°) and 12m 40s (Leo 14° 36′); the fourth is the first plus the second less the third, for row I 22h 26m 40s after noon of 7 August, hence «7/8 Aug.». The last column is the fourth less the fifth in rows I–III; in row IV 12h 58m 44s − 12h 31m 18s is 27m 26s, where the print has 17m 26s, the value that fits the quarter of an hour of L29.
+@obs body L23-L24: in the head the bar of «Oppol.–Ginzel» (3.1 pt) is transcribed as a dash; specks around «Eclipses» are not transcribed.
+@obs notes_left L2: the period after «mathem» did not print.
+@obs notes_left L4-L6: the hyphens of «663-747», «629-755» and «491-559» measure 3.1 pt; «1884» is followed by a semicolon and a period.
+@obs notes_right L1: the apostrophe of «Oppolzer‘sche» is printed turned; a speck stands over its last e.
+@obs notes_right L4: the period after «mathem» is small and raised, and a speck stands before «Classe».

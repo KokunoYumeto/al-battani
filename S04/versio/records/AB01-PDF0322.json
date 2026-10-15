@@ -1,0 +1,492 @@
+{
+ "anchor": "AB01-PDF0322",
+ "master_pdf_page": 322,
+ "printed_page": 233,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": "30",
+ "margin_locators": [],
+ "observations": [
+  "body L1, L3, L7, L11, L21: specks between «K.» and «Ginzel», between «usum» and «astronomorum», in the indent before «Ad», above «32m» and after «36m» are not transcribed.",
+  "body L9, L17, L20: the dashes of «221–22» and «ar–Raqqah» are long dashes (5.2 to 5.3 pt).",
+  "body L9-L16: the greatest difference between al-Battānī's and Ptolemy's mean time is 31m 12s or 32m 12s on p. 222; its half is the 16m added here.",
+  "body L19-L21: 36° 9′ and 39° 4′ at 4 minutes of time to the degree are 2h 24m 36s and 2h 36m 16s; Chesney's longitude of ar-Raqqah is 39° 3′ 57″ (p. 226, note 2).",
+  "body L23-L28: the true times of the syzygies are those of the computations: I. 1h 0m (p. 227); II. the 20h 20m of the observation at Antioch (p. 228) with the 50 minutes to the true conjunction (p. 229); III. 8h (p. 230); IV. 15h 20m (p. 231). The second column is 16m less al-Battānī's equation of days, 13m 4s (Leo 19°), 1m (Aquarius 8°), 12m 16s (Leo 4°) and 12m 40s (Leo 14° 36′); the fourth is the first plus the second less the third, for row I 22h 26m 40s after noon of 7 August, hence «7/8 Aug.». The last column is the fourth less the fifth in rows I–III; in row IV 12h 58m 44s − 12h 31m 18s is 27m 26s, where the print has 17m 26s, the value that fits the quarter of an hour of L29.",
+  "body L23-L24: in the head the bar of «Oppol.–Ginzel» (3.1 pt) is transcribed as a dash; specks around «Eclipses» are not transcribed.",
+  "notes_left L2: the period after «mathem» did not print.",
+  "notes_left L4-L6: the hyphens of «663-747», «629-755» and «491-559» measure 3.1 pt; «1884» is followed by a semicolon and a period.",
+  "notes_right L1: the apostrophe of «Oppolzer‘sche» is printed turned; a speck stands over its last e.",
+  "notes_right L4: the period after «mathem» is small and raised, and a speck stands before «Classe»."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0322-body-L001",
+     "source_line_no": null,
+     "tex": "dem viam postea ingressus est F. K. \\Name{Ginzel}, qui, antiquis eclipsium totalium Solis usus ob-",
+     "transcription": "dem viam postea ingressus est F. K. {sp:Ginzel}, qui, antiquis eclipsium totalium Solis usus ob-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0322-body-L002",
+     "source_line_no": null,
+     "tex": "servationibus, novas Canonis Oppolzeriani correctiones enucleare diligentissime studuit (1); quas",
+     "transcription": "servationibus, novas Canonis Oppolzeriani correctiones enucleare diligentissime studuit (1); quas",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0322-body-L003",
+     "source_line_no": null,
+     "tex": "demum tabellis optime ad usum astronomorum accommodatis expressit R. \\Name{Schram} (2). Sic",
+     "transcription": "demum tabellis optime ad usum astronomorum accommodatis expressit R. {sp:Schram} (2). Sic",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0322-body-L004",
+     "source_line_no": null,
+     "tex": "coniunctis trium astronomorum laboribus tabulae exstiterunt, partim theoretico, partim empi-",
+     "transcription": "coniunctis trium astronomorum laboribus tabulae exstiterunt, partim theoretico, partim empi-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0322-body-L005",
+     "source_line_no": null,
+     "tex": "rico fundamento innixae, quae inter omnes accuratissime cursum Lunae pro antiquis tempo-",
+     "transcription": "rico fundamento innixae, quae inter omnes accuratissime cursum Lunae pro antiquis tempo-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0322-body-L006",
+     "source_line_no": null,
+     "tex": "ribus exhibere censendae sunt.",
+     "transcription": "ribus exhibere censendae sunt.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0322-body-L007",
+     "source_line_no": null,
+     "tex": "\\Indent Ad comparationem nostrarum eclipsium cum his tabulis recte instituendam primum me-",
+     "transcription": "Ad comparationem nostrarum eclipsium cum his tabulis recte instituendam primum me-",
+     "semantic_anchor": "AB01-PDF0322-P01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0322-body-L008",
+     "source_line_no": null,
+     "tex": "minisse oportet, tempus medium Albatenii non idem esse ac tempus medium nobis usitatum.",
+     "transcription": "minisse oportet, tempus medium Albatenii non idem esse ac tempus medium nobis usitatum.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0322-body-L009",
+     "source_line_no": null,
+     "tex": "Iam antea, in adn. \\textbf{\\textit{b}} ad XXIX caput (p. 221–22), demonstratum est Albatenio aequationem",
+     "transcription": "Iam antea, in adn. {bi:b} ad XXIX caput (p. 221–22), demonstratum est Albatenio aequationem",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0322-body-L010",
+     "source_line_no": null,
+     "tex": "nychthemerōn semper esse subtractivam, Ptolemaeo additivam, ita ut tempori medio Albatenii",
+     "transcription": "nychthemerōn semper esse subtractivam, Ptolemaeo additivam, ita ut tempori medio Albatenii",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0322-body-L011",
+     "source_line_no": null,
+     "tex": "circiter 32\\textsuperscript{\\textit{m}} addenda sint, ut ad Ptolemaei usum reducatur. Modus vero, quo nostrates aequa-",
+     "transcription": "circiter 32{sup:*m*} addenda sint, ut ad Ptolemaei usum reducatur. Modus vero, quo nostrates aequa-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0322-body-L012",
+     "source_line_no": null,
+     "tex": "tionem illam computare solent, ita est comparatus ut inter Albatenianam et Ptolemaicam me-",
+     "transcription": "tionem illam computare solent, ita est comparatus ut inter Albatenianam et Ptolemaicam me-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0322-body-L013",
+     "source_line_no": null,
+     "tex": "thodum quam proxime medium teneat. Quare, ne nimis perplexis iisdemque non necessariis",
+     "transcription": "thodum quam proxime medium teneat. Quare, ne nimis perplexis iisdemque non necessariis",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0322-body-L014",
+     "source_line_no": null,
+     "tex": "calculis involvamur, pro instituto nostro sat erit tempori medio Albatenii dimidium intervalli",
+     "transcription": "calculis involvamur, pro instituto nostro sat erit tempori medio Albatenii dimidium intervalli",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0322-body-L015",
+     "source_line_no": null,
+     "tex": "nuper dicti, scilicet 16\\textsuperscript{\\textit{m}} addere, ut numeri auctoris ad usum nostrum revocentur, quem Cano-",
+     "transcription": "nuper dicti, scilicet 16{sup:*m*} addere, ut numeri auctoris ad usum nostrum revocentur, quem Cano-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0322-body-L016",
+     "source_line_no": null,
+     "tex": "nis Oppolzeriani auctores quoque secuti sunt.",
+     "transcription": "nis Oppolzeriani auctores quoque secuti sunt.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0322-body-L017",
+     "source_line_no": null,
+     "tex": "\\Indent Altera reductio est reductio longitudinis, a meridianis urbium Antiochiae et ar–Raqqah,",
+     "transcription": "Altera reductio est reductio longitudinis, a meridianis urbium Antiochiae et ar–Raqqah,",
+     "semantic_anchor": "AB01-PDF0322-P02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0322-body-L018",
+     "source_line_no": null,
+     "tex": "in quibus observatum est, ad meridianum Grenovicensem, quo usi sunt Oppolzer eiusque socii.",
+     "transcription": "in quibus observatum est, ad meridianum Grenovicensem, quo usi sunt Oppolzer eiusque socii.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0322-body-L019",
+     "source_line_no": null,
+     "tex": "Longitudinem orientalem a Grenovico pro Antiochia (ubi II et IV eclipsis observatae sunt)",
+     "transcription": "Longitudinem orientalem a Grenovico pro Antiochia (ubi II et IV eclipsis observatae sunt)",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0322-body-L020",
+     "source_line_no": null,
+     "tex": "sumpsi 36° 9′ $=$ 2\\textsuperscript{\\textit{h}} 24\\textsuperscript{\\textit{m}} 36\\textsuperscript{\\textit{s}} e Hartmanni auctoritate; pro ar–Raqqah (ubi I et III eclipsis ob-",
+     "transcription": "sumpsi 36° 9′ $=$ 2{sup:*h*} 24{sup:*m*} 36{sup:*s*} e Hartmanni auctoritate; pro ar–Raqqah (ubi I et III eclipsis ob-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0322-body-L021",
+     "source_line_no": null,
+     "tex": "servatae) 39° 4′ $=$ 2\\textsuperscript{\\textit{h}} 36\\textsuperscript{\\textit{m}} 16\\textsuperscript{\\textit{s}} iuxta observationes Chesney.",
+     "transcription": "servatae) 39° 4′ $=$ 2{sup:*h*} 36{sup:*m*} 16{sup:*s*} iuxta observationes Chesney.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0322-body-L022",
+     "source_line_no": null,
+     "tex": "\\Indent Hisce perpensis, in sequenti tabella elementa comparationis collexi.",
+     "transcription": "Hisce perpensis, in sequenti tabella elementa comparationis collexi.",
+     "semantic_anchor": "AB01-PDF0322-P03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0322-body-L023",
+     "source_line_no": null,
+     "tex": "\\hspace*{5.54mm}\\rule[-1mm]{.4pt}{10.86mm}\\hspace{1.2pt}\\rule[-1mm]{.4pt}{10.86mm}\\hspace{0.0mm}\\raisebox{-1mm}{\\parbox[b][10.86mm][c]{34.99mm}{\\centering\\fontsize{7.5}{6.3}\\selectfont\\vspace*{18.76pt}\\leavevmode {\\fontsize{11.1}{13.8}\\selectfont \\textbf{\\textsc{Eclipses}}}}}\\hspace{0.0mm}\\rule[-1mm]{.4pt}{10.86mm}\\hspace{0.0mm}\\raisebox{-1mm}{\\parbox[b][10.86mm][c]{23.69mm}{\\centering\\fontsize{7.5}{6.3}\\selectfont\\vspace*{16.36pt}\\leavevmode \\textbf{Tempus verum\\\\syzygiae geoc.\\\\ex Albatenio}}}\\hspace{0.0mm}\\rule[-1mm]{.4pt}{10.86mm}\\hspace{0.0mm}\\raisebox{-1mm}{\\parbox[b][10.86mm][c]{23.33mm}{\\centering\\fontsize{7.5}{6.3}\\selectfont\\vspace*{17.76pt}\\leavevmode \\textbf{Aequatio\\\\nychthemeron\\\\$+$ 16\\textsuperscript{m}}}}\\hspace{0.0mm}\\rule[-1mm]{.4pt}{10.86mm}\\hspace{0.0mm}\\raisebox{-1mm}{\\parbox[b][10.86mm][c]{23.54mm}{\\centering\\fontsize{7.5}{6.3}\\selectfont\\vspace*{16.36pt}\\leavevmode \\textbf{Differentia\\\\longitudinum\\\\a Grenovico}}}\\hspace{0.0mm}\\rule[-1mm]{.4pt}{10.86mm}\\hspace{0.0mm}\\raisebox{-1mm}{\\parbox[b][10.86mm][c]{47.10mm}{\\centering\\fontsize{7.5}{8.4}\\selectfont\\leavevmode {\\fontsize{9.5}{11}\\selectfont Syzygiae geocentricae\\\\tempus med. ad merid.\\\\Grenovic.}}}\\hspace{0.0mm}\\rule[-1mm]{.4pt}{10.86mm}\\hspace{0.0mm}\\raisebox{-1mm}{\\parbox[b][10.86mm][c]{23.34mm}{\\centering\\fontsize{7.5}{6.3}\\selectfont\\vspace*{16.36pt}\\leavevmode \\textbf{Differentia inter\\\\Albatenium et\\\\Ginzel}}}\\hspace{0.0mm}\\rule[-1mm]{.4pt}{10.86mm}\\hspace{1.2pt}\\rule[-1mm]{.4pt}{10.86mm}",
+     "transcription": "{nm:**{sc:Eclipses}**} | **Tempus verum\\\\syzygiae geoc.\\\\ex Albatenio** | **Aequatio\\\\nychthemeron\\\\$+$ 16{sup:m}** | **Differentia\\\\longitudinum\\\\a Grenovico** | {sm:Syzygiae geocentricae\\\\tempus med. ad merid.\\\\Grenovic.} | **Differentia inter\\\\Albatenium et\\\\Ginzel**",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0322-body-L024",
+     "source_line_no": null,
+     "tex": "\\hspace*{5.54mm}\\rule[-1mm]{.4pt}{5.15mm}\\hspace{1.2pt}\\rule[-1mm]{.4pt}{5.15mm}\\hspace{0.0mm}\\raisebox{-1mm}{\\parbox[b][5.15mm][c]{34.99mm}{\\centering\\fontsize{7.5}{6.3}\\selectfont\\leavevmode }}\\hspace{0.0mm}\\rule[-1mm]{.4pt}{5.15mm}\\hspace{0.0mm}\\raisebox{-1mm}{\\parbox[b][5.15mm][c]{23.69mm}{\\centering\\fontsize{7.5}{6.3}\\selectfont\\leavevmode }}\\hspace{0.0mm}\\rule[-1mm]{.4pt}{5.15mm}\\hspace{0.0mm}\\raisebox{-1mm}{\\parbox[b][5.15mm][c]{23.33mm}{\\centering\\fontsize{7.5}{6.3}\\selectfont\\leavevmode }}\\hspace{0.0mm}\\rule[-1mm]{.4pt}{5.15mm}\\hspace{0.0mm}\\raisebox{-1mm}{\\parbox[b][5.15mm][c]{23.54mm}{\\centering\\fontsize{7.5}{6.3}\\selectfont\\leavevmode }}\\hspace{0.0mm}\\rule[-1mm]{.4pt}{5.15mm}\\hspace{0.0mm}\\raisebox{-1mm}{\\parbox[b][5.15mm][c]{23.38mm}{\\centering\\fontsize{7.5}{6.3}\\selectfont\\leavevmode \\textbf{Albatenio}}}\\hspace{0.0mm}\\rule[-1mm]{.4pt}{5.15mm}\\hspace{0.0mm}\\raisebox{-1mm}{\\parbox[b][5.15mm][c]{23.58mm}{\\centering\\fontsize{7.5}{6.3}\\selectfont\\leavevmode \\textbf{Oppol.–Ginzel}}}\\hspace{0.0mm}\\rule[-1mm]{.4pt}{5.15mm}\\hspace{0.0mm}\\raisebox{-1mm}{\\parbox[b][5.15mm][c]{23.34mm}{\\centering\\fontsize{7.5}{6.3}\\selectfont\\leavevmode }}\\hspace{0.0mm}\\rule[-1mm]{.4pt}{5.15mm}\\hspace{1.2pt}\\rule[-1mm]{.4pt}{5.15mm}",
+     "transcription": " |  |  |  | **Albatenio** | **Oppol.–Ginzel** | ",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0322-body-L025",
+     "source_line_no": null,
+     "tex": "\\hspace*{5.54mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{0.0mm}\\makebox[10.98mm][l]{\\smash{\\hspace*{4.43mm}I.}}\\makebox[6.77mm][l]{\\smash{891,}}\\makebox[7.05mm][r]{\\smash{7/8}}\\makebox[10.19mm][l]{\\smash{\\hspace*{1.99mm}Aug.}}\\hspace{0.0mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{0.0mm}\\makebox[7.17mm][r]{1\\rlap{\\textsuperscript{\\textit{h}}}}\\makebox[5.80mm][r]{0\\rlap{\\textsuperscript{\\textit{m}}}}\\makebox[6.60mm][r]{0\\rlap{\\textsuperscript{\\textit{s}}}}\\makebox[4.12mm][l]{\\smash{}}\\hspace{0.0mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{0.0mm}\\makebox[1.03mm][l]{\\smash{}}\\makebox[6.26mm][c]{\\smash{$+$}}\\makebox[4.46mm][r]{2\\rlap{\\textsuperscript{\\textit{m}}}}\\makebox[7.51mm][r]{56\\rlap{\\textsuperscript{\\textit{s}}}}\\makebox[4.07mm][l]{\\smash{}}\\hspace{0.0mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{0.0mm}\\makebox[6.13mm][r]{2\\rlap{\\textsuperscript{\\textit{h}}}}\\makebox[5.65mm][r]{36\\rlap{\\textsuperscript{\\textit{m}}}}\\makebox[7.58mm][r]{16\\rlap{\\textsuperscript{\\textit{s}}}}\\makebox[4.18mm][l]{\\smash{}}\\hspace{0.0mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{0.0mm}\\makebox[6.04mm][r]{22\\rlap{\\textsuperscript{\\textit{h}}}}\\makebox[5.65mm][r]{26\\rlap{\\textsuperscript{\\textit{m}}}}\\makebox[7.46mm][r]{40\\rlap{\\textsuperscript{\\textit{s}}}}\\makebox[4.23mm][l]{\\smash{}}\\hspace{0.0mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{0.0mm}\\makebox[6.15mm][r]{22\\rlap{\\textsuperscript{\\textit{h}}}}\\makebox[5.61mm][r]{13\\rlap{\\textsuperscript{\\textit{m}}}}\\makebox[7.53mm][r]{12\\rlap{\\textsuperscript{\\textit{s}}}}\\makebox[4.29mm][l]{\\smash{}}\\hspace{0.0mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{0.0mm}\\makebox[1.02mm][l]{\\smash{}}\\makebox[6.28mm][c]{\\smash{$+$}}\\makebox[4.39mm][r]{13\\rlap{\\textsuperscript{\\textit{m}}}}\\makebox[7.55mm][r]{28\\rlap{\\textsuperscript{\\textit{s}}}}\\makebox[4.10mm][l]{\\smash{}}\\hspace{0.0mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}",
+     "transcription": "I. | 891, | 7/8 | Aug. | 1{sup:*h*} | 0{sup:*m*} | 0{sup:*s*} |  |  | $+$ | 2{sup:*m*} | 56{sup:*s*} |  | 2{sup:*h*} | 36{sup:*m*} | 16{sup:*s*} |  | 22{sup:*h*} | 26{sup:*m*} | 40{sup:*s*} |  | 22{sup:*h*} | 13{sup:*m*} | 12{sup:*s*} |  |  | $+$ | 13{sup:*m*} | 28{sup:*s*} | ",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0322-body-L026",
+     "source_line_no": null,
+     "tex": "\\hspace*{5.54mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{0.0mm}\\makebox[10.98mm][l]{\\smash{\\hspace*{4.43mm}II.}}\\makebox[6.77mm][l]{\\smash{901,}}\\makebox[5.72mm][r]{\\smash{22}}\\makebox[11.52mm][l]{\\smash{\\hspace*{2.08mm}Ian.}}\\hspace{0.0mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{0.0mm}\\makebox[7.17mm][r]{\\smash{21}}\\makebox[5.80mm][r]{\\smash{10}}\\makebox[6.60mm][r]{\\smash{0}}\\makebox[4.12mm][l]{\\smash{}}\\hspace{0.0mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{0.0mm}\\makebox[1.03mm][l]{\\smash{}}\\makebox[6.26mm][c]{\\smash{$+$}}\\makebox[4.46mm][r]{\\smash{15}}\\makebox[7.51mm][r]{\\smash{0}}\\makebox[4.07mm][l]{\\smash{}}\\hspace{0.0mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{0.0mm}\\makebox[6.13mm][r]{\\smash{2}}\\makebox[5.65mm][r]{\\smash{24}}\\makebox[7.58mm][r]{\\smash{36}}\\makebox[4.18mm][l]{\\smash{}}\\hspace{0.0mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{0.0mm}\\makebox[6.04mm][r]{\\smash{19}}\\makebox[5.65mm][r]{\\smash{0}}\\makebox[7.46mm][r]{\\smash{24}}\\makebox[4.23mm][l]{\\smash{}}\\hspace{0.0mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{0.0mm}\\makebox[6.15mm][r]{\\smash{18}}\\makebox[5.61mm][r]{\\smash{46}}\\makebox[7.53mm][r]{\\smash{42}}\\makebox[4.29mm][l]{\\smash{}}\\hspace{0.0mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{0.0mm}\\makebox[1.02mm][l]{\\smash{}}\\makebox[6.28mm][c]{\\smash{$+$}}\\makebox[4.39mm][r]{\\smash{13}}\\makebox[7.55mm][r]{\\smash{42}}\\makebox[4.10mm][l]{\\smash{}}\\hspace{0.0mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}",
+     "transcription": "II. | 901, | 22 | Ian. | 21 | 10 | 0 |  |  | $+$ | 15 | 0 |  | 2 | 24 | 36 |  | 19 | 0 | 24 |  | 18 | 46 | 42 |  |  | $+$ | 13 | 42 | ",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0322-body-L027",
+     "source_line_no": null,
+     "tex": "\\hspace*{5.54mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{0.0mm}\\makebox[10.98mm][l]{\\smash{\\hspace*{4.43mm}III.}}\\makebox[6.77mm][l]{\\smash{883,}}\\makebox[5.72mm][r]{\\smash{23}}\\makebox[11.52mm][l]{\\smash{\\hspace*{2.08mm}Iul.}}\\hspace{0.0mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{0.0mm}\\makebox[7.17mm][r]{\\smash{8}}\\makebox[5.80mm][r]{\\smash{0}}\\makebox[6.60mm][r]{\\smash{0}}\\makebox[4.12mm][l]{\\smash{}}\\hspace{0.0mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{0.0mm}\\makebox[1.03mm][l]{\\smash{}}\\makebox[6.26mm][c]{\\smash{$+$}}\\makebox[4.46mm][r]{\\smash{3}}\\makebox[7.51mm][r]{\\smash{44}}\\makebox[4.07mm][l]{\\smash{}}\\hspace{0.0mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{0.0mm}\\makebox[6.13mm][r]{\\smash{2}}\\makebox[5.65mm][r]{\\smash{36}}\\makebox[7.58mm][r]{\\smash{16}}\\makebox[4.18mm][l]{\\smash{}}\\hspace{0.0mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{0.0mm}\\makebox[6.04mm][r]{\\smash{5}}\\makebox[5.65mm][r]{\\smash{27}}\\makebox[7.46mm][r]{\\smash{28}}\\makebox[4.23mm][l]{\\smash{}}\\hspace{0.0mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{0.0mm}\\makebox[6.15mm][r]{\\smash{5}}\\makebox[5.61mm][r]{\\smash{9}}\\makebox[7.53mm][r]{\\smash{24}}\\makebox[4.29mm][l]{\\smash{}}\\hspace{0.0mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{0.0mm}\\makebox[1.02mm][l]{\\smash{}}\\makebox[6.28mm][c]{\\smash{$+$}}\\makebox[4.39mm][r]{\\smash{18}}\\makebox[7.55mm][r]{\\smash{4}}\\makebox[4.10mm][l]{\\smash{}}\\hspace{0.0mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}",
+     "transcription": "III. | 883, | 23 | Iul. | 8 | 0 | 0 |  |  | $+$ | 3 | 44 |  | 2 | 36 | 16 |  | 5 | 27 | 28 |  | 5 | 9 | 24 |  |  | $+$ | 18 | 4 | ",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0322-body-L028",
+     "source_line_no": null,
+     "tex": "\\hspace*{5.54mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{0.0mm}\\makebox[10.98mm][l]{\\smash{\\hspace*{4.43mm}IV.}}\\makebox[6.77mm][l]{\\smash{901,}}\\makebox[5.72mm][r]{\\smash{2}}\\makebox[11.52mm][l]{\\smash{\\hspace*{2.08mm}Aug.}}\\hspace{0.0mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{0.0mm}\\makebox[7.17mm][r]{\\smash{15}}\\makebox[5.80mm][r]{\\smash{20}}\\makebox[6.60mm][r]{\\smash{0}}\\makebox[4.12mm][l]{\\smash{}}\\hspace{0.0mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{0.0mm}\\makebox[1.03mm][l]{\\smash{}}\\makebox[6.26mm][c]{\\smash{$+$}}\\makebox[4.46mm][r]{\\smash{3}}\\makebox[7.51mm][r]{\\smash{20}}\\makebox[4.07mm][l]{\\smash{}}\\hspace{0.0mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{0.0mm}\\makebox[6.13mm][r]{\\smash{2}}\\makebox[5.65mm][r]{\\smash{24}}\\makebox[7.58mm][r]{\\smash{36}}\\makebox[4.18mm][l]{\\smash{}}\\hspace{0.0mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{0.0mm}\\makebox[6.04mm][r]{\\smash{12}}\\makebox[5.65mm][r]{\\smash{58}}\\makebox[7.46mm][r]{\\smash{44}}\\makebox[4.23mm][l]{\\smash{}}\\hspace{0.0mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{0.0mm}\\makebox[6.15mm][r]{\\smash{12}}\\makebox[5.61mm][r]{\\smash{31}}\\makebox[7.53mm][r]{\\smash{18}}\\makebox[4.29mm][l]{\\smash{}}\\hspace{0.0mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{0.0mm}\\makebox[1.02mm][l]{\\smash{}}\\makebox[6.28mm][c]{\\smash{$+$}}\\makebox[4.39mm][r]{\\smash{17}}\\makebox[7.55mm][r]{\\smash{26}}\\makebox[4.10mm][l]{\\smash{}}\\hspace{0.0mm}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}\\hspace{1.2pt}\\rule[-\\dp\\strutbox]{.4pt}{\\baselineskip}",
+     "transcription": "IV. | 901, | 2 | Aug. | 15 | 20 | 0 |  |  | $+$ | 3 | 20 |  | 2 | 24 | 36 |  | 12 | 58 | 44 |  | 12 | 31 | 18 |  |  | $+$ | 17 | 26 | ",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0322-body-L029",
+     "source_line_no": null,
+     "tex": "\\Indent Statim colligitur in omnibus eclipsibus syzygiam ex observatione quadrante circiter horae",
+     "transcription": "Statim colligitur in omnibus eclipsibus syzygiam ex observatione quadrante circiter horae",
+     "semantic_anchor": "AB01-PDF0322-P04",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0322-body-L030",
+     "source_line_no": null,
+     "tex": "serius poni, quam tabulae ferant. Huius differentiae partem aliquam observationibus ipsis esse",
+     "transcription": "serius poni, quam tabulae ferant. Huius differentiae partem aliquam observationibus ipsis esse",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0322-body-L031",
+     "source_line_no": null,
+     "tex": "tribuendam non dubito. Initium enim obscurationis oculo nudo percipi non potest, nisi aliquot",
+     "transcription": "tribuendam non dubito. Initium enim obscurationis oculo nudo percipi non potest, nisi aliquot",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0322-body-L032",
+     "source_line_no": null,
+     "tex": "minuta temporis a geometrico contactu sint elapsa. Id autem praesertim evenire debuit anti-",
+     "transcription": "minuta temporis a geometrico contactu sint elapsa. Id autem praesertim evenire debuit anti-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0322-body-L033",
+     "source_line_no": null,
+     "tex": "quis astronomis, quibus initium eclipsis e tabulis satis accurate praedici non poterat. Haec",
+     "transcription": "quis astronomis, quibus initium eclipsis e tabulis satis accurate praedici non poterat. Haec",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0322-body-L034",
+     "source_line_no": null,
+     "tex": "incertitudo in notando obscurationis fine locum non habuit; qua re in aestimando medio ecli-",
+     "transcription": "incertitudo in notando obscurationis fine locum non habuit; qua re in aestimando medio ecli-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    }
+   ]
+  },
+  {
+   "role": "notes_left",
+   "lines": [
+    {
+     "id": "AB01-PDF0322-notes_left-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (1) \\textit{Astronomische Untersuchungen über Fin-}",
+     "transcription": "(1) *Astronomische Untersuchungen über Fin-*",
+     "semantic_anchor": "AB01-PDF0322-N01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0322-notes_left-L002",
+     "source_line_no": null,
+     "tex": "\\textit{sternisse}, in Sitzungsberichte der mathem.-natur-",
+     "transcription": "*sternisse*, in Sitzungsberichte der mathem.-natur-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0322-notes_left-L003",
+     "source_line_no": null,
+     "tex": "wissenschaftliche Classe der k. Akad. der WW. zu",
+     "transcription": "wissenschaftliche Classe der k. Akad. der WW. zu",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0322-notes_left-L004",
+     "source_line_no": null,
+     "tex": "Wien, tom. LXXXV, sectio II, 1882, pag. 663-747;",
+     "transcription": "Wien, tom. LXXXV, sectio II, 1882, pag. 663-747;",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0322-notes_left-L005",
+     "source_line_no": null,
+     "tex": "t. LXXXVIII, s. II, 1883, p. 629-755; t. LXXXIX, s. II,",
+     "transcription": "t. LXXXVIII, s. II, 1883, p. 629-755; t. LXXXIX, s. II,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0322-notes_left-L006",
+     "source_line_no": null,
+     "tex": "1884;. p. 491-559.",
+     "transcription": "1884;. p. 491-559.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  },
+  {
+   "role": "notes_right",
+   "lines": [
+    {
+     "id": "AB01-PDF0322-notes_right-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (2) \\textit{Reductionstafeln für den Oppolzer‘sche}",
+     "transcription": "(2) *Reductionstafeln für den Oppolzer‘sche*",
+     "semantic_anchor": "AB01-PDF0322-N02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0322-notes_right-L002",
+     "source_line_no": null,
+     "tex": "\\textit{Finsterniss-Canon, zum Uebergang auf die Gin-}",
+     "transcription": "*Finsterniss-Canon, zum Uebergang auf die Gin-*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0322-notes_right-L003",
+     "source_line_no": null,
+     "tex": "\\textit{zel’schen empirischen Correctionen}, in Denkschrif-",
+     "transcription": "*zel’schen empirischen Correctionen*, in Denkschrif-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0322-notes_right-L004",
+     "source_line_no": null,
+     "tex": "ten der k. Akad. der WW. zu Wien, mathem. Classe,",
+     "transcription": "ten der k. Akad. der WW. zu Wien, mathem. Classe,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0322-notes_right-L005",
+     "source_line_no": null,
+     "tex": "t. LVI, 1889.",
+     "transcription": "t. LVI, 1889.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  }
+ ]
+}
