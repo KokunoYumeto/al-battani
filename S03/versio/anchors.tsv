@@ -4209,3 +4209,37 @@ AB01-PDF0290-notes_right-L003	201	notes_right	nis proveniunt, in lineis 23, 24, 
 AB01-PDF0290-notes_right-L004	201	notes_right	{ar:ف م} pro FG {ar:ف ط}, et FC {ar:ف ج} pro FB {ar:ف ب} posuit.
 AB01-PDF0290-notes_right-L005	201	notes_right	Inde quoque corruptela provenit, pag. 38, adn. 6,
 AB01-PDF0290-notes_right-L006	201	notes_right	indicata.
+AB01-PDF0291-body-L001	202	body	ubi latera GB, BA sunt chordae notorum arcuum, et GE nuper determinatum est. Ergo recta
+AB01-PDF0291-body-L002	202	body	diagonalis GA innotescet, quae est chorda arcus circuli *maximi* GA, seu distantiae quaesitae.
+AB01-PDF0291-body-L003	202	body	Solutio iure elegans appellari potest.
+AB01-PDF0291-body-L004	202	body	{bi:c}) — *Pag. 39–40.*
+AB01-PDF0291-body-L005	202	body	Nunc regulas generales ad supputandas *distantias* (in arcubus circulorum maximorum)
+AB01-PDF0291-body-L006	202	body	*inter duas stellas* enuntiat.
+AB01-PDF0291-body-L007	202	body	In quadrilateribus sphaericis, duorum laterum quae chordas parallelas habent appellat
+AB01-PDF0291-body-L008	202	body	*primum latus* quod propius est eclipticae (vel eclipticam ipsam), *secundum latus* quod est
+AB01-PDF0291-body-L009	202	body	polo propius. Reliqua duo latera aequalia, quorum chordae non sunt parallelae, vocat *tertium*
+AB01-PDF0291-body-L010	202	body	et *quartum latus.*
+AB01-PDF0291-body-L011	202	body	Quatuor casus distinguit:
+AB01-PDF0291-body-L012	202	body	I. — Cum stellarum altera in ecliptica sit, altera latitudinem β habeat. — Solutio est
+AB01-PDF0291-body-L013	202	body	quae iam in adn. {bi:b} exposui secundum {sp:al–Battānī} ipsum; ponit $L - L'$ (seu differentiam
+AB01-PDF0291-body-L014	202	body	longitudinum) $=$ primum latus, $2\\,\\text{arc}\\left[\\sin\\left(\\dfrac{L - L'}{2}\\right) \\times \\dfrac{\\cos\\text{β}}{R}\\right] =$ secundum latus (scilicet
+AB01-PDF0291-body-L015	202	body	arcum GE, de quo adn. {bi:a}), demum chordam $\\text{β} =$ tertium vel quartum latus. Regulam igi-
+AB01-PDF0291-body-L016	202	body	tur enuntiat:
+AB01-PDF0291-body-L017	202	body	(α) $\\text{crd distantiae} = \\sqrt{\\text{crd primi later.} \\times \\text{crd secundi later.} + \\text{quadr. tertii later.}}$
+AB01-PDF0291-body-L018	202	body	Ex hac formula Albateniana haud difficile est nostram $\\text{cos dist.} = \\cos\\text{β} \\cos (L - L')$ de-
+AB01-PDF0291-body-L019	202	body	ducere. Quoniam $\\text{chorda}\\ x = 2 \\sin\\dfrac{x}{2}$, si sinus pro chordis ponamus et ambo aequationis (α)
+AB01-PDF0291-body-L020	202	body	membra quadrata faciamus, proveniet
+AB01-PDF0291-body-L021	202	body	$4 \\sin^2\\dfrac{\\text{distantiae}}{2}$ $= 2 \\sin\\left(\\dfrac{L - L'}{2}\\right) 2 \\sin\\left(\\dfrac{L - L'}{2}\\right) \\dfrac{\\cos\\text{β}}{2R} + 4 \\sin^2\\dfrac{\\text{β}}{2} =$
+AB01-PDF0291-body-L022	202	body	$= 4 \\sin^2\\left(\\dfrac{L - L'}{2}\\right) \\dfrac{\\cos\\text{β}}{2R} + 4 \\sin^2\\dfrac{\\text{β}}{2}$.
+AB01-PDF0291-body-L023	202	body	Sed $\\sin^2\\dfrac{x}{2} = \\dfrac{R^2 - R \\cos x}{2}$; ergo, omnia per 4 dividendo,
+AB01-PDF0291-body-L024	202	body	$\\dfrac{R^2 - R \\cos \\text{dist.}}{2} = \\dfrac{R^2 - R \\cos (L - L')}{2} \\times \\dfrac{\\cos\\text{β}}{2R} + \\dfrac{R^2 - R \\cos\\text{β}}{2}$,
+AB01-PDF0291-body-L025	202	body	unde, in 2 multiplicando, et per *R* dividendo,
+AB01-PDF0291-body-L026	202	body	$R - \\text{cos dist.} = \\cos\\text{β} - \\dfrac{\\cos\\text{β} \\cos (L - L')}{R} + R - \\cos\\text{β}$,
+AB01-PDF0291-body-L027	202	body	demum $\\text{cos distantiae} = \\dfrac{\\cos\\text{β} \\cos (L - L')}{R}$.
+AB01-PDF0291-body-L028	202	body	II. — Cum stellae eandem latitudinem habeant. — Chorda distantiae tunc est ipsum se-
+AB01-PDF0291-body-L029	202	body	cundum latus, seu, ut antea docuit et ex constructione geometrica pag. 38 (de qua adn. {bi:a})
+AB01-PDF0291-body-L030	202	body	deducitur:
+AB01-PDF0291-body-L031	202	body	(β) $\\text{chorda distantiae} = 2 \\sin\\left(\\dfrac{L - L'}{2}\\right) \\dfrac{\\cos\\text{β}}{R}$,
+AB01-PDF0291-body-L032	202	body	vel $\\sin\\dfrac{\\text{dist.}}{2} = \\sin\\left(\\dfrac{L - L'}{2}\\right) \\dfrac{\\cos\\text{β}}{R}$.
+AB01-PDF0291-body-L033	202	body	III. — Cum latitudines β et β′ stellarum diversae sint, sed in eadem Caeli plaga respe-
+AB01-PDF0291-body-L034	202	body	ctu eclipticae.

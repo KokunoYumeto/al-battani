@@ -1,0 +1,371 @@
+{
+ "anchor": "AB01-PDF0291",
+ "master_pdf_page": 291,
+ "printed_page": 202,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "margin_locators": [],
+ "observations": [
+  "body L4: in the head, the dash after «c)» measures 10.3 pt and the dash of «39–40» is a long dash; transcribed as a dash and a long dash.",
+  "body L12, L28, L33: the dashes after the numerals I., II. and III. and before «Solutio» and «Chorda» measure 9.7 to 10.3 pt; transcribed as dashes.",
+  "body L13: the dash of the letter-spaced «al–Battānī» is a long dash (5.5 pt).",
+  "body L13-L32: the minus signs are printed as long dashes (9.0 to 10.4 pt); they are set as minus signs.",
+  "body L14-L17: rule (α) is Ptolemy's theorem in the quadrilateral of p. 201: the square of the chord of the distance is the product of the chords of the first and second sides with the square of the chord of the third side added.",
+  "body L21-L22, L24: Nallino's addenda et emendanda (Part I, p. LXXIII) read «202, ter in formulis cos β/2R occurrit, quod emendandum cos β/R.»; the printed «2R» is kept. The correction is right: crd I = 2 sin ((L − L′)/2) times crd II = 2 sin ((L − L′)/2) cos β/R is 4 sin² ((L − L′)/2) cos β/R, and L26 follows from L24 only with cos β/R.",
+  "body L23: the bar of the fraction x/2 is printed broken in two.",
+  "body L26-L27: the steps are right with cos β/R: twice L24, divided by R, gives R − cos dist. = (R − cos (L − L′)) cos β/R + R − cos β, which is L26, and hence cos dist. = cos β cos (L − L′)/R.",
+  "body L31-L32: rule (β) is right: for equal latitudes the chord of the distance is the second side, 2 sin ((L − L′)/2) cos β/R, half of it the sine of half the distance."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0291-body-L001",
+     "source_line_no": null,
+     "tex": "ubi latera GB, BA sunt chordae notorum arcuum, et GE nuper determinatum est. Ergo recta",
+     "transcription": "ubi latera GB, BA sunt chordae notorum arcuum, et GE nuper determinatum est. Ergo recta",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0291-body-L002",
+     "source_line_no": null,
+     "tex": "diagonalis GA innotescet, quae est chorda arcus circuli \\textit{maximi} GA, seu distantiae quaesitae.",
+     "transcription": "diagonalis GA innotescet, quae est chorda arcus circuli *maximi* GA, seu distantiae quaesitae.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0291-body-L003",
+     "source_line_no": null,
+     "tex": "\\Indent Solutio iure elegans appellari potest.",
+     "transcription": "Solutio iure elegans appellari potest.",
+     "semantic_anchor": "AB01-PDF0291-P01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0291-body-L004",
+     "source_line_no": null,
+     "tex": "\\CenterLine{\\textbf{\\textit{c}}) — \\textit{Pag. 39–40.}}",
+     "transcription": "{bi:c}) — *Pag. 39–40.*",
+     "semantic_anchor": "AB01-PDF0291-H04",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0291-body-L005",
+     "source_line_no": null,
+     "tex": "\\Indent Nunc regulas generales ad supputandas \\textit{distantias} (in arcubus circulorum maximorum)",
+     "transcription": "Nunc regulas generales ad supputandas *distantias* (in arcubus circulorum maximorum)",
+     "semantic_anchor": "AB01-PDF0291-P02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0291-body-L006",
+     "source_line_no": null,
+     "tex": "\\textit{inter duas stellas} enuntiat.",
+     "transcription": "*inter duas stellas* enuntiat.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0291-body-L007",
+     "source_line_no": null,
+     "tex": "\\Indent In quadrilateribus sphaericis, duorum laterum quae chordas parallelas habent appellat",
+     "transcription": "In quadrilateribus sphaericis, duorum laterum quae chordas parallelas habent appellat",
+     "semantic_anchor": "AB01-PDF0291-P03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0291-body-L008",
+     "source_line_no": null,
+     "tex": "\\textit{primum latus} quod propius est eclipticae (vel eclipticam ipsam), \\textit{secundum latus} quod est",
+     "transcription": "*primum latus* quod propius est eclipticae (vel eclipticam ipsam), *secundum latus* quod est",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0291-body-L009",
+     "source_line_no": null,
+     "tex": "polo propius. Reliqua duo latera aequalia, quorum chordae non sunt parallelae, vocat \\textit{tertium}",
+     "transcription": "polo propius. Reliqua duo latera aequalia, quorum chordae non sunt parallelae, vocat *tertium*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0291-body-L010",
+     "source_line_no": null,
+     "tex": "et \\textit{quartum latus.}",
+     "transcription": "et *quartum latus.*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0291-body-L011",
+     "source_line_no": null,
+     "tex": "\\Indent Quatuor casus distinguit:",
+     "transcription": "Quatuor casus distinguit:",
+     "semantic_anchor": "AB01-PDF0291-P04",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0291-body-L012",
+     "source_line_no": null,
+     "tex": "\\Indent I. — Cum stellarum altera in ecliptica sit, altera latitudinem \\textgreek{β} habeat. — Solutio est",
+     "transcription": "I. — Cum stellarum altera in ecliptica sit, altera latitudinem β habeat. — Solutio est",
+     "semantic_anchor": "AB01-PDF0291-P05",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0291-body-L013",
+     "source_line_no": null,
+     "tex": "quae iam in adn. \\textbf{\\textit{b}} exposui secundum \\Name{al–Battānī} ipsum; ponit $L - L'$ (seu differentiam",
+     "transcription": "quae iam in adn. {bi:b} exposui secundum {sp:al–Battānī} ipsum; ponit $L - L'$ (seu differentiam",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0291-body-L014",
+     "source_line_no": null,
+     "tex": "longitudinum) $=$ primum latus, $2\\,\\text{arc}\\left[\\sin\\left(\\dfrac{L - L'}{2}\\right) \\times \\dfrac{\\cos\\text{\\textgreek{β}}}{R}\\right] =$ secundum latus (scilicet",
+     "transcription": "longitudinum) $=$ primum latus, $2\\,\\text{arc}\\left[\\sin\\left(\\dfrac{L - L'}{2}\\right) \\times \\dfrac{\\cos\\text{β}}{R}\\right] =$ secundum latus (scilicet",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0291-body-L015",
+     "source_line_no": null,
+     "tex": "arcum GE, de quo adn. \\textbf{\\textit{a}}), demum chordam $\\text{\\textgreek{β}} =$ tertium vel quartum latus. Regulam igi-",
+     "transcription": "arcum GE, de quo adn. {bi:a}), demum chordam $\\text{β} =$ tertium vel quartum latus. Regulam igi-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0291-body-L016",
+     "source_line_no": null,
+     "tex": "tur enuntiat:",
+     "transcription": "tur enuntiat:",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0291-body-L017",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.00mm}(\\textgreek{α})}\\rlap{\\hspace*{94.00mm}\\makebox[0pt][c]{$\\text{crd distantiae} = \\sqrt{\\text{crd primi later.} \\times \\text{crd secundi later.} + \\text{quadr. tertii later.}}$}}",
+     "transcription": "(α) $\\text{crd distantiae} = \\sqrt{\\text{crd primi later.} \\times \\text{crd secundi later.} + \\text{quadr. tertii later.}}$",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0291-body-L018",
+     "source_line_no": null,
+     "tex": "\\Indent Ex hac formula Albateniana haud difficile est nostram $\\text{cos dist.} = \\cos\\text{\\textgreek{β}} \\cos (L - L')$ de-",
+     "transcription": "Ex hac formula Albateniana haud difficile est nostram $\\text{cos dist.} = \\cos\\text{β} \\cos (L - L')$ de-",
+     "semantic_anchor": "AB01-PDF0291-P06",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0291-body-L019",
+     "source_line_no": null,
+     "tex": "ducere. Quoniam $\\text{chorda}\\ x = 2 \\sin\\dfrac{x}{2}$, si sinus pro chordis ponamus et ambo aequationis (\\textgreek{α})",
+     "transcription": "ducere. Quoniam $\\text{chorda}\\ x = 2 \\sin\\dfrac{x}{2}$, si sinus pro chordis ponamus et ambo aequationis (α)",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0291-body-L020",
+     "source_line_no": null,
+     "tex": "membra quadrata faciamus, proveniet",
+     "transcription": "membra quadrata faciamus, proveniet",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0291-body-L021",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{45.14mm}\\llap{$4 \\sin^2\\dfrac{\\text{distantiae}}{2}$}}\\rlap{\\hspace*{46.40mm}$= 2 \\sin\\left(\\dfrac{L - L'}{2}\\right) 2 \\sin\\left(\\dfrac{L - L'}{2}\\right) \\dfrac{\\cos\\text{\\textgreek{β}}}{2R} + 4 \\sin^2\\dfrac{\\text{\\textgreek{β}}}{2} =$}",
+     "transcription": "$4 \\sin^2\\dfrac{\\text{distantiae}}{2}$ $= 2 \\sin\\left(\\dfrac{L - L'}{2}\\right) 2 \\sin\\left(\\dfrac{L - L'}{2}\\right) \\dfrac{\\cos\\text{β}}{2R} + 4 \\sin^2\\dfrac{\\text{β}}{2} =$",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0291-body-L022",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{46.40mm}$= 4 \\sin^2\\left(\\dfrac{L - L'}{2}\\right) \\dfrac{\\cos\\text{\\textgreek{β}}}{2R} + 4 \\sin^2\\dfrac{\\text{\\textgreek{β}}}{2}$.}",
+     "transcription": "$= 4 \\sin^2\\left(\\dfrac{L - L'}{2}\\right) \\dfrac{\\cos\\text{β}}{2R} + 4 \\sin^2\\dfrac{\\text{β}}{2}$.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0291-body-L023",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.00mm}Sed}\\rlap{\\hspace*{10.29mm}$\\sin^2\\dfrac{x}{2} = \\dfrac{R^2 - R \\cos x}{2}$; ergo, omnia per 4 dividendo,}",
+     "transcription": "Sed $\\sin^2\\dfrac{x}{2} = \\dfrac{R^2 - R \\cos x}{2}$; ergo, omnia per 4 dividendo,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0291-body-L024",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{19.43mm}$\\dfrac{R^2 - R \\cos \\text{dist.}}{2} = \\dfrac{R^2 - R \\cos (L - L')}{2} \\times \\dfrac{\\cos\\text{\\textgreek{β}}}{2R} + \\dfrac{R^2 - R \\cos\\text{\\textgreek{β}}}{2}$,}",
+     "transcription": "$\\dfrac{R^2 - R \\cos \\text{dist.}}{2} = \\dfrac{R^2 - R \\cos (L - L')}{2} \\times \\dfrac{\\cos\\text{β}}{2R} + \\dfrac{R^2 - R \\cos\\text{β}}{2}$,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0291-body-L025",
+     "source_line_no": null,
+     "tex": "unde, in 2 multiplicando, et per \\textit{R} dividendo,",
+     "transcription": "unde, in 2 multiplicando, et per *R* dividendo,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0291-body-L026",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{30.84mm}$R - \\text{cos dist.} = \\cos\\text{\\textgreek{β}} - \\dfrac{\\cos\\text{\\textgreek{β}} \\cos (L - L')}{R} + R - \\cos\\text{\\textgreek{β}}$,}",
+     "transcription": "$R - \\text{cos dist.} = \\cos\\text{β} - \\dfrac{\\cos\\text{β} \\cos (L - L')}{R} + R - \\cos\\text{β}$,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0291-body-L027",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.00mm}demum}\\rlap{\\hspace*{47.45mm}$\\text{cos distantiae} = \\dfrac{\\cos\\text{\\textgreek{β}} \\cos (L - L')}{R}$.}",
+     "transcription": "demum $\\text{cos distantiae} = \\dfrac{\\cos\\text{β} \\cos (L - L')}{R}$.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0291-body-L028",
+     "source_line_no": null,
+     "tex": "\\Indent II. — Cum stellae eandem latitudinem habeant. — Chorda distantiae tunc est ipsum se-",
+     "transcription": "II. — Cum stellae eandem latitudinem habeant. — Chorda distantiae tunc est ipsum se-",
+     "semantic_anchor": "AB01-PDF0291-P07",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0291-body-L029",
+     "source_line_no": null,
+     "tex": "cundum latus, seu, ut antea docuit et ex constructione geometrica pag. 38 (de qua adn. \\textbf{\\textit{a}})",
+     "transcription": "cundum latus, seu, ut antea docuit et ex constructione geometrica pag. 38 (de qua adn. {bi:a})",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0291-body-L030",
+     "source_line_no": null,
+     "tex": "deducitur:",
+     "transcription": "deducitur:",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0291-body-L031",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.00mm}(\\textgreek{β})}\\rlap{\\hspace*{42.60mm}$\\text{chorda distantiae} = 2 \\sin\\left(\\dfrac{L - L'}{2}\\right) \\dfrac{\\cos\\text{\\textgreek{β}}}{R}$,}",
+     "transcription": "(β) $\\text{chorda distantiae} = 2 \\sin\\left(\\dfrac{L - L'}{2}\\right) \\dfrac{\\cos\\text{β}}{R}$,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0291-body-L032",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.00mm}vel}\\rlap{\\hspace*{50.59mm}$\\sin\\dfrac{\\text{dist.}}{2} = \\sin\\left(\\dfrac{L - L'}{2}\\right) \\dfrac{\\cos\\text{\\textgreek{β}}}{R}$.}",
+     "transcription": "vel $\\sin\\dfrac{\\text{dist.}}{2} = \\sin\\left(\\dfrac{L - L'}{2}\\right) \\dfrac{\\cos\\text{β}}{R}$.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0291-body-L033",
+     "source_line_no": null,
+     "tex": "\\Indent III. — Cum latitudines \\textgreek{β} et \\textgreek{β}′ stellarum diversae sint, sed in eadem Caeli plaga respe-",
+     "transcription": "III. — Cum latitudines β et β′ stellarum diversae sint, sed in eadem Caeli plaga respe-",
+     "semantic_anchor": "AB01-PDF0291-P08",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0291-body-L034",
+     "source_line_no": null,
+     "tex": "ctu eclipticae.",
+     "transcription": "ctu eclipticae.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    }
+   ]
+  }
+ ]
+}

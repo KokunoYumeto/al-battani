@@ -1,0 +1,74 @@
+@page 291 202
+% Notes on chapter 26, b) concluded: the diagonal GA, the chord of the distance; the solution is elegant. c) on pp. 39-40: al-Battānī's general rules for the distance of two stars; the first, second, third and fourth sides of the spherical quadrilateral; case I, one star on the ecliptic: rule (α) with the chords, and the modern rule cos dist. = cos β cos (L − L') derived from it; case II, equal latitudes: rule (β); case III, different latitudes on the same side of the ecliptic (begun).
+@nonum
+@vspace 0.08
+ubi latera GB, BA sunt chordae notorum arcuum, et GE nuper determinatum est. Ergo recta
+@vspace 0.09
+diagonalis GA innotescet, quae est chorda arcus circuli *maximi* GA, seu distantiae quaesitae.
+@vspace 0.30
+^ Solutio iure elegans appellari potest.
+@vspace 5.10
+@center {bi:c}) — *Pag. 39–40.*
+@vspace 4.4
+^ Nunc regulas generales ad supputandas *distantias* (in arcubus circulorum maximorum)
+@vspace 0.33
+*inter duas stellas* enuntiat.
+@vspace -0.22
+^ In quadrilateribus sphaericis, duorum laterum quae chordas parallelas habent appellat
+*primum latus* quod propius est eclipticae (vel eclipticam ipsam), *secundum latus* quod est
+polo propius. Reliqua duo latera aequalia, quorum chordae non sunt parallelae, vocat *tertium*
+@vspace 0.37
+et *quartum latus.*
+@vspace -0.07
+^ Quatuor casus distinguit:
+@vspace 0.20
+^ I. — Cum stellarum altera in ecliptica sit, altera latitudinem β habeat. — Solutio est
+quae iam in adn. {bi:b} exposui secundum {sp:al–Battānī} ipsum; ponit $L - L'$ (seu differentiam
+@vspace -0.32
+longitudinum) $=$ primum latus, $2\,\text{arc}\left[\sin\left(\dfrac{L - L'}{2}\right) \times \dfrac{\cos\text{β}}{R}\right] =$ secundum latus (scilicet
+@vspace -0.29
+arcum GE, de quo adn. {bi:a}), demum chordam $\text{β} =$ tertium vel quartum latus. Regulam igi-
+@vspace 0.11
+tur enuntiat:
+@vspace 0.24
+@at 0:(α) | 94^:$\text{crd distantiae} = \sqrt{\text{crd primi later.} \times \text{crd secundi later.} + \text{quadr. tertii later.}}$
+^ Ex hac formula Albateniana haud difficile est nostram $\text{cos dist.} = \cos\text{β} \cos (L - L')$ de-
+@vspace 0.99
+ducere. Quoniam $\text{chorda}\ x = 2 \sin\dfrac{x}{2}$, si sinus pro chordis ponamus et ambo aequationis (α)
+@vspace 0.70
+membra quadrata faciamus, proveniet
+@vspace -0.19
+@at 45.14>:$4 \sin^2\dfrac{\text{distantiae}}{2}$ | 46.40:$= 2 \sin\left(\dfrac{L - L'}{2}\right) 2 \sin\left(\dfrac{L - L'}{2}\right) \dfrac{\cos\text{β}}{2R} + 4 \sin^2\dfrac{\text{β}}{2} =$
+@vspace -0.35
+@at 46.40:$= 4 \sin^2\left(\dfrac{L - L'}{2}\right) \dfrac{\cos\text{β}}{2R} + 4 \sin^2\dfrac{\text{β}}{2}$.
+@vspace -0.52
+@at 0:Sed | 10.29:$\sin^2\dfrac{x}{2} = \dfrac{R^2 - R \cos x}{2}$; ergo, omnia per 4 dividendo,
+@vspace 0.47
+@at 19.43:$\dfrac{R^2 - R \cos \text{dist.}}{2} = \dfrac{R^2 - R \cos (L - L')}{2} \times \dfrac{\cos\text{β}}{2R} + \dfrac{R^2 - R \cos\text{β}}{2}$,
+@vspace 0.64
+unde, in 2 multiplicando, et per *R* dividendo,
+@vspace -0.08
+@at 30.84:$R - \text{cos dist.} = \cos\text{β} - \dfrac{\cos\text{β} \cos (L - L')}{R} + R - \cos\text{β}$,
+@vspace 0.56
+@at 0:demum | 47.45:$\text{cos distantiae} = \dfrac{\cos\text{β} \cos (L - L')}{R}$.
+@vspace 1.67
+^ II. — Cum stellae eandem latitudinem habeant. — Chorda distantiae tunc est ipsum se-
+cundum latus, seu, ut antea docuit et ex constructione geometrica pag. 38 (de qua adn. {bi:a})
+@vspace -0.25
+deducitur:
+@at 0:(β) | 42.60:$\text{chorda distantiae} = 2 \sin\left(\dfrac{L - L'}{2}\right) \dfrac{\cos\text{β}}{R}$,
+@vspace -0.33
+@at 0:vel | 50.59:$\sin\dfrac{\text{dist.}}{2} = \sin\left(\dfrac{L - L'}{2}\right) \dfrac{\cos\text{β}}{R}$.
+@vspace 0.32
+^ III. — Cum latitudines β et β′ stellarum diversae sint, sed in eadem Caeli plaga respe-
+@vspace -0.26
+ctu eclipticae.
+@obs body L4: in the head, the dash after «c)» measures 10.3 pt and the dash of «39–40» is a long dash; transcribed as a dash and a long dash.
+@obs body L12, L28, L33: the dashes after the numerals I., II. and III. and before «Solutio» and «Chorda» measure 9.7 to 10.3 pt; transcribed as dashes.
+@obs body L13: the dash of the letter-spaced «al–Battānī» is a long dash (5.5 pt).
+@obs body L13-L32: the minus signs are printed as long dashes (9.0 to 10.4 pt); they are set as minus signs.
+@obs body L14-L17: rule (α) is Ptolemy's theorem in the quadrilateral of p. 201: the square of the chord of the distance is the product of the chords of the first and second sides with the square of the chord of the third side added.
+@obs body L21-L22, L24: Nallino's addenda et emendanda (Part I, p. LXXIII) read «202, ter in formulis cos β/2R occurrit, quod emendandum cos β/R.»; the printed «2R» is kept. The correction is right: crd I = 2 sin ((L − L′)/2) times crd II = 2 sin ((L − L′)/2) cos β/R is 4 sin² ((L − L′)/2) cos β/R, and L26 follows from L24 only with cos β/R.
+@obs body L23: the bar of the fraction x/2 is printed broken in two.
+@obs body L26-L27: the steps are right with cos β/R: twice L24, divided by R, gives R − cos dist. = (R − cos (L − L′)) cos β/R + R − cos β, which is L26, and hence cos dist. = cos β cos (L − L′)/R.
+@obs body L31-L32: rule (β) is right: for equal latitudes the chord of the distance is the second side, 2 sin ((L − L′)/2) cos β/R, half of it the sine of half the distance.
