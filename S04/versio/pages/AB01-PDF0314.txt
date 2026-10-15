@@ -1,0 +1,81 @@
+@page 314 225
+% Commentary on chapter 30, c) concluded: Schiaparelli on the interpolated calculation of p. 53, which gives 2° 39' for 2° 40' and changes the 110° of the sixth column into 120°. d) on p. 54, l. 19-30: Schiaparelli on the lunar tables: the correction of the Sun carried over to the mean motion of the Moon in longitude, the anomaly unchanged, the motion in latitude 3' a century below Ptolemy's (22' 1/2 in 750 years for the 27' of the text; 43',2 in 1200 years), and why the correction in latitude is small beside that in longitude; the inclination of the lunar orbit and the mean motions in longitude, anomaly and latitude in 100 Roman years of Ptolemy, al-Battānī and Hansen in a table. Notes: the motion in latitude as the sum of the motions in longitude and of the node; Hansen's numbers from the Monthly Notices.
+@nonum
+@vspace -1.07
+$\dfrac{60'}{42'\,38''}$. Hoc calculo facto (qui 2° 39′ pro 2° 40′ praebet), interpolator noster, ignorans quid
+@vspace -0.43
+hic numerus sit, eum quaerit in VI columna tabulae et invenit sub argumento 110° quod
+nihil huius problematis interest; suo ipso errore implicatus, 110° in 120° mutat, ut redeat ad
+Ptolemaei numerum qui angulum AEM scilicet anomaliam mediam excentrici metitur. At in
+tabula numero 120° res prorsus diversa respondet. Manifeste auctor harum linearum nihil
+huius calculi intelligebat, et al–Battānī esse omnino nequit. — {sc:Schiaparelli}.]
+@vspace 5.39
+@center {bi:d}) — *Pag. 54, l. 19–30.*
+@vspace 3.23
+^ [*Tabulae lunares.* — Tabulis {sp:al–Battānī} cum {sp:Ptolemaei} comparatis, quae auctor
+narrat vera apparent. Motui Lunae in longitudine addidit correctionem iam antea (cap. XXVII,
+p. 42) motui Solis illatam, qua re elongatio media (☾ $-$ ⊙) restat ut apud Ptolemaeum. Mo-
+@vspace 0.07
+tus anomalisticus quoque immutatus.
+@vspace -0.09
+^ Motum Ptolemaicum nodi vel latitudinis (1) ait se 27′ imminutum reperisse in intervallo
+750 fere annorum quod est inter eum et Ptolemaeum. Amborum tabulis inter se comparatis,
+invenio motum Albatenianum latitudinis minorem quidem Ptolemaico, sed non exacte ea quan-
+titate; certissime colligitur al–Battānī motum latitudinis tribus minutis in saeculo praecise
+minuisse, quod, in 750 annis, 22′ {sfrac:1/2} pro 27′ efficit. — Numerus tamen 27′ codicis et Platonis
+certus est, nam confirmatur iis quae in lineis 28–30 narrantur. Si in 750 annis correctio
+@vspace -0.97
+27′ apparuerit, in 1200 annis circiter qui ab aera Dhū ’l–qarnayn elapsi sunt correctio 27′ $\dfrac{1200}{750}$
+@vspace -0.40
+$=$ 43′,2 erit. Haec sunt {sfrac:3/4} gradus quibus motus latitudinis ab epocha aerae ad « *hoc no-*
+*strum tempus* », ut al–Battānī ait, minuendus erat, ante quam epochae illius motus, notatae
+in ultima columna t. II, p. 72, supputarentur.
+@vspace -0.10
+^ Mirum quibusdam videri potest {sp:al–Battānī} correctionem motus latitudinis (vel motus
+nodi) 27′ minutorum tantum (22′ {sfrac:1/2} in tabulis) in 750 annis invenisse, cum hoc temporis spatio
+correctio motus longitudinis haud minor 4° 31′ evasisset. Res ita explicatur: Veteres astro-
+nomi motum longitudinis Lunae ad motum Solis referebant, utentes epochis eclipsium obser-
+vatarum; quanto igitur motus Solis errore afficiebatur, tanto motus Lunae in eodem inter-
+vallo temporis. Sed motus Solis (vel longitudo anni) ab observationibus pendebat aequinoctiorum,
+quorum quaeque erratum *plurium horarum,* immo *dierum,* praebere poterat. — Motus
+contra nodorum Lunae inveniebatur per Lunae situm respectu nodorum in iisdem eclipsibus;
+hic situs autem intra *pauca minuta arcus* facile determinari poterat per magnitudinem ecli-
+psium observatarum.
+^ Addo comparationem tabularum lunarium {sp:Ptolemaei}, {sp:Albatenii} et {sp:Hansen} (2):
+@vspace -0.60
+@colpad 0 0
+@cols 13.95 <|| 30.64c | 32.33c | 32.09c | 32.02c | 32.06c ||>
+@rule2 cols thin join
+@hrow 12.43:7 | | **Inclinatio orbitae\\lunaris.** | **Motus medius\\longitudinis\\in 100 annis Romanis.** | **Motus medius\\anomaliae\\in 100 annis Romanis.** | **Motus medius\\latitudinis\\in 100 annis Romanis.**
+@hrule cols 0.4
+@rowgap 3.67
+@rowsep 0.39
+@cols 13.95 <|| 30.64l>4.20 | 14.41r 3.78r 14.14l>0.75 | 12.02r 5.72r 5.68r 8.67r | 12.26r 5.73r 5.63r 8.40r | 11.38r 5.77r 5.76r 9.15r ||>
+@row **Ptolemaeus** | 5~° | 0~′ | | 307~° | 21~′ | 37~″ | | 198~° | 29~′ | 56~″ | | 82~° | 2~′ | 43~″ |
+@row **Al-Battānī** | 5 | 0 | | 307 | 57 | 46 | | 198 | 29 | 56 | | 81 | 59 | 43 |
+@row **Hansen** | 5 | 8 | {sfrac:2/3} | 307 | 53 | 40 | | 198 | 50 | 38 | | 82 | 2 | 40 |
+@rowsep 0
+@rowgap 3.29
+@rule2 cols foot thin
+@notes norule
+@fontsize 9 11.80
+@vspace -0.19
+^ (1) Motus latitudinis apud al–Battānī est summa
+motus longitudinis et motus nodi.
+^ (2) [Cuius numeri ex *Monthly Notices of the*
+@col
+@fontsize 9 11.80
+@vspace -0.06
+*Royal Astronomical Society,* t. XV, p. 7, relata sunt.
+— {sc:Schiaparelli}.]
+@sig 29
+@obs body L1: the fraction ends the equation begun at the foot of p. 224: 1° 53′ × 60′ : 42′ 38″ = 2° 39′ 2″, the 2° 39′ that the line names.
+@obs body L6, L8: heavy brackets close the addition begun on p. 224 (L6) and open that of L8, which closes on p. 226.
+@obs body L6, L8, L15, L17-L18, L20, L22: the dashes of «al–Battānī», «28–30» and «’l–qarnayn» are long dashes (5.4 to 5.5 pt).
+@obs body L6-L8, L16, L28: the dashes before «Schiaparelli», after «d)» in the head, after «lunares.», before «Numerus» and before «Motus» measure 9.8 to 10.3 pt and are transcribed as dashes; that of «19–30» in the head is a long dash (5.4 pt).
+@obs body L10: the bar between ☾ and ⊙ (9.8 pt) is a minus sign.
+@obs body L16, L23: 3′ in a century make 22′ 30″ in 750 years. In L18-L19, 27′ × 1200 : 750 = 43′,2, near 3/4 of a degree (45′).
+@obs body L24, L34-L35: al-Battānī's motion in longitude exceeds Ptolemy's by 36′ 9″ in 100 years, 4° 31′ 7″ in 750 years; his motion in latitude falls short by 3′ 0″ in 100 years (L15), and his motion in anomaly is Ptolemy's (L11).
+@obs body L34: Ptolemy's daily mean motions (Almagest IV, as corrected there: in longitude 13° 10′ 34″ 58‴ 33⁗ 30 30, in anomaly 13° 3′ 53″ 56‴ 17⁗ 51 59, in latitude 13° 13′ 45″ 39‴ 48⁗ 56 37) give in 36 525 days 307° 21′ 37″,5, 198° 29′ 56″,3 and 82° 2′ 42″,8, as printed.
+@obs body L35: the hyphen of «Al-Battānī» in the table measures 3.4 pt.
+@obs notes_left L1, notes_right L2: the dash of «al–Battānī» is a long dash of the notes (4.3 pt); that before «Schiaparelli» measures 8.2 pt.
