@@ -1,0 +1,455 @@
+{
+ "anchor": "AB01-PDF0313",
+ "master_pdf_page": 313,
+ "printed_page": 224,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "margin_locators": [],
+ "observations": [
+  "body (figure): the figure is redrawn from the print: the circle about F through B and D, the circle about E, the eccentric about F, the epicycles about A, M and P and the ten straight lines, measured on the scan; the letters stand where they print.",
+  "body L1-L16: the sixteen lines beside the figure stand 14.1 pt apart on the scan, the lines below it 13.97 pt; each line is set at its printed place.",
+  "body L1, L20, L25, L29, L38: heavy brackets open and close Schiaparelli's additions; the addition begun in L38 goes on to p. 225.",
+  "body L1, L19, L31-L33, L37-L38: the dashes of «52–54», «13–18», «434–471» and «18–20» are long dashes (5.3 to 5.5 pt), as are those of «al–Battānī» (L19, L38), «’l–Wefā’» (L31), «’l–Wéfa» and «al–Bûzdjâni» (L32), 5.4 to 5.5 pt.",
+  "body L9, L20, L21, L29, L37: the dashes before «Quid» and before «Schiaparelli» (L20, L29) and after «b)» and «c)» in the heads measure 10.0 to 10.8 pt and are transcribed as dashes, as is that between «36» and «pag.» (10.1 pt).",
+  "body L27, L29: 6° 20′ 1/2 is the mean of 5° 1′ and 7° 40′; 6° 18′ less and more 1° 16′ gives the 5° 2′ and 7° 34′ of the moderns, as printed.",
+  "body L31: 1 Muḥarram 388 of the arithmetical calendar, counted from 15 July 622, is 2 January 998 (Julian), as printed.",
+  "body L35: the bars between ☾ and ⊙ and before m (9.7 to 10.2 pt) are minus signs. 1° 19′ 30″ is half of 7° 40′ − 5° 1′ = 2° 39′.",
+  "body L35-L36: in the variables of note 1, Ptolemy's lunar model (Almagest V: eccentric of radius 49p 41′, eccentricity 10p 19′, epicycle of 5p 15′, the mean apogee of the epicycle directed from the point opposite the centre of the eccentric) has no term in sin 2 (☾ − ⊙) alone: at a fixed elongation, as m runs once round, the Moon runs uniformly round the epicycle, which is symmetric about the line from the Earth to its centre, so the equation averages to zero; the rule of the tables, whose equations change sign with the corrected anomaly, has the same symmetry. Expanded numerically, the model gives terms of 6° 10′,6 in sin m and 1° 19′,6 in sin (2 [☾ − ⊙] − m), then 19′,9 in sin 2m and 17′,3 in sin (4 [☾ − ⊙] − m); the term 18′ sin 2 (☾ − ⊙) does not occur in these variables.",
+  "body L39: 60′ × 1° 53′ : 2° 40′ = 42′ 22″ 30‴; the 42′ 38″ of p. 53, l. 17 answer to the divisor 2° 39′ (60′ × 1° 53′ : 2° 39′ = 42′ 38″ 29‴), the value that the words of p. 53, l. 19–20 return; l. 16 there has 2° 2/3."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0313-body-F01",
+     "source_line_no": null,
+     "tex": "\\input{figures/AB01-PDF0313-F01}",
+     "transcription": "[figure, redrawn: figures/AB01-PDF0313-F01.tex]",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_FIGURE"
+    },
+    {
+     "id": "AB01-PDF0313-body-L001",
+     "source_line_no": null,
+     "tex": "\\Indent [Dum quae in pag. 52–54 scripta legun-",
+     "transcription": "[Dum quae in pag. 52–54 scripta legun-",
+     "semantic_anchor": "AB01-PDF0313-P01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0313-body-L002",
+     "source_line_no": null,
+     "tex": "tur satis bene congruunt cum \\textit{Almagesti} do-",
+     "transcription": "tur satis bene congruunt cum *Almagesti* do-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0313-body-L003",
+     "source_line_no": null,
+     "tex": "ctrina, figura et demonstratio p. 51 (quales co-",
+     "transcription": "ctrina, figura et demonstratio p. 51 (quales co-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0313-body-L004",
+     "source_line_no": null,
+     "tex": "dex et Plato habent) falsae sunt et contrariae",
+     "transcription": "dex et Plato habent) falsae sunt et contrariae",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0313-body-L005",
+     "source_line_no": null,
+     "tex": "iis quae postea exponuntur et figurae p. 53. Ma-",
+     "transcription": "iis quae postea exponuntur et figurae p. 53. Ma-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0313-body-L006",
+     "source_line_no": null,
+     "tex": "nifeste scriptor archetypi unde codex Escuria-",
+     "transcription": "nifeste scriptor archetypi unde codex Escuria-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0313-body-L007",
+     "source_line_no": null,
+     "tex": "lensis et codex Platonis orti sunt, cum negle-",
+     "transcription": "lensis et codex Platonis orti sunt, cum negle-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0313-body-L008",
+     "source_line_no": null,
+     "tex": "genter figuram exarasset, stulte ei voluit de-",
+     "transcription": "genter figuram exarasset, stulte ei voluit de-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0313-body-L009",
+     "source_line_no": null,
+     "tex": "monstrationem accommodare. — Quid circulus",
+     "transcription": "monstrationem accommodare. — Quid circulus",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0313-body-L010",
+     "source_line_no": null,
+     "tex": "sit qui, centrum in F habens, per B et D tran-",
+     "transcription": "sit qui, centrum in F habens, per B et D tran-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0313-body-L011",
+     "source_line_no": null,
+     "tex": "sit, intelligi non potest; inutilis prorsus. Deest",
+     "transcription": "sit, intelligi non potest; inutilis prorsus. Deest",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0313-body-L012",
+     "source_line_no": null,
+     "tex": "autem punctum maximi momenti in theoria",
+     "transcription": "autem punctum maximi momenti in theoria",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0313-body-L013",
+     "source_line_no": null,
+     "tex": "Ptolemaei, quod in figura correcta designatur",
+     "transcription": "Ptolemaei, quod in figura correcta designatur",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0313-body-L014",
+     "source_line_no": null,
+     "tex": "littera F′; a Terra E distat quanto, ex oppo-",
+     "transcription": "littera F′; a Terra E distat quanto, ex oppo-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0313-body-L015",
+     "source_line_no": null,
+     "tex": "sita parte, centrum F excentrici, et indicat",
+     "transcription": "sita parte, centrum F excentrici, et indicat",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0313-body-L016",
+     "source_line_no": null,
+     "tex": "directionem veram apogei H epicycli, unde de-",
+     "transcription": "directionem veram apogei H epicycli, unde de-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0313-body-L017",
+     "source_line_no": null,
+     "tex": "ducitur calculus arcus GH. Pro F′ consideratur ipsum centrum excentrici, et duabus rectis",
+     "transcription": "ducitur calculus arcus GH. Pro F′ consideratur ipsum centrum excentrici, et duabus rectis",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0313-body-L018",
+     "source_line_no": null,
+     "tex": "FM, EM definitur arcus quidam GH, qui falso ponitur esse arcus GH figurae pag. 53. Similis",
+     "transcription": "FM, EM definitur arcus quidam GH, qui falso ponitur esse arcus GH figurae pag. 53. Similis",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0313-body-L019",
+     "source_line_no": null,
+     "tex": "error in demonstratione. Parvis correctionibus p. 51, l. 13–18 factis, textus \\Name{al–Battānī} bene",
+     "transcription": "error in demonstratione. Parvis correctionibus p. 51, l. 13–18 factis, textus {sp:al–Battānī} bene",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0313-body-L020",
+     "source_line_no": null,
+     "tex": "restituitur. — \\textsc{Schiaparelli}.]",
+     "transcription": "restituitur. — {sc:Schiaparelli}.]",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0313-body-L021",
+     "source_line_no": null,
+     "tex": "\\CenterLine{\\textbf{\\textit{b}}) — \\textit{Pag. 51, l. 36—pag. 52, l. 10.}}",
+     "transcription": "{bi:b}) — *Pag. 51, l. 36—pag. 52, l. 10.*",
+     "semantic_anchor": "AB01-PDF0313-H21",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0313-body-L022",
+     "source_line_no": null,
+     "tex": "\\Indent Numeri omnes ex \\textit{Almagesto} sumpti, ut suo loco notavi. Pro 5° 1′ inaequalitatis simplicis",
+     "transcription": "Numeri omnes ex *Almagesto* sumpti, ut suo loco notavi. Pro 5° 1′ inaequalitatis simplicis",
+     "semantic_anchor": "AB01-PDF0313-P02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0313-body-L023",
+     "source_line_no": null,
+     "tex": "auctores \\textit{Tabulae Probatae} (cfr. \\Name{Ibn Yūnus} cap. VI, \\Name{Caussin} p. 232) et \\Name{Ḥabash} f. 35,r.",
+     "transcription": "auctores *Tabulae Probatae* (cfr. {sp:Ibn Yūnus} cap. VI, {sp:Caussin} p. 232) et {sp:Ḥabash} f. 35,r.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0313-body-L024",
+     "source_line_no": null,
+     "tex": "et seqq., 5° tantum receperunt.",
+     "transcription": "et seqq., 5° tantum receperunt.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0313-body-L025",
+     "source_line_no": null,
+     "tex": "\\Indent [Inaequalitas simplex in maxima sua quantitate (5° 1′) est \\textit{minimus} valor aequationis",
+     "transcription": "[Inaequalitas simplex in maxima sua quantitate (5° 1′) est *minimus* valor aequationis",
+     "semantic_anchor": "AB01-PDF0313-P03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0313-body-L026",
+     "source_line_no": null,
+     "tex": "maximae in epicyclo; maximus, iuxta Ptolemaeum, 7° 40′. Medius 6° 20′ $\\qfrac{1}{2}$ provenit; talis",
+     "transcription": "maximae in epicyclo; maximus, iuxta Ptolemaeum, 7° 40′. Medius 6° 20′ {sfrac:1/2} provenit; talis",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0313-body-L027",
+     "source_line_no": null,
+     "tex": "esset maxima aequatio centri Lunae, nisi secunda inaequalitas, quam nos \\textit{evectionem} voca-",
+     "transcription": "esset maxima aequatio centri Lunae, nisi secunda inaequalitas, quam nos *evectionem* voca-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0313-body-L028",
+     "source_line_no": null,
+     "tex": "mus, exstaret. Hodie valorem medium 6° 18′ ponunt; secundam inaequalitatem $\\pm$ 1° 16′; ergo",
+     "transcription": "mus, exstaret. Hodie valorem medium 6° 18′ ponunt; secundam inaequalitatem $\\pm$ 1° 16′; ergo",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0313-body-L029",
+     "source_line_no": null,
+     "tex": "iuxta Ptolemaeum 5° 1′, 6° 20′ $\\qfrac{1}{2}$, 7° 40′; iuxta recentiores 5° 2′, 6° 18′, 7° 34′. — \\textsc{Schiaparelli}.]",
+     "transcription": "iuxta Ptolemaeum 5° 1′, 6° 20′ {sfrac:1/2}, 7° 40′; iuxta recentiores 5° 2′, 6° 18′, 7° 34′. — {sc:Schiaparelli}.]",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0313-body-L030",
+     "source_line_no": null,
+     "tex": "\\Indent Tertia inaequalitas, quam \\textit{variationem} vocamus, ignota fuit ante \\Name{Tychonem Brahe};",
+     "transcription": "Tertia inaequalitas, quam *variationem* vocamus, ignota fuit ante {sp:Tychonem Brahe};",
+     "semantic_anchor": "AB01-PDF0313-P04",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0313-body-L031",
+     "source_line_no": null,
+     "tex": "perperam eam quidam dixerunt \\Name{Abū ’l–Wefā’} (m. 388 heg., inc. 2 Ian. 998 Chr.) iam inve-",
+     "transcription": "perperam eam quidam dixerunt {sp:Abū ’l–Wefā’} (m. 388 heg., inc. 2 Ian. 998 Chr.) iam inve-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0313-body-L032",
+     "source_line_no": null,
+     "tex": "nisse, ut satis demonstravit \\Name{Carra de Vaux}, \\textit{L’Almageste d’Aboû ’l–Wéfa al–Bûzdjâni,}",
+     "transcription": "nisse, ut satis demonstravit {sp:Carra de Vaux}, *L’Almageste d’Aboû ’l–Wéfa al–Bûzdjâni,*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0313-body-L033",
+     "source_line_no": null,
+     "tex": "p. 434–471 (in Journal Asiatique, ser. VIII, t. 19, 1892). Sed in tabulis Ptolemaei (et Arabum),",
+     "transcription": "p. 434–471 (in Journal Asiatique, ser. VIII, t. 19, 1892). Sed in tabulis Ptolemaei (et Arabum),",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0313-body-L034",
+     "source_line_no": null,
+     "tex": "ut primus \\Name{Tannery}, \\textit{Rech. sur l’astr. ancienne,} p. 214 animadvertit, praeter terminum",
+     "transcription": "ut primus {sp:Tannery}, *Rech. sur l’astr. ancienne,* p. 214 animadvertit, praeter terminum",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0313-body-L035",
+     "source_line_no": null,
+     "tex": "1° 19′ 30″ sin (2 [\\MoonSym{} $-$ \\SunSym{}] $-$ \\textit{m}), id est praeter evectionem (1), terminus quoque 18′ sin 2 (\\MoonSym{} $-$ \\SunSym{})",
+     "transcription": "1° 19′ 30″ sin (2 [☾ $-$ ⊙] $-$ *m*), id est praeter evectionem (1), terminus quoque 18′ sin 2 (☾ $-$ ⊙)",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0313-body-L036",
+     "source_line_no": null,
+     "tex": "reperitur qui est dimidia fere pars variationis. Cfr. etiam \\Name{Carra de Vaux}, p. 470.",
+     "transcription": "reperitur qui est dimidia fere pars variationis. Cfr. etiam {sp:Carra de Vaux}, p. 470.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0313-body-L037",
+     "source_line_no": null,
+     "tex": "\\CenterLine{\\textbf{\\textit{c}}) — \\textit{Pag. 53, l. 18–20.}}",
+     "transcription": "{bi:c}) — *Pag. 53, l. 18–20.*",
+     "semantic_anchor": "AB01-PDF0313-H37",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0313-body-L038",
+     "source_line_no": null,
+     "tex": "\\Indent [Verba Italicis litteris impressa, interpolata mihi videntur. Instituerat \\Name{al–Battānī} antea",
+     "transcription": "[Verba Italicis litteris impressa, interpolata mihi videntur. Instituerat {sp:al–Battānī} antea",
+     "semantic_anchor": "AB01-PDF0313-P05",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0313-body-L039",
+     "source_line_no": null,
+     "tex": "calculum 42′ 38″ $= 60'\\,\\dfrac{1°\\,53'}{2°\\,40'}$; nunc, quasi res nova et miranda esset, docemur 2° 40′ $=$ 1° 53′",
+     "transcription": "calculum 42′ 38″ $= 60'\\,\\dfrac{1°\\,53'}{2°\\,40'}$; nunc, quasi res nova et miranda esset, docemur 2° 40′ $=$ 1° 53′",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    }
+   ]
+  },
+  {
+   "role": "notes",
+   "lines": [
+    {
+     "id": "AB01-PDF0313-notes-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (1) Signo \\MoonSym{} indico mediam Lunae longitudinem, \\SunSym{} mediam longitudinem Solis, \\textit{m} mediam anoma-",
+     "transcription": "(1) Signo ☾ indico mediam Lunae longitudinem, ⊙ mediam longitudinem Solis, *m* mediam anoma-",
+     "semantic_anchor": "AB01-PDF0313-N01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0313-notes-L002",
+     "source_line_no": null,
+     "tex": "liam Lunae.",
+     "transcription": "liam Lunae.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  }
+ ]
+}

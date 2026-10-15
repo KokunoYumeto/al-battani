@@ -1,0 +1,404 @@
+{
+ "pdf": 313,
+ "printed_page": 224,
+ "comment": [
+  "Nallino, Part I p. 224: the figure of p. 51 as the codex and Plato draw it, redrawn from the print: the circles",
+  "about F (radius 83 and the eccentric of radius 65.5, which carries A, M and P) and about E (radius 83); the",
+  "epicycles about A, M and P; the straight lines from the top of the upper epicycle to C, from above H to E, AH,",
+  "HME, GMRF, NKEL, MK, from below H to E, HP and FL, meeting where the measured strokes meet; the bold italic",
+  "letters. Measured on the scan (_intake/latin/tools/fig224)."
+ ],
+ "origin": [
+  114.5,
+  108.8
+ ],
+ "scale": 0.98783,
+ "size": [
+  203.0,
+  213.86
+ ],
+ "label_pt": 11,
+ "circles": [
+  {
+   "name": "the circle about F through B and D",
+   "cx": 224.58,
+   "cy": 212.91,
+   "r": 83.11,
+   "w": 1.44
+  },
+  {
+   "name": "the circle about E",
+   "cx": 224.52,
+   "cy": 230.06,
+   "r": 83.11,
+   "w": 1.41
+  },
+  {
+   "name": "the eccentric about F",
+   "cx": 224.56,
+   "cy": 213.16,
+   "r": 65.51,
+   "w": 1.38
+  },
+  {
+   "name": "the epicycle about A",
+   "cx": 224.68,
+   "cy": 146.68,
+   "r": 32.01,
+   "w": 1.35
+  },
+  {
+   "name": "the epicycle about M",
+   "cx": 159.36,
+   "cy": 208.95,
+   "r": 31.83,
+   "w": 1.46
+  },
+  {
+   "name": "the epicycle about P",
+   "cx": 224.95,
+   "cy": 278.61,
+   "r": 31.85,
+   "w": 1.33
+  }
+ ],
+ "segments": [
+  {
+   "name": "the vertical line from the top of the upper epicycle to C",
+   "x0": 224.24,
+   "y0": 114.68,
+   "x1": 224.88,
+   "y1": 313.17,
+   "w": 1.36
+  },
+  {
+   "name": "from above H to E",
+   "x0": 179.96,
+   "y0": 124.69,
+   "x1": 224.67,
+   "y1": 230.18,
+   "w": 1.44
+  },
+  {
+   "name": "AH",
+   "x0": 224.51,
+   "y0": 147.04,
+   "x1": 194.56,
+   "y1": 159.39,
+   "w": 1.3
+  },
+  {
+   "name": "HME",
+   "x0": 129.3,
+   "y0": 198.48,
+   "x1": 224.67,
+   "y1": 230.18,
+   "w": 1.48
+  },
+  {
+   "name": "GMRF",
+   "x0": 127.65,
+   "y0": 206.15,
+   "x1": 224.56,
+   "y1": 213.42,
+   "w": 1.47
+  },
+  {
+   "name": "NKEL",
+   "x0": 120.07,
+   "y0": 248.14,
+   "x1": 231.53,
+   "y1": 229.38,
+   "w": 1.52
+  },
+  {
+   "name": "MK",
+   "x0": 159.16,
+   "y0": 208.61,
+   "x1": 165.43,
+   "y1": 240.51,
+   "w": 1.13
+  },
+  {
+   "name": "from below H to E",
+   "x0": 152.21,
+   "y0": 314.45,
+   "x1": 224.67,
+   "y1": 230.18,
+   "w": 1.43
+  },
+  {
+   "name": "HP",
+   "x0": 200.55,
+   "y0": 257.15,
+   "x1": 224.86,
+   "y1": 278.67,
+   "w": 1.31
+  },
+  {
+   "name": "FL",
+   "x0": 224.56,
+   "y0": 213.42,
+   "x1": 231.53,
+   "y1": 229.38,
+   "w": 1.32
+  }
+ ],
+ "arcs": [],
+ "labels": [
+  {
+   "t": "\\resizebox{7.58pt}{7.68pt}{A}",
+   "cx": 229.04,
+   "cy": 141.18,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{6.91pt}{6.98pt}{H}",
+   "cx": 190.02,
+   "cy": 164.22,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{7.04pt}{6.77pt}{G}",
+   "cx": 229.5,
+   "cy": 182.9,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{8.03pt}{7.34pt}{H}",
+   "cx": 123.45,
+   "cy": 194.54,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{9.99pt}{6.98pt}{M}",
+   "cx": 165.5,
+   "cy": 201.96,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{6.42pt}{6.93pt}{R}",
+   "cx": 195.2,
+   "cy": 203.62,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{6.16pt}{6.66pt}{G}",
+   "cx": 121.49,
+   "cy": 211.78,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{6.73pt}{7.69pt}{F}",
+   "cx": 228.69,
+   "cy": 209.7,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{5.82pt}{7.33pt}{B}",
+   "cx": 146.04,
+   "cy": 220.46,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{6.72pt}{6.88pt}{D}",
+   "cx": 312.91,
+   "cy": 219.5,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{6.22pt}{6.63pt}{L}",
+   "cx": 236.27,
+   "cy": 227.92,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{6.11pt}{6.40pt}{E}",
+   "cx": 229.39,
+   "cy": 234.76,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{6.46pt}{7.68pt}{K}",
+   "cx": 161.65,
+   "cy": 247.38,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{6.16pt}{6.19pt}{G}",
+   "cx": 228.99,
+   "cy": 251.6,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{7.49pt}{7.33pt}{N}",
+   "cx": 126.97,
+   "cy": 252.54,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{8.14pt}{6.75pt}{H}",
+   "cx": 194.4,
+   "cy": 253.88,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{6.37pt}{6.98pt}{P}",
+   "cx": 228.8,
+   "cy": 283.54,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{6.43pt}{6.60pt}{S}",
+   "cx": 228.42,
+   "cy": 306.03,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{6.12pt}{5.72pt}{C}",
+   "cx": 225.02,
+   "cy": 319.16,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  }
+ ],
+ "boxes": {
+  "A@225,137": [
+   7.5,
+   7.8
+  ],
+  "H@185,160": [
+   7.44,
+   7.08
+  ],
+  "G@226,178": [
+   6.72,
+   6.96
+  ],
+  "H@119,190": [
+   8.64,
+   7.44
+  ],
+  "M@160,197": [
+   10.5,
+   7.2
+  ],
+  "R@192,199": [
+   6.42,
+   7.08
+  ],
+  "G@118,207": [
+   5.88,
+   6.84
+  ],
+  "F@225,205": [
+   7.8,
+   7.8
+  ],
+  "B@143,216": [
+   5.82,
+   7.44
+  ],
+  "D@309,215": [
+   6.84,
+   6.96
+  ],
+  "L@233,224": [
+   5.76,
+   6.72
+  ],
+  "E@226,230": [
+   6.48,
+   6.48
+  ],
+  "K@158,243": [
+   6.96,
+   7.8
+  ],
+  "G@226,247": [
+   5.88,
+   6.36
+  ],
+  "N@123,248": [
+   8.16,
+   7.56
+  ],
+  "H@190,250": [
+   8.76,
+   6.84
+  ],
+  "P@225,279": [
+   7.08,
+   7.08
+  ],
+  "S@225,302": [
+   6.12,
+   6.78
+  ],
+  "C@222,315": [
+   5.76,
+   5.88
+  ]
+ },
+ "points": {
+  "V_top": [
+   224.24,
+   114.68
+  ],
+  "C": [
+   224.88,
+   313.17
+  ],
+  "E": [
+   224.67,
+   230.18
+  ],
+  "F": [
+   224.56,
+   213.19
+  ],
+  "F_FL": [
+   224.56,
+   213.66
+  ],
+  "L": [
+   231.53,
+   229.38
+  ],
+  "K": [
+   165.43,
+   240.51
+  ],
+  "M": [
+   159.16,
+   208.61
+  ],
+  "A": [
+   224.51,
+   147.04
+  ],
+  "H_top": [
+   194.56,
+   159.39
+  ],
+  "H_left": [
+   129.3,
+   198.48
+  ],
+  "G_left": [
+   127.65,
+   206.15
+  ],
+  "R": [
+   191.14,
+   210.76
+  ],
+  "H_bottom": [
+   200.55,
+   257.15
+  ],
+  "P": [
+   224.86,
+   278.67
+  ]
+ }
+}
