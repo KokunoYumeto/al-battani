@@ -1,0 +1,552 @@
+{
+ "anchor": "AB01-PDF0271",
+ "master_pdf_page": 271,
+ "printed_page": 182,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "margin_locators": [],
+ "observations": [
+  "body L1-L5: the end of the quotation from Delambre begun on p. 181.",
+  "body L4: «trigonometriques» is printed without the accent of trigonométriques; kept as printed.",
+  "body L32: «géometriquement» is printed without the second accent of géométriquement; kept as printed.",
+  "body L12-L13: the factor 0ᵖ 26′ 11″ 34‴ is the tangent of 23° 35′ to the radius 1 (computed 0ᵖ 26′ 11″ 33‴).",
+  "body L13: the dash of «az-ẓill» measures 4.3 pt, in the italic; transcribed as a hyphen.",
+  "body L14: the formula is checked: with cosec = R²/sin, cosec/R = R/sin.",
+  "notes_left L3: the opening parenthesis of «(S. 39)» is printed broken.",
+  "notes_left L9: «t X» is printed without the full stop after t; kept as printed.",
+  "notes_right L1: in the quotation from Curtze the name is printed «Abû ’l-Wafâ» with circumflexes, the accent of the u printed like a grave; its dash measures 3.7 pt and is transcribed as a hyphen.",
+  "notes_right L4: the parentheses of the note number (3) are printed broken."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0271-body-L001",
+     "source_line_no": null,
+     "tex": "« gentes; voilà des tables qui donnent les tangentes de tous les arcs, et par lesquelles tout",
+     "transcription": "« gentes; voilà des tables qui donnent les tangentes de tous les arcs, et par lesquelles tout",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0271-body-L002",
+     "source_line_no": null,
+     "tex": "« arc peut être connu d’après sa tangente. Le malheur est ce choix du rayon de douze par-",
+     "transcription": "« arc peut être connu d’après sa tangente. Le malheur est ce choix du rayon de douze par-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0271-body-L003",
+     "source_line_no": null,
+     "tex": "« ties, qui étaient encore une imitation d’une pratique grecque (1). Albategni ne sentit pas",
+     "transcription": "« ties, qui étaient encore une imitation d’une pratique grecque (1). Albategni ne sentit pas",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0271-body-L004",
+     "source_line_no": null,
+     "tex": "« l’utilité de ces tangentes pour les calculs trigonometriques, et la preuve, c’est qu’il n’a pas",
+     "transcription": "« l’utilité de ces tangentes pour les calculs trigonometriques, et la preuve, c’est qu’il n’a pas",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0271-body-L005",
+     "source_line_no": null,
+     "tex": "« changé le rayon ».",
+     "transcription": "« changé le rayon ».",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0271-body-L006",
+     "source_line_no": null,
+     "tex": "\\Indent Nostrates qui historiam mathesis scripserunt uno ore fatentur primum \\Name{Abū ’l–Wefā’}",
+     "transcription": "Nostrates qui historiam mathesis scripserunt uno ore fatentur primum {sp:Abū ’l–Wefā’}",
+     "semantic_anchor": "AB01-PDF0271-P01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0271-body-L007",
+     "source_line_no": null,
+     "tex": "(mense raǵab 388 = Iulio 998 Chr. mortuum) umbras tanquam functiones trigonometricas",
+     "transcription": "(mense raǵab 388 = Iulio 998 Chr. mortuum) umbras tanquam functiones trigonometricas",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0271-body-L008",
+     "source_line_no": null,
+     "tex": "adhibuisse atque tabulas cotangentium pro radio 1 et pro radio 60\\textsuperscript{\\textit{p}} confecisse. Haec tamen",
+     "transcription": "adhibuisse atque tabulas cotangentium pro radio 1 et pro radio 60{sup:*p*} confecisse. Haec tamen",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0271-body-L009",
+     "source_line_no": null,
+     "tex": "universalis opinio haud recta mihi videtur, cum iam in opere astronomico \\Name{Ḥabash}, al–Battānī",
+     "transcription": "universalis opinio haud recta mihi videtur, cum iam in opere astronomico {sp:Ḥabash}, al–Battānī",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0271-body-L010",
+     "source_line_no": null,
+     "tex": "coaevi, umbrae ad radium 60\\textsuperscript{\\textit{p}}, ut sinus, referantur (fol. 97,r.–v.); immo, f. 85,r.–87,v., tabulae",
+     "transcription": "coaevi, umbrae ad radium 60{sup:*p*}, ut sinus, referantur (fol. 97,r.–v.); immo, f. 85,r.–87,v., tabulae",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0271-body-L011",
+     "source_line_no": null,
+     "tex": "praebentur, quibus, radio 60\\textsuperscript{\\textit{p}} sumpto, ad singulos quadrantis gradus continentur tangentes",
+     "transcription": "praebentur, quibus, radio 60{sup:*p*} sumpto, ad singulos quadrantis gradus continentur tangentes",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0271-body-L012",
+     "source_line_no": null,
+     "tex": "(\\textit{ẓill ma‘kūs} umbra versa), cotangentes (\\textit{ẓill mustawī} umbra recta) (2), tangentes in 0\\textsuperscript{\\textit{p}} 26′ 11″",
+     "transcription": "(*ẓill ma‘kūs* umbra versa), cotangentes (*ẓill mustawī* umbra recta) (2), tangentes in 0{sup:*p*} 26′ 11″",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0271-body-L013",
+     "source_line_no": null,
+     "tex": "34‴ multiplicatae, demum cosecantes (\\textit{quṭr az-ẓill} hypotenusa umbrae) per semidiametrum",
+     "transcription": "34‴ multiplicatae, demum cosecantes (*quṭr az-ẓill* hypotenusa umbrae) per semidiametrum",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0271-body-L014",
+     "source_line_no": null,
+     "tex": "divisae, scilicet $\\dfrac{\\text{cosec}}{R} = \\dfrac{R}{\\text{sin}}$. Atque his functionibus trigonometricis, usque ad secundas sup-",
+     "transcription": "divisae, scilicet $\\dfrac{\\text{cosec}}{R} = \\dfrac{R}{\\text{sin}}$. Atque his functionibus trigonometricis, usque ad secundas sup-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0271-body-L015",
+     "source_line_no": null,
+     "tex": "putatis, passim utitur in formulis suis.",
+     "transcription": "putatis, passim utitur in formulis suis.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0271-body-L016",
+     "source_line_no": null,
+     "tex": "\\Indent Quod al–Battānī \\textit{ẓill mabsūṭ} « umbram extensam seu expansam » appellat, alii Arabes",
+     "transcription": "Quod al–Battānī *ẓill mabsūṭ* « umbram extensam seu expansam » appellat, alii Arabes",
+     "semantic_anchor": "AB01-PDF0271-P02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0271-body-L017",
+     "source_line_no": null,
+     "tex": "\\textit{ẓill thānī} « umbram secundam » aut \\textit{ẓill mustawī} « umbram rectam » dicunt. Tangentem au-",
+     "transcription": "*ẓill thānī* « umbram secundam » aut *ẓill mustawī* « umbram rectam » dicunt. Tangentem au-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0271-body-L018",
+     "source_line_no": null,
+     "tex": "tem, quam al–Battānī \\textit{ẓill qā’im} « umbram stantem » vel \\textit{ẓill muntaṣab} « umbram erectam »",
+     "transcription": "tem, quam al–Battānī *ẓill qā’im* « umbram stantem » vel *ẓill muntaṣab* « umbram erectam »",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0271-body-L019",
+     "source_line_no": null,
+     "tex": "vocat, alii plerumque \\textit{ẓill awwal} « umbram primam » vel \\textit{ẓill ma‘kūs} « umbram versam »",
+     "transcription": "vocat, alii plerumque *ẓill awwal* « umbram primam » vel *ẓill ma‘kūs* « umbram versam »",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0271-body-L020",
+     "source_line_no": null,
+     "tex": "appellant.",
+     "transcription": "appellant.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0271-body-L021",
+     "source_line_no": null,
+     "tex": "\\Indent Apud Arabes triplex gnomonis divisio invenitur. Prima est ea quam Indi semper adhi-",
+     "transcription": "Apud Arabes triplex gnomonis divisio invenitur. Prima est ea quam Indi semper adhi-",
+     "semantic_anchor": "AB01-PDF0271-P03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0271-body-L022",
+     "source_line_no": null,
+     "tex": "bent et quam al–Battānī recepit utpote a calculatoribus omnium usitatissimam; 12 partes com-",
+     "transcription": "bent et quam al–Battānī recepit utpote a calculatoribus omnium usitatissimam; 12 partes com-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0271-body-L023",
+     "source_line_no": null,
+     "tex": "plectitur, digitos (\\textit{aṣābi‘}) appellatas, et in usum gnomonicae tantum adhiberi potest. Alia, in",
+     "transcription": "plectitur, digitos (*aṣābi‘*) appellatas, et in usum gnomonicae tantum adhiberi potest. Alia, in",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0271-body-L024",
+     "source_line_no": null,
+     "tex": "usum gnomonicae quoque constituta sed prima rarior (3), 7 vel 6 $\\qfrac{2}{3}$ vel 6 $\\qfrac{1}{2}$ partes numerat,",
+     "transcription": "usum gnomonicae quoque constituta sed prima rarior (3), 7 vel 6 {sfrac:2/3} vel 6 {sfrac:1/2} partes numerat,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0271-body-L025",
+     "source_line_no": null,
+     "tex": "pedes (\\textit{aqdām}) appellatas. Tertia demum, quae gnomonicae et trigonometriae simul inservit,",
+     "transcription": "pedes (*aqdām*) appellatas. Tertia demum, quae gnomonicae et trigonometriae simul inservit,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0271-body-L026",
+     "source_line_no": null,
+     "tex": "divisionem in partes sexagesimas (\\textit{aǵzā’}) praebet. — \\Name{Oloug Beg}, p. 61 textus, 85 vers., ait",
+     "transcription": "divisionem in partes sexagesimas (*aǵzā’*) praebet. — {sp:Oloug Beg}, p. 61 textus, 85 vers., ait",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0271-body-L027",
+     "source_line_no": null,
+     "tex": "umbram primam (tangentem) semper ad gnomonem 60 partium a calculatoribus referri, um-",
+     "transcription": "umbram primam (tangentem) semper ad gnomonem 60 partium a calculatoribus referri, um-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0271-body-L028",
+     "source_line_no": null,
+     "tex": "bram secundam (cotangentem) indifferenter ad gnomonem 60 vel 12 vel 7 partium.",
+     "transcription": "bram secundam (cotangentem) indifferenter ad gnomonem 60 vel 12 vel 7 partium.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0271-body-L029",
+     "source_line_no": null,
+     "tex": "\\Indent Gnomon indicat umbram limbi superioris disci solaris, non centri Solis, qua re altitudo",
+     "transcription": "Gnomon indicat umbram limbi superioris disci solaris, non centri Solis, qua re altitudo",
+     "semantic_anchor": "AB01-PDF0271-P04",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0271-body-L030",
+     "source_line_no": null,
+     "tex": "gnomone comperta altitudinem veram 16 fere minutis excedit. Hoc nec Graeci nec al–Battānī",
+     "transcription": "gnomone comperta altitudinem veram 16 fere minutis excedit. Hoc nec Graeci nec al–Battānī",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0271-body-L031",
+     "source_line_no": null,
+     "tex": "animadvertisse videntur; serius tantum \\Name{Ibn Yūnus}, cap. XI, ut \\Name{Delambre}, p. 102, refert,",
+     "transcription": "animadvertisse videntur; serius tantum {sp:Ibn Yūnus}, cap. XI, ut {sp:Delambre}, p. 102, refert,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0271-body-L032",
+     "source_line_no": null,
+     "tex": "« dans un discours sur l’ombre, il démontre géometriquement que l’ombre du gnomon est",
+     "transcription": "« dans un discours sur l’ombre, il démontre géometriquement que l’ombre du gnomon est",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0271-body-L033",
+     "source_line_no": null,
+     "tex": "« celle du bord supérieur; il ne dit rien de la pénombre ».",
+     "transcription": "« celle du bord supérieur; il ne dit rien de la pénombre ».",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    }
+   ]
+  },
+  {
+   "role": "notes_left",
+   "lines": [
+    {
+     "id": "AB01-PDF0271-notes_left-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (1) Rectius \\Name{von Braunmühl}, I, p. 51: « Un-",
+     "transcription": "(1) Rectius {sp:von Braunmühl}, I, p. 51: « Un-",
+     "semantic_anchor": "AB01-PDF0271-N01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0271-notes_left-L002",
+     "source_line_no": null,
+     "tex": "« zweifelhaft folgt er hierin indischen Vorbildern,",
+     "transcription": "« zweifelhaft folgt er hierin indischen Vorbildern,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0271-notes_left-L003",
+     "source_line_no": null,
+     "tex": "« denn, wie wir schon sahen (S. 39), teilten auch",
+     "transcription": "« denn, wie wir schon sahen (S. 39), teilten auch",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0271-notes_left-L004",
+     "source_line_no": null,
+     "tex": "« die Inder das Gnomon in 12 Finger, während Pto-",
+     "transcription": "« die Inder das Gnomon in 12 Finger, während Pto-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0271-notes_left-L005",
+     "source_line_no": null,
+     "tex": "« lemaeus die Einteilung in 60\\textsuperscript{\\textit{p}} hat [\\textit{Almag.} II, 5,",
+     "transcription": "« lemaeus die Einteilung in 60{sup:*p*} hat [*Almag.* II, 5,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0271-notes_left-L006",
+     "source_line_no": null,
+     "tex": "« ed. Halma, t. I, p. 75] ».",
+     "transcription": "« ed. Halma, t. I, p. 75] ».",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0271-notes_left-L007",
+     "source_line_no": null,
+     "tex": "\\Indent (2) Errat M. \\Name{Curtze} (in \\textit{Bibliotheca Mathe-}",
+     "transcription": "(2) Errat M. {sp:Curtze} (in *Bibliotheca Mathe-*",
+     "semantic_anchor": "AB01-PDF0271-N02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0271-notes_left-L008",
+     "source_line_no": null,
+     "tex": "\\textit{matica herausgegeben von} G. \\Name{Eneström}, Neue",
+     "transcription": "*matica herausgegeben von* G. {sp:Eneström}, Neue",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0271-notes_left-L009",
+     "source_line_no": null,
+     "tex": "Folge, t X, 1896, p. 71) cum de vocibus umbra recta",
+     "transcription": "Folge, t X, 1896, p. 71) cum de vocibus umbra recta",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  },
+  {
+   "role": "notes_right",
+   "lines": [
+    {
+     "id": "AB01-PDF0271-notes_right-L001",
+     "source_line_no": null,
+     "tex": "et umbra versa ait: « vor Abû ’l-Wafâ, der 998",
+     "transcription": "et umbra versa ait: « vor Abû ’l-Wafâ, der 998",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0271-notes_right-L002",
+     "source_line_no": null,
+     "tex": "« starb, waren sie überhaupt als \\textit{termini technici}",
+     "transcription": "« starb, waren sie überhaupt als *termini technici*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0271-notes_right-L003",
+     "source_line_no": null,
+     "tex": "« nicht bekannt ».",
+     "transcription": "« nicht bekannt ».",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0271-notes_right-L004",
+     "source_line_no": null,
+     "tex": "\\Indent (3) Et tardior, nam, quod Arabicis scriptoribus",
+     "transcription": "(3) Et tardior, nam, quod Arabicis scriptoribus",
+     "semantic_anchor": "AB01-PDF0271-N03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0271-notes_right-L005",
+     "source_line_no": null,
+     "tex": "editis attinet, ante XIII saec. Chr. haud reperitur;",
+     "transcription": "editis attinet, ante XIII saec. Chr. haud reperitur;",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0271-notes_right-L006",
+     "source_line_no": null,
+     "tex": "cfr. \\Name{Aboul Hhassan}, cap. XV, p. 152 (ubi 6 $\\qfrac{2}{3}$);",
+     "transcription": "cfr. {sp:Aboul Hhassan}, cap. XV, p. 152 (ubi 6 {sfrac:2/3});",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0271-notes_right-L007",
+     "source_line_no": null,
+     "tex": "\\Name{Barhebraeus}, p. 178 textus (ubi 7); \\Name{al-Ǵagh-}",
+     "transcription": "{sp:Barhebraeus}, p. 178 textus (ubi 7); {sp:al-Ǵagh-}",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0271-notes_right-L008",
+     "source_line_no": null,
+     "tex": "\\Name{mīnī}, p. 270 (ubi 7 et 6 $\\qfrac{1}{2}$); \\Name{Oloug Beg}, p. 61",
+     "transcription": "{sp:mīnī}, p. 270 (ubi 7 et 6 {sfrac:1/2}); {sp:Oloug Beg}, p. 61",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0271-notes_right-L009",
+     "source_line_no": null,
+     "tex": "textus, 85 vers. (ubi 7).",
+     "transcription": "textus, 85 vers. (ubi 7).",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  }
+ ]
+}
