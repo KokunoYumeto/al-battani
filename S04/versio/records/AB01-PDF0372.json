@@ -1,0 +1,513 @@
+{
+ "anchor": "AB01-PDF0372",
+ "master_pdf_page": 372,
+ "printed_page": 283,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "margin_locators": [],
+ "observations": [
+  "body L1-L2, L13: the dashes after «b)», «I.» and «II.» measure 10.1, 10.3 and 10.4 pt; the dash after «cursum ».» (L2) measures 9.5 pt and follows the full stop without a space.",
+  "body L2: the full stop after «l» of «l: 11» prints as a colon, two dots one above the other; kept as printed.",
+  "body L3-L9: «Platone Atheniensi», «Ptolemaeo», «Schiaparelli», «Hultzsch», «Pauly» and «Wissowa» are letter-spaced; the dashes of «Pauly–» (L8) and «Real–Encyclopädie» (L9) measure 5.3 pt each. The Greek is set as printed: ἰσοδρόμοι ἡλίῳ and περὶ αὐτὸν ἀεὶ φερόμενοι.",
+  "body L10: «al–Qazwīnī» is letter-spaced, its long dash joined to the Q.",
+  "body L12: the Arabic «يدور حول الشمس», ‘revolves about the Sun’, follows «revolvi» within the quotation.",
+  "body L13-L16: «Ibn Yūnus» and «Caussin» are letter-spaced in L13, «Ibn Yūnus» not in L16; «al–Battānī» (L14) is letter-spaced, with a long dash (5.3 pt), and so is the dash of «115–16» (L15, 5.2 pt). «a quae» (L16), for «ab iis quae», as printed.",
+  "body L18-L20: the head of the chapter is set in the larger type, as printed. The dash after «a)» measures 9.7 pt and the hyphen of «28-29» 3.5 pt. In L20 «planetarum» is upright, as printed.",
+  "body L21-L32: «al–Battānī» (L21) and «Ptolemaeus» (L25) are letter-spaced; «al–Battānī» (L32) is not. The rule of the translation, p. 117, l. 31-38, compares the times of rising or setting, at the latitude of the place, of the degrees of the ecliptic that rise or set with the planet and with the Sun: arcs of the equator, as L21 says, but oblique ascensions, where L22 names right ascension. At the beginning of Cancer the arcs of right ascension exceed the corresponding arcs of the ecliptic in the ratio 1 : cos ε, 1.09 with al-Battānī's obliquity 23° 35′: Saturn's 14° of the ecliptic, taken equally on both sides of the solstice, are 15° 16′ of right ascension, Mercury's 11° 30′ are 12° 32′.",
+  "body L26-L29: Ptolemy's arcs are al-Battānī's (translation, p. 117, l. 29-30): 12° ½ + ¼ = 12° 45′, 14° ½ = 14° 30′, 5° ⅔ = 5° 40′, 11° ½ = 11° 30′. The Greek is set as printed: περί, ὡς ἐπίπαν, ἀνατέλλει. The dash of «418–19» measures 5.3 pt.",
+  "notes_left L1-L7: «Caussin» is letter-spaced. The Arabic is «جهة», ‘side, direction’, and «في جهة», ‘in the side (of)’. The l of «Halma» (L5) prints broken, like «Ha!ma»; «420-2» has a hyphen (3.1 pt). «necessaria» (L7), for «necessariam», as printed.",
+  "notes_right L1-L3: Ptolemy's least depressions of the Sun for the heliacal phases (Almagest XIII, 7) are Saturn 11°, Jupiter 10°, Mars 11° ½, Venus 5°, Mercury 10°, as printed here (notes_left L8 and these lines). «Wolf» is letter-spaced; «1890-93» and «423-24» have hyphens (3.2 pt each). The rule between the two columns of the notes prints faint and broken."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0372-body-L001",
+     "source_line_no": null,
+     "tex": "\\CenterLine{\\textbf{\\textit{b}}) — \\textit{Pag. 116, l. 24.}}",
+     "transcription": "{bi:b}) — *Pag. 116, l. 24.*",
+     "semantic_anchor": "AB01-PDF0372-H01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0372-body-L002",
+     "source_line_no": null,
+     "tex": "\\Indent I. — « \\textit{Ob eorum velocem circa Solem cursum} ».— Similiter infra, p. 117, l: 11. Pla-",
+     "transcription": "I. — « *Ob eorum velocem circa Solem cursum* ».— Similiter infra, p. 117, l: 11. Pla-",
+     "semantic_anchor": "AB01-PDF0372-P01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0372-body-L003",
+     "source_line_no": null,
+     "tex": "netae inferiores a \\Name{Platone Atheniensi} \\textgreek{ἰσοδρόμοι ἡλίῳ} « cursum Solis aequantes » appel-",
+     "transcription": "netae inferiores a {sp:Platone Atheniensi} ἰσοδρόμοι ἡλίῳ « cursum Solis aequantes » appel-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0372-body-L004",
+     "source_line_no": null,
+     "tex": "lantur; a \\Name{Ptolemaeo} IX, 1 (ed. Halma t. II, p. 115, ubi versio parum bona), \\textgreek{περὶ αὐτὸν ἀεὶ}",
+     "transcription": "lantur; a {sp:Ptolemaeo} IX, 1 (ed. Halma t. II, p. 115, ubi versio parum bona), περὶ αὐτὸν ἀεὶ",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0372-body-L005",
+     "source_line_no": null,
+     "tex": "\\textgreek{φερόμενοι} « circa eum [scil. Solem] semper ducti ». His et similibus scriptorum Graecorum",
+     "transcription": "φερόμενοι « circa eum [scil. Solem] semper ducti ». His et similibus scriptorum Graecorum",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0372-body-L006",
+     "source_line_no": null,
+     "tex": "Latinorumque locutionibus nonnisi apparentem Veneris et Mercurii motum circa Solem, dex-",
+     "transcription": "Latinorumque locutionibus nonnisi apparentem Veneris et Mercurii motum circa Solem, dex-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0372-body-L007",
+     "source_line_no": null,
+     "tex": "trorsum et sinistrorsum, indicari, doctissime ostendit G. \\Name{Schiaparelli}, \\textit{I precursori di Co-}",
+     "transcription": "trorsum et sinistrorsum, indicari, doctissime ostendit G. {sp:Schiaparelli}, *I precursori di Co-*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0372-body-L008",
+     "source_line_no": null,
+     "tex": "\\textit{pernico nell’antichità,} Milano 1873. Cfr. quoque \\Name{Hultzsch}, s. v. \\textit{Astronomie,} in \\Name{Pauly}–",
+     "transcription": "*pernico nell’antichità,* Milano 1873. Cfr. quoque {sp:Hultzsch}, s. v. *Astronomie,* in {sp:Pauly}–",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0372-body-L009",
+     "source_line_no": null,
+     "tex": "\\Name{Wissowa}, \\textit{Real–Encyclopädie der classischen Altertumswissenschaft,} t. II, col. 1859.",
+     "transcription": "{sp:Wissowa}, *Real–Encyclopädie der classischen Altertumswissenschaft,* t. II, col. 1859.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0372-body-L010",
+     "source_line_no": null,
+     "tex": "\\Indent Item XIII saec. Chr. \\Name{al–Qazwīnī}, \\textit{Cosmographia,} tract. I, cap. III (t. I, p. 34 in edit.",
+     "transcription": "Item XIII saec. Chr. {sp:al–Qazwīnī}, *Cosmographia,* tract. I, cap. III (t. I, p. 34 in edit.",
+     "semantic_anchor": "AB01-PDF0372-P02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0372-body-L011",
+     "source_line_no": null,
+     "tex": "Kahirensi anni 1311 heg.) Mercurium dicit « multas habere retrogradationes et praegressio-",
+     "transcription": "Kahirensi anni 1311 heg.) Mercurium dicit « multas habere retrogradationes et praegressio-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0372-body-L012",
+     "source_line_no": null,
+     "tex": "« nes, atque \\textit{circa} Solem revolvi \\ArabicRun{يدور حول الشمس} ».",
+     "transcription": "« nes, atque *circa* Solem revolvi {ar:يدور حول الشمس} ».",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0372-body-L013",
+     "source_line_no": null,
+     "tex": "\\Indent II. — Scribit \\Name{Ibn Yūnus}, introd. (\\Name{Caussin} p. 70): « [Ex erroribus] quoque sunt quae",
+     "transcription": "II. — Scribit {sp:Ibn Yūnus}, introd. ({sp:Caussin} p. 70): « [Ex erroribus] quoque sunt quae",
+     "semantic_anchor": "AB01-PDF0372-P03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0372-body-L014",
+     "source_line_no": null,
+     "tex": "« speciatim evenerunt Muḥammadi ibn Ǵābir ibn Sinān \\Name{al–Battānī} in plaga (1) latitudinis",
+     "transcription": "« speciatim evenerunt Muḥammadi ibn Ǵābir ibn Sinān {sp:al–Battānī} in plaga (1) latitudinis",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0372-body-L015",
+     "source_line_no": null,
+     "tex": "« Mercurii [statuenda] ». Errorem non invenio; praecepta p. 115–16 et tabulae non differunt",
+     "transcription": "« Mercurii [statuenda] ». Errorem non invenio; praecepta p. 115–16 et tabulae non differunt",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0372-body-L016",
+     "source_line_no": null,
+     "tex": "a quae Ptolemaeus habet. Fortasse Ibn Yūnus exemplar operis Albateniani hoc loco mendo-",
+     "transcription": "a quae Ptolemaeus habet. Fortasse Ibn Yūnus exemplar operis Albateniani hoc loco mendo-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0372-body-L017",
+     "source_line_no": null,
+     "tex": "sum prae manibus habebat, ut ipse cod. Escurialensis (non vero Plato) p. 116.",
+     "transcription": "sum prae manibus habebat, ut ipse cod. Escurialensis (non vero Plato) p. 116.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0372-body-L018",
+     "source_line_no": null,
+     "tex": "\\CenterLine{A\\textsc{d} \\textsc{caput} XLVIII.}",
+     "transcription": "A{sc:d} {sc:caput} XLVIII.",
+     "semantic_anchor": "AB01-PDF0372-H18",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0372-body-L019",
+     "source_line_no": null,
+     "tex": "\\CenterLine{\\textbf{\\textit{a}}) — \\textit{Pag. 117, l. 28-29.}}",
+     "transcription": "{bi:a}) — *Pag. 117, l. 28-29.*",
+     "semantic_anchor": "AB01-PDF0372-H19",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0372-body-L020",
+     "source_line_no": null,
+     "tex": "\\Indent \\textit{Arcus « aequatoriales » apparitionum} planetarum.",
+     "transcription": "*Arcus « aequatoriales » apparitionum* planetarum.",
+     "semantic_anchor": "AB01-PDF0372-P04",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0372-body-L021",
+     "source_line_no": null,
+     "tex": "\\Indent Iuxta \\Name{al–Battānī} hos vere esse \\textit{aequatoris} arcus, patet etiam e sequentibus praeceptis,",
+     "transcription": "Iuxta {sp:al–Battānī} hos vere esse *aequatoris* arcus, patet etiam e sequentibus praeceptis,",
+     "semantic_anchor": "AB01-PDF0372-P05",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0372-body-L022",
+     "source_line_no": null,
+     "tex": "ubi arcus comparandi dicuntur cum arcu ascensionis rectae (« temporibus occasuum vel ascen-",
+     "transcription": "ubi arcus comparandi dicuntur cum arcu ascensionis rectae (« temporibus occasuum vel ascen-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0372-body-L023",
+     "source_line_no": null,
+     "tex": "sionum ») respondente differentiae longitudinis inter Solem et planetam datum. Idemque e fine",
+     "transcription": "sionum ») respondente differentiae longitudinis inter Solem et planetam datum. Idemque e fine",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0372-body-L024",
+     "source_line_no": null,
+     "tex": "XLIX capitis, p. 120, apparet.",
+     "transcription": "XLIX capitis, p. 120, apparet.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0372-body-L025",
+     "source_line_no": null,
+     "tex": "\\Indent \\Name{Ptolemaeus} contra arcus \\textit{eclipticae,} scilicet ipsam differentiam longitudinis delegit (2):",
+     "transcription": "{sp:Ptolemaeus} contra arcus *eclipticae,* scilicet ipsam differentiam longitudinis delegit (2):",
+     "semantic_anchor": "AB01-PDF0372-P06",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0372-body-L026",
+     "source_line_no": null,
+     "tex": "« Ex ea consideratione observationum ortuum planetarum invenimus prope (\\textgreek{περί}) initium",
+     "transcription": "« Ex ea consideratione observationum ortuum planetarum invenimus prope (περί) initium",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0372-body-L027",
+     "source_line_no": null,
+     "tex": "« Cancri in universum (\\textgreek{ὡς ἐπίπαν}) Saturnum apparere (\\textgreek{ἀνατέλλει}) cum a Sole vero 14° distet,",
+     "transcription": "« Cancri in universum (ὡς ἐπίπαν) Saturnum apparere (ἀνατέλλει) cum a Sole vero 14° distet,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0372-body-L028",
+     "source_line_no": null,
+     "tex": "« Iovem 12° $\\qfrac{1}{2}$ + $\\qfrac{1}{4}$, Martem 14° $\\qfrac{1}{2}$, Venerem vespere 5° $\\qfrac{2}{3}$, Mercurium vespere 11° $\\qfrac{1}{2}$ »",
+     "transcription": "« Iovem 12° {sfrac:1/2} + {sfrac:1/4}, Martem 14° {sfrac:1/2}, Venerem vespere 5° {sfrac:2/3}, Mercurium vespere 11° {sfrac:1/2} »",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0372-body-L029",
+     "source_line_no": null,
+     "tex": "(\\textit{Almag.} XIII, 7, ed. Halma t. II, p. 418–19). At cum hos apparitionum limites Ptolemaeus",
+     "transcription": "(*Almag.* XIII, 7, ed. Halma t. II, p. 418–19). At cum hos apparitionum limites Ptolemaeus",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0372-body-L030",
+     "source_line_no": null,
+     "tex": "prope initium Cancri definivisset, ubi aequator et ecliptica fere sunt paralleli et ascensiones",
+     "transcription": "prope initium Cancri definivisset, ubi aequator et ecliptica fere sunt paralleli et ascensiones",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0372-body-L031",
+     "source_line_no": null,
+     "tex": "rectae paulo ab arcubus correspondentibus zodiaci diversae, absque sensibili errore potuit",
+     "transcription": "rectae paulo ab arcubus correspondentibus zodiaci diversae, absque sensibili errore potuit",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0372-body-L032",
+     "source_line_no": null,
+     "tex": "al–Battānī numeros limites Ptolemaicos in aequatorem transferre.",
+     "transcription": "al–Battānī numeros limites Ptolemaicos in aequatorem transferre.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    }
+   ]
+  },
+  {
+   "role": "notes_left",
+   "lines": [
+    {
+     "id": "AB01-PDF0372-notes_left-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (1) \\Name{Caussin}: « s’est trompé sur la latitude »;",
+     "transcription": "(1) {sp:Caussin}: « s’est trompé sur la latitude »;",
+     "semantic_anchor": "AB01-PDF0372-N01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0372-notes_left-L002",
+     "source_line_no": null,
+     "tex": "vocis \\ArabicRun{جهة} significationem technicam non agnovit,",
+     "transcription": "vocis {ar:جهة} significationem technicam non agnovit,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0372-notes_left-L003",
+     "source_line_no": null,
+     "tex": "qua re \\ArabicRun{في جهة} « in plaga » male interpretatus est",
+     "transcription": "qua re {ar:في جهة} « in plaga » male interpretatus est",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0372-notes_left-L004",
+     "source_line_no": null,
+     "tex": "« quoad, quod attinet ».",
+     "transcription": "« quoad, quod attinet ».",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0372-notes_left-L005",
+     "source_line_no": null,
+     "tex": "\\Indent (2) In \\textit{Almag.} XIII, 7 (ed. Halma t. II, p. 420-2)",
+     "transcription": "(2) In *Almag.* XIII, 7 (ed. Halma t. II, p. 420-2)",
+     "semantic_anchor": "AB01-PDF0372-N02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0372-notes_left-L006",
+     "source_line_no": null,
+     "tex": "supputavit quoque minimam depressionem Solis sub",
+     "transcription": "supputavit quoque minimam depressionem Solis sub",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0372-notes_left-L007",
+     "source_line_no": null,
+     "tex": "horizonte necessaria ut hi ortus et occasus heliaci",
+     "transcription": "horizonte necessaria ut hi ortus et occasus heliaci",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0372-notes_left-L008",
+     "source_line_no": null,
+     "tex": "planetarum fieri possint; invenit pro Saturno 11°,",
+     "transcription": "planetarum fieri possint; invenit pro Saturno 11°,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  },
+  {
+   "role": "notes_right",
+   "lines": [
+    {
+     "id": "AB01-PDF0372-notes_right-L001",
+     "source_line_no": null,
+     "tex": "pro Iove 10°, pro Marte 11° $\\qfrac{1}{2}$, pro Venere 5°, pro",
+     "transcription": "pro Iove 10°, pro Marte 11° {sfrac:1/2}, pro Venere 5°, pro",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0372-notes_right-L002",
+     "source_line_no": null,
+     "tex": "Mercurio 10°. Cfr. R. \\Name{Wolf}, \\textit{Handbuch der Astro-}",
+     "transcription": "Mercurio 10°. Cfr. R. {sp:Wolf}, *Handbuch der Astro-*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0372-notes_right-L003",
+     "source_line_no": null,
+     "tex": "\\textit{nomie,} Zürich 1890-93, t. I, p. 423-24, § 191,\\textit{c}, qui",
+     "transcription": "*nomie,* Zürich 1890-93, t. I, p. 423-24, § 191,*c*, qui",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0372-notes_right-L004",
+     "source_line_no": null,
+     "tex": "miro modo se hos numeros in Almagesto non repe-",
+     "transcription": "miro modo se hos numeros in Almagesto non repe-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0372-notes_right-L005",
+     "source_line_no": null,
+     "tex": "risse fatetur; quae in Almagesto desunt sunt quan-",
+     "transcription": "risse fatetur; quae in Almagesto desunt sunt quan-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0372-notes_right-L006",
+     "source_line_no": null,
+     "tex": "titates arcuum stellarum fixarum (cfr. adn. \\textbf{\\textit{b}} ad",
+     "transcription": "titates arcuum stellarum fixarum (cfr. adn. {bi:b} ad",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0372-notes_right-L007",
+     "source_line_no": null,
+     "tex": "cap. XLIX).",
+     "transcription": "cap. XLIX).",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  }
+ ]
+}
