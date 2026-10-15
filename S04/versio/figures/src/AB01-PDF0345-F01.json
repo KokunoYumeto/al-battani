@@ -1,0 +1,180 @@
+{
+ "pdf": 345,
+ "printed_page": 256,
+ "comment": [
+  "Nallino, Part I p. 256: the figure after Almagest II, 12, redrawn from the print: the meridian ABGD, the horizon",
+  "BED, the vertical circle from the zenith A through the Moon H and E to G, the ecliptic from Z through H and T",
+  "(the ascendant) to the meridian, and the bold italic letters. Measured on the scan (_intake/latin/tools/fig256)."
+ ],
+ "origin": [
+  112.0,
+  563.94
+ ],
+ "scale": 0.99639,
+ "size": [
+  139.0,
+  143.5
+ ],
+ "label_pt": 11,
+ "circles": [
+  {
+   "name": "the meridian ABGD",
+   "cx": 185.36,
+   "cy": 640.68,
+   "r": 55.36,
+   "w": 1.01
+  }
+ ],
+ "segments": [],
+ "arcs": [
+  {
+   "name": "the horizon BED",
+   "cx": 184.97,
+   "cy": 377.2,
+   "r": 266.44,
+   "a0": 101.89,
+   "a1": 77.94,
+   "w": 1.09
+  },
+  {
+   "name": "the vertical circle AHEG",
+   "cx": -77.45,
+   "cy": 638.75,
+   "r": 269.33,
+   "a0": -11.44,
+   "a1": 12.28,
+   "w": 0.96
+  },
+  {
+   "name": "the ecliptic ZHT",
+   "cx": -31.82,
+   "cy": 743.58,
+   "r": 256.76,
+   "a0": -37.57,
+   "a1": -13.14,
+   "w": 1.01
+  }
+ ],
+ "labels": [
+  {
+   "t": "\\resizebox{6.18pt}{7.17pt}{Z}",
+   "cx": 166.71,
+   "cy": 580.58,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{7.09pt}{6.44pt}{A}",
+   "cx": 188.99,
+   "cy": 579.62,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{7.31pt}{7.76pt}{H}",
+   "cx": 196.65,
+   "cy": 613.06,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{8.47pt}{7.27pt}{B}",
+   "cx": 121.3,
+   "cy": 636.08,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{6.54pt}{6.82pt}{D}",
+   "cx": 245.16,
+   "cy": 635.74,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{6.78pt}{7.04pt}{T}",
+   "cx": 206.38,
+   "cy": 638.36,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{5.25pt}{7.65pt}{E}",
+   "cx": 195.97,
+   "cy": 649.1,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{6.22pt}{7.42pt}{G}",
+   "cx": 185.69,
+   "cy": 702.66,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  }
+ ],
+ "boxes": {
+  "Z@163,576": [
+   6.84,
+   7.2
+  ],
+  "A@185,576": [
+   6.96,
+   6.48
+  ],
+  "H@193,609": [
+   7.8,
+   7.8
+  ],
+  "B@117,632": [
+   8.4,
+   7.32
+  ],
+  "D@242,632": [
+   6.6,
+   6.84
+  ],
+  "T@204,634": [
+   6.72,
+   7.08
+  ],
+  "E@193,645": [
+   5.52,
+   7.68
+  ],
+  "G@183,698": [
+   5.88,
+   7.56
+  ]
+ },
+ "points": {
+  "B": [
+   130.07,
+   637.93
+  ],
+  "D": [
+   240.65,
+   637.76
+  ],
+  "A": [
+   186.53,
+   585.33
+  ],
+  "G": [
+   185.72,
+   696.04
+  ],
+  "Z": [
+   171.69,
+   587.03
+  ],
+  "end": [
+   218.22,
+   685.24
+  ],
+  "E": [
+   191.84,
+   643.56
+  ],
+  "T": [
+   204.39,
+   642.94
+  ],
+  "H": [
+   190.9,
+   615.84
+  ]
+ }
+}

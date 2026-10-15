@@ -1,0 +1,69 @@
+@page 345 256
+% Commentary on chapter 39, f) concluded: NL, the latus aequatum, √(radius² of the eccentric − (ε sin 2(☾ − ⊙)/R)²); FN = AE − ε = 60ᵖ − ε; formula (α) for NE. g) on p. 79, l. 7: Schiaparelli refers to the end of note d). h) on p. 79, l. 9-12: the distance of the Sun from the Earth by the rule of note d) with the sine of the solar equation for 5ᵖ 15′; the factor 1108 : 60 = 18ᵖ 28′, or, with the distance midway between the mean (1108) and the greatest (1146), 1127 : 60 = 18ᵖ 47′; the 38ᵖ 46′ 24″ of the codex (لح for ىح or يح, 46′ for 47′). i) on p. 79, l. 34-39: the zenith distance and the altitude of the Moon on the ecliptic, with the figure after Almagest II, 12 redrawn: the theorem of Menelaus in chords and in sines, and al-Battānī's rule (α).
+@nonum
+@vspace -0.09
+@at 0.00:Qua re | 95.13^:$NL =$ latus aequatum $= \sqrt{\text{radius}^{2}\ \text{excentrici} - \left(\dfrac{\text{ε} \sin 2\,(☾ - ⊙)}{R}\right)^{2}}\,.$
+@vspace -0.95
+At radius excentrici *FN* $=$ *AE* $-$ ε $=$ 60{sup:*p*} $-$ ε; unde
+@vspace -1.44
+@at 94.41^:$NL = \sqrt{(60^{p} - \text{ε})^{2} - \left(\dfrac{\text{ε} \sin 2\,(☾ - ⊙)}{R}\right)^{2}}$
+@vspace -2.06
+@at 0.00:(α) | 94.20^:$NE = NL - EL = \sqrt{(60^{p} - \text{ε})^{2} - \left(\dfrac{\text{ε} \sin 2\,(☾ - ⊙)}{R}\right)^{2}} - \dfrac{\text{ε} \cos 2\,(☾ - ⊙)}{R}\,.$
+@vspace 4.20
+@center {bi:g}) — *Pag. 79, l. 7.*
+@vspace 4.49
+^ [Repetenda hic sunt quae p. 254, sub fine adn. {bi:d} huius capitis dixi. — {sc:Schiaparelli}.]
+@vspace 5.31
+@center {bi:h}) — *Pag. 79, l. 9-12.*
+@vspace 3.36
+^ *Distantiam geocentricam Solis* supputare.
+^ Regula ad hoc inserviens eadem est qua distantia Lunae in syzygiis (adn. {bi:d}) supputatur,
+cum pro sinu aequationis centri Lunae (5{sup:*p*} 15′) adhibeatur sinus aequationis Solis.
+^ Numerus ita proveniens indicat distantiam Solis cum distantia media 60 partium, ut pro
+Luna, sumatur. Oportet nunc eam in radios terrestres convertere, quorum media Solis distantia
+(iuxta cap. XXX, p. 61) 1108 complectitur; itaque numerus praecedenti supputatione repertus
+@vspace -0.93
+multiplicandus videri potest in $\dfrac{1108}{60} =$ 18{sup:*p*} 28′ 0″. At probabiliter consideravit {sp:al–Battānī}
+@vspace -0.49
+distantiam *lunarem* 60 partium *mediam* esse respectu epicycli, sed *maximam* respectu ex-
+centrici; qua re non iniuria loco mediae distantiae Solis (1108 radiorum) maluit numerum
+medium inter mediam et maximam (1146) Solis distantiam sumere, scilicet 1127. Tunc 1127 : 60
+$=$ 18{sup:*p*} 47′ 0″ erit factor quo opus est uti ad nuper dictam reductionem conficiendam.
+^ Partes 38 لح codicis manifestus sunt error amanuensium pro ىح seu يح 18; in minutis, tam
+@vspace 0.47
+in cod. quam apud Platonem, perperam 46′ مو loco 47′ مر exstant. Quo modo autem secundae
+@vspace 0.03
+ortae sint (24″ in cod., 50″ apud Plat.) non intelligo; falsae omnino videntur.
+@vspace 5.29
+@center {bi:i}) — *Pag. 79, l. 34-39.*
+@vspace 3.38
+^ Luna in ecliptica exstante, eius *distantiam zenithalem* ζ et *altitudinem h* supputare.
+@vspace 0.07
+@wrap 0.340 AB01-PDF0345-F01
+^ Sit ABGD meridianus, BED horizon, ZHT ecliptica, A
+zenith, H Luna, Z gradus eclipticae culminans scilicet me-
+dium Caeli; erit ZA distantia zenithalis gradus culminantis
+vel complementum eius altitudinis; HE $=$ *h* $=$ 90° $-$ ζ; T $=$
+gradus ascendens. {sp:Ptolemaeus} II, 12 (ed. Halma t. I,
+@vspace 0.07
+p. 130–31) demonstrat
+@vspace 0.33
+@at 60.69^:$\dfrac{\text{chorda } 2ZB}{\text{chorda } 2BA} = \dfrac{\text{chorda } 2ZT}{\text{chorda } 2TH} \times \dfrac{\text{chorda } 2HE}{\text{chorda } 2EA}$
+@vspace 0.24
+Si pro chordis adhibeantur sinus:
+@vspace 0.35
+@at 60.27^:$\dfrac{\text{sin alt. grad. culm.}}{R} = \dfrac{\text{sin dist. gr. culm. ab ascend.}}{\text{sin dist. ☾ ab ascend.}} \times \dfrac{\sin h}{R}\,,$
+@endwrap
+@vspace 0.09
+unde regula {sp:al–Battānī}:
+@at 0.00:(α) | 94.78^:$\cos \text{ζ} = \sin h = R\,\dfrac{\text{sin dist. ☾ ab ascend.}}{\text{sin dist. gr. culm. ab asc.}} \times \dfrac{\text{sin alt. gr. culm.}}{R}\,.$
+@obs body L1-L4: each formula stands where it is printed, «Qua re» and the label «(α)» at the margin. NL is the side of the right triangle FLN of p. 255: NL² = FN² − FL², with FN = FA = AE − FE = 60ᵖ − ε = 49ᵖ 41′, al-Battānī's radius of the eccentric (p. 78, L36-L37, its square 2468ᵖ 26′); the bars after «AE» and «60ᵖ» (L2) are minus signs.
+@obs body L4: formula (α) is wrong in the sign of its last term. Since FEL = 180° − 2 (☾ − ⊙) (p. 255, L37-L38), EL = ε cos FEL/R = −ε cos 2 (☾ − ⊙)/R, not ε cos 2 (☾ − ⊙)/R as on p. 255, L40, and the distance is NE = √((60ᵖ − ε)² − (ε sin 2 (☾ − ⊙)/R)²) + ε cos 2 (☾ − ⊙)/R. This gives 60ᵖ at the syzygies, where the centre of the epicycle is in the apogee A, and 60ᵖ − 2ε = 39ᵖ 22′ at the quadratures, in the perigee; formula (α) as printed gives the reverse, 39ᵖ 22′ at the syzygies and 60ᵖ at the quadratures, and for the double elongation of 135.5° drawn on p. 255, 56ᵖ 31′ instead of 41ᵖ 48′. Al-Battānī's rule (p. 79, L1-L5) adds the product of the cosine below 90° and subtracts it above, and is right. Kept as printed.
+@obs body L3: specks at the left of the line and after the formula are not transcribed; the formula ends without a stop.
+@obs body L5-L6: the dash after «g)» measures 10.2 pt; heavy brackets open and close Schiaparelli's addition, the dash before his name 10.4 pt. P. 79, L7 is «de singulis gradibus residui minutum detrahe»; the note referred to is the end of note d) on p. 254, L12-L18.
+@obs body L7-L10: the dash after «h)» measures 9.8 pt, the hyphen of «9-12» 3.6 pt. P. 79, L9-L12 puts the eccentricity of the Sun, 2ᵖ 4′ ¾, for the 5ᵖ ¼ of the epicycle of the Moon; 60ᵖ sin 1° 59′ 10″ (al-Battānī's greatest equation of the Sun) is 2ᵖ 4′ 46″.
+@obs body L11-L18: «cap. XXX, p. 61» gives the least, mean and greatest distances of the Sun, 1070, 1108 and 1146 radii of the Earth. 1108 : 60 = 18ᵖ 28′ 0″ and (1108 + 1146) : 2 = 1127, 1127 : 60 = 18ᵖ 47′ 0″, as printed. «al–Battānī» (L14) has a long dash (5.4 pt).
+@obs body L19-L21: the numbers in Arabic letters are لح (30 + 8 = 38) of the codex, ىح or يح (10 + 8 = 18), whose tooth was taken for a lām, مو (46) and مز (47); ىح is printed without dots, يح with the two dots of the yā' joined into one inside the bowl of the ḥā'. The 47′ is printed مر, without the dot of the zāy; kept as printed. The 38ᵖ 46′ 24″ are p. 79, L11.
+@obs body L22-L23: the dash after «i)» measures 9.5 pt, the hyphen of «34-39» 3.6 pt.
+@obs body L24-L32: the figure stands on the left of these lines and is redrawn from the print: the meridian ABGD (radius 55.4 pt), the horizon from B through E and T to D, the vertical circle from the zenith A through H and E to G and the ecliptic from Z through H and T to the meridian, as arcs of circles fitted to the print (radius 266.4, 269.3 and 256.8 pt), and the bold italic letters where they are printed. «130–31» (L29) has a long dash (5.4 pt); the bar after «90°» (L27) is a minus sign.
+@obs body L30-L34: L30 is the theorem of Menelaus for the triangle AZH cut by the horizon, which meets AZ produced in B, AH produced in E and ZH produced in T. With BA = EA = 90°, so that chord 2BA = chord 2EA = 2R, ZB the altitude of the culminating degree, ZT and TH its distance and that of the Moon from the ascendant and HE = h, it gives L32 and the rule (α), which is al-Battānī's of p. 79, L34-L38: the sine of the distance of the Moon from the ascendant times R, divided by the sine of the distance of the culminating degree from the ascendant, times the sine of the altitude of the culminating degree, divided by R.
