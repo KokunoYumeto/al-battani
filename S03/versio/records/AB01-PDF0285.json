@@ -1,0 +1,387 @@
+{
+ "anchor": "AB01-PDF0285",
+ "master_pdf_page": 285,
+ "printed_page": 196,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "margin_locators": [],
+ "observations": [
+  "body L1-L10: the figure stands at the left of lines 1 to 10, which are set beside it in a narrow measure. It is redrawn from measurements of the print: the meridian as a circle with a short mark at the zenith; the horizon and the equator as diameters; the axis from the centre to the pole in dashes, each dash where it printed; the double arcs marking the equal angles of the horizon and the equator on either side of the centre; the braces φ and alt. merid. along the circle; the italic words Zenith (reading upward), Polus, horizon and aequator, the sign of Aries, and alt. merid. and meridianus set along the circle.",
+  "body L1: rule (α) is right: the meridian altitude of a star is 90° − φ ± δ, the declination added when it is northern and subtracted when it is southern. For the equator (δ = 0) it is 90° − φ, as the figure shows: the arc φ from the horizon to the pole, the quadrant from the pole to the equator and the arc alt. merid. from the equator to the horizon make up the half circle above the horizon.",
+  "body L6: the dash of «al–Battānī» is a long dash (5.3 pt).",
+  "body L7: rule (β) is rule (α) of chapter 16 (p. 190) and is right: with R = 1 and H the meridian altitude, 1 − cos P = 1 + tg φ tg δ = sin H/(cos φ cos δ) and sin h = sin φ sin δ + cos φ cos δ cos t give (1 − cos P)(1 − sin h/sin H) = 1 − cos t. The minus sign is printed as a long dash (9.7 pt); it is set as a minus sign.",
+  "body L11: in «differentia» the t is broken away; only a trace of it printed.",
+  "body L17, L22: the heads of the notes on chapters 22 and 24, «Ad» and «caput» in small capitals, in the larger type of the heads.",
+  "body L18, L23: in the heads, the dashes after «a)» measure 9.8 pt each and the dash of «35–36» 5.4 pt; transcribed as dashes and a long dash.",
+  "body L21: rule (α) is rule (β) of L7 solved for sin h, and is right: sin vers t = sin vers P (1 − sin h/sin alt. merid.) gives sin h = sin alt. merid. (sin vers P − sin vers t)/sin vers P. The minus sign is printed as a long dash (10.0 pt); it is set as a minus sign.",
+  "body L28-L31: rule (α) is right: the meridian altitude of the first point of Aries is 90° − φ (L1), so its sine is cos φ, and the second form, sin δ = cos φ sin amplit./R, is the rule of chapter 7, sin amplit. = R sin δ/cos φ, solved for sin δ.",
+  "body L29: «[meridiana]» stands in square brackets in the print.",
+  "body L33: the rules are those of chapter 19 (p. 195): P = 90° ± the ascensional difference, the sign + for a northern declination, and sin differ. ascens. = R tg φ tg δ.",
+  "notes L1: the dash of «1-2» measures 3.4 pt, as a hyphen."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0285-body-F01",
+     "source_line_no": null,
+     "tex": "\\input{figures/AB01-PDF0285-F01}",
+     "transcription": "[figure, redrawn: figures/AB01-PDF0285-F01.tex]",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_FIGURE"
+    },
+    {
+     "id": "AB01-PDF0285-body-L001",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.00mm}(\\textgreek{α})}\\rlap{\\hspace*{13.00mm}altit. merid. = complem. latitudinis ± declinat.;}",
+     "transcription": "(α) altit. merid. = complem. latitudinis ± declinat.;",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0285-body-L002",
+     "source_line_no": null,
+     "tex": "nam, ut e figura statim apparet, altitudo meridiana initii Arietis",
+     "transcription": "nam, ut e figura statim apparet, altitudo meridiana initii Arietis",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0285-body-L003",
+     "source_line_no": null,
+     "tex": "(et cuiuscumque alterius puncti circuli aequinoctialis) semper",
+     "transcription": "(et cuiuscumque alterius puncti circuli aequinoctialis) semper",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0285-body-L004",
+     "source_line_no": null,
+     "tex": "est complementum latitudinis \\textgreek{φ} datae urbis, scilicet comple-",
+     "transcription": "est complementum latitudinis φ datae urbis, scilicet comple-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0285-body-L005",
+     "source_line_no": null,
+     "tex": "mentum altitudinis poli aequatoris supra horizontem urbis (1).",
+     "transcription": "mentum altitudinis poli aequatoris supra horizontem urbis (1).",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0285-body-L006",
+     "source_line_no": null,
+     "tex": "\\Indent Quo facto \\Name{al–Battānī} repetit regulam XVI capitis:",
+     "transcription": "Quo facto {sp:al–Battānī} repetit regulam XVI capitis:",
+     "semantic_anchor": "AB01-PDF0285-P01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0285-body-L007",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.00mm}(\\textgreek{β})}\\rlap{\\hspace*{17.65mm}$\\text{sin vers}\\,t = \\text{sin vers}\\,P - \\dfrac{\\sin h\\ \\text{sin vers}\\,P}{\\text{sin alt. merid.}}$.}",
+     "transcription": "(β) $\\text{sin vers}\\,t = \\text{sin vers}\\,P - \\dfrac{\\sin h\\ \\text{sin vers}\\,P}{\\text{sin alt. merid.}}$.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0285-body-L008",
+     "source_line_no": null,
+     "tex": "\\Indent Arcum \\textit{t} addendo aut subtrahendo arcui semidiurno stellae,",
+     "transcription": "Arcum *t* addendo aut subtrahendo arcui semidiurno stellae,",
+     "semantic_anchor": "AB01-PDF0285-P02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0285-body-L009",
+     "source_line_no": null,
+     "tex": "prout stella ab occidente aut ab oriente circuli meridiani erit,",
+     "transcription": "prout stella ab occidente aut ab oriente circuli meridiani erit,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0285-body-L010",
+     "source_line_no": null,
+     "tex": "invenietur arcus revolutus sphaerae a stellae ortu. Hic arcus",
+     "transcription": "invenietur arcus revolutus sphaerae a stellae ortu. Hic arcus",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0285-body-L011",
+     "source_line_no": null,
+     "tex": "augeatur aut (si stella ante occasum Solis ab horizonte oritur) minuatur differentia inter",
+     "transcription": "augeatur aut (si stella ante occasum Solis ab horizonte oritur) minuatur differentia inter",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0285-body-L012",
+     "source_line_no": null,
+     "tex": "ascensionem obliquam stellae et obliquam descensionem (vel ascensionem nadir) Solis; prove-",
+     "transcription": "ascensionem obliquam stellae et obliquam descensionem (vel ascensionem nadir) Solis; prove-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0285-body-L013",
+     "source_line_no": null,
+     "tex": "niet arcus sphaerae caelestis post occasum Solis revolutus, cuius gradus facillime in horas",
+     "transcription": "niet arcus sphaerae caelestis post occasum Solis revolutus, cuius gradus facillime in horas",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0285-body-L014",
+     "source_line_no": null,
+     "tex": "temporales aut aequinoctiales convertentur.",
+     "transcription": "temporales aut aequinoctiales convertentur.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0285-body-L015",
+     "source_line_no": null,
+     "tex": "\\Indent Si calculus fit per Lunam, cuius parallaxis sensibilis est, non eius coordinatae verae, sed",
+     "transcription": "Si calculus fit per Lunam, cuius parallaxis sensibilis est, non eius coordinatae verae, sed",
+     "semantic_anchor": "AB01-PDF0285-P03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0285-body-L016",
+     "source_line_no": null,
+     "tex": "coordinatae apparentes adhibendae sunt.",
+     "transcription": "coordinatae apparentes adhibendae sunt.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0285-body-L017",
+     "source_line_no": null,
+     "tex": "\\CenterLine{A\\textsc{d} \\textsc{caput} XXII.}",
+     "transcription": "A{sc:d} {sc:caput} XXII.",
+     "semantic_anchor": "AB01-PDF0285-H17",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0285-body-L018",
+     "source_line_no": null,
+     "tex": "\\CenterLine{\\textbf{\\textit{a}}) — \\textit{Pag. 35.}}",
+     "transcription": "{bi:a}) — *Pag. 35.*",
+     "semantic_anchor": "AB01-PDF0285-H18",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0285-body-L019",
+     "source_line_no": null,
+     "tex": "\\Indent \\textit{Altitudinem h} stellae ex horis noctis elapsis cognoscere.",
+     "transcription": "*Altitudinem h* stellae ex horis noctis elapsis cognoscere.",
+     "semantic_anchor": "AB01-PDF0285-P04",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0285-body-L020",
+     "source_line_no": null,
+     "tex": "\\Indent Problema contrarium praecedentis, cuius formula ita invertenda:",
+     "transcription": "Problema contrarium praecedentis, cuius formula ita invertenda:",
+     "semantic_anchor": "AB01-PDF0285-P05",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0285-body-L021",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.00mm}(\\textgreek{α})}\\rlap{\\hspace*{94.00mm}\\makebox[0pt][c]{$\\sin h = \\dfrac{\\text{sin altit. merid.}\\ (\\text{sin vers}\\,P - \\text{sin vers}\\,t)}{\\text{sin vers}\\,P}$.}}",
+     "transcription": "(α) $\\sin h = \\dfrac{\\text{sin altit. merid.}\\ (\\text{sin vers}\\,P - \\text{sin vers}\\,t)}{\\text{sin vers}\\,P}$.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0285-body-L022",
+     "source_line_no": null,
+     "tex": "\\CenterLine{A\\textsc{d} \\textsc{caput} XXIV.}",
+     "transcription": "A{sc:d} {sc:caput} XXIV.",
+     "semantic_anchor": "AB01-PDF0285-H22",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0285-body-L023",
+     "source_line_no": null,
+     "tex": "\\CenterLine{\\textbf{\\textit{a}}) — \\textit{Pag. 35–36.}}",
+     "transcription": "{bi:a}) — *Pag. 35–36.*",
+     "semantic_anchor": "AB01-PDF0285-H23",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0285-body-L024",
+     "source_line_no": null,
+     "tex": "\\Indent \\textit{Declinationem} \\textgreek{δ} stellae, et \\textit{gradum eclipticae eodem tempore quo ea per circulum}",
+     "transcription": "*Declinationem* δ stellae, et *gradum eclipticae eodem tempore quo ea per circulum*",
+     "semantic_anchor": "AB01-PDF0285-P06",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0285-body-L025",
+     "source_line_no": null,
+     "tex": "\\textit{meridianum transeuntem} supputare, cum gradus eclipticae eodem tempore quo stella ascen-",
+     "transcription": "*meridianum transeuntem* supputare, cum gradus eclipticae eodem tempore quo stella ascen-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0285-body-L026",
+     "source_line_no": null,
+     "tex": "dens et amplitudo ortiva vel occidua stellae cognoscantur.",
+     "transcription": "dens et amplitudo ortiva vel occidua stellae cognoscantur.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0285-body-L027",
+     "source_line_no": null,
+     "tex": "\\Indent Prima regula est",
+     "transcription": "Prima regula est",
+     "semantic_anchor": "AB01-PDF0285-P07",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0285-body-L028",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.00mm}(\\textgreek{α})}\\rlap{\\hspace*{94.00mm}\\makebox[0pt][c]{$\\sin\\text{\\textgreek{δ}} = \\dfrac{\\text{sin altit. initii Arietis} \\times \\text{sin amplit.}}{R}$.}}",
+     "transcription": "(α) $\\sin\\text{δ} = \\dfrac{\\text{sin altit. initii Arietis} \\times \\text{sin amplit.}}{R}$.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0285-body-L029",
+     "source_line_no": null,
+     "tex": "\\Indent Sed altitudo [meridiana] initii Arietis, ut auctor passim dixit (cfr. adn. 1 huius paginae),",
+     "transcription": "Sed altitudo [meridiana] initii Arietis, ut auctor passim dixit (cfr. adn. 1 huius paginae),",
+     "semantic_anchor": "AB01-PDF0285-P08",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0285-body-L030",
+     "source_line_no": null,
+     "tex": "est complementum latitudinis geographicae datae urbis; formula ergo scribi potest:",
+     "transcription": "est complementum latitudinis geographicae datae urbis; formula ergo scribi potest:",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0285-body-L031",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.00mm}$\\sin\\text{\\textgreek{δ}} = \\dfrac{\\cos\\text{\\textgreek{φ}}\\ \\text{sin amplit.}}{R}$,}\\rlap{\\hspace*{41.45mm}quae statim ab altera VII capitis}\\rlap{\\hspace*{98.10mm}$\\text{sin amplit.} = R\\,\\dfrac{\\sin\\text{\\textgreek{δ}}}{\\cos\\text{\\textgreek{φ}}}$}\\rlap{\\hspace*{134.50mm}provenit.}",
+     "transcription": "$\\sin\\text{δ} = \\dfrac{\\cos\\text{φ}\\ \\text{sin amplit.}}{R}$, quae statim ab altera VII capitis $\\text{sin amplit.} = R\\,\\dfrac{\\sin\\text{δ}}{\\cos\\text{φ}}$ provenit.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0285-body-L032",
+     "source_line_no": null,
+     "tex": "\\Indent Declinatione nota, arcus stellae semidiurnus P supputetur per regulas XIX capitis:",
+     "transcription": "Declinatione nota, arcus stellae semidiurnus P supputetur per regulas XIX capitis:",
+     "semantic_anchor": "AB01-PDF0285-P09",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0285-body-L033",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{25.20mm}$P = \\text{90°} \\pm \\text{differ. ascens.}$,}\\rlap{\\hspace*{70.70mm}$\\text{sin differ. ascens.} = R\\,\\dfrac{\\sin\\text{\\textgreek{φ}} \\sin\\text{\\textgreek{δ}}}{\\cos\\text{\\textgreek{φ}} \\cos\\text{\\textgreek{δ}}}$.}",
+     "transcription": "$P = \\text{90°} \\pm \\text{differ. ascens.}$, $\\text{sin differ. ascens.} = R\\,\\dfrac{\\sin\\text{φ} \\sin\\text{δ}}{\\cos\\text{φ} \\cos\\text{δ}}$.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    }
+   ]
+  },
+  {
+   "role": "notes",
+   "lines": [
+    {
+     "id": "AB01-PDF0285-notes-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (1) Cfr. cap. VII (pag. 20, l. 1-2), XIV (p. 29, ult.), XV (p. 30, l. 15).",
+     "transcription": "(1) Cfr. cap. VII (pag. 20, l. 1-2), XIV (p. 29, ult.), XV (p. 30, l. 15).",
+     "semantic_anchor": "AB01-PDF0285-N01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  }
+ ]
+}

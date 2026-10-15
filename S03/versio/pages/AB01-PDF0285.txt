@@ -1,0 +1,77 @@
+@page 285 196
+% Notes on chapter 21, a) concluded: the meridian altitude of a star, rule (α), with the figure; the hour angle by the rule of chapter 16, (β); the arc revolved since the star rose and since sunset; the Moon by its apparent coordinates. Notes on chapter 22, a) on p. 35: the altitude of a star from the hours of the night, rule (α). Notes on chapter 24, a) on pp. 35-36: the declination of a star from its amplitude, rule (α), and its semidiurnal arc. Note on the earlier places of the rule.
+@nonum
+@vspace -3.39
+@wrap 0.238 AB01-PDF0285-F01
+@at 0:(α) | 13.0:altit. merid. = complem. latitudinis ± declinat.;
+@vspace 0.07
+nam, ut e figura statim apparet, altitudo meridiana initii Arietis
+(et cuiuscumque alterius puncti circuli aequinoctialis) semper
+@vspace 0.07
+est complementum latitudinis φ datae urbis, scilicet comple-
+mentum altitudinis poli aequatoris supra horizontem urbis (1).
+^ Quo facto {sp:al–Battānī} repetit regulam XVI capitis:
+@vspace 0.08
+@at 0:(β) | 17.65:$\text{sin vers}\,t = \text{sin vers}\,P - \dfrac{\sin h\ \text{sin vers}\,P}{\text{sin alt. merid.}}$.
+@vspace 1.00
+^ Arcum *t* addendo aut subtrahendo arcui semidiurno stellae,
+prout stella ab occidente aut ab oriente circuli meridiani erit,
+invenietur arcus revolutus sphaerae a stellae ortu. Hic arcus
+@endwrap
+@vspace -0.41
+augeatur aut (si stella ante occasum Solis ab horizonte oritur) minuatur differentia inter
+ascensionem obliquam stellae et obliquam descensionem (vel ascensionem nadir) Solis; prove-
+@vspace 0.07
+niet arcus sphaerae caelestis post occasum Solis revolutus, cuius gradus facillime in horas
+temporales aut aequinoctiales convertentur.
+@vspace 0.10
+^ Si calculus fit per Lunam, cuius parallaxis sensibilis est, non eius coordinatae verae, sed
+coordinatae apparentes adhibendae sunt.
+@fontsize 15 17
+@vspace 5.70
+@center A{sc:d} {sc:caput} XXII.
+@normal
+@vspace 2.71
+@center {bi:a}) — *Pag. 35.*
+@vspace 4.45
+^ *Altitudinem h* stellae ex horis noctis elapsis cognoscere.
+^ Problema contrarium praecedentis, cuius formula ita invertenda:
+@vspace 0.27
+@at 0:(α) | 94^:$\sin h = \dfrac{\text{sin altit. merid.}\ (\text{sin vers}\,P - \text{sin vers}\,t)}{\text{sin vers}\,P}$.
+@fontsize 15 17
+@vspace 6.47
+@center A{sc:d} {sc:caput} XXIV.
+@normal
+@vspace 2.67
+@center {bi:a}) — *Pag. 35–36.*
+@vspace 4.43
+^ *Declinationem* δ stellae, et *gradum eclipticae eodem tempore quo ea per circulum*
+*meridianum transeuntem* supputare, cum gradus eclipticae eodem tempore quo stella ascen-
+dens et amplitudo ortiva vel occidua stellae cognoscantur.
+^ Prima regula est
+@vspace 0.23
+@at 0:(α) | 94^:$\sin\text{δ} = \dfrac{\text{sin altit. initii Arietis} \times \text{sin amplit.}}{R}$.
+@vspace 0.87
+^ Sed altitudo [meridiana] initii Arietis, ut auctor passim dixit (cfr. adn. 1 huius paginae),
+est complementum latitudinis geographicae datae urbis; formula ergo scribi potest:
+@at 0:$\sin\text{δ} = \dfrac{\cos\text{φ}\ \text{sin amplit.}}{R}$, | 41.45:quae statim ab altera VII capitis | 98.1:$\text{sin amplit.} = R\,\dfrac{\sin\text{δ}}{\cos\text{φ}}$ | 134.5:provenit.
+@vspace 0.17
+^ Declinatione nota, arcus stellae semidiurnus P supputetur per regulas XIX capitis:
+@vspace 0.49
+@at 25.2:$P = \text{90°} \pm \text{differ. ascens.}$, | 70.7:$\text{sin differ. ascens.} = R\,\dfrac{\sin\text{φ} \sin\text{δ}}{\cos\text{φ} \cos\text{δ}}$.
+@vspace 0.90
+@notes1
+@vspace 0.98
+^ (1) Cfr. cap. VII (pag. 20, l. 1-2), XIV (p. 29, ult.), XV (p. 30, l. 15).
+@obs body L1-L10: the figure stands at the left of lines 1 to 10, which are set beside it in a narrow measure. It is redrawn from measurements of the print: the meridian as a circle with a short mark at the zenith; the horizon and the equator as diameters; the axis from the centre to the pole in dashes, each dash where it printed; the double arcs marking the equal angles of the horizon and the equator on either side of the centre; the braces φ and alt. merid. along the circle; the italic words Zenith (reading upward), Polus, horizon and aequator, the sign of Aries, and alt. merid. and meridianus set along the circle.
+@obs body L1: rule (α) is right: the meridian altitude of a star is 90° − φ ± δ, the declination added when it is northern and subtracted when it is southern. For the equator (δ = 0) it is 90° − φ, as the figure shows: the arc φ from the horizon to the pole, the quadrant from the pole to the equator and the arc alt. merid. from the equator to the horizon make up the half circle above the horizon.
+@obs body L6: the dash of «al–Battānī» is a long dash (5.3 pt).
+@obs body L7: rule (β) is rule (α) of chapter 16 (p. 190) and is right: with R = 1 and H the meridian altitude, 1 − cos P = 1 + tg φ tg δ = sin H/(cos φ cos δ) and sin h = sin φ sin δ + cos φ cos δ cos t give (1 − cos P)(1 − sin h/sin H) = 1 − cos t. The minus sign is printed as a long dash (9.7 pt); it is set as a minus sign.
+@obs body L11: in «differentia» the t is broken away; only a trace of it printed.
+@obs body L17, L22: the heads of the notes on chapters 22 and 24, «Ad» and «caput» in small capitals, in the larger type of the heads.
+@obs body L18, L23: in the heads, the dashes after «a)» measure 9.8 pt each and the dash of «35–36» 5.4 pt; transcribed as dashes and a long dash.
+@obs body L21: rule (α) is rule (β) of L7 solved for sin h, and is right: sin vers t = sin vers P (1 − sin h/sin alt. merid.) gives sin h = sin alt. merid. (sin vers P − sin vers t)/sin vers P. The minus sign is printed as a long dash (10.0 pt); it is set as a minus sign.
+@obs body L28-L31: rule (α) is right: the meridian altitude of the first point of Aries is 90° − φ (L1), so its sine is cos φ, and the second form, sin δ = cos φ sin amplit./R, is the rule of chapter 7, sin amplit. = R sin δ/cos φ, solved for sin δ.
+@obs body L29: «[meridiana]» stands in square brackets in the print.
+@obs body L33: the rules are those of chapter 19 (p. 195): P = 90° ± the ascensional difference, the sign + for a northern declination, and sin differ. ascens. = R tg φ tg δ.
+@obs notes L1: the dash of «1-2» measures 3.4 pt, as a hyphen.

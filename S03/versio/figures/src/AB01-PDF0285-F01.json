@@ -1,0 +1,464 @@
+{
+ "pdf": 285,
+ "printed_page": 196,
+ "comment": [
+  "Nallino, Part I p. 196: the meridian altitude of the equator, redrawn from the print: the meridian as a circle",
+  "with the zenith marked; the horizon and the equator as diameters; the axis to the pole in dashes, each where it",
+  "printed; the double marks of the equal angles at the centre; the braces φ and alt. merid. along the circle; the",
+  "words Zenith, Polus, horizon, aequator, the sign of Aries with alt. merid. along the circle, and meridianus along",
+  "the circle, in italic. Measured on the scan (_intake/latin/tools/fig196)."
+ ],
+ "origin": [
+  114.5,
+  112.25
+ ],
+ "scale": 0.99281,
+ "size": [
+  130.0,
+  150.0
+ ],
+ "label_pt": 11,
+ "circles": [
+  {
+   "name": "the meridian",
+   "cx": 174.54,
+   "cy": 206.86,
+   "r": 51.56,
+   "w": 1.23
+  }
+ ],
+ "segments": [
+  {
+   "name": "the horizon",
+   "x0": 122.99,
+   "y0": 207.87,
+   "x1": 226.08,
+   "y1": 205.74,
+   "w": 0.97
+  },
+  {
+   "name": "the equator",
+   "x0": 136.38,
+   "y0": 241.53,
+   "x1": 212.57,
+   "y1": 172.05,
+   "w": 1.04
+  },
+  {
+   "name": "the mark of the zenith",
+   "x0": 173.4,
+   "y0": 155.3,
+   "x1": 173.4,
+   "y1": 153.72,
+   "w": 0.8
+  }
+ ],
+ "arcs": [
+  {
+   "name": "the angle mark at the centre, right",
+   "cx": 174.45,
+   "cy": 206.8,
+   "r": 8.1,
+   "a0": -42.36,
+   "a1": -1.18,
+   "w": 0.6
+  },
+  {
+   "name": "the angle mark at the centre, right",
+   "cx": 174.45,
+   "cy": 206.8,
+   "r": 9.44,
+   "a0": -42.36,
+   "a1": -1.18,
+   "w": 0.6
+  },
+  {
+   "name": "the angle mark at the centre, left",
+   "cx": 174.45,
+   "cy": 206.8,
+   "r": 7.41,
+   "a0": 137.64,
+   "a1": 178.82,
+   "w": 0.6
+  },
+  {
+   "name": "the angle mark at the centre, left",
+   "cx": 174.45,
+   "cy": 206.8,
+   "r": 8.91,
+   "a0": 137.64,
+   "a1": 178.82,
+   "w": 0.6
+  }
+ ],
+ "groups": [
+  {
+   "w": 1.11,
+   "cap": "round",
+   "segs": [
+    [
+     141.84,
+     170.06,
+     143.78,
+     172.12
+    ],
+    [
+     144.93,
+     173.46,
+     146.87,
+     175.4
+    ],
+    [
+     148.39,
+     177.09,
+     150.31,
+     179.04
+    ],
+    [
+     151.73,
+     180.65,
+     153.56,
+     182.7
+    ],
+    [
+     155.02,
+     184.28,
+     156.5,
+     185.97
+    ],
+    [
+     158.24,
+     187.98,
+     159.96,
+     190.12
+    ],
+    [
+     161.48,
+     191.87,
+     163.56,
+     194.36
+    ],
+    [
+     165.13,
+     196.01,
+     167.05,
+     198.08
+    ],
+    [
+     168.63,
+     199.89,
+     170.44,
+     201.71
+    ],
+    [
+     172.09,
+     203.72,
+     173.64,
+     205.31
+    ]
+   ],
+   "comment": "the dashes of the axis to the pole"
+  }
+ ],
+ "arcbraces": [
+  {
+   "name": "the brace phi along the circle",
+   "cx": 174.54,
+   "cy": 206.86,
+   "r": 52.88,
+   "a0": 188.04,
+   "a1": 219.54,
+   "amp": 2.8,
+   "w": 0.8
+  },
+  {
+   "name": "the brace altmerid along the circle",
+   "cx": 174.54,
+   "cy": 206.86,
+   "r": 53.21,
+   "a0": -36.9,
+   "a1": -6.86,
+   "amp": 2.39,
+   "w": 0.8
+  }
+ ],
+ "labels": [
+  {
+   "t": "\\resizebox{29.31pt}{7.52pt}{Zenith}",
+   "cx": 173.56,
+   "cy": 138.34,
+   "font": "\\fontsize{11}{11}\\itshape\\selectfont",
+   "rot": 90.0
+  },
+  {
+   "t": "\\resizebox{24.80pt}{8.37pt}{Polus}",
+   "cx": 130.79,
+   "cy": 155.74,
+   "font": "\\fontsize{11}{11}\\itshape\\selectfont",
+   "rot": -47.31
+  },
+  {
+   "t": "\\resizebox{8.36pt}{6.53pt}{φ}",
+   "cx": 118.07,
+   "cy": 184.48,
+   "font": "\\fontsize{11}{11}\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{8.15pt}{6.80pt}{♈}",
+   "cx": 213.56,
+   "cy": 166.56,
+   "font": "\\fontsize{11}{11}\\MoonFont"
+  },
+  {
+   "t": "\\resizebox{34.48pt}{7.73pt}{horizon}",
+   "cx": 198.01,
+   "cy": 211.82,
+   "font": "\\fontsize{11}{11}\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{39.05pt}{6.19pt}{aequator}",
+   "cx": 147.89,
+   "cy": 223.95,
+   "font": "\\fontsize{11}{11}\\itshape\\selectfont",
+   "rot": 42.36
+  },
+  {
+   "t": "\\resizebox{6.05pt}{5.03pt}{a}",
+   "cx": 218.16,
+   "cy": 169.55,
+   "font": "\\fontsize{11}{11}\\itshape\\selectfont",
+   "rot": -49.46,
+   "anchor": "base"
+  },
+  {
+   "t": "\\resizebox{3.31pt}{8.00pt}{l}",
+   "cx": 220.89,
+   "cy": 173.01,
+   "font": "\\fontsize{11}{11}\\itshape\\selectfont",
+   "rot": -53.86,
+   "anchor": "base"
+  },
+  {
+   "t": "\\resizebox{3.82pt}{6.43pt}{t}",
+   "cx": 222.79,
+   "cy": 175.77,
+   "font": "\\fontsize{11}{11}\\itshape\\selectfont",
+   "rot": -57.21,
+   "anchor": "base"
+  },
+  {
+   "t": "\\resizebox{2.72pt}{1.09pt}{.}",
+   "cx": 224.38,
+   "cy": 178.41,
+   "font": "\\fontsize{11}{11}\\itshape\\selectfont",
+   "rot": -60.28,
+   "anchor": "base"
+  },
+  {
+   "t": "\\resizebox{9.74pt}{5.03pt}{m}",
+   "cx": 228.14,
+   "cy": 186.35,
+   "font": "\\fontsize{11}{11}\\itshape\\selectfont",
+   "rot": -69.06,
+   "anchor": "base"
+  },
+  {
+   "t": "\\resizebox{4.99pt}{5.03pt}{e}",
+   "cx": 230.22,
+   "cy": 192.96,
+   "font": "\\fontsize{11}{11}\\itshape\\selectfont",
+   "rot": -75.98,
+   "anchor": "base"
+  },
+  {
+   "t": "\\resizebox{4.44pt}{5.03pt}{r}",
+   "cx": 231.13,
+   "cy": 197.3,
+   "font": "\\fontsize{11}{11}\\itshape\\selectfont",
+   "rot": -80.41,
+   "anchor": "base"
+  },
+  {
+   "t": "\\resizebox{3.43pt}{7.08pt}{i}",
+   "cx": 231.63,
+   "cy": 200.97,
+   "font": "\\fontsize{11}{11}\\itshape\\selectfont",
+   "rot": -84.11,
+   "anchor": "base"
+  },
+  {
+   "t": "\\resizebox{6.08pt}{8.00pt}{d}",
+   "cx": 231.92,
+   "cy": 205.44,
+   "font": "\\fontsize{11}{11}\\itshape\\selectfont",
+   "rot": -88.58,
+   "anchor": "base"
+  },
+  {
+   "t": "\\resizebox{2.72pt}{1.09pt}{.}",
+   "cx": 231.87,
+   "cy": 209.58,
+   "font": "\\fontsize{11}{11}\\itshape\\selectfont",
+   "rot": -92.72,
+   "anchor": "base"
+  },
+  {
+   "t": "\\resizebox{8.80pt}{4.96pt}{m}",
+   "cx": 171.0,
+   "cy": 257.13,
+   "font": "\\fontsize{11}{11}\\itshape\\selectfont",
+   "rot": -4.03,
+   "anchor": "base"
+  },
+  {
+   "t": "\\resizebox{4.51pt}{4.96pt}{e}",
+   "cx": 178.27,
+   "cy": 257.12,
+   "font": "\\fontsize{11}{11}\\itshape\\selectfont",
+   "rot": 4.25,
+   "anchor": "base"
+  },
+  {
+   "t": "\\resizebox{4.01pt}{4.96pt}{r}",
+   "cx": 182.89,
+   "cy": 256.56,
+   "font": "\\fontsize{11}{11}\\itshape\\selectfont",
+   "rot": 9.54,
+   "anchor": "base"
+  },
+  {
+   "t": "\\resizebox{3.10pt}{6.98pt}{i}",
+   "cx": 186.7,
+   "cy": 255.77,
+   "font": "\\fontsize{11}{11}\\itshape\\selectfont",
+   "rot": 13.97,
+   "anchor": "base"
+  },
+  {
+   "t": "\\resizebox{5.50pt}{7.89pt}{d}",
+   "cx": 191.2,
+   "cy": 254.42,
+   "font": "\\fontsize{11}{11}\\itshape\\selectfont",
+   "rot": 19.31,
+   "anchor": "base"
+  },
+  {
+   "t": "\\resizebox{3.10pt}{6.98pt}{i}",
+   "cx": 195.56,
+   "cy": 252.66,
+   "font": "\\fontsize{11}{11}\\itshape\\selectfont",
+   "rot": 24.66,
+   "anchor": "base"
+  },
+  {
+   "t": "\\resizebox{5.46pt}{4.96pt}{a}",
+   "cx": 199.72,
+   "cy": 250.51,
+   "font": "\\fontsize{11}{11}\\itshape\\selectfont",
+   "rot": 29.99,
+   "anchor": "base"
+  },
+  {
+   "t": "\\resizebox{5.82pt}{4.96pt}{n}",
+   "cx": 204.87,
+   "cy": 247.11,
+   "font": "\\fontsize{11}{11}\\itshape\\selectfont",
+   "rot": 37.0,
+   "anchor": "base"
+  },
+  {
+   "t": "\\resizebox{5.86pt}{4.96pt}{u}",
+   "cx": 209.71,
+   "cy": 242.95,
+   "font": "\\fontsize{11}{11}\\itshape\\selectfont",
+   "rot": 44.26,
+   "anchor": "base"
+  },
+  {
+   "t": "\\resizebox{3.97pt}{4.96pt}{s}",
+   "cx": 213.35,
+   "cy": 239.0,
+   "font": "\\fontsize{11}{11}\\itshape\\selectfont",
+   "rot": 50.37,
+   "anchor": "base"
+  }
+ ],
+ "boxes": {
+  "Zenith": [
+   29.16,
+   7.68
+  ],
+  "Polus": [
+   25.08,
+   8.55
+  ],
+  "φ": [
+   7.56,
+   10.08
+  ],
+  "♈": [
+   7.56,
+   6.96
+  ],
+  "horizon": [
+   33.72,
+   7.92
+  ],
+  "aequator": [
+   39.26,
+   8.88
+  ],
+  "alt. merid.": {
+   "angles": [
+    -42.47,
+    3.44
+   ],
+   "radii": [
+    57.27,
+    57.4,
+    65.46
+   ]
+  },
+  "meridianus": {
+   "angles": [
+    36.83,
+    97.94
+   ],
+   "radii": [
+    42.45,
+    50.4,
+    50.51
+   ]
+  }
+ },
+ "points": {
+  "horL": [
+   122.99,
+   207.87
+  ],
+  "horR": [
+   226.08,
+   205.74
+  ],
+  "eqL": [
+   136.38,
+   241.53
+  ],
+  "eqR": [
+   212.57,
+   172.05
+  ],
+  "O": [
+   174.45,
+   206.8
+  ],
+  "Pol": [
+   140.43,
+   168.2
+  ],
+  "O_axis": [
+   174.9,
+   206.79
+  ]
+ }
+}
