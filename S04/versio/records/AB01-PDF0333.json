@@ -1,0 +1,626 @@
+{
+ "anchor": "AB01-PDF0333",
+ "master_pdf_page": 333,
+ "printed_page": 244,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "margin_locators": [],
+ "observations": [
+  "body L1-L2: in the head the dash after «b)» measures 10.3 pt; the dash after «Coptorum.» 10.4 pt.",
+  "body L4, L6, L10, L13-L14, L25, L28, L30-L31: the dashes of «al–Battānī», «’l–qarnayn», «1825–26», «30–32», «Graecos–Aegyptios» and «Graeci–Aegyptii» are long dashes (5.2 to 5.8 pt).",
+  "body L2: the first e of «tres» prints broken, like c.",
+  "body L5-L7: 29 August 25 B.C. (proleptic Julian calendar) was a Friday. From 1 September 312 B.C., the epoch of the era of Dhū ’l-qarnayn in al-Battānī, to 29 August 25 B.C. are 104824 days, 287 Julian years (104827 days) less 3 days.",
+  "body L11: 1 thōth 719 of Nabonassar, 718 × 365 days after 26 February 747 B.C., is 31 August 30 B.C., a Sunday.",
+  "body L12: «annos» is printed twice; kept as printed.",
+  "body L16: 1460 Julian years of 365 1/4 days and 1461 vague years of 365 days are both 533265 days.",
+  "body L21-L24: in the proleptic Julian calendar 30 August 26 B.C. was a Thursday, not a Friday as printed; 29 August 25 B.C. (L24) was a Friday. The two dates are 365 days apart, since 25 B.C. is a leap year, so they cannot both fall on a Friday; kept as printed. 30 August 26 B.C. is the 1 thōth of the year before a Julian leap year, 29 August 25 B.C. that of a common year.",
+  "body L30: a speck before «Addit» is not transcribed.",
+  "notes_left L5-L6: the dashes of «’l–āthār» and «261–262» measure 4.2 and 4.3 pt, longer than the hyphens of the notes (3.1 to 3.4 pt), and are transcribed as long dashes; «p 261–262» has no period after the p, as printed.",
+  "notes_left L6, L8: «al-Maṣ‘ūdī» in L6 has a dot under the s, «al-Mas‘ūdī» in L8 none; kept as printed. In L6 the first s of «Nabonassaris» prints broken, as a small mark.",
+  "notes_left L8, L10: the dash after «198.» measures 8.6 pt; the sign of equality in L10 7.8 pt, and the closing parenthesis after «23» prints only as a faint mark.",
+  "notes_right L1: the dash after «fuisse.» measures 7.0 pt; note 2 goes on here from the left column.",
+  "notes_right L8-L10: the hyphens of «239-244» and «293-294» measure 3.0 and 3.5 pt; «Inscri-» is divided with a raised dot; the e of «1ᵉ» is raised in both places."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0333-body-L001",
+     "source_line_no": null,
+     "tex": "\\CenterLine{\\textbf{\\textit{b}}) — \\textit{Pag. 68, l. 23 et seqq.}}",
+     "transcription": "{bi:b}) — *Pag. 68, l. 23 et seqq.*",
+     "semantic_anchor": "AB01-PDF0333-H01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0333-body-L002",
+     "source_line_no": null,
+     "tex": "\\Indent \\textit{Aera Coptorum.} — Apud reliquos mihi notos Arabicos scriptores hoc nomine tres aerae",
+     "transcription": "*Aera Coptorum.* — Apud reliquos mihi notos Arabicos scriptores hoc nomine tres aerae",
+     "semantic_anchor": "AB01-PDF0333-P01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0333-body-L003",
+     "source_line_no": null,
+     "tex": "indicantur: 1) aera Nabonassaris, 2) aera Philippi Aridaei, 3) aera Diocletiani vel Martyrum (1).",
+     "transcription": "indicantur: 1) aera Nabonassaris, 2) aera Philippi Aridaei, 3) aera Diocletiani vel Martyrum (1).",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0333-body-L004",
+     "source_line_no": null,
+     "tex": "\\Indent Sed harum nullam vult \\Name{al–Battānī}. Ex iis quae postea in hoc capite et in cap. XLII",
+     "transcription": "Sed harum nullam vult {sp:al–Battānī}. Ex iis quae postea in hoc capite et in cap. XLII",
+     "semantic_anchor": "AB01-PDF0333-P02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0333-body-L005",
+     "source_line_no": null,
+     "tex": "narrat, patet eam esse aeram, annis \\textit{Iulianis} praeditam, cuius epocha est feria sexta (dies",
+     "transcription": "narrat, patet eam esse aeram, annis *Iulianis* praeditam, cuius epocha est feria sexta (dies",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0333-body-L006",
+     "source_line_no": null,
+     "tex": "Veneris) 29 Augusti 25 ante Chr. natum, nam ab aera Dhū ’l–qarnayn distat 287 annis Iu-",
+     "transcription": "Veneris) 29 Augusti 25 ante Chr. natum, nam ab aera Dhū ’l–qarnayn distat 287 annis Iu-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0333-body-L007",
+     "source_line_no": null,
+     "tex": "lianis minus 3 diebus.",
+     "transcription": "lianis minus 3 diebus.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0333-body-L008",
+     "source_line_no": null,
+     "tex": "\\Indent Est ergo forma quaedam \\textit{aerae Augusti} vel \\textit{Actiacae.} Huius aerae fortuito meminit \\Name{Pto-}",
+     "transcription": "Est ergo forma quaedam *aerae Augusti* vel *Actiacae.* Huius aerae fortuito meminit {sp:Pto-}",
+     "semantic_anchor": "AB01-PDF0333-P03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0333-body-L009",
+     "source_line_no": null,
+     "tex": "\\Name{lemaeus}, \\textit{Almag.} III, 6 (ed. Halma t. I, p. 204), e quo loco \\Name{Ideler}, \\textit{Handbuch der ma-}",
+     "transcription": "{sp:lemaeus}, *Almag.* III, 6 (ed. Halma t. I, p. 204), e quo loco {sp:Ideler}, *Handbuch der ma-*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0333-body-L010",
+     "source_line_no": null,
+     "tex": "\\textit{thematischen und technischen Chronologie,} Berlin 1825–26, t. I, p. 116, deduxit eius epo-",
+     "transcription": "*thematischen und technischen Chronologie,* Berlin 1825–26, t. I, p. 116, deduxit eius epo-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0333-body-L011",
+     "source_line_no": null,
+     "tex": "cham fuisse 1 thōth 719 Nabonassaris, i. e. diem dominicam 31 Augusti 30 ante Chr. natum,",
+     "transcription": "cham fuisse 1 thōth 719 Nabonassaris, i. e. diem dominicam 31 Augusti 30 ante Chr. natum,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0333-body-L012",
+     "source_line_no": null,
+     "tex": "eiusque annos annos \\textit{vagos} Aegyptios (2).",
+     "transcription": "eiusque annos annos *vagos* Aegyptios (2).",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0333-body-L013",
+     "source_line_no": null,
+     "tex": "\\Indent Differentia quam in epocha aerae \\Name{al–Battānī} habet, hoc modo mihi explicanda videtur.",
+     "transcription": "Differentia quam in epocha aerae {sp:al–Battānī} habet, hoc modo mihi explicanda videtur.",
+     "semantic_anchor": "AB01-PDF0333-P04",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0333-body-L014",
+     "source_line_no": null,
+     "tex": "Narrat \\Name{Theon} in \\textit{Tabulis Manualibus} (ed. Halma, t. I, p. 30–32; cfr. \\Name{Ideler} I, 158 sqq.)",
+     "transcription": "Narrat {sp:Theon} in *Tabulis Manualibus* (ed. Halma, t. I, p. 30–32; cfr. {sp:Ideler} I, 158 sqq.)",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0333-body-L015",
+     "source_line_no": null,
+     "tex": "primum diem mensis thōth anni vagi Aegyptii rursus cum primo die thōth anni fixi Alexan-",
+     "transcription": "primum diem mensis thōth anni vagi Aegyptii rursus cum primo die thōth anni fixi Alexan-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0333-body-L016",
+     "source_line_no": null,
+     "tex": "drini (vel Iuliani) congruere post periodum 1460 annorum fixorum, vel 1461 annorum vago-",
+     "transcription": "drini (vel Iuliani) congruere post periodum 1460 annorum fixorum, vel 1461 annorum vago-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0333-body-L017",
+     "source_line_no": null,
+     "tex": "rum; hoc evenisse « \\textit{quinto Augusti anno} » (ita p. 30) aut « \\textit{quinque annis post initium}",
+     "transcription": "rum; hoc evenisse « *quinto Augusti anno* » (ita p. 30) aut « *quinque annis post initium*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0333-body-L018",
+     "source_line_no": null,
+     "tex": "\\textit{regni Augusti} » (ita p. 32). Qua re, addit Theon, ab hoc quinto anno initium sumitur cum",
+     "transcription": "*regni Augusti* » (ita p. 32). Qua re, addit Theon, ab hoc quinto anno initium sumitur cum",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0333-body-L019",
+     "source_line_no": null,
+     "tex": "dies anni vagi converti debent in dies anni fixi Alexandrini.",
+     "transcription": "dies anni vagi converti debent in dies anni fixi Alexandrini.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0333-body-L020",
+     "source_line_no": null,
+     "tex": "\\Indent \\Name{Theonis} locus duas inter se discrepantes notitias praebet. Nam si periodus illa quinto Au-",
+     "transcription": "{sp:Theonis} locus duas inter se discrepantes notitias praebet. Nam si periodus illa quinto Au-",
+     "semantic_anchor": "AB01-PDF0333-P05",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0333-body-L021",
+     "source_line_no": null,
+     "tex": "gusti anno absoluta est, epocha aerae Theonis fit \\textit{sexta feria (dies Veneris) 30 Augusti}",
+     "transcription": "gusti anno absoluta est, epocha aerae Theonis fit *sexta feria (dies Veneris) 30 Augusti*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0333-body-L022",
+     "source_line_no": null,
+     "tex": "\\textit{26} ante Christum natum; et ita fuisse cogitant, multis historicis argumentis nisi, \\Name{Mommsen},",
+     "transcription": "*26* ante Christum natum; et ita fuisse cogitant, multis historicis argumentis nisi, {sp:Mommsen},",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0333-body-L023",
+     "source_line_no": null,
+     "tex": "\\Name{Lepsius} et \\Name{Th. H. Martin} (3). Si autem periodus absoluta est 5 annis post initium regni",
+     "transcription": "{sp:Lepsius} et {sp:Th. H. Martin} (3). Si autem periodus absoluta est 5 annis post initium regni",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0333-body-L024",
+     "source_line_no": null,
+     "tex": "Augusti, epocha aerae fit \\textit{sexta feria 29 Aug. 25} ante Chr. natum; et hoc modo, sed non",
+     "transcription": "Augusti, epocha aerae fit *sexta feria 29 Aug. 25* ante Chr. natum; et hoc modo, sed non",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0333-body-L025",
+     "source_line_no": null,
+     "tex": "bene, intellexerunt \\Name{Halma}, \\Name{Biot}, \\Name{Letronne} e recentioribus, \\Name{al–Battānī} e veteribus.",
+     "transcription": "bene, intellexerunt {sp:Halma}, {sp:Biot}, {sp:Letronne} e recentioribus, {sp:al–Battānī} e veteribus.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0333-body-L026",
+     "source_line_no": null,
+     "tex": "Anni huius aerae Iuliani sunt.",
+     "transcription": "Anni huius aerae Iuliani sunt.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0333-body-L027",
+     "source_line_no": null,
+     "tex": "\\Indent Copti igitur qui hac utebantur aera (\\textit{Alexandrina} potius quam \\textit{Augusti} vocanda), an-",
+     "transcription": "Copti igitur qui hac utebantur aera (*Alexandrina* potius quam *Augusti* vocanda), an-",
+     "semantic_anchor": "AB01-PDF0333-P06",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0333-body-L028",
+     "source_line_no": null,
+     "tex": "num die 29 Augusti incipientes, tribus diebus, ut \\Name{al–Battānī} ait, Graecos–Aegyptios prae-",
+     "transcription": "num die 29 Augusti incipientes, tribus diebus, ut {sp:al–Battānī} ait, Graecos–Aegyptios prae-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0333-body-L029",
+     "source_line_no": null,
+     "tex": "cedebant, quorum primus anni dies erat 1 Septembris.",
+     "transcription": "cedebant, quorum primus anni dies erat 1 Septembris.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0333-body-L030",
+     "source_line_no": null,
+     "tex": "\\Indent Addit \\Name{al–Battānī} quarto quoque anno differentiam non \\textit{trium} sed \\textit{duorum} tantum ex-",
+     "transcription": "Addit {sp:al–Battānī} quarto quoque anno differentiam non *trium* sed *duorum* tantum ex-",
+     "semantic_anchor": "AB01-PDF0333-P07",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0333-body-L031",
+     "source_line_no": null,
+     "tex": "stare dierum: « qui [i. e. Graeci–Aegyptii] contra illos [i. e. Coptos] quarto quoque anno una",
+     "transcription": "stare dierum: « qui [i. e. Graeci–Aegyptii] contra illos [i. e. Coptos] quarto quoque anno una",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0333-body-L032",
+     "source_line_no": null,
+     "tex": "« die praecurrunt ». Huius rei explicationem invenio in fragmento chronologico \\Name{Heraclii}",
+     "transcription": "« die praecurrunt ». Huius rei explicationem invenio in fragmento chronologico {sp:Heraclii}",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    }
+   ]
+  },
+  {
+   "role": "notes_left",
+   "lines": [
+    {
+     "id": "AB01-PDF0333-notes_left-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (1) Est aera Nabonassaris et aera Philippi apud",
+     "transcription": "(1) Est aera Nabonassaris et aera Philippi apud",
+     "semantic_anchor": "AB01-PDF0333-N01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0333-notes_left-L002",
+     "source_line_no": null,
+     "tex": "\\Name{al-Farghānī}, ed. Golii, cap. I, p. 6; Diocletiani",
+     "transcription": "{sp:al-Farghānī}, ed. Golii, cap. I, p. 6; Diocletiani",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0333-notes_left-L003",
+     "source_line_no": null,
+     "tex": "apud \\Name{Ḥabash} f. 4,v., \\Name{Ibn Yūnus} (\\Name{Delambre}",
+     "transcription": "apud {sp:Ḥabash} f. 4,v., {sp:Ibn Yūnus} ({sp:Delambre}",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0333-notes_left-L004",
+     "source_line_no": null,
+     "tex": "96), \\Name{al-Maqrīzī} (\\textit{al-Mawā‘iẓ wa ’l-i‘tibār fī}",
+     "transcription": "96), {sp:al-Maqrīzī} (*al-Mawā‘iẓ wa ’l-i‘tibār fī*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0333-notes_left-L005",
+     "source_line_no": null,
+     "tex": "\\textit{dhikr al-khiṭaṭ wa ’l–āthār}, Būlāq 1270 heg., t. I,",
+     "transcription": "*dhikr al-khiṭaṭ wa ’l–āthār*, Būlāq 1270 heg., t. I,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0333-notes_left-L006",
+     "source_line_no": null,
+     "tex": "p 261–262); aera Nabonassaris apud \\Name{al-Maṣ‘ūdī},",
+     "transcription": "p 261–262); aera Nabonassaris apud {sp:al-Maṣ‘ūdī},",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0333-notes_left-L007",
+     "source_line_no": null,
+     "tex": "\\textit{Prairies} t. III, p. 400; Nabonassaris, Philippi et Dio-",
+     "transcription": "*Prairies* t. III, p. 400; Nabonassaris, Philippi et Dio-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0333-notes_left-L008",
+     "source_line_no": null,
+     "tex": "cletiani apud \\Name{al-Mas‘ūdī}, \\textit{Tanbīh} p. 198. —",
+     "transcription": "cletiani apud {sp:al-Mas‘ūdī}, *Tanbīh* p. 198. —",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0333-notes_left-L009",
+     "source_line_no": null,
+     "tex": "\\Name{Abū ’l-Faẓl ‘Allāmī} eam esse antiquam tan-",
+     "transcription": "{sp:Abū ’l-Faẓl ‘Allāmī} eam esse antiquam tan-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0333-notes_left-L010",
+     "source_line_no": null,
+     "tex": "tum dicit (t. I, p. 274 $=$ vers. II, 23).",
+     "transcription": "tum dicit (t. I, p. 274 $=$ vers. II, 23).",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0333-notes_left-L011",
+     "source_line_no": null,
+     "tex": "\\Indent (2) \\Name{Petavius} et liber \\textit{L’art de vérifier les}",
+     "transcription": "(2) {sp:Petavius} et liber *L’art de vérifier les*",
+     "semantic_anchor": "AB01-PDF0333-N02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0333-notes_left-L012",
+     "source_line_no": null,
+     "tex": "\\textit{dates} habent 29 Aug. 30 ante Chr., quoniam male",
+     "transcription": "*dates* habent 29 Aug. 30 ante Chr., quoniam male",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0333-notes_left-L013",
+     "source_line_no": null,
+     "tex": "putant annos aerae iam ab initio annos Iulianos",
+     "transcription": "putant annos aerae iam ab initio annos Iulianos",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  },
+  {
+   "role": "notes_right",
+   "lines": [
+    {
+     "id": "AB01-PDF0333-notes_right-L001",
+     "source_line_no": null,
+     "tex": "fuisse. — Ad primum Augusti annum \\Name{Ptolemaeus}",
+     "transcription": "fuisse. — Ad primum Augusti annum {sp:Ptolemaeus}",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0333-notes_right-L002",
+     "source_line_no": null,
+     "tex": "media loca Solis, Lunae et planetarum refert in \\textit{In-}",
+     "transcription": "media loca Solis, Lunae et planetarum refert in *In-*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0333-notes_right-L003",
+     "source_line_no": null,
+     "tex": "\\textit{scriptione Canopi}, quae Hypotheses sequitur (\\textit{Hy-}",
+     "transcription": "*scriptione Canopi*, quae Hypotheses sequitur (*Hy-*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0333-notes_right-L004",
+     "source_line_no": null,
+     "tex": "\\textit{pothèses de} C. \\Name{Ptolémée}, \\textit{publiées et traduites}",
+     "transcription": "*pothèses de* C. {sp:Ptolémée}, *publiées et traduites*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0333-notes_right-L005",
+     "source_line_no": null,
+     "tex": "\\textit{par} \\Name{Halma}, Paris 1820, p. 59).",
+     "transcription": "*par* {sp:Halma}, Paris 1820, p. 59).",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0333-notes_right-L006",
+     "source_line_no": null,
+     "tex": "\\Indent (3) Qui quaestionem fuse egit in suo \\textit{Sur la}",
+     "transcription": "(3) Qui quaestionem fuse egit in suo *Sur la*",
+     "semantic_anchor": "AB01-PDF0333-N03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0333-notes_right-L007",
+     "source_line_no": null,
+     "tex": "\\textit{date historique d’un renouvellement de la période}",
+     "transcription": "*date historique d’un renouvellement de la période*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0333-notes_right-L008",
+     "source_line_no": null,
+     "tex": "\\textit{sothiaque}, p. 239-244 et 293-294 (in Mémoires pré-",
+     "transcription": "*sothiaque*, p. 239-244 et 293-294 (in Mémoires pré-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0333-notes_right-L009",
+     "source_line_no": null,
+     "tex": "sentés par divers savants à l’Académie des Inscri-",
+     "transcription": "sentés par divers savants à l’Académie des Inscri-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0333-notes_right-L010",
+     "source_line_no": null,
+     "tex": "ptions, 1\\textsuperscript{e} série, t. VIII, 1\\textsuperscript{e} partie, 1869). Implicite hanc",
+     "transcription": "ptions, 1{sup:e} série, t. VIII, 1{sup:e} partie, 1869). Implicite hanc",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0333-notes_right-L011",
+     "source_line_no": null,
+     "tex": "opinionem sequitur R. \\Name{Schram}, \\textit{Hilfstafeln für}",
+     "transcription": "opinionem sequitur R. {sp:Schram}, *Hilfstafeln für*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0333-notes_right-L012",
+     "source_line_no": null,
+     "tex": "\\textit{Chronologie} (in Denkschriften der kais. Akad. der",
+     "transcription": "*Chronologie* (in Denkschriften der kais. Akad. der",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0333-notes_right-L013",
+     "source_line_no": null,
+     "tex": "Wissenschaften zu Wien, mathem. Cl., t. XLV, 1892).",
+     "transcription": "Wissenschaften zu Wien, mathem. Cl., t. XLV, 1892).",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  }
+ ]
+}
