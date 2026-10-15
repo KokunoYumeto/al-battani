@@ -28,7 +28,8 @@ ink (_intake/latin/tools/fig_measure2.py). Optional:
   "braces" [{"x0", "y0", "x1", "y1", "amp", "w", "name"}]: a curly brace along the line from (x0, y0) to (x1, y1),
            its ends there and its point "amp" pt away, on the left of the direction of travel as seen on the page
            (from left to right: the point upward; from top to bottom: the point to the right)
-  labels may give their centre as "cx", "cy" instead of the box, a turn "rot" (degrees) and a "font" of their own"""
+  labels may give their centre as "cx", "cy" instead of the box, a turn "rot" (degrees), a "font" of their own and an
+  "anchor" (base: the point is on the baseline of the letter, as for the letters of a word set along a curve)"""
 import json
 import math
 import sys
@@ -142,7 +143,8 @@ def main():
             cx, cy = lb["cx"], lb["cy"]
         else:
             cx, cy = (lb["x0"] + lb["x1"]) / 2, (lb["y0"] + lb["y1"]) / 2
-        rot = f"[rotate={lb['rot']}]" if lb.get("rot") else ""
+        opts = ([f"rotate={lb['rot']}"] if lb.get("rot") else []) + ([f"anchor={lb['anchor']}"] if lb.get("anchor") else [])
+        rot = "[" + ",".join(opts) + "]" if opts else ""
         text = (r"\normalfont" + lb["font"] + " " + lb["t"]) if lb.get("font") else lb["t"]
         out.append(r"\node" + rot + " at (" + X(cx) + "," + Y(cy) + ") {" + text + "};")
     for wd in d.get("words", []):
