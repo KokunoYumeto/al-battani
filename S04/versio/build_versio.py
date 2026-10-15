@@ -88,7 +88,8 @@ larger (a note number or letter after the head; it may hold one level of markup,
 sign of the tables, {lbrace3} and {rbrace3} a left and a right brace over three lines (written on the middle one),
 {rbrace2} a right brace over two lines (written on the first), {rbrace:L:T} a right brace L pt long whose top is
 T pt above the baseline of the line it is written on, {vrule2} a thin vertical rule over two lines (written
-on the first), {ar:...} an Arabic phrase with its own brackets and punctuation, set as one right-to-left run
+on the first), {vrule:L:T} a thin vertical rule L pt long whose top is T pt above the baseline,
+{ar:...} an Arabic phrase with its own brackets and punctuation, set as one right-to-left run
 (a Latin word inside it, as codd. or add., stands in its place in the run in the roman type; {syr:...} the same
 for Syriac), {rtl:...} a phrase of Arabic numerals and Latin words that the print sets right to
 left, given in reading order, \\* a literal asterisk; runs of Arabic, Greek, Hebrew and Syriac letters are set in
@@ -246,6 +247,10 @@ def markup(s):
                           r"[line width=.55pt,decorate,decoration={brace,amplitude=2.3pt}] (0," + m.group(1)
                           + r"pt) -- (0,0);}}"), s)
     s = s.replace("{vrule2}", VRULE2)
+    # a thin vertical rule of any length: {vrule:L:T}, L pt long, its top T pt above the baseline
+    s = re.sub(r"\{vrule:(\d+(?:\.\d+)?):(\d+(?:\.\d+)?)\}",
+               lambda m: (r"\smash{\rule[" + f"{float(m.group(2)) - float(m.group(1)):.2f}" + "pt]{.4pt}{"
+                          + m.group(1) + "pt}}"), s)
     s = s.replace("{0}", "\uE001")
     s = re.sub(r"\*\*([^*]+)\*\*", r"\\textbf{\1}", s)
     s = re.sub(r"\*([^*]+)\*", r"\\textit{\1}", s)
