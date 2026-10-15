@@ -1,0 +1,456 @@
+{
+ "anchor": "AB01-PDF0286",
+ "master_pdf_page": 286,
+ "printed_page": 197,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "margin_locators": [],
+ "observations": [
+  "body L1: the dash of «al–Battānī» is a long dash (5.5 pt); the name is not letter-spaced here. A speck stands under the comma after «reperire».",
+  "body L3-L4: both rules give the right ascension counted from the beginning of Capricorn, that is, increased by 90°. When the star rises, the point of the equator rising with it has the right ascension α − P + 90° (α the right ascension of the star from the first point of Aries, P its semidiurnal arc), so the oblique ascension of the degree rising with the star, increased by P, is α + 90°. When the star sets, the point of the equator then rising has the right ascension α + P + 90°, so the second rule holds with the oblique ascension of the degree rising at that moment, the nadir of the degree setting with the star (the ascension of the nadir, as on p. 196), diminished by P; the oblique ascension of the setting degree itself differs from it by 180° and twice the ascensional difference of that degree.",
+  "body L4: the minus sign is printed as a long dash (9.8 pt); it is set as a minus sign.",
+  "body L7-L15: the figure stands at the left of lines 7 to 15, which are set beside it in a narrow measure. It is redrawn from measurements of the print: the meridian as a circle; the horizon, the equator EE′ and the axis from the centre O to the pole P as straight lines; the ecliptic, from the left of the circle through the first point of Aries, K and I to R, and the circle of declination of the star, from P through S and I to A on the equator, as arcs; the bold italic letters and the sign of Aries. The pole P is not named in the text.",
+  "body L7: a speck stands over the s of «Est».",
+  "body L7-L14: the letters of the figure named in these lines are upright, in the type of the text; in L15 and L16 they are italic.",
+  "body L14-L16: the relations are right: O, where the horizon cuts the equator, is 90° from the meridian, so EO is a quadrant, OA = EA − 90° and ♈A = ♈O + EA − 90°; the figure shows the rising of a star of northern declination, whose circle of declination meets the equator at A below the horizon.",
+  "body L15-L16: the minus signs are printed as long dashes (9.4 and 9.8 pt); they are set as minus signs.",
+  "body L16: a speck stands over the E of the first «EA».",
+  "body L19: the head of the notes on chapter 25, «Ad» and «caput» in small capitals, in the larger type of the heads.",
+  "body L20: in the head, the dash after «a)» measures 10.1 pt and the dash of «36–37» 5.1 pt; transcribed as a dash and a long dash.",
+  "body L21: the hyphen of «tem-» is printed short (1.6 pt), like a point.",
+  "body L25: «regulae haec sunt» is printed so.",
+  "body L27-L29: the minus signs are printed as long dashes (9.5 to 10.2 pt); they are set as minus signs.",
+  "body L27-L33: the rules render al-Battānī's text of chapter 25 (p. 36) step by step: the cosine of the obliquity taken from 2R (120 parts) gives the sinus longissimus, the cosine of δ′ taken from 2R the sinus crescens, R sin ε/cos δ′ the sine of the obliquitas aequata, and the product of the four factors the sine of the variatio; the solstitial distance of the culminating degree is counted in right ascension, as the text says.",
+  "body L31: the bar of the last fraction is printed broken near its right end, with a dot in the break; it is drawn whole. The fractions are set wider than in the print."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0286-body-L001",
+     "source_line_no": null,
+     "tex": "\\Indent Quo facto, al–Battānī docet ascensionem rectam gradus cum stella culminantis reperire,",
+     "transcription": "Quo facto, al–Battānī docet ascensionem rectam gradus cum stella culminantis reperire,",
+     "semantic_anchor": "AB01-PDF0286-P01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0286-body-L002",
+     "source_line_no": null,
+     "tex": "quae est",
+     "transcription": "quae est",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0286-body-L003",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{21.00mm}asc. obl. gradus cum stella ascendentis $+$ arcus semidiurnus stellae,}",
+     "transcription": "asc. obl. gradus cum stella ascendentis $+$ arcus semidiurnus stellae,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0286-body-L004",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.00mm}vel}\\rlap{\\hspace*{21.67mm}asc. obl. gradus cum stella occidentis $-$ arcus semidiurnus stellae;}",
+     "transcription": "vel asc. obl. gradus cum stella occidentis $-$ arcus semidiurnus stellae;",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0286-body-L005",
+     "source_line_no": null,
+     "tex": "ubi ascensio recta gradus cum stella culminantis (quae etiam est ascensio recta stellae) ab",
+     "transcription": "ubi ascensio recta gradus cum stella culminantis (quae etiam est ascensio recta stellae) ab",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0286-body-L006",
+     "source_line_no": null,
+     "tex": "\\textbf{\\textit{initio Capricorni}} sumenda intelligitur, sicuti rem propius inquirenti e figura hic descripta",
+     "transcription": "{bi:initio Capricorni} sumenda intelligitur, sicuti rem propius inquirenti e figura hic descripta",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0286-body-F01",
+     "source_line_no": null,
+     "tex": "\\input{figures/AB01-PDF0286-F01}",
+     "transcription": "[figure, redrawn: figures/AB01-PDF0286-F01.tex]",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_FIGURE"
+    },
+    {
+     "id": "AB01-PDF0286-body-L007",
+     "source_line_no": null,
+     "tex": "patebit. Est enim EE′ aequator, S locus unde stella oritur, {\\MoonFont ♈}",
+     "transcription": "patebit. Est enim EE′ aequator, S locus unde stella oritur, ♈",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0286-body-L008",
+     "source_line_no": null,
+     "tex": "aequinoctium vernale tunc temporis, {\\MoonFont ♈}R ecliptica, K gradus ecli-",
+     "transcription": "aequinoctium vernale tunc temporis, ♈R ecliptica, K gradus ecli-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0286-body-L009",
+     "source_line_no": null,
+     "tex": "pticae eodem quo stella tempore oriens, I gradus cum stella cul-",
+     "transcription": "pticae eodem quo stella tempore oriens, I gradus cum stella cul-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0286-body-L010",
+     "source_line_no": null,
+     "tex": "minans; erunt ergo {\\MoonFont ♈}A ascensio recta, ab Arietis initio suppu-",
+     "transcription": "minans; erunt ergo ♈A ascensio recta, ab Arietis initio suppu-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0286-body-L011",
+     "source_line_no": null,
+     "tex": "tata, gradus I cum stella culminantis, vel ascensio recta ipsius",
+     "transcription": "tata, gradus I cum stella culminantis, vel ascensio recta ipsius",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0286-body-L012",
+     "source_line_no": null,
+     "tex": "stellae; EA arcus stellae semidiurnus in aequatore; {\\MoonFont ♈}O ascensio",
+     "transcription": "stellae; EA arcus stellae semidiurnus in aequatore; ♈O ascensio",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0286-body-L013",
+     "source_line_no": null,
+     "tex": "obliqua gradus K qui cum stella ascendit, vel ascensio obliqua",
+     "transcription": "obliqua gradus K qui cum stella ascendit, vel ascensio obliqua",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0286-body-L014",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.00mm}ipsius stellae S.}\\rlap{\\hspace*{26.38mm}Manifeste}\\rlap{\\hspace*{42.88mm}$\\text{{\\MoonFont ♈}A} = \\text{{\\MoonFont ♈}O} + \\text{OA}$;}\\rlap{\\hspace*{75.19mm}et}\\rlap{\\hspace*{79.86mm}quoniam}",
+     "transcription": "ipsius stellae S. Manifeste $\\text{♈A} = \\text{♈O} + \\text{OA}$; et quoniam",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0286-body-L015",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{38.30mm}$OA = EA - \\text{90°}$,}",
+     "transcription": "$OA = EA - \\text{90°}$,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0286-body-L016",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{20.06mm}erit}\\rlap{\\hspace*{29.45mm}$\\text{{\\MoonFont ♈}}A = \\text{{\\MoonFont ♈}}O + EA - \\text{90°}$,}\\rlap{\\hspace*{73.58mm}scilicet}\\rlap{\\hspace*{88.41mm}$\\text{90°} + \\text{{\\MoonFont ♈}}A = \\text{{\\MoonFont ♈}}O + EA$.}",
+     "transcription": "erit $\\text{♈}A = \\text{♈}O + EA - \\text{90°}$, scilicet $\\text{90°} + \\text{♈}A = \\text{♈}O + EA$.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0286-body-L017",
+     "source_line_no": null,
+     "tex": "\\Indent Tabulae ascensionum rectarum dabunt postea gradum eclipticae respondentem ascensioni",
+     "transcription": "Tabulae ascensionum rectarum dabunt postea gradum eclipticae respondentem ascensioni",
+     "semantic_anchor": "AB01-PDF0286-P02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0286-body-L018",
+     "source_line_no": null,
+     "tex": "rectae ita repertae.",
+     "transcription": "rectae ita repertae.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0286-body-L019",
+     "source_line_no": null,
+     "tex": "\\CenterLine{A\\textsc{d} \\textsc{caput} XXV.}",
+     "transcription": "A{sc:d} {sc:caput} XXV.",
+     "semantic_anchor": "AB01-PDF0286-H19",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0286-body-L020",
+     "source_line_no": null,
+     "tex": "\\CenterLine{\\textbf{\\textit{a}}) — \\textit{Pag. 36–37.}}",
+     "transcription": "{bi:a}) — *Pag. 36–37.*",
+     "semantic_anchor": "AB01-PDF0286-H20",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0286-body-L021",
+     "source_line_no": null,
+     "tex": "\\Indent \\textit{Longitudinem stellae} supputare, datis declinatione stellae et gradu eclipticae eodem tem-",
+     "transcription": "*Longitudinem stellae* supputare, datis declinatione stellae et gradu eclipticae eodem tem-",
+     "semantic_anchor": "AB01-PDF0286-P03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0286-body-L022",
+     "source_line_no": null,
+     "tex": "pore quo sidus per circulum meridianum transeunti.",
+     "transcription": "pore quo sidus per circulum meridianum transeunti.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0286-body-L023",
+     "source_line_no": null,
+     "tex": "\\Indent Est problema contrarium problemati XVIII capitis, cuius regulas invertere sufficiebat.",
+     "transcription": "Est problema contrarium problemati XVIII capitis, cuius regulas invertere sufficiebat.",
+     "semantic_anchor": "AB01-PDF0286-P04",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0286-body-L024",
+     "source_line_no": null,
+     "tex": "Auctor contra novam solutionem quaerit, infelicissime quidem ut infra patebit. Sit \\textgreek{δ} declinatio",
+     "transcription": "Auctor contra novam solutionem quaerit, infelicissime quidem ut infra patebit. Sit δ declinatio",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0286-body-L025",
+     "source_line_no": null,
+     "tex": "stellae datae, \\textgreek{δ}′ declinatio gradus cum ea culminantis, \\textgreek{ε} obliquitas eclipticae; regulae haec sunt:",
+     "transcription": "stellae datae, δ′ declinatio gradus cum ea culminantis, ε obliquitas eclipticae; regulae haec sunt:",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0286-body-L026",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{8.27mm}\\textbf{I.}}\\rlap{\\hspace*{12.46mm}Cum \\textgreek{δ} et \\textgreek{δ}′ in eadem plaga sint:}",
+     "transcription": "**I.** Cum δ et δ′ in eadem plaga sint:",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0286-body-L027",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{11.79mm}$\\text{\\textgreek{δ}} - \\text{\\textgreek{δ}}'\\ (\\text{vel}\\ \\text{\\textgreek{δ}}' - \\text{\\textgreek{δ}}) = \\text{declinatio aequata}$.}",
+     "transcription": "$\\text{δ} - \\text{δ}'\\ (\\text{vel}\\ \\text{δ}' - \\text{δ}) = \\text{declinatio aequata}$.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0286-body-L028",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{12.49mm}$2R - \\cos\\text{\\textgreek{ε}} = \\text{sinus longissimus}$.}",
+     "transcription": "$2R - \\cos\\text{ε} = \\text{sinus longissimus}$.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0286-body-L029",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{11.97mm}$2R - \\cos\\text{\\textgreek{δ}}' = \\text{sinus crescens}$.}",
+     "transcription": "$2R - \\cos\\text{δ}' = \\text{sinus crescens}$.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0286-body-L030",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{11.97mm}$R\\,\\dfrac{\\sin\\text{\\textgreek{ε}}}{\\cos\\text{\\textgreek{δ}}'}$}\\rlap{\\hspace*{25.02mm}$= \\text{sinus obliquitatis aequatae}$.}",
+     "transcription": "$R\\,\\dfrac{\\sin\\text{ε}}{\\cos\\text{δ}'}$ $= \\text{sinus obliquitatis aequatae}$.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0286-body-L031",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{11.79mm}$\\dfrac{\\text{sin obliq. aeq.} \\times \\text{sin decl. aeq.}}{\\text{cos decl. aeq.}} \\times \\dfrac{\\text{sin cresc.}}{\\text{sin long.}} \\times \\dfrac{\\cos\\text{\\textgreek{ε}}}{\\text{cos obl. aeq.}} \\times \\dfrac{\\text{sin dist. solst. gradus culm.}}{R} =$}",
+     "transcription": "$\\dfrac{\\text{sin obliq. aeq.} \\times \\text{sin decl. aeq.}}{\\text{cos decl. aeq.}} \\times \\dfrac{\\text{sin cresc.}}{\\text{sin long.}} \\times \\dfrac{\\cos\\text{ε}}{\\text{cos obl. aeq.}} \\times \\dfrac{\\text{sin dist. solst. gradus culm.}}{R} =$",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0286-body-L032",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.00mm}$=$}\\rlap{\\hspace*{6.36mm}sin variationis stellae.}",
+     "transcription": "$=$ sin variationis stellae.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0286-body-L033",
+     "source_line_no": null,
+     "tex": "\\Indent Animadvertendum est distantiam solstitialem gradus cum stella culminantis esse ascensio-",
+     "transcription": "Animadvertendum est distantiam solstitialem gradus cum stella culminantis esse ascensio-",
+     "semantic_anchor": "AB01-PDF0286-P05",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0286-body-L034",
+     "source_line_no": null,
+     "tex": "nibus rectis supputatam.",
+     "transcription": "nibus rectis supputatam.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0286-body-L035",
+     "source_line_no": null,
+     "tex": "\\Indent Si gradus cum stella culminans pertinet ad signa zodiacalia descendentia (ab initio Cancri",
+     "transcription": "Si gradus cum stella culminans pertinet ad signa zodiacalia descendentia (ab initio Cancri",
+     "semantic_anchor": "AB01-PDF0286-P06",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0286-body-L036",
+     "source_line_no": null,
+     "tex": "ad finem Sagittarii), arcus variationis stellae subtrahetur aut addetur ascensioni rectae gradus",
+     "transcription": "ad finem Sagittarii), arcus variationis stellae subtrahetur aut addetur ascensioni rectae gradus",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0286-body-L037",
+     "source_line_no": null,
+     "tex": "cum stella culminantis, prout \\textgreek{δ} borealis aut australis fuerit.",
+     "transcription": "cum stella culminantis, prout δ borealis aut australis fuerit.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0286-body-L038",
+     "source_line_no": null,
+     "tex": "\\Indent Si gradus culminans est in signis ascendentibus (ab initio Capricorni ad Geminorum finem),",
+     "transcription": "Si gradus culminans est in signis ascendentibus (ab initio Capricorni ad Geminorum finem),",
+     "semantic_anchor": "AB01-PDF0286-P07",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0286-body-L039",
+     "source_line_no": null,
+     "tex": "additio adhibebitur cum \\textgreek{δ} borealis, subductio cum \\textgreek{δ} australis fuerit.",
+     "transcription": "additio adhibebitur cum δ borealis, subductio cum δ australis fuerit.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0286-body-L040",
+     "source_line_no": null,
+     "tex": "\\Indent Summa vel differentia reperta quaeratur in ascensionibus rectis; gradus eclipticae ei res-",
+     "transcription": "Summa vel differentia reperta quaeratur in ascensionibus rectis; gradus eclipticae ei res-",
+     "semantic_anchor": "AB01-PDF0286-P08",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0286-body-L041",
+     "source_line_no": null,
+     "tex": "pondens erit longitudo stellae.",
+     "transcription": "pondens erit longitudo stellae.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    }
+   ]
+  }
+ ]
+}

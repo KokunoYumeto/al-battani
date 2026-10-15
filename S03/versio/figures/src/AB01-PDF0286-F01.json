@@ -1,0 +1,242 @@
+{
+ "pdf": 286,
+ "printed_page": 197,
+ "comment": [
+  "Nallino, Part I p. 197: the right ascension of the degree culminating with a star, redrawn from the print: the",
+  "meridian as a circle; the horizon, the equator EE' and the axis from the centre O to the pole P as straight lines;",
+  "the ecliptic, from the left of the circle through the first point of Aries, K and I to R, and the circle of",
+  "declination of the star, from P through S and I to A on the equator, as arcs; the bold italic letters and the sign",
+  "of Aries. Measured on the scan (_intake/latin/tools/fig197)."
+ ],
+ "origin": [
+  64.1,
+  200.5
+ ],
+ "scale": 0.99281,
+ "size": [
+  112.0,
+  120.0
+ ],
+ "label_pt": 11,
+ "circles": [
+  {
+   "name": "the meridian",
+   "cx": 121.41,
+   "cy": 266.96,
+   "r": 48.73,
+   "w": 1.21
+  }
+ ],
+ "segments": [
+  {
+   "name": "the horizon",
+   "x0": 72.68,
+   "y0": 267.13,
+   "x1": 170.15,
+   "y1": 267.16,
+   "w": 1.08
+  },
+  {
+   "name": "the equator EE'",
+   "x0": 95.15,
+   "y0": 225.91,
+   "x1": 148.24,
+   "y1": 307.65,
+   "w": 1.06
+  },
+  {
+   "name": "the axis from the centre to the pole P",
+   "x0": 122.39,
+   "y0": 267.15,
+   "x1": 162.59,
+   "y1": 240.89,
+   "w": 1.0
+  }
+ ],
+ "arcs": [
+  {
+   "name": "the ecliptic, from the left of the circle to R",
+   "cx": 34.49,
+   "cy": 413.58,
+   "r": 177.89,
+   "a0": -75.235,
+   "a1": -43.44,
+   "w": 1.05
+  },
+  {
+   "name": "the circle of declination of the star, from P to A",
+   "cx": 101.36,
+   "cy": 233.72,
+   "r": 61.73,
+   "a0": 6.786,
+   "a1": 57.884,
+   "w": 0.99
+  }
+ ],
+ "labels": [
+  {
+   "t": "\\resizebox{7.05pt}{7.03pt}{E}",
+   "cx": 103.57,
+   "cy": 215.98,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{5.97pt}{7.02pt}{P}",
+   "cx": 168.64,
+   "cy": 236.46,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{9.45pt}{8.80pt}{♈}",
+   "cx": 108.2,
+   "cy": 259.18,
+   "font": "\\fontsize{11}{11}\\MoonFont"
+  },
+  {
+   "t": "\\resizebox{6.97pt}{7.16pt}{S}",
+   "cx": 159.14,
+   "cy": 262.64,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{6.60pt}{7.61pt}{O}",
+   "cx": 118.6,
+   "cy": 272.72,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{7.90pt}{7.60pt}{K}",
+   "cx": 131.87,
+   "cy": 272.56,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{3.15pt}{6.77pt}{I}",
+   "cx": 145.77,
+   "cy": 281.74,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{6.95pt}{7.13pt}{A}",
+   "cx": 126.73,
+   "cy": 286.32,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{6.39pt}{7.44pt}{R}",
+   "cx": 167.89,
+   "cy": 291.94,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{10.55pt}{9.77pt}{E′}",
+   "cx": 152.37,
+   "cy": 311.88,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  }
+ ],
+ "boxes": {
+  "E": [
+   7.44,
+   7.08
+  ],
+  "P": [
+   6.6,
+   7.08
+  ],
+  "♈": [
+   8.76,
+   9.0
+  ],
+  "S": [
+   6.6,
+   7.32
+  ],
+  "O": [
+   6.12,
+   7.8
+  ],
+  "K": [
+   8.46,
+   7.68
+  ],
+  "I": [
+   3.84,
+   6.84
+  ],
+  "A": [
+   6.84,
+   7.2
+  ],
+  "R": [
+   6.36,
+   7.56
+  ],
+  "E′": [
+   11.4,
+   9.84
+  ]
+ },
+ "points": {
+  "horL": [
+   72.68,
+   267.13
+  ],
+  "horR": [
+   170.15,
+   267.16
+  ],
+  "E": [
+   95.15,
+   225.91
+  ],
+  "E2": [
+   148.24,
+   307.65
+  ],
+  "O": [
+   121.93,
+   267.15
+  ],
+  "O_axis": [
+   122.39,
+   267.15
+  ],
+  "P": [
+   162.59,
+   240.89
+  ],
+  "eclL": [
+   79.82,
+   241.57
+  ],
+  "R": [
+   163.65,
+   291.27
+  ],
+  "P_decl": [
+   162.66,
+   241.01
+  ],
+  "Ar": [
+   113.54,
+   254.23
+  ],
+  "K": [
+   135.49,
+   267.15
+  ],
+  "I": [
+   146.73,
+   275.58
+  ],
+  "S": [
+   153.25,
+   267.15
+  ],
+  "A": [
+   134.18,
+   286.0
+  ]
+ }
+}
