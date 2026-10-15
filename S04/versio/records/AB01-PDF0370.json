@@ -1,0 +1,522 @@
+{
+ "anchor": "AB01-PDF0370",
+ "master_pdf_page": 370,
+ "printed_page": 281,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": "36",
+ "margin_locators": [],
+ "observations": [
+  "body L1-L20: every line of the quotation of al-Khāzinī opens with a guillemet; the quotation ends in L20. The guillemet before «staverit» (L4) prints deformed, like an x; a speck stands in the right margin beside L1.",
+  "body L10-L11: the Arabic phrase «وقسمناه على السبق المرئي لتلك الساعة خاصة دون سبقه الحقيقي», ‘and we divided it by the apparent precession of that hour alone, not by its true precession’, is divided between the lines, within the parentheses of the Latin. The lam of «السبق» (L11) prints broken, the top of its stem 1.6 pt apart like a dot, so that the word looks like «انسبق». The print sets L11 1.1 pt lower than the even spacing of L10 and L12.",
+  "body L16, L22, L28, L38-L39: the dashes measure 10.0, 10.1, 9.4, 9.7 and 9.6 pt.",
+  "body L20-L21: «al–murattabah» has a long dash (4.2 pt), and so has «133,r.–134,v.» (5.4 pt); «Ḥabash» is letter-spaced.",
+  "body L22, L38: the hyphens of «22-26» and «31-33» measure 3.7 and 3.5 pt.",
+  "body L24-L28: a heavy bracket opens the addition (L24) and another closes it (L28). The formulas are right: ½ (33′ 40″ + 35′ 20″) = ½ · 69′ = 34′ 30″ and ½ (31′ 20″ + 29′ 30″) = ½ · 60′ 50″ = 30′ 25″, with the diameters of p. 58 of the translation: the Sun 31′ 20″ in the apogee and 33′ 40″ in the perigee, the Moon 29′ 30″ (29′ ½) and 35′ 20″ (35′ ⅓). The translation, p. 106, notes 1-4, gives the codex 0° 36′ 39″ and 0° 34′ 36″ and Plato 0° 54′ 30″ (0° 54′ 53″ in note 3) and 0° 30′ 35″: Plato's upper limit in note 1 differs from 34′ 30″ only in the tens of the minutes, and his lower limit lies within 10″ of 30′ 25″. The equals signs of L26-L27 measure 9.4-10.0 pt; each piece of the two formulas is placed as printed.",
+  "body L29-L37: Nallino's addenda (Part I, p. LXXV) note that the passage belongs not to the Alfonsine Tables themselves but to the canons written for them by Santritter (cf. his preface, p. XXXVI, note 7). «Albategni» (L29) and «Alphonsi» (L35) are letter-spaced; «visa. et» (L32) is printed with a small et after the full stop.",
+  "body L39: the dots are five; the passage quoted is the translation, p. 106, l. 31-33, «Si hoc deprehendere calculo mavis ... ita calculus verior fit», and the heavy bracket opens an addition that continues on p. 282.",
+  "notes_left L1-L2: «Albatenii» (L1) is letter-spaced; «al–Khāzinī» (L2) has a long dash (4.3 pt). The rule between the two columns of the notes prints faint and broken.",
+  "notes_right L1-L3: «Al-Battānī» and «al-Battānī» have hyphens (3.1 and 3.0 pt), and so have «7-» and «-11» (3.4 and 3.2 pt). The signature 36 stands at the foot of the page, at the right."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0370-body-L001",
+     "source_line_no": null,
+     "tex": "« erit \\textit{prima parallaxis}. Eam per praecessionem veram Lunae dividamus; provenient \\textit{horae}",
+     "transcription": "« erit *prima parallaxis*. Eam per praecessionem veram Lunae dividamus; provenient *horae*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0370-body-L002",
+     "source_line_no": null,
+     "tex": "« \\textit{primae parallaxis}. Si Luna minus 90° ab ascendente distaverit, eas ab horis verae coniun-",
+     "transcription": "« *primae parallaxis*. Si Luna minus 90° ab ascendente distaverit, eas ab horis verae coniun-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0370-body-L003",
+     "source_line_no": null,
+     "tex": "« ctionis, et primam parallaxim a gradu [eiusdem coniunctionis] dememus; si magis 90° di-",
+     "transcription": "« ctionis, et primam parallaxim a gradu [eiusdem coniunctionis] dememus; si magis 90° di-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0370-body-L004",
+     "source_line_no": null,
+     "tex": "« staverit, ambas res addemus; provenient \\textit{horae secundae coniunctionis,} et \\textit{locus apparens}",
+     "transcription": "« staverit, ambas res addemus; provenient *horae secundae coniunctionis,* et *locus apparens*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0370-body-L005",
+     "source_line_no": null,
+     "tex": "« \\textit{Lunae}. Per has quantitates iterum parallaxim longitudinis cognoscamus; postea ut supra",
+     "transcription": "« *Lunae*. Per has quantitates iterum parallaxim longitudinis cognoscamus; postea ut supra",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0370-body-L006",
+     "source_line_no": null,
+     "tex": "« operemur eam per praecessionem Lunae dividendo, et additione et subductione deinde",
+     "transcription": "« operemur eam per praecessionem Lunae dividendo, et additione et subductione deinde",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0370-body-L007",
+     "source_line_no": null,
+     "tex": "« utendo. Si secunda parallaxis ipsa fuerit aequalis primae, et \\textit{horae tertiae coniunctionis}",
+     "transcription": "« utendo. Si secunda parallaxis ipsa fuerit aequalis primae, et *horae tertiae coniunctionis*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0370-body-L008",
+     "source_line_no": null,
+     "tex": "« aequales horis secundae, erunt hae horae medii eclipsis, atque Luna apparens erit quae quae-",
+     "transcription": "« aequales horis secundae, erunt hae horae medii eclipsis, atque Luna apparens erit quae quae-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0370-body-L009",
+     "source_line_no": null,
+     "tex": "« rebatur. At si secunda parallaxis fuerit a prima diversa, differentiam inter eas (1) dividamus",
+     "transcription": "« rebatur. At si secunda parallaxis fuerit a prima diversa, differentiam inter eas (1) dividamus",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0370-body-L010",
+     "source_line_no": null,
+     "tex": "« per praecessionem \\textit{apparentem in ea hora} (2), \\textit{et non per praecessionem veram} (\\ArabicRun{وقسمناه}",
+     "transcription": "« per praecessionem *apparentem in ea hora* (2), *et non per praecessionem veram* ({ar:وقسمناه}",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0370-body-L011",
+     "source_line_no": null,
+     "tex": "« \\ArabicRun{على السبق المرئي لتلك الساعة خاصة دون سبقه الحقيقي}); quod proveniet erit fractio horae. Si secunda",
+     "transcription": "« {ar:على السبق المرئي لتلك الساعة خاصة دون سبقه الحقيقي}); quod proveniet erit fractio horae. Si secunda",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0370-body-L012",
+     "source_line_no": null,
+     "tex": "« parallaxis fuerit maior prima, fractionem addemus horis secundae parallaxis ut fiant \\textit{ae-}",
+     "transcription": "« parallaxis fuerit maior prima, fractionem addemus horis secundae parallaxis ut fiant *ae-*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0370-body-L013",
+     "source_line_no": null,
+     "tex": "« \\textit{quatae}; si autem secunda fuerit minor prima parallaxe, fractionem dememus, inveniemusque",
+     "transcription": "« *quatae*; si autem secunda fuerit minor prima parallaxe, fractionem dememus, inveniemusque",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0370-body-L014",
+     "source_line_no": null,
+     "tex": "« \\textit{horas aequatas}. Postea si gradus coniunctionis ab ascendente minus 90° distaverit, has ho-",
+     "transcription": "« *horas aequatas*. Postea si gradus coniunctionis ab ascendente minus 90° distaverit, has ho-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0370-body-L015",
+     "source_line_no": null,
+     "tex": "« ras aequatas de horis verae coniunctionis dememus; si distantia maior 90°, horas aequatas",
+     "transcription": "« ras aequatas de horis verae coniunctionis dememus; si distantia maior 90°, horas aequatas",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0370-body-L016",
+     "source_line_no": null,
+     "tex": "« addemus. Quod a subductione aut additione proveniet erunt \\textit{horae medii eclipsis}. — Postea",
+     "transcription": "« addemus. Quod a subductione aut additione proveniet erunt *horae medii eclipsis*. — Postea",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0370-body-L017",
+     "source_line_no": null,
+     "tex": "« has horas aequatas multiplicemus in motus Solis, Lunae, nodi, anomaliae Lunae; producta",
+     "transcription": "« has horas aequatas multiplicemus in motus Solis, Lunae, nodi, anomaliae Lunae; producta",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0370-body-L018",
+     "source_line_no": null,
+     "tex": "« addamus locis correspondentibus tempore coniunctionis, si horae aequatae erant additivae,",
+     "transcription": "« addamus locis correspondentibus tempore coniunctionis, si horae aequatae erant additivae,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0370-body-L019",
+     "source_line_no": null,
+     "tex": "« aut demamus si horae erant subtractivae; nodo tantum excepto, cum quo operandum est",
+     "transcription": "« aut demamus si horae erant subtractivae; nodo tantum excepto, cum quo operandum est",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0370-body-L020",
+     "source_line_no": null,
+     "tex": "« contrarie (3). Exibunt \\textit{loca praecisa} (\\textit{al–murattabah}) ».",
+     "transcription": "« contrarie (3). Exibunt *loca praecisa* (*al–murattabah*) ».",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0370-body-L021",
+     "source_line_no": null,
+     "tex": "\\Indent \\Name{Ḥabash}, f. 133,r.–134,v., methodum Ptolemaicam sequitur.",
+     "transcription": "{sp:Ḥabash}, f. 133,r.–134,v., methodum Ptolemaicam sequitur.",
+     "semantic_anchor": "AB01-PDF0370-P01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0370-body-L022",
+     "source_line_no": null,
+     "tex": "\\CenterLine{\\textbf{\\textit{b}}) — \\textit{Pag. 106, l. 22-26.}}",
+     "transcription": "{bi:b}) — *Pag. 106, l. 22-26.*",
+     "semantic_anchor": "AB01-PDF0370-H22",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0370-body-L023",
+     "source_line_no": null,
+     "tex": "\\Indent \\textit{Latitudines apparentes} intra quas Luna esse debet ut eclipsis Solis fiat.",
+     "transcription": "*Latitudines apparentes* intra quas Luna esse debet ut eclipsis Solis fiat.",
+     "semantic_anchor": "AB01-PDF0370-P02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0370-body-L024",
+     "source_line_no": null,
+     "tex": "\\Indent [Hi limites latitudinis in codice omnino falsi; multo melius apud Platonem. Nam horum",
+     "transcription": "[Hi limites latitudinis in codice omnino falsi; multo melius apud Platonem. Nam horum",
+     "semantic_anchor": "AB01-PDF0370-P03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0370-body-L025",
+     "source_line_no": null,
+     "tex": "terminorum",
+     "transcription": "terminorum",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0370-body-L026",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{28.83mm}\\llap{maximus}}\\rlap{\\hspace*{30.32mm}$=$}\\rlap{\\hspace*{35.95mm}max.}\\rlap{\\hspace*{46.72mm}semidiam.}\\rlap{\\hspace*{66.93mm}\\SunSym{}}\\rlap{\\hspace*{72.70mm}+}\\rlap{\\hspace*{78.77mm}max.}\\rlap{\\hspace*{89.10mm}semid.}\\rlap{\\hspace*{102.17mm}\\MoonSym{}}\\rlap{\\hspace*{106.52mm}$=$}\\rlap{\\hspace*{112.46mm}$\\qfrac{1}{2}$}\\rlap{\\hspace*{118.04mm}(33′}\\rlap{\\hspace*{126.46mm}40″}\\rlap{\\hspace*{134.66mm}+}\\rlap{\\hspace*{140.60mm}35′}\\rlap{\\hspace*{147.61mm}20″)}\\rlap{\\hspace*{157.49mm}$=$}\\rlap{\\hspace*{163.12mm}34′}\\rlap{\\hspace*{170.88mm}30″}",
+     "transcription": "maximus $=$ max. semidiam. ⊙ + max. semid. ☾ $=$ {sfrac:1/2} (33′ 40″ + 35′ 20″) $=$ 34′ 30″",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0370-body-L027",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{28.95mm}\\llap{minimus}}\\rlap{\\hspace*{30.41mm}$=$}\\rlap{\\hspace*{36.39mm}min.}\\rlap{\\hspace*{45.61mm}semidiam.}\\rlap{\\hspace*{65.83mm}\\SunSym{}}\\rlap{\\hspace*{71.59mm}+}\\rlap{\\hspace*{77.66mm}min.}\\rlap{\\hspace*{86.92mm}semid.}\\rlap{\\hspace*{100.00mm}\\MoonSym{}}\\rlap{\\hspace*{104.39mm}$=$}\\rlap{\\hspace*{110.11mm}$\\qfrac{1}{2}$}\\rlap{\\hspace*{115.74mm}(31′}\\rlap{\\hspace*{124.16mm}20″}\\rlap{\\hspace*{132.45mm}+}\\rlap{\\hspace*{138.39mm}29′}\\rlap{\\hspace*{145.52mm}30″)}\\rlap{\\hspace*{155.14mm}$=$}\\rlap{\\hspace*{160.91mm}30′}\\rlap{\\hspace*{168.00mm}25″.}",
+     "transcription": "minimus $=$ min. semidiam. ⊙ + min. semid. ☾ $=$ {sfrac:1/2} (31′ 20″ + 29′ 30″) $=$ 30′ 25″.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0370-body-L028",
+     "source_line_no": null,
+     "tex": "Diametri Albatenianae Solis et Lunae sunt p. 58. — \\textsc{Schiaparelli}.]",
+     "transcription": "Diametri Albatenianae Solis et Lunae sunt p. 58. — {sc:Schiaparelli}.]",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0370-body-L029",
+     "source_line_no": null,
+     "tex": "\\Indent Hunc locum fusius exponunt \\textit{Tabulae Alphonsinae}: « Est ergo regula \\Name{Albategni} de",
+     "transcription": "Hunc locum fusius exponunt *Tabulae Alphonsinae*: « Est ergo regula {sp:Albategni} de",
+     "semantic_anchor": "AB01-PDF0370-P04",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0370-body-L030",
+     "source_line_no": null,
+     "tex": "« necessitate eclipsis Solis talis: quod inveniantur semidiameter Solis et semidiameter Lunae",
+     "transcription": "« necessitate eclipsis Solis talis: quod inveniantur semidiameter Solis et semidiameter Lunae",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0370-body-L031",
+     "source_line_no": null,
+     "tex": "« tempore verissimae coniunctionis: et iungentur simul. Et ad idem tempus inveniatur latitudo",
+     "transcription": "« tempore verissimae coniunctionis: et iungentur simul. Et ad idem tempus inveniatur latitudo",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0370-body-L032",
+     "source_line_no": null,
+     "tex": "« Lunae visa. et tunc si latitudo Lunae visa fuerit aequalis aggregato ex semidiametris Solis",
+     "transcription": "« Lunae visa. et tunc si latitudo Lunae visa fuerit aequalis aggregato ex semidiametris Solis",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0370-body-L033",
+     "source_line_no": null,
+     "tex": "« et Lunae: transibit Luna prope Solem: et non eclipsabitur Sol. Et si latitudo Lunae fuerit",
+     "transcription": "« et Lunae: transibit Luna prope Solem: et non eclipsabitur Sol. Et si latitudo Lunae fuerit",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0370-body-L034",
+     "source_line_no": null,
+     "tex": "« maior: impossibile est fieri eclipsim Solis. Sed si latitudo fuerit minor quam aggregatum",
+     "transcription": "« maior: impossibile est fieri eclipsim Solis. Sed si latitudo fuerit minor quam aggregatum",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0370-body-L035",
+     "source_line_no": null,
+     "tex": "« ex semidiametris: necessario fit eclipsis Solis » (\\textit{Tabulae astronomicae Divi} \\Name{Alphonsi}",
+     "transcription": "« ex semidiametris: necessario fit eclipsis Solis » (*Tabulae astronomicae Divi* {sp:Alphonsi}",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0370-body-L036",
+     "source_line_no": null,
+     "tex": "\\textit{Regis Romanorum et Castellae, nuper quam diligentissime cum additionibus emendatae,}",
+     "transcription": "*Regis Romanorum et Castellae, nuper quam diligentissime cum additionibus emendatae,*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0370-body-L037",
+     "source_line_no": null,
+     "tex": "Venetiis 1518, fol. 19,r., prop. XXXII).",
+     "transcription": "Venetiis 1518, fol. 19,r., prop. XXXII).",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0370-body-L038",
+     "source_line_no": null,
+     "tex": "\\CenterLine{\\textbf{\\textit{c}}) — \\textit{Pag. 106, l. 31-33.}}",
+     "transcription": "{bi:c}) — *Pag. 106, l. 31-33.*",
+     "semantic_anchor": "AB01-PDF0370-H38",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0370-body-L039",
+     "source_line_no": null,
+     "tex": "\\Indent [« \\textit{Si hoc deprehendere calculo mavis} ..... ». — Totus hic locus, Italicis litteris im-",
+     "transcription": "[« *Si hoc deprehendere calculo mavis* ..... ». — Totus hic locus, Italicis litteris im-",
+     "semantic_anchor": "AB01-PDF0370-P05",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0370-body-L040",
+     "source_line_no": null,
+     "tex": "pressus, manifeste alio deperdito surrogatus est ab imperito viro. Explicari debebat alia ratio",
+     "transcription": "pressus, manifeste alio deperdito surrogatus est ab imperito viro. Explicari debebat alia ratio",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    }
+   ]
+  },
+  {
+   "role": "notes_left",
+   "lines": [
+    {
+     "id": "AB01-PDF0370-notes_left-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (1) \\Name{Albatenii} error, de quo cfr. p. 278. Bre-",
+     "transcription": "(1) {sp:Albatenii} error, de quo cfr. p. 278. Bre-",
+     "semantic_anchor": "AB01-PDF0370-N01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0370-notes_left-L002",
+     "source_line_no": null,
+     "tex": "vitatis studio \\Name{al–Khāzinī} casum simpliciorem",
+     "transcription": "vitatis studio {sp:al–Khāzinī} casum simpliciorem",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0370-notes_left-L003",
+     "source_line_no": null,
+     "tex": "considerat, cum scilicet prima adproximatio \\textgreek{ϑ} + \\textgreek{ε}′",
+     "transcription": "considerat, cum scilicet prima adproximatio ϑ + ε′",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0370-notes_left-L004",
+     "source_line_no": null,
+     "tex": "sufficiat.",
+     "transcription": "sufficiat.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  },
+  {
+   "role": "notes_right",
+   "lines": [
+    {
+     "id": "AB01-PDF0370-notes_right-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (2) \\Name{Al-Battānī} p. 105, l. 23 et 33.",
+     "transcription": "(2) {sp:Al-Battānī} p. 105, l. 23 et 33.",
+     "semantic_anchor": "AB01-PDF0370-N02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0370-notes_right-L002",
+     "source_line_no": null,
+     "tex": "\\Indent (3) Hoc praeceptum \\Name{al-Battānī} p. 106, l. 7-",
+     "transcription": "(3) Hoc praeceptum {sp:al-Battānī} p. 106, l. 7-",
+     "semantic_anchor": "AB01-PDF0370-N03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0370-notes_right-L003",
+     "source_line_no": null,
+     "tex": "-11, explicate non habet; sed facile subauditur, nam",
+     "transcription": "-11, explicate non habet; sed facile subauditur, nam",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0370-notes_right-L004",
+     "source_line_no": null,
+     "tex": "motus nodi est retrogradus.",
+     "transcription": "motus nodi est retrogradus.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  }
+ ]
+}
