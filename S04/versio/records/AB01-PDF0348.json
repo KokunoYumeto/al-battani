@@ -1,0 +1,448 @@
+{
+ "anchor": "AB01-PDF0348",
+ "master_pdf_page": 348,
+ "printed_page": 259,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "margin_locators": [],
+ "observations": [
+  "body L1: the o of «considera-» is covered by a blot.",
+  "body L1-L11: the figure stands on the right of these lines and is redrawn from the print: the sphere (radius 59.5 pt), the meridian AEB, the equator CED, the ecliptic from G through H and the first point of Aries to F, and the arc KLC from K to C, as arcs of circles fitted to the print (radius 408.5, 212.3, 179.1 and 63.8 pt); the centre of the arc KLC lies 0.5 pt from H, its pole. The words «ecliptica» and «aequator» run along their circles; the sign of Aries stands over the meeting of the ecliptic and the equator.",
+  "body L3, L9: «Menelai» is letter-spaced in L3, not in L9. Menelaus' theorem is stated on p. 192, in Schiaparelli's addition to the notes on chapter 18. The sign of Aries is printed «♈» in L4 and in the formulas.",
+  "body L5-L12: H is the pole of KLC, so HK and HL are quadrants; C, on the equator 90° from E, is a pole of the meridian, so KC is a quadrant and KL measures the angle LHE. The theorem of Menelaus for the triangle HKL cut by the equator, which meets HK in E, HL in ♈ and KL produced in C, gives L11; with HE = δ, EK = 90° − δ, H♈ = λ, ♈L = 90° − λ and LC = 90° − KL it becomes L12, that is cos ang. lat. = R tan δ : tan λ, formula (α) of p. 258. The comma after L11 is printed high, beside the tops of the denominators; in L12 the bar after «90°» (9.8 pt, as long as the signs of equality) is a minus sign.",
+  "body L13: the dash after «q)» measures 10.2 pt, the hyphen of «5-8» 3.2 pt.",
+  "body L14-L22: the place is p. 82, L5-L8 («nam arcus horizontis inter ortum gradus ascendentis et directionem gradus dati in horizonte est ut quantitas anguli latitudinis»). The hyphen of «colligun-» stands high; a speck prints before «tur» (L15) and another in the margin before L17. Heavy brackets open and close Schiaparelli's addition; «al–Battānī» (L18) has a long dash (5.4 pt), the dash before «Schiaparelli» measures 9.2 pt.",
+  "body L23: the dash after «r)» measures 10.2 pt, the hyphen of «8-26» 3.5 pt.",
+  "body L24-L29: the a of «distantiae» (L24) prints broken; the dash after «zenithalis.» (L26) measures 10.2 pt; «al–Battānī» (L28) has a long dash (5.9 pt). The z of the zenith distance of the Moon (L27, L29) is printed as a tailed italic z. «adn. h, p. 256»: ζ is computed by formula (α) of note i), p. 256, L34; note h) there (L7) concerns the distance of the Sun. (α) is al-Battānī's rule of p. 82, L13-L21: the arc whose sine is sin β sin ang. lat. : R taken from ζ when the Moon lies toward the zenith from the ecliptic, added to it otherwise; the derivation and Schiaparelli's comparison with the exact rule follow on p. 260.",
+  "body L30-L40: the figure stands on the left of these lines and is redrawn from the print: the ecliptic GA, a flat arc (radius 1185 pt) beginning left of the margin; the vertical circles ZT, ZK and ZD, arcs of circles fitted to the print through the apex Z (radius 153.6, 171.3 and 167.7 pt); the circle of latitude EBD and the perpendiculars EL and KD, straight strokes; the stroke from the pole Q to E in eight dashes, the last joined to E. «370–72» (L31) has a long dash (5.5 pt).",
+  "body L38-L40: the triangles ELB and BKD, right-angled at L and K, have equal hypotenuses EB = BD = β and equal vertical angles at B, so EL = DK; the law of sines (p. 181, note 1) gives sin EL = sin EB sin EBL : R, with EBL the angle of longitude: as printed."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0348-body-F01",
+     "source_line_no": null,
+     "tex": "\\input{figures/AB01-PDF0348-F01}",
+     "transcription": "[figure, redrawn: figures/AB01-PDF0348-F01.tex]",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_FIGURE"
+    },
+    {
+     "id": "AB01-PDF0348-body-L001",
+     "source_line_no": null,
+     "tex": "\\Indent In \\textit{Almagesto} hoc peculiare problema non considera-",
+     "transcription": "In *Almagesto* hoc peculiare problema non considera-",
+     "semantic_anchor": "AB01-PDF0348-P01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0348-body-L002",
+     "source_line_no": null,
+     "tex": "tur. Solutio \\Name{Albateniana} probabiliter auxilio theorematis",
+     "transcription": "tur. Solutio {sp:Albateniana} probabiliter auxilio theorematis",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0348-body-L003",
+     "source_line_no": null,
+     "tex": "\\Name{Menelai} (p. 192) inventa est, iuxta Graecorum morem. Sit",
+     "transcription": "{sp:Menelai} (p. 192) inventa est, iuxta Graecorum morem. Sit",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0348-body-L004",
+     "source_line_no": null,
+     "tex": "AEB meridianus, {\\MoonFont ♈} initium Arietis, H gradus eclipticae cul-",
+     "transcription": "AEB meridianus, ♈ initium Arietis, H gradus eclipticae cul-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0348-body-L005",
+     "source_line_no": null,
+     "tex": "minans et gradus Lunae. Ex H, tanquam polo sumpto, arcus",
+     "transcription": "minans et gradus Lunae. Ex H, tanquam polo sumpto, arcus",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0348-body-L006",
+     "source_line_no": null,
+     "tex": "KLC circuli maximi describatur; erunt HK, EC, KC qua-",
+     "transcription": "KLC circuli maximi describatur; erunt HK, EC, KC qua-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0348-body-L007",
+     "source_line_no": null,
+     "tex": "drantes circulorum maximorum; ergo KL metietur angulum",
+     "transcription": "drantes circulorum maximorum; ergo KL metietur angulum",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0348-body-L008",
+     "source_line_no": null,
+     "tex": "LHE $=$ AHG $=$ ang. latit., cum sit nunc meridianus ipse cir-",
+     "transcription": "LHE $=$ AHG $=$ ang. latit., cum sit nunc meridianus ipse cir-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0348-body-L009",
+     "source_line_no": null,
+     "tex": "culus verticalis. Theoremate Menelai, sinibus pro chordis",
+     "transcription": "culus verticalis. Theoremate Menelai, sinibus pro chordis",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0348-body-L010",
+     "source_line_no": null,
+     "tex": "positis,",
+     "transcription": "positis,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0348-body-L011",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{59.67mm}\\makebox[0pt][c]{$\\dfrac{\\sin HE}{\\sin EK} = \\dfrac{\\sin H\\text{{\\MoonFont ♈}}}{\\sin \\text{{\\MoonFont ♈}}L} \\times \\dfrac{\\sin LC}{\\sin KC}\\,,$}}",
+     "transcription": "$\\dfrac{\\sin HE}{\\sin EK} = \\dfrac{\\sin H\\text{♈}}{\\sin \\text{♈}L} \\times \\dfrac{\\sin LC}{\\sin KC}\\,,$",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0348-body-L012",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{93.30mm}\\makebox[0pt][c]{$\\dfrac{\\text{sin decl. gr. culm.}}{\\text{cos decl. gr. culm.}} = \\dfrac{\\text{sin dist. \\MoonSym{} ab {\\MoonFont ♈}}}{\\text{cos dist. \\MoonSym{} ab {\\MoonFont ♈}}} \\times \\dfrac{\\text{sin (90°} - \\text{ang. lat.)}}{R}\\,.$}}",
+     "transcription": "$\\dfrac{\\text{sin decl. gr. culm.}}{\\text{cos decl. gr. culm.}} = \\dfrac{\\text{sin dist. ☾ ab ♈}}{\\text{cos dist. ☾ ab ♈}} \\times \\dfrac{\\text{sin (90°} - \\text{ang. lat.)}}{R}\\,.$",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0348-body-L013",
+     "source_line_no": null,
+     "tex": "\\CenterLine{\\textbf{\\textit{q}}) — \\textit{Pag. 82, l. 5-8.}}",
+     "transcription": "{bi:q}) — *Pag. 82, l. 5-8.*",
+     "semantic_anchor": "AB01-PDF0348-H13",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0348-body-L014",
+     "source_line_no": null,
+     "tex": "\\Indent Locus procul dubio corruptus aut interpolatus. Quae nunc e codice et Platone colligun-",
+     "transcription": "Locus procul dubio corruptus aut interpolatus. Quae nunc e codice et Platone colligun-",
+     "semantic_anchor": "AB01-PDF0348-P02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0348-body-L015",
+     "source_line_no": null,
+     "tex": "tur falsa sunt, scilicet arcum horizontis, ascendente et directione (azimuth) Lunae interceptum,",
+     "transcription": "tur falsa sunt, scilicet arcum horizontis, ascendente et directione (azimuth) Lunae interceptum,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0348-body-L016",
+     "source_line_no": null,
+     "tex": "aequari angulo latitudinis. Nam si Luna in horizonte consistat, arcus ille horizontis manifeste",
+     "transcription": "aequari angulo latitudinis. Nam si Luna in horizonte consistat, arcus ille horizontis manifeste",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0348-body-L017",
+     "source_line_no": null,
+     "tex": "in nihilum redigetur, quod e contra angulo latitudinis minime continget. [Fortasse scripserat",
+     "transcription": "in nihilum redigetur, quod e contra angulo latitudinis minime continget. [Fortasse scripserat",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0348-body-L018",
+     "source_line_no": null,
+     "tex": "\\Name{al–Battānī} angulum illum supputandum esse inter partem eclipticae a Luna ad medium Cae-",
+     "transcription": "{sp:al–Battānī} angulum illum supputandum esse inter partem eclipticae a Luna ad medium Cae-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0348-body-L019",
+     "source_line_no": null,
+     "tex": "lum progredientem et partem verticalis a Luna ad zenith; arcum horizontis inter eclipticam",
+     "transcription": "lum progredientem et partem verticalis a Luna ad zenith; arcum horizontis inter eclipticam",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0348-body-L020",
+     "source_line_no": null,
+     "tex": "(vel ascendens) et verticalem, ab austro aut a septentrionibus eclipticae exstare, prout angu-",
+     "transcription": "(vel ascendens) et verticalem, ab austro aut a septentrionibus eclipticae exstare, prout angu-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0348-body-L021",
+     "source_line_no": null,
+     "tex": "lus latitudinis a borea aut ab austro eclipticae sit. Tamen haec restitutio summopere est dubia.",
+     "transcription": "lus latitudinis a borea aut ab austro eclipticae sit. Tamen haec restitutio summopere est dubia.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0348-body-L022",
+     "source_line_no": null,
+     "tex": "— \\textsc{Schiaparelli}.]",
+     "transcription": "— {sc:Schiaparelli}.]",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0348-body-L023",
+     "source_line_no": null,
+     "tex": "\\CenterLine{\\textbf{\\textit{r}}) — \\textit{Pag. 82, l. 8-26.}}",
+     "transcription": "{bi:r}) — *Pag. 82, l. 8-26.*",
+     "semantic_anchor": "AB01-PDF0348-H23",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0348-body-L024",
+     "source_line_no": null,
+     "tex": "\\Indent \\textit{Correctio distantiae zenithalis} Lunae et \\textit{correctio angulorum,} cum Luna extra ecli-",
+     "transcription": "*Correctio distantiae zenithalis* Lunae et *correctio angulorum,* cum Luna extra ecli-",
+     "semantic_anchor": "AB01-PDF0348-P03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0348-body-L025",
+     "source_line_no": null,
+     "tex": "pticam sit.",
+     "transcription": "pticam sit.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0348-body-L026",
+     "source_line_no": null,
+     "tex": "\\Indent I. \\textit{Correctio distantiae zenithalis.} — Sit \\textgreek{ζ} distantia zenithalis gradus longitudinis Lunae,",
+     "transcription": "I. *Correctio distantiae zenithalis.* — Sit ζ distantia zenithalis gradus longitudinis Lunae,",
+     "semantic_anchor": "AB01-PDF0348-P04",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0348-body-L027",
+     "source_line_no": null,
+     "tex": "quae formula adn. \\textbf{\\textit{h}}, p. 256, cognoscitur; sit \\textit{z} distantia zenithalis Lunae, \\textgreek{β} Lunae latitudo;",
+     "transcription": "quae formula adn. {bi:h}, p. 256, cognoscitur; sit *z* distantia zenithalis Lunae, β Lunae latitudo;",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0348-body-L028",
+     "source_line_no": null,
+     "tex": "regula \\Name{al–Battānī} est",
+     "transcription": "regula {sp:al–Battānī} est",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0348-body-L029",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.00mm}(\\textgreek{α})}\\rlap{\\hspace*{93.46mm}\\makebox[0pt][c]{$\\sin z = \\sqrt{\\sin^{2}\\left[\\text{\\textgreek{ζ}} \\mp \\text{arc}\\left(\\dfrac{\\text{sin \\textgreek{β} sin ang. latit.}}{R}\\right)\\right] + \\left(\\dfrac{\\text{sin \\textgreek{β} sin ang. long.}}{R}\\right)^{2}}\\,.$}}",
+     "transcription": "(α) $\\sin z = \\sqrt{\\sin^{2}\\left[\\text{ζ} \\mp \\text{arc}\\left(\\dfrac{\\text{sin β sin ang. latit.}}{R}\\right)\\right] + \\left(\\dfrac{\\text{sin β sin ang. long.}}{R}\\right)^{2}}\\,.$",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0348-body-F02",
+     "source_line_no": null,
+     "tex": "\\input{figures/AB01-PDF0348-F02}",
+     "transcription": "[figure, redrawn: figures/AB01-PDF0348-F02.tex]",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_FIGURE"
+    },
+    {
+     "id": "AB01-PDF0348-body-L030",
+     "source_line_no": null,
+     "tex": "\\Indent Quo modo auctor hanc formulam repererit investigemus. Ea-",
+     "transcription": "Quo modo auctor hanc formulam repererit investigemus. Ea-",
+     "semantic_anchor": "AB01-PDF0348-P05",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0348-body-L031",
+     "source_line_no": null,
+     "tex": "dem figura utamur quam \\textit{Almag.} V, 19 (ed. Halma t. I, p. 370–72)",
+     "transcription": "dem figura utamur quam *Almag.* V, 19 (ed. Halma t. I, p. 370–72)",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0348-body-L032",
+     "source_line_no": null,
+     "tex": "habet; est GA ecliptica, Q eius polus, Z zenith, BE et BD duae",
+     "transcription": "habet; est GA ecliptica, Q eius polus, Z zenith, BE et BD duae",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0348-body-L033",
+     "source_line_no": null,
+     "tex": "Lunae latitudines (borealis nempe et australis, prout alterutra su-",
+     "transcription": "Lunae latitudines (borealis nempe et australis, prout alterutra su-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0348-body-L034",
+     "source_line_no": null,
+     "tex": "mitur), B gradus longitudinis Lunae, demum ZT, ZK, ZD arcus",
+     "transcription": "mitur), B gradus longitudinis Lunae, demum ZT, ZK, ZD arcus",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0348-body-L035",
+     "source_line_no": null,
+     "tex": "circulorum verticalium. Ducantur arcus EL, KD perpendiculares",
+     "transcription": "circulorum verticalium. Ducantur arcus EL, KD perpendiculares",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0348-body-L036",
+     "source_line_no": null,
+     "tex": "ad ZK; erit ABZ angulus latitudinis, cuius complementum EBL",
+     "transcription": "ad ZK; erit ABZ angulus latitudinis, cuius complementum EBL",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0348-body-L037",
+     "source_line_no": null,
+     "tex": "angulus longitudinis.",
+     "transcription": "angulus longitudinis.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0348-body-L038",
+     "source_line_no": null,
+     "tex": "\\Indent In triangulo sphaerico rectangulo ELB ($=$ BKD) est (cfr.",
+     "transcription": "In triangulo sphaerico rectangulo ELB ($=$ BKD) est (cfr.",
+     "semantic_anchor": "AB01-PDF0348-P06",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0348-body-L039",
+     "source_line_no": null,
+     "tex": "p. 181, adn. 1):",
+     "transcription": "p. 181, adn. 1):",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0348-body-L040",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{66.26mm}\\makebox[0pt][c]{$\\sin EL = \\sin DK = \\dfrac{\\sin EB \\times \\sin EBL}{R} = \\dfrac{\\text{sin \\textgreek{β} sin ang. long.}}{R}\\,.$}}",
+     "transcription": "$\\sin EL = \\sin DK = \\dfrac{\\sin EB \\times \\sin EBL}{R} = \\dfrac{\\text{sin β sin ang. long.}}{R}\\,.$",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    }
+   ]
+  }
+ ]
+}

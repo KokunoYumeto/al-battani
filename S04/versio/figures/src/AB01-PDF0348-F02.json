@@ -1,0 +1,292 @@
+{
+ "pdf": 348,
+ "printed_page": 259,
+ "comment": [
+  "Nallino, Part I p. 259: the figure of note r), after Almagest V, 19, redrawn from the print: the ecliptic GA,",
+  "the vertical circles ZT, ZK and ZD, the circle of latitude EBD with the dashed stroke to the pole Q, the",
+  "perpendiculars EL and KD, and the bold italic letters. Measured on the scan (_intake/latin/tools/fig259)."
+ ],
+ "origin": [
+  61.4,
+  596.22
+ ],
+ "scale": 0.99639,
+ "size": [
+  110.0,
+  153.0
+ ],
+ "label_pt": 11,
+ "circles": [],
+ "segments": [
+  {
+   "name": "the circle of latitude EBD",
+   "x0": 125.79,
+   "y0": 655.3,
+   "x1": 130.29,
+   "y1": 738.41,
+   "w": 1.13
+  },
+  {
+   "name": "the perpendicular EL",
+   "x0": 125.79,
+   "y0": 655.3,
+   "x1": 140.15,
+   "y1": 658.36,
+   "w": 1.09
+  },
+  {
+   "name": "the perpendicular KD",
+   "x0": 110.22,
+   "y0": 728.32,
+   "x1": 130.2,
+   "y1": 738.59,
+   "w": 1.17
+  }
+ ],
+ "arcs": [
+  {
+   "name": "the ecliptic GA",
+   "cx": 75.87,
+   "cy": -487.52,
+   "r": 1185.12,
+   "a0": 90.81,
+   "a1": 85.47,
+   "w": 1.18
+  },
+  {
+   "name": "the vertical circle ZT",
+   "cx": -7.76,
+   "cy": 579.47,
+   "r": 153.57,
+   "a0": 12.36,
+   "a1": 50.23,
+   "w": 1.1
+  },
+  {
+   "name": "the vertical circle ZK",
+   "cx": -28.37,
+   "cy": 627.64,
+   "r": 171.3,
+   "a0": -5.12,
+   "a1": 36.0,
+   "w": 1.04
+  },
+  {
+   "name": "the vertical circle ZD",
+   "cx": -18.3,
+   "cy": 660.72,
+   "r": 167.68,
+   "a0": -16.77,
+   "a1": 27.6,
+   "w": 1.05
+  }
+ ],
+ "groups": [
+  {
+   "comment": "the dashed stroke from the pole Q to E",
+   "w": 1.15,
+   "segs": [
+    [
+     123.88,
+     612.26,
+     123.97,
+     615.75
+    ],
+    [
+     124.17,
+     616.54,
+     124.1,
+     620.62
+    ],
+    [
+     124.5,
+     622.73,
+     124.58,
+     626.82
+    ],
+    [
+     124.89,
+     628.54,
+     124.82,
+     632.62
+    ],
+    [
+     124.97,
+     634.56,
+     125.08,
+     638.41
+    ],
+    [
+     125.3,
+     639.67,
+     125.27,
+     643.4
+    ],
+    [
+     125.42,
+     644.93,
+     125.65,
+     648.45
+    ],
+    [
+     125.56,
+     651.03,
+     125.79,
+     655.3
+    ]
+   ]
+  }
+ ],
+ "labels": [
+  {
+   "t": "\\resizebox{5.97pt}{6.55pt}{Q}",
+   "cx": 117.44,
+   "cy": 614.46,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{6.07pt}{7.29pt}{Z}",
+   "cx": 149.71,
+   "cy": 609.7,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{5.82pt}{7.05pt}{E}",
+   "cx": 118.95,
+   "cy": 652.02,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{6.14pt}{7.04pt}{L}",
+   "cx": 144.64,
+   "cy": 658.38,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{5.96pt}{6.01pt}{G}",
+   "cx": 66.65,
+   "cy": 692.34,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{6.17pt}{6.68pt}{B}",
+   "cx": 121.37,
+   "cy": 691.34,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{7.95pt}{6.56pt}{A}",
+   "cx": 165.28,
+   "cy": 689.48,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{6.17pt}{5.73pt}{T}",
+   "cx": 88.79,
+   "cy": 703.36,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{6.97pt}{6.45pt}{H}",
+   "cx": 149.56,
+   "cy": 700.92,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{7.31pt}{6.56pt}{K}",
+   "cx": 107.87,
+   "cy": 733.54,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{5.88pt}{6.93pt}{D}",
+   "cx": 129.11,
+   "cy": 744.02,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  }
+ ],
+ "boxes": {
+  "Q@115,610": [
+   5.52,
+   8.76
+  ],
+  "Z@146,606": [
+   6.72,
+   7.32
+  ],
+  "E@116,648": [
+   6.12,
+   7.08
+  ],
+  "L@142,654": [
+   5.64,
+   7.08
+  ],
+  "G@64,689": [
+   5.64,
+   6.12
+  ],
+  "B@118,688": [
+   6.12,
+   6.72
+  ],
+  "A@161,686": [
+   7.8,
+   6.6
+  ],
+  "T@86,700": [
+   6.12,
+   5.76
+  ],
+  "H@146,697": [
+   7.44,
+   6.48
+  ],
+  "K@104,730": [
+   7.8,
+   6.6
+  ],
+  "D@126,740": [
+   5.94,
+   6.96
+  ]
+ },
+ "points": {
+  "Z": [
+   142.25,
+   612.35
+  ],
+  "T": [
+   90.49,
+   697.51
+  ],
+  "B": [
+   128.51,
+   696.43
+  ],
+  "H": [
+   145.72,
+   695.54
+  ],
+  "E": [
+   125.79,
+   655.3
+  ],
+  "D": [
+   130.29,
+   738.41
+  ],
+  "L": [
+   140.15,
+   658.36
+  ],
+  "K": [
+   110.22,
+   728.32
+  ],
+  "D2": [
+   130.2,
+   738.59
+  ]
+ }
+}

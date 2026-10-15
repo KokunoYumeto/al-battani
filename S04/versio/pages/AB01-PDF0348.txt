@@ -1,0 +1,72 @@
+@page 348 259
+% Commentary on chapter 39, p) concluded: the angle of latitude on the meridian by the theorem of Menelaus, with the figure of the meridian AEB, the equator CED, the ecliptic and the arc KLC described about H as pole redrawn. q) on p. 82, l. 5-8: the place corrupt or interpolated: the arc of the horizon between the ascendant and the azimuth of the Moon is not the angle of latitude; Schiaparelli's doubtful restitution. r) on p. 82, l. 8-26: the correction of the zenith distance and of the angles when the Moon is outside the ecliptic; I. the zenith distance, al-Battānī's rule (α), and its derivation with the figure of Almagest V, 19 redrawn (begun).
+@nonum
+@vspace -3.34
+@wrapr 125.09 AB01-PDF0348-F01
+^ In *Almagesto* hoc peculiare problema non considera-
+tur. Solutio {sp:Albateniana} probabiliter auxilio theorematis
+{sp:Menelai} (p. 192) inventa est, iuxta Graecorum morem. Sit
+AEB meridianus, ♈ initium Arietis, H gradus eclipticae cul-
+minans et gradus Lunae. Ex H, tanquam polo sumpto, arcus
+KLC circuli maximi describatur; erunt HK, EC, KC qua-
+drantes circulorum maximorum; ergo KL metietur angulum
+LHE $=$ AHG $=$ ang. latit., cum sit nunc meridianus ipse cir-
+culus verticalis. Theoremate Menelai, sinibus pro chordis
+positis,
+@at 59.67^:$\dfrac{\sin HE}{\sin EK} = \dfrac{\sin H\text{♈}}{\sin \text{♈}L} \times \dfrac{\sin LC}{\sin KC}\,,$
+@endwrap
+@vspace 0.95
+@at 93.30^:$\dfrac{\text{sin decl. gr. culm.}}{\text{cos decl. gr. culm.}} = \dfrac{\text{sin dist. ☾ ab ♈}}{\text{cos dist. ☾ ab ♈}} \times \dfrac{\text{sin (90°} - \text{ang. lat.)}}{R}\,.$
+@vspace 4.13
+@center {bi:q}) — *Pag. 82, l. 5-8.*
+@vspace 3.31
+^ Locus procul dubio corruptus aut interpolatus. Quae nunc e codice et Platone colligun-
+tur falsa sunt, scilicet arcum horizontis, ascendente et directione (azimuth) Lunae interceptum,
+aequari angulo latitudinis. Nam si Luna in horizonte consistat, arcus ille horizontis manifeste
+in nihilum redigetur, quod e contra angulo latitudinis minime continget. [Fortasse scripserat
+{sp:al–Battānī} angulum illum supputandum esse inter partem eclipticae a Luna ad medium Cae-
+lum progredientem et partem verticalis a Luna ad zenith; arcum horizontis inter eclipticam
+(vel ascendens) et verticalem, ab austro aut a septentrionibus eclipticae exstare, prout angu-
+lus latitudinis a borea aut ab austro eclipticae sit. Tamen haec restitutio summopere est dubia.
+@vspace 0.12
+— {sc:Schiaparelli}.]
+@center {bi:r}) — *Pag. 82, l. 8-26.*
+@vspace 3.38
+^ *Correctio distantiae zenithalis* Lunae et *correctio angulorum,* cum Luna extra ecli-
+@vspace -0.14
+pticam sit.
+@vspace 0.15
+^ I. *Correctio distantiae zenithalis.* — Sit ζ distantia zenithalis gradus longitudinis Lunae,
+quae formula adn. {bi:h}, p. 256, cognoscitur; sit *z* distantia zenithalis Lunae, β Lunae latitudo;
+@vspace 0.18
+regula {sp:al–Battānī} est
+@vspace -1.41
+@at 0.00:(α) | 93.46^:$\sin z = \sqrt{\sin^{2}\left[\text{ζ} \mp \text{arc}\left(\dfrac{\text{sin β sin ang. latit.}}{R}\right)\right] + \left(\dfrac{\text{sin β sin ang. long.}}{R}\right)^{2}}\,.$
+@vspace 2.36
+@wrap 0.279 AB01-PDF0348-F02
+^ Quo modo auctor hanc formulam repererit investigemus. Ea-
+dem figura utamur quam *Almag.* V, 19 (ed. Halma t. I, p. 370–72)
+habet; est GA ecliptica, Q eius polus, Z zenith, BE et BD duae
+Lunae latitudines (borealis nempe et australis, prout alterutra su-
+mitur), B gradus longitudinis Lunae, demum ZT, ZK, ZD arcus
+circulorum verticalium. Ducantur arcus EL, KD perpendiculares
+@vspace -0.08
+ad ZK; erit ABZ angulus latitudinis, cuius complementum EBL
+angulus longitudinis.
+@vspace -0.09
+^ In triangulo sphaerico rectangulo ELB ($=$ BKD) est (cfr.
+@vspace 0.13
+p. 181, adn. 1):
+@vspace -0.92
+@at 66.26^:$\sin EL = \sin DK = \dfrac{\sin EB \times \sin EBL}{R} = \dfrac{\text{sin β sin ang. long.}}{R}\,.$
+@endwrap
+@obs body L1: the o of «considera-» is covered by a blot.
+@obs body L1-L11: the figure stands on the right of these lines and is redrawn from the print: the sphere (radius 59.5 pt), the meridian AEB, the equator CED, the ecliptic from G through H and the first point of Aries to F, and the arc KLC from K to C, as arcs of circles fitted to the print (radius 408.5, 212.3, 179.1 and 63.8 pt); the centre of the arc KLC lies 0.5 pt from H, its pole. The words «ecliptica» and «aequator» run along their circles; the sign of Aries stands over the meeting of the ecliptic and the equator.
+@obs body L3, L9: «Menelai» is letter-spaced in L3, not in L9. Menelaus' theorem is stated on p. 192, in Schiaparelli's addition to the notes on chapter 18. The sign of Aries is printed «♈» in L4 and in the formulas.
+@obs body L5-L12: H is the pole of KLC, so HK and HL are quadrants; C, on the equator 90° from E, is a pole of the meridian, so KC is a quadrant and KL measures the angle LHE. The theorem of Menelaus for the triangle HKL cut by the equator, which meets HK in E, HL in ♈ and KL produced in C, gives L11; with HE = δ, EK = 90° − δ, H♈ = λ, ♈L = 90° − λ and LC = 90° − KL it becomes L12, that is cos ang. lat. = R tan δ : tan λ, formula (α) of p. 258. The comma after L11 is printed high, beside the tops of the denominators; in L12 the bar after «90°» (9.8 pt, as long as the signs of equality) is a minus sign.
+@obs body L13: the dash after «q)» measures 10.2 pt, the hyphen of «5-8» 3.2 pt.
+@obs body L14-L22: the place is p. 82, L5-L8 («nam arcus horizontis inter ortum gradus ascendentis et directionem gradus dati in horizonte est ut quantitas anguli latitudinis»). The hyphen of «colligun-» stands high; a speck prints before «tur» (L15) and another in the margin before L17. Heavy brackets open and close Schiaparelli's addition; «al–Battānī» (L18) has a long dash (5.4 pt), the dash before «Schiaparelli» measures 9.2 pt.
+@obs body L23: the dash after «r)» measures 10.2 pt, the hyphen of «8-26» 3.5 pt.
+@obs body L24-L29: the a of «distantiae» (L24) prints broken; the dash after «zenithalis.» (L26) measures 10.2 pt; «al–Battānī» (L28) has a long dash (5.9 pt). The z of the zenith distance of the Moon (L27, L29) is printed as a tailed italic z. «adn. h, p. 256»: ζ is computed by formula (α) of note i), p. 256, L34; note h) there (L7) concerns the distance of the Sun. (α) is al-Battānī's rule of p. 82, L13-L21: the arc whose sine is sin β sin ang. lat. : R taken from ζ when the Moon lies toward the zenith from the ecliptic, added to it otherwise; the derivation and Schiaparelli's comparison with the exact rule follow on p. 260.
+@obs body L30-L40: the figure stands on the left of these lines and is redrawn from the print: the ecliptic GA, a flat arc (radius 1185 pt) beginning left of the margin; the vertical circles ZT, ZK and ZD, arcs of circles fitted to the print through the apex Z (radius 153.6, 171.3 and 167.7 pt); the circle of latitude EBD and the perpendiculars EL and KD, straight strokes; the stroke from the pole Q to E in eight dashes, the last joined to E. «370–72» (L31) has a long dash (5.5 pt).
+@obs body L38-L40: the triangles ELB and BKD, right-angled at L and K, have equal hypotenuses EB = BD = β and equal vertical angles at B, so EL = DK; the law of sines (p. 181, note 1) gives sin EL = sin EB sin EBL : R, with EBL the angle of longitude: as printed.

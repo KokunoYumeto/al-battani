@@ -1,0 +1,397 @@
+{
+ "pdf": 348,
+ "printed_page": 259,
+ "comment": [
+  "Nallino, Part I p. 259: the figure of note p), redrawn from the print: the sphere, the meridian AEB, the",
+  "equator CED, the ecliptic GHL with the first point of Aries, the arc KLC of the great circle whose pole is H,",
+  "the words ecliptica and aequator, and the bold italic letters. Measured on the scan (_intake/latin/tools/fig259)."
+ ],
+ "origin": [
+  337.8,
+  120.32
+ ],
+ "scale": 0.99639,
+ "size": [
+  139.0,
+  153.0
+ ],
+ "label_pt": 11,
+ "circles": [
+  {
+   "name": "the sphere",
+   "cx": 406.44,
+   "cy": 203.4,
+   "r": 59.47,
+   "w": 1.06
+  }
+ ],
+ "segments": [],
+ "arcs": [
+  {
+   "name": "the meridian AEB",
+   "cx": 1.83,
+   "cy": 202.56,
+   "r": 408.51,
+   "a0": -8.25,
+   "a1": 8.49,
+   "w": 1.34
+  },
+  {
+   "name": "the equator CED",
+   "cx": 406.72,
+   "cy": -0.2,
+   "r": 212.26,
+   "a0": 106.35,
+   "a1": 73.81,
+   "w": 1.16
+  },
+  {
+   "name": "the ecliptic from G through H and the first point of Aries to F",
+   "cx": 497.84,
+   "cy": 346.3,
+   "r": 179.06,
+   "a0": -103.21,
+   "a1": -142.0,
+   "w": 1.11
+  },
+  {
+   "name": "the arc KLC",
+   "cx": 410.24,
+   "cy": 189.71,
+   "r": 63.82,
+   "a0": 92.77,
+   "a1": 167.9,
+   "w": 1.09
+  }
+ ],
+ "labels": [
+  {
+   "t": "\\resizebox{6.24pt}{6.56pt}{A}",
+   "cx": 404.3,
+   "cy": 137.72,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{6.47pt}{7.18pt}{G}",
+   "cx": 463.35,
+   "cy": 169.54,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{6.07pt}{7.04pt}{H}",
+   "cx": 403.83,
+   "cy": 186.66,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{6.56pt}{6.36pt}{C}",
+   "cx": 340.28,
+   "cy": 201.96,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{6.30pt}{6.46pt}{D}",
+   "cx": 471.35,
+   "cy": 203.54,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{10.00pt}{5.30pt}{♈}",
+   "cx": 380.1,
+   "cy": 206.58,
+   "font": "\\fontsize{11}{11}\\MoonFont"
+  },
+  {
+   "t": "\\resizebox{5.70pt}{6.34pt}{E}",
+   "cx": 403.8,
+   "cy": 217.66,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{6.54pt}{5.97pt}{L}",
+   "cx": 368.5,
+   "cy": 228.38,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{5.33pt}{6.69pt}{F}",
+   "cx": 350.56,
+   "cy": 240.04,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{5.40pt}{5.30pt}{K}",
+   "cx": 412.33,
+   "cy": 250.99,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{6.17pt}{6.44pt}{B}",
+   "cx": 408.05,
+   "cy": 268.56,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{4.33pt}{4.97pt}{e}",
+   "cx": 419.98,
+   "cy": 194.83,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont",
+   "rot": 27.21,
+   "anchor": "base"
+  },
+  {
+   "t": "\\resizebox{4.06pt}{4.97pt}{c}",
+   "cx": 423.66,
+   "cy": 192.99,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont",
+   "rot": 25.82,
+   "anchor": "base"
+  },
+  {
+   "t": "\\resizebox{2.98pt}{7.81pt}{l}",
+   "cx": 426.78,
+   "cy": 191.52,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont",
+   "rot": 24.66,
+   "anchor": "base"
+  },
+  {
+   "t": "\\resizebox{2.98pt}{7.06pt}{i}",
+   "cx": 429.45,
+   "cy": 190.32,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont",
+   "rot": 23.68,
+   "anchor": "base"
+  },
+  {
+   "t": "\\resizebox{4.91pt}{5.26pt}{p}",
+   "cx": 433.01,
+   "cy": 188.81,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont",
+   "rot": 22.38,
+   "anchor": "base"
+  },
+  {
+   "t": "\\resizebox{3.35pt}{6.41pt}{t}",
+   "cx": 436.77,
+   "cy": 187.31,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont",
+   "rot": 21.01,
+   "anchor": "base"
+  },
+  {
+   "t": "\\resizebox{2.98pt}{7.06pt}{i}",
+   "cx": 439.68,
+   "cy": 186.23,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont",
+   "rot": 19.97,
+   "anchor": "base"
+  },
+  {
+   "t": "\\resizebox{4.06pt}{4.97pt}{c}",
+   "cx": 442.94,
+   "cy": 185.08,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont",
+   "rot": 18.81,
+   "anchor": "base"
+  },
+  {
+   "t": "\\resizebox{4.93pt}{5.00pt}{a}",
+   "cx": 447.13,
+   "cy": 183.71,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont",
+   "rot": 17.32,
+   "anchor": "base"
+  },
+  {
+   "t": "\\resizebox{4.69pt}{5.34pt}{a}",
+   "cx": 421.9,
+   "cy": 219.33,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont",
+   "rot": 3.95,
+   "anchor": "base"
+  },
+  {
+   "t": "\\resizebox{4.12pt}{5.30pt}{e}",
+   "cx": 426.37,
+   "cy": 218.97,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont",
+   "rot": 5.12,
+   "anchor": "base"
+  },
+  {
+   "t": "\\resizebox{4.97pt}{5.47pt}{q}",
+   "cx": 430.98,
+   "cy": 218.51,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont",
+   "rot": 6.33,
+   "anchor": "base"
+  },
+  {
+   "t": "\\resizebox{4.87pt}{5.30pt}{u}",
+   "cx": 435.96,
+   "cy": 217.9,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont",
+   "rot": 7.64,
+   "anchor": "base"
+  },
+  {
+   "t": "\\resizebox{4.69pt}{5.34pt}{a}",
+   "cx": 440.79,
+   "cy": 217.2,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont",
+   "rot": 8.91,
+   "anchor": "base"
+  },
+  {
+   "t": "\\resizebox{3.19pt}{6.84pt}{t}",
+   "cx": 444.75,
+   "cy": 216.54,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont",
+   "rot": 9.95,
+   "anchor": "base"
+  },
+  {
+   "t": "\\resizebox{4.40pt}{5.30pt}{o}",
+   "cx": 448.56,
+   "cy": 215.84,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont",
+   "rot": 10.96,
+   "anchor": "base"
+  },
+  {
+   "t": "\\resizebox{3.86pt}{5.21pt}{r}",
+   "cx": 452.69,
+   "cy": 215.0,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont",
+   "rot": 12.06,
+   "anchor": "base"
+  }
+ ],
+ "boxes": {
+  "A@401,134": [
+   6.12,
+   6.6
+  ],
+  "G@460,165": [
+   6.12,
+   7.32
+  ],
+  "H@401,183": [
+   6.48,
+   7.08
+  ],
+  "C@337,198": [
+   6.12,
+   6.48
+  ],
+  "D@468,200": [
+   6.36,
+   6.48
+  ],
+  "♈@375,203": [
+   9.24,
+   5.4
+  ],
+  "E@401,214": [
+   6.0,
+   6.36
+  ],
+  "L@365,225": [
+   6.0,
+   6.0
+  ],
+  "F@348,236": [
+   6.12,
+   6.72
+  ],
+  "K@410,246": [
+   5.76,
+   5.34
+  ],
+  "B@405,265": [
+   6.12,
+   6.48
+  ],
+  "ecliptica": {
+   "angles": [
+    -117.68,
+    -106.46
+   ],
+   "radii": [
+    167.68,
+    170.31,
+    178.15
+   ]
+  },
+  "aequator": {
+   "angles": [
+    77.3,
+    86.49
+   ],
+   "radii": [
+    213.19,
+    220.05,
+    222.86
+   ]
+  }
+ },
+ "points": {
+  "A": [
+   406.11,
+   143.94
+  ],
+  "B": [
+   405.86,
+   262.87
+  ],
+  "C": [
+   346.98,
+   203.48
+  ],
+  "D": [
+   465.91,
+   203.64
+  ],
+  "G": [
+   456.92,
+   171.97
+  ],
+  "F": [
+   356.74,
+   236.05
+  ],
+  "H": [
+   410.15,
+   190.18
+  ],
+  "E": [
+   410.23,
+   212.03
+  ],
+  "Ar": [
+   381.12,
+   210.51
+  ],
+  "L": [
+   361.21,
+   230.56
+  ],
+  "K": [
+   407.15,
+   253.45
+  ],
+  "C2": [
+   347.13,
+   199.17
+  ],
+  "C3": [
+   347.99,
+   203.77
+  ],
+  "KLC_end": [
+   347.84,
+   203.09
+  ]
+ }
+}
