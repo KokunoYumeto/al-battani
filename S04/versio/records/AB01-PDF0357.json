@@ -1,0 +1,559 @@
+{
+ "anchor": "AB01-PDF0357",
+ "master_pdf_page": 357,
+ "printed_page": 268,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "margin_locators": [],
+ "observations": [
+  "body L1-L8: the dashes before «Hinc» and «Manifeste» measure 9.7 and 10.4 pt; «al–Battānī» (L2) is letter-spaced, with a long dash (5.4 pt). The degree sign of «11° 45′» in L7 prints as a filled dot. Rule I is al-Battānī's p. 87, L5-L8 (the distance between the settings of the Sun and the Moon in degrees of the settings) and p. 87, L32-L33 (the Moon visible when it equals or exceeds the arc).",
+  "body L9-L16: rule II is p. 87, L14-L17: the excess or defect of the elongation over 12° 11′ taken in proportion to 12° 11′, the «portio» by which the arc of visibility 11° 45′ is decreased or increased (p. 87, L19-L21, L29). A speck prints under the S of «Si» (L9).",
+  "body L17-L29: rule III is p. 87, L17-L31, with the third column of the table of correction (Part II, p. 89; see note 2 and p. 267, note 1): 30 minutes the mean distance, and the twelfth part by which the apparent diameter of the Moon grows and diminishes (p. 87, L23-L24). Al-Battānī's lunar diameters of p. 236, 29′ 30″, 32′ 25″ and 35′ 20″, differ from the mean by 2′ 55″, 1/11,1 of it, his «fere duodecima parte». A speck prints over the u of «nuetur» (L23). The bars of the formulas (L23, L24) are a minus sign and the fraction bars.",
+  "body L30-L34: a mark prints over the e of «est» (L31). The dash before «Schiaparelli» measures 10.4 pt; a heavy bracket closes Schiaparelli's addition begun on p. 266, L22.",
+  "body L35-L38: «Al–Farghānī», «93–96», «al–Ǵaghmīnī», «256–57» and «150,v.–151,v.» have long dashes (5.3 to 5.9 pt), the dash before «Ḥabash» measures 8.3 pt. Al-Farghānī's 12° of the equator pass in 48 minutes of time; the Moon gains 12° on the Sun in about a day, «nychthemero fere».",
+  "notes_left L1-L6: the elongation as the hypotenuse of a right triangle with the latitude and the difference in longitude as its sides is al-Battānī's rule of p. 87, L9-L11; p. 87, L11-L13 refers to the more exact precepts of chapter XXVI. «al-Battānī» (L5) is letter-spaced, with a hyphen (2.6 pt); the c of «ceptis» (L6) prints as a filled blot.",
+  "notes_right L1-L7: the Sūrya-Siddhānta, chapter X, treats the rising and setting of the Moon; the Pañcasiddhāntikā is Thibaut and Sudhākara Dvivedī's edition cited on p. 206, note 2. A nāḍikā is the sixtieth part of a day, 24 minutes, so 2 nāḍikā are 48 minutes of time, in which 12° of the equator pass. «Indi» and «Burgess-Whitney» are letter-spaced; «Sūrya-Siddhānta», «Burgess-Whitney» and «1-3» have hyphens (3.1 to 3.4 pt)."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0357-body-L001",
+     "source_line_no": null,
+     "tex": "quitas simul maiores fuerint, correctiones inferendae \\textit{arcui apparitionis} medio in unum col-",
+     "transcription": "quitas simul maiores fuerint, correctiones inferendae *arcui apparitionis* medio in unum col-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0357-body-L002",
+     "source_line_no": null,
+     "tex": "ligentur. — Hinc \\Name{al–Battānī} regulas suas deducit, quae ita exponi possunt:",
+     "transcription": "ligentur. — Hinc {sp:al–Battānī} regulas suas deducit, quae ita exponi possunt:",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0357-body-L003",
+     "source_line_no": null,
+     "tex": "\\Indent I. Die data, tempore occasus Solis deducantur e tabulis situs Solis et Lunae (in hac in-",
+     "transcription": "I. Die data, tempore occasus Solis deducantur e tabulis situs Solis et Lunae (in hac in-",
+     "semantic_anchor": "AB01-PDF0357-P01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0357-body-L004",
+     "source_line_no": null,
+     "tex": "cludenda est parallaxis), et quaeratur quanto temporis intervallo occasus situs Lunae ita sup-",
+     "transcription": "cludenda est parallaxis), et quaeratur quanto temporis intervallo occasus situs Lunae ita sup-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0357-body-L005",
+     "source_line_no": null,
+     "tex": "putati sequatur occasum Solis. Sit A hoc intervallum, gradibus expressum. — Manifeste si",
+     "transcription": "putati sequatur occasum Solis. Sit A hoc intervallum, gradibus expressum. — Manifeste si",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0357-body-L006",
+     "source_line_no": null,
+     "tex": "tunc Luna falcem regularem haberet, quae respondet 12° 11′ elongationis, et mediam distan-",
+     "transcription": "tunc Luna falcem regularem haberet, quae respondet 12° 11′ elongationis, et mediam distan-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0357-body-L007",
+     "source_line_no": null,
+     "tex": "tiam a Terra, problema solveretur comparando A cum fundamentali apparitionis arcu 11° 45′.",
+     "transcription": "tiam a Terra, problema solveretur comparando A cum fundamentali apparitionis arcu 11° 45′.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0357-body-L008",
+     "source_line_no": null,
+     "tex": "Luna erit eo vespere visibilis si A maior 11° 45′ fuerit.",
+     "transcription": "Luna erit eo vespere visibilis si A maior 11° 45′ fuerit.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0357-body-L009",
+     "source_line_no": null,
+     "tex": "\\Indent II. Si tunc temporis elongatio Lunae a Sole differat a 12° 11′, elongatio (parallaxi inclusa)",
+     "transcription": "II. Si tunc temporis elongatio Lunae a Sole differat a 12° 11′, elongatio (parallaxi inclusa)",
+     "semantic_anchor": "AB01-PDF0357-P02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0357-body-L010",
+     "source_line_no": null,
+     "tex": "supputetur qualis apparet observatori in superficie Terrae (1); eius ratio ad elongationem fun-",
+     "transcription": "supputetur qualis apparet observatori in superficie Terrae (1); eius ratio ad elongationem fun-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0357-body-L011",
+     "source_line_no": null,
+     "tex": "damentalem 12° 11′ supputetur. Si ratio 1 superat, arcus fundamentalis apparitionis 11° 45′",
+     "transcription": "damentalem 12° 11′ supputetur. Si ratio 1 superat, arcus fundamentalis apparitionis 11° 45′",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0357-body-L012",
+     "source_line_no": null,
+     "tex": "proportionaliter minuatur; si contra ratio minor 1, arcus proportione inversa augeatur. Exibit",
+     "transcription": "proportionaliter minuatur; si contra ratio minor 1, arcus proportione inversa augeatur. Exibit",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0357-body-L013",
+     "source_line_no": null,
+     "tex": "\\textit{arcus apparitionis} reductus ad elongationem fundamentalem 12° 11′. Nam si vera elongatio",
+     "transcription": "*arcus apparitionis* reductus ad elongationem fundamentalem 12° 11′. Nam si vera elongatio",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0357-body-L014",
+     "source_line_no": null,
+     "tex": "maior est fundamentali, falx Lunae proportionaliter latior debet esse, Luna igitur visibilis sub",
+     "transcription": "maior est fundamentali, falx Lunae proportionaliter latior debet esse, Luna igitur visibilis sub",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0357-body-L015",
+     "source_line_no": null,
+     "tex": "arcu apparitionis minore. Hic arcus B ita reductus ille est qui cum numero A comparari de-",
+     "transcription": "arcu apparitionis minore. Hic arcus B ita reductus ille est qui cum numero A comparari de-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0357-body-L016",
+     "source_line_no": null,
+     "tex": "beret si Luna mediam distantiam a Terra occuparet.",
+     "transcription": "beret si Luna mediam distantiam a Terra occuparet.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0357-body-L017",
+     "source_line_no": null,
+     "tex": "\\Indent III. At si Luna mediam distantiam non tenet, auxilio anomaliae aequatae lunaris intran-",
+     "transcription": "III. At si Luna mediam distantiam non tenet, auxilio anomaliae aequatae lunaris intran-",
+     "semantic_anchor": "AB01-PDF0357-P03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0357-body-L018",
+     "source_line_no": null,
+     "tex": "dum est in tertiam (2) columnam tabulae t. II, p. 89, quae ad analogam reductionem parallaxis",
+     "transcription": "dum est in tertiam (2) columnam tabulae t. II, p. 89, quae ad analogam reductionem parallaxis",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0357-body-L019",
+     "source_line_no": null,
+     "tex": "inservit; parallaxis horizontalis et amplitudo apparens falcis lunaris eadem decrescunt propor-",
+     "transcription": "inservit; parallaxis horizontalis et amplitudo apparens falcis lunaris eadem decrescunt propor-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0357-body-L020",
+     "source_line_no": null,
+     "tex": "tione qua distantia. Falx media respondet numero 30 columnae III, minima numero 0, ma-",
+     "transcription": "tione qua distantia. Falx media respondet numero 30 columnae III, minima numero 0, ma-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0357-body-L021",
+     "source_line_no": null,
+     "tex": "xima numero 60. Variatio 30 partium efficit $\\qfrac{1}{12}$ longitudinis apparentis ipsius falcis; qua re,",
+     "transcription": "xima numero 60. Variatio 30 partium efficit {sfrac:1/12} longitudinis apparentis ipsius falcis; qua re,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0357-body-L022",
+     "source_line_no": null,
+     "tex": "si \\textit{n} vocetur numerus tertiae columnae respondens anomaliae datae, cum fuerit $n < 30$ falx mi-",
+     "transcription": "si *n* vocetur numerus tertiae columnae respondens anomaliae datae, cum fuerit $n < 30$ falx mi-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0357-body-L023",
+     "source_line_no": null,
+     "tex": "nuetur iuxta rationem 1 ad $1 - \\dfrac{1}{12}\\cdot\\dfrac{30 - n}{30}$; et cum $n > 30$, falx augebitur iuxta rationem",
+     "transcription": "nuetur iuxta rationem 1 ad $1 - \\dfrac{1}{12}\\cdot\\dfrac{30 - n}{30}$; et cum $n > 30$, falx augebitur iuxta rationem",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0357-body-L024",
+     "source_line_no": null,
+     "tex": "1 ad $1 + \\dfrac{1}{12}\\cdot\\dfrac{n - 30}{30}$. Si falx est augenda (nempe si \\textit{n} maior 30), eadem ratione minuatur",
+     "transcription": "1 ad $1 + \\dfrac{1}{12}\\cdot\\dfrac{n - 30}{30}$. Si falx est augenda (nempe si *n* maior 30), eadem ratione minuatur",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0357-body-L025",
+     "source_line_no": null,
+     "tex": "arcus apparitionis B antea supputatus; si falx est minuenda ($n < 30$), ratione inversa augeatur",
+     "transcription": "arcus apparitionis B antea supputatus; si falx est minuenda ($n < 30$), ratione inversa augeatur",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0357-body-L026",
+     "source_line_no": null,
+     "tex": "arcus B. Proveniet quantitas C, quae erit \\textit{arcus} correctus propter ambas variationes, elonga-",
+     "transcription": "arcus B. Proveniet quantitas C, quae erit *arcus* correctus propter ambas variationes, elonga-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0357-body-L027",
+     "source_line_no": null,
+     "tex": "tionis scilicet et distantiae a Terra. Cum C comparandus postremo erit numerus A; si hic",
+     "transcription": "tionis scilicet et distantiae a Terra. Cum C comparandus postremo erit numerus A; si hic",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0357-body-L028",
+     "source_line_no": null,
+     "tex": "maior fuerit, Luna visibilis erit in caelo sereno et puro; si A minor, diem posterum exspe-",
+     "transcription": "maior fuerit, Luna visibilis erit in caelo sereno et puro; si A minor, diem posterum exspe-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0357-body-L029",
+     "source_line_no": null,
+     "tex": "ctare oportebit.",
+     "transcription": "ctare oportebit.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0357-body-L030",
+     "source_line_no": null,
+     "tex": "\\Indent Tota haec theoria ingeniosissime et elegantissime condita est. Proportiones equidem quibus",
+     "transcription": "Tota haec theoria ingeniosissime et elegantissime condita est. Proportiones equidem quibus",
+     "semantic_anchor": "AB01-PDF0357-P04",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0357-body-L031",
+     "source_line_no": null,
+     "tex": "nititur haud ita simplices fortasse sunt ut auctor ponit; exempli gratia non est certum dupli-",
+     "transcription": "nititur haud ita simplices fortasse sunt ut auctor ponit; exempli gratia non est certum dupli-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0357-body-L032",
+     "source_line_no": null,
+     "tex": "catione amplitudinis falcis arcum apparitionis fieri dimidium absque eo quod visibilitas Lunae",
+     "transcription": "catione amplitudinis falcis arcum apparitionis fieri dimidium absque eo quod visibilitas Lunae",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0357-body-L033",
+     "source_line_no": null,
+     "tex": "mutetur. Tamen hodie etiam difficillimum est melius facere; et multis observationibus opus fo-",
+     "transcription": "mutetur. Tamen hodie etiam difficillimum est melius facere; et multis observationibus opus fo-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0357-body-L034",
+     "source_line_no": null,
+     "tex": "ret ad veras rationes, quibus necesse est uti, bene determinandas. — \\textsc{Schiaparelli}.]",
+     "transcription": "ret ad veras rationes, quibus necesse est uti, bene determinandas. — {sc:Schiaparelli}.]",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0357-body-L035",
+     "source_line_no": null,
+     "tex": "\\Indent \\Name{Al–Farghānī} cap. XXV, ed. Golii p. 93–96, ait Lunam novam post coniunctionem con-",
+     "transcription": "{sp:Al–Farghānī} cap. XXV, ed. Golii p. 93–96, ait Lunam novam post coniunctionem con-",
+     "semantic_anchor": "AB01-PDF0357-P05",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0357-body-L036",
+     "source_line_no": null,
+     "tex": "spici cum 12° circiter aequatoris a Sole iam distet, elapso nempe nychthemero fere a coniun-",
+     "transcription": "spici cum 12° circiter aequatoris a Sole iam distet, elapso nempe nychthemero fere a coniun-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0357-body-L037",
+     "source_line_no": null,
+     "tex": "ctione (3). Similiter \\Name{al–Ǵaghmīnī} p. 256–57. — \\Name{Ḥabash}, f. 150,v.–151,v., supputationes",
+     "transcription": "ctione (3). Similiter {sp:al–Ǵaghmīnī} p. 256–57. — {sp:Ḥabash}, f. 150,v.–151,v., supputationes",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0357-body-L038",
+     "source_line_no": null,
+     "tex": "ab ovo incipit, nempe a correctione mediorum motuum Solis et Lunae, et « tabulam paral-",
+     "transcription": "ab ovo incipit, nempe a correctione mediorum motuum Solis et Lunae, et « tabulam paral-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    }
+   ]
+  },
+  {
+   "role": "notes_left",
+   "lines": [
+    {
+     "id": "AB01-PDF0357-notes_left-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (1) Quod satis proxime fit ponendo hanc elonga-",
+     "transcription": "(1) Quod satis proxime fit ponendo hanc elonga-",
+     "semantic_anchor": "AB01-PDF0357-N01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0357-notes_left-L002",
+     "source_line_no": null,
+     "tex": "tionem quasi hypotenusam trianguli rectanguli, cu-",
+     "transcription": "tionem quasi hypotenusam trianguli rectanguli, cu-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0357-notes_left-L003",
+     "source_line_no": null,
+     "tex": "ius catheti sint latitudo Lunae et eius differentia lon-",
+     "transcription": "ius catheti sint latitudo Lunae et eius differentia lon-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0357-notes_left-L004",
+     "source_line_no": null,
+     "tex": "gitudinis a Sole. Eos qui calculum exactiorem cu-",
+     "transcription": "gitudinis a Sole. Eos qui calculum exactiorem cu-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0357-notes_left-L005",
+     "source_line_no": null,
+     "tex": "piunt \\Name{al-Battānī} iubet (p. 87, l. 11-13) aliis prae-",
+     "transcription": "piunt {sp:al-Battānī} iubet (p. 87, l. 11-13) aliis prae-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0357-notes_left-L006",
+     "source_line_no": null,
+     "tex": "ceptis uti.",
+     "transcription": "ceptis uti.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0357-notes_left-L007",
+     "source_line_no": null,
+     "tex": "\\Indent (2) Aut « secundam »; cfr. p. 267, adn. 1.",
+     "transcription": "(2) Aut « secundam »; cfr. p. 267, adn. 1.",
+     "semantic_anchor": "AB01-PDF0357-N02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  },
+  {
+   "role": "notes_right",
+   "lines": [
+    {
+     "id": "AB01-PDF0357-notes_right-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (3) Haec iam ante Arabum aetatem \\Name{Indi} co-",
+     "transcription": "(3) Haec iam ante Arabum aetatem {sp:Indi} co-",
+     "semantic_anchor": "AB01-PDF0357-N03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0357-notes_right-L002",
+     "source_line_no": null,
+     "tex": "gnoscebant; cfr. \\textit{Sūrya-Siddhānta}, X, 1 (vers. \\Name{Bur-}",
+     "transcription": "gnoscebant; cfr. *Sūrya-Siddhānta*, X, 1 (vers. {sp:Bur-}",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0357-notes_right-L003",
+     "source_line_no": null,
+     "tex": "\\Name{gess-Whitney} p. 236), et \\textit{Pañcasiddhāntikā}",
+     "transcription": "{sp:gess-Whitney} p. 236), et *Pañcasiddhāntikā*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0357-notes_right-L004",
+     "source_line_no": null,
+     "tex": "V, 1-3, pag. 38 versionis (titulum indicavi p. 206,",
+     "transcription": "V, 1-3, pag. 38 versionis (titulum indicavi p. 206,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0357-notes_right-L005",
+     "source_line_no": null,
+     "tex": "adn. 2). In hoc libro dicitur distantia « correcta » So-",
+     "transcription": "adn. 2). In hoc libro dicitur distantia « correcta » So-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0357-notes_right-L006",
+     "source_line_no": null,
+     "tex": "lis et Lunae (i. e. distantia in aequatore) 2 \\textit{nāḍikā}",
+     "transcription": "lis et Lunae (i. e. distantia in aequatore) 2 *nāḍikā*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0357-notes_right-L007",
+     "source_line_no": null,
+     "tex": "complecti debere; ergo 48\\textsuperscript{\\textit{m}} $=$ 12°.",
+     "transcription": "complecti debere; ergo 48{sup:*m*} $=$ 12°.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  }
+ ]
+}
