@@ -1,0 +1,402 @@
+{
+ "pdf": 276,
+ "printed_page": 187,
+ "comment": [
+  "Nallino, Part I p. 187: the analemma of rule III, redrawn from the print: the half circle over the horizon;",
+  "the horizon, the vertical, the equator and the parallel through M and Q as straight lines; EP and PZ in dashes,",
+  "each where it printed; the braces δ and φ along the arc; the bold italic letters and the words «aequator»,",
+  "«sin δ», «sin φ» and «horizon». Measured on the scan (_intake/latin/tools/fig187)."
+ ],
+ "origin": [
+  72.7,
+  291.89
+ ],
+ "scale": 0.99281,
+ "size": [
+  150.0,
+  88.0
+ ],
+ "label_pt": 11,
+ "circles": [],
+ "segments": [
+  {
+   "name": "the horizon",
+   "x0": 80.66,
+   "y0": 368.72,
+   "x1": 208.35,
+   "y1": 366.35,
+   "w": 1.0
+  },
+  {
+   "name": "the vertical",
+   "x0": 143.37,
+   "y0": 303.08,
+   "x1": 144.79,
+   "y1": 367.53,
+   "w": 0.93
+  },
+  {
+   "name": "the equator",
+   "x0": 99.59,
+   "y0": 321.53,
+   "x1": 144.79,
+   "y1": 367.53,
+   "w": 0.97
+  },
+  {
+   "name": "the parallel through M and Q",
+   "x0": 122.96,
+   "y0": 306.81,
+   "x1": 182.27,
+   "y1": 366.83,
+   "w": 1.02
+  }
+ ],
+ "arcs": [
+  {
+   "name": "the half circle over the horizon",
+   "cx": 144.5,
+   "cy": 366.93,
+   "r": 63.86,
+   "a0": -181.612,
+   "a1": -0.516,
+   "w": 1.19
+  }
+ ],
+ "groups": [
+  {
+   "w": 1.2,
+   "cap": "round",
+   "segs": [
+    [
+     145.96,
+     366.28,
+     147.41,
+     364.82
+    ],
+    [
+     148.82,
+     363.44,
+     150.25,
+     362.07
+    ],
+    [
+     151.81,
+     360.61,
+     153.57,
+     358.86
+    ],
+    [
+     154.86,
+     358.64,
+     156.5,
+     355.71
+    ],
+    [
+     158.14,
+     354.34,
+     159.79,
+     352.82
+    ],
+    [
+     165.28,
+     347.44,
+     167.49,
+     345.31
+    ],
+    [
+     169.16,
+     343.78,
+     171.03,
+     341.9
+    ],
+    [
+     172.55,
+     340.45,
+     174.59,
+     338.38
+    ],
+    [
+     176.12,
+     336.89,
+     178.46,
+     334.64
+    ],
+    [
+     179.86,
+     333.22,
+     182.4,
+     330.68
+    ],
+    [
+     184.22,
+     328.93,
+     185.82,
+     327.37
+    ],
+    [
+     187.94,
+     325.05,
+     190.65,
+     324.72
+    ],
+    [
+     161.25,
+     351.44,
+     163.43,
+     349.33
+    ],
+    [
+     190.65,
+     324.72,
+     187.94,
+     325.05
+    ],
+    [
+     190.32,
+     327.74,
+     190.26,
+     330.06
+    ],
+    [
+     190.36,
+     332.52,
+     190.47,
+     334.86
+    ],
+    [
+     190.41,
+     336.37,
+     190.53,
+     338.46
+    ],
+    [
+     190.55,
+     341.25,
+     190.68,
+     343.36
+    ],
+    [
+     190.69,
+     345.15,
+     190.83,
+     347.62
+    ],
+    [
+     190.81,
+     350.13,
+     191.04,
+     352.62
+    ],
+    [
+     191.0,
+     354.57,
+     191.3,
+     356.9
+    ],
+    [
+     191.29,
+     359.27,
+     191.36,
+     361.49
+    ],
+    [
+     191.52,
+     363.23,
+     191.62,
+     365.61
+    ]
+   ],
+   "comment": "the dashes of EP and PZ"
+  }
+ ],
+ "arcbraces": [
+  {
+   "name": "the brace δ",
+   "cx": 144.5,
+   "cy": 366.93,
+   "r": 65.91,
+   "a0": -132.51,
+   "a1": -110.54,
+   "amp": 3.24,
+   "w": 0.8
+  },
+  {
+   "name": "the brace φ",
+   "cx": 144.5,
+   "cy": 366.93,
+   "r": 65.57,
+   "a0": -38.13,
+   "a1": -6.82,
+   "amp": 3.09,
+   "w": 0.8
+  }
+ ],
+ "labels": [
+  {
+   "t": "\\resizebox{5.72pt}{7.26pt}{δ}",
+   "cx": 105.22,
+   "cy": 303.86,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{9.98pt}{7.49pt}{M}",
+   "cx": 137.23,
+   "cy": 331.58,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{7.38pt}{8.03pt}{P}",
+   "cx": 194.02,
+   "cy": 318.01,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{6.73pt}{6.26pt}{Q}",
+   "cx": 163.57,
+   "cy": 340.84,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{6.53pt}{5.91pt}{φ}",
+   "cx": 212.19,
+   "cy": 339.84,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{38.82pt}{6.54pt}{aequator}",
+   "cx": 113.34,
+   "cy": 344.95,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont",
+   "rot": -45.43
+  },
+  {
+   "t": "\\resizebox{14.35pt}{7.64pt}{sin δ}",
+   "cx": 156.91,
+   "cy": 360.2,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont",
+   "rot": 44.08
+  },
+  {
+   "t": "\\resizebox{21.31pt}{6.24pt}{sin φ}",
+   "cx": 185.08,
+   "cy": 350.15,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont",
+   "rot": 90.0
+  },
+  {
+   "t": "\\resizebox{32.53pt}{7.23pt}{horizon}",
+   "cx": 109.83,
+   "cy": 373.56,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{7.27pt}{7.74pt}{E}",
+   "cx": 143.27,
+   "cy": 373.74,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{5.73pt}{7.15pt}{Z}",
+   "cx": 191.82,
+   "cy": 372.38,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  }
+ ],
+ "boxes": {
+  "δ": [
+   5.4,
+   7.44
+  ],
+  "M": [
+   10.44,
+   7.68
+  ],
+  "P": [
+   8.16,
+   8.1
+  ],
+  "Q": [
+   6.24,
+   8.4
+  ],
+  "φ": [
+   6.0,
+   9.12
+  ],
+  "aequator": [
+   38.91,
+   9.27
+  ],
+  "sin δ": [
+   14.36,
+   7.83
+  ],
+  "sin φ": [
+   21.12,
+   8.64
+  ],
+  "horizon": [
+   31.92,
+   7.44
+  ],
+  "E": [
+   7.68,
+   7.8
+  ],
+  "Z": [
+   6.36,
+   7.2
+  ]
+ },
+ "points": {
+  "Bl": [
+   80.66,
+   368.72
+  ],
+  "Br": [
+   208.35,
+   366.35
+  ],
+  "top": [
+   143.37,
+   303.08
+  ],
+  "E": [
+   144.67,
+   367.53
+  ],
+  "E2": [
+   144.91,
+   367.53
+  ],
+  "eq0": [
+   99.59,
+   321.53
+  ],
+  "mq0": [
+   122.96,
+   306.81
+  ],
+  "mq1": [
+   182.27,
+   366.83
+  ],
+  "M": [
+   143.87,
+   327.98
+  ],
+  "P": [
+   190.74,
+   322.89
+  ],
+  "Q": [
+   164.22,
+   348.56
+  ],
+  "Z": [
+   191.67,
+   366.66
+  ]
+ }
+}

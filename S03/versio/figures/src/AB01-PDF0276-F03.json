@@ -1,0 +1,354 @@
+{
+ "pdf": 276,
+ "printed_page": 187,
+ "comment": [
+  "Nallino, Part I p. 187: the figure of the oblique ascension, redrawn from the print: the meridian as an ellipse",
+  "a little wider than high, as printed;",
+  "the equator AG and the horizon BD as straight lines; the ecliptic ZT as an arc; the line PE and the circle of",
+  "declination PLM in dashes, each where it printed (PLM is an arc); the bold italic letters and the sign of the",
+  "first point of Aries. Measured on the scan (_intake/latin/tools/fig187)."
+ ],
+ "origin": [
+  376.0,
+  563.78
+ ],
+ "scale": 0.99281,
+ "size": [
+  124.0,
+  110.0
+ ],
+ "label_pt": 11,
+ "circles": [],
+ "ellipses": [
+  {
+   "name": "the meridian",
+   "cx": 438.57,
+   "cy": 621.26,
+   "rx": 48.19,
+   "ry": 47.34,
+   "w": 1.25
+  }
+ ],
+ "segments": [
+  {
+   "name": "the equator AG",
+   "x0": 400.5,
+   "y0": 592.24,
+   "x1": 477.13,
+   "y1": 649.65,
+   "w": 1.2
+  },
+  {
+   "name": "the horizon BD",
+   "x0": 390.41,
+   "y0": 622.89,
+   "x1": 486.72,
+   "y1": 619.4,
+   "w": 1.2
+  }
+ ],
+ "arcs": [
+  {
+   "name": "the ecliptic ZT",
+   "cx": 484.59,
+   "cy": 721.06,
+   "r": 124.62,
+   "a0": -137.32,
+   "a1": -92.269,
+   "w": 1.14
+  }
+ ],
+ "groups": [
+  {
+   "w": 1.15,
+   "cap": "round",
+   "segs": [
+    [
+     464.01,
+     588.99,
+     463.36,
+     589.71
+    ],
+    [
+     461.2,
+     592.45,
+     460.14,
+     593.83
+    ],
+    [
+     450.33,
+     606.06,
+     448.74,
+     608.3
+    ],
+    [
+     446.6,
+     611.0,
+     445.45,
+     612.69
+    ],
+    [
+     443.75,
+     615.02,
+     442.12,
+     617.13
+    ],
+    [
+     467.75,
+     589.86,
+     467.82,
+     591.47
+    ],
+    [
+     467.38,
+     599.85,
+     467.26,
+     601.37
+    ],
+    [
+     466.92,
+     604.51,
+     466.36,
+     606.5
+    ],
+    [
+     465.82,
+     609.01,
+     465.27,
+     611.03
+    ],
+    [
+     464.6,
+     613.47,
+     463.93,
+     615.39
+    ],
+    [
+     460.58,
+     623.09,
+     460.07,
+     624.25
+    ],
+    [
+     458.31,
+     626.97,
+     457.17,
+     628.74
+    ],
+    [
+     467.26,
+     584.69,
+     466.11,
+     586.16
+    ],
+    [
+     458.21,
+     596.28,
+     456.15,
+     598.94
+    ],
+    [
+     454.15,
+     601.49,
+     452.17,
+     604.03
+    ],
+    [
+     440.23,
+     619.34,
+     439.62,
+     620.12
+    ],
+    [
+     467.13,
+     583.82,
+     467.53,
+     587.19
+    ],
+    [
+     467.79,
+     594.29,
+     467.71,
+     596.71
+    ],
+    [
+     462.91,
+     617.95,
+     462.24,
+     619.51
+    ],
+    [
+     455.92,
+     630.7,
+     455.05,
+     631.91
+    ]
+   ],
+   "comment": "the dashes of PE and of the circle of declination PLM (each short dash drawn straight)"
+  }
+ ],
+ "labels": [
+  {
+   "t": "\\resizebox{6.40pt}{7.49pt}{P}",
+   "cx": 471.68,
+   "cy": 578.22,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{6.58pt}{7.72pt}{A}",
+   "cx": 392.01,
+   "cy": 589.54,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{6.27pt}{6.90pt}{T}",
+   "cx": 485.19,
+   "cy": 593.92,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{9.06pt}{7.86pt}{♈}",
+   "cx": 425.76,
+   "cy": 603.3,
+   "font": "\\fontsize{11}{11}\\MoonFont"
+  },
+  {
+   "t": "\\resizebox{6.87pt}{7.27pt}{D}",
+   "cx": 492.77,
+   "cy": 619.04,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{6.87pt}{7.01pt}{B}",
+   "cx": 384.42,
+   "cy": 623.38,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{7.29pt}{7.26pt}{L}",
+   "cx": 464.73,
+   "cy": 625.14,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{7.05pt}{7.62pt}{E}",
+   "cx": 434.93,
+   "cy": 626.08,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{9.41pt}{7.25pt}{M}",
+   "cx": 447.25,
+   "cy": 636.5,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{5.29pt}{7.27pt}{Z}",
+   "cx": 386.0,
+   "cy": 637.74,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{6.70pt}{7.86pt}{G}",
+   "cx": 482.91,
+   "cy": 650.86,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  }
+ ],
+ "boxes": {
+  "P": [
+   7.08,
+   7.56
+  ],
+  "A": [
+   6.48,
+   7.8
+  ],
+  "T": [
+   6.24,
+   6.96
+  ],
+  "♈": [
+   8.4,
+   8.04
+  ],
+  "D": [
+   6.96,
+   7.32
+  ],
+  "B": [
+   6.84,
+   7.08
+  ],
+  "L": [
+   6.72,
+   7.32
+  ],
+  "E": [
+   7.44,
+   7.68
+  ],
+  "M": [
+   9.84,
+   7.44
+  ],
+  "Z": [
+   5.88,
+   7.32
+  ],
+  "G": [
+   6.36,
+   8.04
+  ]
+ },
+ "points": {
+  "A": [
+   400.5,
+   592.24
+  ],
+  "G": [
+   477.13,
+   649.65
+  ],
+  "B": [
+   390.41,
+   622.89
+  ],
+  "D": [
+   486.72,
+   619.4
+  ],
+  "Z": [
+   392.98,
+   636.58
+  ],
+  "T": [
+   479.66,
+   596.54
+  ],
+  "E": [
+   439.06,
+   621.13
+  ],
+  "Ar": [
+   425.79,
+   611.18
+  ],
+  "P_e": [
+   467.98,
+   583.77
+  ],
+  "P_m": [
+   467.01,
+   583.05
+  ],
+  "M": [
+   454.47,
+   632.68
+  ],
+  "L": [
+   461.89,
+   620.3
+  ]
+ }
+}

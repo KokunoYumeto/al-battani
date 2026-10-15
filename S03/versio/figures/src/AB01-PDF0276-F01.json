@@ -1,0 +1,583 @@
+{
+ "pdf": 276,
+ "printed_page": 187,
+ "comment": [
+  "Nallino, Part I p. 187: the analemma of rule I, redrawn from the print: the meridian as an arc of a circle over",
+  "the horizon BK and down to the end of the equator; the horizon BK, the vertical AE, the equator YE and the",
+  "parallel FC as straight lines; YX, the perpendicular from Y to the horizon and the line from E to the pole in",
+  "dashes, each where it printed; the braces φ, φ (along the arc) and sin φ; the double marks of the equal angles",
+  "at M and E; the bold italic letters and words. Measured on the scan (_intake/latin/tools/fig187)."
+ ],
+ "origin": [
+  326.0,
+  113.16
+ ],
+ "scale": 0.99281,
+ "size": [
+  170.0,
+  138.0
+ ],
+ "label_pt": 11,
+ "circles": [],
+ "segments": [
+  {
+   "name": "the horizon BK",
+   "x0": 335.72,
+   "y0": 201.72,
+   "x1": 481.27,
+   "y1": 201.12,
+   "w": 1.11
+  },
+  {
+   "name": "the vertical AE",
+   "x0": 407.73,
+   "y0": 128.39,
+   "x1": 408.43,
+   "y1": 201.42,
+   "w": 1.11
+  },
+  {
+   "name": "the equator YE, produced to the circle",
+   "x0": 349.38,
+   "y0": 158.73,
+   "x1": 467.15,
+   "y1": 244.24,
+   "w": 1.13
+  },
+  {
+   "name": "the parallel FC, produced to the circle",
+   "x0": 369.91,
+   "y0": 139.46,
+   "x1": 479.14,
+   "y1": 218.62,
+   "w": 1.09
+  }
+ ],
+ "arcs": [
+  {
+   "name": "the meridian, from B over A to the end of the equator",
+   "cx": 408.5,
+   "cy": 201.17,
+   "r": 72.77,
+   "a0": -180.434,
+   "a1": 36.292,
+   "w": 1.23
+  },
+  {
+   "name": "the angle mark at M",
+   "cx": 408.24,
+   "cy": 167.24,
+   "r": 6.85,
+   "a0": 35.93,
+   "a1": 89.25,
+   "w": 0.8
+  },
+  {
+   "name": "the angle mark at M",
+   "cx": 408.24,
+   "cy": 167.24,
+   "r": 8.7,
+   "a0": 35.93,
+   "a1": 89.25,
+   "w": 0.8
+  },
+  {
+   "name": "the angle mark at E",
+   "cx": 408.69,
+   "cy": 201.42,
+   "r": 7.07,
+   "a0": -180.24,
+   "a1": -144.02,
+   "w": 0.8
+  },
+  {
+   "name": "the angle mark at E",
+   "cx": 408.69,
+   "cy": 201.42,
+   "r": 8.91,
+   "a0": -180.24,
+   "a1": -144.02,
+   "w": 0.8
+  }
+ ],
+ "groups": [
+  {
+   "w": 1.2,
+   "cap": "round",
+   "segs": [
+    [
+     353.78,
+     158.77,
+     359.58,
+     158.7
+    ],
+    [
+     361.85,
+     158.75,
+     364.78,
+     158.8
+    ],
+    [
+     367.6,
+     158.77,
+     370.16,
+     158.73
+    ],
+    [
+     372.79,
+     158.7,
+     375.23,
+     158.6
+    ],
+    [
+     377.74,
+     158.65,
+     380.07,
+     158.69
+    ],
+    [
+     382.89,
+     158.61,
+     384.98,
+     158.69
+    ],
+    [
+     387.66,
+     158.71,
+     389.41,
+     158.65
+    ],
+    [
+     401.26,
+     158.53,
+     403.59,
+     158.57
+    ],
+    [
+     350.95,
+     158.79,
+     351.99,
+     158.79
+    ],
+    [
+     391.93,
+     158.62,
+     394.11,
+     158.61
+    ],
+    [
+     397.39,
+     158.6,
+     399.03,
+     158.59
+    ],
+    [
+     405.97,
+     158.56,
+     407.01,
+     158.56
+    ],
+    [
+     349.56,
+     164.1,
+     349.65,
+     166.44
+    ],
+    [
+     349.61,
+     168.77,
+     349.64,
+     170.62
+    ],
+    [
+     349.69,
+     173.1,
+     349.75,
+     175.44
+    ],
+    [
+     349.76,
+     177.92,
+     349.82,
+     180.61
+    ],
+    [
+     349.87,
+     183.19,
+     349.91,
+     186.47
+    ],
+    [
+     349.87,
+     188.78,
+     349.97,
+     192.18
+    ],
+    [
+     349.89,
+     194.03,
+     350.06,
+     197.21
+    ],
+    [
+     349.53,
+     160.29,
+     349.56,
+     162.29
+    ],
+    [
+     350.04,
+     199.1,
+     350.06,
+     200.52
+    ],
+    [
+     412.06,
+     196.97,
+     412.65,
+     196.2
+    ],
+    [
+     414.12,
+     194.11,
+     415.33,
+     192.27
+    ],
+    [
+     417.13,
+     189.92,
+     418.08,
+     188.46
+    ],
+    [
+     419.67,
+     186.14,
+     421.01,
+     184.3
+    ],
+    [
+     422.25,
+     182.43,
+     423.58,
+     180.61
+    ],
+    [
+     427.02,
+     175.45,
+     428.48,
+     173.37
+    ],
+    [
+     429.41,
+     172.0,
+     430.83,
+     169.86
+    ],
+    [
+     432.11,
+     167.98,
+     433.98,
+     165.37
+    ],
+    [
+     434.92,
+     163.89,
+     436.65,
+     161.51
+    ],
+    [
+     437.86,
+     159.54,
+     439.17,
+     157.8
+    ],
+    [
+     440.34,
+     155.95,
+     442.43,
+     153.12
+    ],
+    [
+     443.45,
+     151.6,
+     444.87,
+     149.46
+    ],
+    [
+     445.96,
+     147.79,
+     447.5,
+     145.56
+    ],
+    [
+     409.85,
+     200.39,
+     410.83,
+     198.97
+    ],
+    [
+     425.14,
+     178.15,
+     425.94,
+     176.99
+    ],
+    [
+     448.58,
+     144.07,
+     449.63,
+     142.55
+    ]
+   ],
+   "comment": "the dashes of YX, of the perpendicular from Y and of the line from E to the pole"
+  }
+ ],
+ "arcbraces": [
+  {
+   "name": "a brace φ along the arc",
+   "cx": 408.5,
+   "cy": 201.17,
+   "r": 74.86,
+   "a0": -137.7,
+   "a1": -96.83,
+   "amp": 5.74,
+   "w": 0.8
+  },
+  {
+   "name": "a brace φ along the arc",
+   "cx": 408.5,
+   "cy": 201.17,
+   "r": 74.79,
+   "a0": -49.13,
+   "a1": -5.84,
+   "amp": 4.64,
+   "w": 0.8
+  }
+ ],
+ "braces": [
+  {
+   "name": "the brace sin φ",
+   "x0": 392.74,
+   "y0": 203.65,
+   "x1": 348.78,
+   "y1": 203.65,
+   "amp": 5.1,
+   "w": 0.8
+  }
+ ],
+ "labels": [
+  {
+   "t": "\\resizebox{7.06pt}{5.60pt}{φ}",
+   "cx": 371.89,
+   "cy": 122.56,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{5.85pt}{6.65pt}{A}",
+   "cx": 407.02,
+   "cy": 122.8,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{23.47pt}{7.85pt}{Polus}",
+   "cx": 463.52,
+   "cy": 135.7,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{6.66pt}{7.73pt}{F}",
+   "cx": 367.86,
+   "cy": 147.44,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{6.56pt}{7.85pt}{X}",
+   "cx": 412.73,
+   "cy": 157.94,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{7.44pt}{8.09pt}{Y}",
+   "cx": 342.09,
+   "cy": 159.36,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{6.53pt}{5.52pt}{φ}",
+   "cx": 484.23,
+   "cy": 164.34,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{9.64pt}{7.49pt}{M}",
+   "cx": 401.66,
+   "cy": 172.08,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{24.05pt}{5.76pt}{cos φ}",
+   "cx": 356.52,
+   "cy": 185.1,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont",
+   "rot": 90.0
+  },
+  {
+   "t": "\\resizebox{7.44pt}{7.86pt}{C}",
+   "cx": 456.86,
+   "cy": 195.06,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{8.29pt}{7.84pt}{K}",
+   "cx": 486.82,
+   "cy": 201.24,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{8.08pt}{8.31pt}{B}",
+   "cx": 330.78,
+   "cy": 206.88,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{7.39pt}{8.22pt}{E}",
+   "cx": 403.88,
+   "cy": 207.08,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{40.04pt}{6.96pt}{sin ampl.}",
+   "cx": 439.2,
+   "cy": 207.84,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{24.70pt}{7.02pt}{sin φ}",
+   "cx": 371.84,
+   "cy": 214.4,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{35.37pt}{5.25pt}{aequator}",
+   "cx": 437.06,
+   "cy": 235.82,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont",
+   "rot": -35.98
+  }
+ ],
+ "boxes": {
+  "φ@369": [
+   6.48,
+   8.64
+  ],
+  "A@404": [
+   5.76,
+   6.72
+  ],
+  "Polus@452": [
+   23.52,
+   8.04
+  ],
+  "F@364": [
+   7.68,
+   7.8
+  ],
+  "X@409": [
+   7.44,
+   7.92
+  ],
+  "Y@339": [
+   7.56,
+   8.16
+  ],
+  "φ@481": [
+   6.0,
+   8.52
+  ],
+  "M@396": [
+   10.08,
+   7.68
+  ],
+  "cos φ@352": [
+   23.76,
+   8.88
+  ],
+  "C@454": [
+   6.96,
+   8.04
+  ],
+  "K@483": [
+   8.88,
+   7.92
+  ],
+  "B@326": [
+   8.04,
+   8.4
+  ],
+  "E@400": [
+   7.8,
+   8.28
+  ],
+  "sin ampl.@419": [
+   39.12,
+   9.36
+  ],
+  "sin φ@360": [
+   24.48,
+   9.72
+  ],
+  "aequator@423": [
+   35.44,
+   7.46
+  ]
+ },
+ "points": {
+  "B": [
+   335.72,
+   201.72
+  ],
+  "K": [
+   481.27,
+   201.12
+  ],
+  "A": [
+   407.73,
+   128.39
+  ],
+  "Y": [
+   349.38,
+   158.73
+  ],
+  "Ye": [
+   467.15,
+   244.24
+  ],
+  "F": [
+   369.91,
+   139.46
+  ],
+  "Fe": [
+   479.14,
+   218.62
+  ],
+  "E": [
+   408.69,
+   201.42
+  ],
+  "E2": [
+   408.17,
+   201.42
+  ],
+  "C": [
+   455.14,
+   201.23
+  ],
+  "M": [
+   408.24,
+   167.24
+  ],
+  "Pol": [
+   450.29,
+   141.59
+  ]
+ }
+}

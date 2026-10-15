@@ -1,0 +1,466 @@
+{
+ "anchor": "AB01-PDF0276",
+ "master_pdf_page": 276,
+ "printed_page": 187,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "margin_locators": [],
+ "observations": [
+  "body L1-L7: the first figure stands at the right of lines 1 to 7, which are set beside it in a narrow measure. It is redrawn from measurements of the print: the meridian as an arc of a circle from B over A down to the lower end of the equator; the horizon BK, the vertical AE, the equator YE and the parallel FC, both produced to the circle, as straight lines; YX, the perpendicular from Y to the horizon and the line from E to the pole in dashes, each dash where it printed; the braces φ and φ along the arc and the brace sin φ under the horizon; the double arcs that mark the equal angles at M and E; the bold italic letters, and the words cos φ, set upward beside the perpendicular, and aequator, along the equator.",
+  "body L1-L8: the formulas are checked. In the first figure E is the centre of the meridian and AY = φ, so that EX = cos φ and XY = sin φ (the perpendicular from Y to the horizon and its distance from E, marked cos φ and sin φ); the parallel FC of the Sun meets the horizon in C and the vertical in M, so that EC = sin ampl. ort. and EM = sin alt. sine azimuth. FC is parallel to YE, so that the right triangles MEC and YXE have equal angles at M and E (the marked angles), and EM : EC = EX : XY gives formula I; formula II is formula I written as a division by the fraction sin φ / cos φ.",
+  "body L9-L15: formula III follows from I with sin amplit. ortivae = R sin δ / cos φ, the rule of chapter VII. In the second figure E is the centre, EP the axis to the pole P, whose arc to the horizon is φ, PZ the perpendicular from P to the horizon (sin φ) and Q the point where the parallel through M meets the axis, so that EQ = sin δ (marked) and EP = R. The parallel is perpendicular to the axis and PZ is parallel to the vertical EM, so the right triangles MEQ (right angle at Q) and EPZ (right angle at Z) have equal angles at E and P, and EM : EQ = EP : PZ, as printed.",
+  "body L10-L15: the second figure stands at the left of lines 10 to 15, which are set beside it in a narrow measure. It is redrawn from measurements of the print: the meridian as a half circle over the horizon; the horizon, the vertical through M down to E, the equator and the parallel through M and Q as straight lines; EP and PZ in dashes, each dash where it printed; the braces δ and φ along the arc; the bold italic letters, and the words aequator along the equator, sin δ along EQ, sin φ set upward beside PZ, and horizon under the horizon line.",
+  "body L17: the head of the notes on chapter 13, «Ad» and «caput» in small capitals, in the larger type of the heads.",
+  "body L18: in the head, the dash after «a)» measures 10.3 pt and the dash of «17–24» 5.4 pt; transcribed as a dash and a long dash.",
+  "body L24-L28: the definitions agree with the third figure: ♈M, on the equator from the first point of Aries to the circle of declination PLM through the star L, is its right ascension, ♈E, to the point E where the equator meets the horizon, its oblique ascension, and EM their difference, the ascensional difference.",
+  "body L25-L32: the third figure stands at the right of lines 25 to 32, which are set beside it in a narrow measure. It is redrawn from measurements of the print: the meridian, printed a little wider than high (96.4 by 94.7 pt), as an ellipse; the equator AG and the horizon BD as straight lines; the ecliptic Z♈T as an arc of a circle; the line PE and the circle of declination PLM in dashes, each dash where it printed (PLM as an arc of a circle); the bold italic letters and the sign of Aries.",
+  "body L30: the dash of «al–Battānī» measures 5.4 pt, a long dash; kept as printed.",
+  "notes_left L1, notes_right L2: the hyphens of «auc-» and «ascen-» are printed short (1.9 and 1.7 pt)."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0276-body-F01",
+     "source_line_no": null,
+     "tex": "\\input{figures/AB01-PDF0276-F01}",
+     "transcription": "[figure, redrawn: figures/AB01-PDF0276-F01.tex]",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_FIGURE"
+    },
+    {
+     "id": "AB01-PDF0276-body-L001",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.00mm}I.}\\rlap{\\hspace*{45.50mm}\\makebox[0pt][c]{$\\text{sin alt. sine azimuth} = \\dfrac{\\text{sin ampl. ort.} \\times \\cos\\text{\\textgreek{φ}}}{\\sin\\text{\\textgreek{φ}}}$,}}",
+     "transcription": "I. $\\text{sin alt. sine azimuth} = \\dfrac{\\text{sin ampl. ort.} \\times \\cos\\text{φ}}{\\sin\\text{φ}}$,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0276-body-L002",
+     "source_line_no": null,
+     "tex": "per proiectionem orthographicam quoque probabiliter",
+     "transcription": "per proiectionem orthographicam quoque probabiliter",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0276-body-L003",
+     "source_line_no": null,
+     "tex": "repertam; nam e similitudine triangulorum MEC, YXE",
+     "transcription": "repertam; nam e similitudine triangulorum MEC, YXE",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0276-body-L004",
+     "source_line_no": null,
+     "tex": "facile proportio colligitur",
+     "transcription": "facile proportio colligitur",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0276-body-L005",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{45.50mm}\\makebox[0pt][c]{$EM : EC = EX : XY$}}",
+     "transcription": "$EM : EC = EX : XY$",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0276-body-L006",
+     "source_line_no": null,
+     "tex": "\\Indent sin alt. sine azim. : sin ampl. ort. = cos \\textgreek{φ} : sin \\textgreek{φ}.",
+     "transcription": "sin alt. sine azim. : sin ampl. ort. = cos φ : sin φ.",
+     "semantic_anchor": "AB01-PDF0276-P01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0276-body-L007",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.00mm}II.}\\rlap{\\hspace*{45.50mm}\\makebox[0pt][c]{$\\text{sin alt. sine azimuth} = \\dfrac{\\text{sin amplit. ort.}}{\\dfrac{\\sin\\text{\\textgreek{φ}}}{\\cos\\text{\\textgreek{φ}}}}$,}}",
+     "transcription": "II. $\\text{sin alt. sine azimuth} = \\dfrac{\\text{sin amplit. ort.}}{\\dfrac{\\sin\\text{φ}}{\\cos\\text{φ}}}$,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0276-body-L008",
+     "source_line_no": null,
+     "tex": "quae nonnisi alius modus formulae I scribendae est.",
+     "transcription": "quae nonnisi alius modus formulae I scribendae est.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0276-body-L009",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.00mm}III.}\\rlap{\\hspace*{94.00mm}\\makebox[0pt][c]{$\\text{sin alt. sine azimuth} = R\\,\\dfrac{\\sin\\text{\\textgreek{δ}}}{\\sin\\text{\\textgreek{φ}}}$,}}",
+     "transcription": "III. $\\text{sin alt. sine azimuth} = R\\,\\dfrac{\\sin\\text{δ}}{\\sin\\text{φ}}$,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0276-body-F02",
+     "source_line_no": null,
+     "tex": "\\input{figures/AB01-PDF0276-F02}",
+     "transcription": "[figure, redrawn: figures/AB01-PDF0276-F02.tex]",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_FIGURE"
+    },
+    {
+     "id": "AB01-PDF0276-body-L010",
+     "source_line_no": null,
+     "tex": "quae potest algebrice deduci e I, cum pro sin amplit. ortivae",
+     "transcription": "quae potest algebrice deduci e I, cum pro sin amplit. ortivae",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0276-body-L011",
+     "source_line_no": null,
+     "tex": "eius valor $R\\,\\dfrac{\\sin\\text{\\textgreek{δ}}}{\\cos\\text{\\textgreek{φ}}}$ ponatur; sed directe quoque in proie-",
+     "transcription": "eius valor $R\\,\\dfrac{\\sin\\text{δ}}{\\cos\\text{φ}}$ ponatur; sed directe quoque in proie-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0276-body-L012",
+     "source_line_no": null,
+     "tex": "ctione orthographica e similitudine triangulorum MEQ, EPZ",
+     "transcription": "ctione orthographica e similitudine triangulorum MEQ, EPZ",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0276-body-L013",
+     "source_line_no": null,
+     "tex": "concluditur",
+     "transcription": "concluditur",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0276-body-L014",
+     "source_line_no": null,
+     "tex": "\\CenterLine{$EM : EQ = EP : PZ$}",
+     "transcription": "$EM : EQ = EP : PZ$",
+     "semantic_anchor": "AB01-PDF0276-H14",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0276-body-L015",
+     "source_line_no": null,
+     "tex": "\\CenterLine{sin alt. sine azim. : sin \\textgreek{δ} = $R$ : sin \\textgreek{φ}.}",
+     "transcription": "sin alt. sine azim. : sin δ = $R$ : sin φ.",
+     "semantic_anchor": "AB01-PDF0276-H15",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0276-body-L016",
+     "source_line_no": null,
+     "tex": "\\Indent Formula III est quoque apud \\Name{Aboul Hhassan}, cap. LXI, pag. 306.",
+     "transcription": "Formula III est quoque apud {sp:Aboul Hhassan}, cap. LXI, pag. 306.",
+     "semantic_anchor": "AB01-PDF0276-P02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0276-body-L017",
+     "source_line_no": null,
+     "tex": "\\CenterLine{A\\textsc{d} \\textsc{caput} XIII.}",
+     "transcription": "A{sc:d} {sc:caput} XIII.",
+     "semantic_anchor": "AB01-PDF0276-H17",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0276-body-L018",
+     "source_line_no": null,
+     "tex": "\\CenterLine{\\textbf{\\textit{a}}) — \\textit{Pag. 27, l. 17–24.}}",
+     "transcription": "{bi:a}) — *Pag. 27, l. 17–24.*",
+     "semantic_anchor": "AB01-PDF0276-H18",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0276-body-L019",
+     "source_line_no": null,
+     "tex": "\\Indent Ex ascensione recta cuiuscumque gradus eclipticae et e maxima diei longitudine in urbe",
+     "transcription": "Ex ascensione recta cuiuscumque gradus eclipticae et e maxima diei longitudine in urbe",
+     "semantic_anchor": "AB01-PDF0276-P03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0276-body-L020",
+     "source_line_no": null,
+     "tex": "data, \\textit{ascensionem obliquam} illius gradus eclipticae in ea urbe cognoscere.",
+     "transcription": "data, *ascensionem obliquam* illius gradus eclipticae in ea urbe cognoscere.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0276-body-L021",
+     "source_line_no": null,
+     "tex": "\\Indent \\textit{Ascensio obliqua,} quam Arabes vocant \\textit{ascensiones climatis} vel \\textit{in climate,} est arcus",
+     "transcription": "*Ascensio obliqua,* quam Arabes vocant *ascensiones climatis* vel *in climate,* est arcus",
+     "semantic_anchor": "AB01-PDF0276-P04",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0276-body-L022",
+     "source_line_no": null,
+     "tex": "circuli aequinoctialis inter initium Arietis et punctum circuli aequinoctialis quod in circulo",
+     "transcription": "circuli aequinoctialis inter initium Arietis et punctum circuli aequinoctialis quod in circulo",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0276-body-L023",
+     "source_line_no": null,
+     "tex": "horizontis eodem tempore quo datum sidus vel gradus eclipticae reperitur. Sit P polus aequa-",
+     "transcription": "horizontis eodem tempore quo datum sidus vel gradus eclipticae reperitur. Sit P polus aequa-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0276-body-L024",
+     "source_line_no": null,
+     "tex": "toris, AEG circulus aequinoctialis, {\\MoonFont ♈} initium Arietis, Z{\\MoonFont ♈}T ecliptica, BED horizon dati loci",
+     "transcription": "toris, AEG circulus aequinoctialis, ♈ initium Arietis, Z♈T ecliptica, BED horizon dati loci",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0276-body-F03",
+     "source_line_no": null,
+     "tex": "\\input{figures/AB01-PDF0276-F03}",
+     "transcription": "[figure, redrawn: figures/AB01-PDF0276-F03.tex]",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_FIGURE"
+    },
+    {
+     "id": "AB01-PDF0276-body-L025",
+     "source_line_no": null,
+     "tex": "Terrae, L sidus datum quod ab horizonte oritur, PM circulus",
+     "transcription": "Terrae, L sidus datum quod ab horizonte oritur, PM circulus",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0276-body-L026",
+     "source_line_no": null,
+     "tex": "declinationis per sidus L transiens; erit totus arcus {\\MoonFont ♈}M ascensio",
+     "transcription": "declinationis per sidus L transiens; erit totus arcus ♈M ascensio",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0276-body-L027",
+     "source_line_no": null,
+     "tex": "recta sideris, {\\MoonFont ♈}E ascensio obliqua, differentia EM differentia",
+     "transcription": "recta sideris, ♈E ascensio obliqua, differentia EM differentia",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0276-body-L028",
+     "source_line_no": null,
+     "tex": "ascensionalis.",
+     "transcription": "ascensionalis.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0276-body-L029",
+     "source_line_no": null,
+     "tex": "\\Indent Manifeste problema reducitur ad inveniendam differentiam",
+     "transcription": "Manifeste problema reducitur ad inveniendam differentiam",
+     "semantic_anchor": "AB01-PDF0276-P05",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0276-body-L030",
+     "source_line_no": null,
+     "tex": "ascensionalem EM, quam al–Battānī vocat \\textit{argumentum diversi-}",
+     "transcription": "ascensionalem EM, quam al–Battānī vocat *argumentum diversi-*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0276-body-L031",
+     "source_line_no": null,
+     "tex": "\\textit{tatis diei in quadrante} (1). Auctor duas formulas praebet.",
+     "transcription": "*tatis diei in quadrante* (1). Auctor duas formulas praebet.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0276-body-L032",
+     "source_line_no": null,
+     "tex": "\\Indent I. Auctor considerat ascensionem obliquam dati gradus ecli-",
+     "transcription": "I. Auctor considerat ascensionem obliquam dati gradus ecli-",
+     "semantic_anchor": "AB01-PDF0276-P06",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0276-body-L033",
+     "source_line_no": null,
+     "tex": "pticae, non sideris cuiuscumque. Sit \\textit{m} differentia ascensionalis; P maximus arcus semidiur-",
+     "transcription": "pticae, non sideris cuiuscumque. Sit *m* differentia ascensionalis; P maximus arcus semidiur-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0276-body-L034",
+     "source_line_no": null,
+     "tex": "nus seu maxima longitudo dimidii diei, gradibus aequatoris computata, in data urbe, unde",
+     "transcription": "nus seu maxima longitudo dimidii diei, gradibus aequatoris computata, in data urbe, unde",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    }
+   ]
+  },
+  {
+   "role": "notes_left",
+   "lines": [
+    {
+     "id": "AB01-PDF0276-notes_left-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (1) Nomen manifeste ex hoc provenit quod auc-",
+     "transcription": "(1) Nomen manifeste ex hoc provenit quod auc-",
+     "semantic_anchor": "AB01-PDF0276-N01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0276-notes_left-L002",
+     "source_line_no": null,
+     "tex": "tor ascensionem dati gradus eclipticae considerat;",
+     "transcription": "tor ascensionem dati gradus eclipticae considerat;",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0276-notes_left-L003",
+     "source_line_no": null,
+     "tex": "qua re, ut e cap. XIX patet, arcus semidiurnus illius",
+     "transcription": "qua re, ut e cap. XIX patet, arcus semidiurnus illius",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  },
+  {
+   "role": "notes_right",
+   "lines": [
+    {
+     "id": "AB01-PDF0276-notes_right-L001",
+     "source_line_no": null,
+     "tex": "gradus, i. e. dimidia diei longitudo cum Sol ad eum",
+     "transcription": "gradus, i. e. dimidia diei longitudo cum Sol ad eum",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0276-notes_right-L002",
+     "source_line_no": null,
+     "tex": "gradum pervenerit, est 90° ± differentia ascen-",
+     "transcription": "gradum pervenerit, est 90° ± differentia ascen-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0276-notes_right-L003",
+     "source_line_no": null,
+     "tex": "sionalis.",
+     "transcription": "sionalis.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  }
+ ]
+}

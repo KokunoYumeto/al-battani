@@ -1,0 +1,84 @@
+@page 276 187
+% Notes on chapter 12, b) concluded: the three rules of Ḥabash for the altitude on the prime vertical: I, by the analemma (figure), II, another form of I, III, R sin δ / sin φ, also proved by the analemma (figure), and found in Abū 'l-Ḥasan. Notes on chapter 13, a) on p. 27, ll. 17-24: the oblique ascension from the right ascension and the longest day; the definition of the oblique ascension and of the ascensional difference, with the figure; al-Battānī's name for it; rule I (begun). Note on that name.
+@nonum
+@vspace -3.03
+@wrapr 93.0 AB01-PDF0276-F01
+@at 0:I. | 45.5^:$\text{sin alt. sine azimuth} = \dfrac{\text{sin ampl. ort.} \times \cos\text{φ}}{\sin\text{φ}}$,
+@vspace 0.13
+per proiectionem orthographicam quoque probabiliter
+repertam; nam e similitudine triangulorum MEC, YXE
+facile proportio colligitur
+@vspace 0.07
+@at 45.5^:$EM : EC = EX : XY$
+@vspace 0.30
+^ sin alt. sine azim. : sin ampl. ort. = cos φ : sin φ.
+@vspace 0.26
+@at 0:II. | 45.5^:$\text{sin alt. sine azimuth} = \dfrac{\text{sin amplit. ort.}}{\dfrac{\sin\text{φ}}{\cos\text{φ}}}$,
+@endwrap
+@vspace -0.45
+quae nonnisi alius modus formulae I scribendae est.
+@at 0:III. | 94^:$\text{sin alt. sine azimuth} = R\,\dfrac{\sin\text{δ}}{\sin\text{φ}}$,
+@vspace 2.26
+@wrap 0.278 AB01-PDF0276-F02
+quae potest algebrice deduci e I, cum pro sin amplit. ortivae
+eius valor $R\,\dfrac{\sin\text{δ}}{\cos\text{φ}}$ ponatur; sed directe quoque in proie-
+@vspace -0.28
+ctione orthographica e similitudine triangulorum MEQ, EPZ
+concluditur
+@center $EM : EQ = EP : PZ$
+@vspace -0.09
+@center sin alt. sine azim. : sin δ = $R$ : sin φ.
+@endwrap
+@vspace -0.37
+^ Formula III est quoque apud {sp:Aboul Hhassan}, cap. LXI, pag. 306.
+@fontsize 15 17
+@vspace 7.89
+@center A{sc:d} {sc:caput} XIII.
+@normal
+@vspace 3.76
+@center {bi:a}) — *Pag. 27, l. 17–24.*
+@vspace 4.39
+^ Ex ascensione recta cuiuscumque gradus eclipticae et e maxima diei longitudine in urbe
+data, *ascensionem obliquam* illius gradus eclipticae in ea urbe cognoscere.
+^ *Ascensio obliqua,* quam Arabes vocant *ascensiones climatis* vel *in climate,* est arcus
+circuli aequinoctialis inter initium Arietis et punctum circuli aequinoctialis quod in circulo
+horizontis eodem tempore quo datum sidus vel gradus eclipticae reperitur. Sit P polus aequa-
+toris, AEG circulus aequinoctialis, ♈ initium Arietis, Z♈T ecliptica, BED horizon dati loci
+@wrapr 113.0 AB01-PDF0276-F03
+Terrae, L sidus datum quod ab horizonte oritur, PM circulus
+declinationis per sidus L transiens; erit totus arcus ♈M ascensio
+@vspace -0.08
+recta sideris, ♈E ascensio obliqua, differentia EM differentia
+ascensionalis.
+^ Manifeste problema reducitur ad inveniendam differentiam
+ascensionalem EM, quam al–Battānī vocat *argumentum diversi-*
+*tatis diei in quadrante* (1). Auctor duas formulas praebet.
+^ I. Auctor considerat ascensionem obliquam dati gradus ecli-
+@endwrap
+@vspace -0.36
+pticae, non sideris cuiuscumque. Sit *m* differentia ascensionalis; P maximus arcus semidiur-
+@vspace 0.07
+nus seu maxima longitudo dimidii diei, gradibus aequatoris computata, in data urbe, unde
+@vspace 0.30
+@notes
+@fontsize 9 11.75
+@vspace -0.50
+^ (1) Nomen manifeste ex hoc provenit quod auc-
+tor ascensionem dati gradus eclipticae considerat;
+qua re, ut e cap. XIX patet, arcus semidiurnus illius
+@col
+@fontsize 9 11.75
+@vspace -0.37
+gradus, i. e. dimidia diei longitudo cum Sol ad eum
+gradum pervenerit, est 90° ± differentia ascen-
+sionalis.
+@obs body L1-L7: the first figure stands at the right of lines 1 to 7, which are set beside it in a narrow measure. It is redrawn from measurements of the print: the meridian as an arc of a circle from B over A down to the lower end of the equator; the horizon BK, the vertical AE, the equator YE and the parallel FC, both produced to the circle, as straight lines; YX, the perpendicular from Y to the horizon and the line from E to the pole in dashes, each dash where it printed; the braces φ and φ along the arc and the brace sin φ under the horizon; the double arcs that mark the equal angles at M and E; the bold italic letters, and the words cos φ, set upward beside the perpendicular, and aequator, along the equator.
+@obs body L1-L8: the formulas are checked. In the first figure E is the centre of the meridian and AY = φ, so that EX = cos φ and XY = sin φ (the perpendicular from Y to the horizon and its distance from E, marked cos φ and sin φ); the parallel FC of the Sun meets the horizon in C and the vertical in M, so that EC = sin ampl. ort. and EM = sin alt. sine azimuth. FC is parallel to YE, so that the right triangles MEC and YXE have equal angles at M and E (the marked angles), and EM : EC = EX : XY gives formula I; formula II is formula I written as a division by the fraction sin φ / cos φ.
+@obs body L9-L15: formula III follows from I with sin amplit. ortivae = R sin δ / cos φ, the rule of chapter VII. In the second figure E is the centre, EP the axis to the pole P, whose arc to the horizon is φ, PZ the perpendicular from P to the horizon (sin φ) and Q the point where the parallel through M meets the axis, so that EQ = sin δ (marked) and EP = R. The parallel is perpendicular to the axis and PZ is parallel to the vertical EM, so the right triangles MEQ (right angle at Q) and EPZ (right angle at Z) have equal angles at E and P, and EM : EQ = EP : PZ, as printed.
+@obs body L10-L15: the second figure stands at the left of lines 10 to 15, which are set beside it in a narrow measure. It is redrawn from measurements of the print: the meridian as a half circle over the horizon; the horizon, the vertical through M down to E, the equator and the parallel through M and Q as straight lines; EP and PZ in dashes, each dash where it printed; the braces δ and φ along the arc; the bold italic letters, and the words aequator along the equator, sin δ along EQ, sin φ set upward beside PZ, and horizon under the horizon line.
+@obs body L17: the head of the notes on chapter 13, «Ad» and «caput» in small capitals, in the larger type of the heads.
+@obs body L18: in the head, the dash after «a)» measures 10.3 pt and the dash of «17–24» 5.4 pt; transcribed as a dash and a long dash.
+@obs body L24-L28: the definitions agree with the third figure: ♈M, on the equator from the first point of Aries to the circle of declination PLM through the star L, is its right ascension, ♈E, to the point E where the equator meets the horizon, its oblique ascension, and EM their difference, the ascensional difference.
+@obs body L25-L32: the third figure stands at the right of lines 25 to 32, which are set beside it in a narrow measure. It is redrawn from measurements of the print: the meridian, printed a little wider than high (96.4 by 94.7 pt), as an ellipse; the equator AG and the horizon BD as straight lines; the ecliptic Z♈T as an arc of a circle; the line PE and the circle of declination PLM in dashes, each dash where it printed (PLM as an arc of a circle); the bold italic letters and the sign of Aries.
+@obs body L30: the dash of «al–Battānī» measures 5.4 pt, a long dash; kept as printed.
+@obs notes_left L1, notes_right L2: the hyphens of «auc-» and «ascen-» are printed short (1.9 and 1.7 pt).
