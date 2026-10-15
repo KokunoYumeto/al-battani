@@ -1,0 +1,511 @@
+{
+ "anchor": "AB01-PDF0340",
+ "master_pdf_page": 340,
+ "printed_page": 251,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "margin_locators": [],
+ "observations": [
+  "body L1, L3: «Al–Bat-» and «Chaldaeo–Graecos» have long dashes (5.2 and 5.1 pt); the hyphen at the end of L1 prints short (1.7 pt).",
+  "body L8, L22: both formulas are labelled «(α)» at the left margin; each formula is centred where it is printed.",
+  "body L8-L13: the formula is the rule of the right spherical triangle of L13 with the latitude of the Moon as the cathetus, the greatest latitude (the inclination of the orbit) as the angle opposite it and the argument of latitude as the hypotenuse: sin latit. : sin max. lat. = sin argum. : R. The declination of the Sun follows from the same rule with the obliquity for the inclination and the longitude for the argument.",
+  "body L9: the addenda (Part I, p. LXXIV) correct this statement: the rule is in Ptolemy, who says (V, 7; ed. Halma I, 315) that he computed the table of the latitude of the Moon «eadem demonstratione (δείξει)» as the arcs of the circles through the poles of the equator between the equator and the ecliptic, that is the declinations of the Sun.",
+  "body L15: the head prints «l,» with a comma; the dash after «a)» measures 9.4 pt, that of «23–24» 4.2 pt. The lines cited are p. 77, L23-L24: «Ratio parallaxis latitudinis ad parallaxim longitudinis est ut ratio sinus anguli ad eius cosinum».",
+  "body L16, L18, L21: «360–62» (4.9 pt), «al–Battānī» (5.1 and 4.9 pt) and «4–6» (4.9 pt) have long dashes. P. 81, L4-L6 multiplies the parallax in altitude by the sines of the angles of longitude and of latitude and divides by 60ᵖ, as in L19-L20 with R = 60ᵖ and the angle of longitude the complement of A.",
+  "body L19-L22: dividing the first equation by the second gives the rule of L22; the squares of the two parallaxes add up to the square of the parallax in altitude, as p. 77, L24-L25 says.",
+  "body L23-L25: the dash after «b)» measures 9.8 pt, that of «25–27» 5.0 pt. A heavy bracket opens Schiaparelli's addition, which goes on to p. 252; it quotes p. 77, L25-L27.",
+  "body L26-L32: the figure stands on the right of these lines and is redrawn from the print: the ecliptic AB and the horizon AH as the arcs of circles fitted to the ink (radius 318.6 and 363.3 pt; both curve), the arc from the zenith Z through L, produced beyond the ecliptic to L′, as its eight dashes and the short piece that runs into the ecliptic at L; the bold italic letters and the word «horizon» in italic stand where they are printed.",
+  "notes_left L2, L4-L6, notes_right L3: the hyphens at the ends of these lines print as short marks or dots (0.9 to 1.5 pt); those of «dix-huit», «demi-siècle», «Bas-Empire», «Bouché-Leclercq» and «121-22» measure 2.4 to 3.1 pt.",
+  "notes_right L6-L7: the head and the tail of the Dragon are printed with the signs ☊ and ☋; «l. l.» is loco laudato, p. 250, L22-L23."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0340-body-L001",
+     "source_line_no": null,
+     "tex": "quo maxima habetur latitudo borealis; 90° a nodo ascendenti (vel boreali) distat. \\Name{Al–Bat-}",
+     "transcription": "quo maxima habetur latitudo borealis; 90° a nodo ascendenti (vel boreali) distat. {sp:Al–Bat-}",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0340-body-L002",
+     "source_line_no": null,
+     "tex": "\\Name{tānī} contra, et reliqui Arabes, ab ipso nodo argumentum supputant, \\Name{Indorum} usum sequen-",
+     "transcription": "{sp:tānī} contra, et reliqui Arabes, ab ipso nodo argumentum supputant, {sp:Indorum} usum sequen-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0340-body-L003",
+     "source_line_no": null,
+     "tex": "tes; Indi autem in hoc probabiliter astrologos \\Name{Chaldaeo–Graecos} sectati sunt, apud quos nodi",
+     "transcription": "tes; Indi autem in hoc probabiliter astrologos {sp:Chaldaeo–Graecos} sectati sunt, apud quos nodi",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0340-body-L004",
+     "source_line_no": null,
+     "tex": "Lunae, et praecipue nodus borealis, magnae erat auctoritatis et potestatis in genituris (vel",
+     "transcription": "Lunae, et praecipue nodus borealis, magnae erat auctoritatis et potestatis in genituris (vel",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0340-body-L005",
+     "source_line_no": null,
+     "tex": "genesibus), nam si planetae in eo benefici reperirentur genesis etiam mediocris et abiecta splen-",
+     "transcription": "genesibus), nam si planetae in eo benefici reperirentur genesis etiam mediocris et abiecta splen-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0340-body-L006",
+     "source_line_no": null,
+     "tex": "didior et erecta evadebat. Ipsi astrologi saepe nodos orbis lunaris planetis adnumerant (1).",
+     "transcription": "didior et erecta evadebat. Ipsi astrologi saepe nodos orbis lunaris planetis adnumerant (1).",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0340-body-L007",
+     "source_line_no": null,
+     "tex": "\\Indent Formula \\Name{Albateniana}",
+     "transcription": "Formula {sp:Albateniana}",
+     "semantic_anchor": "AB01-PDF0340-P01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0340-body-L008",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.34mm}(\\textgreek{α})}\\rlap{\\hspace*{94.04mm}\\makebox[0pt][c]{sin latit. \\MoonSym{} $= \\dfrac{\\text{sin argum. lat. × sin maximae lat. \\MoonSym{}}}{\\text{\\textit{R}}}$}}",
+     "transcription": "(α) sin latit. ☾ $= \\dfrac{\\text{sin argum. lat. × sin maximae lat. ☾}}{\\text{*R*}}$",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0340-body-L009",
+     "source_line_no": null,
+     "tex": "apud \\Name{Ptolemaeum} et \\Name{Theonem} non reperitur; simillima est regulae qua declinatio Solis",
+     "transcription": "apud {sp:Ptolemaeum} et {sp:Theonem} non reperitur; simillima est regulae qua declinatio Solis",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0340-body-L010",
+     "source_line_no": null,
+     "tex": "e longitudine et obliquitate eclipticae elicitur (pag. 12 et 162). In proiectione orthographica e",
+     "transcription": "e longitudine et obliquitate eclipticae elicitur (pag. 12 et 162). In proiectione orthographica e",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0340-body-L011",
+     "source_line_no": null,
+     "tex": "similitudine duorum triangulorum facillime colligitur; nec differt a notissimo theoremate trian-",
+     "transcription": "similitudine duorum triangulorum facillime colligitur; nec differt a notissimo theoremate trian-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0340-body-L012",
+     "source_line_no": null,
+     "tex": "gulorum sphaeralium rectangulorum",
+     "transcription": "gulorum sphaeralium rectangulorum",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0340-body-L013",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{93.43mm}\\makebox[0pt][c]{sin catheti : sin anguli oppositi $=$ sin hypotenusae : \\textit{R}.}}",
+     "transcription": "sin catheti : sin anguli oppositi $=$ sin hypotenusae : *R*.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0340-body-L014",
+     "source_line_no": null,
+     "tex": "\\CenterLine{A\\textsc{d} \\textsc{caput} XXXIX.}",
+     "transcription": "A{sc:d} {sc:caput} XXXIX.",
+     "semantic_anchor": "AB01-PDF0340-H14",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0340-body-L015",
+     "source_line_no": null,
+     "tex": "\\CenterLine{\\textbf{\\textit{a}}) — \\textit{Pag. 77, l, 23–24.}}",
+     "transcription": "{bi:a}) — *Pag. 77, l, 23–24.*",
+     "semantic_anchor": "AB01-PDF0340-H15",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0340-body-L016",
+     "source_line_no": null,
+     "tex": "\\Indent A constructionibus geometricis \\Name{Ptolemaei} V, 19 (ed. Halma t. I, p. 360–62), si A vo-",
+     "transcription": "A constructionibus geometricis {sp:Ptolemaei} V, 19 (ed. Halma t. I, p. 360–62), si A vo-",
+     "semantic_anchor": "AB01-PDF0340-P02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0340-body-L017",
+     "source_line_no": null,
+     "tex": "cetur angulus quem ecliptica cum circulo verticali per Lunam transeunti efficit, aequationes",
+     "transcription": "cetur angulus quem ecliptica cum circulo verticali per Lunam transeunti efficit, aequationes",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0340-body-L018",
+     "source_line_no": null,
+     "tex": "facile deducuntur quas \\Name{al–Battānī} infra, p. 81, l. 4–6 enuntiat:",
+     "transcription": "facile deducuntur quas {sp:al–Battānī} infra, p. 81, l. 4–6 enuntiat:",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0340-body-L019",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{94.17mm}\\makebox[0pt][c]{parallaxis latitudinis $= \\dfrac{\\text{sin \\textit{A} × parallaxis altitudinis}}{\\text{\\textit{R}}}$}}",
+     "transcription": "parallaxis latitudinis $= \\dfrac{\\text{sin *A* × parallaxis altitudinis}}{\\text{*R*}}$",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0340-body-L020",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{94.29mm}\\makebox[0pt][c]{parallaxis longitudinis $= \\dfrac{\\text{cos \\textit{A} × parallaxis altitudinis}}{\\text{\\textit{R}}}\\,.$}}",
+     "transcription": "parallaxis longitudinis $= \\dfrac{\\text{cos *A* × parallaxis altitudinis}}{\\text{*R*}}\\,.$",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0340-body-L021",
+     "source_line_no": null,
+     "tex": "E quibus consequitur regula hoc loco ab \\Name{al–Battānī} data:",
+     "transcription": "E quibus consequitur regula hoc loco ab {sp:al–Battānī} data:",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0340-body-L022",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.26mm}(\\textgreek{α})}\\rlap{\\hspace*{93.56mm}\\makebox[0pt][c]{parall. latit. : parall. longit. $=$ sin \\textit{A} : cos \\textit{A}.}}",
+     "transcription": "(α) parall. latit. : parall. longit. $=$ sin *A* : cos *A*.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0340-body-L023",
+     "source_line_no": null,
+     "tex": "\\CenterLine{\\textbf{\\textit{b}}) — \\textit{Pag. 77, l. 25–27.}}",
+     "transcription": "{bi:b}) — *Pag. 77, l. 25–27.*",
+     "semantic_anchor": "AB01-PDF0340-H23",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0340-body-L024",
+     "source_line_no": null,
+     "tex": "\\Indent [« \\textit{Parallaxis semper in eam latitudinis plagam declinat in qua est gradus} [\\textit{eclip-}",
+     "transcription": "[« *Parallaxis semper in eam latitudinis plagam declinat in qua est gradus* [*eclip-*",
+     "semantic_anchor": "AB01-PDF0340-P03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0340-body-L025",
+     "source_line_no": null,
+     "tex": "\\textit{ticae}] \\textit{quem} etc. ».",
+     "transcription": "*ticae*] *quem* etc. ».",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0340-body-F01",
+     "source_line_no": null,
+     "tex": "\\input{figures/AB01-PDF0340-F01}",
+     "transcription": "[figure, redrawn: figures/AB01-PDF0340-F01.tex]",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_FIGURE"
+    },
+    {
+     "id": "AB01-PDF0340-body-L026",
+     "source_line_no": null,
+     "tex": "\\Indent Locus haud satis clarus et fortasse aliquantulum corruptus.",
+     "transcription": "Locus haud satis clarus et fortasse aliquantulum corruptus.",
+     "semantic_anchor": "AB01-PDF0340-P04",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0340-body-L027",
+     "source_line_no": null,
+     "tex": "Si a zenith ducatur arcus circuli maximi ad punctum eclipticae",
+     "transcription": "Si a zenith ducatur arcus circuli maximi ad punctum eclipticae",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0340-body-L028",
+     "source_line_no": null,
+     "tex": "(aut potius paralleli latitudinis) in quo est Luna, parallaxis in la-",
+     "transcription": "(aut potius paralleli latitudinis) in quo est Luna, parallaxis in la-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0340-body-L029",
+     "source_line_no": null,
+     "tex": "titudine fit australis aut borealis prout hic arcus ultra eclipticam",
+     "transcription": "titudine fit australis aut borealis prout hic arcus ultra eclipticam",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0340-body-L030",
+     "source_line_no": null,
+     "tex": "(aut parallelum latitudinis) productus ad plagam australem aut ad",
+     "transcription": "(aut parallelum latitudinis) productus ad plagam australem aut ad",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0340-body-L031",
+     "source_line_no": null,
+     "tex": "borealem tendit. Sit AB ecliptica (vel parallelus latitudinis), Z ze-",
+     "transcription": "borealem tendit. Sit AB ecliptica (vel parallelus latitudinis), Z ze-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0340-body-L032",
+     "source_line_no": null,
+     "tex": "nith, L locus Lunae; arcus ZL ultra AB producatur; Luna, quae",
+     "transcription": "nith, L locus Lunae; arcus ZL ultra AB producatur; Luna, quae",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    }
+   ]
+  },
+  {
+   "role": "notes_left",
+   "lines": [
+    {
+     "id": "AB01-PDF0340-notes_left-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (1) « On est tenté de reporter à des Chaldéens",
+     "transcription": "(1) « On est tenté de reporter à des Chaldéens",
+     "semantic_anchor": "AB01-PDF0340-N01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0340-notes_left-L002",
+     "source_line_no": null,
+     "tex": "« authentiques ou à des rénovateurs de vieilles su-",
+     "transcription": "« authentiques ou à des rénovateurs de vieilles su-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0340-notes_left-L003",
+     "source_line_no": null,
+     "tex": "« perstitions orientales l’idée baroque qui consiste",
+     "transcription": "« perstitions orientales l’idée baroque qui consiste",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0340-notes_left-L004",
+     "source_line_no": null,
+     "tex": "« à assimiler aux planètes et à noter dans les thè-",
+     "transcription": "« à assimiler aux planètes et à noter dans les thè-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0340-notes_left-L005",
+     "source_line_no": null,
+     "tex": "« mes de géniture les noeuds ascendant et descen-",
+     "transcription": "« mes de géniture les noeuds ascendant et descen-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0340-notes_left-L006",
+     "source_line_no": null,
+     "tex": "« dant de l’orbite lunaire, qui font le tour de l’écli-",
+     "transcription": "« dant de l’orbite lunaire, qui font le tour de l’écli-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0340-notes_left-L007",
+     "source_line_no": null,
+     "tex": "« ptique en dix-huit ans. Ptolémée ne connaît pas",
+     "transcription": "« ptique en dix-huit ans. Ptolémée ne connaît pas",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  },
+  {
+   "role": "notes_right",
+   "lines": [
+    {
+     "id": "AB01-PDF0340-notes_right-L001",
+     "source_line_no": null,
+     "tex": "« ou ne veut pas connaître ces planètes fictives:",
+     "transcription": "« ou ne veut pas connaître ces planètes fictives:",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0340-notes_right-L002",
+     "source_line_no": null,
+     "tex": "« mais Tertullien, un demi-siècle plus tard, parle",
+     "transcription": "« mais Tertullien, un demi-siècle plus tard, parle",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0340-notes_right-L003",
+     "source_line_no": null,
+     "tex": "« déjà de l’influence que leur attribuaient les astro-",
+     "transcription": "« déjà de l’influence que leur attribuaient les astro-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0340-notes_right-L004",
+     "source_line_no": null,
+     "tex": "« logues. Les Grecs du Bas-Empire et surtout les",
+     "transcription": "« logues. Les Grecs du Bas-Empire et surtout les",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0340-notes_right-L005",
+     "source_line_no": null,
+     "tex": "« Arabes firent grand état des noeuds écliptiques,",
+     "transcription": "« Arabes firent grand état des noeuds écliptiques,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0340-notes_right-L006",
+     "source_line_no": null,
+     "tex": "« appelés la Tête {\\MoonFont ☊} et la Queue {\\MoonFont ☋} du Dragon ».",
+     "transcription": "« appelés la Tête ☊ et la Queue ☋ du Dragon ».",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0340-notes_right-L007",
+     "source_line_no": null,
+     "tex": "(\\Name{Bouché-Leclercq}, l. l. p. 121-22).",
+     "transcription": "({sp:Bouché-Leclercq}, l. l. p. 121-22).",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  }
+ ]
+}

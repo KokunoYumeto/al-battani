@@ -1,0 +1,183 @@
+{
+ "pdf": 340,
+ "printed_page": 251,
+ "comment": [
+  "Nallino, Part I p. 251: Schiaparelli's figure of the parallax in latitude, redrawn from the print: the ecliptic",
+  "AB and the horizon AH as arcs, the arc from the zenith Z through the Moon L to L' in dashes, the bold italic",
+  "letters and the word horizon. Measured on the scan (_intake/latin/tools/fig251)."
+ ],
+ "origin": [
+  369.2,
+  567.48
+ ],
+ "scale": 0.99639,
+ "size": [
+  108.8,
+  96.7
+ ],
+ "label_pt": 11,
+ "circles": [],
+ "segments": [],
+ "arcs": [
+  {
+   "name": "the ecliptic AB",
+   "cx": 605.25,
+   "cy": 879.28,
+   "r": 318.57,
+   "a0": -135.22,
+   "a1": -119.43,
+   "w": 1.35
+  },
+  {
+   "name": "the horizon AH",
+   "cx": 391.43,
+   "cy": 290.66,
+   "r": 363.3,
+   "a0": 76.79,
+   "a1": 93.43,
+   "w": 1.38
+  }
+ ],
+ "groups": [
+  {
+   "comment": "the arc from Z through L to L', in dashes",
+   "w": 1.3,
+   "segs": [
+    [
+     408.12,
+     589.95,
+     410.93,
+     593.47
+    ],
+    [
+     412.1,
+     595.24,
+     413.59,
+     597.75
+    ],
+    [
+     415.03,
+     599.91,
+     416.98,
+     603.34
+    ],
+    [
+     418.05,
+     604.66,
+     419.63,
+     608.21
+    ],
+    [
+     420.85,
+     610.23,
+     422.44,
+     613.73
+    ],
+    [
+     425.39,
+     620.0,
+     426.52,
+     623.15
+    ],
+    [
+     427.22,
+     625.06,
+     428.13,
+     628.02
+    ],
+    [
+     429.11,
+     630.58,
+     430.15,
+     633.87
+    ],
+    [
+     422.85,
+     614.55,
+     423.55,
+     617.35
+    ]
+   ]
+  }
+ ],
+ "labels": [
+  {
+   "t": "\\resizebox{4.61pt}{6.52pt}{Z}",
+   "cx": 407.87,
+   "cy": 581.35,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{5.45pt}{7.39pt}{B}",
+   "cx": 453.41,
+   "cy": 600.5,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{5.55pt}{7.16pt}{L}",
+   "cx": 426.69,
+   "cy": 609.62,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{6.10pt}{6.98pt}{L′}",
+   "cx": 437.19,
+   "cy": 631.29,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{5.96pt}{6.86pt}{H}",
+   "cx": 473.72,
+   "cy": 651.09,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{5.99pt}{7.51pt}{A}",
+   "cx": 378.78,
+   "cy": 659.4,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{40.08pt}{6.88pt}{horizon}",
+   "cx": 419.0,
+   "cy": 657.79,
+   "font": "\\fontsize{11}{11}\\itshape\\selectfont"
+  }
+ ],
+ "boxes": {
+  "Z@405,578": [
+   5.1,
+   6.54
+  ],
+  "B@450,596": [
+   5.4,
+   7.44
+  ],
+  "L@424,606": [
+   5.1,
+   7.2
+  ],
+  "L′@434,627": [
+   6.36,
+   7.02
+  ],
+  "H@471,647": [
+   6.36,
+   6.9
+  ],
+  "A@375,655": [
+   5.88,
+   7.56
+  ],
+  "horizon@400,654": [
+   39.06,
+   7.02
+  ]
+ },
+ "points": {
+  "L": [
+   423.51,
+   617.63
+  ]
+ }
+}

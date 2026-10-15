@@ -1,0 +1,83 @@
+@page 340 251
+% Commentary on chapter 38, a) concluded: the argument of latitude counted by Ptolemy and Theon from the northern limit, 90° from the ascending node, by al-Battānī and the other Arabs from the node, after the Indians, who probably followed the Chaldaeo-Greek astrologers; the nodes counted among the planets (note: Bouché-Leclercq). Al-Battānī's formula for the latitude of the Moon, sin latitude = sin argument of latitude × sin greatest latitude / R, not in Ptolemy and Theon, like the rule for the declination of the Sun (p. 12 and 162), the theorem of right spherical triangles. Chapter 39, a) on p. 77, l. 23-24: the parallaxes in latitude and in longitude from the angle A between the ecliptic and the vertical circle through the Moon (Ptolemy V, 19; al-Battānī p. 81, l. 4-6), and their ratio sin A : cos A; b) on p. 77, l. 25-27: Schiaparelli on the side toward which the parallax in latitude falls, with his figure redrawn (begun).
+@nonum
+quo maxima habetur latitudo borealis; 90° a nodo ascendenti (vel boreali) distat. {sp:Al–Bat-}
+{sp:tānī} contra, et reliqui Arabes, ab ipso nodo argumentum supputant, {sp:Indorum} usum sequen-
+tes; Indi autem in hoc probabiliter astrologos {sp:Chaldaeo–Graecos} sectati sunt, apud quos nodi
+Lunae, et praecipue nodus borealis, magnae erat auctoritatis et potestatis in genituris (vel
+genesibus), nam si planetae in eo benefici reperirentur genesis etiam mediocris et abiecta splen-
+didior et erecta evadebat. Ipsi astrologi saepe nodos orbis lunaris planetis adnumerant (1).
+^ Formula {sp:Albateniana}
+@vspace -1.06
+@at 0.34:(α) | 94.04^:sin latit. ☾ $= \dfrac{\text{sin argum. lat. × sin maximae lat. ☾}}{\text{*R*}}$
+@vspace 0.54
+apud {sp:Ptolemaeum} et {sp:Theonem} non reperitur; simillima est regulae qua declinatio Solis
+e longitudine et obliquitate eclipticae elicitur (pag. 12 et 162). In proiectione orthographica e
+@vspace 0.10
+similitudine duorum triangulorum facillime colligitur; nec differt a notissimo theoremate trian-
+@vspace 0.13
+gulorum sphaeralium rectangulorum
+@at 93.43^:sin catheti : sin anguli oppositi $=$ sin hypotenusae : *R*.
+@vspace 6.30
+@center A{sc:d} {sc:caput} XXXIX.
+@vspace 3.49
+@center {bi:a}) — *Pag. 77, l, 23–24.*
+@vspace 3.24
+^ A constructionibus geometricis {sp:Ptolemaei} V, 19 (ed. Halma t. I, p. 360–62), si A vo-
+cetur angulus quem ecliptica cum circulo verticali per Lunam transeunti efficit, aequationes
+facile deducuntur quas {sp:al–Battānī} infra, p. 81, l. 4–6 enuntiat:
+@at 94.17^:parallaxis latitudinis $= \dfrac{\text{sin *A* × parallaxis altitudinis}}{\text{*R*}}$
+@vspace 0.64
+@at 94.29^:parallaxis longitudinis $= \dfrac{\text{cos *A* × parallaxis altitudinis}}{\text{*R*}}\,.$
+@vspace 0.60
+E quibus consequitur regula hoc loco ab {sp:al–Battānī} data:
+@at 0.26:(α) | 93.56^:parall. latit. : parall. longit. $=$ sin *A* : cos *A*.
+@vspace 5.20
+@center {bi:b}) — *Pag. 77, l. 25–27.*
+@vspace 3.85
+^ [« *Parallaxis semper in eam latitudinis plagam declinat in qua est gradus* [*eclip-*
+*ticae*] *quem* etc. ».
+@wrapr 138.28 AB01-PDF0340-F01
+^ Locus haud satis clarus et fortasse aliquantulum corruptus.
+Si a zenith ducatur arcus circuli maximi ad punctum eclipticae
+(aut potius paralleli latitudinis) in quo est Luna, parallaxis in la-
+titudine fit australis aut borealis prout hic arcus ultra eclipticam
+(aut parallelum latitudinis) productus ad plagam australem aut ad
+borealem tendit. Sit AB ecliptica (vel parallelus latitudinis), Z ze-
+nith, L locus Lunae; arcus ZL ultra AB producatur; Luna, quae
+@endwrap
+@notes
+@fontsize 9 11.80
+@vspace 1.38
+^ (1) « On est tenté de reporter à des Chaldéens
+@vspace -0.11
+« authentiques ou à des rénovateurs de vieilles su-
+« perstitions orientales l’idée baroque qui consiste
+« à assimiler aux planètes et à noter dans les thè-
+« mes de géniture les noeuds ascendant et descen-
+« dant de l’orbite lunaire, qui font le tour de l’écli-
+@vspace 0.03
+« ptique en dix-huit ans. Ptolémée ne connaît pas
+@col
+@fontsize 9 11.80
+@vspace 1.22
+« ou ne veut pas connaître ces planètes fictives:
+« mais Tertullien, un demi-siècle plus tard, parle
+« déjà de l’influence que leur attribuaient les astro-
+« logues. Les Grecs du Bas-Empire et surtout les
+@vspace -0.07
+« Arabes firent grand état des noeuds écliptiques,
+« appelés la Tête ☊ et la Queue ☋ du Dragon ».
+@vspace -0.05
+({sp:Bouché-Leclercq}, l. l. p. 121-22).
+@obs body L1, L3: «Al–Bat-» and «Chaldaeo–Graecos» have long dashes (5.2 and 5.1 pt); the hyphen at the end of L1 prints short (1.7 pt).
+@obs body L8, L22: both formulas are labelled «(α)» at the left margin; each formula is centred where it is printed.
+@obs body L8-L13: the formula is the rule of the right spherical triangle of L13 with the latitude of the Moon as the cathetus, the greatest latitude (the inclination of the orbit) as the angle opposite it and the argument of latitude as the hypotenuse: sin latit. : sin max. lat. = sin argum. : R. The declination of the Sun follows from the same rule with the obliquity for the inclination and the longitude for the argument.
+@obs body L9: the addenda (Part I, p. LXXIV) correct this statement: the rule is in Ptolemy, who says (V, 7; ed. Halma I, 315) that he computed the table of the latitude of the Moon «eadem demonstratione (δείξει)» as the arcs of the circles through the poles of the equator between the equator and the ecliptic, that is the declinations of the Sun.
+@obs body L15: the head prints «l,» with a comma; the dash after «a)» measures 9.4 pt, that of «23–24» 4.2 pt. The lines cited are p. 77, L23-L24: «Ratio parallaxis latitudinis ad parallaxim longitudinis est ut ratio sinus anguli ad eius cosinum».
+@obs body L16, L18, L21: «360–62» (4.9 pt), «al–Battānī» (5.1 and 4.9 pt) and «4–6» (4.9 pt) have long dashes. P. 81, L4-L6 multiplies the parallax in altitude by the sines of the angles of longitude and of latitude and divides by 60ᵖ, as in L19-L20 with R = 60ᵖ and the angle of longitude the complement of A.
+@obs body L19-L22: dividing the first equation by the second gives the rule of L22; the squares of the two parallaxes add up to the square of the parallax in altitude, as p. 77, L24-L25 says.
+@obs body L23-L25: the dash after «b)» measures 9.8 pt, that of «25–27» 5.0 pt. A heavy bracket opens Schiaparelli's addition, which goes on to p. 252; it quotes p. 77, L25-L27.
+@obs body L26-L32: the figure stands on the right of these lines and is redrawn from the print: the ecliptic AB and the horizon AH as the arcs of circles fitted to the ink (radius 318.6 and 363.3 pt; both curve), the arc from the zenith Z through L, produced beyond the ecliptic to L′, as its eight dashes and the short piece that runs into the ecliptic at L; the bold italic letters and the word «horizon» in italic stand where they are printed.
+@obs notes_left L2, L4-L6, notes_right L3: the hyphens at the ends of these lines print as short marks or dots (0.9 to 1.5 pt); those of «dix-huit», «demi-siècle», «Bas-Empire», «Bouché-Leclercq» and «121-22» measure 2.4 to 3.1 pt.
+@obs notes_right L6-L7: the head and the tail of the Dragon are printed with the signs ☊ and ☋; «l. l.» is loco laudato, p. 250, L22-L23.
