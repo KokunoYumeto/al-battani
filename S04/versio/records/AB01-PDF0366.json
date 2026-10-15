@@ -1,0 +1,475 @@
+{
+ "anchor": "AB01-PDF0366",
+ "master_pdf_page": 366,
+ "printed_page": 277,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "margin_locators": [],
+ "observations": [
+  "body L2: the dash after «a)» measures 10.0 pt, that of «104–106» 5.4 pt.",
+  "body L4: a heavy bracket opens the addition, which continues on p. 278.",
+  "body L12-L13, L25, L40, L43: «Al–Battānī», divided between L12 and L13, and «al–Battānī» are letter-spaced, with long dashes (5.3 and 4.6 pt; 5.3, 5.5 and 5.0 pt).",
+  "body L14-L33: the figure stands on the right of these lines and is redrawn from the print: the ecliptic AB, drawn straight through the printed line (which bows by about 0.5 pt between its ends) and broken inside the small ring at S′, as printed; the solid lines L′L², L′λ′, L²λ² and λ′λ² between their meetings; the dotted lines Z′L′, Z²L², L′S′, L²Σ, λ′σ′ and λ²σ² dash by dash, with the dashes that print joined to a line, and the last dash of L′S′ inside the ring at S′; the small rings at λ′, λ², S′ and S²; the bold italic letters, with their primes and superscripts placed as printed; «ecliptica» in italic along AB, with the feathered arrow under it. On the figure L′S′ and λ′σ′ stand at 89.9° and 90.0° to AB and Z′L′λ′ is straight within 0.6°, as L19-L24 require; L²Σ and λ²σ² stand at 89.6° and 88.8° to AB and Z²L²λ² is straight within 0.8°. The arrow points toward B, the direction of increasing longitude, so that σ′ lies behind S′ (L33-L34). The points marked with a 2, and Σ, belong to the second approximation, on p. 278.",
+  "body L15, L19-L20, L33: the t of «consistunt» and the e of «tempore» (L15) print with faint bars, like l and c; the L of «Lunae» (L19) prints without its foot, with a speck beside the stem, like «I,unae»; two specks stand before «ad» (L20), one at the height of the capitals and one below the line, like the ends of a bracket, which the sense excludes; the foot of the last t of «scilicet» (L33) prints apart from its stem, like a comma."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0366-body-L001",
+     "source_line_no": null,
+     "tex": "\\CenterLine{A\\textsc{d} \\textsc{caput} XLIV.}",
+     "transcription": "A{sc:d} {sc:caput} XLIV.",
+     "semantic_anchor": "AB01-PDF0366-H01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0366-body-L002",
+     "source_line_no": null,
+     "tex": "\\CenterLine{\\textbf{\\textit{a}}) — \\textit{Pag. 104–106.}}",
+     "transcription": "{bi:a}) — *Pag. 104–106.*",
+     "semantic_anchor": "AB01-PDF0366-H02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0366-body-L003",
+     "source_line_no": null,
+     "tex": "\\Indent Calculus \\textit{coniunctionis apparentis Solis et Lunae.}",
+     "transcription": "Calculus *coniunctionis apparentis Solis et Lunae.*",
+     "semantic_anchor": "AB01-PDF0366-P01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0366-body-L004",
+     "source_line_no": null,
+     "tex": "\\Indent [Ratio inter coniunctionem apparentem et coniunctionem veram intercedens in eclipsibus",
+     "transcription": "[Ratio inter coniunctionem apparentem et coniunctionem veram intercedens in eclipsibus",
+     "semantic_anchor": "AB01-PDF0366-P02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0366-body-L005",
+     "source_line_no": null,
+     "tex": "Solis, duo diversa problemata gignit. Cum tempus coniunctionis apparentis cognoscatur e directa",
+     "transcription": "Solis, duo diversa problemata gignit. Cum tempus coniunctionis apparentis cognoscatur e directa",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0366-body-L006",
+     "source_line_no": null,
+     "tex": "eclipsis observatione, epocha verae coniunctionis facillime elicitur. Sufficit effectum parallaxis",
+     "transcription": "eclipsis observatione, epocha verae coniunctionis facillime elicitur. Sufficit effectum parallaxis",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0366-body-L007",
+     "source_line_no": null,
+     "tex": "tempore coniunctionis verae supputare; tunc differentia verarum longitudinum Solis et Lunae",
+     "transcription": "tempore coniunctionis verae supputare; tunc differentia verarum longitudinum Solis et Lunae",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0366-body-L008",
+     "source_line_no": null,
+     "tex": "invenietur, a qua differentia, cognito motu horario synodico vel relativo, facile tempus verae",
+     "transcription": "invenietur, a qua differentia, cognito motu horario synodico vel relativo, facile tempus verae",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0366-body-L009",
+     "source_line_no": null,
+     "tex": "coniunctionis deducetur.",
+     "transcription": "coniunctionis deducetur.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0366-body-L010",
+     "source_line_no": null,
+     "tex": "\\Indent Sed cum datum sit tempus verae coniunctionis, ad coniunctionem apparentem deducendam",
+     "transcription": "Sed cum datum sit tempus verae coniunctionis, ad coniunctionem apparentem deducendam",
+     "semantic_anchor": "AB01-PDF0366-P03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0366-body-L011",
+     "source_line_no": null,
+     "tex": "necesse est cognoscere parallaxim tempore apparentis coniunctionis, quod ipsum tempus igno-",
+     "transcription": "necesse est cognoscere parallaxim tempore apparentis coniunctionis, quod ipsum tempus igno-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0366-body-L012",
+     "source_line_no": null,
+     "tex": "tum est. Problema igitur directe non potest resolvi, sed tantum per adproximationes. \\Name{Al–}",
+     "transcription": "tum est. Problema igitur directe non potest resolvi, sed tantum per adproximationes. {sp:Al–}",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0366-body-L013",
+     "source_line_no": null,
+     "tex": "\\Name{–Battānī} aliquot subsequentibus correctionibus adproximatis utitur, et hoc modo procedit.",
+     "transcription": "{sp:–Battānī} aliquot subsequentibus correctionibus adproximatis utitur, et hoc modo procedit.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0366-body-F01",
+     "source_line_no": null,
+     "tex": "\\input{figures/AB01-PDF0366-F01}",
+     "transcription": "[figure, redrawn: figures/AB01-PDF0366-F01.tex]",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_FIGURE"
+    },
+    {
+     "id": "AB01-PDF0366-body-L014",
+     "source_line_no": null,
+     "tex": "\\Indent Sit AB ecliptica in regione sphaerae cae-",
+     "transcription": "Sit AB ecliptica in regione sphaerae cae-",
+     "semantic_anchor": "AB01-PDF0366-P04",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0366-body-L015",
+     "source_line_no": null,
+     "tex": "lestis in qua Sol et Luna consistunt tempore",
+     "transcription": "lestis in qua Sol et Luna consistunt tempore",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0366-body-L016",
+     "source_line_no": null,
+     "tex": "eclipsis; tempore coniunctionis verae (qualis",
+     "transcription": "eclipsis; tempore coniunctionis verae (qualis",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0366-body-L017",
+     "source_line_no": null,
+     "tex": "nempe ex centro Terrae conspiceretur, et qua-",
+     "transcription": "nempe ex centro Terrae conspiceretur, et qua-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0366-body-L018",
+     "source_line_no": null,
+     "tex": "lis e tabulis astronomicis deducitur) sit L′ locus",
+     "transcription": "lis e tabulis astronomicis deducitur) sit L′ locus",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0366-body-L019",
+     "source_line_no": null,
+     "tex": "verus Lunae, S′ locus verus Solis, L′S′ per-",
+     "transcription": "verus Lunae, S′ locus verus Solis, L′S′ per-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0366-body-L020",
+     "source_line_no": null,
+     "tex": "pendicularis ad AB. Sit L′Z′ directio circuli",
+     "transcription": "pendicularis ad AB. Sit L′Z′ directio circuli",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0366-body-L021",
+     "source_line_no": null,
+     "tex": "verticalis Lunae eodem temporis momento; ob",
+     "transcription": "verticalis Lunae eodem temporis momento; ob",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0366-body-L022",
+     "source_line_no": null,
+     "tex": "parallaxim altitudinis Luna observatori appa-",
+     "transcription": "parallaxim altitudinis Luna observatori appa-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0366-body-L023",
+     "source_line_no": null,
+     "tex": "rebit non in L′, sed in \\textgreek{λ}′. Si ex \\textgreek{λ}′ ducatur per-",
+     "transcription": "rebit non in L′, sed in λ′. Si ex λ′ ducatur per-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0366-body-L024",
+     "source_line_no": null,
+     "tex": "pendicularis \\textgreek{λ}′\\textgreek{σ}′, arcus eclipticae S′\\textgreek{σ}′ manifeste",
+     "transcription": "pendicularis λ′σ′, arcus eclipticae S′σ′ manifeste",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0366-body-L025",
+     "source_line_no": null,
+     "tex": "id erit quod \\Name{al–Battānī} \\textit{primam paralla-}",
+     "transcription": "id erit quod {sp:al–Battānī} *primam paralla-*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0366-body-L026",
+     "source_line_no": null,
+     "tex": "\\textit{xim} [longitudinis] vocat, nempe differentia lon-",
+     "transcription": "*xim* [longitudinis] vocat, nempe differentia lon-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0366-body-L027",
+     "source_line_no": null,
+     "tex": "gitudinis quae re vera observatur inter Solem",
+     "transcription": "gitudinis quae re vera observatur inter Solem",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0366-body-L028",
+     "source_line_no": null,
+     "tex": "S′ et Lunam \\textgreek{λ}′ tempore verae coniunctionis;",
+     "transcription": "S′ et Lunam λ′ tempore verae coniunctionis;",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0366-body-L029",
+     "source_line_no": null,
+     "tex": "quod temporis momentum nos \\textgreek{ϑ} appellabimus.",
+     "transcription": "quod temporis momentum nos ϑ appellabimus.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0366-body-L030",
+     "source_line_no": null,
+     "tex": "In casu quem figura repraesentat, Luna est",
+     "transcription": "In casu quem figura repraesentat, Luna est",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0366-body-L031",
+     "source_line_no": null,
+     "tex": "ab occasu nonagesimi (seu gradus qui 90° ab",
+     "transcription": "ab occasu nonagesimi (seu gradus qui 90° ab",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0366-body-L032",
+     "source_line_no": null,
+     "tex": "ascendente distat); et quoniam Luna in ecliptica",
+     "transcription": "ascendente distat); et quoniam Luna in ecliptica",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0366-body-L033",
+     "source_line_no": null,
+     "tex": "retro est respectu Solis (scilicet \\textgreek{σ}′ retro respe-",
+     "transcription": "retro est respectu Solis (scilicet σ′ retro respe-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0366-body-L034",
+     "source_line_no": null,
+     "tex": "ctu S′), ei quodam tempore opus erit ut longitudinem Solis consequatur. Hoc temporis spa-",
+     "transcription": "ctu S′), ei quodam tempore opus erit ut longitudinem Solis consequatur. Hoc temporis spa-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0366-body-L035",
+     "source_line_no": null,
+     "tex": "tium est quod invenire debemus.",
+     "transcription": "tium est quod invenire debemus.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0366-body-L036",
+     "source_line_no": null,
+     "tex": "\\Indent Si effectus parallaxis in longitudine semper unus idemque maneret, sufficeret arcum S′\\textgreek{σ}′",
+     "transcription": "Si effectus parallaxis in longitudine semper unus idemque maneret, sufficeret arcum S′σ′",
+     "semantic_anchor": "AB01-PDF0366-P05",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0366-body-L037",
+     "source_line_no": null,
+     "tex": "per motum horarium relativum duorum luminarium dividere; tempus quaesitum proveniret. At",
+     "transcription": "per motum horarium relativum duorum luminarium dividere; tempus quaesitum proveniret. At",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0366-body-L038",
+     "source_line_no": null,
+     "tex": "parallaxis celeri gressu mutatur; et quoniam intervallum inter coniunctionem veram et appa-",
+     "transcription": "parallaxis celeri gressu mutatur; et quoniam intervallum inter coniunctionem veram et appa-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0366-body-L039",
+     "source_line_no": null,
+     "tex": "rentem potest duas horas fere interdum attingere, ne eam quidem uniformi modo mutari arbi-",
+     "transcription": "rentem potest duas horas fere interdum attingere, ne eam quidem uniformi modo mutari arbi-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0366-body-L040",
+     "source_line_no": null,
+     "tex": "trari possumus. Si igitur, ut \\Name{al–Battānī} iubet, parallaxim longitudinis S′\\textgreek{σ}′ sumimus et per",
+     "transcription": "trari possumus. Si igitur, ut {sp:al–Battānī} iubet, parallaxim longitudinis S′σ′ sumimus et per",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0366-body-L041",
+     "source_line_no": null,
+     "tex": "motum horarium relativum dividimus, non invenimus tempus quo coniunctio apparens respectu",
+     "transcription": "motum horarium relativum dividimus, non invenimus tempus quo coniunctio apparens respectu",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0366-body-L042",
+     "source_line_no": null,
+     "tex": "verae retardatur, sed tantum quantitatem illi tempori vicinam. Sit \\textgreek{ε}′ hoc tempus vero proxi-",
+     "transcription": "verae retardatur, sed tantum quantitatem illi tempori vicinam. Sit ε′ hoc tempus vero proxi-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0366-body-L043",
+     "source_line_no": null,
+     "tex": "mum, nempe, ut \\Name{al–Battānī} dicit, \\textit{horae primae parallaxis}. Addatur tempori \\textgreek{ϑ}; exibit",
+     "transcription": "mum, nempe, ut {sp:al–Battānī} dicit, *horae primae parallaxis*. Addatur tempori ϑ; exibit",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0366-body-L044",
+     "source_line_no": null,
+     "tex": "prima adproximatio problematis et temporis quaesiti, scilicet \\textgreek{ϑ} + \\textgreek{ε}′.",
+     "transcription": "prima adproximatio problematis et temporis quaesiti, scilicet ϑ + ε′.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    }
+   ]
+  }
+ ]
+}
