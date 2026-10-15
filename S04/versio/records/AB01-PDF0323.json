@@ -1,0 +1,467 @@
+{
+ "anchor": "AB01-PDF0323",
+ "master_pdf_page": 323,
+ "printed_page": 234,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "margin_locators": [],
+ "observations": [
+  "body L2, L4-L6, L8, L18, L26, L32, L38: the dashes of «al–Battānī» are long dashes (5.3 to 5.6 pt); in L18, L26, L32 and L38 the name is letter-spaced.",
+  "body L8-L10, L12, L20, L27-L29, L39, L41-L42: the dashes of 9.6 to 10.4 pt, after the head letters and before the names, are transcribed as dashes, as that before «Schiaparelli» in L39, which prints 7.4 pt long; those of «1–4», «4–5» and «9–11» in the heads are long dashes.",
+  "body L10: 42° and 52° are the true longitudes of the Sun less the apogee: 124° 1′ 32″ − 82° 17′ 42″ = 41° 43′ 50″ (p. 230) and 134° 36′ 13″ − 82° 33′ 12″ = 52° 3′ 1″ (p. 231).",
+  "body L11-L19: AL = 5p,247 is 60p sin 5° 1′, al-Battānī's greatest equation of the Moon (p. 221). In the triangle AEL the angle at A is 180° less QAL; with QAL 114° 16′ and 111° 4′, EL is 58p,0407 and 58p,3199, and 60p less these 1p,96 and 1p,68; with the true anomalies of pp. 230 and 231, 114° 13′ 38″ and 111° 9′ 1″, EL would be 58p,044 and 58p,312.",
+  "body (figure): the figure is not drawn to scale: AL is about an eighth of AE, where 5p,247 to 60p is about an eleventh, and the angle QAL is about 112°.",
+  "body L20-L27: 0° 31′ 52″ is the latitude of p. 230, and 0° 28′ 3″ the latitude that al-Battānī's table gives for the eclipse IV (p. 231, where the computation prints 0° 28′ 9″); 31′ 52″ − 28′ 3″ = 3′ 49″. The motion in latitude 185° 21′ is that of the codex in the table of p. 232.",
+  "body L29-L36: 8 3/4 × 3′ 50″ = 33′ 32 1/2″, the diameter of 33′ 1/2 of L36; 6 × 3′ 50″ = 23′ (L32). The bar of «1 − 5/6» in L31 (10.2 pt) is a minus sign."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0323-body-L001",
+     "source_line_no": null,
+     "tex": "psis nonnihil retardari necesse fuit. An vero totus error integri horae quadrantis huic causae",
+     "transcription": "psis nonnihil retardari necesse fuit. An vero totus error integri horae quadrantis huic causae",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0323-body-L002",
+     "source_line_no": null,
+     "tex": "sit adscribendus, affirmare non audeo; ipse enim al–Battānī, rudiori modo, tempora sua non",
+     "transcription": "sit adscribendus, affirmare non audeo; ipse enim al–Battānī, rudiori modo, tempora sua non",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0323-body-L003",
+     "source_line_no": null,
+     "tex": "accuratius quam per denorum minutorum intervalla adnotasse videtur.",
+     "transcription": "accuratius quam per denorum minutorum intervalla adnotasse videtur.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0323-body-L004",
+     "source_line_no": null,
+     "tex": "\\Indent Demum \\textit{magnitudines} eclipsium lunarium ab al–Battānī observatarum cum Oppolzeri",
+     "transcription": "Demum *magnitudines* eclipsium lunarium ab al–Battānī observatarum cum Oppolzeri",
+     "semantic_anchor": "AB01-PDF0323-P01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0323-body-L005",
+     "source_line_no": null,
+     "tex": "supputationibus comparare iuvabit. Magnitudo eclipsis III, quam al–Battānī 10 digitorum aesti-",
+     "transcription": "supputationibus comparare iuvabit. Magnitudo eclipsis III, quam al–Battānī 10 digitorum aesti-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0323-body-L006",
+     "source_line_no": null,
+     "tex": "mavit, fuit iuxta Oppolzer 11,2 digitorum. Magnitudo eclipsis IV, quam al–Battānī 12 digitorum",
+     "transcription": "mavit, fuit iuxta Oppolzer 11,2 digitorum. Magnitudo eclipsis IV, quam al–Battānī 12 digitorum",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0323-body-L007",
+     "source_line_no": null,
+     "tex": "vel paulo minorem fuisse vidit, e calculis Oppolzer nonnihilo maior, seu 12,6 digitorum inve-",
+     "transcription": "vel paulo minorem fuisse vidit, e calculis Oppolzer nonnihilo maior, seu 12,6 digitorum inve-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0323-body-L008",
+     "source_line_no": null,
+     "tex": "nitur. — Magnitudines duarum eclipsium Solis, I et II, al–Battānī non tradidit. — \\textsc{Schiaparelli}.]",
+     "transcription": "nitur. — Magnitudines duarum eclipsium Solis, I et II, al–Battānī non tradidit. — {sc:Schiaparelli}.]",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0323-body-L009",
+     "source_line_no": null,
+     "tex": "\\CenterLine{\\textbf{\\textit{l}}) — \\textit{Pag. 58, l. 1–4.}}",
+     "transcription": "{bi:l}) — *Pag. 58, l. 1–4.*",
+     "semantic_anchor": "AB01-PDF0323-H09",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0323-body-L010",
+     "source_line_no": null,
+     "tex": "\\Indent [« \\textit{Sol ad apogeum versus erat} ». — Nam in III eclipsi anomalia \\SunSym{} 42° erat, in IV 52°.",
+     "transcription": "[« *Sol ad apogeum versus erat* ». — Nam in III eclipsi anomalia ⊙ 42° erat, in IV 52°.",
+     "semantic_anchor": "AB01-PDF0323-P02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0323-body-F01",
+     "source_line_no": null,
+     "tex": "\\input{figures/AB01-PDF0323-F01}",
+     "transcription": "[figure, redrawn: figures/AB01-PDF0323-F01.tex]",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_FIGURE"
+    },
+    {
+     "id": "AB01-PDF0323-body-L011",
+     "source_line_no": null,
+     "tex": "\\Indent « \\textit{Luna eundem locum occupabat partibus 1\\textsuperscript{p} $\\qfrac{1}{2}$ circiter minorem}",
+     "transcription": "« *Luna eundem locum occupabat partibus 1{sup:p} {sfrac:1/2} circiter minorem*",
+     "semantic_anchor": "AB01-PDF0323-P03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0323-body-L012",
+     "source_line_no": null,
+     "tex": "\\textit{quam distantiam mediam} ». — I. e. 1\\textsuperscript{\\textit{p}} $\\qfrac{1}{2}$ circiter ex 60 partes in quas",
+     "transcription": "*quam distantiam mediam* ». — I. e. 1{sup:*p*} {sfrac:1/2} circiter ex 60 partes in quas",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0323-body-L013",
+     "source_line_no": null,
+     "tex": "media distantia (AE in figura pag. 51) Lunae coniunctae et oppositae Soli di-",
+     "transcription": "media distantia (AE in figura pag. 51) Lunae coniunctae et oppositae Soli di-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0323-body-L014",
+     "source_line_no": null,
+     "tex": "vidi statuitur. Re vera in III eclipsi anomalia vera Lunae in epicyclo 114° 16′",
+     "transcription": "vidi statuitur. Re vera in III eclipsi anomalia vera Lunae in epicyclo 114° 16′",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0323-body-L015",
+     "source_line_no": null,
+     "tex": "erat, in IV 111° 4′; et hae sunt quantitates anguli QAL in figura hoc loco",
+     "transcription": "erat, in IV 111° 4′; et hae sunt quantitates anguli QAL in figura hoc loco",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0323-body-L016",
+     "source_line_no": null,
+     "tex": "descripta, ubi E terra est, A centrum epicycli, AE $=$ 60\\textsuperscript{\\textit{p}}, AL $=$ 5\\textsuperscript{\\textit{p}},247. Cal-",
+     "transcription": "descripta, ubi E terra est, A centrum epicycli, AE $=$ 60{sup:*p*}, AL $=$ 5{sup:*p*},247. Cal-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0323-body-L017",
+     "source_line_no": null,
+     "tex": "culus trianguli AEL, secundum III eclipsim, EL $=$58\\textsuperscript{\\textit{p}},04 praebet; secundum IV,",
+     "transcription": "culus trianguli AEL, secundum III eclipsim, EL $=$58{sup:*p*},04 praebet; secundum IV,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0323-body-L018",
+     "source_line_no": null,
+     "tex": "EL $=$ 58\\textsuperscript{\\textit{p}},32. Quod ergo « 1\\textsuperscript{\\textit{p}} $\\qfrac{1}{2}$ circiter » \\Name{al–Battānī} dicit erat exacte 1\\textsuperscript{\\textit{p}},96",
+     "transcription": "EL $=$ 58{sup:*p*},32. Quod ergo « 1{sup:*p*} {sfrac:1/2} circiter » {sp:al–Battānī} dicit erat exacte 1{sup:*p*},96",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0323-body-L019",
+     "source_line_no": null,
+     "tex": "et 1\\textsuperscript{\\textit{p}},68; manifeste calculum adproximate instituit.",
+     "transcription": "et 1{sup:*p*},68; manifeste calculum adproximate instituit.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0323-body-L020",
+     "source_line_no": null,
+     "tex": "\\Indent « \\textit{Inter primam ac alteram latitudinem 0° 3′ 50″ intercedebant} ». —",
+     "transcription": "« *Inter primam ac alteram latitudinem 0° 3′ 50″ intercedebant* ». —",
+     "semantic_anchor": "AB01-PDF0323-P04",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0323-body-L021",
+     "source_line_no": null,
+     "tex": "Iuxta numeros Albatenianos prima latitudo (III ecl.) « 0° 32′ circiter in meri-",
+     "transcription": "Iuxta numeros Albatenianos prima latitudo (III ecl.) « 0° 32′ circiter in meri-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0323-body-L022",
+     "source_line_no": null,
+     "tex": "« diem versus fuit »; altera (IV ecl.) « 0° 28′ circiter » (plagam indicare omi-",
+     "transcription": "« diem versus fuit »; altera (IV ecl.) « 0° 28′ circiter » (plagam indicare omi-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0323-body-L023",
+     "source_line_no": null,
+     "tex": "sit, sed ex motu latitudinis 185° 21′ patet australem quoque fuisse). Differentia",
+     "transcription": "sit, sed ex motu latitudinis 185° 21′ patet australem quoque fuisse). Differentia",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0323-body-L024",
+     "source_line_no": null,
+     "tex": "ergo 4′ pro 3′ 50″. Sed supputatio exactior a me instituta, pro duabus illis",
+     "transcription": "ergo 4′ pro 3′ 50″. Sed supputatio exactior a me instituta, pro duabus illis",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0323-body-L025",
+     "source_line_no": null,
+     "tex": "latitudinibus 0° 31′ 52″ et 0° 28′ 3″ praebuit; differentia 3′ 49″, bene cum Al-",
+     "transcription": "latitudinibus 0° 31′ 52″ et 0° 28′ 3″ praebuit; differentia 3′ 49″, bene cum Al-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0323-body-L026",
+     "source_line_no": null,
+     "tex": "batenianis 3′ 50″ congruens. Manifeste \\Name{al–Battānī} eclipsium calculos praecisius",
+     "transcription": "batenianis 3′ 50″ congruens. Manifeste {sp:al–Battānī} eclipsium calculos praecisius",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0323-body-L027",
+     "source_line_no": null,
+     "tex": "duxerat; postea in libro numeros rotundos reddidit. — \\textsc{Schiaparelli}.]",
+     "transcription": "duxerat; postea in libro numeros rotundos reddidit. — {sc:Schiaparelli}.]",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0323-body-L028",
+     "source_line_no": null,
+     "tex": "\\CenterLine{\\textbf{\\textit{m}}) — \\textit{Pag. 58, l. 4–5.}}",
+     "transcription": "{bi:m}) — *Pag. 58, l. 4–5.*",
+     "semantic_anchor": "AB01-PDF0323-H28",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0323-body-L029",
+     "source_line_no": null,
+     "tex": "\\Indent « \\textit{Diametro lunari differentia duarum eclipsium} 8 $\\qfrac{3}{4}$ \\textit{vicibus continetur} ». — Cum",
+     "transcription": "« *Diametro lunari differentia duarum eclipsium* 8 {sfrac:3/4} *vicibus continetur* ». — Cum",
+     "semantic_anchor": "AB01-PDF0323-P05",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0323-body-L030",
+     "source_line_no": null,
+     "tex": "observationibus auctoris non concordat. In III eclipsi pars obscurata $\\qfrac{5}{6}$ diametri fuit; in IV",
+     "transcription": "observationibus auctoris non concordat. In III eclipsi pars obscurata {sfrac:5/6} diametri fuit; in IV",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0323-body-L031",
+     "source_line_no": null,
+     "tex": "Luna fere tota. Differentia 1 $-$ $\\qfrac{5}{6}$ $=$ $\\qfrac{1}{6}$. Ergo pro 8 $\\qfrac{3}{4}$ debebat 6 scribere.",
+     "transcription": "Luna fere tota. Differentia 1 $-$ {sfrac:5/6} $=$ {sfrac:1/6}. Ergo pro 8 {sfrac:3/4} debebat 6 scribere.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0323-body-L032",
+     "source_line_no": null,
+     "tex": "\\Indent [Puto \\Name{al–Battānī}, ne ad absurdam diametrum lunarem vix 23 minuta attingentem (ut",
+     "transcription": "[Puto {sp:al–Battānī}, ne ad absurdam diametrum lunarem vix 23 minuta attingentem (ut",
+     "semantic_anchor": "AB01-PDF0323-P06",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0323-body-L033",
+     "source_line_no": null,
+     "tex": "e factore 6 necessarie oriebatur) duceretur, quodam modo ad numericam rationem revocare",
+     "transcription": "e factore 6 necessarie oriebatur) duceretur, quodam modo ad numericam rationem revocare",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0323-body-L034",
+     "source_line_no": null,
+     "tex": "voluisse illa « paululo amplius $\\qfrac{5}{6}$ » tertiae eclipsis, et « perpaulo minus quam sua diametro »",
+     "transcription": "voluisse illa « paululo amplius {sfrac:5/6} » tertiae eclipsis, et « perpaulo minus quam sua diametro »",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0323-body-L035",
+     "source_line_no": null,
+     "tex": "quartae. Cum vero haec numeris indicare difficile esset, factorem 8 $\\qfrac{3}{4}$ delegisse, diametrum",
+     "transcription": "quartae. Cum vero haec numeris indicare difficile esset, factorem 8 {sfrac:3/4} delegisse, diametrum",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0323-body-L036",
+     "source_line_no": null,
+     "tex": "lunarem 33′ $\\qfrac{1}{2}$ aestimando. Solummodo Albatenius (parum perspicue, ut videtur) ostendere vo-",
+     "transcription": "lunarem 33′ {sfrac:1/2} aestimando. Solummodo Albatenius (parum perspicue, ut videtur) ostendere vo-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0323-body-L037",
+     "source_line_no": null,
+     "tex": "luit, Lunae diametrum a se propositam cum his duabus eclipsibus satis posse conciliari.",
+     "transcription": "luit, Lunae diametrum a se propositam cum his duabus eclipsibus satis posse conciliari.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0323-body-L038",
+     "source_line_no": null,
+     "tex": "\\Indent Ergo quae \\Name{al–Battānī} dicit non debent vera diametri lunaris determinatio censeri, sed",
+     "transcription": "Ergo quae {sp:al–Battānī} dicit non debent vera diametri lunaris determinatio censeri, sed",
+     "semantic_anchor": "AB01-PDF0323-P07",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0323-body-L039",
+     "source_line_no": null,
+     "tex": "probatio tantum non repugnare observationes contra diametrum quam receperat. — \\textsc{Schia-}",
+     "transcription": "probatio tantum non repugnare observationes contra diametrum quam receperat. — {sc:Schia-}",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0323-body-L040",
+     "source_line_no": null,
+     "tex": "\\textsc{parelli}.]",
+     "transcription": "{sc:parelli}.]",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0323-body-L041",
+     "source_line_no": null,
+     "tex": "\\CenterLine{\\textbf{\\textit{n}}) — \\textit{Pag. 58, l. 9–11.}}",
+     "transcription": "{bi:n}) — *Pag. 58, l. 9–11.*",
+     "semantic_anchor": "AB01-PDF0323-H41",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0323-body-L042",
+     "source_line_no": null,
+     "tex": "\\Indent [« \\textit{Lunae motus horarius temporibus syzygiarum} ..... ». — Hi motus horarii, maxi-",
+     "transcription": "[« *Lunae motus horarius temporibus syzygiarum* ..... ». — Hi motus horarii, maxi-",
+     "semantic_anchor": "AB01-PDF0323-P08",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0323-body-L043",
+     "source_line_no": null,
+     "tex": "mus 36′ 10″ et minimus 30′ 12″ (Plato 15″, nam saepissime apud eum 2 fit 5), cum tabula",
+     "transcription": "mus 36′ 10″ et minimus 30′ 12″ (Plato 15″, nam saepissime apud eum 2 fit 5), cum tabula",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    }
+   ]
+  }
+ ]
+}

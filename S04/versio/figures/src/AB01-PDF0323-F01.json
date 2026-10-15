@@ -1,0 +1,122 @@
+{
+ "pdf": 323,
+ "printed_page": 234,
+ "comment": [
+  "Nallino, Part I p. 234: the epicycle of the Moon at the lunar eclipses of 883 and 901, redrawn from the print:",
+  "the epicycle about A; the straight line from its top Q through A to the Earth E, the radius AL and the line LE,",
+  "the angle QAL being the true anomaly; the two lines meet at E where their measured ink ends; the bold italic",
+  "letters. Measured on the scan (_intake/latin/tools/fig234)."
+ ],
+ "origin": [
+  113.0,
+  267.82
+ ],
+ "scale": 0.99138,
+ "size": [
+  62.0,
+  249.2
+ ],
+ "label_pt": 11,
+ "circles": [
+  {
+   "name": "the epicycle about A",
+   "cx": 140.7,
+   "cy": 311.53,
+   "r": 24.79,
+   "w": 1.27
+  }
+ ],
+ "segments": [
+  {
+   "name": "QE, through A",
+   "x0": 140.53,
+   "y0": 286.74,
+   "x1": 143.07,
+   "y1": 507.12,
+   "w": 1.16
+  },
+  {
+   "name": "AL",
+   "x0": 140.79,
+   "y0": 310.79,
+   "x1": 164.21,
+   "y1": 320.15,
+   "w": 1.42
+  },
+  {
+   "name": "LE",
+   "x0": 164.21,
+   "y0": 320.15,
+   "x1": 143.07,
+   "y1": 507.12,
+   "w": 1.27
+  }
+ ],
+ "arcs": [],
+ "labels": [
+  {
+   "t": "\\resizebox{5.30pt}{6.16pt}{Q}",
+   "cx": 140.35,
+   "cy": 279.32,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{6.33pt}{6.40pt}{A}",
+   "cx": 133.66,
+   "cy": 308.04,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{5.20pt}{5.94pt}{L}",
+   "cx": 170.44,
+   "cy": 321.02,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{5.33pt}{6.54pt}{E}",
+   "cx": 142.88,
+   "cy": 512.6,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  }
+ ],
+ "boxes": {
+  "Q@138,274": [
+   4.92,
+   8.28
+  ],
+  "A@130,304": [
+   6.24,
+   6.48
+  ],
+  "L@168,317": [
+   4.8,
+   6.0
+  ],
+  "E@140,509": [
+   5.64,
+   6.6
+  ]
+ },
+ "points": {
+  "Q": [
+   140.53,
+   286.74
+  ],
+  "A": [
+   140.79,
+   310.79
+  ],
+  "L": [
+   164.21,
+   320.15
+  ],
+  "E": [
+   142.91,
+   510.34
+  ],
+  "E_ink": [
+   143.07,
+   507.12
+  ]
+ }
+}
