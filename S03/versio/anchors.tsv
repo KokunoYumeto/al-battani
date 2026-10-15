@@ -3270,3 +3270,37 @@ AB01-PDF0267-body-L030	178	body	Secunda, quoniam $\\sin\\text{δ} = \\dfrac{\\si
 AB01-PDF0267-body-L031	178	body	$\\text{sin ampl.} = \\dfrac{\\sin\\text{ε} \\sin L}{\\cos\\text{φ}}$.
 AB01-PDF0267-body-L032	178	body	Tertia manifeste per proiectionem orthographicam inventa est:
 AB01-PDF0267-body-L033	178	body	$\\text{sin ampl.} = \\sqrt{(\\text{tg}\\,\\text{φ} \\sin\\text{δ})^2 + \\sin^2\\text{δ}}$.
+AB01-PDF0268-body-L001	179	body	A{sc:d} {sc:caput} VIII.
+AB01-PDF0268-body-L002	179	body	{bi:a}) — *Pag. 21.*
+AB01-PDF0268-body-L003	179	body	*Altitudinem* φ *poli* supputare, data differentia inter diem aequinoctialem (12 horarum)
+AB01-PDF0268-body-L004	179	body	et diem longissimum, i. e. data differentia inter arcum semidiurnum aequinoctialem (90 gra-
+AB01-PDF0268-body-L005	179	body	duum) et arcum semidiurnum maximum.
+AB01-PDF0268-body-L006	179	body	Primo {sp:al-Battānī} docet quo modo inveniatur « longinquitas ascensus initii Cancri a
+AB01-PDF0268-body-L007	179	body	puncto boreali », quae manifeste, in figura sequenti, repraesentatur arcu HD, qui idem est
+AB01-PDF0268-body-L008	179	body	ac arcus HE (scilicet amplitudo solstitialis) nonaginta gradibus auctus; ergo sinus illius distan-
+AB01-PDF0268-body-L009	179	body	tiae est cosinus amplitudinis solstitialis, et ex formula adnotationis {bi:a} ad cap. VII statim pro-
+AB01-PDF0268-body-L010	179	body	venit praeceptum {sp:al–Battānī}:
+AB01-PDF0268-body-L011	179	body	(α) $\\text{sin longinq. asc. 0° Cancri a puncto boreali} = \\dfrac{\\cos\\text{ε} \\sin P}{R}$.
+AB01-PDF0268-body-L012	179	body	Arcus EH est quod nunc auctor « distantiam ascensus initii Cancri a puncto ortus aequi-
+AB01-PDF0268-body-L013	179	body	noctii » appellat, scilicet quod in capite praecedenti « amplitudinem solstitialem » vocaverat.
+AB01-PDF0268-body-L014	179	body	His praemissis, {sp:al-Battānī} formulam praebet:
+AB01-PDF0268-body-L015	179	body	(β) $\\sin\\text{φ} = \\dfrac{\\sin (P - \\text{90°}) \\times \\text{sin dist. asc. 0° Cancri a puncto boreali}}{\\text{sin dist. asc. Cancri ab ortu aequinoctiali}} \\times \\dfrac{R}{\\sin P}$,
+AB01-PDF0268-body-L016	179	body	quam, cum sit $\\sin (P - \\text{90°}) = - \\cos P$, scribere licet
+AB01-PDF0268-body-L017	179	body	$\\sin\\text{φ} = - \\dfrac{\\cos P}{\\sin P} \\times \\dfrac{\\text{cos amplit. solstit.}}{\\text{sin amplit. solstit.}} \\times R$ (1).
+AB01-PDF0268-body-F01	179	body	[figure, redrawn: figures/AB01-PDF0268-F01.tex]
+AB01-PDF0268-body-L018	179	body	Formula oritur e constructione {sp:Ptolemaei}, *Almag.* II,
+AB01-PDF0268-body-L019	179	body	3 (ed. Halma, t. I, p. 69–70). Sit figura ut in adnotationibus ad
+AB01-PDF0268-body-L020	179	body	caput praecedens; Ptolemaeus demonstrat:
+AB01-PDF0268-body-L021	179	body	$\\dfrac{\\text{chorda } 2\\,ET}{\\text{chorda } 2\\,AT} = \\dfrac{\\text{chorda } 2\\,EH}{\\text{chorda } 2\\,HB} \\times \\dfrac{\\text{chorda } 2\\,BZ}{\\text{chorda } 2\\,ZA}$,
+AB01-PDF0268-body-L022	179	body	id est
+AB01-PDF0268-body-L023	179	body	$\\dfrac{\\text{chorda}\\,(\\text{180°}{-}2P)}{\\text{chorda } 2P} = \\dfrac{\\text{chorda 2 ampl. solst.}}{\\text{chorda}\\,(\\text{180°}{-}2\\text{ampl.solst.})} \\times \\dfrac{\\text{chorda } 2\\text{φ}}{\\text{chorda 180°}}$.
+AB01-PDF0268-body-L024	179	body	Sinibus pro chordis positis,
+AB01-PDF0268-body-L025	179	body	$\\dfrac{\\cos P}{\\sin P} = \\dfrac{\\text{sin ampl. solst.}}{\\text{cos ampl. solst.}} \\times \\dfrac{\\sin\\text{φ}}{R}$,
+AB01-PDF0268-body-L026	179	body	unde
+AB01-PDF0268-body-L027	179	body	$\\sin\\text{φ} = \\dfrac{\\cos P}{\\sin P} \\times \\dfrac{\\text{cos ampl. solst.}}{\\text{sin ampl. solst.}} \\times R$,
+AB01-PDF0268-body-L028	179	body	ubi cos P positivus est quia Ptolemaeus differentiam inter arcum semidiurnum minimum et
+AB01-PDF0268-body-L029	179	body	arcum semidiurnum aequinoctialem, nempe 90° − P pro P − 90°, consideravit.
+AB01-PDF0268-notes_left-L001	179	notes_left	(1) Ad nostrum $\\text{tg}\\,\\text{φ} = - \\cos P\\,\\text{cotg}\\,\\text{ε}$ facile
+AB01-PDF0268-notes_left-L002	179	notes_left	reducitur si $\\dfrac{\\cos\\text{ε} \\sin P}{R}$ pro cos ampl. solst. po-
+AB01-PDF0268-notes_right-L001	179	notes_right	natur, et $R\\,\\dfrac{\\sin\\text{ε}}{\\cos\\text{φ}}$ pro sin ampl. solst.; ut in VII
+AB01-PDF0268-notes_right-L002	179	notes_right	capite auctor docuit.

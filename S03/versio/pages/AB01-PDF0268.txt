@@ -1,0 +1,71 @@
+@page 268 179
+% Notes on chapter 8, a) on p. 21: the latitude from the difference between the equinoctial day and the longest day; the «longinquitas ascensus» of the beginning of Cancer from the north point and al-Battānī's rule (α); the «distantia ascensus» from the east point (the solstitial amplitude) and his rule (β) for sin φ; its derivation from Ptolemy's Almagest II, 3, with the figure of p. 177 printed again; note on the modern form tg φ = − cos P cotg ε.
+@nonum
+@fontsize 15 17
+@vspace 10.53
+@center A{sc:d} {sc:caput} VIII.
+@normal
+@vspace 3.89
+@center {bi:a}) — *Pag. 21.*
+@vspace 4.32
+^ *Altitudinem* φ *poli* supputare, data differentia inter diem aequinoctialem (12 horarum)
+et diem longissimum, i. e. data differentia inter arcum semidiurnum aequinoctialem (90 gra-
+duum) et arcum semidiurnum maximum.
+^ Primo {sp:al-Battānī} docet quo modo inveniatur « longinquitas ascensus initii Cancri a
+puncto boreali », quae manifeste, in figura sequenti, repraesentatur arcu HD, qui idem est
+ac arcus HE (scilicet amplitudo solstitialis) nonaginta gradibus auctus; ergo sinus illius distan-
+tiae est cosinus amplitudinis solstitialis, et ex formula adnotationis {bi:a} ad cap. VII statim pro-
+venit praeceptum {sp:al–Battānī}:
+@at 0:(α) | 94^:$\text{sin longinq. asc. 0° Cancri a puncto boreali} = \dfrac{\cos\text{ε} \sin P}{R}$.
+@vspace 1.01
+^ Arcus EH est quod nunc auctor « distantiam ascensus initii Cancri a puncto ortus aequi-
+noctii » appellat, scilicet quod in capite praecedenti « amplitudinem solstitialem » vocaverat.
+^ His praemissis, {sp:al-Battānī} formulam praebet:
+@vspace 0.86
+@at 0:(β) | 94^:$\sin\text{φ} = \dfrac{\sin (P - \text{90°}) \times \text{sin dist. asc. 0° Cancri a puncto boreali}}{\text{sin dist. asc. Cancri ab ortu aequinoctiali}} \times \dfrac{R}{\sin P}$,
+@vspace 1.07
+quam, cum sit $\sin (P - \text{90°}) = - \cos P$, scribere licet
+@vspace 1.11
+@center $\sin\text{φ} = - \dfrac{\cos P}{\sin P} \times \dfrac{\text{cos amplit. solstit.}}{\text{sin amplit. solstit.}} \times R$ (1).
+@vspace 3.37
+@wrap 0.242 AB01-PDF0268-F01
+^ Formula oritur e constructione {sp:Ptolemaei}, *Almag.* II,
+3 (ed. Halma, t. I, p. 69–70). Sit figura ut in adnotationibus ad
+@vspace -0.07
+caput praecedens; Ptolemaeus demonstrat:
+@vspace 1.82
+@at 10.97:$\dfrac{\text{chorda } 2\,ET}{\text{chorda } 2\,AT} = \dfrac{\text{chorda } 2\,EH}{\text{chorda } 2\,HB} \times \dfrac{\text{chorda } 2\,BZ}{\text{chorda } 2\,ZA}$,
+@vspace 2.87
+id est
+@vspace 1.29
+@at 0:$\dfrac{\text{chorda}\,(\text{180°}{-}2P)}{\text{chorda } 2P} = \dfrac{\text{chorda 2 ampl. solst.}}{\text{chorda}\,(\text{180°}{-}2\text{ampl.solst.})} \times \dfrac{\text{chorda } 2\text{φ}}{\text{chorda 180°}}$.
+@endwrap
+@vspace -1.71
+Sinibus pro chordis positis,
+@vspace 0.17
+@center $\dfrac{\cos P}{\sin P} = \dfrac{\text{sin ampl. solst.}}{\text{cos ampl. solst.}} \times \dfrac{\sin\text{φ}}{R}$,
+@vspace -0.14
+unde
+@vspace 0.26
+@center $\sin\text{φ} = \dfrac{\cos P}{\sin P} \times \dfrac{\text{cos ampl. solst.}}{\text{sin ampl. solst.}} \times R$,
+ubi cos P positivus est quia Ptolemaeus differentiam inter arcum semidiurnum minimum et
+arcum semidiurnum aequinoctialem, nempe 90° − P pro P − 90°, consideravit.
+@vspace 2.25
+@notes
+@vspace 2.41
+^ (1) Ad nostrum $\text{tg}\,\text{φ} = - \cos P\,\text{cotg}\,\text{ε}$ facile
+@vspace 0.34
+reducitur si $\dfrac{\cos\text{ε} \sin P}{R}$ pro cos ampl. solst. po-
+@col
+@vspace 1.29
+natur, et $R\,\dfrac{\sin\text{ε}}{\cos\text{φ}}$ pro sin ampl. solst.; ut in VII
+capite auctor docuit.
+@obs body L1: the head of the notes on chapter 8, «Ad» and «caput» in small capitals, in the larger type of the heads.
+@obs body L6, L10, L14: the dashes of «al-Battānī» and «al–Battānī» measure 3.0 pt in L6, 4.7 pt in L10 and 3.7 pt in L14 (the long dashes of the name elsewhere about 5.4 pt); transcribed as a hyphen, a long dash and a hyphen.
+@obs body L11: the bar of the fraction is printed broken.
+@obs body L12: the hyphen of «aequi-» printed only as a dot.
+@obs body L15-L17, L29: the minus signs of the formulas and of «90° − P pro P − 90°» are printed as long dashes; they are set as minus signs.
+@obs body L17: the R before the note number is printed in the other italic form, with an open bowl.
+@obs body L18-L23: the figure of p. 177 is printed again from the same block, at the left of lines 18 to 23, which are set beside it in a narrow measure; it is redrawn from measurements of this print in the same way (the meridian ABGD, the equator AEG, the horizon BED and the circle of declination PTHZ; the dashed line PEZ; the bold italic letters).
+@obs body L23: the first numerator and the middle denominator are set close, without spaces, as printed.
+@obs body L11, L15-L29: the formulas are checked. With the distance from the north point HD = 90° + HE, sin HD = cos ampl. solst., and rule (α) is that of the note a) on chapter 7; rule (β) with HE = ampl. solst. gives L17. Menelaus' theorem in L21 with ET = 90° − P, AT = P, EH = ampl. solst., HB = 90° − ampl. solst., BZ = φ and ZA = 90° gives L23, L25 and L27; Ptolemy's 90° − P for P − 90° accounts for the sign (L28-L29). Note 1: with the two substitutions the rule becomes tg φ = − cos P cotg ε for the radius 1.
