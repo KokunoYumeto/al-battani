@@ -1,0 +1,71 @@
+@page 278 189
+% Notes on chapter 13, a) concluded: rule II, (β) sin m = R sin φ sin δ / (cos φ cos δ), and Ḥabash's shorter form with tangents, sin m = R tg φ tg δ. Notes on chapter 14, a) on pp. 29-30: the latitude from the meridian altitude of the Sun, rules (α) and (β). Notes on chapter 15, a) on p. 30: the meridian altitude from the latitude and the declination, rules (α), (α′), (β) and (β′). Notes on chapter 16, a) on p. 30: the hours since sunrise from the altitude of the Sun, by the hour angle; al-Battānī's rule (begun).
+@nonum
+@vspace 1.56
+@at 0:(β) | 94^:$\sin m = R\,\dfrac{\sin\text{φ} \sin\text{δ}}{\cos\text{φ} \cos\text{δ}}$,
+@vspace 0.12
+quam {sp:Ḥabash}, f. 104,r., tangentibus trigonometricis utens, brevius scribit
+@center $\sin m = R\,\text{tg}\,\text{φ}\ \text{tg}\,\text{δ}$,
+ubi φ est latitudo geographica datae urbis.
+@fontsize 15 17
+@vspace 9.15
+@center A{sc:d} {sc:caput} XIV.
+@normal
+@vspace 3.9
+@center {bi:a}) — *Pag. 29–30.*
+@vspace 4.3
+^ *Latitudinem geographicam* φ dati loci terrestris ex altitudine meridiana Solis cognoscere.
+^ Regulae tritissimae sunt; cum Sol (⊙) borealis est respectu aequatoris caelestis
+@at 0:(α) | 94^:$\text{φ} = \text{90°} - (\text{altit. merid. ⊙} - \text{declinat. ⊙})$;
+@vspace 0.12
+cum Sol in signis australibus zodiaci exstat
+@vspace -0.09
+@at 0:(β) | 94^:$\text{φ} = \text{90°} - (\text{altit. merid. ⊙} + \text{declinat. ⊙})$.
+@vspace 0.09
+Quas nos breviter scribimus
+@vspace -0.12
+@center $\text{φ} = \text{complem. altit. merid.} \pm \text{declinat.}$
+@fontsize 15 17
+@vspace 9.15
+@center A{sc:d} {sc:caput} XV.
+@normal
+@vspace 3.9
+@center {bi:a}) — *Pag. 30.*
+@vspace 4.3
+^ *Altitudinem meridianam* Solis e latitudine geographica datae urbis et declinatione Solis
+@vspace 0.14
+cognoscere.
+@vspace -0.18
+^ Formulas notissimas {sp:al–Battānī} duplici modo praebet; cum Sol in signis zodiaci borea-
+@vspace 0.11
+libus sit
+@vspace -0.09
+@at 0:(α) | 94^:$\text{altit. merid.} = \text{90°} - (\text{latit.} - \text{declinat.})$
+@at 0:(α′) | 94^:$\text{altit. merid.} = \text{complem. latit.} + \text{declinat.}$;
+cum Sol in signis australibus existat
+@at 0:(β) | 94^:$\text{altit. merid.} = \text{90°} - (\text{latit.} + \text{declinat.})$
+@at 0:(β′) | 94^:$\text{altit. merid.} = \text{complem. latit.} - \text{declinat.}$
+@fontsize 15 17
+@vspace 9.12
+@center A{sc:d} {sc:caput} XVI.
+@normal
+@vspace 3.9
+@center {bi:a}) — *Pag. 30.*
+@vspace 4.39
+^ *Horas* dato temporis momento *ab ortu Solis elapsas* cognoscere ex altitudine Solis.
+^ Problema reducitur ad cognoscendum angulum horarium *t* (scilicet angulum meridiano
+et circulo declinationis per Solem transeunte interceptum); qui additur arcui semidiurno si
+tempus datum post meridiem est, aut subtrahitur si tempus est ante meridiem. Summa aut
+residuum erunt arcus revolutus sphaerae, cuius gradus facile in horas aequinoctiales aut tem-
+@vspace 0.07
+porales convertentur.
+@vspace -0.07
+^ Sit *P* arcus semidiurnus, *h* altitudo Solis tempore dato, formula {sp:al–Battānī} est
+@obs body L1-L3: rule (β) is checked: it is the last formula of p. 188 solved for sin m; with tg for the trigonometric tangent, sin φ / cos φ, Ḥabash's R tg φ tg δ is the same, for the radius 1 the modern sin m = tg φ tg δ.
+@obs body L5, L14, L25: the heads of the notes on chapters 14, 15 and 16, «Ad» and «caput» in small capitals, in the larger type of the heads.
+@obs body L6, L15, L26: in the heads, the dashes after «a)» measure 10.4, 10.1 and 9.7 pt and the dash of «29–30» 5.4 pt; transcribed as dashes and a long dash.
+@obs body L8: a spot of ink stands on the first a of «aequatoris»; it is not a sign.
+@obs body L9, L11, L20, L23, L24: the minus signs are printed as long dashes (9.6 to 10.2 pt); they are set as minus signs.
+@obs body L8-L13, L18-L24: the rules are checked. In a northern latitude the zenith distance of the Sun at noon is φ − δ, the declination δ counted positive to the north, so that altit. merid. = 90° − φ + δ: with the Sun north of the equator φ = 90° − (altit. merid. − declinat.), rule (α) of chapter 14, and with the Sun south, its declination taken positive, φ = 90° − (altit. merid. + declinat.), rule (β); together φ = complem. altit. merid. ± declinat. Rules (α), (α′), (β) and (β′) of chapter 15 are the same relations solved for the meridian altitude.
+@obs body L18, L33: the dashes of the letter-spaced «al–Battānī» measure 5.4 pt, long dashes.
+@obs body L30: a speck stands after «meridiem»; it is not a full stop.

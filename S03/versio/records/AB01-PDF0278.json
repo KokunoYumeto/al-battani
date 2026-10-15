@@ -1,0 +1,360 @@
+{
+ "anchor": "AB01-PDF0278",
+ "master_pdf_page": 278,
+ "printed_page": 189,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "margin_locators": [],
+ "observations": [
+  "body L1-L3: rule (β) is checked: it is the last formula of p. 188 solved for sin m; with tg for the trigonometric tangent, sin φ / cos φ, Ḥabash's R tg φ tg δ is the same, for the radius 1 the modern sin m = tg φ tg δ.",
+  "body L5, L14, L25: the heads of the notes on chapters 14, 15 and 16, «Ad» and «caput» in small capitals, in the larger type of the heads.",
+  "body L6, L15, L26: in the heads, the dashes after «a)» measure 10.4, 10.1 and 9.7 pt and the dash of «29–30» 5.4 pt; transcribed as dashes and a long dash.",
+  "body L8: a spot of ink stands on the first a of «aequatoris»; it is not a sign.",
+  "body L9, L11, L20, L23, L24: the minus signs are printed as long dashes (9.6 to 10.2 pt); they are set as minus signs.",
+  "body L8-L13, L18-L24: the rules are checked. In a northern latitude the zenith distance of the Sun at noon is φ − δ, the declination δ counted positive to the north, so that altit. merid. = 90° − φ + δ: with the Sun north of the equator φ = 90° − (altit. merid. − declinat.), rule (α) of chapter 14, and with the Sun south, its declination taken positive, φ = 90° − (altit. merid. + declinat.), rule (β); together φ = complem. altit. merid. ± declinat. Rules (α), (α′), (β) and (β′) of chapter 15 are the same relations solved for the meridian altitude.",
+  "body L18, L33: the dashes of the letter-spaced «al–Battānī» measure 5.4 pt, long dashes.",
+  "body L30: a speck stands after «meridiem»; it is not a full stop."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0278-body-L001",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.00mm}(\\textgreek{β})}\\rlap{\\hspace*{94.00mm}\\makebox[0pt][c]{$\\sin m = R\\,\\dfrac{\\sin\\text{\\textgreek{φ}} \\sin\\text{\\textgreek{δ}}}{\\cos\\text{\\textgreek{φ}} \\cos\\text{\\textgreek{δ}}}$,}}",
+     "transcription": "(β) $\\sin m = R\\,\\dfrac{\\sin\\text{φ} \\sin\\text{δ}}{\\cos\\text{φ} \\cos\\text{δ}}$,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0278-body-L002",
+     "source_line_no": null,
+     "tex": "quam \\Name{Ḥabash}, f. 104,r., tangentibus trigonometricis utens, brevius scribit",
+     "transcription": "quam {sp:Ḥabash}, f. 104,r., tangentibus trigonometricis utens, brevius scribit",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0278-body-L003",
+     "source_line_no": null,
+     "tex": "\\CenterLine{$\\sin m = R\\,\\text{tg}\\,\\text{\\textgreek{φ}}\\ \\text{tg}\\,\\text{\\textgreek{δ}}$,}",
+     "transcription": "$\\sin m = R\\,\\text{tg}\\,\\text{φ}\\ \\text{tg}\\,\\text{δ}$,",
+     "semantic_anchor": "AB01-PDF0278-H03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0278-body-L004",
+     "source_line_no": null,
+     "tex": "ubi \\textgreek{φ} est latitudo geographica datae urbis.",
+     "transcription": "ubi φ est latitudo geographica datae urbis.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0278-body-L005",
+     "source_line_no": null,
+     "tex": "\\CenterLine{A\\textsc{d} \\textsc{caput} XIV.}",
+     "transcription": "A{sc:d} {sc:caput} XIV.",
+     "semantic_anchor": "AB01-PDF0278-H05",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0278-body-L006",
+     "source_line_no": null,
+     "tex": "\\CenterLine{\\textbf{\\textit{a}}) — \\textit{Pag. 29–30.}}",
+     "transcription": "{bi:a}) — *Pag. 29–30.*",
+     "semantic_anchor": "AB01-PDF0278-H06",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0278-body-L007",
+     "source_line_no": null,
+     "tex": "\\Indent \\textit{Latitudinem geographicam} \\textgreek{φ} dati loci terrestris ex altitudine meridiana Solis cognoscere.",
+     "transcription": "*Latitudinem geographicam* φ dati loci terrestris ex altitudine meridiana Solis cognoscere.",
+     "semantic_anchor": "AB01-PDF0278-P01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0278-body-L008",
+     "source_line_no": null,
+     "tex": "\\Indent Regulae tritissimae sunt; cum Sol (\\SunSym{}) borealis est respectu aequatoris caelestis",
+     "transcription": "Regulae tritissimae sunt; cum Sol (⊙) borealis est respectu aequatoris caelestis",
+     "semantic_anchor": "AB01-PDF0278-P02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0278-body-L009",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.00mm}(\\textgreek{α})}\\rlap{\\hspace*{94.00mm}\\makebox[0pt][c]{$\\text{\\textgreek{φ}} = \\text{90°} - (\\text{altit. merid. \\SunSym{}} - \\text{declinat. \\SunSym{}})$;}}",
+     "transcription": "(α) $\\text{φ} = \\text{90°} - (\\text{altit. merid. ⊙} - \\text{declinat. ⊙})$;",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0278-body-L010",
+     "source_line_no": null,
+     "tex": "cum Sol in signis australibus zodiaci exstat",
+     "transcription": "cum Sol in signis australibus zodiaci exstat",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0278-body-L011",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.00mm}(\\textgreek{β})}\\rlap{\\hspace*{94.00mm}\\makebox[0pt][c]{$\\text{\\textgreek{φ}} = \\text{90°} - (\\text{altit. merid. \\SunSym{}} + \\text{declinat. \\SunSym{}})$.}}",
+     "transcription": "(β) $\\text{φ} = \\text{90°} - (\\text{altit. merid. ⊙} + \\text{declinat. ⊙})$.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0278-body-L012",
+     "source_line_no": null,
+     "tex": "Quas nos breviter scribimus",
+     "transcription": "Quas nos breviter scribimus",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0278-body-L013",
+     "source_line_no": null,
+     "tex": "\\CenterLine{$\\text{\\textgreek{φ}} = \\text{complem. altit. merid.} \\pm \\text{declinat.}$}",
+     "transcription": "$\\text{φ} = \\text{complem. altit. merid.} \\pm \\text{declinat.}$",
+     "semantic_anchor": "AB01-PDF0278-H13",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0278-body-L014",
+     "source_line_no": null,
+     "tex": "\\CenterLine{A\\textsc{d} \\textsc{caput} XV.}",
+     "transcription": "A{sc:d} {sc:caput} XV.",
+     "semantic_anchor": "AB01-PDF0278-H14",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0278-body-L015",
+     "source_line_no": null,
+     "tex": "\\CenterLine{\\textbf{\\textit{a}}) — \\textit{Pag. 30.}}",
+     "transcription": "{bi:a}) — *Pag. 30.*",
+     "semantic_anchor": "AB01-PDF0278-H15",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0278-body-L016",
+     "source_line_no": null,
+     "tex": "\\Indent \\textit{Altitudinem meridianam} Solis e latitudine geographica datae urbis et declinatione Solis",
+     "transcription": "*Altitudinem meridianam* Solis e latitudine geographica datae urbis et declinatione Solis",
+     "semantic_anchor": "AB01-PDF0278-P03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0278-body-L017",
+     "source_line_no": null,
+     "tex": "cognoscere.",
+     "transcription": "cognoscere.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0278-body-L018",
+     "source_line_no": null,
+     "tex": "\\Indent Formulas notissimas \\Name{al–Battānī} duplici modo praebet; cum Sol in signis zodiaci borea-",
+     "transcription": "Formulas notissimas {sp:al–Battānī} duplici modo praebet; cum Sol in signis zodiaci borea-",
+     "semantic_anchor": "AB01-PDF0278-P04",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0278-body-L019",
+     "source_line_no": null,
+     "tex": "libus sit",
+     "transcription": "libus sit",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0278-body-L020",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.00mm}(\\textgreek{α})}\\rlap{\\hspace*{94.00mm}\\makebox[0pt][c]{$\\text{altit. merid.} = \\text{90°} - (\\text{latit.} - \\text{declinat.})$}}",
+     "transcription": "(α) $\\text{altit. merid.} = \\text{90°} - (\\text{latit.} - \\text{declinat.})$",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0278-body-L021",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.00mm}(\\textgreek{α}′)}\\rlap{\\hspace*{94.00mm}\\makebox[0pt][c]{$\\text{altit. merid.} = \\text{complem. latit.} + \\text{declinat.}$;}}",
+     "transcription": "(α′) $\\text{altit. merid.} = \\text{complem. latit.} + \\text{declinat.}$;",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0278-body-L022",
+     "source_line_no": null,
+     "tex": "cum Sol in signis australibus existat",
+     "transcription": "cum Sol in signis australibus existat",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0278-body-L023",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.00mm}(\\textgreek{β})}\\rlap{\\hspace*{94.00mm}\\makebox[0pt][c]{$\\text{altit. merid.} = \\text{90°} - (\\text{latit.} + \\text{declinat.})$}}",
+     "transcription": "(β) $\\text{altit. merid.} = \\text{90°} - (\\text{latit.} + \\text{declinat.})$",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0278-body-L024",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.00mm}(\\textgreek{β}′)}\\rlap{\\hspace*{94.00mm}\\makebox[0pt][c]{$\\text{altit. merid.} = \\text{complem. latit.} - \\text{declinat.}$}}",
+     "transcription": "(β′) $\\text{altit. merid.} = \\text{complem. latit.} - \\text{declinat.}$",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0278-body-L025",
+     "source_line_no": null,
+     "tex": "\\CenterLine{A\\textsc{d} \\textsc{caput} XVI.}",
+     "transcription": "A{sc:d} {sc:caput} XVI.",
+     "semantic_anchor": "AB01-PDF0278-H25",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0278-body-L026",
+     "source_line_no": null,
+     "tex": "\\CenterLine{\\textbf{\\textit{a}}) — \\textit{Pag. 30.}}",
+     "transcription": "{bi:a}) — *Pag. 30.*",
+     "semantic_anchor": "AB01-PDF0278-H26",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0278-body-L027",
+     "source_line_no": null,
+     "tex": "\\Indent \\textit{Horas} dato temporis momento \\textit{ab ortu Solis elapsas} cognoscere ex altitudine Solis.",
+     "transcription": "*Horas* dato temporis momento *ab ortu Solis elapsas* cognoscere ex altitudine Solis.",
+     "semantic_anchor": "AB01-PDF0278-P05",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0278-body-L028",
+     "source_line_no": null,
+     "tex": "\\Indent Problema reducitur ad cognoscendum angulum horarium \\textit{t} (scilicet angulum meridiano",
+     "transcription": "Problema reducitur ad cognoscendum angulum horarium *t* (scilicet angulum meridiano",
+     "semantic_anchor": "AB01-PDF0278-P06",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0278-body-L029",
+     "source_line_no": null,
+     "tex": "et circulo declinationis per Solem transeunte interceptum); qui additur arcui semidiurno si",
+     "transcription": "et circulo declinationis per Solem transeunte interceptum); qui additur arcui semidiurno si",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0278-body-L030",
+     "source_line_no": null,
+     "tex": "tempus datum post meridiem est, aut subtrahitur si tempus est ante meridiem. Summa aut",
+     "transcription": "tempus datum post meridiem est, aut subtrahitur si tempus est ante meridiem. Summa aut",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0278-body-L031",
+     "source_line_no": null,
+     "tex": "residuum erunt arcus revolutus sphaerae, cuius gradus facile in horas aequinoctiales aut tem-",
+     "transcription": "residuum erunt arcus revolutus sphaerae, cuius gradus facile in horas aequinoctiales aut tem-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0278-body-L032",
+     "source_line_no": null,
+     "tex": "porales convertentur.",
+     "transcription": "porales convertentur.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0278-body-L033",
+     "source_line_no": null,
+     "tex": "\\Indent Sit \\textit{P} arcus semidiurnus, \\textit{h} altitudo Solis tempore dato, formula \\Name{al–Battānī} est",
+     "transcription": "Sit *P* arcus semidiurnus, *h* altitudo Solis tempore dato, formula {sp:al–Battānī} est",
+     "semantic_anchor": "AB01-PDF0278-P07",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    }
+   ]
+  }
+ ]
+}
