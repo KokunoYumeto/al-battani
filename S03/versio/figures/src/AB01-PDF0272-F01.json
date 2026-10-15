@@ -1,0 +1,392 @@
+{
+ "pdf": 272,
+ "printed_page": 183,
+ "comment": [
+  "Nallino, Part I p. 183: the orthographic projection of the sphere on the plane of the meridian, redrawn from",
+  "the print: the meridian AOBD as a circle; the horizon AB, the vertical OC, the equator ED, the parallel FI and",
+  "the axis CP as straight lines; EZ and HK in dashes, each dash where it printed; the bold italic letters.",
+  "Measured on the scan (_intake/latin/tools/fig183)."
+ ],
+ "origin": [
+  51.1,
+  402.34
+ ],
+ "scale": 0.99281,
+ "size": [
+  145.0,
+  136.0
+ ],
+ "label_pt": 11,
+ "circles": [
+  {
+   "name": "the meridian AOBD",
+   "cx": 124.93,
+   "cy": 477.66,
+   "r": 57.92,
+   "w": 1.31
+  }
+ ],
+ "segments": [
+  {
+   "name": "the horizon AB",
+   "x0": 67.0,
+   "y0": 478.11,
+   "x1": 182.85,
+   "y1": 477.42,
+   "w": 1.13
+  },
+  {
+   "name": "the vertical OC",
+   "x0": 124.76,
+   "y0": 419.74,
+   "x1": 124.86,
+   "y1": 477.76,
+   "w": 1.16
+  },
+  {
+   "name": "the equator ED",
+   "x0": 85.69,
+   "y0": 435.05,
+   "x1": 163.68,
+   "y1": 520.71,
+   "w": 1.07
+  },
+  {
+   "name": "the parallel FI",
+   "x0": 103.77,
+   "y0": 423.74,
+   "x1": 176.69,
+   "y1": 503.66,
+   "w": 1.07
+  },
+  {
+   "name": "the axis CP",
+   "x0": 124.86,
+   "y0": 477.76,
+   "x1": 168.22,
+   "y1": 439.18,
+   "w": 1.05
+  }
+ ],
+ "groups": [
+  {
+   "w": 1.3,
+   "cap": "round",
+   "segs": [
+    [
+     85.83,
+     439.41,
+     85.83,
+     441.69
+    ],
+    [
+     85.83,
+     443.01,
+     85.83,
+     445.53
+    ],
+    [
+     85.83,
+     447.33,
+     85.83,
+     449.85
+    ],
+    [
+     85.83,
+     451.41,
+     85.83,
+     453.81
+    ],
+    [
+     85.83,
+     455.37,
+     85.83,
+     458.01
+    ],
+    [
+     85.83,
+     459.81,
+     85.83,
+     462.45
+    ],
+    [
+     85.83,
+     463.89,
+     85.83,
+     466.17
+    ],
+    [
+     85.83,
+     468.33,
+     85.83,
+     470.97
+    ],
+    [
+     85.83,
+     472.77,
+     85.83,
+     474.81
+    ],
+    [
+     85.83,
+     436.61,
+     85.83,
+     438.31
+    ],
+    [
+     85.83,
+     476.27,
+     85.83,
+     476.95
+    ],
+    [
+     135.81,
+     462.93,
+     135.81,
+     465.09
+    ],
+    [
+     135.81,
+     471.57,
+     135.81,
+     473.97
+    ],
+    [
+     135.81,
+     459.65,
+     135.81,
+     461.71
+    ],
+    [
+     135.81,
+     467.03,
+     135.81,
+     467.23
+    ],
+    [
+     135.81,
+     468.95,
+     135.81,
+     469.51
+    ],
+    [
+     135.81,
+     475.67,
+     135.81,
+     476.65
+    ]
+   ],
+   "comment": "the dashes of EZ and HK, each where it printed, with the pieces joined to the strokes"
+  }
+ ],
+ "labels": [
+  {
+   "t": "\\resizebox{6.86pt}{7.51pt}{O}",
+   "cx": 125.06,
+   "cy": 414.06,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{6.25pt}{7.51pt}{F}",
+   "cx": 102.71,
+   "cy": 418.42,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{7.27pt}{7.98pt}{E}",
+   "cx": 82.81,
+   "cy": 426.7,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{6.84pt}{7.03pt}{P}",
+   "cx": 173.23,
+   "cy": 434.38,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{7.40pt}{7.51pt}{H}",
+   "cx": 137.76,
+   "cy": 452.24,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{6.70pt}{7.39pt}{G}",
+   "cx": 154.55,
+   "cy": 472.1,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{6.70pt}{7.51pt}{A}",
+   "cx": 60.77,
+   "cy": 477.9,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{6.16pt}{7.62pt}{Z}",
+   "cx": 85.11,
+   "cy": 484.48,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{7.18pt}{7.74pt}{C}",
+   "cx": 120.54,
+   "cy": 483.78,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{7.95pt}{7.39pt}{K}",
+   "cx": 137.81,
+   "cy": 482.9,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{5.79pt}{7.27pt}{B}",
+   "cx": 188.29,
+   "cy": 477.78,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{3.45pt}{7.62pt}{I}",
+   "cx": 179.92,
+   "cy": 504.96,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{7.82pt}{7.39pt}{D}",
+   "cx": 166.06,
+   "cy": 525.26,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  }
+ ],
+ "boxes": {
+  "O": [
+   122.52,
+   410.28,
+   128.88,
+   417.84
+  ],
+  "F": [
+   99.86,
+   414.64,
+   107.06,
+   422.2
+  ],
+  "E": [
+   79.46,
+   422.68,
+   87.14,
+   430.72
+  ],
+  "P": [
+   170.06,
+   430.84,
+   177.62,
+   437.92
+  ],
+  "H": [
+   134.52,
+   448.46,
+   142.44,
+   456.02
+  ],
+  "G": [
+   151.92,
+   468.38,
+   158.28,
+   475.82
+  ],
+  "A": [
+   57.52,
+   474.12,
+   64.12,
+   481.68
+  ],
+  "Z": [
+   82.22,
+   480.64,
+   89.06,
+   488.32
+  ],
+  "C": [
+   117.86,
+   479.88,
+   124.58,
+   487.68
+  ],
+  "K": [
+   134.42,
+   479.18,
+   142.94,
+   486.62
+  ],
+  "B": [
+   185.42,
+   474.12,
+   191.18,
+   481.44
+  ],
+  "I": [
+   178.56,
+   501.12,
+   182.76,
+   508.8
+  ],
+  "D": [
+   162.36,
+   521.54,
+   170.28,
+   528.98
+  ]
+ },
+ "points": {
+  "A": [
+   67.0,
+   478.11
+  ],
+  "B": [
+   182.85,
+   477.42
+  ],
+  "O": [
+   124.76,
+   419.74
+  ],
+  "E": [
+   85.69,
+   435.05
+  ],
+  "D": [
+   163.68,
+   520.71
+  ],
+  "F": [
+   103.77,
+   423.74
+  ],
+  "I": [
+   176.69,
+   503.66
+  ],
+  "P": [
+   168.22,
+   439.18
+  ],
+  "C": [
+   124.58,
+   477.77
+  ],
+  "C_oc": [
+   125.08,
+   477.76
+  ],
+  "C_cp": [
+   124.91,
+   477.76
+  ],
+  "G": [
+   152.9,
+   477.6
+  ]
+ }
+}

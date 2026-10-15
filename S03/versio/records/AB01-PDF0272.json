@@ -1,0 +1,440 @@
+{
+ "anchor": "AB01-PDF0272",
+ "master_pdf_page": 272,
+ "printed_page": 183,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "margin_locators": [],
+ "observations": [
+  "body L1: the head of the notes on chapter 11, «Ad» and «caput» in small capitals, in the larger type of the heads.",
+  "body L6-L7, L27-L29: the rules are checked. In the projection on the meridian (first figure), E is the point of the equator on the meridian, EO = BP = φ, so that EZ = cos φ and ZC = sin φ (sines of the radius R); HK = sin h, and the right triangles EZC and HKG are similar, so that KG = sin h sin φ / cos φ, rule (α). In the horizon, CG is the sine of the amplitude ortiva and CK = CG ∓ KG; the foot of the Sun lies at R cos h from the centre, so that sin azimuth = R (sin amplit. ortivae ± sin diff. horiz.) / cos h, rule (β), the azimuth counted from the east or west point.",
+  "body L9: the b of «Iḅn» is printed with a dot under it; kept as printed.",
+  "body L11: a small v-shaped mark stands under the space after «308,»; it is not a sign.",
+  "body L16-L25: the first figure stands at the left of lines 16 to 25, which are set beside it in a narrow measure. It is redrawn from measurements of the print: the meridian AOBD as a circle; the horizon AB, the vertical OC, the equator ED, the parallel FI and the axis CP as straight lines; EZ and HK in dashes, each where it printed; the bold italic letters. Two specks stand to the right of OC, above H; they are not signs.",
+  "body L30-L37: the second figure stands at the right of lines 30 to 37, which are set beside it in a narrow measure. It is redrawn from measurements of the print: the meridian AOB as a half circle; the horizon AB, the vertical OC, the equator EC, the parallel FG and the line DL through H as straight lines; the circle of altitude OHW, drawn in the print as an arc of a circle centred on the horizon (its fit as a circle is closer than as the half ellipse of the projection); HK in dashes; the bold italic letters, «aequator» set along EC and «horizon» under AB.",
+  "notes L1: the dashes of «’l-Wéfa» and «al-Bûzdjâni» measure 3.5 and 3.4 pt, as hyphens."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0272-body-L001",
+     "source_line_no": null,
+     "tex": "\\CenterLine{A\\textsc{d} \\textsc{caput} XI.}",
+     "transcription": "A{sc:d} {sc:caput} XI.",
+     "semantic_anchor": "AB01-PDF0272-H01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0272-body-L002",
+     "source_line_no": null,
+     "tex": "\\CenterLine{\\textbf{\\textit{a}}) — \\textit{Pag. 23.}}",
+     "transcription": "{bi:a}) — *Pag. 23.*",
+     "semantic_anchor": "AB01-PDF0272-H02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0272-body-L003",
+     "source_line_no": null,
+     "tex": "\\Indent \\textit{Azimuth altitudinis} cognoscere, i. e. ex altitudine \\textit{h} data Solis deprehendere \\textit{azimuth}",
+     "transcription": "*Azimuth altitudinis* cognoscere, i. e. ex altitudine *h* data Solis deprehendere *azimuth*",
+     "semantic_anchor": "AB01-PDF0272-P01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0272-body-L004",
+     "source_line_no": null,
+     "tex": "\\textit{huius circuli altitudinis} (scilicet \\textit{azimuth Solis}) in horizonte loci terrestris notae latitudinis \\textgreek{φ}.",
+     "transcription": "*huius circuli altitudinis* (scilicet *azimuth Solis*) in horizonte loci terrestris notae latitudinis φ.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0272-body-L005",
+     "source_line_no": null,
+     "tex": "\\Indent Demonstrationibus omissis, auctor formulas docet:",
+     "transcription": "Demonstrationibus omissis, auctor formulas docet:",
+     "semantic_anchor": "AB01-PDF0272-P02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0272-body-L006",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.00mm}(\\textgreek{α})}\\rlap{\\hspace*{94.00mm}\\makebox[0pt][c]{$\\text{sinus differentiae horizontis} = \\dfrac{\\sin h \\sin\\text{\\textgreek{φ}}}{\\cos\\text{\\textgreek{φ}}}$}}",
+     "transcription": "(α) $\\text{sinus differentiae horizontis} = \\dfrac{\\sin h \\sin\\text{φ}}{\\cos\\text{φ}}$",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0272-body-L007",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.00mm}(\\textgreek{β})}\\rlap{\\hspace*{94.00mm}\\makebox[0pt][c]{$\\text{sin azimuth} = R\\,\\dfrac{\\text{sin amplit. ortivae} \\pm \\text{sin diff. horiz.}}{\\cos h}$.}}",
+     "transcription": "(β) $\\text{sin azimuth} = R\\,\\dfrac{\\text{sin amplit. ortivae} \\pm \\text{sin diff. horiz.}}{\\cos h}$.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0272-body-L008",
+     "source_line_no": null,
+     "tex": "\\Indent Ambae manifeste per proiectionem orthographicam sphaerae deductae sunt. Nomen \\textit{sinus}",
+     "transcription": "Ambae manifeste per proiectionem orthographicam sphaerae deductae sunt. Nomen *sinus*",
+     "semantic_anchor": "AB01-PDF0272-P03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0272-body-L009",
+     "source_line_no": null,
+     "tex": "\\textit{differentiae} (aut \\textit{variationis}) \\textit{horizontis,} cum formula Albateniana (\\textgreek{α}), apud \\Name{Iḅn Yūnus},",
+     "transcription": "*differentiae* (aut *variationis*) *horizontis,* cum formula Albateniana (α), apud {sp:Iḅn Yūnus},",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0272-body-L010",
+     "source_line_no": null,
+     "tex": "cap. XIX (ap. \\Name{Delambre}, p. 114), quoque legitur; appellatur autem argumentum azimuth",
+     "transcription": "cap. XIX (ap. {sp:Delambre}, p. 114), quoque legitur; appellatur autem argumentum azimuth",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0272-body-L011",
+     "source_line_no": null,
+     "tex": "(\\textit{ḥiṣṣat as–samt}) ab \\Name{Abū ’l–Wefā’} (1), \\Name{Aboul Hhassan}, cap. LXII, p. 308, et \\Name{Oloug}",
+     "transcription": "(*ḥiṣṣat as–samt*) ab {sp:Abū ’l–Wefā’} (1), {sp:Aboul Hhassan}, cap. LXII, p. 308, et {sp:Oloug}",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0272-body-L012",
+     "source_line_no": null,
+     "tex": "\\Name{Beg}, p. 78 textus, 106–107 vers. Geometrice, ut \\Name{Abū ’l–Wefā’} et \\Name{Mīram Čelebī} (in",
+     "transcription": "{sp:Beg}, p. 78 textus, 106–107 vers. Geometrice, ut {sp:Abū ’l–Wefā’} et {sp:Mīram Čelebī} (in",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0272-body-L013",
+     "source_line_no": null,
+     "tex": "commentario ad Ulugh Beg) aiunt, est linea quae pedem perpendicularis ab astro ad planum",
+     "transcription": "commentario ad Ulugh Beg) aiunt, est linea quae pedem perpendicularis ab astro ad planum",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0272-body-L014",
+     "source_line_no": null,
+     "tex": "horizontis ductae, hoc est pedem sinus altitudinis coniungit cum linea intersectionis horizontis",
+     "transcription": "horizontis ductae, hoc est pedem sinus altitudinis coniungit cum linea intersectionis horizontis",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0272-body-L015",
+     "source_line_no": null,
+     "tex": "atque paralleli astri.",
+     "transcription": "atque paralleli astri.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0272-body-F01",
+     "source_line_no": null,
+     "tex": "\\input{figures/AB01-PDF0272-F01}",
+     "transcription": "[figure, redrawn: figures/AB01-PDF0272-F01.tex]",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_FIGURE"
+    },
+    {
+     "id": "AB01-PDF0272-body-L016",
+     "source_line_no": null,
+     "tex": "\\Indent In planum circuli meridiani AOBD orthogonaliter proii-",
+     "transcription": "In planum circuli meridiani AOBD orthogonaliter proii-",
+     "semantic_anchor": "AB01-PDF0272-P04",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0272-body-L017",
+     "source_line_no": null,
+     "tex": "ciantur horizon ACB, aequator caelestis ECD, circulus pa-",
+     "transcription": "ciantur horizon ACB, aequator caelestis ECD, circulus pa-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0272-body-L018",
+     "source_line_no": null,
+     "tex": "rallelus FI a Sole motu suo diurno descriptus. Sol ad H",
+     "transcription": "rallelus FI a Sole motu suo diurno descriptus. Sol ad H",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0272-body-L019",
+     "source_line_no": null,
+     "tex": "pervenisse ponatur; erit ergo HK proiectio altitudinis \\textit{h.} Du-",
+     "transcription": "pervenisse ponatur; erit ergo HK proiectio altitudinis *h.* Du-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0272-body-L020",
+     "source_line_no": null,
+     "tex": "catur EZ perpendicularis ad AB, et parallela igitur rectae",
+     "transcription": "catur EZ perpendicularis ad AB, et parallela igitur rectae",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0272-body-L021",
+     "source_line_no": null,
+     "tex": "HK; cum P sit polus aequatoris, erit",
+     "transcription": "HK; cum P sit polus aequatoris, erit",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0272-body-L022",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.00mm}KG = sinus differentiae horizontis}\\rlap{\\hspace*{63.00mm}BP = EO = \\textgreek{φ}}",
+     "transcription": "KG = sinus differentiae horizontis BP = EO = φ",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0272-body-L023",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.00mm}ZC = sin \\textgreek{φ}}\\rlap{\\hspace*{63.00mm}HK = sin \\textit{h}.}",
+     "transcription": "ZC = sin φ HK = sin *h*.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0272-body-L024",
+     "source_line_no": null,
+     "tex": "EZ = cos \\textgreek{φ}",
+     "transcription": "EZ = cos φ",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0272-body-L025",
+     "source_line_no": null,
+     "tex": "\\Indent E similitudine triangulorum rectangulorum EZC, HKG",
+     "transcription": "E similitudine triangulorum rectangulorum EZC, HKG",
+     "semantic_anchor": "AB01-PDF0272-P05",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0272-body-L026",
+     "source_line_no": null,
+     "tex": "statim deducitur",
+     "transcription": "statim deducitur",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0272-body-L027",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{31.40mm}EZ : HK = ZC : KG}\\rlap{\\hspace*{76.70mm}i. e.}\\rlap{\\hspace*{88.60mm}cos \\textgreek{φ} : sin \\textit{h} = sin \\textgreek{φ} : sin diff. horiz.}",
+     "transcription": "EZ : HK = ZC : KG i. e. cos φ : sin *h* = sin φ : sin diff. horiz.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0272-body-L028",
+     "source_line_no": null,
+     "tex": "unde regula \\Name{al–Battānī}",
+     "transcription": "unde regula {sp:al–Battānī}",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0272-body-L029",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.00mm}(\\textgreek{α})}\\rlap{\\hspace*{94.00mm}\\makebox[0pt][c]{$\\text{sin diff. horiz.} = \\dfrac{\\sin h \\sin\\text{\\textgreek{φ}}}{\\cos\\text{\\textgreek{φ}}}$.}}",
+     "transcription": "(α) $\\text{sin diff. horiz.} = \\dfrac{\\sin h \\sin\\text{φ}}{\\cos\\text{φ}}$.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0272-body-F02",
+     "source_line_no": null,
+     "tex": "\\input{figures/AB01-PDF0272-F02}",
+     "transcription": "[figure, redrawn: figures/AB01-PDF0272-F02.tex]",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_FIGURE"
+    },
+    {
+     "id": "AB01-PDF0272-body-L030",
+     "source_line_no": null,
+     "tex": "\\Indent Restat nunc ut (\\textgreek{β}) demonstremus, eadem via",
+     "transcription": "Restat nunc ut (β) demonstremus, eadem via",
+     "semantic_anchor": "AB01-PDF0272-P06",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0272-body-L031",
+     "source_line_no": null,
+     "tex": "quam al–Battānī probabiliter secutus est. Figura hic",
+     "transcription": "quam al–Battānī probabiliter secutus est. Figura hic",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0272-body-L032",
+     "source_line_no": null,
+     "tex": "descripta sit proiectio orthographica seu orthogo-",
+     "transcription": "descripta sit proiectio orthographica seu orthogo-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0272-body-L033",
+     "source_line_no": null,
+     "tex": "nalis sphaerae caelestis, ut a puncto orientis con-",
+     "transcription": "nalis sphaerae caelestis, ut a puncto orientis con-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0272-body-L034",
+     "source_line_no": null,
+     "tex": "spicitur; sit AOB meridianus, ACB horizon, OC cir-",
+     "transcription": "spicitur; sit AOB meridianus, ACB horizon, OC cir-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0272-body-L035",
+     "source_line_no": null,
+     "tex": "culus verticalis qui ad meridianum perpendicularis",
+     "transcription": "culus verticalis qui ad meridianum perpendicularis",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0272-body-L036",
+     "source_line_no": null,
+     "tex": "est, EC aequator caelestis, FG parallelus descriptus",
+     "transcription": "est, EC aequator caelestis, FG parallelus descriptus",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0272-body-L037",
+     "source_line_no": null,
+     "tex": "a Sole, quem ponumus in H. Per H ducantur cir-",
+     "transcription": "a Sole, quem ponumus in H. Per H ducantur cir-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    }
+   ]
+  },
+  {
+   "role": "notes",
+   "lines": [
+    {
+     "id": "AB01-PDF0272-notes-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (1) \\Name{Carra de Vaux}, \\textit{L’Almageste d’Aboû ’l-Wéfa al-Bûzdjâni,} in Journal Asiatique, ser. VIII,",
+     "transcription": "(1) {sp:Carra de Vaux}, *L’Almageste d’Aboû ’l-Wéfa al-Bûzdjâni,* in Journal Asiatique, ser. VIII,",
+     "semantic_anchor": "AB01-PDF0272-N01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0272-notes-L002",
+     "source_line_no": null,
+     "tex": "t. 19, 1892, p. 429.",
+     "transcription": "t. 19, 1892, p. 429.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  }
+ ]
+}

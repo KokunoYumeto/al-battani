@@ -1,0 +1,336 @@
+{
+ "pdf": 272,
+ "printed_page": 183,
+ "comment": [
+  "Nallino, Part I p. 183: the orthographic projection of the sphere as seen from the east point, redrawn from the",
+  "print: the meridian AOB as a half circle; the horizon AB, the vertical OC, the equator EC, the parallel FG and",
+  "the line DL as straight lines; the circle of altitude OHW as an arc of a circle centred on the horizon, as",
+  "drawn; HK in dashes, each where it printed; the bold italic letters and the words «aequator» (along EC) and",
+  "«horizon». Measured on the scan (_intake/latin/tools/fig183)."
+ ],
+ "origin": [
+  298.0,
+  608.56
+ ],
+ "scale": 0.99281,
+ "size": [
+  176.0,
+  103.0
+ ],
+ "label_pt": 11,
+ "circles": [],
+ "segments": [
+  {
+   "name": "the horizon AB",
+   "x0": 311.4,
+   "y0": 699.72,
+   "x1": 462.27,
+   "y1": 699.72,
+   "w": 1.16
+  },
+  {
+   "name": "the vertical OC",
+   "x0": 387.1,
+   "y0": 625.62,
+   "x1": 387.33,
+   "y1": 699.72,
+   "w": 1.13
+  },
+  {
+   "name": "the equator EC",
+   "x0": 332.18,
+   "y0": 649.06,
+   "x1": 387.33,
+   "y1": 699.72,
+   "w": 1.1
+  },
+  {
+   "name": "the parallel FG",
+   "x0": 376.68,
+   "y0": 626.3,
+   "x1": 453.9,
+   "y1": 699.59,
+   "w": 1.16
+  },
+  {
+   "name": "the line DL",
+   "x0": 315.43,
+   "y0": 676.7,
+   "x1": 458.2,
+   "y1": 676.58,
+   "w": 1.16
+  }
+ ],
+ "arcs": [
+  {
+   "name": "the meridian AOB",
+   "cx": 386.83,
+   "cy": 701.06,
+   "r": 75.45,
+   "a0": 181.02,
+   "a1": 358.98,
+   "w": 1.38
+  },
+  {
+   "name": "the circle of altitude OHW",
+   "cx": 350.96,
+   "cy": 699.85,
+   "r": 81.85,
+   "a0": -63.8,
+   "a1": -0.15,
+   "w": 1.06
+  }
+ ],
+ "groups": [
+  {
+   "w": 1.2,
+   "cap": "round",
+   "segs": [
+    [
+     429.47,
+     682.79,
+     429.47,
+     685.07
+    ],
+    [
+     429.47,
+     687.35,
+     429.47,
+     689.51
+    ],
+    [
+     429.47,
+     692.27,
+     429.47,
+     694.67
+    ],
+    [
+     429.47,
+     696.83,
+     429.47,
+     698.51
+    ],
+    [
+     429.47,
+     678.49,
+     429.47,
+     681.09
+    ]
+   ],
+   "comment": "the dashes of HK, each where it printed"
+  }
+ ],
+ "labels": [
+  {
+   "t": "\\resizebox{6.04pt}{7.61pt}{F}",
+   "cx": 372.84,
+   "cy": 621.98,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{6.73pt}{7.37pt}{O}",
+   "cx": 386.63,
+   "cy": 619.98,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{7.61pt}{7.74pt}{E}",
+   "cx": 326.71,
+   "cy": 645.9,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{7.60pt}{7.56pt}{R}",
+   "cx": 392.59,
+   "cy": 671.44,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{8.63pt}{7.26pt}{H}",
+   "cx": 435.92,
+   "cy": 671.36,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{7.03pt}{7.61pt}{L}",
+   "cx": 463.88,
+   "cy": 676.34,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{7.82pt}{7.98pt}{D}",
+   "cx": 309.1,
+   "cy": 676.62,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{7.31pt}{7.96pt}{A}",
+   "cx": 305.75,
+   "cy": 698.12,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{6.99pt}{7.48pt}{B}",
+   "cx": 467.5,
+   "cy": 699.08,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{8.51pt}{7.96pt}{K}",
+   "cx": 424.87,
+   "cy": 705.56,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{10.51pt}{7.13pt}{W}",
+   "cx": 435.97,
+   "cy": 704.86,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{7.71pt}{8.21pt}{G}",
+   "cx": 452.66,
+   "cy": 705.5,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{7.31pt}{7.75pt}{C}",
+   "cx": 385.67,
+   "cy": 705.84,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{35.34pt}{7.81pt}{horizon}",
+   "cx": 350.34,
+   "cy": 705.78,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{39.45pt}{6.69pt}{aequator}",
+   "cx": 352.59,
+   "cy": 660.24,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont",
+   "rot": -42.62708319125238
+  }
+ ],
+ "boxes": {
+  "F": [
+   6.96,
+   7.68
+  ],
+  "O": [
+   6.24,
+   7.56
+  ],
+  "E": [
+   8.04,
+   7.8
+  ],
+  "R": [
+   7.56,
+   7.68
+  ],
+  "H": [
+   9.24,
+   7.32
+  ],
+  "L": [
+   6.48,
+   7.68
+  ],
+  "D": [
+   7.92,
+   8.04
+  ],
+  "A": [
+   7.2,
+   8.04
+  ],
+  "B": [
+   6.96,
+   7.56
+  ],
+  "K": [
+   9.12,
+   8.04
+  ],
+  "W": [
+   10.44,
+   7.32
+  ],
+  "G": [
+   7.32,
+   8.4
+  ],
+  "C": [
+   6.84,
+   7.92
+  ],
+  "horizon": [
+   34.68,
+   8.04
+  ],
+  "aequator": [
+   39.54,
+   9.5
+  ]
+ },
+ "points": {
+  "C": [
+   387.43,
+   699.72
+  ],
+  "C_ec": [
+   387.22,
+   699.72
+  ],
+  "G": [
+   453.9,
+   699.59
+  ],
+  "O": [
+   387.1,
+   625.62
+  ],
+  "E": [
+   332.18,
+   649.06
+  ],
+  "F": [
+   376.68,
+   626.3
+  ],
+  "D": [
+   315.43,
+   676.7
+  ],
+  "L": [
+   458.2,
+   676.58
+  ],
+  "R": [
+   387.33,
+   676.64
+  ],
+  "H": [
+   429.68,
+   676.61
+  ],
+  "A": [
+   311.4,
+   699.72
+  ],
+  "B": [
+   462.27,
+   699.72
+  ],
+  "W": [
+   432.81,
+   699.63
+  ],
+  "O_arc": [
+   387.1,
+   626.41
+  ]
+ }
+}

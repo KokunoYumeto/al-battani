@@ -1,0 +1,68 @@
+@page 272 183
+% Notes on chapter 11, a) on p. 23: the azimuth from the altitude; al-Battānī's rules (α) for the sine of the difference of the horizon and (β) for the sine of the azimuth; the names of that difference in Ibn Yūnus, Abū 'l-Wefā', Abū 'l-Ḥasan, Ulugh Beg and Mīram Čelebī; the proof of (α) by the orthographic projection on the meridian, with its figure; the proof of (β) by the projection seen from the east point, with its figure (begun).
+@nonum
+@fontsize 15 17
+@vspace 10.35
+@center A{sc:d} {sc:caput} XI.
+@normal
+@vspace 3.76
+@center {bi:a}) — *Pag. 23.*
+@vspace 4.39
+^ *Azimuth altitudinis* cognoscere, i. e. ex altitudine *h* data Solis deprehendere *azimuth*
+*huius circuli altitudinis* (scilicet *azimuth Solis*) in horizonte loci terrestris notae latitudinis φ.
+^ Demonstrationibus omissis, auctor formulas docet:
+@at 0:(α) | 94^:$\text{sinus differentiae horizontis} = \dfrac{\sin h \sin\text{φ}}{\cos\text{φ}}$
+@vspace 0.55
+@at 0:(β) | 94^:$\text{sin azimuth} = R\,\dfrac{\text{sin amplit. ortivae} \pm \text{sin diff. horiz.}}{\cos h}$.
+@vspace 0.87
+^ Ambae manifeste per proiectionem orthographicam sphaerae deductae sunt. Nomen *sinus*
+*differentiae* (aut *variationis*) *horizontis,* cum formula Albateniana (α), apud {sp:Iḅn Yūnus},
+cap. XIX (ap. {sp:Delambre}, p. 114), quoque legitur; appellatur autem argumentum azimuth
+(*ḥiṣṣat as–samt*) ab {sp:Abū ’l–Wefā’} (1), {sp:Aboul Hhassan}, cap. LXII, p. 308, et {sp:Oloug}
+{sp:Beg}, p. 78 textus, 106–107 vers. Geometrice, ut {sp:Abū ’l–Wefā’} et {sp:Mīram Čelebī} (in
+commentario ad Ulugh Beg) aiunt, est linea quae pedem perpendicularis ab astro ad planum
+horizontis ductae, hoc est pedem sinus altitudinis coniungit cum linea intersectionis horizontis
+@vspace -0.12
+atque paralleli astri.
+@vspace -0.99
+@wrap 0.269 AB01-PDF0272-F01
+^ In planum circuli meridiani AOBD orthogonaliter proii-
+ciantur horizon ACB, aequator caelestis ECD, circulus pa-
+rallelus FI a Sole motu suo diurno descriptus. Sol ad H
+pervenisse ponatur; erit ergo HK proiectio altitudinis *h.* Du-
+catur EZ perpendicularis ad AB, et parallela igitur rectae
+HK; cum P sit polus aequatoris, erit
+@at 0:KG = sinus differentiae horizontis | 63.0:BP = EO = φ
+@at 0:ZC = sin φ | 63.0:HK = sin *h*.
+EZ = cos φ
+^ E similitudine triangulorum rectangulorum EZC, HKG
+@endwrap
+statim deducitur
+@vspace -0.19
+@at 31.4:EZ : HK = ZC : KG | 76.7:i. e. | 88.6:cos φ : sin *h* = sin φ : sin diff. horiz.
+@vspace 0.18
+unde regula {sp:al–Battānī}
+@vspace -1.26
+@at 0:(α) | 94^:$\text{sin diff. horiz.} = \dfrac{\sin h \sin\text{φ}}{\cos\text{φ}}$.
+@vspace 2.64
+@wrapr 92.9 AB01-PDF0272-F02
+^ Restat nunc ut (β) demonstremus, eadem via
+quam al–Battānī probabiliter secutus est. Figura hic
+descripta sit proiectio orthographica seu orthogo-
+nalis sphaerae caelestis, ut a puncto orientis con-
+spicitur; sit AOB meridianus, ACB horizon, OC cir-
+culus verticalis qui ad meridianum perpendicularis
+est, EC aequator caelestis, FG parallelus descriptus
+@vspace 0.07
+a Sole, quem ponumus in H. Per H ducantur cir-
+@endwrap
+@notes1
+^ (1) {sp:Carra de Vaux}, *L’Almageste d’Aboû ’l-Wéfa al-Bûzdjâni,* in Journal Asiatique, ser. VIII,
+t. 19, 1892, p. 429.
+@obs body L1: the head of the notes on chapter 11, «Ad» and «caput» in small capitals, in the larger type of the heads.
+@obs body L6-L7, L27-L29: the rules are checked. In the projection on the meridian (first figure), E is the point of the equator on the meridian, EO = BP = φ, so that EZ = cos φ and ZC = sin φ (sines of the radius R); HK = sin h, and the right triangles EZC and HKG are similar, so that KG = sin h sin φ / cos φ, rule (α). In the horizon, CG is the sine of the amplitude ortiva and CK = CG ∓ KG; the foot of the Sun lies at R cos h from the centre, so that sin azimuth = R (sin amplit. ortivae ± sin diff. horiz.) / cos h, rule (β), the azimuth counted from the east or west point.
+@obs body L9: the b of «Iḅn» is printed with a dot under it; kept as printed.
+@obs body L11: a small v-shaped mark stands under the space after «308,»; it is not a sign.
+@obs body L16-L25: the first figure stands at the left of lines 16 to 25, which are set beside it in a narrow measure. It is redrawn from measurements of the print: the meridian AOBD as a circle; the horizon AB, the vertical OC, the equator ED, the parallel FI and the axis CP as straight lines; EZ and HK in dashes, each where it printed; the bold italic letters. Two specks stand to the right of OC, above H; they are not signs.
+@obs body L30-L37: the second figure stands at the right of lines 30 to 37, which are set beside it in a narrow measure. It is redrawn from measurements of the print: the meridian AOB as a half circle; the horizon AB, the vertical OC, the equator EC, the parallel FG and the line DL through H as straight lines; the circle of altitude OHW, drawn in the print as an arc of a circle centred on the horizon (its fit as a circle is closer than as the half ellipse of the projection); HK in dashes; the bold italic letters, «aequator» set along EC and «horizon» under AB.
+@obs notes L1: the dashes of «’l-Wéfa» and «al-Bûzdjâni» measure 3.5 and 3.4 pt, as hyphens.
