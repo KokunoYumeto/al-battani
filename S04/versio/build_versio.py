@@ -92,8 +92,8 @@ on the first), {vrule:L:T} a thin vertical rule L pt long whose top is T pt abov
 {ar:...} an Arabic phrase with its own brackets and punctuation, set as one right-to-left run
 (a Latin word inside it, as codd. or add., stands in its place in the run in the roman type; {syr:...} the same
 for Syriac), {rtl:...} a phrase of Arabic numerals and Latin words that the print sets right to
-left, given in reading order, \\* a literal asterisk; runs of Arabic, Greek, Hebrew and Syriac letters are set in
-their fonts, the signs ☾ ⊙ ♈ ♄ ♃ ♂ ♀ ☿ ☊ ☋ in FreeSerif. & % # are escaped; $...$ is mathematics; every other
+left, given in reading order, \\* a literal asterisk; runs of Arabic, Greek, Hebrew, Syriac and Coptic letters are
+set in their fonts (Coptic in FreeSerif bold, as printed), the signs ☾ ⊙ ♈ ♄ ♃ ♂ ♀ ☿ ☊ ☋ in FreeSerif. & % # are escaped; $...$ is mathematics; every other
 character is literal."""
 import csv, json, re
 from pathlib import Path
@@ -102,7 +102,9 @@ HERE = Path(__file__).resolve().parent
 SESSION = HERE.parent.name  # S02, S03 or S04
 _AL = r"\u0600-\u065F\u066A-\u06EF\u06FA-\u06FF\u0750-\u077F\uFB50-\uFDFF\uFE70-\uFEFF"
 ARABIC_RUN = re.compile(r"([" + _AL + r"]+(?:[ \u060C][" + _AL + r"]+)*)")
-_GR = r"\u0370-\u03FF\u1F00-\u1FFF"
+_GR = r"\u0370-\u03E1\u03F0-\u03FF\u1F00-\u1FFF"  # the Coptic letters of the Greek block are set as Coptic
+_CO = r"\u2C80-\u2CFF\u03E2-\u03EF"
+COPTIC_RUN = re.compile(r"([" + _CO + r"][" + _CO + r"\u0300-\u036F]*)")
 GREEK_RUN = re.compile(r"([" + _GR + r"](?:[" + _GR + r"\u0300-\u036F’ ,·]*[" + _GR + r"])?)")
 HEBREW_RUN = re.compile("([\u05B0-\u05C7\u05D0-\u05EA\u05F0-\u05F4]+(?: [\u05B0-\u05C7\u05D0-\u05EA\u05F0-\u05F4]+)*)")
 SYRIAC_RUN = re.compile("([\u0700-\u074F]+(?: [\u0700-\u074F]+)*)")
@@ -127,6 +129,8 @@ PREAMBLE = r"""\documentclass[11pt]{article}
 \newfontfamily\MoonFont{FreeSerif}
 \newcommand{\MoonSym}{\text{\MoonFont ☾}}\newcommand{\SunSym}{\text{\MoonFont ⊙}}
 \newfontfamily\EthiopicFont{Ebrima}
+\newfontfamily\CopticFont{FreeSerif}
+\newcommand{\textcoptic}[1]{{\CopticFont\bfseries #1}}
 \newcommand{\textethiopic}[1]{{\EthiopicFont #1}}
 \newfontfamily\NallinoSigns{NallinoSigns.otf}[Path=./fonts/]
 \newcommand{\AbjadZero}{{\NallinoSigns\symbol{"E000}}}
@@ -255,6 +259,7 @@ def markup(s):
     s = re.sub(r"\*\*([^*]+)\*\*", r"\\textbf{\1}", s)
     s = re.sub(r"\*([^*]+)\*", r"\\textit{\1}", s)
     s = ARABIC_RUN.sub(lambda m: r"\ArabicRun{" + m.group(1) + "}", s)
+    s = COPTIC_RUN.sub(lambda m: r"\textcoptic{" + m.group(1) + "}", s)
     s = GREEK_RUN.sub(lambda m: r"\textgreek{" + m.group(1) + "}", s)
     s = HEBREW_RUN.sub(lambda m: r"\texthebrew{" + m.group(1) + "}", s)
     s = SYRIAC_RUN.sub(lambda m: r"\textsyriac{" + m.group(1) + "}", s)
