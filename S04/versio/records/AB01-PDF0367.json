@@ -1,0 +1,489 @@
+{
+ "anchor": "AB01-PDF0367",
+ "master_pdf_page": 367,
+ "printed_page": 278,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "margin_locators": [],
+ "observations": [
+  "body L1-L3: al-Battānī adds the minutes of the first parallax to the place and the anomaly of the Moon (translation, p. 104, l. 24–27); the argument of latitude is corrected only at the end, with the equated hours (p. 105, l. 38–42). On the figure of p. 277, L′L² measures 51.5 pt and S′σ′ 49.8 pt.",
+  "body L4: the superscript 2 of the second «λ²», after «supputetur;», prints with its foot faint, like a question mark.",
+  "body L10, L18, L30-L31: «al–Battānī» is letter-spaced, with long dashes (5.4, 5.4 and 5.3 pt); «Albatenii» (L31) is letter-spaced.",
+  "body L15-L25, L30-L31: the statement of al-Battānī that Schiaparelli rejects holds. ε² is the second parallax divided by the relative hourly motion (L10-L11; translation, p. 104, l. 29–30), so that in the time ε² the Moon gains on the Sun exactly the second parallax, and at ϑ + ε² the true longitudes of the Moon and the Sun differ by the second parallax; Schiaparelli's own reason in L15-L17 rests on this. The difference Δ of the apparent longitudes at ϑ + ε² is therefore the difference of the second and the third parallax, whether it is null or not, and al-Battānī's rule, which divides the excess of the third parallax over the second, or its defect, by the motus aequatus (p. 105, l. 23–37), divides Δ itself. Schiaparelli's remark in L23-L25 is right about the inference it names, but al-Battānī's equality does not rest on that inference. Both assume, as the whole method does, a uniform relative motion over the interval.",
+  "body L18-L19: the places cited are those printed in italics in the translation: p. 104, l. 41–42, p. 105, l. 1–3, 24–25 and 34, and p. 110, l. 25–26. The dashes of «41–» and «–42», divided between the lines, measure 5.4 and 5.3 pt, those of «1–3» and «24–25» 5.3 and 5.4 pt.",
+  "body L23, L30, L44: the dashes measure 9.6, 10.1 and 10.2 pt; in L44 the dash follows «respondens.» without a space (0.7 pt).",
+  "body L35, L37, L45: a speck stands before «consideratam» (L35); specks stand after «parallaxes» (L37), one on the baseline like a stop, though the sentence runs on; the c of «necessario» (L45) prints broken, in two specks."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0367-body-L001",
+     "source_line_no": null,
+     "tex": "\\Indent Postea arcus S′\\textgreek{σ}′ addatur longitudini Lunae, anomaliae, et argumento latitudinis; hoc",
+     "transcription": "Postea arcus S′σ′ addatur longitudini Lunae, anomaliae, et argumento latitudinis; hoc",
+     "semantic_anchor": "AB01-PDF0367-P01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0367-body-L002",
+     "source_line_no": null,
+     "tex": "est ponatur Lunam in orbita sua caelesti a L′ ad L² progressam esse, percurrendo arcum",
+     "transcription": "est ponatur Lunam in orbita sua caelesti a L′ ad L² progressam esse, percurrendo arcum",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0367-body-L003",
+     "source_line_no": null,
+     "tex": "L′L² $=$ S′\\textgreek{σ}′. Pro tempore correcto \\textgreek{ϑ} + \\textgreek{ε}′ rursus ascendens determinetur; et per novum locum",
+     "transcription": "L′L² $=$ S′σ′. Pro tempore correcto ϑ + ε′ rursus ascendens determinetur; et per novum locum",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0367-body-L004",
+     "source_line_no": null,
+     "tex": "L² Lunae denuo parallaxis altitudinis L²\\textgreek{λ}² supputetur; \\textgreek{λ}² erit locus in quo Luna cernetur",
+     "transcription": "L² Lunae denuo parallaxis altitudinis L²λ² supputetur; λ² erit locus in quo Luna cernetur",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0367-body-L005",
+     "source_line_no": null,
+     "tex": "tempore \\textgreek{ϑ} + \\textgreek{ε}′. Parallaxis longitudinis (\\textit{parallaxis secunda} Albatenii) erit \\textgreek{Σσ}², determinata",
+     "transcription": "tempore ϑ + ε′. Parallaxis longitudinis (*parallaxis secunda* Albatenii) erit Σσ², determinata",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0367-body-L006",
+     "source_line_no": null,
+     "tex": "perpendicularibus ex L² et \\textgreek{λ}² ad eclipticam ductis. Sit S² locus Solis tempore \\textgreek{ϑ} + \\textgreek{ε}′. Si S²",
+     "transcription": "perpendicularibus ex L² et λ² ad eclipticam ductis. Sit S² locus Solis tempore ϑ + ε′. Si S²",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0367-body-L007",
+     "source_line_no": null,
+     "tex": "et \\textgreek{σ}² inter se congruerint, problema resolutum erit. Secus nova correctio tempori \\textgreek{ϑ} + \\textgreek{ε}′ erit",
+     "transcription": "et σ² inter se congruerint, problema resolutum erit. Secus nova correctio tempori ϑ + ε′ erit",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0367-body-L008",
+     "source_line_no": null,
+     "tex": "inferenda, ut exeat tempus coniunctionis apparentis; similiter \\textit{parallaxis secunda} denuo cor-",
+     "transcription": "inferenda, ut exeat tempus coniunctionis apparentis; similiter *parallaxis secunda* denuo cor-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0367-body-L009",
+     "source_line_no": null,
+     "tex": "rigenda, licet semper multo vicinior sit veritati quam prima parallaxis.",
+     "transcription": "rigenda, licet semper multo vicinior sit veritati quam prima parallaxis.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0367-body-L010",
+     "source_line_no": null,
+     "tex": "\\Indent Qua re, \\Name{al–Battānī} inquit, si \\textit{secundam parallaxim} per motum horarium relativum",
+     "transcription": "Qua re, {sp:al–Battānī} inquit, si *secundam parallaxim* per motum horarium relativum",
+     "semantic_anchor": "AB01-PDF0367-P02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0367-body-L011",
+     "source_line_no": null,
+     "tex": "duorum luminarium diviserimus, inveniemus correctionem \\textgreek{ε}² temporis meliorem correctione \\textgreek{ε}′.",
+     "transcription": "duorum luminarium diviserimus, inveniemus correctionem ε² temporis meliorem correctione ε′.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0367-body-L012",
+     "source_line_no": null,
+     "tex": "Hanc \\textgreek{ε}² vocat \\textit{horas secundae parallaxis}. Pro novo tempore exactiore \\textgreek{ϑ} + \\textgreek{ε}² rursus ascen-",
+     "transcription": "Hanc ε² vocat *horas secundae parallaxis*. Pro novo tempore exactiore ϑ + ε² rursus ascen-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0367-body-L013",
+     "source_line_no": null,
+     "tex": "dens, medium Caelum, locus Lunae, anomalia Lunae inveniantur; ab iis nova parallaxis (\\textit{ter-}",
+     "transcription": "dens, medium Caelum, locus Lunae, anomalia Lunae inveniantur; ab iis nova parallaxis (*ter-*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0367-body-L014",
+     "source_line_no": null,
+     "tex": "\\textit{tia parallaxis}) deducatur. Si haec fuerit aequalis secundae, problema resolutum erit, et tem-",
+     "transcription": "*tia parallaxis*) deducatur. Si haec fuerit aequalis secundae, problema resolutum erit, et tem-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0367-body-L015",
+     "source_line_no": null,
+     "tex": "pus \\textgreek{ϑ} + \\textgreek{ε}² indicabit tempus coniunctionis apparentis; nam tunc certissime sciemus parallaxim",
+     "transcription": "pus ϑ + ε² indicabit tempus coniunctionis apparentis; nam tunc certissime sciemus parallaxim",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0367-body-L016",
+     "source_line_no": null,
+     "tex": "secundam et tertiam exacte esse aequales differentiae verarum longitudinum Solis et Lunae,",
+     "transcription": "secundam et tertiam exacte esse aequales differentiae verarum longitudinum Solis et Lunae,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0367-body-L017",
+     "source_line_no": null,
+     "tex": "qua re luminarium longitudines apparentes inter se aequales exstare.",
+     "transcription": "qua re luminarium longitudines apparentes inter se aequales exstare.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0367-body-L018",
+     "source_line_no": null,
+     "tex": "\\Indent Sed ex hoc \\Name{al–Battānī} quaedam \\textit{falsa} concludit, Italicis litteris impressa p. 104, l. 41–",
+     "transcription": "Sed ex hoc {sp:al–Battānī} quaedam *falsa* concludit, Italicis litteris impressa p. 104, l. 41–",
+     "semantic_anchor": "AB01-PDF0367-P03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0367-body-L019",
+     "source_line_no": null,
+     "tex": "–42, p. 105, l. 1–3, 24–25, 34, p. 110, l. 25–26. Dicit enim: Si tertia parallaxis aequalis est",
+     "transcription": "–42, p. 105, l. 1–3, 24–25, 34, p. 110, l. 25–26. Dicit enim: Si tertia parallaxis aequalis est",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0367-body-L020",
+     "source_line_no": null,
+     "tex": "secundae, etiam longitudines apparentes duorum luminarium sunt aequales. Qua re si tertia",
+     "transcription": "secundae, etiam longitudines apparentes duorum luminarium sunt aequales. Qua re si tertia",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0367-body-L021",
+     "source_line_no": null,
+     "tex": "parallaxis a secunda differt quadam quantitate, eadem differunt inter se longitudines apparen-",
+     "transcription": "parallaxis a secunda differt quadam quantitate, eadem differunt inter se longitudines apparen-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0367-body-L022",
+     "source_line_no": null,
+     "tex": "tes correspondentes Solis et Lunae; id est ea quantitate tertia parallaxis excedere debet dif-",
+     "transcription": "tes correspondentes Solis et Lunae; id est ea quantitate tertia parallaxis excedere debet dif-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0367-body-L023",
+     "source_line_no": null,
+     "tex": "ferentiam verarum longitudinum Lunae et Solis. — Id verum non est; nam ex eo quod duae",
+     "transcription": "ferentiam verarum longitudinum Lunae et Solis. — Id verum non est; nam ex eo quod duae",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0367-body-L024",
+     "source_line_no": null,
+     "tex": "differentiae inter se coaequantur cum nullae sint, minime consequitur eas etiam esse aequales",
+     "transcription": "differentiae inter se coaequantur cum nullae sint, minime consequitur eas etiam esse aequales",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0367-body-L025",
+     "source_line_no": null,
+     "tex": "quando nullae non sunt.",
+     "transcription": "quando nullae non sunt.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0367-body-L026",
+     "source_line_no": null,
+     "tex": "\\Indent Sit \\textgreek{Δ} differentia longitudinum apparentium, quam ut investigemus restat, verae longitudini",
+     "transcription": "Sit Δ differentia longitudinum apparentium, quam ut investigemus restat, verae longitudini",
+     "semantic_anchor": "AB01-PDF0367-P04",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0367-body-L027",
+     "source_line_no": null,
+     "tex": "Lunae applicando tertiam parallaxim: debemus hanc differentiam residuam in nihilum redigere,",
+     "transcription": "Lunae applicando tertiam parallaxim: debemus hanc differentiam residuam in nihilum redigere,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0367-body-L028",
+     "source_line_no": null,
+     "tex": "aliquantum rursus corrigentes tempus \\textgreek{ϑ} + \\textgreek{ε}². Sufficit velocitatem motus apparentis relativi",
+     "transcription": "aliquantum rursus corrigentes tempus ϑ + ε². Sufficit velocitatem motus apparentis relativi",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0367-body-L029",
+     "source_line_no": null,
+     "tex": "Solis et Lunae in longitudine supputare; per hanc velocitatem dividatur \\textgreek{Δ}, proveniet tempus",
+     "transcription": "Solis et Lunae in longitudine supputare; per hanc velocitatem dividatur Δ, proveniet tempus",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0367-body-L030",
+     "source_line_no": null,
+     "tex": "coniunctionis apparentis. — Pro quantitate \\textgreek{Δ}, \\Name{al–Battānī} perperam \\textit{differentiam inter se-}",
+     "transcription": "coniunctionis apparentis. — Pro quantitate Δ, {sp:al–Battānī} perperam *differentiam inter se-*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0367-body-L031",
+     "source_line_no": null,
+     "tex": "\\textit{cundam et tertiam parallaxim} adhibet. Si hic \\textit{error} excipiatur, \\Name{Albatenii} supputatio vera",
+     "transcription": "*cundam et tertiam parallaxim* adhibet. Si hic *error* excipiatur, {sp:Albatenii} supputatio vera",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0367-body-L032",
+     "source_line_no": null,
+     "tex": "est, et hoc modo explicatur:",
+     "transcription": "est, et hoc modo explicatur:",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0367-body-L033",
+     "source_line_no": null,
+     "tex": "\\Indent Motus relativus apparens horarius Lunae et Solis deducitur a motu relativo horario vero",
+     "transcription": "Motus relativus apparens horarius Lunae et Solis deducitur a motu relativo horario vero",
+     "semantic_anchor": "AB01-PDF0367-P05",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0367-body-L034",
+     "source_line_no": null,
+     "tex": "quem tabulae praebent (\\textit{praecessio Lunae respectu Solis,} ut Arabes dicunt), ab hoc demendo",
+     "transcription": "quem tabulae praebent (*praecessio Lunae respectu Solis,* ut Arabes dicunt), ab hoc demendo",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0367-body-L035",
+     "source_line_no": null,
+     "tex": "(et nunquam ei \\textit{addendo}) variationem horariam parallaxis, absolute consideratam sine distin-",
+     "transcription": "(et nunquam ei *addendo*) variationem horariam parallaxis, absolute consideratam sine distin-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0367-body-L036",
+     "source_line_no": null,
+     "tex": "ctione signi. Si ea uniformis esset, id est proportionalis ad variationem anguli horarii, variatio",
+     "transcription": "ctione signi. Si ea uniformis esset, id est proportionalis ad variationem anguli horarii, variatio",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0367-body-L037",
+     "source_line_no": null,
+     "tex": "parallaxis respondens minuto temporis facillime inveniretur differentiam inter duas parallaxes",
+     "transcription": "parallaxis respondens minuto temporis facillime inveniretur differentiam inter duas parallaxes",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0367-body-L038",
+     "source_line_no": null,
+     "tex": "repertas dividendo per minuta temporis ab altera ad alteram elapsa. At variatio tam rapide",
+     "transcription": "repertas dividendo per minuta temporis ab altera ad alteram elapsa. At variatio tam rapide",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0367-body-L039",
+     "source_line_no": null,
+     "tex": "mutatur, ut ne intra spatium quidem unius horae possit aequabilis censeri; calculus igitur",
+     "transcription": "mutatur, ut ne intra spatium quidem unius horae possit aequabilis censeri; calculus igitur",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0367-body-L040",
+     "source_line_no": null,
+     "tex": "pro tam longo temporis intervallo duci nequit. Oportet altera saltem adproximatione uti, nempe",
+     "transcription": "pro tam longo temporis intervallo duci nequit. Oportet altera saltem adproximatione uti, nempe",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0367-body-L041",
+     "source_line_no": null,
+     "tex": "alteram saltem parallaxim determinare et tempus \\textgreek{ϑ} + \\textgreek{ε}′ ei correspondens. Error huius tem-",
+     "transcription": "alteram saltem parallaxim determinare et tempus ϑ + ε′ ei correspondens. Error huius tem-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0367-body-L042",
+     "source_line_no": null,
+     "tex": "poris erit tunc parva fractio horae, in qua licebit variationem parallaxis existimare unifor-",
+     "transcription": "poris erit tunc parva fractio horae, in qua licebit variationem parallaxis existimare unifor-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0367-body-L043",
+     "source_line_no": null,
+     "tex": "mem, et uniformem quoque motum relativum apparentem longitudinis. Melius etiam si ter-",
+     "transcription": "mem, et uniformem quoque motum relativum apparentem longitudinis. Melius etiam si ter-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0367-body-L044",
+     "source_line_no": null,
+     "tex": "tiam parallaxim supputemus, et tempus \\textgreek{ϑ} + \\textgreek{ε}² ei respondens.— Problema nunc est cognoscere",
+     "transcription": "tiam parallaxim supputemus, et tempus ϑ + ε² ei respondens.— Problema nunc est cognoscere",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0367-body-L045",
+     "source_line_no": null,
+     "tex": "velocitatem horariam motus relativi apparentis in brevi temporis intervallo necessario ad redi-",
+     "transcription": "velocitatem horariam motus relativi apparentis in brevi temporis intervallo necessario ad redi-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0367-body-L046",
+     "source_line_no": null,
+     "tex": "gendam in nihilum differentiam residuam \\textgreek{Δ} longitudinum apparentium.",
+     "transcription": "gendam in nihilum differentiam residuam Δ longitudinum apparentium.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    }
+   ]
+  }
+ ]
+}
