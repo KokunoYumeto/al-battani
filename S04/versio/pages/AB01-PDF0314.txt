@@ -48,15 +48,17 @@ psium observatarum.
 @rule2 cols thin join
 @hrow 12.43:7 | | **Inclinatio orbitae\\lunaris.** | **Motus medius\\longitudinis\\in 100 annis Romanis.** | **Motus medius\\anomaliae\\in 100 annis Romanis.** | **Motus medius\\latitudinis\\in 100 annis Romanis.**
 @hrule cols 0.4
-@rowgap 3.67
-@rowsep 0.39
+@rowgap 4.13
+@small
+@rowsep 1.02
 @cols 13.95 <|| 30.64l>4.20 | 14.41r 3.78r 14.14l>0.75 | 12.02r 5.72r 5.68r 8.67r | 12.26r 5.73r 5.63r 8.40r | 11.38r 5.77r 5.76r 9.15r ||>
 @row **Ptolemaeus** | 5~° | 0~′ | | 307~° | 21~′ | 37~″ | | 198~° | 29~′ | 56~″ | | 82~° | 2~′ | 43~″ |
 @row **Al-Battānī** | 5 | 0 | | 307 | 57 | 46 | | 198 | 29 | 56 | | 81 | 59 | 43 |
 @row **Hansen** | 5 | 8 | {sfrac:2/3} | 307 | 53 | 40 | | 198 | 50 | 38 | | 82 | 2 | 40 |
 @rowsep 0
-@rowgap 3.29
+@rowgap 2.83
 @rule2 cols foot thin
+@normal
 @notes norule
 @fontsize 9 11.80
 @vspace -0.19
@@ -79,3 +81,4 @@ motus longitudinis et motus nodi.
 @obs body L34: Ptolemy's daily mean motions (Almagest IV, as corrected there: in longitude 13° 10′ 34″ 58‴ 33⁗ 30 30, in anomaly 13° 3′ 53″ 56‴ 17⁗ 51 59, in latitude 13° 13′ 45″ 39‴ 48⁗ 56 37) give in 36 525 days 307° 21′ 37″,5, 198° 29′ 56″,3 and 82° 2′ 42″,8, as printed.
 @obs body L35: the hyphen of «Al-Battānī» in the table measures 3.4 pt.
 @obs notes_left L1, notes_right L2: the dash of «al–Battānī» is a long dash of the notes (4.3 pt); that before «Schiaparelli» measures 8.2 pt.
+@obs body L33-L36: the table is boxed with double rules; its head is set in small bold type, its rows in a smaller type than the text.
