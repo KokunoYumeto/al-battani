@@ -1,0 +1,206 @@
+{
+ "pdf": 379,
+ "printed_page": 290,
+ "comment": [
+  "Nallino, Part I p. 290: Schiaparelli's figure of the apparent diameter of an epicycle, redrawn from the print:",
+  "the epicycle about O, the tangents XA and XB from the eye X, the line XO and the dotted radius OB.",
+  "Measured on the scan (_intake/latin/tools/fig290)."
+ ],
+ "origin": [
+  443.5,
+  306.54
+ ],
+ "scale": 0.98642,
+ "size": [
+  80.0,
+  138.5
+ ],
+ "label_pt": 11,
+ "circles": [
+  {
+   "name": "the epicycle about O",
+   "cx": 483.87,
+   "cy": 346.59,
+   "r": 29.72,
+   "w": 1.35
+  }
+ ],
+ "segments": [
+  {
+   "name": "the tangent XA, from the eye X to the end of its ink above A",
+   "x0": 484.7,
+   "y0": 435.88,
+   "x1": 450.36,
+   "y1": 341.42,
+   "w": 1.28
+  },
+  {
+   "name": "the tangent XB, from the eye X to the end of its ink above B",
+   "x0": 484.7,
+   "y0": 435.88,
+   "x1": 519.73,
+   "y1": 334.86,
+   "w": 1.2
+  }
+ ],
+ "groups": [
+  {
+   "comment": "the line XO",
+   "w": 1.2,
+   "cap": "round",
+   "segs": [
+    [
+     484.57,
+     436.07,
+     484.15,
+     346.25
+    ]
+   ]
+  },
+  {
+   "comment": "the dotted radius OB, dash by dash",
+   "w": 1.39,
+   "cap": "round",
+   "segs": [
+    [
+     484.15,
+     347.03,
+     485.15,
+     347.36
+    ],
+    [
+     486.91,
+     347.81,
+     488.29,
+     348.31
+    ],
+    [
+     490.43,
+     349.22,
+     492.63,
+     349.86
+    ],
+    [
+     495.63,
+     350.95,
+     497.49,
+     351.51
+    ],
+    [
+     499.91,
+     352.29,
+     502.11,
+     353.0
+    ],
+    [
+     504.66,
+     353.76,
+     507.62,
+     354.71
+    ],
+    [
+     509.52,
+     355.44,
+     512.28,
+     356.35
+    ]
+   ]
+  }
+ ],
+ "labels": [
+  {
+   "t": "\\resizebox{5.91pt}{6.16pt}{O}",
+   "cx": 483.64,
+   "cy": 340.26,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{7.14pt}{6.25pt}{A}",
+   "cx": 448.69,
+   "cy": 357.3,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{7.19pt}{6.25pt}{B}",
+   "cx": 517.42,
+   "cy": 356.94,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{7.67pt}{6.62pt}{X}",
+   "cx": 489.11,
+   "cy": 440.04,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  }
+ ],
+ "boxes": {
+  "O@481,337": [
+   5.52,
+   6.36
+  ],
+  "A@445,354": [
+   7.08,
+   6.36
+  ],
+  "B@514,354": [
+   7.2,
+   6.36
+  ],
+  "X@485,436": [
+   8.76,
+   6.72
+  ]
+ },
+ "points": {
+  "XA_ends": [
+   [
+    484.97,
+    436.63
+   ],
+   [
+    450.36,
+    341.42
+   ]
+  ],
+  "XB_ends": [
+   [
+    479.72,
+    450.23
+   ],
+   [
+    519.73,
+    334.86
+   ]
+  ],
+  "XO_ends": [
+   [
+    484.57,
+    436.67
+   ],
+   [
+    484.16,
+    348.05
+   ]
+  ],
+  "X": [
+   484.7,
+   435.88
+  ],
+  "A": [
+   455.93,
+   356.75
+  ],
+  "B": [
+   512.25,
+   356.43
+  ],
+  "track_XO": [
+   484.15,
+   347.03
+  ],
+  "track_XB": [
+   512.28,
+   356.35
+  ]
+ }
+}

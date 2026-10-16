@@ -1,0 +1,68 @@
+@page 379 290
+% Commentary on chapter 50 b) concluded (Schiaparelli): with δ the apparent angular diameter of a planet and r its mean distance, its linear diameter is rδ, so that diameter of the planet : diameter of the Sun = rδ : RΔ = r/R × δ/Δ; the diameter of the Sun being 5 1/2 Earth diameters, diameter of the planet : diameter of the Earth = 5 1/2 × r/R × δ/Δ = r × δ/Δ × 1/(R/5 1/2); with R = 1108, R/5 1/2 = 201 5/11, the rule of al-Battānī, or rather of those before him, who means the ratio of the apparent diameters, not of the true. II. The arcs which the apparent diameters of the epicycles subtend at the eye: the angle AXB of the two tangents from the eye X (figure). For Mercury and Venus it is the sum of the greatest and least elongations, as al-Battānī has. For Mars, Ptolemy X, 8 (Halma II, 236): the radius of the eccentric to that of the epicycle as 60p to 39p 30', 1 to 0,65833..., the sine of OXB, which subtends the radius OB; OXB = 41° 10' 1/2, AXB = 82° 21'. Jupiter (XI, 2, Halma II, 262): 60p to 11p 30', 1 to 0,19666 (printed); OXB = 11° 3', AXB = 22° 6'. Saturn (XI, 6, Halma II, 287): 60p to 6p 30', 1 to 0.10833; OXB = 6° 13', AXB = 12° 26'. Tycho Brahe, Progymnasmata I, 467-71, on the distances and sizes of al-Farghānī and al-Battānī and on al-Battānī's method of finding the sizes of the stars from their distance and visible diameter. c) p. 122, l. 33: «the diameter of the Sun subtends an arc of 39° 48'»: if the epicycle of the Sun is meant, its diameter is twice the greatest equation of the centre, 3° 58', which does not agree with the 39° 48' of the codex (here and p. 123, l. 21) or the 49° 48' or 9° 48' of Plato; if the apparent diameter of the Sun, al-Battānī (p. 58) puts its mean value at 32' 30": a foolish interpolation, like the one of the next note. d) p. 123, l. 18-20 and 20-30: the whole place, where nearly all the numbers of the codex differ from Plato's, cannot be healed; not al-Battānī but a most inept interpolator set out to add the greatest, mean and least apparent diameters of all the planets (begun).
+@nonum
+@vspace 0.14
+diametrus angularis apparens planetae, *r* eius distantia media; erit *r*δ diametrus linearis pla-
+netae. Itaque
+@vspace -1.66
+@center $\dfrac{\text{diametrus planetae}}{\text{diametrus Solis}} = \dfrac{r\text{δ}}{R\Delta} = \dfrac{r}{R} \times \dfrac{\text{δ}}{\Delta}$.
+@vspace 1.10
+Diametrus Solis complectitur 5 {sfrac:1/2} diametros terrestres; ergo
+@vspace -0.47
+@center $\dfrac{\text{diametrus planetae}}{\text{diametrus Terrae}} = \text{5 {sfrac:1/2}} \times \dfrac{r}{R} \times \dfrac{\text{δ}}{\Delta} = r \times \dfrac{\text{δ}}{\Delta} \times \dfrac{1}{\left(\dfrac{R}{\text{5 {sfrac:1/2}}}\right)}$.
+@vspace -5.95
+Sed $R = 1108$, $\dfrac{R}{\text{5 {sfrac:1/2}}} = \text{201 {sfrac:5/11}}$, ergo
+@vspace -1.72
+@center $\dfrac{\text{diametrus planetae}}{\text{diametrus Terrae}} = r \times \dfrac{\text{δ}}{\Delta} \times \dfrac{1}{\text{201 {sfrac:5/11}}}$,
+@vspace 0.05
+quae est regula {sp:Albatenii}, seu potius eorum qui ante eum hos calculos instituerant. Mani-
+feste cum de ratione observata inter diametros planetarum diametrumque Solis loquitur, vult
+semper rationem *diametrorum apparentium,* non verarum.
+^ II. *Arcus quos diametri apparentes epicyclorum in oculo subtendunt.* Diametrus ap-
+@wrapr 149.92 AB01-PDF0379-F01
+parens epicycli est angulus contentus duabus lineis tangentibus ductis ab
+oculo ad utramque epicycli partem, scilicet angulus AXB. — In *Mercurio*
+et *Venere* hic angulus manifeste est summa digressionis maximae et mi-
+nimae, ut al–Battānī habet. — Aliter in planetis superioribus. *Martem*
+quod attinet, {sp:Ptolemaeus} X, 8 (ed. Halma t. II, 236) demonstrat radium
+excentrici esse ad radium epicycli ut 60{sup:*p*} ad 39{sup:*p*} 30′, hoc est ut 1 ad
+0,65833.... Hic numerus (vel 39{sup:*p*} 30′) est sinus anguli OXB, qui in oculo
+subtendit radium OB epicycli; ergo OXB $=$ 41° 10′ {sfrac:1/2}, et AXB $=$ 82° 21′.
+— In *Iove* {sp:Ptolemaeus} XI, 2 (ed. Halma t. II, p. 262) statuit radium
+excentrici esse ad radium epicycli ut 60{sup:*p*} ad 11{sup:*p*} 30′, vel ut 1 ad 0,19666.....
+@endwrap
+@vspace -0.34
+Itaque angulus OXB $=$ 11° 3′, et diametrus angularis epicycli AXB $=$ 22° 6′. — In *Saturno*
+{sp:Ptolemaeus} XI, 6 (ed. Halma t. II, p. 287) statuit radium excentrici ad radium epicycli ut
+60{sup:*p*} ad 6{sup:*p*} 30′, vel ut 1 ad 0.10833.... Itaque OXB $=$ 6° 13′, et AXB $=$ 12° 26′.— {sc:Schiaparelli}.]
+^ {sp:Tycho Brahe}, *Astronomiae instauratae progymnasmata,* Uraniburgi et Pragae 1610,
+t. I, p. 467–71, exponit quae de distantiis magnitudinibusque corporum caelestium al–Farghānī
+et al–Battānī dicunt, postea docens « qua Methodo et demonstrationis processu Albategnius
+« potissimum usus sit, in Stellarum Magnitudinibus praefiniendis ex data eorum distantia et
+« visibili Diametro in aliquota parte solaris diametri, iuxta apparentiam ».
+@vspace 5.21
+@center {bi:c}) — *Pag. 122, l. 33.*
+@vspace 4.42
+^ [« *Diametrus Solis subtendit arcum 39° 48′* ». Quid hoc sibi velit, nescio. Si de *epi-*
+*cyclo* Solis agitur, eius diametrus est duplum maximae aequationis centri, ergo 3° 58′, quod
+minime convenit cum 39° 48′ codicis (hic et p. 123, l. 21) et 49° 48′ vel 9° 48′ Platonis. Si de
+*diametro* apparenti *Solis* agitur, eius quantitatem mediam {sp:al–Battānī}, pag. 58, statuit
+32′ 30″. Est igitur stulta interpolatio censenda, ut ea de qua in adnotatione sequenti dicam.
+@vspace 0.08
+— {sc:Schiaparelli}.]
+@vspace 0.36
+@center {bi:d}) — *Pag. 123, l. 18–20 et 20–30.*
+@vspace 4.46
+^ [Totus hic locus, in quo omnes fere codicis numeri a numeris Platonis differunt, sanari
+nequit; attamen antea omnia recte procedebant. Manifeste non {sp:al–Battānī}, sed ineptissimus
+interpolator diametros apparentes maximas, medias, minimas planetarum omnium addere co-
+@obs body L1, L5, L12: specks between «linearis» and «pla-» (L1), at the left of the display of L5 and over the u of «tangentibus» (L12) are not transcribed.
+@obs body L1-L10: the displays agree with one another: diametrus planetae : diametrus Terrae = 5 1/2 × r/R × δ/Δ = r × δ/Δ : (R : 5 1/2), and 1108 : 5 1/2 = 2216 : 11 = 201 5/11, as printed. «Albatenii» (L8) is letter-spaced.
+@obs body L12-L21: the figure stands on the right of these lines and is redrawn from the print: the epicycle about O; the tangents XA and XB from the eye X, each running on beyond its point of contact; the line XO, ending a little above O; the dotted radius OB dash by dash, its first dash joined to the top of XO and its last to the tangent at B, as printed; the bold italic letters O, A, B, X. On the print XA touches the circle (O stands 29.73 pt from it, the radius being 29.72 pt), XB stands 0.3 pt outside it, and XO passes 0.3 pt to the right of O.
+@obs body L13-L16, L20: «Ptolemaeus» (L16, L20) is letter-spaced; the dashes before «In Mercurio» (L13), «Aliter» (L15) and «In Iove» (L20) measure 10.1, 10.3 and 10.0 pt, and «al–Battānī» (L15) has a long dash (5.3 pt).
+@obs body L17-L24: 39ᵖ 30′ : 60ᵖ = 0,658333 = sin 41° 10′ 22″, so that OXB = 41° 10′ ½ to the half minute and AXB = 82° 20′ 45″, 82° 21′. 11ᵖ 30′ : 60ᵖ = 0,191666 = sin 11° 3′ 0″: the printed «0,19666» stands for 0,19166, from which OXB = 11° 3′ and AXB = 22° 6′ (L22) follow; 0,19666 would give 11° 20′ ½. 6ᵖ 30′ : 60ᵖ = 0,108333 = sin 6° 13′ 9″, and AXB = 12° 26′ 18″, 12° 26′. The printed numbers are kept. The dots after «0,65833» are four, after «0,19666» five and after «0.10833» four; «0.10833» has a full stop for the decimal comma of L18 and L21.
+@obs body L22-L24: «Ptolemaeus» (L23) is letter-spaced; the dash before «In Saturno» (L22) measures 10.4 pt, and the dash before «Schiaparelli» (L24), 9.8 pt, follows the full stop without a space. A heavy bracket closes Schiaparelli's addition, opened on p. 289, L35; the feet of the two L of «Schiaparelli» print apart from their stems, like «SCHIAPAREL.I.I», and its full stop prints small.
+@obs body L25-L27: «Tycho Brahe» is letter-spaced; «467–71», «al–Farghānī» and «al–Battānī» (L27) have long dashes (5.2, 5.5 and 5.3 pt).
+@obs body L30, L37: the dashes after «c)» and «d)» measure 10.2 and 10.0 pt; «18–20» and «20–30» have long dashes (5.3 and 5.4 pt).
+@obs body L31-L36: heavy brackets open (L31) and close (L36) Schiaparelli's note; «al–Battānī» (L34) is letter-spaced, with a long dash (5.4 pt), and the dash before «Schiaparelli» (L36) measures 10.2 pt. Al-Battānī's greatest equation of the centre of the Sun is 1° 59′ 10″ (p. 213), twice which is 3° 58′; his diameters of the Sun, 31′ 20″ at the apogee and 33′ 40″ at the perigee (translation, p. 58), have the mean 32′ 30″. The translation gives 39° 48′ at p. 122, l. 33, with Plato's 49° 48′ (note 19), and at p. 123, l. 21, with Plato's 9° 48′ (note 4).
+@obs body L38-L40: a heavy bracket opens the addition (L38); «al–Battānī» (L39) is letter-spaced, with a long dash (5.3 pt).

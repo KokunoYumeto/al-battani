@@ -1,0 +1,440 @@
+{
+ "anchor": "AB01-PDF0379",
+ "master_pdf_page": 379,
+ "printed_page": 290,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "margin_locators": [],
+ "observations": [
+  "body L1, L5, L12: specks between «linearis» and «pla-» (L1), at the left of the display of L5 and over the u of «tangentibus» (L12) are not transcribed.",
+  "body L1-L10: the displays agree with one another: diametrus planetae : diametrus Terrae = 5 1/2 × r/R × δ/Δ = r × δ/Δ : (R : 5 1/2), and 1108 : 5 1/2 = 2216 : 11 = 201 5/11, as printed. «Albatenii» (L8) is letter-spaced.",
+  "body L12-L21: the figure stands on the right of these lines and is redrawn from the print: the epicycle about O; the tangents XA and XB from the eye X, each running on beyond its point of contact; the line XO, ending a little above O; the dotted radius OB dash by dash, its first dash joined to the top of XO and its last to the tangent at B, as printed; the bold italic letters O, A, B, X. On the print XA touches the circle (O stands 29.73 pt from it, the radius being 29.72 pt), XB stands 0.3 pt outside it, and XO passes 0.3 pt to the right of O.",
+  "body L13-L16, L20: «Ptolemaeus» (L16, L20) is letter-spaced; the dashes before «In Mercurio» (L13), «Aliter» (L15) and «In Iove» (L20) measure 10.1, 10.3 and 10.0 pt, and «al–Battānī» (L15) has a long dash (5.3 pt).",
+  "body L17-L24: 39ᵖ 30′ : 60ᵖ = 0,658333 = sin 41° 10′ 22″, so that OXB = 41° 10′ ½ to the half minute and AXB = 82° 20′ 45″, 82° 21′. 11ᵖ 30′ : 60ᵖ = 0,191666 = sin 11° 3′ 0″: the printed «0,19666» stands for 0,19166, from which OXB = 11° 3′ and AXB = 22° 6′ (L22) follow; 0,19666 would give 11° 20′ ½. 6ᵖ 30′ : 60ᵖ = 0,108333 = sin 6° 13′ 9″, and AXB = 12° 26′ 18″, 12° 26′. The printed numbers are kept. The dots after «0,65833» are four, after «0,19666» five and after «0.10833» four; «0.10833» has a full stop for the decimal comma of L18 and L21.",
+  "body L22-L24: «Ptolemaeus» (L23) is letter-spaced; the dash before «In Saturno» (L22) measures 10.4 pt, and the dash before «Schiaparelli» (L24), 9.8 pt, follows the full stop without a space. A heavy bracket closes Schiaparelli's addition, opened on p. 289, L35; the feet of the two L of «Schiaparelli» print apart from their stems, like «SCHIAPAREL.I.I», and its full stop prints small.",
+  "body L25-L27: «Tycho Brahe» is letter-spaced; «467–71», «al–Farghānī» and «al–Battānī» (L27) have long dashes (5.2, 5.5 and 5.3 pt).",
+  "body L30, L37: the dashes after «c)» and «d)» measure 10.2 and 10.0 pt; «18–20» and «20–30» have long dashes (5.3 and 5.4 pt).",
+  "body L31-L36: heavy brackets open (L31) and close (L36) Schiaparelli's note; «al–Battānī» (L34) is letter-spaced, with a long dash (5.4 pt), and the dash before «Schiaparelli» (L36) measures 10.2 pt. Al-Battānī's greatest equation of the centre of the Sun is 1° 59′ 10″ (p. 213), twice which is 3° 58′; his diameters of the Sun, 31′ 20″ at the apogee and 33′ 40″ at the perigee (translation, p. 58), have the mean 32′ 30″. The translation gives 39° 48′ at p. 122, l. 33, with Plato's 49° 48′ (note 19), and at p. 123, l. 21, with Plato's 9° 48′ (note 4).",
+  "body L38-L40: a heavy bracket opens the addition (L38); «al–Battānī» (L39) is letter-spaced, with a long dash (5.3 pt)."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0379-body-L001",
+     "source_line_no": null,
+     "tex": "diametrus angularis apparens planetae, \\textit{r} eius distantia media; erit \\textit{r}\\textgreek{δ} diametrus linearis pla-",
+     "transcription": "diametrus angularis apparens planetae, *r* eius distantia media; erit *r*δ diametrus linearis pla-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0379-body-L002",
+     "source_line_no": null,
+     "tex": "netae. Itaque",
+     "transcription": "netae. Itaque",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0379-body-L003",
+     "source_line_no": null,
+     "tex": "\\CenterLine{$\\dfrac{\\text{diametrus planetae}}{\\text{diametrus Solis}} = \\dfrac{r\\text{\\textgreek{δ}}}{R\\Delta} = \\dfrac{r}{R} \\times \\dfrac{\\text{\\textgreek{δ}}}{\\Delta}$.}",
+     "transcription": "$\\dfrac{\\text{diametrus planetae}}{\\text{diametrus Solis}} = \\dfrac{r\\text{δ}}{R\\Delta} = \\dfrac{r}{R} \\times \\dfrac{\\text{δ}}{\\Delta}$.",
+     "semantic_anchor": "AB01-PDF0379-H03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0379-body-L004",
+     "source_line_no": null,
+     "tex": "Diametrus Solis complectitur 5 $\\qfrac{1}{2}$ diametros terrestres; ergo",
+     "transcription": "Diametrus Solis complectitur 5 {sfrac:1/2} diametros terrestres; ergo",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0379-body-L005",
+     "source_line_no": null,
+     "tex": "\\CenterLine{$\\dfrac{\\text{diametrus planetae}}{\\text{diametrus Terrae}} = \\text{5 $\\qfrac{1}{2}$} \\times \\dfrac{r}{R} \\times \\dfrac{\\text{\\textgreek{δ}}}{\\Delta} = r \\times \\dfrac{\\text{\\textgreek{δ}}}{\\Delta} \\times \\dfrac{1}{\\left(\\dfrac{R}{\\text{5 $\\qfrac{1}{2}$}}\\right)}$.}",
+     "transcription": "$\\dfrac{\\text{diametrus planetae}}{\\text{diametrus Terrae}} = \\text{5 {sfrac:1/2}} \\times \\dfrac{r}{R} \\times \\dfrac{\\text{δ}}{\\Delta} = r \\times \\dfrac{\\text{δ}}{\\Delta} \\times \\dfrac{1}{\\left(\\dfrac{R}{\\text{5 {sfrac:1/2}}}\\right)}$.",
+     "semantic_anchor": "AB01-PDF0379-H05",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0379-body-L006",
+     "source_line_no": null,
+     "tex": "Sed $R = 1108$, $\\dfrac{R}{\\text{5 $\\qfrac{1}{2}$}} = \\text{201 $\\qfrac{5}{11}$}$, ergo",
+     "transcription": "Sed $R = 1108$, $\\dfrac{R}{\\text{5 {sfrac:1/2}}} = \\text{201 {sfrac:5/11}}$, ergo",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0379-body-L007",
+     "source_line_no": null,
+     "tex": "\\CenterLine{$\\dfrac{\\text{diametrus planetae}}{\\text{diametrus Terrae}} = r \\times \\dfrac{\\text{\\textgreek{δ}}}{\\Delta} \\times \\dfrac{1}{\\text{201 $\\qfrac{5}{11}$}}$,}",
+     "transcription": "$\\dfrac{\\text{diametrus planetae}}{\\text{diametrus Terrae}} = r \\times \\dfrac{\\text{δ}}{\\Delta} \\times \\dfrac{1}{\\text{201 {sfrac:5/11}}}$,",
+     "semantic_anchor": "AB01-PDF0379-H07",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0379-body-L008",
+     "source_line_no": null,
+     "tex": "quae est regula \\Name{Albatenii}, seu potius eorum qui ante eum hos calculos instituerant. Mani-",
+     "transcription": "quae est regula {sp:Albatenii}, seu potius eorum qui ante eum hos calculos instituerant. Mani-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0379-body-L009",
+     "source_line_no": null,
+     "tex": "feste cum de ratione observata inter diametros planetarum diametrumque Solis loquitur, vult",
+     "transcription": "feste cum de ratione observata inter diametros planetarum diametrumque Solis loquitur, vult",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0379-body-L010",
+     "source_line_no": null,
+     "tex": "semper rationem \\textit{diametrorum apparentium,} non verarum.",
+     "transcription": "semper rationem *diametrorum apparentium,* non verarum.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0379-body-L011",
+     "source_line_no": null,
+     "tex": "\\Indent II. \\textit{Arcus quos diametri apparentes epicyclorum in oculo subtendunt.} Diametrus ap-",
+     "transcription": "II. *Arcus quos diametri apparentes epicyclorum in oculo subtendunt.* Diametrus ap-",
+     "semantic_anchor": "AB01-PDF0379-P01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0379-body-F01",
+     "source_line_no": null,
+     "tex": "\\input{figures/AB01-PDF0379-F01}",
+     "transcription": "[figure, redrawn: figures/AB01-PDF0379-F01.tex]",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_FIGURE"
+    },
+    {
+     "id": "AB01-PDF0379-body-L012",
+     "source_line_no": null,
+     "tex": "parens epicycli est angulus contentus duabus lineis tangentibus ductis ab",
+     "transcription": "parens epicycli est angulus contentus duabus lineis tangentibus ductis ab",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0379-body-L013",
+     "source_line_no": null,
+     "tex": "oculo ad utramque epicycli partem, scilicet angulus AXB. — In \\textit{Mercurio}",
+     "transcription": "oculo ad utramque epicycli partem, scilicet angulus AXB. — In *Mercurio*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0379-body-L014",
+     "source_line_no": null,
+     "tex": "et \\textit{Venere} hic angulus manifeste est summa digressionis maximae et mi-",
+     "transcription": "et *Venere* hic angulus manifeste est summa digressionis maximae et mi-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0379-body-L015",
+     "source_line_no": null,
+     "tex": "nimae, ut al–Battānī habet. — Aliter in planetis superioribus. \\textit{Martem}",
+     "transcription": "nimae, ut al–Battānī habet. — Aliter in planetis superioribus. *Martem*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0379-body-L016",
+     "source_line_no": null,
+     "tex": "quod attinet, \\Name{Ptolemaeus} X, 8 (ed. Halma t. II, 236) demonstrat radium",
+     "transcription": "quod attinet, {sp:Ptolemaeus} X, 8 (ed. Halma t. II, 236) demonstrat radium",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0379-body-L017",
+     "source_line_no": null,
+     "tex": "excentrici esse ad radium epicycli ut 60\\textsuperscript{\\textit{p}} ad 39\\textsuperscript{\\textit{p}} 30′, hoc est ut 1 ad",
+     "transcription": "excentrici esse ad radium epicycli ut 60{sup:*p*} ad 39{sup:*p*} 30′, hoc est ut 1 ad",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0379-body-L018",
+     "source_line_no": null,
+     "tex": "0,65833.... Hic numerus (vel 39\\textsuperscript{\\textit{p}} 30′) est sinus anguli OXB, qui in oculo",
+     "transcription": "0,65833.... Hic numerus (vel 39{sup:*p*} 30′) est sinus anguli OXB, qui in oculo",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0379-body-L019",
+     "source_line_no": null,
+     "tex": "subtendit radium OB epicycli; ergo OXB $=$ 41° 10′ $\\qfrac{1}{2}$, et AXB $=$ 82° 21′.",
+     "transcription": "subtendit radium OB epicycli; ergo OXB $=$ 41° 10′ {sfrac:1/2}, et AXB $=$ 82° 21′.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0379-body-L020",
+     "source_line_no": null,
+     "tex": "— In \\textit{Iove} \\Name{Ptolemaeus} XI, 2 (ed. Halma t. II, p. 262) statuit radium",
+     "transcription": "— In *Iove* {sp:Ptolemaeus} XI, 2 (ed. Halma t. II, p. 262) statuit radium",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0379-body-L021",
+     "source_line_no": null,
+     "tex": "excentrici esse ad radium epicycli ut 60\\textsuperscript{\\textit{p}} ad 11\\textsuperscript{\\textit{p}} 30′, vel ut 1 ad 0,19666.....",
+     "transcription": "excentrici esse ad radium epicycli ut 60{sup:*p*} ad 11{sup:*p*} 30′, vel ut 1 ad 0,19666.....",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0379-body-L022",
+     "source_line_no": null,
+     "tex": "Itaque angulus OXB $=$ 11° 3′, et diametrus angularis epicycli AXB $=$ 22° 6′. — In \\textit{Saturno}",
+     "transcription": "Itaque angulus OXB $=$ 11° 3′, et diametrus angularis epicycli AXB $=$ 22° 6′. — In *Saturno*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0379-body-L023",
+     "source_line_no": null,
+     "tex": "\\Name{Ptolemaeus} XI, 6 (ed. Halma t. II, p. 287) statuit radium excentrici ad radium epicycli ut",
+     "transcription": "{sp:Ptolemaeus} XI, 6 (ed. Halma t. II, p. 287) statuit radium excentrici ad radium epicycli ut",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0379-body-L024",
+     "source_line_no": null,
+     "tex": "60\\textsuperscript{\\textit{p}} ad 6\\textsuperscript{\\textit{p}} 30′, vel ut 1 ad 0.10833.... Itaque OXB $=$ 6° 13′, et AXB $=$ 12° 26′.— \\textsc{Schiaparelli}.]",
+     "transcription": "60{sup:*p*} ad 6{sup:*p*} 30′, vel ut 1 ad 0.10833.... Itaque OXB $=$ 6° 13′, et AXB $=$ 12° 26′.— {sc:Schiaparelli}.]",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0379-body-L025",
+     "source_line_no": null,
+     "tex": "\\Indent \\Name{Tycho Brahe}, \\textit{Astronomiae instauratae progymnasmata,} Uraniburgi et Pragae 1610,",
+     "transcription": "{sp:Tycho Brahe}, *Astronomiae instauratae progymnasmata,* Uraniburgi et Pragae 1610,",
+     "semantic_anchor": "AB01-PDF0379-P02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0379-body-L026",
+     "source_line_no": null,
+     "tex": "t. I, p. 467–71, exponit quae de distantiis magnitudinibusque corporum caelestium al–Farghānī",
+     "transcription": "t. I, p. 467–71, exponit quae de distantiis magnitudinibusque corporum caelestium al–Farghānī",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0379-body-L027",
+     "source_line_no": null,
+     "tex": "et al–Battānī dicunt, postea docens « qua Methodo et demonstrationis processu Albategnius",
+     "transcription": "et al–Battānī dicunt, postea docens « qua Methodo et demonstrationis processu Albategnius",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0379-body-L028",
+     "source_line_no": null,
+     "tex": "« potissimum usus sit, in Stellarum Magnitudinibus praefiniendis ex data eorum distantia et",
+     "transcription": "« potissimum usus sit, in Stellarum Magnitudinibus praefiniendis ex data eorum distantia et",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0379-body-L029",
+     "source_line_no": null,
+     "tex": "« visibili Diametro in aliquota parte solaris diametri, iuxta apparentiam ».",
+     "transcription": "« visibili Diametro in aliquota parte solaris diametri, iuxta apparentiam ».",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0379-body-L030",
+     "source_line_no": null,
+     "tex": "\\CenterLine{\\textbf{\\textit{c}}) — \\textit{Pag. 122, l. 33.}}",
+     "transcription": "{bi:c}) — *Pag. 122, l. 33.*",
+     "semantic_anchor": "AB01-PDF0379-H30",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0379-body-L031",
+     "source_line_no": null,
+     "tex": "\\Indent [« \\textit{Diametrus Solis subtendit arcum 39° 48′} ». Quid hoc sibi velit, nescio. Si de \\textit{epi-}",
+     "transcription": "[« *Diametrus Solis subtendit arcum 39° 48′* ». Quid hoc sibi velit, nescio. Si de *epi-*",
+     "semantic_anchor": "AB01-PDF0379-P03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0379-body-L032",
+     "source_line_no": null,
+     "tex": "\\textit{cyclo} Solis agitur, eius diametrus est duplum maximae aequationis centri, ergo 3° 58′, quod",
+     "transcription": "*cyclo* Solis agitur, eius diametrus est duplum maximae aequationis centri, ergo 3° 58′, quod",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0379-body-L033",
+     "source_line_no": null,
+     "tex": "minime convenit cum 39° 48′ codicis (hic et p. 123, l. 21) et 49° 48′ vel 9° 48′ Platonis. Si de",
+     "transcription": "minime convenit cum 39° 48′ codicis (hic et p. 123, l. 21) et 49° 48′ vel 9° 48′ Platonis. Si de",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0379-body-L034",
+     "source_line_no": null,
+     "tex": "\\textit{diametro} apparenti \\textit{Solis} agitur, eius quantitatem mediam \\Name{al–Battānī}, pag. 58, statuit",
+     "transcription": "*diametro* apparenti *Solis* agitur, eius quantitatem mediam {sp:al–Battānī}, pag. 58, statuit",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0379-body-L035",
+     "source_line_no": null,
+     "tex": "32′ 30″. Est igitur stulta interpolatio censenda, ut ea de qua in adnotatione sequenti dicam.",
+     "transcription": "32′ 30″. Est igitur stulta interpolatio censenda, ut ea de qua in adnotatione sequenti dicam.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0379-body-L036",
+     "source_line_no": null,
+     "tex": "— \\textsc{Schiaparelli}.]",
+     "transcription": "— {sc:Schiaparelli}.]",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0379-body-L037",
+     "source_line_no": null,
+     "tex": "\\CenterLine{\\textbf{\\textit{d}}) — \\textit{Pag. 123, l. 18–20 et 20–30.}}",
+     "transcription": "{bi:d}) — *Pag. 123, l. 18–20 et 20–30.*",
+     "semantic_anchor": "AB01-PDF0379-H37",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0379-body-L038",
+     "source_line_no": null,
+     "tex": "\\Indent [Totus hic locus, in quo omnes fere codicis numeri a numeris Platonis differunt, sanari",
+     "transcription": "[Totus hic locus, in quo omnes fere codicis numeri a numeris Platonis differunt, sanari",
+     "semantic_anchor": "AB01-PDF0379-P04",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0379-body-L039",
+     "source_line_no": null,
+     "tex": "nequit; attamen antea omnia recte procedebant. Manifeste non \\Name{al–Battānī}, sed ineptissimus",
+     "transcription": "nequit; attamen antea omnia recte procedebant. Manifeste non {sp:al–Battānī}, sed ineptissimus",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0379-body-L040",
+     "source_line_no": null,
+     "tex": "interpolator diametros apparentes maximas, medias, minimas planetarum omnium addere co-",
+     "transcription": "interpolator diametros apparentes maximas, medias, minimas planetarum omnium addere co-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    }
+   ]
+  }
+ ]
+}
