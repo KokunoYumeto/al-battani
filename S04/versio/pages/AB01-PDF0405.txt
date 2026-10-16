@@ -1,0 +1,90 @@
+@page 405 316
+% Commentary on chapter 55 b) continued: the proportion ca : (semidiurnal arc of A − semidiurnal arc of B) = distance of A from the meridian : semidiurnal arc of A, whence ca = (semid. A − semid. B) × distance of A from the meridian / semidiurnal arc of A. If the distance is given in temporal hours (note 1: as the author says on pp. 132-33, the temporal hours of distance from the midheaven are the difference between the right ascension of the star and that of the midheaven, divided by the horary times of the star), of which the semidiurnal arc contains six, ca = (semid. A − semid. B) × hours of distance of A / 6. From the precepts of chapter XIX: semidiurnal arc of A = 90° + the difference between the right and the oblique ascension of A, and the same for B; so (semid. A − semid. B) = (oblique ascension A − oblique ascension B) − (right ascension A − right ascension B). With α the difference of the right ascensions and β that of the oblique, al-Battānī's rule (note 2: p. 133, l. 29, for «cognoscuntur. Idest» read «cognoscuntur; idest»; and l. 31 for «deprehende; si gradus» read «deprehendes. — Si gradus») is (α) direction = α ± (β − α) × temporal hours of distance of A / 6, where (α − β) is put for (β − α) if α > β; the second term of the second member has the sign − when α > β, + when α < β. This holds if A and B are in the eastern hemisphere. When they are in the western, for the oblique ascensions of A and B the oblique ascensions of (A + 180°) and (B + 180°), that is the descensions of A and B, are to be taken; why, the figure here shows. If A and B are in different hemispheres, one proceeds as al-Battānī teaches on p. 134, l. 16-20: direct B to the upper or lower meridian (whichever of the two lies between B and A); this direction is the difference between the right ascension of B and that of the midheaven or the cardine of the Earth; to this difference add the quantity Dc, that is the temporal hours of distance of A from the same meridian multiplied by the horary times of B (note 3: the codex and Plato do not mention this multiplication; but if it is neglected the precept is false, for Da, not Dc, is known; see below on the proof of al-Battānī's second rule); the direction sought results. This method of computation agrees with the computation of radiations which the Arabs often call Ptolemaic (pp. 309-10), except that there for α and β are taken the arcs of the ecliptic (continued). The left column of the notes begins with the end of Schiaparelli's note 3 of p. 315: «... exceed (25° or 30°) of declination, this error is not so great, especially in the climes of the cities of ar-Raqqah, Antioch, Baghdad; it is even smaller in the more southern places of the Earth near the equator. — Schiaparelli.]» That Ptolemy and other Greeks already used this approximation will appear from p. 317.
+@nonum
+@vspace 0.10
+@center $ca : (\text{arcus semid. } A - \text{arcus semid. } B\;) = \text{dist. } A \text{ a meridiano : arcus semid. } A$,
+unde
+@vspace 0.17
+@center $ca = (\text{arcus semid. } A - \text{arcus semid. } B) \times \dfrac{\text{distantia } A \text{ a meridiano}}{\text{arcus semidiurnus } A}$.
+@vspace 0.81
+Si distantiam in horis temporalibus indicamus (1), quarum arcus semidiurnus sex complectitur,
+@vspace 0.11
+manifeste
+@center $ca = (\text{arc. semid. } A - \text{arc. semid. } B) \times \dfrac{\text{horae distantiae } A}{6}$.
+@vspace 0.97
+A praeceptis XIX capitis deducitur:
+@at 24.62:arc. semid. $A = 90° +$ differentia inter asc. rectam $A$ et asc. obliq. $A$
+@at 24.62:arc. semid. $B = 90° +$ differentia inter asc. rectam $B$ et asc. obliq. $B$,
+@vspace -0.95
+ergo
+@vspace -0.04
+(arc. semid. $A$ $-$ arc. semid. $B$) $=$ (asc. obliq. $A$ $-$ asc. obliq. $B$) $-$ (asc. recta $A$ $-$ asc. recta $B$).
+@vspace 1.03
+Si littera α indicemus differentiam ascensionum rectarum, littera β differentiam obliquarum,
+@vspace 0.22
+regula {sp:al–Battānī} est (2):
+@vspace -1.17
+@at 0:(α) | 36.94:$\text{directio} = \text{α} \pm (\text{β} - \text{α}) \times \dfrac{\text{horae temporales distantiae } A}{6}$\,,
+@vspace 3.65
+@wrap 0.4617 AB01-PDF0405-F01
+ubi pro (β $-$ α) ponitur (α $-$ β) si α $>$ β; secun-
+dus terminus secundi membri signum $-$ habet
+quando α $>$ β, signum $+$ quando α $<$ β.
+@vspace 0.09
+^ Haec si A et B in hemisphaerio orientali
+sunt. Quando in occidentali consistunt, pro ascen-
+sionibus obliquis A et B sumantur ascensiones
+@vspace 0.07
+obliquae (A $+$ 180°) et (B $+$ 180°), scilicet de-
+scensiones A et B. Cur ita faciendum e figura hic
+posita satis apparet.
+@vspace 0.14
+^ Si A et B in duobus diversis hemisphaeriis
+reperiuntur, operandum est ut {sp:al–Battānī}
+p. 134, l. 16–20 docet: dirige B ad meridianum
+superiorem aut inferiorem (prout alteruter inter
+@vspace 0.05
+B et A exsistit), quae directio est differentia inter
+@endwrap
+@vspace -0.28
+ascensionem rectam B et ascensionem rectam medii Caeli aut paxilli Terrae; huic differentiae
+adde quantitatem D*c*, scilicet horas temporales distantiae A ab eodem meridiano *multiplicatas*
+*in tempora horaria B* (3); exibit directio quaesita.
+^ Haec supputandi ratio cum radiationum calculo quem Arabes saepe Ptolemaicum vocant
+(p. 309–10) congruit, hoc tantum excepto quod ibi pro α et β sumuntur arcus eclipticae cor-
+@notes
+@fontsize 9 11.80
+@vspace 3.58
+declinationis excedant, error iste non ita magnus
+fit, praesertim in climatibus urbium ar-Raqqah, An-
+@vspace -0.11
+tiochiae, Baghdād; fit etiam minor in australioribus
+Terrae locis prope circulum aequinoctialem. — {sc:Schia-}
+@vspace -0.11
+{sc:parelli}.] Hac adproximatione iam usos esse {sp:Pto-}
+{sp:lemaeum} et Graecos alios, e p. 317 patebit.
+^ (1) Ut ipse auctor p. 132-33 monet, horae tem-
+@vspace 0.05
+porales distantiae a medio Caelo sunt differentia inter
+ascens. rectam sideris et ascens. medii Caeli, divisa
+@vspace 0.12
+per tempora horaria sideris.
+@col
+@fontsize 9 11.80
+@vspace 3.57
+^ (2) Pag. 133, l. 29 pro « cognoscuntur. Idest »
+legatur « cognoscuntur; idest »; et l. 31 pro « de-
+« prehende; si gradus » corrigatur « deprehendes. –
+« Si gradus ».
+^ (3) Hanc multiplicationem cod. et Plato non me-
+morant; sed si negligitur falsum est praeceptum, nam
+D*a*, non D*c* cognoscitur. Cfr. quae infra ad secundam
+Albatenii regulam demonstrandam dicam.
+@obs body L1-L6: the proportion begun on p. 315. The minus signs are printed as dashes (9.6 to 10.4 pt), that of L6 shorter (5.4 pt), and are set as minus signs. With six temporal hours to the semidiurnal arc, distance of A from the meridian : semidiurnal arc of A = hours of distance of A : 6, so L6 follows from L3, as printed.
+@obs body L7-L11: the minus signs of L11 are printed as dashes (9.0 to 10.0 pt). The semidiurnal arc is 90° plus the ascensional difference, and in the eastern hemisphere the oblique ascension of a star of northern declination is less than its right ascension by that difference; so semid. A − semid. B = (asc. recta A − asc. recta B) − (asc. obliq. A − asc. obliq. B) = α − β, and the right side of L11 is printed with the opposite sign. The rule (α) agrees with α − β: it gives α when A is on the meridian and β when A is on the horizon (six temporal hours), as it must, while the identity as printed would give 2α − β there. The printed form is kept.
+@obs body L12-L14: «al–Battānī» (L13) is letter-spaced, with a long dash (5.6 pt). With (α − β) for (β − α) when α > β and the sign − before it, the rule is in both cases directio = α + (β − α) × horae : 6.
+@obs body L15-L28: the figure of the sphere stands on the left of L15-L28, redrawn from the print: the horizon, the circle of position NAS, the equator and the ecliptic as circles fitted to the printed strokes (rms 0.33 to 0.40 pt), the meridian NS as a straight stroke; the dashed parallels F″F′, E″E′ and the dashed circles of declination from P through B, C, A, E″ and F″ are fitted to their dashes and drawn dash by dash; the arcs bc of the equator and BC of the parallel E″E′ are printed bold; the points P, A, B are marked by dots. The words meridianus, ecliptica, aequator and horizon are set along their lines; the sign of Aries stands on the meeting of the equator and the ecliptic. The minus signs of L15-L17 are printed as dashes (10.0 to 10.2 pt). «al–Battānī» (L25) is letter-spaced, with a long dash (5.4 pt); «16–20» (L26) has a long dash (4.2 pt). The place is p. 134, L16-L20 of the translation («Si duo gradus illi in duobus diversis hemisphaeriis sunt...»).
+@obs body L29-L33: «309–10» has a long dash (5.2 pt).
+@obs notes_left L1-L6: the end of Schiaparelli's note 3 begun on p. 315. «Schiaparelli» is set in small capitals and divided between L4 and L5, as printed; the dash before it measures 7.0 pt. «Ptolemaeum», divided between L5 and L6, is letter-spaced.
+@obs notes_left L7-L10: «132-33» has a hyphen (3.2 pt).
+@obs notes_right L1-L8: the closing parenthesis of «(2)» prints broken. The corrections of note 2 are those of Nallino's addenda (Part I, p. LXXII), recorded on p. 133, L29 and L31 of the translation; the dash after «deprehendes.» measures 5.0 pt, a long dash. The opening parenthesis of «(3)» prints broken.

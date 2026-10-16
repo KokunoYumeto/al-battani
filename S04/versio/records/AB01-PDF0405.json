@@ -1,0 +1,558 @@
+{
+ "anchor": "AB01-PDF0405",
+ "master_pdf_page": 405,
+ "printed_page": 316,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "margin_locators": [],
+ "observations": [
+  "body L1-L6: the proportion begun on p. 315. The minus signs are printed as dashes (9.6 to 10.4 pt), that of L6 shorter (5.4 pt), and are set as minus signs. With six temporal hours to the semidiurnal arc, distance of A from the meridian : semidiurnal arc of A = hours of distance of A : 6, so L6 follows from L3, as printed.",
+  "body L7-L11: the minus signs of L11 are printed as dashes (9.0 to 10.0 pt). The semidiurnal arc is 90° plus the ascensional difference, and in the eastern hemisphere the oblique ascension of a star of northern declination is less than its right ascension by that difference; so semid. A − semid. B = (asc. recta A − asc. recta B) − (asc. obliq. A − asc. obliq. B) = α − β, and the right side of L11 is printed with the opposite sign. The rule (α) agrees with α − β: it gives α when A is on the meridian and β when A is on the horizon (six temporal hours), as it must, while the identity as printed would give 2α − β there. The printed form is kept.",
+  "body L12-L14: «al–Battānī» (L13) is letter-spaced, with a long dash (5.6 pt). With (α − β) for (β − α) when α > β and the sign − before it, the rule is in both cases directio = α + (β − α) × horae : 6.",
+  "body L15-L28: the figure of the sphere stands on the left of L15-L28, redrawn from the print: the horizon, the circle of position NAS, the equator and the ecliptic as circles fitted to the printed strokes (rms 0.33 to 0.40 pt), the meridian NS as a straight stroke; the dashed parallels F″F′, E″E′ and the dashed circles of declination from P through B, C, A, E″ and F″ are fitted to their dashes and drawn dash by dash; the arcs bc of the equator and BC of the parallel E″E′ are printed bold; the points P, A, B are marked by dots. The words meridianus, ecliptica, aequator and horizon are set along their lines; the sign of Aries stands on the meeting of the equator and the ecliptic. The minus signs of L15-L17 are printed as dashes (10.0 to 10.2 pt). «al–Battānī» (L25) is letter-spaced, with a long dash (5.4 pt); «16–20» (L26) has a long dash (4.2 pt). The place is p. 134, L16-L20 of the translation («Si duo gradus illi in duobus diversis hemisphaeriis sunt...»).",
+  "body L29-L33: «309–10» has a long dash (5.2 pt).",
+  "notes_left L1-L6: the end of Schiaparelli's note 3 begun on p. 315. «Schiaparelli» is set in small capitals and divided between L4 and L5, as printed; the dash before it measures 7.0 pt. «Ptolemaeum», divided between L5 and L6, is letter-spaced.",
+  "notes_left L7-L10: «132-33» has a hyphen (3.2 pt).",
+  "notes_right L1-L8: the closing parenthesis of «(2)» prints broken. The corrections of note 2 are those of Nallino's addenda (Part I, p. LXXII), recorded on p. 133, L29 and L31 of the translation; the dash after «deprehendes.» measures 5.0 pt, a long dash. The opening parenthesis of «(3)» prints broken."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0405-body-L001",
+     "source_line_no": null,
+     "tex": "\\CenterLine{$ca : (\\text{arcus semid. } A - \\text{arcus semid. } B\\;) = \\text{dist. } A \\text{ a meridiano : arcus semid. } A$,}",
+     "transcription": "$ca : (\\text{arcus semid. } A - \\text{arcus semid. } B\\;) = \\text{dist. } A \\text{ a meridiano : arcus semid. } A$,",
+     "semantic_anchor": "AB01-PDF0405-H01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0405-body-L002",
+     "source_line_no": null,
+     "tex": "unde",
+     "transcription": "unde",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0405-body-L003",
+     "source_line_no": null,
+     "tex": "\\CenterLine{$ca = (\\text{arcus semid. } A - \\text{arcus semid. } B) \\times \\dfrac{\\text{distantia } A \\text{ a meridiano}}{\\text{arcus semidiurnus } A}$.}",
+     "transcription": "$ca = (\\text{arcus semid. } A - \\text{arcus semid. } B) \\times \\dfrac{\\text{distantia } A \\text{ a meridiano}}{\\text{arcus semidiurnus } A}$.",
+     "semantic_anchor": "AB01-PDF0405-H03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0405-body-L004",
+     "source_line_no": null,
+     "tex": "Si distantiam in horis temporalibus indicamus (1), quarum arcus semidiurnus sex complectitur,",
+     "transcription": "Si distantiam in horis temporalibus indicamus (1), quarum arcus semidiurnus sex complectitur,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0405-body-L005",
+     "source_line_no": null,
+     "tex": "manifeste",
+     "transcription": "manifeste",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0405-body-L006",
+     "source_line_no": null,
+     "tex": "\\CenterLine{$ca = (\\text{arc. semid. } A - \\text{arc. semid. } B) \\times \\dfrac{\\text{horae distantiae } A}{6}$.}",
+     "transcription": "$ca = (\\text{arc. semid. } A - \\text{arc. semid. } B) \\times \\dfrac{\\text{horae distantiae } A}{6}$.",
+     "semantic_anchor": "AB01-PDF0405-H06",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0405-body-L007",
+     "source_line_no": null,
+     "tex": "A praeceptis XIX capitis deducitur:",
+     "transcription": "A praeceptis XIX capitis deducitur:",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0405-body-L008",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{24.62mm}arc. semid. $A = 90° +$ differentia inter asc. rectam $A$ et asc. obliq. $A$}",
+     "transcription": "arc. semid. $A = 90° +$ differentia inter asc. rectam $A$ et asc. obliq. $A$",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0405-body-L009",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{24.62mm}arc. semid. $B = 90° +$ differentia inter asc. rectam $B$ et asc. obliq. $B$,}",
+     "transcription": "arc. semid. $B = 90° +$ differentia inter asc. rectam $B$ et asc. obliq. $B$,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0405-body-L010",
+     "source_line_no": null,
+     "tex": "ergo",
+     "transcription": "ergo",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0405-body-L011",
+     "source_line_no": null,
+     "tex": "(arc. semid. $A$ $-$ arc. semid. $B$) $=$ (asc. obliq. $A$ $-$ asc. obliq. $B$) $-$ (asc. recta $A$ $-$ asc. recta $B$).",
+     "transcription": "(arc. semid. $A$ $-$ arc. semid. $B$) $=$ (asc. obliq. $A$ $-$ asc. obliq. $B$) $-$ (asc. recta $A$ $-$ asc. recta $B$).",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0405-body-L012",
+     "source_line_no": null,
+     "tex": "Si littera \\textgreek{α} indicemus differentiam ascensionum rectarum, littera \\textgreek{β} differentiam obliquarum,",
+     "transcription": "Si littera α indicemus differentiam ascensionum rectarum, littera β differentiam obliquarum,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0405-body-L013",
+     "source_line_no": null,
+     "tex": "regula \\Name{al–Battānī} est (2):",
+     "transcription": "regula {sp:al–Battānī} est (2):",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0405-body-L014",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.00mm}(\\textgreek{α})}\\rlap{\\hspace*{36.94mm}$\\text{directio} = \\text{\\textgreek{α}} \\pm (\\text{\\textgreek{β}} - \\text{\\textgreek{α}}) \\times \\dfrac{\\text{horae temporales distantiae } A}{6}$\\,,}",
+     "transcription": "(α) $\\text{directio} = \\text{α} \\pm (\\text{β} - \\text{α}) \\times \\dfrac{\\text{horae temporales distantiae } A}{6}$\\,,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0405-body-F01",
+     "source_line_no": null,
+     "tex": "\\input{figures/AB01-PDF0405-F01}",
+     "transcription": "[figure, redrawn: figures/AB01-PDF0405-F01.tex]",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_FIGURE"
+    },
+    {
+     "id": "AB01-PDF0405-body-L015",
+     "source_line_no": null,
+     "tex": "ubi pro (\\textgreek{β} $-$ \\textgreek{α}) ponitur (\\textgreek{α} $-$ \\textgreek{β}) si \\textgreek{α} $>$ \\textgreek{β}; secun-",
+     "transcription": "ubi pro (β $-$ α) ponitur (α $-$ β) si α $>$ β; secun-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0405-body-L016",
+     "source_line_no": null,
+     "tex": "dus terminus secundi membri signum $-$ habet",
+     "transcription": "dus terminus secundi membri signum $-$ habet",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0405-body-L017",
+     "source_line_no": null,
+     "tex": "quando \\textgreek{α} $>$ \\textgreek{β}, signum $+$ quando \\textgreek{α} $<$ \\textgreek{β}.",
+     "transcription": "quando α $>$ β, signum $+$ quando α $<$ β.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0405-body-L018",
+     "source_line_no": null,
+     "tex": "\\Indent Haec si A et B in hemisphaerio orientali",
+     "transcription": "Haec si A et B in hemisphaerio orientali",
+     "semantic_anchor": "AB01-PDF0405-P01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0405-body-L019",
+     "source_line_no": null,
+     "tex": "sunt. Quando in occidentali consistunt, pro ascen-",
+     "transcription": "sunt. Quando in occidentali consistunt, pro ascen-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0405-body-L020",
+     "source_line_no": null,
+     "tex": "sionibus obliquis A et B sumantur ascensiones",
+     "transcription": "sionibus obliquis A et B sumantur ascensiones",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0405-body-L021",
+     "source_line_no": null,
+     "tex": "obliquae (A $+$ 180°) et (B $+$ 180°), scilicet de-",
+     "transcription": "obliquae (A $+$ 180°) et (B $+$ 180°), scilicet de-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0405-body-L022",
+     "source_line_no": null,
+     "tex": "scensiones A et B. Cur ita faciendum e figura hic",
+     "transcription": "scensiones A et B. Cur ita faciendum e figura hic",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0405-body-L023",
+     "source_line_no": null,
+     "tex": "posita satis apparet.",
+     "transcription": "posita satis apparet.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0405-body-L024",
+     "source_line_no": null,
+     "tex": "\\Indent Si A et B in duobus diversis hemisphaeriis",
+     "transcription": "Si A et B in duobus diversis hemisphaeriis",
+     "semantic_anchor": "AB01-PDF0405-P02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0405-body-L025",
+     "source_line_no": null,
+     "tex": "reperiuntur, operandum est ut \\Name{al–Battānī}",
+     "transcription": "reperiuntur, operandum est ut {sp:al–Battānī}",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0405-body-L026",
+     "source_line_no": null,
+     "tex": "p. 134, l. 16–20 docet: dirige B ad meridianum",
+     "transcription": "p. 134, l. 16–20 docet: dirige B ad meridianum",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0405-body-L027",
+     "source_line_no": null,
+     "tex": "superiorem aut inferiorem (prout alteruter inter",
+     "transcription": "superiorem aut inferiorem (prout alteruter inter",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0405-body-L028",
+     "source_line_no": null,
+     "tex": "B et A exsistit), quae directio est differentia inter",
+     "transcription": "B et A exsistit), quae directio est differentia inter",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0405-body-L029",
+     "source_line_no": null,
+     "tex": "ascensionem rectam B et ascensionem rectam medii Caeli aut paxilli Terrae; huic differentiae",
+     "transcription": "ascensionem rectam B et ascensionem rectam medii Caeli aut paxilli Terrae; huic differentiae",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0405-body-L030",
+     "source_line_no": null,
+     "tex": "adde quantitatem D\\textit{c}, scilicet horas temporales distantiae A ab eodem meridiano \\textit{multiplicatas}",
+     "transcription": "adde quantitatem D*c*, scilicet horas temporales distantiae A ab eodem meridiano *multiplicatas*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0405-body-L031",
+     "source_line_no": null,
+     "tex": "\\textit{in tempora horaria B} (3); exibit directio quaesita.",
+     "transcription": "*in tempora horaria B* (3); exibit directio quaesita.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0405-body-L032",
+     "source_line_no": null,
+     "tex": "\\Indent Haec supputandi ratio cum radiationum calculo quem Arabes saepe Ptolemaicum vocant",
+     "transcription": "Haec supputandi ratio cum radiationum calculo quem Arabes saepe Ptolemaicum vocant",
+     "semantic_anchor": "AB01-PDF0405-P03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0405-body-L033",
+     "source_line_no": null,
+     "tex": "(p. 309–10) congruit, hoc tantum excepto quod ibi pro \\textgreek{α} et \\textgreek{β} sumuntur arcus eclipticae cor-",
+     "transcription": "(p. 309–10) congruit, hoc tantum excepto quod ibi pro α et β sumuntur arcus eclipticae cor-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    }
+   ]
+  },
+  {
+   "role": "notes_left",
+   "lines": [
+    {
+     "id": "AB01-PDF0405-notes_left-L001",
+     "source_line_no": null,
+     "tex": "declinationis excedant, error iste non ita magnus",
+     "transcription": "declinationis excedant, error iste non ita magnus",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0405-notes_left-L002",
+     "source_line_no": null,
+     "tex": "fit, praesertim in climatibus urbium ar-Raqqah, An-",
+     "transcription": "fit, praesertim in climatibus urbium ar-Raqqah, An-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0405-notes_left-L003",
+     "source_line_no": null,
+     "tex": "tiochiae, Baghdād; fit etiam minor in australioribus",
+     "transcription": "tiochiae, Baghdād; fit etiam minor in australioribus",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0405-notes_left-L004",
+     "source_line_no": null,
+     "tex": "Terrae locis prope circulum aequinoctialem. — \\textsc{Schia-}",
+     "transcription": "Terrae locis prope circulum aequinoctialem. — {sc:Schia-}",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0405-notes_left-L005",
+     "source_line_no": null,
+     "tex": "\\textsc{parelli}.] Hac adproximatione iam usos esse \\Name{Pto-}",
+     "transcription": "{sc:parelli}.] Hac adproximatione iam usos esse {sp:Pto-}",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0405-notes_left-L006",
+     "source_line_no": null,
+     "tex": "\\Name{lemaeum} et Graecos alios, e p. 317 patebit.",
+     "transcription": "{sp:lemaeum} et Graecos alios, e p. 317 patebit.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0405-notes_left-L007",
+     "source_line_no": null,
+     "tex": "\\Indent (1) Ut ipse auctor p. 132-33 monet, horae tem-",
+     "transcription": "(1) Ut ipse auctor p. 132-33 monet, horae tem-",
+     "semantic_anchor": "AB01-PDF0405-N01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0405-notes_left-L008",
+     "source_line_no": null,
+     "tex": "porales distantiae a medio Caelo sunt differentia inter",
+     "transcription": "porales distantiae a medio Caelo sunt differentia inter",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0405-notes_left-L009",
+     "source_line_no": null,
+     "tex": "ascens. rectam sideris et ascens. medii Caeli, divisa",
+     "transcription": "ascens. rectam sideris et ascens. medii Caeli, divisa",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0405-notes_left-L010",
+     "source_line_no": null,
+     "tex": "per tempora horaria sideris.",
+     "transcription": "per tempora horaria sideris.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  },
+  {
+   "role": "notes_right",
+   "lines": [
+    {
+     "id": "AB01-PDF0405-notes_right-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (2) Pag. 133, l. 29 pro « cognoscuntur. Idest »",
+     "transcription": "(2) Pag. 133, l. 29 pro « cognoscuntur. Idest »",
+     "semantic_anchor": "AB01-PDF0405-N02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0405-notes_right-L002",
+     "source_line_no": null,
+     "tex": "legatur « cognoscuntur; idest »; et l. 31 pro « de-",
+     "transcription": "legatur « cognoscuntur; idest »; et l. 31 pro « de-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0405-notes_right-L003",
+     "source_line_no": null,
+     "tex": "« prehende; si gradus » corrigatur « deprehendes. –",
+     "transcription": "« prehende; si gradus » corrigatur « deprehendes. –",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0405-notes_right-L004",
+     "source_line_no": null,
+     "tex": "« Si gradus ».",
+     "transcription": "« Si gradus ».",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0405-notes_right-L005",
+     "source_line_no": null,
+     "tex": "\\Indent (3) Hanc multiplicationem cod. et Plato non me-",
+     "transcription": "(3) Hanc multiplicationem cod. et Plato non me-",
+     "semantic_anchor": "AB01-PDF0405-N03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0405-notes_right-L006",
+     "source_line_no": null,
+     "tex": "morant; sed si negligitur falsum est praeceptum, nam",
+     "transcription": "morant; sed si negligitur falsum est praeceptum, nam",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0405-notes_right-L007",
+     "source_line_no": null,
+     "tex": "D\\textit{a}, non D\\textit{c} cognoscitur. Cfr. quae infra ad secundam",
+     "transcription": "D*a*, non D*c* cognoscitur. Cfr. quae infra ad secundam",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0405-notes_right-L008",
+     "source_line_no": null,
+     "tex": "Albatenii regulam demonstrandam dicam.",
+     "transcription": "Albatenii regulam demonstrandam dicam.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  }
+ ]
+}
