@@ -1,0 +1,310 @@
+{
+ "anchor": "AB01-PDF0422",
+ "master_pdf_page": 422,
+ "printed_page": "[V]",
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "margin_locators": [],
+ "observations": [
+  "body: the page has no printed number. The head ornament is a rule 2.16 pt thick over a border of 33 equal sorts (a beaded bar, a lyre of two curled scrolls round a stem, side leaves and a hanging leaf), 422.6 pt wide in the print. It is redrawn from the print (figures/AB01-PDF0422-F01.tex): the sort is the mean of its 33 printed copies, traced and set at the pitch fitted to them (12.80 pt), and the rule is drawn between the ends of its ink; on the leaf the band falls 1.3 pt from left to right and is drawn straight; it is enlarged in the ratio of the measures (532.9 to 424.4 pt), as the display lines.",
+  "body L1-L2: «PRAEFATIO» is letter-spaced; its face is not imitated and the line is scaled to the box of the printed line. A dot to the upper right of the O (2.2 by 2.0 pt, level with the tops of the capitals) is a speck, not a stop. The rule under the title is 63.6 pt long and 0.48 pt thick, printed broken in three places; it is drawn whole.",
+  "body L2-L3: the summary of the three sections is set in a smaller bold type (x-height 4.4 pt against 5.2 pt in the text), its second line indented 23 pt; the dashes measure 7.4 and 8.0 pt.",
+  "body L2-L4: «§ 1.» in L4 is bold; its figure 1 has a short flag and resembles an I (the bold figures of «§ 2» and «§ 3» in L2-L3 are of the same type). The dash after it measures 10.1 pt.",
+  "body L8: the comma after «edere» prints with a short tail (1.8 pt high, its foot 0.3 pt below the baseline; the other commas of the page reach 1.0-1.4 pt below it); the stops of the page end above the baseline.",
+  "body L13, L22: the dashes of «Arabico–occidentalibus» (about 6 pt) and «Arabico–orientali» (4.2 pt) are long dashes; the o of «Arabico» in L22 prints broken. The hyphen of «al-Battānī» measures 3.4 pt.",
+  "body L15-L20: the list is printed in two columns, each letter set before its numeral value and the letters with which the codex confuses it. The letters keep the forms of the Maghribi script of the codex: «ڢ‍ 80» is the fā with one dot below and «ف‍ 100» the qāf with one dot above (transcribed with the Eastern fā, as in the notes on the tables, S07); in parentheses stand the forms without their dots (the dotless bā, the zāy without its dot, the initial tooth without its dots) and, in the last row of the right column, the medial fā with its dot below beside the dotless «‍ڡ‍». «ى 10» is the final yā without dots. Initial forms are transcribed with a zero-width joiner after the letter (ي‍, ٮ‍, ل‍, ن‍, ڢ‍, ف‍, ك‍), medial forms with one on each side (‍ع‍, ‍ڡ‍, ‍ڢ‍). The letters standing first in each row are set flush right before the rest of the row, as printed.",
+  "body L25: the letters of «Nam س 60, ص 90, ف 80, ض 800, ظ 900» are the Eastern forms with al-Battānī's values, read on the scan at 600 dpi.",
+  "body L27: the n of «adǹ.» carries a mark in the form of a grave accent (1.8 by 1.6 pt, 1 pt above the letter), transcribed as printed; the abbreviation prints without it on pp. VI and VIII.",
+  "body: the stamp of the owning library at the foot of the page (FEB 23 1909, 237439), the pencil marks beside it and the mark of the digitization are not part of the print and are not transcribed."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0422-body-F01",
+     "source_line_no": null,
+     "tex": "\\input{figures/AB01-PDF0422-F01}",
+     "transcription": "[figure, redrawn: figures/AB01-PDF0422-F01.tex]",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_FIGURE"
+    },
+    {
+     "id": "AB01-PDF0422-body-L001",
+     "source_line_no": null,
+     "tex": "\\CenterLine{\\LFit{183.67pt}{19.59pt}{\\Name{PRAEFATIO}}}",
+     "transcription": "{sp:PRAEFATIO}",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0422-body-L002",
+     "source_line_no": null,
+     "tex": "\\textbf{§ 1, Quali ratione tabulas emendaverim. — § 2, Nova de versione Hispanica eiusque codice Parisiensi.}",
+     "transcription": "{b:§ 1, Quali ratione tabulas emendaverim. — § 2, Nova de versione Hispanica eiusque codice Parisiensi.}",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0422-body-L003",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{10.26mm}\\smash{\\rlap{\\textbf{— § 3, Fontes et ordo tabularum.}}}}",
+     "transcription": "{b:— § 3, Fontes et ordo tabularum.}",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0422-body-L004",
+     "source_line_no": null,
+     "tex": "\\Indent \\textbf{§ 1.} — Monui interdum in notis meis numeros codicis Escurialensis crebris scatere men-",
+     "transcription": "{b:§ 1.} — Monui interdum in notis meis numeros codicis Escurialensis crebris scatere men-",
+     "semantic_anchor": "AB01-PDF0422-P01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0422-body-L005",
+     "source_line_no": null,
+     "tex": "dis, ita ut nulla tabula in codice occurrat erroribus destituta. Ex 180 sinibus, ut exemplum",
+     "transcription": "dis, ita ut nulla tabula in codice occurrat erroribus destituta. Ex 180 sinibus, ut exemplum",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0422-body-L006",
+     "source_line_no": null,
+     "tex": "praebeam, 74 in minutis aut secundis mendosi sunt. Pigebat tabulas vitiatas, quales in codice",
+     "transcription": "praebeam, 74 in minutis aut secundis mendosi sunt. Pigebat tabulas vitiatas, quales in codice",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0422-body-L007",
+     "source_line_no": null,
+     "tex": "exstabant, proferre; taedebat omnes lectiones falsas recensere quae nullius utilitatis erant;",
+     "transcription": "exstabant, proferre; taedebat omnes lectiones falsas recensere quae nullius utilitatis erant;",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0422-body-L008",
+     "source_line_no": null,
+     "tex": "visum est igitur tabulas pro viribus meis expurgatas edere, iis tantum lectionibus codicis",
+     "transcription": "visum est igitur tabulas pro viribus meis expurgatas edere, iis tantum lectionibus codicis",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0422-body-L009",
+     "source_line_no": null,
+     "tex": "indicatis quarum emendatio minus certa aut perspicua.",
+     "transcription": "indicatis quarum emendatio minus certa aut perspicua.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0422-body-L010",
+     "source_line_no": null,
+     "tex": "\\Indent Astronomi Arabum numeros tabularum non figuris quas nunc Arabicas vocamus scribunt,",
+     "transcription": "Astronomi Arabum numeros tabularum non figuris quas nunc Arabicas vocamus scribunt,",
+     "semantic_anchor": "AB01-PDF0422-P02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0422-body-L011",
+     "source_line_no": null,
+     "tex": "sed litteris alphabeti quibus valores numerales tribuunt. E permutationibus similium litterarum,",
+     "transcription": "sed litteris alphabeti quibus valores numerales tribuunt. E permutationibus similium litterarum,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0422-body-L012",
+     "source_line_no": null,
+     "tex": "festinanter aut negligenter a librariis exaratarum, facile corruptelae oriuntur. Litterae cre-",
+     "transcription": "festinanter aut negligenter a librariis exaratarum, facile corruptelae oriuntur. Litterae cre-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0422-body-L013",
+     "source_line_no": null,
+     "tex": "brius inter se commutatae hoc nostro codice, characteribus Arabico–occidentalibus seu maghre-",
+     "transcription": "brius inter se commutatae hoc nostro codice, characteribus Arabico–occidentalibus seu maghre-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0422-body-L014",
+     "source_line_no": null,
+     "tex": "binis scripto, haec sunt:",
+     "transcription": "binis scripto, haec sunt:",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0422-body-L015",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{37.51mm}\\smash{\\llap{\\ArabicRun{ب}}}}\\rlap{\\hspace*{42.30mm}\\smash{\\rlap{(\\ArabicRun{ٮ}) 2 cum \\ArabicRun{ى} 10 aut \\ArabicRun{د} 4.}}}\\rlap{\\hspace*{112.01mm}\\smash{\\llap{\\ArabicRun{ج}}}}\\rlap{\\hspace*{116.91mm}\\smash{\\rlap{3 cum \\ArabicRun{ح} 8.}}}",
+     "transcription": "{ar:ب} ({ar:ٮ}) 2 cum {ar:ى} 10 aut {ar:د} 4. {ar:ج} 3 cum {ar:ح} 8.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0422-body-L016",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{37.51mm}\\smash{\\llap{\\ArabicRun{د}}}}\\rlap{\\hspace*{42.30mm}\\smash{\\rlap{4 cum \\ArabicRun{ه} 5 aut \\ArabicRun{و} 6.}}}\\rlap{\\hspace*{112.01mm}\\smash{\\llap{\\ArabicRun{ه}}}}\\rlap{\\hspace*{116.91mm}\\smash{\\rlap{5 cum \\ArabicRun{ط} 9.}}}",
+     "transcription": "{ar:د} 4 cum {ar:ه} 5 aut {ar:و} 6. {ar:ه} 5 cum {ar:ط} 9.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0422-body-L017",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{37.51mm}\\smash{\\llap{\\ArabicRun{ز}}}}\\rlap{\\hspace*{42.30mm}\\smash{\\rlap{(\\ArabicRun{ر}) 7 cum \\ArabicRun{و} 6 aut \\ArabicRun{ن} 50.}}}\\rlap{\\hspace*{112.01mm}\\smash{\\llap{\\ArabicRun{ط}}}}\\rlap{\\hspace*{116.91mm}\\smash{\\rlap{9 cum \\ArabicRun{ك} 20.}}}",
+     "transcription": "{ar:ز} ({ar:ر}) 7 cum {ar:و} 6 aut {ar:ن} 50. {ar:ط} 9 cum {ar:ك} 20.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0422-body-L018",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{37.51mm}\\smash{\\llap{\\ArabicRun{ي‍}}}}\\rlap{\\hspace*{42.30mm}\\smash{\\rlap{(\\ArabicRun{ٮ‍}) 10 cum \\ArabicRun{ل‍} 30 aut \\ArabicRun{ن‍} 50.}}}\\rlap{\\hspace*{112.01mm}\\smash{\\llap{\\ArabicRun{ك‍}}}}\\rlap{\\hspace*{116.91mm}\\smash{\\rlap{20 cum \\ArabicRun{ل‍} 30.}}}",
+     "transcription": "{ar:ي‍} ({ar:ٮ‍}) 10 cum {ar:ل‍} 30 aut {ar:ن‍} 50. {ar:ك‍} 20 cum {ar:ل‍} 30.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0422-body-L019",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{37.51mm}\\smash{\\llap{\\ArabicRun{ن‍}}}}\\rlap{\\hspace*{42.30mm}\\smash{\\rlap{50 cum \\ArabicRun{ڢ‍} 80 aut \\ArabicRun{ف‍} 100.}}}\\rlap{\\hspace*{112.01mm}\\smash{\\llap{\\ArabicRun{‍ع‍}}}}\\rlap{\\hspace*{116.91mm}\\smash{\\rlap{70 cum \\ArabicRun{‍ڡ‍} (\\ArabicRun{‍ڢ‍}) 80.}}}",
+     "transcription": "{ar:ن‍} 50 cum {ar:ڢ‍} 80 aut {ar:ف‍} 100. {ar:‍ع‍} 70 cum {ar:‍ڡ‍} ({ar:‍ڢ‍}) 80.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0422-body-L020",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{37.51mm}\\smash{\\llap{\\ArabicRun{ص}}}}\\rlap{\\hspace*{42.30mm}\\smash{\\rlap{60 cum \\ArabicRun{ض} 90.}}}",
+     "transcription": "{ar:ص} 60 cum {ar:ض} 90.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0422-body-L021",
+     "source_line_no": null,
+     "tex": "\\Indent Rarius mendae ex eo proveniunt quod alter est valor numeralis nonnullarum litterarum",
+     "transcription": "Rarius mendae ex eo proveniunt quod alter est valor numeralis nonnullarum litterarum",
+     "semantic_anchor": "AB01-PDF0422-P03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0422-body-L022",
+     "source_line_no": null,
+     "tex": "in scriptura maghrebina codicis, alter in scriptura Arabico–orientali seu naskhī qua al-Battānī",
+     "transcription": "in scriptura maghrebina codicis, alter in scriptura Arabico–orientali seu naskhī qua al-Battānī",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0422-body-L023",
+     "source_line_no": null,
+     "tex": "procul dubio est usus. Qui archetypum maghrebinum scripsit, unde codex Escurialensis codi-",
+     "transcription": "procul dubio est usus. Qui archetypum maghrebinum scripsit, unde codex Escurialensis codi-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0422-body-L024",
+     "source_line_no": null,
+     "tex": "cesque a Platone Tiburtino et ab interprete Hispano adhibiti fluxerunt, interdum (raro tamen)",
+     "transcription": "cesque a Platone Tiburtino et ab interprete Hispano adhibiti fluxerunt, interdum (raro tamen)",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0422-body-L025",
+     "source_line_no": null,
+     "tex": "opportunas mutationes negligens numeros vitiavit. Nam \\ArabicRun{س} 60, \\ArabicRun{ص} 90, \\ArabicRun{ف} 80, \\ArabicRun{ض} 800, \\ArabicRun{ظ} 900",
+     "transcription": "opportunas mutationes negligens numeros vitiavit. Nam {ar:س} 60, {ar:ص} 90, {ar:ف} 80, {ar:ض} 800, {ar:ظ} 900",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0422-body-L026",
+     "source_line_no": null,
+     "tex": "Albatenii significant 300, 60, 100, 90 et 800 in codice Escurialensi. Confusionis exemplum",
+     "transcription": "Albatenii significant 300, 60, 100, 90 et 800 in codice Escurialensi. Confusionis exemplum",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0422-body-L027",
+     "source_line_no": null,
+     "tex": "memoravi t. III, p. 230, adǹ. 8.",
+     "transcription": "memoravi t. III, p. 230, adǹ. 8.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  }
+ ]
+}

@@ -39,6 +39,13 @@ ink (_intake/latin/tools/fig_measure2.py). Optional:
   "braces" [{"x0", "y0", "x1", "y1", "amp", "w", "name"}]: a curly brace along the line from (x0, y0) to (x1, y1),
            its ends there and its point "amp" pt away, on the left of the direction of travel as seen on the page
            (from left to right: the point upward; from top to bottom: the point to the right)
+  "rule"   {"x0", "x1", "y", "w"}: a heavy straight rule from x0 to x1, its middle at y, w pt thick, drawn as a filled
+           bar (the rule over a border of sorts)
+  "border" {"first", "pitch", "n", "clip": [x0, y0, x1, y1], "rings": [[[x, y], ...], ...]}: n copies of one sort,
+           the first centred at x = first, the others "pitch" pt apart to the right, each the outline "rings"
+           (polygons filled by the even-odd rule: the outer edges and the openings inside), all clipped to the box
+           "clip" (the ends of the band); the sort is the mean of its printed copies
+  "circles", "segments" and "labels" may be left out.
   labels may give their centre as "cx", "cy" instead of the box, a turn "rot" (degrees), a "font" of their own and an
   "anchor" (base: the point is on the baseline of the letter, as for the letters of a word set along a curve)"""
 import json
@@ -103,13 +110,13 @@ def main():
     for g in d.get("white", []):  # a stroke left blank in a hatching (a line printed as a gap in the hatch lines)
         out.append(r"\draw[line width=" + f"{g['w'] * s:.2f}" + "pt,white] (" + X(g["x0"]) + "," + Y(g["y0"])
                    + ") -- (" + X(g["x1"]) + "," + Y(g["y1"]) + ");  % " + g["name"])
-    for c in d["circles"]:
+    for c in d.get("circles", []):
         out.append(r"\draw[line width=" + f"{c['w'] * s:.2f}" + "pt] (" + X(c["cx"]) + "," + Y(c["cy"])
                    + ") circle[radius=" + f"{c['r']:.2f}" + "];  % " + c["name"])
     for e in d.get("ellipses", []):
         out.append(r"\draw[line width=" + f"{e['w'] * s:.2f}" + "pt] (" + X(e["cx"]) + "," + Y(e["cy"])
                    + ") ellipse[x radius=" + f"{e['rx']:.2f}" + ",y radius=" + f"{e['ry']:.2f}" + "];  % " + e["name"])
-    for g in d["segments"]:
+    for g in d.get("segments", []):
         out.append(r"\draw[line width=" + f"{g['w'] * s:.2f}" + "pt] (" + X(g["x0"]) + "," + Y(g["y0"]) + ") -- ("
                    + X(g["x1"]) + "," + Y(g["y1"]) + ");  % " + g["name"])
     for a in d.get("arcs", []):
@@ -133,6 +140,24 @@ def main():
                  + (",line cap=" + cv["cap"] if cv.get("cap") else ""))
         out.append(r"\draw[" + style + "] " + " -- ".join("(" + X(x) + "," + Y(y) + ")" for x, y in cv["pts"])
                    + (" -- cycle" if cv.get("closed") else "") + ";  % " + cv["name"])
+    if d.get("rule"):
+        r_ = d["rule"]
+        out.append(r"\fill (" + X(r_["x0"]) + "," + Y(r_["y"] - r_["w"] / 2) + ") rectangle (" + X(r_["x1"]) + ","
+                   + Y(r_["y"] + r_["w"] / 2) + ");  % the rule")
+    if d.get("border"):
+        b_ = d["border"]
+        c_ = b_["clip"]
+        out.append(r"\begin{scope}  % the border: the sort drawn " + str(b_["n"]) + " times, " + f"{b_['pitch']}"
+                   + " pt apart")
+        out.append(r"\clip (" + X(c_[0]) + "," + Y(c_[1]) + ") rectangle (" + X(c_[2]) + "," + Y(c_[3]) + ");")
+        rings = []
+        for ring in b_["rings"]:
+            pts = ["(" + X(x) + "," + Y(y) + ")" for x, y in ring]
+            rings.append("\n  ".join(" -- ".join(pts[k:k + 8]) for k in range(0, len(pts), 8)).replace(
+                "\n  ", " --\n  ") + " -- cycle")
+        out.append(r"\foreach \k in {0,...," + str(b_["n"] - 1) + r"} {\fill[even odd rule,shift={(\k*"
+                   + f"{b_['pitch']:.3f}" + ",0)}]\n  " + "\n  ".join(rings) + ";}")
+        out.append(r"\end{scope}")
     for fl in d.get("fills", []):
         if fl.get("poly"):  # the traced polygon, with its holes left blank; long outlines eight points to a line
             rings = []
@@ -178,7 +203,7 @@ def main():
         out.append(r"\draw[decorate,decoration={brace,amplitude=" + f"{br['amp'] * s:.2f}" + "pt},line width="
                    + f"{br['w'] * s:.2f}" + "pt] (" + X(br["x0"]) + "," + Y(br["y0"]) + ") -- (" + X(br["x1"]) + ","
                    + Y(br["y1"]) + ");  % " + br["name"])
-    for lb in d["labels"]:
+    for lb in d.get("labels", []):
         if "cx" in lb:
             cx, cy = lb["cx"], lb["cy"]
         else:
@@ -193,8 +218,8 @@ def main():
                    + " " + wd["t"] + "};")
     out.append(r"\end{tikzpicture}")
     (HERE.parent / f"{name}.tex").write_text("\n".join(out) + "\n", encoding="utf-8", newline="\n")
-    print(f"wrote {name}.tex: {len(d['circles'])} circles, {len(d['segments'])} lines, "
-          f"{sum(len(g['segs']) for g in d.get('groups', []))} strokes in groups, {len(d['labels'])} letters, "
+    print(f"wrote {name}.tex: {len(d.get('circles', []))} circles, {len(d.get('segments', []))} lines, "
+          f"{sum(len(g['segs']) for g in d.get('groups', []))} strokes in groups, {len(d.get('labels', []))} letters, "
           f"{len(d.get('hatch', [])) + len(d.get('hatchpoly', []))} hatched parts, {len(d.get('fills', []))} filled shapes, "
           f"{len(d.get('dots', []))} dots, "
           f"{len(d.get('curves', []))} curves, "
