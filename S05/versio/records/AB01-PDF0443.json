@@ -1,0 +1,593 @@
+{
+ "anchor": "AB01-PDF0443",
+ "master_pdf_page": 443,
+ "printed_page": "XXVI",
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "margin_locators": [],
+ "observations": [
+  "body L1-L30: the end of the entry on pp. 288 and 289, begun on p. XXV; the Addenda to the first volume end with this page.",
+  "body L2: ☾ and ⊙ are the signs of the Moon and the Sun.",
+  "body L4-L5, L7-L8: the computations of Barhebraeus, centred on their lines; the signs = are printed long (10.2-10.8 pt).",
+  "body L5: 17′ 33″ × 1210 : 64 1/6 = 5.52 (5;30,57), given as 5 1/2.",
+  "body L7: the cube of 60′ : 17′ 33″ is 39.96; the print has 39 1/4.",
+  "body L8: the cube of 5 1/2 is 166 3/8, printed 166 1/4 1/8; 166 3/8 × 39 1/4 = 6530.2, where the print has 6644.",
+  "body L9, L22: paragraphs beginning inside the entry. The hyphens of «222-32» and «193-200» (L9) measure 4.2 and 3.2 pt.",
+  "body L12-L14: the angular diameters of the five planets in two pairs of columns, set at the printed positions of the columns; the fractions are stacked, and the ditto marks «»» repeat «diametri Solis».",
+  "body L15-L30: «Hipparcho», «Ptole-» «maeo», «Hipparchus», «Ptolemaeus» (L18), «Ptolemaei», «Nau», «Ptolemaeo» and «Barhebraeus» are letter-spaced; «al-Battānī» (L21) is not.",
+  "body L18, L22, L26: the Syriac word «ܢܣܝܪ̈ܐ», with the prefix ܕ in L18, is printed in a West Syriac (Serto) type without vowels; the two dots of the plural stand over the rēsh. The edition sets it in an Estrangela type. In L22 it stands at the right end of the line.",
+  "body L20: the omission is marked by five spaced dots; the dash measures 10.4 pt.",
+  "body L23: «الثمرة» has the three dots of the thā’ and the two of the tā’ marbūṭa; «Καρπός» has the acute on the ο.",
+  "body L26-L29: «ktābā da-nsīrē», «al-manshūrāt» and «manāshīr» are italic; «serrā» has the macron of the ablative.",
+  "notes_left L1-L12, notes_right L1-L12: three notes in two columns with a thin rule between them; note 3 runs from the left column into the right. «Barhebraeus» (notes_left L1, notes_right L7), «al-Battānī», «al-Bīrūnī», «Nau» and «Ptolemaeus» are letter-spaced.",
+  "notes_left L6-L8: the small fractions read at 6000 dpi: 1/20, 4/81, 5/109, 1/24, 2/65, 1/36. The small 2 prints heavily, its bowl closed, so that it looks like an 8; the 6 of «36» prints with its top closed.",
+  "notes_left L11: «b-ōrganōn trayānāy peshḥā» is italic, with a space before the comma that follows it.",
+  "notes_right L1: the hyphen of «321-322» measures 2.9 pt; the t of «t. I» prints broken.",
+  "notes_right L5-L6: the Greek of the Almagest. The breathing before the capital of «Ἰππάρχου» is printed as a smooth breathing; the name has the rough breathing (Ἱππάρχου). «ὑποδεδειγμένην» and «ὑπὸ» have the rough breathing.",
+  "notes_right L8: the dash measures 6.5 pt.",
+  "notes_right L9: the 9 of «209» prints broken.",
+  "notes_right L11-L12: the omission is marked by five spaced dots; «nqābā» is italic."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0443-body-L001",
+     "source_line_no": null,
+     "tex": "\\hspace*{2.5em}semidiametrorum Solis et Lunae sit ut ratio distantiarum geocentricarum. Quoniam Pto-",
+     "transcription": "semidiametrorum Solis et Lunae sit ut ratio distantiarum geocentricarum. Quoniam Pto-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0443-body-L002",
+     "source_line_no": null,
+     "tex": "\\hspace*{2.5em}lemaeus semidiametrum \\MoonSym{} invenit 17′ 33″, et mediam distantiam \\SunSym{} 1210 radiorum ter-",
+     "transcription": "lemaeus semidiametrum ☾ invenit 17′ 33″, et mediam distantiam ⊙ 1210 radiorum ter-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0443-body-L003",
+     "source_line_no": null,
+     "tex": "\\hspace*{2.5em}restrium,",
+     "transcription": "restrium,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0443-body-L004",
+     "source_line_no": null,
+     "tex": "\\CenterLine{semid. \\SunSym{} : 1210 = 17′ 33″ : 64 $\\qfrac{1}{6}$}",
+     "transcription": "semid. ⊙ : 1210 = 17′ 33″ : 64 {sfrac:1/6}",
+     "semantic_anchor": "AB01-PDF0443-H04",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0443-body-L005",
+     "source_line_no": null,
+     "tex": "\\CenterLine{semid. \\SunSym{} = $\\dfrac{\\text{17′ 33″}\\times\\text{1210}}{\\text{64 $\\qfrac{1}{6}$}}$ = 5 $\\qfrac{1}{2}$ semid. Terrae.}",
+     "transcription": "semid. ⊙ = $\\dfrac{\\text{17′ 33″}\\times\\text{1210}}{\\text{64 {sfrac:1/6}}}$ = 5 {sfrac:1/2} semid. Terrae.",
+     "semantic_anchor": "AB01-PDF0443-H05",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0443-body-L006",
+     "source_line_no": null,
+     "tex": "\\hspace*{2.5em}Cubo facto, reperiuntur",
+     "transcription": "Cubo facto, reperiuntur",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0443-body-L007",
+     "source_line_no": null,
+     "tex": "\\CenterLine{moles Terrae = 39 $\\qfrac{1}{4}$ moles Lunae}",
+     "transcription": "moles Terrae = 39 {sfrac:1/4} moles Lunae",
+     "semantic_anchor": "AB01-PDF0443-H07",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0443-body-L008",
+     "source_line_no": null,
+     "tex": "\\CenterLine{moles Solis = 166 $\\qfrac{1}{4}$ $\\qfrac{1}{8}$ mol. Terrae (1) = 6644 moles Lunae.}",
+     "transcription": "moles Solis = 166 {sfrac:1/4} {sfrac:1/8} mol. Terrae (1) = 6644 moles Lunae.",
+     "semantic_anchor": "AB01-PDF0443-H08",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0443-body-L009",
+     "source_line_no": null,
+     "tex": "\\hspace*{2.5em}\\Indent Sequuntur (p. 222-32 text., 193-200 vers.) supputationes diametrorum et molium",
+     "transcription": "Sequuntur (p. 222-32 text., 193-200 vers.) supputationes diametrorum et molium",
+     "semantic_anchor": "AB01-PDF0443-P01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0443-body-L010",
+     "source_line_no": null,
+     "tex": "\\hspace*{2.5em}quinque planetarum ac inerrantium siderum. Innituntur his diametris [angularibus appa-",
+     "transcription": "quinque planetarum ac inerrantium siderum. Innituntur his diametris [angularibus appa-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0443-body-L011",
+     "source_line_no": null,
+     "tex": "\\hspace*{2.5em}rentibus] in distantiis geocentricis mediis (2):",
+     "transcription": "rentibus] in distantiis geocentricis mediis (2):",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0443-body-L012",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{37.50mm}\\smash{\\rlap{Mercurii}}}\\rlap{\\hspace*{62.60mm}\\smash{\\makebox[0pt][c]{$\\dfrac{1}{15}$}}}\\rlap{\\hspace*{66.30mm}\\smash{\\rlap{diametri Solis}}}\\rlap{\\hspace*{105.70mm}\\smash{\\rlap{Iovis}}}\\rlap{\\hspace*{130.80mm}\\smash{\\makebox[0pt][c]{$\\dfrac{1}{12}$}}}\\rlap{\\hspace*{134.60mm}\\smash{\\rlap{diametri Solis}}}",
+     "transcription": "Mercurii $\\dfrac{1}{15}$ diametri Solis Iovis $\\dfrac{1}{12}$ diametri Solis",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0443-body-L013",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{37.50mm}\\smash{\\rlap{Veneris}}}\\rlap{\\hspace*{62.60mm}\\smash{\\makebox[0pt][c]{$\\dfrac{1}{10}$}}}\\rlap{\\hspace*{74.50mm}\\smash{\\rlap{»}}}\\rlap{\\hspace*{88.60mm}\\smash{\\rlap{»}}}\\rlap{\\hspace*{105.70mm}\\smash{\\rlap{Saturni}}}\\rlap{\\hspace*{130.80mm}\\smash{\\makebox[0pt][c]{$\\dfrac{1}{18}$}}}\\rlap{\\hspace*{142.90mm}\\smash{\\rlap{»}}}\\rlap{\\hspace*{154.70mm}\\smash{\\rlap{»}}}",
+     "transcription": "Veneris $\\dfrac{1}{10}$ » » Saturni $\\dfrac{1}{18}$ » »",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0443-body-L014",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{37.50mm}\\smash{\\rlap{Martis}}}\\rlap{\\hspace*{62.80mm}\\smash{\\makebox[0pt][c]{$\\dfrac{1}{20}$}}}\\rlap{\\hspace*{74.80mm}\\smash{\\rlap{»}}}\\rlap{\\hspace*{89.10mm}\\smash{\\rlap{»}}}",
+     "transcription": "Martis $\\dfrac{1}{20}$ » »",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0443-body-L015",
+     "source_line_no": null,
+     "tex": "\\hspace*{2.5em}Has diametros affirmat ab \\Name{Hipparcho} auxilio triquetri (3) observatas et a \\Name{Ptole-}",
+     "transcription": "Has diametros affirmat ab {sp:Hipparcho} auxilio triquetri (3) observatas et a {sp:Ptole-}",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0443-body-L016",
+     "source_line_no": null,
+     "tex": "\\hspace*{2.5em}\\Name{maeo} relatas; postea (p. 224-25 text., 195 vers.) de tribus planetis superioribus ita nar-",
+     "transcription": "{sp:maeo} relatas; postea (p. 224-25 text., 195 vers.) de tribus planetis superioribus ita nar-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0443-body-L017",
+     "source_line_no": null,
+     "tex": "\\hspace*{2.5em}rat: « \\Name{Hipparchus}, diametros trium superiorum primus determinans, non explicavit in",
+     "transcription": "rat: « {sp:Hipparchus}, diametros trium superiorum primus determinans, non explicavit in",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0443-body-L018",
+     "source_line_no": null,
+     "tex": "\\hspace*{2.5em}« quanam distantia eas observaverit. \\Name{Ptolemaeus}, libro \\textsyriac{ܕܢܣܝܪ̈ܐ}, putavit id ab eo in",
+     "transcription": "« quanam distantia eas observaverit. {sp:Ptolemaeus}, libro {syr:ܕܢܣܝܪ̈ܐ}, putavit id ab eo in",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0443-body-L019",
+     "source_line_no": null,
+     "tex": "\\hspace*{2.5em}« distantia media observatum esse; nec a veritate aberravit, cum notum sit in distantia",
+     "transcription": "« distantia media observatum esse; nec a veritate aberravit, cum notum sit in distantia",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0443-body-L020",
+     "source_line_no": null,
+     "tex": "\\hspace*{2.5em}« maxima non posse planetas superiores observari ..... ». — Sequuntur diametri lineares",
+     "transcription": "« maxima non posse planetas superiores observari ..... ». — Sequuntur diametri lineares",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0443-body-L021",
+     "source_line_no": null,
+     "tex": "\\hspace*{2.5em}et moles eadem ratione supputatae qua apud al-Battānī.",
+     "transcription": "et moles eadem ratione supputatae qua apud al-Battānī.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0443-body-L022",
+     "source_line_no": null,
+     "tex": "\\hspace*{2.5em}\\Indent Titulus libri \\Name{Ptolemaei} nuper memorati versus est « du Fruit » a \\Name{Nau}, qui \\textsyriac{ܢܣܝܪ̈ܐ}",
+     "transcription": "Titulus libri {sp:Ptolemaei} nuper memorati versus est « du Fruit » a {sp:Nau}, qui {syr:ܢܣܝܪ̈ܐ}",
+     "semantic_anchor": "AB01-PDF0443-P02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0443-body-L023",
+     "source_line_no": null,
+     "tex": "\\hspace*{2.5em}putavit corruptum ex Arabico \\ArabicRun{الثمرة} « fructus », noto nomine \\textit{Centiloquii} (\\textgreek{Καρπός} « fru-",
+     "transcription": "putavit corruptum ex Arabico {ar:الثمرة} « fructus », noto nomine *Centiloquii* (Καρπός « fru-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0443-body-L024",
+     "source_line_no": null,
+     "tex": "\\hspace*{2.5em}ctus ») false \\Name{Ptolemaeo} tributi. Sed talis corruptela perdifficilis tam Arabicis quam",
+     "transcription": "ctus ») false {sp:Ptolemaeo} tributi. Sed talis corruptela perdifficilis tam Arabicis quam",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0443-body-L025",
+     "source_line_no": null,
+     "tex": "\\hspace*{2.5em}Syriacis litteris; praeterea quae exponuntur centum aphorismis astrologicis \\textit{Centiloquii}",
+     "transcription": "Syriacis litteris; praeterea quae exponuntur centum aphorismis astrologicis *Centiloquii*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0443-body-L026",
+     "source_line_no": null,
+     "tex": "\\hspace*{2.5em}toto Caelo differunt a rebus ex libro \\textsyriac{ܢܣܝܪ̈ܐ} excerptis. Syriace hoc \\textit{ktābā da-nsīrē} signi-",
+     "transcription": "toto Caelo differunt a rebus ex libro {syr:ܢܣܝܪ̈ܐ} excerptis. Syriace hoc *ktābā da-nsīrē* signi-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0443-body-L027",
+     "source_line_no": null,
+     "tex": "\\hspace*{2.5em}ficat « librum prismatum »; Arabice \\textit{al-manshūrāt} complura designat: « res expansas,",
+     "transcription": "ficat « librum prismatum »; Arabice *al-manshūrāt* complura designat: « res expansas,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0443-body-L028",
+     "source_line_no": null,
+     "tex": "\\hspace*{2.5em}« explicitas », « res evulgatas », « res serrā divisas vel sectas », « diplomata regia non",
+     "transcription": "« explicitas », « res evulgatas », « res serrā divisas vel sectas », « diplomata regia non",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0443-body-L029",
+     "source_line_no": null,
+     "tex": "\\hspace*{2.5em}« clausa sigillis », et etiam « prismata », licet hoc sensu plurale \\textit{manāshīr} potius adhi-",
+     "transcription": "« clausa sigillis », et etiam « prismata », licet hoc sensu plurale *manāshīr* potius adhi-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0443-body-L030",
+     "source_line_no": null,
+     "tex": "\\hspace*{2.5em}beatur. Ea de distantiis magnitudinibusque caelestium corporum sumpsit \\Name{Barhebraeus}",
+     "transcription": "beatur. Ea de distantiis magnitudinibusque caelestium corporum sumpsit {sp:Barhebraeus}",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  },
+  {
+   "role": "notes_left",
+   "lines": [
+    {
+     "id": "AB01-PDF0443-notes_left-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (1) \\Name{Barhebraeus} monet: « Ptolemaeus 170",
+     "transcription": "(1) {sp:Barhebraeus} monet: « Ptolemaeus 170",
+     "semantic_anchor": "AB01-PDF0443-N01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0443-notes_left-L002",
+     "source_line_no": null,
+     "tex": "« invenit. Forte quadratum et cubum fecit numeri",
+     "transcription": "« invenit. Forte quadratum et cubum fecit numeri",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0443-notes_left-L003",
+     "source_line_no": null,
+     "tex": "« maioris quam 5 $\\qfrac{1}{2}$, nisi in supputando erraverit ».",
+     "transcription": "« maioris quam 5 {sfrac:1/2}, nisi in supputando erraverit ».",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0443-notes_left-L004",
+     "source_line_no": null,
+     "tex": "\\Indent (2) Eaedem diametri apud \\Name{al-Battānī}; eas-",
+     "transcription": "(2) Eaedem diametri apud {sp:al-Battānī}; eas-",
+     "semantic_anchor": "AB01-PDF0443-N02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0443-notes_left-L005",
+     "source_line_no": null,
+     "tex": "dem \\Name{al-Bīrūnī} exponit ad fidem libri \\textit{al-man-}",
+     "transcription": "dem {sp:al-Bīrūnī} exponit ad fidem libri *al-man-*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0443-notes_left-L006",
+     "source_line_no": null,
+     "tex": "\\textit{shūrāt}, additis $\\qfrac{1}{20}$ pro fixis primae magnitudinis,",
+     "transcription": "*shūrāt*, additis {sfrac:1/20} pro fixis primae magnitudinis,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0443-notes_left-L007",
+     "source_line_no": null,
+     "tex": "$\\qfrac{4}{81}$ pro fixis secundae, $\\qfrac{5}{109}$ pro fixis tertiae, $\\qfrac{1}{24}$ pro",
+     "transcription": "{sfrac:4/81} pro fixis secundae, {sfrac:5/109} pro fixis tertiae, {sfrac:1/24} pro",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0443-notes_left-L008",
+     "source_line_no": null,
+     "tex": "fixis quartae, $\\qfrac{2}{65}$ pro fixis quintae, $\\qfrac{1}{36}$ pro fixis",
+     "transcription": "fixis quartae, {sfrac:2/65} pro fixis quintae, {sfrac:1/36} pro fixis",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0443-notes_left-L009",
+     "source_line_no": null,
+     "tex": "sextae.",
+     "transcription": "sextae.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0443-notes_left-L010",
+     "source_line_no": null,
+     "tex": "\\Indent (3) P. 222, l. 7 text., 193 vers. (ubi \\Name{Nau} « dio-",
+     "transcription": "(3) P. 222, l. 7 text., 193 vers. (ubi {sp:Nau} « dio-",
+     "semantic_anchor": "AB01-PDF0443-N03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0443-notes_left-L011",
+     "source_line_no": null,
+     "tex": "ptre »): \\textit{b-ōrganōn trayānāy peshḥā}, quod certis-",
+     "transcription": "ptre »): *b-ōrganōn trayānāy peshḥā*, quod certis-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0443-notes_left-L012",
+     "source_line_no": null,
+     "tex": "sime triquetrum designat p. 205 text. (cfr. quae dixi",
+     "transcription": "sime triquetrum designat p. 205 text. (cfr. quae dixi",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  },
+  {
+   "role": "notes_right",
+   "lines": [
+    {
+     "id": "AB01-PDF0443-notes_right-L001",
+     "source_line_no": null,
+     "tex": "t. I, p. 321-322). Sed \\Name{Ptolemaeus}, \\textit{Almag.}, V, 14",
+     "transcription": "t. I, p. 321-322). Sed {sp:Ptolemaeus}, *Almag.*, V, 14",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0443-notes_right-L002",
+     "source_line_no": null,
+     "tex": "(ed. Halma, t. I, p. 339), instrumentum quo diametri",
+     "transcription": "(ed. Halma, t. I, p. 339), instrumentum quo diametri",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0443-notes_right-L003",
+     "source_line_no": null,
+     "tex": "apparentes Solis et Lunae capiuntur dicit esse « dio-",
+     "transcription": "apparentes Solis et Lunae capiuntur dicit esse « dio-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0443-notes_right-L004",
+     "source_line_no": null,
+     "tex": "« ptram, praeditam regula quatuor cubitorum, ab",
+     "transcription": "« ptram, praeditam regula quatuor cubitorum, ab",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0443-notes_right-L005",
+     "source_line_no": null,
+     "tex": "« Hipparcho descriptam » \\textgreek{τὴν ὑποδεδειγμένην ὑπὸ τοῦ}",
+     "transcription": "« Hipparcho descriptam » τὴν ὑποδεδειγμένην ὑπὸ τοῦ",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0443-notes_right-L006",
+     "source_line_no": null,
+     "tex": "\\textgreek{Ἰππάρχου διὰ τοῦ τετραπήχους κανόνος διόπτραν}. Eo",
+     "transcription": "Ἰππάρχου διὰ τοῦ τετραπήχους κανόνος διόπτραν. Eo",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0443-notes_right-L007",
+     "source_line_no": null,
+     "tex": "forte \\Name{Barhebraeus} in errorem lapsus, quia uni",
+     "transcription": "forte {sp:Barhebraeus} in errorem lapsus, quia uni",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0443-notes_right-L008",
+     "source_line_no": null,
+     "tex": "laterum triquetri parva dioptra semper aptatur. —",
+     "transcription": "laterum triquetri parva dioptra semper aptatur. —",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0443-notes_right-L009",
+     "source_line_no": null,
+     "tex": "Sed alibi (p. 209 text., 183 vers.), de mensura dia-",
+     "transcription": "Sed alibi (p. 209 text., 183 vers.), de mensura dia-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0443-notes_right-L010",
+     "source_line_no": null,
+     "tex": "metri solaris agens, dioptram recte designat: « Hip-",
+     "transcription": "metri solaris agens, dioptram recte designat: « Hip-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0443-notes_right-L011",
+     "source_line_no": null,
+     "tex": "« parchus ..... instrumentum illud cui duo foramina",
+     "transcription": "« parchus ..... instrumentum illud cui duo foramina",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0443-notes_right-L012",
+     "source_line_no": null,
+     "tex": "« (\\textit{nqābā}) sunt paravit, eoque usus est ».",
+     "transcription": "« (*nqābā*) sunt paravit, eoque usus est ».",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  }
+ ]
+}
