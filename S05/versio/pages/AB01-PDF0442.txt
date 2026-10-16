@@ -1,0 +1,92 @@
+@page 442 XXV
+% Addenda et emendanda to the first volume, continued: the end of the quotation of al-Farisi on the equation of time (with its example for the year 634 of Yazdegerd); on pp. 284-285, the configurations of the stars with the Sun in astrology (Ptolemy, Tetrabiblos II, 7); on p. 287, al-Qazwini and the twelfth book of Euclid; on pp. 288-289, the book al-manshurat in Barhebraeus, with his distances of the planets computed from the Almagest.
+@nonum
+@fontsize 11.1 13.85
+@vspace 0.06
+> « media] fuit 1° 56′; et quia differentia ad ascensionem spectabat, necesse ei fuit, ad [tem-
+> « pus] verum eruendum, 1° 56′ demere ab ascensionibus Solis veri; deinde differentiam
+> « repertam inter ascensiones deminutas et mediam longitudinem Solis dividere (1) per 15;
+@vspace -0.02
+> « divisionis proventum fuit aequatio temporis. — Rei exemplum hoc est, quod (2) pro
+> « anno 634 Iezd. [inc. 9 Ianuarii 1265] longitudinem mediam Solis eruamus ita ut dif-
+> « ferentia ad longitudinem mediam spectet, apogeo Solis 89° 13′ et maxima Solis aequa-
+@vspace -0.03
+> « tione 1° 59′ sumptis; et inveniamus longitudinem mediam Solis in 59° 2′, veram in signo
+> « Geminorum ..... ». Sequentia {sp:Steinschneider} non affert.
+@vspace -0.09
+{b:284-285}: Hae stellarum configurationes cum Sole, nobis inutiles, in astrologia adhibebantur.
+> {sp:Ptolemaeus} ipse in *Tetrab.*, II, 7 (περὶ τοῦ γένους τῶν διατιθεμένων « de eventuum ge-
+@vspace -0.07
+> nere »), ad prognostica ex eclipsibus eruenda de natura rerum quae gentibus, urbibus,
+> regionibus etc. eventurae sint, haec inter alia praecipit: « Fixarum autem stellarum eam
+> « assumemus quae cum loco eclipsis ipso maximam habeat consuetudinem, primum ob
+> « splendorem in paxillo praecedente (ἐπὶ τῆς παροιχομένης κεντρώσεως), iuxta configurationes
+@vspace -0.01
+> « modis novem apparentes, quae a nobis in prima Syntaxi [i. e. in *Almagesto*] expositae
+> « sunt (κατὰ τοὺς διωρισμένους ἡμῖν ἐν τῇ πρώτῃ Συντάξει τῶν ἐννέα τρόπων φαινομένους σχη-
+> « ματισμούς); postea in paxillo ascendentis aut medii Caeli, sequenti locum eclipsis, re-
+@vspace -0.06
+> « pertam ..... ».
+@vspace 0.02
+{b:287}: Locus {sp:al-Qazwīnī} in edit. Wüstenfeld est t. I, p. 18, iisdem servatis lectionibus. Sed
+@vspace -0.02
+> procul dubio post {ar:المقالة الثانية} excidit {ar:عشرة}; non enim II, at XII liber {sp:Euclidis} intel-
+> ligendus, cuius 18{sup:a} propositio: « sphaerae inter se sunt ratione cubica (ἐν τριπλασίονι λόγῳ)
+> « suarum diametrorum ». Hoc theoremate potissimum calculi innituntur.
+{b:288} et {b:289}: Libri *al-manshūrāt*, qui {sp:Ptolemaeo} tribuitur ab {sp:al-Bīrūnī}, tertiam nunc
+@vspace -0.02
+> mentionem, apud {sp:Barhebraeum} absconditam, adducere possum. Elementis *Almagesti*
+> innitens et sphaeris planetarum sibi contiguis consideratis, supputat primo (p. 215-19 text.,
+@vspace -0.08
+> 188-91 vers.) distantias geocentricas caelestium corporum. Iuxta Ptolemaeum est 1160
+> radiorum terrestrium minima distantia Solis; ergo maxima Veneris. At iuxta Ptolemaeum
+> ipsum semidiametrus epicycli Veneris 43{sup:*p*} {sfrac:1/6} complectitur qualium semidiametrus defe-
+> rentis 60{sup:*p*}; excentricitas deferentis respectu Terrae est 1 {sfrac:1/4} earundem partium; ergo mi-
+> nima Veneris distantia, in sexagesimis semidiametri deferentis, erit
+@vspace -0.07
+@center 60{sup:*p*} — (43{sup:*p*} {sfrac:1/6} + 1{sup:*p*} {sfrac:1/4}) = 60{sup:*p*} — 44{sup:*p*} 25′ = 15{sup:*p*} 35′,
+@vspace 0.05
+> maxima autem
+@center 60{sup:*p*} + (43{sup:*p*} {sfrac:1/6} + 1{sup:*p*} {sfrac:1/4}) = 60{sup:*p*} + 44{sup:*p*} 25′ = 104{sup:*p*} 25′.
+> Sed vidimus hanc maximam distantiam esse 1160 semidiametrorum terrestrium; ergo
+@vspace -0.05
+@center 1160 : 104{sup:*p*} 25′ = dist. minima : 15{sup:*p*} 35′
+@vspace 0.12
+@center dist. minima = $\dfrac{\text{1160}\times\text{15}^{p}\,\text{35′}}{\text{104}^{p}\,\text{25}}$ = 174 semidiam. terrestres,
+@vspace 0.59
+> quae etiam erit maxima distantia Mercurii. — Similibus supputationibus has minimas di-
+@vspace 0.08
+> stantias invenit:
+@vspace -0.09
+@pos 21.8:Lunae | 50.8:33 {sfrac:1/2} {sfrac:1/20} | 82.6:Soli | 106.5:1160 | 129.1:Saturno | 158.2:14259
+@pos 21.8:Mercurio | 50.8:64 {sfrac:1/6} | 82.6:Marti | 106.5:1260 | 129.1:Stellis fixis | 158.2:19963
+@pos 21.8:Veneri | 50.8:174 | 82.6:Iovi | 106.5:8820
+>^ Supputat postea (p. 220-222 text. = 191-93 vers.) diametros et moles Lunae et Solis
+> respectu Terrae; innititur propositione {sp:Euclidis}, XII, 18, atque principio quod ratio
+@notes
+@fontsize 9 11.75
+@vspace 2.44
+^ (1) Pro ויקוומה leg. ויקסמה.
+@col
+@fontsize 9 11.75
+@vspace 2.14
+^ (2) Pro ביאנא leg. באננא.
+@sig 4\*
+@obs body L1-L8: the end of the quotation of al-Fārisī, begun on p. XXIV; each line opens with a guillemet, and the omission at its end is marked by five spaced dots. «Steinschneider» (L8) is letter-spaced.
+@obs body L1-L2: the first s of «ascensionem» (L1) prints broken; a mark like a tilde over the d of «differentiam» (L2) is a speck.
+@obs body L5: the year 634 of Yazdegerd began on 9 January 1265, as printed.
+@obs body L6-L7: with the apogee at 89° 13′ and the greatest equation 1° 59′, the mean longitude 59° 2′ gives the true longitude 60° 0′, the first point of Gemini, as the text says.
+@obs body L9-L18: the entry on pp. 284-285, «284-285» bold at the margin; its hyphen measures 4.7 pt. «Ptolemaeus» is letter-spaced; a speck stands over the n of «in» (L10).
+@obs body L10, L14, L16-L17, L21: the Greek of the Tetrabiblos and of Euclid. The κ is the open form of this type (ϰ); the η of «τῆς», «παροιχομένης» (L14) and «ἡμῖν» (L16) prints with a short upright stroke after it, not transcribed, as on pp. XXI-XXII; «τῇ», «πρώτῃ» (L16) and «λόγῳ» (L21) have the iota subscript.
+@obs body L13-L18: the quotation of Ptolemy opens each line with a guillemet; the guillemet of L18 prints thin and the omission is marked by five spaced dots.
+@obs body L19-L22: the entry on p. 287, «287» bold. «al-Qazwīnī» and «Euclidis» are letter-spaced. «المقالة الثانية» and «عشرة» stand inside the Latin line (L20), as printed; «18a» has the a raised.
+@obs body L23-L43: the entry on pp. 288 and 289, the page numbers bold. «Ptolemaeo», «al-Bīrūnī», «Barhebraeum» and «Euclidis» (L43) are letter-spaced; the second e of «Ptolemaeo» prints like a c, and the B of «Barhebraeum» prints broken. «al-manshūrāt» and «Almagesti» are italic.
+@obs body L28-L36: «p» after the numbers (partes) is a small raised italic p. The computations of Barhebraeus are centred on their lines (L31, L33, L35, L36); the minus signs are printed with a dash (10.9 pt), the signs = long (9.6-10.9 pt) and the plus signs large.
+@obs body L31-L33: 43p 1/6 + 1p 1/4 = 44p 25′, and 60p − 44p 25′ = 15p 35′, 60p + 44p 25′ = 104p 25′, as printed.
+@obs body L36: in the denominator of the fraction no sign of minutes follows the 25. 1160 × 15p 35′ : 104p 25′ = 173 1/8; the print has 174, the value that Barhebraeus' table gives for Venus (L41).
+@obs body L37: the dash is printed in two pieces, 5.4 and 4.2 pt long (9.8 pt in all).
+@obs body L39-L41: the least distances of the heavenly bodies in three pairs of columns, set at the printed positions of the columns.
+@obs body L42: a paragraph begins inside the entry; the sign = of «text. = 191-93» is printed long (10.4 pt).
+@obs body: the dash of L4 measures 10.4 pt. A speck in the left margin beside L37 is not transcribed.
+@obs notes_left L1, notes_right L1: two notes side by side, each on one line, with a thin rule between them. The words in Hebrew letters are Arabic words written in Hebrew characters, as in the passage quoted by Steinschneider (p. XXIV, notes 4-5); they are printed in a square Hebrew type and transcribed with the Hebrew letters as printed: «ויקוומה», whose two vavs touch at the top, and «ויקסמה»; «ביאנא» and «באננא».
+@obs body: the signature «4*» stands at the foot of the page, at the right.
