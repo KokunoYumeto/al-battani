@@ -1,0 +1,813 @@
+{
+ "anchor": "AB01-PDF0389",
+ "master_pdf_page": 389,
+ "printed_page": 300,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "margin_locators": [],
+ "observations": [
+  "body L1-L2: the Greek ὅπερ τῷ Πτολεμαίῳ οὐ δοκεῖ is Theon's (p. 298, note 1); the breathing and the accent of ὅπερ print joined to the omicron, like δ, and a point before Πτολεμαίῳ is a speck. The n of «doctrinam» (L2) prints broken.",
+  "body L3-L9: «qnoque» (L3) is printed with a turned u, like n, and kept as printed; «Proclum» is letter-spaced, and the o of «saeculo» prints broken. «Chaldaeo–Aegyptiam» (L4) has a long dash (5.2 pt). The t of «institutis» and the d of «deduxerat» (L6) print broken.",
+  "body L10-L21: «Eudoxo», «Metone», «Letronne», «Martin», «Columella», divided between L11 and L12, «Hipparchus», «Eudoxum», divided between L12 and L13, «Schiaparelli», «Hipparchi» and «Gemini» are letter-spaced; a mark over the c of «Hipparchi» (L17) is a speck. Meton observed the summer solstice at Athens in 432 B.C. (Ptolemy, Almagest III, 1), in the later half of the fifth century B.C.; the printed «priore medietate» is kept. Half of 15° is 7° 1/2, which lies in the eighth degree, as printed (L21).",
+  "notes_left L1-L6: «Ptolémée» and «Proclus Diadochus» are letter-spaced.",
+  "notes_left L7-L8: «Letronne» and «Martin» are letter-spaced; the dash of «106–110» is joined to the 6 and is long (4.5 pt), «445-447» has a hyphen (3.1 pt). A point under the r of «Martin» is a speck.",
+  "notes_left L9-L17: Columella, De re rustica IX, 14, 12. The dots after «conficitur.» are five. The eighth day before the Kalends of April is 25 March. The i of «primis» and the t of «partibus» print broken.",
+  "notes_left L18-L28: the dots after «Librae.» (L24) and before «Eudoxus» (L27) are five each.",
+  "notes_right L1-L2: the Greek θεριναὶ τροπαί, «the summer turnings», is set as printed.",
+  "notes_right L10: the hyphen of «secan-» prints on the baseline, like a full stop.",
+  "notes_right L15-L21: the dash before «Ab» measures 7.7 pt; «Gemini» and «Schiaparelli» are letter-spaced. The Callippic period began in 330 B.C., as printed.",
+  "notes_right L22-L28: «Tannery» is letter-spaced; the i of «Hipparchus» (L24) prints broken, and the dots after «Cnidien» are five."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0389-body-L001",
+     "source_line_no": null,
+     "tex": "arbitrati sunt verba Theonis illa \\textgreek{ὅπερ τῷ Πτολεμαίῳ οὐ δοκεῖ} significare Ptolemaeum talem",
+     "transcription": "arbitrati sunt verba Theonis illa ὅπερ τῷ Πτολεμαίῳ οὐ δοκεῖ significare Ptolemaeum talem",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0389-body-L002",
+     "source_line_no": null,
+     "tex": "doctrinam ne quidem memoratu dignam censuisse.",
+     "transcription": "doctrinam ne quidem memoratu dignam censuisse.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0389-body-L003",
+     "source_line_no": null,
+     "tex": "\\Indent Doctrinam trepidationis, cuius mentio qnoque est, V Chr. saeculo, apud \\Name{Proclum} (1), or-",
+     "transcription": "Doctrinam trepidationis, cuius mentio qnoque est, V Chr. saeculo, apud {sp:Proclum} (1), or-",
+     "semantic_anchor": "AB01-PDF0389-P01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0389-body-L004",
+     "source_line_no": null,
+     "tex": "tam ambo putant (2) studio conciliandi inter se hypothesim Chaldaeo–Aegyptiam punctorum",
+     "transcription": "tam ambo putant (2) studio conciliandi inter se hypothesim Chaldaeo–Aegyptiam punctorum",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0389-body-L005",
+     "source_line_no": null,
+     "tex": "aequinoctialium immobilium et theoriam praecessionis quam Hipparchus observationibus per",
+     "transcription": "aequinoctialium immobilium et theoriam praecessionis quam Hipparchus observationibus per",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0389-body-L006",
+     "source_line_no": null,
+     "tex": "minus duo saecula institutis deduxerat. Octo gradus illos provenire a mutatione, false inter-",
+     "transcription": "minus duo saecula institutis deduxerat. Octo gradus illos provenire a mutatione, false inter-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0389-body-L007",
+     "source_line_no": null,
+     "tex": "pretata, quam Hipparchus divisioni eclipticae intulisset cum, iuxta antiquiorum morem, initia",
+     "transcription": "pretata, quam Hipparchus divisioni eclipticae intulisset cum, iuxta antiquiorum morem, initia",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0389-body-L008",
+     "source_line_no": null,
+     "tex": "Arietis, Cancri, Librae et Capricorni restituisset ad puncta aequinoctialia et solstitialia; quae",
+     "transcription": "Arietis, Cancri, Librae et Capricorni restituisset ad puncta aequinoctialia et solstitialia; quae",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0389-body-L009",
+     "source_line_no": null,
+     "tex": "initia Meton, Eudoxus, aliique posuissent 8° ab occasu aequinoctiorum et solstitiorum.",
+     "transcription": "initia Meton, Eudoxus, aliique posuissent 8° ab occasu aequinoctiorum et solstitiorum.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0389-body-L010",
+     "source_line_no": null,
+     "tex": "\\Indent Quae de \\Name{Eudoxo} (altera medietate IV saec. ante Chr.) et \\Name{Metone} (priore medietate",
+     "transcription": "Quae de {sp:Eudoxo} (altera medietate IV saec. ante Chr.) et {sp:Metone} (priore medietate",
+     "semantic_anchor": "AB01-PDF0389-P02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0389-body-L011",
+     "source_line_no": null,
+     "tex": "V saec.) narrant \\Name{Letronne} et \\Name{Martin} vera non sunt censenda; referuntur enim a \\Name{Colu-}",
+     "transcription": "V saec.) narrant {sp:Letronne} et {sp:Martin} vera non sunt censenda; referuntur enim a {sp:Colu-}",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0389-body-L012",
+     "source_line_no": null,
+     "tex": "\\Name{mella} (3), parvae in his rebus auctoritatis. \\Name{Hipparchus} (4) contra explicate affirmat \\Name{Eu-}",
+     "transcription": "{sp:mella} (3), parvae in his rebus auctoritatis. {sp:Hipparchus} (4) contra explicate affirmat {sp:Eu-}",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0389-body-L013",
+     "source_line_no": null,
+     "tex": "\\Name{doxum} puncta aequinoctialia et solstitialia posuisse in \\textit{centro,} i. e. 15°, signorum Arietis,",
+     "transcription": "{sp:doxum} puncta aequinoctialia et solstitialia posuisse in *centro,* i. e. 15°, signorum Arietis,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0389-body-L014",
+     "source_line_no": null,
+     "tex": "Cancri, Librae et Capricorni; de qua re non dubitant qui nostro tempore de Graecorum astro-",
+     "transcription": "Cancri, Librae et Capricorni; de qua re non dubitant qui nostro tempore de Graecorum astro-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0389-body-L015",
+     "source_line_no": null,
+     "tex": "nomia scripserunt (5). Nec dubitat \\Name{Schiaparelli}, qui mihi hoc modo Columellae errorem",
+     "transcription": "nomia scripserunt (5). Nec dubitat {sp:Schiaparelli}, qui mihi hoc modo Columellae errorem",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0389-body-L016",
+     "source_line_no": null,
+     "tex": "explicat: Eudoxi tempore, Graecos annum aestate ordiri, unde usum zodiaci a Cancro inci-",
+     "transcription": "explicat: Eudoxi tempore, Graecos annum aestate ordiri, unde usum zodiaci a Cancro inci-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0389-body-L017",
+     "source_line_no": null,
+     "tex": "piendi provenisse qui apparet e loco \\Name{Hipparchi} nuper adducto et e \\textit{Parapegmate} seu",
+     "transcription": "piendi provenisse qui apparet e loco {sp:Hipparchi} nuper adducto et e *Parapegmate* seu",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0389-body-L018",
+     "source_line_no": null,
+     "tex": "calendario in calce Elementorum astronomiae \\Name{Gemini} posito. Constellationem Cancri dimi-",
+     "transcription": "calendario in calce Elementorum astronomiae {sp:Gemini} posito. Constellationem Cancri dimi-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0389-body-L019",
+     "source_line_no": null,
+     "tex": "dium fere signum, i. e. 15 circiter gradus, occupare. Grammaticorum quemdam, cum audivis-",
+     "transcription": "dium fere signum, i. e. 15 circiter gradus, occupare. Grammaticorum quemdam, cum audivis-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0389-body-L020",
+     "source_line_no": null,
+     "tex": "set Eudoxum in medio Cancri solstitium aestivum ponere, confusis inter se \\textit{dodecatemoriis}",
+     "transcription": "set Eudoxum in medio Cancri solstitium aestivum ponere, confusis inter se *dodecatemoriis*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0389-body-L021",
+     "source_line_no": null,
+     "tex": "et \\textit{constellationibus,} putavisse Eudoxum in 7° $\\qfrac{1}{2}$ Cancri, scilicet in \\textit{octavo} gradu, solstitium",
+     "transcription": "et *constellationibus,* putavisse Eudoxum in 7° {sfrac:1/2} Cancri, scilicet in *octavo* gradu, solstitium",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    }
+   ]
+  },
+  {
+   "role": "notes_left",
+   "lines": [
+    {
+     "id": "AB01-PDF0389-notes_left-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (1) \\textit{Hypothèses de} C. \\Name{Ptolémée} \\textit{et Hypo-}",
+     "transcription": "(1) *Hypothèses de* C. {sp:Ptolémée} *et Hypo-*",
+     "semantic_anchor": "AB01-PDF0389-N01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0389-notes_left-L002",
+     "source_line_no": null,
+     "tex": "\\textit{typoses de} \\Name{Proclus Diadochus} [\\textit{publiées et}]",
+     "transcription": "*typoses de* {sp:Proclus Diadochus} [*publiées et*]",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0389-notes_left-L003",
+     "source_line_no": null,
+     "tex": "\\textit{traduites par Halma,} Paris 1820, p. 88: « Alii au-",
+     "transcription": "*traduites par Halma,* Paris 1820, p. 88: « Alii au-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0389-notes_left-L004",
+     "source_line_no": null,
+     "tex": "« tem arbitrati sunt puncta tropica quidem moveri;",
+     "transcription": "« tem arbitrati sunt puncta tropica quidem moveri;",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0389-notes_left-L005",
+     "source_line_no": null,
+     "tex": "« non tamen per totum circulum [eclipticae], sed",
+     "transcription": "« non tamen per totum circulum [eclipticae], sed",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0389-notes_left-L006",
+     "source_line_no": null,
+     "tex": "« aliquot gradibus, et postea denuo iisdem regredi ».",
+     "transcription": "« aliquot gradibus, et postea denuo iisdem regredi ».",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0389-notes_left-L007",
+     "source_line_no": null,
+     "tex": "\\Indent (2) \\Name{Letronne}, § 4, p. 106–110; \\Name{Martin},",
+     "transcription": "(2) {sp:Letronne}, § 4, p. 106–110; {sp:Martin},",
+     "semantic_anchor": "AB01-PDF0389-N02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0389-notes_left-L008",
+     "source_line_no": null,
+     "tex": "cap. IV, p. 445-447.",
+     "transcription": "cap. IV, p. 445-447.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0389-notes_left-L009",
+     "source_line_no": null,
+     "tex": "\\Indent (3) \\textit{De re rustica,} IX, 14: « Ab aequinoctio",
+     "transcription": "(3) *De re rustica,* IX, 14: « Ab aequinoctio",
+     "semantic_anchor": "AB01-PDF0389-N03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0389-notes_left-L010",
+     "source_line_no": null,
+     "tex": "« primo, quod mense Martio circa VIII kal. Aprilis",
+     "transcription": "« primo, quod mense Martio circa VIII kal. Aprilis",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0389-notes_left-L011",
+     "source_line_no": null,
+     "tex": "« in octava parte Arietis conficitur. ..... Nec me fallit",
+     "transcription": "« in octava parte Arietis conficitur. ..... Nec me fallit",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0389-notes_left-L012",
+     "source_line_no": null,
+     "tex": "« Hipparchi ratio, quae docet solstitia et aequinoctia",
+     "transcription": "« Hipparchi ratio, quae docet solstitia et aequinoctia",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0389-notes_left-L013",
+     "source_line_no": null,
+     "tex": "« non octavis, sed primis partibus signorum con-",
+     "transcription": "« non octavis, sed primis partibus signorum con-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0389-notes_left-L014",
+     "source_line_no": null,
+     "tex": "« fici. Verum in hac ruris disciplina sequor nunc Eu-",
+     "transcription": "« fici. Verum in hac ruris disciplina sequor nunc Eu-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0389-notes_left-L015",
+     "source_line_no": null,
+     "tex": "« doxi et Metonis, antiquorumque fastos astrologo-",
+     "transcription": "« doxi et Metonis, antiquorumque fastos astrologo-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0389-notes_left-L016",
+     "source_line_no": null,
+     "tex": "« rum, qui sunt aptati publicis sacrificiis; quia et",
+     "transcription": "« rum, qui sunt aptati publicis sacrificiis; quia et",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0389-notes_left-L017",
+     "source_line_no": null,
+     "tex": "« melior est ista vetus agricolis concepta opinio ».",
+     "transcription": "« melior est ista vetus agricolis concepta opinio ».",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0389-notes_left-L018",
+     "source_line_no": null,
+     "tex": "\\Indent (4) \\textit{Enarrationes ad Arati et Eudoxi Phae-}",
+     "transcription": "(4) *Enarrationes ad Arati et Eudoxi Phae-*",
+     "semantic_anchor": "AB01-PDF0389-N04",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0389-notes_left-L019",
+     "source_line_no": null,
+     "tex": "\\textit{nomena,} lib. II, cap. III: « Primum illud intelligen-",
+     "transcription": "*nomena,* lib. II, cap. III: « Primum illud intelligen-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0389-notes_left-L020",
+     "source_line_no": null,
+     "tex": "« dum est, zodiaci circuli partitionem ab Arato sic",
+     "transcription": "« dum est, zodiaci circuli partitionem ab Arato sic",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0389-notes_left-L021",
+     "source_line_no": null,
+     "tex": "« institui, ut a tropicis et aequinoctialibus punctis",
+     "transcription": "« institui, ut a tropicis et aequinoctialibus punctis",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0389-notes_left-L022",
+     "source_line_no": null,
+     "tex": "« incipiat, eaque sint initia signorum. Eudoxus au-",
+     "transcription": "« incipiat, eaque sint initia signorum. Eudoxus au-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0389-notes_left-L023",
+     "source_line_no": null,
+     "tex": "« tem ita dividit, ut illa puncta media sint; illa Can-",
+     "transcription": "« tem ita dividit, ut illa puncta media sint; illa Can-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0389-notes_left-L024",
+     "source_line_no": null,
+     "tex": "« cri et Capricorni; haec Arietis et Librae. ..... Hac",
+     "transcription": "« cri et Capricorni; haec Arietis et Librae. ..... Hac",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0389-notes_left-L025",
+     "source_line_no": null,
+     "tex": "« ratione [Arati] zodiacum circulum mathematici ve-",
+     "transcription": "« ratione [Arati] zodiacum circulum mathematici ve-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0389-notes_left-L026",
+     "source_line_no": null,
+     "tex": "« teres propemodum omnes aut plerique partiti sunt.",
+     "transcription": "« teres propemodum omnes aut plerique partiti sunt.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0389-notes_left-L027",
+     "source_line_no": null,
+     "tex": "« ..... Eudoxus vero tropica puncta se in mediis col-",
+     "transcription": "« ..... Eudoxus vero tropica puncta se in mediis col-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0389-notes_left-L028",
+     "source_line_no": null,
+     "tex": "« locare signis manifestum facit his verbis: Secundus",
+     "transcription": "« locare signis manifestum facit his verbis: Secundus",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  },
+  {
+   "role": "notes_right",
+   "lines": [
+    {
+     "id": "AB01-PDF0389-notes_right-L001",
+     "source_line_no": null,
+     "tex": "« est circulus in quo conversiones aestivae (\\textgreek{θεριναὶ}",
+     "transcription": "« est circulus in quo conversiones aestivae (θεριναὶ",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0389-notes_right-L002",
+     "source_line_no": null,
+     "tex": "« \\textgreek{τροπαί}) fiunt; in eo situm est medium Cancri. Item:",
+     "transcription": "« τροπαί) fiunt; in eo situm est medium Cancri. Item:",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0389-notes_right-L003",
+     "source_line_no": null,
+     "tex": "« tertius, ait, est circulus in quo fiunt aequinoctia;",
+     "transcription": "« tertius, ait, est circulus in quo fiunt aequinoctia;",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0389-notes_right-L004",
+     "source_line_no": null,
+     "tex": "« in eo positum est Arietis et Librae medium. Quar-",
+     "transcription": "« in eo positum est Arietis et Librae medium. Quar-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0389-notes_right-L005",
+     "source_line_no": null,
+     "tex": "« tus in quo conversiones hibernae accidunt; in eo",
+     "transcription": "« tus in quo conversiones hibernae accidunt; in eo",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0389-notes_right-L006",
+     "source_line_no": null,
+     "tex": "« Capricorni medium est. Hoc ipsum manifestius il-",
+     "transcription": "« Capricorni medium est. Hoc ipsum manifestius il-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0389-notes_right-L007",
+     "source_line_no": null,
+     "tex": "« lic etiam significat, ubi de coluris circulis agens,",
+     "transcription": "« lic etiam significat, ubi de coluris circulis agens,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0389-notes_right-L008",
+     "source_line_no": null,
+     "tex": "« qui per polos et tropica aequinoctialiaque puncta",
+     "transcription": "« qui per polos et tropica aequinoctialiaque puncta",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0389-notes_right-L009",
+     "source_line_no": null,
+     "tex": "« ducuntur, ita dicit: Alii sunt circuli duo bifariam",
+     "transcription": "« ducuntur, ita dicit: Alii sunt circuli duo bifariam",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0389-notes_right-L010",
+     "source_line_no": null,
+     "tex": "« invicem ad angulos rectos per polos mundi secan-",
+     "transcription": "« invicem ad angulos rectos per polos mundi secan-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0389-notes_right-L011",
+     "source_line_no": null,
+     "tex": "« tes; in iis haec astra sunt: primo polus mundi",
+     "transcription": "« tes; in iis haec astra sunt: primo polus mundi",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0389-notes_right-L012",
+     "source_line_no": null,
+     "tex": "« semper apparens; postea medium Ursae iuxta la-",
+     "transcription": "« semper apparens; postea medium Ursae iuxta la-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0389-notes_right-L013",
+     "source_line_no": null,
+     "tex": "« titudinem, et Cancri medium. Paulo post addit:",
+     "transcription": "« titudinem, et Cancri medium. Paulo post addit:",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0389-notes_right-L014",
+     "source_line_no": null,
+     "tex": "« Atque cauda Piscis Australis, et medium Capri-",
+     "transcription": "« Atque cauda Piscis Australis, et medium Capri-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0389-notes_right-L015",
+     "source_line_no": null,
+     "tex": "« corni ». — Ab Hipparcho dissentit \\textit{Parapegma}",
+     "transcription": "« corni ». — Ab Hipparcho dissentit *Parapegma*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0389-notes_right-L016",
+     "source_line_no": null,
+     "tex": "adiectum \\textit{Elementis Astronomicis} \\Name{Gemini}; colli-",
+     "transcription": "adiectum *Elementis Astronomicis* {sp:Gemini}; colli-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0389-notes_right-L017",
+     "source_line_no": null,
+     "tex": "gitur enim ex eo Callippum (330 ante Chr.) et Euc-",
+     "transcription": "gitur enim ex eo Callippum (330 ante Chr.) et Euc-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0389-notes_right-L018",
+     "source_line_no": null,
+     "tex": "temonem solstitium aestivum in initio Cancri po-",
+     "transcription": "temonem solstitium aestivum in initio Cancri po-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0389-notes_right-L019",
+     "source_line_no": null,
+     "tex": "suisse; Eudoxum vero solstitium hiemale in 4° Ca-",
+     "transcription": "suisse; Eudoxum vero solstitium hiemale in 4° Ca-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0389-notes_right-L020",
+     "source_line_no": null,
+     "tex": "pricorni, et aequinoctium vernum in 6° Arietis. Locum",
+     "transcription": "pricorni, et aequinoctium vernum in 6° Arietis. Locum",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0389-notes_right-L021",
+     "source_line_no": null,
+     "tex": "mihi \\Name{Schiaparelli} indicavit.",
+     "transcription": "mihi {sp:Schiaparelli} indicavit.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0389-notes_right-L022",
+     "source_line_no": null,
+     "tex": "\\Indent (5) Excepto P. \\Name{Tannery}, \\textit{Recherches sur}",
+     "transcription": "(5) Excepto P. {sp:Tannery}, *Recherches sur*",
+     "semantic_anchor": "AB01-PDF0389-N05",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0389-notes_right-L023",
+     "source_line_no": null,
+     "tex": "\\textit{l’histoire de l’astron. ancienne,} Paris 1893, p. 130,",
+     "transcription": "*l’histoire de l’astron. ancienne,* Paris 1893, p. 130,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0389-notes_right-L024",
+     "source_line_no": null,
+     "tex": "qui dicit: « Il [Hipparchus] a donné un sens mathé-",
+     "transcription": "qui dicit: « Il [Hipparchus] a donné un sens mathé-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0389-notes_right-L025",
+     "source_line_no": null,
+     "tex": "« matique précis à des textes d’Eudoxe qui n’indi-",
+     "transcription": "« matique précis à des textes d’Eudoxe qui n’indi-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0389-notes_right-L026",
+     "source_line_no": null,
+     "tex": "« quaient que des tracés approximatifs, et il en a",
+     "transcription": "« quaient que des tracés approximatifs, et il en a",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0389-notes_right-L027",
+     "source_line_no": null,
+     "tex": "« profité pour critiquer plus à son aise les descrip-",
+     "transcription": "« profité pour critiquer plus à son aise les descrip-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0389-notes_right-L028",
+     "source_line_no": null,
+     "tex": "« tions du Cnidien..... ».",
+     "transcription": "« tions du Cnidien..... ».",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  }
+ ]
+}
