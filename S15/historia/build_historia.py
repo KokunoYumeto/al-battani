@@ -9,8 +9,15 @@ Page files (pages/AB02-PDF####.txt):
   @page PDF PRINTED        the page of the publication (PDF page, printed page)
   % ...                    a comment
   TEXT                     one printed line of the Arabic text; prefixes: "@c " a centred line, "@h " a heading
-                           (centred, bold), "@p " a line printed with a paragraph indent; inline: {f:٢٧ظ} the folio of the manuscript printed in the margin beside
-                           the line, {n:٥} the line number printed in the margin (checked against the count)
+                           (centred, bold), "@p " a line printed with a paragraph indent, "@s " a line set in a
+                           smaller type than the lines around it; inline: {f:٢٧ظ} the
+                           folio of the manuscript printed in the margin beside the line, {n:٥} the line number
+                           printed in the margin (checked against the count), {sup:٢} a raised sign, {h:TEXT} words
+                           set in the larger, heavier type of the headings within a line of text, {b:TEXT} bold,
+                           {ov:TEXT} letters printed with a line above them (abjad numbers), {0} the sign printed
+                           for zero in an abjad number (it has the form of a small ح with a flat top; the records
+                           keep {0}, the PDF draws it with ح), {br} the break between the two printed lines of
+                           a heading that the editors count as one line
   @chart ID                a horoscope chart after the line before it, then lines "@cell POS: TEXT | TEXT ..."
                            (POS: top, bottom, left, right, centre, top-left-top, top-left-left, top-right-top,
                            top-right-right, bottom-left-left, bottom-left-bottom, bottom-right-bottom,
@@ -47,14 +54,18 @@ def esc(s):
 
 
 def artex(s):
-    """TeX for a line: TeX specials escaped; {sup:X} raised"""
+    """TeX for a line: TeX specials escaped; {sup:X} raised; {h:X} in the type of the headings; {b:X} bold;
+    {ov:X} overlined; {0} the zero sign"""
+    s = s.replace("{0}", "").replace("{br}", "")
     out, pos = [], 0
-    for m in re.finditer(r"\{sup:([^}]*)\}", s):
+    for m in re.finditer(r"\{(sup|h|b|ov):([^}]*)\}", s):
         out.append(esc(s[pos:m.start()]))
-        out.append(r"\textsuperscript{" + esc(m.group(1)) + "}")
+        body = esc(m.group(2))
+        out.append({"sup": r"\textsuperscript{" + body + "}", "h": r"{\bfseries\large " + body + "}",
+                    "b": r"{\bfseries " + body + "}", "ov": r"\Ov{" + body + "}"}[m.group(1)])
         pos = m.end()
     out.append(esc(s[pos:]))
-    return "".join(out)
+    return "".join(out).replace("", r"\ZeroSign{}").replace("", r"\\")
 
 
 def parse(path):
@@ -99,6 +110,8 @@ def parse(path):
             kind, raw = "heading", raw[3:]
         elif raw.startswith("@p "):
             kind, raw = "indent", raw[3:]
+        elif raw.startswith("@s "):
+            kind, raw = "small", raw[3:]
         folio = None
         m = re.search(r"\{f:([^}]*)\}", raw)
         if m:
@@ -151,6 +164,10 @@ PREAMBLE = r"""\documentclass[11pt]{article}
 \newcommand{\EdLc}[4]{\par\noindent\hypertarget{#2}{}\hbox to\linewidth{\parbox[t]{\linewidth}{\setRTL\ArBody\centering #4\par}\rlap{\hspace{3mm}\footnotesize #1\enspace #3}}\par}
 \newcommand{\EdLh}[4]{\EdLc{#1}{#2}{#3}{\bfseries #4}}
 \newcommand{\EdLp}[4]{\EdL{#1}{#2}{#3}{\hspace*{6mm}#4}}
+\newcommand{\EdLs}[4]{\EdL{#1}{#2}{#3}{\small #4}}
+% an abjad number printed with a line above it; the sign printed for zero (drawn with the letter it resembles)
+\newcommand{\Ov}[1]{\leavevmode\vbox{\hrule height .4pt\kern 1.0pt\hbox{\RL{#1}}}}
+\newcommand{\ZeroSign}{ح}
 \newcommand{\AppL}[2]{\par\noindent\hypertarget{#1}{}\parbox[t]{\linewidth}{\setRTL\ArApp\raggedleft #2\par}\par}
 \begin{document}
 """
@@ -204,7 +221,8 @@ def main():
             fol = folio_label(ln["folio"]) if ln["folio"] else ""
             if fol:
                 folios.append((fol, ln["folio"], aid))
-            macro = {"text": r"\EdL", "centre": r"\EdLc", "heading": r"\EdLh", "indent": r"\EdLp"}[ln["kind"]]
+            macro = {"text": r"\EdL", "centre": r"\EdLc", "heading": r"\EdLh", "indent": r"\EdLp",
+                     "small": r"\EdLs"}[ln["kind"]]
             tex.append(macro + "{" + str(k) + "}{" + aid + "}{" + (r"\RL{\ArBody " + esc(ln["folio"]) + "}" if fol else "")
                        + "}{" + artex(ln["text"]) + "}")
             anchors.append((aid, rec["printed"], str(k), fol, ln["kind"], ln["text"]))

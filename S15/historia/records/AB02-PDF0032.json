@@ -1,0 +1,313 @@
+{
+ "anchor": "AB02-PDF0032",
+ "pdf_page": 32,
+ "printed_page": "44",
+ "source": "Suhayl 9 (2009-2010), the edition of the Arabic text by George Saliba (page image)",
+ "role": "AB_SMALL_WORK (text and charts); MODERN_EDITORIAL (apparatus, line numbers, brackets)",
+ "comment": "Printed p. 44, f. 34r of the manuscript: the end of the argument on the 61 years; the heading «the second conjunction, in the year 902 of Alexander»: the lunar eclipse of 19 Tishrin I and its positions (Horoscope 3) with the chart; the heading «the third conjunction, in which the Prophet received his mission, in the year 921»: the lunar eclipse of 15 Adhar by day and the beginning of its positions (Horoscope 4), with the chart. Thirteen numbered lines (the heading of line 7 is printed in two lines), two charts and two lines of apparatus.",
+ "lines": [
+  {
+   "id": "AB02-PDF0032-L01",
+   "n": 1,
+   "kind": "text",
+   "text": "/ بعضها بعضًا ولم يوافق أحدها مثل هذا العدد .",
+   "folio": "34r",
+   "printed_number": null
+  },
+  {
+   "id": "AB02-PDF0032-L02",
+   "n": 2,
+   "kind": "heading",
+   "text": "وكان القران الثاني في سنة {ov:ظب} لذي القرنين",
+   "folio": null,
+   "printed_number": null
+  },
+  {
+   "id": "AB02-PDF0032-L03",
+   "n": 3,
+   "kind": "text",
+   "text": "واتفق فيها كسوف قمريّ في تسعة عشر من تشرين الأوّل . الطالع الجوزاء {ov:كه} ،",
+   "folio": null,
+   "printed_number": null
+  },
+  {
+   "id": "AB02-PDF0032-L04",
+   "n": 4,
+   "kind": "text",
+   "text": "وسط السماء الحوت {ov:يد} ، الشمس في الميزان {ov:كز د} ، زحل في السرطان {ov:ز} ، المشتري في",
+   "folio": null,
+   "printed_number": null
+  },
+  {
+   "id": "AB02-PDF0032-L05",
+   "n": 5,
+   "kind": "text",
+   "text": "السرطان {ov:يد} ، المرّيخ في العقرب {ov:كب} ، الزهرة في القوس {ov:ز ل} ، عطارد في العقرب",
+   "folio": null,
+   "printed_number": 5
+  },
+  {
+   "id": "AB02-PDF0032-L06",
+   "n": 6,
+   "kind": "text",
+   "text": "{ov:يب} ، وهو على ما فى هذه الصورة .",
+   "folio": null,
+   "printed_number": null
+  },
+  {
+   "id": "AB02-PDF0032-L07",
+   "n": 7,
+   "kind": "heading",
+   "text": "واتفق القران الثالث الذي تنبّأ فيه النبيّ صلّى اللّه عليه{br}وسلّم في سنة ظكا لذي القرنين.",
+   "folio": null,
+   "printed_number": 7
+  },
+  {
+   "id": "AB02-PDF0032-L08",
+   "n": 8,
+   "kind": "text",
+   "text": "ووقع فيها كسوف قمريّ في اليوم",
+   "folio": null,
+   "printed_number": 8
+  },
+  {
+   "id": "AB02-PDF0032-L09",
+   "n": 9,
+   "kind": "text",
+   "text": "الخامس عشر من آذار بالنهار، والمضيئين",
+   "folio": null,
+   "printed_number": null
+  },
+  {
+   "id": "AB02-PDF0032-L10",
+   "n": 10,
+   "kind": "text",
+   "text": "على وتدين ، والطالع الجوزاء {ov:يط} ،",
+   "folio": null,
+   "printed_number": null
+  },
+  {
+   "id": "AB02-PDF0032-L11",
+   "n": 11,
+   "kind": "text",
+   "text": "وسط السماء الحوت {ov:ز}، الشمس في الحوت",
+   "folio": null,
+   "printed_number": null
+  },
+  {
+   "id": "AB02-PDF0032-L12",
+   "n": 12,
+   "kind": "text",
+   "text": "{ov:كز ل} ، القمر في السنبلة {ov:كز ل} ، زحل",
+   "folio": null,
+   "printed_number": null
+  },
+  {
+   "id": "AB02-PDF0032-L13",
+   "n": 13,
+   "kind": "text",
+   "text": "والمشتري",
+   "folio": null,
+   "printed_number": null
+  }
+ ],
+ "charts": [
+  {
+   "id": "H03",
+   "after_line": 6,
+   "cells": [
+    {
+     "pos": "top-left-top",
+     "lines": [
+      "السرطان",
+      "زحل ز",
+      "المشتري يد"
+     ]
+    },
+    {
+     "pos": "top-left-left",
+     "lines": [
+      "الأسد"
+     ]
+    },
+    {
+     "pos": "top",
+     "lines": [
+      "الجوزاء كه"
+     ]
+    },
+    {
+     "pos": "top-right-top",
+     "lines": [
+      "الثور"
+     ]
+    },
+    {
+     "pos": "top-right-right",
+     "lines": [
+      "القمر",
+      "كز د",
+      "الحمل"
+     ]
+    },
+    {
+     "pos": "left",
+     "lines": [
+      "السنبلة يد"
+     ]
+    },
+    {
+     "pos": "right",
+     "lines": [
+      "الحوت يد"
+     ]
+    },
+    {
+     "pos": "bottom-left-left",
+     "lines": [
+      "الميزان",
+      "الشمس يجـ ز"
+     ]
+    },
+    {
+     "pos": "bottom-left-bottom",
+     "lines": [
+      "المرّيخ",
+      "كب",
+      "عطارد يب",
+      "العقرب"
+     ]
+    },
+    {
+     "pos": "bottom",
+     "lines": [
+      "الزهرة ز ل",
+      "القوس"
+     ]
+    },
+    {
+     "pos": "bottom-right-right",
+     "lines": [
+      "الدلو"
+     ]
+    },
+    {
+     "pos": "bottom-right-bottom",
+     "lines": [
+      "الجدي"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "H04",
+   "after_line": 13,
+   "cells": [
+    {
+     "pos": "top-left-top",
+     "lines": [
+      "السرطان"
+     ]
+    },
+    {
+     "pos": "top-left-left",
+     "lines": [
+      "الأسد"
+     ]
+    },
+    {
+     "pos": "top",
+     "lines": [
+      "الجوزاء يط"
+     ]
+    },
+    {
+     "pos": "top-right-top",
+     "lines": [
+      "الثور",
+      "الزهرة",
+      "ي"
+     ]
+    },
+    {
+     "pos": "top-right-right",
+     "lines": [
+      "المرّيخ",
+      "يا",
+      "عطارد",
+      "يز",
+      "الحمل"
+     ]
+    },
+    {
+     "pos": "left",
+     "lines": [
+      "السنبلة ز",
+      "القمر كز ل"
+     ]
+    },
+    {
+     "pos": "right",
+     "lines": [
+      "الحوت يجـ",
+      "الشمس كز ل",
+      "زحل كب",
+      "المشتري كب"
+     ]
+    },
+    {
+     "pos": "bottom-left-left",
+     "lines": [
+      "الميزان"
+     ]
+    },
+    {
+     "pos": "bottom-left-bottom",
+     "lines": [
+      "العقرب"
+     ]
+    },
+    {
+     "pos": "bottom",
+     "lines": [
+      "القوس يط"
+     ]
+    },
+    {
+     "pos": "bottom-right-right",
+     "lines": [
+      "الدلو"
+     ]
+    },
+    {
+     "pos": "bottom-right-bottom",
+     "lines": [
+      "الجدي"
+     ]
+    }
+   ]
+  }
+ ],
+ "apparatus": [
+  {
+   "id": "AB02-PDF0032-A01",
+   "text": "٧ - تنبّأ : تُنبي | (في الصورة الأولى) الشمس يجـ ز: (في النص) الشمس كز د | (في الصورة الثانية) الحوت يجـ : (في"
+  },
+  {
+   "id": "AB02-PDF0032-A02",
+   "text": "النص) الحوت ز | زحل والمشتري في الحوت: (في النص)زحل والمشتري في الدلو"
+  }
+ ],
+ "observations": [
+  "L01: the folio of the manuscript, ٣٤و (34r), is printed in the right margin; the stroke at the head of the line marks the beginning of the folio. The line ends short.",
+  "L02, L07: the headings are centred and set in the heavier type. The heading of L07 is printed in two lines; the editors number it as one line: ٧ stands in both margins beside its first line and ٨ beside the next line of text, L08. The margin numbers ٧ and ٨ are printed although they are not multiples of five.",
+  "L02: the year ظب, 902 of Alexander, is printed with a line above it. In the heading of L07 a rule is printed between its two lines, under «الذي تنبّأ» and above «سنة ظكا», as wide as «الذي تنبّأ»; the year ظكا, 921, has no line of its own and is transcribed without one.",
+  "L03-L06, L10-L12: the numbers of the text are written in letters with a line above them; the charts have no lines above their numbers.",
+  "L06: «فى» is printed without the dots of the yā'.",
+  "H03: the chart of Horoscope 3 stands below L06, at the left of the column, in the space after L06. Its houses run from the ascendant, Gemini 25, in the top cell. «المشتري يد» is written vertically, reading downwards, along the right side of the Cancer triangle, and «عطارد يب» along the right side of the Scorpio triangle; «القمر كز د» and «المرّيخ كب» are written across the diagonals, the Moon on the side of Aries and Mars on the side of Scorpio. The Sun is given in the chart as «يجـ ز», Libra 13;7, and in the text (L04) as «كز د», Libra 27;4, as the apparatus notes; the other numbers agree with the text.",
+  "H03, comparator: the commentary recomputes Horoscope 3 for 18 October 590, 21;19 hours after midnight, and reads the text: ascendant 85, midheaven 344, Sun 207;4, Moon 27;4, Saturn 97, Jupiter 104, Mars 232, Venus 247;30, Mercury 222 (pp. 95-96 of the article); the transcribed text gives these values.",
+  "H04: the chart of Horoscope 4 stands to the left of L08-L13. Its houses run from the ascendant, Gemini 19, in the top cell. In the Pisces cell (the tenth house) the chart gives «الحوت يجـ», 13, where the text (L11) gives the midheaven as ز, 7, and it places Saturn and Jupiter at 22 in Pisces, where the text, as the apparatus quotes it, has them in Aquarius. In the corner of Taurus and Aries the diagonal separates «الثور الزهرة ي» (Venus, Taurus 10) from «المرّيخ يا» (Mars, Aries 11), «عطارد يز» (Mercury, Aries 17) and «الحمل».",
+  "L09: the eclipse «on the fifteenth of Adhar, by day»: the commentary recomputes Horoscope 4 for Sunday 15 March 610, 10:47 hours after midnight (p. 96 of the article).",
+  "L13: «والمشتري» fills the line with long joins; the sentence continues on p. 46."
+ ]
+}

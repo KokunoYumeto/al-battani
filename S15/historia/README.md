@@ -2,7 +2,7 @@
 
 Al-Battānī's *Kitāb fī dalāʾil al-qirānāt wa-l-kusūfāt*, the astrological history of the Prophet and the early caliphate, survives in one manuscript, Ankara, Dil ve Tarih-Coğrafya Fakültesi, collection Saib, 199/2, ff. 27v–42v. George Saliba edited the Arabic text in E. S. Kennedy, Colleagues and Former Students (Benno van Dalen, George Saliba, Julio Samsó), «Al-Battānī's Astrological History of the Prophet and the Early Caliphate», *Suhayl* 9 (2009–2010), pp. 13–148. The article reproduces his typeset edition as page images on the even pages 18–78, facing the English translation. This folder transcribes those pages, one line of this edition for each printed line.
 
-**In progress.** Transcribed: pp. 18–36 (PDF pages 6–24), ff. 27v–32r: 10 of the 31 pages of the Arabic text, 170 lines, 22 lines of apparatus and the first of the 21 horoscope charts. Not yet transcribed: pp. 38–78 (PDF pages 26–66).
+**In progress.** Transcribed: pp. 18–50 (PDF pages 6–38), ff. 27v–35v: 17 of the 31 pages of the Arabic text, 285 lines, 34 lines of apparatus and 6 horoscope charts (those of the article's Horoscopes 1–4, 6 and 7; the article numbers 21 horoscopes, and Horoscope 5 has no chart). Not yet transcribed: pp. 52–78 (PDF pages 40–66).
 
 ## Read
 
@@ -11,7 +11,7 @@ Al-Battānī's *Kitāb fī dalāʾil al-qirānāt wa-l-kusūfāt*, the astrologi
 ## What the transcription keeps
 
 - The text, the headings and the apparatus as printed, letter for letter, with the vowel signs, shaddas and hamzas that the print gives, the editors' square brackets and their spacing, and the misprints, which the observations name (for example «الكولب» for «الكواكب» on p. 22, «فك البروج» for «فلك البروج» on p. 32).
-- The numbers written in letters (abjad), in the text and in the charts, as printed.
+- The numbers written in letters (abjad), in the text and in the charts, as printed, with the line the text sets above them, and the sign the print uses for zero (transcribed `{0}`; it has the form of a small ح with a flat top). The chart identifiers (H01, …) follow the article's numbering of the horoscopes.
 - The line numbers of the edition (every fifth line) and the folios of the manuscript printed in the margin; the stroke that marks the beginning of a folio in the line.
 - Paragraph indents and headings.
 - Not kept: the long joins (kashīdas) by which the print justifies the lines. The tanwīn of the accusative is written on the letter before the final alif, and on the lām-alif in لاً, wherever the print sets it.
