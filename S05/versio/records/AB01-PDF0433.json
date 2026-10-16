@@ -1,0 +1,513 @@
+{
+ "anchor": "AB01-PDF0433",
+ "master_pdf_page": 433,
+ "printed_page": "XVI",
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "margin_locators": [],
+ "observations": [
+  "body L1: the title, in large capitals; the face is not imitated and the line is scaled to the box of the printed line. The note mark «(1)» is printed in a small type and slightly raised (its foot 1.3 pt above the baseline); it is set on the baseline. The rule under the title is 115.1 pt long and 0.72 pt thick. The running head of the page is its number XVI alone, over a rule across the measure.",
+  "body L2-L33: each addendum hangs from its reference at the margin: the page of the first volume (roman numerals of its preface, in small capitals), with the line or the note. The references are to Part I, pp. xi-xxxvi.",
+  "body L3: a speck between «l.» and «xiii» is not transcribed.",
+  "body L8, L11, L18, L23: «130–33», «24,v.–33,r.», «8–10» and «13–14» have long dashes (5.3-5.9 pt).",
+  "body L6, L8-L9, L10, L12, L15-L19, L23-L25, L28, L30-L31, L33: «Björnbo», «Hermannus Dalmata», «Secundus», «Fr. Boll», «Shādhān», «Rieu», «Abū Ma‘shar», «Baḥr», «Ibn Khaldūn», «Suter», «Bethen», «Bereni», «Apollonium Thyaneum», «al-Bīrūnī», «Sachau», «Phil. Angelitti», «Georgii Purbachii» and «Purbachius» are letter-spaced.",
+  "body L13-L15: the Arabic words of the London codex as read in Rieu's catalogue, set right to left inside the Latin lines as printed: «ابـــو معشر البلخي» ends L13; L14 begins with the rest of the title, «من المدخل الكبير [و]من مذاكرته مع سادار مي بحر», followed by its comma, and ends with «شادين بـــن», whose last word «نجران» begins L15; «شاذان بن بحر» stands before «; ergo». The و between square brackets is Nallino's addition. The elongated joins of «ابـــو» and «بـــن» are transcribed with tatweels.",
+  "body L16: «al–Balkhī» is printed with a long dash (5.5 pt), as transcribed; each line of the Latin rendering of the title (L15-L17) is opened by a guillemet.",
+  "body L17: «faṣl» is in roman type with the dot under the s; «III» and «LIV» are full capitals.",
+  "body L22: the ǵ of «ad-darīǵan» and «ad-darīǵān» has the acute above, the tail of the italic g printing detached below; the d of the second «ad-» prints broken.",
+  "body L26: the hyphens of «al-Ma’mūn ibn al-Ma’mūn» are short (2.0 pt).",
+  "notes_left L1-L7, notes_right L1-L7: two notes in two columns, with a thin rule between them; note 2 runs from the left column into the right. «nouarum» is printed with u. «Georgii Purbachij», «Georgii Purbachii» (divided «Purba-», «chii») are letter-spaced; the hyphens of «53,r.-61,v.», «259,v.-268,r.» and «390-411» measure 3.1-3.5 pt."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0433-body-L001",
+     "source_line_no": null,
+     "tex": "\\CenterLine{\\LFit{396.13pt}{13.43pt}{ADDENDA ET EMENDANDA AD TOMUM PRIMUM {\\fontsize{6.6}{8}\\selectfont (1)}}}",
+     "transcription": "ADDENDA ET EMENDANDA AD TOMUM PRIMUM {xs:(1)}",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0433-body-L002",
+     "source_line_no": null,
+     "tex": "Pag. \\textsc{xi}, lin. 17: melius \\textit{muliere natura aspera}; cfr. \\textit{Glossarium} ad \\Name{Ṭabarī}, p. \\textsc{ccxxxi}.",
+     "transcription": "Pag. {sc:xi}, lin. 17: melius *muliere natura aspera*; cfr. *Glossarium* ad {sp:Ṭabarī}, p. {sc:ccxxxi}.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0433-body-L003",
+     "source_line_no": null,
+     "tex": "\\textsc{xvii}, n. 1, lin. 3 a f.: pro \\textsc{xiv} l. \\textsc{xiii}.",
+     "transcription": "{sc:xvii}, n. 1, lin. 3 a f.: pro {sc:xiv} l. {sc:xiii}.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0433-body-L004",
+     "source_line_no": null,
+     "tex": "\\textsc{xvii}, n. 3: pro \\textit{Princeton} l. \\textit{New Haven}.",
+     "transcription": "{sc:xvii}, n. 3: pro *Princeton* l. *New Haven*.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0433-body-L005",
+     "source_line_no": null,
+     "tex": "\\textsc{xxv} et \\textsc{xlix}: Incertam, dum scribebam, quaestionem de auctore et anno versionis \\textit{Plani-}",
+     "transcription": "{sc:xxv} et {sc:xlix}: Incertam, dum scribebam, quaestionem de auctore et anno versionis *Plani-*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0433-body-L006",
+     "source_line_no": null,
+     "tex": "\\hspace*{2.5em}\\textit{sphaerii} Ptolemaei ex Arabico, nunc tandem definivit A. A. \\Name{Björnbo}, \\textit{Hermannus Dal-}",
+     "transcription": "*sphaerii* Ptolemaei ex Arabico, nunc tandem definivit A. A. {sp:Björnbo}, *Hermannus Dal-*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0433-body-L007",
+     "source_line_no": null,
+     "tex": "\\hspace*{2.5em}\\textit{mata als Uebersetzer astronomischer Arbeiten} (Biblioth. Mathem., 3. Folge, 4. Bd., 1903,",
+     "transcription": "*mata als Uebersetzer astronomischer Arbeiten* (Biblioth. Mathem., 3. Folge, 4. Bd., 1903,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0433-body-L008",
+     "source_line_no": null,
+     "tex": "\\hspace*{2.5em}p. 130–33): praefationis auctor idem est qui libri interpres, scilicet \\Name{Hermannus Dal-}",
+     "transcription": "p. 130–33): praefationis auctor idem est qui libri interpres, scilicet {sp:Hermannus Dal-}",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0433-body-L009",
+     "source_line_no": null,
+     "tex": "\\hspace*{2.5em}\\Name{mata} vel \\Name{Secundus}; annus quo versio facta, 1143.",
+     "transcription": "{sp:mata} vel {sp:Secundus}; annus quo versio facta, 1143.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0433-body-L010",
+     "source_line_no": null,
+     "tex": "\\textsc{xxvi}: Teste \\Name{Fr. Boll}, \\textit{Sphaera}, p. 421, Latina versio libri \\Name{Shādhān} exstat etiam pulcher-",
+     "transcription": "{sc:xxvi}: Teste {sp:Fr. Boll}, *Sphaera*, p. 421, Latina versio libri {sp:Shādhān} exstat etiam pulcher-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0433-body-L011",
+     "source_line_no": null,
+     "tex": "\\hspace*{2.5em}rimo codice Monacensi Clm. 826 (fol. 24,v.–33,r.) et Brussellensi nr. 1464. — Iuxta cata-",
+     "transcription": "rimo codice Monacensi Clm. 826 (fol. 24,v.–33,r.) et Brussellensi nr. 1464. — Iuxta cata-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0433-body-L012",
+     "source_line_no": null,
+     "tex": "\\hspace*{2.5em}logum \\Name{Rieu}, p. 624,\\textit{a}, nr. 1348, liber ignoti auctoris de astrologia, 7 tractatus (\\textit{maqālāt})",
+     "transcription": "logum {sp:Rieu}, p. 624,*a*, nr. 1348, liber ignoti auctoris de astrologia, 7 tractatus (*maqālāt*)",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0433-body-L013",
+     "source_line_no": null,
+     "tex": "\\hspace*{2.5em}complectens ac Musaeo Britannico asservatus, fontibus suis adnumerat \\ArabicRun{ابـــو معشر البلخي}",
+     "transcription": "complectens ac Musaeo Britannico asservatus, fontibus suis adnumerat {ar:ابـــو معشر البلخي}",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0433-body-L014",
+     "source_line_no": null,
+     "tex": "\\hspace*{2.5em}\\ArabicRun{من المدخل الكبير [و]من مذاكرته مع سادار مي بحر}, cuius ultima verba non ex \\ArabicRun{شادين بـــن}",
+     "transcription": "{ar:من المدخل الكبير [و]من مذاكرته مع سادار مي بحر}, cuius ultima verba non ex {ar:شادين بـــن}",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0433-body-L015",
+     "source_line_no": null,
+     "tex": "\\hspace*{2.5em}\\ArabicRun{نجران} corrupta sunt ut \\Name{Rieu} proposuit, sed ex \\ArabicRun{شاذان بن بحر}; ergo: « \\Name{Abū Ma‘shar}",
+     "transcription": "{ar:نجران} corrupta sunt ut {sp:Rieu} proposuit, sed ex {ar:شاذان بن بحر}; ergo: « {sp:Abū Ma‘shar}",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0433-body-L016",
+     "source_line_no": null,
+     "tex": "\\hspace*{2.5em}« al–Balkhī, ex [eius] \\textit{Introductorio magno} [et] ex eius \\textit{Colloquio} cum \\Name{Shādhān ibn}",
+     "transcription": "« al–Balkhī, ex [eius] *Introductorio magno* [et] ex eius *Colloquio* cum {sp:Shādhān ibn}",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0433-body-L017",
+     "source_line_no": null,
+     "tex": "\\hspace*{2.5em}« \\Name{Baḥr} ». — Locus \\Name{Ibn Khaldūn} est p. 293 edit. Berytensis 1879 (faṣl III, cap. LIV).",
+     "transcription": "« {sp:Baḥr} ». — Locus {sp:Ibn Khaldūn} est p. 293 edit. Berytensis 1879 (faṣl III, cap. LIV).",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0433-body-L018",
+     "source_line_no": null,
+     "tex": "\\textsc{xxx}, lin. 8–10: Probabile existimat \\Name{Suter} (Bibl. Math., 3. F., 5. Bd., 1904, p. 80) nomine",
+     "transcription": "{sc:xxx}, lin. 8–10: Probabile existimat {sp:Suter} (Bibl. Math., 3. F., 5. Bd., 1904, p. 80) nomine",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0433-body-L019",
+     "source_line_no": null,
+     "tex": "\\hspace*{2.5em}\\Name{Bethen}, \\Name{Bereni} etc. designari \\Name{Apollonium Thyaneum}. Eo res mihi valde incerta",
+     "transcription": "{sp:Bethen}, {sp:Bereni} etc. designari {sp:Apollonium Thyaneum}. Eo res mihi valde incerta",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0433-body-L020",
+     "source_line_no": null,
+     "tex": "\\hspace*{2.5em}quod Apollonii scripta, ab Arabibus memorata aut Arabice et Latine adhuc exstantia,",
+     "transcription": "quod Apollonii scripta, ab Arabibus memorata aut Arabice et Latine adhuc exstantia,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0433-body-L021",
+     "source_line_no": null,
+     "tex": "\\hspace*{2.5em}materiem haud paucum diversam pertractant.",
+     "transcription": "materiem haud paucum diversam pertractant.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0433-body-L022",
+     "source_line_no": null,
+     "tex": "\\textsc{xxxi}, lin. 1: pro \\textit{ad-darīǵan} l. \\textit{ad-darīǵān}.",
+     "transcription": "{sc:xxxi}, lin. 1: pro *ad-darīǵan* l. *ad-darīǵān*.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0433-body-L023",
+     "source_line_no": null,
+     "tex": "\\textsc{xxxiii}, lin. 13–14: Ut etiam \\Name{Suter} litteris me monuit, ignotus adhuc libri \\textit{tasṭīḥ aṣ-ṣuwar}",
+     "transcription": "{sc:xxxiii}, lin. 13–14: Ut etiam {sp:Suter} litteris me monuit, ignotus adhuc libri *tasṭīḥ aṣ-ṣuwar*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0433-body-L024",
+     "source_line_no": null,
+     "tex": "\\hspace*{2.5em}auctor est \\Name{al-Bīrūnī}, qui hoc opusculum suum recenset in catalogo librorum usque ad",
+     "transcription": "auctor est {sp:al-Bīrūnī}, qui hoc opusculum suum recenset in catalogo librorum usque ad",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0433-body-L025",
+     "source_line_no": null,
+     "tex": "\\hspace*{2.5em}annum 427 heg. conscriptorum (in praefat. \\Name{Sachau} ad textum \\textit{Chronol.}, p. \\textsc{xliii}). Li-",
+     "transcription": "annum 427 heg. conscriptorum (in praefat. {sp:Sachau} ad textum *Chronol.*, p. {sc:xliii}). Li-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0433-body-L026",
+     "source_line_no": null,
+     "tex": "\\hspace*{2.5em}bellus dicatus regi al-Malik al-‘Ādil Khuwārizmshāh, i. e. al-Ma’mūn ibn al-Ma’mūn ibn",
+     "transcription": "bellus dicatus regi al-Malik al-‘Ādil Khuwārizmshāh, i. e. al-Ma’mūn ibn al-Ma’mūn ibn",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0433-body-L027",
+     "source_line_no": null,
+     "tex": "\\hspace*{2.5em}Muḥammad (m. 407 heg.), cui septem annos al-Bīrūnī operam dedit.",
+     "transcription": "Muḥammad (m. 407 heg.), cui septem annos al-Bīrūnī operam dedit.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0433-body-L028",
+     "source_line_no": null,
+     "tex": "\\textsc{xxxvi}, n. 1: Indicia sequens a \\Name{Phil. Angelitti} mihi suppeditata, inveni libellum \\textit{de motu}",
+     "transcription": "{sc:xxxvi}, n. 1: Indicia sequens a {sp:Phil. Angelitti} mihi suppeditata, inveni libellum *de motu*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0433-body-L029",
+     "source_line_no": null,
+     "tex": "\\hspace*{2.5em}\\textit{octave spere}, Bononiae 1480 impressum, omnino congruere priori parti ultimi capitis",
+     "transcription": "*octave spere*, Bononiae 1480 impressum, omnino congruere priori parti ultimi capitis",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0433-body-L030",
+     "source_line_no": null,
+     "tex": "\\hspace*{2.5em}(« de motu octavae sphaerae ») \\textit{Theoricarum novarum planetarum} \\Name{Georgii Purba-}",
+     "transcription": "(« de motu octavae sphaerae ») *Theoricarum novarum planetarum* {sp:Georgii Purba-}",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0433-body-L031",
+     "source_line_no": null,
+     "tex": "\\hspace*{2.5em}\\Name{chii} (2), ex quibus igitur excerptum iudicandum esse. Post ultima libelli Bononiensis",
+     "transcription": "{sp:chii} (2), ex quibus igitur excerptum iudicandum esse. Post ultima libelli Bononiensis",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0433-body-L032",
+     "source_line_no": null,
+     "tex": "\\hspace*{2.5em}verba (« cum autem talis motus accessus et recessus fuerit semicirculo minor equatio erit",
+     "transcription": "verba (« cum autem talis motus accessus et recessus fuerit semicirculo minor equatio erit",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0433-body-L033",
+     "source_line_no": null,
+     "tex": "\\hspace*{2.5em}« semper addenda sed cum maior fuerit minuenda »), ita \\Name{Purbachius} pergit in Theo-",
+     "transcription": "« semper addenda sed cum maior fuerit minuenda »), ita {sp:Purbachius} pergit in Theo-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  },
+  {
+   "role": "notes_left",
+   "lines": [
+    {
+     "id": "AB01-PDF0433-notes_left-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (1) Parvae aliae additiones in indicibus exhi-",
+     "transcription": "(1) Parvae aliae additiones in indicibus exhi-",
+     "semantic_anchor": "AB01-PDF0433-N01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0433-notes_left-L002",
+     "source_line_no": null,
+     "tex": "bentur.",
+     "transcription": "bentur.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0433-notes_left-L003",
+     "source_line_no": null,
+     "tex": "\\Indent (2) \\textit{Theoricarum nouarum Textus} \\Name{Geor-}",
+     "transcription": "(2) *Theoricarum nouarum Textus* {sp:Geor-}",
+     "semantic_anchor": "AB01-PDF0433-N02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0433-notes_left-L004",
+     "source_line_no": null,
+     "tex": "\\Name{gii Purbachij} \\textit{cum utili ac praeclarissima}",
+     "transcription": "{sp:gii Purbachij} *cum utili ac praeclarissima*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0433-notes_left-L005",
+     "source_line_no": null,
+     "tex": "\\textit{expositione Domini Francisci Capuani de Manfre-}",
+     "transcription": "*expositione Domini Francisci Capuani de Manfre-*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0433-notes_left-L006",
+     "source_line_no": null,
+     "tex": "\\textit{donia}, Parrhisiis 1515; totum caput p. 53,r.-61,v. —",
+     "transcription": "*donia*, Parrhisiis 1515; totum caput p. 53,r.-61,v. —",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0433-notes_left-L007",
+     "source_line_no": null,
+     "tex": "\\textit{Theoricae novae Planetarum} \\Name{Georgii Purba-}",
+     "transcription": "*Theoricae novae Planetarum* {sp:Georgii Purba-}",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  },
+  {
+   "role": "notes_right",
+   "lines": [
+    {
+     "id": "AB01-PDF0433-notes_right-L001",
+     "source_line_no": null,
+     "tex": "\\Name{chii}... \\textit{cum expositione d. Ioannis Baptistae Ca-}",
+     "transcription": "{sp:chii}... *cum expositione d. Ioannis Baptistae Ca-*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0433-notes_right-L002",
+     "source_line_no": null,
+     "tex": "\\textit{puani de Manfredonia}, p. 259,v.-268,r. (in opere",
+     "transcription": "*puani de Manfredonia*, p. 259,v.-268,r. (in opere",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0433-notes_right-L003",
+     "source_line_no": null,
+     "tex": "cui titulus: \\textit{Sphaerae tractatus}, Venetiis in aedibus",
+     "transcription": "cui titulus: *Sphaerae tractatus*, Venetiis in aedibus",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0433-notes_right-L004",
+     "source_line_no": null,
+     "tex": "Luceantonii Junte, 1531). — \\textit{Eras. Oswaldi Schre-}",
+     "transcription": "Luceantonii Junte, 1531). — *Eras. Oswaldi Schre-*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0433-notes_right-L005",
+     "source_line_no": null,
+     "tex": "\\textit{ckenfuchsii Commentaria in Novas Theoricas Pla-}",
+     "transcription": "*ckenfuchsii Commentaria in Novas Theoricas Pla-*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0433-notes_right-L006",
+     "source_line_no": null,
+     "tex": "\\textit{netarum} \\Name{Georgii Purbachij}, Basileae 1556,",
+     "transcription": "*netarum* {sp:Georgii Purbachij}, Basileae 1556,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0433-notes_right-L007",
+     "source_line_no": null,
+     "tex": "p. 390-411.",
+     "transcription": "p. 390-411.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  }
+ ]
+}
