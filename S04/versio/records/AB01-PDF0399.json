@@ -1,0 +1,800 @@
+{
+ "anchor": "AB01-PDF0399",
+ "master_pdf_page": 399,
+ "printed_page": 310,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "margin_locators": [],
+ "observations": [
+  "body L1-L2: the end of the sentence on Valens begun on p. 309; the addendum to pp. 309–310 (p. LXXIX, Valens in az-Zarqālī, Rabiçag and Abū Naṣr al-Qummī) is recorded on p. 309. A speck stands after the comma following «XLIV)».",
+  "body L3-L9: «Ibn Abī Uṣaybi‘ah», «Abū Ma‘shar», «Rabban aṭ–Ṭabarī» (L6), «Thābit», «Ḥunayn al–Qallūsī», «al–Kindī» and «Nawbakht» are letter-spaced; «Rabban aṭ–Ṭabarī» (L3) is not. The ‘ of «Uṣaybi‘ah» prints as a raised point, and a full stop, not a comma, stands after «(1)» before «in vita», as printed. The long dashes of «aṭ–Ṭabarī» (L3, L6), «al–Qallūsī» and «al–Kindī» measure 5.2, 5.3, 4.2 and 5.3 pt. The macron of the ū of «al–Qallūsī» prints broken in two, like a diaeresis.",
+  "body L10-L17: «Ptolemaei» (L11), «Abū Ma‘shar» and «az–Zarqālī» are letter-spaced; «Abū Isḥāq» and «Ibn Mu‘ādh» are not. «az–Zarqālī» has a long dash (5.2 pt), and the ‘ of «Mu‘ādh» prints as a raised point. The Latin of L11-L17 renders the Spanish of notes 7 and 8.",
+  "body L18-L22: the dash before «Demum» measures 9.6 pt; the d of «proiiciendorum» (L20) prints broken. A full stop stands after «Albumasar» (L21) before «quamvis», as printed.",
+  "notes_left L1-L14: «Wüstenfeld», «Steinschneider», «Ibn al-Qifṭī» and «Casiri» are letter-spaced. «ed.» and «Müller» are italic, as printed; a full stop stands after «Wüstenfeld», before the title. The hyphen of «quo-» (L8) did not print. The dash before «Eadem» (L10) measures 5.6 pt, a long dash; «al-anbā’», «al-aṭibbā’», «Kairo-Konigsberg», «308-309», «Ibn al-Qifṭī», «Arabico-Hispana» and «1760-70» have hyphens (2.6 to 3.6 pt). The page of Casiri is printed «436».",
+  "notes_left L15-L27: «Suter» (L16, L25, L27) is letter-spaced; «nr 53» (L16) is printed without a full stop. The closing parenthesis of «(3)» prints broken. The hyphens of «Alma-» and «radiatio-» (L20, L21) did not print. The dash before «Ita» (L25) measures 6.4 pt, a long dash. Note 3 ends without a full stop.",
+  "notes_right L1-L7: «Steinschneider» and «Suter» (L4, L6) are letter-spaced. The hyphen of «su-» (L1) did not print. «34–» ends L4 with a long dash (4.3 pt) joined to the 4, and L5 begins «-38» with a hyphen (3.1 pt), as printed; a full stop stands after «(nr. 66)». In L6 a raised point stands before «p», which has no full stop.",
+  "notes_right L8-L27: the dots after «dixe» (L8) are five. The full stop after «Zarquiel» (L11) did not print. The opening parentheses of «(8)» and «(9)» did not print, and the closing one of «(8)» prints broken. «Ibn Mu‘ādh al-Ǵayyānī» (L20), «Suter» (L21) and «Steinschneider» (L26) are letter-spaced; «Muḥammad» and «Suter» (L22) are not. The dash before «Muḥammad» measures 8.4 pt; «Aben-Mohat» and «al-Ǵayyānī» have hyphens (2.9 and 2.5 pt). «t XIV» (L25) and «M» (L26) are printed without a full stop. Note 9 goes on on p. 311."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0399-body-L001",
+     "source_line_no": null,
+     "tex": "(\\textit{Libro de las armellas,} liber II, cap. XLIV), methodum sequebatur, quam Arabes plerumque",
+     "transcription": "(*Libro de las armellas,* liber II, cap. XLIV), methodum sequebatur, quam Arabes plerumque",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0399-body-L002",
+     "source_line_no": null,
+     "tex": "Ptolemaeo tribuunt et de qua nunc est dicendum.",
+     "transcription": "Ptolemaeo tribuunt et de qua nunc est dicendum.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0399-body-L003",
+     "source_line_no": null,
+     "tex": "\\Indent Apud \\Name{Ibn Abī Uṣaybi‘ah} (1). in vita medici et astrologi Rabban aṭ–Ṭabarī, haec",
+     "transcription": "Apud {sp:Ibn Abī Uṣaybi‘ah} (1). in vita medici et astrologi Rabban aṭ–Ṭabarī, haec",
+     "semantic_anchor": "AB01-PDF0399-P01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0399-body-L004",
+     "source_line_no": null,
+     "tex": "sunt: « \\Name{Abū Ma‘shar} (2), de radiorum proiectione interrogatus, multa narravit; demum",
+     "transcription": "sunt: « {sp:Abū Ma‘shar} (2), de radiorum proiectione interrogatus, multa narravit; demum",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0399-body-L005",
+     "source_line_no": null,
+     "tex": "« dixit: In \\textit{Almagesti} (3) exemplaribus a Graeco sermone derivatis, translatores nec radios nec",
+     "transcription": "« dixit: In *Almagesti* (3) exemplaribus a Graeco sermone derivatis, translatores nec radios nec",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0399-body-L006",
+     "source_line_no": null,
+     "tex": "« eorum proiectionem memorant, quae nonnisi in exemplari a \\Name{Rabban aṭ–Ṭabarī} (4) medico",
+     "transcription": "« eorum proiectionem memorant, quae nonnisi in exemplari a {sp:Rabban aṭ–Ṭabarī} (4) medico",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0399-body-L007",
+     "source_line_no": null,
+     "tex": "« translato reperiuntur. In vetustis exemplaribus proiectio radiorum Ptolemaei non invenitur;",
+     "transcription": "« translato reperiuntur. In vetustis exemplaribus proiectio radiorum Ptolemaei non invenitur;",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0399-body-L008",
+     "source_line_no": null,
+     "tex": "« eamque nec \\Name{Thābit} nec \\Name{Ḥunayn al–Qallūsī} nec \\Name{al–Kindī} (5) nec ullus eorum ma-",
+     "transcription": "« eamque nec {sp:Thābit} nec {sp:Ḥunayn al–Qallūsī} nec {sp:al–Kindī} (5) nec ullus eorum ma-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0399-body-L009",
+     "source_line_no": null,
+     "tex": "« gnorum interpretum nec ullus familiae \\Name{Nawbakht} (6) cognoscunt ». In \\textit{Libros del saber}",
+     "transcription": "« gnorum interpretum nec ullus familiae {sp:Nawbakht} (6) cognoscunt ». In *Libros del saber*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0399-body-L010",
+     "source_line_no": null,
+     "tex": "\\textit{de astronomia} t. II, p. 69 (\\textit{Libro de las armellas,} lib. II, cap. LII) haec narrantur, quae ex",
+     "transcription": "*de astronomia* t. II, p. 69 (*Libro de las armellas,* lib. II, cap. LII) haec narrantur, quae ex",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0399-body-L011",
+     "source_line_no": null,
+     "tex": "Hispanica lingua verto: « Omnia quae hic dixi opinionem \\Name{Ptolemaei} de proiectione radio-",
+     "transcription": "Hispanica lingua verto: « Omnia quae hic dixi opinionem {sp:Ptolemaei} de proiectione radio-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0399-body-L012",
+     "source_line_no": null,
+     "tex": "« rum et directione [astrologica] fuisse, scias me in nullo Ptolemaei librorum invenisse, sed",
+     "transcription": "« rum et directione [astrologica] fuisse, scias me in nullo Ptolemaei librorum invenisse, sed",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0399-body-L013",
+     "source_line_no": null,
+     "tex": "« ita narrasse \\Name{Abū Ma‘shar} et Abū Isḥāq \\Name{az–Zarqālī}. Non impossibile est eam non fuisse",
+     "transcription": "« ita narrasse {sp:Abū Ma‘shar} et Abū Isḥāq {sp:az–Zarqālī}. Non impossibile est eam non fuisse",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0399-body-L014",
+     "source_line_no": null,
+     "tex": "« Ptolemaei opinionem, sed ei [falso] tributam esse; ut saepe contingit errores in versiones",
+     "transcription": "« Ptolemaei opinionem, sed ei [falso] tributam esse; ut saepe contingit errores in versiones",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0399-body-L015",
+     "source_line_no": null,
+     "tex": "« irrepere, et nomina ab altero in alterum mutari, praesertim tanto temporis intervallo, amplius",
+     "transcription": "« irrepere, et nomina ab altero in alterum mutari, praesertim tanto temporis intervallo, amplius",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0399-body-L016",
+     "source_line_no": null,
+     "tex": "« mille annis, quod post Ptolemaeum elapsum est (7). Si recte Tetrabiblum Ptolemaei intelle-",
+     "transcription": "« mille annis, quod post Ptolemaeum elapsum est (7). Si recte Tetrabiblum Ptolemaei intelle-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0399-body-L017",
+     "source_line_no": null,
+     "tex": "« xeris, eius opinionem potius ad sententiam Ibn Mu‘ādh quam aliorum inclinare invenies » (8).",
+     "transcription": "« xeris, eius opinionem potius ad sententiam Ibn Mu‘ādh quam aliorum inclinare invenies » (8).",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0399-body-L018",
+     "source_line_no": null,
+     "tex": "— Demum in \\textit{Libro tabularum Iahen cum regulis suis,} X exeunte aut XI saec. Chr. Arabice",
+     "transcription": "— Demum in *Libro tabularum Iahen cum regulis suis,* X exeunte aut XI saec. Chr. Arabice",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0399-body-L019",
+     "source_line_no": null,
+     "tex": "confecto et XII saec. a Gherardo Cremonensi Latine reddito, multi dicuntur errores fieri in",
+     "transcription": "confecto et XII saec. a Gherardo Cremonensi Latine reddito, multi dicuntur errores fieri in",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0399-body-L020",
+     "source_line_no": null,
+     "tex": "aliquot radiorum proiiciendorum rationibus: « primum namque illius [i. e. erroris], et est opus",
+     "transcription": "aliquot radiorum proiiciendorum rationibus: « primum namque illius [i. e. erroris], et est opus",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0399-body-L021",
+     "source_line_no": null,
+     "tex": "« quod attribuitur Ptolomaeo. Et transtulit illud ab eo Albumasar. quamvis Abunasar non est",
+     "transcription": "« quod attribuitur Ptolomaeo. Et transtulit illud ab eo Albumasar. quamvis Abunasar non est",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0399-body-L022",
+     "source_line_no": null,
+     "tex": "« veridicus in hac scientia, scilicet in scientia formae orbis » (9).",
+     "transcription": "« veridicus in hac scientia, scilicet in scientia formae orbis » (9).",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    }
+   ]
+  },
+  {
+   "role": "notes_left",
+   "lines": [
+    {
+     "id": "AB01-PDF0399-notes_left-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (1) \\textit{‘Uyūn al-anbā’ fī ṭabaqāt al-aṭibbā’, ed.}",
+     "transcription": "(1) *‘Uyūn al-anbā’ fī ṭabaqāt al-aṭibbā’, ed.*",
+     "semantic_anchor": "AB01-PDF0399-N01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0399-notes_left-L002",
+     "source_line_no": null,
+     "tex": "A. \\textit{Müller,} Kairo-Konigsberg 1884, t. I, p. 308-309.",
+     "transcription": "A. *Müller,* Kairo-Konigsberg 1884, t. I, p. 308-309.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0399-notes_left-L003",
+     "source_line_no": null,
+     "tex": "Locum e codd. mss. iam F. \\Name{Wüstenfeld}. \\textit{Ge-}",
+     "transcription": "Locum e codd. mss. iam F. {sp:Wüstenfeld}. *Ge-*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0399-notes_left-L004",
+     "source_line_no": null,
+     "tex": "\\textit{schichte der Arabischen Aerzte und Naturforscher,}",
+     "transcription": "*schichte der Arabischen Aerzte und Naturforscher,*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0399-notes_left-L005",
+     "source_line_no": null,
+     "tex": "Gottingen 1840, pag. 5 et 20, cognoverat, unde M.",
+     "transcription": "Gottingen 1840, pag. 5 et 20, cognoverat, unde M.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0399-notes_left-L006",
+     "source_line_no": null,
+     "tex": "\\Name{Steinschneider}, \\textit{Zur Geschichte der Ueber-}",
+     "transcription": "{sp:Steinschneider}, *Zur Geschichte der Ueber-*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0399-notes_left-L007",
+     "source_line_no": null,
+     "tex": "\\textit{setzungen aus dem Indischen,} p. 338 (in Zeitschr.",
+     "transcription": "*setzungen aus dem Indischen,* p. 338 (in Zeitschr.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0399-notes_left-L008",
+     "source_line_no": null,
+     "tex": "d. deutsch. morgenl. Gesellsch., t. XXIV, 1870) quo-",
+     "transcription": "d. deutsch. morgenl. Gesellsch., t. XXIV, 1870) quo-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0399-notes_left-L009",
+     "source_line_no": null,
+     "tex": "que recepit. Sed non bene « refractionem » (\\textit{Brech-}",
+     "transcription": "que recepit. Sed non bene « refractionem » (*Brech-*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0399-notes_left-L010",
+     "source_line_no": null,
+     "tex": "\\textit{ung der Lichtstrahlen}) interpretati sunt. – Eadem",
+     "transcription": "*ung der Lichtstrahlen*) interpretati sunt. – Eadem",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0399-notes_left-L011",
+     "source_line_no": null,
+     "tex": "Ibn Abī Uṣaybi‘ah verba, usque ad « translato re-",
+     "transcription": "Ibn Abī Uṣaybi‘ah verba, usque ad « translato re-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0399-notes_left-L012",
+     "source_line_no": null,
+     "tex": "periuntur », sunt apud \\Name{Ibn al-Qifṭī} (in \\Name{Casiri},",
+     "transcription": "periuntur », sunt apud {sp:Ibn al-Qifṭī} (in {sp:Casiri},",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0399-notes_left-L013",
+     "source_line_no": null,
+     "tex": "\\textit{Bibliotheca Arabico-Hispana Escurialensis,} Matriti",
+     "transcription": "*Bibliotheca Arabico-Hispana Escurialensis,* Matriti",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0399-notes_left-L014",
+     "source_line_no": null,
+     "tex": "1760-70, t. I, p. 436).",
+     "transcription": "1760-70, t. I, p. 436).",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0399-notes_left-L015",
+     "source_line_no": null,
+     "tex": "\\Indent (2) Albumasar aevi medii; mense Martio 886",
+     "transcription": "(2) Albumasar aevi medii; mense Martio 886",
+     "semantic_anchor": "AB01-PDF0399-N02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0399-notes_left-L016",
+     "source_line_no": null,
+     "tex": "Chr. obiit; \\Name{Suter}, p. 28-30, nr 53.",
+     "transcription": "Chr. obiit; {sp:Suter}, p. 28-30, nr 53.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0399-notes_left-L017",
+     "source_line_no": null,
+     "tex": "\\Indent (3) \\textit{Almagesti} procul dubio error est pro « \\textit{Qua-}",
+     "transcription": "(3) *Almagesti* procul dubio error est pro « *Qua-*",
+     "semantic_anchor": "AB01-PDF0399-N03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0399-notes_left-L018",
+     "source_line_no": null,
+     "tex": "\\textit{dripartito} »; Ḥunayn hunc librum tantum verterat,",
+     "transcription": "*dripartito* »; Ḥunayn hunc librum tantum verterat,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0399-notes_left-L019",
+     "source_line_no": null,
+     "tex": "nec verisimile est astrologum medicumque Rabban",
+     "transcription": "nec verisimile est astrologum medicumque Rabban",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0399-notes_left-L020",
+     "source_line_no": null,
+     "tex": "Almagesti versionem edidisse. Praeterea in Alma-",
+     "transcription": "Almagesti versionem edidisse. Praeterea in Alma-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0399-notes_left-L021",
+     "source_line_no": null,
+     "tex": "gesto minime exspectandum erat caput de radiatio-",
+     "transcription": "gesto minime exspectandum erat caput de radiatio-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0399-notes_left-L022",
+     "source_line_no": null,
+     "tex": "nibus, quod contra aptissimum habuisset in Tetra-",
+     "transcription": "nibus, quod contra aptissimum habuisset in Tetra-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0399-notes_left-L023",
+     "source_line_no": null,
+     "tex": "biblo locum. Quae infra dicam de capite addito ver-",
+     "transcription": "biblo locum. Quae infra dicam de capite addito ver-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0399-notes_left-L024",
+     "source_line_no": null,
+     "tex": "sioni Latinae, ex Arabico, Tetrabibli, coniecturam",
+     "transcription": "sioni Latinae, ex Arabico, Tetrabibli, coniecturam",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0399-notes_left-L025",
+     "source_line_no": null,
+     "tex": "meam confirmant. – Ita correctio a \\Name{Suter} p. 14",
+     "transcription": "meam confirmant. – Ita correctio a {sp:Suter} p. 14",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0399-notes_left-L026",
+     "source_line_no": null,
+     "tex": "proposita (Isḥāq ibn Ḥunayn pro Ḥunayn) inutilis fit",
+     "transcription": "proposita (Isḥāq ibn Ḥunayn pro Ḥunayn) inutilis fit",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0399-notes_left-L027",
+     "source_line_no": null,
+     "tex": "\\Indent (4) Ineunte IX saec. Chr.; \\Name{Suter}, p. 14-15,",
+     "transcription": "(4) Ineunte IX saec. Chr.; {sp:Suter}, p. 14-15,",
+     "semantic_anchor": "AB01-PDF0399-N04",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  },
+  {
+   "role": "notes_right",
+   "lines": [
+    {
+     "id": "AB01-PDF0399-notes_right-L001",
+     "source_line_no": null,
+     "tex": "nr. 25; M. \\Name{Steinschneider}, passim, eum su-",
+     "transcription": "nr. 25; M. {sp:Steinschneider}, passim, eum su-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0399-notes_right-L002",
+     "source_line_no": null,
+     "tex": "spicatur eundem esse virum qui alias Sahl ibn Bishr",
+     "transcription": "spicatur eundem esse virum qui alias Sahl ibn Bishr",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0399-notes_right-L003",
+     "source_line_no": null,
+     "tex": "vocatur.",
+     "transcription": "vocatur.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0399-notes_right-L004",
+     "source_line_no": null,
+     "tex": "\\Indent (5) Omnes IX saec. Chr. fuerunt; \\Name{Suter} p. 34–",
+     "transcription": "(5) Omnes IX saec. Chr. fuerunt; {sp:Suter} p. 34–",
+     "semantic_anchor": "AB01-PDF0399-N05",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0399-notes_right-L005",
+     "source_line_no": null,
+     "tex": "-38 (nr. 66). 21-23 (nr. 44), 23-26 (nr. 45).",
+     "transcription": "-38 (nr. 66). 21-23 (nr. 44), 23-26 (nr. 45).",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0399-notes_right-L006",
+     "source_line_no": null,
+     "tex": "\\Indent (6) Saec. VIII, et initio IX Chr.; \\Name{Suter} p 3",
+     "transcription": "(6) Saec. VIII, et initio IX Chr.; {sp:Suter} p 3",
+     "semantic_anchor": "AB01-PDF0399-N06",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0399-notes_right-L007",
+     "source_line_no": null,
+     "tex": "(nr. 2), 5 (nr. 7), 16 (nr. 27 et 28).",
+     "transcription": "(nr. 2), 5 (nr. 7), 16 (nr. 27 et 28).",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0399-notes_right-L008",
+     "source_line_no": null,
+     "tex": "\\Indent (7) « Et quanto yo aquí dixe ..... sabe que non",
+     "transcription": "(7) « Et quanto yo aquí dixe ..... sabe que non",
+     "semantic_anchor": "AB01-PDF0399-N07",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0399-notes_right-L009",
+     "source_line_no": null,
+     "tex": "« lo fallé en ninguno de los libros de Ptolomeo. fora",
+     "transcription": "« lo fallé en ninguno de los libros de Ptolomeo. fora",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0399-notes_right-L010",
+     "source_line_no": null,
+     "tex": "« ende que lo dixeron assí Abumassar. et Abuçac el",
+     "transcription": "« ende que lo dixeron assí Abumassar. et Abuçac el",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0399-notes_right-L011",
+     "source_line_no": null,
+     "tex": "« Zarquiel. Et bien puede seer que non fué opinion",
+     "transcription": "« Zarquiel. Et bien puede seer que non fué opinion",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0399-notes_right-L012",
+     "source_line_no": null,
+     "tex": "« de Ptolomeo. Et apusiérongelo cuemo contesce",
+     "transcription": "« de Ptolomeo. Et apusiérongelo cuemo contesce",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0399-notes_right-L013",
+     "source_line_no": null,
+     "tex": "« muchas ueces. que cae yerro en el trasladar. et",
+     "transcription": "« muchas ueces. que cae yerro en el trasladar. et",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0399-notes_right-L014",
+     "source_line_no": null,
+     "tex": "« mudan el nombre de uno á otro. quanto mas en",
+     "transcription": "« mudan el nombre de uno á otro. quanto mas en",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0399-notes_right-L015",
+     "source_line_no": null,
+     "tex": "« tan gran sazon que a que fué Ptolomeo. que mas",
+     "transcription": "« tan gran sazon que a que fué Ptolomeo. que mas",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0399-notes_right-L016",
+     "source_line_no": null,
+     "tex": "« a de mil annos ».",
+     "transcription": "« a de mil annos ».",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0399-notes_right-L017",
+     "source_line_no": null,
+     "tex": "\\Indent (8) « Et quando entendieres bien el quarto par-",
+     "transcription": "(8) « Et quando entendieres bien el quarto par-",
+     "semantic_anchor": "AB01-PDF0399-N08",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0399-notes_right-L018",
+     "source_line_no": null,
+     "tex": "« tido de Ptolomeo. entendrás que mas tira su opi-",
+     "transcription": "« tido de Ptolomeo. entendrás que mas tira su opi-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0399-notes_right-L019",
+     "source_line_no": null,
+     "tex": "« nion á lo que dixo Aben-Mohat que non á otro ».",
+     "transcription": "« nion á lo que dixo Aben-Mohat que non á otro ».",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0399-notes_right-L020",
+     "source_line_no": null,
+     "tex": "— Muḥammad \\Name{Ibn Mu‘ādh al-Ǵayyānī} X aut",
+     "transcription": "— Muḥammad {sp:Ibn Mu‘ādh al-Ǵayyānī} X aut",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0399-notes_right-L021",
+     "source_line_no": null,
+     "tex": "XI saec. Chr. fuit; cum viro a \\Name{Suter} nr. 213 me-",
+     "transcription": "XI saec. Chr. fuit; cum viro a {sp:Suter} nr. 213 me-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0399-notes_right-L022",
+     "source_line_no": null,
+     "tex": "morato non confundendus, ut Suter ipse agnovit in",
+     "transcription": "morato non confundendus, ut Suter ipse agnovit in",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0399-notes_right-L023",
+     "source_line_no": null,
+     "tex": "\\textit{Nachträge und Berichtigungen} editis in \\textit{Abhand-}",
+     "transcription": "*Nachträge und Berichtigungen* editis in *Abhand-*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0399-notes_right-L024",
+     "source_line_no": null,
+     "tex": "\\textit{lungen zur Geschichte der mathematischen Wis-}",
+     "transcription": "*lungen zur Geschichte der mathematischen Wis-*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0399-notes_right-L025",
+     "source_line_no": null,
+     "tex": "\\textit{senschaften,} t XIV.",
+     "transcription": "*senschaften,* t XIV.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0399-notes_right-L026",
+     "source_line_no": null,
+     "tex": "\\Indent (9) Apud M \\Name{Steinschneider}, \\textit{Lettere a}",
+     "transcription": "(9) Apud M {sp:Steinschneider}, *Lettere a*",
+     "semantic_anchor": "AB01-PDF0399-N09",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0399-notes_right-L027",
+     "source_line_no": null,
+     "tex": "\\textit{D. B. Boncompagni: II. Intorno al libro « Sara-}",
+     "transcription": "*D. B. Boncompagni: II. Intorno al libro « Sara-*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  }
+ ]
+}
