@@ -1,0 +1,477 @@
+{
+ "anchor": "AB01-PDF0410",
+ "master_pdf_page": 410,
+ "printed_page": 321,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": "41",
+ "margin_locators": [],
+ "observations": [
+  "body L1-L3: the hyphen of «pre-» prints as a dot. «Schiaparelli» is letter-spaced; the dash after «delineavit.» measures 8.8 pt.",
+  "body L3-L8: the Arabic is set as printed, with its vowel signs and the shadda over the lām of كلّ; «الى», «على» and «فنرى» are printed without the dots of the yā. The words الى هذا الموضع فوصفنا stand in the Arabic text, vol. III, p. 210, L2, as Nallino says. The sentence of the translation that the correction concerns is p. 139, L20 («Quoniam ad hunc nostri libri locum pervenimus»); «l. 10» (L6) is printed for l. 20, here and in the addenda (Part I, p. LXXII: «139,10, emendandum sicut p. 321 docui.»). The record of p. 139 notes the correction.",
+  "body L22-L36: heavy brackets open and close Schiaparelli's addition, from «Indici» (L22) to «Schiaparelli.» (L36); the dash before it measures 10.2 pt. «al–Battānī» (L28, L33, L35) is not letter-spaced; its dashes measure 5.3, 5.2 and 5.2 pt. The c of «indicem» (L30) prints as a blot. The examples of the use of the armillary sphere are on p. 142 of the translation, as printed.",
+  "body L37: the dash after «c)» measures 9.6 pt; «143–144» has a long dash (5.3 pt). The triquetrum is described on pp. 143-144 of the translation.",
+  "body L38-L45: a speck stands before «Triquetrum» (L38). «al–Battānī» (L39), «Barhebraeus» and «Nau» are letter-spaced. The transliterations are set as printed; the dashes of «al–ʿiḍādah», «aṭ–ṭawīlah», «al–ʿiḍādatāni», «aṭ–ṭawīlatāni», «ash–» and «–shuʿbatayn» measure 5.4, 5.3, 5.4, 5.3, 5.2 and 5.9 pt, the dash of «ash–» being set again at the head of L41. The Syriac words are printed in the Serto script with their vowel signs; the edition sets them in an Estrangela type. The gathering signature 41 stands at the foot of the page."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0410-body-L001",
+     "source_line_no": null,
+     "tex": "\\Indent Quoniam instrumenti descriptio aliquantum in textu Albateniano est obscura, operis pre-",
+     "transcription": "Quoniam instrumenti descriptio aliquantum in textu Albateniano est obscura, operis pre-",
+     "semantic_anchor": "AB01-PDF0410-P01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0410-body-L002",
+     "source_line_no": null,
+     "tex": "tium duco eam multo brevius et clarius exponere; verba mea optime illustrat imago quam",
+     "transcription": "tium duco eam multo brevius et clarius exponere; verba mea optime illustrat imago quam",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0410-body-L003",
+     "source_line_no": null,
+     "tex": "\\Name{Schiaparelli} humanissime delineavit. — Sed antea rogo ut in textu t. III, p. 210, l. 2,",
+     "transcription": "{sp:Schiaparelli} humanissime delineavit. — Sed antea rogo ut in textu t. III, p. 210, l. 2,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0410-body-L004",
+     "source_line_no": null,
+     "tex": "quaedam restituantur in impressione oblita: post \\ArabicRun{الى هذا الموضع} loco vocabuli \\ArabicRun{فوصفنا} ponatur \\ArabicRun{واتينا}",
+     "transcription": "quaedam restituantur in impressione oblita: post {ar:الى هذا الموضع} loco vocabuli {ar:فوصفنا} ponatur {ar:واتينا}",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0410-body-L005",
+     "source_line_no": null,
+     "tex": "\\ArabicRun{على كلّ ما يحتاج ان يُقَدَّمَ ذكرُهُ بقدر الطاقة فنرى ان نختِم في هذا الموضع بوصفنا}. Qua re versio t. I, p. 139,",
+     "transcription": "{ar:على كلّ ما يحتاج ان يُقَدَّمَ ذكرُهُ بقدر الطاقة فنرى ان نختِم في هذا الموضع بوصفنا}. Qua re versio t. I, p. 139,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0410-body-L006",
+     "source_line_no": null,
+     "tex": "l. 10 ita corrigenda: « Quoniam in hoc libro ad hunc pervenimus locum et pro [nostris] vi-",
+     "transcription": "l. 10 ita corrigenda: « Quoniam in hoc libro ad hunc pervenimus locum et pro [nostris] vi-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0410-body-L007",
+     "source_line_no": null,
+     "tex": "« ribus omnia quorum commemorationem praemittere necesse erat attulimus, visum est nobis",
+     "transcription": "« ribus omnia quorum commemorationem praemittere necesse erat attulimus, visum est nobis",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0410-body-L008",
+     "source_line_no": null,
+     "tex": "« hoc loco concludere [librum] describendo instrumentum » etc.",
+     "transcription": "« hoc loco concludere [librum] describendo instrumentum » etc.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0410-body-L009",
+     "source_line_no": null,
+     "tex": "\\Indent \\textit{Globus caelestis} in binis aequatoris polis ope duorum axium suspensus exstat minimae",
+     "transcription": "*Globus caelestis* in binis aequatoris polis ope duorum axium suspensus exstat minimae",
+     "semantic_anchor": "AB01-PDF0410-P02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0410-body-L010",
+     "source_line_no": null,
+     "tex": "armillarum omnium, quae \\textit{meridianum mobilem} AAA effingit; hic autem meridianus in plano",
+     "transcription": "armillarum omnium, quae *meridianum mobilem* AAA effingit; hic autem meridianus in plano",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0410-body-L011",
+     "source_line_no": null,
+     "tex": "suo volvitur intra \\textit{meridianum immotum} BBB (cuius limbus numeros graduum fert), ut ad",
+     "transcription": "suo volvitur intra *meridianum immotum* BBB (cuius limbus numeros graduum fert), ut ad",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0410-body-L012",
+     "source_line_no": null,
+     "tex": "quamcumque terrestrem latitudinem instrumentum aptari possit. Ambo meridiani eiusdem sunt",
+     "transcription": "quamcumque terrestrem latitudinem instrumentum aptari possit. Ambo meridiani eiusdem sunt",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0410-body-L013",
+     "source_line_no": null,
+     "tex": "spissitudinis, et sibi invicem bene applicati, qua re unam armillam tantum efficere videntur. Meri-",
+     "transcription": "spissitudinis, et sibi invicem bene applicati, qua re unam armillam tantum efficere videntur. Meri-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0410-body-L014",
+     "source_line_no": null,
+     "tex": "dianus immotus immutabiliter connexus cum duabus armillis HHH et CC, quae \\textit{horizontem}",
+     "transcription": "dianus immotus immutabiliter connexus cum duabus armillis HHH et CC, quae *horizontem*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0410-body-L015",
+     "source_line_no": null,
+     "tex": "et \\textit{primum verticalem} repraesentant; diametri exteriores harum trium armillarum aequales,",
+     "transcription": "et *primum verticalem* repraesentant; diametri exteriores harum trium armillarum aequales,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0410-body-L016",
+     "source_line_no": null,
+     "tex": "unde unicum systema orbiculare exoritur, cui, iuxta lineas zenith et nadir indicantes, duae",
+     "transcription": "unde unicum systema orbiculare exoritur, cui, iuxta lineas zenith et nadir indicantes, duae",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0410-body-L017",
+     "source_line_no": null,
+     "tex": "spinae vel clavi infixi sunt, duos polos efficientes. Provenit hoc modo axis circa quem totum",
+     "transcription": "spinae vel clavi infixi sunt, duos polos efficientes. Provenit hoc modo axis circa quem totum",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0410-body-L018",
+     "source_line_no": null,
+     "tex": "systema volvitur intra \\textit{maximam armillarum} DDD; haec autem circa eundem axim SS li-",
+     "transcription": "systema volvitur intra *maximam armillarum* DDD; haec autem circa eundem axim SS li-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0410-body-L019",
+     "source_line_no": null,
+     "tex": "bere volvitur, verticalem quemcumque effingit, et in limbo numerationem graduum praebet.",
+     "transcription": "bere volvitur, verticalem quemcumque effingit, et in limbo numerationem graduum praebet.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0410-body-L020",
+     "source_line_no": null,
+     "tex": "Eius officium est \\textit{indicem radiorum solarium} E gerere, qui, ope duarum pinnularum, potest",
+     "transcription": "Eius officium est *indicem radiorum solarium* E gerere, qui, ope duarum pinnularum, potest",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0410-body-L021",
+     "source_line_no": null,
+     "tex": "in directione radiorum collocari sicut figura ostendit.",
+     "transcription": "in directione radiorum collocari sicut figura ostendit.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0410-body-L022",
+     "source_line_no": null,
+     "tex": "\\Indent [Indici praeterea coniunctus est acus F, qui potest versus machinae centrum pelli usque",
+     "transcription": "[Indici praeterea coniunctus est acus F, qui potest versus machinae centrum pelli usque",
+     "semantic_anchor": "AB01-PDF0410-P03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0410-body-L023",
+     "source_line_no": null,
+     "tex": "quo globum tangat et in eo directionem Solis indicet, aut retrahi ne rotationem armillarum",
+     "transcription": "quo globum tangat et in eo directionem Solis indicet, aut retrahi ne rotationem armillarum",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0410-body-L024",
+     "source_line_no": null,
+     "tex": "interiorum respectu maximae exterioris impediat. Radiorum index demum geritur cursore G,",
+     "transcription": "interiorum respectu maximae exterioris impediat. Radiorum index demum geritur cursore G,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0410-body-L025",
+     "source_line_no": null,
+     "tex": "seu adpendice mobili, quae movetur in lata fissura circulari L maximae armillae; ita ad",
+     "transcription": "seu adpendice mobili, quae movetur in lata fissura circulari L maximae armillae; ita ad",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0410-body-L026",
+     "source_line_no": null,
+     "tex": "libitum supra horizontem elevari potest, iuxta varias Solis altitudines.",
+     "transcription": "libitum supra horizontem elevari potest, iuxta varias Solis altitudines.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0410-body-L027",
+     "source_line_no": null,
+     "tex": "\\Indent Totum instrumentum, ope duorum clavorum seu axium, inferioris et superioris, aptatur",
+     "transcription": "Totum instrumentum, ope duorum clavorum seu axium, inferioris et superioris, aptatur",
+     "semantic_anchor": "AB01-PDF0410-P04",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0410-body-L028",
+     "source_line_no": null,
+     "tex": "fulcimento cuicumque ligneo aut ferreo, sicut al–Battānī indicat. Tamen, si nimium non habet",
+     "transcription": "fulcimento cuicumque ligneo aut ferreo, sicut al–Battānī indicat. Tamen, si nimium non habet",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0410-body-L029",
+     "source_line_no": null,
+     "tex": "pondus, suspendi potest annulo coniuncto axi superiori, et manu gestari; tunc ob ipsum instru-",
+     "transcription": "pondus, suspendi potest annulo coniuncto axi superiori, et manu gestari; tunc ob ipsum instru-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0410-body-L030",
+     "source_line_no": null,
+     "tex": "menti pondus, axis manet verticalis. Sed ego necessarium in hoc casu existimo indicem ra-",
+     "transcription": "menti pondus, axis manet verticalis. Sed ego necessarium in hoc casu existimo indicem ra-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0410-body-L031",
+     "source_line_no": null,
+     "tex": "diorum aequilibrare alio segmento eiusdem ponderis, quod moveatur in fissura maximae armillae",
+     "transcription": "diorum aequilibrare alio segmento eiusdem ponderis, quod moveatur in fissura maximae armillae",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0410-body-L032",
+     "source_line_no": null,
+     "tex": "facta in azimuth opposito indici ipsi. Hunc duplicem modum sphaerae armillaris sustentandae,",
+     "transcription": "facta in azimuth opposito indici ipsi. Hunc duplicem modum sphaerae armillaris sustentandae,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0410-body-L033",
+     "source_line_no": null,
+     "tex": "aut fulcimento fixo aut manu, al–Battānī indicat, sed aliquantum confuse.",
+     "transcription": "aut fulcimento fixo aut manu, al–Battānī indicat, sed aliquantum confuse.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0410-body-L034",
+     "source_line_no": null,
+     "tex": "\\Indent Omnes sphaerae circuli in hoc instrumento habentur, qua re problemata omnia usum",
+     "transcription": "Omnes sphaerae circuli in hoc instrumento habentur, qua re problemata omnia usum",
+     "semantic_anchor": "AB01-PDF0410-P05",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0410-body-L035",
+     "source_line_no": null,
+     "tex": "sphaerae armillaris requirentia resolvi possunt, ut exemplis aliquot al–Battānī p. 142 demon-",
+     "transcription": "sphaerae armillaris requirentia resolvi possunt, ut exemplis aliquot al–Battānī p. 142 demon-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0410-body-L036",
+     "source_line_no": null,
+     "tex": "strat. — \\textsc{Schiaparelli}.]",
+     "transcription": "strat. — {sc:Schiaparelli}.]",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0410-body-L037",
+     "source_line_no": null,
+     "tex": "\\CenterLine{\\textbf{\\textit{c}}) — \\textit{Pag. 143–144.}}",
+     "transcription": "{bi:c}) — *Pag. 143–144.*",
+     "semantic_anchor": "AB01-PDF0410-H37",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0410-body-L038",
+     "source_line_no": null,
+     "tex": "\\Indent \\textit{Triquetrum} sive \\textit{regulae parallacticae}.",
+     "transcription": "*Triquetrum* sive *regulae parallacticae*.",
+     "semantic_anchor": "AB01-PDF0410-P06",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0410-body-L039",
+     "source_line_no": null,
+     "tex": "\\Indent Instrumenti nomen apud \\Name{al–Battānī} est \\textit{al–ʿiḍādah aṭ–ṭawīlah} « alhidada longa »",
+     "transcription": "Instrumenti nomen apud {sp:al–Battānī} est *al–ʿiḍādah aṭ–ṭawīlah* « alhidada longa »",
+     "semantic_anchor": "AB01-PDF0410-P07",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0410-body-L040",
+     "source_line_no": null,
+     "tex": "aut \\textit{al–ʿiḍādatāni aṭ–ṭawīlatāni} « duae alhidadae longae »; apud alios Arabes \\textit{dhāt ash–}",
+     "transcription": "aut *al–ʿiḍādatāni aṭ–ṭawīlatāni* « duae alhidadae longae »; apud alios Arabes *dhāt ash–*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0410-body-L041",
+     "source_line_no": null,
+     "tex": "\\textit{–shuʿbatayn} « [instrumentum] duobus praeditum ramis », cum quibus possunt duae hastae",
+     "transcription": "*–shuʿbatayn* « [instrumentum] duobus praeditum ramis », cum quibus possunt duae hastae",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0410-body-L042",
+     "source_line_no": null,
+     "tex": "seu regulae mobiles comparari. \\Name{Barhebraeus}, \\textit{Astronomia} p. 205 text., nomen Arabicum",
+     "transcription": "seu regulae mobiles comparari. {sp:Barhebraeus}, *Astronomia* p. 205 text., nomen Arabicum",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0410-body-L043",
+     "source_line_no": null,
+     "tex": "Syriace vertit \\textsyriac{ܐܘܪܓܢܘܢ ܬܪܰܝܳܢܳܝ ܦܶܫܚܳܐ} \\textit{ōrganōn trayānāy peshḥā} « instrumentum binis ramo-",
+     "transcription": "Syriace vertit {syr:ܐܘܪܓܢܘܢ ܬܪܰܝܳܢܳܝ ܦܶܫܚܳܐ} *ōrganōn trayānāy peshḥā* « instrumentum binis ramo-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0410-body-L044",
+     "source_line_no": null,
+     "tex": "« rum bifurcis praeditum » (minus recte \\textit{instrument à deux fentes} in versione Gallica \\Name{Nau},",
+     "transcription": "« rum bifurcis praeditum » (minus recte *instrument à deux fentes* in versione Gallica {sp:Nau},",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0410-body-L045",
+     "source_line_no": null,
+     "tex": "pag. 180).",
+     "transcription": "pag. 180).",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    }
+   ]
+  }
+ ]
+}
