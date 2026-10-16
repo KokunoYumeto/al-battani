@@ -18,6 +18,7 @@ The transcription is complete: pp. 359–413, the Index geographicus (pp. 359–
 | `anchors.tsv` | Every printed line: anchor, printed page, section, transcription. |
 | `check_observations.py` | Checks the line numbers named in the observations against the transcribed lines. |
 | `fonts/NallinoSigns.otf` | The zero sign of the tables (shared with the glossary). |
+| `page_disposition.tsv` | The leaves of the master scan after the last page of Part II (PDF 863-867): blank leaves and a leaf with a printed presentation statement of the Brera Observatory and the half-title of the work, both transcribed there; the Latin title pages of Part III follow (S10). |
 
 ## Conventions
 
