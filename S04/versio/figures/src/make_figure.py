@@ -28,7 +28,9 @@ ink (_intake/latin/tools/fig_measure2.py). Optional:
   "hatchpoly" [{"pts": [[x, y], ...], "ys": [y, ...], "w", "name"}]: the polygon through the points filled with
            horizontal lines W pt thick at the printed heights ys (a hatching whose lines are not evenly spaced)
   "curves" [{"pts": [[x, y], ...], "w", "name"}]: an open curve that is neither a circle nor a line, drawn as the
-           polyline of its traced centre line (points about 0.5 pt apart)
+           polyline of its traced centre line (points about 0.5 pt apart); optional "closed": true closes it,
+           "join" sets its line join (round by default; miter for the sharp corners of a figure drawn as one
+           outline) and "cap" its line cap (butt by default)
   "arcbraces" [{"cx", "cy", "r", "a0", "a1", "amp", "w", "name"}]: a curly brace along the arc of radius r from
            the angle a0 to a1 (degrees, as for "arcs"), its ends on the arc and its point "amp" pt outside it (a
            negative amp puts the point inside); drawn as a curve through computed points
@@ -127,8 +129,10 @@ def main():
         out.append(r"\fill (" + X(dt["cx"]) + "," + Y(dt["cy"]) + ") circle[radius=" + f"{dt['r']:.2f}" + "];  % "
                    + dt["name"])
     for cv in d.get("curves", []):
-        out.append(r"\draw[line width=" + f"{cv['w'] * s:.2f}" + "pt,line join=round] " + " -- ".join(
-            "(" + X(x) + "," + Y(y) + ")" for x, y in cv["pts"]) + ";  % " + cv["name"])
+        style = (r"line width=" + f"{cv['w'] * s:.2f}" + "pt,line join=" + cv.get("join", "round")
+                 + (",line cap=" + cv["cap"] if cv.get("cap") else ""))
+        out.append(r"\draw[" + style + "] " + " -- ".join("(" + X(x) + "," + Y(y) + ")" for x, y in cv["pts"])
+                   + (" -- cycle" if cv.get("closed") else "") + ";  % " + cv["name"])
     for fl in d.get("fills", []):
         if fl.get("poly"):  # the traced polygon, with its holes left blank
             path = " ".join(" -- ".join("(" + X(x) + "," + Y(y) + ")" for x, y in ring) + " -- cycle"

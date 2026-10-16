@@ -1,0 +1,76 @@
+@page 396 307
+% Commentary on chapter 54 c) concluded: what Ibn Yūnus thought of the projection of the rays is not known. Note also that the astrologers use the radiation of the planets only, not of the fixed stars (p. 131, l. 4); so the latitudes are always much less than 60°. d) p. 131, l. 20-38: the computation of the projection of the rays. I. Al-Battānī's computation. The projection of the quadrature on the ecliptic is always 90°, as the author said before and as explained in note c; the projection of the trine = 180° − the projection of the sextile; so it suffices to know the projection of the sextile ray. Al-Battānī's formulas look extremely long and intricate at first sight; how they could be proved is not understood; developed analytically by trigonometric functions they become horrible monsters. No one will believe al-Battānī wrote them (note 1: if they came from al-Battānī, Ibn Yūnus would have blamed them in the place cited on p. 306); the hand of the most stupid interpolator is recognized again. What al-Battānī's solution was is shown by the words of l. 22-23. The problem is like the first of chapter XXVI: given a star of latitude β and a star on the ecliptic, to compute the distance of one from the other on the great circle through both (figure); now the distance (60°) is given, and the unknown x is the quantity L − L′ of chapter XXVI. With the names set there (p. 39): first side = x, second side = 2 arc (sin x/2 × cos β/R), third side = crd β; the rule of that chapter becomes crd I × crd II = square of crd 60° − square of the third side, that is (note 2: in the commentary, p. 202, cos β/2R is misprinted three times for cos β/R) crd x × crd x cos β/R = crd² 60° − crd² β, crd² x = R (crd² 60° − crd² β)/cos β, whence (α) crd x = √(R (crd² 60 − crd² β)/cos β), which Nallino thinks al-Battānī's formula. To restore this rule it suffices to omit a little of al-Battānī's text, add much less and keep the rest intact; marking the omissions by dots, Nallino has no doubt al-Battānī wrote: «in the tables of sines find the cosine of the latitude [and divide it by the radius; the quotient will now be] the whole chord of the second side, which we have mentioned only in the chapter on the diagonals of quadrilaterals and in this chapter. Keep this chord of the second side. Then find the chord of the latitude, which is twice the sine of half the latitude. ..... Subtract the square of the chord of the latitude from 3600p, that is from the square of the chord of the sextile aspect .....; divide the remainder by [the kept chord of] the second side [and take the square root of the quotient]; ..... the chord sought will result; convert it into an arc as whole chords are converted, etc.». To make sure this is al-Battānī's true rule, Nallino reduces it to the direct solution of the spherical triangle. Since (continued).
+@nonum
+@vspace 0.07
+iectione radiorum senserit ignoramus. Praeterea animadvertendum est radiationem dumtaxat
+planetarum astrologos adhibere, non stellarum fixarum (p. 131, l. 4); latitudines igitur semper
+multo minores quam 60° esse.
+@vspace 5.29
+@center {bi:d}) — *Pag. 131, l. 20–38.*
+@vspace 4.37
+^ *Supputatio proiectionis radiorum.*
+^ I. — *Supputatio Albateniana.* Proiectio radiationis quadratae in eclipticam semper
+est 90°, ut auctor antea dixerat et in adn. {bi:c} explicatum est. Proiectio radiationis trini $=$ 180°
+$-$ proiectio sextilis; sufficit igitur proiectionem radii sextilis cognoscere.
+^ Formulae Albatenianae primo iam aspectu summopere longae et intricatae apparent; quo
+modo demonstrari possint non intelligitur. Si analytice per functiones trigonometricas evolvan-
+@vspace 0.33
+tur horribilia monstra fiunt. Haec {sp:Albatenium} scripsisse nemo credere poterit (1); stultis-
+simi interpolatoris manus rursus agnoscitur.
+@wrapr 155.22 AB01-PDF0396-F01
+^ Qualis solutio {sp:Albatenii} fuerit indicium praebent verba l. 22–23. Pro-
+blema simile est primo capitis XXVI: data stella latitudinis β et stella in
+ecliptica consistens, alterius distantiam ab altera in circulo maximo per am-
+bas transeunte supputare. Nunc vero distantia (60°) iam est data; quantitas
+incognita $x$ est quantitas L $-$ L′ cap. XXVI.
+@endwrap
+@vspace -0.36
+^ Iuxta nomina eo loco (p. 39) constituta erunt nunc
+@vspace -0.43
+@at 23.89:I latus $= x$, | 58.05:II latus $= 2$ arc $\left(\sin\dfrac{x}{2} \times \dfrac{\cos\text{β}}{R}\right)$, | 132.50:III latus $=$ crd β.
+@vspace -1.44
+et regula illius capitis fiet
+@at 25.43:crd I lateris $\times$ crd II lateris $=$ quad. crd 60° $-$ quadr. III lateris,
+id est (2)
+@vspace -1.79
+@at 12.34:$\text{crd}\;x \times \text{crd}\;x\,\dfrac{\cos\text{β}}{R} = \text{crd}^2\;\text{60°} - \text{crd}^2\;\text{β}$, | 121.39:crd$^2$ $x = R\,\dfrac{\text{crd}^2\,\text{60°} - \text{crd}^2\,\text{β}}{\cos\text{β}}$
+@vspace -1.49
+unde demum
+@vspace -2.50
+@at 1.41:(α) | 64.66:crd $x = \sqrt{R\,\dfrac{\text{crd}^2\,\text{60} - \text{crd}^2\,\text{β}}{\cos\text{β}}}$
+@vspace -1.15
+quam formulam {sp:al–Battānī} fuisse existimo. Et re vera ad hanc regulam restituendam suf-
+ficit in textu Albateniano pauca omittere, longe pauciora addere, *reliqua intacta* servare;
+ergo, aliquot punctis indicans omittenda et nunc omissa, non dubito {sp:al–Battānī} hoc modo
+scripsisse: « in tabulis sinuum inveni cosinum latitudinis [eumque per semidiametrum divide;
+« quod proveniet erit nunc] chorda integra secundi lateris, quod tantum in capite de diagonalibus
+« quadrilaterorum et in hoc ipso capite in quo sumus memoravimus. Hanc secundi lateris chor-
+@vspace -0.04
+« dam serva. Inveni postea chordam latitudinis, quae est sinus duplicatus dimidiae latitudinis. .....
+« Quadratum chordae latitudinis deme de 3600{sup:*p*}, idest de quadrato chordae aspectus sextilis .....;
+« residuum divide per [chordam servatam] secundi lateris [et quotientis radicem quadratam
+« sume]; ..... exibit chorda quaesita, quam in arcum converte ut chordae integrae arcuan-
+« tur, etc. ».
+^ Ut certiores fiamus hanc esse veram Albatenii regulam, eam ad directam resolutionem
+trianguli sphaerici reducamus. Quoniam
+@notes
+@fontsize 9 11.80
+@vspace 4.75
+^ (1) Si ab al-Battānī provenirent, obiurgaren-
+@vspace 0.76
+tur ab {sp:Ibn Yūnus} loco p. 306 adducto.
+@col
+@fontsize 9 11.80
+@vspace 4.67
+^ (2) In adnotat., p. 202, tribus locis perperam
+@vspace -0.90
+$\dfrac{\cos\text{β}}{2R}$ pro $\dfrac{\cos\text{β}}{R}$ impressum est.
+@obs body L1-L3: the end of the commentary c) begun on p. 306. P. 131, L4 of the translation leaves out the fixed stars («fixae, ob tardum suum motum, nec per applicationem planetis nec per proiectionem radiorum»), as printed.
+@obs body L4-L8: the dash after «d)» measures 9.7 pt and the dash of «20–38» (5.0 pt) is a long dash; the dash after «I.» measures 10.2 pt. The minus sign that begins L8 is printed as a dash (10.6 pt) and is set as a minus sign. The projection of the trine is 180° less that of the sextile, since AS + SB = 180° (p. 306, L29), as printed.
+@obs body L9-L12: «Albatenium» is letter-spaced. The second o of «modo» (L10) prints broken, and an ink spot stands within «trigonometricas».
+@obs body L13-L17: «Albatenii» (L13) is letter-spaced, and «22–23» has a long dash (5.2 pt). P. 131, L22-L23 of the translation read «est chorda integra secundi lateris, quod tantum in capite de diagonalibus quadrilaterorum [cap. XXVI] et in hoc capite ipso, in quo sumus, memoravimus». The figure of the right spherical triangle (the hypotenuse 60°, the latitude β, the arc x of the ecliptic) stands on the right of L13-L16, redrawn from the print: its sides are slightly curved (fitted with parabolas, rms 0.04 to 0.16 pt) and meet in sharp corners, the right angle is marked by two small arcs, and 60° and 90° are turned along the sides (10° and −25°). The minus sign of L17 is printed as a dash (9.6 pt).
+@obs body L18-L25: the rule of chapter XXVI (rule (α) of p. 202: the square of the chord of the distance is the product of the chords of the first and second sides with the square of the chord of the third side added) gives, for the distance 60°, the rule of L21. The second side has the chord crd x cos β/R, so that L23 follows. With chords, sines and cosines to the radius R, crd² a = 2R (R − cos a), and (α) reads R − cos x = R (cos β − cos 60°) : cos β, that is cos 60° = cos β cos x : R, the rule of the right spherical triangle: the formula is right. The bar of x/2 (L19) did not print, and the bar of cos β/R prints broken. The minus signs of L21, L23 and L25 are printed as dashes (9.2 to 9.6 pt) and set as minus signs. The 60 of (α) (L25) is printed without the degree sign.
+@obs body L26-L36: «al–Battānī» (L26, L28) is letter-spaced, with long dashes (5.3 and 5.2 pt); the o of «existimo» (L26) prints broken. The restored rule takes the words of p. 131, L21-L24 of the translation: for «nam hic semper est» it has the words in brackets of L29-L30, «[cap. XXVI]» is left out and «in hoc ipso capite» stands for «in hoc capite ipso»; the omissions are marked by five dots each (L32, L33, L35). 3600p is the square of 60p, the chord of 60°, which equals the radius, as printed.
+@obs body L37-L38: «Albatenii» (L37) is not letter-spaced.
+@obs notes_left L1-L2: the dash of «al-Battānī» (L1) measures 4.2 pt, the length of the hyphens of the notes, and is transcribed as a hyphen; «Ibn Yūnus» is letter-spaced. The place is p. 306, L30-L33.
+@obs notes_right L1-L2: the correction is that of Nallino's addenda (Part I, p. LXXIII), recorded on p. 202 (L21-L22, L24). The bar of the second fraction (L2) prints only in part.
