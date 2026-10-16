@@ -1,0 +1,594 @@
+{
+ "anchor": "AB01-PDF0381",
+ "master_pdf_page": 381,
+ "printed_page": 292,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "margin_locators": [],
+ "observations": [
+  "body L1-L2: «Maslamah al–Maǵrīṭī» is letter-spaced; «ar–Raqqah», «241,v.–244,r.» and «al–Maǵrīṭī» have long dashes (5.5 pt each).",
+  "body L5-L6: the dashes after «a)» and «I.» measure 10.0 and 9.6 pt; «19-33» has a hyphen (3.4 pt).",
+  "body L7-L11: «Ptolemaeus», «al–Battānī» and «aṣ–Ṣūfī» are letter-spaced, the last two with long dashes (5.5 and 5.2 pt); the dash after «Chr.» (L8) measures 8.3 pt. The year 885 of Nabonassar began on 20 July 137 and the year 845 on 30 July 97 (Julian); 886 − 845 = 41.",
+  "body L12-L17: the dash after «II.» measures 10.0 pt; «Schiaparelli», «Martin», «Hipparchum» and «Ptolemaeus» are letter-spaced. 1° in 100 years is 36″ a year.",
+  "body L18-L25: «al–Farghānī», «al–Qazwīnī», «Al–Battānī» and «Menelai» are letter-spaced; «al–Farghānī», «al–Qazwīnī», «Al–Battānī» and «al–Battānī» (L22) have long dashes (5.5 pt each). The bar of the fraction of L22 prints only in short pieces. 11° 50′ in 782 years is 42600″ : 782 = 54″,4757 a year, as printed, or 54″ 28‴,5. With 54″ 28‴ = 3268‴, 1° = 216000‴ = 66 · 3268‴ + 312‴, so that 1° takes 66 312/3268 years, not the printed 66 318/3268; with 54″,4757 it takes 66 6/71 years. 3600″ : 66 = 54″ 32‴,7, the 54″ 33‴ of L25. The printed numbers are kept. Addenda, p. LXXVII («292–293»): Nallino does not know whence Gherardus of Sabbioneta took the statement (see his preface, p. XXXV–VI) that al-Battānī made the fixed stars move 1° in 60 years and 4 months; the same error stands in Baldi, p. 440 (extract p. 20).",
+  "body L26-L31: «aṣ–Ṣūfī» (L27, L29), «Filii», «Mūsà», «ibn Shākir», «al–Bīrūnī», «Ḥabash», «al–Kharaqī», «al–Khāzinī», «al–Ǵaghmīnī», «Barhebraeus» and «Chrysococcae» are letter-spaced; their long dashes and that of «al–Ma’mūn» measure 5.0 to 5.5 pt, and the dash after «(4).» 9.5 pt.",
+  "notes_left L3-L5: «Kugler» is letter-spaced; the dash of «103–104» is joined to the 3 and runs 4.5 pt beyond it, a long dash.",
+  "notes_left L6-L8: «Delambre» and «Tannery» are letter-spaced; «t. II.» has a full stop after the numeral, as printed. The 6 of «265-270» prints broken; its hyphen measures 2.4 pt.",
+  "notes_left L9-L12: «Bessel» is letter-spaced, and the ae of «praecessio» prints broken. The minus sign of the formula, at the end of L10, is a dash of 8.2 pt. For 880, t = 870 and 50″,21129 − 0″,0002442966 · 870 = 49″,99875, the 50″,0 of L12.",
+  "notes_right L1-L4: «Ibn Yūnus» and «Caussin» are letter-spaced. The full stop of «Paris.» (L4) did not print; a gap of its width (2.8 pt) stands before the comma.",
+  "notes_right L5-L9: the dash before «Iuxta» measures 7.3 pt; «Ibn Yūnus» (L6, L8), «Caussin», divided between L6 and L7, and «Ḥabash» are letter-spaced.",
+  "notes_right L10-L12: «Bullialdi» is letter-spaced; the initial I of «I. Bullialdi» prints without its serifs, like l, and a speck stands before it. Ismael Bullialdus' Astronomia philolaica appeared at Paris in 1645; «1545» is a misprint, kept as printed."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0381-body-L001",
+     "source_line_no": null,
+     "tex": "num signorum in urbe ar–Raqqah. Idemque glossator Africanus aut Hispanus in fine operis",
+     "transcription": "num signorum in urbe ar–Raqqah. Idemque glossator Africanus aut Hispanus in fine operis",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0381-body-L002",
+     "source_line_no": null,
+     "tex": "(f. 241,v.–244,r.) addidit tabulas sumptas e libro \\Name{Maslamah al–Maǵrīṭī}, qui Cordubae",
+     "transcription": "(f. 241,v.–244,r.) addidit tabulas sumptas e libro {sp:Maslamah al–Maǵrīṭī}, qui Cordubae",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0381-body-L003",
+     "source_line_no": null,
+     "tex": "posteriore X saec. Chr. medietate fuerat et compendium tabularum Albatenii confecerat.",
+     "transcription": "posteriore X saec. Chr. medietate fuerat et compendium tabularum Albatenii confecerat.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0381-body-L004",
+     "source_line_no": null,
+     "tex": "\\CenterLine{A\\textsc{d} \\textsc{caput} LI.}",
+     "transcription": "A{sc:d} {sc:caput} LI.",
+     "semantic_anchor": "AB01-PDF0381-H04",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0381-body-L005",
+     "source_line_no": null,
+     "tex": "\\CenterLine{\\textbf{\\textit{a}}) — \\textit{Pag. 124, l. 19-33.}}",
+     "transcription": "{bi:a}) — *Pag. 124, l. 19-33.*",
+     "semantic_anchor": "AB01-PDF0381-H05",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0381-body-L006",
+     "source_line_no": null,
+     "tex": "\\Indent I. — \\textit{Epocha catalogi Ptolemaici} stellarum fixarum.",
+     "transcription": "I. — *Epocha catalogi Ptolemaici* stellarum fixarum.",
+     "semantic_anchor": "AB01-PDF0381-P01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0381-body-L007",
+     "source_line_no": null,
+     "tex": "\\Indent \\Name{Ptolemaeus} VII, 4 (ed. Halma t. II, p. 30) ait se longitudines stellarum ad primum",
+     "transcription": "{sp:Ptolemaeus} VII, 4 (ed. Halma t. II, p. 30) ait se longitudines stellarum ad primum",
+     "semantic_anchor": "AB01-PDF0381-P02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0381-body-L008",
+     "source_line_no": null,
+     "tex": "annum Antonini regis posuisse, qui est annus 885 Nabonassaris, incipiens 20 Iulii 137 Chr.—",
+     "transcription": "annum Antonini regis posuisse, qui est annus 885 Nabonassaris, incipiens 20 Iulii 137 Chr.—",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0381-body-L009",
+     "source_line_no": null,
+     "tex": "Cur \\Name{al–Battānī}, l. 20, dicat primum Antonini annum esse 886 Nabonassaris nescio; ama-",
+     "transcription": "Cur {sp:al–Battānī}, l. 20, dicat primum Antonini annum esse 886 Nabonassaris nescio; ama-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0381-body-L010",
+     "source_line_no": null,
+     "tex": "nuensium error non videtur, nam \\Name{aṣ–Ṣūfī}, p. 42, 886 quoque scribit, et addit inter obser-",
+     "transcription": "nuensium error non videtur, nam {sp:aṣ–Ṣūfī}, p. 42, 886 quoque scribit, et addit inter obser-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0381-body-L011",
+     "source_line_no": null,
+     "tex": "vationem Menelai anni 845 et epocham catalogi Ptolemaici 41 annos elapsos esse.",
+     "transcription": "vationem Menelai anni 845 et epocham catalogi Ptolemaici 41 annos elapsos esse.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0381-body-L012",
+     "source_line_no": null,
+     "tex": "\\Indent II. — \\textit{Motus stellarum fixarum} in longitudine, seu \\textit{praecessio aequinoctiorum.}",
+     "transcription": "II. — *Motus stellarum fixarum* in longitudine, seu *praecessio aequinoctiorum.*",
+     "semantic_anchor": "AB01-PDF0381-P03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0381-body-L013",
+     "source_line_no": null,
+     "tex": "\\Indent Post quae \\Name{Schiaparelli} et Th. M. \\Name{Martin} scripserunt, notum est \\Name{Hipparchum}",
+     "transcription": "Post quae {sp:Schiaparelli} et Th. M. {sp:Martin} scripserunt, notum est {sp:Hipparchum}",
+     "semantic_anchor": "AB01-PDF0381-P04",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0381-body-L014",
+     "source_line_no": null,
+     "tex": "(circa 130 ante Chr. n.) primum cognovisse aequinoctiorum praecessionem (1). Eius quantitatem",
+     "transcription": "(circa 130 ante Chr. n.) primum cognovisse aequinoctiorum praecessionem (1). Eius quantitatem",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0381-body-L015",
+     "source_line_no": null,
+     "tex": "annuam 36″ minimum statuerat; postea ab aliis observationibus quantitates inter 42″ et 46″,8",
+     "transcription": "annuam 36″ minimum statuerat; postea ab aliis observationibus quantitates inter 42″ et 46″,8",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0381-body-L016",
+     "source_line_no": null,
+     "tex": "deduxerat. \\Name{Ptolemaeus} male delegit minimum valorem repertum, posuitque motum prae-",
+     "transcription": "deduxerat. {sp:Ptolemaeus} male delegit minimum valorem repertum, posuitque motum prae-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0381-body-L017",
+     "source_line_no": null,
+     "tex": "cessionis 1° in 100 annis Aegyptiis (365 dierum), vel 36″ quotannis, conficere (2).",
+     "transcription": "cessionis 1° in 100 annis Aegyptiis (365 dierum), vel 36″ quotannis, conficere (2).",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0381-body-L018",
+     "source_line_no": null,
+     "tex": "\\Indent Quantitate Ptolemaica perraro Arabes utuntur; eam invenio apud \\Name{al–Farghānī} cap. XIX,",
+     "transcription": "Quantitate Ptolemaica perraro Arabes utuntur; eam invenio apud {sp:al–Farghānī} cap. XIX,",
+     "semantic_anchor": "AB01-PDF0381-P05",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0381-body-L019",
+     "source_line_no": null,
+     "tex": "et, saec. XIII Chr., \\Name{al–Qazwīnī} (\\textit{Cosmogr.,} tract. I, cap. IX, ed. Kahir. 1311 heg., t. I, p. 43).",
+     "transcription": "et, saec. XIII Chr., {sp:al–Qazwīnī} (*Cosmogr.,* tract. I, cap. IX, ed. Kahir. 1311 heg., t. I, p. 43).",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0381-body-L020",
+     "source_line_no": null,
+     "tex": "\\Indent \\Name{Al–Battānī}, observationibus suis cum \\Name{Menelai} comparatis, in 782 annis invenit lon-",
+     "transcription": "{sp:Al–Battānī}, observationibus suis cum {sp:Menelai} comparatis, in 782 annis invenit lon-",
+     "semantic_anchor": "AB01-PDF0381-P06",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0381-body-L021",
+     "source_line_no": null,
+     "tex": "gitudines 11° 50′ crevisse; motus igitur ei apparuit fuisse 54″,4757 $=$ 54″ 28‴ in anno, seu",
+     "transcription": "gitudines 11° 50′ crevisse; motus igitur ei apparuit fuisse 54″,4757 $=$ 54″ 28‴ in anno, seu",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0381-body-L022",
+     "source_line_no": null,
+     "tex": "1° in 66 $\\dfrac{318}{3268}$ annis. Recte tamen al–Battānī animadvertit fractiones secundarum ipsasque for-",
+     "transcription": "1° in 66 $\\dfrac{318}{3268}$ annis. Recte tamen al–Battānī animadvertit fractiones secundarum ipsasque for-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0381-body-L023",
+     "source_line_no": null,
+     "tex": "tasse secundas incertas esse, nec in observationibus stellarum fixarum eo tempore magni mo-",
+     "transcription": "tasse secundas incertas esse, nec in observationibus stellarum fixarum eo tempore magni mo-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0381-body-L024",
+     "source_line_no": null,
+     "tex": "menti esse errorem aliquot minutorum; neglecta igitur perpaulula fractione, illum motum po-",
+     "transcription": "menti esse errorem aliquot minutorum; neglecta igitur perpaulula fractione, illum motum po-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0381-body-L025",
+     "source_line_no": null,
+     "tex": "suit 1° gradus in 66 annis, seu 54″ 33‴ in anno solari (3).",
+     "transcription": "suit 1° gradus in 66 annis, seu 54″ 33‴ in anno solari (3).",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0381-body-L026",
+     "source_line_no": null,
+     "tex": "\\Indent Quantitas ab Albatenio delecta omnino concordat cum ea quam iam antea astronomi",
+     "transcription": "Quantitas ab Albatenio delecta omnino concordat cum ea quam iam antea astronomi",
+     "semantic_anchor": "AB01-PDF0381-P07",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0381-body-L027",
+     "source_line_no": null,
+     "tex": "khalifae al–Ma’mūn invenerant et in \\textit{Tabula Probata} posuerant (teste, inter alios, \\Name{aṣ–Ṣūfī}",
+     "transcription": "khalifae al–Ma’mūn invenerant et in *Tabula Probata* posuerant (teste, inter alios, {sp:aṣ–Ṣūfī}",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0381-body-L028",
+     "source_line_no": null,
+     "tex": "p. 33 et 42); eandem quoque circa annum 850 Chr. determinaverant \\Name{Filii} (banū) \\Name{Mūsà}",
+     "transcription": "p. 33 et 42); eandem quoque circa annum 850 Chr. determinaverant {sp:Filii} (banū) {sp:Mūsà}",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0381-body-L029",
+     "source_line_no": null,
+     "tex": "\\Name{ibn Shākir} (4). — Hanc quantitatem plerumque Arabici astronomi delegerunt; ita \\Name{aṣ–Ṣūfī}",
+     "transcription": "{sp:ibn Shākir} (4). — Hanc quantitatem plerumque Arabici astronomi delegerunt; ita {sp:aṣ–Ṣūfī}",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0381-body-L030",
+     "source_line_no": null,
+     "tex": "p. 43, \\Name{al–Bīrūnī} (5), \\Name{Ḥabash} (6), \\Name{al–Kharaqī}, \\Name{al–Khāzinī} (f. 129,r.), \\Name{al–Ǵaghmīnī}",
+     "transcription": "p. 43, {sp:al–Bīrūnī} (5), {sp:Ḥabash} (6), {sp:al–Kharaqī}, {sp:al–Khāzinī} (f. 129,r.), {sp:al–Ǵaghmīnī}",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0381-body-L031",
+     "source_line_no": null,
+     "tex": "p. 229, \\Name{Barhebraeus} p. 12, 26 et 42 text., Tabulae Persicae Graeci \\Name{Chrysococcae} (7).",
+     "transcription": "p. 229, {sp:Barhebraeus} p. 12, 26 et 42 text., Tabulae Persicae Graeci {sp:Chrysococcae} (7).",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    }
+   ]
+  },
+  {
+   "role": "notes_left",
+   "lines": [
+    {
+     "id": "AB01-PDF0381-notes_left-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (1) An rudi aliquo modo in ea invenienda Ba-",
+     "transcription": "(1) An rudi aliquo modo in ea invenienda Ba-",
+     "semantic_anchor": "AB01-PDF0381-N01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0381-notes_left-L002",
+     "source_line_no": null,
+     "tex": "bylonii Hipparchum praecurrerint adhuc ignoramus;",
+     "transcription": "bylonii Hipparchum praecurrerint adhuc ignoramus;",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0381-notes_left-L003",
+     "source_line_no": null,
+     "tex": "cfr. F. X. \\Name{Kugler}, \\textit{Die babylon. Mondrechnung:}",
+     "transcription": "cfr. F. X. {sp:Kugler}, *Die babylon. Mondrechnung:*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0381-notes_left-L004",
+     "source_line_no": null,
+     "tex": "\\textit{zwei Systeme d. Chaldäer über den Lauf des Mondes}",
+     "transcription": "*zwei Systeme d. Chaldäer über den Lauf des Mondes*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0381-notes_left-L005",
+     "source_line_no": null,
+     "tex": "\\textit{und der Sonne,} Freiburg i. B. 1900, p. 103–104, § 60.",
+     "transcription": "*und der Sonne,* Freiburg i. B. 1900, p. 103–104, § 60.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0381-notes_left-L006",
+     "source_line_no": null,
+     "tex": "\\Indent (2) \\Name{Delambre}, \\textit{Hist. de l’astr. ancienne,}",
+     "transcription": "(2) {sp:Delambre}, *Hist. de l’astr. ancienne,*",
+     "semantic_anchor": "AB01-PDF0381-N02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0381-notes_left-L007",
+     "source_line_no": null,
+     "tex": "t. II. p. 249 et 254; \\Name{Tannery}, \\textit{Recherches sur}",
+     "transcription": "t. II. p. 249 et 254; {sp:Tannery}, *Recherches sur*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0381-notes_left-L008",
+     "source_line_no": null,
+     "tex": "\\textit{l’hist. de l’astron. ancienne,} p. 265-270.",
+     "transcription": "*l’hist. de l’astron. ancienne,* p. 265-270.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0381-notes_left-L009",
+     "source_line_no": null,
+     "tex": "\\Indent (3) Secundum \\Name{Bessel} praecessio totalis an-",
+     "transcription": "(3) Secundum {sp:Bessel} praecessio totalis an-",
+     "semantic_anchor": "AB01-PDF0381-N03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0381-notes_left-L010",
+     "source_line_no": null,
+     "tex": "nua pro anno \\textit{t} ante 1750 Chr. est 50″,21129 $-$",
+     "transcription": "nua pro anno *t* ante 1750 Chr. est 50″,21129 $-$",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0381-notes_left-L011",
+     "source_line_no": null,
+     "tex": "0″,000 244 296 6·\\textit{t}; ergo anno 880, epocha catalogi",
+     "transcription": "0″,000 244 296 6·*t*; ergo anno 880, epocha catalogi",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0381-notes_left-L012",
+     "source_line_no": null,
+     "tex": "Albateniani, 50″,0 erat.",
+     "transcription": "Albateniani, 50″,0 erat.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  },
+  {
+   "role": "notes_right",
+   "lines": [
+    {
+     "id": "AB01-PDF0381-notes_right-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (4) \\Name{Ibn Yūnus} cap. V, apud \\Name{Caussin} p. 150.",
+     "transcription": "(4) {sp:Ibn Yūnus} cap. V, apud {sp:Caussin} p. 150.",
+     "semantic_anchor": "AB01-PDF0381-N04",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0381-notes_right-L002",
+     "source_line_no": null,
+     "tex": "\\Indent (5) \\textit{Chron.} p. 352 text., 354 vers.; \\textit{India} p. 196",
+     "transcription": "(5) *Chron.* p. 352 text., 354 vers.; *India* p. 196",
+     "semantic_anchor": "AB01-PDF0381-N05",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0381-notes_right-L003",
+     "source_line_no": null,
+     "tex": "text., t. I, p. 392 vers.; \\textit{Elementa astronomiae,} cod.",
+     "transcription": "text., t. I, p. 392 vers.; *Elementa astronomiae,* cod.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0381-notes_right-L004",
+     "source_line_no": null,
+     "tex": "Paris., f. 28,r.",
+     "transcription": "Paris., f. 28,r.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0381-notes_right-L005",
+     "source_line_no": null,
+     "tex": "\\Indent (6) Fol. 28,v., ubi est tabula ad annos hegirae",
+     "transcription": "(6) Fol. 28,v., ubi est tabula ad annos hegirae",
+     "semantic_anchor": "AB01-PDF0381-N06",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0381-notes_right-L006",
+     "source_line_no": null,
+     "tex": "accommodata. — Iuxta \\Name{Ibn Yūnus} cap. V (\\Name{Caus-}",
+     "transcription": "accommodata. — Iuxta {sp:Ibn Yūnus} cap. V ({sp:Caus-}",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0381-notes_right-L007",
+     "source_line_no": null,
+     "tex": "\\Name{sin} p. 169), in \\textit{Tabula Arabica} \\Name{Ḥabash} hunc mo-",
+     "transcription": "{sp:sin} p. 169), in *Tabula Arabica* {sp:Ḥabash} hunc mo-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0381-notes_right-L008",
+     "source_line_no": null,
+     "tex": "tum fecerat 1° in 70 annis. Id error \\Name{Ibn Yūnus}",
+     "transcription": "tum fecerat 1° in 70 annis. Id error {sp:Ibn Yūnus}",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0381-notes_right-L009",
+     "source_line_no": null,
+     "tex": "videtur; cfr. ipsam adnotationem 3 Caussinii.",
+     "transcription": "videtur; cfr. ipsam adnotationem 3 Caussinii.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0381-notes_right-L010",
+     "source_line_no": null,
+     "tex": "\\Indent (7) In calce operis I. \\Name{Bullialdi} \\textit{Astronomia}",
+     "transcription": "(7) In calce operis I. {sp:Bullialdi} *Astronomia*",
+     "semantic_anchor": "AB01-PDF0381-N07",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0381-notes_right-L011",
+     "source_line_no": null,
+     "tex": "\\textit{philolaica,} Parisiis 1545, pars II, p. 225; dicitur ibi",
+     "transcription": "*philolaica,* Parisiis 1545, pars II, p. 225; dicitur ibi",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0381-notes_right-L012",
+     "source_line_no": null,
+     "tex": "praecessio esse 1° in 68 annis, sed anni lunares in-",
+     "transcription": "praecessio esse 1° in 68 annis, sed anni lunares in-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  }
+ ]
+}
