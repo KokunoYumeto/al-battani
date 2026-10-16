@@ -1,0 +1,37 @@
+{
+ "session": "S14",
+ "work": "AB03",
+ "source_id": "SRC07",
+ "source_archive": "36_PAL_TETRABIBLOS_COMMENTARY_CC_BY_XML.zip",
+ "source_archive_sha256": "fdd456ffb64c20ed2db46a16862e1180379d10d619f5f46af7b71871972049f2",
+ "pal_commit": "762614d992ac588389f10309cb180e0a34b3459c",
+ "pal_document": "https://ptolemaeus.badw.de/text/M1016",
+ "licence": "CC BY 4.0 (transcription by Nadine Löhr, Ptolemaeus Arabus et Latinus); this conversion CC BY 4.0",
+ "owned_source_units": "Escorial, RBMSL, ár. 969, ff. 20r-80v: 122 page sides, and the work file 1.xml",
+ "last_fully_transcribed_source_unit": "80v (converted from PAL's transcription)",
+ "last_fully_verified_source_unit": "80v (verified against PAL's files by check_conversion.py: 0 differences; not against the manuscript images)",
+ "first_untouched_source_unit": null,
+ "counts": {
+  "page_sides": 122,
+  "manuscript_lines": 2465,
+  "chapters": 40,
+  "notes": 439,
+  "berlin_folios": 123,
+  "tables": 2,
+  "editorial_signs": 265
+ },
+ "build": {
+  "tex": "commentarius.tex",
+  "tex_sha256": "1a4cf66b5c175447d3f54f89e333b57ff35e4c451d3d8c252c43586a89431388",
+  "pdf": "commentarius.pdf",
+  "pdf_pages": 84,
+  "pdf_bookmarks": 162,
+  "engine": "XeLaTeX, two passes",
+  "missing_characters": 0
+ },
+ "not_done": [
+  "the manuscript images were not consulted",
+  "no translation"
+ ],
+ "date": "2026-10-16"
+}
