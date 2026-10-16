@@ -1,0 +1,691 @@
+{
+ "anchor": "AB01-PDF0401",
+ "master_pdf_page": 401,
+ "printed_page": 312,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "margin_locators": [],
+ "observations": [
+  "body L1-L4: the end of the sentence begun on p. 311: in a direction the star's latitude is taken into account by using, instead of its degree of longitude, the degree of the ecliptic that culminates with it (for right ascensions) or rises with it (for oblique ascensions).",
+  "body L5-L8: «al–Qummī», «al–Bīrūnī» and «Oloug Beg» are letter-spaced; «Abū Naṣr» is not. «al–Qummī», «al–Bīrūnī», «157–58» and «209–210» have long dashes (5.3, 5.3, 5.5 and 5.5 pt).",
+  "body L9-L16: the sign of equality (L10) measures 9.6 pt. «Bouché–Leclercq» is letter-spaced, with a long dash (5.2 pt). The d of «videlicet» (L12) prints broken. The Greek ἀκτινοβολία (L12, L15) is set as printed.",
+  "body L17-L27: «Az–Zarqālī», «Persae», «Regiomontanus», «Ibn Hibintà», divided between L24 and L25, «Muḥammad ibn Mūsà al–Khuwārizmī», divided between L25 and L26, are letter-spaced; «Ioannes a Monteregio», «Ibn Hibintà» (L26) and «al–Khuwārizmī» (L27) are not. «Az–Zarqālī», «r.–v.», «al–Khuwā-», «35,r.–37,v.» and «al–Khuwārizmī» have long dashes (5.3 to 5.5 pt). «in eclipticae» (L22) is printed so.",
+  "body L28-L30: «Albatenianis» is letter-spaced; the e of «hae» (L28) prints broken.",
+  "notes_left L1-L6: «Ahlwardt» (L1-L2, L6) and «Suter» are letter-spaced. The i of «capitum» prints broken; «nr 5661» (L4) is printed without a full stop. The dash before «Al-Qummī» measures 7.6 pt; «1887-99» and «74-75» have hyphens (2.6 pt each).",
+  "notes_left L7-L18: «Iohannes de Saxonia» and «Pseudo-Ptolemaei» are letter-spaced; the closing parenthesis of «(3)» prints broken, like a comma. «creticorum» (L11) is printed so. The Greek ἐποχήν (L14) is set as printed: the lower right stroke of the χ prints apart, like a dot below the line, and the acute over the η prints as a point. The e of «peragrationem» (L14) prints broken, like a c. The hyphens of «late-» and «invene-» (L14, L15) print as points.",
+  "notes_right L1-L13: «Nöldeke» and «aṭ-Ṭabarī», divided between L9 and L10, are letter-spaced. The dash before «False» (L5) measures 8.4 pt; «1894-95» and «aṭ-Ṭa-» have hyphens (3.4 and 2.4 pt), «al–Khuwārizmī» and «al–munaǵǵim» long dashes (4.2 and 4.6 pt); the hyphen of «Ge-» (L6) prints as a point. «Al-Ḫuwârizmî» is set as printed, with ḫ, â and î. By the tabular calendar counted from 15 July 622, the year 232 of the Hiǵrah began on 27 August 846, as printed (28 August from 16 July 622).",
+  "notes_right L14-L17: the o of «proiectiones» (L15) prints broken. Note 5 goes on on p. 313. The formula cos x = cos 60° : cos β is the rule of p. 308 with the radius 1."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0401-body-L001",
+     "source_line_no": null,
+     "tex": "ascensiones rectae supputantur, aut gradus cum sidere ascendens quando ascensiones obliquae",
+     "transcription": "ascensiones rectae supputantur, aut gradus cum sidere ascendens quando ascensiones obliquae",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0401-body-L002",
+     "source_line_no": null,
+     "tex": "sumendae sunt. Sed astrologi plerumque hoc in radiationibus neglexisse videntur; error inde",
+     "transcription": "sumendae sunt. Sed astrologi plerumque hoc in radiationibus neglexisse videntur; error inde",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0401-body-L003",
+     "source_line_no": null,
+     "tex": "proveniens saepe minimus est, quoniam planetae tantum, non stellae fixae, in hoc problemate",
+     "transcription": "proveniens saepe minimus est, quoniam planetae tantum, non stellae fixae, in hoc problemate",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0401-body-L004",
+     "source_line_no": null,
+     "tex": "considerantur.",
+     "transcription": "considerantur.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0401-body-L005",
+     "source_line_no": null,
+     "tex": "\\Indent Multi Arabici astronomi hanc « Ptolemaei rationem » simul cum aliis docent; ita Abū",
+     "transcription": "Multi Arabici astronomi hanc « Ptolemaei rationem » simul cum aliis docent; ita Abū",
+     "semantic_anchor": "AB01-PDF0401-P01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0401-body-L006",
+     "source_line_no": null,
+     "tex": "Naṣr \\Name{al–Qummī} (1), \\Name{al–Bīrūnī} in \\textit{Canone Mas‘ūdico} (2), et \\Name{Oloug Beg} p. 157–58 text.,",
+     "transcription": "Naṣr {sp:al–Qummī} (1), {sp:al–Bīrūnī} in *Canone Mas‘ūdico* (2), et {sp:Oloug Beg} p. 157–58 text.,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0401-body-L007",
+     "source_line_no": null,
+     "tex": "209–210 vers., qui supputationem directe per circulos positionis ducit et latitudinem stellae",
+     "transcription": "209–210 vers., qui supputationem directe per circulos positionis ducit et latitudinem stellae",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0401-body-L008",
+     "source_line_no": null,
+     "tex": "non negligit.",
+     "transcription": "non negligit.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0401-body-L009",
+     "source_line_no": null,
+     "tex": "\\Indent Non iniuria Arabes hunc radiationum calculum vocant « methodum Ptolemaei »; nam in",
+     "transcription": "Non iniuria Arabes hunc radiationum calculum vocant « methodum Ptolemaei »; nam in",
+     "semantic_anchor": "AB01-PDF0401-P02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0401-body-L010",
+     "source_line_no": null,
+     "tex": "\\textit{Tetrabiblo} III, 10 ($=$ III, 15 vers. Francof.) haec de directionibus scripta reperio: « Signifi-",
+     "transcription": "*Tetrabiblo* III, 10 ($=$ III, 15 vers. Francof.) haec de directionibus scripta reperio: « Signifi-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0401-body-L011",
+     "source_line_no": null,
+     "tex": "« catore invento, duo modi sumendi sunt; alter secundum ordinem signorum, \\textit{qui vocatur}",
+     "transcription": "« catore invento, duo modi sumendi sunt; alter secundum ordinem signorum, *qui vocatur*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0401-body-L012",
+     "source_line_no": null,
+     "tex": "« \\textit{proiectio radiorum} (\\textgreek{ἀκτινοβολία}), cum videlicet significator est in locis orientalibus, a medio",
+     "transcription": "« *proiectio radiorum* (ἀκτινοβολία), cum videlicet significator est in locis orientalibus, a medio",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0401-body-L013",
+     "source_line_no": null,
+     "tex": "« Caelo usque ad ascendens; alter vero simul et secundum ordinem signorum et contra, iuxta",
+     "transcription": "« Caelo usque ad ascendens; alter vero simul et secundum ordinem signorum et contra, iuxta",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0401-body-L014",
+     "source_line_no": null,
+     "tex": "« rationem horariam, cum videlicet significator est in locis cadentibus a medio Caelo ». Qua",
+     "transcription": "« rationem horariam, cum videlicet significator est in locis cadentibus a medio Caelo ». Qua",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0401-body-L015",
+     "source_line_no": null,
+     "tex": "re male \\Name{Bouché–Leclercq} p. 248, adn. 1, scripsisse puto: « La théorie de l’\\textgreek{ἀκτινοβολία}",
+     "transcription": "re male {sp:Bouché–Leclercq} p. 248, adn. 1, scripsisse puto: « La théorie de l’ἀκτινοβολία",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0401-body-L016",
+     "source_line_no": null,
+     "tex": "« est probablement postérieure à Ptolémée ».",
+     "transcription": "« est probablement postérieure à Ptolémée ».",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0401-body-L017",
+     "source_line_no": null,
+     "tex": "\\Indent \\Name{Az–Zarqālī}, loco iam p. 308 memorato, ait: « \\Name{Persae} [veteres] dicuntur proiectiones",
+     "transcription": "{sp:Az–Zarqālī}, loco iam p. 308 memorato, ait: « {sp:Persae} [veteres] dicuntur proiectiones",
+     "semantic_anchor": "AB01-PDF0401-P03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0401-body-L018",
+     "source_line_no": null,
+     "tex": "« radiorum in sphaera recta tantum facere; quod nonnisi iis inservit qui sub circulo aequi-",
+     "transcription": "« radiorum in sphaera recta tantum facere; quod nonnisi iis inservit qui sub circulo aequi-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0401-body-L019",
+     "source_line_no": null,
+     "tex": "« noctiali incolunt. Nos igitur de eo mentionem non facimus ». Haec verba probabiliter signi-",
+     "transcription": "« noctiali incolunt. Nos igitur de eo mentionem non facimus ». Haec verba probabiliter signi-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0401-body-L020",
+     "source_line_no": null,
+     "tex": "ficant Persas veteres ascensioni rectae stellae addere aut subtrahere 60°, 90°, 120°; arcum",
+     "transcription": "ficant Persas veteres ascensioni rectae stellae addere aut subtrahere 60°, 90°, 120°; arcum",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0401-body-L021",
+     "source_line_no": null,
+     "tex": "autem eclipticae respondentem ascensioni rectae eo modo auctae aut deminutae considerare",
+     "transcription": "autem eclipticae respondentem ascensioni rectae eo modo auctae aut deminutae considerare",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0401-body-L022",
+     "source_line_no": null,
+     "tex": "gradum longitudinis in quem sinistra aut dextera radiatio in eclipticae incidat. Hanc metho-",
+     "transcription": "gradum longitudinis in quem sinistra aut dextera radiatio in eclipticae incidat. Hanc metho-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0401-body-L023",
+     "source_line_no": null,
+     "tex": "dum (3), cum aliis, memorat etiam Ioannes a Monteregio seu \\Name{Regiomontanus}, in XXXI",
+     "transcription": "dum (3), cum aliis, memorat etiam Ioannes a Monteregio seu {sp:Regiomontanus}, in XXXI",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0401-body-L024",
+     "source_line_no": null,
+     "tex": "Problemate \\textit{Tabularum directionum profectionumque} (anni 1475); eadem, si quae \\Name{Ibn}",
+     "transcription": "Problemate *Tabularum directionum profectionumque* (anni 1475); eadem, si quae {sp:Ibn}",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0401-body-L025",
+     "source_line_no": null,
+     "tex": "\\Name{Hibintà} f. 34, r.–v. narrat recte intelligo, nisus est \\Name{Muḥammad ibn Mūsà al–Khuwā-}",
+     "transcription": "{sp:Hibintà} f. 34, r.–v. narrat recte intelligo, nisus est {sp:Muḥammad ibn Mūsà al–Khuwā-}",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0401-body-L026",
+     "source_line_no": null,
+     "tex": "\\Name{rizmī} (4) in tabulis radiationum construendis, quas Ibn Hibintà f. 35,r.–37,v. praebet. Notum",
+     "transcription": "{sp:rizmī} (4) in tabulis radiationum construendis, quas Ibn Hibintà f. 35,r.–37,v. praebet. Notum",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0401-body-L027",
+     "source_line_no": null,
+     "tex": "est al–Khuwārizmī in opere suo astronomico praesertim Indorum methodos secutum esse.",
+     "transcription": "est al–Khuwārizmī in opere suo astronomico praesertim Indorum methodos secutum esse.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0401-body-L028",
+     "source_line_no": null,
+     "tex": "\\Indent Manifeste omnes hae proiectionis supputationes, quae a Graecis, Indis et Persis originem",
+     "transcription": "Manifeste omnes hae proiectionis supputationes, quae a Graecis, Indis et Persis originem",
+     "semantic_anchor": "AB01-PDF0401-P04",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0401-body-L029",
+     "source_line_no": null,
+     "tex": "ducere videntur, principiis multo minus rationalibus quam \\Name{Albatenianis} nituntur multoque",
+     "transcription": "ducere videntur, principiis multo minus rationalibus quam {sp:Albatenianis} nituntur multoque",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0401-body-L030",
+     "source_line_no": null,
+     "tex": "minus elegantes apparent (5).",
+     "transcription": "minus elegantes apparent (5).",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    }
+   ]
+  },
+  {
+   "role": "notes_left",
+   "lines": [
+    {
+     "id": "AB01-PDF0401-notes_left-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (1) Ut patet ex indice capitum apud W. \\Name{Ahl-}",
+     "transcription": "(1) Ut patet ex indice capitum apud W. {sp:Ahl-}",
+     "semantic_anchor": "AB01-PDF0401-N01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0401-notes_left-L002",
+     "source_line_no": null,
+     "tex": "\\Name{wardt}, \\textit{Verzeichniss der arabischen Handschrif-}",
+     "transcription": "{sp:wardt}, *Verzeichniss der arabischen Handschrif-*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0401-notes_left-L003",
+     "source_line_no": null,
+     "tex": "\\textit{ten der k. Bibliothek zu Berlin,} Berlin 1887-99,",
+     "transcription": "*ten der k. Bibliothek zu Berlin,* Berlin 1887-99,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0401-notes_left-L004",
+     "source_line_no": null,
+     "tex": "t. V, p. 148, nr 5661. — Al-Qummī fuit IV saec. heg.",
+     "transcription": "t. V, p. 148, nr 5661. — Al-Qummī fuit IV saec. heg.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0401-notes_left-L005",
+     "source_line_no": null,
+     "tex": "(X Chr.); \\Name{Suter} p. 74-75, nr. 174.",
+     "transcription": "(X Chr.); {sp:Suter} p. 74-75, nr. 174.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0401-notes_left-L006",
+     "source_line_no": null,
+     "tex": "\\Indent (2) \\Name{Ahlwardt} V. p. 154, nr. 5667.",
+     "transcription": "(2) {sp:Ahlwardt} V. p. 154, nr. 5667.",
+     "semantic_anchor": "AB01-PDF0401-N02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0401-notes_left-L007",
+     "source_line_no": null,
+     "tex": "\\Indent (3) \\Name{Iohannes de Saxonia} in \\textit{Commen-}",
+     "transcription": "(3) {sp:Iohannes de Saxonia} in *Commen-*",
+     "semantic_anchor": "AB01-PDF0401-N03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0401-notes_left-L008",
+     "source_line_no": null,
+     "tex": "\\textit{tario in Alchabitium,} l. c., de ea dicit: « Et hoc",
+     "transcription": "*tario in Alchabitium,* l. c., de ea dicit: « Et hoc",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0401-notes_left-L009",
+     "source_line_no": null,
+     "tex": "« modo Ptolemaeus iubet accipere aspectus [i. e. ra-",
+     "transcription": "« modo Ptolemaeus iubet accipere aspectus [i. e. ra-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0401-notes_left-L010",
+     "source_line_no": null,
+     "tex": "« diationes] in 60\\textsuperscript{a} propositione Centiloquii, ubi lo-",
+     "transcription": "« diationes] in 60{sup:a} propositione Centiloquii, ubi lo-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0401-notes_left-L011",
+     "source_line_no": null,
+     "tex": "« quitur de causis dierum creticorum ». Haec \\textit{Centi-}",
+     "transcription": "« quitur de causis dierum creticorum ». Haec *Centi-*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0401-notes_left-L012",
+     "source_line_no": null,
+     "tex": "\\textit{loquii} \\Name{Pseudo-Ptolemaei} propositio est: « In",
+     "transcription": "*loquii* {sp:Pseudo-Ptolemaei} propositio est: « In",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0401-notes_left-L013",
+     "source_line_no": null,
+     "tex": "« aegrotis criticos dies inspice, ac Lunae peragra-",
+     "transcription": "« aegrotis criticos dies inspice, ac Lunae peragra-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0401-notes_left-L014",
+     "source_line_no": null,
+     "tex": "« tionem (\\textgreek{ἐποχήν}) in angulis figurae sexdecim late-",
+     "transcription": "« tionem (ἐποχήν) in angulis figurae sexdecim late-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0401-notes_left-L015",
+     "source_line_no": null,
+     "tex": "« rum; ubi enim eos angulos bene affectos invene-",
+     "transcription": "« rum; ubi enim eos angulos bene affectos invene-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0401-notes_left-L016",
+     "source_line_no": null,
+     "tex": "« ris, bene erit languenti; contra male, si afflictos",
+     "transcription": "« ris, bene erit languenti; contra male, si afflictos",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0401-notes_left-L017",
+     "source_line_no": null,
+     "tex": "« inveneris ». Ex his theoriam radiationum deducere",
+     "transcription": "« inveneris ». Ex his theoriam radiationum deducere",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0401-notes_left-L018",
+     "source_line_no": null,
+     "tex": "haud facile mihi videtur.",
+     "transcription": "haud facile mihi videtur.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  },
+  {
+   "role": "notes_right",
+   "lines": [
+    {
+     "id": "AB01-PDF0401-notes_right-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (4) Obiit post annum 232 heg. (inc. 27 Aug. 846),",
+     "transcription": "(4) Obiit post annum 232 heg. (inc. 27 Aug. 846),",
+     "semantic_anchor": "AB01-PDF0401-N04",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0401-notes_right-L002",
+     "source_line_no": null,
+     "tex": "ut ostendi in meo \\textit{Al-Ḫuwârizmî e il suo rifaci-}",
+     "transcription": "ut ostendi in meo *Al-Ḫuwârizmî e il suo rifaci-*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0401-notes_right-L003",
+     "source_line_no": null,
+     "tex": "\\textit{mento della Geografia di Tolomeo} (Memorie della",
+     "transcription": "*mento della Geografia di Tolomeo* (Memorie della",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0401-notes_right-L004",
+     "source_line_no": null,
+     "tex": "R. Accad. dei Lincei, Cl. di scienze morali, ser. V,",
+     "transcription": "R. Accad. dei Lincei, Cl. di scienze morali, ser. V,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0401-notes_right-L005",
+     "source_line_no": null,
+     "tex": "vol. 2\\textsuperscript{o}, parte 1\\textsuperscript{a}, 1894-95, p. 9). — False \\Name{Nöldeke}",
+     "transcription": "vol. 2{sup:o}, parte 1{sup:a}, 1894-95, p. 9). — False {sp:Nöldeke}",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0401-notes_right-L006",
+     "source_line_no": null,
+     "tex": "in \\textit{Zeitschrift der deutsch. morgenländischen Ge-}",
+     "transcription": "in *Zeitschrift der deutsch. morgenländischen Ge-*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0401-notes_right-L007",
+     "source_line_no": null,
+     "tex": "\\textit{sellschaft,} t. LV, 1901, p. 683, adn. 1, confundit no-",
+     "transcription": "*sellschaft,* t. LV, 1901, p. 683, adn. 1, confundit no-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0401-notes_right-L008",
+     "source_line_no": null,
+     "tex": "strum auctorem cum Muḥammad ibn Mūsà ibn Shā-",
+     "transcription": "strum auctorem cum Muḥammad ibn Mūsà ibn Shā-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0401-notes_right-L009",
+     "source_line_no": null,
+     "tex": "kir. Eadem confusio in indicibus ad \\textit{Annales} \\Name{aṭ-Ṭa-}",
+     "transcription": "kir. Eadem confusio in indicibus ad *Annales* {sp:aṭ-Ṭa-}",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0401-notes_right-L010",
+     "source_line_no": null,
+     "tex": "\\Name{barī}; duo illi viri in unum conflati sunt. Loca quae",
+     "transcription": "{sp:barī}; duo illi viri in unum conflati sunt. Loca quae",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0401-notes_right-L011",
+     "source_line_no": null,
+     "tex": "ad al–Khuwārizmī spectant sunt III, 551, 937, 1085;",
+     "transcription": "ad al–Khuwārizmī spectant sunt III, 551, 937, 1085;",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0401-notes_right-L012",
+     "source_line_no": null,
+     "tex": "reliqua (et epitheton \\textit{al–munaǵǵim}) ad Muḥ. ibn",
+     "transcription": "reliqua (et epitheton *al–munaǵǵim*) ad Muḥ. ibn",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0401-notes_right-L013",
+     "source_line_no": null,
+     "tex": "Mūsà ibn Shākir pertinent.",
+     "transcription": "Mūsà ibn Shākir pertinent.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0401-notes_right-L014",
+     "source_line_no": null,
+     "tex": "\\Indent (5) Astrologi mathematici nostrates XVI sae-",
+     "transcription": "(5) Astrologi mathematici nostrates XVI sae-",
+     "semantic_anchor": "AB01-PDF0401-N05",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0401-notes_right-L015",
+     "source_line_no": null,
+     "tex": "culi proiectiones eodem quo al-Battānī modo intel-",
+     "transcription": "culi proiectiones eodem quo al-Battānī modo intel-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0401-notes_right-L016",
+     "source_line_no": null,
+     "tex": "lexerunt, et calculum directe per formulam",
+     "transcription": "lexerunt, et calculum directe per formulam",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0401-notes_right-L017",
+     "source_line_no": null,
+     "tex": "\\CenterLine{$\\cos x = \\dfrac{\\cos \\text{60°}}{\\cos\\text{\\textgreek{β}}}$}",
+     "transcription": "$\\cos x = \\dfrac{\\cos \\text{60°}}{\\cos\\text{β}}$",
+     "semantic_anchor": "AB01-PDF0401-H17",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  }
+ ]
+}
