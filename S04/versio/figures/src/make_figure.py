@@ -134,10 +134,13 @@ def main():
         out.append(r"\draw[" + style + "] " + " -- ".join("(" + X(x) + "," + Y(y) + ")" for x, y in cv["pts"])
                    + (" -- cycle" if cv.get("closed") else "") + ";  % " + cv["name"])
     for fl in d.get("fills", []):
-        if fl.get("poly"):  # the traced polygon, with its holes left blank
-            path = " ".join(" -- ".join("(" + X(x) + "," + Y(y) + ")" for x, y in ring) + " -- cycle"
-                            for ring in [fl["pts"]] + fl.get("holes", []))
-            out.append(r"\fill[even odd rule] " + path + ";  % " + fl["name"])
+        if fl.get("poly"):  # the traced polygon, with its holes left blank; long outlines eight points to a line
+            rings = []
+            for ring in [fl["pts"]] + fl.get("holes", []):
+                pts = ["(" + X(x) + "," + Y(y) + ")" for x, y in ring]
+                rings.append("\n  ".join(" -- ".join(pts[k:k + 8]) for k in range(0, len(pts), 8)).replace(
+                    "\n  ", " --\n  ") + " -- cycle")
+            out.append(r"\fill[even odd rule] " + "\n  ".join(rings) + ";  % " + fl["name"])
             continue
         out.append(r"\fill plot[smooth cycle,tension=0.5] coordinates {" + " ".join(
             "(" + X(x) + "," + Y(y) + ")" for x, y in fl["pts"]) + "};  % " + fl["name"])
