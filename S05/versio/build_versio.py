@@ -99,7 +99,7 @@ T pt above the baseline of the line it is written on, {vrule2} a thin vertical r
 on the first), {vrule:L:T} a thin vertical rule L pt long whose top is T pt above the baseline,
 {lost:MM} print lost in the master scan (p. 275, a corner of the leaf), shown as a light grey bar MM mm long,
 {ar:...} an Arabic phrase with its own brackets and punctuation, set as one right-to-left run
-(a Latin word inside it, as codd. or add., stands in its place in the run in the roman type; {syr:...} the same
+(a Latin word inside it, as codd. or add., stands in its place in the run in the roman type, a Latin word with Arabic-Indic numerals after it, as aut ٩١٣, as one left-to-right group; {syr:...} the same
 for Syriac), {rtl:...} a phrase of Arabic numerals and Latin words that the print sets right to
 left, given in reading order, \\* a literal asterisk; runs of Arabic, Greek, Hebrew, Syriac and Coptic letters are
 set in their fonts (Coptic in FreeSerif bold, as printed), the signs ☾ ⊙ ♈ ♄ ♃ ♂ ♀ ☿ ☊ ☋ in FreeSerif. & % # are
@@ -237,7 +237,11 @@ def markup(s):
 
     def stash(m):  # {ar:...}: an Arabic phrase with its own punctuation and brackets, set as one right-to-left run;
         # a Latin word inside it (codd., add.) is set in the roman type, left to right, in its place in the run
-        body = re.sub(r"[A-Za-z][A-Za-z.]*", lambda k: r"\textlatin{" + k.group(0) + "}", m.group(1))
+        # a Latin word followed by Arabic-Indic numerals («aut ٩١٣») is one left-to-right group, the word first
+        def latin(k):
+            w, _, num = k.group(0).partition(" ")
+            return r"\textlatin{" + w + (r"\ \textarabic{" + num + "}" if num else "") + "}"
+        body = re.sub(r"[A-Za-z][A-Za-z.]*(?: [\u0660-\u0669\u06F0-\u06F9]+)?", latin, m.group(1))
         keep.append(r"\ArabicRun{" + body + "}")
         return f"\uE003{len(keep) - 1}\uE004"
 
