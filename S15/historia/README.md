@@ -2,7 +2,7 @@
 
 Al-Battānī's *Kitāb fī dalāʾil al-qirānāt wa-l-kusūfāt*, the astrological history of the Prophet and the early caliphate, survives in one manuscript, Ankara, Dil ve Tarih-Coğrafya Fakültesi, collection Saib, 199/2, ff. 27v–42v. George Saliba edited the Arabic text in E. S. Kennedy, Colleagues and Former Students (Benno van Dalen, George Saliba, Julio Samsó), «Al-Battānī's Astrological History of the Prophet and the Early Caliphate», *Suhayl* 9 (2009–2010), pp. 13–148. The article reproduces his typeset edition as page images on the even pages 18–78, facing the English translation. This folder transcribes those pages, one line of this edition for each printed line.
 
-**In progress.** Transcribed: pp. 18–50 (PDF pages 6–38), ff. 27v–35v: 17 of the 31 pages of the Arabic text, 285 lines, 34 lines of apparatus and 6 horoscope charts (those of the article's Horoscopes 1–4, 6 and 7; the article numbers 21 horoscopes, and Horoscope 5 has no chart). Not yet transcribed: pp. 52–78 (PDF pages 40–66).
+**In progress.** Transcribed: pp. 18–64 (PDF pages 6–52), ff. 27v–39r: 24 of the 31 pages of the Arabic text, 404 lines, 46 lines of apparatus and 11 horoscope charts (those of the article's Horoscopes 1–4, 6, 7, 8, 10, 12, 14 and 16; the article numbers 21 horoscopes, and Horoscopes 5, 9, 11, 13 and 15 have no chart). Not yet transcribed: pp. 66–78 (PDF pages 54–66).
 
 ## Read
 
