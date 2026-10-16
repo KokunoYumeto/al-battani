@@ -5,20 +5,34 @@
  "source_file": "35_KENNEDY_ET_AL_ASTROLOGICAL_HISTORY_136P.pdf",
  "source_sha256": "3bc5b525639261cccf1a6e78176f66c5ac2c4299dd2d0a051072cdab149b7bef",
  "licence": "CC BY-NC-ND 3.0 ES (the article); the transcription of the Arabic edition under the same licence; observations and scripts CC0 1.0",
- "owned_source_units": "Suhayl 9, the Arabic edition on the even pages 18-78 (PDF pages 6-66): 31 pages, ff. 27v-42v",
- "last_fully_transcribed_source_unit": "p. 64 (PDF 52), f. 39r",
- "last_fully_verified_source_unit": "p. 64 (PDF 52): each line read against the page image at twice its size or more; the numerals of the charts at 900 dpi",
- "first_untouched_source_unit": "p. 66 (PDF 54)",
+ "owned_source_units": "Suhayl 9, the Arabic edition: the title on p. 17 and the text on the even pages 18-78 (PDF pages 5-66): 32 pages, ff. 27v-42v",
+ "last_fully_transcribed_source_unit": "p. 78 (PDF 66), f. 42v",
+ "last_fully_verified_source_unit": "p. 78 (PDF 66): every line read against the page images at twice their resolution or more, the chart numerals at 900 dpi or more; a word-by-word comparison with a Tesseract draft, ten flagged words read again at 500-2400 dpi, no change",
+ "first_untouched_source_unit": null,
  "counts": {
-  "pages": 24,
-  "lines": 404,
-  "apparatus_lines": 46,
-  "folios": 24,
-  "charts": 11
+  "pages": 32,
+  "lines": 521,
+  "title_lines": 3,
+  "text_lines": 518,
+  "apparatus_lines": 55,
+  "folios": 31,
+  "charts": 15,
+  "chart_cells": 181,
+  "observations": 224,
+  "pdf_pages_disposed": 136
  },
  "not_done": [
-  "pp. 66-78 (PDF pages 54-66)",
-  "page_disposition.tsv"
+  "the manuscript in Ankara was not consulted",
+  "no translation"
  ],
- "date": "2026-10-16"
+ "date": "2026-10-16",
+ "build": {
+  "tex": "historia.tex",
+  "tex_sha256": "b59114787dd9d2b6c4a503071fddd32ed544479ed7dd92b7514d34c775a9c68e",
+  "pdf": "historia.pdf",
+  "pdf_pages": 27,
+  "pdf_bookmarks": 32,
+  "engine": "XeLaTeX, two passes",
+  "missing_characters": 0
+ }
 }

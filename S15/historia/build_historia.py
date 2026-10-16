@@ -1,7 +1,8 @@
 """S15 - al-Battani's book on the indications of the conjunctions and the eclipses (his astrological history), the
 Arabic text as edited by George Saliba in E. S. Kennedy, B. van Dalen, G. Saliba and J. Samso, "Al-Battani's
-astrological history", Suhayl 9 (2009-2010), pp. 13-148, where it is reproduced as page images on the even pages
-18-78 (PDF pages 6-66 of the publication). The text and the editors' apparatus are transcribed from those images,
+astrological history", Suhayl 9 (2009-2010), pp. 13-148, where it is reproduced as page images: the title on p. 17
+and the text on the even pages 18-78 (PDF pages 5-66 of the publication). The text and the editors' apparatus are
+transcribed from those images,
 one line of this edition for each printed line; the horoscope charts are transcribed cell by cell and drawn again.
 The translation and the commentary of the article are not reproduced.
 
@@ -132,11 +133,21 @@ def chart_tex(ch):
            r"\draw (0,9)--(3,6) (9,9)--(6,6) (0,0)--(3,3) (9,0)--(6,3);"]
     for cell in ch["cells"]:
         x, y = POS[cell["pos"]]
+        n = len([t for t in cell["lines"] if t])
+        body = r"\\".join(r"\RL{\ArC " + artex(t) + "}" for t in cell["lines"] if t)
+        if cell["pos"] in RIGHT_ANGLE and n >= 3:
+            # a triangle of three lines or more: the block is set into its right-angled corner, where it has room
+            rx, ry = RIGHT_ANGLE[cell["pos"]]
+            ix, iy = (1 if rx in (0, 6) else -1), (1 if ry in (0, 6) else -1)   # towards the inside of the square
+            anchor = ("south" if iy > 0 else "north") + (" west" if ix > 0 else " east")
+            align = "left" if ix > 0 else "right"
+            out.append(rf"\node[anchor={anchor},align={align},font=\scriptsize,inner sep=0pt] "
+                       rf"at ({rx + 0.12 * ix},{ry + 0.12 * iy}) {{{body}}};")
+            continue
         if cell["pos"] in RIGHT_ANGLE:
-            f = min(0.15 * (len([t for t in cell["lines"] if t]) - 1), 0.45)
+            f = min(0.15 * (n - 1), 0.45)
             rx, ry = RIGHT_ANGLE[cell["pos"]]
             x, y = round(x + f * (rx - x), 3), round(y + f * (ry - y), 3)
-        body = r"\\".join(r"\RL{\ArC " + artex(t) + "}" for t in cell["lines"] if t)
         out.append(rf"\node[align=center,font=\scriptsize,inner sep=0pt] at ({x},{y}) {{{body}}};")
     out.append(r"\end{tikzpicture}\end{center}\medskip")
     return "\n".join(out)
@@ -144,7 +155,7 @@ def chart_tex(ch):
 
 PREAMBLE = r"""\documentclass[11pt]{article}
 \usepackage[a4paper,left=26mm,right=34mm,top=22mm,bottom=22mm]{geometry}
-\usepackage{fontspec,tikz}
+\usepackage{fontspec,tikz,needspace}
 \usepackage[unicode,hidelinks]{hyperref}
 \usepackage{polyglossia}
 \setmainlanguage{english}
@@ -182,13 +193,17 @@ def front():
         r"\normalsize Ankara, Dil ve Tarih-Coğrafya Fakültesi, collection Saib, 199/2, ff.\,27v–42v\par\vspace{4mm}"
         r"The Arabic text as edited by George Saliba, in E.\,S. Kennedy, B. van Dalen, G. Saliba and J. Samsó,\\"
         r"«Al-Battānī’s Astrological History of the Prophet and the Early Caliphate», \textit{Suhayl} 9 "
-        r"(2009–2010), pp.\,13–148: the Arabic text on pp.\,18–78\par"
+        r"(2009–2010), pp.\,13–148: the Arabic title on p.\,17 and the Arabic text on pp.\,18–78\par"
         r"\vspace{4mm}\large S15 --- the Arabic text, line by line\end{center}\vspace{6mm}",
         r"\noindent The edition of the Arabic text is printed in the article as images of George Saliba’s typeset "
-        r"edition, on the even pages 18–78. This file transcribes those pages: every printed line of the text is "
-        r"one line here, numbered in the right margin as the editors number it, with the folio of the manuscript "
-        r"where the edition prints it; the horoscope charts are transcribed cell by cell and drawn again; the "
-        r"editors’ apparatus follows each page. The justification of the print (the long joins of the letters) is "
+        r"edition: its title on p.\,17 and the text on the even pages 18–78. This file transcribes those pages: every "
+        r"printed line is one line here, numbered in the right margin as the editors number it, with the folio of "
+        r"the manuscript where the edition prints it; the fifteen horoscope charts are transcribed cell by cell and "
+        r"drawn again as a square of nine cells, the houses running anticlockwise from the ascendant in the top "
+        r"cell; the editors’ apparatus follows each page. The numbers written in letters keep the line that the "
+        r"text prints above them; the sign that the edition prints for zero, a small flat-topped \RL{\ArBody ح}, "
+        r"is drawn here with the letter \RL{\ArBody ح}. Headings set at the end of a line of text are set there "
+        r"in bold. The justification of the print (the long joins of the letters) is "
         r"not transcribed; the tanwīn of the accusative is written on the letter before the final alif (on the "
         r"lām-alif in \RL{\ArBody لاً}) wherever the print sets it; lines printed with a paragraph indent are "
         r"indented here too. The English translation and the commentary of the article are not reproduced. The "
@@ -206,6 +221,8 @@ def main():
     for p in pages:
         rec = parse(p)
         pid = f"AB02-PDF{rec['pdf']:04d}"
+        if any(ch["after_line"] == 0 for ch in rec["charts"]):
+            tex.append(r"\par\needspace{130mm}")   # keep the heading of the page with a chart that opens it
         tex.append(r"\PageHead{" + str(rec["pdf"]) + "}{" + rec["printed"] + "}{" + f"{rec['pdf']:04d}" + "}")
         out_lines = []
         charts_after = {}

@@ -1,6 +1,6 @@
 \documentclass[11pt]{article}
 \usepackage[a4paper,left=26mm,right=34mm,top=22mm,bottom=22mm]{geometry}
-\usepackage{fontspec,tikz}
+\usepackage{fontspec,tikz,needspace}
 \usepackage[unicode,hidelinks]{hyperref}
 \usepackage{polyglossia}
 \setmainlanguage{english}
@@ -28,8 +28,12 @@
 \begin{document}
 
 \thispagestyle{empty}
-\begin{center}\Large AL-BATTĀNĪ\par\vspace{4mm}\LARGE The book on the indications of the conjunctions and the eclipses\par\vspace{2mm}\large(his astrological history)\par\vspace{4mm}\large\RL{\ArBody كتاب في دلائل القرانات والكسوفات}\par\vspace{5mm}\normalsize Ankara, Dil ve Tarih-Coğrafya Fakültesi, collection Saib, 199/2, ff.\,27v–42v\par\vspace{4mm}The Arabic text as edited by George Saliba, in E.\,S. Kennedy, B. van Dalen, G. Saliba and J. Samsó,\\«Al-Battānī’s Astrological History of the Prophet and the Early Caliphate», \textit{Suhayl} 9 (2009–2010), pp.\,13–148: the Arabic text on pp.\,18–78\par\vspace{4mm}\large S15 --- the Arabic text, line by line\end{center}\vspace{6mm}
-\noindent The edition of the Arabic text is printed in the article as images of George Saliba’s typeset edition, on the even pages 18–78. This file transcribes those pages: every printed line of the text is one line here, numbered in the right margin as the editors number it, with the folio of the manuscript where the edition prints it; the horoscope charts are transcribed cell by cell and drawn again; the editors’ apparatus follows each page. The justification of the print (the long joins of the letters) is not transcribed; the tanwīn of the accusative is written on the letter before the final alif (on the lām-alif in \RL{\ArBody لاً}) wherever the print sets it; lines printed with a paragraph indent are indented here too. The English translation and the commentary of the article are not reproduced. The article is licensed CC BY-NC-ND 3.0 ES, and this transcription is distributed under the same licence, with the attribution above. The transcription is AI-integrated work (Claude); no person has reviewed it.\par\clearpage
+\begin{center}\Large AL-BATTĀNĪ\par\vspace{4mm}\LARGE The book on the indications of the conjunctions and the eclipses\par\vspace{2mm}\large(his astrological history)\par\vspace{4mm}\large\RL{\ArBody كتاب في دلائل القرانات والكسوفات}\par\vspace{5mm}\normalsize Ankara, Dil ve Tarih-Coğrafya Fakültesi, collection Saib, 199/2, ff.\,27v–42v\par\vspace{4mm}The Arabic text as edited by George Saliba, in E.\,S. Kennedy, B. van Dalen, G. Saliba and J. Samsó,\\«Al-Battānī’s Astrological History of the Prophet and the Early Caliphate», \textit{Suhayl} 9 (2009–2010), pp.\,13–148: the Arabic title on p.\,17 and the Arabic text on pp.\,18–78\par\vspace{4mm}\large S15 --- the Arabic text, line by line\end{center}\vspace{6mm}
+\noindent The edition of the Arabic text is printed in the article as images of George Saliba’s typeset edition: its title on p.\,17 and the text on the even pages 18–78. This file transcribes those pages: every printed line is one line here, numbered in the right margin as the editors number it, with the folio of the manuscript where the edition prints it; the fifteen horoscope charts are transcribed cell by cell and drawn again as a square of nine cells, the houses running anticlockwise from the ascendant in the top cell; the editors’ apparatus follows each page. The numbers written in letters keep the line that the text prints above them; the sign that the edition prints for zero, a small flat-topped \RL{\ArBody ح}, is drawn here with the letter \RL{\ArBody ح}. Headings set at the end of a line of text are set there in bold. The justification of the print (the long joins of the letters) is not transcribed; the tanwīn of the accusative is written on the letter before the final alif (on the lām-alif in \RL{\ArBody لاً}) wherever the print sets it; lines printed with a paragraph indent are indented here too. The English translation and the commentary of the article are not reproduced. The article is licensed CC BY-NC-ND 3.0 ES, and this transcription is distributed under the same licence, with the attribution above. The transcription is AI-integrated work (Claude); no person has reviewed it.\par\clearpage
+\PageHead{5}{17}{0005}
+\EdLh{1}{AB02-PDF0005-L01}{}{كتاب جابر بن سنان الحرّاني البتّاني}
+\EdLh{2}{AB02-PDF0005-L02}{}{في}
+\EdLh{3}{AB02-PDF0005-L03}{}{دلائل القرانات والكسوفات}
 \PageHead{6}{18}{0006}
 \EdLc{1}{AB02-PDF0006-L01}{\RL{\ArBody ٢٧ظ}}{/بسم اللّه الرّحمن الرّحيم}
 \EdL{2}{AB02-PDF0006-L02}{}{قال محمد بن جابر البتّاني :}
@@ -221,6 +225,7 @@
 \EdL{17}{AB02-PDF0022-L17}{}{مولده وظهوره وبيعته ، صلّى اللّه عليه وسلّم ، ومواضع الكواكب بحساب الممتحن على ما نذكره}
 \par\smallskip\noindent\rule{40mm}{0.4pt}\par
 \AppL{AB02-PDF0022-A01}{٣ - مشاكلتها: مشاكلها | ٦- معها: مع | ٩ - وقياسًا: وقياس | ١٥ - والعشرون: والعشرين | ١٦- واثنتين : واثنتي}
+\par\needspace{130mm}
 \PageHead{24}{36}{0024}
 \par\medskip\begin{center}\begin{tikzpicture}[x=12mm,y=12mm,line width=0.5pt]
 \draw (0,0) rectangle (9,9); \draw (3,0)--(3,9) (6,0)--(6,9) (0,3)--(9,3) (0,6)--(9,6);
@@ -228,7 +233,7 @@
 \node[align=center,font=\scriptsize,inner sep=0pt] at (2.0,8.0) {\RL{\ArC الجدي}};
 \node[align=center,font=\scriptsize,inner sep=0pt] at (1.0,7.0) {\RL{\ArC الدلو}};
 \node[align=center,font=\scriptsize,inner sep=0pt] at (4.5,7.5) {\RL{\ArC القوس و}\\\RL{\ArC حد المشتري}};
-\node[align=center,font=\scriptsize,inner sep=0pt] at (6.55,8.45) {\RL{\ArC العقرب}\\\RL{\ArC القمر و ه}\\\RL{\ArC المشتري ب}\\\RL{\ArC زحل ب ل}};
+\node[anchor=north west,align=left,font=\scriptsize,inner sep=0pt] at (6.12,8.88) {\RL{\ArC العقرب}\\\RL{\ArC القمر و ه}\\\RL{\ArC المشتري ب}\\\RL{\ArC زحل ب ل}};
 \node[align=center,font=\scriptsize,inner sep=0pt] at (8.0,7.0) {\RL{\ArC الميزان}};
 \node[align=center,font=\scriptsize,inner sep=0pt] at (7.5,4.5) {\RL{\ArC السنبلة يد}};
 \node[align=center,font=\scriptsize,inner sep=0pt] at (1.5,4.5) {\RL{\ArC الحوت يج}};
@@ -236,7 +241,7 @@
 \node[align=center,font=\scriptsize,inner sep=0pt] at (6.85,0.85) {\RL{\ArC المرّيخ يد}\\\RL{\ArC السرطان}};
 \node[align=center,font=\scriptsize,inner sep=0pt] at (4.5,1.5) {\RL{\ArC الجوزاء و}};
 \node[align=center,font=\scriptsize,inner sep=0pt] at (0.85,2.15) {\RL{\ArC الحمل}\\\RL{\ArC عطارد يد ك}};
-\node[align=center,font=\scriptsize,inner sep=0pt] at (2.45,0.55) {\RL{\ArC الشمس و ه}\\\RL{\ArC الرأس و ل}\\\RL{\ArC الثور و}\\\RL{\ArC الزهرة ح ي}};
+\node[anchor=south east,align=right,font=\scriptsize,inner sep=0pt] at (2.88,0.12) {\RL{\ArC الشمس و ه}\\\RL{\ArC الرأس و ل}\\\RL{\ArC الثور و}\\\RL{\ArC الزهرة ح ي}};
 \end{tikzpicture}\end{center}\medskip
 \EdL{1}{AB02-PDF0024-L01}{\RL{\ArBody ٣٢و}}{/في هذه الصورة :}
 \EdL{2}{AB02-PDF0024-L02}{}{الطالع القوس – بيت المشتري وحدّه ومثلّثته –}
@@ -315,11 +320,11 @@
 \node[align=center,font=\scriptsize,inner sep=0pt] at (1.0,7.0) {\RL{\ArC الحوت}};
 \node[align=center,font=\scriptsize,inner sep=0pt] at (4.5,7.5) {\RL{\ArC الجدي ك}};
 \node[align=center,font=\scriptsize,inner sep=0pt] at (7.0,8.0) {\RL{\ArC القوس}};
-\node[align=center,font=\scriptsize,inner sep=0pt] at (8.3,6.7) {\RL{\ArC زحل جـ}\\\RL{\ArC المشتري جـ}\\\RL{\ArC العقرب}};
+\node[anchor=south east,align=right,font=\scriptsize,inner sep=0pt] at (8.88,6.12) {\RL{\ArC زحل جـ}\\\RL{\ArC المشتري جـ}\\\RL{\ArC العقرب}};
 \node[align=center,font=\scriptsize,inner sep=0pt] at (1.5,4.5) {\RL{\ArC عطارد ز}\\\RL{\ArC الحمل}};
 \node[align=center,font=\scriptsize,inner sep=0pt] at (4.5,4.5) {\RL{\ArC طالع مولد}\\\RL{\ArC النبي صلعم}};
 \node[align=center,font=\scriptsize,inner sep=0pt] at (7.5,4.5) {\RL{\ArC الميزان}};
-\node[align=center,font=\scriptsize,inner sep=0pt] at (0.55,2.45) {\RL{\ArC الثور}\\\RL{\ArC الزهرة}\\\RL{\ArC يا ل}\\\RL{\ArC الشمس لو يجـ}};
+\node[anchor=north west,align=left,font=\scriptsize,inner sep=0pt] at (0.12,2.88) {\RL{\ArC الثور}\\\RL{\ArC الزهرة}\\\RL{\ArC يا ل}\\\RL{\ArC الشمس لو يجـ}};
 \node[align=center,font=\scriptsize,inner sep=0pt] at (2.0,1.0) {\RL{\ArC الجوزاء}};
 \node[align=center,font=\scriptsize,inner sep=0pt] at (4.5,1.5) {\RL{\ArC المرّيخ ب}\\\RL{\ArC السرطان ك}};
 \node[align=center,font=\scriptsize,inner sep=0pt] at (6.85,0.85) {\RL{\ArC القمر ب}\\\RL{\ArC الأسد}};
@@ -348,15 +353,15 @@
 \par\medskip\begin{center}\begin{tikzpicture}[x=12mm,y=12mm,line width=0.5pt]
 \draw (0,0) rectangle (9,9); \draw (3,0)--(3,9) (6,0)--(6,9) (0,3)--(9,3) (0,6)--(9,6);
 \draw (0,9)--(3,6) (9,9)--(6,6) (0,0)--(3,3) (9,0)--(6,3);
-\node[align=center,font=\scriptsize,inner sep=0pt] at (2.3,8.3) {\RL{\ArC السرطان}\\\RL{\ArC زحل ز}\\\RL{\ArC المشتري يد}};
+\node[anchor=north east,align=right,font=\scriptsize,inner sep=0pt] at (2.88,8.88) {\RL{\ArC السرطان}\\\RL{\ArC زحل ز}\\\RL{\ArC المشتري يد}};
 \node[align=center,font=\scriptsize,inner sep=0pt] at (1.0,7.0) {\RL{\ArC الأسد}};
 \node[align=center,font=\scriptsize,inner sep=0pt] at (4.5,7.5) {\RL{\ArC الجوزاء كه}};
 \node[align=center,font=\scriptsize,inner sep=0pt] at (7.0,8.0) {\RL{\ArC الثور}};
-\node[align=center,font=\scriptsize,inner sep=0pt] at (8.3,6.7) {\RL{\ArC القمر}\\\RL{\ArC كز د}\\\RL{\ArC الحمل}};
+\node[anchor=south east,align=right,font=\scriptsize,inner sep=0pt] at (8.88,6.12) {\RL{\ArC القمر}\\\RL{\ArC كز د}\\\RL{\ArC الحمل}};
 \node[align=center,font=\scriptsize,inner sep=0pt] at (1.5,4.5) {\RL{\ArC السنبلة يد}};
 \node[align=center,font=\scriptsize,inner sep=0pt] at (7.5,4.5) {\RL{\ArC الحوت يد}};
 \node[align=center,font=\scriptsize,inner sep=0pt] at (0.85,2.15) {\RL{\ArC الميزان}\\\RL{\ArC الشمس يجـ ز}};
-\node[align=center,font=\scriptsize,inner sep=0pt] at (2.45,0.55) {\RL{\ArC المرّيخ}\\\RL{\ArC كب}\\\RL{\ArC عطارد يب}\\\RL{\ArC العقرب}};
+\node[anchor=south east,align=right,font=\scriptsize,inner sep=0pt] at (2.88,0.12) {\RL{\ArC المرّيخ}\\\RL{\ArC كب}\\\RL{\ArC عطارد يب}\\\RL{\ArC العقرب}};
 \node[align=center,font=\scriptsize,inner sep=0pt] at (4.5,1.5) {\RL{\ArC الزهرة ز ل}\\\RL{\ArC القوس}};
 \node[align=center,font=\scriptsize,inner sep=0pt] at (8.0,2.0) {\RL{\ArC الدلو}};
 \node[align=center,font=\scriptsize,inner sep=0pt] at (7.0,1.0) {\RL{\ArC الجدي}};
@@ -374,8 +379,8 @@
 \node[align=center,font=\scriptsize,inner sep=0pt] at (2.0,8.0) {\RL{\ArC السرطان}};
 \node[align=center,font=\scriptsize,inner sep=0pt] at (1.0,7.0) {\RL{\ArC الأسد}};
 \node[align=center,font=\scriptsize,inner sep=0pt] at (4.5,7.5) {\RL{\ArC الجوزاء يط}};
-\node[align=center,font=\scriptsize,inner sep=0pt] at (6.7,8.3) {\RL{\ArC الثور}\\\RL{\ArC الزهرة}\\\RL{\ArC ي}};
-\node[align=center,font=\scriptsize,inner sep=0pt] at (8.45,6.55) {\RL{\ArC المرّيخ}\\\RL{\ArC يا}\\\RL{\ArC عطارد}\\\RL{\ArC يز}\\\RL{\ArC الحمل}};
+\node[anchor=north west,align=left,font=\scriptsize,inner sep=0pt] at (6.12,8.88) {\RL{\ArC الثور}\\\RL{\ArC الزهرة}\\\RL{\ArC ي}};
+\node[anchor=south east,align=right,font=\scriptsize,inner sep=0pt] at (8.88,6.12) {\RL{\ArC المرّيخ}\\\RL{\ArC يا}\\\RL{\ArC عطارد}\\\RL{\ArC يز}\\\RL{\ArC الحمل}};
 \node[align=center,font=\scriptsize,inner sep=0pt] at (1.5,4.5) {\RL{\ArC السنبلة ز}\\\RL{\ArC القمر كز ل}};
 \node[align=center,font=\scriptsize,inner sep=0pt] at (7.5,4.5) {\RL{\ArC الحوت يجـ}\\\RL{\ArC الشمس كز ل}\\\RL{\ArC زحل كب}\\\RL{\ArC المشتري كب}};
 \node[align=center,font=\scriptsize,inner sep=0pt] at (1.0,2.0) {\RL{\ArC الميزان}};
@@ -420,13 +425,13 @@
 \draw (0,9)--(3,6) (9,9)--(6,6) (0,0)--(3,3) (9,0)--(6,3);
 \node[align=center,font=\scriptsize,inner sep=0pt] at (4.5,7.5) {\RL{\ArC العقرب يا}};
 \node[align=center,font=\scriptsize,inner sep=0pt] at (2.0,8.0) {\RL{\ArC القوس}};
-\node[align=center,font=\scriptsize,inner sep=0pt] at (0.55,6.55) {\RL{\ArC الزهرة}\\\RL{\ArC كجـ ل}\\\RL{\ArC الجدي}\\\RL{\ArC عطارد كجـ ل}};
+\node[anchor=south west,align=left,font=\scriptsize,inner sep=0pt] at (0.12,6.12) {\RL{\ArC الزهرة}\\\RL{\ArC كجـ ل}\\\RL{\ArC الجدي}\\\RL{\ArC عطارد كجـ ل}};
 \node[align=center,font=\scriptsize,inner sep=0pt] at (1.5,4.5) {\RL{\ArC الدلو يب}\\\RL{\ArC الشمس يه كح}\\\RL{\ArC المشتري يه كح}};
 \node[align=center,font=\scriptsize,inner sep=0pt] at (1.0,2.0) {\RL{\ArC الحوت}};
 \node[align=center,font=\scriptsize,inner sep=0pt] at (2.0,1.0) {\RL{\ArC الحمل}};
 \node[align=center,font=\scriptsize,inner sep=0pt] at (4.5,1.5) {\RL{\ArC الثور يا}};
 \node[align=center,font=\scriptsize,inner sep=0pt] at (7.0,1.0) {\RL{\ArC الجوزاء}};
-\node[align=center,font=\scriptsize,inner sep=0pt] at (8.45,2.45) {\RL{\ArC السرطان}\\\RL{\ArC زحل كد ل}\\\RL{\ArC المرّيخ}\\\RL{\ArC كدل}};
+\node[anchor=north east,align=right,font=\scriptsize,inner sep=0pt] at (8.88,2.88) {\RL{\ArC السرطان}\\\RL{\ArC زحل كد ل}\\\RL{\ArC المرّيخ}\\\RL{\ArC كدل}};
 \node[align=center,font=\scriptsize,inner sep=0pt] at (7.5,4.5) {\RL{\ArC الأسد يب}\\\RL{\ArC القمر يه كح}};
 \node[align=center,font=\scriptsize,inner sep=0pt] at (8.0,7.0) {\RL{\ArC السنبلة}};
 \node[align=center,font=\scriptsize,inner sep=0pt] at (7.0,8.0) {\RL{\ArC الميزان}};
@@ -461,7 +466,7 @@
 \node[align=center,font=\scriptsize,inner sep=0pt] at (8.0,2.0) {\RL{\ArC الجدي}};
 \node[align=center,font=\scriptsize,inner sep=0pt] at (7.5,4.5) {\RL{\ArC الدلو}};
 \node[align=center,font=\scriptsize,inner sep=0pt] at (8.15,6.85) {\RL{\ArC الحوت}\\\RL{\ArC المشتري يا يه}};
-\node[align=center,font=\scriptsize,inner sep=0pt] at (6.7,8.3) {\RL{\ArC الحمل}\\\RL{\ArC الزهرة}\\\RL{\ArC كو ز}};
+\node[anchor=north west,align=left,font=\scriptsize,inner sep=0pt] at (6.12,8.88) {\RL{\ArC الحمل}\\\RL{\ArC الزهرة}\\\RL{\ArC كو ز}};
 \end{tikzpicture}\end{center}\medskip
 \EdL{4}{AB02-PDF0038-L04}{}{مع الشمس ، والزهرة وعطارد في برج الانتهاء}
 \EdL{5}{AB02-PDF0038-L05}{}{وهو طالع المولد . وعطارد صاحب حد}
@@ -525,7 +530,7 @@
 \draw (0,0) rectangle (9,9); \draw (3,0)--(3,9) (6,0)--(6,9) (0,3)--(9,3) (0,6)--(9,6);
 \draw (0,9)--(3,6) (9,9)--(6,6) (0,0)--(3,3) (9,0)--(6,3);
 \node[align=center,font=\scriptsize,inner sep=0pt] at (4.5,7.5) {\RL{\ArC الحمل ي}\\\RL{\ArC عطارد ز ك}\\\RL{\ArC الزهرة كز ط}};
-\node[align=center,font=\scriptsize,inner sep=0pt] at (2.3,8.3) {\RL{\ArC الشمس\ZeroSign{} ي}\\\RL{\ArC القمر ح ل}\\\RL{\ArC الثور}};
+\node[anchor=north east,align=right,font=\scriptsize,inner sep=0pt] at (2.88,8.88) {\RL{\ArC الشمس\ZeroSign{} ي}\\\RL{\ArC القمر ح ل}\\\RL{\ArC الثور}};
 \node[align=center,font=\scriptsize,inner sep=0pt] at (1.0,7.0) {\RL{\ArC الجوزاء}};
 \node[align=center,font=\scriptsize,inner sep=0pt] at (1.5,4.5) {\RL{\ArC السرطان ز}};
 \node[align=center,font=\scriptsize,inner sep=0pt] at (1.0,2.0) {\RL{\ArC الأسد}};
@@ -592,7 +597,7 @@
 \node[align=center,font=\scriptsize,inner sep=0pt] at (2.15,8.15) {\RL{\ArC زحل كط ل}\\\RL{\ArC العقرب}};
 \node[align=center,font=\scriptsize,inner sep=0pt] at (1.0,7.0) {\RL{\ArC القوس}};
 \node[align=center,font=\scriptsize,inner sep=0pt] at (1.5,4.5) {\RL{\ArC الجدي د}\\\RL{\ArC المشتري د ي}};
-\node[align=center,font=\scriptsize,inner sep=0pt] at (0.7,2.3) {\RL{\ArC الدلو}\\\RL{\ArC المرّيخ يد ل}\\\RL{\ArC القمر يح}};
+\node[anchor=north west,align=left,font=\scriptsize,inner sep=0pt] at (0.12,2.88) {\RL{\ArC الدلو}\\\RL{\ArC المرّيخ يد ل}\\\RL{\ArC القمر يح}};
 \node[align=center,font=\scriptsize,inner sep=0pt] at (2.0,1.0) {\RL{\ArC الحوت}};
 \node[align=center,font=\scriptsize,inner sep=0pt] at (4.5,1.5) {\RL{\ArC عطارد كز}\\\RL{\ArC الحمل د}};
 \node[align=center,font=\scriptsize,inner sep=0pt] at (6.85,0.85) {\RL{\ArC الثور}\\\RL{\ArC الشمس\ZeroSign{} كه}};
@@ -642,13 +647,13 @@
 \draw (0,0) rectangle (9,9); \draw (3,0)--(3,9) (6,0)--(6,9) (0,3)--(9,3) (0,6)--(9,6);
 \draw (0,9)--(3,6) (9,9)--(6,6) (0,0)--(3,3) (9,0)--(6,3);
 \node[align=center,font=\scriptsize,inner sep=0pt] at (4.5,7.5) {\RL{\ArC الثور ي}};
-\node[align=center,font=\scriptsize,inner sep=0pt] at (2.3,8.3) {\RL{\ArC الشمس كز مز}\\\RL{\ArC عطارد يجـ}\\\RL{\ArC الجوزاء}};
+\node[anchor=north east,align=right,font=\scriptsize,inner sep=0pt] at (2.88,8.88) {\RL{\ArC الشمس كز مز}\\\RL{\ArC عطارد يجـ}\\\RL{\ArC الجوزاء}};
 \node[align=center,font=\scriptsize,inner sep=0pt] at (1.0,7.0) {\RL{\ArC السرطان}};
 \node[align=center,font=\scriptsize,inner sep=0pt] at (1.5,4.5) {\RL{\ArC الأسد هـ}};
 \node[align=center,font=\scriptsize,inner sep=0pt] at (1.0,2.0) {\RL{\ArC السنبلة}};
 \node[align=center,font=\scriptsize,inner sep=0pt] at (2.0,1.0) {\RL{\ArC الميزان}};
 \node[align=center,font=\scriptsize,inner sep=0pt] at (4.5,1.5) {\RL{\ArC العقرب}};
-\node[align=center,font=\scriptsize,inner sep=0pt] at (6.7,0.7) {\RL{\ArC القوس}\\\RL{\ArC القمر كز ك}\\\RL{\ArC زحل يز ك}};
+\node[anchor=south west,align=left,font=\scriptsize,inner sep=0pt] at (6.12,0.12) {\RL{\ArC القوس}\\\RL{\ArC القمر كز ك}\\\RL{\ArC زحل يز ك}};
 \node[align=center,font=\scriptsize,inner sep=0pt] at (8.0,2.0) {\RL{\ArC الجدي}};
 \node[align=center,font=\scriptsize,inner sep=0pt] at (7.5,4.5) {\RL{\ArC الدلو هـ}};
 \node[align=center,font=\scriptsize,inner sep=0pt] at (8.15,6.85) {\RL{\ArC الحوت}\\\RL{\ArC المشتري يد}};
@@ -689,7 +694,7 @@
 \node[align=center,font=\scriptsize,inner sep=0pt] at (7.0,1.0) {\RL{\ArC الحوت}};
 \node[align=center,font=\scriptsize,inner sep=0pt] at (8.15,2.15) {\RL{\ArC زحل كجـ مه}\\\RL{\ArC الحمل}};
 \node[align=center,font=\scriptsize,inner sep=0pt] at (7.5,4.5) {\RL{\ArC الثوريح}\\\RL{\ArC و}\\\RL{\ArC الزهرة ط}};
-\node[align=center,font=\scriptsize,inner sep=0pt] at (8.3,6.7) {\RL{\ArC الجوزاء}\\\RL{\ArC الشمس ز ما}\\\RL{\ArC عطارد كب ك}};
+\node[anchor=south east,align=right,font=\scriptsize,inner sep=0pt] at (8.88,6.12) {\RL{\ArC الجوزاء}\\\RL{\ArC الشمس ز ما}\\\RL{\ArC عطارد كب ك}};
 \node[align=center,font=\scriptsize,inner sep=0pt] at (7.0,8.0) {\RL{\ArC السرطان}};
 \end{tikzpicture}\end{center}\medskip
 \EdL{8}{AB02-PDF0052-L08}{}{الزهرة في الثور \Ov{ط} ، عطارد في الجوزاء \Ov{كب}}
@@ -705,4 +710,206 @@
 \par\smallskip\noindent\rule{40mm}{0.4pt}\par
 \AppL{AB02-PDF0052-A01}{٣ - ودلالته : ودلاله | ١١ - قبالته : قباله له ، وقد صحّحت على الهامش وألحقت بعلامة المراجعة «صحّ» | ١٥ - مقارنته : مقارنه |}
 \AppL{AB02-PDF0052-A02}{(في الصورة) الأسد ط: (في النص) ز ط | القمر ز ما: (في النص) سقطت}
+\PageHead{54}{66}{0054}
+\EdL{1}{AB02-PDF0054-L01}{\RL{\ArBody ٣٩ظ}}{/ظاهرًا مكشوفًا . ولأنّ الوتد الذي اجتازت به الشمسُ الطالعُ ، وصاحبه الشمس ، والمرّيخ}
+\EdL{2}{AB02-PDF0054-L02}{}{وعطارد معهما في البرج ، دلّت على أمور مختلطة ، أولها أحمد من آخرها ، وعلى الترفّع والترؤّس ، لأنّ}
+\EdL{3}{AB02-PDF0054-L03}{}{الشمس كانت في بعدها الأبعد من الأرض . فكانت خلافة عثمان إحدى عشرة سنة وأحد عشر شهرًا}
+\EdL{4}{AB02-PDF0054-L04}{}{وتسعة عشر يومًا . وكان مقتله في السابع والعشرين من حزيران سنة}
+\EdL{5}{AB02-PDF0054-L05}{}{ظسز وهي السنة التي صار الانتهاء فيها من الجوزاء، التي هي موضع الشمس بالنهار ، من أجل كون}
+\EdL{6}{AB02-PDF0054-L06}{}{الكسوف نهارًا ذلك اليوم ، وهو أحد أوتاد الأصل ، وموضع الشمس فيه ، وقباله زحل}
+\EdL{7}{AB02-PDF0054-L07}{}{في كسوف العودة ، الذي هو الكسوف للقران الرابع . {\bfseries\large وكان القران الخامس}}
+\EdL{8}{AB02-PDF0054-L08}{}{في السنة السادسة من خلافة عثمان وهي سنة \Ov{ظسا} لذي القرنين ، واتفق فيها كسوف}
+\EdL{9}{AB02-PDF0054-L09}{}{قمريٌّ في اليوم السابع من تمّوز بالنهار والنيّران على وتدين . الطالع الجدي ، وسط السماء}
+\EdL{10}{AB02-PDF0054-L10}{}{الميزان \Ov{يب} ، الشمس في السرطان \Ov{يز ك} ، القمر في الجدي \Ov{يز ك} ، زحل في السرطان}
+\EdL{11}{AB02-PDF0054-L11}{}{\Ov{يد} ، المشتري في السرطان \Ov{يو ك} ، المرّيخ في آخر السنبلة وأوّل الميزان ، الزهرة في}
+\par\medskip\begin{center}\begin{tikzpicture}[x=12mm,y=12mm,line width=0.5pt]
+\draw (0,0) rectangle (9,9); \draw (3,0)--(3,9) (6,0)--(6,9) (0,3)--(9,3) (0,6)--(9,6);
+\draw (0,9)--(3,6) (9,9)--(6,6) (0,0)--(3,3) (9,0)--(6,3);
+\node[align=center,font=\scriptsize,inner sep=0pt] at (4.5,7.5) {\RL{\ArC الجدي}\\\RL{\ArC القمر يز ك}};
+\node[align=center,font=\scriptsize,inner sep=0pt] at (2.0,8.0) {\RL{\ArC الدلو}};
+\node[align=center,font=\scriptsize,inner sep=0pt] at (1.0,7.0) {\RL{\ArC الحوت}};
+\node[align=center,font=\scriptsize,inner sep=0pt] at (1.5,4.5) {\RL{\ArC الحمل}};
+\node[align=center,font=\scriptsize,inner sep=0pt] at (1.0,2.0) {\RL{\ArC الثور}};
+\node[align=center,font=\scriptsize,inner sep=0pt] at (2.0,1.0) {\RL{\ArC الجوزاء}};
+\node[align=center,font=\scriptsize,inner sep=0pt] at (4.5,1.5) {\RL{\ArC الشمس ز ك}\\\RL{\ArC المشتري يو ك}\\\RL{\ArC زحل يد}\\\RL{\ArC السرطان}};
+\node[align=center,font=\scriptsize,inner sep=0pt] at (6.85,0.85) {\RL{\ArC الأسد}\\\RL{\ArC عطارد يد ل}};
+\node[align=center,font=\scriptsize,inner sep=0pt] at (8.15,2.15) {\RL{\ArC المرّيخ}\\\RL{\ArC السنبلة}};
+\node[align=center,font=\scriptsize,inner sep=0pt] at (7.5,4.5) {\RL{\ArC الميزان}\\\RL{\ArC الزهرة هـ كد}};
+\node[align=center,font=\scriptsize,inner sep=0pt] at (8.0,7.0) {\RL{\ArC العقرب}};
+\node[align=center,font=\scriptsize,inner sep=0pt] at (7.0,8.0) {\RL{\ArC القوس}};
+\end{tikzpicture}\end{center}\medskip
+\EdL{12}{AB02-PDF0054-L12}{}{الجوزاء \Ov{هـ كد} ، عطارد في الأسد}
+\EdL{13}{AB02-PDF0054-L13}{}{\Ov{يد ل} ، برج الانتهاء الجوزاء . فكان هذا}
+\EdL{14}{AB02-PDF0054-L14}{}{القران الخامس مقابل الكسوف مع}
+\EdL{15}{AB02-PDF0054-L15}{}{الشمس في برج الانقلاب ، وهو أوّل}
+\EdL{16}{AB02-PDF0054-L16}{}{كسوف وقع على قطره القران بعد}
+\EdL{17}{AB02-PDF0054-L17}{}{القران الأوّل الذي كان فيه القران مع الكسوف}
+\par\smallskip\noindent\rule{40mm}{0.4pt}\par
+\AppL{AB02-PDF0054-A01}{١ - اجتازت : اجازت | ٦ - ذلك : الى | ١١ - يد : مد | (في الصورة) الزهرة في الميزان: (في النص) في الجوزاء .}
+\PageHead{56}{68}{0056}
+\EdL{1}{AB02-PDF0056-L01}{\RL{\ArBody ٤٠و}}{/وزحل والمشتري مقترنان مع الشمس قد ابتدآ في التشريق عنها . وصاحب الكسوف}
+\EdL{2}{AB02-PDF0056-L02}{}{زحل ، وصاحب الحدّ والشرف المرّيخ ، وزحل في برج الانقلاب والمرّيخ قد شارف}
+\EdL{3}{AB02-PDF0056-L03}{}{برج الاعتدال . والكسوف في الطالع دائبًا يظهر في آخره ويطلع ، والمرّيخ ، الذي هو}
+\EdL{4}{AB02-PDF0056-L04}{}{اكثر استيلاء ، مغرّب عن الشمس . فدلّ ذلك على سرعة تغيّر يقع في أمر الأوّل ، وعلى}
+\EdL{5}{AB02-PDF0056-L05}{}{فتن وحروب تحدث ، خاصّة والمرّيخ في وسط السماء في أوّل الكسوف . وفي هذه}
+\EdL{6}{AB02-PDF0056-L06}{}{السنة طغى الناس على عثمان وقالوا فيه . ولتشريق زحل وتغريب المرّيخ كان الوقت}
+\EdL{7}{AB02-PDF0056-L07}{}{فيما ذكرنا من السرعة والإبطاء ، إلاّ أنّه إلى السرعة أميل . فابتدأت الفتنة بعد قتل[ه] ،}
+\EdL{8}{AB02-PDF0056-L08}{}{وكانت في السنة السابعة من القران ، وهي السنة التي انتهى فيها برج الكسوف،}
+\EdL{9}{AB02-PDF0056-L09}{}{وهو الجدي ، إلى موضع القران ، وموضع القران إلى برج الكسوف . وصار الأمر بعد}
+\EdL{10}{AB02-PDF0056-L10}{}{عثمان خارجًا عن الشريعة . وصارت الخلافة بعد عليّ بن أبي طالب ، عليه السلام ، ملكًا .}
+\EdLp{11}{AB02-PDF0056-L11}{}{وخرج الأمر إلى التغيير الذي دلّ عليه الكسوف . ولكن لأنّه لم يكن قران}
+\EdL{12}{AB02-PDF0056-L12}{}{عودة ، ولم تفسد أوتاد القران الأوّل وإنّما فسد وتد هذا القران فقط بحلول المرّيخ}
+\EdL{13}{AB02-PDF0056-L13}{}{في أوّل الميزان ومشارفته إيّاه ، ثبت الملك في بني أميّة ولم يخرج عنهم إلى خلافة علي بن أبي طالب ،}
+\EdL{14}{AB02-PDF0056-L14}{}{عليه السلام . {\bfseries\large قيام أمير المؤمنين علي بن أبي طالب عليه السلام}}
+\EdLp{15}{AB02-PDF0056-L15}{}{وكان الكسوف الذي دلّ على قتل عثمان وقيام علي بن أبي طالب ، عليه السلام ، كسوف قمريّ}
+\EdL{16}{AB02-PDF0056-L16}{}{سنة \Ov{طسز} ، في الليلة الحادية والعشرين من تشرين الأوّل . الطالع الميزان \Ov{د} ، وسط}
+\EdL{17}{AB02-PDF0056-L17}{}{السماء السرطان \Ov{د} ، الشمس في الميزان \Ov{كط مجـ} ، القمر في الحمل \Ov{كط مجـ} ، زحل في}
+\par\smallskip\noindent\rule{40mm}{0.4pt}\par
+\AppL{AB02-PDF0056-A01}{١ - ابتدآ: ابتدا | ١١ - إلى التغيير : إلى على التغيير ، وقد اخترنا «إلى » مع أنّ «على» تصحّ أيضًا . | ١٢ - وتد : على}
+\AppL{AB02-PDF0056-A02}{الهامش ملحقة بعلامة «صحّ» | ١٦ - طسز : طس}
+\PageHead{58}{70}{0058}
+\EdL{1}{AB02-PDF0058-L01}{\RL{\ArBody ٤٠ظ}}{/السنبلة \Ov{كجـ} ، المشتري في القوس \Ov{ي} ، المرّيخ في الأسد \Ov{يط ك} الزهرة في الميزان}
+\EdL{2}{AB02-PDF0058-L02}{}{\Ov{و ك} ، عطارد في العقرب \Ov{و ك} ، برج الانتهاء العقرب ، وهو برج الأصل . واتفق عطارد}
+\EdL{3}{AB02-PDF0058-L03}{}{في موضع كسوف الأصل وقرانه . المرّيخ الذي هو صاحب العقرب في وسط سماء}
+\EdL{4}{AB02-PDF0058-L04}{}{العقرب . وموضع القمر في الدلو . والانتهاء من طالع المولد إلى برج الكسوف}
+\par\medskip\begin{center}\begin{tikzpicture}[x=12mm,y=12mm,line width=0.5pt]
+\draw (0,0) rectangle (9,9); \draw (3,0)--(3,9) (6,0)--(6,9) (0,3)--(9,3) (0,6)--(9,6);
+\draw (0,9)--(3,6) (9,9)--(6,6) (0,0)--(3,3) (9,0)--(6,3);
+\node[align=center,font=\scriptsize,inner sep=0pt] at (4.5,7.5) {\RL{\ArC الميزان د}\\\RL{\ArC الزهرة ي ك}\\\RL{\ArC الشمس كط يجـ}};
+\node[align=center,font=\scriptsize,inner sep=0pt] at (2.15,8.15) {\RL{\ArC عطارد و ك}\\\RL{\ArC العقرب}};
+\node[align=center,font=\scriptsize,inner sep=0pt] at (0.85,6.85) {\RL{\ArC القوس}\\\RL{\ArC المشتري ي}};
+\node[align=center,font=\scriptsize,inner sep=0pt] at (1.5,4.5) {\RL{\ArC الجدي د}};
+\node[align=center,font=\scriptsize,inner sep=0pt] at (1.0,2.0) {\RL{\ArC الدلو}};
+\node[align=center,font=\scriptsize,inner sep=0pt] at (2.0,1.0) {\RL{\ArC الحوت}};
+\node[align=center,font=\scriptsize,inner sep=0pt] at (4.5,1.5) {\RL{\ArC القمر كط يجـ}\\\RL{\ArC الحمل د}};
+\node[align=center,font=\scriptsize,inner sep=0pt] at (7.0,1.0) {\RL{\ArC الثور}};
+\node[align=center,font=\scriptsize,inner sep=0pt] at (8.0,2.0) {\RL{\ArC الجوزاء}};
+\node[align=center,font=\scriptsize,inner sep=0pt] at (7.5,4.5) {\RL{\ArC السرطان د}};
+\node[align=center,font=\scriptsize,inner sep=0pt] at (8.15,6.85) {\RL{\ArC الأسد}\\\RL{\ArC المرّيخ يط ك}};
+\node[align=center,font=\scriptsize,inner sep=0pt] at (6.85,8.15) {\RL{\ArC السنبلة}\\\RL{\ArC زحل كجـ}};
+\end{tikzpicture}\end{center}\medskip
+\EdL{5}{AB02-PDF0058-L05}{}{في آخر القران الخامس . وعطارد في حظوظ}
+\EdL{6}{AB02-PDF0058-L06}{}{المرّيخ وتربيع المرّيخ وهو بالحال المذكورة .}
+\EdL{7}{AB02-PDF0058-L07}{}{فدلّ ذلك على مقتل عثمان لأنّ زحل}
+\EdL{8}{AB02-PDF0058-L08}{}{في ثاني عشر الشمس ، غير مرتبط بها ، وشكله}
+\EdL{9}{AB02-PDF0058-L09}{}{عندها شكل رديء . ولكن الشمس في آخر}
+\EdL{10}{AB02-PDF0058-L10}{}{برج هبوطها ، قد شارفت برج الكسوف}
+\EdL{11}{AB02-PDF0058-L11}{}{الأصليّ وقرانَه ، والزهرة تطلع قبلها والمشتري على تسديسها بالبروج ، أعطت مقدار سنيّها}
+\EdL{12}{AB02-PDF0058-L12}{}{الصغرى . ولولا ما تهيّأ ممّا ذكرنا لم تعط هذا المقدار لرداءة شكل زحل ومكانها}
+\EdL{13}{AB02-PDF0058-L13}{}{من هبوطها . فكانت خلافة عليّ أربع سنين وتسعة أشهر . ولأنّ المرّيخ في طالع الكسوف ،}
+\EdL{14}{AB02-PDF0058-L14}{}{ودرجة وسط سمائه موضع المرّيخ في الأصل ، والمرّيخ في موضع القمر في أصل المولد}
+\EdL{15}{AB02-PDF0058-L15}{}{ووسط سماء العقرب ، دلّ على الفتن والحروب في خلافته والجناة وعلى أنّه يموت بالسيف كالذي}
+\EdL{16}{AB02-PDF0058-L16}{}{كان من ميتة عمر . ولأنّ الزهرة كانت في طالع الكسوف ، وهو بيتها ،}
+\EdL{17}{AB02-PDF0058-L17}{}{تتصل بالمشتري ، دلّ على الصلاح والدين وإحياء الأمر الأوّل ، أعني النبوّة . ولكن}
+\par\smallskip\noindent\rule{40mm}{0.4pt}\par
+\AppL{AB02-PDF0058-A01}{١٢ - لرداءة : لردأة | (في الصورة) الشمس كط يجـ : (في النص) كط مجـ | القمر كط يجـ : (في النص) كط مجـ | الزهرة ي}
+\AppL{AB02-PDF0058-A02}{ك : (في النص) و ك}
+\PageHead{60}{72}{0060}
+\EdL{1}{AB02-PDF0060-L01}{\RL{\ArBody ٤١و}}{/لمكان الوتد ، الذي اجتازه القمر قبل كسوفه وسط السماء ، وهو موضع المرّيخ}
+\EdL{2}{AB02-PDF0060-L02}{}{في الأصل ، وصاحبه القمر ، وهو منكسف ، والمرّيخ على تربيع الأصل ، دلّ على اضطراب}
+\EdL{3}{AB02-PDF0060-L03}{}{الأمر عليه وفساد سلطانه وعلى الحروب والمنازعة . وكان الانتهاء في هذه السنة}
+\EdL{4}{AB02-PDF0060-L04}{}{التي قُبض فيها من برج الكسوف، الذي هو أوّل الثور بالتقريب ، إلى السنبلة ، موضع}
+\EdL{5}{AB02-PDF0060-L05}{}{زحل في كسوف قيامه ، ومقابلة المرّيخ في كسوف وفاته . وكانت وفاته في}
+\EdL{6}{AB02-PDF0060-L06}{}{الرابع والعشرين من كانون الآخر سنة \Ov{ظعب} .}
+\EdLh{7}{AB02-PDF0060-L07}{}{قيام معاوية بن أبي سفيان}
+\EdLp{8}{AB02-PDF0060-L08}{}{وكان الكسوف الذي دلّ على وفاة عليّ بن أبي طالب ، عليه السلام ، وقيام معاوية كسوف قمريّ}
+\EdL{9}{AB02-PDF0060-L09}{}{في اليوم الثاني والعشرين من كانون الأوّل بالنهار سنة \Ov{ظعب} . طالعه الثور}
+\EdL{10}{AB02-PDF0060-L10}{}{\Ov{ك} ، وسط السماء الدلو \Ov{ح} ، الشمس في الجدي \Ov{د و} ، القمر في السرطان \Ov{د و} ، زحل في}
+\EdL{11}{AB02-PDF0060-L11}{}{العقرب \Ov{كا} ، المشتري في الثور \Ov{كو} ، المرّيخ في الحوت \Ov{يب} ، الزهرة في الجدي}
+\par\medskip\begin{center}\begin{tikzpicture}[x=12mm,y=12mm,line width=0.5pt]
+\draw (0,0) rectangle (9,9); \draw (3,0)--(3,9) (6,0)--(6,9) (0,3)--(9,3) (0,6)--(9,6);
+\draw (0,9)--(3,6) (9,9)--(6,6) (0,0)--(3,3) (9,0)--(6,3);
+\node[align=center,font=\scriptsize,inner sep=0pt] at (4.5,7.5) {\RL{\ArC الثور ك}};
+\node[align=center,font=\scriptsize,inner sep=0pt] at (2.0,8.0) {\RL{\ArC الجوزاء}};
+\node[align=center,font=\scriptsize,inner sep=0pt] at (0.85,6.85) {\RL{\ArC القمر د و}\\\RL{\ArC السرطان}};
+\node[align=center,font=\scriptsize,inner sep=0pt] at (1.5,4.5) {\RL{\ArC الأسد ح}};
+\node[align=center,font=\scriptsize,inner sep=0pt] at (1.0,2.0) {\RL{\ArC السنبلة}};
+\node[align=center,font=\scriptsize,inner sep=0pt] at (2.0,1.0) {\RL{\ArC الميزان}};
+\node[align=center,font=\scriptsize,inner sep=0pt] at (4.5,1.5) {\RL{\ArC زحل كا}\\\RL{\ArC العقرب ك}};
+\node[align=center,font=\scriptsize,inner sep=0pt] at (7.0,1.0) {\RL{\ArC القوس}};
+\node[anchor=north east,align=right,font=\scriptsize,inner sep=0pt] at (8.88,2.88) {\RL{\ArC الشمس د و}\\\RL{\ArC الزهرة كط ل}\\\RL{\ArC الجدي}\\\RL{\ArC عطارد ى ل}};
+\node[align=center,font=\scriptsize,inner sep=0pt] at (7.5,4.5) {\RL{\ArC الدلو ح}};
+\node[align=center,font=\scriptsize,inner sep=0pt] at (8.15,6.85) {\RL{\ArC المرّيخ يب}\\\RL{\ArC الحوت}};
+\node[align=center,font=\scriptsize,inner sep=0pt] at (7.0,8.0) {\RL{\ArC الحمل}};
+\end{tikzpicture}\end{center}\medskip
+\EdL{12}{AB02-PDF0060-L12}{}{\Ov{كط ل} ، عطارد في الجدي \Ov{ي ل} ،}
+\EdL{13}{AB02-PDF0060-L13}{}{برج الانتهاء في وقت الكسوف الحملل. واتفق}
+\EdL{14}{AB02-PDF0060-L14}{}{زحل في برج الأصل في وتد المغرب والكسوف}
+\EdL{15}{AB02-PDF0060-L15}{}{مع موضع المرّيخ في الأصل ، وهو صاحب}
+\EdL{16}{AB02-PDF0060-L16}{}{الانتهاء. والنيّران ينظران إليه في الكسوف .}
+\EdLs{17}{AB02-PDF0060-L17}{}{فدلّ على وفاة أمير المؤمنين عليّ بن أبي طالب عليه السلام .}
+\par\smallskip\noindent\rule{40mm}{0.4pt}\par
+\AppL{AB02-PDF0060-A01}{١٣ - برج : مع}
+\PageHead{62}{74}{0062}
+\EdL{1}{AB02-PDF0062-L01}{\RL{\ArBody ٤١ظ}}{/ولأنّ زحل في الحادي عشر من الشمس ، وشكله عندها شكل محمود والمشتري في}
+\EdL{2}{AB02-PDF0062-L02}{}{طالع الكسوف ووتد الأرض يتصل بزحل ، وهو على تثليث الشمس أيضًا ، وعطارد}
+\EdL{3}{AB02-PDF0062-L03}{}{والزهرة مع الشمس في البرج ويطلعان بعدها ، فلذلك أعطت سنيّها الصغرى}
+\EdL{4}{AB02-PDF0062-L04}{}{تامّة . وكان ملك معاوية تسع عشرة سنة قمريّة وثلاثة أشهر وخمسة وعشرين في}
+\EdL{5}{AB02-PDF0062-L05}{}{اليوم الثلاثين من نيسان سنة \Ov{ظعب} . فلأنّ صاحب الوتد الذي اجتازت به الشمس}
+\EdL{6}{AB02-PDF0062-L06}{}{زحل ، وهو على تربيع البرج ، وعطارد يتصل بزحل ، والمشتري يقابله ، دلّ على الحلم}
+\EdL{7}{AB02-PDF0062-L07}{}{والتأنّي ولطف الحيلة في الأمور وجودة الرأي والمكر والخداع وما أشبه ذلك .}
+\EdLp{8}{AB02-PDF0062-L08}{}{وكان الانتهاء في هذه السنة من موضع الشمس في كسوف قيامه إلى برج الكسوف}
+\EdL{9}{AB02-PDF0062-L09}{}{فيه ، وهو برج الانتهاء من طالع المولد . واتفق فيه زحل، في الكسوف الذي توفّي فيه ، والشمس}
+\EdL{10}{AB02-PDF0062-L10}{}{أيضًا . وكذلك الانتهاء من كسوف القران السادس ، الذي كان في وفاته ، إلى الحمل ،}
+\EdL{11}{AB02-PDF0062-L11}{}{وهو موضع المرّيخ في كسوف وفاته . {\bfseries\large وكان القران السادس في أيّام معاوية}}
+\EdL{12}{AB02-PDF0062-L12}{}{في سنة \Ov{ظف} . واتفق فيها كسوف قمريّ في الليلة الثانية عشرة من كانون الثاني .}
+\EdL{13}{AB02-PDF0062-L13}{}{طالعه القوس \Ov{ي} ، وسط السماء السنبلة \Ov{يو} ، الشمس في الجدي \Ov{كد يا} ، القمر في السرطان}
+\EdL{14}{AB02-PDF0062-L14}{}{\Ov{كد يا} ، زحل في الدلو \Ov{كجـ لجـ} ، المشتري في الدلو \Ov{كجـ يد} ، المرّيخ في الجدي \Ov{كط م} ،}
+\EdL{15}{AB02-PDF0062-L15}{}{الزهرة في الجدي \Ov{\ZeroSign{}هـ} ، عطارد في الجدي \Ov{يجـ مز} ، برج الانتهاء القوس ، وصاحبه}
+\EdL{16}{AB02-PDF0062-L16}{}{مقارن لزحل والبرج الذي وقع فيه القران ، وهو وتد من أوتاد الأصل وبيت}
+\EdL{17}{AB02-PDF0062-L17}{}{زحل . وخرج القران في هذا الكسوف عن المثلّثة التي كان فيها وشارف المرّيخ}
+\par\smallskip\noindent\rule{40mm}{0.4pt}\par
+\AppL{AB02-PDF0062-A01}{٤ - في : وفي | ٦ - الحلم : الحكم | ١٢ - عشرة : عشر | ١٥ - يجـ : جـ}
+\par\needspace{130mm}
+\PageHead{64}{76}{0064}
+\par\medskip\begin{center}\begin{tikzpicture}[x=12mm,y=12mm,line width=0.5pt]
+\draw (0,0) rectangle (9,9); \draw (3,0)--(3,9) (6,0)--(6,9) (0,3)--(9,3) (0,6)--(9,6);
+\draw (0,9)--(3,6) (9,9)--(6,6) (0,0)--(3,3) (9,0)--(6,3);
+\node[align=center,font=\scriptsize,inner sep=0pt] at (4.5,7.5) {\RL{\ArC القوس ي}};
+\node[anchor=north east,align=right,font=\scriptsize,inner sep=0pt] at (2.88,8.88) {\RL{\ArC الشمس كد يا}\\\RL{\ArC المرّيخ كط م}\\\RL{\ArC الجدي}\\\RL{\ArC عطارد يجـ مز}};
+\node[anchor=south west,align=left,font=\scriptsize,inner sep=0pt] at (0.12,6.12) {\RL{\ArC كجـ لجـ}\\\RL{\ArC زحل}\\\RL{\ArC الدلو}\\\RL{\ArC المشترى كز يد}};
+\node[align=center,font=\scriptsize,inner sep=0pt] at (1.5,4.5) {\RL{\ArC الحوت يو}};
+\node[align=center,font=\scriptsize,inner sep=0pt] at (1.0,2.0) {\RL{\ArC الحمل}};
+\node[align=center,font=\scriptsize,inner sep=0pt] at (2.0,1.0) {\RL{\ArC الثور}};
+\node[align=center,font=\scriptsize,inner sep=0pt] at (4.5,1.5) {\RL{\ArC الجوزاء ي}};
+\node[align=center,font=\scriptsize,inner sep=0pt] at (6.85,0.85) {\RL{\ArC القمر كد يا}\\\RL{\ArC السرطان}};
+\node[align=center,font=\scriptsize,inner sep=0pt] at (8.0,2.0) {\RL{\ArC الأسد}};
+\node[align=center,font=\scriptsize,inner sep=0pt] at (7.5,4.5) {\RL{\ArC السنبلة يو}};
+\node[align=center,font=\scriptsize,inner sep=0pt] at (8.0,7.0) {\RL{\ArC الميزان}};
+\node[align=center,font=\scriptsize,inner sep=0pt] at (7.0,8.0) {\RL{\ArC العقرب}};
+\end{tikzpicture}\end{center}\medskip
+\EdL{1}{AB02-PDF0064-L01}{\RL{\ArBody ٤٢و}}{/ أوّل الدلو الذي هو أحد أوتاد الأصل .}
+\EdL{2}{AB02-PDF0064-L02}{}{فدلّ على خروج الأمر عن البيت الذي كان [ فيه ]}
+\EdL{3}{AB02-PDF0064-L03}{}{وتغلّب غيرهم عليه ، وكان من أمر مروان}
+\EdL{4}{AB02-PDF0064-L04}{}{ابن الحكم وعبد اللّه بن الزبير ما كان .}
+\EdL{5}{AB02-PDF0064-L05}{}{ولكن لأنّ قران العودة الذي يتلو لهذا}
+\EdL{6}{AB02-PDF0064-L06}{}{القران يعود في وقت كسوفه إلى المثلّثة}
+\EdL{7}{AB02-PDF0064-L07}{}{التي كان فيها ، أعني مثلّثة العقرب ، ولأنّ المرّيخ لم يتمكن في الدلو كما تمكن في}
+\EdL{8}{AB02-PDF0064-L08}{}{كسوف القران الرابع ، يدلّ على رجوع الأمر إلى بني أميّة ، وفساد سلطان}
+\EdL{9}{AB02-PDF0064-L09}{}{ابن الزبير وانقضائه . فعاد إلى بني مروان ، سيّما والكسوف ليس بكسوف قران}
+\EdL{10}{AB02-PDF0064-L10}{}{عودة يُنظر منه في أُمور الدول . وكان الانتهاء من هذا الكسوف في السنة}
+\EdL{11}{AB02-PDF0064-L11}{}{العاشرة إلى الحمل ، وفيه المرّيخ في كسوف وفاة معاوية .}
+\EdLh{12}{AB02-PDF0064-L12}{}{قيام يزيد بن معاوية}
+\EdLp{13}{AB02-PDF0064-L13}{}{وكان الكسوف الذي دلّ على وفاة معاوية وقيام يزيد ابنه كسوف في الليلة الثانية}
+\EdL{14}{AB02-PDF0064-L14}{}{والعشرين من كانون الأوّل سنة \Ov{ظصا} . وطالعه آخر العقرب ، وسط السماء}
+\EdL{15}{AB02-PDF0064-L15}{}{أوّل السنبلة ، الشمس في الجدي \Ov{د هـ} ، القمر في السرطان \Ov{د هـ} ، زحل في السرطان \Ov{يد ك} ،}
+\EdL{16}{AB02-PDF0064-L16}{}{المشتري في القوس \Ov{كط مه} ، المرّيخ في الحمل \Ov{ك} ، الزهرة في الجدي \Ov{يب} ، عطارد}
+\EdL{17}{AB02-PDF0064-L17}{}{في الجدي \Ov{كب} ، برج الانتهاء العقرب ، وهو برج الأصل ، والكسوف}
+\par\smallskip\noindent\rule{40mm}{0.4pt}\par
+\AppL{AB02-PDF0064-A01}{(في الصورة) المشتري كز يد: (في النص) كجـ يد}
+\PageHead{66}{78}{0066}
+\EdL{1}{AB02-PDF0066-L01}{\RL{\ArBody ٤٢ظ}}{/موضع المرّيخ في الأصل. والمرّيخ في تربيع برج الكسوف وتربيع درجة طالع}
+\EdL{2}{AB02-PDF0066-L02}{}{المولد . وزحل في برج الكسوف والشمس تقابله . فدلّ على وفاة معاوية .}
+\EdLp{3}{AB02-PDF0066-L03}{}{ولأنّ الكسوف في برج الانقلاب ، وصاحبه في برج الانقلاب أيضًا ، وشكل}
+\EdL{4}{AB02-PDF0066-L04}{}{زحل عند الشمس شكل رديء للمقابلة ، وهي سائرة إلى درجة المقابلة ، والمرّيخ في}
+\EdL{5}{AB02-PDF0066-L05}{}{تربيع برج الشمس وزحل ، أعطته مقدار خُمس سنيّها الصغرى . ولولا مكان}
+\EdL{6}{AB02-PDF0066-L06}{}{الزهرة مع الشمس ، وطلوعها بعدها ، ومقابلتها زحل ، لم تقوَ على العطيّة . فكان}
+\EdL{7}{AB02-PDF0066-L07}{}{قيام يزيد بن معاوية ثلاث سنين وثلاثة أشهر . وتوفّي في اليوم الحادي عشر من تشرين}
+\EdL{8}{AB02-PDF0066-L08}{}{الآخر سنة \Ov{ظصه} . وكان انتهاء الكسوف في قيامه إلى الميزان ، قبالة المرّيخ}
+\EdL{9}{AB02-PDF0066-L09}{}{فيه . ولأنّ صاحب الوتد الذي اجتاز به القمر عطارد ، وهو برج الانقلاب}
+\EdL{10}{AB02-PDF0066-L10}{}{أيضًا ، في تربيع المرّيخ ، دلّ على الشرّ والخروج عن الشريعة وما يشاكل ذلك}
+\EdL{11}{AB02-PDF0066-L11}{}{من أحوال المرّيخ وعطارد .}
+\EdLc{12}{AB02-PDF0066-L12}{}{انقضت الرسالة والحمد للّه مستحق الحمد}
+\par\smallskip\noindent\rule{40mm}{0.4pt}\par
+\AppL{AB02-PDF0066-A01}{١١ - أحوال : الأحوال .}
 \end{document}
