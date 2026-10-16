@@ -1,0 +1,457 @@
+{
+ "anchor": "AB01-PDF0412",
+ "master_pdf_page": 412,
+ "printed_page": 323,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "margin_locators": [],
+ "observations": [
+  "body L1-L11: the end of the sentence begun on p. 322. The numbers are right, with the signs counted from Sunday as 1: thirty Arab years have 10631 days, 1518 weeks and 5 days; 210 years have 74417 days, exactly 10631 weeks; the astronomical epoch of the hijrah, 15 July 622, was a Thursday (5), and a common year 0 of 354 days before it, 50 weeks and 4 days, gives the sign 1. The table of vol. II, p. 7 agrees: the collected years 30, 60, ..., 210 have the signs 5, 3, 1, 6, 4, 2, 7 (5 for each thirty years, counted from the sign 0), the single years 1 to 30 the signs 5, 2, 7, ..., 6 that follow from the year 1 with the leap years 2, 5, 7, 10, 13, 16, 18, 21, 24, 26 and 29; so the year 30 has the sign 6 among the single years and 5 among the collected ones, as L10-L11 say. The signs of multiplication are set as $\\times$. The hyphens of «descri-», «anno-» and «nume-» measure 2.3, 2.0 and 2.5 pt.",
+  "body L12-L17: «al–Battānī» (L12) and «Albatenium» are letter-spaced, «al–Battānī» (L15) not; the dashes measure 5.2 and 5.3 pt. «al–Khāzinī» is letter-spaced, with a long dash (5.2 pt). The rule of L14-L15 is p. 145, L16-L17 of the translation.",
+  "body L18-L28: the dash after «II.» measures 9.8 pt. The ellipses are set as printed: five dots before «VIII», «XIX», «XXVII», «VII», «XXVI», «27», «18» and «26», four before «XVIII» and «19», the last dot a little apart. The leap years of the table of vol. II, p. 7 as printed are 2, 5, 7, 10, 13, 16, 18, 21, 24, 26 and 29, those that Nallino restores. «Ḥabash» (L26), «al–Bīrūnī» and «Sachau» are letter-spaced, «Ḥabash» (L24, L27) not; «9–18», «197–98» and «178–80» have long dashes (5.4, 5.3 and about 5 pt, the last joined to the 8), as has «al–Bīrūnī» (5.3 pt).",
+  "body L29-L36: the head is set in capitals and small capitals; the dash after «a)» measures 9.7 pt, that of «145–146» 5.3 pt. The place is pp. 145-146 of the translation, appendix B. «al–Battānī» (L31) is letter-spaced; the dashes of «’l–qarnayn» and «al–Battānī» measure 5.3 and 5.0 pt. The note cited is a) on chapter XXXII, p. 242, where the epoch of the era is given as Saturday, 1 September 312. The Julian years return to their order of weekdays after 28 years, 10227 days or 1461 weeks, as L33-L34 say. The o of «post» (L33) prints in part. The hyphen of «uni-» measures 2.4 pt.",
+  "body L37-L43: «Albatenii» (L37) is letter-spaced. The argument is right: a common Julian year of 365 days moves the signs by one, a leap year of 366 days by two. The hyphen of «ve-» measures 1.9 pt."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0412-body-L001",
+     "source_line_no": null,
+     "tex": "norum 5 unitatibus. Quoniam, iuxta astronomos Arabicos, epocha hegirae fuit feria quinta",
+     "transcription": "norum 5 unitatibus. Quoniam, iuxta astronomos Arabicos, epocha hegirae fuit feria quinta",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0412-body-L002",
+     "source_line_no": null,
+     "tex": "(dies Iovis), signum primi hegirae anni est 5; ergo ficto anno 0 signum 1 respondisse ponitur.",
+     "transcription": "(dies Iovis), signum primi hegirae anni est 5; ergo ficto anno 0 signum 1 respondisse ponitur.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0412-body-L003",
+     "source_line_no": null,
+     "tex": "\\Indent Post 210 annos Arabicos perfectos signa annorum semper ad pristinum ordinem redeunt;",
+     "transcription": "Post 210 annos Arabicos perfectos signa annorum semper ad pristinum ordinem redeunt;",
+     "semantic_anchor": "AB01-PDF0412-P01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0412-body-L004",
+     "source_line_no": null,
+     "tex": "cognitis igitur 210 (seu 7 $\\times$ 30) prioribus, reliqua omnia cognoscuntur. Qua re Albatenius",
+     "transcription": "cognitis igitur 210 (seu 7 $\\times$ 30) prioribus, reliqua omnia cognoscuntur. Qua re Albatenius",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0412-body-L005",
+     "source_line_no": null,
+     "tex": "potuit duas tantum conficere tabulas, quarum in altera priores triginta anni ab hegira descri-",
+     "transcription": "potuit duas tantum conficere tabulas, quarum in altera priores triginta anni ab hegira descri-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0412-body-L006",
+     "source_line_no": null,
+     "tex": "buntur, in altera septem priores multipli triginta.",
+     "transcription": "buntur, in altera septem priores multipli triginta.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0412-body-L007",
+     "source_line_no": null,
+     "tex": "\\Indent Annus 30 excedens repraesentatur summa duarum quantitatum, quarum altera 30 aut",
+     "transcription": "Annus 30 excedens repraesentatur summa duarum quantitatum, quarum altera 30 aut",
+     "semantic_anchor": "AB01-PDF0412-P02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0412-body-L008",
+     "source_line_no": null,
+     "tex": "$x \\times 30$, altera 0 aut numerus minor 30 sit. Terminus 30 aut $x \\times 30$ est intervallum anno-",
+     "transcription": "$x \\times 30$, altera 0 aut numerus minor 30 sit. Terminus 30 aut $x \\times 30$ est intervallum anno-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0412-body-L009",
+     "source_line_no": null,
+     "tex": "rum supputatum a ficto anno 0, cui signum 0 respondeat; terminus contra minor 30 nume-",
+     "transcription": "rum supputatum a ficto anno 0, cui signum 0 respondeat; terminus contra minor 30 nume-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0412-body-L010",
+     "source_line_no": null,
+     "tex": "ratur ab hegira, seu a ficto anno 0 cuius signum 1. Ergo signum trigesimi anni hegirae est",
+     "transcription": "ratur ab hegira, seu a ficto anno 0 cuius signum 1. Ergo signum trigesimi anni hegirae est",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0412-body-L011",
+     "source_line_no": null,
+     "tex": "unitate maius signo ultimi anni cycli tricennalis, seorsum sumpti.",
+     "transcription": "unitate maius signo ultimi anni cycli tricennalis, seorsum sumpti.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0412-body-L012",
+     "source_line_no": null,
+     "tex": "\\Indent Haec causa fuit cur \\Name{al–Battānī} in tabula annorum collectorum \\textit{signa minueret unitate};",
+     "transcription": "Haec causa fuit cur {sp:al–Battānī} in tabula annorum collectorum *signa minueret unitate*;",
+     "semantic_anchor": "AB01-PDF0412-P03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0412-body-L013",
+     "source_line_no": null,
+     "tex": "anni collecti ita considerantur intervalla quaecumque annorum addenda annis singillatim de-",
+     "transcription": "anni collecti ita considerantur intervalla quaecumque annorum addenda annis singillatim de-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0412-body-L014",
+     "source_line_no": null,
+     "tex": "scriptis. At si anni collecti intervallum temporis ab hegira elapsum indicent, manifesto eorum",
+     "transcription": "scriptis. At si anni collecti intervallum temporis ab hegira elapsum indicent, manifesto eorum",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0412-body-L015",
+     "source_line_no": null,
+     "tex": "signa erunt unitate augenda, sicut al–Battānī docet.",
+     "transcription": "signa erunt unitate augenda, sicut al–Battānī docet.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0412-body-L016",
+     "source_line_no": null,
+     "tex": "\\Indent In hoc faciendo \\Name{Albatenium} aliam quam auctorum \\textit{Tabulae Probatae} rationem secu-",
+     "transcription": "In hoc faciendo {sp:Albatenium} aliam quam auctorum *Tabulae Probatae* rationem secu-",
+     "semantic_anchor": "AB01-PDF0412-P04",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0412-body-L017",
+     "source_line_no": null,
+     "tex": "tum esse testatur \\Name{al–Khāzinī}, cod. Vatic., f. 110,v.",
+     "transcription": "tum esse testatur {sp:al–Khāzinī}, cod. Vatic., f. 110,v.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0412-body-L018",
+     "source_line_no": null,
+     "tex": "\\Indent II. — Hoc loco et in tabula t. II, p. 7 codex Escurialensis annis bisextilibus adnumerat",
+     "transcription": "II. — Hoc loco et in tabula t. II, p. 7 codex Escurialensis annis bisextilibus adnumerat",
+     "semantic_anchor": "AB01-PDF0412-P05",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0412-body-L019",
+     "source_line_no": null,
+     "tex": "qui in cyclo tricennali ..... VIII, ..... XIX, ..... XXVII locum obtinent. Utrobique ..... VII,",
+     "transcription": "qui in cyclo tricennali ..... VIII, ..... XIX, ..... XXVII locum obtinent. Utrobique ..... VII,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0412-body-L020",
+     "source_line_no": null,
+     "tex": ".... XVIII, ..... XXVI, restitui, sicut astronomi Arabici fere omnes habent et sicut Muslimi iuxta",
+     "transcription": ".... XVIII, ..... XXVI, restitui, sicut astronomi Arabici fere omnes habent et sicut Muslimi iuxta",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0412-body-L021",
+     "source_line_no": null,
+     "tex": "civilem usum semper receperunt; nam codicis numeri manifeste ab ineptissimo glossatore",
+     "transcription": "civilem usum semper receperunt; nam codicis numeri manifeste ab ineptissimo glossatore",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0412-body-L022",
+     "source_line_no": null,
+     "tex": "proveniunt, qui tam stulte operatus est ut non animadverteret suas correctiones repugnare",
+     "transcription": "proveniunt, qui tam stulte operatus est ut non animadverteret suas correctiones repugnare",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0412-body-L023",
+     "source_line_no": null,
+     "tex": "et contra ipsa annorum signa in tabula t. II, p. 7, et contra tabulas omnes t. II, p. 9–18, 20 et 25!",
+     "transcription": "et contra ipsa annorum signa in tabula t. II, p. 7, et contra tabulas omnes t. II, p. 9–18, 20 et 25!",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0412-body-L024",
+     "source_line_no": null,
+     "tex": "\\Indent Glossator suum intercalationis ordinem fortasse a ratione astronomi Ḥabash mutuavit,",
+     "transcription": "Glossator suum intercalationis ordinem fortasse a ratione astronomi Ḥabash mutuavit,",
+     "semantic_anchor": "AB01-PDF0412-P06",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0412-body-L025",
+     "source_line_no": null,
+     "tex": "qui 8, 11, .... 19, ..... 27 pro 7, 10, ..... 18, ..... 26 ponebat. Praeter codicem Berolinensem",
+     "transcription": "qui 8, 11, .... 19, ..... 27 pro 7, 10, ..... 18, ..... 26 ponebat. Praeter codicem Berolinensem",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0412-body-L026",
+     "source_line_no": null,
+     "tex": "\\Name{Ḥabash}, ubi omnes motus caelestes in annis Arabicis iuxta talem intercalandi rationem",
+     "transcription": "{sp:Ḥabash}, ubi omnes motus caelestes in annis Arabicis iuxta talem intercalandi rationem",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0412-body-L027",
+     "source_line_no": null,
+     "tex": "supputantur, cfr. quae de Ḥabash narrat \\Name{al–Bīrūnī}, \\textit{Chron.}, p. 197–98 text., 178–80 vers.",
+     "transcription": "supputantur, cfr. quae de Ḥabash narrat {sp:al–Bīrūnī}, *Chron.*, p. 197–98 text., 178–80 vers.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0412-body-L028",
+     "source_line_no": null,
+     "tex": "(et adnot. \\Name{Sachau}, p. 416).",
+     "transcription": "(et adnot. {sp:Sachau}, p. 416).",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0412-body-L029",
+     "source_line_no": null,
+     "tex": "\\CenterLine{A\\textsc{d} \\textsc{adpendicem} B.}",
+     "transcription": "A{sc:d} {sc:adpendicem} B.",
+     "semantic_anchor": "AB01-PDF0412-H29",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0412-body-L030",
+     "source_line_no": null,
+     "tex": "\\CenterLine{\\textbf{\\textit{a}}) — \\textit{Pag. 145–146.}}",
+     "transcription": "{bi:a}) — *Pag. 145–146.*",
+     "semantic_anchor": "AB01-PDF0412-H30",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0412-body-L031",
+     "source_line_no": null,
+     "tex": "\\Indent Aeram Dhū ’l–qarnayn, vel Seleucidarum, iuxta \\Name{al–Battānī} a 1 Septembris (aylūl), non",
+     "transcription": "Aeram Dhū ’l–qarnayn, vel Seleucidarum, iuxta {sp:al–Battānī} a 1 Septembris (aylūl), non",
+     "semantic_anchor": "AB01-PDF0412-P07",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0412-body-L032",
+     "source_line_no": null,
+     "tex": "a 1 Octobris 312 ante Chr. n. incipere, iam in adn. \\textbf{\\textit{a}} ad cap. XXXII (p. 242) et passim monui.",
+     "transcription": "a 1 Octobris 312 ante Chr. n. incipere, iam in adn. {bi:a} ad cap. XXXII (p. 242) et passim monui.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0412-body-L033",
+     "source_line_no": null,
+     "tex": "\\Indent Tabula t. II, p. 8 priores tantum 28 annos complectitur, nam, post 28 annos elapsos, signa",
+     "transcription": "Tabula t. II, p. 8 priores tantum 28 annos complectitur, nam, post 28 annos elapsos, signa",
+     "semantic_anchor": "AB01-PDF0412-P08",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0412-body-L034",
+     "source_line_no": null,
+     "tex": "ad pristinum ordinem redeunt. Sed cur Albatenius signa annorum mensiumque minuerit uni-",
+     "transcription": "ad pristinum ordinem redeunt. Sed cur Albatenius signa annorum mensiumque minuerit uni-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0412-body-L035",
+     "source_line_no": null,
+     "tex": "tate, non intelligo; nam postea signo e tabula sumpto unitatem addere rursus debet. Multo",
+     "transcription": "tate, non intelligo; nam postea signo e tabula sumpto unitatem addere rursus debet. Multo",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0412-body-L036",
+     "source_line_no": null,
+     "tex": "commodius erat signa absque deminutione in tabula ponere.",
+     "transcription": "commodius erat signa absque deminutione in tabula ponere.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0412-body-L037",
+     "source_line_no": null,
+     "tex": "\\Indent Falsa ceterum est \\Name{Albatenii} regula, scilicet annis datis semper annum addere. Id ve-",
+     "transcription": "Falsa ceterum est {sp:Albatenii} regula, scilicet annis datis semper annum addere. Id ve-",
+     "semantic_anchor": "AB01-PDF0412-P09",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0412-body-L038",
+     "source_line_no": null,
+     "tex": "rum esset si anni Romani semper essent communes; cum enim in intervallo anni communis",
+     "transcription": "rum esset si anni Romani semper essent communes; cum enim in intervallo anni communis",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0412-body-L039",
+     "source_line_no": null,
+     "tex": "signa unitate crescant, in tabula annum $x + 1$ quaerere idem est ac signum anni $x$ repertum",
+     "transcription": "signa unitate crescant, in tabula annum $x + 1$ quaerere idem est ac signum anni $x$ repertum",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0412-body-L040",
+     "source_line_no": null,
+     "tex": "unitate augere. Sed in anno bisextili signa duabus unitatibus crescunt; qua re praeceptum",
+     "transcription": "unitate augere. Sed in anno bisextili signa duabus unitatibus crescunt; qua re praeceptum",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0412-body-L041",
+     "source_line_no": null,
+     "tex": "Albatenianum falsum fit quotiescumque annus datus $x$ est bisextilis, nam signum anni $x + 1$",
+     "transcription": "Albatenianum falsum fit quotiescumque annus datus $x$ est bisextilis, nam signum anni $x + 1$",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0412-body-L042",
+     "source_line_no": null,
+     "tex": "tunc est signum anni $x$ auctum \\textit{duabus} unitatibus. Vera regula erat in tabulam cum anno $x$",
+     "transcription": "tunc est signum anni $x$ auctum *duabus* unitatibus. Vera regula erat in tabulam cum anno $x$",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0412-body-L043",
+     "source_line_no": null,
+     "tex": "dato semper intrare, et \\textit{signo} correspondenti unitatem addere.",
+     "transcription": "dato semper intrare, et *signo* correspondenti unitatem addere.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    }
+   ]
+  }
+ ]
+}
