@@ -1,6 +1,7 @@
 """S16 - render the seams of the assembled volumes for inspection: for every boundary between two bound sections,
 the last page of the one and the first page of the next, side by side, with the volume's page numbers; plus the
-cover, the contents and the last page. Writes inspection/seams_<volume>_<n>.png (contact sheets).
+cover, the contents and the last page. Writes inspection/seams_<volume>_<n>.png (contact sheets), and the cover and
+the contents of each volume at a readable size, inspection/cover_<language>.png and contents_<language>.png.
 python inspect_seams.py"""
 import csv
 import sys
@@ -28,6 +29,10 @@ def main():
     rows = list(csv.DictReader(open(HERE / "assembly_receipt.tsv", encoding="utf-8"), delimiter="\t"))
     for vol in sorted({r["volume"] for r in rows}):
         doc = fitz.open(HERE / vol)
+        language = Path(vol).stem.split("_")[1]
+        for pno, what in ((1, "cover"), (2, "contents")):
+            pix = doc[pno - 1].get_pixmap(dpi=60)
+            Image.frombytes("RGB", (pix.width, pix.height), pix.samples).save(OUT / f"{what}_{language}.png")
         secs = [r for r in rows if r["volume"] == vol]
         pairs = [(1, 2)]
         for a, b in zip(secs, secs[1:]):

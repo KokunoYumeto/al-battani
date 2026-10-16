@@ -1,7 +1,7 @@
 """S16 - the twelve master pages that two sessions transcribed (coverage_ab01.tsv, «second transcription»): the
 table and figure pages inside Nallino's notes (Part II pp. 219-220, 297, 299, 300-307), transcribed by S07 with the
-notes and by S06 or S13 with the tables. The canonical transcription is the table session's; S07's is a second,
-independent reading. This compares the two, page by page, as multisets (the order of reading a table differs between
+notes and by S06 or S13 with the tables. The canonical transcription is the table session's; S07's is a second
+reading, made in a separate session. This compares the two, page by page, as multisets (the order of reading a table differs between
 the two layouts): the numbers of the tables (pp. 219-220 with Nallino's notes beside the table, pp. 300-307), the
 words and the signature of the half-title (p. 297), every word and number of the astrological figure (p. 299; S07's
 words broken at a line end are joined again). It writes duplicates_compared.tsv: the items of each side and the items

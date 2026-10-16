@@ -155,7 +155,7 @@ def cover_tex(vol, starts, total, commit):
 \vspace{16pt}
 @@ABOUT@@ It has @@TOTAL@@ pages. The transcriptions are diplomatic and line-anchored: every printed line is one line of the edition, with the anchor AB01-PDF\#\#\#\# of its page in the master scan of Nallino\textquoteright s three volumes (1,162 pages: Part I, printed page + 89; Part II, printed page + 449; Part III, 1,152 $-$ printed page). Readings that depart from what one expects are kept as printed and described in the page records. The contents on the next page give each part\textquoteright s pages in Nallino and in this volume.@@TWICE@@
 
-The transcriptions, markup and checks are AI-integrated work (Claude); no person has reviewed them. Nallino\textquoteright s edition is in the public domain; this edition is released under CC0 1.0. The maintained source, with the page files, records, ledgers, TeX and scripts of every part, is \texttt{github.com/KokunoYumeto/al-battani}; S16 there records the integration and the independent audit.
+The transcriptions, markup and checks are AI-integrated work (Claude); no person has reviewed them. Nallino\textquoteright s edition is in the public domain; this edition is released under CC0 1.0. The maintained source, with the page files, records, ledgers, TeX and scripts of every part, is \texttt{github.com/KokunoYumeto/al-battani}; S16 there records the integration and a read-only cold audit, run by the same AI.
 \newpage
 {\Large Contents\par}
 \vspace{6pt}
