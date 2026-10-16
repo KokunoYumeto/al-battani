@@ -1,0 +1,18 @@
+work	source_range	artifact	version	status	pdf_sha256_16
+AB01	master PDF 1-89 (Part I front matter)	S01/pdf/S01_NALLINO_SOURCE_v003.pdf	S01 v003	edited; S01's README records that its independent cold audit is outstanding	1b3caa88d267e423
+AB01	PDF 90-142 (Part I pp. 1-53)	S02/candidate_v009_print001-053/pdf/S02_NALLINO_SOURCE_v009.pdf	S02 v009 candidate	edited; supersedes v002 (pp. 1-30) and v006 (pp. 1-40); the package states that the final visual check of pp. 44-53 is not certified	efc3a9121e6be426
+AB01	PDF 143-198 (Part I pp. 54-109)	S02/versio/p1_versio.pdf	S02/versio	edited	1310ebf65fd1c1d9
+AB01	PDF 199-307 (Part I pp. 110-218)	S03/versio/p1_versio.pdf	S03/versio	edited	8c72f6ce2980160c
+AB01	PDF 308-416 (Part I pp. 219-327)	S04/versio/p1_versio.pdf	S04/versio	edited	1e8f81a143f6867a
+AB01	PDF 417-449 (Part II front matter)	S05/versio/p1_versio.pdf	S05/versio	edited	8626e54a3d9403ec
+AB01	PDF 450-637 (Part II tables)	S06/*/p2_*.pdf, S13/*/p2_*.pdf	S06, S13	edited	
+AB01	PDF 638-767 (Part II notes)	S07/adnotationes/p2_adnotationes.pdf	S07	edited; the table pages inside the notes are canonical in S06/S13 (coverage_ab01.tsv)	78aafc8e380f10b7
+AB01	PDF 768-862 (glossary, indexes)	S09/glossarium/p2_glossarium.pdf, S09/indices/p2_indices.pdf	S09	edited	26dd5c65a4e8c75b 8571d849bbb27ede
+AB01	PDF 863-872, 1152-1162 (dispositions, Part III titles, corrigenda)	S09/indices/page_disposition.tsv, S10/textus	S09, S10	edited or disposed	
+AB01	PDF 926-1151, 1153 (Arabic text, chapters list, title)	S10/textus, S11/textus, S12/textus (p3_textus.pdf)	S10-S12	edited	
+AB01	PDF 873-925 (Arabic tables, notice)	S13/*/p3_*.pdf	S13	edited	
+AB02	Suhayl 9, PDF 1-136	S15/historia/historia.pdf	S15	edited (Arabic edition); the article's own text not reproduced	6f6677fdf2e816f7
+AB03	Escorial ar. 969, ff. 20r-80v	S14/commentarius/commentarius.pdf	S14	converted from PAL	36a7375d917d144e
+AB04	-	-	-	source-unacquired; attribution questioned; nothing produced	
+AB05	within AB01: Zij ch. 54	the AB01 artifacts above	-	mapped; not duplicated	
+AB06	within AB01: Zij ch. 55	the AB01 artifacts above	-	mapped; not duplicated	

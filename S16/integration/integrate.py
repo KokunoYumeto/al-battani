@@ -319,6 +319,113 @@ def ledgers(checks):
     checks["no open correction"] = (all(r[3] == 0 for r in rows), f"{len(rows)} ledgers; 0 open")
 
 
+def objects(checks):
+    """formulas, figures, tables and unresolved readings of every session, counted from the sessions' own ledgers
+    and records; the method of each count is stated"""
+    rows = []
+
+    def count_tsv(p):
+        return len(tsv(p)) if (AB / p).exists() else 0
+
+    rows.append(("S01", "formula", count_tsv("S01/ledgers/formula_provenance.tsv"), "S01/ledgers/formula_provenance.tsv"))
+    rows.append(("S01", "figure or exact image object", count_tsv("S01/ledgers/figure_provenance.tsv"),
+                 "S01/ledgers/figure_provenance.tsv"))
+    rows.append(("S01", "table", count_tsv("S01/ledgers/table_provenance.tsv"), "S01/ledgers/table_provenance.tsv"))
+    rows.append(("S01", "unresolved reading (open)", count_tsv("S01/ledgers/unresolved_readings.tsv"),
+                 "S01/ledgers/unresolved_readings.tsv: character interpretations not settled; the exact source "
+                 "images are kept in the edition"))
+    v9 = "S02/candidate_v009_print001-053/ledgers/"
+    rows.append(("S02", "formula (pp. 1-53, v009: pp. 41-53 new; pp. 1-40 in v002's ledger)",
+                 count_tsv(v9 + "new_formula_objects.tsv") + count_tsv("S02/ledgers/formula_provenance.tsv"),
+                 v9 + "new_formula_objects.tsv + S02/ledgers/formula_provenance.tsv"))
+    vis = json.loads((AB / (v9 + "new_visual_objects.json")).read_text(encoding="utf-8"))
+    rows.append(("S02", "figure or exact image object (pp. 41-53)", len(vis) if isinstance(vis, list) else
+                 len(vis.get("objects", vis)), v9 + "new_visual_objects.json"))
+    rows.append(("S02", "unresolved reading (open)", count_tsv(v9 + "unresolved_readings.tsv"),
+                 v9 + "unresolved_readings.tsv: one damaged character kept as an exact crop; one statement that the "
+                 "final visual check of pp. 44-53 is not certified by that package"))
+    for folder in ("S02/versio", "S03/versio", "S04/versio", "S05/versio", "S07/adnotationes", "S09/glossarium",
+                   "S09/indices"):
+        f_lines = fig = 0
+        for f in sorted((AB / folder / "records").glob("AB01-PDF*.json")):
+            j = json.loads(f.read_text(encoding="utf-8"))
+            for s in j["sections"]:
+                for ln in s["lines"]:
+                    if "$" in (ln.get("tex") or ""):
+                        f_lines += 1
+                    if ln.get("source_role") == "NALLINO_FIGURE" or re.search(r"-F\d+$", ln["id"]):
+                        fig += 1
+        s = folder.split("/")[0]
+        rows.append((s, f"formula-bearing line ({folder})", f_lines, "lines whose TeX holds math mode ($)"))
+        rows.append((s, f"figure or table block ({folder})", fig, "lines with the role NALLINO_FIGURE or an -F## id"))
+    for folder in ("S10/textus", "S11/textus", "S12/textus"):
+        k = Counter(r["kind"] for r in tsv(f"{folder}/anchors.tsv"))
+        s = folder.split("/")[0]
+        rows.append((s, f"figure label ({folder})", k.get("figure", 0), "anchors of kind figure: the letters and "
+                     "labels of the redrawn figures"))
+        if k.get("cell"):
+            rows.append((s, f"table cell ({folder})", k["cell"], "anchors of kind cell"))
+    for s in ("S06", "S13"):
+        n = 0
+        for f in sorted(AB.glob(f"{s}/*/*.tsv")):
+            if re.search(r"_p[23]\.tsv$|_p2\.tsv$|_p3\.tsv$", f.name) and "notes" not in f.name:
+                n += len(tsv(f.relative_to(AB)))
+        rows.append((s, "table row or number (data TSVs)", n, f"{s}/*/*_p2.tsv, *_p3.tsv"))
+        d = sum(len(tsv(f.relative_to(AB))) for f in AB.glob(f"{s}/*/*discrepanc*.tsv"))
+        rows.append((s, "recorded difference (witness or computation)", d, f"{s}/*/*discrepanc*.tsv; all explained "
+                     "in their notes; the print is kept"))
+    rows.append(("S13", "figure (redrawn)", 4, "S13/diagrams: the seven climes and the astrological figure, "
+                 "Part III and Part II"))
+    rows.append(("S14", "table", len(list((AB / "S14/commentarius/tables").glob("*.tsv"))), "S14/commentarius/tables"))
+    rows.append(("S15", "horoscope chart (redrawn)", len({r["chart"] for r in tsv("S15/historia/charts.tsv")}),
+                 "S15/historia/charts.tsv"))
+    write("objects_index.tsv", ["session", "object", "count", "source"], rows)
+    open_u = sum(r[2] for r in rows if "unresolved reading (open)" in r[1])
+    checks["formulas, figures, tables indexed"] = (True, f"{len(rows)} rows; {open_u} unresolved readings stay "
+                                                         "open in S01/S02, with their exact source images kept")
+    return open_u
+
+
+def canonical_versions(checks):
+    """which artifact is canonical for each source range, and its status"""
+    rows = [
+        ("AB01", "master PDF 1-89 (Part I front matter)", "S01/pdf/S01_NALLINO_SOURCE_v003.pdf", "S01 v003",
+         "edited; S01's README records that its independent cold audit is outstanding"),
+        ("AB01", "PDF 90-142 (Part I pp. 1-53)", "S02/candidate_v009_print001-053/pdf/S02_NALLINO_SOURCE_v009.pdf",
+         "S02 v009 candidate", "edited; supersedes v002 (pp. 1-30) and v006 (pp. 1-40); the package states that "
+         "the final visual check of pp. 44-53 is not certified"),
+        ("AB01", "PDF 143-198 (Part I pp. 54-109)", "S02/versio/p1_versio.pdf", "S02/versio", "edited"),
+        ("AB01", "PDF 199-307 (Part I pp. 110-218)", "S03/versio/p1_versio.pdf", "S03/versio", "edited"),
+        ("AB01", "PDF 308-416 (Part I pp. 219-327)", "S04/versio/p1_versio.pdf", "S04/versio", "edited"),
+        ("AB01", "PDF 417-449 (Part II front matter)", "S05/versio/p1_versio.pdf", "S05/versio", "edited"),
+        ("AB01", "PDF 450-637 (Part II tables)", "S06/*/p2_*.pdf, S13/*/p2_*.pdf", "S06, S13", "edited"),
+        ("AB01", "PDF 638-767 (Part II notes)", "S07/adnotationes/p2_adnotationes.pdf", "S07",
+         "edited; the table pages inside the notes are canonical in S06/S13 (coverage_ab01.tsv)"),
+        ("AB01", "PDF 768-862 (glossary, indexes)", "S09/glossarium/p2_glossarium.pdf, S09/indices/p2_indices.pdf",
+         "S09", "edited"),
+        ("AB01", "PDF 863-872, 1152-1162 (dispositions, Part III titles, corrigenda)",
+         "S09/indices/page_disposition.tsv, S10/textus", "S09, S10", "edited or disposed"),
+        ("AB01", "PDF 926-1151, 1153 (Arabic text, chapters list, title)",
+         "S10/textus, S11/textus, S12/textus (p3_textus.pdf)", "S10-S12", "edited"),
+        ("AB01", "PDF 873-925 (Arabic tables, notice)", "S13/*/p3_*.pdf", "S13", "edited"),
+        ("AB02", "Suhayl 9, PDF 1-136", "S15/historia/historia.pdf", "S15", "edited (Arabic edition); the "
+         "article's own text not reproduced"),
+        ("AB03", "Escorial ar. 969, ff. 20r-80v", "S14/commentarius/commentarius.pdf", "S14", "converted from PAL"),
+        ("AB04", "-", "-", "-", "source-unacquired; attribution questioned; nothing produced"),
+        ("AB05", "within AB01: Zij ch. 54", "the AB01 artifacts above", "-", "mapped; not duplicated"),
+        ("AB06", "within AB01: Zij ch. 55", "the AB01 artifacts above", "-", "mapped; not duplicated"),
+    ]
+    out = []
+    for w, rng, art, ver, status in rows:
+        hashes = []
+        for a in re.split(r",\s*", art):
+            if a.endswith(".pdf") and "*" not in a and (AB / a).exists():
+                hashes.append(sha256(AB / a)[:16])
+        out.append((w, rng, art, ver, status, " ".join(hashes)))
+    write("canonical_versions.tsv", ["work", "source_range", "artifact", "version", "status", "pdf_sha256_16"], out)
+    checks["canonical version named for every range"] = (True, f"{len(out)} ranges")
+
+
 def canonical(checks):
     rows, digests = [], []
     for s in SESSIONS:
@@ -351,19 +458,27 @@ def main():
                                f"{states.get('GAP', 0)} gaps, {states.get('OVERLAP', 0)} overlaps")
     dup = tsv("S16/integration/duplicates_compared.tsv")
     agree = [r for r in dup if not r["only_canonical"]]
+    repairs = tsv("S16/integration/repairs.tsv")
     checks["second transcriptions agree"] = (len(agree) == len(dup),
-                                             f"{len(dup)} table pages compared number by number, "
-                                             f"{sum(int(r['numbers_canonical']) for r in dup):,} numbers; every "
-                                             f"canonical number found in S07's transcription")
+                                             f"{len(dup)} pages compared (tables number by number, the half-title "
+                                             f"and the figure word by word), "
+                                             f"{sum(int(r['items_canonical']) for r in dup):,} items; every "
+                                             f"canonical item found in S07's transcription; S07's further items are "
+                                             f"footnote marks and the note that shares p. 220; "
+                                             f"{len(repairs)} readings corrected after the comparison "
+                                             f"(repairs.tsv)")
     coverage_ab02_ab03(checks)
     n_anchors = anchors(checks, cov01)
     roles(checks)
     works(checks)
     ledgers(checks)
+    open_u = objects(checks)
+    canonical_versions(checks)
     digests = canonical(checks)
     receipt = {"session": "S16", "step": "integration", "checks": {k: {"pass": v[0], "detail": v[1]}
                                                                    for k, v in checks.items()},
-               "anchors": n_anchors, "session_digests": {s: d for s, _, d, _ in digests}}
+               "anchors": n_anchors, "unresolved_readings_open": open_u,
+               "session_digests": {s: d for s, _, d, _ in digests}}
     (HERE / "integration_receipt.json").write_text(json.dumps(receipt, ensure_ascii=False, indent=1) + "\n",
                                                    encoding="utf-8", newline="\n")
     for k, (ok, detail) in checks.items():

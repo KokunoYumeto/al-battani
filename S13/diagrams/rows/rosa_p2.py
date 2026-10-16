@@ -16,8 +16,8 @@ DASHED = 128.0
 TERMS = {
     "Aries": [(94.5, "Iupiter", "6°"), (99.4, "Venus", "8°"), (104.5, "Mercurius", "7°"), (109.6, "Mars", "5°"), (114.8, "Saturnus", "4°")],
     "Taurus": [(124.5, "Venus", "8°"), (129.4, "Mercurius", "7°"), (134.2, "Iupiter", "7°"), (139.1, "Saturnus", "4°"), (144.3, "Mars", "4°")],
-    "Gemini": [(154.2, "Mercurius", "7°"), (160.0, "Iupiter", "7°"), (164.4, "Venus", "7°"), (169.0, "Mars", "5°"), (174.2, "Saturnus", "4°")],
-    "Cancer": [(184.2, "Mars", "6°"), (189.3, "Iupiter", "7°"), (194.3, "Venus", "7°"), (199.7, "Mercurius", "7°"), (204.9, "Saturnus", "3°")],
+    "Gemini": [(154.2, "Mercurius", "7°"), (160.0, "Inpiter", "7°"), (164.4, "Venus", "7°"), (169.0, "Mars", "5°"), (174.2, "Saturnus", "4°")],
+    "Cancer": [(184.2, "Mars", "6°"), (189.3, "Iupitor", "7°"), (194.3, "Venus", "7°"), (199.7, "Mercurius", "7°"), (204.9, "Saturnus", "3°")],
     "Leo": [(214.4, "Mercurius", "7°"), (219.7, "Venus", "6°"), (224.8, "Iupiter", "6°"), (229.7, "Saturnus", "6°"), (235.1, "Mars", "5°")],
     "Virgo": [(244.4, "Mercurius", "7°"), (249.7, "Verus", "6°"), (254.8, "Iupiter", "5°"), (259.3, "Mars", "6°"), (264.7, "Saturnus", "6°")],
     "Libra": [(274.0, "Saturnus", "6°"), (279.2, "Venus", "5°"), (284.9, "Iupiter", "8°"), (289.5, "Mercurius", "5°"), (294.4, "Mars", "6°")],
@@ -28,8 +28,12 @@ TERMS = {
     "Pisces": [(63.9, "Venns", "8°"), (69.4, "Iupiter", "6°"), (74.0, "Mercurius", "6°"), (78.9, "Mars", "6°"), (84.5, "Saturnus", "4°")],
 }
 TERM_DOUBT = {
+    ("Gemini", 2): "printed Inpiter (an n for the u: the counter of the second letter is open at the foot, as in no u "
+                   "of the eleven other Jupiter labels of the terms); reread 2026-10-16",
+    ("Cancer", 2): "printed Iupitor (an o for the e: one tall counter through the middle of the letter, unlike the e "
+                   "of the ten Iupiter labels and of Inpiter); heavily inked; reread 2026-10-16",
     ("Virgo", 2): "printed Verus (an r for the n)",
-    ("Pisces", 1): "printed Venns (a turned n for the u)",
+    ("Pisces", 1): "printed Venns (an n for the u)",
     ("Capricorn", 2): "the u of Mercurius is broken in print",
 }
 

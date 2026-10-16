@@ -99,7 +99,7 @@ As in the star catalogue (see `../star_catalogue/README.md`). In addition:
 - **The zero sign** of the codex stands in the inner ring of p. 244 where a sign has no exaltation (Leo, Scorpio, Aquarius); Part II prints «0°».
 - **Dotless letters** keep their printed form: ى for a dotless tooth, ڡ for a dotless fā', ٮ for a dotless final bowl. Where one copy shows a mark the other lacks (a dot high above the tooth of بعدىاس in the master only), the reading follows the two copies' agreement and the note says so. One face on p. 244 is printed مشترب, with one dot under the final bowl in both copies.
 - **The free stroke** in the name at 247.5° on p. 243 (افر…ىطس in Nallino's table) is entered as `{stroke}`.
-- **Latin misprints** stay as printed: *Verus* and *Venns* for *Venus* in the terms of p. 299.
+- **Latin misprints** stay as printed: *Verus* and *Venns* for *Venus*, *Inpiter* and *Iupitor* for *Iupiter*, in the terms of p. 299. The two Jupiter labels (Gemini and Cancer) were first entered as *Iupiter*; the comparison with the second transcription of the page in S07 found them, and the reading on the scan confirmed *Inpiter* and *Iupitor* (2026-10-16).
 
 ## Not done yet
 

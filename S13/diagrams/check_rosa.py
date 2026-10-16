@@ -16,7 +16,7 @@ PLANET = {
     "شمس": "Sun", "قمر": "Moon", "عطارد": "Mercury", "زهرة": "Venus", "مريخ": "Mars", "بهرام": "Mars",
     "مشتري": "Jupiter", "مشترب": "Jupiter", "زحل": "Saturn", "رأس": "Head", "ذنب": "Tail",
     "Sol": "Sun", "Luna": "Moon", "Mercurius": "Mercury", "Venus": "Venus", "Verus": "Venus", "Venns": "Venus",
-    "Mars": "Mars", "Iupiter": "Jupiter", "Saturnus": "Saturn",
+    "Mars": "Mars", "Iupiter": "Jupiter", "Inpiter": "Jupiter", "Iupitor": "Jupiter", "Saturnus": "Saturn",
     "☉": "Sun", "☽": "Moon", "☿": "Mercury", "♀": "Venus", "♂": "Mars", "♃": "Jupiter", "♄": "Saturn",
     "☊": "Head", "☋": "Tail", "": "",
 }

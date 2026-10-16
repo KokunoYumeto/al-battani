@@ -1,0 +1,33 @@
+session	object	count	source
+S01	formula	47	S01/ledgers/formula_provenance.tsv
+S01	figure or exact image object	24	S01/ledgers/figure_provenance.tsv
+S01	table	2	S01/ledgers/table_provenance.tsv
+S01	unresolved reading (open)	11	S01/ledgers/unresolved_readings.tsv: character interpretations not settled; the exact source images are kept in the edition
+S02	formula (pp. 1-53, v009: pp. 41-53 new; pp. 1-40 in v002's ledger)	413	S02/candidate_v009_print001-053/ledgers/new_formula_objects.tsv + S02/ledgers/formula_provenance.tsv
+S02	figure or exact image object (pp. 41-53)	9	S02/candidate_v009_print001-053/ledgers/new_visual_objects.json
+S02	unresolved reading (open)	2	S02/candidate_v009_print001-053/ledgers/unresolved_readings.tsv: one damaged character kept as an exact crop; one statement that the final visual check of pp. 44-53 is not certified by that package
+S02	formula-bearing line (S02/versio)	138	lines whose TeX holds math mode ($)
+S02	figure or table block (S02/versio)	6	lines with the role NALLINO_FIGURE or an -F## id
+S03	formula-bearing line (S03/versio)	432	lines whose TeX holds math mode ($)
+S03	figure or table block (S03/versio)	27	lines with the role NALLINO_FIGURE or an -F## id
+S04	formula-bearing line (S04/versio)	509	lines whose TeX holds math mode ($)
+S04	figure or table block (S04/versio)	44	lines with the role NALLINO_FIGURE or an -F## id
+S05	formula-bearing line (S05/versio)	23	lines whose TeX holds math mode ($)
+S05	figure or table block (S05/versio)	2	lines with the role NALLINO_FIGURE or an -F## id
+S07	formula-bearing line (S07/adnotationes)	224	lines whose TeX holds math mode ($)
+S07	figure or table block (S07/adnotationes)	29	lines with the role NALLINO_FIGURE or an -F## id
+S09	formula-bearing line (S09/glossarium)	1	lines whose TeX holds math mode ($)
+S09	figure or table block (S09/glossarium)	0	lines with the role NALLINO_FIGURE or an -F## id
+S09	formula-bearing line (S09/indices)	1	lines whose TeX holds math mode ($)
+S09	figure or table block (S09/indices)	0	lines with the role NALLINO_FIGURE or an -F## id
+S10	figure label (S10/textus)	95	anchors of kind figure: the letters and labels of the redrawn figures
+S10	table cell (S10/textus)	242	anchors of kind cell
+S11	figure label (S11/textus)	145	anchors of kind figure: the letters and labels of the redrawn figures
+S12	figure label (S12/textus)	144	anchors of kind figure: the letters and labels of the redrawn figures
+S06	table row or number (data TSVs)	8340	S06/*/*_p2.tsv, *_p3.tsv
+S06	recorded difference (witness or computation)	250	S06/*/*discrepanc*.tsv; all explained in their notes; the print is kept
+S13	table row or number (data TSVs)	2049	S13/*/*_p2.tsv, *_p3.tsv
+S13	recorded difference (witness or computation)	161	S13/*/*discrepanc*.tsv; all explained in their notes; the print is kept
+S13	figure (redrawn)	4	S13/diagrams: the seven climes and the astrological figure, Part III and Part II
+S14	table	2	S14/commentarius/tables
+S15	horoscope chart (redrawn)	15	S15/historia/charts.tsv

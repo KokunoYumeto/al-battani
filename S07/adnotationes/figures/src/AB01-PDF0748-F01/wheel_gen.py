@@ -16,7 +16,7 @@ TERMS = [  # each sector from its clockwise edge: name, degrees
     [("Mercurius", "7°"), ("Inpiter", "7°"), ("Venus", "7°"), ("Mars", "5°"), ("Saturnus", "4°")],
     [("Mars", "6°"), ("Iupitor", "7°"), ("Venus", "7°"), ("Mercurius", "7°"), ("Saturnus", "3°")],
     [("Mercurius", "7°"), ("Venus", "6°"), ("Iupiter", "6°"), ("Saturnus", "6°"), ("Mars", "5°")],
-    [("Mercurius", "7°"), ("Venus", "6°"), ("Iupiter", "5°"), ("Mars", "6°"), ("Saturnus", "6°")],
+    [("Mercurius", "7°"), ("Verus", "6°"), ("Iupiter", "5°"), ("Mars", "6°"), ("Saturnus", "6°")],
     [("Saturnus", "6°"), ("Venus", "5°"), ("Iupiter", "8°"), ("Mercurius", "5°"), ("Mars", "6°")],
     [("Mars", "6°"), ("Iupiter", "8°"), ("Venus", "7°"), ("Mercurius", "6°"), ("Saturnus", "3°")],
     [("Iupiter", "8°"), ("Venus", "6°"), ("Mercurius", "5°"), ("Saturnus", "6°"), ("Mars", "5°")],

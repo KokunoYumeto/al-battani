@@ -8,7 +8,7 @@
   },
   "second transcriptions agree": {
    "pass": true,
-   "detail": "10 table pages compared number by number, 2,775 numbers; every canonical number found in S07's transcription"
+   "detail": "12 pages compared (tables number by number, the half-title and the figure word by word), 3,051 items; every canonical item found in S07's transcription; S07's further items are footnote marks and the note that shares p. 220; 4 readings corrected after the comparison (repairs.tsv)"
   },
   "AB02 coverage": {
    "pass": true,
@@ -50,12 +50,21 @@
    "pass": true,
    "detail": "26 ledgers; 0 open"
   },
+  "formulas, figures, tables indexed": {
+   "pass": true,
+   "detail": "32 rows; 13 unresolved readings stay open in S01/S02, with their exact source images kept"
+  },
+  "canonical version named for every range": {
+   "pass": true,
+   "detail": "17 ranges"
+  },
   "canonical receipt": {
    "pass": true,
    "detail": "3,923 tracked files of 14 sessions hashed"
   }
  },
  "anchors": 42388,
+ "unresolved_readings_open": 13,
  "session_digests": {
   "S01": "0658b4eb5aacfe591b20f879ccfd31a1d3d12cb4bd4cb2da189ee571fa84976a",
   "S02": "d3f3d91dc1b35d35a10aa8ac002738ad2060eda5b953f7058cf09c52725181d7",
@@ -63,12 +72,12 @@
   "S04": "9ee9d161858b2d1a600819528d2cae586fae56e62ef9838640ac956752379b69",
   "S05": "7d23a26f71a1286efbd1f806044ccba731f8b287ce298bf916f8edef0d8b6760",
   "S06": "e8675abbf0ca18d6fc070c18ad2d6ea19574daa3c058d0e82d37f06f39e561e2",
-  "S07": "b1a258d20a591205ae80c91456599c63887d618a6f689059a34ed2aaf0a9ec60",
+  "S07": "17adb5f02cce3f6fedb4c1fc2f6e7bc7d0382c3476b9594f5118a50515ab116e",
   "S09": "4b040de8f4d984bef797666ed338b46a7a5d52807d14ae6f52328f99bebc19d9",
   "S10": "ed2f0c64ff0171c42c11023c2f2ba430fe920f557d3aca90abe7302a74f4cdd8",
   "S11": "6cd6f9b771b66238ae99629f5c55ee266884a2623969aaa1df08a4475cbd2057",
   "S12": "6e7eaed7dd97e2fc73adfaaf7565892ff7c1ece52324f34a6f2b6c3fb14f14a1",
-  "S13": "c7e8733a9f5d69bec6f796633e808545129e6993e8695d36aac217601aa0cfb9",
+  "S13": "b865e9f90c31da0c9cbfb317783b15f9846f6b3e977d93a0368490026274d1a4",
   "S14": "602d3b12d4def073033fb77bc314a0beda003e0566044782ebed0cafe688760a",
   "S15": "098f28d8492f2e6d8c173c0c8b8dcf0145cabb4c679910268c19e1c3b8107e58"
  }
