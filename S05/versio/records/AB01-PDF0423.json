@@ -1,0 +1,539 @@
+{
+ "anchor": "AB01-PDF0423",
+ "master_pdf_page": 423,
+ "printed_page": "VI",
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "margin_locators": [],
+ "observations": [
+  "body L1, L11, L35, L36: the dashes of «Arabico–orientali» (6.1 pt) and «5–9» (5.8 pt) are long dashes; the hyphens of «57-58», «Dhū-l-qarnayn» and «178-186» measure 3.0-3.2 pt.",
+  "body L3: the jīm written without its dot and its tail («scilicet ح‍») is printed as the initial form of ḥā and transcribed with a zero-width joiner, as in the notes on the tables (S07); so also in note 1 (notes_right L6).",
+  "body L6: «{0} 0» has the zero sign of the tables, a filled disc under a short bar, as printed in the notes on the tables (S07).",
+  "body L9: a dot below the l of «latit.» is a speck.",
+  "body L34: «Ioh. Schiaparelli» is letter-spaced.",
+  "notes_left L1-L7, notes_right L1-L6: note 1 runs from the left column into the right; the quotation from Woepcke is French, each of its lines opened by a guillemet. «Muḥammad Sibṭ», «al-Māridīnī» and «Woepcke» are letter-spaced. The thin rule between the columns prints broken.",
+  "notes_right L5: the hyphen of «cou-» prints as a dot (1.6 pt long, at the height of a hyphen); it is transcribed as a hyphen."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0423-body-L001",
+     "source_line_no": null,
+     "tex": "\\Indent Rarius etiam errores ex exemplari Arabico–orientali recepti videntur, ut commutationes",
+     "transcription": "Rarius etiam errores ex exemplari Arabico–orientali recepti videntur, ut commutationes",
+     "semantic_anchor": "AB01-PDF0423-P01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0423-body-L002",
+     "source_line_no": null,
+     "tex": "\\ArabicRun{ب} 2 cum \\ArabicRun{ج} 3, vel \\ArabicRun{ج} 3 cum \\ArabicRun{د} 4; Arabes enim orientales in libris mathematicis numerum 3",
+     "transcription": "{ar:ب} 2 cum {ar:ج} 3, vel {ar:ج} 3 cum {ar:د} 4; Arabes enim orientales in libris mathematicis numerum 3",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0423-body-L003",
+     "source_line_no": null,
+     "tex": "scribunt omissis puncto et cauda (1), scilicet \\ArabicRun{ح‍} (sed 8 semper \\ArabicRun{ح}). Nostrates, qui hanc rem non",
+     "transcription": "scribunt omissis puncto et cauda (1), scilicet {ar:ح‍} (sed 8 semper {ar:ح}). Nostrates, qui hanc rem non",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0423-body-L004",
+     "source_line_no": null,
+     "tex": "animadverterunt, in edendis aut vertendis libris Arabum orientalium perfrequenter errave-",
+     "transcription": "animadverterunt, in edendis aut vertendis libris Arabum orientalium perfrequenter errave-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0423-body-L005",
+     "source_line_no": null,
+     "tex": "runt ac 8 pro 3 posuerunt.",
+     "transcription": "runt ac 8 pro 3 posuerunt.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0423-body-L006",
+     "source_line_no": null,
+     "tex": "\\Indent Septies pro \\AbjadZero{} 0 negationem Arabicam \\ArabicRun{لا} \\textit{lā} scriptam invenimus, quae, iuxta litterarum",
+     "transcription": "Septies pro {0} 0 negationem Arabicam {ar:لا} *lā* scriptam invenimus, quae, iuxta litterarum",
+     "semantic_anchor": "AB01-PDF0423-P02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0423-body-L007",
+     "source_line_no": null,
+     "tex": "valorem, 31 significat; idque p. 53 (in minutis latit. urbis as-Siraǵān), 57 (in secundis decli-",
+     "transcription": "valorem, 31 significat; idque p. 53 (in minutis latit. urbis as-Siraǵān), 57 (in secundis decli-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0423-body-L008",
+     "source_line_no": null,
+     "tex": "nationis pro 1°), 84 (in secundis motus latitudinis, ult. lin.), 93 (in secundis tertii termini pro",
+     "transcription": "nationis pro 1°), 84 (in secundis motus latitudinis, ult. lin.), 93 (in secundis tertii termini pro",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0423-body-L009",
+     "source_line_no": null,
+     "tex": "20° et 32°), 160 (in gradibus latit. octavae stellae Virginis), et 185 (in gradibus cum quibus",
+     "transcription": "20° et 32°), 160 (in gradibus latit. octavae stellae Virginis), et 185 (in gradibus cum quibus",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0423-body-L010",
+     "source_line_no": null,
+     "tex": "nr. 63 oritur). Eadem res interdum in exemplari occurrebat quod interpres Hispanus adhibuit,",
+     "transcription": "nr. 63 oritur). Eadem res interdum in exemplari occurrebat quod interpres Hispanus adhibuit,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0423-body-L011",
+     "source_line_no": null,
+     "tex": "ut t. II, p. 215, adn. 66, p. 217, adn. 261, et p. 271 monui. Cfr. t. II, p. 266, l. 5–9, ubi talis",
+     "transcription": "ut t. II, p. 215, adn. 66, p. 217, adn. 261, et p. 271 monui. Cfr. t. II, p. 266, l. 5–9, ubi talis",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0423-body-L012",
+     "source_line_no": null,
+     "tex": "erroris exemplum ex \\textit{Tabulis Alphonsinis} praebui.",
+     "transcription": "erroris exemplum ex *Tabulis Alphonsinis* praebui.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0423-body-L013",
+     "source_line_no": null,
+     "tex": "\\Indent Corruptelas sanandas quod attinet, triplex est tabularum genus. \\textit{Primum} tabularum qua-",
+     "transcription": "Corruptelas sanandas quod attinet, triplex est tabularum genus. *Primum* tabularum qua-",
+     "semantic_anchor": "AB01-PDF0423-P03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0423-body-L014",
+     "source_line_no": null,
+     "tex": "rum numeri ab alteris deducuntur per additiones aut subductiones datae quantitatis; tunc er-",
+     "transcription": "rum numeri ab alteris deducuntur per additiones aut subductiones datae quantitatis; tunc er-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0423-body-L015",
+     "source_line_no": null,
+     "tex": "ror numerum in codice afficiens si numeris sequentibus non propagatur, manifeste librariis est",
+     "transcription": "ror numerum in codice afficiens si numeris sequentibus non propagatur, manifeste librariis est",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0423-body-L016",
+     "source_line_no": null,
+     "tex": "tribuendus ac facillime emendandus. \\textit{Alterum} habetur genus cum inter numeros tabulae ratio",
+     "transcription": "tribuendus ac facillime emendandus. *Alterum* habetur genus cum inter numeros tabulae ratio",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0423-body-L017",
+     "source_line_no": null,
+     "tex": "quaedam sit, tamen non adeo certa ut possint discrepantiae unius vel duarum secundarum",
+     "transcription": "quaedam sit, tamen non adeo certa ut possint discrepantiae unius vel duarum secundarum",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0423-body-L018",
+     "source_line_no": null,
+     "tex": "(si secundae exhibeantur), unius vel duorum minutorum (si haec tantum occurrant cum gra-",
+     "transcription": "(si secundae exhibeantur), unius vel duorum minutorum (si haec tantum occurrant cum gra-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0423-body-L019",
+     "source_line_no": null,
+     "tex": "dibus) ad mentem auctoris tutissime restitui; aut etiam cum numeri nullam rationem mani-",
+     "transcription": "dibus) ad mentem auctoris tutissime restitui; aut etiam cum numeri nullam rationem mani-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0423-body-L020",
+     "source_line_no": null,
+     "tex": "festam inter se habeant ac singillatim sint supputatione trigonometrica deducendi, in qua di-",
+     "transcription": "festam inter se habeant ac singillatim sint supputatione trigonometrica deducendi, in qua di-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0423-body-L021",
+     "source_line_no": null,
+     "tex": "screpantiae unius vel duarum unitatum in secundis aut in minutis possunt ab ipsis auctoris",
+     "transcription": "screpantiae unius vel duarum unitatum in secundis aut in minutis possunt ab ipsis auctoris",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0423-body-L022",
+     "source_line_no": null,
+     "tex": "calculis provenire. \\textit{Tertium} genus tunc habetur cum numeri inter se nullam rationem habeant",
+     "transcription": "calculis provenire. *Tertium* genus tunc habetur cum numeri inter se nullam rationem habeant",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0423-body-L023",
+     "source_line_no": null,
+     "tex": "nec calculis deduci possint (ut in tabulis geographicis et catalogo fixarum), qua re tabulae",
+     "transcription": "nec calculis deduci possint (ut in tabulis geographicis et catalogo fixarum), qua re tabulae",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0423-body-L024",
+     "source_line_no": null,
+     "tex": "nonnisi proxime emendabiles sint per collationem fontium e quibus manaverint.",
+     "transcription": "nonnisi proxime emendabiles sint per collationem fontium e quibus manaverint.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0423-body-L025",
+     "source_line_no": null,
+     "tex": "\\Indent Errores \\textit{primi} generis tacite emendavi. Errores \\textit{alterius} certissime sanavi quotiescumque",
+     "transcription": "Errores *primi* generis tacite emendavi. Errores *alterius* certissime sanavi quotiescumque",
+     "semantic_anchor": "AB01-PDF0423-P04",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0423-body-L026",
+     "source_line_no": null,
+     "tex": "Ptolemaei aut Theonis comparatio succurrebat; his subsidiis deficientibus, ut in declinationibus",
+     "transcription": "Ptolemaei aut Theonis comparatio succurrebat; his subsidiis deficientibus, ut in declinationibus",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0423-body-L027",
+     "source_line_no": null,
+     "tex": "Solis et ascensionibus signorum, oportuit numeros logarithmis supputare, ad quorum fidem",
+     "transcription": "Solis et ascensionibus signorum, oportuit numeros logarithmis supputare, ad quorum fidem",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0423-body-L028",
+     "source_line_no": null,
+     "tex": "discrepantiae maiores una vel duabus vel tribus etiam secundis emendare licebat. Numeros",
+     "transcription": "discrepantiae maiores una vel duabus vel tribus etiam secundis emendare licebat. Numeros",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0423-body-L029",
+     "source_line_no": null,
+     "tex": "falsos tabularum \\textit{tertii} generis quantum potui ad mentem auctoris restituendos curavi quoties-",
+     "transcription": "falsos tabularum *tertii* generis quantum potui ad mentem auctoris restituendos curavi quoties-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0423-body-L030",
+     "source_line_no": null,
+     "tex": "cumque restitutiones parvis ac facillimis litterarum permutationibus obtinebantur; semper au-",
+     "transcription": "cumque restitutiones parvis ac facillimis litterarum permutationibus obtinebantur; semper au-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0423-body-L031",
+     "source_line_no": null,
+     "tex": "tem in notis numeros codicis exposui. — Uberiora de correctionibus adhibitis in commentario",
+     "transcription": "tem in notis numeros codicis exposui. — Uberiora de correctionibus adhibitis in commentario",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0423-body-L032",
+     "source_line_no": null,
+     "tex": "in singulas tabulas narravi.",
+     "transcription": "in singulas tabulas narravi.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0423-body-L033",
+     "source_line_no": null,
+     "tex": "\\Indent In hoc taediosissimo labore tot milia numerorum probandi, summa qua est benevolentia",
+     "transcription": "In hoc taediosissimo labore tot milia numerorum probandi, summa qua est benevolentia",
+     "semantic_anchor": "AB01-PDF0423-P05",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0423-body-L034",
+     "source_line_no": null,
+     "tex": "socius mihi \\Name{Ioh. Schiaparelli} fuit, qui tabulas a me primo emendatas iterum diligentis-",
+     "transcription": "socius mihi {sp:Ioh. Schiaparelli} fuit, qui tabulas a me primo emendatas iterum diligentis-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0423-body-L035",
+     "source_line_no": null,
+     "tex": "sime examinavit. Solus Schiaparelli tabulas expurgavit quibus declinationes Solis (p. 57-58),",
+     "transcription": "sime examinavit. Solus Schiaparelli tabulas expurgavit quibus declinationes Solis (p. 57-58),",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0423-body-L036",
+     "source_line_no": null,
+     "tex": "longitudines dierum (p. 59), status fixarum anno 1211 Dhū-l-qarnayn (p. 178-186), altitudines",
+     "transcription": "longitudines dierum (p. 59), status fixarum anno 1211 Dhū-l-qarnayn (p. 178-186), altitudines",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0423-body-L037",
+     "source_line_no": null,
+     "tex": "et directiones horarum (p. 188) exhibentur.",
+     "transcription": "et directiones horarum (p. 188) exhibentur.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  },
+  {
+   "role": "notes_left",
+   "lines": [
+    {
+     "id": "AB01-PDF0423-notes_left-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (1) Ita apud Ḥabash, Ibn Yūnus, Kūshiyār ibn",
+     "transcription": "(1) Ita apud Ḥabash, Ibn Yūnus, Kūshiyār ibn",
+     "semantic_anchor": "AB01-PDF0423-N01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0423-notes_left-L002",
+     "source_line_no": null,
+     "tex": "Labbān, Abū ’l-fidā’ etc. Cfr. \\Name{Muḥammad Sibṭ}",
+     "transcription": "Labbān, Abū ’l-fidā’ etc. Cfr. {sp:Muḥammad Sibṭ}",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0423-notes_left-L003",
+     "source_line_no": null,
+     "tex": "\\Name{al-Māridīnī} apud \\Name{Woepcke}, \\textit{Sur l’introdu-}",
+     "transcription": "{sp:al-Māridīnī} apud {sp:Woepcke}, *Sur l’introdu-*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0423-notes_left-L004",
+     "source_line_no": null,
+     "tex": "\\textit{ction de l’arithmétique indienne en Occident}, Ro-",
+     "transcription": "*ction de l’arithmétique indienne en Occident*, Ro-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0423-notes_left-L005",
+     "source_line_no": null,
+     "tex": "me 1859, p. 69: in litteris alphabeti quae ad numeros",
+     "transcription": "me 1859, p. 69: in litteris alphabeti quae ad numeros",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0423-notes_left-L006",
+     "source_line_no": null,
+     "tex": "fractionum sexagesimarum designandos inserviunt,",
+     "transcription": "fractionum sexagesimarum designandos inserviunt,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0423-notes_left-L007",
+     "source_line_no": null,
+     "tex": "« il ne peut y avoir de l’incertitude que relative-",
+     "transcription": "« il ne peut y avoir de l’incertitude que relative-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  },
+  {
+   "role": "notes_right",
+   "lines": [
+    {
+     "id": "AB01-PDF0423-notes_right-L001",
+     "source_line_no": null,
+     "tex": "« ment à deux de ces lettres, qui sont le \\textit{noûn} (qu’on",
+     "transcription": "« ment à deux de ces lettres, qui sont le *noûn* (qu’on",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0423-notes_right-L002",
+     "source_line_no": null,
+     "tex": "« pourrait confondre) avec le \\textit{yâ}; et le \\textit{djîm} (qu’on",
+     "transcription": "« pourrait confondre) avec le *yâ*; et le *djîm* (qu’on",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0423-notes_right-L003",
+     "source_line_no": null,
+     "tex": "« pourrait confondre) avec le \\textit{hâ}. On est convenu,",
+     "transcription": "« pourrait confondre) avec le *hâ*. On est convenu,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0423-notes_right-L004",
+     "source_line_no": null,
+     "tex": "« à cause de cela, de donner toujours le point au",
+     "transcription": "« à cause de cela, de donner toujours le point au",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0423-notes_right-L005",
+     "source_line_no": null,
+     "tex": "« \\textit{noûn}, à l’exclusion des autres (lettres), et à cou-",
+     "transcription": "« *noûn*, à l’exclusion des autres (lettres), et à cou-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0423-notes_right-L006",
+     "source_line_no": null,
+     "tex": "« per le \\textit{djîm} de la manière suivante: \\ArabicRun{ح‍} ».",
+     "transcription": "« per le *djîm* de la manière suivante: {ar:ح‍} ».",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  }
+ ]
+}
