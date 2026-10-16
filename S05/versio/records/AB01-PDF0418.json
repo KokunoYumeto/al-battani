@@ -1,0 +1,44 @@
+{
+ "anchor": "AB01-PDF0418",
+ "master_pdf_page": 418,
+ "printed_page": "[I]",
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "margin_locators": [],
+ "observations": [
+  "body L1-L2: the half-title. The display faces of the print are not imitated: each line is set in the roman of the edition and scaled to a box as wide and as high as the printed line, both enlarged in the ratio of the measures (532.9 to 424.4 pt); the rules are enlarged in the same ratio and keep their printed thickness. «sive» is in small capitals. The macrons of «AL-BATTĀNĪ» print broken, each in two pieces. A speck touches the top of the N of «ALBATENII»; a dot on the baseline between the I and the C of «ASTRONOMICUM» is a speck, not a stop. L2 ends without a stop.",
+  "body: the rule under L2 (73.2 pt long and 0.5 pt thick in the print) is printed broken near its right end; it is drawn whole."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0418-body-L001",
+     "source_line_no": null,
+     "tex": "\\CenterLine{\\LFit{250.43pt}{14.01pt}{AL-BATTĀNĪ \\textsc{sive} ALBATENII}}",
+     "transcription": "AL-BATTĀNĪ {sc:sive} ALBATENII",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0418-body-L002",
+     "source_line_no": null,
+     "tex": "\\CenterLine{\\LFit{336.01pt}{25.16pt}{OPUS ASTRONOMICUM}}",
+     "transcription": "OPUS ASTRONOMICUM",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  }
+ ]
+}

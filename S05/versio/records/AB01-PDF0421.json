@@ -1,0 +1,33 @@
+{
+ "anchor": "AB01-PDF0421",
+ "master_pdf_page": 421,
+ "printed_page": "[IV]",
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "margin_locators": [],
+ "observations": [
+  "body L1: the imprint, under a rule as long as the measure (424.3 pt and 0.6 pt thick in the print), drawn across the measure of the edition. The display faces of the print are not imitated; the line is scaled as on the title page. «Romae», «De» and «Luigi» are in capitals and small capitals; the dash measures 10.2 pt. The perforated library stamp of the title page, punched through the leaf, shows on this side reversed; it is not transcribed."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0421-body-L001",
+     "source_line_no": null,
+     "tex": "\\CenterLine{\\LFit{256.08pt}{9.34pt}{R\\textsc{omae} MCMVII. — Excudebat C. D\\textsc{e} L\\textsc{uigi}.}}",
+     "transcription": "R{sc:omae} MCMVII. — Excudebat C. D{sc:e} L{sc:uigi}.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  }
+ ]
+}

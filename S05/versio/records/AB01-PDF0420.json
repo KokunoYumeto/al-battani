@@ -1,0 +1,199 @@
+{
+ "anchor": "AB01-PDF0420",
+ "master_pdf_page": 420,
+ "printed_page": "[III]",
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "margin_locators": [],
+ "observations": [
+  "body L1-L17: the title page. The display faces of the print are not imitated: each line is set in the roman of the edition and scaled to a box as wide and as high as the printed line, both enlarged in the ratio of the measures (532.9 to 424.4 pt); the rules are enlarged in the same ratio and keep their printed thickness. Bold marks the lines printed in bold faces: L3, L6, L8, L11-L13, L15 and the words of L16.",
+  "body L2: a speck below the M of «MILANO» is not transcribed.",
+  "body L3-L4: the rule between L3 and L4 (267.6 pt long and 0.5 pt thick in the print) is printed broken in three places; it is drawn whole.",
+  "body L4: «sive» is in small capitals; the macrons of «AL-BATTĀNĪ» stand over the A and the I.",
+  "body L9-L10: «CAROLO ALPHONSO NALLINO.» is letter-spaced. The rule under it is 51.2 pt long and 1.1 pt thick in the print, the rule under L12 50.9 pt and 0.6 pt, the short rule between L16 and L17 8.0 pt and 0.95 pt.",
+  "body L12: the perforated stamp of the library that owns the scanned copy (UNIVERSITY LIBRARY PRINCETON N.J.) stands to the right of L12 and below it; like the mark of the digitization at the foot of the page it is not part of the print and is not transcribed.",
+  "body L14-L16: «Prostat apud» is in capitals and small capitals, «ULRICHUM HOEPLIUM» letter-spaced. A dot below «HOEPLIUM», between L14 and L15, is a speck. In L16 the words are in the capitals of a smaller bold face, lower than the figures of «58-63.», and are set in bold small capitals; the hyphen of «58-63» measures 2.8 pt."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0420-body-L001",
+     "source_line_no": null,
+     "tex": "\\CenterLine{\\LFit{176.90pt}{15.82pt}{PUBBLICAZIONI}}",
+     "transcription": "PUBBLICAZIONI",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0420-body-L002",
+     "source_line_no": null,
+     "tex": "\\CenterLine{\\LFit{425.22pt}{14.77pt}{DEL REALE OSSERVATORIO DI BRERA IN MILANO.}}",
+     "transcription": "DEL REALE OSSERVATORIO DI BRERA IN MILANO.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0420-body-L003",
+     "source_line_no": null,
+     "tex": "\\CenterLine{\\LFit{128.23pt}{12.66pt}{\\textbf{N. XL. Parte II.}}}",
+     "transcription": "{b:N. XL. Parte II.}",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0420-body-L004",
+     "source_line_no": null,
+     "tex": "\\CenterLine{\\LFit{295.78pt}{24.11pt}{AL-BATTĀNĪ \\textsc{sive} ALBATENII}}",
+     "transcription": "AL-BATTĀNĪ {sc:sive} ALBATENII",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0420-body-L005",
+     "source_line_no": null,
+     "tex": "\\CenterLine{\\LFit{529.64pt}{35.33pt}{OPUS ASTRONOMICUM.}}",
+     "transcription": "OPUS ASTRONOMICUM.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0420-body-L006",
+     "source_line_no": null,
+     "tex": "\\CenterLine{\\LFit{407.13pt}{9.94pt}{\\textbf{AD FIDEM CODICIS ESCURIALENSIS ARABICE EDITUM}}}",
+     "transcription": "{b:AD FIDEM CODICIS ESCURIALENSIS ARABICE EDITUM}",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0420-body-L007",
+     "source_line_no": null,
+     "tex": "\\CenterLine{\\LFit{261.58pt}{8.14pt}{LATINE VERSUM, ADNOTATIONIBUS INSTRUCTUM}}",
+     "transcription": "LATINE VERSUM, ADNOTATIONIBUS INSTRUCTUM",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0420-body-L008",
+     "source_line_no": null,
+     "tex": "\\CenterLine{\\LFit{6.63pt}{6.03pt}{\\textbf{A}}}",
+     "transcription": "{b:A}",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0420-body-L009",
+     "source_line_no": null,
+     "tex": "\\CenterLine{\\LFit{348.97pt}{12.81pt}{\\Name{CAROLO ALPHONSO NALLINO.}}}",
+     "transcription": "{sp:CAROLO ALPHONSO NALLINO.}",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0420-body-L010",
+     "source_line_no": null,
+     "tex": "\\CenterLine{\\LFit{135.01pt}{11.75pt}{PARS SECUNDA}}",
+     "transcription": "PARS SECUNDA",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0420-body-L011",
+     "source_line_no": null,
+     "tex": "\\CenterLine{\\LFit{319.89pt}{10.25pt}{\\textbf{VERSIO TABULARUM OMNIUM CUM ANIMADVERSIONIBUS,}}}",
+     "transcription": "{b:VERSIO TABULARUM OMNIUM CUM ANIMADVERSIONIBUS,}",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0420-body-L012",
+     "source_line_no": null,
+     "tex": "\\CenterLine{\\LFit{126.87pt}{10.25pt}{\\textbf{GLOSSARIO, INDICIBUS.}}}",
+     "transcription": "{b:GLOSSARIO, INDICIBUS.}",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0420-body-L013",
+     "source_line_no": null,
+     "tex": "\\CenterLine{\\LFit{177.65pt}{11.75pt}{\\textbf{MEDIOLANI INSUBRUM}}}",
+     "transcription": "{b:MEDIOLANI INSUBRUM}",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0420-body-L014",
+     "source_line_no": null,
+     "tex": "\\CenterLine{\\LFit{268.66pt}{9.79pt}{P\\textsc{rostat apud} \\Name{ULRICHUM HOEPLIUM}}}",
+     "transcription": "P{sc:rostat apud} {sp:ULRICHUM HOEPLIUM}",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0420-body-L015",
+     "source_line_no": null,
+     "tex": "\\CenterLine{\\LFit{79.11pt}{4.52pt}{\\textbf{REGIUM BIBLIOPOLAM}}}",
+     "transcription": "{b:REGIUM BIBLIOPOLAM}",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0420-body-L016",
+     "source_line_no": null,
+     "tex": "\\CenterLine{\\LFit{193.17pt}{7.99pt}{\\textbf{\\textsc{in xysto christophoriano, nn.}} 58-63.}}",
+     "transcription": "{b:{sc:in xysto christophoriano, nn.}} 58-63.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0420-body-L017",
+     "source_line_no": null,
+     "tex": "\\CenterLine{\\LFit{28.78pt}{9.19pt}{1907.}}",
+     "transcription": "1907.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  }
+ ]
+}

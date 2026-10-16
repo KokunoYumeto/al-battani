@@ -1,0 +1,140 @@
+\documentclass[11pt]{article}
+\usepackage[paperwidth=220mm,paperheight=320mm,left=16mm,right=16mm,top=18mm,bottom=18mm,headheight=16pt,headsep=10pt,footskip=14pt]{geometry}
+\usepackage{fix-cm}
+\usepackage{fontspec,amsmath,amssymb,graphicx,array,multirow,tikz}
+\usetikzlibrary{decorations.pathreplacing}
+\usepackage[unicode,hidelinks]{hyperref}
+\usepackage{polyglossia}
+\setmainlanguage{latin}
+\setotherlanguages{arabic,greek,hebrew,syriac}
+\setmainfont{Linux Libertine O}[Ligatures=TeX]
+\setsansfont{Linux Biolinum O}[Ligatures=TeX]
+\newfontfamily\greekfont{FreeSerif}[Script=Greek]
+\newfontfamily\arabicfont{Amiri}[Script=Arabic]
+\newfontfamily\hebrewfont{Frank Ruhl Hofshi}[Script=Hebrew]
+\newfontfamily\syriacfont{Segoe UI Historic}[Script=Syriac]
+\newfontfamily\CapFont{Noto Serif}
+\newfontfamily\MoonFont{FreeSerif}
+\newcommand{\MoonSym}{\text{\MoonFont ☾}}\newcommand{\SunSym}{\text{\MoonFont ⊙}}
+\newfontfamily\EthiopicFont{Ebrima}
+\newfontfamily\CopticFont{FreeSerif}
+\newcommand{\textcoptic}[1]{{\CopticFont\bfseries #1}}
+\newcommand{\textethiopic}[1]{{\EthiopicFont #1}}
+\newfontfamily\NallinoSigns{NallinoSigns.otf}[Path=./fonts/]
+\newcommand{\AbjadZero}{{\NallinoSigns\symbol{"E000}}}
+% the sign of right ascension: the left half of the A (its thin stroke and its bar) joined to the stem of the R
+\usepackage{trimclip}
+\newcommand{\ARsign}{\mbox{\clipbox{0pt 0pt {.48\width} 0pt}{A}\kern-.10em R}}
+\hypersetup{pdftitle={Al-Battani, Opus astronomicum. Nallino, pars II: frontispicium, praefatio, conspectus, addenda. S05},pdfauthor={Al-Battani; Carlo Alfonso Nallino (Latin translation and notes)}}
+\makeatletter
+\def\ps@sourceedition{%
+\def\@oddhead{\vbox{\hbox to\textwidth{\fontsize{8}{10}\selectfont C. A. NALLINO — PARS SECUNDA\hfil\leftmark}\vskip3pt\hrule height.25pt}}%
+\let\@evenhead\@oddhead
+\def\@oddfoot{\hbox to\textwidth{\fontsize{7}{9}\selectfont\rightmark\hfil\thepage}}%
+\let\@evenfoot\@oddfoot}
+\makeatother
+\pagestyle{sourceedition}
+\setlength{\parindent}{0pt}\setlength{\parskip}{0pt}
+\newcommand{\BeginSource}[2]{\clearpage\markboth{PAG. #2}{#1}\hypertarget{#1}{}\pdfbookmark[0]{#1 — p. #2}{bk-#1}\fontsize{11.1}{13.8}\selectfont}
+\tracinglostchars=2
+\newcommand{\Name}[1]{{\addfontfeatures{LetterSpace=4.0}#1}}
+\newcommand{\Indent}{\hspace*{1.6em}}
+% an Arabic run inside a Latin line: neither its descenders nor its vowel signs above (shadda, damma) open the line
+% (the printed lines are evenly spaced)
+\newcommand{\ArabicRun}[1]{\smash{\textarabic{#1}}}
+\newcommand{\qfrac}[2]{{}^{#1}\!/_{{#2}}}
+\newcommand{\sa}{\textsuperscript{\textit{a}}}\newcommand{\sm}{\textsuperscript{\textit{m}}}\newcommand{\sd}{\textsuperscript{\textit{d}}}
+\newcommand{\RawBlock}[1]{\par\vspace{3pt}\noindent#1\par\vspace{3pt}}
+\newcommand{\CenterLine}[1]{\makebox[\linewidth][c]{#1}}
+\newsavebox{\LBox}\newcommand{\LFit}[3]{\sbox{\LBox}{#3}\resizebox{#1}{#2}{\usebox{\LBox}}}
+\newlength{\FullSourceWidth}\newlength{\GutterOffset}\newif\ifNumbersLeft
+\newcommand{\DSource}[3]{\BeginSource{AB01-PDF#1}{#2}%
+ \setlength{\FullSourceWidth}{\textwidth}\setlength{\GutterOffset}{0pt}%
+ \ifodd#3\relax\NumbersLefttrue\else\NumbersLeftfalse\fi}
+\newsavebox{\DLBox}
+\newcommand{\DLine}[4]{%
+ \par\noindent\hypertarget{#1}{}%
+ \ifx\relax#2\relax\else
+   \ifNumbersLeft
+    \rlap{\kern-\GutterOffset\llap{\fontsize{7}{8}\selectfont #2\hspace{3mm}}}%
+   \else
+    \rlap{\kern\dimexpr\FullSourceWidth-\GutterOffset\relax\hspace{3mm}{\fontsize{7}{8}\selectfont #2}}%
+   \fi
+ \fi
+ \ifx\relax#3\relax\else
+   \ifNumbersLeft
+    \rlap{\kern\dimexpr\FullSourceWidth-\GutterOffset\relax\hspace{3mm}{\fontsize{7}{8}\selectfont #3}}%
+   \else
+    \rlap{\kern-\GutterOffset\llap{\fontsize{7}{8}\selectfont #3\hspace{3mm}}}%
+   \fi
+ \fi
+ \sbox{\DLBox}{\strut #4}%
+ \ifdim\wd\DLBox>\linewidth\typeout{DIPLOMATICWIDTH|#1|\the\wd\DLBox|\the\linewidth}\fi
+ \usebox{\DLBox}\strut\par}
+\begin{document}
+\thispagestyle{empty}
+\begin{center}\Large AL-BATTĀNĪ\par\vspace{4mm}\LARGE OPUS ASTRONOMICUM\par
+\vspace{5mm}\large Caroli Alphonsi Nallino pars secunda: frontispicium, praefatio,\\conspectus librorum, addenda et emendanda\par\vspace{8mm}
+\Large S05 --- editio diplomatica\par\vspace{4mm}\large Paginae impressae [I]--[IV]\end{center}
+\vspace{12mm}\noindent Singulae lineae paginarum impressarum singulis lineis huius editionis respondent, cum
+divisionibus vocabulorum, signis et generibus litterarum (rectis, inclinatis, distantibus). Textus ex imaginibus paginarum transcriptus est;
+litterae Graecae et Arabicae, numeri et signa in imaginibus amplificatis lecta sunt.
+Haec transcriptio a nullo homine recognita est.\par
+\DSource{0418}{[I]}{1}
+\par\vspace*{\dimexpr 87.05mm-\baselineskip\relax}\prevdepth=0pt
+\DLine{AB01-PDF0418-body-L001}{}{}{\CenterLine{\LFit{250.43pt}{14.01pt}{AL-BATTĀNĪ \textsc{sive} ALBATENII}}}
+\par\vspace{7.09mm}
+\DLine{AB01-PDF0418-body-L002}{}{}{\CenterLine{\LFit{336.01pt}{25.16pt}{OPUS ASTRONOMICUM}}}
+\par\vspace{8.19mm}
+\par\noindent\makebox[\linewidth][c]{\rule[.5ex]{32.43mm}{0.5pt}}\par
+\DSource{0419}{[II]}{2}
+\null
+\DSource{0420}{[III]}{3}
+\par\vspace*{\dimexpr 0.49mm-\baselineskip\relax}\prevdepth=0pt
+\DLine{AB01-PDF0420-body-L001}{}{}{\CenterLine{\LFit{176.90pt}{15.82pt}{PUBBLICAZIONI}}}
+\par\vspace{4.05mm}
+\DLine{AB01-PDF0420-body-L002}{}{}{\CenterLine{\LFit{425.22pt}{14.77pt}{DEL REALE OSSERVATORIO DI BRERA IN MILANO.}}}
+\par\vspace{3.52mm}
+\DLine{AB01-PDF0420-body-L003}{}{}{\CenterLine{\LFit{128.23pt}{12.66pt}{\textbf{N. XL. Parte II.}}}}
+\par\vspace{1.92mm}
+\par\noindent\makebox[\linewidth][c]{\rule[.5ex]{118.54mm}{0.5pt}}\par
+\par\vspace{5.92mm}
+\DLine{AB01-PDF0420-body-L004}{}{}{\CenterLine{\LFit{295.78pt}{24.11pt}{AL-BATTĀNĪ \textsc{sive} ALBATENII}}}
+\par\vspace{8.15mm}
+\DLine{AB01-PDF0420-body-L005}{}{}{\CenterLine{\LFit{529.64pt}{35.33pt}{OPUS ASTRONOMICUM.}}}
+\par\vspace{10.16mm}
+\DLine{AB01-PDF0420-body-L006}{}{}{\CenterLine{\LFit{407.13pt}{9.94pt}{\textbf{AD FIDEM CODICIS ESCURIALENSIS ARABICE EDITUM}}}}
+\par\vspace{5.85mm}
+\DLine{AB01-PDF0420-body-L007}{}{}{\CenterLine{\LFit{261.58pt}{8.14pt}{LATINE VERSUM, ADNOTATIONIBUS INSTRUCTUM}}}
+\par\vspace{5.04mm}
+\DLine{AB01-PDF0420-body-L008}{}{}{\CenterLine{\LFit{6.63pt}{6.03pt}{\textbf{A}}}}
+\par\vspace{3.72mm}
+\DLine{AB01-PDF0420-body-L009}{}{}{\CenterLine{\LFit{348.97pt}{12.81pt}{\Name{CAROLO ALPHONSO NALLINO.}}}}
+\par\vspace{19.74mm}
+\par\noindent\makebox[\linewidth][c]{\rule[.5ex]{22.70mm}{1.1pt}}\par
+\par\vspace{2.94mm}
+\DLine{AB01-PDF0420-body-L010}{}{}{\CenterLine{\LFit{135.01pt}{11.75pt}{PARS SECUNDA}}}
+\par\vspace{2.11mm}
+\DLine{AB01-PDF0420-body-L011}{}{}{\CenterLine{\LFit{319.89pt}{10.25pt}{\textbf{VERSIO TABULARUM OMNIUM CUM ANIMADVERSIONIBUS,}}}}
+\par\vspace{0.13mm}
+\DLine{AB01-PDF0420-body-L012}{}{}{\CenterLine{\LFit{126.87pt}{10.25pt}{\textbf{GLOSSARIO, INDICIBUS.}}}}
+\par\vspace{1.48mm}
+\par\noindent\makebox[\linewidth][c]{\rule[.5ex]{22.54mm}{0.6pt}}\par
+\par\vspace{28.71mm}
+\DLine{AB01-PDF0420-body-L013}{}{}{\CenterLine{\LFit{177.65pt}{11.75pt}{\textbf{MEDIOLANI INSUBRUM}}}}
+\par\vspace{1.06mm}
+\DLine{AB01-PDF0420-body-L014}{}{}{\CenterLine{\LFit{268.66pt}{9.79pt}{P\textsc{rostat apud} \Name{ULRICHUM HOEPLIUM}}}}
+\par\vspace{-0.95mm}
+\DLine{AB01-PDF0420-body-L015}{}{}{\CenterLine{\LFit{79.11pt}{4.52pt}{\textbf{REGIUM BIBLIOPOLAM}}}}
+\par\vspace{-0.57mm}
+\DLine{AB01-PDF0420-body-L016}{}{}{\CenterLine{\LFit{193.17pt}{7.99pt}{\textbf{\textsc{in xysto christophoriano, nn.}} 58-63.}}}
+\par\vspace{-0.49mm}
+\par\noindent\makebox[\linewidth][c]{\rule[.5ex]{3.56mm}{0.95pt}}\par
+\par\vspace{-0.70mm}
+\DLine{AB01-PDF0420-body-L017}{}{}{\CenterLine{\LFit{28.78pt}{9.19pt}{1907.}}}
+\DSource{0421}{[IV]}{4}
+\par\vspace*{\dimexpr 216.35mm-\baselineskip\relax}\prevdepth=0pt
+\par\noindent\makebox[\linewidth][c]{\rule[.5ex]{187.99mm}{0.6pt}}\par
+\par\vspace{1.55mm}
+\DLine{AB01-PDF0421-body-L001}{}{}{\CenterLine{\LFit{256.08pt}{9.34pt}{R\textsc{omae} MCMVII. — Excudebat C. D\textsc{e} L\textsc{uigi}.}}}
+\end{document}
