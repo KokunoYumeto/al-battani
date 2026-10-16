@@ -1,0 +1,15 @@
+tag	contract_role	meaning	uses
+AB_SMALL_WORK	AB_SMALL_WORK	the contract's role	S15 64
+AB_TABLE	AB_TABLE	the contract's role	S10 1
+AB_TEXT	AB_TEXT	the contract's role	S10 1
+COPY_PROVENANCE	COPY_PROVENANCE	the contract's role	S01 24, S09 5, S10 6
+MODERN_EDITORIAL	MODERN_EDITORIAL	the contract's role	S01 1, S15 167
+NALLINO_ADNOTATIONES	NALLINO_APPARATUS	Nallino's notes on the tables (Part II pp. 189-318)	S07 4624
+NALLINO_APPARATUS	NALLINO_APPARATUS	the contract's role	S01 494, S02 1399, S03 1380, S04 1218, S05 1257, S07 1104, S09 311, S10 6
+NALLINO_FIGURE	NALLINO_TRANSLATION or NALLINO_APPARATUS	a figure printed in Nallino's Part I; its role is that of the section it stands in (the translation's figures render al-Battani's diagrams in Nallino's drawing)	S02 6, S03 27, S04 44, S05 2, S07 29
+NALLINO_GLOSSARIUM	NALLINO_APPARATUS	Nallino's glossary (Part II pp. 319-358)	S09 1440
+NALLINO_INDEX	NALLINO_APPARATUS	Nallino's indexes (Part II pp. 359-413)	S09 4752
+NALLINO_INDEX_HEAD	NALLINO_APPARATUS	the heads of Nallino's indexes	S09 16
+NALLINO_TABLE	NALLINO_APPARATUS	a table that Nallino sets in his notes	S07 1
+NALLINO_TRANSLATION	NALLINO_TRANSLATION	the contract's role	S02 2979, S03 3687, S04 3880
+SCAN_EXTRINSIC	SCAN_EXTRINSIC	the contract's role	S01 3

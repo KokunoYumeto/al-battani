@@ -1,0 +1,27 @@
+ledger	content	rows	open
+S06/apparitions/apparitions_discrepancies.tsv	witness variants and printed numbers that differ from the computation or from the other witness; the transcription keeps the print	67	0
+S06/concordance/conc_discrepancies.tsv	witness variants and printed numbers that differ from the computation or from the other witness; the transcription keeps the print	8	0
+S06/eclipses/ecl_discrepancies.tsv	witness variants and printed numbers that differ from the computation or from the other witness; the transcription keeps the print	18	0
+S06/equations/equations_discrepancies.tsv	witness variants and printed numbers that differ from the computation or from the other witness; the transcription keeps the print	26	0
+S06/latitudes/latitudes_discrepancies.tsv	witness variants and printed numbers that differ from the computation or from the other witness; the transcription keeps the print	6	0
+S06/mean_motions/mm_discrepancies.tsv	witness variants and printed numbers that differ from the computation or from the other witness; the transcription keeps the print	36	0
+S06/parallax/clime_discrepancies.tsv	witness variants and printed numbers that differ from the computation or from the other witness; the transcription keeps the print	4	0
+S06/parallax/par_discrepancies.tsv	witness variants and printed numbers that differ from the computation or from the other witness; the transcription keeps the print	5	0
+S06/planets/planets_discrepancies.tsv	witness variants and printed numbers that differ from the computation or from the other witness; the transcription keeps the print	7	0
+S06/revolutions/revolutions_discrepancies.tsv	witness variants and printed numbers that differ from the computation or from the other witness; the transcription keeps the print	25	0
+S06/signs/signs_discrepancies.tsv	witness variants and printed numbers that differ from the computation or from the other witness; the transcription keeps the print	1	0
+S06/spherical/spherical_discrepancies.tsv	witness variants and printed numbers that differ from the computation or from the other witness; the transcription keeps the print	17	0
+S06/spurious/spurious_discrepancies.tsv	witness variants and printed numbers that differ from the computation or from the other witness; the transcription keeps the print	4	0
+S06/stations/stations_discrepancies.tsv	witness variants and printed numbers that differ from the computation or from the other witness; the transcription keeps the print	1	0
+S06/syzygies/rsyz_discrepancies.tsv	witness variants and printed numbers that differ from the computation or from the other witness; the transcription keeps the print	15	0
+S06/syzygies/syz_discrepancies.tsv	witness variants and printed numbers that differ from the computation or from the other witness; the transcription keeps the print	10	0
+S13/chronology/chr_discrepancies.tsv	witness variants and printed numbers that differ from the computation or from the other witness; the transcription keeps the print	19	0
+S13/diagrams/climates_discrepancies.tsv	witness variants and printed numbers that differ from the computation or from the other witness; the transcription keeps the print	27	0
+S13/diagrams/rosa_discrepancies.tsv	witness variants and printed numbers that differ from the computation or from the other witness; the transcription keeps the print	29	0
+S13/geography/geo_discrepancies.tsv	witness variants and printed numbers that differ from the computation or from the other witness; the transcription keeps the print	28	0
+S13/star_catalogue/discrepancies.tsv	witness variants and printed numbers that differ from the computation or from the other witness; the transcription keeps the print	50	0
+S13/status_1211/st_discrepancies.tsv	witness variants and printed numbers that differ from the computation or from the other witness; the transcription keeps the print	8	0
+S05/versio/corrigenda_routing.tsv	Nallino's Addenda et emendanda to the three volumes, each routed to the page it concerns and recorded there as an observation	133	0
+S10/textus/page_disposition.tsv	Nallino's corrigenda of Part III (PDF 872), each recorded with the page it concerns (see the S10 page files)	1	0
+S16/integration	proposed canonical corrections from translation (no target-language edition exists, so none were raised)	0	0
+S16/integration	finding: the ledgers of S02-S09 are written in a TSV dialect with backslash escapes (csv.QUOTE_NONE, escapechar «\»); one field of S07/adnotationes/anchors.tsv (AB01-PDF0647-body-T01) holds escaped line breaks. Read with the same dialect, every row is whole; no correction is needed	1	0

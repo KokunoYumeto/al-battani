@@ -1,0 +1,75 @@
+{
+ "session": "S16",
+ "step": "integration",
+ "checks": {
+  "AB01 coverage": {
+   "pass": true,
+   "detail": "1162 master pages: 1131 edited, 31 disposed, 0 gaps, 0 overlaps"
+  },
+  "second transcriptions agree": {
+   "pass": true,
+   "detail": "10 table pages compared number by number, 2,775 numbers; every canonical number found in S07's transcription"
+  },
+  "AB02 coverage": {
+   "pass": true,
+   "detail": "136 PDF pages, 32 transcribed, 104 disposed (the article's own text)"
+  },
+  "AB03 coverage": {
+   "pass": true,
+   "detail": "122 page sides 20r-80v, 121 transcribed, 1 blank"
+  },
+  "anchors unique across the corpus": {
+   "pass": true,
+   "detail": "42,388 anchors in 16 ledgers; 0 duplicated"
+  },
+  "anchors well-formed and on owned pages": {
+   "pass": true,
+   "detail": "all"
+  },
+  "every role tag maps to the contract": {
+   "pass": true,
+   "detail": "14 tags"
+  },
+  "every line kind maps to the contract": {
+   "pass": true,
+   "detail": "87 ledgers or kinds"
+  },
+  "AB05/AB06 mapped to Zij ch. 54/55 by their anchors": {
+   "pass": true,
+   "detail": "the Arabic chapter titles and Nallino's Latin and commentary headings found"
+  },
+  "AB04 held as source-unacquired and attribution-questioned": {
+   "pass": true,
+   "detail": "works.tsv"
+  },
+  "ledgers indexed": {
+   "pass": true,
+   "detail": "56 ledger groups in 14 sessions"
+  },
+  "no open correction": {
+   "pass": true,
+   "detail": "26 ledgers; 0 open"
+  },
+  "canonical receipt": {
+   "pass": true,
+   "detail": "3,923 tracked files of 14 sessions hashed"
+  }
+ },
+ "anchors": 42388,
+ "session_digests": {
+  "S01": "0658b4eb5aacfe591b20f879ccfd31a1d3d12cb4bd4cb2da189ee571fa84976a",
+  "S02": "d3f3d91dc1b35d35a10aa8ac002738ad2060eda5b953f7058cf09c52725181d7",
+  "S03": "5ce7022fea3d0a1dbcdc8c5290aa2c1bce188ecf10b03bf3dedce0cb014fa26c",
+  "S04": "9ee9d161858b2d1a600819528d2cae586fae56e62ef9838640ac956752379b69",
+  "S05": "7d23a26f71a1286efbd1f806044ccba731f8b287ce298bf916f8edef0d8b6760",
+  "S06": "e8675abbf0ca18d6fc070c18ad2d6ea19574daa3c058d0e82d37f06f39e561e2",
+  "S07": "b1a258d20a591205ae80c91456599c63887d618a6f689059a34ed2aaf0a9ec60",
+  "S09": "4b040de8f4d984bef797666ed338b46a7a5d52807d14ae6f52328f99bebc19d9",
+  "S10": "ed2f0c64ff0171c42c11023c2f2ba430fe920f557d3aca90abe7302a74f4cdd8",
+  "S11": "6cd6f9b771b66238ae99629f5c55ee266884a2623969aaa1df08a4475cbd2057",
+  "S12": "6e7eaed7dd97e2fc73adfaaf7565892ff7c1ece52324f34a6f2b6c3fb14f14a1",
+  "S13": "c7e8733a9f5d69bec6f796633e808545129e6993e8695d36aac217601aa0cfb9",
+  "S14": "602d3b12d4def073033fb77bc314a0beda003e0566044782ebed0cafe688760a",
+  "S15": "098f28d8492f2e6d8c173c0c8b8dcf0145cabb4c679910268c19e1c3b8107e58"
+ }
+}

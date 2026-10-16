@@ -1,0 +1,88 @@
+ledger	unit	contract_role	rows
+S10/textus/anchors.tsv	kind=cell	AB_TABLE	242
+S10/textus/anchors.tsv	kind=display	AB_TEXT	16
+S10/textus/anchors.tsv	kind=figure	AB_TABLE	95
+S10/textus/anchors.tsv	kind=h1	AB_TEXT	30
+S10/textus/anchors.tsv	kind=h2	AB_TEXT	35
+S10/textus/anchors.tsv	kind=latin	NALLINO_APPARATUS	26
+S10/textus/anchors.tsv	kind=note	NALLINO_APPARATUS	107
+S10/textus/anchors.tsv	kind=text	AB_TEXT	1546
+S11/textus/anchors.tsv	kind=figure	AB_TABLE	145
+S11/textus/anchors.tsv	kind=h1	AB_TEXT	13
+S11/textus/anchors.tsv	kind=h2	AB_TEXT	18
+S11/textus/anchors.tsv	kind=note	NALLINO_APPARATUS	101
+S11/textus/anchors.tsv	kind=text	AB_TEXT	1549
+S12/textus/anchors.tsv	kind=figure	AB_TABLE	144
+S12/textus/anchors.tsv	kind=h1	AB_TEXT	14
+S12/textus/anchors.tsv	kind=h2	AB_TEXT	29
+S12/textus/anchors.tsv	kind=note	NALLINO_APPARATUS	94
+S12/textus/anchors.tsv	kind=text	AB_TEXT	1475
+S15/historia/anchors.tsv	kind=centre	AB_SMALL_WORK	2
+S15/historia/anchors.tsv	kind=heading	AB_SMALL_WORK	17
+S15/historia/anchors.tsv	kind=indent	AB_SMALL_WORK	26
+S15/historia/anchors.tsv	kind=small	AB_SMALL_WORK	2
+S15/historia/anchors.tsv	kind=text	AB_SMALL_WORK	474
+S14/commentarius/anchors.tsv	every line	AB_TEXT (the commentary); PAL's editorial signs within the lines: MODERN_EDITORIAL	2465
+S14/commentarius/apparatus.tsv	PAL's notes	MODERN_EDITORIAL	439
+S15/historia/apparatus.tsv	the editors' apparatus	MODERN_EDITORIAL	55
+S06/apparitions/apparitions_p2.tsv	every row	AB_TABLE	168
+S06/apparitions/apparitions_readings.tsv	every row	AB_TABLE	146
+S06/concordance/conc_p2.tsv	every row	AB_TABLE	600
+S06/eclipses/correction_p2.tsv	every row	AB_TABLE	30
+S06/eclipses/digits_p2.tsv	every row	AB_TABLE	35
+S06/eclipses/ecl_text.tsv	every row	AB_TABLE	4
+S06/eclipses/eclipses_p2.tsv	every row	AB_TABLE	73
+S06/eclipses/motions_p2.tsv	every row	AB_TABLE	38
+S06/equations/equations_p2.tsv	every row	AB_TABLE	180
+S06/latitudes/latitudes_p2.tsv	every row	AB_TABLE	330
+S06/mean_motions/fs_p2.tsv	every row	AB_TABLE	84
+S06/mean_motions/mm5_p2.tsv	every row	AB_TABLE	126
+S06/mean_motions/mm5r_extra.tsv	every row	AB_TABLE	1
+S06/mean_motions/mm5r_p2.tsv	every row	AB_TABLE	128
+S06/mean_motions/mm_p2.tsv	every row	AB_TABLE	127
+S06/mean_motions/mmr_p2.tsv	every row	AB_TABLE	133
+S06/parallax/clime_p2.tsv	every row	AB_TABLE	1158
+S06/parallax/parallax_p2.tsv	every row	AB_TABLE	45
+S06/planets/planets_p2.tsv	every row	AB_TABLE	900
+S06/revolutions/revolutions_p2.tsv	every row	AB_TABLE	162
+S06/signs/p7_signs.tsv	every row	AB_TABLE	98
+S06/signs/p8_signs.tsv	every row	AB_TABLE	28
+S06/signs/signs_heads.tsv	every row	AB_TABLE	30
+S06/spherical/days59_p2.tsv	every row	AB_TABLE	120
+S06/spherical/decl_p2.tsv	every row	AB_TABLE	90
+S06/spherical/fig58.tsv	every row	AB_TABLE	36
+S06/spherical/oblique_columns.tsv	every row	AB_TABLE	19
+S06/spherical/oblique_p2.tsv	every row	AB_TABLE	108
+S06/spherical/ra10_p2.tsv	every row	AB_TABLE	9
+S06/spherical/raeq_p2.tsv	every row	AB_TABLE	360
+S06/spherical/raqqah_p2.tsv	every row	AB_TABLE	360
+S06/spherical/shadows60_p2.tsv	every row	AB_TABLE	90
+S06/spherical/sines_p2.tsv	every row	AB_TABLE	180
+S06/spurious/spurious_heads.tsv	every row	AB_TABLE	90
+S06/spurious/spurious_p2.tsv	every row	AB_TABLE	2334
+S06/stations/stations_p2.tsv	every row	AB_TABLE	150
+S06/syzygies/rsyz_p2.tsv	every row	AB_TABLE	111
+S06/syzygies/syz_extra.tsv	every row	AB_TABLE	3
+S06/syzygies/syz_p2.tsv	every row	AB_TABLE	111
+S13/chronology/chr_p2.tsv	every row	AB_TABLE	177
+S13/chronology/chr_p2_codex.tsv	every row	AB_TABLE	1
+S13/chronology/chr_p3.tsv	every row	AB_TABLE	179
+S13/chronology/chr_p3_footnotes.tsv	every row	NALLINO_APPARATUS	62
+S13/diagrams/climates_names_p2.tsv	every row	AB_TABLE	16
+S13/diagrams/climates_p2.tsv	every row	AB_TABLE	273
+S13/diagrams/climates_p3.tsv	every row	AB_TABLE	280
+S13/diagrams/rosa_p2.tsv	every row	AB_TABLE	164
+S13/diagrams/rosa_p3.tsv	every row	AB_TABLE	176
+S13/geography/geo_p2.tsv	every row	AB_TABLE	303
+S13/geography/geo_p2_notes.tsv	every row	NALLINO_APPARATUS	281
+S13/geography/geo_p3.tsv	every row	AB_TABLE	316
+S13/geography/geo_p3_footnotes.tsv	every row	NALLINO_APPARATUS	110
+S13/notice/note227.tsv	every row	NALLINO_APPARATUS	15
+S13/star_catalogue/p2_notes.tsv	every row	NALLINO_APPARATUS	347
+S13/star_catalogue/p2_stars.tsv	every row	AB_TABLE	544
+S13/star_catalogue/p3_footnotes.tsv	every row	NALLINO_APPARATUS	96
+S13/star_catalogue/p3_stars.tsv	every row	AB_TABLE	576
+S13/status_1211/st_p2.tsv	every row	AB_TABLE	77
+S13/status_1211/st_p2_notes.tsv	every row	NALLINO_APPARATUS	72
+S13/status_1211/st_p3.tsv	every row	AB_TABLE	88
+S13/status_1211/st_p3_footnotes.tsv	every row	NALLINO_APPARATUS	6
