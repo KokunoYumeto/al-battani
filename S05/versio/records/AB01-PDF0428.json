@@ -11,7 +11,7 @@
   "body L1-L3: the head of the Conspectus, «CONSPECTUS» in large capitals and two lines in the capitals of a smaller heavy face, set in bold; the faces are not imitated and each line is scaled to the box of the printed line, as on the title pages. The rule under the head is 63.6 pt long and 0.6 pt thick. The page number XI stands at the right of the head line, over a rule across the measure.",
   "body L4-L37: each book of the list is a hanging paragraph: the abbreviation stands at the margin and the following lines are indented; paragraphs inside an entry begin with a further indent (L17, L27, L30). The names in letter-spaced roman are those of the author and of the translators, as printed in the titles.",
   "body L4: the sign = is printed long, 10 pt.",
-  "body L11, L16, L22, L25, L26: «in–4o» has the thin long dash in L11 and L25 (4.9 and 4.3 pt long, 1.1 pt thick) and the hyphen in L16, L22 and L26; the o is raised. The plus signs of «32+586» and «18+410» are printed large, their bars reaching below the baseline.",
+  "body L11, L16, L22, L25, L26: «in–4o» has a long dash in L11 (4.9 pt, nearer the long dashes of 5.2-6.2 pt than the hyphens of 3.0-4.3 pt) and hyphens in L16, L22, L25 (4.3 pt, of the thinner sort) and L26; the o is raised. The plus signs of «32+586» and «18+410» are printed large, their bars reaching below the baseline.",
   "body L27: «Abū ’l-ḥasan ‘Alī ibn Abī ’r-Riǵāl» is letter-spaced; the dot under the h of «ḥasan» prints joined to the letter.",
   "body L33-L34: the Arabic of the Paris codex: «على ما ذكر» stands at the end of L33 and «حٮس فى رٮحه» at the beginning of L34, read on the scan at 1200 dpi and more. The last two words are printed without their dots, the name with ḥā, a tooth without dots and a final sīn (Ḥabash, as the codex writes it), the last word with rā, a tooth without dots, ḥā and hā (zījihi, «in his tables»); they are transcribed so (ٮ, the dotless tooth, as on p. V). A speck stands over the end of the name (0.6 pt², against 1.4-1.8 pt² for the dots of the type). The fā of «فى» prints with its dot joined to its head.",
   "body L35: «Habix» and «Ḥabash» are letter-spaced."
@@ -266,8 +266,8 @@
     {
      "id": "AB01-PDF0428-body-L025",
      "source_line_no": null,
-     "tex": "\\hspace*{2.5em}in–4\\textsuperscript{o}, 98 foll. Tertia editio: \\Name{Albohazen Haly filius Abenragel} \\textit{in iudiciis}",
-     "transcription": "in–4{sup:o}, 98 foll. Tertia editio: {sp:Albohazen Haly filius Abenragel} *in iudiciis*",
+     "tex": "\\hspace*{2.5em}in-4\\textsuperscript{o}, 98 foll. Tertia editio: \\Name{Albohazen Haly filius Abenragel} \\textit{in iudiciis}",
+     "transcription": "in-4{sup:o}, 98 foll. Tertia editio: {sp:Albohazen Haly filius Abenragel} *in iudiciis*",
      "semantic_anchor": null,
      "margin_locator": null,
      "printed_line_number": null,
