@@ -1090,10 +1090,11 @@ def page(rec):
             tex, recs = section(rec[role], prefix, role, False)
             out += tex + [r"\end{minipage}"]
             sections.append({"role": role, "lines": recs})
-    if rec["tail"]:  # the ornament that closes a part, redrawn in figures/FILE.tex, centred MM below the notes
+    if rec["tail"]:  # the ornament that closes a part, redrawn in figures/FILE.tex, centred MM below the notes (the
+        # \unskip drops the space that the end of the figure file leaves, which would set the ornament off the middle)
         mm, fname = rec["tail"]
         out.append(r"\par\vspace{" + f"{mm:.2f}" + r"mm}\noindent\makebox[\linewidth][c]{\input{figures/" + fname
-                   + r"}}")
+                   + r"}\unskip}")
     if rec["sig"]:
         out.append(r"\par\vspace{5mm}\hfill{\fontsize{8}{10}\selectfont " + markup(rec["sig"]) + r"}\hspace{10mm}")
     record = {"anchor": prefix, "master_pdf_page": rec["pdf"], "printed_page": rec["pp"], "source": "SRC01",
