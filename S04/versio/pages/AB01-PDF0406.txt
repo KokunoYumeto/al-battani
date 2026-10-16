@@ -1,0 +1,76 @@
+@page 406 317
+% Commentary on chapter 55 b) continued: (for α and β are taken the arcs of the ecliptic) corresponding. The same computation of the direction, a little later, is set out by Alcabitius, diff. IV, ch. VII, f. dd3 v.-dd5 v. of the 1485 edition, or 17 r.-18 r. of 1521. II. Al-Battānī gives another rule, p. 134, l. 21 sqq.; if A and B are in the eastern hemisphere: (β) direction = (right ascension of B − ascension of the midheaven) − hours of distance of A × horary times of B. This can be proved thus: from the first figure one deduces approximately (cf. p. 315, note 3) E′C : F′A = E′E : F′F or Dc : Da = Dβ : Dα, that is Dc : (right ascension of A − right ascension of the midheaven) = horary times of B : horary times of A, whence Dc = (right ascension of A − right ascension of the midheaven)/horary times of A × horary times of B, Dc = temporal hours of distance of A from the midheaven × horary times of B. But also Dc = bc + Db = direction + (right ascension of B − ascension of the midheaven); so, as al-Battānī has: direction = hours of distance of A × horary times of B − (right ascension of B − ascension of the midheaven). The precepts for stars in the western hemisphere or in different hemispheres are proved in the same way. At the end of the chapter (note 1: the last words, «in this way the hilegia etc.», were probably interpolated, as said in the preface) he says this is Ptolemy's computation. Rightly, for in the Tetrabiblos III, 10 (III, 15 of the Frankfurt version) al-Battānī's second method is set out and illustrated by a numerical example. Ptolemy explains why one must proceed so: «But if the preceding place is not on these cardines but falls in the spaces between, the times corresponding to the rising, setting or culminating arcs will not carry the following place to the preceding, but different ones. For a place is similar and the same which has a similar position and in the same degrees both to the horizon and to the meridian. This happens approximately (ἔγγιστα) to those that fall on one and the same of the semicircles drawn through the common intersections of the horizon and the meridian; [of these semicircles, standing at] approximately equal intervals [from one another], each makes one [temporal] hour. The equator is always inclined in the same way to each of these semicircles, and to the horizon and the meridian, as if it turned about those intersections; but the degrees of the ecliptic change their relation to each semicircle and pass both in unequal times. And in the same way, in whatever direction from the cardines [i.e. the paxilli] the significator stands, it passes those semicircles in unequal time. We will nevertheless set out one way by which ..... the number of equinoctial times that carries the preceding place to the following can be found by proportion». But Ptolemy (like Alcabitius and others) always considers points of the ecliptic, as if the planets to be directed never had latitude. Al-Battānī, on the contrary, rightly orders, when the planet departs from the zodiac, the degree culminating with the planet to be taken, instead of the degree of the ecliptic that gives its longitude, in the computation of right ascensions, and the degree rising with the planet in the computation of oblique ascensions. Like al-Battānī, John of Saxony in his commentary on chapter VII of the fourth difference of Alcabitius (note 2: fol. ll7 v.-mm2 r. of the 1485 edition, or 57 r.-59 r. of 1521); he says of his computation for planets with latitude: «and I have not seen [this] way set out in any book» (fol. mm1 v. = 58 v.), as he had already said of the radiations computed in the manner of the direction (cf. p. 311, note 2). Clearly he did not know this chapter of al-Battānī or had forgotten it.
+@nonum
+@vspace -0.04
+respondentes. Idem directionis calculus, paulo seriore aetate, exponitur ab {sp:Alcabitio}, diff. IV,
+cap. VII, f. dd3,v.–dd5,v. edit. 1485, vel 17r.–18r. edit. 1521.
+^ II. — *Aliam regulam* {sp:Albatenius} p. 134, l. 21 seqq. indicat; id est, si A et B in
+orientali hemisphaerio consistant:
+@at 0:(β) | 18.07:$\text{directio} = (\text{asc. recta } B - \text{asc. medii Caeli}) - \text{horae dist. } A \times \text{tempora horaria } B.$
+^ Quod ita demonstrari potest: E priore figura deducitur *proxime* (cfr. pag. 315, adn. 3)
+@at 39.40:$E'C : F'A = E'E : F'F$ | 94.62:seu | 110.00:$Dc : Da = D\text{β} : D\text{α}$
+@vspace -1.12
+id est
+@vspace -1.13
+@center $Dc : (\text{asc. recta } A - \text{asc. recta med. Caeli}) = \text{tempora hor. } B : \text{tempora hor. } A$,
+@vspace 0.02
+@at 0:unde | 31.00:$Dc = \dfrac{\text{asc. recta } A - \text{asc. recta med. Caeli}}{\text{tempora horaria } A} \times \text{tempora horaria } B$
+@vspace 0.15
+@center $Dc = \text{horae temporales dist. } A \text{ a medio Caelo} \times \text{tempora horaria } B.$
+Sed est etiam
+@vspace 0.01
+@center $Dc = bc + Db = \text{directio} + (\text{asc. recta } B - \text{asc. medii Caeli})$;
+ergo, ut {sp:al–Battānī} habet:
+@center $\text{directio} = \text{horae dist. } A \times \text{tempora hor. } B - (\text{asc. recta } B - \text{asc. medii Caeli}).$
+@vspace -0.04
+^ Similiter demonstrantur praecepta adhibenda cum stellae sint in hemisphaerio occidentali,
+@vspace -0.01
+aut in duobus diversis hemisphaeriis.
+^ In fine capitis (1) hanc dicit esse Ptolemaei supputationem. Recte quidem, nam in *Tetra-*
+*biblo* III, 10 ($=$ III, 15 vers. Francof.) *secunda* Albatenii ratio exponitur, atque exemplo
+numerali illustratur. Cur ita operandum, {sp:Ptolemaeus} hoc explicat modo: « At si locus
+« praecedens in his cardinibus non exstiterit, sed in spatia media inciderit, non tempora arcu-
+« bus ascendentibus aut descendentibus aut culminantibus correspondentia, locum sequentem
+« ad praecedentem deducent, sed diversa. Similis enim idemque locus est, qui similem et in
+« iisdem gradibus situm habet, et ad horizontem et ad meridianum. Hoc vero *proxime* (ἔγγιστα)
+« accidit iis qui cadunt in unum eundemque semicirculum eorum qui per communes hori-
+« zontis et meridiani sectiones ducuntur; [quorum semicirculorum, inter se] aequali proxime
+« intervallo consistentium, quisque unam horam [temporalem] conficit. Perpetuo autem ad illo-
+« rum semicirculorum quemcumque, et horizontem et meridianum, aequator eodem modo incli-
+« natur, perinde ac si circa illas sectiones converteretur; eclipticae gradus contra et mutant
+« suam ad quemcumque semicirculum habitudinem, et in inaequalibus temporibus utrobique
+« transeunt. Eodemque modo in quamcumque partem versus a cardinibus [i. e. paxillis] signi-
+« ficator distet, tempore non aequali eos semicirculos pertransit. Unam tamen constituemus
+@vspace -0.06
+« viam, qua ..... numerus temporum aequinoctialium qui praecedentem locum ad sequentem
+« deducat, proportione confici possit ».
+@vspace 0.03
+^ Sed {sp:Ptolemaeus} (ut {sp:Alcabitius} aliique) semper eclipticae puncta considerat, quasi nun-
+quam planetae dirigendi latitudinem haberent. Recte contra {sp:al–Battānī}, cum planeta a zodiaco
+deflectat, pro eclipticae gradu qui eius longitudinem numerat iubet gradum cum planeta culmi-
+@vspace -0.02
+nantem sumere in calculo ascensionum rectarum, et gradum cum planeta ascendentem in calculo
+@vspace -0.03
+ascensionum obliquarum. — Ut Albatenius, ita {sp:Iohannes de Saxonia} in commentario
+in VII caput quartae differentiae {sp:Alcabitii} (2); qui de suo calculo pro planetis latitudine
+@vspace -0.04
+praeditis ait: « et non vidi [hunc] modum expositum in aliquo libro » (fol. mm1,v. $=$ 58,v.).
+sicut quoque de radiationibus ad modum directionis supputatis iam affirmaverat (cfr. quae ex-
+@vspace 0.04
+posui p. 311, adn. 2). Manifeste hoc Albatenii caput ignorabat aut eius oblitus erat.
+@notes
+@fontsize 9 11.80
+@vspace 0.65
+^ (1) Ultima verba: « *hoc modo hilegia* etc. »
+probabiliter esse interpolata monui in praefatione.
+@col
+@fontsize 9 11.80
+@vspace 0.58
+^ (2) Fol. ll7,v.-mm2,r. editionis anni 1485, vel
+57,r.-59,r. edit. 1521.
+@obs body L1-L4: the end of the sentence begun on p. 316. «Alcabitio» and «Albatenius» are letter-spaced. «dd3,v.–dd5,v.» and «17r.–18r.» have long dashes (4.2 and 5.4 pt); the dash after «II.» measures 9.8 pt.
+@obs body L5-L15: the minus signs are printed as dashes (9.6 to 10.2 pt) and set as minus signs. The steps of L7-L15 are right: under al-Battānī's assumption (p. 315, note 3) Dc : Da = Dβ : Dα, the semidiurnal arcs being six horary times, so that Dc = hours of distance of A × horary times of B, and with Dc = bc + Db the direction bc = Dc − Db, the form of L15. The rule (β) of L5, which renders al-Battānī's words (p. 134, L24-L26 of the translation: the product is subtracted from the right ascensions between the midheaven and the following degree), is printed with the opposite sign: it gives Db − Dc, the arc bc when b lies farther from the meridian than c, while the figure of p. 315, on which the proof is made, has b between D and c. Both give the arc bc in size. «al–Battānī» (L14) is letter-spaced, with a long dash (5.3 pt).
+@obs body L18-L34: the place of the Tetrabiblos is III, 10 (III, 15 of the Frankfurt version), as printed; the sign of equality measures 10.0 pt. «Ptolemaeus» (L20) is letter-spaced; «Albatenii» (L19) is not. The Greek ἔγγιστα (L24) is set as printed. The dots after «qua» (L33) are five.
+@obs body L35-L43: «Ptolemaeus», «Alcabitius», «al–Battānī» (L36), «Iohannes de Saxonia» and «Alcabitii» are letter-spaced; «Albatenius» (L39) and «Albatenii» (L43) are not. «al–Battānī» has a long dash (5.4 pt), and the dash before «Ut» (L39) measures 10.2 pt. A full stop, not a comma, stands after «58,v.)» (L41) before «sicut», as printed. The place cited is p. 311, note 2.
+@obs notes_left L1-L2: the last words of chapter LV are p. 134, L46 of the translation («Hoc modo hilegia, ad vitas posita, diriguntur»).
+@obs notes_right L1-L2: «ll7,v.-mm2,r.» is printed with the gathering letters ll, like the leaf mm1 cited in the body (L41); its hyphen measures 2.5 pt. The dash of «57,r.-59,r.» measures 4.2 pt, the length of the longest hyphens of the notes.
