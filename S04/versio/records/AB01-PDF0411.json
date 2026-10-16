@@ -1,0 +1,528 @@
+{
+ "anchor": "AB01-PDF0411",
+ "master_pdf_page": 411,
+ "printed_page": 322,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "margin_locators": [],
+ "observations": [
+  "body L1-L5: the end of the commentary on chapter 57 c) begun on p. 321. «Albatenium», «Ptolemaeum», «Wolf» and «Regiomontanus» (L3) are letter-spaced; «Regiomontanum» (L4) is not. The hyphen of «inscri-» measures 2.3 pt. A speck stands under the first e of «referri» and another after «libro» (L5).",
+  "body L6-L7: the head is set in capitals and small capitals, as the heads of the chapters; the dash after «a)» measures 10.1 pt. The place is p. 145 of the translation, where appendix A begins.",
+  "body L8-L28: «A–H» has a long dash (5.3 pt), as have «7–8» and «187–88» (5.4 pt each); «10-11» (L21) has a hyphen (3.1 pt); «al–Battānī» (L26) is letter-spaced, with a long dash (5.4 pt). The ordinals 1° to 5° are set as printed, with a raised small o. The tables of vol. II, pp. 7-8 are those of the beginnings of the Arab years and months and of the signs of the Roman months; those of pp. 187-188 serve the revolutions of the years. The words quoted in 4° are p. 129, L10-L11 of the translation. In 5°, p. 94, L10-L11 of the translation read «eo modo inveneris ut in illo capite prope illas tabulas docuimus», where L23 quotes «quem in illo capite». Nallino's addenda (Part I, p. LXXIX, «322, in fine adn. a»): the Spanish version, which also lacks these appendices, has on f. 63 v., between the tables of the parallax of the Moon in the climes and the tables of the mean motions of the planets, a «Capitulo de saber quando es la planeta endereçada y quando es estacionaria y quando es retrograda», probably the spurious appendix D of the Arabic codex.",
+  "body L29-L33: the dash after «b)» measures 9.6 pt, the dash after «I.» 10.1 pt; «al–Battānī» (L30) is letter-spaced, with a long dash (4.4 pt). The place is p. 145, L8 of the translation, as printed: the count of that page runs through the head and the space under the title, so that L8 is «Dicit [auctor]: Signum anni aerae Arabicae». The rule of L30-L31 is p. 145, L16-L17 («numero reperto sub annis [ab hegira] collectis semper unum adde»). L33 is right: a common year of 354 days is 50 weeks and 4 days. The hyphens of «singulo-» and «an-» measure 2.3 and 2.6 pt.",
+  "notes_left L1-L8: «Monteregio» and «Purbachii» are letter-spaced; the hyphen of «Al-» (L3) prints as a raised dot. No full stop stands after the closing parenthesis of note 1 (L6). «4-5» (L7) has a hyphen (3.4 pt). The place corrected by note 2 is p. 71, L4-L5 of the translation; Nallino's addenda (Part I, p. LXXI: «71,4–5, emendetur iuxta quae dixi p. 322, adn. 2.») refer to this note, and the record of p. 71 notes it.",
+  "notes_right L1-L8: note 2 runs on into the right column. The title of appendix C quoted in note 3 is p. 146 of the translation («Caput de inveniendis per has tabulas aeris Arabum et Romanorum»)."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0411-body-L001",
+     "source_line_no": null,
+     "tex": "\\Indent In hoc a regulis parallacticis Ptolemaei differt, quod apud \\Name{Albatenium} gradus inscri-",
+     "transcription": "In hoc a regulis parallacticis Ptolemaei differt, quod apud {sp:Albatenium} gradus inscri-",
+     "semantic_anchor": "AB01-PDF0411-P01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0411-body-L002",
+     "source_line_no": null,
+     "tex": "buntur regulae HM, apud \\Name{Ptolemaeum} regulae FH ad cuius divisionem postea debet HM",
+     "transcription": "buntur regulae HM, apud {sp:Ptolemaeum} regulae FH ad cuius divisionem postea debet HM",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0411-body-L003",
+     "source_line_no": null,
+     "tex": "referri. Iuxta R. \\Name{Wolf}, \\textit{Handbuch der Astronomie}, t. II, p. 26, § 333, \\Name{Regiomontanus}",
+     "transcription": "referri. Iuxta R. {sp:Wolf}, *Handbuch der Astronomie*, t. II, p. 26, § 333, {sp:Regiomontanus}",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0411-body-L004",
+     "source_line_no": null,
+     "tex": "primus divisionem graduum in regula HM signavit (1); summopere verisimile est Regiomontanum",
+     "transcription": "primus divisionem graduum in regula HM signavit (1); summopere verisimile est Regiomontanum",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0411-body-L005",
+     "source_line_no": null,
+     "tex": "id ex Albatenii libro didicisse.",
+     "transcription": "id ex Albatenii libro didicisse.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0411-body-L006",
+     "source_line_no": null,
+     "tex": "\\CenterLine{A\\textsc{d} \\textsc{adpendicem} A.}",
+     "transcription": "A{sc:d} {sc:adpendicem} A.",
+     "semantic_anchor": "AB01-PDF0411-H06",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0411-body-L007",
+     "source_line_no": null,
+     "tex": "\\CenterLine{\\textbf{\\textit{a}}) — \\textit{Pag. 145.}}",
+     "transcription": "{bi:a}) — *Pag. 145.*",
+     "semantic_anchor": "AB01-PDF0411-H07",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0411-body-L008",
+     "source_line_no": null,
+     "tex": "\\Indent \\textit{In adpendices A–H animadversiones generales.}",
+     "transcription": "*In adpendices A–H animadversiones generales.*",
+     "semantic_anchor": "AB01-PDF0411-P02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0411-body-L009",
+     "source_line_no": null,
+     "tex": "\\Indent Hae adpendices, quibus nullus inscribitur numerus in textu Arabico, omnino desunt apud",
+     "transcription": "Hae adpendices, quibus nullus inscribitur numerus in textu Arabico, omnino desunt apud",
+     "semantic_anchor": "AB01-PDF0411-P03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0411-body-L010",
+     "source_line_no": null,
+     "tex": "Platonem, tam in editionibus impressis quam in codicibus manu scriptis. Eas tamen (D et",
+     "transcription": "Platonem, tam in editionibus impressis quam in codicibus manu scriptis. Eas tamen (D et",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0411-body-L011",
+     "source_line_no": null,
+     "tex": "probabiliter F exceptis) genuinas esse non est cur dubitemus. Nam:",
+     "transcription": "probabiliter F exceptis) genuinas esse non est cur dubitemus. Nam:",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0411-body-L012",
+     "source_line_no": null,
+     "tex": "\\Indent 1\\textsuperscript{o}. Ut locis suis in versione indicavi, semper ad genuinas tabulas Albatenianas referuntur.",
+     "transcription": "1{sup:o}. Ut locis suis in versione indicavi, semper ad genuinas tabulas Albatenianas referuntur.",
+     "semantic_anchor": "AB01-PDF0411-P04",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0411-body-L013",
+     "source_line_no": null,
+     "tex": "\\Indent 2\\textsuperscript{o}. Elementa astronomica et sermo Arabicus non differunt ab iis, quae in reliquis libri",
+     "transcription": "2{sup:o}. Elementa astronomica et sermo Arabicus non differunt ab iis, quae in reliquis libri",
+     "semantic_anchor": "AB01-PDF0411-P05",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0411-body-L014",
+     "source_line_no": null,
+     "tex": "partibus narrantur.",
+     "transcription": "partibus narrantur.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0411-body-L015",
+     "source_line_no": null,
+     "tex": "\\Indent 3\\textsuperscript{o}. Adpendices A, B, C necessarium sunt complementum XXXII capitis, cuius in fine auctor",
+     "transcription": "3{sup:o}. Adpendices A, B, C necessarium sunt complementum XXXII capitis, cuius in fine auctor",
+     "semantic_anchor": "AB01-PDF0411-P06",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0411-body-L016",
+     "source_line_no": null,
+     "tex": "eas pollicitus erat (2); iis omissis, non potest usus tabularum t. II, p. 7–8 intelligi.",
+     "transcription": "eas pollicitus erat (2); iis omissis, non potest usus tabularum t. II, p. 7–8 intelligi.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0411-body-L017",
+     "source_line_no": null,
+     "tex": "\\Indent 4\\textsuperscript{o}. Adpendix E, necessaria ad intelligendas tabulas t. II, p. 187–88, iam erat in fine",
+     "transcription": "4{sup:o}. Adpendix E, necessaria ad intelligendas tabulas t. II, p. 187–88, iam erat in fine",
+     "semantic_anchor": "AB01-PDF0411-P07",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0411-body-L018",
+     "source_line_no": null,
+     "tex": "LIII capitis (p. 129) his verbis indicata: « ..... tabulas confecimus, quarum usum \\textit{in ultimo}",
+     "transcription": "LIII capitis (p. 129) his verbis indicata: « ..... tabulas confecimus, quarum usum *in ultimo*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0411-body-L019",
+     "source_line_no": null,
+     "tex": "« \\textit{capitum post finem libri} explicavimus, ut facile etc. ». Verba Italicis litteris impressa",
+     "transcription": "« *capitum post finem libri* explicavimus, ut facile etc. ». Verba Italicis litteris impressa",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0411-body-L020",
+     "source_line_no": null,
+     "tex": "Plato omittit, qua re sensus non intelligitur.",
+     "transcription": "Plato omittit, qua re sensus non intelligitur.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0411-body-L021",
+     "source_line_no": null,
+     "tex": "\\Indent 5\\textsuperscript{o}. Similiter adpendix H in cap. XLII (pag. 94, l. 10-11) erat his verbis praenuntiata:",
+     "transcription": "5{sup:o}. Similiter adpendix H in cap. XLII (pag. 94, l. 10-11) erat his verbis praenuntiata:",
+     "semantic_anchor": "AB01-PDF0411-P08",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0411-body-L022",
+     "source_line_no": null,
+     "tex": "« ..... post additas motui Lunae aut ab eo detractas secundas, quas sub differentia inter Solem",
+     "transcription": "« ..... post additas motui Lunae aut ab eo detractas secundas, quas sub differentia inter Solem",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0411-body-L023",
+     "source_line_no": null,
+     "tex": "« et Lunam eo modo inveneris quem in illo capite \\textit{prope illas tabulas} docuimus ». Quae",
+     "transcription": "« et Lunam eo modo inveneris quem in illo capite *prope illas tabulas* docuimus ». Quae",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0411-body-L024",
+     "source_line_no": null,
+     "tex": "Plato etiam vertit: « viam quam in ipso capitulo in ipsis tabulis docuimus ».",
+     "transcription": "Plato etiam vertit: « viam quam in ipso capitulo in ipsis tabulis docuimus ».",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0411-body-L025",
+     "source_line_no": null,
+     "tex": "\\Indent Ex hoc ultimo loco et e fine XXXII capitis nuper memorata elucet harum adpendicum",
+     "transcription": "Ex hoc ultimo loco et e fine XXXII capitis nuper memorata elucet harum adpendicum",
+     "semantic_anchor": "AB01-PDF0411-P09",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0411-body-L026",
+     "source_line_no": null,
+     "tex": "quasdam \\Name{al–Battānī} prope ipsas tabulas, quarum usum illustrare debebant, collocavisse (3);",
+     "transcription": "quasdam {sp:al–Battānī} prope ipsas tabulas, quarum usum illustrare debebant, collocavisse (3);",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0411-body-L027",
+     "source_line_no": null,
+     "tex": "librarios postea eas omnes in calcem capitum reduxisse. Si ita res se habet, facile intelligitur",
+     "transcription": "librarios postea eas omnes in calcem capitum reduxisse. Si ita res se habet, facile intelligitur",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0411-body-L028",
+     "source_line_no": null,
+     "tex": "cur nullum numerum gerant, et cur Plato, qui tabulas omiserat, eas neglexerit quoque.",
+     "transcription": "cur nullum numerum gerant, et cur Plato, qui tabulas omiserat, eas neglexerit quoque.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0411-body-L029",
+     "source_line_no": null,
+     "tex": "\\CenterLine{\\textbf{\\textit{b}}) — \\textit{Pag. 145, l. 8 et seqq.}}",
+     "transcription": "{bi:b}) — *Pag. 145, l. 8 et seqq.*",
+     "semantic_anchor": "AB01-PDF0411-H29",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0411-body-L030",
+     "source_line_no": null,
+     "tex": "\\Indent I. — Cum « signa » in sola tabula annorum collectorum quaerantur, iubet \\Name{al–Battānī}",
+     "transcription": "I. — Cum « signa » in sola tabula annorum collectorum quaerantur, iubet {sp:al–Battānī}",
+     "semantic_anchor": "AB01-PDF0411-P10",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0411-body-L031",
+     "source_line_no": null,
+     "tex": "signo ibi reperto semper unitatem addere; non ita vero cum e sola tabula annorum singulo-",
+     "transcription": "signo ibi reperto semper unitatem addere; non ita vero cum e sola tabula annorum singulo-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0411-body-L032",
+     "source_line_no": null,
+     "tex": "rum aut ex ambabus simul deducantur.",
+     "transcription": "rum aut ex ambabus simul deducantur.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0411-body-L033",
+     "source_line_no": null,
+     "tex": "\\Indent In intervallo unius anni non bisextilis signa 4 unitatibus crescunt; in intervallo 30 an-",
+     "transcription": "In intervallo unius anni non bisextilis signa 4 unitatibus crescunt; in intervallo 30 an-",
+     "semantic_anchor": "AB01-PDF0411-P11",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    }
+   ]
+  },
+  {
+   "role": "notes_left",
+   "lines": [
+    {
+     "id": "AB01-PDF0411-notes_left-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (1) Ut puto in opere quod inscribitur Joh. de",
+     "transcription": "(1) Ut puto in opere quod inscribitur Joh. de",
+     "semantic_anchor": "AB01-PDF0411-N01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0411-notes_left-L002",
+     "source_line_no": null,
+     "tex": "\\Name{Monteregio} \\textit{et} G. \\Name{Purbachii} \\textit{Epitome, continens}",
+     "transcription": "{sp:Monteregio} *et* G. {sp:Purbachii} *Epitome, continens*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0411-notes_left-L003",
+     "source_line_no": null,
+     "tex": "\\textit{propositiones et annotationes, quibus totum Al-}",
+     "transcription": "*propositiones et annotationes, quibus totum Al-*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0411-notes_left-L004",
+     "source_line_no": null,
+     "tex": "\\textit{magestum ..... dilucida et brevi doctrina declaratur}",
+     "transcription": "*magestum ..... dilucida et brevi doctrina declaratur*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0411-notes_left-L005",
+     "source_line_no": null,
+     "tex": "\\textit{et exponitur}, Basileae 1543, lib. V, cap. III, p. 95",
+     "transcription": "*et exponitur*, Basileae 1543, lib. V, cap. III, p. 95",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0411-notes_left-L006",
+     "source_line_no": null,
+     "tex": "(« regulas Ptolemaei fabricare »)",
+     "transcription": "(« regulas Ptolemaei fabricare »)",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0411-notes_left-L007",
+     "source_line_no": null,
+     "tex": "\\Indent (2) Pag. 71, l. 4-5, ita versio emendetur: « ...men-",
+     "transcription": "(2) Pag. 71, l. 4-5, ita versio emendetur: « ...men-",
+     "semantic_anchor": "AB01-PDF0411-N02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0411-notes_left-L008",
+     "source_line_no": null,
+     "tex": "« sium posuimus; quo modo per eas operandum sit",
+     "transcription": "« sium posuimus; quo modo per eas operandum sit",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  },
+  {
+   "role": "notes_right",
+   "lines": [
+    {
+     "id": "AB01-PDF0411-notes_right-L001",
+     "source_line_no": null,
+     "tex": "« explicavimus prope tabulas illas, ut, si Deus vult, ... »",
+     "transcription": "« explicavimus prope tabulas illas, ut, si Deus vult, ... »",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0411-notes_right-L002",
+     "source_line_no": null,
+     "tex": "Similiter Plato: « tabulas etenim quibus mensium",
+     "transcription": "Similiter Plato: « tabulas etenim quibus mensium",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0411-notes_right-L003",
+     "source_line_no": null,
+     "tex": "« initia sciantur, quarum opus in ipsis explanatur,",
+     "transcription": "« initia sciantur, quarum opus in ipsis explanatur,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0411-notes_right-L004",
+     "source_line_no": null,
+     "tex": "« ut scientia qua opus huius » [ita editt., sed recte",
+     "transcription": "« ut scientia qua opus huius » [ita editt., sed recte",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0411-notes_right-L005",
+     "source_line_no": null,
+     "tex": "cod. Vatic.: habemus] « semper levis existat, po-",
+     "transcription": "cod. Vatic.: habemus] « semper levis existat, po-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0411-notes_right-L006",
+     "source_line_no": null,
+     "tex": "« suimus ».",
+     "transcription": "« suimus ».",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0411-notes_right-L007",
+     "source_line_no": null,
+     "tex": "\\Indent (3) Cfr. etiam titulum adp. C, p. 146: « Caput",
+     "transcription": "(3) Cfr. etiam titulum adp. C, p. 146: « Caput",
+     "semantic_anchor": "AB01-PDF0411-N03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0411-notes_right-L008",
+     "source_line_no": null,
+     "tex": "de inveniendis per \\textit{has} tabulas aeris Arabum etc. ».",
+     "transcription": "de inveniendis per *has* tabulas aeris Arabum etc. ».",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  }
+ ]
+}
