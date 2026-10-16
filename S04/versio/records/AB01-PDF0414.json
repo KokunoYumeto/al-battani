@@ -1,0 +1,569 @@
+{
+ "anchor": "AB01-PDF0414",
+ "master_pdf_page": 414,
+ "printed_page": 325,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "margin_locators": [],
+ "observations": [
+  "body L1-L5: the head is set in capitals and small capitals; the dash after «a)» measures 10.1 pt. Appendix F is p. 149 of the translation. The places cited are p. 133 of the translation and p. 317, on planets with latitude, and the commentary on chapter LV, pp. 313-317; «313-17» has a hyphen (3.6 pt). The hyphen of «con-» measures 2.3 pt.",
+  "body L6-L15: the title of appendix F is p. 149, L5-L7 of the translation («et scias hanc esse directionem quam Ptolemaeus in profectione hilegii explicat»). The Arabic is set as printed, with its vowel signs: تسيّر with the shadda (L7), تسيُّر with damma and shadda (L11, L12), تُسَيَّر, تَسِير and تُسَيِّر; the hamza of انتهاء (L10) prints as a dot. In the Arabic text, vol. III, p. 224, the line after the title of the chapter (L11 by the count of that page) reads «في تسيُّر الهيلاج», and L14 has تسير twice, as Nallino says. The places of the version are p. 149, L15 («a quo directionem incipere statuisti») and L16 («ad quem directionem pervenire iubes»), as printed. The hyphens of «Ptole-», «di-» and «directio-» measure 2.5, 2.3 and 2.5 pt; the dash before «In sequentibus» (L12) measures 10.1 pt; «al–‘ulūm» (L11) has a long dash (5.4 pt).",
+  "body L16-L23: «Ptolemaeus» is letter-spaced. The year 363 of the hijrah began on 1 October 973 and the year 381 ended on 7 March 992 (tabular calendar, astronomical epoch); «363-381» has a hyphen (3.6 pt), «973–991» a long dash (about 5.5 pt, joined to the figures). The dash of «al–‘ulūm» (L19) measures 5.5 pt. The hyphen of «ascen-» measures 2.8 pt.",
+  "body L24-L30: «Kūshiyār ibn Labbān» and «Sachau» are letter-spaced. The dash after «deest.» measures 10.2 pt, that before «Itaque» (L30) 10.1 pt; the dashes of «az–zīǵ» and «al–istiwā’» measure 5.5 pt each; «163–64» has a long dash (about 5.5 pt). The commentary of pp. 163-164 is on al-Battānī's tables of right ascensions counted from the beginning of Capricorn; Nallino's addenda (Part I, p. LXXII) refer back to this place for Kūshiyār's table, as recorded on p. 164. The Arabic مطالع البروج بالجويراست runs from the end of L27 to the head of L28. The hyphen of «tabu-» measures 3.0 pt.",
+  "notes_left L1-L8: the Arabic is set as printed: the corrupt reading الحواراسب and the archetype الجوى راست with the alif maqṣūrah; the alif of L8 prints as a slanting stroke. The dash before «Codicis» (L4) measures 9.5 pt. «vo» (L5) is printed without the hyphen of the division «vo-cabulum».",
+  "notes_left L9-L12: «‘Alī ibn Riḍwān» is letter-spaced; the hyphen of «Vene-» prints as a dot, those of «Pla-» and «editori-» measure 1.9 and 2.2 pt.",
+  "notes_right L1-L11: the end of note 2 begun in the left column. The hyphens of «Commenta-» and «Tebal-» print as dots. «Abù ‘Abdallàh Mohammed ibn Ahmed al-Khowàrezmì», «Ahlwardt» and «Suter» are letter-spaced; the title of note 3 is set as printed, with the circumflex of «Mafâtih», the accent over the u of «‘olûm» printing as a dot, and with the grave accents of the author's name; «al–‘olûm» has a dash of 4.7 pt, «al-Kho-» a hyphen (3.4 pt). «1887-99» and «83-84» have hyphens (3.4 pt each); the dash after «206,a.» measures 8.6 pt."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0414-body-L001",
+     "source_line_no": null,
+     "tex": "\\CenterLine{A\\textsc{d} \\textsc{adpendicem} F.}",
+     "transcription": "A{sc:d} {sc:adpendicem} F.",
+     "semantic_anchor": "AB01-PDF0414-H01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0414-body-L002",
+     "source_line_no": null,
+     "tex": "\\CenterLine{\\textbf{\\textit{a}}) — \\textit{Pag. 149.}}",
+     "transcription": "{bi:a}) — *Pag. 149.*",
+     "semantic_anchor": "AB01-PDF0414-H02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0414-body-L003",
+     "source_line_no": null,
+     "tex": "\\Indent Adpendix spuria videtur; brevius exponit quae iam auctor in LV capite docuerat, con-",
+     "transcription": "Adpendix spuria videtur; brevius exponit quae iam auctor in LV capite docuerat, con-",
+     "semantic_anchor": "AB01-PDF0414-P01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0414-body-L004",
+     "source_line_no": null,
+     "tex": "siderationibus omissis quae ad planetas latitudine praeditos spectabant (p. 133 et 317). Omnia",
+     "transcription": "siderationibus omissis quae ad planetas latitudine praeditos spectabant (p. 133 et 317). Omnia",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0414-body-L005",
+     "source_line_no": null,
+     "tex": "satis explicavi in adnotationibus ad caput illud, pag. 313-17.",
+     "transcription": "satis explicavi in adnotationibus ad caput illud, pag. 313-17.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0414-body-L006",
+     "source_line_no": null,
+     "tex": "\\Indent In titulo adpendicis melius erat vertere: « et scias hanc directionem id esse quod Ptole-",
+     "transcription": "In titulo adpendicis melius erat vertere: « et scias hanc directionem id esse quod Ptole-",
+     "semantic_anchor": "AB01-PDF0414-P02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0414-body-L007",
+     "source_line_no": null,
+     "tex": "« maeus in \\textit{directione} hilegii explicat ». In textu, t. III, p. 224, l. 11, \\ArabicRun{تسيّر} (i. e. ambulatio,",
+     "transcription": "« maeus in *directione* hilegii explicat ». In textu, t. III, p. 224, l. 11, {ar:تسيّر} (i. e. ambulatio,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0414-body-L008",
+     "source_line_no": null,
+     "tex": "peragratio) recepi, quod voce « profectione » verti; at non recte. Nunquam enim, quantum",
+     "transcription": "peragratio) recepi, quod voce « profectione » verti; at non recte. Nunquam enim, quantum",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0414-body-L009",
+     "source_line_no": null,
+     "tex": "scio, ita Arabes \\textit{profectionem} vocaverunt; eam, quando a directione (\\ArabicRun{تسيير}) distinguunt, voce",
+     "transcription": "scio, ita Arabes *profectionem* vocaverunt; eam, quando a directione ({ar:تسيير}) distinguunt, voce",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0414-body-L010",
+     "source_line_no": null,
+     "tex": "\\textit{intihā’} (\\ArabicRun{انتهاء}) designant. Fefellerat me codicis eo loco mendosa scriptio \\ArabicRun{تسير} pro \\ArabicRun{تسيير} (i. e. di-",
+     "transcription": "*intihā’* ({ar:انتهاء}) designant. Fefellerat me codicis eo loco mendosa scriptio {ar:تسير} pro {ar:تسيير} (i. e. di-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0414-body-L011",
+     "source_line_no": null,
+     "tex": "rectio), et verba libri \\textit{Mafātīḥ al–‘ulūm} p. 230 (s. v. \\ArabicRun{هيلاج}): \\ArabicRun{وذلك انها تسيُّر الى السعود والنحوس}, in",
+     "transcription": "rectio), et verba libri *Mafātīḥ al–‘ulūm* p. 230 (s. v. {ar:هيلاج}): {ar:وذلك انها تسيُّر الى السعود والنحوس}, in",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0414-body-L012",
+     "source_line_no": null,
+     "tex": "quibus procul dubio \\ArabicRun{تسيُّر} est editoris error pro \\ArabicRun{تُسَيَّر} « diriguntur ». — In sequentibus, l. 14",
+     "transcription": "quibus procul dubio {ar:تسيُّر} est editoris error pro {ar:تُسَيَّر} « diriguntur ». — In sequentibus, l. 14",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0414-body-L013",
+     "source_line_no": null,
+     "tex": "textus (bis), loco \\ArabicRun{تَسِير} melius erat \\ArabicRun{تُسَيِّر} legere; qua re in versione (l. 15 et 16) pro « directio-",
+     "transcription": "textus (bis), loco {ar:تَسِير} melius erat {ar:تُسَيِّر} legere; qua re in versione (l. 15 et 16) pro « directio-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0414-body-L014",
+     "source_line_no": null,
+     "tex": "« nem incipere » et « directionem pervenire » nonnisi « dirigere » restituendum puto. Sensus",
+     "transcription": "« nem incipere » et « directionem pervenire » nonnisi « dirigere » restituendum puto. Sensus",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0414-body-L015",
+     "source_line_no": null,
+     "tex": "tamen non mutatur.",
+     "transcription": "tamen non mutatur.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0414-body-L016",
+     "source_line_no": null,
+     "tex": "\\Indent Vox \\textit{ǵuwīrāst}, qua nunc \\Name{Ptolemaeus} dicitur in \\textit{Tetrabiblo} uti cum de profectione",
+     "transcription": "Vox *ǵuwīrāst*, qua nunc {sp:Ptolemaeus} dicitur in *Tetrabiblo* uti cum de profectione",
+     "semantic_anchor": "AB01-PDF0414-P03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0414-body-L017",
+     "source_line_no": null,
+     "tex": "significatoris loquatur, Persicam originem certe ostendit (1); sed eam nec in textu Graeco,",
+     "transcription": "significatoris loquatur, Persicam originem certe ostendit (1); sed eam nec in textu Graeco,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0414-body-L018",
+     "source_line_no": null,
+     "tex": "nec in duabus Latinis versionibus redactionis Arabicae \\textit{Tetrabibli} (2) invenio. In uno tantum",
+     "transcription": "nec in duabus Latinis versionibus redactionis Arabicae *Tetrabibli* (2) invenio. In uno tantum",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0414-body-L019",
+     "source_line_no": null,
+     "tex": "Arabicorum librorum adhuc impressorum vocabulum mihi occurrit, nempe in \\textit{Mafātīḥ al–‘ulūm},",
+     "transcription": "Arabicorum librorum adhuc impressorum vocabulum mihi occurrit, nempe in *Mafātīḥ al–‘ulūm*,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0414-body-L020",
+     "source_line_no": null,
+     "tex": "qui est parvum lexicum multas voces technicas scientiarum omnium explicans, in Persia",
+     "transcription": "qui est parvum lexicum multas voces technicas scientiarum omnium explicans, in Persia",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0414-body-L021",
+     "source_line_no": null,
+     "tex": "boreali intra annos 363-381 hegirae (973–991 Chr.) confectum: « Ascensiones sphaerae rectae",
+     "transcription": "boreali intra annos 363-381 hegirae (973–991 Chr.) confectum: « Ascensiones sphaerae rectae",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0414-body-L022",
+     "source_line_no": null,
+     "tex": "« sunt quantitates aequatoris caelestis quae cum arcubus eclipticae in linea aequinoctiali ascen-",
+     "transcription": "« sunt quantitates aequatoris caelestis quae cum arcubus eclipticae in linea aequinoctiali ascen-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0414-body-L023",
+     "source_line_no": null,
+     "tex": "« dunt; Persice [vocantur] \\textit{ǵuwī rāst} (3) ».",
+     "transcription": "« dunt; Persice [vocantur] *ǵuwī rāst* (3) ».",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0414-body-L024",
+     "source_line_no": null,
+     "tex": "\\Indent In lexicis Persicis vocabulum deest. — In indice capitum libri astronomici \\textit{az–zīǵ al–ǵāmi‘}",
+     "transcription": "In lexicis Persicis vocabulum deest. — In indice capitum libri astronomici *az–zīǵ al–ǵāmi‘*",
+     "semantic_anchor": "AB01-PDF0414-P04",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0414-body-L025",
+     "source_line_no": null,
+     "tex": "inscripti (4) et in altera medietate IV saec. heg. (X Chr.) a \\Name{Kūshiyār ibn Labbān} in Persia",
+     "transcription": "inscripti (4) et in altera medietate IV saec. heg. (X Chr.) a {sp:Kūshiyār ibn Labbān} in Persia",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0414-body-L026",
+     "source_line_no": null,
+     "tex": "boreali confecti, non solum tabulas ascensionum « in linea aequatoris » (\\textit{bi khaṭṭ al–istiwā’}),",
+     "transcription": "boreali confecti, non solum tabulas ascensionum « in linea aequatoris » (*bi khaṭṭ al–istiwā’*),",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0414-body-L027",
+     "source_line_no": null,
+     "tex": "i. e. rectarum, inveneram sed etiam « ascensionum signorum per \\textit{ǵuwīrāst} » \\ArabicRun{مطالع البروج}",
+     "transcription": "i. e. rectarum, inveneram sed etiam « ascensionum signorum per *ǵuwīrāst* » {ar:مطالع البروج}",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0414-body-L028",
+     "source_line_no": null,
+     "tex": "\\ArabicRun{بالجويراست}. Rogatu meo clar. Ed. \\Name{Sachau}, magna qua est humanitate, in usum meum tabu-",
+     "transcription": "{ar:بالجويراست}. Rogatu meo clar. Ed. {sp:Sachau}, magna qua est humanitate, in usum meum tabu-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0414-body-L029",
+     "source_line_no": null,
+     "tex": "las e codice Berolinensi transcripsit, quas illico vidi praebere ascensiones \\textit{rectas} omnium",
+     "transcription": "las e codice Berolinensi transcripsit, quas illico vidi praebere ascensiones *rectas* omnium",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0414-body-L030",
+     "source_line_no": null,
+     "tex": "zodiaci graduum \\textit{ab initio Capricorni} supputatas (cfr. p. 163–64). — Itaque falsum videtur",
+     "transcription": "zodiaci graduum *ab initio Capricorni* supputatas (cfr. p. 163–64). — Itaque falsum videtur",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    }
+   ]
+  },
+  {
+   "role": "notes_left",
+   "lines": [
+    {
+     "id": "AB01-PDF0414-notes_left-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (1) \\textit{Rāst} $=$ rectus, directus, directe; prior au-",
+     "transcription": "(1) *Rāst* $=$ rectus, directus, directe; prior au-",
+     "semantic_anchor": "AB01-PDF0414-N01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0414-notes_left-L002",
+     "source_line_no": null,
+     "tex": "tem vocabuli pars manifeste a verbo \\textit{ǵustan} (thema",
+     "transcription": "tem vocabuli pars manifeste a verbo *ǵustan* (thema",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0414-notes_left-L003",
+     "source_line_no": null,
+     "tex": "praesentis: \\textit{ǵūy}) « quaerere, exquirere » provenit.",
+     "transcription": "praesentis: *ǵūy*) « quaerere, exquirere » provenit.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0414-notes_left-L004",
+     "source_line_no": null,
+     "tex": "— Codicis corruptela \\ArabicRun{الحواراسب} ex eo orta quod",
+     "transcription": "— Codicis corruptela {ar:الحواراسب} ex eo orta quod",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0414-notes_left-L005",
+     "source_line_no": null,
+     "tex": "archetypus \\ArabicRun{الجوى راست} praebebat; amanuensis, vo",
+     "transcription": "archetypus {ar:الجوى راست} praebebat; amanuensis, vo",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0414-notes_left-L006",
+     "source_line_no": null,
+     "tex": "cabulum ignorans, primam nominis partem censuit",
+     "transcription": "cabulum ignorans, primam nominis partem censuit",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0414-notes_left-L007",
+     "source_line_no": null,
+     "tex": "vocem Arabicam in \\textit{alif maqṣūrah} desinentem, qua",
+     "transcription": "vocem Arabicam in *alif maqṣūrah* desinentem, qua",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0414-notes_left-L008",
+     "source_line_no": null,
+     "tex": "re, maghrebina scribendi ratione, \\ArabicRun{ا} loco \\ArabicRun{ى} posuit.",
+     "transcription": "re, maghrebina scribendi ratione, {ar:ا} loco {ar:ى} posuit.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0414-notes_left-L009",
+     "source_line_no": null,
+     "tex": "\\Indent (2) Impressae ambae sunt cum commentario",
+     "transcription": "(2) Impressae ambae sunt cum commentario",
+     "semantic_anchor": "AB01-PDF0414-N02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0414-notes_left-L010",
+     "source_line_no": null,
+     "tex": "\\Name{‘Alī ibn Riḍwān} (Haly Heben Rodan), Vene-",
+     "transcription": "{sp:‘Alī ibn Riḍwān} (Haly Heben Rodan), Vene-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0414-notes_left-L011",
+     "source_line_no": null,
+     "tex": "tiis 1493 et 1519. Prior, typis pluries excusa, a Pla-",
+     "transcription": "tiis 1493 et 1519. Prior, typis pluries excusa, a Pla-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0414-notes_left-L012",
+     "source_line_no": null,
+     "tex": "tone Tiburtino ex Arabico est facta, et ab editori-",
+     "transcription": "tone Tiburtino ex Arabico est facta, et ab editori-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  },
+  {
+   "role": "notes_right",
+   "lines": [
+    {
+     "id": "AB01-PDF0414-notes_right-L001",
+     "source_line_no": null,
+     "tex": "bus Venetis alteri addita; posterior, ut Commenta-",
+     "transcription": "bus Venetis alteri addita; posterior, ut Commenta-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0414-notes_right-L002",
+     "source_line_no": null,
+     "tex": "rius ‘Alī, ex Hispanica lingua ab Aegidio de Tebal-",
+     "transcription": "rius ‘Alī, ex Hispanica lingua ab Aegidio de Tebal-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0414-notes_right-L003",
+     "source_line_no": null,
+     "tex": "dis, iussu Alphonsi X confecta.",
+     "transcription": "dis, iussu Alphonsi X confecta.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0414-notes_right-L004",
+     "source_line_no": null,
+     "tex": "\\Indent (3) \\textit{Liber Mafâtih al–‘olûm auctore} \\Name{Abù ‘Ab-}",
+     "transcription": "(3) *Liber Mafâtih al–‘olûm auctore* {sp:Abù ‘Ab-}",
+     "semantic_anchor": "AB01-PDF0414-N03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0414-notes_right-L005",
+     "source_line_no": null,
+     "tex": "\\Name{dallàh Mohammed ibn Ahmed al-Kho-}",
+     "transcription": "{sp:dallàh Mohammed ibn Ahmed al-Kho-}",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0414-notes_right-L006",
+     "source_line_no": null,
+     "tex": "\\Name{wàrezmì}, \\textit{edidit G. van Vloten}, Lugduni Bata-",
+     "transcription": "{sp:wàrezmì}, *edidit G. van Vloten*, Lugduni Bata-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0414-notes_right-L007",
+     "source_line_no": null,
+     "tex": "vorum 1895, p. 219.",
+     "transcription": "vorum 1895, p. 219.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0414-notes_right-L008",
+     "source_line_no": null,
+     "tex": "\\Indent (4) Index est apud \\Name{Ahlwardt}, \\textit{Verzeichniss}",
+     "transcription": "(4) Index est apud {sp:Ahlwardt}, *Verzeichniss*",
+     "semantic_anchor": "AB01-PDF0414-N04",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0414-notes_right-L009",
+     "source_line_no": null,
+     "tex": "\\textit{der arabischen Handschriften der k. Bibliothek zu}",
+     "transcription": "*der arabischen Handschriften der k. Bibliothek zu*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0414-notes_right-L010",
+     "source_line_no": null,
+     "tex": "\\textit{Berlin}, Berlin 1887-99, t. V, nr. 5751, p. 206,\\textit{a}. —",
+     "transcription": "*Berlin*, Berlin 1887-99, t. V, nr. 5751, p. 206,*a*. —",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0414-notes_right-L011",
+     "source_line_no": null,
+     "tex": "De auctore \\Name{Suter}, p. 83-84, nr. 192.",
+     "transcription": "De auctore {sp:Suter}, p. 83-84, nr. 192.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  }
+ ]
+}
