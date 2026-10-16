@@ -1,0 +1,196 @@
+{
+ "pdf": 395,
+ "printed_page": 306,
+ "comment": [
+  "Nallino, Part I p. 306: Schiaparelli's figure of the quadrature, redrawn from the print: the outer arc A P' B,",
+  "the inner arc A R P B, the ecliptic AB as a straight base, the perpendicular arcs RS and P'Q (through P).",
+  "Measured on the scan (_intake/latin/tools/fig306)."
+ ],
+ "origin": [
+  112.9,
+  348.49
+ ],
+ "scale": 0.99067,
+ "size": [
+  139.5,
+  73.0
+ ],
+ "label_pt": 11,
+ "circles": [],
+ "segments": [
+  {
+   "name": "the base AB (the ecliptic), over its ink",
+   "x0": 121.99,
+   "y0": 410.19,
+   "x1": 245.53,
+   "y1": 410.7,
+   "w": 0.83
+  },
+  {
+   "name": "the arc RS, from the inner arc to the base",
+   "x0": 163.55,
+   "y0": 393.41,
+   "x1": 163.64,
+   "y1": 410.36,
+   "w": 0.95
+  },
+  {
+   "name": "the arc P'Q through P, from the outer arc to the base",
+   "x0": 183.85,
+   "y0": 369.03,
+   "x1": 183.76,
+   "y1": 410.45,
+   "w": 0.89
+  }
+ ],
+ "arcs": [
+  {
+   "name": "the outer arc A P' B",
+   "cx": 184.04,
+   "cy": 434.7,
+   "r": 65.67,
+   "a0": -158.09,
+   "a1": -21.44,
+   "w": 0.97
+  },
+  {
+   "name": "the inner arc A R P B",
+   "cx": 183.51,
+   "cy": 498.41,
+   "r": 106.88,
+   "a0": -124.38,
+   "a1": -55.15,
+   "w": 1.01
+  }
+ ],
+ "labels": [
+  {
+   "t": "\\resizebox{7.84pt}{6.29pt}{P′}",
+   "cx": 185.09,
+   "cy": 362.48,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{6.14pt}{5.77pt}{R}",
+   "cx": 163.21,
+   "cy": 388.04,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{6.32pt}{5.81pt}{A}",
+   "cx": 122.14,
+   "cy": 415.4,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{4.80pt}{5.74pt}{S}",
+   "cx": 162.35,
+   "cy": 415.76,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{5.42pt}{5.44pt}{Q}",
+   "cx": 183.95,
+   "cy": 416.72,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{5.90pt}{5.93pt}{B}",
+   "cx": 243.31,
+   "cy": 416.42,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{5.20pt}{6.29pt}{P}",
+   "cx": 186.87,
+   "cy": 388.64,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  }
+ ],
+ "boxes": {
+  "P′@181,359": [
+   8.52,
+   6.36
+  ],
+  "R@160,385": [
+   6.12,
+   5.88
+  ],
+  "A@119,412": [
+   6.24,
+   5.88
+  ],
+  "S@160,413": [
+   4.56,
+   5.88
+  ],
+  "Q@182,413": [
+   5.04,
+   7.32
+  ],
+  "B@240,413": [
+   5.88,
+   6.0
+  ],
+  "P (faint, set whole)": [
+   5.76,
+   6.36
+  ]
+ },
+ "points": {
+  "outer_A": [
+   123.11,
+   410.2
+  ],
+  "outer_B": [
+   245.17,
+   410.7
+  ],
+  "inner_A": [
+   123.15,
+   410.2
+  ],
+  "inner_B": [
+   244.58,
+   410.7
+  ],
+  "AB_ends": [
+   [
+    121.99,
+    410.19
+   ],
+   [
+    245.53,
+    410.7
+   ]
+  ],
+  "RS_foot": [
+   163.64,
+   410.36
+  ],
+  "RS_top": [
+   163.55,
+   393.41
+  ],
+  "RS_ink": [
+   392.95,
+   410.77
+  ],
+  "PQ_foot": [
+   183.76,
+   410.45
+  ],
+  "PQ_top": [
+   183.85,
+   369.03
+  ],
+  "PQ_ink": [
+   368.59,
+   410.89
+  ],
+  "P": [
+   183.8,
+   391.53
+  ]
+ }
+}

@@ -1,0 +1,212 @@
+{
+ "pdf": 395,
+ "printed_page": 306,
+ "comment": [
+  "Nallino, Part I p. 306: the sextile ray of a planet R with latitude RS: the arc RS perpendicular to the",
+  "ecliptic, the ray RA and the dotted circle about R through A, touching the ecliptic at S, redrawn from the print.",
+  "Measured on the scan (_intake/latin/tools/fig306)."
+ ],
+ "origin": [
+  425.3,
+  571.33
+ ],
+ "scale": 0.99067,
+ "size": [
+  108.0,
+  66.0
+ ],
+ "label_pt": 11,
+ "circles": [],
+ "segments": [
+  {
+   "name": "the arc RS, from its round top at R to the ecliptic at S",
+   "x0": 480.66,
+   "y0": 586.8,
+   "x1": 480.43,
+   "y1": 626.42,
+   "w": 1.11
+  },
+  {
+   "name": "the ray RA, from the dotted circle at A to R",
+   "x0": 449.74,
+   "y0": 610.33,
+   "x1": 480.66,
+   "y1": 587.22,
+   "w": 0.97
+  },
+  {
+   "name": "the ecliptic right of S",
+   "x0": 480.43,
+   "y0": 626.42,
+   "x1": 529.91,
+   "y1": 626.51,
+   "w": 0.99
+  },
+  {
+   "name": "the ecliptic left of S, thinner as printed",
+   "x0": 431.81,
+   "y0": 626.15,
+   "x1": 480.43,
+   "y1": 626.42,
+   "w": 0.6
+  }
+ ],
+ "dots": [
+  {
+   "name": "the round top of RS at R",
+   "cx": 480.66,
+   "cy": 586.8,
+   "r": 0.55
+  }
+ ],
+ "groups": [
+  {
+   "comment": "the dotted circle about R through A, dash by dash",
+   "w": 1.15,
+   "cap": "round",
+   "segs": [
+    [
+     480.56,
+     625.84,
+     476.57,
+     625.58
+    ],
+    [
+     474.79,
+     625.33,
+     473.79,
+     625.16
+    ],
+    [
+     471.69,
+     624.7,
+     470.98,
+     624.52
+    ],
+    [
+     468.79,
+     623.87,
+     467.04,
+     623.25
+    ],
+    [
+     465.15,
+     622.47,
+     463.8,
+     621.84
+    ],
+    [
+     461.9,
+     620.85,
+     457.9,
+     618.3
+    ],
+    [
+     456.05,
+     616.87,
+     454.73,
+     615.73
+    ],
+    [
+     453.29,
+     614.37,
+     451.62,
+     612.61
+    ],
+    [
+     450.23,
+     610.96,
+     449.35,
+     609.81
+    ],
+    [
+     447.82,
+     607.59,
+     446.75,
+     605.82
+    ],
+    [
+     445.61,
+     603.64,
+     444.84,
+     601.98
+    ],
+    [
+     443.94,
+     599.71,
+     443.22,
+     597.49
+    ],
+    [
+     442.62,
+     595.21,
+     442.27,
+     593.53
+    ]
+   ]
+  }
+ ],
+ "labels": [
+  {
+   "t": "\\resizebox{5.66pt}{5.89pt}{R}",
+   "cx": 486.97,
+   "cy": 582.64,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{6.44pt}{6.28pt}{A}",
+   "cx": 442.09,
+   "cy": 610.18,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{4.80pt}{5.74pt}{S}",
+   "cx": 478.41,
+   "cy": 631.78,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  },
+  {
+   "t": "\\resizebox{34.20pt}{6.54pt}{ecliptica}",
+   "cx": 514.9,
+   "cy": 631.75,
+   "font": "\\fontsize{11}{11}\\bfseries\\itshape\\selectfont"
+  }
+ ],
+ "boxes": {
+  "R@484,579": [
+   5.64,
+   6.0
+  ],
+  "A@439,607": [
+   6.36,
+   6.36
+  ],
+  "S@476,629": [
+   4.56,
+   5.88
+  ],
+  "ecliptica@498,627": [
+   33.96,
+   8.82
+  ]
+ },
+ "points": {
+  "R": [
+   480.66,
+   587.22
+  ],
+  "A": [
+   449.74,
+   610.33
+  ],
+  "S": [
+   480.43,
+   626.42
+  ],
+  "circle": [
+   481.14,
+   586.31,
+   39.53
+  ]
+ }
+}
