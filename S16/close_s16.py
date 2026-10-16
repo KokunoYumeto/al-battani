@@ -159,7 +159,10 @@ GAPS = [  # id, scope, gap, exact boundary, in its place, record
      "2 entries of S02/candidate_v009_print001-053/ledgers/unresolved_readings.tsv: S02-v009-U001, a damaged "
      "character at AB01-PDF0140-body-L001 kept as an exact crop; S02-v009-VISUAL, the final visual check of "
      "pp. 44-53 (master PDF 133-142) is not certified by that package",
-     "the reading stands as transcribed, with the crop",
+     "the reading stands as transcribed, with the crop; outside the package, Claude read every line of pp. 44-48 "
+     "(S02/candidate_print044-048/S02_P044_048_CHECK.md) and of pp. 49-53 (S02/candidate_v009_print001-053/"
+     "INDEPENDENT_CHECK_v009.md) against the scan on 2026-09-26; the readings those checks corrected are in the "
+     "edition",
      "S02/candidate_v009_print001-053/ledgers/unresolved_readings.tsv"),
     ("G06", "AB01", "S01's philological reading audit not performed",
      "master PDF 1-89 (S01 v003): S01's status is «SOURCE_REVISED_CANDIDATE; INDEPENDENT_COLD_SOURCE_AUDIT_"
