@@ -57,7 +57,8 @@ Transcription format (UTF-8; one printed line per source line, as printed, with 
                          @posbrace under|over X1 X2 [| X1 X2] horizontal braces between two lines
   @small / @normal       the following lines in small type (9 on 12 pt) / in the type of the text;
                          @fontsize PT LEAD any other size
-  > TEXT                 a continuation line of a hanging paragraph (indented 2.5 em)
+  > TEXT                 a continuation line of a hanging paragraph (indented 2.5 em); >^ TEXT a paragraph that
+                         begins inside a hanging entry (2.5 em and the paragraph indent)
   @mcols W1 W2 ...       columns of short lines side by side (widths as fractions of the text width); @mcnext
                          starts the next column, @mcend closes the block; inside, @chead TEXT is the small bold
                          head of a group and @skip N leaves N lines (N may be 0.5)
@@ -919,7 +920,7 @@ def section(items, prefix, role, numbered):
                     loc, text = mloc.group(1), text[:mloc.start()] + text[mloc.end():]
                 if "{nonum}" in text:
                     nonum, text = True, text.replace(" {nonum}", "").replace("{nonum}", "")
-            src = (text[3:] if kind == "line" and text.startswith(("^^ ", "^+ ")) else
+            src = (text[3:] if kind == "line" and text.startswith(("^^ ", "^+ ", ">^ ")) else
                    text[2:] if kind == "line" and text.startswith(("^ ", "> ")) else text)
             if kind == "verse":  # an Arabic verse: first hemistich | second hemistich, the first set on the right
                 h1, h2 = [h.strip() for h in src.split("|")]
@@ -962,7 +963,11 @@ def section(items, prefix, role, numbered):
             else:
                 tex = markup(src)
             sem = None
-            if kind == "line" and text.startswith("> "):  # a continuation line of a hanging paragraph
+            if kind == "line" and text.startswith(">^ "):  # a paragraph that begins inside a hanging entry
+                tex = r"\hspace*{2.5em}\Indent " + tex
+                par += 1
+                sem = f"{prefix}-P{par:02d}"
+            elif kind == "line" and text.startswith("> "):  # a continuation line of a hanging paragraph
                 tex = r"\hspace*{2.5em}" + tex
             elif kind == "line" and text.startswith(("^ ", "^^ ", "^+ ")):
                 tex = {"^^ ": r"\Indent\Indent ", "^+ ": r"\Indent\hspace*{.8em}"}.get(text[:3], r"\Indent ") + tex

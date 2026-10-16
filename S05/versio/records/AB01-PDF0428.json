@@ -1,0 +1,424 @@
+{
+ "anchor": "AB01-PDF0428",
+ "master_pdf_page": 428,
+ "printed_page": "XI",
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "margin_locators": [],
+ "observations": [
+  "body L1-L3: the head of the Conspectus, «CONSPECTUS» in large capitals and two lines in the capitals of a smaller heavy face, set in bold; the faces are not imitated and each line is scaled to the box of the printed line, as on the title pages. The rule under the head is 63.6 pt long and 0.6 pt thick. The page number XI stands at the right of the head line, over a rule across the measure.",
+  "body L4-L37: each book of the list is a hanging paragraph: the abbreviation stands at the margin and the following lines are indented; paragraphs inside an entry begin with a further indent (L17, L27, L30). The names in letter-spaced roman are those of the author and of the translators, as printed in the titles.",
+  "body L4: the sign = is printed long, 10 pt.",
+  "body L11, L16, L22, L25, L26: «in–4o» has the thin long dash in L11 and L25 (4.9 and 4.3 pt long, 1.1 pt thick) and the hyphen in L16, L22 and L26; the o is raised. The plus signs of «32+586» and «18+410» are printed large, their bars reaching below the baseline.",
+  "body L27: «Abū ’l-ḥasan ‘Alī ibn Abī ’r-Riǵāl» is letter-spaced; the dot under the h of «ḥasan» prints joined to the letter.",
+  "body L33-L34: the Arabic of the Paris codex: «على ما ذكر» stands at the end of L33 and «حٮس فى رٮحه» at the beginning of L34, read on the scan at 1200 dpi and more. The last two words are printed without their dots, the name with ḥā, a tooth without dots and a final sīn (Ḥabash, as the codex writes it), the last word with rā, a tooth without dots, ḥā and hā (zījihi, «in his tables»); they are transcribed so (ٮ, the dotless tooth, as on p. V). A speck stands over the end of the name (0.6 pt², against 1.4-1.8 pt² for the dots of the type). The fā of «فى» prints with its dot joined to its head.",
+  "body L35: «Habix» and «Ḥabash» are letter-spaced."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0428-body-L001",
+     "source_line_no": null,
+     "tex": "\\CenterLine{\\LFit{150.75pt}{15.97pt}{CONSPECTUS}}",
+     "transcription": "CONSPECTUS",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0428-body-L002",
+     "source_line_no": null,
+     "tex": "\\CenterLine{\\LFit{368.32pt}{8.59pt}{\\textbf{LIBRORUM ORIENTALIUM QUI HOC SOLO SECUNDO TOMO}}}",
+     "transcription": "{b:LIBRORUM ORIENTALIUM QUI HOC SOLO SECUNDO TOMO}",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0428-body-L003",
+     "source_line_no": null,
+     "tex": "\\CenterLine{\\LFit{228.19pt}{8.44pt}{\\textbf{NOTIS COMPENDIARIIS INDICANTUR}}}",
+     "transcription": "{b:NOTIS COMPENDIARIIS INDICANTUR}",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0428-body-L004",
+     "source_line_no": null,
+     "tex": "\\Name{Albohazen} = \\Name{Albohazen Haly filii Abenragel}, \\textit{scriptoris Arabici, de iudiciis}",
+     "transcription": "{sp:Albohazen} = {sp:Albohazen Haly filii Abenragel}, *scriptoris Arabici, de iudiciis*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0428-body-L005",
+     "source_line_no": null,
+     "tex": "\\hspace*{2.5em}\\textit{astrorum libri octo, doctorum aliquot virorum opera in latinum sermonem conversi,}",
+     "transcription": "*astrorum libri octo, doctorum aliquot virorum opera in latinum sermonem conversi,*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0428-body-L006",
+     "source_line_no": null,
+     "tex": "\\hspace*{2.5em}\\textit{postremo autem summa cura et diligenti studio a barbarie vindicati et puritati lin-}",
+     "transcription": "*postremo autem summa cura et diligenti studio a barbarie vindicati et puritati lin-*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0428-body-L007",
+     "source_line_no": null,
+     "tex": "\\hspace*{2.5em}\\textit{guae donati, per Antonium Stupam Rhaetum Praegalliensem. Accessit huic operi}",
+     "transcription": "*guae donati, per Antonium Stupam Rhaetum Praegalliensem. Accessit huic operi*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0428-body-L008",
+     "source_line_no": null,
+     "tex": "\\hspace*{2.5em}\\textit{hac demum editione, Compendium duodecim domorum caelestium, ex clarissimis}",
+     "transcription": "*hac demum editione, Compendium duodecim domorum caelestium, ex clarissimis*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0428-body-L009",
+     "source_line_no": null,
+     "tex": "\\hspace*{2.5em}\\textit{et vetustissimis authoribus, scilicet, Messahalla, Aomare, Alkindo, Zaele, Albenait,}",
+     "transcription": "*et vetustissimis authoribus, scilicet, Messahalla, Aomare, Alkindo, Zaele, Albenait,*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0428-body-L010",
+     "source_line_no": null,
+     "tex": "\\hspace*{2.5em}\\textit{Dorotheo, Iergi, Aristotele et Ptolemaeo collectum ... authore Petro Liechtenstein} (1).",
+     "transcription": "*Dorotheo, Iergi, Aristotele et Ptolemaeo collectum ... authore Petro Liechtenstein* (1).",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0428-body-L011",
+     "source_line_no": null,
+     "tex": "\\hspace*{2.5em}Basileae 1571, in–4\\textsuperscript{o}, 32+586 pp. — Prioribus 410 paginis liber Albohazen continetur,",
+     "transcription": "Basileae 1571, in–4{sup:o}, 32+586 pp. — Prioribus 410 paginis liber Albohazen continetur,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0428-body-L012",
+     "source_line_no": null,
+     "tex": "\\hspace*{2.5em}quae (litteris tamen minus nitidis ac numeris paginarum minoribus) ad amussim quadrant",
+     "transcription": "quae (litteris tamen minus nitidis ac numeris paginarum minoribus) ad amussim quadrant",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0428-body-L013",
+     "source_line_no": null,
+     "tex": "\\hspace*{2.5em}paginis editionis prioris: \\Name{Albohazen Haly filii Abenragel} \\textit{libri de iudiciis astro-}",
+     "transcription": "paginis editionis prioris: {sp:Albohazen Haly filii Abenragel} *libri de iudiciis astro-*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0428-body-L014",
+     "source_line_no": null,
+     "tex": "\\hspace*{2.5em}\\textit{rum, summa cura et diligenti studio de extrema barbarie vindicati, ac latinitati}",
+     "transcription": "*rum, summa cura et diligenti studio de extrema barbarie vindicati, ac latinitati*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0428-body-L015",
+     "source_line_no": null,
+     "tex": "\\hspace*{2.5em}\\textit{donati, per Antonium Stupam Rhaetum Praegalliensem. Additus est huic authori}",
+     "transcription": "*donati, per Antonium Stupam Rhaetum Praegalliensem. Additus est huic authori*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0428-body-L016",
+     "source_line_no": null,
+     "tex": "\\hspace*{2.5em}\\textit{Index capitum singularium octo partium, seu librorum.} Basileae 1551, in-4\\textsuperscript{o}, 18+410 pp.",
+     "transcription": "*Index capitum singularium octo partium, seu librorum.* Basileae 1551, in-4{sup:o}, 18+410 pp.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0428-body-L017",
+     "source_line_no": null,
+     "tex": "\\hspace*{2.5em}\\Indent Expoliverat enim Stupa barbarum sermonem versionis Latinae circa annum 1256 ex",
+     "transcription": "Expoliverat enim Stupa barbarum sermonem versionis Latinae circa annum 1256 ex",
+     "semantic_anchor": "AB01-PDF0428-P01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0428-body-L018",
+     "source_line_no": null,
+     "tex": "\\hspace*{2.5em}Hispanico factae ab \\Name{Aegidio de Tebaldis} et \\Name{Petro de Regio}; quae primo typis",
+     "transcription": "Hispanico factae ab {sp:Aegidio de Tebaldis} et {sp:Petro de Regio}; quae primo typis",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0428-body-L019",
+     "source_line_no": null,
+     "tex": "\\hspace*{2.5em}expressa prodiit ita inscripta: \\textit{Praeclarissimus liber completus in iudiciis astrorum:}",
+     "transcription": "expressa prodiit ita inscripta: *Praeclarissimus liber completus in iudiciis astrorum:*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0428-body-L020",
+     "source_line_no": null,
+     "tex": "\\hspace*{2.5em}\\textit{quem edidit} \\Name{Albohazen Haly}, \\Name{filius Abenragel}. \\textit{Finit feliciter liber ... bene}",
+     "transcription": "*quem edidit* {sp:Albohazen Haly}, {sp:filius Abenragel}. *Finit feliciter liber ... bene*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0428-body-L021",
+     "source_line_no": null,
+     "tex": "\\hspace*{2.5em}\\textit{revisus et fideli studio emendatus per dominum Bartholomeum de Alten de Nursia.}",
+     "transcription": "*revisus et fideli studio emendatus per dominum Bartholomeum de Alten de Nursia.*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0428-body-L022",
+     "source_line_no": null,
+     "tex": "\\hspace*{2.5em}\\textit{Impressus est arte et impensis Erhardi Ratdolt de Augusta} 1485. Venetiis; in-4\\textsuperscript{o}.",
+     "transcription": "*Impressus est arte et impensis Erhardi Ratdolt de Augusta* 1485. Venetiis; in-4{sup:o}.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0428-body-L023",
+     "source_line_no": null,
+     "tex": "\\hspace*{2.5em}Huic altera subsecuta erat editio: \\textit{Praeclarissimus in iudiciis astrorum} \\Name{Albohazen}",
+     "transcription": "Huic altera subsecuta erat editio: *Praeclarissimus in iudiciis astrorum* {sp:Albohazen}",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0428-body-L024",
+     "source_line_no": null,
+     "tex": "\\hspace*{2.5em}\\Name{Haly filius Abenragel} \\textit{noviter impressus et fideliter emendatus}, Venetiis 1503,",
+     "transcription": "{sp:Haly filius Abenragel} *noviter impressus et fideliter emendatus*, Venetiis 1503,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0428-body-L025",
+     "source_line_no": null,
+     "tex": "\\hspace*{2.5em}in–4\\textsuperscript{o}, 98 foll. Tertia editio: \\Name{Albohazen Haly filius Abenragel} \\textit{in iudiciis}",
+     "transcription": "in–4{sup:o}, 98 foll. Tertia editio: {sp:Albohazen Haly filius Abenragel} *in iudiciis*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0428-body-L026",
+     "source_line_no": null,
+     "tex": "\\hspace*{2.5em}\\textit{astrorum, noviter impressus et emendatus}, Venetiis 1523, in-4\\textsuperscript{o}, 84 foll.",
+     "transcription": "*astrorum, noviter impressus et emendatus*, Venetiis 1523, in-4{sup:o}, 84 foll.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0428-body-L027",
+     "source_line_no": null,
+     "tex": "\\hspace*{2.5em}\\Indent Auctor, \\Name{Abū ’l-ḥasan ‘Alī ibn Abī ’r-Riǵāl}, opus composuit haud ante 428",
+     "transcription": "Auctor, {sp:Abū ’l-ḥasan ‘Alī ibn Abī ’r-Riǵāl}, opus composuit haud ante 428",
+     "semantic_anchor": "AB01-PDF0428-P02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0428-body-L028",
+     "source_line_no": null,
+     "tex": "\\hspace*{2.5em}heg. (inc. 24 Oct. 1036) nec post 454 (inc. 14 Ian. 1062); v. \\Name{Suter}, p. 100, 214, eius-",
+     "transcription": "heg. (inc. 24 Oct. 1036) nec post 454 (inc. 14 Ian. 1062); v. {sp:Suter}, p. 100, 214, eius-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0428-body-L029",
+     "source_line_no": null,
+     "tex": "\\hspace*{2.5em}demque \\textit{Nachträge} 172-73; item \\Name{Baldi} extr. p. 63, 68, 91-93.",
+     "transcription": "demque *Nachträge* 172-73; item {sp:Baldi} extr. p. 63, 68, 91-93.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0428-body-L030",
+     "source_line_no": null,
+     "tex": "\\hspace*{2.5em}\\Indent Geographica sumpsi ex 37\\textsuperscript{o} capite libri VIII (p. 406-08 edd. Basil.), quo longitudines",
+     "transcription": "Geographica sumpsi ex 37{sup:o} capite libri VIII (p. 406-08 edd. Basil.), quo longitudines",
+     "semantic_anchor": "AB01-PDF0428-P03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0428-body-L031",
+     "source_line_no": null,
+     "tex": "\\hspace*{2.5em}et latitudines praecipuarum urbium, per septem climata distributarum, praebentur « se-",
+     "transcription": "et latitudines praecipuarum urbium, per septem climata distributarum, praebentur « se-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0428-body-L032",
+     "source_line_no": null,
+     "tex": "\\hspace*{2.5em}« cundum quod tradidit \\Name{Harix}, incipiens in suis tabulis ab occidente » i. e. a meridiano",
+     "transcription": "« cundum quod tradidit {sp:Harix}, incipiens in suis tabulis ab occidente » i. e. a meridiano",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0428-body-L033",
+     "source_line_no": null,
+     "tex": "\\hspace*{2.5em}littoris Africani occidentalis. Textus \\textit{Arabicus} (cod. Paris. nr. 2590, fol. 349,v. \\ArabicRun{على ما ذكر}",
+     "transcription": "littoris Africani occidentalis. Textus *Arabicus* (cod. Paris. nr. 2590, fol. 349,v. {ar:على ما ذكر}",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0428-body-L034",
+     "source_line_no": null,
+     "tex": "\\hspace*{2.5em}\\ArabicRun{حٮس فى رٮحه}) ostendit hunc Harix, de quo a nonnullis falsae coniecturae propositae erant,",
+     "transcription": "{ar:حٮس فى رٮحه}) ostendit hunc Harix, de quo a nonnullis falsae coniecturae propositae erant,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0428-body-L035",
+     "source_line_no": null,
+     "tex": "\\hspace*{2.5em}esse ex \\Name{Habix} i. e. \\Name{Ḥabash} corruptum. Adeo neglegenter exaratum est hoc caput in",
+     "transcription": "esse ex {sp:Habix} i. e. {sp:Ḥabash} corruptum. Adeo neglegenter exaratum est hoc caput in",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0428-body-L036",
+     "source_line_no": null,
+     "tex": "\\hspace*{2.5em}codice \\textit{Arabico Parisiensi}, ut nullam ex eo utilitatem capiendam existimaverim; ver-",
+     "transcription": "codice *Arabico Parisiensi*, ut nullam ex eo utilitatem capiendam existimaverim; ver-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0428-body-L037",
+     "source_line_no": null,
+     "tex": "\\hspace*{2.5em}sione igitur \\textit{Latina} solummodo nisus sum, cuius Basileenses editiones in hoc capite nul-",
+     "transcription": "sione igitur *Latina* solummodo nisus sum, cuius Basileenses editiones in hoc capite nul-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  },
+  {
+   "role": "notes",
+   "lines": [
+    {
+     "id": "AB01-PDF0428-notes-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (1) Haec altera pars anno 1509 a Liechtenstein edita erat; sed, \\textit{Liber novem iudicum} inscripta, iam",
+     "transcription": "(1) Haec altera pars anno 1509 a Liechtenstein edita erat; sed, *Liber novem iudicum* inscripta, iam",
+     "semantic_anchor": "AB01-PDF0428-N01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0428-notes-L002",
+     "source_line_no": null,
+     "tex": "XIII saeculo nota.",
+     "transcription": "XIII saeculo nota.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  }
+ ]
+}
