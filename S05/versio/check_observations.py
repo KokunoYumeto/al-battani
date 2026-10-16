@@ -18,6 +18,7 @@ def plain(s):
         if t == s:
             break
         s = t
+    s = re.sub(r"\{gap:[\d.]+\}", " ", s)
     s = re.sub(r"\{sfrac:([^/}]+)/([^}]+)\}", r"\1/\2", s)
     return s.replace("*", "").replace("~", "")
 

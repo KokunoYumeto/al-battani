@@ -98,6 +98,7 @@ sign of the tables, {AR} the sign of right ascension (the A and the R joined on 
 T pt above the baseline of the line it is written on, {vrule2} a thin vertical rule over two lines (written
 on the first), {vrule:L:T} a thin vertical rule L pt long whose top is T pt above the baseline,
 {lost:MM} print lost in the master scan (p. 275, a corner of the leaf), shown as a light grey bar MM mm long,
+{gap:PT} a space PT pt wide (also inside {ar:...}: the wide spaces of an Arabic quotation),
 {ar:...} an Arabic phrase with its own brackets and punctuation, set as one right-to-left run
 (a Latin word inside it, as codd. or add., stands in its place in the run in the roman type, a Latin word with Arabic-Indic numerals after it, as aut ٩١٣, as one left-to-right group; {syr:...} the same
 for Syriac), {rtl:...} a phrase of Arabic numerals and Latin words that the print sets right to
@@ -253,6 +254,8 @@ def markup(s):
         keep.append(r"\textsyriac{" + m.group(1) + "}")
         return f"{len(keep) - 1}"
 
+    # {gap:PT}: a space PT pt wide, kept through the Arabic runs as a placeholder of digits
+    s = re.sub(r"\{gap:(\d+(?:\.\d+)?)\}", lambda m: "\uE007" + m.group(1) + "\uE008", s)
     s = re.sub(r"\{ar:([^}]*)\}", stash, s)
     s = re.sub(r"\{rtl:([^}]*)\}", stash_rtl, s)
     s = re.sub(r"\{syr:([^}]*)\}", stash_syr, s)
@@ -302,6 +305,7 @@ def markup(s):
         s = s.replace(sign, r"{\MoonFont " + sign + "}")
     s = s.replace("\uE001", r"\AbjadZero{}").replace("\uE002", "*")
     s = re.sub("\uE003(\\d+)\uE004", lambda m: keep[int(m.group(1))], s)
+    s = re.sub("\uE007(\\d+(?:\\.\\d+)?)\uE008", lambda m: r"\hspace{" + m.group(1) + "pt}", s)
     return rotate_heads(s)
 
 
