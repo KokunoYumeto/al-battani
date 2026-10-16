@@ -23,6 +23,8 @@ Printed forms that differ from the expected word are kept and described in `@obs
 
 Each page is read from enlarged images of the master scan, with every vowel sign, hamza, sukun and bar measured. The reading is compared letter by letter with the scan's text layer and with Tesseract 5 (Arabic model), and every word that neither confirms is checked on the scan. Sweeps then compare what the transcription expects with what is measured on the page: the hamza sorts, the sukuns, the dots letter by letter, and the kasras under the lines; every place where they differ is looked at, the doubtful ones in both copies. Sheets set every signed word, every word that ends in yā' and every printed line beside the same word or line of the built edition. Nallino's corrigenda give readings for seven places on pp. 154–217 (p. 154, line 10; p. 176, line 12; p. 198, lines 8, 15, 16 and 22; p. 217, line 18); each is compared when its page is made, and the printed form is kept. The transcription is AI-integrated work; no person has reviewed it.
 
+**The emendanda printed in Part II.** The Emendanda to the third volume printed in the front matter of Part II (pp. XXX–XXXI) that concern these pages are recorded as observations on the pages they concern, and every entry is routed in [S05/versio/corrigenda_routing.tsv](../../S05/versio/corrigenda_routing.tsv); the printed text is kept.
+
 ## Credits
 
 - al-Battānī: the text.

@@ -40,6 +40,8 @@ The transcription is complete: pp. 319–358, from the title page of the glossar
 - A reversed apostrophe (head on top, tail down to the right) is transcribed ‛ where it is printed: for the hamza of al-Bannā‛ and as the closing mark of an Arabic quotation (p. 345). The ordinary apostrophe ’ has its tail down to the left.
 - A reading that departs from what one expects is kept as printed and described in the page record (for example «دراع» printed without the dot of dhāl on p. 319).
 
+**The addenda of Part II.** The Addenda et emendanda printed in the front matter of Part II (p. XXX) that concern these pages are recorded as observations on the pages they concern, with what was checked, and every entry is routed in [S05/versio/corrigenda_routing.tsv](../../S05/versio/corrigenda_routing.tsv); the printed text is kept.
+
 ## Rebuild
 
 ```

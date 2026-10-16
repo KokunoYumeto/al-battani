@@ -37,6 +37,8 @@ The edition is diplomatic and line-anchored: every printed line is one line of t
 
 Each page is transcribed from images of the master scan; the text layer of the scan serves only as a first draft and for the positions of the lines. Numbers, Arabic, Greek, dashes and doubtful marks are read on enlarged images (600 dpi and more). After the build, every printed line is set above the same line of the built edition and the two are compared, line by line, for the whole page.
 
+**The addenda of Part II.** The Addenda et emendanda printed in the front matter of Part II (pp. XVI–XXVII) that concern these pages are recorded as observations on the pages they concern, with what was checked, and every entry is routed in [S05/versio/corrigenda_routing.tsv](../../S05/versio/corrigenda_routing.tsv); the printed text is kept.
+
 ## Rebuild
 
 ```

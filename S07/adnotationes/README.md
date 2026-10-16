@@ -28,6 +28,8 @@ The transcription covers all of the notes, from the half-title (p. 189) to the o
 - The rule over the footnotes is printed 115 points (40.6 mm) long and centred; the edition sets it so.
 - A reading that departs from what one expects is kept as printed and described in the page record. An observation names the line or lines it concerns; `check_observations.py` reports the quoted words that stand on another line of the page. Its five remaining reports quote the context of the observation (for example «5° 2/3», named as the fraction printed before «11° 2/8»).
 
+**The addenda of Part II.** The Addenda et emendanda printed in the front matter of Part II (pp. XXVII–XXX) that concern these pages are recorded as observations on the pages they concern, with what was checked, and every entry is routed in [S05/versio/corrigenda_routing.tsv](../../S05/versio/corrigenda_routing.tsv); the printed text is kept.
+
 ## Rebuild
 
 ```
