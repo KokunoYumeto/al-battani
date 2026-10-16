@@ -1,0 +1,510 @@
+{
+ "anchor": "AB01-PDF0375",
+ "master_pdf_page": 375,
+ "printed_page": 286,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "margin_locators": [],
+ "observations": [
+  "body L1-L4: the h of «1ʰ» and «2ʰ» is a raised italic h; one hour of time is 15° of hour angle, as printed. A heavy bracket closes the addition begun on p. 285, L37; the dash before «Schiaparelli» measures 10.2 pt.",
+  "body L5-L8: «Oloug Beg» is letter-spaced. With 12° for the first magnitude and steps of 2°, the sixth has 12° + 5 · 2° = 22°, as printed.",
+  "body L9-L11: the head of the chapter is set in the larger type, as printed. The a of «a)» prints damaged, with a speck inside it; the dash after it measures 10.1 pt. A blot covers the e of «Ptolemaeum» (L11).",
+  "body L15, L20-L24, L31: «Ptolemaeo», «‘Alī Qūshǵī», «Delambre», «al–Battānī» and «al–Farghānī» (L24) and «Ptolemaeus» are letter-spaced, and so is the quotation's «Ptole-maeus» (L24-L25); «al–Battānī» (L1) and «al–Baṣrah» (L22) are not. The long dashes measure 5.4 pt (L1, L24) and 5.3 pt (L22, «al–Baṣrah» and «aṣ–ṣafā’»).",
+  "body L27: the dash before «Quod» measures 10.1 pt.",
+  "body L33-L35: «al–Farghānī» (L33, long dash 4.6 pt) and «Ibn Rosteh» are letter-spaced; the dashes of «81–82» and «18–20» measure 5.3 pt each. A speck stands on the baseline after «3818» (L35), like a full stop, though the sentence runs on. The year 301 of the Hiǵrah began on 6 August 913 by the astronomical epoch of the tabular calendar (7 August by the civil epoch). Nallino's addenda (Part I, p. LXXV-LXXVI) find Ibn Rosteh's numbers, given on p. 287, in Thābit ibn Qurrah's booklet on the exposition of the Almagest; see the record of p. 287.",
+  "notes_left L2-L5: «Ibn Yūnus», «Delambre», «Alhazen» and «Ibn al-Haytham» are letter-spaced; the dash before «Alhazen» measures 7.7 pt and the hyphen of «al-Haytham» 3.2 pt. The rule between the two columns of the notes prints only beside the first line.",
+  "notes_right L1-L6: «Dieterici» is letter-spaced; «27-28» has a hyphen (3.1 pt). With the mile of 1973 m, al-Farghānī's radius of the Earth of 3250 miles (body L34) is 6412 km."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0375-body-L001",
+     "source_line_no": null,
+     "tex": "a rudibus calculis et observationibus provenire; scilicet Arabes ante al–Battānī statuisse si-",
+     "transcription": "a rudibus calculis et observationibus provenire; scilicet Arabes ante al–Battānī statuisse si-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0375-body-L002",
+     "source_line_no": null,
+     "tex": "dera primae magnitudinis apparere 1\\textsuperscript{\\textit{h}} ($=$ 15°) ante ortum Solis et 1\\textsuperscript{\\textit{h}} post Solis occasum, sidera",
+     "transcription": "dera primae magnitudinis apparere 1{sup:*h*} ($=$ 15°) ante ortum Solis et 1{sup:*h*} post Solis occasum, sidera",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0375-body-L003",
+     "source_line_no": null,
+     "tex": "autem sextae magnitudinis 2\\textsuperscript{\\textit{h}} ($=$ 30°) ante ortum et post occasum Solis. Intra hos limites",
+     "transcription": "autem sextae magnitudinis 2{sup:*h*} ($=$ 30°) ante ortum et post occasum Solis. Intra hos limites",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0375-body-L004",
+     "source_line_no": null,
+     "tex": "reliqui ordines magnitudinis stellarum collocari ordinatim. — \\textsc{Schiaparelli}.]",
+     "transcription": "reliqui ordines magnitudinis stellarum collocari ordinatim. — {sc:Schiaparelli}.]",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0375-body-L005",
+     "source_line_no": null,
+     "tex": "\\Indent \\Name{Oloug Beg} p. 143 text., 193 vers., \\textit{depressionem} Solis sub horizonte considerat; eam",
+     "transcription": "{sp:Oloug Beg} p. 143 text., 193 vers., *depressionem* Solis sub horizonte considerat; eam",
+     "semantic_anchor": "AB01-PDF0375-P01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0375-body-L006",
+     "source_line_no": null,
+     "tex": "12° circiter pro stellis primae magnitudinis supputat, 14° pro stellis secundae, et hoc modo,",
+     "transcription": "12° circiter pro stellis primae magnitudinis supputat, 14° pro stellis secundae, et hoc modo,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0375-body-L007",
+     "source_line_no": null,
+     "tex": "cum regulari incremento 2° in subsequentibus ordinibus, 22° pro stellis sextae magnitudinis",
+     "transcription": "cum regulari incremento 2° in subsequentibus ordinibus, 22° pro stellis sextae magnitudinis",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0375-body-L008",
+     "source_line_no": null,
+     "tex": "statuit. Addit hoc verum esse in stellis quae prope eclipticam sunt (1).",
+     "transcription": "statuit. Addit hoc verum esse in stellis quae prope eclipticam sunt (1).",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0375-body-L009",
+     "source_line_no": null,
+     "tex": "\\CenterLine{A\\textsc{d} \\textsc{caput} L.}",
+     "transcription": "A{sc:d} {sc:caput} L.",
+     "semantic_anchor": "AB01-PDF0375-H09",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0375-body-L010",
+     "source_line_no": null,
+     "tex": "\\CenterLine{\\textbf{\\textit{a}}) — \\textit{Pag. 120, l. 18.}}",
+     "transcription": "{bi:a}) — *Pag. 120, l. 18.*",
+     "semantic_anchor": "AB01-PDF0375-H10",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0375-body-L011",
+     "source_line_no": null,
+     "tex": "\\Indent \\textit{Distantiae planetarum a Terra} « iuxta ea quae recentiores sapientes \\textit{post} Ptolemaeum",
+     "transcription": "*Distantiae planetarum a Terra* « iuxta ea quae recentiores sapientes *post* Ptolemaeum",
+     "semantic_anchor": "AB01-PDF0375-P02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0375-body-L012",
+     "source_line_no": null,
+     "tex": "« longo labore statuerunt ».",
+     "transcription": "« longo labore statuerunt ».",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0375-body-L013",
+     "source_line_no": null,
+     "tex": "\\Indent Codex, ut suo loco monui, « ante » habet, quod cum verbis « recentiores sapientes » male",
+     "transcription": "Codex, ut suo loco monui, « ante » habet, quod cum verbis « recentiores sapientes » male",
+     "semantic_anchor": "AB01-PDF0375-P03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0375-body-L014",
+     "source_line_no": null,
+     "tex": "componitur. Dubitatio autem facile dirimitur si consideremus fundamenta omnium horum cal-",
+     "transcription": "componitur. Dubitatio autem facile dirimitur si consideremus fundamenta omnium horum cal-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0375-body-L015",
+     "source_line_no": null,
+     "tex": "culorum esse excentricitates et magnitudines epicyclorum a \\Name{Ptolemaeo} definitas, ut ex",
+     "transcription": "culorum esse excentricitates et magnitudines epicyclorum a {sp:Ptolemaeo} definitas, ut ex",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0375-body-L016",
+     "source_line_no": null,
+     "tex": "adn. \\textbf{\\textit{b}} patebit.",
+     "transcription": "adn. {bi:b} patebit.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0375-body-L017",
+     "source_line_no": null,
+     "tex": "\\Indent Haec distantiarum theoria nititur principio sphaeras septem planetarum contiguas esse et",
+     "transcription": "Haec distantiarum theoria nititur principio sphaeras septem planetarum contiguas esse et",
+     "semantic_anchor": "AB01-PDF0375-P04",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0375-body-L018",
+     "source_line_no": null,
+     "tex": "nullo intervallo ab alteris disiunctas; qua re minimam distantiam planetae superioris aequari",
+     "transcription": "nullo intervallo ab alteris disiunctas; qua re minimam distantiam planetae superioris aequari",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0375-body-L019",
+     "source_line_no": null,
+     "tex": "maximae planetae statim inferioris. Quod principium ab omnibus mihi notis Arabicis astro-",
+     "transcription": "maximae planetae statim inferioris. Quod principium ab omnibus mihi notis Arabicis astro-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0375-body-L020",
+     "source_line_no": null,
+     "tex": "nomis receptum est; ipso XV saec. Chr. apud Persicum scriptorem \\Name{‘Alī Qūshǵī} invenitur",
+     "transcription": "nomis receptum est; ipso XV saec. Chr. apud Persicum scriptorem {sp:‘Alī Qūshǵī} invenitur",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0375-body-L021",
+     "source_line_no": null,
+     "tex": "(ap. \\Name{Delambre} p. 198). Disputatio philosophica est in epistulis quas X saec. Chr. in urbe",
+     "transcription": "(ap. {sp:Delambre} p. 198). Disputatio philosophica est in epistulis quas X saec. Chr. in urbe",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0375-body-L022",
+     "source_line_no": null,
+     "tex": "al–Baṣrah de diversis scientiis scripserunt viri \\textit{Ikhwān aṣ–ṣafā’} « socii fideles » appellati,",
+     "transcription": "al–Baṣrah de diversis scientiis scripserunt viri *Ikhwān aṣ–ṣafā’* « socii fideles » appellati,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0375-body-L023",
+     "source_line_no": null,
+     "tex": "quorum doctrina tam ab Aristotele quam a Neopythagoricis et Neoplatonicis proveniebat (2).",
+     "transcription": "quorum doctrina tam ab Aristotele quam a Neopythagoricis et Neoplatonicis proveniebat (2).",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0375-body-L024",
+     "source_line_no": null,
+     "tex": "\\Indent Iam ante \\Name{al–Battānī} haec narrat \\Name{al–Farghānī} cap. XXI, p. 80 ed. Golii: « \\Name{Ptole-}",
+     "transcription": "Iam ante {sp:al–Battānī} haec narrat {sp:al–Farghānī} cap. XXI, p. 80 ed. Golii: « {sp:Ptole-}",
+     "semantic_anchor": "AB01-PDF0375-P05",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0375-body-L025",
+     "source_line_no": null,
+     "tex": "« \\Name{maeus} quidem in libro suo exposuit quanta sit distantia duntaxat Solis et Lunae; neque",
+     "transcription": "« {sp:maeus} quidem in libro suo exposuit quanta sit distantia duntaxat Solis et Lunae; neque",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0375-body-L026",
+     "source_line_no": null,
+     "tex": "« comperimus quicquam ab illo proditum de distantiis siderum reliquorum, nisi quod docuerit",
+     "transcription": "« comperimus quicquam ab illo proditum de distantiis siderum reliquorum, nisi quod docuerit",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0375-body-L027",
+     "source_line_no": null,
+     "tex": "« quantum dissideant centra orbium a centro Terrae, quantique sint orbes epicycli. — Quod",
+     "transcription": "« quantum dissideant centra orbium a centro Terrae, quantique sint orbes epicycli. — Quod",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0375-body-L028",
+     "source_line_no": null,
+     "tex": "« igitur si ponamus distantiam Lunae, respectu utriusque simul orbis (excentrici et epicycli),",
+     "transcription": "« igitur si ponamus distantiam Lunae, respectu utriusque simul orbis (excentrici et epicycli),",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0375-body-L029",
+     "source_line_no": null,
+     "tex": "« remotissimam esse eandem cum distantia Mercurii proxima, et eadem ratione utamur ut",
+     "transcription": "« remotissimam esse eandem cum distantia Mercurii proxima, et eadem ratione utamur ut",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0375-body-L030",
+     "source_line_no": null,
+     "tex": "« diximus; procedentes similiter in Mercurio et Venere, inveniemus summam Veneris in utroque",
+     "transcription": "« diximus; procedentes similiter in Mercurio et Venere, inveniemus summam Veneris in utroque",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0375-body-L031",
+     "source_line_no": null,
+     "tex": "« simul orbe distantiam aequari Solis distantiae minimae, quam explicuit \\Name{Ptolemaeus}. Cu-",
+     "transcription": "« simul orbe distantiam aequari Solis distantiae minimae, quam explicuit {sp:Ptolemaeus}. Cu-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0375-body-L032",
+     "source_line_no": null,
+     "tex": "« ius rei indicium ex eo capimus, quod inter orbes nihil est vacui ».",
+     "transcription": "« ius rei indicium ex eo capimus, quod inter orbes nihil est vacui ».",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0375-body-L033",
+     "source_line_no": null,
+     "tex": "\\Indent Addit postea \\Name{al–Farghānī}, p. 81–82, distantias in radiis Terrae et in milliariis Arabicis,",
+     "transcription": "Addit postea {sp:al–Farghānī}, p. 81–82, distantias in radiis Terrae et in milliariis Arabicis,",
+     "semantic_anchor": "AB01-PDF0375-P06",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0375-body-L034",
+     "source_line_no": null,
+     "tex": "radio Terrae 3250 milliariorum (3) sumpto. Numeros aliquantum diversos exhibet, ante annum",
+     "transcription": "radio Terrae 3250 milliariorum (3) sumpto. Numeros aliquantum diversos exhibet, ante annum",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0375-body-L035",
+     "source_line_no": null,
+     "tex": "301 heg. (inc. 6 Aug. 913), \\Name{Ibn Rosteh} p. 18–20, qui Terrae radium 3818 milliariorum",
+     "transcription": "301 heg. (inc. 6 Aug. 913), {sp:Ibn Rosteh} p. 18–20, qui Terrae radium 3818 milliariorum",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    }
+   ]
+  },
+  {
+   "role": "notes_left",
+   "lines": [
+    {
+     "id": "AB01-PDF0375-notes_left-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (1) Apud reliquos astronomos Arabicos editos",
+     "transcription": "(1) Apud reliquos astronomos Arabicos editos",
+     "semantic_anchor": "AB01-PDF0375-N01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0375-notes_left-L002",
+     "source_line_no": null,
+     "tex": "nihil invenio. De \\Name{Ibn Yūnus}, \\Name{Delambre} p. 112",
+     "transcription": "nihil invenio. De {sp:Ibn Yūnus}, {sp:Delambre} p. 112",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0375-notes_left-L003",
+     "source_line_no": null,
+     "tex": "tantum ait: « Chap. XVI. Durée du crepuscule. Abais-",
+     "transcription": "tantum ait: « Chap. XVI. Durée du crepuscule. Abais-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0375-notes_left-L004",
+     "source_line_no": null,
+     "tex": "« sement 18°. Rien de neuf ». — \\Name{Alhazen} ($=$ \\Name{Ibn}",
+     "transcription": "« sement 18°. Rien de neuf ». — {sp:Alhazen} ($=$ {sp:Ibn}",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0375-notes_left-L005",
+     "source_line_no": null,
+     "tex": "\\Name{al-Haytham}), \\textit{De crepusculis,} nonnisi profundi-",
+     "transcription": "{sp:al-Haytham}), *De crepusculis,* nonnisi profundi-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0375-notes_left-L006",
+     "source_line_no": null,
+     "tex": "tatem 19° Solis in fine crepusculi indicat.",
+     "transcription": "tatem 19° Solis in fine crepusculi indicat.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  },
+  {
+   "role": "notes_right",
+   "lines": [
+    {
+     "id": "AB01-PDF0375-notes_right-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (2) \\Name{Dieterici}, \\textit{Die Naturanschauung und}",
+     "transcription": "(2) {sp:Dieterici}, *Die Naturanschauung und*",
+     "semantic_anchor": "AB01-PDF0375-N02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0375-notes_right-L002",
+     "source_line_no": null,
+     "tex": "\\textit{Naturphilosophie der Araber im zehnten Jahrhun-}",
+     "transcription": "*Naturphilosophie der Araber im zehnten Jahrhun-*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0375-notes_right-L003",
+     "source_line_no": null,
+     "tex": "\\textit{dert, aus den Schriften der lautern Brüder über-}",
+     "transcription": "*dert, aus den Schriften der lautern Brüder über-*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0375-notes_right-L004",
+     "source_line_no": null,
+     "tex": "\\textit{setzt,} Posen 1864, p. 27-28.",
+     "transcription": "*setzt,* Posen 1864, p. 27-28.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0375-notes_right-L005",
+     "source_line_no": null,
+     "tex": "\\Indent (3) In meo \\textit{Il valore metrico del grado di me-}",
+     "transcription": "(3) In meo *Il valore metrico del grado di me-*",
+     "semantic_anchor": "AB01-PDF0375-N03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0375-notes_right-L006",
+     "source_line_no": null,
+     "tex": "\\textit{ridiano} etc. ostendi haec milliaria 1973 m. esse.",
+     "transcription": "*ridiano* etc. ostendi haec milliaria 1973 m. esse.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  }
+ ]
+}
