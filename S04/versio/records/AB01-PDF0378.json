@@ -1,0 +1,563 @@
+{
+ "anchor": "AB01-PDF0378",
+ "master_pdf_page": 378,
+ "printed_page": 289,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": "37",
+ "margin_locators": [],
+ "observations": [
+  "body L1-L3, L16, L32: «Albatenio», «Ptolemaeo», «Schiaparelli» (L3, L16), «Procli» (L3, L32), «Graecos» and «Simpli-cius» are letter-spaced; the dash after «(1).» (L1) measures 10.0 pt. The o of «cognitis» (L2) prints broken; a speck stands in the right margin beside L2.",
+  "body L5: «τίνες» carries its accent on the first syllable, as printed (the indefinite pronoun is τινές).",
+  "body L7-L14: the r raised after the numbers is an upright r. With the printed numbers 64ʳ 10′ · 91ʳ 30′ : 34ʳ 4′ = 172ʳ 21′, not 277ʳ 33′; with 33;4, Ptolemy's least distance of Mercury in the parts of which the eccentric radius has 60 (55;34 − 22;30), the fourth term is 177ʳ 33′. Ptolemy's greatest and least distances of Venus in the same parts are 60 + 1;15 + 43;10 = 104;25 and 60 − 1;15 − 43;10 = 15;35, against the printed 204ʳ 25′; with 104;25 the fourth term of L13-L14 is 1154ʳ 49′ from 172ʳ 21′, near the «1150ʳ» of L14, and 1189ʳ 40′ from 177ʳ 33′. The printed numbers are kept. The dots of L11 are five.",
+  "body L22-L23, L31: «Ptolemaei» (L22, L31) is letter-spaced; the equals sign of «[= Almagesto]» measures 9.5 pt. The Greek Ὑποτυπώσεις (L31) is set as printed.",
+  "body L26: the o of «compendio» prints broken, like a point and a closing parenthesis.",
+  "body L29-L30: the dash before «Res» measures 10.3 pt; «al–manshūrāt» (5.3 pt) and «al–Bīrūnī» (5.4 pt), letter-spaced, have long dashes.",
+  "body L34-L36: the dash after «b)» measures 9.4 pt; the dash of «120–122» is joined to the 0 and runs 4.5 pt beyond it, as a long dash. A heavy bracket opens Schiaparelli's addition (L35).",
+  "notes_left L1-L3: the Arabic of the codex, «فيجعله مثل الارض ثماني عشرة منه», ‘and he makes it like the Earth eighteen of it’, is set as one run between «Cod.» and «. Sed», and «منه» after «Sed»; for «منه» Nallino reads «مره», ‘times’ (the as-Suhà of p. 288, L35, «duodevicies Terram»).",
+  "notes_left L4-L8: «Ptolémée», «Proclus Diadochus» and «Simplicii» are letter-spaced; «145-46» has a hyphen (3.4 pt), and the dash before «Fuit» measures 8.0 pt.",
+  "notes_right L1-L5: the a of «Borussicae» prints broken, like a question mark; «t.VII)» is printed without a space.",
+  "notes_right L6-L8: the Greek is set as printed. The ι of «Πτολεμαίου» did not print; only its accent stands, and the υ prints broken. The signature 37 stands at the foot of the page, at the right."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0378-body-L001",
+     "source_line_no": null,
+     "tex": "« complecti » (1). — Quae de \\Name{Albatenio} narrat haud bene cum textu cod. Escurialensis",
+     "transcription": "« complecti » (1). — Quae de {sp:Albatenio} narrat haud bene cum textu cod. Escurialensis",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0378-body-L002",
+     "source_line_no": null,
+     "tex": "et Platonis conveniunt; quae de \\Name{Ptolemaeo}, in operibus eius cognitis non reperiuntur.",
+     "transcription": "et Platonis conveniunt; quae de {sp:Ptolemaeo}, in operibus eius cognitis non reperiuntur.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0378-body-L003",
+     "source_line_no": null,
+     "tex": "\\Indent Nunc Graecos interrogemus. \\Name{Schiaparelli} mihi locum suppeditat e \\Name{Procli} \\textit{Hypo-}",
+     "transcription": "Nunc Graecos interrogemus. {sp:Schiaparelli} mihi locum suppeditat e {sp:Procli} *Hypo-*",
+     "semantic_anchor": "AB01-PDF0378-P01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0378-body-L004",
+     "source_line_no": null,
+     "tex": "\\textit{typosibus} (2), ubi haec distantiarum supputandarum ratio memoratur, Lunam, Mercurium,",
+     "transcription": "*typosibus* (2), ubi haec distantiarum supputandarum ratio memoratur, Lunam, Mercurium,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0378-body-L005",
+     "source_line_no": null,
+     "tex": "Venerem et Solem quod attinet. Ait enim « quosdam (\\textgreek{τίνες}), ponentes nullum spatium vacuum",
+     "transcription": "Venerem et Solem quod attinet. Ait enim « quosdam (τίνες), ponentes nullum spatium vacuum",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0378-body-L006",
+     "source_line_no": null,
+     "tex": "« in mundo exstare et omnia intervalla impleri sphaeris intermediis », supputavisse eorum",
+     "transcription": "« in mundo exstare et omnia intervalla impleri sphaeris intermediis », supputavisse eorum",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0378-body-L007",
+     "source_line_no": null,
+     "tex": "planetarum distantias. Maxima Lunae 64\\textsuperscript{r} 10′ radiorum terrestrium, minima Solis 1160\\textsuperscript{r} [ex",
+     "transcription": "planetarum distantias. Maxima Lunae 64{sup:r} 10′ radiorum terrestrium, minima Solis 1160{sup:r} [ex",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0378-body-L008",
+     "source_line_no": null,
+     "tex": "Almagesto] sumptis, « invenisse demonstratam [a Ptolemaeo] distantiam apogei epicycli Mer-",
+     "transcription": "Almagesto] sumptis, « invenisse demonstratam [a Ptolemaeo] distantiam apogei epicycli Mer-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0378-body-L009",
+     "source_line_no": null,
+     "tex": "« curii a centro zodiaci [vel Terrae] esse ad distantiam perigei ut 91\\textsuperscript{r} 30′ ad 34\\textsuperscript{r} 4′. Facien-",
+     "transcription": "« curii a centro zodiaci [vel Terrae] esse ad distantiam perigei ut 91{sup:r} 30′ ad 34{sup:r} 4′. Facien-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0378-body-L010",
+     "source_line_no": null,
+     "tex": "« tes postea 34\\textsuperscript{r} 4′ ad 91\\textsuperscript{r} 30′ ut maxima distantia Lunae (64\\textsuperscript{r} 10′) ad quartum terminum",
+     "transcription": "« tes postea 34{sup:r} 4′ ad 91{sup:r} 30′ ut maxima distantia Lunae (64{sup:r} 10′) ad quartum terminum",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0378-body-L011",
+     "source_line_no": null,
+     "tex": "« quemdam, ex hac proportione invenisse 277\\textsuperscript{r} 33′ quae sint distantia apogea Mercurii ..... Item",
+     "transcription": "« quemdam, ex hac proportione invenisse 277{sup:r} 33′ quae sint distantia apogea Mercurii ..... Item",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0378-body-L012",
+     "source_line_no": null,
+     "tex": "« Veneris distantiam perigeam a centro zodiaci sumentes ad apogeam ut 15\\textsuperscript{r} 35′ ad 204\\textsuperscript{r} 25′",
+     "transcription": "« Veneris distantiam perigeam a centro zodiaci sumentes ad apogeam ut 15{sup:r} 35′ ad 204{sup:r} 25′",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0378-body-L013",
+     "source_line_no": null,
+     "tex": "« esse, eandemque intercedere rationem inter distantiam apogeam Mercurii (277\\textsuperscript{r} 33′) et quar-",
+     "transcription": "« esse, eandemque intercedere rationem inter distantiam apogeam Mercurii (277{sup:r} 33′) et quar-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0378-body-L014",
+     "source_line_no": null,
+     "tex": "« tum alium terminum, hunc invenisse 1150\\textsuperscript{r}, qui fere sunt distantia perigea Solis (1160) ».",
+     "transcription": "« tum alium terminum, hunc invenisse 1150{sup:r}, qui fere sunt distantia perigea Solis (1160) ».",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0378-body-L015",
+     "source_line_no": null,
+     "tex": "\\Indent Hi calculi, quorum elementa ab \\textit{Almagesto} sumpta sunt, facile potuerunt ab Arabibus",
+     "transcription": "Hi calculi, quorum elementa ab *Almagesto* sumpta sunt, facile potuerunt ab Arabibus",
+     "semantic_anchor": "AB01-PDF0378-P02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0378-body-L016",
+     "source_line_no": null,
+     "tex": "tribui ipsi Ptolemaeo. Sed hoc iam \\Name{Graecos} fecisse me \\Name{Schiaparelli} monet. \\Name{Simpli-}",
+     "transcription": "tribui ipsi Ptolemaeo. Sed hoc iam {sp:Graecos} fecisse me {sp:Schiaparelli} monet. {sp:Simpli-}",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0378-body-L017",
+     "source_line_no": null,
+     "tex": "\\Name{cius} (3) enim, qui posterior est Proclo, narrat: « Mercurium sub Venere consistere osten-",
+     "transcription": "{sp:cius} (3) enim, qui posterior est Proclo, narrat: « Mercurium sub Venere consistere osten-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0378-body-L018",
+     "source_line_no": null,
+     "tex": "« dunt observationes in quibus Mercurius sub Venere currens deprehenditur. Id etiam de-",
+     "transcription": "« dunt observationes in quibus Mercurius sub Venere currens deprehenditur. Id etiam de-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0378-body-L019",
+     "source_line_no": null,
+     "tex": "« monstratur ratione distantiae eorum apogeorum et perigeorum; nam maximam Veneris",
+     "transcription": "« monstratur ratione distantiae eorum apogeorum et perigeorum; nam maximam Veneris",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0378-body-L020",
+     "source_line_no": null,
+     "tex": "« distantiam esse fere distantiam Solis demonstratur, qua re Venerem proximam esse Soli;",
+     "transcription": "« distantiam esse fere distantiam Solis demonstratur, qua re Venerem proximam esse Soli;",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0378-body-L021",
+     "source_line_no": null,
+     "tex": "« item maximam Mercurii aequalem fere minimae Veneris, et maximam Lunae aequalem fere",
+     "transcription": "« item maximam Mercurii aequalem fere minimae Veneris, et maximam Lunae aequalem fere",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0378-body-L022",
+     "source_line_no": null,
+     "tex": "« minimae Mercurii. Haec enim demonstrantur in \\textit{Syntaxi} [$=$ Almagesto] \\Name{Ptolemaei}, ratio-",
+     "transcription": "« minimae Mercurii. Haec enim demonstrantur in *Syntaxi* [$=$ Almagesto] {sp:Ptolemaei}, ratio-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0378-body-L023",
+     "source_line_no": null,
+     "tex": "« nem illam deducendo ab excentricitate horum planetarum respectu centri Terrae » (4).",
+     "transcription": "« nem illam deducendo ab excentricitate horum planetarum respectu centri Terrae » (4).",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0378-body-L024",
+     "source_line_no": null,
+     "tex": "\\Indent \\Name{Simplicius} summam operam posuerat in studio librorum Procli, quem « magistrum",
+     "transcription": "{sp:Simplicius} summam operam posuerat in studio librorum Procli, quem « magistrum",
+     "semantic_anchor": "AB01-PDF0378-P03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0378-body-L025",
+     "source_line_no": null,
+     "tex": "« magistri mei » appellat. Fortasse, ut \\Name{Schiaparelli} recte coniicit, doctrinas Almagesti non",
+     "transcription": "« magistri mei » appellat. Fortasse, ut {sp:Schiaparelli} recte coniicit, doctrinas Almagesti non",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0378-body-L026",
+     "source_line_no": null,
+     "tex": "e textu originali, intellectu difficillimo, sed ex aliquo compendio, ut Hypotyposes (« Primae",
+     "transcription": "e textu originali, intellectu difficillimo, sed ex aliquo compendio, ut Hypotyposes (« Primae",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0378-body-L027",
+     "source_line_no": null,
+     "tex": "« lineae seu rudimenta » motuum planetarum) sunt, cognoverat; itaque facile censere potuit",
+     "transcription": "« lineae seu rudimenta » motuum planetarum) sunt, cognoverat; itaque facile censere potuit",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0378-body-L028",
+     "source_line_no": null,
+     "tex": "omnia quae Proclus in iis narrat, et etiam calculum distantiarum planetarum, a Ptolemaeo",
+     "transcription": "omnia quae Proclus in iis narrat, et etiam calculum distantiarum planetarum, a Ptolemaeo",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0378-body-L029",
+     "source_line_no": null,
+     "tex": "provenire. — Res cum ita sint, haud improbabile puto illum \\textit{Kitāb al–manshūrāt,} quem",
+     "transcription": "provenire. — Res cum ita sint, haud improbabile puto illum *Kitāb al–manshūrāt,* quem",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0378-body-L030",
+     "source_line_no": null,
+     "tex": "nonnisi in duobus iis locis \\Name{al–Bīrūnī} memoratum invenio, « Librum rerum vulgatarum [de",
+     "transcription": "nonnisi in duobus iis locis {sp:al–Bīrūnī} memoratum invenio, « Librum rerum vulgatarum [de",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0378-body-L031",
+     "source_line_no": null,
+     "tex": "« astronomia] » significare, quae versio esset nominis Graeci \\textgreek{Ὑποτυπώσεις}; \\Name{Ptolemaei} igitur",
+     "transcription": "« astronomia] » significare, quae versio esset nominis Graeci Ὑποτυπώσεις; {sp:Ptolemaei} igitur",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0378-body-L032",
+     "source_line_no": null,
+     "tex": "non esse, sed \\Name{Procli}; Arabum quosdam demum in eundem errorem lapsos esse in quo Sim-",
+     "transcription": "non esse, sed {sp:Procli}; Arabum quosdam demum in eundem errorem lapsos esse in quo Sim-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0378-body-L033",
+     "source_line_no": null,
+     "tex": "plicius iam versatus erat.",
+     "transcription": "plicius iam versatus erat.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0378-body-L034",
+     "source_line_no": null,
+     "tex": "\\CenterLine{\\textbf{\\textit{b}}) — \\textit{Pag. 120–122.}}",
+     "transcription": "{bi:b}) — *Pag. 120–122.*",
+     "semantic_anchor": "AB01-PDF0378-H34",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0378-body-L035",
+     "source_line_no": null,
+     "tex": "\\Indent [I. \\textit{Diametri planetarum respectu Terrae.} Hoc modo supputantur: Sit \\textgreek{Δ} diametrus",
+     "transcription": "[I. *Diametri planetarum respectu Terrae.* Hoc modo supputantur: Sit Δ diametrus",
+     "semantic_anchor": "AB01-PDF0378-P04",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0378-body-L036",
+     "source_line_no": null,
+     "tex": "angularis apparens Solis, \\textit{R} eius distantia media; diametrus linearis Solis erit R\\textgreek{Δ}. Item sit \\textgreek{δ}",
+     "transcription": "angularis apparens Solis, *R* eius distantia media; diametrus linearis Solis erit RΔ. Item sit δ",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    }
+   ]
+  },
+  {
+   "role": "notes_left",
+   "lines": [
+    {
+     "id": "AB01-PDF0378-notes_left-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (1) Cod. \\ArabicRun{فيجعله مثل الارض ثماني عشرة منه}. Sed \\ArabicRun{منه}",
+     "transcription": "(1) Cod. {ar:فيجعله مثل الارض ثماني عشرة منه}. Sed {ar:منه}",
+     "semantic_anchor": "AB01-PDF0378-N01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0378-notes_left-L002",
+     "source_line_no": null,
+     "tex": "censeo calami lapsum pro \\ArabicRun{مره}; secus nullum sen-",
+     "transcription": "censeo calami lapsum pro {ar:مره}; secus nullum sen-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0378-notes_left-L003",
+     "source_line_no": null,
+     "tex": "sum locus praeberet.",
+     "transcription": "sum locus praeberet.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0378-notes_left-L004",
+     "source_line_no": null,
+     "tex": "\\Indent (2) \\textit{Hypothèses et époques des planètes de}",
+     "transcription": "(2) *Hypothèses et époques des planètes de*",
+     "semantic_anchor": "AB01-PDF0378-N02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0378-notes_left-L005",
+     "source_line_no": null,
+     "tex": "C. \\Name{Ptolémée}, \\textit{et Hypotyposes de} \\Name{Proclus Dia-}",
+     "transcription": "C. {sp:Ptolémée}, *et Hypotyposes de* {sp:Proclus Dia-}",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0378-notes_left-L006",
+     "source_line_no": null,
+     "tex": "\\Name{dochus} [\\textit{publiées}] \\textit{et traduites par Halma,} Pa-",
+     "transcription": "{sp:dochus} [*publiées*] *et traduites par Halma,* Pa-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0378-notes_left-L007",
+     "source_line_no": null,
+     "tex": "ris 1820, p. 145-46. — Fuit Proclus saeculo V Chr.",
+     "transcription": "ris 1820, p. 145-46. — Fuit Proclus saeculo V Chr.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0378-notes_left-L008",
+     "source_line_no": null,
+     "tex": "\\Indent (3) \\Name{Simplicii} \\textit{in Aristotelis de caelo com-}",
+     "transcription": "(3) {sp:Simplicii} *in Aristotelis de caelo com-*",
+     "semantic_anchor": "AB01-PDF0378-N03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  },
+  {
+   "role": "notes_right",
+   "lines": [
+    {
+     "id": "AB01-PDF0378-notes_right-L001",
+     "source_line_no": null,
+     "tex": "\\textit{mentaria, ed. Heiberg,} Berolini 1894, p. 474 ($=$ Com-",
+     "transcription": "*mentaria, ed. Heiberg,* Berolini 1894, p. 474 ($=$ Com-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0378-notes_right-L002",
+     "source_line_no": null,
+     "tex": "mentaria in Aristotelem Graeca edita consilio et",
+     "transcription": "mentaria in Aristotelem Graeca edita consilio et",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0378-notes_right-L003",
+     "source_line_no": null,
+     "tex": "auctoritate Academiae litterarum regiae Borussicae,",
+     "transcription": "auctoritate Academiae litterarum regiae Borussicae,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0378-notes_right-L004",
+     "source_line_no": null,
+     "tex": "t.VII). In editione Karstenii (Traiecti ad Rhenum 1865)",
+     "transcription": "t.VII). In editione Karstenii (Traiecti ad Rhenum 1865)",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0378-notes_right-L005",
+     "source_line_no": null,
+     "tex": "locus est p. 213,\\textit{b}.",
+     "transcription": "locus est p. 213,*b*.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0378-notes_right-L006",
+     "source_line_no": null,
+     "tex": "\\Indent (4) \\textgreek{Ταῦτα γὰρ δέδεικται ἐν τῇ Πτολεμαίου Συντά}-",
+     "transcription": "(4) Ταῦτα γὰρ δέδεικται ἐν τῇ Πτολεμαίου Συντά-",
+     "semantic_anchor": "AB01-PDF0378-N04",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0378-notes_right-L007",
+     "source_line_no": null,
+     "tex": "\\textgreek{ξει μεταφερομένου τοῦ λόγου τῆς τῶν ἀστέρων ἐκκεν}-",
+     "transcription": "ξει μεταφερομένου τοῦ λόγου τῆς τῶν ἀστέρων ἐκκεν-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0378-notes_right-L008",
+     "source_line_no": null,
+     "tex": "\\textgreek{τρότητος εἰς τὸν λόγον τῆς ἐκ τοῦ κέντρου τῆς γῆς}.",
+     "transcription": "τρότητος εἰς τὸν λόγον τῆς ἐκ τοῦ κέντρου τῆς γῆς.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  }
+ ]
+}
