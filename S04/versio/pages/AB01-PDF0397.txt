@@ -1,0 +1,91 @@
+@page 397 308
+% Commentary on chapter 54 d) I continued: since crd² x = 4 sin² x/2 = 4 (R² − R cos x)/2 = 2R² − 2R cos x, the formula found above, crd² x = R (crd² 60° − crd² β)/cos β, can also be written 2R² − 2R cos x = R ((2R² − 2R cos 60°) − (2R² − 2R cos β))/cos β; dividing all by 2R, R − cos x = R ((R − cos 60°) − (R − cos β))/cos β = − R cos 60°/cos β + R, whence cos x = R cos 60°/cos β. This rule, as answering al-Battānī's method, is given by the Libro de las taulas alfonsies in chapter LII, entitled «on projecting the rays of the planets on the ecliptic according to the opinion of al-Battānī» (note 1: the Spanish title, in the Libros del saber de astronomia del Rey D. Alfonso X de Castilla, ed. Rico y Sinobas, Madrid 1863-67, vol. IV, p. 181). The solution there is: «If the planet has latitude, divide 1800 (note 2: the edition has wrongly 180; for 1800 = 60p × 30p = R cos 60°) by the sine of the complement of the latitude of the planet; convert the quotient into an arc as sines are converted into arcs; the resulting arc [subtract from 90°, and what remains] (note 3: the words in brackets restored by a sure conjecture; the Spanish text of the whole place, with CLXXX [sic!]; this quantity is added to or subtracted from the longitude of the planet, giving the place of the left or the right radiation on the ecliptic) is the argument of the sextile». Likewise only the solution of the spherical triangle (note 4: whose sides are the latitude of the planet, the arc of 60° and the radiation sought) by various instruments is treated in other places of the same Libros del saber: vol. II, p. 65 (Libro de las armellas, book II, ch. XLVI); vol. III, p. 123 (Libro de la lámina universal, book II, part IV, ch. LXIV); vol. III, p. 206-207 (Segunda parte del libro de la açafeha, ch. LIX), each «according to the opinion of al-Battānī». The last place is the version of the book of Arzachel (az-Zarqālī) on the construction and use of the saphaea; the Arabic text is in the Escorial codex 962 (Casiri nr. 957), fol. 51 r.-52 r. Henry Bate understood al-Battānī's rules equally well (note 5: Magistralis compositio astrolabii, fol. d2 v.-d3 r., printed at the end of Abraham Iudaeus, de nativitatibus, Venice, Ratdolt, 1485; the work was completed at Malines on the fifth day before the ides of October 1274; Steinschneider, Orientalistische Litteratur-Zeitung 4, 15 November 1901, col. 444-45): after two other ways of projection, he has a chapter «on the aspects according to the common view of the astrologers and especially according to Albategni»: «There is a third way of taking the aspects ..... and it is by the equal degrees (note 6: on which Nallino spoke on p. 28, note 3) of the zodiac taken uniformly: and Albategni affirms this to be true in the fifty-fourth chapter of his book: unless the star whose aspect is sought has some latitude from the ecliptic line ..... (continued)».
+@nonum
+@vspace 0.86
+@center $\text{crd}^2\,x = 4 \sin^2\dfrac{x}{2} = 4\,\dfrac{R^2 - R \cos x}{2} = 2R^2 - 2R \cos x$\,,
+@vspace -0.39
+formula supra inventa
+@vspace -1.83
+@center $\text{crd}^2\,x = R\,\dfrac{\text{crd}^2\,\text{60°} - \text{crd}^2\,\text{β}}{\cos\text{β}}$
+@vspace -1.28
+scribi poterit etiam
+@vspace -1.60
+@center $2R^2 - 2R \cos x = R\,\dfrac{(2R^2 - 2R \cos \text{60°}) - (2R^2 - 2R \cos\text{β})}{\cos\text{β}}$\,.
+@vspace -1.27
+Omnia per 2*R* dividendo,
+@vspace -1.42
+@center $R - \cos x = R\,\dfrac{(R - \cos \text{60°}) - (R - \cos\text{β})}{\cos\text{β}} = -\,\dfrac{R \cos \text{60°}}{\cos\text{β}} + R$
+@vspace -0.60
+@at 0:unde | 94^:$\cos x = R\,\dfrac{\cos \text{60°}}{\cos\text{β}}$\,.
+@vspace -0.49
+^ Hanc regulam, *tanquam methodo Albatenii respondentem,* praebet *Libro de las taulas*
+*alfonsies,* in LII cap. quod « de proiiciendis planetarum radiis in eclipticam, iuxta opinionem
+« {sp:Al–Battānī} » (1), inscribitur. Solutio ibi haec est: « Si planeta latitudinem habuerit, 1800
+@vspace 0.02
+« divide (2) per sinum complementi latitudinis planetae; quod proveniet in arcum converte, eo
+« modo quo sinus arcuantur; arcum prodeuntem [deme de 90°, et quod relinquetur] (3) erit ar-
+@vspace -0.04
+« gumentum sextilis ». — Similiter nonnisi de solutione trianguli sphaerici (4) per varia instru-
+menta agitur in aliis locis eorundem *Libros del saber de astronomia*: t. II, p. 65 (*Libro de*
+*las armellas,* lib. II, cap. XLVI): « de saber ell echamiento de los rayos segund la opinion
+« del {sp:Bateni} »; t. III, p. 123 (*Libro de la lámina universal,* lib. II, pars IV, cap. LXIV):
+« de saber cuemo se deuen fazer los echamientos de los rayos de qual planeta quier. segund
+« la oppinion de {sp:Albateni} »; demum t. III, p. 206–207 (*Segunda parte del libro de la*
+*açafeha,* cap. LIX): « de los echamientos de los rayos segund la oppinion de {sp:Albateni} ».
+Hic ultimus locus est versio libri {sp:Arzachelis} seu {sp:az–Zarqālī} de saphaeae constructione
+et usu; textus Arabicus est in cod. Escurial. 962 (ap. {sp:Casiri} nr. 957), fol. 51,r.–52, r.
+^ Eodem modo regulas Albatenianas optime intellexit {sp:Henricus Bates} (5), qui, duabus
+aliis proiectionum rationibus commemoratis, caput habet « de aspectibus secundum communi-
+« tatem astrologorum et specialiter secundum {sp:Albategni} », ubi narrat: « Est et modus tertius
+« in aspectibus accipiendis ..... et est per gradus equales (6) qui sunt çodiaci: uniformiter
+@vspace 0.06
+« acceptus: et hoc esse verum affirmat Albategni in quinquagesimoquarto capitulo libri sui:
+« nisi stella cuius aspectus queritur latitudinem habuerit aliqualem ab ecliptica linea. ..... Quod
+@notes
+@fontsize 9 11.80
+@vspace 3.27
+^ (1) Del fazer echamiento de los rayos de los
+planetas en el zodiacho. segund oppinion de Al Ba-
+teny. – In *Libros del saber de astronomia del Rey*
+D. {sp:Alfonso X de Castilla}, *copilados, ano-*
+*tados y comentados por D Manuel Rico y Sinobas,*
+Madrid 1863-67, t. IV, p. 181.
+^ (2) Perperam in editione 180; nam 1800 $=$ 60{sup:*p*} $\times$
+$\times$ 30{sup:*p*} $=$ *R* cos 60°.
+^ (3) Verba uncis inclusa restitui ex tuta con-
+iectura. Textus Hispanicus totius loci est: « Pues si
+« ouier el planeta ladeza del zodiacho. parte todauía
+« CLXXX [sic!] sobrel signo del complimiento de
+« la ladeza del planeta. et lo que le salier archéalo
+« archeamiento de los signos. et lo que fuer ell ar-
+@vspace 0.05
+« cho [adde: míngualo de 90. et lo que fincar] aquel
+« será argumento del sextil ». Haec quantitas adda-
+@col
+@fontsize 9 11.80
+@vspace 3.32
+tur aut dematur de longitudine planetae; exibit lo-
+cus radiationis sinistrae aut locus radiationis dex-
+terae in ecliptica.
+^ (4) Cuius latera sunt planetae latitudo, arcus
+60° et radiatio quaerenda.
+^ (5) *Magistralis compositio astrolabij* {sp:Han-}
+{sp:rici} [sic] {sp:Bate} *ad petitionem fratris Vuilhelmi de*
+*Morbeka ordinis predicatorum domini pape peni-*
+*tentiarij et capellani,* fol. d2,v.,–d3,r. (in calce ope-
+ris: {sp:Abraham Iudei} *de nativitatibus,* Venetijs,
+Erh. Ratdolt, 1485). — Opusculum auctor explevit
+Machlinii (Malines, in Belgica) quinto idus Octo-
+@vspace -0.03
+bris 1274; de eo cfr. etiam M. {sp:Steinschneider} in
+*Orientalistische Litteratur-Zeitung,* IV Jahrg., 15 No-
+vemb. 1901, col. 444-45.
+^ (6) De quibus dixi p. 28, adn. 3.
+@obs body L1-L8: the steps are right: with sines and cosines to the radius R, sin² (x/2) = (R² − R cos x)/2 (as on p. 202), so that crd² x = 2R² − 2R cos x; the same for 60° and β turns L3 into L5, and dividing by 2R gives L7 and L8, cos x = R cos 60° : cos β, which is the rule of the right spherical triangle found on p. 307. The minus signs are printed as dashes (9.5 to 10.3 pt) and set as minus signs.
+@obs body L9-L14: «Al–Battānī» (L11) is letter-spaced, with a long dash (5.3 pt); the dash before «Similiter» (L14) measures 9.6 pt. With R = 60p and cos 60° = 30p, R cos 60° = 1800; divided by the cosine of the latitude it gives the cosine of x, and the arc found from it as from a sine is 90° − x, which is why the subtraction from 90° is needed.
+@obs body L15-L22: the B of «Bateni» (L17) prints broken. «Bateni», «Albateni» (L19, L20), «Arzachelis», «az–Zarqālī» and «Casiri» are letter-spaced; «206–207», «az–Zarqālī» and «51,r.–52, r.» have long dashes (5.3, 5.3 and 5.5 pt).
+@obs body L23-L28: «Henricus Bates» and «Albategni» (L25) are letter-spaced; «Albategni» (L27) is not. The dots after «accipiendis» (L26) and after «linea.» (L28) are five.
+@obs notes_left L1-L6: «Alfonso X de Castilla» is letter-spaced; the dash after «teny.» (L3) measures 5.4 pt, a long dash; «D Manuel» (L5) is printed without a full stop after the D. The dash of «1863-67» is joined to both figures; its free part measures about 3.4 pt, the length of the hyphens of the notes.
+@obs notes_left L7-L8: the sign × ending L7 is repeated at the beginning of L8, as printed; the p of «30p» prints broken. R cos 60° = 60p × 30p = 1800, as printed.
+@obs notes_left L9-L16: the l of «planeta» (L11) prints only in its upper part, like an apostrophe, and the f of «fincar» (L15) prints broken; the hyphen of «adda-» (L16) prints as a point. The Spanish text has CLXXX, which Nallino marks [sic!], for 1800.
+@obs notes_right L1-L16: «Han-» and «rici», divided between L6 and L7, «Bate», «Abraham Iudei» and «Steinschneider» are letter-spaced. The dash of «d2,v.,–d3,r.» (L9) measures 4.3 pt, a long dash; the dash after «1485).» measures 9.0 pt; «Litteratur-Zeitung» and «444-45» have hyphens (2.0 and 3.4 pt). Quinto idus Octobris is 11 October.

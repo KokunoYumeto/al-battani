@@ -1,0 +1,640 @@
+{
+ "anchor": "AB01-PDF0397",
+ "master_pdf_page": 397,
+ "printed_page": 308,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "margin_locators": [],
+ "observations": [
+  "body L1-L8: the steps are right: with sines and cosines to the radius R, sin² (x/2) = (R² − R cos x)/2 (as on p. 202), so that crd² x = 2R² − 2R cos x; the same for 60° and β turns L3 into L5, and dividing by 2R gives L7 and L8, cos x = R cos 60° : cos β, which is the rule of the right spherical triangle found on p. 307. The minus signs are printed as dashes (9.5 to 10.3 pt) and set as minus signs.",
+  "body L9-L14: «Al–Battānī» (L11) is letter-spaced, with a long dash (5.3 pt); the dash before «Similiter» (L14) measures 9.6 pt. With R = 60p and cos 60° = 30p, R cos 60° = 1800; divided by the cosine of the latitude it gives the cosine of x, and the arc found from it as from a sine is 90° − x, which is why the subtraction from 90° is needed.",
+  "body L15-L22: the B of «Bateni» (L17) prints broken. «Bateni», «Albateni» (L19, L20), «Arzachelis», «az–Zarqālī» and «Casiri» are letter-spaced; «206–207», «az–Zarqālī» and «51,r.–52, r.» have long dashes (5.3, 5.3 and 5.5 pt).",
+  "body L23-L28: «Henricus Bates» and «Albategni» (L25) are letter-spaced; «Albategni» (L27) is not. The dots after «accipiendis» (L26) and after «linea.» (L28) are five.",
+  "notes_left L1-L6: «Alfonso X de Castilla» is letter-spaced; the dash after «teny.» (L3) measures 5.4 pt, a long dash; «D Manuel» (L5) is printed without a full stop after the D. The dash of «1863-67» is joined to both figures; its free part measures about 3.4 pt, the length of the hyphens of the notes.",
+  "notes_left L7-L8: the sign × ending L7 is repeated at the beginning of L8, as printed; the p of «30p» prints broken. R cos 60° = 60p × 30p = 1800, as printed.",
+  "notes_left L9-L16: the l of «planeta» (L11) prints only in its upper part, like an apostrophe, and the f of «fincar» (L15) prints broken; the hyphen of «adda-» (L16) prints as a point. The Spanish text has CLXXX, which Nallino marks [sic!], for 1800.",
+  "notes_right L1-L16: «Han-» and «rici», divided between L6 and L7, «Bate», «Abraham Iudei» and «Steinschneider» are letter-spaced. The dash of «d2,v.,–d3,r.» (L9) measures 4.3 pt, a long dash; the dash after «1485).» measures 9.0 pt; «Litteratur-Zeitung» and «444-45» have hyphens (2.0 and 3.4 pt). Quinto idus Octobris is 11 October."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0397-body-L001",
+     "source_line_no": null,
+     "tex": "\\CenterLine{$\\text{crd}^2\\,x = 4 \\sin^2\\dfrac{x}{2} = 4\\,\\dfrac{R^2 - R \\cos x}{2} = 2R^2 - 2R \\cos x$\\,,}",
+     "transcription": "$\\text{crd}^2\\,x = 4 \\sin^2\\dfrac{x}{2} = 4\\,\\dfrac{R^2 - R \\cos x}{2} = 2R^2 - 2R \\cos x$\\,,",
+     "semantic_anchor": "AB01-PDF0397-H01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0397-body-L002",
+     "source_line_no": null,
+     "tex": "formula supra inventa",
+     "transcription": "formula supra inventa",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0397-body-L003",
+     "source_line_no": null,
+     "tex": "\\CenterLine{$\\text{crd}^2\\,x = R\\,\\dfrac{\\text{crd}^2\\,\\text{60°} - \\text{crd}^2\\,\\text{\\textgreek{β}}}{\\cos\\text{\\textgreek{β}}}$}",
+     "transcription": "$\\text{crd}^2\\,x = R\\,\\dfrac{\\text{crd}^2\\,\\text{60°} - \\text{crd}^2\\,\\text{β}}{\\cos\\text{β}}$",
+     "semantic_anchor": "AB01-PDF0397-H03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0397-body-L004",
+     "source_line_no": null,
+     "tex": "scribi poterit etiam",
+     "transcription": "scribi poterit etiam",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0397-body-L005",
+     "source_line_no": null,
+     "tex": "\\CenterLine{$2R^2 - 2R \\cos x = R\\,\\dfrac{(2R^2 - 2R \\cos \\text{60°}) - (2R^2 - 2R \\cos\\text{\\textgreek{β}})}{\\cos\\text{\\textgreek{β}}}$\\,.}",
+     "transcription": "$2R^2 - 2R \\cos x = R\\,\\dfrac{(2R^2 - 2R \\cos \\text{60°}) - (2R^2 - 2R \\cos\\text{β})}{\\cos\\text{β}}$\\,.",
+     "semantic_anchor": "AB01-PDF0397-H05",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0397-body-L006",
+     "source_line_no": null,
+     "tex": "Omnia per 2\\textit{R} dividendo,",
+     "transcription": "Omnia per 2*R* dividendo,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0397-body-L007",
+     "source_line_no": null,
+     "tex": "\\CenterLine{$R - \\cos x = R\\,\\dfrac{(R - \\cos \\text{60°}) - (R - \\cos\\text{\\textgreek{β}})}{\\cos\\text{\\textgreek{β}}} = -\\,\\dfrac{R \\cos \\text{60°}}{\\cos\\text{\\textgreek{β}}} + R$}",
+     "transcription": "$R - \\cos x = R\\,\\dfrac{(R - \\cos \\text{60°}) - (R - \\cos\\text{β})}{\\cos\\text{β}} = -\\,\\dfrac{R \\cos \\text{60°}}{\\cos\\text{β}} + R$",
+     "semantic_anchor": "AB01-PDF0397-H07",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0397-body-L008",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.00mm}unde}\\rlap{\\hspace*{94.00mm}\\makebox[0pt][c]{$\\cos x = R\\,\\dfrac{\\cos \\text{60°}}{\\cos\\text{\\textgreek{β}}}$\\,.}}",
+     "transcription": "unde $\\cos x = R\\,\\dfrac{\\cos \\text{60°}}{\\cos\\text{β}}$\\,.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0397-body-L009",
+     "source_line_no": null,
+     "tex": "\\Indent Hanc regulam, \\textit{tanquam methodo Albatenii respondentem,} praebet \\textit{Libro de las taulas}",
+     "transcription": "Hanc regulam, *tanquam methodo Albatenii respondentem,* praebet *Libro de las taulas*",
+     "semantic_anchor": "AB01-PDF0397-P01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0397-body-L010",
+     "source_line_no": null,
+     "tex": "\\textit{alfonsies,} in LII cap. quod « de proiiciendis planetarum radiis in eclipticam, iuxta opinionem",
+     "transcription": "*alfonsies,* in LII cap. quod « de proiiciendis planetarum radiis in eclipticam, iuxta opinionem",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0397-body-L011",
+     "source_line_no": null,
+     "tex": "« \\Name{Al–Battānī} » (1), inscribitur. Solutio ibi haec est: « Si planeta latitudinem habuerit, 1800",
+     "transcription": "« {sp:Al–Battānī} » (1), inscribitur. Solutio ibi haec est: « Si planeta latitudinem habuerit, 1800",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0397-body-L012",
+     "source_line_no": null,
+     "tex": "« divide (2) per sinum complementi latitudinis planetae; quod proveniet in arcum converte, eo",
+     "transcription": "« divide (2) per sinum complementi latitudinis planetae; quod proveniet in arcum converte, eo",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0397-body-L013",
+     "source_line_no": null,
+     "tex": "« modo quo sinus arcuantur; arcum prodeuntem [deme de 90°, et quod relinquetur] (3) erit ar-",
+     "transcription": "« modo quo sinus arcuantur; arcum prodeuntem [deme de 90°, et quod relinquetur] (3) erit ar-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0397-body-L014",
+     "source_line_no": null,
+     "tex": "« gumentum sextilis ». — Similiter nonnisi de solutione trianguli sphaerici (4) per varia instru-",
+     "transcription": "« gumentum sextilis ». — Similiter nonnisi de solutione trianguli sphaerici (4) per varia instru-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0397-body-L015",
+     "source_line_no": null,
+     "tex": "menta agitur in aliis locis eorundem \\textit{Libros del saber de astronomia}: t. II, p. 65 (\\textit{Libro de}",
+     "transcription": "menta agitur in aliis locis eorundem *Libros del saber de astronomia*: t. II, p. 65 (*Libro de*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0397-body-L016",
+     "source_line_no": null,
+     "tex": "\\textit{las armellas,} lib. II, cap. XLVI): « de saber ell echamiento de los rayos segund la opinion",
+     "transcription": "*las armellas,* lib. II, cap. XLVI): « de saber ell echamiento de los rayos segund la opinion",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0397-body-L017",
+     "source_line_no": null,
+     "tex": "« del \\Name{Bateni} »; t. III, p. 123 (\\textit{Libro de la lámina universal,} lib. II, pars IV, cap. LXIV):",
+     "transcription": "« del {sp:Bateni} »; t. III, p. 123 (*Libro de la lámina universal,* lib. II, pars IV, cap. LXIV):",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0397-body-L018",
+     "source_line_no": null,
+     "tex": "« de saber cuemo se deuen fazer los echamientos de los rayos de qual planeta quier. segund",
+     "transcription": "« de saber cuemo se deuen fazer los echamientos de los rayos de qual planeta quier. segund",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0397-body-L019",
+     "source_line_no": null,
+     "tex": "« la oppinion de \\Name{Albateni} »; demum t. III, p. 206–207 (\\textit{Segunda parte del libro de la}",
+     "transcription": "« la oppinion de {sp:Albateni} »; demum t. III, p. 206–207 (*Segunda parte del libro de la*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0397-body-L020",
+     "source_line_no": null,
+     "tex": "\\textit{açafeha,} cap. LIX): « de los echamientos de los rayos segund la oppinion de \\Name{Albateni} ».",
+     "transcription": "*açafeha,* cap. LIX): « de los echamientos de los rayos segund la oppinion de {sp:Albateni} ».",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0397-body-L021",
+     "source_line_no": null,
+     "tex": "Hic ultimus locus est versio libri \\Name{Arzachelis} seu \\Name{az–Zarqālī} de saphaeae constructione",
+     "transcription": "Hic ultimus locus est versio libri {sp:Arzachelis} seu {sp:az–Zarqālī} de saphaeae constructione",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0397-body-L022",
+     "source_line_no": null,
+     "tex": "et usu; textus Arabicus est in cod. Escurial. 962 (ap. \\Name{Casiri} nr. 957), fol. 51,r.–52, r.",
+     "transcription": "et usu; textus Arabicus est in cod. Escurial. 962 (ap. {sp:Casiri} nr. 957), fol. 51,r.–52, r.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0397-body-L023",
+     "source_line_no": null,
+     "tex": "\\Indent Eodem modo regulas Albatenianas optime intellexit \\Name{Henricus Bates} (5), qui, duabus",
+     "transcription": "Eodem modo regulas Albatenianas optime intellexit {sp:Henricus Bates} (5), qui, duabus",
+     "semantic_anchor": "AB01-PDF0397-P02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0397-body-L024",
+     "source_line_no": null,
+     "tex": "aliis proiectionum rationibus commemoratis, caput habet « de aspectibus secundum communi-",
+     "transcription": "aliis proiectionum rationibus commemoratis, caput habet « de aspectibus secundum communi-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0397-body-L025",
+     "source_line_no": null,
+     "tex": "« tatem astrologorum et specialiter secundum \\Name{Albategni} », ubi narrat: « Est et modus tertius",
+     "transcription": "« tatem astrologorum et specialiter secundum {sp:Albategni} », ubi narrat: « Est et modus tertius",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0397-body-L026",
+     "source_line_no": null,
+     "tex": "« in aspectibus accipiendis ..... et est per gradus equales (6) qui sunt çodiaci: uniformiter",
+     "transcription": "« in aspectibus accipiendis ..... et est per gradus equales (6) qui sunt çodiaci: uniformiter",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0397-body-L027",
+     "source_line_no": null,
+     "tex": "« acceptus: et hoc esse verum affirmat Albategni in quinquagesimoquarto capitulo libri sui:",
+     "transcription": "« acceptus: et hoc esse verum affirmat Albategni in quinquagesimoquarto capitulo libri sui:",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0397-body-L028",
+     "source_line_no": null,
+     "tex": "« nisi stella cuius aspectus queritur latitudinem habuerit aliqualem ab ecliptica linea. ..... Quod",
+     "transcription": "« nisi stella cuius aspectus queritur latitudinem habuerit aliqualem ab ecliptica linea. ..... Quod",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    }
+   ]
+  },
+  {
+   "role": "notes_left",
+   "lines": [
+    {
+     "id": "AB01-PDF0397-notes_left-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (1) Del fazer echamiento de los rayos de los",
+     "transcription": "(1) Del fazer echamiento de los rayos de los",
+     "semantic_anchor": "AB01-PDF0397-N01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0397-notes_left-L002",
+     "source_line_no": null,
+     "tex": "planetas en el zodiacho. segund oppinion de Al Ba-",
+     "transcription": "planetas en el zodiacho. segund oppinion de Al Ba-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0397-notes_left-L003",
+     "source_line_no": null,
+     "tex": "teny. – In \\textit{Libros del saber de astronomia del Rey}",
+     "transcription": "teny. – In *Libros del saber de astronomia del Rey*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0397-notes_left-L004",
+     "source_line_no": null,
+     "tex": "D. \\Name{Alfonso X de Castilla}, \\textit{copilados, ano-}",
+     "transcription": "D. {sp:Alfonso X de Castilla}, *copilados, ano-*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0397-notes_left-L005",
+     "source_line_no": null,
+     "tex": "\\textit{tados y comentados por D Manuel Rico y Sinobas,}",
+     "transcription": "*tados y comentados por D Manuel Rico y Sinobas,*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0397-notes_left-L006",
+     "source_line_no": null,
+     "tex": "Madrid 1863-67, t. IV, p. 181.",
+     "transcription": "Madrid 1863-67, t. IV, p. 181.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0397-notes_left-L007",
+     "source_line_no": null,
+     "tex": "\\Indent (2) Perperam in editione 180; nam 1800 $=$ 60\\textsuperscript{\\textit{p}} $\\times$",
+     "transcription": "(2) Perperam in editione 180; nam 1800 $=$ 60{sup:*p*} $\\times$",
+     "semantic_anchor": "AB01-PDF0397-N02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0397-notes_left-L008",
+     "source_line_no": null,
+     "tex": "$\\times$ 30\\textsuperscript{\\textit{p}} $=$ \\textit{R} cos 60°.",
+     "transcription": "$\\times$ 30{sup:*p*} $=$ *R* cos 60°.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0397-notes_left-L009",
+     "source_line_no": null,
+     "tex": "\\Indent (3) Verba uncis inclusa restitui ex tuta con-",
+     "transcription": "(3) Verba uncis inclusa restitui ex tuta con-",
+     "semantic_anchor": "AB01-PDF0397-N03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0397-notes_left-L010",
+     "source_line_no": null,
+     "tex": "iectura. Textus Hispanicus totius loci est: « Pues si",
+     "transcription": "iectura. Textus Hispanicus totius loci est: « Pues si",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0397-notes_left-L011",
+     "source_line_no": null,
+     "tex": "« ouier el planeta ladeza del zodiacho. parte todauía",
+     "transcription": "« ouier el planeta ladeza del zodiacho. parte todauía",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0397-notes_left-L012",
+     "source_line_no": null,
+     "tex": "« CLXXX [sic!] sobrel signo del complimiento de",
+     "transcription": "« CLXXX [sic!] sobrel signo del complimiento de",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0397-notes_left-L013",
+     "source_line_no": null,
+     "tex": "« la ladeza del planeta. et lo que le salier archéalo",
+     "transcription": "« la ladeza del planeta. et lo que le salier archéalo",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0397-notes_left-L014",
+     "source_line_no": null,
+     "tex": "« archeamiento de los signos. et lo que fuer ell ar-",
+     "transcription": "« archeamiento de los signos. et lo que fuer ell ar-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0397-notes_left-L015",
+     "source_line_no": null,
+     "tex": "« cho [adde: míngualo de 90. et lo que fincar] aquel",
+     "transcription": "« cho [adde: míngualo de 90. et lo que fincar] aquel",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0397-notes_left-L016",
+     "source_line_no": null,
+     "tex": "« será argumento del sextil ». Haec quantitas adda-",
+     "transcription": "« será argumento del sextil ». Haec quantitas adda-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  },
+  {
+   "role": "notes_right",
+   "lines": [
+    {
+     "id": "AB01-PDF0397-notes_right-L001",
+     "source_line_no": null,
+     "tex": "tur aut dematur de longitudine planetae; exibit lo-",
+     "transcription": "tur aut dematur de longitudine planetae; exibit lo-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0397-notes_right-L002",
+     "source_line_no": null,
+     "tex": "cus radiationis sinistrae aut locus radiationis dex-",
+     "transcription": "cus radiationis sinistrae aut locus radiationis dex-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0397-notes_right-L003",
+     "source_line_no": null,
+     "tex": "terae in ecliptica.",
+     "transcription": "terae in ecliptica.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0397-notes_right-L004",
+     "source_line_no": null,
+     "tex": "\\Indent (4) Cuius latera sunt planetae latitudo, arcus",
+     "transcription": "(4) Cuius latera sunt planetae latitudo, arcus",
+     "semantic_anchor": "AB01-PDF0397-N04",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0397-notes_right-L005",
+     "source_line_no": null,
+     "tex": "60° et radiatio quaerenda.",
+     "transcription": "60° et radiatio quaerenda.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0397-notes_right-L006",
+     "source_line_no": null,
+     "tex": "\\Indent (5) \\textit{Magistralis compositio astrolabij} \\Name{Han-}",
+     "transcription": "(5) *Magistralis compositio astrolabij* {sp:Han-}",
+     "semantic_anchor": "AB01-PDF0397-N05",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0397-notes_right-L007",
+     "source_line_no": null,
+     "tex": "\\Name{rici} [sic] \\Name{Bate} \\textit{ad petitionem fratris Vuilhelmi de}",
+     "transcription": "{sp:rici} [sic] {sp:Bate} *ad petitionem fratris Vuilhelmi de*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0397-notes_right-L008",
+     "source_line_no": null,
+     "tex": "\\textit{Morbeka ordinis predicatorum domini pape peni-}",
+     "transcription": "*Morbeka ordinis predicatorum domini pape peni-*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0397-notes_right-L009",
+     "source_line_no": null,
+     "tex": "\\textit{tentiarij et capellani,} fol. d2,v.,–d3,r. (in calce ope-",
+     "transcription": "*tentiarij et capellani,* fol. d2,v.,–d3,r. (in calce ope-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0397-notes_right-L010",
+     "source_line_no": null,
+     "tex": "ris: \\Name{Abraham Iudei} \\textit{de nativitatibus,} Venetijs,",
+     "transcription": "ris: {sp:Abraham Iudei} *de nativitatibus,* Venetijs,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0397-notes_right-L011",
+     "source_line_no": null,
+     "tex": "Erh. Ratdolt, 1485). — Opusculum auctor explevit",
+     "transcription": "Erh. Ratdolt, 1485). — Opusculum auctor explevit",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0397-notes_right-L012",
+     "source_line_no": null,
+     "tex": "Machlinii (Malines, in Belgica) quinto idus Octo-",
+     "transcription": "Machlinii (Malines, in Belgica) quinto idus Octo-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0397-notes_right-L013",
+     "source_line_no": null,
+     "tex": "bris 1274; de eo cfr. etiam M. \\Name{Steinschneider} in",
+     "transcription": "bris 1274; de eo cfr. etiam M. {sp:Steinschneider} in",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0397-notes_right-L014",
+     "source_line_no": null,
+     "tex": "\\textit{Orientalistische Litteratur-Zeitung,} IV Jahrg., 15 No-",
+     "transcription": "*Orientalistische Litteratur-Zeitung,* IV Jahrg., 15 No-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0397-notes_right-L015",
+     "source_line_no": null,
+     "tex": "vemb. 1901, col. 444-45.",
+     "transcription": "vemb. 1901, col. 444-45.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0397-notes_right-L016",
+     "source_line_no": null,
+     "tex": "\\Indent (6) De quibus dixi p. 28, adn. 3.",
+     "transcription": "(6) De quibus dixi p. 28, adn. 3.",
+     "semantic_anchor": "AB01-PDF0397-N06",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  }
+ ]
+}
