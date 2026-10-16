@@ -23,6 +23,14 @@ The edition is diplomatic and line-anchored: every printed line is one line of t
 | `figures/` | The redrawn ornaments (TikZ), one file per ornament; `figures/src/` holds the measurements of each (for a head ornament: the rule, and the outline of its sort averaged from the printed copies, with their pitch) and `make_figure.py`, which writes the TikZ file from them. |
 | `check_observations.py` | Checks the line numbers named in the observations against the transcribed lines. |
 | `fonts/NallinoSigns.otf` | The zero sign of the tables (loaded by the preamble that this edition shares with the notes on the tables). |
+| `corrigenda_routing.tsv`, `corrigenda_routing.json` | The routing of the Addenda et emendanda (pp. XVI–XXXI) to the places that they concern: one row for each correction or addition (133 rows), with the lines of this edition that print it, the anchors of the place concerned (a line of a page record of S01–S04, S07, S09 and S10–S12, or a row of a table of S06 and S13), where it is recorded there, and what was checked. No correction is applied to the transcribed text (`REGISTERED_NOT_APPLIED`). Written by `write_routing.py`. |
+| `page_disposition.tsv` | The disposition of every page of the master scan from PDF 417, the blank leaf after the last page of Part I, to PDF 449, with what each page holds and its record. Written by `write_disposition.py`. |
+
+## The Addenda et emendanda and the places they concern
+
+Each entry of the Addenda et emendanda (pp. XVI–XXXI) is linked to the place that it concerns in `corrigenda_routing.tsv`, and none is applied to the transcribed text: every place keeps its printed form. Where the place is a line of a page record of this edition (Part I pp. 54–327 in S02–S04, Nallino's notes and glossary in S07 and S09, the Arabic text in S10–S12), the entry is also recorded there as an observation, with what was checked: the reading that the entry corrects is found on the line named (in the Arabic text by Nallino's margin numbers, which count the empty lines about the headings, save on p. ١٩٨, where the entry counts the printed lines), dates, computations and formulas are recomputed, and the arguments of the longer additions are summarized. The corrections to the tables of Part II and Part III are compared with the transcribed tables of S06 and S13; most of them stand already in the ledgers of those tables, from Nallino's notes on the tables. The entries on the preface of Part I (S01, v003) and on pp. 1–53 (the S02 v009 candidate) are routed in the ledger only.
+
+Five entries name a wrong place or number; each is kept as printed and described in the record of its page: «xxx, lin. 8–10» (p. XVI) is Part I, p. XXXI, lines 8–10; «ad nr. 4» (p. XXVII) is year 6 of the table of p. 32; «2° 49′ 22″» (p. XXIX) is 2° 49′ 2″ in Nallino's note on p. 79 (Part II, p. 226) and 2° 49′ 4″ by computation; «234,6» (p. XXX) is p. 235, line 6; «٢٦٤, n. 2» (p. XXXI) is note 2 of p. ٢٦٣.
 
 ## Conventions
 
