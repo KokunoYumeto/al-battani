@@ -1,0 +1,376 @@
+{
+ "anchor": "AB01-PDF0413",
+ "master_pdf_page": 413,
+ "printed_page": 324,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "margin_locators": [],
+ "observations": [
+  "body L1-L2: the head is set in capitals and small capitals; the dash after «a)» measures 9.5 pt. The place is p. 147 of the translation, appendix D, on the stations of the planets.",
+  "body L3-L26: heavy brackets open and close Schiaparelli's addition, from «Totum» (L3) to «Schiaparelli.» (L26); a speck stands in the left margin before L3. «Albatenii» (L3), «al–Battānī» (L7), «Ptolemaeus» (L16) and «Interpolator» (L20) are letter-spaced; «Ptolemaeus» (L13) and «Interpolator» (L4, L15) are not. «354–55» has a long dash (5.3 pt), as have «al–Battānī» (5.4 pt) and «138–39» (L7, joined to the figures); the dashes after «praetereunt.» and «tribuere!» measure 9.8 and 10.2 pt. The hyphens of «Alma-», «con-» and «inter-» measure 2.5, 2.4 and 2.6 pt; that of «distan-» prints as a raised dot. The degree sign after «112» (L17) prints joined to the 2. The numbers of Saturn are those of the table of stations, vol. II, p. 138: 112° 45′ and 247° 15′ at 6° from the apogee of the eccentric, 115° 29′ and 244° 31′ at 180°, the two stations of each row adding up to 360°. The days of appendix D follow from them as L18-L19 describe: at the mean motion of the anomaly of Saturn, 360° in its synodic period of about 378.1 days or about 0° 57′ 8″ a day, 112° 45′ take 118.4 days (118 ½ on p. 147); the station of Mars from 157° 33′ to 169° 14′ of anomaly (p. 147, L22-L23), at about 0° 27′ 42″ a day, takes 25.3 days, the 25 ⅓ of L25 and of p. 147, L20 (the codex has 24 ⅓).",
+  "body L27-L31: «al–Kātib» has a long dash (5.2 pt). Note d on chapter L, p. 291, says that this name of Mercury, «scriba» or «scriptor», occurs only in appendix D (vol. III, p. 221, l. 15 of the text). «138–39» (L30) has a long dash (5.2 pt).",
+  "body L32-L35: the head is set in capitals and small capitals; the dash after «a)» measures 9.7 pt. Appendix E begins on p. 148 of the translation. «187–88» and «9–11» have long dashes (5.3 pt each). The promise is p. 129, L9-L11 of the translation («quarum usum in ultimo capitum post finem libri explicavimus»), as printed."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0413-body-L001",
+     "source_line_no": null,
+     "tex": "\\CenterLine{A\\textsc{d} \\textsc{adpendicem} D.}",
+     "transcription": "A{sc:d} {sc:adpendicem} D.",
+     "semantic_anchor": "AB01-PDF0413-H01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0413-body-L002",
+     "source_line_no": null,
+     "tex": "\\CenterLine{\\textbf{\\textit{a}}) — \\textit{Pag. 147.}}",
+     "transcription": "{bi:a}) — *Pag. 147.*",
+     "semantic_anchor": "AB01-PDF0413-H02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0413-body-L003",
+     "source_line_no": null,
+     "tex": "\\Indent [Totum hoc caput, crassae ignorantiae monumentum, nemo unquam credet \\Name{Albatenii}",
+     "transcription": "[Totum hoc caput, crassae ignorantiae monumentum, nemo unquam credet {sp:Albatenii}",
+     "semantic_anchor": "AB01-PDF0413-P01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0413-body-L004",
+     "source_line_no": null,
+     "tex": "opus, praesertim cum contra vera praecepta XLVI capitis (p. 114) repugnet. Interpolator stulte",
+     "transcription": "opus, praesertim cum contra vera praecepta XLVI capitis (p. 114) repugnet. Interpolator stulte",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0413-body-L005",
+     "source_line_no": null,
+     "tex": "significationem et usum tabularum stationum planetarum interpretatus est, quae sunt in \\textit{Alma-}",
+     "transcription": "significationem et usum tabularum stationum planetarum interpretatus est, quae sunt in *Alma-*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0413-body-L006",
+     "source_line_no": null,
+     "tex": "\\textit{gesto} XII, 7 (ed. Halma t. II, p. 354–55) et, cum paulula mutatione in numeris Martis, apud",
+     "transcription": "*gesto* XII, 7 (ed. Halma t. II, p. 354–55) et, cum paulula mutatione in numeris Martis, apud",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0413-body-L007",
+     "source_line_no": null,
+     "tex": "\\Name{al–Battānī}, t. II, p. 138–39. Tabularum fundamentum hoc est: cum epicycli centrum moveatur",
+     "transcription": "{sp:al–Battānī}, t. II, p. 138–39. Tabularum fundamentum hoc est: cum epicycli centrum moveatur",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0413-body-L008",
+     "source_line_no": null,
+     "tex": "in circumferentia circuli excentrici respectu Terrae, ratio semidiametri epicycli ad eius distan-",
+     "transcription": "in circumferentia circuli excentrici respectu Terrae, ratio semidiametri epicycli ad eius distan-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0413-body-L009",
+     "source_line_no": null,
+     "tex": "tiam geocentricam variat in variis excentrici locis; maxima est in perigeo, minima in apogeo.",
+     "transcription": "tiam geocentricam variat in variis excentrici locis; maxima est in perigeo, minima in apogeo.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0413-body-L010",
+     "source_line_no": null,
+     "tex": "Ergo loca et epochae stationum non possunt uno eodemque fundamento numerali supputari in",
+     "transcription": "Ergo loca et epochae stationum non possunt uno eodemque fundamento numerali supputari in",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0413-body-L011",
+     "source_line_no": null,
+     "tex": "diversis excentrici locis, sed pro singulis quantitatibus longitudinis in excentrico peculiaria",
+     "transcription": "diversis excentrici locis, sed pro singulis quantitatibus longitudinis in excentrico peculiaria",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0413-body-L012",
+     "source_line_no": null,
+     "tex": "elementa sumi debent; stationes respondent diversis inter se epicycli punctis atque diversis",
+     "transcription": "elementa sumi debent; stationes respondent diversis inter se epicycli punctis atque diversis",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0413-body-L013",
+     "source_line_no": null,
+     "tex": "valoribus anomaliae. Hos valores Ptolemaeus in tabulis praebet ad omnes situs centri epicycli",
+     "transcription": "valoribus anomaliae. Hos valores Ptolemaeus in tabulis praebet ad omnes situs centri epicycli",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0413-body-L014",
+     "source_line_no": null,
+     "tex": "in excentrico.",
+     "transcription": "in excentrico.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0413-body-L015",
+     "source_line_no": null,
+     "tex": "\\Indent Interpolator, qui haec omnia fortasse ignorabat, absurde tabulas interpretatus est. Dicit",
+     "transcription": "Interpolator, qui haec omnia fortasse ignorabat, absurde tabulas interpretatus est. Dicit",
+     "semantic_anchor": "AB01-PDF0413-P02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0413-body-L016",
+     "source_line_no": null,
+     "tex": "\\Name{Ptolemaeus} Saturnum, cum epicycli centrum teneat apogeum excentrici, primam stationem",
+     "transcription": "{sp:Ptolemaeus} Saturnum, cum epicycli centrum teneat apogeum excentrici, primam stationem",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0413-body-L017",
+     "source_line_no": null,
+     "tex": "facere in 112° 45′ anomaliae, secundam in 247° 15′; cum vero epicycli centrum in perigeo con-",
+     "transcription": "facere in 112° 45′ anomaliae, secundam in 247° 15′; cum vero epicycli centrum in perigeo con-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0413-body-L018",
+     "source_line_no": null,
+     "tex": "sistat, primam in 115° 29′, secundam in 244° 31′. Hos numeros per motum anomaliae diurnum",
+     "transcription": "sistat, primam in 115° 29′, secundam in 244° 31′. Hos numeros per motum anomaliae diurnum",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0413-body-L019",
+     "source_line_no": null,
+     "tex": "dividendo, numeri dierum cognoscuntur qui ab epocha apogei in epicyclo ad epocham primae",
+     "transcription": "dividendo, numeri dierum cognoscuntur qui ab epocha apogei in epicyclo ad epocham primae",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0413-body-L020",
+     "source_line_no": null,
+     "tex": "et secundae stationis praetereunt. — \\Name{Interpolator} noster contra dicit Saturnum ab apogeo",
+     "transcription": "et secundae stationis praetereunt. — {sp:Interpolator} noster contra dicit Saturnum ab apogeo",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0413-body-L021",
+     "source_line_no": null,
+     "tex": "epicycli usque ad anomaliam 112° 45′ directum esse, qualiscumque fuerit planetae situs in zodiaco;",
+     "transcription": "epicycli usque ad anomaliam 112° 45′ directum esse, qualiscumque fuerit planetae situs in zodiaco;",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0413-body-L022",
+     "source_line_no": null,
+     "tex": "postea ab anomalia 112° 45′ ad 115° 29′ morari; inde usque ad anomaliam 244° 31′ regredi;",
+     "transcription": "postea ab anomalia 112° 45′ ad 115° 29′ morari; inde usque ad anomaliam 244° 31′ regredi;",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0413-body-L023",
+     "source_line_no": null,
+     "tex": "denuo usque ad anomaliam 247° 15′ morari; demum progredi directo motu usque ad 360°,",
+     "transcription": "denuo usque ad anomaliam 247° 15′ morari; demum progredi directo motu usque ad 360°,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0413-body-L024",
+     "source_line_no": null,
+     "tex": "scilicet usque quo ad apogeum epicycli redeat. Nec animadvertit quot absurda ex hac inter-",
+     "transcription": "scilicet usque quo ad apogeum epicycli redeat. Nec animadvertit quot absurda ex hac inter-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0413-body-L025",
+     "source_line_no": null,
+     "tex": "pretatione oriantur, praesertim in Marte, cui ille audet stationem 25 $\\qfrac{1}{3}$ dierum tribuere! —",
+     "transcription": "pretatione oriantur, praesertim in Marte, cui ille audet stationem 25 {sfrac:1/3} dierum tribuere! —",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0413-body-L026",
+     "source_line_no": null,
+     "tex": "\\textsc{Schiaparelli}.]",
+     "transcription": "{sc:Schiaparelli}.]",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0413-body-L027",
+     "source_line_no": null,
+     "tex": "\\Indent Caput non genuinum etiam apparet ex usu vocis \\textit{al–Kātib} ad Mercurium designandum;",
+     "transcription": "Caput non genuinum etiam apparet ex usu vocis *al–Kātib* ad Mercurium designandum;",
+     "semantic_anchor": "AB01-PDF0413-P03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0413-body-L028",
+     "source_line_no": null,
+     "tex": "cfr. quae dixi p. 291, in adn. \\textbf{\\textit{d}} ad L caput.",
+     "transcription": "cfr. quae dixi p. 291, in adn. {bi:d} ad L caput.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0413-body-L029",
+     "source_line_no": null,
+     "tex": "\\Indent Numeros non poteram nisi \\textit{ad insipientis interpolatoris mentem} emendare. Itaque gradus",
+     "transcription": "Numeros non poteram nisi *ad insipientis interpolatoris mentem* emendare. Itaque gradus",
+     "semantic_anchor": "AB01-PDF0413-P04",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0413-body-L030",
+     "source_line_no": null,
+     "tex": "anomaliae a tabula stationum t. II, p. 138–39 deduxi; eosque per medium motum diurnum",
+     "transcription": "anomaliae a tabula stationum t. II, p. 138–39 deduxi; eosque per medium motum diurnum",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0413-body-L031",
+     "source_line_no": null,
+     "tex": "anomaliae cuiusque planetae dividens, numeros dierum inveni.",
+     "transcription": "anomaliae cuiusque planetae dividens, numeros dierum inveni.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0413-body-L032",
+     "source_line_no": null,
+     "tex": "\\CenterLine{A\\textsc{d} \\textsc{adpendicem} E.}",
+     "transcription": "A{sc:d} {sc:adpendicem} E.",
+     "semantic_anchor": "AB01-PDF0413-H32",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0413-body-L033",
+     "source_line_no": null,
+     "tex": "\\CenterLine{\\textbf{\\textit{a}}) — \\textit{Pag. 148.}}",
+     "transcription": "{bi:a}) — *Pag. 148.*",
+     "semantic_anchor": "AB01-PDF0413-H33",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0413-body-L034",
+     "source_line_no": null,
+     "tex": "\\Indent Usum tabularum t. II, p. 187–88 explicat, sicut in LIII capite, pag. 129, l. 9–11, facere",
+     "transcription": "Usum tabularum t. II, p. 187–88 explicat, sicut in LIII capite, pag. 129, l. 9–11, facere",
+     "semantic_anchor": "AB01-PDF0413-P05",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0413-body-L035",
+     "source_line_no": null,
+     "tex": "promiserat.",
+     "transcription": "promiserat.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    }
+   ]
+  }
+ ]
+}
