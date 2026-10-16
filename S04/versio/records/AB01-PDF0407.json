@@ -1,0 +1,417 @@
+{
+ "anchor": "AB01-PDF0407",
+ "master_pdf_page": 407,
+ "printed_page": 318,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "margin_locators": [],
+ "observations": [
+  "body L1-L2: the dash after «a)» measures 10.2 pt; «12–19» has a long dash (5.6 pt). The place is p. 137, L12-L19 of the translation, which end with the sign a: the azimuth of the qiblah by calculation, from the sines of the differences of longitude and latitude.",
+  "body L3-L10: the figure stands on the left of these lines and is redrawn from the print: the meridian CB of Mekkah (1.6 pt, printed heavier) and the arc CA perpendicular to it (1.1 pt) as straight strokes fitted to the print, the great circle AB as a curve traced along the middle of its printed stroke (1.7 pt), and the double mark of the angle BAC at A as two arcs fitted to their ink; the letters C, A, B are bold italic. «Al–Battānī» (L10) is letter-spaced, with a long dash (5.3 pt).",
+  "body L11-L15: (β) is al-Battānī's rule of p. 137, L12-L14 of the translation, (α) that of L15-L16. The minus signs are printed as dashes (10.0 to 10.2 pt) and set as minus signs. In the triangle ACB, right-angled at C, sin BAC = R sin BC : sin AB exactly; (α) puts φ′ − φ for BC, while C, the foot of the perpendicular AC, lies on the meridian of Mekkah at a latitude higher than φ′. For a city at 33.3° N, 44.4° E (Baghdad) and Mekkah at 21.42° N, 39.83° E, C lies at 33.38° N and BC = 11.96° against φ′ − φ = 11.88°, and the distance, 12.55°, is 12.75° by (β).",
+  "body L16-L17: the minus sign (9.5 pt) is printed as a dash and set as a minus sign. The first member of the «Vera formula» is not exact: in the triangle ACB, right-angled at C, cos BAC = cos BC · sin AC : sin AB (= R tan AC : tan AB), while R sin AC : sin AB is sin ABC, the sine of the angle at Mekkah. With the sines to the radius R, as in (α), sin AC = sin (λ − λ′) cos φ′ : R, so the last member is R times the middle one and should read sin (λ − λ′) cos φ′ : sin distantiae; it too gives sin ABC. Further, AC, perpendicular to the meridian of Mekkah, is not the east-west line of the city; the angle of the qiblah with that line has the cosine sin (λ − λ′) cos φ : sin distantiae, with the latitude φ of Mekkah in place of φ′. In the example BAC = 72.55°, while R sin AC : sin AB gives 72.15°; AC makes 87.49° with the meridian of the city, the qiblah makes 70.04° with its east-west line, and (α) with the distance of (β) gives 68.84°, 3.7° less than BAC, as L33 says (3° or 4°). The printed form is kept.",
+  "body L18-L23: «al–Battānī» (L18) is letter-spaced, with a long dash (5.4 pt); raised dots stand between «inveniri» and «debebat» and after «al–Battānī» and are not transcribed. The rule of L20 is right: it is crd² distantiae = crd² (φ′ − φ) + crd² (λ − λ′) cos φ cos φ′ : R², and since crd² x = 2R (R − cos x) with the cosines to the radius R, it is the formula of L22; in the example both give 12.55°. The minus signs of L20 and L22 are printed as dashes (9.6 to 10.1 pt). «202–3» (L21) has a long dash (5.3 pt); pp. 202-203 derive the formula of L22 from al-Battānī's rule (γ) of chapter XXVI.",
+  "body L24-L36: «al–Battānī» (L24, L30) is letter-spaced, with long dashes (5.5 and 5.3 pt). «ple-» has a hyphen (2.6 pt); the dash before «Ce-» measures 10.3 pt and its hyphen 2.8 pt; «8–11» has a long dash (5.2 pt). The place is p. 87, L8-L11 of the translation: the square of the difference of the longitudes of Sun and Moon added to the square of the latitude of the Moon, whose root «est fere distantia Lunae a Sole»; L11-L13 there call the precepts of chapter XXVI «certius et verius».",
+  "body L37-L38: the sentence continues on p. 319. A mark stands above the a of «sciant» (L37) and a speck under the n of «delineari» (L38); they are not transcribed."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0407-body-L001",
+     "source_line_no": null,
+     "tex": "\\CenterLine{A\\textsc{d} \\textsc{caput} LVI.}",
+     "transcription": "A{sc:d} {sc:caput} LVI.",
+     "semantic_anchor": "AB01-PDF0407-H01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0407-body-L002",
+     "source_line_no": null,
+     "tex": "\\CenterLine{\\textbf{\\textit{a}}) — \\textit{Pag. 137, l. 12–19.}}",
+     "transcription": "{bi:a}) — *Pag. 137, l. 12–19.*",
+     "semantic_anchor": "AB01-PDF0407-H02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0407-body-F01",
+     "source_line_no": null,
+     "tex": "\\input{figures/AB01-PDF0407-F01}",
+     "transcription": "[figure, redrawn: figures/AB01-PDF0407-F01.tex]",
+     "semantic_anchor": null,
+     "source_role": "NALLINO_FIGURE"
+    },
+    {
+     "id": "AB01-PDF0407-body-L003",
+     "source_line_no": null,
+     "tex": "\\Indent \\textit{Azimuth qiblae} supputare.",
+     "transcription": "*Azimuth qiblae* supputare.",
+     "semantic_anchor": "AB01-PDF0407-P01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0407-body-L004",
+     "source_line_no": null,
+     "tex": "\\Indent Sit A urbs data (cuius longitudo \\textgreek{λ}′, latitudo \\textgreek{φ}′), B Mekkah (cuius longitudo",
+     "transcription": "Sit A urbs data (cuius longitudo λ′, latitudo φ′), B Mekkah (cuius longitudo",
+     "semantic_anchor": "AB01-PDF0407-P02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0407-body-L005",
+     "source_line_no": null,
+     "tex": "\\textgreek{λ}, latitudo \\textgreek{φ}), BC arcus meridiani terrestris per Mekkah transeuntis, et AB arcus",
+     "transcription": "λ, latitudo φ), BC arcus meridiani terrestris per Mekkah transeuntis, et AB arcus",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0407-body-L006",
+     "source_line_no": null,
+     "tex": "circuli maximi ambas urbes coniungens scilicet earum distantiam metiens. Arcus",
+     "transcription": "circuli maximi ambas urbes coniungens scilicet earum distantiam metiens. Arcus",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0407-body-L007",
+     "source_line_no": null,
+     "tex": "AC circuli maximi ducatur perpendicularis ad meridianum BC, ita ut lineam",
+     "transcription": "AC circuli maximi ducatur perpendicularis ad meridianum BC, ita ut lineam",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0407-body-L008",
+     "source_line_no": null,
+     "tex": "ortus et occasus repraesentet, a qua Arabes azimuth numerare incipiunt. Erit",
+     "transcription": "ortus et occasus repraesentet, a qua Arabes azimuth numerare incipiunt. Erit",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0407-body-L009",
+     "source_line_no": null,
+     "tex": "igitur angulus BAC azimuth qiblae quaesitum.",
+     "transcription": "igitur angulus BAC azimuth qiblae quaesitum.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0407-body-L010",
+     "source_line_no": null,
+     "tex": "\\Indent \\Name{Al–Battānī} ponit:",
+     "transcription": "{sp:Al–Battānī} ponit:",
+     "semantic_anchor": "AB01-PDF0407-P03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0407-body-L011",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.00mm}(\\textgreek{α})}\\rlap{\\hspace*{63.61mm}$\\text{sin azimuth} = R\\,\\dfrac{\\text{sin }(\\text{\\textgreek{φ}}' - \\text{\\textgreek{φ}})}{\\text{sin distantiae}}$\\,,}",
+     "transcription": "(α) $\\text{sin azimuth} = R\\,\\dfrac{\\text{sin }(\\text{φ}' - \\text{φ})}{\\text{sin distantiae}}$\\,,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0407-body-L012",
+     "source_line_no": null,
+     "tex": "quod proxime tantum verum est, nam BC non potest esse praecise differentia latitudinum $\\text{\\textgreek{φ}}' - \\text{\\textgreek{φ}}$.",
+     "transcription": "quod proxime tantum verum est, nam BC non potest esse praecise differentia latitudinum $\\text{φ}' - \\text{φ}$.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0407-body-L013",
+     "source_line_no": null,
+     "tex": "\\Indent Praeterea docet:",
+     "transcription": "Praeterea docet:",
+     "semantic_anchor": "AB01-PDF0407-P04",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0407-body-L014",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{0.00mm}(\\textgreek{β})}\\rlap{\\hspace*{47.22mm}$\\text{sin distantiae} = \\sqrt{\\text{sin}^{2}\\,(\\text{\\textgreek{φ}}' - \\text{\\textgreek{φ}}) + \\text{sin}^{2}\\,(\\text{\\textgreek{λ}} - \\text{\\textgreek{λ}}')}$}",
+     "transcription": "(β) $\\text{sin distantiae} = \\sqrt{\\text{sin}^{2}\\,(\\text{φ}' - \\text{φ}) + \\text{sin}^{2}\\,(\\text{λ} - \\text{λ}')}$",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0407-body-L015",
+     "source_line_no": null,
+     "tex": "quod in figura sphaerali falsum est.",
+     "transcription": "quod in figura sphaerali falsum est.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0407-body-L016",
+     "source_line_no": null,
+     "tex": "\\Indent Vera formula ad azimuth qiblae supputandum erat:",
+     "transcription": "Vera formula ad azimuth qiblae supputandum erat:",
+     "semantic_anchor": "AB01-PDF0407-P05",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0407-body-L017",
+     "source_line_no": null,
+     "tex": "\\CenterLine{$\\text{cos azimuth} = \\text{cos } BAC = R\\,\\dfrac{\\text{sin } AC}{\\text{sin } AB} = R\\,\\dfrac{\\text{sin }(\\text{\\textgreek{λ}} - \\text{\\textgreek{λ}}')\\;\\text{cos \\textgreek{φ}}'}{\\text{sin distantiae}}$\\;.}",
+     "transcription": "$\\text{cos azimuth} = \\text{cos } BAC = R\\,\\dfrac{\\text{sin } AC}{\\text{sin } AB} = R\\,\\dfrac{\\text{sin }(\\text{λ} - \\text{λ}')\\;\\text{cos φ}'}{\\text{sin distantiae}}$\\;.",
+     "semantic_anchor": "AB01-PDF0407-H17",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0407-body-L018",
+     "source_line_no": null,
+     "tex": "\\Indent Distantia autem eadem regula inveniri debebat, qua \\Name{al–Battānī} in XXVI capite docet",
+     "transcription": "Distantia autem eadem regula inveniri debebat, qua {sp:al–Battānī} in XXVI capite docet",
+     "semantic_anchor": "AB01-PDF0407-P06",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0407-body-L019",
+     "source_line_no": null,
+     "tex": "longinquitatem inter duas stellas diversae latitudinis supputare; quae regula,",
+     "transcription": "longinquitatem inter duas stellas diversae latitudinis supputare; quae regula,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0407-body-L020",
+     "source_line_no": null,
+     "tex": "\\CenterLine{$\\text{crd distantiae} = \\sqrt{\\text{crd }(\\text{\\textgreek{λ}} - \\text{\\textgreek{λ}}')\\,\\dfrac{\\text{cos \\textgreek{φ}}}{R} \\times \\text{crd }(\\text{\\textgreek{λ}} - \\text{\\textgreek{λ}}')\\,\\dfrac{\\text{cos \\textgreek{φ}}'}{R} + \\text{crd}^{2}\\,(\\text{\\textgreek{φ}}' - \\text{\\textgreek{φ}})}$\\,,}",
+     "transcription": "$\\text{crd distantiae} = \\sqrt{\\text{crd }(\\text{λ} - \\text{λ}')\\,\\dfrac{\\text{cos φ}}{R} \\times \\text{crd }(\\text{λ} - \\text{λ}')\\,\\dfrac{\\text{cos φ}'}{R} + \\text{crd}^{2}\\,(\\text{φ}' - \\text{φ})}$\\,,",
+     "semantic_anchor": "AB01-PDF0407-H20",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0407-body-L021",
+     "source_line_no": null,
+     "tex": "ut pag. 202–3 ostendi, ad nostram",
+     "transcription": "ut pag. 202–3 ostendi, ad nostram",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0407-body-L022",
+     "source_line_no": null,
+     "tex": "\\CenterLine{$\\text{cos distantiae} = \\text{sin \\textgreek{φ} sin \\textgreek{φ}}' + \\text{cos \\textgreek{φ} cos \\textgreek{φ}}'\\,\\text{cos }(\\text{\\textgreek{λ}} - \\text{\\textgreek{λ}}')$}",
+     "transcription": "$\\text{cos distantiae} = \\text{sin φ sin φ}' + \\text{cos φ cos φ}'\\,\\text{cos }(\\text{λ} - \\text{λ}')$",
+     "semantic_anchor": "AB01-PDF0407-H22",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0407-body-L023",
+     "source_line_no": null,
+     "tex": "facillime reducitur.",
+     "transcription": "facillime reducitur.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0407-body-L024",
+     "source_line_no": null,
+     "tex": "\\Indent Vix credibile quis existimabit \\Name{al–Battānī} falsas formulas docuisse, cum ipse veras iam in",
+     "transcription": "Vix credibile quis existimabit {sp:al–Battānī} falsas formulas docuisse, cum ipse veras iam in",
+     "semantic_anchor": "AB01-PDF0407-P07",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0407-body-L025",
+     "source_line_no": null,
+     "tex": "reliquis similibus problematibus adhibuisset. Sed cur id fecerit non est difficile intellectu.",
+     "transcription": "reliquis similibus problematibus adhibuisset. Sed cur id fecerit non est difficile intellectu.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0407-body-L026",
+     "source_line_no": null,
+     "tex": "Cognitione azimuth qiblae nonnisi architectis opus erat, qui Muslimorum templa construere",
+     "transcription": "Cognitione azimuth qiblae nonnisi architectis opus erat, qui Muslimorum templa construere",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0407-body-L027",
+     "source_line_no": null,
+     "tex": "debuissent; loculus enim in pariete interiore templi ponitur, \\textit{miḥrāb} vocatus, qui directionem",
+     "transcription": "debuissent; loculus enim in pariete interiore templi ponitur, *miḥrāb* vocatus, qui directionem",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0407-body-L028",
+     "source_line_no": null,
+     "tex": "indicat urbis Mekkah, ad quam orantes, e Qorani praecepto, faciem semper convertere debent.",
+     "transcription": "indicat urbis Mekkah, ad quam orantes, e Qorani praecepto, faciem semper convertere debent.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0407-body-L029",
+     "source_line_no": null,
+     "tex": "Quoniam error paucorum graduum tunc minimi est momenti, et quoniam architecti illi ple-",
+     "transcription": "Quoniam error paucorum graduum tunc minimi est momenti, et quoniam architecti illi ple-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0407-body-L030",
+     "source_line_no": null,
+     "tex": "rumque non multum erant in calculis trigonometricis versati, \\Name{al–Battānī} voluit iis formulas",
+     "transcription": "rumque non multum erant in calculis trigonometricis versati, {sp:al–Battānī} voluit iis formulas",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0407-body-L031",
+     "source_line_no": null,
+     "tex": "adproximatas tantum, sed veris longe faciliores, praebere. Cum differentia longitudinum parva",
+     "transcription": "adproximatas tantum, sed veris longe faciliores, praebere. Cum differentia longitudinum parva",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0407-body-L032",
+     "source_line_no": null,
+     "tex": "sit, et latitudo datae urbis haud tanta ut arcus paralleli multum differant ab arcubus circuli",
+     "transcription": "sit, et latitudo datae urbis haud tanta ut arcus paralleli multum differant ab arcubus circuli",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0407-body-L033",
+     "source_line_no": null,
+     "tex": "maximi, error fere insensibilis est; in Syria et Mesopotamia 3° vel 4° circiter attingit. — Ce-",
+     "transcription": "maximi, error fere insensibilis est; in Syria et Mesopotamia 3° vel 4° circiter attingit. — Ce-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0407-body-L034",
+     "source_line_no": null,
+     "tex": "terum formulam adproximatam (\\textgreek{β}) iam p. 87, l. 8–11 docuerat ad supputandam distantiam",
+     "transcription": "terum formulam adproximatam (β) iam p. 87, l. 8–11 docuerat ad supputandam distantiam",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0407-body-L035",
+     "source_line_no": null,
+     "tex": "inter Solem et Lunam « \\textit{fere} » intercedentem, sed monens « \\textit{veram} » problematis solutionem",
+     "transcription": "inter Solem et Lunam « *fere* » intercedentem, sed monens « *veram* » problematis solutionem",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0407-body-L036",
+     "source_line_no": null,
+     "tex": "eam esse quam in XXVI capite exposuisset.",
+     "transcription": "eam esse quam in XXVI capite exposuisset.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0407-body-L037",
+     "source_line_no": null,
+     "tex": "\\Indent In usum Muslimorum qui regiones desertas peragrare debeant, ut sciant in quam partem",
+     "transcription": "In usum Muslimorum qui regiones desertas peragrare debeant, ut sciant in quam partem",
+     "semantic_anchor": "AB01-PDF0407-P08",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0407-body-L038",
+     "source_line_no": null,
+     "tex": "vertenda facies sit in orationibus canonicis, solent delineari circuli in aliquot sectores divisi;",
+     "transcription": "vertenda facies sit in orationibus canonicis, solent delineari circuli in aliquot sectores divisi;",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    }
+   ]
+  }
+ ]
+}

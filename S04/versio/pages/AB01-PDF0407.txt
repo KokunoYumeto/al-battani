@@ -1,0 +1,69 @@
+@page 407 318
+% Commentary on chapter 56 a) p. 137, l. 12-19: to compute the azimuth of the qiblah. Let A be the given city (longitude λ′, latitude φ′), B Mekkah (longitude λ, latitude φ), BC the arc of the terrestrial meridian through Mekkah, and AB the arc of the great circle joining the two cities, that is, measuring their distance. Let the arc AC of a great circle be drawn perpendicular to the meridian BC, so that it represents the line of east and west, from which the Arabs begin to count the azimuth. The angle BAC is then the azimuth of the qiblah sought. Al-Battānī puts: (α) sin azimuth = R sin (φ′ − φ) / sin distance, which is only approximately true, since BC cannot be exactly the difference of the latitudes φ′ − φ. He further teaches: (β) sin distance = √(sin² (φ′ − φ) + sin² (λ − λ′)), which is false in a spherical figure. The true formula for computing the azimuth of the qiblah would have been: cos azimuth = cos BAC = R sin AC / sin AB = R sin (λ − λ′) cos φ′ / sin distance. The distance should have been found by the same rule by which al-Battānī in chapter XXVI teaches to compute the distance between two stars of different latitude; this rule, crd distance = √(crd (λ − λ′) cos φ / R × crd (λ − λ′) cos φ′ / R + crd² (φ′ − φ)), reduces very easily, as I showed on pp. 202-3, to our cos distance = sin φ sin φ′ + cos φ cos φ′ cos (λ − λ′). Hardly anyone will believe that al-Battānī taught false formulas, when he himself had already used true ones in the other similar problems. But why he did so is not hard to understand. Knowledge of the azimuth of the qiblah was needed only by architects who had to build the temples of the Muslims; for in the inner wall of the temple a niche is placed, called miḥrāb, which shows the direction of the city of Mekkah, towards which those praying must always turn their face, by the precept of the Qur'an. Since an error of a few degrees is then of very little moment, and since those architects were mostly not much versed in trigonometric computations, al-Battānī wished to give them formulas only approximate, but much easier than the true ones. When the difference of the longitudes is small, and the latitude of the given city not so great that the arcs of the parallel differ much from the arcs of the great circle, the error is almost insensible; in Syria and Mesopotamia it reaches about 3° or 4°. Moreover, he had already taught the approximate formula (β) on p. 87, l. 8-11 to compute the distance between the Sun and the Moon «approximately», but warning that the «true» solution of the problem was the one he had set out in chapter XXVI. For the use of Muslims who must travel through desert regions, so that they know in which direction the face is to be turned in the canonical prayers, circles divided into some sectors are commonly drawn (continued).
+@nonum
+@fontsize 15 17
+@vspace 10.37
+@center A{sc:d} {sc:caput} LVI.
+@normal
+@vspace 2.74
+@center {bi:a}) — *Pag. 137, l. 12–19.*
+@vspace 3.34
+@wrap 0.130 AB01-PDF0407-F01
+^ *Azimuth qiblae* supputare.
+^ Sit A urbs data (cuius longitudo λ′, latitudo φ′), B Mekkah (cuius longitudo
+λ, latitudo φ), BC arcus meridiani terrestris per Mekkah transeuntis, et AB arcus
+circuli maximi ambas urbes coniungens scilicet earum distantiam metiens. Arcus
+AC circuli maximi ducatur perpendicularis ad meridianum BC, ita ut lineam
+ortus et occasus repraesentet, a qua Arabes azimuth numerare incipiunt. Erit
+@vspace 0.03
+igitur angulus BAC azimuth qiblae quaesitum.
+@vspace 0.08
+^ {sp:Al–Battānī} ponit:
+@endwrap
+@vspace -0.25
+@at 0:(α) | 63.61:$\text{sin azimuth} = R\,\dfrac{\text{sin }(\text{φ}' - \text{φ})}{\text{sin distantiae}}$\,,
+@vspace 1.66
+quod proxime tantum verum est, nam BC non potest esse praecise differentia latitudinum $\text{φ}' - \text{φ}$.
+@vspace 0.01
+^ Praeterea docet:
+@vspace 0.35
+@at 0:(β) | 47.22:$\text{sin distantiae} = \sqrt{\text{sin}^{2}\,(\text{φ}' - \text{φ}) + \text{sin}^{2}\,(\text{λ} - \text{λ}')}$
+@vspace 0.75
+quod in figura sphaerali falsum est.
+^ Vera formula ad azimuth qiblae supputandum erat:
+@vspace 1.03
+@center $\text{cos azimuth} = \text{cos } BAC = R\,\dfrac{\text{sin } AC}{\text{sin } AB} = R\,\dfrac{\text{sin }(\text{λ} - \text{λ}')\;\text{cos φ}'}{\text{sin distantiae}}$\;.
+@vspace 1.64
+^ Distantia autem eadem regula inveniri debebat, qua {sp:al–Battānī} in XXVI capite docet
+longinquitatem inter duas stellas diversae latitudinis supputare; quae regula,
+@vspace 0.74
+@center $\text{crd distantiae} = \sqrt{\text{crd }(\text{λ} - \text{λ}')\,\dfrac{\text{cos φ}}{R} \times \text{crd }(\text{λ} - \text{λ}')\,\dfrac{\text{cos φ}'}{R} + \text{crd}^{2}\,(\text{φ}' - \text{φ})}$\,,
+@vspace 0.26
+ut pag. 202–3 ostendi, ad nostram
+@vspace 1.13
+@center $\text{cos distantiae} = \text{sin φ sin φ}' + \text{cos φ cos φ}'\,\text{cos }(\text{λ} - \text{λ}')$
+facillime reducitur.
+@vspace -0.02
+^ Vix credibile quis existimabit {sp:al–Battānī} falsas formulas docuisse, cum ipse veras iam in
+reliquis similibus problematibus adhibuisset. Sed cur id fecerit non est difficile intellectu.
+Cognitione azimuth qiblae nonnisi architectis opus erat, qui Muslimorum templa construere
+@vspace -0.04
+debuissent; loculus enim in pariete interiore templi ponitur, *miḥrāb* vocatus, qui directionem
+indicat urbis Mekkah, ad quam orantes, e Qorani praecepto, faciem semper convertere debent.
+Quoniam error paucorum graduum tunc minimi est momenti, et quoniam architecti illi ple-
+rumque non multum erant in calculis trigonometricis versati, {sp:al–Battānī} voluit iis formulas
+adproximatas tantum, sed veris longe faciliores, praebere. Cum differentia longitudinum parva
+sit, et latitudo datae urbis haud tanta ut arcus paralleli multum differant ab arcubus circuli
+maximi, error fere insensibilis est; in Syria et Mesopotamia 3° vel 4° circiter attingit. — Ce-
+terum formulam adproximatam (β) iam p. 87, l. 8–11 docuerat ad supputandam distantiam
+inter Solem et Lunam « *fere* » intercedentem, sed monens « *veram* » problematis solutionem
+eam esse quam in XXVI capite exposuisset.
+^ In usum Muslimorum qui regiones desertas peragrare debeant, ut sciant in quam partem
+vertenda facies sit in orationibus canonicis, solent delineari circuli in aliquot sectores divisi;
+@obs body L1-L2: the dash after «a)» measures 10.2 pt; «12–19» has a long dash (5.6 pt). The place is p. 137, L12-L19 of the translation, which end with the sign a: the azimuth of the qiblah by calculation, from the sines of the differences of longitude and latitude.
+@obs body L3-L10: the figure stands on the left of these lines and is redrawn from the print: the meridian CB of Mekkah (1.6 pt, printed heavier) and the arc CA perpendicular to it (1.1 pt) as straight strokes fitted to the print, the great circle AB as a curve traced along the middle of its printed stroke (1.7 pt), and the double mark of the angle BAC at A as two arcs fitted to their ink; the letters C, A, B are bold italic. «Al–Battānī» (L10) is letter-spaced, with a long dash (5.3 pt).
+@obs body L11-L15: (β) is al-Battānī's rule of p. 137, L12-L14 of the translation, (α) that of L15-L16. The minus signs are printed as dashes (10.0 to 10.2 pt) and set as minus signs. In the triangle ACB, right-angled at C, sin BAC = R sin BC : sin AB exactly; (α) puts φ′ − φ for BC, while C, the foot of the perpendicular AC, lies on the meridian of Mekkah at a latitude higher than φ′. For a city at 33.3° N, 44.4° E (Baghdad) and Mekkah at 21.42° N, 39.83° E, C lies at 33.38° N and BC = 11.96° against φ′ − φ = 11.88°, and the distance, 12.55°, is 12.75° by (β).
+@obs body L16-L17: the minus sign (9.5 pt) is printed as a dash and set as a minus sign. The first member of the «Vera formula» is not exact: in the triangle ACB, right-angled at C, cos BAC = cos BC · sin AC : sin AB (= R tan AC : tan AB), while R sin AC : sin AB is sin ABC, the sine of the angle at Mekkah. With the sines to the radius R, as in (α), sin AC = sin (λ − λ′) cos φ′ : R, so the last member is R times the middle one and should read sin (λ − λ′) cos φ′ : sin distantiae; it too gives sin ABC. Further, AC, perpendicular to the meridian of Mekkah, is not the east-west line of the city; the angle of the qiblah with that line has the cosine sin (λ − λ′) cos φ : sin distantiae, with the latitude φ of Mekkah in place of φ′. In the example BAC = 72.55°, while R sin AC : sin AB gives 72.15°; AC makes 87.49° with the meridian of the city, the qiblah makes 70.04° with its east-west line, and (α) with the distance of (β) gives 68.84°, 3.7° less than BAC, as L33 says (3° or 4°). The printed form is kept.
+@obs body L18-L23: «al–Battānī» (L18) is letter-spaced, with a long dash (5.4 pt); raised dots stand between «inveniri» and «debebat» and after «al–Battānī» and are not transcribed. The rule of L20 is right: it is crd² distantiae = crd² (φ′ − φ) + crd² (λ − λ′) cos φ cos φ′ : R², and since crd² x = 2R (R − cos x) with the cosines to the radius R, it is the formula of L22; in the example both give 12.55°. The minus signs of L20 and L22 are printed as dashes (9.6 to 10.1 pt). «202–3» (L21) has a long dash (5.3 pt); pp. 202-203 derive the formula of L22 from al-Battānī's rule (γ) of chapter XXVI.
+@obs body L24-L36: «al–Battānī» (L24, L30) is letter-spaced, with long dashes (5.5 and 5.3 pt). «ple-» has a hyphen (2.6 pt); the dash before «Ce-» measures 10.3 pt and its hyphen 2.8 pt; «8–11» has a long dash (5.2 pt). The place is p. 87, L8-L11 of the translation: the square of the difference of the longitudes of Sun and Moon added to the square of the latitude of the Moon, whose root «est fere distantia Lunae a Sole»; L11-L13 there call the precepts of chapter XXVI «certius et verius».
+@obs body L37-L38: the sentence continues on p. 319. A mark stands above the a of «sciant» (L37) and a speck under the n of «delineari» (L38); they are not transcribed.
