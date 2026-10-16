@@ -1,0 +1,84 @@
+@page 400 311
+% Commentary on chapter 54 d) II continued: the place of Albumasar (Abū Ma‘shar), as Steinschneider first noticed (Lettere, p. 15 note 3 and p. 20), is the chapter «On extracting the rays of the stars according to Ptolemy» in the Introductorium in astronomiam Albumasaris Abalachi octo continens libros partiales, Venice 1506, book VII, ch. 7, beginning: «In extracting the rays of the stars more diversity is found among the various treatises than elsewhere. So we have chosen Ptolemy, whose very words these are .....». The same precepts, with the Latin wording little changed, Nallino finds after the end of the version of ‘Alī ibn Riḍwān's commentary (Haly Heben Rodan) on the Tetrabiblos (note 1: Liber Quadripartiti Ptolemei; Centiloquium eiusdem, etc., Venice 1519, fol. 94 v.-95 r.), where some chapters, not noticed so far, are added, the first entitled «science of the projection of the rays». He has no doubt that this is the place which Ibn al-Qifṭī and Ibn Abī Uṣaybi‘ah say existed only in the copy of Rabban aṭ-Ṭabarī. The method of computation is nevertheless not wrongly ascribed to Ptolemy, as shown below. The rules, when the star is between the ascendant and the midheaven (note 2: all the cases are set out at length by John of Saxony in his commentary on Alcabitius, 1331 (p. 309, note 1), fol. ff7 r.-gg2 v. of the 1485 edition, 30 r.-32 v. of 1521; strangely he says at the end that he has not seen this method set out in any book; if the simple distance AR of the star's degree − AR of the midheaven is taken instead of the hours of distance, the divisor in the formula of the equated radiation is not 6 but the semidiurnal arc of the star's degree): (AR of the star's degree − AR of the midheaven) / temporal hours of the star's degree = hours of distance from the midheaven; the ecliptic arc corresponding to (AR of the star's degree + 60°) = first radiation; the ecliptic arc corresponding to (oblique ascension of the star's degree + 60°) = second radiation; radiation I ± (radiation I − radiation II)/6 × hours of distance = equated radiation, the longitude of the point of the ecliptic on which the left sextile falls; for the right one −60° for +60°; for the quadrature or trine 90° or 120°. Much easier when the planet is on the meridian: the radiation is given by the ecliptic degrees corresponding to (AR of the planet ± 60°); in the ascendant: the ecliptic degrees corresponding to (oblique ascension of the planet's degree ± 60°); in the west or descendant: those corresponding to (oblique ascension of the nadir degree ± 60°) + 180°. Clearly this «Ptolemaic» method is the same as that by which the astrologers determine the directions or profections, as Nallino will show in the notes on chapter LV; they take the amount of the radiation on either side of the star's longitude to be the arc of the ecliptic between the degree of the planet's longitude and the circle of position (note 3: circles of position are the great circles through the common intersections of the meridian and the horizon; their poles are on the prime vertical) drawn through the point of the equator which is 60° or 90° or 120° before or after the right ascension of the planet. But in this way (which Ḥabash also has, f. 114 r.-v., though he does not name Ptolemy) the star is taken to have no latitude and to lie on the ecliptic. If the latitude is not to be neglected, the computation must be changed a little, as in the direction of stars with latitude; that is, for the degree of the ecliptic that gives the longitude of the star the degree culminating with the given star is to be used, when (continued). The left column begins with the end of note 9 of p. 310: «...Saraceni cuiusdam de eris» ed al libro «Tabule Jahen», Rome 1863, p. 13; Abunasar is a corruption of Albumasar; «scientia formae orbis» is the literal version of the Arabic ‘ilm al-hay’ah, which means «astronomy».
+@nonum
+@vspace -0.10
+^ {sp:Albumasaris} seu {sp:Abū Ma‘shar} locus, ut primus M. {sp:Steinschneider} (*Lettere,*
+p. 15 adn. 3, et p. 20) animadvertit, est caput « In extraendis stellarum radiis iuxta Ptholo-
+meum », quod in opere inscripto *Introductorium in astronomiam* {sp:Albumasaris Abalachi}
+*octo continens libros partiales,* Venetiis 1506, lib. VII, cap. 7, reperitur, et cuius haec sunt
+prima verba: « In extrahendis stellarum radii multa diversitas per diversos tractatus invenitur
+« quam alibi. Nam his Ptholomeum elegimus cuius ipsa haec verba..... » — Eadem revera
+praecepta, Latina dictione parum mutata, invenio post finem versionis commentarii {sp:‘Alī ibn}
+{sp:Riḍwān} (Haly Heben Rodan) in *Tetrabiblum* (1). Ibi enim capita nonnulla adduntur, quos
+nemo adhuc animadvertit, quorum primum « scientia proiectionis radiorum » inscribitur. Hoc
+non dubito locum esse quem nonnisi in exemplari {sp:Rabban aṭ–Ṭabarī} exstitisse dicunt Ibn
+al–Qifṭī et Ibn Abī Uṣaybi‘ah. Methodus calculi tamen non iniuria {sp:Ptolemaeo} tribuitur, ut
+infra ostendam.
+^ Regulae haec sunt, cum stella inter ascendens et medium Caelum consistat (2):
+@vspace 0.12
+@center $\dfrac{\text{{AR} gradus stellae} - \text{{AR} medii Caeli}}{\text{tempora horaria gradus stellae}} =$ horae distantiae a medio Caelo.
+@center arcus eclipticae respondens ({AR} gradus stellae $+$ 60°) $=$ radiatio prima.
+@center arcus eclipticae respondens (asc. obliq. grad. stellae $+$ 60°) $=$ radiatio secunda.
+@vspace -0.12
+@center radiatio I $\pm \dfrac{(\text{radiatio I} - \text{radiatio II})}{6} \times$ horae distantiae $=$ radiatio aequata,
+@vspace 0.81
+scilicet longitudo loci eclipticae in quem radiatio sextilis sinistra incidit. Si dextera quaeritur,
+pro $+$ 60° ponantur $-$ 60°; si radiationes quadratae aut trinae investigandae, pro 60 erunt
+90° aut 120° ponendi.
+^ Multo facilius supputatio cum planeta sit in meridiano; tunc enim radiatio indicatur gra-
+dibus eclipticae respondentibus ({AR} planetae $\pm$ 60°). — Cum in ascendente consistat:
+@vspace 0.06
+@center radiatio $=$ gradus eclipt. respondentes (asc. obliq. gradus planetae $\pm$ 60°).
+@vspace -0.01
+^ Cum demum in occidente vel descendente exsistat:
+@center radiatio $=$ gradus eclipt. respond. (asc. obliq. nadir gradus $\pm$ 60°) $+$ 180°.
+@vspace -0.06
+^ Manifeste haec « {sp:Ptolemaei} » methodus eadem est qua astrologi *directiones* vel *pro-*
+*fectiones* determinant, ut in adnotationibus ad LV cap. ostendam; quantitatem radiationis ab
+utraque parte longitudinis stellae considerant igitur esse arcum eclipticae contentum inter
+gradum longitudinis planetae et circulum positionis (3) ductum per aequatoris punctum quod
+ab ascensione recta planetae 60° aut 90° aut 120° ante vel retro distat. Sed hoc modo (quem
+etiam {sp:Ḥabash} f. 114, r.–v., habet, licet Ptolemaeum non memoret) stella ponitur latitu-
+dine carere et in ecliptica consistere. Si latitudo negligenda non censetur, supputatio paucum
+debet mutari sicut in directione stellarum quae latitudinem habent; id est pro gradu eclipticae
+qui longitudinem sideris numerat adhibeatur gradus simul cum dato sidere culminans, quando
+@notes
+@fontsize 9 11.80
+@vspace 3.60
+*ceni cuiusdam de eris » ed al libro « Tabule Ja-*
+*hen »,* Roma 1863, p. 13. — Abunasar est corruptus
+ab Albumasar; « scientia formae orbis » est versio
+litteralis Arabici *‘ilm al-hay’ah,* quod « astrono-
+« miam » significat.
+@vspace -0.10
+^ (1) *Liber Quadripartiti* {sp:Ptolemei}; *Centi-*
+*loquium eiusdem,* etc., Venetiis 1519, fol. 94,v.-95,r.
+^ (2) Fuse omnes casus exponit {sp:Iohannes de}
+{sp:Saxonia}, in commentario quem anno 1331 Chr.
+@vspace 0.06
+scripsit in {sp:Alchabitium} (cfr. supra p. 309, adn. 1);
+@col
+@fontsize 9 11.80
+@vspace 3.56
+fol. ff7,r.-gg2,v. in edit. anni 1485; 30,r.-32,v. in
+edit. 1521. Mirum est eum in fine expositionis di-
+cere: « Hunc modum non vidi expositum nec posi-
+« tum in aliquo libro ». — Si pro horis distantiae
+@vspace 0.01
+sumatur simplex distantia $=$ {AR} gradus stellae $-$ {AR}
+medii Caeli, in formula radiationis aequatae divisor
+@vspace -0.08
+non 6 sed arcus semidiurnus gradus stellae erit.
+^ (3) Circuli positionis sunt circuli maximi qui
+per communes meridiani et horizontis intersectiones
+@vspace 0.07
+transeunt; eorum poli sunt in primo verticali.
+@obs body L1-L6: «Albumasaris» (L1, L3), «Abū Ma‘shar», «Steinschneider» and «Abalachi» are letter-spaced. «extraendis» (L2) and «extrahendis» (L5), and «radii» (L5), are printed so. The dots after «verba» (L6) are five; the dash before «Eadem» measures 10.0 pt.
+@obs body L7-L12: «‘Alī ibn Riḍwān», divided between L7 and L8, «Rabban aṭ–Ṭabarī» and «Ptolemaeo» are letter-spaced; «Ibn al–Qifṭī» and «Ibn Abī Uṣaybi‘ah» (L10-L11) are not. «aṭ–Ṭabarī» and «al–Qifṭī» have long dashes (5.2 and 5.6 pt). «quos» (L8), which refers to «capita», is printed so (the neuter would be quae).
+@obs body L13-L20: the formulas are centred, as printed; the sign printed as the A and the R joined is that of right ascension. The minus signs are printed as dashes (9.7 to 10.2 pt) and set as minus signs. The temporal hours of a degree are a sixth of its semidiurnal arc, so the first formula gives the distance from the midheaven in hours of the star's own day; the rule of L17 interpolates linearly in these hours between radiation I, which it gives on the meridian (0 hours), and radiation II, which it gives with the minus sign on the horizon (6 hours).
+@obs body L21-L25: the dash before «Cum» (L22) measures 10.2 pt. In the descendant the nadir degree is on the eastern horizon, so its oblique ascension ± 60° gives the opposite point of the radiation, and 180° is added.
+@obs body L26-L34: «Ptolemaei» (L26) and «Ḥabash» are letter-spaced; «r.–v.» has a long dash (5.2 pt). «paucum» (L32) is printed so.
+@obs notes_left L1-L5: the end of note 9 begun on p. 310. The dash before «Abunasar» measures 8.0 pt; «al-hay’ah» has a hyphen (2.5 pt).
+@obs notes_left L6-L10: «Ptolemei», «Iohannes de Saxonia», divided between L8 and L9, and «Alchabitium» are letter-spaced; «94,v.-95,r.» has a hyphen (2.9 pt). Note 2 goes on in the right column (L1-L7).
+@obs notes_right L1-L7: «ff7,r.-gg2,v.» and «30,r.-32,v.» have hyphens (3.1 and 2.8 pt); a speck stands before «eum» (L2). The dash before «Si» (L4) measures 8.6 pt, and the minus sign of L5 is printed as a dash (8.3 pt). With the simple distance in degrees the hours of distance are the distance divided by a sixth of the semidiurnal arc, so the divisor 6 of L17 of the body becomes the semidiurnal arc, as printed.
+@obs notes_right L8-L10: a great circle through the north and south points of the horizon has its poles 90° from both, on the circle through the east and west points and the zenith, the prime vertical, as printed.

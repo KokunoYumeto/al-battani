@@ -1,0 +1,581 @@
+{
+ "anchor": "AB01-PDF0400",
+ "master_pdf_page": 400,
+ "printed_page": 311,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "margin_locators": [],
+ "observations": [
+  "body L1-L6: «Albumasaris» (L1, L3), «Abū Ma‘shar», «Steinschneider» and «Abalachi» are letter-spaced. «extraendis» (L2) and «extrahendis» (L5), and «radii» (L5), are printed so. The dots after «verba» (L6) are five; the dash before «Eadem» measures 10.0 pt.",
+  "body L7-L12: «‘Alī ibn Riḍwān», divided between L7 and L8, «Rabban aṭ–Ṭabarī» and «Ptolemaeo» are letter-spaced; «Ibn al–Qifṭī» and «Ibn Abī Uṣaybi‘ah» (L10-L11) are not. «aṭ–Ṭabarī» and «al–Qifṭī» have long dashes (5.2 and 5.6 pt). «quos» (L8), which refers to «capita», is printed so (the neuter would be quae).",
+  "body L13-L20: the formulas are centred, as printed; the sign printed as the A and the R joined is that of right ascension. The minus signs are printed as dashes (9.7 to 10.2 pt) and set as minus signs. The temporal hours of a degree are a sixth of its semidiurnal arc, so the first formula gives the distance from the midheaven in hours of the star's own day; the rule of L17 interpolates linearly in these hours between radiation I, which it gives on the meridian (0 hours), and radiation II, which it gives with the minus sign on the horizon (6 hours).",
+  "body L21-L25: the dash before «Cum» (L22) measures 10.2 pt. In the descendant the nadir degree is on the eastern horizon, so its oblique ascension ± 60° gives the opposite point of the radiation, and 180° is added.",
+  "body L26-L34: «Ptolemaei» (L26) and «Ḥabash» are letter-spaced; «r.–v.» has a long dash (5.2 pt). «paucum» (L32) is printed so.",
+  "notes_left L1-L5: the end of note 9 begun on p. 310. The dash before «Abunasar» measures 8.0 pt; «al-hay’ah» has a hyphen (2.5 pt).",
+  "notes_left L6-L10: «Ptolemei», «Iohannes de Saxonia», divided between L8 and L9, and «Alchabitium» are letter-spaced; «94,v.-95,r.» has a hyphen (2.9 pt). Note 2 goes on in the right column (L1-L7).",
+  "notes_right L1-L7: «ff7,r.-gg2,v.» and «30,r.-32,v.» have hyphens (3.1 and 2.8 pt); a speck stands before «eum» (L2). The dash before «Si» (L4) measures 8.6 pt, and the minus sign of L5 is printed as a dash (8.3 pt). With the simple distance in degrees the hours of distance are the distance divided by a sixth of the semidiurnal arc, so the divisor 6 of L17 of the body becomes the semidiurnal arc, as printed.",
+  "notes_right L8-L10: a great circle through the north and south points of the horizon has its poles 90° from both, on the circle through the east and west points and the zenith, the prime vertical, as printed."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0400-body-L001",
+     "source_line_no": null,
+     "tex": "\\Indent \\Name{Albumasaris} seu \\Name{Abū Ma‘shar} locus, ut primus M. \\Name{Steinschneider} (\\textit{Lettere,}",
+     "transcription": "{sp:Albumasaris} seu {sp:Abū Ma‘shar} locus, ut primus M. {sp:Steinschneider} (*Lettere,*",
+     "semantic_anchor": "AB01-PDF0400-P01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0400-body-L002",
+     "source_line_no": null,
+     "tex": "p. 15 adn. 3, et p. 20) animadvertit, est caput « In extraendis stellarum radiis iuxta Ptholo-",
+     "transcription": "p. 15 adn. 3, et p. 20) animadvertit, est caput « In extraendis stellarum radiis iuxta Ptholo-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0400-body-L003",
+     "source_line_no": null,
+     "tex": "meum », quod in opere inscripto \\textit{Introductorium in astronomiam} \\Name{Albumasaris Abalachi}",
+     "transcription": "meum », quod in opere inscripto *Introductorium in astronomiam* {sp:Albumasaris Abalachi}",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0400-body-L004",
+     "source_line_no": null,
+     "tex": "\\textit{octo continens libros partiales,} Venetiis 1506, lib. VII, cap. 7, reperitur, et cuius haec sunt",
+     "transcription": "*octo continens libros partiales,* Venetiis 1506, lib. VII, cap. 7, reperitur, et cuius haec sunt",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0400-body-L005",
+     "source_line_no": null,
+     "tex": "prima verba: « In extrahendis stellarum radii multa diversitas per diversos tractatus invenitur",
+     "transcription": "prima verba: « In extrahendis stellarum radii multa diversitas per diversos tractatus invenitur",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0400-body-L006",
+     "source_line_no": null,
+     "tex": "« quam alibi. Nam his Ptholomeum elegimus cuius ipsa haec verba..... » — Eadem revera",
+     "transcription": "« quam alibi. Nam his Ptholomeum elegimus cuius ipsa haec verba..... » — Eadem revera",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0400-body-L007",
+     "source_line_no": null,
+     "tex": "praecepta, Latina dictione parum mutata, invenio post finem versionis commentarii \\Name{‘Alī ibn}",
+     "transcription": "praecepta, Latina dictione parum mutata, invenio post finem versionis commentarii {sp:‘Alī ibn}",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0400-body-L008",
+     "source_line_no": null,
+     "tex": "\\Name{Riḍwān} (Haly Heben Rodan) in \\textit{Tetrabiblum} (1). Ibi enim capita nonnulla adduntur, quos",
+     "transcription": "{sp:Riḍwān} (Haly Heben Rodan) in *Tetrabiblum* (1). Ibi enim capita nonnulla adduntur, quos",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0400-body-L009",
+     "source_line_no": null,
+     "tex": "nemo adhuc animadvertit, quorum primum « scientia proiectionis radiorum » inscribitur. Hoc",
+     "transcription": "nemo adhuc animadvertit, quorum primum « scientia proiectionis radiorum » inscribitur. Hoc",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0400-body-L010",
+     "source_line_no": null,
+     "tex": "non dubito locum esse quem nonnisi in exemplari \\Name{Rabban aṭ–Ṭabarī} exstitisse dicunt Ibn",
+     "transcription": "non dubito locum esse quem nonnisi in exemplari {sp:Rabban aṭ–Ṭabarī} exstitisse dicunt Ibn",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0400-body-L011",
+     "source_line_no": null,
+     "tex": "al–Qifṭī et Ibn Abī Uṣaybi‘ah. Methodus calculi tamen non iniuria \\Name{Ptolemaeo} tribuitur, ut",
+     "transcription": "al–Qifṭī et Ibn Abī Uṣaybi‘ah. Methodus calculi tamen non iniuria {sp:Ptolemaeo} tribuitur, ut",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0400-body-L012",
+     "source_line_no": null,
+     "tex": "infra ostendam.",
+     "transcription": "infra ostendam.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0400-body-L013",
+     "source_line_no": null,
+     "tex": "\\Indent Regulae haec sunt, cum stella inter ascendens et medium Caelum consistat (2):",
+     "transcription": "Regulae haec sunt, cum stella inter ascendens et medium Caelum consistat (2):",
+     "semantic_anchor": "AB01-PDF0400-P02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0400-body-L014",
+     "source_line_no": null,
+     "tex": "\\CenterLine{$\\dfrac{\\text{\\ARsign{} gradus stellae} - \\text{\\ARsign{} medii Caeli}}{\\text{tempora horaria gradus stellae}} =$ horae distantiae a medio Caelo.}",
+     "transcription": "$\\dfrac{\\text{{AR} gradus stellae} - \\text{{AR} medii Caeli}}{\\text{tempora horaria gradus stellae}} =$ horae distantiae a medio Caelo.",
+     "semantic_anchor": "AB01-PDF0400-H14",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0400-body-L015",
+     "source_line_no": null,
+     "tex": "\\CenterLine{arcus eclipticae respondens (\\ARsign{} gradus stellae $+$ 60°) $=$ radiatio prima.}",
+     "transcription": "arcus eclipticae respondens ({AR} gradus stellae $+$ 60°) $=$ radiatio prima.",
+     "semantic_anchor": "AB01-PDF0400-H15",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0400-body-L016",
+     "source_line_no": null,
+     "tex": "\\CenterLine{arcus eclipticae respondens (asc. obliq. grad. stellae $+$ 60°) $=$ radiatio secunda.}",
+     "transcription": "arcus eclipticae respondens (asc. obliq. grad. stellae $+$ 60°) $=$ radiatio secunda.",
+     "semantic_anchor": "AB01-PDF0400-H16",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0400-body-L017",
+     "source_line_no": null,
+     "tex": "\\CenterLine{radiatio I $\\pm \\dfrac{(\\text{radiatio I} - \\text{radiatio II})}{6} \\times$ horae distantiae $=$ radiatio aequata,}",
+     "transcription": "radiatio I $\\pm \\dfrac{(\\text{radiatio I} - \\text{radiatio II})}{6} \\times$ horae distantiae $=$ radiatio aequata,",
+     "semantic_anchor": "AB01-PDF0400-H17",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0400-body-L018",
+     "source_line_no": null,
+     "tex": "scilicet longitudo loci eclipticae in quem radiatio sextilis sinistra incidit. Si dextera quaeritur,",
+     "transcription": "scilicet longitudo loci eclipticae in quem radiatio sextilis sinistra incidit. Si dextera quaeritur,",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0400-body-L019",
+     "source_line_no": null,
+     "tex": "pro $+$ 60° ponantur $-$ 60°; si radiationes quadratae aut trinae investigandae, pro 60 erunt",
+     "transcription": "pro $+$ 60° ponantur $-$ 60°; si radiationes quadratae aut trinae investigandae, pro 60 erunt",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0400-body-L020",
+     "source_line_no": null,
+     "tex": "90° aut 120° ponendi.",
+     "transcription": "90° aut 120° ponendi.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0400-body-L021",
+     "source_line_no": null,
+     "tex": "\\Indent Multo facilius supputatio cum planeta sit in meridiano; tunc enim radiatio indicatur gra-",
+     "transcription": "Multo facilius supputatio cum planeta sit in meridiano; tunc enim radiatio indicatur gra-",
+     "semantic_anchor": "AB01-PDF0400-P03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0400-body-L022",
+     "source_line_no": null,
+     "tex": "dibus eclipticae respondentibus (\\ARsign{} planetae $\\pm$ 60°). — Cum in ascendente consistat:",
+     "transcription": "dibus eclipticae respondentibus ({AR} planetae $\\pm$ 60°). — Cum in ascendente consistat:",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0400-body-L023",
+     "source_line_no": null,
+     "tex": "\\CenterLine{radiatio $=$ gradus eclipt. respondentes (asc. obliq. gradus planetae $\\pm$ 60°).}",
+     "transcription": "radiatio $=$ gradus eclipt. respondentes (asc. obliq. gradus planetae $\\pm$ 60°).",
+     "semantic_anchor": "AB01-PDF0400-H23",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0400-body-L024",
+     "source_line_no": null,
+     "tex": "\\Indent Cum demum in occidente vel descendente exsistat:",
+     "transcription": "Cum demum in occidente vel descendente exsistat:",
+     "semantic_anchor": "AB01-PDF0400-P04",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0400-body-L025",
+     "source_line_no": null,
+     "tex": "\\CenterLine{radiatio $=$ gradus eclipt. respond. (asc. obliq. nadir gradus $\\pm$ 60°) $+$ 180°.}",
+     "transcription": "radiatio $=$ gradus eclipt. respond. (asc. obliq. nadir gradus $\\pm$ 60°) $+$ 180°.",
+     "semantic_anchor": "AB01-PDF0400-H25",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0400-body-L026",
+     "source_line_no": null,
+     "tex": "\\Indent Manifeste haec « \\Name{Ptolemaei} » methodus eadem est qua astrologi \\textit{directiones} vel \\textit{pro-}",
+     "transcription": "Manifeste haec « {sp:Ptolemaei} » methodus eadem est qua astrologi *directiones* vel *pro-*",
+     "semantic_anchor": "AB01-PDF0400-P05",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0400-body-L027",
+     "source_line_no": null,
+     "tex": "\\textit{fectiones} determinant, ut in adnotationibus ad LV cap. ostendam; quantitatem radiationis ab",
+     "transcription": "*fectiones* determinant, ut in adnotationibus ad LV cap. ostendam; quantitatem radiationis ab",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0400-body-L028",
+     "source_line_no": null,
+     "tex": "utraque parte longitudinis stellae considerant igitur esse arcum eclipticae contentum inter",
+     "transcription": "utraque parte longitudinis stellae considerant igitur esse arcum eclipticae contentum inter",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0400-body-L029",
+     "source_line_no": null,
+     "tex": "gradum longitudinis planetae et circulum positionis (3) ductum per aequatoris punctum quod",
+     "transcription": "gradum longitudinis planetae et circulum positionis (3) ductum per aequatoris punctum quod",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0400-body-L030",
+     "source_line_no": null,
+     "tex": "ab ascensione recta planetae 60° aut 90° aut 120° ante vel retro distat. Sed hoc modo (quem",
+     "transcription": "ab ascensione recta planetae 60° aut 90° aut 120° ante vel retro distat. Sed hoc modo (quem",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0400-body-L031",
+     "source_line_no": null,
+     "tex": "etiam \\Name{Ḥabash} f. 114, r.–v., habet, licet Ptolemaeum non memoret) stella ponitur latitu-",
+     "transcription": "etiam {sp:Ḥabash} f. 114, r.–v., habet, licet Ptolemaeum non memoret) stella ponitur latitu-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0400-body-L032",
+     "source_line_no": null,
+     "tex": "dine carere et in ecliptica consistere. Si latitudo negligenda non censetur, supputatio paucum",
+     "transcription": "dine carere et in ecliptica consistere. Si latitudo negligenda non censetur, supputatio paucum",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0400-body-L033",
+     "source_line_no": null,
+     "tex": "debet mutari sicut in directione stellarum quae latitudinem habent; id est pro gradu eclipticae",
+     "transcription": "debet mutari sicut in directione stellarum quae latitudinem habent; id est pro gradu eclipticae",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0400-body-L034",
+     "source_line_no": null,
+     "tex": "qui longitudinem sideris numerat adhibeatur gradus simul cum dato sidere culminans, quando",
+     "transcription": "qui longitudinem sideris numerat adhibeatur gradus simul cum dato sidere culminans, quando",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    }
+   ]
+  },
+  {
+   "role": "notes_left",
+   "lines": [
+    {
+     "id": "AB01-PDF0400-notes_left-L001",
+     "source_line_no": null,
+     "tex": "\\textit{ceni cuiusdam de eris » ed al libro « Tabule Ja-}",
+     "transcription": "*ceni cuiusdam de eris » ed al libro « Tabule Ja-*",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0400-notes_left-L002",
+     "source_line_no": null,
+     "tex": "\\textit{hen »,} Roma 1863, p. 13. — Abunasar est corruptus",
+     "transcription": "*hen »,* Roma 1863, p. 13. — Abunasar est corruptus",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0400-notes_left-L003",
+     "source_line_no": null,
+     "tex": "ab Albumasar; « scientia formae orbis » est versio",
+     "transcription": "ab Albumasar; « scientia formae orbis » est versio",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0400-notes_left-L004",
+     "source_line_no": null,
+     "tex": "litteralis Arabici \\textit{‘ilm al-hay’ah,} quod « astrono-",
+     "transcription": "litteralis Arabici *‘ilm al-hay’ah,* quod « astrono-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0400-notes_left-L005",
+     "source_line_no": null,
+     "tex": "« miam » significat.",
+     "transcription": "« miam » significat.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0400-notes_left-L006",
+     "source_line_no": null,
+     "tex": "\\Indent (1) \\textit{Liber Quadripartiti} \\Name{Ptolemei}; \\textit{Centi-}",
+     "transcription": "(1) *Liber Quadripartiti* {sp:Ptolemei}; *Centi-*",
+     "semantic_anchor": "AB01-PDF0400-N01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0400-notes_left-L007",
+     "source_line_no": null,
+     "tex": "\\textit{loquium eiusdem,} etc., Venetiis 1519, fol. 94,v.-95,r.",
+     "transcription": "*loquium eiusdem,* etc., Venetiis 1519, fol. 94,v.-95,r.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0400-notes_left-L008",
+     "source_line_no": null,
+     "tex": "\\Indent (2) Fuse omnes casus exponit \\Name{Iohannes de}",
+     "transcription": "(2) Fuse omnes casus exponit {sp:Iohannes de}",
+     "semantic_anchor": "AB01-PDF0400-N02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0400-notes_left-L009",
+     "source_line_no": null,
+     "tex": "\\Name{Saxonia}, in commentario quem anno 1331 Chr.",
+     "transcription": "{sp:Saxonia}, in commentario quem anno 1331 Chr.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0400-notes_left-L010",
+     "source_line_no": null,
+     "tex": "scripsit in \\Name{Alchabitium} (cfr. supra p. 309, adn. 1);",
+     "transcription": "scripsit in {sp:Alchabitium} (cfr. supra p. 309, adn. 1);",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  },
+  {
+   "role": "notes_right",
+   "lines": [
+    {
+     "id": "AB01-PDF0400-notes_right-L001",
+     "source_line_no": null,
+     "tex": "fol. ff7,r.-gg2,v. in edit. anni 1485; 30,r.-32,v. in",
+     "transcription": "fol. ff7,r.-gg2,v. in edit. anni 1485; 30,r.-32,v. in",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0400-notes_right-L002",
+     "source_line_no": null,
+     "tex": "edit. 1521. Mirum est eum in fine expositionis di-",
+     "transcription": "edit. 1521. Mirum est eum in fine expositionis di-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0400-notes_right-L003",
+     "source_line_no": null,
+     "tex": "cere: « Hunc modum non vidi expositum nec posi-",
+     "transcription": "cere: « Hunc modum non vidi expositum nec posi-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0400-notes_right-L004",
+     "source_line_no": null,
+     "tex": "« tum in aliquo libro ». — Si pro horis distantiae",
+     "transcription": "« tum in aliquo libro ». — Si pro horis distantiae",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0400-notes_right-L005",
+     "source_line_no": null,
+     "tex": "sumatur simplex distantia $=$ \\ARsign{} gradus stellae $-$ \\ARsign{}",
+     "transcription": "sumatur simplex distantia $=$ {AR} gradus stellae $-$ {AR}",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0400-notes_right-L006",
+     "source_line_no": null,
+     "tex": "medii Caeli, in formula radiationis aequatae divisor",
+     "transcription": "medii Caeli, in formula radiationis aequatae divisor",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0400-notes_right-L007",
+     "source_line_no": null,
+     "tex": "non 6 sed arcus semidiurnus gradus stellae erit.",
+     "transcription": "non 6 sed arcus semidiurnus gradus stellae erit.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0400-notes_right-L008",
+     "source_line_no": null,
+     "tex": "\\Indent (3) Circuli positionis sunt circuli maximi qui",
+     "transcription": "(3) Circuli positionis sunt circuli maximi qui",
+     "semantic_anchor": "AB01-PDF0400-N03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0400-notes_right-L009",
+     "source_line_no": null,
+     "tex": "per communes meridiani et horizontis intersectiones",
+     "transcription": "per communes meridiani et horizontis intersectiones",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0400-notes_right-L010",
+     "source_line_no": null,
+     "tex": "transeunt; eorum poli sunt in primo verticali.",
+     "transcription": "transeunt; eorum poli sunt in primo verticali.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  }
+ ]
+}
