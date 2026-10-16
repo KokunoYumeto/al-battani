@@ -1,0 +1,940 @@
+[
+ {
+  "folder": "S02/versio",
+  "builders": [
+   [
+    "build_versio.py",
+    0,
+    0.4,
+    [
+     "wrote p1_versio.tex: 56 pages (pp. 54-109), 2828 lines"
+    ]
+   ]
+  ],
+  "tex_regenerated": [
+   "S02/versio/p1_versio.tex"
+  ],
+  "files_compared": 132,
+  "differ": [],
+  "missing_after_build": [],
+  "checks": [
+   [
+    "check_observations.py",
+    0,
+    [
+     "reports: 0"
+    ]
+   ]
+  ],
+  "pass": true
+ },
+ {
+  "folder": "S03/versio",
+  "builders": [
+   [
+    "build_versio.py",
+    0,
+    0.8,
+    [
+     "wrote p1_versio.tex: 109 pages (pp. 110-218), 5094 lines"
+    ]
+   ]
+  ],
+  "tex_regenerated": [
+   "S03/versio/p1_versio.tex"
+  ],
+  "files_compared": 282,
+  "differ": [],
+  "missing_after_build": [],
+  "checks": [
+   [
+    "check_observations.py",
+    0,
+    [
+     "reports: 0"
+    ]
+   ]
+  ],
+  "pass": true
+ },
+ {
+  "folder": "S04/versio",
+  "builders": [
+   [
+    "build_versio.py",
+    0,
+    0.9,
+    [
+     "wrote p1_versio.tex: 109 pages (pp. 219-327), 5142 lines"
+    ]
+   ]
+  ],
+  "tex_regenerated": [
+   "S04/versio/p1_versio.tex"
+  ],
+  "files_compared": 316,
+  "differ": [],
+  "missing_after_build": [],
+  "checks": [
+   [
+    "check_observations.py",
+    0,
+    [
+     "reports: 0"
+    ]
+   ]
+  ],
+  "pass": true
+ },
+ {
+  "folder": "S05/versio",
+  "builders": [
+   [
+    "build_versio.py",
+    0,
+    0.3,
+    [
+     "wrote p1_versio.tex: 32 pages (pp. [I]-[XXXII]), 1259 lines"
+    ]
+   ]
+  ],
+  "tex_regenerated": [
+   "S05/versio/p1_versio.tex"
+  ],
+  "files_compared": 83,
+  "differ": [],
+  "missing_after_build": [],
+  "checks": [
+   [
+    "check_observations.py",
+    0,
+    [
+     "reports: 0"
+    ]
+   ]
+  ],
+  "pass": true
+ },
+ {
+  "folder": "S07/adnotationes",
+  "builders": [
+   [
+    "build_adnotationes.py",
+    0,
+    0.9,
+    [
+     "wrote p2_adnotationes.tex: 130 pages (pp. 189-318), 5758 lines"
+    ]
+   ]
+  ],
+  "tex_regenerated": [
+   "S07/adnotationes/p2_adnotationes.tex"
+  ],
+  "files_compared": 306,
+  "differ": [],
+  "missing_after_build": [],
+  "checks": [
+   [
+    "check_observations.py",
+    0,
+    [
+     "reports: 5"
+    ]
+   ]
+  ],
+  "pass": true
+ },
+ {
+  "folder": "S09/glossarium",
+  "builders": [
+   [
+    "build_glossarium.py",
+    0,
+    0.3,
+    [
+     "wrote p2_glossarium.tex: 40 pages (pp. 319-358), 1690 lines"
+    ]
+   ]
+  ],
+  "tex_regenerated": [
+   "S09/glossarium/p2_glossarium.tex"
+  ],
+  "files_compared": 87,
+  "differ": [],
+  "missing_after_build": [],
+  "checks": [
+   [
+    "check_observations.py",
+    0,
+    [
+     "reports: 6"
+    ]
+   ]
+  ],
+  "pass": true
+ },
+ {
+  "folder": "S09/indices",
+  "builders": [
+   [
+    "build_indices.py",
+    0,
+    0.5,
+    [
+     "wrote p2_indices.tex: 55 pages (pp. 359-413), 4828 lines"
+    ]
+   ]
+  ],
+  "tex_regenerated": [
+   "S09/indices/p2_indices.tex"
+  ],
+  "files_compared": 118,
+  "differ": [],
+  "missing_after_build": [],
+  "checks": [
+   [
+    "check_observations.py",
+    0,
+    [
+     "reports: 0"
+    ]
+   ]
+  ],
+  "pass": true
+ },
+ {
+  "folder": "S10/textus",
+  "builders": [
+   [
+    "build_textus.py",
+    0,
+    0.8,
+    [
+     "wrote p3_textus.tex: 84 pages, 2097 anchored lines"
+    ]
+   ]
+  ],
+  "tex_regenerated": [
+   "S10/textus/p3_textus.tex"
+  ],
+  "files_compared": 259,
+  "differ": [],
+  "missing_after_build": [],
+  "checks": [],
+  "pass": true
+ },
+ {
+  "folder": "S11/textus",
+  "builders": [
+   [
+    "build_textus.py",
+    0,
+    0.8,
+    [
+     "wrote p3_textus.tex: 74 pages, 1826 anchored lines"
+    ]
+   ]
+  ],
+  "tex_regenerated": [
+   "S11/textus/p3_textus.tex"
+  ],
+  "files_compared": 228,
+  "differ": [],
+  "missing_after_build": [],
+  "checks": [],
+  "pass": true
+ },
+ {
+  "folder": "S12/textus",
+  "builders": [
+   [
+    "build_textus.py",
+    0,
+    0.9,
+    [
+     "wrote p3_textus.tex: 73 pages, 1756 anchored lines"
+    ]
+   ]
+  ],
+  "tex_regenerated": [
+   "S12/textus/p3_textus.tex"
+  ],
+  "files_compared": 225,
+  "differ": [],
+  "missing_after_build": [],
+  "checks": [],
+  "pass": true
+ },
+ {
+  "folder": "S14/commentarius",
+  "builders": [
+   [
+    "build_commentarius.py",
+    0,
+    0.9,
+    [
+     "122 page sides, 2465 lines, 439 notes, 123 Berlin folios, 40 headings, 265 editorial signs"
+    ]
+   ]
+  ],
+  "tex_regenerated": [
+   "S14/commentarius/commentarius.tex"
+  ],
+  "files_compared": 263,
+  "differ": [],
+  "missing_after_build": [],
+  "checks": [
+   [
+    "check_conversion.py",
+    0,
+    [
+     "2465 lines and 439 notes compared; differences: 0"
+    ]
+   ]
+  ],
+  "pass": true
+ },
+ {
+  "folder": "S15/historia",
+  "builders": [
+   [
+    "build_historia.py",
+    0,
+    0.2,
+    [
+     "32 pages, 521 lines, 55 apparatus lines, 31 folios, 15 charts; 0 problems"
+    ]
+   ],
+   [
+    "write_disposition.py",
+    0,
+    0.2,
+    [
+     "136 pages; 32 transcribed"
+    ]
+   ]
+  ],
+  "tex_regenerated": [
+   "S15/historia/historia.tex"
+  ],
+  "files_compared": 76,
+  "differ": [],
+  "missing_after_build": [],
+  "checks": [],
+  "pass": true
+ },
+ {
+  "folder": "S06/apparitions",
+  "builders": [
+   [
+    "gen_apparitions.py",
+    0,
+    0.1,
+    [
+     "wrote p2_apparitions.tex"
+    ]
+   ]
+  ],
+  "tex_regenerated": [
+   "S06/apparitions/p2_apparitions.tex"
+  ],
+  "files_compared": 21,
+  "differ": [],
+  "missing_after_build": [],
+  "checks": [
+   [
+    "check_apparitions.py",
+    0,
+    [
+     "heads 8 of 8; identities 31 of 32 with Nallino's readings (19 as printed); values within 30′ of the computation 150, differ 7 (ledgered 7, open 0); Nallino's corrections 60 (47 of the 54 in computed columns lie closer to the computation than the printed value), problems 0"
+    ]
+   ]
+  ],
+  "pass": true
+ },
+ {
+  "folder": "S06/concordance",
+  "builders": [
+   [
+    "gen_concordance.py",
+    0,
+    0.1,
+    [
+     "wrote p2_concordance.tex"
+    ]
+   ]
+  ],
+  "tex_regenerated": [
+   "S06/concordance/p2_concordance.tex"
+  ],
+  "files_compared": 22,
+  "differ": [],
+  "missing_after_build": [],
+  "checks": [
+   [
+    "check_concordance.py",
+    0,
+    [
+     "cells agree 2392, differ 8 (ledgered 8, open 0)"
+    ]
+   ]
+  ],
+  "pass": true
+ },
+ {
+  "folder": "S06/eclipses",
+  "builders": [
+   [
+    "gen_eclipses.py",
+    0,
+    0.1,
+    [
+     "wrote p2_eclipses.tex"
+    ]
+   ]
+  ],
+  "tex_regenerated": [
+   "S06/eclipses/p2_eclipses.tex"
+  ],
+  "files_compared": 25,
+  "differ": [],
+  "missing_after_build": [],
+  "checks": [
+   [
+    "check_eclipses.py",
+    0,
+    [
+     "  lunar_max: S 3180″, r_m 885″, r_u 2295″; lunar_min: S 3816″, r_m 1060″, r_u 2756″; solar_max: S 1860″, r_m 885″, r_s 975″; solar_min: S 2040″, r_m 1065″, r_s 975″"
+    ]
+   ]
+  ],
+  "pass": true
+ },
+ {
+  "folder": "S06/equations",
+  "builders": [
+   [
+    "gen_equations.py",
+    0,
+    0.1,
+    [
+     "wrote p2_equations.tex"
+    ]
+   ]
+  ],
+  "tex_regenerated": [
+   "S06/equations/p2_equations.tex"
+  ],
+  "files_compared": 18,
+  "differ": [],
+  "missing_after_build": [],
+  "checks": [
+   [
+    "check_equations.py",
+    0,
+    [
+     "values compared 1080, differ 23 (ledgered 23, open 0); Nallino's emendations 3, problems 0"
+    ]
+   ]
+  ],
+  "pass": true
+ },
+ {
+  "folder": "S06/latitudes",
+  "builders": [
+   [
+    "gen_latitudes.py",
+    0,
+    0.1,
+    [
+     "wrote p2_latitudes.tex"
+    ]
+   ]
+  ],
+  "tex_regenerated": [
+   "S06/latitudes/p2_latitudes.tex"
+  ],
+  "files_compared": 21,
+  "differ": [],
+  "missing_after_build": [],
+  "checks": [
+   [
+    "check_latitudes.py",
+    0,
+    [
+     "360 - n 330 of 330; portions multiples of 12′ and symmetric 30 of 30; values within tolerance 325, differ 4 (ledgered 4, open 0); Nallino's notes 2, problems 0"
+    ]
+   ]
+  ],
+  "pass": true
+ },
+ {
+  "folder": "S06/mean_motions",
+  "builders": [
+   [
+    "gen_mean_motions.py",
+    0,
+    0.1,
+    [
+     "wrote p2_mean_motions.tex"
+    ]
+   ]
+  ],
+  "tex_regenerated": [
+   "S06/mean_motions/p2_mean_motions.tex"
+  ],
+  "files_compared": 27,
+  "differ": [],
+  "missing_after_build": [],
+  "checks": [
+   [
+    "check_mean_motions.py",
+    0,
+    [
+     "values on their lines 2382, differ 32 (ledgered 32, open 0); cells Nallino emends 4, problems 0"
+    ]
+   ]
+  ],
+  "pass": true
+ },
+ {
+  "folder": "S06/parallax",
+  "builders": [
+   [
+    "gen_climes.py",
+    0,
+    0.1,
+    []
+   ],
+   [
+    "gen_parallax.py",
+    0,
+    0.1,
+    [
+     "wrote p2_parallax.tex"
+    ]
+   ]
+  ],
+  "tex_regenerated": [
+   "S06/parallax/p2_parallax.tex"
+  ],
+  "files_compared": 31,
+  "differ": [],
+  "missing_after_build": [],
+  "checks": [
+   [
+    "check_climes.py",
+    0,
+    [
+     "checks passed 701, differ 0 (ledgered 0, open 0); Nallino's emendations 4, problems 0"
+    ]
+   ],
+   [
+    "check_parallax.py",
+    0,
+    [
+     "  third term below the computation with 79′ by up to 62.6″, fourth less third (104′) by up to 44.1″"
+    ]
+   ]
+  ],
+  "pass": true
+ },
+ {
+  "folder": "S06/planets",
+  "builders": [
+   [
+    "gen_planets.py",
+    0,
+    0.1,
+    [
+     "wrote p2_planets.tex"
+    ]
+   ]
+  ],
+  "tex_regenerated": [
+   "S06/planets/p2_planets.tex"
+  ],
+  "files_compared": 22,
+  "differ": [],
+  "missing_after_build": [],
+  "checks": [
+   [
+    "check_planets.py",
+    0,
+    [
+     "values within tolerance 4497, differ 5 (ledgered 5, open 0); Nallino's emendations 2, problems 0"
+    ]
+   ]
+  ],
+  "pass": true
+ },
+ {
+  "folder": "S06/revolutions",
+  "builders": [
+   [
+    "gen_revolutions.py",
+    0,
+    0.1,
+    [
+     "wrote p2_revolutions.tex"
+    ]
+   ]
+  ],
+  "tex_regenerated": [
+   "S06/revolutions/p2_revolutions.tex"
+  ],
+  "files_compared": 20,
+  "differ": [],
+  "missing_after_build": [],
+  "checks": [
+   [
+    "check_revolutions.py",
+    0,
+    [
+     "values on their computation 155, differ 7 (ledgered 7, open 0); altitudes symmetric 10 of 10; Nallino's notes 18, problems 0"
+    ]
+   ]
+  ],
+  "pass": true
+ },
+ {
+  "folder": "S06/signs",
+  "builders": [
+   [
+    "gen_signs.py",
+    0,
+    0.1,
+    [
+     "wrote p2_signs.tex"
+    ]
+   ]
+  ],
+  "tex_regenerated": [
+   "S06/signs/p2_signs.tex"
+  ],
+  "files_compared": 13,
+  "differ": [],
+  "missing_after_build": [],
+  "checks": [
+   [
+    "check_signs.py",
+    0,
+    [
+     "agree 527, differ 1 (ledgered 1, open 0)"
+    ]
+   ]
+  ],
+  "pass": true
+ },
+ {
+  "folder": "S06/spherical",
+  "builders": [
+   [
+    "gen_spherical.py",
+    0,
+    0.1,
+    [
+     "wrote p2_spherical.tex"
+    ]
+   ]
+  ],
+  "tex_regenerated": [
+   "S06/spherical/p2_spherical.tex"
+  ],
+  "files_compared": 31,
+  "differ": [],
+  "missing_after_build": [],
+  "checks": [
+   [
+    "check_spherical.py",
+    0,
+    [
+     "values compared 2622, differ 16 (ledgered 16, open 0); Nallino's emendations 1, problems 0"
+    ]
+   ]
+  ],
+  "pass": true
+ },
+ {
+  "folder": "S06/spurious",
+  "builders": [
+   [
+    "gen_spurious.py",
+    0,
+    0.1,
+    [
+     "wrote p2_spurious.tex"
+    ]
+   ]
+  ],
+  "tex_regenerated": [
+   "S06/spurious/p2_spurious.tex"
+  ],
+  "files_compared": 22,
+  "differ": [],
+  "missing_after_build": [],
+  "checks": [
+   [
+    "check_spurious.py",
+    0,
+    [
+     "  pp. 306-307: I of the conjunctions = I of the oppositions + 14d 18h 22m: 22 of 22"
+    ]
+   ]
+  ],
+  "pass": true
+ },
+ {
+  "folder": "S06/stations",
+  "builders": [
+   [
+    "gen_stations.py",
+    0,
+    0.1,
+    [
+     "wrote p2_stations.tex"
+    ]
+   ]
+  ],
+  "tex_regenerated": [
+   "S06/stations/p2_stations.tex"
+  ],
+  "files_compared": 20,
+  "differ": [],
+  "missing_after_build": [],
+  "checks": [
+   [
+    "check_stations.py",
+    0,
+    [
+     "identities: 360 - n 150 of 150, Statio I + Statio II = 360° 150 of 150; Statio I within tolerance 150, differ 0 (ledgered 0, open 0); Nallino's notes 1, problems 0"
+    ]
+   ]
+  ],
+  "pass": true
+ },
+ {
+  "folder": "S06/syzygies",
+  "builders": [
+   [
+    "gen_syzygies.py",
+    0,
+    0.1,
+    [
+     "wrote p2_syzygies.tex"
+    ]
+   ]
+  ],
+  "tex_regenerated": [
+   "S06/syzygies/p2_syzygies.tex"
+  ],
+  "files_compared": 27,
+  "differ": [],
+  "missing_after_build": [],
+  "checks": [
+   [
+    "check_roman_syzygies.py",
+    0,
+    [
+     "  period of p. 84: 4.586448 days (4ᵈ 35′ 11.21″; 297 L - 8766 days = 4.586458); in one lunation: lum 29° 6′ 24.78″, anom 25° 49′ 0.14″, lat 30° 40′ 14.00″"
+    ]
+   ],
+   [
+    "check_syzygies.py",
+    0,
+    [
+     "values on their lines 437 (largest deviation 2.6 units, p. 32 single 10 lat), differ 4 (ledgered 4, open 0); Nallino's emendations 6, problems 0"
+    ]
+   ]
+  ],
+  "pass": true
+ },
+ {
+  "folder": "S13/chronology",
+  "builders": [
+   [
+    "gen_chr.py",
+    0,
+    0.1,
+    [
+     "wrote p3_chronology.tex, p2_chronology.tex"
+    ]
+   ]
+  ],
+  "tex_regenerated": [
+   "S13/chronology/p2_chronology.tex",
+   "S13/chronology/p3_chronology.tex"
+  ],
+  "files_compared": 33,
+  "differ": [],
+  "missing_after_build": [],
+  "checks": [
+   [
+    "check_chr.py",
+    0,
+    [
+     "differences already in the ledger: 16; new problems: 0"
+    ]
+   ]
+  ],
+  "pass": true
+ },
+ {
+  "folder": "S13/diagrams",
+  "builders": [
+   [
+    "gen_climates.py",
+    0,
+    0.1,
+    [
+     "wrote p3_climates.tex, p2_climates.tex"
+    ]
+   ],
+   [
+    "gen_rosa.py",
+    0,
+    0.1,
+    [
+     "wrote p3_rosa.tex, p2_rosa.tex"
+    ]
+   ]
+  ],
+  "tex_regenerated": [
+   "S13/diagrams/p2_climates.tex",
+   "S13/diagrams/p2_rosa.tex",
+   "S13/diagrams/p3_climates.tex",
+   "S13/diagrams/p3_rosa.tex"
+  ],
+  "files_compared": 42,
+  "differ": [],
+  "missing_after_build": [],
+  "checks": [
+   [
+    "check_climates.py",
+    0,
+    [
+     "Part II against the computed amplitudes: 21 of 21 within 2′ (largest difference 1.7′)"
+    ]
+   ],
+   [
+    "check_rosa.py",
+    0,
+    [
+     "Part II: terms sum to 30 in 12 of 12 signs"
+    ]
+   ]
+  ],
+  "pass": true
+ },
+ {
+  "folder": "S13/geography",
+  "builders": [
+   [
+    "gen_geo.py",
+    0,
+    0.1,
+    [
+     "wrote p3_geography.tex, p2_geography.tex"
+    ]
+   ]
+  ],
+  "tex_regenerated": [
+   "S13/geography/p2_geography.tex",
+   "S13/geography/p3_geography.tex"
+  ],
+  "files_compared": 26,
+  "differ": [],
+  "missing_after_build": [],
+  "checks": [
+   [
+    "check_geo.py",
+    0,
+    [
+     "differences already in the ledger: 26; new problems: 0"
+    ]
+   ]
+  ],
+  "pass": true
+ },
+ {
+  "folder": "S13/notice",
+  "builders": [
+   [
+    "gen_note227.py",
+    0,
+    0.1,
+    [
+     "wrote p3_note227.tex"
+    ]
+   ]
+  ],
+  "tex_regenerated": [
+   "S13/notice/p3_note227.tex"
+  ],
+  "files_compared": 7,
+  "differ": [],
+  "missing_after_build": [],
+  "checks": [],
+  "pass": true
+ },
+ {
+  "folder": "S13/star_catalogue",
+  "builders": [
+   [
+    "gen_stars.py",
+    0,
+    0.1,
+    [
+     "wrote p3_star_catalogue.tex, p2_star_catalogue.tex"
+    ]
+   ]
+  ],
+  "tex_regenerated": [
+   "S13/star_catalogue/p2_star_catalogue.tex",
+   "S13/star_catalogue/p3_star_catalogue.tex"
+  ],
+  "files_compared": 25,
+  "differ": [],
+  "missing_after_build": [],
+  "checks": [
+   [
+    "check_stars.py",
+    0,
+    [
+     "differences already in the discrepancy ledger: 45; new problems: 0"
+    ]
+   ]
+  ],
+  "pass": true
+ },
+ {
+  "folder": "S13/status_1211",
+  "builders": [
+   [
+    "gen_status.py",
+    0,
+    0.1,
+    [
+     "wrote p3_status_1211.tex, p2_status_1211.tex"
+    ]
+   ]
+  ],
+  "tex_regenerated": [
+   "S13/status_1211/p2_status_1211.tex",
+   "S13/status_1211/p3_status_1211.tex"
+  ],
+  "files_compared": 22,
+  "differ": [],
+  "missing_after_build": [],
+  "checks": [
+   [
+    "check_status.py",
+    0,
+    [
+     "differences already in the ledger: 7; new problems: 0"
+    ]
+   ]
+  ],
+  "pass": true
+ }
+]

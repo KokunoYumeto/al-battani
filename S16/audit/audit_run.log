@@ -1,0 +1,51 @@
+PASS source SRC01 identity: nallino_pars123.pdf: sha256 544c16b6355c9b74…, 1162 pages; gate 544c16b6355c9b74…, 1162 pages
+PASS source SRC02 identity: pars3_uoft.pdf: sha256 f60d9c2d3a0faa6d…, 292 pages; gate f60d9c2d3a0faa6d…, 292 pages
+PASS source SRC06 identity: kennedy.pdf: sha256 3bc5b525639261cc…, 136 pages; gate 3bc5b525639261cc…, 136 pages
+PASS source SRC07 (PAL files in S14): 123 files against S14's manifest; 0 differ
+PASS canonical receipt replay: 3,923 files re-hashed; 0 differ
+PASS table editions: running heads agree with the declared pages: 251 heads agree, 3 pages have no number in the head (half-titles, figures, first pages), 0 disagree
+PASS AB01 coverage replay: every master page presented or disposed: 1137 pages presented by the edition PDFs, 27 disposed, 2 both (blank pages printed in an edition and recorded as blank); gaps [], out of range []
+PASS AB01 coverage replay agrees with S16/integration/coverage_ab01.tsv: 1162 pages compared; 0 disagree; 4 pages disposed as blank are printed blank in their edition: [241, 639, 747, 767]
+PASS pages presented twice are the recorded ones: 13 pages presented by two PDFs: [668, 669, 746, 748, 749, 750, 751, 752, 753, 754, 755, 756, 918]; recorded [668, 669, 746, 748, 749, 750, 751, 752, 753, 754, 755, 756, 918]
+PASS AB02 coverage replay (S15 bookmarks): 32 pages bookmarked: PDF 5 and the even PDF pages 6-66 (as the Arabic edition's pages)
+PASS AB03 coverage replay (S14 bookmarks): 122 of 122 page sides 20r-80v bookmarked
+PASS assembled volumes rebuild byte-identical: 2 of 2 volumes identical on a rebuild in a temporary folder
+PASS every bound page identical to its session page: 1,160 pages compared as pixels; 0 differ
+  ok   S02/versio [('build_versio.py', 0, 0.4, ['wrote p1_versio.tex: 56 pages (pp. 54-109), 2828 lines'])] 0 differ [('check_observations.py', 0, ['reports: 0'])]
+  ok   S03/versio [('build_versio.py', 0, 0.8, ['wrote p1_versio.tex: 109 pages (pp. 110-218), 5094 lines'])] 0 differ [('check_observations.py', 0, ['reports: 0'])]
+  ok   S04/versio [('build_versio.py', 0, 0.9, ['wrote p1_versio.tex: 109 pages (pp. 219-327), 5142 lines'])] 0 differ [('check_observations.py', 0, ['reports: 0'])]
+  ok   S05/versio [('build_versio.py', 0, 0.3, ['wrote p1_versio.tex: 32 pages (pp. [I]-[XXXII]), 1259 lines'])] 0 differ [('check_observations.py', 0, ['reports: 0'])]
+  ok   S07/adnotationes [('build_adnotationes.py', 0, 0.9, ['wrote p2_adnotationes.tex: 130 pages (pp. 189-318), 5758 lines'])] 0 differ [('check_observations.py', 0, ['reports: 5'])]
+  ok   S09/glossarium [('build_glossarium.py', 0, 0.3, ['wrote p2_glossarium.tex: 40 pages (pp. 319-358), 1690 lines'])] 0 differ [('check_observations.py', 0, ['reports: 6'])]
+  ok   S09/indices [('build_indices.py', 0, 0.5, ['wrote p2_indices.tex: 55 pages (pp. 359-413), 4828 lines'])] 0 differ [('check_observations.py', 0, ['reports: 0'])]
+  ok   S10/textus [('build_textus.py', 0, 0.8, ['wrote p3_textus.tex: 84 pages, 2097 anchored lines'])] 0 differ []
+  ok   S11/textus [('build_textus.py', 0, 0.8, ['wrote p3_textus.tex: 74 pages, 1826 anchored lines'])] 0 differ []
+  ok   S12/textus [('build_textus.py', 0, 0.9, ['wrote p3_textus.tex: 73 pages, 1756 anchored lines'])] 0 differ []
+  ok   S14/commentarius [('build_commentarius.py', 0, 0.9, ['122 page sides, 2465 lines, 439 notes, 123 Berlin folios, 40 headings, 265 editorial signs'])] 0 differ [('check_conversion.py', 0, ['2465 lines and 439 notes compared; differences: 0'])]
+  ok   S15/historia [('build_historia.py', 0, 0.2, ['32 pages, 521 lines, 55 apparatus lines, 31 folios, 15 charts; 0 problems']), ('write_disposition.py', 0, 0.2, ['136 pages; 32 transcribed'])] 0 differ []
+  ok   S06/apparitions [('gen_apparitions.py', 0, 0.1, ['wrote p2_apparitions.tex'])] 0 differ [('check_apparitions.py', 0, ["heads 8 of 8; identities 31 of 32 with Nallino's readings (19 as printed); values within 30′ of the computation 150, differ 7 (ledgered 7, open 0); Nallino's corrections 60 (47 of the 54 in computed columns lie closer to the computation than the printed value), problems 0"])]
+  ok   S06/concordance [('gen_concordance.py', 0, 0.1, ['wrote p2_concordance.tex'])] 0 differ [('check_concordance.py', 0, ['cells agree 2392, differ 8 (ledgered 8, open 0)'])]
+  ok   S06/eclipses [('gen_eclipses.py', 0, 0.1, ['wrote p2_eclipses.tex'])] 0 differ [('check_eclipses.py', 0, ['  lunar_max: S 3180″, r_m 885″, r_u 2295″; lunar_min: S 3816″, r_m 1060″, r_u 2756″; solar_max: S 1860″, r_m 885″, r_s 975″; solar_min: S 2040″, r_m 1065″, r_s 975″'])]
+  ok   S06/equations [('gen_equations.py', 0, 0.1, ['wrote p2_equations.tex'])] 0 differ [('check_equations.py', 0, ["values compared 1080, differ 23 (ledgered 23, open 0); Nallino's emendations 3, problems 0"])]
+  ok   S06/latitudes [('gen_latitudes.py', 0, 0.1, ['wrote p2_latitudes.tex'])] 0 differ [('check_latitudes.py', 0, ["360 - n 330 of 330; portions multiples of 12′ and symmetric 30 of 30; values within tolerance 325, differ 4 (ledgered 4, open 0); Nallino's notes 2, problems 0"])]
+  ok   S06/mean_motions [('gen_mean_motions.py', 0, 0.1, ['wrote p2_mean_motions.tex'])] 0 differ [('check_mean_motions.py', 0, ['values on their lines 2382, differ 32 (ledgered 32, open 0); cells Nallino emends 4, problems 0'])]
+  ok   S06/parallax [('gen_climes.py', 0, 0.1, []), ('gen_parallax.py', 0, 0.1, ['wrote p2_parallax.tex'])] 0 differ [('check_climes.py', 0, ["checks passed 701, differ 0 (ledgered 0, open 0); Nallino's emendations 4, problems 0"]), ('check_parallax.py', 0, ['  third term below the computation with 79′ by up to 62.6″, fourth less third (104′) by up to 44.1″'])]
+  ok   S06/planets [('gen_planets.py', 0, 0.1, ['wrote p2_planets.tex'])] 0 differ [('check_planets.py', 0, ["values within tolerance 4497, differ 5 (ledgered 5, open 0); Nallino's emendations 2, problems 0"])]
+  ok   S06/revolutions [('gen_revolutions.py', 0, 0.1, ['wrote p2_revolutions.tex'])] 0 differ [('check_revolutions.py', 0, ["values on their computation 155, differ 7 (ledgered 7, open 0); altitudes symmetric 10 of 10; Nallino's notes 18, problems 0"])]
+  ok   S06/signs [('gen_signs.py', 0, 0.1, ['wrote p2_signs.tex'])] 0 differ [('check_signs.py', 0, ['agree 527, differ 1 (ledgered 1, open 0)'])]
+  ok   S06/spherical [('gen_spherical.py', 0, 0.1, ['wrote p2_spherical.tex'])] 0 differ [('check_spherical.py', 0, ["values compared 2622, differ 16 (ledgered 16, open 0); Nallino's emendations 1, problems 0"])]
+  ok   S06/spurious [('gen_spurious.py', 0, 0.1, ['wrote p2_spurious.tex'])] 0 differ [('check_spurious.py', 0, ['  pp. 306-307: I of the conjunctions = I of the oppositions + 14d 18h 22m: 22 of 22'])]
+  ok   S06/stations [('gen_stations.py', 0, 0.1, ['wrote p2_stations.tex'])] 0 differ [('check_stations.py', 0, ["identities: 360 - n 150 of 150, Statio I + Statio II = 360° 150 of 150; Statio I within tolerance 150, differ 0 (ledgered 0, open 0); Nallino's notes 1, problems 0"])]
+  ok   S06/syzygies [('gen_syzygies.py', 0, 0.1, ['wrote p2_syzygies.tex'])] 0 differ [('check_roman_syzygies.py', 0, ['  period of p. 84: 4.586448 days (4ᵈ 35′ 11.21″; 297 L - 8766 days = 4.586458); in one lunation: lum 29° 6′ 24.78″, anom 25° 49′ 0.14″, lat 30° 40′ 14.00″']), ('check_syzygies.py', 0, ["values on their lines 437 (largest deviation 2.6 units, p. 32 single 10 lat), differ 4 (ledgered 4, open 0); Nallino's emendations 6, problems 0"])]
+  ok   S13/chronology [('gen_chr.py', 0, 0.1, ['wrote p3_chronology.tex, p2_chronology.tex'])] 0 differ [('check_chr.py', 0, ['differences already in the ledger: 16; new problems: 0'])]
+  ok   S13/diagrams [('gen_climates.py', 0, 0.1, ['wrote p3_climates.tex, p2_climates.tex']), ('gen_rosa.py', 0, 0.1, ['wrote p3_rosa.tex, p2_rosa.tex'])] 0 differ [('check_climates.py', 0, ['Part II against the computed amplitudes: 21 of 21 within 2′ (largest difference 1.7′)']), ('check_rosa.py', 0, ['Part II: terms sum to 30 in 12 of 12 signs'])]
+  ok   S13/geography [('gen_geo.py', 0, 0.1, ['wrote p3_geography.tex, p2_geography.tex'])] 0 differ [('check_geo.py', 0, ['differences already in the ledger: 26; new problems: 0'])]
+  ok   S13/notice [('gen_note227.py', 0, 0.1, ['wrote p3_note227.tex'])] 0 differ []
+  ok   S13/star_catalogue [('gen_stars.py', 0, 0.1, ['wrote p3_star_catalogue.tex, p2_star_catalogue.tex'])] 0 differ [('check_stars.py', 0, ['differences already in the discrepancy ledger: 45; new problems: 0'])]
+  ok   S13/status_1211 [('gen_status.py', 0, 0.1, ['wrote p3_status_1211.tex, p2_status_1211.tex'])] 0 differ [('check_status.py', 0, ['differences already in the ledger: 7; new problems: 0'])]
+PASS session builds replayed byte-identical, session checks pass: 32 folders replayed in temporary copies; all identical
+PASS visual samples rendered: 20 contact sheets (master scan | edition) in S16/audit/samples; inspection recorded in audit_inspection.md
+PASS production unchanged by the audit: 3,962 production files hashed before and after; 0 changed
+16 checks, 0 failures, 42 s
+memcap: peak 0.45 GB
+exit 0
