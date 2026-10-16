@@ -1,0 +1,570 @@
+{
+ "anchor": "AB01-PDF0377",
+ "master_pdf_page": 377,
+ "printed_page": 288,
+ "source": "SRC01",
+ "status": "LINE_ANCHORED_TRANSCRIPTION",
+ "blank": false,
+ "signature": null,
+ "margin_locators": [],
+ "observations": [
+  "body L1-L9: Ya‘qūb ibn Ṭāriq's table is set with each piece placed as printed: the head in the small type of the notes (x-height 4.4 pt, against 4.9 pt in the rows), «dist minima» without a full stop and «dist. maxima» with it; the whole numbers on their right edges, the fractions from their left edges. The 0 of «20/21» (L3) prints broken, like a closing parenthesis, and the strokes of several fractions print broken. The numbers check: each least distance is the greatest distance of the planet below with its diameter added (56 4/21 + 4 16/21 = 60 20/21, 251 9/21 + 4 16/21 = 256 4/21, 1095 5/21 + 19 1/21 = 1114 6/21, 2104 16/21 + 19 1/21 = 2123 17/21, 8000 + 19 1/21 = 8019 1/21, 13714 6/21 + 19 1/21 = 13733 7/21), the rule of p. 287, L29-L30.",
+  "body L10-L17: «al–Bīrūnī», «Ptolemaeus» and «Indorum» are letter-spaced; «al–manshūrāt» (L11) has a long dash (5.4 pt), and the dash before «Sed» (L13) measures 9.8 pt. The o of «exterioris» (L17) did not print; a gap of its width (5.3 pt) stands in its place.",
+  "body L18-L26: «al–Bī-rūnī», divided between L18 and L19, «Ptolemaeus» and «Ptolemaei» are letter-spaced; «al–manshūrāt» has long dashes (5.3 and 5.2 pt) in L18 and L24.",
+  "body L27-L35: «Ibn Hibintà» (L27), «al–Battānī» (L28, L33) and «Ptolemaeus» are letter-spaced; «Ibn Hibintà» (L28) is not. The long dashes of «al–Battānī» (L28), «4–8», «as–Suhà» (L31), «al–Battānī» (L33), «ar–Raqqah» and «as–Suhà» (L35) measure 5.3, 5.4, 5.3, 5.3, 5.4 and 5.3 pt; the dash before «Sed» (L32) 9.7 pt. Ptolemy's sizes as reported fall by 16 Earths an order, from 96 to 16 for the sixth (96 − 5 · 16 = 16), al-Battānī's by 18, from 108 to 18; the translation, p. 123, l. 4-8, gives al-Battānī's fifteen stars of the first magnitude about 105 times the Earth (Plato 102) and the sixth order 16 times. The year 295 of the Hiǵrah began on 12 October 907 (Julian, by the tabular calendar).",
+  "notes_left L1-L6: the end of note 11 of p. 287: «ney», the end of «Whitney», is letter-spaced. In the Sūrya-Siddhānta (XII, 84-90, with I, 59) the orbit of the Moon is 324000 yojanas and the diameter of the Earth 1600 yojanas, so that the Moon stands 324000 : 2π = 51566 yojanas, 32.2 diameters of the Earth, from its centre, as printed.",
+  "notes_left L7-L9: 19047 13/21 − 17161 19/21 = 1885 15/21, as printed.",
+  "notes_right L1-L5: the Arabic of note 2, «وقد وضعنا ذلك في جدول بحسب راي بطلميوس ووجوده اذ لم يتقرر عندنا راي غيره الى هذه الغاية», ‘we have put this in a table according to the opinion and the finding of Ptolemy, since no other opinion has been established with us up to this point’, is the original of body L24-L26; it begins at the right of the first line, after «(2)», and runs on at the left of the second, followed by «. Sequitur». The rule over the notes and the rule between the two columns print faint and broken.",
+  "notes_right L6-L9: as-Suhà is the faint star Alcor, beside ζ Ursae maioris. A stroke stands over the s of «maioris»; «aṣ-Ṣūfī» is letter-spaced, with a hyphen (3.4 pt)."
+ ],
+ "source_authority": "Controlling master page image. Embedded text is not the authority for a reading.",
+ "transcription_convention": "Source line breaks, hyphenation, quotation signs and word-level type distinctions retained. L numbers count text-bearing lines.",
+ "review_responsibility": "Transcribed by Claude from the page images; Greek, Arabic, numbers and signs read on enlarged images. Not reviewed by a person.",
+ "sections": [
+  {
+   "role": "body",
+   "lines": [
+    {
+     "id": "AB01-PDF0377-body-L001",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{67.48mm}\\smash{\\rlap{dist minima}}}\\rlap{\\hspace*{94.37mm}\\smash{\\rlap{dist. maxima}}}\\rlap{\\hspace*{130.54mm}\\smash{\\rlap{diametrus}}}",
+     "transcription": "dist minima dist. maxima diametrus",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0377-body-L002",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{33.53mm}\\smash{\\rlap{Luna}}}\\rlap{\\hspace*{74.47mm}\\smash{\\llap{35}}}\\rlap{\\hspace*{76.33mm}\\smash{\\rlap{$\\qfrac{15}{21}$}}}\\rlap{\\hspace*{105.11mm}\\smash{\\llap{56}}}\\rlap{\\hspace*{106.92mm}\\smash{\\rlap{$\\qfrac{4}{21}$}}}\\rlap{\\hspace*{135.91mm}\\smash{\\llap{4}}}\\rlap{\\hspace*{138.04mm}\\smash{\\rlap{$\\qfrac{16}{21}$}}}",
+     "transcription": "Luna 35 {sfrac:15/21} 56 {sfrac:4/21} 4 {sfrac:16/21}",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0377-body-L003",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{33.53mm}\\smash{\\rlap{Mercurius}}}\\rlap{\\hspace*{74.31mm}\\smash{\\llap{60}}}\\rlap{\\hspace*{75.43mm}\\smash{\\rlap{$\\qfrac{20}{21}$}}}\\rlap{\\hspace*{104.42mm}\\smash{\\llap{251}}}\\rlap{\\hspace*{106.87mm}\\smash{\\rlap{$\\qfrac{9}{21}$}}}\\rlap{\\hspace*{135.91mm}\\smash{\\llap{4}}}\\rlap{\\hspace*{138.04mm}\\smash{\\rlap{$\\qfrac{16}{21}$}}}",
+     "transcription": "Mercurius 60 {sfrac:20/21} 251 {sfrac:9/21} 4 {sfrac:16/21}",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0377-body-L004",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{33.53mm}\\smash{\\rlap{Venus}}}\\rlap{\\hspace*{74.47mm}\\smash{\\llap{256}}}\\rlap{\\hspace*{76.33mm}\\smash{\\rlap{$\\qfrac{4}{21}$}}}\\rlap{\\hspace*{105.43mm}\\smash{\\llap{1095}}}\\rlap{\\hspace*{107.24mm}\\smash{\\rlap{$\\qfrac{5}{21}$}}}\\rlap{\\hspace*{136.34mm}\\smash{\\llap{19}}}\\rlap{\\hspace*{138.36mm}\\smash{\\rlap{$\\qfrac{1}{21}$}}}",
+     "transcription": "Venus 256 {sfrac:4/21} 1095 {sfrac:5/21} 19 {sfrac:1/21}",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0377-body-L005",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{33.53mm}\\smash{\\rlap{Sol}}}\\rlap{\\hspace*{74.42mm}\\smash{\\llap{1114}}}\\rlap{\\hspace*{76.23mm}\\smash{\\rlap{$\\qfrac{6}{21}$}}}\\rlap{\\hspace*{105.22mm}\\smash{\\llap{2104}}}\\rlap{\\hspace*{107.35mm}\\smash{\\rlap{$\\qfrac{16}{21}$}}}\\rlap{\\hspace*{136.23mm}\\smash{\\llap{19}}}\\rlap{\\hspace*{138.20mm}\\smash{\\rlap{$\\qfrac{1}{21}$}}}",
+     "transcription": "Sol 1114 {sfrac:6/21} 2104 {sfrac:16/21} 19 {sfrac:1/21}",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0377-body-L006",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{33.53mm}\\smash{\\rlap{Mars}}}\\rlap{\\hspace*{74.47mm}\\smash{\\llap{2123}}}\\rlap{\\hspace*{76.44mm}\\smash{\\rlap{$\\qfrac{17}{21}$}}}\\rlap{\\hspace*{105.33mm}\\smash{\\llap{8000}}}\\rlap{\\hspace*{136.34mm}\\smash{\\llap{19}}}\\rlap{\\hspace*{138.36mm}\\smash{\\rlap{$\\qfrac{1}{21}$}}}",
+     "transcription": "Mars 2123 {sfrac:17/21} 8000 19 {sfrac:1/21}",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0377-body-L007",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{33.53mm}\\smash{\\rlap{Iupiter}}}\\rlap{\\hspace*{74.63mm}\\smash{\\llap{8019}}}\\rlap{\\hspace*{76.55mm}\\smash{\\rlap{$\\qfrac{1}{21}$}}}\\rlap{\\hspace*{105.43mm}\\smash{\\llap{13714}}}\\rlap{\\hspace*{107.35mm}\\smash{\\rlap{$\\qfrac{6}{21}$}}}\\rlap{\\hspace*{136.34mm}\\smash{\\llap{19}}}\\rlap{\\hspace*{138.41mm}\\smash{\\rlap{$\\qfrac{1}{21}$}}}",
+     "transcription": "Iupiter 8019 {sfrac:1/21} 13714 {sfrac:6/21} 19 {sfrac:1/21}",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0377-body-L008",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{33.53mm}\\smash{\\rlap{Saturnus}}}\\rlap{\\hspace*{74.63mm}\\smash{\\llap{13733}}}\\rlap{\\hspace*{76.60mm}\\smash{\\rlap{$\\qfrac{7}{21}$}}}\\rlap{\\hspace*{105.11mm}\\smash{\\llap{17161}}}\\rlap{\\hspace*{107.83mm}\\smash{\\rlap{$\\qfrac{19}{21}$}}}\\rlap{\\hspace*{136.44mm}\\smash{\\llap{19}}}\\rlap{\\hspace*{138.52mm}\\smash{\\rlap{$\\qfrac{1}{21}$}}}",
+     "transcription": "Saturnus 13733 {sfrac:7/21} 17161 {sfrac:19/21} 19 {sfrac:1/21}",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0377-body-L009",
+     "source_line_no": null,
+     "tex": "\\mbox{}\\rlap{\\hspace*{33.53mm}\\smash{\\rlap{Zodiacus}}}\\rlap{\\hspace*{74.84mm}\\smash{\\llap{19047}}}\\rlap{\\hspace*{76.76mm}\\smash{\\rlap{$\\qfrac{13}{21}$}}}\\rlap{\\hspace*{85.96mm}\\smash{\\rlap{(1)}}}",
+     "transcription": "Zodiacus 19047 {sfrac:13/21} (1)",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0377-body-L010",
+     "source_line_no": null,
+     "tex": "\\Indent Postea \\Name{al–Bīrūnī} addit: « Haec opinio ab ea differt supra quam \\Name{Ptolemaeus}, in libro",
+     "transcription": "Postea {sp:al–Bīrūnī} addit: « Haec opinio ab ea differt supra quam {sp:Ptolemaeus}, in libro",
+     "semantic_anchor": "AB01-PDF0377-P01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0377-body-L011",
+     "source_line_no": null,
+     "tex": "« \\textit{al–manshūrāt,} calculum distantiarum condidit, quem veteres et recentiores secuti sunt. Ho-",
+     "transcription": "« *al–manshūrāt,* calculum distantiarum condidit, quem veteres et recentiores secuti sunt. Ho-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0377-body-L012",
+     "source_line_no": null,
+     "tex": "« rum enim principium est maximam cuiuslibet planetae distantiam esse minimam planetae",
+     "transcription": "« rum enim principium est maximam cuiuslibet planetae distantiam esse minimam planetae",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0377-body-L013",
+     "source_line_no": null,
+     "tex": "« statim superioris, nec inter ambas sphaeras exstare locum actione destitutum. — Sed iuxta",
+     "transcription": "« statim superioris, nec inter ambas sphaeras exstare locum actione destitutum. — Sed iuxta",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0377-body-L014",
+     "source_line_no": null,
+     "tex": "« illam [\\Name{Indorum}] opinionem inter duas sphaeras est locus ambabus vacuus, et in eo [ali-",
+     "transcription": "« illam [{sp:Indorum}] opinionem inter duas sphaeras est locus ambabus vacuus, et in eo [ali-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0377-body-L015",
+     "source_line_no": null,
+     "tex": "« quid] prehendens instar axis [rotae], circa quod rotatio fit; quasi ii credidissent aliquid gra-",
+     "transcription": "« quid] prehendens instar axis [rotae], circa quod rotatio fit; quasi ii credidissent aliquid gra-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0377-body-L016",
+     "source_line_no": null,
+     "tex": "« vitatis in aethere esse, ita ut sphaerae interiori [res] prehendens opus esset quae eam in",
+     "transcription": "« vitatis in aethere esse, ita ut sphaerae interiori [res] prehendens opus esset quae eam in",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0377-body-L017",
+     "source_line_no": null,
+     "tex": "« medio [sphaerae] exterioris teneret ».",
+     "transcription": "« medio [sphaerae] exterioris teneret ».",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0377-body-L018",
+     "source_line_no": null,
+     "tex": "\\Indent Librum \\textit{al–manshūrāt,} aliunde ignotum, memoratum quoque invenio in libello \\Name{al–Bī-}",
+     "transcription": "Librum *al–manshūrāt,* aliunde ignotum, memoratum quoque invenio in libello {sp:al–Bī-}",
+     "semantic_anchor": "AB01-PDF0377-P02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0377-body-L019",
+     "source_line_no": null,
+     "tex": "\\Name{rūnī} \\textit{de elementis astronomiae,} fol. 33,r., ubi de quaestione simili distantiarum planetarum",
+     "transcription": "{sp:rūnī} *de elementis astronomiae,* fol. 33,r., ubi de quaestione simili distantiarum planetarum",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0377-body-L020",
+     "source_line_no": null,
+     "tex": "agitur. « An quantitates corporum planetarum cognoscantur. Diametrus Lunae nota est iuxta",
+     "transcription": "agitur. « An quantitates corporum planetarum cognoscantur. Diametrus Lunae nota est iuxta",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0377-body-L021",
+     "source_line_no": null,
+     "tex": "« rationem qua semidiametrus Terrae 1 sumitur; eam \\Name{Ptolemaeus} a parallaxe deduxit.",
+     "transcription": "« rationem qua semidiametrus Terrae 1 sumitur; eam {sp:Ptolemaeus} a parallaxe deduxit.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0377-body-L022",
+     "source_line_no": null,
+     "tex": "« Similiter diametrus Solis nota est eadem ratione; eam in V libro \\textit{Almagesti} ab eclipsibus",
+     "transcription": "« Similiter diametrus Solis nota est eadem ratione; eam in V libro *Almagesti* ab eclipsibus",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0377-body-L023",
+     "source_line_no": null,
+     "tex": "« deduxit. Rationes autem diametrorum planetarum et fixarum ad diametrum Solis notae quo-",
+     "transcription": "« deduxit. Rationes autem diametrorum planetarum et fixarum ad diametrum Solis notae quo-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0377-body-L024",
+     "source_line_no": null,
+     "tex": "« que sunt, ex aliorum sententia, ab observatione, ut narratur in libro \\textit{al–manshūrāt.} Hoc",
+     "transcription": "« que sunt, ex aliorum sententia, ab observatione, ut narratur in libro *al–manshūrāt.* Hoc",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0377-body-L025",
+     "source_line_no": null,
+     "tex": "« nos in tabula posuimus iuxta opinionem et inventionem \\Name{Ptolemaei}, quoniam aliorum sen-",
+     "transcription": "« nos in tabula posuimus iuxta opinionem et inventionem {sp:Ptolemaei}, quoniam aliorum sen-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0377-body-L026",
+     "source_line_no": null,
+     "tex": "« tentiae nobis tam firmae non videntur » (2).",
+     "transcription": "« tentiae nobis tam firmae non videntur » (2).",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0377-body-L027",
+     "source_line_no": null,
+     "tex": "\\Indent Demum referre oportet locum astrologiae \\Name{Ibn Hibintà}, fol. 210,v., cum quo compa-",
+     "transcription": "Demum referre oportet locum astrologiae {sp:Ibn Hibintà}, fol. 210,v., cum quo compa-",
+     "semantic_anchor": "AB01-PDF0377-P03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0377-body-L028",
+     "source_line_no": null,
+     "tex": "randus \\Name{al–Battānī} p. 123, l. 4–8. Narrat Ibn Hibintà: « \\Name{Ptolemaeus} ait molem omnium",
+     "transcription": "randus {sp:al–Battānī} p. 123, l. 4–8. Narrat Ibn Hibintà: « {sp:Ptolemaeus} ait molem omnium",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0377-body-L029",
+     "source_line_no": null,
+     "tex": "« stellarum primae magnitudinis sexies et nonagies Terram complecti; moles postea pro sin-",
+     "transcription": "« stellarum primae magnitudinis sexies et nonagies Terram complecti; moles postea pro sin-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0377-body-L030",
+     "source_line_no": null,
+     "tex": "« gulis reliquis stellarum ordinibus minui quantitate sexdecies Terram complectente, usque",
+     "transcription": "« gulis reliquis stellarum ordinibus minui quantitate sexdecies Terram complectente, usque",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0377-body-L031",
+     "source_line_no": null,
+     "tex": "« quo ad \\textit{as–Suhà} (3) perveniatur, quae est omnium minima stella visibilis in zodiaco [sic!];",
+     "transcription": "« quo ad *as–Suhà* (3) perveniatur, quae est omnium minima stella visibilis in zodiaco [sic!];",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0377-body-L032",
+     "source_line_no": null,
+     "tex": "« eius molem sexdecies complecti Terram, nec ultra eam aliquid visibile esse. — Sed Muḥam-",
+     "transcription": "« eius molem sexdecies complecti Terram, nec ultra eam aliquid visibile esse. — Sed Muḥam-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0377-body-L033",
+     "source_line_no": null,
+     "tex": "« mad ibn Ǵābir \\Name{al–Battānī}, qui anno 295 hegirae in urbe ar–Raqqah observabat, narrat",
+     "transcription": "« mad ibn Ǵābir {sp:al–Battānī}, qui anno 295 hegirae in urbe ar–Raqqah observabat, narrat",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0377-body-L034",
+     "source_line_no": null,
+     "tex": "« stellas omnes primae magnitudinis centies octies Terram complecti; [in sequentibus magni-",
+     "transcription": "« stellas omnes primae magnitudinis centies octies Terram complecti; [in sequentibus magni-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    },
+    {
+     "id": "AB01-PDF0377-body-L035",
+     "source_line_no": null,
+     "tex": "« tudinis ordinibus] ordinatim decrescere usque ad as–Suhà, quam ponit duodevicies Terram",
+     "transcription": "« tudinis ordinibus] ordinatim decrescere usque ad as–Suhà, quam ponit duodevicies Terram",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_TRANSLATION"
+    }
+   ]
+  },
+  {
+   "role": "notes_left",
+   "lines": [
+    {
+     "id": "AB01-PDF0377-notes_left-L001",
+     "source_line_no": null,
+     "tex": "\\Name{ney}, p. 397). Ponit omnes planetas habere eandem",
+     "transcription": "{sp:ney}, p. 397). Ponit omnes planetas habere eandem",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0377-notes_left-L002",
+     "source_line_no": null,
+     "tex": "mediam velocitatem \\textit{linearem}; Lunam 32 diametris",
+     "transcription": "mediam velocitatem *linearem*; Lunam 32 diametris",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0377-notes_left-L003",
+     "source_line_no": null,
+     "tex": "terrestribus abesse; reliquorum planetarum distan-",
+     "transcription": "terrestribus abesse; reliquorum planetarum distan-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0377-notes_left-L004",
+     "source_line_no": null,
+     "tex": "tias tanto maiores esse distantia Lunae quanto eo-",
+     "transcription": "tias tanto maiores esse distantia Lunae quanto eo-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0377-notes_left-L005",
+     "source_line_no": null,
+     "tex": "rum revolutiones sidereae maiores revolutione side-",
+     "transcription": "rum revolutiones sidereae maiores revolutione side-",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0377-notes_left-L006",
+     "source_line_no": null,
+     "tex": "rea Lunae.",
+     "transcription": "rea Lunae.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0377-notes_left-L007",
+     "source_line_no": null,
+     "tex": "\\Indent (1) Est igitur inter maximam distantiam Saturni",
+     "transcription": "(1) Est igitur inter maximam distantiam Saturni",
+     "semantic_anchor": "AB01-PDF0377-N01",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0377-notes_left-L008",
+     "source_line_no": null,
+     "tex": "et zodiacum spatium vacuum 1885 $\\qfrac{15}{21}$ radiorum",
+     "transcription": "et zodiacum spatium vacuum 1885 {sfrac:15/21} radiorum",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0377-notes_left-L009",
+     "source_line_no": null,
+     "tex": "terrestrium.",
+     "transcription": "terrestrium.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  },
+  {
+   "role": "notes_right",
+   "lines": [
+    {
+     "id": "AB01-PDF0377-notes_right-L001",
+     "source_line_no": null,
+     "tex": "\\Indent (2) \\ArabicRun{وقد وضعنا ذلك في جدول بحسب راي بطلميوس}",
+     "transcription": "(2) {ar:وقد وضعنا ذلك في جدول بحسب راي بطلميوس}",
+     "semantic_anchor": "AB01-PDF0377-N02",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0377-notes_right-L002",
+     "source_line_no": null,
+     "tex": "\\ArabicRun{ووجوده اذ لم يتقرر عندنا راي غيره الى هذه الغاية}. Sequitur",
+     "transcription": "{ar:ووجوده اذ لم يتقرر عندنا راي غيره الى هذه الغاية}. Sequitur",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0377-notes_right-L003",
+     "source_line_no": null,
+     "tex": "tabula diametrorum (respectu Solis) pertinentium",
+     "transcription": "tabula diametrorum (respectu Solis) pertinentium",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0377-notes_right-L004",
+     "source_line_no": null,
+     "tex": "ad singulos planetas et ad sex ordines magnitudinis",
+     "transcription": "ad singulos planetas et ad sex ordines magnitudinis",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0377-notes_right-L005",
+     "source_line_no": null,
+     "tex": "stellarum fixarum; sed numeri haud paulum mendosi.",
+     "transcription": "stellarum fixarum; sed numeri haud paulum mendosi.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0377-notes_right-L006",
+     "source_line_no": null,
+     "tex": "\\Indent (3) Prope \\textgreek{ζ} Ursae maioris; deest in Catalogo",
+     "transcription": "(3) Prope ζ Ursae maioris; deest in Catalogo",
+     "semantic_anchor": "AB01-PDF0377-N03",
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0377-notes_right-L007",
+     "source_line_no": null,
+     "tex": "stellarum Ptolemaei, nec conspicitur nisi ab iis qui",
+     "transcription": "stellarum Ptolemaei, nec conspicitur nisi ab iis qui",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0377-notes_right-L008",
+     "source_line_no": null,
+     "tex": "magna oculorum acie praediti sint. Cfr. \\Name{aṣ-Ṣūfī}",
+     "transcription": "magna oculorum acie praediti sint. Cfr. {sp:aṣ-Ṣūfī}",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    },
+    {
+     "id": "AB01-PDF0377-notes_right-L009",
+     "source_line_no": null,
+     "tex": "pag. 50.",
+     "transcription": "pag. 50.",
+     "semantic_anchor": null,
+     "margin_locator": null,
+     "printed_line_number": null,
+     "source_role": "NALLINO_APPARATUS"
+    }
+   ]
+  }
+ ]
+}
