@@ -1,21 +1,21 @@
-# al-Battānī — source edition (work in progress)
+# al-Battānī — source edition
 
-This is a source-faithful digital edition of the works of Abū ʿAbd Allāh Muḥammad ibn Jābir al-Battānī (d. 929). It starts with the astronomical handbook *al-Zīj al-Ṣābiʾ* as edited by C. A. Nallino in *Al-Battānī sive Albatenii opus astronomicum* (Milan, 1899–1907; three parts, 1,162 scanned pages).
+This is a source-faithful digital edition of the works of Abū ʿAbd Allāh Muḥammad ibn Jābir al-Battānī (d. 929) that are available in accessible sources: the astronomical handbook *al-Zīj al-Ṣābiʾ* as edited by C. A. Nallino in *Al-Battānī sive Albatenii opus astronomicum* (Milan, 1899–1907; three parts, 1,162 scanned pages), the astrological history *Kitāb fī dalāʾil al-qirānāt wa-l-kusūfāt* in George Saliba's Arabic edition, and the commentary on Ptolemy's *Tetrabiblos* in the transcription of *Ptolemaeus Arabus et Latinus*.
 
-It is an independent working edition. Nallino's edition is in the public domain. The transcriptions, markup and checks here are AI-integrated work and still in progress.
+Every page of these sources is transcribed or disposed: the sixteen sessions S01–S16 closed on 16 October 2026. Nallino's edition is in the public domain. The transcriptions, markup and checks are AI-integrated work; no person has proofread them. The open points are listed with their exact boundaries in [S16/receipts/gaps.tsv](S16/receipts/gaps.tsv): no copy has been obtained of the short treatise on sines attributed to al-Battānī (*Tajrīd uṣūl tarkīb al-juyūb*, Istanbul, Carullah 1499); the manuscripts were not read for this edition, which follows Nallino's, Saliba's and PAL's texts; Nallino's Parts I and II were read in one scan copy; 13 entries of unresolved readings stay open in S01 and S02, with their exact source images; and no translation has been made.
 
 ## Editions
 
 - An Arabic source edition of al-Battānī's text and tables.
 - A historical Latin edition of Nallino's translation and apparatus.
-- One separate edition for each target language. There are no bilingual or facing-page readers.
+- One separate edition for each target language; none has been made yet. There are no bilingual or facing-page readers.
 - A restrained critical apparatus and machine-readable ledgers alongside each edition.
 
 ## Status
 
 | Session | Scope | Status |
 |---|---|---|
-| S01 | Nallino, Part I: frontispiece, front matter, preface, bibliography, addenda/corrigenda (PDF 1–89, printed VII–LXXX) | **v003 candidate:** revised transcription with 85 recorded, source-checked decisions (71 text repairs, 14 exact-image substitutions) on 50 pages; 80-page reader and 4-page critical apparatus. Ten hard-to-read spots are kept as exact source images. The independent cold audit has not been done yet |
+| S01 | Nallino, Part I: frontispiece, front matter, preface, bibliography, addenda/corrigenda (PDF 1–89, printed VII–LXXX) | **v003 candidate:** revised transcription with 85 recorded, source-checked decisions (71 text repairs, 14 exact-image substitutions) on 50 pages; 80-page reader and 4-page critical apparatus. Ten hard-to-read spots are kept as exact source images. Its producer's reread covered selected places, not every line; S16's cold audit replayed its technical audit (47 of 47 checks) |
 | S02 | Part I: Nallino's Latin translation and notes, printed pp. 1–109 (PDF 90–198) | **Candidate v009:** printed pp. 1–53 (PDF 90–142) in [S02/candidate_v009_print001-053/](S02/candidate_v009_print001-053/), line-anchored with the printed line numbers and marginal locators, and a 54-page reader. Pp. 41–53 were read line by line against the scan and the corrected readings are integrated. The earlier candidates (v006, pp. 41–43, pp. 44–48), v002 (pp. 1–30, with its 2-page critical apparatus) and the pp. 31–35 extension are kept as records; they were checked independently, see [S02/INDEPENDENT_CHECK.md](S02/INDEPENDENT_CHECK.md). **Continued, pp. 54–109:** printed pp. 54–109 (PDF 143–198) are in [S02/versio/](S02/versio/), transcribed from the scan in the line-anchored format of S07, with every printed line compared with the built line. S02 is transcribed to its end. |
 | S03 | Part I: Nallino's Latin translation and notes, printed pp. 110–218 (PDF 199–307) | **Transcribed, pp. 110–218:** printed pp. 110–218 (PDF 199–307) are in [S03/versio/](S03/versio/), transcribed from the scan in the line-anchored format of S02 pp. 54–109, with every printed line compared with the built line. S03 is transcribed to its end. |
 | S04 | Part I: Nallino's Latin translation and notes, printed pp. 219–327 (PDF 308–416) | **Transcribed, pp. 219–327:** printed pp. 219–327 (PDF 308–416) are in [S04/versio/](S04/versio/), transcribed from the scan in the line-anchored format of S02 pp. 54–109, with every printed line compared with the built line. S04 is transcribed to its end. |
