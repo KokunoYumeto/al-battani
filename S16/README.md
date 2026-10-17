@@ -48,7 +48,7 @@ The comparison of the pages transcribed twice found three labels of the terms in
 - contact sheets of master pages beside edition pages (first and last pages, dense formula and table pages, figures), inspected and recorded in `audit_inspection.md`;
 - every production file hashed before and after: the audit changed none.
 
-Result on commit 21ea144: 16 checks, 0 failures (`audit_report.md`, `audit_report.json`, `audit_run.log`). The auditor is a separate read-only program, but it was written and run by the same AI (Claude) that produced the edition, in the same session; it is not an independent agent, and no person has reviewed the corpus. `replay_s01_audit.py` also replays S01's own technical audit on S01's complete package: 47 checks, all pass (`s01_technical_audit_replay.json`).
+Result on commit 2823bf1: 16 checks, 0 failures (`audit_report.md`, `audit_report.json`, `audit_run.log`). The auditor is a separate read-only program, but it was written and run by the same AI (Claude) that produced the edition, in the same session; it is not an independent agent, and no person has reviewed the corpus. `replay_s01_audit.py` also replays S01's own technical audit on S01's complete package: 47 checks, all pass (`s01_technical_audit_replay.json`).
 
 ## Receipts
 
