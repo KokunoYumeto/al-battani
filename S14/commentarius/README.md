@@ -56,4 +56,5 @@ The fonts are Amiri (Arabic), Linux Libertine O (Latin) and Yu Gothic (the angle
 
 - al-Battānī: the commentary.
 - Nadine Löhr, *Ptolemaeus Arabus et Latinus. Texts*: the transcription of the Escorial manuscript, its notes, signs and folio correspondences (update 25.05.2021; CC BY 4.0).
-- Conversion: AI-integrated work (Claude), 2026; no person has reviewed it. This edition is a derivative of PAL's transcription and is licensed CC BY 4.0 like it.
+- Conversion: AI-integrated work (Claude), 2026; no person has reviewed it.
+- Licences. The files that reproduce PAL's transcription are licensed CC BY 4.0, like it: `commentarius.tex` and `commentarius.pdf` (the text, signs, notes, folio correspondences, chapter headings and tables, and PAL's introduction in the front matter), `records/`, `anchors.tsv`, `apparatus.tsv`, `berlin.tsv`, `chapters.tsv`, `signs.tsv`, `tables/`, and PAL's own files in `source/`. The files that contain nothing of the transcription are dedicated to the public domain (CC0 1.0): the scripts `build_commentarius.py` and `check_conversion.py`, this README, `checkpoint.json`, `page_disposition.tsv` and `source_manifest.tsv`.
