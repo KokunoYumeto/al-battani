@@ -276,6 +276,7 @@ def volumes():
         pass
     # the sections in order, with their source files, as the assembler binds them
     sys.path.insert(0, str(AB / "S16/assembly"))
+    sys.dont_write_bytecode = True                             # the audit writes nothing beside the assembler
     import assemble                                            # its table of contents only
     sys.path.pop(0)
     bad, n = [], 0

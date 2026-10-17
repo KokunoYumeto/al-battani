@@ -1,6 +1,6 @@
 # S16 cold audit — 2026-10-17
 
-Commit audited: `2823bf105a63ea96b8771b57b1d977b9484f88aa`.
+Commit audited: `8ce50216f27fddb67cff3fa6bd5ac6baf4e8f196`.
 
 Auditor: a separate read-only program (S16/audit/cold_audit.py), written and run by the same AI (Claude) that produced the edition, in the same session; not an independent agent, and not a person.
 

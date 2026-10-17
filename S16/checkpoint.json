@@ -7,7 +7,7 @@
  "last_fully_verified_source_unit": null,
  "first_untouched_source_unit": null,
  "canonical_checkpoint": {
-  "commit": "2823bf105a63ea96b8771b57b1d977b9484f88aa",
+  "commit": "8ce50216f27fddb67cff3fa6bd5ac6baf4e8f196",
   "note": "the production files of S01-S15 as integrated and audited; a translation starts from this commit and these session digests (SHA-256 of each session's tracked files and hashes)",
   "session_digests": {
    "S01": "0658b4eb5aacfe591b20f879ccfd31a1d3d12cb4bd4cb2da189ee571fa84976a",
@@ -72,7 +72,7 @@
  "unresolved_readings_open": 13,
  "checks": {
   "integration": "15 of 15 pass",
-  "audit": "16 checks, 0 failures (commit 2823bf1)",
+  "audit": "16 checks, 0 failures (commit 8ce5021)",
   "s01_technical_audit_replay": "47 of 47 pass"
  },
  "repairs": [
