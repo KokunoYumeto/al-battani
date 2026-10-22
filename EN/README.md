@@ -11,7 +11,7 @@ The English should say everything the Arabic says, in the order in which al-Batt
 - **Exact technical terms, used consistently.** One English term for each Arabic term, recorded in [glossary.tsv](glossary.tsv) with Nallino's Latin equivalent. Where an English term is not self-explanatory, the glossary says what it means. The standard modern name is used where it means exactly the same thing: «the ecliptic» for *falak al-burūj*, «the equator» for *falak muʿaddil al-nahār*. A literal rendering is used where al-Battānī's notion differs from the modern one: «the horizontal shadow» and «the vertical shadow» for *al-ẓill al-mabsūṭ* and *al-ẓill al-qāʾim*, not cotangent and tangent.
 - **Numbers in numerals.** Al-Battānī writes most numbers in words. The translation gives them in figures with their units (23° 35′, 365 days 5 hours), since the value is what matters and figures are easier to check. Sexagesimal fractions keep their places as written (minutes, seconds, thirds).
 - **Brackets for additions.** Words that the English needs only to be grammatical are not marked. Words added for the sense stand in square brackets, sparingly.
-- **Notes, kept apart from the text.** Quotations from the Qurʾān are identified in notes. A note also records where Nallino corrects the Arabic and the translation follows him, where the translation corrects a misprint that his corrigenda do not list, and where it reads the Arabic differently from Nallino. Corrections that concern only the grammatical form of a word, and do not change the English, are not noted.
+- **Notes, kept apart from the text.** Quotations from the Qurʾān are identified in notes. A note also records where Nallino corrects the Arabic and the translation follows him, where the translation corrects a misprint that his corrigenda do not list, and where it reads the Arabic differently from Nallino. Corrections that concern only the grammatical form of a word, and do not change the English, are not noted. Pages and lines are cited by Nallino's page numbers and his marginal line numbers, which his corrigenda also use.
 
 ## Sources and checks
 
@@ -25,7 +25,7 @@ The work runs chapter by chapter. First the Arabic is read with Nallino's appara
 
 ## Status
 
-**Done:** the invocation, the list of the 57 chapters and chapters 1–5 (Part III pp. 1–21). Read [zij_en.pdf](zij_en.pdf). The chapters follow in order; the tables of Part III, whose headings and notes also need translating, come after the canons.
+**Done:** the invocation, the list of the 57 chapters and chapters 1–6 (Part III pp. 1–28). Read [zij_en.pdf](zij_en.pdf). The chapters follow in order; the tables of Part III, whose headings and notes also need translating, come after the canons.
 
 | File | Content |
 |---|---|
