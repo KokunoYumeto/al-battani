@@ -624,6 +624,42 @@ def chapter_47_48():
     assert round(venus) == 136 and round(mercury) == 112
 
 
+def chapter_50():
+    """the distances and sizes of the planets: the arithmetic of the chapter and Schiaparelli's apparent diameters"""
+    sx = lambda *v: sum(x / 60 ** i for i, x in enumerate(v))  # noqa: E731
+    moon_far = sx(64, 10)
+    merc_far = moon_far * (2 + 7 / 12)
+    assert sexa(merc_far, 2) == [165, 46] and round((moon_far + 166) / 2) == 115 and abs(115 / 15 - 23 / 3) < 1e-12
+    earth = 1108 / 5.5
+    assert abs(earth - (201 + 5 / 11)) < 1e-9 and abs(201.5 / (115 / 15) - 26.25) < 0.05
+    assert sexa(sx(1, 57) / 26.25, 3) == [0, 4, 27] and round(26.25 ** 3) == 18088
+    assert round(166 * 6.5) == 1079 and (166 + 1070) / 2 == 618 and round(61.8 / 201.5, 3) == 0.307
+    assert 26 + 21 == 47 and 46 + 41 == 87
+    assert 1146 * 7 == 8022 and (1146 + 8022) / 2 == 4584 and 4584 / 20 == 229.2 and round(229.2 / 201.5, 2) == 1.14
+    epi = {k: 2 * D(math.asin(sx(*v) / 60)) for k, v in (("Mars", (39, 30)), ("Jupiter", (11, 30)), ("Saturn", (6, 30)))}
+    assert sexa(epi["Mars"], 2) == [82, 21] and sexa(epi["Jupiter"], 2) == [22, 6] and sexa(epi["Saturn"], 2) == [12, 26]
+    jup_far = 8022 * (1 + 11 / 18)
+    assert round(37 / 23, 3) == 1.609 and round(jup_far) == 12924 and (8022 + 12924) / 2 == 10473
+    assert 10473 / 12 == 872.75
+    sat_far = 12924 * 7 / 5
+    assert round(sat_far) == 18094 and (12924 + 18094) / 2 == 15509 and abs(15509 / 18 - (861 + 11 / 18)) < 1e-9
+    assert round(950 / 201.5, 2) == 4.71 and round((950 / 201.5) ** 3) == 105
+    sun = sx(0, 32, 30)                                         # mean apparent diameter of the sun
+    dist = {"Saturn": (18094, 15509, 12924, 18), "Jupiter": (12924, 10473, 8022, 12), "Mars": (8022, 4584, 1146, 20),
+            "Venus": (1070, 618, 166, 10), "Mercury": (166, 115, moon_far, 15)}
+    schiaparelli = {"Saturn": ((0, 1, 33), (0, 1, 48), (0, 2, 10)), "Jupiter": ((0, 2, 12), (0, 2, 42), (0, 3, 32)),
+                    "Mars": ((0, 0, 56), (0, 1, 37), (0, 6, 30)), "Venus": ((0, 1, 53), (0, 3, 15), (0, 12, 6)),
+                    "Mercury": ((0, 1, 30), (0, 2, 10), (0, 3, 54))}
+    out = []
+    for k, (far, mean, near, part) in dist.items():
+        d_mean = sun / part
+        got = (d_mean * mean / far, d_mean, d_mean * mean / near)
+        for g, s in zip(got, schiaparelli[k]):
+            assert abs(g - sx(*s)) <= 1.05 / 3600        # within about a second
+        out.append(f"{k} " + ", ".join(str(sexa(g)) for g in got))
+    print("ch. 50: apparent diameters from al-Battani's distances: " + "; ".join(out))
+
+
 if __name__ == "__main__":
     chapter_12()
     chapter_18()
@@ -642,4 +678,5 @@ if __name__ == "__main__":
     chapter_44()
     chapter_46()
     chapter_47_48()
+    chapter_50()
     print("all checks passed")
