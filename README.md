@@ -8,7 +8,7 @@ Every page of these sources is transcribed or disposed: the sixteen sessions S01
 
 - An Arabic source edition of al-Battānī's text and tables.
 - A historical Latin edition of Nallino's translation and apparatus.
-- One separate edition for each target language; none has been made yet. There are no bilingual or facing-page readers.
+- One separate edition for each target language. The English translation of the canons is in progress in [EN/](EN/): the list of chapters and chapters 1–2 so far. There are no bilingual or facing-page readers.
 - A restrained critical apparatus and machine-readable ledgers alongside each edition.
 
 ## Status
