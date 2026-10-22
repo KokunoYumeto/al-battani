@@ -686,6 +686,36 @@ def chapter_51():
     assert len(mansions) == 28 and sorted(n for v in named.values() for n in v) == sorted(mansions)
 
 
+def chapter_52():
+    """the trepidation: the epoch of the astrologers, the four years and the sun's motions, the corrections of
+    Hipparchus and Ptolemy, and the two rates of the fixed stars"""
+    sx = lambda *v: sum(x / 60 ** i for i, x in enumerate(v))  # noqa: E731
+    reigns = [7, 12, 20, 38, 25, 17, 24, 35, 29, 36, 29, 22]  # Philip to Cleopatra in Ptolemy's canon of kings
+    assert sum(reigns) == 294 and 294 - 128 == 166
+    years = {"astrologers": 365.25 + 1 / 120, "Hipparchus": 365.25, "Ptolemy": 365.25 - 1 / 300,
+             "al-Battani": 365.25 - 3.4 / 360}
+    printed = {"astrologers": [359, 44, 43], "Hipparchus": [359, 45, 13], "Ptolemy": [359, 45, 25],
+               "al-Battani": [359, 45, 46]}
+    codex = {"astrologers": [359, 44, 48], "Hipparchus": [359, 41, 53], "Ptolemy": [359, 44, 25]}
+    for k, y in years.items():
+        m = sexa(360 * 365 / y, 3)
+        assert m == printed[k] and m != codex.get(k), (k, m)
+    secs = {k: round((y - 365) * 86400) for k, y in years.items()}
+    assert secs["astrologers"] == 6 * 3600 + 12 * 60 and secs["Ptolemy"] == 5 * 3600 + 55 * 60 + 12
+    assert secs["al-Battani"] == 5 * 3600 + 46 * 60 + 24
+    diff = years["Ptolemy"] - years["al-Battani"]
+    print(f"ch. 52: al-Battani's year shorter than Ptolemy's by {diff * 360:.4f} parts of 360: in 743 years"
+          f" {diff * 743:.4f} days, in 750 {diff * 750:.4f}; Ptolemy against 365 1/4 in 285 years {285 / 300:.2f}")
+    assert round(diff * 360, 9) == 2.2 and round(diff * 743, 2) == 4.54 and round(diff * 743 * 4) / 4 == 4.5
+    assert round(285 / 300, 2) == 0.95 and round(diff * 750 * 4) / 4 == 4.5
+    sun = (360 * 365 / years["al-Battani"] - 360 * 365 / years["Ptolemy"]) * 3600
+    stars = 3600 / 66 - 36
+    print(f"ch. 52: fixed stars 1 degree in 66 years against 100: {stars:.3f}\" a year; sun's excess in an Egyptian year"
+          f" {sun:.3f}\"; astrologers' rate {3600 / 80:.0f}\" a year")
+    assert round(stars, 1) == 18.5 and round(sun, 1) == 21.7 and 3600 / 80 == 45
+    assert sexa(sx(359, 45, 46) - sx(359, 45, 25), 3) == [0, 0, 21]
+
+
 if __name__ == "__main__":
     chapter_12()
     chapter_18()
@@ -706,4 +736,5 @@ if __name__ == "__main__":
     chapter_47_48()
     chapter_50()
     chapter_51()
+    chapter_52()
     print("all checks passed")
