@@ -278,6 +278,28 @@ def chapter_32():
     assert off <= {76, 77, 78}
 
 
+def chapter_33():
+    """the motion of the farthest distance of the sun: one degree in 66 Roman years, about 68 lunar years"""
+    yearly = 3600 / 66                                   # seconds of arc a year
+    lunar = 66 * 365.25 / (354 + 11 / 30)
+    print(f"ch. 33: 1 degree in 66 years = {int(yearly)} seconds {round((yearly % 1) * 60)} thirds a year;"
+          f" 66 Roman years = {lunar:.2f} lunar years")
+    assert int(yearly) == 54 and round((yearly % 1) * 60) == 33 and round(lunar) == 68
+
+
+def chapter_36_38():
+    """ch. 36: the true motion equals the mean motion at the anomaly where the equation is greatest, 90 degrees and
+    the greatest equation (95 for the moon at the syzygies, 92 for the sun); ch. 38: the sine of 5 degrees"""
+    def equation(a, r):
+        return D(math.atan2(r * math.sin(R(a)), 60 + r * math.cos(R(a))))
+    for name, r, expect in (("moon", 5.25, 95), ("sun", 2 + 4 / 60 + 45 / 3600, 92)):
+        best = max((equation(a / 100, r), a / 100) for a in range(0, 18001))
+        print(f"ch. 36: {name}: the greatest equation {best[0]:.3f} at the anomaly {best[1]:.2f}")
+        assert round(best[1]) == expect and abs(best[1] - 90 - best[0]) < 0.01
+    print(f"ch. 38: 60 sin 5 = {sexa(60 * math.sin(R(5)))}")
+    assert sexa(60 * math.sin(R(5))) == [5, 13, 46]
+
+
 if __name__ == "__main__":
     chapter_12()
     chapter_18()
@@ -286,4 +308,6 @@ if __name__ == "__main__":
     chapter_28()
     chapter_30()
     chapter_32()
+    chapter_33()
+    chapter_36_38()
     print("all checks passed")
