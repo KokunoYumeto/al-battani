@@ -832,6 +832,58 @@ def chapter_54():
     assert exact(60) == 0.0                                # Ibn Yunus: a latitude of 60 degrees leaves no sextile
 
 
+def chapter_55():
+    """the ascensions between the cardines: the example of Aries, the agreement of the two rules with the
+    definition by seasonal hours, and the departure of the great circle through the north and south points"""
+    sx = lambda *v: sum(x / 60 ** i for i, x in enumerate(v))  # noqa: E731
+
+    def ra(lam, eps):                                      # right ascension of the arc from the equinox
+        return D(math.atan2(math.cos(R(eps)) * math.sin(R(lam)), math.cos(R(lam))))
+
+    def oblique(lam, eps, phi):
+        dec = math.asin(math.sin(R(eps)) * math.sin(R(lam)))
+        return ra(lam, eps) - D(math.asin(math.tan(R(phi)) * math.tan(dec)))
+
+    assert sexa(ra(30, sx(23, 35)), 2) == [27, 53]
+    assert sexa(oblique(30, sx(23, 51, 20), 36), 2) == [19, 12] and sexa(oblique(30, sx(23, 35), 36), 2) == [19, 21]
+    diff = sx(27, 53) - sx(19, 12)
+    assert sexa(diff, 2) == [8, 41] and sexa(diff / 3, 3) == [2, 53, 40] and sexa(diff / 2, 3) == [4, 20, 30]
+    assert sexa(sx(27, 53) + diff, 2) == [36, 34]
+    phi = 36.0
+
+    def semi(dec):                                         # half the arc of the day, in times
+        return 90 + D(math.asin(math.tan(R(phi)) * math.tan(R(dec))))
+
+    for dec_a, dec_b, ra_a, ra_b, ra_mc in ((10, -15, 70, 95, 20), (-20, 22, 300, 330, 260), (5, 18, 140, 152, 100)):
+        hours_a = (ra_a - ra_mc) / (semi(dec_a) / 6)       # seasonal hours of the preceding place east of the meridian
+        assert 0 < hours_a < 6
+        by_hours = (ra_b - ra_mc) - hours_a * semi(dec_b) / 6   # the second rule: the definition by seasonal hours
+        obl_a, obl_b = ra_a - (semi(dec_a) - 90), ra_b - (semi(dec_b) - 90)
+        by_ascensions = (ra_b - ra_a) + ((obl_b - obl_a) - (ra_b - ra_a)) * hours_a / 6   # the first rule
+        assert abs(by_hours - by_ascensions) < 1e-9
+
+    def tilt(dec, t):                                      # the great circle through the north and south points
+        x = math.cos(R(dec)) * math.sin(R(t))
+        z = math.sin(R(phi)) * math.sin(R(dec)) + math.cos(R(phi)) * math.cos(R(dec)) * math.cos(R(t))
+        return math.atan2(x, z)
+
+    def on_circle(dec, th):
+        lo, hi = 0.0, semi(dec)
+        for _ in range(80):
+            mid = (lo + hi) / 2
+            lo, hi = (mid, hi) if tilt(dec, mid) < th else (lo, mid)
+        return (lo + hi) / 2
+
+    def departure(dec_a, dec_b, hours=3):
+        th = tilt(dec_a, hours * semi(dec_a) / 6)
+        return on_circle(dec_b, th) - hours * semi(dec_b) / 6
+
+    small, large = departure(0, 24), departure(-24, 24)
+    print(f"ch. 55: the great circle through the north and south points departs from the seasonal hours by {small:.2f}"
+          f" degrees (equator and 24 north, 3 hours) and {large:.2f} (24 south and 24 north)")
+    assert round(small, 1) == 3.8 and 9.5 < large < 10
+
+
 if __name__ == "__main__":
     chapter_12()
     chapter_18()
@@ -855,4 +907,5 @@ if __name__ == "__main__":
     chapter_52()
     chapter_53()
     chapter_54()
+    chapter_55()
     print("all checks passed")
