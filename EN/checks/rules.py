@@ -545,6 +545,65 @@ def chapter_43():
     assert worst_ok < 1e-9 and min(fails) > 0
 
 
+def chapter_44():
+    """the eclipses of the sun: the parallax rules against the exact visible conjunction (and Schiaparelli's objection);
+    the limits 0;34,30 and 0;30,25; 2 1/3; the circle of the sun in digits; the area rule with the sun eclipsed"""
+    sx = lambda *v: sum(x / 60 ** i for i, x in enumerate(v))  # noqa: E731
+    gain, moon = sx(12, 11) / 24, sx(13, 10, 35) / 24              # in parts an hour
+    for amp, start, rate in ((0.95, 60, 12), (0.95, 40, 14), (0.7, 75, 10)):
+        def par(t):                                     # parallax in longitude, increasing the longitude, east
+            return amp * math.sin(R(start - rate * t))
+        p1 = par(0.0)                                   # the true conjunction at t = 0
+        t1 = -p1 / moon                                 # hours of the first parallax
+        p2 = par(t1)
+        t2 = -p2 / gain                                 # hours of the second parallax
+        p3 = par(t2)
+
+        def visible(t):                                 # visible moon less sun
+            return gain * t + par(t)
+        assert abs(visible(t2) - (p3 - p2)) < 1e-12     # the sentences Schiaparelli calls false
+        motion = gain - (par(t2 - 1 / 6) - p3) * 6      # the corrected motion
+        t_rule = t2 - (p3 - p2) / motion
+        lo, hi = t2 - 1, t2 + 1
+        for _ in range(100):
+            mid = (lo + hi) / 2
+            lo, hi = (lo, mid) if visible(lo) * visible(mid) <= 0 else (mid, hi)
+        err_rule, err_t2 = abs(t_rule - lo) * 3600, abs(t2 - lo) * 60
+        print(f"ch. 44: visible minus true at the second time = p3 - p2; rule off by {err_rule:.2f} s,"
+              f" second parallax alone by {err_t2:.2f} min")
+        assert err_rule < 2 and err_t2 > 0.05
+    hi_lim, lo_lim = (sx(0, 33, 40) + sx(0, 35, 20)) / 2, (sx(0, 31, 20) + sx(0, 29, 30)) / 2
+    print(f"ch. 44: limits {sexa(hi_lim)}, {sexa(lo_lim)}; 0;33,40 - 0;31,20 = {sexa(sx(0, 33, 40) - sx(0, 31, 20))}")
+    assert sexa(hi_lim) == [0, 34, 30] and sexa(lo_lim) == [0, 30, 25] and sexa(sx(0, 33, 40) - sx(0, 31, 20)) == [0, 2, 20]
+    circ = 12 * sx(3, 8, 30)
+    print(f"ch. 44: 12 x 3;8,30 = {sexa(circ, 2)}, half {sexa(circ / 2, 2)}, area {sexa(circ / 2 * 6, 2)},"
+          f" quarter {sexa(circ / 4)}")
+    assert sexa(circ, 2) == [37, 42] and sexa(circ / 2, 2) == [18, 51] and sexa(circ / 2 * 6, 2) == [113, 6]
+    assert sexa(circ / 4) == [9, 25, 30]
+
+    def lens(a, c, b):
+        return (c * c * math.acos((b * b + c * c - a * a) / (2 * b * c))
+                + a * a * math.acos((b * b + a * a - c * c) / (2 * b * a))
+                - 0.5 * math.sqrt((-b + c + a) * (b + c - a) * (b - c + a) * (b + c + a)))
+    for r in (5.5, 6.0, 6.5):                           # radius of the moon in digits; the sun's is 6
+        for i in range(1, 120):
+            e = 12 * i / 120                            # digits of the eclipse
+            d = r + 6 - e                               # distance of the centres
+            if d <= abs(r - 6) + 1e-9:                  # the eclipse is no longer partial
+                continue
+            s_moon = (12 - e) * e / (2 * d)
+            s_sun = e - s_moon
+            h = math.sqrt((12 - s_sun) * s_sun)
+            x_sun = s_moon + (6 - e)                    # from the centre of the sun to the chord
+            x_moon = d - x_sun                          # from the centre of the moon to the chord
+            area = (36 * math.asin(h / 6) + r * r * math.asin(h / r) - h * abs(x_sun) - h * abs(x_moon))
+            if x_sun >= 0 and x_moon >= 0:
+                assert abs(area - lens(6, r, d)) < 1e-9
+            else:
+                assert area < lens(6, r, d)
+    print("ch. 44: the area rule for the sun is exact while the chord lies between the centres, too small beyond")
+
+
 if __name__ == "__main__":
     chapter_12()
     chapter_18()
@@ -560,4 +619,5 @@ if __name__ == "__main__":
     chapter_41()
     chapter_42()
     chapter_43()
+    chapter_44()
     print("all checks passed")
