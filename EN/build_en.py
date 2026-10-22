@@ -19,7 +19,8 @@ FIRST..LAST are the anchors of the first and the last Arabic line that the block
 Two consecutive blocks may share their boundary line, where a sentence ends inside a line; otherwise every line of the
 Arabic text of the chapter (kinds display, text, h1, h2, cell, figure) belongs to exactly one block. Nallino's notes
 (kind note) and the Latin title lines are not translated. The letters of the figures are transliterated: ا A, ب B,
-ج G, د D, ه H, و W, ز Z, ح Ḥ, ط Ṭ, ي Y, ك K, ل L, م M, ن N.
+ج G, د D, ه H, و W, ز Z, ح Ḥ, ط Ṭ, ي Y, ك K, ل L, م M, ن N, س S, ع ʿ, ف F, ص Ṣ,
+ق Q, ر R, ش Sh, ت T, ث Th, خ Kh, ذ Dh, ض Ḍ, ظ Ẓ, غ Gh, and لا (lām-alif) LA.
 Inline: *...* emphasis; Arabic in «» is set in the Arabic font.
 
 python build_en.py   (writes zij_en.tex, alignment.tsv and checkpoint.json; fails on any coverage error)"""
@@ -167,7 +168,8 @@ def figure_tex(fg, labels):
     for c in fg.get("discs", []):
         out.append(r"\fill " + pt(c["cx"], c["cy"]) + " circle[radius=" + f"{c['r']:.2f}pt];")
     for lab, t in zip(labels, fg["texts"]):
-        size = r"\normalsize" if len(lab) <= 2 else r"\scriptsize"
+        # the ʿayn (ʿ) is a small sign and is set larger to be legible as a label
+        size = r"\LARGE" if lab == "ʿ" else (r"\normalsize" if len(lab) <= 2 else r"\scriptsize")
         rot = f", rotate={t['rot']:.1f}" if t.get("rot") else ""
         out.append(r"\node[inner sep=0pt" + rot + "] at " + pt(t["x"], t["y"]) + " {" + size + " " + inline(lab) +
                    "};")

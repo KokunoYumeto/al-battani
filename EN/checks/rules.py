@@ -116,9 +116,44 @@ def chapter_25():
             assert abs(rule - true) > 0.5 * true
 
 
+def sexa(x, places=3):
+    """x as degrees (or parts), minutes, seconds ..., rounded in the last place"""
+    v = round(x * 60 ** (places - 1))
+    out = []
+    for _ in range(places - 1):
+        v, r = divmod(v, 60)
+        out.append(r)
+    return [v] + out[::-1]
+
+
+def chapter_28():
+    """the equation of the sun with the radius 2;4,45: 30° from the apogee and 30° from the perigee; and the mean
+    motion in 186 days 14 3/4 hours"""
+    r = 2 + 4 / 60 + 45 / 3600
+    near = r * math.sin(R(30))                     # 1;2,22,30
+    far = 60 + r * math.cos(R(30))                 # 61;48,2
+    dist = math.hypot(far, near)                   # 61;48,35
+    scaled = near * 60 / dist
+    arc = D(math.asin(scaled / 60))
+    print(f"ch. 28: apogee side: distance {sexa(dist)}, line {sexa(scaled)}, arc {sexa(arc)}")
+    assert sexa(scaled) == [1, 0, 33] and sexa(arc) == [0, 57, 49]
+    far2 = 60 - r * math.cos(R(30))                # 58;11,58
+    dist2 = math.hypot(far2, near)
+    scaled2 = near * 60 / dist2
+    arc2 = D(math.asin(scaled2 / 60))
+    print(f"ch. 28: perigee side: distance {sexa(dist2)}, line {sexa(scaled2)}, arc {sexa(arc2)}")
+    # the text has 1;4,17 for the line (from its rounded distance 58;12,34); the arc is the same
+    assert sexa(scaled2)[:2] == [1, 4] and abs(sexa(scaled2)[2] - 17) <= 1 and sexa(arc2) == [1, 1, 24]
+    year = 365 + 14 / 60 + 26 / 3600
+    mean = 360 / year * (186 + 14.75 / 24)
+    print(f"ch. 28: mean motion in 186 days 14 3/4 hours {sexa(mean)}")
+    assert sexa(mean)[:2] == [183, 56] and abs(sexa(mean)[2] - 12) < abs(sexa(mean)[2] - 2)
+
+
 if __name__ == "__main__":
     chapter_12()
     chapter_18()
     chapter_24()
     chapter_25()
+    chapter_28()
     print("all checks passed")
