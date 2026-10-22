@@ -150,10 +150,91 @@ def chapter_28():
     assert sexa(mean)[:2] == [183, 56] and abs(sexa(mean)[2] - 12) < abs(sexa(mean)[2] - 2)
 
 
+def chapter_30():
+    """the moon: the eccentricity, the second anomaly at the doubled elongation of 120 and the arc of the prosneusis
+    at 90;30 (Ptolemy's numbers), Ptolemy's and al-Battani's distances of the sun, and the sun's parallax"""
+    def sx(*v):
+        return sum(x / 60 ** i for i, x in enumerate(v))
+    # the eccentricity: the epicycle 5;15 seen as 8 at the nearest distance
+    hf = 5.25 * 60 / 8
+    print(f"ch. 30: HF {sexa(hf)}, diameter {sexa(60 + hf)}, radius {sexa((60 + hf) / 2)}, centres {sexa(60 - (60 + hf) / 2)}")
+    assert sexa(hf, 2) == [39, 22] and sexa((60 + hf) / 2, 2) == [49, 41] and sexa(60 - (60 + hf) / 2, 2) == [10, 19]
+    # the doubled elongation of 120: the angle ZHL of 60 on the base HZ = 10;19
+    e, rad, r = sx(10, 19), sx(49, 41), sx(5, 15)
+    zl = e * sx(51, 58) / 60
+    ml = math.sqrt(rad ** 2 - zl ** 2)
+    ml_text = math.sqrt(rad ** 2 - sx(9, 16) ** 2)
+    hm = sx(48, 53) - sx(5, 10)
+    mk = r * 60 / hm
+    arc = D(math.asin(mk / 60))
+    print(f"ch. 30: ZL {sexa(zl)}; ML {sexa(ml)} (with the text's 9;16: {sexa(ml_text)}); HM {sexa(hm)}; MK {sexa(mk)};"
+          f" arc {sexa(arc)}")
+    assert sexa(zl, 2) == [8, 56] and sexa(ml, 2) == [48, 52] and sexa(ml_text, 2) == [48, 49]
+    assert sexa(hm, 2) == [43, 43] and sexa(mk, 2) == [7, 12] and sexa(arc, 2) == [6, 54]
+    sixty_239, sixty_240 = 60 * sx(1, 53) / sx(2, 39), 60 * sx(1, 53) / sx(2, 40)
+    print(f"ch. 30: 60 x 1;53 / 2;39 = {sexa(sixty_239)}, / 2;40 = {sexa(sixty_240)}; 7;40 - 5;1 = {sexa(sx(7, 40) - sx(5, 1))}")
+    assert sexa(sixty_239, 2) == [42, 38] and sexa(sixty_240) == [42, 22, 30] and sexa(sx(7, 40) - sx(5, 1), 2) == [2, 39]
+    # the doubled elongation of 90;30: the arc between the true and the mean farthest distance of the epicycle
+    hk = e * math.sin(R(0.5))
+    bk = math.sqrt(rad ** 2 - (e * math.cos(R(0.5))) ** 2)
+    sb = bk - 2 * hk
+    bz = math.hypot(sb, e * math.cos(R(0.5)))
+    sz = e * math.cos(R(0.5)) * 60 / bz
+    print(f"ch. 30: HK {sexa(hk)}, BK {sexa(bk)}, SB {sexa(sb)}, BZ {sexa(bz)}, SZ {sexa(sz)}, arc {sexa(D(math.asin(sz / 60)))};"
+          f" arc of 12;32 {sexa(D(math.asin(sx(12, 32) / 60)))}")
+    assert sexa(hk, 2) == [0, 5] and sexa(bk, 2) == [48, 36] and sexa(bz, 2) == [49, 30] and sexa(sz, 2) == [12, 30]
+    sz_text = sx(10, 19) * 60 / sx(49, 31)  # with the text's rounded BZ
+    assert sexa(sz_text, 2) == [12, 30] and sexa(D(math.asin(sx(12, 30) / 60)), 2) == [12, 1]
+    assert sexa(D(math.asin(sx(12, 32) / 60)), 2) == [12, 3]
+    assert 333 + 12 / 60 + 12 + 1 / 60 == 345 + 13 / 60
+    # Ptolemy's distances (Almagest V 15-16)
+    moon, shadow = 60 * math.sin(R(sx(0, 15, 40))), 60 * math.sin(R(sx(0, 40, 40)))
+    print(f"ch. 30: sines {sexa(moon)}, {sexa(shadow)}; 1 / 0;3,11 = {1 / sx(0, 3, 11):.3f}; 64;10 / 0;3,11 ="
+          f" {sx(64, 10) / sx(0, 3, 11):.1f}; cubes {5.5 ** 3}, {18.8 ** 3:.2f}, {3.4 ** 3:.2f}; 6644.5 / 39.25 ="
+          f" {6644.5 / 39.25:.1f}")
+    assert sexa(moon) == [0, 16, 24] and sexa(shadow) == [0, 42, 35]
+    assert abs(sx(64, 10) / sx(0, 3, 11) - 1210) < 2 and abs(6644.5 / 39.25 - 170) < 1 and 5.5 ** 3 == 166.375
+    sf = sx(0, 45, 38) / sx(0, 14, 22) * sx(64, 10)
+    assert abs(sf - (203 + 5 / 6)) < 0.05 and round(sf + sx(64, 10)) == 268
+    # al-Battani's distances
+    part = sx(1, 50) / sx(5, 50)
+    near = sx(64, 10) - part * sx(10, 20)
+    sun = 18.8 * (60 + 29 / 30)
+    print(f"ch. 30: 1;50 / 5;50 = {part:.4f} (1/3 - 1/50 = {1 / 3 - 1 / 50:.4f}); x 10;20 = {part * sx(10, 20):.3f};"
+          f" moon {near:.3f} (60 29/30 = {60 + 29 / 30:.3f}); sun {sun:.1f}; shadow {sun / 4.5:.1f};"
+          f" sun to moon {sun - 60 - 29 / 30:.1f}; variation {2 * sx(2, 4, 45) / 60 * 1108:.1f}")
+    assert abs(part - (1 / 3 - 1 / 50)) < 0.002 and abs(near - (60 + 29 / 30)) < 0.05
+    assert round(sun) == 1146 and abs(sun / 4.5 - (254 + 2 / 3)) < 0.1 and round(sun - 60 - 29 / 30) == 1085
+    assert 76 <= 2 * sx(2, 4, 45) / 60 * 1108 < 77
+    # the parallax of the sun from the eclipse relation: the parallaxes of the sun and the moon together equal the
+    # apparent radii of the shadow and the sun together (minutes of arc)
+    p_moon = D(math.asin(1 / sx(64, 10))) * 60
+    p_ptolemy = 40 + 40 / 60 + 15 + 40 / 60 - p_moon
+    p_battani = 38.5 + 15 + 40 / 60 - p_moon
+    print(f"ch. 30: parallax of the moon {p_moon:.2f}'; of the sun with 40;40 {p_ptolemy:.2f}', with 38;30"
+          f" {p_battani:.2f}' (ratio {p_ptolemy / p_battani:.2f})")
+    assert 53.4 < p_moon < 53.7 and abs(p_ptolemy - 2.75) < 0.05 and abs(p_battani - 0.6) < 0.05
+    assert 4.5 < p_ptolemy / p_battani < 5
+    # the modern mean distance of the sun in radii of the earth, against al-Battani's mean 1108
+    au = 149597870.7 / 6378.137
+    print(f"ch. 30: astronomical unit {au:.0f} radii of the earth, {au / 1108:.1f} times al-Battani's mean distance")
+    assert 23400 < au < 23500 and 20 < au / 1108 < 22
+    # Antioch and al-Raqqa (36;9 and 39;4 east of Greenwich); the sun of 23 January 901 from its nearest distance
+    assert abs(sx(39, 4) - sx(36, 9) - sx(2, 55)) < 1e-9 and abs(4 * sx(2, 55) - (11 + 2 / 3)) < 1e-9
+    assert sexa((300 + sx(8, 35)) - (sx(82, 17) + 180), 2) == [46, 18]
+    # the sun of 3 August 901: mean Leo 16;10 with the apogee at Gemini 22;17 gives the subtractive equation 1;34
+    # and the true position 14;36 of the text
+    a = R(120 + sx(16, 10) - (60 + sx(22, 17)))
+    q = D(math.atan2(sx(2, 4, 45) * math.sin(a), 60 + sx(2, 4, 45) * math.cos(a)))
+    print(f"ch. 30: the sun of 3 August 901: anomaly {D(a):.2f}, equation {sexa(q)}, true {sexa(sx(16, 10) - q)}")
+    assert sexa(q, 2) == [1, 34] and sexa(sx(16, 10) - q, 2) == [14, 36]
+
+
 if __name__ == "__main__":
     chapter_12()
     chapter_18()
     chapter_24()
     chapter_25()
     chapter_28()
+    chapter_30()
     print("all checks passed")

@@ -129,13 +129,11 @@ def figure_geometry(anchor):
     raise SystemExit(f"{anchor}: no measured figure")
 
 
-def figure_tex(fg, labels):
-    """the figure redrawn from its measured geometry (page points, y downwards) at its printed size: circles, arcs,
-    straight lines and dots with their stroke widths, and the English labels at the centres of the Arabic ones, turned
-    where these are turned"""
-    for key in ("hatches", "paths"):
-        if fg.get(key):
-            raise SystemExit(f"figure {fg['name']}: {key} are not drawn yet")
+FLOAT_HEIGHT = 450      # points: a figure taller than this, about two thirds of the text height, floats
+
+
+def figure_extent(fg):
+    """the box (x0, y0, x1, y1) of the measured figure, in page points with y downwards"""
     xs, ys = [], []
     for c in fg.get("circles", []) + fg.get("arcs", []) + fg.get("discs", []):
         xs += [c["cx"] - c["r"], c["cx"] + c["r"]]
@@ -146,7 +144,21 @@ def figure_tex(fg, labels):
     for t in fg["texts"]:
         xs.append(t["x"])
         ys.append(t["y"])
-    x0, y1 = min(xs), max(ys)
+    return min(xs), min(ys), max(xs), max(ys)
+
+
+def figure_height(fg):
+    _, y0, _, y1 = figure_extent(fg)
+    return y1 - y0
+
+
+def figure_tex(fg, labels):
+    """the figure redrawn from its measured geometry (page points, y downwards) at its printed size: hatched half
+    discs, circles, arcs, straight lines and dots with their stroke widths, and the English labels at the centres of
+    the Arabic ones, turned where these are turned; a label that stands in a hatched half disc is set on white"""
+    if fg.get("paths"):
+        raise SystemExit(f"figure {fg['name']}: paths are not drawn yet")
+    x0, _, _, y1 = figure_extent(fg)
 
     def pt(x, y):
         return f"({x - x0:.2f}pt,{y1 - y:.2f}pt)"
@@ -155,7 +167,35 @@ def figure_tex(fg, labels):
         d = f", dash pattern=on {e['dash'][0]:.2f}pt off {e['dash'][1]:.2f}pt" if e.get("dash") else ""
         return "[line width=" + f"{e['w']:.2f}pt" + d + "]"
 
-    out = []
+    # a hatched half disc ("hatches"): the part of the circle cx, cy, r on the side "into" (a unit vector) of the chord
+    # x0, y0 - x1, y1, filled with parallel lines "w" thick at "angle" degrees (counter-clockwise, the line of the text
+    # at 0), "pitch" apart, one of them "phase" from the centre of the circle along their normal (as the Arabic edition
+    # draws it, S11 build_textus.py)
+    def hatch(h):
+        t = math.radians(h["angle"])
+        ux, uy, nx, ny = math.cos(t), -math.sin(t), math.sin(t), math.cos(t)
+        ex, ey = h["x1"] - h["x0"], h["y1"] - h["y0"]
+        el = math.hypot(ex, ey)
+        ex, ey = ex / el * h["r"] * 0.4, ey / el * h["r"] * 0.4
+        ix, iy = h["into"][0] * h["r"] * 2.3, h["into"][1] * h["r"] * 2.3
+        ax, ay, bx, by = h["x0"] - ex, h["y0"] - ey, h["x1"] + ex, h["y1"] + ey
+        body = (r"\clip " + pt(h["cx"], h["cy"]) + f" circle[radius={h['r']:.2f}pt];" + r"\clip " + pt(ax, ay) +
+                " -- " + pt(bx, by) + " -- " + pt(bx + ix, by + iy) + " -- " + pt(ax + ix, ay + iy) + " -- cycle;")
+        j0, j1 = math.ceil((-h["r"] - h["phase"]) / h["pitch"]), math.floor((h["r"] - h["phase"]) / h["pitch"])
+        for j in range(j0, j1 + 1):
+            sj = h["phase"] + j * h["pitch"]
+            half = math.sqrt(max(h["r"] ** 2 - sj ** 2, 0.0)) + 0.5
+            qx, qy = h["cx"] + sj * nx, h["cy"] + sj * ny
+            body += (r"\draw[line width=" + f"{h['w']:.2f}pt] " + pt(qx - half * ux, qy - half * uy) + " -- " +
+                     pt(qx + half * ux, qy + half * uy) + ";")
+        return r"\begin{scope}" + body + r"\end{scope}"
+
+    def hatched(t):
+        return any((t["x"] - h["cx"]) ** 2 + (t["y"] - h["cy"]) ** 2 < h["r"] ** 2 and
+                   (t["x"] - h["x0"]) * h["into"][0] + (t["y"] - h["y0"]) * h["into"][1] > 0
+                   for h in fg.get("hatches", []))
+
+    out = [hatch(h) for h in fg.get("hatches", [])]
     for c in fg.get("circles", []):
         out.append(r"\draw" + style(c) + " " + pt(c["cx"], c["cy"]) + " circle[radius=" + f"{c['r']:.2f}pt];")
     for s in fg.get("segments", []):
@@ -171,8 +211,8 @@ def figure_tex(fg, labels):
         # the ʿayn (ʿ) is a small sign and is set larger to be legible as a label
         size = r"\LARGE" if lab == "ʿ" else (r"\normalsize" if len(lab) <= 2 else r"\scriptsize")
         rot = f", rotate={t['rot']:.1f}" if t.get("rot") else ""
-        out.append(r"\node[inner sep=0pt" + rot + "] at " + pt(t["x"], t["y"]) + " {" + size + " " + inline(lab) +
-                   "};")
+        box = "inner sep=0.6pt, fill=white" if hatched(t) else "inner sep=0pt"
+        out.append(r"\node[" + box + rot + "] at " + pt(t["x"], t["y"]) + " {" + size + " " + inline(lab) + "};")
     return r"\begin{tikzpicture}" + "\n".join(out) + r"\end{tikzpicture}"
 
 
@@ -239,7 +279,7 @@ def main():
         errors += [f"{f.name}: {e}" for e in errs]
         chapters.append(n)
         idx = {r["anchor"]: i for i, r in enumerate(rows)}
-        last_page = None
+        last_page, carry = None, ""
         for k, b in enumerate(blocks):
             if b["kind"] == "skip":
                 align.append((f"EN-C{n:02d}-B{k:02d}", n, "skip", b["first"], b["last"], "", 0, b["arg"]))
@@ -251,7 +291,8 @@ def main():
                 if p not in pages:
                     pages.append(p)
             nlines += sum(1 for i in range(a, z + 1) if rows[i]["kind"] in REQUIRED)
-            mark = "".join(r"\ArPage{" + p + "}" for p in pages if p != last_page and p != "-")
+            mark = carry + "".join(r"\ArPage{" + p + "}" for p in pages if p != last_page and p != "-")
+            carry = ""
             last_page = pages[-1] if pages else last_page
             text = " ".join(b["text"])
             notes = r"\textsuperscript{,}".join(r"\footnote{" + inline(x) + "}" for x in b["notes"])
@@ -270,7 +311,14 @@ def main():
                 text = " ".join(b["text"]).replace("|", " ")
             elif b["kind"] == "figure":
                 fg = figure_geometry(b["first"])
-                body.append(r"\par\begin{center}" + mark + figure_tex(fg, b["text"]) + notes + r"\end{center}")
+                if figure_height(fg) > FLOAT_HEIGHT:
+                    # a figure that fills most of a page floats to the top of a page, so that the text runs on
+                    # beside it; its notes stand under it and its page mark goes to the next block
+                    under = "".join(r"\par\smallskip{\footnotesize " + inline(x) + "}" for x in b["notes"])
+                    body.append(r"\begin{figure}[tp]\centering" + figure_tex(fg, b["text"]) + under + r"\end{figure}")
+                    carry = mark
+                else:
+                    body.append(r"\par\begin{center}" + mark + figure_tex(fg, b["text"]) + notes + r"\end{center}")
             elif b["kind"] == "li":
                 body.append(r"\par\noindent\hangindent=2em\hangafter=1 " + mark + r"\makebox[2em][l]{" + b["arg"] +
                             ".}" + inline(text) + notes + r"\par")
