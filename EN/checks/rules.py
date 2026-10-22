@@ -924,6 +924,59 @@ def chapter_56():
     assert round(r1, 1) == 15.5 and round(t1) == 39 and round(r2, 1) == 6.9 and t2 == 45.0
 
 
+def chapter_57():
+    """the brick and the long alidade; the short chapters after chapter 57: the Arab and the Roman week-day signs,
+    the days of the stations in D, and the rule of G for the difference of the day"""
+    sx = lambda *v: sum(x / 60 ** i for i, x in enumerate(v))  # noqa: E731
+    phi, eps = 36.0, sx(23, 35)
+    summer, winter = phi - eps, phi + eps                  # noon zenith distances at the solstices
+    assert abs((winter - summer) - 2 * eps) < 1e-12 and abs((summer + winter) / 2 - phi) < 1e-12
+    # the long alidade: the chord T L of the zenith distance z in a circle of radius Z T
+    for z in (10.0, 37.0, 64.0):
+        chord30 = 2 * 30 * math.sin(R(z / 2))
+        assert abs(chord30 - 60 * math.sin(R(z / 2))) < 1e-12
+        assert abs(2 * D(math.asin((2 * 60 * math.sin(R(z / 2))) / 2 / 60)) - z) < 1e-9
+    assert round(60 * math.sin(R(45)), 1) == 42.4 and round(120 * math.sin(R(45)), 1) == 84.9
+    # A: the Arab years
+    leaps = [2, 5, 7, 10, 13, 16, 18, 21, 24, 26, 29]
+    days30 = sum(355 if y in leaps else 354 for y in range(1, 31))
+    assert 354 % 7 == 4 and 355 % 7 == 5 and days30 == 10631 and days30 % 7 == 5
+    assert min(k for k in range(1, 8) if k * days30 % 7 == 0) == 7         # the signs return after 210 years
+    # B: the Roman years
+    assert 365 % 7 == 1 and 366 % 7 == 2 and 28 * 365 + 7 == 10227 == 7 * 1461
+    assert min(k for k in range(1, 8) if k * 1461 % 7 == 0) == 7           # 4-year blocks: 28 years
+    # D: each count of days is the arc of anomaly over the mean daily motion in anomaly
+    planets = {  # period in days; direct, stationary, retrograde days; the anomalies at the four limits
+        "Saturn": (378 + 2 / 24, 118.5, 2 + 7 / 8, 135 + 1 / 3 + 1 / 4,
+                   (sx(112, 45), sx(115, 29), sx(244, 31), sx(247, 15)), 378.09),
+        "Jupiter": (399 - 2 / 24, 137.5, 3 + 1 / 4 + 1 / 5, 117.0,
+                    (sx(124, 5), sx(127, 11), sx(232, 49), sx(235, 55)), 398.88),
+        "Mars": (780 - 0.1, 341.2, 25 + 1 / 3, 46 + 2 / 3,
+                 (sx(157, 33), sx(169, 14), sx(190, 46), sx(202, 27)), 779.94),
+        "Venus": (583 + 2 / 3 + 1 / 4, 269 + 1 / 12, 4.0, 37.8,
+                  (sx(165, 53), sx(168, 21), sx(191, 39), sx(194, 7)), 583.92),
+        "Mercury": (115 + 7 / 8, 46 + 1 / 3 + 1 / 4, 20 / 24, 21.1,
+                    (sx(144, 40), sx(147, 13), sx(212, 47), sx(215, 20)), 115.88),
+    }
+    worst = 0.0
+    for name, (period, direct, stay, retro, (a1, a2, a3, a4), synodic) in planets.items():
+        per = period / 360                                  # days to a part of anomaly
+        assert abs(a3 - (360 - a2)) < 1e-9 and abs(a4 - (360 - a1)) < 1e-9, name
+        for given, arc in ((direct, a1), (stay, a2 - a1), (retro, a3 - a2)):
+            worst = max(worst, abs(given - arc * per))
+        assert abs(period - synodic) < 0.05, name
+    print(f"ch. 57 D: counts of days against the arcs of anomaly, largest difference {worst:.3f} days")
+    assert worst < 0.12
+    # G: sin(difference of the day) = sin(half the excess of the longest day) x sin(right ascension)
+    for lat in (30.0, 36.0, 41.0):
+        top = math.asin(math.tan(R(lat)) * math.tan(R(eps)))
+        for lam in (10, 40, 70, 90):
+            dec = math.asin(math.sin(R(eps)) * math.sin(R(lam)))
+            ra = math.atan2(math.cos(R(eps)) * math.sin(R(lam)), math.cos(R(lam)))
+            assert abs(math.tan(dec) - math.tan(R(eps)) * math.sin(ra)) < 1e-12
+            assert abs(math.tan(R(lat)) * math.tan(dec) - math.sin(top) * math.sin(ra)) < 1e-12
+
+
 if __name__ == "__main__":
     chapter_12()
     chapter_18()
@@ -949,4 +1002,5 @@ if __name__ == "__main__":
     chapter_54()
     chapter_55()
     chapter_56()
+    chapter_57()
     print("all checks passed")

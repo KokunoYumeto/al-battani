@@ -4,6 +4,7 @@ Chapter files (text/C##.txt), one per chapter (C00 is the invocation and the lis
   @chapter N
   % ...                       a comment
   @h FIRST..LAST              a heading; the English follows on the next lines
+  @s FIRST..LAST | LETTER     the heading of one of the eight short chapters that follow chapter 57 (Nallino's A-H)
   @c FIRST..LAST              a centred line (the invocation)
   @p FIRST..LAST              a paragraph
   @li FIRST..LAST | NUMBER    an item of the list of chapters
@@ -53,7 +54,7 @@ def parse(path):
         if raw.startswith("@chapter"):
             n = int(raw.split()[1])
             continue
-        m = re.match(r"@(h|c|p|li|skip|table|figure) (\S+)\.\.(\S+)(?: \| (.*))?$", raw)
+        m = re.match(r"@(h|s|c|p|li|skip|table|figure) (\S+)\.\.(\S+)(?: \| (.*))?$", raw)
         if m:
             blocks.append({"kind": m.group(1), "first": m.group(2), "last": m.group(3), "arg": m.group(4) or "",
                            "text": [], "notes": []})
@@ -252,6 +253,8 @@ PREAMBLE = r"""\documentclass[11pt]{article}
 \newcommand{\ArPage}[1]{\marginpar{\footnotesize\color{gray}Ar.\,p.\,#1}}
 \newcommand{\ChapterHead}[4]{\par\needspace{8\baselineskip}\bigskip\pdfbookmark[1]{#1}{ch-#2}\hypertarget{EN-C#2}{}%
  {\large\bfseries\interlinepenalty=10000 #1#4{\normalfont\normalsize#3}\par}\nobreak\medskip}
+\newcommand{\SectionHead}[4]{\par\needspace{6\baselineskip}\medskip\pdfbookmark[2]{#1}{sec-#2}\hypertarget{EN-S#2}{}%
+ {\bfseries\interlinepenalty=10000 #1#4{\normalfont#3}\par}\nobreak\smallskip}
 \begin{document}
 """
 
@@ -305,6 +308,9 @@ def main():
             notes = r"\textsuperscript{,}".join(r"\footnote{" + inline(x) + "}" for x in b["notes"])
             if b["kind"] == "h":
                 body.append(r"\ChapterHead{" + inline(text) + "}{" + f"{n:02d}" + "}{" + mark + "}{" + notes + "}")
+            elif b["kind"] == "s":
+                body.append(r"\SectionHead{" + inline(text) + "}{" + f"{n:02d}{b['arg']}" + "}{" + mark + "}{" + notes +
+                            "}")
             elif b["kind"] == "c":
                 body.append(r"\begin{center}" + mark + inline(text) + notes + r"\end{center}")
             elif b["kind"] == "table":
