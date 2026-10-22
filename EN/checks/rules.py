@@ -488,6 +488,63 @@ def chapter_42():
     print("ch. 42: minutes from noon to sunset = times of a seasonal hour of the daytime = 1 1/4 x the daytime")
 
 
+def chapter_43():
+    """the eclipses of the moon: the limit of 12 parts; the diameters and their variation; 5 7/8 over 6 and 2 3/5;
+    0;14,50 and 31 1/5 digits; 60/15 3/5; the motion in latitude against the gain; the eclipsed area by the text's
+    rule against the exact lens, and where the rule fails"""
+    sx = lambda *v: sum(x / 60 ** i for i, x in enumerate(v))  # noqa: E731
+    lat12 = D(math.asin(math.sin(R(5)) * math.sin(R(12))))
+    print(f"ch. 43: latitude at 12 parts from the node {sexa(lat12)}; 0;17,40 + 0;46 = {sexa(sx(0, 17, 40) + sx(0, 46))}")
+    assert sexa(lat12, 2) == [1, 2] and sexa(sx(0, 17, 40) + sx(0, 46)) == [1, 3, 40]
+    assert sexa(sx(0, 35, 20) - sx(0, 29, 30)) == [0, 5, 50] and sexa(sx(0, 46) - sx(0, 38, 30)) == [0, 7, 30]
+    k = (6 - 1 / 8) / 6
+    r_far, r_near = sx(29, 30) / sx(30, 12), sx(35, 20) / sx(36, 10)
+    print(f"ch. 43: (6 - 1/8)/6 = {k:.3f}; diameter / hourly motion {r_far:.3f}, {r_near:.3f}; 92 / 35 1/3 ="
+          f" {92 / sx(35, 20):.3f}, 77 / 29 1/2 = {77 / 29.5:.3f}")
+    assert round(k, 3) == 0.979 and abs(r_far - k) < 0.005 and abs(r_near - k) < 0.005
+    assert abs(92 / sx(35, 20) - 2.6) < 0.01 and abs(77 / 29.5 - 2.6) < 0.015 and 92 == 2 * 46 and 77 == 2 * 38.5
+    d40, d30 = 12 * 77 / sx(29, 40), 12 * 77 / 29.5
+    print(f"ch. 43: 2 x 0;14,50 = {sexa(2 * sx(0, 14, 50))}; 77 minutes in digits: {d40:.2f} (0;29,40), {d30:.2f}"
+          f" (0;29,30); 60 / 15 3/5 = {sexa(60 / 15.6)}")
+    assert sexa(2 * sx(0, 14, 50)) == [0, 29, 40] and round(d40, 2) == 31.15 and round(d30, 2) == 31.32
+    assert sexa(60 / 15.6) == [3, 50, 46]
+    lat_motion, gain = sx(13, 13, 46), sx(13, 10, 35) - sx(0, 59, 8, 20)
+    print(f"ch. 43: motion in latitude / gain = {lat_motion / gain:.4f} (13/12 = {13 / 12:.4f})")
+    assert abs(lat_motion / gain - 13 / 12) < 0.005
+
+    def rule(a, c, b):                                 # the text's area of the eclipsed segment
+        e = a + c - b
+        lk = e * (2 * c - e) / (2 * b)                  # sagitta of the shadow
+        ln = e - lk                                     # sagitta of the moon
+        h = math.sqrt((2 * c - ln) * ln)                # half the common chord
+        lv = (c - e) + lk if e < c else abs((e - c) - lk)
+        arcs = c * c * R(D(math.asin(h / c))) + a * a * R(D(math.asin(h / a)))
+        if (e - c) > lk:                                # chord beyond the moon's centre: larger arc, triangle added
+            fixed = c * c * (math.pi - math.asin(h / c)) + h * lv + a * a * math.asin(h / a) - h * (a - lk)
+            assert abs(fixed - lens(a, c, b)) < 1e-9
+        return arcs - h * lv - h * (a - lk), (e - c) > lk
+
+    def lens(a, c, b):
+        return (c * c * math.acos((b * b + c * c - a * a) / (2 * b * c))
+                + a * a * math.acos((b * b + a * a - c * c) / (2 * b * a))
+                - 0.5 * math.sqrt((-b + c + a) * (b + c - a) * (b - c + a) * (b + c + a)))
+    worst_ok, fails = 0.0, []
+    for a, c in ((sx(38, 30), sx(14, 45)), (sx(46), sx(17, 40)), (40.0, 15.5)):
+        for i in range(1, 60):
+            e = 2 * c * i / 60                          # eclipsed part of the diameter, below the whole
+            b = a + c - e
+            area, deep = rule(a, c, b)
+            if deep:
+                fails.append(abs(area - lens(a, c, b)) / lens(a, c, b))
+                assert area < lens(a, c, b)             # too little
+                assert b * b < a * a - c * c + 1e-9    # the deep case is the chord beyond the moon's centre
+            else:
+                worst_ok = max(worst_ok, abs(area - lens(a, c, b)))
+    print(f"ch. 43: the area rule is exact (error {worst_ok:.1e}) until the chord passes the centre of the moon;"
+          f" beyond, it errs by {min(fails):.0%} to {max(fails):.0%} of the area")
+    assert worst_ok < 1e-9 and min(fails) > 0
+
+
 if __name__ == "__main__":
     chapter_12()
     chapter_18()
@@ -502,4 +559,5 @@ if __name__ == "__main__":
     chapter_40()
     chapter_41()
     chapter_42()
+    chapter_43()
     print("all checks passed")
