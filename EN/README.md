@@ -18,13 +18,14 @@ The English should say everything the Arabic says, in the order in which al-Batt
 - **The text translated:** Nallino's Arabic text (Part III), with his apparatus of the readings of the Escorial codex and his list of corrections. Where his corrigenda correct a misprint, the translation follows the correction and says so in a note.
 - **Nallino's Latin translation** (Part I, transcribed here in [S02](../S02/), [S03](../S03/versio/) and [S04](../S04/versio/)) is the authoritative check on the meaning, sentence by sentence. Its margins give the pages of the Arabic text, so the two can be aligned chapter by chapter. His footnotes also report the readings of the twelfth-century Latin version of Plato of Tivoli wherever they bear on the text. His commentary (the *Adnotationes*, from Part I p. 151) and his Arabic–Latin glossary (Part II, transcribed in [S09](../S09/glossarium/)) explain the technical terms. Nallino's Latin is a check, not a model. Its phrasing is not carried over, and where the translation departs from his reading, a note gives the reason.
 - **The medieval Latin and Castilian versions.** These are Plato of Tivoli's *De motu stellarum*, printed in 1537 and 1645, and the thirteenth-century Castilian *Cánones*. They are consulted through Nallino's notes. No free scan of the printed Latin has been found yet.
+- The notes cite the *Almagest* by book and chapter as in Heiberg's edition and Toomer's translation. Nallino cites Halma's edition, whose chapters of Book I are numbered differently.
 - [tools/sources.py](tools/sources.py) writes, for any chapter, the Arabic lines and Nallino's Latin of the same chapter in reading order. This is the working view for translating and checking a chapter.
 
 The work runs chapter by chapter. First the Arabic is read with Nallino's apparatus, then translated paragraph by paragraph. Each paragraph is compared with Nallino's Latin. Every number is checked against the Arabic. Then the chapter is reread once as English.
 
 ## Status
 
-**Done:** the invocation and the list of the 57 chapters (Part III pp. 1–5), chapter 1, the preface (pp. 6–7), chapter 2, on the sexagesimal orders, with its two tables (pp. 8–12), and chapter 3, on chords and sines (pp. 13–17). Read [zij_en.pdf](zij_en.pdf). The chapters follow in order; the tables of Part III, whose headings and notes also need translating, come after the canons.
+**Done:** the invocation and the list of the 57 chapters (Part III pp. 1–5), chapter 1, the preface (pp. 6–7), chapter 2, on the sexagesimal orders, with its two tables (pp. 8–12), chapter 3, on chords and sines (pp. 13–17), and chapter 4, on the inclination of the ecliptic and the declination of each degree (pp. 17–19). Read [zij_en.pdf](zij_en.pdf). The chapters follow in order; the tables of Part III, whose headings and notes also need translating, come after the canons.
 
 | File | Content |
 |---|---|

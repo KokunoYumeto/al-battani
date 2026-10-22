@@ -96,7 +96,9 @@ def latin_chapter(lines, n):
     if n == 0:
         return lines[:heads[1]]
     end = heads[n + 1] if n < 57 else len(lines)
-    return lines[heads[n]:end]
+    # the notes and margins of the page on which the next chapter begins stand after its body lines
+    tail = [x for x in lines[end:] if x[1] == lines[end - 1][1] and x[2] != "body"] if n < 57 else []
+    return lines[heads[n]:end] + tail
 
 
 def main():

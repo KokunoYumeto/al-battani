@@ -174,7 +174,7 @@ def main():
             mark = "".join(r"\ArPage{" + p + "}" for p in pages if p != last_page and p != "-")
             last_page = pages[-1] if pages else last_page
             text = " ".join(b["text"])
-            notes = "".join(r"\footnote{" + inline(x) + "}" for x in b["notes"])
+            notes = r"\textsuperscript{,}".join(r"\footnote{" + inline(x) + "}" for x in b["notes"])
             if b["kind"] == "h":
                 body.append(r"\ChapterHead{" + inline(text) + "}{" + f"{n:02d}" + "}{" + mark + "}{" + notes + "}")
             elif b["kind"] == "c":
