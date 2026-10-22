@@ -660,6 +660,32 @@ def chapter_50():
     print("ch. 50: apparent diameters from al-Battani's distances: " + "; ".join(out))
 
 
+def chapter_51():
+    """the precession from Menelaus to al-Battani; the correction of Ptolemy's longitudes; the counts of the stars"""
+    sx = lambda *v: sum(x / 60 ** i for i, x in enumerate(v))  # noqa: E731
+    diffs = (sx(17, 45) - sx(5, 55), sx(28, 50) - 17, 14 - sx(2, 10))
+    assert all(sexa(d, 2) == [11, 50] for d in diffs) and 1627 - 845 == 782
+    per_year, per_66 = sx(11, 50) * 3600 / 782, 3600 / 66
+    print(f"ch. 51: 11;50 in 782 years = {sexa(per_year / 60, 3)} (seconds, thirds); 1 degree in 66 years ="
+          f" {sexa(per_66 / 60, 3)}; 41 years at that rate {41 * per_66 / 60:.1f} minutes, at 36\" {41 * 36 / 60:.1f}")
+    assert round(per_year, 4) == 54.4757 and sexa(per_66 / 60, 3) == [0, 54, 33]
+    assert round(41 * per_66 / 60) == 37 and round(41 * 36 / 60) == 25 and sexa(sx(11, 50) - sx(0, 25), 2) == [11, 25]
+    assert 346 + 360 + 316 == 1022 and 15 + 45 + 208 + 474 + 217 + 49 + 5 + 9 == 1022
+    assert 13 + 33 + 18 + 9 + 27 + 26 + 8 + 21 + 31 + 28 + 42 + 34 == 290
+    # the stars named in the twelve signs, without the Lock, with al-Rishā' from the emendanda
+    named = {"Aries": ["Sharatan", "Butayn"], "Taurus": ["Thurayya", "Dabaran"],
+             "Gemini": ["Dhira", "Haqa", "Hana"], "Cancer": ["Nathra"],
+             "Leo": ["Tarf", "Jabha", "Zubra", "Sarfa"], "Virgo": ["Awwa", "Simak"], "Libra": ["Ghafr"],
+             "Scorpio": ["Zubana", "Iklil", "Qalb", "Shawla"], "Sagittarius": ["Naaim", "Balda"],
+             "Capricorn": ["Sad al-Dhabih", "Sad Bula"], "Aquarius": ["Sad al-Suud", "Sad al-Akhbiya"],
+             "Pisces": ["Fargh muqaddam", "Fargh muakhkhar", "Risha"]}
+    mansions = ["Sharatan", "Butayn", "Thurayya", "Dabaran", "Haqa", "Hana", "Dhira", "Nathra", "Tarf",
+                "Jabha", "Zubra", "Sarfa", "Awwa", "Simak", "Ghafr", "Zubana", "Iklil", "Qalb", "Shawla",
+                "Naaim", "Balda", "Sad al-Dhabih", "Sad Bula", "Sad al-Suud", "Sad al-Akhbiya",
+                "Fargh muqaddam", "Fargh muakhkhar", "Risha"]
+    assert len(mansions) == 28 and sorted(n for v in named.values() for n in v) == sorted(mansions)
+
+
 if __name__ == "__main__":
     chapter_12()
     chapter_18()
@@ -679,4 +705,5 @@ if __name__ == "__main__":
     chapter_46()
     chapter_47_48()
     chapter_50()
+    chapter_51()
     print("all checks passed")
