@@ -130,6 +130,7 @@ def figure_geometry(anchor):
 
 
 FLOAT_HEIGHT = 450      # points: a figure taller than this, about two thirds of the text height, floats
+MAX_WIDTH = 420         # points: a figure wider than this is drawn smaller, to fit the text width (425 pt)
 
 
 def figure_extent(fg):
@@ -141,6 +142,9 @@ def figure_extent(fg):
     for s in fg.get("segments", []):
         xs += [s["x0"], s["x1"]]
         ys += [s["y0"], s["y1"]]
+    for q in fg.get("paths", []):
+        xs += [x for x, _ in q["pts"]]
+        ys += [y for _, y in q["pts"]]
     for t in fg["texts"]:
         xs.append(t["x"])
         ys.append(t["y"])
@@ -154,11 +158,11 @@ def figure_height(fg):
 
 def figure_tex(fg, labels):
     """the figure redrawn from its measured geometry (page points, y downwards) at its printed size: hatched half
-    discs, circles, arcs, straight lines and dots with their stroke widths, and the English labels at the centres of
-    the Arabic ones, turned where these are turned; a label that stands in a hatched half disc is set on white"""
-    if fg.get("paths"):
-        raise SystemExit(f"figure {fg['name']}: paths are not drawn yet")
-    x0, _, _, y1 = figure_extent(fg)
+    discs, circles, arcs, straight lines, traced curves and dots with their stroke widths, and the English labels at
+    the centres of the Arabic ones, turned where these are turned; a label that stands in a hatched half disc is set on
+    white. A figure wider than the text is drawn smaller as a whole; its strokes and labels keep their sizes"""
+    x0, _, x1, y1 = figure_extent(fg)
+    scale = min(1.0, MAX_WIDTH / (x1 - x0))
 
     def pt(x, y):
         return f"({x - x0:.2f}pt,{y1 - y:.2f}pt)"
@@ -200,6 +204,8 @@ def figure_tex(fg, labels):
         out.append(r"\draw" + style(c) + " " + pt(c["cx"], c["cy"]) + " circle[radius=" + f"{c['r']:.2f}pt];")
     for s in fg.get("segments", []):
         out.append(r"\draw" + style(s) + " " + pt(s["x0"], s["y0"]) + " -- " + pt(s["x1"], s["y1"]) + ";")
+    for q in fg.get("paths", []):
+        out.append(r"\draw" + style(q) + " " + " -- ".join(pt(x, y) for x, y in q["pts"]) + ";")
     for a in fg.get("arcs", []):
         sx = a["cx"] + a["r"] * math.cos(math.radians(a["a0"]))
         sy = a["cy"] - a["r"] * math.sin(math.radians(a["a0"]))
@@ -213,7 +219,8 @@ def figure_tex(fg, labels):
         rot = f", rotate={t['rot']:.1f}" if t.get("rot") else ""
         box = "inner sep=0.6pt, fill=white" if hatched(t) else "inner sep=0pt"
         out.append(r"\node[" + box + rot + "] at " + pt(t["x"], t["y"]) + " {" + size + " " + inline(lab) + "};")
-    return r"\begin{tikzpicture}" + "\n".join(out) + r"\end{tikzpicture}"
+    opts = f"[scale={scale:.4f}]" if scale < 1 else ""
+    return r"\begin{tikzpicture}" + opts + "\n".join(out) + r"\end{tikzpicture}"
 
 
 def tex_escape(s):

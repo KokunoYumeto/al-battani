@@ -884,6 +884,46 @@ def chapter_55():
     assert round(small, 1) == 3.8 and 9.5 < large < 10
 
 
+def chapter_56():
+    """the azimuth of the qibla by the rule of the chapter against the great circle, and the vertical dial"""
+    sx = lambda *v: sum(x / 60 ** i for i, x in enumerate(v))  # noqa: E731
+
+    def rule(lon1, lat1, lon2, lat2):                      # from the east or west point towards Mecca's side
+        a, b = math.sin(R(abs(lat1 - lat2))), math.sin(R(abs(lon2 - lon1)))
+        assert abs(D(math.atan2(a, b)) - D(math.asin(a / math.hypot(a, b)))) < 1e-9   # construction = computation
+        return D(math.asin(a / math.hypot(a, b)))
+
+    def great_circle(lon1, lat1, lon2, lat2):
+        dl = R(lon2 - lon1)
+        q = D(math.atan2(math.sin(dl), math.cos(R(lat1)) * math.tan(R(lat2)) - math.sin(R(lat1)) * math.cos(dl))) % 360
+        return abs(90 - abs(180 - q))
+
+    raqqa, mecca = (sx(73, 15), 36.0), (sx(77, 53), sx(21, 40))
+    by_rule, true = rule(*raqqa, *mecca), great_circle(*raqqa, *mecca)
+    assert sexa(by_rule, 2) == [71, 56] and sexa(true, 2) == [73, 1]
+    now = (39.826, 21.423)                                 # Mecca; the towns below as now known
+    towns = {"al-Raqqa": (39.00, 35.95), "Baghdad": (44.36, 33.31), "Damascus": (36.29, 33.51),
+             "Aleppo": (37.16, 36.20), "Mosul": (43.13, 36.34), "Antioch": (36.16, 36.20), "Basra": (47.78, 30.51)}
+    diffs = {n: great_circle(*p, *now) - rule(*p, *now) for n, p in towns.items()}
+    worst = max(abs(great_circle(now[0] + dl / 10, la / 10, *now) - rule(now[0] + dl / 10, la / 10, *now))
+                for la in range(300, 371) for dl in range(-120, 121) if dl)
+    print("ch. 56: qibla, great circle minus rule: " + ", ".join(f"{n} {v:.2f}" for n, v in diffs.items())
+          + f"; largest between 30 and 37 N within 12 degrees of longitude {worst:.2f}")
+    assert all(0 < v < 1.25 for v in diffs.values()) and worst < 1.5
+
+    def wall(h, a):                                        # the end of the shadow of a style of 12 on a wall facing south
+        x, y = 12 * math.tan(R(a)), 12 * math.tan(R(h)) / math.cos(R(a))
+        return math.hypot(x, y), D(math.atan2(y, x)) if a else 90.0
+
+    def by_azimuth(h, a):                                  # the rule: the vertical shadow, laid off along the azimuth
+        return 12 * math.tan(R(h)), 90.0 - a
+
+    for h in (20, 50, 70):
+        assert all(abs(u - v) < 1e-9 for u, v in zip(wall(h, 0), by_azimuth(h, 0)))
+    (r1, t1), (r2, t2) = wall(30, 45), by_azimuth(30, 45)
+    assert round(r1, 1) == 15.5 and round(t1) == 39 and round(r2, 1) == 6.9 and t2 == 45.0
+
+
 if __name__ == "__main__":
     chapter_12()
     chapter_18()
@@ -908,4 +948,5 @@ if __name__ == "__main__":
     chapter_53()
     chapter_54()
     chapter_55()
+    chapter_56()
     print("all checks passed")
