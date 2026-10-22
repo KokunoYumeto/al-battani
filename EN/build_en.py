@@ -123,8 +123,8 @@ PREAMBLE = r"""\documentclass[11pt]{article}
 \setlength{\parindent}{0pt}\setlength{\parskip}{0.55em}
 \tracinglostchars=2
 \newcommand{\ArPage}[1]{\marginpar{\footnotesize\color{gray}Ar.\,p.\,#1}}
-\newcommand{\ChapterHead}[2]{\par\bigskip\penalty-300\pdfbookmark[1]{#1}{ch-#2}\hypertarget{EN-C#2}{}%
- {\large\bfseries #1}\par\medskip}
+\newcommand{\ChapterHead}[4]{\par\bigskip\penalty-300\pdfbookmark[1]{#1}{ch-#2}\hypertarget{EN-C#2}{}%
+ {\large\bfseries #1#4}#3\par\medskip}
 \begin{document}
 """
 
@@ -176,7 +176,7 @@ def main():
             text = " ".join(b["text"])
             notes = "".join(r"\footnote{" + inline(x) + "}" for x in b["notes"])
             if b["kind"] == "h":
-                body.append(r"\ChapterHead{" + inline(text) + "}{" + f"{n:02d}" + "}" + mark + notes)
+                body.append(r"\ChapterHead{" + inline(text) + "}{" + f"{n:02d}" + "}{" + mark + "}{" + notes + "}")
             elif b["kind"] == "c":
                 body.append(r"\begin{center}" + mark + inline(text) + notes + r"\end{center}")
             elif b["kind"] == "table":
