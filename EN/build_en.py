@@ -11,16 +11,21 @@ Chapter files (text/C##.txt), one per chapter (C00 is the invocation and the lis
   @table FIRST..LAST | TITLE  a table printed in the text: its cells (kind cell); then one line per row, the cells
                               separated by |, in the order of the printed columns from right to left, which the
                               English sets from left to right
+  @figure FIRST..LAST         a figure: the labels of a printed figure (kind figure); then one line per label, in the
+                              order of the anchors. The figure is redrawn from the geometry measured for the Arabic
+                              edition (S10-S12 textus/geometry), with these labels where the Arabic ones stand
   @n TEXT                     a note to the block before it
 FIRST..LAST are the anchors of the first and the last Arabic line that the block translates (S10-S12 anchors.tsv).
 Two consecutive blocks may share their boundary line, where a sentence ends inside a line; otherwise every line of the
-Arabic text of the chapter (kinds display, text, h1, h2, cell) belongs to exactly one block. Nallino's notes (kind note),
-the labels of figures and the Latin title lines are not translated.
+Arabic text of the chapter (kinds display, text, h1, h2, cell, figure) belongs to exactly one block. Nallino's notes
+(kind note) and the Latin title lines are not translated. The letters of the figures are transliterated: ا A, ب B,
+ج G, د D, ه H, و W, ز Z, ح Ḥ, ط Ṭ, ي Y, ك K, ل L, م M, ن N.
 Inline: *...* emphasis; Arabic in «» is set in the Arabic font.
 
 python build_en.py   (writes zij_en.tex, alignment.tsv and checkpoint.json; fails on any coverage error)"""
 import hashlib
 import json
+import math
 import re
 import sys
 from pathlib import Path
@@ -29,7 +34,13 @@ HERE = Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE / "tools"))
 import sources  # noqa: E402
 
-REQUIRED = {"display", "text", "h1", "h2", "cell"}
+REQUIRED = {"display", "text", "h1", "h2", "cell", "figure"}
+TEXTUS = [HERE.parent / s / "textus" for s in ("S10", "S11", "S12")]
+
+
+def row_class(kind):
+    """the kind of block that translates a line of this kind"""
+    return {"cell": "table", "figure": "figure"}.get(kind, "text")
 WESTERN = str.maketrans("٠١٢٣٤٥٦٧٨٩", "0123456789")
 
 
@@ -41,7 +52,7 @@ def parse(path):
         if raw.startswith("@chapter"):
             n = int(raw.split()[1])
             continue
-        m = re.match(r"@(h|c|p|li|skip|table) (\S+)\.\.(\S+)(?: \| (.*))?$", raw)
+        m = re.match(r"@(h|c|p|li|skip|table|figure) (\S+)\.\.(\S+)(?: \| (.*))?$", raw)
         if m:
             blocks.append({"kind": m.group(1), "first": m.group(2), "last": m.group(3), "arg": m.group(4) or "",
                            "text": [], "notes": []})
@@ -56,16 +67,19 @@ def parse(path):
 
 
 def check(n, blocks, rows):
-    """every required line belongs to one block: table blocks own the cells of their range, the other blocks the
-    other required lines; consecutive text blocks may share their boundary line"""
+    """every required line belongs to one block: table blocks own the cells of their range, figure blocks the labels
+    of their figure, the other blocks the other required lines; consecutive text blocks may share their boundary line"""
     idx = {r["anchor"]: i for i, r in enumerate(rows)}
     req = [i for i, r in enumerate(rows) if r["kind"] in REQUIRED]
     owner = {}
     errors = []
-    for cls in ("table", "text"):
+    for cls in ("table", "figure", "text"):
         prev_last, prev_k = None, None
         for k, b in enumerate(blocks):
-            if (b["kind"] == "table") != (cls == "table"):
+            if b["kind"] in ("table", "figure"):
+                if b["kind"] != cls:
+                    continue
+            elif cls != "text":
                 continue
             if b["first"] not in idx or b["last"] not in idx:
                 errors.append(f"block {k}: unknown anchor {b['first']} or {b['last']}")
@@ -79,7 +93,7 @@ def check(n, blocks, rows):
                 errors.append(f"block {k}: no English")
             for i in range(a, z + 1):
                 kind = rows[i]["kind"]
-                if kind not in REQUIRED or (kind == "cell") != (cls == "table"):
+                if kind not in REQUIRED or row_class(kind) != cls:
                     continue
                 if i in owner and not (i == a and owner[i] == prev_k and i == prev_last):
                     errors.append(f"block {k}: {rows[i]['anchor']} already in block {owner[i]}")
@@ -89,11 +103,75 @@ def check(n, blocks, rows):
                 ncells = sum(len(r.split("|")) for r in b["text"])
                 if ncells != len(cells):
                     errors.append(f"block {k}: {ncells} English cells for {len(cells)} printed cells")
+            if cls == "figure":
+                labels = [i for i in range(a, z + 1) if rows[i]["kind"] == "figure"]
+                if len(b["text"]) != len(labels):
+                    errors.append(f"block {k}: {len(b['text'])} English labels for {len(labels)} printed labels")
             prev_last, prev_k = z, k
     missing = [rows[i]["anchor"] for i in req if i not in owner]
     if missing:
         errors.append(f"not translated: {', '.join(missing[:8])}{' …' if len(missing) > 8 else ''} ({len(missing)})")
     return errors
+
+
+def figure_geometry(anchor):
+    """the figure measured for the Arabic edition to which the label anchor AB01-PDF####-F##-T## belongs"""
+    m = re.match(r"AB01-PDF(\d{4})-(F\d\d)-T\d\d$", anchor)
+    if not m:
+        raise SystemExit(f"{anchor}: not the anchor of a figure label")
+    for t in TEXTUS:
+        path = t / "geometry" / f"PDF{m.group(1)}.json"
+        if path.exists():
+            for fg in json.loads(path.read_text(encoding="utf-8")).get("figures", []):
+                if fg["name"] == m.group(2):
+                    return fg
+    raise SystemExit(f"{anchor}: no measured figure")
+
+
+def figure_tex(fg, labels):
+    """the figure redrawn from its measured geometry (page points, y downwards) at its printed size: circles, arcs,
+    straight lines and dots with their stroke widths, and the English labels at the centres of the Arabic ones, turned
+    where these are turned"""
+    for key in ("hatches", "paths"):
+        if fg.get(key):
+            raise SystemExit(f"figure {fg['name']}: {key} are not drawn yet")
+    xs, ys = [], []
+    for c in fg.get("circles", []) + fg.get("arcs", []) + fg.get("discs", []):
+        xs += [c["cx"] - c["r"], c["cx"] + c["r"]]
+        ys += [c["cy"] - c["r"], c["cy"] + c["r"]]
+    for s in fg.get("segments", []):
+        xs += [s["x0"], s["x1"]]
+        ys += [s["y0"], s["y1"]]
+    for t in fg["texts"]:
+        xs.append(t["x"])
+        ys.append(t["y"])
+    x0, y1 = min(xs), max(ys)
+
+    def pt(x, y):
+        return f"({x - x0:.2f}pt,{y1 - y:.2f}pt)"
+
+    def style(e):
+        d = f", dash pattern=on {e['dash'][0]:.2f}pt off {e['dash'][1]:.2f}pt" if e.get("dash") else ""
+        return "[line width=" + f"{e['w']:.2f}pt" + d + "]"
+
+    out = []
+    for c in fg.get("circles", []):
+        out.append(r"\draw" + style(c) + " " + pt(c["cx"], c["cy"]) + " circle[radius=" + f"{c['r']:.2f}pt];")
+    for s in fg.get("segments", []):
+        out.append(r"\draw" + style(s) + " " + pt(s["x0"], s["y0"]) + " -- " + pt(s["x1"], s["y1"]) + ";")
+    for a in fg.get("arcs", []):
+        sx = a["cx"] + a["r"] * math.cos(math.radians(a["a0"]))
+        sy = a["cy"] - a["r"] * math.sin(math.radians(a["a0"]))
+        out.append(r"\draw" + style(a) + " " + pt(sx, sy) + " arc[start angle=" + f"{a['a0']:.2f}, end angle=" +
+                   f"{a['a1']:.2f}, radius={a['r']:.2f}pt];")
+    for c in fg.get("discs", []):
+        out.append(r"\fill " + pt(c["cx"], c["cy"]) + " circle[radius=" + f"{c['r']:.2f}pt];")
+    for lab, t in zip(labels, fg["texts"]):
+        size = r"\normalsize" if len(lab) <= 2 else r"\scriptsize"
+        rot = f", rotate={t['rot']:.1f}" if t.get("rot") else ""
+        out.append(r"\node[inner sep=0pt" + rot + "] at " + pt(t["x"], t["y"]) + " {" + size + " " + inline(lab) +
+                   "};")
+    return r"\begin{tikzpicture}" + "\n".join(out) + r"\end{tikzpicture}"
 
 
 def tex_escape(s):
@@ -111,7 +189,7 @@ def inline(s):
 
 PREAMBLE = r"""\documentclass[11pt]{article}
 \usepackage[a4paper,left=30mm,right=30mm,top=25mm,bottom=25mm,marginparwidth=16mm,marginparsep=4mm]{geometry}
-\usepackage{fontspec,xcolor,pdflscape,needspace}
+\usepackage{fontspec,xcolor,pdflscape,needspace,tikz}
 \usepackage[unicode,hidelinks]{hyperref}
 \usepackage{polyglossia}
 \setmainlanguage{english}
@@ -188,6 +266,9 @@ def main():
                             notes + r"\par\medskip{\footnotesize\setlength{\tabcolsep}{3pt}\begin{tabular}{" +
                             spec + "}" + "\n".join(lines) + r"\hline\end{tabular}}\end{center}\end{landscape}")
                 text = " ".join(b["text"]).replace("|", " ")
+            elif b["kind"] == "figure":
+                fg = figure_geometry(b["first"])
+                body.append(r"\par\begin{center}" + mark + figure_tex(fg, b["text"]) + notes + r"\end{center}")
             elif b["kind"] == "li":
                 body.append(r"\par\noindent\hangindent=2em\hangafter=1 " + mark + r"\makebox[2em][l]{" + b["arg"] +
                             ".}" + inline(text) + notes + r"\par")
