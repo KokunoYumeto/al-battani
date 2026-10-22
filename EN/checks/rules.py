@@ -230,6 +230,54 @@ def chapter_30():
     assert sexa(q, 2) == [1, 34] and sexa(sx(16, 10) - q, 2) == [14, 36]
 
 
+def julian_day(y, m, d):
+    """the day number of a date of the Julian calendar (astronomical years: 312 BC is -311)"""
+    a = (14 - m) // 12
+    y2, m2 = y + 4800 - a, m + 12 * a - 3
+    return d + (153 * m2 + 2) // 5 + 365 * y2 + y2 // 4 - 32083
+
+
+def chapter_32():
+    """the eras: their first days and the days between them, the weekday rules for 1 Muharram, 1 Aylul and the
+    Nayruz, and the two faulty rules (the year after a Roman leap year; Persian years to Roman ones)"""
+    def weekday(j):                      # 0 Sunday ... 6 Saturday
+        return (j + 1) % 7
+
+    def cast(s):                         # «cast from Sunday»: 1 Sunday ... 7 Saturday, as a weekday 0 ... 6
+        return (s % 7 or 7) - 1
+    hijra, yazd = julian_day(622, 7, 15), julian_day(632, 6, 16)
+    dq, copt = julian_day(-311, 9, 1), julian_day(-24, 8, 29)
+    days = "Sunday Monday Tuesday Wednesday Thursday Friday Saturday".split()
+    print(f"ch. 32: first days: Hijra {days[weekday(hijra)]}, Yazdajird {days[weekday(yazd)]}, Dhu l-Qarnayn"
+          f" {days[weekday(dq)]}, Copts {days[weekday(copt)]}")
+    assert [weekday(j) for j in (hijra, yazd, dq, copt)] == [4, 2, 6, 5]
+    assert hijra - julian_day(621, 9, 1) == 317 and yazd - hijra == 3624
+    assert julian_day(632, 9, 1) - yazd == 77 and abs((copt - dq) / 365.25 - 287) < 0.01
+    assert cast(0 + 5) == weekday(hijra) and cast(3 * 365) == weekday(yazd)
+    # 1 Aylul: the rule (fraction of the quarter dropped) against the true day, and with three quarters counted
+    wrong = [n for n in range(2000) if cast((n + n // 4) * 365) != weekday(julian_day(-311 + n, 9, 1))]
+    right = [n for n in range(2000) if cast((n + (n + 1) // 4) * 365) != weekday(julian_day(-311 + n, 9, 1))]
+    leap = [n for n in range(2000) if (n % 4 == 2) != ((-310 + n) % 4 == 0)]
+    print(f"ch. 32: 1 Aylul: the rule fails in {len(wrong)} of 2000 years, all with n % 4 = 3:"
+          f" {all(n % 4 == 3 for n in wrong)}; with three quarters counted: {len(right)}; 1 September 880 is a"
+          f" {days[weekday(julian_day(880, 9, 1))]}, the rule gives {days[cast((1191 + 1191 // 4) * 365)]}")
+    assert len(wrong) == 500 and all(n % 4 == 3 for n in wrong) and not right and not leap
+    assert weekday(julian_day(880, 9, 1)) == 4 and cast((1191 + 1191 // 4) * 365) == 3
+    # the Nayruz and the Persian years (365 days)
+    assert all(cast((p + 3) * 365) == weekday(yazd + 365 * p) for p in range(1500))
+    # Persian years to Roman ones: the rule counts the days from 1 Aylul; the era began 77 days before it
+    off = set()
+    for p in range(0, 1200, 7):
+        for d in (0, 40, 100, 200, 300):
+            t = 365 * p + d
+            true = yazd + t                                           # the date
+            years, rest = divmod(t, 365.25)                           # the rule
+            ruled = julian_day(-311 + 943 + int(years), 9, 1) + int(rest)
+            off.add(ruled - true)
+    print(f"ch. 32: Persian to Roman: the rule's date minus the true date: {sorted(off)} days")
+    assert off <= {76, 77, 78}
+
+
 if __name__ == "__main__":
     chapter_12()
     chapter_18()
@@ -237,4 +285,5 @@ if __name__ == "__main__":
     chapter_25()
     chapter_28()
     chapter_30()
+    chapter_32()
     print("all checks passed")
