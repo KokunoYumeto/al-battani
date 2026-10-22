@@ -450,6 +450,44 @@ def chapter_41():
     assert sexa(sx(0, 32, 56) / 8) == [0, 4, 7]
 
 
+def chapter_42():
+    """the conjunctions: 2 1/2 minutes of a day to the hour; the sun's twelfth; Schiaparelli's 20;38/70;19 against 7/24;
+    the eighth of a part as a quarter of an hour; Ptolemy's 7;23 doubled; the seconds of the hourly motion; where the
+    neglected correction of the anomaly matters most; the method of minutes"""
+    sx = lambda *v: sum(x / 60 ** i for i, x in enumerate(v))  # noqa: E731
+    assert 60 / 24 == 2.5
+    sun, moon = sx(0, 59, 8, 20), sx(13, 10, 35)                       # mean daily motions
+    print(f"ch. 42: moon / sun {moon / sun:.2f}; sun's motion while the moon gains 1: {sun / (moon - sun):.4f}"
+          f" = 1/{(moon - sun) / sun:.1f}")
+    assert 13 < moon / sun < 13.5 and abs(sun / (moon - sun) - 1 / 12) < 0.004
+    k = 2 * sx(10, 19) / (60 + sx(10, 19))
+    print(f"ch. 42: 20;38/70;19 = {k:.4f}; 1/6 + 1/8 = {1 / 6 + 1 / 8:.4f}; for 5 parts {sexa(5 * k, 2)};"
+          f" 1;30 / 5 = {1.5 / 5}")
+    assert sexa(2 * sx(10, 19), 2) == [20, 38] and round(k, 4) == 0.2934 and abs(1 / 6 + 1 / 8 - 7 / 24) < 1e-12
+    assert sexa(5 * k, 2) == [1, 28] and abs(1.5 / 5 - 7 / 24) < 0.01
+    gain = sx(12, 11) / 24
+    print(f"ch. 42: hourly gain {sexa(gain)}; an eighth of a part in {0.125 / gain:.3f} hour; 2 x 7;23 = {sexa(2 * sx(7, 23), 2)}")
+    assert sexa(gain) == [0, 30, 28] and abs(0.125 / gain - 0.25) < 0.01 and sexa(2 * sx(7, 23), 2) == [14, 46]
+    per_degree = 165 * (sx(2, 39) / sx(5, 1)) * 2 / 180                  # seconds an hour for each degree of elongation
+    print(f"ch. 42: correction of the hourly motion {per_degree:.3f} seconds an hour for each degree")
+    assert abs(per_degree - 1) < 0.05
+    r = 60 * math.sin(R(sx(5, 1)))                                    # epicycle with the greatest equation 5;1
+
+    def eq(a):
+        return D(math.atan2(r * math.sin(R(a)), 60 + r * math.cos(R(a))))
+    worst = (0.0, 0.0, 0.0)
+    for i in range(3600):
+        a = i / 10
+        shift = 7 / 24 * (2 + abs(eq(a)))              # the correction for an elongation of 2 parts plus the equation
+        worst = max(worst, (abs(eq(a + shift) - eq(a)), abs(eq(a)), a))
+    print(f"ch. 42: neglected correction: at most {sexa(worst[0])} of the equation, where the equation is"
+          f" {sexa(worst[1], 2)} (anomaly {worst[2]})")
+    assert sexa(worst[0], 2) == [0, 7] and 2.8 < worst[1] < 3.3
+    for d in (8, 10.5, 12, 14.5, 16):                                  # length of the daytime in equal hours
+        assert abs(d / 2 * 2.5 - 15 * d / 12) < 1e-12
+    print("ch. 42: minutes from noon to sunset = times of a seasonal hour of the daytime = 1 1/4 x the daytime")
+
+
 if __name__ == "__main__":
     chapter_12()
     chapter_18()
@@ -463,4 +501,5 @@ if __name__ == "__main__":
     chapter_39()
     chapter_40()
     chapter_41()
+    chapter_42()
     print("all checks passed")

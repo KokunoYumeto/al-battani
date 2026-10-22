@@ -26,7 +26,7 @@ The work runs chapter by chapter. First the Arabic is read with Nallino's appara
 
 ## Status
 
-**Done:** the invocation, the list of the 57 chapters and chapters 1–41 (Part III pp. 1–138). Read [zij_en.pdf](zij_en.pdf). The chapters follow in order; the tables of Part III, whose headings and notes also need translating, come after the canons.
+**Done:** the invocation, the list of the 57 chapters and chapters 1–42 (Part III pp. 1–145). Read [zij_en.pdf](zij_en.pdf). The chapters follow in order, then the eight short unnumbered chapters that follow chapter 57 in the Escorial codex (Nallino's A–H); the tables of Part III, whose headings and notes also need translating, come after the canons.
 
 | File | Content |
 |---|---|
@@ -35,7 +35,7 @@ The work runs chapter by chapter. First the Arabic is read with Nallino's appara
 | `alignment.tsv` | every block of the English with its Arabic lines and pages |
 | `glossary.tsv` | the technical terms: Arabic, transliteration, English, Nallino's Latin |
 | `tools/sources.py` | the Arabic and Nallino's Latin of a chapter side by side |
-| `checks/rules.py` | numerical checks of the mathematical claims in the notes (chapters 12, 18, 24, 25, 28, 30, 32, 33, 36, 38, 39, 40 and 41), with their output in `rules.out.txt` |
+| `checks/rules.py` | numerical checks of the mathematical claims in the notes (chapters 12, 18, 24, 25, 28, 30, 32, 33, 36, 38, 39, 40, 41 and 42), with their output in `rules.out.txt` |
 | `checkpoint.json` | the chapters done and a checksum over the chapter files |
 
 ## Credits
