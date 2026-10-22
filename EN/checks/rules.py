@@ -716,6 +716,58 @@ def chapter_52():
     assert sexa(sx(359, 45, 46) - sx(359, 45, 25), 3) == [0, 0, 21]
 
 
+def chapter_53():
+    """the revolution of the years: the two ways of finding the hours, the day of the revolution in a leap cycle,
+    the day lost in 106 years, and the effect of the apogee's motion on the true sun"""
+    year = 365.25 - 3.4 / 360
+    excess = (year - 365) * 24 * 15                       # parts, at 15 to the hour
+    assert round(excess, 9) == 86.6 and round(90 - excess, 9) == 3.4
+    for n in range(1, 300):
+        r = n % 4 or 4
+        assert round((n * 86.6) % 360, 6) == round((90 * r - n * 3.4) % 360, 6)
+    first = min(n for n in range(1, 300) if n * 3.4 > 90 * (n % 4 or 4))
+    assert first == 29
+    assert 106 * (13 * 60 + 36) == 24 * 3600 + 60 + 36   # 13 m 36 s a year
+
+    def jd(y, m, d):                                       # day number in the Julian calendar
+        a = (14 - m) // 12
+        yy, mm = y + 4800 - a, m + 12 * a - 3
+        return d + (153 * mm + 2) // 5 + 365 * yy + yy // 4 - 32083
+
+    def rule(y0, m, d, h0, n):                             # the day and hours given by the rule, as a day number
+        hours = h0 + (n * excess) % 360 / 15
+        day = jd(y0 + n, m, d) + (1 if hours >= 24 else 0)
+        hours -= 24 if hours >= 24 else 0
+        if (y0 + n) % 4 == 0 and m >= 3:                   # a leap year whose Subat has run out
+            day -= 1
+        return day + hours / 24
+
+    assert 4 * excess < 360
+    for (y0, m, d), late in (((884, 3, 15), 0), ((884, 1, 15), 1), ((885, 6, 15), 1), ((886, 10, 1), 1)):
+        t0 = jd(y0, m, d) + 0.5
+        assert jd(y0 + 4, m, d) - jd(y0, m, d) == 4 * 365 + 1
+        assert round(rule(y0, m, d, 12.0, 4) - (t0 + 4 * year)) == late, (y0, m, d)
+    assert sexa(360 / year, 3) == [0, 59, 8]
+    # the apogee moves one degree in 66 years; with the mean sun the same, the true sun moves by the change of the
+    # equation; eccentric of radius 60 with the distance of the centres 2;4,45 (chapter 28)
+    e = 2 + 4 / 60 + 45 / 3600
+
+    def equation(mean_anomaly):
+        a = math.radians(mean_anomaly)
+        return (math.degrees(math.atan2(60 * math.sin(a), e + 60 * math.cos(a))) - mean_anomaly + 180) % 360 - 180
+
+    def shift(mean_anomaly, step=1.0):                     # change of the true sun, in minutes, per degree
+        return abs(equation(mean_anomaly - step) - equation(mean_anomaly)) * 60
+
+    print(f"ch. 53: per degree of apogee motion the true sun moves {shift(0):.2f}' at the apogee, {shift(180):.2f}' at the"
+          f" perigee, {shift(90) * 60:.1f}\" at 90 degrees; first year count needing 360 added: {first}")
+    assert round(shift(0), 1) == 2.0 and round(shift(180), 1) == 2.2 and round(shift(90) * 60) == 5
+    top = math.degrees(math.acos(-e / 60))                 # where the equation is greatest
+    rate = lambda a, h=1e-5: (equation(a + h) - equation(a - h)) / (2 * h)  # noqa: E731
+    assert abs(rate(top)) < 1e-6 and abs(rate(0)) > abs(rate(45)) > abs(rate(80)) > abs(rate(top))
+    assert round(abs(rate(0)), 4) == round(e / (60 + e), 4) and round(rate(180), 4) == round(e / (60 - e), 4)
+
+
 if __name__ == "__main__":
     chapter_12()
     chapter_18()
@@ -737,4 +789,5 @@ if __name__ == "__main__":
     chapter_50()
     chapter_51()
     chapter_52()
+    chapter_53()
     print("all checks passed")
