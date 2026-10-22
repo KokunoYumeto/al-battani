@@ -768,6 +768,70 @@ def chapter_53():
     assert round(abs(rate(0)), 4) == round(e / (60 + e), 4) and round(rate(180), 4) == round(e / (60 - e), 4)
 
 
+def chapter_54():
+    """the aspects: the parts of twelve, the examples of equal force and of commanding and obeying parts, the
+    opposition and quadrature with latitude, and the rule of the text for the projected sextile against the exact one"""
+    assert [d for d in range(2, 12) if 12 % d == 0] == [2, 3, 4, 6]
+    unconnected = [s for s in range(1, 12) if min(s, 12 - s) not in (0, 2, 3, 4, 6)]
+    assert unconnected == [1, 5, 7, 11]
+
+    def sym(a, b):                                         # cardinal points from which a and b are equally distant
+        return [c for c in (0, 90, 180, 270) if (a - c) % 360 == (c - b) % 360]
+
+    def sep(a, b):
+        d = abs(a - b) % 360
+        return min(d, 360 - d)
+
+    assert sym(100, 80) == [90, 270] and sym(245, 295) == [90, 270] and sym(350, 10) == [0, 180]  # Cancer 10, Gemini 20 ...
+    dec = lambda lam: math.asin(math.sin(R(23.5)) * math.sin(R(lam)))  # noqa: E731
+    assert abs(dec(10) + dec(350)) < 1e-12                 # the day grows at Aries 10 as it shrinks at Pisces 20
+    examples = {"Sagittarius 0, Aquarius 0": (240, 300, 60), "Pisces 0, Taurus 0": (330, 30, 60),
+                "Taurus 15, Leo 15": (45, 135, 90), "Aquarius 15, Taurus 15": (315, 45, 90),
+                "Taurus 0, Virgo 0": (30, 150, 120), "Capricorn 0, Taurus 0": (270, 30, 120),
+                "Cancer 0, Capricorn 0": (90, 270, 180), "Aries 0, Libra 0": (0, 180, 180)}
+    for name, (a, b, aspect) in examples.items():
+        assert sep(a, b) == aspect, name
+        assert bool(sym(a, b)) == (name != "Capricorn 0, Taurus 0"), name
+    trines = sorted({tuple(sorted(((c - 60) % 360, (c + 60) % 360))) for c in (0, 90, 180, 270)})
+    assert trines == [(30, 150), (60, 300), (120, 240), (210, 330)]
+
+    def dist(l1, b1, l2, b2):                              # great-circle distance in degrees
+        c = (math.sin(R(b1)) * math.sin(R(b2)) + math.cos(R(b1)) * math.cos(R(b2)) * math.cos(R(l1 - l2)))
+        return D(math.acos(max(-1.0, min(1.0, c))))
+
+    for beta in (2, 5, 8):
+        assert abs(dist(0, 0, 180, beta) - (180 - beta)) < 1e-9 and abs(dist(0, beta, 180, beta) - (180 - 2 * beta)) < 1e-9
+        assert abs(dist(0, beta, 90, 0) - 90) < 1e-9 and abs(dist(0, beta, -90, 0) - 90) < 1e-9
+    Rr = 60.0
+
+    def exact(beta):                                       # the right triangle: cos x = cos 60 / cos beta
+        return D(math.acos(math.cos(R(60)) / math.cos(R(beta))))
+
+    def text(beta, square_again=False):
+        c2 = Rr * math.cos(R(beta))                        # the chord of the second side: the sine of 90 - beta
+        cb = 2 * Rr * math.sin(R(beta / 2))                # the full chord of the latitude
+        root = math.sqrt(Rr * c2 + cb * cb)
+        u = root - Rr
+        corrected_chord = Rr - u * u / c2
+        share = (u * u if square_again else u) * c2 / corrected_chord
+        side = math.sqrt(Rr * Rr - cb * cb) - share
+        return 2 * D(math.asin((Rr * Rr - cb * cb) / side / (2 * Rr)))
+
+    for beta in (5, 10, 20):
+        cb = 2 * Rr * math.sin(R(beta / 2))
+        restored = 2 * D(math.asin(math.sqrt(Rr * (Rr * Rr - cb * cb) / (Rr * math.cos(R(beta)))) / (2 * Rr)))
+        assert abs(restored - exact(beta)) < 1e-9          # Nallino's restoration is the exact rule
+        assert abs(Rr * math.cos(R(beta)) - (2 * Rr * math.sin(R(30))) * math.cos(R(beta))) < 1e-9  # crd 60 = 60
+    short = {b: (exact(b) - text(b)) * 3600 for b in (5, 10, 20)}
+    squared = {b: (exact(b) - text(b, True)) * 3600 for b in (5, 10)}
+    print("ch. 54: the rule of the text falls short of the exact projection by "
+          + ", ".join(f"{v:.1f}\" at {b}" for b, v in short.items())
+          + "; with the square, by " + ", ".join(f"{v / 60:.1f}' at {b}" for b, v in squared.items()))
+    assert 0 < short[5] < 1 and round(short[10]) == 13 and round(short[20] / 60) == 3
+    assert round(squared[5] / 60) == 7 and round(squared[10] / 60) == 17
+    assert exact(60) == 0.0                                # Ibn Yunus: a latitude of 60 degrees leaves no sextile
+
+
 if __name__ == "__main__":
     chapter_12()
     chapter_18()
@@ -790,4 +854,5 @@ if __name__ == "__main__":
     chapter_51()
     chapter_52()
     chapter_53()
+    chapter_54()
     print("all checks passed")
