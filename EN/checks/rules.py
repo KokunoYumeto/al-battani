@@ -300,6 +300,107 @@ def chapter_36_38():
     assert sexa(60 * math.sin(R(5))) == [5, 13, 46]
 
 
+def chapter_39():
+    """the parallax: the four limits and the distances; the parallax of the sun; the rules for the altitude of a degree
+    of the ecliptic, the angle of latitude, the angle at the horizon (and the false rule for a northern declination
+    greater than the latitude) and the angle in the middle of the sky, against direct spherical geometry"""
+    sx = lambda *v: sum(x / 60 ** i for i, x in enumerate(v))  # noqa: E731
+    r59 = sx(5, 15) * 59 / 60
+    limits = [59 + sx(5, 10), 59 - sx(5, 10), sx(38, 43) + sx(5, 10), sx(38, 43) - sx(5, 10)]
+    print(f"ch. 39: 5;15 x 59/60 = {sexa(r59)}; 39;22 x 59/60 = {sexa(sx(39, 22) * 59 / 60)}; limits"
+          f" {[sexa(x, 2) for x in limits]}")
+    assert sexa(r59, 2) == [5, 10] and sexa(sx(39, 22) * 59 / 60, 2) == [38, 43]
+    assert [sexa(x, 2) for x in limits] == [[64, 10], [53, 50], [43, 53], [33, 33]]
+    sun = [D(math.asin(1 / d)) * 60 for d in (1210, 1146, 1070)]
+    print(f"ch. 39: parallax of the sun at 1210, 1146, 1070 radii: {[sexa(p / 60) for p in sun]};"
+          f" 1210/1146 - 1 = 1/{1146 / 64:.1f}; 49;41 squared {sexa(sx(49, 41) ** 2)}; 1108/60 = {sexa(1108 / 60)},"
+          f" 1127/60 = {sexa(1127 / 60)}")
+    assert abs(sun[0] - (2 + 50.5 / 60)) < 0.1 / 60 and sexa(sun[1] / 60)[1:] == [3, 0] and sexa(sun[2] / 60)[1:] == [3, 13]
+    assert round(1146 / 64) == 18 and sexa(sx(49, 41) ** 2, 2) == [2468, 26]
+    assert sexa(1108 / 60, 2) == [18, 28] and sexa(1127 / 60, 2) == [18, 47]
+    # the sky of a place: latitude phi, sidereal time t; vectors in the equatorial frame
+    def unit(v):
+        n = math.sqrt(sum(c * c for c in v))
+        return [c / n for c in v]
+
+    def dot(a, b):
+        return sum(x * y for x, y in zip(a, b))
+
+    def ecl(lon):
+        return [math.cos(lon), math.sin(lon) * math.cos(EPS), math.sin(lon) * math.sin(EPS)]
+
+    def ecl_tangent(lon):
+        return [-math.sin(lon), math.cos(lon) * math.cos(EPS), math.cos(lon) * math.sin(EPS)]
+    worst = {"altitude": 0.0, "angle": 0.0, "horizon": 0.0, "meridian": 0.0}
+    false_rule = []
+    for phi_d in (20, 36, 45):
+        phi = R(phi_d)
+        for t_d in range(0, 360, 15):
+            t = R(t_d)
+            zen = [math.cos(phi) * math.cos(t), math.cos(phi) * math.sin(t), math.sin(phi)]
+            east = [-math.sin(t), math.cos(t), 0.0]
+            # the ascendant: the point of the ecliptic on the horizon, on the eastern side
+            a = math.atan2(-zen[0], zen[1] * math.cos(EPS) + zen[2] * math.sin(EPS))
+            asc = a if dot(ecl(a), east) > 0 else a + math.pi
+            mc = math.atan2(math.sin(t), math.cos(t) * math.cos(EPS))
+            if dot(ecl(mc), zen) < 0:
+                mc += math.pi
+            d_m = math.acos(max(-1.0, min(1.0, dot(ecl(asc), ecl(mc)))))
+            h_m = math.asin(dot(ecl(mc), zen))
+            # the altitude of points between the ascendant and the middle of the sky
+            for f in (0.2, 0.5, 0.8):
+                lon = asc + (mc - asc + math.pi) % (2 * math.pi) * 0 + ((mc - asc + math.pi) % (2 * math.pi) - math.pi) * f
+                d = math.acos(dot(ecl(asc), ecl(lon)))
+                h = math.asin(dot(ecl(lon), zen))
+                worst["altitude"] = max(worst["altitude"], abs(math.sin(h) - math.sin(d) * math.sin(h_m) / math.sin(d_m)))
+                # the angle of latitude: between the ecliptic and the circle of altitude through the point
+                p = ecl(lon)
+                vert = unit([zz - dot(zen, p) * pp for zz, pp in zip(zen, p)])
+                ang = math.acos(abs(dot(ecl_tangent(lon), vert)))
+                worst["angle"] = max(worst["angle"], abs(math.cos(ang) - math.tan(h) / abs(math.tan(d))))
+            # the angle of the ecliptic with the horizon at the ascendant (the angle of longitude there)
+            pole = [0.0, -math.sin(EPS), math.cos(EPS)]
+            alpha = math.acos(abs(dot(pole, zen)))
+            dec_m = math.asin(ecl(mc)[2])
+            worst["horizon"] = max(worst["horizon"], abs(math.sin(alpha) - math.cos(phi - dec_m) / math.sin(d_m)))
+            # the angle in the middle of the sky
+            lam = mc % math.pi
+            lam = min(lam, math.pi - lam)
+            p = ecl(mc)
+            vert = unit([zz - dot(zen, p) * pp for zz, pp in zip(zen, p)])
+            ang = math.acos(abs(dot(ecl_tangent(mc), vert)))
+            if lam > R(1):
+                worst["meridian"] = max(worst["meridian"],
+                                        abs(math.cos(ang) - abs(math.tan(dec_m)) / math.tan(lam)))
+    # the rule for a northern declination of the middle of the sky greater than the latitude, at the horizon:
+    # sin(angle of latitude) = sin(declination - latitude) / sin(arc from the ascendant to the middle of the sky)
+    for phi10 in range(0, 236, 5):
+        phi = R(phi10 / 10)
+        for t10 in range(0, 3600, 5):
+            t = R(t10 / 10)
+            zen = [math.cos(phi) * math.cos(t), math.cos(phi) * math.sin(t), math.sin(phi)]
+            east = [-math.sin(t), math.cos(t), 0.0]
+            a = math.atan2(-zen[0], zen[1] * math.cos(EPS) + zen[2] * math.sin(EPS))
+            asc = a if dot(ecl(a), east) > 0 else a + math.pi
+            mc = math.atan2(math.sin(t), math.cos(t) * math.cos(EPS))
+            if dot(ecl(mc), zen) < 0:
+                mc += math.pi
+            dec_m = math.asin(ecl(mc)[2])
+            if dec_m <= phi:
+                continue
+            d_m = math.acos(max(-1.0, min(1.0, dot(ecl(asc), ecl(mc)))))
+            alpha = math.acos(abs(dot([0.0, -math.sin(EPS), math.cos(EPS)], zen)))
+            rule = D(math.asin(min(1.0, math.sin(dec_m - phi) / math.sin(d_m))))
+            false_rule.append(abs(90 - D(alpha) - rule))
+    print(f"ch. 39: largest errors of the rules: {', '.join(f'{k} {v:.1e}' for k, v in worst.items())};"
+          f" the rule for a northern declination greater than the latitude errs by up to {max(false_rule):.2f}"
+          f" degrees")
+    assert all(v < 1e-9 for v in worst.values()) and 0.5 < max(false_rule) < 1
+    # sin p against tan p for the parallax: at the horizon and the moon at 60 radii
+    p_sin, p_tan = D(math.asin(1 / 60)), D(math.atan(1 / 60))
+    assert abs(p_sin - p_tan) * 3600 < 1
+
+
 if __name__ == "__main__":
     chapter_12()
     chapter_18()
@@ -310,4 +411,5 @@ if __name__ == "__main__":
     chapter_32()
     chapter_33()
     chapter_36_38()
+    chapter_39()
     print("all checks passed")
