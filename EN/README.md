@@ -26,7 +26,7 @@ The work runs chapter by chapter. First the Arabic is read with Nallino's appara
 
 ## Status
 
-**Done:** the invocation, the list of the 57 chapters and chapters 1–25 (Part III pp. 1–57). Read [zij_en.pdf](zij_en.pdf). The chapters follow in order; the tables of Part III, whose headings and notes also need translating, come after the canons.
+**Done:** the invocation, the list of the 57 chapters and chapters 1–26 (Part III pp. 1–61). Read [zij_en.pdf](zij_en.pdf). The chapters follow in order; the tables of Part III, whose headings and notes also need translating, come after the canons.
 
 | File | Content |
 |---|---|
