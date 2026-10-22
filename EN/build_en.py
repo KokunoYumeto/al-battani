@@ -111,7 +111,7 @@ def inline(s):
 
 PREAMBLE = r"""\documentclass[11pt]{article}
 \usepackage[a4paper,left=30mm,right=30mm,top=25mm,bottom=25mm,marginparwidth=16mm,marginparsep=4mm]{geometry}
-\usepackage{fontspec,xcolor,pdflscape}
+\usepackage{fontspec,xcolor,pdflscape,needspace}
 \usepackage[unicode,hidelinks]{hyperref}
 \usepackage{polyglossia}
 \setmainlanguage{english}
@@ -123,8 +123,8 @@ PREAMBLE = r"""\documentclass[11pt]{article}
 \setlength{\parindent}{0pt}\setlength{\parskip}{0.55em}
 \tracinglostchars=2
 \newcommand{\ArPage}[1]{\marginpar{\footnotesize\color{gray}Ar.\,p.\,#1}}
-\newcommand{\ChapterHead}[4]{\par\bigskip\penalty-300\pdfbookmark[1]{#1}{ch-#2}\hypertarget{EN-C#2}{}%
- {\large\bfseries #1#4}#3\par\medskip}
+\newcommand{\ChapterHead}[4]{\par\needspace{8\baselineskip}\bigskip\pdfbookmark[1]{#1}{ch-#2}\hypertarget{EN-C#2}{}%
+ {\large\bfseries\interlinepenalty=10000 #1#4{\normalfont\normalsize#3}\par}\nobreak\medskip}
 \begin{document}
 """
 
