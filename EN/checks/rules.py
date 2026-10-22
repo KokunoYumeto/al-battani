@@ -604,6 +604,26 @@ def chapter_44():
     print("ch. 44: the area rule for the sun is exact while the chord lies between the centres, too small beyond")
 
 
+def chapter_46():
+    """the daily motions in anomaly: Ptolemy's (Almagest IX 3) rounded to the minute"""
+    sx = lambda *v: sum(x / 60 ** i for i, x in enumerate(v))  # noqa: E731
+    ptolemy = {"Saturn": sx(0, 57, 7, 43, 41), "Jupiter": sx(0, 54, 9, 2, 46), "Mars": sx(0, 27, 41, 40, 19),
+               "Venus": sx(0, 36, 59, 25, 53), "Mercury": sx(3, 6, 24, 6, 59)}
+    text = {"Saturn": [0, 57], "Jupiter": [0, 54], "Mars": [0, 28], "Venus": [0, 37], "Mercury": [3, 6]}
+    print("ch. 46: " + ", ".join(f"{k} {sexa(v, 2)}" for k, v in ptolemy.items()))
+    assert all(sexa(ptolemy[k], 2) == text[k] for k in text)
+
+
+def chapter_47_48():
+    """the third latitudes of Venus and Mercury; the anomalies of the greatest elongations of Venus and Mercury"""
+    sx = lambda *v: sum(x / 60 ** i for i, x in enumerate(v))  # noqa: E731
+    assert 60 / 6 == 10 and 60 * 3 / 4 == 45
+    venus, mercury = 180 - D(math.acos(sx(43, 10) / 60)), 180 - D(math.acos(sx(22, 30) / 60))
+    print(f"ch. 47: a sixth and three quarters of 60 minutes: 10 and 45; ch. 48: greatest elongations at anomalies"
+          f" {venus:.2f} (Venus) and {mercury:.2f} (Mercury)")
+    assert round(venus) == 136 and round(mercury) == 112
+
+
 if __name__ == "__main__":
     chapter_12()
     chapter_18()
@@ -620,4 +640,6 @@ if __name__ == "__main__":
     chapter_42()
     chapter_43()
     chapter_44()
+    chapter_46()
+    chapter_47_48()
     print("all checks passed")
