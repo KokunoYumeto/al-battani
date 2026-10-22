@@ -25,7 +25,7 @@ The work runs chapter by chapter. First the Arabic is read with Nallino's appara
 
 ## Status
 
-**Done:** the invocation and the list of the 57 chapters (Part III pp. 1–5), chapter 1, the preface (pp. 6–7), chapter 2, on the sexagesimal orders, with its two tables (pp. 8–12), chapter 3, on chords and sines (pp. 13–17), and chapter 4, on the inclination of the ecliptic and the declination of each degree (pp. 17–19). Read [zij_en.pdf](zij_en.pdf). The chapters follow in order; the tables of Part III, whose headings and notes also need translating, come after the canons.
+**Done:** the invocation, the list of the 57 chapters and chapters 1–5 (Part III pp. 1–21). Read [zij_en.pdf](zij_en.pdf). The chapters follow in order; the tables of Part III, whose headings and notes also need translating, come after the canons.
 
 | File | Content |
 |---|---|
