@@ -271,7 +271,7 @@ def front(done, total_lines):
         r"quotations, record where the translation follows a correction of Nallino's, and explain terms. The pages "
         r"of the Arabic text are given in the margin. Nallino's Latin translation (Part I, Milan, 1903) was used as "
         r"a check on the meaning throughout; its wording is not followed.",
-        r"\par\smallskip\noindent The translation is in progress. " + done + ". It is AI-integrated work "
+        r"\par\smallskip\noindent " + done + ". It is AI-integrated work "
         r"(Claude), 2026; no person has proofread it. It is dedicated to the public domain (CC0 1.0).",
         r"\par\clearpage"])
 
@@ -343,8 +343,13 @@ def main():
         for e in errors:
             print("ERROR", e)
         raise SystemExit(1)
-    done = (f"This version holds the list of chapters and chapter{'s' if len(chapters) > 2 else ''} "
-            f"{', '.join(str(c) for c in chapters if c)}")
+    if chapters == list(range(58)):
+        done = ("This version holds all the canons: the list of chapters, chapters 1 to 57 and the eight short "
+                "chapters without numbers that follow chapter 57 in the Escorial codex (Nallino's A to H). The "
+                "names, descriptions and headings of the tables of Part III are to follow")
+    else:
+        done = (f"The translation is in progress. This version holds the list of chapters and "
+                f"chapter{'s' if len(chapters) > 2 else ''} {', '.join(str(c) for c in chapters if c)}")
     tex.append(front(done, nlines))
     tex += body
     tex.append(r"\end{document}")
