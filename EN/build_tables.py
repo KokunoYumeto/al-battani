@@ -171,10 +171,60 @@ def chronology(en, errors):
     return "\n".join(out)
 
 
+def geography(en, errors):
+    p3 = read_tsv(S13 / "geography" / "geo_p3.tsv")
+    joined = {(r["pdf"], r["row"]): r for r in read_tsv(S13 / "geography" / "geography_joined.tsv")}
+    errors += coverage("geography", p3, en, lambda r: f"{r['pdf']}:{r['line']}")
+    if errors:
+        return ""
+    spec = "R{8mm}L{44mm}L{36mm}R{7mm}R{6mm}R{6mm}R{6mm}L{24mm}"
+    out, opened, section, page, pending = [head("The geographical tables", "geography")], False, None, None, None
+
+    def close():
+        if opened:
+            out.append(r"\end{longtable}}")
+
+    for r in p3:
+        e = en[f"{r['pdf']}:{r['line']}"]
+        if r["ppage"] != page:
+            page, pending = r["ppage"], r["ppage"]
+        if r["kind"] in ("title", "fol"):
+            close()
+            opened = False
+            size = r"\footnotesize" if r["kind"] == "fol" else r"\bfseries"
+            out.append(r"\par\smallskip{\centering" + size + " " + tex(e[0]) + r"\par}\nopagebreak" +
+                       (r"\ArPage{" + pending + "}" if pending else ""))
+            pending = None
+            continue
+        if r["kind"] == "colhead":
+            if opened:
+                continue
+            opened = True
+            out.append(r"{\small\setlength{\tabcolsep}{3pt}\begin{longtable}{" + spec + "}")
+            out.append(r"\textbf{No.} & \textbf{" + tex(e[0]) + r"} & \textbf{The place} & "
+                       r"\multicolumn{2}{c}{\textbf{Longitude}} & \multicolumn{2}{c}{\textbf{Latitude}} & "
+                       r"\textbf{Notes}\\")
+            out.append(r" & & & ° & ′ & ° & ′ & \\\hline\endhead")
+            continue
+        if pending:
+            out.append(pagerow(8, pending))
+            pending = None
+        if section and r["section"] != section:
+            out.append(r"\hline")
+        section = r["section"]
+        j = joined[(r["pdf"], r["line"])]
+        notes = []
+        nums = [value(j, f, notes, lab) for f, lab in (("lon_d", "longitude °"), ("lon_m", "longitude ′"),
+                                                         ("lat_d", "latitude °"), ("lat_m", "latitude ′"))]
+        out.append(" & ".join([j.get("no", ""), tex(e[0]), tex(e[1])] + nums + [tex("; ".join(notes))]) + r"\\")
+    close()
+    return "\n".join(out)
+
+
 def main():
     sys.stdout.reconfigure(encoding="utf-8")
     errors, parts = [], []
-    for name, fn in (("notice", notice), ("chronology", chronology)):
+    for name, fn in (("notice", notice), ("chronology", chronology), ("geography", geography)):
         en = read_en(name)
         if en is not None:
             parts.append(fn(en, errors))
