@@ -347,10 +347,10 @@ def main():
         raise SystemExit(1)
     built = build_tables.main()
     tables = {"notice": "Nallino's notice", "chronology": "the chronological tables",
-              "geography": "the geographical tables", "stars": "the star catalogue"}
+              "geography": "the geographical tables", "stars": "the star catalogue",
+              "status_1211": "the tables of the stars for the year 1211"}
     have = [tables[b] for b in built]
-    rest = [v for k, v in tables.items() if k not in built] + ["the tables of the stars for the year 1211",
-                                                               "the two figures of pp. 243 and 244"]
+    rest = [v for k, v in tables.items() if k not in built] + ["the two figures of pp. 243 and 244"]
 
     def listed(xs):
         return xs[0] if len(xs) == 1 else ", ".join(xs[:-1]) + " and " + xs[-1]

@@ -992,6 +992,38 @@ def star_catalogue():
     assert julian_day(884, 6, 1) <= muharram(271) <= julian_day(884, 6, 30)
 
 
+def tables_1211():
+    """the tables of the stars for 1211 are computed for the latitude of al-Raqqa, 36 degrees: the altitude in the
+    middle of the sky is 54 degrees plus the northern or minus the southern distance from the equator, and half the
+    stay above the earth is 90 degrees plus the arc whose sine is tan 36 tan(distance). Part II's values are used."""
+    import csv
+    import re
+    from pathlib import Path
+    path = Path(__file__).resolve().parents[2] / "S13" / "status_1211" / "st_p2.tsv"
+    with open(path, encoding="utf-8", newline="") as fh:
+        rows = [r for r in csv.DictReader(fh, delimiter="\t", quoting=csv.QUOTE_NONE) if r["kind"] == "star"]
+
+    def num(s):
+        s = re.sub(r"[^0-9]", "", s or "")
+        return int(s) if s else None
+    off, arcs, alts = {}, [], 0
+    for r in rows:
+        dec = (num(r["dec_d"]) + num(r["dec_m"]) / 60) * (1 if r["plaga"].startswith("B") else -1)
+        if num(r["alt_d"]) is not None:                  # the star that never rises at al-Raqqa has none
+            alts += 1
+            alt = num(r["alt_d"]) + num(r["alt_m"]) / 60
+            if abs(alt - (54 + dec)) > 1e-9:
+                off[int(r["no"])] = round(alt - (54 + dec), 3)
+        if num(r["half_d"]) is not None:
+            calc = 90 + D(math.asin(math.tan(R(36)) * math.tan(R(dec))))
+            arcs.append((num(r["half_d"]) + num(r["half_m"]) / 60 - calc) * 60)
+    near = sum(1 for a in arcs if abs(a) <= 10)
+    print(f"tables 1211: altitude = 54 + distance for {alts - len(off)} of {alts} stars, otherwise {off};"
+          f" half the stay within 10' of the value for latitude 36 for {near} of {len(arcs)}")
+    assert set(off) == {22, 38, 39, 63} and off[38] == off[39] == 20.0 and abs(off[22]) < 0.02
+    assert near >= 57
+
+
 if __name__ == "__main__":
     chapter_12()
     chapter_18()
@@ -1019,4 +1051,5 @@ if __name__ == "__main__":
     chapter_56()
     chapter_57()
     star_catalogue()
+    tables_1211()
     print("all checks passed")

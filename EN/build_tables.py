@@ -37,7 +37,7 @@ def read_en(name):
         parts = raw.split("\t")
         if parts[0] in out:
             raise SystemExit(f"tables/{name}.tsv line {n}: {parts[0]} twice")
-        out[parts[0]] = parts[1:] + [""] * (2 - len(parts[1:]))
+        out[parts[0]] = parts[1:] + [""] * (3 - len(parts[1:]))
     return out
 
 
@@ -343,10 +343,106 @@ def stars(en, errors):
     return "\n".join(out)
 
 
+def folio_en(label):
+    """Nallino's folio label, for example «F. 238,v.», in English"""
+    m = re.fullmatch(r"F\. (\d+),(r|v)\.", label.strip())
+    if not m:
+        raise SystemExit(f"folio label {label!r}: no rule")
+    return f"Folio {m.group(1)} {'recto' if m.group(2) == 'r' else 'verso'} of the codex"
+
+
+def status_1211(en, errors):
+    sd = S13 / "status_1211"
+    p3 = read_tsv(sd / "st_p3.tsv")
+    joined = {(r["pdf"], r["row"]): r for r in read_tsv(sd / "status_1211_joined.tsv")}
+    above = {r["pdf"]: r["above"] for r in read_tsv(sd / "st_p3_pages.tsv") if r["above"]}
+    # Part II's «neb.» and «obsc.», which the joined table leaves blank
+    words = {r["no"]: {"neb.": "nebulosa", "obsc.": "obscura"}.get(r["mag"], "")
+             for r in read_tsv(sd / "st_p2.tsv") if r["kind"] == "star"}
+    errors += coverage("status_1211", p3, en, lambda r: f"{r['pdf']}:{r['line']}")
+    if errors:
+        return ""
+    spec = ("R{5mm}L{40mm}L{12mm}" + "R{6.5mm}R{5.5mm}" + "L{3.5mm}" + "R{6.5mm}R{5.5mm}" * 5 + "L{13mm}L{55mm}")
+    heads = ("Their distances from the equator", "Their altitude in the middle of the sky",
+             "Half their stay above the earth", "The degrees that culminate with them",
+             "The degrees with which they rise", "The degrees with which they set")
+    pair = r"\multicolumn{2}{>{\centering\arraybackslash}p{14mm}}"
+    fields = (("dec", "distance"), ("alt", "altitude"), ("half", "half stay"), ("cul", "culminating"),
+              ("ris", "rising"), ("set", "setting"))
+    out = [r"\begin{landscape}", head("The tables of the stars for the year 1211", "status1211")]
+    state = {"open": False, "section": None, "page": None, "pending": None}
+
+    def close_table():
+        if state["open"]:
+            out.append(r"\end{longtable}}")
+            state["open"] = False
+
+    def centred(text, size, note=""):
+        close_table()
+        note = r"\par{\normalfont\footnotesize\itshape " + tex(note) + r"\par}" if note else ""
+        out.append(r"\par\needspace{6\baselineskip}\smallskip{\centering" + size + " " + tex(text) + note +
+                   r"\par}\nopagebreak" + (r"\ArPage{" + state["pending"] + "}" if state["pending"] else ""))
+        state["pending"] = None
+
+    def page_mark():
+        if state["pending"]:
+            out.append(pagerow(18, state["pending"]) + "*")
+            state["pending"] = None
+
+    for r in p3:
+        e = en[f"{r['pdf']}:{r['line']}"]
+        if r["ppage"] != state["page"]:
+            state["page"] = state["pending"] = r["ppage"]
+            if r["pdf"] in above:
+                centred(folio_en(above[r["pdf"]]), r"\footnotesize")
+        if r["kind"] == "title":
+            centred(e[0], r"\bfseries", e[2])
+            continue
+        if r["kind"] == "folio":
+            centred(e[0], r"\footnotesize")
+            continue
+        if r["kind"] == "colhead":
+            if r["section"] == state["section"] and state["open"]:
+                continue
+            close_table()
+            state["section"], state["open"] = r["section"], True
+            out.append(r"{\footnotesize\setlength{\tabcolsep}{3pt}\begin{longtable}{" + spec + "}")
+            out.append(r"\textbf{No.} & \textbf{" + tex(e[0]) + r"} & \textbf{Star} & " + pair + "{\\scriptsize\\bfseries " +
+                       heads[0] + r"} & \rotatebox{90}{\scriptsize\bfseries Direction} & " +
+                       " & ".join(pair + "{\\scriptsize\\bfseries " + h + "}" for h in heads[1:]) +
+                       r" & {\scriptsize\bfseries Ranks of magnitude} & \textbf{Notes}\\")
+            out.append(r" & & & ° & ′ & & " + " & ".join(["° & ′"] * 5) + r" & & \\\hline\endhead")
+            continue
+        page_mark()
+        if r["kind"] in ("vnote", "hnote"):
+            out.append(r"\multicolumn{17}{>{\raggedright\arraybackslash}p{185mm}}{\emph{" + tex(e[0]) + r"}} & " +
+                       tex(e[2]) + r"\\")
+            continue
+        j = joined[(r["pdf"], r["line"])]
+        if not j["p2_mag"] and words.get(j["no"]):
+            j = dict(j, p2_mag=words[j["no"]])
+        notes = []
+        cells = []
+        for f, lab in fields:
+            cells += [value(j, f"{f}_d", notes, f"{lab} °"), value(j, f"{f}_m", notes, f"{lab} ′")]
+            if f == "dec":
+                cells.append(value(j, "dir", notes, "direction", lambda x: SIDE.get(x, x)))
+        if j["table"] == "M3":                     # the third table has no column of magnitudes
+            mag = ""
+        else:
+            mag = value(j, "mag", notes, "magnitude", lambda x: " ".join(MAG.get(w, w) for w in x.split()))
+        note = "; ".join(([e[2]] if e[2] else []) + notes)
+        out.append(" & ".join([j["no"], tex(e[0]), tex(e[1])] + cells + [tex(mag), tex(note)]) + r"\\")
+    close_table()
+    out.append(r"\end{landscape}")
+    return "\n".join(out)
+
+
 def main():
     sys.stdout.reconfigure(encoding="utf-8")
     errors, parts, built = [], [], []
-    for name, fn in (("notice", notice), ("chronology", chronology), ("geography", geography), ("stars", stars)):
+    for name, fn in (("notice", notice), ("chronology", chronology), ("geography", geography), ("stars", stars),
+                     ("status_1211", status_1211)):
         en = read_en(name)
         if en is not None:
             parts.append(fn(en, errors))
