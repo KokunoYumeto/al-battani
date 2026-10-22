@@ -35,6 +35,8 @@ from pathlib import Path
 HERE = Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE / "tools"))
 import sources  # noqa: E402
+sys.path.insert(0, str(HERE))
+import build_tables  # noqa: E402
 
 REQUIRED = {"display", "text", "h1", "h2", "cell", "figure"}
 TEXTUS = [HERE.parent / s / "textus" for s in ("S10", "S11", "S12")]
@@ -239,7 +241,7 @@ def inline(s):
 
 PREAMBLE = r"""\documentclass[11pt]{article}
 \usepackage[a4paper,left=30mm,right=30mm,top=25mm,bottom=25mm,marginparwidth=16mm,marginparsep=4mm]{geometry}
-\usepackage{fontspec,xcolor,pdflscape,needspace,tikz}
+\usepackage{fontspec,xcolor,pdflscape,needspace,tikz,longtable,array}
 \usepackage[unicode,hidelinks]{hyperref}
 \usepackage{polyglossia}
 \setmainlanguage{english}
@@ -352,6 +354,9 @@ def main():
                 f"chapter{'s' if len(chapters) > 2 else ''} {', '.join(str(c) for c in chapters if c)}")
     tex.append(front(done, nlines))
     tex += body
+    build_tables.main()
+    if (HERE / "tables_en.tex").exists():
+        tex.append(r"\input{tables_en.tex}")
     tex.append(r"\end{document}")
     (HERE / "zij_en.tex").write_text("\n".join(tex) + "\n", encoding="utf-8", newline="\n")
     with open(HERE / "alignment.tsv", "w", encoding="utf-8", newline="\n") as fh:
