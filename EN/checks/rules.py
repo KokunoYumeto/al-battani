@@ -977,6 +977,21 @@ def chapter_57():
             assert abs(math.tan(R(lat)) * math.tan(dec) - math.sin(top) * math.sin(ra)) < 1e-12
 
 
+def star_catalogue():
+    """the date of the star catalogue: the year 1191 of Dhu l-Qarnayn began on 1 September 879, in the year 266 of
+    the Hijra, and the year 271 of the Hijra, which the heading of the zodiacal constellations names, began in June
+    884"""
+    hijra = julian_day(622, 7, 15)
+
+    def muharram(y):                     # 1 Muharram of the Hijra year y, in the calendar of 30-year cycles
+        return hijra + 354 * (y - 1) + (11 * (y - 1) + 14) // 30
+    start = julian_day(-311 + 1190, 9, 1)                # year 1 began on 1 September 312 BC
+    print(f"ch. stars: 1 Aylul 1191 is day {start - muharram(266) + 1} of the year 266 of the Hijra; the year 271"
+          f" began {muharram(271) - julian_day(884, 6, 1) + 1} June 884")
+    assert start == julian_day(879, 9, 1) and muharram(266) <= start < muharram(267)
+    assert julian_day(884, 6, 1) <= muharram(271) <= julian_day(884, 6, 30)
+
+
 if __name__ == "__main__":
     chapter_12()
     chapter_18()
@@ -1003,4 +1018,5 @@ if __name__ == "__main__":
     chapter_55()
     chapter_56()
     chapter_57()
+    star_catalogue()
     print("all checks passed")

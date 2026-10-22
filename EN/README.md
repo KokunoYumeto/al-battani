@@ -26,16 +26,17 @@ The work runs chapter by chapter. First the Arabic is read with Nallino's appara
 
 ## Status
 
-**Done:** all the canons: the invocation, the list of the 57 chapters, chapters 1–57 and the eight short unnumbered chapters that follow chapter 57 in the Escorial codex (Nallino's A–H), Part III pp. 1–226. Read [zij_en.pdf](zij_en.pdf). Still to come: the headings and notes of the tables of Part III.
+**Done:** all the canons: the invocation, the list of the 57 chapters, chapters 1–57 and the eight short unnumbered chapters that follow chapter 57 in the Escorial codex (Nallino's A–H), Part III pp. 1–226; and of the tables of Part III, Nallino's notice, the chronological and the geographical tables and the star catalogue (pp. 227–242 and 245–274). Read [zij_en.pdf](zij_en.pdf). Still to come: the tables of the stars for the year 1211 (pp. 275–279) and the two figures of pp. 243 and 244.
 
 | File | Content |
 |---|---|
 | `text/C##.txt` | one file per chapter: each block of English with the anchors of the Arabic lines it translates, and its notes; the format is described at the head of `build_en.py` |
 | `build_en.py`, `make_pdf.py` | check that every Arabic line of each chapter is translated once, and build the PDF deterministically |
+| `tables/*.tsv`, `build_tables.py` | the English of the tables of Part III, one file per table, keyed to the rows transcribed in [S13](../S13/); `build_tables.py` checks that every row is translated once and sets the tables with their numbers from S13 |
 | `alignment.tsv` | every block of the English with its Arabic lines and pages |
 | `glossary.tsv` | the technical terms: Arabic, transliteration, English, Nallino's Latin |
 | `tools/sources.py` | the Arabic and Nallino's Latin of a chapter side by side |
-| `checks/rules.py` | numerical checks of the mathematical claims in the notes (chapters 12, 18, 24, 25, 28, 30, 32, 33, 36, 38, 39, 40, 41, 42, 43, 44, 46, 47, 48, 50, 51, 52, 53, 54, 55, 56 and 57, with the short chapters after 57), with their output in `rules.out.txt` |
+| `checks/rules.py` | numerical checks of the mathematical claims in the notes (chapters 12, 18, 24, 25, 28, 30, 32, 33, 36, 38, 39, 40, 41, 42, 43, 44, 46, 47, 48, 50, 51, 52, 53, 54, 55, 56 and 57, with the short chapters after 57, and the date of the star catalogue), with their output in `rules.out.txt` |
 | `checkpoint.json` | the chapters done and a checksum over the chapter files |
 
 ## Credits

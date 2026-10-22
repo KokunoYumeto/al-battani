@@ -345,16 +345,25 @@ def main():
         for e in errors:
             print("ERROR", e)
         raise SystemExit(1)
+    built = build_tables.main()
+    tables = {"notice": "Nallino's notice", "chronology": "the chronological tables",
+              "geography": "the geographical tables", "stars": "the star catalogue"}
+    have = [tables[b] for b in built]
+    rest = [v for k, v in tables.items() if k not in built] + ["the tables of the stars for the year 1211",
+                                                               "the two figures of pp. 243 and 244"]
+
+    def listed(xs):
+        return xs[0] if len(xs) == 1 else ", ".join(xs[:-1]) + " and " + xs[-1]
     if chapters == list(range(58)):
         done = ("This version holds all the canons: the list of chapters, chapters 1 to 57 and the eight short "
-                "chapters without numbers that follow chapter 57 in the Escorial codex (Nallino's A to H). The "
-                "names, descriptions and headings of the tables of Part III are to follow")
+                "chapters without numbers that follow chapter 57 in the Escorial codex (Nallino's A to H)")
+        done += (f"; and of the tables of Part III, {listed(have)}. Still to follow are {listed(rest)}" if have else
+                 ". The names, descriptions and headings of the tables of Part III are to follow")
     else:
         done = (f"The translation is in progress. This version holds the list of chapters and "
                 f"chapter{'s' if len(chapters) > 2 else ''} {', '.join(str(c) for c in chapters if c)}")
     tex.append(front(done, nlines))
     tex += body
-    build_tables.main()
     if (HERE / "tables_en.tex").exists():
         tex.append(r"\input{tables_en.tex}")
     tex.append(r"\end{document}")

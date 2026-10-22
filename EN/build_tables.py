@@ -58,17 +58,18 @@ def statuses(row):
     return out
 
 
-def value(row, f, notes, label):
-    """the number of field f as the English gives it, marked; its note goes to notes"""
+def value(row, f, notes, label, show=str):
+    """the number of field f as the English gives it, marked; its note goes to notes. show turns a stored value
+    (for example «b» or «4 magna») into its English form"""
     st = statuses(row).get(f, "")
     v, p2, codex = row.get(f, ""), row.get(f"p2_{f}", ""), row.get(f"codex_{f}", "")
     if st == "codex note":
-        notes.append(f"{label}: codex {codex or v}")
-        return f"{p2}*"
+        notes.append(f"{label}: codex {show(codex or v)}")
+        return f"{show(p2)}*"
     if st == "ledgered":
-        notes.append(f"{label}: Part II {p2 or '–'}")
-        return f"{v}†"
-    return v if v != "" else p2
+        notes.append(f"{label}: Part II {show(p2) if p2 else '–'}")
+        return f"{show(v)}†"
+    return show(v if v != "" else p2)
 
 
 def coverage(name, rows, en, keyf):
@@ -113,7 +114,8 @@ def chronology(en, errors):
         return ""
     ncols = {"K": 5, "I": 3, "C": 8}
     specs = {"K": "L{38mm}L{38mm}R{13mm}R{13mm}L{32mm}", "I": "L{96mm}R{12mm}L{30mm}",
-             "C": "L{48mm}R{8mm}R{8mm}R{8mm}R{8mm}R{8mm}R{8mm}L{24mm}"}
+             "C": "L{46mm}R{10mm}R{10mm}R{10mm}R{10mm}R{10mm}R{10mm}L{26mm}"}
+    wide = r">{\raggedright\arraybackslash}p{140mm}"
     out, section, page, pending = [head("The chronological tables", "chronology")], None, None, None
 
     def close():
@@ -127,8 +129,8 @@ def chronology(en, errors):
         if r["kind"] in ("above", "title"):
             close()
             section = None
-            out.append(r"\par\smallskip{\centering\bfseries " + tex(e[0]) + r"\par}\nopagebreak" +
-                       (r"\ArPage{" + pending + "}" if pending else ""))
+            out.append(r"\par\needspace{6\baselineskip}\smallskip{\centering\bfseries " + tex(e[0]) +
+                       r"\par}\nopagebreak" + (r"\ArPage{" + pending + "}" if pending else ""))
             pending = None
             continue
         if r["kind"] == "colhead":
@@ -137,24 +139,26 @@ def chronology(en, errors):
             close()
             section = r["section"]
             h = [tex(x) for x in e[0].split("|")]
-            out.append(r"{\small\setlength{\tabcolsep}{4pt}\begin{longtable}{" + specs[section] + "}")
+            out.append(r"{\small\setlength{\tabcolsep}{3pt}\begin{longtable}{" + specs[section] + "}")
             if section == "K":
                 out.append(r"\textbf{" + h[0] + r"} & \textbf{Nallino's reading} & \textbf{" + h[1] + r"} & \textbf{" +
                            h[2] + r"} & \textbf{Notes}\\\hline\endhead")
             else:
-                out.append(r"\textbf{" + h[0] + r"} & \multicolumn{3}{c}{\textbf{" + h[1] + r"}} & "
-                           r"\multicolumn{3}{c}{\textbf{" + h[2] + r"}} & \textbf{Notes}\\")
-                out.append(" & " + " & ".join(r"\textbf{" + x + "}" for x in h[3:9]) + r" & \\\hline\endhead")
+                three = r"\multicolumn{3}{>{\centering\arraybackslash}p{33mm}}"   # a «c» span would widen the table
+                out.append(r"\textbf{" + h[0] + r"} & " + three + r"{\textbf{" + h[1] + r"}} & " + three +
+                           r"{\textbf{" + h[2] + r"}} & \textbf{Notes}\\")
+                out.append(" & " + " & ".join(r"{\footnotesize\bfseries " + x + "}" for x in h[3:9]) +
+                           r" & \\\hline\endhead")
             continue
         if section is None:
             section = r["section"]
-            out.append(r"{\small\setlength{\tabcolsep}{4pt}\begin{longtable}{" + specs[section] + "}")
+            out.append(r"{\small\setlength{\tabcolsep}{3pt}\begin{longtable}{" + specs[section] + "}")
             out.append(r" & \textbf{Years} & \textbf{Notes}\\\hline\endhead")
         if pending:
             out.append(pagerow(ncols[section], pending))
             pending = None
         if r["kind"] == "heading":
-            out.append(r"\multicolumn{" + str(ncols[section]) + r"}{l}{\emph{" + tex(e[0]) + r"}}\\")
+            out.append(r"\multicolumn{" + str(ncols[section]) + "}{" + wide + r"}{\emph{" + tex(e[0]) + r"}}\\")
             continue
         j = joined[(r["pdf"], r["line"])]
         notes = []
@@ -177,7 +181,7 @@ def geography(en, errors):
     errors += coverage("geography", p3, en, lambda r: f"{r['pdf']}:{r['line']}")
     if errors:
         return ""
-    spec = "R{8mm}L{44mm}L{36mm}R{7mm}R{6mm}R{6mm}R{6mm}L{24mm}"
+    spec = "R{8mm}L{42mm}L{34mm}R{7mm}R{6mm}R{6mm}R{6mm}L{24mm}"
     out, opened, section, page, pending = [head("The geographical tables", "geography")], False, None, None, None
 
     def close():
@@ -192,8 +196,8 @@ def geography(en, errors):
             close()
             opened = False
             size = r"\footnotesize" if r["kind"] == "fol" else r"\bfseries"
-            out.append(r"\par\smallskip{\centering" + size + " " + tex(e[0]) + r"\par}\nopagebreak" +
-                       (r"\ArPage{" + pending + "}" if pending else ""))
+            out.append(r"\par\needspace{6\baselineskip}\smallskip{\centering" + size + " " + tex(e[0]) +
+                       r"\par}\nopagebreak" + (r"\ArPage{" + pending + "}" if pending else ""))
             pending = None
             continue
         if r["kind"] == "colhead":
@@ -202,7 +206,8 @@ def geography(en, errors):
             opened = True
             out.append(r"{\small\setlength{\tabcolsep}{3pt}\begin{longtable}{" + spec + "}")
             out.append(r"\textbf{No.} & \textbf{" + tex(e[0]) + r"} & \textbf{The place} & "
-                       r"\multicolumn{2}{c}{\textbf{Longitude}} & \multicolumn{2}{c}{\textbf{Latitude}} & "
+                       r"\multicolumn{2}{c}{\footnotesize\bfseries Longitude} & "
+                       r"\multicolumn{2}{c}{\footnotesize\bfseries Latitude} & "
                        r"\textbf{Notes}\\")
             out.append(r" & & & ° & ′ & ° & ′ & \\\hline\endhead")
             continue
@@ -221,13 +226,131 @@ def geography(en, errors):
     return "\n".join(out)
 
 
+SIDE = {"b": "N", "a": "S", "0": "–"}
+MAG = {"magna": "greater", "parva": "lesser", "obscura": "faint", "nebulosa": "nebulous", "conspicua": "conspicuous"}
+IDENT = {"10 Leo. M.": "10 LMi", "12 Canum": "12 CVn", "2 Ceti.": "2 Cet", "6 Ceti.": "6 Cet", "7 Ceti.": "7 Cet",
+         "21 Comae": "21 Com", "4 Comae": "4 Com", "31 Lync.": "31 Lyn", "40 Lync.": "40 Lyn", "40 Ophi": "40 Oph",
+         "71 Leo.": "71 Leo", "α Andr.": "α And", "α Columbae.": "α Col", "β Columbae.": "β Col",
+         "α Piscis Austr.": "α PsA"}
+
+
+def ident(raw, abbr):
+    """Nallino's identification in the usual modern form: a letter of his takes the constellation it stands under"""
+    raw = raw.replace("ϰ", "κ")
+    if not raw:
+        return ""
+    if raw in IDENT:
+        return IDENT[raw]
+    m = re.fullmatch(r"Fl\. (\d+)\.", raw)
+    if m:
+        return f"{m.group(1)} {abbr}"
+    if not re.fullmatch(r"(\*[a-z]\*|[A-Za-zα-ω])[¹²³⁴⁵⁶⁷⁸⁹]*", raw):
+        raise SystemExit(f"identification {raw!r}: no rule")
+    return f"{raw} {abbr}"
+
+
+def stars(en, errors):
+    sc = S13 / "star_catalogue"
+    p3 = read_tsv(sc / "p3_stars.tsv")
+    joined = {(r["pdf"], r["row"]): r for r in read_tsv(sc / "star_catalogue_joined.tsv")}
+    idents = {f"{r['section']} {r['no']}": r["ident"] or "" for r in read_tsv(sc / "p2_stars.tsv") if r["kind"] == "star"}
+    errors += coverage("stars", p3, en, lambda r: f"{r['pdf']}:{r['line']}")
+    if errors:
+        return ""
+    # the Part III section in which each constellation of Part II stands
+    seen = {}
+    for r in p3:
+        if r["kind"] == "star" and r["p2"]:
+            seen.setdefault(r["p2"].rsplit(" ", 1)[0], {}).setdefault(r["section"], 0)
+            seen[r["p2"].rsplit(" ", 1)[0]][r["section"]] += 1
+    home = {k: max(v, key=v.get) for k, v in seen.items()}
+    # a star whose numbers belong to the constellation before a heading is shown before that heading
+    rows = []
+    for r in p3:
+        cons = r["p2"].rsplit(" ", 1)[0] if r["p2"] else ""
+        if r["kind"] == "star" and cons in home and home[cons] != r["section"]:
+            at = max(i for i, x in enumerate(rows) if x["kind"] == "heading")
+            if any(x["kind"] == "star" for x in rows[at:]):
+                raise SystemExit(f"stars: {r['pdf']}:{r['line']} cannot be moved")
+            rows.insert(at, r)
+        else:
+            rows.append(r)
+    spec = "L{44mm}L{12mm}R{7mm}R{5mm}R{6mm}R{5mm}L{3mm}L{15mm}L{34mm}"
+    span = r"\multicolumn{8}{>{\raggedright\arraybackslash}p{98mm}}"
+    out = [head("The star catalogue", "stars")]
+    state = {"open": False, "colhead": None, "page": None, "pending": None}
+
+    def open_table():
+        if not state["open"]:
+            state["open"] = True
+            out.append(r"{\small\setlength{\tabcolsep}{3pt}\begin{longtable}{" + spec + "}")
+            out.append(r"\textbf{Description} & \textbf{Star} & \multicolumn{2}{c}{\footnotesize\bfseries Longitude} & "
+                       r"\multicolumn{3}{c}{\footnotesize\bfseries Latitude} & {\footnotesize\bfseries Magnitude} & "
+                       r"\textbf{Notes}\\")
+            out.append(r" & & ° & ′ & ° & ′ & & & \\\hline\endhead")
+
+    def close_table():
+        if state["open"]:
+            out.append(r"\end{longtable}}")
+            state["open"] = False
+
+    def page_mark():
+        if state["pending"]:
+            out.append(pagerow(9, state["pending"]) + "*")      # «\\*»: no page break after the row
+            state["pending"] = None
+
+    for r in rows:
+        e = en[f"{r['pdf']}:{r['line']}"]
+        if r["ppage"] and r["ppage"] != state["page"]:
+            state["page"] = state["pending"] = r["ppage"]
+        if r["kind"] in ("above", "title"):
+            close_table()
+            size = r"\footnotesize" if r["kind"] == "above" else r"\bfseries"
+            note = r"\par{\normalfont\footnotesize\itshape " + tex(e[1]) + r"\par}" if e[1] else ""
+            out.append(r"\par\needspace{6\baselineskip}\smallskip{\centering" + size + " " + tex(e[0]) + note +
+                       r"\par}\nopagebreak" +
+                       (r"\ArPage{" + state["pending"] + "}" if state["pending"] else ""))
+            state["pending"] = None
+            state["titled"] = r["kind"] == "title"
+            continue
+        open_table()
+        if r["kind"] == "colhead":
+            # the running head of the Arabic pages, shown where it changes, unless a title has just named the part
+            if e[0] != state["colhead"]:
+                shown, state["colhead"] = state["colhead"], e[0]
+                titled, state["titled"] = state.get("titled"), False
+                if shown is not None and titled:
+                    continue
+                page_mark()
+                out.append(r"\multicolumn{9}{>{\raggedright\arraybackslash}p{140mm}}{\bfseries " + tex(e[0]) + r"}\\*")
+            continue
+        page_mark()
+        if r["kind"] in ("heading", "centerline"):
+            out.append(span + r"{\emph{" + tex(e[0]) + r"}} & " + tex(e[1]) + r"\\*")
+            continue
+        j = joined[(r["pdf"], r["line"])]
+        cons = j["part2_star"].rsplit(" ", 1)[0]
+        notes = []
+        nums = [value(j, f, notes, lab) for f, lab in (("lon_d", "longitude °"), ("lon_m", "longitude ′"),
+                                                         ("lat_d", "latitude °"), ("lat_m", "latitude ′"))]
+        side = value(j, "dir", notes, "side", lambda x: SIDE.get(x, x))
+        mag = value(j, "mag", notes, "magnitude", lambda x: " ".join(MAG.get(w, w) for w in x.split()))
+        star = ident(idents.get(j["part2_star"], ""), home.get(cons, r["section"]))
+        note = "; ".join(([e[1]] if e[1] else []) + notes)
+        line = " & ".join([tex(e[0]), tex(star)] + nums + [side, tex(mag), tex(note)]) + r"\\"
+        out.append(("{}" if line.startswith("[") else "") + line)       # «\\[» would read the bracket as a skip
+    close_table()
+    return "\n".join(out)
+
+
 def main():
     sys.stdout.reconfigure(encoding="utf-8")
-    errors, parts = [], []
-    for name, fn in (("notice", notice), ("chronology", chronology), ("geography", geography)):
+    errors, parts, built = [], [], []
+    for name, fn in (("notice", notice), ("chronology", chronology), ("geography", geography), ("stars", stars)):
         en = read_en(name)
         if en is not None:
             parts.append(fn(en, errors))
+            built.append(name)
     if errors:
         for e in errors:
             print("ERROR", e)
@@ -235,7 +358,7 @@ def main():
     target = HERE / "tables_en.tex"
     if not parts:
         target.unlink(missing_ok=True)
-        return
+        return built
     intro = tex((HERE / "tables" / "intro.txt").read_text(encoding="utf-8").strip())
     top = (r"\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}"
            r"\newcolumntype{R}[1]{>{\raggedleft\arraybackslash}p{#1}}" + "\n" +
@@ -243,6 +366,7 @@ def main():
            r"\medskip" + "\n" + intro + "\n")
     target.write_text(top + "\n\n".join(parts) + "\n", encoding="utf-8", newline="\n")
     print(f"tables_en.tex: {len(parts)} sections")
+    return built
 
 
 if __name__ == "__main__":
