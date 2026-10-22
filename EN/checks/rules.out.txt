@@ -36,4 +36,9 @@ ch. 38: 60 sin 5 = [5, 13, 46]
 ch. 39: 5;15 x 59/60 = [5, 9, 45]; 39;22 x 59/60 = [38, 42, 38]; limits [[64, 10], [53, 50], [43, 53], [33, 33]]
 ch. 39: parallax of the sun at 1210, 1146, 1070 radii: [[0, 2, 50], [0, 3, 0], [0, 3, 13]]; 1210/1146 - 1 = 1/17.9; 49;41 squared [2468, 26, 1]; 1108/60 = [18, 28, 0], 1127/60 = [18, 47, 0]
 ch. 39: largest errors of the rules: altitude 7.2e-16, angle 2.8e-15, horizon 3.9e-16, meridian 1.6e-15; the rule for a northern declination greater than the latitude errs by up to 0.84 degrees
+ch. 40: sin(zeta)/sin(p) gives the distance exactly; sin z/sin p + cos z errs by at most 4.4e-04 of it
+ch. 41: 12 times = 0.8 hour; gain in it 0.406; 12;11 - that = [11, 47]; light 0.812 of 12
+ch. 41: diameters [0, 29, 30], [0, 35, 20]: about the mean 0.0900 (1/12 = 0.0833); greatest over least 0.1977
+ch. 41: 11;45 x 12;11 / (12;11 + d) against 11;45 - (d / 12;11) 11;45, |d| <= 2: differ by at most [0, 22, 44]
+ch. 41: 11;45 x 13/12 x 12;11/13;40 = [11, 20, 51]; daily gains [11, 3, 36], [13, 30, 48]; 0;32,56 / 8 = [0, 4, 7]
 all checks passed

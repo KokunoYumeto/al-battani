@@ -401,6 +401,55 @@ def chapter_39():
     assert abs(p_sin - p_tan) * 3600 < 1
 
 
+def chapter_40():
+    """the distance of the moon from its parallax: sin(visible zenith distance) / sin(parallax) exactly; with the
+    true zenith distance, sin z / sin p (the distance from the observer) and cos z added"""
+    worst = 0.0
+    for dist in (33.5, 45.0, 64.2):
+        for z_d in range(5, 90, 5):
+            z = R(z_d)
+            obs = math.sqrt(dist ** 2 - 2 * dist * math.cos(z) + 1)          # from the observer to the moon
+            zeta = math.pi - math.asin(dist * math.sin(z) / obs) if dist * math.cos(z) < 1 else \
+                math.asin(min(1.0, dist * math.sin(z) / obs))
+            p = zeta - z
+            assert abs(math.sin(zeta) / math.sin(p) - dist) < 1e-9
+            worst = max(worst, abs(math.sin(z) / math.sin(p) + math.cos(z) - dist) / dist)
+    print(f"ch. 40: sin(zeta)/sin(p) gives the distance exactly; sin z/sin p + cos z errs by at most {worst:.1e} of it")
+    assert worst < 1e-3
+
+
+def chapter_41():
+    """the arcs of seeing: 12 times are 4/5 hour, in which the moon gains 2/5 part; the light; the diameters of the moon
+    (half a sixth, a fifth); the inverse ratio to first order; 11;21; the daily gains from the hourly motions of
+    chapter 30; the moon's motion in an eighth of an hour"""
+    sx = lambda *v: sum(x / 60 ** i for i, x in enumerate(v))  # noqa: E731
+    gain, hours = sx(12, 11), 12 / 15
+    print(f"ch. 41: 12 times = {hours} hour; gain in it {gain * hours / 24:.3f}; 12;11 - that = {sexa(gain - 0.4, 2)};"
+          f" light {gain / 15:.3f} of 12")
+    assert hours == 0.8 and abs(gain * hours / 24 - 0.4) < 0.01 and sexa(gain - 0.4, 2) == [11, 47]
+    assert abs(gain / 15 - 0.8) < 0.02
+    far, near = sx(0, 29, 30), sx(0, 35, 20)
+    mean = (far + near) / 2
+    print(f"ch. 41: diameters {sexa(far)}, {sexa(near)}: about the mean {(near - mean) / mean:.4f} (1/12 = {1 / 12:.4f});"
+          f" greatest over least {(near - far) / far:.4f}")
+    assert abs((near - mean) / mean - 1 / 12) < 0.01 and abs((near - far) / far - 1 / 5) < 0.005
+    worst = 0.0
+    for i in range(-40, 41):
+        d = i / 20                                    # the elongation 12;11 + d, d from -2 to 2 parts
+        x = d / gain
+        exact, linear = sx(11, 45) * gain / (gain + d), sx(11, 45) - sx(11, 45) * x
+        assert abs(exact - linear) <= sx(11, 45) * x * x / (1 - abs(x)) + 1e-12
+        worst = max(worst, abs(exact - linear))
+    print(f"ch. 41: 11;45 x 12;11 / (12;11 + d) against 11;45 - (d / 12;11) 11;45, |d| <= 2: differ by at most"
+          f" {sexa(worst)}")
+    arc = sx(11, 45) * 13 / 12 * gain / sx(13, 40)
+    least, greatest = 24 * (sx(0, 30, 12) - sx(0, 2, 33)), 24 * (sx(0, 36, 10) - sx(0, 2, 23))
+    print(f"ch. 41: 11;45 x 13/12 x 12;11/13;40 = {sexa(arc)}; daily gains {sexa(least)}, {sexa(greatest)};"
+          f" 0;32,56 / 8 = {sexa(sx(0, 32, 56) / 8)}")
+    assert sexa(arc, 2) == [11, 21] and sexa(least) == [11, 3, 36] and sexa(greatest) == [13, 30, 48]
+    assert sexa(sx(0, 32, 56) / 8) == [0, 4, 7]
+
+
 if __name__ == "__main__":
     chapter_12()
     chapter_18()
@@ -412,4 +461,6 @@ if __name__ == "__main__":
     chapter_33()
     chapter_36_38()
     chapter_39()
+    chapter_40()
+    chapter_41()
     print("all checks passed")
