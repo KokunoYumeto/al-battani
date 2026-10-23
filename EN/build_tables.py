@@ -1,14 +1,14 @@
 """The English of the tables of Part III: Nallino's notice, the chronological and the geographical tables, the
 star catalogue and the tables of the stars for the year 1211. The Arabic and its numbers come from S13, where every
 printed row is transcribed and joined with Nallino's Latin version (Part II) and with the readings of the codex that
-Nallino's notes report. tables/*.tsv give the English of every row of the Arabic that has text:
+his notes report. tables/*.tsv give the English of every row of the Arabic that has text:
 
   KEY <tab> ENGLISH [<tab> NALLINO'S READING]
 
 KEY is the master PDF page and the printed row of S13 (for example 924:R02). A row of column heads gives its heads
 separated by |, as the Arabic does; «^» marks a line translated together with the line above it. The numbers are
-decoded from the abjad of Part III (Maghribi values). Where Nallino corrects the codex in Part II, that value is given
-and marked *, with the codex reading in the notes; where Part II differs from Part III without a note of Nallino's, Part III
+decoded from the abjad of Part III (Maghribi values). Where Nallino corrects the codex in Part II, his value is given
+and marked *, with the codex reading in the notes; where Part II differs from Part III without a note of his, Part III
 is given and marked †, with Part II's value in the notes.
 
 python build_tables.py   (writes tables_en.tex; build_en.py calls it, and any coverage error stops the build)"""
@@ -235,7 +235,7 @@ IDENT = {"10 Leo. M.": "10 LMi", "12 Canum": "12 CVn", "2 Ceti.": "2 Cet", "6 Ce
 
 
 def ident(raw, abbr):
-    """Nallino's identification in the usual modern form: a letter alone takes the constellation it stands under"""
+    """Nallino's identification in the usual modern form: a letter of his takes the constellation it stands under"""
     raw = raw.replace("ϰ", "κ")
     if not raw:
         return ""

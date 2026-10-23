@@ -1,6 +1,6 @@
 """The sources of one chapter of the Zij for the English translation, side by side in reading order: al-Battani's
 Arabic as transcribed from Nallino's Part III (S10-S12, with Nallino's apparatus), and Nallino's Latin translation of the
-same chapter with Nallino's footnotes (Part I: S02 candidate v009 for pp. 1-53, S02/versio pp. 54-109, S03/versio, S04/versio).
+same chapter with his footnotes (Part I: S02 candidate v009 for pp. 1-53, S02/versio pp. 54-109, S03/versio, S04/versio).
 Chapter 0 is the title, the invocation and the list of the 57 chapters.
 
 python sources.py CHAPTER [OUTDIR]   (writes CHAPTER.txt into OUTDIR, default: the current folder)"""
