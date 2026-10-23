@@ -140,7 +140,7 @@ def front(done):
         r"\noindent This is an English translation of al-Battānī's commentary on the \emph{Tetrabiblos}, the earliest "
         r"that survives. It is made from Nadine Löhr's transcription of the Escorial manuscript in \emph{Ptolemaeus "
         r"Arabus et Latinus} (Bavarian Academy of Sciences and Humanities, 2021, CC BY 4.0). The commentary follows "
-        r"Ptolemy's work chapter by chapter, restating his doctrine and adding al-Battānī's own explanations, examples "
+        r"Ptolemy's work chapter by chapter, restating its doctrine and adding al-Battānī's own explanations, examples "
         r"and procedures; the notes give the chapter of the \emph{Tetrabiblos} in F.~E. Robbins's numbering, which "
         r"was used as a check on the meaning, and explain terms. Every sentence of the Arabic is translated, in the "
         r"order of the text; numbers are given in figures. Words added for the sense stand in square brackets; words "
