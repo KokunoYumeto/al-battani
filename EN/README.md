@@ -28,7 +28,7 @@ The work runs chapter by chapter. First the Arabic is read with Nallino's appara
 
 **Done:** all the canons: the invocation, the list of the 57 chapters, chapters 1–57 and the eight short unnumbered chapters that follow chapter 57 in the Escorial codex (Nallino's A–H), Part III pp. 1–226; and all that Part III prints of the tables (pp. 227–279): Nallino's notice, the chronological and the geographical tables, the two figures of pp. 243 and 244, the star catalogue and the tables of the stars for the year 1211. Read [zij_en.pdf](zij_en.pdf).
 
-**In progress:** an English translation of al-Battānī's commentary on Ptolemy's *Tetrabiblos*, in [commentary/](commentary/).
+**Done:** an English translation of al-Battānī's commentary on Ptolemy's *Tetrabiblos*, the whole commentary with its two tables, in [commentary/](commentary/).
 
 | File | Content |
 |---|---|

@@ -8,7 +8,7 @@ Every page of these sources is transcribed or disposed: the sixteen sessions S01
 
 - An Arabic source edition of al-Battānī's text and tables.
 - A historical Latin edition of Nallino's translation and apparatus.
-- One separate edition for each target language. The English translation is in [EN/](EN/): all the canons of the *Zīj* (the list of chapters, chapters 1–57 and the eight short chapters A–H that follow them), and all that Part III prints of the tables: Nallino's notice, the chronological and the geographical tables, the two figures of pp. 243 and 244, the star catalogue and the tables of the stars for the year 1211. An English translation of al-Battānī's commentary on Ptolemy's *Tetrabiblos* (S14) is in progress in [EN/commentary/](EN/commentary/). There are no bilingual or facing-page readers.
+- One separate edition for each target language. The English translation is in [EN/](EN/): all the canons of the *Zīj* (the list of chapters, chapters 1–57 and the eight short chapters A–H that follow them), and all that Part III prints of the tables: Nallino's notice, the chronological and the geographical tables, the two figures of pp. 243 and 244, the star catalogue and the tables of the stars for the year 1211. The English translation of al-Battānī's commentary on Ptolemy's *Tetrabiblos* (S14), the whole commentary with its two tables, is in [EN/commentary/](EN/commentary/). There are no bilingual or facing-page readers.
 - A restrained critical apparatus and machine-readable ledgers alongside each edition.
 
 ## Status
