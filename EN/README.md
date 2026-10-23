@@ -30,6 +30,8 @@ The work runs chapter by chapter. First the Arabic is read with Nallino's appara
 
 **Done:** an English translation of al-Battānī's commentary on Ptolemy's *Tetrabiblos*, the whole commentary with its two tables, in [commentary/](commentary/).
 
+Al-Battānī's astrological history, *Kitāb fī dalāʾil al-qirānāt wa-l-kusūfāt* ([S15](../S15/historia/)), is not translated here: E. S. Kennedy, B. van Dalen, G. Saliba and J. Samsó print an English translation beside Saliba's edition of the Arabic, «Al-Battānī's Astrological History of the Prophet and the Early Caliphate», *Suhayl* 9 (2009–2010), pp. 13–148.
+
 | File | Content |
 |---|---|
 | `text/C##.txt` | one file per chapter: each block of English with the anchors of the Arabic lines it translates, and its notes; the format is described at the head of `build_en.py` |
