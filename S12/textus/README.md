@@ -25,6 +25,8 @@ Each page is read from enlarged images of the master scan, with every vowel sign
 
 **The emendanda printed in Part II.** The Emendanda to the third volume printed in the front matter of Part II (pp. XXX–XXXI) that concern these pages are recorded as observations on the pages they concern, and every entry is routed in [S05/versio/corrigenda_routing.tsv](../../S05/versio/corrigenda_routing.tsv); the printed text is kept.
 
+**Corrected after the integration (23 October 2026).** p. 188, L03 (PDF 964): the second numeral is كح ن, 28;50, not كج ن, 23;50: the ḥāʾ has no dot inside its bowl on the master scan read at 900 dpi, and chapter 51 requires 28;50. The page file, its record, `anchors.tsv`, `p3_textus.tex` and `p3_textus.pdf` carry the correction; the receipts of S16 and its assembled Arabic volume record the earlier reading.
+
 ## Credits
 
 - al-Battānī: the text.

@@ -31,6 +31,7 @@ Every page of these sources is transcribed or disposed: the sixteen sessions S01
 **Read the assembled volumes (S16):**
 - [Nallino's Latin edition, Parts I–II, 874 pp.](S16/assembly/AB01_Latin_Nallino_edition.pdf) and [the Arabic edition, Part III, 290 pp.](S16/assembly/AB01_Arabic_edition.pdf): the editions of the *Zīj* listed below (S01–S13), bound in two volumes, each with a contents page that gives every part's pages in Nallino and in the volume
 - [About the integration, the assembly and the audit](S16/README.md); [gaps](S16/receipts/gaps.tsv)
+- Corrections after the integration (23 October 2026): on p. 188 of Part III, L03, the numeral for Sirius reads كح ن, 28;50, for كج ن, 23;50, read again on the master scan at 900 dpi ([S12](S12/textus/README.md)); on p. 86, L10, an observation records the sign after قيج ([S11](S11/textus/README.md)). The assembled Arabic volume and the receipts of S16 record the state before these corrections (commit 8ce5021).
 
 **Read S01:**
 - [Reader, 80 pp.](S01/pdf/S01_NALLINO_SOURCE_v003.pdf)

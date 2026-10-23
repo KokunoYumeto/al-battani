@@ -25,6 +25,8 @@ Each page is read from enlarged images of the master scan, with every vowel sign
 
 **The emendanda printed in Part II.** The Emendanda to the third volume printed in the front matter of Part II (pp. XXX–XXXI) that concern these pages are recorded as observations on the pages they concern, and every entry is routed in [S05/versio/corrigenda_routing.tsv](../../S05/versio/corrigenda_routing.tsv); the printed text is kept.
 
+**Added after the integration (23 October 2026).** p. 86, L10 (PDF 1066): an observation on the sign after {ov:قيج}, which the print sets as a small isolated mīm and which Nallino's Latin translation (Part I p. 57, n. 9) and the comparison table of Part I p. 231 read as the codex's zero; the text is transcribed as printed and is unchanged.
+
 ## Credits
 
 - al-Battānī: the text.
