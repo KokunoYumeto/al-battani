@@ -2,7 +2,7 @@
 
 Al-Battānī's *Sharḥ Kitāb al-Arbaʿ maqālāt fī aḥkām ʿilm al-nujūm*, the earliest commentary on the *Tetrabiblos* that survives, translated into English from the Arabic of the Escorial manuscript (árabe 969, ff. 20r–80v) as Nadine Löhr transcribed it in *Ptolemaeus Arabus et Latinus* (Bavarian Academy of Sciences and Humanities, 2021, CC BY 4.0) and [S14](../../S14/commentarius/) edits it. No English translation of the commentary had been published; PAL records a partial Italian one of the part on Book III (F. Martorello, 2022).
 
-**Status:** the title page and chapters 1–27 (ff. 20r–61r), on Books I and II of the *Tetrabiblos* and Book III to the quality of the soul; 1,695 of the 2,465 lines of the manuscript. Read [commentary_en.pdf](commentary_en.pdf).
+**Status:** the title page and chapters 1–31 (ff. 20r–67r), on Books I–III of the *Tetrabiblos* and Book IV to the native's craft; 1,939 of the 2,465 lines of the manuscript. Read [commentary_en.pdf](commentary_en.pdf).
 
 ## How it is made
 
