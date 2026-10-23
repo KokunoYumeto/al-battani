@@ -26,7 +26,7 @@ The work runs chapter by chapter. First the Arabic is read with Nallino's appara
 
 ## Status
 
-**Done:** all the canons: the invocation, the list of the 57 chapters, chapters 1–57 and the eight short unnumbered chapters that follow chapter 57 in the Escorial codex (Nallino's A–H), Part III pp. 1–226; and of the tables of Part III, Nallino's notice, the chronological and the geographical tables, the star catalogue and the tables of the stars for the year 1211 (pp. 227–242 and 245–279). Read [zij_en.pdf](zij_en.pdf). Still to come: the two figures of pp. 243 and 244.
+**Done:** all the canons: the invocation, the list of the 57 chapters, chapters 1–57 and the eight short unnumbered chapters that follow chapter 57 in the Escorial codex (Nallino's A–H), Part III pp. 1–226; and all that Part III prints of the tables (pp. 227–279): Nallino's notice, the chronological and the geographical tables, the two figures of pp. 243 and 244, the star catalogue and the tables of the stars for the year 1211. Read [zij_en.pdf](zij_en.pdf).
 
 | File | Content |
 |---|---|

@@ -438,11 +438,176 @@ def status_1211(en, errors):
     return "\n".join(out)
 
 
+ABJAD = {"ا": 1, "ب": 2, "ج": 3, "د": 4, "ه": 5, "و": 6, "ز": 7, "ح": 8, "ط": 9, "ى": 10, "ي": 10, "ك": 20, "ل": 30,
+         "م": 40, "ن": 50, "ص": 60, "ع": 70, "ف": 80, "ض": 90, "ق": 100, "ر": 200, "س": 300, "ت": 400, "ث": 500,
+         "خ": 600, "ذ": 700, "ظ": 800, "غ": 900, "ش": 1000}
+SIGNS = {"حمل": "Aries", "ثور": "Taurus", "جوزاه": "Gemini", "سرطان": "Cancer", "اسد": "Leo", "سنبلة": "Virgo",
+         "ميزان": "Libra", "عقرب": "Scorpio", "قوس": "Sagittarius", "جدي": "Capricorn", "دلو": "Aquarius", "حوت": "Pisces"}
+PLANETS = {"شمس": "Sun", "قمر": "Moon", "زحل": "Saturn", "مشتري": "Jupiter", "مريخ": "Mars", "بهرام": "Bahrām (Mars)",
+           "زهرة": "Venus", "عطارد": "Mercury", "رأس": "the Head", "ذنب": "the Tail",
+           "مشترب": "Jupiter"}                                  # printed with one dot under the last letter
+
+
+def abjad(raw):
+    """the value of a cell in Maghribi abjad; {0} is the zero sign"""
+    raw = raw.strip()
+    return 0 if raw == "{0}" else sum(ABJAD[c] for c in raw)
+
+
+def figures(en, errors):
+    """the two figures of pp. 243 and 244, set out as tables: the lines of the circle of the climes as rows, the
+    signs of the astrological figure as columns"""
+    dd = S13 / "diagrams"
+    cl, cl2 = read_tsv(dd / "climates_p3.tsv"), read_tsv(dd / "climates_p2.tsv")
+    names = {r["az"]: r for r in read_tsv(dd / "climates_names_p2.tsv")}
+    ro, ro2 = read_tsv(dd / "rosa_p3.tsv"), read_tsv(dd / "rosa_p2.tsv")
+    keys = {"title": lambda r: f"243:title:{r['ring']}", "corner": lambda r: f"243:corner:{r['side']}:{r['ring']}",
+            "azimuth": lambda r: f"243:azimuth:{r['t']}", "wind": lambda r: f"243:wind:{r['t']}"}
+    need = [r for r in cl if r["kind"] in keys]
+    errors += coverage("figures", need + [{"k": "244:title"}, {"k": "244:closing"}], en,
+                       lambda r: r["k"] if "k" in r else keys[r["kind"]](r))
+    if errors:
+        return ""
+    E = lambda k: en[k][0]                                                    # noqa: E731
+    lat = {(r["kind"], r["t"], r["ring"], r["side"]): r["text"] for r in cl2}
+    cell = {(r["t"], r["ring"], r["side"]): r["text"] for r in cl if r["kind"] in ("cell", "axis")}
+
+    def latin_num(v):
+        return int(re.sub(r"[^0-9]", "", v)) if re.sub(r"[^0-9]", "", v) else None
+
+    out = [r"\begin{landscape}", head("The figure of the seven climes", "climes", "243"),
+           r"{\centering\footnotesize " + folio_en("F. 196,v.") + r"\par}\smallskip",
+           r"{\centering\bfseries " + tex(E("243:title:1")) + " " + tex(E("243:title:2")) + r"\par}\medskip"]
+    # the lines of the circle, grouped by the signs whose beginnings they give: (rising line, setting line)
+    groups = (("180", "0"), ("157.5", "22.5"), ("135", "45"), ("112.5", "67.5"), ("202.5", "337.5"),
+              ("225", "315"), ("247.5", "292.5"))
+    printed = {}
+    for r in cl:
+        if r["kind"] == "sign":
+            line = min((float(t) for g in groups for t in g), key=lambda t: abs(t - float(r["t"])))
+            printed.setdefault(f"{line:g}", []).append(SIGNS[r["text"].removeprefix("ال")])
+    p2signs = {r["t"]: r["text"].replace(" / ", ", ") for r in cl2 if r["kind"] == "sign"}
+    spec = "L{34mm}L{24mm}" + "R{6mm}R{6mm}" * 7 + "L{48mm}"
+    out.append(r"{\footnotesize\setlength{\tabcolsep}{3pt}\begin{longtable}{" + spec + "}")
+    span = r"\multicolumn{2}{>{\centering\arraybackslash}p{15mm}}"
+    south, north = [], []
+    for k in range(1, 8):
+        a, b = cell[("90", str(k), "cw")], cell[("90", str(k), "ccw")]
+        ordinal = {"الاول": "first", "الرابع": "fourth", "السابع": "seventh"}
+        south.append(f"The {ordinal[b]} clime" if a == "الاقليم" else f"{abjad(a)}, {abjad(b)}")
+        h = cell[("270", str(k), "ccw")].split()
+        north.append(f"{abjad(h[0])} h" + (f" {abjad(h[1])} m" if len(h) > 1 else ""))
+    out.append(r"\multicolumn{2}{l}{\bfseries " + tex(E("243:azimuth:91.5")) + "} & " +
+               " & ".join(span + "{" + s + "}" for s in south) + r" & \\")
+    out.append(r"\multicolumn{2}{l}{\bfseries " + tex(E("243:azimuth:271")) + r", its hours} & " +
+               " & ".join(span + "{" + s + "}" for s in north) + r" & \\")
+    out.append(r"\textbf{Signs} & \textbf{Line} & " + " & ".join(["° & ′"] * 7) + r" & \textbf{Notes}\\\hline\endhead")
+    for rise, sett in groups:
+        for t, side in ((rise, "rising"), (sett, "setting")):
+            where = "" if t in ("0", "180") else (", south" if 0 < float(t) < 180 else ", north")
+            signs = ", ".join(printed[t]) if t in printed else "[" + p2signs[t] + "]"
+            nums, notes = [], []
+            for k in range(1, 8):
+                for part, word in (("deg", "degrees"), ("min", "minutes")):
+                    if t in ("0", "180"):
+                        v, p2 = abjad(cell[(t, str(k), "ccw")]), 0
+                    else:
+                        v, p2 = abjad(cell[(t, str(k), part)]), latin_num(lat[("cell", t, str(k), part)])
+                    if v != p2:
+                        notes.append(f"clime {k}, {word}: Part II {p2}")
+                        nums.append(f"{v}†")
+                    else:
+                        nums.append(str(v))
+            out.append("{}" + " & ".join([tex(signs), f"{side}{where}"] + nums + [tex("; ".join(notes))]) + r"\\")
+    out.append(r"\end{longtable}}")
+    # the names in the corners and inside the circle
+    out.append(r"\par\needspace{8\baselineskip}\medskip{\footnotesize\setlength{\tabcolsep}{3pt}"
+               r"\begin{longtable}{L{62mm}L{30mm}L{60mm}L{35mm}}")
+    out.append(r"\textbf{Place in the figure} & \textbf{Name as written} & \textbf{Nallino's reading} & "
+               r"\textbf{Name}\\\hline\endhead")
+    for side, place in (("TL", "upper left corner"), ("TR", "upper right corner"), ("BL", "lower left corner"),
+                        ("BR", "lower right corner")):
+        rows = {r["ring"]: r["text"] for r in cl if r["kind"] == "corner" and r["side"] == side}
+        greek = "2" if side in ("TL", "TR") else "1"
+        label = "1" if greek == "2" else "2"
+        out.append(" & ".join([place + ": " + tex(E(f"243:corner:{side}:{label}")), tex(rows[greek]), "",
+                               tex(E(f"243:corner:{side}:{greek}"))]) + r"\\")
+    for r in sorted((r for r in cl if r["kind"] == "wind"), key=lambda r: (float(r["t"]) - 90) % 360):
+        az = (float(r["t"]) - 90) % 360
+        n = names[f"{az:g}".replace(".5", " 1/2")]
+        place = f"inner circle, {az:g}° from the south ({n['dir']})".replace(".5°", "½°")
+        reading = n["restitution"].rstrip(".").replace("ex genit.", "from the genitive")
+        out.append(" & ".join([place, tex(r["text"].replace("{stroke}", "…")), tex(reading),
+                               tex(E(f"243:wind:{r['t']}"))]) + r"\\")
+    out.append(r"\end{longtable}}")
+    # the astrological figure
+    order = list(SIGNS.values())
+    by = {}
+    for r in ro:
+        by.setdefault((r["kind"], r["sign"]), []).append(r)
+    out.append(r"\clearpage" + head("The astrological figure", "astrological", "244"))
+    out.append(r"{\centering\footnotesize " + folio_en("F. 197,r.") + r"\par}\smallskip")
+    out.append(r"{\centering\bfseries " + tex(E("244:title")) + r"\par}\medskip")
+    spec = "L{30mm}" + "L{15.5mm}" * 12
+    out.append(r"{\footnotesize\setlength{\tabcolsep}{2.5pt}\begin{longtable}{" + spec + "}")
+    out.append(r"& " + " & ".join(r"\textbf{" + s + "}" for s in order) + r"\\\hline\endhead")
+
+    def planet(x):
+        return PLANETS[x]
+    p2t, p2x = {}, {}
+    for r in ro2:
+        if r["kind"] == "term":
+            p2t.setdefault(r["sign"], []).append((int(r["idx"]), latin_num(r["value"])))
+        if r["kind"] == "exalt":
+            p2x[r["sign"]] = latin_num(r["value"])
+    for i in range(5):
+        cells = []
+        for s in order:
+            t = sorted(by[("term", s)], key=lambda r: int(r["idx"]))[i]
+            v = abjad(t["value"])
+            cells.append(f"{planet(t['planet'])} {v}" + ("†" if v != sorted(p2t[s])[i][1] else ""))
+        out.append(("Terms" if i == 0 else "") + " & " + " & ".join(tex(c) for c in cells) + r"\\")
+    out.append(r"\emph{Nallino's degrees} & " + " & ".join(
+        r"\emph{" + " ".join(str(v) for _, v in sorted(p2t[s])) + "}" for s in order) + r"\\")
+    for i, label in ((1, "Triplicities, outer circle"), (2, "Triplicities, inner circle")):
+        cells = [", ".join(planet(p) for p in next(r for r in by[("trip", s)] if r["idx"] == str(i))["text"].split())
+                 for s in order]
+        out.append(label + " & " + " & ".join(tex(c) for c in cells) + r"\\")
+    for i in range(3):
+        cells = [planet(sorted(by[("face", s)], key=lambda r: int(r["idx"]))[i]["planet"]) for s in order]
+        out.append(("Faces" if i == 0 else "") + " & " + " & ".join(tex(c) for c in cells) + r"\\")
+    out.append("Houses & " + " & ".join(tex(planet(by[("house", s)][0]["planet"])) for s in order) + r"\\")
+    ex = []
+    for s in order:
+        x = by[("exalt", s)][0]
+        v = abjad(x["value"])
+        ex.append((planet(x["planet"]) + " " if x["planet"] else "") + str(v) + ("†" if v != p2x[s] else ""))
+    out.append("Exaltations & " + " & ".join(tex(c) for c in ex) + r"\\")
+    out.append(r"\end{longtable}}")
+    out.append(r"{\centering " + tex(E("244:closing")) + r"\par}\smallskip")
+    sums = {s: sum(abjad(t["value"]) for t in by[("term", s)]) for s in order}
+    off = [f"{s} {v}" for s, v in sums.items() if v != 30]
+    notes = [en["244:closing"][1] + ".",
+             r"In the codex the circles of the houses and of the exaltations are drawn as one, and the circle of the "
+             r"triplicities is split in two (Nallino); its outer half names the lord by day first, its inner half the "
+             r"lord by night.",
+             f"In {len(off)} signs the codex's terms do not add up to 30 degrees: " + ", ".join(off) + ". "
+             "Nallino's figure gives Ptolemy's terms, after the Frankfurt version of the Tetrabiblos; the row "
+             "«Nallino's degrees» lists them, planet by planet.",
+             "0 is the codex's zero sign: these signs have no exaltation. Nallino reads 15 for the 14 of Jupiter "
+             "in Cancer.",
+             "Nallino holds that the figure is not al-Battānī's: al-Battānī never mentions it, and it concerns "
+             "judicial astrology only (Part II pp. 308–313)."]
+    out.append(r"{\scriptsize " + r"\par ".join(tex(x) for x in notes) + r"\par}")
+    out.append(r"\end{landscape}")
+    return "\n".join(out)
+
+
 def main():
     sys.stdout.reconfigure(encoding="utf-8")
     errors, parts, built = [], [], []
-    for name, fn in (("notice", notice), ("chronology", chronology), ("geography", geography), ("stars", stars),
-                     ("status_1211", status_1211)):
+    for name, fn in (("notice", notice), ("chronology", chronology), ("geography", geography), ("figures", figures),
+                     ("stars", stars), ("status_1211", status_1211)):
         en = read_en(name)
         if en is not None:
             parts.append(fn(en, errors))

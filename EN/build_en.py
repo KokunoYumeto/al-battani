@@ -347,18 +347,22 @@ def main():
         raise SystemExit(1)
     built = build_tables.main()
     tables = {"notice": "Nallino's notice", "chronology": "the chronological tables",
-              "geography": "the geographical tables", "stars": "the star catalogue",
-              "status_1211": "the tables of the stars for the year 1211"}
+              "geography": "the geographical tables", "figures": "the two figures of pp. 243 and 244",
+              "stars": "the star catalogue", "status_1211": "the tables of the stars for the year 1211"}
     have = [tables[b] for b in built]
-    rest = [v for k, v in tables.items() if k not in built] + ["the two figures of pp. 243 and 244"]
+    rest = [v for k, v in tables.items() if k not in built]
 
     def listed(xs):
         return xs[0] if len(xs) == 1 else ", ".join(xs[:-1]) + " and " + xs[-1]
     if chapters == list(range(58)):
         done = ("This version holds all the canons: the list of chapters, chapters 1 to 57 and the eight short "
                 "chapters without numbers that follow chapter 57 in the Escorial codex (Nallino's A to H)")
-        done += (f"; and of the tables of Part III, {listed(have)}. Still to follow are {listed(rest)}" if have else
-                 ". The names, descriptions and headings of the tables of Part III are to follow")
+        if have and rest:
+            done += f"; and of the tables of Part III, {listed(have)}. Still to follow are {listed(rest)}"
+        elif have:
+            done += f"; and all that Part III prints of the tables: {listed(have)}"
+        else:
+            done += ". The names, descriptions and headings of the tables of Part III are to follow"
     else:
         done = (f"The translation is in progress. This version holds the list of chapters and "
                 f"chapter{'s' if len(chapters) > 2 else ''} {', '.join(str(c) for c in chapters if c)}")
