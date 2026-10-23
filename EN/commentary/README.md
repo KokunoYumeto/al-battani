@@ -2,7 +2,7 @@
 
 Al-Battānī's *Sharḥ Kitāb al-Arbaʿ maqālāt fī aḥkām ʿilm al-nujūm*, the earliest commentary on the *Tetrabiblos* that survives, translated into English from the Arabic of the Escorial manuscript (árabe 969, ff. 20r–80v) as Nadine Löhr transcribed it in *Ptolemaeus Arabus et Latinus* (Bavarian Academy of Sciences and Humanities, 2021, CC BY 4.0) and [S14](../../S14/commentarius/) edits it. No English translation of the commentary had been published; PAL records a partial Italian one of the part on Book III (F. Martorello, 2022).
 
-**Done:** the whole commentary: the title page, chapters 1–40 and the colophon (ff. 20r–79v), all 2,465 lines of the manuscript, and the two tables of ff. 80r–80v. Read [commentary_en.pdf](commentary_en.pdf).
+**Done:** the whole commentary: the title page, chapters 1–40 and the colophon (ff. 20r–79v), all 2,465 lines of the manuscript, and the two tables of ff. 80r–80v, with a glossary of the technical terms. Read [commentary_en.pdf](commentary_en.pdf).
 
 ## How it is made
 
@@ -18,6 +18,7 @@ Al-Battānī's *Sharḥ Kitāb al-Arbaʿ maqālāt fī aḥkām ʿilm al-nujūm*
 |---|---|
 | `text/K##.txt` | one file per chapter (K00 is the title page and the invocation): each block of English with the lines it translates, and its notes; the format is described at the head of `build_commentary.py` |
 | `tables.tsv` | the English of the headings of the two tables and of the names of the signs and planets in them |
+| `glossary.tsv` | the technical terms: the English of this translation, the Arabic and its transliteration, F. E. Robbins's English for Ptolemy's term (with the Greek where Robbins gives it), and what the term means; printed at the end of the PDF |
 | `build_commentary.py`, `make_pdf.py` | check the coverage of the manuscript lines and build the PDF deterministically |
 | `alignment.tsv` | every block of the English with its lines and folios |
 | `checkpoint.json` | the chapters done and a checksum over the chapter files |

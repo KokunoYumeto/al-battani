@@ -343,6 +343,27 @@ def table_tex(errors):
     return "\n".join(out)
 
 
+def glossary_tex():
+    """the glossary of the technical terms, from glossary.tsv"""
+    lines = [x for x in (HERE / "glossary.tsv").read_text(encoding="utf-8").splitlines() if x and not x.startswith("#")]
+    head, rows = lines[0].split("\t"), [dict(zip(lines[0].split("\t"), x.split("\t"))) for x in lines[1:]]
+    if head != ["english", "arabic", "translit", "robbins", "meaning"] or any(len(r) != 5 for r in rows):
+        raise SystemExit("glossary.tsv: bad columns")
+    out = [r"\clearpage\pdfbookmark[1]{Glossary}{glossary}{\large\bfseries Glossary\par}\medskip",
+           r"\noindent{\small " + inline(
+               "The technical terms of the translation, with the Arabic and its transliteration, the English of "
+               "F. E. Robbins for Ptolemy's term in the *Tetrabiblos* (with the Greek where Robbins gives it), and "
+               "what the term means.") + r"\par}\medskip",
+           r"{\footnotesize\begin{longtable}{@{}>{\raggedright}p{44mm}>{\raggedright}p{36mm}>{\raggedright\arraybackslash}p{68mm}@{}}",
+           r"\emph{This translation} & \emph{Ptolemy (Robbins)} & \emph{Meaning} \\[2pt]\endhead"]
+    for r in rows:
+        out.append(r"\textbf{" + inline(r["english"]) + r"}\newline " + inline(r["arabic"]) + r"\newline\emph{" +
+                   inline(r["translit"]) + "} & " + inline(r["robbins"]) + " & " + inline(r["meaning"]) +
+                   r" \\[3pt]")
+    out.append(r"\end{longtable}}")
+    return "\n".join(out), len(rows)
+
+
 def main():
     sys.stdout.reconfigure(encoding="utf-8")
     rows = read_tsv(S14 / "anchors.tsv")
@@ -380,7 +401,8 @@ def main():
         for e in errors:
             print("ERROR", e)
         raise SystemExit(1)
-    body.append(tables)
+    gloss, n_terms = glossary_tex()
+    body += [tables, gloss]
     for fol, tab in (("80r", "AB03-F080r-T01"), ("80v", "AB03-F080v-T01")):
         align.append((f"EN-T{fol}", "", "table", tab, tab, fol, 0))
     done_all = chapters == list(range(41))
