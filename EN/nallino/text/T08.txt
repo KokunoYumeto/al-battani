@@ -1,0 +1,122 @@
+@unit T08
+@h 0654b001
+On pp. 29–32: the mean syzygies for Egyptian years
+@p 0654b002
+The author has partly explained the use of the tables in ch. XLII (vol. I, pp. 92–93).
+@p 0654b003..0654b011
+In these tables, strangely, *Egyptian* years (or *wandering* years, without the Julian intercalation) appear joined with the era of Dhū l-Qarnayn, which elsewhere is always computed in *fixed Julian* years. When the tables are looked at attentively, it appears quite certainly that these wandering years are counted from Dhū l-Qarnayn, but that 1 Thōth, the beginning of the year, always coincides with 1 Thōth of the years of Nabonassar used by Ptolemy in the *Almagest*; so 1 Thōth of the first year from Dhū l-Qarnayn was 1 Thōth 437 of Nabonassar, 9 November 312 BC, that is, 69 days after the beginning of the era of Dhū l-Qarnayn in al-Battānī's usage. Plainly al-Battānī made this table for the use of those who wished to use the *wandering Egyptian* years of Nabonassar with Ptolemy; but why he preferred to count them from Dhū l-Qarnayn I do not know.
+@p 0654b012..0654b019
+Confusion may also arise from the name «*months of the Copts*» that occurs on p. 31. For according to vol. I, p. 67, ll. 19–20, the *Coptic year* is fixed, and its 1 Thōth (I, p. 68, ll. 23 ff., and p. 69, ll. 7–21) always falls on 29 August; moreover, as I have set out in the note in vol. I, pp. 244–45, al-Battānī's *era of the Copts* is a certain era of Augustus, or Alexandrian era, also used by Theon, with fixed years, whose beginning was 29 August 25 BC, or 287 years, less 3 days, after the era of Dhū l-Qarnayn. Here, however, the months are those of the *wandering* years, which strangely he also calls *years of the Copts* in vol. I, p. 70, ll. 30 ff., adding that they «are Egyptian years from Dhū l-Qarnayn»; and they are taken in the same sense in the precepts for computing the syzygies (vol. I, pp. 92–93).
+@p 0654b020..0654b028
+It should also be noted that 29 August 25 BC, the beginning of the era of the Copts, or of Augustus, is the first day of Thōth of the year 724 of Nabonassar, 300 of Arrhidaeus, or of the death of Alexander, and the beginning of the year 287 from Dhū l-Qarnayn in the Coptic way of beginning the year (from 29 August). So in vol. I, pp. 70 and 92–93, to convert the wandering years of the Copts counted from Dhū l-Qarnayn into fixed years, al-Battānī bids us take 287 from the given years and divide the remainder by 4. Indeed the beginning of the year 287 of Dhū l-Qarnayn, in the *Coptic* way of beginning, falls on 29 August both in the wandering and in the fixed years, as it does also in the three following years; this will afterwards happen again only in the four years of which the first is the year 287 + 365 × 4 = 1747 of Dhū l-Qarnayn. Al-Battānī's tables do not reach that year.
+@p 0654b029
+The columns of the tables give the following:
+@p 0654b030
+I. The given years or months, with which one must enter the tables.
+@p 0654b031..0654b032
+II. The days of the first Egyptian month (Thōth), and the sixtieths of the days, at which the first mean conjunction or opposition of the given year happens.
+@p 0654b033
+III. The mean longitude of the sun at the moment of time given in II.
+@p 0654b034
+IV. The mean anomaly of the moon at the same moment.
+@p 0654b035
+V. The argument of latitude of the moon, or its distance from the northern node.
+@p 0654b036..0654b041 + 0655b001..0655b004
+Ptolemy[^654.1] gives in III not the mean longitude of the sun but the distance (ἀποχή) of the sun from the apogee, which he wrongly thought fixed at 65° 30′; in V the argument of latitude of the moon counted from the northern limit (= longitude of the node + 90°). In the rest the construction of the tables is the same in both; but the elements for the collected years differ a little, because of the different motion of the sun in al-Battānī's tables and because of the interval of longitude between the city of Alexandria and al-Raqqa. Ptolemy set out his elements in VI, 2 (ed. Halma, vol. I, pp. 374–78), which see also in Delambre, *Histoire de l'astronomie ancienne*, vol. II, pp. 223–24; al-Battānī does not give his. To find the size of the discrepancy I compute, by the *Almagest*, the first conjunction of the *wandering* year 915 of Dhū l-Qarnayn, 1351 of Nabonassar. The last year of Ptolemy's table is 1101 of Nabonassar;
+@f 654.1 0654nl001..0654nr002
+His tables are in the *Almagest* VI, 3 (ed. Halma, vol. I, pp. 378–83); their use, and the conversion of the mean syzygies into true ones, is taught afterwards in VI, 4 (Halma, I, 384–87).
+@t spec=lrrrrl 0655b005..0655b007
+first conjunction of the year 1101 of Nabonassar |  | 22ᵈ | 41′ | 45″ | Thōth
+change in the interval of 250 wandering years | − | 0 | 27 | 51 |
+---
+for 1351 of Nabonassar, 915 of Dhū l-Qarnayn |  | 22ᵈ | 13′ | 54″ | Thōth
+@p 0655b008..0655b009
+In vol. I, p. 42, ch. XXVII, al-Battānī puts the difference in time between Alexandria and al-Raqqa at «about 2/3 of an equinoctial hour», or 10°, or 0ᵈ 1′ 40″; so
+@t spec=lrrrrl 0655b010..0655b014
+ |  | 22ᵈ | 13′ | 54″ |
+ | + | 0 | 1 | 40 |
+---
+for the meridian of al-Raqqa, according to Ptolemy |  | 22ᵈ | 15′ | 34″ |
+according to al-Battānī's table |  | 22 | 14 | 44 |
+---
+difference from Ptolemy | − | 0ᵈ | 0′ | 50″ | = − 0ʰ 20ᵐ.
+@p 0655b015..0655b017
+If we take the difference of longitude between Alexandria and al-Raqqa as 12° 45′ = 0ʰ 51ᵐ = 0ᵈ 2′ 7″.5, as is deduced from al-Battānī's geographical tables (vol. II, nos. 109 and 150), the difference in the conjunction becomes − 0ᵈ 1′ 17″.5 = − 0ʰ 31ᵐ.
+@p 0655b018..0655b024
+**Pp. 29–30**, for the *collected years*. Following Ptolemy's example, he chose periods of 25 years, because 25 wandering years (or 9125 days) contain almost exactly 309 lunations; the difference to be taken from those 9125 days reaches only 0ᵈ 2′ 47″ 5‴, or 0ᵈ 1ʰ 6ᵐ 50ˢ, so that through many periods of 25 wandering years there will be only one conjunction and one opposition in the month of Thōth of the first year of the period, and the times of such conjunctions or oppositions will differ only a little from one another. — The table of the oppositions is made by taking half a lunation, or 14ᵈ 45′ 55″, from the days of the conjunctions, and the motions answering to this half lunation from the motions of the conjunctions.
+@p 0655b025..0655b037
+**P. 31**. — [Of the three small tables that this page contains, one, namely that of the *months*, is necessary, and is also given in the *Almagest* (VI, 3, ed. Halma vol. I, p. 383). — The *first* is useless; for who will ever compute by quarters of an Egyptian or Coptic month, that is, by 7 1/2 days? — The *last*, for intervals of years counted from any moment of time, is of little use; moreover its last column had plainly been filled in in the codex by an unskilled reader, for the motion of the latitude of the moon had been computed as if it were 108° 47′ 19″ 1/2 in the interval of 100 wandering years, instead of the 108° 48′ 23″ 1/2 that are drawn from al-Battānī's tables on pp. 29–30. I have computed it again, so that it agrees with al-Battānī's elements. — I suspect that the first and the last small table are *spurious*; similar ones, however, are found on p. 87[^655.1]. The headings of the columns of the last mean that for future time the numbers of the days are to be subtracted and those of the motions added. — Schiaparelli.] — In the last line of the first small table «mensis» is to be read for «monsis». The first and second small tables are the same as on p. 87, with two small discrepancies: under 1/4 of a month, here 57″, there 58″, in the days; under the 3rd month (Ayyār), here 1″, there 0″, in the anomaly of the moon.
+@f 655.1 0655n001
+Likewise in the Spanish version, ff. 41v and 56v.
+@p 0655b038..0655b041 + 0656b001..0656b006
+**P. 32**, for the *single years*. It agrees exactly with Ptolemy's table, VI, 3 (ed. Halma vol. I, p. 382); its computation is very easy. The excess of 13 lunations over the 365 days of the wandering year is 18ᵈ 53′ 51″ 43‴; so if we call A the days of the month of Thōth, and the sixtieths of a day, answering to the first new moon (or full moon) of some year, the first new moon (or full moon) of the following year will happen at the time A + 18ᵈ 53′ 52″. If this exceeds a whole lunation, or 29ᵈ 31′ 50″, it will be the second new moon of the month of Thōth, or (if it exceeds 30 days) the new moon of the following month; then, to find the first conjunction or opposition of the year, one must take a lunation from the sum, and from the motions of the other columns the motions answering to a lunation. — In the column of the days are to be corrected: 40″ for 50″ under the year 6, 39″ for 29″ under 11, 24″ for 34″ under 14, 23″ for 13″ under 19.
+@p 0656b007..0656b018
+*The limits of the eclipses* (ὅροι ἐκλειπτικοί). — Al-Battānī states in chs. XLII and XLIV (vol. I, pp. 96 and 104) that he has given them «on the page of the months of the syzygies», and in that place indeed the limits occur in the Spanish version (ff. 41v and 56v); but the Escorial codex gives them here, under the table of the single years, and on p. 88. Ptolemy gave his in the table of the syzygies for the single years, teaching their computation afterwards (VI, 5, ed. Halma vol. I, pp. 388–96); because of the different equation of the sun and the different angular diameters of the luminaries and of the shadow, the *Ptolemaic* ones necessarily differ from *al-Battānī's*. Since al-Battānī nowhere teaches how he computed the limits, I had tried to correct approximately the numbers of the codex that concern the *solar eclipses*, which are affected by most evident mistakes, choosing the numbers from which the errors of the copyists seemed most easily to have arisen, and keeping as far as possible the proportions of the limits of the Almagest. I give a survey of the corrections, giving first the numbers of the codex contained on this page 32 (f. 172r), then the numbers of the codex on p. 88 (f. 194v), third the numbers I accepted, fourth the explanation of the errors:
+@t spec=lrrrrrrl 0656b019..0656b024
+ | *154°* | 44′ | 159° | 44′ | 159° | 44′ | قند for قنط
+ | *190* | 16 | *167* | 16 | 191 | 16 | قض and قصز for قضا
+---
+ | 0 | 0 | 0 | 0 | 0 | 0 |
+ | 20 | 16 | 20 | 16 | 20 | 16 |
+---
+ | 348 | *57* | *345* | *53* | 348 | 44 | نز and نج for مد; سمه for سمح
+ | 360 | 0 | 360 | 0 | 360 | 0 |
+@p 0656b025..0656b030
+If the emendations were right[^656.1], al-Battānī would have put the distance of the moon from the node needed for the contact of the discs at 20° 16′ to the north and 11° 16′ to the south; Ptolemy at 20° 41′ and 11° 22′. But it is not impossible that for the 191° of my emendation the 190° of the codex should be kept, and then 349° سمط for the codex's سمه 345° (an error very easy in the Maghribi script) and سمح 348°; the distances from the node then become 20° 16′ and 10° 26′. — But I now think that the true numbers *are other than those I had accepted in printing the tables.*
+@f 656.1 0656nl001..0656nr003
+I add the numbers of the Spanish version, f. 41v, noting in parentheses the discrepancies of f. 56v. Limits of the eclipses of the sun: 159° 44′ – 197° 16′ (190° 57′), 0° – 20° 16′, 348° 21′ (348° 57′) – 360°. Limits of the moon: 165° 53′ (165° 13′) – 194° 47′, 0° – 14° 47′, 345° 13′ – 360°.
+@p 0656b031..0656b039
+That the reason for the doubt in emending may appear better, I shall set out the method by which Ptolemy fixed the limits of the *solar eclipses*. Let Σ be the sum of the semidiameters of the sun and the moon in eclipses, or the distance of the centres needed for a contact. The parallax of the moon cannot be neglected; Ptolemy considers that the greatest parallax in latitude that can occur in all the seven climes of the earth, contained between Meroë (whose longest day is 13ʰ) and the mouths of the Borysthenes (where the longest day is 16ʰ), is 58′ to the south and 8′ to the north; and that the greatest lunar parallaxes in longitude are then 15′ (in Scorpio and Pisces) and 30′ (in Leo and Gemini). So the apparent latitude of the moon needed for a contact will be at most Σ + 58′ for the northern moon and Σ + 8′ for the southern. From these latitudes, by the tables or by the rule
+@m 0656b040
+\text{sin dist. \MoonSym\ from the northern node} = R\,\frac{\text{sin given lat. \MoonSym}}{\text{sin greatest lat. \MoonSym}}\,,
+@p 0657b001..0657b004
+the apparent distances Δ and Δ′ of the moon from the node, or the places of the *apparent* conjunction, are deduced. Let the true conjunction be still to come; let the parallaxes in longitude (15′ for the southern moon, 30′ for the northern)[^n] be added to the distances Δ and Δ′; the distances D and D′, or the true places of the *true* conjunction, will come out. Let the mean conjunction be still to come; let the quantity
+@n These are interchanged. In the computations of the next page the 15′ of longitude go with the 58′ of latitude and give the northern limit, the 30′ with the 8′ and the southern limit; so also with Ptolemy's own numbers, 17° 27′ + 15′ + 3° = 20° 42′ and 7° 52′ + 30′ + 3° = 11° 22′, his northern and southern limits of 20° 41′ and 11° 22′.
+@m 0657b005
+[[(α)]] \text{greatest equation \SunSym} + \frac{\text{greatest eq. \SunSym} + \text{greatest simple eq. \MoonSym}}{12}\,,
+@p 0657b006..0657b008
+which Ptolemy took to be the greatest difference of longitude that can fall between the true place of the true conjunction and the mean place of the mean one, be added to the distances D and D′; the greatest distances of the moon from the node in the *mean* conjunctions, or the *limits of the solar eclipses*, will come out.
+@p 0657b009..0657b014
+So Ptolemy, who, however, Regiomontanus[^657.1] points out, erred in computing D and D′; for not the parallaxes in longitude were to be added, but a twelfth of them, because in the time in which the moon runs through the space of the parallax in longitude the sun completes a twelfth of it. — Al-Battānī, ch. XXX (vol. I, p. 58), puts the greatest angular semidiameter of the sun in eclipses at 16′ 50″, the greatest of the moon at 17′ 40″; so the sum of the semidiameters is 34′ 30″. Had he used *Ptolemy's parallaxes*, he would have found
+@f 657.1 0657nl001..0657nl003
+I. de Monteregio and G. Purbachius, *Epitome in Cl. Ptolemaei magnam compositionem*, Basel 1543, book VI, prop. VII, p. 118.
+@t spec=lrcrcr 0657b015..0657b016
+the latitude of the southern ☾ | 34′ 30″ | + | 58′ 0″ | = | 1° 32′ 30″
+the latitude of the northern ☾[^n] | 34′ 30″ | + | 8′ 0″ | = | 0° 42′ 30″,
+@n The labels of these two rows are interchanged: the 58′ belong to the northern moon, as the text says above and as the apparent latitudes «1° 31′ 20″ to the north, 0° 41′ 20″ to the south» below; see the note above on the parallaxes in longitude.
+@p 0657b017..0657b019
+to which latitudes the distances from the node 17° 58′ 48″.6 and 8° 9′ 16″ answer[^657.2]. To al-Battānī the greatest equation of the sun is 1° 59′ 10″, the greatest simple equation of the moon 5° 1′; so (α) is 2° 34′ 10″. Hence the distances will come out:
+@f 657.2 0657nl004..0657nr004
+So by the logarithmic tables and by al-Battānī's formula mentioned on the previous page. From al-Battānī's tables, vol. II, p. 78, in which the interpolation is rougher because of the interval of 1° in the argument of the tables, 17° 59′ 48″ and 8° 9′ 18″.
+@t spec=rrcrrcrrcrrcrr 0657b020..0657b024
+! <5> by Ptolemy's method |  | <5> by the same, corrected
+17° | 59′ |  | 8° | 9′ |  | 17° | 59′ |  | 8° | 9′
+ | 15 |  |  | 30 |  |  | 1 |  |  | 3
+2 | 34 |  | 2 | 34 |  | 2 | 34 |  | 2 | 34
+---
+20° | 48′ |  | 11° | 13′ |  | 20° | 34′ |  | 10° | 46′
+@p 0657b025..0657b034
+But the distances computed by either method do not agree with the numbers of the codex. I shall take up the computations again, supposing that al-Battānī neglected the small difference he had found in the semidiameter of the sun and used the *Ptolemaic* amount (15′ 40″); the sum of the semidiameters is then 15′ 40″ + 17′ 40″ = 33′ 20″. Let the parallaxes in latitude, 58′ and 8′, be added to it; the apparent latitudes 1° 31′ 20″ to the north and 0° 41′ 20″ to the south will come out, as in the *Almagest*. From them the apparent distances from the node 17° 44′ 45″ and 7° 55′ 45″ are deduced by our logarithmic tables, 17° 45′ 42″ and 7° 55′ 45″ by al-Battānī's tables. But let us suppose that al-Battānī accepted the amounts that Ptolemy had found by a rougher computation, 17° 27′ and 7° 52′. To these latitudes let the parallaxes in longitude, 15′ and 30′, be added; to each sum let the quantity (α) be added according to *al-Battānī's* equations of the luminaries, that is, 2° 34′ (according to Ptolemy's equations 3°); there will come out
+@t spec=rcrcrcr 0657b035..0657b036
+17° 27′ | + | 0° 15′ | + | 2° 34′ | = | 20° 16′
+7° 52′ | + | 0° 30′ | + | 2° 34′ | = | 10° 56′.
+@p 0657b037..0657b038 + 0658b001..0658b002
+The first number agrees exactly with the northern limits of the codex; the second agrees with the southern ones if نو 56′ is restored for يو 16′ of the codex, د 4′ for نج 53′ and نز 57′ of the codex, and سمط 349° (as I had already proposed above) for سمه 345° and سمح 348° of the codex. — I ask therefore that here and on p. 88 *the limits of the eclipses of the sun be corrected thus:*
+@t spec=lrrcrrrcrrr 0658b003..0658b004
+ | 159° | 44′ |  |  | 0° | 0′ |  |  | *349°* | *4′*
+ | *190* | *56* |  |  | 20 | 16 |  |  | 360 | 0
+@p 0658b005..0658b006
+Regiomontanus, loc. cit., states that al-Battānī found 20° 12′ and 10° 40′; how he computed these numbers I do not know. — Ḥabash, ff. 122r and 133r, kept Ptolemy's limits.
+@p 0658b007
+*The limits of the eclipses of the moon* could be restored with full certainty:
+@t spec=lrrrrrrl 0658b008..0658b013
+ | 165° | … | *355°* | *53′* | 165° | 13′ | سنه wrongly for قصه, and نج for يج
+ | 194 | 47 | *167* | *44* | 194 | 47 | قصز wrongly for قضد, and مد for مز
+---
+ | 0 | 0 | 0 | 0 | 0 | 0 |
+ | 14 | 47 | 14 | 47 | 14 | 47 |
+---
+ | 345 | *53* | 345 | *53* | 345 | 13 | نج wrongly for يج
+ | 360 | 0 | 360 | 0 | 360 | 0 |
+@p 0658b014..0658b022
+From this it is clear that al-Battānī put the greatest distance of the moon from the node in the *mean* oppositions, for a contact with the shadow, at 14° 47′. The computation is easy. In eclipses he found (vol. I, p. 58) the greatest semidiameter of the moon to be 17′ 40″, the greatest of the shadow 46′ 0″; their sum is 1° 3′ 40″, to which latitude the distance from the node 12° 16′ 23″ answers by our logarithmic tables, 12° 16′ 25″ by al-Battānī's tables, vol. II, p. 78. No doubt al-Battānī accepted the rougher value 12° 13′, very near the 12° 12′ of the *Almagest*; with the quantity (α), or 2° 34′, added to it, 14° 47′ come out. — Strangely Regiomontanus, VI, 8, p. 119, by a conjecture of his own: «Albategni, however, says that the limit is 14 degrees 15 minutes». — Ḥabash, f. 122r, keeps Ptolemy's amount, that is, 15° 12′ from the node.
