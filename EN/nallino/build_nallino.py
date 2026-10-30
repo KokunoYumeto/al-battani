@@ -2,7 +2,8 @@
 line-anchored Latin transcriptions and write the TeX.
 
 The Latin is read from the anchors.tsv of the transcriptions (one printed line per row: anchor, printed page, section,
-transcription): S03/versio and S04/versio (Part I, pp. 110-327), and, as their units are added, the other parts.
+transcription): S03/versio and S04/versio (Part I, pp. 110-327) and S07/adnotationes (the notes on the tables, Part II,
+pp. 189-317, whose rows may hold a whole TeX table over several lines, escaped as the csv writer escapes them).
 units.tsv lists the units in the order of the edition: unit, part, title, and its lines (RANGES, as below; no line is
 in two units). Each unit is one file text/<unit>.txt:
   @unit ID
@@ -14,7 +15,7 @@ in two units). Each unit is one file text/<unit>.txt:
   @m RANGES                   display formulas, one per line, in TeX math; a line may begin with [[label]]
   @t [spec=lrr] RANGES        a table: one row per line, cells separated by " | "; a row beginning "! " is a heading
   @f KEY RANGES               one of Nallino's footnotes; the block that calls it has [^KEY] where his number stands
-  @fig FILE ANCHOR            a redrawn figure of S03 or S04 (figures/FILE.tex) and its anchor in the transcription
+  @fig FILE ANCHOR            a redrawn figure of S03, S04 or S07 (figures/FILE.tex) and its anchor in the transcription
                               (AB01-PDF0252-body-F01); a caption may follow
   @n TEXT                     a translator's note to the block before it
 RANGES is FIRST..LAST, or one anchor, or several of these joined by " + ". An anchor is written in full
@@ -34,20 +35,21 @@ from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
 ROOT = HERE.parent.parent
-SOURCES = {"S03": ROOT / "S03" / "versio", "S04": ROOT / "S04" / "versio"}
+SOURCES = {"S03": ROOT / "S03" / "versio", "S04": ROOT / "S04" / "versio", "S07": ROOT / "S07" / "adnotationes"}
+ESCAPED = {"S07"}   # read with the csv writer's escape character: its rows may hold a whole TeX table
 SEC = {"b": "body", "nl": "notes_left", "nr": "notes_right", "n": "notes", "s": "section"}
 csv.field_size_limit(10 ** 8)
 
 
-def read_tsv(path):
+def read_tsv(path, escaped=False):
     with open(path, encoding="utf-8", newline="") as fh:
-        return list(csv.DictReader(fh, delimiter="\t", quoting=csv.QUOTE_NONE))
+        return list(csv.DictReader(fh, delimiter="\t", quoting=csv.QUOTE_NONE, escapechar=chr(92) if escaped else None))
 
 
 def load_sources():
     rows, where = [], {}
     for name, d in SOURCES.items():
-        for r in read_tsv(d / "anchors.tsv"):
+        for r in read_tsv(d / "anchors.tsv", name in ESCAPED):
             where[r["anchor"]] = len(rows)
             rows.append({"anchor": r["anchor"], "page": r["printed_page"], "section": r["section"],
                          "text": r["transcription"], "source": name, "pdf": int(r["anchor"][8:12])})
@@ -178,6 +180,8 @@ def plain(s):
     s = GREEK_RUN.sub(r"{\\greekfont \1}", s)
     s = re.sub(r"([֐-׿][֐-׿\s]*[֐-׿])", r"\\RL{\\hebrewfont \1}", s)
     s = re.sub(r"([܀-ݏ][܀-ݏ\s]*[܀-ݏ])", r"\\RL{\\syriacfont \1}", s)
+    s = re.sub(f"([{chr(0x1200)}-{chr(0x137F)}]+(?: [{chr(0x1200)}-{chr(0x137F)}]+)*)", r"{\\EthiopicFont \1}", s)
+    s = s.replace(chr(0x2E3F), r"{\CapFont " + chr(0x2E3F) + "}")  # the capitulum of the Spanish quotations
     s = COPTIC_RUN.sub(r"{\\CopticFont\\bfseries \1}", s)
     s = re.sub(r"([☉☽☾♈-♓☿♀♂♃♄⊙☊☋])", r"{\\MoonFont\\upshape \1}", s)  # FreeSerif Italic lacks these signs
     s = re.sub("[" + "".join(SUP) + "]", lambda m: r"\textsuperscript{\itshape " + SUP[m.group(0)] + "}", s)
@@ -227,6 +231,7 @@ PREAMBLE = r"""\documentclass[11pt]{article}
 \newfontfamily\greekfont{FreeSerif}[Script=Greek]
 \newfontfamily\hebrewfont{Frank Ruhl Hofshi}[Script=Hebrew]
 \newfontfamily\syriacfont{Segoe UI Historic}[Script=Syriac]
+\newfontfamily\EthiopicFont{Ebrima}
 \newfontfamily\CapFont{Noto Serif}
 \newfontfamily\MoonFont{FreeSerif}
 \newcommand{\MoonSym}{\text{\MoonFont ☾}}\newcommand{\SunSym}{\text{\MoonFont ⊙}}
@@ -259,11 +264,12 @@ def front(done):
         r"them, a glossary and indexes (Part II, 1907). The canons themselves are translated into English from the "
         r"Arabic in the English \emph{Zīj} of this edition; this volume translates Nallino's own writing, which is "
         r"in Latin and has not been translated before. It is made from the line-by-line transcription of his Latin "
-        r"in this edition (S03 and S04). Every sentence is translated, in Nallino's order; nothing is summarised or "
+        r"in this edition (S03, S04 and S07). Every sentence is translated, in Nallino's order; nothing is summarised or "
         r"left out. His Arabic, Greek and Hebrew quotations stand in their scripts, as he prints them, with his "
         r"translations of them in English. Proper names are given in a modern transliteration. In the headings of "
         r"the commentary, «p.» and «l.» are the pages and lines of Nallino's Latin translation (Part I, pp. 1–150); "
-        r"«t. III» is the Arabic text, whose pages the English \emph{Zīj} gives in its margin. Nallino's footnotes "
+        r"«t. III» is the Arabic text, whose pages the English \emph{Zīj} gives in its margin; in the heads of the notes on "
+        r"the tables, «p.» is a page of the tables (Part II). Nallino's footnotes "
         r"are numbered; the few notes of the translator are lettered. Nallino's own corrections in the «Addenda et "
         r"emendanda» of Part II are followed and noted. The pages of Nallino's volumes are given in the margin.",
         r"\par\smallskip\noindent " + done + ". It is AI-translated (Claude), 2026; no person has proofread it. "
@@ -433,8 +439,14 @@ def main():
         for e in errors:
             print("ERROR", e)
         raise SystemExit(1)
-    status = ("The translation is in progress. This version holds " +
-              ", ".join(u["title"] for u in done))
+    held = []
+    for part, name in (("A", "the commentary of Part I"), ("T", "the notes on the tables of Part II")):
+        mine = [u for u in units if u["part"] == part]
+        got = [u for u in done if u["part"] == part]
+        pages = sorted({int(rows[x]["page"]) for u in got for x in u["set"] if rows[x]["page"].isdigit()})
+        if got:
+            held.append(("the whole of " if len(got) == len(mine) else "") + name + f" (pp. {pages[0]}–{pages[-1]})")
+    status = "The translation is in progress. This version holds " + " and ".join(held)
     tex = [PREAMBLE, front(status)] + body + [r"\end{document}"]
     (HERE / "nallino_en.tex").write_text("\n".join(tex) + "\n", encoding="utf-8", newline="\n")
     with open(HERE / "alignment.tsv", "w", encoding="utf-8", newline="\n") as fh:
