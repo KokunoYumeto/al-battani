@@ -160,6 +160,13 @@ def tex_escape(s):
 
 
 SUP = {"ᵖ": "p", "ᵃ": "a", "ᵐ": "m", "ᵈ": "d", "ʰ": "h", "ˢ": "s", "ᵗ": "t"}
+# Greek and Coptic runs as in the Latin edition: the Coptic letters of the Greek block (ϣ, ϩ …) and combining marks
+# belong to the Coptic run, which is set bold, as printed
+_GR = f"{chr(0x370)}-{chr(0x3E1)}{chr(0x3F0)}-{chr(0x3FF)}{chr(0x1F00)}-{chr(0x1FFF)}"
+_CO = f"{chr(0x2C80)}-{chr(0x2CFF)}{chr(0x3E2)}-{chr(0x3EF)}"
+_MARKS = f"{chr(0x300)}-{chr(0x36F)}"
+GREEK_RUN = re.compile(rf"([{_GR}](?:[{_GR}{_MARKS}\s’',.]*[{_GR}])?)")
+COPTIC_RUN = re.compile(rf"([{_CO}][{_CO}{_MARKS}]*)")
 
 
 def plain(s):
@@ -168,10 +175,10 @@ def plain(s):
     s = re.sub(r"\*([^*]+)\*", r"\\emph{\1}", s)
     s = re.sub(r"([؀-ۿݐ-ݿﭐ-﷿ﹰ-﻿][؀-ۿݐ-ݿﭐ-﷿ﹰ-﻿\s«»]*[؀-ۿݐ-ݿﭐ-﷿ﹰ-﻿]|[؀-ۿ])", r"\\RL{\\ArNote \1}", s)
     s = s.replace("\u00a0", "~")  # a no-break space, as between the groups of an abjad number (inside its RL run)
-    s = re.sub(r"([Ͱ-Ͽἀ-῿][Ͱ-Ͽἀ-῿\s’',.]*[Ͱ-Ͽἀ-῿]|[Ͱ-Ͽἀ-῿])", r"{\\greekfont \1}", s)
+    s = GREEK_RUN.sub(r"{\\greekfont \1}", s)
     s = re.sub(r"([֐-׿][֐-׿\s]*[֐-׿])", r"\\RL{\\hebrewfont \1}", s)
     s = re.sub(r"([܀-ݏ][܀-ݏ\s]*[܀-ݏ])", r"\\RL{\\syriacfont \1}", s)
-    s = re.sub(r"([Ⲁ-⳿])", r"{\\CopticFont \1}", s)
+    s = COPTIC_RUN.sub(r"{\\CopticFont\\bfseries \1}", s)
     s = re.sub(r"([☉☽☾♈-♓☿♀♂♃♄⊙])", r"{\\MoonFont\\upshape \1}", s)  # FreeSerif Italic lacks these signs
     s = re.sub("[" + "".join(SUP) + "]", lambda m: r"\textsuperscript{\itshape " + SUP[m.group(0)] + "}", s)
     return s
