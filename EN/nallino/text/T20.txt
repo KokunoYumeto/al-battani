@@ -1,0 +1,141 @@
+@unit T20
+@h 0676b010
+On pp. 84–87: the mean syzygies for the Roman years and months
+@p 0676b011
+The tables are mentioned in vol. I, p. 92, ch. XLII.
+@p 0676b012..0676b016
+Earlier, on pp. 29–32, he had given the mean syzygies for the wandering, or Egyptian, years; now he sets them out for the Roman, or Julian, years of the era of Dhū l-qarnayn. But one must not forget what I said above, on pp. 222–23, and in vol. I, p. 246: that in his tables al-Battānī uses a *fictitious* Roman *year*, which begins on 1 Ādhār (March) of the *chronological year already begun*; so the months from September to the end of February belong in the tables to the earlier year, as this survey will show:
+@t spec=lccc 0676b017..0676b031
+! | in the tables | in common reckoning | years AD
+September | 1190 | beginning of 1191 | 879
+October | 1190 | 1191 | 879
+November | 1190 | 1191 | 879
+December | 1190 | 1191 | 879
+January | 1190 | 1191 | beginning of 880
+February | 1190 | 1191 | 880
+March | <2>1191 | 880
+April | <2>1191 | 880
+May | <2>1191 | 880
+June | <2>1191 | 880
+July | <2>1191 | 880
+August | <2>1191 | 880
+September | 1191 | beginning of 1192 | 880
+@p 0676b032..0676b035
+Hence it is clear why in vol. I, p. 92, he prescribes that the current year is to be counted only when February has already passed, and why in the table of the single years, vol. II, p. 86, he makes leap years of those that can be divided exactly by 4, which is false in the common chronology for the years of Dhū l-qarnayn, or of the Seleucids[^676.1].
+@f 676.1 0676n001..0676n002
+Since the years of this era begin on 1 September or 1 October, the leap years are those which, divided by 4, leave the remainder 3.
+@p 0677b001..0677b003
+They agree very well with the tables of pp. 29–32. The day 1 Thōth 1012 in wandering years falls on 1 Ādhār 1011 (or 1 March 700 AD) in the Roman years of al-Battānī's tables of pp. 84–87; the first mean new moon is then found thus:
+@t spec=lrrrlrrr 0677b004..0677b007
+! <4>from the tables of pp. 29–32 | <4>from the tables of pp. 84–87
+990 wandering years // from the era | 22ᵈ | 6′ | 23″ | 999 Roman years // from the era | 7ᵈ | 22′ | 9″
+22 wandering years | 2 | 19 | 18 | 12 Roman years | 17 | 3 | 31
+---
+1012 wandering years // from the era | 24ᵈ | 25′ | 41″ | 1011 Roman years // from the era | 24ᵈ | 25′ | 40″
+@p 0677b008..0677b009
+But small discrepancies are found from the elements of the *tables of the mean motions*. For from these one derives:
+@p 0677b010
+for *1 Ādhār 1191* (= 1 March 880):
+@t spec=lrrrl 0677b011..0677b013
+mean long. ⊙ | 342° | 48′ | 50″ | or 360° − 17° 11′ 10″
+mean long. ☾ | 165 | 40 | 17 |
+mean elongation ☾ − ⊙ | 182° | 51′ | 27″ | = 658287″.
+@p 0677b014..0677b017
+The mean daily synodic motion of the moon in Ptolemy and in al-Battānī is 12° 11′ 26.67″ = 43886.67″; so $\dfrac{658287''}{43886.67''} = 14^{d}\,59'\,58.9''$ is the interval of time between 1 Ādhār 1191 and the preceding new moon, or mean conjunction. Let this interval be taken from a whole lunation:
+@t spec=lrrr 0677b018..0677b020
+ | 29ᵈ | 31′ | 50″
+− | 14 | 59 | 59
+---
+ | 14ᵈ | 31′ | 51″
+@p 0677b021..0677b022
+which is the moment of the month Ādhār on which the first mean conjunction of the fictitious year 1191 will fall. — Al-Battānī's table, p. 84: 14ᵈ 31′ *49″*; difference −2″ = −48ˢ.
+@p 0677b023
+*For 1 Ādhār 1215* (= 1 March 904):
+@t spec=lrrrl 0677b024..0677b026
+mean long. ⊙ | 343° | 2′ | 14″ | or 360° − 16° 57′ 46″
+mean long. ☾ | 109 | 58 | 57 |
+mean elongation ☾ − ⊙ | 126° | 56′ | 43″ | = 457003″.
+@t spec=llrrrl 0677b027..0677b030
+$\dfrac{457003''}{43886.67''} = 10^{d}\,24'\,47.7''$ |  | 29ᵈ | 31′ | 50″ |
+ | − | 10 | 24 | 48 |
+---
+ |  | 19ᵈ | 7′ | 2″ |
+al-Battānī, p. 84: |  | 19 | 7 | 0 | difference −2″ = −48ˢ.
+@p 0677b031
+*For 1 Ādhār 1239* (= 1 March 928):
+@t spec=lrrrl 0677b032..0677b034
+mean long. ⊙ | 343° | 15′ | 38″ | or 360° − 16° 44′ 22″
+mean long. ☾ | 54 | 17 | 36 |
+mean elongation ☾ − ⊙ | 71° | 1′ | 58″ | = 255718″.
+@t spec=llrrrl 0677b035..0677b038
+$\dfrac{255718''}{43886.67''} = 5^{d}\,49'\,36.4''$ |  | 29ᵈ | 31′ | 50″ |
+ | − | 5 | 49 | 36 |
+---
+ |  | 23ᵈ | 42′ | 14″ |
+al-Battānī, p. 84: |  | 23 | 42 | 11 | difference −3″ = −1ᵐ 12ˢ.
+@p 0678b001..0678b002
+Likewise the numbers of the *other columns* for the collected years differ from those derived from the tables of the mean motions. For[^678.1]
+@f 678.1 0678nl001..0678nr003
+The tables of the mean motions give not the motion of the moon in latitude but the retrograde motion of the node; if the motion in longitude is added to it, the motion in latitude (ἡ κατὰ πλάτος κίνησις) results. And in the conjunctions, plainly, the longitude of the moon does not differ from the longitude of the sun.
+@p 0678b003
+*for Ādhār 1191*, 14ᵈ 31′ 49″ = 14ᵈ 12ʰ 43ᵐ 36ˢ:
+@t spec=lrrrrrrrrr 0678b004..0678b013
+! | <3>mean long. ⊙ | <3>mean anom. ☾ | <3>motion in lat. ☾
+1191 from the era | 342° | 48′ | 50″ | 108° | 20′ | 0″ | 176° | 23′ | 0″
+14 days | 13 | 47 | 56 | 182 | 54 | 35 | 0 | 44 | 29
+12 hours | 0 | 29 | 34 | 6 | 31 | 57 | 0 | 1 | 35
+43.5 minutes | 0 | 1 | 47 | 0 | 23 | 40.7 | 0 | 0 | 5.6
+---
+ | 357° | 8′ | 7″ | 298° | 10′ | 12.7″ | 177° | 9′ | 9.6″
+ |  |  |  |  |  |  | + 357 | 8 | 7
+ |  |  |  |  |  |  | 174° | 17′ | 16.6″
+al-Battānī | 357° | 7′ | 39″ | 298° | 3′ | 41″ | 174 | 17 | 21
+difference |  |  | − 28″ |  | − 6′ | 32″ |  |  | + 4″
+@p 0678b014
+*for Ādhār 1215*, 19ᵈ 7′ 0″ = 19ᵈ 2ʰ 48ᵐ:
+@t spec=lrrrrrrrrr 0678b015..0678b024
+1211 from the era | 343° | 0′ | 0″ | 148° | 1′ | 59″ | 203° | 11′ | 23″
+4 years | 0 | 2 | 14 | 7 | 56 | 23 | 77 | 21 | 41
+19 days | 18 | 43 | 38 | 248 | 14 | 5 | 1 | 0 | 23
+2 hours | 0 | 4 | 56 | 1 | 5 | 19 | 0 | 0 | 16
+48 minutes | 0 | 1 | 58 | 0 | 26 | 7.7 | 0 | 0 | 6
+---
+ | 1° | 52′ | 46″ | 45° | 43′ | 54″ | 281° | 33′ | 49″
+ |  |  |  |  |  |  | + 1 | 52 | 46
+ |  |  |  |  |  |  | 283° | 26′ | 35″
+al-Battānī | 1° | 52′ | 17″ | 45° | 37′ | 24″ | 283 | 26 | 38
+difference |  |  | − 29″ |  | − 6′ | 30″ |  |  | + 3″
+@p 0678b025
+*for Ādhār 1239*, 23ᵈ 42′ 11″ = 23ᵈ 16ʰ 52ᵐ 24ˢ:
+@t spec=lrrrrrrrrr 0678b026..0678b035
+1231 from the era | 343° | 11′ | 10″ | 187° | 43′ | 58″ | 229° | 59′ | 47″
+8 years | 0 | 4 | 28 | 15 | 52 | 48 | 154 | 43 | 21
+23 days | 22 | 40 | 11 | 300 | 29 | 41 | 1 | 13 | 5
+16 hours | 0 | 39 | 25 | 8 | 42 | 36 | 0 | 2 | 7
+52.5 minutes | 0 | 2 | 9 | 0 | 28 | 34.6 | 0 | 0 | 6.8
+---
+ | 6° | 37′ | 23″ | 153° | 17′ | 38″ | 25° | 58′ | 27″
+ |  |  |  |  |  |  | + 6 | 37 | 23
+ |  |  |  |  |  |  | 32° | 35′ | 50″
+al-Battānī | 6° | 36′ | 55″ | 153° | 11′ | 7″ | 32 | 35 | 56
+difference |  |  | − 28″ |  | − 6′ | 31″ |  |  | + 6″
+@p 0678b036
+I do not rightly understand the cause of all these discrepancies.
+@p 0679b001..0679b006
+**Pp. 84–85**, for the *collected years*. Given the first line of numbers, the other numbers are found by always adding 4ᵈ 35′ 11″ in the column of the days, and in the other columns the mean motions answering to this interval of time; but if the sum of the days exceeds a whole lunation (29ᵈ 31′ 50″), the new moon found will be the second new moon of the month Ādhār or the first of the following month, so that a whole lunation must be taken from the sum, and from the motions of the other columns the motions answering to a lunation.
+@p 0679b007..0679b010
+**P. 86**, for the *single years*. Let A be the moment at which the first new moon of Ādhār occurred in any year; in the following year the new moon of Ādhār will be A + 18ᵈ 53′ 52″ if the following year is common, or A − 1ᵈ + 18ᵈ 53′ 52″ if the following year is a leap year; as always, when the sum exceeds the length of a lunation (29ᵈ 31′ 50″), the lunation and the motions answering to it must be taken away. —
+@p 0679b011..0679b030
+**[**For year 11 the codex gives 28ᵈ 9′ 39″, 358° 32′ 6″, 271° 4′ 19″, 211° 11′ 43″; for year 22 the codex has 26ᵈ 19′ 18″, 357° 4′ 18″, 182° 8′ 39″, 62° 23′ 27″. The inept interpolator took these numbers from the table on p. 32, not understanding the difference between the table for the wandering years and the table for the Julian years. For, because of the leap years, the whole days of the second column in the table of the Roman years lose a day every fourth year with respect to the table of the Egyptian years; that is, the beginning of the month, which in the first year was one and the same in both tables, shows a difference of one day every fourth year, of two days after eight years, of three after twelve years, and so on. So it can happen that the new moon of Thōth of the Egyptian table does not fall in the month Ādhār of the Roman table but in the month Subāṭ (February). This happens in the eleventh year of the tables. In the Egyptian tables, adding 18ᵈ 53′ 52″ to 11ᵈ 47′ 37″, one gets 30ᵈ 41′ 29″ for the new moon of Thōth, plainly exceeding the days of Thōth; so, a lunation being taken away, the new moon of Thōth 1ᵈ 9′ 39″ remains (the 29″ is a misprint of the compositor). But in the Roman calendar this new moon belongs to Subāṭ (February); for to the 9ᵈ 47′ 37″ of the Roman table must be added, because of the following leap year, 17ᵈ 53′ 52″, whence Ādhār 28ᵈ 41′ 29″ results[^n], from which nothing is to be taken away. — The case is similar in year 22. These differences would become ever more frequent if the tables were carried beyond 24 years; after 120 years Thōth would leave the month Ādhār, or March, altogether (with which at the beginning it had the first day and the new moon in common), so that the moons of Ādhār would all become different from the moons of Thōth. Not noticing this, the interpolator had wrongly thought that the Roman table had to be corrected after the Egyptian one and Ptolemy[^679.1], although he had kept the whole days of the second column as they arose from the leap years. — Schiaparelli.**]**
+@n 9ᵈ 47′ 37″ + 17ᵈ 53′ 52″ make 27ᵈ 41′ 29″. The 28ᵈ 41′ 29″ of the text follows with 18ᵈ 53′ 52″, the step for a common year, and by the rule above year 11 is a common year.
+@f 679.1 0679n001
+The Spanish version, f. 56r, follows this interpolated copy.
+@p 0679b031..0679b033
+In the seconds of the days answering to year 6, 50″ should be restored for 40″, as printed. — The seconds in col. III differ somewhat (about 2″) from the seconds of p. 32; al-Battānī seems to have computed this column anew, perhaps with a slightly different daily motion of the elongation.
+@p 0679b034..0679b036
+**P. 87**, for the *months*, etc. See what was set out on p. 206 about the three similar tables (p. 31). In the third small table, which teems with errors in the codex (above all in the last column), these slips must be corrected, as Schiaparelli tells me:
+@t spec=l>{\raggedright\arraybackslash}p{9.4cm} 0679b037..0679b040
+2nd number of the last column: | read 52″ for 54″ (codex و 6″!)
+5th number of col. IV: | read 184° قفد for 189° قفط; of the last column 51′ for 56′ (codex يح 18′!)
+6th number of the last column: | read 275° 48′ 22″ for 306° 28′ 36″ (codex 275° 4′ 10″)
+7th number of the last column: | read 321° 45′ 17″ for 23° 5′ 45″ (codex 291° 0′ 40″!).
