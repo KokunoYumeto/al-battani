@@ -159,7 +159,7 @@ def tex_escape(s):
             .replace("~", r"\textasciitilde{}"))
 
 
-SUP = {"ᵖ": "p", "ᵃ": "a", "ᵐ": "m", "ᵈ": "d", "ʰ": "h", "ˢ": "s", "ᵗ": "t"}
+SUP = {"ᵖ": "p", "ᵃ": "a", "ᵐ": "m", "ᵈ": "d", "ʰ": "h", "ˢ": "s", "ᵗ": "t", "ʳ": "r"}
 # Greek and Coptic runs as in the Latin edition: the Coptic letters of the Greek block (ϣ, ϩ …) and combining marks
 # belong to the Coptic run, which is set bold, as printed
 _GR = f"{chr(0x370)}-{chr(0x3E1)}{chr(0x3F0)}-{chr(0x3FF)}{chr(0x1F00)}-{chr(0x1FFF)}"
