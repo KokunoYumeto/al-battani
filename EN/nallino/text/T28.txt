@@ -1,0 +1,212 @@
+@unit T28
+@h 0696b009
+On pp. 140–141: the latitudes of the planets
+@p 0696b010..0696b014
+The author deals with these tables in ch. XLVII (vol. I, pp. 115–116); they are taken from the *Almagest*, XIII, 5 (ed. Halma, vol. II, pp. 412–13). In Halma's edition the slant of Mercury under 30° or 330° is wrongly 45′ for 55′; on the minutes of the greatest southern latitude of Saturn (ed. Halma 3° 4′) see vol. I, p. 116, note 8. — In the last column of p. 141 I wrote *degrees* and *minutes*, relying on the Escorial codex; but they are *minutes* and *seconds*.
+@p 0696b015
+I spoke of the inscription on the right side of p. 140 in vol. I, p. 282.
+@p 0696b016..0696b018
+Ptolemy sets out the doctrine of the latitudes of the planets, which is extremely involved, very obscurely in XIII, 1–6 (ed. Halma, vol. II, pp. 367–416); I shall now try to explain it briefly, so that the construction of the tables may be clear.
+@p 0696b019..0696b031
+Let us begin with the *three superior planets*, whose latitude consists of two parts: the inclination of the plane of the deferent to the plane of the ecliptic, and the inclination of the plane of the epicycle to the plane of the deferent[^696.2]. The first is unchanging; the second variable, for the true apogee (and perigee) of the epicycle describes a certain small circle (κυκλίσκος), perpendicular to the plane of the deferent and having its centre on the circumference of the deferent, under this law: it completes half the circumference of the small circle while the centre of the epicycle passes from one of the nodes (that is, from one of the places where the deferent and the plane of the ecliptic intersect) to the other. Hence it follows that the true apogee (and perigee) travels round the small circle with an unequal motion, and completes its revolutions with uniform motion not about the small circle's own centre but about another point, which lies off the centre of the small circle in the same proportion as the centre of the deferent lies off the centre of the earth[^696.3]. When the centre of the epicycle stands at the nodes, the line of the apogee and perigee of the epicycle coincides with the plane of both the deferent and the ecliptic; outside the nodes the apogees of the epicycle always lie between the plane of the deferent and the plane of the ecliptic, the perigees beyond the plane of the deferent. Hence it is clear that the greatest latitude befalls the superior planets at the true perigee of the epicycle.
+@f 696.2 0696nl002..0696nl004
+They are counted on the great circle perpendicular to the plane of the ecliptic that passes through its poles; *Almag.* XIII, 3 (ed. Halma, vol. II, pp. 375–76).
+@f 696.3 0696nl005..0696nr002
+*Almag.* XIII, 2 (ed. Halma, vol. II, p. 373): τὰς μέντοι πρὸς ὁμαλὴν κίνησιν περιφορὰς οὐ περὶ τὸ ἴδιον κέντρον ἔχουσιν ἀποτελουμένας, περί τι δὲ ἕτερον τὸ ποιῆσον τὴν αὐτὴν ἐκκεντρότητα πρὸς τὸν κυκλίσκον τῇ κατὰ μῆκος τοῦ ἀστέρος πρὸς τὸν διὰ μέσων τῶν ζωδίων κύκλον («but they have their revolutions of uniform motion completed not about their own centre, but about another point, which will produce the same eccentricity with respect to the small circle as that of the star in longitude with respect to the circle through the middle of the zodiac»).
+@p 0696b032..0696b036 + 0697b001..0697b003 + 0697b004..0697b006
+In a plane perpendicular to the plane of the ecliptic let EB be the common section of these planes, EH the section of the same plane with the plane of the deferent, DHA the section of the perpendicular plane with the plane of the epicycle, E the centre of the earth and of the ecliptic, and H the centre of the epicycle ZDGA. Let the plane of the epicycle be so placed that all straight lines drawn in the surface of the epicycle perpendicular to the diameter DA are parallel to the plane of the ecliptic[^696.4]. Let A be the true apogee of the epicycle and T the place of the planet on the epicycle at a given moment; the arc AT will be the true, or corrected, anomaly ψ. Let the straight line TK be drawn perpendicular to DA (and so parallel to the plane of the ecliptic), and let TL and KB be dropped perpendicular to the plane of the ecliptic; the quadrilateral TKBL will clearly be a rectangle. When the straight lines BL, ET and EL are drawn, the angle TEL will be the *latitude* to be computed. Finally, let KN be drawn perpendicular to EH, and the straight lines TH and EK.
+@f 696.4 0696nr003..0696nr008
+This must be done, for in Ptolemy's hypotheses of the latitudes of the superior planets the diameters that cut the diameters of the apogees and perigees of the epicycles at right angles are necessarily always parallel to the plane of the ecliptic; see *Almag.*, loc. cit. (ed. Halma, vol. II, p. 372).
+@fig AB01-PDF0697-F01 AB01-PDF0697-body-F01
+@p 0697b007..0697b009
+In the triangle HKT, right-angled at K, the angle THK (the true anomaly ψ) and the side HT (the radius of the epicycle, *r*) are known; so one knows
+@m 0697b010
+KT = \dfrac{r\sin\psi}{R}\,, \qquad KH = \dfrac{r\cos\psi}{R}\,.
+@p 0697b011..0697b012
+In the triangle HKN, right-angled at N, the angle KHN, that is, the inclination of the epicycle to the deferent (*i*), is known; so
+@m 0697b013..0697b014
+KN = KH\,\dfrac{\sin i}{R} = \dfrac{r\cos\psi\sin i}{R^2}\,,
+HN = KH\,\dfrac{\cos i}{R} = \dfrac{r\cos\psi\cos i}{R^2}\,.
+@p 0697b015..0697b016
+And since the position of the centre of the epicycle on the deferent is taken as given, by the formula of p. 240 one will know
+@m 0697b017
+NE = EH \mp HN = \text{geocentr. dist. of the epicycle} \mp \dfrac{r\cos\psi\cos i}{R^2}\,.
+@p 0697b018
+In the right-angled triangle KNE
+@m 0697b019..0697b020
+KE = \sqrt{\overline{NE}^2 + \overline{KN}^2} = \sqrt{\left(\text{dist. epic.} \mp \dfrac{r\cos\psi\cos i}{R^2}\right)^2 + \left(\dfrac{r\cos\psi\sin i}{R^2}\right)^2}
+\sin KEN = R\,\dfrac{KN}{KE} = \dfrac{r\cos\psi\sin i}{R\sqrt{\left(\text{dist. epic.} \mp \dfrac{r\cos\psi\cos i}{R^2}\right)^2 + \left(\dfrac{r\cos\psi\sin i}{R^2}\right)^2}}\,.
+@p 0697b021
+Hence one gathers
+@m 0697b022
+BEK = KEN + BEH = KEN + \text{inclination of the deferent to the ecliptic}\,,
+@p 0697b023
+and, since the triangle KBE is right-angled at B by the constructions made,
+@m 0697b024
+KB = KE\,\dfrac{\sin BEK}{R}\,, \qquad EB = KE\,\dfrac{\cos BEK}{R}\,.
+@p 0697b025..0697b027
+In the triangle LBE, right-angled at B, $EL = \sqrt{\overline{EB}^2 + \overline{BL}^2}$, where BL too is known, being equal to the opposite side KT (of the rectangle TKBL) computed above; by the constructions made the angle ELT is a right angle, so $ET = \sqrt{\overline{EL}^2 + \overline{LT}^2}$, and one will know
+@m 0697b028
+\sin \text{latit.} = \sin TEL = R\,\dfrac{LT}{ET} = R\,\dfrac{KB}{ET}\,.
+@p 0697b029..0697b033
+In this way, which I have adapted to trigonometric computation, Ptolemy derived for every six and every three degrees of the true anomaly the greatest latitudes of the *superior* planets, which occur at the northern limit of the deferent (col. I of each of these planets) and at the southern (col. II of the same). To compute the latitudes at the intermediate places of the deferent he used proportional parts, of which we shall have to speak below[^697.1].
+@f 697.1 0697nl001..0697nr002 + 0698nl001..0698nl006
+The *northern limit*, τὸ βόρειον πέρας, is the point of the deferent that inclines most to the north, and so lies 90 degrees from each node towards the north; the *southern limit*, τὸ νότιον πέρας, is the point of the deferent opposite to it. In Mars the northern limit is also the apogee of the deferent, and the southern limit the perigee; but not so in Saturn and Jupiter. The northern limit of Saturn lies 50° from the apogee of the deferent towards the west, that of Jupiter 20° from the apogee towards the east, as we already saw on p. 239, ll. 8–10.
+@p 0698b001
+To make the computation simpler and better suited to our logarithmic tables, one must proceed thus:
+@m 0698b002..0698b005
+[[(1)]] \tan KEN = R\,\dfrac{KN}{NE} = R\,\dfrac{r\cos\psi\sin i}{R^2\,\text{dist. epic.} \mp r\cos\psi\cos i}
+BEK = KEN + BEH = KEN + \text{inclin. of the deferent}
+KE = R\,\dfrac{KN}{\sin KEN} = \dfrac{r\cos\psi\sin i}{R\sin KEN}
+EB = KE\,\dfrac{\cos BEK}{R} = \dfrac{r\cos\psi\sin i\cos BEK}{R^2\sin KEN}
+@p 0698b006
+$\tan BEL = R\,\dfrac{BL}{EB}$, but $BL = KT = \dfrac{r\sin\psi}{R}$, so[^698.1]
+@f 698.1 0698nr001
+Because $R\,\dfrac{\sin\psi}{\cos\psi} = \tan\psi$.
+@m 0698b007
+[[(2)]] \tan BEL = R\,\dfrac{r\sin\psi\,R^2\sin KEN}{R\,r\cos\psi\sin i\cos BEK} = R\,\dfrac{\tan\psi\sin KEN}{\sin i\cos BEK}\,.
+@p 0698b008..0698b009
+When $LT = KB = EB\,\dfrac{\sin BEK}{\cos BEK} = \dfrac{EB\tan BEK}{R}$ and $EL = R\,\dfrac{EB}{\cos BEL}$ are known, one will at once know
+@m 0698b010
+[[(3)]] \tan \text{latit.} = \tan TEL = R\,\dfrac{LT}{EL} = \dfrac{\cos BEL\tan BEK}{R}\,.
+@p 0698b011
+So the *latitudes of the superior planets* are computed with the three formulas 1, 2 and 3.
+@p 0698b012..0698b013
+Let us now go on to the *inferior planets* (Venus and Mercury). They have three inequalities in latitude, which I shall take one by one:
+@p 0698b014..0698b021
+The 1st inequality is the inclination of the deferent to the plane of the ecliptic (ἔγκλισις τοῦ ἐκκέντρου, called *deviatio* by some of our writers); and it is not fixed, as in the superior planets, but varies with the true course of the centre of the epicycle[^698.2]. For it is nil when the centre of the epicycle occupies either node (that is, the common section of the planes of the deferent and of the ecliptic), and then grows gradually as the epicycle recedes from the nodes, always carrying Venus to the north and Mercury to the south; it reaches its greatest amount (10′ to the north in Venus, 45′ to the south in Mercury) at the apogee or the perigee of the deferent. Since the epicycle completes the circumference of the deferent in a sidereal year, it is clear from what has been said that the apogee of the deferent is northern for half a year and southern for half a year.
+@f 698.2 0698nr002..0698nr005
+*Almag.* XIII, 1 (ed. Halma, vol. II, p. 370): Ὥστε καὶ ἐκ τούτου συνάγεσϑαι διότι αἱ μὲν τῶν ἐκκέντρων ἐγκλίσεις κινούμεναι καὶ αὐταὶ συναποκαϑίστανται ταῖς περιόδοις τῶν ἐπικύκλων («so that from this too it is gathered that the inclinations of the eccentrics, which move as well, return together with the periods of the epicycles»).
+@p 0698b022..0698b030 + 0699b001..0699b003
+The 2nd inequality (ἔγκλισις τοῦ ἐπικύκλου, «inclination of the epicycle», Arabic *mayl falak al-tadwīr*, our writers' *inclinatio* or *declinatio*) is the inclination to the plane of the deferent of the diameter of the epicycle that joins the true apogee and perigee of the epicycle. The apogee and the perigee of the epicycle describe, indeed, a small circle perpendicular to the plane of the deferent, as we saw for the superior planets; but with this difference, that for Venus and Mercury the inclination is greatest at the nodes and nil at the apogee or the perigee of the deferent, for at the apogee and the perigee of the deferent that diameter of the epicycle lies in the plane of the deferent. At the apogee of the deferent the true apogee of the epicycle of Venus begins to incline to the north of the deferent and the perigee to the south; the contrary happens to Mercury. At the perigee of the deferent the true apogee of the epicycle of Venus begins to incline to the south of the deferent and the perigee to the north; the contrary happens to Mercury. — The position of the ascending node of Venus is not the same as that of Mercury; for Venus, as it recedes from the ascending node, is on the side of the apogee of the deferent, Mercury on the side of the perigee[^699.1].
+@f 699.1 0699nl001..0699nl008
+This is what *Almag.* XIII, 2 (ed. Halma, vol. II, p. 373) means: καὶ ἔτι καὶ ἐπὶ τούτων ἡ τῆς ὁμοίας ἀφέσεως ἀρχή τε καὶ ἀποκατάστασις, ἐπὶ μὲν τοῦ τῆς Ἀφροδίτης ἀπὸ τοῦ κατὰ τὸ προσϑετικὸν ἡμικύκλιον συνδέσμου συνίσταται, ἐπὶ δὲ τοῦ τοῦ Ἑρμοῦ ἀπὸ τοῦ κατὰ τὸ ἀφαιρετικόν, «moreover, the beginning and the return of such a course take place for Venus from the node of the additive semicircle, for Mercury from the node of the subtractive one».
+@p 0699b004..0699b013
+The 3rd inequality (λόξωσις, «slant», Arabic *inḥirāf*, *warāb*, *iltiwāʾ*, our writers' *obliquatio* or *reflexio*) is the variable inclination of the diameter of the epicycle that joins the points of the mean distances, that is, of the diameter that cuts at right angles the diameter drawn through the true apogee and perigee of the epicycle. The ends of this diameter (90°–270°) also describe small circles, but perpendicular to the plane of the ecliptic and having their centres on diameters parallel to the plane of the ecliptic. These centres move with the same velocity as the rest (ἰσοταχῶς τοῖς ἄλλοις). This slant, like the second inclination of the superior planets, is greatest at the apogee or the perigee of the deferent and nil at the nodes, where that diameter coincides with the plane of both the deferent and the ecliptic. At the apogee of the deferent the eastern end of this diameter of the epicycle of Venus is to the north, at the perigee to the south; the contrary happens to Mercury.
+@p 0699b014..0699b015
+From what has just been set out it follows clearly enough that everything that happens to Venus inclining to the north happens likewise, and by the same laws, to Mercury declining to the south.
+@p 0699b016..0699b022
+In the superior planets we saw that the latitude consists partly of the inclination of the deferent and partly of that of the epicycle, and that the two are so mixed that they never exist separately. The three greatest inequalities of Venus and Mercury, on the contrary, can easily be caught singly by observation and computed in numbers; for the inferior planets occupy the perigee or the apogee of the epicycle when the centre of the epicycle falls in the apogee or the perigee of the deferent[^699.2], so that at both places they appear to decline equally from the ecliptic to the north or to the south; moreover, when the inclination of the epicycle is greatest, the slant of the epicycle is nil.
+@f 699.2 0699nl009
+*Almag.* XIII, 3 (ed. Halma, vol. II, p. 376).
+@p 0699b023..0699b027
+The construction of the tables for the inferior planets is this. The greatest inclination of the apogee–perigee diameter of the epicycle, which we saw occurs when the centre of the epicycle holds one of the nodes of the deferent, was found by observations[^699.3] to be 2½° for Venus[^699.4] and 6¼° for Mercury[^699.5]. With the centre of the epicycle always placed at the nodes, it is asked how great this greatest *inclination*, seen from the centre of the earth, is at each of the other points of the circumference.
+@f 699.3 0699nl010
+*Almag.* XIII, 3 (ed. Halma, vol. II, pp. 377–78).
+@f 699.4 0699nl011..0699nl012 + 0699nr001..0699nr009
+This is the amount at the *centre of the epicycle*; the inclination seen from the *earth* is another. Let the centre H of the epicycle, the apogee end A of the diameter and the perigee end P be joined by straight lines to the centre E of the earth. The inclination of 2½° of the diameter will subtend, at the eye of an observer on the earth, the angle HEA of 1° 2′ at the apogee end and HEP of 6° 22′ at the perigee end.
+@fig AB01-PDF0699-F01 AB01-PDF0699-notes_right-F01
+@f 699.5 0699nr010..0699nr011
+With respect to the *centre of the earth*, 1° 46′ at the apogee end, 4° 5′ at the perigee end.
+@p 0699b028..0699b035
+In a plane perpendicular to the plane of the ecliptic let EH be the common section of the two, H the centre of the epicycle standing at one of the nodes, and AD the section of the perpendicular plane with the plane of the epicycle. Let E be the centre of the earth and of the ecliptic; EH will be the geocentric distance of the epicycle at the time of the greatest inclination. The epicycle DGAZ being described about H at right angles to that perpendicular plane, let the diameter GZ be dropped perpendicular to AD. All the straight lines drawn in the surface of the epicycle perpendicular to AD will clearly be parallel to the plane of the ecliptic, and the straight line GZ will lie in the very surface of the ecliptic. — EH, AH (*r*, the radius of the epicycle) and the arc AT, or the angle THA (ψ, the true anomaly of the planet T), are known.
+@p 0700b001..0700b004
+Let TK be drawn perpendicular to AH, and KL and TN perpendicular to the plane of the ecliptic; the rectangle TKLN arises. When EN and ET are drawn, TEN will be the angle of inclination of the point T of the epicycle that is to be computed. Ptolemy's geometrical and numerical demonstration, XIII, 4 (ed. Halma, vol. II, pp. 383–86), is rendered exactly in trigonometry as follows. In the right-angled triangle THK
+@m 0700b005
+TK = \dfrac{TH \times \sin THK}{R} = \dfrac{r\sin\psi}{R}\,, \qquad KH = \dfrac{TH \times \cos THK}{R} = \dfrac{r\cos\psi}{R}\,;
+@p 0700b006
+so LN = TK is known.
+@fig AB01-PDF0700-F01 AB01-PDF0700-body-F01
+@p 0700b007..0700b008
+In the right-angled triangle KHL the angle KHL is known, being the greatest inclination *i* of the apogee–perigee diameter to the deferent; so
+@m 0700b009..0700b010
+KL = TN = \dfrac{KH \times \sin KHL}{R} = \dfrac{r\cos\psi\sin i}{R^2}
+LH = \dfrac{KH \times \cos KHL}{R} = \dfrac{r\cos\psi\cos i}{R^2}\,;
+@p 0700b011
+so one knows
+@m 0700b012..0700b015
+EL = HE \mp LH = \text{dist. of the epicycle} \mp \dfrac{r\cos\psi\cos i}{R^2}
+EN = \sqrt{\overline{EL}^2 + \overline{LN}^2} = \sqrt{\left(\text{dist. epic.} \mp \dfrac{r\cos\psi\cos i}{R^2}\right)^2 + \left(\dfrac{r\sin\psi}{R}\right)^2}\,,
+ET = \sqrt{\overline{EN}^2 + \overline{TN}^2} = \sqrt{\left(\text{dist. epic.} \mp \dfrac{r\cos\psi\cos i}{R^2}\right)^2 + \left(\dfrac{r\sin\psi}{R}\right)^2 + \left(\dfrac{r\cos\psi\sin i}{R^2}\right)^2}\,.
+@p 0700b016..0700b019
+So the angle of inclination sought is known: $\sin TEN = R\,\dfrac{TN}{ET}$. In this way Ptolemy computes, for every six and every three degrees of the true anomaly ψ, the first column of the inferior planets, which gives the greatest inclination of the apogee–perigee diameter of the epicycle (occurring at the nodes of the deferent) as it is seen from the centre of the earth.
+@p 0700b020
+The computation is simpler if we use tangents:
+@m 0700b021..0700b023
+[[(1)]] \tan LEN = R\,\dfrac{LN}{EL} = R\,\dfrac{TK}{EL} = \dfrac{r\sin\psi}{\text{dist. epic.} \mp \dfrac{r\cos\psi\cos i}{R^2}}
+EN = R\,\dfrac{LN}{\sin LEN} = \dfrac{r\sin\psi}{\sin LEN}
+\tan TEN = R\,\dfrac{TN}{EN} = R\,\dfrac{KL}{EN} = R\,\dfrac{\;\dfrac{r\cos\psi\sin i}{R^2}\;}{\dfrac{r\sin\psi}{\sin LEN}} = R\,\dfrac{r\cos\psi\sin i\sin LEN}{R^2\,r\sin\psi}
+@p 0700b024
+and, since $R\,\dfrac{\cos\psi}{\sin\psi} = \cot\psi$,
+@m 0700b025
+[[(2)]] \tan TEN = \dfrac{\cot\psi\sin i\sin LEN}{R^2}\,.
+@p 0700b026
+So the logarithmic computation is carried out with the two formulas (1) and (2).
+@p 0701b001..0701b011
+Let us now go on to the *greatest slants* of the diameter of the mean distances, which occur at the apogee and at the perigee of the deferent. By observations and computations Ptolemy[^701.1] found the greatest slant of Venus to be 2° 27′ at the apogee of the deferent and 2° 34′ at the perigee, and the greatest of Mercury 2° 17′ at the apogee and 2° 46′ at the perigee[^701.2]. Hence it follows that at the mean geocentric distance of the epicycle a slant of very nearly 2½° befalls both planets; for the greatest departures from this mean amount are −3′ and +4′ for Venus, −13′ and +16′ for Mercury. Such variations of Venus, so small that they cannot be caught with instruments, can be neglected altogether; so a table made for the mean slant of the epicycle, 2½°, will suffice for all the geocentric distances of the epicycle of Venus. But the variation that befalls Mercury is about ¼ of a degree, or 1/10 of those 2½°; so the table made for the mean geocentric distance will need some correction for the other distances of the epicycle of Mercury.
+@f 701.1 0701nl001..0701nl002
+*Almag.* XIII, 3 (Halma, II, 376), and above all XIII, 4 (Halma II, 407–10).
+@f 701.2 0701nr001..0701nr002
+These are the slants seen from the centre of the earth; at the centre of the epicycle they are 3½° for Venus and 7° for Mercury.
+@p 0701b012..0701b019 + 0701b020..0701b021
+Ptolemy shows, XIII, 4 (ed. Halma, vol. II, pp. 401–03), that at any geocentric distance of the centre of the epicycle the greatest slant occurs at the two points of contact, that is, at the points at which the circumference of the epicycle is touched by the tangent lines produced from the centre of the earth. The angle at the centre of the earth contained by either tangent and the straight line drawn through the centres of the earth and of the epicycle is the greatest digression, or elongation, of the planet from the mean place of the sun, ἡ μεγίστη [τῆς τοῦ ἡλίου μέσης παρόδου] ἀπόστασις or διάστασις: about 46° for Venus and about 22° for Mercury. With this given, it would not be hard to compute exactly for each point of the epicycle the slant as it is seen from the centre of the earth, neglecting the inclination of the deferent to the ecliptic, which is insensible for this purpose. With the constructions used elsewhere in similar cases, Ptolemy *could* have made the computation as follows:
+@fig AB01-PDF0701-F01 AB01-PDF0701-body-F01
+@p 0701b022..0701b026
+Let T be the position of the planet on the epicycle and Q the true apogee of the epicycle; the arc QT[^n], or the angle QHT, will be the true anomaly ψ, which is taken as known. The straight line HT is known, being the radius *r* of the epicycle. Let TN be dropped perpendicular to QH, and TM perpendicular to the plane of the deferent, or of the ecliptic, and to NM, which lies in this plane. One will know
+@n The print has «arcus QH».
+@m 0701b027
+NT = \dfrac{r\sin\psi}{R} \qquad NH = \dfrac{r\cos\psi}{R}\,,
+@p 0701b028
+so the whole NE = NH + the geocentric distance of the centre of the epicycle is known.
+@m 0701b029
+ET = \sqrt{\overline{NE}^2 + \overline{NT}^2} = \sqrt{\left(\text{dist. epic.} \pm \dfrac{r\cos\psi}{R}\right)^2 + \left(\dfrac{r\sin\psi}{R}\right)^2}\,.
+@p 0701b030..0701b031
+The angle TNM is known, being the greatest slant *o* of the plane of the epicycle to that of the deferent (3½° for Venus, 7° for Mercury, as I said in note 2 of this page); so
+@m 0701b032
+MT = \dfrac{NT\sin TNM}{R} = \dfrac{r\sin\psi\sin o}{R^2}\,.
+@p 0701b033..0701b035
+Since MT is perpendicular to the plane of the deferent, or of the ecliptic, it will necessarily also be perpendicular to EM, which joins the centre E of the earth to the point M of the plane of the deferent; so the angle TME is a right angle, and
+@m 0701b036
+\sin \text{slant} = \sin TEM = R\,\dfrac{MT}{ET} = \dfrac{r\sin\psi\sin o}{R\sqrt{\left(\text{dist. epic.} \pm \dfrac{r\cos\psi}{R}\right)^2 + \left(\dfrac{r\sin\psi}{R}\right)^2}}\,.
+@p 0701b037..0701b038 + 0702b001..0702b002
+The computation is simpler with tangents. Let us consider the difference in longitude between the centre of the epicycle and the planet, which is the angle in the plane of the *ecliptic* (or of the deferent) contained by the straight line EN and the *projection* of the straight line TE that passes through the planet itself; that is, let us consider the angle NEM of the triangle right-angled at N whose leg is $NM =$ the projection $NT' = \dfrac{r\sin\psi\cos o}{R^2}$. We shall have
+@m 0702b003..0702b004
+[[(1)]] \tan NEM = R\,\dfrac{NM}{NE} = R\,\dfrac{\;\dfrac{r\sin\psi\cos o}{R^2}\;}{\text{dist. epic.} \pm \dfrac{r\cos\psi}{R}} = \dfrac{r\sin\psi\cos o}{R \times \text{dist. epic.} \pm r\cos\psi}\,.
+\tan TEM = \tan \text{slant} = R\,\dfrac{MT}{EM}\,.
+@p 0702b005
+Since in the triangle NME, right-angled at N, $EM = R\,\dfrac{NM}{\sin NEM}$, we shall have
+@m 0702b006
+\tan TEM = R\,\dfrac{MT}{R\,\dfrac{NM}{\sin NEM}} = \dfrac{MT}{NM}\,\sin NEM\,.
+@p 0702b007
+But in the right-angled triangle NMT, $MT : NM = \sin o : \cos o$; so
+@m 0702b008
+[[(2)]] \tan \text{slant} = \tan TEM = \dfrac{\sin o}{\cos o}\,\sin NEM = \dfrac{\tan o\,\sin NEM}{R}\,.
+@p 0702b009
+Formulas (1) and (2) suffice for the logarithmic computation.
+@p 0702b010..0702b014 + 0702b015..0702b021
+But Ptolemy, so as not to take on too much labour, left out the direct computation and took another way. Without proof he lays down, XIII, 4 (ed. Halma, vol. II, p. 410), that the greatest digressions[^702.1] have to the greatest slants of the epicycle the same ratio as any other digression, or elongation, has to the slant of the corresponding point of the epicycle. To make the matter clearer, let E be the centre of the earth, H the centre of the epicycle, and EH the common section of the planes of the ecliptic and of the epicycle. Let ED be drawn tangent to the epicycle, and any secant EFN; from the points F, D, N let FI, DK, NM be dropped perpendicular to the plane of the ecliptic; finally, let the straight lines EK and EIM be drawn in the plane of the ecliptic[^702.2]. The angles DEK, NEM, FEI are the slants (seen from the centre of the earth) of the points D, N, F of the epicycle, whose digressions from the sun will be the angles DEG, NEG, FEG. Ptolemy lays down
+@f 702.1 0702nl001..0702nl004
+Which in this chapter he calls μήκους προσϑαφαιρέσεις or κατὰ μῆκος προσϑαφαιρέσεις, taking the name, not altogether rightly, from the theory of the equations of the planets; see a little below.
+@f 702.2 0702nl005..0702nr002
+The line EIM is straight, because all the points E, I, M lie in the common section of the plane of the ecliptic and of the plane that cuts the ecliptic at right angles.
+@m 0702b022..0702b024
+DEG : DEK = NEG : NEM = FEG : FEI
+\text{or}
+\text{greatest digression} : \text{greatest slant} = NEG : NEM\,; \quad \text{etc.}
+@p 0702b025..0702b031
+This is true not exactly but approximately[^702.3]. Those digressions are clearly the same thing that, in the theory of the equations of the planets, Ptolemy called ἀνωμαλίας προσϑαφαίρεσις and al-Battānī «the equation of the anomaly»; so he easily made the table of the slant, taking from the corresponding equations (given in the tables of the equations of Venus and Mercury) the part proportional to 46° : 2° 30′ for Venus and to 22° : 2° 30′ for Mercury.
+@f 702.3 0702nr003..0702nr005
+See J. de Monte Regio and G. Purbachius, *Epitome in Cl. Ptolemaei magnam compositionem*, Basel 1543, pp. 259–60 (book XIII, prop. 19).
+@fig AB01-PDF0702-F01 AB01-PDF0702-body-F01
+@p 0703b001..0703b012
+Having set out the method by which Ptolemy computed the two columns of the *superior* and of the *inferior* planets, let us go on to explain the column of the *proportional parts*, which is common to all the planets and is found in vol. II, p. 141. The preceding columns were made for the centre of the epicycle placed either at the points of the greatest latitudes or at the nodes of the deferent. Those columns must also be fitted to the intermediate points of the deferent. A direct computation is too long a labour and requires very many tables; so to fit the preceding columns to any other position of the centre of the epicycle Ptolemy used proportional parts. He did not, however, compute them directly; but, considering, XIII, 4 (ed. Halma, II, p. 411), that the inclinations and slants grow or decrease very nearly in the same proportion as the latitudes of the moon, he took these lunar latitudes, already computed exactly, as they stood in the tables, and multiplied them by 12 so that they became sixtieths; for the greatest latitude of the moon is 5°, whence 5° × 12 = 60°. In this way the last column came out very easily.
+@p 0703b013..0703b026
+Al-Battānī explains the use of the tables well enough in ch. XLVII (vol. I, pp. 115–16), with which *Almag.* XIII, 6 (ed. Halma, vol. II, pp. 414–16) may be compared. 50° must be added to the true longitude of Saturn, and 20° taken from that of Jupiter, because the line of the apsides (that is, of the apogee and perigee) of the deferent lies 50° to the east of the line of the greatest inclination of the plane of the deferent to the plane of the ecliptic in Saturn, and 20° to the west in Jupiter. In the other planets the two lines coincide. — A tenth of the slant of Mercury must now be added to it and now taken from it, because the column of the slant was made for the mean geocentric distance of the centre of the epicycle, and the variations occurring at the apogee or perigee distance are about 1/10 of the greatest slant, 2½°, of the mean distance, as I said on p. 252. — In computing the inclination, 90° are added to the true longitude of Venus and 270° to that of Mercury, because the greatest inclination occurs at the nodes, that is, at 90° and 270° of elongation from the apogee of the deferent. — In vol. I, p. 116, the author bids us take, for Venus 1/6 and for Mercury 3/4[^n] of the sixtieths that we took from the last column when we entered the table again with the longitude. This must be done so as not to neglect the small inclination of the deferent to the ecliptic, which we have seen to be 1°/10 for Venus and 45′, or 3°/4, for Mercury.
+@n The print has 8/4 for Mercury's 3/4. The 1°/10 given for Venus does not agree with the inclination of 10′, that is, 1/6 of a degree, stated on p. 249 and used in the rule itself.
+@p 0703b027..0703b035
+What Delambre, *Histoire de l'astron. ancienne*, vol. II, p. 406, judges of Ptolemy's tables of the latitudes is hardly right; for he did not make the computations according to the Greek astronomer's meaning. And he is in grave error when he writes: «Ainsi pour l'obliquation de Mercure, il avertit qu'ayant trouvé dans sa Table des erreurs −13′ et +16′, il avait corrigé sa Table à raison de ¼ de degré, pour se rapprocher des observations. Cependant ses nombres cadrent avec les miens; il n'a donc point exécuté ce changement qu'il annonce» (thus, for the slant of Mercury, he warns that, having found errors of −13′ and +16′ in his table, he had corrected his table at the rate of ¼ of a degree, to come nearer to the observations. Yet his numbers agree with mine; so he did not carry out the change he announces). Plainly he did not understand the passage of Halma's edition, vol. II, p. 410, in which Ptolemy points out that that column was computed for the mean geocentric distance of the epicycle of Mercury and therefore needs a proportional correction of ¼ of a degree for the apogee and perigee distances; see a little above and p. 252.
+@p 0703b036..0703b039 + 0704b001..0704b022
+Alwin Haebler, *Die Lehren des Claudius Ptolemaeus von den Bewegungen der Planeten*, in Zeitschr. für Mathematik und Physik, 45. Bd., 1900, hist.-litter. Abteilung, pp. 171, 192, 198[^703.1], thinks that another doctrine of the latitudes, far simpler and common to all the planets, occurs in the *Hypotheses*. But wrongly. For in the *Hypotheses* (ed. Halma, pp. 48–56), which are later than the Almagest, Ptolemy reviews summarily, for each planet, the spheres by which all their motions are represented. He describes the parecliptic circle (ὁ ὁμόκεντρος τῷ ζωδιακῷ κύκλος), revolving in the plane of the zodiac from west to east with the same motion as the fixed stars, the oblique circle (ὁ ἐγκεκλιμένος κύκλος, ὁ λοξός), the deferent (ὁ ἔκκεντρος, movable for Mercury, fixed for the others) and the centre of the equant (περὶ ὃ κινεῖται ἰσοταχῶς), as I have set out on pp. 238–39 and 243, except for two small discrepancies in Mercury, which I mentioned on p. 243, notes 1 and 2. The peculiarities of the epicycles, however, he describes for each planet as follows. Let a *small circle* (κυκλίσκος) be supposed in the sphere of the epicycle, concentric with it and lying in the plane of the oblique circle; let the straight line produced from the centre of the equant through the centre of the small circle always pass through two points of the small circle, which we shall call the apogee and the perigee [of the epicycle]; the size of this small circle is not determined. Let there be a *second small circle*, concentric with the first and in the same plane of the oblique circle, revolving uniformly about its centre in such a way that, beginning from the apogee [of the epicycle], it moves from east to west (ἐπὶ τὰ αὐτὰ τῇ τοῦ κόσμου περιστροφῇ, «in the same direction as the revolution of the world») with the same motion with which the centre of the epicycle goes round [the circumference of the equant]; the size of this small circle too is not stated. Finally, let a *third small circle* be supposed, concentric with the second and the first but inclined to their plane, whose circumference the planet goes round uniformly [with its anomalistic motion] from west to east (ἐπὶ τὰ ἐναντία τῇ τοῦ κόσμου περιστροφῇ); the inclination and the radius of this third small circle are given for each planet. — It is clear that this third small circle is the true epicycle, and that the first two, like the parecliptic circle, are useless for the mathematical theory and serve only the philosophical theory of the celestial spheres. It is also clear that this whole exposition of the *Hypotheses* contains only a general outline of the motions of the planets, but *nothing* that would serve for computing the *latitudes*.
+@f 703.1 0703nl001..0703nr004 + 0704nl001..0704nr003
+The whole dissertation occupies pp. 161–198 of the periodical. First it gives more general considerations on Greek astronomy (pp. 161–176), criticizing Halma sharply but justly for the editions and translations of astronomical books that he published after the Almagest (pp. 167–171). It sketches Ptolemy's doctrine of the motions of the sun, the moon and the planets in longitude summarily on pp. 176–191; it then points out that Delambre's inquiries do not at all suffice to explain the latitudes of the planets (p. 192), and sets out briefly the doctrine of the Almagest on this matter, leaving out everything that serves the mathematical computation (pp. 192–198). — On p. 191 the numbers of the eccentricities of the deferent of Mercury and of Venus are affected by errors.
+@p 0704b023
+It must be noted that the elements of the *Hypotheses* not seldom differ from those of the *Almagest*:
+@t spec=llrrrrr 0704b024..0704b028
+! |  | Saturn | Jupiter | Mars | Venus | Mercury
+Inclination of the epicycle // to the eccentric | Almag. | 4° 30′ | 2° 30′ | 2° 15′ | 2° 30′ | 6° 15′
+ | Hypoth. | 2 30 | 1 30 | 1 50 | 3 30 | 6 30
+---
+Inclination of the eccentric // to the ecliptic | Almag. | 2 30 | 1 30 | 1 0 | 0 10 | 0 45
+ | Hypoth. | 2 30 | 1 30 | 1 50 | 0 10 | 0 10
+@p 0704b029..0704b030
+In the *Canopus inscription* the amounts of the Almagest occur, except for the inclinations of the eccentrics of Saturn (2° 26′) and Jupiter (1° 24′).
