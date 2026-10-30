@@ -58,11 +58,17 @@
   "AE",
   "AF",
   "AH",
-  "T01"
+  "T01",
+  "T02",
+  "T03",
+  "T04",
+  "T05",
+  "T06",
+  "T07"
  ],
- "latin_lines_translated": 8569,
- "blocks": 1102,
- "english_words": 93205,
- "canonical_source_checkpoint_sha256": "acb9e8abad08f55eef074faee971484adb1729a6804a896624600113ff657c96",
+ "latin_lines_translated": 8949,
+ "blocks": 1153,
+ "english_words": 97292,
+ "canonical_source_checkpoint_sha256": "40ce07c8980fb77dc072c621c230930c5459bec17b661eeaea3a4d2e2ff00a9c",
  "canonical_source_checkpoint_note": "SHA-256 over the unit files in order: file name, a NUL byte, the bytes"
 }
