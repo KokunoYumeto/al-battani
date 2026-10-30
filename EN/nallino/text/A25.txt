@@ -1,0 +1,68 @@
+@unit A25
+@h 0286b019
+On chapter 25
+@c 0286b020
+**a**) — pp. 36–37.
+@p 0286b021..0286b022
+To compute the *longitude of a star*, given the declination of the star and the degree of the ecliptic that passes through the meridian circle at the same time as the star.
+@p 0286b023..0286b025
+It is the converse of the problem of chapter XVIII, whose rules it would have been enough to invert. The author, on the other hand, seeks a new solution, and a most unhappy one, as will appear below. Let δ be the declination of the given star, δ′ the declination of the degree culminating with it, ε the obliquity of the ecliptic; the rules are these:
+@p 0286b026..0286b032
+**I.** When δ and δ′ are on the same side:
+\[ \delta - \delta'\ (\text{or } \delta' - \delta) = \text{adjusted distance}. \]
+\[ 2R - \cos\varepsilon = \text{longest chord}. \]
+\[ 2R - \cos\delta' = \text{exceeding chord}. \]
+\[ R\,\frac{\sin\varepsilon}{\cos\delta'} = \text{sine of the adjusted inclination}. \]
+\[ \frac{\sin(\text{adj. incl.}) \times \sin(\text{adj. dist.})}{\cos(\text{adj. dist.})} \times \frac{\text{exceed. chord}}{\text{longest chord}} \times \frac{\cos\varepsilon}{\cos(\text{adj. incl.})} \times \frac{\sin(\text{solst. dist. of the culm. degree})}{R} = \]
+\[ = \text{sine of the variation of the star}. \]
+@p 0286b033..0286b034
+It should be noted that the solstitial distance of the degree culminating with the star is counted in right ascensions.
+@p 0286b035..0286b041
+If the degree culminating with the star belongs to the descending signs of the zodiac (from the beginning of Cancer to the end of Sagittarius), the arc of the variation of the star will be subtracted from the right ascension of the degree culminating with the star, or added to it, according as δ is northern or southern. If the culminating degree is in the ascending signs (from the beginning of Capricorn to the end of Gemini), addition will be used when δ is northern, subtraction when it is southern. Let the sum or the difference found be sought in the right ascensions; the degree of the ecliptic corresponding to it will be the longitude of the star.
+@p 0287b001..0287b011
+**II.** When δ and δ′ are on opposite sides:
+\[ \delta + \delta' = \text{adjusted distance}. \]
+\[ 2R - \cos\varepsilon = \text{longest chord}. \]
+\[ 2R - \cos\delta' = \text{exceeding chord}. \]
+\[ \frac{\sin\varepsilon\,\sin\delta}{\cos(\text{adj. dist.})} \times \frac{\cos\delta'}{R} = \text{sine of the adjusted inclination}. \]
+\[ \sin(\text{adj. incl.}) \times \frac{\sin\delta}{\cos\delta} \times \frac{\text{exceed. chord}}{\text{longest chord}} = \text{dividend}. \]
+\[ \cos(\text{adj. incl.}) \times \frac{\text{dividend}}{\cos\varepsilon} \times \frac{\sin(\text{solst. dist. of the culm. degree})}{R} = \text{sine of the variation of the star}, \]
+or, putting in the value of the *dividend*,
+\[ \frac{\cos(\text{adj. incl.}) \times \sin(\text{adj. incl.})}{\cos\varepsilon} \times \frac{\sin\delta}{\cos\delta} \times \frac{\text{exceed. chord}}{\text{longest chord}} \times \frac{\sin(\text{solst. dist. of the culm. degree})}{R} = \]
+\[ = \text{sine of the variation of the star}. \]
+You use the variation of the star as was said above.
+@p 0287b012..0287b022
+So far the Escorial codex, with which Plato's translation agrees, except for a few words that are plainly missing in Plato through the carelessness of the copyists. But the rules are wholly false; indeed, they can be called true monsters. Delambre, pp. 22–31, gave eight pages to drawing some sense or other out of the author's rule; but such great labour proved entirely useless. Nor does Regiomontanus seem to have been more successful before him; for, as Delambre relates of him elsewhere (p. 353), in a letter to Bianchini he «parle assez brièvement de la méthode d’Albategni (chap. XXV), et c’est pour la trouver défectueuse. Il ajoute pourtant qu’elle ne serait admissible que pour le colure des solstices où la déclinaison et la latitude sont dans un même plan. Alors en effet $\frac{2 - \cos \text{AR}}{2 - \cos L'} = \frac{2}{2} = 1$; cependant, à la manière dont il s’exprime, on serait tenté de croire que son manuscrit d’Albategni ne ressemblait guère aux éditions qu’on en a données»[^287.1][^n] («speaks rather briefly of Albategni's method (ch. XXV), and that in order to find it defective. He adds, however, that it would be admissible only for the colure of the solstices, where the declination and the latitude are in one plane. Then indeed (2 − cos AR)/(2 − cos L′) = 2/2 = 1; yet from the way he expresses himself, one would be tempted to think that his manuscript of Albategni hardly resembled the editions that have been made of it»).
+@n Nallino's Addenda et emendanda (Part I, p. LXXIII) correct this passage and the note: the letter is not Regiomontanus' to Bianchini, as Delambre says, but Bianchini's to Regiomontanus, edited by M. Curtze, *Urkunden zur Geschichte der Mathematik im Mittelalter und der Renaissance*, Leipzig 1902, vol. I, pp. 240–41; the Addenda are translated with Part I's front matter.
+@f 287.1 0287nl001..0287nr006
+I have not been able to read this letter; but I think it hardly credible that Regiomontanus had before his eyes a text other than the one printed afterwards. The Nuremberg edition seems to have been made from the manuscript to which Regiomontanus himself had added notes here and there in his own hand; and in this chapter it does not differ from the Arabic text except by small gaps, which are manifest mistakes of the copyists. The differences that Delambre noted are probably different interpretations of Regiomontanus, arising from the almost incredible obscurity and ambiguity of Plato's words, or conjectures of Regiomontanus.
+@p 0287b023..0287b034 + 0288b001..0288b004
+[Those formulas are not only ridiculously difficult, but manifestly false. Delambre has already shown this in some measure; it will appear more clearly from the following considerations. 1°. The formulas in the two cases set out are different, whereas they ought to have been the same, with δ + δ′ put in the second for δ − δ′ (or δ′ − δ). Not to have understood this shows in the author of the formulas an unskilfulness that can in no way be imputed to al-Battānī, considering what he himself does on similar occasions. — 2°. The formulas appear absurd from the very fact that they cannot fit all the values of the quantities indicated in them. In the second rule the sine and the cosine of the *adjusted inclination* occur; but the sine of this inclination is defined by the formula $\frac{\sin\varepsilon\,\sin\delta}{\cos(\text{adj. dist.})} \times \frac{\cos\delta'}{R}$, which can lead to an absurdity whenever the adjusted distance (that is, δ + δ′) becomes equal to 90°; and no one will deny that this can happen. Then cos (δ + δ′) = nothing, and the sine of the adjusted inclination will be sought in vain in the tables, being infinitely great. Inept, moreover, are the names *longest chord* and *exceeding chord*, given to two quantities that always exceed *R*, and to which no possible geometrical representation in the sphere answers; so that it must be strongly doubted that they could ever be used in solving such problems. The factor determined by their ratio to each other is called «assez étrange», «rather strange», by Delambre, p. 27, and it does indeed look unusual.
+@p 0288b005..0288b009
+It is also very strange that al-Battānī in this chapter did not invert the formulas already found in order to solve the converse problem of chapter XVIII, as he had done elsewhere, and did not see that to draw the latitude and the longitude from the right ascension and the declination is the same as to find the altitude and the azimuth from the declination and the hour angle, since in this last problem it is enough to put the distance between the zenith and the pole = ε, that is, the latitude = 90° − ε.
+@p 0288b010..0288b012
+Lastly, the division of the computation into many small parts designated by special names seems foreign to al-Battānī's usage; he does this very rarely in the other chapters, and only when moved by evident reasons of convenience, as in ch. XXXIX, pp. 78–79[^n].
+@n The words «as in ch. XXXIX, pp. 78–79» are added from Nallino's Addenda et emendanda (Part I, p. LXXIII).
+@p 0288b013..0288b018
+When all this is weighed, I think that what teaches the computation of the *variation of the star*, or of the longitude, does not come from al-Battānī and is a most foolish interpolation. It is an easy conjecture that in the copy from which the Escorial codex and Plato's codex were afterwards derived, a leaf containing al-Battānī's true rules had perished, and that its owner, endowed more with good will than with astronomical knowledge, tried to fill the gap according to his own (alas, how small!) powers. — Schiaparelli.]
+@c 0288b019
+**b**) — p. 37, ll. 21–25.
+@p 0288b020
+To compute the *latitude* β of a star when its declination and longitude are known.
+@p 0288b021..0288b027
+The solution of the problem depends on knowing an arc, which the author defines thus:
+\[ [[(α)]] \sin(\text{arc}) = \frac{\sin\delta\,\cos\beta'}{\cos\varepsilon}, \]
+where β′ is what al-Battānī calls «the declination of the degree in which you found the star», that is, without doubt, the *second* declination of the degree of the star's longitude, which is the latitude of the degree of the equator that has the same longitude as the star. Then
+\[ [[(β)]] \beta = \beta' - \text{arc}, \qquad\text{or}\qquad \beta = \text{arc} - \beta', \]
+according as β′ is greater or smaller than the arc.
+@fig AB01-PDF0288-F01 AB01-PDF0288-body-F01
+@p 0288b028 + 0288b029..0288b039 + 0289b001..0289b003
+The way by which the author arrived at his formulas is probably this. Let QPEDP′ be the meridian circle, ♈E the ecliptic, ♈D the equator, PAB the circle of declination passing through the star A, QACQ′ the circle of latitude of the same star A. So AB = δ, AH = β, HC = β′, and AC is the arc sought. From the triangle ABC, right-angled at B, one derives
+\[ \sin AC = R\,\frac{\sin AB}{\sin(\text{angle } C)} = R\,\frac{\sin\delta}{\sin(\text{angle } C)}. \]
+The triangle CDQ′, right-angled at D, gives
+\[ \sin(\text{angle } C) = R\,\frac{\sin DQ'}{\sin CQ'} = R\,\frac{\cos\varepsilon}{\cos\beta'}, \]
+whence
+\[ [[(α)]] \sin AC = \frac{R\sin\delta}{R\,\frac{\cos\varepsilon}{\cos\beta'}} = \frac{\sin\delta\,\cos\beta'}{\cos\varepsilon}. \]
+But neither here nor before, in chapter XVIII (see p. 193), does the author teach how the necessary quantity β′ is computed. It can be drawn from the tables: let the arc of the ecliptic 90° + ♈H be imagined to be an arc of the equator, that is, the right ascension[^289.1] of the point C; the tables will give the corresponding arc (90° + ♈C) of the fictitious ecliptic. When the 90° are thrown away and the tables of the declination of the sun (f. 177v–178r) are entered with the arc ♈C, the fictitious declination β′ will be found.
+@f 289.1 0289nl001..0289nr002
+Those ninety degrees must be added to the arc ♈H because the author counts the right ascensions from the colure of the winter solstice (the beginning of Capricorn), not from the beginning ♈ of Aries. See p. 164.

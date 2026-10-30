@@ -1,0 +1,20 @@
+@unit A24
+@h 0285b022
+On chapter 24
+@c 0285b023
+**a**) — pp. 35–36.
+@p 0285b024..0285b026
+To compute the *declination* δ of a star and *the degree of the ecliptic that passes through the meridian circle at the same time as it*, when the degree of the ecliptic that rises at the same time as the star and the rising or setting amplitude of the star are known.
+@p 0285b027..0285b033
+The first rule is
+\[ [[(α)]] \sin\delta = \frac{\sin(\text{alt. of the beginning of Aries}) \times \sin(\text{ampl.})}{R}. \]
+But the [meridian] altitude of the beginning of Aries, as the author has said in several places (see note 1 of p. 196), is the complement of the geographical latitude of the given city; so the formula can be written $\sin\delta = \cos\varphi\,\sin(\text{ampl.})/R$, which follows at once from the other formula of chapter VII, $\sin(\text{ampl.}) = R\sin\delta/\cos\varphi$. Once the declination is known, let the half arc of the day P of the star be computed by the rules of chapter XIX:
+\[ P = 90^\circ \pm \text{asc. diff.}, \qquad \sin(\text{asc. diff.}) = R\,\frac{\sin\varphi\,\sin\delta}{\cos\varphi\,\cos\delta}. \]
+@fig AB01-PDF0286-F01 AB01-PDF0286-body-F01
+@p 0286b001..0286b006 + 0286b007..0286b018
+This done, al-Battānī teaches how to find the right ascension of the degree that culminates with the star, which is
+\[ \text{obl. asc. of the degree rising with the star} + \text{half arc of the day of the star}, \]
+\[ \text{or obl. asc. of the degree setting with the star} - \text{half arc of the day of the star}; \]
+where the right ascension of the degree culminating with the star (which is also the right ascension of the star) is understood to be taken from the **beginning of Capricorn**, as will be clear from the figure drawn here to one who examines the matter more closely. For EE′ is the equator, S the place from which the star rises, ♈ the vernal equinox at that time, ♈R the ecliptic, K the degree of the ecliptic rising at the same time as the star, I the degree culminating with the star; so ♈A will be the right ascension, counted from the beginning of Aries, of the degree I culminating with the star, or the right ascension of the star itself; EA the half arc of the day of the star on the equator; ♈O the oblique ascension of the degree K that rises with the star, or the oblique ascension of the star S itself. Plainly ♈A = ♈O + OA; and since
+\[ OA = EA - 90^\circ, \]
+we shall have ♈A = ♈O + EA − 90°, that is, 90° + ♈A = ♈O + EA. The tables of right ascensions will then give the degree of the ecliptic that corresponds to the right ascension so found.
