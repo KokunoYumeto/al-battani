@@ -15,7 +15,9 @@ WORDS = [(r"\bumbra cxtensa\b", "horizontal shadow"), (r"\bumbra crecta\b", "ver
 LETTERS = {"AB01-PDF0337-F01": dict(zip("domus", "house"))}   # «X domus» … «III domus» → «X house» …
 # words set letter by letter whose English is the Latin word less some letters: those letters' nodes are left out
 DROP = {"AB01-PDF0347-F01": [("ecliptica", "ecliptic"), ("meridianus", "meridian")],
-        "AB01-PDF0348-F01": [("ecliptica", "ecliptic"), ("aequator", "equator")]}
+        "AB01-PDF0348-F01": [("ecliptica", "ecliptic"), ("aequator", "equator")],
+        "AB01-PDF0404-F01": [("ecliptica", "ecliptic"), ("aequator", "equator")],
+        "AB01-PDF0405-F01": [("ecliptica", "ecliptic"), ("aequator", "equator")]}
 
 
 # words set letter by letter whose English has as many letters: the letters are replaced one for one, in order
