@@ -233,7 +233,7 @@ PREAMBLE = r"""\documentclass[11pt]{article}
 \tracinglostchars=2
 \newcommand{\Pg}[1]{\marginpar{\footnotesize\color{gray}#1}}
 \newcommand{\PartHead}[2]{\clearpage\pdfbookmark[0]{#1}{part-#2}{\centering\LARGE #1\par}\bigskip}
-\newcommand{\UnitHead}[2]{\par\needspace{8\baselineskip}\bigskip\pdfbookmark[1]{#1}{unit-#2}\hypertarget{EN-#2}{}%
+\newcommand{\UnitHead}[2]{\par\setcounter{footnoteT}{0}\needspace{8\baselineskip}\bigskip\pdfbookmark[1]{#1}{unit-#2}\hypertarget{EN-#2}{}%
  {\large\bfseries\interlinepenalty=10000 #1\par}\nobreak\medskip}
 \begin{document}
 """
