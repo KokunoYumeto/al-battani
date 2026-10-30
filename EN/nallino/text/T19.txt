@@ -1,0 +1,86 @@
+@unit T19
+@h 0672b013
+On pp. 78–83: the equations of the sun and the moon; the latitude of the moon
+@p 0672b014..0672b015
+The tables of the equations are mentioned in chs. XXVII, XXX, XXXIII, XXXVI and XLII (vol. I, pp. 47, 51, 52, 53–54, 72, 75, 93), that of the latitude in chs. XXXVIII and XLIII (vol. I, pp. 76 and 97).
+@p 0672b016..0672b023
+Col. II: *the equation of the sun*. — It differs from the table of Ptolemy, III, 5 (ed. Halma, vol. I, p. 201), because of the different amount of the greatest equation, of which I spoke in vol. I, pp. 213–14. Ptolemy, moreover, gives the argument of the table (the mean anomaly) at intervals of 6 degrees in the first and fourth quadrants and of 3 degrees in the second and third; in the equation he leaves out the seconds. — In *al-Battānī's* table, whose argument proceeds by single degrees, the differences in the equation of the sun are regular enough for the numbers of the codex to be corrected at once; I seldom needed to compute with the formula \[ \tan \text{equat.} = \frac{e_1 \sin m}{1 + e_1 \cos m}\,, \] where $e_1$ is the radius of the epicycle, or the eccentricity of the orbit, in decimal parts of the radius of the orbit = 1, that is, al-Battānī's $e/60$. See vol. I, pp. 48 and 219–20.
+@p 0672b024..0672b025
+Cols. III–VI: *the inequality of the motion of the moon in longitude*. — Some things must be said first, so that the construction and the use of the tables may be understood more clearly.
+@p 0672b026..0672b029
+In the Ptolemaic hypothesis, which al-Battānī sets out briefly in ch. XXX (vol. I, pp. 50–54), the motions of the moon take place in the plane of the *deflecting* circle, that is, the circle *oblique* to the zodiac. The *nodes*, or the intersections of the oblique circle with the parecliptic circle, go round the parecliptic circle with a retrograde motion of about 3 minutes a day.
+@p 0672b030..0672b039
+The moon moves on the circumference of an *epicycle*[^672.3], whose radius is 5ᵖ 15′ of the parts of which the radius of the oblique circle is 60ᵖ. If the centre of the epicycle ran along the circumference of the oblique circle, the inequality of the motion of the moon would be single, like the inequality of the motion of the sun. But the centre of the lunar epicycle goes round the circumference of an eccentric (the deferent), which touches the oblique circle in one point, namely in the apogee A of the eccentric; so to the first inequality (whose correction is called the *simple equation*) a second is always added whenever the centre of the epicycle, or the moon, moves away from the apogee of the eccentric. The eccentricity is 10ᵖ 19′ of the parts of which the radius of the oblique circle is 60ᵖ; so the radius of the eccentric is 60ᵖ − 10ᵖ 19′ = 49ᵖ 41′. And since the apogee of the eccentric shares in the retrograde motion of the oblique circle, the centre of the eccentric describes a small circle about the centre of the earth (or of the zodiac, or of the parecliptic circle), whose radius is the eccentricity itself.
+@f 672.3 0672nr001..0672nr003
+Above, towards the preceding signs (from east to west); below, towards the following signs (from west to east).
+@p 0673b001..0673b003 + 0673b004..0673b022
+Moreover, the apogee of the epicycle is distinguished into the *true* apogee (τὸ ἀκριβὲς ἀπόγειον) and the *mean* apogee (τὸ μέσον ἀπόγειον). The true one, or G (on the small circle whose centre is M), is the point of the epicycle on which the straight line drawn from the centre of the earth through the centre of the epicycle falls; the mean one (or H on the same small circle), from which the mean anomaly is counted, is the point of the epicycle on which the straight line falls that is drawn through the centre of the epicycle from the point F′ of the line of apsides of the eccentric that is as far from the centre E of the earth as the centre of the eccentric is from the same point E on the opposite side. The difference of the true and the mean apogee, or the arc GH, is called by Ptolemy ἡ πρόσνευσις τοῦ τῆς σελήνης ἐπικύκλου, «the inclination of the moon's epicycle»; it is greatest (13° 9′) at 60° and 120° of elongation of the moon from the sun, and nil in the syzygies (i.e. when the moon stands in the apogee of the eccentric) and in the quadratures (that is, when the moon occupies the perigee of the eccentric). Because of this prosneusis *p*, the simple equation of the moon depends not, like that of the sun, on the mean anomaly *m*, but on the corrected anomaly *m* + *p*; so if we call *r* the radius of the epicycle in the parts of which the radius of the oblique circle is 60ᵖ, the simple equation of the moon will be computed by the formula (see vol. I, pp. 219–20)
+@fig AB01-PDF0673-F01 AB01-PDF0673-body-F01
+@m 0673b023
+\tan \text{simple equat.} = R\,\dfrac{r \sin (m + p)}{60^{p}\,R + r \cos (m + p)}\,,
+@p 0673b024..0673b025
+which, putting $r_1 = r/60$ (i.e. the radius of the epicycle in decimal parts of the radius of the oblique circle = 1) and the radius *R*, to which the trigonometric functions are referred, = 1 part, we shall write
+@m 0673b026
+\tan \text{simple equat.} = \dfrac{r_1 \sin (m + p)}{1 + r_1 \cos (m + p)}\,.
+@p 0673b027..0673b031
+Now let us compute *p*. It is proved that the angle AEM, or FEM, which the line of apsides of the eccentric makes with the line of apsides of the epicycle, is always equal to twice the elongation of the mean moon from the mean sun, that is, to 2 (☾ − ⊙). Let ρ be the variable distance of the moon, or of the centre of the epicycle, from the earth, and *e* the eccentricity in the parts of which 60 are given to the radius of the oblique circle; as al-Battānī himself teaches in chapter XXXIX, we shall have
+@m 0673b032
+\rho = \sqrt{(60^{p} - e)^2 - \left(\dfrac{e \sin 2\,(\MoonSym - \SunSym)}{R}\right)^{2}} \pm \dfrac{e \cos 2\,(\MoonSym - \SunSym)}{R}\,,
+@p 0673b033
+or, taking *R* and the radius of the oblique circle = 1ᵖ, and the eccentricity $e_1$ in its parts:
+@m 0673b034
+\rho = \sqrt{(1 - e_1)^2 - e_1^{\,2} \sin^2 2\,(\MoonSym - \SunSym)} \pm e_1 \cos 2\,(\MoonSym - \SunSym)\,.
+@p 0673b035..0673b036
+In the figure ME = ρ, and arc HG = angle HMG = angle EMF′ = *p*; considering the triangle MEF′ (with the perpendicular drawn from F′ to the side ME), one derives at once
+@m 0673b037..0673b038
+\tan p = \tan EMF' = R\,\dfrac{EF' \sin F'EM}{R \times EM - EF' \cos F'EM} = R\,\dfrac{EF' \sin FEM}{R \times EM + EF' \cos FEM}
+\tan p = R\,\dfrac{e \sin 2\,(\MoonSym - \SunSym)}{R\rho + e \cos 2\,(\MoonSym - \SunSym)} = R\,\dfrac{\left(\dfrac{e}{\rho}\right) \sin 2\,(\MoonSym - \SunSym)}{R + \left(\dfrac{e}{\rho}\right) \cos 2\,(\MoonSym - \SunSym)}
+@p 0674b001
+or, taking $e_1$ for *e*, making $R = 1$, and expressing ρ in decimal parts ($\rho_1$):[^n]
+@n In the denominator of the first fraction the print has ε₁ for e₁.
+@m 0674b002
+\tan p = \dfrac{e_1 \sin 2\,(\MoonSym - \SunSym)}{\rho_1 + e_1 \cos 2\,(\MoonSym - \SunSym)} = \dfrac{\left(\dfrac{e_1}{\rho_1}\right) \sin 2\,(\MoonSym - \SunSym)}{1 + \left(\dfrac{e_1}{\rho_1}\right) \cos 2\,(\MoonSym - \SunSym)}\,.
+@p 0674b003..0674b004
+So the prosneusis *p* is a function of the double elongation. It is found in col. IV, whose argument is the mean double elongation, and al-Battānī very aptly calls it the *equation of the anomaly*[^674.1].
+@f 674.1 0674nl001..0674nr002
+This prosneusis is about half of the third lunar inequality, found by Tycho Brahe and known by the name of *variation*; besides what I said in vol. I, p. 224, see I. Bullialdus, *Astronomia philolaica*, Paris 1645, p. 173.
+@p 0674b005..0674b015
+The *second inequality* comes from the eccentric that carries the epicycle, because the centre of the moon's epicycle approaches the earth as it recedes from the apogee of the eccentric with twice the motion of the elongation of the moon from the sun; as I said, it is always added to the first inequality outside the syzygies, that is, whenever the centre of the epicycle (or the moon) is drawn away from the apogee of the eccentric. When the moon is in the mean quadratures (διχοτομίαι), that is, occupies the perigee of the eccentric, the distance ρ becomes not 60ᵖ but 60ᵖ − 2*e* = 60ᵖ − 20ᵖ 38′ = 39ᵖ 22′; so the *r* of the formula of the simple equation is then referred to the radius 39ᵖ 22′, and is not $5^{p}\,15'/60^{p}$ but $5^{p}\,15'/39^{p}\,22'$, or $8^{p}/60^{p}$. With the computation made in this way, the perigee equation of the moon is found to be 7° 40′, that is, to exceed the apogee simple equation (5° 1′) by 2° 39′. This difference is called the «*second inequality*»; half of it is what European astronomers today call the *evection*; it is given in col. VI of the table for the single degrees of the corrected anomaly.
+@p 0674b016..0674b022
+In the same way, at the intermediate distances (ρ being known from the double elongation of the moon from the sun), one computes by how much the simple (or apogee) equation must be increased. To make a simpler table, Ptolemy, V, 7 (ed. Halma, vol. I, pp. 313–15), referred the portions to be added for the single intermediate distances to the greatest difference, 2° 39′; that is, he gave in the table the fraction of the second inequality that must be taken for the distances answering to a given double elongation, the second inequality being converted into unity (1° = 60′). These *proportional sixtieths* are given in col. V, whose argument is the mean double elongation.
+@p 0674b023
+So the operations for computing the *whole*, or *compound*, *equation* of the moon are these:
+@p 0674b024..0674b025
+1°. From the tables of the mean motions take the mean longitude of the moon, the mean longitude of the sun and the mean anomaly of the moon; twice the difference of the longitudes will be the mean double elongation.
+@p 0674b026..0674b028
+2°. Entering the table with the mean double elongation, take from col. IV the correction of the mean anomaly and from col. V the sixtieth fraction; the correction is added to the anomaly in the first and fourth quadrants and subtracted in the second and third.
+@p 0674b029..0674b031
+3°. Entering with the equated, or corrected, anomaly, take the simple or apogee equation from col. III and the «least distance» (that is, the correction to be applied to the apogee equation at the perigee) from col. VI.
+@p 0674b032..0674b033
+4°. Let *c* be the correction taken from col. VI and *f* the sixtieth fraction from col. V; the correction of the simple equation found in col. III will be $(c \times f)/60'$. That is, of *c* take the part proportional to the minutes *f*.
+@p 0674b034..0674b036
+5°. Simple equation + $(c \times f)/60'$ = corrected equation of the centre, which is subtracted from the mean longitude or added to it according as the longitude is less or greater than 180 degrees[^n]. The *true longitude* of the moon sought will result.
+@n So the print; the sign depends on the corrected anomaly: the equation is subtracted when it is less than 180°, added when it is greater.
+@p 0675b001..0675b012
+Al-Battānī's tables rest on *Ptolemy's*, V, 7 (ed. Halma, vol. I, pp. 316–17), which is headed κανόνιον τῆς καϑόλου σεληνιακῆς ἀνωμαλίας, «table of the whole lunar inequality»; but not without good changes. The argument of the table, which in Ptolemy is collected by sixes of degrees in the first and fourth quadrants and by threes in the second and third, proceeds by single degrees in al-Battānī. — The equation of col. III (πλάτους καὶ μήκους προσϑαφαιρέσεις ἐπικύκλου, «prosthaphaereses of the latitude and longitude of the epicycle») Ptolemy computed without seconds and in a rougher way[^675.1], so that in him the errors often reach 1′ (once 1′ 9″), as appears from the table in Delambre, *Hist. de l'astron. ancienne*, vol. II, p. 176[^675.2]. Al-Battānī did far better, computing the seconds too. To heal the errors of the codex I made the computations afresh for the multiples of 6, with seven-figure logarithms and the formula[^n] \[ \tan \text{eq.} = \frac{e \sin m}{1 + e \cos m} \qquad \left(\text{where } e = \frac{5^{p}\,15'}{60^{p}}\right); \] the rest, apart from a few cases in which I used logarithms, I checked by easy interpolation. On p. 79 three errors must be corrected:
+@n The print has «1 + cos m» in the denominator.
+@f 675.1 0675nl001..0675nl003
+The same table of the simple equation (κανόνιον τῆς πρώτης καὶ ἁπλῆς ἀνωμαλίας τῆς σελήνης) is also in IV, 9 (ed. Halma, vol. I, p. 273).
+@f 675.2 0675nl004..0675nr001
+In this table of Delambre's the following should be corrected: under 78, 84 and 114 the equations are 4° *48*′ 18″ (Del. 8′), 4° 55′ *43*″ (Del. 39″) and 4° 44′ *17*″ (Del. 23″).
+@t spec=llrrrllrllrrr 0675b013..0675b015
+under | 35° | 2° | 40′ | *52″* | نب | for the codex's | 12″ | يب | exactly | 2° | 40′ | 52.6″
+» | 36° | 2 | *44* | 57 | مد نز | » | 45′ 17″ | مه يز |  | 2 | 44 | 59.5
+» | 37° | 2 | 49 | *2* | ب | » | 42″ | مب |  | 2 | 49 | 4
+@p 0675b016..0675b019
+In al-Battānī the seconds too often agree exactly with the numbers found by logarithms; sometimes discrepancies of 1″, 2″ or 3″ occur, very seldom greater ones (5° 0′ 57″ for 5° 1′ 9″ under 96°; 4° 53′ 30″ for 4° 53′ 19″ under 108°; 4° 52′ 10″ for 4° 52′ 3″ under 109°; 4° 44′ 6″ for 4° 44′ 17″ under 114°).
+@p 0675b020..0675b030
+In col. IV (ἐκκέντρου προσϑαφαιρέσεις ἀπογείου, «prosthaphaereses of the apogee of the eccentric») al-Battānī took over all of Ptolemy's numbers (only under 108 Ptol. has 13° 3′, Alb. 13° 2′), and derived the rest by interpolation. «Cette colonne n'est juste qu'à une ou deux minutes près, ce qui est suffisant» (this column is right only to within one or two minutes, which is enough), says Delambre (in Halma, notes, I, 36). — In these tables of the moon the codex always has الحصة *al-ḥiṣṣa* for الحاصة *al-ḥāṣṣa*; but I did not hesitate to restore الحاصة, as al-Battānī has it in the other tables and in the chapters. The error comes from the copyist, who followed the usage of some *Arab-African* writers. From this usage of the western Arabs, through the versions of Gerard of Cremona and the *Alfonsine Tables*, the words *Argumentum verum*, *Argumentum medium* and *Aequatio argumenti* also crept into many of our writers of the seventeenth century for the true anomaly, the mean anomaly and the equation of the anomaly (of the moon); see the definitions in I. B. Riccioli, *Almagestum Novum*, Bologna 1651, vol. I, p. 259.
+@p 0675b031..0675b032
+In col. V (διάφορα ἑξηκοστῶν, «differences of the sixtieths») he leaves out the seconds, which Ptolemy has.
+@p 0675b033..0675b036 + 0676b001..0676b002
+In col. VI (ἐπικύκλου διάφορα, «differences of the epicycle») is the amount by which the perigee equation exceeds the apogee equation. Al-Battānī took over Ptolemy's numbers[^675.3] and interpolated the rest. Of Ptolemy's numbers Delambre, *Astr. ancienne* II, 200, judges thus: «J'en ai calculé quelques exemples qui m'ont prouvé que les quantités (équat. périgée–équat. apogée) ou différences de l'épicycle ne sont quelquefois exactes qu'à 2′ près. Plus souvent l'erreur est de 1′ ou moindre encore» (I have computed some examples of them, which have shown me that the quantities (perigee equation − apogee equation), or differences of the epicycle, are sometimes right only to within 2′; more often the error is 1′ or less still).
+@f 675.3 0675nr002..0675nr004
+Sometimes there are discrepancies of ±1′, which al-Battānī himself clearly intended; the greatest amount is 2° 40′ for Ptolemy's 2° 39′.
+@p 0676b003..0676b009
+Col. VII: *the latitude of the moon*. — Ptolemy's table too is combined with the table of the lunar inequalities, so that in it the argument (the motion in latitude) proceeds not by single degrees but by sixes or threes. Ptolemy moreover leaves out the seconds; and he counts the argument from the *northern limit* (βόρειον πέρας), not from the ascending node, so that in the argument 0° of Ptolemy = 90° of al-Battānī (see vol. I, pp. 250–51). — Al-Battānī computed his table with the formula \[ \sin \text{lat.} = \frac{\sin \text{argum. of lat.} \times \sin \text{greatest latit.}}{R}\,; \] Schiaparelli checked it with logarithmic tables.
