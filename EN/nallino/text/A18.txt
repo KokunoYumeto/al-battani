@@ -1,0 +1,77 @@
+@unit A18
+@h 0281b008
+On chapter 18
+@c 0281b009
+**a**) — p. 31, ll. 30–32.
+@p 0281b010..0281b016
+[«*But the stars on either side*» etc. — The whole sentence is very obscure. The declination is greater or smaller than the latitude in various ways in the different regions of the sky, and it is not understood how it could be useful to take the sum or the difference of two quantities which, as the author himself says just below, are counted on two different circles. Either it is a gloss of a very unskilled reader, or a fragment of a fuller passage that it is now impossible to restore. Perhaps the arc that we shall call β′ in what follows was defined in this place; but it is a mere conjecture. — Schiaparelli.]
+@c 0281b017
+**b**) — pp. 31–32.
+@p 0281b018
+To compute the *declination* δ of a star whose longitude L and latitude β are known.
+@p 0281b019..0281b024
+Let β′ be the latitude of the point of the celestial equator that has the same longitude as the star[^281.1]; al-Battānī's rule is
+\[ [[(α)]] \sin\delta = \frac{\sin(\beta \pm \beta')\,\cos\varepsilon}{\cos\beta'}, \]
+which Aboul Hhassan, ch. XXV, p. 189, also gives later, and, together with other formulas, Ibn Yūnus, ch. XXXIX (in Delambre, p. 141), and Oloug Beg, p. 64 of the text, 90 of the translation.
+@f 281.1 0281nl001..0281nl003
+The quantity β′ al-Battānī calls «declination», that is, the second declination, as I have already said in the translation, p. 32, note 1.
+@fig AB01-PDF0281-F01 AB01-PDF0281-body-F01
+@p 0281b025..0281b031 + 0282b001..0282b003
+[This proposition was probably derived with the help of *the theorem of Menelaus*[^281.2], which Ptolemy always uses to solve spherical triangles, and which can be stated in this way. Let ABC be a spherical triangle whose sides are arcs of great circles; let a great circle αβγ cut the three sides of the triangle, produced as far as needed; among the six segments that can be conceived between each vertex of the triangle and the cutting arc αβγ there holds a relation which, putting sines for Menelaus' chords of the double arcs and using the present-day algebraic notation, is expressed in this way:
+\[ \sin A\beta \cdot \sin C\alpha \cdot \sin B\gamma = \sin C\beta \cdot \sin A\gamma \cdot \sin B\alpha. \]
+@f 281.2 0281nl004..0281nr005
+Menelaus, *Sphaerica* III, 2; it is also called *the rule of the six quantities*. The Arabs called its figure *al-shakl al-qaṭṭāʿ*, which the Latins of the Middle Ages translated *figura sector*, or, keeping the Arabic name, *figura alkata*; the Germans of today call it *Transversalenfigur*, and the proposition *Transversalensatz*.
+@fig AB01-PDF0282-F01 AB01-PDF0282-body-F01
+@p 0282b004..0282b012
+Now let S be the given star, P the pole of the equator, Q the pole of the ecliptic; let the produced sides of the triangle QPS be cut by the equator OY; then
+\[ \sin QZ \cdot \sin SV \cdot \sin PY = \sin SZ \cdot \sin QY \cdot \sin PV. \]
+But
+\[ QZ = QT + TZ = 90^\circ + \beta', \qquad QY = QX + XY = 90^\circ + \varepsilon, \]
+\[ SV = \delta, \qquad SZ = ST + TZ = \beta + \beta', \]
+\[ PY = 90^\circ, \qquad PV = 90^\circ. \]
+So the equation found before becomes
+\[ \cos\beta'\,\sin\delta \times R = \sin(\beta + \beta')\,\cos\varepsilon \times R, \]
+whence al-Battānī's rule. — Schiaparelli.]
+@p 0282b013..0282b027
+But al-Battānī never teaches how β′ is computed; which is truly strange, unless a lacuna is supposed in the archetype of the Escorial codex and of Plato's translation; see note *a* on this very chapter (p. 192). In Ibn Yūnus, ch. XXXIX (Delambre, p. 141), in Aboul Hhassan, ch. XXIV, p. 181, and in Oloug Beg, pp. 63–64 of the text, 88 of the translation, the quantity β′ is found in two ways[^n]:
+\[ \sin\beta' = \frac{\sin\delta'}{\cos d'}, \qquad \cos\beta' = \frac{\cos\varepsilon}{\cos d'}, \]
+where δ′ is the declination of the point *T* of the ecliptic (which is the longitude of the star), and *d′* the declination of the point of the ecliptic whose longitude equals the arc of the ecliptic between the point *T* and the nearest solstitial point. — But β′ can also be derived from the tables. Let the longitude *L* = *OT* be regarded as a right ascension; let it be increased by 90 degrees, since the author counts the right ascensions from the beginning of Capricorn, not of Aries, and let the sum be sought in the column of the degrees of the ascensions in the table of right ascensions (f. 179v ff.); the number corresponding to it in the column of the degrees of the ecliptic will be, after ninety degrees are taken off, the arc *OZ* of the equator, which we shall now regard as if it were an arc of the ecliptic. In the table of the declination of the sun (f. 177v f.) let us take the declination corresponding to the fictitious arc of the ecliptic *OZ*; the fictitious declination found will plainly be the arc *TZ*, that is, β′.
+@n The print has sin d′ in the first denominator. With sin δ′ = sin ε sin L and sin d′ = sin ε cos L, the second declination β′ (tg β′ = tg ε sin L) satisfies sin β′ = sin δ′ / cos d′, which is set here; the second formula is as printed.
+@p 0282b028..0282b038
+In the spherical triangle *OTZ*, right-angled at *T*, plainly (since the angle *XOY* = *TOZ* = ε) $\sin(\text{angle } Z) = \frac{\cos\varepsilon}{\cos\beta'}$; al-Battānī's formula can therefore be written
+\[ \sin\delta = \sin(\beta + \beta')\,\sin Z. \]
+Delambre, pp. 289 and 290, seems to me to have had this in mind when he says that Regiomontanus, in his *Tabulae Directionum* (of 1475), started from al-Battānī's idea in constructing a table that gives, for all celestial longitudes, the *radix ascensionum* (that is, the arc *OZ*), the *arcus* (that is, β′, the second declination), sin *Z* and cotg *Z*. In this way the ecliptic coordinates (longitude and latitude) could easily be turned into equatorial ones (declination and right ascension), using the formulas[^n]
+\[ \sin\delta = \sin(\beta + \beta')\,\sin Z, \]
+\[ \sin(OZ - \text{right asc.}) = \operatorname{tg}\delta\,\operatorname{cotg} Z. \]
+@n The print has cotg C for cotg Z: in the triangle SVZ, right-angled at V, sin VZ = tg δ cotg Z, with VZ = OZ − right ascension.
+@p 0282b039..0282b040
+Nor should it be forgotten that the Arabs often use the second declination, and indeed constructed tables of this declination for every degree of the ecliptic.
+@c 0282b041
+**c**) — p. 32, ll. 13–17.
+@p 0282b042..0282b043
+To derive *the degree of the ecliptic that culminates with a star* from the known latitude β, longitude *L* and declination δ of the star.
+@p 0283b001..0283b005
+The author computes what he calls «the difference (or variation) of the passage of the star through the middle of the sky» (*ikhtilāf majāz al-kawkab fī wasaṭ al-samāʾ*); this quantity is added to the right ascension of the degree of the star's longitude, or subtracted from it, as the case requires; the sum or the remainder will be the right ascension of the degree that culminates with the star. The longitude of that degree is drawn from the tables of right ascensions.
+@fig AB01-PDF0283-F01 AB01-PDF0283-body-F01
+@p 0283b006..0283b008 + 0283b009..0283b016
+[If the reading of the codex and of Plato were good, the author's rule would have to be expressed thus:
+\[ \sin(\text{diff. of passage}) = \frac{\sin\beta\,\sin\varepsilon\,\cos L}{R\,\cos\delta}. \]
+Let us now establish what this difference of passage, or difference of culmination, is. Let P be the pole of the equator, Q the pole of the ecliptic; through the given star A let the circle of declination PAB and the circle of latitude QAC be drawn; through the point H of the ecliptic, which is the degree of the star's longitude, let the circle of declination PHI be described. Plainly the arc BI of the equator is the interval between the passage of the star A through the meridian and the passage of the point H of the ecliptic, which is the degree of the star; or the difference between the right ascension (♈I) of the degree of the star and the right ascension (♈B) of the star.
+@p 0283b017..0283b028
+Since PB = PI = 90° by the constructions made, the arc BI (that is, the difference of passage sought) will be the measure of the angle APH. If we call D the declination of the point H, that is, the arc HI, we have
+\[ AH = \beta, \quad PH = 90^\circ - D, \quad PA = 90^\circ - \delta, \quad QA = 90^\circ - \beta, \quad QP = XZ = \varepsilon. \]
+And since *QH* = *QX* = 90°, the arc *HX* (that is, 90° − *L*) will be the measure of the angle *PQA*. By the proportionality of the sines of the angles to the sines of the opposite sides, in the triangle AHP
+\[ \sin(\text{diff. of passage}) = \sin\beta\,\frac{\sin PAQ}{\cos D}; \]
+likewise in the triangle AQP
+\[ \sin PAQ = \sin\varepsilon\,\frac{\cos L}{\cos\delta}; \]
+therefore
+\[ [[(α)]] \sin(\text{diff. of passage}) = \frac{\sin\beta\,\sin\varepsilon\,\cos L}{\cos D\,\cos\delta}. \]
+@p 0283b029..0283b034
+It is necessary, then, to put cos D for the *R* that the Escorial codex and Plato have; otherwise the rule is false. As was noted on p. 48 of the Arabic text, the words «the chord of what remains of the declination of the degree in which the star is, to complete ninety» (that is, cos *D*), which perhaps filled a line, seem to have been left out by mistake by a copyist in the archetype; the passage so corrupted («divide the product by, and take the arc of what results») an unskilled reader, who spoiled other things too, thought to restore by adding «half the diameter» after «by».
+@p 0283b035..0283b041 + 0284b001..0284b012
+Delambre, pp. 21–22, noticed no error in al-Battānī's rule, but interpreted it falsely. In our notation (for Delambre writes *B*, *D*, ω, λ, λ′ for our *H*, *B*, ε, β, β′), these are his words: «Cherchez cos *AC* et cos ♈*H*, vous aurez cos *AB* cos *CB* = cos *AC*, ou $\cos CB = \frac{\cos AC}{\cos AB}$, puis AR = ♈*B* = ♈*C* − *CB*; nous ferions tang *CB* = tang *AC* cos *C*, ou
+\[ \frac{\sin CB}{\cos CB} = \Bigl(\frac{\sin AC}{\cos AC}\Bigr)\cos C = \frac{\sin AC}{\cos AB\,\cos CB}\,\sin\varepsilon\,\cos \text{♈}H, \]
+et
+\[ \sin CB = \frac{\sin AC\,\sin\varepsilon\,\cos \text{♈}H}{\cos AB} = \frac{\sin(\beta + \beta')\,\sin\varepsilon\,\cos L}{\cos\delta}. \]
+..... On voit que les Arabes connaissaient les formules sin arc perp. = sin hypoténuse . sin angle à la base; cos hypoténuse = cos base . cos côté perpendiculaire»[^n] («Find cos AC and cos ♈H; you will have cos AB cos CB = cos AC, or cos CB = cos AC / cos AB, then the right ascension = ♈B = ♈C − CB; we would put tan CB = tan AC cos C, or [the formulas above]. One sees that the Arabs knew the formulas: sine of the perpendicular arc = sine of the hypotenuse × sine of the angle at the base; cosine of the hypotenuse = cosine of the base × cosine of the perpendicular side»). But in all this Delambre arbitrarily puts the sine of the *adjusted latitude* (sin [β ± β′]) of the preceding problem for the sine of the *latitude of the star* (sin β); and he thinks that what al-Battānī calls *the difference of the passage of the star through the middle of the sky* is the arc BC. Wrongly indeed: the name could not then fit the thing, nor could such an interpretation be reconciled with the rule that follows: «add (or subtract) its difference of passage through the middle of the sky to the times *of the right ascensions that correspond to the degree in which the star is*», where plainly the point I is meant, not the point C, which in no way shows the right ascension of the degree of the star's longitude. Moreover, Delambre's interpretation takes as already known the arc ♈C, which al-Battānī, on the other hand, does not teach how to compute. In my interpretation the quantity D (or the arc IH) is drawn at once from the table of the declinations of the sun (f. 177v–178r) or from the rules of chapter IV. — Schiaparelli.]
+@n The print has sin ω in the second fraction of the first formula; Nallino's Addenda et emendanda (Part I, p. LXXIII) correct it to sin ε.

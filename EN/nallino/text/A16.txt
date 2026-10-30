@@ -1,0 +1,70 @@
+@unit A16
+@h 0278b025
+On chapter 16
+@c 0278b026
+**a**) — p. 30.
+@p 0278b027
+To find the *hours elapsed since the rising of the sun* at a given moment of time, from the altitude of the sun.
+@p 0278b028..0278b032
+The problem reduces to finding the hour angle *t* (that is, the angle contained by the meridian and the circle of declination passing through the sun); it is added to the half arc of the day if the given time is after noon, or subtracted if the time is before noon. The sum or the remainder will be the arc of the revolution of the sphere, whose degrees are easily turned into equal or seasonal hours.
+@p 0278b033 + 0279b001
+Let *P* be the half arc of the day, *h* the altitude of the sun at the given time; al-Battānī's formula is
+\[ [[(α)]] \operatorname{vers} t = \operatorname{vers} P - \frac{\sin h\,\operatorname{vers} P}{\sin(\text{merid. alt.})}. \]
+@fig AB01-PDF0279-F01 AB01-PDF0279-body-F01
+@p 0279b002..0279b010
+This formula was plainly derived by the orthographic projection of the sphere. Onto the plane of the meridian circle AFPB let there be projected orthographically the horizon ACB, the celestial equator EC, and the parallel FG described by the sun, which is supposed to have reached H; the perpendicular FL will be the sine of the meridian altitude, HK the sine of the altitude at the given time. In the triangle FLG, since HK is parallel to the side FL, we have the proportion
+\[ FG : HG = FL : HK, \]
+\[ FG : HG = \sin(\text{merid. alt.}) : \sin h. \]
+@fig AB01-PDF0279-F02 AB01-PDF0279-body-F02
+@p 0279b011..0279b014 + 0279b015..0279b030
+Now, to know what FG and HG are, let us imagine the orthographic projection of the figure onto the plane of the equinoctial circle, leaving out the horizon circle; FXQ will be the meridian, the angle *f*X*h′* = *t*, the angle *f*X*g′* = P, *h*X = cos *t*, X*g* = cos *P*. From the similarity of the triangles *h′h*X and H′HX one gathers
+\[ FH : fh = H'X : h'X, \]
+that is,
+\[ FH : fh = FX : R; \]
+but $fh = fX - hX = R - \cos t = \operatorname{vers} t$, therefore
+\[ FH = \operatorname{vers} t\,\frac{FX}{R}. \]
+Similarly the proportion is derived
+\[ FG : fg = G'X : g'X, \]
+or
+\[ FG : fg = FX : R; \]
+but, since in the figure $P > 90^\circ$,
+\[ fg = fX + Xg = R + \cos P = \operatorname{vers} P, \]
+therefore $FG = \operatorname{vers} P\,\frac{FX}{R}$. Lastly
+\[ HG = FG - FH = \frac{FX}{R}\,(\operatorname{vers} P - \operatorname{vers} t). \]
+The first proportion found therefore becomes
+\[ \frac{FX}{R}\,\operatorname{vers} P : \frac{FX}{R}\,(\operatorname{vers} P - \operatorname{vers} t) = \sin(\text{merid. alt.}) : \sin h, \]
+whence $\operatorname{vers} P - \operatorname{vers} t = \frac{\sin h\,\operatorname{vers} P}{\sin(\text{merid. alt.})}$, and at last al-Battānī's formula:
+\[ [[(α)]] \operatorname{vers} t = \operatorname{vers} P - \frac{\sin h\,\operatorname{vers} P}{\sin(\text{merid. alt.})}. \]
+@p 0279b031..0279b032
+The same is read in Ḥabash, f. 99v (who calls vers *P* *jayb al-nahār*, «the sine of the day»), in Aboul Hhassan, ch. XLI, p. 261, and in Oloug Beg, p. 95 of the text, 122 of the translation.
+@p 0279b033..0279b038 + 0280b001..0280b017
+Algebraically it is not difficult to develop this formula further. By the rule of chapter IX
+\[ \operatorname{vers} P = R - \cos P = R + R\,\frac{\sin\varphi\,\sin\delta}{\cos\varphi\,\cos\delta}; \]
+from chapter XV one gathers
+\[ \sin(\text{merid. alt.}) = \sin(\text{compl. of }\varphi \pm \delta) = \frac{\cos\varphi\,\cos\delta \pm \sin\varphi\,\sin\delta}{R}, \]
+\[ \sin(\text{merid. alt.}) = \cos(\varphi \mp \delta); \]
+so that formula (α) can be written
+\[ \operatorname{vers} t = \Bigl(R + R\,\frac{\sin\varphi\,\sin\delta}{\cos\varphi\,\cos\delta}\Bigr) - \frac{\sin h\,\Bigl(R + R\,\frac{\sin\varphi\,\sin\delta}{\cos\varphi\,\cos\delta}\Bigr)}{\cos(\varphi \mp \delta)} \]
+\[ = \frac{R\,(\cos\varphi\,\cos\delta + \sin\varphi\,\sin\delta)}{\cos\varphi\,\cos\delta} - \frac{R\sin h\,(\cos\varphi\,\cos\delta + \sin\varphi\,\sin\delta)}{\cos\varphi\,\cos\delta\,\cos(\varphi \mp \delta)}. \]
+But (as appears from chapter III) $\cos\varphi\cos\delta + \sin\varphi\sin\delta = R\cos(\varphi - \delta)$, therefore
+\[ \operatorname{vers} t = R^2\,\frac{\cos(\varphi - \delta)}{\cos\varphi\,\cos\delta} - R^2\,\frac{\sin h\,\cos(\varphi - \delta)}{\cos\varphi\,\cos\delta\,\cos(\varphi \mp \delta)}, \]
+and at last
+\[ [[(I)]] \operatorname{vers} t = R^2\,\frac{\cos(\varphi - \delta) - \sin h}{\cos\varphi\,\cos\delta}, \]
+a formula which Delambre, p. 20, wrongly ascribes to al-Battānī himself (leaving out $R^2$, since we refer the trigonometric lines to $R = 1$). And since we derive the hour angle *t* directly from the well-known relation $\sin h = \sin\varphi\sin\delta + \cos\varphi\cos\delta\cos t$, that is,
+\[ \cos t = \frac{\sin h - \sin\varphi\,\sin\delta}{\cos\varphi\,\cos\delta}, \]
+where two multiplications have to be made instead of the single one ($R^2$ left out) found in (I), Delambre himself, p. 164, afterwards cites formula (I) as if it were the first and oldest example of *prosthaphaeresis*, the procedure by which our mathematicians, before logarithms were discovered, tried to put additions and subtractions in place of multiplications and divisions. Hankel, p. 281, and Cantor, I, p. 633 (= 694 of the second edition), repeat the same; but quite wrongly, for al-Battānī never converted formula (α), obtained by orthographic projection, into (I), as von Braunmühl, I, 53, note 2, very well perceived.
+@fig AB01-PDF0280-F01 AB01-PDF0280-body-F01
+@p 0280b018..0280b020 + 0280b021..0280b036
+Formula (I), written
+\[ \operatorname{vers} t = R^2\,\frac{\sin(\text{merid. alt.}) - \sin h}{\cos\varphi\,\cos\delta}, \]
+is in Oloug Beg, p. 96 of the text, 124 of the translation; who, however, without doubt derived it not algebraically from (α) but directly from the orthographic projection. In the first figure of this note let the perpendicular HZ be drawn; then ZL = HK = sin *h*, and FZ = sin merid. alt. − sin *h*. The angle XCG is the altitude of the pole above the horizon, that is, φ; therefore the angle FHZ = the angle XGC = 90° − φ. Plainly also CX = sin δ, FX = cos δ. Since the sides of any triangle are to one another as the sines of the opposite angles[^280.1],
+\[ FZ : FH = \sin(\text{angle } H) : \sin(\text{angle } Z) = \cos\varphi : \sin 90^\circ = \cos\varphi : R; \]
+therefore $FZ = FH\,\frac{\cos\varphi}{R}$. We saw above that $FH = \operatorname{vers} t\,\frac{FX}{R} = \operatorname{vers} t\,\frac{\cos\delta}{R}$; so
+\[ FZ = \frac{\operatorname{vers} t\,\cos\delta}{R} \times \frac{\cos\varphi}{R} = \frac{1}{R^2}\,\operatorname{vers} t\,\cos\delta\,\cos\varphi. \]
+But $FZ = \sin(\text{merid. alt.}) - \sin h$; therefore
+\[ \sin(\text{merid. alt.}) - \sin h = \frac{1}{R^2}\,\operatorname{vers} t\,\cos\delta\,\cos\varphi, \]
+whence
+\[ \operatorname{vers} t = R^2\,\frac{\sin(\text{merid. alt.}) - \sin h}{\cos\delta\,\cos\varphi}, \]
+as was to be proved.
+@f 280.1 0280n001
+Ulugh Beg was not unaware of the proposition; see p. 181, note 1.
