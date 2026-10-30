@@ -1,0 +1,22 @@
+@unit A09
+@h 0269b001
+On chapter 9
+@c 0269b002
+**a**) — pp. 21–22.
+@p 0269b003
+Given the altitude φ of the pole, to find the *greatest* or the *least half arc of the day of the sun*.
+@p 0269b004..0269b017
+With the preceding figure Ptolemy, *Almag.* II, 3 (ed. Halma, vol. I, pp. 70–71), proves
+\[ \frac{\text{chord}\,2ZB}{\text{chord}\,2BA} = \frac{\text{chord}\,2ZH}{\text{chord}\,2HT} \times \frac{\text{chord}\,2TE}{\text{chord}\,2EA}, \]
+that is,
+\[ \frac{\text{chord}\,2\varphi}{\text{chord}\,(180^\circ - 2\varphi)} = \frac{\text{chord}\,(180^\circ - 2\varepsilon)}{\text{chord}\,2\varepsilon} \times \frac{\text{chord}\,(180^\circ - 2P)}{\text{chord}\,180^\circ}. \]
+With sines put for chords,
+\[ \frac{\sin\varphi}{\cos\varphi} = \frac{\cos\varepsilon\,\sin(90^\circ - P)}{\sin\varepsilon \times R}, \]
+whence
+\[ \sin(90^\circ - P) = R\,\frac{\sin\varphi\,\sin\varepsilon}{\cos\varphi\,\cos\varepsilon}. \]
+Ptolemy had considered the shortfall of the shortest day with respect to the equinoctial day, that is, 90° − *P*; al-Battānī, on the other hand, the excess of the longest day, that is, *P* − 90°, so that his formula is
+\[ [[(α)]] \sin(P - 90^\circ) = -\cos P = R\,\frac{\sin\varphi\,\sin\varepsilon}{\cos\varphi\,\cos\varepsilon}. \]
+If another arc is sought instead of the greatest half arc of the day, let the declination (δ) of the point of the ecliptic that the sun occupies on the given day be put in place of the obliquity ε; al-Battānī's formula becomes[^269.1]
+\[ [[(β)]] -\cos P = R\,\frac{\sin\varphi\,\sin\delta}{\cos\varphi\,\cos\delta}. \]
+@f 269.1 0269n001
+We, using tangents and taking the radius $R = 1$, write more briefly $-\cos P = \operatorname{tg}\varphi\,\operatorname{tg}\delta$.

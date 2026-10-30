@@ -207,6 +207,7 @@ PREAMBLE = r"""\documentclass[11pt]{article}
 \usepackage[a4paper,left=28mm,right=32mm,top=25mm,bottom=25mm,marginparwidth=18mm,marginparsep=4mm]{geometry}
 \usepackage{fontspec,amsmath,amssymb,xcolor,needspace,longtable,array,booktabs,graphicx,tikz,trimclip}
 \usepackage{manyfoot,perpage}
+\usetikzlibrary{decorations.pathreplacing}
 \usepackage[unicode,hidelinks]{hyperref}
 \usepackage{polyglossia}
 \setmainlanguage{english}
@@ -318,6 +319,10 @@ def arabic_tex(b, idx, rows):
 
 
 def fig_tex(b):
+    """the figure with English labels from figures/ here, where its labels have words; else the redrawn original"""
+    cap = (r"\par{\footnotesize " + inline(" ".join(b["text"])) + "}") if b["text"] else ""
+    if (HERE / "figures" / f"{b['file']}.tex").exists():
+        return r"\begin{center}\input{figures/" + b["file"] + "}" + cap + r"\end{center}"
     for d in SOURCES.values():
         if (d / "figures" / f"{b['file']}.tex").exists():
             rel = (d / "figures" / f"{b['file']}.tex").relative_to(ROOT).as_posix()

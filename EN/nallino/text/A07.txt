@@ -1,0 +1,47 @@
+@unit A07
+@h 0266b026
+On chapter 7
+@c 0266b027
+**a**) — p. 20, ll. 22–30.
+@fig AB01-PDF0266-F01 AB01-PDF0266-body-F01
+@p 0266b028..0266b029
+To compute the *solstitial amplitude*[^266.1], given the greatest half arc of the day (P) and the obliquity of the ecliptic (ε).
+@f 266.1 0266nl001..0266nr005
+It is the arc of the horizon between the point of the east or the west and the place of the horizon from which the solstitial point of the ecliptic rises; if it is counted from the east point it is called the *rising amplitude* (*saʿat al-mashriq*), if from the west point, the *setting amplitude* (*saʿat al-maghrib*). The author can also call the amplitudes *azimuth*, since with the Arabs the beginning of the azimuths is taken from the east or the west point, not, as always with us, from the north or the south point.
+@p 0266b030..0266b036 + 0267b001..0267b005
+Let ABGD be the meridian circle, AEG the equinoctial circle (whose poles are P and Z), BED the horizon, H the solstitial point of the ecliptic; then TH = ε, AT = P, HE = the solstitial amplitude. With this construction Ptolemy, *Almag.* II, 2 (ed. Halma, vol. I, pp. 67–69), proves
+\[ \frac{\text{chord}\,2AT}{\text{chord}\,2AE} = \frac{\text{chord}\,2TZ}{\text{chord}\,2ZH} \times \frac{\text{chord}\,2HB}{\text{chord}\,2BE}, \]
+that is,
+\[ \frac{\text{chord}\,2P}{\text{chord}\,180^\circ} = \frac{\text{chord}\,180^\circ}{\text{chord}\,(180^\circ - 2\varepsilon)} \times \frac{\text{chord}\,(180^\circ - 2\ \text{sol. ampl.})}{\text{chord}\,180^\circ}. \]
+Using sines instead of chords, one finds
+\[ \frac{\sin P}{R} = \frac{R\,\cos(\text{sol. ampl.})}{\cos\varepsilon \times R}, \]
+whence al-Battānī's formula:
+\[ [[(α)]] \cos(\text{sol. ampl.}) = \frac{\cos\varepsilon\,\sin P}{R}. \]
+@c 0267b006
+**b**) — p. 20, ll. 34–41.
+@p 0267b007..0267b008
+To compute the *amplitude* of any point of the ecliptic that is not the solstitial point, given the half arc of the day of that point and the obliquity of the ecliptic.
+@p 0267b009..0267b012
+In the formula of the preceding problem it is enough to call P the half arc of the day of the given point of the ecliptic, and to use δ, the declination of the same given point, instead of the whole obliquity. Al-Battānī's formula follows at once:
+\[ [[(α)]] \cos(\text{ampl.}) = \frac{\cos\delta\,\sin P}{R}. \]
+@c 0267b013
+**c**) — p. 21, ll. 1–6.
+@p 0267b014..0267b015
+Given the latitude φ of the city and the declination δ of the proposed point of the ecliptic, to compute the *amplitude*.
+@p 0267b016..0267b025
+In the preceding figure BZ is plainly the altitude of the pole above the horizon of the given city, that is, the latitude φ. Ptolemy, *Almag.* II, 3 (ed. Halma, vol. I, pp. 71–72), proves geometrically
+\[ \frac{\text{chord}\,2ZA}{\text{chord}\,2AB} = \frac{\text{chord}\,2ZT}{\text{chord}\,2TH} \times \frac{\text{chord}\,2HE}{\text{chord}\,2EB}, \]
+that is[^n],
+\[ \frac{\text{chord}\,180^\circ}{\text{chord}\,(180^\circ - 2\varphi)} = \frac{\text{chord}\,180^\circ}{\text{chord}\,2\varepsilon} \times \frac{\text{chord}\,2\ \text{sol. ampl.}}{\text{chord}\,180^\circ}. \]
+With sines put for chords, the amplitude of any point of the ecliptic for that of the solstitial point, and so the declination δ of the given point for the whole obliquity ε, one finds
+\[ \frac{R}{\cos\varphi} = \frac{\sin(\text{ampl.})}{\sin\delta}, \]
+whence at once al-Battānī's formula:
+\[ [[(α)]] \sin(\text{ampl.}) = R\,\frac{\sin\delta}{\cos\varphi}. \]
+@n In the numerator of the third fraction the print has «chord sol. ampl.» for the chord of the double arc, «chord 2 sol. ampl.», as in the formula before it; the 2 is set here.
+@p 0267b026..0267b033
+Ḥabash, a contemporary of al-Battānī, fol. 92r, has three other formulas besides this one. The first (since cosec $x = R^2/\sin x$, and Ḥabash, ff. 85r–87v, gives a table of the cosecants divided by *R*, that is, cosec/R = R/sin) is
+\[ \sin(\text{ampl.}) = \frac{\operatorname{cosec}(90^\circ - \varphi)}{R}\,\sin\delta. \]
+The second, since $\sin\delta = \sin\varepsilon \sin L / R$ (where L is the longitude of the point of the ecliptic), is
+\[ \sin(\text{ampl.}) = \frac{\sin\varepsilon\,\sin L}{\cos\varphi}. \]
+The third was plainly found by orthographic projection:
+\[ \sin(\text{ampl.}) = \sqrt{(\operatorname{tg}\varphi\,\sin\delta)^2 + \sin^2\delta}. \]

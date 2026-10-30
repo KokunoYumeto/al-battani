@@ -1,0 +1,56 @@
+@unit A10
+@h 0269b018
+On chapter 10
+@c 0269b019
+**a**) — p. 22.
+@p 0269b020 + 0269b021
+To compute the *altitude h of the sun*, or the *zenith distance* ζ (= 90° − *h*), from the shadow of the gnomon, divided into 12 parts.
+@fig AB01-PDF0269-F01 AB01-PDF0269-body-F01
+@p 0269b022..0269b030
+I. From the *horizontal shadow*. Let the parts of the gnomon (that is, of the side AB) be called *p*; the author teaches, ll. 13–15, that
+\[ [[(α)]] \text{horizontal shadow} = p\,\frac{\cos h}{\sin h}. \]
+The proposition can easily be derived in this way: with the radius AD of sixty parts (to which the author refers the trigonometric functions) let the quadrant of a circle EFD be described; from the similarity of the right-angled triangles ABC and AGF one gathers at once
+\[ CB : AB = GA : FG, \]
+\[ \text{horizontal shadow} : p = \cos h : \sin h. \]
+@p 0270b001..0270b004
+It could have been derived more easily from the theorem that in any plane triangle the sides are to one another as the sines of the angles opposite them. But this proposition seems to have been unknown to the Arabs of that age[^270.1]; it is read later in Naṣīr al-Dīn al-Ṭūsī, who died in July 1274, as von Braunmühl, I, pp. 66–67, rightly says[^n].
+@n Nallino's Addenda et emendanda (Part I, p. LXXIII) add that al-Bīrūnī already mentions the theorem as a thing known to all (*Chronology*, p. 184 of the text, p. 166 of the translation).
+@f 270.1 0270nl001..0270nr004
+The proposition «in any spherical triangle the sines of the angles are directly proportional to the sines of the opposite sides», on the other hand, as far as right-angled triangles are concerned, seems from a passage of the book on the quadrilateral written by Naṣīr al-Dīn al-Ṭūsī to have been known already before al-Battānī to the mathematician Thābit ibn Qurra, who died in the month of Ṣafar 288 H (February 901); see H. Suter, *Zur Geschichte der Trigonometrie*, in Bibliotheca Mathematica, edited by G. Eneström, new series, vol. VII, Stockholm 1893, p. 7.
+@p 0270b005..0270b009
+The author then teaches how to find «the hypotenuse[^270.2] of the shadow triangle», that is, the side AC; plainly
+\[ [[(β)]] \text{hypotenuse of the shadow triangle} = \sqrt{\text{horizontal shadow}^2 + p^2}. \]
+And since $\sin h = R\,AB/AC$, we shall also have
+\[ [[(γ)]] \sin h = \frac{Rp}{\sqrt{\text{horizontal shadow}^2 + p^2}}. \]
+@f 270.2 0270nr005..0270nr007
+Or «the diameter»; in Arabic *quṭr* means both things, for the hypotenuse is always the diameter of the circle circumscribed about a right-angled triangle.
+@p 0270b010..0270b011
+II. From the *vertical shadow*. The author, ll. 30–32, states it as
+\[ [[(δ)]] \text{vertical shadow} = p\,\frac{\sin h}{\cos h}; \]
+@fig AB01-PDF0270-F01 AB01-PDF0270-body-F01
+@p 0270b012..0270b016
+then he gives two formulas:
+\[ [[(ε)]] \sin\zeta = \cos h = \frac{Rp}{\sqrt{\text{vertical shadow}^2 + p^2}}, \]
+which is derived very easily, like (γ);
+\[ [[(ζ)]] \sin h = \frac{R \times \text{vertical shadow}}{\sqrt{\text{vertical shadow}^2 + p^2}}, \]
+which only represents the well-known definition $\sin h = R\,BC/AC$.
+@p 0270b017..0270b029 + 0271b001..0271b005
+Had the author divided the gnomon into 60 parts (as he had already taken a radius of 60 parts, to which he refers the sine, the versed sine and the cosine), these shadows would plainly have become true trigonometric functions, and the formulas just found could have been written
+\[ [[(α′)]] \operatorname{cotg} h = R\,\frac{\cos h}{\sin h} \qquad (\beta')\quad \operatorname{cosec} h = \sqrt{R^2 + \operatorname{cotg}^2 h} \]
+\[ [[(γ′)]] \sin h = \frac{R^2}{\operatorname{cosec} h} \qquad (\delta')\quad \operatorname{tg} h = R\,\frac{\sin h}{\cos h} \]
+\[ [[(ε′)]] \cos h = \frac{R^2}{\sec h} \qquad (\zeta')\quad \sin h = R\,\frac{\operatorname{tg} h}{\sec h}; \]
+which, when $R = 1$ is taken, as is the present custom, correspond entirely to our trigonometric formulas. It is worth quoting here the words of Delambre, pp. 16–17: «Les Arabes avaient donc, au tems d’Albategni, des tables des quantités, $\text{ombre} = \sigma = \nu\,\frac{\cos h}{\sin h} = 12 \cot h = 12\,\text{tang}\,N$, et par conséquent des tables de tangentes, mais calculées pour le rayon 12, tandis que les sinus étaient calculés pour le rayon 60; mais en multipliant ces tangentes par 5, ou 10/2, on aurait eu les tangentes pour le rayon 60. ..... Voilà bien la première idée des tangentes; voilà des tables qui donnent les tangentes de tous les arcs, et par lesquelles tout arc peut être connu d’après sa tangente. Le malheur est ce choix du rayon de douze parties, qui étaient encore une imitation d’une pratique grecque[^271.1]. Albategni ne sentit pas l’utilité de ces tangentes pour les calculs trigonometriques, et la preuve, c’est qu’il n’a pas changé le rayon» («So in al-Battānī's time the Arabs had tables of the quantities shadow = σ = ν cos h/sin h = 12 cot h = 12 tan N, and consequently tables of tangents, but computed for the radius 12, while the sines were computed for the radius 60; by multiplying these tangents by 5, or 10/2, one would have had the tangents for the radius 60. ..... Here indeed is the first idea of the tangents; here are tables that give the tangents of all arcs, and by which any arc can be known from its tangent. The misfortune is this choice of a radius of twelve parts, which was again an imitation of a Greek practice. Albategni did not feel the usefulness of these tangents for trigonometric computations, and the proof is that he did not change the radius»).
+@f 271.1 0271nl001..0271nl006
+More correctly von Braunmühl, I, p. 51: «Unzweifelhaft folgt er hierin indischen Vorbildern, denn, wie wir schon sahen (S. 39), teilten auch die Inder das Gnomon in 12 Finger, während Ptolemaeus die Einteilung in 60ᵖ hat [*Almag.* II, 5, ed. Halma, vol. I, p. 75]» («Without doubt he follows Indian models in this, for, as we have already seen (p. 39), the Indians too divided the gnomon into 12 fingers, while Ptolemy has the division into 60 parts»).
+@p 0271b006..0271b015
+The historians of mathematics among us agree with one voice that Abū l-Wafāʾ (who died in the month of Rajab 388 = July 998) was the first to use the shadows as trigonometric functions and to make tables of cotangents for the radius 1 and for the radius 60ᵖ. This universal opinion, however, does not seem right to me, since already in the astronomical work of Ḥabash, al-Battānī's contemporary, the shadows are referred to the radius 60ᵖ, like the sines (fol. 97r–v); indeed, ff. 85r–87v give tables which, taking the radius as 60ᵖ, contain for every degree of the quadrant the tangents (*ẓill maʿkūs*, «the inverted shadow»), the cotangents (*ẓill mustawī*, «the straight shadow»)[^271.2], the tangents multiplied by 0ᵖ 26′ 11″ 34‴, and lastly the cosecants (*quṭr al-ẓill*, «the hypotenuse of the shadow») divided by the radius, that is, cosec/R = R/sin. And he uses these trigonometric functions, computed to the seconds, here and there in his formulas.
+@f 271.2 0271nl007..0271nr003
+M. Curtze (in *Bibliotheca Mathematica herausgegeben von G. Eneström*, new series, vol. X, 1896, p. 71) is mistaken when he says of the words umbra recta and umbra versa: «vor Abû ’l-Wafâ, der 998 starb, waren sie überhaupt als *termini technici* nicht bekannt» («before Abū l-Wafāʾ, who died in 998, they were not known at all as technical terms»).
+@p 0271b016..0271b020
+What al-Battānī calls *ẓill mabsūṭ*, «the extended or spread shadow», other Arabs call *ẓill thānī*, «the second shadow», or *ẓill mustawī*, «the straight shadow». The tangent, on the other hand, which al-Battānī calls *ẓill qāʾim*, «the standing shadow», or *ẓill muntaṣab*, «the erect shadow», others mostly call *ẓill awwal*, «the first shadow», or *ẓill maʿkūs*, «the inverted shadow».
+@p 0271b021..0271b028
+With the Arabs a threefold division of the gnomon is found. The first is the one the Indians always use, which al-Battānī adopted as the most usual of all with the calculators; it comprises 12 parts, called digits (*aṣābiʿ*), and can be used only in dialling. Another, also set up for dialling but rarer than the first[^271.3], counts 7, or 6 2/3, or 6 1/2 parts, called feet (*aqdām*). The third, lastly, which serves dialling and trigonometry at once, gives a division into sixtieths (*ajzāʾ*). — Oloug Beg, p. 61 of the text, 85 of the translation, says that the calculators always refer the first shadow (the tangent) to a gnomon of 60 parts, and the second shadow (the cotangent) indifferently to a gnomon of 60, 12 or 7 parts.
+@f 271.3 0271nr004..0271nr009
+And later; for, as far as the published Arab writers go, it is not found before the thirteenth century; see Aboul Hhassan, ch. XV, p. 152 (where 6 2/3); Barhebraeus, p. 178 of the text (where 7); al-Jaghmīnī, p. 270 (where 7 and 6 1/2); Oloug Beg, p. 61 of the text, 85 of the translation (where 7).
+@p 0271b029..0271b033
+The gnomon shows the shadow of the upper limb of the solar disc, not of the centre of the sun, so that the altitude found with the gnomon exceeds the true altitude by about 16 minutes. Neither the Greeks nor al-Battānī seem to have noticed this; only later Ibn Yūnus, ch. XI, as Delambre, p. 102, relates, «dans un discours sur l’ombre, il démontre géometriquement que l’ombre du gnomon est celle du bord supérieur; il ne dit rien de la pénombre» («in a discourse on the shadow, proves geometrically that the shadow of the gnomon is that of the upper limb; he says nothing of the penumbra»).

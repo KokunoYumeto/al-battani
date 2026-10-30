@@ -1,0 +1,27 @@
+@unit A08
+@h 0268b001
+On chapter 8
+@c 0268b002
+**a**) — p. 21.
+@p 0268b003..0268b005
+To compute the *altitude* φ *of the pole*, given the difference between the equinoctial day (of 12 hours) and the longest day, that is, given the difference between the equinoctial half arc of the day (of 90 degrees) and the greatest half arc of the day.
+@p 0268b006..0268b017
+First al-Battānī teaches how to find «the distance of the rising of the beginning of Cancer from the north point», which in the following figure is plainly represented by the arc HD, the same as the arc HE (that is, the solstitial amplitude) increased by ninety degrees; so the sine of that distance is the cosine of the solstitial amplitude, and al-Battānī's rule follows at once from the formula of note *a* on ch. VII:
+\[ [[(α)]] \sin(\text{dist. of the rising of }0^\circ\text{ Cancer from the north point}) = \frac{\cos\varepsilon\,\sin P}{R}. \]
+The arc EH is what the author now calls «the distance of the rising of the beginning of Cancer from the point of the rising of the equinox», that is, what he had called «the solstitial amplitude» in the preceding chapter. This premised, al-Battānī gives the formula
+\[ [[(β)]] \sin\varphi = \frac{\sin(P - 90^\circ) \times \sin(\text{dist. of }0^\circ\text{ Cancer from the north point})}{\sin(\text{dist. of Cancer from the equinoctial rising})} \times \frac{R}{\sin P}, \]
+which, since $\sin(P - 90^\circ) = -\cos P$, may be written[^268.1]
+\[ \sin\varphi = -\frac{\cos P}{\sin P} \times \frac{\cos(\text{sol. ampl.})}{\sin(\text{sol. ampl.})} \times R. \]
+@f 268.1 0268nl001..0268nr002
+It is easily reduced to our $\operatorname{tg}\varphi = -\cos P \operatorname{cotg}\varepsilon$ if $\cos\varepsilon \sin P / R$ is put for cos sol. ampl., and $R \sin\varepsilon / \cos\varphi$ for sin sol. ampl., as the author taught in ch. VII.
+@fig AB01-PDF0268-F01 AB01-PDF0268-body-F01
+@p 0268b018..0268b029
+The formula comes from Ptolemy's construction, *Almag.* II, 3 (ed. Halma, vol. I, pp. 69–70). Let the figure be as in the notes on the preceding chapter; Ptolemy proves
+\[ \frac{\text{chord}\,2ET}{\text{chord}\,2AT} = \frac{\text{chord}\,2EH}{\text{chord}\,2HB} \times \frac{\text{chord}\,2BZ}{\text{chord}\,2ZA}, \]
+that is,
+\[ \frac{\text{chord}\,(180^\circ - 2P)}{\text{chord}\,2P} = \frac{\text{chord}\,2\ \text{sol. ampl.}}{\text{chord}\,(180^\circ - 2\ \text{sol. ampl.})} \times \frac{\text{chord}\,2\varphi}{\text{chord}\,180^\circ}. \]
+With sines put for chords,
+\[ \frac{\cos P}{\sin P} = \frac{\sin(\text{sol. ampl.})}{\cos(\text{sol. ampl.})} \times \frac{\sin\varphi}{R}, \]
+whence
+\[ \sin\varphi = \frac{\cos P}{\sin P} \times \frac{\cos(\text{sol. ampl.})}{\sin(\text{sol. ampl.})} \times R, \]
+where cos P is positive because Ptolemy considered the difference between the least half arc of the day and the equinoctial half arc of the day, that is, 90° − P instead of P − 90°.
