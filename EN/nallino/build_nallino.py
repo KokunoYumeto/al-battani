@@ -221,6 +221,7 @@ PREAMBLE = r"""\documentclass[11pt]{article}
 \setmainlanguage{english}
 \setotherlanguages{arabic,greek,hebrew}
 \setmainfont{Linux Libertine O}[Ligatures=TeX]
+\setlength{\emergencystretch}{1.5em}
 \newfontfamily\arabicfont{Amiri}[Script=Arabic]
 \newfontfamily\ArNote{Amiri}[Script=Arabic,Scale=1.05]
 \newfontfamily\greekfont{FreeSerif}[Script=Greek]
