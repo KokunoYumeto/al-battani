@@ -1,0 +1,40 @@
+@unit A40
+@h 0353b001
+On chapter 40
+@c 0353b002
+**a**) — p. 84, ll. 38–40.
+@p 0353b003..0353b010
+To the *corrected parallaxes* of the moon in longitude and latitude, taken from Theon's tables, *a quantity must be added*, which according to Plato is 1/18 of them, according to the codex 1/38. Theon, *Tables manuelles*, vol. I, p. 68, says that 1/20 of them must be added to the parallaxes taken from the tables of correction, because of the parallax of the sun. For he computed the tables of the lunar parallaxes as if he had already subtracted the parallax of the sun from the parallax of the moon. — If the parallax of the sun is taken in round numbers as 3 minutes (see pp. 252 and 258), these 3′ are the eighteenth part of 54′, which, according to Ptolemy and al-Battānī, make up the parallax of the moon at the first limit (53′ 34″; see the tables, vol. II, p. 94). So Plato's number, 1/18, is good.
+@p 0353b011..0353b012
+Because of the different obliquity of the ecliptic that Theon uses, no perceptible difference arises in the parallax; see p. 262, note *s*.
+@c 0353b013
+**b**) — p. 85, ll. 1–27.
+@p 0353b014
+I. — *To find the lunar parallax in altitude by observations* (ll. 1–18).
+@p 0353b015..0353b018
+Al-Battānī teaches very well to observe the moon at the nonagesimal (see p. 262, note); for then the circle of latitude passing through the centre of the moon and the nonagesimal becomes the vertical circle, or circle of altitude, so that the parallax in longitude is reduced to nothing, and the parallax in latitude is the parallax in altitude itself.
+@p 0353b019..0353b023
+Tycho Brahe too sometimes used the same method: «Now I shall add three other [parallaxes] observed outside the meridian, when the moon was at about the 90th degree of the ecliptic from the horizon, then showing no difference between the apparent and the true longitude but turning it all into the latitude; so, when the true latitude is compared, the investigation of the parallax will be very easy (*facilima* [sic])»[^353.1].
+@f 353.1 0353nl001..0353nr005
+Tychonis Brahe Dani *Astronomiae instauratae progymnasmata*, Uraniborg and Prague 1610, vol. I, p. 461. See also Riccioli, *Almagestum novum*, Bologna 1651, vol. I, p. 221. — In other problems Hipparchus had already observed the moon at the nonagesimal on purpose, to avoid the parallax in longitude; see *Almag.* V, 3 (ed. Halma vol. I, 293–94, 295), and V, 5 (ed. Halma I, 304); Delambre, *Astr. anc.*, II, 188, 189, 194; and Pappus' remarks in Delambre, *Astr. anc.*, II, 579.
+@p 0353b024..0353b029
+Ptolemy, V, 13 (ed. Halma vol. I, pp. 332–38), had followed another way, choosing the meridian instead of the nonagesimal. For on the 13th day of the month Athyr of the 20th year of Hadrian, or 882 of Nabonassar, 5 1/2 + 1/3 equinoctial hours after noon, he had observed the moon near the tropic of Capricorn (exactly at 3° 10′ of Capricorn), so that the circle of latitude was very nearly the meridian (ἔγγιστα ἦν τότε τῷ μεσημβρινῷ) and the parallax in altitude did not differ from the parallax in latitude. See also Delambre, *Astron. ancienne*, II, 209 and 210.
+@p 0353b030..0353b031
+II. — When the zenith distance and the parallax are known, *to compute the distance of the moon from the centre of the earth*, the radius of the earth being taken as one part (ll. 19–27).
+@p 0353b032..0353b034
+Let ζ be the apparent zenith distance of the moon, *p* the sum of the parallaxes of the sun and the moon in the vertical circle, *a* the semidiameter of the earth; al-Battānī gives two solutions of the problem, which, because of much that is left out in the codex and in Plato, have wrongly run together into one.
+@fig AB01-PDF0354-F01 AB01-PDF0354-body-F01
+@p 0354b001..0354b009
+I. Let E be the centre of the earth, F the place of observation, Z the zenith, L the moon; then the angle ZFL = ζ, the angle FLE = *p*, and EL = the required geocentric distance. Let FL be produced until it makes a right angle at Q with the straight line EQ. Plainly:
+\[ \sin FLE = R\,\frac{EQ}{EL}\,, \qquad \sin QFE = R\,\frac{EQ}{EF}\,, \]
+that is,
+\[ \sin p = R\,\frac{EQ}{\text{dist.}}\,, \qquad \sin\zeta = R\,\frac{EQ}{a}\,, \]
+whence geocentric distance × sin *p* = *a* sin ζ. And since *a* is taken = 1, al-Battānī's first formula arises at once:
+\[ [[(α)]] \text{geocentric distance} = \frac{\sin\zeta}{\sin p}\,. \]
+@fig AB01-PDF0354-F02 AB01-PDF0354-body-F02
+@p 0354b010..0354b021
+II. [The other rule, the greater part of which is missing, was beyond doubt this. Let *z* be the *true* zenith distance, namely ZEL; let the perpendicular FQ be drawn; in the same way as before for EL one finds very easily $FL = a\,\frac{\sin z}{\sin p}$. Because the angle FLE is small, one can set without perceptible error $QL = FL = a\,\frac{\sin z}{\sin p}$; and $EQ = \frac{a\cos z}{R}$; so
+\[ \text{geocentric distance} = EL = QL + EQ = a\,\frac{\sin z}{\sin p} + a\,\frac{\cos z}{R}\,. \]
+If *a* is taken = 1, and in the second term the true altitude *h* is put for its complement *z*, al-Battānī's other formula arises:
+\[ [[(β)]] \text{geocentric distance} = \frac{\sin z}{\sin p} + \frac{\sin h}{R}\,. \]
+On p. 85, ll. 23–24, the words «*multiply into the semidiameter, and the product*» must be deleted. — Schiaparelli.]

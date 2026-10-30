@@ -173,7 +173,7 @@ def plain(s):
     s = tex_escape(s).replace(r"\{0\}", r"\AbjadZero{}")  # {0}: Nallino's sign for zero in abjad numbers
     s = re.sub(r"\*\*([^*]+)\*\*", r"\\textbf{\1}", s)
     s = re.sub(r"\*([^*]+)\*", r"\\emph{\1}", s)
-    s = re.sub(r"([؀-ۿݐ-ݿﭐ-﷿ﹰ-﻿][؀-ۿݐ-ݿﭐ-﷿ﹰ-﻿\s«»]*[؀-ۿݐ-ݿﭐ-﷿ﹰ-﻿]|[؀-ۿ])", r"\\RL{\\ArNote \1}", s)
+    s = re.sub(r"([؀-ۿݐ-ݿﭐ-﷿ﹰ-﻿][؀-ۿݐ-ݿﭐ-﷿ﹰ-﻿\s«».]*[؀-ۿݐ-ݿﭐ-﷿ﹰ-﻿]|[؀-ۿ])", r"\\RL{\\ArNote \1}", s)  # a stop between Arabic words stays in the run
     s = s.replace("\u00a0", "~")  # a no-break space, as between the groups of an abjad number (inside its RL run)
     s = GREEK_RUN.sub(r"{\\greekfont \1}", s)
     s = re.sub(r"([֐-׿][֐-׿\s]*[֐-׿])", r"\\RL{\\hebrewfont \1}", s)

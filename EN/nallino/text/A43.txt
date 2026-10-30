@@ -1,0 +1,50 @@
+@unit A43
+@h 0364b006
+On chapter 43
+@c 0364b007
+**a**) — p. 97, l. 35.
+@fig AB01-PDF0364-F01 AB01-PDF0364-body-F01
+@p 0364b008..0364b018
+[Al-Battānī uses the word *stay* in various senses. Let O be the centre of the shadow, *b* the centre of the moon at the middle of the eclipse, *a* the centre of the moon at the end of totality, *c* at the beginning. Here and on p. 98, l. 36, the *minutes of the stay* are the quantity AK by which the magnitude of the total eclipse exceeds 12 digits; but on p. 98, l. 6, and often elsewhere, the *minutes of the stay* are 1/2 the length *bc* of the path that the moon runs within the shadow from the beginning to the end of totality. The *hours of the stay*, or *time of the stay*, give the interval of time in which the moon comes from *b* to *a*, namely half the time of totality. Lastly, he calls *the whole stay* the greatest value of the stay, which answers to a central eclipse; it is therefore half the difference of the diameters of the shadow and the moon. — Schiaparelli.]
+@c 0364b019
+**b**) — p. 98, l. 39 – p. 99, l. 3.
+@p 0364b020..0364b021 + 0364b022..0364b033
+[The words printed in italics teem with several errors arising from the carelessness of the copyists. The probable restoration, as appears easily from the figure, is this: «From this motion, as we have seen, learn the latitude of the moon at both times [BA or DE], *and subtract its square from the square of the half-difference* [OB or OD] *of the two diameters, which is the amount of the minutes of the whole stay*[^364.2]. *To the remaining quantity* [$\overline{OA}^{2}$ or $\overline{OE}^{2}$, or, what is the same, $\overline{HB}^{2}$ or $\overline{DC}^{2}$] *add the square of the difference* between the latitudes of the moon at the middle of the eclipse and at that time [$\overline{IH}^{2}$ or $\overline{IC}^{2}$]; divide the root of this sum [$\sqrt{\overline{HB}^{2} + \overline{IH}^{2}} = IB$, or $\sqrt{\overline{DC}^{2} + \overline{IC}^{2}} = ID$] by the gain of the moon. What comes out from the time of the beginning …». The preceding rules on p. 98 are proved in the same way. — Schiaparelli.]
+@f 364.2 0364nr001
+See note *a* above.
+@fig AB01-PDF0364-F02 AB01-PDF0364-body-F02
+@c 0364b034
+**c**) — p. 99, l. 22 – p. 100, l. 8.
+@p 0364b035
+[*The computation of the area of the lunar disc that is covered.*
+@fig AB01-PDF0365-F01 AB01-PDF0365-body-F01
+@p 0364b036 + 0365b001..0365b021
+I do not remember having found the author's rules for computing the *sagittae* of the moon and the shadow in other writers; they can be proved in this way. Al-Battānī says that the sagitta LK of the shadow $= \frac{KA \times KN}{2\,SV}$. Let *a* be the semidiameter of the shadow, *c* the semidiameter of the moon, *b* = VS the distance of the centres. This distance is divided by the common chord BC into two parts, SL = *y* and LV = *x*; so *x* + *y* = *b*. Then Euclid's well-known theorem (II, 13) teaches that in the triangle SBV
+\[ a^{2} = b^{2} + c^{2} - 2b\cdot x \]
+\[ c^{2} = b^{2} + a^{2} - 2b\cdot y \]
+so
+\[ x = \frac{b^{2} - a^{2} + c^{2}}{2b}\,, \qquad y = \frac{b^{2} + a^{2} - c^{2}}{2b}\,. \]
+It is now easy to compute both sagittae, LK = *a* − *y* and LN = *c* − *x*. Substituting the values of the lines *y* and *x* just found:
+\[ LK = a - y = a - \frac{b^{2} + a^{2} - c^{2}}{2b} = \frac{2ab - b^{2} - a^{2} + c^{2}}{2b} = \]
+\[ = \frac{c^{2} - (a - b)^{2}}{2b} = \frac{1}{2b}\Bigl\{c + (b - a)\Bigr\}\Bigl\{c - (b - a)\Bigr\}\,, \]
+whence
+\[ [[(α)]] LK = \text{sagitta of the shadow} = \frac{1}{2SV}\,KA \times KN. \]
+Similarly
+\[ LN = c - x = c - \frac{b^{2} - a^{2} + c^{2}}{2b} = \frac{2bc - b^{2} + a^{2} - c^{2}}{2b} = \]
+\[ = \frac{a^{2} - (b - c)^{2}}{2b} = \frac{1}{2b}\Bigl\{a + (b - c)\Bigr\}\Bigl\{a - (b - c)\Bigr\}\,, \]
+\[ LN = \text{sagitta of the lunar disc} = \frac{1}{2SV}\,ZN \times KN. \]
+@p 0365b022..0365b025
+Al-Battānī proposes formula (α); he derives the sagitta of the lunar disc directly from the sagitta of the shadow, setting
+\[ [[(β)]] LN = \text{sagitta of the lunar disc} = NK - LK = \]
+\[ = \text{digits of the corrected eclipse} - \text{sagitta of the shadow}. \]
+A truly most elegant solution.
+@p 0365b026..0365b037
+Then al-Battānī computes the half-chord BL (*the half common sine*), using the well-known rule $BL = \sqrt{NL \times LA}$:
+\[ [[(γ)]] \text{half common sine} = \sqrt{\text{sag. lun. disc} \times (\text{digits of the lun. diam.} - \text{sag. lun. disc})}. \]
+He finds the area of the triangle BVC (*the triangle of the moon*) by multiplying the half common sine BL into the distance LV; and this distance is LV = KV + LK = (semidiam. ☾ − digits of the corrected eclipse) + sagitta of the shadow[^365.1]. The area of the *triangle of the shadow* BSC is computed in the same way. — This done, he derives *the area of the arc of the moon*, that is, of the sector VBNC, by multiplying the semidiameter VN of the moon into the *arc of the moon*, namely into the arc BN, taken from the tables with the help of the sine BL. Similarly, *arc of the shadow* BK × semidiameter SK of the shadow = *area of the arc of the shadow*. — Lastly
+\[ [[(δ)]] (\text{area of the arc of}\ \MoonSym + \text{area of the arc of the shadow}) - \]
+\[ - (\text{triangle of}\ \MoonSym + \text{triangle of the shadow}) = \]
+\[ = \text{area of the covered part of the lunar disc}, \]
+which is the area of the curvilinear figure NBKC. — Schiaparelli.]
+@f 365.1 0365n001
+The codex and Plato wrongly have «sagitta of the lunar disc» (p. 99, ll. 28–30).

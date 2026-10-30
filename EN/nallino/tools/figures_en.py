@@ -18,6 +18,38 @@ DROP = {"AB01-PDF0347-F01": [("ecliptica", "ecliptic"), ("meridianus", "meridian
         "AB01-PDF0348-F01": [("ecliptica", "ecliptic"), ("aequator", "equator")]}
 
 
+# words set letter by letter whose English has as many letters: the letters are replaced one for one, in order
+SEQ = {"AB01-PDF0364-F02": [("umbraTerrae", "Earthshadow")], "AB01-PDF0365-F01": [("umbraTerrae", "Earthshadow")]}
+
+
+def height(c):
+    """the height of a letter in ems, roughly: capitals, ascenders, t, i and the x-height letters"""
+    return 0.66 if c.isupper() else 0.70 if c in "bdfhkl" else 0.58 if c == "t" else 0.65 if c == "i" else 0.44
+
+
+def letter_nodes(lines):
+    return [(i, m.group(1)) for i, line in enumerate(lines)
+            if not line.startswith("%") and (m := re.search(r"\{(\S)\}\};\s*(%.*)?$", line))]
+
+
+def replace_letters(lines, pairs):
+    """the lines with the letter nodes of a Latin word replaced, in order, by those of the English word"""
+    one, lines = letter_nodes(lines), list(lines)
+    for latin, english in pairs:
+        for k in range(len(one) - len(latin) + 1):
+            if "".join(c for _, c in one[k:k + len(latin)]) == latin:
+                for (i, c), e in zip(one[k:k + len(latin)], english):
+                    if c != e:   # the English letter takes the printed letter's size: its height scales by letter class
+                        new = re.sub(r"\{" + re.escape(c) + r"\}\};", "{" + e + "}};", lines[i])
+                        lines[i] = re.sub(r"\\resizebox\{[^{}]*\}\{([\d.]+)pt\}",
+                                          lambda m: r"\resizebox{!}{%.2fpt}" % (float(m.group(1)) * height(e) / height(c)),
+                                          new)
+                break
+        else:
+            raise SystemExit(f"{latin} not found")
+    return lines
+
+
 def drop_letters(lines, pairs):
     """the lines without the letter nodes that the English word does not keep"""
     one = [(i, m.group(1)) for i, line in enumerate(lines)
@@ -58,6 +90,8 @@ for d in ("S03", "S04"):
             lines.append(line)
         if f.stem in DROP:
             lines, changed = drop_letters(lines, DROP[f.stem]), True
+        if f.stem in SEQ:
+            lines, changed = replace_letters(lines, SEQ[f.stem]), True
         if changed:
             head = f"% The English labels of this figure; otherwise the figure of {d}/versio/figures as redrawn there.\n"
             (OUT / f.name).write_text(head + "".join(lines), encoding="utf-8", newline="\n")
