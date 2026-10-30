@@ -179,7 +179,7 @@ def plain(s):
     s = re.sub(r"([֐-׿][֐-׿\s]*[֐-׿])", r"\\RL{\\hebrewfont \1}", s)
     s = re.sub(r"([܀-ݏ][܀-ݏ\s]*[܀-ݏ])", r"\\RL{\\syriacfont \1}", s)
     s = COPTIC_RUN.sub(r"{\\CopticFont\\bfseries \1}", s)
-    s = re.sub(r"([☉☽☾♈-♓☿♀♂♃♄⊙])", r"{\\MoonFont\\upshape \1}", s)  # FreeSerif Italic lacks these signs
+    s = re.sub(r"([☉☽☾♈-♓☿♀♂♃♄⊙☊☋])", r"{\\MoonFont\\upshape \1}", s)  # FreeSerif Italic lacks these signs
     s = re.sub("[" + "".join(SUP) + "]", lambda m: r"\textsuperscript{\itshape " + SUP[m.group(0)] + "}", s)
     return s
 
