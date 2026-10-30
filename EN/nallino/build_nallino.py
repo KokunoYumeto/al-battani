@@ -477,12 +477,14 @@ def main():
                           " + ".join(f"{a}..{z}" for a, z in b["ranges"]), " ".join(pages), n))
         last_part = u["part"]
     set_figs = [b["file"] for u in done for b in parse(HERE / "text" / f"{u['unit']}.txt")[1] if b["kind"] == "fig"]
+    wanted = []   # a figure printed on several pages (an ornament) is set once on each of them
     for pdf in sorted({r["pdf"] for r in rows}):
         lines = [x for x, r in enumerate(rows) if r["pdf"] == pdf]
         if lines and all(x in covered for x in lines):
-            for f in figures_of([pdf]):
-                if set_figs.count(f) != 1:
-                    errors.append(f"figure {f} of PDF {pdf} is set {set_figs.count(f)} times")
+            wanted += figures_of([pdf])
+    for f in sorted(set(wanted)):
+        if set_figs.count(f) != wanted.count(f):
+            errors.append(f"figure {f} is set {set_figs.count(f)} times on {wanted.count(f)} pages that print it")
     if errors:
         for e in errors:
             print("ERROR", e)
