@@ -210,8 +210,10 @@ COPTIC_RUN = re.compile(rf"([{_CO}][{_CO}{_MARKS}]*)")
 def plain(s):
     keep = []
 
-    def stash(m):  # {ar:...}: an Arabic phrase with its own brackets or punctuation, set as one right-to-left run
-        keep.append(r"\RL{\ArNote " + tex_escape(m.group(1)) + "}")
+    def stash(m):  # {ar:...}: an Arabic phrase with its own brackets or punctuation, set as one right-to-left run; a
+        # Latin word in it, such as Nallino's (sic), is set left to right
+        keep.append(r"\RL{\ArNote " + re.sub(r"[A-Za-z]+", lambda w: r"\LR{" + w.group(0) + "}", tex_escape(m.group(1)))
+                    + "}")
         return f"{len(keep) - 1}"
     s = re.sub(r"\{ar:([^{}]*)\}", stash, s)
 
