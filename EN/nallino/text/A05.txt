@@ -1,0 +1,35 @@
+@unit A05
+@h 0252b012
+On chapter 5
+@c 0252b013
+**a**) — pp. 13–14.
+@p 0252b014..0252b025
+The computation of the *right ascension*. Let δ be the declination of the given degree of the ecliptic, *α* its right ascension, ε the obliquity of the ecliptic; Ptolemy, *Almag.* I, 13 (ed. Halma, vol. I, pp. 60–61), proves by the theorem of Menelaus
+\[ \frac{\text{chord}\,2\alpha}{\text{chord}\,180^\circ} = \frac{\text{chord}\,2\delta}{\text{chord}\,(180^\circ - 2\delta)} \times \frac{\text{chord}\,(180^\circ - 2\varepsilon)}{\text{chord}\,2\varepsilon}. \]
+Using sines instead of chords, one derives
+\[ \frac{2\sin\alpha}{2R} = \frac{2\sin\delta}{2\cos\delta} \times \frac{2\cos\varepsilon}{2\sin\varepsilon}, \]
+whence al-Battānī's formula
+\[ \sin\alpha = R\,\frac{\sin\delta\,\cos\varepsilon}{\cos\delta\,\sin\varepsilon}. \]
+Ḥabash, who lived in the same age as al-Battānī, had constructed tables of tangents and cotangents (taking a radius of 60 parts), and so could teach in his work (fol. 88r), more briefly[^n],
+\[ \sin\alpha = \frac{\operatorname{tg}\delta\,\operatorname{cotg}\varepsilon}{R}. \]
+@n The print has sin α = R tg δ cotg ε; Nallino's Addenda et emendanda (Part II, p. XXIV) correct it to tg δ cotg ε : R, which is right when the sine and the tangents are all taken to the radius R.
+@c 0252b026
+**b**) — p. 14, ll. 10–12.
+@p 0252b027..0252b029
+[Now that the computation of the right ascensions of any point of the ecliptic is known, the author wants to show how the time of the culmination of those points is found, that is, the degree of the celestial equator that rises from the horizon of the given city at the time of the culmination.
+@fig AB01-PDF0252-F01 AB01-PDF0252-body-F01
+@p 0252b030..0252b039 + 0253b001..0253b007
+Let the celestial sphere be projected onto the plane of the horizon FENO of the given city; let P be the pole, PN the meridian, EMO the equinoctial circle, ♈ the beginning of Aries, F♈C the ecliptic, F the ascendant, C the beginning of Capricorn, PC the solstitial colure. Necessarily ♈R, that is, the arc of the celestial equator cut off between the point ♈ of the vernal equinox and the point R of the solstitial colure, is of 90 degrees; likewise the arc EM, cut off by the horizon and the meridian, must always be 90°. Clearly, then, at any time E♈ = MR. — Let X be the point of the ecliptic whose time of culmination we want to know; XC will be its longitude counted from the beginning of Capricorn, MR its right ascension from the winter solstitial colure. Since we have seen that MR equals E♈ (which is the oblique ascension corresponding to the arc ♈F of the ecliptic), the number of degrees contained in the arc MR will equal the degree of the equator then rising from the horizon; and this in all places of the earth. The computation of the arc MR, since XC is given, reduces very easily to the computation of the arc M♈ when X♈ is given, which is the problem al-Battānī solved a little before. So the author's «one and the same number» means that at any time and in any place of the earth there holds the relation
+@c 0253b008..0253b009
+right ascension of the culminating degree X of the ecliptic, counted from the colure of Capricorn = oblique ascension of the rising degree F of the ecliptic,
+@p 0253b010
+that is,
+@c 0253b011..0253b012
+90° + right ascension of the culminating degree, counted from the beginning of Aries = oblique ascension of the rising degree.
+@p 0253b013..0253b017
+Al-Battānī's tables of right ascensions, fol. 179v–181r, therefore count the ascensions from the colure of Capricorn, not, as is the common usage of the Greeks and our own, from the beginning of Aries. In this way, to give an example, one learns at once from the tables that the end of the tenth degree of Pisces (that is, 340° from the beginning of Aries) culminates at the same time as the point of the equinoctial circle that is 71° 34′ from the vernal equinox rises. — Schiaparelli.]
+@p 0253b018..0253b030
+Ḥabash always counts the right ascensions from the beginning of Aries, as the other Arab astronomers published so far usually do; Abū ʿAlī al-Ḥasan, however (Aboul Hhassan, ch. XXXII, pp. 218–227 and in the tables), follows al-Battānī's usage. Ibn Yūnus (on the evidence of Delambre, p. 122) made a double table of right ascensions, counting them both from the beginning of Aries and from the solstitial colure of Capricorn; and so did Ulugh Beg (Oloug Beg, p. 67 of the text, 93 of the translation, in ch. VII of the second part), who afterwards uses the ascensions counted from the winter solstitial colure in the astrological computations of the direction of the significator (p. 161 of the text, 214 of the translation) and of the projection of the rays (p. 158 of the text, 210 of the translation), in which it is more convenient to take the distances from the solstitial colure than from the equinoctial one. Tables of right ascensions beginning from the winter solstitial colure, for every minute of the ecliptic, were also constructed by ʿAbd al-Qādir ibn Muḥammad al-Fayyūmī, who died in 1022 H (1613–14); they are kept in the Cairo Library; see Suter, *Die Mathematiker und Astronomen der Araber*, p. 193, no. 479.
+@p 0253b031
+The oblique ascensions, on the other hand, are always counted from the beginning of Aries.
+@n Nallino's Addenda et emendanda add to this note further tables of right ascensions counted from the beginning of Capricorn (Part I, p. LXXII: al-Khāzinī, Kūshyār ibn Labbān, al-Zarqālī, Ibn al-Musharraf, al-Akhṣāṣī; Part II, p. XVII: Theon's tables, and later Arabic manuscripts that call them «the ascensions of the culmination» or «the ascensions of the Cupola»); the Addenda are translated with the front matter of the two parts.

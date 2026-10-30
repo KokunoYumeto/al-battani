@@ -14,7 +14,8 @@ in two units). Each unit is one file text/<unit>.txt:
   @m RANGES                   display formulas, one per line, in TeX math; a line may begin with [[label]]
   @t [spec=lrr] RANGES        a table: one row per line, cells separated by " | "; a row beginning "! " is a heading
   @f KEY RANGES               one of Nallino's footnotes; the block that calls it has [^KEY] where his number stands
-  @fig FILE                   a redrawn figure of S03 or S04 (figures/FILE.tex); a caption may follow
+  @fig FILE ANCHOR            a redrawn figure of S03 or S04 (figures/FILE.tex) and its anchor in the transcription
+                              (AB01-PDF0252-body-F01); a caption may follow
   @n TEXT                     a translator's note to the block before it
 RANGES is FIRST..LAST, or one anchor, or several of these joined by " + ". An anchor is written in full
 (AB01-PDF0242-body-L004) or short (0242b004; nl, nr, n and s for notes_left, notes_right, notes and section). Every line
@@ -77,7 +78,7 @@ def parse(path):
         if raw.startswith("@n "):
             blocks[-1]["notes"].append(raw[3:].strip())
             continue
-        m = re.match(r"@(part|h|c|p|m) (.+)$", raw)
+        m = re.match(r"@(part|h|c|p|m|ar) (.+)$", raw)
         if m:
             blocks.append({"kind": m.group(1), "ranges": ranges_of(m.group(2)), "text": [], "notes": []})
             continue
@@ -89,9 +90,10 @@ def parse(path):
         if m:
             blocks.append({"kind": "f", "key": m.group(1), "ranges": ranges_of(m.group(2)), "text": [], "notes": []})
             continue
-        m = re.match(r"@fig (\S+)$", raw)
+        m = re.match(r"@fig (\S+)(?: (.+))?$", raw)
         if m:
-            blocks.append({"kind": "fig", "file": m.group(1), "ranges": [], "text": [], "notes": []})
+            blocks.append({"kind": "fig", "file": m.group(1), "ranges": ranges_of(m.group(2)) if m.group(2) else [],
+                           "text": [], "notes": []})
             continue
         if raw.startswith("@"):
             raise SystemExit(f"{path.name}: unknown line {raw[:50]}")
@@ -118,7 +120,7 @@ def figures_of(pdfs):
 def check(unit, blocks, rows, where, allowed):
     errors, count, ends = [], {}, {}
     for k, b in enumerate(blocks):
-        if b["kind"] != "fig" and not b["text"]:
+        if b["kind"] not in ("fig", "ar") and not b["text"]:
             errors.append(f"block {k}: no English")
         for a, z in b["ranges"]:
             if a not in where or z not in where:
@@ -259,16 +261,19 @@ def front(done):
         r"\par\clearpage"])
 
 
-def table_tex(b, notes):
-    rows = [r.split(" | ") for r in b["text"]]
+def table_tex(b, notes, tn):
+    rows = [re.split(r"\s*\|\s*", r[2:] if r.startswith("! ") else r) for r in b["text"]]
     n = max(len(r) for r in rows)
     spec = b.get("spec") or "l" * n
-    out, texts = [r"\begin{center}\small\begin{tabular}{" + spec + "}"], []
+    out, texts, ttexts = [r"\begin{center}\small\begin{tabular}{" + spec + "}"], [], []
 
     def cell(c):
         parts = []
         for part in re.split(r"(\[\^[^\]]+\])", c):
-            if part.startswith("[^") and part != "[^n]":
+            if part == "[^n]":
+                parts.append(r"\footnotemarkT")
+                ttexts.append(tn.pop(0))
+            elif part.startswith("[^"):
                 parts.append(r"\footnotemark")
                 texts.append(notes[part[2:-1]])
             else:
@@ -279,13 +284,17 @@ def table_tex(b, notes):
             out.append(r"\midrule")
             continue
         head = r.startswith("! ")
-        cells = (r[2:] if head else r).split(" | ")
+        cells = re.split(r"\s*\|\s*", r[2:] if head else r)
+        cells += [""] * (n - len(cells))
         cells = [(r"\emph{" + cell(c) + "}") if head and c.strip() else cell(c) for c in cells]
         out.append(" & ".join(cells) + r" \\")
     out.append(r"\end{tabular}\end{center}")
     if texts:
         out.append(r"\addtocounter{footnote}{-" + str(len(texts)) + "}" + "".join(
             r"\stepcounter{footnote}\footnotetext{" + t + "}" for t in texts))
+    if ttexts:
+        out.append(r"\addtocounter{footnoteT}{-" + str(len(ttexts)) + "}" + "".join(
+            r"\stepcounter{footnoteT}\footnotetextT{" + t + "}" for t in ttexts))
     return "\n".join(out)
 
 
@@ -295,6 +304,17 @@ def math_tex(b, notes, tn):
         m = re.match(LABEL, line.strip())
         out.append(display(m.group(1), m.group(2), notes, tn) if m else r"\[" + line.strip() + r"\]")
     return r"\par\smallskip" + "\n".join(out) + r"\par\smallskip"
+
+
+def arabic_tex(b, idx, rows):
+    """an Arabic quotation that Nallino prints as a block: the English gives it as printed (from the transcription,
+    when the block has no lines of its own), right to left"""
+    text = " ".join(b["text"]) if b["text"] else " ".join(rows[x]["text"] for x in idx)
+    text = re.sub(r"\{ar:([^{}]*)\}", r"\1", text)
+    text = re.sub(r"\{sup:\*?([^{}]*)\}", lambda m: "@@" + m.group(0)[5:-1] + "@@", text)
+    text = tex_escape(text)
+    text = re.sub(r"@@([^@]*)@@", r"\\textsuperscript{\1}", text)
+    return r"\par\begin{Arabic}\ArNote " + text + r"\end{Arabic}\par"
 
 
 def fig_tex(b):
@@ -368,9 +388,11 @@ def main():
             elif b["kind"] == "m":
                 body.append(mark + text + tnotes)
             elif b["kind"] == "t":
-                body.append(mark + table_tex(b, notes) + tnotes)
+                body.append(mark + table_tex(b, notes, tn) + "".join(r"\footnoteT{" + x + "}" for x in tn))
             elif b["kind"] == "fig":
                 body.append(fig_tex(b) + tnotes)
+            elif b["kind"] == "ar":
+                body.append(mark + arabic_tex(b, idx, rows) + tnotes)
             n = len(re.sub(r"\$[^$]*\$|\\\[.*?\\\]", "", " ".join(b["text"])).split())
             words += n
             align.append((f"EN-{u['unit']}-B{k:02d}", u["unit"], b["kind"],

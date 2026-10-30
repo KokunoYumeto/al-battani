@@ -2,11 +2,13 @@
  "edition": "EN: English translation of Nallino's Latin apparatus to al-Battani's Zij",
  "units_done": [
   "A03",
-  "A04"
+  "A04",
+  "A05",
+  "A06"
  ],
- "latin_lines_translated": 508,
- "blocks": 35,
- "english_words": 5116,
- "canonical_source_checkpoint_sha256": "15706a585b9e4580b4de6516a2eecadfabf730b645d9250b7f0aa8c14a761849",
+ "latin_lines_translated": 1222,
+ "blocks": 89,
+ "english_words": 11393,
+ "canonical_source_checkpoint_sha256": "bd8f4d52f9f6124ee7d70afe5da3bf6af7068758f5180ff6febe7830414b0305",
  "canonical_source_checkpoint_note": "SHA-256 over the unit files in order: file name, a NUL byte, the bytes"
 }
