@@ -292,10 +292,10 @@ def table_tex(b, notes, tn):
         parts = []
         for part in re.split(r"(\[\^[^\]]+\])", c):
             if part == "[^n]":
-                parts.append(r"\footnotemarkT")
+                parts.append(r"\footnotemarkT{}")
                 ttexts.append(tn.pop(0))
             elif part.startswith("[^"):
-                parts.append(r"\footnotemark")
+                parts.append(r"\footnotemark{}")  # {} keeps the space after the mark
                 texts.append(notes[part[2:-1]])
             else:
                 parts.append(inline(part))
