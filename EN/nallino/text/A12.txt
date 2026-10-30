@@ -1,0 +1,47 @@
+@unit A12
+@h 0274b015
+On chapter 12
+@c 0274b016
+**a**) — p. 24, ll. 26–31.
+@p 0274b017..0274b020
+[«*The sun moves slowly in declination*». For near the solstices the declination of the sun changes little in a day, so that the sun can then be said, to a close approximation, to run along a true parallel; which, on the other hand, would be false near the equinoxes, for between its rising and its setting the sun can vary by more than 11 minutes in declination.
+@fig AB01-PDF0274-F01 AB01-PDF0274-body-F01
+@p 0274b021..0274b037 + 0275b001..0275b003
+In what follows, the Arabic text ought to be translated literally: «It is also manifest that the time of midday cannot be determined truly, because of the hasty passage of the sun through (or in) the meridian circle .....». Plato: «Manifestum etenim est quod medii diei hora propter festinum Solis motum in medii diei circulo veraciter non terminatur, quae tamen vel ei propior apprehenditur» («For it is manifest that the hour of midday, because of the hasty motion of the sun in the circle of midday, is not truly determined, though it, or a time nearer to it, is grasped»). — But the interpretation we have adopted seems more probable, and rests on these considerations. When the sun rises at the point S′ of the horizon, its setting, if its declination were constant, would have to take place at the point σ of the same celestial parallel. But because of the daily motion in declination, the sun passes gradually from that parallel to another, σ′S, and sets at S. At the time of its rising it casts the shadow along the direction ZV, at the time of its setting along ZV′, which makes with the meridian line MN an angle different from the angle contained by the meridian itself and the shadow ZV. So by bisecting the angle V′ZV one finds not the meridian line MN but the line M′N′; whence it is clear that at the moment of time equally distant from the rising and from the setting («at the time of midday») the sun is not on the meridian circle, but in the vertical plane that bisects the angle V′ZV. In the regions of the Arabs, from the equator to the parallel of 45°, the small angle MZM′ can rise to 8′ or 9′; whence we understand why al-Battānī says that this drawing of the meridian line should be undertaken about the times of the solstices. — Schiaparelli.]
+@c 0275b004
+**b**) — p. 25, ll. 16–22, and p. 25, l. 37 – p. 26.
+@p 0275b005..0275b007
+Given the rising amplitude and the meridian altitude, to compute *the altitude of the sun that has no azimuth*, that is, *the altitude on the prime vertical circle* (which passes through the east and the west points, from which the azimuths of the Arabs are counted).
+@p 0275b008..0275b016
+So far the author had stated his formulas without proofs; now, on the other hand, he shows geometrically how the rule is found. Why he did so is not certainly known. It seems probable to me that he left out the earlier proofs as being already known from other authors, whereas this solution of the problem was new, and for this reason al-Battānī wished to prove it. For we have seen that the propositions of spherical astronomy contained in the earlier chapters either can easily be derived from Ptolemy's constructions (with sines put for chords) or are read also in Ḥabash[^275.1], our author's contemporary; the problem of this chapter, on the other hand, I find solved in this way only in later writers. Likewise in chapter XXVI we read the proof of another trigonometric formula which, there can be no doubt, was first found by al-Battānī.
+@f 275.1 0275nl001
+Who, however, always leaves out the proofs.
+@p 0275b017..0275b023
+Al-Battānī's proof rests on the analemma, or the orthographic projection of the sphere, whose use is frequent with the Indians and more frequent with the Arabs[^275.2]. — The last words of the proof (p. 26, ll. 27–29), which Plato leaves out, were spoiled by some unskilled reader, who disfigured the text in the same way in chapter XXVI (p. 38, ll. 27–28). [Al-Battānī meant: so if the line GF is diminished in the ratio of CM to CF, the line EM remains; likewise, if GF is diminished in the ratio of EC to CG, the line EM remains. That is, since $EC : CG = EM : GF = CM : CF$, plainly $EM = \frac{GF \times CM}{CF} = \frac{GF \times EC}{CG}$. — Schiaparelli.]
+@f 275.2 0275nl002..0275nl003
+As von Braunmühl rightly understood, I, p. 38 (on the Indians) and in many places.
+@p 0275b024..0275b028
+Since EC = the sine of the rising amplitude of the sun on the given day, GF = the sine of the meridian altitude of the sun, and CG = EC + EG = the sine of the rising amplitude + the cosine of the meridian altitude, al-Battānī's formula follows at once:
+\[ [[(α)]] \sin(\text{alt. without azimuth}) = \frac{\sin(\text{rising ampl.}) \times \sin(\text{merid. alt.})}{\sin(\text{rising ampl.}) + \cos(\text{merid. alt.})}, \]
+which is read later, together with others, in Ibn Yūnus, ch. XVIII (Delambre, p. 114).
+@p 0275b029..0275b035
+It is useless, and does not answer to the author's thought, to develop this formula as Delambre does, p. 19, putting for the sine of the rising amplitude its value $R\sin\delta/\cos\varphi$ found in chapter VII, for the sine of the meridian altitude the value $\cos(\varphi - \delta)$ that follows from chapter XV, and lastly $\sin(\varphi - \delta)$ for the cosine of the meridian altitude. One then obtains[^275.3]
+\[ \sin(\text{alt. without azimuth}) = R\,\frac{\sin\delta}{\cos\varphi}\left(\frac{\cos(\varphi - \delta)}{\sin(\varphi - \delta) + R\,\frac{\sin\delta}{\cos\varphi}}\right) = \frac{R\sin\delta\,\cos(\varphi - \delta)}{\cos\varphi\,\sin(\varphi - \delta) + R\sin\delta}. \]
+It should rather be noted that in place of al-Battānī's formula three others are found in Ḥabash, f. 93r:
+@f 275.3 0275nr001..0275nr003
+Delambre puts $\sin(\varphi - \delta)$ in the numerator and $\cos(\varphi - \delta)$ in the denominator of the fraction; but it is a mere slip of the pen.
+@fig AB01-PDF0276-F01 AB01-PDF0276-body-F01
+@p 0276b001..0276b008
+\[ [[I.]] \sin(\text{alt. without azimuth}) = \frac{\sin(\text{rising ampl.}) \times \cos\varphi}{\sin\varphi}, \]
+probably also found by orthographic projection; for from the similarity of the triangles MEC, YXE the proportion is easily gathered
+\[ EM : EC = EX : XY, \]
+\[ \sin(\text{alt. without azim.}) : \sin(\text{rising ampl.}) = \cos\varphi : \sin\varphi. \]
+\[ [[II.]] \sin(\text{alt. without azimuth}) = \frac{\sin(\text{rising ampl.})}{\dfrac{\sin\varphi}{\cos\varphi}}, \]
+which is only another way of writing formula I.
+@fig AB01-PDF0276-F02 AB01-PDF0276-body-F02
+@p 0276b009 + 0276b010..0276b016
+\[ [[III.]] \sin(\text{alt. without azimuth}) = R\,\frac{\sin\delta}{\sin\varphi}, \]
+which can be derived algebraically from I, when its value $R\sin\delta/\cos\varphi$ is put for the sine of the rising amplitude; but it also follows directly in the orthographic projection, from the similarity of the triangles MEQ, EPZ:
+\[ EM : EQ = EP : PZ, \]
+\[ \sin(\text{alt. without azim.}) : \sin\delta = R : \sin\varphi. \]
+Formula III is also in Aboul Hhassan, ch. LXI, p. 306.

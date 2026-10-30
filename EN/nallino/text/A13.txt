@@ -1,0 +1,46 @@
+@unit A13
+@h 0276b017
+On chapter 13
+@c 0276b018
+**a**) — p. 27, ll. 17–24.
+@p 0276b019..0276b020
+From the right ascension of any degree of the ecliptic and the greatest length of the day in a given city, to find the *oblique ascension* of that degree of the ecliptic in that city.
+@fig AB01-PDF0276-F03 AB01-PDF0276-body-F03
+@p 0276b021..0276b024 + 0276b025..0276b028
+The *oblique ascension*, which the Arabs call *the ascensions of the clime* or *in the clime*, is the arc of the equinoctial circle between the beginning of Aries and the point of the equinoctial circle that is on the horizon at the same time as the given star or degree of the ecliptic. Let P be the pole of the equator, AEG the equinoctial circle, ♈ the beginning of Aries, Z♈T the ecliptic, BED the horizon of the given place on the earth, L the given star, which rises from the horizon, PM the circle of declination passing through the star L; the whole arc ♈M will be the right ascension of the star, ♈E its oblique ascension, the difference EM the ascensional difference.
+@p 0276b029..0276b031
+The problem plainly reduces to finding the ascensional difference EM, which al-Battānī calls *the argument of the difference of the day in the quadrant*[^276.1]. The author gives two formulas.
+@f 276.1 0276nl001..0276nr003
+The name plainly comes from the author's considering the ascension of a given degree of the ecliptic; so that, as appears from ch. XIX, the half arc of the day of that degree, that is, half the length of the day when the sun has reached that degree, is 90° ± the ascensional difference.
+@p 0276b032..0276b034 + 0277b001..0277b006
+I. The author considers the oblique ascension of a given degree of the ecliptic, not of any star. Let *m* be the ascensional difference; P the greatest half arc of the day, or the greatest length of half the day, computed in degrees of the equator, in the given city, so that P − 90° is half the excess of the longest day over the equinoctial day (= 2 × 90° = 12ʰ); α the right ascension of the given degree of the ecliptic. The author's formula is
+\[ [[(α)]] \sin m = \frac{\sin\alpha\,\sin(P - 90^\circ)}{R}, \]
+which we can write
+\[ \sin m = -\frac{\sin\alpha\,\cos P}{R}. \]
+It is contained implicitly in Ptolemy's proof, *Almag.* II, 7 (ed. Halma, vol. I, pp. 97–98).
+@fig AB01-PDF0277-F01 AB01-PDF0277-body-F01
+@p 0277b007..0277b022
+Let ABGD be the meridian circle; AEG the equator, whose southern pole is Z; BED the horizon; ZHT and LKZ two arcs of circles of declination; H the point common to the horizon and to the parallel that passes through the winter solstitial point; K the point common to the horizon and to the parallel that passes through the given place of the ecliptic. TEG is plainly the greatest half arc of the day in the place of the earth to which the celestial horizon BED corresponds. Ptolemy found
+\[ \frac{\text{chord}\,2TH}{\text{chord}\,2ZH} = \frac{\text{chord}\,2TE}{\text{chord}\,2EL} \times \frac{\text{chord}\,2KL}{\text{chord}\,2KZ}, \]
+that is,
+\[ \frac{\text{chord}\,2\varepsilon}{\text{chord}\,(180^\circ - 2\varepsilon)} = \frac{\text{chord}\,(2P - 180^\circ)}{\text{chord}\,2\ \text{asc. diff.}} \times \frac{\text{chord}\,2\delta}{\text{chord}\,(180^\circ - 2\delta)}, \]
+and, with sines put for chords,
+\[ \frac{\sin\varepsilon}{\cos\varepsilon} = \frac{\sin(P - 90^\circ)}{\sin(\text{asc. diff.})} \times \frac{\sin\delta}{\cos\delta}, \]
+whence
+\[ \sin(\text{asc. diff.}) = -\cos P\,\frac{\sin\delta\,\cos\varepsilon}{\cos\delta\,\sin\varepsilon}. \]
+But al-Battānī had taught in chapter V that $\sin\alpha = R\,\frac{\sin\delta\,\cos\varepsilon}{\cos\delta\,\sin\varepsilon}$, so that
+\[ \sin m = -\frac{\cos P\,\sin\alpha}{R}. \]
+@fig AB01-PDF0277-F02 AB01-PDF0277-body-F02
+@p 0277b023..0277b036 + 0278b001..0278b004
+II. The other formula is derived directly from Ptolemy's proof, *Almag.* II, 7 (ed. Halma, vol. I, pp. 92–94). Let ABGD be the meridian circle; BED the horizon; AEG the celestial equator; Z♈T the ecliptic, whose point ♈ is the beginning of Aries; K the northern pole of the equator; KM an arc of a circle of declination. ♈E will be the oblique ascension of the given point L of the ecliptic, ♈M its right ascension, EM the ascensional difference. Ptolemy proves
+\[ \frac{\text{chord}\,2KD}{\text{chord}\,2DG} = \frac{\text{chord}\,2KL}{\text{chord}\,2LM} \times \frac{\text{chord}\,2ME}{\text{chord}\,2EG}, \]
+that is,
+\[ \frac{\text{chord}\,2\varphi}{\text{chord}\,(180^\circ - 2\varphi)} = \frac{\text{chord}\,(180^\circ - 2\delta)}{\text{chord}\,2\delta} \times \frac{\text{chord}\,2m}{\text{chord}\,180^\circ}. \]
+With sines put for chords, one obtains
+\[ \frac{\sin\varphi}{\cos\varphi} = \frac{\cos\delta}{\sin\delta} \times \frac{\sin m}{R}, \]
+whence al-Battānī's formula
+\[ [[(β)]] \sin m = R\,\frac{\sin\varphi\,\sin\delta}{\cos\varphi\,\cos\delta}, \]
+which Ḥabash, f. 104r, using trigonometric tangents, writes more briefly[^n]
+\[ \sin m = \frac{\operatorname{tg}\varphi\,\operatorname{tg}\delta}{R}, \]
+where φ is the geographical latitude of the given city.
+@n The print has sin m = R tg φ tg δ; Nallino's Addenda et emendanda (Part II, p. XXIV) correct it to tg φ tg δ : R.

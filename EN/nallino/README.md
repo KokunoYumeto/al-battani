@@ -2,9 +2,9 @@
 
 C. A. Nallino's *Al-Battānī sive Albatenii opus astronomicum* (Milan, 1899–1907) gives the Arabic text of the *Zīj* (Part III), a Latin translation of the canons with a commentary on them (Part I) and the tables in Latin with notes on them, a glossary and indexes (Part II). The canons are translated into English from the Arabic in [../](../). This folder translates Nallino's own writing, which is in Latin. No English translation of it has been published.
 
-**Done:** the commentary on chapters 3–10 (Part I, pp. 151–182). Read [nallino_en.pdf](nallino_en.pdf).
+**Done:** the commentary on chapters 3–13 (Part I, pp. 151–189). Read [nallino_en.pdf](nallino_en.pdf).
 
-**Still to translate:** the rest of the commentary (the *Adnotationes*, Part I, pp. 183–327), the notes on the tables (Part II, pp. 189–317), the prefaces and the addenda of Parts I and II, Nallino's footnotes to his Latin translation (Part I, pp. 1–150), the glossary and the indexes.
+**Still to translate:** the rest of the commentary (the *Adnotationes*, Part I, pp. 189–327), the notes on the tables (Part II, pp. 189–317), the prefaces and the addenda of Parts I and II, Nallino's footnotes to his Latin translation (Part I, pp. 1–150), the glossary and the indexes.
 
 ## How it is made
 
@@ -23,6 +23,7 @@ C. A. Nallino's *Al-Battānī sive Albatenii opus astronomicum* (Milan, 1899–1
 | `text/*.txt` | one file per unit: each block of English with the lines it translates, Nallino's footnotes and the translator's notes; the format is described at the head of `build_nallino.py` |
 | `build_nallino.py`, `make_pdf.py` | check the coverage of the Latin lines, the footnotes and the figures, and build the PDF deterministically |
 | `tools/latin.py` | the Latin of a unit in reading order, with the observations of the page records |
+| `figures/`, `tools/figures_en.py` | the redrawn figures whose labels have words, with the words in English |
 | `alignment.tsv` | every block of the English with its lines and pages |
 | `checkpoint.json` | the units done and a checksum over their files |
 

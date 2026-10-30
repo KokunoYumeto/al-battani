@@ -1,0 +1,56 @@
+@unit A11
+@h 0272b001
+On chapter 11
+@c 0272b002
+**a**) — p. 23.
+@p 0272b003..0272b004
+To find the *azimuth of the altitude*, that is, from the given altitude *h* of the sun to find *the azimuth of this circle of altitude* (that is, *the azimuth of the sun*) on the horizon of a place on the earth of known latitude φ.
+@p 0272b005..0272b007
+Leaving out the proofs, the author teaches the formulas:
+\[ [[(α)]] \text{sine of the difference of the horizon} = \frac{\sin h\,\sin\varphi}{\cos\varphi} \]
+\[ [[(β)]] \sin(\text{azimuth}) = R\,\frac{\sin(\text{rising ampl.}) \pm \sin(\text{diff. of the horizon})}{\cos h}. \]
+@p 0272b008..0272b015
+Both were plainly derived by the orthographic projection of the sphere. The name *sine of the difference* (or *of the variation*) *of the horizon*, together with al-Battānī's formula (α), is read also in Ibn Yūnus, ch. XIX (in Delambre, p. 114); Abū l-Wafāʾ[^272.1], Aboul Hhassan, ch. LXII, p. 308, and Oloug Beg, p. 78 of the text, 106–107 of the translation, on the other hand, call it the argument of the azimuth (*ḥiṣṣat al-samt*). Geometrically, as Abū l-Wafāʾ and Mīram Čelebī (in his commentary on Ulugh Beg) say, it is the line that joins the foot of the perpendicular drawn from the star to the plane of the horizon, that is, the foot of the sine of the altitude, with the line of intersection of the horizon and the parallel of the star.
+@f 272.1 0272n001..0272n002
+Carra de Vaux, *L’Almageste d’Aboû ’l-Wéfa al-Bûzdjâni*, in the Journal Asiatique, 8th series, vol. 19, 1892, p. 429.
+@fig AB01-PDF0272-F01 AB01-PDF0272-body-F01
+@p 0272b016..0272b029
+Let the horizon ACB, the celestial equator ECD and the parallel circle FI, which the sun describes in its daily motion, be projected orthogonally onto the plane of the meridian circle AOBD. Suppose the sun to have reached H; HK will then be the projection of the altitude *h*. Let EZ be drawn perpendicular to AB, and so parallel to the line HK; since P is the pole of the equator, we shall have
+\[ KG = \text{sine of the difference of the horizon}, \qquad BP = EO = \varphi, \]
+\[ ZC = \sin\varphi, \qquad HK = \sin h, \qquad EZ = \cos\varphi. \]
+From the similarity of the right-angled triangles EZC and HKG it follows at once that
+\[ EZ : HK = ZC : KG, \quad\text{that is,}\quad \cos\varphi : \sin h = \sin\varphi : \sin(\text{diff. horiz.}), \]
+whence al-Battānī's rule
+\[ [[(α)]] \sin(\text{diff. horiz.}) = \frac{\sin h\,\sin\varphi}{\cos\varphi}. \]
+@fig AB01-PDF0272-F02 AB01-PDF0272-body-F02
+@p 0272b030..0272b037 + 0273b001..0273b002
+It remains for us now to prove (β), by the same way that al-Battānī probably followed. Let the figure drawn here be the orthographic, or orthogonal, projection of the celestial sphere as seen from the east point; let AOB be the meridian, ACB the horizon, OC the vertical circle perpendicular to the meridian, EC the celestial equator, FG the parallel described by the sun, which we put at H. Through H let the circle of altitude OHW be drawn, and the circle DRL parallel to the horizon. Lastly, let the line HK be drawn perpendicular to the plane of the horizon.
+@p 0273b003..0273b012
+The arcs CW and RH, cut off by the same vertical circles OC and OW, will contain the same number of degrees; so their sines, which the straight lines CW, RH represent in the figure, will be proportional to the radii CB, RL with which those arcs are described. Since LB = HW is the altitude *h* of the sun, and its sine is HK = RC, while the arc OH = OL is the complement of the altitude and has the sine RL, by what was said above we shall plainly have
+\[ CB : RL = CW : RH, \]
+that is,
+\[ R : \cos h = \sin(\text{azimuth}) : RH, \]
+whence
+\[ \sin(\text{azimuth}) = R\,\frac{RH}{\cos h}. \]
+@p 0273b013..0273b019
+By the constructions made, RH = CK = CG − KG. But CG is plainly the sine of the rising amplitude, that is, the sine of the arc of the horizon between the east point C and the point from which the sun rises on the given day; KG is what the author calls the sine of the difference of the horizon; hence al-Battānī's formula
+\[ [[(β)]] \sin(\text{azimuth}) = R\,\frac{\sin(\text{rising ampl.}) - \sin(\text{diff. horiz.})}{\cos h}, \]
+which holds when the azimuth, the amplitude and the declination are counted positive towards the north. If the difference, which is the numerator of the fraction, is negative[^273.1], the azimuth will be towards the south.
+@f 273.1 0273nl001..0273nr002
+When the sine of the difference of the horizon is greater than the sine of the rising amplitude. — When the sun is on the southern side of the equator, not the difference but the sum of the sines must be used.
+@p 0273b020..0273b035
+The same formula (β) is found in Ibn Yūnus, ch. XX (Delambre, p. 116), in Aboul Hhassan, ch. LXII, p. 308, and in Oloug Beg, p. 78 of the text, 106–107 of the translation. Ḥabash, f. 92v, puts for the sine of the difference of the horizon its value by rule (α), and so writes
+\[ \sin(\text{azimuth}) = \frac{R}{\cos h}\left(\frac{\sin\varphi}{\cos\varphi}\,\sin h - \sin(\text{rising ampl.})\right). \]
+Let us put into formula (β) the value of the sine of the difference of the horizon found before (that is, $\sin h \sin\varphi/\cos\varphi$), and the value of the sine of the rising amplitude found in ch. VII (that is, $R\sin\delta/\cos\varphi$); there results
+\[ \sin(\text{azimuth}) = R\,\frac{R\sin\delta - \sin h\,\sin\varphi}{\cos h\,\cos\varphi}. \]
+But since al-Battānī, like almost all the Arabs, counts the azimuth from the line of the rising and setting, while we proceed from the north point towards the east, the sine of the azimuth of the Arabs becomes with us $\sin(90^\circ - \text{azimuth}) = \cos(\text{azimuth})$. Lastly, taking the radius as one part, as is our custom, we find at once the present-day formula
+\[ \cos(\text{azimuth}) = \frac{\sin\delta - \sin h\,\sin\varphi}{\cos h\,\cos\varphi}, \]
+which is an immediate consequence of the fundamental rule of spherical trigonometry (called by the Germans the *Cosinussatz*)
+\[ \cos a = \cos b\,\cos c + \sin b\,\sin c\,\cos A, \]
+if one puts $a = 90^\circ - \delta$, $b = 90^\circ - h$, $c = 90^\circ - \varphi$, $A = \text{azimuth}$.
+@p 0273b036..0273b037 + 0274b001..0274b007
+What Delambre writes on p. 17, mixing his algebraic explanations with al-Battānī's rules, was not rightly interpreted by Hankel, *Zur Gesch. der Mathem.*, p. 281, by Cantor, I, 633 (= 694 of the second edition), and by Suter, *Zur Geschichte der Trigonometrie* (in Bibliotheca Mathematica, ed. G. Eneström, new series, vol. VII, Stockholm 1893, pp. 6 and 8), who say that al-Battānī knew the proposition $\cos a = \cos b \cos c + \sin b \sin c \cos A$. We can indeed easily derive it from (β); but the author neither made such a reduction nor wished to make it; rather, the very form of rule (β) shows that al-Battānī by no means regarded it as a general proposition for solving spherical triangles. Von Braunmühl, I, p. 53, judged better, but not absolutely enough.
+@p 0274b008..0274b014
+Regiomontanus, in a long note on this chapter, which the printed editions wrongly give in the middle of chapter XII, rightly guessed the way that al-Battānī (or the Arabs before him) probably followed to find his two formulas[^274.1]. For he writes: «Albategnius in demonstrationibus suis multis ad lineas rectas refugit, et ex similitudine triangulorum multa conclusit. Modus iste intellectui facilis videretur, nisi sectiones superficierum obscuritatem afferrent» («In many of his proofs Albategnius takes refuge in straight lines, and he concluded much from the similarity of triangles. This method would seem easy to the understanding, were it not that the sections of the surfaces bring obscurity»). He adds a proof that differs little from mine, but is perhaps more obscure.
+@f 274.1 0274nl001..0274nr004
+Because of the form of the rule, and because of what al-Battānī proves geometrically elsewhere, the conjecture was not too difficult for Regiomontanus, who had pondered al-Battānī's work so assiduously. So I do not think one should agree with von Braunmühl, I, 52, note 1, when he writes: «Es scheint demnach, das Regiomontanus die Beweise des Albategnius, die in der Druckausgabe nich angeführt sind, kannte» («It seems, then, that Regiomontanus knew the proofs of Albategnius, which are not given in the printed edition»).
