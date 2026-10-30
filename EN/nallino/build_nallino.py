@@ -163,15 +163,16 @@ SUP = {"ᵖ": "p", "ᵃ": "a", "ᵐ": "m", "ᵈ": "d", "ʰ": "h", "ˢ": "s", "�
 
 
 def plain(s):
-    s = tex_escape(s)
+    s = tex_escape(s).replace(r"\{0\}", r"\AbjadZero{}")  # {0}: Nallino's sign for zero in abjad numbers
     s = re.sub(r"\*\*([^*]+)\*\*", r"\\textbf{\1}", s)
     s = re.sub(r"\*([^*]+)\*", r"\\emph{\1}", s)
     s = re.sub(r"([؀-ۿݐ-ݿﭐ-﷿ﹰ-﻿][؀-ۿݐ-ݿﭐ-﷿ﹰ-﻿\s«»]*[؀-ۿݐ-ݿﭐ-﷿ﹰ-﻿]|[؀-ۿ])", r"\\RL{\\ArNote \1}", s)
+    s = s.replace("\u00a0", "~")  # a no-break space, as between the groups of an abjad number (inside its RL run)
     s = re.sub(r"([Ͱ-Ͽἀ-῿][Ͱ-Ͽἀ-῿\s’',.]*[Ͱ-Ͽἀ-῿]|[Ͱ-Ͽἀ-῿])", r"{\\greekfont \1}", s)
     s = re.sub(r"([֐-׿][֐-׿\s]*[֐-׿])", r"\\RL{\\hebrewfont \1}", s)
     s = re.sub(r"([܀-ݏ][܀-ݏ\s]*[܀-ݏ])", r"\\RL{\\syriacfont \1}", s)
     s = re.sub(r"([Ⲁ-⳿])", r"{\\CopticFont \1}", s)
-    s = re.sub(r"([☉☽☾♈-♓☿♀♂♃♄⊙])", r"{\\MoonFont \1}", s)
+    s = re.sub(r"([☉☽☾♈-♓☿♀♂♃♄⊙])", r"{\\MoonFont\\upshape \1}", s)  # FreeSerif Italic lacks these signs
     s = re.sub("[" + "".join(SUP) + "]", lambda m: r"\textsuperscript{\itshape " + SUP[m.group(0)] + "}", s)
     return s
 
@@ -263,8 +264,13 @@ def front(done):
 
 
 def table_tex(b, notes, tn):
-    rows = [re.split(r"\s*\|\s*", r[2:] if r.startswith("! ") else r) for r in b["text"]]
-    n = max(len(r) for r in rows)
+    """cells are split at |; a cell «<N> text» spans N columns, and « // » breaks a line within a cell"""
+    def span(c):
+        m = re.match(r"<(\d+)>\s*", c)
+        return (int(m.group(1)), c[m.end():]) if m else (1, c)
+
+    rows = [re.split(r"\s*\|\s*", r[2:] if r.startswith("! ") else r) for r in b["text"] if r.strip() != "---"]
+    n = max(sum(span(c)[0] for c in r) for r in rows)
     spec = b.get("spec") or "l" * n
     out, texts, ttexts = [r"\begin{center}\small\begin{tabular}{" + spec + "}"], [], []
 
@@ -280,14 +286,19 @@ def table_tex(b, notes, tn):
             else:
                 parts.append(inline(part))
         return "".join(parts)
+
+    def lines(c, head):
+        parts = [(r"\emph{" + cell(p) + "}") if head and p.strip() else cell(p) for p in c.split(" // ")]
+        return parts[0] if len(parts) == 1 else r"\begin{tabular}[b]{@{}c@{}}" + r"\\".join(parts) + r"\end{tabular}"
     for r in b["text"]:
         if r.strip() == "---":
             out.append(r"\midrule")
             continue
         head = r.startswith("! ")
-        cells = re.split(r"\s*\|\s*", r[2:] if head else r)
-        cells += [""] * (n - len(cells))
-        cells = [(r"\emph{" + cell(c) + "}") if head and c.strip() else cell(c) for c in cells]
+        cells = [span(c) for c in re.split(r"\s*\|\s*", r[2:] if head else r)]
+        cells += [(1, "")] * (n - sum(k for k, _ in cells))
+        cells = [lines(c, head) if k == 1 else r"\multicolumn{" + str(k) + "}{c}{" + lines(c, head) + "}"
+                 for k, c in cells]
         out.append(" & ".join(cells) + r" \\")
     out.append(r"\end{tabular}\end{center}")
     if texts:

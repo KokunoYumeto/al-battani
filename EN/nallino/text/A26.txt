@@ -51,7 +51,8 @@ He distinguishes four cases:
 I. — When one of the stars is on the ecliptic and the other has the latitude β. — The solution is the one I have already set out in note *b*, after al-Battānī himself; he puts $L - L'$ (that is, the difference of the longitudes) = the first side, $2\,\text{arc}\bigl[\sin\bigl(\frac{L - L'}{2}\bigr) \times \frac{\cos\beta}{R}\bigr]$ = the second side (that is, the arc GE, on which see note *a*), and lastly the chord of β = the third or the fourth side. So he states the rule:
 \[ [[(α)]] \text{crd distance} = \sqrt{\text{crd first side} \times \text{crd second side} + \text{square of the third side}}. \]
 From this formula of al-Battānī it is not difficult to derive our cos dist. = cos β cos (L − L′). Since chord $x = 2\sin\frac{x}{2}$, if we put sines for chords and square both members of equation (α), there results[^n]
-\[ 4\sin^2\frac{\text{distance}}{2} = 2\sin\Bigl(\frac{L - L'}{2}\Bigr)\,2\sin\Bigl(\frac{L - L'}{2}\Bigr)\frac{\cos\beta}{R} + 4\sin^2\frac{\beta}{2} = 4\sin^2\Bigl(\frac{L - L'}{2}\Bigr)\frac{\cos\beta}{R} + 4\sin^2\frac{\beta}{2}. \]
+\[ 4\sin^2\frac{\text{distance}}{2} = 2\sin\Bigl(\frac{L - L'}{2}\Bigr)\,2\sin\Bigl(\frac{L - L'}{2}\Bigr)\frac{\cos\beta}{R} + 4\sin^2\frac{\beta}{2} = \]
+\[ = 4\sin^2\Bigl(\frac{L - L'}{2}\Bigr)\frac{\cos\beta}{R} + 4\sin^2\frac{\beta}{2}. \]
 But $\sin^2\frac{x}{2} = \frac{R^2 - R\cos x}{2}$; so, dividing everything by 4,
 \[ \frac{R^2 - R\cos(\text{dist.})}{2} = \frac{R^2 - R\cos(L - L')}{2} \times \frac{\cos\beta}{R} + \frac{R^2 - R\cos\beta}{2}, \]
 whence, multiplying by 2 and dividing by *R*,
