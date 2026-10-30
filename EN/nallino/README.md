@@ -2,9 +2,9 @@
 
 C. A. Nallino's *Al-Battānī sive Albatenii opus astronomicum* (Milan, 1899–1907) gives the Arabic text of the *Zīj* (Part III), a Latin translation of the canons with a commentary on them (Part I) and the tables in Latin with notes on them, a glossary and indexes (Part II). The canons are translated into English from the Arabic in [../](../). This folder translates Nallino's own writing, which is in Latin. No English translation of it has been published.
 
-**Done:** the commentary on chapters 3–27 (Part I, pp. 151–211). Read [nallino_en.pdf](nallino_en.pdf).
+**Done:** the commentary on chapters 3–28 (Part I, pp. 151–221). Read [nallino_en.pdf](nallino_en.pdf).
 
-**Still to translate:** the rest of the commentary (the *Adnotationes*, Part I, pp. 212–327), the notes on the tables (Part II, pp. 189–317), the prefaces and the addenda of Parts I and II, Nallino's footnotes to his Latin translation (Part I, pp. 1–150), the glossary and the indexes.
+**Still to translate:** the rest of the commentary (the *Adnotationes*, Part I, pp. 221–327), the notes on the tables (Part II, pp. 189–317), the prefaces and the addenda of Parts I and II, Nallino's footnotes to his Latin translation (Part I, pp. 1–150), the glossary and the indexes.
 
 ## How it is made
 
