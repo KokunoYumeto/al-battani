@@ -13,7 +13,8 @@ in two units). Each unit is one file text/<unit>.txt:
   @c RANGES                   a centred line (the lemmas of the commentary)
   @p RANGES                   a paragraph
   @m RANGES                   display formulas, one per line, in TeX math; a line may begin with [[label]]
-  @t [spec=lrr] RANGES        a table: one row per line, cells separated by " | "; a row beginning "! " is a heading
+  @t [spec=lrr] [size=footnotesize] RANGES   a table: one row per line, cells separated by " | "; a row beginning
+                              "! " is a heading; the size (default small) is that of the whole table
   @f KEY RANGES               one of Nallino's footnotes; the block that calls it has [^KEY] where his number stands
   @fig FILE ANCHOR            a redrawn figure of S03, S04 or S07 (figures/FILE.tex) and its anchor in the transcription
                               (AB01-PDF0252-body-F01); a caption may follow
@@ -84,9 +85,10 @@ def parse(path):
         if m:
             blocks.append({"kind": m.group(1), "ranges": ranges_of(m.group(2)), "text": [], "notes": []})
             continue
-        m = re.match(r"@t (?:spec=(\S+) )?(.+)$", raw)
+        m = re.match(r"@t (?:spec=(\S+) )?(?:size=(\w+) )?(.+)$", raw)
         if m:
-            blocks.append({"kind": "t", "spec": m.group(1), "ranges": ranges_of(m.group(2)), "text": [], "notes": []})
+            blocks.append({"kind": "t", "spec": m.group(1), "size": m.group(2), "ranges": ranges_of(m.group(3)), "text": [],
+                           "notes": []})
             continue
         m = re.match(r"@f (\S+) (.+)$", raw)
         if m:
@@ -286,7 +288,8 @@ def table_tex(b, notes, tn):
     rows = [re.split(r"\s*\|\s*", r[2:] if r.startswith("! ") else r) for r in b["text"] if r.strip() != "---"]
     n = max(sum(span(c)[0] for c in r) for r in rows)
     spec = b.get("spec") or "l" * n
-    out, texts, ttexts = [r"\begin{center}\small\begin{tabular}{" + spec + "}"], [], []
+    size = b.get("size") or "small"
+    out, texts, ttexts = [r"\begin{center}" + "\\" + size + r"\begin{tabular}{" + spec + "}"], [], []
 
     def cell(c):
         parts = []

@@ -1,0 +1,88 @@
+@unit T29
+@h 0704b031
+On pp. 142–143: the appearances and disappearances of the planets
+@p 0704b032
+The tables are mentioned in vol. I, pp. 117–18, ch. XLVIII, where their use is also taught.
+@p 0704b033..0704b035
+Ptolemy deals with these appearances and disappearances that occur with respect to the sun, φάσεις καὶ κρύψεις πρὸς τὸν ἥλιον γινόμεναι, in XIII, 7–10 (ed. Halma, vol. II, pp. 416–31), and in XIII, 10 (Halma, II, 430–31) he gives tables that necessarily differ from al-Battānī's.
+@p 0704b036..0704b038 + 0705b001..0705b015
+Some things must be said first that Ptolemy and al-Battānī omit to explain; Barhebraeus sets them out clearly, *Astron.*, pp. 78–79 of the text, 66–68 of the translation. The *superior planets*, being slower than the sun, always have, like the fixed stars, a morning appearance and an evening disappearance; they become eastern, or morning planets, or planets preceding the sun, from the conjunction with the sun (which takes place for the superior planets when they occupy the apogee of the epicycle) to the opposition (at the perigee of the epicycle), that is, in the left semicircle of the epicycle; and western, or evening planets, or planets following the sun, from the opposition to the conjunction, that is, in the right semicircle of the epicycle. — The *inferior planets*, being swifter than the sun, have a double appearance and a double disappearance, namely a morning and an evening one. They become eastern from the conjunction with the sun at the perigee of the epicycle to the other conjunction at the apogee, that is, in the right semicircle of the epicycle; western from the apogee conjunction to the perigee one, that is, in the left semicircle of the epicycle. For after the conjunction at the perigee of the epicycle, where they are retrograde, they precede the sun at rising; so they appear in the morning at their rising until the sun has drawn away from them by the amount of the radius of the epicycle[^705.1][^n]. Then they begin to approach the sun, and are hidden in the morning in the east. They are again in conjunction with the sun when they reach the apogee of the epicycle; departing from the apogee and from the sun, always with direct motion, they are seen in the evening in the west, until they have drawn away from the sun by the amount of the radius of the epicycle. They then approach the sun, and are hidden in the evening in the west until the new perigee conjunction.
+@n In Nallino's note the radius of the epicycle of Venus is printed 43½ᵖ; in his table of the elements (p. 244) it is 43ᵖ 10′.
+@f 705.1 0705nl001..0705nl006
+That is, for Venus 43½ᵖ of the parts of which the radius of the deferent is 60, for Mercury 22½ᵖ. With the fraction neglected, this explains the numbers of the true anomaly that al-Battānī gives in vol. I, p. 117, ll. 12–19: for Venus 180° ± 43°, for Mercury 90° + 22° and 270° − 22°.
+@p 0705b016..0705b018
+For a given terrestrial latitude the tables give the apparent elongations of the planets from the true sun at the time of the appearance and the disappearance (αἱ φαινόμεναι τῶν ἀνατολῶν καὶ κρύψεων ἀπὸ τοῦ ἀκριβοῦς ἡλίου διαστάσεις), the planets being placed at the beginning of each sign of the zodiac.
+@p 0705b019..0705b029 + 0705b030..0705b040 + 0706b001..0706b005
+The elongations required for the appearances and disappearances vary for three reasons: the different sizes of the planets, the different inclinations of the horizon to the ecliptic, and the variation of the latitudes of the planets. Ptolemy chose an arc that would vary only because of the different sizes of the planets: the arc of the great circle passing through the poles of the horizon (that is, of the vertical circle) intercepted between the horizon and the centre of the sun at the moment when the planet appears or disappears on the horizon. The Arabs and our writers call this arc the *arc of vision*. — Relying on a good many observations, above all those of the Chaldaeans, he laid down in XIII, 7 (ed. Halma, vol. II, p. 419) that in general (ὡς ἐπίπαν) at the beginning of Cancer[^705.2] Saturn appears when it is 14° of the zodiac away from the true sun, Jupiter 12¾°, Mars 14½°, Venus in the evening 5⅔° and Mercury in the evening 11 2/8°[^n]. These observations were made in the climate of Phoenicia, whose longest day comprises 14¼ equinoctial hours. Now let BA be the horizon, DEG the ecliptic and ZBD the arc of the circle of altitude, or vertical circle, that passes through the centre D of the sun; likewise E the point at which a planet without latitude rises, and H or T the point at which a planet with latitude rises. Let HK and TL be drawn perpendicular[^705.3]. Because all these arcs are small, their *chords* can be taken for them, from which they do not sensibly (πρὸς αἴσϑησιν) differ. In treating the latitudes of the planets, Ptolemy had shown that Saturn and Jupiter are nearly on the ecliptic when they rise at the beginning of Cancer, but that Mars has a northern latitude of about 0° 12′. So let E be the position of Saturn and of Jupiter at their rising, and H the position of Mars at its rising (HK being, very nearly, its northern latitude); the amount of the line, or arc of vision, BD is invariable for each planet, as we said; the arc DE of the ecliptic will be the elongation of Saturn or of Jupiter from the true sun D (found by the observations mentioned above), the arc DK the known elongation of Mars. The angle BED of the horizon and the ecliptic[^706.1] is found by the rules of II, 11 (ed. Halma, vol. I, pp. 120–22), which for the point E of the ecliptic are rendered in trigonometry thus:
+@n So the print, with the fraction 2/8.
+@f 705.2 0705nr001..0705nr004
+It was best to make these observations with the sun near the summer solstice, because in our climates the air is then as thin and clear as it can be.
+@f 705.3 0705nr005..0705nr006
+To the ecliptic, not to the horizon as in the figures of Halma's edition.
+@fig AB01-PDF0705-F01 AB01-PDF0705-body-F01
+@f 706.1 0706nl001..0706nl005
+It is the angle contained by the horizon and the part of the ecliptic that stands above the horizon; it is equal at the rising point of the ecliptic and at the point of the ecliptic diametrically opposite, which is then setting. So it is often, not very aptly, called the *angle of the east*, or the *eastern angle*.
+@m 0706b006
+\sin \text{angle} = R\,\dfrac{\sin \text{altit. of the culminating degree}}{\sin \text{arc of the ecliptic between } E \text{ and the culmin. degree}}\,.
+@p 0706b007..0706b010
+For the climate of Phoenicia and the beginning E of Cancer he computes this angle BED to be «103 of such [parts] as *two* right angles are 360, so that the ratio of the straight lines [standing] about the right angles is as 94 to 75 very nearly, and the hypotenuses are 120 of the same [parts]»[^706.2]; by which words he means that $BED = \dfrac{103^\circ}{2} = 51\tfrac{1}{2}^\circ$, whence, the triangles of the figure being taken as rectilinear,
+@f 706.2 0706nr001..0706nr005
+Τὴν ὑπὸ ΒΕΔ γωνίαν εὑρίσκομεν τοιούτων ργ, οἵων αἱ δύο ὀρθαὶ τξ, καὶ τὸν λόγον διὰ τούτου τῶν περὶ τὰς ὀρθὰς γωνίας τὸν τῶν ϟδ πρὸς τὰ οε ἔγγιστα, τοιούτων δὲ καὶ τὰς ὑποτεινούσας ρκ (ed. Halma, vol. II, p. 419).
+@m 0706b011
+HK : KE = 94 : 75\,, \qquad DE : DB = 120 : 94\,,
+@p 0706b012
+or, to use our trigonometry,
+@m 0706b013
+\dfrac{KE}{HK} = \dfrac{\cot BED}{R} = \dfrac{75}{94}\,, \qquad \dfrac{DB}{DE} = \dfrac{\sin BED}{R} = \dfrac{94}{120}\,.
+@p 0706b014
+Then clearly, for Saturn and Jupiter placed at the beginning E of Cancer:
+@m 0706b015
+\text{arc of vision} = BD = DE\,\dfrac{94}{120}\,,
+@p 0706b016..0706b017
+where DE is known (14° and 12° 45′) from the observations mentioned above. For Mars, standing at H, the same formula serves; but then DK, not DE, is known from those observations, so that
+@m 0706b018
+DE = DK + KE = DK + HK\,\dfrac{75}{94} = 14^\circ\,30' + 0^\circ\,12'\,\dfrac{75}{94} = 14^\circ\,40'\,.
+@p 0706b019..0706b020
+Proceeding in the same way with the inferior planets too, he finds the *arc of vision* BD to be 11° for Saturn, 10° for Jupiter, 11½° for Mars, 5° for Venus and 10° for Mercury; these amounts are invariable.
+@p 0706b021..0706b024
+It is now easy to compute the elongations from the true sun at the appearances and disappearances, with any point of the ecliptic placed at E. The *angle* BED is found by the formula mentioned above; the *latitude* HK or TL of the planet is known; the arc DE, the triangles being taken with Ptolemy as very nearly rectilinear, will be $DE = R\,\dfrac{BD}{\sin BED}$. Then
+@m 0706b025
+KE = \dfrac{HK\cot BED}{R}\,, \quad \text{or} \quad EL = \dfrac{TL\cot BED}{R}\,,
+@p 0706b026
+whence the amounts sought,
+@m 0706b027
+DK = DE - KE\,, \quad \text{or} \quad DL = DE + EL\,.
+@p 0706b028
+The true rules, as they are derived from the consideration of the spherical triangles, would indeed have been:
+@m 0706b029..0706b030
+\sin DE = R\,\dfrac{\sin BD}{\sin BED}\,, \qquad \sin KE = \dfrac{\tan HK\cot BED}{R}\,,
+\sin EL = \dfrac{\tan TL\cot BED}{R}\,;
+@p 0706b031
+but in these small triangles the difference is quite negligible.
+@p 0707b001
+Adapted, then, to our way of writing, this is the *Ptolemaic* rule:
+@m 0707b002
+\text{elongation from } \SunSym = R\,\dfrac{\text{arc of vision}}{\sin BED} \mp \dfrac{\text{latit. of the planet} \times \cot BED}{R}\,;
+@p 0707b003..0707b004
+where the angle BED is understood as made at the position of the planet if the planet has no latitude, and at the point of the ecliptic that rises together with the planet if the planet has a latitude.
+@p 0707b005..0707b022
+In this way, Ptolemy says in XIII, 9 (ed. Halma, vol. II, pp. 427–28), he constructed the tables in which, with the [true] longitude of the planets placed at the beginnings of the signs, the apparent elongations of the planets from the true sun that are needed for the appearances and the disappearances are given (τὰς φαινομένας τῶν ἀνατολῶν καὶ κρύψεων ἀπὸ τοῦ ἀκριβοῦς ἡλίου διαστάσεις ὡς αὐτῶν τῶν ἀστέρων ἐν ταῖς ἀρχαῖς τῶν δωδεκατημορίων ὑποκειμένων, ὑπετάξαμεν, loc. cit., Halma, II, 428), that is, the arc of the ecliptic between the beginning of the sign then occupied by the planet as it appears or sets and the true sun. If the planet is away from the beginnings of the signs, the tables will have to be interpolated, as al-Battānī too teaches, vol. I, p. 118, ll. 18–25. — The *Ptolemaic* table[^707.1] was made for the climate of Phoenicia, that is, for a latitude of about 33°; it must differ from *al-Battānī's* for these reasons: 1) because of the different obliquity of the ecliptic, which makes the angles BED different; — 2) because of the different terrestrial latitude to which the tables are referred; — 3) because of the long interval of time, in which the longitudes of the nodes of the planets have been increased by the motion of the precession, so that the latitude of a planet at a given place of the ecliptic has changed. In what way they computed the latitudes of the planets in making these tables neither Ptolemy nor al-Battānī tells; I have spent a great deal of time and labour in vain on working out the construction of the tables. Nor have Purbachius, Regiomontanus, Maginus, Riccioli and the other astronomers of the fifteenth to the seventeenth century attempted the matter (or perhaps, having attempted it, they abandoned it), nor Delambre and the more recent historians of astronomy. So it has been impossible to correct the numbers of the codex with full certainty.
+@f 707.1 0707n001
+In Halma's edition it teems with a number of errors; so the edition prepared by Heiberg should be consulted.
+@p 0707b023..0707b024
+To report here what I tried in vain would be too long and useless; but it is worth adding some considerations.
+@p 0707b025..0707b031
+The *kind of appearance* or *disappearance* is gathered from the corrected anomaly, that is, from the arc of the epicycle that the planet has travelled from the true apogee of the epicycle. For the superior planets are near their morning appearance a little after the apogee of the epicycle, and near their evening disappearance a little before it. The inferior planets approach the evening appearance a little after the apogee of the epicycle and the morning disappearance a little before the apogee; the evening disappearance a little before the perigee, and the morning appearance a little after the perigee of the epicycle. Theon and al-Battānī (vol. I, p. 117) fix the amounts of the anomaly needed, very nearly, for the appearances and disappearances a little differently from Ḥabash (ff. 67v–68r):
+@t spec=lrrrrrr 0707b032..0707b035
+! | <2>Saturn | <2>Jupiter | <2>Mars
+! | appear. | disapp. | appear. | disapp. | appear. | disapp.
+al-Battānī | 20° | 340° | 20° | 340° | 20° | 340°
+Ḥabash | 20 | 340 | 14 | 346 | 28 | 332
+@t spec=lrrrrrrrr 0707b036..0707b040
+! | <4>Venus | <4>Mercury
+! | <2>appearance | <2>disappearance | <2>appearance | <2>disappearance
+! | evening | morning | evening | morning | evening | morning | evening | morning
+al-Battānī | 20° | 200° | 160° | 340° | 20° | 200° | 160° | 340°
+Ḥabash | 24 | 184 | 176 | 336 | 51 | 204 | 156 | 309
+@p 0708b001..0708b002
+I do not know how these numbers were computed (παχυμέστερον, «very roughly», as Theon says, I, 63); the discrepancies are of no importance at all in the computation of the latitudes.
