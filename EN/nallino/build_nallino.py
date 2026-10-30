@@ -33,7 +33,7 @@ of a unit belongs to one block; a line may also end one block and begin another,
 footnote is called once, and every figure of the unit's pages is set.
 Inline: *...* italics, **...** bold, $...$ and \\[...\\] TeX math; Arabic, Greek, Hebrew and Syriac are set in their
 fonts; {ar:...} is an Arabic phrase with its own brackets or punctuation, set as one right-to-left run; {img:NAME}
-(or {img:NAME:H}, H em high) is a glyph that the transcription of S01 keeps as an image of the print.
+(or {img:NAME:H:D}, H em high and D em below the line) is a glyph that the transcription of S01 keeps as an image of the print.
 
 python build_nallino.py   (writes nallino_en.tex, alignment.tsv and checkpoint.json; fails on any error)"""
 import csv
@@ -215,11 +215,11 @@ def plain(s):
         return f"{len(keep) - 1}"
     s = re.sub(r"\{ar:([^{}]*)\}", stash, s)
 
-    def image(m):  # {img:NAME} or {img:NAME:H}: a glyph that S01 keeps as an image of the print, H em high
-        keep.append(r"\raisebox{-.25em}{\includegraphics[height=" + (m.group(2) or "1.05") + "em]{../../S01/source/"
-                    "presentation/" + m.group(1) + ".png}}")
+    def image(m):  # {img:NAME[:H[:D]]}: a glyph that S01 keeps as an image of the print, H em high, D em below the line
+        keep.append(r"\raisebox{-" + (m.group(3) or ".25") + r"em}{\includegraphics[height=" + (m.group(2) or "1.05")
+                    + "em]{../../S01/source/presentation/" + m.group(1) + ".png}}")
         return f"{len(keep) - 1}"
-    s = re.sub(r"\{img:(AB01-PDF\d{4}-[FG]\d{2})(?::([\d.]+))?\}", image, s)
+    s = re.sub(r"\{img:(AB01-PDF\d{4}-[FG]\d{2})(?::([\d.]+))?(?::([\d.]+))?\}", image, s)
     s = plain_runs(s)
     return re.sub("(\\d+)", lambda m: keep[int(m.group(1))], s)
 
