@@ -3,7 +3,9 @@ line-anchored Latin transcriptions and write the TeX.
 
 The Latin is read from the anchors.tsv of the transcriptions (one printed line per row: anchor, printed page, section,
 transcription): S03/versio and S04/versio (Part I, pp. 110-327) and S07/adnotationes (the notes on the tables, Part II,
-pp. 189-317, whose rows may hold a whole TeX table over several lines, escaped as the csv writer escapes them).
+pp. 189-317, whose rows may hold a whole TeX table over several lines, escaped as the csv writer escapes them); and
+from the line-anchored transcription of S01 (the front matter of Part I: title, dedication, preface, bibliography,
+addenda; pp. VII-LXXX).
 units.tsv lists the units in the order of the edition: unit, part, title, and its lines (RANGES, as below; no line is
 in two units). Each unit is one file text/<unit>.txt:
   @unit ID
@@ -24,12 +26,14 @@ in two units). Each unit is one file text/<unit>.txt:
                               every other line a row (@row); .figl FILE | TEXT sets the head figure FILE, from
                               figures/ here when it has English labels, TEXT being the English of its labels
   @n TEXT                     a translator's note to the block before it
-RANGES is FIRST..LAST, or one anchor, or several of these joined by " + ". An anchor is written in full
-(AB01-PDF0242-body-L004) or short (0242b004; nl, nr, n and s for notes_left, notes_right, notes and section). Every line
+RANGES is FIRST..LAST, or one anchor, or several of these joined by " + "; or - for a heading that the print gives only
+as a running head (PRAEFATIO). An anchor is written in full (AB01-PDF0242-body-L004) or short (0242b004; nl, nr, n,
+nf and s for notes_left, notes_right, notes, notes_full and section). Every line
 of a unit belongs to one block; a line may also end one block and begin another, where a sentence ends inside it. Every
 footnote is called once, and every figure of the unit's pages is set.
 Inline: *...* italics, **...** bold, $...$ and \\[...\\] TeX math; Arabic, Greek, Hebrew and Syriac are set in their
-fonts.
+fonts; {ar:...} is an Arabic phrase with its own brackets or punctuation, set as one right-to-left run; {img:NAME}
+(or {img:NAME:H}, H em high) is a glyph that the transcription of S01 keeps as an image of the print.
 
 python build_nallino.py   (writes nallino_en.tex, alignment.tsv and checkpoint.json; fails on any error)"""
 import csv
@@ -42,9 +46,10 @@ from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
 ROOT = HERE.parent.parent
-SOURCES = {"S03": ROOT / "S03" / "versio", "S04": ROOT / "S04" / "versio", "S07": ROOT / "S07" / "adnotationes"}
+SOURCES = {"S01": ROOT / "S01", "S03": ROOT / "S03" / "versio", "S04": ROOT / "S04" / "versio",
+           "S07": ROOT / "S07" / "adnotationes"}
 ESCAPED = {"S07"}   # read with the csv writer's escape character: its rows may hold a whole TeX table
-SEC = {"b": "body", "nl": "notes_left", "nr": "notes_right", "n": "notes", "s": "section"}
+SEC = {"b": "body", "nl": "notes_left", "nr": "notes_right", "n": "notes", "nf": "notes_full", "s": "section"}
 csv.field_size_limit(10 ** 8)
 
 
@@ -53,10 +58,31 @@ def read_tsv(path, escaped=False):
         return list(csv.DictReader(fh, delimiter="\t", quoting=csv.QUOTE_NONE, escapechar=chr(92) if escaped else None))
 
 
+def roman(n):
+    out = ""
+    for v, s in ((50, "L"), (40, "XL"), (10, "X"), (9, "IX"), (5, "V"), (4, "IV"), (1, "I")):
+        while n >= v:
+            out, n = out + s, n - v
+    return out
+
+
+def read_s01(d):
+    """the line-anchored transcription of S01 (the front matter of Part I, PDF 10-89) as the rows of an anchors.tsv;
+    its pages are numbered in roman figures, PDF 16 being p. VII"""
+    rows = []
+    for line in (d / "transcription" / "S01_NALLINO_SOURCE_v003.txt").read_text(encoding="utf-8").splitlines():
+        m = re.match(r"(AB01-PDF(\d{4})-(\w+)-L\d{3})\t(.*)$", line)
+        if m:
+            pdf = int(m.group(2))
+            rows.append({"anchor": m.group(1), "printed_page": roman(pdf - 9) if pdf >= 16 else "",
+                         "section": m.group(3), "transcription": m.group(4)})
+    return rows
+
+
 def load_sources():
     rows, where = [], {}
     for name, d in SOURCES.items():
-        for r in read_tsv(d / "anchors.tsv", name in ESCAPED):
+        for r in read_s01(d) if name == "S01" else read_tsv(d / "anchors.tsv", name in ESCAPED):
             where[r["anchor"]] = len(rows)
             rows.append({"anchor": r["anchor"], "page": r["printed_page"], "section": r["section"],
                          "text": r["transcription"], "source": name, "pdf": int(r["anchor"][8:12])})
@@ -69,6 +95,8 @@ def full(a):
 
 
 def ranges_of(spec):
+    if spec.strip() == "-":   # a heading that is a running head of the print, not one of its lines
+        return []
     out = []
     for part in spec.split(" + "):
         a, _, z = part.strip().partition("..")
@@ -180,14 +208,32 @@ COPTIC_RUN = re.compile(rf"([{_CO}][{_CO}{_MARKS}]*)")
 
 
 def plain(s):
+    keep = []
+
+    def stash(m):  # {ar:...}: an Arabic phrase with its own brackets or punctuation, set as one right-to-left run
+        keep.append(r"\RL{\ArNote " + tex_escape(m.group(1)) + "}")
+        return f"{len(keep) - 1}"
+    s = re.sub(r"\{ar:([^{}]*)\}", stash, s)
+
+    def image(m):  # {img:NAME} or {img:NAME:H}: a glyph that S01 keeps as an image of the print, H em high
+        keep.append(r"\raisebox{-.25em}{\includegraphics[height=" + (m.group(2) or "1.05") + "em]{../../S01/source/"
+                    "presentation/" + m.group(1) + ".png}}")
+        return f"{len(keep) - 1}"
+    s = re.sub(r"\{img:(AB01-PDF\d{4}-[FG]\d{2})(?::([\d.]+))?\}", image, s)
+    s = plain_runs(s)
+    return re.sub("(\\d+)", lambda m: keep[int(m.group(1))], s)
+
+
+def plain_runs(s):
     s = tex_escape(s).replace(r"\{0\}", r"\AbjadZero{}")  # {0}: Nallino's sign for zero in abjad numbers
     s = re.sub(r"\*\*([^*]+)\*\*", r"\\textbf{\1}", s)
     s = re.sub(r"\*([^*]+)\*", r"\\emph{\1}", s)
-    s = re.sub(r"([؀-ۿݐ-ݿﭐ-﷿ﹰ-﻿][؀-ۿݐ-ݿﭐ-﷿ﹰ-﻿\s«».]*[؀-ۿݐ-ݿﭐ-﷿ﹰ-﻿]|[؀-ۿ])", r"\\RL{\\ArNote \1}", s)  # a stop between Arabic words stays in the run
+    # a stop between Arabic words stays in the run, and so does a zero-width non-joiner (بيره‌جك)
+    s = re.sub(r"([؀-ۿݐ-ݿﭐ-﷿ﹰ-﻿][؀-ۿݐ-ݿﭐ-﷿ﹰ-﻿\s«».‌]*[؀-ۿݐ-ݿﭐ-﷿ﹰ-﻿]|[؀-ۿ])", r"\\RL{\\ArNote \1}", s)
     s = s.replace("\u00a0", "~")  # a no-break space, as between the groups of an abjad number (inside its RL run)
     s = GREEK_RUN.sub(r"{\\greekfont \1}", s)
     s = re.sub(r"([֐-׿][֐-׿\s]*[֐-׿])", r"\\RL{\\hebrewfont \1}", s)
-    s = re.sub(r"([܀-ݏ][܀-ݏ\s]*[܀-ݏ])", r"\\RL{\\syriacfont \1}", s)
+    s = re.sub(r"([܀-ݏ](?:[܀-ݏ\s]*[܀-ݏ])?)", r"\\RL{\\syriacfont \1}", s)
     s = re.sub(f"([{chr(0x1200)}-{chr(0x137F)}]+(?: [{chr(0x1200)}-{chr(0x137F)}]+)*)", r"{\\EthiopicFont \1}", s)
     s = s.replace(chr(0x2E3F), r"{\CapFont " + chr(0x2E3F) + "}")  # the capitulum of the Spanish quotations
     s = COPTIC_RUN.sub(r"{\\CopticFont\\bfseries \1}", s)
@@ -490,13 +536,19 @@ def main():
             print("ERROR", e)
         raise SystemExit(1)
     held = []
-    for part, name in (("A", "the commentary of Part I"), ("T", "the notes on the tables of Part II")):
+    for part, name in (("P1", "the front matter of Part I"), ("A", "the commentary of Part I"),
+                       ("T", "the notes on the tables of Part II")):
         mine = [u for u in units if u["part"] == part]
         got = [u for u in done if u["part"] == part]
-        pages = sorted({int(rows[x]["page"]) for u in got for x in u["set"] if rows[x]["page"].isdigit()})
+        page_of = {}   # the printed page of each master page (roman in the front matter)
+        for x in sorted(x for u in got for x in u["set"]):
+            if rows[x]["page"]:
+                page_of.setdefault(rows[x]["pdf"], rows[x]["page"])
+        first, last = (page_of[min(page_of)], page_of[max(page_of)]) if page_of else ("", "")
         if got:
-            held.append(("the whole of " if len(got) == len(mine) else "") + name + f" (pp. {pages[0]}–{pages[-1]})")
-    status = "The translation is in progress. This version holds " + " and ".join(held)
+            held.append(("the whole of " if len(got) == len(mine) else "") + name + f" (pp. {first}–{last})")
+    status = "The translation is in progress. This version holds " + ", ".join(held[:-1]) + " and " + held[-1] \
+        if len(held) > 1 else "The translation is in progress. This version holds " + "".join(held)
     tex = [PREAMBLE, front(status)] + body + [r"\end{document}"]
     (HERE / "nallino_en.tex").write_text("\n".join(tex) + "\n", encoding="utf-8", newline="\n")
     with open(HERE / "alignment.tsv", "w", encoding="utf-8", newline="\n") as fh:
