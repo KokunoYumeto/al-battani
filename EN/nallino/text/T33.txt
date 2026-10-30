@@ -1,0 +1,32 @@
+@unit T33
+@h 0744b027
+On p. 188: the altitudes and directions of the hours
+@p 0744b028..0744b030
+I dealt with the small table on the left side in the note on the preceding page; it remains for me to speak of the two small tables on the right side, which are mentioned in vol. I, p. 138, ch. LVI (and see I, 135, note 1).
+@p 0744b031..0744b033
+Absurdly, the common heading of both small tables is corrupted thus in the codex: جداول ساعات تحاويل هذه السنين, «tables of the hours of the revolutions of these years»; it is missing in the Spanish version, which gives only the lower small table.
+@p 0744b034..0744b040
+Both serve to draw the two ends of the hour lines on a horizontal sundial, that is, to compute the point M and the point L of each *temporal* hour according to the figure of vol. I, p. 137; these points are determined by the length of the shadow of the gnomon and by the azimuth of the shadow at the moments when the single *temporal* hours I, II, III ..... XII begin on the days of the winter solstice or of the summer solstice. So first one must compute for each solstice the semidiurnal arc of the sun, a sixth of which makes a temporal hour, and derive the hour angles answering to the single hours (from sunrise to sunset).
+@p 0745b001..0745b006 + 0745b007..0745b014
+**[**At any moment the length of the shadow equals the length of the gnomon multiplied by the tangent of the zenith distance of the sun; the azimuth, or direction, of the shadow, that is, the angle contained by this shadow and the meridian, is the same as the azimuth of the sun. These small tables of al-Battānī give the complements to 90° of the zenith distance and of the azimuth of the sun, so the *altitude* of the sun and the *rising* or *setting amplitude*. The problem is this: given the hour angle of the sun (one, two, three ..... temporal hours), the distance of the zenith from the pole (54° 0′ for al-Raqqa) and the distance of the sun from the pole at each solstice (66° 25′ at the summer and 113° 35′ at the winter solstice, for al-Raqqa), to find the *azimuth* and the *zenith distance* of the sun. Al-Battānī solved the problem in vol. I; but formulas better suited to logarithmic computation are derived with the help of Napier's analogies. Let P be the pole, Z the zenith, S the sun, θ the hour angle ZPS, μ the azimuth of the sun (at Z) and ν the parallactic angle of the sun (at S). At the time of the *summer* solstice *b* = 66° 25′ and *c* = 54° 0′ for al-Raqqa; Napier's analogies give
+@fig AB01-PDF0745-F01 AB01-PDF0745-body-F01
+@m 0745b015..0745b016
+\tan\tfrac12(\mu + \nu) = \cot\tfrac12\theta\,\dfrac{\cos\frac12(66^\circ\,25' - 54^\circ\,0')}{\cos\frac12(66^\circ\,25' + 54^\circ\,0')}
+\tan\tfrac12(\mu - \nu) = \cot\tfrac12\theta\,\dfrac{\sin\frac12(66^\circ\,25' - 54^\circ\,0')}{\sin\frac12(66^\circ\,25' + 54^\circ\,0')}\,,
+@p 0745b017..0745b021
+where the fractional factors are the same for all the hour angles. Hence one gathers at once $x = \tfrac12(\mu + \nu)$, $y = \tfrac12(\mu - \nu)$, $\mu = x + y$, $\nu = x - y$. When the *azimuth* μ is known, the *zenith distance q* sought is easily found from the proportion $\dfrac{\sin q}{\sin b} = \dfrac{\sin\theta}{\sin\mu}$. — At the time of the winter solstice 90° + ε = 113° 35′ must be used instead of 90° − ε = 66° 25′.
+@p 0745b022..0745b029
+When these are known, the points L and M of each temporal hour can be marked for each solstice on the horizontal plane of the sundial by means of the azimuth μ and the length of the shadow (= the length of the gnomon × tan *q*). When the points L and M belonging to the same hour are joined by a straight line, the whole hour line results, which will show that hour *very nearly* throughout the year. The true hour line of the temporal hours is not straight but somewhat curved, and coincides with the straight line just described only on the days of the equinoxes and the solstices. The error can reach some minutes, which, however, the ancients seem to have thought of little account. Only the hour line of noon is straight for the temporal hours too. — Schiaparelli.**]**
+@p 0745b030..0745b034
+By this method Schiaparelli brought back to the true reading the numbers of the codex, which in the lower small table were so far from the truth that they had to be regarded as supplied by another hand from other elements. Delambre too, *Histoire de l'astron. du moyen âge*, p. 60, made the small table of the directions, or amplitudes, after al-Battānī's meaning, and his numbers agree exactly with Schiaparelli's. The codex and the Spanish version (Vh.) gave these amounts:
+@t spec=rrrlrrrl 0745b035..0745b041
+! <4>of Cancer | <4>of Capricorn
+19° | 36′ | 32″ |  | 36° | 35′ | 24″ | (Vh. 37°)
+10 | 5 | 11 |  | 46 | 28 | 35 |
+1 | 18 | 35 | (Vh. 38′) | 54 | 3 | 50 |
+11 | 21 | 31 |  | 65 | 29 | 57 |
+32 | 58 | 30 | (Vh. 35″) | 77 | 24 | 57 |
+79 | 36 | 4 |  | 85 | 1 | 0 |
+@p 0745b042
+Neither the codex nor Vh. indicates the regions of these directions, which we thought should be added in brackets.
+@fig AB01-PDF0745-F02 AB01-PDF0745-body-F02
