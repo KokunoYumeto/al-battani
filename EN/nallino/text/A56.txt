@@ -1,0 +1,37 @@
+@unit A56
+@h 0407b001
+On chapter 56
+@c 0407b002
+**a**) — p. 137, ll. 12–19.
+@fig AB01-PDF0407-F01 AB01-PDF0407-body-F01
+@p 0407b003
+To compute the *azimuth of the qibla*.
+@p 0407b004..0407b009
+Let A be the given city (whose longitude is λ′, its latitude φ′), B Mecca (whose longitude is λ, its latitude φ), BC an arc of the terrestrial meridian passing through Mecca, and AB the arc of the great circle that joins the two cities, that is, that measures their distance. Let the arc AC of a great circle be drawn perpendicular to the meridian BC, so that it represents the line of rising and setting, from which the Arabs begin to count the azimuth. The angle BAC, then, will be the azimuth of the qibla sought.
+@p 0407b010..0407b012
+Al-Battānī puts: \[ [[(α)]] \text{sin azimuth} = R\,\frac{\sin(\varphi' - \varphi)}{\text{sin distance}}\,, \] which is only approximately true, for BC cannot be exactly the difference of the latitudes φ′ − φ.
+@p 0407b013..0407b015
+He further teaches: \[ [[(β)]] \text{sin distance} = \sqrt{\sin^{2}(\varphi' - \varphi) + \sin^{2}(\lambda - \lambda')} \] which is false in a spherical figure.
+@p 0407b016..0407b017
+The true formula for computing the azimuth of the qibla would have been[^n]: \[ \text{cos azimuth} = \cos BAC = R\,\frac{\sin AC}{\sin AB} = R\,\frac{\sin(\lambda - \lambda')\,\cos\varphi'}{\text{sin distance}}\;. \]
+@n Nallino's Addenda et emendanda (Part II, p. XXVII) correct this demonstration, as Suter (Bibl. Math., 3rd series, vol. 5, 1904, p. 88) rightly pointed out: the line of rising and setting of the given city is the great circle AC drawn through A perpendicular to the meridian of the *given city*, not to that of Mecca, and the azimuth of the qibla is the angle BAC that it makes with AB. With the meridians drawn from the pole P through A and through Mecca B, in the triangle PAB sin PAB = sin PB sin P : sin AB = sin (λ − λ′) cos φ : sin distance, and since PAB = 90° + azimuth, cos azimuth = sin (λ − λ′) cos φ : sin distance, which differs from Nallino's formula by φ in place of φ′. In the construction printed here, R sin AC : sin AB is the sine of the angle ABC at Mecca, while cos BAC = cos BC · sin AC : sin AB (to the radius 1); and since sin AC = sin (λ − λ′) cos φ′ : R, the last member should be without the factor R. For Baghdad (33.3° N, 44.4° E) and Mecca (21.42° N, 39.83° E) the corrected formula gives an azimuth of 70.04°, al-Battānī's rules (α) and (β) give 68.84°, and the angle BAC of the construction printed here is 72.56°.
+@p 0407b018..0407b023
+The distance, however, ought to have been found by the same rule by which al-Battānī, in chapter XXVI, teaches to compute the remoteness between two stars of different latitude; this rule, \[ \text{crd distance} = \sqrt{\text{crd}(\lambda - \lambda')\,\frac{\cos\varphi}{R}\times\text{crd}(\lambda - \lambda')\,\frac{\cos\varphi'}{R} + \text{crd}^{2}(\varphi' - \varphi)}\,, \] as I have shown on pp. 202–3, is very easily reduced to our \[ \text{cos distance} = \sin\varphi\,\sin\varphi' + \cos\varphi\,\cos\varphi'\,\cos(\lambda - \lambda') \]
+@p 0407b024..0407b036
+Hardly anyone will think it credible that al-Battānī taught false formulas, when he himself had already used true ones in the other similar problems. But why he did so is not hard to understand. Knowledge of the azimuth of the qibla was needed only by the architects who had to build the mosques of the Muslims; for a niche called *miḥrāb* is set in the inner wall of the mosque, which shows the direction of the city of Mecca, towards which those who pray must always turn their face, by the precept of the Qurʾān. Since an error of a few degrees is then of very little importance, and since those architects were mostly not much versed in trigonometric computations, al-Battānī wished to give them formulas that were only approximate, but far easier than the true ones. When the difference of the longitudes is small, and the latitude of the given city not so great that the arcs of the parallel differ much from the arcs of a great circle, the error is almost imperceptible; in Syria and Mesopotamia it reaches about 3° or 4°[^n]. — Besides, he had already taught the approximate formula (β) on p. 87, ll. 8–11, for computing the distance that lies «*nearly*» between the sun and the moon, but with the warning that the «*true*» solution of the problem was the one he had set out in chapter XXVI.
+@n Nallino's Addenda et emendanda (Part II, p. XXVII) put the error of al-Battānī's rougher rule at only 1°–2° in Syria and Mesopotamia; see the preceding note.
+@p 0407b037..0407b038 + 0408b001..0408b003
+For the use of Muslims who have to travel through desert regions, so that they may know to which side the face is to be turned in the canonical prayers, circles divided into a number of sectors are commonly drawn; Mecca is put in the centre, and in the sectors the names of the larger provinces are written according to their directions with respect to Mecca. Such pictures can be seen in Yāqūt, Ibn al-Wardī and Lelewel, *Géographie du moyen âge*, Brussels 1852, atlas.
+@c 0408b004
+**b**) — p. 137, l. 20 ff.
+@p 0408b005..0408b008
+The picture of the *sundial*, very badly drawn in the codex and in Plato, has been drawn again by Schiaparelli according to the author's precepts, for the latitude 36° and with a gnomon of 12 millimetres. He marked the azimuth of the qibla, taking al-Battānī's geographical coordinates (see vol. II, pp. 37–38 and 41):
+@t spec=lll 0408b009..0408b010
+Mecca | long. 77° 53′ | lat. N 21° 40′
+al-Raqqa | long. 73° 15′ | lat. N 36° 0′.
+@p 0408b011..0408b013
+The error in the longitudes is not small, for according to the moderns the difference is about 50′. But the longitudes come from different sources that disagree with one another, as I shall show in vol. II, in the commentary on the geographical tables.
+@p 0408b014..0408b015
+The construction of al-Battānī's sundial was already very well known to the Greeks; see Fr. Woepcke, *Disquisitiones archaeologico-mathematicae circa solaria veterum*, Berlin 1842.
+@p 0408b016..0408b018
+Books on the making of sundials were written before al-Battānī's age by several authors: Muḥammad ibn ʿUmar ibn al-Farrukhān, Muḥammad ibn Mūsā al-Khwārizmī, al-Farghānī, Ḥabash, al-Ḥusayn ibn Muḥammad al-Adamī and Thābit ibn Qurra.
