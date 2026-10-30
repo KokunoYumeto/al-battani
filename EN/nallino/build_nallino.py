@@ -18,6 +18,11 @@ in two units). Each unit is one file text/<unit>.txt:
   @f KEY RANGES               one of Nallino's footnotes; the block that calls it has [^KEY] where his number stands
   @fig FILE ANCHOR            a redrawn figure of S03, S04 or S07 (figures/FILE.tex) and its anchor in the transcription
                               (AB01-PDF0252-body-F01); a caption may follow
+  @grid RANGES                a table set as the Latin edition sets it, by the column machinery of S07
+                              (build_adnotationes.py): the lines of its page file in English, the directives written
+                              .cols, .colpad, .center, .vspace, .figl, .rowgap, .rowsep, .rule2 (for @cols …) and
+                              every other line a row (@row); .figl FILE | TEXT sets the head figure FILE, from
+                              figures/ here when it has English labels, TEXT being the English of its labels
   @n TEXT                     a translator's note to the block before it
 RANGES is FIRST..LAST, or one anchor, or several of these joined by " + ". An anchor is written in full
 (AB01-PDF0242-body-L004) or short (0242b004; nl, nr, n and s for notes_left, notes_right, notes and section). Every line
@@ -29,6 +34,7 @@ fonts.
 python build_nallino.py   (writes nallino_en.tex, alignment.tsv and checkpoint.json; fails on any error)"""
 import csv
 import hashlib
+import importlib.util
 import json
 import re
 import sys
@@ -81,7 +87,7 @@ def parse(path):
         if raw.startswith("@n "):
             blocks[-1]["notes"].append(raw[3:].strip())
             continue
-        m = re.match(r"@(part|h|c|p|m|ar) (.+)$", raw)
+        m = re.match(r"@(part|h|c|p|m|ar|grid) (.+)$", raw)
         if m:
             blocks.append({"kind": m.group(1), "ranges": ranges_of(m.group(2)), "text": [], "notes": []})
             continue
@@ -101,7 +107,7 @@ def parse(path):
             continue
         if raw.startswith("@"):
             raise SystemExit(f"{path.name}: unknown line {raw[:50]}")
-        blocks[-1]["text"].append(raw.rstrip() if blocks[-1]["kind"] in ("m", "t") else raw.strip())
+        blocks[-1]["text"].append(raw.rstrip() if blocks[-1]["kind"] in ("m", "t", "grid") else raw.strip())
     return unit, blocks
 
 
@@ -242,6 +248,12 @@ PREAMBLE = r"""\documentclass[11pt]{article}
 \newcommand{\AbjadZero}{{\NallinoSigns\symbol{"E000}}}
 \newcommand{\ARsign}{\mbox{\clipbox{0pt 0pt {.48\width} 0pt}{A}\kern-.10em R}}
 \newcommand{\Name}[1]{#1}
+% the macros of the Latin edition (S07) that its column machinery uses for the tables set by @grid
+\newsavebox{\DLBox}\newlength{\GridWidth}
+\newcommand{\DLine}[3]{\par\noindent\sbox{\DLBox}{\strut #3}\usebox{\DLBox}\strut\par}
+\newcommand{\CenterLine}[1]{\makebox[\linewidth][c]{#1}}
+\newcommand{\qfrac}[2]{{}^{#1}\!/_{{#2}}}
+\newcommand{\ArabicRun}[1]{\smash[b]{\textarabic{#1}}}
 \DeclareNewFootnote{T}[alph]
 \MakePerPage{footnote}\MakePerPage{footnoteT}
 \hypersetup{pdftitle={C. A. Nallino, notes on al-Battani's Zij: an English translation},pdfauthor={C. A. Nallino}}
@@ -346,6 +358,34 @@ def arabic_tex(b, idx, rows):
     return r"\par\begin{Arabic}\ArNote " + text + r"\end{Arabic}\par"
 
 
+S07_BUILD = []
+
+
+def grid_tex(b, mark, prefix):
+    """a @grid table: its lines go to the section builder of S07 as the items of a page, the table in a minipage of
+    the type of the Latin edition (11.1 on 13.8 pt), so that its rows meet the rules of the head figure; the minipage
+    is as wide as the frame of the table where that is wider than the text (its rows and the strips that carry its
+    rules must not be broken), and stands out into the right margin by the difference"""
+    if not S07_BUILD:
+        spec = importlib.util.spec_from_file_location("build_adnotationes", SOURCES["S07"] / "build_adnotationes.py")
+        S07_BUILD.append(importlib.util.module_from_spec(spec))
+        spec.loader.exec_module(S07_BUILD[0])
+    s7 = S07_BUILD[0]
+    s7.COLS.update({"indent": 0, "cols": [], "pad": (3.0, 2.0)})
+    items = [(m.group(1), m.group(2)) if (m := re.match(r"\.(\w+)\s?(.*)$", line)) else ("row", line)
+             for line in b["text"]]
+    pad = next(text for kind, text in items if kind == "colpad")
+    s7.COLS["pad"] = tuple(float(x) for x in pad.split())
+    s7.set_cols(next(text for kind, text in items if kind == "cols"))
+    width = s7.cols_width() + 0.5
+    s7.COLS.update({"indent": 0, "cols": [], "pad": (3.0, 2.0)})
+    out, _ = s7.section(items, prefix, "grid", False)
+    return (r"\par\noindent" + mark + r"\setlength{\GridWidth}{" + f"{width:.2f}" + r"mm}\ifdim\GridWidth<\linewidth"
+            r"\setlength{\GridWidth}{\linewidth}\fi\makebox[\linewidth][l]{\begin{minipage}{\GridWidth}"
+            r"\setlength{\parskip}{0pt}\fontsize{11.1}{13.8}\selectfont" + "\n" + "\n".join(out)
+            + r"\par\end{minipage}}\par")
+
+
 def fig_tex(b):
     """the figure with English labels from figures/ here, where its labels have words; else the redrawn original"""
     cap = (r"\par{\footnotesize " + inline(" ".join(b["text"])) + "}") if b["text"] else ""
@@ -424,9 +464,14 @@ def main():
                 body.append(mark + table_tex(b, notes, tn) + "".join(r"\footnoteT{" + x + "}" for x in tn))
             elif b["kind"] == "fig":
                 body.append(fig_tex(b) + tnotes)
+            elif b["kind"] == "grid":
+                body.append(grid_tex(b, mark, f"EN-{u['unit']}-G{k:02d}") + tnotes)
+                text = " ".join(x.partition(" | ")[2] if x.startswith(".figl ") else x[8:] if x.startswith(".center ")
+                                else "" for x in b["text"])   # the words of a table: its head and its title
             elif b["kind"] == "ar":
                 body.append(mark + arabic_tex(b, idx, rows) + tnotes)
-            n = len(re.sub(r"\$[^$]*\$|\\\[.*?\\\]", "", " ".join(b["text"])).split())
+            words_of = text if b["kind"] == "grid" else " ".join(b["text"])
+            n = len(re.sub(r"\$[^$]*\$|\\\[.*?\\\]", "", words_of).split())
             words += n
             align.append((f"EN-{u['unit']}-B{k:02d}", u["unit"], b["kind"],
                           " + ".join(f"{a}..{z}" for a, z in b["ranges"]), " ".join(pages), n))

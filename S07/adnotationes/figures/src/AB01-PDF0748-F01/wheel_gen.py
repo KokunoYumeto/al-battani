@@ -1,11 +1,10 @@
 """Generate the TikZ redraw of the astrological wheel of Nallino Part II p. 299 (master PDF page 748) from the reading
 of its labels (below) and their positions measured on the print (wheel_items.json, from wheel_items.py). Font sizes
 are calibrated on the measured ink widths of the words. Writes figures/AB01-PDF0748-F01.tex."""
-import json, math
+import json, math, subprocess
 from pathlib import Path
 from fontTools.ttLib import TTFont
 
-LIB = r"C:/Users/Floris/AppData/Local/Programs/MiKTeX/fonts/opentype/public/libertine/"
 OUT = Path(__file__).resolve().parents[2] / "AB01-PDF0748-F01.tex"
 
 SIGNS = ["Aries", "Taurus", "Gemini", "Cancer", "Leo", "Virgo", "Libra", "Scorpius", "Sagittarius", "Capricornus",
@@ -40,7 +39,7 @@ R = {"inner": 40.3, "exalt": 55.85, "domic": 71.5, "faces": 109.25, "dash": 127.
 
 
 def width(font, text, size):
-    f = TTFont(LIB + font)
+    f = TTFont(subprocess.run(["kpsewhich", font], capture_output=True, text=True, check=True).stdout.strip())
     cmap = f.getBestCmap()
     hm = f["hmtx"].metrics
     upm = f["head"].unitsPerEm

@@ -12,7 +12,7 @@ import numpy as np
 import fitz
 from PIL import Image
 from scipy import ndimage
-sys.path.insert(0, r"F:/user/Documents/Papors/Chatnotes/CHat translates and clean/al-battani/_intake/tables")
+sys.path.insert(0, str(Path(__file__).resolve().parents[5] / "_intake" / "tables"))
 import wide_kit as wk
 
 CX, CY = 266.5, 457.15
