@@ -90,6 +90,12 @@
   "AE",
   "AF",
   "AH",
+  "Q00",
+  "Q01",
+  "Q02",
+  "Q03",
+  "Q04",
+  "Q05",
   "T01",
   "T02",
   "T03",
@@ -145,9 +151,9 @@
   "T40",
   "T41"
  ],
- "latin_lines_translated": 17996,
- "blocks": 2544,
- "english_words": 201020,
- "canonical_source_checkpoint_sha256": "b22e1d0ea1800351ee0d3677fbe8ce77f280d63fe158e9917978f7ce86c40c85",
+ "latin_lines_translated": 18485,
+ "blocks": 2644,
+ "english_words": 206484,
+ "canonical_source_checkpoint_sha256": "af4c6b52c22d3721ac700c8fe98923c1cc3dedff7e3a6a76f55af0b0454752f7",
  "canonical_source_checkpoint_note": "SHA-256 over the unit files in order: file name, a NUL byte, the bytes"
 }

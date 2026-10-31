@@ -2,7 +2,8 @@
 line-anchored Latin transcriptions and write the TeX.
 
 The Latin is read from the anchors.tsv of the transcriptions (one printed line per row: anchor, printed page, section,
-transcription): S03/versio and S04/versio (Part I, pp. 110-327) and S07/adnotationes (the notes on the tables, Part II,
+transcription): S03/versio and S04/versio (Part I, pp. 110-327), S05/versio (the front matter of Part II: title, preface,
+addenda; pp. I-XXXI) and S07/adnotationes (the notes on the tables, Part II,
 pp. 189-317, whose rows may hold a whole TeX table over several lines, escaped as the csv writer escapes them); and
 from the line-anchored transcription of S01 (the front matter of Part I: title, dedication, preface, bibliography,
 addenda; pp. VII-LXXX).
@@ -49,7 +50,7 @@ from pathlib import Path
 HERE = Path(__file__).resolve().parent
 ROOT = HERE.parent.parent
 SOURCES = {"S01": ROOT / "S01", "S03": ROOT / "S03" / "versio", "S04": ROOT / "S04" / "versio",
-           "S07": ROOT / "S07" / "adnotationes"}
+           "S05": ROOT / "S05" / "versio", "S07": ROOT / "S07" / "adnotationes"}
 ESCAPED = {"S07"}   # read with the csv writer's escape character: its rows may hold a whole TeX table
 SEC = {"b": "body", "nl": "notes_left", "nr": "notes_right", "n": "notes", "nf": "notes_full", "s": "section"}
 csv.field_size_limit(10 ** 8)
@@ -322,7 +323,9 @@ PREAMBLE = r"""\documentclass[11pt]{article}
 \newcommand{\ARsign}{\mbox{\clipbox{0pt 0pt {.48\width} 0pt}{A}\kern-.10em R}}
 \newcommand{\Name}[1]{#1}
 % the macros of the Latin edition (S07) that its column machinery uses for the tables set by @grid
-\newsavebox{\DLBox}\newlength{\GridWidth}
+\newsavebox{\DLBox}\newlength{\GridWidth}\newsavebox{\FigBox}
+% a redrawn figure at its own size, or shrunk to the line when it is wider (the head ornament of Part II)
+\newcommand{\FitFigure}[1]{\sbox{\FigBox}{#1}\ifdim\wd\FigBox>\linewidth\resizebox{\linewidth}{!}{\usebox{\FigBox}}\else\usebox{\FigBox}\fi}
 \newcommand{\DLine}[3]{\par\noindent\sbox{\DLBox}{\strut #3}\usebox{\DLBox}\strut\par}
 \newcommand{\CenterLine}[1]{\makebox[\linewidth][c]{#1}}
 \newcommand{\qfrac}[2]{{}^{#1}\!/_{{#2}}}
@@ -468,12 +471,12 @@ def fig_tex(b):
     """the figure with English labels from figures/ here, where its labels have words; else the redrawn original"""
     cap = (r"\par{\footnotesize " + inline(" ".join(b["text"])) + "}") if b["text"] else ""
     if (HERE / "figures" / f"{b['file']}.tex").exists():
-        return r"\begin{center}\input{figures/" + b["file"] + "}" + cap + r"\end{center}"
+        return r"\begin{center}\FitFigure{\input{figures/" + b["file"] + "}}" + cap + r"\end{center}"
     for d in SOURCES.values():
         if (d / "figures" / f"{b['file']}.tex").exists():
             rel = (d / "figures" / f"{b['file']}.tex").relative_to(ROOT).as_posix()
             cap = (r"\par{\footnotesize " + inline(" ".join(b["text"])) + "}") if b["text"] else ""
-            return r"\begin{center}\input{../../" + rel + "}" + cap + r"\end{center}"
+            return r"\begin{center}\FitFigure{\input{../../" + rel + "}}" + cap + r"\end{center}"
     raise SystemExit(f"figure {b['file']} not found")
 
 
