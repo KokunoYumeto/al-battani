@@ -32,7 +32,8 @@ in two units). Each unit is one file text/<unit>.txt:
   @n TEXT                     a translator's note to the block before it
 RANGES is FIRST..LAST, or one anchor, or several of these joined by " + "; or - for a heading that the print gives only
 as a running head (PRAEFATIO). An anchor is written in full (AB01-PDF0242-body-L004) or short (0242b004; nl, nr, n,
-nf and s for notes_left, notes_right, notes, notes_full and section). Every line
+nf, s, cl and cr for notes_left, notes_right, notes, notes_full, section, col_left and col_right). An entry of the
+indexes is a block @e RANGES (a compact paragraph with a hanging indent; @e+ goes on from the last entry). Every line
 of a unit belongs to one block; a line may also end one block and begin another, where a sentence ends inside it. Every
 footnote is called once, and every figure of the unit's pages is set.
 Inline: *...* italics, **...** bold, $...$ and \\[...\\] TeX math (a display \\[...\\] may carry footnote calls [^KEY]
@@ -58,7 +59,8 @@ SOURCES = {"S01": ROOT / "S01", "S02C": ROOT / "S02" / "candidate_v009_print001-
            "S05": ROOT / "S05" / "versio", "S07": ROOT / "S07" / "adnotationes", "S09G": ROOT / "S09" / "glossarium",
            "S09I": ROOT / "S09" / "indices"}
 ESCAPED = {"S07"}   # read with the csv writer's escape character: its rows may hold a whole TeX table
-SEC = {"b": "body", "nl": "notes_left", "nr": "notes_right", "n": "notes", "nf": "notes_full", "s": "section"}
+SEC = {"b": "body", "nl": "notes_left", "nr": "notes_right", "n": "notes", "nf": "notes_full", "s": "section",
+       "cl": "col_left", "cr": "col_right"}
 csv.field_size_limit(10 ** 8)
 
 
@@ -116,7 +118,7 @@ def load_sources():
 
 
 def full(a):
-    m = re.fullmatch(r"(\d{4})(b|nl|nr|nf|n|s)(\d{3})", a)
+    m = re.fullmatch(r"(\d{4})(b|nl|nr|nf|n|s|cl|cr)(\d{3})", a)
     return f"AB01-PDF{m.group(1)}-{SEC[m.group(2)]}-L{m.group(3)}" if m else a
 
 
@@ -141,9 +143,9 @@ def parse(path):
         if raw.startswith("@n "):
             blocks[-1]["notes"].append(raw[3:].strip())
             continue
-        m = re.match(r"@(part|h|c|p\+?|m|ar|grid) (.+)$", raw)
+        m = re.match(r"@(part|h|c|p\+?|e\+?|m|ar|grid) (.+)$", raw)
         if m:
-            blocks.append({"kind": m.group(1).rstrip("+"), "cont": m.group(1) == "p+", "ranges": ranges_of(m.group(2)),
+            blocks.append({"kind": m.group(1).rstrip("+"), "cont": m.group(1).endswith("+"), "ranges": ranges_of(m.group(2)),
                            "text": [], "notes": []})
             continue
         m = re.match(r"@t (?:spec=(\S+) )?(?:size=(\w+) )?(.+)$", raw)
@@ -378,6 +380,7 @@ PREAMBLE = r"""\documentclass[11pt]{article}
 \setlength{\parindent}{0pt}\setlength{\parskip}{0.55em}
 \tracinglostchars=2
 \newcommand{\Pg}[1]{\marginpar{\footnotesize\color{gray}#1}}
+\newcommand{\Entry}[1]{\par{\parskip=0.2em\relax\noindent\hangindent=1.5em\hangafter=1 #1\par}}
 \newcommand{\PartHead}[2]{\clearpage\pdfbookmark[0]{#1}{part-#2}{\centering\LARGE #1\par}\bigskip}
 \newcommand{\UnitHead}[2]{\par\setcounter{footnoteT}{0}\needspace{8\baselineskip}\bigskip\pdfbookmark[1]{#1}{unit-#2}\hypertarget{EN-#2}{}%
  {\large\bfseries\interlinepenalty=10000 #1\par}\nobreak\medskip}
@@ -556,13 +559,13 @@ def main():
                 continue
             pages = []
             for x in idx:
-                if (rows[x]["section"] == "body" or u["part"] == "N") and rows[x]["page"] not in pages:
+                if (rows[x]["section"] == "body" or u["part"] in ("N", "I")) and rows[x]["page"] not in pages:
                     pages.append(rows[x]["page"])
             mark = "".join(r"\Pg{" + vol + " " + p + "}" for p in pages if p != last_page)
             last_page = pages[-1] if pages else last_page
             text = " ".join(b["text"])
             tn = [inline(x) for x in b["notes"]]
-            if b["kind"] in ("part", "h", "c", "p"):
+            if b["kind"] in ("part", "h", "c", "p", "e"):
                 text = inline(text, notes, tn)
             elif b["kind"] == "m":
                 text = math_tex(b, notes, tn)
@@ -578,6 +581,10 @@ def main():
                 body[-1] = body[-1][:-len(r"\par")] + " " + mark + text + tnotes + r"\par"
             elif b["kind"] == "p":
                 body.append(r"\par " + mark + text + tnotes + r"\par")
+            elif b["kind"] == "e" and b["cont"] and body and body[-1].startswith(r"\Entry{"):  # @e+: the same entry
+                body[-1] = body[-1][:-1] + " " + mark + text + tnotes + "}"
+            elif b["kind"] == "e":
+                body.append(r"\Entry{" + mark + text + tnotes + "}")
             elif b["kind"] == "m":
                 body.append(mark + text + tnotes)
             elif b["kind"] == "t":
