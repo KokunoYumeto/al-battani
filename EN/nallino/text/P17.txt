@@ -1,0 +1,67 @@
+@unit P17
+@p 0055b032..0055b038
+IV. *Al-Battānī's trigonometry.* — Since none of the Arab writers older than al-Battānī who deal with trigonometric problems has yet been printed, it is worth drawing out, as far as can be done from the very formulas of spherical astronomy, what our author knew of this science, and setting it out in summary; especially as so many false things are told by the writers on the history of mathematics. Only von Braunmühl, as I said above, p. xl, avoided almost all the errors of his predecessors and rightly recognized the frequent use of the orthographic projection in al-Battānī's trigonometry; he would have added some other things had he known the Arabic text.
+@p 0056b001..0056b005
+The trigonometric functions that al-Battānī uses are the *sine*, the *sine of the complement* or *cosine*, and the *versed sine*[^56.1]; in the Greek manner they are referred to a radius of 60 parts, which I shall denote by the letter $R$. That in all these al-Battānī followed the older Arabs, who had fused the Greek and the Indian notions into one, I have shown on pp. 154–56. As he himself acknowledges, p. 10, l. 33 ff., he constructed the table of sines (vol. II, pp. 55–56) by halving Ptolemy's chords of the double arcs.
+@p 0056b006..0056b009
+*Tangents* and *cotangents* he uses only for the purposes of gnomonics, not as true trigonometric functions; he therefore refers them, in the Indian manner, to a radius, or gnomon, of 12 parts. I have collected the author's formulas (p. 22) in the notes, pp. 180–82; the table of shadows, or of cotangents for $R = 12^{p}$, is in vol. II, p. 60.
+@p 0056b010..0056b016
+Ptolemy's formulas, from which the properties of the sines are at once deduced and the sine of the sum or of the difference of two arcs can be found, are set out on pp. 9–10 (notes 153–54); the formula for computing the sine of half an arc also on p. 10 (note 157). Besides these rules the author teaches, p. 11, ll. 32–34 (cf. the table of sines itself and p. 78, note p. 255):
+\[ \sin(180^\circ - a) = \sin a, \]
+and, p. 11 (note p. 156):
+\[ \cos a = \sqrt{R^2 - \sin^2 a}. \]
+@p 0056b017..0056b023
+Whether our author knew the theorem «in any *plane triangle* the sides are to one another in the same ratio as the sines of the angles opposite them», I do not know. It is, however, contained in both the formulas of p. 85 (note p. 265); for one is[^56.2]
+\[ c = a\,\frac{\sin(180^\circ - C)}{\sin A} = a\,\frac{\sin C}{\sin A} \qquad\text{i.e.}\qquad c : a = \sin C : \sin A; \]
+the other, likewise,
+\[ b = a\,\frac{\sin B}{\sin A} \qquad\text{i.e.}\qquad b : a = \sin B : \sin A. \]
+The same follows from the rule of p. 22 (note 180, α), which concerns the right triangle.
+@p 0056b024..0056b026
+For any plane triangle, however, the formula
+\[ a = \frac{b\cos C}{R} + \sqrt{c^2 - \frac{b^2\sin^2 C}{R^2}} \]
+was easily deduced by al-Battānī, pp. 78–79 (notes 255–56), from Ptolemy's geometrical constructions.
+@p 0056b027..0056b030
+For *right spherical triangles* he derived, from the tedious precepts of the Almagest themselves, by putting sines in place of chords:
+\[ \cos b = \frac{\cos a\cos c}{R}[^56.3] \qquad\qquad \sin b = R\,\frac{\sin c}{\sin C}[^56.4] \]
+\[ \sin a = R\,\frac{\sin c}{\cos c} \times \frac{\cos C}{\sin C}[^56.5] \qquad\qquad \cos A = R\,\frac{\sin c}{\cos c} \times \frac{\cos b}{\sin b}[^56.6]. \]
+@p 0057b001..0057b004
+The theorem «the sines of the sides of any spherical triangle are to one another as the sines of the angles opposite them» seems not to have been unknown to al-Battānī as far as *right spherical triangles* are concerned; cf. what I said in the notes, pp. 181, 258, 259.[^n]
+@n The print has «pp. 181, 194, 258, 259, and the formula α on p. 183, deduced by the orthographic projection, which puts that theorem before one's eyes, so to speak»; Nallino's Addenda et emendanda (Part II, p. XVII) delete, on Suter's advice, the reference to p. 194, where an oblique triangle is treated, and also the words on the formula α.
+@p 0057b005..0057b025
+In solving *oblique spherical triangles* he seems to have used Menelaus's theorem, in the Ptolemaic manner, only once, namely in the rule of pp. 31–32 (notes pp. 192–93). Elsewhere he uses the analemma, or *orthographic projection*[^57.1], so that he has no need to divide oblique triangles into two right ones. From this come formulas that for that age were even more convenient than those deduced by present-day trigonometry; for, to give an example, the hour angle $t$ is computed in chapter XVI (notes pp. 189–91) as
+\[ \operatorname{vers} t = \operatorname{vers} P - \frac{\sin h\,\operatorname{vers} P}{\sin(\text{merid. alt.})}, \]
+where $P$ can be taken directly from al-Battānī's tables[^57.2][^n]; whereas our formula, with $R = 60^{p}$, is
+\[ \cos t = \frac{R^2\sin h - R\sin\varphi\sin\delta}{\cos\varphi\cos\delta}. \]
+Likewise the problem of chapter XI, p. 23 (notes pp. 183–85), solved by the orthographic projection, requires two formulas:
+\[ \sin(\text{diff. horiz.}) = \frac{\sin h\sin\varphi}{\cos\varphi}, \qquad \cos(\text{azimuth}) = R\,\frac{\sin(\text{rising ampl.}) - \sin(\text{diff. horiz.})}{\cos h}, \]
+which are in no way more involved than ours:
+\[ \cos(\text{azimuth}) = \frac{R^2\sin\delta - R\sin h\sin\varphi}{\cos h\cos\varphi}. \]
+That both these rules occur also in Ḥabash, our author's contemporary, and were probably found by Arabs older than al-Battānī, I have already said in the notes; let it be added that von Braunmühl, pp. 52–53, very well observed that the way of deducing the first formula (ch. XVI) is not unlike the way by which the author of the Indian book *Sūrya-Siddhānta* (ch. III, verses 37–39, Burgess–Whitney's translation, p. 261) had found the rule[^57.3]
+\[ \operatorname{vers} t = (R \pm \sin(\text{asc. diff.})) - R\,\frac{\sin h}{\cos\varphi} \times \frac{R}{\operatorname{vers} P}, \]
+where $R + \sin(\text{asc. diff.}) = \operatorname{vers} P$.[^n]
+@n In the note the print has «p. 96»; the notes on chapter XXI, with the formula β, are on p. 196.
+@n Here and in n. 3 the print has $\operatorname{vers} P$ where the formula needs the day-radius $\cos\delta$, the radius of the diurnal circle: only with $R/\cos\delta$ does it agree with al-Battānī's rule above, since $\operatorname{vers} P / \sin(\text{merid. alt.}) = R^2/(\cos\varphi\cos\delta)$. For $\varphi = 36^\circ$, $\delta = 20^\circ$, $h = 30^\circ$ the formula as printed gives $\operatorname{vers} t = 0.776\,R$; with $\cos\delta$ it gives $0.607\,R$, as al-Battānī's rule does.
+@p 0057b026..0057b029
+With the help of the orthographic projection al-Battānī also found *new* and elegant solutions, such as that of chapter XII (pp. 25–26, notes pp. 186–87), by which, given the rising amplitude and the meridian altitude, he obtains the altitude of the Sun on the prime vertical; a problem that could not otherwise be solved except by long computations.
+@p 0057b030..0057b032
+But of the greatest weight are the precepts of chapter XXVI, which the author uses here and there[^57.4] as a *general rule* for solving *any spherical triangles whatever*, when two sides and the angle included between them are known.
+@f 56.1 0056nl001..0056nl002
+Of Indian origin; it is defined on p. 11 (note p. 156): $\operatorname{vers} a = R - \cos a$.
+@f 56.2 0056nl003..0056nl005
+I denote the angles by capital letters, the sides opposite them by small letters. In right triangles $b$ is the hypotenuse, $B$ the right angle.
+@f 56.3 0056nl006
+P. 20 (notes 177–78), 21 (note 179, α).
+@f 56.4 0056nl007 + 0056nr001..0056nr003
+P. 21 (note 178); and, with no model in Ptolemy, p. 35 (note 196), 37 (note 199), 81 (note 258), 82 (note 259, α). Likewise $\sin a = \frac{\sin b\sin A}{R}$, p. 12 (note 162), 76 (note 251).
+@f 56.5 0056nr004..0056nr005
+P. 13–14 (note 163), 21–22 (note 180), 27 (notes 188–89, β), 32 (note 195).
+@f 56.6 0056nr006..0056nr007
+P. 21 (note 179, β), 79–80 (note 257), 81–82 (notes 258–59).
+@f 57.1 0057nl001..0057nl002
+That the Arabs learned its use chiefly from the Indians is shown by von Braunmühl, I, 38–42.
+@f 57.2 0057nl003..0057nl005
+The same in chapter XXI, pp. 33–34 (note p. 196, β). The converse problem, to find $\sin h$, in chapters XVII and XXII (notes pp. 192 and 196).
+@f 57.3 0057nl006 + 0057nr001..0057nr002
+Likewise *Sūrya-Siddhānta* III, 34–36, pp. 259–260: $\sin h = \bigl\{(R \pm \sin(\text{asc. diff.})) - \operatorname{vers} t\bigr\} \times \frac{\operatorname{vers} P}{R} \times \frac{\cos\varphi}{R}$.
+@f 57.4 0057nr003..0057nr005
+Ch. XXVI, pp. 38–40 (notes pp. 200–04); ch. XLI, p. 87, ll. 11–13; and ch. LIV, p. 131, ll. 20–38 (with the notes, pp. 307–09, where the true reading is restored).

@@ -31,7 +31,8 @@ as a running head (PRAEFATIO). An anchor is written in full (AB01-PDF0242-body-L
 nf and s for notes_left, notes_right, notes, notes_full and section). Every line
 of a unit belongs to one block; a line may also end one block and begin another, where a sentence ends inside it. Every
 footnote is called once, and every figure of the unit's pages is set.
-Inline: *...* italics, **...** bold, $...$ and \\[...\\] TeX math; Arabic, Greek, Hebrew and Syriac are set in their
+Inline: *...* italics, **...** bold, $...$ and \\[...\\] TeX math (a display \\[...\\] may carry footnote calls [^KEY]
+beside its formulas, as the preface sets them); Arabic, Greek, Hebrew and Syriac are set in their
 fonts; {ar:...} is an Arabic phrase with its own brackets or punctuation, set as one right-to-left run; {img:NAME}
 (or {img:NAME:H:D}, H em high and D em below the line) is a glyph that the transcription of S01 keeps as an image of the print.
 
@@ -252,6 +253,27 @@ def display(label, math, notes, tn):
             + math + r"$\par")
 
 
+def display_marks(part, notes, tn):
+    """an unlabelled display \\[ math \\] whose formulas carry footnote calls, as Nallino sets his notes beside the
+    formulas of the preface: the marks stand in the display, the texts follow it"""
+    texts, ttexts = [], []
+
+    def mark(m):
+        if m.group(1) == "n":
+            ttexts.append(tn.pop(0))
+            return r"\mbox{\footnotemarkT{}}"
+        texts.append(notes[m.group(1)])
+        return r"\mbox{\footnotemark{}}"
+    out = re.sub(r"\[\^([^\]]+)\]", mark, part)
+    if texts:
+        out += r"\addtocounter{footnote}{-" + str(len(texts)) + "}" + "".join(
+            r"\stepcounter{footnote}\footnotetext{" + t + "}" for t in texts)
+    if ttexts:
+        out += r"\addtocounter{footnoteT}{-" + str(len(ttexts)) + "}" + "".join(
+            r"\stepcounter{footnoteT}\footnotetextT{" + t + "}" for t in ttexts)
+    return out
+
+
 def inline(s, notes=None, tn=None):
     """the English of a block: math passes as TeX; [^KEY] becomes Nallino's footnote, [^n] the next note of the
     translator; a display \\[ [[label]] math \\] is set with its label beside it"""
@@ -263,7 +285,7 @@ def inline(s, notes=None, tn=None):
             out.append(r"\footnote{" + notes[part[2:-1]] + "}")
         elif part.startswith(r"\["):
             m = re.match(LABEL, part[2:-2].strip())
-            out.append(display(m.group(1), m.group(2), notes, tn) if m else part)
+            out.append(display(m.group(1), m.group(2), notes, tn) if m else display_marks(part, notes, tn))
         elif part.startswith("$"):
             out.append(part)
         else:
