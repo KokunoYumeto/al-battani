@@ -90,7 +90,7 @@ def load_sources():
 
 
 def full(a):
-    m = re.fullmatch(r"(\d{4})(b|nl|nr|n|s)(\d{3})", a)
+    m = re.fullmatch(r"(\d{4})(b|nl|nr|nf|n|s)(\d{3})", a)
     return f"AB01-PDF{m.group(1)}-{SEC[m.group(2)]}-L{m.group(3)}" if m else a
 
 
