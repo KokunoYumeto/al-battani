@@ -32,6 +32,8 @@ The work runs chapter by chapter. First the Arabic is read with Nallino's appara
 
 **Done:** an English translation of Nallino's own Latin writing on the *Zīj* (his commentary on the canons, his notes on the tables, his prefaces, addenda, glossary and indexes), in [nallino/](nallino/).
 
+**Done:** the tables of Part II that Part III does not print in Arabic (Part II pp. 7–188: the weekday signs, the concordance of the eras, the mean motions, the syzygies, the spherical tables, the equations, the eclipses, the parallaxes, the planets, their stations, latitudes and apparitions, the revolutions of the years), with English in place of Nallino's Latin heads, in [tables_part2/](tables_part2/). Read [tables_part2/tables_en.pdf](tables_part2/tables_en.pdf).
+
 Al-Battānī's astrological history, *Kitāb fī dalāʾil al-qirānāt wa-l-kusūfāt* ([S15](../S15/historia/)), is not translated here: E. S. Kennedy, B. van Dalen, G. Saliba and J. Samsó print an English translation beside Saliba's edition of the Arabic, «Al-Battānī's Astrological History of the Prophet and the Early Caliphate», *Suhayl* 9 (2009–2010), pp. 13–148.
 
 | File | Content |
@@ -40,6 +42,7 @@ Al-Battānī's astrological history, *Kitāb fī dalāʾil al-qirānāt wa-l-kus
 | `build_en.py`, `make_pdf.py` | check that every Arabic line of each chapter is translated once, and build the PDF deterministically |
 | `tables/*.tsv`, `build_tables.py` | the English of the tables of Part III, one file per table, keyed to the rows transcribed in [S13](../S13/); `build_tables.py` checks that every row is translated once and sets the tables with their numbers from S13 |
 | `alignment.tsv` | every block of the English with its Arabic lines and pages |
+| `tables_part2/` | the tables of Part II that Part III does not print, with English in place of Nallino's Latin heads ([README](tables_part2/README.md)) |
 | `glossary.tsv` | the technical terms: Arabic, transliteration, English, Nallino's Latin |
 | `tools/sources.py` | the Arabic and Nallino's Latin of a chapter side by side |
 | `checks/rules.py` | numerical checks of the mathematical claims in the notes (chapters 12, 18, 24, 25, 28, 30, 32, 33, 36, 38, 39, 40, 41, 42, 43, 44, 46, 47, 48, 50, 51, 52, 53, 54, 55, 56 and 57, with the short chapters after 57, the date of the star catalogue and the latitude of the tables of 1211), with their output in `rules.out.txt` |
