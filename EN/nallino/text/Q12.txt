@@ -1,0 +1,46 @@
+@unit Q12
+@p 0442b023..0442b038
+288 and 289: Of the book *al-manshūrāt*, which al-Bīrūnī attributes to Ptolemy, I can now adduce a third mention, hidden in Barhebraeus[^n]. Relying on the elements of the *Almagest*, and taking the spheres of the planets to be contiguous to one another, he first computes (pp. 215–19 of the text, 188–91 of the translation) the geocentric distances of the heavenly bodies. According to Ptolemy the least distance of the Sun is 1160 terrestrial radii; hence this is the greatest distance of Venus. But according to Ptolemy himself the radius of the epicycle of Venus comprises $43^{p}\,\tfrac{1}{6}$ of the parts of which the radius of the deferent has $60^{p}$; the eccentricity of the deferent with respect to the Earth is $1\,\tfrac{1}{4}$ of the same parts; hence the least distance of Venus, in sixtieths of the radius of the deferent, will be
+\[ 60^{p} - \left(43^{p}\,\tfrac{1}{6} + 1^{p}\,\tfrac{1}{4}\right) = 60^{p} - 44^{p}\,25' = 15^{p}\,35', \]
+and the greatest
+\[ 60^{p} + \left(43^{p}\,\tfrac{1}{6} + 1^{p}\,\tfrac{1}{4}\right) = 60^{p} + 44^{p}\,25' = 104^{p}\,25'. \]
+But we have seen that this greatest distance is 1160 terrestrial semidiameters; hence
+\[ 1160 : 104^{p}\,25' = \text{least dist.} : 15^{p}\,35' \]
+\[ \text{least dist.} = \frac{1160 \times 15^{p}\,35'}{104^{p}\,25'} = 174 \text{ terrestrial semidiam.},[^n] \]
+which will also be the greatest distance of Mercury. — By similar computations he finds these least distances:
+@n The work is Barhebraeus's course of astronomy, *Le livre de l'ascension de l'esprit sur la forme du ciel et de la terre*, edited with a French translation by F. Nau (Paris 1899–1900); the pages of the «text» and of the «translation» cited here are those of that edition.
+@n The quotient is 173⅛ (173.12); 174 is Barhebraeus's figure, as in the list that follows. The print omits the minute sign in the denominator.
+@t spec=lrlrlr 0442b039..0442b041
+the Moon | $33\,\tfrac{1}{2}\,\tfrac{1}{20}$ | the Sun | 1160 | Saturn | 14259
+Mercury | $64\,\tfrac{1}{6}$ | Mars | 1260 | the fixed stars | 19963
+Venus | 174 | Jupiter | 8820 | |
+@p 0442b042..0442b043 + 0443b001..0443b008
+He then computes (pp. 220–222 of the text = 191–93 of the translation) the diameters and volumes of the Moon and of the Sun with respect to the Earth; he relies on Euclid's proposition XII, 18, and on the principle that the ratio of the semidiameters of the Sun and the Moon is that of their geocentric distances. Since Ptolemy found the semidiameter of $\MoonSym$ to be 17′ 33″[^n], and the mean distance of $\SunSym$ 1210 terrestrial radii,
+\[ \text{semid.}\ \SunSym : 1210 = 17'\,33'' : 64\,\tfrac{1}{6} \]
+\[ \text{semid.}\ \SunSym = \frac{17'\,33'' \times 1210}{64\,\tfrac{1}{6}} = 5\,\tfrac{1}{2} \text{ semid. of the Earth}. \]
+Taking the cube, one finds
+\[ \text{volume of the Earth} = 39\,\tfrac{1}{4} \text{ volumes of the Moon} \]
+\[ \text{volume of the Sun} = 166\,\tfrac{1}{4}\,\tfrac{1}{8} \text{ vol. of the Earth}[^443.1] = 6644 \text{ volumes of the Moon}.[^n] \]
+@n That is, the Moon's radius is 0;17,33 of the Earth's radius (Ptolemy, *Almagest* V, 16); and 0;17,33 × 1210 ÷ 64;10 = 5.52.
+@n 166⅜ × 39¼ = 6530¼. The 6644 comes from Ptolemy (*Almagest* V, 16), who makes the diameters of the Moon, the Earth and the Sun as 1 : 3⅖ : 18⅘ and their volumes as 1 : 39¼ : 6644½; the quotient 6644½ ÷ 39¼ = 169.3 is his «170» in the footnote.
+@p 0443b009..0443b011
+There follow (pp. 222–32 of the text, 193–200 of the translation) the computations of the diameters and volumes of the five planets and of the fixed stars. They rest on these [apparent angular] diameters at the mean geocentric distances[^443.2]:
+@t spec=lllll 0443b012..0443b014
+Mercury | $\tfrac{1}{15}$ of the diameter of the Sun | | Jupiter | $\tfrac{1}{12}$ of the diameter of the Sun
+Venus | $\tfrac{1}{10}$ of the diameter of the Sun | | Saturn | $\tfrac{1}{18}$ of the diameter of the Sun
+Mars | $\tfrac{1}{20}$ of the diameter of the Sun | | |
+@p 0443b015..0443b021
+He asserts that these diameters were observed by Hipparchus with the help of the triquetrum[^443.3] and reported by Ptolemy; afterwards (pp. 224–25 of the text, 195 of the translation) he speaks thus of the three superior planets: «Hipparchus, the first to determine the diameters of the three superior ones, did not explain at what distance he observed them. Ptolemy, in the book {syr:ܕܢܣܝܪ̈ܐ}, thought that they had been observed by him at the mean distance; nor did he depart from the truth, since it is known that the superior planets cannot be observed at the greatest distance .....». — There follow the linear diameters and the volumes, computed in the same way as in al-Battānī.
+@p 0443b022..0443b030 + 0444b001..0444b002
+The title of the book of Ptolemy just mentioned is rendered «du Fruit» (of the Fruit) by Nau, who thought {syr:ܢܣܝܪ̈ܐ} a corruption of the Arabic {ar:الثمرة} «the fruit», the well-known name of the *Centiloquium* (Καρπός, «fruit») falsely attributed to Ptolemy. But such a corruption is very hard in Arabic as well as in Syriac letters; moreover, what is set out in the hundred astrological aphorisms of the *Centiloquium* differs entirely from the matters excerpted from the book {syr:ܢܣܝܪ̈ܐ}. In Syriac this *ktābā da-nsīrē* means «book of prisms»; in Arabic *al-manshūrāt* denotes several things: «things spread out, unfolded», «things made public», «things divided or cut with a saw», «royal charters not closed with seals», and also «prisms», although in this sense the plural *manāshīr* is rather used. Barhebraeus took these matters of the distances and sizes of the heavenly bodies from the same *Kitāb al-manshūrāt* from which al-Bīrūnī drew the very same things; he rendered the title of the book in Syriac, not very aptly, as «Book of prisms».
+@p 0444b003..0444b012
+Al-Battānī, in this chapter L, and the astronomers mentioned in my notes show well enough that writings on the *distances and sizes* of the heavenly bodies were widespread among the Arabs of the ninth century AD, besides Aristarchus' well-known little book περὶ μεγεθῶν καὶ ἀποστημάτων ἡλίου καὶ σελήνης. I shall adduce another testimony, from the *Introductorium* that Abū Maʿshar[^444.1] wrote in the year AD 849: «Constat enim ex *libris intervallorum celestium corporum* lune circulum quo terre proximus est a terre superficiem .128. miliarium milibus ac vere [sic] .94. miliaribus distare singula miliaria ex ternis cubitorum milibus» (for it is established from the *books of the intervals of the heavenly bodies* that the circle of the Moon, where it is nearest to the Earth, is distant from the surface of the Earth 128 thousand miles and truly [sic] 94 miles, each mile of three thousand cubits). He seems to have made the radius of the Earth 3818 miles, as Ibn Rosteh did; then the least distance of the Moon in radii of the Earth is found to be the same as al-Farghānī gives, for 128 094 divided by 3818 make 33.55, or $33\,\tfrac{1}{2}\,\tfrac{1}{20}$[^n].
+@n The distance is said to be from the surface of the Earth; counted from the centre, as the geocentric distances are, 128 094 miles would be 34.55 radii.
+@f 443.1 0443nl001..0443nl003
+Barhebraeus remarks: «Ptolemy found 170. Perhaps he took the square and the cube of a number greater than 5½, unless he erred in the computation».
+@f 443.2 0443nl004..0443nl009
+The same diameters are in al-Battānī; al-Bīrūnī sets out the same ones on the authority of the book *al-manshūrāt*, adding $\tfrac{1}{20}$ for the fixed stars of the first magnitude, $\tfrac{4}{81}$ for those of the second, $\tfrac{5}{109}$ for those of the third, $\tfrac{1}{24}$ for those of the fourth, $\tfrac{2}{65}$ for those of the fifth, $\tfrac{1}{36}$ for those of the sixth.
+@f 443.3 0443nl010..0443nl012 + 0443nr001..0443nr012
+P. 222, l. 7 of the text, 193 of the translation, where Nau has «dioptre» (dioptra): *b-ōrganōn trayānāy peshḥā*, which most certainly denotes the triquetrum on p. 205 of the text (cf. what I said in vol. I, pp. 321–322). But Ptolemy, *Almag.*, V, 14 (ed. Halma, vol. I, p. 339), says that the instrument with which the apparent diameters of the Sun and the Moon are taken is «the dioptra provided with a rule of four cubits, described by Hipparchus», τὴν ὑποδεδειγμένην ὑπὸ τοῦ Ἰππάρχου διὰ τοῦ τετραπήχους κανόνος διόπτραν. Barhebraeus perhaps fell into error through this, since a small dioptra is always fitted to one of the sides of the triquetrum. — But elsewhere (p. 209 of the text, 183 of the translation), dealing with the measurement of the solar diameter, he rightly denotes the dioptra: «Hipparchus ..... prepared that instrument which has two holes (*nqābā*), and used it».
+@f 444.1 0444nl001..0444nl002 + 0444nr001..0444nr002
+*Introductorium in astronomiam Albumasaris Abalachi octo continens libros partiales*, Augsburg 1489, book IV, chap. I, fol. c7r.

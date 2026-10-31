@@ -19,7 +19,7 @@ in two units). Each unit is one file text/<unit>.txt:
   @t [spec=lrr] [size=footnotesize] RANGES   a table: one row per line, cells separated by " | "; a row beginning
                               "! " is a heading; the size (default small) is that of the whole table
   @f KEY RANGES               one of Nallino's footnotes; the block that calls it has [^KEY] where his number stands
-  @fig FILE ANCHOR            a redrawn figure of S03, S04 or S07 (figures/FILE.tex) and its anchor in the transcription
+  @fig FILE ANCHOR            a redrawn figure of S03, S04, S05 or S07 (figures/FILE.tex) and its anchor in the transcription
                               (AB01-PDF0252-body-F01); a caption may follow
   @grid RANGES                a table set as the Latin edition sets it, by the column machinery of S07
                               (build_adnotationes.py): the lines of its page file in English, the directives written
@@ -279,7 +279,7 @@ def display_marks(part, notes, tn):
     if ttexts:
         out += r"\addtocounter{footnoteT}{-" + str(len(ttexts)) + "}" + "".join(
             r"\stepcounter{footnoteT}\footnotetextT{" + t + "}" for t in ttexts)
-    return out
+    return out + r"\ignorespaces" if texts or ttexts else out
 
 
 def inline(s, notes=None, tn=None):
