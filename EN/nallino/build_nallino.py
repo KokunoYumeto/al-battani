@@ -326,6 +326,11 @@ PREAMBLE = r"""\documentclass[11pt]{article}
 \newcommand{\ArabicRun}[1]{\smash[b]{\textarabic{#1}}}
 \DeclareNewFootnote{T}[alph]
 \MakePerPage{footnote}\MakePerPage{footnoteT}
+% before perpage has its .aux the translator's notes of the preface run on past z: aa, ab, ...
+\makeatletter
+\newcommand{\TNoteLetter}[1]{\ifnum#1>26 \@alph{\numexpr(#1-14)/26\relax}\@alph{\numexpr#1-26*((#1-14)/26)\relax}\else\@alph{#1}\fi}
+\renewcommand{\thefootnoteT}{\TNoteLetter{\value{footnoteT}}}
+\makeatother
 \hypersetup{pdftitle={C. A. Nallino, notes on al-Battani's Zij: an English translation},pdfauthor={C. A. Nallino}}
 \setlength{\parindent}{0pt}\setlength{\parskip}{0.55em}
 \tracinglostchars=2
