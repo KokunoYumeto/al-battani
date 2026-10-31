@@ -2,11 +2,12 @@
 line-anchored Latin transcriptions and write the TeX.
 
 The Latin is read from the anchors.tsv of the transcriptions (one printed line per row: anchor, printed page, section,
-transcription): S03/versio and S04/versio (Part I, pp. 110-327), S05/versio (the front matter of Part II: title, preface,
-addenda; pp. I-XXXI) and S07/adnotationes (the notes on the tables, Part II,
-pp. 189-317, whose rows may hold a whole TeX table over several lines, escaped as the csv writer escapes them); and
-from the line-anchored transcription of S01 (the front matter of Part I: title, dedication, preface, bibliography,
-addenda; pp. VII-LXXX).
+transcription): S02/versio (Part I, pp. 54-109), S03/versio and S04/versio (Part I, pp. 110-327), S05/versio (the front
+matter of Part II: title, preface, addenda; pp. I-XXXI), S07/adnotationes (the notes on the tables, Part II,
+pp. 189-317, whose rows may hold a whole TeX table over several lines, escaped as the csv writer escapes them),
+S09/glossarium and S09/indices (the glossary and the indexes, Part II, pp. 319-413); from the line-anchored
+transcription of S01 (the front matter of Part I: title, dedication, preface, bibliography, addenda; pp. VII-LXXX);
+and from the page records of S02 v009 (Part I, pp. 1-53).
 units.tsv lists the units in the order of the edition: unit, part, title, and its lines (RANGES, as below; no line is
 in two units). Each unit is one file text/<unit>.txt:
   @unit ID
@@ -15,6 +16,8 @@ in two units). Each unit is one file text/<unit>.txt:
   @h RANGES                   a heading
   @c RANGES                   a centred line (the lemmas of the commentary)
   @p RANGES                   a paragraph
+  @p+ RANGES                  a paragraph that goes on from the last paragraph of the unit before (an entry of the
+                              glossary that runs over from one unit's pages into the next)
   @m RANGES                   display formulas, one per line, in TeX math; a line may begin with [[label]]
   @t [spec=lrr] [size=footnotesize] RANGES   a table: one row per line, cells separated by " | "; a row beginning
                               "! " is a heading; the size (default small) is that of the whole table
@@ -52,7 +55,8 @@ HERE = Path(__file__).resolve().parent
 ROOT = HERE.parent.parent
 SOURCES = {"S01": ROOT / "S01", "S02C": ROOT / "S02" / "candidate_v009_print001-053", "S02": ROOT / "S02" / "versio",
            "S03": ROOT / "S03" / "versio", "S04": ROOT / "S04" / "versio",
-           "S05": ROOT / "S05" / "versio", "S07": ROOT / "S07" / "adnotationes"}
+           "S05": ROOT / "S05" / "versio", "S07": ROOT / "S07" / "adnotationes", "S09G": ROOT / "S09" / "glossarium",
+           "S09I": ROOT / "S09" / "indices"}
 ESCAPED = {"S07"}   # read with the csv writer's escape character: its rows may hold a whole TeX table
 SEC = {"b": "body", "nl": "notes_left", "nr": "notes_right", "n": "notes", "nf": "notes_full", "s": "section"}
 csv.field_size_limit(10 ** 8)
@@ -137,9 +141,10 @@ def parse(path):
         if raw.startswith("@n "):
             blocks[-1]["notes"].append(raw[3:].strip())
             continue
-        m = re.match(r"@(part|h|c|p|m|ar|grid) (.+)$", raw)
+        m = re.match(r"@(part|h|c|p\+?|m|ar|grid) (.+)$", raw)
         if m:
-            blocks.append({"kind": m.group(1), "ranges": ranges_of(m.group(2)), "text": [], "notes": []})
+            blocks.append({"kind": m.group(1).rstrip("+"), "cont": m.group(1) == "p+", "ranges": ranges_of(m.group(2)),
+                           "text": [], "notes": []})
             continue
         m = re.match(r"@t (?:spec=(\S+) )?(?:size=(\w+) )?(.+)$", raw)
         if m:
@@ -229,16 +234,23 @@ GREEK_RUN = re.compile(rf"([{_GR}](?:[{_GR}{_MARKS}\s’',.]*[{_GR}])?)")
 COPTIC_RUN = re.compile(rf"([{_CO}][{_CO}{_MARKS}]*)")
 
 
+ZERO = chr(0xE000)   # Nallino's sign for zero, {0}, inside an Arabic phrase as well as outside it
+
+
 def plain(s):
     keep = []
+    s = s.replace("{0}", ZERO)
 
     def stash(m):  # {ar:...}: an Arabic phrase with its own brackets or punctuation, set as one right-to-left run; a
-        # Latin word in it, such as Nallino's (sic), is set left to right; {syr:...}: a Syriac phrase with its points
+        # run of Latin words in it, such as Nallino's (sic) or (that is, ...), is set left to right with its stops and
+        # commas, a Hebrew word in its own font (ال‍מִצְווֹת); {syr:...}: a Syriac phrase with its points
         if m.group(1) == "syr":
             keep.append(r"\RL{\syriacfont " + tex_escape(m.group(2)) + "}")
         else:
-            keep.append(r"\RL{\ArNote " + re.sub(r"[A-Za-z]+", lambda w: r"\LR{" + w.group(0) + "}",
-                                                 tex_escape(m.group(2))) + "}")
+            t = re.sub(r"[A-Za-z]+(?:[.,]?\s*[A-Za-z]+)*[.,]?", lambda w: r"\LR{" + w.group(0) + "}",
+                       tex_escape(m.group(2)))
+            t = re.sub(r"([֐-׿](?:[֐-׿\s]*[֐-׿])?)", r"{\\hebrewfont \1}", t)
+            keep.append(r"\RL{\ArNote " + t.replace(ZERO, r"\AbjadZero{}") + "}")
         return f"{len(keep) - 1}"
     s = re.sub(r"\{(ar|syr):([^{}]*)\}", stash, s)
 
@@ -256,7 +268,7 @@ def plain(s):
 
 
 def plain_runs(s):
-    s = tex_escape(s).replace(r"\{0\}", r"\AbjadZero{}")  # {0}: Nallino's sign for zero in abjad numbers
+    s = tex_escape(s).replace(r"\{0\}", r"\AbjadZero{}").replace(ZERO, r"\AbjadZero{}")  # {0}: Nallino's zero sign
     s = re.sub(r"\*\*([^*]+)\*\*", r"\\textbf{\1}", s)
     s = re.sub(r"\*([^*]+)\*", r"\\emph{\1}", s)
     # a stop between Arabic words stays in the run, and so does a zero-width non-joiner (بيره‌جك)
@@ -561,6 +573,8 @@ def main():
                 body.append(r"\UnitHead{" + text + tnotes + "}{" + u["unit"] + "}" + mark)
             elif b["kind"] == "c":
                 body.append(r"\par\begin{center}" + mark + text + tnotes + r"\end{center}")
+            elif b["kind"] == "p" and b["cont"] and body and body[-1].endswith(r"\par"):  # @p+: the same paragraph
+                body[-1] = body[-1][:-len(r"\par")] + " " + mark + text + tnotes + r"\par"
             elif b["kind"] == "p":
                 body.append(r"\par " + mark + text + tnotes + r"\par")
             elif b["kind"] == "m":
@@ -597,7 +611,7 @@ def main():
     held = []
     for part, name in (("P1", "the front matter of Part I"), ("N", "the notes to the translation of the canons"),
                        ("A", "the commentary of Part I"), ("P2", "the front matter of Part II"),
-                       ("T", "the notes on the tables of Part II")):
+                       ("T", "the notes on the tables of Part II"), ("G", "the glossary"), ("I", "the indexes")):
         mine = [u for u in units if u["part"] == part]
         got = [u for u in done if u["part"] == part]
         page_of = {}   # the printed page of each master page (roman in the front matter)

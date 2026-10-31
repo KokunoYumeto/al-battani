@@ -177,11 +177,20 @@
   "T38",
   "T39",
   "T40",
-  "T41"
+  "T41",
+  "G01",
+  "G02",
+  "G03",
+  "G04",
+  "G05",
+  "G06",
+  "G07",
+  "G08",
+  "G09"
  ],
- "latin_lines_translated": 21083,
- "blocks": 3754,
- "english_words": 237914,
- "canonical_source_checkpoint_sha256": "79d14659a7cfd43cded64b44178d0e8919fb8176730674531781ff5383884b53",
+ "latin_lines_translated": 22236,
+ "blocks": 3961,
+ "english_words": 253586,
+ "canonical_source_checkpoint_sha256": "439c811195349c2bc294fcc464ee5844ff04c15ba35086e55742fdf097b237ab",
  "canonical_source_checkpoint_note": "SHA-256 over the unit files in order: file name, a NUL byte, the bytes"
 }
