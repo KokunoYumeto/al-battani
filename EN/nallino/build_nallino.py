@@ -34,7 +34,8 @@ of a unit belongs to one block; a line may also end one block and begin another,
 footnote is called once, and every figure of the unit's pages is set.
 Inline: *...* italics, **...** bold, $...$ and \\[...\\] TeX math (a display \\[...\\] may carry footnote calls [^KEY]
 beside its formulas, as the preface sets them); Arabic, Greek, Hebrew and Syriac are set in their
-fonts; {ar:...} is an Arabic phrase with its own brackets or punctuation, set as one right-to-left run; {img:NAME}
+fonts; {ar:...} is an Arabic phrase with its own brackets or punctuation, set as one right-to-left run, and {syr:...}
+a Syriac phrase with its points; {img:NAME}
 (or {img:NAME:H:D}, H em high and D em below the line; {img:NAME:H:D:s} taking no room above or below the line) is a
 glyph that the transcription of S01 keeps as an image of the print.
 
@@ -214,11 +215,14 @@ def plain(s):
     keep = []
 
     def stash(m):  # {ar:...}: an Arabic phrase with its own brackets or punctuation, set as one right-to-left run; a
-        # Latin word in it, such as Nallino's (sic), is set left to right
-        keep.append(r"\RL{\ArNote " + re.sub(r"[A-Za-z]+", lambda w: r"\LR{" + w.group(0) + "}", tex_escape(m.group(1)))
-                    + "}")
+        # Latin word in it, such as Nallino's (sic), is set left to right; {syr:...}: a Syriac phrase with its points
+        if m.group(1) == "syr":
+            keep.append(r"\RL{\syriacfont " + tex_escape(m.group(2)) + "}")
+        else:
+            keep.append(r"\RL{\ArNote " + re.sub(r"[A-Za-z]+", lambda w: r"\LR{" + w.group(0) + "}",
+                                                 tex_escape(m.group(2))) + "}")
         return f"{len(keep) - 1}"
-    s = re.sub(r"\{ar:([^{}]*)\}", stash, s)
+    s = re.sub(r"\{(ar|syr):([^{}]*)\}", stash, s)
 
     def image(m):  # {img:NAME[:H[:D[:s]]]}: a glyph that S01 keeps as an image of the print, H em high, D em below
         # the line; with :s it takes no room above or below the line (vowelled Arabic words in running text)
