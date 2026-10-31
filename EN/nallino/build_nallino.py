@@ -50,7 +50,8 @@ from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
 ROOT = HERE.parent.parent
-SOURCES = {"S01": ROOT / "S01", "S03": ROOT / "S03" / "versio", "S04": ROOT / "S04" / "versio",
+SOURCES = {"S01": ROOT / "S01", "S02C": ROOT / "S02" / "candidate_v009_print001-053", "S02": ROOT / "S02" / "versio",
+           "S03": ROOT / "S03" / "versio", "S04": ROOT / "S04" / "versio",
            "S05": ROOT / "S05" / "versio", "S07": ROOT / "S07" / "adnotationes"}
 ESCAPED = {"S07"}   # read with the csv writer's escape character: its rows may hold a whole TeX table
 SEC = {"b": "body", "nl": "notes_left", "nr": "notes_right", "n": "notes", "nf": "notes_full", "s": "section"}
@@ -83,10 +84,27 @@ def read_s01(d):
     return rows
 
 
+def read_s02c(d):
+    """the page records of S02 v009 (Part I, pp. 1-53, PDF 90-142) as the rows of an anchors.tsv; a line holds its
+    transcription in a light markup (text) or in TeX (tex)"""
+    rows = []
+    for f in sorted((d / "transcription" / "pages").glob("AB01-PDF*.json")):
+        page = json.loads(f.read_text(encoding="utf-8"))
+        for s in page["sections"]:
+            for line in s.get("lines", []):
+                text = line.get("text") if line.get("text") is not None else line.get("tex", "")
+                text = re.sub(r"<ar>(.*?)</ar>", r"{ar:\1}", text)
+                text = re.sub(r"</?i>", "*", re.sub(r"<m>(.*?)</m>", r"$\1$", text))
+                rows.append({"anchor": line["id"], "printed_page": str(page["printed_page"]), "section": s["role"],
+                             "transcription": re.sub(r"</?[a-z]+>|\\Indent ", "", text)})
+    return rows
+
+
 def load_sources():
     rows, where = [], {}
     for name, d in SOURCES.items():
-        for r in read_s01(d) if name == "S01" else read_tsv(d / "anchors.tsv", name in ESCAPED):
+        for r in (read_s01(d) if name == "S01" else read_s02c(d) if name == "S02C"
+                  else read_tsv(d / "anchors.tsv", name in ESCAPED)):
             where[r["anchor"]] = len(rows)
             rows.append({"anchor": r["anchor"], "page": r["printed_page"], "section": r["section"],
                          "text": r["transcription"], "source": name, "pdf": int(r["anchor"][8:12])})
@@ -226,8 +244,10 @@ def plain(s):
 
     def image(m):  # {img:NAME[:H[:D[:s]]]}: a glyph that S01 keeps as an image of the print, H em high, D em below
         # the line; with :s it takes no room above or below the line (vowelled Arabic words in running text)
+        src = next(d for d in ("S01/source/presentation", "S02/candidate_v009_print001-053/source/presentation")
+                   if (ROOT / d / f"{m.group(1)}.png").exists())   # the crops of S01, or of S02 (Part I, pp. 1-53)
         box = (r"\raisebox{-" + (m.group(3) or ".25") + r"em}{\includegraphics[height=" + (m.group(2) or "1.05")
-               + "em]{../../S01/source/presentation/" + m.group(1) + ".png}}")
+               + "em]{../../" + src + "/" + m.group(1) + ".png}}")
         keep.append(r"\smash{" + box + "}" if m.group(4) else box)
         return f"{len(keep) - 1}"
     s = re.sub(r"\{img:(AB01-PDF\d{4}-[FG]\d{2})(?::([\d.]+))?(?::([\d.]+))?(:s)?\}", image, s)
@@ -523,7 +543,7 @@ def main():
                 continue
             pages = []
             for x in idx:
-                if rows[x]["section"] == "body" and rows[x]["page"] not in pages:
+                if (rows[x]["section"] == "body" or u["part"] == "N") and rows[x]["page"] not in pages:
                     pages.append(rows[x]["page"])
             mark = "".join(r"\Pg{" + vol + " " + p + "}" for p in pages if p != last_page)
             last_page = pages[-1] if pages else last_page
@@ -575,7 +595,8 @@ def main():
             print("ERROR", e)
         raise SystemExit(1)
     held = []
-    for part, name in (("P1", "the front matter of Part I"), ("A", "the commentary of Part I"),
+    for part, name in (("P1", "the front matter of Part I"), ("N", "the notes to the translation of the canons"),
+                       ("A", "the commentary of Part I"), ("P2", "the front matter of Part II"),
                        ("T", "the notes on the tables of Part II")):
         mine = [u for u in units if u["part"] == part]
         got = [u for u in done if u["part"] == part]
