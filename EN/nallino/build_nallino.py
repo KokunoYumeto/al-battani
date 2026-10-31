@@ -280,7 +280,8 @@ def plain_runs(s):
     s = re.sub(f"([{chr(0x1200)}-{chr(0x137F)}]+(?: [{chr(0x1200)}-{chr(0x137F)}]+)*)", r"{\\EthiopicFont \1}", s)
     s = s.replace(chr(0x2E3F), r"{\CapFont " + chr(0x2E3F) + "}")  # the capitulum of the Spanish quotations
     s = COPTIC_RUN.sub(r"{\\CopticFont\\bfseries \1}", s)
-    s = re.sub(r"([☉☽☾♈-♓☿♀♂♃♄⊙☊☋])", r"{\\MoonFont\\upshape \1}", s)  # FreeSerif Italic lacks these signs
+    s = re.sub(r"([☉☽☾♈-♓☿♀♂♃♄⊙☊☋✜])", r"{\\MoonFont\\upshape \1}", s)  # FreeSerif Italic lacks these signs
+    # (✜ is the sign of Belot's dictionary quoted in the glossary)
     s = re.sub("[" + "".join(SUP) + "]", lambda m: r"\textsuperscript{\itshape " + SUP[m.group(0)] + "}", s)
     return s
 
